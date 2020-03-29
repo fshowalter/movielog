@@ -13,7 +13,7 @@ from movielog.cli.internal import radio_list
 
 
 @logger.catch
-def prompt() -> Any:
+def prompt(args=None) -> Any:
     options = radio_list.CallableOptions(
         [
             (add_viewing.prompt, HTML("<cyan>Add Viewing</cyan>")),

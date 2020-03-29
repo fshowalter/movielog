@@ -1,8 +1,8 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 setup(
     name="movielog",
     version="1.0",
-    packages=find_packages(),
-    entry_points={"console_scripts": ["movielog = movielog.cli.__main__.:main"]},
+    packages=["movielog", "movielog.cli"],
+    entry_points={"console_scripts": ["movielog = movielog.cli.main:prompt"]},
 )
