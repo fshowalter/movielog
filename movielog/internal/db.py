@@ -4,7 +4,7 @@ from os import path
 from typing import Generator
 
 DB_FILE_NAME = "movie_db.sqlite3"
-DB_DIR = "movie_db_data"
+DB_DIR = "db"
 
 Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor

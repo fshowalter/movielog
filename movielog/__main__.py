@@ -1,6 +1,3 @@
-#! /usr/bin/env python3
-
-import operator
 import os
 import re
 from glob import glob
@@ -8,7 +5,6 @@ from glob import glob
 import yaml
 
 from movielog import reviews
-from movielog.cli import main
 from movielog.internal import db
 
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
@@ -59,5 +55,4 @@ def fix_reviews() -> None:
 
 
 if __name__ == "__main__":
-    # main.prompt()
     fix_reviews()

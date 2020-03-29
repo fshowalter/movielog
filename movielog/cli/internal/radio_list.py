@@ -7,23 +7,23 @@ from prompt_toolkit.layout import Layout
 from prompt_toolkit.layout.containers import HSplit
 from prompt_toolkit.widgets import Label, RadioList
 
-from movie_db import queries, watchlist
+from movielog import queries, watchlist
 
 OptionalCallableType = Optional[Callable[[], None]]
 CallableOptionType = Tuple[OptionalCallableType, HTML]
-CallableOptions = NewType('CallableOptions', List[CallableOptionType])
+CallableOptions = NewType("CallableOptions", List[CallableOptionType])
 
 PersonSearchResultOptionType = Tuple[Optional[queries.PersonSearchResult], HTML]
-PersonSearchOptions = NewType('PersonSearchOptions', List[PersonSearchResultOptionType])
+PersonSearchOptions = NewType("PersonSearchOptions", List[PersonSearchResultOptionType])
 
 CollectionOptionType = Tuple[Optional[watchlist.Collection], HTML]
-CollectionOptions = NewType('CollectionOptions', List[CollectionOptionType])
+CollectionOptions = NewType("CollectionOptions", List[CollectionOptionType])
 
 MovieSearchResultOptionType = Tuple[Optional[queries.MovieSearchResult], str]
-MovieSearchOptions = NewType('MovieSearchOptions', List[MovieSearchResultOptionType])
+MovieSearchOptions = NewType("MovieSearchOptions", List[MovieSearchResultOptionType])
 
 VenueOptionType = Tuple[Optional[str], HTML]
-VenueOptions = NewType('VenueOptions', List[VenueOptionType])
+VenueOptions = NewType("VenueOptions", List[VenueOptionType])
 
 
 @overload
@@ -37,12 +37,16 @@ def prompt(title: str, options: CollectionOptions) -> Optional[watchlist.Collect
 
 
 @overload
-def prompt(title: str, options: PersonSearchOptions) -> Optional[queries.PersonSearchResult]:
+def prompt(
+    title: str, options: PersonSearchOptions
+) -> Optional[queries.PersonSearchResult]:
     ...  # noqa: WPS428
 
 
 @overload
-def prompt(title: str, options: MovieSearchOptions) -> Optional[queries.MovieSearchResult]:
+def prompt(
+    title: str, options: MovieSearchOptions
+) -> Optional[queries.MovieSearchResult]:
     ...  # noqa: WPS428
 
 
@@ -57,14 +61,14 @@ def prompt(title: str, options: Sequence[Any]) -> Any:
     # Add exit key binding.
     bindings = key_binding.KeyBindings()
 
-    @bindings.add('c-d')  # type: ignore  # noqa WPS430
+    @bindings.add("c-d")  # type: ignore  # noqa WPS430
     def exit_(event: key_binding.key_processor.KeyPressEvent) -> None:
         """
         Pressing Ctrl-d will exit the user interface.
         """
         event.app.exit()
 
-    @bindings.add('enter', eager=True)  # type: ignore  # noqa: WPS430
+    @bindings.add("enter", eager=True)  # type: ignore  # noqa: WPS430
     def exit_with_value(event: key_binding.key_processor.KeyPressEvent) -> None:
         """
         Pressing Ctrl-a will exit the user interface returning the selected value.
