@@ -1,6 +1,6 @@
 # Movielog
 
-Python application for managing my movielog, including viewings and my watchlist.
+Python application for managing my movielog, including reviews, viewings, and my watchlist.
 
 See franksmovielog.com for a nice presentation.
 
