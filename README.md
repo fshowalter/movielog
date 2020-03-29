@@ -12,3 +12,9 @@ Assumes you've `brew installed` python 3.
 ./setup.sh
 source ./.venv/bin/activate
 ```
+
+## Running:
+
+```
+./bin/movielog.py
+```
