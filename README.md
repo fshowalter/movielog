@@ -4,7 +4,7 @@ Console application for managing my movielog, including reviews, viewings, and m
 
 See franksmovielog.com for a nice presentation.
 
-## Setup:
+## Setup
 
 Assumes you've `brew installed` python 3.
 
@@ -13,7 +13,7 @@ Assumes you've `brew installed` python 3.
 source ./.venv/bin/activate
 ```
 
-## Running:
+## Running
 
 ```
 ./bin/movielog.py
