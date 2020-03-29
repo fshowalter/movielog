@@ -7,6 +7,6 @@ Python application for managing my movielog, including viewings and my watchlist
 Assumes you've `brew installed` python 3.
 
 ```
-./install.sh
+./setup.sh
 source ./.venv/bin/activate
 ```
