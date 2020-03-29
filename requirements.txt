@@ -33,7 +33,6 @@ loguru==0.4.1
 lxml==4.5.0
 mccabe==0.6.1
 more-itertools==8.2.0
--e git+git@github.com:fshowalter/movielog-new.git@7f35a5a233714cc2e182860d7e3fc5e7cbe1a8a1#egg=movielog
 mypy==0.770
 mypy-extensions==0.4.3
 packaging==20.3
