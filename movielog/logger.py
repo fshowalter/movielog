@@ -7,36 +7,38 @@ from loguru import logger as _base_logger
 if TYPE_CHECKING:
     from loguru import Logger  # noqa: WPS433
 
-T = TypeVar('T')  # noqa: WPS111
+T = TypeVar("T")  # noqa: WPS111
 Function = Callable[..., T]
 
-LOGGER_CONFIG = types.MappingProxyType({
-    'handlers': [
-        {
-            'sink': _sys.stdout,
-            'format': '<green>{elapsed}</green> | ' +
-            '<level>{message}</level> ' +
-            '(<cyan>{file}</cyan>:<cyan>{line}</cyan>)',
-        },
-    ],
-})
+LOGGER_CONFIG = types.MappingProxyType(
+    {
+        "handlers": [
+            {
+                "sink": _sys.stdout,
+                "format": "<green>{elapsed}</green> | "
+                + "<level>{message}</level> "
+                + "(<cyan>{file}</cyan>:<cyan>{line}</cyan>)",
+            },
+        ],
+    }
+)
 
 _base_logger.configure(**LOGGER_CONFIG)
 
 
 class ExtendedLogger(object):
-    def __init__(self, _logger: 'Logger'):
+    def __init__(self, _logger: "Logger"):
         self.logger = _logger
 
     def log(self, message: str, *args: Any, **kwargs: Any) -> None:
         message_with_color = message
 
-        if message.startswith('==== '):
+        if message.startswith("==== "):
             message_with_color = message.replace(
-                '====', '<yellow>====</yellow>',
-            ).replace('{}', '<yellow>{}</yellow>')
+                "====", "<yellow>====</yellow>",
+            ).replace("{}", "<yellow>{}</yellow>")
         else:
-            message_with_color = message.replace('{}', '<green>{}</green>')
+            message_with_color = message.replace("{}", "<green>{}</green>")
 
         self.logger.opt(colors=True, depth=1).info(message_with_color, *args, **kwargs)
 

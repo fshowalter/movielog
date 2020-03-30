@@ -1,7 +1,7 @@
 from prompt_toolkit.shortcuts import confirm
 
 from movielog import watchlist
-from movielog.cli.internal import ask
+from movielog.cli.controls import ask
 
 
 def prompt() -> None:

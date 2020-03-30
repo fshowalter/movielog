@@ -4,12 +4,12 @@ import re
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, List, Optional, Sequence, Tuple
+from typing import Any, List, Optional, Sequence, Set, Tuple
 
 import yaml
 from slugify import slugify
 
-from movielog.internal import humanize, table_base
+from movielog import db, humanize
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
@@ -96,12 +96,10 @@ class Viewing(object):
         )
 
 
-class ViewingsTable(table_base.TableBase):
-    def __init__(self) -> None:
-        super().__init__(TABLE_NAME)
+class ViewingsTable(db.Table):
+    table_name = TABLE_NAME
 
-    def drop_and_create(self) -> None:
-        ddl = """
+    recreate_ddl = """
         DROP TABLE IF EXISTS "{0}";
         CREATE TABLE "{0}" (
             "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
@@ -109,33 +107,32 @@ class ViewingsTable(table_base.TableBase):
             "date" DATE NOT NULL,
             "sequence" INT NOT NULL,
             "venue" TEXT NOT NULL);
+        """
+
+    @classmethod
+    def insert_viewings(cls, viewings: Sequence[Viewing]) -> None:
+        ddl = """
+          INSERT INTO {0}(movie_imdb_id, date, sequence, venue)
+          VALUES(:imdb_id, :date, :sequence, :venue);
         """.format(
-            TABLE_NAME
+            cls.table_name
         )
 
-        super()._drop_and_create(ddl)
-
-    def insert(self, viewings: Sequence[Viewing]) -> None:
-        ddl = """
-          INSERT INTO viewings(movie_imdb_id, date, sequence, venue)
-          VALUES(:imdb_id, :date, :sequence, :venue);
-        """
         parameter_seq = [asdict(viewing) for viewing in viewings]
 
-        super()._insert(ddl=ddl, parameter_seq=parameter_seq)
-        super()._add_index(SEQUENCE)
-        super()._add_index("venue")
-        super()._add_index("movie_imdb_id")
-        super()._validate(viewings)
+        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.add_index(SEQUENCE)
+        cls.add_index("venue")
+        cls.add_index("movie_imdb_id")
+        cls.validate(viewings)
 
 
 def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
     viewings = _load_viewings()
-    viewings_table = ViewingsTable()
-    viewings_table.drop_and_create()
-    viewings_table.insert(viewings)
+    ViewingsTable.recreate()
+    ViewingsTable.insert_viewings(viewings)
 
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
@@ -171,6 +168,11 @@ def venues() -> Sequence[str]:
     venue_items = list(dict.fromkeys([viewing.venue for viewing in viewings]).keys())
     venue_items.sort()
     return venue_items
+
+
+def imdb_ids() -> Set[str]:
+    all_viewings = _load_viewings()
+    return set([viewing.imdb_id for viewing in all_viewings])
 
 
 def _load_viewings() -> Sequence[Viewing]:

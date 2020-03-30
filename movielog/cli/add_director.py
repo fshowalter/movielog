@@ -1,7 +1,7 @@
 from prompt_toolkit.shortcuts import confirm
 
 from movielog import queries, watchlist
-from movielog.cli.internal import select_person
+from movielog.cli.controls import select_person
 
 
 def prompt() -> None:

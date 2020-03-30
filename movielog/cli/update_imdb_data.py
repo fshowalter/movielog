@@ -1,8 +1,8 @@
 from prompt_toolkit.formatted_text import HTML
 from prompt_toolkit.shortcuts import confirm
 
-from movielog import imdb_files, watchlist
-from movielog.cli.internal import radio_list
+from movielog import imdb_s3, watchlist
+from movielog.cli.controls import radio_list
 
 
 def prompt() -> None:
@@ -23,7 +23,7 @@ def prompt() -> None:
 
 def update_imdb_s3_data() -> None:
     if confirm("Download and update IMDb data from S3?"):
-        imdb_files.orchestrate_update()
+        imdb_s3.orchestrate_update()
 
 
 def update_imdb_web_data() -> None:

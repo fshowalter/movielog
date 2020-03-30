@@ -7,7 +7,7 @@ from movielog.cli import (
     add_writer,
     new_collection,
 )
-from movielog.cli.internal import radio_list
+from movielog.cli.controls import radio_list
 
 
 def prompt() -> None:

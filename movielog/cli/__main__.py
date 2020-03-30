@@ -2,18 +2,18 @@ from typing import Any
 
 from prompt_toolkit.formatted_text import HTML
 
-from movie_db.cli import (
+from movielog.cli import (
     add_viewing,
     manage_watchlist,
     update_imdb_data,
     update_viewings,
 )
-from movie_db.logger import logger
-from movielog.cli.internal import radio_list
+from movielog.cli.controls import radio_list
+from movielog.logger import logger
 
 
 @logger.catch
-def prompt(args=None) -> Any:
+def prompt() -> Any:
     options = radio_list.CallableOptions(
         [
             (add_viewing.prompt, HTML("<cyan>Add Viewing</cyan>")),
@@ -29,3 +29,7 @@ def prompt(args=None) -> Any:
     if option_function:
         option_function()
         prompt()
+
+
+if __name__ == "__main__":
+    prompt()

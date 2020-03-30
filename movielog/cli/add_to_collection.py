@@ -4,7 +4,7 @@ from typing import Optional, Sequence
 from prompt_toolkit.formatted_text import HTML
 
 from movielog import queries, watchlist
-from movielog.cli.internal import ask, radio_list
+from movielog.cli.controls import ask, radio_list
 
 
 def prompt() -> None:

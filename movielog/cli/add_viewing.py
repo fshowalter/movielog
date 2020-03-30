@@ -7,7 +7,7 @@ from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
 from movielog import queries, viewings
-from movielog.cli.internal import ask, radio_list, select_movie
+from movielog.cli.controls import ask, radio_list, select_movie
 
 
 def prompt() -> None:
