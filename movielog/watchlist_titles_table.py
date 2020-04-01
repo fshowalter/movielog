@@ -1,7 +1,7 @@
 from dataclasses import asdict, dataclass
-from typing import List, Optional, Type
+from typing import List, Optional
 
-from movielog import db, watchlist
+from movielog import db, watchlist_collection, watchlist_person
 from movielog.logger import logger
 
 TABLE_NAME = "watchlist_titles"
@@ -27,6 +27,11 @@ Query = """
 """
 
 
+class WatchlistTitlesTableError(Exception):
+    def __init__(self, message: str) -> None:
+        self.message = message
+
+
 @dataclass
 class WatchlistTitle(object):
     movie_imdb_id: str
@@ -36,28 +41,50 @@ class WatchlistTitle(object):
     collection_name: Optional[str] = None
 
     @classmethod
-    def titles_for_item_type(cls, item_type: Type["Base"]) -> List["WatchlistTitle"]:
-        titles: List["WatchlistTitle"] = []
-        watchlist_items = item_type.all_items()
-        for watchlist_item in watchlist_items:
-            for title in watchlist_item.titles:
-                watchlist_title = WatchlistTitle(movie_imdb_id=title.imdb_id)
-                cls.set_identifier_for_collection_type(watchlist_item, watchlist_title)
-                titles.append(watchlist_title)
+    def titles_for_collection(
+        cls, collection: watchlist_collection.Collection
+    ) -> List["WatchlistTitle"]:
+        titles = []
+
+        for collection_title in collection.titles:
+            titles.append(
+                cls(
+                    movie_imdb_id=collection_title.imdb_id,
+                    collection_name=collection.name,
+                )
+            )
+
         return titles
 
     @classmethod
-    def set_identifier_for_collection_type(
-        cls, watchlist_item: "Base", watchlist_title: "WatchlistTitle",
-    ) -> None:
-        if isinstance(watchlist_item, watchlist.Collection):
-            watchlist_title.collection_name = watchlist_item.name  # noqa: WPS601
-        if isinstance(watchlist_item, watchlist.Director):
-            watchlist_title.director_imdb_id = watchlist_item.imdb_id  # noqa: WPS601
-        if isinstance(watchlist_item, watchlist.Performer):
-            watchlist_title.performer_imdb_id = watchlist_item.imdb_id  # noqa: WPS601
-        if isinstance(watchlist_item, watchlist.Writer):
-            watchlist_title.writer_imdb_id = watchlist_item.imdb_id  # noqa: WPS601
+    def titles_for_person(
+        cls, person: watchlist_person.Person
+    ) -> List["WatchlistTitle"]:
+        titles = []
+
+        for person_title in person.titles:
+
+            if isinstance(person, watchlist_person.Director):
+                title = cls(
+                    movie_imdb_id=person_title.imdb_id, director_imdb_id=person.imdb_id,
+                )
+            elif isinstance(person, watchlist_person.Performer):
+                title = cls(
+                    movie_imdb_id=person_title.imdb_id,
+                    performer_imdb_id=person.imdb_id,
+                )
+            elif isinstance(person, watchlist_person.Writer):
+                title = cls(
+                    movie_imdb_id=person_title.imdb_id, writer_imdb_id=person.imdb_id,
+                )
+            else:
+                WatchlistTitlesTableError(
+                    "{0} is not a recognized Person instance".format(person.__class__)
+                )
+
+            titles.append(title)
+
+        return titles
 
 
 class WatchlistTitlesTable(db.Table):
@@ -113,16 +140,21 @@ def update() -> None:
 
     WatchlistTitlesTable.recreate()
 
-    item_types: List[Type[Base]] = [
-        watchlist.Collection,
-        watchlist.Director,
-        watchlist.Performer,
-        watchlist.Writer,
-    ]
-
     titles: List[WatchlistTitle] = []
 
-    for item_type in item_types:
-        titles.extend(WatchlistTitle.titles_for_item_type(item_type))
+    for collection in watchlist_collection.all_items():
+        titles.extend(WatchlistTitle.titles_for_collection(collection))
+
+    person_types = [
+        watchlist_person.Director,
+        watchlist_person.Performer,
+        watchlist_person.Writer,
+    ]
+
+    for person_type in person_types:
+        person_type.refresh_all_item_titles()
+
+        for person in person_type.all_items():
+            titles.extend(WatchlistTitle.titles_for_person(person))
 
     WatchlistTitlesTable.insert_watchlist_titles(titles)

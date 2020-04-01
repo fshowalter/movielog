@@ -1,7 +1,8 @@
 import fnmatch
+import time
 from collections import ChainMap
 from dataclasses import dataclass
-from typing import Optional, Sequence, Set, List, Union
+from typing import List, Optional, Sequence, Set, Tuple, Union
 
 import imdb
 
@@ -11,37 +12,51 @@ imdb_scraper = imdb.IMDb(reraiseExceptions=True)
 
 
 @dataclass
-class Movie(object):  # noqa: WPS230
-    year: str
-    title: str
+class TitleBasic(object):
     imdb_id: str
-    movie_object: imdb.Movie.Movie
-    notes: str
-    cast_credits: Sequence["CastCredit"]
-
-    @classmethod
-    def from_imdb_id(cls, imdb_id: str) -> "Movie":
-        imdb_movie = imdb_scraper.get_movie(imdb_id[2:])
-
-        cast_credits = []
-
-        for index, performer in enumerate(imdb_movie["cast"]):
-            cast_credits.append(
-                CastCredit.from_imdb_cast_credit(imdb_id, index, performer)
-            )
-
-        return Movie(
-            year=imdb_movie.get("year", "????"),
-            title=imdb_movie["title"],
-            imdb_id=imdb_id,
-            movie_object=imdb_movie,
-            notes=imdb_movie.notes,
-            cast_credits=cast_credits,
-        )
+    title: str
+    year: str
 
 
 @dataclass
-class CastCredit(object):
+class CreditForPerson(TitleBasic):
+    notes: str
+    in_production: str
+
+    @classmethod
+    def from_imdb_movie(cls, imdb_movie: imdb.Movie.Movie) -> "CreditForPerson":
+        return cls(
+            imdb_id=f"tt{imdb_movie.movieID}",
+            year=imdb_movie.get("year", "????"),
+            title=imdb_movie["title"],
+            notes=imdb_movie.notes,
+            in_production=imdb_movie.get("status"),
+        )
+
+    def is_silent_film(self) -> Optional[bool]:
+        if self.imdb_id in silent_ids:
+            return True
+
+        if self.imdb_id not in no_sound_mix_ids:
+            imdb_movie = imdb.Movie.Movie(movie_id=self.imdb_id[2:])
+            imdb_scraper.update(imdb_movie, info=["technical"])
+
+            if "sound mix" not in imdb_movie["technical"]:
+                no_sound_mix_ids.add(self.imdb_id)
+                return None
+
+            pattern = "Silent*"
+
+            sound_mixes = imdb_movie["technical"]["sound mix"]
+            if fnmatch.filter(sound_mixes, pattern):
+                silent_ids.add(self.imdb_id)
+                return True
+
+        return False
+
+
+@dataclass
+class CastCreditForTitle(object):
     movie_imdb_id: str
     person_imdb_id: str
     name: str
@@ -51,15 +66,15 @@ class CastCredit(object):
 
     @classmethod
     def from_imdb_cast_credit(
-        cls, imdb_id: str, sequence: int, performer: imdb.Person.Person
-    ) -> "CastCredit":
+        cls, imdb_id: str, sequence: int, cast_credit: imdb.Person.Person
+    ) -> "CastCreditForTitle":
         return cls(
             movie_imdb_id=imdb_id,
             sequence=sequence,
-            person_imdb_id=f"tt{performer.personID}",
-            name=performer["name"],
-            roles=cls.parse_role(performer.currentRole),
-            notes=performer.notes,
+            person_imdb_id=f"tt{cast_credit.personID}",
+            name=cast_credit["name"],
+            roles=cls.parse_role(cast_credit.currentRole),
+            notes=cast_credit.notes,
         )
 
     @classmethod
@@ -76,99 +91,43 @@ class CastCredit(object):
         return [role["name"] for role in roles]
 
 
-@dataclass
-class MovieOld(object):  # noqa: WPS230
-    year: str
-    title: str
-    imdb_id: str
-    movie_object: imdb.Movie.Movie
-    notes: str
-    in_production: bool = False
-    is_silent: Optional[bool] = None
-    has_sound_mix: Optional[bool] = None
-    cast: Optional[Sequence["CastCredit"]] = None
+def cast_credits_for_title(
+    title_imdb_id: str,
+) -> Tuple[TitleBasic, Sequence[CastCreditForTitle]]:
+    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
 
-    @classmethod
-    def from_imdb_movie(cls, imdb_movie: imdb.Movie.Movie) -> "MovieOld":
-        movie = MovieOld(
-            year=imdb_movie.get("year", "????"),
-            title=imdb_movie["title"],
-            imdb_id=f"tt{imdb_movie.movieID}",
-            movie_object=imdb_movie,
-            notes=imdb_movie.notes,
+    title_basic = TitleBasic(
+        imdb_id=title_imdb_id, title=imdb_movie["title"], year=imdb_movie["year"]
+    )
+
+    cast_credit_list: List[CastCreditForTitle] = []
+
+    for index, cast_credit in enumerate(imdb_movie["cast"]):
+        cast_credit_list.append(
+            CastCreditForTitle.from_imdb_cast_credit(
+                imdb_id=title_imdb_id, sequence=index, cast_credit=cast_credit,
+            )
         )
 
-        in_production = imdb_movie.get("status")
-        if in_production:
-            movie.in_production = True
-            movie.notes = f"({in_production})"
-
-        if movie.imdb_id in no_sound_mix_ids:
-            movie.has_sound_mix = False
-        elif movie.imdb_id in silent_ids:
-            movie.has_sound_mix = True
-            movie.is_silent = True
-        else:
-            imdb_scraper.update(movie.movie_object, info=["technical"])
-            if movie_has_sound_mix(movie):
-                movie.has_sound_mix = True
-                movie.is_silent = movie_is_silent(movie)
-            else:
-                movie.has_sound_mix = False
-                movie.is_silent = None
-
-        movie.cast = []
-        for index, performer in enumerate(imdb_movie["cast"]):
-            movie.cast.append(
-                CastCredit(
-                    movie_imdb_id=movie.imdb_id,
-                    person_imdb_id=f"tt{performer.personIDp}",
-                    name=performer["name"],
-                    role=performer.currentRole,
-                    notes=performer.notes,
-                    sequence=index,
-                )
-            )
-
-        return movie
+    return (title_basic, cast_credit_list)
 
 
-class Person(object):
-    def __init__(self, imdb_id: str) -> None:
-        self.imdb_id = imdb_id
-        imdb_person = imdb_scraper.get_person(imdb_id[2:])
-        self.name = imdb_person["name"]
-        self.filmography = dict(ChainMap(*imdb_person["filmography"]))
-        self.filmography["performer"] = self.filmography.get(
-            "actor", [],
-        ) + self.filmography.get("actress", [],)
+def credits_for_person(
+    person_imdb_id: str, credit_key: str
+) -> Sequence[CreditForPerson]:
+    imdb_person = imdb_scraper.get_person(person_imdb_id[2:])
+    filmography = dict(ChainMap(*imdb_person["filmography"]))
 
+    if credit_key == "performer":
+        filmography["performer"] = filmography.pop("actor", [],) + filmography.pop(
+            "actress", [],
+        )
 
-def get_movie(imdb_id: str) -> "Movie":
-    return Movie.from_imdb_id(imdb_id)
+    credit_list: List[CreditForPerson] = []
 
+    for imdb_movie in reversed(imdb_person.filmography.get(credit_key, [])):
+        credit_list.append(CreditForPerson.from_imdb_movie(imdb_movie))
 
-def movie_has_sound_mix(movie: MovieOld) -> bool:
-    if movie.imdb_id in no_sound_mix_ids:
-        return False
+        time.sleep(1)
 
-    if "sound mix" in movie.movie_object["technical"]:
-        return True
-
-    no_sound_mix_ids.add(movie.imdb_id)
-
-    return False
-
-
-def movie_is_silent(movie: MovieOld) -> bool:
-    if movie.imdb_id in silent_ids:
-        return True
-
-    pattern = "Silent*"
-
-    sound_mixes = movie.movie_object["technical"]["sound mix"]
-    if fnmatch.filter(sound_mixes, pattern):
-        silent_ids.add(movie.imdb_id)
-        return True
-
-    return False
+    return credit_list

@@ -1,19 +1,16 @@
 import operator
 import os
-import re
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, List, Optional, Sequence, Set, Tuple
+from typing import Any, Dict, List, Sequence, Set
 
-import yaml
 from slugify import slugify
 
-from movielog import db, humanize
+from movielog import db, humanize, performing_credits, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
-TITLE_AND_YEAR_REGEX = re.compile(r"^(.*)\s\((\d{4})\)$")
 SEQUENCE = "sequence"
 
 
@@ -23,22 +20,24 @@ class ViewingError(Exception):
 
 
 @dataclass
-class Viewing(object):
-    imdb_id: str
-    title: str
+class Viewing(yaml_file.Movie):
     venue: str
     sequence: int
     date: date
-    year: int
-    file_path: Optional[str]
 
     @classmethod
-    def load(cls, yaml_file_path: str) -> "Viewing":
-        yaml_object = None
+    def load_all(cls) -> Sequence["Viewing"]:
+        viewings: List[Viewing] = []
+        for yaml_file_path in glob(os.path.join(TABLE_NAME, "*.yml")):
+            viewings.append(cls.from_yaml_file_path(yaml_file_path))
 
-        with open(yaml_file_path, "r") as yaml_file:
-            yaml_object = yaml.safe_load(yaml_file)
+        viewings.sort(key=operator.attrgetter(SEQUENCE))
 
+        logger.log("Loaded {} {}.", humanize.intcomma(len(viewings)), TABLE_NAME)
+        return viewings
+
+    @classmethod
+    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "Viewing":
         title, year = cls.split_title_and_year(yaml_object["title"])
 
         return cls(
@@ -48,52 +47,25 @@ class Viewing(object):
             venue=yaml_object["venue"],
             sequence=yaml_object[SEQUENCE],
             date=yaml_object["date"],
-            file_path=yaml_file_path,
+            file_path=None,
         )
 
-    @property
-    def title_with_year(self) -> str:
-        return f"{self.title} ({self.year})"
+    def generate_slug(self) -> str:
+        slug = slugify(f"{self.sequence:04} {self.title_with_year}")
+        return str(slug)
 
     @classmethod
-    def split_title_and_year(cls, title_and_year: str) -> Tuple[str, int]:
-        match = TITLE_AND_YEAR_REGEX.match(title_and_year)
-        if match:
-            return (match.group(1), int(match.group(2)))
-        raise ViewingError(f"Unable to parse {title_and_year} for title and year")
+    def folder_path(cls) -> str:
+        return TABLE_NAME
 
-    def save(self) -> str:
-        file_path = self.file_path
-
-        if not file_path:
-            slug = slugify(f"{self.sequence:04} {self.title_with_year}")
-            file_path = os.path.join(TABLE_NAME, f"{slug}.yml")
-            if not os.path.exists(os.path.dirname(file_path)):
-                os.makedirs(os.path.dirname(file_path))
-
-        with open(file_path, "wb") as output_file:
-            output_file.write(self.to_yaml())
-
-        self.file_path = file_path
-
-        logger.log("Wrote {}", self.file_path)
-
-        return file_path
-
-    def to_yaml(self) -> Any:
-        return yaml.dump(
-            {
-                SEQUENCE: self.sequence,
-                "date": self.date,
-                "imdb_id": self.imdb_id,
-                "title": self.title_with_year,
-                "venue": self.venue,
-            },
-            encoding="utf-8",
-            allow_unicode=True,
-            default_flow_style=False,
-            sort_keys=False,
-        )
+    def as_yaml(self) -> Dict[str, Any]:
+        return {
+            SEQUENCE: self.sequence,
+            "date": self.date,
+            "imdb_id": self.imdb_id,
+            "title": self.title_with_year,
+            "venue": self.venue,
+        }
 
 
 class ViewingsTable(db.Table):
@@ -130,13 +102,15 @@ class ViewingsTable(db.Table):
 def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
-    viewings = _load_viewings()
+    viewings = Viewing.load_all()
     ViewingsTable.recreate()
     ViewingsTable.insert_viewings(viewings)
 
+    performing_credits.update(imdb_ids())
+
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
-    existing_viewings = _load_viewings()
+    existing_viewings = Viewing.load_all()
     next_sequence = len(existing_viewings) + 1
 
     last_viewing = existing_viewings[-1]
@@ -159,28 +133,18 @@ def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> 
     )
 
     viewing.save()
+    update()
 
     return viewing
 
 
 def venues() -> Sequence[str]:
-    viewings = _load_viewings()
-    venue_items = list(dict.fromkeys([viewing.venue for viewing in viewings]).keys())
+    venue_items = list(
+        dict.fromkeys([viewing.venue for viewing in Viewing.load_all()]).keys()
+    )
     venue_items.sort()
     return venue_items
 
 
 def imdb_ids() -> Set[str]:
-    all_viewings = _load_viewings()
-    return set([viewing.imdb_id for viewing in all_viewings])
-
-
-def _load_viewings() -> Sequence[Viewing]:
-    viewings: List[Viewing] = []
-    for yaml_file_path in glob(os.path.join(TABLE_NAME, "*.yml")):
-        viewings.append(Viewing.load(yaml_file_path))
-
-    viewings.sort(key=operator.attrgetter(SEQUENCE))
-
-    logger.log("Loaded {} {}.", humanize.intcomma(len(viewings)), TABLE_NAME)
-    return viewings
+    return set([viewing.imdb_id for viewing in Viewing.load_all()])
