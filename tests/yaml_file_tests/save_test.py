@@ -3,6 +3,7 @@ from typing import Any, Dict
 
 from pytest_mock import MockFixture
 
+import movielog.logger  # noqa: WPS301
 from movielog import yaml_file
 
 
@@ -25,8 +26,16 @@ class ConcreteMovie(yaml_file.Movie):  # noqa: WPS604
         }
 
 
-def test_logs_save() -> None:
-    pass
+def test_logs_save(tmp_path: str, mocker: MockFixture) -> None:
+    file_path = os.path.join(tmp_path, "test_writes_yaml.yaml")
+    mocker.patch("movielog.logger.logger.log")
+
+    movie = ConcreteMovie(
+        file_path=file_path, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+    )
+    movie.save()
+
+    movielog.logger.logger.log.assert_called_once_with("Wrote {}", file_path)  # type: ignore
 
 
 def test_custom_log_function() -> None:
