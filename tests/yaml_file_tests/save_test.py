@@ -1,3 +1,4 @@
+import os
 from typing import Any, Dict
 
 from pytest_mock import MockFixture
@@ -11,7 +12,7 @@ class ConcreteMovie(yaml_file.Movie):  # noqa: WPS604
         raise NotImplementedError
 
     def generate_slug(self) -> str:
-        return "test"
+        raise NotImplementedError
 
     @classmethod
     def folder_path(cls) -> str:
@@ -28,29 +29,47 @@ def test_logs_save() -> None:
     pass
 
 
+def test_custom_log_function() -> None:
+    pass
+
+
 def test_handles_unicode() -> None:
     pass
 
 
-def test_writes_yaml(tmp_path: str, mocker: MockFixture) -> None:
+def test_writes_yaml(tmp_path: str) -> None:
     expected = "imdb_id: tt0053221\ntitle: Rio Bravo\n"
 
-    mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)
+    file_path = os.path.join(tmp_path, "test_writes_yaml.yaml")
 
     movie = ConcreteMovie(
-        file_path=None, imdb_id="tt0053221", title="Rio Bravo", year=1959
+        file_path=file_path, imdb_id="tt0053221", title="Rio Bravo", year=1959,
     )
     movie.save()
 
-    with open(str(movie.file_path), "r") as output_file:
+    with open(str(file_path), "r") as output_file:
         yaml_content = output_file.read()
 
     assert yaml_content == expected
 
 
-def test_creates_slug_if_no_filename() -> None:
-    pass
+def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockFixture) -> None:
+    expected = "imdb_id: tt0053221\ntitle: Rio Bravo\n"
 
+    mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)
 
-def test_custom_log_function() -> None:
-    pass
+    movie = ConcreteMovie(
+        file_path=None, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+    )
+
+    mocker.patch.object(
+        movie, "generate_slug", lambda: "test_creates_slug_if_no_filename"
+    )
+    movie.save()
+
+    file_path = os.path.join(tmp_path, "test_creates_slug_if_no_filename.yml")
+
+    with open(file_path, "r") as output_file:
+        yaml_content = output_file.read()
+
+    assert yaml_content == expected
