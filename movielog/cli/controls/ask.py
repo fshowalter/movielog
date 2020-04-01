@@ -12,15 +12,15 @@ def prompt(
 ) -> Optional[str]:
     bindings = key_binding.KeyBindings()
 
-    @bindings.add('escape')  # type: ignore  # noqa WPS430
+    @bindings.add("escape")  # type: ignore  # noqa WPS430
     def exit_prompt_(event: key_binding.key_processor.KeyPressEvent) -> None:
         """ Exit when `ESC` is pressed. """
         event.app.exit()
 
-    rprompt = 'ESC to go back'
+    rprompt = "ESC to go back"
 
     if extra_rprompt:
-        rprompt = f'{extra_rprompt} | {rprompt}'
+        rprompt = f"{extra_rprompt} | {rprompt}"
 
     return cast(
         Optional[str],

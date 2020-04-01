@@ -7,7 +7,7 @@ from prompt_toolkit.layout import Layout
 from prompt_toolkit.layout.containers import HSplit
 from prompt_toolkit.widgets import Label, RadioList
 
-from movielog import queries, watchlist
+from movielog import queries, watchlist_collection
 
 OptionalCallableType = Optional[Callable[[], None]]
 CallableOptionType = Tuple[OptionalCallableType, HTML]
@@ -16,7 +16,7 @@ CallableOptions = NewType("CallableOptions", List[CallableOptionType])
 PersonSearchResultOptionType = Tuple[Optional[queries.PersonSearchResult], HTML]
 PersonSearchOptions = NewType("PersonSearchOptions", List[PersonSearchResultOptionType])
 
-CollectionOptionType = Tuple[Optional[watchlist.Collection], HTML]
+CollectionOptionType = Tuple[Optional[watchlist_collection.Collection], HTML]
 CollectionOptions = NewType("CollectionOptions", List[CollectionOptionType])
 
 MovieSearchResultOptionType = Tuple[Optional[queries.MovieSearchResult], str]
@@ -32,7 +32,9 @@ def prompt(title: str, options: CallableOptions) -> OptionalCallableType:
 
 
 @overload
-def prompt(title: str, options: CollectionOptions) -> Optional[watchlist.Collection]:
+def prompt(
+    title: str, options: CollectionOptions
+) -> Optional[watchlist_collection.Collection]:
     ...  # noqa: WPS428
 
 

@@ -13,17 +13,20 @@ DB_DIR = "db"
 Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
 
+DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
+DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
+
 
 @contextmanager
-def connect() -> Generator[sqlite3.Connection, None, None]:
-    connection = sqlite3.connect(path.join(DB_DIR, DB_FILE_NAME), isolation_level=None)
+def connect() -> Generator[Connection, None, None]:
+    connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     connection.row_factory = sqlite3.Row
     yield connection
     connection.close()
 
 
 @contextmanager
-def transaction(connection: sqlite3.Connection) -> Generator[None, None, None]:
+def transaction(connection: Connection) -> Generator[None, None, None]:
     connection.execute("PRAGMA journal_mode = WAL;")
     connection.execute("BEGIN TRANSACTION;")
     yield
@@ -54,7 +57,7 @@ class Table(abc.ABC):
                 "select count(*) from {0}".format(cls.table_name),  # noqa: S608
             ).fetchone()[0]
 
-            assert collection
+            assert collection  # noqa: S101
 
             expected = len(collection)
             assert expected == inserted  # noqa: S101
