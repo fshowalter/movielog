@@ -48,7 +48,6 @@ def credits_for_person_mock(
     "class_type", [Director, Performer, Writer],
 )
 def test_refreshes_titles_from_imdb(
-    tmp_path: str,
     mocker: MockFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
@@ -94,7 +93,6 @@ def test_refreshes_titles_from_imdb(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_invalid_titles(
-    tmp_path: str,
     mocker: MockFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
@@ -134,7 +132,6 @@ def test_skips_invalid_titles(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_silent_movies(
-    tmp_path: str,
     mocker: MockFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
@@ -175,7 +172,6 @@ def test_skips_silent_movies(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_in_production_titles(
-    tmp_path: str,
     mocker: MockFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
