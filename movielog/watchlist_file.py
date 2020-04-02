@@ -49,7 +49,7 @@ class Title(object):
         )
 
 
-T = TypeVar("T", bound="WatchlistFile")  # noqa: WPS111
+WatchlistFileType = TypeVar("WatchlistFileType", bound="WatchlistFile")
 
 
 @dataclass  # type: ignore
@@ -76,7 +76,9 @@ class WatchlistFile(yaml_file.Base):
         self.frozen = frozen
 
     @classmethod
-    def from_yaml_object(cls: Type[T], yaml_object: Dict[str, Any]) -> T:
+    def from_yaml_object(
+        cls: Type[WatchlistFileType], yaml_object: Dict[str, Any]
+    ) -> WatchlistFileType:
         titles: List[Title] = []
 
         for yaml_title in yaml_object.get(TITLES, []):
@@ -105,7 +107,7 @@ class WatchlistFile(yaml_file.Base):
         }
 
     @classmethod
-    def all_items(cls: Type[T]) -> List[T]:
+    def all_items(cls: Type[WatchlistFileType]) -> List[WatchlistFileType]:
         yaml_files_path = os.path.join(cls.folder_path(), "*.yml")
 
         return [
@@ -114,7 +116,7 @@ class WatchlistFile(yaml_file.Base):
         ]
 
     @classmethod
-    def unfrozen_items(cls: Type[T]) -> Iterable[T]:
+    def unfrozen_items(cls: Type[WatchlistFileType]) -> Iterable[WatchlistFileType]:
         yaml_files_path = os.path.join(cls.folder_path(), "*.yml")
 
         for yaml_file_path in sorted(glob(yaml_files_path)):
