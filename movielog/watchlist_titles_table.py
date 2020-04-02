@@ -1,5 +1,5 @@
 from dataclasses import asdict, dataclass
-from typing import List, Optional
+from typing import Callable, Dict, List, Optional, Type
 
 from movielog import db, watchlist_collection, watchlist_person
 from movielog.logger import logger
@@ -62,27 +62,30 @@ class WatchlistTitle(object):
     ) -> List["WatchlistTitle"]:
         titles = []
 
-        for person_title in person.titles:
+        type_map: Dict[
+            Type[watchlist_person.Person],
+            Callable[[watchlist_person.PersonTitle], WatchlistTitle],
+        ] = {
+            watchlist_person.Director: lambda title: cls(
+                movie_imdb_id=title.imdb_id, director_imdb_id=person.imdb_id,
+            ),
+            watchlist_person.Performer: lambda title: cls(
+                movie_imdb_id=title.imdb_id, performer_imdb_id=person.imdb_id,
+            ),
+            watchlist_person.Writer: lambda title: cls(
+                movie_imdb_id=title.imdb_id, writer_imdb_id=person.imdb_id,
+            ),
+        }
 
-            if isinstance(person, watchlist_person.Director):
-                title = cls(
-                    movie_imdb_id=person_title.imdb_id, director_imdb_id=person.imdb_id,
-                )
-            elif isinstance(person, watchlist_person.Performer):
-                title = cls(
-                    movie_imdb_id=person_title.imdb_id,
-                    performer_imdb_id=person.imdb_id,
-                )
-            elif isinstance(person, watchlist_person.Writer):
-                title = cls(
-                    movie_imdb_id=person_title.imdb_id, writer_imdb_id=person.imdb_id,
-                )
-            else:
-                WatchlistTitlesTableError(
+        for person_title in person.titles:
+            title = type_map.get(person.__class__)
+
+            if not title:
+                raise WatchlistTitlesTableError(
                     "{0} is not a recognized Person instance".format(person.__class__)
                 )
 
-            titles.append(title)
+            titles.append(title(person_title))
 
         return titles
 

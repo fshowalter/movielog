@@ -8,6 +8,7 @@ from movielog.logger import logger
 from movielog.watchlist_file import WATCHLIST_PATH, Title, WatchlistFile
 
 PersonType = TypeVar("PersonType", bound="Person")  # noqa: WPS111
+PersonTitle = Title
 
 
 @dataclass(init=False)  # type: ignore

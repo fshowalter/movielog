@@ -10,14 +10,14 @@ class ConcreteBase(yaml_file.Base):  # noqa: WPS604
         return ConcreteBase(file_path=None)
 
     def generate_slug(self) -> str:
-        raise NotImplementedError
+        """Test stub."""
 
     @classmethod
     def folder_path(cls) -> str:
-        raise NotImplementedError
+        """Test stub."""
 
     def as_yaml(self) -> Dict[str, Any]:
-        raise NotImplementedError
+        """Test stub."""
 
 
 def test_it_hydrates_from_yaml_file(tmp_path: str,) -> None:
