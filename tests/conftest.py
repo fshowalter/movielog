@@ -21,32 +21,15 @@ def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
 
 
 @pytest.fixture
-def sql_connection() -> Generator[sqlite3.Connection, None, None]:
-    connection = sqlite3.connect(TEST_DB_PATH, uri=True)
-    connection.row_factory = sqlite3.Row
-    yield connection
-    connection.close()
-
-
-@pytest.fixture
-def get_table_info() -> Callable[..., typehints.TableInfoType]:
-    def _get_table_info(name: str) -> typehints.TableInfoType:
+def sql_query() -> Callable[..., typehints.QueryResultType]:
+    def _sql_query(query: str) -> typehints.QueryResultType:
         connection = sqlite3.connect(TEST_DB_PATH, uri=True)
         connection.row_factory = sqlite3.Row
-        rows = connection.execute(f"PRAGMA table_info('{name}')").fetchall()
+        query_results = connection.execute(query).fetchall()
         connection.close()
-        table_info: typehints.TableInfoType = []
-        for row in rows:
-            table_info.append(
-                (
-                    row["cid"],
-                    row["name"],
-                    row["type"],
-                    row["notnull"],
-                    row["dflt_value"],
-                    row["pk"],
-                )
-            )
-        return table_info
+        rows = []
+        for row in query_results:
+            rows.append(tuple(dict(row).values()))
+        return rows
 
-    return _get_table_info
+    return _sql_query

@@ -7,7 +7,6 @@ from movielog import watchlist_titles_table
 from movielog.watchlist_collection import Collection
 from movielog.watchlist_file import Title
 from movielog.watchlist_person import Director, Performer, Person, Writer
-from tests import typehints
 
 
 @pytest.fixture(autouse=True)
@@ -36,7 +35,7 @@ def collection_all_items_mock(mocker: MockFixture) -> Any:
 
 
 def test_inserts_collection_items(
-    sql_connection: typehints.Connection,
+    sql_query: MockFixture,
     mocker: MockFixture,
     person_refresh_all_item_titles_mock: MockFixture,
     director_all_items_mock: MockFixture,
@@ -107,11 +106,7 @@ def test_inserts_collection_items(
 
     watchlist_titles_table.update()
 
-    rows = []
-    for row in sql_connection.execute("SELECT * FROM 'watchlist_titles';").fetchall():
-        rows.append(tuple(dict(row).values()))
-
-    assert rows == expected
+    assert sql_query("SELECT * FROM 'watchlist_titles';") == expected
 
 
 def test_calls_refresh_all_item_titles_for_each_person_type(
