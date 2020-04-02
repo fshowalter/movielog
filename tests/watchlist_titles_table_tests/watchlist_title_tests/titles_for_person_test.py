@@ -1,8 +1,6 @@
-import pytest
-
 from movielog.watchlist_file import Title
-from movielog.watchlist_person import Director, Performer, Person, Writer
-from movielog.watchlist_titles_table import WatchlistTitle, WatchlistTitlesTableError
+from movielog.watchlist_person import Director, Performer, Writer
+from movielog.watchlist_titles_table import WatchlistTitle
 
 
 def test_builds_titles_for_director() -> None:
@@ -69,25 +67,3 @@ def test_builds_titles_for_writer() -> None:
     )
 
     assert expected == WatchlistTitle.titles_for_person(person)
-
-
-class UnknownPerson(Person):
-    @classmethod
-    def folder_path(cls) -> str:
-        """Test stub."""
-
-    @property
-    def credit_key(self) -> str:
-        """Test stub."""
-
-
-def test_raises_exception_on_unknown_person_type() -> None:
-
-    titles = [Title(imdb_id="test_movie_1", title="Test Movie 1", year=1959)]
-
-    unknown_person = UnknownPerson(
-        file_path=None, name="Unknown Person Type", imdb_id=None, titles=titles
-    )
-
-    with pytest.raises(WatchlistTitlesTableError):
-        WatchlistTitle.titles_for_person(unknown_person)

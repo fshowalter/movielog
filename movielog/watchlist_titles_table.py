@@ -27,11 +27,6 @@ Query = """
 """
 
 
-class WatchlistTitlesTableError(Exception):
-    def __init__(self, message: str) -> None:
-        self.message = message
-
-
 @dataclass
 class WatchlistTitle(object):
     movie_imdb_id: str
@@ -78,12 +73,7 @@ class WatchlistTitle(object):
         }
 
         for person_title in person.titles:
-            title = type_map.get(person.__class__)
-
-            if not title:
-                raise WatchlistTitlesTableError(
-                    "{0} is not a recognized Person instance".format(person.__class__)
-                )
+            title = type_map[person.__class__]
 
             titles.append(title(person_title))
 
