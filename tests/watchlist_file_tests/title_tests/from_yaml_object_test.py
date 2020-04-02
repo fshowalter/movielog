@@ -1,5 +1,6 @@
-from movielog.watchlist_file import Title
 import yaml
+
+from movielog.watchlist_file import Title
 
 
 def test_returns_title_from_yaml() -> None:
