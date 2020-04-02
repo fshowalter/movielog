@@ -18,7 +18,7 @@ class Person(WatchlistFile):  # noqa: WPS214
     @property
     @abc.abstractmethod
     def credit_key(self) -> str:
-        return ""
+        """ Implement behavior to return the credit key for this instance. """
 
     @classmethod
     def refresh_all_item_titles(cls) -> None:
