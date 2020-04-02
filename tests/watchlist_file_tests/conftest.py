@@ -18,9 +18,14 @@ def build_watchlist_file() -> Callable[..., WatchlistFile]:
         imdb_id: Optional[str] = None,
         frozen: bool = False,
         titles: Optional[List[Title]] = None,
+        file_path: Optional[str] = None,
     ) -> WatchlistFile:
         return ConcreteWatchlistFile(
-            name=name, imdb_id=imdb_id, frozen=frozen, titles=titles
+            name=name,
+            imdb_id=imdb_id,
+            frozen=frozen,
+            titles=titles,
+            file_path=file_path,
         )
 
     return _build_watchlist_file

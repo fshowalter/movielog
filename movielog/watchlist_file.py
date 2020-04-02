@@ -112,7 +112,7 @@ class WatchlistFile(yaml_file.Base):
 
         return [
             cls.from_yaml_file_path(yaml_file_path)
-            for yaml_file_path in glob(yaml_files_path)
+            for yaml_file_path in sorted(glob(yaml_files_path))
         ]
 
     @classmethod
