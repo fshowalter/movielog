@@ -95,7 +95,7 @@ def extract_principals(downloaded_file_path: str) -> List[Principal]:
     principals: List[Principal] = []
 
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
-        if (fields[0] in title_ids) and (fields[3] in ["actor", "actress"]):
+        if (fields[0] in title_ids) and (fields[3] in {"actor", "actress"}):
             principals.append(Principal.from_imdb_s3_fields(fields))
 
     logger.log("Extracted {} {}.", humanize.intcomma(len(principals)), TABLE_NAME)
