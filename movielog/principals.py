@@ -8,12 +8,6 @@ FILE_NAME = "title.principals.tsv.gz"
 TABLE_NAME = "principals"
 
 
-class IMDbFileRowException(Exception):
-    def __init__(self, row: List[Optional[str]], message: str):
-        super().__init__(message)
-        self.row = row
-
-
 @dataclass
 class Principal(object):
     __slots__ = (
@@ -91,17 +85,17 @@ def update() -> None:
     downloaded_file_path = imdb_s3_downloader.download(FILE_NAME)
 
     for _ in imdb_s3_extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
-        principals = _extract_principals(downloaded_file_path)
+        principals = extract_principals(downloaded_file_path)
         PrincipalsTable.recreate()
         PrincipalsTable.insert_principals(principals)
 
 
-def _extract_principals(downloaded_file_path: str) -> List[Principal]:
+def extract_principals(downloaded_file_path: str) -> List[Principal]:
     title_ids = movies.title_ids()
     principals: List[Principal] = []
 
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
-        if fields[0] in title_ids:
+        if (fields[0] in title_ids) and (fields[3] in ["actor", "actress"]):
             principals.append(Principal.from_imdb_s3_fields(fields))
 
     logger.log("Extracted {} {}.", humanize.intcomma(len(principals)), TABLE_NAME)
