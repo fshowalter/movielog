@@ -1,8 +1,7 @@
 import os
-import pytest
-
 from datetime import date
 
+import pytest
 from pytest_mock import MockFixture
 
 from movielog import viewings
