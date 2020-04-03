@@ -31,6 +31,6 @@ def test_it_hydrates_from_yaml_file(tmp_path: str,) -> None:
     with open(file_path, "w") as output_file:
         output_file.write(yaml)
 
-    concrete_base = ConcreteBase.from_yaml_file_path(file_path)
+    concrete_base = ConcreteBase.from_file_path(file_path)
 
     assert concrete_base.file_path == file_path

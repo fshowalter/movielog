@@ -4,7 +4,7 @@ from datetime import date
 import pytest
 from pytest_mock import MockFixture
 
-from movielog import viewings
+from movielog import viewings, yaml_file
 
 
 def test_creates_new_viewing(tmp_path: str, mocker: MockFixture) -> None:
@@ -40,7 +40,7 @@ def test_raises_error_if_sequence_out_of_sync(
     ) as output_file:
         output_file.write(existing_viewing)
 
-    with pytest.raises(viewings.ViewingError):
+    with pytest.raises(yaml_file.YamlError):
         viewings.add(
             imdb_id="tt6019206",
             title="Kill Bill: The Whole Bloody Affair",

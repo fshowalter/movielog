@@ -111,7 +111,7 @@ class WatchlistFile(yaml_file.Base):
         yaml_files_path = os.path.join(cls.folder_path(), "*.yml")
 
         return [
-            cls.from_yaml_file_path(yaml_file_path)
+            cls.from_file_path(yaml_file_path)
             for yaml_file_path in sorted(glob(yaml_files_path))
         ]
 
@@ -120,7 +120,7 @@ class WatchlistFile(yaml_file.Base):
         yaml_files_path = os.path.join(cls.folder_path(), "*.yml")
 
         for yaml_file_path in sorted(glob(yaml_files_path)):
-            watchlist_item = cls.from_yaml_file_path(yaml_file_path)
+            watchlist_item = cls.from_file_path(yaml_file_path)
 
             if watchlist_item.frozen:
                 continue

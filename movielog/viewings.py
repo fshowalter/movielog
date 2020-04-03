@@ -3,7 +3,7 @@ import os
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, Dict, List, Optional, Sequence, Set
+from typing import Any, Dict, List, Sequence, Set
 
 from slugify import slugify
 
@@ -14,22 +14,16 @@ TABLE_NAME = "viewings"
 SEQUENCE = "sequence"
 
 
-class ViewingError(Exception):
-    def __init__(self, message: str) -> None:
-        self.message = message
-
-
 @dataclass
-class Viewing(yaml_file.Movie):
+class Viewing(yaml_file.Movie, yaml_file.WithSequence):
     venue: str
-    sequence: int
     date: date
 
     @classmethod
     def load_all(cls) -> Sequence["Viewing"]:
         viewings: List[Viewing] = []
         for yaml_file_path in glob(os.path.join(TABLE_NAME, "*.yml")):
-            viewings.append(cls.from_yaml_file_path(yaml_file_path))
+            viewings.append(cls.from_file_path(yaml_file_path))
 
         viewings.sort(key=operator.attrgetter(SEQUENCE))
 
@@ -110,28 +104,14 @@ def update() -> None:
 
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
-    existing_viewings = Viewing.load_all()
-    next_sequence = len(existing_viewings) + 1
-    last_viewing: Optional[Viewing] = None
-
-    if next_sequence > 1:
-        last_viewing = existing_viewings[-1]
-
-    if last_viewing and (last_viewing.sequence != (next_sequence - 1)):
-        raise ViewingError(
-            "Last viewing ({0} has sequence {1} but next sequence is {2}".format(
-                existing_viewings[-1:], last_viewing.sequence, next_sequence,
-            ),
-        )
-
     viewing = Viewing(
         imdb_id=imdb_id,
         title=title,
         venue=venue,
         date=viewing_date,
         year=year,
-        sequence=next_sequence,
         file_path=None,
+        sequence=None,
     )
 
     viewing.save()
