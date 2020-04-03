@@ -16,6 +16,7 @@ def extract(
         headers_length = len(gz_file.readline().strip().split("\t"))
         for line in gz_file:
             fields = line.strip().split("\t")
+            print(fields)
             if len(fields) != headers_length:
                 continue
 
