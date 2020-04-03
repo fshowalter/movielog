@@ -3,7 +3,7 @@ import os
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, Dict, List, Sequence, Set
+from typing import Any, Dict, List, Optional, Sequence, Set
 
 from slugify import slugify
 
@@ -112,10 +112,12 @@ def update() -> None:
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
     existing_viewings = Viewing.load_all()
     next_sequence = len(existing_viewings) + 1
+    last_viewing: Optional[Viewing] = None
 
-    last_viewing = existing_viewings[-1]
+    if next_sequence > 1:
+        last_viewing = existing_viewings[-1]
 
-    if last_viewing.sequence != (next_sequence - 1):
+    if last_viewing and (last_viewing.sequence != (next_sequence - 1)):
         raise ViewingError(
             "Last viewing ({0} has sequence {1} but next sequence is {2}".format(
                 existing_viewings[-1:], last_viewing.sequence, next_sequence,

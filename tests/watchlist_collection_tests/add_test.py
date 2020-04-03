@@ -10,7 +10,7 @@ def test_creates_new_collection(tmp_path: str, mocker: MockFixture) -> None:
 
     expected = "frozen: false\nname: Halloween\ntitles: []\n"
 
-    watchlist_collection.add_collection(name="Halloween")
+    watchlist_collection.add(name="Halloween")
 
     with open(
         os.path.join(tmp_path, "collections", "halloween.yml"), "r"

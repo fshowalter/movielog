@@ -33,12 +33,12 @@ def all_items() -> Sequence[Collection]:
     return Collection.all_items()
 
 
-def add_collection(name: str) -> Collection:
+def add(name: str) -> Collection:
     collection = Collection(name=name)
     collection.save()
     return collection
 
 
-def update_collection(collection: Collection) -> Collection:
+def update(collection: Collection) -> Collection:
     collection.save()
     return collection
