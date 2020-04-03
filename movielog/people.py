@@ -7,7 +7,7 @@ from movielog.logger import logger
 
 FILE_NAME = "name.basics.tsv.gz"
 TABLE_NAME = "people"
-NAME_REGEX = re.compile(r"^([^\s]*)\s(.*)$")
+NAME_REGEX = re.compile(r"^([^\s]*(?:\s[A-Z]\.)?)\s(.*)$")
 
 
 @dataclass  # noqa: WPS230
@@ -100,24 +100,24 @@ def update() -> None:
     downloaded_file_path = imdb_s3_downloader.download(FILE_NAME)
 
     for _ in imdb_s3_extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
-        people = _extract_people(downloaded_file_path)
+        people = extract_people(downloaded_file_path)
         PeopleTable.recreate()
         PeopleTable.insert_people(list(people.values()))
 
 
-def _extract_people(downloaded_file_path: str) -> Dict[str, Person]:
+def extract_people(downloaded_file_path: str) -> Dict[str, Person]:
     people: Dict[str, Person] = {}
     title_ids = movies.title_ids()
 
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
-        if _has_valid_known_for_title_ids(fields[5], title_ids):
+        if has_valid_known_for_title_ids(fields[5], title_ids):
             people[str(fields[0])] = Person.from_imdb_s3_fields(fields)
 
     logger.log("Extracted {} {}.", humanize.intcomma(len(people)), TABLE_NAME)
     return people
 
 
-def _has_valid_known_for_title_ids(
+def has_valid_known_for_title_ids(
     known_for_title_ids: Optional[str], valid_title_ids: Set[str],
 ) -> bool:
     if known_for_title_ids is None:
