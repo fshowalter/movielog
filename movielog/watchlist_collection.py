@@ -34,9 +34,9 @@ def all_items() -> Sequence[Collection]:
 
 
 def add_collection(name: str) -> Collection:
-    collection_watchlist_item = Collection(name=name)
-    collection_watchlist_item.save()
-    return collection_watchlist_item
+    collection = Collection(name=name)
+    collection.save()
+    return collection
 
 
 def update_collection(collection: Collection) -> Collection:
