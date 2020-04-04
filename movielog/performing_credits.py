@@ -87,8 +87,8 @@ class Movie(yaml_file.Movie):
 
         return cls(
             imdb_id=yaml_object["imdb_id"],
-            title=yaml_object["title"],
-            year=yaml_object["year"],
+            title=title,
+            year=year,
             performing_credits=performing_credits,
             file_path=None,
         )

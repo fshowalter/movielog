@@ -1,4 +1,5 @@
 import os
+import shutil
 from typing import Any
 
 import pytest
@@ -61,21 +62,50 @@ def test_creates_new_performing_credits_for_ones_that_do_not_exist(
         ("tt0092106", "nm0000080", 1, "Unicrom", "(voice)"),
         ("tt0092106", "nm1084210", 2, "", ""),
     ]
-    expected_file_path = os.path.join(
-        tmp_path, "performing_credits", "the-transformers-the-movie-1986.yml"
-    )
-    expected_file_content_path = os.path.join(
-        os.path.dirname(__file__), "test_output.yml"
-    )
 
-    with open(expected_file_content_path, "r") as expected_content_file:
+    with open(
+        os.path.join(os.path.dirname(__file__), "test_output.yml"), "r"
+    ) as expected_content_file:
         expected_file_content = expected_content_file.read()
 
     performing_credits.update(["tt0092106"])
 
-    assert cast_credits_for_title_mock.called_once_with("tt0092106")
+    cast_credits_for_title_mock.assert_called_once_with("tt0092106")
 
-    with open(expected_file_path, "r") as new_file:
+    with open(
+        os.path.join(
+            tmp_path, "performing_credits", "the-transformers-the-movie-1986.yml"
+        ),
+        "r",
+    ) as new_file:
         assert new_file.read() == expected_file_content
+
+    assert sql_query("SELECT * FROM 'performing_credits';") == expected_rows
+
+
+def test_does_not_call_imdb_for_performing_credits_that_exist(
+    tmp_path: str, sql_query: MockFixture, cast_credits_for_title_mock: MockFixture,
+) -> None:
+    expected_rows = [
+        ("tt0092106", "nm0191520", 0, "Optimus Prime / Ironhide", "(voice)"),
+        ("tt0092106", "nm0000080", 1, "Unicrom", "(voice)"),
+        ("tt0092106", "nm1084210", 2, "", ""),
+    ]
+
+    output_path = os.path.join(tmp_path, "performing_credits")
+
+    os.makedirs(output_path)
+
+    with open(
+        os.path.join(os.path.dirname(__file__), "test_output.yml"), "r"
+    ) as input_file:
+        with open(
+            os.path.join(output_path, "the-transformers-the-movie-1986.yml"), "w"
+        ) as output_file:
+            shutil.copyfileobj(input_file, output_file)
+
+    performing_credits.update(["tt0092106"])
+
+    cast_credits_for_title_mock.assert_not_called()
 
     assert sql_query("SELECT * FROM 'performing_credits';") == expected_rows
