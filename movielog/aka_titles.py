@@ -10,6 +10,16 @@ TABLE_NAME = "aka_titles"
 
 @dataclass  # noqa: WPS230
 class AkaTitle(object):
+    __slots__ = (
+        "movie_imdb_id",
+        "sequence",
+        "title",
+        "region",
+        "language",
+        "types",
+        "attributes",
+        "is_original_title",
+    )
     movie_imdb_id: str
     sequence: int
     title: str

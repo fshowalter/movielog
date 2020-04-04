@@ -51,7 +51,7 @@ class DirectingCreditsTable(CreditsTable):
 
 
 class WritingCreditsTable(CreditsTable):
-    table_name = DIRECTING_CREDITS_TABLE_NAME
+    table_name = WRITING_CREDITS_TABLE_NAME
 
 
 def update() -> None:
@@ -64,14 +64,14 @@ def update() -> None:
     downloaded_file_path = imdb_s3_downloader.download(FILE_NAME)
 
     for _ in imdb_s3_extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
-        directing_credits, writing_credits = _extract_credits(downloaded_file_path)
+        directing_credits, writing_credits = extract_credits(downloaded_file_path)
         DirectingCreditsTable.recreate()
         DirectingCreditsTable.insert_credits(directing_credits)
         WritingCreditsTable.recreate()
         WritingCreditsTable.insert_credits(writing_credits)
 
 
-def _extract_credits(
+def extract_credits(
     downloaded_file_path: str,
 ) -> Tuple[List[CrewCredit], List[CrewCredit]]:
     title_ids = movies.title_ids()
@@ -81,8 +81,8 @@ def _extract_credits(
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
         title_id = fields[0]
         if title_id in title_ids:
-            directing_credits.extend(_fields_to_credits(fields, 1))
-            writing_credits.extend(_fields_to_credits(fields, 2))
+            directing_credits.extend(fields_to_credits(fields, 1))
+            writing_credits.extend(fields_to_credits(fields, 2))
 
     logger.log(
         "Extracted {} {}.",
@@ -98,7 +98,7 @@ def _extract_credits(
     return (directing_credits, writing_credits)
 
 
-def _fields_to_credits(
+def fields_to_credits(
     fields: List[Optional[str]], credit_index: int
 ) -> List[CrewCredit]:
     crew_credits: List[CrewCredit] = []
