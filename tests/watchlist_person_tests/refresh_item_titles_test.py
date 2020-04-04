@@ -83,8 +83,6 @@ def test_refreshes_titles_from_imdb(
 
     person.refresh_item_titles()
 
-    print(person.titles)
-
     assert person.titles == expected
 
     save_mock.assert_called_once()
