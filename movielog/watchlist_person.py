@@ -50,7 +50,7 @@ class Person(WatchlistFile):  # noqa: WPS214
             if credit_for_person.in_production:
                 self.log_skip(credit_for_person, f"({credit_for_person.in_production})")
                 continue
-            if credit_for_person.is_silent_film():
+            if imdb_http.is_silent_film(credit_for_person):
                 self.log_skip(credit_for_person, "(silent film)")
                 continue
 

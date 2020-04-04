@@ -1,7 +1,7 @@
 import os
 from dataclasses import dataclass
 from glob import glob
-from typing import Any, Dict, Iterable, List, Optional, Type, TypeVar, Union
+from typing import Any, Dict, Iterable, List, Optional, Type, TypeVar
 
 from slugify import slugify
 
@@ -20,7 +20,7 @@ YEAR = "year"
 @dataclass
 class Title(object):
     imdb_id: str
-    year: Union[str, int]
+    year: int
     title: str
     notes: Optional[str] = None
 

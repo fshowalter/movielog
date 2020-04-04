@@ -15,13 +15,13 @@ imdb_scraper = imdb.IMDb(reraiseExceptions=True)
 class TitleBasic(object):
     imdb_id: str
     title: str
-    year: str
+    year: int
 
 
 @dataclass
 class CreditForPerson(TitleBasic):
     notes: str
-    in_production: str
+    in_production: Optional[str]
 
     @classmethod
     def from_imdb_movie(cls, imdb_movie: imdb.Movie.Movie) -> "CreditForPerson":
@@ -32,27 +32,6 @@ class CreditForPerson(TitleBasic):
             notes=imdb_movie.notes,
             in_production=imdb_movie.get("status"),
         )
-
-    def is_silent_film(self) -> Optional[bool]:
-        if self.imdb_id in silent_ids:
-            return True
-
-        if self.imdb_id not in no_sound_mix_ids:
-            imdb_movie = imdb.Movie.Movie(movie_id=self.imdb_id[2:])
-            imdb_scraper.update(imdb_movie, info=["technical"])
-
-            if "sound mix" not in imdb_movie["technical"]:
-                no_sound_mix_ids.add(self.imdb_id)
-                return None
-
-            pattern = "Silent*"
-
-            sound_mixes = imdb_movie["technical"]["sound mix"]
-            if fnmatch.filter(sound_mixes, pattern):
-                silent_ids.add(self.imdb_id)
-                return True
-
-        return False
 
 
 @dataclass
@@ -125,9 +104,30 @@ def credits_for_person(
 
     credit_list: List[CreditForPerson] = []
 
-    for imdb_movie in reversed(imdb_person.filmography.get(credit_key, [])):
+    for imdb_movie in reversed(filmography.get(credit_key, [])):
         credit_list.append(CreditForPerson.from_imdb_movie(imdb_movie))
 
-        time.sleep(1)
-
     return credit_list
+
+
+def is_silent_film(title: TitleBasic) -> Optional[bool]:
+    if title.imdb_id in silent_ids:
+        return True
+
+    if title.imdb_id not in no_sound_mix_ids:
+        time.sleep(1)
+        imdb_movie = imdb.Movie.Movie(movie_id=title.imdb_id[2:])
+        imdb_scraper.update(imdb_movie, info=["technical"])
+
+        if "sound mix" not in imdb_movie["technical"]:
+            no_sound_mix_ids.add(title.imdb_id)
+            return None
+
+        pattern = "Silent*"
+
+        sound_mixes = imdb_movie["technical"]["sound mix"]
+        if fnmatch.filter(sound_mixes, pattern):
+            silent_ids.add(title.imdb_id)
+            return True
+
+    return False
