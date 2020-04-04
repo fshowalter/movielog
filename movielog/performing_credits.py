@@ -9,6 +9,7 @@ from movielog import db, humanize, imdb_http, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "performing_credits"
+FOLDER_PATH = "performing_credits"
 PERSON_IMDB_ID = "person_imdb_id"
 
 
@@ -97,7 +98,7 @@ class Movie(yaml_file.Movie):
 
     @classmethod
     def folder_path(cls) -> str:
-        return TABLE_NAME
+        return FOLDER_PATH
 
     def log_save(self) -> None:
         credits_length = humanize.intcomma(len(self.performing_credits))
@@ -106,8 +107,7 @@ class Movie(yaml_file.Movie):
     def as_yaml(self) -> Dict[str, Any]:
         return {
             "imdb_id": self.imdb_id,
-            "title": self.title,
-            "year": self.year,
+            "title": self.title_with_year,
             "cast": [
                 performing_credit.as_yaml()
                 for performing_credit in self.performing_credits
@@ -133,6 +133,8 @@ class Movie(yaml_file.Movie):
 
 
 class PerformingCreditsTable(db.Table):
+    table_name = TABLE_NAME
+
     recreate_ddl = """
         DROP TABLE IF EXISTS "{0}";
         CREATE TABLE "{0}" (
@@ -173,8 +175,8 @@ def update(imdb_ids: List[str]) -> None:
 
     existing_imdb_ids: Set[str] = set()
 
-    for yaml_file_path in glob(os.path.join(TABLE_NAME, "*.yml")):
-        movie = Movie.from_yaml_file_path(yaml_file_path)
+    for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.yml")):
+        movie = Movie.from_file_path(yaml_file_path)
         existing_imdb_ids.add(movie.imdb_id)
         performing_credits.extend(movie.performing_credits)
 
