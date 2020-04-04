@@ -15,17 +15,12 @@ Whitelist = {
 }
 
 
-class MovieError(Exception):
-    def __init__(self, message: str) -> None:
-        self.message = message
-
-
 @dataclass
 class Movie(object):
-    __slots__ = ("imdb_id", "title", "is_original_title", "year", "runtime_minutes")
+    __slots__ = ("imdb_id", "title", "original_title", "year", "runtime_minutes")
     imdb_id: str
     title: str
-    is_original_title: bool
+    original_title: str
     year: str
     runtime_minutes: str
 
@@ -34,7 +29,7 @@ class Movie(object):
         return Movie(
             imdb_id=str(fields[0]),
             title=str(fields[2]),
-            is_original_title=bool(fields[3]),
+            original_title=str(fields[3]),
             year=str(fields[5]),
             runtime_minutes=str(fields[7]),
         )
@@ -44,7 +39,7 @@ class Movie(object):
         return Movie(
             imdb_id=str(row["imdb_id"]),
             title=str(row["title"]),
-            is_original_title=bool(row["is_original_title"]),
+            original_title=str(row["original_title"]),
             year=str(row["year"]),
             runtime_minutes=str(row["runtime_minutes"]),
         )
@@ -58,16 +53,17 @@ class MoviesTable(db.Table):
         CREATE TABLE "{0}" (
             "imdb_id" TEXT PRIMARY KEY NOT NULL,
             "title" TEXT NOT NULL,
-            "is_original_title" BOOL,
+            "original_title" TEXT,
             "year" INT NOT NULL,
-            "runtime_minutes" INT);
+            "runtime_minutes" INT,
+            "principal_cast" TEXT);
     """
 
     @classmethod
     def insert_movies(cls, movies: List[Movie]) -> None:
         ddl = """
-          INSERT INTO {0}(imdb_id, title, is_original_title, year, runtime_minutes)
-          VALUES(:imdb_id, :title, :is_original_title, :year, :runtime_minutes);
+          INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes)
+          VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes);
         """.format(
             cls.table_name
         )
@@ -82,7 +78,7 @@ def update() -> None:
     downloaded_file_path = imdb_s3_downloader.download(FILE_NAME)
 
     for _ in imdb_s3_extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
-        movies = _extract_movies(downloaded_file_path)
+        movies = extract_movies(downloaded_file_path)
         MoviesTable.recreate()
         MoviesTable.insert_movies(list(movies.values()))
         title_ids.cache_clear()
@@ -96,7 +92,7 @@ def title_ids() -> Set[str]:
         return set(cursor.execute("select imdb_id from movies").fetchall())
 
 
-def _extract_movies(downloaded_file_path: str) -> Mapping[str, Movie]:
+def extract_movies(downloaded_file_path: str) -> Mapping[str, Movie]:
     movies: Dict[str, Movie] = {}
 
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
