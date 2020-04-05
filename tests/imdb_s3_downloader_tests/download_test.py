@@ -28,7 +28,7 @@ def request_mock(mocker: MockFixture) -> MockFixture:
     url_open_mock = mocker.patch("movielog.imdb_s3_downloader.request.urlopen")
 
     url_open_mock.return_value.__enter__.return_value.info.return_value = {  # noqa: E501, WPS110, WPS219, WPS609
-        "Last-Modified": "Sat, 04 Apr 2020 19:00:00 EDT"
+        "Last-Modified": "Sat, 04 Apr 2020 12:00:00 GMT"
     }
 
     return url_open_mock
