@@ -16,12 +16,10 @@ def extract(
         headers_length = len(gz_file.readline().strip().split("\t"))
         for line in gz_file:
             fields = line.strip().split("\t")
-            print(headers_length)
-            print(len(fields))
             if len(fields) != headers_length:
                 continue
 
-            yield _parse_fields(fields)
+            yield parse_fields(fields)
 
 
 def checkpoint(file_path: str) -> Generator[None, None, None]:
@@ -36,7 +34,7 @@ def checkpoint(file_path: str) -> Generator[None, None, None]:
     success_file.touch()
 
 
-def _parse_fields(fields: List[Optional[str]]) -> List[Optional[str]]:  # noqa: WPS221
+def parse_fields(fields: List[Optional[str]]) -> List[Optional[str]]:  # noqa: WPS221
     for index, field in enumerate(fields):
         if field == r"\N":
             fields[index] = None
