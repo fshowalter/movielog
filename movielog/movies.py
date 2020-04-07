@@ -1,11 +1,13 @@
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from functools import lru_cache
-from typing import Any, Dict, List, Mapping, Optional, Set
+from typing import Dict, List, Optional, Sequence, Set
 
 from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor
 from movielog.logger import logger
 
-FILE_NAME = "title.basics.tsv.gz"
+MOVIES_FILE_NAME = "title.basics.tsv.gz"
+PRINCIPALS_FILE_NAME = "title.principals.tsv.gz"
+
 TABLE_NAME = "movies"
 Whitelist = {
     "tt0116671",  # Jack Frost (1997) [V]
@@ -17,12 +19,20 @@ Whitelist = {
 
 @dataclass
 class Movie(object):
-    __slots__ = ("imdb_id", "title", "original_title", "year", "runtime_minutes")
+    __slots__ = (
+        "imdb_id",
+        "title",
+        "original_title",
+        "year",
+        "runtime_minutes",
+        "principal_cast",
+    )
     imdb_id: str
     title: str
     original_title: str
     year: str
     runtime_minutes: str
+    principal_cast: List["Principal"]
 
     @classmethod
     def from_imdb_s3_fields(cls, fields: List[Optional[str]]) -> "Movie":
@@ -32,16 +42,121 @@ class Movie(object):
             original_title=str(fields[3]),
             year=str(fields[5]),
             runtime_minutes=str(fields[7]),
+            principal_cast=[],
         )
 
     @classmethod
-    def from_db_row(cls, row: Dict[str, Any]) -> "Movie":
-        return Movie(
-            imdb_id=str(row["imdb_id"]),
-            title=str(row["title"]),
-            original_title=str(row["original_title"]),
-            year=str(row["year"]),
-            runtime_minutes=str(row["runtime_minutes"]),
+    def from_imdb_s3_file(cls, file_path: str) -> "MovieCollection":
+        movies: Dict[str, Movie] = {}
+
+        for fields in imdb_s3_extractor.extract(file_path):
+            imdb_id = str(fields[0])
+            if imdb_id in Whitelist or cls.s3_fields_are_valid(fields):
+                movies[imdb_id] = cls.from_imdb_s3_fields(fields)
+
+        logger.log("Extracted {} {}.", humanize.intcomma(len(movies)), TABLE_NAME)
+
+        return MovieCollection(movies)
+
+    @classmethod
+    def s3_fields_are_valid(cls, fields: List[Optional[str]]) -> bool:
+        if fields[1] != "movie":
+            return False
+        if fields[4] == "1":
+            return False
+        if fields[5] is None:
+            return False
+
+        genres = set(str(fields[8]).split(","))
+        if "Documentary" in genres:
+            return False
+
+        return True
+
+    def as_dict(self) -> Dict[str, Optional[str]]:
+        return {
+            "imdb_id": self.imdb_id,
+            "title": self.title,
+            "original_title": self.original_title,
+            "year": self.year,
+            "runtime_minutes": self.runtime_minutes,
+            "principal_cast_ids": ",".join(self.principal_cast_ids),
+        }
+
+    @property
+    def principal_cast_ids(self) -> Sequence[str]:
+        return [
+            principal.person_imdb_id
+            for principal in sorted(
+                self.principal_cast, key=lambda principal: principal.sequence
+            )
+        ]
+
+
+@dataclass
+class MovieCollection(object):
+    movie_map: Dict[str, Movie]
+
+    def append_principal_cast(self, downloaded_file_path: str) -> None:
+        principals = 0
+        for fields in imdb_s3_extractor.extract(downloaded_file_path):
+            movie_imdb_id = str(fields[0])
+            if movie_imdb_id not in self.movie_map:
+                continue
+            if fields[3] not in {"actor", "actress"}:
+                continue
+
+            self.movie_map[movie_imdb_id].principal_cast.append(
+                Principal.from_imdb_s3_fields(fields)
+            )
+            principals += 1
+
+        logger.log("Extracted {} {}.", humanize.intcomma(principals), "cast principals")
+
+        removed = 0
+
+        for movie in list(self.movie_map.values()):
+            if not movie.principal_cast_ids:
+                del self.movie_map[movie.imdb_id]  # noqa: WPS420
+                removed += 1
+
+        logger.log(
+            "Removed {} {} with {}.",
+            humanize.intcomma(removed),
+            "movies",
+            "no principal cast",
+        )
+
+    def as_list(self) -> Sequence[Movie]:
+        return list(self.movie_map.values())
+
+
+@dataclass
+class Principal(object):
+    __slots__ = (
+        "movie_imdb_id",
+        "person_imdb_id",
+        "sequence",
+        "category",
+        "job",
+        "characters",
+    )
+    movie_imdb_id: str
+    person_imdb_id: str
+    sequence: int
+    category: Optional[str]
+    job: Optional[str]
+    characters: Optional[str]
+
+    @classmethod
+    def from_imdb_s3_fields(cls, fields: List[Optional[str]]) -> "Principal":
+        return cls(
+            movie_imdb_id=str(fields[0]),
+            sequence=int(str(fields[1])),
+            person_imdb_id=str(fields[2]),
+            category=fields[3],
+            job=fields[4],
+            characters=fields[5],
         )
 
 
@@ -56,18 +171,18 @@ class MoviesTable(db.Table):
             "original_title" TEXT,
             "year" INT NOT NULL,
             "runtime_minutes" INT,
-            "principal_cast" TEXT);
+            "principal_cast_ids" TEXT);
     """
 
     @classmethod
-    def insert_movies(cls, movies: List[Movie]) -> None:
+    def insert_movies(cls, movies: Sequence[Movie]) -> None:
         ddl = """
-          INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes)
-          VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes);
+          INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes, principal_cast_ids)
+          VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes, :principal_cast_ids);
         """.format(
             cls.table_name
         )
-        cls.insert(ddl=ddl, parameter_seq=[asdict(movie) for movie in movies])
+        cls.insert(ddl=ddl, parameter_seq=[movie.as_dict() for movie in movies])
         cls.add_index("title")
         cls.validate(movies)
 
@@ -75,12 +190,15 @@ class MoviesTable(db.Table):
 def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
-    downloaded_file_path = imdb_s3_downloader.download(FILE_NAME)
+    movies_file_path = imdb_s3_downloader.download(MOVIES_FILE_NAME)
+    principals_file_path = imdb_s3_downloader.download(PRINCIPALS_FILE_NAME)
 
-    for _ in imdb_s3_extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
-        movies = extract_movies(downloaded_file_path)
+    for _ in imdb_s3_extractor.checkpoint(movies_file_path):  # noqa: WPS122
+        movies = Movie.from_imdb_s3_file(movies_file_path)
+        movies.append_principal_cast(principals_file_path)
+
         MoviesTable.recreate()
-        MoviesTable.insert_movies(list(movies.values()))
+        MoviesTable.insert_movies(movies.as_list())
         title_ids.cache_clear()
 
 
@@ -90,30 +208,3 @@ def title_ids() -> Set[str]:
         cursor = connection.cursor()
         cursor.row_factory = lambda cursor, row: row[0]
         return set(cursor.execute("select imdb_id from movies").fetchall())
-
-
-def extract_movies(downloaded_file_path: str) -> Mapping[str, Movie]:
-    movies: Dict[str, Movie] = {}
-
-    for fields in imdb_s3_extractor.extract(downloaded_file_path):
-        imdb_id = str(fields[0])
-        if imdb_id in Whitelist or title_line_is_valid(fields):
-            movies[imdb_id] = Movie.from_imdb_s3_fields(fields)
-
-    logger.log("Extracted {} {}.", humanize.intcomma(len(movies)), TABLE_NAME)
-    return movies
-
-
-def title_line_is_valid(title_line: List[Optional[str]]) -> bool:
-    if title_line[1] != "movie":
-        return False
-    if title_line[4] == "1":
-        return False
-    if title_line[5] is None:
-        return False
-
-    genres = set(str(title_line[8]).split(","))
-    if "Documentary" in genres:
-        return False
-
-    return True

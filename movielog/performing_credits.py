@@ -26,7 +26,7 @@ class Credit(object):
     def role_string(self) -> str:
         return " / ".join(self.roles)
 
-    def to_dict(self) -> Dict[str, Optional[str]]:
+    def as_dict(self) -> Dict[str, Optional[str]]:
         return {
             "sequence": str(self.sequence),
             "movie_imdb_id": self.movie_imdb_id,
@@ -158,7 +158,7 @@ class PerformingCreditsTable(db.Table):
         )
 
         cls.insert(
-            ddl=ddl, parameter_seq=[credit.to_dict() for credit in performing_credits]
+            ddl=ddl, parameter_seq=[credit.as_dict() for credit in performing_credits]
         )
         cls.add_index("movie_imdb_id")
         cls.add_index(PERSON_IMDB_ID)

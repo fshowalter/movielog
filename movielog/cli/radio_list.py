@@ -7,54 +7,53 @@ from prompt_toolkit.layout import Layout
 from prompt_toolkit.layout.containers import HSplit
 from prompt_toolkit.widgets import Label, RadioList
 
-from movielog import queries, watchlist_collection
+# from movielog import watchlist_collection
+from movielog.cli import movie_searcher
 
 OptionalCallableType = Optional[Callable[[], None]]
 CallableOptionType = Tuple[OptionalCallableType, HTML]
 CallableOptions = NewType("CallableOptions", List[CallableOptionType])
 
-PersonSearchResultOptionType = Tuple[Optional[queries.PersonSearchResult], HTML]
-PersonSearchOptions = NewType("PersonSearchOptions", List[PersonSearchResultOptionType])
+# PersonSearchResultOptionType = Tuple[Optional[queries.PersonSearchResult], HTML]
+# PersonSearchOptions = NewType("PersonSearchOptions", List[PersonSearchResultOptionType])
 
-CollectionOptionType = Tuple[Optional[watchlist_collection.Collection], HTML]
-CollectionOptions = NewType("CollectionOptions", List[CollectionOptionType])
+# CollectionOptionType = Tuple[Optional[watchlist_collection.Collection], HTML]
+# CollectionOptions = NewType("CollectionOptions", List[CollectionOptionType])
 
-MovieSearchResultOptionType = Tuple[Optional[queries.MovieSearchResult], str]
+MovieSearchResultOptionType = Tuple[Optional[movie_searcher.Result], str]
 MovieSearchOptions = NewType("MovieSearchOptions", List[MovieSearchResultOptionType])
 
-VenueOptionType = Tuple[Optional[str], HTML]
-VenueOptions = NewType("VenueOptions", List[VenueOptionType])
+StringOptionType = Tuple[Optional[str], HTML]
+StringOptions = NewType("StringOptions", List[StringOptionType])
 
 
 @overload
 def prompt(title: str, options: CallableOptions) -> OptionalCallableType:
-    ...  # noqa: WPS428
+    """ Radio list prompt that returns a callable or None. """
+
+
+# @overload
+# def prompt(
+#     title: str, options: CollectionOptions
+# ) -> Optional[watchlist_collection.Collection]:
+#     ...  # noqa: WPS428
+
+
+# @overload
+# def prompt(
+#     title: str, options: PersonSearchOptions
+# ) -> Optional[queries.PersonSearchResult]:
+#     ...  # noqa: WPS428
 
 
 @overload
-def prompt(
-    title: str, options: CollectionOptions
-) -> Optional[watchlist_collection.Collection]:
-    ...  # noqa: WPS428
+def prompt(title: str, options: MovieSearchOptions) -> Optional[movie_searcher.Result]:
+    """ Radio list prompt that returns a movie_searcher result or None. """
 
 
 @overload
-def prompt(
-    title: str, options: PersonSearchOptions
-) -> Optional[queries.PersonSearchResult]:
-    ...  # noqa: WPS428
-
-
-@overload
-def prompt(
-    title: str, options: MovieSearchOptions
-) -> Optional[queries.MovieSearchResult]:
-    ...  # noqa: WPS428
-
-
-@overload
-def prompt(title: str, options: VenueOptions) -> Optional[str]:
-    ...  # noqa: WPS428
+def prompt(title: str, options: StringOptions) -> Optional[str]:
+    """ Radio list prompt that returns a str result or None. """
 
 
 def prompt(title: str, options: Sequence[Any]) -> Any:

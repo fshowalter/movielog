@@ -78,3 +78,9 @@ class Table(abc.ABC):
         with connect() as connection:
             with transaction(connection):
                 connection.executemany(ddl, parameter_seq)
+
+    @classmethod
+    def update(cls, ddl: str) -> None:
+        with connect() as connection:
+            with transaction(connection):
+                connection.execute(ddl)

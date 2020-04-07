@@ -4,11 +4,11 @@ from prompt_toolkit.formatted_text import HTML
 
 from movielog.cli import (
     add_viewing,
-    manage_watchlist,
+    # manage_watchlist,
     update_imdb_data,
-    update_viewings,
+    # update_viewings,
 )
-from movielog.cli.controls import radio_list
+from movielog.cli import radio_list
 from movielog.logger import logger
 
 
@@ -17,9 +17,9 @@ def prompt() -> Any:
     options = radio_list.CallableOptions(
         [
             (add_viewing.prompt, HTML("<cyan>Add Viewing</cyan>")),
-            (manage_watchlist.prompt, HTML("<cyan>Manage Watchlist</cyan>")),
+            # (manage_watchlist.prompt, HTML("<cyan>Manage Watchlist</cyan>")),
             (update_imdb_data.prompt, HTML("<cyan>Update IMDb data</cyan>")),
-            (update_viewings.prompt, HTML("<cyan>Update Viewings</cyan>")),
+            # (update_viewings.prompt, HTML("<cyan>Update Viewings</cyan>")),
             (None, "Exit"),
         ]
     )

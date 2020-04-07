@@ -6,9 +6,7 @@ from prompt_toolkit.validation import Validator
 
 
 def prompt(
-    message: str,
-    extra_rprompt: Optional[str] = None,
-    validator: Optional[Validator] = None,
+    message: str, rprompt: Optional[str] = None, validator: Optional[Validator] = None,
 ) -> Optional[str]:
     bindings = key_binding.KeyBindings()
 
@@ -17,17 +15,17 @@ def prompt(
         """ Exit when `ESC` is pressed. """
         event.app.exit()
 
-    rprompt = "ESC to go back"
+    right_side_prompt = "ESC to go back"
 
-    if extra_rprompt:
-        rprompt = f"{extra_rprompt} | {rprompt}"
+    if rprompt:
+        right_side_prompt = f"{right_side_prompt} | {rprompt}"
 
     return cast(
         Optional[str],
         toolkit_prompt(
             message,
             key_bindings=bindings,
-            rprompt=rprompt,
+            rprompt=right_side_prompt,
             validator=validator,
             validate_while_typing=False,
         ),
