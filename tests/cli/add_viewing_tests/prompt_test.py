@@ -6,7 +6,7 @@ from pytest_mock import MockFixture
 
 from movielog import movies, people
 from movielog.cli import add_viewing
-from tests.cli.keys import Backspace, Down, Enter, Escape
+from tests.cli.keys import Backspace, Down, End, Enter, Escape
 from tests.cli.typehints import MovieTuple, PosixPipeInput
 
 Movie = movies.Movie
@@ -74,7 +74,7 @@ def test_calls_add_viewing(
     )
 
 
-def test_does_not_call_add_viewing_if_movie_is_none(
+def test_does_not_call_add_viewing_if_no_movie(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(f"{Escape}")  # noqa: WPS221
@@ -83,11 +83,11 @@ def test_does_not_call_add_viewing_if_movie_is_none(
     mock_viewings_add.assert_not_called()
 
 
-def test_does_not_call_add_viewing_if_date_is_none(
+def test_does_not_call_add_viewing_if_no_date(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y{Escape}{Escape}"
+        f"Rio Bravo{Enter}{Down}{Enter}y{Escape}{Escape}"  # TODO Why do I need the double escape?
     )  # noqa: WPS221
     add_viewing.prompt()
 
@@ -109,3 +109,65 @@ def test_guards_against_bad_dates(
         viewing_date=date(2016, 3, 31),
         year=1959,
     )
+
+
+def test_can_confirm_date(
+    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Rio Bravo{Enter}{Down}{Enter}y2016-3-13{Enter}n2016-3-12{Enter}y{Down}{Down}{Enter}y"  # noqa: E501, WPS221
+    )
+    add_viewing.prompt()
+
+    mock_viewings_add.assert_called_once_with(
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        venue="Blu-ray",
+        viewing_date=date(2016, 3, 12),
+        year=1959,
+    )
+
+
+def test_can_add_new_venue(
+    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}4k UHD Blu-ray{Enter}y"  # noqa: E501, WPS221
+    )
+    add_viewing.prompt()
+
+    mock_viewings_add.assert_called_once_with(
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        venue="4k UHD Blu-ray",
+        viewing_date=date(2016, 3, 12),
+        year=1959,
+    )
+
+
+def test_can_confirm_new_venue(
+    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}2k UHD Blu-ray{Enter}n{End}{Enter}4k UHD Blu-ray{Enter}y"  # noqa: E501, WPS221
+    )
+    add_viewing.prompt()
+
+    mock_viewings_add.assert_called_once_with(
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        venue="4k UHD Blu-ray",
+        viewing_date=date(2016, 3, 12),
+        year=1959,
+    )
+
+
+def test_does_not_call_add_viewing_if_no_venue(
+    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}{Escape}{Escape}"  # noqa: E501, WPS221
+    )
+    add_viewing.prompt()
+
+    mock_viewings_add.assert_not_called()

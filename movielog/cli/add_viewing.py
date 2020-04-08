@@ -71,6 +71,29 @@ def ask_for_date() -> Optional[date]:
 
 
 def ask_for_venue() -> Optional[str]:
+    options: List[Option] = build_venue_options()
+
+    selected_venue = None
+
+    while selected_venue is None:
+
+        selected_venue = radio_list.prompt(title="Select venue:", options=options,)
+
+        selected_venue = selected_venue or new_venue()
+
+        if selected_venue is None:
+            break
+
+    if not selected_venue:
+        return None
+
+    if confirm(f"{selected_venue}?"):
+        return selected_venue
+
+    return ask_for_venue()
+
+
+def build_venue_options() -> List[Option]:
     venues = viewings.venues()
 
     options: List[Option] = []
@@ -81,24 +104,8 @@ def ask_for_venue() -> Optional[str]:
 
     options.append((None, "New venue"))
 
-    selected_venue = None
-
-    while selected_venue is None:
-
-        selected_venue = radio_list.prompt(title="Select venue:", options=options,)
-
-        if not selected_venue:
-            selected_venue = new_venue()
-
-    if confirm(f"{selected_venue}?"):
-        return selected_venue
-
-    return None
+    return options
 
 
 def new_venue() -> Optional[str]:
     return ask.prompt("Venue name: ")
-
-
-if __name__ == "__main__":
-    prompt()
