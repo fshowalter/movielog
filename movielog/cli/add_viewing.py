@@ -1,8 +1,8 @@
 import html
 from datetime import date, datetime
-from typing import Optional
+from typing import Optional, List, Tuple
 
-from prompt_toolkit.formatted_text import HTML
+from prompt_toolkit.formatted_text import HTML, AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
@@ -64,7 +64,7 @@ def ask_for_date() -> Optional[date]:
 def ask_for_venue() -> Optional[str]:
     venues = viewings.venues()
 
-    options = radio_list.StringOptions([])
+    options: List[Tuple[Optional[str], AnyFormattedText]] = []
 
     for venue in venues:
         option = (venue, HTML(f"<cyan>{html.escape(venue)}</cyan>"))

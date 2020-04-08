@@ -66,7 +66,9 @@ def resolve_principals(connection: db.Connection, search_results: List[Result]) 
 
     for search_result in search_results:
         for principal_id in search_result.principal_cast_ids.split(","):
-            search_result.principal_cast_names.append(name_cache[principal_id])
+            full_name = name_cache.get(principal_id, None)
+            if full_name:
+                search_result.principal_cast_names.append(full_name)
 
 
 def build_name_cache(

@@ -10,10 +10,7 @@ def prompt(
 ) -> Optional[str]:
     bindings = key_binding.KeyBindings()
 
-    @bindings.add("escape")  # type: ignore  # noqa WPS430
-    def exit_prompt_(event: key_binding.key_processor.KeyPressEvent) -> None:
-        """ Exit when `ESC` is pressed. """
-        event.app.exit()
+    bindings.add("escape", eager=True)(handle_escape)
 
     right_side_prompt = "ESC to go back"
 
@@ -30,3 +27,8 @@ def prompt(
             validate_while_typing=False,
         ),
     )
+
+
+def handle_escape(event: key_binding.key_processor.KeyPressEvent) -> None:
+    """ Exit when `ESC` is pressed. """
+    event.app.exit()

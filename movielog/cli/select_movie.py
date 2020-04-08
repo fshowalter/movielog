@@ -1,12 +1,13 @@
 import html
-from typing import Optional, Sequence
+from typing import List, Optional, Sequence, Tuple
 
-from prompt_toolkit.formatted_text import HTML
+from prompt_toolkit.formatted_text import HTML, AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 
 from movielog.cli import ask, movie_searcher, radio_list
 
 Result = movie_searcher.Result
+Option = Tuple[Optional[Result], AnyFormattedText]
 
 
 def prompt() -> Optional[Result]:
@@ -42,8 +43,8 @@ def result_to_html_string(search_result: Result) -> str:
     )
 
 
-def build_options(search_results: Sequence[Result],) -> radio_list.MovieSearchOptions:
-    options = radio_list.MovieSearchOptions([(None, "Search again")])
+def build_options(search_results: Sequence[Result],) -> Sequence[Option]:
+    options: List[Option] = [(None, "Search again")]
 
     for search_result in search_results:
         options.append((search_result, HTML(result_to_html_string(search_result))))

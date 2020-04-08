@@ -1,10 +1,12 @@
 import html
-from typing import Optional, Sequence
+from typing import List, Optional, Sequence, Tuple
 
 from prompt_toolkit.formatted_text import HTML
 
-from movielog import queries, watchlist
-from movielog.cli.controls import ask, radio_list
+from movielog import watchlist_collection
+from movielog.cli import ask, queries, radio_list, select_movie
+
+Option = Tuple[Optional[watchlist_collection.Collection], str]
 
 
 def prompt() -> None:
@@ -13,7 +15,7 @@ def prompt() -> None:
     )
 
     if collection:
-        movie = _select_movie_for_collection(collection)
+        movie = select_movie.prompt()
         if movie:
             collection.add_title(
                 imdb_id=movie.imdb_id, title=movie.title, year=movie.year
@@ -22,17 +24,17 @@ def prompt() -> None:
         prompt()
 
 
-def _build_add_to_collection_options() -> radio_list.CollectionOptions:
-    options = radio_list.CollectionOptions([(None, "Go back")])
+def _build_add_to_collection_options() -> Sequence[Option]:
+    options: List[Option] = [(None, "Go back")]
 
-    for collection in watchlist.Collection.unfrozen_items():
+    for collection in watchlist_collection.all_items():
         option = HTML(f"<cyan>{collection.name}</cyan>")
         options.append((collection, option))
 
     return options
 
 
-def _prompt_for_new_title(collection: watchlist.Collection) -> Optional[str]:
+def _prompt_for_new_title(collection: watchlist_collection.Collection) -> Optional[str]:
     formatted_titles = []
     for title in collection.titles:
         escaped_title = html.escape(title.title)
@@ -45,43 +47,3 @@ def _prompt_for_new_title(collection: watchlist.Collection) -> Optional[str]:
         ),
     )
     return ask.prompt(prompt_text)
-
-
-def _select_movie_for_collection(
-    collection: watchlist.Collection,
-) -> Optional[queries.MovieSearchResult]:
-    movie = None
-
-    while movie is None:
-        query = _prompt_for_new_title(collection)
-        if query is None:
-            break
-
-        search_results = queries.search_movies_by_title(query)
-
-        movie = radio_list.prompt(
-            title=HTML(f'Results for "<cyan>{query}</cyan>":'),
-            options=build_options_for_select_movie_for_collection(search_results),
-        )
-
-    return movie
-
-
-def build_options_for_select_movie_for_collection(
-    search_results: Sequence[queries.MovieSearchResult],
-) -> radio_list.MovieSearchOptions:
-    options = radio_list.MovieSearchOptions([(None, "Search again")])
-
-    for search_result in search_results:
-        option = HTML(
-            "<cyan>{0} ({1})</cyan> ({2})".format(
-                html.escape(search_result.title),
-                search_result.year,
-                ", ".join(
-                    html.escape(principal) for principal in search_result.principals
-                ),
-            )
-        )
-        options.append((search_result, option))
-
-    return options

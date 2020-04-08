@@ -1,89 +1,143 @@
-from typing import Any, Callable, List, NewType, Optional, Sequence, Tuple, overload
+from typing import Generic, List, Sequence, Tuple, TypeVar, cast
 
-from prompt_toolkit import key_binding
 from prompt_toolkit.application import Application
-from prompt_toolkit.formatted_text import HTML
+from prompt_toolkit.formatted_text import (  # noqa: WPS347
+    HTML,
+    AnyFormattedText,
+    StyleAndTextTuples,
+    to_formatted_text,
+)
+from prompt_toolkit.key_binding.key_bindings import KeyBindings
+from prompt_toolkit.key_binding.key_processor import KeyPressEvent
 from prompt_toolkit.layout import Layout
-from prompt_toolkit.layout.containers import HSplit
-from prompt_toolkit.widgets import Label, RadioList
+from prompt_toolkit.layout.containers import Container, HSplit, Window
+from prompt_toolkit.layout.controls import FormattedTextControl
+from prompt_toolkit.layout.margins import ScrollbarMargin
+from prompt_toolkit.widgets import Label
 
-# from movielog import watchlist_collection
-from movielog.cli import movie_searcher
-
-OptionalCallableType = Optional[Callable[[], None]]
-CallableOptionType = Tuple[OptionalCallableType, HTML]
-CallableOptions = NewType("CallableOptions", List[CallableOptionType])
-
-# PersonSearchResultOptionType = Tuple[Optional[queries.PersonSearchResult], HTML]
-# PersonSearchOptions = NewType("PersonSearchOptions", List[PersonSearchResultOptionType])
-
-# CollectionOptionType = Tuple[Optional[watchlist_collection.Collection], HTML]
-# CollectionOptions = NewType("CollectionOptions", List[CollectionOptionType])
-
-MovieSearchResultOptionType = Tuple[Optional[movie_searcher.Result], str]
-MovieSearchOptions = NewType("MovieSearchOptions", List[MovieSearchResultOptionType])
-
-StringOptionType = Tuple[Optional[str], HTML]
-StringOptions = NewType("StringOptions", List[StringOptionType])
+RadioListType = TypeVar("RadioListType")
 
 
-@overload
-def prompt(title: str, options: CallableOptions) -> OptionalCallableType:
-    """ Radio list prompt that returns a callable or None. """
+class RadioList(Generic[RadioListType]):  # noqa: WPS214
+    """
+    List of radio buttons. Only one can be checked at the same time.
+    :param values: List of (value, label) tuples.
+    """
+
+    open_character = "("
+    close_character = ")"
+    container_style = "class:radio-list"
+    default_style = "class:radio"
+    selected_style = "class:radio-selected"
+    checked_style = "class:radio-checked"
+
+    def __init__(
+        self, options: Sequence[Tuple[RadioListType, AnyFormattedText]]
+    ) -> None:
+        self.options = options
+        self.current_option: RadioListType = options[0][0]
+        self._selected_index = 0
+
+        # Key bindings.
+        kb = KeyBindings()
+
+        kb.add("up")(self._handle_up)
+        kb.add("down")(self._handle_down)
+        kb.add("enter")(self._handle_enter)
+        kb.add("c-d")(self._handle_exit)
+        kb.add("c-a")(self._handle_home)
+        kb.add("c-e")(self._handle_end)
+
+        # Control and window.
+        self.control = FormattedTextControl(
+            self._get_text_fragments, key_bindings=kb, focusable=True
+        )
+
+        self.window = Window(
+            content=self.control,
+            style=self.container_style,
+            right_margins=[ScrollbarMargin(display_arrows=True)],
+            dont_extend_height=True,
+        )
+
+    def __pt_container__(self) -> Container:
+        return self.window
+
+    def _get_text_fragments(self) -> StyleAndTextTuples:
+        output_result: StyleAndTextTuples = []
+        for index, option in enumerate(self.options):
+            selected = index == self._selected_index
+
+            style = ""
+            if selected:
+                style = "{0} {1}".format(style, self.selected_style)
+
+            output_result.append((style, self.open_character))
+
+            if selected:
+                output_result.append(("[SetCursorPosition]", ""))
+                output_result.append((style, "*"))
+            else:
+                output_result.append((style, " "))
+
+            output_result.append((style, self.close_character))
+            output_result.append((self.default_style, " "))
+            output_result.extend(to_formatted_text(option[1], style=self.default_style))
+            output_result.append(("", "\n"))
+
+        output_result.pop()  # Remove last newline.
+        return output_result
+
+    def _handle_enter(self, event: KeyPressEvent) -> None:
+        self.current_value = self.options[self._selected_index][0]
+        event.app.exit(result=self.current_value)
+
+    def _handle_up(self, event: KeyPressEvent) -> None:
+        new_index = self._selected_index - 1
+
+        if new_index < 0:
+            new_index = len(self.options) - 1
+
+        self._selected_index = new_index
+
+    def _handle_down(self, event: KeyPressEvent) -> None:
+        new_index = self._selected_index + 1
+
+        if new_index > len(self.options) - 1:
+            new_index = 0
+
+        self._selected_index = new_index
+
+    def _handle_home(self, event: KeyPressEvent) -> None:
+        self._selected_index = 0
+
+    def _handle_end(self, event: KeyPressEvent) -> None:
+        self._selected_index = len(self.options) - 1
+
+    def _handle_exit(self, event: KeyPressEvent) -> None:
+        event.app.exit(result=None)
 
 
-# @overload
-# def prompt(
-#     title: str, options: CollectionOptions
-# ) -> Optional[watchlist_collection.Collection]:
-#     ...  # noqa: WPS428
-
-
-# @overload
-# def prompt(
-#     title: str, options: PersonSearchOptions
-# ) -> Optional[queries.PersonSearchResult]:
-#     ...  # noqa: WPS428
-
-
-@overload
-def prompt(title: str, options: MovieSearchOptions) -> Optional[movie_searcher.Result]:
-    """ Radio list prompt that returns a movie_searcher result or None. """
-
-
-@overload
-def prompt(title: str, options: StringOptions) -> Optional[str]:
-    """ Radio list prompt that returns a str result or None. """
-
-
-def prompt(title: str, options: Sequence[Any]) -> Any:
-    control = RadioList(options)
-
-    # Add exit key binding.
-    bindings = key_binding.KeyBindings()
-
-    @bindings.add("c-d")  # type: ignore  # noqa WPS430
-    def exit_(event: key_binding.key_processor.KeyPressEvent) -> None:
-        """
-        Pressing Ctrl-d will exit the user interface.
-        """
-        event.app.exit()
-
-    @bindings.add("enter", eager=True)  # type: ignore  # noqa: WPS430
-    def exit_with_value(event: key_binding.key_processor.KeyPressEvent) -> None:
-        """
-        Pressing Ctrl-a will exit the user interface returning the selected value.
-        """
-        control._handle_enter()  # noqa: WPS437
-        event.app.exit(result=control.current_value)
+def prompt(
+    title: str, options: Sequence[Tuple[RadioListType, AnyFormattedText]]
+) -> RadioListType:
+    control = RadioList(options_to_html(options))
 
     application = Application(
         layout=Layout(HSplit([Label(title), control])),
-        key_bindings=key_binding.merge_key_bindings(
-            [key_binding.defaults.load_key_bindings(), bindings],
-        ),
-        mouse_support=True,
+        mouse_support=False,
         full_screen=False,
     )
 
-    return application.run()
+    return cast(RadioListType, application.run())
+
+
+def options_to_html(
+    options: Sequence[Tuple[RadioListType, AnyFormattedText]],
+) -> Sequence[Tuple[RadioListType, AnyFormattedText]]:
+    formatted_options: List[Tuple[RadioListType, AnyFormattedText]] = []
+
+    for option in options:
+        formatted_options.append((option[0], HTML(option[1])))
+
+    return formatted_options

@@ -1,12 +1,12 @@
 import html
-from typing import Callable, Sequence
+from typing import Callable, List, Sequence, Optional, Tuple
 
 from prompt_toolkit.formatted_text import HTML
 
-from movielog import queries
-from movielog.cli.controls import ask, radio_list
+from movielog.cli import ask, radio_list, queries
 
 PersonSearchResults = Sequence[queries.PersonSearchResult]
+Option = Tuple[Optional[queries.PersonSearchResult], str]
 
 
 def prompt(
@@ -30,10 +30,8 @@ def prompt(
     return person
 
 
-def _build_options(
-    search_results: PersonSearchResults,
-) -> radio_list.PersonSearchOptions:
-    options = radio_list.PersonSearchOptions([(None, "Search again")])
+def _build_options(search_results: PersonSearchResults,) -> Sequence[Option]:
+    options: List[Option] = [(None, "Search again")]
 
     for search_result in search_results:
         option = HTML(

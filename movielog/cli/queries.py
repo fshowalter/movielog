@@ -1,6 +1,6 @@
 from typing import List
 
-from movielog import movie_searcher, person_searcher
+from movielog.cli import movie_searcher, person_searcher
 
 PersonSearchResult = person_searcher.Result
 MovieSearchResult = movie_searcher.Result
