@@ -2,17 +2,14 @@ import gzip
 import os
 import shutil
 import sqlite3
-from io import StringIO
 from typing import Callable, Generator
 
 import pytest
-from pytest_mock import MockFixture
 
 from movielog import db
 from tests import typehints
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
-
 
 
 @pytest.fixture
