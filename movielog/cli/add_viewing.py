@@ -1,23 +1,30 @@
 import html
 from datetime import date, datetime
-from typing import Optional, List, Tuple
+from typing import List, Optional, Tuple
 
-from prompt_toolkit.formatted_text import HTML, AnyFormattedText
+from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
 from movielog import viewings
 from movielog.cli import ask, radio_list, select_movie
 
+Option = Tuple[Optional[str], AnyFormattedText]
+
 
 def prompt() -> None:
     movie = select_movie.prompt()
+
     if not movie:
         return
+
     viewing_date = ask_for_date()
+
     if not viewing_date:
         return
+
     venue = ask_for_venue()
+
     if not venue:
         return
 
@@ -51,10 +58,12 @@ def ask_for_date() -> Optional[date]:
     date_string = ask.prompt(
         "Date: ", rprompt="YYYY-MM-DD format.", validator=validator
     )
+
     if not date_string:
         return None
 
     viewing_date = string_to_date(date_string)
+
     if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):  # noqa: WPS323
         return viewing_date
 
@@ -64,29 +73,32 @@ def ask_for_date() -> Optional[date]:
 def ask_for_venue() -> Optional[str]:
     venues = viewings.venues()
 
-    options: List[Tuple[Optional[str], AnyFormattedText]] = []
+    options: List[Option] = []
 
     for venue in venues:
-        option = (venue, HTML(f"<cyan>{html.escape(venue)}</cyan>"))
+        option = (venue, f"<cyan>{html.escape(venue)}</cyan>")
         options.append(option)
 
-    options.append((None, HTML("New venue")))
+    options.append((None, "New venue"))
 
     selected_venue = None
 
     while selected_venue is None:
 
-        selected_venue = radio_list.prompt(
-            title=HTML("Select venue:"), options=options,
-        )
+        selected_venue = radio_list.prompt(title="Select venue:", options=options,)
 
         if not selected_venue:
             selected_venue = new_venue()
 
     if confirm(f"{selected_venue}?"):
         return selected_venue
+
     return None
 
 
 def new_venue() -> Optional[str]:
     return ask.prompt("Venue name: ")
+
+
+if __name__ == "__main__":
+    prompt()
