@@ -39,6 +39,19 @@ def test_calls_add_performer(
     )
 
 
+def test_can_confirm_selection(
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Chris Sarandon{Enter}{Down}{Enter}nJohn Wayne{Enter}{Down}{Enter}y{Enter}"  # noqa: WPS221
+    )
+    add_performer.prompt()
+
+    mock_watchlist_add_performer.assert_called_once_with(
+        imdb_id="nm0000078", name="John Wayne",
+    )
+
+
 def test_does_not_call_add_performer_if_no_selection(
     mock_input: PosixPipeInput, mock_watchlist_add_performer: MockFixture
 ) -> None:

@@ -75,6 +75,23 @@ def test_calls_add_viewing(
     )
 
 
+def test_can_confirm_movie(
+    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Fright Night{Enter}{Down}{Enter}nRio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{Down}{Down}{Enter}y"  # noqa:E501 WPS221
+    )
+    add_viewing.prompt()
+
+    mock_viewings_add.assert_called_once_with(
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        venue="Blu-ray",
+        viewing_date=date(2016, 3, 12),
+        year=1959,
+    )
+
+
 def test_does_not_call_add_viewing_if_no_movie(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:

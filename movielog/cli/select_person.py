@@ -25,13 +25,13 @@ def prompt(search_func: Callable[[str], Sequence[Result]]) -> Optional[Result]:
             options=build_options(search_results),
         )
 
-    if person:
-        if confirm.prompt(f"<cyan>{person.name}</cyan>?"):
-            return person
-    if person:
-        return prompt(search_func)
+    if not person:
+        return None
 
-    return None
+    if confirm.prompt(f"<cyan>{person.name}</cyan>?"):
+        return person
+
+    return prompt(search_func)
 
 
 def result_to_html_string(search_result: Result) -> str:

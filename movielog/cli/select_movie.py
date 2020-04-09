@@ -25,12 +25,13 @@ def prompt(prompt_text: str = "Title: ") -> Optional[Result]:
             title=f'Results for "<cyan>{query}</cyan>":', options=options,
         )
 
-    if movie:
-        if confirm.prompt((f"{result_to_html_string(movie)}?")):
-            return movie
-    if movie:
-        return prompt(prompt_text)
-    return None
+    if not movie:
+        return None
+
+    if confirm.prompt((f"{result_to_html_string(movie)}?")):
+        return movie
+
+    return prompt(prompt_text)
 
 
 def result_to_html_string(search_result: Result) -> str:

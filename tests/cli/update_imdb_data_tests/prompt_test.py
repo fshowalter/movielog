@@ -20,7 +20,7 @@ def mock_watchlist_update_watchlist_titles_table(mocker: MockFixture) -> MockFix
     )
 
 
-def test_callsimdb_s3_orchestrator_update(
+def test_calls_imdb_s3_orchestrator_update(
     mock_input: PosixPipeInput,
     mock_imdb_s3_orchestrator_orchestrate_update: MockFixture,
 ) -> None:
@@ -28,6 +28,16 @@ def test_callsimdb_s3_orchestrator_update(
     update_imdb_data.prompt()
 
     mock_imdb_s3_orchestrator_orchestrate_update.assert_called_once()
+
+
+def test_can_confirm_imdb_s3_orchestrator_update(
+    mock_input: PosixPipeInput,
+    mock_imdb_s3_orchestrator_orchestrate_update: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Down}{Enter}n{Enter}")
+    update_imdb_data.prompt()
+
+    mock_imdb_s3_orchestrator_orchestrate_update.assert_not_called()
 
 
 def test_calls_update_imdb_web_data(
@@ -38,3 +48,13 @@ def test_calls_update_imdb_web_data(
     update_imdb_data.prompt()
 
     mock_watchlist_update_watchlist_titles_table.assert_called_once()
+
+
+def test_can_confirm_update_imdb_web_data(
+    mock_input: PosixPipeInput,
+    mock_watchlist_update_watchlist_titles_table: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Down}{Down}{Enter}n{Enter}")
+    update_imdb_data.prompt()
+
+    mock_watchlist_update_watchlist_titles_table.assert_not_called()
