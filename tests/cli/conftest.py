@@ -102,6 +102,10 @@ class SeedCreditBuilder(object):
                     principal_cast=[],
                 )
 
+                person.known_for_title_ids = (
+                    f"{person.known_for_title_ids},{movie.imdb_id}"
+                )
+
                 self.crew_credits.append(
                     crew_credits.CrewCredit(
                         movie_imdb_id=movie.imdb_id,
@@ -140,3 +144,15 @@ def seed_writers() -> Callable[[List[CreditTuple]], None]:
         crew_credits.WritingCreditsTable.insert_credits(seed_credits.crew_credits)
 
     return _seed_writers
+
+
+@pytest.fixture
+def seed_performers() -> Callable[[List[CreditTuple]], None]:
+    def _seed_performers(writer_tuples: List[CreditTuple]) -> None:
+        seed_credits = SeedCreditBuilder(writer_tuples)
+        people.PeopleTable.recreate()
+        people.PeopleTable.insert_people(seed_credits.people)
+        movies.MoviesTable.recreate()
+        movies.MoviesTable.insert_movies(seed_credits.movies)
+
+    return _seed_performers

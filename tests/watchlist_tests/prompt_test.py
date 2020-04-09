@@ -48,7 +48,7 @@ def test_add_writer_creates_writer(
 def test_add_performer_creates_performer(
     mock_watchlist_path: str, mocker: MockFixture,
 ) -> None:
-    watchlist.add_perfomer(imdb_id="nm0000080", name="Orson Welles")
+    watchlist.add_performer(imdb_id="nm0000080", name="Orson Welles")
 
     with open(
         os.path.join(mock_watchlist_path, "performers", "orson-welles.yml"), "r"

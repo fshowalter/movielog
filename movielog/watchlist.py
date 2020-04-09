@@ -12,7 +12,7 @@ def add_director(imdb_id: str, name: str) -> Director:
     return watchlist_person.add(Director, imdb_id=imdb_id, name=name)
 
 
-def add_perfomer(imdb_id: str, name: str) -> Performer:
+def add_performer(imdb_id: str, name: str) -> Performer:
     return watchlist_person.add(Performer, imdb_id=imdb_id, name=name)
 
 
