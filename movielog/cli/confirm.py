@@ -5,4 +5,4 @@ from prompt_toolkit.shortcuts import confirm
 
 
 def prompt(text: str) -> bool:
-    return cast(bool, confirm(HTML("text")))
+    return cast(bool, confirm(HTML(text)))

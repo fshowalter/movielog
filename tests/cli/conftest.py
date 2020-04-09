@@ -5,8 +5,8 @@ from prompt_toolkit.application.current import create_app_session
 from prompt_toolkit.input import create_pipe_input
 from prompt_toolkit.input.posix_pipe import PosixPipeInput
 
-from movielog import movies, people
-from tests.cli.typehints import MovieTuple
+from movielog import crew_credits, movies, people
+from tests.cli.typehints import CreditTuple, MovieTuple
 
 
 @pytest.fixture(autouse=True, scope="function")
@@ -72,3 +72,57 @@ def seed_movies() -> Callable[[List[MovieTuple]], None]:
         movies.MoviesTable.insert_movies(seed_movies.movies)
 
     return _seed_movies
+
+
+class SeedCreditBuilder(object):
+    def __init__(self, credit_tuples: List[CreditTuple]) -> None:
+        self.movies = []
+        self.people = []
+        self.crew_credits = []
+
+        for credit_tuple in credit_tuples:
+            person = people.Person(
+                imdb_id=credit_tuple[0],
+                full_name=credit_tuple[1],
+                last_name=None,
+                first_name=None,
+                birth_year=None,
+                death_year=None,
+                primary_profession=None,
+                known_for_title_ids="",
+            )
+
+            for movie_tuple in credit_tuple[2]:
+                movie = movies.Movie(
+                    imdb_id=movie_tuple[0],
+                    title=movie_tuple[1],
+                    original_title=movie_tuple[1],
+                    year=str(movie_tuple[2]),
+                    runtime_minutes="",
+                    principal_cast=[],
+                )
+
+                self.crew_credits.append(
+                    crew_credits.CrewCredit(
+                        movie_imdb_id=movie.imdb_id,
+                        person_imdb_id=person.imdb_id,
+                        sequence="1",
+                    )
+                )
+
+                self.movies.append(movie)
+            self.people.append(person)
+
+
+@pytest.fixture
+def seed_directors() -> Callable[[List[CreditTuple]], None]:
+    def _seed_directors(director_tuples: List[CreditTuple]) -> None:
+        seed_credits = SeedCreditBuilder(director_tuples)
+        people.PeopleTable.recreate()
+        people.PeopleTable.insert_people(seed_credits.people)
+        movies.MoviesTable.recreate()
+        movies.MoviesTable.insert_movies(seed_credits.movies)
+        crew_credits.DirectingCreditsTable.recreate()
+        crew_credits.DirectingCreditsTable.insert_credits(seed_credits.crew_credits)
+
+    return _seed_directors

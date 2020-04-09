@@ -26,7 +26,7 @@ def prompt(search_func: Callable[[str], Sequence[Result]]) -> Optional[Result]:
         )
 
     if person:
-        if confirm.prompt((f"<cyan>{person.name}</cyan>?")):
+        if confirm.prompt(f"<cyan>{person.name}</cyan>?"):
             return person
     if person:
         return prompt(search_func)
