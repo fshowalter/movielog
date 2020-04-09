@@ -126,3 +126,17 @@ def seed_directors() -> Callable[[List[CreditTuple]], None]:
         crew_credits.DirectingCreditsTable.insert_credits(seed_credits.crew_credits)
 
     return _seed_directors
+
+
+@pytest.fixture
+def seed_writers() -> Callable[[List[CreditTuple]], None]:
+    def _seed_writers(writer_tuples: List[CreditTuple]) -> None:
+        seed_credits = SeedCreditBuilder(writer_tuples)
+        people.PeopleTable.recreate()
+        people.PeopleTable.insert_people(seed_credits.people)
+        movies.MoviesTable.recreate()
+        movies.MoviesTable.insert_movies(seed_credits.movies)
+        crew_credits.WritingCreditsTable.recreate()
+        crew_credits.WritingCreditsTable.insert_credits(seed_credits.crew_credits)
+
+    return _seed_writers

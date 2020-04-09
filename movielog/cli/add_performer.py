@@ -6,4 +6,4 @@ def prompt() -> None:
     person = select_person.prompt(person_searcher.search_performers_by_name)
 
     if person:
-        watchlist.add_perfomer(person.imdb_id, person.name)
+        watchlist.add_perfomer(imdb_id=person.imdb_id, name=person.name)
