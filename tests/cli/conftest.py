@@ -18,7 +18,7 @@ def mock_input() -> PosixPipeInput:
 
 
 class SeedMovieBuilder(object):
-    def __init__(self, movie_tuples: List[MovieTuple]) -> None:
+    def __init__(self, movie_tuples: List[MovieTuple]) -> None:  # noqa: WPS231
         self.movies: List[movies.Movie] = []
         self.people: List[people.Person] = []
 
@@ -33,20 +33,6 @@ class SeedMovieBuilder(object):
             )
 
             for index, person in enumerate(movie_tuple[3]):
-                if not any(person[0] == existing.imdb_id for existing in self.people):
-                    self.people.append(
-                        people.Person(
-                            imdb_id=person[0],
-                            full_name=person[1],
-                            last_name=None,
-                            first_name=None,
-                            birth_year=None,
-                            death_year=None,
-                            primary_profession=None,
-                            known_for_title_ids=None,
-                        )
-                    )
-
                 movie.principal_cast.append(
                     movies.Principal(
                         movie_imdb_id=movie_tuple[0],
@@ -55,6 +41,25 @@ class SeedMovieBuilder(object):
                         category=None,
                         job=None,
                         characters=None,
+                    )
+                )
+
+                if any(person[0] == existing.imdb_id for existing in self.people):
+                    continue
+
+                if person[1] == "UNKNOWN":
+                    continue
+
+                self.people.append(
+                    people.Person(
+                        imdb_id=person[0],
+                        full_name=person[1],
+                        last_name=None,
+                        first_name=None,
+                        birth_year=None,
+                        death_year=None,
+                        primary_profession=None,
+                        known_for_title_ids=None,
                     )
                 )
 

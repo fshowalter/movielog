@@ -43,6 +43,7 @@ def seed_db(seed_movies: Callable[[List[MovieTuple]], None]) -> None:
                     ("nm0000078", "John Wayne"),
                     ("nm0001509", "Dean Martin"),
                     ("nm0625699", "Ricky Nelson"),
+                    ("nm0000000", "UNKNOWN"),
                 ],
             ),
             (
