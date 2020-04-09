@@ -2,6 +2,7 @@ from typing import Optional, cast
 
 from prompt_toolkit import key_binding
 from prompt_toolkit import prompt as toolkit_prompt
+from prompt_toolkit.formatted_text import HTML
 from prompt_toolkit.validation import Validator
 
 
@@ -20,7 +21,7 @@ def prompt(
     return cast(
         Optional[str],
         toolkit_prompt(
-            message,
+            HTML(message),
             key_bindings=bindings,
             rprompt=right_side_prompt,
             validator=validator,

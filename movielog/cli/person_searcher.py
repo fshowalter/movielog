@@ -1,81 +1,129 @@
-from typing import Any, Dict, List, Set, Tuple
+from dataclasses import dataclass
+from typing import Dict, List
 
 from movielog import db
+from movielog.cli import query_formatter
 
 
+@dataclass
 class Result(object):
-    def __init__(self, row: Dict[str, str]) -> None:
-        self.imdb_id = row["imdb_id"]
-        self.name = row["full_name"]
+    __slots__ = (
+        "imdb_id",
+        "name",
+        "known_for_title_ids",
+        "known_for_titles",
+    )
+    imdb_id: str
+    name: str
+    known_for_title_ids: str
+    known_for_titles: List[str]
 
-        known_for_title_ids: List[str] = []
-        if row["known_for_title_ids"]:
-            known_for_title_ids = row["known_for_title_ids"].split(",")
+    @classmethod
+    def from_query_result(cls, row: Dict[str, str]) -> "Result":
+        return cls(
+            imdb_id=row["imdb_id"],
+            name=row["full_name"],
+            known_for_title_ids=row["principal_cast_ids"],
+            known_for_titles=[],
+        )
 
-        self.known_for_title_ids = known_for_title_ids
-        self.known_for_titles: Set[str] = set()
+
+def search_directors_by_name(name: str, limit: int = 10) -> List[Result]:
+    query = query_formatter.add_wildcards(name)
+
+    full_query = """
+        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
+        INNER JOIN directing_credits ON people.imdb_id = directing_credits.person_id
+        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
+        """.format(  # noqa: S608
+        query, limit
+    )
+
+    return execute_search(full_query)
 
 
-def search(query: str) -> List[Result]:
+def search_performers_by_name(name: str, limit: int = 10) -> List[Result]:
+    query = query_formatter.add_wildcards(name)
+
+    full_query = """
+        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
+        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
+        """.format(  # noqa: S608
+        query, limit
+    )
+
+    return execute_search(full_query)
+
+
+def search_writers_by_name(name: str, limit: int = 10) -> List[Result]:
+    query = query_formatter.add_wildcards(name)
+
+    full_query = """
+        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
+        INNER JOIN writing_credits ON people.imdb_id = writing_credits.person_id
+        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
+        """.format(  # noqa: S608
+        query, limit
+    )
+
+    return execute_search(full_query)
+
+
+def execute_search(query: str) -> List[Result]:
     with db.connect() as connection:
-        search_results, title_ids = _fetch_results(connection, query)
-        titles = _resolve_known_for_title_ids(connection, title_ids)
-        _expand_known_for_title_ids(search_results, titles)
+        search_results = fetch_results(connection, query)
+        resolve_known_for_titles(connection, search_results)
 
     return search_results
 
 
-def _expand_known_for_title_ids(
-    search_results: List[Result], titles: Dict[str, str],
-) -> None:
-    for search_result in search_results:
-        for title_id in search_result.known_for_title_ids:
-            title = titles.get(title_id)
-            if title is not None:
-                search_result.known_for_titles.add(title)
-
-
-def _fetch_results(
-    connection: db.Connection, query: str,
-) -> Tuple[List[Result], Set[str]]:  # noqa: WPS221
+def fetch_results(connection: db.Connection, query: str) -> List[Result]:
     cursor = connection.cursor()
     rows = cursor.execute(query).fetchall()
 
-    return _parse_rows(rows)
-
-
-def _parse_rows(rows: List[Any]) -> Tuple[List[Result], Set[str]]:
     search_results: List[Result] = []
-    title_ids: Set[str] = set()
 
     for row in rows:
-        search_result = Result(row)
+        search_result = Result.from_query_result(row)
         search_results.append(search_result)
-        title_ids.update(search_result.known_for_title_ids)
 
-    return (search_results, title_ids)
+    return search_results
 
 
-def _resolve_known_for_title_ids(
-    connection: db.Connection, title_ids: Set[str]
+def resolve_known_for_titles(
+    connection: db.Connection, search_results: List[Result]
+) -> None:
+    title_cache = build_title_cache(
+        connection=connection, search_results=search_results
+    )
+
+    for search_result in search_results:
+        for title_id in search_result.known_for_title_ids.split(","):
+            title = title_cache.get(title_id, None)
+            if title:
+                search_result.known_for_titles.append(title)
+
+
+def build_title_cache(
+    connection: db.Connection, search_results: List[Result]
 ) -> Dict[str, str]:
     cursor = connection.cursor()
-    movie_results = cursor.execute(
+
+    rows = cursor.execute(
         """
-        SELECT id, title FROM movies
-        WHERE id IN ({0});
+        SELECT imdb_id, title FROM movies where imdb_id IN ({0});
         """.format(  # noqa: S608
-            _format_title_ids(title_ids)
+            format_known_for_title_ids(search_results)
         ),
     ).fetchall()
 
-    movies: Dict[str, str] = {}
-
-    for row in movie_results:
-        movies[row["id"]] = row["title"]
-
-    return movies
+    return {row["imdb_id"]: row["title"] for row in rows}
 
 
-def _format_title_ids(title_ids: Set[str]) -> str:
+def format_known_for_title_ids(search_results: List[Result]) -> str:
+    title_ids: List[str] = []
+
+    for search_result in search_results:
+        title_ids.extend(search_result.known_for_title_ids.split(","))
+
     return ",".join('"{0}"'.format(title_id) for title_id in title_ids)

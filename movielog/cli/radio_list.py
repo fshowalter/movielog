@@ -124,7 +124,7 @@ def prompt(
     control = RadioList(options_to_html(options))
 
     application = Application(
-        layout=Layout(HSplit([Label(title), control])),
+        layout=Layout(HSplit([Label(HTML(title)), control])),
         mouse_support=False,
         full_screen=False,
     )

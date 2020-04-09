@@ -14,6 +14,7 @@ def mock_input() -> PosixPipeInput:
     pipe_input = create_pipe_input()
     with create_app_session(input=pipe_input):
         yield pipe_input
+    pipe_input.close()
 
 
 class SeedMovieBuilder(object):

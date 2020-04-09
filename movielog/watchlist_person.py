@@ -1,7 +1,7 @@
 import abc
 import os
 from dataclasses import dataclass
-from typing import Type, TypeVar, Union
+from typing import Type, TypeVar
 
 from movielog import imdb_http, movies
 from movielog.logger import logger
@@ -107,9 +107,10 @@ class Writer(Person):
         return "writer"
 
 
-def add(
-    cls: Type[Union[Performer, Director, Writer]], imdb_id: str, name: str
-) -> Person:
+AddType = TypeVar("AddType", Director, Performer, Writer)
+
+
+def add(cls: Type[AddType], imdb_id: str, name: str) -> AddType:
     watchlist_person = cls(imdb_id=imdb_id, name=name)
     watchlist_person.save()
     watchlist_person.refresh_item_titles()

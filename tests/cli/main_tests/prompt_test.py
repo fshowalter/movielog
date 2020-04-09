@@ -2,7 +2,7 @@ import pytest
 from pytest_mock import MockFixture
 
 from movielog.cli import main
-from tests.cli.keys import ControlD, Down, Enter, Up
+from tests.cli.keys import ControlD, Down, End, Enter, Up
 from tests.cli.typehints import PosixPipeInput
 
 
@@ -31,7 +31,6 @@ def test_calls_add_viewing(
 ) -> None:
     mock_input.send_text("".join([Enter, ControlD]))
     main.prompt()
-    mock_input.close()
 
     mock_add_viewing.assert_called_once()
 
@@ -39,9 +38,8 @@ def test_calls_add_viewing(
 def test_calls_manage_watchlist(
     mock_input: PosixPipeInput, mock_manage_watchlist: MockFixture
 ) -> None:
-    mock_input.send_text("".join([Down, Enter, ControlD]))
+    mock_input.send_text("".join([Down, Enter, End, Enter]))
     main.prompt()
-    mock_input.close()
 
     mock_manage_watchlist.assert_called_once()
 
@@ -49,9 +47,8 @@ def test_calls_manage_watchlist(
 def test_calls_update_imdb_data(
     mock_input: PosixPipeInput, mock_update_imdb_data: MockFixture
 ) -> None:
-    mock_input.send_text("".join([Down, Down, Enter, ControlD]))
+    mock_input.send_text("".join([Down, Down, Enter, End, Enter]))
     main.prompt()
-    mock_input.close()
 
     mock_update_imdb_data.assert_called_once()
 
@@ -59,8 +56,7 @@ def test_calls_update_imdb_data(
 def test_calls_update_viewings(
     mock_input: PosixPipeInput, mock_update_viewings: MockFixture
 ) -> None:
-    mock_input.send_text("".join([Up, Up, Enter, ControlD]))
+    mock_input.send_text("".join([Up, Up, Enter, End, Enter]))
     main.prompt()
-    mock_input.close()
 
     mock_update_viewings.assert_called_once()

@@ -1,47 +1,51 @@
 import html
-from typing import Callable, List, Sequence, Optional, Tuple
+from typing import Callable, List, Optional, Sequence, Tuple
 
-from prompt_toolkit.formatted_text import HTML
+from prompt_toolkit.formatted_text import AnyFormattedText
 
-from movielog.cli import ask, radio_list, queries
+from movielog.cli import ask, confirm, person_searcher, radio_list
 
-PersonSearchResults = Sequence[queries.PersonSearchResult]
-Option = Tuple[Optional[queries.PersonSearchResult], str]
+Result = person_searcher.Result
+Option = Tuple[Optional[Result], AnyFormattedText]
 
 
-def prompt(
-    person_type: str, search_func: Callable[[str], PersonSearchResults],
-) -> queries.PersonSearchResult:
+def prompt(search_func: Callable[[str], Sequence[Result]]) -> Optional[Result]:
     person = None
 
     while person is None:
-        query = ask.prompt(f"{person_type}'s name: ")
+        query = ask.prompt(f"Name: ", rprompt="Use ^ and $ to anchor")
 
         if query is None:
-            continue
+            break
 
         search_results = search_func(query)
 
         person = radio_list.prompt(
-            title=HTML(f'Results for "<cyan>{query}</cyan>":'),
-            options=_build_options(search_results),
+            title=f'Results for "<cyan>{query}</cyan>":',
+            options=build_options(search_results),
         )
 
-    return person
+    if person:
+        if confirm.prompt((f"<cyan>{person.name}</cyan>?")):
+            return person
+    if person:
+        return prompt(search_func)
+
+    return None
 
 
-def _build_options(search_results: PersonSearchResults,) -> Sequence[Option]:
+def result_to_html_string(search_result: Result) -> str:
+    return "<cyan>{0}</cyan> ({1})".format(
+        html.escape(search_result.name),
+        ", ".join(html.escape(title) for title in search_result.known_for_titles),
+    )
+
+
+def build_options(search_results: Sequence[Result]) -> Sequence[Option]:
     options: List[Option] = [(None, "Search again")]
 
     for search_result in search_results:
-        option = HTML(
-            "<cyan>{0}</cyan> ({1})".format(
-                search_result.name,
-                ", ".join(
-                    html.escape(title) for title in search_result.known_for_titles
-                ),
-            )
-        )
+        option = result_to_html_string(search_result)
         options.append((search_result, option))
 
     return options

@@ -1,5 +1,3 @@
-from prompt_toolkit.formatted_text import HTML
-
 from movielog.cli import (
     add_director,
     add_performer,
@@ -13,11 +11,11 @@ from movielog.cli import (
 def prompt() -> None:
     options = [
         (None, "Go back"),
-        (add_director.prompt, HTML("<cyan>Add Director</cyan>"),),
-        (add_performer.prompt, HTML("<cyan>Add Performer</cyan>"),),
-        (add_writer.prompt, HTML("<cyan>Add Writer</cyan>"),),
-        (add_to_collection.prompt, HTML("<cyan>Add to Collection</cyan>"),),
-        (new_collection.prompt, HTML("<cyan>New Collection</cyan>"),),
+        (add_director.prompt, "<cyan>Add Director</cyan>"),
+        (add_performer.prompt, "<cyan>Add Performer</cyan>"),
+        (add_writer.prompt, "<cyan>Add Writer</cyan>"),
+        (add_to_collection.prompt, "<cyan>Add to Collection</cyan>"),
+        (new_collection.prompt, "<cyan>New Collection</cyan>"),
     ]
 
     option_function = radio_list.prompt(title="Manage Watchlist:", options=options,)
