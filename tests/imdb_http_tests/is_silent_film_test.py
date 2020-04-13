@@ -16,6 +16,9 @@ def title_basic() -> imdb_http.TitleBasic:
 
 @pytest.fixture(autouse=True)
 def imdb_scraper_mock(mocker: MockFixture) -> Any:
+    mocker.patch.object(
+        imdb_http.imdb_scraper, "get_movie", return_value=imdb.Movie.Movie()
+    )
     return mocker.patch.object(imdb_http.imdb_scraper, "update",)
 
 

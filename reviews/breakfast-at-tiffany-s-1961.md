@@ -4,7 +4,7 @@ date: 2017-04-10
 imdb_id: tt0054698
 title: Breakfast at Tiffany's (1961)
 grade: B+
-slug: breakfast-at-tiffany-s-1961
+slug: breakfast-at-tiffanys-1961
 ---
 
 It's Audrey Hepburn's movie, but George Peppard deserves some credit.

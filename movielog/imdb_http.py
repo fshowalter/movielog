@@ -118,7 +118,7 @@ def is_silent_film(title: TitleBasic) -> Optional[bool]:
         return None
 
     time.sleep(1)
-    imdb_movie = imdb.Movie.Movie(movie_id=title.imdb_id[2:])
+    imdb_movie = imdb.Movie.Movie(movieID=title.imdb_id[2:])
     imdb_scraper.update(imdb_movie, info=["technical"])
 
     if "sound mix" not in imdb_movie["technical"]:
