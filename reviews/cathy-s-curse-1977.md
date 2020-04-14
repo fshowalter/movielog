@@ -4,7 +4,7 @@ date: 2017-02-27
 imdb_id: tt0075820
 title: Cathy's Curse (1977)
 grade: F
-slug: cathy-s-curse-1977
+slug: cathys-curse-1977
 ---
 
 How did a 40-year-old, little-seen Canadian horror movie land a 2k restoration and limited theatrical run? It started with an internet movie review.
@@ -13,7 +13,7 @@ Brian Collins publishes [Horror Movie a Day](http://horror-movie-a-day.blogspot.
 
 If _Cathy's Curse_ was a cult film, Collins became the cult leader. As his site's audience grew, Collins kept recommending the film and even posted [a commentary track](http://horror-movie-a-day.blogspot.com/2009/03/cathys-curse-commentary-now-live.html).
 
-All this exposure convinced Severin Films to acquire the rights and sponsor a 2k restoration.  In recognition of Collins' efforts, they invited him to record a new audio commentary for the Blu-ray release. Said release also included a limited theatrical run, which is how I found myself watching _Cathy's Curse_ on the big screen.
+All this exposure convinced Severin Films to acquire the rights and sponsor a 2k restoration. In recognition of Collins' efforts, they invited him to record a new audio commentary for the Blu-ray release. Said release also included a limited theatrical run, which is how I found myself watching _Cathy's Curse_ on the big screen.
 
 The story follows a couple and their young daughter as they move back into the husband's childhood home. A malevolent spirit possesses the daughter leading to lots of profanity, extreme acne, and several unexplained deaths.
 
