@@ -75,7 +75,7 @@ def countries_and_aspect_ratios_for_movie(
 ) -> Tuple[List[str], List[str]]:
     imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
     countries: List[str] = imdb_movie["countries"]
-    aspect_ratios: List[str] = imdb_movie["aspect_ratio"]
+    aspect_ratios: List[str] = imdb_movie["aspect ratio"]
 
     return (countries, aspect_ratios)
 
