@@ -70,6 +70,16 @@ class CastCreditForTitle(object):
         return [role["name"] for role in roles]
 
 
+def countries_and_aspect_ratios_for_movie(
+    title_imdb_id: str,
+) -> Tuple[List[str], List[str]]:
+    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
+    countries: List[str] = imdb_movie["countries"]
+    aspect_ratios: List[str] = imdb_movie["aspect_ratio"]
+
+    return (countries, aspect_ratios)
+
+
 def cast_credits_for_title(
     title_imdb_id: str,
 ) -> Tuple[TitleBasic, Sequence[CastCreditForTitle]]:

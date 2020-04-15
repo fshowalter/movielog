@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, performing_credits, yaml_file
+from movielog import db, humanize, imdb_http, performing_credits, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
@@ -18,6 +18,8 @@ SEQUENCE = "sequence"
 class Viewing(yaml_file.Movie, yaml_file.WithSequence):
     venue: str
     date: date
+    aspect_ratios: List[str]
+    countries: List[str]
 
     @classmethod
     def load_all(cls) -> Sequence["Viewing"]:
@@ -42,6 +44,8 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
             sequence=yaml_object[SEQUENCE],
             date=yaml_object["date"],
             file_path=None,
+            aspect_ratios=[],
+            countries=[],
         )
 
     def generate_slug(self) -> str:
@@ -97,6 +101,16 @@ def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
     viewings = Viewing.load_all()
+
+    for viewing in viewings:
+        if not viewing.countries or not viewing.aspect_ratios:
+            countries, aspect_ratios = imdb_http.countries_and_aspect_ratios_for_movie(
+                viewing.imdb_id
+            )
+            viewing.countries = countries
+            viewing.aspect_ratios = aspect_ratios
+            viewing.save()
+
     ViewingsTable.recreate()
     ViewingsTable.insert_viewings(viewings)
 
@@ -112,6 +126,8 @@ def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> 
         year=year,
         file_path=None,
         sequence=None,
+        countries=[],
+        aspect_ratios=[],
     )
 
     viewing.save()
