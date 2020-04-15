@@ -15,10 +15,6 @@ def imdb_scraper_mock(mocker: MockFixture) -> Any:
             "title": "The Transformers: The Movie",
             "year": 1986,
             "countries": ["United States", "Japan"],
-            "aspect ratio": [
-                "1.33 : 1 (original aspect ratio)",
-                "1.85 : 1 (theatrical ratio)",
-            ],
         },
     )
 
@@ -29,10 +25,6 @@ def test_details_for_title_from_imdb(imdb_scraper_mock: MockFixture,) -> None:
         title="The Transformers: The Movie",
         year=1986,
         countries=["United States", "Japan"],
-        aspect_ratios=[
-            "1.33 : 1 (original aspect ratio)",
-            "1.85 : 1 (theatrical ratio)",
-        ],
     )
 
     title_detail = imdb_http.detail_for_title(title_imdb_id="tt0092106")

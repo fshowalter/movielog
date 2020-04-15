@@ -73,7 +73,6 @@ class CastCreditForTitle(object):
 @dataclass
 class TitleDetail(TitleBasic):
     countries: List[str]
-    aspect_ratios: List[str]
 
 
 def detail_for_title(title_imdb_id: str,) -> TitleDetail:
@@ -84,7 +83,6 @@ def detail_for_title(title_imdb_id: str,) -> TitleDetail:
         year=imdb_movie.get("year", "????"),
         title=imdb_movie["title"],
         countries=imdb_movie.get("countries", []),
-        aspect_ratios=imdb_movie.get("aspect ratio", []),
     )
 
 

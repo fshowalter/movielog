@@ -112,7 +112,6 @@ class Movie(object):
 @dataclass
 class ExtraInfo(yaml_file.Movie):
     countries: List[str]
-    aspect_ratios: List[str]
 
     @classmethod
     def from_yaml_object(
@@ -125,7 +124,6 @@ class ExtraInfo(yaml_file.Movie):
             title=title,
             year=year,
             countries=yaml_object["countries"],
-            aspect_ratios=yaml_object["aspect_ratios"],
             file_path=file_path,
         )
 
@@ -141,7 +139,6 @@ class ExtraInfo(yaml_file.Movie):
             IMDB_ID: self.imdb_id,
             TITLE: self.title_with_year,
             "countries": self.countries,
-            "aspect_ratios": self.aspect_ratios,
         }
 
     @classmethod
@@ -152,7 +149,6 @@ class ExtraInfo(yaml_file.Movie):
             imdb_id=imdb_id,
             title=detail.title,
             year=detail.year,
-            aspect_ratios=detail.aspect_ratios,
             countries=detail.countries,
             file_path=None,
         )

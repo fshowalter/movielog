@@ -24,10 +24,6 @@ def detail_for_title_mock(mocker: MockFixture) -> Any:
                 title="The Transformers: The Movie",
                 year=1986,
                 countries=["United States", "Japan"],
-                aspect_ratios=[
-                    "1.33 : 1 (original aspect ratio)",
-                    "1.85 : 1 (theatrical ratio)",
-                ],
             )
         ),
     )
