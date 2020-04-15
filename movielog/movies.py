@@ -1,14 +1,30 @@
+import os
 from dataclasses import dataclass
 from functools import lru_cache
-from typing import Dict, List, Optional, Sequence, Set
+from glob import glob
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Set
 
-from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor
+from slugify import slugify
+
+from movielog import (
+    db,
+    humanize,
+    imdb_http,
+    imdb_s3_downloader,
+    imdb_s3_extractor,
+    yaml_file,
+)
 from movielog.logger import logger
 
 MOVIES_FILE_NAME = "title.basics.tsv.gz"
 PRINCIPALS_FILE_NAME = "title.principals.tsv.gz"
 
 TABLE_NAME = "movies"
+FOLDER_PATH = "movies"
+
+IMDB_ID = "imdb_id"
+TITLE = "title"
+
 Whitelist = {
     "tt0116671",  # Jack Frost (1997) [V]
     "tt0148615",  # Play Motel (1979) [X]
@@ -75,8 +91,8 @@ class Movie(object):
 
     def as_dict(self) -> Dict[str, Optional[str]]:
         return {
-            "imdb_id": self.imdb_id,
-            "title": self.title,
+            IMDB_ID: self.imdb_id,
+            TITLE: self.title,
             "original_title": self.original_title,
             "year": self.year,
             "runtime_minutes": self.runtime_minutes,
@@ -91,6 +107,55 @@ class Movie(object):
                 self.principal_cast, key=lambda principal: principal.sequence
             )
         ]
+
+
+@dataclass
+class ExtraInfo(yaml_file.Movie):
+    countries: List[str]
+    aspect_ratios: List[str]
+
+    @classmethod
+    def from_yaml_object(
+        cls, file_path: str, yaml_object: Dict[str, Any]
+    ) -> "ExtraInfo":
+        title, year = cls.split_title_and_year(yaml_object[TITLE])
+
+        return cls(
+            imdb_id=yaml_object[IMDB_ID],
+            title=title,
+            year=year,
+            countries=yaml_object["countries"],
+            aspect_ratios=yaml_object["aspect_ratios"],
+            file_path=file_path,
+        )
+
+    def generate_slug(self) -> str:
+        return str(slugify(self.title_with_year))
+
+    @classmethod
+    def folder_path(cls) -> str:
+        return FOLDER_PATH
+
+    def as_yaml(self) -> Dict[str, Any]:
+        return {
+            IMDB_ID: self.imdb_id,
+            TITLE: self.title_with_year,
+            "countries": self.countries,
+            "aspect_ratios": self.aspect_ratios,
+        }
+
+    @classmethod
+    def from_imdb_id(cls, imdb_id: str) -> "ExtraInfo":
+        detail = imdb_http.detail_for_title(imdb_id)
+
+        return cls(
+            imdb_id=imdb_id,
+            title=detail.title,
+            year=detail.year,
+            aspect_ratios=detail.aspect_ratios,
+            countries=detail.countries,
+            file_path=None,
+        )
 
 
 @dataclass
@@ -200,6 +265,20 @@ def update() -> None:
         MoviesTable.recreate()
         MoviesTable.insert_movies(movies.as_list())
         title_ids.cache_clear()
+
+
+def update_extra_info(imdb_ids: Iterable[str]) -> None:
+    logger.log("==== Begin updating {}...", "movies extra info")
+
+    existing_extra_info_ids: Set[str] = set()
+
+    for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.yml")):
+        extra_info = ExtraInfo.from_file_path(yaml_file_path)
+        existing_extra_info_ids.add(extra_info.imdb_id)
+
+    for imdb_id in set(imdb_ids) - existing_extra_info_ids:
+        extra_info = ExtraInfo.from_imdb_id(imdb_id)
+        extra_info.save()
 
 
 @lru_cache(1)

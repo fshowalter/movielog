@@ -31,7 +31,9 @@ class Base(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def from_yaml_object(cls: Type[T], yaml_object: Dict[str, Any]) -> T:
+    def from_yaml_object(
+        cls: Type[T], file_path: str, yaml_object: Dict[str, Any]
+    ) -> T:
         """ Implement behavior to hyrdate instance from a yaml object. """
 
     @abc.abstractmethod
@@ -57,7 +59,7 @@ class Base(abc.ABC):
         with open(file_path, "r") as yaml_file:
             yaml_object = yaml.safe_load(yaml_file)
 
-        instance = cls.from_yaml_object(yaml_object)
+        instance = cls.from_yaml_object(file_path=file_path, yaml_object=yaml_object)
         instance.file_path = file_path
 
         return instance
@@ -149,5 +151,6 @@ class WithSequence(Base):
         return next_sequence
 
     def save(self, log_function: Optional[Callable[[], None]] = None) -> str:
-        self.sequence = self.next_sequence()
+        if not self.sequence:
+            self.sequence = self.next_sequence()
         return super().save(log_function=log_function)

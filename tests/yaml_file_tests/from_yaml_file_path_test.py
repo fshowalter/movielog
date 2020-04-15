@@ -6,8 +6,10 @@ from movielog import yaml_file
 
 class ConcreteBase(yaml_file.Base):  # noqa: WPS604
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "ConcreteBase":
-        return ConcreteBase(file_path=None)
+    def from_yaml_object(
+        cls, file_path: str, yaml_object: Dict[str, Any]
+    ) -> "ConcreteBase":
+        return ConcreteBase(file_path=file_path)
 
     def generate_slug(self) -> str:
         """Test stub."""

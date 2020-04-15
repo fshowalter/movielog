@@ -77,7 +77,7 @@ class WatchlistFile(yaml_file.Base):
 
     @classmethod
     def from_yaml_object(
-        cls: Type[WatchlistFileType], yaml_object: Dict[str, Any]
+        cls: Type[WatchlistFileType], file_path: str, yaml_object: Dict[str, Any]
     ) -> WatchlistFileType:
         titles: List[Title] = []
 
@@ -89,6 +89,7 @@ class WatchlistFile(yaml_file.Base):
             name=yaml_object[NAME],
             frozen=yaml_object.get(FROZEN, False),  # noqa: WPS425,
             titles=titles,
+            file_path=file_path,
         )
 
     def as_yaml(self) -> Dict[str, Any]:

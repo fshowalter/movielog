@@ -1,5 +1,5 @@
 import os
-from typing import Any, Dict
+from typing import Any, Dict, Sequence
 
 from pytest_mock import MockFixture
 
@@ -9,7 +9,9 @@ from movielog import yaml_file
 
 class ConcreteMovie(yaml_file.Movie):  # noqa: WPS604
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "ConcreteMovie":
+    def from_yaml_object(
+        cls, file_path: str, yaml_object: Dict[str, Any]
+    ) -> "ConcreteMovie":
         """Test stub."""
 
     def generate_slug(self) -> str:
@@ -23,6 +25,30 @@ class ConcreteMovie(yaml_file.Movie):  # noqa: WPS604
         return {
             "imdb_id": self.imdb_id,
             "title": self.title,
+        }
+
+
+class ConcreteWithSequence(yaml_file.WithSequence):
+    @classmethod
+    def load_all(cls) -> Sequence["ConcreteWithSequence"]:
+        """Test stub."""
+
+    @classmethod
+    def from_yaml_object(
+        cls, file_path: str, yaml_object: Dict[str, Any]
+    ) -> "ConcreteWithSequence":
+        """Test stub."""
+
+    def generate_slug(self) -> str:
+        """Test stub."""
+
+    @classmethod
+    def folder_path(cls) -> str:
+        """Test stub."""
+
+    def as_yaml(self) -> Dict[str, Any]:
+        return {
+            "sequence": self.sequence,
         }
 
 
@@ -98,6 +124,24 @@ def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockFixture) -> None
     movie.save()
 
     file_path = os.path.join(tmp_path, "test_creates_slug_if_no_filename.yml")
+
+    with open(file_path, "r") as output_file:
+        yaml_content = output_file.read()
+
+    assert yaml_content == expected
+
+
+def test_preserves_sequence(tmp_path: str, mocker: MockFixture) -> None:
+    expected = "sequence: 33\n"
+
+    mocker.patch.object(ConcreteWithSequence, "folder_path", lambda: tmp_path)
+
+    movie = ConcreteWithSequence(file_path=None, sequence=33,)
+
+    mocker.patch.object(movie, "generate_slug", lambda: "test_preserves_sequence")
+    movie.save()
+
+    file_path = os.path.join(tmp_path, "test_preserves_sequence.yml")
 
     with open(file_path, "r") as output_file:
         yaml_content = output_file.read()

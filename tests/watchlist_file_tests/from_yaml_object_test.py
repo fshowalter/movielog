@@ -14,8 +14,14 @@ def test_returns_watchlist_file_from_yaml(
         Title(imdb_id="tt0091474", title="Manhunter", year=1986),
     ]
 
+    file_path = "test/path/object.yml"
+
     expected = build_watchlist_file(
-        name="Michael Mann", imdb_id="nm0000520", frozen=False, titles=titles
+        name="Michael Mann",
+        imdb_id="nm0000520",
+        frozen=False,
+        titles=titles,
+        file_path=file_path,
     )
 
     yaml_string = """
@@ -36,4 +42,9 @@ def test_returns_watchlist_file_from_yaml(
 
     yaml_object = yaml.safe_load(yaml_string)
 
-    assert expected.__class__.from_yaml_object(yaml_object) == expected
+    assert (
+        expected.__class__.from_yaml_object(
+            yaml_object=yaml_object, file_path=file_path
+        )
+        == expected
+    )

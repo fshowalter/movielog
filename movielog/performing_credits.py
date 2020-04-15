@@ -75,7 +75,7 @@ class Movie(yaml_file.Movie):
     performing_credits: List[Credit]
 
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "Movie":
+    def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Movie":
         title, year = cls.split_title_and_year(yaml_object["title"])
 
         performing_credits: List[Credit] = []
@@ -90,7 +90,7 @@ class Movie(yaml_file.Movie):
             title=title,
             year=year,
             performing_credits=performing_credits,
-            file_path=None,
+            file_path=file_path,
         )
 
     def generate_slug(self) -> str:

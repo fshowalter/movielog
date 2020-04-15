@@ -70,14 +70,22 @@ class CastCreditForTitle(object):
         return [role["name"] for role in roles]
 
 
-def countries_and_aspect_ratios_for_movie(
-    title_imdb_id: str,
-) -> Tuple[List[str], List[str]]:
-    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
-    countries: List[str] = imdb_movie["countries"]
-    aspect_ratios: List[str] = imdb_movie["aspect ratio"]
+@dataclass
+class TitleDetail(TitleBasic):
+    countries: List[str]
+    aspect_ratios: List[str]
 
-    return (countries, aspect_ratios)
+
+def detail_for_title(title_imdb_id: str,) -> TitleDetail:
+    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
+
+    return TitleDetail(
+        imdb_id=title_imdb_id,
+        year=imdb_movie.get("year", "????"),
+        title=imdb_movie["title"],
+        countries=imdb_movie.get("countries", []),
+        aspect_ratios=imdb_movie.get("aspect ratio", []),
+    )
 
 
 def cast_credits_for_title(

@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, imdb_http, performing_credits, yaml_file
+from movielog import db, humanize, movies, performing_credits, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
@@ -18,8 +18,6 @@ SEQUENCE = "sequence"
 class Viewing(yaml_file.Movie, yaml_file.WithSequence):
     venue: str
     date: date
-    aspect_ratios: List[str]
-    countries: List[str]
 
     @classmethod
     def load_all(cls) -> Sequence["Viewing"]:
@@ -33,7 +31,7 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
         return viewings
 
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "Viewing":
+    def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Viewing":
         title, year = cls.split_title_and_year(yaml_object["title"])
 
         return cls(
@@ -43,9 +41,7 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
             venue=yaml_object["venue"],
             sequence=yaml_object[SEQUENCE],
             date=yaml_object["date"],
-            file_path=None,
-            aspect_ratios=[],
-            countries=[],
+            file_path=file_path,
         )
 
     def generate_slug(self) -> str:
@@ -102,19 +98,11 @@ def update() -> None:
 
     viewings = Viewing.load_all()
 
-    for viewing in viewings:
-        if not viewing.countries or not viewing.aspect_ratios:
-            countries, aspect_ratios = imdb_http.countries_and_aspect_ratios_for_movie(
-                viewing.imdb_id
-            )
-            viewing.countries = countries
-            viewing.aspect_ratios = aspect_ratios
-            viewing.save()
-
     ViewingsTable.recreate()
     ViewingsTable.insert_viewings(viewings)
 
     performing_credits.update(imdb_ids())
+    movies.update_extra_info(imdb_ids())
 
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
@@ -126,8 +114,6 @@ def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> 
         year=year,
         file_path=None,
         sequence=None,
-        countries=[],
-        aspect_ratios=[],
     )
 
     viewing.save()
