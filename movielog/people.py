@@ -1,8 +1,8 @@
 import re
 from dataclasses import asdict, dataclass
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional
 
-from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor, movies
+from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor
 from movielog.logger import logger
 
 FILE_NAME = "name.basics.tsv.gz"
@@ -107,24 +107,12 @@ def update() -> None:
 
 def extract_people(downloaded_file_path: str) -> Dict[str, Person]:
     people: Dict[str, Person] = {}
-    title_ids = movies.title_ids()
 
     for fields in imdb_s3_extractor.extract(downloaded_file_path):
-        if has_valid_known_for_title_ids(fields[5], title_ids):
+        known_for_title_ids = fields[5]
+
+        if known_for_title_ids:
             people[str(fields[0])] = Person.from_imdb_s3_fields(fields)
 
     logger.log("Extracted {} {}.", humanize.intcomma(len(people)), TABLE_NAME)
     return people
-
-
-def has_valid_known_for_title_ids(
-    known_for_title_ids: Optional[str], valid_title_ids: Set[str],
-) -> bool:
-    if known_for_title_ids is None:
-        return False
-
-    for title_id in known_for_title_ids.split(","):
-        if title_id in valid_title_ids:
-            return True
-
-    return False

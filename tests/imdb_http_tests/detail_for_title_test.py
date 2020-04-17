@@ -19,7 +19,7 @@ def imdb_scraper_mock(mocker: MockFixture) -> Any:
     )
 
 
-def test_details_for_title_from_imdb(imdb_scraper_mock: MockFixture,) -> None:
+def test_countries_for_title_from_imdb(imdb_scraper_mock: MockFixture,) -> None:
     expected_title_detail = imdb_http.TitleDetail(
         imdb_id="tt0092106",
         title="The Transformers: The Movie",
@@ -27,7 +27,7 @@ def test_details_for_title_from_imdb(imdb_scraper_mock: MockFixture,) -> None:
         countries=["United States", "Japan"],
     )
 
-    title_detail = imdb_http.detail_for_title(title_imdb_id="tt0092106")
+    title_detail = imdb_http.countries_for_title(title_imdb_id="tt0092106")
 
     assert imdb_scraper_mock.called_once_with("0092106")
     assert title_detail == expected_title_detail

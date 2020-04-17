@@ -102,7 +102,7 @@ def update() -> None:
     ViewingsTable.insert_viewings(viewings)
 
     performing_credits.update(imdb_ids())
-    movies.update_extra_info(imdb_ids())
+    movies.update_countries(imdb_ids())
 
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:

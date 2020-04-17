@@ -9,4 +9,4 @@ def performing_credits_update_mock(mocker: MockFixture) -> MockFixture:
 
 @pytest.fixture(autouse=True)
 def movies_update_extra_info_mock(mocker: MockFixture) -> MockFixture:
-    return mocker.patch("movielog.viewings.movies.update_extra_info")
+    return mocker.patch("movielog.viewings.movies.update_countries")

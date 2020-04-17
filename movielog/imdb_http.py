@@ -75,7 +75,7 @@ class TitleDetail(TitleBasic):
     countries: List[str]
 
 
-def detail_for_title(title_imdb_id: str,) -> TitleDetail:
+def countries_for_title(title_imdb_id: str,) -> TitleDetail:
     imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
 
     return TitleDetail(

@@ -1,5 +1,5 @@
 import os
-from typing import Any, Set
+from typing import Any
 
 import pytest
 from pytest_mock import MockFixture
@@ -18,15 +18,7 @@ def imdb_s3_download_mock(mocker: MockFixture, gzip_file: MockFixture) -> Any:
     )
 
 
-@pytest.fixture(autouse=True)
-def movie_ids_mock(mocker: MockFixture) -> Any:
-    valid_ids: Set[str] = set(
-        ["tt0037382", "tt0041452", "tt0021079", "tt0053198", "tt0087032", "tt0100140"]
-    )
-    mocker.patch("movielog.people.movies.title_ids", return_value=valid_ids)
-
-
-def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture,) -> None:
+def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
     expected = [
         (
             "nm0000007",

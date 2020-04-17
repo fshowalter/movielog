@@ -20,7 +20,7 @@ MOVIES_FILE_NAME = "title.basics.tsv.gz"
 PRINCIPALS_FILE_NAME = "title.principals.tsv.gz"
 
 TABLE_NAME = "movies"
-FOLDER_PATH = "movies"
+FOLDER_PATH = "movie_countries"
 
 IMDB_ID = "imdb_id"
 TITLE = "title"
@@ -110,20 +110,20 @@ class Movie(object):
 
 
 @dataclass
-class ExtraInfo(yaml_file.Movie):
-    countries: List[str]
+class Countries(yaml_file.Movie):
+    names: List[str]
 
     @classmethod
     def from_yaml_object(
         cls, file_path: str, yaml_object: Dict[str, Any]
-    ) -> "ExtraInfo":
+    ) -> "Countries":
         title, year = cls.split_title_and_year(yaml_object[TITLE])
 
         return cls(
             imdb_id=yaml_object[IMDB_ID],
             title=title,
             year=year,
-            countries=yaml_object["countries"],
+            names=yaml_object["names"],
             file_path=file_path,
         )
 
@@ -138,18 +138,18 @@ class ExtraInfo(yaml_file.Movie):
         return {
             IMDB_ID: self.imdb_id,
             TITLE: self.title_with_year,
-            "countries": self.countries,
+            "names": self.names,
         }
 
     @classmethod
-    def from_imdb_id(cls, imdb_id: str) -> "ExtraInfo":
-        detail = imdb_http.detail_for_title(imdb_id)
+    def from_imdb_id(cls, imdb_id: str) -> "Countries":
+        detail = imdb_http.countries_for_title(imdb_id)
 
         return cls(
             imdb_id=imdb_id,
             title=detail.title,
             year=detail.year,
-            countries=detail.countries,
+            names=detail.countries,
             file_path=None,
         )
 
@@ -263,17 +263,17 @@ def update() -> None:
         title_ids.cache_clear()
 
 
-def update_extra_info(imdb_ids: Iterable[str]) -> None:
-    logger.log("==== Begin updating {}...", "movies extra info")
+def update_countries(imdb_ids: Iterable[str]) -> None:
+    logger.log("==== Begin updating {}...", "movie countries")
 
     existing_extra_info_ids: Set[str] = set()
 
     for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.yml")):
-        extra_info = ExtraInfo.from_file_path(yaml_file_path)
+        extra_info = Countries.from_file_path(yaml_file_path)
         existing_extra_info_ids.add(extra_info.imdb_id)
 
     for imdb_id in set(imdb_ids) - existing_extra_info_ids:
-        extra_info = ExtraInfo.from_imdb_id(imdb_id)
+        extra_info = Countries.from_imdb_id(imdb_id)
         extra_info.save()
 
 
