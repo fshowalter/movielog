@@ -2,7 +2,7 @@ import abc
 import sqlite3
 from contextlib import contextmanager
 from os import path
-from typing import Any, Dict, Generator, List, Sized
+from typing import Any, Dict, Generator, List, Sequence, Sized
 
 from movielog import humanize
 from movielog.logger import logger
@@ -78,3 +78,24 @@ class Table(abc.ABC):
         with connect() as connection:
             with transaction(connection):
                 connection.executemany(ddl, parameter_seq)
+
+    @classmethod
+    def delete(cls, key: str, ids: Sequence[str]) -> None:
+        ddl = """
+            DELETE FROM {0} WHERE {1} IN ({2});
+        """.format(  # noqa: S608
+            cls.table_name, key, cls.format_ids(ids)
+        )
+
+        with connect() as connection:
+            with transaction(connection):
+                connection.execute(ddl)
+                logger.log(
+                    "Deleted {} rows from {}...",
+                    humanize.intcomma(len(ids)),
+                    cls.table_name,
+                )
+
+    @classmethod
+    def format_ids(cls, ids: Sequence[str]) -> str:
+        return ",".join('"{0}"'.format(db_id) for db_id in ids)

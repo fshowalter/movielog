@@ -1,6 +1,7 @@
-frozen: true
+frozen: false
 name: Vincent Price
 imdb_id: nm0001637
+slug: vincent-price
 titles:
 - title: Service de Luxe
   notes: Robert Wade
@@ -329,9 +330,6 @@ titles:
 - title: Dr. Phibes Rises Again
   notes: Dr. Anton Phibes
   imdb_id: tt0068503
-  year: 1972
-- title: The Aries Computer
-  imdb_id: tt0270206
   year: 1972
 - title: Theater of Blood
   notes: Edward Lionheart

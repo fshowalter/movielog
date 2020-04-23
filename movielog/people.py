@@ -1,4 +1,3 @@
-import re
 from dataclasses import asdict, dataclass
 from typing import Dict, List, Optional
 
@@ -7,16 +6,13 @@ from movielog.logger import logger
 
 FILE_NAME = "name.basics.tsv.gz"
 TABLE_NAME = "people"
-NAME_REGEX = re.compile(r"^([^\s]*(?:\s[A-Z]\.)?)\s(.*)$")
 
 
-@dataclass  # noqa: WPS230
+@dataclass
 class Person(object):
     __slots__ = (
         "imdb_id",
         "full_name",
-        "last_name",
-        "first_name",
         "birth_year",
         "death_year",
         "primary_profession",
@@ -24,8 +20,6 @@ class Person(object):
     )
     imdb_id: str
     full_name: str
-    last_name: Optional[str]
-    first_name: Optional[str]
     birth_year: Optional[str]
     death_year: Optional[str]
     primary_profession: Optional[str]
@@ -33,15 +27,9 @@ class Person(object):
 
     @classmethod
     def from_imdb_s3_fields(cls, fields: List[Optional[str]]) -> "Person":
-        match = NAME_REGEX.split(str(fields[1]))
-        if len(match) == 1:
-            match = ["", match[0], "", ""]
-
         return cls(
             imdb_id=str(fields[0]),
             full_name=str(fields[1]),
-            last_name=match[2],
-            first_name=match[1],
             birth_year=fields[2],
             death_year=fields[3],
             primary_profession=fields[4],
@@ -56,8 +44,6 @@ class PeopleTable(db.Table):
         CREATE TABLE "{0}" (
             "imdb_id" TEXT PRIMARY KEY NOT NULL,
             "full_name" varchar(255) NOT NULL,
-            "last_name" varchar(255),
-            "first_name" varchar(255),
             "birth_year" TEXT,
             "death_year" TEXT,
             "primary_profession" TEXT,
@@ -70,8 +56,6 @@ class PeopleTable(db.Table):
             INSERT INTO {0}(
                 imdb_id,
                 full_name,
-                last_name,
-                first_name,
                 birth_year,
                 death_year,
                 primary_profession,
@@ -79,8 +63,6 @@ class PeopleTable(db.Table):
             VALUES(
                 :imdb_id,
                 :full_name,
-                :last_name,
-                :first_name,
                 :birth_year,
                 :death_year,
                 :primary_profession,

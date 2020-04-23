@@ -30,6 +30,7 @@ Query = """
 @dataclass
 class WatchlistTitle(object):
     movie_imdb_id: str
+    slug: str
     director_imdb_id: Optional[str] = None
     performer_imdb_id: Optional[str] = None
     writer_imdb_id: Optional[str] = None
@@ -46,6 +47,7 @@ class WatchlistTitle(object):
                 cls(
                     movie_imdb_id=collection_title.imdb_id,
                     collection_name=collection.name,
+                    slug=collection.slug,
                 )
             )
 
@@ -62,13 +64,19 @@ class WatchlistTitle(object):
             Callable[[watchlist_person.PersonTitle], WatchlistTitle],
         ] = {
             watchlist_person.Director: lambda title: cls(
-                movie_imdb_id=title.imdb_id, director_imdb_id=person.imdb_id,
+                movie_imdb_id=title.imdb_id,
+                director_imdb_id=person.imdb_id,
+                slug=person.slug,
             ),
             watchlist_person.Performer: lambda title: cls(
-                movie_imdb_id=title.imdb_id, performer_imdb_id=person.imdb_id,
+                movie_imdb_id=title.imdb_id,
+                performer_imdb_id=person.imdb_id,
+                slug=person.slug,
             ),
             watchlist_person.Writer: lambda title: cls(
-                movie_imdb_id=title.imdb_id, writer_imdb_id=person.imdb_id,
+                movie_imdb_id=title.imdb_id,
+                writer_imdb_id=person.imdb_id,
+                slug=person.slug,
             ),
         }
 
@@ -95,7 +103,8 @@ class WatchlistTitlesTable(db.Table):
                 REFERENCES people(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "writer_imdb_id" TEXT
                 REFERENCES people(imdb_id) DEFERRABLE INITIALLY DEFERRED,
-            "collection_name" TEXT);
+            "collection_name" TEXT,
+            "slug" TEXT NOT NULL);
         """
 
     @classmethod
@@ -106,13 +115,15 @@ class WatchlistTitlesTable(db.Table):
               director_imdb_id,
               performer_imdb_id,
               writer_imdb_id,
-              collection_name)
+              collection_name,
+              slug)
           VALUES(
               :movie_imdb_id,
               :director_imdb_id,
               :performer_imdb_id,
               :writer_imdb_id,
-              :collection_name);
+              :collection_name,
+              :slug);
         """.format(
             TABLE_NAME
         )

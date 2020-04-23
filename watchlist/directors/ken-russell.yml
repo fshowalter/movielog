@@ -1,73 +1,74 @@
-frozen: false
+frozen: true
 name: Ken Russell
 imdb_id: nm0001692
+slug: ken-russell
 titles:
-- title: French Dressing
-  imdb_id: tt0057073
-  year: 1964
-- title: Billion Dollar Brain
-  imdb_id: tt0061405
-  year: 1967
-- title: Women in Love
-  imdb_id: tt0066579
-  year: 1969
-- title: The Music Lovers
-  imdb_id: tt0066109
-  year: 1971
-- title: The Devils
-  imdb_id: tt0066993
-  year: 1971
-- title: The Boy Friend
-  imdb_id: tt0066858
-  year: 1971
-- title: Savage Messiah
-  imdb_id: tt0069225
-  year: 1972
-- title: Mahler
-  imdb_id: tt0071797
-  year: 1974
-- title: Tommy
-  imdb_id: tt0073812
-  year: 1975
-- title: Lisztomania
-  imdb_id: tt0073298
-  year: 1975
-- title: Valentino
-  imdb_id: tt0076868
-  year: 1977
-- title: Altered States
-  imdb_id: tt0080360
-  year: 1980
-- title: Crimes of Passion
-  imdb_id: tt0087100
-  year: 1984
-- title: Gothic
-  imdb_id: tt0091142
-  year: 1986
-- title: Aria
-  notes: (segment "Nessun dorma")
-  imdb_id: tt0092580
-  year: 1987
-- title: Salome's Last Dance
-  imdb_id: tt0096029
-  year: 1988
-- title: The Lair of the White Worm
-  imdb_id: tt0095488
-  year: 1988
-- title: The Rainbow
-  imdb_id: tt0098165
-  year: 1989
-- title: Whore
-  imdb_id: tt0103253
-  year: 1991
-- title: Tales of Erotica
-  notes: (segment "The Insatiable Mrs. Kirsch")
-  imdb_id: tt0117827
-  year: 1996
-- title: 'The Fall of the Louse of Usher: A Gothic Tale for the 21st Century'
-  imdb_id: tt0268295
-  year: 2002
-- title: Trapped Ashes
-  notes: (segment "The Girl With Golden Breasts")
-  imdb_id: tt0478303
-  year: 2006
+  - title: French Dressing
+    imdb_id: tt0057073
+    year: 1964
+  - title: Billion Dollar Brain
+    imdb_id: tt0061405
+    year: 1967
+  - title: Women in Love
+    imdb_id: tt0066579
+    year: 1969
+  - title: The Music Lovers
+    imdb_id: tt0066109
+    year: 1971
+  - title: The Devils
+    imdb_id: tt0066993
+    year: 1971
+  - title: The Boy Friend
+    imdb_id: tt0066858
+    year: 1971
+  - title: Savage Messiah
+    imdb_id: tt0069225
+    year: 1972
+  - title: Mahler
+    imdb_id: tt0071797
+    year: 1974
+  - title: Tommy
+    imdb_id: tt0073812
+    year: 1975
+  - title: Lisztomania
+    imdb_id: tt0073298
+    year: 1975
+  - title: Valentino
+    imdb_id: tt0076868
+    year: 1977
+  - title: Altered States
+    imdb_id: tt0080360
+    year: 1980
+  - title: Crimes of Passion
+    imdb_id: tt0087100
+    year: 1984
+  - title: Gothic
+    imdb_id: tt0091142
+    year: 1986
+  - title: Aria
+    notes: (segment "Nessun dorma")
+    imdb_id: tt0092580
+    year: 1987
+  - title: Salome's Last Dance
+    imdb_id: tt0096029
+    year: 1988
+  - title: The Lair of the White Worm
+    imdb_id: tt0095488
+    year: 1988
+  - title: The Rainbow
+    imdb_id: tt0098165
+    year: 1989
+  - title: Whore
+    imdb_id: tt0103253
+    year: 1991
+  - title: Tales of Erotica
+    notes: (segment "The Insatiable Mrs. Kirsch")
+    imdb_id: tt0117827
+    year: 1996
+  - title: "The Fall of the Louse of Usher: A Gothic Tale for the 21st Century"
+    imdb_id: tt0268295
+    year: 2002
+  - title: Trapped Ashes
+    notes: (segment "The Girl With Golden Breasts")
+    imdb_id: tt0478303
+    year: 2006

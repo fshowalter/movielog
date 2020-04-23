@@ -15,6 +15,7 @@ TITLES = "titles"
 IMDB_ID = "imdb_id"
 EMPTY = ""
 YEAR = "year"
+SLUG = "slug"
 
 
 @dataclass
@@ -58,6 +59,7 @@ class WatchlistFile(yaml_file.Base):
     imdb_id: Optional[str]
     titles: List[Title]
     frozen: bool
+    slug: str
 
     def __init__(  # noqa: WPS211
         self,
@@ -65,6 +67,7 @@ class WatchlistFile(yaml_file.Base):
         imdb_id: Optional[str] = None,
         file_path: Optional[str] = None,
         titles: Optional[List[Title]] = None,
+        slug: Optional[str] = None,
         frozen: bool = False,
     ) -> None:
         self.imdb_id = imdb_id
@@ -74,6 +77,7 @@ class WatchlistFile(yaml_file.Base):
             titles = []
         self.titles = titles
         self.frozen = frozen
+        self.slug = slug or self.generate_slug()
 
     @classmethod
     def from_yaml_object(
@@ -90,6 +94,7 @@ class WatchlistFile(yaml_file.Base):
             frozen=yaml_object.get(FROZEN, False),  # noqa: WPS425,
             titles=titles,
             file_path=file_path,
+            slug=yaml_object.get(SLUG, None),
         )
 
     def as_yaml(self) -> Dict[str, Any]:
@@ -98,12 +103,14 @@ class WatchlistFile(yaml_file.Base):
                 FROZEN: self.frozen,
                 NAME: self.name,
                 IMDB_ID: self.imdb_id,
+                SLUG: self.slug,
                 TITLES: [title.as_yaml() for title in self.titles],
             }
 
         return {
             FROZEN: self.frozen,
             NAME: self.name,
+            SLUG: self.slug,
             TITLES: [title.as_yaml() for title in self.titles],
         }
 

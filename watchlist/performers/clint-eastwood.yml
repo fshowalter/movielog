@@ -1,6 +1,7 @@
 frozen: false
 name: Clint Eastwood
 imdb_id: nm0000142
+slug: clint-eastwood
 titles:
 - title: Revenge of the Creature
   notes: Jennings (uncredited)
@@ -62,13 +63,13 @@ titles:
   notes: Carlo / Charlie (Segment "Sera Come Le Altre, Una")
   imdb_id: tt0061037
   year: 1967
-- title: Hang 'Em High
-  notes: Marshal Jed Cooper
-  imdb_id: tt0061747
-  year: 1968
 - title: Coogan's Bluff
   notes: Coogan
   imdb_id: tt0062824
+  year: 1968
+- title: Hang 'Em High
+  notes: Marshal Jed Cooper
+  imdb_id: tt0061747
   year: 1968
 - title: Where Eagles Dare
   notes: Schaffer

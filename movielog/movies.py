@@ -1,26 +1,14 @@
-import os
 from dataclasses import dataclass
 from functools import lru_cache
-from glob import glob
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Set
+from typing import Dict, Iterable, List, Optional, Sequence, Set, Union
 
-from slugify import slugify
-
-from movielog import (
-    db,
-    humanize,
-    imdb_http,
-    imdb_s3_downloader,
-    imdb_s3_extractor,
-    yaml_file,
-)
+from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor
 from movielog.logger import logger
 
 MOVIES_FILE_NAME = "title.basics.tsv.gz"
 PRINCIPALS_FILE_NAME = "title.principals.tsv.gz"
 
-TABLE_NAME = "movies"
-FOLDER_PATH = "movie_countries"
+MOVIES_TABLE_NAME = "movies"
 
 IMDB_ID = "imdb_id"
 TITLE = "title"
@@ -31,6 +19,8 @@ Whitelist = {
     "tt1801096",  # Sexy Evil Genius (2013) [V]
     "tt0093135",  # Hack-O-Lantern (1988) [V]
 }
+
+OptionalStringOrInt = Optional[Union[str, int]]
 
 
 @dataclass
@@ -47,8 +37,8 @@ class Movie(object):
     title: str
     original_title: str
     year: str
-    runtime_minutes: str
     principal_cast: List["Principal"]
+    runtime_minutes: Optional[int]
 
     @classmethod
     def from_imdb_s3_fields(cls, fields: List[Optional[str]]) -> "Movie":
@@ -57,7 +47,7 @@ class Movie(object):
             title=str(fields[2]),
             original_title=str(fields[3]),
             year=str(fields[5]),
-            runtime_minutes=str(fields[7]),
+            runtime_minutes=int(str(fields[7])),
             principal_cast=[],
         )
 
@@ -70,17 +60,21 @@ class Movie(object):
             if imdb_id in Whitelist or cls.s3_fields_are_valid(fields):
                 movies[imdb_id] = cls.from_imdb_s3_fields(fields)
 
-        logger.log("Extracted {} {}.", humanize.intcomma(len(movies)), TABLE_NAME)
+        logger.log(
+            "Extracted {} {}.", humanize.intcomma(len(movies)), MOVIES_TABLE_NAME
+        )
 
         return MovieCollection(movies)
 
-    @classmethod
+    @classmethod  # noqa: WPS212
     def s3_fields_are_valid(cls, fields: List[Optional[str]]) -> bool:
         if fields[1] != "movie":
             return False
         if fields[4] == "1":
             return False
         if fields[5] is None:
+            return False
+        if fields[7] is None:
             return False
 
         genres = set(str(fields[8]).split(","))
@@ -89,7 +83,7 @@ class Movie(object):
 
         return True
 
-    def as_dict(self) -> Dict[str, Optional[str]]:
+    def as_dict(self) -> Dict[str, OptionalStringOrInt]:
         return {
             IMDB_ID: self.imdb_id,
             TITLE: self.title,
@@ -107,51 +101,6 @@ class Movie(object):
                 self.principal_cast, key=lambda principal: principal.sequence
             )
         ]
-
-
-@dataclass
-class Countries(yaml_file.Movie):
-    names: List[str]
-
-    @classmethod
-    def from_yaml_object(
-        cls, file_path: str, yaml_object: Dict[str, Any]
-    ) -> "Countries":
-        title, year = cls.split_title_and_year(yaml_object[TITLE])
-
-        return cls(
-            imdb_id=yaml_object[IMDB_ID],
-            title=title,
-            year=year,
-            names=yaml_object["names"],
-            file_path=file_path,
-        )
-
-    def generate_slug(self) -> str:
-        return str(slugify(self.title_with_year))
-
-    @classmethod
-    def folder_path(cls) -> str:
-        return FOLDER_PATH
-
-    def as_yaml(self) -> Dict[str, Any]:
-        return {
-            IMDB_ID: self.imdb_id,
-            TITLE: self.title_with_year,
-            "names": self.names,
-        }
-
-    @classmethod
-    def from_imdb_id(cls, imdb_id: str) -> "Countries":
-        detail = imdb_http.countries_for_title(imdb_id)
-
-        return cls(
-            imdb_id=imdb_id,
-            title=detail.title,
-            year=detail.year,
-            names=detail.countries,
-            file_path=None,
-        )
 
 
 @dataclass
@@ -222,7 +171,7 @@ class Principal(object):
 
 
 class MoviesTable(db.Table):
-    table_name = TABLE_NAME
+    table_name = MOVIES_TABLE_NAME
 
     recreate_ddl = """
         DROP TABLE IF EXISTS "{0}";
@@ -247,9 +196,13 @@ class MoviesTable(db.Table):
         cls.add_index("title")
         cls.validate(movies)
 
+    @classmethod
+    def delete_movies(cls, imdb_ids: Sequence[str]) -> None:
+        cls.delete("imdb_id", imdb_ids)
+
 
 def update() -> None:
-    logger.log("==== Begin updating {}...", TABLE_NAME)
+    logger.log("==== Begin updating {}...", MOVIES_TABLE_NAME)
 
     movies_file_path = imdb_s3_downloader.download(MOVIES_FILE_NAME)
     principals_file_path = imdb_s3_downloader.download(PRINCIPALS_FILE_NAME)
@@ -263,18 +216,11 @@ def update() -> None:
         title_ids.cache_clear()
 
 
-def update_countries(imdb_ids: Iterable[str]) -> None:
-    logger.log("==== Begin updating {}...", "movie countries")
+def remove_movies_with_no_directors(director_imdb_ids: Iterable[str]) -> None:
+    logger.log("==== Begin {}...", "removing movies with no director")
 
-    existing_extra_info_ids: Set[str] = set()
-
-    for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.yml")):
-        extra_info = Countries.from_file_path(yaml_file_path)
-        existing_extra_info_ids.add(extra_info.imdb_id)
-
-    for imdb_id in set(imdb_ids) - existing_extra_info_ids:
-        extra_info = Countries.from_imdb_id(imdb_id)
-        extra_info.save()
+    MoviesTable.delete_movies(list(title_ids() - set(director_imdb_ids)))
+    title_ids.cache_clear()
 
 
 @lru_cache(1)
