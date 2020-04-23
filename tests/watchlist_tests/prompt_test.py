@@ -16,7 +16,7 @@ def mock_watchlist_path(mocker: MockFixture, tmp_path: str) -> str:
     return watchlist_path
 
 
-EXPECTED = "frozen: false\nname: Orson Welles\nimdb_id: nm0000080\ntitles: []\n"
+EXPECTED = "frozen: false\nname: Orson Welles\nimdb_id: nm0000080\nslug: orson-welles\ntitles: []\n"
 
 
 def test_add_director_creates_director(
@@ -61,7 +61,7 @@ def test_add_performer_creates_performer(
 def test_add_collection_creates_new_collection(
     mock_watchlist_path: str, mocker: MockFixture
 ) -> None:
-    expected = "frozen: false\nname: Halloween\ntitles: []\n"
+    expected = "frozen: false\nname: Halloween\nslug: halloween\ntitles: []\n"
 
     watchlist.add_collection(name="Halloween")
 

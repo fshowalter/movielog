@@ -136,4 +136,4 @@ class WatchlistFile(yaml_file.Base):
             yield watchlist_item
 
     def generate_slug(self) -> str:
-        return str(slugify(self.name))
+        return str(slugify(self.name.replace("'", "")))

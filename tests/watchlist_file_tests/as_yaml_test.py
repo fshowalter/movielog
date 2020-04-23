@@ -7,6 +7,7 @@ def test_returns_as_object(build_watchlist_file: Callable[..., WatchlistFile]) -
     expected = {
         "frozen": True,
         "name": "Hammer Films",
+        "slug": "hammer-films",
         "titles": [
             {
                 "imdb_id": "tt0050280",
@@ -34,8 +35,9 @@ def test_if_imdb_id_adds_imdb_id(
 ) -> None:
     expected = {
         "frozen": True,
-        "name": "Peter Cushing",
         "imdb_id": "nm0001088",
+        "name": "Peter Cushing",
+        "slug": "peter-cushing",
         "titles": [
             {
                 "imdb_id": "tt0050280",

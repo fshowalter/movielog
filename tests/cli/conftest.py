@@ -54,8 +54,6 @@ class SeedMovieBuilder(object):
                     people.Person(
                         imdb_id=person[0],
                         full_name=person[1],
-                        last_name=None,
-                        first_name=None,
                         birth_year=None,
                         death_year=None,
                         primary_profession=None,
@@ -89,8 +87,6 @@ class SeedCreditBuilder(object):
             person = people.Person(
                 imdb_id=credit_tuple[0],
                 full_name=credit_tuple[1],
-                last_name=None,
-                first_name=None,
                 birth_year=None,
                 death_year=None,
                 primary_profession=None,

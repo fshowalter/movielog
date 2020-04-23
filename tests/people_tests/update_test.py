@@ -23,8 +23,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         (
             "nm0000007",
             "Humphrey Bogart",
-            "Bogart",
-            "Humphrey",
             None,
             None,
             "actor,soundtrack,producer",
@@ -33,8 +31,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         (
             "nm0000014",
             "Olivia de Havilland",
-            "de Havilland",
-            "Olivia",
             None,
             None,
             "actress,soundtrack",
@@ -43,8 +39,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         (
             "nm0000064",
             "Edward G. Robinson",
-            "Robinson",
-            "Edward G.",
             None,
             None,
             "actor,soundtrack,writer",
@@ -53,8 +47,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         (
             "nm0000076",
             "François Truffaut",
-            "Truffaut",
-            "François",
             None,
             None,
             "writer,director,producer",
@@ -63,8 +55,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         (
             "nm0002035",
             "Sammy Davis Jr.",
-            "Davis Jr.",
-            "Sammy",
             None,
             None,
             "soundtrack,actor,producer",
@@ -72,8 +62,6 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
         ),
         (
             "nm0000333",
-            "Cher",
-            "",
             "Cher",
             None,
             None,

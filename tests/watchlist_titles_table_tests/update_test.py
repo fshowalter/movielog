@@ -94,14 +94,14 @@ def test_inserts_collection_items(
     ]
 
     expected = [
-        (1, "tt0372784", None, None, None, "Nolan's Batman"),
-        (2, "tt0468569", None, None, None, "Nolan's Batman"),
-        (3, "tt1345836", None, None, None, "Nolan's Batman"),
-        (4, "tt0048424", "nm0001452", None, None, None),
-        (5, "tt0050280", None, "nm0001088", None, None),
-        (6, "tt0051554", None, "nm0001088", None, None),
-        (7, "tt0038355", None, None, "nm0102824", None),
-        (8, "tt0053221", None, None, "nm0102824", None),
+        (1, "tt0372784", None, None, None, "Nolan's Batman", "nolans-batman"),
+        (2, "tt0468569", None, None, None, "Nolan's Batman", "nolans-batman"),
+        (3, "tt1345836", None, None, None, "Nolan's Batman", "nolans-batman"),
+        (4, "tt0048424", "nm0001452", None, None, None, "charles-laughton"),
+        (5, "tt0050280", None, "nm0001088", None, None, "peter-cushing"),
+        (6, "tt0051554", None, "nm0001088", None, None, "peter-cushing"),
+        (7, "tt0038355", None, None, "nm0102824", None, "leigh-brackett"),
+        (8, "tt0053221", None, None, "nm0102824", None, "leigh-brackett"),
     ]
 
     watchlist_titles_table.update()

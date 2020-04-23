@@ -216,9 +216,7 @@ def update() -> None:
         title_ids.cache_clear()
 
 
-def remove_movies_with_no_directors(director_imdb_ids: Iterable[str]) -> None:
-    logger.log("==== Begin {}...", "removing movies with no director")
-
+def remove_movies_not_in(director_imdb_ids: Iterable[str]) -> None:
     MoviesTable.delete_movies(list(title_ids() - set(director_imdb_ids)))
     title_ids.cache_clear()
 

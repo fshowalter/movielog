@@ -17,13 +17,13 @@ def mock_manage_watchlist(mocker: MockFixture) -> MockFixture:
 
 
 @pytest.fixture(autouse=True)
-def mock_update_imdb_data(mocker: MockFixture) -> MockFixture:
-    return mocker.patch("movielog.cli.main.update_imdb_data.prompt")
+def mock_update_viewings(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.cli.main.update_viewings.prompt")
 
 
 @pytest.fixture(autouse=True)
-def mock_update_viewings(mocker: MockFixture) -> MockFixture:
-    return mocker.patch("movielog.cli.main.update_viewings.prompt")
+def mock_imdb_s3_orchestrator_orchestrate_update(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.cli.main.imdb_s3_orchestrator.orchestrate_update")
 
 
 def test_calls_add_viewing(
@@ -44,15 +44,6 @@ def test_calls_manage_watchlist(
     mock_manage_watchlist.assert_called_once()
 
 
-def test_calls_update_imdb_data(
-    mock_input: PosixPipeInput, mock_update_imdb_data: MockFixture
-) -> None:
-    mock_input.send_text("".join([Down, Down, Enter, End, Enter]))
-    main.prompt()
-
-    mock_update_imdb_data.assert_called_once()
-
-
 def test_calls_update_viewings(
     mock_input: PosixPipeInput, mock_update_viewings: MockFixture
 ) -> None:
@@ -60,3 +51,23 @@ def test_calls_update_viewings(
     main.prompt()
 
     mock_update_viewings.assert_called_once()
+
+
+def test_calls_imdb_s3_orchestrator_update(
+    mock_input: PosixPipeInput,
+    mock_imdb_s3_orchestrator_orchestrate_update: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Down}{Down}{Enter}y{Up}{Enter}")
+    main.prompt()
+
+    mock_imdb_s3_orchestrator_orchestrate_update.assert_called_once()
+
+
+def test_can_confirm_imdb_s3_orchestrator_update(
+    mock_input: PosixPipeInput,
+    mock_imdb_s3_orchestrator_orchestrate_update: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Down}{Down}{Enter}n{Up}{Enter}")
+    main.prompt()
+
+    mock_imdb_s3_orchestrator_orchestrate_update.assert_not_called()

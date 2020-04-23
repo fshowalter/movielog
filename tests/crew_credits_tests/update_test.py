@@ -24,6 +24,11 @@ def movie_ids_mock(mocker: MockFixture) -> Any:
     mocker.patch("movielog.crew_credits.movies.title_ids", return_value=valid_ids)
 
 
+@pytest.fixture(autouse=True)
+def remove_movies_not_in_mock(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.crew_credits.movies.remove_movies_not_in")
+
+
 def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
     expected_directors = [
         ("tt0053221", "nm0001328", 0),
@@ -42,3 +47,13 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
 
     assert sql_query("SELECT * FROM 'directing_credits';") == expected_directors
     assert sql_query("SELECT * FROM 'writing_credits';") == expected_writers
+
+
+def test_calls_remove_movies_with_no_directors(
+    remove_movies_not_in_mock: MockFixture,
+) -> None:
+    crew_credits.update()
+
+    remove_movies_not_in_mock.assert_called_with(
+        ["tt0053221", "tt0089175", "tt0000001"],
+    )

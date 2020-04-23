@@ -69,7 +69,8 @@ def update() -> None:
         DirectingCreditsTable.insert_credits(directing_credits)
         WritingCreditsTable.recreate()
         WritingCreditsTable.insert_credits(writing_credits)
-        movies.remove_movies_with_no_directors(
+        logger.log("==== Begin {}...", "removing movies with no director")
+        movies.remove_movies_not_in(
             [credit.movie_imdb_id for credit in directing_credits]
         )
 
