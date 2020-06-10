@@ -221,29 +221,6 @@ def remove_movies_not_in(director_imdb_ids: Iterable[str]) -> None:
     title_ids.cache_clear()
 
 
-@dataclass
-class Result(object):
-    imdb_id: str
-    title: str
-    year: str
-
-
-def find_by_imdb_id(imdb_id: str) -> Optional[Result]:
-    query = """
-        SELECT imdb_id, title, year
-        FROM movies WHERE imdb_id="{0}";
-        """.format(  # noqa: S608
-        imdb_id
-    )
-
-    search_result: Optional[Result] = None
-
-    with db.connect() as connection:
-        search_result = connection.execute(query).fetchone()
-
-    return search_result
-
-
 @lru_cache(1)
 def title_ids() -> Set[str]:
     with db.connect() as connection:
