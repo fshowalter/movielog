@@ -7,11 +7,16 @@ from typing import Any, Dict, List, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, performing_credits, yaml_file
+from movielog import db, humanize, movies, performing_credits, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
 SEQUENCE = "sequence"
+
+
+class ViewingError(Exception):
+    def __init__(self, message: str) -> None:
+        self.message = message
 
 
 @dataclass
@@ -32,12 +37,10 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
 
     @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Viewing":
-        title, year = cls.split_title_and_year(yaml_object["title"])
-
         return cls(
             imdb_id=yaml_object["imdb_id"],
-            title=title,
-            year=year,
+            title=yaml_object["title"],
+            year=yaml_object["year"],
             venue=yaml_object["venue"],
             sequence=yaml_object[SEQUENCE],
             date=yaml_object["date"],
@@ -57,7 +60,8 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
             SEQUENCE: self.sequence,
             "date": self.date,
             "imdb_id": self.imdb_id,
-            "title": self.title_with_year,
+            "title": self.title,
+            "year": self.year,
             "venue": self.venue,
         }
 
@@ -102,6 +106,18 @@ def update() -> None:
     ViewingsTable.insert_viewings(viewings)
 
     performing_credits.update(imdb_ids())
+
+    for viewing in viewings:
+        movie = movies.find_by_imdb_id(viewing.imdb_id)
+        if not movie:
+            raise ViewingError(
+                "IMDb ID {0} for viewing {1} not found!".format(
+                    viewing.imdb_id, viewing.file_path
+                )
+            )
+        viewing.title = movie.title
+        viewing.year = int(movie.year, 10)
+        viewing.save()
 
 
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
