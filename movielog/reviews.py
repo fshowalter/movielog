@@ -1,7 +1,8 @@
+import json
 import operator
 import os
 import re
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
 from typing import Any, Callable, Dict, List, Optional, Sequence
@@ -21,19 +22,21 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
     date: date
     grade: Optional[str] = None
     review_content: Optional[str] = None
+    slug: Optional[str] = None
 
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "Review":
+    def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Review":
         title, year = cls.split_title_and_year(yaml_object["title"])
 
         return Review(
-            file_path=None,
+            file_path=file_path,
             date=yaml_object["date"],
             grade=yaml_object["grade"],
             title=title,
             year=year,
             imdb_id=yaml_object["imdb_id"],
             sequence=yaml_object["sequence"],
+            slug=yaml_object["slug"],
         )
 
     def generate_slug(self) -> str:
@@ -73,7 +76,7 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
         with open(file_path, "r") as review_file:
             _, fm, review_content = FM_REGEX.split(review_file.read(), 2)
 
-        review = cls.from_yaml_object(yaml.safe_load(fm))
+        review = cls.from_yaml_object(file_path, yaml.safe_load(fm))
         review.file_path = file_path
         review.review_content = review_content
 
@@ -108,3 +111,16 @@ def add(imdb_id: str, title: str, review_date: date, year: int) -> Review:
     review.save()
 
     return review
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", "reviews")
+
+    reviews = Review.load_all()
+
+    file_path = os.path.join("export", "reviews.json")
+
+    with open(file_path, "w") as output_file:
+        output_file.write(
+            json.dumps([asdict(review) for review in reviews], default=str)
+        )

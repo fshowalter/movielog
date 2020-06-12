@@ -1,3 +1,5 @@
+import json
+import os
 from dataclasses import asdict, dataclass
 from typing import Callable, Dict, List, Optional, Type
 
@@ -5,26 +7,6 @@ from movielog import db, watchlist_collection, watchlist_person
 from movielog.logger import logger
 
 TABLE_NAME = "watchlist_titles"
-
-Query = """
-    SELECT
-        year,
-        title,
-        movie_imdb_id,
-        GROUP_CONCAT(directors.full_name, '|'),
-        GROUP_CONCAT(director_imdb_id, ','),
-        GROUP_CONCAT(performers.full_name, '|'),
-        GROUP_CONCAT(performer_imdb_id, ','),
-        GROUP_CONCAT(writers.full_name, '|'),
-        GROUP_CONCAT(writer_imdb_id, ','),
-        GROUP_CONCAT(collection_name, '|') AS collection_names
-        FROM watchlist_titles
-            LEFT JOIN movies ON movie_imdb_id = movies.imdb_id
-            LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
-            LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
-            LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
-            GROUP BY (movie_imdb_id) HAVING year < 1930 ORDER BY year;
-"""
 
 
 @dataclass
@@ -162,3 +144,34 @@ def update() -> None:
             titles.extend(WatchlistTitle.titles_for_person(person))
 
     WatchlistTitlesTable.insert_watchlist_titles(titles)
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", TABLE_NAME)
+    query = """
+        SELECT
+        movie_imdb_id as imdbId
+        , title
+        , year
+        , GROUP_CONCAT(directors.full_name, '|') as directorNamesConcat
+        , GROUP_CONCAT(performers.full_name, '|') as performerNamesConcat
+        , GROUP_CONCAT(writers.full_name, '|') as writerNamesConcat
+        , GROUP_CONCAT(collection_name, '|') AS collectionNamesConcat
+        FROM watchlist_titles
+        LEFT JOIN movies ON imdbId = movies.imdb_id
+        LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
+        LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
+        LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
+        GROUP BY
+            (imdbId)
+        ORDER BY
+            year;
+    """
+
+    with db.connect() as connection:
+        rows = connection.execute(query).fetchall()
+
+    file_path = os.path.join("export", "watchlistTitles.json")
+
+    with open(file_path, "w") as output_file:
+        output_file.write(json.dumps([dict(row) for row in rows]))

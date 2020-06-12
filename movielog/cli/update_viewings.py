@@ -5,4 +5,4 @@ from movielog import viewings
 
 def prompt() -> None:
     if confirm("Reload viewings table?"):
-        viewings.export()
+        viewings.update()
