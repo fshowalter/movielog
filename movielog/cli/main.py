@@ -1,4 +1,4 @@
-from movielog import imdb_s3_orchestrator, reviews, viewings, watchlist_titles_table
+from movielog import exporter, imdb_s3_orchestrator
 from movielog.cli import (
     add_viewing,
     confirm,
@@ -28,9 +28,7 @@ def prompt() -> None:
 
 def export() -> None:
     if confirm.prompt("<cyan>Export reviews, viewings and watchlist data?</cyan>"):
-        reviews.export()
-        viewings.export()
-        watchlist_titles_table.export()
+        exporter.export()
 
 
 def update_imdb_s3_data() -> None:

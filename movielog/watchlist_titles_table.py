@@ -150,7 +150,7 @@ def export() -> None:
     logger.log("==== Begin exporting {}...", TABLE_NAME)
     query = """
         SELECT
-        movie_imdb_id as imdbId
+        movies.imdb_id
         , title
         , year
         , GROUP_CONCAT(directors.full_name, '|') as directorNamesConcat
@@ -158,12 +158,12 @@ def export() -> None:
         , GROUP_CONCAT(writers.full_name, '|') as writerNamesConcat
         , GROUP_CONCAT(collection_name, '|') AS collectionNamesConcat
         FROM watchlist_titles
-        LEFT JOIN movies ON imdbId = movies.imdb_id
+        LEFT JOIN movies ON movie_imdb_id = movies.imdb_id
         LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
         LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
         LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
         GROUP BY
-            (imdbId)
+            (movies.imdb_id)
         ORDER BY
             year;
     """

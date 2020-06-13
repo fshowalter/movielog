@@ -26,6 +26,11 @@ def mock_imdb_s3_orchestrator_orchestrate_update(mocker: MockFixture) -> MockFix
     return mocker.patch("movielog.cli.main.imdb_s3_orchestrator.orchestrate_update")
 
 
+@pytest.fixture(autouse=True)
+def mock_exporter_export(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.cli.main.exporter.export")
+
+
 def test_calls_add_viewing(
     mock_input: PosixPipeInput, mock_add_viewing: MockFixture
 ) -> None:
@@ -47,7 +52,7 @@ def test_calls_manage_watchlist(
 def test_calls_update_viewings(
     mock_input: PosixPipeInput, mock_update_viewings: MockFixture
 ) -> None:
-    mock_input.send_text("".join([Up, Up, Enter, End, Enter]))
+    mock_input.send_text("".join([Up, Up, Up, Enter, End, Enter]))
     main.prompt()
 
     mock_update_viewings.assert_called_once()
@@ -71,3 +76,21 @@ def test_can_confirm_imdb_s3_orchestrator_update(
     main.prompt()
 
     mock_imdb_s3_orchestrator_orchestrate_update.assert_not_called()
+
+
+def test_calls_exporter_export(
+    mock_input: PosixPipeInput, mock_exporter_export: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Up}{Up}{Enter}y{Up}{Enter}")
+    main.prompt()
+
+    mock_exporter_export.assert_called_once()
+
+
+def test_can_confirm_exporter_export(
+    mock_input: PosixPipeInput, mock_exporter_export: MockFixture,
+) -> None:
+    mock_input.send_text(f"{Up}{Up}{Enter}n{Up}{Enter}")
+    main.prompt()
+
+    mock_exporter_export.assert_not_called()
