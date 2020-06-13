@@ -103,20 +103,26 @@ def write_results(rows: Sequence[Row], filename: str) -> None:
 
 def export() -> None:
     logger.log("==== Begin exporting {}...", "stats")
-    viewings_by_release_year = db.exec_query(viewings_by_release_year_query)
-    write_results(viewings_by_release_year, "viewingsByReleaseYear")
+    write_results(
+        db.exec_query(viewings_by_release_year_query), "viewingsByReleaseYear"
+    )
 
-    ratings_by_release_year = db.exec_query(ratings_by_release_year_query)
-    write_results(ratings_by_release_year, "ratingsByReleaseYear")
+    write_results(db.exec_query(ratings_by_release_year_query), "ratingsByReleaseYear")
 
-    director_watchlist_progress = db.exec_query(watchlist_progress_query("director"))
-    write_results(director_watchlist_progress, "directorWatchlistProgress")
+    write_results(
+        db.exec_query(watchlist_progress_query("director")), "directorWatchlistProgress"
+    )
 
-    performer_watchlist_progress = db.exec_query(watchlist_progress_query("performer"))
-    write_results(performer_watchlist_progress, "performerWatchlistProgress")
+    write_results(
+        db.exec_query(watchlist_progress_query("performer")),
+        "performerWatchlistProgress",
+    )
 
-    writer_watchlist_progress = db.exec_query(watchlist_progress_query("writer"))
-    write_results(writer_watchlist_progress, "writerWatchlistProgress")
+    write_results(
+        db.exec_query(watchlist_progress_query("writer")), "writerWatchlistProgress"
+    )
 
-    watchlist_collections_progress = db.exec_query(watchlist_collections_progress_query)
-    write_results(watchlist_collections_progress, "watchlistCollectionsProgress")
+    write_results(
+        db.exec_query(watchlist_collections_progress_query),
+        "watchlistCollectionsProgress",
+    )
