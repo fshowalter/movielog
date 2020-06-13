@@ -28,12 +28,38 @@ ratings_by_release_year_query = """
         year
   """
 
+watchlist_collections_progress_query = """
+    SELECT
+        a.collection_name AS name
+      , total
+      , reviewed
+    FROM (
+          SELECT
+              collection_name
+            , count(reviews.movie_imdb_id) AS reviewed
+          FROM watchlist_titles
+          LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
+          WHERE collection_name IS NOT NULL
+          GROUP BY
+              collection_name
+        ) AS A
+    LEFT JOIN (
+                SELECT
+                    count(movie_imdb_id) AS total
+                  , collection_name
+                FROM watchlist_titles
+                WHERE collection_name IS NOT NULL
+                GROUP BY
+                    collection_name
+              ) AS B ON a.collection_name = b.collection_name
+  """
+
 
 def watchlist_progress_query(watchlist_type: str) -> str:
     return """
     SELECT
         {0}_imdb_id AS imdb_id
-      , full_name
+      , full_name AS name
       , total
       , reviewed
     FROM (
@@ -91,3 +117,6 @@ def export() -> None:
 
     writer_watchlist_progress = db.exec_query(watchlist_progress_query("writer"))
     write_results(writer_watchlist_progress, "writerWatchlistProgress")
+
+    watchlist_collections_progress = db.exec_query(watchlist_collections_progress_query)
+    write_results(watchlist_collections_progress, "watchlistCollectionsProgress")
