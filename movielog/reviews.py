@@ -10,17 +10,20 @@ from typing import Any, Callable, Dict, List, Optional, Sequence
 import yaml
 from slugify import slugify
 
-from movielog import humanize, yaml_file
+from movielog import db, humanize, yaml_file
 from movielog.logger import logger
 
 SEQUENCE = "sequence"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
+REVIEWS = "reviews"
+TABLE_NAME = REVIEWS
 
 
 @dataclass  # noqa: WPS214
 class Review(yaml_file.Movie, yaml_file.WithSequence):
     date: date
     grade: Optional[str] = None
+    grade_value: Optional[int] = None
     review_content: Optional[str] = None
     slug: Optional[str] = None
 
@@ -32,6 +35,7 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             file_path=file_path,
             date=yaml_object["date"],
             grade=yaml_object["grade"],
+            grade_value=cls.grade_value_for_grade(yaml_object["grade"]),
             title=title,
             year=year,
             imdb_id=yaml_object["imdb_id"],
@@ -39,12 +43,24 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             slug=yaml_object["slug"],
         )
 
+    @classmethod
+    def grade_value_for_grade(cls, grade: str) -> int:
+        grade_map = {
+            "A": 5,
+            "B": 4,
+            "C": 3,
+            "D": 2,
+            "F": 1,
+        }
+
+        return grade_map.get(grade[0], 3)
+
     def generate_slug(self) -> str:
         return str(slugify(self.title_with_year))
 
     @classmethod
     def folder_path(cls) -> str:
-        return "reviews"
+        return REVIEWS
 
     @classmethod
     def extension(cls) -> str:
@@ -98,6 +114,45 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
         return file_path
 
 
+class ReviewsTable(db.Table):
+    table_name = TABLE_NAME
+
+    recreate_ddl = """
+        DROP TABLE IF EXISTS "{0}";
+        CREATE TABLE "{0}" (
+            "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+            "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
+            "date" DATE NOT NULL,
+            "sequence" INT NOT NULL,
+            "grade_value" INT NOT NULL);
+        """
+
+    @classmethod
+    def insert_reviews(cls, reviews: Sequence[Review]) -> None:
+        ddl = """
+          INSERT INTO {0}(movie_imdb_id, date, sequence, grade_value)
+          VALUES(:imdb_id, :date, :sequence, :grade_value);
+        """.format(
+            cls.table_name
+        )
+
+        parameter_seq = [asdict(review) for review in reviews]
+
+        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.add_index(SEQUENCE)
+        cls.add_index("movie_imdb_id")
+        cls.validate(reviews)
+
+
+def update() -> None:
+    logger.log("==== Begin updating {}...", TABLE_NAME)
+
+    reviews = Review.load_all()
+
+    ReviewsTable.recreate()
+    ReviewsTable.insert_reviews(reviews)
+
+
 def add(imdb_id: str, title: str, review_date: date, year: int) -> Review:
     review = Review(
         imdb_id=imdb_id,
@@ -109,12 +164,13 @@ def add(imdb_id: str, title: str, review_date: date, year: int) -> Review:
     )
 
     review.save()
+    update()
 
     return review
 
 
 def export() -> None:
-    logger.log("==== Begin exporting {}...", "reviews")
+    logger.log("==== Begin exporting {}...", REVIEWS)
 
     reviews = Review.load_all()
 

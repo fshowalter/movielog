@@ -34,6 +34,11 @@ def transaction(connection: Connection) -> Generator[None, None, None]:
     connection.execute("PRAGMA journal_mode = DELETE")
 
 
+def exec_query(query: str) -> Sequence[sqlite3.Row]:
+    with connect() as connection:
+        return connection.execute(query).fetchall()
+
+
 class Table(abc.ABC):
     recreate_ddl: str
     table_name: str

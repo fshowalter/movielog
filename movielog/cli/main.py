@@ -27,7 +27,8 @@ def prompt() -> None:
 
 
 def export() -> None:
-    if confirm.prompt("<cyan>Export reviews, viewings and watchlist data?</cyan>"):
+    prompt_text = "<cyan>Export reviews, viewings, watchlist, and stats data?</cyan>"
+    if confirm.prompt(prompt_text):
         exporter.export()
 
 
