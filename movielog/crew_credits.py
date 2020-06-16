@@ -27,6 +27,7 @@ class CreditsTable(db.Table):
             "person_imdb_id" varchar(255) NOT NULL
                 REFERENCES people(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "sequence" INT NOT NULL,
+            "notes" TEXT,
             PRIMARY KEY (movie_imdb_id, person_imdb_id));
         """
 
