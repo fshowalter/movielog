@@ -57,7 +57,7 @@ watchlist_collections_progress_query = """
   """
 
 
-def watchlist_progress_query(watchlist_type: str) -> str:
+def watchlist_person_progress_query(watchlist_person_type: str) -> str:
     return """
     SELECT
         {0}_imdb_id AS imdb_id
@@ -92,7 +92,7 @@ def watchlist_progress_query(watchlist_type: str) -> str:
     ORDER BY
         full_name;
     """.format(  # noqa: S608
-        watchlist_type
+        watchlist_person_type
     )
 
 
@@ -186,16 +186,18 @@ def by_release_year() -> None:
 
 def watchlist_progress() -> None:
     write_results(
-        db.exec_query(watchlist_progress_query("director")), "directorWatchlistProgress"
+        db.exec_query(watchlist_person_progress_query("director")),
+        "directorWatchlistProgress",
     )
 
     write_results(
-        db.exec_query(watchlist_progress_query("performer")),
+        db.exec_query(watchlist_person_progress_query("performer")),
         "performerWatchlistProgress",
     )
 
     write_results(
-        db.exec_query(watchlist_progress_query("writer")), "writerWatchlistProgress"
+        db.exec_query(watchlist_person_progress_query("writer")),
+        "writerWatchlistProgress",
     )
 
     write_results(
