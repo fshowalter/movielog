@@ -44,7 +44,10 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
         )
 
     @classmethod
-    def grade_value_for_grade(cls, grade: str) -> int:
+    def grade_value_for_grade(cls, grade: str) -> Optional[int]:
+        if not grade:
+            return None
+
         grade_map = {
             "A": 5,
             "B": 4,
@@ -153,12 +156,13 @@ def update() -> None:
     ReviewsTable.insert_reviews(reviews)
 
 
-def add(imdb_id: str, title: str, review_date: date, year: int) -> Review:
+def add(imdb_id: str, title: str, review_date: date, year: int, grade: str) -> Review:
     review = Review(
         imdb_id=imdb_id,
         title=title,
         date=review_date,
         year=year,
+        grade=grade,
         sequence=None,
         file_path=None,
     )

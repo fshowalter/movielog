@@ -31,16 +31,16 @@ def remove_movies_not_in_mock(mocker: MockFixture) -> MockFixture:
 
 def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
     expected_directors = [
-        ("tt0053221", "nm0001328", 0),
-        ("tt0089175", "nm0276169", 0),
-        ("tt0000001", "nm0005690", 0),
+        ("tt0053221", "nm0001328", 0, None),
+        ("tt0089175", "nm0276169", 0, None),
+        ("tt0000001", "nm0005690", 0, None),
     ]
 
     expected_writers = [
-        ("tt0053221", "nm0299154", 0),
-        ("tt0053221", "nm0102824", 1),
-        ("tt0053221", "nm0564800", 2),
-        ("tt0089175", "nm0276169", 0),
+        ("tt0053221", "nm0299154", 0, None),
+        ("tt0053221", "nm0102824", 1, None),
+        ("tt0053221", "nm0564800", 2, None),
+        ("tt0089175", "nm0276169", 0, None),
     ]
 
     crew_credits.update()
