@@ -13,6 +13,7 @@ from slugify import slugify
 from movielog import db, humanize, yaml_file
 from movielog.logger import logger
 
+
 SEQUENCE = "sequence"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 REVIEWS = "reviews"
@@ -22,10 +23,11 @@ TABLE_NAME = REVIEWS
 @dataclass  # noqa: WPS214
 class Review(yaml_file.Movie, yaml_file.WithSequence):
     date: date
-    grade: Optional[str] = None
+    grade: str
+    venue: str
     grade_value: Optional[int] = None
-    review_content: Optional[str] = None
     slug: Optional[str] = None
+    venue_notes: Optional[str] = None
 
     @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Review":
@@ -41,6 +43,8 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             imdb_id=yaml_object["imdb_id"],
             sequence=yaml_object["sequence"],
             slug=yaml_object["slug"],
+            venue=yaml_object["venue"],
+            venue_notes=yaml_object["venue_notes"],
         )
 
     @classmethod
@@ -61,6 +65,10 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
     def generate_slug(self) -> str:
         return str(slugify(self.title_with_year))
 
+    def generate_filename(self) -> str:
+        slug = slugify(f"{self.sequence:04} {self.title_with_year}")
+        return str(slug)
+
     @classmethod
     def folder_path(cls) -> str:
         return REVIEWS
@@ -77,6 +85,8 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             "title": self.title_with_year,
             "grade": self.grade,
             "slug": self.generate_slug(),
+            "venue": self.venue,
+            "venue_notes": self.venue_notes,
         }
 
     @classmethod
@@ -97,24 +107,8 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
         review = cls.from_yaml_object(file_path, yaml.safe_load(fm))
         review.file_path = file_path
-        review.review_content = review_content
 
         return review
-
-    def save(self, log_function: Optional[Callable[[], None]] = None) -> str:
-        file_path = super().save(log_function=log_function)
-
-        stripped_content = str(self.review_content or "").strip()
-
-        with open(file_path, "r") as original_file:
-            original_content = original_file.read()
-
-        with open(file_path, "wb") as new_file:
-            new_file.write(
-                f"---\n{original_content}---\n\n{stripped_content}".encode("utf-8")
-            )
-
-        return file_path
 
 
 class ReviewsTable(db.Table):
@@ -127,14 +121,25 @@ class ReviewsTable(db.Table):
             "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "date" DATE NOT NULL,
             "sequence" INT NOT NULL,
-            "grade_value" INT NOT NULL);
+            "grade_value" INT NOT NULL,
+            "slug" TEXT NOT NULL,
+            "venue" TEXT NOT NULL);
+        DROP TRIGGER IF EXISTS multiple_slugs;
+        CREATE TRIGGER multiple_slugs
+            BEFORE INSERT ON "{0}"
+            BEGIN
+                SELECT RAISE(FAIL, "conflicting slugs")
+                FROM "{0}"
+                WHERE imdb_id = NEW.imdb_id
+                AND slug != NEW.slug;
+            END;
         """
 
     @classmethod
     def insert_reviews(cls, reviews: Sequence[Review]) -> None:
         ddl = """
-          INSERT INTO {0}(movie_imdb_id, date, sequence, grade_value)
-          VALUES(:imdb_id, :date, :sequence, :grade_value);
+          INSERT INTO {0}(movie_imdb_id, date, sequence, grade_value, slug, venue)
+          VALUES(:imdb_id, :date, :sequence, :grade_value, :slug, :venue);
         """.format(
             cls.table_name
         )
@@ -156,13 +161,23 @@ def update() -> None:
     ReviewsTable.insert_reviews(reviews)
 
 
-def add(imdb_id: str, title: str, review_date: date, year: int, grade: str) -> Review:
+def add(
+    imdb_id: str,
+    title: str,
+    review_date: date,
+    year: int,
+    grade: str,
+    venue: str,
+    venue_notes: Optional[str] = None,
+) -> Review:
     review = Review(
         imdb_id=imdb_id,
         title=title,
         date=review_date,
         year=year,
         grade=grade,
+        venue=venue,
+        venue_notes=venue_notes,
         sequence=None,
         file_path=None,
     )
@@ -173,14 +188,9 @@ def add(imdb_id: str, title: str, review_date: date, year: int, grade: str) -> R
     return review
 
 
-def export() -> None:
-    logger.log("==== Begin exporting {}...", REVIEWS)
+def existing_review(imdb_id: str) -> Optional[Review]:
+    reviews = sorted(
+        Review.load_all(), key=lambda review: review.sequence, reverse=True
+    )
 
-    reviews = Review.load_all()
-
-    file_path = os.path.join("export", "reviews.json")
-
-    with open(file_path, "w") as output_file:
-        output_file.write(
-            json.dumps([asdict(review) for review in reviews], default=str)
-        )
+    return next((review for review in reviews if review.imdb_id is imdb_id), None)

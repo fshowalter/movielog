@@ -1,4 +1,5 @@
 import html
+import re
 from datetime import date, datetime
 from typing import List, Optional, Tuple
 
@@ -6,7 +7,7 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog import viewings
+from movielog import reviews, viewings
 from movielog.cli import ask, radio_list, select_movie
 
 Option = Tuple[Optional[str], AnyFormattedText]
@@ -28,12 +29,26 @@ def prompt() -> None:
     if not venue:
         return
 
+    grade = ask_for_grade(imdb_id=movie.imdb_id)
+
+    if not grade:
+        return
+
     viewings.add(
         imdb_id=movie.imdb_id,
         title=movie.title,
         venue=venue,
         viewing_date=viewing_date,
         year=movie.year,
+    )
+
+    reviews.add(
+        imdb_id=movie.imdb_id,
+        title=movie.title,
+        venue=venue,
+        review_date=viewing_date,
+        year=movie.year,
+        grade=grade,
     )
 
 
@@ -56,7 +71,10 @@ def ask_for_date() -> Optional[date]:
     )
 
     date_string = ask.prompt(
-        "Date: ", rprompt="YYYY-MM-DD format.", validator=validator
+        "Date: ",
+        rprompt="YYYY-MM-DD format.",
+        validator=validator,
+        default=date.today().strftime("%Y-%m-%d"),
     )
 
     if not date_string:
@@ -109,3 +127,30 @@ def build_venue_options() -> List[Option]:
 
 def new_venue() -> Optional[str]:
     return ask.prompt("Venue name: ")
+
+
+def is_grade(text: str) -> bool:
+    return bool(re.match(r"[a-d|A-D|f|F][+|-]?", text))
+
+
+def ask_for_grade(imdb_id: str) -> Optional[str]:
+    validator = Validator.from_callable(
+        is_grade, error_message="Must be a valid grade.", move_cursor_to_end=True,
+    )
+
+    existing_review = reviews.existing_review(imdb_id=imdb_id)
+
+    default_grade = ""
+
+    if existing_review:
+        default_grade = existing_review.grade
+
+    review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
+
+    if not review_grade:
+        return None
+
+    if confirm(review_grade):  # noqa: WPS323
+        return review_grade
+
+    return ask_for_grade(imdb_id=imdb_id)

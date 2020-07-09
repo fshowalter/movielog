@@ -64,6 +64,9 @@ class Base(abc.ABC):
 
         return instance
 
+    def generate_filename(self) -> str:
+        return self.generate_slug()
+
     def log_save(self) -> None:
         logger.log("Wrote {}", self.file_path)
 
@@ -78,7 +81,7 @@ class Base(abc.ABC):
         file_path = self.file_path
 
         if not file_path:
-            slug = self.generate_slug()
+            slug = self.generate_filename()
             file_path = os.path.join(
                 self.__class__.folder_path(), f"{slug}.{self.__class__.extension()}"
             )

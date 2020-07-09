@@ -7,7 +7,10 @@ from prompt_toolkit.validation import Validator
 
 
 def prompt(
-    message: str, rprompt: Optional[str] = None, validator: Optional[Validator] = None,
+    message: str,
+    rprompt: Optional[str] = None,
+    validator: Optional[Validator] = None,
+    default: Optional[str] = "",
 ) -> Optional[str]:
     bindings = key_binding.KeyBindings()
 
@@ -25,6 +28,7 @@ def prompt(
             key_bindings=bindings,
             rprompt=right_side_prompt,
             validator=validator,
+            default=default,
             validate_while_typing=False,
         ),
     )

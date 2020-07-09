@@ -109,7 +109,7 @@ def export() -> None:
     logger.log("==== Begin exporting {}...", TABLE_NAME)
 
     query = """
-        SELECT imdb_id, title, year, date, sequence, venue
+        SELECT imdb_id, title, year, date, sequence, venue, original_title, runtime_minutes
         FROM viewings INNER JOIN movies ON movie_imdb_id = imdb_id;
         """
 

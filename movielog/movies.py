@@ -227,3 +227,4 @@ def title_ids() -> Set[str]:
         cursor = connection.cursor()
         cursor.row_factory = lambda cursor, row: row[0]
         return set(cursor.execute("select imdb_id from movies").fetchall())
+
