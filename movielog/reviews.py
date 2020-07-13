@@ -22,12 +22,14 @@ TABLE_NAME = REVIEWS
 
 @dataclass  # noqa: WPS214
 class Review(yaml_file.Movie, yaml_file.WithSequence):
+    imdb_id: str
     date: date
     grade: str
     venue: str
     grade_value: Optional[int] = None
     slug: Optional[str] = None
     venue_notes: Optional[str] = None
+    review_content: Optional[str] = None
 
     @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Review":
@@ -107,8 +109,24 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
         review = cls.from_yaml_object(file_path, yaml.safe_load(fm))
         review.file_path = file_path
+        review.review_content = review_content
 
         return review
+
+    def save(self, log_function: Optional[Callable[[], None]] = None) -> str:
+        file_path = super().save(log_function=log_function)
+
+        stripped_content = str(self.review_content or "").strip()
+
+        with open(file_path, "r") as original_file:
+            original_content = original_file.read()
+
+        with open(file_path, "wb") as new_file:
+            new_file.write(
+                f"---\n{original_content}---\n\n{stripped_content}".encode("utf-8")
+            )
+
+        return file_path
 
 
 class ReviewsTable(db.Table):
@@ -130,7 +148,7 @@ class ReviewsTable(db.Table):
             BEGIN
                 SELECT RAISE(FAIL, "conflicting slugs")
                 FROM "{0}"
-                WHERE imdb_id = NEW.imdb_id
+                WHERE movie_imdb_id = NEW.movie_imdb_id
                 AND slug != NEW.slug;
             END;
         """
@@ -194,3 +212,30 @@ def existing_review(imdb_id: str) -> Optional[Review]:
     )
 
     return next((review for review in reviews if review.imdb_id is imdb_id), None)
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", TABLE_NAME)
+
+    query = """
+        SELECT
+          reviews.movie_imdb_id AS imdb_id
+        , title
+        , year
+        , reviews.date
+        , reviews.sequence
+        , grade_value
+        , slug
+        , sort_title
+        FROM reviews
+        INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
+        INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
+        """
+
+    with db.connect() as connection:
+        rows = connection.execute(query).fetchall()
+
+    file_path = os.path.join("export", "reviews.json")
+
+    with open(file_path, "w") as output_file:
+        output_file.write(json.dumps([dict(row) for row in rows]))

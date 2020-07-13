@@ -1,5 +1,6 @@
+import json
 import os
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from glob import glob
 from typing import Any, Dict, List, Optional, Sequence, Set
 
@@ -186,3 +187,46 @@ def update(imdb_ids: List[str]) -> None:
         performing_credits.extend(movie.performing_credits)
 
     PerformingCreditsTable.insert_performing_credits(performing_credits)
+
+
+@dataclass
+class PerformingCreditExport(object):
+    movie_imdb_id: str
+    name: str
+    sequence: int
+    person_imdb_id: str
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", TABLE_NAME)
+
+    query = """
+        SELECT
+          reviews.movie_imdb_id
+        , full_name
+        , performing_credits.sequence
+        , people.imdb_id AS person_imdb_id
+        FROM reviews
+        INNER JOIN performing_credits ON reviews.movie_imdb_id = performing_credits.movie_imdb_id
+        LEFT JOIN people ON person_imdb_id = imdb_id;
+    """
+
+    with db.connect() as connection:
+        rows = connection.execute(query).fetchall()
+
+    titles: List[PerformingCreditExport] = []
+
+    for row in rows:
+        titles.append(
+            PerformingCreditExport(
+                movie_imdb_id=row["movie_imdb_id"],
+                name=row["full_name"],
+                sequence=row["sequence"],
+                person_imdb_id=row["person_imdb_id"],
+            )
+        )
+
+    file_path = os.path.join("export", "performing_credits.json")
+
+    with open(file_path, "w") as output_file:
+        output_file.write(json.dumps([asdict(title) for title in titles]))

@@ -4,7 +4,7 @@ import os
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, Dict, List, Sequence, Set
+from typing import Any, Dict, List, Optional, Sequence, Set
 
 from slugify import slugify
 
@@ -19,6 +19,7 @@ SEQUENCE = "sequence"
 class Viewing(yaml_file.Movie, yaml_file.WithSequence):
     venue: str
     date: date
+    sort_title: Optional[str] = None
 
     @classmethod
     def load_all(cls) -> Sequence["Viewing"]:
@@ -32,8 +33,23 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
         return viewings
 
     @classmethod
+    def build_sort_title(cls, title: str) -> str:
+        title_lower = title.lower()
+        title_words = title.split(" ")
+        lower_words = title_lower.split(" ")
+        articles = set(["a", "an", "the"])
+
+        if (len(title_words) > 1) and (lower_words[0] in articles):
+            return "{0}, {1}".format(
+                " ".join(title_words[1 : len(title_words)]), title_words[0]
+            )
+
+        return title
+
+    @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Viewing":
         title, year = cls.split_title_and_year(yaml_object["title"])
+        sort_title = cls.build_sort_title(title)
 
         return cls(
             imdb_id=yaml_object["imdb_id"],
@@ -43,6 +59,7 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
             sequence=yaml_object[SEQUENCE],
             date=yaml_object["date"],
             file_path=file_path,
+            sort_title=sort_title,
         )
 
     def generate_slug(self) -> str:
@@ -73,14 +90,15 @@ class ViewingsTable(db.Table):
             "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "date" DATE NOT NULL,
             "sequence" INT NOT NULL,
-            "venue" TEXT NOT NULL);
+            "venue" TEXT NOT NULL,
+            "sort_title" TEXT NOT NULL);
         """
 
     @classmethod
     def insert_viewings(cls, viewings: Sequence[Viewing]) -> None:
         ddl = """
-          INSERT INTO {0}(movie_imdb_id, date, sequence, venue)
-          VALUES(:imdb_id, :date, :sequence, :venue);
+          INSERT INTO {0}(movie_imdb_id, date, sequence, venue, sort_title)
+          VALUES(:imdb_id, :date, :sequence, :venue, :sort_title);
         """.format(
             cls.table_name
         )
@@ -109,7 +127,7 @@ def export() -> None:
     logger.log("==== Begin exporting {}...", TABLE_NAME)
 
     query = """
-        SELECT imdb_id, title, year, date, sequence, venue, original_title, runtime_minutes
+        SELECT imdb_id, title, year, date, sequence, venue, original_title, runtime_minutes, sort_title
         FROM viewings INNER JOIN movies ON movie_imdb_id = imdb_id;
         """
 

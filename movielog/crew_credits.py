@@ -1,5 +1,7 @@
+import json
+import os
 from dataclasses import asdict, dataclass
-from typing import List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor, movies
 from movielog.logger import logger
@@ -121,3 +123,53 @@ def fields_to_credits(
         )
 
     return crew_credits
+
+
+@dataclass
+class CrewCreditExport(object):
+    movie_imdb_id: str
+    name: str
+    sequence: int
+    person_imdb_id: str
+
+
+def export() -> None:
+    export_table(DIRECTING_CREDITS_TABLE_NAME)
+    export_table(WRITING_CREDITS_TABLE_NAME)
+
+
+def export_table(table_name: str) -> None:
+    logger.log("==== Begin exporting {}...", table_name)
+
+    query = """
+        SELECT
+          reviews.movie_imdb_id
+        , full_name
+        , {0}.sequence
+        , people.imdb_id AS person_imdb_id
+        FROM reviews
+        INNER JOIN {0} ON reviews.movie_imdb_id = {0}.movie_imdb_id
+        LEFT JOIN people ON person_imdb_id = imdb_id;
+    """.format(
+        table_name
+    )
+
+    with db.connect() as connection:
+        rows = connection.execute(query).fetchall()
+
+    titles: List[CrewCreditExport] = []
+
+    for row in rows:
+        titles.append(
+            CrewCreditExport(
+                movie_imdb_id=row["movie_imdb_id"],
+                name=row["full_name"],
+                sequence=row["sequence"],
+                person_imdb_id=row["person_imdb_id"],
+            )
+        )
+
+    file_path = os.path.join("export", "{0}.json".format(table_name))
+
+    with open(file_path, "w") as output_file:
+        output_file.write(json.dumps([asdict(title) for title in titles]))
