@@ -2,154 +2,97 @@ frozen: true
 name: Lucio Fulci
 imdb_id: nm0002086
 titles:
-- title: I ladri
-  imdb_id: tt0052985
-  year: 1959
-- title: Ragazzi del Juke-Box
-  imdb_id: tt0053207
-  year: 1959
-- title: Howlers of the Dock
-  imdb_id: tt0053401
-  year: 1960
-- title: Colpo gobbo all'italiana
-  imdb_id: tt0055856
-  year: 1962
-- title: I due della legione
-  imdb_id: tt0055937
-  year: 1962
-- title: The Masseuses
-  imdb_id: tt0057294
-  year: 1962
-- title: Uno strano tipo
-  imdb_id: tt0057535
-  year: 1963
-- title: Gli imbroglioni
-  imdb_id: tt0057175
-  year: 1963
-- title: I maniaci
-  imdb_id: tt0058325
-  year: 1964
-- title: Two Escape from Sing Sing
-  imdb_id: tt0058042
-  year: 1964
-- title: Oh! Those Most Secret Agents
-  imdb_id: tt0058885
-  year: 1964
-- title: Two Public Enemies
-  imdb_id: tt0059132
-  year: 1964
-- title: How We Got Into Trouble with the Army
-  imdb_id: tt0057958
-  year: 1965
-- title: 002 operazione Luna
-  imdb_id: tt0057805
-  year: 1965
-- title: I due parà
-  imdb_id: tt0060352
-  year: 1965
-- title: How We Robbed the Bank of Italy
-  imdb_id: tt0060253
-  year: 1966
-- title: The Brute and the Beast
-  imdb_id: tt0061074
-  year: 1966
-- title: Come rubammo la bomba atomica
-  imdb_id: tt0061499
-  year: 1967
-- title: Il lungo, il corto, il gatto
-  imdb_id: tt0061925
-  year: 1967
-- title: Operazione San Pietro
-  imdb_id: tt0061324
-  year: 1967
-- title: One on Top of the Other
-  imdb_id: tt0065148
-  year: 1969
-- title: The Conspiracy of Torture
-  imdb_id: tt0064073
-  year: 1969
-- title: A Lizard in a Woman's Skin
-  imdb_id: tt0067361
-  year: 1971
-- title: The Eroticist
-  imdb_id: tt0068193
-  year: 1972
-- title: Don't Torture a Duckling
-  imdb_id: tt0069019
-  year: 1972
-- title: White Fang
-  imdb_id: tt0069536
-  year: 1973
-- title: Challenge to White Fang
-  imdb_id: tt0072085
-  year: 1974
-- title: The Four of the Apocalypse...
-  imdb_id: tt0073594
-  year: 1975
-- title: Dracula in the Provinces
-  imdb_id: tt0072771
-  year: 1975
-- title: My Sister in Law
-  imdb_id: tt0075101
-  year: 1976
-- title: The Psychic
-  imdb_id: tt0075614
-  year: 1977
-- title: Silver Saddle
-  imdb_id: tt0078224
-  year: 1978
-- title: Zombie
-  imdb_id: tt0080057
-  year: 1979
-- title: Contraband
-  imdb_id: tt0081081
-  year: 1980
-- title: City of the Living Dead
-  imdb_id: tt0081318
-  year: 1980
-- title: The Black Cat
-  imdb_id: tt0080440
-  year: 1981
-- title: The Beyond
-  imdb_id: tt0082307
-  year: 1981
-- title: The House by the Cemetery
-  imdb_id: tt0082966
-  year: 1981
-- title: The New York Ripper
-  imdb_id: tt0084719
-  year: 1982
-- title: Manhattan Baby
-  imdb_id: tt0084298
-  year: 1982
-- title: Conquest
-  imdb_id: tt0085356
-  year: 1983
-- title: I guerrieri dell'anno 2072
-  imdb_id: tt0085627
-  year: 1984
-- title: 'Murder-Rock: Dancing Death'
-  imdb_id: tt0087759
-  year: 1984
-- title: The Devil's Honey
-  imdb_id: tt0090903
-  year: 1986
-- title: Aenigma
-  imdb_id: tt0092516
-  year: 1987
-- title: Zombie 3
-  imdb_id: tt0096511
-  year: 1988
-- title: A Cat in the Brain
-  imdb_id: tt0099637
-  year: 1990
-- title: Demonia
-  imdb_id: tt0094997
-  year: 1990
-- title: Voices from Beyond
-  imdb_id: tt0100881
-  year: 1991
-- title: Door to Silence
-  notes: (as H. Simon Kittay)
-  imdb_id: tt0101760
-  year: 1991
+  - title: The Brute and the Beast
+    imdb_id: tt0061074
+    year: 1966
+  - title: One on Top of the Other
+    imdb_id: tt0065148
+    year: 1969
+  - title: The Conspiracy of Torture
+    imdb_id: tt0064073
+    year: 1969
+  - title: A Lizard in a Woman's Skin
+    imdb_id: tt0067361
+    year: 1971
+  - title: The Eroticist
+    imdb_id: tt0068193
+    year: 1972
+  - title: Don't Torture a Duckling
+    imdb_id: tt0069019
+    year: 1972
+  - title: White Fang
+    imdb_id: tt0069536
+    year: 1973
+  - title: Challenge to White Fang
+    imdb_id: tt0072085
+    year: 1974
+  - title: The Four of the Apocalypse...
+    imdb_id: tt0073594
+    year: 1975
+  - title: Dracula in the Provinces
+    imdb_id: tt0072771
+    year: 1975
+  - title: My Sister in Law
+    imdb_id: tt0075101
+    year: 1976
+  - title: The Psychic
+    imdb_id: tt0075614
+    year: 1977
+  - title: Silver Saddle
+    imdb_id: tt0078224
+    year: 1978
+  - title: Zombie
+    imdb_id: tt0080057
+    year: 1979
+  - title: Contraband
+    imdb_id: tt0081081
+    year: 1980
+  - title: City of the Living Dead
+    imdb_id: tt0081318
+    year: 1980
+  - title: The Black Cat
+    imdb_id: tt0080440
+    year: 1981
+  - title: The Beyond
+    imdb_id: tt0082307
+    year: 1981
+  - title: The House by the Cemetery
+    imdb_id: tt0082966
+    year: 1981
+  - title: The New York Ripper
+    imdb_id: tt0084719
+    year: 1982
+  - title: Manhattan Baby
+    imdb_id: tt0084298
+    year: 1982
+  - title: Conquest
+    imdb_id: tt0085356
+    year: 1983
+  - title: I guerrieri dell'anno 2072
+    imdb_id: tt0085627
+    year: 1984
+  - title: "Murder-Rock: Dancing Death"
+    imdb_id: tt0087759
+    year: 1984
+  - title: The Devil's Honey
+    imdb_id: tt0090903
+    year: 1986
+  - title: Aenigma
+    imdb_id: tt0092516
+    year: 1987
+  - title: Zombie 3
+    imdb_id: tt0096511
+    year: 1988
+  - title: A Cat in the Brain
+    imdb_id: tt0099637
+    year: 1990
+  - title: Demonia
+    imdb_id: tt0094997
+    year: 1990
+  - title: Voices from Beyond
+    imdb_id: tt0100881
+    year: 1991
+  - title: Door to Silence
+    notes: (as H. Simon Kittay)
+    imdb_id: tt0101760
+    year: 1991

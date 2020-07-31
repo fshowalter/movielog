@@ -9,4 +9,4 @@ venue: 4k UHD Blu-ray
 venue_notes: 2019 Disney / Buena Vista
 ---
 
-With the Infinity Saga done, it’s easier to forgive this entry for what it is, a plot-heavy middle chapter in a larger story that regulates the Ultron character to a McGuffin. This one might have gotten away from Wheadon but his humor is more evident making it a brisk—if disjointed—two hours.
+With the Infinity Saga done, it’s easier to forgive this entry for what it is, a plot-heavy middle chapter in a larger story that regulates the Ultron character to a McGuffin.

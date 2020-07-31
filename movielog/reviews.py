@@ -219,7 +219,7 @@ def export() -> None:
 
     query = """
         SELECT
-          reviews.movie_imdb_id AS imdb_id
+          DISTINCT(reviews.movie_imdb_id) AS imdb_id
         , title
         , year
         , reviews.date
