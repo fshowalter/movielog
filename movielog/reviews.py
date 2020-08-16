@@ -227,15 +227,61 @@ def export() -> None:
         , grade_value
         , slug
         , sort_title
+        , principal_cast_ids
         FROM reviews
         INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
         INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
         """
 
     with db.connect() as connection:
-        rows = connection.execute(query).fetchall()
+        review_rows = connection.execute(query).fetchall()
+
+    reviews = []
+
+    for review_row in review_rows:
+        review = dict(review_row)
+
+        review["directors"] = []
+
+        directors_query = """
+            SELECT
+            full_name
+            FROM people
+            INNER JOIN directing_credits ON person_imdb_id = imdb_id
+            WHERE movie_imdb_id = "{0}";
+            """.format(
+            review["imdb_id"]
+        )
+
+        with db.connect() as connection:
+            director_rows = connection.execute(directors_query).fetchall()
+
+        for director_row in director_rows:
+            review["directors"].append(dict(director_row))
+
+        review["principal_cast"] = []
+
+        principal_cast_ids = review["principal_cast_ids"].split(",")
+
+        for principal_cast_id in principal_cast_ids:
+            principal_cast_query = """
+            SELECT
+            full_name
+            FROM people
+            WHERE imdb_id = "{0}";
+            """.format(
+                principal_cast_id
+            )
+
+            with db.connect() as connection:
+                cast_rows = connection.execute(principal_cast_query).fetchall()
+
+            for cast_row in cast_rows:
+                review["principal_cast"].append(dict(cast_row))
+
+        reviews.append(review)
 
     file_path = os.path.join("export", "reviews.json")
 
     with open(file_path, "w") as output_file:
-        output_file.write(json.dumps([dict(row) for row in rows]))
+        output_file.write(json.dumps([dict(row) for row in reviews]))
