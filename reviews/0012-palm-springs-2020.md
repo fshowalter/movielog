@@ -9,4 +9,4 @@ venue: Hulu
 venue_notes: 2020 1080p
 ---
 
-I wanted this to be weirder, darker, or funnier. It's fine, but time-loop movies aren't as novel as they were in 1993 and the talent involved had the potential to advance the genre. Maybe it'll improve on future viewings?
+I wanted this to be weirder, darker, or funnier. It's fine, but I wanted this to be weirder, darker, or funnier.
