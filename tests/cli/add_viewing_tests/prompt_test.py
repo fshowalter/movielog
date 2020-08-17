@@ -20,6 +20,11 @@ def mock_viewings_add(mocker: MockFixture) -> MockFixture:
 
 
 @pytest.fixture(autouse=True)
+def mock_reviews_add(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.cli.add_viewing.reviews.add")
+
+
+@pytest.fixture(autouse=True)
 def stub_venues(mocker: MockFixture) -> MockFixture:
     venues = [
         "AFI Silver",
@@ -58,11 +63,14 @@ def seed_db(seed_movies: Callable[[List[MovieTuple]], None]) -> None:
     )
 
 
+CLEAR_DEFAULT_DATE = f"{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}"
+
+
 def test_calls_add_viewing(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{Down}{Down}{Enter}y"  # noqa: WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: WPS221
     )
     add_viewing.prompt()
 
@@ -75,11 +83,29 @@ def test_calls_add_viewing(
     )
 
 
+def test_calls_add_review(
+    mock_input: PosixPipeInput, mock_reviews_add: MockFixture
+) -> None:
+    mock_input.send_text(
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: WPS221
+    )
+    add_viewing.prompt()
+
+    mock_reviews_add.assert_called_once_with(
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        venue="Blu-ray",
+        review_date=date(2016, 3, 12),
+        year=1959,
+        grade="A+",
+    )
+
+
 def test_can_confirm_movie(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Fright Night{Enter}{Down}{Enter}nRio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{Down}{Down}{Enter}y"  # noqa:E501 WPS221
+        f"Fright Night{Enter}{Down}{Enter}nRio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa:E501 WPS221
     )
     add_viewing.prompt()
 
@@ -116,7 +142,7 @@ def test_guards_against_bad_dates(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-3-32{Enter}{Backspace}1{Enter}y{Down}{Down}{Enter}y"  # noqa: E501, WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-3-32{Enter}{Backspace}1{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: E501, WPS221
     )
     add_viewing.prompt()
 
@@ -133,7 +159,7 @@ def test_can_confirm_date(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-3-13{Enter}n2016-3-12{Enter}y{Down}{Down}{Enter}y"  # noqa: E501, WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-3-13{Enter}n{CLEAR_DEFAULT_DATE}2016-3-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: E501, WPS221
     )
     add_viewing.prompt()
 
@@ -150,7 +176,7 @@ def test_can_add_new_venue(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}4k UHD Blu-ray{Enter}y"  # noqa: E501, WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}4k UHD Blu-ray{Enter}yA+{Enter}y"  # noqa: E501, WPS221
     )
     add_viewing.prompt()
 
@@ -167,7 +193,7 @@ def test_can_confirm_new_venue(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}2k UHD Blu-ray{Enter}n{End}{Enter}4k UHD Blu-ray{Enter}y"  # noqa: E501, WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}2k UHD Blu-ray{Enter}n{End}{Enter}4k UHD Blu-ray{Enter}yA+{Enter}y"  # noqa: E501, WPS221
     )
     add_viewing.prompt()
 
@@ -184,7 +210,7 @@ def test_does_not_call_add_viewing_if_no_venue(
     mock_input: PosixPipeInput, mock_viewings_add: MockFixture
 ) -> None:
     mock_input.send_text(
-        f"Rio Bravo{Enter}{Down}{Enter}y2016-03-12{Enter}y{End}{Enter}{Escape}{Escape}"  # noqa: E501, WPS221
+        f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}{Escape}{Escape}"  # noqa: E501, WPS221
     )
     add_viewing.prompt()
 

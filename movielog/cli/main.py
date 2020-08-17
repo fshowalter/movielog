@@ -4,7 +4,7 @@ from movielog.cli import (
     confirm,
     manage_watchlist,
     radio_list,
-    update_viewings,
+    reload_viewings,
 )
 from movielog.logger import logger
 
@@ -15,7 +15,7 @@ def prompt() -> None:
         (add_viewing.prompt, "<cyan>Add Viewing</cyan>"),
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (update_imdb_s3_data, "<cyan>Update IMDb data</cyan>"),
-        (update_viewings.prompt, "<cyan>Update Viewings</cyan>"),
+        (reload_viewings.prompt, "<cyan>Reload Viewings Table</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
         (None, "Exit"),
     ]
@@ -27,7 +27,7 @@ def prompt() -> None:
 
 
 def export() -> None:
-    prompt_text = "<cyan>Export movie, viewings, watchlist, and stats data?</cyan>"
+    prompt_text = "<cyan>Export review, viewing, watchlist, and stats data?</cyan>"
     if confirm.prompt(prompt_text):
         exporter.export()
 

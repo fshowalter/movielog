@@ -229,20 +229,3 @@ def title_ids() -> Set[str]:
         cursor = connection.cursor()
         cursor.row_factory = lambda cursor, row: row[0]
         return set(cursor.execute("select imdb_id from movies").fetchall())
-
-
-def export() -> None:
-    logger.log("==== Begin exporting {}...", MOVIES_TABLE_NAME)
-
-    query = """
-        SELECT imdb_id, title, original_title, year, runtime_minutes, principal_cast_ids
-        FROM reviews INNER JOIN movies ON movie_imdb_id = imdb_id;
-        """
-
-    with db.connect() as connection:
-        rows = connection.execute(query).fetchall()
-
-    file_path = os.path.join("export", "movies.json")
-
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps([dict(row) for row in rows]))

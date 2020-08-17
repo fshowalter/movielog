@@ -10,9 +10,6 @@ from movielog import (
 
 
 def export() -> None:
-    movies.export()
-    crew_credits.export()
-    performing_credits.export()
     viewings.export()
     reviews.export()
     watchlist_titles_table.export()

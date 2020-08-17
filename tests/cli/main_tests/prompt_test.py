@@ -17,8 +17,8 @@ def mock_manage_watchlist(mocker: MockFixture) -> MockFixture:
 
 
 @pytest.fixture(autouse=True)
-def mock_update_viewings(mocker: MockFixture) -> MockFixture:
-    return mocker.patch("movielog.cli.main.update_viewings.prompt")
+def mock_reload_viewings(mocker: MockFixture) -> MockFixture:
+    return mocker.patch("movielog.cli.main.reload_viewings.prompt")
 
 
 @pytest.fixture(autouse=True)
@@ -49,13 +49,13 @@ def test_calls_manage_watchlist(
     mock_manage_watchlist.assert_called_once()
 
 
-def test_calls_update_viewings(
-    mock_input: PosixPipeInput, mock_update_viewings: MockFixture
+def test_calls_reload_viewings(
+    mock_input: PosixPipeInput, mock_reload_viewings: MockFixture
 ) -> None:
     mock_input.send_text("".join([Up, Up, Up, Enter, End, Enter]))
     main.prompt()
 
-    mock_update_viewings.assert_called_once()
+    mock_reload_viewings.assert_called_once()
 
 
 def test_calls_imdb_s3_orchestrator_update(
