@@ -9,4 +9,4 @@ venue: Amazon Streaming
 venue_notes: 2020 WB Animation 1080p
 ---
 
-Animated quasi-remake of the original 1995 original lacks Christopher Lambert and--surprisingly--comprable production design. Makes up some ground with over-the-top graphic violence and Joel McHale.
+Animated quasi-remake of the 1995 live-action original. Fails to convey the franchise’s inventive production design and quirky sense-of-humor. Makes up some ground with over-the-top graphic violence and Joel McHale.

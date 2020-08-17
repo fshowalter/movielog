@@ -9,4 +9,4 @@ venue: iTunes
 venue_notes: 2015 20th Century Fox 1080p
 ---
 
-First time seeing the special edition since its theater run in 1997. I don't need to see this version again.
+First time seeing the "Special Edition" since its theatrical run in 1997. I don't need to see this version again.
