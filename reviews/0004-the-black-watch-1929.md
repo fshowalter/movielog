@@ -12,6 +12,8 @@ venue_notes: 20th Century Fox 1080p
 John Ford's first sound picture. Victor McLaglan plays a British Army Captain who decamps for India on a secret mission to infiltrate the forces of Yasmani, a mysterious figure threatening the Crown's interests. Myrna Loy plays Yasmani, carrying over her silent-era typecasting as an exotic vamp.
 
 
-Godawful dialog scenes the studio added without Ford render this almost unwatchable. Loy gets the worst of it, enduring lines full of "thees" and "thous" delivered with her eyes half-closed. Said Ford[^Peter Bogdanovich. *John Ford* (United Kingdom: Studio Vista, 1967), 50.]:
+Godawful dialog scenes the studio added without Ford render this almost unwatchable. Loy gets the worst of it, enduring lines full of "thees" and "thous" delivered with her eyes half-closed. Said Ford[^4-1]:
 
 > That was another picture they changed after I'd gone. Winfield Sheehan was in charge of production then, and he said there weren't enough love scenes in it. He thought Lumsden Hare was a great British actor--he wasn't, but he impressed Sheehan--so he got Hare to direct some love scenes between McLaglen and Myrna Loy. And they were really horrible--long, talky things, had nothing to do with the story--and completely screwed it up. I wanted to vomit when I saw them.
+
+[^4-1]: Peter Bogdanovich. *John Ford* (United Kingdom: Studio Vista, 1967), 50.
