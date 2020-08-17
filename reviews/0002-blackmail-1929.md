@@ -9,4 +9,4 @@ venue: Kanopy
 venue_notes: 2019 Studio Canal 1080p
 ---
 
-Hitchcock's first sound picture. We follow a Scotland Yard constable who covers for his girlfriend after realizing she's implicated in a murder. The two then fall afoul of a blackmailer. Hitchcock shot this as a silent then added the sound scenes later and it shows, but his formal mastery is still amazing. Love the rack focus reflection shot in the opening sequence.
+Hitchcock's first sound picture. A Scotland Yard constable covers for his girlfriend after realizing she's implicated in a murder. The two then fall afoul of a blackmailer. Hitchcock shot this as a silent then added the sound scenes later and it shows, but his formal mastery is still amazing. Love the rack focus reflection shot in the opening (silent) sequence.
