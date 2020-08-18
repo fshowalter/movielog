@@ -9,6 +9,11 @@ venue: OK.ru
 venue_notes: Unknown 480p
 ---
 
-Watched on the same site I found <span data-imdb-id="tt0019758">Charming Sinners</span>. This was a better quality print but a lesser quality film. There's a lot to like: William Powell is charming as ever, Helen Kane provides the inspiration for Betty Boop and even sings her signature number, the camera is mobile in a few scenes [^ Rare in early talkies because the camera itself had to be encased in a soundproof booth that usually anchored it to the spot.], Fay Wray plays a great drunk, and the script shows more than it tells.
+Watched on the same site I found <span data-imdb-id="tt0019758">Charming Sinners</span>. A better quality print of a lesser quality film.
 
-But the result never gells. Despite his top-billing, Powell's a supporting player, off-screen for much of the first two acts. Wray tries to carry the film herself but gets no help from her chief co-star, Phillips Holmes. There's a great meta-scene halfway in where Powell--who plays a Broadway producer here--and frequent co-star Skeets Gallagher are watching the show-within-the-show and grimacing at its awfulness. One suspects that scene was easy to play.
+Powell plays a Broadway producer carrying a torch for chorus girl Fay Wray, but she loves struggling composer Phillips Holmes. Wray and Holmes marry, cutting Holmes off from the family funds and regulating them to a shabby apartment abutting perpetual construction. Powell finances a vanity project for the newlyweds, but it doesn't go well. Wray leaves Holmes. Powell makes a pass at her, realizes she still loves Holmes, and gets them back together.
+
+
+What went wrong? Powell proves charming as ever, Helen Kane, the inspiration for Betty Boop, plays Wray's mom and sings Boop's signature number, Wray plays a great drunk, and the script shows more than it tells. But the result never gels.
+
+Despite his top-billing, Powell's a supporting player, off-screen for much of the first two acts. Wray tries to carry the film herself but gets no help from Holmes, who never shows us what Wray's supposed to see in him. Thus, no emotional stakes. There's a great meta-scene halfway through where Powell and frequent co-star Skeets Gallagher are watching the show-within-a-show and grimacing at its awfulness. Indeed.
