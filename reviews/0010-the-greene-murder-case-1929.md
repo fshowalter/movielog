@@ -10,7 +10,8 @@ venue_notes: Unknown 360p
 ---
 
 Disappointing follow-up to <span data-imdb-id="tt0019745">The Canary Murder Case</span> concerns a wealthy family where the last surviving heir stands to inherit a fortune. William Powell, reprising his role as amateur sleuth Philo Vance, investigates when an unknown assailant murders one of the family members.
+<!-- end -->
 
-Unlike the prior film, which focused on a single murder, this entry piles up bodies at an absurd rate, culminating in a finale that made me laugh out loud. Also not helping: the costumer’s decision to dress Powell in a kimono, a paisley smoking jacket, an oversized white topcoat, and a pair of thick-rimmed Coke bottle glasses [^10-1]. Thankfully, not all at once.
+Unlike the prior film, which focused on a single murder, this entry piles up bodies at an absurd rate, culminating in a finale that made me laugh out loud. Also not helping: the costumer’s decision to dress Powell in a kimono, a paisley smoking jacket, an oversized white topcoat, and a pair of thick-rimmed Coke bottle glasses [^1]. Thankfully, not all at once.
 
-[^10-1]: Yes, it’s more in keeping with the source novel’s portrayal of Vance as a dandy, but Powell deserved better.
+[^1]: Yes, it’s more in keeping with the source novel’s portrayal of Vance as a dandy, but Powell deserved better.
