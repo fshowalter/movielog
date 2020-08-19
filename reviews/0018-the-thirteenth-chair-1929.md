@@ -9,4 +9,4 @@ venue: DVD
 venue_notes: 2018 Warner Archive
 ---
 
-Middling myster features a strong performance by Lugosi.
+Bela Lugosi's first talkie. He plays a police inspector investigating a mysterious murder at a British estate in colonial India. I always assumed a) Lugosi and director Tod Browning first worked together on <span data-imdb-id="tt0021814">Dracula</span> and b) that Dracula was Lugosi's first significant talkie. Wrong on both counts. Back to this movie. It's an atmospheric mystery undone by a talky, convoluted ending that reveals a slew of information the audience couldn't have intuited. Disappointing, but Lugosi's performance remains strong. The Warner Archive DVD print is watchable.

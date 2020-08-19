@@ -10,9 +10,9 @@ venue_notes: Unknown 480p
 ---
 
 Watched on the same site I found <span data-imdb-id="tt0019758">Charming Sinners</span>. A better quality print of a lesser quality film.
-<!-- end -->
 
 Powell plays a Broadway producer carrying a torch for chorus girl Fay Wray, but she loves struggling composer Phillips Holmes. Wray and Holmes marry, cutting Holmes off from the family funds and regulating them to a shabby apartment abutting perpetual construction. Powell finances a vanity project for the newlyweds, but it doesn't go well. Wray leaves Holmes. Powell makes a pass at her, realizes she still loves Holmes, and gets them back together.
+<!-- end -->
 
 
 What went wrong? Powell proves charming as ever, Helen Kane, the inspiration for Betty Boop, plays Wray's mom and sings Boop's signature number, Wray plays a great drunk, and the script shows more than it tells. But the result never gels.

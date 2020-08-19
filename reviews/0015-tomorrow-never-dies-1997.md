@@ -19,5 +19,5 @@ Reminds me of a great bit from Austin Powers:
 >\
 **Dr. Evil**: Outstanding.
 
-Except that's in _this_ movie. Both hit theaters in 1997, so that's… something? I dunno. Makes a compelling case for Worst Bond Movie. Everything looks cheap: the sets, the car, the effects, even the clothes. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">The World Is Not Enough</span>.
+Except that's in _this_ movie. Both hit theaters in 1997, so that's… something? I dunno. Everything looks cheap: the sets, the car, the effects, even the clothes. Makes a compelling case for Worst Bond Movie. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">The World Is Not Enough</span>.
 
