@@ -16,6 +16,7 @@ IMDB_ID = "imdb_id"
 TITLE = "title"
 
 Whitelist = {
+    "tt0019035",  # Interference (1928) (no runtime)
     "tt0116671",  # Jack Frost (1997) [V]
     "tt0148615",  # Play Motel (1979) [X]
     "tt1801096",  # Sexy Evil Genius (2013) [V]
@@ -44,12 +45,13 @@ class Movie(object):
 
     @classmethod
     def from_imdb_s3_fields(cls, fields: List[Optional[str]]) -> "Movie":
+
         return Movie(
             imdb_id=str(fields[0]),
             title=str(fields[2]),
             original_title=str(fields[3]),
             year=str(fields[5]),
-            runtime_minutes=int(str(fields[7])),
+            runtime_minutes=int(str(fields[7])) if fields[7] else None,
             principal_cast=[],
         )
 

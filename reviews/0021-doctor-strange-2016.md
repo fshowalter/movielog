@@ -25,6 +25,4 @@ The special effects also fail to connect. We see cities twisting and folding upo
 
 This sounds like I hated the film. I did not. Though I would have preferred his native British accent, I enjoyed Cumberbatch’s performance. The real star, however, is Tilda Swinton. She takes a throw-away archtypical role and delivers the film’s most memorable character. And full disclosure: as someone who grew up reading the comics, I loved seeing the sentient Cloak of Levitation, even if it was little more than comic relief.
 
-Indeed, after the obligatory post-credit sequence, I left the theater impressed with _Doctor Strange_. But in retrospect, I could remember scenes, but not impressions.
-
 There’s a reoccurring effect where characters enter the Astral Plane. Their ethereal bodies float in the air and pass through solid objects. If they try hard enough, they can bump walls or knock things over. It’s an apt-enough metaphor for the film. It looks good, but it’s hollow inside and struggles to connect. When you try to grab it, you discover there’s nothing there.
