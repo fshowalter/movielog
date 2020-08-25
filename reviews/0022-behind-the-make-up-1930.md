@@ -15,7 +15,7 @@ Hal Skelly plays Hap, a well-named vaudeville bicycle-clown eking out a meager l
 
 Gardoni convinces Hap to team-up, abandon his hokum act, and put on a high-brow show. The show bombs. With the pair broke, Gardoni vanishes and Hap gets a job at the local diner where he develops a crush on a waitress named Marie played by Fay Wray.
 
-Time passes and Gardoni returns, having abandoned his high-brow intentions to great financial success. Gardoni takes a liking to Marie and convinces Hap to re-team, this time giving the people the hokum they demand. The new act proves a hit and Marie marries Gardoni.
+Time passes. Having abandoned his high-brow intentions to great financial success, Gardoni returns. He takes a liking to Marie and convinces Hap to re-team, this time giving the people the hokum they demand. The new act proves a hit and Marie marries Gardoni.
 
 More time passes and the pair are playing the big theaters of New York City. Gardoni has fallen for a gold-digging man-eater named Kitty, played by Kay Francis. Hap resents Gardoni’s behavior but covers for him to protect Marie’s feelings. The story wraps on a convenient but somber note that stuck with me because of Powell's performance.
 
