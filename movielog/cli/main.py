@@ -5,6 +5,7 @@ from movielog.cli import (
     manage_watchlist,
     radio_list,
     reload_viewings,
+    reload_reviews,
 )
 from movielog.logger import logger
 
@@ -16,6 +17,7 @@ def prompt() -> None:
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (update_imdb_s3_data, "<cyan>Update IMDb data</cyan>"),
         (reload_viewings.prompt, "<cyan>Reload Viewings Table</cyan>"),
+        (reload_reviews.prompt, "<cyan>Reload Reviews Table</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
         (None, "Exit"),
     ]
