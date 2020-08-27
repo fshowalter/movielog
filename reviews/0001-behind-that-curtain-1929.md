@@ -9,4 +9,4 @@ venue: YouTube
 venue_notes: Unknown 720p
 ---
 
-Boris Karloff's first talkie. His contribution comes via a bit part as lead Warner Baxter's vaguely Arabian manservant. Though billed as a mystery, the film plays as a melodrama. Baxter and Lois Moran play would-be lovers kept apart by Moran's murderous, philandering husband and the script's insistence that Moran behave like an impetuous child.
+Boris Karloff's first talkie. His contribution comes via a bit part as lead Warner Baxter's vaguely Arabian manservant. Though billed as a mystery, the film plays as a melodrama. <span data-snippet>Baxter and Lois Moran play would-be lovers kept apart by Moran's murderous, philandering husband and the script's insistence that Moran behave like an impetuous child.</span>

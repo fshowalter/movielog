@@ -15,6 +15,6 @@ Ruth Chatterton plays a kept wife whose husband is conducting a not-so-discreet 
 
 <!-- end -->
 
-Watching Powell, it's fascinating to see him grow as an actor. In just his talkie, he's already recognizing the importance of reacting during his dialog exchanges.
+Watching Powell, it's fascinating to see him grow as an actor. <span data-snippet>In just his third talkie, Powell's already recognizing the importance of reacting during his dialog exchanges.</span>
 
 But this is Chatterton's movie. Bonus points to the script for affording her real agency and even more bonus points to Chatterton herself for out-charming Powell and overcoming the disappointing ending.

@@ -13,6 +13,6 @@ Disappointing follow-up to <span data-imdb-id="tt0019745">The Canary Murder Case
 
 <!-- end -->
 
-Unlike the prior film, which focused on a single murder, this entry piles up bodies at an absurd rate, culminating in a finale that made me laugh out loud. Also not helping: the costumer’s decision to dress Powell in a kimono, a paisley smoking jacket, an oversized white topcoat, and a pair of thick-rimmed Coke bottle glasses [^1]. Thankfully, not all at once.
+<span data-snippet>Unlike the prior film, which focused on a single murder, this entry piles up bodies at an absurd rate, culminating in a finale that made me laugh out loud.</span> Also not helping: the costumer’s decision to dress Powell in a kimono, a paisley smoking jacket, an oversized white topcoat, and a pair of thick-rimmed Coke bottle glasses [^1]. Thankfully, not all at once.
 
 [^1]: Yes, it’s more in keeping with the source novel’s portrayal of Vance as a dandy, but Powell deserved better.
