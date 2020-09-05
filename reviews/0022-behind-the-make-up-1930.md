@@ -6,7 +6,7 @@ title: Behind the Make-Up (1930)
 grade: C+
 slug: behind-the-make-up-1930
 venue: archive.org
-venue_notes: Unknown 480p.
+venue_notes: Unknown 480p
 ---
 
 Hal Skelly plays Hap, a well-named vaudeville bicycle-clown eking out a meager living. He takes in another vaudeville performer named Gardoni (just Gardoni--like Bono or Madonna), played with an Italian accent by William Powell.
