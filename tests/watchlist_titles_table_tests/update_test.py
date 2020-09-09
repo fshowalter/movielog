@@ -1,7 +1,7 @@
 from typing import Any
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import watchlist_titles_table
 from movielog.watchlist_collection import Collection
@@ -10,38 +10,38 @@ from movielog.watchlist_person import Director, Performer, Person, Writer
 
 
 @pytest.fixture(autouse=True)
-def person_refresh_all_item_titles_mock(mocker: MockFixture) -> Any:
+def person_refresh_all_item_titles_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(Person, "refresh_all_item_titles")
 
 
 @pytest.fixture(autouse=True)
-def director_all_items_mock(mocker: MockFixture) -> Any:
+def director_all_items_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(Director, "all_items")
 
 
 @pytest.fixture(autouse=True)
-def performer_all_items_mock(mocker: MockFixture) -> Any:
+def performer_all_items_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(Performer, "all_items")
 
 
 @pytest.fixture(autouse=True)
-def writer_all_items_mock(mocker: MockFixture) -> Any:
+def writer_all_items_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(Writer, "all_items")
 
 
 @pytest.fixture(autouse=True)
-def collection_all_items_mock(mocker: MockFixture) -> Any:
+def collection_all_items_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(Collection, "all_items")
 
 
 def test_inserts_collection_items(
-    sql_query: MockFixture,
-    mocker: MockFixture,
-    person_refresh_all_item_titles_mock: MockFixture,
-    director_all_items_mock: MockFixture,
-    performer_all_items_mock: MockFixture,
-    writer_all_items_mock: MockFixture,
-    collection_all_items_mock: MockFixture,
+    sql_query: MockerFixture,
+    mocker: MockerFixture,
+    person_refresh_all_item_titles_mock: MockerFixture,
+    director_all_items_mock: MockerFixture,
+    performer_all_items_mock: MockerFixture,
+    writer_all_items_mock: MockerFixture,
+    collection_all_items_mock: MockerFixture,
 ) -> None:
     collection_all_items_mock.return_value = [
         Collection(
@@ -110,7 +110,7 @@ def test_inserts_collection_items(
 
 
 def test_calls_refresh_all_item_titles_for_each_person_type(
-    person_refresh_all_item_titles_mock: MockFixture,
+    person_refresh_all_item_titles_mock: MockerFixture,
 ) -> None:
     watchlist_titles_table.update()
 

@@ -2,13 +2,13 @@ import os
 from typing import Any
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import people
 
 
 @pytest.fixture(autouse=True)
-def imdb_s3_download_mock(mocker: MockFixture, gzip_file: MockFixture) -> Any:
+def imdb_s3_download_mock(mocker: MockerFixture, gzip_file: MockerFixture) -> Any:
     file_path = gzip_file(
         os.path.join(os.path.dirname(__file__), "people_test_data.tsv")
     )
@@ -18,7 +18,7 @@ def imdb_s3_download_mock(mocker: MockFixture, gzip_file: MockFixture) -> Any:
     )
 
 
-def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
+def test_inserts_people_from_downloaded_s3_file(sql_query: MockerFixture) -> None:
     expected = [
         (
             "nm0000007",

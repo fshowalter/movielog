@@ -2,13 +2,13 @@ import os
 from typing import Any, Set
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import crew_credits
 
 
 @pytest.fixture(autouse=True)
-def imdb_s3_download_mock(mocker: MockFixture, gzip_file: MockFixture) -> Any:
+def imdb_s3_download_mock(mocker: MockerFixture, gzip_file: MockerFixture) -> Any:
     file_path = gzip_file(
         os.path.join(os.path.dirname(__file__), "crew_credits_test_data.tsv")
     )
@@ -19,17 +19,17 @@ def imdb_s3_download_mock(mocker: MockFixture, gzip_file: MockFixture) -> Any:
 
 
 @pytest.fixture(autouse=True)
-def movie_ids_mock(mocker: MockFixture) -> Any:
+def movie_ids_mock(mocker: MockerFixture) -> Any:
     valid_ids: Set[str] = set(["tt0000001", "tt0053221", "tt0089175"])
     mocker.patch("movielog.crew_credits.movies.title_ids", return_value=valid_ids)
 
 
 @pytest.fixture(autouse=True)
-def remove_movies_not_in_mock(mocker: MockFixture) -> MockFixture:
+def remove_movies_not_in_mock(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.crew_credits.movies.remove_movies_not_in")
 
 
-def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
+def test_inserts_people_from_downloaded_s3_file(sql_query: MockerFixture) -> None:
     expected_directors = [
         ("tt0053221", "nm0001328", 0, None),
         ("tt0089175", "nm0276169", 0, None),
@@ -50,7 +50,7 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MockFixture) -> None:
 
 
 def test_calls_remove_movies_with_no_directors(
-    remove_movies_not_in_mock: MockFixture,
+    remove_movies_not_in_mock: MockerFixture,
 ) -> None:
     crew_credits.update()
 

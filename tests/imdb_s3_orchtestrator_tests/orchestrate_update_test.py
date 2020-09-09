@@ -1,9 +1,9 @@
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_s3_orchestrator
 
 
-def test_calls_updates_in_correct_sequence(mocker: MockFixture) -> None:
+def test_calls_updates_in_correct_sequence(mocker: MockerFixture) -> None:
     manager = mocker.Mock()
     manager.attach_mock(
         mocker.patch("movielog.imdb_s3_orchestrator.movies.update"), "update_movies"

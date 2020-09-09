@@ -1,5 +1,5 @@
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.cli import new_collection
 from tests.cli.keys import Enter, Escape
@@ -7,12 +7,12 @@ from tests.cli.typehints import PosixPipeInput
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_add_collection(mocker: MockFixture) -> MockFixture:
+def mock_watchlist_add_collection(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.cli.new_collection.watchlist.add_collection")
 
 
 def test_calls_add_collection(
-    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockerFixture
 ) -> None:
     mock_input.send_text(f"Halloween{Enter}y")  # noqa: WPS221
     new_collection.prompt()
@@ -21,7 +21,7 @@ def test_calls_add_collection(
 
 
 def test_does_not_call_add_viewing_if_no_movie(
-    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockerFixture
 ) -> None:
     mock_input.send_text(f"{Escape}")  # noqa: WPS221
     new_collection.prompt()
@@ -30,7 +30,7 @@ def test_does_not_call_add_viewing_if_no_movie(
 
 
 def test_can_confirm_collection_name(
-    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_collection: MockerFixture
 ) -> None:
     mock_input.send_text(f"Halloween{Enter}n")  # noqa: WPS221
     new_collection.prompt()

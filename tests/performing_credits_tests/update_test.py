@@ -3,13 +3,13 @@ import shutil
 from typing import Any
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_http, performing_credits
 
 
 @pytest.fixture(autouse=True)
-def mock_folder_path(mocker: MockFixture, tmp_path: str) -> Any:
+def mock_folder_path(mocker: MockerFixture, tmp_path: str) -> Any:
     folder_path = performing_credits.FOLDER_PATH
     mocker.patch.object(
         performing_credits, "FOLDER_PATH", os.path.join(tmp_path, folder_path)
@@ -17,7 +17,7 @@ def mock_folder_path(mocker: MockFixture, tmp_path: str) -> Any:
 
 
 @pytest.fixture(autouse=True)
-def cast_credits_for_title_mock(mocker: MockFixture) -> Any:
+def cast_credits_for_title_mock(mocker: MockerFixture) -> Any:
     return mocker.patch(
         "movielog.performing_credits.imdb_http.cast_credits_for_title",
         return_value=(
@@ -55,7 +55,7 @@ def cast_credits_for_title_mock(mocker: MockFixture) -> Any:
 
 
 def test_creates_new_performing_credits_for_ones_that_do_not_exist(
-    tmp_path: str, sql_query: MockFixture, cast_credits_for_title_mock: MockFixture,
+    tmp_path: str, sql_query: MockerFixture, cast_credits_for_title_mock: MockerFixture,
 ) -> None:
     expected_rows = [
         ("tt0092106", "nm0191520", 0, "Optimus Prime / Ironhide", "(voice)"),
@@ -84,7 +84,7 @@ def test_creates_new_performing_credits_for_ones_that_do_not_exist(
 
 
 def test_does_not_call_imdb_for_performing_credits_that_exist(
-    tmp_path: str, sql_query: MockFixture, cast_credits_for_title_mock: MockFixture,
+    tmp_path: str, sql_query: MockerFixture, cast_credits_for_title_mock: MockerFixture,
 ) -> None:
     expected_rows = [
         ("tt0092106", "nm0191520", 0, "Optimus Prime / Ironhide", "(voice)"),

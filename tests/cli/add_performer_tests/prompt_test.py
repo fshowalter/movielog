@@ -1,7 +1,7 @@
 from typing import Callable, List
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.cli import add_performer
 from tests.cli.keys import Down, Enter, Escape
@@ -9,7 +9,7 @@ from tests.cli.typehints import CreditTuple, PosixPipeInput
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_add_performer(mocker: MockFixture) -> MockFixture:
+def mock_watchlist_add_performer(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.cli.add_performer.watchlist.add_performer")
 
 
@@ -29,7 +29,7 @@ def seed_db(seed_performers: Callable[[List[CreditTuple]], None]) -> None:
 
 
 def test_calls_add_performer(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
 ) -> None:
     mock_input.send_text(f"John Wayne{Enter}{Down}{Enter}y{Enter}")  # noqa: WPS221
     add_performer.prompt()
@@ -40,7 +40,7 @@ def test_calls_add_performer(
 
 
 def test_can_confirm_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Chris Sarandon{Enter}{Down}{Enter}nJohn Wayne{Enter}{Down}{Enter}y{Enter}"  # noqa: WPS221
@@ -53,7 +53,7 @@ def test_can_confirm_selection(
 
 
 def test_does_not_call_add_performer_if_no_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
 ) -> None:
     mock_input.send_text(f"{Escape}{Enter}")  # noqa: WPS221
     add_performer.prompt()

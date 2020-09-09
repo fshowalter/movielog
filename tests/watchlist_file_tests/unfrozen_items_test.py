@@ -1,13 +1,13 @@
 import os
 from typing import Callable
 
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.watchlist_file import WatchlistFile
 
 
 def test_returns_instance_for_each_file_where_frozen_is_false(  # noqa: WPS210
-    mocker: MockFixture,
+    mocker: MockerFixture,
     tmp_path: str,
     build_watchlist_file: Callable[..., WatchlistFile],
 ) -> None:

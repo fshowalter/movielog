@@ -2,13 +2,13 @@ from typing import Any
 
 import imdb
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_http
 
 
 @pytest.fixture(autouse=True)
-def imdb_scraper_mock(mocker: MockFixture) -> Any:
+def imdb_scraper_mock(mocker: MockerFixture) -> Any:
     actor_movie = imdb.Movie.Movie(
         movieID="0092106",
         title="The Transformers: The Movie (1986)",
@@ -38,7 +38,7 @@ def imdb_scraper_mock(mocker: MockFixture) -> Any:
 
 
 def test_gets_performer_credits_for_person_from_imdb(
-    imdb_scraper_mock: MockFixture,
+    imdb_scraper_mock: MockerFixture,
 ) -> None:
     expected = [
         imdb_http.CreditForPerson(
@@ -59,7 +59,7 @@ def test_gets_performer_credits_for_person_from_imdb(
 
 
 def test_gets_director_credits_for_person_from_imdb(
-    imdb_scraper_mock: MockFixture,
+    imdb_scraper_mock: MockerFixture,
 ) -> None:
     expected = [
         imdb_http.CreditForPerson(
@@ -80,7 +80,7 @@ def test_gets_director_credits_for_person_from_imdb(
 
 
 def test_gets_writer_credits_for_person_from_imdb(
-    imdb_scraper_mock: MockFixture,
+    imdb_scraper_mock: MockerFixture,
 ) -> None:
     expected = [
         imdb_http.CreditForPerson(

@@ -2,7 +2,7 @@ from typing import Sequence, Tuple
 
 import pytest
 from prompt_toolkit.formatted_text import AnyFormattedText
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.cli import radio_list
 from tests.cli.keys import Down, End, Enter, Home, Up
@@ -12,7 +12,7 @@ Options = Sequence[Tuple[int, AnyFormattedText]]
 
 
 @pytest.fixture
-def options(mocker: MockFixture) -> Options:
+def options(mocker: MockerFixture) -> Options:
     return [
         (1, "option 1"),
         (2, "option 2"),

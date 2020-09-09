@@ -2,13 +2,13 @@ from typing import Any
 
 import imdb
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_http
 
 
 @pytest.fixture(autouse=True)
-def imdb_scraper_mock(mocker: MockFixture) -> Any:
+def imdb_scraper_mock(mocker: MockerFixture) -> Any:
     return mocker.patch.object(
         imdb_http.imdb_scraper,
         "get_movie",
@@ -36,7 +36,9 @@ def imdb_scraper_mock(mocker: MockFixture) -> Any:
     )
 
 
-def test_gets_cast_credits_for_title_from_imdb(imdb_scraper_mock: MockFixture,) -> None:
+def test_gets_cast_credits_for_title_from_imdb(
+    imdb_scraper_mock: MockerFixture,
+) -> None:
     expected_title_basic = imdb_http.TitleBasic(
         imdb_id="tt0092106", title="The Transformers: The Movie", year=1986,
     )

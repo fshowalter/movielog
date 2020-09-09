@@ -2,12 +2,12 @@ import os
 from datetime import date
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import viewings, yaml_file
 
 
-def test_creates_new_viewing(tmp_path: str, mocker: MockFixture) -> None:
+def test_creates_new_viewing(tmp_path: str, mocker: MockerFixture) -> None:
     mocker.patch("movielog.viewings.TABLE_NAME", tmp_path)
 
     expected = "sequence: 1\ndate: 2016-03-26\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\nvenue: Alamo Drafthouse\n"  # noqa: 501
@@ -29,7 +29,7 @@ def test_creates_new_viewing(tmp_path: str, mocker: MockFixture) -> None:
 
 
 def test_raises_error_if_sequence_out_of_sync(
-    tmp_path: str, mocker: MockFixture
+    tmp_path: str, mocker: MockerFixture
 ) -> None:
     mocker.patch("movielog.viewings.TABLE_NAME", tmp_path)
 

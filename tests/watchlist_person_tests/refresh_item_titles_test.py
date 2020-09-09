@@ -1,7 +1,7 @@
 from typing import List, Type, Union
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_http
 from movielog.watchlist_file import Title
@@ -37,8 +37,8 @@ def credits_for_person() -> List[imdb_http.CreditForPerson]:
 
 @pytest.fixture(autouse=True)
 def credits_for_person_mock(
-    mocker: MockFixture, credits_for_person: List[imdb_http.CreditForPerson]
-) -> MockFixture:
+    mocker: MockerFixture, credits_for_person: List[imdb_http.CreditForPerson]
+) -> MockerFixture:
     return mocker.patch(
         "movielog.imdb_http.credits_for_person", return_value=credits_for_person
     )
@@ -48,10 +48,10 @@ def credits_for_person_mock(
     "class_type", [Director, Performer, Writer],
 )
 def test_refreshes_titles_from_imdb(
-    mocker: MockFixture,
+    mocker: MockerFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
-    credits_for_person_mock: MockFixture,
+    credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
         Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
@@ -92,10 +92,10 @@ def test_refreshes_titles_from_imdb(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_invalid_titles(
-    mocker: MockFixture,
+    mocker: MockerFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
-    credits_for_person_mock: MockFixture,
+    credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
         Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
@@ -130,10 +130,10 @@ def test_skips_invalid_titles(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_silent_movies(
-    mocker: MockFixture,
+    mocker: MockerFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
-    credits_for_person_mock: MockFixture,
+    credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
         Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
@@ -168,10 +168,10 @@ def test_skips_silent_movies(
     "class_type", [Director, Performer, Writer],
 )
 def test_skips_in_production_titles(
-    mocker: MockFixture,
+    mocker: MockerFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
-    credits_for_person_mock: MockFixture,
+    credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
         Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),

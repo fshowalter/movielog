@@ -2,13 +2,13 @@ import os
 from typing import Any
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_s3_extractor
 
 
 @pytest.fixture(autouse=True)
-def test_file(gzip_file: MockFixture) -> Any:
+def test_file(gzip_file: MockerFixture) -> Any:
     return gzip_file(os.path.join(os.path.dirname(__file__), "extract_test_data.tsv"))
 
 

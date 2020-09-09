@@ -1,6 +1,6 @@
 import os
 
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_s3_extractor
 
@@ -16,7 +16,7 @@ def test_touches_success_file_when_complete(tmp_path: str) -> None:
 
 
 def test_does_not_yield_if_success_file_found(
-    tmp_path: str, mocker: MockFixture
+    tmp_path: str, mocker: MockerFixture
 ) -> None:
     file_path = os.path.join(tmp_path, "imdbs3_extractor_test.tsv")
     open(f"{file_path}._success", "a").close()  # noqa: WPS515

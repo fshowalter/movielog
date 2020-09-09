@@ -1,7 +1,7 @@
 from typing import Callable, List
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.cli import add_director
 from tests.cli.keys import Down, Enter, Escape
@@ -9,7 +9,7 @@ from tests.cli.typehints import CreditTuple, PosixPipeInput
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_add_director(mocker: MockFixture) -> MockFixture:
+def mock_watchlist_add_director(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.cli.add_director.watchlist.add_director")
 
 
@@ -32,7 +32,7 @@ def seed_db(seed_directors: Callable[[List[CreditTuple]], None]) -> None:
 
 
 def test_calls_add_director(
-    mock_input: PosixPipeInput, mock_watchlist_add_director: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_director: MockerFixture
 ) -> None:
     mock_input.send_text(f"Howard Hawks{Enter}{Down}{Enter}y{Enter}")  # noqa: WPS221
     add_director.prompt()
@@ -43,7 +43,7 @@ def test_calls_add_director(
 
 
 def test_does_not_call_add_director_if_no_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_director: MockFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_director: MockerFixture
 ) -> None:
     mock_input.send_text(f"{Escape}{Enter}")  # noqa: WPS221
     add_director.prompt()

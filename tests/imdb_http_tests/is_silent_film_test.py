@@ -2,7 +2,7 @@ from typing import Any, List
 
 import imdb
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_http
 
@@ -15,7 +15,7 @@ def title_basic() -> imdb_http.TitleBasic:
 
 
 @pytest.fixture(autouse=True)
-def imdb_scraper_mock(mocker: MockFixture) -> Any:
+def imdb_scraper_mock(mocker: MockerFixture) -> Any:
     mocker.patch.object(
         imdb_http.imdb_scraper, "get_movie", return_value=imdb.Movie.Movie()
     )
@@ -29,7 +29,7 @@ def reset_cache() -> Any:
 
 
 def test_returns_none_if_no_sound_mix(
-    imdb_scraper_mock: MockFixture, title_basic: MockFixture
+    imdb_scraper_mock: MockerFixture, title_basic: MockerFixture
 ) -> None:
     def update_side_effect_no_technical(
         imdb_movie: imdb.Movie.Movie, info: List[str]  # noqa: WPS110
@@ -44,7 +44,7 @@ def test_returns_none_if_no_sound_mix(
 
 
 def test_returns_true_if_sound_mix_and_silent(
-    imdb_scraper_mock: MockFixture, title_basic: MockFixture
+    imdb_scraper_mock: MockerFixture, title_basic: MockerFixture
 ) -> None:
     def update_side_effect_technical_with_silent(
         imdb_movie: imdb.Movie.Movie, info: List[str]  # noqa: WPS110
@@ -59,7 +59,7 @@ def test_returns_true_if_sound_mix_and_silent(
 
 
 def test_returns_false_if_sound_mix_and_not_silent(
-    imdb_scraper_mock: MockFixture, title_basic: MockFixture
+    imdb_scraper_mock: MockerFixture, title_basic: MockerFixture
 ) -> None:
     def update_side_effect_technical_without_silent(
         imdb_movie: imdb.Movie.Movie, info: List[str]  # noqa: WPS110
@@ -74,7 +74,7 @@ def test_returns_false_if_sound_mix_and_not_silent(
 
 
 def test_returns_true_if_in_silent_ids_cache(
-    imdb_scraper_mock: MockFixture, title_basic: MockFixture
+    imdb_scraper_mock: MockerFixture, title_basic: MockerFixture
 ) -> None:
     imdb_http.silent_ids = set(["tt0092106"])
 
@@ -82,7 +82,7 @@ def test_returns_true_if_in_silent_ids_cache(
 
 
 def test_returns_none_if_not_in_silent_ids_in_no_sound_mix_ids_cache(
-    imdb_scraper_mock: MockFixture, title_basic: MockFixture
+    imdb_scraper_mock: MockerFixture, title_basic: MockerFixture
 ) -> None:
     imdb_http.no_sound_mix_ids = set(["tt0092106"])
 

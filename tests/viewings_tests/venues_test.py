@@ -1,11 +1,11 @@
 import os
 
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import viewings
 
 
-def test_returns_venues_sorted(tmp_path: str, mocker: MockFixture) -> None:
+def test_returns_venues_sorted(tmp_path: str, mocker: MockerFixture) -> None:
     mocker.patch("movielog.viewings.TABLE_NAME", tmp_path)
 
     expected = ["Alamo Drafthouse", "Blu-ray", "DVD"]

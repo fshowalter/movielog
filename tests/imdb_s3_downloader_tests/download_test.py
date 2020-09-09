@@ -1,7 +1,7 @@
 import os
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import imdb_s3_downloader
 
@@ -10,8 +10,8 @@ original_download_dir = imdb_s3_downloader.DOWNLOAD_DIR
 
 @pytest.fixture(autouse=True)
 def mock_imdb_s3_downloader_download_path(
-    mocker: MockFixture, tmp_path: str
-) -> MockFixture:
+    mocker: MockerFixture, tmp_path: str
+) -> MockerFixture:
     return mocker.patch(
         "movielog.imdb_s3_downloader.DOWNLOAD_DIR",
         os.path.join(tmp_path, original_download_dir),
@@ -19,12 +19,12 @@ def mock_imdb_s3_downloader_download_path(
 
 
 @pytest.fixture(autouse=True)
-def subprocess_mock(mocker: MockFixture) -> MockFixture:
+def subprocess_mock(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.imdb_s3_downloader.subprocess.check_output")
 
 
 @pytest.fixture(autouse=True)
-def request_mock(mocker: MockFixture) -> MockFixture:
+def request_mock(mocker: MockerFixture) -> MockerFixture:
     url_open_mock = mocker.patch("movielog.imdb_s3_downloader.request.urlopen")
 
     url_open_mock.return_value.__enter__.return_value.info.return_value = {  # noqa: E501, WPS110, WPS219, WPS609
@@ -35,7 +35,7 @@ def request_mock(mocker: MockFixture) -> MockFixture:
 
 
 def test_creates_download_folder_based_on_request_date(
-    request_mock: MockFixture, tmp_path: str,
+    request_mock: MockerFixture, tmp_path: str,
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     expected = os.path.join(folder_path, "test.tsv.gz")
@@ -52,7 +52,7 @@ def test_does_not_fail_if_already_exists(tmp_path: str) -> None:
 
 
 def test_skips_download_if_file_already_exists(
-    subprocess_mock: MockFixture, tmp_path: str
+    subprocess_mock: MockerFixture, tmp_path: str
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     os.makedirs(folder_path)
@@ -64,7 +64,7 @@ def test_skips_download_if_file_already_exists(
 
 
 def test_calls_curl_with_the_correct_args(
-    subprocess_mock: MockFixture, tmp_path: str
+    subprocess_mock: MockerFixture, tmp_path: str
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     expected_out = os.path.join(folder_path, "test.tsv.gz")

@@ -1,7 +1,7 @@
 import os
 from typing import Any, Dict, Sequence
 
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 import movielog.logger  # noqa: WPS301
 from movielog import yaml_file
@@ -52,7 +52,7 @@ class ConcreteWithSequence(yaml_file.WithSequence):
         }
 
 
-def test_logs_save(tmp_path: str, mocker: MockFixture) -> None:
+def test_logs_save(tmp_path: str, mocker: MockerFixture) -> None:
     file_path = os.path.join(tmp_path, "test_writes_yaml.yaml")
     mocker.patch("movielog.logger.logger.log")
 
@@ -64,7 +64,7 @@ def test_logs_save(tmp_path: str, mocker: MockFixture) -> None:
     movielog.logger.logger.log.assert_called_once_with("Wrote {}", file_path)  # type: ignore
 
 
-def test_custom_log_function(tmp_path: str, mocker: MockFixture) -> None:
+def test_custom_log_function(tmp_path: str, mocker: MockerFixture) -> None:
     file_path = os.path.join(tmp_path, "test_writes_yaml.yaml")
 
     custom_log_function = mocker.stub(name="custom_log_function")
@@ -109,7 +109,7 @@ def test_writes_yaml(tmp_path: str) -> None:
     assert yaml_content == expected
 
 
-def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockFixture) -> None:
+def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockerFixture) -> None:
     expected = "imdb_id: tt0053221\ntitle: Rio Bravo\n"
 
     mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)
@@ -131,7 +131,7 @@ def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockFixture) -> None
     assert yaml_content == expected
 
 
-def test_preserves_sequence(tmp_path: str, mocker: MockFixture) -> None:
+def test_preserves_sequence(tmp_path: str, mocker: MockerFixture) -> None:
     expected = "sequence: 33\n"
 
     mocker.patch.object(ConcreteWithSequence, "folder_path", lambda: tmp_path)
@@ -149,7 +149,7 @@ def test_preserves_sequence(tmp_path: str, mocker: MockFixture) -> None:
     assert yaml_content == expected
 
 
-def test_creates_directory_if_not_present(tmp_path: str, mocker: MockFixture) -> None:
+def test_creates_directory_if_not_present(tmp_path: str, mocker: MockerFixture) -> None:
     expected = "imdb_id: tt0053221\ntitle: Rio Bravo\n"
 
     mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)

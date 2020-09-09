@@ -1,7 +1,7 @@
 from typing import Callable, List
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import watchlist
 from movielog.cli import add_to_collection
@@ -38,7 +38,7 @@ def seed_db(seed_movies: Callable[[List[MovieTuple]], None]) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_collection_add_title(mocker: MockFixture) -> MockFixture:
+def mock_collection_add_title(mocker: MockerFixture) -> MockerFixture:
     collection = Collection(
         name="Friday the 13th",
         titles=[
@@ -56,7 +56,7 @@ def mock_collection_add_title(mocker: MockFixture) -> MockFixture:
 
 
 def test_calls_add_title_on_collection(
-    mock_input: PosixPipeInput, mock_collection_add_title: MockFixture
+    mock_input: PosixPipeInput, mock_collection_add_title: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"{Down}{Enter}The Final Chapter{Enter}{Down}{Enter}y{Enter}"  # noqa: WPS221
@@ -69,7 +69,7 @@ def test_calls_add_title_on_collection(
 
 
 def test_does_not_call_add_director_if_no_selection(
-    mock_input: PosixPipeInput, mock_collection_add_title: MockFixture
+    mock_input: PosixPipeInput, mock_collection_add_title: MockerFixture
 ) -> None:
     mock_input.send_text(f"{Down}{Enter}{Escape}{Escape}{Enter}")  # noqa: WPS221
     add_to_collection.prompt()

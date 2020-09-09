@@ -1,7 +1,7 @@
 import os
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import watchlist
 
@@ -9,7 +9,7 @@ Collection = watchlist.Collection
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_path(mocker: MockFixture, tmp_path: str) -> str:
+def mock_watchlist_path(mocker: MockerFixture, tmp_path: str) -> str:
     watchlist_path = tmp_path
     mocker.patch("movielog.watchlist_person.WATCHLIST_PATH", watchlist_path)
     mocker.patch("movielog.watchlist_collection.WATCHLIST_PATH", watchlist_path)
@@ -20,7 +20,7 @@ EXPECTED = "frozen: false\nname: Orson Welles\nimdb_id: nm0000080\nslug: orson-w
 
 
 def test_add_director_creates_director(
-    mock_watchlist_path: str, mocker: MockFixture,
+    mock_watchlist_path: str, mocker: MockerFixture,
 ) -> None:
     watchlist.add_director(imdb_id="nm0000080", name="Orson Welles")
 
@@ -33,7 +33,7 @@ def test_add_director_creates_director(
 
 
 def test_add_writer_creates_writer(
-    mock_watchlist_path: str, mocker: MockFixture,
+    mock_watchlist_path: str, mocker: MockerFixture,
 ) -> None:
     watchlist.add_writer(imdb_id="nm0000080", name="Orson Welles")
 
@@ -46,7 +46,7 @@ def test_add_writer_creates_writer(
 
 
 def test_add_performer_creates_performer(
-    mock_watchlist_path: str, mocker: MockFixture,
+    mock_watchlist_path: str, mocker: MockerFixture,
 ) -> None:
     watchlist.add_performer(imdb_id="nm0000080", name="Orson Welles")
 
@@ -59,7 +59,7 @@ def test_add_performer_creates_performer(
 
 
 def test_add_collection_creates_new_collection(
-    mock_watchlist_path: str, mocker: MockFixture
+    mock_watchlist_path: str, mocker: MockerFixture
 ) -> None:
     expected = "frozen: false\nname: Halloween\nslug: halloween\ntitles: []\n"
 
@@ -89,7 +89,7 @@ def test_all_collections_returns_all_collections() -> None:
 
 
 def test_update_watchlist_titles_table_calls_update_on_watchlist_titles_table(
-    mocker: MockFixture,
+    mocker: MockerFixture,
 ) -> None:
     mock_watchlist_titles_table_update = mocker.patch(
         "movielog.watchlist.watchlist_titles_table.update"

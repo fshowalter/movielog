@@ -1,9 +1,9 @@
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog.logger import logger
 
 
-def test_formats_headers_with_yellow(mocker: MockFixture) -> None:
+def test_formats_headers_with_yellow(mocker: MockerFixture) -> None:
     info_mock = mocker.MagicMock()
     opt_mock = mocker.patch.object(logger.logger, "opt", return_value=info_mock)
 
@@ -17,7 +17,7 @@ def test_formats_headers_with_yellow(mocker: MockFixture) -> None:
     )
 
 
-def test_formats_non_header_variables_with_green(mocker: MockFixture) -> None:
+def test_formats_non_header_variables_with_green(mocker: MockerFixture) -> None:
     info_mock = mocker.MagicMock()
     opt_mock = mocker.patch.object(logger.logger, "opt", return_value=info_mock)
 

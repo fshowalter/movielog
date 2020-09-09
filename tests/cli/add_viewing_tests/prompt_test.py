@@ -2,7 +2,7 @@ from datetime import date
 from typing import Callable, List
 
 import pytest
-from pytest_mock import MockFixture
+from pytest_mock import MockerFixture
 
 from movielog import movies, people
 from movielog.cli import add_viewing
@@ -15,17 +15,17 @@ Principal = movies.Principal
 
 
 @pytest.fixture(autouse=True)
-def mock_viewings_add(mocker: MockFixture) -> MockFixture:
+def mock_viewings_add(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.cli.add_viewing.viewings.add")
 
 
 @pytest.fixture(autouse=True)
-def mock_reviews_add(mocker: MockFixture) -> MockFixture:
+def mock_reviews_add(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch("movielog.cli.add_viewing.reviews.add")
 
 
 @pytest.fixture(autouse=True)
-def stub_venues(mocker: MockFixture) -> MockFixture:
+def stub_venues(mocker: MockerFixture) -> MockerFixture:
     venues = [
         "AFI Silver",
         "Alamo Drafthouse",
@@ -67,7 +67,7 @@ CLEAR_DEFAULT_DATE = f"{Backspace}{Backspace}{Backspace}{Backspace}{Backspace}{B
 
 
 def test_calls_add_viewing(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: WPS221
@@ -84,7 +84,7 @@ def test_calls_add_viewing(
 
 
 def test_calls_add_review(
-    mock_input: PosixPipeInput, mock_reviews_add: MockFixture
+    mock_input: PosixPipeInput, mock_reviews_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: WPS221
@@ -102,7 +102,7 @@ def test_calls_add_review(
 
 
 def test_can_confirm_movie(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Fright Night{Enter}{Down}{Enter}nRio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa:E501 WPS221
@@ -119,7 +119,7 @@ def test_can_confirm_movie(
 
 
 def test_does_not_call_add_viewing_if_no_movie(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(f"{Escape}")  # noqa: WPS221
     add_viewing.prompt()
@@ -128,7 +128,7 @@ def test_does_not_call_add_viewing_if_no_movie(
 
 
 def test_does_not_call_add_viewing_if_no_date(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{Escape}{Escape}"  # TODO Why do I need the double escape?
@@ -139,7 +139,7 @@ def test_does_not_call_add_viewing_if_no_date(
 
 
 def test_guards_against_bad_dates(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-3-32{Enter}{Backspace}1{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: E501, WPS221
@@ -156,7 +156,7 @@ def test_guards_against_bad_dates(
 
 
 def test_can_confirm_date(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-3-13{Enter}n{CLEAR_DEFAULT_DATE}2016-3-12{Enter}y{Down}{Down}{Enter}yA+{Enter}y"  # noqa: E501, WPS221
@@ -173,7 +173,7 @@ def test_can_confirm_date(
 
 
 def test_can_add_new_venue(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}4k UHD Blu-ray{Enter}yA+{Enter}y"  # noqa: E501, WPS221
@@ -190,7 +190,7 @@ def test_can_add_new_venue(
 
 
 def test_can_confirm_new_venue(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}2k UHD Blu-ray{Enter}n{End}{Enter}4k UHD Blu-ray{Enter}yA+{Enter}y"  # noqa: E501, WPS221
@@ -207,7 +207,7 @@ def test_can_confirm_new_venue(
 
 
 def test_does_not_call_add_viewing_if_no_venue(
-    mock_input: PosixPipeInput, mock_viewings_add: MockFixture
+    mock_input: PosixPipeInput, mock_viewings_add: MockerFixture
 ) -> None:
     mock_input.send_text(
         f"Rio Bravo{Enter}{Down}{Enter}y{CLEAR_DEFAULT_DATE}2016-03-12{Enter}y{End}{Enter}{Escape}{Escape}"  # noqa: E501, WPS221
