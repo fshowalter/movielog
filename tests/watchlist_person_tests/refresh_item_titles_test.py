@@ -45,7 +45,8 @@ def credits_for_person_mock(
 
 
 @pytest.mark.parametrize(
-    "class_type", [Director, Performer, Writer],
+    "class_type",
+    [Director, Performer, Writer],
 )
 def test_refreshes_titles_from_imdb(
     mocker: MockerFixture,
@@ -89,7 +90,8 @@ def test_refreshes_titles_from_imdb(
 
 
 @pytest.mark.parametrize(
-    "class_type", [Director, Performer, Writer],
+    "class_type",
+    [Director, Performer, Writer],
 )
 def test_skips_invalid_titles(
     mocker: MockerFixture,
@@ -127,7 +129,8 @@ def test_skips_invalid_titles(
 
 
 @pytest.mark.parametrize(
-    "class_type", [Director, Performer, Writer],
+    "class_type",
+    [Director, Performer, Writer],
 )
 def test_skips_silent_movies(
     mocker: MockerFixture,
@@ -165,7 +168,8 @@ def test_skips_silent_movies(
 
 
 @pytest.mark.parametrize(
-    "class_type", [Director, Performer, Writer],
+    "class_type",
+    [Director, Performer, Writer],
 )
 def test_skips_in_production_titles(
     mocker: MockerFixture,

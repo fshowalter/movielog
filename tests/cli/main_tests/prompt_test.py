@@ -29,7 +29,9 @@ def mock_reload_reviews(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_s3_orchestrator_orchestrate_update(mocker: MockerFixture,) -> MagicMock:
+def mock_imdb_s3_orchestrator_orchestrate_update(
+    mocker: MockerFixture,
+) -> MagicMock:
     return mocker.patch("movielog.cli.main.imdb_s3_orchestrator.orchestrate_update")
 
 
@@ -66,7 +68,8 @@ def test_calls_reload_viewings(
 
 
 def test_calls_imdb_s3_orchestrator_update(
-    mock_input: PosixPipeInput, mock_imdb_s3_orchestrator_orchestrate_update: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_imdb_s3_orchestrator_orchestrate_update: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Down}{Down}{Enter}y{Up}{Enter}")
     main.prompt()
@@ -75,7 +78,8 @@ def test_calls_imdb_s3_orchestrator_update(
 
 
 def test_can_confirm_imdb_s3_orchestrator_update(
-    mock_input: PosixPipeInput, mock_imdb_s3_orchestrator_orchestrate_update: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_imdb_s3_orchestrator_orchestrate_update: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Down}{Down}{Enter}n{Up}{Enter}")
     main.prompt()
@@ -84,7 +88,8 @@ def test_can_confirm_imdb_s3_orchestrator_update(
 
 
 def test_calls_exporter_export(
-    mock_input: PosixPipeInput, mock_exporter_export: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_exporter_export: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Up}{Up}{Enter}y{Up}{Enter}")
     main.prompt()
@@ -93,7 +98,8 @@ def test_calls_exporter_export(
 
 
 def test_can_confirm_exporter_export(
-    mock_input: PosixPipeInput, mock_exporter_export: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_exporter_export: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Up}{Up}{Enter}n{Up}{Enter}")
     main.prompt()

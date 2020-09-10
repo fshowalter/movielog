@@ -35,7 +35,8 @@ class ExtendedLogger(object):
 
         if message.startswith("==== "):
             message_with_color = message.replace(
-                "====", "<yellow>====</yellow>",
+                "====",
+                "<yellow>====</yellow>",
             ).replace("{}", "<yellow>{}</yellow>")
         else:
             message_with_color = message.replace("{}", "<green>{}</green>")

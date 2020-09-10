@@ -34,7 +34,9 @@ def mock_new_collection(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_update_watchlist_titles_table(mocker: MockerFixture,) -> MagicMock:
+def mock_watchlist_update_watchlist_titles_table(
+    mocker: MockerFixture,
+) -> MagicMock:
     return mocker.patch(
         "movielog.cli.manage_watchlist.watchlist.update_watchlist_titles_table"
     )
@@ -86,7 +88,8 @@ def test_calls_new_collection(
 
 
 def test_calls_update_watchlist_titles_table(
-    mock_input: PosixPipeInput, mock_watchlist_update_watchlist_titles_table: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_watchlist_update_watchlist_titles_table: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Up}{Enter}y{Enter}")
     manage_watchlist.prompt()
@@ -95,7 +98,8 @@ def test_calls_update_watchlist_titles_table(
 
 
 def test_can_confirm_update_watchlist_titles_table(
-    mock_input: PosixPipeInput, mock_watchlist_update_watchlist_titles_table: MagicMock,
+    mock_input: PosixPipeInput,
+    mock_watchlist_update_watchlist_titles_table: MagicMock,
 ) -> None:
     mock_input.send_text(f"{Up}{Enter}n{Enter}")
     manage_watchlist.prompt()

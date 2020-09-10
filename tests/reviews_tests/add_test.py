@@ -37,7 +37,8 @@ def test_raises_error_if_sequence_out_of_sync(
     existing_review = "---\nsequence: 3\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 
     with open(
-        os.path.join(tmp_path, "0003-kill-bill-the-whole-bloody-affair-2011.md"), "w",
+        os.path.join(tmp_path, "0003-kill-bill-the-whole-bloody-affair-2011.md"),
+        "w",
     ) as output_file:
         output_file.write(existing_review)
 

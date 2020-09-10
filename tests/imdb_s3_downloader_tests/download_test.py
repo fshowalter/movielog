@@ -26,7 +26,9 @@ def subprocess_mock(mocker: MockerFixture) -> MagicMock:
 def request_mock(mocker: MockerFixture) -> MagicMock:
     url_open_mock = mocker.patch("movielog.imdb_s3_downloader.request.urlopen")
 
-    url_open_mock.return_value.__enter__.return_value.info.return_value = {  # noqa: E501, WPS110, WPS219, WPS609
+    magic_method_mock = url_open_mock.return_value.__enter__  # noqa: WPS609
+
+    magic_method_mock.return_value.info.return_value = {
         "Last-Modified": "Sat, 04 Apr 2020 12:00:00 GMT"
     }
 
@@ -34,7 +36,8 @@ def request_mock(mocker: MockerFixture) -> MagicMock:
 
 
 def test_creates_download_folder_based_on_request_date(
-    request_mock: MagicMock, tmp_path: str,
+    request_mock: MagicMock,
+    tmp_path: str,
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     expected = os.path.join(folder_path, "test.tsv.gz")

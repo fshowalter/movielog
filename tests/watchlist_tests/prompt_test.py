@@ -20,7 +20,8 @@ EXPECTED = "frozen: false\nname: Orson Welles\nimdb_id: nm0000080\nslug: orson-w
 
 
 def test_add_director_creates_director(
-    mock_watchlist_path: str, mocker: MockerFixture,
+    mock_watchlist_path: str,
+    mocker: MockerFixture,
 ) -> None:
     watchlist.add_director(imdb_id="nm0000080", name="Orson Welles")
 
@@ -33,7 +34,8 @@ def test_add_director_creates_director(
 
 
 def test_add_writer_creates_writer(
-    mock_watchlist_path: str, mocker: MockerFixture,
+    mock_watchlist_path: str,
+    mocker: MockerFixture,
 ) -> None:
     watchlist.add_writer(imdb_id="nm0000080", name="Orson Welles")
 
@@ -46,7 +48,8 @@ def test_add_writer_creates_writer(
 
 
 def test_add_performer_creates_performer(
-    mock_watchlist_path: str, mocker: MockerFixture,
+    mock_watchlist_path: str,
+    mocker: MockerFixture,
 ) -> None:
     watchlist.add_performer(imdb_id="nm0000080", name="Orson Welles")
 

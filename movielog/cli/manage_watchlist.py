@@ -21,7 +21,10 @@ def prompt() -> None:
         (update_watchlist_titles_table, "<cyan>Update IMDb data</cyan>"),
     ]
 
-    option_function = radio_list.prompt(title="Manage Watchlist:", options=options,)
+    option_function = radio_list.prompt(
+        title="Manage Watchlist:",
+        options=options,
+    )
 
     if option_function:
         option_function()

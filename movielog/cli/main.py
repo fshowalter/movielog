@@ -4,8 +4,8 @@ from movielog.cli import (
     confirm,
     manage_watchlist,
     radio_list,
-    reload_viewings,
     reload_reviews,
+    reload_viewings,
 )
 from movielog.logger import logger
 
@@ -22,7 +22,10 @@ def prompt() -> None:
         (None, "Exit"),
     ]
 
-    option_function = radio_list.prompt(title="Movie DB options:", options=options,)
+    option_function = radio_list.prompt(
+        title="Movie DB options:",
+        options=options,
+    )
     if option_function:
         option_function()
         prompt()

@@ -25,7 +25,8 @@ def test_splits_movie_and_year(
 
 
 @pytest.mark.parametrize(
-    "test_input", ["Rio Bravo 1959", "Blade Runner"],
+    "test_input",
+    ["Rio Bravo 1959", "Blade Runner"],
 )
 def test_throws_exception_when_cannot_split(
     make_concrete_movie: Callable[..., yaml_file.Movie], test_input: str

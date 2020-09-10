@@ -22,7 +22,9 @@ class ConcreteBase(yaml_file.Base):  # noqa: WPS604
         """Test stub."""
 
 
-def test_it_hydrates_from_yaml_file(tmp_path: str,) -> None:
+def test_it_hydrates_from_yaml_file(
+    tmp_path: str,
+) -> None:
     yaml = """
       imdb_id: tt0053221
       title: Rio Bravo (1959)

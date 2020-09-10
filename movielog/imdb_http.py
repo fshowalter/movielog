@@ -75,7 +75,9 @@ class TitleDetail(TitleBasic):
     countries: List[str]
 
 
-def countries_for_title(title_imdb_id: str,) -> TitleDetail:
+def countries_for_title(
+    title_imdb_id: str,
+) -> TitleDetail:
     imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
 
     return TitleDetail(
@@ -100,7 +102,9 @@ def cast_credits_for_title(
     for index, cast_credit in enumerate(imdb_movie["cast"]):
         cast_credit_list.append(
             CastCreditForTitle.from_imdb_cast_credit(
-                imdb_id=title_imdb_id, sequence=index, cast_credit=cast_credit,
+                imdb_id=title_imdb_id,
+                sequence=index,
+                cast_credit=cast_credit,
             )
         )
 
@@ -115,7 +119,8 @@ def credits_for_person(
 
     if credit_key == "performer":
         filmography["performer"] = filmography.pop("actor", [],) + filmography.pop(
-            "actress", [],
+            "actress",
+            [],
         )
 
     credit_list: List[CreditForPerson] = []

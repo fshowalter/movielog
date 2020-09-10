@@ -29,16 +29,23 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
                     currentRole="Unicrom",
                 ),
                 imdb.Person.Person(
-                    personID="1084210", name="Simon Furman", notes="", currentRole="",
+                    personID="1084210",
+                    name="Simon Furman",
+                    notes="",
+                    currentRole="",
                 ),
             ],
         },
     )
 
 
-def test_gets_cast_credits_for_title_from_imdb(imdb_scraper_mock: MagicMock,) -> None:
+def test_gets_cast_credits_for_title_from_imdb(
+    imdb_scraper_mock: MagicMock,
+) -> None:
     expected_title_basic = imdb_http.TitleBasic(
-        imdb_id="tt0092106", title="The Transformers: The Movie", year=1986,
+        imdb_id="tt0092106",
+        title="The Transformers: The Movie",
+        year=1986,
     )
 
     expected_cast_credits = [

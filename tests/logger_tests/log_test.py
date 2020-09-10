@@ -26,5 +26,6 @@ def test_formats_non_header_variables_with_green(mocker: MockerFixture) -> None:
     opt_mock.assert_called_with(colors=True, depth=1)
 
     info_mock.info.assert_called_with(
-        "test message with a <green>{}</green>", "highlighted variable",
+        "test message with a <green>{}</green>",
+        "highlighted variable",
     )

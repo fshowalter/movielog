@@ -38,7 +38,8 @@ def get_last_modified_date(url: str) -> datetime:
     with request.urlopen(url) as response:  # noqa: S310
         last_modified_header = response.info().get("Last-Modified")
         last_modified_date = datetime.strptime(
-            last_modified_header, "%a, %d %b %Y %H:%M:%S %Z",  # noqa: WPS323
+            last_modified_header,
+            "%a, %d %b %Y %H:%M:%S %Z",  # noqa: WPS323
         )
     logger.log(
         "Remote file {} last updated {}.", url.split("/")[-1], last_modified_date
@@ -48,7 +49,8 @@ def get_last_modified_date(url: str) -> datetime:
 
 def ensure_download_path(last_modified_date: datetime) -> str:
     download_path = path.join(
-        DOWNLOAD_DIR, last_modified_date.strftime("%Y-%m-%d"),  # noqa: WPS323
+        DOWNLOAD_DIR,
+        last_modified_date.strftime("%Y-%m-%d"),  # noqa: WPS323
     )
 
     if path.exists(download_path):

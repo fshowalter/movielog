@@ -7,10 +7,12 @@ from movielog.watchlist_person import Director, Performer, Writer
 
 
 @pytest.mark.parametrize(
-    "class_type", [Director, Performer, Writer],
+    "class_type",
+    [Director, Performer, Writer],
 )
 def test_calls_refresh_item_titles_on_all_unfrozen_items(
-    mocker: MockerFixture, class_type: Type[Union[Performer, Director, Writer]],
+    mocker: MockerFixture,
+    class_type: Type[Union[Performer, Director, Writer]],
 ) -> None:
     person = class_type(file_path=None, name="Alfred Hitchcock", imdb_id="nm0000033")
     refresh_item_titles_mock = mocker.patch.object(person, "refresh_item_titles")

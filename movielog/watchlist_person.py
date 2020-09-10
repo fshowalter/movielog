@@ -36,7 +36,9 @@ class Person(WatchlistFile):  # noqa: WPS214
 
     def refresh_item_titles(self) -> None:  # noqa: WPS231
         logger.log(
-            "==== Begin refreshing {} credits for {}...", self.credit_key, self.name,
+            "==== Begin refreshing {} credits for {}...",
+            self.credit_key,
+            self.name,
         )
 
         self.titles = []

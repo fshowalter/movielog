@@ -4,7 +4,11 @@ from movielog.watchlist_file import Title
 
 
 def test_returns_title_from_yaml() -> None:
-    expected = Title(title="Rio Bravo", imdb_id="tt0053221", year=1959,)
+    expected = Title(
+        title="Rio Bravo",
+        imdb_id="tt0053221",
+        year=1959,
+    )
 
     yaml_string = """
       imdb_id: tt0053221

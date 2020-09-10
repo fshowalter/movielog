@@ -74,7 +74,7 @@ def ask_for_date() -> Optional[date]:
         "Date: ",
         rprompt="YYYY-MM-DD format.",
         validator=validator,
-        default=date.today().strftime("%Y-%m-%d"),
+        default=date.today().strftime("%Y-%m-%d"),  # noqa: WPS323
     )
 
     if not date_string:
@@ -95,7 +95,10 @@ def ask_for_venue() -> Optional[str]:
 
     while selected_venue is None:
 
-        selected_venue = radio_list.prompt(title="Select venue:", options=options,)
+        selected_venue = radio_list.prompt(
+            title="Select venue:",
+            options=options,
+        )
 
         selected_venue = selected_venue or new_venue()
 
@@ -135,7 +138,9 @@ def is_grade(text: str) -> bool:
 
 def ask_for_grade(imdb_id: str) -> Optional[str]:
     validator = Validator.from_callable(
-        is_grade, error_message="Must be a valid grade.", move_cursor_to_end=True,
+        is_grade,
+        error_message="Must be a valid grade.",
+        move_cursor_to_end=True,
     )
 
     existing_review = reviews.existing_review(imdb_id=imdb_id)

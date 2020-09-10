@@ -16,7 +16,10 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
         status=None,
     )
     director_movie = imdb.Movie.Movie(
-        movieID="0052311", title="Touch of Evil (1958)", notes="", status=None,
+        movieID="0052311",
+        title="Touch of Evil (1958)",
+        notes="",
+        status=None,
     )
     writer_movie = imdb.Movie.Movie(
         movieID="0035015",

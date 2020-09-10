@@ -27,8 +27,28 @@ def movie_ids_mock(mocker: MockerFixture) -> Any:
 
 def test_inserts_people_from_downloaded_s3_file(sql_query: MagicMock) -> None:
     expected = [
-        (1, "tt0053221", 26, "リオ・ブラボー", "JP", "ja", "imdbDisplay", None, 0,),
-        (2, "tt0053221", 28, "Ρίο Μπράβο", "GR", None, "imdbDisplay", None, 0,),
+        (
+            1,
+            "tt0053221",
+            26,
+            "リオ・ブラボー",
+            "JP",
+            "ja",
+            "imdbDisplay",
+            None,
+            0,
+        ),
+        (
+            2,
+            "tt0053221",
+            28,
+            "Ρίο Μπράβο",
+            "GR",
+            None,
+            "imdbDisplay",
+            None,
+            0,
+        ),
         (
             3,
             "tt0053221",
@@ -51,7 +71,17 @@ def test_inserts_people_from_downloaded_s3_file(sql_query: MagicMock) -> None:
             None,
             0,
         ),
-        (5, "tt0089175", 13, "Night of Horror", "PK", "en", None, "poster title", 0,),
+        (
+            5,
+            "tt0089175",
+            13,
+            "Night of Horror",
+            "PK",
+            "en",
+            None,
+            "poster title",
+            0,
+        ),
     ]
 
     aka_titles.update()

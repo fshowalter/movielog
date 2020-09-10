@@ -36,7 +36,8 @@ def test_calls_add_performer(
     add_performer.prompt()
 
     mock_watchlist_add_performer.assert_called_once_with(
-        imdb_id="nm0000078", name="John Wayne",
+        imdb_id="nm0000078",
+        name="John Wayne",
     )
 
 
@@ -49,7 +50,8 @@ def test_can_confirm_selection(
     add_performer.prompt()
 
     mock_watchlist_add_performer.assert_called_once_with(
-        imdb_id="nm0000078", name="John Wayne",
+        imdb_id="nm0000078",
+        name="John Wayne",
     )
 
 

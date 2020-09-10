@@ -11,7 +11,9 @@ from movielog import imdb_http
 @pytest.fixture
 def title_basic() -> imdb_http.TitleBasic:
     return imdb_http.TitleBasic(
-        imdb_id="tt0092106", title="The Transformers: The Movie", year=1986,
+        imdb_id="tt0092106",
+        title="The Transformers: The Movie",
+        year=1986,
     )
 
 
@@ -20,7 +22,10 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
     mocker.patch.object(
         imdb_http.imdb_scraper, "get_movie", return_value=imdb.Movie.Movie()
     )
-    return mocker.patch.object(imdb_http.imdb_scraper, "update",)
+    return mocker.patch.object(
+        imdb_http.imdb_scraper,
+        "update",
+    )
 
 
 @pytest.fixture(autouse=True)

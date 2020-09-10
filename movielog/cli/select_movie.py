@@ -22,7 +22,8 @@ def prompt(prompt_text: str = "Title: ") -> Optional[Result]:
         options = build_options(search_results)
 
         movie = radio_list.prompt(
-            title=f'Results for "<cyan>{query}</cyan>":', options=options,
+            title=f'Results for "<cyan>{query}</cyan>":',
+            options=options,
         )
 
     if not movie:

@@ -39,7 +39,8 @@ def test_calls_add_director(
     add_writer.prompt()
 
     mock_watchlist_add_writer.assert_called_once_with(
-        imdb_id="nm0102824", name="Leigh Brackett",
+        imdb_id="nm0102824",
+        name="Leigh Brackett",
     )
 
 

@@ -57,7 +57,10 @@ def test_logs_save(tmp_path: str, mocker: MockerFixture) -> None:
     mocker.patch("movielog.logger.logger.log")
 
     movie = ConcreteMovie(
-        file_path=file_path, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+        file_path=file_path,
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
     )
     movie.save()
 
@@ -70,7 +73,10 @@ def test_custom_log_function(tmp_path: str, mocker: MockerFixture) -> None:
     custom_log_function = mocker.stub(name="custom_log_function")
 
     movie = ConcreteMovie(
-        file_path=file_path, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+        file_path=file_path,
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
     )
     movie.save(custom_log_function)
 
@@ -83,7 +89,10 @@ def test_handles_unicode(tmp_path: str) -> None:
     file_path = os.path.join(tmp_path, "test_handles_unicode.yaml")
 
     movie = ConcreteMovie(
-        file_path=file_path, imdb_id="tt0309832", title="Maléfique", year=1959,
+        file_path=file_path,
+        imdb_id="tt0309832",
+        title="Maléfique",
+        year=1959,
     )
     movie.save()
 
@@ -99,7 +108,10 @@ def test_writes_yaml(tmp_path: str) -> None:
     file_path = os.path.join(tmp_path, "test_writes_yaml.yaml")
 
     movie = ConcreteMovie(
-        file_path=file_path, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+        file_path=file_path,
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
     )
     movie.save()
 
@@ -115,7 +127,10 @@ def test_creates_slug_if_no_filename(tmp_path: str, mocker: MockerFixture) -> No
     mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)
 
     movie = ConcreteMovie(
-        file_path=None, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+        file_path=None,
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
     )
 
     mocker.patch.object(
@@ -136,7 +151,10 @@ def test_preserves_sequence(tmp_path: str, mocker: MockerFixture) -> None:
 
     mocker.patch.object(ConcreteWithSequence, "folder_path", lambda: tmp_path)
 
-    movie = ConcreteWithSequence(file_path=None, sequence=33,)
+    movie = ConcreteWithSequence(
+        file_path=None,
+        sequence=33,
+    )
 
     mocker.patch.object(movie, "generate_slug", lambda: "test_preserves_sequence")
     movie.save()
@@ -155,7 +173,10 @@ def test_creates_directory_if_not_present(tmp_path: str, mocker: MockerFixture) 
     mocker.patch.object(ConcreteMovie, "folder_path", lambda: tmp_path)
 
     movie = ConcreteMovie(
-        file_path=None, imdb_id="tt0053221", title="Rio Bravo", year=1959,
+        file_path=None,
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
     )
 
     mocker.patch.object(

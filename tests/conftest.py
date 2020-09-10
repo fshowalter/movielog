@@ -27,8 +27,8 @@ def gzip_file(tmp_path: str) -> Callable[..., str]:
 
 @pytest.fixture(autouse=True)
 def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
-    """ Hold an open connection for the length of a test to persist the
-    in-memory db. """
+    """Hold an open connection for the length of a test to persist the
+    in-memory db."""
     db.DB_PATH = TEST_DB_PATH
     db.DbConnectionOpts = {"uri": True}
     connection = sqlite3.connect(TEST_DB_PATH, uri=True)

@@ -116,7 +116,10 @@ def most_watched_query(person_type: str) -> str:
     )
 
 
-def write_results(rows: Sequence[Row], filename: str,) -> None:
+def write_results(
+    rows: Sequence[Row],
+    filename: str,
+) -> None:
     file_path = os.path.join("export", "{0}.json".format(filename))
 
     with open(file_path, "w") as output_file:
@@ -163,7 +166,10 @@ class HighestRated(object):
         for row in db.exec_query(cls.query(credit_type)):
             ratings = [int(rating) for rating in row["ratings"].split(",")]
             hightest_rated.append(
-                cls(full_name=row["full_name"], rating=weighted_average(ratings),)
+                cls(
+                    full_name=row["full_name"],
+                    rating=weighted_average(ratings),
+                )
             )
 
         hightest_rated.sort(key=lambda rated: rated.rating, reverse=True)
@@ -208,15 +214,18 @@ def watchlist_progress() -> None:
 
 def most_watched() -> None:
     write_results(
-        db.exec_query(most_watched_query("directing")), "mostWatchedDirectors",
+        db.exec_query(most_watched_query("directing")),
+        "mostWatchedDirectors",
     )
 
     write_results(
-        db.exec_query(most_watched_query("performing")), "mostWatchedPerformers",
+        db.exec_query(most_watched_query("performing")),
+        "mostWatchedPerformers",
     )
 
     write_results(
-        db.exec_query(most_watched_query("writing")), "mostWatchedWriters",
+        db.exec_query(most_watched_query("writing")),
+        "mostWatchedWriters",
     )
 
 
