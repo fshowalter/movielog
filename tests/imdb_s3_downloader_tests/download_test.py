@@ -1,4 +1,5 @@
 import os
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -9,22 +10,20 @@ original_download_dir = imdb_s3_downloader.DOWNLOAD_DIR
 
 
 @pytest.fixture(autouse=True)
-def mock_imdb_s3_downloader_download_path(
-    mocker: MockerFixture, tmp_path: str
-) -> MockerFixture:
-    return mocker.patch(
+def mock_imdb_s3_downloader_download_path(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch(
         "movielog.imdb_s3_downloader.DOWNLOAD_DIR",
         os.path.join(tmp_path, original_download_dir),
     )
 
 
 @pytest.fixture(autouse=True)
-def subprocess_mock(mocker: MockerFixture) -> MockerFixture:
+def subprocess_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.imdb_s3_downloader.subprocess.check_output")
 
 
 @pytest.fixture(autouse=True)
-def request_mock(mocker: MockerFixture) -> MockerFixture:
+def request_mock(mocker: MockerFixture) -> MagicMock:
     url_open_mock = mocker.patch("movielog.imdb_s3_downloader.request.urlopen")
 
     url_open_mock.return_value.__enter__.return_value.info.return_value = {  # noqa: E501, WPS110, WPS219, WPS609
@@ -35,7 +34,7 @@ def request_mock(mocker: MockerFixture) -> MockerFixture:
 
 
 def test_creates_download_folder_based_on_request_date(
-    request_mock: MockerFixture, tmp_path: str,
+    request_mock: MagicMock, tmp_path: str,
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     expected = os.path.join(folder_path, "test.tsv.gz")
@@ -52,7 +51,7 @@ def test_does_not_fail_if_already_exists(tmp_path: str) -> None:
 
 
 def test_skips_download_if_file_already_exists(
-    subprocess_mock: MockerFixture, tmp_path: str
+    subprocess_mock: MagicMock, tmp_path: str
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     os.makedirs(folder_path)
@@ -64,7 +63,7 @@ def test_skips_download_if_file_already_exists(
 
 
 def test_calls_curl_with_the_correct_args(
-    subprocess_mock: MockerFixture, tmp_path: str
+    subprocess_mock: MagicMock, tmp_path: str
 ) -> None:
     folder_path = os.path.join(tmp_path, original_download_dir, "2020-04-04")
     expected_out = os.path.join(folder_path, "test.tsv.gz")

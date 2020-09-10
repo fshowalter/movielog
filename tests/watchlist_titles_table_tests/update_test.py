@@ -1,4 +1,5 @@
 from typing import Any
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -30,18 +31,18 @@ def writer_all_items_mock(mocker: MockerFixture) -> Any:
 
 
 @pytest.fixture(autouse=True)
-def collection_all_items_mock(mocker: MockerFixture) -> Any:
+def collection_all_items_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch.object(Collection, "all_items")
 
 
 def test_inserts_collection_items(
-    sql_query: MockerFixture,
-    mocker: MockerFixture,
-    person_refresh_all_item_titles_mock: MockerFixture,
-    director_all_items_mock: MockerFixture,
-    performer_all_items_mock: MockerFixture,
-    writer_all_items_mock: MockerFixture,
-    collection_all_items_mock: MockerFixture,
+    sql_query: MagicMock,
+    mocker: MagicMock,
+    person_refresh_all_item_titles_mock: MagicMock,
+    director_all_items_mock: MagicMock,
+    performer_all_items_mock: MagicMock,
+    writer_all_items_mock: MagicMock,
+    collection_all_items_mock: MagicMock,
 ) -> None:
     collection_all_items_mock.return_value = [
         Collection(
@@ -110,8 +111,62 @@ def test_inserts_collection_items(
 
 
 def test_calls_refresh_all_item_titles_for_each_person_type(
-    person_refresh_all_item_titles_mock: MockerFixture,
+    director_all_items_mock: MagicMock,
+    performer_all_items_mock: MagicMock,
+    writer_all_items_mock: MagicMock,
+    collection_all_items_mock: MagicMock,
+    person_refresh_all_item_titles_mock: MagicMock,
 ) -> None:
+    collection_all_items_mock.return_value = [
+        Collection(
+            file_path=None,
+            name="Nolan's Batman",
+            imdb_id=None,
+            titles=[
+                Title(imdb_id="tt0372784", title="Batman Begins", year=2005),
+                Title(imdb_id="tt0468569", title="The Dark Knight", year=2008),
+                Title(imdb_id="tt1345836", title="The Dark Knight Rises", year=2012),
+            ],
+        )
+    ]
+
+    director_all_items_mock.return_value = [
+        Director(
+            file_path=None,
+            name="Charles Laughton",
+            imdb_id="nm0001452",
+            titles=[
+                Title(imdb_id="tt0048424", title="The Night of the Hunter", year=1955)
+            ],
+        )
+    ]
+
+    performer_all_items_mock.return_value = [
+        Performer(
+            file_path=None,
+            name="Peter Cushing",
+            imdb_id="nm0001088",
+            titles=[
+                Title(
+                    imdb_id="tt0050280", year=1957, title="The Curse of Frankenstein"
+                ),
+                Title(imdb_id="tt0051554", year=1958, title="Horror of Dracula"),
+            ],
+        )
+    ]
+
+    writer_all_items_mock.return_value = [
+        Writer(
+            file_path=None,
+            name="Leigh Brackett",
+            imdb_id="nm0102824",
+            titles=[
+                Title(imdb_id="tt0038355", year=1946, title="The Big Sleep"),
+                Title(imdb_id="tt0053221", year=1959, title="Rio Bravo"),
+            ],
+        )
+    ]
+
     watchlist_titles_table.update()
 
     person_refresh_all_item_titles_mock.assert_has_calls(

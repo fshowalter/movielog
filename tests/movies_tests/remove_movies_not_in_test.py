@@ -1,5 +1,6 @@
 import os
 from typing import Any
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -8,7 +9,7 @@ from movielog import movies
 
 
 @pytest.fixture(autouse=True)
-def imdb_s3_download_mock(mocker: MockerFixture, gzip_file: MockerFixture) -> Any:
+def imdb_s3_download_mock(mocker: MockerFixture, gzip_file: MagicMock) -> Any:
     movies_file_path = gzip_file(
         os.path.join(os.path.dirname(__file__), "movies_test_data.tsv")
     )
@@ -23,7 +24,7 @@ def imdb_s3_download_mock(mocker: MockerFixture, gzip_file: MockerFixture) -> An
     )
 
 
-def test_removes_movies_not_in_given_iterable(sql_query: MockerFixture) -> None:
+def test_removes_movies_not_in_given_iterable(sql_query: MagicMock) -> None:
     expected = [
         (
             "tt0053221",

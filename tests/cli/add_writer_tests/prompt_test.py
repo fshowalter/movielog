@@ -1,4 +1,5 @@
 from typing import Callable, List
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -9,7 +10,7 @@ from tests.cli.typehints import CreditTuple, PosixPipeInput
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_add_writer(mocker: MockerFixture) -> MockerFixture:
+def mock_watchlist_add_writer(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.cli.add_writer.watchlist.add_writer")
 
 
@@ -32,7 +33,7 @@ def seed_db(seed_writers: Callable[[List[CreditTuple]], None]) -> None:
 
 
 def test_calls_add_director(
-    mock_input: PosixPipeInput, mock_watchlist_add_writer: MockerFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_writer: MagicMock
 ) -> None:
     mock_input.send_text(f"Leigh Brackett{Enter}{Down}{Enter}y{Enter}")  # noqa: WPS221
     add_writer.prompt()
@@ -43,7 +44,7 @@ def test_calls_add_director(
 
 
 def test_does_not_call_add_director_if_no_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_writer: MockerFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_writer: MagicMock
 ) -> None:
     mock_input.send_text(f"{Escape}{Enter}")  # noqa: WPS221
     add_writer.prompt()

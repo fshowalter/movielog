@@ -1,4 +1,5 @@
 from typing import Callable, List
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -29,7 +30,7 @@ def seed_db(seed_performers: Callable[[List[CreditTuple]], None]) -> None:
 
 
 def test_calls_add_performer(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MagicMock
 ) -> None:
     mock_input.send_text(f"John Wayne{Enter}{Down}{Enter}y{Enter}")  # noqa: WPS221
     add_performer.prompt()
@@ -40,7 +41,7 @@ def test_calls_add_performer(
 
 
 def test_can_confirm_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MagicMock
 ) -> None:
     mock_input.send_text(
         f"Chris Sarandon{Enter}{Down}{Enter}nJohn Wayne{Enter}{Down}{Enter}y{Enter}"  # noqa: WPS221
@@ -53,7 +54,7 @@ def test_can_confirm_selection(
 
 
 def test_does_not_call_add_performer_if_no_selection(
-    mock_input: PosixPipeInput, mock_watchlist_add_performer: MockerFixture
+    mock_input: PosixPipeInput, mock_watchlist_add_performer: MagicMock
 ) -> None:
     mock_input.send_text(f"{Escape}{Enter}")  # noqa: WPS221
     add_performer.prompt()

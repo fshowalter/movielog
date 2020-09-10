@@ -1,6 +1,7 @@
 import os
 import shutil
 from typing import Any
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -55,7 +56,7 @@ def cast_credits_for_title_mock(mocker: MockerFixture) -> Any:
 
 
 def test_creates_new_performing_credits_for_ones_that_do_not_exist(
-    tmp_path: str, sql_query: MockerFixture, cast_credits_for_title_mock: MockerFixture,
+    tmp_path: str, sql_query: MagicMock, cast_credits_for_title_mock: MagicMock,
 ) -> None:
     expected_rows = [
         ("tt0092106", "nm0191520", 0, "Optimus Prime / Ironhide", "(voice)"),
@@ -84,7 +85,7 @@ def test_creates_new_performing_credits_for_ones_that_do_not_exist(
 
 
 def test_does_not_call_imdb_for_performing_credits_that_exist(
-    tmp_path: str, sql_query: MockerFixture, cast_credits_for_title_mock: MockerFixture,
+    tmp_path: str, sql_query: MagicMock, cast_credits_for_title_mock: MagicMock,
 ) -> None:
     expected_rows = [
         ("tt0092106", "nm0191520", 0, "Optimus Prime / Ironhide", "(voice)"),
