@@ -9,7 +9,7 @@ venue: YouTube
 venue_notes: Unknown 360p
 ---
 
-Disappointing follow-up to <span data-imdb-id="tt0019745">The Canary Murder Case</span> has Powell reprising his role as diletante sleuth Philo Vance investigating an unknown assailant murdering members of a wealthy family where the last surviving heir stands to inherit a fortune.
+Disappointing follow-up to <span data-imdb-id="tt0019745">The Canary Murder Case</span> has Powell reprising his role as diletante sleuth Philo Vance investigating a wealthy family where the last surviving heir stands to inherit a fortune.
 
 <!-- end -->
 

@@ -6,6 +6,5 @@ title: The Big Trail (1930)
 grade: B-
 slug: the-big-trail-1930
 venue: Blu-ray
-venue_notes:
+venue_notes: 2012 20th Century Fox
 ---
-
