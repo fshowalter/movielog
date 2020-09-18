@@ -9,6 +9,10 @@ venue: Blu-ray
 venue_notes: 2019 Shout Factory
 ---
 
-Looking to repeat the success of The Quatermass Xpermient, Hammer Productions tapped Val Guest to adapt another Nigel Kneale TV script. Unlike Quatermass, this story feels stale. Peter Cushing plays a botanist who hitches a ride aboard Forret Tucker's Himalayan expidition to find and study the legendary Yeti. Of course, Tucker's motives prove less than scientific. And of course, the party fall victim one-by-one to the mostly-unseen monsters.
+Peter Cushing's first film for Hammer. He plays a botanist who hitches a ride aboard Forrest Tucker’s Himalayan expedition to find and study the legendary Yeti. Of course, Tucker’s motives prove less than scientific. And of course, one-by-one the party members meet unfortunate ends.
 
-The talented cast could overcome the script's by-the-numbers approach but the laughable special effects prove a bridge too far. Also not helping: Maureen Connell's turing and walking toward the camera to convey dramatic emphasis. Still this proves an important film, marking Cushing's first of 22 horror films he'd star in for Hammer films.
+<!-- end -->
+
+Looking to repeat the success of <span data-imdb-id="tt0049646">The Quatermass Xperiment</span>, Hammer tapped Val Guest to adapt another Nigel Kneale TV script. Kneale’s story aims for cerebral horror but fails to deliver. The premise crumbles under the slightest introspection. Guest may have sensed this, as he stages the film like a monster picture. The talented cast could have made this work—Tucker and Cushing are both great—but the laughable special effects prove a bridge too far. Also not helping: Guest's inexplicable decision to have Maureen Connell turn and walk toward the camera to convey dramatic emphasis after delivering her lines.
+
+The Shout Factory print is the best available, despite about five minutes coming from an SD source.

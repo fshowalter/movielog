@@ -13,6 +13,6 @@ Powell's second talkie and first leading role. He plays Philo Vance, a dilettant
 
 <!-- end -->
 
-<span data-snippet>Powell's great, delivering an early version of the urbane sleuth he'd perfect in the _Thin Man_ film series.</span> Bonus points for the script's good red herrings and extended poker scene. Look fast for Pat O'Brien[^1] as a desk sergeant. Followed by <span data-imdb-id="tt0019949">The Greene Murder Case</span>.
+Powell's great, delivering an early version of the urbane sleuth he'd perfect in the _Thin Man_ film series. Bonus points for the script's good red herrings and extended poker scene. Look fast for Pat O'Brien[^1] as a desk sergeant. Followed by <span data-imdb-id="tt0019949">The Greene Murder Case</span>.
 
 [^1]: Maybe. I couldn't find a supporting source.

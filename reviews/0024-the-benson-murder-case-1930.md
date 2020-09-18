@@ -9,6 +9,6 @@ venue: OK.ru
 venue_notes: Unkown 480p
 ---
 
-Powell's third outing as amateur detective Phil Vance. After the disappointing Green Murder Case, the franchise returns to form with a closed-circle mystery pitting Powell against a notorious bootlegger. The thunder storm during the setup adds a nice gothic touch and the eccentric supporting cast adds the right touch of light comedy. The distance between Philo Vance and Nick Charles is getting smaller with Powell settling into the role.
+Powell's third outing as amateur detective Philo Vance. After the disappointing <span data-imdb-id="tt0019949">Green Murder Case</span> the franchise returns to form with a closed-circle mystery pitting Powell against a notorious bootlegger. The early thunderstorm generates a terrific atmosphere and the eccentric supporting cast sprinkles in the right dose of light comedy.
 
-I'd like to revisit a better print. All the uploads I found seem sourced from the same low-res scan.
+I'd like to revisit a better print. All the uploads online appear sourced from the same low-res scan.
