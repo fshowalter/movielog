@@ -9,4 +9,4 @@ venue: Amazon Streaming
 venue_notes: 2018 A24 4k
 ---
 
-Right in my nihilistic, trap-movie-loving wheelhouse. I bought everything Toni Collette's all-in performance was selling. Aster's unwavering commitment and sure-handed execution surprised me. More than once, I dismissed a plot point as lazy writing, only for it to twist and punch me in the gut. And I loved the ending.
+Right in my nihilistic, trap-movie-loving wheelhouse. So deft and surprising. More than once, I'd bemoan a plot point as weak writing, only to have it twist, circle back, and punch me in the gut. I bought everything Toni Collette’s all-in performance was selling. And I loved the ending.
