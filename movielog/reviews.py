@@ -58,11 +58,13 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             "A": 5,
             "B": 4,
             "C": 3,
-            "D": 2,
+            "D": 3,
             "F": 1,
         }
 
-        return grade_map.get(grade[0], 3)
+        base_grade = grade_map.get(grade[0], 3)
+
+        if grade[-1]
 
     def generate_slug(self) -> str:
         return str(slugify(self.title_with_year))
@@ -139,6 +141,7 @@ class ReviewsTable(db.Table):
             "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "date" DATE NOT NULL,
             "sequence" INT NOT NULL,
+            "grade" TEXT NOT NULL,
             "grade_value" INT NOT NULL,
             "slug" TEXT NOT NULL,
             "venue" TEXT NOT NULL);
@@ -156,8 +159,8 @@ class ReviewsTable(db.Table):
     @classmethod
     def insert_reviews(cls, reviews: Sequence[Review]) -> None:
         ddl = """
-          INSERT INTO {0}(movie_imdb_id, date, sequence, grade_value, slug, venue)
-          VALUES(:imdb_id, :date, :sequence, :grade_value, :slug, :venue);
+          INSERT INTO {0}(movie_imdb_id, date, sequence, grade, grade_value, slug, venue)
+          VALUES(:imdb_id, :date, :sequence, :grade, :grade_value, :slug, :venue);
         """.format(
             cls.table_name
         )
@@ -224,6 +227,7 @@ def export() -> None:
         , year
         , reviews.date
         , reviews.sequence
+        , grade
         , grade_value
         , slug
         , sort_title
