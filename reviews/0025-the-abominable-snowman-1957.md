@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2019 Shout Factory
 ---
 
-Peter Cushing's first film for Hammer. He plays a botanist who hitches a ride aboard Forrest Tucker’s Himalayan expedition to find and study the legendary Yeti. Of course, Tucker’s motives prove less than scientific. And of course, one-by-one the party members meet unfortunate ends.
+Peter Cushing's second film for Hammer. He plays a botanist who hitches a ride aboard Forrest Tucker’s Himalayan expedition to find and study the legendary Yeti. Of course, Tucker’s motives prove less than scientific. And of course, one-by-one the party members meet unfortunate ends.
 
 <!-- end -->
 
