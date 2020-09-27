@@ -6,7 +6,7 @@ title: "Mortal Kombat Legends: Scorpion's Revenge (2020)"
 grade: D+
 slug: mortal-kombat-legends-scorpions-revenge-2020
 venue: Amazon Streaming
-venue_notes: 2020 WB Animation 1080p
+venue_notes: 2020 | WB Animation | 1080p
 ---
 
 Animated quasi-remake of the 1995 live-action original. Lacks the franchise’s imaginative production design and quirky sense-of-humor. Makes up some ground with over-the-top graphic violence and Joel McHale.

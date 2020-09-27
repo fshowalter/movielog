@@ -55,16 +55,23 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             return None
 
         grade_map = {
-            "A": 5,
-            "B": 4,
-            "C": 3,
+            "A": 12,
+            "B": 9,
+            "C": 6,
             "D": 3,
             "F": 1,
         }
 
-        base_grade = grade_map.get(grade[0], 3)
+        grade_value = grade_map.get(grade[0], 3)
+        modifier = grade[-1]
 
-        if grade[-1]
+        if modifier == "+":
+            grade_value = grade_value + 1
+
+        if modifier == "-":
+            grade_value = grade_value - 1
+
+        return grade_value
 
     def generate_slug(self) -> str:
         return str(slugify(self.title_with_year))

@@ -3,10 +3,10 @@ sequence: 21
 date: 2020-08-22
 imdb_id: tt1211837
 title: Doctor Strange (2016)
-grade: C+
+grade: C
 slug: doctor-strange-2016
 venue: "Disney+"
-venue_notes: 2017 Disney / Buena Vista 4k
+venue_notes: 2017 | Disney / Buena Vista | 4k
 ---
 
 Benedict Cumberbatch stars as Stephen Strange, a hotshot neurosurgeon. After a car accident cripples his hands, Strange’s search for a miracle cure leads him to Nepal. There he meets The Ancient One, played by Tilda Swinton, who trains him in sorcery.

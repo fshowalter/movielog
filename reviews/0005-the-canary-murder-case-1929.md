@@ -3,10 +3,10 @@ sequence: 5
 date: 2020-07-17
 imdb_id: tt0019745
 title: The Canary Murder Case (1929)
-grade: C+
+grade: C
 slug: the-canary-murder-case-1929
 venue: YouTube
-venue_notes: Unknown 360p
+venue_notes: Unknown | 360p
 ---
 
 Powell's second talkie and first leading role. He plays Philo Vance, a dilettante detective who uses “psychology” to solve the locked-room murder of a notorious showgirl.

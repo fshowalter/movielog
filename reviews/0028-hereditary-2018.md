@@ -6,7 +6,7 @@ title: Hereditary (2018)
 grade: A-
 slug: hereditary-2018
 venue: Amazon Streaming
-venue_notes: 2018 A24 4k
+venue_notes: 2018 | A24 | 4k
 ---
 
 Right in my nihilistic, trap-movie-loving wheelhouse. So deft and surprising. More than once, I'd bemoan a plot point as weak writing, only to have it twist, circle back, and punch me in the gut. I bought everything Toni Collette’s all-in performance was selling. And I loved the ending.

@@ -6,7 +6,7 @@ title: The Curse of Frankenstein (1957)
 grade: A
 slug: the-curse-of-frankenstein-1957
 venue: Blu-ray
-venue_notes: 2012 Lionsgate Films Academy ratio
+venue_notes: 2012 | Lionsgate Films | Academy ratio
 ---
 
 For Peter Cushing and Christopher Lee's first film for Hammer, a guest review from the good Baron himself.

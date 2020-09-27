@@ -6,7 +6,7 @@ title: Tomorrow Never Dies (1997)
 grade: D+
 slug: tomorrow-never-dies-1997
 venue: Netflix
-venue_notes: 2015 Metro-Goldwyn-Mayer 1080p
+venue_notes: 2015 |  Metro-Goldwyn-Mayer | 1080p
 ---
 
 Reminds me of a great bit from Austin Powers:

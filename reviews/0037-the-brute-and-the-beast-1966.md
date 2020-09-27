@@ -6,7 +6,7 @@ title: The Brute and the Beast (1966)
 grade: C+
 slug: the-brute-and-the-beast-1966
 venue: DVD
-venue_notes: 2012 Wild East Productions | International Dub
+venue_notes: 2012 | Wild East Productions | International Dub
 ---
 
 The somersault yanked me right out.

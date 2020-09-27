@@ -6,7 +6,7 @@ title: Palm Springs (2020)
 grade: C+
 slug: palm-springs-2020
 venue: Hulu
-venue_notes: 2020 1080p
+venue_notes: 2020 | 1080p
 ---
 
 I wanted this to be weirder, darker, or funnier. It's fine, but I wanted this to be weirder, darker, or funnier.
