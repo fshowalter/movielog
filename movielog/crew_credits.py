@@ -1,7 +1,5 @@
-import json
-import os
 from dataclasses import asdict, dataclass
-from typing import Dict, List, Optional, Tuple
+from typing import List, Optional, Tuple
 
 from movielog import db, humanize, imdb_s3_downloader, imdb_s3_extractor, movies
 from movielog.logger import logger

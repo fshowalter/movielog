@@ -1,6 +1,5 @@
-import json
 import os
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from glob import glob
 from typing import Any, Dict, List, Optional, Sequence, Set
 

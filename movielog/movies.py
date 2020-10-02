@@ -1,5 +1,3 @@
-import json
-import os
 from dataclasses import dataclass
 from functools import lru_cache
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Union
@@ -70,8 +68,8 @@ class Movie(object):
 
         return MovieCollection(movies)
 
-    @classmethod  # noqa: WPS212
-    def s3_fields_are_valid(cls, fields: List[Optional[str]]) -> bool:
+    @classmethod
+    def s3_fields_are_valid(cls, fields: List[Optional[str]]) -> bool:  # noqa: WPS212
         if fields[1] != "movie":
             return False
         if fields[4] == "1":

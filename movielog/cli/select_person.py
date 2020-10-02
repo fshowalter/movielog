@@ -13,7 +13,7 @@ def prompt(search_func: Callable[[str], Sequence[Result]]) -> Optional[Result]:
     person = None
 
     while person is None:
-        query = ask.prompt(f"Name: ", rprompt="Use ^ and $ to anchor")
+        query = ask.prompt("Name: ", rprompt="Use ^ and $ to anchor")
 
         if query is None:
             break

@@ -13,7 +13,6 @@ from slugify import slugify
 from movielog import db, humanize, yaml_file
 from movielog.logger import logger
 
-
 SEQUENCE = "sequence"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 REVIEWS = "reviews"
@@ -225,74 +224,100 @@ def existing_review(imdb_id: str) -> Optional[Review]:
 
 
 def export() -> None:
-    logger.log("==== Begin exporting {}...", TABLE_NAME)
+    Exporter.export()
 
-    query = """
-        SELECT
-          DISTINCT(reviews.movie_imdb_id) AS imdb_id
-        , title
-        , year
-        , reviews.date
-        , reviews.sequence
-        , grade
-        , grade_value
-        , slug
-        , sort_title
-        , principal_cast_ids
-        FROM reviews
-        INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
-        INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
-        """
 
-    with db.connect() as connection:
-        review_rows = connection.execute(query).fetchall()
+class Exporter(object):
+    @classmethod
+    def fetch_reviews(cls) -> List[Dict[str, Any]]:
+        reviews = []
 
-    reviews = []
-
-    for review_row in review_rows:
-        review = dict(review_row)
-
-        review["directors"] = []
-
-        directors_query = """
+        query = """
             SELECT
-            full_name
-            FROM people
-            INNER JOIN directing_credits ON person_imdb_id = imdb_id
-            WHERE movie_imdb_id = "{0}";
-            """.format(
-            review["imdb_id"]
+            DISTINCT(reviews.movie_imdb_id) AS imdb_id
+            , title
+            , year
+            , reviews.date
+            , reviews.sequence
+            , grade
+            , grade_value
+            , slug
+            , sort_title
+            , principal_cast_ids
+            FROM reviews
+            INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
+            INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
+            """
+
+        rows = db.exec_query(query)
+
+        for row in rows:
+            reviews.append(dict(row))
+
+        return reviews
+
+    @classmethod
+    def fetch_directors_for_title_id(cls, title_imdb_id: str) -> List[Dict[str, Any]]:
+        query = """
+                SELECT
+                full_name
+                FROM people
+                INNER JOIN directing_credits ON person_imdb_id = imdb_id
+                WHERE movie_imdb_id = "{0}";
+                """.format(
+            title_imdb_id
         )
 
-        with db.connect() as connection:
-            director_rows = connection.execute(directors_query).fetchall()
+        rows = db.exec_query(query)
 
-        for director_row in director_rows:
-            review["directors"].append(dict(director_row))
+        directors = []
 
-        review["principal_cast"] = []
+        for row in rows:
+            directors.append(dict(row))
 
-        principal_cast_ids = review["principal_cast_ids"].split(",")
+        return directors
 
-        for principal_cast_id in principal_cast_ids:
-            principal_cast_query = """
-            SELECT
-            full_name
-            FROM people
-            WHERE imdb_id = "{0}";
-            """.format(
+    @classmethod
+    def fetch_principal_cast(
+        cls, principal_cast_ids_with_commas: str
+    ) -> List[Dict[str, Any]]:
+        principal_cast = []
+
+        for principal_cast_id in principal_cast_ids_with_commas.split(","):
+            query = """
+                SELECT
+                full_name
+                FROM people
+                WHERE imdb_id = "{0}";
+                """.format(
                 principal_cast_id
             )
 
-            with db.connect() as connection:
-                cast_rows = connection.execute(principal_cast_query).fetchall()
+            rows = db.exec_query(query)
 
-            for cast_row in cast_rows:
-                review["principal_cast"].append(dict(cast_row))
+            for row in rows:
+                principal_cast.append(dict(row))
 
-        reviews.append(review)
+        return principal_cast
 
-    file_path = os.path.join("export", "reviews.json")
+    @classmethod
+    def export(cls) -> None:
+        logger.log("==== Begin exporting {}...", TABLE_NAME)
 
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps([dict(row) for row in reviews]))
+        reviews = cls.fetch_reviews()
+
+        for review in reviews:
+            review["directors"] = cls.fetch_directors_for_title_id(
+                title_imdb_id=review["imdb_id"]
+            )
+
+            review["principal_cast"] = cls.fetch_principal_cast(
+                principal_cast_ids_with_commas=review["principal_cast_ids"]
+            )
+
+            reviews.append(review)
+
+        file_path = os.path.join("export", "reviews.json")
+
+        with open(file_path, "w") as output_file:
+            output_file.write(json.dumps([dict(row) for row in reviews]))

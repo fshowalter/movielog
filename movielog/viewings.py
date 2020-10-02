@@ -13,6 +13,7 @@ from movielog.logger import logger
 
 TABLE_NAME = "viewings"
 SEQUENCE = "sequence"
+BLANK_SPACE = " "
 
 
 @dataclass
@@ -35,8 +36,8 @@ class Viewing(yaml_file.Movie, yaml_file.WithSequence):
     @classmethod
     def build_sort_title(cls, title: str) -> str:
         title_lower = title.lower()
-        title_words = title.split(" ")
-        lower_words = title_lower.split(" ")
+        title_words = title.split(BLANK_SPACE)
+        lower_words = title_lower.split(BLANK_SPACE)
         articles = set(["a", "an", "the"])
 
         if (len(title_words) > 1) and (lower_words[0] in articles):
@@ -127,8 +128,19 @@ def export() -> None:
     logger.log("==== Begin exporting {}...", TABLE_NAME)
 
     query = """
-        SELECT imdb_id, title, year, date, sequence, venue, original_title, runtime_minutes, sort_title
-        FROM viewings INNER JOIN movies ON movie_imdb_id = imdb_id;
+        SELECT
+            imdb_id
+        , title
+        , year
+        , release_date
+        , date as viewing_date
+        , sequence
+        , venue
+        , original_title
+        , sort_title
+        FROM viewings
+        INNER JOIN movies ON viewings.movie_imdb_id = imdb_id
+        INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id;
         """
 
     with db.connect() as connection:

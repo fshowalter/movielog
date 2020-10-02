@@ -7,6 +7,7 @@ from movielog import db, watchlist_collection, watchlist_person
 from movielog.logger import logger
 
 TABLE_NAME = "watchlist_titles"
+SLUG = "slug"
 
 
 @dataclass
@@ -164,6 +165,7 @@ class WatchlistTitleExport(object):
     imdb_id: str
     title: str
     year: str
+    release_date: str
     directors: List[WatchlistPersonExport]
     performers: List[WatchlistPersonExport]
     writers: List[WatchlistPersonExport]
@@ -171,82 +173,94 @@ class WatchlistTitleExport(object):
 
 
 def export() -> None:
-    logger.log("==== Begin exporting {}...", TABLE_NAME)
-    query = """
-        SELECT
-          movies.imdb_id
-        , title
-        , year
-        , directors.imdb_id AS 'director_imdb_id'
-        , directors.full_name AS 'director_name'
-        , performers.imdb_id AS 'performer_imdb_id'
-        , performers.full_name AS 'performer_name'
-        , writers.imdb_id AS 'writer_imdb_id'
-        , writers.full_name AS 'writer_name'
-        , collection_name AS 'collection'
-        , slug
-        FROM watchlist_titles
-        LEFT JOIN movies ON movie_imdb_id = movies.imdb_id
-        LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
-        LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
-        LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
-        ORDER BY
-            year ASC
-        , movies.imdb_id ASC;
-    """
+    Exporter.export()
 
-    with db.connect() as connection:
-        rows = connection.execute(query).fetchall()
 
-    titles: Dict[str, WatchlistTitleExport] = {}
+class Exporter(object):
+    @classmethod
+    def write_file(cls, titles: List[WatchlistTitleExport]) -> None:
+        file_path = os.path.join("export", "watchlist_titles.json")
 
-    for row in rows:
-        title = titles.setdefault(
-            row["imdb_id"],
-            WatchlistTitleExport(
-                imdb_id=row["imdb_id"],
-                title=row["title"],
-                year=row["year"],
-                directors=[],
-                performers=[],
-                writers=[],
-                collections=[],
-            ),
-        )
+        with open(file_path, "w") as output_file:
+            output_file.write(json.dumps([asdict(title) for title in titles]))
 
-        if row["director_imdb_id"]:
-            title.directors.append(
-                WatchlistPersonExport(
-                    imdb_id=row["director_imdb_id"],
-                    name=row["director_name"],
-                    slug=row["slug"],
+    @classmethod
+    def export(cls) -> None:
+        logger.log("==== Begin exporting {}...", TABLE_NAME)
+        query = """
+            SELECT
+            movies.imdb_id
+            , title
+            , year
+            , release_date
+            , directors.imdb_id AS 'director_imdb_id'
+            , directors.full_name AS 'director_name'
+            , performers.imdb_id AS 'performer_imdb_id'
+            , performers.full_name AS 'performer_name'
+            , writers.imdb_id AS 'writer_imdb_id'
+            , writers.full_name AS 'writer_name'
+            , collection_name AS 'collection'
+            , slug
+            FROM watchlist_titles
+            LEFT JOIN movies ON watchlist_titles.movie_imdb_id = movies.imdb_id
+            LEFT JOIN release_dates ON release_dates.movie_imdb_id = movies.imdb_id
+            LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
+            LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
+            LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
+            ORDER BY
+                year ASC
+            , movies.imdb_id ASC;
+        """
+
+        rows = db.exec_query(query)
+
+        titles: Dict[str, WatchlistTitleExport] = {}
+
+        for row in rows:
+            title = titles.setdefault(
+                row["imdb_id"],
+                WatchlistTitleExport(
+                    imdb_id=row["imdb_id"],
+                    title=row["title"],
+                    year=row["year"],
+                    release_date=row["release_date"],
+                    directors=[],
+                    performers=[],
+                    writers=[],
+                    collections=[],
+                ),
+            )
+
+            if row["director_imdb_id"]:
+                title.directors.append(
+                    WatchlistPersonExport(
+                        imdb_id=row["director_imdb_id"],
+                        name=row["director_name"],
+                        slug=row[SLUG],
+                    )
                 )
-            )
 
-        if row["performer_imdb_id"]:
-            title.performers.append(
-                WatchlistPersonExport(
-                    imdb_id=row["performer_imdb_id"],
-                    name=row["performer_name"],
-                    slug=row["slug"],
+            if row["performer_imdb_id"]:
+                title.performers.append(
+                    WatchlistPersonExport(
+                        imdb_id=row["performer_imdb_id"],
+                        name=row["performer_name"],
+                        slug=row[SLUG],
+                    )
                 )
-            )
 
-        if row["writer_imdb_id"]:
-            title.writers.append(
-                WatchlistPersonExport(
-                    imdb_id=row["writer_imdb_id"],
-                    name=row["writer_name"],
-                    slug=row["slug"],
+            if row["writer_imdb_id"]:
+                title.writers.append(
+                    WatchlistPersonExport(
+                        imdb_id=row["writer_imdb_id"],
+                        name=row["writer_name"],
+                        slug=row[SLUG],
+                    )
                 )
-            )
 
-        if row["collection"]:
-            title.collections.append(
-                WatchlistCollectionExport(name=row["collection"], slug=row["slug"])
-            )
+            if row["collection"]:
+                title.collections.append(
+                    WatchlistCollectionExport(name=row["collection"], slug=row["slug"])
+                )
 
-    file_path = os.path.join("export", "watchlist_titles.json")
-
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps([asdict(title) for title in titles.values()]))
+        cls.write_file(titles=list(titles.values()))

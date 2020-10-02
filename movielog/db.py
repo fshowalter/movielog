@@ -12,6 +12,7 @@ DB_DIR = "db"
 
 Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
+Row = sqlite3.Row
 
 DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
 DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
