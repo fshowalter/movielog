@@ -1,4 +1,4 @@
-from movielog import exporter, imdb_s3_orchestrator
+from movielog import exporter, imdb_s3_orchestrator, release_dates, viewings
 from movielog.cli import (
     add_viewing,
     confirm,
@@ -19,6 +19,7 @@ def prompt() -> None:
         (reload_viewings.prompt, "<cyan>Reload Viewings Table</cyan>"),
         (reload_reviews.prompt, "<cyan>Reload Reviews Table</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
+        (update_release_dates, "<cyan>Update Release Dates</cyan>"),
         (None, "Exit"),
     ]
 
@@ -29,6 +30,10 @@ def prompt() -> None:
     if option_function:
         option_function()
         prompt()
+
+
+def update_release_dates() -> None:
+    release_dates.update(imdb_ids=viewings.imdb_ids())
 
 
 def export() -> None:

@@ -2,6 +2,7 @@ import fnmatch
 import time
 from collections import ChainMap
 from dataclasses import dataclass
+from datetime import date, datetime
 from typing import List, Optional, Sequence, Set, Tuple, Union
 
 import imdb
@@ -9,6 +10,9 @@ import imdb
 silent_ids: Set[str] = set()
 no_sound_mix_ids: Set[str] = set()
 imdb_scraper = imdb.IMDb(reraiseExceptions=True)
+
+TITLE = "title"
+YEAR = "year"
 
 
 @dataclass
@@ -27,8 +31,8 @@ class CreditForPerson(TitleBasic):
     def from_imdb_movie(cls, imdb_movie: imdb.Movie.Movie) -> "CreditForPerson":
         return cls(
             imdb_id=f"tt{imdb_movie.movieID}",
-            year=imdb_movie.get("year", "????"),
-            title=imdb_movie["title"],
+            year=imdb_movie.get(YEAR, "????"),
+            title=imdb_movie[TITLE],
             notes=imdb_movie.notes,
             in_production=imdb_movie.get("status"),
         )
@@ -82,10 +86,75 @@ def countries_for_title(
 
     return TitleDetail(
         imdb_id=title_imdb_id,
-        year=imdb_movie.get("year", "????"),
-        title=imdb_movie["title"],
+        year=imdb_movie.get(YEAR, "????"),
+        title=imdb_movie[TITLE],
         countries=imdb_movie.get("countries", []),
     )
+
+
+@dataclass
+class TitleReleaseDate(TitleBasic):
+    release_date: date
+    notes: Optional[str]
+
+    @classmethod
+    def parse_json_date(cls, json_date: str) -> date:
+        try:
+            return datetime.strptime(json_date, "%d %B %Y").date()  # noqa: WPS323
+        except ValueError:
+            try:  # noqa: WPS505
+                return datetime.strptime(json_date, "%B %Y").date()
+            except ValueError:
+                return datetime.strptime(json_date, "%Y").date()
+
+
+def release_date_for_title(
+    title_imdb_id: str,
+) -> TitleReleaseDate:
+    imdb_movie = imdb_scraper.get_movie(
+        title_imdb_id[2:], info=["main", "release_dates"]
+    )
+
+    raw_release_dates = imdb_movie.get("raw release dates")
+
+    if not raw_release_dates:
+        return TitleReleaseDate(
+            imdb_id=title_imdb_id,
+            title=imdb_movie[TITLE],
+            year=imdb_movie[YEAR],
+            release_date=date(imdb_movie.get(YEAR), 1, 1),
+            notes="",
+        )
+
+    release_dates: List[TitleReleaseDate] = []
+
+    for release_date_json in raw_release_dates:
+        release_dates.append(
+            TitleReleaseDate(
+                imdb_id=title_imdb_id,
+                title=imdb_movie[TITLE],
+                year=imdb_movie[YEAR],
+                release_date=TitleReleaseDate.parse_json_date(
+                    release_date_json.get("date", "").strip()
+                ),
+                notes=release_date_json.get("notes", "").strip(),
+            )
+        )
+
+    most_recent = sorted(release_dates, key=lambda rd: rd.release_date)[0]
+
+    if most_recent.release_date.year != int(imdb_movie.get(YEAR)):
+        return TitleReleaseDate(
+            imdb_id=title_imdb_id,
+            title=imdb_movie[TITLE],
+            year=imdb_movie[YEAR],
+            release_date=date(imdb_movie.get(YEAR), 1, 1),
+            notes="Given release date: {0} {1}".format(
+                most_recent.release_date.isoformat(), most_recent.notes
+            ),
+        )
+
+    return most_recent
 
 
 def cast_credits_for_title(
@@ -94,7 +163,7 @@ def cast_credits_for_title(
     imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
 
     title_basic = TitleBasic(
-        imdb_id=title_imdb_id, title=imdb_movie["title"], year=imdb_movie["year"]
+        imdb_id=title_imdb_id, title=imdb_movie[TITLE], year=imdb_movie[YEAR]
     )
 
     cast_credit_list: List[CastCreditForTitle] = []
