@@ -232,7 +232,8 @@ class Exporter(object):
     def fetch_reviews(cls) -> List[Dict[str, Any]]:
         reviews = []
 
-        query = """
+        rows = db.exec_query(
+            """
             SELECT
             DISTINCT(reviews.movie_imdb_id) AS imdb_id
             , title
@@ -248,8 +249,7 @@ class Exporter(object):
             INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
             INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
             """
-
-        rows = db.exec_query(query)
+        )  # noqa: WSP355
 
         for row in rows:
             reviews.append(dict(row))
@@ -258,17 +258,17 @@ class Exporter(object):
 
     @classmethod
     def fetch_directors_for_title_id(cls, title_imdb_id: str) -> List[Dict[str, Any]]:
-        query = """
+        rows = db.exec_query(
+            """
                 SELECT
                 full_name
                 FROM people
                 INNER JOIN directing_credits ON person_imdb_id = imdb_id
                 WHERE movie_imdb_id = "{0}";
                 """.format(
-            title_imdb_id
+                title_imdb_id
+            )
         )
-
-        rows = db.exec_query(query)
 
         directors = []
 
@@ -283,17 +283,19 @@ class Exporter(object):
     ) -> List[Dict[str, Any]]:
         principal_cast = []
 
-        for principal_cast_id in principal_cast_ids_with_commas.split(","):
-            query = """
+        principal_cast_ids = principal_cast_ids_with_commas.split(",")
+
+        for principal_cast_id in principal_cast_ids:
+            rows = db.exec_query(
+                """
                 SELECT
                 full_name
                 FROM people
                 WHERE imdb_id = "{0}";
                 """.format(
-                principal_cast_id
+                    principal_cast_id
+                )
             )
-
-            rows = db.exec_query(query)
 
             for row in rows:
                 principal_cast.append(dict(row))
@@ -314,8 +316,6 @@ class Exporter(object):
             review["principal_cast"] = cls.fetch_principal_cast(
                 principal_cast_ids_with_commas=review["principal_cast_ids"]
             )
-
-            reviews.append(review)
 
         file_path = os.path.join("export", "reviews.json")
 
