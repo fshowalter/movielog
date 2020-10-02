@@ -1,7 +1,7 @@
 import json
 import os
 from dataclasses import asdict, dataclass
-from typing import Callable, Dict, List, Optional, Type
+from typing import Callable, Dict, List, Optional, Set, Type
 
 from movielog import db, watchlist_collection, watchlist_person
 from movielog.logger import logger
@@ -121,12 +121,7 @@ class WatchlistTitlesTable(db.Table):
         cls.validate(titles)
 
 
-@logger.catch
-def update() -> None:
-    logger.log("==== Begin updating {}...", TABLE_NAME)
-
-    WatchlistTitlesTable.recreate()
-
+def load_all(update_from_imdb: bool = False) -> List[WatchlistTitle]:
     titles: List[WatchlistTitle] = []
 
     for collection in watchlist_collection.all_items():
@@ -139,12 +134,20 @@ def update() -> None:
     ]
 
     for person_type in person_types:
-        person_type.refresh_all_item_titles()
+        if update_from_imdb:
+            person_type.refresh_all_item_titles()
 
         for person in person_type.all_items():
             titles.extend(WatchlistTitle.titles_for_person(person))
 
-    WatchlistTitlesTable.insert_watchlist_titles(titles)
+    return titles
+
+
+@logger.catch
+def update() -> None:
+    logger.log("==== Begin updating {}...", TABLE_NAME)
+
+    WatchlistTitlesTable.insert_watchlist_titles(load_all(update_from_imdb=True))
 
 
 @dataclass
@@ -170,6 +173,10 @@ class WatchlistTitleExport(object):
     performers: List[WatchlistPersonExport]
     writers: List[WatchlistPersonExport]
     collections: List[WatchlistCollectionExport]
+
+
+def imdb_ids() -> Set[str]:
+    return set([title.movie_imdb_id for title in load_all()])
 
 
 def export() -> None:

@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, performing_credits, yaml_file
+from movielog import db, humanize, performing_credits, release_dates, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
@@ -122,6 +122,7 @@ def update() -> None:
     ViewingsTable.insert_viewings(viewings)
 
     performing_credits.update(imdb_ids())
+    release_dates.update(imdb_ids())
 
 
 def export() -> None:

@@ -1,6 +1,11 @@
 from typing import Sequence
 
-from movielog import watchlist_collection, watchlist_person, watchlist_titles_table
+from movielog import (
+    release_dates,
+    watchlist_collection,
+    watchlist_person,
+    watchlist_titles_table,
+)
 
 Director = watchlist_person.Director
 Performer = watchlist_person.Performer
@@ -30,3 +35,4 @@ def add_collection(name: str) -> Collection:
 
 def update_watchlist_titles_table() -> None:
     watchlist_titles_table.update()
+    release_dates.update(watchlist_titles_table.imdb_ids())

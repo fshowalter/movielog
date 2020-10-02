@@ -6,7 +6,7 @@ title: The Black Watch (1929)
 grade: F
 slug: the-black-watch-1929
 venue: iTunes
-venue_notes: 20th Century Fox | 1080p
+venue_notes: 2015 | 20th Century Fox | 1080p
 ---
 
 John Ford's first sound picture. Victor McLaglan plays a British Army Captain who decamps for India on a secret mission to infiltrate the forces of Yasmani, a mysterious figure threatening the Crown's interests. Myrna Loy plays Yasmani, carrying over her silent-era typecasting as an exotic vamp.
