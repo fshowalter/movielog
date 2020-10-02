@@ -3,7 +3,7 @@ import time
 from collections import ChainMap
 from dataclasses import dataclass
 from datetime import date, datetime
-from typing import List, Optional, Sequence, Set, Tuple, Union
+from typing import Dict, List, Optional, Sequence, Set, Tuple, Union
 
 import imdb
 
@@ -13,6 +13,7 @@ imdb_scraper = imdb.IMDb(reraiseExceptions=True)
 
 TITLE = "title"
 YEAR = "year"
+EMPTY_STRING = ""
 
 
 @dataclass
@@ -107,6 +108,13 @@ class TitleReleaseDate(TitleBasic):
             except ValueError:
                 return datetime.strptime(json_date, "%Y").date()
 
+    @classmethod
+    def is_just_a_year_from_romania(cls, json: Dict[str, str]) -> bool:
+        return (
+            json.get("country", EMPTY_STRING).strip() == "Romania"
+            and len(json.get("date", EMPTY_STRING).strip()) == 4
+        )
+
 
 def release_date_for_title(
     title_imdb_id: str,
@@ -123,21 +131,24 @@ def release_date_for_title(
             title=imdb_movie[TITLE],
             year=imdb_movie[YEAR],
             release_date=date(imdb_movie.get(YEAR), 1, 1),
-            notes="",
+            notes=EMPTY_STRING,
         )
 
     release_dates: List[TitleReleaseDate] = []
 
     for release_date_json in raw_release_dates:
+        if TitleReleaseDate.is_just_a_year_from_romania(release_date_json):
+            continue
+
         release_dates.append(
             TitleReleaseDate(
                 imdb_id=title_imdb_id,
                 title=imdb_movie[TITLE],
                 year=imdb_movie[YEAR],
                 release_date=TitleReleaseDate.parse_json_date(
-                    release_date_json.get("date", "").strip()
+                    release_date_json.get("date", EMPTY_STRING).strip()
                 ),
-                notes=release_date_json.get("notes", "").strip(),
+                notes=release_date_json.get("notes", EMPTY_STRING).strip(),
             )
         )
 
