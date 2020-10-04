@@ -17,6 +17,8 @@ SEQUENCE = "sequence"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 REVIEWS = "reviews"
 TABLE_NAME = REVIEWS
+IMDB_ID = "imdb_id"
+TITLE = "title"
 
 
 @dataclass  # noqa: WPS214
@@ -32,7 +34,7 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
     @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Review":
-        title, year = cls.split_title_and_year(yaml_object["title"])
+        title, year = cls.split_title_and_year(yaml_object[TITLE])
 
         return Review(
             file_path=file_path,
@@ -41,7 +43,7 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
             grade_value=cls.grade_value_for_grade(yaml_object["grade"]),
             title=title,
             year=year,
-            imdb_id=yaml_object["imdb_id"],
+            imdb_id=yaml_object[IMDB_ID],
             sequence=yaml_object["sequence"],
             slug=yaml_object["slug"],
             venue=yaml_object["venue"],
@@ -91,8 +93,8 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
         return {
             SEQUENCE: self.sequence,
             "date": self.date,
-            "imdb_id": self.imdb_id,
-            "title": self.title_with_year,
+            IMDB_ID: self.imdb_id,
+            TITLE: self.title_with_year,
             "grade": self.grade,
             "slug": self.generate_slug(),
             "venue": self.venue,
@@ -237,6 +239,7 @@ class Exporter(object):
             SELECT
             DISTINCT(reviews.movie_imdb_id) AS imdb_id
             , title
+            , original_title
             , year
             , reviews.date
             , reviews.sequence
@@ -281,6 +284,33 @@ class Exporter(object):
         return directors
 
     @classmethod
+    def fetch_aka_titles_for_title_id(
+        cls, title_imdb_id: str, title: str, original_title: str
+    ) -> List[Dict[str, Any]]:
+        rows = db.exec_query(
+            """
+                SELECT
+                title
+                FROM aka_titles
+                WHERE region = "US"
+                AND movie_imdb_id = "{0}" AND title != "{1}";
+                """.format(
+                title_imdb_id, title
+            )
+        )
+
+        aka_titles = []
+
+        for row in rows:
+            aka_titles.append(row[TITLE])
+
+        if original_title != title:
+            if original_title not in aka_titles:
+                aka_titles.append(original_title)
+
+        return aka_titles
+
+    @classmethod
     def fetch_principal_cast(
         cls, principal_cast_ids_with_commas: str
     ) -> List[Dict[str, Any]]:
@@ -313,7 +343,13 @@ class Exporter(object):
 
         for review in reviews:
             review["directors"] = cls.fetch_directors_for_title_id(
-                title_imdb_id=review["imdb_id"]
+                title_imdb_id=review[IMDB_ID]
+            )
+
+            review["aka_titles"] = cls.fetch_aka_titles_for_title_id(
+                title_imdb_id=review[IMDB_ID],
+                title=review[TITLE],
+                original_title=review["original_title"],
             )
 
             review["principal_cast"] = cls.fetch_principal_cast(
