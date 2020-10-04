@@ -3,7 +3,7 @@ import time
 from collections import ChainMap
 from dataclasses import dataclass
 from datetime import date, datetime
-from typing import Dict, List, Optional, Sequence, Set, Tuple, Union
+from typing import List, Optional, Sequence, Set, Tuple, Union
 
 import imdb
 
@@ -99,24 +99,17 @@ class TitleReleaseDate(TitleBasic):
     notes: Optional[str]
 
     @classmethod
-    def parse_json_date(cls, json_date: str) -> date:
+    def parse_json_date(cls, json_date: str) -> Optional[date]:
         try:
             return datetime.strptime(json_date, "%d %B %Y").date()  # noqa: WPS323
         except ValueError:
             try:  # noqa: WPS505
                 return datetime.strptime(json_date, "%B %Y").date()
             except ValueError:
-                return datetime.strptime(json_date, "%Y").date()
-
-    @classmethod
-    def is_just_a_year_from_romania(cls, json: Dict[str, str]) -> bool:
-        return (
-            json.get("country", EMPTY_STRING).strip() == "Romania"
-            and len(json.get("date", EMPTY_STRING).strip()) == 4
-        )
+                return None
 
 
-def release_date_for_title(
+def release_date_for_title(  # noqa: WPS210
     title_imdb_id: str,
 ) -> TitleReleaseDate:
     imdb_movie = imdb_scraper.get_movie(
@@ -131,13 +124,17 @@ def release_date_for_title(
             title=imdb_movie[TITLE],
             year=imdb_movie[YEAR],
             release_date=date(imdb_movie.get(YEAR), 1, 1),
-            notes=EMPTY_STRING,
+            notes="No release date",
         )
 
     release_dates: List[TitleReleaseDate] = []
 
     for release_date_json in raw_release_dates:
-        if TitleReleaseDate.is_just_a_year_from_romania(release_date_json):
+        release_date = TitleReleaseDate.parse_json_date(
+            release_date_json.get("date", EMPTY_STRING).strip()
+        )
+
+        if not release_date:
             continue
 
         release_dates.append(
@@ -145,11 +142,18 @@ def release_date_for_title(
                 imdb_id=title_imdb_id,
                 title=imdb_movie[TITLE],
                 year=imdb_movie[YEAR],
-                release_date=TitleReleaseDate.parse_json_date(
-                    release_date_json.get("date", EMPTY_STRING).strip()
-                ),
+                release_date=release_date,
                 notes=release_date_json.get("notes", EMPTY_STRING).strip(),
             )
+        )
+
+    if not release_dates:
+        return TitleReleaseDate(
+            imdb_id=title_imdb_id,
+            title=imdb_movie[TITLE],
+            year=imdb_movie[YEAR],
+            release_date=date(imdb_movie.get(YEAR), 1, 1),
+            notes="No release date",
         )
 
     most_recent = sorted(release_dates, key=lambda rd: rd.release_date)[0]
