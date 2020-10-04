@@ -170,7 +170,7 @@ def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
     WatchlistTitlesTable.recreate()
-    WatchlistTitlesTable.insert_watchlist_titles(load_all(update_from_imdb=False))
+    WatchlistTitlesTable.insert_watchlist_titles(load_all(update_from_imdb=True))
 
 
 @dataclass
