@@ -240,6 +240,7 @@ class Exporter(object):
             , year
             , reviews.date
             , reviews.sequence
+            , release_date
             , grade
             , grade_value
             , slug
@@ -247,9 +248,11 @@ class Exporter(object):
             , principal_cast_ids
             FROM reviews
             INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
-            INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id;
+            INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
+            INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id
+            ORDER BY sort_title ASC;
             """
-        )  # noqa: WSP355
+        )  # noqa: WPS355
 
         for row in rows:
             reviews.append(dict(row))

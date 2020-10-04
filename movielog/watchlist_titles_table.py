@@ -18,6 +18,21 @@ class WatchlistTitle(object):
     performer_imdb_id: Optional[str] = None
     writer_imdb_id: Optional[str] = None
     collection_name: Optional[str] = None
+    sort_title: Optional[str] = None
+
+    @classmethod
+    def build_sort_title(cls, title: str) -> str:
+        title_lower = title.lower()
+        title_words = title.split(" ")
+        lower_words = title_lower.split(" ")
+        articles = set(["a", "an", "the"])
+
+        if (len(title_words) > 1) and (lower_words[0] in articles):
+            return "{0}, {1}".format(
+                " ".join(title_words[1 : len(title_words)]), title_words[0]
+            )
+
+        return title
 
     @classmethod
     def titles_for_collection(
@@ -31,6 +46,7 @@ class WatchlistTitle(object):
                     movie_imdb_id=collection_title.imdb_id,
                     collection_name=collection.name,
                     slug=collection.slug,
+                    sort_title=cls.build_sort_title(collection_title.title),
                 )
             )
 
@@ -50,16 +66,19 @@ class WatchlistTitle(object):
                 movie_imdb_id=title.imdb_id,
                 director_imdb_id=person.imdb_id,
                 slug=person.slug,
+                sort_title=cls.build_sort_title(title.title),
             ),
             watchlist_person.Performer: lambda title: cls(
                 movie_imdb_id=title.imdb_id,
                 performer_imdb_id=person.imdb_id,
                 slug=person.slug,
+                sort_title=cls.build_sort_title(title.title),
             ),
             watchlist_person.Writer: lambda title: cls(
                 movie_imdb_id=title.imdb_id,
                 writer_imdb_id=person.imdb_id,
                 slug=person.slug,
+                sort_title=cls.build_sort_title(title.title),
             ),
         }
 
@@ -87,6 +106,7 @@ class WatchlistTitlesTable(db.Table):
             "writer_imdb_id" TEXT
                 REFERENCES people(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "collection_name" TEXT,
+            "sort_title" TEXT,
             "slug" TEXT NOT NULL);
         """
 
@@ -99,6 +119,7 @@ class WatchlistTitlesTable(db.Table):
               performer_imdb_id,
               writer_imdb_id,
               collection_name,
+              sort_title,
               slug)
           VALUES(
               :movie_imdb_id,
@@ -106,6 +127,7 @@ class WatchlistTitlesTable(db.Table):
               :performer_imdb_id,
               :writer_imdb_id,
               :collection_name,
+              :sort_title,
               :slug);
         """.format(
             TABLE_NAME
@@ -147,7 +169,8 @@ def load_all(update_from_imdb: bool = False) -> List[WatchlistTitle]:
 def update() -> None:
     logger.log("==== Begin updating {}...", TABLE_NAME)
 
-    WatchlistTitlesTable.insert_watchlist_titles(load_all(update_from_imdb=True))
+    WatchlistTitlesTable.recreate()
+    WatchlistTitlesTable.insert_watchlist_titles(load_all(update_from_imdb=False))
 
 
 @dataclass
@@ -168,6 +191,7 @@ class WatchlistTitleExport(object):
     imdb_id: str
     title: str
     year: str
+    sort_title: str
     release_date: str
     directors: List[WatchlistPersonExport]
     performers: List[WatchlistPersonExport]
@@ -194,12 +218,15 @@ class Exporter(object):
     @classmethod
     def export(cls) -> None:
         logger.log("==== Begin exporting {}...", TABLE_NAME)
-        query = """
+
+        rows = db.exec_query(
+            """
             SELECT
             movies.imdb_id
             , title
             , year
             , release_date
+            , sort_title
             , directors.imdb_id AS 'director_imdb_id'
             , directors.full_name AS 'director_name'
             , performers.imdb_id AS 'performer_imdb_id'
@@ -215,11 +242,10 @@ class Exporter(object):
             LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
             LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
             ORDER BY
-                year ASC
+                release_date ASC
             , movies.imdb_id ASC;
         """
-
-        rows = db.exec_query(query)
+        )  # noqa: WPS355
 
         titles: Dict[str, WatchlistTitleExport] = {}
 
@@ -230,6 +256,7 @@ class Exporter(object):
                     imdb_id=row["imdb_id"],
                     title=row["title"],
                     year=row["year"],
+                    sort_title=row["sort_title"],
                     release_date=row["release_date"],
                     directors=[],
                     performers=[],
