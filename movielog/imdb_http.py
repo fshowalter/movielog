@@ -1,6 +1,5 @@
 import fnmatch
 import time
-from collections import ChainMap
 from dataclasses import dataclass
 from datetime import date, datetime
 from typing import List, Optional, Sequence, Set, Tuple, Union
@@ -199,7 +198,7 @@ def credits_for_person(
     person_imdb_id: str, credit_key: str
 ) -> Sequence[CreditForPerson]:
     imdb_person = imdb_scraper.get_person(person_imdb_id[2:])
-    filmography = dict(ChainMap(*imdb_person["filmography"]))
+    filmography = imdb_person["filmography"]
 
     if credit_key == "performer":
         filmography["performer"] = filmography.pop("actor", [],) + filmography.pop(
