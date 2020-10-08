@@ -31,11 +31,11 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
         imdb_http.imdb_scraper,
         "get_person",
         return_value={
-            "filmography": [
-                {"actor": [actor_movie]},
-                {"director": [director_movie]},
-                {"writer": [writer_movie]},
-            ]
+            "filmography": {
+                "actor": [actor_movie],
+                "director": [director_movie],
+                "writer": [writer_movie],
+            },
         },
     )
 

@@ -9,12 +9,12 @@ venue: Watch TCM
 venue_notes: Unknown | 1080p
 ---
 
-Peter Cushing's second film. He has a minor speaking part as one of the Oxford students who hassle Laural and Hardy.
+Peter Cushing’s second film. He has a minor speaking part playing one of the Oxford students who hassle Laurel and Hardy.
 
-I can appreciate the skill that goes into Laural and Hardy's routines. In this film, Stan performs a three-handed bit that's almost a magic trick. But I never found their comedy funny.
+<!-- end -->
 
-I'll pause for your shocked gasp.
+I appreciate the skill inherit in Laurel and Hardy's routines. In this film, Stan performs a three-handed bit that could pass for a magic trick. They’re talented, but they don’t make me laugh.
 
-What can I say? I don't like most screwball comedies either. Maybe it's because the humor flows from the characters' myopic self-focus, a trait that irks me. Whatever the reason, it doesn't work for me.
+Maybe it’s how the humor flows from the characters' myopic self-focus, a trait that irks me. Or maybe growing up on '80s comedies broke my sense of humor. Whatever the reason, the pair's comedy doesn’t work for me.
 
-That said, I did enjoy the last few minutes, when Stan--playing against type as a polished nobleman--berates Ollie telling him, "Get your chin up... both of them." That made me chuckle.
+That said, I enjoyed the last few minutes when Stan--playing against type as a polished nobleman--berates Ollie telling him, “Get your chin up!” a pause, then “Both of them!” _That_ made me chuckle.
