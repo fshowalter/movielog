@@ -9,4 +9,4 @@ venue: Blu-ray
 venue_notes: 2018 | RLJ Entertainment
 ---
 
-A muddled sequel that plays like an ultra-gory episode of _Doctor Who_. The script throws in robots, a talking parasite, another lycanthrope, shape-shifters (that don't shift-shape), and a hockey match finale that has WolfCop playing goalie. The first film's strength came from embracing and amplifying cop-movie tropes. This entry feels less focused, like a middle chapter in a bigger sci-fi saga. Not without laughs, but disappointing.
+A muddled sequel that plays like an ultra-gory episode of _Doctor Who_. The script throws in robots, a talking parasite, another lycanthrope, shape-shifters (that don't shift-shape), and a hockey match finale that has WolfCop playing goalie. The <span data-imdb-id="tt2781516">first film</span>'s strength came from embracing and amplifying cop-movie tropes. This entry feels less focused, like a middle chapter in a bigger sci-fi saga. Not without laughs, but disappointing.
