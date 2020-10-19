@@ -3,7 +3,7 @@ sequence: 20
 date: 2020-08-19
 imdb_id: tt0049646
 title: The Quatermass Xperiment (1955)
-grade: B
+grade: B-
 slug: the-quatermass-xperiment-1955
 venue: Blu-ray
 venue_notes: 2014 | Kino Lorber

@@ -3,7 +3,7 @@ sequence: 51
 date: 2020-10-11
 imdb_id: tt0095253
 title: The Great Outdoors (1988)
-grade: C+
+grade: C
 slug: the-great-outdoors-1988
 venue: iTunes
 venue_notes: 2016 | Universal Studios | 1080p

@@ -13,7 +13,7 @@ For Peter Cushing and Christopher Lee's first film for Hammer, a guest review fr
 
 <!-- end -->
 
-> Paul, a prominent academic, lands a comfy job tutoring a young orphaned Baron. Years pass and the Baron proves an exceptional student. Together, they reach a scientific breakthrough. They have brough an animal back to life.
+> Paul, a prominent academic, lands a comfy job tutoring a young orphaned Baron. Years pass and the Baron proves an exceptional student. Together, they reach a scientific breakthrough. They have brought an animal back to life.
 >
 > Eager for fame, Paul pushes them to share their findings with the world, but the Baron sees the bigger picture. Their journey has just begun, and sharing now would prove a distraction. Paul relents and the two continue.
 >
