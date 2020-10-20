@@ -13,7 +13,7 @@ The somersault yanked me right out.
 
 <!-- end -->
 
-Franco Nero plays Tom, a prospector who receives a vague message urging him home. Once there, he finds his brother Jeff—played by George Hilton—has sold the family house and lives as a drunk in a small hovel. Even worse, the town cowers in fear of a land baron named Scott and his psychopathic son.
+Franco Nero plays Tom, a prospector who receives a vague message urging him home. Once there, he finds his brother Jeff--played by George Hilton--has sold the family house and lives as a drunk in a small hovel. Even worse, the town cowers in fear of a land baron named Scott and his psychopathic son.
 
 A familiar setup, but the script offers novel twists. Early on, Nero echoes Clint Eastwood's man-with-no-name character, but when push-comes-to-shove he's whipped like a dog. By the third act, his performance skews closer to Bill Holden, opening the door for Hilton, whose physical and charismatic turn steals the film.
 

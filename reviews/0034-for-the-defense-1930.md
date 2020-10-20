@@ -19,7 +19,7 @@ Early one morning, Irene's driving Jack home after a late night out. Pie-eyed dr
 
 Irene persuades Bill to take Jack's case without revealing her involvement. Things look bad for Jack. Bill soon realizes Irene's role in the accident and must choose between her reputation and Jack's liberty.
 
-As melodramas go, it's not a bad one. Early on, when Bill's riding high, his urbane charm, affinity for alcohol[^1], and underworld connections foreshadow Powell's famous turn as Nick Charles in <span data-imdb-id="tt0025878">The Thin Man</span>. His chemistry with Francis is good, and she doesn't overact her part.
+As melodramas go, it's not a bad one. Early on, when Bill's riding high, his urbane charm, affinity for alcohol[^1], and underworld connections foreshadow Powell's famous turn as Nick Charles in <span data-imdb-id="tt0025878">_The Thin Man_</span>. His chemistry with Francis is good, and she doesn't overact her part.
 
 But the film sees both of them delivering lines and, mid-sentence, turning to gaze at nothing in particular for dramatic effect. It's an annoying affectation that mars an otherwise solid hour and five minutes.
 

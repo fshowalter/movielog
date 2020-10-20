@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2012 | 20th Century Fox | Grandeur Version
 ---
 
-John Wayne's first starring role. He's good but raw—on par with the poverty-row oaters he'd headline for the next nine years. Here he plays a trapper leading a wagon train up the Oregon Trail. The script includes the requisite character drama and romantic interest. Disregard them. The production itself is the real star.
+John Wayne's first starring role. He's good but raw--on par with the poverty-row oaters he'd headline for the next nine years. Here he plays a trapper leading a wagon train up the Oregon Trail. The script includes the requisite character drama and romantic interest. Disregard them. The production itself is the real star.
 
 <!-- end -->
 
