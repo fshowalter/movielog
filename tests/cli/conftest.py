@@ -5,7 +5,7 @@ from prompt_toolkit.application.current import create_app_session
 from prompt_toolkit.input import create_pipe_input
 from prompt_toolkit.input.posix_pipe import PipeInput
 
-from movielog import movies, people, imdb_data
+from movielog import imdb_data, movies, people
 from tests.cli.typehints import CreditTuple, MovieTuple
 
 
@@ -23,10 +23,12 @@ class SeedMovieBuilder(object):
         self.people: List[people.Person] = []
 
         for movie_tuple in movie_tuples:
+            title = movie_tuple[1]
+
             movie = movies.Movie(
                 imdb_id=movie_tuple[0],
-                title=movie_tuple[1],
-                original_title=movie_tuple[1],
+                title=title,
+                original_title=title,
                 year=str(movie_tuple[2]),
                 runtime_minutes=None,
                 principal_cast=[],
@@ -94,10 +96,11 @@ class SeedCastCreditBuilder(object):
             )
 
             for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
                 movie = movies.Movie(
                     imdb_id=movie_tuple[0],
-                    title=movie_tuple[1],
-                    original_title=movie_tuple[1],
+                    title=title,
+                    original_title=title,
                     year=str(movie_tuple[2]),
                     runtime_minutes=None,
                     principal_cast=[],
@@ -139,10 +142,11 @@ class SeedDirectingCreditBuilder(object):
             )
 
             for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
                 movie = movies.Movie(
                     imdb_id=movie_tuple[0],
-                    title=movie_tuple[1],
-                    original_title=movie_tuple[1],
+                    title=title,
+                    original_title=title,
                     year=str(movie_tuple[2]),
                     runtime_minutes=None,
                     principal_cast=[],
@@ -183,10 +187,11 @@ class SeedWritingCreditBuilder(object):
             )
 
             for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
                 movie = movies.Movie(
                     imdb_id=movie_tuple[0],
-                    title=movie_tuple[1],
-                    original_title=movie_tuple[1],
+                    title=title,
+                    original_title=title,
                     year=str(movie_tuple[2]),
                     runtime_minutes=None,
                     principal_cast=[],
