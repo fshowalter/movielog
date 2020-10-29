@@ -126,7 +126,7 @@ class Movie(Base):
 
 @dataclass  # type: ignore
 class WithSequence(Base):
-    sequence: Optional[int]
+    sequence: int
 
     @classmethod
     @abc.abstractmethod
@@ -154,6 +154,6 @@ class WithSequence(Base):
         return next_sequence
 
     def save(self, log_function: Optional[Callable[[], None]] = None) -> str:
-        if not self.sequence:
+        if self.sequence == 0:
             self.sequence = self.next_sequence()
         return super().save(log_function=log_function)

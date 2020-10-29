@@ -123,7 +123,7 @@ def prompt(
 ) -> RadioListType:
     control = RadioList(options_to_html(options))
 
-    application = Application(
+    application: Application = Application(
         layout=Layout(HSplit([Label(HTML(title)), control])),
         mouse_support=False,
         full_screen=False,
@@ -138,6 +138,7 @@ def options_to_html(
     formatted_options: List[Tuple[RadioListType, AnyFormattedText]] = []
 
     for option in options:
-        formatted_options.append((option[0], HTML(option[1])))
+        option_text = HTML(cast(str, option[1]))
+        formatted_options.append((option[0], option_text))
 
     return formatted_options

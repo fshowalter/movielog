@@ -1,7 +1,7 @@
 from typing import Sequence
 
 from movielog import (
-    release_dates,
+    imdb_data,
     watchlist_collection,
     watchlist_person,
     watchlist_titles_table,
@@ -35,4 +35,4 @@ def add_collection(name: str) -> Collection:
 
 def update_watchlist_titles_table() -> None:
     watchlist_titles_table.update()
-    release_dates.update(watchlist_titles_table.imdb_ids())
+    imdb_data.update(watchlist_titles_table.imdb_ids())

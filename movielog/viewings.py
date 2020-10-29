@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, performing_credits, release_dates, yaml_file
+from movielog import db, humanize, imdb_data, yaml_file
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
@@ -121,8 +121,7 @@ def update() -> None:
     ViewingsTable.recreate()
     ViewingsTable.insert_viewings(viewings)
 
-    performing_credits.update(imdb_ids())
-    release_dates.update(imdb_ids())
+    imdb_data.update(imdb_ids())
 
 
 def export() -> None:
@@ -135,6 +134,7 @@ def export() -> None:
         , year
         , release_date
         , date as viewing_date
+        , strftime('%Y', date) as viewing_year
         , sequence
         , venue
         , original_title
@@ -161,7 +161,7 @@ def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> 
         date=viewing_date,
         year=year,
         file_path=None,
-        sequence=None,
+        sequence=0,
     )
 
     viewing.save()

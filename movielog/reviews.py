@@ -207,7 +207,7 @@ def add(
         grade=grade,
         venue=venue,
         venue_notes=venue_notes,
-        sequence=None,
+        sequence=0,
         file_path=None,
     )
 
@@ -293,7 +293,9 @@ class Exporter(object):
                 title
                 FROM aka_titles
                 WHERE region = "US"
-                AND movie_imdb_id = "{0}" AND title != "{1}";
+                AND movie_imdb_id = "{0}"
+                AND title != "{1}"
+                AND (attributes IS NULL OR attributes NOT LIKE "%working title%");
                 """.format(
                 title_imdb_id, title
             )

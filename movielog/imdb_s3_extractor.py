@@ -1,6 +1,6 @@
 import gzip
 import pathlib
-from typing import Generator, List, Optional
+from typing import Generator, List, Optional, Sequence
 
 from movielog.logger import logger
 
@@ -15,7 +15,7 @@ def extract(
     with gzip.open(filename=file_path, mode="rt", encoding="utf-8") as gz_file:
         headers_length = len(gz_file.readline().strip().split("\t"))
         for line in gz_file:
-            fields = line.strip().split("\t")
+            fields: Sequence[Optional[str]] = line.strip().split("\t")
             if len(fields) != headers_length:
                 continue
 
@@ -34,9 +34,15 @@ def checkpoint(file_path: str) -> Generator[None, None, None]:
     success_file.touch()
 
 
-def parse_fields(fields: List[Optional[str]]) -> List[Optional[str]]:  # noqa: WPS221
-    for index, field in enumerate(fields):
-        if field == r"\N":
-            fields[index] = None
+def parse_fields(
+    fields: Sequence[Optional[str]],
+) -> ListOfOptionalStrings:
+    parsed_fields: List[Optional[str]] = []
 
-    return fields
+    for field in fields:
+        if field == r"\N":
+            parsed_fields.append(None)
+        else:
+            parsed_fields.append(field)
+
+    return parsed_fields

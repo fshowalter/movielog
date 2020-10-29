@@ -9,8 +9,8 @@ from movielog.watchlist_person import Director, Performer, Writer
 
 
 @pytest.fixture
-def credits_for_person() -> List[imdb_http.CreditForPerson]:
-    return [
+def credits_for_person(mocker: MockerFixture) -> List[imdb_http.CreditForPerson]:
+    imdb_htttp_credits = [
         imdb_http.CreditForPerson(
             imdb_id="tt0053125",
             title="North by Northwest",
@@ -33,6 +33,11 @@ def credits_for_person() -> List[imdb_http.CreditForPerson]:
             in_production="",
         ),
     ]
+
+    for imdb_htttp_credit in imdb_htttp_credits:
+        mocker.patch.object(imdb_htttp_credit, "is_silent_film", return_value=False)
+
+    return imdb_htttp_credits
 
 
 @pytest.fixture(autouse=True)
@@ -69,8 +74,6 @@ def test_refreshes_titles_from_imdb(
             notes="",
         ),
     ]
-
-    mocker.patch("movielog.imdb_http.is_silent_film", return_value=False)
 
     person = class_type(file_path=None, name="Alfred Hitchcock", imdb_id="nm0000033")
 
@@ -109,8 +112,6 @@ def test_skips_invalid_titles(
         ),
     ]
 
-    mocker.patch("movielog.imdb_http.is_silent_film", return_value=False)
-
     person = class_type(file_path=None, name="Alfred Hitchcock", imdb_id="nm0000033")
 
     valid_movie_ids = set(["tt0053125", "tt0017075"])
@@ -148,7 +149,7 @@ def test_skips_silent_movies(
         ),
     ]
 
-    mocker.patch("movielog.imdb_http.is_silent_film", side_effect=[False, False, True])
+    mocker.patch.object(credits_for_person[2], "is_silent_film", return_value=True)
 
     person = class_type(file_path=None, name="Alfred Hitchcock", imdb_id="nm0000033")
 
@@ -188,8 +189,6 @@ def test_skips_in_production_titles(
     ]
 
     credits_for_person[1].in_production = "in-development"
-
-    mocker.patch("movielog.imdb_http.is_silent_film", return_value=False)
 
     person = class_type(file_path=None, name="Alfred Hitchcock", imdb_id="nm0000033")
 

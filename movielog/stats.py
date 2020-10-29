@@ -30,71 +30,6 @@ ratings_by_release_year_query = """
         year
   """
 
-watchlist_collections_progress_query = """
-    SELECT
-        a.collection_name AS name
-      , total
-      , reviewed
-    FROM (
-          SELECT
-              collection_name
-            , count(reviews.movie_imdb_id) AS reviewed
-          FROM watchlist_titles
-          LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
-          WHERE collection_name IS NOT NULL
-          GROUP BY
-              collection_name
-        ) AS A
-    LEFT JOIN (
-                SELECT
-                    count(movie_imdb_id) AS total
-                  , collection_name
-                FROM watchlist_titles
-                WHERE collection_name IS NOT NULL
-                GROUP BY
-                    collection_name
-              ) AS B ON a.collection_name = b.collection_name
-  """
-
-
-def watchlist_person_progress_query(watchlist_person_type: str) -> str:
-    return """
-    SELECT
-        {0}_imdb_id AS imdb_id
-      , full_name AS name
-      , total
-      , reviewed
-    FROM (
-          SELECT
-              a.{0}_imdb_id
-            , total
-            , reviewed
-          FROM (
-                  SELECT
-                      {0}_imdb_id
-                    , count(reviews.movie_imdb_id) AS reviewed
-                  FROM watchlist_titles
-                  LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
-                  WHERE {0}_imdb_id IS NOT NULL
-                  GROUP BY
-                      {0}_imdb_id
-                ) AS A
-          LEFT JOIN (
-                      SELECT
-                          count(movie_imdb_id) AS total
-                        , {0}_imdb_id
-                      FROM watchlist_titles
-                      WHERE {0}_imdb_id IS NOT NULL
-                      GROUP BY
-                          {0}_imdb_id
-                    ) AS B ON a.{0}_imdb_id = b.{0}_imdb_id)
-    INNER JOIN people ON {0}_imdb_id = people.imdb_id
-    ORDER BY
-        full_name;
-    """.format(  # noqa: S608
-        watchlist_person_type
-    )
-
 
 def most_watched_query(person_type: str) -> str:
     return """
@@ -190,28 +125,6 @@ def by_release_year() -> None:
     write_results(db.exec_query(ratings_by_release_year_query), "ratingsByReleaseYear")
 
 
-def watchlist_progress() -> None:
-    write_results(
-        db.exec_query(watchlist_person_progress_query("director")),
-        "directorWatchlistProgress",
-    )
-
-    write_results(
-        db.exec_query(watchlist_person_progress_query("performer")),
-        "performerWatchlistProgress",
-    )
-
-    write_results(
-        db.exec_query(watchlist_person_progress_query("writer")),
-        "writerWatchlistProgress",
-    )
-
-    write_results(
-        db.exec_query(watchlist_collections_progress_query),
-        "watchlistCollectionsProgress",
-    )
-
-
 def most_watched() -> None:
     write_results(
         db.exec_query(most_watched_query("directing")),
@@ -237,6 +150,5 @@ def hightest_rated() -> None:
 
 def export() -> None:
     by_release_year()
-    watchlist_progress()
     most_watched()
     hightest_rated()

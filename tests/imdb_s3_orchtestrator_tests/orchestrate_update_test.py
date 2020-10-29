@@ -12,10 +12,6 @@ def test_calls_updates_in_correct_sequence(mocker: MockerFixture) -> None:
         mocker.patch("movielog.imdb_s3_orchestrator.people.update"), "update_people"
     )
     manager.attach_mock(
-        mocker.patch("movielog.imdb_s3_orchestrator.crew_credits.update"),
-        "update_crew_credits",
-    )
-    manager.attach_mock(
         mocker.patch("movielog.imdb_s3_orchestrator.aka_titles.update"),
         "update_aka_titles",
     )
@@ -27,7 +23,6 @@ def test_calls_updates_in_correct_sequence(mocker: MockerFixture) -> None:
     expected_calls = [
         mocker.call.update_movies(),
         mocker.call.update_people(),
-        mocker.call.update_crew_credits(),
         mocker.call.update_aka_titles(),
         mocker.call.update_principals(),
     ]

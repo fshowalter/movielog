@@ -2,7 +2,7 @@ import fnmatch
 import time
 from dataclasses import dataclass
 from datetime import date, datetime
-from typing import List, Optional, Sequence, Set, Tuple, Union
+from typing import List, Optional, Sequence, Set, Union
 
 import imdb
 
@@ -13,6 +13,8 @@ imdb_scraper = imdb.IMDb(reraiseExceptions=True)
 TITLE = "title"
 YEAR = "year"
 EMPTY_STRING = ""
+NAME = "name"
+TT = "tt"
 
 
 @dataclass
@@ -20,6 +22,30 @@ class TitleBasic(object):
     imdb_id: str
     title: str
     year: int
+
+    def is_silent_film(self) -> Optional[bool]:
+        if self.imdb_id in silent_ids:
+            return True
+
+        if self.imdb_id in no_sound_mix_ids:
+            return None
+
+        time.sleep(1)
+        imdb_movie = imdb.Movie.Movie(movieID=self.imdb_id[2:])
+        imdb_scraper.update(imdb_movie, info=["technical"])
+
+        if "sound mix" not in imdb_movie["technical"]:
+            no_sound_mix_ids.add(self.imdb_id)
+            return None
+
+        pattern = "Silent*"
+
+        sound_mixes = imdb_movie["technical"]["sound mix"]
+        if fnmatch.filter(sound_mixes, pattern):
+            silent_ids.add(self.imdb_id)
+            return True
+
+        return False
 
 
 @dataclass
@@ -30,7 +56,7 @@ class CreditForPerson(TitleBasic):
     @classmethod
     def from_imdb_movie(cls, imdb_movie: imdb.Movie.Movie) -> "CreditForPerson":
         return cls(
-            imdb_id=f"tt{imdb_movie.movieID}",
+            imdb_id=f"{TT}{imdb_movie.movieID}",
             year=imdb_movie.get(YEAR, "????"),
             title=imdb_movie[TITLE],
             notes=imdb_movie.notes,
@@ -39,13 +65,50 @@ class CreditForPerson(TitleBasic):
 
 
 @dataclass
-class CastCreditForTitle(object):
+class CreditForTitle(object):
     movie_imdb_id: str
     person_imdb_id: str
-    name: str
-    roles: List[str]
-    notes: Optional[str]
     sequence: int
+    name: str
+    notes: Optional[str]
+
+
+@dataclass
+class DirectingCreditForTitle(CreditForTitle):
+    @classmethod
+    def from_imdb_credit(
+        cls, imdb_id: str, sequence: int, credit: imdb.Person.Person
+    ) -> "DirectingCreditForTitle":
+        return cls(
+            movie_imdb_id=imdb_id,
+            sequence=sequence,
+            person_imdb_id=f"nm{credit.personID}",
+            name=credit[NAME],
+            notes=credit.notes,
+        )
+
+
+@dataclass
+class WritingCreditForTitle(CreditForTitle):
+    group: int
+
+    @classmethod
+    def from_imdb_credit(
+        cls, imdb_id: str, group: int, sequence: int, credit: imdb.Person.Person
+    ) -> "WritingCreditForTitle":
+        return cls(
+            movie_imdb_id=imdb_id,
+            group=group,
+            sequence=sequence,
+            person_imdb_id=f"nm{credit.personID}",
+            name=credit[NAME],
+            notes=credit.notes,
+        )
+
+
+@dataclass
+class CastCreditForTitle(CreditForTitle):
+    roles: List[str]
 
     @classmethod
     def from_imdb_cast_credit(
@@ -55,7 +118,7 @@ class CastCreditForTitle(object):
             movie_imdb_id=imdb_id,
             sequence=sequence,
             person_imdb_id=f"nm{cast_credit.personID}",
-            name=cast_credit["name"],
+            name=cast_credit[NAME],
             roles=cls.parse_role(cast_credit.currentRole),
             notes=cast_credit.notes,
         )
@@ -65,37 +128,29 @@ class CastCreditForTitle(object):
         cls, roles: Union[imdb.Character.Character, imdb.utils.RolesList]
     ) -> List[str]:
         if isinstance(roles, imdb.Character.Character):
-            name = roles.get("name")
+            name = roles.get(NAME)
             if name:
                 return [name]
 
             return []
 
-        return [role["name"] for role in roles]
+        return [role[NAME] for role in roles]
+
+
+@dataclass
+class ReleaseDate(object):
+    date: date
+    notes: Optional[str]
 
 
 @dataclass
 class TitleDetail(TitleBasic):
-    countries: List[str]
-
-
-def countries_for_title(
-    title_imdb_id: str,
-) -> TitleDetail:
-    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
-
-    return TitleDetail(
-        imdb_id=title_imdb_id,
-        year=imdb_movie.get(YEAR, "????"),
-        title=imdb_movie[TITLE],
-        countries=imdb_movie.get("countries", []),
-    )
-
-
-@dataclass
-class TitleReleaseDate(TitleBasic):
     release_date: date
-    notes: Optional[str]
+    release_date_notes: Optional[str]
+
+    directors: List[DirectingCreditForTitle]
+    writers: List[WritingCreditForTitle]
+    cast: List[CastCreditForTitle]
 
     @classmethod
     def parse_json_date(cls, json_date: str) -> Optional[date]:
@@ -107,91 +162,147 @@ class TitleReleaseDate(TitleBasic):
             except ValueError:
                 return None
 
+    @classmethod
+    def parse_directing_credits(
+        cls, movie: imdb.Movie.Movie
+    ) -> List[DirectingCreditForTitle]:
+        credit_list: List[DirectingCreditForTitle] = []
 
-def release_date_for_title(  # noqa: WPS210
-    title_imdb_id: str,
-) -> TitleReleaseDate:
-    imdb_movie = imdb_scraper.get_movie(
-        title_imdb_id[2:], info=["main", "release_dates"]
-    )
+        imdb_credits = movie.get("directors", [])
 
-    raw_release_dates = imdb_movie.get("raw release dates")
+        for index, credit in enumerate(imdb_credits):
+            credit_list.append(
+                DirectingCreditForTitle.from_imdb_credit(
+                    imdb_id=f"{TT}{movie['imdbID']}",
+                    sequence=index,
+                    credit=credit,
+                )
+            )
 
-    if not raw_release_dates:
-        return TitleReleaseDate(
-            imdb_id=title_imdb_id,
-            title=imdb_movie[TITLE],
-            year=imdb_movie[YEAR],
-            release_date=date(imdb_movie.get(YEAR), 1, 1),
-            notes="No release date",
+        return credit_list
+
+    @classmethod
+    def parse_writing_credits(
+        cls, movie: imdb.Movie.Movie
+    ) -> List[WritingCreditForTitle]:
+        credit_list: List[WritingCreditForTitle] = []
+
+        imdb_credits = movie.get("writers", [])
+        credit_sequence = 0
+        credit_group = 0
+
+        for credit in imdb_credits:
+            if not credit.keys():
+                credit_group += 1
+                credit_sequence = 0
+                continue
+
+            credit_list.append(
+                WritingCreditForTitle.from_imdb_credit(
+                    imdb_id=f"{TT}{movie['imdbID']}",
+                    group=credit_group,
+                    sequence=credit_sequence,
+                    credit=credit,
+                )
+            )
+
+        return credit_list
+
+    @classmethod
+    def parse_cast_credits(cls, movie: imdb.Movie.Movie) -> List[CastCreditForTitle]:
+        credit_list: List[CastCreditForTitle] = []
+
+        for index, filtered_credit in enumerate(movie.get("cast", [])):
+            credit_list.append(
+                CastCreditForTitle.from_imdb_cast_credit(
+                    imdb_id=f"{TT}{movie['imdbID']}",
+                    sequence=index,
+                    cast_credit=filtered_credit,
+                )
+            )
+
+        return credit_list
+
+    @classmethod
+    def parse_release_date(cls, imdb_movie: imdb.Movie.Movie) -> Optional[ReleaseDate]:
+        raw_release_dates = imdb_movie.get("raw release dates")
+
+        if not raw_release_dates:
+            return None
+
+        release_dates: List[ReleaseDate] = []
+
+        for release_date_json in raw_release_dates:
+            release_date = cls.parse_json_date(
+                release_date_json.get("date", EMPTY_STRING).strip()
+            )
+
+            if not release_date:
+                continue
+
+            release_dates.append(
+                ReleaseDate(
+                    date=release_date,
+                    notes=release_date_json.get("notes", EMPTY_STRING).strip(),
+                )
+            )
+
+        if not release_dates:
+            return None
+
+        most_recent = sorted(release_dates, key=lambda rd: rd.date)[0]
+
+        if most_recent.date.year != int(imdb_movie.get(YEAR)):
+            return ReleaseDate(
+                date=date(imdb_movie.get(YEAR), 1, 1),
+                notes="Given release date: {0} {1}".format(
+                    most_recent.date.isoformat(), most_recent.notes
+                ),
+            )
+
+        return most_recent
+
+    @classmethod
+    def from_imdb_id(cls, title_imdb_id: str) -> "TitleDetail":
+        imdb_movie = imdb_scraper.get_movie(
+            title_imdb_id[2:], info=["main", "release_dates"]
         )
 
-    release_dates: List[TitleReleaseDate] = []
-
-    for release_date_json in raw_release_dates:
-        release_date = TitleReleaseDate.parse_json_date(
-            release_date_json.get("date", EMPTY_STRING).strip()
+        directors: List[DirectingCreditForTitle] = cls.parse_directing_credits(
+            imdb_movie
         )
+        writers: List[WritingCreditForTitle] = cls.parse_writing_credits(imdb_movie)
+        cast: List[CastCreditForTitle] = cls.parse_cast_credits(imdb_movie)
+        release_date = cls.parse_release_date(imdb_movie)
 
         if not release_date:
-            continue
-
-        release_dates.append(
-            TitleReleaseDate(
+            return cls(
                 imdb_id=title_imdb_id,
                 title=imdb_movie[TITLE],
                 year=imdb_movie[YEAR],
-                release_date=release_date,
-                notes=release_date_json.get("notes", EMPTY_STRING).strip(),
+                release_date=date(imdb_movie.get(YEAR), 1, 1),
+                release_date_notes="No release date",
+                directors=directors,
+                writers=writers,
+                cast=cast,
             )
-        )
 
-    if not release_dates:
-        return TitleReleaseDate(
+        return cls(
             imdb_id=title_imdb_id,
             title=imdb_movie[TITLE],
             year=imdb_movie[YEAR],
-            release_date=date(imdb_movie.get(YEAR), 1, 1),
-            notes="No release date",
+            release_date=release_date.date,
+            release_date_notes=release_date.notes,
+            directors=directors,
+            writers=writers,
+            cast=cast,
         )
 
-    most_recent = sorted(release_dates, key=lambda rd: rd.release_date)[0]
 
-    if most_recent.release_date.year != int(imdb_movie.get(YEAR)):
-        return TitleReleaseDate(
-            imdb_id=title_imdb_id,
-            title=imdb_movie[TITLE],
-            year=imdb_movie[YEAR],
-            release_date=date(imdb_movie.get(YEAR), 1, 1),
-            notes="Given release date: {0} {1}".format(
-                most_recent.release_date.isoformat(), most_recent.notes
-            ),
-        )
-
-    return most_recent
-
-
-def cast_credits_for_title(
+def info_for_title(
     title_imdb_id: str,
-) -> Tuple[TitleBasic, Sequence[CastCreditForTitle]]:
-    imdb_movie = imdb_scraper.get_movie(title_imdb_id[2:])
-
-    title_basic = TitleBasic(
-        imdb_id=title_imdb_id, title=imdb_movie[TITLE], year=imdb_movie[YEAR]
-    )
-
-    cast_credit_list: List[CastCreditForTitle] = []
-
-    for index, cast_credit in enumerate(imdb_movie["cast"]):
-        cast_credit_list.append(
-            CastCreditForTitle.from_imdb_cast_credit(
-                imdb_id=title_imdb_id,
-                sequence=index,
-                cast_credit=cast_credit,
-            )
-        )
-
-    return (title_basic, cast_credit_list)
+) -> TitleDetail:
+    return TitleDetail.from_imdb_id(title_imdb_id)
 
 
 def credits_for_person(
@@ -212,28 +323,3 @@ def credits_for_person(
         credit_list.append(CreditForPerson.from_imdb_movie(imdb_movie))
 
     return credit_list
-
-
-def is_silent_film(title: TitleBasic) -> Optional[bool]:
-    if title.imdb_id in silent_ids:
-        return True
-
-    if title.imdb_id in no_sound_mix_ids:
-        return None
-
-    time.sleep(1)
-    imdb_movie = imdb.Movie.Movie(movieID=title.imdb_id[2:])
-    imdb_scraper.update(imdb_movie, info=["technical"])
-
-    if "sound mix" not in imdb_movie["technical"]:
-        no_sound_mix_ids.add(title.imdb_id)
-        return None
-
-    pattern = "Silent*"
-
-    sound_mixes = imdb_movie["technical"]["sound mix"]
-    if fnmatch.filter(sound_mixes, pattern):
-        silent_ids.add(title.imdb_id)
-        return True
-
-    return False
