@@ -7,7 +7,9 @@ from movielog import yaml_file
 
 class ConcreteMovie(yaml_file.Movie):  # noqa: WPS604
     @classmethod
-    def from_yaml_object(cls, yaml_object: Dict[str, Any]) -> "ConcreteMovie":
+    def from_yaml_object(
+        cls, file_path: str, yaml_object: Dict[str, Any]
+    ) -> "ConcreteMovie":
         """Test stub."""
 
     def generate_slug(self) -> str:

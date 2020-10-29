@@ -10,7 +10,7 @@ def prompt(
     message: str,
     rprompt: Optional[str] = None,
     validator: Optional[Validator] = None,
-    default: Optional[str] = "",
+    default: str = "",
 ) -> Optional[str]:
     bindings = key_binding.KeyBindings()
 

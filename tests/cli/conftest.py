@@ -1,16 +1,16 @@
-from typing import Callable, List
+from typing import Callable, Generator, List
 
 import pytest
 from prompt_toolkit.application.current import create_app_session
 from prompt_toolkit.input import create_pipe_input
-from prompt_toolkit.input.posix_pipe import PosixPipeInput
+from prompt_toolkit.input.posix_pipe import PipeInput
 
-from movielog import crew_credits, movies, people
+from movielog import imdb_data, movies, people
 from tests.cli.typehints import CreditTuple, MovieTuple
 
 
 @pytest.fixture(autouse=True, scope="function")
-def mock_input() -> PosixPipeInput:
+def mock_input() -> Generator[PipeInput, None, None]:
     pipe_input = create_pipe_input()
     with create_app_session(input=pipe_input):
         yield pipe_input
@@ -23,12 +23,14 @@ class SeedMovieBuilder(object):
         self.people: List[people.Person] = []
 
         for movie_tuple in movie_tuples:
+            title = movie_tuple[1]
+
             movie = movies.Movie(
                 imdb_id=movie_tuple[0],
-                title=movie_tuple[1],
-                original_title=movie_tuple[1],
+                title=title,
+                original_title=title,
                 year=str(movie_tuple[2]),
-                runtime_minutes="",
+                runtime_minutes=None,
                 principal_cast=[],
             )
 
@@ -77,7 +79,53 @@ def seed_movies() -> Callable[[List[MovieTuple]], None]:
     return _seed_movies
 
 
-class SeedCreditBuilder(object):
+class SeedCastCreditBuilder(object):
+    def __init__(self, credit_tuples: List[CreditTuple]) -> None:
+        self.movies = []
+        self.people = []
+        self.cast_credits = []
+
+        for credit_tuple in credit_tuples:
+            person = people.Person(
+                imdb_id=credit_tuple[0],
+                full_name=credit_tuple[1],
+                birth_year=None,
+                death_year=None,
+                primary_profession=None,
+                known_for_title_ids="",
+            )
+
+            for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
+                movie = movies.Movie(
+                    imdb_id=movie_tuple[0],
+                    title=title,
+                    original_title=title,
+                    year=str(movie_tuple[2]),
+                    runtime_minutes=None,
+                    principal_cast=[],
+                )
+
+                person.known_for_title_ids = (
+                    f"{person.known_for_title_ids},{movie.imdb_id}"
+                )
+
+                self.cast_credits.append(
+                    imdb_data.CastCredit(
+                        movie_imdb_id=movie.imdb_id,
+                        person_imdb_id=person.imdb_id,
+                        sequence=1,
+                        person_name=person.full_name,
+                        notes="",
+                        roles=[""],
+                    )
+                )
+
+                self.movies.append(movie)
+            self.people.append(person)
+
+
+class SeedDirectingCreditBuilder(object):
     def __init__(self, credit_tuples: List[CreditTuple]) -> None:
         self.movies = []
         self.people = []
@@ -94,12 +142,13 @@ class SeedCreditBuilder(object):
             )
 
             for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
                 movie = movies.Movie(
                     imdb_id=movie_tuple[0],
-                    title=movie_tuple[1],
-                    original_title=movie_tuple[1],
+                    title=title,
+                    original_title=title,
                     year=str(movie_tuple[2]),
-                    runtime_minutes="",
+                    runtime_minutes=None,
                     principal_cast=[],
                 )
 
@@ -108,10 +157,58 @@ class SeedCreditBuilder(object):
                 )
 
                 self.crew_credits.append(
-                    crew_credits.CrewCredit(
+                    imdb_data.DirectingCredit(
                         movie_imdb_id=movie.imdb_id,
                         person_imdb_id=person.imdb_id,
-                        sequence="1",
+                        person_name=person.full_name,
+                        sequence=1,
+                        notes="",
+                    )
+                )
+
+                self.movies.append(movie)
+            self.people.append(person)
+
+
+class SeedWritingCreditBuilder(object):
+    def __init__(self, credit_tuples: List[CreditTuple]) -> None:
+        self.movies = []
+        self.people = []
+        self.crew_credits = []
+
+        for credit_tuple in credit_tuples:
+            person = people.Person(
+                imdb_id=credit_tuple[0],
+                full_name=credit_tuple[1],
+                birth_year=None,
+                death_year=None,
+                primary_profession=None,
+                known_for_title_ids="",
+            )
+
+            for movie_tuple in credit_tuple[2]:
+                title = movie_tuple[1]
+                movie = movies.Movie(
+                    imdb_id=movie_tuple[0],
+                    title=title,
+                    original_title=title,
+                    year=str(movie_tuple[2]),
+                    runtime_minutes=None,
+                    principal_cast=[],
+                )
+
+                person.known_for_title_ids = (
+                    f"{person.known_for_title_ids},{movie.imdb_id}"
+                )
+
+                self.crew_credits.append(
+                    imdb_data.WritingCredit(
+                        movie_imdb_id=movie.imdb_id,
+                        person_imdb_id=person.imdb_id,
+                        person_name=person.full_name,
+                        sequence=1,
+                        group_id=0,
+                        notes="",
                     )
                 )
 
@@ -122,13 +219,13 @@ class SeedCreditBuilder(object):
 @pytest.fixture
 def seed_directors() -> Callable[[List[CreditTuple]], None]:
     def _seed_directors(director_tuples: List[CreditTuple]) -> None:
-        seed_credits = SeedCreditBuilder(director_tuples)
+        seed_credits = SeedDirectingCreditBuilder(director_tuples)
         people.PeopleTable.recreate()
         people.PeopleTable.insert_people(seed_credits.people)
         movies.MoviesTable.recreate()
         movies.MoviesTable.insert_movies(seed_credits.movies)
-        crew_credits.DirectingCreditsTable.recreate()
-        crew_credits.DirectingCreditsTable.insert_credits(seed_credits.crew_credits)
+        imdb_data.DirectingCreditsTable.recreate()
+        imdb_data.DirectingCreditsTable.insert_credits(seed_credits.crew_credits)
 
     return _seed_directors
 
@@ -136,13 +233,13 @@ def seed_directors() -> Callable[[List[CreditTuple]], None]:
 @pytest.fixture
 def seed_writers() -> Callable[[List[CreditTuple]], None]:
     def _seed_writers(writer_tuples: List[CreditTuple]) -> None:
-        seed_credits = SeedCreditBuilder(writer_tuples)
+        seed_credits = SeedWritingCreditBuilder(writer_tuples)
         people.PeopleTable.recreate()
         people.PeopleTable.insert_people(seed_credits.people)
         movies.MoviesTable.recreate()
         movies.MoviesTable.insert_movies(seed_credits.movies)
-        crew_credits.WritingCreditsTable.recreate()
-        crew_credits.WritingCreditsTable.insert_credits(seed_credits.crew_credits)
+        imdb_data.WritingCreditsTable.recreate()
+        imdb_data.WritingCreditsTable.insert_credits(seed_credits.crew_credits)
 
     return _seed_writers
 
@@ -150,7 +247,7 @@ def seed_writers() -> Callable[[List[CreditTuple]], None]:
 @pytest.fixture
 def seed_performers() -> Callable[[List[CreditTuple]], None]:
     def _seed_performers(writer_tuples: List[CreditTuple]) -> None:
-        seed_credits = SeedCreditBuilder(writer_tuples)
+        seed_credits = SeedCastCreditBuilder(writer_tuples)
         people.PeopleTable.recreate()
         people.PeopleTable.insert_people(seed_credits.people)
         movies.MoviesTable.recreate()
