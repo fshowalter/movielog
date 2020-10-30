@@ -452,6 +452,7 @@ class ReleaseDatesTable(db.Table):
 def update(imdb_ids: List[str]) -> None:  # noqa: WPS213, WPS210
     logger.log("==== Begin updating {}...", "IMDb Credits and Release Dates")
     movies = Movie.parse_existing_yaml_files()
+    logger.log("Parsed {} credit files.", len(movies))
     directing_credits: List[DirectingCredit] = []
     writing_credits: List[WritingCredit] = []
     performing_credits: List[CastCredit] = []

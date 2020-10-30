@@ -88,7 +88,7 @@ class Person(object):
     def build_reviewed_watchlist_cache(cls, person_type: str) -> Dict[str, str]:
         query = """
             SELECT DISTINCT
-                ({0}_imdb_id) as person_id
+                ({0}_imdb_id) as person_imdb_id
             , watchlist_titles.slug
             FROM reviews
             LEFT JOIN watchlist_titles ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
@@ -102,7 +102,7 @@ class Person(object):
         cache: Dict[str, str] = {}
 
         for row in rows:
-            cache[row["person_id"]] = row[SLUG]
+            cache[row["person_imdb_id"]] = row[SLUG]
 
         return cache
 
@@ -229,11 +229,11 @@ def build_most_watched_persons(
     cache = Person.build_reviewed_watchlist_cache(cache_credit_type)
 
     rows_by_year = most_watched_by_year_rows_to_dict(
-        most_watched_by_year_rows, cache, "person_id"
+        most_watched_by_year_rows, cache, "person_imdb_id"
     )
     most_watched_rows = db.exec_query(Person.most_watched_query(watchlist_credit_type))
     rows_by_year["all"] = most_watched_rows_to_list(
-        most_watched_rows, cache, "person_id"
+        most_watched_rows, cache, "person_imdb_id"
     )
 
     list_of_rows_by_year = most_watched_dict_to_list_of_dicts(
