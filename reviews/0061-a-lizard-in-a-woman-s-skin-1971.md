@@ -9,4 +9,8 @@ venue: Blu-ray
 venue_notes:
 ---
 
-Fulci dips a toe in the avante garde with an amalgam of the stylisitic panaache he showed in <span data-imdb-id="">One on top of the Other</span> and the Gridhouse exploitation of <span data-imdb-id="">Consipiracy of Torture</span>. Flashier than either of those films, but marred by a cheat ending and a failure to exploit the London locales.
+Fulci’s most formal effort to date. A stylistic thriller revolving around a politician’s daughter who dreams of murdering her hedonistic neighbor, only to awaken and find herself the center of an actual police investigation.
+
+<!-- end -->
+
+Building on his prior thrillers, Fulci melds <span data-imdb-id="tt0065148">_One on Top of the Other_</span>’s panache with <span data-imdb-id="tt0064073">_The Conspiracy of Torture_</span>’s Grindhouse exploitation. The result proves flashier than either of those films, but a cheat ending and a failure to exploit the London locales render it the average--rather than the sum--of its parts. Stanley Baker’s commanding performance as the lead inspector _almost_ makes up the difference.

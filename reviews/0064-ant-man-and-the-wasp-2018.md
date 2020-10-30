@@ -9,4 +9,4 @@ venue: "Disney+ "
 venue_notes: 2018 | Disney / Buena Vista | 4k
 ---
 
-Opens strong, with creative production backing real emotional stakes via Rudd’s bond with his daughter. Devolves into a series of set pieces where Rudd proves--<span data-imdb-id="tt0478970">once again</span>--expendable.
+Opens strong, with creative production backing real emotional stakes via Rudd’s bond with his daughter. Devolves into a series of set pieces where Rudd--<span data-imdb-id="tt0478970">once again</span>--proves expendable.
