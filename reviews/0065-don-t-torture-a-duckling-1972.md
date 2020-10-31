@@ -9,4 +9,10 @@ venue: iTunes
 venue_notes: 2018 | Arrow Video | 1080p
 ---
 
-Fulci amps <span data-imdb-id="">_Beatrice Cenci_</span>'s exploitation while dialing back <span data-imdb-id="">_A Lizard in a Woman's Skin_</span>'s avante-gauarde. The resulting thriller set in rural Italy follows a reporter and socialite as they uncover the culprit behind a rash of child murders. It's devloped an unwarranted notorious reputation due to breaking the child-victim taboo. Worth seeking out. I ordered the Arrow Video Blu-Ray for the bonus features.
+In rural Italy, a reporter and socialite struggle to uncover the culprit behind a rash of child murders. Unlike Fulci's prior thrillers, _Don't Torture a Duckling_ nudges closer to horror, playing like a werewolf story.
+
+<!-- end -->
+
+Instead of scoping the danger to the protagonist, the script centers on an unknown assailant murdering random children. The protagonists race to uncover the killer before they can strike again.
+
+Coming off <span data-imdb-id="tt0067361">_A Lizard in a Woman's Skin_</span>, Fulci dials back the overt formalism but amps the exploitation. The result is an assured, cynical takedown of small-town values and organized religion. Breaking the child-victim taboo earned it a notorious reputation, but it's worth seeking out. I ordered the Arrow Video Blu-Ray for the bonus features.
