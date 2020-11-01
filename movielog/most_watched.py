@@ -112,8 +112,9 @@ class Movie(object):
     def most_watched_query(cls) -> str:
         return """
         SELECT
-            count(viewings.movie_imdb_id) AS viewings_count
+            count(viewings.movie_imdb_id) AS count
             , movies.title
+            , movies.year
             , movies.imdb_id
             , slug
         FROM viewings
@@ -122,7 +123,7 @@ class Movie(object):
         GROUP BY
             viewings.movie_imdb_id
         ORDER BY
-            viewings_count DESC
+            count DESC
         LIMIT 10
         """
 
@@ -130,8 +131,9 @@ class Movie(object):
     def most_watched_for_years_query(cls) -> str:
         return """
         SELECT
-            count(viewings.movie_imdb_id) AS viewings_count
+            count(viewings.movie_imdb_id) AS count
             , movies.title
+            , movies.year
             , movies.imdb_id
             , slug
             , strftime('%Y', viewings.date) AS viewing_year
@@ -143,7 +145,7 @@ class Movie(object):
             , viewings.movie_imdb_id
         ORDER BY
             viewing_year
-            , viewings_count DESC
+            , count DESC
         """
 
     @classmethod
