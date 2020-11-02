@@ -9,12 +9,12 @@ venue: Blu-ray
 venue_notes: 2019 | Sony Pictures
 ---
 
-During a late-night make-out session with his girlfriend, a suburban teen spies two men carrying a coffin into the neighboring basement. Intrigued, he stakes out the nightly goings-on next-door, only to discover that his suave new neighbor--played by Chris Sarandon--has fangs. Desperate for help, he turns to the local creature-feature host, a washed-up horror star played by Roddy McDowall.
+During a late-night make-out session, a suburban teen spies two men carrying a coffin into the neighboring basement. Intrigued, he stakes out the nightly goings-on next-door, only to discover his suave new neighbor--played by Chris Sarandon--has fangs. Desperate for help, he turns to the local creature-feature host, an aging horror star played by Roddy McDowall.
 
 <!-- end -->
 
-I love this movie. It’s a contemporary love-letter to classic vampire films buoyed by career performances from Sarandon and McDowall.
+McDowall channels Peter Cushing in a love-letter performance that reimagines the Van Helsing archetype as a vulnerable, reluctant hero who’s self-discovery arc gives the film an unexpected resonance.
 
-McDowall channels Peter Cushing with aplomb, hamming it up in the movie-within-a-movie early on, and dialing it back in the second half.
+Opposite McDowall, Sarandon is all sensual charm and sociopathic calculation spiked with a streak of black humor. I’ve seen this film countless times and struggle to name a horror villain performance I enjoy more. The script gives him all the best lines and Sarandon delivers them with such relish, his performance never fails to make me smile.
 
-Opposite McDowall, Sarandon crafts a villain for the ages. Bucking the faceless killer trend, Sarandon is all sociopathic charm and ice-cold calculation. “Welcome to Fright Night....for real,” indeed.
+There are scarier, more intense, and more important horror films. But none are this much fun.

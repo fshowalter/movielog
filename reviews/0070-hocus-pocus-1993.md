@@ -13,4 +13,4 @@ On Halloween night in Salem, Massachusetts, a transplanted L.A. teen inadvertent
 
 <!-- end -->
 
-Kudos to the Salem location photography, but this reeks of studio notes. The teen protagonist and incessant virgin references point to a darker tone and older target audience. The tag-along kid-sister and stagey presentation skew toward traditional G-rated Disney adventure fare. And nobody's reigning in Middler, who's delivering full-on camp. Everyone's making a different movie and none are very good.
+Kudos to the Salem location photography, but this mess of a movie reeks of studio notes. The teen protagonist and incessant virgin references point to a darker tone and older target audience. The tag-along kid-sister and stagey presentation skew toward traditional G-rated Disney adventure fare. And nobody's reigning in Middler, who's delivering full-on camp. Everyone's making a different movie and none are very good.
