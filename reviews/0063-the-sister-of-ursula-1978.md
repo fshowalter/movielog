@@ -3,7 +3,7 @@ sequence: 63
 date: 2020-10-23
 imdb_id: tt0078300
 title: The Sister of Ursula (1978)
-grade: D
+grade: D-
 slug: the-sister-of-ursula-1978
 venue: DVD
 venue_notes: 2010 | Severin Films
