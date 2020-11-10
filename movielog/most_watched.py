@@ -262,15 +262,15 @@ def build_most_watched_movies(output_file_name: str) -> None:
 
 
 def log_heading(heading: str) -> None:
-    logger.log("=== Begin exporting {}...", heading)
+    logger.log("==== Begin exporting {}...", heading)
 
 
 def export() -> None:
     log_heading("most watched directors")
-    build_most_watched_persons("director", "directing", "mostWatchedDirectors")
+    build_most_watched_persons("director", "directing", "most_watched_directors")
     log_heading("most watched performers")
-    build_most_watched_persons("performer", "performing", "mostWatchedPerformers")
+    build_most_watched_persons("performer", "performing", "most_watched_performers")
     log_heading("most watched writers")
-    build_most_watched_persons("writer", "writing", "mostWatchedWriters")
+    build_most_watched_persons("writer", "writing", "most_watched_writers")
     log_heading("most watched movies")
-    build_most_watched_movies("mostWatchedMovies")
+    build_most_watched_movies("most_watched_movies")

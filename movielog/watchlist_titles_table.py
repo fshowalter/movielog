@@ -210,14 +210,14 @@ def export() -> None:
 class Exporter(object):
     @classmethod
     def write_file(cls, titles: List[WatchlistTitleExport]) -> None:
-        file_path = os.path.join("export", "watchlist_titles.json")
+        file_path = os.path.join("export", "watchlist_movies.json")
 
         with open(file_path, "w") as output_file:
             output_file.write(json.dumps([asdict(title) for title in titles]))
 
     @classmethod
     def export(cls) -> None:
-        logger.log("==== Begin exporting {}...", TABLE_NAME)
+        logger.log("==== Begin exporting {}...", "watchlist movies")
 
         rows = db.exec_query(
             """

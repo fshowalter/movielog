@@ -9,4 +9,4 @@ venue: DVD
 venue_notes:
 ---
 
-During the Irish Civil War, a working-class family inherits an unexpected windfall that proves their undoing. Hitchcock limits his formal rigor to long takes that mimic a stage performance. The result drowns in dialog rooted in Irish working-class social norms circa 1922. Worse still, the film drops the source play’s final go-for-the-throat scene. There’s a reason the best print I could find came sourced from a DVD that often crops the performer’s heads.
+Unengaging adaptation of Seán O'Casey's play about a poor Dublin family undone by an unexpected windfall during the Irish Civil War. Hitchcock limits his formal rigor to constructing long takes which--combined with the monologue-heavy script--give the sense of watching a filmed stage performance. The film even drops O'Casey's final gut-punch scene. Often ignored in Hitchcock's oeuvre for good reason.

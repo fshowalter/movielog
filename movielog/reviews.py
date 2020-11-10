@@ -244,8 +244,8 @@ class Exporter(object):
             , reviews.date
             , reviews.sequence
             , release_date
-            , grade
-            , grade_value
+            , grade as last_review_grade
+            , grade_value as last_review_grade_value
             , slug
             , sort_title
             , principal_cast_ids
@@ -295,7 +295,9 @@ class Exporter(object):
                 WHERE region = "US"
                 AND movie_imdb_id = "{0}"
                 AND title != "{1}"
-                AND (attributes IS NULL OR attributes NOT LIKE "%working title%");
+                AND (attributes IS NULL
+                    OR (attributes NOT LIKE "%working title%"
+                    AND attributes NOT LIKE "%alternative spelling%"));
                 """.format(
                 title_imdb_id, title
             )
@@ -339,7 +341,7 @@ class Exporter(object):
 
     @classmethod
     def export(cls) -> None:
-        logger.log("==== Begin exporting {}...", TABLE_NAME)
+        logger.log("==== Begin exporting {}...", "reviewed movies")
 
         reviews = cls.fetch_reviews()
 
@@ -358,7 +360,7 @@ class Exporter(object):
                 principal_cast_ids_with_commas=review["principal_cast_ids"]
             )
 
-        file_path = os.path.join("export", "reviews.json")
+        file_path = os.path.join("export", "reviewed_movies.json")
 
         with open(file_path, "w") as output_file:
             output_file.write(json.dumps([dict(row) for row in reviews]))
