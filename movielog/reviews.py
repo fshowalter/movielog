@@ -298,7 +298,7 @@ class Exporter(object):
                 AND (attributes IS NULL
                     OR (attributes NOT LIKE "%working title%"
                     AND attributes NOT LIKE "%alternative spelling%"));
-                """.format(
+                """.format(  # noqa: WPS323
                 title_imdb_id, title
             )
         )
