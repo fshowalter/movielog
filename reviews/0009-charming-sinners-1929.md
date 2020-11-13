@@ -6,7 +6,7 @@ title: Charming Sinners (1929)
 grade: C
 slug: charming-sinners-1929
 venue: OK.ru
-venue_notes: Unknown | 480p
+venue_notes:
 ---
 
 I watched a low-res encoding of a scratchy print replete with frame and audio drop-outs on a Russian social networking site. Beggars can't be choosers.

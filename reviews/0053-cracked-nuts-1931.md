@@ -6,7 +6,7 @@ title: Cracked Nuts (1931)
 grade: D
 slug: cracked-nuts-1931
 venue: OK.ru
-venue_notes: Unknown | 480p
+venue_notes:
 ---
 
 I came to this film having never heard of Wheeler and Woosley. Reading up, I learned they were a top-grossing comedy duo in the early 1930s. This explains the surprising number of sets and why the script proves little more than a setup for Woolsey’s one-liners.

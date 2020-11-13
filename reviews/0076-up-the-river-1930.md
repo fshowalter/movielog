@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes: 2015 | 20th Century Fox | 1080p
 ---
 
-Debut feature for both Spencer Tracy and Humphrey Bogart and director John Ford‘s best sound picture to date. Tracy plays a prison baseball team's beloved ace pitcher. He‘s the sort of inmate who, after returning to prison following a failed escape, walks into the warden's office and assures him he'll give notice before his next attempt.
+Debut feature for both Spencer Tracy and Humphrey Bogart and director John Ford's best sound picture to date. Tracy plays a prison baseball team's beloved ace pitcher. He's the sort of inmate who, after returning to prison following a failed escape, walks into the warden's office and assures him he'll give notice before his next attempt.
 
 <!-- end -->
 

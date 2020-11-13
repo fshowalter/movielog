@@ -6,7 +6,7 @@ title: The Greene Murder Case (1929)
 grade: D+
 slug: the-greene-murder-case-1929
 venue: YouTube
-venue_notes: Unknown | 360p
+venue_notes:
 ---
 
 Disappointing follow-up to <span data-imdb-id="tt0019745">_The Canary Murder Case_</span> has Powell reprising his role as diletante sleuth Philo Vance investigating a wealthy family where the last surviving heir stands to inherit a fortune.

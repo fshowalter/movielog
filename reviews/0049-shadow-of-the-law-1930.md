@@ -6,7 +6,7 @@ title: Shadow of the Law (1930)
 grade: C+
 slug: shadow-of-the-law-1930
 venue: OK.ru
-venue_notes: Unknown | 480p
+venue_notes:
 ---
 
 Powell plays an innocent man sent to prison for murder. He escapes and establishes a new life. Hoping to clear his name, he locates the woman whose testimony could exonerate him, only to have her blackmail him.

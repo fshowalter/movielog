@@ -103,15 +103,24 @@ class WritingCreditForTitle(CreditForTitle):
         "(based on characters created by)",
         "(based on elements created by)",
         "(excerpt)",
+        "(comic book)",
+        "(comic book) (uncredited)",
+        "(Marvel comic book)",
+        "(trading card series)",
+        "(trading card series) (as Norm Saunders)",
     ]
 
     created_by_regex = re.compile(r"^\(.*created by\)( and)?$")
+    character_created_by_regex = re.compile(r"\(character created by: (?:.*)\)$")
 
     @classmethod
     def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
+        notes = credit.notes.strip()
         return (
-            credit.notes not in cls.invalid_notes
-        ) and not cls.created_by_regex.match(credit.notes)
+            (notes not in cls.invalid_notes)
+            and not cls.created_by_regex.match(notes)
+            and not cls.character_created_by_regex.match(notes)
+        )
 
     @classmethod
     def from_imdb_credit(
@@ -216,6 +225,9 @@ class TitleDetail(TitleBasic):
             if not credit.keys():
                 credit_group += 1
                 credit_sequence = 0
+                continue
+
+            if not WritingCreditForTitle.credit_is_valid(credit):
                 continue
 
             credit_list.append(

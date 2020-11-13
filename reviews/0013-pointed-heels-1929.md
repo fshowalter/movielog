@@ -6,7 +6,7 @@ title: Pointed Heels (1929)
 grade: D
 slug: pointed-heels-1929
 venue: OK.ru
-venue_notes: Unknown | 480p
+venue_notes:
 ---
 
 Watched on the same site I found <span data-imdb-id="tt0019758">_Charming Sinners_</span>. A better quality print of a lesser quality film.

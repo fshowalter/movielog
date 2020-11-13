@@ -6,7 +6,7 @@ title: Hatchet II (2010)
 grade: C
 slug: hatchet-ii-2010
 venue: Blu-ray
-venue_notes:
+venue_notes: 2011 | MPI Media Group
 ---
 
 Picks up where <span data-imdb-id="tt0422401">_Hatchet_</span> ends. The sole survivor (played this time by Danielle Harris) returns with a group of well-armed hunters to exact revenge on Victor Crowley.

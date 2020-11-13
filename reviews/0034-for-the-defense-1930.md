@@ -6,7 +6,7 @@ title: For the Defense (1930)
 grade: C
 slug: for-the-defense-1930
 venue: OK.ru
-venue_notes: Unknown | 360p
+venue_notes:
 ---
 
 Powell plays Bill Foster, a slick defense lawyer so well-respected in the underworld that when his car's stolen, the crooks return it after getting a look at the registration.

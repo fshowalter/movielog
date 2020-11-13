@@ -6,7 +6,7 @@ title: Big City Blues (1932)
 grade: C+
 slug: big-city-blues-1932
 venue: Watch TCM
-venue_notes: Unknown | 1080p
+venue_notes: 1080p
 ---
 
 I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film's obscurity, my expectations were low.

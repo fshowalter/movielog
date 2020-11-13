@@ -6,7 +6,7 @@ title: A Chump at Oxford (1939)
 grade: D+
 slug: a-chump-at-oxford-1939
 venue: Watch TCM
-venue_notes: Unknown | 1080p
+venue_notes: 1080p
 ---
 
 Peter Cushing’s second film. He has a minor speaking part playing one of the Oxford students who hassle Laurel and Hardy.
