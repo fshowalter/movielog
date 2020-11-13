@@ -1,4 +1,5 @@
 import fnmatch
+import re
 import time
 from dataclasses import dataclass
 from datetime import date, datetime
@@ -91,6 +92,26 @@ class DirectingCreditForTitle(CreditForTitle):
 @dataclass
 class WritingCreditForTitle(CreditForTitle):
     group: int
+
+    invalid_notes = [
+        "(based on characters created by)",
+        "(character)",
+        "(characters)",
+        '("Alien" characters)',
+        "(based on the Marvel comics by)",
+        "(based on the Marvel comics by) and",
+        "(based on characters created by)",
+        "(based on elements created by)",
+        "(excerpt)",
+    ]
+
+    created_by_regex = re.compile(r"^\(.*created by\)( and)?$")
+
+    @classmethod
+    def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
+        return (
+            credit.notes not in cls.invalid_notes
+        ) and not cls.created_by_regex.match(credit.notes)
 
     @classmethod
     def from_imdb_credit(
@@ -320,6 +341,10 @@ def credits_for_person(
     credit_list: List[CreditForPerson] = []
 
     for imdb_movie in reversed(filmography.get(credit_key, [])):
+        if credit_key == "writer":
+            if not WritingCreditForTitle.credit_is_valid(imdb_movie):
+                continue
+
         credit_list.append(CreditForPerson.from_imdb_movie(imdb_movie))
 
     return credit_list
