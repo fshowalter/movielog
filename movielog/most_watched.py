@@ -39,12 +39,24 @@ class Person(object):
             person_imdb_id
             , full_name
             , count({0}_credits.person_imdb_id) AS count
+            , GROUP_CONCAT({0}_credits.movie_imdb_id) as movie_imdb_ids
         FROM viewings
-        LEFT JOIN {0}_credits ON {0}_credits.movie_imdb_id = viewings.movie_imdb_id
+        LEFT JOIN (
+                SELECT
+                    DISTINCT person_imdb_id
+                    , movie_imdb_id
+                    FROM {0}_credits
+                    WHERE
+                        {1}
+                        AND (
+                        notes IS NULL OR (
+                            notes != "(uncredited)"
+                            AND notes NOT LIKE  "%(characters)%"
+                            AND notes NOT LIKE "%(characters - uncredited)%"
+                        )
+                        )
+            ) AS {0}_credits ON {0}_credits.movie_imdb_id = viewings.movie_imdb_id
         LEFT JOIN people ON person_imdb_id = people.imdb_id
-        WHERE
-            {1}
-            AND (notes IS NULL OR notes != "(uncredited)")
         GROUP BY
             (person_imdb_id)
         ORDER BY
@@ -62,18 +74,24 @@ class Person(object):
             , full_name
             , strftime('%Y', viewings.date) AS viewing_year
             , count({0}_credits.person_imdb_id) AS count
+            , GROUP_CONCAT({0}_credits.movie_imdb_id) as movie_imdb_ids
             FROM viewings
-            LEFT JOIN {0}_credits ON {0}_credits.movie_imdb_id = viewings.movie_imdb_id
+            LEFT JOIN (
+                SELECT
+                    DISTINCT person_imdb_id
+                    , movie_imdb_id
+                    FROM {0}_credits
+                    WHERE
+                        {1}
+                        AND (
+                        notes IS NULL OR (
+                            notes != "(uncredited)"
+                            AND notes NOT LIKE  "%(characters)%"
+                            AND notes NOT LIKE "%(characters - uncredited)%"
+                        )
+                        )
+            ) AS {0}_credits ON {0}_credits.movie_imdb_id = viewings.movie_imdb_id
             LEFT JOIN people ON person_imdb_id = people.imdb_id
-            WHERE
-                {1}
-                AND (
-                notes IS NULL OR (
-                    notes != "(uncredited)"
-                    AND notes NOT LIKE  "%(characters)%"
-                    AND notes NOT LIKE "%(characters - uncredited)%"
-                )
-                )
             GROUP BY
                 viewing_year
             , person_imdb_id
@@ -83,6 +101,45 @@ class Person(object):
         """.format(  # noqa: S608
             person_type, cls.to_exclude_query_snippit()
         )
+
+    @classmethod
+    def format_imdb_ids_as_sql_list(cls, imdb_ids: str) -> str:
+        imdb_ids_list = imdb_ids.split(",")
+
+        return ",".join('"{0}"'.format(imdb_id) for imdb_id in imdb_ids_list)
+
+    @classmethod
+    def fetch_details_for_movie_imdb_ids(
+        cls, movie_imdb_ids: str
+    ) -> List[Dict[str, str]]:
+        details: List[Dict[str, str]] = []
+
+        if not movie_imdb_ids:
+            return []
+
+        movie_imdb_ids_as_sql_list = cls.format_imdb_ids_as_sql_list(movie_imdb_ids)
+
+        query = """
+        SELECT
+            imdb_id
+        , title
+        , year
+        , slug
+        FROM movies
+        LEFT JOIN reviews ON imdb_id = movie_imdb_id
+        WHERE imdb_id IN ({0});
+        """.format(
+            movie_imdb_ids_as_sql_list
+        )
+
+        rows = db.exec_query(query)
+
+        for row in rows:
+            details.append(
+                {"title": row["title"], "year": row["year"], "slug": row["slug"]}
+            )
+
+        return details
 
     @classmethod
     def build_reviewed_watchlist_cache(cls, person_type: str) -> Dict[str, str]:
@@ -187,11 +244,14 @@ def most_watched_by_year_rows_to_dict(
     rows_by_year: RowsByYear = {}
 
     for row in rows:
-        viewing_year = row["viewing_year"]
-        viewing_year_rows = rows_by_year.get(viewing_year, [])
         row_as_dict = dict(row)
+        viewing_year = row_as_dict.pop("viewing_year")
+        viewing_year_rows = rows_by_year.get(viewing_year, [])
         row_as_dict[SLUG] = cache.get(row_as_dict[cache_key], None)
-        row_as_dict.pop("viewing_year")
+        if "movie_imdb_ids" in row_as_dict:
+            row_as_dict["details"] = Person.fetch_details_for_movie_imdb_ids(
+                row_as_dict.pop("movie_imdb_ids")
+            )
         viewing_year_rows.append(row_as_dict)
         rows_by_year[viewing_year] = viewing_year_rows
 
@@ -206,6 +266,10 @@ def most_watched_rows_to_list(
     for row in rows:
         row_as_dict = dict(row)
         row_as_dict[SLUG] = cache.get(row_as_dict[key], None)
+        if "movie_imdb_ids" in row_as_dict:
+            row_as_dict["details"] = Person.fetch_details_for_movie_imdb_ids(
+                row_as_dict.pop("movie_imdb_ids")
+            )
         row_list.append(row_as_dict)
 
     return row_list

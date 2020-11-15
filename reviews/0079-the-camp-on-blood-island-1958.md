@@ -6,7 +6,9 @@ title: The Camp on Blood Island (1958)
 grade: B-
 slug: the-camp-on-blood-island-1958
 venue: Blu-ray
-venue_notes:
+venue_notes: 2018 | Powerhouse Films
 ---
 
-Morel plays a stiff sergeant leading a group of POWs in a Japanese prison camp ruled by cartoonishly sadistic jailers. There's a great twist that I won't spoil, so suffice it to say there's a ticking clock Morell's working against. This film makes no attempt at high drama ala Bridge on the River Kwai, it's a well-done exploitation piece that delivers the goods and sticks the landing.
+André Morell plays a stiff sergeant leading a group of POWs in a Japanese prison camp ruled by cartoonishly sadistic jailers. There’s a great twist that pits Morell against a ticking clock and propels the film along. This isn’t high drama ala <span data-imdb-id="tt0050212">_The Bridge on the River Kwai_</span>, just well-executed exploitation that delivers the goods thanks to a commanding turn by Morell and director Val Guest’s formal economy.
+
+The Powerhouse Blu-ray looks great.
