@@ -7,6 +7,7 @@ from movielog import db
 from movielog.logger import logger
 
 SLUG = "slug"
+MOVIE_IMDB_IDS = "movie_imdb_ids"
 
 
 class Person(object):
@@ -248,9 +249,9 @@ def most_watched_by_year_rows_to_dict(
         viewing_year = row_as_dict.pop("viewing_year")
         viewing_year_rows = rows_by_year.get(viewing_year, [])
         row_as_dict[SLUG] = cache.get(row_as_dict[cache_key], None)
-        if "movie_imdb_ids" in row_as_dict:
+        if MOVIE_IMDB_IDS in row_as_dict:
             row_as_dict["details"] = Person.fetch_details_for_movie_imdb_ids(
-                row_as_dict.pop("movie_imdb_ids")
+                row_as_dict.pop(MOVIE_IMDB_IDS)
             )
         viewing_year_rows.append(row_as_dict)
         rows_by_year[viewing_year] = viewing_year_rows
@@ -266,9 +267,9 @@ def most_watched_rows_to_list(
     for row in rows:
         row_as_dict = dict(row)
         row_as_dict[SLUG] = cache.get(row_as_dict[key], None)
-        if "movie_imdb_ids" in row_as_dict:
+        if MOVIE_IMDB_IDS in row_as_dict:
             row_as_dict["details"] = Person.fetch_details_for_movie_imdb_ids(
-                row_as_dict.pop("movie_imdb_ids")
+                row_as_dict.pop(MOVIE_IMDB_IDS)
             )
         row_list.append(row_as_dict)
 
