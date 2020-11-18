@@ -9,4 +9,4 @@ venue: 4k UHD Blu-ray
 venue_notes: 2019 | Disney / Buena Vista
 ---
 
-A satisfying third act to 11-years of Marvel films. The "time heist" plot proves secondary to a series of images and moments that recreate the pre-adolescent awe I experienced reading the source comics. Not as resonant as <span data-imdb-id="tt4154756">_Infinity War_</span>, but it features moments I’ve waited my entire life to see made real.
+A satisfying third act to 11-years of Marvel films. The "time heist" plot proves secondary to a series of images and moments that recreate the pre-adolescent awe I experienced reading the source comics. Not as resonant as <span data-imdb-id="tt4154756">_Infinity War_</span>, but just as entertaining.
