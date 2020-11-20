@@ -3,7 +3,7 @@ sequence: 54
 date: 2020-10-15
 imdb_id: tt1270835
 title: Hatchet II (2010)
-grade: C
+grade: C-
 slug: hatchet-ii-2010
 venue: Blu-ray
 venue_notes: 2011 | MPI Media Group

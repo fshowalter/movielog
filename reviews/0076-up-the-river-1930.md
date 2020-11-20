@@ -19,4 +19,4 @@ The sound era created a demand for stars capable of delivering dialog and Hollyw
 
 In contrast to these stiff, theatrical performances, Tracy's charismatic, natural turn is all effortless charm. Ford helps. Rather than stand and deliver lines, Ford has Tracy tossing a baseball, fidgeting with the warden’s cigar case, playing with a knife… always something to keep him moving.
 
-The iTunes print is spliced together from multiple sources, replete with sound and frame drops, and numerous scratches. Sadly, it's the best quality available. That said, for fans of Tracy or Ford, it's worth seeking out.
+The iTunes print is spliced together from multiple sources, replete with sound and frame drops, and numerous scratches. Sadly, it's the best quality available. That said, for fans of Tracy or Ford, it's worth seeking out. And look fast for Ward Bond as a bat-toting inmate.
