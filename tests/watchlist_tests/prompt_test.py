@@ -1,4 +1,5 @@
 import os
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
@@ -6,6 +7,16 @@ from pytest_mock import MockerFixture
 from movielog import watchlist
 
 Collection = watchlist.Collection
+
+
+@pytest.fixture(autouse=True)
+def mock_imdb_data_update(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.imdb_data.update")
+
+
+@pytest.fixture(autouse=True)
+def mock_viewings_update(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.watchlist_person.Person.refresh_item_titles")
 
 
 @pytest.fixture(autouse=True)

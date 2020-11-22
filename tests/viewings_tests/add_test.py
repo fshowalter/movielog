@@ -1,10 +1,16 @@
 import os
 from datetime import date
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
 
 from movielog import viewings, yaml_file
+
+
+@pytest.fixture(autouse=True)
+def mock_viewings_update(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.viewings.update")
 
 
 def test_creates_new_viewing(tmp_path: str, mocker: MockerFixture) -> None:
