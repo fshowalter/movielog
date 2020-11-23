@@ -9,4 +9,4 @@ venue: 4k UHD Blu-ray
 venue_notes: 2019 | Sony Pictures
 ---
 
-Surprisingly unpolished entry from Marvel careens between bad teen comedy and flat comic book action. The script teems with relentless, repetitive exposition, forced comedy, and trite plotting. This one needed another year in the oven. Stop at <span data-imdb-id="tt4154796">Endgame</span> instead.
+Unpolished Marvel production careens between bad teen comedy and flat comic book action. The script teems with relentless, repetitive exposition, forced comedy, and trite plotting. This one needed another year in the oven. Stop at <span data-imdb-id="tt4154796">_Endgame_</span> instead.
