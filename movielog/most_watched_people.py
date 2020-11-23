@@ -9,7 +9,7 @@ from movielog import db
 from movielog.logger import logger
 from movielog.most_watched_movies import Movie, Viewing
 
-MAX_MOST_WATCHED = 10
+MAX_MOST_WATCHED = 20
 
 
 @dataclass
@@ -89,6 +89,9 @@ class PersonYearStats(object):
             GROUP BY {1}
         ) AS watchlist_titles ON watchlist_titles.{1} = person_imdb_id
         WHERE {2}
+        GROUP BY
+            viewings.sequence
+            , person_imdb_id
         """.format(
             credit_table, credit_table_key, cls.exclude_person_ids_query_clause()
         )
@@ -186,7 +189,7 @@ class DirectorYearStats(PersonYearStats):
             stats.append(cls.generate_for_viewing_year(viewings, year))
 
         stats.append(
-            DirectorYearStats(
+            cls(
                 year="all",
                 most_watched=cls.generate_most_watched(viewings),
             )
@@ -215,7 +218,7 @@ class PerformerYearStats(PersonYearStats):
             stats.append(cls.generate_for_viewing_year(viewings, year))
 
         stats.append(
-            DirectorYearStats(
+            cls(
                 year="all",
                 most_watched=cls.generate_most_watched(viewings),
             )
@@ -244,7 +247,7 @@ class WriterYearStats(PersonYearStats):
             stats.append(cls.generate_for_viewing_year(viewings, year))
 
         stats.append(
-            DirectorYearStats(
+            cls(
                 year="all",
                 most_watched=cls.generate_most_watched(viewings),
             )

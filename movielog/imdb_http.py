@@ -97,6 +97,7 @@ class WritingCreditForTitle(CreditForTitle):
         "(based on characters created by)",
         "(character)",
         "(characters)",
+        "(characters) (uncredited)",
         '("Alien" characters)',
         "(based on the Marvel comics by)",
         "(based on the Marvel comics by) and",
