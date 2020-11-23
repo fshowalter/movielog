@@ -9,6 +9,8 @@ from movielog import db
 from movielog.logger import logger
 from movielog.most_watched_movies import Movie, Viewing
 
+MAX_MOST_WATCHED = 10
+
 
 @dataclass
 class Person(object):
@@ -117,6 +119,18 @@ class PersonYearStats(object):
         ]
 
     @classmethod
+    def generate_for_viewing_year(
+        cls, viewings: Sequence[ViewingWithPerson], year: int
+    ) -> "PersonYearStats":
+        viewings_for_year = list(
+            filter(lambda viewing: viewing.date.year == year, viewings)
+        )
+        return PersonYearStats(
+            year=str(year),
+            most_watched=cls.generate_most_watched(viewings_for_year),
+        )
+
+    @classmethod
     def generate_most_watched(
         cls, viewings: Sequence[ViewingWithPerson]
     ) -> Sequence[MostWatchedPerson]:
@@ -152,7 +166,7 @@ class PersonYearStats(object):
 
         return sorted(
             most_watched_people, reverse=True, key=lambda movie: len(movie.viewings)
-        )
+        )[:MAX_MOST_WATCHED]
 
 
 @dataclass
@@ -165,6 +179,11 @@ class DirectorYearStats(PersonYearStats):
                 credit_table="directing_credits", credit_table_key="director_imdb_id"
             )
         )
+
+        years = list(set(viewing.date.year for viewing in viewings))
+
+        for year in years:
+            stats.append(cls.generate_for_viewing_year(viewings, year))
 
         stats.append(
             DirectorYearStats(
@@ -190,6 +209,11 @@ class PerformerYearStats(PersonYearStats):
             )
         )
 
+        years = list(set(viewing.date.year for viewing in viewings))
+
+        for year in years:
+            stats.append(cls.generate_for_viewing_year(viewings, year))
+
         stats.append(
             DirectorYearStats(
                 year="all",
@@ -213,6 +237,11 @@ class WriterYearStats(PersonYearStats):
                 credit_table="writing_credits", credit_table_key="writer_imdb_id"
             )
         )
+
+        years = list(set(viewing.date.year for viewing in viewings))
+
+        for year in years:
+            stats.append(cls.generate_for_viewing_year(viewings, year))
 
         stats.append(
             DirectorYearStats(

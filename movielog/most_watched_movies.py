@@ -8,6 +8,8 @@ from typing import List
 from movielog import db
 from movielog.logger import logger
 
+MAX_MOST_WATCHED = 20
+
 
 @dataclass
 class Movie(object):
@@ -112,7 +114,7 @@ class MovieYearStats(object):
 
         return sorted(
             most_watched_movies, reverse=True, key=lambda movie: len(movie.viewings)
-        )
+        )[:MAX_MOST_WATCHED]
 
     @classmethod
     def generate_decades(cls, viewings: List[Viewing]) -> List[DecadeGroup]:
