@@ -137,7 +137,7 @@ class MovieYearStats(object):
                 )
             )
 
-        return sorted(decades, key=lambda group: group.decade)
+        return sorted(decades, key=lambda group: group.viewing_count, reverse=True)
 
     @classmethod
     def generate_for_viewing_year(

@@ -141,6 +141,13 @@ class WritingCreditForTitle(CreditForTitle):
 class CastCreditForTitle(CreditForTitle):
     roles: List[str]
 
+    invalid_notes = ["(uncredited)"]
+
+    @classmethod
+    def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
+        notes = credit.notes.strip()
+        return notes not in cls.invalid_notes
+
     @classmethod
     def from_imdb_cast_credit(
         cls, imdb_id: str, sequence: int, cast_credit: imdb.Person.Person
@@ -247,6 +254,9 @@ class TitleDetail(TitleBasic):
         credit_list: List[CastCreditForTitle] = []
 
         for index, filtered_credit in enumerate(movie.get("cast", [])):
+            if not CastCreditForTitle.credit_is_valid(filtered_credit):
+                continue
+
             credit_list.append(
                 CastCreditForTitle.from_imdb_cast_credit(
                     imdb_id=f"{TT}{movie['imdbID']}",
