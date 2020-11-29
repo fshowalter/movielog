@@ -8,6 +8,8 @@ from movielog.logger import logger
 
 TABLE_NAME = "watchlist_titles"
 SLUG = "slug"
+DIRECTOR_IMDB_ID = "director_imdb_id"
+ETHAN_COEN_IMDB_ID = "nm0001053"
 
 
 @dataclass
@@ -216,6 +218,18 @@ class Exporter(object):
             output_file.write(json.dumps([asdict(title) for title in titles]))
 
     @classmethod
+    def build_director_export(cls, row: db.Row) -> WatchlistPersonExport:
+        name = row["director_name"]
+        if row[DIRECTOR_IMDB_ID] == ETHAN_COEN_IMDB_ID:
+            name = "The Coen Brothers"
+
+        return WatchlistPersonExport(
+            imdb_id=row["director_imdb_id"],
+            name=name,
+            slug=row[SLUG],
+        )
+
+    @classmethod
     def export(cls) -> None:
         logger.log("==== Begin exporting {}...", "watchlist movies")
 
@@ -265,14 +279,8 @@ class Exporter(object):
                 ),
             )
 
-            if row["director_imdb_id"]:
-                title.directors.append(
-                    WatchlistPersonExport(
-                        imdb_id=row["director_imdb_id"],
-                        name=row["director_name"],
-                        slug=row[SLUG],
-                    )
-                )
+            if row[DIRECTOR_IMDB_ID]:
+                title.directors.append(cls.build_director_export(row))
 
             if row["performer_imdb_id"]:
                 title.performers.append(
