@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes: 2018 | Arrow Video | 1080p
 ---
 
-It’s Thanksgiving in Jacksonville, Florida. Terry’s twin brother--institutionalized since childhood for a brutal hatchet murder--returns to the family’s garden apartment home. This causes Terry--who _actually_ committed the murder--to snap and go on a killing rampage.
+It’s Thanksgiving in Jacksonville, Florida. Terry’s twin brother--institutionalized since childhood for a brutal hatchet murder--returns to the family’s garden apartment home. This causes Terry--who _actually_ committed the murder--to embark on a killing rampage.
 
 <!-- end -->
 
