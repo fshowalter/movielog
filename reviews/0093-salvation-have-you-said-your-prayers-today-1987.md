@@ -17,6 +17,6 @@ Answer: it never made it past VHS.
 
 Probably the music rights. Regardless, this hits all my sweet spots. The plot sees Mortensen and family interject themselves into televangelist Stephen McHattie’s life. It struggles early for the right tone, but once it settles on McHattie’s riveting performance as the Reverend, it shines.
 
-Take the color, atmosphere, and camera work of Lamberto Bava's <span data-imdb-id="tt0089013">_Demons_</span>, stir in the biting wit of <span data-imdb-id="tt0097493">_Heathers_</span> and add a dash of music-video-style surrealism, and you have a hint of the viewing experience.
+Take the colors, atmosphere, and camera work of Lamberto Bava's <span data-imdb-id="tt0089013">_Demons_</span>, stir in the biting wit of <span data-imdb-id="tt0097493">_Heathers_</span> and add a dash of music-video-style surrealism, and you have a hint of the viewing experience.
 
-Sure, the formal digressions sometimes feel like a cop-out, and the ending feels abrupt, but the aggregate impresses. If this ever sees an HD release, please include an open matte version. It reminds me of the copy-of-a-copy bootleg VHS rarities playing during college parties in the best possible way.
+Sure, the formal digressions sometimes feel like a cop-out, and the ending feels abrupt, but the aggregate impresses. If this ever sees an HD release, please include an open matte version. It reminds me of the copy-of-a-copy VHS rarities playing during college parties in the best possible way.
