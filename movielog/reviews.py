@@ -232,6 +232,7 @@ def export() -> None:
 class Exporter(object):
     @classmethod
     def fetch_reviews(cls) -> List[Dict[str, Any]]:
+        update()
         reviews = []
 
         rows = db.exec_query(
