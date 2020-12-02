@@ -3,7 +3,7 @@ from movielog import (
     most_watched_people,
     reviews,
     viewings,
-    watchlist_titles_table,
+    watchlist_exporter,
 )
 
 
@@ -12,4 +12,4 @@ def export() -> None:
     most_watched_people.export()
     viewings.export()
     reviews.export()
-    watchlist_titles_table.export()
+    watchlist_exporter.export()
