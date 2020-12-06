@@ -85,7 +85,7 @@ class Collection(object):
     def add_title(self, imdb_id: str, title: str, year: int) -> Sequence[Movie]:
         self.movies.append(Movie(imdb_id=imdb_id, title=title, year=year))
 
-        self.movies.sort(key=operator.attrgetter("title"))
+        self.movies.sort(key=operator.attrgetter("year"))
 
         return self.movies
 
