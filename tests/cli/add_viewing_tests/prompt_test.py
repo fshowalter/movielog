@@ -21,16 +21,6 @@ def mock_viewings_add(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def mock_exporter_export(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.add_viewing.exporter.export")
-
-
-@pytest.fixture(autouse=True)
-def mock_viewings_export(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.add_viewing.viewings.export")
-
-
-@pytest.fixture(autouse=True)
 def mock_reviews_add(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.cli.add_viewing.reviews.add")
 

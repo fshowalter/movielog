@@ -1,3 +1,4 @@
+import json
 import os
 
 from pytest_mock import MockerFixture
@@ -6,15 +7,17 @@ from movielog import watchlist_collection
 
 
 def test_creates_new_collection(tmp_path: str, mocker: MockerFixture) -> None:
-    mocker.patch("movielog.watchlist_collection.WATCHLIST_PATH", tmp_path)
+    mocker.patch("movielog.watchlist_collection.FOLDER_PATH", tmp_path)
 
-    expected = "frozen: false\nname: Halloween\nslug: halloween\ntitles: []\n"
+    expected = {
+        "name": "Halloween",
+        "slug": "halloween",
+        "movies": [],
+    }
 
     watchlist_collection.add(name="Halloween")
 
-    with open(
-        os.path.join(tmp_path, "collections", "halloween.yml"), "r"
-    ) as output_file:
-        yaml_content = output_file.read()
+    with open(os.path.join(tmp_path, "halloween.json"), "r") as output_file:
+        file_content = json.load(output_file)
 
-    assert yaml_content == expected
+    assert file_content == expected
