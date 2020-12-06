@@ -5,7 +5,7 @@ imdb_id: tt1825683
 title: Black Panther (2018)
 grade: C+
 slug: black-panther-2018
-venue: "Disney+ "
+venue: 'Disney+ '
 venue_notes: 2018 | Disney / Buena Vista | 4k
 ---
 

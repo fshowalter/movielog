@@ -4,13 +4,13 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import watchlist
+from movielog import watchlist, watchlist_collection
 from movielog.cli import add_to_collection
-from movielog.watchlist_file import Title
 from tests.cli.keys import Down, Enter, Escape
 from tests.cli.typehints import MovieTuple, PosixPipeInput
 
 Collection = watchlist.Collection
+Movie = watchlist_collection.Movie
 
 
 @pytest.fixture(autouse=True)
@@ -42,10 +42,10 @@ def seed_db(seed_movies: Callable[[List[MovieTuple]], None]) -> None:
 def mock_collection_add_title(mocker: MockerFixture) -> MagicMock:
     collection = Collection(
         name="Friday the 13th",
-        titles=[
-            Title(imdb_id="tt0080761", year=1980, title="Friday the 13th"),
-            Title(imdb_id="tt0082418", year=1981, title="Friday the 13th Part 2"),
-            Title(imdb_id="tt0083972", year=1982, title="Friday the 13th Part III"),
+        movies=[
+            Movie(imdb_id="tt0080761", year=1980, title="Friday the 13th"),
+            Movie(imdb_id="tt0082418", year=1981, title="Friday the 13th Part 2"),
+            Movie(imdb_id="tt0083972", year=1982, title="Friday the 13th Part III"),
         ],
     )
     mocker.patch(

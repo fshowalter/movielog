@@ -4,81 +4,96 @@ import os
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, Dict, List, Optional, Sequence, Set
+from typing import Any, Dict, List, Optional, Sequence
 
 from slugify import slugify
 
-from movielog import db, humanize, imdb_data, yaml_file
+from movielog import db, has_sequence, humanize
 from movielog.logger import logger
 
 TABLE_NAME = "viewings"
+FOLDER_PATH = "viewings"
 SEQUENCE = "sequence"
 BLANK_SPACE = " "
 
 
 @dataclass
-class Viewing(yaml_file.Movie, yaml_file.WithSequence):
+class Viewing(object):
+    file_path: Optional[str]
+    imdb_id: str
+    title: str
     venue: str
     date: date
-    sort_title: Optional[str] = None
+    sequence: Optional[int]
+
+    @classmethod
+    def from_file_path(cls, file_path: str) -> "Viewing":
+        json_object = None
+
+        with open(file_path, "r") as json_file:
+            json_object = json.load(json_file)
+
+        instance = cls.from_json_object(file_path=file_path, json_object=json_object)
+        instance.file_path = file_path
+
+        return instance
 
     @classmethod
     def load_all(cls) -> Sequence["Viewing"]:
+        logger.log("==== Begin reading {} from disk...", TABLE_NAME)
+
         viewings: List[Viewing] = []
-        for yaml_file_path in glob(os.path.join(TABLE_NAME, "*.yml")):
+        for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.json")):
             viewings.append(cls.from_file_path(yaml_file_path))
 
         viewings.sort(key=operator.attrgetter(SEQUENCE))
 
-        logger.log("Loaded {} {}.", humanize.intcomma(len(viewings)), TABLE_NAME)
+        logger.log("Read {} {}.", humanize.intcomma(len(viewings)), TABLE_NAME)
         return viewings
 
     @classmethod
-    def build_sort_title(cls, title: str) -> str:
-        title_lower = title.lower()
-        title_words = title.split(BLANK_SPACE)
-        lower_words = title_lower.split(BLANK_SPACE)
-        articles = set(["a", "an", "the"])
-
-        if (len(title_words) > 1) and (lower_words[0] in articles):
-            return "{0}, {1}".format(
-                " ".join(title_words[1 : len(title_words)]), title_words[0]
-            )
-
-        return title
-
-    @classmethod
-    def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Viewing":
-        title, year = cls.split_title_and_year(yaml_object["title"])
-        sort_title = cls.build_sort_title(title)
-
+    def from_json_object(cls, file_path: str, json_object: Dict[str, Any]) -> "Viewing":
         return cls(
-            imdb_id=yaml_object["imdb_id"],
-            title=title,
-            year=year,
-            venue=yaml_object["venue"],
-            sequence=yaml_object[SEQUENCE],
-            date=yaml_object["date"],
+            imdb_id=json_object["imdb_id"],
+            title=json_object["title"],
+            venue=json_object["venue"],
+            sequence=json_object[SEQUENCE],
+            date=json_object["date"],
             file_path=file_path,
-            sort_title=sort_title,
         )
 
-    def generate_slug(self) -> str:
-        slug = slugify(f"{self.sequence:04} {self.title_with_year}")
-        return str(slug)
+    def ensure_file_path(self) -> str:
+        file_path = self.file_path
 
-    @classmethod
-    def folder_path(cls) -> str:
-        return TABLE_NAME
+        if not file_path:
+            file_name = f"{self.sequence:04} {self.title}"
+            slug = slugify(file_name, replacements=[("'", "")])
+            file_path = os.path.join(FOLDER_PATH, "{0}.json".format(slug))
 
-    def as_yaml(self) -> Dict[str, Any]:
-        return {
-            SEQUENCE: self.sequence,
-            "date": self.date,
-            "imdb_id": self.imdb_id,
-            "title": self.title_with_year,
-            "venue": self.venue,
-        }
+        if not os.path.exists(os.path.dirname(file_path)):
+            os.makedirs(os.path.dirname(file_path))
+
+        return file_path
+
+    def as_dict(self) -> Dict[str, Any]:
+        viewing_dict = asdict(self)
+        viewing_dict.pop("file_path", None)
+        return viewing_dict
+
+    def save(self) -> str:
+        if not self.sequence:
+            self.sequence = has_sequence.next_sequence(type(self).load_all())
+
+        file_path = self.ensure_file_path()
+
+        with open(file_path, "w") as output_file:
+            output_file.write(json.dumps(self.as_dict(), default=str, indent=2))
+
+        self.file_path = file_path
+
+        logger.log("Wrote {}", self.file_path)
+
+        return file_path
 
 
 class ViewingsTable(db.Table):
@@ -91,15 +106,14 @@ class ViewingsTable(db.Table):
             "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
             "date" DATE NOT NULL,
             "sequence" INT NOT NULL,
-            "venue" TEXT NOT NULL,
-            "sort_title" TEXT NOT NULL);
+            "venue" TEXT NOT NULL);
         """
 
     @classmethod
     def insert_viewings(cls, viewings: Sequence[Viewing]) -> None:
         ddl = """
-          INSERT INTO {0}(movie_imdb_id, date, sequence, venue, sort_title)
-          VALUES(:imdb_id, :date, :sequence, :venue, :sort_title);
+          INSERT INTO {0}(movie_imdb_id, date, sequence, venue)
+          VALUES(:imdb_id, :date, :sequence, :venue);
         """.format(
             cls.table_name
         )
@@ -113,19 +127,11 @@ class ViewingsTable(db.Table):
         cls.validate(viewings)
 
 
-def update() -> None:
-    logger.log("==== Begin updating {}...", TABLE_NAME)
-
-    viewings = Viewing.load_all()
+def export(viewings: Sequence[Viewing]) -> None:
+    logger.log("==== Begin exporting {}...", TABLE_NAME)
 
     ViewingsTable.recreate()
     ViewingsTable.insert_viewings(viewings)
-
-    imdb_data.update(imdb_ids())
-
-
-def export() -> None:
-    logger.log("==== Begin exporting {}...", TABLE_NAME)
 
     query = """
         SELECT
@@ -141,7 +147,8 @@ def export() -> None:
         , sort_title
         FROM viewings
         INNER JOIN movies ON viewings.movie_imdb_id = imdb_id
-        INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id;
+        INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id
+        INNER JOIN sort_titles on sort_titles.movie_imdb_id = viewings.movie_imdb_id;
         """
 
     with db.connect() as connection:
@@ -156,18 +163,20 @@ def export() -> None:
 def add(imdb_id: str, title: str, venue: str, viewing_date: date, year: int) -> Viewing:
     viewing = Viewing(
         imdb_id=imdb_id,
-        title=title,
+        title="{0} ({1})".format(title, year),
         venue=venue,
         date=viewing_date,
-        year=year,
         file_path=None,
         sequence=0,
     )
 
     viewing.save()
-    update()
 
     return viewing
+
+
+def load_all() -> Sequence[Viewing]:
+    return Viewing.load_all()
 
 
 def venues() -> Sequence[str]:
@@ -176,7 +185,3 @@ def venues() -> Sequence[str]:
     )
     venue_items.sort()
     return venue_items
-
-
-def imdb_ids() -> Set[str]:
-    return set([viewing.imdb_id for viewing in Viewing.load_all()])

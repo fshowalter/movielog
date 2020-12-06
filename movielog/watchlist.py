@@ -1,16 +1,12 @@
-from typing import Sequence
+from typing import List, Sequence, Set
 
-from movielog import (
-    imdb_data,
-    watchlist_collection,
-    watchlist_person,
-    watchlist_titles_table,
-)
+from movielog import watchlist_collection, watchlist_person, watchlist_table
 
 Director = watchlist_person.Director
 Performer = watchlist_person.Performer
 Writer = watchlist_person.Writer
 Collection = watchlist_collection.Collection
+Movie = watchlist_table.Movie
 
 
 def add_director(imdb_id: str, name: str) -> Director:
@@ -33,6 +29,21 @@ def add_collection(name: str) -> Collection:
     return watchlist_collection.add(name)
 
 
-def update_watchlist_titles_table() -> None:
-    watchlist_titles_table.update()
-    imdb_data.update(watchlist_titles_table.imdb_ids())
+def refresh_credits() -> None:
+    watchlist_person.refresh_credits()
+
+
+def load_all() -> List[Movie]:
+    titles: List[Movie] = []
+
+    for collection in watchlist_collection.all_items():
+        titles.extend(watchlist_table.movies_for_collection(collection))
+
+    for person in watchlist_person.all_items():
+        titles.extend(watchlist_table.movies_for_person(person))
+
+    return titles
+
+
+def imdb_ids() -> Set[str]:
+    return set([title.movie_imdb_id for title in load_all()])

@@ -7,7 +7,7 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog import exporter, reviews, viewings
+from movielog import reviews, viewings
 from movielog.cli import ask, radio_list, select_movie
 
 Option = Tuple[Optional[str], AnyFormattedText]
@@ -50,8 +50,6 @@ def prompt() -> None:
         year=movie.year,
         grade=grade,
     )
-
-    exporter.export()
 
 
 def is_date(text: str) -> bool:

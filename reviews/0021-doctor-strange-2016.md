@@ -5,7 +5,7 @@ imdb_id: tt1211837
 title: Doctor Strange (2016)
 grade: C
 slug: doctor-strange-2016
-venue: "Disney+"
+venue: Disney+
 venue_notes: 2017 | Disney / Buena Vista | 4k
 ---
 

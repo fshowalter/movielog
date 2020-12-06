@@ -2,7 +2,7 @@
 sequence: 3
 date: 2020-07-11
 imdb_id: tt2395427
-title: "Avengers: Age of Ultron (2015)"
+title: 'Avengers: Age of Ultron (2015)'
 grade: C+
 slug: avengers-age-of-ultron-2015
 venue: 4k UHD Blu-ray

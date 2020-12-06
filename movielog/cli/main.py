@@ -1,12 +1,5 @@
-from movielog import exporter, imdb_s3_orchestrator
-from movielog.cli import (
-    add_viewing,
-    confirm,
-    manage_watchlist,
-    radio_list,
-    reload_reviews,
-    reload_viewings,
-)
+from movielog import exporter
+from movielog.cli import add_viewing, confirm, imdb, manage_watchlist, radio_list
 from movielog.logger import logger
 
 
@@ -15,9 +8,7 @@ def prompt() -> None:
     options = [
         (add_viewing.prompt, "<cyan>Add Viewing</cyan>"),
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
-        (update_imdb_s3_data, "<cyan>Update IMDb data</cyan>"),
-        (reload_viewings.prompt, "<cyan>Reload Viewings Table</cyan>"),
-        (reload_reviews.prompt, "<cyan>Reload Reviews Table</cyan>"),
+        (imdb.prompt, "<cyan>IMDb</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
         (None, "Exit"),
     ]
@@ -35,8 +26,3 @@ def export() -> None:
     prompt_text = "<cyan>Export review, viewing, watchlist, and stats data?</cyan>"
     if confirm.prompt(prompt_text):
         exporter.export()
-
-
-def update_imdb_s3_data() -> None:
-    if confirm.prompt("<cyan>Download and update IMDb data?</cyan>"):
-        imdb_s3_orchestrator.orchestrate_update()

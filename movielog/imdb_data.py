@@ -1,3 +1,4 @@
+import json
 import os
 from dataclasses import asdict, dataclass
 from datetime import date
@@ -6,7 +7,7 @@ from typing import Any, Dict, List, Optional, Sequence, Set
 
 from slugify import slugify
 
-from movielog import db, humanize, imdb_http, yaml_file
+from movielog import db, humanize, imdb_http
 from movielog.logger import logger
 
 WRITING_CREDITS_TABLE_NAME = "writing_credits"
@@ -19,29 +20,18 @@ NAME = "name"
 NOTES = "notes"
 IMDB_ID = "imdb_id"
 RELEASE_DATES_TABLE_NAME = "release_dates"
+SORT_TITLES_TABLE_NAME = "sort_titles"
 MOVIE_IMDB_ID = "movie_imdb_id"
 UPDATE_MESSAGE = "==== Begin updating {}..."
 
 
 @dataclass
-class Credit(object):
+class DirectingCredit(object):
     movie_imdb_id: str
     person_imdb_id: str
-    person_name: str
+    name: str
     sequence: int
     notes: Optional[str]
-
-
-@dataclass
-class DirectingCredit(Credit):
-    def as_dict(self) -> Dict[str, Optional[str]]:
-        return {
-            SEQUENCE: str(self.sequence),
-            MOVIE_IMDB_ID: self.movie_imdb_id,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            NOTES: self.notes,
-        }
 
     @classmethod
     def from_imdb_http_credit(
@@ -50,45 +40,30 @@ class DirectingCredit(Credit):
         return cls(
             movie_imdb_id=imdb_http_credit.movie_imdb_id,
             person_imdb_id=imdb_http_credit.person_imdb_id,
-            person_name=imdb_http_credit.name,
+            name=imdb_http_credit.name,
             sequence=imdb_http_credit.sequence,
             notes=imdb_http_credit.notes,
         )
 
     @classmethod
-    def from_yaml(
-        cls, movie_imdb_id: str, yaml_object: Dict[str, Any]
-    ) -> "DirectingCredit":
+    def from_json_object(cls, json_object: Dict[str, Any]) -> "DirectingCredit":
         return cls(
-            movie_imdb_id=movie_imdb_id,
-            person_imdb_id=yaml_object[PERSON_IMDB_ID],
-            person_name=yaml_object[NAME],
-            sequence=yaml_object[SEQUENCE],
-            notes=yaml_object[NOTES],
+            movie_imdb_id=json_object[MOVIE_IMDB_ID],
+            person_imdb_id=json_object[PERSON_IMDB_ID],
+            name=json_object[NAME],
+            sequence=json_object[SEQUENCE],
+            notes=json_object[NOTES],
         )
-
-    def as_yaml(self) -> Any:
-        return {
-            SEQUENCE: self.sequence,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            NOTES: self.notes,
-        }
 
 
 @dataclass
-class WritingCredit(Credit):
+class WritingCredit(object):
+    movie_imdb_id: str
+    person_imdb_id: str
+    name: str
+    sequence: int
+    notes: Optional[str]
     group_id: int
-
-    def as_dict(self) -> Dict[str, Optional[str]]:
-        return {
-            "group_id": str(self.group_id),
-            SEQUENCE: str(self.sequence),
-            MOVIE_IMDB_ID: self.movie_imdb_id,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            NOTES: self.notes,
-        }
 
     @classmethod
     def from_imdb_http_credit(
@@ -97,52 +72,36 @@ class WritingCredit(Credit):
         return cls(
             movie_imdb_id=imdb_http_credit.movie_imdb_id,
             person_imdb_id=imdb_http_credit.person_imdb_id,
-            person_name=imdb_http_credit.name,
+            name=imdb_http_credit.name,
             sequence=imdb_http_credit.sequence,
             group_id=imdb_http_credit.group,
             notes=imdb_http_credit.notes,
         )
 
     @classmethod
-    def from_yaml(
-        cls, movie_imdb_id: str, yaml_object: Dict[str, Any]
-    ) -> "WritingCredit":
+    def from_json_object(cls, json_object: Dict[str, Any]) -> "WritingCredit":
         return cls(
-            movie_imdb_id=movie_imdb_id,
-            person_imdb_id=yaml_object[PERSON_IMDB_ID],
-            person_name=yaml_object[NAME],
-            sequence=yaml_object[SEQUENCE],
-            notes=yaml_object[NOTES],
-            group_id=yaml_object["group_id"],
+            movie_imdb_id=json_object[MOVIE_IMDB_ID],
+            person_imdb_id=json_object[PERSON_IMDB_ID],
+            name=json_object[NAME],
+            sequence=json_object[SEQUENCE],
+            notes=json_object[NOTES],
+            group_id=json_object["group_id"],
         )
-
-    def as_yaml(self) -> Any:
-        return {
-            "group_id": self.group_id,
-            SEQUENCE: self.sequence,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            NOTES: self.notes,
-        }
 
 
 @dataclass
-class CastCredit(Credit):
+class CastCredit(object):
+    movie_imdb_id: str
+    person_imdb_id: str
+    name: str
+    sequence: int
+    notes: Optional[str]
     roles: List[str]
 
     @property
     def role_string(self) -> str:
         return " / ".join(self.roles)
-
-    def as_dict(self) -> Dict[str, Optional[str]]:
-        return {
-            SEQUENCE: str(self.sequence),
-            MOVIE_IMDB_ID: self.movie_imdb_id,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            "role_string": self.role_string,
-            NOTES: self.notes,
-        }
 
     @classmethod
     def from_imdb_http_cast_credit(
@@ -151,140 +110,118 @@ class CastCredit(Credit):
         return cls(
             movie_imdb_id=imdb_http_cast_credit.movie_imdb_id,
             person_imdb_id=imdb_http_cast_credit.person_imdb_id,
-            person_name=imdb_http_cast_credit.name,
+            name=imdb_http_cast_credit.name,
             sequence=imdb_http_cast_credit.sequence,
             roles=imdb_http_cast_credit.roles,
             notes=imdb_http_cast_credit.notes,
         )
 
     @classmethod
-    def from_yaml(cls, movie_imdb_id: str, yaml_object: Dict[str, Any]) -> "CastCredit":
+    def from_json_object(cls, json_object: Dict[str, Any]) -> "CastCredit":
         return cls(
-            movie_imdb_id=movie_imdb_id,
-            person_imdb_id=yaml_object[PERSON_IMDB_ID],
-            person_name=yaml_object[NAME],
-            sequence=yaml_object[SEQUENCE],
-            roles=yaml_object["roles"],
-            notes=yaml_object[NOTES],
+            movie_imdb_id=json_object[MOVIE_IMDB_ID],
+            person_imdb_id=json_object[PERSON_IMDB_ID],
+            name=json_object[NAME],
+            sequence=json_object[SEQUENCE],
+            roles=json_object["roles"],
+            notes=json_object[NOTES],
         )
 
-    def as_yaml(self) -> Any:
-        return {
-            SEQUENCE: self.sequence,
-            PERSON_IMDB_ID: self.person_imdb_id,
-            NAME: self.person_name,
-            "roles": self.roles,
-            NOTES: self.notes,
-        }
+    def as_dict(self) -> Dict[str, Any]:
+        credit_dict = asdict(self)
+        credit_dict["role_string"] = self.role_string
+        return credit_dict
 
 
 @dataclass
-class Movie(yaml_file.Movie):
-    performing_credits: List[CastCredit]
-    directing_credits: List[DirectingCredit]
-    writing_credits: List[WritingCredit]
+class Movie(object):
+    file_path: Optional[str]
+    imdb_id: str
+    sort_title: str
+    performers: List[CastCredit]
+    directors: List[DirectingCredit]
+    writers: List[WritingCredit]
     release_date: date
     release_date_notes: Optional[str]
 
     @classmethod
     def parse_directing_credits(
-        cls, yaml_object: Dict[str, Any]
+        cls, json_object: Dict[str, Any]
     ) -> List[DirectingCredit]:
         credit_list: List[DirectingCredit] = []
 
-        for yaml_credit in yaml_object.get("directors", []):
-            credit_list.append(
-                DirectingCredit.from_yaml(yaml_object[IMDB_ID], yaml_credit)
-            )
+        for json_credit_object in json_object.get("directors", []):
+            credit_list.append(DirectingCredit.from_json_object(json_credit_object))
 
         return credit_list
 
     @classmethod
-    def parse_writing_credits(cls, yaml_object: Dict[str, Any]) -> List[WritingCredit]:
+    def parse_writing_credits(cls, json_object: Dict[str, Any]) -> List[WritingCredit]:
         credit_list: List[WritingCredit] = []
 
-        for yaml_credit in yaml_object.get("writers", []):
-            credit_list.append(
-                WritingCredit.from_yaml(yaml_object[IMDB_ID], yaml_credit)
-            )
+        for json_credit_object in json_object.get("writers", []):
+            credit_list.append(WritingCredit.from_json_object(json_credit_object))
 
         return credit_list
 
     @classmethod
-    def parse_cast_credits(cls, yaml_object: Dict[str, Any]) -> List[CastCredit]:
+    def parse_cast_credits(cls, json_object: Dict[str, Any]) -> List[CastCredit]:
         credit_list: List[CastCredit] = []
 
-        for yaml_credit in yaml_object.get("cast", []):
-            credit_list.append(CastCredit.from_yaml(yaml_object[IMDB_ID], yaml_credit))
+        for json_credit_object in json_object.get("performers", []):
+            credit_list.append(CastCredit.from_json_object(json_credit_object))
 
         return credit_list
 
     @classmethod
-    def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Movie":
-        title, year = cls.split_title_and_year(yaml_object["title"])
+    def build_sort_title(cls, title: str) -> str:
+        title_lower = title.lower()
+        title_words = title.split(" ")
+        lower_words = title_lower.split(" ")
+        articles = set(["a", "an", "the"])
 
+        if (len(title_words) > 1) and (lower_words[0] in articles):
+            return "{0}".format(" ".join(title_words[1 : len(title_words)]))
+
+        return title
+
+    @classmethod
+    def from_json_object(cls, file_path: str, json_object: Dict[str, Any]) -> "Movie":
         directing_credits: List[DirectingCredit] = cls.parse_directing_credits(
-            yaml_object
+            json_object
         )
-        writing_credits: List[WritingCredit] = cls.parse_writing_credits(yaml_object)
-        performing_credits: List[CastCredit] = cls.parse_cast_credits(yaml_object)
+        writing_credits: List[WritingCredit] = cls.parse_writing_credits(json_object)
+        performing_credits: List[CastCredit] = cls.parse_cast_credits(json_object)
 
         return cls(
-            imdb_id=yaml_object[IMDB_ID],
-            title=title,
-            year=year,
-            directing_credits=directing_credits,
-            writing_credits=writing_credits,
-            performing_credits=performing_credits,
+            imdb_id=json_object[IMDB_ID],
+            sort_title=json_object["sort_title"],
+            directors=directing_credits,
+            writers=writing_credits,
+            performers=performing_credits,
             file_path=file_path,
-            release_date=yaml_object["release_date"],
-            release_date_notes=yaml_object["release_date_notes"],
+            release_date=json_object["release_date"],
+            release_date_notes=json_object["release_date_notes"],
         )
 
-    def generate_slug(self) -> str:
-        return str(slugify(self.title_with_year))
+    @classmethod
+    def from_file_path(cls, file_path: str) -> "Movie":
+        json_object = None
+
+        with open(file_path, "r") as json_file:
+            json_object = json.load(json_file)
+
+        instance = cls.from_json_object(file_path=file_path, json_object=json_object)
+        instance.file_path = file_path
+
+        return instance
 
     @classmethod
-    def folder_path(cls) -> str:
-        return FOLDER_PATH
-
-    def log_save(self) -> None:
-        directing_credits_length = humanize.intcomma(len(self.directing_credits))
-        writing_credits_length = humanize.intcomma(len(self.writing_credits))
-        cast_credits_length = humanize.intcomma(len(self.performing_credits))
-        logger.log(
-            "Wrote {} with {} directing credits, {} writing credits, and {} cast credits.",
-            self.file_path,
-            directing_credits_length,
-            writing_credits_length,
-            cast_credits_length,
-        )
-
-    def as_yaml(self) -> Dict[str, Any]:
-        return {
-            IMDB_ID: self.imdb_id,
-            "title": self.title_with_year,
-            "release_date": self.release_date,
-            "release_date_notes": self.release_date_notes,
-            "directors": [
-                directing_credit.as_yaml()
-                for directing_credit in self.directing_credits
-            ],
-            "writers": [
-                writing_credit.as_yaml() for writing_credit in self.writing_credits
-            ],
-            "cast": [
-                performing_credit.as_yaml()
-                for performing_credit in self.performing_credits
-            ],
-        }
-
-    @classmethod
-    def parse_existing_yaml_files(cls) -> List["Movie"]:
+    def load_existing_files(cls) -> List["Movie"]:
         movies: List["Movie"] = []
 
-        for yaml_file_path in glob(os.path.join(FOLDER_PATH, "*.yml")):
-            movies.append(cls.from_file_path(yaml_file_path))
+        for file_path in glob(os.path.join(FOLDER_PATH, "*.json")):
+            movies.append(cls.from_file_path(file_path))
 
         return movies
 
@@ -292,32 +229,63 @@ class Movie(yaml_file.Movie):
     def from_imdb_id(cls, imdb_id: str) -> "Movie":
         movie_info = imdb_http.info_for_title(imdb_id)
 
-        directing_credits = [
+        directors = [
             DirectingCredit.from_imdb_http_credit(directing_credit)
             for directing_credit in movie_info.directors
         ]
 
-        writing_credits = [
+        writers = [
             WritingCredit.from_imdb_http_credit(writing_credit)
             for writing_credit in movie_info.writers
         ]
 
-        performing_credits = [
+        performers = [
             CastCredit.from_imdb_http_cast_credit(cast_credit)
             for cast_credit in movie_info.cast
         ]
 
         return Movie(
             imdb_id=imdb_id,
-            title=movie_info.title,
-            year=int(movie_info.year),
-            directing_credits=directing_credits,
-            writing_credits=writing_credits,
-            performing_credits=performing_credits,
+            sort_title=cls.build_sort_title(
+                "{0} ({1})".format(movie_info.title, movie_info.year)
+            ),
+            directors=directors,
+            writers=writers,
+            performers=performers,
             file_path=None,
             release_date=movie_info.release_date,
             release_date_notes=movie_info.release_date_notes,
         )
+
+    def save(self) -> str:
+        file_path = self.file_path
+
+        if not file_path:
+            file_path = os.path.join(
+                FOLDER_PATH, "{0}.json".format(slugify(self.sort_title))
+            )
+            if not os.path.exists(os.path.dirname(file_path)):
+                os.makedirs(os.path.dirname(file_path))
+
+        with open(file_path, "w") as output_file:
+            output_file.write(json.dumps(self.as_dict(), default=str, indent=2))
+
+        self.file_path = file_path
+
+        logger.log(
+            "Wrote {} with {} directors, {} writers, and {} performers.",
+            self.file_path,
+            humanize.intcomma(len(self.directors)),
+            humanize.intcomma(len(self.writers)),
+            humanize.intcomma(len(self.performers)),
+        )
+
+        return file_path
+
+    def as_dict(self) -> Dict[str, Any]:
+        movie_dict = asdict(self)
+        movie_dict.pop("file_path", None)
+        return movie_dict
 
 
 class DirectingCreditsTable(db.Table):
@@ -344,7 +312,7 @@ class DirectingCreditsTable(db.Table):
             cls.table_name
         )
 
-        parameter_seq = [credit.as_dict() for credit in credit_items]
+        parameter_seq = [asdict(credit) for credit in credit_items]
 
         cls.insert(ddl=ddl, parameter_seq=parameter_seq)
         cls.add_index("person_imdb_id")
@@ -376,7 +344,7 @@ class WritingCreditsTable(db.Table):
             cls.table_name
         )
 
-        parameter_seq = [credit.as_dict() for credit in credit_items]
+        parameter_seq = [asdict(credit) for credit in credit_items]
 
         cls.insert(ddl=ddl, parameter_seq=parameter_seq)
         cls.add_index("person_imdb_id")
@@ -413,7 +381,7 @@ class PerformingCreditsTable(db.Table):
         cls.insert(
             ddl=ddl, parameter_seq=[credit.as_dict() for credit in performing_credits]
         )
-        cls.add_index("movie_imdb_id")
+        cls.add_index(MOVIE_IMDB_ID)
         cls.add_index(PERSON_IMDB_ID)
         cls.validate(performing_credits)
 
@@ -444,34 +412,67 @@ class ReleaseDatesTable(db.Table):
             ddl=ddl,
             parameter_seq=[asdict(movie) for movie in movies],
         )
-        cls.add_index("movie_imdb_id")
+        cls.add_index(MOVIE_IMDB_ID)
+        cls.validate(movies)
+
+
+class SortTitlesTable(db.Table):
+    table_name = SORT_TITLES_TABLE_NAME
+
+    recreate_ddl = """
+        DROP TABLE IF EXISTS "{0}";
+        CREATE TABLE "{0}" (
+            "movie_imdb_id" varchar(255) NOT NULL
+                REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
+            "sort_title" TEXT NOT NULL,
+            PRIMARY KEY (movie_imdb_id));
+        """
+
+    @classmethod
+    def insert_sort_titles(cls, movies: List[Movie]) -> None:
+        ddl = """
+        INSERT INTO {0}(movie_imdb_id, sort_title)
+        VALUES(:imdb_id, :sort_title);
+        """.format(
+            cls.table_name
+        )
+
+        cls.insert(
+            ddl=ddl,
+            parameter_seq=[asdict(movie) for movie in movies],
+        )
+        cls.add_index(MOVIE_IMDB_ID)
         cls.validate(movies)
 
 
 @logger.catch
-def update(imdb_ids: List[str]) -> None:  # noqa: WPS213, WPS210
-    logger.log("==== Begin updating {}...", "IMDb Credits and Release Dates")
-    movies = Movie.parse_existing_yaml_files()
-    logger.log("Parsed {} credit files.", len(movies))
+def update(imdb_ids: Set[str]) -> None:  # noqa: WPS213, WPS210
+    logger.log(
+        "==== Begin reading {}...",
+        "existing IMDb data files in {0} folder".format(FOLDER_PATH),
+    )
+    movies = Movie.load_existing_files()
+    logger.log("Read {} files.", len(movies))
+
     directing_credits: List[DirectingCredit] = []
     writing_credits: List[WritingCredit] = []
     performing_credits: List[CastCredit] = []
 
-    existing_imdb_ids: Set[str] = set()
+    existing_credit_imdb_ids: Set[str] = set()
 
     for movie in movies:
-        existing_imdb_ids.add(movie.imdb_id)
-        directing_credits.extend(movie.directing_credits)
-        writing_credits.extend(movie.writing_credits)
-        performing_credits.extend(movie.performing_credits)
+        existing_credit_imdb_ids.add(movie.imdb_id)
+        directing_credits.extend(movie.directors)
+        writing_credits.extend(movie.writers)
+        performing_credits.extend(movie.performers)
 
-    for imdb_id in set(imdb_ids) - existing_imdb_ids:
+    for imdb_id in set(imdb_ids) - existing_credit_imdb_ids:
         new_movie = Movie.from_imdb_id(imdb_id)
         new_movie.save()
         movies.append(new_movie)
-        directing_credits.extend(new_movie.directing_credits)
-        writing_credits.extend(new_movie.writing_credits)
-        performing_credits.extend(new_movie.performing_credits)
+        directing_credits.extend(new_movie.directors)
+        writing_credits.extend(new_movie.writers)
+        performing_credits.extend(new_movie.performers)
 
     logger.log(UPDATE_MESSAGE, DIRECTING_CREDITS_TABLE_NAME)
     DirectingCreditsTable.recreate()
@@ -488,3 +489,7 @@ def update(imdb_ids: List[str]) -> None:  # noqa: WPS213, WPS210
     logger.log(UPDATE_MESSAGE, RELEASE_DATES_TABLE_NAME)
     ReleaseDatesTable.recreate()
     ReleaseDatesTable.insert_release_dates(movies)
+
+    logger.log(UPDATE_MESSAGE, SORT_TITLES_TABLE_NAME)
+    SortTitlesTable.recreate()
+    SortTitlesTable.insert_sort_titles(movies)

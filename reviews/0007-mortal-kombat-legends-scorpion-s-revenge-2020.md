@@ -2,7 +2,7 @@
 sequence: 7
 date: 2020-07-22
 imdb_id: tt9580138
-title: "Mortal Kombat Legends: Scorpion's Revenge (2020)"
+title: 'Mortal Kombat Legends: Scorpion''s Revenge (2020)'
 grade: D+
 slug: mortal-kombat-legends-scorpions-revenge-2020
 venue: Amazon Streaming

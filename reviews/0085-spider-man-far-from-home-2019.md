@@ -2,7 +2,7 @@
 sequence: 85
 date: 2020-11-21
 imdb_id: tt6320628
-title: "Spider-Man: Far from Home (2019)"
+title: 'Spider-Man: Far from Home (2019)'
 grade: D+
 slug: spider-man-far-from-home-2019
 venue: 4k UHD Blu-ray

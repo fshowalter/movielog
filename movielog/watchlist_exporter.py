@@ -1,9 +1,9 @@
 import json
 import os
 from dataclasses import asdict, dataclass
-from typing import Dict, List
+from typing import Dict, List, Sequence
 
-from movielog import db
+from movielog import db, watchlist, watchlist_table
 from movielog.logger import logger
 
 SLUG = "slug"
@@ -50,7 +50,9 @@ class WatchlistTitleExport(object):
     collections: List[WatchlistCollectionExport]
 
 
-def export() -> None:
+def export(watchlist_movies: Sequence[watchlist.Movie]) -> None:
+    watchlist_table.update(watchlist_movies)
+
     MoviesExporter.export()
     PersonStatsExporter.export("director")
     PersonStatsExporter.export("performer")
@@ -85,10 +87,10 @@ class CollectionStatsExporter(object):
                 collection_name AS 'name'
               , count(movies.imdb_id) AS 'title_count'
               , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
-              , watchlist_titles.slug
-            FROM watchlist_titles
-            LEFT JOIN movies ON watchlist_titles.movie_imdb_id = movies.imdb_id
-            LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
+              , watchlist.slug
+            FROM watchlist
+            LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
+            LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
             WHERE collection_name IS NOT NULL
             GROUP BY
                 collection_name
@@ -138,10 +140,10 @@ class PersonStatsExporter(object):
             , {0}s.full_name AS 'name'
             , count(movies.imdb_id) AS 'title_count'
             , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
-            , watchlist_titles.slug
-            FROM watchlist_titles
-            LEFT JOIN movies ON watchlist_titles.movie_imdb_id = movies.imdb_id
-            LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
+            , watchlist.slug
+            FROM watchlist
+            LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
+            LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
             LEFT JOIN people AS {0}s ON {0}_imdb_id = {0}s.imdb_id
             WHERE {0}_imdb_id IS NOT NULL
             GROUP BY
@@ -201,12 +203,13 @@ class MoviesExporter(object):
             , writers.full_name AS 'writer_name'
             , collection_name AS 'collection'
             , slug
-            FROM watchlist_titles
-            LEFT JOIN movies ON watchlist_titles.movie_imdb_id = movies.imdb_id
+            FROM watchlist
+            LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
             LEFT JOIN release_dates ON release_dates.movie_imdb_id = movies.imdb_id
             LEFT JOIN people AS directors ON director_imdb_id = directors.imdb_id
             LEFT JOIN people AS performers ON performer_imdb_id = performers.imdb_id
             LEFT JOIN people AS writers ON writer_imdb_id = writers.imdb_id
+            LEFT JOIN sort_titles on sort_titles.movie_imdb_id = watchlist.movie_imdb_id
             ORDER BY
                 release_date ASC
             , movies.imdb_id ASC;

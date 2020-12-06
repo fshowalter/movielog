@@ -2,7 +2,7 @@
 sequence: 82
 date: 2020-11-14
 imdb_id: tt4154796
-title: "Avengers: Endgame (2019)"
+title: 'Avengers: Endgame (2019)'
 grade: A
 slug: avengers-endgame-2019
 venue: 4k UHD Blu-ray

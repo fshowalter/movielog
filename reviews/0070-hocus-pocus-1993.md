@@ -5,7 +5,7 @@ imdb_id: tt0107120
 title: Hocus Pocus (1993)
 grade: F
 slug: hocus-pocus-1993
-venue: "Disney+ "
+venue: 'Disney+ '
 venue_notes: 2019| Disney / Buena Vista | 4k
 ---
 

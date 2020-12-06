@@ -1,22 +1,23 @@
+import json
 import os
 from datetime import date
-from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import viewings, yaml_file
-
-
-@pytest.fixture(autouse=True)
-def mock_viewings_update(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.viewings.update")
+from movielog import has_sequence, viewings
 
 
 def test_creates_new_viewing(tmp_path: str, mocker: MockerFixture) -> None:
-    mocker.patch("movielog.viewings.TABLE_NAME", tmp_path)
+    mocker.patch("movielog.viewings.FOLDER_PATH", tmp_path)
 
-    expected = "sequence: 1\ndate: 2016-03-26\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\nvenue: Alamo Drafthouse\n"  # noqa: 501
+    expected = {
+        "sequence": 1,
+        "date": "2016-03-26",
+        "imdb_id": "tt6019206",
+        "title": "Kill Bill: The Whole Bloody Affair (2011)",
+        "venue": "Alamo Drafthouse",
+    }
 
     viewings.add(
         imdb_id="tt6019206",
@@ -27,26 +28,32 @@ def test_creates_new_viewing(tmp_path: str, mocker: MockerFixture) -> None:
     )
 
     with open(
-        os.path.join(tmp_path, "0001-kill-bill-the-whole-bloody-affair-2011.yml"), "r"
+        os.path.join(tmp_path, "0001-kill-bill-the-whole-bloody-affair-2011.json"), "r"
     ) as output_file:
-        yaml_content = output_file.read()
+        file_content = json.load(output_file)
 
-    assert yaml_content == expected
+    assert file_content == expected
 
 
 def test_raises_error_if_sequence_out_of_sync(
     tmp_path: str, mocker: MockerFixture
 ) -> None:
-    mocker.patch("movielog.viewings.TABLE_NAME", tmp_path)
+    mocker.patch("movielog.viewings.FOLDER_PATH", tmp_path)
 
-    existing_viewing = "sequence: 3\ndate: 2006-03-26\nimdb_id: tt0266697\ntitle: 'Kill Bill: Vol. 1 (2003)'\nvenue: Alamo Drafthouse\n"  # noqa: 501
+    existing_viewing = {
+        "sequence": 3,
+        "date": "2016-03-26",
+        "imdb_id": "tt0266697",
+        "title": "Kill Bill: Vol. 1 (2003)",
+        "venue": "Alamo Drafthouse",
+    }
 
     with open(
-        os.path.join(tmp_path, "0001-kill-bill-the-whole-bloody-affair-2011.yml"), "w"
+        os.path.join(tmp_path, "0003-kill-bill-vol-1-2003.json"), "w"
     ) as output_file:
-        output_file.write(existing_viewing)
+        output_file.write(json.dumps(existing_viewing))
 
-    with pytest.raises(yaml_file.YamlError):
+    with pytest.raises(has_sequence.SequenceError):
         viewings.add(
             imdb_id="tt6019206",
             title="Kill Bill: The Whole Bloody Affair",
