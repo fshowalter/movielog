@@ -72,7 +72,7 @@ class PersonYearStats(object):
         , viewings.venue
         , person_imdb_id
         , full_name
-        , watchlist_titles.slug AS person_slug
+        , watchlist.slug AS person_slug
         , reviews.slug AS review_slug
         FROM viewings
         LEFT JOIN movies ON viewings.movie_imdb_id = movies.imdb_id
@@ -83,11 +83,11 @@ class PersonYearStats(object):
             SELECT
                 reviews.movie_imdb_id
             , {1}
-            , watchlist_titles.slug
+            , watchlist.slug
             FROM reviews
-            INNER JOIN watchlist_titles ON reviews.movie_imdb_id = watchlist_titles.movie_imdb_id
+            INNER JOIN watchlist ON reviews.movie_imdb_id = watchlist.movie_imdb_id
             GROUP BY {1}
-        ) AS watchlist_titles ON watchlist_titles.{1} = person_imdb_id
+        ) AS watchlist ON watchlist.{1} = person_imdb_id
         WHERE {2}
         GROUP BY
             viewings.sequence

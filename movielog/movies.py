@@ -19,6 +19,7 @@ Whitelist = {
     "tt0148615",  # Play Motel (1979) [X]
     "tt1801096",  # Sexy Evil Genius (2013) [V]
     "tt0093135",  # Hack-O-Lantern (1988) [V]
+    "tt11060882",  # Batman: The Dark Knight Returns (2013) [V]
 }
 
 OptionalStringOrInt = Optional[Union[str, int]]

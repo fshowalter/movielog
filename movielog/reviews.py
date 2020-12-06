@@ -5,28 +5,40 @@ import re
 from dataclasses import asdict, dataclass
 from datetime import date
 from glob import glob
-from typing import Any, Callable, Dict, List, Optional, Sequence
+from typing import Any, Dict, List, Optional, Sequence
 
 import yaml
 from slugify import slugify
 
-from movielog import db, humanize, yaml_file
+from movielog import db, has_sequence, humanize
 from movielog.logger import logger
 
 SEQUENCE = "sequence"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 REVIEWS = "reviews"
 TABLE_NAME = REVIEWS
+FOLDER_PATH = REVIEWS
 IMDB_ID = "imdb_id"
 TITLE = "title"
+EMPTY_STRING = ""
 
 
-@dataclass  # noqa: WPS214
-class Review(yaml_file.Movie, yaml_file.WithSequence):
+def represent_none(self: Any, _: Any) -> Any:
+    return self.represent_scalar("tag:yaml.org,2002:null", EMPTY_STRING)
+
+
+yaml.add_representer(type(None), represent_none)  # type: ignore
+
+
+@dataclass
+class Review(object):
+    sequence: Optional[int]
     imdb_id: str
+    title: str
     date: date
     grade: str
     venue: str
+    file_path: Optional[str]
     grade_value: Optional[int] = None
     slug: Optional[str] = None
     venue_notes: Optional[str] = None
@@ -34,15 +46,14 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
     @classmethod
     def from_yaml_object(cls, file_path: str, yaml_object: Dict[str, Any]) -> "Review":
-        title, year = cls.split_title_and_year(yaml_object[TITLE])
+        grade = yaml_object["grade"]
 
         return Review(
             file_path=file_path,
             date=yaml_object["date"],
-            grade=yaml_object["grade"],
-            grade_value=cls.grade_value_for_grade(yaml_object["grade"]),
-            title=title,
-            year=year,
+            grade=grade,
+            grade_value=cls.grade_value_for_grade(grade),
+            title=yaml_object["title"],
             imdb_id=yaml_object[IMDB_ID],
             sequence=yaml_object["sequence"],
             slug=yaml_object["slug"],
@@ -74,42 +85,15 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
         return grade_value
 
-    def generate_slug(self) -> str:
-        return str(slugify(self.title_with_year))
-
-    def generate_filename(self) -> str:
-        slug = slugify(f"{self.sequence:04} {self.title_with_year}")
-        return str(slug)
-
-    @classmethod
-    def folder_path(cls) -> str:
-        return REVIEWS
-
-    @classmethod
-    def extension(cls) -> str:
-        return "md"
-
-    def as_yaml(self) -> Dict[str, Any]:
-        return {
-            SEQUENCE: self.sequence,
-            "date": self.date,
-            IMDB_ID: self.imdb_id,
-            TITLE: self.title_with_year,
-            "grade": self.grade,
-            "slug": self.generate_slug(),
-            "venue": self.venue,
-            "venue_notes": self.venue_notes,
-        }
-
     @classmethod
     def load_all(cls) -> Sequence["Review"]:
         reviews: List[Review] = []
-        for review_file_path in glob(os.path.join(cls.folder_path(), "*.md")):
+        for review_file_path in glob(os.path.join(FOLDER_PATH, "*.md")):
             reviews.append(Review.from_file_path(review_file_path))
 
         reviews.sort(key=operator.attrgetter(SEQUENCE))
 
-        logger.log("Loaded {} {}.", humanize.intcomma(len(reviews)), "reviews")
+        logger.log("Read {} {}.", humanize.intcomma(len(reviews)), "reviews")
         return reviews
 
     @classmethod
@@ -123,18 +107,56 @@ class Review(yaml_file.Movie, yaml_file.WithSequence):
 
         return review
 
-    def save(self, log_function: Optional[Callable[[], None]] = None) -> str:
-        file_path = super().save(log_function=log_function)
+    def ensure_file_path(self) -> str:
+        file_path = self.file_path
+
+        if not file_path:
+            file_name = slugify(
+                f"{self.sequence:04} {self.title}", replacements=[("'", EMPTY_STRING)]
+            )
+            file_path = os.path.join(FOLDER_PATH, "{0}.md".format(file_name))
+
+        if not os.path.exists(os.path.dirname(file_path)):
+            os.makedirs(os.path.dirname(file_path))
+
+        return file_path
+
+    def as_yaml(self) -> Dict[str, Any]:
+        return {
+            SEQUENCE: self.sequence,
+            "date": self.date,
+            IMDB_ID: self.imdb_id,
+            TITLE: self.title,
+            "grade": self.grade,
+            "slug": slugify(self.title, replacements=[("'", EMPTY_STRING)]),
+            "venue": self.venue,
+            "venue_notes": self.venue_notes,
+        }
+
+    def save(self) -> str:
+        file_path = self.ensure_file_path()
+
+        if not self.sequence:
+            self.sequence = has_sequence.next_sequence(type(self).load_all())
 
         stripped_content = str(self.review_content or "").strip()
 
-        with open(file_path, "r") as original_file:
-            original_content = original_file.read()
-
-        with open(file_path, "wb") as new_file:
-            new_file.write(
-                f"---\n{original_content}---\n\n{stripped_content}".encode("utf-8")
+        with open(file_path, "w") as output_file:
+            output_file.write("---\n")
+            yaml.dump(
+                self.as_yaml(),
+                encoding="utf-8",
+                allow_unicode=True,
+                default_flow_style=False,
+                sort_keys=False,
+                stream=output_file,
             )
+            output_file.write("---\n\n")
+            output_file.write(stripped_content)
+
+        self.file_path = file_path
+
+        logger.log("Wrote {}", self.file_path)
 
         return file_path
 
@@ -201,9 +223,8 @@ def add(
 ) -> Review:
     review = Review(
         imdb_id=imdb_id,
-        title=title,
+        title="{0} ({1})".format(title, year),
         date=review_date,
-        year=year,
         grade=grade,
         venue=venue,
         venue_notes=venue_notes,
@@ -212,14 +233,13 @@ def add(
     )
 
     review.save()
-    update()
 
     return review
 
 
 def existing_review(imdb_id: str) -> Optional[Review]:
     reviews = sorted(
-        Review.load_all(), key=lambda review: review.sequence, reverse=True
+        Review.load_all(), key=lambda review: review.sequence or 0, reverse=True
     )
 
     return next((review for review in reviews if review.imdb_id is imdb_id), None)
@@ -232,7 +252,6 @@ def export() -> None:
 class Exporter(object):
     @classmethod
     def fetch_reviews(cls) -> List[Dict[str, Any]]:
-        update()
         reviews = []
 
         rows = db.exec_query(
@@ -253,7 +272,7 @@ class Exporter(object):
             FROM reviews
             INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
             INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
-            INNER JOIN viewings ON viewings.movie_imdb_id = movies.imdb_id
+            INNER JOIN sort_titles ON reviews.movie_imdb_id = sort_titles.movie_imdb_id
             ORDER BY sort_title ASC;
             """
         )  # noqa: WPS355
@@ -344,24 +363,28 @@ class Exporter(object):
     def export(cls) -> None:
         logger.log("==== Begin exporting {}...", "reviewed movies")
 
-        reviews = cls.fetch_reviews()
+        reviews = Review.load_all()
+        ReviewsTable.recreate()
+        ReviewsTable.insert_reviews(reviews)
 
-        for review in reviews:
-            review["directors"] = cls.fetch_directors_for_title_id(
-                title_imdb_id=review[IMDB_ID]
+        review_rows = cls.fetch_reviews()
+
+        for review_row in review_rows:
+            review_row["directors"] = cls.fetch_directors_for_title_id(
+                title_imdb_id=review_row[IMDB_ID]
             )
 
-            review["aka_titles"] = cls.fetch_aka_titles_for_title_id(
-                title_imdb_id=review[IMDB_ID],
-                title=review[TITLE],
-                original_title=review["original_title"],
+            review_row["aka_titles"] = cls.fetch_aka_titles_for_title_id(
+                title_imdb_id=review_row[IMDB_ID],
+                title=review_row[TITLE],
+                original_title=review_row["original_title"],
             )
 
-            review["principal_cast"] = cls.fetch_principal_cast(
-                principal_cast_ids_with_commas=review["principal_cast_ids"]
+            review_row["principal_cast"] = cls.fetch_principal_cast(
+                principal_cast_ids_with_commas=review_row["principal_cast_ids"]
             )
 
         file_path = os.path.join("export", "reviewed_movies.json")
 
         with open(file_path, "w") as output_file:
-            output_file.write(json.dumps([dict(row) for row in reviews]))
+            output_file.write(json.dumps([dict(row) for row in review_rows]))

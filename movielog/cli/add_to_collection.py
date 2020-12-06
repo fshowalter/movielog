@@ -33,9 +33,9 @@ def build_options() -> Sequence[Option]:
 
 def select_movie_prompt_text(collection: Collection) -> str:
     formatted_titles = []
-    for title in collection.titles:
-        escaped_title = html.escape(title.title)
-        formatted_title = f"<cyan>\u00B7</cyan> {escaped_title} ({title.year}) \n"
+    for movie in collection.movies:
+        escaped_title = html.escape(movie.title)
+        formatted_title = f"<cyan>\u00B7</cyan> {escaped_title} ({movie.year}) \n"
         formatted_titles.append(formatted_title)
 
     return "<cyan>{0}</cyan> titles:\n{1}\nNew Title: ".format(
