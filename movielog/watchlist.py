@@ -37,10 +37,10 @@ def load_all() -> List[Movie]:
     titles: List[Movie] = []
 
     for collection in watchlist_collection.all_items():
-        titles.extend(Movie.movies_for_collection(collection))
+        titles.extend(watchlist_table.movies_for_collection(collection))
 
     for person in watchlist_person.all_items():
-        titles.extend(Movie.movies_for_person(person))
+        titles.extend(watchlist_table.movies_for_person(person))
 
     return titles
 

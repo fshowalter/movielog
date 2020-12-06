@@ -100,15 +100,3 @@ def test_all_collections_returns_all_collections() -> None:
     ]
 
     assert watchlist.all_collections() == expected
-
-
-def test_update_watchlist_titles_table_calls_update_on_watchlist_titles_table(
-    mocker: MockerFixture,
-) -> None:
-    mock_watchlist_titles_table_update = mocker.patch(
-        "movielog.watchlist.watchlist_titles_table.update"
-    )
-
-    watchlist.update_watchlist_titles_table()
-
-    mock_watchlist_titles_table_update.assert_called_once()

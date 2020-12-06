@@ -19,55 +19,6 @@ class Movie(object):
     writer_imdb_id: Optional[str] = None
     collection_name: Optional[str] = None
 
-    @classmethod
-    def movies_for_collection(
-        cls, collection: watchlist_collection.Collection
-    ) -> List["Movie"]:
-        movies = []
-
-        for collection_movie in collection.movies:
-            movies.append(
-                cls(
-                    movie_imdb_id=collection_movie.imdb_id,
-                    collection_name=collection.name,
-                    slug=collection.slug,
-                )
-            )
-
-        return movies
-
-    @classmethod
-    def movies_for_person(cls, person: watchlist_person.Person) -> List["Movie"]:
-        movies = []
-
-        type_map: Dict[
-            Type[watchlist_person.Person],
-            Callable[[watchlist_person.Movie], Movie],
-        ] = {
-            watchlist_person.Director: lambda movie: cls(
-                movie_imdb_id=movie.imdb_id,
-                director_imdb_id=person.imdb_id,
-                slug=person.slug,
-            ),
-            watchlist_person.Performer: lambda movie: cls(
-                movie_imdb_id=movie.imdb_id,
-                performer_imdb_id=person.imdb_id,
-                slug=person.slug,
-            ),
-            watchlist_person.Writer: lambda movie: cls(
-                movie_imdb_id=movie.imdb_id,
-                writer_imdb_id=person.imdb_id,
-                slug=person.slug,
-            ),
-        }
-
-        for person_movie in person.movies:
-            movie = type_map[type(person)]
-
-            movies.append(movie(person_movie))
-
-        return movies
-
 
 class WatchlistTable(db.Table):
     table_name = TABLE_NAME
@@ -125,3 +76,50 @@ def update(watchlist_movies: Sequence[Movie]) -> None:
 
     WatchlistTable.recreate()
     WatchlistTable.insert_watchlist_movies(watchlist_movies)
+
+
+def movies_for_collection(collection: watchlist_collection.Collection) -> List[Movie]:
+    movies = []
+
+    for collection_movie in collection.movies:
+        movies.append(
+            Movie(
+                movie_imdb_id=collection_movie.imdb_id,
+                collection_name=collection.name,
+                slug=collection.slug,
+            )
+        )
+
+    return movies
+
+
+def movies_for_person(person: watchlist_person.Person) -> List[Movie]:
+    movies = []
+
+    type_map: Dict[
+        Type[watchlist_person.Person],
+        Callable[[watchlist_person.Movie], Movie],
+    ] = {
+        watchlist_person.Director: lambda movie: Movie(
+            movie_imdb_id=movie.imdb_id,
+            director_imdb_id=person.imdb_id,
+            slug=person.slug,
+        ),
+        watchlist_person.Performer: lambda movie: Movie(
+            movie_imdb_id=movie.imdb_id,
+            performer_imdb_id=person.imdb_id,
+            slug=person.slug,
+        ),
+        watchlist_person.Writer: lambda movie: Movie(
+            movie_imdb_id=movie.imdb_id,
+            writer_imdb_id=person.imdb_id,
+            slug=person.slug,
+        ),
+    }
+
+    for person_movie in person.movies:
+        movie = type_map[type(person)]
+
+        movies.append(movie(person_movie))
+
+    return movies

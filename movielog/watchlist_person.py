@@ -23,7 +23,7 @@ class Movie(object):
     title: str
     year: int
     imdb_id: str
-    notes: str
+    notes: Optional[str] = None
 
     @classmethod
     def from_json_object(cls, json_object: Dict[str, Any]) -> "Movie":

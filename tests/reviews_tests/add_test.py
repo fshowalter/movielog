@@ -4,7 +4,7 @@ from datetime import date
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import reviews, yaml_file
+from movielog import has_sequence, reviews
 
 
 def test_creates_new_review(tmp_path: str, mocker: MockerFixture) -> None:
@@ -42,7 +42,7 @@ def test_raises_error_if_sequence_out_of_sync(
     ) as output_file:
         output_file.write(existing_review)
 
-    with pytest.raises(yaml_file.YamlError):
+    with pytest.raises(has_sequence.SequenceError):
         reviews.add(
             imdb_id="tt0266697",
             title="Kill Bill: Vol. 1",

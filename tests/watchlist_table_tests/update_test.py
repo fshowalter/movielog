@@ -4,10 +4,12 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import watchlist_titles_table
+from movielog import watchlist_table
 from movielog.watchlist_collection import Collection
-from movielog.watchlist_file import Title
-from movielog.watchlist_person import Director, Performer, Person, Writer
+from movielog.watchlist_collection import Movie as CollectionMovie
+from movielog.watchlist_person import Director
+from movielog.watchlist_person import Movie as PersonMovie
+from movielog.watchlist_person import Performer, Person, Writer
 
 
 @pytest.fixture(autouse=True)
@@ -48,11 +50,14 @@ def test_inserts_collection_items(
         Collection(
             file_path=None,
             name="Nolan's Batman",
-            imdb_id=None,
-            titles=[
-                Title(imdb_id="tt0372784", title="Batman Begins", year=2005),
-                Title(imdb_id="tt0468569", title="The Dark Knight", year=2008),
-                Title(imdb_id="tt1345836", title="The Dark Knight Rises", year=2012),
+            movies=[
+                CollectionMovie(imdb_id="tt0372784", title="Batman Begins", year=2005),
+                CollectionMovie(
+                    imdb_id="tt0468569", title="The Dark Knight", year=2008
+                ),
+                CollectionMovie(
+                    imdb_id="tt1345836", title="The Dark Knight Rises", year=2012
+                ),
             ],
         )
     ]
@@ -62,8 +67,12 @@ def test_inserts_collection_items(
             file_path=None,
             name="Charles Laughton",
             imdb_id="nm0001452",
-            titles=[
-                Title(imdb_id="tt0048424", title="The Night of the Hunter", year=1955)
+            movies=[
+                PersonMovie(
+                    imdb_id="tt0048424",
+                    title="The Night of the Hunter",
+                    year=1955,
+                )
             ],
         )
     ]
@@ -73,11 +82,17 @@ def test_inserts_collection_items(
             file_path=None,
             name="Peter Cushing",
             imdb_id="nm0001088",
-            titles=[
-                Title(
-                    imdb_id="tt0050280", year=1957, title="The Curse of Frankenstein"
+            movies=[
+                PersonMovie(
+                    imdb_id="tt0050280",
+                    year=1957,
+                    title="The Curse of Frankenstein",
                 ),
-                Title(imdb_id="tt0051554", year=1958, title="Horror of Dracula"),
+                PersonMovie(
+                    imdb_id="tt0051554",
+                    year=1958,
+                    title="Horror of Dracula",
+                ),
             ],
         )
     ]
@@ -87,9 +102,9 @@ def test_inserts_collection_items(
             file_path=None,
             name="Leigh Brackett",
             imdb_id="nm0102824",
-            titles=[
-                Title(imdb_id="tt0038355", year=1946, title="The Big Sleep"),
-                Title(imdb_id="tt0053221", year=1959, title="Rio Bravo"),
+            movies=[
+                PersonMovie(imdb_id="tt0038355", year=1946, title="The Big Sleep"),
+                PersonMovie(imdb_id="tt0053221", year=1959, title="Rio Bravo"),
             ],
         )
     ]
@@ -168,7 +183,7 @@ def test_inserts_collection_items(
         (8, "tt0053221", None, None, "nm0102824", None, "Rio Bravo", "leigh-brackett"),
     ]
 
-    watchlist_titles_table.update()
+    watchlist_table.update()
 
     assert sql_query("SELECT * FROM 'watchlist_titles';") == expected
 
@@ -184,11 +199,14 @@ def test_calls_refresh_all_item_titles_for_each_person_type(
         Collection(
             file_path=None,
             name="Nolan's Batman",
-            imdb_id=None,
-            titles=[
-                Title(imdb_id="tt0372784", title="Batman Begins", year=2005),
-                Title(imdb_id="tt0468569", title="The Dark Knight", year=2008),
-                Title(imdb_id="tt1345836", title="The Dark Knight Rises", year=2012),
+            movies=[
+                CollectionMovie(imdb_id="tt0372784", title="Batman Begins", year=2005),
+                CollectionMovie(
+                    imdb_id="tt0468569", title="The Dark Knight", year=2008
+                ),
+                CollectionMovie(
+                    imdb_id="tt1345836", title="The Dark Knight Rises", year=2012
+                ),
             ],
         )
     ]
@@ -198,8 +216,10 @@ def test_calls_refresh_all_item_titles_for_each_person_type(
             file_path=None,
             name="Charles Laughton",
             imdb_id="nm0001452",
-            titles=[
-                Title(imdb_id="tt0048424", title="The Night of the Hunter", year=1955)
+            movies=[
+                PersonMovie(
+                    imdb_id="tt0048424", title="The Night of the Hunter", year=1955
+                )
             ],
         )
     ]
@@ -209,11 +229,11 @@ def test_calls_refresh_all_item_titles_for_each_person_type(
             file_path=None,
             name="Peter Cushing",
             imdb_id="nm0001088",
-            titles=[
-                Title(
+            movies=[
+                PersonMovie(
                     imdb_id="tt0050280", year=1957, title="The Curse of Frankenstein"
                 ),
-                Title(imdb_id="tt0051554", year=1958, title="Horror of Dracula"),
+                PersonMovie(imdb_id="tt0051554", year=1958, title="Horror of Dracula"),
             ],
         )
     ]
@@ -223,14 +243,14 @@ def test_calls_refresh_all_item_titles_for_each_person_type(
             file_path=None,
             name="Leigh Brackett",
             imdb_id="nm0102824",
-            titles=[
-                Title(imdb_id="tt0038355", year=1946, title="The Big Sleep"),
-                Title(imdb_id="tt0053221", year=1959, title="Rio Bravo"),
+            movies=[
+                PersonMovie(imdb_id="tt0038355", year=1946, title="The Big Sleep"),
+                PersonMovie(imdb_id="tt0053221", year=1959, title="Rio Bravo"),
             ],
         )
     ]
 
-    watchlist_titles_table.update()
+    watchlist_table.update()
 
     person_refresh_all_item_titles_mock.assert_has_calls(
         [

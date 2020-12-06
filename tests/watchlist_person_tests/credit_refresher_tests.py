@@ -4,8 +4,13 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog import imdb_http
-from movielog.watchlist_file import Title
-from movielog.watchlist_person import Director, Performer, Writer
+from movielog.watchlist_person import (
+    CreditRefresher,
+    Director,
+    Movie,
+    Performer,
+    Writer,
+)
 
 
 @pytest.fixture
@@ -53,21 +58,21 @@ def credits_for_person_mock(
     "class_type",
     [Director, Performer, Writer],
 )
-def test_refreshes_titles_from_imdb(
+def test_refresh_person_credits(
     mocker: MockerFixture,
     class_type: Type[Union[Performer, Director, Writer]],
     credits_for_person: List[imdb_http.CreditForPerson],
     credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
-        Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
-        Title(
+        Movie(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
+        Movie(
             imdb_id="tt9999999",
             title="North by Northwest 2",
             year=2025,
             notes="based on",
         ),
-        Title(
+        Movie(
             imdb_id="tt0017075",
             title="The Lodger: A Story of the London Fog",
             year=1927,
@@ -85,9 +90,9 @@ def test_refreshes_titles_from_imdb(
 
     save_mock = mocker.patch.object(person, "save")
 
-    person.refresh_item_titles()
+    CreditRefresher.refresh_person_credits(person=person)
 
-    assert person.titles == expected
+    assert person.movies == expected
 
     save_mock.assert_called_once()
 
@@ -103,8 +108,8 @@ def test_skips_invalid_titles(
     credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
-        Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
-        Title(
+        Movie(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
+        Movie(
             imdb_id="tt0017075",
             title="The Lodger: A Story of the London Fog",
             year=1927,
@@ -122,9 +127,9 @@ def test_skips_invalid_titles(
 
     save_mock = mocker.patch.object(person, "save")
 
-    person.refresh_item_titles()
+    CreditRefresher.refresh_person_credits(person=person)
 
-    assert person.titles == expected
+    assert person.movies == expected
 
     save_mock.assert_called_once()
 
@@ -140,8 +145,8 @@ def test_skips_silent_movies(
     credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
-        Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
-        Title(
+        Movie(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
+        Movie(
             imdb_id="tt9999999",
             title="North by Northwest 2",
             year=2025,
@@ -161,9 +166,9 @@ def test_skips_silent_movies(
 
     save_mock = mocker.patch.object(person, "save")
 
-    person.refresh_item_titles()
+    CreditRefresher.refresh_person_credits(person=person)
 
-    assert person.titles == expected
+    assert person.movies == expected
 
     save_mock.assert_called_once()
 
@@ -179,8 +184,8 @@ def test_skips_in_production_titles(
     credits_for_person_mock: MockerFixture,
 ) -> None:
     expected = [
-        Title(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
-        Title(
+        Movie(imdb_id="tt0053125", title="North by Northwest", year=1959, notes=""),
+        Movie(
             imdb_id="tt0017075",
             title="The Lodger: A Story of the London Fog",
             year=1927,
@@ -200,8 +205,8 @@ def test_skips_in_production_titles(
 
     save_mock = mocker.patch.object(person, "save")
 
-    person.refresh_item_titles()
+    CreditRefresher.refresh_person_credits(person=person)
 
-    assert person.titles == expected
+    assert person.movies == expected
 
     save_mock.assert_called_once()

@@ -115,7 +115,7 @@ class SeedCastCreditBuilder(object):
                         movie_imdb_id=movie.imdb_id,
                         person_imdb_id=person.imdb_id,
                         sequence=1,
-                        person_name=person.full_name,
+                        name=person.full_name,
                         notes="",
                         roles=[""],
                     )
@@ -160,7 +160,7 @@ class SeedDirectingCreditBuilder(object):
                     imdb_data.DirectingCredit(
                         movie_imdb_id=movie.imdb_id,
                         person_imdb_id=person.imdb_id,
-                        person_name=person.full_name,
+                        name=person.full_name,
                         sequence=1,
                         notes="",
                     )
@@ -205,7 +205,7 @@ class SeedWritingCreditBuilder(object):
                     imdb_data.WritingCredit(
                         movie_imdb_id=movie.imdb_id,
                         person_imdb_id=person.imdb_id,
-                        person_name=person.full_name,
+                        name=person.full_name,
                         sequence=1,
                         group_id=0,
                         notes="",

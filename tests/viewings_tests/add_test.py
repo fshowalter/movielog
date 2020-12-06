@@ -5,7 +5,7 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import viewings, yaml_file
+from movielog import has_sequence, viewings
 
 
 @pytest.fixture(autouse=True)
@@ -46,7 +46,7 @@ def test_raises_error_if_sequence_out_of_sync(
     ) as output_file:
         output_file.write(existing_viewing)
 
-    with pytest.raises(yaml_file.YamlError):
+    with pytest.raises(has_sequence.SequenceError):
         viewings.add(
             imdb_id="tt6019206",
             title="Kill Bill: The Whole Bloody Affair",
