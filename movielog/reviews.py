@@ -134,10 +134,10 @@ class Review(object):
         }
 
     def save(self) -> str:
-        file_path = self.ensure_file_path()
-
         if not self.sequence:
             self.sequence = has_sequence.next_sequence(type(self).load_all())
+
+        file_path = self.ensure_file_path()
 
         stripped_content = str(self.review_content or "").strip()
 

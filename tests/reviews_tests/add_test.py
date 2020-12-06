@@ -8,7 +8,7 @@ from movielog import has_sequence, reviews
 
 
 def test_creates_new_review(tmp_path: str, mocker: MockerFixture) -> None:
-    mocker.patch.object(reviews.Review, "folder_path", return_value=tmp_path)
+    mocker.patch("movielog.reviews.FOLDER_PATH", tmp_path)
 
     expected = "---\nsequence: 1\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 
@@ -24,15 +24,15 @@ def test_creates_new_review(tmp_path: str, mocker: MockerFixture) -> None:
     with open(
         os.path.join(tmp_path, "0001-kill-bill-the-whole-bloody-affair-2011.md"), "r"
     ) as output_file:
-        yaml_content = output_file.read()
+        file_content = output_file.read()
 
-    assert yaml_content == expected
+    assert file_content == expected
 
 
 def test_raises_error_if_sequence_out_of_sync(
     tmp_path: str, mocker: MockerFixture
 ) -> None:
-    mocker.patch.object(reviews.Review, "folder_path", return_value=tmp_path)
+    mocker.patch("movielog.reviews.FOLDER_PATH", tmp_path)
 
     existing_review = "---\nsequence: 3\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 

@@ -81,10 +81,10 @@ class Viewing(object):
         return viewing_dict
 
     def save(self) -> str:
-        file_path = self.ensure_file_path()
-
         if not self.sequence:
             self.sequence = has_sequence.next_sequence(type(self).load_all())
+
+        file_path = self.ensure_file_path()
 
         with open(file_path, "w") as output_file:
             output_file.write(json.dumps(self.as_dict(), default=str, indent=2))
