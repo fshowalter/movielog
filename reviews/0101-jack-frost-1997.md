@@ -9,7 +9,7 @@ venue: Amazon Streaming
 venue_notes:
 ---
 
-I gave _Jack Frost_ a one-star review in 2016, calling it “bad, even by movie-about-a-killer-snowman standards.” I was wrong.
+In 2016, I gave _Jack Frost_ a one-star review, calling it “bad, even by movie-about-a-killer-snowman standards.” I was wrong.
 
 <!-- end -->
 

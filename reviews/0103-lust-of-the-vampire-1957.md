@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2013 | Arrow Video | 1080p-upconvert
 ---
 
-Mario Bava’s directorial debut. A hybrid mystery and mad-scientist picture. In contemporary Paris, young women are turning up drained of blood. The press labels the killer a vampire. Michaelis plays a reporter determined to uncover the culprit. The case leads him to his estranged cousin and her gothic castle and the secrets it holds.
+Mario Bava’s directorial debut. A hybrid mystery and mad-scientist picture. In contemporary Paris, young women are turning up drained of blood. The press labels the killer a vampire. Michaelis plays a reporter determined to uncover the culprit. The case leads him to his estranged cousin, her gothic castle, and the secrets they hold.
 
 <!-- end -->
 
