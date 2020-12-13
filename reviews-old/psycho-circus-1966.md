@@ -21,7 +21,7 @@ Cut to the Tower Bridge operator. Klaus Kinski sneaks up behind him, knocks him 
 
 Cut back to the armored car. With the roadblock diverting traffic on one end, and the raised bridge blocking traffic on the other, the thieves loot the armored car. Using the heavy rope, they zip the cash bags down to a boat waiting below.
 
-It’s a terrific opening. Almost no dialog. Just crackerjack editing and great location photography. Granted, with no sign of a circus or top-billed Christopher Lee, one can imagine theater-goers in 1966 feeling confused. Did the projectionist queue the wrong movie? As if to assure them, the opening titles appear, backed by an oddly catchy theme.
+It’s a terrific opening. Almost no dialogue. Just crackerjack editing and great location photography. Granted, with no sign of a circus or top-billed Christopher Lee, one can imagine theater-goers in 1966 feeling confused. Did the projectionist queue the wrong movie? As if to assure them, the opening titles appear, backed by an oddly catchy theme.
 
 Unfortunately, the entire heist was a McGuffin. All the crooks except Kinski are killed. This was a British-German co-production and Kinski was big in Germany.
 

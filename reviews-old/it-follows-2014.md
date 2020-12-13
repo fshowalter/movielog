@@ -43,9 +43,9 @@ To be fair, this is a well-produced film dripping with atmosphere. The suburban 
 
 But about that script.
 
-The opening sequence reveals too much. Consider if we hadn’t seen what happened to the girl waiting by the lake.  Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having a breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
+The opening sequence reveals too much. Consider if we hadn’t seen what happened to the girl waiting by the lake. Since the creature is only visible to the cursed, the script could have played with the concept of an unreliable narrator. Is the curse real or is Jay having a breakdown? By showing the girl dead in a such a manner, the film loses any ambiguity. The curse is real.
 
-Continuing the too-much-information trend, the film then explains the details of the curse. Worse still, it does it all through dialog.  Rule #1 of good storytelling: Show, don't tell. Rule #1 of good horror: Nothing is scarier than the unknown.
+Continuing the too-much-information trend, the film then explains the details of the curse. Worse still, it does it all through dialogue. Rule #1 of good storytelling: Show, don't tell. Rule #1 of good horror: Nothing is scarier than the unknown.
 
 Imagine if the film cut from Hugh holding the rag over Jay's mouth to him dumping her on the curb in front of her house. We wouldn't know what had happened to her. When the creature showed up, we'd imagine the worst. By establishing rules and limitations, the filmmakers made the curse less scary. To borrow the film's STD metaphor, it's less like AIDS in the 1980's and more like herpes today.
 
@@ -56,5 +56,4 @@ And while we're on the subject of nit-picks, I'm not sure when this film is set,
 In the end, _It Follows_ offers little genuine horror, and the manufactured sense of dread wears thin well before the finale. Nor does it offer anything in the way of vicarious thrills. Its attempt to subvert slasher tropes only reinforces their value. Without them, there's nothing to distract us from what’s otherwise a trite premise.
 
 [^1]: In a nice bit of foreshadowing, the movie playing is _Charade (1963)_.
-
 [^2]: It’s a stupid plan. They place various plugged-in electrical items around the pool’s edge. When the thing gets in the water, Jay will somehow get out and they’ll fry it. Putting aside the logic of electrocuting a semi-invisible monster, wouldn't the pool have GFCI wiring?

@@ -19,7 +19,7 @@ Of course, folks don't leave when they're running hot and if they stay, they'll 
 
 A lesser film might drag under such plotting, but _Ocean's Thirteen_ breezes along, thanks to its all-star cast. Opposite Pacino, George Clooney and Brad Pitt star as the lead thieves with Matt Damon as their de facto lieutenant. Bernie Mac, Don Cheadle, Casey Affleck, Scott Caan, Carl Reiner, and Eddie Izzard round out the crew.
 
-The performers relish the script's rapid-fire dialogue. Peppered with invented slang and meta references, it's the film's biggest treat, and holds up to repeat viewings. The first scene between Clooney and Pacino, with Clooney echoing Pacino's dialog from _The Godfather (1972)_ always makes me smile.
+The performers relish the script's rapid-fire dialogue. Peppered with invented slang and meta references, it's the film's biggest treat, and holds up to repeat viewings. The first scene between Clooney and Pacino, with Clooney echoing Pacino's dialogue from _The Godfather (1972)_ always makes me smile.
 
 But my favorite scene is audacious. It opens with Pitt and Clooney strolling along the Las Vegas Strip, reminiscing. They stop and Clooney gestures off-camera, saying, “I remember when this used to be the Dunes.”
 
