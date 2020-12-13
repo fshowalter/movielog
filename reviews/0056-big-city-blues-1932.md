@@ -29,4 +29,4 @@ The film plays as a cautionary fable, but the pre-code script imbues New York wi
 
 Linden plays Bud as naive without being cloying. The script helps. In a lesser film, Bud would be judgmental. Here, he doesn't object to the bootleg gin and he knows his way around a dice game.
 
-_Big City Blues_ isn't a great film, but it's not a bad one either. It held my interest and even offered a chuckle or two via Gibboney's rapid-fire dialog. I came for Bogart but enjoyed more than just his small role.
+_Big City Blues_ isn't a great film, but it's not a bad one either. It held my interest and even offered a chuckle or two via Gibboney's rapid-fire dialogue. I came for Bogart but enjoyed more than just his small role.

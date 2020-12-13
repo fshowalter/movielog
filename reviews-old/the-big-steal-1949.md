@@ -17,7 +17,7 @@ Knowles tries to sweet talk her, but Greer cuts him off saying, "The last time y
 
 Knowles gives Greer the slip, and a few beats later we learn that Mitchum is after Knowles too.
 
-Thus, the film is set. It’s one big chase. Bendix chases Mitchum who, along with Greer, chases Knowles. Mitchum and Greer form an uneasy partnership as they travel across the Mexican countryside from Veracruz to Tehuacán[^1].  As the story unfolds we learn what was stolen, and who did the stealing. Mitchum and Greer warm to each other. Everything culminates in a surprising, but satisfying finale.
+Thus, the film is set. It’s one big chase. Bendix chases Mitchum who, along with Greer, chases Knowles. Mitchum and Greer form an uneasy partnership as they travel across the Mexican countryside from Veracruz to Tehuacán[^1]. As the story unfolds we learn what was stolen, and who did the stealing. Mitchum and Greer warm to each other. Everything culminates in a surprising, but satisfying finale.
 
 On paper, it's another forgettable lower-budget entry from RKO, the once premier studio that had fallen to disarray under Howard Hughes. But thanks to a crackerjack script, _The Big Steal_ is better than it probably had any right to be.
 
@@ -29,6 +29,6 @@ The script also does a great job of subverting our expectations. From the anythi
 
 And topping it all off, there's a nice touch where Mitchum actually wears some of the results of his tussles. From a bloody nose to a beaten face, the film’s fights have visible consequences. Something all too rare in Hollywood.
 
-Granted, it's not a perfect film. The extended car chase feels tacked on and forced. And Knowles and Bendix don't quite hold their own against Mitchum and Greer in terms of star wattage. But really, these are weaknesses instead of faults. _The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialog.
+Granted, it's not a perfect film. The extended car chase feels tacked on and forced. And Knowles and Bendix don't quite hold their own against Mitchum and Greer in terms of star wattage. But really, these are weaknesses instead of faults. _The Big Steal_ takes a B-movie plot and elevates it to near greatness thanks to a well-crafted script peppered with crackling dialogue.
 
 [^1]: They actually shot in Mexico, which helps to belie the film’s modest budget.

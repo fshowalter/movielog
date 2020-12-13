@@ -17,4 +17,4 @@ Roger Ebert was fond of saying, "It's not what the movie is about, but how it is
 
 Blair is perfect in the role. He never tells us how Dwight is feeling, but his eyes speak volumes. As Dwight watches his parents' killer leave prison, Blair's expression mirrors the bile and nausea churning in Dwight's stomach. Later, after Dwight has taken his revenge, Blair's darting gaze and vacant eyes communicate Dwight's shock. It's an award-worthy performance.
 
-The film has its flaws: a bit of on-the-nose dialog and a suspect backstory, but these are minor quibbles. _Blue Ruin_ is that rarest of thrillers, one that places its characters first.
+The film has its flaws: a bit of on-the-nose dialogue and a suspect backstory, but these are minor quibbles. _Blue Ruin_ is that rarest of thrillers, one that places its characters first.

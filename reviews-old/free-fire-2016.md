@@ -15,4 +15,4 @@ And it’s got style to spare. The clothes, the hair, the set decoration—this 
 
 But as much as I enjoyed the film’s look, the execution frustrated me. When the firefight breaks out, director Ben Wheatley offers no sense of geography. Folks shoot and scramble for cover but we have no sense of their placement in relation to one another. A few wide shots would have sufficed. Disorient characters, not the audience.
 
-Still, it almost doesn’t matter. The dialog held my ear, and despite little plot or characterization, the cast—particularly Hammer—grabbed my attention through sheer charisma. _Free Fire_ isn’t a good movie, but it’s as good an okay movie as you’ll find.
+Still, it almost doesn’t matter. The dialogue held my ear, and despite little plot or characterization, the cast—particularly Hammer—grabbed my attention through sheer charisma. _Free Fire_ isn’t a good movie, but it’s as good an okay movie as you’ll find.

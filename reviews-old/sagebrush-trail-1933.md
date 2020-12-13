@@ -17,7 +17,7 @@ After eluding the lawmen, who believe him dead, John surfaces and encounters a g
 
 Of course, John's not really a bad guy. He passes notes to Sally warning her of the gang's intentions. And of course, it was Jones who committed the crime pinned on John. And of course, John doesn't discover this until the second act's end. But you know what? I didn't mind.
 
-_Sagebrush Trail_ may suffer from predictable plotting, stilted dialog, and fight scenes where the participants punch each other's shoulders, but I still enjoyed it.
+_Sagebrush Trail_ may suffer from predictable plotting, stilted dialogue, and fight scenes where the participants punch each other's shoulders, but I still enjoyed it.
 
 Besides the aforementioned underwater scenes, I liked the location photography and wipe transitions. And the script's making Jones a flawed but likable character was a nice touch.
 

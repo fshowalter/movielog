@@ -17,7 +17,7 @@ All this exposure convinced Severin Films to acquire the rights and sponsor a 2k
 
 The story follows a couple and their young daughter as they move back into the husband's childhood home. A malevolent spirit possesses the daughter leading to lots of profanity, extreme acne, and several unexplained deaths.
 
-It's as bad as [Collins' review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) claims, with inane dialog, incomprehensible editing, and whiplash performances. Aside from one scene, where a drunken groundskeeper finds himself covered in snakes and spiders, it's a disaster.
+It's as bad as [Collins' review](http://horror-movie-a-day.blogspot.com/2007/04/cathys-curse.html) claims, with inane dialogue, incomprehensible editing, and whiplash performances. Aside from one scene, where a drunken groundskeeper finds himself covered in snakes and spiders, it's a disaster.
 
 And yet, I found myself bored.
 

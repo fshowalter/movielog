@@ -6,7 +6,7 @@ title: A Lizard in a Woman's Skin (1971)
 grade: B-
 slug: a-lizard-in-a-womans-skin-1971
 venue: Blu-ray
-venue_notes:
+venue_notes: 2016 | Mondo Macabro
 ---
 
 Fulci’s most formal effort to date. A stylistic thriller revolving around a politician’s daughter who dreams of murdering her hedonistic neighbor, only to awaken and find herself the center of an actual police investigation.

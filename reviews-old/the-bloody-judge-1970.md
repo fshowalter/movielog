@@ -19,7 +19,7 @@ There's also a blind oracle who may be psychic, and a man dressed like Boris Kar
 
 This mess of disparate plot-points has its roots in money. The production had multiple financiers, and each wanted a different film. One wanted a horror movie. Another wanted a historical drama. Yet another wanted an exploitation picture. The filmmakers tried to please everyone. At least no one wanted a comedy.
 
-The resulting compromise boils down to a string of overlong, exposition-leaden scenes interrupted by occasional bits of exploitation. Things pick up when the revolution gets underway, but not enough to recapture our interest. I can forgive stiff dialog, convoluted plotting, gratuitous nudity and violence. I can't forgive boring.
+The resulting compromise boils down to a string of overlong, exposition-leaden scenes interrupted by occasional bits of exploitation. Things pick up when the revolution gets underway, but not enough to recapture our interest. I can forgive stiff dialogue, convoluted plotting, gratuitous nudity and violence. I can't forgive boring.
 
 Compounding matters, Lee and director Jesús Franco disagreed on how to portray Jeffreys. Lee wanted historical accuracy. Franco wanted something more "dynamic." I don't know what Franco meant by "dynamic" and, judging by his performance, Lee didn't either.
 

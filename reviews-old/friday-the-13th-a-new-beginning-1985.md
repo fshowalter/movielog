@@ -2,7 +2,7 @@
 sequence: 15
 date: 2014-12-31
 imdb_id: tt0089173
-title: 'Friday the 13th: A New Beginning (1985)'
+title: "Friday the 13th: A New Beginning (1985)"
 grade: D
 slug: friday-the-13th-a-new-beginning-1985
 ---
@@ -23,6 +23,6 @@ But the execution is sloppy. The script introduces characters then kills them in
 
 Worse still, the killer’s eventual reveal elicits groans instead of gasps. The script offers an explanation via some awkward exposition, but it’s unsatisfying.
 
-But time has been kind. Knowing the franchise rights itself, fans can laugh at the nonsense plot, Tommy’s non-dialog, and the hammy performances. I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either. Like any comically bad movie, it's best viewed with a crowd that knows what to expect.
+But time has been kind. Knowing the franchise rights itself, fans can laugh at the nonsense plot, Tommy’s non-dialogue, and the hammy performances. I cannot recommend _Friday the 13th: A New Beginning_, yet I can't wholly condemn it either. Like any comically bad movie, it's best viewed with a crowd that knows what to expect.
 
 That said, it’s no surprise Paramount brought Jason back for the sequel, _Jason Lives: Friday the 13th Part VI (1986)_.
