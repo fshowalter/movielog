@@ -33,7 +33,6 @@ def search_directors_by_name(name: str, limit: int = 10) -> List[Result]:
 
     full_query = """
         SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
-        INNER JOIN directing_credits ON people.imdb_id = directing_credits.person_imdb_id
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
         """.format(  # noqa: S608
         query, limit
@@ -60,7 +59,6 @@ def search_writers_by_name(name: str, limit: int = 10) -> List[Result]:
 
     full_query = """
         SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
-        INNER JOIN writing_credits ON people.imdb_id = writing_credits.person_imdb_id
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
         """.format(  # noqa: S608
         query, limit
