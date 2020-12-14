@@ -32,8 +32,8 @@ def export() -> None:
             viewings_movies=viewings_movies, watchlist_movies=watchlist_movies
         )
     )
-    viewings.export(viewings_movies)
     reviews.export()
+    viewings.export(viewings_movies)
     watchlist_exporter.export(watchlist_movies)
     most_watched_movies.export()
     most_watched_people.export()
