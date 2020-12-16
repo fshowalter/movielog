@@ -157,15 +157,22 @@ class MovieYearStats(object):
         )
 
     @classmethod
-    def export(cls) -> None:
+    def export_by_year_stats(cls, viewings: List[Viewing]):
         stats = []
-        viewings = cls.fetch_viewings()
+
         years = list(set(viewing.date.year for viewing in viewings))
 
         for year in years:
             stats.append(cls.generate_for_viewing_year(viewings, year))
 
-        stats.append(
+        with open(
+            os.path.join("export", "most_watched_movies_by_year.json"), "w"
+        ) as output_file:
+            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+
+    @classmethod
+    def export_rollup_stats(cls, viewings: List[Viewing]):
+        allstats = asdict(
             MovieYearStats(
                 year="all",
                 movie_count=len(set(viewing.movie.imdb_id for viewing in viewings)),
@@ -175,10 +182,19 @@ class MovieYearStats(object):
             )
         )
 
+        allstats.pop("year")
+        os.makedirs(os.path.join("export", "most_watched_movies"))
+
         with open(
-            os.path.join("export", "most_watched_movies.json"), "w"
+            os.path.join("export", "most_watched_movies", "index.json"), "w"
         ) as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+            output_file.write(json.dumps(allstats, default=str))
+
+    @classmethod
+    def export(cls) -> None:
+        viewings = cls.fetch_viewings()
+        cls.export_by_year_stats(viewings)
+        cls.export_rollup_stats(viewings)
 
 
 def export() -> None:

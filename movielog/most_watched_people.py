@@ -171,92 +171,80 @@ class PersonYearStats(object):
             most_watched_people, reverse=True, key=lambda movie: len(movie.viewings)
         )[:MAX_MOST_WATCHED]
 
+    @classmethod
+    def export_by_year_stats(
+        cls, viewings: Sequence[ViewingWithPerson], output_file_name: str
+    ):
+        stats = []
+
+        years = list(set(viewing.date.year for viewing in viewings))
+
+        for year in years:
+            stats.append(cls.generate_for_viewing_year(viewings, year))
+
+        with open(os.path.join("export", output_file_name), "w") as output_file:
+            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+
+    @classmethod
+    def export_rollup_stats(
+        cls, viewings: Sequence[ViewingWithPerson], folder_name: str
+    ):
+        allstats = asdict(
+            cls(
+                year="all",
+                most_watched=cls.generate_most_watched(viewings),
+            )
+        )
+
+        allstats.pop("year")
+        os.makedirs(os.path.join("export", folder_name))
+
+        with open(
+            os.path.join("export", folder_name, "index.json"), "w"
+        ) as output_file:
+            output_file.write(json.dumps(allstats, default=str))
+
 
 @dataclass
 class DirectorYearStats(PersonYearStats):
     @classmethod
     def export(cls) -> None:
-        stats = []
         viewings = cls.fetch_viewings(
             cls.fetch_viewings_query(
                 credit_table="directing_credits", credit_table_key="director_imdb_id"
             )
         )
 
-        years = list(set(viewing.date.year for viewing in viewings))
-
-        for year in years:
-            stats.append(cls.generate_for_viewing_year(viewings, year))
-
-        stats.append(
-            cls(
-                year="all",
-                most_watched=cls.generate_most_watched(viewings),
-            )
-        )
-
-        with open(
-            os.path.join("export", "most_watched_directors.json"), "w"
-        ) as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+        cls.export_by_year_stats(viewings, "most_watched_directors_by_year.json")
+        cls.export_rollup_stats(viewings, "most_watched_directors")
 
 
 @dataclass
 class PerformerYearStats(PersonYearStats):
     @classmethod
     def export(cls) -> None:
-        stats = []
         viewings = cls.fetch_viewings(
             cls.fetch_viewings_query(
                 credit_table="performing_credits", credit_table_key="performer_imdb_id"
             )
         )
 
-        years = list(set(viewing.date.year for viewing in viewings))
-
-        for year in years:
-            stats.append(cls.generate_for_viewing_year(viewings, year))
-
-        stats.append(
-            cls(
-                year="all",
-                most_watched=cls.generate_most_watched(viewings),
-            )
-        )
-
-        with open(
-            os.path.join("export", "most_watched_performers.json"), "w"
-        ) as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+        cls.export_by_year_stats(viewings, "most_watched_performers_by_year.json")
+        cls.export_rollup_stats(viewings, "most_watched_performers")
 
 
 @dataclass
 class WriterYearStats(PersonYearStats):
     @classmethod
     def export(cls) -> None:
-        stats = []
         viewings = cls.fetch_viewings(
             cls.fetch_viewings_query(
                 credit_table="writing_credits", credit_table_key="writer_imdb_id"
             )
         )
 
-        years = list(set(viewing.date.year for viewing in viewings))
-
-        for year in years:
-            stats.append(cls.generate_for_viewing_year(viewings, year))
-
-        stats.append(
-            cls(
-                year="all",
-                most_watched=cls.generate_most_watched(viewings),
-            )
-        )
-
-        with open(
-            os.path.join("export", "most_watched_writers.json"), "w"
-        ) as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+        cls.export_by_year_stats(viewings, "most_watched_writers_by_year.json")
+        cls.export_rollup_stats(viewings, "most_watched_writers")
 
 
 def log_heading(heading: str) -> None:
