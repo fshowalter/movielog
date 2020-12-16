@@ -197,7 +197,7 @@ class PersonYearStats(object):
         )
 
         allstats.pop("year")
-        os.makedirs(os.path.join("export", folder_name))
+        os.makedirs(os.path.join("export", folder_name), exist_ok=True)
 
         with open(
             os.path.join("export", folder_name, "index.json"), "w"

@@ -183,7 +183,7 @@ class MovieYearStats(object):
         )
 
         allstats.pop("year")
-        os.makedirs(os.path.join("export", "most_watched_movies"))
+        os.makedirs(os.path.join("export", "most_watched_movies"), exist_ok=True)
 
         with open(
             os.path.join("export", "most_watched_movies", "index.json"), "w"
