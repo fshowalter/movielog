@@ -3,7 +3,6 @@
   "sort_title": "Touch (1971)",
   "performers": [
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0001285",
       "name": "Elliott Gould",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0000761",
       "name": "Bibi Andersson",
       "sequence": 1,
@@ -23,7 +21,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0001884",
       "name": "Max von Sydow",
       "sequence": 2,
@@ -33,7 +30,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0715693",
       "name": "Sheila Reid",
       "sequence": 3,
@@ -45,7 +41,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
       "sequence": 0,
@@ -54,7 +49,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0066826",
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
       "sequence": 0,
@@ -63,5 +57,9 @@
     }
   ],
   "release_date": "1971-06-26",
-  "release_date_notes": "(Berlin International Film Festival)"
+  "release_date_notes": "(Berlin International Film Festival)",
+  "countries": [
+    "United States",
+    "Sweden"
+  ]
 }

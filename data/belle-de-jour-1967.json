@@ -3,7 +3,6 @@
   "sort_title": "Belle de Jour (1967)",
   "performers": [
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0000366",
       "name": "Catherine Deneuve",
       "sequence": 0,
@@ -14,7 +13,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0814799",
       "name": "Jean Sorel",
       "sequence": 1,
@@ -24,7 +22,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0681566",
       "name": "Michel Piccoli",
       "sequence": 2,
@@ -34,7 +31,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0656180",
       "name": "Genevi\u00e8ve Page",
       "sequence": 3,
@@ -44,7 +40,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0167509",
       "name": "Pierre Cl\u00e9menti",
       "sequence": 4,
@@ -54,7 +49,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0264554",
       "name": "Fran\u00e7oise Fabian",
       "sequence": 5,
@@ -64,7 +58,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0617736",
       "name": "Macha M\u00e9ril",
       "sequence": 6,
@@ -74,7 +67,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0612840",
       "name": "Muni",
       "sequence": 7,
@@ -84,7 +76,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0490334",
       "name": "Maria Latour",
       "sequence": 8,
@@ -94,15 +85,15 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0148858",
       "name": "Claude Cerval",
       "sequence": 9,
       "notes": "",
-      "roles": []
+      "roles": [
+        "Le chauffeur"
+      ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0153474",
       "name": "Michel Charrel",
       "sequence": 10,
@@ -112,7 +103,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0451237",
       "name": "Iska Khan",
       "sequence": 11,
@@ -122,7 +112,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0615913",
       "name": "Bernard Musson",
       "sequence": 12,
@@ -132,7 +121,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0153656",
       "name": "Marcel Charvey",
       "sequence": 13,
@@ -142,7 +130,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0537922",
       "name": "Fran\u00e7ois Maistre",
       "sequence": 14,
@@ -152,7 +139,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0704719",
       "name": "Francisco Rabal",
       "sequence": 15,
@@ -162,7 +148,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0545352",
       "name": "Georges Marchal",
       "sequence": 16,
@@ -172,7 +157,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0087126",
       "name": "Francis Blanche",
       "sequence": 17,
@@ -184,7 +168,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
       "sequence": 0,
@@ -193,7 +176,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0450262",
       "name": "Joseph Kessel",
       "sequence": 0,
@@ -201,7 +183,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
       "sequence": 0,
@@ -209,7 +190,6 @@
       "group_id": 1
     },
     {
-      "movie_imdb_id": "tt0061395",
       "person_imdb_id": "nm0140643",
       "name": "Jean-Claude Carri\u00e8re",
       "sequence": 0,
@@ -218,5 +198,9 @@
     }
   ],
   "release_date": "1967-05-24",
-  "release_date_notes": ""
+  "release_date_notes": "",
+  "countries": [
+    "France",
+    "Italy"
+  ]
 }

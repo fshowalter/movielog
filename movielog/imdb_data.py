@@ -20,6 +20,7 @@ NAME = "name"
 NOTES = "notes"
 IMDB_ID = "imdb_id"
 RELEASE_DATES_TABLE_NAME = "release_dates"
+COUNTRIES_TABLE_NAME = "countries"
 SORT_TITLES_TABLE_NAME = "sort_titles"
 MOVIE_IMDB_ID = "movie_imdb_id"
 UPDATE_MESSAGE = "==== Begin updating {}..."
@@ -27,7 +28,6 @@ UPDATE_MESSAGE = "==== Begin updating {}..."
 
 @dataclass
 class DirectingCredit(object):
-    movie_imdb_id: str
     person_imdb_id: str
     name: str
     sequence: int
@@ -38,7 +38,6 @@ class DirectingCredit(object):
         cls, imdb_http_credit: imdb_http.DirectingCreditForTitle
     ) -> "DirectingCredit":
         return cls(
-            movie_imdb_id=imdb_http_credit.movie_imdb_id,
             person_imdb_id=imdb_http_credit.person_imdb_id,
             name=imdb_http_credit.name,
             sequence=imdb_http_credit.sequence,
@@ -48,7 +47,6 @@ class DirectingCredit(object):
     @classmethod
     def from_json_object(cls, json_object: Dict[str, Any]) -> "DirectingCredit":
         return cls(
-            movie_imdb_id=json_object[MOVIE_IMDB_ID],
             person_imdb_id=json_object[PERSON_IMDB_ID],
             name=json_object[NAME],
             sequence=json_object[SEQUENCE],
@@ -58,7 +56,6 @@ class DirectingCredit(object):
 
 @dataclass
 class WritingCredit(object):
-    movie_imdb_id: str
     person_imdb_id: str
     name: str
     sequence: int
@@ -70,7 +67,6 @@ class WritingCredit(object):
         cls, imdb_http_credit: imdb_http.WritingCreditForTitle
     ) -> "WritingCredit":
         return cls(
-            movie_imdb_id=imdb_http_credit.movie_imdb_id,
             person_imdb_id=imdb_http_credit.person_imdb_id,
             name=imdb_http_credit.name,
             sequence=imdb_http_credit.sequence,
@@ -81,7 +77,6 @@ class WritingCredit(object):
     @classmethod
     def from_json_object(cls, json_object: Dict[str, Any]) -> "WritingCredit":
         return cls(
-            movie_imdb_id=json_object[MOVIE_IMDB_ID],
             person_imdb_id=json_object[PERSON_IMDB_ID],
             name=json_object[NAME],
             sequence=json_object[SEQUENCE],
@@ -91,8 +86,7 @@ class WritingCredit(object):
 
 
 @dataclass
-class CastCredit(object):
-    movie_imdb_id: str
+class PerformingCredit(object):
     person_imdb_id: str
     name: str
     sequence: int
@@ -106,9 +100,8 @@ class CastCredit(object):
     @classmethod
     def from_imdb_http_cast_credit(
         cls, imdb_http_cast_credit: imdb_http.CastCreditForTitle
-    ) -> "CastCredit":
+    ) -> "PerformingCredit":
         return cls(
-            movie_imdb_id=imdb_http_cast_credit.movie_imdb_id,
             person_imdb_id=imdb_http_cast_credit.person_imdb_id,
             name=imdb_http_cast_credit.name,
             sequence=imdb_http_cast_credit.sequence,
@@ -117,9 +110,8 @@ class CastCredit(object):
         )
 
     @classmethod
-    def from_json_object(cls, json_object: Dict[str, Any]) -> "CastCredit":
+    def from_json_object(cls, json_object: Dict[str, Any]) -> "PerformingCredit":
         return cls(
-            movie_imdb_id=json_object[MOVIE_IMDB_ID],
             person_imdb_id=json_object[PERSON_IMDB_ID],
             name=json_object[NAME],
             sequence=json_object[SEQUENCE],
@@ -138,11 +130,12 @@ class Movie(object):
     file_path: Optional[str]
     imdb_id: str
     sort_title: str
-    performers: List[CastCredit]
+    performers: List[PerformingCredit]
     directors: List[DirectingCredit]
     writers: List[WritingCredit]
     release_date: date
     release_date_notes: Optional[str]
+    countries: List[str]
 
     @classmethod
     def parse_directing_credits(
@@ -165,11 +158,11 @@ class Movie(object):
         return credit_list
 
     @classmethod
-    def parse_cast_credits(cls, json_object: Dict[str, Any]) -> List[CastCredit]:
-        credit_list: List[CastCredit] = []
+    def parse_cast_credits(cls, json_object: Dict[str, Any]) -> List[PerformingCredit]:
+        credit_list: List[PerformingCredit] = []
 
         for json_credit_object in json_object.get("performers", []):
-            credit_list.append(CastCredit.from_json_object(json_credit_object))
+            credit_list.append(PerformingCredit.from_json_object(json_credit_object))
 
         return credit_list
 
@@ -191,7 +184,7 @@ class Movie(object):
             json_object
         )
         writing_credits: List[WritingCredit] = cls.parse_writing_credits(json_object)
-        performing_credits: List[CastCredit] = cls.parse_cast_credits(json_object)
+        performing_credits: List[PerformingCredit] = cls.parse_cast_credits(json_object)
 
         return cls(
             imdb_id=json_object[IMDB_ID],
@@ -202,6 +195,7 @@ class Movie(object):
             file_path=file_path,
             release_date=json_object["release_date"],
             release_date_notes=json_object["release_date_notes"],
+            countries=json_object["countries"],
         )
 
     @classmethod
@@ -240,7 +234,7 @@ class Movie(object):
         ]
 
         performers = [
-            CastCredit.from_imdb_http_cast_credit(cast_credit)
+            PerformingCredit.from_imdb_http_cast_credit(cast_credit)
             for cast_credit in movie_info.cast
         ]
 
@@ -255,6 +249,7 @@ class Movie(object):
             file_path=None,
             release_date=movie_info.release_date,
             release_date_notes=movie_info.release_date_notes,
+            countries=movie_info.countries,
         )
 
     def save(self) -> str:
@@ -304,7 +299,7 @@ class DirectingCreditsTable(db.Table):
         """
 
     @classmethod
-    def insert_credits(cls, credit_items: List[DirectingCredit]) -> None:
+    def insert_credits(cls, movies: List[Movie]) -> None:
         ddl = """
         INSERT INTO {0} (movie_imdb_id, person_imdb_id, sequence, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :sequence, :notes);
@@ -312,11 +307,15 @@ class DirectingCreditsTable(db.Table):
             cls.table_name
         )
 
-        parameter_seq = [asdict(credit) for credit in credit_items]
+        credit_entries = [
+            dict(asdict(credit), movie_imdb_id=movie.imdb_id)
+            for movie in movies
+            for credit in movie.directors
+        ]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl, parameter_seq=credit_entries)
         cls.add_index("person_imdb_id")
-        cls.validate(credit_items)
+        cls.validate(credit_entries)
 
 
 class WritingCreditsTable(db.Table):
@@ -336,7 +335,7 @@ class WritingCreditsTable(db.Table):
         """
 
     @classmethod
-    def insert_credits(cls, credit_items: List[WritingCredit]) -> None:
+    def insert_credits(cls, movies: List[Movie]) -> None:
         ddl = """
         INSERT INTO {0} (movie_imdb_id, person_imdb_id, group_id, sequence, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :group_id, :sequence, :notes);
@@ -344,11 +343,15 @@ class WritingCreditsTable(db.Table):
             cls.table_name
         )
 
-        parameter_seq = [asdict(credit) for credit in credit_items]
+        credit_entries = [
+            dict(asdict(credit), movie_imdb_id=movie.imdb_id)
+            for movie in movies
+            for credit in movie.writers
+        ]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl, parameter_seq=credit_entries)
         cls.add_index("person_imdb_id")
-        cls.validate(credit_items)
+        cls.validate(credit_entries)
 
 
 class PerformingCreditsTable(db.Table):
@@ -368,9 +371,7 @@ class PerformingCreditsTable(db.Table):
         """
 
     @classmethod
-    def insert_performing_credits(
-        cls, performing_credits: Sequence[CastCredit]
-    ) -> None:
+    def insert_performing_credits(cls, movies: Sequence[Movie]) -> None:
         ddl = """
         INSERT INTO {0}(movie_imdb_id, person_imdb_id, sequence, roles, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :sequence, :role_string, :notes);
@@ -378,12 +379,16 @@ class PerformingCreditsTable(db.Table):
             cls.table_name
         )
 
-        cls.insert(
-            ddl=ddl, parameter_seq=[credit.as_dict() for credit in performing_credits]
-        )
+        credit_entries = [
+            dict(credit.as_dict(), movie_imdb_id=movie.imdb_id)
+            for movie in movies
+            for credit in movie.performers
+        ]
+
+        cls.insert(ddl=ddl, parameter_seq=credit_entries)
         cls.add_index(MOVIE_IMDB_ID)
         cls.add_index(PERSON_IMDB_ID)
-        cls.validate(performing_credits)
+        cls.validate(credit_entries)
 
 
 class ReleaseDatesTable(db.Table):
@@ -416,6 +421,41 @@ class ReleaseDatesTable(db.Table):
         cls.validate(movies)
 
 
+class CountriesTable(db.Table):
+    table_name = COUNTRIES_TABLE_NAME
+
+    recreate_ddl = """
+        DROP TABLE IF EXISTS "{0}";
+        CREATE TABLE "{0}" (
+            "movie_imdb_id" varchar(255) NOT NULL
+                REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
+            "country" TEXT NOT NULL,
+            PRIMARY KEY (movie_imdb_id, country));
+        """
+
+    @classmethod
+    def insert_countries(cls, movies: List[Movie]) -> None:
+        ddl = """
+        INSERT INTO {0}(movie_imdb_id, country)
+        VALUES(:movie_imdb_id, :country);
+        """.format(
+            cls.table_name
+        )
+
+        countries = [
+            {"movie_imdb_id": movie.imdb_id, "country": country}
+            for movie in movies
+            for country in movie.countries
+        ]
+
+        cls.insert(
+            ddl=ddl,
+            parameter_seq=countries,
+        )
+        cls.add_index(MOVIE_IMDB_ID)
+        cls.validate(countries)
+
+
 class SortTitlesTable(db.Table):
     table_name = SORT_TITLES_TABLE_NAME
 
@@ -446,7 +486,7 @@ class SortTitlesTable(db.Table):
 
 
 @logger.catch
-def update(imdb_ids: Set[str]) -> None:  # noqa: WPS213, WPS210
+def update(imdb_ids: Set[str]) -> None:  # noqa: WPS213
     logger.log(
         "==== Begin reading {}...",
         "existing IMDb data files in {0} folder".format(FOLDER_PATH),
@@ -454,41 +494,35 @@ def update(imdb_ids: Set[str]) -> None:  # noqa: WPS213, WPS210
     movies = Movie.load_existing_files()
     logger.log("Read {} files.", len(movies))
 
-    directing_credits: List[DirectingCredit] = []
-    writing_credits: List[WritingCredit] = []
-    performing_credits: List[CastCredit] = []
-
     existing_credit_imdb_ids: Set[str] = set()
 
     for movie in movies:
         existing_credit_imdb_ids.add(movie.imdb_id)
-        directing_credits.extend(movie.directors)
-        writing_credits.extend(movie.writers)
-        performing_credits.extend(movie.performers)
 
     for imdb_id in set(imdb_ids) - existing_credit_imdb_ids:
         new_movie = Movie.from_imdb_id(imdb_id)
         new_movie.save()
         movies.append(new_movie)
-        directing_credits.extend(new_movie.directors)
-        writing_credits.extend(new_movie.writers)
-        performing_credits.extend(new_movie.performers)
 
     logger.log(UPDATE_MESSAGE, DIRECTING_CREDITS_TABLE_NAME)
     DirectingCreditsTable.recreate()
-    DirectingCreditsTable.insert_credits(directing_credits)
+    DirectingCreditsTable.insert_credits(movies)
 
     logger.log(UPDATE_MESSAGE, WRITING_CREDITS_TABLE_NAME)
     WritingCreditsTable.recreate()
-    WritingCreditsTable.insert_credits(writing_credits)
+    WritingCreditsTable.insert_credits(movies)
 
     logger.log(UPDATE_MESSAGE, PERFORMING_CREDITS_TABLE_NAME)
     PerformingCreditsTable.recreate()
-    PerformingCreditsTable.insert_performing_credits(performing_credits)
+    PerformingCreditsTable.insert_performing_credits(movies)
 
     logger.log(UPDATE_MESSAGE, RELEASE_DATES_TABLE_NAME)
     ReleaseDatesTable.recreate()
     ReleaseDatesTable.insert_release_dates(movies)
+
+    logger.log(UPDATE_MESSAGE, COUNTRIES_TABLE_NAME)
+    CountriesTable.recreate()
+    CountriesTable.insert_countries(movies)
 
     logger.log(UPDATE_MESSAGE, SORT_TITLES_TABLE_NAME)
     SortTitlesTable.recreate()

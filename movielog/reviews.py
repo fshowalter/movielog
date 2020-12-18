@@ -269,6 +269,7 @@ class Exporter(object):
             , slug
             , sort_title
             , principal_cast_ids
+            , runtime_minutes
             FROM reviews
             INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
             INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
@@ -302,6 +303,21 @@ class Exporter(object):
             directors.append(dict(row))
 
         return directors
+
+    @classmethod
+    def fetch_countries_for_title_id(cls, title_imdb_id: str) -> List[str]:
+        rows = db.exec_query(
+            """
+                SELECT
+                country
+                FROM countries
+                WHERE movie_imdb_id = "{0}";
+                """.format(
+                title_imdb_id
+            )
+        )
+
+        return [row["country"] for row in rows]
 
     @classmethod
     def fetch_aka_titles_for_title_id(
@@ -382,6 +398,9 @@ class Exporter(object):
 
             review_row["principal_cast"] = cls.fetch_principal_cast(
                 principal_cast_ids_with_commas=review_row["principal_cast_ids"]
+            )
+            review_row["countries"] = cls.fetch_countries_for_title_id(
+                title_imdb_id=review_row[IMDB_ID]
             )
 
         file_path = os.path.join("export", "reviewed_movies.json")

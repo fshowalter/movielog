@@ -3,7 +3,6 @@
   "sort_title": "American Buffalo (1996)",
   "performers": [
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0000163",
       "name": "Dustin Hoffman",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0001240",
       "name": "Dennis Franz",
       "sequence": 1,
@@ -23,7 +21,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0625735",
       "name": "Sean Nelson",
       "sequence": 2,
@@ -35,7 +32,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0180912",
       "name": "Michael Corrente",
       "sequence": 0,
@@ -44,7 +40,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
       "sequence": 0,
@@ -52,7 +47,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0115530",
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
       "sequence": 0,
@@ -61,5 +55,9 @@
     }
   ],
   "release_date": "1996-09-12",
-  "release_date_notes": "(Toronto International Film Festival)"
+  "release_date_notes": "(Toronto International Film Festival)",
+  "countries": [
+    "United Kingdom",
+    "United States"
+  ]
 }

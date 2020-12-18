@@ -3,7 +3,6 @@
   "sort_title": "Oleanna (1994)",
   "performers": [
     {
-      "movie_imdb_id": "tt0110722",
       "person_imdb_id": "nm0000513",
       "name": "William H. Macy",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0110722",
       "person_imdb_id": "nm0252067",
       "name": "Debra Eisenstadt",
       "sequence": 1,
@@ -25,7 +23,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0110722",
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
       "sequence": 0,
@@ -34,7 +31,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0110722",
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
       "sequence": 0,
@@ -42,7 +38,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0110722",
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
       "sequence": 0,
@@ -51,5 +46,9 @@
     }
   ],
   "release_date": "1994-10-01",
-  "release_date_notes": "(Chicago International Film Festival)"
+  "release_date_notes": "(Chicago International Film Festival)",
+  "countries": [
+    "United Kingdom",
+    "United States"
+  ]
 }

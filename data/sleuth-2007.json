@@ -3,7 +3,6 @@
   "sort_title": "Sleuth (2007)",
   "performers": [
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0000323",
       "name": "Michael Caine",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0000179",
       "name": "Jude Law",
       "sequence": 1,
@@ -23,7 +21,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0056217",
       "name": "Harold Pinter",
       "sequence": 2,
@@ -35,7 +32,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0000110",
       "name": "Kenneth Branagh",
       "sequence": 0,
@@ -44,7 +40,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
       "sequence": 0,
@@ -52,7 +47,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0857265",
       "person_imdb_id": "nm0056217",
       "name": "Harold Pinter",
       "sequence": 0,
@@ -61,5 +55,9 @@
     }
   ],
   "release_date": "2007-08-30",
-  "release_date_notes": "(Venice Film Festival)"
+  "release_date_notes": "(Venice Film Festival)",
+  "countries": [
+    "United Kingdom",
+    "United States"
+  ]
 }

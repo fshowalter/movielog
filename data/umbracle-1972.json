@@ -3,7 +3,6 @@
   "sort_title": "Umbracle (1972)",
   "performers": [
     {
-      "movie_imdb_id": "tt0066499",
       "person_imdb_id": "nm0000489",
       "name": "Christopher Lee",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0066499",
       "person_imdb_id": "nm0582321",
       "name": "Jeannine Mestre",
       "sequence": 1,
@@ -25,7 +23,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0066499",
       "person_imdb_id": "nm0691908",
       "name": "Pere Portabella",
       "sequence": 0,
@@ -34,7 +31,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0066499",
       "person_imdb_id": "nm0112508",
       "name": "Joan Brossa",
       "sequence": 0,
@@ -42,7 +38,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0066499",
       "person_imdb_id": "nm0691908",
       "name": "Pere Portabella",
       "sequence": 0,
@@ -51,5 +46,8 @@
     }
   ],
   "release_date": "1972-01-01",
-  "release_date_notes": "(MoMa)"
+  "release_date_notes": "(MoMa)",
+  "countries": [
+    "Spain"
+  ]
 }

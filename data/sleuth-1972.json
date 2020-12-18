@@ -3,7 +3,6 @@
   "sort_title": "Sleuth (1972)",
   "performers": [
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0000059",
       "name": "Laurence Olivier",
       "sequence": 0,
@@ -13,7 +12,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0000323",
       "name": "Michael Caine",
       "sequence": 1,
@@ -23,7 +21,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0147250",
       "name": "Alec Cawthorne",
       "sequence": 2,
@@ -33,7 +30,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0560064",
       "name": "John Matthews",
       "sequence": 3,
@@ -43,7 +39,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0151920",
       "name": "Eve Channing",
       "sequence": 4,
@@ -53,7 +48,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0553117",
       "name": "Teddy Martin",
       "sequence": 5,
@@ -65,7 +59,6 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0000581",
       "name": "Joseph L. Mankiewicz",
       "sequence": 0,
@@ -74,7 +67,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
       "sequence": 0,
@@ -82,7 +74,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0069281",
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
       "sequence": 0,
@@ -91,5 +82,9 @@
     }
   ],
   "release_date": "1972-12-10",
-  "release_date_notes": "(New York City, New York) (premiere)"
+  "release_date_notes": "(New York City, New York) (premiere)",
+  "countries": [
+    "United Kingdom",
+    "United States"
+  ]
 }

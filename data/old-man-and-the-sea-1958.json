@@ -3,7 +3,6 @@
   "sort_title": "Old Man and the Sea (1958)",
   "performers": [
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0000075",
       "name": "Spencer Tracy",
       "sequence": 0,
@@ -14,7 +13,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0668626",
       "name": "Felipe Pazos",
       "sequence": 1,
@@ -24,7 +22,6 @@
       ]
     },
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0068772",
       "name": "Harry Bellaver",
       "sequence": 2,
@@ -36,14 +33,12 @@
   ],
   "directors": [
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0836328",
       "name": "John Sturges",
       "sequence": 0,
       "notes": ""
     },
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0003593",
       "name": "Fred Zinnemann",
       "sequence": 1,
@@ -52,7 +47,6 @@
   ],
   "writers": [
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0002133",
       "name": "Ernest Hemingway",
       "sequence": 0,
@@ -60,7 +54,6 @@
       "group_id": 0
     },
     {
-      "movie_imdb_id": "tt0052027",
       "person_imdb_id": "nm0896830",
       "name": "Peter Viertel",
       "sequence": 0,
@@ -69,5 +62,8 @@
     }
   ],
   "release_date": "1958-10-07",
-  "release_date_notes": "(New York City, New York)"
+  "release_date_notes": "(New York City, New York)",
+  "countries": [
+    "United States"
+  ]
 }

@@ -183,6 +183,7 @@ class ReleaseDate(object):
 
 @dataclass
 class TitleDetail(TitleBasic):
+    countries: List[str]
     release_date: date
     release_date_notes: Optional[str]
 
@@ -268,11 +269,13 @@ class TitleDetail(TitleBasic):
         return credit_list
 
     @classmethod
-    def parse_release_date(cls, imdb_movie: imdb.Movie.Movie) -> Optional[ReleaseDate]:
+    def parse_release_date(cls, imdb_movie: imdb.Movie.Movie) -> ReleaseDate:
         raw_release_dates = imdb_movie.get("raw release dates")
 
         if not raw_release_dates:
-            return None
+            return ReleaseDate(
+                date=date(imdb_movie.get(YEAR), 1, 1), notes="No release date"
+            )
 
         release_dates: List[ReleaseDate] = []
 
@@ -292,7 +295,9 @@ class TitleDetail(TitleBasic):
             )
 
         if not release_dates:
-            return None
+            return ReleaseDate(
+                date=date(imdb_movie.get(YEAR), 1, 1), notes="No release date"
+            )
 
         most_recent = sorted(release_dates, key=lambda rd: rd.date)[0]
 
@@ -307,29 +312,16 @@ class TitleDetail(TitleBasic):
         return most_recent
 
     @classmethod
+    def parse_countries(cls, imdb_movie: imdb.Movie.Movie) -> List[str]:
+        return imdb_movie["countries"]
+
+    @classmethod
     def from_imdb_id(cls, title_imdb_id: str) -> "TitleDetail":
         imdb_movie = imdb_scraper.get_movie(
             title_imdb_id[2:], info=["main", "release_dates"]
         )
 
-        directors: List[DirectingCreditForTitle] = cls.parse_directing_credits(
-            imdb_movie
-        )
-        writers: List[WritingCreditForTitle] = cls.parse_writing_credits(imdb_movie)
-        cast: List[CastCreditForTitle] = cls.parse_cast_credits(imdb_movie)
         release_date = cls.parse_release_date(imdb_movie)
-
-        if not release_date:
-            return cls(
-                imdb_id=title_imdb_id,
-                title=imdb_movie[TITLE],
-                year=imdb_movie[YEAR],
-                release_date=date(imdb_movie.get(YEAR), 1, 1),
-                release_date_notes="No release date",
-                directors=directors,
-                writers=writers,
-                cast=cast,
-            )
 
         return cls(
             imdb_id=title_imdb_id,
@@ -337,9 +329,10 @@ class TitleDetail(TitleBasic):
             year=imdb_movie[YEAR],
             release_date=release_date.date,
             release_date_notes=release_date.notes,
-            directors=directors,
-            writers=writers,
-            cast=cast,
+            directors=cls.parse_directing_credits(imdb_movie),
+            writers=cls.parse_writing_credits(imdb_movie),
+            cast=cls.parse_cast_credits(imdb_movie),
+            countries=cls.parse_countries(imdb_movie),
         )
 
 
