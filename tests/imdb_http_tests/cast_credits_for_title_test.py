@@ -17,6 +17,10 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
             "imdbID": "0092106",
             "title": "The Transformers: The Movie",
             "year": 1986,
+            "countries": [
+                "United States",
+                "Japan",
+            ],
             "raw release dates": [
                 {
                     "country": "USA\n",
@@ -64,6 +68,7 @@ def test_gets_cast_credits_for_title_from_imdb(
         year=1986,
         release_date=date(1986, 8, 8),
         release_date_notes="",
+        countries=["United States", "Japan"],
         directors=[
             imdb_http.DirectingCreditForTitle(
                 movie_imdb_id="tt0092106",

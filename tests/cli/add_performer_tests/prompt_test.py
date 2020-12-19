@@ -15,8 +15,8 @@ def mock_watchlist_add_performer(mocker: MockerFixture) -> MockerFixture:
 
 
 @pytest.fixture(autouse=True)
-def seed_db(seed_performers: Callable[[List[CreditTuple]], None]) -> None:
-    seed_performers(
+def seed_db(seed_people: Callable[[List[CreditTuple]], None]) -> None:
+    seed_people(
         [
             (
                 "nm0001088",

@@ -15,8 +15,8 @@ def mock_watchlist_add_writer(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def seed_db(seed_writers: Callable[[List[CreditTuple]], None]) -> None:
-    seed_writers(
+def seed_db(seed_people: Callable[[List[CreditTuple]], None]) -> None:
+    seed_people(
         [
             (
                 "nm0762727",

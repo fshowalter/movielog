@@ -15,8 +15,8 @@ def mock_watchlist_add_director(mocker: MockerFixture) -> MockerFixture:
 
 
 @pytest.fixture(autouse=True)
-def seed_db(seed_directors: Callable[[List[CreditTuple]], None]) -> None:
-    seed_directors(
+def seed_db(seed_people: Callable[[List[CreditTuple]], None]) -> None:
+    seed_people(
         [
             (
                 "nm0279807",
