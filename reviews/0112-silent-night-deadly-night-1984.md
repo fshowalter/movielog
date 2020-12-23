@@ -13,7 +13,7 @@ Come for the sleazy Santa slasher, stay for the toys.
 
 <!-- end -->
 
-Just before Christmas, young Billy and family visit his institutionalized grandpa. Said grandpa sits in a stupor, but slips into a moment of lucidity when alone with Billy, during which he warns Billy of Santa’s propensity to punish the naughty. On the way home, the family pulls over to help a stranded motorist dressed as Santa. Billy watches in horror as the Santa-clad psychopath murders his parents.
+Just before Christmas, young Billy and family visit his institutionalized catatonic grandpa. Once alone with Billy, grandpa slips into a moment of lucidity and warns Billy of Santa’s propensity to punish the naughty. On the way home, the family pulls over to help a stranded motorist dressed as Santa. Billy watches in horror as the Santa-clad psychopath murders his parents.
 
 Fast forward. The now-grown Billy works as a stock boy in the local toy store. As Christmas nears, Billy’s boss forces him to sub for the store Santa. Seeing himself in the suit, Billy snaps and embarks on a murderous rampage, prefacing every kill with a guttural whisper of “NAUGHTY!”
 
