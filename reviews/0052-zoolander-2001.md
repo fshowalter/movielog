@@ -3,7 +3,7 @@ sequence: 52
 date: 2020-10-11
 imdb_id: tt0196229
 title: Zoolander (2001)
-grade: A-
+grade: B+
 slug: zoolander-2001
 venue: iTunes
 venue_notes: 2013 | Paramount Pictures | 1080p
