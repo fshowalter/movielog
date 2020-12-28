@@ -7,7 +7,6 @@ from typing import Sequence
 
 from movielog import db
 from movielog.logger import logger
-from movielog.most_watched_movies import Movie, Viewing
 
 MAX_MOST_WATCHED = 20
 
@@ -20,15 +19,28 @@ class Person(object):
 
 
 @dataclass
-class MostWatchedPerson(Person):
-    movie_count: int
-    viewings: Sequence[Viewing]
-    viewing_count: int
+class Movie(object):
+    imdb_id: str
+    title: str
+    year: str
+    decade: str
+    slug: str
 
 
 @dataclass
-class ViewingWithPerson(Viewing):
+class ViewingWithPerson(object):
+    date: date
+    venue: str
+    sequence: str
+    movie: Movie
     person: Person
+
+
+@dataclass
+class MostWatchedPerson(Person):
+    movie_count: int
+    viewings: Sequence[ViewingWithPerson]
+    viewing_count: int
 
 
 @dataclass
