@@ -9,8 +9,8 @@ venue: Criterion Channel
 venue_notes:
 ---
 
-David Cronenberg's first feature. The Canadian Academy of Erotic Enquiry (CAEE) conducts telepathic experiments with a group of young people. As the film unfolds, the organizers lose control of the experiment.
+David Cronenberg’s first feature. Proffered as an educational film from the fictional Canadian Academy of Erotic Enquiry, the film documents telepathic experiments conducted on a group of young people.
 
 <!-- end -->
 
-Shot as a silent film, with clinical voice-overs from unnamed narrators added later, I found the film near impenetrable, but intriguing. I recognized several recurring themes from Cronenberg's later films and appreciated the short running time of just over an hour.
+Shot in silent black-and-white with clinical voice-over narration, I found the film near-impenetrable, yet intriguing. It lacks an overt narrative, but the thematic through line to Cronenberg's <span data-imdb-id="tt0081455">_Scanners_</span> proves evident.

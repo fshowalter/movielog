@@ -5,7 +5,7 @@ imdb_id: tt0021554
 title: Wild Company (1930)
 grade: D+
 slug: wild-company-1930
-venue: RareFilm.net
+venue: VHS-rip
 venue_notes:
 ---
 

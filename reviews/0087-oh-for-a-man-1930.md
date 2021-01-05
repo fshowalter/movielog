@@ -5,7 +5,7 @@ imdb_id: tt0021199
 title: Oh, for a Man! (1930)
 grade: F
 slug: oh-for-a-man-1930
-venue: RareFilm.net
+venue: VHS-rip
 venue_notes:
 ---
 

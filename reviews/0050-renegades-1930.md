@@ -5,7 +5,7 @@ imdb_id: tt0021295
 title: Renegades (1930)
 grade: C+
 slug: renegades-1930
-venue: RareFilm.net
+venue: VHS-rip
 venue_notes:
 ---
 
