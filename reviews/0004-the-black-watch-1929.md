@@ -17,4 +17,4 @@ Godawful dialogue scenes the studio added without Ford render this almost unwatc
 
 > That was another picture they changed after I'd gone. Winfield Sheehan was in charge of production then, and he said there weren't enough love scenes in it. He thought Lumsden Hare was a great British actor--he wasn't, but he impressed Sheehan--so he got Hare to direct some love scenes between McLaglen and Myrna Loy. And they were really horrible--long, talky things, had nothing to do with the story--and completely screwed it up. I wanted to vomit when I saw them.
 
-[^1]: Peter Bogdanovich. _John Ford_ (United Kingdom: Studio Vista, 1967), 50.
+[^1]: Peter Bogdanovich. _John Ford_ (University of California Press, 1967), 50.
