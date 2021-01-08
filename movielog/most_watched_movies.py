@@ -55,6 +55,7 @@ class CountryGroup(object):
 class MovieYearStats(object):
     year: str
     movie_count: int
+    new_movie_count: int
     viewing_count: int
     most_watched: List[MostWatchedMovie]
     decades: List[DecadeGroup]
@@ -204,11 +205,15 @@ class MovieYearStats(object):
         viewings_for_year = list(
             filter(lambda viewing: viewing.date.year == year, viewings)
         )
+        older_viewings = list(
+            filter(lambda viewing: viewing.date.year < year, viewings)
+        )
+        movie_ids_for_year = set(viewing.movie.imdb_id for viewing in viewings_for_year)
+        older_movie_ids = set(viewing.movie.imdb_id for viewing in older_viewings)
         return MovieYearStats(
             year=str(year),
-            movie_count=len(
-                set(viewing.movie.imdb_id for viewing in viewings_for_year)
-            ),
+            movie_count=len(movie_ids_for_year),
+            new_movie_count=len(movie_ids_for_year - older_movie_ids),
             viewing_count=len(viewings_for_year),
             most_watched=cls.generate_most_watched(viewings_for_year),
             decades=cls.generate_decades(viewings_for_year),
@@ -235,6 +240,7 @@ class MovieYearStats(object):
             MovieYearStats(
                 year="all",
                 movie_count=len(set(viewing.movie.imdb_id for viewing in viewings)),
+                new_movie_count=0,
                 viewing_count=len(viewings),
                 most_watched=cls.generate_most_watched(viewings),
                 decades=cls.generate_decades(viewings),
@@ -243,6 +249,7 @@ class MovieYearStats(object):
         )
 
         allstats.pop("year")
+        allstats.pop("new_movie_count")
         os.makedirs(os.path.join("export", "most_watched_movies"), exist_ok=True)
 
         with open(
