@@ -6,7 +6,7 @@ title: Seas Beneath (1931)
 grade: D+
 slug: seas-beneath-1931
 venue: iTunes
-venue_notes: 2017 | 20th Century Fox | 1080p
+venue_notes:
 ---
 
 An uneven amalgam of war picture, spy drama, and romance. In late WWI, O’Brien captains a naval crew aboard a decoy ship posing as merchant marines. They’re hunting for a notorious German U-boat.

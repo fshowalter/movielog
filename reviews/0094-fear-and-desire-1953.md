@@ -6,7 +6,7 @@ title: Fear and Desire (1953)
 grade: D+
 slug: fear-and-desire-1953
 venue: Amazon Streaming
-venue_notes: 2014 | Kino Lorber | 1080p
+venue_notes:
 ---
 
 Stanley Kubrick’s debut feature. During an unnamed conflict, four soldiers crash-land in enemy territory and confront the horrors of war. According to the IMDb, Kubrick disowned the film, comparing it to “a child’s drawing on a fridge.” Fair enough, if said child possesses Kubrick’s potential.

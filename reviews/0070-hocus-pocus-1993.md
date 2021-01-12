@@ -5,8 +5,8 @@ imdb_id: tt0107120
 title: Hocus Pocus (1993)
 grade: F
 slug: hocus-pocus-1993
-venue: 'Disney+ '
-venue_notes: 2019| Disney / Buena Vista | 4k
+venue: "Disney+"
+venue_notes:
 ---
 
 On Halloween night in Salem, Massachusetts, a transplanted L.A. teen inadvertently resurrects three witches, played by Middler, Parker, and Najimy. With a single night to live, they attempt to steal the town's children's life to extend their existence.

@@ -6,7 +6,7 @@ title: Harry Potter and the Chamber of Secrets (2002)
 grade: C
 slug: harry-potter-and-the-chamber-of-secrets-2002
 venue: iTunes
-venue_notes: 2013 | Warner Bros. | 4k
+venue_notes:
 ---
 
 Engaging--albeit overlong--sequel to <span data-imdb-id="tt0241527">

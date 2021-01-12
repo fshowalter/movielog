@@ -5,7 +5,7 @@ imdb_id: tt5095030
 title: Ant-Man and the Wasp (2018)
 grade: D
 slug: ant-man-and-the-wasp-2018
-venue: 'Disney+ '
+venue: "Disney+"
 venue_notes: 2018 | Disney / Buena Vista | 4k
 ---
 

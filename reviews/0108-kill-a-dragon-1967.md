@@ -6,7 +6,7 @@ title: Kill a Dragon (1967)
 grade: D+
 slug: kill-a-dragon-1967
 venue: Amazon Streaming
-venue_notes: 2020 | Metro-Goldwyn-Mayer | 1080p
+venue_notes:
 ---
 
 I reviewed _Kill a Dragon_ over a decade ago during this site's first incarnation. My logs tell me folks are looking for that review, so I revisited it. I had no recollection of the film, nor any sense of déjà vu re-watching it. This may serve as review enough.

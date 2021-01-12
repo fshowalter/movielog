@@ -5,7 +5,7 @@ imdb_id: tt0114924
 title: While You Were Sleeping (1995)
 grade: C
 slug: while-you-were-sleeping-1995
-venue: "Disney+ "
+venue: "Disney+"
 venue_notes: 2014 | Hollywood Pictures | 1080p
 ---
 

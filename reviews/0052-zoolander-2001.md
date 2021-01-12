@@ -6,7 +6,7 @@ title: Zoolander (2001)
 grade: B+
 slug: zoolander-2001
 venue: iTunes
-venue_notes: 2013 | Paramount Pictures | 1080p
+venue_notes:
 ---
 
 Ten minutes into this rewatch, I remembered the “freak gasoline fight accident” scene and roared out laughing.

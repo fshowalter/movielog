@@ -6,7 +6,7 @@ title: Blood Rage (1987)
 grade: C
 slug: blood-rage-1987
 venue: iTunes
-venue_notes: 2018 | Arrow Video | 1080p
+venue_notes:
 ---
 
 It’s Thanksgiving in Jacksonville, Florida. Terry’s twin brother--institutionalized since childhood for a brutal hatchet murder--returns to the family’s garden apartment home. This causes Terry--who _actually_ committed the murder--to embark on a killing rampage.
