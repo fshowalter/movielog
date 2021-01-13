@@ -5,7 +5,7 @@ imdb_id: tt0035744
 title: Colt Comrades (1943)
 grade: D
 slug: colt-comrades-1943
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

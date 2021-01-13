@@ -5,7 +5,7 @@ imdb_id: tt0036016
 title: Hoppy Serves a Writ (1943)
 grade: D
 slug: hoppy-serves-a-writ-1943
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

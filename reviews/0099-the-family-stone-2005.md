@@ -5,7 +5,7 @@ imdb_id: tt0356680
 title: The Family Stone (2005)
 grade: D+
 slug: the-family-stone-2005
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

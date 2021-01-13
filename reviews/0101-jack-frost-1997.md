@@ -5,7 +5,7 @@ imdb_id: tt0116671
 title: Jack Frost (1997)
 grade: C
 slug: jack-frost-1997
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

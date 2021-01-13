@@ -5,7 +5,7 @@ imdb_id: tt2400463
 title: The Invitation (2015)
 grade: B
 slug: the-invitation-2015
-venue: Netflix Streaming
+venue: Netflix
 venue_notes:
 ---
 

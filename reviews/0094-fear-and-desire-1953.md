@@ -5,7 +5,7 @@ imdb_id: tt0045758
 title: Fear and Desire (1953)
 grade: D+
 slug: fear-and-desire-1953
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

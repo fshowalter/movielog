@@ -5,7 +5,7 @@ imdb_id: tt0180781
 title: Kill a Dragon (1967)
 grade: D+
 slug: kill-a-dragon-1967
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

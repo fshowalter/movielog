@@ -5,7 +5,7 @@ imdb_id: tt0035692
 title: Border Patrol (1943)
 grade: D+
 slug: border-patrol-1943
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

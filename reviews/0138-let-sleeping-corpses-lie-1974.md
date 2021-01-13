@@ -5,7 +5,7 @@ imdb_id: tt0071431
 title: Let Sleeping Corpses Lie (1974)
 grade: B-
 slug: let-sleeping-corpses-lie-1974
-venue: Amazon Streaming
+venue: Amazon
 venue_notes:
 ---
 

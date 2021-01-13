@@ -5,7 +5,7 @@ imdb_id: tt2872718
 title: Nightcrawler (2014)
 grade: B
 slug: nightcrawler-2014
-venue: Netflix Streaming
+venue: Netflix
 venue_notes:
 ---
 
