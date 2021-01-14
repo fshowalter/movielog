@@ -9,7 +9,7 @@ venue: Amazon
 venue_notes:
 ---
 
-The dead are returning to life in murderous rages. You drive up to a remote country house. All is dark. You get out of the car and call out, attracting your brother-in-law's reanimated corpse, which attacks with ferocity. You struggle, but make it back inside the car and peel out. Here, the film almost lost me because our lead drives a few hundred feet, then pulls over and exits the car. Why? Because the script needs to reunite the two leads. This bit of lazy writing proves the lone blemish on what's otherwise a terrific zombie picture.
+The dead are returning to life in murderous rages. You drive up to a remote country house. All is dark. You get out of the car and call out, attracting your brother-in-law's reanimated corpse, which attacks with ferocity. You struggle, but make it back inside the car and peel out. Here, the film almost lost me because our lead drives a few hundred feet, then pulls over and exits the car. Why? Because the script needs to reunite two characters. This bit of lazy writing proves the lone blemish on what's otherwise a terrific zombie picture.
 
 <!-- end -->
 
