@@ -10,4 +10,4 @@ venue_notes:
 ---
 
 Engaging--albeit overlong--sequel to <span data-imdb-id="tt0241527">
-_Harry Potter and the Sorcerer's Stone_</span>. Harry, Ron, and Hermione race to uncover the culprit behind several petrifications at Hogwarts. I enjoyed the atmosphere and world-building, but longed for Spielberg. At a minimum, he would have coaxed a better performance from Radcliffe and toned down Grint's mugging.
+_Harry Potter and the Sorcerer's Stone_</span>. Harry, Ron, and Hermione race to uncover the culprit behind several petrifications at Hogwarts. I enjoyed the atmosphere and world-building, but wished Columbus would have coaxed a better performance from Radcliffe and toned down Grint's mugging.
