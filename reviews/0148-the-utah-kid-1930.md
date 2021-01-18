@@ -9,6 +9,4 @@ venue: DVD
 venue_notes: 2012 | Alpha Video
 ---
 
-Lease plays the titular Kid, an outlaw who falls for Sebastian, a woman kidnapped by his outlaw gang. Santschi plays Lease's outlaw rival.
-
-I expected a B-grade oater but found it quite passable. The leads proved competent, and the photography and stunts above-average. Cringe-worthy dialog litters the clunky script, but the obligatory barroom brawl's visceral and kinetic choreography stood out, as did the blood from Lease's bullet wound. Karloff has a forgettable role as Santschi's henchman.
+I watched _The Utah Kid_ because it features an early performance from Boris Karloff. As a solid B-oater with competent leads and above-average photography and stunts, it surprised me. Cringe-worthy dialog may litter the clunky script, which has the titular outlaw Kid fall for a woman kidnapped by his outlaw gang, but the barroom brawl's choreography proved a standout, as did the Kid's bloody bullet wound. For his part, Karloff proves forgettable as an evil henchman.

@@ -76,6 +76,13 @@ class CreditForTitle(object):
 
 @dataclass
 class DirectingCreditForTitle(CreditForTitle):
+    scenes_deleted_regex = re.compile(r".*\(scenes deleted\).*")
+
+    @classmethod
+    def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
+        notes = credit.notes.strip()
+        return not cls.scenes_deleted_regex.match(notes)
+
     @classmethod
     def from_imdb_credit(
         cls, imdb_id: str, sequence: int, credit: imdb.Person.Person
@@ -210,6 +217,9 @@ class TitleDetail(TitleBasic):
         imdb_credits = movie.get("directors", [])
 
         for index, credit in enumerate(imdb_credits):
+            if not DirectingCreditForTitle.credit_is_valid(credit):
+                continue
+
             credit_list.append(
                 DirectingCreditForTitle.from_imdb_credit(
                     imdb_id=f"{TT}{movie['imdbID']}",
@@ -359,6 +369,10 @@ def credits_for_person(
     for imdb_movie in reversed(filmography.get(credit_key, [])):
         if credit_key == "writer":
             if not WritingCreditForTitle.credit_is_valid(imdb_movie):
+                continue
+
+        if credit_key == "director":
+            if not DirectingCreditForTitle.credit_is_valid(imdb_movie):
                 continue
 
         credit_list.append(CreditForPerson.from_imdb_movie(imdb_movie))
