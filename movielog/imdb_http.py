@@ -78,7 +78,7 @@ class CreditForTitle(object):
 class DirectingCreditForTitle(CreditForTitle):
     @classmethod
     def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
-        return credit.notes.includes("scenes deleted")
+        return "scenes deleted" not in credit.notes
 
     @classmethod
     def from_imdb_credit(
