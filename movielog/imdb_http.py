@@ -349,7 +349,7 @@ def info_for_title(
     return TitleDetail.from_imdb_id(title_imdb_id)
 
 
-def credits_for_person(
+def credits_for_person(  # noqa: WPS231, C901
     person_imdb_id: str, credit_key: str
 ) -> Sequence[CreditForPerson]:
     imdb_person = imdb_scraper.get_person(person_imdb_id[2:])
