@@ -9,4 +9,4 @@ venue: Kanopy
 venue_notes:
 ---
 
-Hitchcock's first sound picture. A Scotland Yard constable covers for his girlfriend after realizing she's implicated in a murder. The two then fall afoul of a blackmailer. Hitchcock shot this as a silent then added the sound scenes later and it shows, but his formal mastery is still amazing. Love the rack focus reflection shot in the opening sequence.
+Hitchcock's first sound picture. A Scotland Yard constable covers for his girlfriend after realizing she's implicated in a murder. The two then fall afoul of a blackmailer. Hitchcock shot this silent then added the sound scenes later and it shows, but his formal mastery is still amazing. Love the rack focus reflection shot in the opening sequence.
