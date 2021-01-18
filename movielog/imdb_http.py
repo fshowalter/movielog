@@ -76,12 +76,9 @@ class CreditForTitle(object):
 
 @dataclass
 class DirectingCreditForTitle(CreditForTitle):
-    scenes_deleted_regex = re.compile(r".*\(scenes deleted\).*")
-
     @classmethod
     def credit_is_valid(cls, credit: imdb.Person.Person) -> bool:
-        notes = credit.notes.strip()
-        return not cls.scenes_deleted_regex.match(notes)
+        return credit.notes.includes("scenes deleted")
 
     @classmethod
     def from_imdb_credit(
