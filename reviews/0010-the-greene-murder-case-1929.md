@@ -9,7 +9,7 @@ venue: YouTube
 venue_notes:
 ---
 
-Disappointing follow-up to <span data-imdb-id="tt0019745">_The Canary Murder Case_</span> has Powell reprising his role as diletante sleuth Philo Vance investigating a wealthy family where the last surviving heir stands to inherit a fortune.
+Disappointing follow-up to <span data-imdb-id="tt0019745">_The Canary Murder Case_</span> has William Powell reprising his role as dilettante sleuth Philo Vance investigating a wealthy family where the last surviving heir stands to inherit a fortune.
 
 <!-- end -->
 
