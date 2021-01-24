@@ -9,4 +9,4 @@ venue: iTunes
 venue_notes: Special Edition
 ---
 
-First time seeing the “Special Edition” since its theatrical run in 1997. Once was enough.
+First time seeing the "Special Edition" since its theatrical run in 1997. Once was enough.

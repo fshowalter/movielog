@@ -9,4 +9,4 @@ venue: Netflix
 venue_notes:
 ---
 
-So many reviewers savaged Denise Richards’ casting, yet the script called for a nuclear scientist named Christmas Jones capable of passing for a high-class prostitute to a Russian black-market gangster. To those reviewers, I ask: Who would you have cast?
+So many reviewers savaged Denise Richards’ casting, yet the script called for a nuclear scientist named Christmas Jones capable of passing for a high-class prostitute to a Russian black-market gangster. To those reviewers, I ask: **Who would you have cast?**

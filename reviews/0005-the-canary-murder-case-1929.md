@@ -9,7 +9,7 @@ venue: YouTube
 venue_notes:
 ---
 
-William Powell's second talkie and first leading role. He plays Philo Vance, a dilettante detective who uses “psychology” to solve the locked-room murder of a notorious showgirl.
+**William Powell's second talkie and first leading role.** He plays Philo Vance, a dilettante detective who uses “psychology” to solve the locked-room murder of a notorious showgirl.
 
 <!-- end -->
 

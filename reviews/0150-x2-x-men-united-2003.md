@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2009 | 20th Century Fox
 ---
 
-I'd long considered _X2: X-Men United_ superior to the <span data-imdb-id="tt0120903">first film</span>. Revisiting it, I'm not so sure. The opening set piece with Alan Cumming launching a teleport assault on the White House still thrills, but the film never matches this height.
+**I'd long considered _X2: X-Men United_ superior to the <span data-imdb-id="tt0120903">first film</span>. Revisiting it, I'm not so sure.** The opening set piece with Alan Cumming launching a teleport assault on the White House still thrills, but the film never matches this height.
 
 <!-- end -->
 
