@@ -17,6 +17,6 @@ Set just after the events of <span data-imdb-id="tt0093177">_Hellraiser_</span>,
 
 I enjoyed the performances, particularly Cranham's turn in a prototype of David Cronenberg's role in Clive Barker's next picture, <span data-imdb-id="tt0100260">_Nightbreed_</span>. Clare Higgins plays stepmother Julia with relish, and Doug Bradley still chills as Pinhead.
 
-But coming just a year after the prior film, the production feels rushed. The visual effects, so effective in the first film, prove uneven here. Ditto the subtext and black humor. And the disjointed ending's out-of-left-field twist had me laughing. Methinks budget and time constraints compromised Barker's story.
+But coming just a year after the prior film, the production feels rushed. The visual effects, so effective in the first film, prove uneven here. Ditto the subtext and black humor. And the disjointed ending's more-bonkers-than-the-giant-penis twist had me laughing. Methinks budget and time constraints compromised Barker's story.
 
 While it's not a good film, it's not a train wreck either. I can appreciate the potential enough to warrant investigating its production. The Arrow Blu-ray includes two commentaries and a making-of documentary. Perhaps they'll shed some light on the original vision and what went wrong...
