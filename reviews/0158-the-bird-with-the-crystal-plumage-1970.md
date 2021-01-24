@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2009 | Blue Underground
 ---
 
-**Dario Argento's directorial debut.** Tony Musante plays Sam, an American writer living in Rome. Walking the streets one night, he glances inside an art gallery and spies a black-clad assailant attacking a woman with a knife. Unable to gain entry, watches the attacker escapes as the woman lies bleeding on the floor. The police arrive in time to save the woman, but visions of the incident haunt Sam, driving him to investigate the attack. Soon, the killer's targetting him and his live-in girlfriend, played by Suzy Kendall.
+**Dario Argento's directorial debut.** Tony Musante plays Sam, an American writer living in Rome. Walking the streets one night, he glances inside an art gallery and spies a black-clad assailant attacking a woman with a knife. Unable to gain entry, Sam watches the attacker escape as the woman lies bleeding on the floor. The police arrive in time to save the woman, but visions of the incident haunt Sam, driving him to investigate the attack. Soon, the killer's targetting him and his live-in girlfriend, played by Suzy Kendall.
 
 <!-- end -->
 

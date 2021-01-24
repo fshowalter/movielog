@@ -9,7 +9,7 @@ venue: Netflix
 venue_notes:
 ---
 
-Reminds me of a great bit from <span data-imdb-id="tt0118655">_Austin Powers_</span>:
+**Reminds me of a great bit from <span data-imdb-id="tt0118655">_Austin Powers_</span>:**
 
 > **Dr. Evil**: Are we ready to release our new software?
 >
@@ -17,4 +17,4 @@ Reminds me of a great bit from <span data-imdb-id="tt0118655">_Austin Powers_</s
 >
 > **Dr. Evil**: Outstanding.
 
-Except that's in _this_ movie. Both hit theaters in 1997, so that's… something? I dunno. Everything looks cheap: the sets, the car, the effects, even the clothes. Makes a compelling case for **Worst Bond Movie**. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">_The World Is Not Enough_</span>.
+Except that's in **this** movie. Both hit theaters in 1997, so that's… something? I dunno. Everything looks cheap: the sets, the car, the effects, even the clothes. Makes a compelling case for **Worst Bond Movie**. Insert joke about Ricky Jay wishing he could disappear from this turkey. Followed by <span data-imdb-id="tt0143145">_The World Is Not Enough_</span>.
