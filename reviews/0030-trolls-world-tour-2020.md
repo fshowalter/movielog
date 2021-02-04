@@ -9,4 +9,4 @@ venue: Hulu
 venue_notes:
 ---
 
-A great voice-cast and some Dr. Seuss-inspired production design wasted in service of a story about cultural appropriation that ends in a sing-along.
+A great voice-cast and some Dr. Seuss-inspired production design wasted in service of a reductive story about cultural appropriation that ends in a sing-along.

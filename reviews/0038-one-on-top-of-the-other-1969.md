@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2018 | Mondo Macabro
 ---
 
-Lucio Fulci’s first thriller wows with confident pacing, stylish camera-work, and strong performances. I went in cold and suggest you do likewise. The less you know, the better.
+**Lucio Fulci’s first thriller** wows with confident pacing, stylish camera-work, and strong performances. I went in cold and suggest you do likewise. The less you know, the better.
 
 <!-- end -->
 

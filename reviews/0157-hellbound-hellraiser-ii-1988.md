@@ -9,7 +9,7 @@ venue: Amazon
 venue_notes:
 ---
 
-The big-bad dangles from an extradimensional entity's unending tree-trunk-sized penis. And that's **not** the film's most bonkers aspect.
+The big-bad dangles from an extradimensional entity's unending tree-trunk-sized penis. And that's not the film's most bonkers aspect.
 
 <!-- end -->
 

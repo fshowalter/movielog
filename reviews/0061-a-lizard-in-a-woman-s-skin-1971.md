@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2016 | Mondo Macabro
 ---
 
-Fulci’s most formal effort to date. A stylistic thriller revolving around a politician’s daughter who dreams of murdering her hedonistic neighbor, only to awaken and find herself the center of an actual police investigation.
+**Fulci’s most formal effort at the time.** A stylistic thriller revolving around a politician’s daughter who dreams of murdering her hedonistic neighbor, only to awaken and find herself the center of an actual police investigation.
 
 <!-- end -->
 

@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2012 | Lionsgate Films | Academy ratio
 ---
 
-For Peter Cushing and Christopher Lee's first film for Hammer, a guest review from the good Baron himself.
+For Peter Cushing and Christopher Lee's first film for Hammer, **a guest review from the good Baron himself:**
 
 <!-- end -->
 
@@ -27,4 +27,4 @@ For Peter Cushing and Christopher Lee's first film for Hammer, a guest review fr
 >
 > Though they may have grown apart, the Baron remains sure that Paul, a man of science, will aver his story. But with ice in his veins, Paul turns his back on the Baron and leaves the jail with the Baron’s wife on his arm. Years of living in the Baron’s shadow have driven Paul into a self-righteous delusion. In condemning the Baron he seeks to become him by assuming the Baron’s wife and wealth. The Baron, so close to freeing mankind from the shackles of mortality, faces death. **This** is the Curse of Frankenstein.
 
-Thank you, Baron. And I agree, Paul is the worst.
+Thank you, Baron. And I agree, **Paul is the worst.**

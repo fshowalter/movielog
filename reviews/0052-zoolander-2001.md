@@ -9,4 +9,4 @@ venue: iTunes
 venue_notes:
 ---
 
-Ten minutes into this rewatch, I remembered the “freak gasoline fight accident” scene and roared out laughing.
+Ten minutes into this rewatch, I remembered the upcoming “freak gasoline fight accident” scene and roared out laughing.

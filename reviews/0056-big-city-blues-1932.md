@@ -9,7 +9,7 @@ venue: Watch TCM
 venue_notes:
 ---
 
-I watched _Big City Blues_ because it features an early, uncredited performance from Humphrey Bogart. Given the film's obscurity, my expectations were low.
+I watched _Big City Blues_ because it features an early, uncredited performance from **Humphrey Bogart**. Given the film's obscurity, my expectations were low.
 
 <!-- end -->
 

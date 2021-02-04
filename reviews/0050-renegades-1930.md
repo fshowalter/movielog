@@ -9,4 +9,4 @@ venue: VHS-rip
 venue_notes:
 ---
 
-Another strong pre-<span data-imdb-id="tt0021814">_Dracula_</span> performance from Bela Lugosi. He plays a sheik backing Warner Baxter's Dirty Dozen-esque band of French Foreign Legion deserters in North Africa. Baxter builds a formidable force but can't shake his grudge against vamp Myrna Loy. Commanding performances from Loy and Lugosi make for a better-than-expected viewing experience.
+**Another strong pre-<span data-imdb-id="tt0021814">_Dracula_</span> performance from Bela Lugosi.** He plays a sheik backing Warner Baxter's _Dirty Dozen_-esque band of French Foreign Legion deserters in North Africa. Baxter builds a formidable force but can't shake his grudge against vamp Myrna Loy. Commanding performances from Loy and Lugosi make for a better-than-expected viewing experience.
