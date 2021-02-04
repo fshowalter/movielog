@@ -9,4 +9,4 @@ venue: Shudder
 venue_notes:
 ---
 
-So-bad-it's-good shlock sees Hy Pyke masterminding a satanic cult in rural California. He's out to initiate his incestuous son on Halloween night. '80s fashions, nice location photography, and Pyke's grand-camp performance buoy the wooden acting and specious plotting. Not for everyone, but lots of fun.
+**So-bad-it's-good shlock** sees Hy Pyke masterminding a satanic cult in rural California. He's out to initiate his incestuous son on Halloween night. '80s fashions, nice location photography, and Pyke's grand-camp performance buoy the wooden acting and specious plotting. Not for everyone, but lots of fun.
