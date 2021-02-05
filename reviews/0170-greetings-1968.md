@@ -6,7 +6,7 @@ title: Greetings (1968)
 grade: D+
 slug: greetings-1968
 venue: Blu-ray
-venue_notes:
+venue_notes: 2018 | Arrow Video
 ---
 
 **Robert De Niro's first credited feature.** He plays one of three New York City twenty-somethings navigating the Vietnam War draft, computer-dating, and JFK conspiracy theories. De Palma structures the film as a series of vignettes, each with its own title card.

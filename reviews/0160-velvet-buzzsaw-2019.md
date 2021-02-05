@@ -9,12 +9,12 @@ venue: Netflix
 venue_notes:
 ---
 
-The creatives behind <span data-imdb-id="tt2872718">_Nightcrawler_</span> reunite for a mix of satire and horror set in the world of high-end contemporary art. Jake Gyllenhaal plays an influential critic jockeying to exploit a batch of cursed artwork.
+The creatives behind <span data-imdb-id="tt2872718">_Nightcrawler_</span> reunite for an anemic mix of satire and horror set in the contemporary art world. Jake Gyllenhaal plays an influential critic jockeying to exploit a batch of cursed artwork.
 
 <!-- end -->
 
-Gyllenhaal's incessant commenting on a funeral's decor choices had me laughing. Ditto the shot of school children tromping bloody footprints over a museum's pristine white floors. But these scenes mark the satire's limit.
+A novel premise, but the film never commits. I loved Gyllenhaal’s incessant commenting on a funeral’s decor choices, and the shot of school children tromping bloody footprints over a museum’s pristine white floors. But the rest of the satire fell flat.
 
-I appreciated the horror's surreal presentation, but the central mystery didn't engage and the atmosphere never attained the level of dread present in better curse stories.
+The horror disappointed as well. I appreciated the surreal presentation, but the central mystery didn’t engage and the atmosphere never attained the level of dread present in better curse stories.
 
-Would a straight satire or horror have yielded better results? I don't know. But with a title like _Velvet Buzzsaw_ this film proves far too restrained.
+I wanted more bite, but this _Buzzsaw_ lacks teeth.
