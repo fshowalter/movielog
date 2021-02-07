@@ -21,4 +21,4 @@ Soon, a black-gloved killer begins picking off victims peripheral to the scam. A
 
 At the local police's urging, the couple turns amateur sleuths, a questionable decision that sees the wife pose nude for a sleazy photographer while her husband idles in the car. When she's inevitably captured and beaten, he's laughably unconcerned.
 
-This all plays out as an over-the-top cross between Scooby-Doo and softcore porn. The end reveal is laugh-out-loud implausible, and the blackmail scenes are borderline pornographic. It's pure exploitation in all it's ridiculous glory and I'll admit, it kept me entertained. If sleazy Giallos are your thing, _Play Motel_ won't disappoint.
+This all plays out as an over-the-top cross between Scooby-Doo and softcore porn. The end reveal is laugh-out-loud implausible, and the blackmail scenes are borderline pornographic. It's pure exploitation in all its ridiculous glory and I'll admit: it kept me entertained. If sleazy Giallos are your thing, _Play Motel_ won't disappoint.

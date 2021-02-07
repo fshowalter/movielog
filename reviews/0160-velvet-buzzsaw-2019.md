@@ -17,4 +17,4 @@ A novel premise, but the film never commits. I loved Gyllenhaal’s incessant co
 
 The horror disappointed as well. I appreciated the surreal presentation, but the central mystery didn’t engage and the atmosphere never attained the level of dread present in better curse stories.
 
-I wanted more bite, but this _Buzzsaw_ lacks teeth.
+...I’m struggling to land this review, so I’ll punt and say I wanted more bite, but this _Buzzsaw_ lacks teeth.

@@ -9,4 +9,4 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Miscast island melodrama has Bogart as the mustachioed, pith helmet-wearing owner of a South Seas pearl harvesting operation. Conflict arises when the natives refuse to work, and shipwrecked stranger Woods falls for Bogart's wife. Bogart's giant octopus fight had me laughing. The ridiculous, exposition-laden finale even more so.
+Miscast island melodrama has Bogart as the mustachioed, pith helmet-wearing owner of a South Seas pearl harvesting operation. Conflict arises when the natives refuse to work, and shipwrecked stranger Donald Woods falls for Bogart's wife. Bogart's giant octopus fight had me laughing. The ridiculous, exposition-laden finale even more so.
