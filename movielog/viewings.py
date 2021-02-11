@@ -63,10 +63,13 @@ class Viewing(object):
         )
 
     def ensure_file_path(self) -> str:
+        if not self.sequence:
+            self.sequence = has_sequence.next_sequence(type(self).load_all())
+
         file_path = self.file_path
 
         if not file_path:
-            file_name = f"{self.sequence:04} {self.title}"
+            file_name = "{0:04} {1}".format(self.sequence, self.title)
             slug = slugify(file_name, replacements=[("'", "")])
             file_path = os.path.join(FOLDER_PATH, "{0}.json".format(slug))
 
@@ -81,8 +84,6 @@ class Viewing(object):
         return viewing_dict
 
     def save(self) -> str:
-        if not self.sequence:
-            self.sequence = has_sequence.next_sequence(type(self).load_all())
 
         file_path = self.ensure_file_path()
 
@@ -114,13 +115,11 @@ class ViewingsTable(db.Table):
         ddl = """
           INSERT INTO {0}(movie_imdb_id, date, sequence, venue)
           VALUES(:imdb_id, :date, :sequence, :venue);
-        """.format(
-            cls.table_name
-        )
+        """
 
         parameter_seq = [asdict(viewing) for viewing in viewings]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=parameter_seq)
         cls.add_index(SEQUENCE)
         cls.add_index("venue")
         cls.add_index("movie_imdb_id")

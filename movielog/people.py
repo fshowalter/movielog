@@ -67,11 +67,12 @@ class PeopleTable(db.Table):
                 :death_year,
                 :primary_profession,
                 :known_for_title_ids)
-        """.format(
-            cls.table_name
-        )
+        """
 
-        cls.insert(ddl=ddl, parameter_seq=[asdict(person) for person in people])
+        cls.insert(
+            ddl=ddl.format(cls.table_name),
+            parameter_seq=[asdict(person) for person in people],
+        )
         cls.add_index("full_name")
         cls.validate(people)
 

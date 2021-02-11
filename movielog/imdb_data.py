@@ -303,9 +303,7 @@ class DirectingCreditsTable(db.Table):
         ddl = """
         INSERT INTO {0} (movie_imdb_id, person_imdb_id, sequence, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :sequence, :notes);
-        """.format(
-            cls.table_name
-        )
+        """
 
         credit_entries = [
             dict(asdict(credit), movie_imdb_id=movie.imdb_id)
@@ -313,7 +311,7 @@ class DirectingCreditsTable(db.Table):
             for credit in movie.directors
         ]
 
-        cls.insert(ddl=ddl, parameter_seq=credit_entries)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=credit_entries)
         cls.add_index("person_imdb_id")
         cls.validate(credit_entries)
 
@@ -339,9 +337,7 @@ class WritingCreditsTable(db.Table):
         ddl = """
         INSERT INTO {0} (movie_imdb_id, person_imdb_id, group_id, sequence, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :group_id, :sequence, :notes);
-        """.format(
-            cls.table_name
-        )
+        """
 
         credit_entries = [
             dict(asdict(credit), movie_imdb_id=movie.imdb_id)
@@ -349,7 +345,7 @@ class WritingCreditsTable(db.Table):
             for credit in movie.writers
         ]
 
-        cls.insert(ddl=ddl, parameter_seq=credit_entries)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=credit_entries)
         cls.add_index("person_imdb_id")
         cls.validate(credit_entries)
 
@@ -375,9 +371,7 @@ class PerformingCreditsTable(db.Table):
         ddl = """
         INSERT INTO {0}(movie_imdb_id, person_imdb_id, sequence, roles, notes)
         VALUES(:movie_imdb_id, :person_imdb_id, :sequence, :role_string, :notes);
-        """.format(
-            cls.table_name
-        )
+        """
 
         credit_entries = [
             dict(credit.as_dict(), movie_imdb_id=movie.imdb_id)
@@ -385,7 +379,7 @@ class PerformingCreditsTable(db.Table):
             for credit in movie.performers
         ]
 
-        cls.insert(ddl=ddl, parameter_seq=credit_entries)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=credit_entries)
         cls.add_index(MOVIE_IMDB_ID)
         cls.add_index(PERSON_IMDB_ID)
         cls.validate(credit_entries)
@@ -409,12 +403,10 @@ class ReleaseDatesTable(db.Table):
         ddl = """
         INSERT INTO {0}(movie_imdb_id, release_date, notes)
         VALUES(:imdb_id, :release_date, :release_date_notes);
-        """.format(
-            cls.table_name
-        )
+        """
 
         cls.insert(
-            ddl=ddl,
+            ddl=ddl.format(cls.table_name),
             parameter_seq=[asdict(movie) for movie in movies],
         )
         cls.add_index(MOVIE_IMDB_ID)
@@ -438,9 +430,7 @@ class CountriesTable(db.Table):
         ddl = """
         INSERT INTO {0}(movie_imdb_id, country)
         VALUES(:movie_imdb_id, :country);
-        """.format(
-            cls.table_name
-        )
+        """
 
         countries = [
             {"movie_imdb_id": movie.imdb_id, "country": country}
@@ -449,7 +439,7 @@ class CountriesTable(db.Table):
         ]
 
         cls.insert(
-            ddl=ddl,
+            ddl=ddl.format(cls.table_name),
             parameter_seq=countries,
         )
         cls.add_index(MOVIE_IMDB_ID)
@@ -473,12 +463,10 @@ class SortTitlesTable(db.Table):
         ddl = """
         INSERT INTO {0}(movie_imdb_id, sort_title)
         VALUES(:imdb_id, :sort_title);
-        """.format(
-            cls.table_name
-        )
+        """
 
         cls.insert(
-            ddl=ddl,
+            ddl=ddl.format(cls.table_name),
             parameter_seq=[asdict(movie) for movie in movies],
         )
         cls.add_index(MOVIE_IMDB_ID)

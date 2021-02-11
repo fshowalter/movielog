@@ -108,11 +108,15 @@ class Review(object):
         return review
 
     def ensure_file_path(self) -> str:
+        if not self.sequence:
+            self.sequence = has_sequence.next_sequence(type(self).load_all())
+
         file_path = self.file_path
 
         if not file_path:
             file_name = slugify(
-                f"{self.sequence:04} {self.title}", replacements=[("'", EMPTY_STRING)]
+                "{0:04d} {1}".format(self.sequence, self.title),
+                replacements=[("'", EMPTY_STRING)],
             )
             file_path = os.path.join(FOLDER_PATH, "{0}.md".format(file_name))
 
@@ -134,9 +138,6 @@ class Review(object):
         }
 
     def save(self) -> str:
-        if not self.sequence:
-            self.sequence = has_sequence.next_sequence(type(self).load_all())
-
         file_path = self.ensure_file_path()
 
         stripped_content = str(self.review_content or "").strip()
@@ -191,13 +192,11 @@ class ReviewsTable(db.Table):
         ddl = """
           INSERT INTO {0}(movie_imdb_id, date, sequence, grade, grade_value, slug, venue)
           VALUES(:imdb_id, :date, :sequence, :grade, :grade_value, :slug, :venue);
-        """.format(
-            cls.table_name
-        )
+        """
 
         parameter_seq = [asdict(review) for review in reviews]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=parameter_seq)
         cls.add_index(SEQUENCE)
         cls.add_index("movie_imdb_id")
         cls.validate(reviews)
@@ -254,8 +253,7 @@ class Exporter(object):
     def fetch_reviews(cls) -> List[Dict[str, Any]]:
         reviews = []
 
-        rows = db.exec_query(
-            """
+        query = """
             SELECT
             DISTINCT(reviews.movie_imdb_id) AS imdb_id
             , title
@@ -275,8 +273,9 @@ class Exporter(object):
             INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
             INNER JOIN sort_titles ON reviews.movie_imdb_id = sort_titles.movie_imdb_id
             ORDER BY sort_title ASC;
-            """
-        )  # noqa: WPS355
+        """
+
+        rows = db.exec_query(query)
 
         for row in rows:
             reviews.append(dict(row))
@@ -285,17 +284,15 @@ class Exporter(object):
 
     @classmethod
     def fetch_directors_for_title_id(cls, title_imdb_id: str) -> List[Dict[str, Any]]:
-        rows = db.exec_query(
-            """
-                SELECT
-                full_name
-                FROM people
-                INNER JOIN directing_credits ON person_imdb_id = imdb_id
-                WHERE movie_imdb_id = "{0}";
-                """.format(
-                title_imdb_id
-            )
-        )
+        query = """
+            SELECT
+            full_name
+            FROM people
+            INNER JOIN directing_credits ON person_imdb_id = imdb_id
+            WHERE movie_imdb_id = "{0}";
+        """
+
+        rows = db.exec_query(query.format(title_imdb_id))
 
         directors = []
 
@@ -306,16 +303,14 @@ class Exporter(object):
 
     @classmethod
     def fetch_countries_for_title_id(cls, title_imdb_id: str) -> List[str]:
-        rows = db.exec_query(
-            """
-                SELECT
-                country
-                FROM countries
-                WHERE movie_imdb_id = "{0}";
-                """.format(
-                title_imdb_id
-            )
-        )
+        query = """
+            SELECT
+            country
+            FROM countries
+            WHERE movie_imdb_id = "{0}";
+        """
+
+        rows = db.exec_query(query.format(title_imdb_id))
 
         return [row["country"] for row in rows]
 
@@ -323,21 +318,19 @@ class Exporter(object):
     def fetch_aka_titles_for_title_id(
         cls, title_imdb_id: str, title: str, original_title: str
     ) -> List[Dict[str, Any]]:
-        rows = db.exec_query(
-            """
-                SELECT
-                title
-                FROM aka_titles
-                WHERE region = "US"
-                AND movie_imdb_id = "{0}"
-                AND title != "{1}"
-                AND (attributes IS NULL
-                    OR (attributes NOT LIKE "%working title%"
-                    AND attributes NOT LIKE "%alternative spelling%"));
-                """.format(  # noqa: WPS323
-                title_imdb_id, title
-            )
-        )
+        query = """
+            SELECT
+            title
+            FROM aka_titles
+            WHERE region = "US"
+            AND movie_imdb_id = "{0}"
+            AND title != "{1}"
+            AND (attributes IS NULL
+                OR (attributes NOT LIKE "%working title%"
+                AND attributes NOT LIKE "%alternative spelling%"));
+        """  # noqa: WPS323
+
+        rows = db.exec_query(query.format(title_imdb_id, title))
 
         aka_titles = []
 
@@ -354,21 +347,17 @@ class Exporter(object):
     def fetch_principal_cast(
         cls, principal_cast_ids_with_commas: str
     ) -> List[Dict[str, Any]]:
+        query = """
+            SELECT
+            full_name
+            FROM people
+            WHERE imdb_id = "{0}";
+        """
+
         principal_cast = []
 
-        principal_cast_ids = principal_cast_ids_with_commas.split(",")
-
-        for principal_cast_id in principal_cast_ids:
-            rows = db.exec_query(
-                """
-                SELECT
-                full_name
-                FROM people
-                WHERE imdb_id = "{0}";
-                """.format(
-                    principal_cast_id
-                )
-            )
+        for principal_cast_id in principal_cast_ids_with_commas.split(","):
+            rows = db.exec_query(query.format(principal_cast_id))
 
             for row in rows:
                 principal_cast.append(dict(row))

@@ -32,7 +32,7 @@ ratings_by_release_year_query = """
 
 
 def most_watched_query(person_type: str) -> str:
-    return """
+    query = """
       SELECT
           full_name
         , count({0}_credits.person_imdb_id) AS count
@@ -46,9 +46,9 @@ def most_watched_query(person_type: str) -> str:
       ORDER BY
           count DESC
       LIMIT 10;
-    """.format(  # noqa: S608
-        person_type
-    )
+    """
+
+    return query.format(person_type)
 
 
 def write_results(
@@ -79,7 +79,7 @@ class HighestRated(object):
 
     @classmethod
     def query(cls, credit_type: str) -> str:
-        return """
+        query = """
             SELECT
                 full_name, GROUP_CONCAT(reviews.grade_value) as ratings,
               count(reviews.sequence) as count
@@ -90,9 +90,9 @@ class HighestRated(object):
               OR notes != "(uncredited)"
             GROUP BY
                 (person_imdb_id);
-        """.format(  # noqa: S608
-            credit_type
-        )
+        """
+
+        return query.format(credit_type)
 
     @classmethod
     def compute(cls, credit_type: str, filename: str) -> None:

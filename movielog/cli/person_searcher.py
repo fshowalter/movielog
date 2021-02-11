@@ -6,7 +6,7 @@ from movielog.cli import query_formatter
 
 
 @dataclass
-class Result(object):
+class SearchResult(object):
     __slots__ = (
         "imdb_id",
         "name",
@@ -19,7 +19,7 @@ class Result(object):
     known_for_titles: List[str]
 
     @classmethod
-    def from_query_result(cls, row: Dict[str, str]) -> "Result":
+    def from_query_result(cls, row: Dict[str, str]) -> "SearchResult":
         return cls(
             imdb_id=row["imdb_id"],
             name=row["full_name"],
@@ -28,46 +28,40 @@ class Result(object):
         )
 
 
-def search_directors_by_name(name: str, limit: int = 10) -> List[Result]:
+def search_directors_by_name(name: str, limit: int = 10) -> List[SearchResult]:
     query = query_formatter.add_wildcards(name)
 
     full_query = """
         SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-        """.format(  # noqa: S608
-        query, limit
-    )
+    """
 
-    return execute_search(full_query)
+    return execute_search(full_query.format(query, limit))
 
 
-def search_performers_by_name(name: str, limit: int = 10) -> List[Result]:
+def search_performers_by_name(name: str, limit: int = 10) -> List[SearchResult]:
     query = query_formatter.add_wildcards(name)
 
     full_query = """
         SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-        """.format(  # noqa: S608
-        query, limit
-    )
+    """
 
-    return execute_search(full_query)
+    return execute_search(full_query.format(query, limit))
 
 
-def search_writers_by_name(name: str, limit: int = 10) -> List[Result]:
+def search_writers_by_name(name: str, limit: int = 10) -> List[SearchResult]:
     query = query_formatter.add_wildcards(name)
 
     full_query = """
         SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-        """.format(  # noqa: S608
-        query, limit
-    )
+    """
 
-    return execute_search(full_query)
+    return execute_search(full_query.format(query, limit))
 
 
-def execute_search(query: str) -> List[Result]:
+def execute_search(query: str) -> List[SearchResult]:
     with db.connect() as connection:
         search_results = fetch_results(connection, query)
         resolve_known_for_titles(connection, search_results)
@@ -75,21 +69,21 @@ def execute_search(query: str) -> List[Result]:
     return search_results
 
 
-def fetch_results(connection: db.Connection, query: str) -> List[Result]:
+def fetch_results(connection: db.Connection, query: str) -> List[SearchResult]:
     cursor = connection.cursor()
     rows = cursor.execute(query).fetchall()
 
-    search_results: List[Result] = []
+    search_results: List[SearchResult] = []
 
     for row in rows:
-        search_result = Result.from_query_result(row)
+        search_result = SearchResult.from_query_result(row)
         search_results.append(search_result)
 
     return search_results
 
 
 def resolve_known_for_titles(
-    connection: db.Connection, search_results: List[Result]
+    connection: db.Connection, search_results: List[SearchResult]
 ) -> None:
     title_cache = build_title_cache(
         connection=connection, search_results=search_results
@@ -103,22 +97,22 @@ def resolve_known_for_titles(
 
 
 def build_title_cache(
-    connection: db.Connection, search_results: List[Result]
+    connection: db.Connection, search_results: List[SearchResult]
 ) -> Dict[str, str]:
+    query = """
+        SELECT imdb_id, title FROM movies where imdb_id IN ({0});
+    """
+
     cursor = connection.cursor()
 
     rows = cursor.execute(
-        """
-        SELECT imdb_id, title FROM movies where imdb_id IN ({0});
-        """.format(  # noqa: S608
-            format_known_for_title_ids(search_results)
-        ),
+        query.format(format_known_for_title_ids(search_results)),
     ).fetchall()
 
     return {row["imdb_id"]: row["title"] for row in rows}
 
 
-def format_known_for_title_ids(search_results: List[Result]) -> str:
+def format_known_for_title_ids(search_results: List[SearchResult]) -> str:
     title_ids: List[str] = []
 
     for search_result in search_results:

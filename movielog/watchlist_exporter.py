@@ -101,27 +101,25 @@ class EntitiesExporter(object):
     def fetch_person_stats(cls, person_type: str) -> Sequence[PersonStats]:
         stats = []
 
-        person_rows = db.exec_query(
-            """
-                SELECT
-                    {0}s.imdb_id AS 'imdb_id'
-                , {0}s.full_name AS 'name'
-                , count(movies.imdb_id) AS 'title_count'
-                , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
-                , watchlist.slug
-                FROM watchlist
-                LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
-                LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
-                LEFT JOIN people AS {0}s ON {0}_imdb_id = {0}s.imdb_id
-                WHERE {0}_imdb_id IS NOT NULL
-                GROUP BY
-                    {0}_imdb_id
-                ORDER BY
-                    {0}s.full_name;
-            """.format(
-                person_type
-            )
-        )  # noqa: WPS355
+        query = """
+            SELECT
+                {0}s.imdb_id AS 'imdb_id'
+            , {0}s.full_name AS 'name'
+            , count(movies.imdb_id) AS 'title_count'
+            , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
+            , watchlist.slug
+            FROM watchlist
+            LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
+            LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
+            LEFT JOIN people AS {0}s ON {0}_imdb_id = {0}s.imdb_id
+            WHERE {0}_imdb_id IS NOT NULL
+            GROUP BY
+                {0}_imdb_id
+            ORDER BY
+                {0}s.full_name;
+        """
+
+        person_rows = db.exec_query(query.format(person_type))
 
         for person_row in person_rows:
             stats.append(cls.build_person_stats(person_row, person_type))
@@ -131,14 +129,12 @@ class EntitiesExporter(object):
     @classmethod
     def fetch_collection_stats(cls) -> Sequence[CollectionStats]:
         stats = []
-
-        collection_rows = db.exec_query(
-            """
+        query = """
             SELECT
                 collection_name AS 'name'
-              , count(movies.imdb_id) AS 'title_count'
-              , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
-              , watchlist.slug
+                , count(movies.imdb_id) AS 'title_count'
+                , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
+                , watchlist.slug
             FROM watchlist
             LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
             LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
@@ -147,8 +143,9 @@ class EntitiesExporter(object):
                 collection_name
             ORDER BY
                 collection_name;
-          """
-        )  # noqa: WPS355
+        """
+
+        collection_rows = db.exec_query(query)
 
         for collection_row in collection_rows:
             stats.append(cls.build_collection_stats(collection_row))
@@ -192,9 +189,7 @@ class MoviesExporter(object):
     @classmethod
     def export(cls) -> None:
         logger.log("==== Begin exporting {}...", "watchlist movies")
-
-        rows = db.exec_query(
-            """
+        query = """
             SELECT
             movies.imdb_id
             , title
@@ -220,7 +215,8 @@ class MoviesExporter(object):
                 release_date ASC
             , movies.imdb_id ASC;
         """
-        )  # noqa: WPS355
+
+        rows = db.exec_query(query)
 
         movies: Dict[str, Movie] = {}
 

@@ -81,13 +81,12 @@ class AkaTitlesTable(db.Table):
                 :language,
                 :types,
                 :attributes,
-                :is_original_title);""".format(
-            cls.table_name
-        )
+                :is_original_title);
+        """
 
         parameter_seq = [asdict(aka_title) for aka_title in aka_titles]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=parameter_seq)
         cls.add_index("title")
         cls.validate(aka_titles)
 

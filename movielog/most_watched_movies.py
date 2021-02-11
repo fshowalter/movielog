@@ -64,36 +64,34 @@ class MovieYearStats(object):
     @classmethod
     def fetch_countries(cls, movie_imdb_id: str) -> List[str]:
         query = """
-        SELECT
-            country
-        FROM countries
-        WHERE movie_imdb_id="{0}"
-        """.format(
-            movie_imdb_id
-        )
+            SELECT
+                country
+            FROM countries
+            WHERE movie_imdb_id="{0}"
+        """
 
-        rows = db.exec_query(query)
+        rows = db.exec_query(query.format(movie_imdb_id))
 
         return [row["country"] for row in rows]
 
     @classmethod
     def fetch_viewings(cls) -> List[Viewing]:
         query = """
-        SELECT
-            viewings.sequence
-        , movies.title
-        , movies.year
-        , movies.imdb_id
-        , slug
-        , strftime('%Y', viewings.date) AS viewing_year
-        , substr(movies.year, 1, 3) || '0s' AS movie_decade
-        , viewings.date
-        , viewings.venue
-        FROM viewings
-        INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
-        LEFT JOIN reviews ON reviews.movie_imdb_id = movies.imdb_id
-        ORDER BY
-            viewing_year
+            SELECT
+                viewings.sequence
+            , movies.title
+            , movies.year
+            , movies.imdb_id
+            , slug
+            , strftime('%Y', viewings.date) AS viewing_year
+            , substr(movies.year, 1, 3) || '0s' AS movie_decade
+            , viewings.date
+            , viewings.venue
+            FROM viewings
+            INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
+            LEFT JOIN reviews ON reviews.movie_imdb_id = movies.imdb_id
+            ORDER BY
+                viewing_year
         """
 
         rows = db.exec_query(query)
