@@ -17,6 +17,6 @@ Tracy befriends another convict played by Bogart who's nearing parole. Bogie's s
 
 The sound era created a demand for stars capable of delivering dialogue and Hollywood turned to stage actors to fill the gap. Many struggled with the more intimate medium, uncomfortable with the camera or unable to modulate their delivery. Hence, many films of this era feel stagy.
 
-In contrast to these stiff, theatrical performances, Tracy's charismatic, natural turn is all effortless charm. Ford helps. Rather than stand and deliver lines, Ford has Tracy tossing a baseball, fidgeting with the warden’s cigar case, playing with a knife--always something to keep him moving.
+In contrast to these stiff, theatrical performances, Tracy's turn is all effortless charm. Ford helps. Rather than stand and deliver lines, Ford has Tracy tossing a baseball, fidgeting with the warden’s cigar case, playing with a knife--always something to keep him moving.
 
 The iTunes print is spliced together from multiple sources, replete with sound and frame drops, and numerous scratches. Sadly, it's the best quality available. That said, for fans of Tracy or Ford, it's worth seeking out. And look fast for Ward Bond as a bat-toting inmate.
