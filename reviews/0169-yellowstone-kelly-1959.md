@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes:
 ---
 
-**Warren Oates' debut.** The story centers on the titular Kelly, a trapper played by Clint Walker who finds himself caught between a Sioux tribe, the US Army, and an alluring Arapahoe hostage.
+**Warren Oates' first credited feature.** The story centers on the titular Kelly, a trapper played by Clint Walker who finds himself caught between a Sioux tribe, the US Army, and an alluring Arapahoe hostage.
 
 <!-- end -->
 

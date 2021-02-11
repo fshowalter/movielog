@@ -9,11 +9,11 @@ venue: Blu-ray
 venue_notes: 2011 | 20th Century Fox
 ---
 
-How does an X-Men movie set in 1962 **without Wolverine** work?
+How does an _X-Men_ movie set in 1962 **without Wolverine** work?
 
 <!-- end -->
 
-You could posit it's because of the cast. Michael Fassbender rivets as Erik Lensherr, a holocaust survivor bent on revenge. Jennifer Lawrence conjures the right combination of vulnerability and sexuality in her role as Raven/Mystique, and James McAvoy crushes it as Charles Xavier.
+You could posit it's because of the cast. Michael Fassbender rivets as Erik Lensherr, a holocaust survivor bent on revenge. Jennifer Lawrence conjures the right combination of vulnerability and sexuality in her role as Raven/Mystique, and James McAvoy charms as Charles Xavier.
 
 Or, you could say it takes a cue from <span data-imdb-id="tt0468569">_The Dark Knight_</span>, and grounds everything in a plausible reality. Costumes? Nope, they're flight suits designed to withstand G-forces. Super powers? Nope, they're mutations, a natural part of evolution accelerated by the atomic age. Super villains? Nope, just a sociopath championing disenfranchised outcasts.
 
@@ -27,4 +27,4 @@ Erik turns to Charles, “I've been at the mercy of men just following orders…
 
 Thus begins the split between Erik and Charles, one that culminates with the mutants choosing sides, some departing with Erik, some remaining with Charles. It's a powerful scene that left me wondering: would I have gone with Erik… or stayed with Charles?
 
-And **that's** why this movie works.
+And **that's** why this movie works. (And I'm hoping the Blu-ray commentary explains why Fassbender reverts to his native Irish accent during the finale.)
