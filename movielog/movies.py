@@ -81,10 +81,8 @@ class Movie(object):
             return False
 
         genres = set(str(fields[8]).split(","))
-        if "Documentary" in genres:
-            return False
 
-        return True
+        return "Documentary" not in genres
 
     def as_dict(self) -> Dict[str, OptionalStringOrInt]:
         return {
@@ -192,10 +190,12 @@ class MoviesTable(db.Table):
         ddl = """
           INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes, principal_cast_ids)
           VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes, :principal_cast_ids);
-        """.format(
-            cls.table_name
+        """
+
+        cls.insert(
+            ddl=ddl.format(cls.table_name),
+            parameter_seq=[movie.as_dict() for movie in movies],
         )
-        cls.insert(ddl=ddl, parameter_seq=[movie.as_dict() for movie in movies])
         cls.add_index("title")
         cls.validate(movies)
 

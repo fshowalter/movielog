@@ -56,13 +56,11 @@ class WatchlistTable(db.Table):
               :writer_imdb_id,
               :collection_name,
               :slug);
-        """.format(
-            TABLE_NAME
-        )
+        """
 
         parameter_seq = [asdict(title) for title in titles]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl.format(TABLE_NAME), parameter_seq=parameter_seq)
         cls.add_index("movie_imdb_id")
         cls.add_index("director_imdb_id")
         cls.add_index("performer_imdb_id")

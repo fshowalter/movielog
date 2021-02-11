@@ -120,7 +120,7 @@ def build_venue_options() -> List[Option]:
     options: List[Option] = []
 
     for venue in venues:
-        option = (venue, f"<cyan>{html.escape(venue)}</cyan>")
+        option = (venue, "<cyan>{0}</cyan>".format(html.escape(venue)))
         options.append(option)
 
     options.append((None, "New venue"))
@@ -133,7 +133,7 @@ def new_venue() -> Optional[str]:
 
 
 def is_grade(text: str) -> bool:
-    return bool(re.match(r"[a-d|A-D|f|F][+|-]?", text))
+    return bool(re.match("[a-d|A-D|f|F][+|-]?", text))
 
 
 def ask_for_grade(imdb_id: str) -> Optional[str]:

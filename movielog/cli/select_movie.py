@@ -5,11 +5,11 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 
 from movielog.cli import ask, confirm, movie_searcher, radio_list
 
-Result = movie_searcher.Result
-Option = Tuple[Optional[Result], AnyFormattedText]
+SearchResult = movie_searcher.SearchResult
+Option = Tuple[Optional[SearchResult], AnyFormattedText]
 
 
-def prompt(prompt_text: str = "Title: ") -> Optional[Result]:
+def prompt(prompt_text: str = "Title: ") -> Optional[SearchResult]:
     movie = None
 
     while movie is None:
@@ -29,13 +29,13 @@ def prompt(prompt_text: str = "Title: ") -> Optional[Result]:
     if not movie:
         return None
 
-    if confirm.prompt((f"{result_to_html_string(movie)}?")):
+    if confirm.prompt(("{0}?".format(result_to_html_string(movie)))):
         return movie
 
     return prompt(prompt_text)
 
 
-def result_to_html_string(search_result: Result) -> str:
+def result_to_html_string(search_result: SearchResult) -> str:
     return "<cyan>{0} ({1})</cyan> ({2})".format(
         html.escape(search_result.title),
         search_result.year,
@@ -45,7 +45,7 @@ def result_to_html_string(search_result: Result) -> str:
     )
 
 
-def build_options(search_results: Sequence[Result]) -> Sequence[Option]:
+def build_options(search_results: Sequence[SearchResult]) -> Sequence[Option]:
     options: List[Option] = [(None, "Search again")]
 
     for search_result in search_results:

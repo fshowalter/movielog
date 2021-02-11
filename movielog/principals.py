@@ -68,13 +68,12 @@ class PrincipalsTable(db.Table):
                 :sequence,
                 :category,
                 :job,
-                :characters)""".format(  # noqa: S608
-            cls.table_name
-        )
+                :characters)
+        """
 
         parameter_seq = [asdict(principal) for principal in principals]
 
-        cls.insert(ddl=ddl, parameter_seq=parameter_seq)
+        cls.insert(ddl=ddl.format(cls.table_name), parameter_seq=parameter_seq)
         cls.add_index("category")
         cls.validate(principals)
 

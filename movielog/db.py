@@ -46,15 +46,12 @@ class Table(abc.ABC):
 
     @classmethod
     def add_index(cls, column: str) -> None:
+        script = """
+            DROP INDEX IF EXISTS "index_{0}_on_{1}";
+            CREATE INDEX "index_{0}_on_{1}" ON "{0}" ("{1}");
+        """
         with connect() as connection:
-            connection.executescript(
-                """
-                DROP INDEX IF EXISTS "index_{0}_on_{1}";
-                CREATE INDEX "index_{0}_on_{1}" ON "{0}" ("{1}");
-                """.format(
-                    cls.table_name, column
-                ),
-            )
+            connection.executescript(script.format(cls.table_name, column))
 
     @classmethod
     def validate(cls, collection: Sized) -> None:
@@ -89,13 +86,11 @@ class Table(abc.ABC):
     def delete(cls, key: str, ids: Sequence[str]) -> None:
         ddl = """
             DELETE FROM {0} WHERE {1} IN ({2});
-        """.format(  # noqa: S608
-            cls.table_name, key, cls.format_ids(ids)
-        )
+        """
 
         with connect() as connection:
             with transaction(connection):
-                connection.execute(ddl)
+                connection.execute(ddl.format(cls.table_name, key, cls.format_ids(ids)))
                 logger.log(
                     "Deleted {} rows from {}...",
                     humanize.intcomma(len(ids)),

@@ -72,39 +72,41 @@ class PersonYearStats(object):
 
     @classmethod
     def fetch_viewings_query(cls, credit_table: str, credit_table_key: str) -> str:
-        return """
-        SELECT
-          viewings.sequence
-        , movies.title
-        , movies.year
-        , movies.imdb_id
-        , strftime('%Y', viewings.date) AS viewing_year
-        , substr(movies.year, 1, 3) || '0s' AS movie_decade
-        , viewings.date
-        , viewings.venue
-        , person_imdb_id
-        , full_name
-        , watchlist.slug AS person_slug
-        , reviews.slug AS review_slug
-        FROM viewings
-        LEFT JOIN movies ON viewings.movie_imdb_id = movies.imdb_id
-        LEFT JOIN {0} ON {0}.movie_imdb_id = viewings.movie_imdb_id
-        LEFT JOIN people ON person_imdb_id = people.imdb_id
-        LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
-        LEFT JOIN (
+        query = """
             SELECT
-                reviews.movie_imdb_id
-            , {1}
-            , watchlist.slug
-            FROM reviews
-            INNER JOIN watchlist ON reviews.movie_imdb_id = watchlist.movie_imdb_id
-            GROUP BY {1}
-        ) AS watchlist ON watchlist.{1} = person_imdb_id
-        WHERE {2}
-        GROUP BY
             viewings.sequence
+            , movies.title
+            , movies.year
+            , movies.imdb_id
+            , strftime('%Y', viewings.date) AS viewing_year
+            , substr(movies.year, 1, 3) || '0s' AS movie_decade
+            , viewings.date
+            , viewings.venue
             , person_imdb_id
-        """.format(
+            , full_name
+            , watchlist.slug AS person_slug
+            , reviews.slug AS review_slug
+            FROM viewings
+            LEFT JOIN movies ON viewings.movie_imdb_id = movies.imdb_id
+            LEFT JOIN {0} ON {0}.movie_imdb_id = viewings.movie_imdb_id
+            LEFT JOIN people ON person_imdb_id = people.imdb_id
+            LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
+            LEFT JOIN (
+                SELECT
+                    reviews.movie_imdb_id
+                , {1}
+                , watchlist.slug
+                FROM reviews
+                INNER JOIN watchlist ON reviews.movie_imdb_id = watchlist.movie_imdb_id
+                GROUP BY {1}
+            ) AS watchlist ON watchlist.{1} = person_imdb_id
+            WHERE {2}
+            GROUP BY
+                viewings.sequence
+                , person_imdb_id
+        """
+
+        return query.format(
             credit_table, credit_table_key, cls.exclude_person_ids_query_clause()
         )
 
