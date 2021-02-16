@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes:
 ---
 
-**Debut feature for both Spencer Tracy and Humphrey Bogart.** Tracy plays the beloved ace pitcher for a prison's baseball team. He's the sort of inmate who, after returning to prison following a failed escape, assures the warden he'll give notice before his next attempt.
+**Debut feature for both Spencer Tracy and Humphrey Bogart.** Tracy plays the beloved ace pitcher for a prison baseball team. He's the sort of inmate who, after returning to prison following a failed escape, assures the warden he'll give notice before his next attempt.
 
 <!-- end -->
 
