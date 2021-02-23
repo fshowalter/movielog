@@ -15,6 +15,6 @@ venue_notes: 2020 | Shout Factory
 
 The film's realistic style feeds our inner voyeur. We watch the young cast goof-off, fool around, and bond. The dingy camp location evokes the right combination of authenticity and dissonance. When the kills come, Tom Savini's practical effects deliver the goods.
 
-But in the third act the film falters. Cunningham stretches the final-girl beyond her range. She over-emotes and the script seems out of ideas. She incapacitates the killer, only to drop her weapon and run to another hiding spot. Rinse and repeat.
+But in the third act, the film falters. Cunningham stretches the final-girl beyond her range. She over-emotes and the script seems out of ideas. She incapacitates the killer, only to drop her weapon and run to another hiding spot. Rinse and repeat.
 
 The epilogue _almost_ compensates. Dollars to doughnuts, on your first watch, it'll make you jump.
