@@ -9,8 +9,8 @@ venue: OK.ru
 venue_notes:
 ---
 
-Gigolo Powell romances a married older woman and flirts with her daughter played by Lombard. A chance encounter with Francis forces him to reconsider his lifestyle, but perhaps too late.
+William Powell plays a gigolo romancing a married older woman and flirting with her daughter played by Carole Lombard. A chance encounter with a socialite played by Kay Francis forces him to reconsider his lifestyle, but perhaps too late.
 
 <!-- end -->
 
-Powell's sheer charisma overcomes the flimsy plot and his suspect casting. I couldn't buy him as a gigolo, but I _could_ buy him as a con man. Perhaps that's why the dark ending surprised me.
+Powell’s sheer charisma overcomes the flimsy plot and his suspect casting. I couldn’t buy him as a gigolo, but I _could_ buy him as a con man. Perhaps that’s why the dark ending surprised me.
