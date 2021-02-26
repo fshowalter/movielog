@@ -9,11 +9,11 @@ venue: VHS-rip
 venue_notes:
 ---
 
-An early but impressive performance from Viggo Mortensen. A black comedy script indicting America's class gap and televangelism. A visual esthetic inspired by contemporary Italian horror. A nightmarish home-invasion sub-plot. A soundtrack driven by New Order and Arthur Baker. How have I never seen this?
+An early but impressive performance from Viggo Mortensen. A black comedy script indicting America's class gap and televangelism. A visual esthetic inspired by contemporary Italian horror. A nightmarish home-invasion sub-plot. A soundtrack driven by New Order and Arthur Baker. **How have I never seen this?**
 
 <!-- end -->
 
-Answer: it never made it past VHS.
+Because it never made it past VHS.
 
 Probably the music rights. Regardless, this hits all my sweet spots. The plot sees Mortensen and family interject themselves into televangelist Stephen McHattie’s life. It struggles early for the right tone, but once it settles on McHattie’s riveting performance as the Reverend, it shines.
 
