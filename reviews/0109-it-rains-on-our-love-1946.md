@@ -3,7 +3,7 @@ sequence: 109
 date: 2020-12-16
 imdb_id: tt0038468
 title: It Rains on Our Love (1946)
-grade: B+
+grade: B
 slug: it-rains-on-our-love-1946
 venue: DVD
 venue_notes:
