@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2013 | Arrow
 ---
 
-Mario Bava’s directorial debut. A hybrid mystery and mad-scientist picture. In contemporary Paris, young women turn up drained of blood. The press screams vampire. Dario Michaelis plays a reporter determined to uncover the truth. The case leads to his estranged cousin, her gothic castle, and the secrets they hold.
+**Mario Bava’s directorial debut.** A hybrid mystery and mad-scientist picture. In contemporary Paris, young women turn up drained of blood. The press screams vampire. Dario Michaelis plays a reporter determined to uncover the truth. The case leads to his estranged cousin, her gothic castle, and the secrets they hold.
 
 <!-- end -->
 
