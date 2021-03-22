@@ -9,7 +9,7 @@ venue: DVD
 venue_notes:
 ---
 
-Delightful sophomore feature for Ingmar Bergman. Kollberg and Malmsten play two lonely young strangers who sleep together, feel a connection, and strive to build a life together. Bergman's decision to have his mysterious, omniscient narrator--known only as “Man with umbrella"--appear as a character in the story lends a whimsical hue. It presents a biting exposé of the hypocrisy in contemporary Swedish society but never feels cynical. The courtroom finale had me cackling with glee.
+**Ingmar Bergman's delightful sophomore feature.** Barbro Kollberg and Birger Malmsten play two lonely young strangers who sleep together, feel a connection, and strive to build a life together. Bergman's decision to have his omniscient narrator--known only as “Man with umbrella"--appear as a character in the story lends a whimsical hue. It presents a biting exposé of the hypocrisy in contemporary Swedish society but never feels cynical. The courtroom finale had me cackling with glee.
 
 <!-- end -->
 

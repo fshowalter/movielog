@@ -9,4 +9,4 @@ venue: iTunes
 venue_notes:
 ---
 
-No Disney film could have dared the darker, more manic edge this film deserved. Still, Murray’s performance remains entertaining.
+No Disney film could have dared the darker, more manic edge this film deserved. Still, Bill Murray’s performance remains entertaining.
