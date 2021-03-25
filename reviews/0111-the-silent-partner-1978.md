@@ -15,6 +15,6 @@ Imagine you’re a bank teller and discover someone is planning to hold-up your 
 
 That’s the setup and the film doesn’t squander it. The plot layers double-cross atop double-cross--some predictable, others not--but never feels forced or outlandish. It respects our intelligence.
 
-Mascara-clad Plummer chills as the psychotic thief. Gould’s towering stature and confident swagger make him less-than-perfect for the part (Dustin Hoffman would have been ideal) but his innate charisma compensates.
+The cast shines too. Christopher Plummer chills as the psychotic, mascara-clad thief. Gould’s towering stature and confident swagger make him less-than-perfect for his part (Dustin Hoffman would have been ideal) but his innate charisma compensates.
 
-_The Silent Partner_ proved an entertaining watch. It just didn’t stick. I’d love to see a remake scripted by David Mamet.
+My lone complaint lies with the dialog, which doesn't crackle like it should for a film this twisty. It's not a dealbreaker, but I’d love to see a remake scripted by David Mamet.
