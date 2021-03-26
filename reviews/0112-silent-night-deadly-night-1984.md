@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2017 | Shout Factory | Unrated Version
 ---
 
-Come for the sleazy Santa slasher, stay for the toys.
+**Come for the sleazy Santa slasher, stay for the toys.**
 
 <!-- end -->
 
@@ -19,4 +19,4 @@ Flash-forward. A now-grown Billy works as a stock boy in the local toy store. As
 
 Sure, _Silent Night, Deadly Night_ lacks the depth of <span data-imdb-id="tt0071222">_Black Christmas_</span> or <span data-imdb-id="tt0081793">_Christmas Evil_</span>, but it proves entertaining in its own right. It packs a quirky authenticity. The Utah locations evoke the right snowy-small-town atmosphere, and the performances charm despite their awkwardness. The violence--while graphic--remains creative throughout. And at a lean 79 minutes, it doesn’t wear out its welcome.
 
-But for me, the biggest thrill came from the toys littering the store shelves. Mint-in-box _Castle Grayskull_ and _Jabba the Hutt_ action play-sets. _G.I. Joe_ vehicles and costumes. Yes, costumes, from those cardboard packages featuring a clear window to display the mask. I had the green “Dracula” one. Watching the film whisks me back to the toy stores and toy aisles of my youth. Not the thrill the filmmakers intended, but a thrill nonetheless.
+But for me, the biggest thrill came from the toys littering the store shelves. Mint-in-box _Castle Grayskull_ and _Jabba the Hutt_ action play-sets. _G.I. Joe_ vehicles and costumes. Yes, costumes, from those cardboard packages featuring a clear window to display the mask. I had the green “Dracula” one. Watching the film whisks me back to the toy stores of my youth. Not the thrill the filmmakers intended, but a thrill nonetheless.
