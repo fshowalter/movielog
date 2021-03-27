@@ -9,10 +9,14 @@ venue: TCM HD
 venue_notes:
 ---
 
-William Holden's debut. He plays a violin protégé turned boxer, egged on by his manager's mistress, played by Barbara Stanwyk. Lee J. Cobb plays Holden's disappointed father.
+**William Holden’s debut.** He plays a violin protégé turned boxer, egged on by his manager’s mistress, played by Barbara Stanwyck. Lee J. Cobb plays Holden’s disappointed father.
 
-Holden's good. He's got the physicality to pass for a boxer, as well as the sensitivity, and vulnerability, to pass for an artist. He brings a believable naiveté to his part, along with a welcome lack of stage theatrics. And he's got great chemistry with top-billed Stanwyck, who sizzles in her vampy role.
+<!-- end -->
 
-But the film struggles to escape its theatrical origins. The talky script proffers crackling dialogue early, but devolves into stagey monologues. Lee J. Cobb's performance could have captivated from a stage, but film's intimacy renders it emotive and betrays the artiface of the makup used to make the twenty-seven-year-old actor pass for Holden's father.
+I liked Holden in his role. He brings an authentic combination of physicality and sensitivity to the part, along with a welcome lack of theatrics in his character’s impetuous behavior. And he’s got great chemistry with top-billed Stanwyck, who sizzles in her vampy role.
 
-The result proves uneven. For every electric moment between Holden and Stanwyk we get overwraught Cobb playing to the back rows. For every chilling line Joseph Calleia delivers as a mobster, we get pages of monologue from Holden's brother-in-law. A tigher edit would have helped, but as-is Golden Boy proved a frustrating watch.
+But I struggled with the film’s stagey presentation. The talky script proffers crackling dialogue early but devolves into soliloquies. Lee J. Cobb’s performance might have captivated a playhouse, but the camera’s intimacy renders it emotive and betrays the artifice of the twenty-seven-year-old actor playing Holden’s father.
+
+It’s not until the climactic boxing sequence--the only fight sequence the film proffers--that the film shows instead of tells. Shot in a large arena packed with extras as spectators, the bout looks realistic and brutal. It conveys a sense of spectacle a stage production couldn’t match.
+
+So it’s frustrating. For every electric moment between Holden and Stanwyck, we get overwrought Cobb playing to the back rows. For every chilling line Joseph Calleia delivers as a mobster, we get reams of dialogue from Holden’s brother-in-law. A tighter edit might have helped, but as-is _Golden Boy_ disappoints.
