@@ -6,7 +6,7 @@ title: While You Were Sleeping (1995)
 grade: C
 slug: while-you-were-sleeping-1995
 venue: "Disney+"
-venue_notes: 2014 | Hollywood Pictures | 1080p
+venue_notes:
 ---
 
-Lonesome CTA worker Bullock saves the life of handsome stranger Gallagher, then poses as his fiancee as he slumbers in a coma only to find herself falling for his brother, played by Pullman. Fine but forgettable romcom buoyed by the wintery Chicago location photography and carried by Bullock’s innate charm.
+Sandra Bullock plays a lonesome CTA worker who saves handsome stranger Peter Gallagher's life. As he slumbers in a coma, she poses as his fiancee and falls for his brother, played by Bill Pullman. A forgettable romcom buoyed by the wintery Chicago photography and Bullock's ample charm.

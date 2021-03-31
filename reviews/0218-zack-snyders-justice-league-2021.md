@@ -3,7 +3,7 @@ sequence: 218
 date: 2021-03-19
 imdb_id: tt12361974
 title: Zack Snyder's Justice League (2021)
-grade: B-
+grade: B
 slug: zack-snyders-justice-league-2021
 venue: HBO Max
 venue_notes:

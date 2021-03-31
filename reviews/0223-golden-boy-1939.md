@@ -15,7 +15,7 @@ venue_notes:
 
 I liked Holden in his role. He brings an authentic combination of physicality and sensitivity to the part, along with a welcome lack of theatrics in his character’s impetuous behavior. And he’s got great chemistry with top-billed Stanwyck, who sizzles in her vampy role.
 
-But I struggled with the film’s stagey presentation. The talky script proffers crackling dialogue early but devolves into soliloquies. Lee J. Cobb’s performance might have captivated a playhouse, but the camera’s intimacy renders it emotive and betrays the artifice of the twenty-seven-year-old actor playing Holden’s father.
+But I struggled with the film’s stagy presentation. The talky script proffers crackling dialogue early but devolves into soliloquies. Lee J. Cobb’s performance might have captivated a playhouse, but the camera’s intimacy renders it emotive and betrays the artifice of the twenty-seven-year-old actor playing Holden’s father.
 
 It’s not until the climactic boxing sequence--the only fight sequence the film proffers--that the film shows instead of tells. Shot in a large arena packed with extras as spectators, the bout looks realistic and brutal. It conveys a sense of spectacle a stage production couldn’t match.
 

@@ -15,7 +15,7 @@ Would-be social outrage drama sees Edward G. Robinson editing a New York scandal
 
 The uneven effort works best in the newspaper scenes. Robinson dashes out his lines with his trademark delivery, and newcomer Aline MacMahon holds her own as his secretary. The script proves talky, but the occasional zinger makes it passable. Karloff gets the meatiest role of his career thus far, with lots of screen time, including a scene where he plays drunk opposite Robinson.
 
-But for the scenes involving the family implicated in the murder story, the film shifts to stagey melodrama. The performers involved over-emote. The script remains talky, but the dialogue feels stiff and forced. This artifice undermines the film's cynicism, diluting its impact.
+But for the scenes involving the family implicated in the murder story, the film shifts to stagy melodrama. The performers involved over-emote. The script remains talky, but the dialogue feels stiff and forced. This artifice undermines the film's cynicism, diluting its impact.
 
 These disparate tones collide in an overwrought finale that aspires to righteous indignation but lands as theatrical hokum.
 
