@@ -3,10 +3,10 @@ sequence: 170
 date: 2021-02-03
 imdb_id: tt0063036
 title: Greetings (1968)
-grade: D+
+grade: D
 slug: greetings-1968
 venue: Blu-ray
-venue_notes: 2018 | Arrow Video
+venue_notes: "2018 | Arrow Video | De Palma & De Niro: The Early Films"
 ---
 
 **Robert De Niro's first credited feature.** He plays one of three New York City twenty-somethings navigating the Vietnam War draft, computer-dating, and JFK conspiracy theories. De Palma structures the film as a series of vignettes, each with its own title card.
