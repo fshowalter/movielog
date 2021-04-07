@@ -3,7 +3,7 @@ sequence: 216
 date: 2021-03-17
 imdb_id: tt0094862
 title: Child's Play (1988)
-grade: C
+grade: C-
 slug: childs-play-1988
 venue: Blu-ray
 venue_notes: 2017 | Universal Studios
