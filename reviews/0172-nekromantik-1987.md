@@ -3,7 +3,7 @@ sequence: 172
 date: 2021-02-05
 imdb_id: tt0093608
 title: Nekromantik (1987)
-grade: D
+grade: D-
 slug: nekromantik-1987
 venue: Blu-ray
 venue_notes:
