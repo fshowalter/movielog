@@ -106,6 +106,9 @@ jobs:
             https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
 
           # Optional
+          config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
+
+          # Optional
           files: reviews
         env:
           # Required
