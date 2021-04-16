@@ -13,7 +13,7 @@ A single mother gifts a lifelike doll to her son for his birthday, unaware the t
 
 <!-- end -->
 
-Chris Sarandon plays the Chicago cop with a shakey accent who believes he killed the aforementioned serial killer. Out for revenge, the doll attacks Sarandon in his car. The seamless combination of human and animatronic shots that bring the doll to life on screen hold up well today.
+Chris Sarandon plays the Chicago cop with a shaky accent who believes he killed the aforementioned serial killer. Out for revenge, the doll attacks Sarandon in his car. The seamless combination of human and animatronic shots that bring the doll to life on screen hold up well today.
 
 Indeed the production values prove top-notch. Great location photography and I appreciated the subtle use of red noses and visible breath to sell the harsh Chicago winter. And this movie blows up two buildings.
 
