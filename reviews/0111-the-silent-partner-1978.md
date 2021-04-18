@@ -17,4 +17,4 @@ That’s the setup and the film doesn’t squander it. The plot layers double-cr
 
 The cast shines too. Christopher Plummer chills as the psychotic, mascara-clad thief. Gould’s towering stature and confident swagger make him less-than-perfect for his part (Dustin Hoffman would have been ideal) but his innate charisma compensates.
 
-My lone complaint lies with the dialogue, which doesn't crackle like it should for a film this twisty. It's not a dealbreaker, but I’d love to see a remake scripted by David Mamet.
+My lone complaint lies with the dialogue, which doesn't crackle like it should for a film this twisty. It's not a deal-breaker, but I’d love to see a remake scripted by David Mamet.
