@@ -15,4 +15,4 @@ Gwenn plays Hornblower, the ambitious and somewhat unscrupulous head of a new-mo
 
 Like Hitchcock's prior stage adaptation, <span data-imdb-id="tt0021015">_Juno and the Paycock_</span>, _The Skin Game_ disappoints. The story's stiff melodrama offers Hitchcock little room to shine aside from some dynamic camerawork during an auction scene. It's not a disaster like _Paycock_, (Gwenn's performance proves engaging and I appreciated the darker ending) but it left me wanting.
 
-The Kino Lober Blu-ray (part of the _Hitchcock: British International Pictures Collection_ set) disappoints. Scratches and telecine wobble plague the scan. I can forgive the former, but not the latter. Compounding matters, the digital noise reduction renders an unnatural grain crawling over most faces.
+The Kino Lorber Blu-ray (part of the _Hitchcock: British International Pictures Collection_ set) disappoints. Scratches and telecine wobble plague the scan. I can forgive the former, but not the latter. Compounding matters, the digital noise reduction renders an unnatural grain crawling over most faces.

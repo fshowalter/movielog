@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2011 | Criterion
 ---
 
-Brian De Palma’s debut feature. Describing this Mobius strip of a film will prove tricky. Spoilers follow.
+Brian De Palma’s debut feature. Describing this Möbius strip of a film will prove tricky. Spoilers follow.
 
 <!-- end -->
 
@@ -21,7 +21,7 @@ Jump back again. This time we follow Otto, the trunk-wheeling man, who proves to
 
 Final jump back. This time to the film’s beginning. Now we follow Chris, who tails Karen and Tracy to the boutique and engineers Karen’s espying him on the street. We learn everything we believe about him might be untrue, leaving us to question whether we’re watching a movie or a movie _within_ a movie.
 
-Compounding this, De Palama precedes the film with footage--shot by Chris--of women auditioning for the “role” of Karen.
+Compounding this, De Palma precedes the film with footage--shot by Chris--of women auditioning for the “role” of Karen.
 
 What did we just watch?
 

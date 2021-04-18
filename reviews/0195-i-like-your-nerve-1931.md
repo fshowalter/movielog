@@ -9,4 +9,4 @@ venue: DVD
 venue_notes: 2018 | Warner Bros.
 ---
 
-In a banana republic, Douglas Fairbanks Jr. plays an arrogant, entitled American who sets his sites on a snobbish, entitled American played by Loretta Young. The script proffers ample plot involving Young’s corrupt step-father, her aging fiancee, and a farcical kidnapping plot. But my distaste for both characters overrode my interest. Boris Karloff has a forgettable part as Young’s stepfather’s aid.
+In a banana republic, Douglas Fairbanks Jr. plays an arrogant, entitled American who sets his sites on a snobbish, entitled American played by Loretta Young. The script proffers ample plot involving Young’s corrupt step-father, her aging fiancée, and a farcical kidnapping plot. But my distaste for both characters overrode my interest. Boris Karloff has a forgettable part as Young’s stepfather’s aid.

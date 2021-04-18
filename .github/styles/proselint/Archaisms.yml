@@ -1,7 +1,7 @@
 extends: existence
 message: "'%s' is archaic."
 ignorecase: true
-level: error
+level: warning
 tokens:
   - alack
   - anent
@@ -28,7 +28,6 @@ tokens:
   - in sooth
   - maugre
   - meseems
-  - methinks
   - nigh
   - peradventure
   - perchance

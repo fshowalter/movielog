@@ -9,4 +9,4 @@ venue: "Disney+"
 venue_notes:
 ---
 
-Sandra Bullock plays a lonesome CTA worker who saves handsome stranger Peter Gallagher's life. As he slumbers in a coma, she poses as his fiancee and falls for his brother, played by Bill Pullman. A forgettable romcom buoyed by the wintery Chicago photography and Bullock's ample charm.
+Sandra Bullock plays a lonesome CTA worker who saves handsome stranger Peter Gallagher's life. As he slumbers in a coma, she poses as his fiancée and falls for his brother, played by Bill Pullman. A forgettable romcom buoyed by the wintry Chicago photography and Bullock's ample charm.

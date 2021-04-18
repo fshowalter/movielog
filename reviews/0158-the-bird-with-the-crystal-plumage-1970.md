@@ -9,11 +9,11 @@ venue: Blu-ray
 venue_notes: 2009 | Blue Underground
 ---
 
-**Dario Argento's directorial debut.** Tony Musante plays Sam, an American writer living in Rome. Walking the streets one night, he glances inside an art gallery and spies a black-clad assailant attacking a woman with a knife. Unable to gain entry, Sam watches the attacker escape as the woman lies bleeding on the floor. The police arrive in time to save the woman, but visions of the incident haunt Sam, driving him to investigate the attack. Soon, the killer's targetting him and his live-in girlfriend, played by Suzy Kendall.
+**Dario Argento's directorial debut.** Tony Musante plays Sam, an American writer living in Rome. Walking the streets one night, he glances inside an art gallery and spies a black-clad assailant attacking a woman with a knife. Unable to gain entry, Sam watches the attacker escape as the woman lies bleeding on the floor. The police arrive in time to save the woman, but visions of the incident haunt Sam, driving him to investigate the attack. Soon, the killer's targeting him and his live-in girlfriend, played by Suzy Kendall.
 
 <!-- end -->
 
-Argento's visual style grabbed me from the get-go. Consider the art gallery scene. The establishing shot sees a bright light shining out of the building's glass facade, drawing our eyes along with Sam's. Inside, the woman's white dress blends with the white walls and floor, forcing our gaze to the black-clad assailant and the woman's crimson blood.
+Argento's visual style grabbed me from the get-go. Consider the art gallery scene. The establishing shot sees a bright light shining out of the building's glass façade, drawing our eyes along with Sam's. Inside, the woman's white dress blends with the white walls and floor, forcing our gaze to the black-clad assailant and the woman's crimson blood.
 
 It's a terrific use of contrast; a technique that Argento perfects in my favorite shot. It occurs later in the film, Sam has tracked the killer into a darkened room. As Sam enters, Argento cuts to a wide shot. The only light comes from the doorway. Sam's silhouette moves to the center of the otherwise pitch-black screen. Then the lights reverse to startling effect. That Argento would even try such a tricky shot shows his confidence. That he pulls it off heralds a major talent.
 

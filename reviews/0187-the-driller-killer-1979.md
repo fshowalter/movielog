@@ -17,4 +17,4 @@ Ferrara, who also plays the lead, convinces as a frustrated burgeoning talent. H
 
 It's a slow-burn build, but the finale sees him let loose a gruesome streak of violence upon his neighborhood's derelicts.
 
-Along the way, Ferrera transports us to late 70's downtown Manhattan. I loved the rock clubs and neighborhood streets. I loved how the performances straddle the line between amateur and natural. Most of all, I love how Ferrara's more interested in making a cinéma vérité-style look at his own world but knows the audience wants horrific thrills, and how that frustration shines through on screen.
+Along the way, Ferrara transports us to late 70's downtown Manhattan. I loved the rock clubs and neighborhood streets. I loved how the performances straddle the line between amateur and natural. Most of all, I love how Ferrara's more interested in making a cinéma vérité-style look at his own world but knows the audience wants horrific thrills, and how that frustration shines through on screen.

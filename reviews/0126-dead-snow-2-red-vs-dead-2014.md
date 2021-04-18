@@ -13,6 +13,6 @@ Picks up where <span data-imdb-id="tt1278340">_Dead Snow_</span> ends. That film
 
 <!-- end -->
 
-Doesn't age as well as its predecessor. Though it retains the black humor and over-the-top gore aesthetic, it goes off-book in terms of plot with uneven results. The entire Zombie Squad sub-plot proves extraneous. And despite a bigger budget, this entry feels cheaper. The CGI blood is weak sauce, and while I appreciated the absurdity of setting the climactic battle in a small village, I missed the first film's wintery location photography.
+Doesn't age as well as its predecessor. Though it retains the black humor and over-the-top gore aesthetic, it goes off-book in terms of plot with uneven results. The entire Zombie Squad sub-plot proves extraneous. And despite a bigger budget, this entry feels cheaper. The CGI blood is weak sauce, and while I appreciated the absurdity of setting the climactic battle in a small village, I missed the first film's wintry location photography.
 
 Not without charm, but disappointing.

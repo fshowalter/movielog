@@ -13,7 +13,7 @@ venue_notes: 2008 | Warner Bros.
 
 <!-- end -->
 
-The plot concerns a scullery maid, played by Michèle Morgan, who poses as a debutante to land a wealthy husband. Jack Haley plays the valet ringleader behind the scheme and the true object of Morgan's affections.
+The plot concerns a scullery maid, played by Michèle Morgan, who poses as a débutant to land a wealthy husband. Jack Haley plays the valet ringleader behind the scheme and the true object of Morgan's affections.
 
 This one proved a chore. The script paints Morgan as an idiot. Instead of amusing, I found her myopic pursuit of Haley grating. Haley's inane blindness to Morgan's desires grated in equal measure. Along the way, the film proffers some of the worst backdrops I can remember.
 

@@ -17,4 +17,4 @@ The four-hour running time feels right for the story, but screenwriter Chris Ter
 
 This new version isn't perfect. Ezra Miller and Jesse Eisenberg still feel miscast--though the latter has almost no screen time. And the finale's murky visual effects fail to evoke an appropriate sense of awe.
 
-But I enjoyed this labor of love more than I expected. If nothing else, it's the best Green Lantern movie we've gotten to date.
+But I enjoyed this passion project more than I expected. If nothing else, it's the best Green Lantern movie we've gotten to date.
