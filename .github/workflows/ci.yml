@@ -1,0 +1,108 @@
+name: ci
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  mypy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: set up python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: cache python environment
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+
+      - name: pip install
+        run: |
+          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+
+      - name: mypy movielog
+        run: mypy movielog
+
+      - name: mypy tests
+        run: mypy tests
+
+  flake8:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: set up python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: cache python environment
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+
+      - name: pip install
+        run: |
+          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+
+      - name: flake8 movielog
+        run: |
+          flake8 movielog --count --show-source --statistics
+
+      - name: flake8 tests
+        run: |
+          flake8 tests --count --show-source --statistics
+
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: set up python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: cache python environment
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+
+      - name: pip install
+        run: |
+          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+
+      - name: pytest
+        run: |
+          pytest --black
+
+  vale:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: vale
+        uses: errata-ai/vale-action@v1.4.0
+        with:
+          # Optional
+          files: reviews
+        env:
+          # Required
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

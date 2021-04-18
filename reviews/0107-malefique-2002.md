@@ -11,7 +11,7 @@ venue_notes:
 
 _Maléfique_ opens with a man named Carrère saying goodbye to his wife and young son. He is a white-collar criminal and today marks his first day in prison. We meet his cellmates: Lassalle, an older librarian of few words, Marcus, a brash young man whose large breast implants clash with his brawny physique, and Pâquerette, a man-child with a penchant for eating things.
 
-After establishing these characters and their interpersonal dynamics, the plot kicks into gear. The men discover a moldy diary that doubles as a spellbook. Eager to escape, the men try some incantations but discover magic carries a high cost.
+After establishing these characters and their interpersonal dynamics, the plot kicks into gear. The men discover a moldy diary that doubles as a spell book. Eager to escape, the men try some incantations but discover magic carries a high cost.
 
 <!-- end -->
 

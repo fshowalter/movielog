@@ -17,4 +17,4 @@ The story follows a blind puzzle enthusiast, played by Karl Malden, who teams up
 
 It may lack <span data-imdb-id="tt0065143">_The Bird With The Crystal Plumage_</span>'s visual flair and intensity, but it ages better. Argento appears to have learned that showing a character afraid isn't enough to engage an audience. He comes close with a scene where Malden traps Franciscus in a tomb, but the scene proves short. Instead, Argento focuses on solid mechanics. The result is the tortoise to _Bird_'s hare.
 
-First-time viewiers may find this disappointing after _Bird_. But give it time. As I'm learning, a film can age in unexpected ways.
+First-time viewers may find this disappointing after _Bird_. But give it time. As I'm learning, a film can age in unexpected ways.

@@ -17,4 +17,4 @@ We’re treated to some amazing--albeit unsettling--scenes. In one, a teenage gi
 
 But we’re also subjected to some galling missteps. The clawed arm elicits chuckles instead of dread, and the finale monster brought on outright laughter. The plot also meanders. An early thread concerning a young couple fizzles out, and the abrupt ending feels disingenuous.
 
-Still, the positives warrant a revisit. The Blu-ray features a commentary with Mark Gattis that may prove enlightening. Perhaps knowing the film’s weaknesses may make them easier to overlook on a second viewing.
+Still, the positives warrant a revisit. The Blu-ray features a commentary with Mark Gatiss that may prove enlightening. Perhaps knowing the film’s weaknesses may make them easier to overlook on a second viewing.

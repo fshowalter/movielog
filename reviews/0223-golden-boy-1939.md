@@ -19,4 +19,4 @@ But I struggled with the film’s stagy presentation. The talky script proffers 
 
 It’s not until the climactic boxing sequence--the only fight sequence the film proffers--that the film shows instead of tells. Shot in a large arena packed with extras as spectators, the bout looks realistic and brutal. It conveys a sense of spectacle a stage production couldn’t match.
 
-So it’s frustrating. For every electric moment between Holden and Stanwyck, we get overwrought Cobb playing to the back rows. For every chilling line Joseph Calleia delivers as a mobster, we get reams of dialogue from Holden’s brother-in-law. A tighter edit might have helped, but as-is _Golden Boy_ disappoints.
+But for every electric moment between Holden and Stanwyck, we get overwrought Cobb playing to the back rows. For every chilling line Joseph Calleia delivers as a mobster, we get reams of dialogue from Holden’s brother-in-law. A tighter edit might have helped, but as-is _Golden Boy_ disappoints.

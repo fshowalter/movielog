@@ -9,7 +9,7 @@ venue: Kanopy
 venue_notes:
 ---
 
-**Ben Wheatley's feature debut.** Bill, the patriarch of a Brighton-based crime family, and his son Karl return to their titular home after a six-month prison stint. There they struggle to uncover an unknown informer in thier crew.
+**Ben Wheatley's feature debut.** Bill, the patriarch of a Brighton-based crime family, and his son Karl return to their titular home after a six-month prison stint. There they struggle to uncover an unknown informer in their crew.
 
 <!-- end -->
 

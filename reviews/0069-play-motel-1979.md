@@ -9,11 +9,11 @@ venue: Blu-ray
 venue_notes: 2015 | RaroVideo U.S.
 ---
 
-I expected a sleazy Giallo and I got a sleazy Giallo. The catchy folk-rock theme song? That surprised me.
+I expected a sleazy giallo and I got a sleazy giallo. The catchy folk-rock theme song? That surprised me.
 
 <!-- end -->
 
-As of this writing, the film's IMDb page has no trivia. No proof the American distributor already owned the song, spliced it into the soundtrack, and altered the film's title. None at all. So, clearly, director Mario Gariazzo commissioned the theme, believing it a perfect tonal fit. If that's true, it might merit an extra star.
+As of this writing, the film's IMDb page has no trivia. No proof the American distributor already owned the song, spliced it into the soundtrack, and altered the film's title. None at all. If director Mario Gariazzo commissioned the theme, it might merit an extra star.
 
 The film's plot concerns a blackmail scam photographing wealthy marks in compromising positions in the titular establishment. Said positions feature lots of nudity and kinky behavior.
 
@@ -21,4 +21,4 @@ Soon, a black-gloved killer begins picking off victims peripheral to the scam. A
 
 At the local police's urging, the couple turns amateur sleuths, a questionable decision that sees the wife pose nude for a sleazy photographer while her husband idles in the car. When she's inevitably captured and beaten, he's laughably unconcerned.
 
-This all plays out as an over-the-top cross between Scooby-Doo and softcore porn. The end reveal is laugh-out-loud implausible, and the blackmail scenes are borderline pornographic. It's pure exploitation in all its ridiculous glory and I'll admit: it kept me entertained. If sleazy Giallos are your thing, _Play Motel_ won't disappoint.
+This all plays out as an over-the-top cross between Scooby-Doo and softcore porn. The end reveal is laugh-out-loud implausible, and the blackmail scenes are borderline pornographic. It's pure exploitation in all its ridiculous glory and I'll admit: it kept me entertained. If sleazy gialli are your thing, _Play Motel_ won't disappoint.

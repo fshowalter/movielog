@@ -17,6 +17,6 @@ After its midnight premier, I remember feeling crestfallen, blaming replacement 
 
 But even sans studio interference, the script proves wanting. Cringe-worthy dialog, specious motivations, and one-dimensional characters abound. As Magneto, Ian McKellen's reduced to making faces and waving his hand at special effects. Alan Cumming's Nightcrawler, the prior film's standout new character, isn't even mentioned.
 
-Also gone is the series' heart, which manifested via a resonating allegory to discrimination. This film's “cure” plotline muddles said allegory. Wouldn't mutants like Rogue with dangerous powers welcome a cure? And what of the X-Men using said “cure” on their enemies?
+Also gone is the series' heart, which manifested via a resonating allegory to discrimination. This film's “cure” plot line muddles said allegory. Wouldn't mutants like Rogue with dangerous powers welcome a cure? And what of the X-Men using said “cure” on their enemies?
 
 Such ethical questions prove beyond this film, whose sole concern seems to be culling the cast and moving from one forgettable set-piece to the next. At least it runs under two hours.

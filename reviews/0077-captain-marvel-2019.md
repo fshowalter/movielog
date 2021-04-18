@@ -9,7 +9,7 @@ venue: 4k UHD Blu-ray
 venue_notes: 2019 | Disney / Buena Vista
 ---
 
-**Brie Larson deserves better.** She's a rare performer whose innate charisma can smooth over a film's rough edges. _Capitan Marvel_ has many. Consider the film's first quarter. An exposition-laden opening meanders to a surprisingly cheap-looking set piece on an alien world. The script proffers a mystery around Larson’s character's identity, but it doesn’t engage. **Larson does.**
+**Brie Larson deserves better.** She's a rare performer whose innate charisma can smooth over a film's rough edges. _Captain Marvel_ has many. Consider the film's first quarter. An exposition-laden opening meanders to a surprisingly cheap-looking set piece on an alien world. The script proffers a mystery around Larson’s character's identity, but it doesn’t engage. **Larson does.**
 
 <!-- end -->
 
