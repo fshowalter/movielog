@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2020 | Shout Factory
 ---
 
-After <span data-imdb-id="tt0087298">_Friday the 13th: The Final Chapter_</span> delivered the franchise's highest grosses, Paramount ditches Jason in an attempt to reboot the franchise.
+After <span data-imdb-id="tt0087298">_Friday the 13th: The Final Chapter_</span> delivered the franchise's highest grosses, Paramount ditches Jason in an attempt to reboot the franchise. **Bad idea.**
 
 <!-- end -->
 
