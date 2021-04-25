@@ -6,20 +6,11 @@ See [franksmovielog.com](https://www.franksmovielog.com) for a nice presentation
 
 ## Install
 
-Assumes a [Homebrew](https://brew.sh/) install. Will install pyenv, a virtual environment and all dependencies.
+Assumes a [Homebrew](https://brew.sh/) install. Will install python3 and direnv.
 
 ```
 ./setup.sh
 ```
-
-## Development
-
-```
-source ./.venv/bin/activate
-
-```
-
-To activate the virtual environment. Not necessary if just running.
 
 ## Updating packages
 

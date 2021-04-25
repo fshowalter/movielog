@@ -1,1 +1,2 @@
-brew "pyenv"
+brew "python3"
+brew "direnv"
