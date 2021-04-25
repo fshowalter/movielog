@@ -14,10 +14,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: set up python 3.8
+      - name: set up python 3.9
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: cache python environment
         uses: actions/cache@v2
@@ -42,10 +42,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: set up python 3.8
+      - name: set up python 3.9
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: cache python environment
         uses: actions/cache@v2
@@ -72,10 +72,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: set up python 3.8
+      - name: set up python 3.9
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: cache python environment
         uses: actions/cache@v2
