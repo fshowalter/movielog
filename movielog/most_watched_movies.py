@@ -230,7 +230,9 @@ class MovieYearStats(object):
         with open(
             os.path.join("export", "most_watched_movies_by_year.json"), "w"
         ) as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+            output_file.write(
+                json.dumps([asdict(stat) for stat in stats], default=str)
+            )  # no-qa: WPS221
 
     @classmethod
     def export_rollup_stats(cls, viewings: List[Viewing]):
