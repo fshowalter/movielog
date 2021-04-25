@@ -197,7 +197,9 @@ class PersonYearStats(object):
             stats.append(cls.generate_for_viewing_year(viewings, year))
 
         with open(os.path.join("export", output_file_name), "w") as output_file:
-            output_file.write(json.dumps([asdict(stat) for stat in stats], default=str))
+            output_file.write(
+                json.dumps([asdict(stat) for stat in stats], default=str)
+            )  # no-qa: WPS221
 
     @classmethod
     def export_rollup_stats(

@@ -41,7 +41,9 @@ class ExtendedLogger(object):
         else:
             message_with_color = message.replace("{}", "<green>{}</green>")
 
-        self.logger.opt(colors=True, depth=1).info(message_with_color, *args, **kwargs)
+        self.logger.opt(colors=True, depth=1).info(
+            message_with_color, *args, **kwargs
+        )  # no-qa: WPS221
 
     def catch(self, exception: Function[None]) -> Function[None]:
         return self.logger.catch(exception=exception)
