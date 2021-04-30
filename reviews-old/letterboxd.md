@@ -30,10 +30,6 @@ Young and Innocent
 
 Constable’s daughter Pilbeam aids fall guy fugitive De Marney in finding the real culprit behind an actress’s murder. Early British thriller from Hitchcock starts strong, drags in the middle, then recovers with an impressive finale.
 
-California Split
-
-Compulsive gamblers Segal and Gould amble through card rooms, tracks, and bars, culminating in a high-stakes Reno poker game. Altman's cynical—yet often humorous—portrait proves short on plot but long on atmosphere, conveying a visceral sense of Segal and Gould's swings.
-
 The Prisoner of Shark Island
 
 Uneven account of Samuel Mudd’s imprisonment on Dry Tortugas island for treating John Wilkes Booth after Lincoln’s assassination. Baxter’s charismatic performance drowns in overwrought melodrama.
