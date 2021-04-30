@@ -23,11 +23,11 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install -r requirements.txt
 
       - name: mypy movielog
         run: mypy movielog
@@ -51,11 +51,11 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install -r requirements.txt
 
       - name: flake8 movielog
         run: |
@@ -81,11 +81,11 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install -r requirements.txt
 
       - name: pytest
         run: |
