@@ -27,7 +27,7 @@ jobs:
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install pip==21.0.1 --upgrade --upgrade-strategy eager -r requirements.txt -e .
 
       - name: mypy movielog
         run: mypy movielog
@@ -55,7 +55,7 @@ jobs:
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install pip==21.0.1 --upgrade --upgrade-strategy eager -r requirements.txt -e .
 
       - name: flake8 movielog
         run: |
@@ -85,7 +85,7 @@ jobs:
 
       - name: pip install
         run: |
-          pip install --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install pip==21.0.1 --upgrade --upgrade-strategy eager -r requirements.txt -e .
 
       - name: pytest
         run: |
