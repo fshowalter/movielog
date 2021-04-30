@@ -27,7 +27,7 @@ jobs:
 
       - name: pip install
         run: |
-          pip install pip==21.1 --upgrade --upgrade-strategy eager -r requirements.txt -e .
+          pip install -r requirements.txt
 
       - name: mypy movielog
         run: mypy movielog
