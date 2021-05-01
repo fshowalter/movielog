@@ -35,5 +35,5 @@ def prompt(
 
 
 def handle_escape(event: key_binding.key_processor.KeyPressEvent) -> None:
-    """ Exit when `ESC` is pressed. """
+    """Exit when `ESC` is pressed."""
     event.app.exit()

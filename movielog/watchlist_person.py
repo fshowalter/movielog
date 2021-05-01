@@ -63,12 +63,12 @@ class Person(abc.ABC):
     @classmethod
     @abc.abstractmethod
     def folder_path(cls) -> str:
-        """ Implement behavior to return the folder path for this instance. """
+        """Implement behavior to return the folder path for this instance."""
 
     @classmethod
     @abc.abstractmethod
     def credit_key(cls) -> str:
-        """ Implement behavior to return the credit key for this instance. """
+        """Implement behavior to return the credit key for this instance."""
 
     @classmethod
     def from_json_object(cls, file_path: str, json_object: Dict[str, Any]) -> "Person":
