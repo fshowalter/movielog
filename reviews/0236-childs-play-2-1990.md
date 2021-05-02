@@ -6,7 +6,7 @@ title: Child's Play 2 (1990)
 grade: D+
 slug: childs-play-2-1990
 venue: Blu-ray
-venue_notes: 2017 | Universal Studios
+venue_notes: "2017 | Universal Studios | Chucky: The Complete 7-Movie Collection"
 ---
 
 Restored to working order, Chucky resumes his murderous quest to sacrifice young Andy to escape his artificial body.

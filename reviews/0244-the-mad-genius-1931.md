@@ -6,7 +6,7 @@ title: The Mad Genius (1931)
 grade: C-
 slug: the-mad-genius-1931
 venue: DVD
-venue_notes:
+venue_notes: 2015 | Warner Bros.
 ---
 
 John Barrymore plays a crippled Russian dancer turned puppeteer, who raises a young boy to achieve the success that escaped him.
