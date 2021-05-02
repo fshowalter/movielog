@@ -6,7 +6,7 @@ title: Bride of Chucky (1998)
 grade: C
 slug: bride-of-chucky-1998
 venue: Blu-ray
-venue_notes:
+venue_notes: "2017 | Universal Studios | Chucky: The Complete 7-Movie Collection"
 ---
 
 A post-<span data-imdb-id="tt0117571">_Scream_</a> reboot that turns up the meta-humor and turns down the horror.

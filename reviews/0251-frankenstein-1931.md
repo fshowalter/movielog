@@ -6,7 +6,7 @@ title: Frankenstein (1931)
 grade: B+
 slug: frankenstein-1931
 venue: Blu-ray
-venue_notes:
+venue_notes: "2016 | Universal Studios | Frankenstein: Complete Legacy Collection"
 ---
 
 Like <span data-imdb-id="tt0021814">_Dracula_</span>, I've seen this movie countless times. Boris Karloff still shines as the monster, but this latest viewing gave me a new appreciation for Jack Pierce's makeup work. Even in the harsh daylight scenes blown up to 4k, it looks seamless. And speaking of those daylight scenes, I always forget how they open up the picture. The lack of echo during the mountain chase finale betrays the soundstage artifice, but the genuine outdoor scenes are fantastic.

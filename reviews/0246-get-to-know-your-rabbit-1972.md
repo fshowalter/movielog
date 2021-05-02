@@ -6,7 +6,7 @@ title: Get to Know Your Rabbit (1972)
 grade: C
 slug: get-to-know-your-rabbit-1972
 venue: DVD
-venue_notes:
+venue_notes: 2009 | Warner Bros.
 ---
 
 **Brian De Palma's first studio film.** Tom Smothers plays a burned-out corporate exec who quits his high-paying job to become a tap-dancing magician.

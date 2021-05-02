@@ -6,7 +6,7 @@ title: Child's Play 3 (1991)
 grade: D+
 slug: childs-play-3-1991
 venue: Blu-ray
-venue_notes:
+venue_notes: "2017 | Universal Studios | Chucky: The Complete 7-Movie Collection"
 ---
 
 Resurrected again, Chucky resumes his murderous quest to escape his artificial body.

@@ -6,7 +6,7 @@ title: "Friday the 13th Part VII: The New Blood (1988)"
 grade: D+
 slug: friday-the-13th-part-vii-the-new-blood-1988
 venue: Blu-ray
-venue_notes:
+venue_notes: 2020 | Shout Factory
 ---
 
 **I came with an open mind.** I’d heard rumblings it was bad, but rumblings can be wrong.

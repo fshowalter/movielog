@@ -6,7 +6,7 @@ title: Way Back Home (1931)
 grade: D+
 slug: way-back-home-1931
 venue: DVD
-venue_notes:
+venue_notes: 2018 | Warner Bros.
 ---
 
 **Starts rough**, with an inert, talky scene where Phillips Lord spins a folksy yarn about his finances. Things improve as the script settles into a rural melodrama involving a pair of young lovers looking to elope and the return of an adopted boy’s brutish biological father. Bette Davis plays one of the young lovers in her then biggest part to date. She’s fine, if unremarkable in the role.

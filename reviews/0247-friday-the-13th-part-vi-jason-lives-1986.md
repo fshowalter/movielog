@@ -6,7 +6,7 @@ title: "Friday the 13th Part VI: Jason Lives (1986)"
 grade: B-
 slug: friday-the-13th-part-vi-jason-lives-1986
 venue: Blu-ray
-venue_notes:
+venue_notes: 2020 | Shout Factory
 ---
 
 Jason's back, and he's brought meta-humor.
