@@ -105,16 +105,3 @@ jobs:
       - name: run vale
         run: |
           ./bin/vale reviews
-
-    # steps:
-    #   - name: checkout
-    #     uses: actions/checkout@v2
-
-    #   - name: vale
-    #     uses: errata-ai/vale-action@v1.4.0
-    #     with:
-    #       # Optional
-    #       files: reviews
-    #     env:
-    #       # Required
-    #       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
