@@ -98,11 +98,24 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: vale
-        uses: errata-ai/vale-action@v1.4.0
-        with:
-          # Optional
-          files: reviews
-        env:
-          # Required
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: install vale
+        run: |
+          curl -sfL https://install.goreleaser.com/github.com/ValeLint/vale.sh | sh -s v2.10.2
+          export PATH="./bin:$PATH"
+
+      - name: run vale
+        run: |
+          vale reviews
+
+    # steps:
+    #   - name: checkout
+    #     uses: actions/checkout@v2
+
+    #   - name: vale
+    #     uses: errata-ai/vale-action@v1.4.0
+    #     with:
+    #       # Optional
+    #       files: reviews
+    #     env:
+    #       # Required
+    #       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
