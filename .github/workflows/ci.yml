@@ -101,11 +101,10 @@ jobs:
       - name: install vale
         run: |
           curl -sfL https://install.goreleaser.com/github.com/ValeLint/vale.sh | sh -s v2.10.2
-          export PATH="./bin:$PATH"
 
       - name: run vale
         run: |
-          vale reviews
+          ./bin/vale reviews
 
     # steps:
     #   - name: checkout
