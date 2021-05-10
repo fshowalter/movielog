@@ -43,7 +43,7 @@ It doesn’t help that Tina’s rendered as an ineffectual protagonist who spend
 
 Still, I love Hodder’s Jason. And we get memorable visuals, such as the scene where an unsuspecting teen crosses a darkened kitchen and in a flash of lightning we see Jason illuminated in the frame’s corner. But for this film, the MPAA, not Tina, proved Jason’s undoing.
 
-[^1]: My first thought upon seeing Dad: [Stewart Smalley](http://en.wikipedia.org/wiki/Stuart_Smalley)?
+[^1]: My first thought upon seeing Dad: [_Stewart Smalley_](http://en.wikipedia.org/wiki/Stuart_Smalley)?
 [^2]: Setting this entry in the then-future of 2001. I wonder how many fans realized this back in 1988.
 [^3]: Jason ended the prior film chained to the bottom of Crystal Lake. The script doesn’t try to explain how Tina’s telekinesis revives him, but the movie should end here. Tina resurrects Jason and passes out. Jason dismembers her unconscious body. But no. Jason marches past her _and_ both houses. He goes a few miles up a dark road to off a pair of teens before circling back to continue his rampage.
 [^4]: In his [review on Horror Movie A Day](http://horror-movie-a-day.blogspot.com/2009/01/friday-13th-part-vii-new-blood.html), Brian Collins speculates the telekinesis aspect was a response to the higher grossing A Nightmare on Elm Street franchise.
