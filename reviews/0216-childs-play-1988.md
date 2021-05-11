@@ -6,7 +6,7 @@ title: Child's Play (1988)
 grade: C-
 slug: childs-play-1988
 venue: Blu-ray
-venue_notes: 2017 | Universal Studios
+venue_notes: "2017 | Universal Studios | Chucky: The Complete 7-Movie Collection"
 ---
 
 A single mother gifts a lifelike doll to her son for his birthday, unaware the toy houses a notorious serial killer's consciousness.
