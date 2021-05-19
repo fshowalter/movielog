@@ -3,7 +3,7 @@ sequence: 249
 date: 2021-04-18
 imdb_id: tt0144120
 title: Bride of Chucky (1998)
-grade: C
+grade: C-
 slug: bride-of-chucky-1998
 venue: Blu-ray
 venue_notes: "2017 | Universal Studios | Chucky: The Complete 7-Movie Collection"
