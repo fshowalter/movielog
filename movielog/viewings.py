@@ -20,11 +20,11 @@ BLANK_SPACE = " "
 @dataclass
 class Viewing(object):
     file_path: Optional[str]
+    sequence: Optional[int]
+    date: date
     imdb_id: str
     title: str
     venue: str
-    date: date
-    sequence: Optional[int]
 
     @classmethod
     def from_file_path(cls, file_path: str) -> "Viewing":
