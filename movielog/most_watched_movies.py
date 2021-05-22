@@ -18,7 +18,6 @@ class Movie(object):
     year: str
     decade: str
     slug: str
-    countries: List[str]
 
 
 @dataclass
@@ -52,6 +51,14 @@ class CountryGroup(object):
 
 
 @dataclass
+class VenueGroup(object):
+    name: str
+    movie_count: int
+    viewing_count: int
+    viewings: List[Viewing]
+
+
+@dataclass
 class MovieYearStats(object):
     year: str
     movie_count: int
@@ -59,20 +66,7 @@ class MovieYearStats(object):
     viewing_count: int
     most_watched: List[MostWatchedMovie]
     decades: List[DecadeGroup]
-    countries: List[CountryGroup]
-
-    @classmethod
-    def fetch_countries(cls, movie_imdb_id: str) -> List[str]:
-        query = """
-            SELECT
-                country
-            FROM countries
-            WHERE movie_imdb_id="{0}"
-        """
-
-        rows = db.exec_query(query.format(movie_imdb_id))
-
-        return [row["country"] for row in rows]
+    venues: List[VenueGroup]
 
     @classmethod
     def fetch_viewings(cls) -> List[Viewing]:
@@ -107,7 +101,6 @@ class MovieYearStats(object):
                     year=row["year"],
                     decade=row["movie_decade"],
                     slug=row["slug"],
-                    countries=cls.fetch_countries(movie_imdb_id=row["imdb_id"]),
                 ),
             )
             for row in rows
@@ -134,7 +127,6 @@ class MovieYearStats(object):
                     decade=movie.decade,
                     viewings=viewing_group,
                     viewing_count=len(viewing_group),
-                    countries=viewing_group[0].movie.countries,
                 )
             )
 
@@ -163,29 +155,26 @@ class MovieYearStats(object):
                 )
             )
 
-        return sorted(decades, key=lambda group: group.viewing_count, reverse=True)
+        return sorted(decades, key=lambda group: group.decade)
 
     @classmethod
-    def countries_for_viewings(
-        cls, viewings: List[Viewing]
-    ) -> Dict[str, List[Viewing]]:
-        viewings_by_country = defaultdict(list)
+    def venues_for_viewings(cls, viewings: List[Viewing]) -> Dict[str, List[Viewing]]:
+        viewings_by_venue = defaultdict(list)
 
         for viewing in viewings:
-            for country in viewing.movie.countries:
-                viewings_by_country[country].append(viewing)
+            viewings_by_venue[viewing.venue].append(viewing)
 
-        return viewings_by_country
+        return viewings_by_venue
 
     @classmethod
-    def generate_countries(cls, viewings: List[Viewing]) -> List[CountryGroup]:
-        countries: List[CountryGroup] = []
-        viewings_by_country = cls.countries_for_viewings(viewings)
+    def generate_venues(cls, viewings: List[Viewing]) -> List[VenueGroup]:
+        venues: List[VenueGroup] = []
+        viewings_by_venue = cls.venues_for_viewings(viewings)
 
-        for group_country, viewing_group in viewings_by_country.items():
-            countries.append(
-                CountryGroup(
-                    name=group_country,
+        for group_venue, viewing_group in viewings_by_venue.items():
+            venues.append(
+                VenueGroup(
+                    name=group_venue,
                     movie_count=len(
                         set(group_item.movie.imdb_id for group_item in viewing_group)
                     ),
@@ -194,7 +183,7 @@ class MovieYearStats(object):
                 )
             )
 
-        return sorted(countries, key=lambda group: group.viewing_count, reverse=True)
+        return sorted(venues, key=lambda group: group.name.lower())
 
     @classmethod
     def generate_for_viewing_year(
@@ -215,7 +204,7 @@ class MovieYearStats(object):
             viewing_count=len(viewings_for_year),
             most_watched=cls.generate_most_watched(viewings_for_year),
             decades=cls.generate_decades(viewings_for_year),
-            countries=cls.generate_countries(viewings_for_year),
+            venues=cls.generate_venues(viewings_for_year),
         )
 
     @classmethod
@@ -244,7 +233,7 @@ class MovieYearStats(object):
                 viewing_count=len(viewings),
                 most_watched=cls.generate_most_watched(viewings),
                 decades=cls.generate_decades(viewings),
-                countries=cls.generate_countries(viewings),
+                venues=cls.generate_venues(viewings),
             )
         )
 
