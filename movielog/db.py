@@ -1,11 +1,10 @@
-import abc
 import sqlite3
 from contextlib import contextmanager
 from os import path
-from typing import Any, Dict, Generator, List, Sequence, Sized
+from typing import Any, Callable, Dict, Generator, Mapping, Sequence, Tuple
 
-from movielog import humanize
-from movielog.logger import logger
+from movielog.utils import format_tools
+from movielog.utils.logging import logger
 
 DB_FILE_NAME = "movie_db.sqlite3"
 DB_DIR = "db"
@@ -16,12 +15,12 @@ Row = sqlite3.Row
 
 DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
 DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
 
 
 @contextmanager
 def connect() -> Generator[Connection, None, None]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
-    connection.row_factory = sqlite3.Row
     yield connection
     connection.close()
 
@@ -35,68 +34,60 @@ def transaction(connection: Connection) -> Generator[None, None, None]:
     connection.execute("PRAGMA journal_mode = DELETE")
 
 
-def exec_query(query: str) -> Sequence[sqlite3.Row]:
+def add_index(table_name: str, column: str) -> None:
+    ddl = """
+        DROP INDEX IF EXISTS "index_{0}_on_{1}";
+        CREATE INDEX "index_{0}_on_{1}" ON "{0}" ("{1}");
+    """
+
+    logger.log("Add index to table {} on column {}...", table_name, column)
+    execute_script(ddl.format(table_name, column))
+
+
+def validate_row_count(table_name: str, expected: int) -> None:
+    actual = fetch_one("select count(*) from {0}".format(table_name))
+    assert expected == actual  # noqa: S101
+    logger.log(
+        "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
+    )
+
+
+def insert_into_table(
+    table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]
+) -> None:
+    logger.log(
+        "Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name
+    )
+    execute_many(insert_ddl, rows)
+
+
+def recreate_table(table_name: str, table_ddl: str) -> None:
+    ddl = """
+        DROP TABLE IF EXISTS "{0}";
+        CREATE TABLE "{0}" ({1});
+    """
+
+    logger.log("Recreating {} table...", table_name)
+    execute_script(ddl.format(table_name, table_ddl))
+
+
+def execute_script(ddl: str) -> None:
     with connect() as connection:
+        connection.executescript(ddl)
+
+
+def execute_many(ddl, parameter_seq) -> None:
+    with connect() as connection:
+        with transaction(connection):
+            connection.executemany(ddl, parameter_seq)
+
+
+def fetch_one(query: str) -> Any:
+    with connect() as connection:
+        return connection.execute(query).fetchone()[0]
+
+
+def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
+    with connect() as connection:
+        connection.row_factory = row_factory
         return connection.execute(query).fetchall()
-
-
-class Table(abc.ABC):
-    recreate_ddl: str
-    table_name: str
-
-    @classmethod
-    def add_index(cls, column: str) -> None:
-        script = """
-            DROP INDEX IF EXISTS "index_{0}_on_{1}";
-            CREATE INDEX "index_{0}_on_{1}" ON "{0}" ("{1}");
-        """
-        with connect() as connection:
-            connection.executescript(script.format(cls.table_name, column))
-
-    @classmethod
-    def validate(cls, collection: Sized) -> None:
-        with connect() as connection:
-            inserted = connection.execute(
-                "select count(*) from {0}".format(cls.table_name),  # noqa: S608
-            ).fetchone()[0]
-
-            assert collection  # noqa: S101
-
-            expected = len(collection)
-            assert expected == inserted  # noqa: S101
-
-            logger.log("Inserted {} {}.", humanize.intcomma(inserted), cls.table_name)
-
-    @classmethod
-    def recreate(cls) -> None:
-        formatted_ddl = cls.recreate_ddl.format(cls.table_name)
-        with connect() as connection:
-            logger.log("Recreating {} table...", cls.table_name)
-            connection.executescript(formatted_ddl)
-
-    @classmethod
-    def insert(cls, ddl: str, parameter_seq: List[Dict[str, Any]]) -> None:
-        logger.log("Inserting {}...", cls.table_name)
-
-        with connect() as connection:
-            with transaction(connection):
-                connection.executemany(ddl, parameter_seq)
-
-    @classmethod
-    def delete(cls, key: str, ids: Sequence[str]) -> None:
-        ddl = """
-            DELETE FROM {0} WHERE {1} IN ({2});
-        """
-
-        with connect() as connection:
-            with transaction(connection):
-                connection.execute(ddl.format(cls.table_name, key, cls.format_ids(ids)))
-                logger.log(
-                    "Deleted {} rows from {}...",
-                    humanize.intcomma(len(ids)),
-                    cls.table_name,
-                )
-
-    @classmethod
-    def format_ids(cls, ids: Sequence[str]) -> str:
-        return ",".join('"{0}"'.format(db_id) for db_id in ids)

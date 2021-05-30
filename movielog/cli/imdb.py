@@ -1,4 +1,4 @@
-from movielog import imdb_s3_orchestrator, watchlist
+from movielog import api as movielog_api
 from movielog.cli import confirm, radio_list
 
 
@@ -24,7 +24,7 @@ def prompt() -> None:
 
 def update_titles_and_people() -> None:
     if confirm.prompt("<cyan>Download and update IMDb titles and people?</cyan>"):
-        imdb_s3_orchestrator.orchestrate_update()
+        movielog_api.refresh_core_data()
 
 
 def update_watchlist_person_credits() -> None:
@@ -32,4 +32,4 @@ def update_watchlist_person_credits() -> None:
         "<cyan>This will update any non-frozen credits from the IMDb. Continue?</cyan>"
     )
     if confirm.prompt(prompt_text):
-        watchlist.refresh_credits()
+        movielog_api.refresh_credits()

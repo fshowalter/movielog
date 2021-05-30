@@ -7,14 +7,13 @@ from typing import Callable, Generator
 import pytest
 
 from movielog import db
-from tests import typehints
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
 
 
 @pytest.fixture
 def gzip_file(tmp_path: str) -> Callable[..., str]:
-    def _gzip_file(file_path: str) -> str:
+    def factory(file_path: str) -> str:
         output_file_name = "{0}.gz".format(os.path.basename(file_path))
         output_path = os.path.join(tmp_path, output_file_name)
         with open(file_path, "rb") as input_file:
@@ -22,7 +21,7 @@ def gzip_file(tmp_path: str) -> Callable[..., str]:
                 shutil.copyfileobj(input_file, output_file)
         return output_path
 
-    return _gzip_file
+    return factory
 
 
 @pytest.fixture(autouse=True)
@@ -36,16 +35,16 @@ def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
     connection.close()
 
 
-@pytest.fixture
-def sql_query() -> Callable[..., typehints.QueryResultType]:
-    def _sql_query(query: str) -> typehints.QueryResultType:
-        connection = sqlite3.connect(TEST_DB_PATH, uri=True)
-        connection.row_factory = sqlite3.Row
-        query_results = connection.execute(query).fetchall()
-        connection.close()
-        rows = []
-        for row in query_results:
-            rows.append(tuple(dict(row).values()))
-        return rows
+# @pytest.fixture
+# def sql_query() -> Callable[..., typehints.QueryResultType]:
+#     def _sql_query(query: str) -> typehints.QueryResultType:
+#         connection = sqlite3.connect(TEST_DB_PATH, uri=True)
+#         connection.row_factory = sqlite3.Row
+#         query_results = connection.execute(query).fetchall()
+#         connection.close()
+#         rows = []
+#         for row in query_results:
+#             rows.append(tuple(dict(row).values()))
+#         return rows
 
-    return _sql_query
+#     return _sql_query

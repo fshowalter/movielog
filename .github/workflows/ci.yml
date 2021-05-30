@@ -89,7 +89,7 @@ jobs:
 
       - name: pytest
         run: |
-          pytest --black
+          pytest
 
   vale:
     runs-on: ubuntu-latest

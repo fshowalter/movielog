@@ -1,5 +1,8 @@
+from __future__ import annotations
+
+import sqlite3
 from dataclasses import dataclass
-from typing import Dict, List
+from typing import Dict
 
 from movielog import db
 from movielog.cli import query_formatter
@@ -16,22 +19,22 @@ class SearchResult(object):
     )
     imdb_id: str
     title: str
-    year: int
+    year: str
     principal_cast_ids: str
-    principal_cast_names: List[str]
+    principal_cast_names: list[str]
 
     @classmethod
     def from_query_result(cls, row: Dict[str, str]) -> "SearchResult":
         return cls(
             imdb_id=row["imdb_id"],
             title=row["title"],
-            year=int(row["year"]),
+            year=row["year"],
             principal_cast_ids=row["principal_cast_ids"],
             principal_cast_names=[],
         )
 
 
-def search_by_title(title: str) -> List[SearchResult]:
+def search_by_title(title: str) -> list[SearchResult]:
     title_with_wildcards = query_formatter.add_wildcards(title)
 
     query = """
@@ -40,17 +43,18 @@ def search_by_title(title: str) -> List[SearchResult]:
         """
 
     with db.connect() as connection:
+        connection.row_factory = sqlite3.Row
         search_results = fetch_results(connection, query.format(title_with_wildcards))
         resolve_principals(connection, search_results)
 
     return search_results
 
 
-def fetch_results(connection: db.Connection, query: str) -> List[SearchResult]:
+def fetch_results(connection: db.Connection, query: str) -> list[SearchResult]:
     cursor = connection.cursor()
     rows = cursor.execute(query).fetchall()
 
-    search_results: List[SearchResult] = []
+    search_results: list[SearchResult] = []
 
     for row in rows:
         search_result = SearchResult.from_query_result(row)
@@ -60,7 +64,7 @@ def fetch_results(connection: db.Connection, query: str) -> List[SearchResult]:
 
 
 def resolve_principals(
-    connection: db.Connection, search_results: List[SearchResult]
+    connection: db.Connection, search_results: list[SearchResult]
 ) -> None:
     name_cache = build_name_cache(connection=connection, search_results=search_results)
 
@@ -72,7 +76,7 @@ def resolve_principals(
 
 
 def build_name_cache(
-    connection: db.Connection, search_results: List[SearchResult]
+    connection: db.Connection, search_results: list[SearchResult]
 ) -> Dict[str, str]:
     query = """
         SELECT imdb_id, full_name FROM people where imdb_id IN ({0});
@@ -87,8 +91,8 @@ def build_name_cache(
     return {row["imdb_id"]: row["full_name"] for row in rows}
 
 
-def format_principal_cast_ids(search_results: List[SearchResult]) -> str:
-    cast_ids: List[str] = []
+def format_principal_cast_ids(search_results: list[SearchResult]) -> str:
+    cast_ids: list[str] = []
 
     for search_result in search_results:
         cast_ids.extend(search_result.principal_cast_ids.split(","))

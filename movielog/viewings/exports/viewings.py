@@ -1,0 +1,57 @@
+from dataclasses import dataclass
+from datetime import date
+
+from movielog import db
+from movielog.utils import export_tools
+from movielog.utils.logging import logger
+
+
+@dataclass
+class Viewing(object):
+    imdb_id: str
+    title: str
+    year: str
+    release_date: date
+    viewing_date: date
+    viewing_year: str
+    sequence: int
+    venue: str
+    sort_title: str
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", "viewings")
+
+    query = """
+        SELECT
+            imdb_id
+        , title
+        , year
+        , release_date
+        , date as viewing_date
+        , strftime('%Y', date) as viewing_year
+        , sequence
+        , venue
+        , sort_title
+        FROM viewings
+        INNER JOIN movies ON viewings.movie_imdb_id = imdb_id
+        INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id
+        INNER JOIN sort_titles on sort_titles.movie_imdb_id = viewings.movie_imdb_id;
+        """
+
+    viewings = [
+        Viewing(
+            imdb_id=row["imdb_id"],
+            title=row["title"],
+            release_date=row["release_date"],
+            viewing_date=row["viewing_date"],
+            viewing_year=row["viewing_year"],
+            sequence=row["sequence"],
+            venue=row["venue"],
+            sort_title=row["sort_title"],
+            year=row["year"],
+        )
+        for row in db.fetch_all(query)
+    ]
+
+    export_tools.serialize_dataclasses(viewings, "viewings")
