@@ -48,7 +48,7 @@ def seed_db() -> None:
                 original_title="Friday the 13th: The Final Chapter",
                 year=1984,
                 runtime_minutes=None,
-                principal_cast_ids="nm0000397",
+                principal_cast_ids="nm0000397, nm0000000",
             ),
             movies_table.Row(
                 imdb_id="tt0089175",
@@ -112,7 +112,7 @@ def mock_add_movie_to_collection(mocker: MockerFixture) -> tuple[Collection, Mag
     )
 
 
-def test_calls_add_title_on_collection(
+def test_calls_add_movie_to_collection(
     mock_input: MockInput, mock_add_movie_to_collection: tuple[Collection, MagicMock]
 ) -> None:
     mock_input([Down, Enter, "The Final Chapter", Enter, Down, Enter, "y", Enter])
@@ -128,7 +128,7 @@ def test_calls_add_title_on_collection(
     )
 
 
-def test_does_not_call_add_director_if_no_selection(
+def test_does_not_call_add_movie_to_collection_if_no_selection(
     mock_input: MockInput, mock_add_movie_to_collection: tuple[Collection, MagicMock]
 ) -> None:
     mock_input([Down, Enter, Escape, Escape, Enter])

@@ -1,13 +1,15 @@
+from __future__ import annotations
+
 from collections import defaultdict
 from collections.abc import Iterable
 from typing import Callable, TypeVar
 
-T = TypeVar("T")  # noqa: WPS111
+ListType = TypeVar("ListType")
 
 
 def group_list_by_key(
-    iterable: Iterable[T], key: Callable[[T], str]
-) -> dict[str, list[T]]:
+    iterable: Iterable[ListType], key: Callable[[ListType], str]
+) -> dict[str, list[ListType]]:
     items_by_key = defaultdict(list)
 
     for iterable_item in iterable:
