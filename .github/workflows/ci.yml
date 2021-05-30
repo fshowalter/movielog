@@ -7,6 +7,37 @@ on:
     branches: [main]
 
 jobs:
+  black:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: set up python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: cache python environment
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
+
+      - name: pip install
+        run: |
+          pip install -r requirements.txt
+
+      - name: black movielog
+        run: black movielog
+
+      - name: black testtools
+        run: black testtools
+
+      - name: black tests
+        run: black tests
+
   mypy:
     runs-on: ubuntu-latest
 
@@ -32,8 +63,12 @@ jobs:
       - name: mypy movielog
         run: mypy movielog
 
+      - name: mypy testtools
+        run: mypy testtools
+
       - name: mypy tests
         run: mypy tests
+
 
   flake8:
     runs-on: ubuntu-latest
@@ -61,9 +96,14 @@ jobs:
         run: |
           flake8 movielog --count --show-source --statistics
 
+      - name: flake8 testtools
+        run: |
+          flake8 testtools --count --show-source --statistics
+
       - name: flake8 tests
         run: |
           flake8 tests --count --show-source --statistics
+
 
   pytest:
     runs-on: ubuntu-latest
