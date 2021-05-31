@@ -4,15 +4,20 @@ from datetime import date
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import has_sequence, reviews
+from movielog.reviews import api as reviews_api
+from movielog.reviews import reviews_table
+from movielog.utils.sequence_tools import SequenceError
 
 
-def test_creates_new_review(tmp_path: str, mocker: MockerFixture) -> None:
-    mocker.patch("movielog.reviews.FOLDER_PATH", tmp_path)
+@pytest.fixture(autouse=True)
+def init_db() -> None:
+    reviews_table.reload([])
 
+
+def test_create_serializes_new_review(tmp_path: str, mocker: MockerFixture) -> None:
     expected = "---\nsequence: 1\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 
-    reviews.add(
+    reviews_api.create(
         imdb_id="tt6019206",
         title="Kill Bill: The Whole Bloody Affair",
         year=2011,
@@ -29,11 +34,9 @@ def test_creates_new_review(tmp_path: str, mocker: MockerFixture) -> None:
     assert file_content == expected
 
 
-def test_raises_error_if_sequence_out_of_sync(
+def test_create_raises_error_if_sequence_out_of_sync(
     tmp_path: str, mocker: MockerFixture
 ) -> None:
-    mocker.patch("movielog.reviews.FOLDER_PATH", tmp_path)
-
     existing_review = "---\nsequence: 3\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 
     with open(
@@ -42,8 +45,8 @@ def test_raises_error_if_sequence_out_of_sync(
     ) as output_file:
         output_file.write(existing_review)
 
-    with pytest.raises(has_sequence.SequenceError):
-        reviews.add(
+    with pytest.raises(SequenceError):
+        reviews_api.create(
             imdb_id="tt0266697",
             title="Kill Bill: Vol. 1",
             year=2003,

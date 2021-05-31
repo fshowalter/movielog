@@ -22,7 +22,7 @@ def export_data() -> None:
 
 
 def create(  # noqa: WPS211
-    review_date: date, imdb_id: str, title: str, year: str, grade: str, venue: str
+    review_date: date, imdb_id: str, title: str, year: int, grade: str, venue: str
 ) -> Review:
     sequence = sequence_tools.next_sequence(reviews())
     review_title = "{0} ({1})".format(title, year)

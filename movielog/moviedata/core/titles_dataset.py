@@ -1,7 +1,9 @@
-from collections import defaultdict
-from typing import Callable, Dict, Optional, Sequence, TypedDict
+from __future__ import annotations
 
-from movielog.moviedata.core import downloader, extractor
+from collections import defaultdict
+from typing import Dict, TypedDict
+
+from movielog.moviedata.core import downloader, extractor, movies_table
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
 
@@ -18,14 +20,7 @@ Whitelist = {
     "tt0101760",  # Door to Silence (1992) [V]
 }
 
-
-class Title(TypedDict):
-    imdb_id: str
-    title: str
-    original_title: str
-    year: str
-    runtime_minutes: Optional[int]
-    principal_cast_ids: Optional[str]
+MovieRow = movies_table.Row
 
 
 class Principal(TypedDict):
@@ -48,17 +43,17 @@ def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WP
     return "Documentary" not in genres
 
 
-def extract_titles(title_basics_file_path: str) -> Dict[str, Title]:
-    titles: Dict[str, Title] = {}
+def extract_titles(title_basics_file_path: str) -> Dict[str, MovieRow]:
+    titles: Dict[str, MovieRow] = {}
 
     for fields in extractor.extract(title_basics_file_path):
         imdb_id = str(fields[0])
         if imdb_id in Whitelist or title_fields_are_valid(fields):
-            titles[imdb_id] = Title(
+            titles[imdb_id] = movies_table.Row(
                 imdb_id=str(fields[0]),
                 title=str(fields[2]),
                 original_title=str(fields[3]),
-                year=str(fields[5]),
+                year=int(str(fields[5])),
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast_ids=None,
             )
@@ -69,7 +64,7 @@ def extract_titles(title_basics_file_path: str) -> Dict[str, Title]:
 
 
 def extract_principals(
-    titles: Dict[str, Title], title_principals_file_path: str
+    titles: Dict[str, MovieRow], title_principals_file_path: str
 ) -> Dict[str, list[Principal]]:
     principals = defaultdict(list)
 
@@ -95,8 +90,8 @@ def extract_principals(
 
 
 def append_principal_cast_ids(
-    titles: Dict[str, Title], principals: Dict[str, list[Principal]]
-) -> list[Title]:
+    titles: Dict[str, MovieRow], principals: Dict[str, list[Principal]]
+) -> list[MovieRow]:
     removed = 0
 
     for imdb_id in list(titles.keys()):
@@ -122,7 +117,7 @@ def append_principal_cast_ids(
     return list(titles.values())
 
 
-def refresh(callback: Callable[[Sequence[Title]], None]) -> None:
+def refresh() -> None:
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)
     title_principals_file_path = downloader.download(TITLE_PRINCIPALS_FILE_NAME)
 
@@ -130,4 +125,4 @@ def refresh(callback: Callable[[Sequence[Title]], None]) -> None:
         titles = extract_titles(title_basics_file_path)
         principals = extract_principals(titles, title_principals_file_path)
         titles_with_principal_cast_ids = append_principal_cast_ids(titles, principals)
-        callback(titles_with_principal_cast_ids)
+        movies_table.reload(titles_with_principal_cast_ids)

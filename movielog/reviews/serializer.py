@@ -1,6 +1,8 @@
+from __future__ import annotations
+
+import datetime
 import os
 import re
-from datetime import date
 from glob import glob
 from typing import Any, Optional, Sequence, TypedDict, cast
 
@@ -11,7 +13,7 @@ from movielog.reviews.review import Review
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
-FOLDER_PATH = "reviews"
+FOLDER_NAME = "reviews"
 
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
@@ -25,7 +27,7 @@ yaml.add_representer(type(None), represent_none)  # type: ignore
 
 class ReviewYaml(TypedDict):
     sequence: int
-    date: date
+    date: datetime.date
     imdb_id: str
     title: str
     grade: str
@@ -55,7 +57,7 @@ def deserialize(file_path: str) -> Review:
 
 def deserialize_all() -> Sequence[Review]:
     reviews: list[Review] = []
-    for review_file_path in glob(os.path.join(FOLDER_PATH, "*.md")):
+    for review_file_path in glob(os.path.join(FOLDER_NAME, "*.md")):
         reviews.append(deserialize(review_file_path))
 
     reviews.sort(key=lambda review: review.sequence)
@@ -68,7 +70,7 @@ def generate_file_path(review: Review) -> str:
         "{0:04d} {1}".format(review.sequence, review.slug),
     )
 
-    file_path = os.path.join(FOLDER_PATH, "{0}.md".format(file_name))
+    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
 
     path_tools.ensure_file_path(file_path)
 

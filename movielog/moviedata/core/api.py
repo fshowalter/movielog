@@ -1,17 +1,17 @@
+from __future__ import annotations
+
 from movielog.moviedata.core import (
-    aka_titles_table,
     movies_table,
     names_dataset,
-    people_table,
     title_akas_dataset,
     titles_dataset,
 )
 
 
 def refresh() -> None:
-    titles_dataset.refresh(movies_table.reload)
-    names_dataset.refresh(people_table.reload)
-    title_akas_dataset.refresh(aka_titles_table.reload)
+    titles_dataset.refresh()
+    names_dataset.refresh()
+    title_akas_dataset.refresh()
 
 
 def movie_ids() -> set[str]:

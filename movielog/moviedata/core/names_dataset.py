@@ -1,16 +1,14 @@
-from typing import Callable, Dict, Optional, Sequence, TypedDict
+from __future__ import annotations
 
-from movielog.moviedata.core import downloader, extractor, movies_table
+from typing import Optional
+
+from movielog.moviedata.core import downloader, extractor, movies_table, people_table
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
 
 NAMES_FILE_NAME = "name.basics.tsv.gz"
 
-
-class Name(TypedDict):
-    imdb_id: str
-    full_name: str
-    known_for_title_ids: str
+PeopleRow = people_table.Row
 
 
 def valid_known_for_title_ids(all_known_for_title_ids: Optional[str]) -> Optional[str]:
@@ -28,8 +26,8 @@ def valid_known_for_title_ids(all_known_for_title_ids: Optional[str]) -> Optiona
     return ",".join(known_for_title_ids)
 
 
-def extract_names(file_path: str) -> list[Name]:
-    names: Dict[str, Name] = {}
+def extract_names(file_path: str) -> list[PeopleRow]:
+    names: dict[str, PeopleRow] = {}
     filtered = 0
 
     for fields in extractor.extract(file_path):
@@ -37,7 +35,7 @@ def extract_names(file_path: str) -> list[Name]:
 
         if known_for_title_ids:
             imdb_id = str(fields[0])
-            names[imdb_id] = Name(
+            names[imdb_id] = people_table.Row(
                 imdb_id=imdb_id,
                 full_name=str(fields[1]),
                 known_for_title_ids=known_for_title_ids,
@@ -56,9 +54,9 @@ def extract_names(file_path: str) -> list[Name]:
     return list(names.values())
 
 
-def refresh(callback: Callable[[Sequence[Name]], None]) -> None:
+def refresh() -> None:
     downloaded_file_path = downloader.download(NAMES_FILE_NAME)
 
     for _ in extractor.checkpoint(downloaded_file_path):  # noqa: WPS122
         names = extract_names(downloaded_file_path)
-        callback(names)
+        people_table.reload(names)

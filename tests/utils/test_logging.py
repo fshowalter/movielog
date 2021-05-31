@@ -1,6 +1,6 @@
 from pytest_mock import MockerFixture
 
-from movielog.logger import logger
+from movielog.utils.logging import logger
 
 
 def test_formats_headers_with_yellow(mocker: MockerFixture) -> None:

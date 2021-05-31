@@ -1,10 +1,10 @@
 import gzip
 import pathlib
-from typing import Generator, Optional, Sequence
+from typing import Generator, List, Optional, Sequence
 
 from movielog.utils.logging import logger
 
-DatasetFields = list[Optional[str]]
+DatasetFields = List[Optional[str]]
 
 
 def extract(

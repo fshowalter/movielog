@@ -1,27 +1,17 @@
-import gzip
+from __future__ import annotations
+
 import os
-import shutil
 import sqlite3
-from typing import Callable, Generator
+from typing import Any, Callable, Generator, Tuple
 
 import pytest
+from pytest_mock import MockerFixture
 
 from movielog import db
+from movielog.moviedata.core import downloader
+from testtools.types import QueryResult
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
-
-
-@pytest.fixture
-def gzip_file(tmp_path: str) -> Callable[..., str]:
-    def factory(file_path: str) -> str:
-        output_file_name = "{0}.gz".format(os.path.basename(file_path))
-        output_path = os.path.join(tmp_path, output_file_name)
-        with open(file_path, "rb") as input_file:
-            with gzip.open(output_path, "wb") as output_file:
-                shutil.copyfileobj(input_file, output_file)
-        return output_path
-
-    return factory
 
 
 @pytest.fixture(autouse=True)
@@ -35,16 +25,37 @@ def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
     connection.close()
 
 
-# @pytest.fixture
-# def sql_query() -> Callable[..., typehints.QueryResultType]:
-#     def _sql_query(query: str) -> typehints.QueryResultType:
-#         connection = sqlite3.connect(TEST_DB_PATH, uri=True)
-#         connection.row_factory = sqlite3.Row
-#         query_results = connection.execute(query).fetchall()
-#         connection.close()
-#         rows = []
-#         for row in query_results:
-#             rows.append(tuple(dict(row).values()))
-#         return rows
+original_download_dir = downloader.DOWNLOAD_DIR
 
-#     return _sql_query
+
+@pytest.fixture(autouse=True)
+def mock_download_path(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch(
+        "movielog.moviedata.core.downloader.DOWNLOAD_DIR",
+        os.path.join(tmp_path, original_download_dir),
+    )
+
+
+@pytest.fixture(autouse=True)
+def mock_reviews_folder_path(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.reviews.serializer.FOLDER_NAME", tmp_path)
+
+
+def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:
+    row_dict = {}
+    for index, column in enumerate(cursor.description):
+        row_dict[column[0]] = row[index]
+    return row_dict
+
+
+@pytest.fixture
+def sql_query() -> Callable[[str], QueryResult]:
+    def factory(query: str) -> QueryResult:
+        connection = sqlite3.connect(TEST_DB_PATH, uri=True)
+        connection.row_factory = dict_factory
+        query_results = connection.execute(query).fetchall()
+        connection.close()
+
+        return query_results
+
+    return factory
