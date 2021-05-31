@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0023293",
   "sort_title": "Old Dark House (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002048",
-      "name": "Melvyn Douglas",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Penderel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001452",
-      "name": "Charles Laughton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sir William Porterhouse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093988",
-      "name": "Lilian Bond",
-      "sequence": 3,
-      "notes": "(as Lillian Bond)",
-      "roles": [
-        "Gladys"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0857658",
-      "name": "Ernest Thesiger",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Horace Femm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601196",
-      "name": "Eva Moore",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rebecca Femm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557339",
-      "name": "Raymond Massey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Philip Waverton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001784",
-      "name": "Gloria Stuart",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Margaret Waverton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240070",
-      "name": "Elspeth Dudgeon",
-      "sequence": 8,
-      "notes": "(as John Dudgeon)",
-      "roles": [
-        "Sir Roderick Femm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932622",
-      "name": "Brember Wills",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Saul Femm"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001843",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002048",
+      "name": "Melvyn Douglas",
+      "sequence": 1,
+      "roles": [
+        "Penderel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001452",
+      "name": "Charles Laughton",
+      "sequence": 2,
+      "roles": [
+        "Sir William Porterhouse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093988",
+      "name": "Lilian Bond",
+      "sequence": 3,
+      "roles": [
+        "Gladys"
+      ],
+      "notes": "(as Lillian Bond)"
+    },
+    {
+      "person_imdb_id": "nm0857658",
+      "name": "Ernest Thesiger",
+      "sequence": 4,
+      "roles": [
+        "Horace Femm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601196",
+      "name": "Eva Moore",
+      "sequence": 5,
+      "roles": [
+        "Rebecca Femm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557339",
+      "name": "Raymond Massey",
+      "sequence": 6,
+      "roles": [
+        "Philip Waverton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001784",
+      "name": "Gloria Stuart",
+      "sequence": 7,
+      "roles": [
+        "Margaret Waverton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240070",
+      "name": "Elspeth Dudgeon",
+      "sequence": 8,
+      "roles": [
+        "Sir Roderick Femm"
+      ],
+      "notes": "(as John Dudgeon)"
+    },
+    {
+      "person_imdb_id": "nm0932622",
+      "name": "Brember Wills",
+      "sequence": 9,
+      "roles": [
+        "Saul Femm"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0697362",
       "name": "J.B. Priestley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from the novel by) (as J.B. Priestly)",
-      "group_id": 0
+      "notes": "(from the novel by) (as J.B. Priestly)"
     },
     {
       "person_imdb_id": "nm0506349",
       "name": "Benn W. Levy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0792670",
       "name": "R.C. Sherriff",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1932-10-19",

@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0036400",
   "sort_title": "Sanshiro Sugata (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0645676",
-      "name": "Denjir\u00f4 \u00d4k\u00f4chi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Shogoro Yano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0297843",
-      "name": "Susumu Fujita",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sanshiro Sugata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865372",
-      "name": "Yukiko Todoroki",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sayo Murai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875370",
-      "name": "Ry\u00fbnosuke Tsukigata",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gennosuke Higaki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793766",
-      "name": "Takashi Shimura",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hansuke Murai, Sayo's father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0359248",
-      "name": "Ranko Hanai",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Osumi Kodana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0031889",
-      "name": "Sugisaku Aoyama",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tsunetami Iinuma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0837360",
-      "name": "Ichir\u00f4 Sugai",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Police Chief Mishima"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0467566",
-      "name": "Yoshio Kosugi",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Master Saburo Monma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0462679",
-      "name": "Kokuten K\u00f4d\u00f4",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Buddhist Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1156358",
-      "name": "Michisaburo Segawa",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Hatta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477767",
-      "name": "Akitake K\u00f4no",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Yoshimaro Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0457954",
-      "name": "S\u00f4ji Kiyokawa",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Yujiro Toda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593036",
-      "name": "Kunio Mita",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Kohei Tsuzaki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0620112",
-      "name": "Akira Nakamura",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Toranosuke Niizeki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1156296",
-      "name": "Eizabur\u00f4 Sakauchi",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Nemeto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1155388",
-      "name": "Hajime Hikari",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Torakichi"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000041",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0645676",
+      "name": "Denjir\u00f4 \u00d4k\u00f4chi",
+      "sequence": 0,
+      "roles": [
+        "Shogoro Yano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0297843",
+      "name": "Susumu Fujita",
+      "sequence": 1,
+      "roles": [
+        "Sanshiro Sugata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865372",
+      "name": "Yukiko Todoroki",
+      "sequence": 2,
+      "roles": [
+        "Sayo Murai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875370",
+      "name": "Ry\u00fbnosuke Tsukigata",
+      "sequence": 3,
+      "roles": [
+        "Gennosuke Higaki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793766",
+      "name": "Takashi Shimura",
+      "sequence": 4,
+      "roles": [
+        "Hansuke Murai, Sayo's father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0359248",
+      "name": "Ranko Hanai",
+      "sequence": 5,
+      "roles": [
+        "Osumi Kodana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0031889",
+      "name": "Sugisaku Aoyama",
+      "sequence": 6,
+      "roles": [
+        "Tsunetami Iinuma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0837360",
+      "name": "Ichir\u00f4 Sugai",
+      "sequence": 7,
+      "roles": [
+        "Police Chief Mishima"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0467566",
+      "name": "Yoshio Kosugi",
+      "sequence": 8,
+      "roles": [
+        "Master Saburo Monma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0462679",
+      "name": "Kokuten K\u00f4d\u00f4",
+      "sequence": 9,
+      "roles": [
+        "Buddhist Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1156358",
+      "name": "Michisaburo Segawa",
+      "sequence": 10,
+      "roles": [
+        "Hatta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477767",
+      "name": "Akitake K\u00f4no",
+      "sequence": 11,
+      "roles": [
+        "Yoshimaro Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0457954",
+      "name": "S\u00f4ji Kiyokawa",
+      "sequence": 12,
+      "roles": [
+        "Yujiro Toda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593036",
+      "name": "Kunio Mita",
+      "sequence": 13,
+      "roles": [
+        "Kohei Tsuzaki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0620112",
+      "name": "Akira Nakamura",
+      "sequence": 14,
+      "roles": [
+        "Toranosuke Niizeki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1156296",
+      "name": "Eizabur\u00f4 Sakauchi",
+      "sequence": 15,
+      "roles": [
+        "Nemeto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1155388",
+      "name": "Hajime Hikari",
+      "sequence": 16,
+      "roles": [
+        "Torakichi"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000041",
       "name": "Akira Kurosawa",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0866744",
       "name": "Tsuneo Tomita",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1943-03-25",

@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0039927",
   "sort_title": "Tycoon (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206478",
-      "name": "Laraine Day",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 2,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "Alexander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000752",
-      "name": "Judith Anderson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miss Braithwaite"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322299",
-      "name": "James Gleason",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000063",
-      "name": "Anthony Quinn",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ricky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fog"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023151",
-      "name": "Fernando Alvarado",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Chico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Holden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367637",
-      "name": "Michael Harvey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Curly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Se\u00f1or Tobar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307986",
-      "name": "Martin Garralaga",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Chavez"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0908831",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Johnny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206478",
+      "name": "Laraine Day",
+      "sequence": 1,
+      "roles": [
+        "Maura"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 2,
+      "roles": [
+        "Alexander"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0000752",
+      "name": "Judith Anderson",
+      "sequence": 3,
+      "roles": [
+        "Miss Braithwaite"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0322299",
+      "name": "James Gleason",
+      "sequence": 4,
+      "roles": [
+        "Pop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000063",
+      "name": "Anthony Quinn",
+      "sequence": 5,
+      "roles": [
+        "Ricky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 6,
+      "roles": [
+        "Fog"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 7,
+      "roles": [
+        "Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023151",
+      "name": "Fernando Alvarado",
+      "sequence": 8,
+      "roles": [
+        "Chico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 9,
+      "roles": [
+        "Holden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367637",
+      "name": "Michael Harvey",
+      "sequence": 10,
+      "roles": [
+        "Curly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 11,
+      "roles": [
+        "Se\u00f1or Tobar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307986",
+      "name": "Martin Garralaga",
+      "sequence": 12,
+      "roles": [
+        "Chavez"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0153698",
       "name": "Borden Chase",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0878605",
       "name": "John Twist",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0778618",
       "name": "Charles E. Scoggins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted from the novel by) (as C. E. Scoggins)",
-      "group_id": 1
+      "notes": "(adapted from the novel by) (as C. E. Scoggins)"
     }
   ],
   "release_date": "1947-12-27",

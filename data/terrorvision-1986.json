@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0092074",
   "sort_title": "TerrorVision (1986)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0291404",
-      "name": "Diane Franklin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Suzy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0334057",
-      "name": "Gerrit Graham",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Stan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001862",
-      "name": "Mary Woronov",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Raquel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020354",
-      "name": "Chad Allen",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sherman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340973",
-      "name": "Jon Gries",
-      "sequence": 4,
-      "notes": "(as Jonathan Gries)",
-      "roles": [
-        "O.D."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719037",
-      "name": "Bert Remsen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Grampa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721031",
-      "name": "Alejandro Rey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Spiro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112205",
-      "name": "Randi Brooks",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cherry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724149",
-      "name": "Jennifer Richards",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Medusa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205479",
-      "name": "Sonny Carl Davis",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Norton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930787",
-      "name": "Ian Patrick Williams",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Nutky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0667365",
-      "name": "William Paulson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pluthar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0495114",
-      "name": "John Leamer",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Chauffeur"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0138609",
@@ -128,13 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0291404",
+      "name": "Diane Franklin",
+      "sequence": 0,
+      "roles": [
+        "Suzy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0334057",
+      "name": "Gerrit Graham",
+      "sequence": 1,
+      "roles": [
+        "Stan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001862",
+      "name": "Mary Woronov",
+      "sequence": 2,
+      "roles": [
+        "Raquel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020354",
+      "name": "Chad Allen",
+      "sequence": 3,
+      "roles": [
+        "Sherman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340973",
+      "name": "Jon Gries",
+      "sequence": 4,
+      "roles": [
+        "O.D."
+      ],
+      "notes": "(as Jonathan Gries)"
+    },
+    {
+      "person_imdb_id": "nm0719037",
+      "name": "Bert Remsen",
+      "sequence": 5,
+      "roles": [
+        "Grampa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721031",
+      "name": "Alejandro Rey",
+      "sequence": 6,
+      "roles": [
+        "Spiro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112205",
+      "name": "Randi Brooks",
+      "sequence": 7,
+      "roles": [
+        "Cherry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724149",
+      "name": "Jennifer Richards",
+      "sequence": 8,
+      "roles": [
+        "Medusa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0205479",
+      "name": "Sonny Carl Davis",
+      "sequence": 9,
+      "roles": [
+        "Norton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930787",
+      "name": "Ian Patrick Williams",
+      "sequence": 10,
+      "roles": [
+        "Nutky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0667365",
+      "name": "William Paulson",
+      "sequence": 11,
+      "roles": [
+        "Pluthar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0495114",
+      "name": "John Leamer",
+      "sequence": 12,
+      "roles": [
+        "Chauffeur"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0138609",
       "name": "Ted Nicolaou",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1986-02-14",

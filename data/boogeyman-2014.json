@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt3812686",
   "sort_title": "Boogeyman (2014)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0240811",
-      "name": "John Dugan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Harper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758088",
-      "name": "Rick Hansen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7757981",
-      "name": "John Johnson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lester Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758086",
-      "name": "Gary Marshall",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Detective Marshall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758083",
-      "name": "Molly Redmon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rita Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758084",
-      "name": "Eykoz Russell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Denny Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758087",
-      "name": "Richard Stambro",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Man in Bar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6455278",
-      "name": "Paul S. Thomas",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Detective Rawlings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7758085",
-      "name": "Beau Vannice",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shirl Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4038309",
-      "name": "Phil Yeary",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Boogeyman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1939774",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0240811",
+      "name": "John Dugan",
+      "sequence": 0,
+      "roles": [
+        "Dr. Harper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758088",
+      "name": "Rick Hansen",
+      "sequence": 1,
+      "roles": [
+        "Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7757981",
+      "name": "John Johnson",
+      "sequence": 2,
+      "roles": [
+        "Lester Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758086",
+      "name": "Gary Marshall",
+      "sequence": 3,
+      "roles": [
+        "Detective Marshall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758083",
+      "name": "Molly Redmon",
+      "sequence": 4,
+      "roles": [
+        "Rita Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758084",
+      "name": "Eykoz Russell",
+      "sequence": 5,
+      "roles": [
+        "Denny Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758087",
+      "name": "Richard Stambro",
+      "sequence": 6,
+      "roles": [
+        "Man in Bar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6455278",
+      "name": "Paul S. Thomas",
+      "sequence": 7,
+      "roles": [
+        "Detective Rawlings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7758085",
+      "name": "Beau Vannice",
+      "sequence": 8,
+      "roles": [
+        "Shirl Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4038309",
+      "name": "Phil Yeary",
+      "sequence": 9,
+      "roles": [
+        "The Boogeyman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000175",
       "name": "Stephen King",
+      "group": 0,
       "sequence": 0,
-      "notes": "(short story)",
-      "group_id": 0
+      "notes": "(short story)"
     }
   ],
   "release_date": "2014-09-07",

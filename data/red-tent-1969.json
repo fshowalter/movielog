@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0067315",
   "sort_title": "Red Tent (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002075",
-      "name": "Peter Finch",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Umberto Nobile"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Roald Amundsen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001012",
-      "name": "Claudia Cardinale",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Valeria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0473228",
-      "name": "Hardy Kr\u00fcger",
-      "sequence": 3,
-      "notes": "(as Hardy Kruger)",
-      "roles": [
-        "Einar Lundborg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554340",
-      "name": "Eduard Martsevich",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Finn Malmgren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301452",
-      "name": "Grigoriy Gay",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rudolf Samoylovich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0586482",
-      "name": "Nikita Mikhalkov",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Boris Chukhnovskiy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889274",
-      "name": "Luigi Vannucchi",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Captain Zappi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000728",
-      "name": "Mario Adorf",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Giuseppe Biagi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052023",
-      "name": "Donatas Banionis",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Adalberto Mariano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0320988",
-      "name": "Massimo Girotti",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Giuseppe Romagna Manoja"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813272",
-      "name": "Yuriy Solomin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Felice Trojani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0462122",
-      "name": "Otar Koberidze",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Natale Cecioni"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0451699",
-      "name": "Boris Khmelnitskiy",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Alfredo Viglieri"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0900413",
-      "name": "Yuriy Vizbor",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Frantisek Behounek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0412064",
-      "name": "Nikolay Ivanov",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Kolka Shmidt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807057",
-      "name": "Vladimir Smirnov",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Shelagin"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0435563",
@@ -164,48 +9,203 @@
       "notes": "(as Mickail K. Kalatozov)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002075",
+      "name": "Peter Finch",
+      "sequence": 0,
+      "roles": [
+        "Umberto Nobile"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 1,
+      "roles": [
+        "Roald Amundsen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001012",
+      "name": "Claudia Cardinale",
+      "sequence": 2,
+      "roles": [
+        "Valeria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0473228",
+      "name": "Hardy Kr\u00fcger",
+      "sequence": 3,
+      "roles": [
+        "Einar Lundborg"
+      ],
+      "notes": "(as Hardy Kruger)"
+    },
+    {
+      "person_imdb_id": "nm0554340",
+      "name": "Eduard Martsevich",
+      "sequence": 4,
+      "roles": [
+        "Finn Malmgren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301452",
+      "name": "Grigoriy Gay",
+      "sequence": 5,
+      "roles": [
+        "Rudolf Samoylovich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0586482",
+      "name": "Nikita Mikhalkov",
+      "sequence": 6,
+      "roles": [
+        "Boris Chukhnovskiy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889274",
+      "name": "Luigi Vannucchi",
+      "sequence": 7,
+      "roles": [
+        "Captain Zappi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000728",
+      "name": "Mario Adorf",
+      "sequence": 8,
+      "roles": [
+        "Giuseppe Biagi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052023",
+      "name": "Donatas Banionis",
+      "sequence": 9,
+      "roles": [
+        "Adalberto Mariano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0320988",
+      "name": "Massimo Girotti",
+      "sequence": 10,
+      "roles": [
+        "Giuseppe Romagna Manoja"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813272",
+      "name": "Yuriy Solomin",
+      "sequence": 11,
+      "roles": [
+        "Felice Trojani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0462122",
+      "name": "Otar Koberidze",
+      "sequence": 12,
+      "roles": [
+        "Natale Cecioni"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0451699",
+      "name": "Boris Khmelnitskiy",
+      "sequence": 13,
+      "roles": [
+        "Alfredo Viglieri"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0900413",
+      "name": "Yuriy Vizbor",
+      "sequence": 14,
+      "roles": [
+        "Frantisek Behounek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0412064",
+      "name": "Nikolay Ivanov",
+      "sequence": 15,
+      "roles": [
+        "Kolka Shmidt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807057",
+      "name": "Vladimir Smirnov",
+      "sequence": 16,
+      "roles": [
+        "Shelagin"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0208086",
       "name": "Ennio De Concini",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0011302",
       "name": "Richard DeLong Adams",
-      "sequence": 0,
-      "notes": "(screenplay by) (as Richard Adams)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by) (as Richard Adams)"
     },
     {
       "person_imdb_id": "nm0004122",
       "name": "Robert Bolt",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0146873",
       "name": "Alberto Cavallone",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0435563",
       "name": "Mikhail Kalatozov",
+      "group": 3,
       "sequence": 0,
-      "notes": "(writer) (uncredited)",
-      "group_id": 3
+      "notes": "(writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0619330",
       "name": "Yuriy Nagibin",
+      "group": 4,
       "sequence": 0,
-      "notes": "(original screenplay) (uncredited)",
-      "group_id": 4
+      "notes": "(original screenplay) (uncredited)"
     }
   ],
   "release_date": "1969-12-23",

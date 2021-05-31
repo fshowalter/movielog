@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0044916",
   "sort_title": "Monkey Business (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Barnaby Fulton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001677",
-      "name": "Ginger Rogers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. Edwina Fulton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002013",
-      "name": "Charles Coburn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. Oliver Oxley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miss Lois Laurel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549280",
-      "name": "Hugh Marlowe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hank Entwhistle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504728",
-      "name": "Henri Letondal",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Jerome Kitzel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180452",
-      "name": "Robert Cornthwaite",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Zoldeck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444122",
-      "name": "Larry Keating",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "G.J. Culverly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817930",
-      "name": "Douglas Spencer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Brunner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197689",
-      "name": "Esther Dale",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Rhinelander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935487",
-      "name": "George Winslow",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Little Indian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 25,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Man in Opening"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -119,44 +9,145 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Dr. Barnaby Fulton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001677",
+      "name": "Ginger Rogers",
+      "sequence": 1,
+      "roles": [
+        "Mrs. Edwina Fulton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002013",
+      "name": "Charles Coburn",
+      "sequence": 2,
+      "roles": [
+        "Mr. Oliver Oxley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 3,
+      "roles": [
+        "Miss Lois Laurel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549280",
+      "name": "Hugh Marlowe",
+      "sequence": 4,
+      "roles": [
+        "Hank Entwhistle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504728",
+      "name": "Henri Letondal",
+      "sequence": 5,
+      "roles": [
+        "Dr. Jerome Kitzel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180452",
+      "name": "Robert Cornthwaite",
+      "sequence": 6,
+      "roles": [
+        "Dr. Zoldeck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444122",
+      "name": "Larry Keating",
+      "sequence": 7,
+      "roles": [
+        "G.J. Culverly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0817930",
+      "name": "Douglas Spencer",
+      "sequence": 8,
+      "roles": [
+        "Dr. Brunner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197689",
+      "name": "Esther Dale",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Rhinelander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935487",
+      "name": "George Winslow",
+      "sequence": 10,
+      "roles": [
+        "Little Indian"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0781895",
       "name": "Harry Segall",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0001328",
       "name": "Howard Hawks",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (uncredited)"
     }
   ],
-  "release_date": "1952-09-02",
+  "release_date": "1952-08-29",
   "release_date_notes": "(Atlantic City, New Jersey) (premiere)",
   "countries": [
     "United States"

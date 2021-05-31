@@ -1,74 +1,6 @@
 {
   "imdb_id": "tt0058618",
   "sort_title": "Road to Fort Alamo (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0164153",
-      "name": "Ken Clark",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bill Mannerly",
-        "Bud Massidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163209",
-      "name": "Jany Clair",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Janet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0501471",
-      "name": "Michel Lemoine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Kid Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666743",
-      "name": "Andreina Paul",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077795",
-      "name": "Alberto Cevenini",
-      "sequence": 4,
-      "notes": "(as Kirk Bert)",
-      "roles": [
-        "Slim Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210519",
-      "name": "Gustavo De Nardo",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sergeant Warwick",
-        "Sergeant Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0333560",
-      "name": "Antonio Gradoli",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Captain Hull",
-        "Captain Hollis"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -77,34 +9,102 @@
       "notes": "(as John Old)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0164153",
+      "name": "Ken Clark",
+      "sequence": 0,
+      "roles": [
+        "Bill Mannerly",
+        "Bud Massidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163209",
+      "name": "Jany Clair",
+      "sequence": 1,
+      "roles": [
+        "Janet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0501471",
+      "name": "Michel Lemoine",
+      "sequence": 2,
+      "roles": [
+        "Kid Carson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666743",
+      "name": "Andreina Paul",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077795",
+      "name": "Alberto Cevenini",
+      "sequence": 4,
+      "roles": [
+        "Slim Kincaid"
+      ],
+      "notes": "(as Kirk Bert)"
+    },
+    {
+      "person_imdb_id": "nm0210519",
+      "name": "Gustavo De Nardo",
+      "sequence": 5,
+      "roles": [
+        "Sergeant Warwick",
+        "Sergeant Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0333560",
+      "name": "Antonio Gradoli",
+      "sequence": 6,
+      "roles": [
+        "Captain Hull",
+        "Captain Hollis"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0317233",
       "name": "Lorenzo Gicca Palli",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Vincent Thomas)",
-      "group_id": 0
+      "notes": "(screenplay) (as Vincent Thomas)"
     },
     {
       "person_imdb_id": "nm0698779",
       "name": "Francesco Prosperi",
-      "sequence": 0,
-      "notes": "(screenplay) (as Charles Price)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Charles Price)"
     },
     {
       "person_imdb_id": "nm0176193",
       "name": "Livia Contardi",
-      "sequence": 0,
-      "notes": "(screenplay) (as Jane Brisbane)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay) (as Jane Brisbane)"
     },
     {
       "person_imdb_id": "nm0317233",
       "name": "Lorenzo Gicca Palli",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Vincent Thomas)",
-      "group_id": 1
+      "notes": "(story) (as Vincent Thomas)"
     }
   ],
   "release_date": "1964-10-24",

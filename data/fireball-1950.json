@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0042463",
   "sort_title": "Fireball (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001682",
-      "name": "Mickey Rooney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnny Casar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002285",
-      "name": "Pat O'Brien",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Father O'Hara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878778",
-      "name": "Beverly Tyler",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mary Reeves"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113769",
-      "name": "James Brown",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241589",
-      "name": "Ralph Dumke",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bruno Crystal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0832065",
-      "name": "Milburn Stone",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jeff Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066765",
-      "name": "Bert Begley",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Shilling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Polly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282418",
-      "name": "Sam Flint",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0390228",
-      "name": "Glen Corbett",
-      "sequence": 9,
-      "notes": "(as Glenn Corbett)",
-      "roles": [
-        "Mack Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373335",
-      "name": "John Hedloe",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ullman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307819",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001682",
+      "name": "Mickey Rooney",
+      "sequence": 0,
+      "roles": [
+        "Johnny Casar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002285",
+      "name": "Pat O'Brien",
+      "sequence": 1,
+      "roles": [
+        "Father O'Hara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878778",
+      "name": "Beverly Tyler",
+      "sequence": 2,
+      "roles": [
+        "Mary Reeves"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113769",
+      "name": "James Brown",
+      "sequence": 3,
+      "roles": [
+        "Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241589",
+      "name": "Ralph Dumke",
+      "sequence": 4,
+      "roles": [
+        "Bruno Crystal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0832065",
+      "name": "Milburn Stone",
+      "sequence": 5,
+      "roles": [
+        "Jeff Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0066765",
+      "name": "Bert Begley",
+      "sequence": 6,
+      "roles": [
+        "Shilling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 7,
+      "roles": [
+        "Polly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282418",
+      "name": "Sam Flint",
+      "sequence": 8,
+      "roles": [
+        "Dr. Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0390228",
+      "name": "Glen Corbett",
+      "sequence": 9,
+      "roles": [
+        "Mack Miller"
+      ],
+      "notes": "(as Glenn Corbett)"
+    },
+    {
+      "person_imdb_id": "nm0373335",
+      "name": "John Hedloe",
+      "sequence": 10,
+      "roles": [
+        "Ullman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0307819",
       "name": "Tay Garnett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1950-10-07",

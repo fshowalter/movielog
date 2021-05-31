@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0048938",
   "sort_title": "Alias John Preston (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0820615",
-      "name": "Betta St. John",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sally Sandford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461594",
-      "name": "Alexander Knox",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Peter Walton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "John Preston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233893",
-      "name": "Sandra Dorne",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sylvia - In Dream",
-        "Maria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392497",
-      "name": "Patrick Holt",
-      "sequence": 4,
-      "notes": "(as Pat Holt)",
-      "roles": [
-        "Sylvia's Husband in Dream"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835738",
-      "name": "John Stuart",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Underwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292077",
-      "name": "Bill Fraser",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Newton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0310761",
-      "name": "Gabrielle Gay",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Seamstress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2013335",
-      "name": "Peter Grant",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bob Newton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203606",
-      "name": "Betty Ann Davies",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Sandford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519274",
-      "name": "John Longden",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Richard Sandford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521112",
-      "name": "Guido Lorraine",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Headwaiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736841",
-      "name": "Dinah Anne Rogers",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Phyllis"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0531674",
@@ -129,13 +9,133 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0820615",
+      "name": "Betta St. John",
+      "sequence": 0,
+      "roles": [
+        "Sally Sandford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461594",
+      "name": "Alexander Knox",
+      "sequence": 1,
+      "roles": [
+        "Dr. Peter Walton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "John Preston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233893",
+      "name": "Sandra Dorne",
+      "sequence": 3,
+      "roles": [
+        "Sylvia - In Dream",
+        "Maria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392497",
+      "name": "Patrick Holt",
+      "sequence": 4,
+      "roles": [
+        "Sylvia's Husband in Dream"
+      ],
+      "notes": "(as Pat Holt)"
+    },
+    {
+      "person_imdb_id": "nm0835738",
+      "name": "John Stuart",
+      "sequence": 5,
+      "roles": [
+        "Dr. Underwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292077",
+      "name": "Bill Fraser",
+      "sequence": 6,
+      "roles": [
+        "Joe Newton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0310761",
+      "name": "Gabrielle Gay",
+      "sequence": 7,
+      "roles": [
+        "Seamstress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2013335",
+      "name": "Peter Grant",
+      "sequence": 8,
+      "roles": [
+        "Bob Newton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203606",
+      "name": "Betty Ann Davies",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Sandford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519274",
+      "name": "John Longden",
+      "sequence": 10,
+      "roles": [
+        "Richard Sandford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521112",
+      "name": "Guido Lorraine",
+      "sequence": 11,
+      "roles": [
+        "Headwaiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736841",
+      "name": "Dinah Anne Rogers",
+      "sequence": 12,
+      "roles": [
+        "Phyllis"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0846073",
       "name": "Paul Tabori",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     }
   ],
   "release_date": "1955-12-14",

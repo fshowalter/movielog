@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0034182",
   "sort_title": "Shepherd of the Hills (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Young Matt Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275897",
-      "name": "Betty Field",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sammy Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002503",
-      "name": "Harry Carey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Daniel Howitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094135",
-      "name": "Beulah Bondi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Aunt Mollie Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0059165",
-      "name": "James Barton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Old Matt Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andy Beeler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537685",
-      "name": "Marjorie Main",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Granny Becky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Wash Gibbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492908",
-      "name": "Marc Lawrence",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pete Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702798",
-      "name": "John Qualen",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Coot Royal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460906",
-      "name": "Fuzzy Knight",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Palestrom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264900",
-      "name": "Tom Fadden",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jim Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398250",
-      "name": "Olin Howland",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Corky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010928",
-      "name": "Dorothy Adams",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Elvy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132921",
-      "name": "Virita Campbell",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Baby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256534",
-      "name": "Fern Emmett",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mrs. Palestrom"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0368871",
@@ -155,27 +9,173 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Young Matt Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275897",
+      "name": "Betty Field",
+      "sequence": 1,
+      "roles": [
+        "Sammy Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002503",
+      "name": "Harry Carey",
+      "sequence": 2,
+      "roles": [
+        "Daniel Howitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094135",
+      "name": "Beulah Bondi",
+      "sequence": 3,
+      "roles": [
+        "Aunt Mollie Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0059165",
+      "name": "James Barton",
+      "sequence": 4,
+      "roles": [
+        "Old Matt Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 5,
+      "roles": [
+        "Andy Beeler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537685",
+      "name": "Marjorie Main",
+      "sequence": 6,
+      "roles": [
+        "Granny Becky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 7,
+      "roles": [
+        "Wash Gibbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0492908",
+      "name": "Marc Lawrence",
+      "sequence": 8,
+      "roles": [
+        "Pete Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702798",
+      "name": "John Qualen",
+      "sequence": 9,
+      "roles": [
+        "Coot Royal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460906",
+      "name": "Fuzzy Knight",
+      "sequence": 10,
+      "roles": [
+        "Mr. Palestrom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264900",
+      "name": "Tom Fadden",
+      "sequence": 11,
+      "roles": [
+        "Jim Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398250",
+      "name": "Olin Howland",
+      "sequence": 12,
+      "roles": [
+        "Corky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010928",
+      "name": "Dorothy Adams",
+      "sequence": 13,
+      "roles": [
+        "Elvy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132921",
+      "name": "Virita Campbell",
+      "sequence": 14,
+      "roles": [
+        "Baby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256534",
+      "name": "Fern Emmett",
+      "sequence": 15,
+      "roles": [
+        "Mrs. Palestrom"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0942428",
       "name": "Harold Bell Wright",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0428177",
       "name": "Grover Jones",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0031019",
       "name": "Stuart Anthony",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1941-07-18",

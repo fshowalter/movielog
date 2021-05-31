@@ -1,174 +1,181 @@
 {
   "imdb_id": "tt0058567",
   "sort_title": "Blood and Black Lace (1964)",
-  "performers": [
+  "directors": [
+    {
+      "person_imdb_id": "nm0000878",
+      "name": "Mario Bava",
+      "sequence": 0,
+      "notes": ""
+    }
+  ],
+  "cast": [
     {
       "person_imdb_id": "nm0593192",
       "name": "Cameron Mitchell",
       "sequence": 0,
-      "notes": "",
       "roles": [
         "Massimo Morlacchi"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0058982",
       "name": "Eva Bartok",
       "sequence": 1,
-      "notes": "",
       "roles": [
         "Contessa Cristiana Cuomo"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0707030",
       "name": "Thomas Reiner",
       "sequence": 2,
-      "notes": "",
       "roles": [
         "Ispettore Silvestri"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0330965",
       "name": "Arianna Gorini",
       "sequence": 3,
-      "notes": "",
       "roles": [
         "Nicole"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0228099",
       "name": "Dante DiPaolo",
       "sequence": 4,
-      "notes": "(as Dante Di Paolo)",
       "roles": [
         "Franco Scalo"
-      ]
+      ],
+      "notes": "(as Dante Di Paolo)"
     },
     {
       "person_imdb_id": "nm0034001",
       "name": "Mary Arden",
       "sequence": 5,
-      "notes": "",
       "roles": [
         "Peggy Peyton"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0720381",
       "name": "Franco Ressel",
       "sequence": 6,
-      "notes": "",
       "roles": [
         "Marchese Riccardo Morelli"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0200613",
       "name": "Claude Dantes",
       "sequence": 7,
-      "notes": "",
       "roles": [
         "Tao-Li"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0683119",
       "name": "Luciano Pigozzi",
       "sequence": 8,
-      "notes": "",
       "roles": [
         "Cesare Lazzarini"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0484586",
       "name": "Lea Lander",
       "sequence": 9,
-      "notes": "(as Lea Krugher)",
       "roles": [
         "Greta"
-      ]
+      ],
+      "notes": "(as Lea Krugher)"
     },
     {
       "person_imdb_id": "nm0726741",
       "name": "Massimo Righi",
       "sequence": 10,
-      "notes": "",
       "roles": [
         "Marco"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0881106",
       "name": "Francesca Ungaro",
       "sequence": 11,
-      "notes": "",
       "roles": [
         "Isabella"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0706207",
       "name": "Giuliano Raffaelli",
       "sequence": 12,
-      "notes": "",
       "roles": [
         "Zanchin"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0575616",
       "name": "Harriet Medin",
       "sequence": 13,
-      "notes": "(as Hariette White Medin)",
       "roles": [
         "Clarissa"
-      ]
+      ],
+      "notes": "(as Hariette White Medin)"
     },
     {
       "person_imdb_id": "nm0138391",
       "name": "Mary Carmen",
       "sequence": 14,
-      "notes": "(as Mara Carmosino)",
       "roles": [
         "Model"
-      ]
+      ],
+      "notes": "(as Mara Carmosino)"
     },
     {
       "person_imdb_id": "nm0834790",
       "name": "Heidi Stroh",
       "sequence": 15,
-      "notes": "",
       "roles": [
         "Bleach Blond Model"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0148851",
       "name": "Enzo Cerusico",
       "sequence": 16,
-      "notes": "",
       "roles": [
         "Gas Station Attendant"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0031619",
       "name": "Nadia Anty",
       "sequence": 17,
-      "notes": "",
       "roles": [
         "Model"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0293659",
       "name": "Paul Frees",
       "sequence": 19,
-      "notes": "",
       "roles": [
         "Max",
         "Sylvester",
@@ -179,14 +186,7 @@
         "Attendant",
         "Butler",
         "Walla"
-      ]
-    }
-  ],
-  "directors": [
-    {
-      "person_imdb_id": "nm0000878",
-      "name": "Mario Bava",
-      "sequence": 0,
+      ],
       "notes": ""
     }
   ],
@@ -194,30 +194,30 @@
     {
       "person_imdb_id": "nm0284503",
       "name": "Marcello Fondato",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     },
     {
       "person_imdb_id": "nm0054654",
       "name": "Giuseppe Barilla",
+      "group": 1,
       "sequence": 0,
-      "notes": "(collaboration)",
-      "group_id": 1
+      "notes": "(collaboration)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(collaboration)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(collaboration)"
     },
     {
       "person_imdb_id": "nm0034001",
       "name": "Mary Arden",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation) (as Kelly Leon)",
-      "group_id": 2
+      "notes": "(adaptation) (as Kelly Leon)"
     }
   ],
   "release_date": "1964-04-10",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0021697",
   "sort_title": "Broadminded (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0113873",
-      "name": "Joe E. Brown",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ossie Simpson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0613262",
-      "name": "Ona Munson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Constance Palmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171873",
-      "name": "William Collier Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jack Hackett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925175",
-      "name": "Marjorie White",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Penny Packer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378555",
-      "name": "Holmes Herbert",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John J. Hackett Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0515272",
-      "name": "Margaret Livingston",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mabel Robinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865298",
-      "name": "Thelma Todd",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gertie Gardner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pancho Arango"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358989",
-      "name": "Grayce Hampton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Aunt Polly"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0503777",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0113873",
+      "name": "Joe E. Brown",
+      "sequence": 0,
+      "roles": [
+        "Ossie Simpson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0613262",
+      "name": "Ona Munson",
+      "sequence": 1,
+      "roles": [
+        "Constance Palmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171873",
+      "name": "William Collier Jr.",
+      "sequence": 2,
+      "roles": [
+        "Jack Hackett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925175",
+      "name": "Marjorie White",
+      "sequence": 3,
+      "roles": [
+        "Penny Packer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378555",
+      "name": "Holmes Herbert",
+      "sequence": 4,
+      "roles": [
+        "John J. Hackett Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0515272",
+      "name": "Margaret Livingston",
+      "sequence": 5,
+      "roles": [
+        "Mabel Robinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865298",
+      "name": "Thelma Todd",
+      "sequence": 6,
+      "roles": [
+        "Gertie Gardner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 7,
+      "roles": [
+        "Pancho Arango"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358989",
+      "name": "Grayce Hampton",
+      "sequence": 8,
+      "roles": [
+        "Aunt Polly"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0436095",
       "name": "Bert Kalmar",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0748438",
       "name": "Harry Ruby",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1931-08-01",

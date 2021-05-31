@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0046786",
   "sort_title": "Black Knight (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000042",
-      "name": "Alan Ladd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575756",
-      "name": "Patricia Medina",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Linet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603682",
-      "name": "Andr\u00e9 Morell",
-      "sequence": 2,
-      "notes": "(as Andre Morell)",
-      "roles": [
-        "Sir Ontzlake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028674",
-      "name": "Harry Andrews",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Earl Of Yeonil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sir Palamides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124236",
-      "name": "Anthony Bushell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "King Arthur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619802",
-      "name": "Laurence Naismith",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Major Domo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873743",
-      "name": "Patrick Troughton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "King Mark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104737",
-      "name": "Bill Brandon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bernard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010580",
-      "name": "Ronald Adam",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Abbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0032341",
-      "name": "Basil Appleby",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sir Hal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1713572",
-      "name": "Thomas Moore",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Apprentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517095",
-      "name": "Jean Lodge",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Queen Guenevere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0417070",
-      "name": "Pauline Jameson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Lady Yeonil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446512",
-      "name": "John Kelly",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Woodchopper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0491406",
-      "name": "John Laurie",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111802",
-      "name": "Olwen Brookes",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Lady Ontzlake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658816",
-      "name": "David Paltenghi",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "High Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371007",
-      "name": "Elton Hayes",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Minstrel"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307819",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000042",
+      "name": "Alan Ladd",
+      "sequence": 0,
+      "roles": [
+        "John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0575756",
+      "name": "Patricia Medina",
+      "sequence": 1,
+      "roles": [
+        "Linet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603682",
+      "name": "Andr\u00e9 Morell",
+      "sequence": 2,
+      "roles": [
+        "Sir Ontzlake"
+      ],
+      "notes": "(as Andre Morell)"
+    },
+    {
+      "person_imdb_id": "nm0028674",
+      "name": "Harry Andrews",
+      "sequence": 3,
+      "roles": [
+        "Earl Of Yeonil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 4,
+      "roles": [
+        "Sir Palamides"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124236",
+      "name": "Anthony Bushell",
+      "sequence": 5,
+      "roles": [
+        "King Arthur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619802",
+      "name": "Laurence Naismith",
+      "sequence": 6,
+      "roles": [
+        "Major Domo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873743",
+      "name": "Patrick Troughton",
+      "sequence": 7,
+      "roles": [
+        "King Mark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104737",
+      "name": "Bill Brandon",
+      "sequence": 8,
+      "roles": [
+        "Bernard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010580",
+      "name": "Ronald Adam",
+      "sequence": 9,
+      "roles": [
+        "The Abbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0032341",
+      "name": "Basil Appleby",
+      "sequence": 10,
+      "roles": [
+        "Sir Hal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1713572",
+      "name": "Thomas Moore",
+      "sequence": 11,
+      "roles": [
+        "The Apprentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517095",
+      "name": "Jean Lodge",
+      "sequence": 12,
+      "roles": [
+        "Queen Guenevere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0417070",
+      "name": "Pauline Jameson",
+      "sequence": 13,
+      "roles": [
+        "Lady Yeonil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446512",
+      "name": "John Kelly",
+      "sequence": 14,
+      "roles": [
+        "The Woodchopper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0491406",
+      "name": "John Laurie",
+      "sequence": 15,
+      "roles": [
+        "James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111802",
+      "name": "Olwen Brookes",
+      "sequence": 16,
+      "roles": [
+        "Lady Ontzlake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658816",
+      "name": "David Paltenghi",
+      "sequence": 17,
+      "roles": [
+        "High Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371007",
+      "name": "Elton Hayes",
+      "sequence": 18,
+      "roles": [
+        "Minstrel"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0178785",
       "name": "Alec Coppel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0641454",
       "name": "Dennis O'Keefe",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0285302",
       "name": "Bryan Forbes",
-      "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1954-08-26",

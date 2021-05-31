@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0081987",
   "sort_title": "Tale of Africa (1980)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Old Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768455",
-      "name": "Philip Sayer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0441280",
-      "name": "Kathy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885198",
-      "name": "Eleonora Vallone",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799371",
-      "name": "Heekura Simba",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Elder"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0359869",
@@ -62,20 +15,67 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0855446",
-      "name": "Sh\u00fbji Terayama",
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "roles": [
+        "Old Man"
+      ],
+      "notes": ""
     },
+    {
+      "person_imdb_id": "nm0768455",
+      "name": "Philip Sayer",
+      "sequence": 1,
+      "roles": [
+        "Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0441280",
+      "name": "Kathy",
+      "sequence": 2,
+      "roles": [
+        "Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885198",
+      "name": "Eleonora Vallone",
+      "sequence": 3,
+      "roles": [
+        "Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799371",
+      "name": "Heekura Simba",
+      "sequence": 4,
+      "roles": [
+        "Elder"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
     {
       "person_imdb_id": "nm0875321",
       "name": "Shintar\u00f4 Tsuji",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0855446",
+      "name": "Sh\u00fbji Terayama",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1980-07-19",

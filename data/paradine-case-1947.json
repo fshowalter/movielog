@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0039694",
   "sort_title": "Paradine Case (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000060",
-      "name": "Gregory Peck",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anthony Keane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002897",
-      "name": "Ann Todd",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gay Keane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001452",
-      "name": "Charles Laughton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Judge Lord Thomas Horfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002013",
-      "name": "Charles Coburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sir Simon Flaquer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000856",
-      "name": "Ethel Barrymore",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lady Sophie Horfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431139",
-      "name": "Louis Jourdan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andre Latour"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885098",
-      "name": "Alida Valli",
-      "sequence": 6,
-      "notes": "(as Valli)",
-      "roles": [
-        "Maddalena Anna Paradine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001991",
-      "name": "Leo G. Carroll",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sir Joseph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856583",
-      "name": "Joan Tetzel",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Judy Flaquer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255695",
-      "name": "Isobel Elsom",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Innkeeper"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -101,44 +9,136 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000060",
+      "name": "Gregory Peck",
+      "sequence": 0,
+      "roles": [
+        "Anthony Keane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002897",
+      "name": "Ann Todd",
+      "sequence": 1,
+      "roles": [
+        "Gay Keane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001452",
+      "name": "Charles Laughton",
+      "sequence": 2,
+      "roles": [
+        "Judge Lord Thomas Horfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002013",
+      "name": "Charles Coburn",
+      "sequence": 3,
+      "roles": [
+        "Sir Simon Flaquer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000856",
+      "name": "Ethel Barrymore",
+      "sequence": 4,
+      "roles": [
+        "Lady Sophie Horfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431139",
+      "name": "Louis Jourdan",
+      "sequence": 5,
+      "roles": [
+        "Andre Latour"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885098",
+      "name": "Alida Valli",
+      "sequence": 6,
+      "roles": [
+        "Maddalena Anna Paradine"
+      ],
+      "notes": "(as Valli)"
+    },
+    {
+      "person_imdb_id": "nm0001991",
+      "name": "Leo G. Carroll",
+      "sequence": 7,
+      "roles": [
+        "Sir Joseph"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856583",
+      "name": "Joan Tetzel",
+      "sequence": 8,
+      "roles": [
+        "Judy Flaquer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255695",
+      "name": "Isobel Elsom",
+      "sequence": 9,
+      "roles": [
+        "Innkeeper"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0382562",
       "name": "Robert Hichens",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 0
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0720904",
       "name": "Alma Reville",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0006388",
       "name": "David O. Selznick",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0108833",
       "name": "James Bridie",
+      "group": 3,
       "sequence": 0,
-      "notes": "(treatment in consultation with) (uncredited)",
-      "group_id": 3
+      "notes": "(treatment in consultation with) (uncredited)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 4,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 4
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
-  "release_date": "1947-12-30",
+  "release_date": "1947-12-29",
   "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United States"

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0039288",
   "sort_title": "Cry Wolf (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mark Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001766",
-      "name": "Barbara Stanwyck",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sandra Marshall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111997",
-      "name": "Geraldine Brooks",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Julie Demarest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000865",
-      "name": "Richard Basehart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "James Demarest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Senator Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jackson Laidell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058117",
-      "name": "Patricia Barry",
-      "sequence": 6,
-      "notes": "(as Patricia White)",
-      "roles": [
-        "Angela"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540047",
-      "name": "Rory Mallinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Becket"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0858162",
-      "name": "Helene Thimig",
-      "sequence": 8,
-      "notes": "(as Helen Thimig)",
-      "roles": [
-        "Marta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822792",
-      "name": "Paul Stanton",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Davenport"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0076150",
-      "name": "Barry Bernard",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Roberts - Groom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254502",
-      "name": "John Elliott",
-      "sequence": 11,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Clergyman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0324013",
@@ -119,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Mark Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001766",
+      "name": "Barbara Stanwyck",
+      "sequence": 1,
+      "roles": [
+        "Sandra Marshall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111997",
+      "name": "Geraldine Brooks",
+      "sequence": 2,
+      "roles": [
+        "Julie Demarest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000865",
+      "name": "Richard Basehart",
+      "sequence": 3,
+      "roles": [
+        "James Demarest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 4,
+      "roles": [
+        "Senator Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 5,
+      "roles": [
+        "Jackson Laidell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058117",
+      "name": "Patricia Barry",
+      "sequence": 6,
+      "roles": [
+        "Angela"
+      ],
+      "notes": "(as Patricia White)"
+    },
+    {
+      "person_imdb_id": "nm0540047",
+      "name": "Rory Mallinson",
+      "sequence": 7,
+      "roles": [
+        "Becket"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0858162",
+      "name": "Helene Thimig",
+      "sequence": 8,
+      "roles": [
+        "Marta"
+      ],
+      "notes": "(as Helen Thimig)"
+    },
+    {
+      "person_imdb_id": "nm0822792",
+      "name": "Paul Stanton",
+      "sequence": 9,
+      "roles": [
+        "Davenport"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0076150",
+      "name": "Barry Bernard",
+      "sequence": 10,
+      "roles": [
+        "Roberts - Groom"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0877957",
       "name": "Catherine Turney",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm2803228",
       "name": "Marjorie Carleton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1947-07-18",

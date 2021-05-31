@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0034172",
   "sort_title": "Shadow of the Thin Man (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nick Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625167",
-      "name": "Barry Nelson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul Clarke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001656",
-      "name": "Donna Reed",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Molly Ford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0505249",
-      "name": "Sam Levene",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Police Lt. Abrams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062667",
-      "name": "Alan Baxter",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "'Whitey' Barrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Maj. Jason I. Sculley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355501",
-      "name": "Richard Hall",
-      "sequence": 7,
-      "notes": "(as Dickie Hall)",
-      "roles": [
-        "Nick Charles Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012245",
-      "name": "Stella Adler",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Claire Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809143",
-      "name": "Loring Smith",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "'Link' Stephens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030917",
-      "name": "Joseph Anthony",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Fred Macy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0523912",
-      "name": "Lou Lubin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "'Rainbow' Benny Lumis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064792",
-      "name": "Louise Beavers",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Stella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1208817",
-      "name": "Asta",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Asta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933489",
-      "name": "Harry Wilson",
-      "sequence": 94,
-      "notes": "",
-      "roles": [
-        "Mug Shoving Waiter",
-        "Racetrack Security Guard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0886754",
@@ -147,27 +9,165 @@
       "notes": "(as Maj. W.S. Van Dyke II)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Nick Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Nora Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625167",
+      "name": "Barry Nelson",
+      "sequence": 2,
+      "roles": [
+        "Paul Clarke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001656",
+      "name": "Donna Reed",
+      "sequence": 3,
+      "roles": [
+        "Molly Ford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0505249",
+      "name": "Sam Levene",
+      "sequence": 4,
+      "roles": [
+        "Police Lt. Abrams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0062667",
+      "name": "Alan Baxter",
+      "sequence": 5,
+      "roles": [
+        "'Whitey' Barrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 6,
+      "roles": [
+        "Maj. Jason I. Sculley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355501",
+      "name": "Richard Hall",
+      "sequence": 7,
+      "roles": [
+        "Nick Charles Jr."
+      ],
+      "notes": "(as Dickie Hall)"
+    },
+    {
+      "person_imdb_id": "nm0012245",
+      "name": "Stella Adler",
+      "sequence": 8,
+      "roles": [
+        "Claire Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0809143",
+      "name": "Loring Smith",
+      "sequence": 9,
+      "roles": [
+        "'Link' Stephens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030917",
+      "name": "Joseph Anthony",
+      "sequence": 10,
+      "roles": [
+        "Fred Macy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0523912",
+      "name": "Lou Lubin",
+      "sequence": 11,
+      "roles": [
+        "'Rainbow' Benny Lumis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064792",
+      "name": "Louise Beavers",
+      "sequence": 12,
+      "roles": [
+        "Stella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1208817",
+      "name": "Asta",
+      "sequence": 13,
+      "roles": [
+        "Asta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933489",
+      "name": "Harry Wilson",
+      "sequence": 94,
+      "roles": [
+        "Mug Shoving Waiter",
+        "Racetrack Security Guard"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0106505",
       "name": "Irving Brecher",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0475823",
       "name": "Harry Kurnitz",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0475823",
       "name": "Harry Kurnitz",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     }
   ],
   "release_date": "1941-11-01",

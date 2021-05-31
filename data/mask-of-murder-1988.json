@@ -1,132 +1,6 @@
 {
   "imdb_id": "tt0089561",
   "sort_title": "Mask of Murder (1988)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001792",
-      "name": "Rod Taylor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Supt. Bob McLaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0674781",
-      "name": "Valerie Perrine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Marianne McLaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Chief Supt. Jonathan Rich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177273",
-      "name": "Sam Cook",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Supt. Ray Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362202",
-      "name": "Terrence Hardiman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Paul Crossland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394077",
-      "name": "Heinz Hopf",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Carlos, the Hairdresser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571345",
-      "name": "Christine McKenna",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Vicky Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371340",
-      "name": "Cyd Hayman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Child Psychologist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365740",
-      "name": "Mark Harrison",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Martin Engels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0220621",
-      "name": "Petrina Derrington",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sonja Lawson, the Stripper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0347415",
-      "name": "Christopher Guinnes",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0107285",
-      "name": "Frank Brennan",
-      "sequence": 11,
-      "notes": "(as Frank Brannan)",
-      "roles": [
-        "Johannes Krantz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715181",
-      "name": "Bill Redvers",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Police Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0678534",
-      "name": "Hj\u00f6rdis Petterson",
-      "sequence": 13,
-      "notes": "(as Hjordis Petterson)",
-      "roles": [
-        "Ida Swanson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0560489",
@@ -135,13 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001792",
+      "name": "Rod Taylor",
+      "sequence": 0,
+      "roles": [
+        "Supt. Bob McLaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0674781",
+      "name": "Valerie Perrine",
+      "sequence": 1,
+      "roles": [
+        "Marianne McLaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Chief Supt. Jonathan Rich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0177273",
+      "name": "Sam Cook",
+      "sequence": 3,
+      "roles": [
+        "Supt. Ray Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362202",
+      "name": "Terrence Hardiman",
+      "sequence": 4,
+      "roles": [
+        "Dr. Paul Crossland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394077",
+      "name": "Heinz Hopf",
+      "sequence": 5,
+      "roles": [
+        "Carlos, the Hairdresser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571345",
+      "name": "Christine McKenna",
+      "sequence": 6,
+      "roles": [
+        "Vicky Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371340",
+      "name": "Cyd Hayman",
+      "sequence": 7,
+      "roles": [
+        "Child Psychologist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365740",
+      "name": "Mark Harrison",
+      "sequence": 8,
+      "roles": [
+        "Martin Engels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0220621",
+      "name": "Petrina Derrington",
+      "sequence": 9,
+      "roles": [
+        "Sonja Lawson, the Stripper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0347415",
+      "name": "Christopher Guinnes",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107285",
+      "name": "Frank Brennan",
+      "sequence": 11,
+      "roles": [
+        "Johannes Krantz"
+      ],
+      "notes": "(as Frank Brannan)"
+    },
+    {
+      "person_imdb_id": "nm0715181",
+      "name": "Bill Redvers",
+      "sequence": 12,
+      "roles": [
+        "Police Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0678534",
+      "name": "Hj\u00f6rdis Petterson",
+      "sequence": 13,
+      "roles": [
+        "Ida Swanson"
+      ],
+      "notes": "(as Hjordis Petterson)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0783802",
       "name": "Volodja Semitjov",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1988-12-01",

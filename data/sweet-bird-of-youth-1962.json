@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0056541",
   "sort_title": "Sweet Bird of Youth (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Chance Wayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656183",
-      "name": "Geraldine Page",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alexandra Del Lago"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004309",
-      "name": "Shirley Knight",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Heavenly Finley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003225",
-      "name": "Ed Begley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "'Boss' Finley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001800",
-      "name": "Rip Torn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Thomas J. Finley, Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242972",
-      "name": "Mildred Dunnock",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Aunt Nonnie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792828",
-      "name": "Madeleine Sherwood",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miss Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0008041",
-      "name": "Philip Abbott",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. George Scudder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001904",
-      "name": "Corey Allen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Scotty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128638",
-      "name": "Barry Cahill",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852305",
-      "name": "Dub Taylor",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dan Hatcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235093",
-      "name": "James Douglas",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Leroy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041136",
-      "name": "Barry Atwater",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Ben Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036792",
-      "name": "Charles Arnt",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mayor Henricks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175639",
-      "name": "Dorothy Konrad",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mrs. Maribelle Norris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151383",
-      "name": "James Chandler",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Professor Brutus Haven Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824778",
-      "name": "Mike Steen",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861200",
-      "name": "Kelly Thordsen",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Sheriff Clark"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0112218",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Chance Wayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656183",
+      "name": "Geraldine Page",
+      "sequence": 1,
+      "roles": [
+        "Alexandra Del Lago"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004309",
+      "name": "Shirley Knight",
+      "sequence": 2,
+      "roles": [
+        "Heavenly Finley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003225",
+      "name": "Ed Begley",
+      "sequence": 3,
+      "roles": [
+        "'Boss' Finley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001800",
+      "name": "Rip Torn",
+      "sequence": 4,
+      "roles": [
+        "Thomas J. Finley, Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242972",
+      "name": "Mildred Dunnock",
+      "sequence": 5,
+      "roles": [
+        "Aunt Nonnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792828",
+      "name": "Madeleine Sherwood",
+      "sequence": 6,
+      "roles": [
+        "Miss Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0008041",
+      "name": "Philip Abbott",
+      "sequence": 7,
+      "roles": [
+        "Dr. George Scudder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001904",
+      "name": "Corey Allen",
+      "sequence": 8,
+      "roles": [
+        "Scotty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128638",
+      "name": "Barry Cahill",
+      "sequence": 9,
+      "roles": [
+        "Bud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852305",
+      "name": "Dub Taylor",
+      "sequence": 10,
+      "roles": [
+        "Dan Hatcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235093",
+      "name": "James Douglas",
+      "sequence": 11,
+      "roles": [
+        "Leroy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041136",
+      "name": "Barry Atwater",
+      "sequence": 12,
+      "roles": [
+        "Ben Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036792",
+      "name": "Charles Arnt",
+      "sequence": 13,
+      "roles": [
+        "Mayor Henricks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175639",
+      "name": "Dorothy Konrad",
+      "sequence": 14,
+      "roles": [
+        "Mrs. Maribelle Norris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151383",
+      "name": "James Chandler",
+      "sequence": 15,
+      "roles": [
+        "Professor Brutus Haven Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824778",
+      "name": "Mike Steen",
+      "sequence": 16,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861200",
+      "name": "Kelly Thordsen",
+      "sequence": 17,
+      "roles": [
+        "Sheriff Clark"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0931783",
       "name": "Tennessee Williams",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Sweet Bird of Youth\")",
-      "group_id": 0
+      "notes": "(play \"Sweet Bird of Youth\")"
     },
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 1
+      "notes": "(written for the screen by)"
     }
   ],
   "release_date": "1962-03-21",

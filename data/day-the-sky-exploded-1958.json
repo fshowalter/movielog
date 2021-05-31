@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0051951",
   "sort_title": "Day the Sky Exploded (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0007098",
-      "name": "Paul Hubschmid",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John McLaren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279036",
-      "name": "Madeleine Fischer",
-      "sequence": 1,
-      "notes": "(as Madeline Fischer)",
-      "roles": [
-        "Katy Dandridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0546918",
-      "name": "Fiorella Mari",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mary McLaren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307995",
-      "name": "Ivo Garrani",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Prof. Herbert Weisse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0584266",
-      "name": "Dario Michaelis",
-      "sequence": 4,
-      "notes": "(as Darrio Michaelis)",
-      "roles": [
-        "Peter Leduq"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0303351",
-      "name": "Sam Galter",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Randowsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216628",
-      "name": "Jean-Jacques Delbo",
-      "sequence": 6,
-      "notes": "(as Jean Jacques Delbo)",
-      "roles": [
-        "Sergei Boetnikov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0727300",
-      "name": "Shane Rimmer",
-      "sequence": 12,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "John McLaren"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0381870",
@@ -89,31 +15,96 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0007098",
+      "name": "Paul Hubschmid",
+      "sequence": 0,
+      "roles": [
+        "John McLaren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279036",
+      "name": "Madeleine Fischer",
+      "sequence": 1,
+      "roles": [
+        "Katy Dandridge"
+      ],
+      "notes": "(as Madeline Fischer)"
+    },
+    {
+      "person_imdb_id": "nm0546918",
+      "name": "Fiorella Mari",
+      "sequence": 2,
+      "roles": [
+        "Mary McLaren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307995",
+      "name": "Ivo Garrani",
+      "sequence": 3,
+      "roles": [
+        "Prof. Herbert Weisse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0584266",
+      "name": "Dario Michaelis",
+      "sequence": 4,
+      "roles": [
+        "Peter Leduq"
+      ],
+      "notes": "(as Darrio Michaelis)"
+    },
+    {
+      "person_imdb_id": "nm0303351",
+      "name": "Sam Galter",
+      "sequence": 5,
+      "roles": [
+        "Randowsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0216628",
+      "name": "Jean-Jacques Delbo",
+      "sequence": 6,
+      "roles": [
+        "Sergei Boetnikov"
+      ],
+      "notes": "(as Jean Jacques Delbo)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0754670",
       "name": "Virgilio Sabel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0181753",
       "name": "Marcello Coscia",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0176420",
       "name": "Sandro Continenza",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
-  "release_date": "1958-09-05",
-  "release_date_notes": "(Rome)",
+  "release_date": "1958-09-04",
+  "release_date_notes": "",
   "countries": [
     "Italy",
     "France"

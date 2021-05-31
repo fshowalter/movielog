@@ -47,7 +47,9 @@ def serialize(
 def deserialize_all(
     folder_name: str, callback: Callable[[str], WatchlistEntityTypeVar]
 ) -> Sequence[WatchlistEntityTypeVar]:
-    logger.log("==== Begin reading {} from disk...", folder_name)
+    logger.log(
+        "==== Begin reading {} from disk...", "watchlist {0}".format(folder_name)
+    )
 
     file_paths = glob(os.path.join(FOLDER_PATH, folder_name, "*.json"))
 
@@ -56,7 +58,7 @@ def deserialize_all(
     logger.log(
         "Read {} {}.",
         format_tools.humanize_int(len(entities)),
-        folder_name,
+        "watchlist {0}".format(folder_name),
     )
 
     return entities

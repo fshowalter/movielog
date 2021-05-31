@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0048976",
   "sort_title": "Backlash (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001847",
-      "name": "Richard Widmark",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001656",
-      "name": "Donna Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Karyl Orton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132930",
-      "name": "William Campbell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johnny Cool"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570615",
-      "name": "John McIntire",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jim Bonniwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sgt. George Lake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604702",
-      "name": "Harry Morgan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tony Welker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929057",
-      "name": "Robert J. Wilke",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jeff Welker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483173",
-      "name": "Jack Lambert",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mike Benton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731507",
-      "name": "Roy Roberts",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Maj. Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686857",
-      "name": "Edward Platt",
-      "sequence": 9,
-      "notes": "(as Edward C. Platt)",
-      "roles": [
-        "Sheriff J.C. Marson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288311",
-      "name": "Robert Foulk",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheriff John F. Olson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0150418",
-      "name": "Phil Chambers",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Deputy Sheriff Dobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0059152",
-      "name": "Gregg Barton",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sleepy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0334040",
-      "name": "Fred Graham",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Ned McCloud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153759",
-      "name": "Frank Chase",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Cassidy, Shotgun Rider"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001847",
+      "name": "Richard Widmark",
+      "sequence": 0,
+      "roles": [
+        "Jim Slater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001656",
+      "name": "Donna Reed",
+      "sequence": 1,
+      "roles": [
+        "Karyl Orton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132930",
+      "name": "William Campbell",
+      "sequence": 2,
+      "roles": [
+        "Johnny Cool"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570615",
+      "name": "John McIntire",
+      "sequence": 3,
+      "roles": [
+        "Jim Bonniwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 4,
+      "roles": [
+        "Sgt. George Lake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604702",
+      "name": "Harry Morgan",
+      "sequence": 5,
+      "roles": [
+        "Tony Welker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929057",
+      "name": "Robert J. Wilke",
+      "sequence": 6,
+      "roles": [
+        "Jeff Welker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483173",
+      "name": "Jack Lambert",
+      "sequence": 7,
+      "roles": [
+        "Mike Benton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731507",
+      "name": "Roy Roberts",
+      "sequence": 8,
+      "roles": [
+        "Maj. Carson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686857",
+      "name": "Edward Platt",
+      "sequence": 9,
+      "roles": [
+        "Sheriff J.C. Marson"
+      ],
+      "notes": "(as Edward C. Platt)"
+    },
+    {
+      "person_imdb_id": "nm0288311",
+      "name": "Robert Foulk",
+      "sequence": 10,
+      "roles": [
+        "Sheriff John F. Olson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0150418",
+      "name": "Phil Chambers",
+      "sequence": 11,
+      "roles": [
+        "Deputy Sheriff Dobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0059152",
+      "name": "Gregg Barton",
+      "sequence": 12,
+      "roles": [
+        "Sleepy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0334040",
+      "name": "Fred Graham",
+      "sequence": 13,
+      "roles": [
+        "Ned McCloud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153759",
+      "name": "Frank Chase",
+      "sequence": 14,
+      "roles": [
+        "Cassidy, Shotgun Rider"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0344246",
       "name": "Frank Gruber",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0153698",
       "name": "Borden Chase",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1956-03-01",

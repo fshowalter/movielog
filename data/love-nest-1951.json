@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0043759",
   "sort_title": "Love Nest (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0369792",
-      "name": "June Haver",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Connie Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526485",
-      "name": "William Lundigan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jim Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269567",
-      "name": "Frank Fay",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charles Kenneth 'Charley' Patterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Roberta 'Bobbie' Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654967",
-      "name": "Jack Paar",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ed Forbes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431433",
-      "name": "Leatrice Joy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eadie Gaynor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0474628",
-      "name": "Henry Kulky",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "George Thompson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0628149",
@@ -74,20 +9,85 @@
       "notes": "(as Joseph Newman)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0369792",
+      "name": "June Haver",
+      "sequence": 0,
+      "roles": [
+        "Connie Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526485",
+      "name": "William Lundigan",
+      "sequence": 1,
+      "roles": [
+        "Jim Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269567",
+      "name": "Frank Fay",
+      "sequence": 2,
+      "roles": [
+        "Charles Kenneth 'Charley' Patterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 3,
+      "roles": [
+        "Roberta 'Bobbie' Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654967",
+      "name": "Jack Paar",
+      "sequence": 4,
+      "roles": [
+        "Ed Forbes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431433",
+      "name": "Leatrice Joy",
+      "sequence": 5,
+      "roles": [
+        "Eadie Gaynor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0474628",
+      "name": "Henry Kulky",
+      "sequence": 6,
+      "roles": [
+        "George Thompson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm1140632",
       "name": "Scott Corbett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Reluctant Landlord\")",
-      "group_id": 1
+      "notes": "(novel \"The Reluctant Landlord\")"
     }
   ],
   "release_date": "1951-10-10",

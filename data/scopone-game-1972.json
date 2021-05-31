@@ -1,182 +1,6 @@
 {
   "imdb_id": "tt0069235",
   "sort_title": "Scopone Game (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0814773",
-      "name": "Alberto Sordi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Peppino"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542146",
-      "name": "Silvana Mangano",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Antonia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Millionairess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139213",
-      "name": "Mario Carotenuto",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The 'Professor'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0595340",
-      "name": "Domenico Modugno",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Righetto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218028",
-      "name": "Antonella Di Maggio",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Cleopatra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0239359",
-      "name": "Daniele Dublino",
-      "sequence": 7,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0499583",
-      "name": "Luciana Lehar",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jolanda, Peppino's sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768719",
-      "name": "Franca Scagnetti",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pasqualina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551428",
-      "name": "Luciano Martana",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0135372",
-      "name": "Aristide Caporale",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm3381936",
-      "name": "Alfredo Capri",
-      "sequence": 12,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0685595",
-      "name": "Goffredo Pistoni",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm3389016",
-      "name": "Leonardo Pantaleo",
-      "sequence": 14,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0148669",
-      "name": "Guido Cerniglia",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm1064892",
-      "name": "Emilio Cappuccio",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm3382109",
-      "name": "Dante Cecilia",
-      "sequence": 17,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm3386345",
-      "name": "Riccardo Perucchetti",
-      "sequence": 18,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0605195",
-      "name": "Piero Morgia",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Jolanda's pimp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0031412",
-      "name": "Luigi Antonio Guerra",
-      "sequence": 20,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0308236",
-      "name": "Fabio Garriba",
-      "sequence": 21,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0173728",
@@ -185,13 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0814773",
+      "name": "Alberto Sordi",
+      "sequence": 0,
+      "roles": [
+        "Peppino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0542146",
+      "name": "Silvana Mangano",
+      "sequence": 1,
+      "roles": [
+        "Antonia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
+      "sequence": 2,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 3,
+      "roles": [
+        "The Millionairess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0139213",
+      "name": "Mario Carotenuto",
+      "sequence": 4,
+      "roles": [
+        "The 'Professor'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0595340",
+      "name": "Domenico Modugno",
+      "sequence": 5,
+      "roles": [
+        "Righetto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218028",
+      "name": "Antonella Di Maggio",
+      "sequence": 6,
+      "roles": [
+        "Cleopatra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0239359",
+      "name": "Daniele Dublino",
+      "sequence": 7,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0499583",
+      "name": "Luciana Lehar",
+      "sequence": 8,
+      "roles": [
+        "Jolanda, Peppino's sister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768719",
+      "name": "Franca Scagnetti",
+      "sequence": 9,
+      "roles": [
+        "Pasqualina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551428",
+      "name": "Luciano Martana",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0135372",
+      "name": "Aristide Caporale",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3381936",
+      "name": "Alfredo Capri",
+      "sequence": 12,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685595",
+      "name": "Goffredo Pistoni",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3389016",
+      "name": "Leonardo Pantaleo",
+      "sequence": 14,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0148669",
+      "name": "Guido Cerniglia",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1064892",
+      "name": "Emilio Cappuccio",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3382109",
+      "name": "Dante Cecilia",
+      "sequence": 17,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3386345",
+      "name": "Riccardo Perucchetti",
+      "sequence": 18,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605195",
+      "name": "Piero Morgia",
+      "sequence": 19,
+      "roles": [
+        "Jolanda's pimp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0031412",
+      "name": "Luigi Antonio Guerra",
+      "sequence": 20,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308236",
+      "name": "Fabio Garriba",
+      "sequence": 21,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0814242",
       "name": "Rodolfo Sonego",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1972-09-24",

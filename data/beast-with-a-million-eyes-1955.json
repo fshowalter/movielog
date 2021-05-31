@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0048991",
   "sort_title": "Beast with a Million Eyes (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0083280",
-      "name": "Paul Birch",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Allan Kelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0857213",
-      "name": "Lorna Thayer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carol Kelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170532",
-      "name": "Dona Cole",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sandra Kelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0765102",
-      "name": "Dick Sargent",
-      "sequence": 3,
-      "notes": "(as Richard Sargeant)",
-      "roles": [
-        "Deputy Larry Brewster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0850781",
-      "name": "Leonard Tarver",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Him -"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926221",
-      "name": "Bruce Whitmore",
-      "sequence": 5,
-      "notes": "(voice)",
-      "roles": [
-        "The Beast"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174682",
-      "name": "Chester Conklin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ben Webber"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0469436",
@@ -86,13 +21,78 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0083280",
+      "name": "Paul Birch",
+      "sequence": 0,
+      "roles": [
+        "Allan Kelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0857213",
+      "name": "Lorna Thayer",
+      "sequence": 1,
+      "roles": [
+        "Carol Kelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170532",
+      "name": "Dona Cole",
+      "sequence": 2,
+      "roles": [
+        "Sandra Kelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0765102",
+      "name": "Dick Sargent",
+      "sequence": 3,
+      "roles": [
+        "Deputy Larry Brewster"
+      ],
+      "notes": "(as Richard Sargeant)"
+    },
+    {
+      "person_imdb_id": "nm0850781",
+      "name": "Leonard Tarver",
+      "sequence": 4,
+      "roles": [
+        "Him -"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926221",
+      "name": "Bruce Whitmore",
+      "sequence": 5,
+      "roles": [
+        "The Beast"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0174682",
+      "name": "Chester Conklin",
+      "sequence": 6,
+      "roles": [
+        "Ben Webber"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0276869",
       "name": "Tom Filer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1955-06-15",

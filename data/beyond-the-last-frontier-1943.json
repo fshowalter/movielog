@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0035676",
   "sort_title": "Beyond the Last Frontier (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0223014",
-      "name": "Eddie Dew",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnny Revere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122470",
-      "name": "Smiley Burnette",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Frog Millhouse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588852",
-      "name": "Lorraine Miller",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Susan Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 3,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Trigger Dolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Big Bill Hadley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010958",
-      "name": "Ernie Adams",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "'Sarge' Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164958",
-      "name": "Richard Clarke",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Steve Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588059",
-      "name": "Charles Miller",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Major Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562771",
-      "name": "Kermit Maynard",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Henchman Clyde Barton"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0107854",
@@ -92,23 +9,106 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0223014",
+      "name": "Eddie Dew",
+      "sequence": 0,
+      "roles": [
+        "Johnny Revere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122470",
+      "name": "Smiley Burnette",
+      "sequence": 1,
+      "roles": [
+        "Frog Millhouse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588852",
+      "name": "Lorraine Miller",
+      "sequence": 2,
+      "roles": [
+        "Susan Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 3,
+      "roles": [
+        "Trigger Dolan"
+      ],
+      "notes": "(as Bob Mitchum)"
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 4,
+      "roles": [
+        "Big Bill Hadley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010958",
+      "name": "Ernie Adams",
+      "sequence": 5,
+      "roles": [
+        "'Sarge' Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164958",
+      "name": "Richard Clarke",
+      "sequence": 6,
+      "roles": [
+        "Steve Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588059",
+      "name": "Charles Miller",
+      "sequence": 7,
+      "roles": [
+        "Major Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562771",
+      "name": "Kermit Maynard",
+      "sequence": 8,
+      "roles": [
+        "Henchman Clyde Barton"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0124987",
       "name": "John K. Butler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0335577",
       "name": "Morton Grant",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay)"
     }
   ],
-  "release_date": "1943-08-18",
+  "release_date": "1943-09-18",
   "release_date_notes": "",
   "countries": [
     "United States"

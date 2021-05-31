@@ -1,174 +1,6 @@
 {
   "imdb_id": "tt0072085",
   "sort_title": "Challenge to White Fang (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0626259",
-      "name": "Franco Nero",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jason Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514059",
-      "name": "Virna Lisi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sister Evangelina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825952",
-      "name": "John Steiner",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Beauty Smith",
-        "Charles Forth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363615",
-      "name": "Raimund Harmstorf",
-      "sequence": 3,
-      "notes": "(as Raimind Harmstors)",
-      "roles": [
-        "Kurt Jansen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813805",
-      "name": "Yanti Somer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Liverpool's Sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0687847",
-      "name": "Werner Pochath",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harvey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255678",
-      "name": "Hannelore Elsner",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jane LeClerq"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0207766",
-      "name": "Renato De Carmine",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lt. Charles LeClerq"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "John Tarwater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0149120",
-      "name": "Renato Cesti\u00e8",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bill Tarwater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639521",
-      "name": "Donald O'Brien",
-      "sequence": 10,
-      "notes": "(as Donal O'Brien)",
-      "roles": [
-        "Liverpool"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0974428",
-      "name": "Rolf Hartmann",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058384",
-      "name": "John Bartha",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mountie Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0535699",
-      "name": "Paolo Magalotti",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Smith's Henchman #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0806367",
-      "name": "Sergio Smacchi",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Smith's Henchman #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007927",
-      "name": "Ezio Marano",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Gambler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1172215",
-      "name": "Stanislaus Gunawan",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0266741",
-      "name": "Vittorio Fanfoni",
-      "sequence": 17,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0541446",
-      "name": "Carla Mancini",
-      "sequence": 18,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -177,27 +9,209 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0626259",
+      "name": "Franco Nero",
+      "sequence": 0,
+      "roles": [
+        "Jason Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514059",
+      "name": "Virna Lisi",
+      "sequence": 1,
+      "roles": [
+        "Sister Evangelina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0825952",
+      "name": "John Steiner",
+      "sequence": 2,
+      "roles": [
+        "Beauty Smith",
+        "Charles Forth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363615",
+      "name": "Raimund Harmstorf",
+      "sequence": 3,
+      "roles": [
+        "Kurt Jansen"
+      ],
+      "notes": "(as Raimind Harmstors)"
+    },
+    {
+      "person_imdb_id": "nm0813805",
+      "name": "Yanti Somer",
+      "sequence": 4,
+      "roles": [
+        "Liverpool's Sister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0687847",
+      "name": "Werner Pochath",
+      "sequence": 5,
+      "roles": [
+        "Harvey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255678",
+      "name": "Hannelore Elsner",
+      "sequence": 6,
+      "roles": [
+        "Jane LeClerq"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0207766",
+      "name": "Renato De Carmine",
+      "sequence": 7,
+      "roles": [
+        "Lt. Charles LeClerq"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 8,
+      "roles": [
+        "John Tarwater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0149120",
+      "name": "Renato Cesti\u00e8",
+      "sequence": 9,
+      "roles": [
+        "Bill Tarwater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639521",
+      "name": "Donald O'Brien",
+      "sequence": 10,
+      "roles": [
+        "Liverpool"
+      ],
+      "notes": "(as Donal O'Brien)"
+    },
+    {
+      "person_imdb_id": "nm0974428",
+      "name": "Rolf Hartmann",
+      "sequence": 11,
+      "roles": [
+        "Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058384",
+      "name": "John Bartha",
+      "sequence": 12,
+      "roles": [
+        "Mountie Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0535699",
+      "name": "Paolo Magalotti",
+      "sequence": 13,
+      "roles": [
+        "Smith's Henchman #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0806367",
+      "name": "Sergio Smacchi",
+      "sequence": 14,
+      "roles": [
+        "Smith's Henchman #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007927",
+      "name": "Ezio Marano",
+      "sequence": 15,
+      "roles": [
+        "Gambler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1172215",
+      "name": "Stanislaus Gunawan",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266741",
+      "name": "Vittorio Fanfoni",
+      "sequence": 17,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541446",
+      "name": "Carla Mancini",
+      "sequence": 18,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
-      "person_imdb_id": "nm0002086",
-      "name": "Lucio Fulci",
+      "person_imdb_id": "nm0799130",
+      "name": "Alberto Silvestri",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0316363",
       "name": "Roberto Gianviti",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0002086",
+      "name": "Lucio Fulci",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(screenplay) (uncredited)"
+    },
+    {
+      "person_imdb_id": "nm0316363",
+      "name": "Roberto Gianviti",
+      "group": 2,
+      "sequence": 0,
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0799130",
       "name": "Alberto Silvestri",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (uncredited)"
     }
   ],
   "release_date": "1974-10-25",

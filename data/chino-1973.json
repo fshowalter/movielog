@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0069833",
   "sort_title": "Chino (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000314",
-      "name": "Charles Bronson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Chino Valdez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409866",
-      "name": "Jill Ireland",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Catherine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102566",
-      "name": "Marcel Bozzuffi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maral"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0887701",
-      "name": "Vincent Van Patten",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jamie Wagner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870362",
-      "name": "Fausto Tozzi",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cruz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543188",
-      "name": "Ettore Manni",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1113665",
-      "name": "Melissa Chimenti",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Indian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301403",
-      "name": "Corrado Gaipa",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Padre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0631307",
-      "name": "Jos\u00e9 Nieto",
-      "sequence": 8,
-      "notes": "(as Jose Nieto)",
-      "roles": [
-        "Mexican"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521224",
-      "name": "Diana Lorys",
-      "sequence": 9,
-      "notes": "(as Diana Loris)",
-      "roles": [
-        "Indian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0616389",
-      "name": "Conchita Mu\u00f1oz",
-      "sequence": 10,
-      "notes": "(as Conchita Munoz)",
-      "roles": [
-        "Mexican"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -116,41 +15,142 @@
       "notes": "(unconfirmed)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000314",
+      "name": "Charles Bronson",
+      "sequence": 0,
+      "roles": [
+        "Chino Valdez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409866",
+      "name": "Jill Ireland",
+      "sequence": 1,
+      "roles": [
+        "Catherine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102566",
+      "name": "Marcel Bozzuffi",
+      "sequence": 2,
+      "roles": [
+        "Maral"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0887701",
+      "name": "Vincent Van Patten",
+      "sequence": 3,
+      "roles": [
+        "Jamie Wagner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870362",
+      "name": "Fausto Tozzi",
+      "sequence": 4,
+      "roles": [
+        "Cruz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543188",
+      "name": "Ettore Manni",
+      "sequence": 5,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1113665",
+      "name": "Melissa Chimenti",
+      "sequence": 6,
+      "roles": [
+        "Indian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301403",
+      "name": "Corrado Gaipa",
+      "sequence": 7,
+      "roles": [
+        "Padre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0631307",
+      "name": "Jos\u00e9 Nieto",
+      "sequence": 8,
+      "roles": [
+        "Mexican"
+      ],
+      "notes": "(as Jose Nieto)"
+    },
+    {
+      "person_imdb_id": "nm0521224",
+      "name": "Diana Lorys",
+      "sequence": 9,
+      "roles": [
+        "Indian"
+      ],
+      "notes": "(as Diana Loris)"
+    },
+    {
+      "person_imdb_id": "nm0616389",
+      "name": "Conchita Mu\u00f1oz",
+      "sequence": 10,
+      "roles": [
+        "Mexican"
+      ],
+      "notes": "(as Conchita Munoz)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0389000",
       "name": "Lee Hoffman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Valdez Horses\")",
-      "group_id": 0
+      "notes": "(novel \"The Valdez Horses\")"
     },
     {
       "person_imdb_id": "nm0400236",
       "name": "Clair Huffaker",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0211160",
       "name": "Massimo De Rita",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0537985",
       "name": "Dino Maiuri",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0759453",
       "name": "Rafael J. Salvia",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1973-09-14",
@@ -158,7 +158,6 @@
   "countries": [
     "Italy",
     "Spain",
-    "France",
-    "United States"
+    "France"
   ]
 }

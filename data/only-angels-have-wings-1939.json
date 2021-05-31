@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0031762",
   "sort_title": "Only Angels Have Wings (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Geoff Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000795",
-      "name": "Jean Arthur",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bonnie Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001932",
-      "name": "Richard Barthelmess",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bat MacPherson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000028",
-      "name": "Rita Hayworth",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Judy MacPherson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593775",
-      "name": "Thomas Mitchell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kid Dabb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430870",
-      "name": "Allyn Joslyn",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Les Peters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750079",
-      "name": "Sig Ruman",
-      "sequence": 6,
-      "notes": "(as Sig Rumann)",
-      "roles": [
-        "Dutchy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0453081",
-      "name": "Victor Kilian",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sparks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140865",
-      "name": "John Carroll",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gent Shelton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057983",
-      "name": "Don 'Red' Barry",
-      "sequence": 9,
-      "notes": "(as Donald Barry)",
-      "roles": [
-        "Tex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000890",
-      "name": "Noah Beery Jr.",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Joe Souther"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0959350",
-      "name": "Manuel \u00c1lvarez Maciste",
-      "sequence": 11,
-      "notes": "(as Maciste)",
-      "roles": [
-        "The Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0797292",
-      "name": "Milisa Sierra",
-      "sequence": 12,
-      "notes": "(as Milissa Sierra)",
-      "roles": [
-        "Lily"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898225",
-      "name": "Lucio Villegas",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280900",
-      "name": "Pat Flaherty",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0716505",
-      "name": "Pedro Regas",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Pancho"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922283",
-      "name": "Pat West",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Baldy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -164,34 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Geoff Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000795",
+      "name": "Jean Arthur",
+      "sequence": 1,
+      "roles": [
+        "Bonnie Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001932",
+      "name": "Richard Barthelmess",
+      "sequence": 2,
+      "roles": [
+        "Bat MacPherson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000028",
+      "name": "Rita Hayworth",
+      "sequence": 3,
+      "roles": [
+        "Judy MacPherson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593775",
+      "name": "Thomas Mitchell",
+      "sequence": 4,
+      "roles": [
+        "Kid Dabb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430870",
+      "name": "Allyn Joslyn",
+      "sequence": 5,
+      "roles": [
+        "Les Peters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750079",
+      "name": "Sig Ruman",
+      "sequence": 6,
+      "roles": [
+        "Dutchy"
+      ],
+      "notes": "(as Sig Rumann)"
+    },
+    {
+      "person_imdb_id": "nm0453081",
+      "name": "Victor Kilian",
+      "sequence": 7,
+      "roles": [
+        "Sparks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140865",
+      "name": "John Carroll",
+      "sequence": 8,
+      "roles": [
+        "Gent Shelton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057983",
+      "name": "Don 'Red' Barry",
+      "sequence": 9,
+      "roles": [
+        "Tex"
+      ],
+      "notes": "(as Donald Barry)"
+    },
+    {
+      "person_imdb_id": "nm0000890",
+      "name": "Noah Beery Jr.",
+      "sequence": 10,
+      "roles": [
+        "Joe Souther"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0959350",
+      "name": "Manuel \u00c1lvarez Maciste",
+      "sequence": 11,
+      "roles": [
+        "The Singer"
+      ],
+      "notes": "(as Maciste)"
+    },
+    {
+      "person_imdb_id": "nm0797292",
+      "name": "Milisa Sierra",
+      "sequence": 12,
+      "roles": [
+        "Lily"
+      ],
+      "notes": "(as Milissa Sierra)"
+    },
+    {
+      "person_imdb_id": "nm0898225",
+      "name": "Lucio Villegas",
+      "sequence": 13,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280900",
+      "name": "Pat Flaherty",
+      "sequence": 14,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0716505",
+      "name": "Pedro Regas",
+      "sequence": 15,
+      "roles": [
+        "Pancho"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922283",
+      "name": "Pat West",
+      "sequence": 16,
+      "roles": [
+        "Baldy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0299154",
       "name": "Jules Furthman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0001328",
       "name": "Howard Hawks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"Plane from Barranca\") (uncredited)",
-      "group_id": 1
+      "notes": "(story \"Plane from Barranca\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0341178",
       "name": "Eleanore Griffin",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to treatment) (uncredited)"
     },
     {
       "person_imdb_id": "nm0710299",
       "name": "William Rankin",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to treatment) (uncredited)"
     }
   ],
   "release_date": "1939-05-12",

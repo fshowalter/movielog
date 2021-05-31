@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0069225",
   "sort_title": "Savage Messiah (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0878302",
-      "name": "Dorothy Tutin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sophie Brzeska"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2014587",
-      "name": "Scott Antony",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Henri Gaudier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000545",
-      "name": "Helen Mirren",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gosh Boyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447330",
-      "name": "Lindsay Kemp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Angus Corky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001284",
-      "name": "Michael Gough",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "M. Gaudier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0433188",
-      "name": "John Justin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lionel Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723964",
-      "name": "Aubrey Richards",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891092",
-      "name": "Peter Vaughan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Museum Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0034873",
-      "name": "Ben Aris",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Thomas Buff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269752",
-      "name": "Eleanor Fazan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mdme. Gaudier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0224538",
-      "name": "Otto Diamant",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Saltzman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163256",
-      "name": "Imogen Claire",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mavis Coldstream"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561762",
-      "name": "Maggy Maxwell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Tart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247000",
-      "name": "Susanna East",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Pippa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0661585",
-      "name": "Judith Paris",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Kate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485894",
-      "name": "Robert Lang",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Major Boyle"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001692",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0878302",
+      "name": "Dorothy Tutin",
+      "sequence": 0,
+      "roles": [
+        "Sophie Brzeska"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2014587",
+      "name": "Scott Antony",
+      "sequence": 1,
+      "roles": [
+        "Henri Gaudier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000545",
+      "name": "Helen Mirren",
+      "sequence": 2,
+      "roles": [
+        "Gosh Boyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447330",
+      "name": "Lindsay Kemp",
+      "sequence": 3,
+      "roles": [
+        "Angus Corky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001284",
+      "name": "Michael Gough",
+      "sequence": 4,
+      "roles": [
+        "M. Gaudier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0433188",
+      "name": "John Justin",
+      "sequence": 5,
+      "roles": [
+        "Lionel Shaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723964",
+      "name": "Aubrey Richards",
+      "sequence": 6,
+      "roles": [
+        "Mayor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891092",
+      "name": "Peter Vaughan",
+      "sequence": 7,
+      "roles": [
+        "Museum Attendant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0034873",
+      "name": "Ben Aris",
+      "sequence": 8,
+      "roles": [
+        "Thomas Buff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269752",
+      "name": "Eleanor Fazan",
+      "sequence": 9,
+      "roles": [
+        "Mdme. Gaudier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0224538",
+      "name": "Otto Diamant",
+      "sequence": 10,
+      "roles": [
+        "Mr. Saltzman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163256",
+      "name": "Imogen Claire",
+      "sequence": 11,
+      "roles": [
+        "Mavis Coldstream"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561762",
+      "name": "Maggy Maxwell",
+      "sequence": 12,
+      "roles": [
+        "Tart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247000",
+      "name": "Susanna East",
+      "sequence": 13,
+      "roles": [
+        "Pippa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0661585",
+      "name": "Judith Paris",
+      "sequence": 14,
+      "roles": [
+        "Kate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485894",
+      "name": "Robert Lang",
+      "sequence": 15,
+      "roles": [
+        "Major Boyle"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0517787",
       "name": "Christopher Logue",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0248924",
       "name": "H.S. Ede",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "notes": "(book)"
     }
   ],
   "release_date": "1972-06-28",

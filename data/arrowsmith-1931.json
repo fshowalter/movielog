@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0021622",
   "sort_title": "Arrowsmith (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0172903",
-      "name": "Ronald Colman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Martin Arrowsmith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371040",
-      "name": "Helen Hayes",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Leora Tozer Arrowsmith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071992",
-      "name": "Richard Bennett",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gustav Sondelius"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030653",
-      "name": "A.E. Anson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Professor Max Gottlieb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111919",
-      "name": "Clarence Brooks",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Oliver Marchand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290066",
-      "name": "Alec B. Francis",
-      "sequence": 5,
-      "notes": "(as Alec Francis)",
-      "roles": [
-        "Twyford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454596",
-      "name": "Claude King",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Tubbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729991",
-      "name": "Bert Roach",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bert Tozer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Joyce Lanyon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394477",
-      "name": "Russell Hopton",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Terry Wickett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484439",
-      "name": "David Landau",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "State Veterinarian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sir Robert Fairland - Governor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0172903",
+      "name": "Ronald Colman",
+      "sequence": 0,
+      "roles": [
+        "Dr. Martin Arrowsmith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371040",
+      "name": "Helen Hayes",
+      "sequence": 1,
+      "roles": [
+        "Leora Tozer Arrowsmith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071992",
+      "name": "Richard Bennett",
+      "sequence": 2,
+      "roles": [
+        "Gustav Sondelius"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030653",
+      "name": "A.E. Anson",
+      "sequence": 3,
+      "roles": [
+        "Professor Max Gottlieb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111919",
+      "name": "Clarence Brooks",
+      "sequence": 4,
+      "roles": [
+        "Dr. Oliver Marchand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290066",
+      "name": "Alec B. Francis",
+      "sequence": 5,
+      "roles": [
+        "Twyford"
+      ],
+      "notes": "(as Alec Francis)"
+    },
+    {
+      "person_imdb_id": "nm0454596",
+      "name": "Claude King",
+      "sequence": 6,
+      "roles": [
+        "Dr. Tubbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729991",
+      "name": "Bert Roach",
+      "sequence": 7,
+      "roles": [
+        "Bert Tozer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Joyce Lanyon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394477",
+      "name": "Russell Hopton",
+      "sequence": 9,
+      "roles": [
+        "Terry Wickett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484439",
+      "name": "David Landau",
+      "sequence": 10,
+      "roles": [
+        "State Veterinarian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 11,
+      "roles": [
+        "Sir Robert Fairland - Governor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0507760",
       "name": "Sinclair Lewis",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based upon the novel by)",
-      "group_id": 0
+      "notes": "(based upon the novel by)"
     },
     {
       "person_imdb_id": "nm0397608",
       "name": "Sidney Howard",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 1
+      "notes": "(adapted for the screen by)"
     }
   ],
   "release_date": "1931-12-07",

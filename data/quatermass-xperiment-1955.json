@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0049646",
   "sort_title": "Quatermass Xperiment (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002046",
-      "name": "Brian Donlevy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prof. Bernard Quatermass"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912487",
-      "name": "Jack Warner",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Inspector Lomax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212869",
-      "name": "Margia Dean",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Judith Carroon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386331",
-      "name": "Thora Hird",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rosemary 'Rosie' Elizabeth Wrigley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0413561",
-      "name": "Gordon Jackson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "BBC TV producer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455405",
-      "name": "David King-Wood",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Gordon Briscoe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485763",
-      "name": "Harold Lang",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Christie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420383",
-      "name": "Lionel Jeffries",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477330",
-      "name": "Sam Kydd",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Police Sergeant Questioning Rosie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941416",
-      "name": "Richard Wordsworth",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Victor Carroon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0346436",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002046",
+      "name": "Brian Donlevy",
+      "sequence": 0,
+      "roles": [
+        "Prof. Bernard Quatermass"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912487",
+      "name": "Jack Warner",
+      "sequence": 1,
+      "roles": [
+        "Inspector Lomax"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212869",
+      "name": "Margia Dean",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Judith Carroon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386331",
+      "name": "Thora Hird",
+      "sequence": 3,
+      "roles": [
+        "Rosemary 'Rosie' Elizabeth Wrigley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0413561",
+      "name": "Gordon Jackson",
+      "sequence": 4,
+      "roles": [
+        "BBC TV producer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455405",
+      "name": "David King-Wood",
+      "sequence": 5,
+      "roles": [
+        "Dr. Gordon Briscoe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485763",
+      "name": "Harold Lang",
+      "sequence": 6,
+      "roles": [
+        "Christie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420383",
+      "name": "Lionel Jeffries",
+      "sequence": 7,
+      "roles": [
+        "Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477330",
+      "name": "Sam Kydd",
+      "sequence": 8,
+      "roles": [
+        "Police Sergeant Questioning Rosie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941416",
+      "name": "Richard Wordsworth",
+      "sequence": 9,
+      "roles": [
+        "Victor Carroon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0484479",
       "name": "Richard H. Landau",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Richard Landau)",
-      "group_id": 0
+      "notes": "(screenplay) (as Richard Landau)"
     },
     {
       "person_imdb_id": "nm0346436",
       "name": "Val Guest",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0460600",
       "name": "Nigel Kneale",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the B.B.C. television play by)",
-      "group_id": 1
+      "notes": "(based on the B.B.C. television play by)"
     }
   ],
   "release_date": "1955-08-26",

@@ -1,69 +1,6 @@
 {
   "imdb_id": "tt0022119",
   "sort_title": "Man of the World (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Michael Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Kendall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317224",
-      "name": "Wynne Gibson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Irene Harper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336770",
-      "name": "Lawrence Gray",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Frank Reynolds"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452128",
-      "name": "Guy Kibbee",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry Taylor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151370",
-      "name": "George Chandler",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0116897",
-      "name": "Arthur Q. Bryan",
-      "sequence": 6,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0908831",
@@ -78,20 +15,83 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Michael Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 1,
+      "roles": [
+        "Mary Kendall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317224",
+      "name": "Wynne Gibson",
+      "sequence": 2,
+      "roles": [
+        "Irene Harper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336770",
+      "name": "Lawrence Gray",
+      "sequence": 3,
+      "roles": [
+        "Frank Reynolds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452128",
+      "name": "Guy Kibbee",
+      "sequence": 4,
+      "roles": [
+        "Harry Taylor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151370",
+      "name": "George Chandler",
+      "sequence": 5,
+      "roles": [
+        "Fred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0116897",
+      "name": "Arthur Q. Bryan",
+      "sequence": 6,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0542534",
       "name": "Herman J. Mankiewicz",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0542534",
       "name": "Herman J. Mankiewicz",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1931-03-24",

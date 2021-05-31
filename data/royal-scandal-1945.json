@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0038040",
   "sort_title": "Royal Scandal (1945)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000845",
-      "name": "Tallulah Bankhead",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Catherine the Great"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002013",
-      "name": "Charles Coburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chancellor Nicolai Iiyitch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000879",
-      "name": "Anne Baxter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Countess Anna Jaschikoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264278",
-      "name": "William Eythe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Alexei Chernoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marquis de Fleury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041681",
-      "name": "Mischa Auer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. Sukov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750079",
-      "name": "Sig Ruman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gen. Ronsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812453",
-      "name": "Vladimir Sokoloff",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Malakoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711566",
-      "name": "Mikhail Rasumny",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Drunken General"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0695937",
@@ -98,34 +15,117 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000845",
+      "name": "Tallulah Bankhead",
+      "sequence": 0,
+      "roles": [
+        "Catherine the Great"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002013",
+      "name": "Charles Coburn",
+      "sequence": 1,
+      "roles": [
+        "Chancellor Nicolai Iiyitch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000879",
+      "name": "Anne Baxter",
+      "sequence": 2,
+      "roles": [
+        "Countess Anna Jaschikoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264278",
+      "name": "William Eythe",
+      "sequence": 3,
+      "roles": [
+        "Lt. Alexei Chernoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 4,
+      "roles": [
+        "Marquis de Fleury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041681",
+      "name": "Mischa Auer",
+      "sequence": 5,
+      "roles": [
+        "Capt. Sukov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750079",
+      "name": "Sig Ruman",
+      "sequence": 6,
+      "roles": [
+        "Gen. Ronsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812453",
+      "name": "Vladimir Sokoloff",
+      "sequence": 7,
+      "roles": [
+        "Malakoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711566",
+      "name": "Mikhail Rasumny",
+      "sequence": 8,
+      "roles": [
+        "Drunken General"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0562372",
       "name": "Edwin Justus Mayer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0290863",
       "name": "Bruno Frank",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0083742",
       "name": "Lajos Bir\u00f3",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"Die zarin\") (as Lajos Biro)",
-      "group_id": 2
+      "notes": "(play \"Die zarin\") (as Lajos Biro)"
     },
     {
       "person_imdb_id": "nm0501872",
       "name": "Melchior Lengyel",
-      "sequence": 0,
-      "notes": "(play \"Die zarin\")",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(play \"Die zarin\")"
     }
   ],
   "release_date": "1945-03-26",

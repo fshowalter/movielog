@@ -1,108 +1,6 @@
 {
   "imdb_id": "tt0049429",
   "sort_title": "Lust of the Vampire (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0133521",
-      "name": "Gianna Maria Canale",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Giselle du Grand",
-        "Margherita du Grand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195258",
-      "name": "Carlo D'Angelo",
-      "sequence": 1,
-      "notes": "(as Carlo d'Angelo)",
-      "roles": [
-        "L'ispettore Chantal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0584266",
-      "name": "Dario Michaelis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pierre Lantin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346717",
-      "name": "Wandisa Guida",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Laurette Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301685",
-      "name": "Angelo Galassi",
-      "sequence": 4,
-      "notes": "(as Angiolo Galassi)",
-      "roles": [
-        "Ronald Fontaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867422",
-      "name": "Renato Tontini",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "L'assistente del professore Grand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269485",
-      "name": "Charles Fawcett",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Signor Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541528",
-      "name": "Gisella Mancinotti",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Amica di Laurette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132035",
-      "name": "Miranda Campa",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Signora Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0051086",
-      "name": "Antoine Balp\u00eatr\u00e9",
-      "sequence": 9,
-      "notes": "(as Antoine Balpetr\u00e9 de la Com\u00e9die Fran\u00e7aise)",
-      "roles": [
-        "Professor Julien du Grand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612219",
-      "name": "Paul Muller",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Joseph Signoret"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0292720",
@@ -117,48 +15,150 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0133521",
+      "name": "Gianna Maria Canale",
+      "sequence": 0,
+      "roles": [
+        "Giselle du Grand",
+        "Margherita du Grand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195258",
+      "name": "Carlo D'Angelo",
+      "sequence": 1,
+      "roles": [
+        "L'ispettore Chantal"
+      ],
+      "notes": "(as Carlo d'Angelo)"
+    },
+    {
+      "person_imdb_id": "nm0584266",
+      "name": "Dario Michaelis",
+      "sequence": 2,
+      "roles": [
+        "Pierre Lantin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346717",
+      "name": "Wandisa Guida",
+      "sequence": 3,
+      "roles": [
+        "Laurette Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301685",
+      "name": "Angelo Galassi",
+      "sequence": 4,
+      "roles": [
+        "Ronald Fontaine"
+      ],
+      "notes": "(as Angiolo Galassi)"
+    },
+    {
+      "person_imdb_id": "nm0867422",
+      "name": "Renato Tontini",
+      "sequence": 5,
+      "roles": [
+        "L'assistente del professore Grand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269485",
+      "name": "Charles Fawcett",
+      "sequence": 6,
+      "roles": [
+        "Signor Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541528",
+      "name": "Gisella Mancinotti",
+      "sequence": 7,
+      "roles": [
+        "Amica di Laurette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132035",
+      "name": "Miranda Campa",
+      "sequence": 8,
+      "roles": [
+        "Signora Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0051086",
+      "name": "Antoine Balp\u00eatr\u00e9",
+      "sequence": 9,
+      "roles": [
+        "Professor Julien du Grand"
+      ],
+      "notes": "(as Antoine Balpetr\u00e9 de la Com\u00e9die Fran\u00e7aise)"
+    },
+    {
+      "person_imdb_id": "nm0612219",
+      "name": "Paul Muller",
+      "sequence": 10,
+      "roles": [
+        "Joseph Signoret"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0716701",
       "name": "Piero Regnoli",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(story) (as Rijk Sij\u00f6strom)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story) (as Rijk Sij\u00f6strom)"
     },
     {
       "person_imdb_id": "nm0716701",
       "name": "Piero Regnoli",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(screenplay) (as Rijk Sij\u00f6strom)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay) (as Rijk Sij\u00f6strom)"
     },
     {
       "person_imdb_id": "nm0292720",
       "name": "Riccardo Freda",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0722233",
       "name": "V.J. Rheims",
+      "group": 2,
       "sequence": 0,
-      "notes": "(final revisions written by: English version) (uncredited)",
-      "group_id": 2
+      "notes": "(final revisions written by: English version) (uncredited)"
     }
   ],
   "release_date": "1957-04-06",

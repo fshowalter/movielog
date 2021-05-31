@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0480669",
   "sort_title": "Timecrimes (2007)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0253216",
-      "name": "Karra Elejalde",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "H\u00e9ctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1508630",
-      "name": "Candela Fern\u00e1ndez",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Clara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0324409",
-      "name": "B\u00e1rbara Goenaga",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "La Chica en el Bosque"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1443023",
-      "name": "Nacho Vigalondo",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "El Joven"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408463",
-      "name": "Juan Inciarte",
-      "sequence": 4,
-      "notes": "(as Ion Inciarte)",
-      "roles": [
-        "H\u00e9ctor Ocasional"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1443023",
@@ -56,13 +9,60 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0253216",
+      "name": "Karra Elejalde",
+      "sequence": 0,
+      "roles": [
+        "H\u00e9ctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1508630",
+      "name": "Candela Fern\u00e1ndez",
+      "sequence": 1,
+      "roles": [
+        "Clara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0324409",
+      "name": "B\u00e1rbara Goenaga",
+      "sequence": 2,
+      "roles": [
+        "La Chica en el Bosque"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1443023",
+      "name": "Nacho Vigalondo",
+      "sequence": 3,
+      "roles": [
+        "El Joven"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408463",
+      "name": "Juan Inciarte",
+      "sequence": 4,
+      "roles": [
+        "H\u00e9ctor Ocasional"
+      ],
+      "notes": "(as Ion Inciarte)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1443023",
       "name": "Nacho Vigalondo",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2007-09-20",

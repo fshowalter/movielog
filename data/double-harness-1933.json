@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0023960",
   "sort_title": "Double Harness (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0362267",
-      "name": "Ann Harding",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joan Colby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Fletcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115043",
-      "name": "Lucile Browne",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Valerie Colby Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827261",
-      "name": "Henry Stephenson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Colonel Sam Colby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093988",
-      "name": "Lilian Bond",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Monica Paige"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576120",
-      "name": "George Meeker",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dennis Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654239",
-      "name": "Reginald Owen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Freeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358724",
-      "name": "Kay Hammond",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Eleanor Weston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020757",
-      "name": "Leigh Allen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Leonard Weston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403154",
-      "name": "Hugh Huntley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Farley Drake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164599",
-      "name": "Wallis Clark",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Postmaster General"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0763796",
-      "name": "Fred Santley",
-      "sequence": 11,
-      "notes": "(as Fredric Santley)",
-      "roles": [
-        "Bruno"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0362267",
+      "name": "Ann Harding",
+      "sequence": 0,
+      "roles": [
+        "Joan Colby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 1,
+      "roles": [
+        "John Fletcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115043",
+      "name": "Lucile Browne",
+      "sequence": 2,
+      "roles": [
+        "Valerie Colby Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827261",
+      "name": "Henry Stephenson",
+      "sequence": 3,
+      "roles": [
+        "Colonel Sam Colby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093988",
+      "name": "Lilian Bond",
+      "sequence": 4,
+      "roles": [
+        "Monica Paige"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576120",
+      "name": "George Meeker",
+      "sequence": 5,
+      "roles": [
+        "Dennis Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654239",
+      "name": "Reginald Owen",
+      "sequence": 6,
+      "roles": [
+        "Freeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358724",
+      "name": "Kay Hammond",
+      "sequence": 7,
+      "roles": [
+        "Eleanor Weston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020757",
+      "name": "Leigh Allen",
+      "sequence": 8,
+      "roles": [
+        "Leonard Weston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403154",
+      "name": "Hugh Huntley",
+      "sequence": 9,
+      "roles": [
+        "Farley Drake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164599",
+      "name": "Wallis Clark",
+      "sequence": 10,
+      "roles": [
+        "Postmaster General"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0763796",
+      "name": "Fred Santley",
+      "sequence": 11,
+      "roles": [
+        "Bruno"
+      ],
+      "notes": "(as Fredric Santley)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0613848",
       "name": "Jane Murfin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0599772",
       "name": "Edward Poor Montgomery",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "notes": "(from the play by)"
     }
   ],
   "release_date": "1933-07-21",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0023245",
   "sort_title": "Mummy (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Imhotep"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0423685",
-      "name": "Zita Johann",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen Grosvenor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543115",
-      "name": "David Manners",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frank Whemple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126365",
-      "name": "Arthur Byron",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sir Joseph Whemple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888000",
-      "name": "Edward Van Sloan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Doctor Muller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281955",
-      "name": "Bramwell Fletcher",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ralph Norton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0425903",
-      "name": "Noble Johnson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "The Nubian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126403",
-      "name": "Kathryn Byron",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Frau Muller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610950",
-      "name": "Leonard Mudie",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Professor Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186362",
-      "name": "James Crane",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Pharoh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0896109",
-      "name": "Henry Victor",
-      "sequence": 10,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "The Saxon Warrior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336455",
-      "name": "Arnold Gray",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Knight"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005713",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Imhotep"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0423685",
+      "name": "Zita Johann",
+      "sequence": 1,
+      "roles": [
+        "Helen Grosvenor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543115",
+      "name": "David Manners",
+      "sequence": 2,
+      "roles": [
+        "Frank Whemple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126365",
+      "name": "Arthur Byron",
+      "sequence": 3,
+      "roles": [
+        "Sir Joseph Whemple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888000",
+      "name": "Edward Van Sloan",
+      "sequence": 4,
+      "roles": [
+        "Doctor Muller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281955",
+      "name": "Bramwell Fletcher",
+      "sequence": 5,
+      "roles": [
+        "Ralph Norton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0425903",
+      "name": "Noble Johnson",
+      "sequence": 6,
+      "roles": [
+        "The Nubian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126403",
+      "name": "Kathryn Byron",
+      "sequence": 7,
+      "roles": [
+        "Frau Muller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610950",
+      "name": "Leonard Mudie",
+      "sequence": 8,
+      "roles": [
+        "Professor Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186362",
+      "name": "James Crane",
+      "sequence": 9,
+      "roles": [
+        "The Pharoh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896109",
+      "name": "Henry Victor",
+      "sequence": 10,
+      "roles": [
+        "The Saxon Warrior"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0336455",
+      "name": "Arnold Gray",
+      "sequence": 11,
+      "roles": [
+        "Knight"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0701233",
       "name": "Nina Wilcox Putnam",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 0
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0770337",
       "name": "Richard Schayer",
-      "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1932-12-22",

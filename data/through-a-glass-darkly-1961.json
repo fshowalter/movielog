@@ -1,48 +1,6 @@
 {
   "imdb_id": "tt0055499",
   "sort_title": "Through a Glass Darkly (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0027683",
-      "name": "Harriet Andersson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Karin",
-        "sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David",
-        "father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001884",
-      "name": "Max von Sydow",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Martin",
-        "Karin's husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0664885",
-      "name": "Lars Passg\u00e5rd",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Minus",
-        "brother"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -51,13 +9,55 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0027683",
+      "name": "Harriet Andersson",
+      "sequence": 0,
+      "roles": [
+        "Karin",
+        "sister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 1,
+      "roles": [
+        "David",
+        "father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001884",
+      "name": "Max von Sydow",
+      "sequence": 2,
+      "roles": [
+        "Martin",
+        "Karin's husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0664885",
+      "name": "Lars Passg\u00e5rd",
+      "sequence": 3,
+      "roles": [
+        "Minus",
+        "brother"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1961-10-16",

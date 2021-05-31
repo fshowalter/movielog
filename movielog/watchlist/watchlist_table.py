@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import Callable, Optional, Sequence, TypedDict
 
 from movielog import db
@@ -8,7 +10,7 @@ from movielog.watchlist.performers import Performer
 from movielog.watchlist.person import Person
 from movielog.watchlist.writers import Writer
 
-TABLE_NAME = "writing_credits"
+TABLE_NAME = "watchlist"
 
 CREATE_DDL = """
   "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,

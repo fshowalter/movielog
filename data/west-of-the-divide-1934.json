@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0025969",
   "sort_title": "West of the Divide (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ted Hayden posing as Gat Ganns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0265551",
-      "name": "Virginia Brown Faire",
-      "sequence": 1,
-      "notes": "(as Virginia Faire Brown)",
-      "roles": [
-        "Fay Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 2,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "Dusty Rhodes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926103",
-      "name": "Lloyd Whitlock",
-      "sequence": 3,
-      "notes": "(as Loyd Whitlock)",
-      "roles": [
-        "Mr. Gentry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Henchman Hank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571186",
-      "name": "Lafe McKee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fred Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639446",
-      "name": "Billy O'Brien",
-      "sequence": 6,
-      "notes": "(as Billie O'Brien)",
-      "roles": [
-        "Spud Hayden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225513",
-      "name": "Dick Dickinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henchman Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245429",
-      "name": "Earl Dwire",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Ted Hayden posing as Gat Ganns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0265551",
+      "name": "Virginia Brown Faire",
+      "sequence": 1,
+      "roles": [
+        "Fay Winters"
+      ],
+      "notes": "(as Virginia Faire Brown)"
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 2,
+      "roles": [
+        "Dusty Rhodes"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0926103",
+      "name": "Lloyd Whitlock",
+      "sequence": 3,
+      "roles": [
+        "Mr. Gentry"
+      ],
+      "notes": "(as Loyd Whitlock)"
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 4,
+      "roles": [
+        "Henchman Hank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571186",
+      "name": "Lafe McKee",
+      "sequence": 5,
+      "roles": [
+        "Fred Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639446",
+      "name": "Billy O'Brien",
+      "sequence": 6,
+      "roles": [
+        "Spud Hayden"
+      ],
+      "notes": "(as Billie O'Brien)"
+    },
+    {
+      "person_imdb_id": "nm0225513",
+      "name": "Dick Dickinson",
+      "sequence": 7,
+      "roles": [
+        "Henchman Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245429",
+      "name": "Earl Dwire",
+      "sequence": 8,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102908",
       "name": "Robert N. Bradbury",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screen play)",
-      "group_id": 0
+      "notes": "(story and screen play)"
     },
     {
       "person_imdb_id": "nm0236980",
       "name": "Oliver Drake",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 1
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1934-02-15",

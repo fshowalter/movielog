@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0030277",
   "sort_title": "Invisible Menace (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jevries"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933810",
-      "name": "Marie Wilson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186596",
-      "name": "Eddie Craven",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eddie Pratt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464137",
-      "name": "Henry Kolker",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Col. Hackett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447580",
-      "name": "Cy Kendall",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Colonel Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Brooks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010333",
-      "name": "Eddie Acuff",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Corporal Sanger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269709",
-      "name": "Frank Faylen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Private of the Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058132",
-      "name": "Phyllis Barry",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Aline Dolman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875877",
-      "name": "Harland Tucker",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Reilly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0351744",
-      "name": "William Haade",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pvt. Ferris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 12,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Pvt. Innes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610268",
-      "name": "Jack Mower",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sgt. Peterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492463",
-      "name": "Anderson Lawler",
-      "sequence": 14,
-      "notes": "(as Anderson Lawlor)",
-      "roles": [
-        "Pvt. Abbott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366002",
-      "name": "John Harron",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Pvt. Murphy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0268513",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Jevries"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933810",
+      "name": "Marie Wilson",
+      "sequence": 1,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186596",
+      "name": "Eddie Craven",
+      "sequence": 2,
+      "roles": [
+        "Eddie Pratt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 3,
+      "roles": [
+        "Lt. Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0464137",
+      "name": "Henry Kolker",
+      "sequence": 4,
+      "roles": [
+        "Col. Hackett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447580",
+      "name": "Cy Kendall",
+      "sequence": 5,
+      "roles": [
+        "Colonel Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 6,
+      "roles": [
+        "Dr. Brooks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010333",
+      "name": "Eddie Acuff",
+      "sequence": 7,
+      "roles": [
+        "Corporal Sanger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269709",
+      "name": "Frank Faylen",
+      "sequence": 8,
+      "roles": [
+        "Private of the Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058132",
+      "name": "Phyllis Barry",
+      "sequence": 9,
+      "roles": [
+        "Aline Dolman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875877",
+      "name": "Harland Tucker",
+      "sequence": 10,
+      "roles": [
+        "Reilly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0351744",
+      "name": "William Haade",
+      "sequence": 11,
+      "roles": [
+        "Pvt. Ferris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 12,
+      "roles": [
+        "Pvt. Innes"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0610268",
+      "name": "Jack Mower",
+      "sequence": 13,
+      "roles": [
+        "Sgt. Peterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0492463",
+      "name": "Anderson Lawler",
+      "sequence": 14,
+      "roles": [
+        "Pvt. Abbott"
+      ],
+      "notes": "(as Anderson Lawlor)"
+    },
+    {
+      "person_imdb_id": "nm0366002",
+      "name": "John Harron",
+      "sequence": 15,
+      "roles": [
+        "Pvt. Murphy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0928108",
       "name": "Crane Wilbur",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0956988",
       "name": "Ralph Spencer Zink",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "notes": "(from the play by)"
     }
   ],
   "release_date": "1938-01-13",

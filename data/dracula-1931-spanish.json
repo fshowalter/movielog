@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0021815",
   "sort_title": "Dr\u00e1cula (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0898107",
-      "name": "Carlos Villar\u00edas",
-      "sequence": 0,
-      "notes": "(as Carlos Villar)",
-      "roles": [
-        "Conde Dr\u00e1cula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869830",
-      "name": "Lupita Tovar",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eva"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0636161",
-      "name": "Barry Norton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Juan Harker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0959363",
-      "name": "Pablo \u00c1lvarez Rubio",
-      "sequence": 3,
-      "notes": "(as Pablo Alvarez Rubio)",
-      "roles": [
-        "Renfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0037060",
-      "name": "Eduardo Arozamena",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Van Helsing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814983",
-      "name": "Jos\u00e9 Soriano Viosca",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doctor Seward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346165",
-      "name": "Carmen Guerrero",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Luc\u00eda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0784343",
-      "name": "Amelia Senisterra",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Marta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033475",
-      "name": "Manuel Arb\u00f3",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mart\u00edn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245309",
-      "name": "Geraldine Dvorak",
-      "sequence": 10,
-      "notes": "(in catacombs) (uncredited) (archiveFootage)",
-      "roles": [
-        "Bride of Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296859",
-      "name": "Dwight Frye",
-      "sequence": 11,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Renfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 14,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Conde Dr\u00e1cula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1157410",
-      "name": "Cornelia Thaw",
-      "sequence": 15,
-      "notes": "(in catacombs) (uncredited) (archiveFootage)",
-      "roles": [
-        "Bride of Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871676",
-      "name": "Dorothy Tree",
-      "sequence": 16,
-      "notes": "(in catacombs) (uncredited) (archiveFootage)",
-      "roles": [
-        "Bride of Dracula"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0577654",
@@ -137,48 +9,131 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0898107",
+      "name": "Carlos Villar\u00edas",
+      "sequence": 0,
+      "roles": [
+        "Conde Dr\u00e1cula"
+      ],
+      "notes": "(as Carlos Villar)"
+    },
+    {
+      "person_imdb_id": "nm0869830",
+      "name": "Lupita Tovar",
+      "sequence": 1,
+      "roles": [
+        "Eva"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0636161",
+      "name": "Barry Norton",
+      "sequence": 2,
+      "roles": [
+        "Juan Harker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0959363",
+      "name": "Pablo \u00c1lvarez Rubio",
+      "sequence": 3,
+      "roles": [
+        "Renfield"
+      ],
+      "notes": "(as Pablo Alvarez Rubio)"
+    },
+    {
+      "person_imdb_id": "nm0037060",
+      "name": "Eduardo Arozamena",
+      "sequence": 4,
+      "roles": [
+        "Van Helsing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0814983",
+      "name": "Jos\u00e9 Soriano Viosca",
+      "sequence": 5,
+      "roles": [
+        "Doctor Seward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346165",
+      "name": "Carmen Guerrero",
+      "sequence": 6,
+      "roles": [
+        "Luc\u00eda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0784343",
+      "name": "Amelia Senisterra",
+      "sequence": 7,
+      "roles": [
+        "Marta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0033475",
+      "name": "Manuel Arb\u00f3",
+      "sequence": 8,
+      "roles": [
+        "Mart\u00edn"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0831290",
       "name": "Bram Stoker",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Dracula\")",
-      "group_id": 0
+      "notes": "(novel \"Dracula\")"
     },
     {
       "person_imdb_id": "nm0273239",
       "name": "Baltasar Fern\u00e1ndez Cu\u00e9",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (as B.Fernandez Cue.)",
-      "group_id": 1
+      "notes": "() (as B.Fernandez Cue.)"
     },
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"Dracula\") (uncredited)",
-      "group_id": 2
+      "notes": "(play \"Dracula\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0213019",
       "name": "Hamilton Deane",
+      "group": 3,
       "sequence": 0,
-      "notes": "(play \"Dracula\") (uncredited)",
-      "group_id": 3
+      "notes": "(play \"Dracula\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0287124",
       "name": "Garrett Fort",
+      "group": 4,
       "sequence": 0,
-      "notes": "(English play script) (uncredited)",
-      "group_id": 4
+      "notes": "(English play script) (uncredited)"
     },
     {
       "person_imdb_id": "nm0614225",
       "name": "Dudley Murphy",
+      "group": 5,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 5
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1931-03-11",

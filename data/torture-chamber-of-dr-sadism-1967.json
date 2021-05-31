@@ -1,110 +1,6 @@
 {
   "imdb_id": "tt0062235",
   "sort_title": "Torture Chamber of Dr. Sadism (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000851",
-      "name": "Lex Barker",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Roger Mont Elise",
-        "Roger von Marienberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233312",
-      "name": "Karin Dor",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Baroness Lilian von Brabant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Count Frederic Regula",
-        "Graf von Andomai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0486089",
-      "name": "Carl Lange",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Anatol"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0754080",
-      "name": "Christiane R\u00fccker",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Babette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575399",
-      "name": "Vladimir Medar",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pater Fabian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258382",
-      "name": "Dieter Eppler",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Coachman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0470231",
-      "name": "Klaus W. Krause",
-      "sequence": 7,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Pater Fabian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622612",
-      "name": "Horst Naumann",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Roger Mont Elise",
-        "Roger von Marienberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0659811",
-      "name": "Bruno W. Pantel",
-      "sequence": 10,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Moritatens\u00e4nger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0917729",
-      "name": "Herbert Weicker",
-      "sequence": 11,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Count Frederic Regula - Graf von Andomai"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0718243",
@@ -113,20 +9,97 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000851",
+      "name": "Lex Barker",
+      "sequence": 0,
+      "roles": [
+        "Roger Mont Elise",
+        "Roger von Marienberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233312",
+      "name": "Karin Dor",
+      "sequence": 1,
+      "roles": [
+        "Baroness Lilian von Brabant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Count Frederic Regula",
+        "Graf von Andomai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0486089",
+      "name": "Carl Lange",
+      "sequence": 3,
+      "roles": [
+        "Anatol"
+      ],
+      "notes": "(as Karl Lange)"
+    },
+    {
+      "person_imdb_id": "nm0754080",
+      "name": "Christiane R\u00fccker",
+      "sequence": 4,
+      "roles": [
+        "Babette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0575399",
+      "name": "Vladimir Medar",
+      "sequence": 5,
+      "roles": [
+        "Pater Fabian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0258382",
+      "name": "Dieter Eppler",
+      "sequence": 6,
+      "roles": [
+        "Coachman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622612",
+      "name": "Horst Naumann",
+      "sequence": 9,
+      "roles": [
+        "Roger Mont Elise",
+        "Roger von Marienberg"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0477814",
       "name": "Manfred R. K\u00f6hler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"The Pit and the Pendulum\")",
-      "group_id": 1
+      "notes": "(story \"The Pit and the Pendulum\")"
     }
   ],
   "release_date": "1967-10-05",

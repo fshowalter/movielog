@@ -1,141 +1,6 @@
 {
   "imdb_id": "tt0054850",
   "sort_title": "Hercules in the Haunted World (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0661918",
-      "name": "Reg Park",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hercules"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0749333",
-      "name": "Leonora Ruffo",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Princess Deianira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0034068",
-      "name": "George Ardisson",
-      "sequence": 3,
-      "notes": "(as Giorgio Ardisson)",
-      "roles": [
-        "Theseus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068952",
-      "name": "Marisa Belli",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Aretheuse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302837",
-      "name": "Evelyn Stewart",
-      "sequence": 5,
-      "notes": "(as Ida Galli)",
-      "roles": [
-        "Persephone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0316004",
-      "name": "Franco Giacobini",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Telemachus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233946",
-      "name": "Mino Doro",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Keros"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0626219",
-      "name": "Rosalba Neri",
-      "sequence": 8,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Helena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236715",
-      "name": "Ely Drago",
-      "sequence": 9,
-      "notes": "(as Ely Drac\u00f2)",
-      "roles": [
-        "Jocasta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314543",
-      "name": "Gaia Germani",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Medea"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049673",
-      "name": "Raf Baldassarre",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mercenary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1255085",
-      "name": "Elisabetta Pavan",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Tamar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0688012",
-      "name": "Aldo Pedinotti",
-      "sequence": 13,
-      "notes": "(as Aldo Padinotti)",
-      "roles": [
-        "Sunis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1248675",
-      "name": "Claudio Marzulli",
-      "sequence": 14,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -144,34 +9,169 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0661918",
+      "name": "Reg Park",
+      "sequence": 0,
+      "roles": [
+        "Hercules"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 1,
+      "roles": [
+        "Lico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0749333",
+      "name": "Leonora Ruffo",
+      "sequence": 2,
+      "roles": [
+        "Princess Deianira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0034068",
+      "name": "George Ardisson",
+      "sequence": 3,
+      "roles": [
+        "Theseus"
+      ],
+      "notes": "(as Giorgio Ardisson)"
+    },
+    {
+      "person_imdb_id": "nm0068952",
+      "name": "Marisa Belli",
+      "sequence": 4,
+      "roles": [
+        "Aretheuse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302837",
+      "name": "Evelyn Stewart",
+      "sequence": 5,
+      "roles": [
+        "Persephone"
+      ],
+      "notes": "(as Ida Galli)"
+    },
+    {
+      "person_imdb_id": "nm0316004",
+      "name": "Franco Giacobini",
+      "sequence": 6,
+      "roles": [
+        "Telemachus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233946",
+      "name": "Mino Doro",
+      "sequence": 7,
+      "roles": [
+        "Keros"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0626219",
+      "name": "Rosalba Neri",
+      "sequence": 8,
+      "roles": [
+        "Helena"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0236715",
+      "name": "Ely Drago",
+      "sequence": 9,
+      "roles": [
+        "Jocasta"
+      ],
+      "notes": "(as Ely Drac\u00f2)"
+    },
+    {
+      "person_imdb_id": "nm0314543",
+      "name": "Gaia Germani",
+      "sequence": 10,
+      "roles": [
+        "Medea"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049673",
+      "name": "Raf Baldassarre",
+      "sequence": 11,
+      "roles": [
+        "Mercenary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1255085",
+      "name": "Elisabetta Pavan",
+      "sequence": 12,
+      "roles": [
+        "Tamar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0688012",
+      "name": "Aldo Pedinotti",
+      "sequence": 13,
+      "roles": [
+        "Sunis"
+      ],
+      "notes": "(as Aldo Padinotti)"
+    },
+    {
+      "person_imdb_id": "nm1248675",
+      "name": "Claudio Marzulli",
+      "sequence": 14,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0176420",
       "name": "Sandro Continenza",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay) (as Alessandro Continenza)",
-      "group_id": 0
+      "notes": "(story and screenplay) (as Alessandro Continenza)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story and screenplay)"
     },
     {
       "person_imdb_id": "nm0698779",
       "name": "Francesco Prosperi",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Franco Prosperi)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story and screenplay) (as Franco Prosperi)"
     },
     {
       "person_imdb_id": "nm0856319",
       "name": "Duccio Tessari",
-      "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1961-11-16",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0048682",
   "sort_title": "Swamp Women (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0934798",
-      "name": "Marie Windsor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Josie Nardo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290190",
-      "name": "Carole Mathews",
-      "sequence": 1,
-      "notes": "(as Carole Matthews)",
-      "roles": [
-        "Police Lt. Lee Hampton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307500",
-      "name": "Beverly Garland",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Vera"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175528",
-      "name": "Mike Connors",
-      "sequence": 3,
-      "notes": "(as Touch Conners)",
-      "roles": [
-        "Bob Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0191966",
-      "name": "Susan Cummings",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686340",
-      "name": "Lou Place",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Police Capt. J. R. Goodrich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371918",
-      "name": "Jonathan Haze",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Charlie the Pickpocket"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625343",
-      "name": "Ed Nelson",
-      "sequence": 7,
-      "notes": "(as Edward Nelson)",
-      "roles": [
-        "Police Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0418773",
-      "name": "Jil Jarmyn",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Billie"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -92,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0934798",
+      "name": "Marie Windsor",
+      "sequence": 0,
+      "roles": [
+        "Josie Nardo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290190",
+      "name": "Carole Mathews",
+      "sequence": 1,
+      "roles": [
+        "Police Lt. Lee Hampton"
+      ],
+      "notes": "(as Carole Matthews)"
+    },
+    {
+      "person_imdb_id": "nm0307500",
+      "name": "Beverly Garland",
+      "sequence": 2,
+      "roles": [
+        "Vera"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175528",
+      "name": "Mike Connors",
+      "sequence": 3,
+      "roles": [
+        "Bob Matthews"
+      ],
+      "notes": "(as Touch Conners)"
+    },
+    {
+      "person_imdb_id": "nm0191966",
+      "name": "Susan Cummings",
+      "sequence": 4,
+      "roles": [
+        "Marie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686340",
+      "name": "Lou Place",
+      "sequence": 5,
+      "roles": [
+        "Police Capt. J. R. Goodrich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371918",
+      "name": "Jonathan Haze",
+      "sequence": 6,
+      "roles": [
+        "Charlie the Pickpocket"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625343",
+      "name": "Ed Nelson",
+      "sequence": 7,
+      "roles": [
+        "Police Sergeant"
+      ],
+      "notes": "(as Edward Nelson)"
+    },
+    {
+      "person_imdb_id": "nm0418773",
+      "name": "Jil Jarmyn",
+      "sequence": 8,
+      "roles": [
+        "Billie"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0827666",
       "name": "David Stern",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1956-04-01",

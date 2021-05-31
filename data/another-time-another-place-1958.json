@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0051364",
   "sort_title": "Another Time, Another Place (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001805",
-      "name": "Lana Turner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sara Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0837959",
-      "name": "Barry Sullivan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carter Reynolds"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424318",
-      "name": "Glynis Johns",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Kay Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mark Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519281",
-      "name": "Terence Longdon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alan Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416228",
-      "name": "Sidney James",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jake Klein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827101",
-      "name": "Martin Stephens",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Brian Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362791",
-      "name": "Doris Hare",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Bunker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813855",
-      "name": "Julian Somers",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hotel Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494452",
-      "name": "John Le Mesurier",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dr. Aldridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355382",
-      "name": "Cameron Hall",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Alfy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920547",
-      "name": "Jane Welsh",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jonesy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047467",
-      "name": "Robin Bailey",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Captain Barnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292077",
-      "name": "Bill Fraser",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "R.E. Sergeant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0020765",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001805",
+      "name": "Lana Turner",
+      "sequence": 0,
+      "roles": [
+        "Sara Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0837959",
+      "name": "Barry Sullivan",
+      "sequence": 1,
+      "roles": [
+        "Carter Reynolds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424318",
+      "name": "Glynis Johns",
+      "sequence": 2,
+      "roles": [
+        "Kay Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 3,
+      "roles": [
+        "Mark Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519281",
+      "name": "Terence Longdon",
+      "sequence": 4,
+      "roles": [
+        "Alan Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416228",
+      "name": "Sidney James",
+      "sequence": 5,
+      "roles": [
+        "Jake Klein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827101",
+      "name": "Martin Stephens",
+      "sequence": 6,
+      "roles": [
+        "Brian Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362791",
+      "name": "Doris Hare",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Bunker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813855",
+      "name": "Julian Somers",
+      "sequence": 8,
+      "roles": [
+        "Hotel Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0494452",
+      "name": "John Le Mesurier",
+      "sequence": 9,
+      "roles": [
+        "Dr. Aldridge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355382",
+      "name": "Cameron Hall",
+      "sequence": 10,
+      "roles": [
+        "Alfy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920547",
+      "name": "Jane Welsh",
+      "sequence": 11,
+      "roles": [
+        "Jonesy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047467",
+      "name": "Robin Bailey",
+      "sequence": 12,
+      "roles": [
+        "Captain Barnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292077",
+      "name": "Bill Fraser",
+      "sequence": 13,
+      "roles": [
+        "R.E. Sergeant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0542970",
       "name": "Stanley Mann",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0168829",
       "name": "Lenore J. Coffee",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (as Lenore Coffee)",
-      "group_id": 1
+      "notes": "(novel) (as Lenore Coffee)"
     }
   ],
   "release_date": "1958-05-02",

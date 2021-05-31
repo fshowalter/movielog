@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0045754",
   "sort_title": "Fast Company (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0444476",
-      "name": "Howard Keel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rick Grayton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000917",
-      "name": "Polly Bergen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carol Maldon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537685",
-      "name": "Marjorie Main",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ma Parkson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001225",
-      "name": "Nina Foch",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mercedes Bellway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123699",
-      "name": "Robert Burton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "David Sandring"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637779",
-      "name": "Carol Nugent",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jigger Parkson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0304881",
-      "name": "Joaquin Garay",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Manuel Morales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573024",
-      "name": "Horace McMahon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "'Two Pair' Buford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036324",
-      "name": "Sig Arno",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hungry Istvan Kulhanek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002014",
-      "name": "Iron Eyes Cody",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ben Iron Mountain"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0444476",
+      "name": "Howard Keel",
+      "sequence": 0,
+      "roles": [
+        "Rick Grayton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000917",
+      "name": "Polly Bergen",
+      "sequence": 1,
+      "roles": [
+        "Carol Maldon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537685",
+      "name": "Marjorie Main",
+      "sequence": 2,
+      "roles": [
+        "Ma Parkson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001225",
+      "name": "Nina Foch",
+      "sequence": 3,
+      "roles": [
+        "Mercedes Bellway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123699",
+      "name": "Robert Burton",
+      "sequence": 4,
+      "roles": [
+        "David Sandring"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637779",
+      "name": "Carol Nugent",
+      "sequence": 5,
+      "roles": [
+        "Jigger Parkson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0304881",
+      "name": "Joaquin Garay",
+      "sequence": 6,
+      "roles": [
+        "Manuel Morales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573024",
+      "name": "Horace McMahon",
+      "sequence": 7,
+      "roles": [
+        "'Two Pair' Buford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036324",
+      "name": "Sig Arno",
+      "sequence": 8,
+      "roles": [
+        "Hungry Istvan Kulhanek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002014",
+      "name": "Iron Eyes Cody",
+      "sequence": 9,
+      "roles": [
+        "Ben Iron Mountain"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0168355",
       "name": "Eustace Cockrell",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0542531",
       "name": "Don Mankiewicz",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0731679",
       "name": "William Roberts",
+      "group": 2,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 2
+      "notes": "(writer)"
     }
   ],
   "release_date": "1953-05-22",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0079700",
   "sort_title": "Passage (1979)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000063",
-      "name": "Anthony Quinn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Basque"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000051",
-      "name": "James Mason",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Prof. John Bergson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000532",
-      "name": "Malcolm McDowell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Von Berkow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0623658",
-      "name": "Patricia Neal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ariel Bergson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001464",
-      "name": "Kay Lenz",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Leah Bergson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Gypsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166045",
-      "name": "Paul Clemens",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Paul Bergson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0722633",
-      "name": "Robert Rhys",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gypsy Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102566",
-      "name": "Marcel Bozzuffi",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Perea"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003909",
-      "name": "Michael Lonsdale",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Alain Renoudot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036170",
-      "name": "Peter Arne",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Guide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419271",
-      "name": "Neville Jason",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lt. Reinke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114533",
-      "name": "Robert Brown",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Major"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016196",
-      "name": "Rose Alba",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Madame Alba"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0496746",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000063",
+      "name": "Anthony Quinn",
+      "sequence": 0,
+      "roles": [
+        "The Basque"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000051",
+      "name": "James Mason",
+      "sequence": 1,
+      "roles": [
+        "Prof. John Bergson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000532",
+      "name": "Malcolm McDowell",
+      "sequence": 2,
+      "roles": [
+        "Capt. Von Berkow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0623658",
+      "name": "Patricia Neal",
+      "sequence": 3,
+      "roles": [
+        "Ariel Bergson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001464",
+      "name": "Kay Lenz",
+      "sequence": 4,
+      "roles": [
+        "Leah Bergson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 5,
+      "roles": [
+        "The Gypsy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166045",
+      "name": "Paul Clemens",
+      "sequence": 6,
+      "roles": [
+        "Paul Bergson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0722633",
+      "name": "Robert Rhys",
+      "sequence": 7,
+      "roles": [
+        "Gypsy Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102566",
+      "name": "Marcel Bozzuffi",
+      "sequence": 8,
+      "roles": [
+        "Perea"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003909",
+      "name": "Michael Lonsdale",
+      "sequence": 9,
+      "roles": [
+        "Alain Renoudot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036170",
+      "name": "Peter Arne",
+      "sequence": 10,
+      "roles": [
+        "Guide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419271",
+      "name": "Neville Jason",
+      "sequence": 11,
+      "roles": [
+        "Lt. Reinke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0114533",
+      "name": "Robert Brown",
+      "sequence": 12,
+      "roles": [
+        "Major"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016196",
+      "name": "Rose Alba",
+      "sequence": 13,
+      "roles": [
+        "Madame Alba"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0630331",
       "name": "Bruce Nicolaysen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Perilous Passage\")",
-      "group_id": 0
+      "notes": "(novel \"Perilous Passage\")"
     },
     {
       "person_imdb_id": "nm0630331",
       "name": "Bruce Nicolaysen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0963380",
       "name": "Stephen Oliver",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1979-02-26",

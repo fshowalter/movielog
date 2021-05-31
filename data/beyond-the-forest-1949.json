@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0041172",
   "sort_title": "Beyond the Forest (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rosa Moline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Doctor Louis Moline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0108406",
-      "name": "David Brian",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Neil Latimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738746",
-      "name": "Ruth Roman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Carol Lawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914808",
-      "name": "Minor Watson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Moose Lawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236888",
-      "name": "Dona Drake",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sorren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0783003",
-      "name": "Sarah Selby",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mildred Sorren"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0896542",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Rosa Moline"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
+      "sequence": 1,
+      "roles": [
+        "Doctor Louis Moline"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0108406",
+      "name": "David Brian",
+      "sequence": 2,
+      "roles": [
+        "Neil Latimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738746",
+      "name": "Ruth Roman",
+      "sequence": 3,
+      "roles": [
+        "Carol Lawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914808",
+      "name": "Minor Watson",
+      "sequence": 4,
+      "roles": [
+        "Moose Lawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236888",
+      "name": "Dona Drake",
+      "sequence": 5,
+      "roles": [
+        "Jenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 6,
+      "roles": [
+        "Sorren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0783003",
+      "name": "Sarah Selby",
+      "sequence": 7,
+      "roles": [
+        "Mildred Sorren"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0168829",
       "name": "Lenore J. Coffee",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0257745",
       "name": "Stuart Engstrand",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1949-10-21",

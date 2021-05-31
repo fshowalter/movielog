@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0808279",
   "sort_title": "Funny Games (2007)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0915208",
-      "name": "Naomi Watts",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000619",
-      "name": "Tim Roth",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685856",
-      "name": "Michael Pitt",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1227232",
-      "name": "Brady Corbet",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Peter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1492784",
-      "name": "Devon Gearhart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Georgie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301305",
-      "name": "Boyd Gaines",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266441",
-      "name": "Siobhan Fallon Hogan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Betsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526986",
-      "name": "Robert LuPone",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3843676",
-      "name": "Susi Haneke",
-      "sequence": 8,
-      "notes": "(as Susanne Haneke)",
-      "roles": [
-        "Betsy's Sister-in-Law"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002385",
-      "name": "Linda Moran",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Eve"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0359734",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0915208",
+      "name": "Naomi Watts",
+      "sequence": 0,
+      "roles": [
+        "Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000619",
+      "name": "Tim Roth",
+      "sequence": 1,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685856",
+      "name": "Michael Pitt",
+      "sequence": 2,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1227232",
+      "name": "Brady Corbet",
+      "sequence": 3,
+      "roles": [
+        "Peter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1492784",
+      "name": "Devon Gearhart",
+      "sequence": 4,
+      "roles": [
+        "Georgie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301305",
+      "name": "Boyd Gaines",
+      "sequence": 5,
+      "roles": [
+        "Fred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266441",
+      "name": "Siobhan Fallon Hogan",
+      "sequence": 6,
+      "roles": [
+        "Betsy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526986",
+      "name": "Robert LuPone",
+      "sequence": 7,
+      "roles": [
+        "Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3843676",
+      "name": "Susi Haneke",
+      "sequence": 8,
+      "roles": [
+        "Betsy's Sister-in-Law"
+      ],
+      "notes": "(as Susanne Haneke)"
+    },
+    {
+      "person_imdb_id": "nm0002385",
+      "name": "Linda Moran",
+      "sequence": 9,
+      "roles": [
+        "Eve"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0359734",
       "name": "Michael Haneke",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2007-10-20",

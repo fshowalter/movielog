@@ -23,7 +23,7 @@ def deserialize(json_movies: list[JsonMovie]) -> list[Movie]:
     return [
         Movie(
             imdb_id=json_movie["imdb_id"],
-            notes=json_movie["notes"],
+            notes=json_movie.get("notes", None),
             title=json_movie["title"],
             year=int(json_movie["year"]),
         )

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0027042",
   "sort_title": "Steamboat Round the Bend (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0737259",
-      "name": "Will Rogers",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Doctor John Pearly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794297",
-      "name": "Anne Shirley",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Fleety Belle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167769",
-      "name": "Irvin S. Cobb",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Captain Eli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657874",
-      "name": "Eugene Pallette",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sheriff Rufe Jeffers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570222",
-      "name": "John McGuire",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Duke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161414",
-      "name": "Berton Churchill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "New Moses"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285643",
-      "name": "Francis Ford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Efe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408184",
-      "name": "Roger Imhof",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pappy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0369058",
-      "name": "Raymond Hatton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Matt Abel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0098376",
-      "name": "Hobart Bosworth",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chaplain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275297",
-      "name": "Stepin Fetchit",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jonah"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0737259",
+      "name": "Will Rogers",
+      "sequence": 0,
+      "roles": [
+        "Doctor John Pearly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794297",
+      "name": "Anne Shirley",
+      "sequence": 1,
+      "roles": [
+        "Fleety Belle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167769",
+      "name": "Irvin S. Cobb",
+      "sequence": 2,
+      "roles": [
+        "Captain Eli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0657874",
+      "name": "Eugene Pallette",
+      "sequence": 3,
+      "roles": [
+        "Sheriff Rufe Jeffers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570222",
+      "name": "John McGuire",
+      "sequence": 4,
+      "roles": [
+        "Duke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161414",
+      "name": "Berton Churchill",
+      "sequence": 5,
+      "roles": [
+        "New Moses"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285643",
+      "name": "Francis Ford",
+      "sequence": 6,
+      "roles": [
+        "Efe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408184",
+      "name": "Roger Imhof",
+      "sequence": 7,
+      "roles": [
+        "Pappy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0369058",
+      "name": "Raymond Hatton",
+      "sequence": 8,
+      "roles": [
+        "Matt Abel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0098376",
+      "name": "Hobart Bosworth",
+      "sequence": 9,
+      "roles": [
+        "Chaplain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275297",
+      "name": "Stepin Fetchit",
+      "sequence": 10,
+      "roles": [
+        "Jonah"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0873707",
       "name": "Lamar Trotti",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0122180",
       "name": "Ben Lucien Burman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     }
   ],
   "release_date": "1935-09-06",

@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0052357",
   "sort_title": "Vertigo (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John 'Scottie' Ferguson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001571",
-      "name": "Kim Novak",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Madeleine Elster",
-        "Judy Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000895",
-      "name": "Barbara Bel Geddes",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Midge Wood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375738",
-      "name": "Tom Helmore",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gavin Elster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428216",
-      "name": "Henry Jones",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Coroner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047450",
-      "name": "Raymond Bailey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Scottie's Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179289",
-      "name": "Ellen Corby",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Manager of McKittrick Hotel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790164",
-      "name": "Konstantin Shayne",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pop Leibel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665886",
-      "name": "Lee Patrick",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Car Owner Mistaken for Madeleine"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -93,45 +9,129 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "John 'Scottie' Ferguson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001571",
+      "name": "Kim Novak",
+      "sequence": 1,
+      "roles": [
+        "Madeleine Elster",
+        "Judy Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000895",
+      "name": "Barbara Bel Geddes",
+      "sequence": 2,
+      "roles": [
+        "Marjorie 'Midge' Wood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375738",
+      "name": "Tom Helmore",
+      "sequence": 3,
+      "roles": [
+        "Gavin Elster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428216",
+      "name": "Henry Jones",
+      "sequence": 4,
+      "roles": [
+        "Coroner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047450",
+      "name": "Raymond Bailey",
+      "sequence": 5,
+      "roles": [
+        "Scottie's Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179289",
+      "name": "Ellen Corby",
+      "sequence": 6,
+      "roles": [
+        "Manager of McKittrick Hotel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790164",
+      "name": "Konstantin Shayne",
+      "sequence": 7,
+      "roles": [
+        "Pop Leibel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665886",
+      "name": "Lee Patrick",
+      "sequence": 8,
+      "roles": [
+        "Car Owner Mistaken for Madeleine"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0178785",
       "name": "Alec Coppel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0853138",
       "name": "Samuel A. Taylor",
-      "sequence": 0,
-      "notes": "(screenplay by) (as Samuel Taylor)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by) (as Samuel Taylor)"
     },
     {
       "person_imdb_id": "nm0092267",
       "name": "Pierre Boileau",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel \"D'Entre Les Morts\" by)",
-      "group_id": 1
+      "notes": "(based on the novel \"D'Entre Les Morts\" by)"
     },
     {
       "person_imdb_id": "nm0092268",
       "name": "Thomas Narcejac",
-      "sequence": 0,
-      "notes": "(based on the novel \"D'Entre Les Morts\" by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(based on the novel \"D'Entre Les Morts\" by)"
     },
     {
       "person_imdb_id": "nm0027173",
       "name": "Maxwell Anderson",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 2
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
-  "release_date": "1958-05-09",
-  "release_date_notes": "(San Francisco, California) (premiere)",
+  "release_date": "1958-05-22",
+  "release_date_notes": "",
   "countries": [
     "United States"
   ]

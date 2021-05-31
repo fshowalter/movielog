@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0039581",
   "sort_title": "Long Night (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000020",
-      "name": "Henry Fonda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000895",
-      "name": "Barbara Bel Geddes",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jo Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maximilian the Great"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245304",
-      "name": "Ann Dvorak",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Charlene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293418",
-      "name": "Howard Freeman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sheriff Ned Meade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Chief of Police Bob McManus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176879",
-      "name": "Elisha Cook Jr.",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Frank Dunlap"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809625",
-      "name": "Queenie Smith",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Tully"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164727",
-      "name": "David Clarke",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bill Pulanski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569902",
-      "name": "Charles McGraw",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stevens - Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126412",
-      "name": "Melinda Byron",
-      "sequence": 10,
-      "notes": "(as Patty King)",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205369",
-      "name": "Davis Roberts",
-      "sequence": 11,
-      "notes": "(as Robert A. Davis)",
-      "roles": [
-        "Freddie"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0514822",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000020",
+      "name": "Henry Fonda",
+      "sequence": 0,
+      "roles": [
+        "Joe Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000895",
+      "name": "Barbara Bel Geddes",
+      "sequence": 1,
+      "roles": [
+        "Jo Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Maximilian the Great"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245304",
+      "name": "Ann Dvorak",
+      "sequence": 3,
+      "roles": [
+        "Charlene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293418",
+      "name": "Howard Freeman",
+      "sequence": 4,
+      "roles": [
+        "Sheriff Ned Meade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 5,
+      "roles": [
+        "Chief of Police Bob McManus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176879",
+      "name": "Elisha Cook Jr.",
+      "sequence": 6,
+      "roles": [
+        "Frank Dunlap"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0809625",
+      "name": "Queenie Smith",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Tully"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164727",
+      "name": "David Clarke",
+      "sequence": 8,
+      "roles": [
+        "Bill Pulanski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569902",
+      "name": "Charles McGraw",
+      "sequence": 9,
+      "roles": [
+        "Stevens - Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126412",
+      "name": "Melinda Byron",
+      "sequence": 10,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": "(as Patty King)"
+    },
+    {
+      "person_imdb_id": "nm0205369",
+      "name": "Davis Roberts",
+      "sequence": 11,
+      "roles": [
+        "Freddie"
+      ],
+      "notes": "(as Robert A. Davis)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0923333",
       "name": "John Wexley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0899254",
       "name": "Jacques Viot",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1947-05-28",

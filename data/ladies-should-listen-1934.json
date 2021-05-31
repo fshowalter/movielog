@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0025363",
   "sort_title": "Ladies Should Listen (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Julian De Lussac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236903",
-      "name": "Frances Drake",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna Mirelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002143",
-      "name": "Edward Everett Horton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul Vernet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922851",
-      "name": "Nydia Westman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Susie Flamberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10972141",
-      "name": "Rafael Corio",
-      "sequence": 4,
-      "notes": "(as Rafael Corio)",
-      "roles": [
-        "Ramon Cintos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604174",
-      "name": "Rosita Moreno",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marguerite Cintos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0053616",
-      "name": "George Barbier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joseph Flamberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712776",
-      "name": "Charles Ray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henri - House Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036792",
-      "name": "Charles Arnt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Alber - Valet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792130",
-      "name": "Ann Sheridan",
-      "sequence": 9,
-      "notes": "(as Clara Lou Sheridan)",
-      "roles": [
-        "Adele"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122941",
-      "name": "Henrietta Burnside",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Telephone Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0636027",
-      "name": "Joseph North",
-      "sequence": 11,
-      "notes": "(as Joe North)",
-      "roles": [
-        "Butler"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0878338",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Julian De Lussac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236903",
+      "name": "Frances Drake",
+      "sequence": 1,
+      "roles": [
+        "Anna Mirelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002143",
+      "name": "Edward Everett Horton",
+      "sequence": 2,
+      "roles": [
+        "Paul Vernet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922851",
+      "name": "Nydia Westman",
+      "sequence": 3,
+      "roles": [
+        "Susie Flamberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10972141",
+      "name": "Rafael Corio",
+      "sequence": 4,
+      "roles": [
+        "Ramon Cintos"
+      ],
+      "notes": "(as Rafael Corio)"
+    },
+    {
+      "person_imdb_id": "nm0604174",
+      "name": "Rosita Moreno",
+      "sequence": 5,
+      "roles": [
+        "Marguerite Cintos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0053616",
+      "name": "George Barbier",
+      "sequence": 6,
+      "roles": [
+        "Joseph Flamberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712776",
+      "name": "Charles Ray",
+      "sequence": 7,
+      "roles": [
+        "Henri - House Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036792",
+      "name": "Charles Arnt",
+      "sequence": 8,
+      "roles": [
+        "Alber - Valet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792130",
+      "name": "Ann Sheridan",
+      "sequence": 9,
+      "roles": [
+        "Adele"
+      ],
+      "notes": "(as Clara Lou Sheridan)"
+    },
+    {
+      "person_imdb_id": "nm0122941",
+      "name": "Henrietta Burnside",
+      "sequence": 10,
+      "roles": [
+        "Telephone Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0636027",
+      "name": "Joseph North",
+      "sequence": 11,
+      "roles": [
+        "Butler"
+      ],
+      "notes": "(as Joe North)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0767878",
       "name": "Alfred Savoir",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0093397",
       "name": "Guy Bolton",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0083125",
       "name": "Claude Binyon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0124918",
       "name": "Frank Butler",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1934-08-10",

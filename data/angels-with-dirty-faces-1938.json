@@ -1,175 +1,6 @@
 {
   "imdb_id": "tt0029870",
   "sort_title": "Angels with Dirty Faces (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000010",
-      "name": "James Cagney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rocky Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002285",
-      "name": "Pat O'Brien",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jerry Connolly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "James Frazier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792130",
-      "name": "Ann Sheridan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Laury Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0051628",
-      "name": "George Bancroft",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mac Keefer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1513848",
-      "name": "The Dead End Kids",
-      "sequence": 5,
-      "notes": "(as The 'Dead End' Kids)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0356890",
-      "name": "Billy Halop",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Soapy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0429853",
-      "name": "Bobby Jordan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Swing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329832",
-      "name": "Leo Gorcey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0217316",
-      "name": "Gabriel Dell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pasty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355653",
-      "name": "Huntz Hall",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Crab"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700603",
-      "name": "Bernard Punsly",
-      "sequence": 11,
-      "notes": "(as Bernard Punsley)",
-      "roles": [
-        "Hunky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236110",
-      "name": "Joe Downing",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Steve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0668023",
-      "name": "Edward Pawley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606343",
-      "name": "Adrian Morris",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Blackie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0121685",
-      "name": "Frankie Burke",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Rocky - as a Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870454",
-      "name": "William Tracy",
-      "sequence": 16,
-      "notes": "(as William Tracey)",
-      "roles": [
-        "Jerry - as a Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461490",
-      "name": "Marilyn Knowlden",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Laury - as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1247832",
-      "name": "The Robert Mitchell Boy Choir",
-      "sequence": 18,
-      "notes": "(as St. Brendan's Church Choir)",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -178,41 +9,210 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000010",
+      "name": "James Cagney",
+      "sequence": 0,
+      "roles": [
+        "Rocky Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002285",
+      "name": "Pat O'Brien",
+      "sequence": 1,
+      "roles": [
+        "Jerry Connolly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 2,
+      "roles": [
+        "James Frazier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792130",
+      "name": "Ann Sheridan",
+      "sequence": 3,
+      "roles": [
+        "Laury Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0051628",
+      "name": "George Bancroft",
+      "sequence": 4,
+      "roles": [
+        "Mac Keefer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1513848",
+      "name": "The Dead End Kids",
+      "sequence": 5,
+      "roles": [],
+      "notes": "(as The 'Dead End' Kids)"
+    },
+    {
+      "person_imdb_id": "nm0356890",
+      "name": "Billy Halop",
+      "sequence": 6,
+      "roles": [
+        "Soapy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0429853",
+      "name": "Bobby Jordan",
+      "sequence": 7,
+      "roles": [
+        "Swing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329832",
+      "name": "Leo Gorcey",
+      "sequence": 8,
+      "roles": [
+        "Bim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0217316",
+      "name": "Gabriel Dell",
+      "sequence": 9,
+      "roles": [
+        "Pasty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355653",
+      "name": "Huntz Hall",
+      "sequence": 10,
+      "roles": [
+        "Crab"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700603",
+      "name": "Bernard Punsly",
+      "sequence": 11,
+      "roles": [
+        "Hunky"
+      ],
+      "notes": "(as Bernard Punsley)"
+    },
+    {
+      "person_imdb_id": "nm0236110",
+      "name": "Joe Downing",
+      "sequence": 12,
+      "roles": [
+        "Steve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0668023",
+      "name": "Edward Pawley",
+      "sequence": 13,
+      "roles": [
+        "Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606343",
+      "name": "Adrian Morris",
+      "sequence": 14,
+      "roles": [
+        "Blackie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0121685",
+      "name": "Frankie Burke",
+      "sequence": 15,
+      "roles": [
+        "Rocky - as a Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870454",
+      "name": "William Tracy",
+      "sequence": 16,
+      "roles": [
+        "Jerry - as a Boy"
+      ],
+      "notes": "(as William Tracey)"
+    },
+    {
+      "person_imdb_id": "nm0461490",
+      "name": "Marilyn Knowlden",
+      "sequence": 17,
+      "roles": [
+        "Laury - as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1247832",
+      "name": "The Robert Mitchell Boy Choir",
+      "sequence": 18,
+      "roles": [],
+      "notes": "(as St. Brendan's Church Choir)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0923333",
       "name": "John Wexley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0240417",
       "name": "Warren Duff",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0114602",
       "name": "Rowland Brown",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0531269",
       "name": "Charles MacArthur",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1938-11-26",

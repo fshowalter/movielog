@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0034167",
   "sort_title": "Sergeant York (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000011",
-      "name": "Gary Cooper",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alvin C. York"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000974",
-      "name": "Walter Brennan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Pastor Rosier Pile"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504125",
-      "name": "Joan Leslie",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gracie Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "'Pusher' Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725897",
-      "name": "Stanley Ridges",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maj. Buxton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943618",
-      "name": "Margaret Wycherly",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mother York"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ike Botkin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000890",
-      "name": "Noah Beery Jr.",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Buck Lipscomb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001478",
-      "name": "June Lockhart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Rosie York"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601129",
-      "name": "Dickie Moore",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George York"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079681",
-      "name": "Clem Bevans",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Zeke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0196247",
-      "name": "Howard Da Silva",
-      "sequence": 11,
-      "notes": "(as Howard da Silva)",
-      "roles": [
-        "Lem"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Cordell Hull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827031",
-      "name": "Harvey Stephens",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Capt. Danforth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115452",
-      "name": "David Bruce",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bert Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0260722",
-      "name": "Carl Esmond",
-      "sequence": 15,
-      "notes": "(as Charles Esmond)",
-      "roles": [
-        "German Major"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768178",
-      "name": "Joe Sawyer",
-      "sequence": 16,
-      "notes": "(as Joseph Sawyer)",
-      "roles": [
-        "Sgt. Early"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280900",
-      "name": "Pat Flaherty",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Sgt. Harry Parsons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692351",
-      "name": "Robert Porterfield",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Zeb Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017578",
-      "name": "Erville Alderson",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Nate Tomkins"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -191,55 +9,237 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000011",
+      "name": "Gary Cooper",
+      "sequence": 0,
+      "roles": [
+        "Alvin C. York"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000974",
+      "name": "Walter Brennan",
+      "sequence": 1,
+      "roles": [
+        "Pastor Rosier Pile"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504125",
+      "name": "Joan Leslie",
+      "sequence": 2,
+      "roles": [
+        "Gracie Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 3,
+      "roles": [
+        "'Pusher' Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725897",
+      "name": "Stanley Ridges",
+      "sequence": 4,
+      "roles": [
+        "Maj. Buxton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943618",
+      "name": "Margaret Wycherly",
+      "sequence": 5,
+      "roles": [
+        "Mother York"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 6,
+      "roles": [
+        "Ike Botkin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000890",
+      "name": "Noah Beery Jr.",
+      "sequence": 7,
+      "roles": [
+        "Buck Lipscomb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001478",
+      "name": "June Lockhart",
+      "sequence": 8,
+      "roles": [
+        "Rosie York"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601129",
+      "name": "Dickie Moore",
+      "sequence": 9,
+      "roles": [
+        "George York"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079681",
+      "name": "Clem Bevans",
+      "sequence": 10,
+      "roles": [
+        "Zeke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0196247",
+      "name": "Howard Da Silva",
+      "sequence": 11,
+      "roles": [
+        "Lem"
+      ],
+      "notes": "(as Howard da Silva)"
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 12,
+      "roles": [
+        "Cordell Hull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827031",
+      "name": "Harvey Stephens",
+      "sequence": 13,
+      "roles": [
+        "Capt. Danforth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115452",
+      "name": "David Bruce",
+      "sequence": 14,
+      "roles": [
+        "Bert Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0260722",
+      "name": "Carl Esmond",
+      "sequence": 15,
+      "roles": [
+        "German Major"
+      ],
+      "notes": "(as Charles Esmond)"
+    },
+    {
+      "person_imdb_id": "nm0768178",
+      "name": "Joe Sawyer",
+      "sequence": 16,
+      "roles": [
+        "Sgt. Early"
+      ],
+      "notes": "(as Joseph Sawyer)"
+    },
+    {
+      "person_imdb_id": "nm0280900",
+      "name": "Pat Flaherty",
+      "sequence": 17,
+      "roles": [
+        "Sgt. Harry Parsons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692351",
+      "name": "Robert Porterfield",
+      "sequence": 18,
+      "roles": [
+        "Zeb Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017578",
+      "name": "Erville Alderson",
+      "sequence": 19,
+      "roles": [
+        "Nate Tomkins"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0277874",
       "name": "Abem Finkel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0151310",
       "name": "Harry Chandlee",
-      "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0462321",
       "name": "Howard Koch",
-      "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0948663",
       "name": "Alvin C. York",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon: the diary of) (as Sergeant York)",
-      "group_id": 1
+      "notes": "(based upon: the diary of) (as Sergeant York)"
     },
     {
       "person_imdb_id": "nm0804097",
       "name": "Tom Skeyhill",
+      "group": 2,
       "sequence": 0,
-      "notes": "(diary editor)",
-      "group_id": 2
+      "notes": "(diary editor)"
     },
     {
       "person_imdb_id": "nm0184633",
       "name": "Sam Cowan",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1941-07-02",

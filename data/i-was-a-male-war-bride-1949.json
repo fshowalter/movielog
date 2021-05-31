@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0041498",
   "sort_title": "I Was a Male War Bride (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Captain Henri Rochard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792130",
-      "name": "Ann Sheridan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "1st Lt. Catherine Gates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551031",
-      "name": "Marion Marshall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Kitty Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835836",
-      "name": "Randy Stuart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Eloise Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0624285",
-      "name": "Bill Neff",
-      "sequence": 4,
-      "notes": "(as William Neff)",
-      "roles": [
-        "Capt. Jack Ramsey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233014",
-      "name": "King Donovan",
-      "sequence": 5,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Undetermined Role"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280649",
-      "name": "Charles B. Fitzsimons",
-      "sequence": 6,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Lt. Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0286685",
-      "name": "Robert Stevenson",
-      "sequence": 7,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907170",
-      "name": "Otto Waldis",
-      "sequence": 8,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Undetermined Role"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Captain Henri Rochard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792130",
+      "name": "Ann Sheridan",
+      "sequence": 1,
+      "roles": [
+        "1st Lt. Catherine Gates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551031",
+      "name": "Marion Marshall",
+      "sequence": 2,
+      "roles": [
+        "Lt. Kitty Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835836",
+      "name": "Randy Stuart",
+      "sequence": 3,
+      "roles": [
+        "Lt. Eloise Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0624285",
+      "name": "Bill Neff",
+      "sequence": 4,
+      "roles": [
+        "Capt. Jack Ramsey"
+      ],
+      "notes": "(as William Neff)"
+    },
+    {
+      "person_imdb_id": "nm0233014",
+      "name": "King Donovan",
+      "sequence": 5,
+      "roles": [
+        "Undetermined Role"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0280649",
+      "name": "Charles B. Fitzsimons",
+      "sequence": 6,
+      "roles": [
+        "Lt. Kelly"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0286685",
+      "name": "Robert Stevenson",
+      "sequence": 7,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0907170",
+      "name": "Otto Waldis",
+      "sequence": 8,
+      "roles": [
+        "Undetermined Role"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0818700",
       "name": "Leonard Spigelgass",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0928444",
       "name": "Hagar Wilde",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0733887",
       "name": "Henri Rochard",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1949-08-17",

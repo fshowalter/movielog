@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0087759",
   "sort_title": "Murder-Rock: Dancing Death (1984)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0439466",
-      "name": "Olga Karlatos",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Candice Norman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522590",
-      "name": "Ray Lovelock",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "George Webb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144292",
-      "name": "Claudio Cassinelli",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dick Gibson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0162453",
-      "name": "Cosimo Cinieri",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Borges"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543049",
-      "name": "Giuseppe Mannajuolo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Prof. Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2363281",
-      "name": "Berna Maria do Carmo",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Joan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1199018",
-      "name": "Belinda Busato",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gloria Weston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1200261",
-      "name": "Maria Vittoria Tolazzi",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314250",
-      "name": "Geretta Geretta",
-      "sequence": 8,
-      "notes": "(as Geretta Marie Fields)",
-      "roles": [
-        "Margie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0097392",
-      "name": "Christian Borromeo",
-      "sequence": 9,
-      "notes": "(as Cristian Borromeo)",
-      "roles": [
-        "Willy Stark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322855",
-      "name": "Robert Gligorov",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1200408",
-      "name": "Carlo Caldera",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0661745",
-      "name": "Riccardo Parisio Perrotti",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Steiner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210527",
-      "name": "Giovanni De Nava",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hotel Receptionist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -137,55 +9,183 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0439466",
+      "name": "Olga Karlatos",
+      "sequence": 0,
+      "roles": [
+        "Candice Norman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522590",
+      "name": "Ray Lovelock",
+      "sequence": 1,
+      "roles": [
+        "George Webb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144292",
+      "name": "Claudio Cassinelli",
+      "sequence": 2,
+      "roles": [
+        "Dick Gibson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0162453",
+      "name": "Cosimo Cinieri",
+      "sequence": 3,
+      "roles": [
+        "Lt. Borges"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543049",
+      "name": "Giuseppe Mannajuolo",
+      "sequence": 4,
+      "roles": [
+        "Prof. Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2363281",
+      "name": "Berna Maria do Carmo",
+      "sequence": 5,
+      "roles": [
+        "Joan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1199018",
+      "name": "Belinda Busato",
+      "sequence": 6,
+      "roles": [
+        "Gloria Weston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1200261",
+      "name": "Maria Vittoria Tolazzi",
+      "sequence": 7,
+      "roles": [
+        "Jill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314250",
+      "name": "Geretta Geretta",
+      "sequence": 8,
+      "roles": [
+        "Margie"
+      ],
+      "notes": "(as Geretta Marie Fields)"
+    },
+    {
+      "person_imdb_id": "nm0097392",
+      "name": "Christian Borromeo",
+      "sequence": 9,
+      "roles": [
+        "Willy Stark"
+      ],
+      "notes": "(as Cristian Borromeo)"
+    },
+    {
+      "person_imdb_id": "nm0322855",
+      "name": "Robert Gligorov",
+      "sequence": 10,
+      "roles": [
+        "Bert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1200408",
+      "name": "Carlo Caldera",
+      "sequence": 11,
+      "roles": [
+        "Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0661745",
+      "name": "Riccardo Parisio Perrotti",
+      "sequence": 12,
+      "roles": [
+        "Steiner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210527",
+      "name": "Giovanni De Nava",
+      "sequence": 13,
+      "roles": [
+        "Hotel Receptionist"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0166405",
       "name": "Gianfranco Clerici",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0280984",
       "name": "Vincenzo Mannino",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0166405",
       "name": "Gianfranco Clerici",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0280984",
       "name": "Vincenzo Mannino",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0316363",
       "name": "Roberto Gianviti",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 3,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1984-04-20",

@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt6998518",
   "sort_title": "Mandy (2018)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000115",
-      "name": "Nicolas Cage",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Red Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2057859",
-      "name": "Andrea Riseborough",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mandy Bloom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730070",
-      "name": "Linus Roache",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jeremiah Sand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219329",
-      "name": "Ned Dennehy",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Brother Swan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288260",
-      "name": "Olwen Fou\u00e9r\u00e9",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mother Marlene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104114",
-      "name": "Richard Brake",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Chemist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004886",
-      "name": "Bill Duke",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Caruthers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4793477",
-      "name": "Line Pillet",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sister Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm9456010",
-      "name": "Cl\u00e9ment Baronnet",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Brother Klopek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6002720",
-      "name": "Alexis Julemont",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Brother Hanker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10087148",
-      "name": "Stephan Fraser",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Brother Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2162079",
-      "name": "Ivailo Dimitrov",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Skratch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6230425",
-      "name": "Hayley Saywell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1629514",
-      "name": "Kalin Kerin",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Scabs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10087150",
-      "name": "Tam\u00e1s Hagyu\u00f3",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Fuck Pig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10087151",
-      "name": "Madd'yz Dog Lollyta",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Dog the Dog"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10087152",
-      "name": "Corfu",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Lizzie the Tiger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2439129",
-      "name": "Paul Painter",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Announcer",
-        "Cheddar Goblin"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0181903",
@@ -174,40 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000115",
+      "name": "Nicolas Cage",
+      "sequence": 0,
+      "roles": [
+        "Red Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2057859",
+      "name": "Andrea Riseborough",
+      "sequence": 1,
+      "roles": [
+        "Mandy Bloom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730070",
+      "name": "Linus Roache",
+      "sequence": 2,
+      "roles": [
+        "Jeremiah Sand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219329",
+      "name": "Ned Dennehy",
+      "sequence": 3,
+      "roles": [
+        "Brother Swan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288260",
+      "name": "Olwen Fou\u00e9r\u00e9",
+      "sequence": 4,
+      "roles": [
+        "Mother Marlene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104114",
+      "name": "Richard Brake",
+      "sequence": 5,
+      "roles": [
+        "The Chemist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004886",
+      "name": "Bill Duke",
+      "sequence": 6,
+      "roles": [
+        "Caruthers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4793477",
+      "name": "Line Pillet",
+      "sequence": 7,
+      "roles": [
+        "Sister Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm9456010",
+      "name": "Cl\u00e9ment Baronnet",
+      "sequence": 8,
+      "roles": [
+        "Brother Klopek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6002720",
+      "name": "Alexis Julemont",
+      "sequence": 9,
+      "roles": [
+        "Brother Hanker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10087148",
+      "name": "Stephan Fraser",
+      "sequence": 10,
+      "roles": [
+        "Brother Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2162079",
+      "name": "Ivailo Dimitrov",
+      "sequence": 11,
+      "roles": [
+        "Skratch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6230425",
+      "name": "Hayley Saywell",
+      "sequence": 12,
+      "roles": [
+        "Sis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1629514",
+      "name": "Kalin Kerin",
+      "sequence": 13,
+      "roles": [
+        "Scabs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10087150",
+      "name": "Tam\u00e1s Hagyu\u00f3",
+      "sequence": 14,
+      "roles": [
+        "Fuck Pig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10087151",
+      "name": "Madd'yz Dog Lollyta",
+      "sequence": 15,
+      "roles": [
+        "Dog the Dog"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10087152",
+      "name": "Corfu",
+      "sequence": 16,
+      "roles": [
+        "Lizzie the Tiger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2439129",
+      "name": "Paul Painter",
+      "sequence": 17,
+      "roles": [
+        "Announcer",
+        "Cheddar Goblin"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0181903",
       "name": "Panos Cosmatos",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm2507810",
       "name": "Aaron Stewart-Ahn",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0181903",
       "name": "Panos Cosmatos",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm1085757",
       "name": "Casper Kelly",
+      "group": 2,
       "sequence": 0,
-      "notes": "(written by) (Cheddar Goblin)",
-      "group_id": 2
+      "notes": "(written by) (Cheddar Goblin)"
     }
   ],
   "release_date": "2018-01-19",
   "release_date_notes": "(Sundance Film Festival)",
   "countries": [
     "United Kingdom",
-    "Belgium"
+    "Belgium",
+    "France",
+    "United States"
   ]
 }

@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0041944",
   "sort_title": "Take Me Out to the Ball Game (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dennis Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930565",
-      "name": "Esther Williams",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "K.C. Higgins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000037",
-      "name": "Gene Kelly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eddie O'Brien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308081",
-      "name": "Betty Garrett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Shirley Delwyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036427",
-      "name": "Edward Arnold",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Lorgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0613235",
-      "name": "Jules Munshin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nat Goldberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485518",
-      "name": "Richard Lane",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Michael Gilhuly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240836",
-      "name": "Tom Dugan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Slappy Burke"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000923",
@@ -83,41 +9,115 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0876223",
-      "name": "Harry Tugend",
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "roles": [
+        "Dennis Ryan"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0920216",
-      "name": "George Wells",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "person_imdb_id": "nm0930565",
+      "name": "Esther Williams",
+      "sequence": 1,
+      "roles": [
+        "K.C. Higgins"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0000037",
       "name": "Gene Kelly",
+      "sequence": 2,
+      "roles": [
+        "Eddie O'Brien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308081",
+      "name": "Betty Garrett",
+      "sequence": 3,
+      "roles": [
+        "Shirley Delwyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036427",
+      "name": "Edward Arnold",
+      "sequence": 4,
+      "roles": [
+        "Joe Lorgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0613235",
+      "name": "Jules Munshin",
+      "sequence": 5,
+      "roles": [
+        "Nat Goldberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485518",
+      "name": "Richard Lane",
+      "sequence": 6,
+      "roles": [
+        "Michael Gilhuly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240836",
+      "name": "Tom Dugan",
+      "sequence": 7,
+      "roles": [
+        "Slappy Burke"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0876223",
+      "name": "Harry Tugend",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0920216",
+      "name": "George Wells",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0000037",
+      "name": "Gene Kelly",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0186355",
       "name": "Harry Crane",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1949-03-09",

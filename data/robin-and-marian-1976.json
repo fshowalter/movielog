@@ -1,180 +1,6 @@
 {
   "imdb_id": "tt0075147",
   "sort_title": "Robin and Marian (1976)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robin Hood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000030",
-      "name": "Audrey Hepburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maid Marian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001727",
-      "name": "Robert Shaw",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sheriff of Nottingham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001321",
-      "name": "Richard Harris",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Richard the Lionheart",
-        "King Richard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932116",
-      "name": "Nicol Williamson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Little John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001186",
-      "name": "Denholm Elliott",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Will Scarlett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354078",
-      "name": "Kenneth Haigh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sir Ranulf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054985",
-      "name": "Ronnie Barker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Friar Tuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000453",
-      "name": "Ian Holm",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "King John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562732",
-      "name": "Bill Maynard",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mercadier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460874",
-      "name": "Esmond Knight",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Old Defender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703618",
-      "name": "Veronica Quilligan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sister Mary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125350",
-      "name": "Peter Butterworth",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Surgeon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057179",
-      "name": "John Barrett",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Jack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186469",
-      "name": "Kenneth Cranham",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Jack's Apprentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000721",
-      "name": "Victoria Abril",
-      "sequence": 15,
-      "notes": "(as Victoria Merida Roja)",
-      "roles": [
-        "Queen Isabella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0432314",
-      "name": "Montserrat Juli\u00f3",
-      "sequence": 16,
-      "notes": "(as Montserrat Julio)",
-      "roles": [
-        "1st Sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379847",
-      "name": "Victoria Hern\u00e1ndez Sanguino",
-      "sequence": 17,
-      "notes": "(as Victoria Hernandez Sanguino)",
-      "roles": [
-        "2nd Sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591320",
-      "name": "Margarida Minguill\u00f3n",
-      "sequence": 18,
-      "notes": "(as Margarita Minguillon)",
-      "roles": [
-        "3rd Sister"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0504513",
@@ -183,13 +9,187 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 0,
+      "roles": [
+        "Robin Hood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000030",
+      "name": "Audrey Hepburn",
+      "sequence": 1,
+      "roles": [
+        "Maid Marian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001727",
+      "name": "Robert Shaw",
+      "sequence": 2,
+      "roles": [
+        "Sheriff of Nottingham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001321",
+      "name": "Richard Harris",
+      "sequence": 3,
+      "roles": [
+        "Richard the Lionheart",
+        "King Richard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932116",
+      "name": "Nicol Williamson",
+      "sequence": 4,
+      "roles": [
+        "Little John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001186",
+      "name": "Denholm Elliott",
+      "sequence": 5,
+      "roles": [
+        "Will Scarlett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354078",
+      "name": "Kenneth Haigh",
+      "sequence": 6,
+      "roles": [
+        "Sir Ranulf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054985",
+      "name": "Ronnie Barker",
+      "sequence": 7,
+      "roles": [
+        "Friar Tuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000453",
+      "name": "Ian Holm",
+      "sequence": 8,
+      "roles": [
+        "King John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562732",
+      "name": "Bill Maynard",
+      "sequence": 9,
+      "roles": [
+        "Mercadier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460874",
+      "name": "Esmond Knight",
+      "sequence": 10,
+      "roles": [
+        "Old Defender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0703618",
+      "name": "Veronica Quilligan",
+      "sequence": 11,
+      "roles": [
+        "Sister Mary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0125350",
+      "name": "Peter Butterworth",
+      "sequence": 12,
+      "roles": [
+        "Surgeon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057179",
+      "name": "John Barrett",
+      "sequence": 13,
+      "roles": [
+        "Jack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186469",
+      "name": "Kenneth Cranham",
+      "sequence": 14,
+      "roles": [
+        "Jack's Apprentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000721",
+      "name": "Victoria Abril",
+      "sequence": 15,
+      "roles": [
+        "Queen Isabella"
+      ],
+      "notes": "(as Victoria Merida Roja)"
+    },
+    {
+      "person_imdb_id": "nm0432314",
+      "name": "Montserrat Juli\u00f3",
+      "sequence": 16,
+      "roles": [
+        "1st Sister"
+      ],
+      "notes": "(as Montserrat Julio)"
+    },
+    {
+      "person_imdb_id": "nm0379847",
+      "name": "Victoria Hern\u00e1ndez Sanguino",
+      "sequence": 17,
+      "roles": [
+        "2nd Sister"
+      ],
+      "notes": "(as Victoria Hernandez Sanguino)"
+    },
+    {
+      "person_imdb_id": "nm0591320",
+      "name": "Margarida Minguill\u00f3n",
+      "sequence": 18,
+      "roles": [
+        "3rd Sister"
+      ],
+      "notes": "(as Margarita Minguillon)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0063953",
       "name": "James Goldman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1976-03-11",

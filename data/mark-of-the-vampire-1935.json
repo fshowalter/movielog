@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0026685",
   "sort_title": "Mark of the Vampire (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000859",
-      "name": "Lionel Barrymore",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Professor Zelin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0019922",
-      "name": "Elizabeth Allan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Irena Borotyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Count Mora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041172",
-      "name": "Lionel Atwill",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Inspector Neumann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380965",
-      "name": "Jean Hersholt",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Baron Otto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0905622",
-      "name": "Henry Wadsworth",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fedor Vincente"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576083",
-      "name": "Donald Meek",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Doskil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707771",
-      "name": "Jessie Ralph",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Midwife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801034",
-      "name": "Ivan F. Simpson",
-      "sequence": 8,
-      "notes": "(as Ivan Simpson)",
-      "roles": [
-        "Jan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033951",
-      "name": "Franklyn Ardell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chauffeur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071883",
-      "name": "Leila Bennett",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Maria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321204",
-      "name": "June Gittelson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Annie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0096968",
-      "name": "Carroll Borland",
-      "sequence": 12,
-      "notes": "(as Carol Borland)",
-      "roles": [
-        "Luna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378555",
-      "name": "Holmes Herbert",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sir Karell Borotyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899521",
-      "name": "Michael Visaroff",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Innkeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540924",
-      "name": "Eily Malyon",
-      "sequence": 15,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Sick Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580272",
-      "name": "Jane Mercer",
-      "sequence": 25,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Undetermined Minor Role"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -164,48 +9,194 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000859",
+      "name": "Lionel Barrymore",
+      "sequence": 0,
+      "roles": [
+        "Professor Zelin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0019922",
+      "name": "Elizabeth Allan",
+      "sequence": 1,
+      "roles": [
+        "Irena Borotyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 2,
+      "roles": [
+        "Count Mora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041172",
+      "name": "Lionel Atwill",
+      "sequence": 3,
+      "roles": [
+        "Inspector Neumann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380965",
+      "name": "Jean Hersholt",
+      "sequence": 4,
+      "roles": [
+        "Baron Otto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0905622",
+      "name": "Henry Wadsworth",
+      "sequence": 5,
+      "roles": [
+        "Fedor Vincente"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576083",
+      "name": "Donald Meek",
+      "sequence": 6,
+      "roles": [
+        "Dr. Doskil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707771",
+      "name": "Jessie Ralph",
+      "sequence": 7,
+      "roles": [
+        "Midwife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801034",
+      "name": "Ivan F. Simpson",
+      "sequence": 8,
+      "roles": [
+        "Jan"
+      ],
+      "notes": "(as Ivan Simpson)"
+    },
+    {
+      "person_imdb_id": "nm0033951",
+      "name": "Franklyn Ardell",
+      "sequence": 9,
+      "roles": [
+        "Chauffeur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071883",
+      "name": "Leila Bennett",
+      "sequence": 10,
+      "roles": [
+        "Maria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321204",
+      "name": "June Gittelson",
+      "sequence": 11,
+      "roles": [
+        "Annie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0096968",
+      "name": "Carroll Borland",
+      "sequence": 12,
+      "roles": [
+        "Luna"
+      ],
+      "notes": "(as Carol Borland)"
+    },
+    {
+      "person_imdb_id": "nm0378555",
+      "name": "Holmes Herbert",
+      "sequence": 13,
+      "roles": [
+        "Sir Karell Borotyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899521",
+      "name": "Michael Visaroff",
+      "sequence": 14,
+      "roles": [
+        "Innkeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540924",
+      "name": "Eily Malyon",
+      "sequence": 15,
+      "roles": [
+        "Sick Woman"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0256880",
       "name": "Guy Endore",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0775770",
       "name": "Bernard Schubert",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
+      "group": 1,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 1
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0115218",
       "name": "Tod Browning",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"The Hypnotist\") (uncredited)",
-      "group_id": 2
+      "notes": "(story \"The Hypnotist\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0469196",
       "name": "H.S. Kraft",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 3
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0650338",
       "name": "Samuel Ornitz",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 4
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1935-04-26",

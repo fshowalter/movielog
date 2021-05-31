@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0041604",
   "sort_title": "Love Happy (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0555617",
-      "name": "Harpo Marx",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harpo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0555597",
-      "name": "Chico Marx",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Faustino the Great"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557314",
-      "name": "Ilona Massey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Madame Egelichi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0893584",
-      "name": "Vera-Ellen",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Maggie Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404649",
-      "name": "Marion Hutton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bunny Dolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000994",
-      "name": "Raymond Burr",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Alphonse Zoto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178259",
-      "name": "Melville Cooper",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Throckmorton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330050",
-      "name": "Bruce Gordon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hannibal Zoto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067589",
-      "name": "Leon Belasco",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Lyons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884292",
-      "name": "Paul Valentine",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mike Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089314",
-      "name": "Eric Blore",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mackinaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Grunion's Client"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000050",
-      "name": "Groucho Marx",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective Sam Grunion - Narrator of the Story"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621699",
-      "name": "Clarence Nash",
-      "sequence": 19,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Vocal Effects"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0588183",
@@ -137,55 +9,174 @@
       "notes": ""
     }
   ],
-  "writers": [
-    {
-      "person_imdb_id": "nm0850895",
-      "name": "Frank Tashlin",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
-    },
-    {
-      "person_imdb_id": "nm0072214",
-      "name": "Mac Benoff",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
-    },
+  "cast": [
     {
       "person_imdb_id": "nm0555617",
       "name": "Harpo Marx",
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "roles": [
+        "Harpo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0555597",
+      "name": "Chico Marx",
+      "sequence": 1,
+      "roles": [
+        "Faustino the Great"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557314",
+      "name": "Ilona Massey",
+      "sequence": 2,
+      "roles": [
+        "Madame Egelichi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0893584",
+      "name": "Vera-Ellen",
+      "sequence": 3,
+      "roles": [
+        "Maggie Phillips"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404649",
+      "name": "Marion Hutton",
+      "sequence": 4,
+      "roles": [
+        "Bunny Dolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000994",
+      "name": "Raymond Burr",
+      "sequence": 5,
+      "roles": [
+        "Alphonse Zoto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178259",
+      "name": "Melville Cooper",
+      "sequence": 6,
+      "roles": [
+        "Throckmorton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330050",
+      "name": "Bruce Gordon",
+      "sequence": 7,
+      "roles": [
+        "Hannibal Zoto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067589",
+      "name": "Leon Belasco",
+      "sequence": 8,
+      "roles": [
+        "Mr. Lyons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884292",
+      "name": "Paul Valentine",
+      "sequence": 9,
+      "roles": [
+        "Mike Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089314",
+      "name": "Eric Blore",
+      "sequence": 10,
+      "roles": [
+        "Mackinaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 11,
+      "roles": [
+        "Grunion's Client"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000050",
+      "name": "Groucho Marx",
+      "sequence": 12,
+      "roles": [
+        "Detective Sam Grunion - Narrator of the Story"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0850895",
+      "name": "Frank Tashlin",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0072214",
+      "name": "Mac Benoff",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0555617",
+      "name": "Harpo Marx",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0020041",
       "name": "William Alland",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0195496",
       "name": "Harry d'Abbadie d'Arrast",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0740056",
       "name": "Ann Ronell",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1949-10-12",

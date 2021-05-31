@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0057280",
   "sort_title": "Crypt of the Vampire (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Count Ludwig Karnstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0024297",
-      "name": "Adriana Ambesi",
-      "sequence": 1,
-      "notes": "(as Audry Amber)",
-      "roles": [
-        "Laura Karnstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205602",
-      "name": "Ursula Davis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ljuba"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133257",
-      "name": "Jos\u00e9 Campos",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Friedrich Klauss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885291",
-      "name": "V\u00e9ra Valmont",
-      "sequence": 4,
-      "notes": "(as Vera Valmont)",
-      "roles": [
-        "Annette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1778675",
-      "name": "A. Midlin",
-      "sequence": 5,
-      "notes": "(as Angel Midlin)",
-      "roles": [
-        "Hunchback"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131039",
-      "name": "Carla Cal\u00f2",
-      "sequence": 6,
-      "notes": "(as Cicely Clayton)",
-      "roles": [
-        "Ljuba's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174664",
-      "name": "Nela Conjiu",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rowena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898121",
-      "name": "Jos\u00e9 Villasante",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cedric the Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181541",
-      "name": "Jos\u00e9 Cort\u00e9s",
-      "sequence": 9,
-      "notes": "(as Bill Curtis)",
-      "roles": [
-        "Coachman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3543719",
-      "name": "James Brightman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Coachman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0557840",
@@ -110,41 +9,142 @@
       "notes": "(as Thomas Miller)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Count Ludwig Karnstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0024297",
+      "name": "Adriana Ambesi",
+      "sequence": 1,
+      "roles": [
+        "Laura Karnstein"
+      ],
+      "notes": "(as Audry Amber)"
+    },
+    {
+      "person_imdb_id": "nm0205602",
+      "name": "Ursula Davis",
+      "sequence": 2,
+      "roles": [
+        "Ljuba"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133257",
+      "name": "Jos\u00e9 Campos",
+      "sequence": 3,
+      "roles": [
+        "Friedrich Klauss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885291",
+      "name": "V\u00e9ra Valmont",
+      "sequence": 4,
+      "roles": [
+        "Annette"
+      ],
+      "notes": "(as Vera Valmont)"
+    },
+    {
+      "person_imdb_id": "nm1778675",
+      "name": "A. Midlin",
+      "sequence": 5,
+      "roles": [
+        "Hunchback"
+      ],
+      "notes": "(as Angel Midlin)"
+    },
+    {
+      "person_imdb_id": "nm0131039",
+      "name": "Carla Cal\u00f2",
+      "sequence": 6,
+      "roles": [
+        "Ljuba's Mother"
+      ],
+      "notes": "(as Cicely Clayton)"
+    },
+    {
+      "person_imdb_id": "nm0174664",
+      "name": "Nela Conjiu",
+      "sequence": 7,
+      "roles": [
+        "Rowena"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898121",
+      "name": "Jos\u00e9 Villasante",
+      "sequence": 8,
+      "roles": [
+        "Cedric the Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181541",
+      "name": "Jos\u00e9 Cort\u00e9s",
+      "sequence": 9,
+      "roles": [
+        "Coachman"
+      ],
+      "notes": "(as Bill Curtis)"
+    },
+    {
+      "person_imdb_id": "nm3543719",
+      "name": "James Brightman",
+      "sequence": 10,
+      "roles": [
+        "Coachman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0884547",
       "name": "Tonino Valerii",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay) (as Robert Bohr)",
-      "group_id": 0
+      "notes": "(story and screenplay) (as Robert Bohr)"
     },
     {
       "person_imdb_id": "nm0002759",
       "name": "Ernesto Gastaldi",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Julian Berry)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story and screenplay) (as Julian Berry)"
     },
     {
       "person_imdb_id": "nm0215450",
       "name": "Mar\u00eda del Carmen Mart\u00ednez Rom\u00e1n",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 1
+      "notes": "(story) (uncredited)"
     },
     {
       "person_imdb_id": "nm0494257",
       "name": "Sheridan Le Fanu",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"Carmilla\") (uncredited)",
-      "group_id": 2
+      "notes": "(novel \"Carmilla\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0599389",
       "name": "Jos\u00e9 Luis Monter",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1964-05-27",

@@ -1,108 +1,6 @@
 {
   "imdb_id": "tt0027800",
   "sort_title": "Invisible Ray (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "(as Karloff)",
-      "roles": [
-        "Dr. Janos Rukh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Felix Benet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236903",
-      "name": "Frances Drake",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Diana Rukh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493365",
-      "name": "Frank Lawton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ronald Drake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178439",
-      "name": "Violet Kemble Cooper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mother Rukh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455491",
-      "name": "Walter Kingsford",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sir Francis Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094135",
-      "name": "Beulah Bondi",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lady Arabella Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717046",
-      "name": "Frank Reicher",
-      "sequence": 7,
-      "notes": "(Mendelssohn in end credits)",
-      "roles": [
-        "Professor Meiklejohn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0917837",
-      "name": "Paul Weigel",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Monsieur Noyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719292",
-      "name": "Georges Renavent",
-      "sequence": 9,
-      "notes": "(as Georges Renevant)",
-      "roles": [
-        "Chief of the Surete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330094",
-      "name": "Clarence Gordon",
-      "sequence": 26,
-      "notes": "",
-      "roles": [
-        "Porter",
-        "Servant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0385171",
@@ -111,27 +9,129 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Dr. Janos Rukh"
+      ],
+      "notes": "(as Karloff)"
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 1,
+      "roles": [
+        "Dr. Felix Benet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236903",
+      "name": "Frances Drake",
+      "sequence": 2,
+      "roles": [
+        "Diana Rukh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493365",
+      "name": "Frank Lawton",
+      "sequence": 3,
+      "roles": [
+        "Ronald Drake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178439",
+      "name": "Violet Kemble Cooper",
+      "sequence": 4,
+      "roles": [
+        "Mother Rukh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455491",
+      "name": "Walter Kingsford",
+      "sequence": 5,
+      "roles": [
+        "Sir Francis Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094135",
+      "name": "Beulah Bondi",
+      "sequence": 6,
+      "roles": [
+        "Lady Arabella Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717046",
+      "name": "Frank Reicher",
+      "sequence": 7,
+      "roles": [
+        "Professor Meiklejohn"
+      ],
+      "notes": "(Mendelssohn in end credits)"
+    },
+    {
+      "person_imdb_id": "nm0917837",
+      "name": "Paul Weigel",
+      "sequence": 8,
+      "roles": [
+        "Monsieur Noyer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719292",
+      "name": "Georges Renavent",
+      "sequence": 9,
+      "roles": [
+        "Chief of the Surete"
+      ],
+      "notes": "(as Georges Renevant)"
+    },
+    {
+      "person_imdb_id": "nm0330094",
+      "name": "Clarence Gordon",
+      "sequence": 26,
+      "roles": [
+        "Porter",
+        "Servant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0173303",
       "name": "John Colton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0383304",
       "name": "Howard Higgin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0388153",
       "name": "Douglas Hodges",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(original story)"
     }
   ],
   "release_date": "1936-01-20",

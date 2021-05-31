@@ -1,105 +1,6 @@
 {
   "imdb_id": "tt0023074",
   "sort_title": "Jewel Robbery (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Robber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290215",
-      "name": "Kay Francis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Baroness Teri"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899091",
-      "name": "Helen Vinson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marianne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017013",
-      "name": "Hardie Albright",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Detective Fritz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525283",
-      "name": "Andr\u00e9 Luguet",
-      "sequence": 5,
-      "notes": "(as Andre Luguet)",
-      "roles": [
-        "Count Andre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464137",
-      "name": "Henry Kolker",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Baron Franz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153556",
-      "name": "Spencer Charters",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lenz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0463335",
-      "name": "Lee Kohlmar",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hollander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933199",
-      "name": "Clarence Wilson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Prefect of Police"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0088284",
-      "name": "Barbara Bletcher",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0226189",
@@ -108,27 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "The Robber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290215",
+      "name": "Kay Francis",
+      "sequence": 1,
+      "roles": [
+        "Baroness Teri"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899091",
+      "name": "Helen Vinson",
+      "sequence": 2,
+      "roles": [
+        "Marianne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017013",
+      "name": "Hardie Albright",
+      "sequence": 3,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 4,
+      "roles": [
+        "Detective Fritz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525283",
+      "name": "Andr\u00e9 Luguet",
+      "sequence": 5,
+      "roles": [
+        "Count Andre"
+      ],
+      "notes": "(as Andre Luguet)"
+    },
+    {
+      "person_imdb_id": "nm0464137",
+      "name": "Henry Kolker",
+      "sequence": 6,
+      "roles": [
+        "Baron Franz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153556",
+      "name": "Spencer Charters",
+      "sequence": 7,
+      "roles": [
+        "Lenz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0463335",
+      "name": "Lee Kohlmar",
+      "sequence": 8,
+      "roles": [
+        "Hollander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933199",
+      "name": "Clarence Wilson",
+      "sequence": 9,
+      "roles": [
+        "Prefect of Police"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088284",
+      "name": "Barbara Bletcher",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0312510",
       "name": "Erwin Gelsey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0283780",
       "name": "Ladislas Fodor",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by) (as Ladislaus Fodor)",
-      "group_id": 1
+      "notes": "(based on a story by) (as Ladislaus Fodor)"
     },
     {
       "person_imdb_id": "nm0088602",
       "name": "Bertram Bloch",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1932-07-08",

@@ -1,184 +1,6 @@
 {
   "imdb_id": "tt0052379",
   "sort_title": "War of the Satellites (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dave Boyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0127693",
-      "name": "Susan Cabot",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sybil Carrington"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222878",
-      "name": "Richard Devon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Pol Van Ponder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801612",
-      "name": "Eric Sinclair",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Howard Lazar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289147",
-      "name": "Michael Fox",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jason ibn Akad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790171",
-      "name": "Robert Shayne",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cole Hotchkiss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054057",
-      "name": "Jered Barclay",
-      "sequence": 6,
-      "notes": "(as Jerry Barclay)",
-      "roles": [
-        "John Compo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109612",
-      "name": "John Brinkley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Crew Member"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589454",
-      "name": "Tony Miller",
-      "sequence": 8,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0895259",
-      "name": "Bruno VeSota",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. LeMoine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768448",
-      "name": "Jay Sayer",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0564669",
-      "name": "Mitzi McCall",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mitzi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330574",
-      "name": "Roy Gordon",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The President"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225398",
-      "name": "Beach Dickerson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Crewman with Gun"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460955",
-      "name": "Jim Knight",
-      "sequence": 14,
-      "notes": "(as James Knight)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0381209",
-      "name": "Ursula Herwig",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Nancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454310",
-      "name": "Klaus Kindler",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Larry Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0597810",
-      "name": "Eberhard Mondry",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Glenn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622612",
-      "name": "Horst Naumann",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Ted"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1191355",
-      "name": "Werner Uschkurat",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Ray"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -187,27 +9,205 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0588241",
+      "name": "Dick Miller",
+      "sequence": 0,
+      "roles": [
+        "Dave Boyer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0127693",
+      "name": "Susan Cabot",
+      "sequence": 1,
+      "roles": [
+        "Sybil Carrington"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222878",
+      "name": "Richard Devon",
+      "sequence": 2,
+      "roles": [
+        "Dr. Pol Van Ponder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801612",
+      "name": "Eric Sinclair",
+      "sequence": 3,
+      "roles": [
+        "Dr. Howard Lazar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289147",
+      "name": "Michael Fox",
+      "sequence": 4,
+      "roles": [
+        "Jason ibn Akad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790171",
+      "name": "Robert Shayne",
+      "sequence": 5,
+      "roles": [
+        "Cole Hotchkiss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054057",
+      "name": "Jered Barclay",
+      "sequence": 6,
+      "roles": [
+        "John Compo"
+      ],
+      "notes": "(as Jerry Barclay)"
+    },
+    {
+      "person_imdb_id": "nm0109612",
+      "name": "John Brinkley",
+      "sequence": 7,
+      "roles": [
+        "Crew Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589454",
+      "name": "Tony Miller",
+      "sequence": 8,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0895259",
+      "name": "Bruno VeSota",
+      "sequence": 9,
+      "roles": [
+        "Mr. LeMoine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768448",
+      "name": "Jay Sayer",
+      "sequence": 10,
+      "roles": [
+        "Jay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0564669",
+      "name": "Mitzi McCall",
+      "sequence": 11,
+      "roles": [
+        "Mitzi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330574",
+      "name": "Roy Gordon",
+      "sequence": 12,
+      "roles": [
+        "The President"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225398",
+      "name": "Beach Dickerson",
+      "sequence": 13,
+      "roles": [
+        "Crewman with Gun"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460955",
+      "name": "Jim Knight",
+      "sequence": 14,
+      "roles": [],
+      "notes": "(as James Knight)"
+    },
+    {
+      "person_imdb_id": "nm0381209",
+      "name": "Ursula Herwig",
+      "sequence": 15,
+      "roles": [
+        "Nancy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454310",
+      "name": "Klaus Kindler",
+      "sequence": 16,
+      "roles": [
+        "Larry Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0597810",
+      "name": "Eberhard Mondry",
+      "sequence": 17,
+      "roles": [
+        "Glenn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622612",
+      "name": "Horst Naumann",
+      "sequence": 18,
+      "roles": [
+        "Ted"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1191355",
+      "name": "Werner Uschkurat",
+      "sequence": 19,
+      "roles": [
+        "Ray"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0088726",
       "name": "Irving Block",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0325825",
       "name": "Lawrence L. Goldman",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (as Lawrence Louis Goldman)",
-      "group_id": 1
+      "notes": "() (as Lawrence Louis Goldman)"
     },
     {
       "person_imdb_id": "nm0704896",
       "name": "Jack Rabin",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1958-05-18",

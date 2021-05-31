@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0048283",
   "sort_title": "Land of the Pharaohs (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0370144",
-      "name": "Jack Hawkins",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Pharaoh Khufu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001058",
-      "name": "Joan Collins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Princess Nellifer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552185",
-      "name": "Dewey Martin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Senta, Vashtar's Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591615",
-      "name": "Alexis Minotis",
-      "sequence": 3,
-      "notes": "(as Alex Minotis)",
-      "roles": [
-        "Hamar, the High Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0433150",
-      "name": "James Robertson Justice",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Vashtar, the Master Architect"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094544",
-      "name": "Luisella Boni",
-      "sequence": 5,
-      "notes": "(as Luisa Boni)",
-      "roles": [
-        "Kyra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0152261",
-      "name": "Sydney Chaplin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Treneh, The Captain of the Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371687",
-      "name": "James Hayter",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mikka, Vashtar's Servant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0449342",
-      "name": "Kerima",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Queen Nailla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0316057",
-      "name": "Piero Giagnoni",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Xenon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0370144",
+      "name": "Jack Hawkins",
+      "sequence": 0,
+      "roles": [
+        "Pharaoh Khufu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001058",
+      "name": "Joan Collins",
+      "sequence": 1,
+      "roles": [
+        "Princess Nellifer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552185",
+      "name": "Dewey Martin",
+      "sequence": 2,
+      "roles": [
+        "Senta, Vashtar's Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591615",
+      "name": "Alexis Minotis",
+      "sequence": 3,
+      "roles": [
+        "Hamar, the High Priest"
+      ],
+      "notes": "(as Alex Minotis)"
+    },
+    {
+      "person_imdb_id": "nm0433150",
+      "name": "James Robertson Justice",
+      "sequence": 4,
+      "roles": [
+        "Vashtar, the Master Architect"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094544",
+      "name": "Luisella Boni",
+      "sequence": 5,
+      "roles": [
+        "Kyra"
+      ],
+      "notes": "(as Luisa Boni)"
+    },
+    {
+      "person_imdb_id": "nm0152261",
+      "name": "Sydney Chaplin",
+      "sequence": 6,
+      "roles": [
+        "Treneh, The Captain of the Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371687",
+      "name": "James Hayter",
+      "sequence": 7,
+      "roles": [
+        "Mikka, Vashtar's Servant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0449342",
+      "name": "Kerima",
+      "sequence": 8,
+      "roles": [
+        "Queen Nailla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0316057",
+      "name": "Piero Giagnoni",
+      "sequence": 9,
+      "roles": [
+        "Xenon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0475823",
       "name": "Harry Kurnitz",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0089169",
       "name": "Harold Jack Bloom",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1955-06-24",

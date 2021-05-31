@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0057952",
   "sort_title": "Circus World (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Matt Masters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001012",
-      "name": "Claudia Cardinale",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Toni Alfredo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000028",
-      "name": "Rita Hayworth",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lili Alfredo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634313",
-      "name": "Lloyd Nolan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cap Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002017",
-      "name": "Richard Conte",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Aldo Alfredo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0808774",
-      "name": "John Smith",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Steve McCabe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0441260",
-      "name": "Katharyna",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Giovana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0441251",
-      "name": "Katherine Kath",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hilda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0745056",
-      "name": "Wanda Rotha",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Schuman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0532297",
-      "name": "Maggie Rennie",
-      "sequence": 9,
-      "notes": "(as Maggie Macgrath)",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0539942",
-      "name": "Miles Malleson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Billy Hennigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128405",
-      "name": "Jos\u00e9 Mar\u00eda Caffarel",
-      "sequence": 11,
-      "notes": "(as Jose Maria Cafarell)",
-      "roles": [
-        "Barcelona's Mayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909727",
-      "name": "Kay Walsh",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Flo Hunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1431258",
-      "name": "Francois Calepides",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Ringmaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192434",
-      "name": "Robert Cunningham",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Ringmaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200616",
-      "name": "Hans Dantes",
-      "sequence": 15,
-      "notes": "(as Hans Dante)",
-      "roles": [
-        "Emile Schuman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0368871",
@@ -155,48 +9,194 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Matt Masters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001012",
+      "name": "Claudia Cardinale",
+      "sequence": 1,
+      "roles": [
+        "Toni Alfredo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000028",
+      "name": "Rita Hayworth",
+      "sequence": 2,
+      "roles": [
+        "Lili Alfredo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634313",
+      "name": "Lloyd Nolan",
+      "sequence": 3,
+      "roles": [
+        "Cap Carson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002017",
+      "name": "Richard Conte",
+      "sequence": 4,
+      "roles": [
+        "Aldo Alfredo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0808774",
+      "name": "John Smith",
+      "sequence": 5,
+      "roles": [
+        "Steve McCabe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0441260",
+      "name": "Katharyna",
+      "sequence": 6,
+      "roles": [
+        "Giovana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0441251",
+      "name": "Katherine Kath",
+      "sequence": 7,
+      "roles": [
+        "Hilda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0745056",
+      "name": "Wanda Rotha",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Schuman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0532297",
+      "name": "Maggie Rennie",
+      "sequence": 9,
+      "roles": [
+        "Anna"
+      ],
+      "notes": "(as Maggie Macgrath)"
+    },
+    {
+      "person_imdb_id": "nm0539942",
+      "name": "Miles Malleson",
+      "sequence": 10,
+      "roles": [
+        "Billy Hennigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128405",
+      "name": "Jos\u00e9 Mar\u00eda Caffarel",
+      "sequence": 11,
+      "roles": [
+        "Barcelona's Mayor"
+      ],
+      "notes": "(as Jose Maria Cafarell)"
+    },
+    {
+      "person_imdb_id": "nm0909727",
+      "name": "Kay Walsh",
+      "sequence": 12,
+      "roles": [
+        "Flo Hunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1431258",
+      "name": "Francois Calepides",
+      "sequence": 13,
+      "roles": [
+        "Ringmaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192434",
+      "name": "Robert Cunningham",
+      "sequence": 14,
+      "roles": [
+        "Ringmaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200616",
+      "name": "Hans Dantes",
+      "sequence": 15,
+      "roles": [
+        "Emile Schuman"
+      ],
+      "notes": "(as Hans Dante)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0956571",
       "name": "Julian Zimet",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0330024",
       "name": "Bernard Gordon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0712947",
       "name": "Nicholas Ray",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0948634",
       "name": "Philip Yordan",
+      "group": 2,
       "sequence": 0,
-      "notes": "(front for Bernard Gordon)",
-      "group_id": 2
+      "notes": "(front for Bernard Gordon)"
     }
   ],
   "release_date": "1964-06-25",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0045361",
   "sort_title": "El (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0194742",
-      "name": "Arturo de C\u00f3rdova",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Francisco Galv\u00e1n de Montemayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0305509",
-      "name": "Delia Garc\u00e9s",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gloria Vilalta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907541",
-      "name": "Aurora Walker",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Do\u00f1a Esperanza Vilalta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554805",
-      "name": "Carlos Mart\u00ednez Baena",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Padre Velasco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232375",
-      "name": "Manuel Dond\u00e9",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pablo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052486",
-      "name": "Rafael Banquells",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ricardo Luj\u00e1n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0142914",
-      "name": "Fernando Casanova",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lic. Beltr\u00e1n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682055",
-      "name": "Jos\u00e9 Pidal",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Padre prior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583332",
-      "name": "Roberto Meyer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Licenciado"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0075251",
-      "name": "Luis Berist\u00e1in",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ra\u00fal Conde"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -101,41 +9,133 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0194742",
+      "name": "Arturo de C\u00f3rdova",
+      "sequence": 0,
+      "roles": [
+        "Francisco Galv\u00e1n de Montemayor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0305509",
+      "name": "Delia Garc\u00e9s",
+      "sequence": 1,
+      "roles": [
+        "Gloria Vilalta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907541",
+      "name": "Aurora Walker",
+      "sequence": 2,
+      "roles": [
+        "Do\u00f1a Esperanza Vilalta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0554805",
+      "name": "Carlos Mart\u00ednez Baena",
+      "sequence": 3,
+      "roles": [
+        "Padre Velasco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232375",
+      "name": "Manuel Dond\u00e9",
+      "sequence": 4,
+      "roles": [
+        "Pablo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052486",
+      "name": "Rafael Banquells",
+      "sequence": 5,
+      "roles": [
+        "Ricardo Luj\u00e1n"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0142914",
+      "name": "Fernando Casanova",
+      "sequence": 6,
+      "roles": [
+        "Lic. Beltr\u00e1n"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682055",
+      "name": "Jos\u00e9 Pidal",
+      "sequence": 7,
+      "roles": [
+        "Padre prior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0583332",
+      "name": "Roberto Meyer",
+      "sequence": 8,
+      "roles": [
+        "Licenciado"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0075251",
+      "name": "Luis Berist\u00e1in",
+      "sequence": 9,
+      "roles": [
+        "Ra\u00fal Conde"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0017274",
       "name": "Luis Alcoriza",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0017274",
       "name": "Luis Alcoriza",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0684696",
       "name": "Mercedes Pinto",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"\u00c9l\")",
-      "group_id": 2
+      "notes": "(novel \"\u00c9l\")"
     }
   ],
   "release_date": "1953-04-01",

@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0093315",
   "sort_title": "Jocks (1986)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0833103",
-      "name": "Scott Strader",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Kid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485878",
-      "name": "Perry Lang",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jeff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002127",
-      "name": "Mariska Hargitay",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nicole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0745780",
-      "name": "Richard Roundtree",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Chip Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035866",
-      "name": "R.G. Armstrong",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Coach Bettlebom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0414064",
-      "name": "Stoney Jackson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589884",
-      "name": "Adam Mills",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798534",
-      "name": "Trinidad Silva",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Chito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0316455",
-      "name": "Donald Gibb",
-      "sequence": 8,
-      "notes": "(as Don Gibb)",
-      "roles": [
-        "Ripper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001723",
-      "name": "Tom Shadyac",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614162",
-      "name": "Christopher Murphy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485810",
-      "name": "Katherine Kelly Lang",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Julie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "President White"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0142587",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0833103",
+      "name": "Scott Strader",
+      "sequence": 0,
+      "roles": [
+        "The Kid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485878",
+      "name": "Perry Lang",
+      "sequence": 1,
+      "roles": [
+        "Jeff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002127",
+      "name": "Mariska Hargitay",
+      "sequence": 2,
+      "roles": [
+        "Nicole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0745780",
+      "name": "Richard Roundtree",
+      "sequence": 3,
+      "roles": [
+        "Chip Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035866",
+      "name": "R.G. Armstrong",
+      "sequence": 4,
+      "roles": [
+        "Coach Bettlebom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0414064",
+      "name": "Stoney Jackson",
+      "sequence": 5,
+      "roles": [
+        "Andy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589884",
+      "name": "Adam Mills",
+      "sequence": 6,
+      "roles": [
+        "Tex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798534",
+      "name": "Trinidad Silva",
+      "sequence": 7,
+      "roles": [
+        "Chito"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0316455",
+      "name": "Donald Gibb",
+      "sequence": 8,
+      "roles": [
+        "Ripper"
+      ],
+      "notes": "(as Don Gibb)"
+    },
+    {
+      "person_imdb_id": "nm0001723",
+      "name": "Tom Shadyac",
+      "sequence": 9,
+      "roles": [
+        "Chris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614162",
+      "name": "Christopher Murphy",
+      "sequence": 10,
+      "roles": [
+        "Tony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485810",
+      "name": "Katherine Kelly Lang",
+      "sequence": 11,
+      "roles": [
+        "Julie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 12,
+      "roles": [
+        "President White"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0484079",
       "name": "Michael Lanahan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0643067",
       "name": "David Oas",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1986-11-14",

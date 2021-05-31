@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0021668",
   "sort_title": "Black Camel (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0645941",
-      "name": "Warner Oland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Inspector Charlie Chan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0251755",
-      "name": "Sally Eilers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Julie O'Neil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tarneverro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720885",
-      "name": "Dorothy Revier",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Shelah Fane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889511",
-      "name": "Victor Varconi",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Robert Fyfe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455706",
-      "name": "Murray Kinnell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Archie Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692796",
-      "name": "William Post Jr.",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Alan Jaynes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001870",
-      "name": "Robert Young",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jimmy Bradshaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242792",
-      "name": "Violet Dunn",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0449858",
-      "name": "J.M. Kerrigan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Thomas MacMasters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330435",
-      "name": "Mary Gordon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. MacMasters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0747535",
-      "name": "Rita Rozelle",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Luana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0353950",
-      "name": "Otto Yamaoka",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Kashimo"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0532187",
@@ -128,55 +9,174 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0645941",
+      "name": "Warner Oland",
+      "sequence": 0,
+      "roles": [
+        "Inspector Charlie Chan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0251755",
+      "name": "Sally Eilers",
+      "sequence": 1,
+      "roles": [
+        "Julie O'Neil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 2,
+      "roles": [
+        "Tarneverro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720885",
+      "name": "Dorothy Revier",
+      "sequence": 3,
+      "roles": [
+        "Shelah Fane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889511",
+      "name": "Victor Varconi",
+      "sequence": 4,
+      "roles": [
+        "Robert Fyfe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455706",
+      "name": "Murray Kinnell",
+      "sequence": 5,
+      "roles": [
+        "Archie Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692796",
+      "name": "William Post Jr.",
+      "sequence": 6,
+      "roles": [
+        "Alan Jaynes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001870",
+      "name": "Robert Young",
+      "sequence": 7,
+      "roles": [
+        "Jimmy Bradshaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242792",
+      "name": "Violet Dunn",
+      "sequence": 8,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0449858",
+      "name": "J.M. Kerrigan",
+      "sequence": 9,
+      "roles": [
+        "Thomas MacMasters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330435",
+      "name": "Mary Gordon",
+      "sequence": 10,
+      "roles": [
+        "Mrs. MacMasters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0747535",
+      "name": "Rita Rozelle",
+      "sequence": 11,
+      "roles": [
+        "Luana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0353950",
+      "name": "Otto Yamaoka",
+      "sequence": 12,
+      "roles": [
+        "Kashimo"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0081788",
       "name": "Earl Derr Biggers",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0822219",
       "name": "Hugh Stanislaus Stange",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (as Hugh Stange)",
-      "group_id": 1
+      "notes": "(adaptation) (as Hugh Stange)"
     },
     {
       "person_imdb_id": "nm0175194",
       "name": "Barry Conners",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0458934",
       "name": "Philip Klein",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0175194",
       "name": "Barry Conners",
+      "group": 3,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 3
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0458934",
       "name": "Philip Klein",
-      "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 3
+      "group": 3,
+      "sequence": 1,
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1931-06-21",

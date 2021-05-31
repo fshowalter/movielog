@@ -1,117 +1,6 @@
 {
   "imdb_id": "tt0039800",
   "sort_title": "Scared to Death (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prof. Leonide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0958345",
-      "name": "George Zucco",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Joseph Van Ee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671738",
-      "name": "Nat Pendleton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bill Raymond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483677",
-      "name": "Molly Lamont",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Laura Van Ee",
-        "Laurette La Valle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174049",
-      "name": "Joyce Compton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jane Cornell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086560",
-      "name": "Gladys Blake",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lilybeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0890131",
-      "name": "Roland Varno",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ward Van Ee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288830",
-      "name": "Douglas Fowley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Terry Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003224",
-      "name": "Stanley Andrews",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pathologist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744441",
-      "name": "Angelo Rossitto",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Indigo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071881",
-      "name": "Lee Bennett",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Rene the Killer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0697156",
-      "name": "Stanley Price",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Autopsy Surgeon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0127511",
@@ -120,20 +9,131 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Prof. Leonide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0958345",
+      "name": "George Zucco",
+      "sequence": 1,
+      "roles": [
+        "Dr. Joseph Van Ee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0671738",
+      "name": "Nat Pendleton",
+      "sequence": 2,
+      "roles": [
+        "Bill Raymond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483677",
+      "name": "Molly Lamont",
+      "sequence": 3,
+      "roles": [
+        "Laura Van Ee",
+        "Laurette La Valle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0174049",
+      "name": "Joyce Compton",
+      "sequence": 4,
+      "roles": [
+        "Jane Cornell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086560",
+      "name": "Gladys Blake",
+      "sequence": 5,
+      "roles": [
+        "Lilybeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0890131",
+      "name": "Roland Varno",
+      "sequence": 6,
+      "roles": [
+        "Ward Van Ee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288830",
+      "name": "Douglas Fowley",
+      "sequence": 7,
+      "roles": [
+        "Terry Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003224",
+      "name": "Stanley Andrews",
+      "sequence": 8,
+      "roles": [
+        "Pathologist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744441",
+      "name": "Angelo Rossitto",
+      "sequence": 9,
+      "roles": [
+        "Indigo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071881",
+      "name": "Lee Bennett",
+      "sequence": 10,
+      "roles": [
+        "Rene the Killer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0697156",
+      "name": "Stanley Price",
+      "sequence": 11,
+      "roles": [
+        "Autopsy Surgeon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0008069",
       "name": "Walter Abbott",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story) (as W.J. Abbott)",
-      "group_id": 0
+      "notes": "(original story) (as W.J. Abbott)"
     },
     {
       "person_imdb_id": "nm0008069",
       "name": "Walter Abbott",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as W.J. Abbott)",
-      "group_id": 1
+      "notes": "(screenplay) (as W.J. Abbott)"
     }
   ],
   "release_date": "1947-02-01",

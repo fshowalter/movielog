@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0028227",
   "sort_title": "Sea Spoilers (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bob Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340644",
-      "name": "Nan Grey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Connie Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049055",
-      "name": "William Bakewell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lieut. Commander Mays"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460906",
-      "name": "Fuzzy Knight",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382954",
-      "name": "Russell Hicks",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Phil Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Commander Mays"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519078",
-      "name": "Lotus Long",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941678",
-      "name": "Harry Worth",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Nick Austin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0384944",
-      "name": "Ernest Hilliard",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Reggie Winton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401673",
-      "name": "George Humbert",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Johnny 'Hop-Scotch'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0481756",
-      "name": "Ethan Laidlaw",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Louie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0304058",
-      "name": "Chester Gan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Oil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447580",
-      "name": "Cy Kendall",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337893",
-      "name": "Harrison Greene",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Fats"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0833965",
@@ -137,27 +9,155 @@
       "notes": "(as Frank Strayer)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Bob Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340644",
+      "name": "Nan Grey",
+      "sequence": 1,
+      "roles": [
+        "Connie Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049055",
+      "name": "William Bakewell",
+      "sequence": 2,
+      "roles": [
+        "Lieut. Commander Mays"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460906",
+      "name": "Fuzzy Knight",
+      "sequence": 3,
+      "roles": [
+        "Hogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382954",
+      "name": "Russell Hicks",
+      "sequence": 4,
+      "roles": [
+        "Phil Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 5,
+      "roles": [
+        "Commander Mays"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519078",
+      "name": "Lotus Long",
+      "sequence": 6,
+      "roles": [
+        "Marie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941678",
+      "name": "Harry Worth",
+      "sequence": 7,
+      "roles": [
+        "Nick Austin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0384944",
+      "name": "Ernest Hilliard",
+      "sequence": 8,
+      "roles": [
+        "Reggie Winton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401673",
+      "name": "George Humbert",
+      "sequence": 9,
+      "roles": [
+        "Johnny 'Hop-Scotch'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0481756",
+      "name": "Ethan Laidlaw",
+      "sequence": 10,
+      "roles": [
+        "Louie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0304058",
+      "name": "Chester Gan",
+      "sequence": 11,
+      "roles": [
+        "Oil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447580",
+      "name": "Cy Kendall",
+      "sequence": 12,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337893",
+      "name": "Harrison Greene",
+      "sequence": 13,
+      "roles": [
+        "Fats"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0905729",
       "name": "George Waggner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as George Waggoner)",
-      "group_id": 0
+      "notes": "(screenplay) (as George Waggoner)"
     },
     {
       "person_imdb_id": "nm0569638",
       "name": "Dorrell McGowan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0569708",
       "name": "Stuart E. McGowan",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1936-09-28",

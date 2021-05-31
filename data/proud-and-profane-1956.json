@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0049640",
   "sort_title": "Proud and Profane (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Col. Colin Black"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000039",
-      "name": "Deborah Kerr",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lee Ashley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728812",
-      "name": "Thelma Ritter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Kate Connors"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552185",
-      "name": "Dewey Martin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Eddie Wodcik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714835",
-      "name": "William Redfield",
-      "sequence": 4,
-      "notes": "(jg) Holmes",
-      "roles": [
-        "Chaplain Lt."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046564",
-      "name": "Ross Bagdasarian",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Louie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929965",
-      "name": "Adam Williams",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Eustace Press"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005385",
-      "name": "Marion Ross",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628602",
-      "name": "Theodore Newton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bob Kilpatrick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788353",
-      "name": "Richard Shannon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Major"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0361048",
-      "name": "Peter Hansen",
-      "sequence": 10,
-      "notes": "(jg) Hutchins",
-      "roles": [
-        "Lieutenant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0780833",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Lt. Col. Colin Black"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000039",
+      "name": "Deborah Kerr",
+      "sequence": 1,
+      "roles": [
+        "Lee Ashley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728812",
+      "name": "Thelma Ritter",
+      "sequence": 2,
+      "roles": [
+        "Kate Connors"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552185",
+      "name": "Dewey Martin",
+      "sequence": 3,
+      "roles": [
+        "Eddie Wodcik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714835",
+      "name": "William Redfield",
+      "sequence": 4,
+      "roles": [
+        "Chaplain Lt."
+      ],
+      "notes": "(jg) Holmes"
+    },
+    {
+      "person_imdb_id": "nm0046564",
+      "name": "Ross Bagdasarian",
+      "sequence": 5,
+      "roles": [
+        "Louie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929965",
+      "name": "Adam Williams",
+      "sequence": 6,
+      "roles": [
+        "Eustace Press"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005385",
+      "name": "Marion Ross",
+      "sequence": 7,
+      "roles": [
+        "Joan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0628602",
+      "name": "Theodore Newton",
+      "sequence": 8,
+      "roles": [
+        "Bob Kilpatrick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0788353",
+      "name": "Richard Shannon",
+      "sequence": 9,
+      "roles": [
+        "Major"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0361048",
+      "name": "Peter Hansen",
+      "sequence": 10,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": "(jg) Hutchins"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0188419",
       "name": "Lucy Herndon Crockett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Magnificent Bastards\")",
-      "group_id": 0
+      "notes": "(novel \"The Magnificent Bastards\")"
     },
     {
       "person_imdb_id": "nm0780833",
       "name": "George Seaton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 1
+      "notes": "(written for the screen by)"
     }
   ],
   "release_date": "1956-06-13",

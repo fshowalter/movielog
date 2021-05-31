@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0031750",
   "sort_title": "Old Maid (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Charlotte Lovell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394244",
-      "name": "Miriam Hopkins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Delia Lovell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107575",
-      "name": "George Brent",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clem Spender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187981",
-      "name": "Donald Crisp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Lanskell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0116953",
-      "name": "Jane Bryan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269771",
-      "name": "Louise Fazenda",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827263",
-      "name": "James Stephenson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jim Ralston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joe Ralston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526485",
-      "name": "William Lundigan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lanning Halsey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517480",
-      "name": "Cecilia Loftus",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Grandmother Lovell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112203",
-      "name": "Rand Brooks",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789773",
-      "name": "Janet Shaw",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394438",
-      "name": "William Hopper",
-      "sequence": 12,
-      "notes": "(as DeWolf Hopper)",
-      "roles": [
-        "John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131713",
-      "name": "Rod Cameron",
-      "sequence": 13,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Undetermined Secondary Role"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313455",
-      "name": "Jack George",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "First Orchestra Leader",
-        "Violinist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0332539",
@@ -147,27 +9,165 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Charlotte Lovell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394244",
+      "name": "Miriam Hopkins",
+      "sequence": 1,
+      "roles": [
+        "Delia Lovell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107575",
+      "name": "George Brent",
+      "sequence": 2,
+      "roles": [
+        "Clem Spender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187981",
+      "name": "Donald Crisp",
+      "sequence": 3,
+      "roles": [
+        "Dr. Lanskell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0116953",
+      "name": "Jane Bryan",
+      "sequence": 4,
+      "roles": [
+        "Tina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269771",
+      "name": "Louise Fazenda",
+      "sequence": 5,
+      "roles": [
+        "Dora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827263",
+      "name": "James Stephenson",
+      "sequence": 6,
+      "roles": [
+        "Jim Ralston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 7,
+      "roles": [
+        "Joe Ralston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526485",
+      "name": "William Lundigan",
+      "sequence": 8,
+      "roles": [
+        "Lanning Halsey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517480",
+      "name": "Cecilia Loftus",
+      "sequence": 9,
+      "roles": [
+        "Grandmother Lovell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112203",
+      "name": "Rand Brooks",
+      "sequence": 10,
+      "roles": [
+        "Jim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789773",
+      "name": "Janet Shaw",
+      "sequence": 11,
+      "roles": [
+        "Dee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394438",
+      "name": "William Hopper",
+      "sequence": 12,
+      "roles": [
+        "John"
+      ],
+      "notes": "(as DeWolf Hopper)"
+    },
+    {
+      "person_imdb_id": "nm0131713",
+      "name": "Rod Cameron",
+      "sequence": 13,
+      "roles": [
+        "Undetermined Secondary Role"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0313455",
+      "name": "Jack George",
+      "sequence": 20,
+      "roles": [
+        "First Orchestra Leader",
+        "Violinist"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0732452",
       "name": "Casey Robinson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0015399",
       "name": "Zoe Akins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the play by: Pulitzer Prize)",
-      "group_id": 1
+      "notes": "(based on the play by: Pulitzer Prize)"
     },
     {
       "person_imdb_id": "nm0923585",
       "name": "Edith Wharton",
+      "group": 2,
       "sequence": 0,
-      "notes": "(and the novel by)",
-      "group_id": 2
+      "notes": "(and the novel by)"
     }
   ],
   "release_date": "1939-08-16",

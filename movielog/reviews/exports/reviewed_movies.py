@@ -1,20 +1,17 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-from typing import Any
+from typing import Any, TypedDict
 
 from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
 
-@dataclass
-class Person(object):
+class Person(TypedDict):
     full_name: str
 
 
-@dataclass
-class ReviewedMovie(object):
+class ReviewedMovie(TypedDict):
     imdb_id: str
     title: str
     original_title: str
@@ -96,7 +93,7 @@ def fetch_directors(reviewed_movie: ReviewedMovie) -> list[Person]:
     """
 
     return db.fetch_all(
-        query.format(reviewed_movie.imdb_id),
+        query.format(reviewed_movie["imdb_id"]),
         person_row_factory,
     )
 
@@ -110,7 +107,7 @@ def fetch_countries(reviewed_movie: ReviewedMovie) -> list[str]:
     """
 
     return db.fetch_all(
-        query.format(reviewed_movie.imdb_id, lambda cursor, row: row[0])
+        query.format(reviewed_movie["imdb_id"]), lambda cursor, row: row[0]
     )
 
 
@@ -128,13 +125,13 @@ def fetch_aka_titles(reviewed_movie: ReviewedMovie) -> list[str]:
     """  # noqa: WPS323
 
     aka_titles = db.fetch_all(
-        query.format(reviewed_movie.imdb_id, reviewed_movie.title),
+        query.format(reviewed_movie["imdb_id"], reviewed_movie["title"]),
         lambda cursor, row: row[0],
     )
 
-    if reviewed_movie.original_title != reviewed_movie.title:
-        if reviewed_movie.original_title not in aka_titles:
-            aka_titles.append(reviewed_movie.original_title)
+    if reviewed_movie["original_title"] != reviewed_movie["title"]:
+        if reviewed_movie["original_title"] not in aka_titles:
+            aka_titles.append(reviewed_movie["original_title"])
 
     return aka_titles
 
@@ -149,7 +146,7 @@ def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[Person]:
 
     principal_cast = []
 
-    for principal_cast_id in reviewed_movie.principal_cast_ids.split(","):
+    for principal_cast_id in reviewed_movie["principal_cast_ids"].split(","):
         principal_cast.extend(
             db.fetch_all(
                 query.format(principal_cast_id),
@@ -165,11 +162,11 @@ def export() -> None:
     reviewed_movies = []
 
     for reviewed_movie in fetch_reviewed_movies():
-        reviewed_movie.directors = fetch_directors(reviewed_movie)
-        reviewed_movie.aka_titles = fetch_aka_titles(reviewed_movie)
-        reviewed_movie.principal_cast = fetch_principal_cast(reviewed_movie)
-        reviewed_movie.countries = fetch_countries(reviewed_movie)
+        reviewed_movie["directors"] = fetch_directors(reviewed_movie)
+        reviewed_movie["aka_titles"] = fetch_aka_titles(reviewed_movie)
+        reviewed_movie["principal_cast"] = fetch_principal_cast(reviewed_movie)
+        reviewed_movie["countries"] = fetch_countries(reviewed_movie)
 
         reviewed_movies.append(reviewed_movie)
 
-    export_tools.serialize_dataclasses(reviewed_movies, "reviewed_movies")
+    export_tools.serialize_dicts(reviewed_movies, "reviewed_movies")

@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0056218",
   "sort_title": "Manchurian Candidate (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Major Bennett Marco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002131",
-      "name": "Laurence Harvey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Raymond Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001463",
-      "name": "Janet Leigh",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eugenie Rose Chaney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001450",
-      "name": "Angela Lansbury",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Eleanor Shaw Iselin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798328",
-      "name": "Henry Silva",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chunjin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339834",
-      "name": "James Gregory",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Senator John Yerkes Iselin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663562",
-      "name": "Leslie Parrish",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jocelyn Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569410",
-      "name": "John McGiver",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Senator Thomas Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223556",
-      "name": "Khigh Dhiegh",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Yen Lo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250066",
-      "name": "James Edwards",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Corporal Allen Melvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376415",
-      "name": "Douglas Henderson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Colonel Milt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0667292",
-      "name": "Albert Paulsen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Zilkov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445868",
-      "name": "Barry Kelley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Secretary of Defense"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180987",
-      "name": "Lloyd Corrigan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Holborn Gaines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0819238",
-      "name": "Madame Spivy",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Female Berezovo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293659",
-      "name": "Paul Frees",
-      "sequence": 44,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -155,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Major Bennett Marco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002131",
+      "name": "Laurence Harvey",
+      "sequence": 1,
+      "roles": [
+        "Raymond Shaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001463",
+      "name": "Janet Leigh",
+      "sequence": 2,
+      "roles": [
+        "Eugenie Rose Chaney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001450",
+      "name": "Angela Lansbury",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Eleanor Shaw Iselin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798328",
+      "name": "Henry Silva",
+      "sequence": 4,
+      "roles": [
+        "Chunjin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339834",
+      "name": "James Gregory",
+      "sequence": 5,
+      "roles": [
+        "Senator John Yerkes Iselin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663562",
+      "name": "Leslie Parrish",
+      "sequence": 6,
+      "roles": [
+        "Jocelyn Jordan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569410",
+      "name": "John McGiver",
+      "sequence": 7,
+      "roles": [
+        "Senator Thomas Jordan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223556",
+      "name": "Khigh Dhiegh",
+      "sequence": 8,
+      "roles": [
+        "Dr. Yen Lo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250066",
+      "name": "James Edwards",
+      "sequence": 9,
+      "roles": [
+        "Corporal Allen Melvin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376415",
+      "name": "Douglas Henderson",
+      "sequence": 10,
+      "roles": [
+        "Colonel Milt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0667292",
+      "name": "Albert Paulsen",
+      "sequence": 11,
+      "roles": [
+        "Zilkov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445868",
+      "name": "Barry Kelley",
+      "sequence": 12,
+      "roles": [
+        "Secretary of Defense"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180987",
+      "name": "Lloyd Corrigan",
+      "sequence": 13,
+      "roles": [
+        "Holborn Gaines"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0819238",
+      "name": "Madame Spivy",
+      "sequence": 14,
+      "roles": [
+        "Female Berezovo"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0174410",
       "name": "Richard Condon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based upon a novel by)",
-      "group_id": 0
+      "notes": "(based upon a novel by)"
     },
     {
       "person_imdb_id": "nm0043480",
       "name": "George Axelrod",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001239",
       "name": "John Frankenheimer",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1962-10-24",

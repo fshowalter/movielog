@@ -1,128 +1,6 @@
 {
   "imdb_id": "tt0063807",
   "sort_title": "Wild Racers (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0003104",
-      "name": "Fabian",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Joe Quillico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002069",
-      "name": "Mimsy Farmer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Katherine Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180498",
-      "name": "Judy Cornwell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pippy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801389",
-      "name": "Warwick Sims",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0369255",
-      "name": "Alan Haufrect",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Virgil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484440",
-      "name": "David Landau",
-      "sequence": 5,
-      "notes": "(as David Landar)",
-      "roles": [
-        "Ian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001735",
-      "name": "Talia Shire",
-      "sequence": 6,
-      "notes": "(as Talia Coppola)",
-      "roles": [
-        "June - Katherine's Friend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0667418",
-      "name": "Ursule Pauly",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "French Girlfriend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pit Crew Mechanic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0304532",
-      "name": "Ron Gans",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0034189",
-      "name": "Fabienne Arel",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0191351",
-      "name": "Patricia Culbert",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Louise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0221044",
-      "name": "Mary Jo Deschanel",
-      "sequence": 12,
-      "notes": "(as Mary Jo Kennedy)",
-      "roles": [
-        "Dancing Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0095467",
-      "name": "Kurt Boon",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0356396",
@@ -137,13 +15,135 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0003104",
+      "name": "Fabian",
+      "sequence": 0,
+      "roles": [
+        "Joe Joe Quillico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002069",
+      "name": "Mimsy Farmer",
+      "sequence": 1,
+      "roles": [
+        "Katherine Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180498",
+      "name": "Judy Cornwell",
+      "sequence": 2,
+      "roles": [
+        "Pippy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801389",
+      "name": "Warwick Sims",
+      "sequence": 3,
+      "roles": [
+        "Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0369255",
+      "name": "Alan Haufrect",
+      "sequence": 4,
+      "roles": [
+        "Virgil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484440",
+      "name": "David Landau",
+      "sequence": 5,
+      "roles": [
+        "Ian"
+      ],
+      "notes": "(as David Landar)"
+    },
+    {
+      "person_imdb_id": "nm0001735",
+      "name": "Talia Shire",
+      "sequence": 6,
+      "roles": [
+        "June - Katherine's Friend"
+      ],
+      "notes": "(as Talia Coppola)"
+    },
+    {
+      "person_imdb_id": "nm0667418",
+      "name": "Ursule Pauly",
+      "sequence": 7,
+      "roles": [
+        "French Girlfriend"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588241",
+      "name": "Dick Miller",
+      "sequence": 8,
+      "roles": [
+        "Pit Crew Mechanic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0304532",
+      "name": "Ron Gans",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0034189",
+      "name": "Fabienne Arel",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0191351",
+      "name": "Patricia Culbert",
+      "sequence": 11,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0221044",
+      "name": "Mary Jo Deschanel",
+      "sequence": 12,
+      "roles": [
+        "Dancing Girl"
+      ],
+      "notes": "(as Mary Jo Kennedy)"
+    },
+    {
+      "person_imdb_id": "nm0095467",
+      "name": "Kurt Boon",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0396686",
       "name": "Max House",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1968-03-27",

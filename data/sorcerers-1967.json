@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0062292",
   "sort_title": "Sorcerers (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prof. Marcus Monserrat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479910",
-      "name": "Catherine Lacey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Estelle Monserrat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258716",
-      "name": "Elizabeth Ercy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nicole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0644707",
-      "name": "Ian Ogilvy",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mike Roscoe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378022",
-      "name": "Victor Henry",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011334",
-      "name": "Sally Sheridan",
-      "sequence": 5,
-      "notes": "(as Dani Sheridan)",
-      "roles": [
-        "Laura Ladd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426996",
-      "name": "Alf Joint",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ron, the mechanic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0879272",
-      "name": "Meier Tzelniker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Jewish Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133054",
-      "name": "Gerald Campion",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Customer in China Shop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001265",
-      "name": "Susan George",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Audrey Woods"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212796",
-      "name": "Ivor Dean",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Insp. Matalon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292214",
-      "name": "Peter Fraser",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Detective George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856043",
-      "name": "Martin Terry",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Tobacconist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0056114",
-      "name": "Bill Barnsley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Constable in Fur Store"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0095762",
-      "name": "Maureen Booth",
-      "sequence": 14,
-      "notes": "(as Maureen Boothe)",
-      "roles": [
-        "Dancer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0716262",
@@ -146,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Prof. Marcus Monserrat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479910",
+      "name": "Catherine Lacey",
+      "sequence": 1,
+      "roles": [
+        "Estelle Monserrat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0258716",
+      "name": "Elizabeth Ercy",
+      "sequence": 2,
+      "roles": [
+        "Nicole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0644707",
+      "name": "Ian Ogilvy",
+      "sequence": 3,
+      "roles": [
+        "Mike Roscoe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378022",
+      "name": "Victor Henry",
+      "sequence": 4,
+      "roles": [
+        "Alan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011334",
+      "name": "Sally Sheridan",
+      "sequence": 5,
+      "roles": [
+        "Laura Ladd"
+      ],
+      "notes": "(as Dani Sheridan)"
+    },
+    {
+      "person_imdb_id": "nm0426996",
+      "name": "Alf Joint",
+      "sequence": 6,
+      "roles": [
+        "Ron, the mechanic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0879272",
+      "name": "Meier Tzelniker",
+      "sequence": 7,
+      "roles": [
+        "The Jewish Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133054",
+      "name": "Gerald Campion",
+      "sequence": 8,
+      "roles": [
+        "Customer in China Shop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001265",
+      "name": "Susan George",
+      "sequence": 9,
+      "roles": [
+        "Audrey Woods"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212796",
+      "name": "Ivor Dean",
+      "sequence": 10,
+      "roles": [
+        "Insp. Matalon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292214",
+      "name": "Peter Fraser",
+      "sequence": 11,
+      "roles": [
+        "Detective George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856043",
+      "name": "Martin Terry",
+      "sequence": 12,
+      "roles": [
+        "Tobacconist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0056114",
+      "name": "Bill Barnsley",
+      "sequence": 13,
+      "roles": [
+        "Constable in Fur Store"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0095762",
+      "name": "Maureen Booth",
+      "sequence": 14,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": "(as Maureen Boothe)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0716262",
       "name": "Michael Reeves",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0048984",
       "name": "Tom Baker",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0121734",
       "name": "John Burke",
+      "group": 1,
       "sequence": 0,
-      "notes": "(idea)",
-      "group_id": 1
+      "notes": "(idea)"
     }
   ],
   "release_date": "1967-05-01",

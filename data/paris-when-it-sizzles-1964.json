@@ -1,110 +1,6 @@
 {
   "imdb_id": "tt0058453",
   "sort_title": "Paris When It Sizzles (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Richard Benson",
-        "Rick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000030",
-      "name": "Audrey Hepburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gabrielle Simpson",
-        "Gaby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039510",
-      "name": "Gr\u00e9goire Aslan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Police Insp. Gilet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124482",
-      "name": "Raymond Bussi\u00e8res",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Fran\u00e7ois - 1st Gangster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245104",
-      "name": "Christian Duvaleix",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maitre d'Hotel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0859732",
-      "name": "Michel Thomass",
-      "sequence": 5,
-      "notes": "(as Michel Thomas)",
-      "roles": [
-        "2nd Gangster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0097802",
-      "name": "Dominique Boschero",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Girl at Pool #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0544826",
-      "name": "Evi Marandi",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Girt at Pool #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002021",
-      "name": "No\u00ebl Coward",
-      "sequence": 8,
-      "notes": "(as Noel Coward)",
-      "roles": [
-        "Alexander Meyerheim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000348",
-      "name": "Tony Curtis",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Maurice",
-        "Philippe - 2nd Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 14,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Singer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0703689",
@@ -113,27 +9,122 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Richard Benson",
+        "Rick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000030",
+      "name": "Audrey Hepburn",
+      "sequence": 1,
+      "roles": [
+        "Gabrielle Simpson",
+        "Gaby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039510",
+      "name": "Gr\u00e9goire Aslan",
+      "sequence": 2,
+      "roles": [
+        "Police Insp. Gilet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124482",
+      "name": "Raymond Bussi\u00e8res",
+      "sequence": 3,
+      "roles": [
+        "Fran\u00e7ois - 1st Gangster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245104",
+      "name": "Christian Duvaleix",
+      "sequence": 4,
+      "roles": [
+        "Maitre d'Hotel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0859732",
+      "name": "Michel Thomass",
+      "sequence": 5,
+      "roles": [
+        "2nd Gangster"
+      ],
+      "notes": "(as Michel Thomas)"
+    },
+    {
+      "person_imdb_id": "nm0097802",
+      "name": "Dominique Boschero",
+      "sequence": 6,
+      "roles": [
+        "Girl at Pool #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0544826",
+      "name": "Evi Marandi",
+      "sequence": 7,
+      "roles": [
+        "Girt at Pool #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002021",
+      "name": "No\u00ebl Coward",
+      "sequence": 8,
+      "roles": [
+        "Alexander Meyerheim"
+      ],
+      "notes": "(as Noel Coward)"
+    },
+    {
+      "person_imdb_id": "nm0000348",
+      "name": "Tony Curtis",
+      "sequence": 9,
+      "roles": [
+        "Maurice",
+        "Philippe - 2nd Policeman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0245213",
       "name": "Julien Duvivier",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"La f\u00eate \u00e0 Henriette\")",
-      "group_id": 0
+      "notes": "(story \"La f\u00eate \u00e0 Henriette\")"
     },
     {
       "person_imdb_id": "nm0419986",
       "name": "Henri Jeanson",
-      "sequence": 0,
-      "notes": "(story \"La f\u00eate \u00e0 Henriette\")",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story \"La f\u00eate \u00e0 Henriette\")"
     },
     {
       "person_imdb_id": "nm0043480",
       "name": "George Axelrod",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1964-03-01",

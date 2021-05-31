@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0048790",
   "sort_title": "Violent Saturday (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001514",
-      "name": "Victor Mature",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Shelley Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250724",
-      "name": "Richard Egan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Boyd Fairchild"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573640",
-      "name": "Stephen McNally",
-      "sequence": 2,
-      "notes": "(bank robber)",
-      "roles": [
-        "Harper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500702",
-      "name": "Virginia Leith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Linda Sherman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634749",
-      "name": "Tommy Noonan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry Reeves, Bank Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dill, Bank Robber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371135",
-      "name": "Margaret Hayes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Emily Fairchild"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619798",
-      "name": "J. Carrol Naish",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Chapman, Bank Robber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Elsie Braden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000308",
-      "name": "Ernest Borgnine",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stadt, Amish Farmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665842",
-      "name": "Dorothy Patrick",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Helen Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0152159",
-      "name": "Billy Chapin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Steve Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223290",
-      "name": "Brad Dexter",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Gil Clayton"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0281507",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001514",
+      "name": "Victor Mature",
+      "sequence": 0,
+      "roles": [
+        "Shelley Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250724",
+      "name": "Richard Egan",
+      "sequence": 1,
+      "roles": [
+        "Boyd Fairchild"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573640",
+      "name": "Stephen McNally",
+      "sequence": 2,
+      "roles": [
+        "Harper"
+      ],
+      "notes": "(bank robber)"
+    },
+    {
+      "person_imdb_id": "nm0500702",
+      "name": "Virginia Leith",
+      "sequence": 3,
+      "roles": [
+        "Linda Sherman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634749",
+      "name": "Tommy Noonan",
+      "sequence": 4,
+      "roles": [
+        "Harry Reeves, Bank Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 5,
+      "roles": [
+        "Dill, Bank Robber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371135",
+      "name": "Margaret Hayes",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Emily Fairchild"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619798",
+      "name": "J. Carrol Naish",
+      "sequence": 7,
+      "roles": [
+        "Chapman, Bank Robber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 8,
+      "roles": [
+        "Elsie Braden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000308",
+      "name": "Ernest Borgnine",
+      "sequence": 9,
+      "roles": [
+        "Stadt, Amish Farmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665842",
+      "name": "Dorothy Patrick",
+      "sequence": 10,
+      "roles": [
+        "Helen Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0152159",
+      "name": "Billy Chapin",
+      "sequence": 11,
+      "roles": [
+        "Steve Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223290",
+      "name": "Brad Dexter",
+      "sequence": 12,
+      "roles": [
+        "Gil Clayton"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0091213",
       "name": "Sydney Boehm",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0372719",
       "name": "William L. Heath",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1955-04-20",

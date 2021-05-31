@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0059575",
   "sort_title": "Pawnbroker (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001768",
-      "name": "Rod Steiger",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sol Nazerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280242",
-      "name": "Geraldine Fitzgerald",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Marilyn Birchfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0676349",
-      "name": "Brock Peters",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rodriguez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0844969",
-      "name": "Jaime S\u00e1nchez",
-      "sequence": 3,
-      "notes": "(as Jaime Sanchez)",
-      "roles": [
-        "Jesus Ortiz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647014",
-      "name": "Thelma Oliver",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ortiz' Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0453901",
-      "name": "Marketa Kimbrell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tessie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525885",
-      "name": "Baruch Lumet",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mendel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379621",
-      "name": "Juano Hernandez",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312027",
-      "name": "Linda Geiser",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ruth Nazerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689687",
-      "name": "Nancy R. Pollock",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bertha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820566",
-      "name": "Raymond St. Jacques",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tangee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567315",
-      "name": "John McCurry",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Buck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225741",
-      "name": "Charles Dierkop",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Robinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181907",
-      "name": "Eusebia Cosme",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mrs. Ortiz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0278258",
-      "name": "Warren Finnerty",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Savarese"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011919",
-      "name": "Jack Ader",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0437913",
-      "name": "Marianne Kanter",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Joan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603482",
-      "name": "Ed Morehouse",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Oratory Award"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001768",
+      "name": "Rod Steiger",
+      "sequence": 0,
+      "roles": [
+        "Sol Nazerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280242",
+      "name": "Geraldine Fitzgerald",
+      "sequence": 1,
+      "roles": [
+        "Marilyn Birchfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0676349",
+      "name": "Brock Peters",
+      "sequence": 2,
+      "roles": [
+        "Rodriguez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0844969",
+      "name": "Jaime S\u00e1nchez",
+      "sequence": 3,
+      "roles": [
+        "Jesus Ortiz"
+      ],
+      "notes": "(as Jaime Sanchez)"
+    },
+    {
+      "person_imdb_id": "nm0647014",
+      "name": "Thelma Oliver",
+      "sequence": 4,
+      "roles": [
+        "Ortiz' Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0453901",
+      "name": "Marketa Kimbrell",
+      "sequence": 5,
+      "roles": [
+        "Tessie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525885",
+      "name": "Baruch Lumet",
+      "sequence": 6,
+      "roles": [
+        "Mendel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379621",
+      "name": "Juano Hernandez",
+      "sequence": 7,
+      "roles": [
+        "Mr. Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312027",
+      "name": "Linda Geiser",
+      "sequence": 8,
+      "roles": [
+        "Ruth Nazerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689687",
+      "name": "Nancy R. Pollock",
+      "sequence": 9,
+      "roles": [
+        "Bertha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820566",
+      "name": "Raymond St. Jacques",
+      "sequence": 10,
+      "roles": [
+        "Tangee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0567315",
+      "name": "John McCurry",
+      "sequence": 11,
+      "roles": [
+        "Buck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225741",
+      "name": "Charles Dierkop",
+      "sequence": 12,
+      "roles": [
+        "Robinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181907",
+      "name": "Eusebia Cosme",
+      "sequence": 13,
+      "roles": [
+        "Mrs. Ortiz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0278258",
+      "name": "Warren Finnerty",
+      "sequence": 14,
+      "roles": [
+        "Savarese"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011919",
+      "name": "Jack Ader",
+      "sequence": 15,
+      "roles": [
+        "Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0437913",
+      "name": "Marianne Kanter",
+      "sequence": 16,
+      "roles": [
+        "Joan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603482",
+      "name": "Ed Morehouse",
+      "sequence": 17,
+      "roles": [
+        "Oratory Award"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0277643",
       "name": "Morton S. Fine",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Morton Fine)",
-      "group_id": 0
+      "notes": "(screenplay) (as Morton Fine)"
     },
     {
       "person_imdb_id": "nm0295053",
       "name": "David Friedkin",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0908949",
       "name": "Edward Lewis Wallant",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1964-07-02",

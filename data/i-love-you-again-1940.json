@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0032617",
   "sort_title": "I Love You Again (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Larry Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kay Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570451",
-      "name": "Frank McHugh",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "'Doc' Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522926",
-      "name": "Edmund Lowe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Duke Sheldon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235026",
-      "name": "Donald Douglas",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Herbert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908063",
-      "name": "Nella Walker",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kay's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842813",
-      "name": "Carl 'Alfalfa' Switzer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Harkspur Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914246",
-      "name": "Pierre Watkin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Sims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822792",
-      "name": "Paul Stanton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Littlejohn Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908797",
-      "name": "Morgan Wallace",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Belenson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036792",
-      "name": "Charles Arnt",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Billings"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0886754",
@@ -110,48 +9,149 @@
       "notes": "(as W.S. Van Dyke II)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Larry Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Kay Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570451",
+      "name": "Frank McHugh",
+      "sequence": 2,
+      "roles": [
+        "'Doc' Ryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522926",
+      "name": "Edmund Lowe",
+      "sequence": 3,
+      "roles": [
+        "Duke Sheldon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235026",
+      "name": "Donald Douglas",
+      "sequence": 4,
+      "roles": [
+        "Herbert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908063",
+      "name": "Nella Walker",
+      "sequence": 5,
+      "roles": [
+        "Kay's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842813",
+      "name": "Carl 'Alfalfa' Switzer",
+      "sequence": 6,
+      "roles": [
+        "Harkspur Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914246",
+      "name": "Pierre Watkin",
+      "sequence": 7,
+      "roles": [
+        "Mr. Sims"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822792",
+      "name": "Paul Stanton",
+      "sequence": 8,
+      "roles": [
+        "Mr. Littlejohn Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908797",
+      "name": "Morgan Wallace",
+      "sequence": 9,
+      "roles": [
+        "Mr. Belenson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036792",
+      "name": "Charles Arnt",
+      "sequence": 10,
+      "roles": [
+        "Billings"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0330390",
       "name": "Leon Gordon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0914362",
       "name": "Maurine Dallas Watkins",
-      "sequence": 0,
-      "notes": "(original story) (as Maurine Watkins)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story) (as Maurine Watkins)"
     },
     {
       "person_imdb_id": "nm0169665",
       "name": "Octavus Roy Cohen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     },
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0649183",
       "name": "George Oppenheimer",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0475823",
       "name": "Harry Kurnitz",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 2,
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1940-08-09",

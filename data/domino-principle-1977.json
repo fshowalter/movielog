@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0075950",
   "sort_title": "Domino Principle (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tucker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000298",
-      "name": "Candice Bergen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ellie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001847",
-      "name": "Richard Widmark",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tagge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001682",
-      "name": "Mickey Rooney",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Spiventa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001902",
-      "name": "Edward Albert",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ross Pine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908919",
-      "name": "Eli Wallach",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "General Reser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842855",
-      "name": "Ken Swofford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ditcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666332",
-      "name": "Neva Patterson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gaddis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637041",
-      "name": "Jay Novello",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Captain Ruiz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675129",
-      "name": "Joseph V. Perry",
-      "sequence": 9,
-      "notes": "(as Joseph Perry)",
-      "roles": [
-        "Bowkemp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311811",
-      "name": "Ted Gehring",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Schnaible"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107268",
-      "name": "Claire Brennen",
-      "sequence": 11,
-      "notes": "(as Claire Brennan)",
-      "roles": [
-        "Ruby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279510",
-      "name": "George Fisher",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Henemyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380787",
-      "name": "Bob Herron",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Brookshire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560460",
-      "name": "Denver Mattson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Murdock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0310542",
-      "name": "James W. Gavin",
-      "sequence": 15,
-      "notes": "(as Jim Gavin)",
-      "roles": [
-        "Lenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000854",
-      "name": "Majel Barrett",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mrs. Schnaible"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0207392",
-      "name": "Farnesio de Bernal",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Bank Official"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525615",
-      "name": "Patricia Luke",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Travel Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395731",
-      "name": "Charles Horvath",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Harley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0019996",
-      "name": "Patrick Allen",
-      "sequence": 20,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0006452",
@@ -200,25 +9,208 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 0,
+      "roles": [
+        "Tucker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000298",
+      "name": "Candice Bergen",
+      "sequence": 1,
+      "roles": [
+        "Ellie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001847",
+      "name": "Richard Widmark",
+      "sequence": 2,
+      "roles": [
+        "Tagge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001682",
+      "name": "Mickey Rooney",
+      "sequence": 3,
+      "roles": [
+        "Spiventa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001902",
+      "name": "Edward Albert",
+      "sequence": 4,
+      "roles": [
+        "Ross Pine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908919",
+      "name": "Eli Wallach",
+      "sequence": 5,
+      "roles": [
+        "General Reser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842855",
+      "name": "Ken Swofford",
+      "sequence": 6,
+      "roles": [
+        "Ditcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666332",
+      "name": "Neva Patterson",
+      "sequence": 7,
+      "roles": [
+        "Gaddis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637041",
+      "name": "Jay Novello",
+      "sequence": 8,
+      "roles": [
+        "Captain Ruiz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0675129",
+      "name": "Joseph V. Perry",
+      "sequence": 9,
+      "roles": [
+        "Bowkemp"
+      ],
+      "notes": "(as Joseph Perry)"
+    },
+    {
+      "person_imdb_id": "nm0311811",
+      "name": "Ted Gehring",
+      "sequence": 10,
+      "roles": [
+        "Schnaible"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107268",
+      "name": "Claire Brennen",
+      "sequence": 11,
+      "roles": [
+        "Ruby"
+      ],
+      "notes": "(as Claire Brennan)"
+    },
+    {
+      "person_imdb_id": "nm0279510",
+      "name": "George Fisher",
+      "sequence": 12,
+      "roles": [
+        "Henemyer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380787",
+      "name": "Bob Herron",
+      "sequence": 13,
+      "roles": [
+        "Brookshire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560460",
+      "name": "Denver Mattson",
+      "sequence": 14,
+      "roles": [
+        "Murdock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0310542",
+      "name": "James W. Gavin",
+      "sequence": 15,
+      "roles": [
+        "Lenny"
+      ],
+      "notes": "(as Jim Gavin)"
+    },
+    {
+      "person_imdb_id": "nm0000854",
+      "name": "Majel Barrett",
+      "sequence": 16,
+      "roles": [
+        "Mrs. Schnaible"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0207392",
+      "name": "Farnesio de Bernal",
+      "sequence": 17,
+      "roles": [
+        "Bank Official"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525615",
+      "name": "Patricia Luke",
+      "sequence": 18,
+      "roles": [
+        "Travel Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0395731",
+      "name": "Charles Horvath",
+      "sequence": 19,
+      "roles": [
+        "Harley"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0447891",
       "name": "Adam Kennedy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0447891",
       "name": "Adam Kennedy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1977-03-23",
   "release_date_notes": "(New York City, New York)",
   "countries": [
-    "United States"
+    "United States",
+    "United Kingdom"
   ]
 }

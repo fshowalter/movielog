@@ -1,117 +1,6 @@
 {
   "imdb_id": "tt3420392",
   "sort_title": "House of Exorcism (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001699",
-      "name": "Telly Savalas",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Leandro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813961",
-      "name": "Elke Sommer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lisa Reiner",
-        "Elena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466977",
-      "name": "Sylva Koscina",
-      "sequence": 2,
-      "notes": "(as Silva Koscina)",
-      "roles": [
-        "Sophia Lehar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649342",
-      "name": "Alessio Orano",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864081",
-      "name": "Gabriele Tinti",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0502898",
-      "name": "Kathleen Leone",
-      "sequence": 5,
-      "notes": "(as Kathy Leone)",
-      "roles": [
-        "Tourist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0265761",
-      "name": "Eduardo Fajardo",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Francis Lehar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798251",
-      "name": "Carmen Silva",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0903130",
-      "name": "Franz von Treuberg",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shopkeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0763852",
-      "name": "Espartaco Santoni",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Carlo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885098",
-      "name": "Alida Valli",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Countess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017376",
-      "name": "Robert Alda",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Father Michael"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -126,69 +15,180 @@
       "notes": "(as Mickey Lion)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001699",
+      "name": "Telly Savalas",
+      "sequence": 0,
+      "roles": [
+        "Leandro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813961",
+      "name": "Elke Sommer",
+      "sequence": 1,
+      "roles": [
+        "Lisa Reiner",
+        "Elena"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466977",
+      "name": "Sylva Koscina",
+      "sequence": 2,
+      "roles": [
+        "Sophia Lehar"
+      ],
+      "notes": "(as Silva Koscina)"
+    },
+    {
+      "person_imdb_id": "nm0649342",
+      "name": "Alessio Orano",
+      "sequence": 3,
+      "roles": [
+        "Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864081",
+      "name": "Gabriele Tinti",
+      "sequence": 4,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0502898",
+      "name": "Kathleen Leone",
+      "sequence": 5,
+      "roles": [
+        "Tourist"
+      ],
+      "notes": "(as Kathy Leone)"
+    },
+    {
+      "person_imdb_id": "nm0265761",
+      "name": "Eduardo Fajardo",
+      "sequence": 6,
+      "roles": [
+        "Francis Lehar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798251",
+      "name": "Carmen Silva",
+      "sequence": 7,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0903130",
+      "name": "Franz von Treuberg",
+      "sequence": 8,
+      "roles": [
+        "Shopkeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0763852",
+      "name": "Espartaco Santoni",
+      "sequence": 9,
+      "roles": [
+        "Carlo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885098",
+      "name": "Alida Valli",
+      "sequence": 10,
+      "roles": [
+        "Countess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017376",
+      "name": "Robert Alda",
+      "sequence": 11,
+      "roles": [
+        "Father Michael"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1903596",
       "name": "Alberto Cittini",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0502863",
       "name": "Alfredo Leone",
-      "sequence": 0,
-      "notes": "(screenplay) (as Alfred Leone)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Alfred Leone)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)",
-      "group_id": 1
+      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0044511",
       "name": "Nedo Azzini",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay collaborator) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0185867",
       "name": "H.A.L. Craig",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay collaborator) (uncredited)",
-      "group_id": 3
+      "notes": "(screenplay collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0560908",
       "name": "Giorgio Maulini",
+      "group": 4,
       "sequence": 0,
-      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)",
-      "group_id": 4
+      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0585971",
       "name": "Romano Migliorini",
+      "group": 5,
       "sequence": 0,
-      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)",
-      "group_id": 5
+      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0622099",
       "name": "Roberto Natale",
+      "group": 6,
       "sequence": 0,
-      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)",
-      "group_id": 6
+      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)"
     },
     {
       "person_imdb_id": "nm1908553",
       "name": "Francesca Rusishka",
+      "group": 7,
       "sequence": 0,
-      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)",
-      "group_id": 7
+      "notes": "(original screenplay: \"Lisa and the Devil\") (uncredited)"
     }
   ],
   "release_date": "1975-04-02",

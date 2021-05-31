@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0040104",
   "sort_title": "Apartment for Peggy (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002022",
-      "name": "Jeanne Crain",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Peggy Taylor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jason Taylor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350324",
-      "name": "Edmund Gwenn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Prof. Henry Barnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516876",
-      "name": "Gene Lockhart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Prof. Edward Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055899",
-      "name": "Griff Barnett",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Philip Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835836",
-      "name": "Randy Stuart",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dorothy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528619",
-      "name": "Betty Lynn",
-      "sequence": 6,
-      "notes": "(as Betty Ann Lynn)",
-      "roles": [
-        "Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551031",
-      "name": "Marion Marshall",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ruth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067114",
-      "name": "Pati Behrs",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jeanne"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0780833",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002022",
+      "name": "Jeanne Crain",
+      "sequence": 0,
+      "roles": [
+        "Peggy Taylor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 1,
+      "roles": [
+        "Jason Taylor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350324",
+      "name": "Edmund Gwenn",
+      "sequence": 2,
+      "roles": [
+        "Prof. Henry Barnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516876",
+      "name": "Gene Lockhart",
+      "sequence": 3,
+      "roles": [
+        "Prof. Edward Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055899",
+      "name": "Griff Barnett",
+      "sequence": 4,
+      "roles": [
+        "Dr. Philip Conway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835836",
+      "name": "Randy Stuart",
+      "sequence": 5,
+      "roles": [
+        "Dorothy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528619",
+      "name": "Betty Lynn",
+      "sequence": 6,
+      "roles": [
+        "Wife"
+      ],
+      "notes": "(as Betty Ann Lynn)"
+    },
+    {
+      "person_imdb_id": "nm0551031",
+      "name": "Marion Marshall",
+      "sequence": 7,
+      "roles": [
+        "Ruth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067114",
+      "name": "Pati Behrs",
+      "sequence": 8,
+      "roles": [
+        "Jeanne"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0780833",
       "name": "George Seaton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0049903",
       "name": "Faith Baldwin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novellette \"An Apartment for Jenny\")",
-      "group_id": 1
+      "notes": "(novellette \"An Apartment for Jenny\")"
     }
   ],
   "release_date": "1948-10-01",

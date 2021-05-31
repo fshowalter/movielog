@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0033155",
   "sort_title": "Those Were the Days! (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "P.J. 'Petey' Simmons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335748",
-      "name": "Bonita Granville",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Martha Scroggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831868",
-      "name": "Ezra Stone",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alexander 'Allie' Bangs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057184",
-      "name": "Judith Barrett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mirabel Allstairs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321863",
-      "name": "Vaughan Glaser",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judge Malachi Scroggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514707",
-      "name": "Lucien Littlefield",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Professor Sillicocks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219396",
-      "name": "Richard Denning",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856062",
-      "name": "Phillip Terry",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ransom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751999",
-      "name": "Tom Rutherford",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sam Byers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101172",
-      "name": "Aldrich Bowker",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge Squire Jennings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709478",
-      "name": "James Seay",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448004",
-      "name": "Douglas Kennedy",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0481909",
-      "name": "John Laing",
-      "sequence": 12,
-      "notes": "(as John Laird)",
-      "roles": [
-        "Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366849",
-      "name": "John Hartley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Whipple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731392",
-      "name": "Mark Roberts",
-      "sequence": 14,
-      "notes": "(as Robert Scott)",
-      "roles": [
-        "Allison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671747",
-      "name": "Steve Pendleton",
-      "sequence": 15,
-      "notes": "(as Gaylord Pendleton)",
-      "roles": [
-        "Connie Mathews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000042",
-      "name": "Alan Ladd",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Keg Rearick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230082",
-      "name": "Jimmie Dodd",
-      "sequence": 17,
-      "notes": "(as James Dodd)",
-      "roles": [
-        "Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0072118",
-      "name": "Wilda Bennett",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Miss Chickering"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0715716",
@@ -182,20 +9,193 @@
       "notes": "(as Jay Theodore Reed)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "P.J. 'Petey' Simmons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335748",
+      "name": "Bonita Granville",
+      "sequence": 1,
+      "roles": [
+        "Martha Scroggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0831868",
+      "name": "Ezra Stone",
+      "sequence": 2,
+      "roles": [
+        "Alexander 'Allie' Bangs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057184",
+      "name": "Judith Barrett",
+      "sequence": 3,
+      "roles": [
+        "Mirabel Allstairs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321863",
+      "name": "Vaughan Glaser",
+      "sequence": 4,
+      "roles": [
+        "Judge Malachi Scroggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514707",
+      "name": "Lucien Littlefield",
+      "sequence": 5,
+      "roles": [
+        "Professor Sillicocks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219396",
+      "name": "Richard Denning",
+      "sequence": 6,
+      "roles": [
+        "Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856062",
+      "name": "Phillip Terry",
+      "sequence": 7,
+      "roles": [
+        "Ransom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751999",
+      "name": "Tom Rutherford",
+      "sequence": 8,
+      "roles": [
+        "Sam Byers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101172",
+      "name": "Aldrich Bowker",
+      "sequence": 9,
+      "roles": [
+        "Judge Squire Jennings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709478",
+      "name": "James Seay",
+      "sequence": 10,
+      "roles": [
+        "Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448004",
+      "name": "Douglas Kennedy",
+      "sequence": 11,
+      "roles": [
+        "Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0481909",
+      "name": "John Laing",
+      "sequence": 12,
+      "roles": [
+        "Saunders"
+      ],
+      "notes": "(as John Laird)"
+    },
+    {
+      "person_imdb_id": "nm0366849",
+      "name": "John Hartley",
+      "sequence": 13,
+      "roles": [
+        "Whipple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731392",
+      "name": "Mark Roberts",
+      "sequence": 14,
+      "roles": [
+        "Allison"
+      ],
+      "notes": "(as Robert Scott)"
+    },
+    {
+      "person_imdb_id": "nm0671747",
+      "name": "Steve Pendleton",
+      "sequence": 15,
+      "roles": [
+        "Connie Mathews"
+      ],
+      "notes": "(as Gaylord Pendleton)"
+    },
+    {
+      "person_imdb_id": "nm0000042",
+      "name": "Alan Ladd",
+      "sequence": 16,
+      "roles": [
+        "Keg Rearick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230082",
+      "name": "Jimmie Dodd",
+      "sequence": 17,
+      "roles": [
+        "Evans"
+      ],
+      "notes": "(as James Dodd)"
+    },
+    {
+      "person_imdb_id": "nm0072118",
+      "name": "Wilda Bennett",
+      "sequence": 18,
+      "roles": [
+        "Miss Chickering"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0366942",
       "name": "Don Hartman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0280006",
       "name": "George Fitch",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Siwash Stories\")",
-      "group_id": 1
+      "notes": "(novel \"Siwash Stories\")"
     }
   ],
   "release_date": "1940-05-21",

@@ -20,7 +20,7 @@ CREATE_DDL = """
 
 INSERT_DDL = """
   INSERT INTO {0}(movie_imdb_id, release_date, notes)
-    VALUES(:movie_imdb_id, :release_date, :release_date_notes);
+    VALUES(:movie_imdb_id, :release_date, :notes);
 """
 
 

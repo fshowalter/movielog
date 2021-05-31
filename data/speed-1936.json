@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0028291",
   "sort_title": "Speed (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Terry Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057412",
-      "name": "Wendy Barrie",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jane Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580916",
-      "name": "Una Merkel",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Josephine Sanderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382165",
-      "name": "Weldon Heyburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Frank Lawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0372384",
-      "name": "Ted Healy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gadget"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604960",
-      "name": "Ralph Morgan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Dean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928617",
-      "name": "Patricia Wilder",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fanny Lane"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0547446",
@@ -74,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Terry Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057412",
+      "name": "Wendy Barrie",
+      "sequence": 1,
+      "roles": [
+        "Jane Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580916",
+      "name": "Una Merkel",
+      "sequence": 2,
+      "roles": [
+        "Josephine Sanderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382165",
+      "name": "Weldon Heyburn",
+      "sequence": 3,
+      "roles": [
+        "Frank Lawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0372384",
+      "name": "Ted Healy",
+      "sequence": 4,
+      "roles": [
+        "Clarence 'Gadget' Harrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604960",
+      "name": "Ralph Morgan",
+      "sequence": 5,
+      "roles": [
+        "Mr. Dean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928617",
+      "name": "Patricia Wilder",
+      "sequence": 6,
+      "roles": [
+        "Fanny Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1211217",
+      "name": "Jack Rube Clifford",
+      "sequence": 7,
+      "roles": [
+        "Master of Ceremonies"
+      ],
+      "notes": "(as Jack Clifford)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0471341",
       "name": "Milton Krims",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0045512",
       "name": "Lawrence P. Bachmann",
-      "sequence": 0,
-      "notes": "(story) (as Larry Bachman)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story) (as Larry Bachman)"
     },
     {
       "person_imdb_id": "nm0275255",
       "name": "Michael Fessier",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1936-05-08",

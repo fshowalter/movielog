@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0035443",
   "sort_title": "Time to Kill (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0634313",
-      "name": "Lloyd Nolan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Michael Shayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0029456",
-      "name": "Heather Angel",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Myrle Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581197",
-      "name": "Doris Merrick",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Linda Conquest Murdock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126049",
-      "name": "Ralph Byrd",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lou Venter, bodyguard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485518",
-      "name": "Richard Lane",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lt. Breeze"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111355",
-      "name": "Sheila Bromley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lois Morny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030194",
-      "name": "Morris Ankrum",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Alexander Morny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341100",
-      "name": "Ethel Griffies",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Murdock"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0498584",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0634313",
+      "name": "Lloyd Nolan",
+      "sequence": 0,
+      "roles": [
+        "Michael Shayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0029456",
+      "name": "Heather Angel",
+      "sequence": 1,
+      "roles": [
+        "Myrle Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581197",
+      "name": "Doris Merrick",
+      "sequence": 2,
+      "roles": [
+        "Linda Conquest Murdock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126049",
+      "name": "Ralph Byrd",
+      "sequence": 3,
+      "roles": [
+        "Lou Venter, bodyguard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485518",
+      "name": "Richard Lane",
+      "sequence": 4,
+      "roles": [
+        "Lt. Breeze"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111355",
+      "name": "Sheila Bromley",
+      "sequence": 5,
+      "roles": [
+        "Lois Morny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030194",
+      "name": "Morris Ankrum",
+      "sequence": 6,
+      "roles": [
+        "Alexander Morny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341100",
+      "name": "Ethel Griffies",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Murdock"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0949404",
       "name": "Clarence Upson Young",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The High Window\")",
-      "group_id": 1
+      "notes": "(novel \"The High Window\")"
     }
   ],
   "release_date": "1942-12-24",

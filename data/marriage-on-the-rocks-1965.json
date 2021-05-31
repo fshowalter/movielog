@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0059431",
   "sort_title": "Marriage on the Rocks (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dan Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000039",
-      "name": "Deborah Kerr",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Valerie Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ernie Brewer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003110",
-      "name": "Cesar Romero",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miguel Santos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045968",
-      "name": "Hermione Baddeley",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jeannie MacPherson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082300",
-      "name": "Tony Bill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jim Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569410",
-      "name": "John McGiver",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Shad Nathan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005434",
-      "name": "Nancy Sinatra",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tracy Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205704",
-      "name": "Davey Davison",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lisa Sterling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677590",
-      "name": "Michel Petit",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "David Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0530382",
-      "name": "Trini L\u00f3pez",
-      "sequence": 10,
-      "notes": "(as Trini Lopez)",
-      "roles": [
-        "Trini Lopez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0487103",
-      "name": "Joi Lansing",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lola"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0524538",
-      "name": "Darlene Lucht",
-      "sequence": 12,
-      "notes": "(as Tara Ashton)",
-      "roles": [
-        "Bunny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293466",
-      "name": "Kathleen Freeman",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Miss Blight"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548240",
-      "name": "Flip Mark",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Rollo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001420",
-      "name": "DeForest Kelley",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mr. Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0883724",
-      "name": "Sigrid Valdis",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Kitty"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0232902",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Dan Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000039",
+      "name": "Deborah Kerr",
+      "sequence": 1,
+      "roles": [
+        "Valerie Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 2,
+      "roles": [
+        "Ernie Brewer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003110",
+      "name": "Cesar Romero",
+      "sequence": 3,
+      "roles": [
+        "Miguel Santos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045968",
+      "name": "Hermione Baddeley",
+      "sequence": 4,
+      "roles": [
+        "Jeannie MacPherson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0082300",
+      "name": "Tony Bill",
+      "sequence": 5,
+      "roles": [
+        "Jim Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569410",
+      "name": "John McGiver",
+      "sequence": 6,
+      "roles": [
+        "Shad Nathan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005434",
+      "name": "Nancy Sinatra",
+      "sequence": 7,
+      "roles": [
+        "Tracy Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0205704",
+      "name": "Davey Davison",
+      "sequence": 8,
+      "roles": [
+        "Lisa Sterling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677590",
+      "name": "Michel Petit",
+      "sequence": 9,
+      "roles": [
+        "David Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0530382",
+      "name": "Trini L\u00f3pez",
+      "sequence": 10,
+      "roles": [
+        "Trini Lopez"
+      ],
+      "notes": "(as Trini Lopez)"
+    },
+    {
+      "person_imdb_id": "nm0487103",
+      "name": "Joi Lansing",
+      "sequence": 11,
+      "roles": [
+        "Lola"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0524538",
+      "name": "Darlene Lucht",
+      "sequence": 12,
+      "roles": [
+        "Bunny"
+      ],
+      "notes": "(as Tara Ashton)"
+    },
+    {
+      "person_imdb_id": "nm0293466",
+      "name": "Kathleen Freeman",
+      "sequence": 13,
+      "roles": [
+        "Miss Blight"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548240",
+      "name": "Flip Mark",
+      "sequence": 14,
+      "roles": [
+        "Rollo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001420",
+      "name": "DeForest Kelley",
+      "sequence": 15,
+      "roles": [
+        "Mr. Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0883724",
+      "name": "Sigrid Valdis",
+      "sequence": 16,
+      "roles": [
+        "Kitty"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0397220",
       "name": "Cy Howard",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0397220",
       "name": "Cy Howard",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"Community Property\") (uncredited)",
-      "group_id": 1
+      "notes": "(story \"Community Property\") (uncredited)"
     }
   ],
   "release_date": "1965-09-16",

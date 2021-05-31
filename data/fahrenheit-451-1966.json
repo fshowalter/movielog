@@ -1,73 +1,6 @@
 {
   "imdb_id": "tt0060390",
   "sort_title": "Fahrenheit 451 (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001046",
-      "name": "Julie Christie",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Clarisse",
-        "Linda Montag"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0921459",
-      "name": "Oskar Werner",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Guy Montag"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0159258",
-      "name": "Cyril Cusack",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Captain Beatty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226446",
-      "name": "Anton Diffring",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Fabian",
-        "Headmistress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0818215",
-      "name": "Jeremy Spenser",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Man with the Apple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240436",
-      "name": "Bee Duffell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Book Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778808",
-      "name": "Alex Scott",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Book Person: 'The Life of Henry Brulard'"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000076",
@@ -76,41 +9,108 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001046",
+      "name": "Julie Christie",
+      "sequence": 0,
+      "roles": [
+        "Clarisse",
+        "Linda Montag"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0921459",
+      "name": "Oskar Werner",
+      "sequence": 1,
+      "roles": [
+        "Guy Montag"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0159258",
+      "name": "Cyril Cusack",
+      "sequence": 2,
+      "roles": [
+        "Captain Beatty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226446",
+      "name": "Anton Diffring",
+      "sequence": 3,
+      "roles": [
+        "Fabian",
+        "Headmistress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0818215",
+      "name": "Jeremy Spenser",
+      "sequence": 4,
+      "roles": [
+        "Man with the Apple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240436",
+      "name": "Bee Duffell",
+      "sequence": 5,
+      "roles": [
+        "Book Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778808",
+      "name": "Alex Scott",
+      "sequence": 6,
+      "roles": [
+        "Book Person: 'The Life of Henry Brulard'"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000076",
       "name": "Fran\u00e7ois Truffaut",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0723827",
       "name": "Jean-Louis Richard",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001969",
       "name": "Ray Bradbury",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0748814",
       "name": "David Rudkin",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(additional dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0779231",
       "name": "Helen Scott",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 3
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1966-09-07",

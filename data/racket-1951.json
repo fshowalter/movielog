@@ -1,162 +1,6 @@
 {
   "imdb_id": "tt0043955",
   "sort_title": "Racket (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Captain Thomas McQuigg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779507",
-      "name": "Lizabeth Scott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Irene Hayes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752813",
-      "name": "Robert Ryan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nick Scanlon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848251",
-      "name": "William Talman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Officer Bob Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172615",
-      "name": "Ray Collins",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "D.A. Mortimer X. Welsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533339",
-      "name": "Joyce Mackenzie",
-      "sequence": 5,
-      "notes": "(as Joyce MacKenzie)",
-      "roles": [
-        "Mary McQuigg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404665",
-      "name": "Robert Hutton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dave Ames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404157",
-      "name": "Virginia Huston",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lucy Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002016",
-      "name": "William Conrad",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Det. Sgt. Turk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0761340",
-      "name": "Walter Sande",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sgt. Jim Delaney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871876",
-      "name": "Les Tremayne",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Harry Craig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692093",
-      "name": "Don Porter",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "R.G. Connolly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0050019",
-      "name": "Walter Baldwin",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sgt. Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454517",
-      "name": "Brett King",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Joe Scanlon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439463",
-      "name": "Richard Karlan",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Breeze Enright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0904446",
-      "name": "Tito Vuolo",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Tony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639880",
-      "name": "William J. O'Brien",
-      "sequence": 50,
-      "notes": "",
-      "roles": [
-        "Counterman",
-        "Short Order Cook"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -189,34 +33,190 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Captain Thomas McQuigg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779507",
+      "name": "Lizabeth Scott",
+      "sequence": 1,
+      "roles": [
+        "Irene Hayes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752813",
+      "name": "Robert Ryan",
+      "sequence": 2,
+      "roles": [
+        "Nick Scanlon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848251",
+      "name": "William Talman",
+      "sequence": 3,
+      "roles": [
+        "Officer Bob Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172615",
+      "name": "Ray Collins",
+      "sequence": 4,
+      "roles": [
+        "D.A. Mortimer X. Welsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533339",
+      "name": "Joyce Mackenzie",
+      "sequence": 5,
+      "roles": [
+        "Mary McQuigg"
+      ],
+      "notes": "(as Joyce MacKenzie)"
+    },
+    {
+      "person_imdb_id": "nm0404665",
+      "name": "Robert Hutton",
+      "sequence": 6,
+      "roles": [
+        "Dave Ames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404157",
+      "name": "Virginia Huston",
+      "sequence": 7,
+      "roles": [
+        "Lucy Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002016",
+      "name": "William Conrad",
+      "sequence": 8,
+      "roles": [
+        "Det. Sgt. Turk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0761340",
+      "name": "Walter Sande",
+      "sequence": 9,
+      "roles": [
+        "Sgt. Jim Delaney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871876",
+      "name": "Les Tremayne",
+      "sequence": 10,
+      "roles": [
+        "Harry Craig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692093",
+      "name": "Don Porter",
+      "sequence": 11,
+      "roles": [
+        "R.G. Connolly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0050019",
+      "name": "Walter Baldwin",
+      "sequence": 12,
+      "roles": [
+        "Sgt. Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454517",
+      "name": "Brett King",
+      "sequence": 13,
+      "roles": [
+        "Joe Scanlon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439463",
+      "name": "Richard Karlan",
+      "sequence": 14,
+      "roles": [
+        "Breeze Enright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0904446",
+      "name": "Tito Vuolo",
+      "sequence": 15,
+      "roles": [
+        "Tony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639880",
+      "name": "William J. O'Brien",
+      "sequence": 50,
+      "roles": [
+        "Counterman",
+        "Short Order Cook"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0354317",
       "name": "William Wister Haines",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0179993",
       "name": "Bartlett Cormack",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0002087",
       "name": "Samuel Fuller",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contract writer) (uncredited)",
-      "group_id": 2
+      "notes": "(contract writer) (uncredited)"
     }
   ],
   "release_date": "1951-10-25",

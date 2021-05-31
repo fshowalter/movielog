@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0053967",
   "sort_title": "Young One (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0779923",
-      "name": "Zachary Scott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357745",
-      "name": "Bernie Hamilton",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Traver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576222",
-      "name": "Key Meersman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Evalyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219825",
-      "name": "Crahan Denton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111610",
-      "name": "Claudio Brook",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rev. Fleetwood"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -56,27 +9,74 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0779923",
+      "name": "Zachary Scott",
+      "sequence": 0,
+      "roles": [
+        "Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357745",
+      "name": "Bernie Hamilton",
+      "sequence": 1,
+      "roles": [
+        "Traver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576222",
+      "name": "Key Meersman",
+      "sequence": 2,
+      "roles": [
+        "Evalyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219825",
+      "name": "Crahan Denton",
+      "sequence": 3,
+      "roles": [
+        "Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111610",
+      "name": "Claudio Brook",
+      "sequence": 4,
+      "roles": [
+        "Rev. Fleetwood"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0560249",
       "name": "Peter Matthiessen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"Travellin' Man\")",
-      "group_id": 0
+      "notes": "(story \"Travellin' Man\")"
     },
     {
       "person_imdb_id": "nm0124947",
       "name": "Hugo Butler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1960-05-05",

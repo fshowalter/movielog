@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0061418",
   "sort_title": "Bonnie and Clyde (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000886",
-      "name": "Warren Beatty",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Clyde Barrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001159",
-      "name": "Faye Dunaway",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bonnie Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689488",
-      "name": "Michael J. Pollard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "C.W. Moss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Buck Barrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663820",
-      "name": "Estelle Parsons",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Blanche"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0701500",
-      "name": "Denver Pyle",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Frank Hamer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852305",
-      "name": "Dub Taylor",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ivan Moss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262748",
-      "name": "Evans Evans",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Velma Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000698",
-      "name": "Gene Wilder",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Eugene Grizzard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0671957",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000886",
+      "name": "Warren Beatty",
+      "sequence": 0,
+      "roles": [
+        "Clyde Barrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001159",
+      "name": "Faye Dunaway",
+      "sequence": 1,
+      "roles": [
+        "Bonnie Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689488",
+      "name": "Michael J. Pollard",
+      "sequence": 2,
+      "roles": [
+        "C.W. Moss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 3,
+      "roles": [
+        "Buck Barrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663820",
+      "name": "Estelle Parsons",
+      "sequence": 4,
+      "roles": [
+        "Blanche"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0701500",
+      "name": "Denver Pyle",
+      "sequence": 5,
+      "roles": [
+        "Frank Hamer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852305",
+      "name": "Dub Taylor",
+      "sequence": 6,
+      "roles": [
+        "Ivan Moss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262748",
+      "name": "Evans Evans",
+      "sequence": 7,
+      "roles": [
+        "Velma Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000698",
+      "name": "Gene Wilder",
+      "sequence": 8,
+      "roles": [
+        "Eugene Grizzard"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0628058",
       "name": "David Newman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000914",
       "name": "Robert Benton",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0001801",
       "name": "Robert Towne",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1967-08-04",

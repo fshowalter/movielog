@@ -1,7 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
-from typing import Optional, Protocol, Sequence, TypedDict
+from typing import Sequence, TypedDict, Union
 
 from movielog import db
 from movielog.utils import export_tools
@@ -10,16 +9,7 @@ from movielog.utils.logging import logger
 ETHAN_COEN_IMDB_ID = "nm0001053"
 
 
-class Stats(Protocol):
-    name: str
-    slug: str
-    title_count: int
-    review_count: int
-    entity_type: str
-
-
-@dataclass
-class PersonStats(object):
+class PersonStats(TypedDict):
     imdb_id: str
     name: str
     slug: str
@@ -28,38 +18,12 @@ class PersonStats(object):
     entity_type: str
 
 
-@dataclass
-class CollectionStats(object):
+class CollectionStats(TypedDict):
     name: str
     slug: str
     title_count: int
     review_count: int
-    entity_type: str = "collection"
-    imdb_id: Optional[str] = None
-
-
-class PersonStatRow(TypedDict):
-    imdb_id: str
-    name: str
-    title_count: int
-    review_count: int
-    slug: str
-
-
-class CollectionStatRow(TypedDict):
-    name: str
-    title_count: int
-    review_count: int
-    slug: str
-
-
-def _build_collection_stats(row: CollectionStatRow) -> CollectionStats:
-    return CollectionStats(
-        name=row["name"],
-        slug=row["slug"],
-        title_count=row["title_count"],
-        review_count=row["review_count"],
-    )
+    entity_type: str
 
 
 def _fetch_collection_stats() -> Sequence[CollectionStats]:
@@ -79,22 +43,16 @@ def _fetch_collection_stats() -> Sequence[CollectionStats]:
             collection_name;
     """
 
-    return [_build_collection_stats(row) for row in db.fetch_all(query)]
-
-
-def _build_person_stats(row: PersonStatRow, person_type: str) -> PersonStats:
-    name = row["name"]
-    if row["imdb_id"] == ETHAN_COEN_IMDB_ID:
-        name = "The Coen Brothers"
-
-    return PersonStats(
-        imdb_id=row["imdb_id"],
-        name=name,
-        slug=row["slug"],
-        title_count=row["title_count"],
-        review_count=row["review_count"],
-        entity_type=person_type,
-    )
+    return [
+        CollectionStats(
+            name=row["name"],
+            slug=row["slug"],
+            title_count=row["title_count"],
+            review_count=row["review_count"],
+            entity_type="collection",
+        )
+        for row in db.fetch_all(query)
+    ]
 
 
 def _fetch_person_stats(person_type: str) -> Sequence[PersonStats]:
@@ -116,20 +74,35 @@ def _fetch_person_stats(person_type: str) -> Sequence[PersonStats]:
             {0}s.full_name;
     """
 
-    return [
-        _build_person_stats(person_row, person_type)
-        for person_row in db.fetch_all(query.format(person_type))
-    ]
+    person_stats = []
+
+    for row in db.fetch_all(query.format(person_type)):
+        name = row["name"]
+        if row["imdb_id"] == ETHAN_COEN_IMDB_ID:
+            name = "The Coen Brothers"
+
+        person_stats.append(
+            PersonStats(
+                imdb_id=row["imdb_id"],
+                name=name,
+                slug=row["slug"],
+                title_count=row["title_count"],
+                review_count=row["review_count"],
+                entity_type=person_type,
+            )
+        )
+
+    return person_stats
 
 
 def export() -> None:
     logger.log("==== Begin exporting {}...", "watchlist entities")
 
-    stats: list[Stats] = []
+    stats: list[Union[PersonStats, CollectionStats]] = []
 
     for person_type in ("director", "performer", "writer"):
         stats.extend(_fetch_person_stats(person_type))
 
     stats.extend(_fetch_collection_stats())
 
-    export_tools.serialize_dataclasses(stats, "watchlist_entities")
+    export_tools.serialize_dicts(stats, "watchlist_entities")

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0066195",
   "sort_title": "Owl and the Pussycat (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000659",
-      "name": "Barbra Streisand",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Doris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001719",
-      "name": "George Segal",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Felix"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0458951",
-      "name": "Robert Klein",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Barney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307255",
-      "name": "Allen Garfield",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dress Shop Proprietor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446840",
-      "name": "Roz Kelly",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Eleanor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762416",
-      "name": "Jacques Sandulescu",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rapzinsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543291",
-      "name": "Jack Manning",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Weyderhaus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138792",
-      "name": "Grace Carney",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Weyderhaus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030713",
-      "name": "Barbara Anson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Miss Weyderhaus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0150976",
-      "name": "Kim Chan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Theatre Cashier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332014",
-      "name": "Stan Gottlieb",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Coatcheck Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0257552",
-      "name": "Joe Madden",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Old Man Neighbor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0764654",
-      "name": "Fay Sappington",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Old Woman Neighbor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001032",
-      "name": "Marilyn Chambers",
-      "sequence": 13,
-      "notes": "(as Evelyn Lang)",
-      "roles": [
-        "Barney's Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0006889",
@@ -137,20 +9,148 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000659",
+      "name": "Barbra Streisand",
+      "sequence": 0,
+      "roles": [
+        "Doris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001719",
+      "name": "George Segal",
+      "sequence": 1,
+      "roles": [
+        "Felix"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0458951",
+      "name": "Robert Klein",
+      "sequence": 2,
+      "roles": [
+        "Barney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307255",
+      "name": "Allen Garfield",
+      "sequence": 3,
+      "roles": [
+        "Dress Shop Proprietor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446840",
+      "name": "Roz Kelly",
+      "sequence": 4,
+      "roles": [
+        "Eleanor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762416",
+      "name": "Jacques Sandulescu",
+      "sequence": 5,
+      "roles": [
+        "Rapzinsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543291",
+      "name": "Jack Manning",
+      "sequence": 6,
+      "roles": [
+        "Mr. Weyderhaus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138792",
+      "name": "Grace Carney",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Weyderhaus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030713",
+      "name": "Barbara Anson",
+      "sequence": 8,
+      "roles": [
+        "Miss Weyderhaus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0150976",
+      "name": "Kim Chan",
+      "sequence": 9,
+      "roles": [
+        "Theatre Cashier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332014",
+      "name": "Stan Gottlieb",
+      "sequence": 10,
+      "roles": [
+        "Coatcheck Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0257552",
+      "name": "Joe Madden",
+      "sequence": 11,
+      "roles": [
+        "Old Man Neighbor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0764654",
+      "name": "Fay Sappington",
+      "sequence": 12,
+      "roles": [
+        "Old Woman Neighbor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001032",
+      "name": "Marilyn Chambers",
+      "sequence": 13,
+      "roles": [
+        "Barney's Girl"
+      ],
+      "notes": "(as Evelyn Lang)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0542337",
       "name": "Bill Manhoff",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"The Owl and the Pussycat\")",
-      "group_id": 0
+      "notes": "(play \"The Owl and the Pussycat\")"
     },
     {
       "person_imdb_id": "nm0377750",
       "name": "Buck Henry",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1970-11-03",

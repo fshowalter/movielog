@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0047396",
   "sort_title": "Rear Window (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "L.B. 'Jeff' Jefferies"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000038",
-      "name": "Grace Kelly",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lisa Carol Fremont"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179819",
-      "name": "Wendell Corey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Det. Lt. Thomas J. Doyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728812",
-      "name": "Thelma Ritter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Stella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000994",
-      "name": "Raymond Burr",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lars Thorwald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263393",
-      "name": "Judith Evelyn",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Miss Lonelyhearts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046564",
-      "name": "Ross Bagdasarian",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Songwriter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201045",
-      "name": "Georgine Darcy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Miss Torso"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0076700",
-      "name": "Sara Berner",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Woman on Fire Escape"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128326",
-      "name": "Frank Cady",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Man on Fire Escape"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269537",
-      "name": "Jesslyn Fax",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Miss Hearing Aid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363938",
-      "name": "Rand Harper",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Newlywed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935597",
-      "name": "Irene Winston",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mrs. Emma Thorwald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0202602",
-      "name": "Havis Davenport",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Newlywed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0319497",
-      "name": "Art Gilmore",
-      "sequence": 24,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Announcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949574",
-      "name": "Gig Young",
-      "sequence": 40,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Jeff's Editor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -155,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "L.B. 'Jeff' Jefferies"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000038",
+      "name": "Grace Kelly",
+      "sequence": 1,
+      "roles": [
+        "Lisa Carol Fremont"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179819",
+      "name": "Wendell Corey",
+      "sequence": 2,
+      "roles": [
+        "Det. Lt. Thomas J. Doyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728812",
+      "name": "Thelma Ritter",
+      "sequence": 3,
+      "roles": [
+        "Stella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000994",
+      "name": "Raymond Burr",
+      "sequence": 4,
+      "roles": [
+        "Lars Thorwald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263393",
+      "name": "Judith Evelyn",
+      "sequence": 5,
+      "roles": [
+        "Miss Lonelyhearts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0046564",
+      "name": "Ross Bagdasarian",
+      "sequence": 6,
+      "roles": [
+        "Songwriter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201045",
+      "name": "Georgine Darcy",
+      "sequence": 7,
+      "roles": [
+        "Miss Torso"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0076700",
+      "name": "Sara Berner",
+      "sequence": 8,
+      "roles": [
+        "Woman on Fire Escape"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128326",
+      "name": "Frank Cady",
+      "sequence": 9,
+      "roles": [
+        "Man on Fire Escape"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269537",
+      "name": "Jesslyn Fax",
+      "sequence": 10,
+      "roles": [
+        "Miss Hearing Aid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363938",
+      "name": "Rand Harper",
+      "sequence": 11,
+      "roles": [
+        "Newlywed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935597",
+      "name": "Irene Winston",
+      "sequence": 12,
+      "roles": [
+        "Mrs. Emma Thorwald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0202602",
+      "name": "Havis Davenport",
+      "sequence": 13,
+      "roles": [
+        "Newlywed"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0371088",
       "name": "John Michael Hayes",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0941280",
       "name": "Cornell Woolrich",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the short story by)",
-      "group_id": 1
+      "notes": "(based on the short story by)"
     }
   ],
   "release_date": "1954-08-04",

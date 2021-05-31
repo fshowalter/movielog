@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0055718",
   "sort_title": "13 West Street (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000042",
-      "name": "Alan Ladd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Walt Sherill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001768",
-      "name": "Rod Steiger",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Detective Sergeant Pete Koleski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130286",
-      "name": "Michael Callan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Chuck Landry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233828",
-      "name": "Dolores Dorn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tracey Sherill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533247",
-      "name": "Kenneth MacKenna",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Paul Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371135",
-      "name": "Margaret Hayes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Madeleine Landry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011366",
-      "name": "Stanley Adams",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Finney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732468",
-      "name": "Chris Robinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Everett Bush"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178137",
-      "name": "Jeanne Cooper",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Quinn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581391",
-      "name": "Arnold Merritt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bill Quinn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0805188",
-      "name": "Mark Slade",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tommy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065798",
-      "name": "Henry Beckman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Joe Bradford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398455",
-      "name": "Clegg Hoyt",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Noddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730126",
-      "name": "Adam Roarke",
-      "sequence": 13,
-      "notes": "(as Jordan Gerler)",
-      "roles": [
-        "Jack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0165910",
-      "name": "Robert Cleaves",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357745",
-      "name": "Bernie Hamilton",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Negro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379473",
-      "name": "Pepe Hern",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mexican"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314947",
-      "name": "Frank Gerstle",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Mr. Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461095",
-      "name": "Ted Knight",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Baldwin"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0494885",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000042",
+      "name": "Alan Ladd",
+      "sequence": 0,
+      "roles": [
+        "Walt Sherill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001768",
+      "name": "Rod Steiger",
+      "sequence": 1,
+      "roles": [
+        "Detective Sergeant Pete Koleski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130286",
+      "name": "Michael Callan",
+      "sequence": 2,
+      "roles": [
+        "Chuck Landry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233828",
+      "name": "Dolores Dorn",
+      "sequence": 3,
+      "roles": [
+        "Tracey Sherill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533247",
+      "name": "Kenneth MacKenna",
+      "sequence": 4,
+      "roles": [
+        "Paul Logan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371135",
+      "name": "Margaret Hayes",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Madeleine Landry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011366",
+      "name": "Stanley Adams",
+      "sequence": 6,
+      "roles": [
+        "Finney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732468",
+      "name": "Chris Robinson",
+      "sequence": 7,
+      "roles": [
+        "Everett Bush"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178137",
+      "name": "Jeanne Cooper",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Quinn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581391",
+      "name": "Arnold Merritt",
+      "sequence": 9,
+      "roles": [
+        "Bill Quinn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0805188",
+      "name": "Mark Slade",
+      "sequence": 10,
+      "roles": [
+        "Tommy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065798",
+      "name": "Henry Beckman",
+      "sequence": 11,
+      "roles": [
+        "Joe Bradford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398455",
+      "name": "Clegg Hoyt",
+      "sequence": 12,
+      "roles": [
+        "Noddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730126",
+      "name": "Adam Roarke",
+      "sequence": 13,
+      "roles": [
+        "Jack"
+      ],
+      "notes": "(as Jordan Gerler)"
+    },
+    {
+      "person_imdb_id": "nm0165910",
+      "name": "Robert Cleaves",
+      "sequence": 14,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357745",
+      "name": "Bernie Hamilton",
+      "sequence": 15,
+      "roles": [
+        "Negro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379473",
+      "name": "Pepe Hern",
+      "sequence": 16,
+      "roles": [
+        "Mexican"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314947",
+      "name": "Frank Gerstle",
+      "sequence": 17,
+      "roles": [
+        "Mr. Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461095",
+      "name": "Ted Knight",
+      "sequence": 18,
+      "roles": [
+        "Baldwin"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0774441",
       "name": "Bernard C. Schoenfeld",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0696189",
       "name": "Robert Presnell Jr.",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0102824",
       "name": "Leigh Brackett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Tiger Among Us\")",
-      "group_id": 1
+      "notes": "(novel \"The Tiger Among Us\")"
     }
   ],
   "release_date": "1962-02-23",

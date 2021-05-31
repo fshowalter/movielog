@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0045102",
   "sort_title": "Room for One More (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "George Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236860",
-      "name": "Betsy Drake",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna Perrott Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878354",
-      "name": "Lurene Tuttle",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Miss Kenyon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835836",
-      "name": "Randy Stuart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gladys Foreman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry Foreman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045784",
-      "name": "Irving Bacon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mayor Michael J. Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871695",
-      "name": "Mary Treen",
-      "sequence": 6,
-      "notes": "(as Mary Lou Treen)",
-      "roles": [
-        "Grace Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542788",
-      "name": "Iris Mann",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jane Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935487",
-      "name": "George Winslow",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Teenie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0851341",
-      "name": "Clifford Tatum Jr.",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jimmy John Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330203",
-      "name": "Gay Gordon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Trot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144071",
-      "name": "Malcolm Cassell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Tim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647714",
-      "name": "Larry Olsen",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Benji Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049055",
-      "name": "William Bakewell",
-      "sequence": 13,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Milkman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288830",
-      "name": "Douglas Fowley",
-      "sequence": 14,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Ice Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389934",
-      "name": "Mary Alan Hokanson",
-      "sequence": 15,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Minor Role"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740718",
-      "name": "Hayden Rorke",
-      "sequence": 16,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "The Doctor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0851537",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "George Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236860",
+      "name": "Betsy Drake",
+      "sequence": 1,
+      "roles": [
+        "Anna Perrott Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878354",
+      "name": "Lurene Tuttle",
+      "sequence": 2,
+      "roles": [
+        "Miss Kenyon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835836",
+      "name": "Randy Stuart",
+      "sequence": 3,
+      "roles": [
+        "Gladys Foreman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 4,
+      "roles": [
+        "Harry Foreman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045784",
+      "name": "Irving Bacon",
+      "sequence": 5,
+      "roles": [
+        "Mayor Michael J. Kane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871695",
+      "name": "Mary Treen",
+      "sequence": 6,
+      "roles": [
+        "Grace Roberts"
+      ],
+      "notes": "(as Mary Lou Treen)"
+    },
+    {
+      "person_imdb_id": "nm0542788",
+      "name": "Iris Mann",
+      "sequence": 7,
+      "roles": [
+        "Jane Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935487",
+      "name": "George Winslow",
+      "sequence": 8,
+      "roles": [
+        "Teenie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0851341",
+      "name": "Clifford Tatum Jr.",
+      "sequence": 9,
+      "roles": [
+        "Jimmy John Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330203",
+      "name": "Gay Gordon",
+      "sequence": 10,
+      "roles": [
+        "Trot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144071",
+      "name": "Malcolm Cassell",
+      "sequence": 11,
+      "roles": [
+        "Tim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647714",
+      "name": "Larry Olsen",
+      "sequence": 12,
+      "roles": [
+        "Benji Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049055",
+      "name": "William Bakewell",
+      "sequence": 13,
+      "roles": [
+        "Milkman"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0288830",
+      "name": "Douglas Fowley",
+      "sequence": 14,
+      "roles": [
+        "Ice Man"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0389934",
+      "name": "Mary Alan Hokanson",
+      "sequence": 15,
+      "roles": [
+        "Minor Role"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0740718",
+      "name": "Hayden Rorke",
+      "sequence": 16,
+      "roles": [
+        "The Doctor"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0741439",
       "name": "Jack Rose",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0789520",
       "name": "Melville Shavelson",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0741249",
       "name": "Anna Perrot Rose",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "notes": "(book)"
     }
   ],
   "release_date": "1952-01-10",

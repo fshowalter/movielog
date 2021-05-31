@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0051084",
   "sort_title": "Time Lock (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0064235",
-      "name": "Robert Beatty",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Pete Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666304",
-      "name": "Lee Patterson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Colin Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0568262",
-      "name": "Betty McDowall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lucille Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935844",
-      "name": "Vincent Winter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0044010",
-      "name": "Robert Ayres",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317506",
-      "name": "Alan Gifford",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "George Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0189174",
-      "name": "Larry Cross",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Reporter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290313",
-      "name": "Sandra Francis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Evelyn Webb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0849638",
-      "name": "Gordon Tanner",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Hewitson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192326",
-      "name": "Jack Cunningham",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Max Jarvis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940063",
-      "name": "Victor Wood",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Howard Zeeder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543105",
-      "name": "Peter Mannering",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Foy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104520",
-      "name": "Roland Brand",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Police Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Welder #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0440515",
-      "name": "Murray Kash",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Welder #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930376",
-      "name": "David Williams",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Police officer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0858873",
@@ -155,27 +9,173 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0064235",
+      "name": "Robert Beatty",
+      "sequence": 0,
+      "roles": [
+        "Pete Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666304",
+      "name": "Lee Patterson",
+      "sequence": 1,
+      "roles": [
+        "Colin Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0568262",
+      "name": "Betty McDowall",
+      "sequence": 2,
+      "roles": [
+        "Lucille Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935844",
+      "name": "Vincent Winter",
+      "sequence": 3,
+      "roles": [
+        "The Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0044010",
+      "name": "Robert Ayres",
+      "sequence": 4,
+      "roles": [
+        "Inspector Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317506",
+      "name": "Alan Gifford",
+      "sequence": 5,
+      "roles": [
+        "George Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0189174",
+      "name": "Larry Cross",
+      "sequence": 6,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290313",
+      "name": "Sandra Francis",
+      "sequence": 7,
+      "roles": [
+        "Evelyn Webb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0849638",
+      "name": "Gordon Tanner",
+      "sequence": 8,
+      "roles": [
+        "Dr. Hewitson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192326",
+      "name": "Jack Cunningham",
+      "sequence": 9,
+      "roles": [
+        "Max Jarvis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940063",
+      "name": "Victor Wood",
+      "sequence": 10,
+      "roles": [
+        "Howard Zeeder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543105",
+      "name": "Peter Mannering",
+      "sequence": 11,
+      "roles": [
+        "Dr. Foy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104520",
+      "name": "Roland Brand",
+      "sequence": 12,
+      "roles": [
+        "Police Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 13,
+      "roles": [
+        "Welder #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0440515",
+      "name": "Murray Kash",
+      "sequence": 14,
+      "roles": [
+        "Welder #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930376",
+      "name": "David Williams",
+      "sequence": 15,
+      "roles": [
+        "Police officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0354150",
       "name": "Arthur Hailey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
+      "notes": "(by)"
     },
     {
       "person_imdb_id": "nm0737127",
       "name": "Peter Rogers",
+      "group": 1,
       "sequence": 0,
-      "notes": "(script)",
-      "group_id": 1
+      "notes": "(script)"
     },
     {
       "person_imdb_id": "nm0354150",
       "name": "Arthur Hailey",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 2
+      "notes": "(play)"
     }
   ],
   "release_date": "1957-08-27",

@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0040331",
   "sort_title": "Every Girl Should Be Married (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Madison Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867144",
-      "name": "Franchot Tone",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Roger Sanford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528658",
-      "name": "Diana Lynn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Julie Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236860",
-      "name": "Betsy Drake",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Anabel Sims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Spitzer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728230",
-      "name": "Elisabeth Risdon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mary Nolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301348",
-      "name": "Richard Gaines",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sam McNutt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370743",
-      "name": "Harry Hayden",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gogarty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151334",
-      "name": "Chick Chandler",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Soda Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067589",
-      "name": "Leon Belasco",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Violinist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0261426",
-      "name": "Fred Essler",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Pierre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0632160",
-      "name": "Anna Q. Nilsson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Saleslady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000734",
-      "name": "Eddie Albert",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Harry Proctor",
-        "'Old' Joe"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0366942",
@@ -129,27 +9,147 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Dr. Madison Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867144",
+      "name": "Franchot Tone",
+      "sequence": 1,
+      "roles": [
+        "Roger Sanford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528658",
+      "name": "Diana Lynn",
+      "sequence": 2,
+      "roles": [
+        "Julie Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236860",
+      "name": "Betsy Drake",
+      "sequence": 3,
+      "roles": [
+        "Anabel Sims"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 4,
+      "roles": [
+        "Mr. Spitzer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728230",
+      "name": "Elisabeth Risdon",
+      "sequence": 5,
+      "roles": [
+        "Mary Nolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301348",
+      "name": "Richard Gaines",
+      "sequence": 6,
+      "roles": [
+        "Sam McNutt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370743",
+      "name": "Harry Hayden",
+      "sequence": 7,
+      "roles": [
+        "Gogarty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151334",
+      "name": "Chick Chandler",
+      "sequence": 8,
+      "roles": [
+        "Soda Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067589",
+      "name": "Leon Belasco",
+      "sequence": 9,
+      "roles": [
+        "Violinist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0261426",
+      "name": "Fred Essler",
+      "sequence": 10,
+      "roles": [
+        "Pierre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0632160",
+      "name": "Anna Q. Nilsson",
+      "sequence": 11,
+      "roles": [
+        "Saleslady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000734",
+      "name": "Eddie Albert",
+      "sequence": 12,
+      "roles": [
+        "Harry Proctor",
+        "'Old' Joe"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0366942",
       "name": "Don Hartman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(co-written by)",
-      "group_id": 0
+      "notes": "(co-written by)"
     },
     {
       "person_imdb_id": "nm0364661",
       "name": "Eleanor Harris",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0043081",
       "name": "Stephen Morehouse Avery",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play collaboration)",
-      "group_id": 1
+      "notes": "(screen play collaboration)"
     }
   ],
   "release_date": "1948-12-25",

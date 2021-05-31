@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0066892",
   "sort_title": "Carnal Knowledge (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jonathan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000298",
-      "name": "Candice Bergen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Susan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307316",
-      "name": "Art Garfunkel",
-      "sequence": 2,
-      "notes": "(as Arthur Garfunkel)",
-      "roles": [
-        "Sandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000268",
-      "name": "Ann-Margret",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bobbie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001549",
-      "name": "Rita Moreno",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Louise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062711",
-      "name": "Cynthia O'Neal",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cindy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001406",
-      "name": "Carol Kane",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jennifer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001566",
@@ -74,13 +9,78 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 0,
+      "roles": [
+        "Jonathan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000298",
+      "name": "Candice Bergen",
+      "sequence": 1,
+      "roles": [
+        "Susan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307316",
+      "name": "Art Garfunkel",
+      "sequence": 2,
+      "roles": [
+        "Sandy"
+      ],
+      "notes": "(as Arthur Garfunkel)"
+    },
+    {
+      "person_imdb_id": "nm0000268",
+      "name": "Ann-Margret",
+      "sequence": 3,
+      "roles": [
+        "Bobbie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001549",
+      "name": "Rita Moreno",
+      "sequence": 4,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0062711",
+      "name": "Cynthia O'Neal",
+      "sequence": 5,
+      "roles": [
+        "Cindy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001406",
+      "name": "Carol Kane",
+      "sequence": 6,
+      "roles": [
+        "Jennifer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0270547",
       "name": "Jules Feiffer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1971-06-30",

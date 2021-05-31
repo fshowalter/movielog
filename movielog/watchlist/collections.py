@@ -37,7 +37,10 @@ def deserialize(file_path: str) -> Collection:
 
 
 def deserialize_all() -> Sequence[Collection]:
-    logger.log("==== Begin reading {} from disk...", Collection.folder_name)
+    logger.log(
+        "==== Begin reading {} from disk...",
+        "watchlist {0}".format(Collection.folder_name),
+    )
 
     file_paths = glob(
         os.path.join(serializer.FOLDER_PATH, Collection.folder_name, "*.json")
@@ -46,7 +49,9 @@ def deserialize_all() -> Sequence[Collection]:
     entities = [deserialize(file_path) for file_path in sorted(file_paths)]
 
     logger.log(
-        "Read {} {}.", format_tools.humanize_int(len(entities)), Collection.folder_name
+        "Read {} {}.",
+        format_tools.humanize_int(len(entities)),
+        "watchlist {0}".format(Collection.folder_name),
     )
 
     return entities

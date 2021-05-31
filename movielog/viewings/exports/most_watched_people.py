@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from collections.abc import Sequence
 from dataclasses import dataclass
 from datetime import date
@@ -55,15 +57,15 @@ class Row(TypedDict):
 def fetch_rows(credit_table: str, credit_table_key: str) -> list[Row]:
     query = """
         SELECT
-        viewings.sequence
-        , movies.title
-        , movies.year
-        , movies.imdb_id
+        viewings.sequence AS viewing_sequence
+        , movies.title AS movie_title
+        , movies.year AS movie_year
+        , movies.imdb_id AS movie_imdb_id
         , strftime('%Y', viewings.date) AS viewing_year
-        , viewings.date
-        , viewings.venue
+        , viewings.date AS viewing_date
+        , viewings.venue AS viewing_venue
         , person_imdb_id
-        , full_name
+        , full_name AS person_full_name
         , watchlist.slug AS person_slug
         , reviews.slug AS review_slug
         FROM viewings
@@ -82,7 +84,7 @@ def fetch_rows(credit_table: str, credit_table_key: str) -> list[Row]:
         ) AS watchlist ON watchlist.{1} = person_imdb_id
         WHERE {2}
         GROUP BY
-            viewings.sequence
+            viewing_sequence
             , person_imdb_id
     """
 

@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0043503",
   "sort_title": "Enforcer (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dist. Atty. Martin Ferguson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0609216",
-      "name": "Zero Mostel",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Big Babe Lazick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208125",
-      "name": "Ted de Corsia",
-      "sequence": 2,
-      "notes": "(as Ted De Corsia)",
-      "roles": [
-        "Joseph Rico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0806041",
-      "name": "Everett Sloane",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Albert Mendoza"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731507",
-      "name": "Roy Roberts",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Capt. Frank Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865845",
-      "name": "Michael Tolan",
-      "sequence": 5,
-      "notes": "(Duke) Malloy (as Lawrence Tolan)",
-      "roles": [
-        "James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233014",
-      "name": "King Donovan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sgt. Whitlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824496",
-      "name": "Bob Steele",
-      "sequence": 7,
-      "notes": "(as Robert Steele)",
-      "roles": [
-        "Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0458633",
-      "name": "Adelaide Klein",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Olga Kirshen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065975",
-      "name": "Don Beddoe",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Thomas O'Hara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0904446",
-      "name": "Tito Vuolo",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tony Vetto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446120",
-      "name": "John Kellogg",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Vince"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483173",
-      "name": "Jack Lambert",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Philadelphia Tom Zaca"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426989",
-      "name": "Patricia Joiner",
-      "sequence": 32,
-      "notes": "",
-      "roles": [
-        "Teresa Davis",
-        "Angela Vetto"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0934827",
@@ -144,13 +15,142 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Dist. Atty. Martin Ferguson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0609216",
+      "name": "Zero Mostel",
+      "sequence": 1,
+      "roles": [
+        "Big Babe Lazick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208125",
+      "name": "Ted de Corsia",
+      "sequence": 2,
+      "roles": [
+        "Joseph Rico"
+      ],
+      "notes": "(as Ted De Corsia)"
+    },
+    {
+      "person_imdb_id": "nm0806041",
+      "name": "Everett Sloane",
+      "sequence": 3,
+      "roles": [
+        "Albert Mendoza"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731507",
+      "name": "Roy Roberts",
+      "sequence": 4,
+      "roles": [
+        "Capt. Frank Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865845",
+      "name": "Michael Tolan",
+      "sequence": 5,
+      "roles": [
+        "James"
+      ],
+      "notes": "(Duke) Malloy (as Lawrence Tolan)"
+    },
+    {
+      "person_imdb_id": "nm0233014",
+      "name": "King Donovan",
+      "sequence": 6,
+      "roles": [
+        "Sgt. Whitlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824496",
+      "name": "Bob Steele",
+      "sequence": 7,
+      "roles": [
+        "Herman"
+      ],
+      "notes": "(as Robert Steele)"
+    },
+    {
+      "person_imdb_id": "nm0458633",
+      "name": "Adelaide Klein",
+      "sequence": 8,
+      "roles": [
+        "Olga Kirshen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065975",
+      "name": "Don Beddoe",
+      "sequence": 9,
+      "roles": [
+        "Thomas O'Hara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0904446",
+      "name": "Tito Vuolo",
+      "sequence": 10,
+      "roles": [
+        "Tony Vetto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446120",
+      "name": "John Kellogg",
+      "sequence": 11,
+      "roles": [
+        "Vince"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483173",
+      "name": "Jack Lambert",
+      "sequence": 12,
+      "roles": [
+        "Philadelphia Tom Zaca"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0426989",
+      "name": "Patricia Joiner",
+      "sequence": 32,
+      "roles": [
+        "Teresa Davis",
+        "Angela Vetto"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0705228",
       "name": "Martin Rackin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1951-01-25",

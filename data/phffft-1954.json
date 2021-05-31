@@ -1,91 +1,6 @@
 {
   "imdb_id": "tt0047349",
   "sort_title": "Phffft (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0391062",
-      "name": "Judy Holliday",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nina Tracey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Robert Tracey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007217",
-      "name": "Jack Carson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charlie Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001571",
-      "name": "Kim Novak",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Janis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311240",
-      "name": "Luella Gear",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Edith Chapman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709893",
-      "name": "Donald Randolph",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Van Kessel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193321",
-      "name": "Donald Curtis",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rick Vidal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0283170",
-      "name": "Bess Flowers",
-      "sequence": 21,
-      "notes": "",
-      "roles": [
-        "Nightclub Patron",
-        "Woman at Airport"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365039",
-      "name": "Sam Harris",
-      "sequence": 28,
-      "notes": "",
-      "roles": [
-        "Nightclub Patron",
-        "Man at Airport"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0733476",
@@ -94,13 +9,98 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0391062",
+      "name": "Judy Holliday",
+      "sequence": 0,
+      "roles": [
+        "Nina Tracey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 1,
+      "roles": [
+        "Robert Tracey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007217",
+      "name": "Jack Carson",
+      "sequence": 2,
+      "roles": [
+        "Charlie Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001571",
+      "name": "Kim Novak",
+      "sequence": 3,
+      "roles": [
+        "Janis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0311240",
+      "name": "Luella Gear",
+      "sequence": 4,
+      "roles": [
+        "Edith Chapman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709893",
+      "name": "Donald Randolph",
+      "sequence": 5,
+      "roles": [
+        "Dr. Van Kessel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193321",
+      "name": "Donald Curtis",
+      "sequence": 6,
+      "roles": [
+        "Rick Vidal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0283170",
+      "name": "Bess Flowers",
+      "sequence": 21,
+      "roles": [
+        "Nightclub Patron",
+        "Woman at Airport"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365039",
+      "name": "Sam Harris",
+      "sequence": 28,
+      "roles": [
+        "Nightclub Patron",
+        "Man at Airport"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0043480",
       "name": "George Axelrod",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story & screen play)",
-      "group_id": 0
+      "notes": "(story & screen play)"
     }
   ],
   "release_date": "1954-11-10",

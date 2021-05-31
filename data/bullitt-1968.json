@@ -1,186 +1,6 @@
 {
   "imdb_id": "tt0062765",
   "sort_title": "Bullitt (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000537",
-      "name": "Steve McQueen",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bullitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001816",
-      "name": "Robert Vaughn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chalmers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000302",
-      "name": "Jacqueline Bisset",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Cathy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330150",
-      "name": "Don Gordon",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Delgetti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000380",
-      "name": "Robert Duvall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Weissberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643000",
-      "name": "Simon Oakland",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Captain Bennet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001205",
-      "name": "Norman Fell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113617",
-      "name": "Georg Stanford Brown",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Willard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0850607",
-      "name": "Justin Tarr",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Eddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717947",
-      "name": "Carl Reindel",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649939",
-      "name": "Felice Orlandi",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Renick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0851861",
-      "name": "Vic Tayback",
-      "sequence": 11,
-      "notes": "(as Victor Tayback)",
-      "roles": [
-        "Pete Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0513868",
-      "name": "Robert Lipton",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "1st Aide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669653",
-      "name": "Ed Peck",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Westcott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719466",
-      "name": "Pat Renella",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "John Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312835",
-      "name": "Paul Genge",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0032501",
-      "name": "John Aprea",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Killer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0154811",
-      "name": "Al Checco",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Desk Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382707",
-      "name": "Bill Hickman",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Phil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314947",
-      "name": "Frank Gerstle",
-      "sequence": 40,
-      "notes": "(uncredited) (voice)",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0946811",
@@ -189,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000537",
+      "name": "Steve McQueen",
+      "sequence": 0,
+      "roles": [
+        "Bullitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001816",
+      "name": "Robert Vaughn",
+      "sequence": 1,
+      "roles": [
+        "Chalmers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000302",
+      "name": "Jacqueline Bisset",
+      "sequence": 2,
+      "roles": [
+        "Cathy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330150",
+      "name": "Don Gordon",
+      "sequence": 3,
+      "roles": [
+        "Delgetti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000380",
+      "name": "Robert Duvall",
+      "sequence": 4,
+      "roles": [
+        "Weissberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643000",
+      "name": "Simon Oakland",
+      "sequence": 5,
+      "roles": [
+        "Captain Bennet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001205",
+      "name": "Norman Fell",
+      "sequence": 6,
+      "roles": [
+        "Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113617",
+      "name": "Georg Stanford Brown",
+      "sequence": 7,
+      "roles": [
+        "Dr. Willard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0850607",
+      "name": "Justin Tarr",
+      "sequence": 8,
+      "roles": [
+        "Eddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717947",
+      "name": "Carl Reindel",
+      "sequence": 9,
+      "roles": [
+        "Stanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0649939",
+      "name": "Felice Orlandi",
+      "sequence": 10,
+      "roles": [
+        "Renick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0851861",
+      "name": "Vic Tayback",
+      "sequence": 11,
+      "roles": [
+        "Pete Ross"
+      ],
+      "notes": "(as Victor Tayback)"
+    },
+    {
+      "person_imdb_id": "nm0513868",
+      "name": "Robert Lipton",
+      "sequence": 12,
+      "roles": [
+        "1st Aide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669653",
+      "name": "Ed Peck",
+      "sequence": 13,
+      "roles": [
+        "Westcott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719466",
+      "name": "Pat Renella",
+      "sequence": 14,
+      "roles": [
+        "John Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312835",
+      "name": "Paul Genge",
+      "sequence": 15,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0032501",
+      "name": "John Aprea",
+      "sequence": 16,
+      "roles": [
+        "Killer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0154811",
+      "name": "Al Checco",
+      "sequence": 17,
+      "roles": [
+        "Desk Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382707",
+      "name": "Bill Hickman",
+      "sequence": 18,
+      "roles": [
+        "Phil"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0874450",
       "name": "Alan Trustman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Alan R. Trustman)",
-      "group_id": 0
+      "notes": "(screenplay) (as Alan R. Trustman)"
     },
     {
       "person_imdb_id": "nm0459067",
       "name": "Harry Kleiner",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0279302",
       "name": "Robert L. Fish",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Mute Witness\") (as Robert L. Pike)",
-      "group_id": 1
+      "notes": "(novel \"Mute Witness\") (as Robert L. Pike)"
     }
   ],
   "release_date": "1968-10-17",

@@ -1,36 +1,6 @@
 {
   "imdb_id": "tt0052027",
   "sort_title": "Old Man and the Sea (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000075",
-      "name": "Spencer Tracy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Old Man",
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0668626",
-      "name": "Felipe Pazos",
-      "sequence": 1,
-      "notes": "(as Felipe Pazos Jr.)",
-      "roles": [
-        "The Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068772",
-      "name": "Harry Bellaver",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "The Cafe Owner"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -45,20 +15,50 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000075",
+      "name": "Spencer Tracy",
+      "sequence": 0,
+      "roles": [
+        "The Old Man",
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0668626",
+      "name": "Felipe Pazos",
+      "sequence": 1,
+      "roles": [
+        "The Boy"
+      ],
+      "notes": "(as Felipe Pazos Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0068772",
+      "name": "Harry Bellaver",
+      "sequence": 2,
+      "roles": [
+        "The Cafe Owner"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0002133",
       "name": "Ernest Hemingway",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0896830",
       "name": "Peter Viertel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1958-10-07",

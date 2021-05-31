@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0048491",
   "sort_title": "Picnic (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hal Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001571",
-      "name": "Kim Novak",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Madge Owens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275897",
-      "name": "Betty Field",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Flo Owens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001782",
-      "name": "Susan Strasberg",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Millie Owens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731772",
-      "name": "Cliff Robertson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alan Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640023",
-      "name": "Arthur O'Connell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Howard Bevans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271658",
-      "name": "Verna Felton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Helen Potts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789931",
-      "name": "Reta Shaw",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Irma Kronkite"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011244",
-      "name": "Nick Adams",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bomber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047450",
-      "name": "Raymond Bailey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933361",
-      "name": "Elizabeth Wilson",
-      "sequence": 10,
-      "notes": "(as Elizabeth W. Wilson)",
-      "roles": [
-        "Christine Schoenwalder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751426",
-      "name": "Rosalind Russell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rosemary, the School Teacher"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0517597",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Hal Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001571",
+      "name": "Kim Novak",
+      "sequence": 1,
+      "roles": [
+        "Madge Owens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275897",
+      "name": "Betty Field",
+      "sequence": 2,
+      "roles": [
+        "Flo Owens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001782",
+      "name": "Susan Strasberg",
+      "sequence": 3,
+      "roles": [
+        "Millie Owens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731772",
+      "name": "Cliff Robertson",
+      "sequence": 4,
+      "roles": [
+        "Alan Benson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640023",
+      "name": "Arthur O'Connell",
+      "sequence": 5,
+      "roles": [
+        "Howard Bevans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271658",
+      "name": "Verna Felton",
+      "sequence": 6,
+      "roles": [
+        "Helen Potts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789931",
+      "name": "Reta Shaw",
+      "sequence": 7,
+      "roles": [
+        "Irma Kronkite"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011244",
+      "name": "Nick Adams",
+      "sequence": 8,
+      "roles": [
+        "Bomber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047450",
+      "name": "Raymond Bailey",
+      "sequence": 9,
+      "roles": [
+        "Mr. Benson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933361",
+      "name": "Elizabeth Wilson",
+      "sequence": 10,
+      "roles": [
+        "Christine Schoenwalder"
+      ],
+      "notes": "(as Elizabeth W. Wilson)"
+    },
+    {
+      "person_imdb_id": "nm0751426",
+      "name": "Rosalind Russell",
+      "sequence": 11,
+      "roles": [
+        "Rosemary, the School Teacher"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0850168",
       "name": "Daniel Taradash",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0408718",
       "name": "William Inge",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon play \"Picnic\" by)",
-      "group_id": 1
+      "notes": "(based upon play \"Picnic\" by)"
     }
   ],
   "release_date": "1955-12-01",

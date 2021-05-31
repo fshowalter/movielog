@@ -1,99 +1,6 @@
 {
   "imdb_id": "tt0023993",
   "sort_title": "Ex-Lady (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Helen Bauer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713270",
-      "name": "Gene Raymond",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Don Peterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570451",
-      "name": "Frank McHugh",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hugo Van Hugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654530",
-      "name": "Monroe Owsley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nick Malvyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230068",
-      "name": "Claire Dodd",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Iris Van Hugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835235",
-      "name": "Kay Strozzi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Peggy Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332036",
-      "name": "Ferdinand Gottschalk",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Herbert Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262080",
-      "name": "Alphonse Ethier",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Adolphe Bauer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0743017",
-      "name": "Bodil Rosing",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Bauer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0073239",
-      "name": "George Beranger",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dinner Guest",
-        "Pianist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0282984",
@@ -102,27 +9,120 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Helen Bauer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713270",
+      "name": "Gene Raymond",
+      "sequence": 1,
+      "roles": [
+        "Don Peterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570451",
+      "name": "Frank McHugh",
+      "sequence": 2,
+      "roles": [
+        "Hugo Van Hugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654530",
+      "name": "Monroe Owsley",
+      "sequence": 3,
+      "roles": [
+        "Nick Malvyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230068",
+      "name": "Claire Dodd",
+      "sequence": 4,
+      "roles": [
+        "Iris Van Hugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835235",
+      "name": "Kay Strozzi",
+      "sequence": 5,
+      "roles": [
+        "Peggy Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332036",
+      "name": "Ferdinand Gottschalk",
+      "sequence": 6,
+      "roles": [
+        "Herbert Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262080",
+      "name": "Alphonse Ethier",
+      "sequence": 7,
+      "roles": [
+        "Adolphe Bauer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0743017",
+      "name": "Bodil Rosing",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Bauer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0073239",
+      "name": "George Beranger",
+      "sequence": 9,
+      "roles": [
+        "Dinner Guest",
+        "Pianist"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0280223",
       "name": "Edith Fitzgerald",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0728307",
       "name": "Robert Riskin",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0091200",
       "name": "David Boehm",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1933-05-14",

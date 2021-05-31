@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0031387",
   "sort_title": "Gorilla (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1360648",
-      "name": "The Ritz Brothers",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Defective Detectives"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728875",
-      "name": "Jimmy Ritz",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Garrity"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728871",
-      "name": "Harry Ritz",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728867",
-      "name": "Al Ritz",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mulligan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521937",
-      "name": "Anita Louise",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Norma Denby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446763",
-      "name": "Patsy Kelly",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kitty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041172",
-      "name": "Lionel Atwill",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Walter Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Peters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130407",
-      "name": "Joseph Calleia",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Stranger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0635798",
-      "name": "Edward Norris",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jack Marsden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894734",
-      "name": "Wally Vernon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Seaman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367670",
-      "name": "Paul Harvey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "A.P. Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587055",
-      "name": "Art Miles",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Poe the Gorilla"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0245385",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1360648",
+      "name": "The Ritz Brothers",
+      "sequence": 0,
+      "roles": [
+        "Defective Detectives"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728875",
+      "name": "Jimmy Ritz",
+      "sequence": 1,
+      "roles": [
+        "Garrity"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728871",
+      "name": "Harry Ritz",
+      "sequence": 2,
+      "roles": [
+        "Harrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728867",
+      "name": "Al Ritz",
+      "sequence": 3,
+      "roles": [
+        "Mulligan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521937",
+      "name": "Anita Louise",
+      "sequence": 4,
+      "roles": [
+        "Norma Denby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446763",
+      "name": "Patsy Kelly",
+      "sequence": 5,
+      "roles": [
+        "Kitty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041172",
+      "name": "Lionel Atwill",
+      "sequence": 6,
+      "roles": [
+        "Walter Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 7,
+      "roles": [
+        "Peters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130407",
+      "name": "Joseph Calleia",
+      "sequence": 8,
+      "roles": [
+        "Stranger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0635798",
+      "name": "Edward Norris",
+      "sequence": 9,
+      "roles": [
+        "Jack Marsden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894734",
+      "name": "Wally Vernon",
+      "sequence": 10,
+      "roles": [
+        "Seaman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367670",
+      "name": "Paul Harvey",
+      "sequence": 11,
+      "roles": [
+        "A.P. Conway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587055",
+      "name": "Art Miles",
+      "sequence": 12,
+      "roles": [
+        "Poe the Gorilla"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0817809",
       "name": "Ralph Spence",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0416861",
       "name": "Rian James",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0799015",
       "name": "Sid Silvers",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1939-05-26",

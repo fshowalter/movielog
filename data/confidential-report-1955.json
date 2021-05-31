@@ -1,186 +1,6 @@
 {
   "imdb_id": "tt0048393",
   "sort_title": "Confidential Report (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gregory Arkadin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714878",
-      "name": "Michael Redgrave",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Burgomil Trebitsch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575756",
-      "name": "Patricia Medina",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mily"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848667",
-      "name": "Akim Tamiroff",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jakob Zouk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041681",
-      "name": "Mischa Auer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Professor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605288",
-      "name": "Paola Mori",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Raina Arkadin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0668093",
-      "name": "Katina Paxinou",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sophie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039510",
-      "name": "Gr\u00e9goire Aslan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bracco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0886870",
-      "name": "Peter van Eyck",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Thaddeus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282530",
-      "name": "Suzanne Flon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Baroness Nagel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0034013",
-      "name": "Robert Arden",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Guy Van Stratten"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914453",
-      "name": "Jack Watling",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Marquis of Rutleigh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639366",
-      "name": "Fr\u00e9d\u00e9ric O'Brady",
-      "sequence": 12,
-      "notes": "(as O'Brady)",
-      "roles": [
-        "Oscar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790175",
-      "name": "Tamara Shayne",
-      "sequence": 13,
-      "notes": "(as Tamara Shane)",
-      "roles": [
-        "Woman in Apartment"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519281",
-      "name": "Terence Longdon",
-      "sequence": 14,
-      "notes": "(as Terence Langdon)",
-      "roles": [
-        "Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030243",
-      "name": "Annabel Buffet",
-      "sequence": 15,
-      "notes": "(as Annabel)",
-      "roles": [
-        "Parisian woman with bread"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002085",
-      "name": "Gert Fr\u00f6be",
-      "sequence": 16,
-      "notes": "(as Gert Frobe)",
-      "roles": [
-        "First Policeman - Munich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512924",
-      "name": "Eduard Linkers",
-      "sequence": 17,
-      "notes": "(as Eduard Linker)",
-      "roles": [
-        "Second Policeman - Munich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720151",
-      "name": "Manuel Requena",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "General Martinez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0896390",
-      "name": "Pedro Vidal",
-      "sequence": 19,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000080",
@@ -189,20 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000080",
+      "name": "Orson Welles",
+      "sequence": 0,
+      "roles": [
+        "Gregory Arkadin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714878",
+      "name": "Michael Redgrave",
+      "sequence": 1,
+      "roles": [
+        "Burgomil Trebitsch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0575756",
+      "name": "Patricia Medina",
+      "sequence": 2,
+      "roles": [
+        "Mily"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848667",
+      "name": "Akim Tamiroff",
+      "sequence": 3,
+      "roles": [
+        "Jakob Zouk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041681",
+      "name": "Mischa Auer",
+      "sequence": 4,
+      "roles": [
+        "The Professor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605288",
+      "name": "Paola Mori",
+      "sequence": 5,
+      "roles": [
+        "Raina Arkadin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0668093",
+      "name": "Katina Paxinou",
+      "sequence": 6,
+      "roles": [
+        "Sophie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039510",
+      "name": "Gr\u00e9goire Aslan",
+      "sequence": 7,
+      "roles": [
+        "Bracco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0886870",
+      "name": "Peter van Eyck",
+      "sequence": 8,
+      "roles": [
+        "Thaddeus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282530",
+      "name": "Suzanne Flon",
+      "sequence": 9,
+      "roles": [
+        "Baroness Nagel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0034013",
+      "name": "Robert Arden",
+      "sequence": 10,
+      "roles": [
+        "Guy Van Stratten"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914453",
+      "name": "Jack Watling",
+      "sequence": 11,
+      "roles": [
+        "Marquis of Rutleigh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639366",
+      "name": "Fr\u00e9d\u00e9ric O'Brady",
+      "sequence": 12,
+      "roles": [
+        "Oscar"
+      ],
+      "notes": "(as O'Brady)"
+    },
+    {
+      "person_imdb_id": "nm0790175",
+      "name": "Tamara Shayne",
+      "sequence": 13,
+      "roles": [
+        "Woman in Apartment"
+      ],
+      "notes": "(as Tamara Shane)"
+    },
+    {
+      "person_imdb_id": "nm0519281",
+      "name": "Terence Longdon",
+      "sequence": 14,
+      "roles": [
+        "Secretary"
+      ],
+      "notes": "(as Terence Langdon)"
+    },
+    {
+      "person_imdb_id": "nm0030243",
+      "name": "Annabel Buffet",
+      "sequence": 15,
+      "roles": [
+        "Parisian Woman with Bread"
+      ],
+      "notes": "(as Annabel)"
+    },
+    {
+      "person_imdb_id": "nm0002085",
+      "name": "Gert Fr\u00f6be",
+      "sequence": 16,
+      "roles": [
+        "First Munich Policeman"
+      ],
+      "notes": "(as Gert Frobe)"
+    },
+    {
+      "person_imdb_id": "nm0512924",
+      "name": "Eduard Linkers",
+      "sequence": 17,
+      "roles": [
+        "Second Munich Policeman"
+      ],
+      "notes": "(as Eduard Linker)"
+    },
+    {
+      "person_imdb_id": "nm0720151",
+      "name": "Manuel Requena",
+      "sequence": 18,
+      "roles": [
+        "General Martinez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896390",
+      "name": "Pedro Vidal",
+      "sequence": 19,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000080",
       "name": "Orson Welles",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0000080",
       "name": "Orson Welles",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1955-06-27",

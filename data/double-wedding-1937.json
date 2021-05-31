@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0028804",
   "sort_title": "Double Wedding (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Charles Lodge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Margit Agnew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723422",
-      "name": "Florence Rice",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Irene Agnew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0063619",
-      "name": "John Beal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Waldo Beaver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707771",
-      "name": "Jessie Ralph",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Kensington-Bly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448012",
-      "name": "Edgar Kennedy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Spike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866010",
-      "name": "Sidney Toler",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Keough"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330435",
-      "name": "Mary Gordon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Keough"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662065",
-      "name": "Barnett Parker",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Flint"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0018540",
-      "name": "Katharine Alexander",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Claire Lodge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493305",
-      "name": "Priscilla Lawson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Felice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729991",
-      "name": "Bert Roach",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Shrank"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0861703",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Charles Lodge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Margit Agnew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723422",
+      "name": "Florence Rice",
+      "sequence": 2,
+      "roles": [
+        "Irene Agnew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0063619",
+      "name": "John Beal",
+      "sequence": 3,
+      "roles": [
+        "Waldo Beaver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707771",
+      "name": "Jessie Ralph",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Kensington-Bly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448012",
+      "name": "Edgar Kennedy",
+      "sequence": 5,
+      "roles": [
+        "Spike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866010",
+      "name": "Sidney Toler",
+      "sequence": 6,
+      "roles": [
+        "Keough"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330435",
+      "name": "Mary Gordon",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Keough"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662065",
+      "name": "Barnett Parker",
+      "sequence": 8,
+      "roles": [
+        "Flint"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0018540",
+      "name": "Katharine Alexander",
+      "sequence": 9,
+      "roles": [
+        "Claire Lodge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493305",
+      "name": "Priscilla Lawson",
+      "sequence": 10,
+      "roles": [
+        "Felice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729991",
+      "name": "Bert Roach",
+      "sequence": 11,
+      "roles": [
+        "Shrank"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0842485",
       "name": "Jo Swerling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0597175",
       "name": "Ferenc Moln\u00e1r",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a play by) (as Ferenc Molnar)",
-      "group_id": 1
+      "notes": "(from a play by) (as Ferenc Molnar)"
     }
   ],
   "release_date": "1937-10-15",

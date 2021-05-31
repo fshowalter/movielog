@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0043961",
   "sort_title": "Red Badge of Courage (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001559",
-      "name": "Audie Murphy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Henry Fleming - the Youth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560887",
-      "name": "Bill Mauldin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tom Wilson - the Loud Soldier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225255",
-      "name": "Douglas Dick",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "The Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200455",
-      "name": "Royal Dano",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Tattered Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226109",
-      "name": "John Dierkes",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jim Conklin - the Tall Soldier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bill Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0243885",
-      "name": "Tim Durant",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "The General"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222596",
-      "name": "Andy Devine",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Cheery Soldier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247691",
-      "name": "Robert Easton",
-      "sequence": 8,
-      "notes": "(as Robert Easton Burke)",
-      "roles": [
-        "Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001510",
-      "name": "Strother Martin",
-      "sequence": 57,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Corporal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926235",
-      "name": "James Whitmore",
-      "sequence": 81,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -110,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001559",
+      "name": "Audie Murphy",
+      "sequence": 0,
+      "roles": [
+        "Henry Fleming - the Youth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560887",
+      "name": "Bill Mauldin",
+      "sequence": 1,
+      "roles": [
+        "Tom Wilson - the Loud Soldier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225255",
+      "name": "Douglas Dick",
+      "sequence": 2,
+      "roles": [
+        "The Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200455",
+      "name": "Royal Dano",
+      "sequence": 3,
+      "roles": [
+        "The Tattered Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226109",
+      "name": "John Dierkes",
+      "sequence": 4,
+      "roles": [
+        "Jim Conklin - the Tall Soldier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 5,
+      "roles": [
+        "Bill Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0243885",
+      "name": "Tim Durant",
+      "sequence": 6,
+      "roles": [
+        "The General"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222596",
+      "name": "Andy Devine",
+      "sequence": 7,
+      "roles": [
+        "The Cheery Soldier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247691",
+      "name": "Robert Easton",
+      "sequence": 8,
+      "roles": [
+        "Thompson"
+      ],
+      "notes": "(as Robert Easton Burke)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0186427",
       "name": "Stephen Crane",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Red Badge of Courage\")",
-      "group_id": 0
+      "notes": "(novel \"The Red Badge of Courage\")"
     },
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0051649",
       "name": "Albert Band",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1951-09-27",

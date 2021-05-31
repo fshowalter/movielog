@@ -1,151 +1,6 @@
 {
   "imdb_id": "tt0061139",
   "sort_title": "New World (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0216475",
-      "name": "Christine Delaroche",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144875",
-      "name": "Nino Castelnuovo",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carlo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732877",
-      "name": "Madeleine Robinson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Margot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0105482",
-      "name": "Pierre Brasseur",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Le Grec"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933447",
-      "name": "Georges Wilson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Le Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592109",
-      "name": "Isa Miranda",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Une sage-femme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109725",
-      "name": "Fran\u00e7oise Brion",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Martine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519839",
-      "name": "Tanya Lopert",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041303",
-      "name": "Jeanne Aubert",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "L'autre sage-femme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201588",
-      "name": "Jean-Pierre Darras",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0117868",
-      "name": "Franco Bucceri",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Antonio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0211327",
-      "name": "Antoine De Rudder",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0317957",
-      "name": "Arlette Gilbert",
-      "sequence": 12,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0580324",
-      "name": "Paul Mercey",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0589851",
-      "name": "Charles Millot",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Hans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656788",
-      "name": "Laure Paillette",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0706583",
-      "name": "Nadeige Ragoo",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Judith"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001120",
@@ -154,13 +9,158 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0216475",
+      "name": "Christine Delaroche",
+      "sequence": 0,
+      "roles": [
+        "Anne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144875",
+      "name": "Nino Castelnuovo",
+      "sequence": 1,
+      "roles": [
+        "Carlo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732877",
+      "name": "Madeleine Robinson",
+      "sequence": 2,
+      "roles": [
+        "Margot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0105482",
+      "name": "Pierre Brasseur",
+      "sequence": 3,
+      "roles": [
+        "Le Grec"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933447",
+      "name": "Georges Wilson",
+      "sequence": 4,
+      "roles": [
+        "Le Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0592109",
+      "name": "Isa Miranda",
+      "sequence": 5,
+      "roles": [
+        "Une sage-femme"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109725",
+      "name": "Fran\u00e7oise Brion",
+      "sequence": 6,
+      "roles": [
+        "Martine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519839",
+      "name": "Tanya Lopert",
+      "sequence": 7,
+      "roles": [
+        "Mary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041303",
+      "name": "Jeanne Aubert",
+      "sequence": 8,
+      "roles": [
+        "L'autre sage-femme"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201588",
+      "name": "Jean-Pierre Darras",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117868",
+      "name": "Franco Bucceri",
+      "sequence": 10,
+      "roles": [
+        "Antonio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0211327",
+      "name": "Antoine De Rudder",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317957",
+      "name": "Arlette Gilbert",
+      "sequence": 12,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580324",
+      "name": "Paul Mercey",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589851",
+      "name": "Charles Millot",
+      "sequence": 14,
+      "roles": [
+        "Hans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656788",
+      "name": "Laure Paillette",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706583",
+      "name": "Nadeige Ragoo",
+      "sequence": 16,
+      "roles": [
+        "Judith"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0953790",
       "name": "Cesare Zavattini",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1966-03-25",

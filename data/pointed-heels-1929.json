@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0020278",
   "sort_title": "Pointed Heels (1929)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robert Courtland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0437318",
-      "name": "Helen Kane",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dorothea 'Dot' Nixon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942039",
-      "name": "Fay Wray",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lora Nixon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302480",
-      "name": "Richard 'Skeets' Gallagher",
-      "sequence": 3,
-      "notes": "(as Richard 'Skeet' Gallagher)",
-      "roles": [
-        "Dash Nixon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392004",
-      "name": "Phillips Holmes",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Donald Ogden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657874",
-      "name": "Eugene Pallette",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Joe Carrington"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233467",
-      "name": "Adrienne Dore",
-      "sequence": 6,
-      "notes": "(as Adrienne Dor\u00e9)",
-      "roles": [
-        "Kay Wilcox"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0840042",
@@ -74,27 +9,92 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Robert Courtland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0437318",
+      "name": "Helen Kane",
+      "sequence": 1,
+      "roles": [
+        "Dorothea 'Dot' Nixon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942039",
+      "name": "Fay Wray",
+      "sequence": 2,
+      "roles": [
+        "Lora Nixon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302480",
+      "name": "Richard 'Skeets' Gallagher",
+      "sequence": 3,
+      "roles": [
+        "Dash Nixon"
+      ],
+      "notes": "(as Richard 'Skeet' Gallagher)"
+    },
+    {
+      "person_imdb_id": "nm0392004",
+      "name": "Phillips Holmes",
+      "sequence": 4,
+      "roles": [
+        "Donald Ogden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0657874",
+      "name": "Eugene Pallette",
+      "sequence": 5,
+      "roles": [
+        "Joe Carrington"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233467",
+      "name": "Adrienne Dore",
+      "sequence": 6,
+      "roles": [
+        "Kay Wilcox"
+      ],
+      "notes": "(as Adrienne Dor\u00e9)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102818",
       "name": "Charles Brackett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(short story)",
-      "group_id": 0
+      "notes": "(short story)"
     },
     {
       "person_imdb_id": "nm0753249",
       "name": "Florence Ryerson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0915875",
       "name": "John V.A. Weaver",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1929-12-21",

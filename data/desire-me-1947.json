@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0039312",
   "sort_title": "Desire Me (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002093",
-      "name": "Greer Garson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marise Aubert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Paul Aubert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366489",
-      "name": "Richard Hart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jean Renaud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030194",
-      "name": "Morris Ankrum",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hector Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0958345",
-      "name": "George Zucco",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Father Donnard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401976",
-      "name": "Cecil Humphreys",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Andre Leclair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388854",
-      "name": "David Hoffman",
-      "sequence": 6,
-      "notes": "(the postman)",
-      "roles": [
-        "Alex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060904",
-      "name": "Florence Bates",
-      "sequence": 7,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Mrs.Lannie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839069",
-      "name": "Clinton Sundberg",
-      "sequence": 8,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Salesman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Joseph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003224",
-      "name": "Stanley Andrews",
-      "sequence": 10,
-      "notes": "(fishing boat captain) (uncredited)",
-      "roles": [
-        "Emile"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0176699",
@@ -128,34 +27,126 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002093",
+      "name": "Greer Garson",
+      "sequence": 0,
+      "roles": [
+        "Marise Aubert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 1,
+      "roles": [
+        "Paul Aubert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0366489",
+      "name": "Richard Hart",
+      "sequence": 2,
+      "roles": [
+        "Jean Renaud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030194",
+      "name": "Morris Ankrum",
+      "sequence": 3,
+      "roles": [
+        "Hector Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0958345",
+      "name": "George Zucco",
+      "sequence": 4,
+      "roles": [
+        "Father Donnard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401976",
+      "name": "Cecil Humphreys",
+      "sequence": 5,
+      "roles": [
+        "Dr. Andre Leclair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388854",
+      "name": "David Hoffman",
+      "sequence": 6,
+      "roles": [
+        "Alex"
+      ],
+      "notes": "(the postman)"
+    },
+    {
+      "person_imdb_id": "nm0060904",
+      "name": "Florence Bates",
+      "sequence": 7,
+      "roles": [
+        "Mrs.Lannie"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0839069",
+      "name": "Clinton Sundberg",
+      "sequence": 8,
+      "roles": [
+        "Salesman"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 9,
+      "roles": [
+        "Joseph"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0291016",
       "name": "Leonhard Frank",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Karl and Anna\")",
-      "group_id": 0
+      "notes": "(play \"Karl and Anna\")"
     },
     {
       "person_imdb_id": "nm0015399",
       "name": "Zoe Akins",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0731387",
       "name": "Marguerite Roberts",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0732452",
       "name": "Casey Robinson",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 3
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1947-10-31",

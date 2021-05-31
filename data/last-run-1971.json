@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0067329",
   "sort_title": "Last Run (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001715",
-      "name": "George C. Scott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry Garmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0615540",
-      "name": "Tony Musante",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Paul Rickard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0886556",
-      "name": "Trish Van Devere",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claudie Scherrer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223157",
-      "name": "Colleen Dewhurst",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Monique"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0759757",
-      "name": "Aldo Sambrell",
-      "sequence": 4,
-      "notes": "(as Aldo Sanbrell)",
-      "roles": [
-        "Miguel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0850681",
-      "name": "Antonio Tarruella",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Motorcycle Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170347",
-      "name": "Robert Coleby",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Hitch Hiker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0958772",
-      "name": "Pat Zurica",
-      "sequence": 7,
-      "notes": "(as Patrick J. Zurica)",
-      "roles": [
-        "1st Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853092",
-      "name": "Rocky Taylor",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "2nd Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726403",
-      "name": "Robert Rietty",
-      "sequence": 9,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Miguel"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0281507",
@@ -107,13 +15,96 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001715",
+      "name": "George C. Scott",
+      "sequence": 0,
+      "roles": [
+        "Harry Garmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0615540",
+      "name": "Tony Musante",
+      "sequence": 1,
+      "roles": [
+        "Paul Rickard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0886556",
+      "name": "Trish Van Devere",
+      "sequence": 2,
+      "roles": [
+        "Claudie Scherrer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223157",
+      "name": "Colleen Dewhurst",
+      "sequence": 3,
+      "roles": [
+        "Monique"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0759757",
+      "name": "Aldo Sambrell",
+      "sequence": 4,
+      "roles": [
+        "Miguel"
+      ],
+      "notes": "(as Aldo Sanbrell)"
+    },
+    {
+      "person_imdb_id": "nm0850681",
+      "name": "Antonio Tarruella",
+      "sequence": 5,
+      "roles": [
+        "Motorcycle Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170347",
+      "name": "Robert Coleby",
+      "sequence": 6,
+      "roles": [
+        "Hitch Hiker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0958772",
+      "name": "Pat Zurica",
+      "sequence": 7,
+      "roles": [
+        "1st Man"
+      ],
+      "notes": "(as Patrick J. Zurica)"
+    },
+    {
+      "person_imdb_id": "nm0853092",
+      "name": "Rocky Taylor",
+      "sequence": 8,
+      "roles": [
+        "2nd Man"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0788991",
       "name": "Alan Sharp",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1971-07-07",

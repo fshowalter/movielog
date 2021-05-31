@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0061520",
   "sort_title": "Corruption (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sir John Rowan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516145",
-      "name": "Sue Lloyd",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lynn Nolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871729",
-      "name": "Noel Trevarthen",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Steve Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140933",
-      "name": "Kate O'Mara",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Val Nolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517084",
-      "name": "David Lodge",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Groper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0095641",
-      "name": "Anthony Booth",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mike Orme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0890078",
-      "name": "Wendy Varnals",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Terry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614854",
-      "name": "Billy Murray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397654",
-      "name": "Vanessa Howard",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172509",
-      "name": "Marian Collins",
-      "sequence": 9,
-      "notes": "(International version)",
-      "roles": [
-        "Girl in the Flat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914104",
-      "name": "Jan Waters",
-      "sequence": 10,
-      "notes": "(UK version)",
-      "roles": [
-        "Girl in the Flat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542410",
-      "name": "Phillip Manikum",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Georgie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199294",
-      "name": "Alexandra Dane",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0887660",
-      "name": "Valerie Van Ost",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Girl in the Train"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039045",
-      "name": "Diana Ashley",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Claire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054691",
-      "name": "Victor Baring",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mortuary Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826273",
-      "name": "Shirley Stelfox",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Girl at the Party"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0366708",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Sir John Rowan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516145",
+      "name": "Sue Lloyd",
+      "sequence": 1,
+      "roles": [
+        "Lynn Nolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871729",
+      "name": "Noel Trevarthen",
+      "sequence": 2,
+      "roles": [
+        "Steve Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140933",
+      "name": "Kate O'Mara",
+      "sequence": 3,
+      "roles": [
+        "Val Nolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517084",
+      "name": "David Lodge",
+      "sequence": 4,
+      "roles": [
+        "Groper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0095641",
+      "name": "Anthony Booth",
+      "sequence": 5,
+      "roles": [
+        "Mike Orme"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0890078",
+      "name": "Wendy Varnals",
+      "sequence": 6,
+      "roles": [
+        "Terry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614854",
+      "name": "Billy Murray",
+      "sequence": 7,
+      "roles": [
+        "Rik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397654",
+      "name": "Vanessa Howard",
+      "sequence": 8,
+      "roles": [
+        "Kate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172509",
+      "name": "Marian Collins",
+      "sequence": 9,
+      "roles": [
+        "Girl in the Flat"
+      ],
+      "notes": "(International version)"
+    },
+    {
+      "person_imdb_id": "nm0914104",
+      "name": "Jan Waters",
+      "sequence": 10,
+      "roles": [
+        "Girl in the Flat"
+      ],
+      "notes": "(UK version)"
+    },
+    {
+      "person_imdb_id": "nm0542410",
+      "name": "Phillip Manikum",
+      "sequence": 11,
+      "roles": [
+        "Georgie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199294",
+      "name": "Alexandra Dane",
+      "sequence": 12,
+      "roles": [
+        "Sandy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0887660",
+      "name": "Valerie Van Ost",
+      "sequence": 13,
+      "roles": [
+        "Girl in the Train"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039045",
+      "name": "Diana Ashley",
+      "sequence": 14,
+      "roles": [
+        "Claire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054691",
+      "name": "Victor Baring",
+      "sequence": 15,
+      "roles": [
+        "Mortuary Attendant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826273",
+      "name": "Shirley Stelfox",
+      "sequence": 16,
+      "roles": [
+        "Girl at the Party"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0285617",
       "name": "Donald Ford",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0285610",
       "name": "Derek Ford",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1968-07-19",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0022897",
   "sort_title": "Flesh (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000891",
-      "name": "Wallace Beery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Polakai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007220",
-      "name": "Ricardo Cortez",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nicky Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605904",
-      "name": "Karen Morley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Laura Nash"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380965",
-      "name": "Jean Hersholt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587534",
-      "name": "John Miljan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Willard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082884",
-      "name": "Herman Bing",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pepi - Headwaiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055998",
-      "name": "Vince Barnett",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583135",
-      "name": "Greta Meyer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dolan - a Referee"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -92,55 +9,138 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000891",
+      "name": "Wallace Beery",
+      "sequence": 0,
+      "roles": [
+        "Polakai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007220",
+      "name": "Ricardo Cortez",
+      "sequence": 1,
+      "roles": [
+        "Nicky Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605904",
+      "name": "Karen Morley",
+      "sequence": 2,
+      "roles": [
+        "Laura Nash"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380965",
+      "name": "Jean Hersholt",
+      "sequence": 3,
+      "roles": [
+        "Mr. Herman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587534",
+      "name": "John Miljan",
+      "sequence": 4,
+      "roles": [
+        "Joe Willard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0082884",
+      "name": "Herman Bing",
+      "sequence": 5,
+      "roles": [
+        "Pepi - Headwaiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055998",
+      "name": "Vince Barnett",
+      "sequence": 6,
+      "roles": [
+        "Waiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0583135",
+      "name": "Greta Meyer",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Herman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 8,
+      "roles": [
+        "Dolan - a Referee"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0332539",
       "name": "Edmund Goulding",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0695292",
       "name": "Leonard Praskins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0941138",
       "name": "Edgar Allan Woolf",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0366454",
       "name": "Moss Hart",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0175908",
       "name": "John W. Considine Jr.",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0473134",
       "name": "Hanns Kr\u00e4ly",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1932-12-08",

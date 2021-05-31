@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0053041",
   "sort_title": "Man Who Could Cheat Death (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0226446",
-      "name": "Anton Diffring",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Georges Bonnet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183764",
-      "name": "Hazel Court",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Janine Du Bois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Pierre Gerrard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549344",
-      "name": "Arnold Marl\u00e9",
-      "sequence": 3,
-      "notes": "(as Arnold Marle)",
-      "roles": [
-        "Dr. Ludwig Weiss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492720",
-      "name": "Delphi Lawrence",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Margo Philippe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212470",
-      "name": "Francis De Wolff",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector Legris"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -65,20 +9,76 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0226446",
+      "name": "Anton Diffring",
+      "sequence": 0,
+      "roles": [
+        "Dr. Georges Bonnet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183764",
+      "name": "Hazel Court",
+      "sequence": 1,
+      "roles": [
+        "Janine Du Bois"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Dr. Pierre Gerrard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549344",
+      "name": "Arnold Marl\u00e9",
+      "sequence": 3,
+      "roles": [
+        "Dr. Ludwig Weiss"
+      ],
+      "notes": "(as Arnold Marle)"
+    },
+    {
+      "person_imdb_id": "nm0492720",
+      "name": "Delphi Lawrence",
+      "sequence": 4,
+      "roles": [
+        "Margo Philippe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212470",
+      "name": "Francis De Wolff",
+      "sequence": 5,
+      "roles": [
+        "Inspector Legris"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0528530",
       "name": "Barr\u00e9 Lyndon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"The Man in Half Moon Street\") (as Barre Lyndon)",
-      "group_id": 1
+      "notes": "(play \"The Man in Half Moon Street\") (as Barre Lyndon)"
     }
   ],
   "release_date": "1959-06-01",

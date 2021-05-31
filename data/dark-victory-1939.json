@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0031210",
   "sort_title": "Dark Victory (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Judith Traherne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107575",
-      "name": "George Brent",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Frederick Steele"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Michael O'Leary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280242",
-      "name": "Geraldine Fitzgerald",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ann King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001654",
-      "name": "Ronald Reagan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alec"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871287",
-      "name": "Henry Travers",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Parsons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936755",
-      "name": "Cora Witherspoon",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Carrie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677125",
-      "name": "Dorothy Peterson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Miss Wainwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109877",
-      "name": "Virginia Brissac",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725021",
-      "name": "Charles Richman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Colonel Mantle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712660",
-      "name": "Herbert Rawlinson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610950",
-      "name": "Leonard Mudie",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Driscoll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375614",
-      "name": "Fay Helm",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Miss Dodd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931192",
-      "name": "Lottie Williams",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Lucy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0332539",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Judith Traherne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107575",
+      "name": "George Brent",
+      "sequence": 1,
+      "roles": [
+        "Dr. Frederick Steele"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 2,
+      "roles": [
+        "Michael O'Leary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280242",
+      "name": "Geraldine Fitzgerald",
+      "sequence": 3,
+      "roles": [
+        "Ann King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001654",
+      "name": "Ronald Reagan",
+      "sequence": 4,
+      "roles": [
+        "Alec"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871287",
+      "name": "Henry Travers",
+      "sequence": 5,
+      "roles": [
+        "Dr. Parsons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936755",
+      "name": "Cora Witherspoon",
+      "sequence": 6,
+      "roles": [
+        "Carrie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677125",
+      "name": "Dorothy Peterson",
+      "sequence": 7,
+      "roles": [
+        "Miss Wainwright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109877",
+      "name": "Virginia Brissac",
+      "sequence": 8,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725021",
+      "name": "Charles Richman",
+      "sequence": 9,
+      "roles": [
+        "Colonel Mantle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712660",
+      "name": "Herbert Rawlinson",
+      "sequence": 10,
+      "roles": [
+        "Dr. Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610950",
+      "name": "Leonard Mudie",
+      "sequence": 11,
+      "roles": [
+        "Dr. Driscoll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375614",
+      "name": "Fay Helm",
+      "sequence": 12,
+      "roles": [
+        "Miss Dodd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931192",
+      "name": "Lottie Williams",
+      "sequence": 13,
+      "roles": [
+        "Lucy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0732452",
       "name": "Casey Robinson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0108108",
       "name": "George Emerson Brewer Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "notes": "(from the play by)"
     },
     {
       "person_imdb_id": "nm0088602",
       "name": "Bertram Bloch",
-      "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from the play by)"
     }
   ],
   "release_date": "1939-04-20",

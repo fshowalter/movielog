@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0083806",
   "sort_title": "Deathtrap (1982)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000323",
-      "name": "Michael Caine",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sidney Bruhl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001659",
-      "name": "Christopher Reeve",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Clifford Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001007",
-      "name": "Dyan Cannon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Myra Bruhl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941683",
-      "name": "Irene Worth",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Helga ten Dorp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428216",
-      "name": "Henry Jones",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Porter Milgrim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798718",
-      "name": "Joe Silver",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Seymour Starger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225112",
-      "name": "Tony DiBenedetto",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Burt, the Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0495913",
-      "name": "Al LeBreton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Handsome Actor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187110",
-      "name": "Francis B. Creamer Jr.",
-      "sequence": 8,
-      "notes": "(as Rev. Francis B. Creamer Jr.)",
-      "roles": [
-        "The Minister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0458986",
-      "name": "Stewart Klein",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stewart Klein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529077",
-      "name": "Jeffrey Lyons",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jeffrey Lyons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0796954",
-      "name": "Joel Siegel",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Joel Siegel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525886",
-      "name": "Jenny Lumet",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Stage Newsboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375334",
-      "name": "Jayne Heller",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Stage Actress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669660",
-      "name": "George Peck",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Stage Actor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0742061",
-      "name": "Perry Rosen",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Stage Actor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000323",
+      "name": "Michael Caine",
+      "sequence": 0,
+      "roles": [
+        "Sidney Bruhl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001659",
+      "name": "Christopher Reeve",
+      "sequence": 1,
+      "roles": [
+        "Clifford Anderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001007",
+      "name": "Dyan Cannon",
+      "sequence": 2,
+      "roles": [
+        "Myra Bruhl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941683",
+      "name": "Irene Worth",
+      "sequence": 3,
+      "roles": [
+        "Helga ten Dorp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428216",
+      "name": "Henry Jones",
+      "sequence": 4,
+      "roles": [
+        "Porter Milgrim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798718",
+      "name": "Joe Silver",
+      "sequence": 5,
+      "roles": [
+        "Seymour Starger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225112",
+      "name": "Tony DiBenedetto",
+      "sequence": 6,
+      "roles": [
+        "Burt, the Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0495913",
+      "name": "Al LeBreton",
+      "sequence": 7,
+      "roles": [
+        "Handsome Actor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187110",
+      "name": "Francis B. Creamer Jr.",
+      "sequence": 8,
+      "roles": [
+        "The Minister"
+      ],
+      "notes": "(as Rev. Francis B. Creamer Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0458986",
+      "name": "Stewart Klein",
+      "sequence": 9,
+      "roles": [
+        "Stewart Klein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529077",
+      "name": "Jeffrey Lyons",
+      "sequence": 10,
+      "roles": [
+        "Jeffrey Lyons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0796954",
+      "name": "Joel Siegel",
+      "sequence": 11,
+      "roles": [
+        "Joel Siegel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525886",
+      "name": "Jenny Lumet",
+      "sequence": 12,
+      "roles": [
+        "Stage Newsboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375334",
+      "name": "Jayne Heller",
+      "sequence": 13,
+      "roles": [
+        "Stage Actress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669660",
+      "name": "George Peck",
+      "sequence": 14,
+      "roles": [
+        "Stage Actor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0742061",
+      "name": "Perry Rosen",
+      "sequence": 15,
+      "roles": [
+        "Stage Actor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0505615",
       "name": "Ira Levin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the stage play by)",
-      "group_id": 0
+      "notes": "(based on the stage play by)"
     },
     {
       "person_imdb_id": "nm0696319",
       "name": "Jay Presson Allen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 1
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1982-03-16",

@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0050933",
   "sort_title": "Sayonara (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000008",
-      "name": "Marlon Brando",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Major Lloyd Gruver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654433",
-      "name": "Patricia Owens",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eileen Webster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001258",
-      "name": "James Garner",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Captain Mike Bailey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779549",
-      "name": "Martha Scott",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Webster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0846987",
-      "name": "Miiko Taka",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hana-Ogi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0880855",
-      "name": "Miyoshi Umeki",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Katsumi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000999",
-      "name": "Red Buttons",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0808949",
-      "name": "Kent Smith",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "General Mark Webster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914601",
-      "name": "Douglass Watson",
-      "sequence": 8,
-      "notes": "(as Douglas Watson)",
-      "roles": [
-        "Colonel Crawford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0473350",
-      "name": "Reiko Kuba",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Fumiko-San"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948540",
-      "name": "Soo Yong",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Teruko-San"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1801200",
-      "name": "Shochiku Kagekidan Girls Revue",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Theatrical Revue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001544",
-      "name": "Ricardo Montalban",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Nakamura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114422",
-      "name": "Peter Brown",
-      "sequence": 13,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Second Military Police"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000454",
-      "name": "Dennis Hopper",
-      "sequence": 16,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Military Police"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0517597",
@@ -146,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000008",
+      "name": "Marlon Brando",
+      "sequence": 0,
+      "roles": [
+        "Major Lloyd Gruver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654433",
+      "name": "Patricia Owens",
+      "sequence": 1,
+      "roles": [
+        "Eileen Webster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001258",
+      "name": "James Garner",
+      "sequence": 2,
+      "roles": [
+        "Captain Mike Bailey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779549",
+      "name": "Martha Scott",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Webster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0846987",
+      "name": "Miiko Taka",
+      "sequence": 4,
+      "roles": [
+        "Hana-Ogi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0880855",
+      "name": "Miyoshi Umeki",
+      "sequence": 5,
+      "roles": [
+        "Katsumi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000999",
+      "name": "Red Buttons",
+      "sequence": 6,
+      "roles": [
+        "Joe Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0808949",
+      "name": "Kent Smith",
+      "sequence": 7,
+      "roles": [
+        "General Mark Webster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914601",
+      "name": "Douglass Watson",
+      "sequence": 8,
+      "roles": [
+        "Colonel Crawford"
+      ],
+      "notes": "(as Douglas Watson)"
+    },
+    {
+      "person_imdb_id": "nm0473350",
+      "name": "Reiko Kuba",
+      "sequence": 9,
+      "roles": [
+        "Fumiko-San"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0948540",
+      "name": "Soo Yong",
+      "sequence": 10,
+      "roles": [
+        "Teruko-San"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1801200",
+      "name": "Shochiku Kagekidan Girls Revue",
+      "sequence": 11,
+      "roles": [
+        "Theatrical Revue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001544",
+      "name": "Ricardo Montalban",
+      "sequence": 12,
+      "roles": [
+        "Nakamura"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0651585",
       "name": "Paul Osborn",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0585151",
       "name": "James A. Michener",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1957-12-05",

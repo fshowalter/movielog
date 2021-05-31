@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0058405",
   "sort_title": "Nightmare (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0460864",
-      "name": "David Knight",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Henry Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715081",
-      "name": "Moira Redmond",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Grace Maddox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511614",
-      "name": "Jennie Linden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Janet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115429",
-      "name": "Brenda Bruce",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mary Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178058",
-      "name": "George A. Cooper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0422238",
-      "name": "Clytie Jessop",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Woman in White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725110",
-      "name": "Irene Richmond",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Gibbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920555",
-      "name": "John Welsh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061063",
-      "name": "Timothy Bateson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Barman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0213107",
-      "name": "Elizabeth Dear",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Janet as a Child"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005711",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0460864",
+      "name": "David Knight",
+      "sequence": 0,
+      "roles": [
+        "Henry Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715081",
+      "name": "Moira Redmond",
+      "sequence": 1,
+      "roles": [
+        "Grace Maddox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511614",
+      "name": "Jennie Linden",
+      "sequence": 2,
+      "roles": [
+        "Janet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115429",
+      "name": "Brenda Bruce",
+      "sequence": 3,
+      "roles": [
+        "Mary Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178058",
+      "name": "George A. Cooper",
+      "sequence": 4,
+      "roles": [
+        "John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0422238",
+      "name": "Clytie Jessop",
+      "sequence": 5,
+      "roles": [
+        "Woman in White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725110",
+      "name": "Irene Richmond",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Gibbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920555",
+      "name": "John Welsh",
+      "sequence": 7,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061063",
+      "name": "Timothy Bateson",
+      "sequence": 8,
+      "roles": [
+        "Barman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0213107",
+      "name": "Elizabeth Dear",
+      "sequence": 9,
+      "roles": [
+        "Janet as a Child"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1964-02-28",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0044825",
   "sort_title": "Las Vegas Story (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000066",
-      "name": "Jane Russell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Linda Rollins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001514",
-      "name": "Victor Mature",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Dave Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lloyd Rollins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005994",
-      "name": "Hoagy Carmichael",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Happy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223290",
-      "name": "Brad Dexter",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tom Hubler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0646849",
-      "name": "Gordon Oliver",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Drucker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282435",
-      "name": "Jay C. Flippen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Capt. H.A. Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942926",
-      "name": "Will Wright",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mike Fogarty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920521",
-      "name": "Bill Welsh",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599894",
-      "name": "Ray Montgomery",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Desk Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588125",
-      "name": "Colleen Miller",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929057",
-      "name": "Robert J. Wilke",
-      "sequence": 11,
-      "notes": "(as Robert Wilke)",
-      "roles": [
-        "Clayton"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0829038",
@@ -119,38 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000066",
+      "name": "Jane Russell",
+      "sequence": 0,
+      "roles": [
+        "Linda Rollins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001514",
+      "name": "Victor Mature",
+      "sequence": 1,
+      "roles": [
+        "Lt. Dave Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Lloyd Rollins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005994",
+      "name": "Hoagy Carmichael",
+      "sequence": 3,
+      "roles": [
+        "Happy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223290",
+      "name": "Brad Dexter",
+      "sequence": 4,
+      "roles": [
+        "Tom Hubler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0646849",
+      "name": "Gordon Oliver",
+      "sequence": 5,
+      "roles": [
+        "Mr. Drucker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282435",
+      "name": "Jay C. Flippen",
+      "sequence": 6,
+      "roles": [
+        "Capt. H.A. Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942926",
+      "name": "Will Wright",
+      "sequence": 7,
+      "roles": [
+        "Mike Fogarty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920521",
+      "name": "Bill Welsh",
+      "sequence": 8,
+      "roles": [
+        "Mr. Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599894",
+      "name": "Ray Montgomery",
+      "sequence": 9,
+      "roles": [
+        "Desk Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588125",
+      "name": "Colleen Miller",
+      "sequence": 10,
+      "roles": [
+        "Mary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929057",
+      "name": "Robert J. Wilke",
+      "sequence": 11,
+      "roles": [
+        "Clayton"
+      ],
+      "notes": "(as Robert Wilke)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0237225",
       "name": "Jay Dratler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0271641",
       "name": "Earl Felton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0261400",
       "name": "Harry Essex",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0418972",
       "name": "Paul Jarrico",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (originally uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (originally uncredited)"
     }
   ],
-  "release_date": "1952-01-30",
-  "release_date_notes": "(New York City, New York)",
+  "release_date": "1952-01-27",
+  "release_date_notes": "(Miami, Florida) (first showing)",
   "countries": [
     "United States"
   ]

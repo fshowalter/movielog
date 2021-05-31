@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0034922",
   "sort_title": "Journey Into Fear (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Howard Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003123",
-      "name": "Dolores del Rio",
-      "sequence": 1,
-      "notes": "(as Dolores Del Rio)",
-      "roles": [
-        "Josette Martel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913095",
-      "name": "Ruth Warrick",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Stephanie Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001547",
-      "name": "Agnes Moorehead",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Mathews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0243861",
-      "name": "Jack Durant",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gogo Martel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0806041",
-      "name": "Everett Sloane",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kopeikin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943540",
-      "name": "Eustace Wyatt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prof. Haller",
-        "Muller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713930",
-      "name": "Frank Readick",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057422",
-      "name": "Edgar Barrier",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kuvetli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0608986",
-      "name": "Jack Moss",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Peter Banat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0773608",
-      "name": "Stefan Schnabel",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Translator for Ship's Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175788",
-      "name": "Hans Conried",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Swami Magician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0578423",
-      "name": "Robert Meltzer",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Ship Baggageman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071992",
-      "name": "Richard Bennett",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Ship's Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Colonel Haki"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0287988",
@@ -153,41 +15,179 @@
       "notes": "(uncredited)"
     }
   ],
-  "writers": [
-    {
-      "person_imdb_id": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
-    },
+  "cast": [
     {
       "person_imdb_id": "nm0001072",
       "name": "Joseph Cotten",
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "roles": [
+        "Howard Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003123",
+      "name": "Dolores del Rio",
+      "sequence": 1,
+      "roles": [
+        "Josette Martel"
+      ],
+      "notes": "(as Dolores Del Rio)"
+    },
+    {
+      "person_imdb_id": "nm0913095",
+      "name": "Ruth Warrick",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Stephanie Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001547",
+      "name": "Agnes Moorehead",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Mathews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0243861",
+      "name": "Jack Durant",
+      "sequence": 4,
+      "roles": [
+        "Gogo Martel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0806041",
+      "name": "Everett Sloane",
+      "sequence": 5,
+      "roles": [
+        "Kopeikin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943540",
+      "name": "Eustace Wyatt",
+      "sequence": 6,
+      "roles": [
+        "Prof. Haller",
+        "Muller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713930",
+      "name": "Frank Readick",
+      "sequence": 7,
+      "roles": [
+        "Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057422",
+      "name": "Edgar Barrier",
+      "sequence": 8,
+      "roles": [
+        "Kuvetli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0608986",
+      "name": "Jack Moss",
+      "sequence": 9,
+      "roles": [
+        "Peter Banat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0773608",
+      "name": "Stefan Schnabel",
+      "sequence": 10,
+      "roles": [
+        "Translator for Ship's Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175788",
+      "name": "Hans Conried",
+      "sequence": 11,
+      "roles": [
+        "Swami Magician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0578423",
+      "name": "Robert Meltzer",
+      "sequence": 12,
+      "roles": [
+        "Ship Baggageman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071992",
+      "name": "Richard Bennett",
+      "sequence": 13,
+      "roles": [
+        "Ship's Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000080",
+      "name": "Orson Welles",
+      "sequence": 14,
+      "roles": [
+        "Colonel Haki"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0000080",
+      "name": "Orson Welles",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(screen play)"
+    },
+    {
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0001907",
       "name": "Eric Ambler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0172628",
       "name": "Richard Collins",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1943-01-07",

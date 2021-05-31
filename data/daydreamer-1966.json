@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0060283",
   "sort_title": "Daydreamer (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000845",
-      "name": "Tallulah Bankhead",
-      "sequence": 0,
-      "notes": "(voice)",
-      "roles": [
-        "The Sea Witch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0096493",
-      "name": "Victor Borge",
-      "sequence": 1,
-      "notes": "(The Second Tailor) (voice)",
-      "roles": [
-        "Zenith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001157",
-      "name": "Patty Duke",
-      "sequence": 2,
-      "notes": "(voice)",
-      "roles": [
-        "Thumbelina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318527",
-      "name": "Jack Gilford",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Papa Andersen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370564",
-      "name": "Sessue Hayakawa",
-      "sequence": 4,
-      "notes": "(voice)",
-      "roles": [
-        "The Mole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002121",
-      "name": "Margaret Hamilton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Klopplebobbler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0412322",
-      "name": "Burl Ives",
-      "sequence": 6,
-      "notes": "(voice)",
-      "roles": [
-        "Father Neptune"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 7,
-      "notes": "(voice)",
-      "roles": [
-        "The Rat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001539",
-      "name": "Hayley Mills",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "The Little Mermaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641485",
-      "name": "Paul O'Keefe",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728509",
-      "name": "Cyril Ritchard",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "The Sandman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856103",
-      "name": "Terry-Thomas",
-      "sequence": 11,
-      "notes": "(The First Tailor) (voice)",
-      "roles": [
-        "Brig. Zachary Zilch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943956",
-      "name": "Ed Wynn",
-      "sequence": 12,
-      "notes": "(voice)",
-      "roles": [
-        "The Emperor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001961",
-      "name": "Ray Bolger",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Pieman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366671",
-      "name": "Robert Harter",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Big Claus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542847",
-      "name": "Larry D. Mann",
-      "sequence": 15,
-      "notes": "(voice) (as Larry Mann)",
-      "roles": [
-        "Various"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723982",
-      "name": "Billie Mae Richards",
-      "sequence": 16,
-      "notes": "(voice) (as Billie Richards)",
-      "roles": [
-        "Various"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0202298",
-      "name": "James Daugherty",
-      "sequence": 17,
-      "notes": "(voice)",
-      "roles": [
-        "Various"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0547570",
-      "name": "William Marine",
-      "sequence": 18,
-      "notes": "(voice)",
-      "roles": [
-        "Various"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0060072",
@@ -182,34 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000845",
+      "name": "Tallulah Bankhead",
+      "sequence": 0,
+      "roles": [
+        "The Sea Witch"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0096493",
+      "name": "Victor Borge",
+      "sequence": 1,
+      "roles": [
+        "Zenith"
+      ],
+      "notes": "(The Second Tailor) (voice)"
+    },
+    {
+      "person_imdb_id": "nm0001157",
+      "name": "Patty Duke",
+      "sequence": 2,
+      "roles": [
+        "Thumbelina"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0318527",
+      "name": "Jack Gilford",
+      "sequence": 3,
+      "roles": [
+        "Papa Andersen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370564",
+      "name": "Sessue Hayakawa",
+      "sequence": 4,
+      "roles": [
+        "The Mole"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0002121",
+      "name": "Margaret Hamilton",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Klopplebobbler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0412322",
+      "name": "Burl Ives",
+      "sequence": 6,
+      "roles": [
+        "Father Neptune"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 7,
+      "roles": [
+        "The Rat"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0001539",
+      "name": "Hayley Mills",
+      "sequence": 8,
+      "roles": [
+        "The Little Mermaid"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0641485",
+      "name": "Paul O'Keefe",
+      "sequence": 9,
+      "roles": [
+        "Chris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728509",
+      "name": "Cyril Ritchard",
+      "sequence": 10,
+      "roles": [
+        "The Sandman"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0856103",
+      "name": "Terry-Thomas",
+      "sequence": 11,
+      "roles": [
+        "Brig. Zachary Zilch"
+      ],
+      "notes": "(The First Tailor) (voice)"
+    },
+    {
+      "person_imdb_id": "nm0943956",
+      "name": "Ed Wynn",
+      "sequence": 12,
+      "roles": [
+        "The Emperor"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0001961",
+      "name": "Ray Bolger",
+      "sequence": 13,
+      "roles": [
+        "The Pieman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0366671",
+      "name": "Robert Harter",
+      "sequence": 14,
+      "roles": [
+        "Big Claus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0542847",
+      "name": "Larry D. Mann",
+      "sequence": 15,
+      "roles": [
+        "Various"
+      ],
+      "notes": "(voice) (as Larry Mann)"
+    },
+    {
+      "person_imdb_id": "nm0723982",
+      "name": "Billie Mae Richards",
+      "sequence": 16,
+      "roles": [
+        "Various"
+      ],
+      "notes": "(voice) (as Billie Richards)"
+    },
+    {
+      "person_imdb_id": "nm0202298",
+      "name": "James Daugherty",
+      "sequence": 17,
+      "roles": [
+        "Various"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0547570",
+      "name": "William Marine",
+      "sequence": 18,
+      "roles": [
+        "Various"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0026153",
       "name": "Hans Christian Andersen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on stories by)",
-      "group_id": 0
+      "notes": "(based on stories by)"
     },
     {
       "person_imdb_id": "nm0026153",
       "name": "Hans Christian Andersen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on characters by)",
-      "group_id": 1
+      "notes": "(based on characters by)"
     },
     {
       "person_imdb_id": "nm0612239",
       "name": "Romeo Muller",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0710230",
       "name": "Arthur Rankin Jr.",
+      "group": 3,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 3
+      "notes": "(written by)"
     }
   ],
   "release_date": "1966-06-22",

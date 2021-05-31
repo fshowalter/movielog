@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0042004",
   "sort_title": "Under Capricorn (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000006",
-      "name": "Ingrid Bergman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lady Henrietta Flusky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sam Flusky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928697",
-      "name": "Michael Wilding",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hon. Charles Adare"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500364",
-      "name": "Margaret Leighton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Milly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662116",
-      "name": "Cecil Parker",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Governor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640614",
-      "name": "Denis O'Dea",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Corrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914453",
-      "name": "Jack Watling",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Winter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930732",
-      "name": "Harcourt Williams",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Coachman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0748660",
-      "name": "John Ruddock",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Potter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793892",
-      "name": "Bill Shine",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Banks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0524297",
-      "name": "Victor Lucas",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Rev. Smiley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010580",
-      "name": "Ronald Adam",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Riggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212470",
-      "name": "Francis De Wolff",
-      "sequence": 12,
-      "notes": "(as Francis de Wolff)",
-      "roles": [
-        "Major Wilkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611692",
-      "name": "G.H. Mulcaster",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dr. Macallister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0806058",
-      "name": "Olive Sloane",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216319",
-      "name": "Maureen Delaney",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Flo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1223014",
-      "name": "Julia Lang",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Susan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567485",
-      "name": "Betty McDermott",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -173,55 +9,219 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000006",
+      "name": "Ingrid Bergman",
+      "sequence": 0,
+      "roles": [
+        "Lady Henrietta Flusky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
+      "sequence": 1,
+      "roles": [
+        "Sam Flusky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928697",
+      "name": "Michael Wilding",
+      "sequence": 2,
+      "roles": [
+        "Hon. Charles Adare"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0500364",
+      "name": "Margaret Leighton",
+      "sequence": 3,
+      "roles": [
+        "Milly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662116",
+      "name": "Cecil Parker",
+      "sequence": 4,
+      "roles": [
+        "The Governor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640614",
+      "name": "Denis O'Dea",
+      "sequence": 5,
+      "roles": [
+        "Mr. Corrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914453",
+      "name": "Jack Watling",
+      "sequence": 6,
+      "roles": [
+        "Winter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930732",
+      "name": "Harcourt Williams",
+      "sequence": 7,
+      "roles": [
+        "The Coachman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0748660",
+      "name": "John Ruddock",
+      "sequence": 8,
+      "roles": [
+        "Mr. Potter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793892",
+      "name": "Bill Shine",
+      "sequence": 9,
+      "roles": [
+        "Mr. Banks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0524297",
+      "name": "Victor Lucas",
+      "sequence": 10,
+      "roles": [
+        "The Rev. Smiley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010580",
+      "name": "Ronald Adam",
+      "sequence": 11,
+      "roles": [
+        "Mr. Riggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212470",
+      "name": "Francis De Wolff",
+      "sequence": 12,
+      "roles": [
+        "Major Wilkins"
+      ],
+      "notes": "(as Francis de Wolff)"
+    },
+    {
+      "person_imdb_id": "nm0611692",
+      "name": "G.H. Mulcaster",
+      "sequence": 13,
+      "roles": [
+        "Dr. Macallister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0806058",
+      "name": "Olive Sloane",
+      "sequence": 14,
+      "roles": [
+        "Sal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0216319",
+      "name": "Maureen Delaney",
+      "sequence": 15,
+      "roles": [
+        "Flo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1223014",
+      "name": "Julia Lang",
+      "sequence": 16,
+      "roles": [
+        "Susan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0567485",
+      "name": "Betty McDermott",
+      "sequence": 17,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0173303",
       "name": "John Colton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0511626",
       "name": "Margaret Linden",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0801026",
       "name": "Helen Simpson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0002025",
       "name": "Hume Cronyn",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0108833",
       "name": "James Bridie",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 3
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001811",
       "name": "Peter Ustinov",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0100884",
       "name": "Joseph Shearing",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1949-09-08",

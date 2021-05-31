@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0041998",
   "sort_title": "Thirst (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0377397",
-      "name": "Eva Henning",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ruth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bertil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0854996",
-      "name": "Birgit Tengroth",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Viola"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252475",
-      "name": "Hasse Ekman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Rosengren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625624",
-      "name": "Mimi Nelson",
-      "sequence": 4,
-      "notes": "(as Mimmi Nelson)",
-      "roles": [
-        "Valborg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252416",
-      "name": "Bengt Eklund",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Raoul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826503",
-      "name": "Gaby Stenberg",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Astrid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0927711",
-      "name": "Naima Wifstrand",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Miss Henriksson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0340471",
-      "name": "Herbert Grevenius",
+      "person_imdb_id": "nm0377397",
+      "name": "Eva Henning",
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "roles": [
+        "Ruth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 1,
+      "roles": [
+        "Bertil"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0854996",
       "name": "Birgit Tengroth",
+      "sequence": 2,
+      "roles": [
+        "Viola"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252475",
+      "name": "Hasse Ekman",
+      "sequence": 3,
+      "roles": [
+        "Dr. Rosengren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625624",
+      "name": "Mimi Nelson",
+      "sequence": 4,
+      "roles": [
+        "Valborg"
+      ],
+      "notes": "(as Mimmi Nelson)"
+    },
+    {
+      "person_imdb_id": "nm0252416",
+      "name": "Bengt Eklund",
+      "sequence": 5,
+      "roles": [
+        "Raoul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826503",
+      "name": "Gaby Stenberg",
+      "sequence": 6,
+      "roles": [
+        "Astrid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0927711",
+      "name": "Naima Wifstrand",
+      "sequence": 7,
+      "roles": [
+        "Miss Henriksson"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0340471",
+      "name": "Herbert Grevenius",
+      "group": 0,
       "sequence": 0,
-      "notes": "(short stories)",
-      "group_id": 1
+      "notes": "(writer)"
+    },
+    {
+      "person_imdb_id": "nm0854996",
+      "name": "Birgit Tengroth",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(short stories)"
     }
   ],
   "release_date": "1949-10-17",

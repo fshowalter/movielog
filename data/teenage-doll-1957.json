@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0051062",
   "sort_title": "Teenage Doll (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0448483",
-      "name": "June Kenney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Barbara Bonney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816670",
-      "name": "Fay Spain",
-      "sequence": 1,
-      "notes": "(segment \"Hel\")",
-      "roles": [
-        "Helen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109612",
-      "name": "John Brinkley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eddie Rand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0413383",
-      "name": "Colette Jackson",
-      "sequence": 3,
-      "notes": "(as Collette Jackson)",
-      "roles": [
-        "May"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933031",
-      "name": "Barbara Wilson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Betty Herne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0734425",
-      "name": "Ziva Rodann",
-      "sequence": 5,
-      "notes": "(segment \"Squirrel\") (as Ziva Rodan)",
-      "roles": [
-        "Eva"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809869",
-      "name": "Sandra Smith",
-      "sequence": 6,
-      "notes": "(segment \"Lor\")",
-      "roles": [
-        "Lori"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606371",
-      "name": "Barboura Morris",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Janet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222878",
-      "name": "Richard Devon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Det. Dunston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768448",
-      "name": "Jay Sayer",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Wally Tomasek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0194023",
-      "name": "Richard H. Cutting",
-      "sequence": 10,
-      "notes": "(as Richard Cutting)",
-      "roles": [
-        "Police Sgt. Phil Herne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627030",
-      "name": "Dorothy Neumann",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Estelle Bonney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625343",
-      "name": "Ed Nelson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Police Officer 'Dutch'",
-        "Blind Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0895259",
-      "name": "Bruno VeSota",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Fat witness"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117269",
-      "name": "Paul Bryar",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Helen's Father"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -147,13 +9,151 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0448483",
+      "name": "June Kenney",
+      "sequence": 0,
+      "roles": [
+        "Barbara Bonney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816670",
+      "name": "Fay Spain",
+      "sequence": 1,
+      "roles": [
+        "Helen"
+      ],
+      "notes": "(segment \"Hel\")"
+    },
+    {
+      "person_imdb_id": "nm0109612",
+      "name": "John Brinkley",
+      "sequence": 2,
+      "roles": [
+        "Eddie Rand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0413383",
+      "name": "Colette Jackson",
+      "sequence": 3,
+      "roles": [
+        "May"
+      ],
+      "notes": "(as Collette Jackson)"
+    },
+    {
+      "person_imdb_id": "nm0933031",
+      "name": "Barbara Wilson",
+      "sequence": 4,
+      "roles": [
+        "Betty Herne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0734425",
+      "name": "Ziva Rodann",
+      "sequence": 5,
+      "roles": [
+        "Eva"
+      ],
+      "notes": "(segment \"Squirrel\") (as Ziva Rodan)"
+    },
+    {
+      "person_imdb_id": "nm0809869",
+      "name": "Sandra Smith",
+      "sequence": 6,
+      "roles": [
+        "Lori"
+      ],
+      "notes": "(segment \"Lor\")"
+    },
+    {
+      "person_imdb_id": "nm0606371",
+      "name": "Barboura Morris",
+      "sequence": 7,
+      "roles": [
+        "Janet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222878",
+      "name": "Richard Devon",
+      "sequence": 8,
+      "roles": [
+        "Det. Dunston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768448",
+      "name": "Jay Sayer",
+      "sequence": 9,
+      "roles": [
+        "Wally Tomasek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0194023",
+      "name": "Richard H. Cutting",
+      "sequence": 10,
+      "roles": [
+        "Police Sgt. Phil Herne"
+      ],
+      "notes": "(as Richard Cutting)"
+    },
+    {
+      "person_imdb_id": "nm0627030",
+      "name": "Dorothy Neumann",
+      "sequence": 11,
+      "roles": [
+        "Estelle Bonney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625343",
+      "name": "Ed Nelson",
+      "sequence": 12,
+      "roles": [
+        "Police Officer 'Dutch'",
+        "Blind Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0895259",
+      "name": "Bruno VeSota",
+      "sequence": 13,
+      "roles": [
+        "Fat witness"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117269",
+      "name": "Paul Bryar",
+      "sequence": 14,
+      "roles": [
+        "Helen's Father"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0341458",
       "name": "Charles B. Griffith",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1957-09-22",

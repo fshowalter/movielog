@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0035899",
   "sort_title": "Frankenstein Meets the Wolf Man (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001033",
-      "name": "Lon Chaney Jr.",
-      "sequence": 0,
-      "notes": "(as Lon Chaney)",
-      "roles": [
-        "The Wolf Man - Lawrence Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557314",
-      "name": "Ilona Massey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Baroness Elsa Frankenstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461549",
-      "name": "Patric Knowles",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Frank Mannering"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041172",
-      "name": "Lionel Atwill",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Monster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653642",
-      "name": "Maria Ouspenskaya",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Maleva"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388615",
-      "name": "Dennis Hoey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Inspector Owen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054036",
-      "name": "Don Barclay",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Franzec"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263151",
-      "name": "Rex Evans",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Vazec"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296859",
-      "name": "Dwight Frye",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Rudi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835913",
-      "name": "Harry Stubbs",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Guno"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0624756",
@@ -110,13 +9,114 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001033",
+      "name": "Lon Chaney Jr.",
+      "sequence": 0,
+      "roles": [
+        "The Wolf Man - Lawrence Talbot"
+      ],
+      "notes": "(as Lon Chaney)"
+    },
+    {
+      "person_imdb_id": "nm0557314",
+      "name": "Ilona Massey",
+      "sequence": 1,
+      "roles": [
+        "Baroness Elsa Frankenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461549",
+      "name": "Patric Knowles",
+      "sequence": 2,
+      "roles": [
+        "Dr. Frank Mannering"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041172",
+      "name": "Lionel Atwill",
+      "sequence": 3,
+      "roles": [
+        "Mayor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 4,
+      "roles": [
+        "Monster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653642",
+      "name": "Maria Ouspenskaya",
+      "sequence": 5,
+      "roles": [
+        "Maleva"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388615",
+      "name": "Dennis Hoey",
+      "sequence": 6,
+      "roles": [
+        "Inspector Owen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054036",
+      "name": "Don Barclay",
+      "sequence": 7,
+      "roles": [
+        "Franzec"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263151",
+      "name": "Rex Evans",
+      "sequence": 8,
+      "roles": [
+        "Vazec"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0296859",
+      "name": "Dwight Frye",
+      "sequence": 9,
+      "roles": [
+        "Rudi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835913",
+      "name": "Harry Stubbs",
+      "sequence": 10,
+      "roles": [
+        "Guno"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1943-03-05",

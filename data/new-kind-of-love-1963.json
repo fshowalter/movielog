@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0057360",
   "sort_title": "New Kind of Love (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Steve Sherman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940946",
-      "name": "Joanne Woodward",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Samantha Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728812",
-      "name": "Thelma Ritter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lena O'Connor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001247",
-      "name": "Eva Gabor",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Felicienne Courbeau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Bergner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0438322",
-      "name": "Marvin Kaplan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0165145",
-      "name": "Robert Clary",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Frenchman at Restaurant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605352",
-      "name": "Jan Moriarty",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Suzanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0821651",
-      "name": "Joan Staley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Danish Stewardess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0800359",
-      "name": "Robert F. Simon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bertram Chalmers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002001",
-      "name": "Maurice Chevalier",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Maurice Chevalier"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0789520",
@@ -110,13 +9,114 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Steve Sherman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940946",
+      "name": "Joanne Woodward",
+      "sequence": 1,
+      "roles": [
+        "Samantha Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728812",
+      "name": "Thelma Ritter",
+      "sequence": 2,
+      "roles": [
+        "Lena O'Connor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001247",
+      "name": "Eva Gabor",
+      "sequence": 3,
+      "roles": [
+        "Felicienne Courbeau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 4,
+      "roles": [
+        "Joe Bergner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0438322",
+      "name": "Marvin Kaplan",
+      "sequence": 5,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0165145",
+      "name": "Robert Clary",
+      "sequence": 6,
+      "roles": [
+        "Frenchman at Restaurant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605352",
+      "name": "Jan Moriarty",
+      "sequence": 7,
+      "roles": [
+        "Suzanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0821651",
+      "name": "Joan Staley",
+      "sequence": 8,
+      "roles": [
+        "Danish Stewardess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0800359",
+      "name": "Robert F. Simon",
+      "sequence": 9,
+      "roles": [
+        "Bertram Chalmers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002001",
+      "name": "Maurice Chevalier",
+      "sequence": 10,
+      "roles": [
+        "Maurice Chevalier"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0789520",
       "name": "Melville Shavelson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1963-10-10",

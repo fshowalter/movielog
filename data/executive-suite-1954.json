@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0046963",
   "sort_title": "Executive Suite (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "McDonald Walling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000742",
-      "name": "June Allyson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Blemond Walling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001766",
-      "name": "Barbara Stanwyck",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Julia O. Tredway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545298",
-      "name": "Fredric March",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Loren Phineas Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682074",
-      "name": "Walter Pidgeon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Frederick Y. Alderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001859",
-      "name": "Shelley Winters",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eva Bardeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007222",
-      "name": "Paul Douglas",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Josiah Walter Dudley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0129894",
-      "name": "Louis Calhern",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "George Nyle Caswell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jesse Q. Grimm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001225",
-      "name": "Nina Foch",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Erica Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175919",
-      "name": "Tim Considine",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mike Walling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681055",
-      "name": "William Phipps",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Bill Lundeen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461246",
-      "name": "Lucy Knoch",
-      "sequence": 12,
-      "notes": "(as Lucille Knoch)",
-      "roles": [
-        "Mrs. George Nyle Caswell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825264",
-      "name": "Edgar Stehli",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Julius Steigel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011195",
-      "name": "Mary Adams",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sara Asenath Grimm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109877",
-      "name": "Virginia Brissac",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Edith Alderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788288",
-      "name": "Harry Shannon",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Ed Benedeck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403142",
-      "name": "Chet Huntley",
-      "sequence": 50,
-      "notes": "",
-      "roles": [
-        "Narrator",
-        "Voice of Tredway"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0936404",
@@ -174,24 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "McDonald Walling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000742",
+      "name": "June Allyson",
+      "sequence": 1,
+      "roles": [
+        "Mary Blemond Walling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001766",
+      "name": "Barbara Stanwyck",
+      "sequence": 2,
+      "roles": [
+        "Julia O. Tredway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545298",
+      "name": "Fredric March",
+      "sequence": 3,
+      "roles": [
+        "Loren Phineas Shaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682074",
+      "name": "Walter Pidgeon",
+      "sequence": 4,
+      "roles": [
+        "Frederick Y. Alderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001859",
+      "name": "Shelley Winters",
+      "sequence": 5,
+      "roles": [
+        "Eva Bardeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007222",
+      "name": "Paul Douglas",
+      "sequence": 6,
+      "roles": [
+        "Josiah Walter Dudley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0129894",
+      "name": "Louis Calhern",
+      "sequence": 7,
+      "roles": [
+        "George Nyle Caswell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 8,
+      "roles": [
+        "Jesse Q. Grimm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001225",
+      "name": "Nina Foch",
+      "sequence": 9,
+      "roles": [
+        "Erica Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175919",
+      "name": "Tim Considine",
+      "sequence": 10,
+      "roles": [
+        "Mike Walling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681055",
+      "name": "William Phipps",
+      "sequence": 11,
+      "roles": [
+        "Bill Lundeen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461246",
+      "name": "Lucy Knoch",
+      "sequence": 12,
+      "roles": [
+        "Mrs. George Nyle Caswell"
+      ],
+      "notes": "(as Lucille Knoch)"
+    },
+    {
+      "person_imdb_id": "nm0825264",
+      "name": "Edgar Stehli",
+      "sequence": 13,
+      "roles": [
+        "Julius Steigel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011195",
+      "name": "Mary Adams",
+      "sequence": 14,
+      "roles": [
+        "Sara Asenath Grimm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109877",
+      "name": "Virginia Brissac",
+      "sequence": 15,
+      "roles": [
+        "Edith Alderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0788288",
+      "name": "Harry Shannon",
+      "sequence": 16,
+      "roles": [
+        "Ed Benedeck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403142",
+      "name": "Chet Huntley",
+      "sequence": 51,
+      "roles": [
+        "Narrator",
+        "Voice of Tredway"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0499626",
       "name": "Ernest Lehman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0370312",
       "name": "Cameron Hawley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
-  "release_date": "1954-02-23",
-  "release_date_notes": "(MGM World Film Festival)",
+  "release_date": "1954-02-17",
+  "release_date_notes": "(Johannesburg) (MGM World Film Festival)",
   "countries": [
     "United States"
   ]

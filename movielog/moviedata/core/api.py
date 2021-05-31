@@ -14,5 +14,4 @@ def refresh() -> None:
     title_akas_dataset.refresh()
 
 
-def movie_ids() -> set[str]:
-    return movies_table.movie_ids()
+movie_ids = movies_table.movie_ids

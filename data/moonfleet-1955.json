@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0048387",
   "sort_title": "Moonfleet (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001289",
-      "name": "Stewart Granger",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jeremy Fox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001695",
-      "name": "George Sanders",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lord Ashwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339343",
-      "name": "Joan Greenwood",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lady Ashwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511798",
-      "name": "Viveca Lindfors",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Minton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925804",
-      "name": "Jon Whiteley",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John Mohune"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599656",
-      "name": "Liliane Montevecchi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gypsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178259",
-      "name": "Melville Cooper",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Felix Ratsey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0565887",
-      "name": "Sean McClory",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Elzevir Block"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Parson Glennie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398466",
-      "name": "John Hoyt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Magistrate Maskew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2076146",
-      "name": "Donna Corcoran",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Grace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001181",
-      "name": "Jack Elam",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Damen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786811",
-      "name": "Dan Seymour",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Hull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Tewkesbury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Major Hennishaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460432",
-      "name": "Skelton Knaggs",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Jacob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354989",
-      "name": "Richard Hale",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Starkill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017580",
-      "name": "John Alderson",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Greening"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184524",
-      "name": "Ashley Cowan",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Tomson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0272432",
-      "name": "Frank Ferguson",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Coachman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172884",
-      "name": "Booth Colman",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Capt. Stanhope"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -200,27 +9,218 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001289",
+      "name": "Stewart Granger",
+      "sequence": 0,
+      "roles": [
+        "Jeremy Fox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001695",
+      "name": "George Sanders",
+      "sequence": 1,
+      "roles": [
+        "Lord Ashwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339343",
+      "name": "Joan Greenwood",
+      "sequence": 2,
+      "roles": [
+        "Lady Ashwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511798",
+      "name": "Viveca Lindfors",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Minton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925804",
+      "name": "Jon Whiteley",
+      "sequence": 4,
+      "roles": [
+        "John Mohune"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599656",
+      "name": "Liliane Montevecchi",
+      "sequence": 5,
+      "roles": [
+        "Gypsy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178259",
+      "name": "Melville Cooper",
+      "sequence": 6,
+      "roles": [
+        "Felix Ratsey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0565887",
+      "name": "Sean McClory",
+      "sequence": 7,
+      "roles": [
+        "Elzevir Block"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 8,
+      "roles": [
+        "Parson Glennie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398466",
+      "name": "John Hoyt",
+      "sequence": 9,
+      "roles": [
+        "Magistrate Maskew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2076146",
+      "name": "Donna Corcoran",
+      "sequence": 10,
+      "roles": [
+        "Grace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001181",
+      "name": "Jack Elam",
+      "sequence": 11,
+      "roles": [
+        "Damen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786811",
+      "name": "Dan Seymour",
+      "sequence": 12,
+      "roles": [
+        "Hull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 13,
+      "roles": [
+        "Tewkesbury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 14,
+      "roles": [
+        "Major Hennishaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460432",
+      "name": "Skelton Knaggs",
+      "sequence": 15,
+      "roles": [
+        "Jacob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354989",
+      "name": "Richard Hale",
+      "sequence": 16,
+      "roles": [
+        "Starkill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017580",
+      "name": "John Alderson",
+      "sequence": 17,
+      "roles": [
+        "Greening"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184524",
+      "name": "Ashley Cowan",
+      "sequence": 18,
+      "roles": [
+        "Tomson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0272432",
+      "name": "Frank Ferguson",
+      "sequence": 19,
+      "roles": [
+        "Coachman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172884",
+      "name": "Booth Colman",
+      "sequence": 20,
+      "roles": [
+        "Capt. Stanhope"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0527331",
       "name": "Jan Lustig",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0280108",
       "name": "Margaret Fitts",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0266274",
       "name": "J. Meade Falkner",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1955-06-01",

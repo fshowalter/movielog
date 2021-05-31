@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0028653",
   "sort_title": "Born to the West (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dare Rudd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402554",
-      "name": "Marsha Hunt",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Judy Worstall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113902",
-      "name": "Johnny Mack Brown",
-      "sequence": 2,
-      "notes": "(as John Mack Brown)",
-      "roles": [
-        "Tom Fillmore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666273",
-      "name": "John Patterson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lynn Hardy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089524",
-      "name": "Monte Blue",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bart Hammond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768514",
-      "name": "Syd Saylor",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dinkey Hooley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514707",
-      "name": "Lucien Littlefield",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Cattle Buyer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0059106",
@@ -74,34 +9,99 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Dare Rudd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402554",
+      "name": "Marsha Hunt",
+      "sequence": 1,
+      "roles": [
+        "Judy Worstall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113902",
+      "name": "Johnny Mack Brown",
+      "sequence": 2,
+      "roles": [
+        "Tom Fillmore"
+      ],
+      "notes": "(as John Mack Brown)"
+    },
+    {
+      "person_imdb_id": "nm0666273",
+      "name": "John Patterson",
+      "sequence": 3,
+      "roles": [
+        "Lynn Hardy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089524",
+      "name": "Monte Blue",
+      "sequence": 4,
+      "roles": [
+        "Bart Hammond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768514",
+      "name": "Syd Saylor",
+      "sequence": 5,
+      "roles": [
+        "Dinkey Hooley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514707",
+      "name": "Lucien Littlefield",
+      "sequence": 6,
+      "roles": [
+        "Cattle Buyer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0031019",
       "name": "Stuart Anthony",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0949141",
       "name": "Robert Yost",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0340719",
       "name": "Zane Grey",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0622435",
       "name": "Jack Natteford",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1937-12-10",

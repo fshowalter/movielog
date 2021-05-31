@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0028510",
   "sort_title": "Winds of the Wasteland (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Blair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0148575",
-      "name": "Phyllis Fraser",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Barbara Forsythe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446593",
-      "name": "Lew Kelly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rocky O'Brien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181825",
-      "name": "Douglas Cosgrove",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cal Drake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151420",
-      "name": "Lane Chandler",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Larry Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282418",
-      "name": "Sam Flint",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. William Forsythe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466773",
-      "name": "Bob Kortman",
-      "sequence": 6,
-      "notes": "(as Robert Kortman)",
-      "roles": [
-        "Cherokee Joe - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144185",
-      "name": "Ed Cassidy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Dodge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355755",
-      "name": "Jon Hall",
-      "sequence": 8,
-      "notes": "(as Charles Locher)",
-      "roles": [
-        "Jim - Pony Express Rider"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0566501",
-      "name": "Merrill McCormick",
-      "sequence": 9,
-      "notes": "(as W.M. McCormick)",
-      "roles": [
-        "Pete - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290875",
-      "name": "Christian J. Frank",
-      "sequence": 10,
-      "notes": "(as Chris Franke)",
-      "roles": [
-        "Telegraph Crew Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0734340",
-      "name": "Jack Rockwell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Buchanan City Marshal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589596",
-      "name": "Arthur Millett",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Buchanan City Postmaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485597",
-      "name": "Tracy Layne",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Green"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0942611",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Blair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0148575",
+      "name": "Phyllis Fraser",
+      "sequence": 1,
+      "roles": [
+        "Barbara Forsythe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446593",
+      "name": "Lew Kelly",
+      "sequence": 2,
+      "roles": [
+        "Rocky O'Brien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181825",
+      "name": "Douglas Cosgrove",
+      "sequence": 3,
+      "roles": [
+        "Cal Drake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151420",
+      "name": "Lane Chandler",
+      "sequence": 4,
+      "roles": [
+        "Larry Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282418",
+      "name": "Sam Flint",
+      "sequence": 5,
+      "roles": [
+        "Dr. William Forsythe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466773",
+      "name": "Bob Kortman",
+      "sequence": 6,
+      "roles": [
+        "Cherokee Joe - Henchman"
+      ],
+      "notes": "(as Robert Kortman)"
+    },
+    {
+      "person_imdb_id": "nm0144185",
+      "name": "Ed Cassidy",
+      "sequence": 7,
+      "roles": [
+        "Mr. Dodge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355755",
+      "name": "Jon Hall",
+      "sequence": 8,
+      "roles": [
+        "Jim - Pony Express Rider"
+      ],
+      "notes": "(as Charles Locher)"
+    },
+    {
+      "person_imdb_id": "nm0566501",
+      "name": "Merrill McCormick",
+      "sequence": 9,
+      "roles": [
+        "Pete - Henchman"
+      ],
+      "notes": "(as W.M. McCormick)"
+    },
+    {
+      "person_imdb_id": "nm0290875",
+      "name": "Christian J. Frank",
+      "sequence": 10,
+      "roles": [
+        "Telegraph Crew Chief"
+      ],
+      "notes": "(as Chris Franke)"
+    },
+    {
+      "person_imdb_id": "nm0734340",
+      "name": "Jack Rockwell",
+      "sequence": 11,
+      "roles": [
+        "Buchanan City Marshal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589596",
+      "name": "Arthur Millett",
+      "sequence": 12,
+      "roles": [
+        "Buchanan City Postmaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485597",
+      "name": "Tracy Layne",
+      "sequence": 13,
+      "roles": [
+        "Green"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0688853",
       "name": "Joseph F. Poland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0688853",
       "name": "Joseph F. Poland",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story)"
     }
   ],
   "release_date": "1936-07-06",

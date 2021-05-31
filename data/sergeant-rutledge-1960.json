@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0054292",
   "sort_title": "Sergeant Rutledge (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001374",
-      "name": "Jeffrey Hunter",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Tom Cantrell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869927",
-      "name": "Constance Towers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Beecher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000992",
-      "name": "Billie Burke",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Cordelia Fosgate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0834754",
-      "name": "Woody Strode",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "1st Sgt. Braxton Rutledge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379621",
-      "name": "Juano Hernandez",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sgt. Matthew Luke Skidmore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0099071",
-      "name": "Willis Bouchey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Col. Otis Fosgate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949355",
-      "name": "Carleton Young",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Capt. Shattuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695489",
-      "name": "Judson Pratt",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lt. Mulqueen"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -83,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001374",
+      "name": "Jeffrey Hunter",
+      "sequence": 0,
+      "roles": [
+        "Lt. Tom Cantrell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0869927",
+      "name": "Constance Towers",
+      "sequence": 1,
+      "roles": [
+        "Mary Beecher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000992",
+      "name": "Billie Burke",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Cordelia Fosgate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0834754",
+      "name": "Woody Strode",
+      "sequence": 3,
+      "roles": [
+        "1st Sgt. Braxton Rutledge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379621",
+      "name": "Juano Hernandez",
+      "sequence": 4,
+      "roles": [
+        "Sgt. Matthew Luke Skidmore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0099071",
+      "name": "Willis Bouchey",
+      "sequence": 5,
+      "roles": [
+        "Col. Otis Fosgate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949355",
+      "name": "Carleton Young",
+      "sequence": 6,
+      "roles": [
+        "Capt. Shattuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695489",
+      "name": "Judson Pratt",
+      "sequence": 7,
+      "roles": [
+        "Lt. Mulqueen"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0068650",
       "name": "James Warner Bellah",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0325135",
       "name": "Willis Goldbeck",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0068650",
       "name": "James Warner Bellah",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (uncredited)",
-      "group_id": 1
+      "notes": "(novel) (uncredited)"
     }
   ],
   "release_date": "1960-05-25",

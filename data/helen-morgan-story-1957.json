@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0050494",
   "sort_title": "Helen Morgan Story (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001955",
-      "name": "Ann Blyth",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Helen Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Larry Maddux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137999",
-      "name": "Richard Carlson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Russell Wade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262775",
-      "name": "Gene Evans",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Whitey Krause"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454418",
-      "name": "Alan King",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Benny Weaver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930209",
-      "name": "Cara Williams",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dolly Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898782",
-      "name": "Virginia Vincent",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455373",
-      "name": "Walter Woolf King",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Florenz Ziegfeld"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337802",
-      "name": "Dorothy Green",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Wade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686857",
-      "name": "Edward Platt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Johnny Haggerty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235282",
-      "name": "Warren Douglas",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mark Hellinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925429",
-      "name": "Sammy White",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sammy White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5668187",
-      "name": "The De Castro Sisters",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Singers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006192",
-      "name": "Jimmy McHugh",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Jimmy McHugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884964",
-      "name": "Rudy Vallee",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Rudy Vallee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934595",
-      "name": "Walter Winchell",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Walter Winchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335423",
-      "name": "Gogi Grant",
-      "sequence": 16,
-      "notes": "(singing voice) (voice)",
-      "roles": [
-        "Helen Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086319",
-      "name": "Nicky Blair",
-      "sequence": 17,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Vendor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235093",
-      "name": "James Douglas",
-      "sequence": 18,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Intern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838412",
-      "name": "Frank Sully",
-      "sequence": 19,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Vendor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -191,34 +9,216 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001955",
+      "name": "Ann Blyth",
+      "sequence": 0,
+      "roles": [
+        "Helen Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 1,
+      "roles": [
+        "Larry Maddux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137999",
+      "name": "Richard Carlson",
+      "sequence": 2,
+      "roles": [
+        "Russell Wade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262775",
+      "name": "Gene Evans",
+      "sequence": 3,
+      "roles": [
+        "Whitey Krause"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454418",
+      "name": "Alan King",
+      "sequence": 4,
+      "roles": [
+        "Benny Weaver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930209",
+      "name": "Cara Williams",
+      "sequence": 5,
+      "roles": [
+        "Dolly Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898782",
+      "name": "Virginia Vincent",
+      "sequence": 6,
+      "roles": [
+        "Sue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455373",
+      "name": "Walter Woolf King",
+      "sequence": 7,
+      "roles": [
+        "Florenz Ziegfeld"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337802",
+      "name": "Dorothy Green",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Wade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686857",
+      "name": "Edward Platt",
+      "sequence": 9,
+      "roles": [
+        "Johnny Haggerty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235282",
+      "name": "Warren Douglas",
+      "sequence": 10,
+      "roles": [
+        "Mark Hellinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925429",
+      "name": "Sammy White",
+      "sequence": 11,
+      "roles": [
+        "Sammy White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5668187",
+      "name": "The De Castro Sisters",
+      "sequence": 12,
+      "roles": [
+        "Singers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006192",
+      "name": "Jimmy McHugh",
+      "sequence": 13,
+      "roles": [
+        "Jimmy McHugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884964",
+      "name": "Rudy Vallee",
+      "sequence": 14,
+      "roles": [
+        "Rudy Vallee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934595",
+      "name": "Walter Winchell",
+      "sequence": 15,
+      "roles": [
+        "Walter Winchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335423",
+      "name": "Gogi Grant",
+      "sequence": 16,
+      "roles": [
+        "Helen Morgan"
+      ],
+      "notes": "(singing voice) (voice)"
+    },
+    {
+      "person_imdb_id": "nm0086319",
+      "name": "Nicky Blair",
+      "sequence": 17,
+      "roles": [
+        "Vendor"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0235093",
+      "name": "James Douglas",
+      "sequence": 18,
+      "roles": [
+        "Intern"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0838412",
+      "name": "Frank Sully",
+      "sequence": 19,
+      "roles": [
+        "Vendor"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0718466",
       "name": "Dean Riesner",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0519487",
       "name": "Stephen Longstreet",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0317254",
       "name": "Nelson Gidding",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1957-10-02",

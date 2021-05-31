@@ -1,63 +1,6 @@
 {
   "imdb_id": "tt0044386",
   "sort_title": "Robinson Crusoe (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0641397",
-      "name": "Dan O'Herlihy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robinson Crusoe",
-        "Crusoe's father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0272979",
-      "name": "Jaime Fern\u00e1ndez",
-      "sequence": 1,
-      "notes": "(as Jaime Fernandez)",
-      "roles": [
-        "Friday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016166",
-      "name": "Felipe de Alba",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Captain Oberzo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0530049",
-      "name": "Chel L\u00f3pez",
-      "sequence": 3,
-      "notes": "(as Chel Lopez)",
-      "roles": [
-        "The Bos'n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161657",
-      "name": "Jos\u00e9 Ch\u00e1vez",
-      "sequence": 4,
-      "notes": "(as Jose Chavez)",
-      "roles": [
-        "Leader of the Mutiny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307404",
-      "name": "Emilio Garibay",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Leader of the Mutiny"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -66,27 +9,84 @@
       "notes": "(as Luis Bunuel)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0641397",
+      "name": "Dan O'Herlihy",
+      "sequence": 0,
+      "roles": [
+        "Robinson Crusoe",
+        "Crusoe's father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0272979",
+      "name": "Jaime Fern\u00e1ndez",
+      "sequence": 1,
+      "roles": [
+        "Friday"
+      ],
+      "notes": "(as Jaime Fernandez)"
+    },
+    {
+      "person_imdb_id": "nm0016166",
+      "name": "Felipe de Alba",
+      "sequence": 2,
+      "roles": [
+        "Captain Oberzo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0530049",
+      "name": "Chel L\u00f3pez",
+      "sequence": 3,
+      "roles": [
+        "The Bos'n"
+      ],
+      "notes": "(as Chel Lopez)"
+    },
+    {
+      "person_imdb_id": "nm0161657",
+      "name": "Jos\u00e9 Ch\u00e1vez",
+      "sequence": 4,
+      "roles": [
+        "Leader of the Mutiny"
+      ],
+      "notes": "(as Jose Chavez)"
+    },
+    {
+      "person_imdb_id": "nm0307404",
+      "name": "Emilio Garibay",
+      "sequence": 5,
+      "roles": [
+        "Leader of the Mutiny"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0214518",
       "name": "Daniel Defoe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Robinson Crusoe\")",
-      "group_id": 0
+      "notes": "(novel \"Robinson Crusoe\")"
     },
     {
       "person_imdb_id": "nm0124947",
       "name": "Hugo Butler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1954-06-01",

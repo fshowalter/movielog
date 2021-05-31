@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0043048",
   "sort_title": "To Joy (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0632274",
-      "name": "Maj-Britt Nilsson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marta Olsson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0645041",
-      "name": "Stig Olin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Stig Eriksson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marcel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252476",
-      "name": "John Ekman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mikael Bro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137808",
-      "name": "Margit Carlqvist",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Nelly Bro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0803705",
-      "name": "Victor Sj\u00f6str\u00f6m",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "S\u00f6nderby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -65,13 +9,69 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0632274",
+      "name": "Maj-Britt Nilsson",
+      "sequence": 0,
+      "roles": [
+        "Marta Olsson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0645041",
+      "name": "Stig Olin",
+      "sequence": 1,
+      "roles": [
+        "Stig Eriksson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 2,
+      "roles": [
+        "Marcel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252476",
+      "name": "John Ekman",
+      "sequence": 3,
+      "roles": [
+        "Mikael Bro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137808",
+      "name": "Margit Carlqvist",
+      "sequence": 4,
+      "roles": [
+        "Nelly Bro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0803705",
+      "name": "Victor Sj\u00f6str\u00f6m",
+      "sequence": 5,
+      "roles": [
+        "S\u00f6nderby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1950-02-20",

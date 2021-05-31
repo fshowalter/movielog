@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0037414",
   "sort_title": "Uncertain Glory (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jean Picard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0510134",
-      "name": "Paul Lukas",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Inspector Marcel Bonet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914778",
-      "name": "Lucile Watson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mme. Maret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256207",
-      "name": "Faye Emerson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Louise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281329",
-      "name": "James Flavin",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Captain of Mobile Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241523",
-      "name": "Douglass Dumbrille",
-      "sequence": 5,
-      "notes": "(as Douglas Dumbrille)",
-      "roles": [
-        "Police Commissioner LaFarge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388615",
-      "name": "Dennis Hoey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Father Le Clerc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0502766",
-      "name": "Sheldon Leonard",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henr\u00ed Duval"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0617160",
-      "name": "Odette Myrtil",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mme. Bonet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682560",
-      "name": "Francis Pierlot",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Father La Borde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838130",
-      "name": "Jean Sullivan",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Marianne"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -110,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Jean Picard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0510134",
+      "name": "Paul Lukas",
+      "sequence": 1,
+      "roles": [
+        "Inspector Marcel Bonet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914778",
+      "name": "Lucile Watson",
+      "sequence": 2,
+      "roles": [
+        "Mme. Maret"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256207",
+      "name": "Faye Emerson",
+      "sequence": 3,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281329",
+      "name": "James Flavin",
+      "sequence": 4,
+      "roles": [
+        "Captain of Mobile Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241523",
+      "name": "Douglass Dumbrille",
+      "sequence": 5,
+      "roles": [
+        "Police Commissioner LaFarge"
+      ],
+      "notes": "(as Douglas Dumbrille)"
+    },
+    {
+      "person_imdb_id": "nm0388615",
+      "name": "Dennis Hoey",
+      "sequence": 6,
+      "roles": [
+        "Father Le Clerc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0502766",
+      "name": "Sheldon Leonard",
+      "sequence": 7,
+      "roles": [
+        "Henr\u00ed Duval"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0617160",
+      "name": "Odette Myrtil",
+      "sequence": 8,
+      "roles": [
+        "Mme. Bonet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682560",
+      "name": "Francis Pierlot",
+      "sequence": 9,
+      "roles": [
+        "Father La Borde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838130",
+      "name": "Jean Sullivan",
+      "sequence": 10,
+      "roles": [
+        "Marianne"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0883017",
       "name": "L\u00e1szl\u00f3 Vadnay",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Laszlo Vadnay)",
-      "group_id": 0
+      "notes": "(screenplay) (as Laszlo Vadnay)"
     },
     {
       "person_imdb_id": "nm0062738",
       "name": "Max Brand",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0562004",
       "name": "Joe May",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0883017",
       "name": "L\u00e1szl\u00f3 Vadnay",
-      "sequence": 0,
-      "notes": "(original story) (as Laszlo Vadnay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(original story) (as Laszlo Vadnay)"
     }
   ],
   "release_date": "1944-04-07",

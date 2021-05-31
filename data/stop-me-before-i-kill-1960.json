@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0054901",
   "sort_title": "Stop Me Before I Kill! (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0202405",
-      "name": "Claude Dauphin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Doctor Prade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0162283",
-      "name": "Diane Cilento",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Denise Colby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507708",
-      "name": "Ronald Lewis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alan Colby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0741147",
-      "name": "Fran\u00e7oise Rosay",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Madame Prade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102946",
-      "name": "Bernard Braden",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235135",
-      "name": "Katya Douglas",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Connie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0157443",
-      "name": "Barbara Chilcott",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Baroness de la Vailion"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864213",
-      "name": "Ann Tirard",
-      "sequence": 7,
-      "notes": "(as Anne Tirard)",
-      "roles": [
-        "Nicole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0836556",
-      "name": "Edwin Styles",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Doctor Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581416",
-      "name": "George Merritt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Doctor Manfield"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0346436",
@@ -101,27 +9,119 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0202405",
+      "name": "Claude Dauphin",
+      "sequence": 0,
+      "roles": [
+        "Doctor Prade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0162283",
+      "name": "Diane Cilento",
+      "sequence": 1,
+      "roles": [
+        "Denise Colby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507708",
+      "name": "Ronald Lewis",
+      "sequence": 2,
+      "roles": [
+        "Alan Colby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0741147",
+      "name": "Fran\u00e7oise Rosay",
+      "sequence": 3,
+      "roles": [
+        "Madame Prade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102946",
+      "name": "Bernard Braden",
+      "sequence": 4,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235135",
+      "name": "Katya Douglas",
+      "sequence": 5,
+      "roles": [
+        "Connie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0157443",
+      "name": "Barbara Chilcott",
+      "sequence": 6,
+      "roles": [
+        "Baroness de la Vailion"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864213",
+      "name": "Ann Tirard",
+      "sequence": 7,
+      "roles": [
+        "Nicole"
+      ],
+      "notes": "(as Anne Tirard)"
+    },
+    {
+      "person_imdb_id": "nm0836556",
+      "name": "Edwin Styles",
+      "sequence": 8,
+      "roles": [
+        "Doctor Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581416",
+      "name": "George Merritt",
+      "sequence": 9,
+      "roles": [
+        "Doctor Manfield"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0861304",
       "name": "Ronald Scott Thorn",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Full Treatment\")",
-      "group_id": 0
+      "notes": "(novel \"The Full Treatment\")"
     },
     {
       "person_imdb_id": "nm0346436",
       "name": "Val Guest",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0861304",
       "name": "Ronald Scott Thorn",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1960-10-01",

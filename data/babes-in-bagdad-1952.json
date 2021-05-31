@@ -1,132 +1,6 @@
 {
   "imdb_id": "tt0044389",
   "sort_title": "Babes in Bagdad (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002104",
-      "name": "Paulette Goddard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Kyra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0497346",
-      "name": "Gypsy Rose Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Zohara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628647",
-      "name": "Richard Ney",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ezar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092900",
-      "name": "John Boles",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hassan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302504",
-      "name": "Thomas Gallagher",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sharkhan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001982",
-      "name": "Sebastian Cabot",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sinbad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662002",
-      "name": "MacDonald Parke",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Caliph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0070926",
-      "name": "Natalie Benesh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Zelika"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218787",
-      "name": "Hugh Dempster",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Omar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061105",
-      "name": "Peter Bathurst",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175356",
-      "name": "Sheila Connolly",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Handmaiden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232933",
-      "name": "Laura Donoso",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Slave dealer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786443",
-      "name": "Carmen Sevilla",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Maura"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0880618",
@@ -135,34 +9,160 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002104",
+      "name": "Paulette Goddard",
+      "sequence": 0,
+      "roles": [
+        "Kyra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0497346",
+      "name": "Gypsy Rose Lee",
+      "sequence": 1,
+      "roles": [
+        "Zohara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0628647",
+      "name": "Richard Ney",
+      "sequence": 2,
+      "roles": [
+        "Ezar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092900",
+      "name": "John Boles",
+      "sequence": 3,
+      "roles": [
+        "Hassan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302504",
+      "name": "Thomas Gallagher",
+      "sequence": 4,
+      "roles": [
+        "Sharkhan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001982",
+      "name": "Sebastian Cabot",
+      "sequence": 5,
+      "roles": [
+        "Sinbad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662002",
+      "name": "MacDonald Parke",
+      "sequence": 6,
+      "roles": [
+        "Caliph"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0070926",
+      "name": "Natalie Benesh",
+      "sequence": 7,
+      "roles": [
+        "Zelika"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218787",
+      "name": "Hugh Dempster",
+      "sequence": 8,
+      "roles": [
+        "Omar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061105",
+      "name": "Peter Bathurst",
+      "sequence": 9,
+      "roles": [
+        "Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175356",
+      "name": "Sheila Connolly",
+      "sequence": 10,
+      "roles": [
+        "Handmaiden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232933",
+      "name": "Laura Donoso",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 12,
+      "roles": [
+        "Slave dealer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786443",
+      "name": "Carmen Sevilla",
+      "sequence": 13,
+      "roles": [
+        "Maura"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0030619",
       "name": "Joe Ansen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0270765",
       "name": "Felix E. Feist",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 1
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0506594",
       "name": "Reuben Levy",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0736275",
       "name": "John Roeburt",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 3
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1952-12-07",

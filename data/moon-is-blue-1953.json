@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0046094",
   "sort_title": "Moon Is Blue (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Donald Gresham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000057",
-      "name": "David Niven",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573704",
-      "name": "Maggie McNamara",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Patty O'Neill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Michael O'Neill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011625",
-      "name": "Dawn Addams",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cynthia Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093769",
-      "name": "Fortunio Bonanova",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Television Performer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711855",
-      "name": "Gregory Ratoff",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Taxi Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0473228",
-      "name": "Hardy Kr\u00fcger",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tourist",
-        "Donald Gresham"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0695937",
@@ -84,20 +9,95 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Donald Gresham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000057",
+      "name": "David Niven",
+      "sequence": 1,
+      "roles": [
+        "David Slater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573704",
+      "name": "Maggie McNamara",
+      "sequence": 2,
+      "roles": [
+        "Patty O'Neill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 3,
+      "roles": [
+        "Michael O'Neill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011625",
+      "name": "Dawn Addams",
+      "sequence": 4,
+      "roles": [
+        "Cynthia Slater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093769",
+      "name": "Fortunio Bonanova",
+      "sequence": 5,
+      "roles": [
+        "Television Performer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711855",
+      "name": "Gregory Ratoff",
+      "sequence": 6,
+      "roles": [
+        "Taxi Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0473228",
+      "name": "Hardy Kr\u00fcger",
+      "sequence": 8,
+      "roles": [
+        "Tourist",
+        "Donald Gresham"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0378540",
       "name": "F. Hugh Herbert",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0378540",
       "name": "F. Hugh Herbert",
+      "group": 1,
       "sequence": 0,
-      "notes": "(stage play \"The Moon Is Blue\")",
-      "group_id": 1
+      "notes": "(stage play \"The Moon Is Blue\")"
     }
   ],
   "release_date": "1953-06-03",

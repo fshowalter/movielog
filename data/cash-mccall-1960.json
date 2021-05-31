@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0052680",
   "sort_title": "Cash McCall (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001258",
-      "name": "James Garner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Cash McCall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000081",
-      "name": "Natalie Wood",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lory Austen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001225",
-      "name": "Nina Foch",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maude Kennard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Grant Austen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550855",
-      "name": "E.G. Marshall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Winston Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428216",
-      "name": "Henry Jones",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gilmore 'Gil' Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0472603",
-      "name": "Otto Kruger",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Will Atherson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935996",
-      "name": "Roland Winters",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "General Andrew 'Andy' Danvers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686857",
-      "name": "Edward Platt",
-      "sequence": 8,
-      "notes": "(as Edward C. Platt)",
-      "roles": [
-        "Harrison Glenn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825264",
-      "name": "Edgar Stehli",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Pierce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914349",
-      "name": "Linda Watkins",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Marie Austen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046373",
-      "name": "Parley Baer",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Harvey Bannon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0678928",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001258",
+      "name": "James Garner",
+      "sequence": 0,
+      "roles": [
+        "Cash McCall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000081",
+      "name": "Natalie Wood",
+      "sequence": 1,
+      "roles": [
+        "Lory Austen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001225",
+      "name": "Nina Foch",
+      "sequence": 2,
+      "roles": [
+        "Maude Kennard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 3,
+      "roles": [
+        "Grant Austen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550855",
+      "name": "E.G. Marshall",
+      "sequence": 4,
+      "roles": [
+        "Winston Conway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428216",
+      "name": "Henry Jones",
+      "sequence": 5,
+      "roles": [
+        "Gilmore 'Gil' Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0472603",
+      "name": "Otto Kruger",
+      "sequence": 6,
+      "roles": [
+        "Will Atherson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935996",
+      "name": "Roland Winters",
+      "sequence": 7,
+      "roles": [
+        "General Andrew 'Andy' Danvers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686857",
+      "name": "Edward Platt",
+      "sequence": 8,
+      "roles": [
+        "Harrison Glenn"
+      ],
+      "notes": "(as Edward C. Platt)"
+    },
+    {
+      "person_imdb_id": "nm0825264",
+      "name": "Edgar Stehli",
+      "sequence": 9,
+      "roles": [
+        "Mr. Pierce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914349",
+      "name": "Linda Watkins",
+      "sequence": 10,
+      "roles": [
+        "Marie Austen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0046373",
+      "name": "Parley Baer",
+      "sequence": 11,
+      "roles": [
+        "Harvey Bannon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0168829",
       "name": "Lenore J. Coffee",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Lenore Coffee)",
-      "group_id": 0
+      "notes": "(screenplay) (as Lenore Coffee)"
     },
     {
       "person_imdb_id": "nm0362992",
       "name": "Marion Hargrove",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0370312",
       "name": "Cameron Hawley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1960-01-20",

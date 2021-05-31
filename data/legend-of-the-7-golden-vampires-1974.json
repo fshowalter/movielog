@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0070297",
   "sort_title": "Legend of the 7 Golden Vampires (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Professor Lawrence Van Helsing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156955",
-      "name": "David Chiang",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Hsi Ching"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250774",
-      "name": "Julie Ege",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Vanessa Buren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151169",
-      "name": "Han Chen Wang",
-      "sequence": 3,
-      "notes": "(as Wong Han Chan)",
-      "roles": [
-        "Leung Hon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829781",
-      "name": "Robin Stewart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Leyland Van Helsing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793389",
-      "name": "Szu Shih",
-      "sequence": 5,
-      "notes": "(as Shih Szu)",
-      "roles": [
-        "Mei Kwei"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285424",
-      "name": "John Forbes-Robertson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0360234",
-      "name": "Robert Hanna",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "British Consul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791461",
-      "name": "Shen Chan",
-      "sequence": 8,
-      "notes": "(as Chan Shen)",
-      "roles": [
-        "Kah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3035786",
-      "name": "Tsan-Hsi Ma",
-      "sequence": 9,
-      "notes": "(as James Ma)",
-      "roles": [
-        "Hsi Ta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514905",
-      "name": "Chia-Yung Liu",
-      "sequence": 10,
-      "notes": "(as Liu Chia Yung)",
-      "roles": [
-        "Hsi Kwei"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025546",
-      "name": "Hark-On Fung",
-      "sequence": 11,
-      "notes": "(as Fong Kah Ann)",
-      "roles": [
-        "Hsi Sung"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519729",
-      "name": "Tien Lung Chen",
-      "sequence": 12,
-      "notes": "(as Chen Tien Loong)",
-      "roles": [
-        "Hsi San"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0209095",
-      "name": "David de Keyser",
-      "sequence": 14,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Count Dracula"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001928",
@@ -143,13 +15,132 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Professor Lawrence Van Helsing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156955",
+      "name": "David Chiang",
+      "sequence": 1,
+      "roles": [
+        "Hsi Ching"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250774",
+      "name": "Julie Ege",
+      "sequence": 2,
+      "roles": [
+        "Vanessa Buren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151169",
+      "name": "Han Chen Wang",
+      "sequence": 3,
+      "roles": [
+        "Leung Hon"
+      ],
+      "notes": "(as Wong Han Chan)"
+    },
+    {
+      "person_imdb_id": "nm0829781",
+      "name": "Robin Stewart",
+      "sequence": 4,
+      "roles": [
+        "Leyland Van Helsing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793389",
+      "name": "Szu Shih",
+      "sequence": 5,
+      "roles": [
+        "Mei Kwei"
+      ],
+      "notes": "(as Shih Szu)"
+    },
+    {
+      "person_imdb_id": "nm0285424",
+      "name": "John Forbes-Robertson",
+      "sequence": 6,
+      "roles": [
+        "Dracula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0360234",
+      "name": "Robert Hanna",
+      "sequence": 7,
+      "roles": [
+        "British Consul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791461",
+      "name": "Shen Chan",
+      "sequence": 8,
+      "roles": [
+        "Kah"
+      ],
+      "notes": "(as Chan Shen)"
+    },
+    {
+      "person_imdb_id": "nm3035786",
+      "name": "Tsan-Hsi Ma",
+      "sequence": 9,
+      "roles": [
+        "Hsi Ta"
+      ],
+      "notes": "(as James Ma)"
+    },
+    {
+      "person_imdb_id": "nm0514905",
+      "name": "Chia-Yung Liu",
+      "sequence": 10,
+      "roles": [
+        "Hsi Kwei"
+      ],
+      "notes": "(as Liu Chia Yung)"
+    },
+    {
+      "person_imdb_id": "nm0025546",
+      "name": "Hark-On Fung",
+      "sequence": 11,
+      "roles": [
+        "Hsi Sung"
+      ],
+      "notes": "(as Fong Kah Ann)"
+    },
+    {
+      "person_imdb_id": "nm0519729",
+      "name": "Tien Lung Chen",
+      "sequence": 12,
+      "roles": [
+        "Hsi San"
+      ],
+      "notes": "(as Chen Tien Loong)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0396449",
       "name": "Don Houghton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1974-07-11",

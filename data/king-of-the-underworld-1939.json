@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0031536",
   "sort_title": "King of the Underworld (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Gurney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290215",
-      "name": "Kay Francis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carole Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827263",
-      "name": "James Stephenson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bill Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253141",
-      "name": "John Eldredge",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Niles Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124364",
-      "name": "Jessie Busley",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Aunt Josephine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043849",
-      "name": "Arthur Aylesworth",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Sanders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114484",
-      "name": "Raymond Brown",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875877",
-      "name": "Harland Tucker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Ames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0718980",
-      "name": "Ralph Remley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289382",
-      "name": "Charley Foy",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Slick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022367",
-      "name": "Murray Alper",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Eddie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222797",
-      "name": "Joe Devlin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Porky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838057",
-      "name": "Elliott Sullivan",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mugsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0204133",
-      "name": "Alan Davis",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Pete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363515",
-      "name": "John Harmon",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Slats"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Jerry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094026",
-      "name": "Richard Bond",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Interne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914246",
-      "name": "Pierre Watkin",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "District Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Dr. Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822468",
-      "name": "Edwin Stanley",
-      "sequence": 19,
-      "notes": "(as Ed Stanley)",
-      "roles": [
-        "Dr. Jacobs"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0782597",
@@ -191,27 +9,209 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Joe Gurney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290215",
+      "name": "Kay Francis",
+      "sequence": 1,
+      "roles": [
+        "Carole Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827263",
+      "name": "James Stephenson",
+      "sequence": 2,
+      "roles": [
+        "Bill Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253141",
+      "name": "John Eldredge",
+      "sequence": 3,
+      "roles": [
+        "Niles Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124364",
+      "name": "Jessie Busley",
+      "sequence": 4,
+      "roles": [
+        "Aunt Josephine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043849",
+      "name": "Arthur Aylesworth",
+      "sequence": 5,
+      "roles": [
+        "Dr. Sanders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0114484",
+      "name": "Raymond Brown",
+      "sequence": 6,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875877",
+      "name": "Harland Tucker",
+      "sequence": 7,
+      "roles": [
+        "Mr. Ames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0718980",
+      "name": "Ralph Remley",
+      "sequence": 8,
+      "roles": [
+        "Mr. Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289382",
+      "name": "Charley Foy",
+      "sequence": 9,
+      "roles": [
+        "Slick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0022367",
+      "name": "Murray Alper",
+      "sequence": 10,
+      "roles": [
+        "Eddie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222797",
+      "name": "Joe Devlin",
+      "sequence": 11,
+      "roles": [
+        "Porky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838057",
+      "name": "Elliott Sullivan",
+      "sequence": 12,
+      "roles": [
+        "Mugsy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0204133",
+      "name": "Alan Davis",
+      "sequence": 13,
+      "roles": [
+        "Pete"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363515",
+      "name": "John Harmon",
+      "sequence": 14,
+      "roles": [
+        "Slats"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 15,
+      "roles": [
+        "Jerry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094026",
+      "name": "Richard Bond",
+      "sequence": 16,
+      "roles": [
+        "Interne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914246",
+      "name": "Pierre Watkin",
+      "sequence": 17,
+      "roles": [
+        "District Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 18,
+      "roles": [
+        "Dr. Ryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822468",
+      "name": "Edwin Stanley",
+      "sequence": 19,
+      "roles": [
+        "Dr. Jacobs"
+      ],
+      "notes": "(as Ed Stanley)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0108579",
       "name": "George Bricker",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0792605",
       "name": "Vincent Sherman",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0122446",
       "name": "W.R. Burnett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted from a story by)",
-      "group_id": 1
+      "notes": "(adapted from a story by)"
     }
   ],
   "release_date": "1939-01-07",

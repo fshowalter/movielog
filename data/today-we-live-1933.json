@@ -1,87 +1,6 @@
 {
   "imdb_id": "tt0024675",
   "sort_title": "Today We Live (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001076",
-      "name": "Joan Crawford",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Diana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000011",
-      "name": "Gary Cooper",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bogard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001870",
-      "name": "Robert Young",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claude"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867144",
-      "name": "Franchot Tone",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ronnie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "McGinnis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167113",
-      "name": "Louise Closser Hale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Applegate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516121",
-      "name": "Rollo Lloyd",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Major"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891176",
-      "name": "Hilda Vaughn",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Eleanor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6243470",
-      "name": "Gene O'Brien",
-      "sequence": 8,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -96,48 +15,129 @@
       "notes": "(co-director)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001076",
+      "name": "Joan Crawford",
+      "sequence": 0,
+      "roles": [
+        "Diana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000011",
+      "name": "Gary Cooper",
+      "sequence": 1,
+      "roles": [
+        "Bogard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001870",
+      "name": "Robert Young",
+      "sequence": 2,
+      "roles": [
+        "Claude"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867144",
+      "name": "Franchot Tone",
+      "sequence": 3,
+      "roles": [
+        "Ronnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 4,
+      "roles": [
+        "McGinnis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167113",
+      "name": "Louise Closser Hale",
+      "sequence": 5,
+      "roles": [
+        "Applegate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516121",
+      "name": "Rollo Lloyd",
+      "sequence": 6,
+      "roles": [
+        "Major"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891176",
+      "name": "Hilda Vaughn",
+      "sequence": 7,
+      "roles": [
+        "Eleanor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6243470",
+      "name": "Gene O'Brien",
+      "sequence": 8,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"Turn About\")",
-      "group_id": 0
+      "notes": "(story \"Turn About\")"
     },
     {
       "person_imdb_id": "nm0280223",
       "name": "Edith Fitzgerald",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0852313",
       "name": "Dwight Taylor",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0001328",
       "name": "Howard Hawks",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0192234",
       "name": "Ann Cunningham",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1933-03-03",

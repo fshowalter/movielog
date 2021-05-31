@@ -1,122 +1,6 @@
 {
   "imdb_id": "tt0087925",
   "sort_title": "I Go Pogo (1980)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0005565",
-      "name": "Jonathan Winters",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Porky Pine",
-        "Molester Mole",
-        "Wiley Catt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 1,
-      "notes": "(voice)",
-      "roles": [
-        "Deacon Mushrat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125651",
-      "name": "Ruth Buzzi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Miz Beaver",
-        "Miss Mam'selle Hepzibah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292677",
-      "name": "Stan Freberg",
-      "sequence": 3,
-      "notes": "(voice)",
-      "roles": [
-        "Albert the Alligator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107736",
-      "name": "Jimmy Breslin",
-      "sequence": 4,
-      "notes": "(voice)",
-      "roles": [
-        "P.T. Bridgeport"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822205",
-      "name": "Arnold Stang",
-      "sequence": 5,
-      "notes": "(voice)",
-      "roles": [
-        "Churchy LaFemme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0568657",
-      "name": "Bob McFadden",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Howland Owl",
-        "Bothered Bat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561752",
-      "name": "Len Maxwell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bewitched Bat",
-        "Seminole Sam",
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0435742",
-      "name": "Bob Kaliban",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "Bewildered Bat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1196316",
-      "name": "Marcia Savella",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "Miz Beetle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3253577",
-      "name": "Mike Schultz",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "Fremount the Boy Bug"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385830",
-      "name": "Skip Hinnant",
-      "sequence": 11,
-      "notes": "(voice)",
-      "roles": [
-        "Pogo Possum"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0157967",
@@ -125,20 +9,136 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0005565",
+      "name": "Jonathan Winters",
+      "sequence": 0,
+      "roles": [
+        "Porky Pine",
+        "Molester Mole",
+        "Wiley Catt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 1,
+      "roles": [
+        "Deacon Mushrat"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0125651",
+      "name": "Ruth Buzzi",
+      "sequence": 2,
+      "roles": [
+        "Miz Beaver",
+        "Miss Mam'selle Hepzibah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292677",
+      "name": "Stan Freberg",
+      "sequence": 3,
+      "roles": [
+        "Albert the Alligator"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0107736",
+      "name": "Jimmy Breslin",
+      "sequence": 4,
+      "roles": [
+        "P.T. Bridgeport"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0822205",
+      "name": "Arnold Stang",
+      "sequence": 5,
+      "roles": [
+        "Churchy LaFemme"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0568657",
+      "name": "Bob McFadden",
+      "sequence": 6,
+      "roles": [
+        "Howland Owl",
+        "Bothered Bat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561752",
+      "name": "Len Maxwell",
+      "sequence": 7,
+      "roles": [
+        "Bewitched Bat",
+        "Seminole Sam",
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0435742",
+      "name": "Bob Kaliban",
+      "sequence": 8,
+      "roles": [
+        "Bewildered Bat"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1196316",
+      "name": "Marcia Savella",
+      "sequence": 9,
+      "roles": [
+        "Miz Beetle"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm3253577",
+      "name": "Mike Schultz",
+      "sequence": 10,
+      "roles": [
+        "Fremount the Boy Bug"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0385830",
+      "name": "Skip Hinnant",
+      "sequence": 11,
+      "roles": [
+        "Pogo Possum"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0446941",
       "name": "Walt Kelly",
+      "group": 0,
       "sequence": 0,
-      "notes": "(comic strip: \"Pogo\")",
-      "group_id": 0
+      "notes": "(comic strip: \"Pogo\")"
     },
     {
       "person_imdb_id": "nm0157967",
       "name": "Marc Paul Chinoy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     }
   ],
   "release_date": "1980-08-01",

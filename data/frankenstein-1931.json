@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0021884",
   "sort_title": "Frankenstein (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0166972",
-      "name": "Colin Clive",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Henry Frankenstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164883",
-      "name": "Mae Clarke",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092900",
-      "name": "John Boles",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Victor Moritz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 3,
-      "notes": "(as Boris Karloff)",
-      "roles": [
-        "The Monster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888000",
-      "name": "Edward Van Sloan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Doctor Waldman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0449694",
-      "name": "Frederick Kerr",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Baron Frankenstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296859",
-      "name": "Dwight Frye",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fritz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0069373",
-      "name": "Lionel Belmore",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Burgomaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365048",
-      "name": "Marilyn Harris",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Little Maria"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001843",
@@ -92,62 +9,145 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0166972",
+      "name": "Colin Clive",
+      "sequence": 0,
+      "roles": [
+        "Henry Frankenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164883",
+      "name": "Mae Clarke",
+      "sequence": 1,
+      "roles": [
+        "Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092900",
+      "name": "John Boles",
+      "sequence": 2,
+      "roles": [
+        "Victor Moritz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 3,
+      "roles": [
+        "The Monster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888000",
+      "name": "Edward Van Sloan",
+      "sequence": 4,
+      "roles": [
+        "Doctor Waldman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0449694",
+      "name": "Frederick Kerr",
+      "sequence": 5,
+      "roles": [
+        "Baron Frankenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0296859",
+      "name": "Dwight Frye",
+      "sequence": 6,
+      "roles": [
+        "Fritz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0069373",
+      "name": "Lionel Belmore",
+      "sequence": 7,
+      "roles": [
+        "The Burgomaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365048",
+      "name": "Marilyn Harris",
+      "sequence": 8,
+      "roles": [
+        "Little Maria"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based upon the composition by)",
-      "group_id": 0
+      "notes": "(based upon the composition by)"
     },
     {
       "person_imdb_id": "nm0791217",
       "name": "Mary Shelley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by) (as Mrs. Percy B. Shelley)",
-      "group_id": 1
+      "notes": "(from the novel by) (as Mrs. Percy B. Shelley)"
     },
     {
       "person_imdb_id": "nm0916811",
       "name": "Peggy Webling",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adapted from the play by)",
-      "group_id": 2
+      "notes": "(adapted from the play by)"
     },
     {
       "person_imdb_id": "nm0287124",
       "name": "Garrett Fort",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 3
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0267020",
       "name": "Francis Edward Faragoh",
-      "sequence": 0,
-      "notes": "(screen play) (as Francis Edwards Faragoh)",
-      "group_id": 3
+      "group": 3,
+      "sequence": 1,
+      "notes": "(screen play) (as Francis Edwards Faragoh)"
     },
     {
       "person_imdb_id": "nm0770337",
       "name": "Richard Schayer",
+      "group": 4,
       "sequence": 0,
-      "notes": "(scenario editor)",
-      "group_id": 4
+      "notes": "(scenario editor)"
     },
     {
       "person_imdb_id": "nm0282984",
       "name": "Robert Florey",
+      "group": 5,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 5
+      "notes": "(contributor to treatment) (uncredited)"
     },
     {
       "person_imdb_id": "nm0751246",
       "name": "John Russell",
+      "group": 6,
       "sequence": 0,
-      "notes": "(contributor to screenplay construction) (uncredited)",
-      "group_id": 6
+      "notes": "(contributor to screenplay construction) (uncredited)"
     }
   ],
   "release_date": "1931-11-19",

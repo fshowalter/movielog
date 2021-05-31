@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0040089",
   "sort_title": "Always Together (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0404665",
-      "name": "Robert Hutton",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Donn Masters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721803",
-      "name": "Joyce Reynolds",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jane Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445523",
-      "name": "Cecil Kellaway",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jonathan Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0874139",
-      "name": "Ernest Truex",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Timothy J. Bull, Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570190",
-      "name": "Don McGuire",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "McIntyre, Reporter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792548",
-      "name": "Ransom M. Sherman",
-      "sequence": 5,
-      "notes": "(as Ransom Sherman)",
-      "roles": [
-        "Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448004",
-      "name": "Douglas Kennedy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Doberman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0208111",
@@ -74,27 +9,92 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0404665",
+      "name": "Robert Hutton",
+      "sequence": 0,
+      "roles": [
+        "Donn Masters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721803",
+      "name": "Joyce Reynolds",
+      "sequence": 1,
+      "roles": [
+        "Jane Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445523",
+      "name": "Cecil Kellaway",
+      "sequence": 2,
+      "roles": [
+        "Jonathan Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0874139",
+      "name": "Ernest Truex",
+      "sequence": 3,
+      "roles": [
+        "Mr. Timothy J. Bull, Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570190",
+      "name": "Don McGuire",
+      "sequence": 4,
+      "roles": [
+        "McIntyre, Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792548",
+      "name": "Ransom M. Sherman",
+      "sequence": 5,
+      "roles": [
+        "Judge"
+      ],
+      "notes": "(as Ransom Sherman)"
+    },
+    {
+      "person_imdb_id": "nm0448004",
+      "name": "Douglas Kennedy",
+      "sequence": 6,
+      "roles": [
+        "Doberman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0258288",
       "name": "Henry Ephron",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0258290",
       "name": "Phoebe Ephron",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1947-12-10",

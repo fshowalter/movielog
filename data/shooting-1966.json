@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0062262",
   "sort_title": "Shooting (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0404298",
-      "name": "Will Hutchins",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Coley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0674012",
-      "name": "Millie Perkins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Billy Spear"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Willett Gashade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247631",
-      "name": "Charles Eastman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bearded Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252768",
-      "name": "Guy El Tsosie",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Indian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140747",
-      "name": "Brandon Carroll",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580732",
-      "name": "B.J. Merholz",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Leland Drum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0076976",
-      "name": "Wally K. Berns",
-      "sequence": 8,
-      "notes": "(as Wally Moon)",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533612",
-      "name": "William Mackleprang",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cross Tree Townsman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132529",
-      "name": "James Campbell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cross Tree Townsman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0375494",
@@ -110,13 +9,114 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0404298",
+      "name": "Will Hutchins",
+      "sequence": 0,
+      "roles": [
+        "Coley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0674012",
+      "name": "Millie Perkins",
+      "sequence": 1,
+      "roles": [
+        "Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 2,
+      "roles": [
+        "Billy Spear"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 3,
+      "roles": [
+        "Willett Gashade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247631",
+      "name": "Charles Eastman",
+      "sequence": 4,
+      "roles": [
+        "Bearded Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252768",
+      "name": "Guy El Tsosie",
+      "sequence": 5,
+      "roles": [
+        "Indian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140747",
+      "name": "Brandon Carroll",
+      "sequence": 6,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580732",
+      "name": "B.J. Merholz",
+      "sequence": 7,
+      "roles": [
+        "Leland Drum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0076976",
+      "name": "Wally K. Berns",
+      "sequence": 8,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": "(as Wally Moon)"
+    },
+    {
+      "person_imdb_id": "nm0533612",
+      "name": "William Mackleprang",
+      "sequence": 9,
+      "roles": [
+        "Cross Tree Townsman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132529",
+      "name": "James Campbell",
+      "sequence": 10,
+      "roles": [
+        "Cross Tree Townsman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0247628",
       "name": "Carole Eastman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Adrien Joyce)",
-      "group_id": 0
+      "notes": "(written by) (as Adrien Joyce)"
     }
   ],
   "release_date": "1966-06-02",

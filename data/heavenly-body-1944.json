@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0035980",
   "sort_title": "Heavenly Body (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "William S. Whitley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001443",
-      "name": "Hedy Lamarr",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Vicky Whitley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185883",
-      "name": "James Craig",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lloyd X. Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047810",
-      "name": "Fay Bainter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Margaret Sibyll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Prof. Stowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001981",
-      "name": "Spring Byington",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nancy Potter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838420",
-      "name": "Robert Sully",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Strand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030194",
-      "name": "Morris Ankrum",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Green"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181075",
-      "name": "Franco Corsaro",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sebastian Melas - Violinist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318349",
-      "name": "Connie Gilchrist",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Beulah - 'Delia Murphy'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929772",
-      "name": "Max Willenz",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr.Gurtchakoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577627",
-      "name": "Alex Melesh",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Vladimir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0770844",
-      "name": "Earl Schenck",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Forbes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816475",
-      "name": "Arthur Space",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Pierson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293415",
-      "name": "Helen Freeman",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Stella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448282",
-      "name": "Phyllis Kennedy",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Ethel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134783",
-      "name": "Marietta Canty",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Pearl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0355284",
@@ -170,69 +15,224 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "William S. Whitley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001443",
+      "name": "Hedy Lamarr",
+      "sequence": 1,
+      "roles": [
+        "Vicky Whitley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185883",
+      "name": "James Craig",
+      "sequence": 2,
+      "roles": [
+        "Lloyd X. Hunter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047810",
+      "name": "Fay Bainter",
+      "sequence": 3,
+      "roles": [
+        "Margaret Sibyll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 4,
+      "roles": [
+        "Prof. Stowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001981",
+      "name": "Spring Byington",
+      "sequence": 5,
+      "roles": [
+        "Nancy Potter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838420",
+      "name": "Robert Sully",
+      "sequence": 6,
+      "roles": [
+        "Strand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030194",
+      "name": "Morris Ankrum",
+      "sequence": 7,
+      "roles": [
+        "Dr. Green"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181075",
+      "name": "Franco Corsaro",
+      "sequence": 8,
+      "roles": [
+        "Sebastian Melas - Violinist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318349",
+      "name": "Connie Gilchrist",
+      "sequence": 9,
+      "roles": [
+        "Beulah - 'Delia Murphy'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929772",
+      "name": "Max Willenz",
+      "sequence": 10,
+      "roles": [
+        "Dr.Gurtchakoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0577627",
+      "name": "Alex Melesh",
+      "sequence": 11,
+      "roles": [
+        "Vladimir"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0770844",
+      "name": "Earl Schenck",
+      "sequence": 12,
+      "roles": [
+        "Forbes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816475",
+      "name": "Arthur Space",
+      "sequence": 13,
+      "roles": [
+        "Pierson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293415",
+      "name": "Helen Freeman",
+      "sequence": 14,
+      "roles": [
+        "Stella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448282",
+      "name": "Phyllis Kennedy",
+      "sequence": 15,
+      "roles": [
+        "Ethel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134783",
+      "name": "Marietta Canty",
+      "sequence": 16,
+      "roles": [
+        "Pearl"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0862419",
       "name": "Jacques Th\u00e9ry",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story) (as Jacques Thery)",
-      "group_id": 0
+      "notes": "(story) (as Jacques Thery)"
     },
     {
       "person_imdb_id": "nm0475823",
       "name": "Harry Kurnitz",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0035158",
       "name": "Michael Arlen",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0281556",
       "name": "Walter Reisch",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0106505",
       "name": "Irving Brecher",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0172628",
       "name": "Richard Collins",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0418972",
       "name": "Paul Jarrico",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0537201",
       "name": "Wilkie C. Mahoney",
+      "group": 6,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 6
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0736911",
       "name": "Howard Emmett Rogers",
+      "group": 7,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 7
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1944-03-23",

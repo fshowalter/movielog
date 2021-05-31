@@ -1,99 +1,6 @@
 {
   "imdb_id": "tt0069467",
   "sort_title": "Cries & Whispers (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0027683",
-      "name": "Harriet Andersson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Agnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0843306",
-      "name": "Kari Sylwan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862026",
-      "name": "Ingrid Thulin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Karin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0880521",
-      "name": "Liv Ullmann",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Maria",
-        "Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252244",
-      "name": "Anders Ek",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Isak"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318676",
-      "name": "Inga Gill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Storyteller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430746",
-      "name": "Erland Josephson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605786",
-      "name": "Henning Moritzen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joakim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0959813",
-      "name": "Georg \u00c5rlin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Fredrik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000005",
-      "name": "Ingmar Bergman",
-      "sequence": 9,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -102,13 +9,97 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0027683",
+      "name": "Harriet Andersson",
+      "sequence": 0,
+      "roles": [
+        "Agnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0843306",
+      "name": "Kari Sylwan",
+      "sequence": 1,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0862026",
+      "name": "Ingrid Thulin",
+      "sequence": 2,
+      "roles": [
+        "Karin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0880521",
+      "name": "Liv Ullmann",
+      "sequence": 3,
+      "roles": [
+        "Maria",
+        "Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252244",
+      "name": "Anders Ek",
+      "sequence": 4,
+      "roles": [
+        "Isak"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318676",
+      "name": "Inga Gill",
+      "sequence": 5,
+      "roles": [
+        "Storyteller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430746",
+      "name": "Erland Josephson",
+      "sequence": 6,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605786",
+      "name": "Henning Moritzen",
+      "sequence": 7,
+      "roles": [
+        "Joakim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0959813",
+      "name": "Georg \u00c5rlin",
+      "sequence": 8,
+      "roles": [
+        "Fredrik"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1972-12-21",

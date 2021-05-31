@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0036323",
   "sort_title": "Sahara (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sgt. Joe Gunn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071636",
-      "name": "Bruce Bennett",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Waco Hoyt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619798",
-      "name": "J. Carrol Naish",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Giuseppe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000978",
-      "name": "Lloyd Bridges",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Fred Clarkson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002270",
-      "name": "Rex Ingram",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sgt. Major Tambul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0013935",
-      "name": "Richard Aherne",
-      "sequence": 5,
-      "notes": "(as Richard Nugent)",
-      "roles": [
-        "Capt. Jason Halliday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002053",
-      "name": "Dan Duryea",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jimmy Doyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0361945",
-      "name": "Carl Harbord",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Marty Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641868",
-      "name": "Patrick O'Moore",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Osmond 'Ozzie' Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580425",
-      "name": "Louis Mercier",
-      "sequence": 9,
-      "notes": "(as Louis T. Mercier)",
-      "roles": [
-        "Jean Leroux, 'Frenchie'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455490",
-      "name": "Guy Kingsford",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Peter Stegman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0471031",
-      "name": "Kurt Kreuger",
-      "sequence": 11,
-      "notes": "(as Kurt Krueger)",
-      "roles": [
-        "Capt. von Schletow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920987",
-      "name": "John Wengraf",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Maj. Von Falken"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941520",
-      "name": "Frederick Worlock",
-      "sequence": 35,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Newscaster"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0466113",
@@ -137,41 +9,160 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Sgt. Joe Gunn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071636",
+      "name": "Bruce Bennett",
+      "sequence": 1,
+      "roles": [
+        "Waco Hoyt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619798",
+      "name": "J. Carrol Naish",
+      "sequence": 2,
+      "roles": [
+        "Giuseppe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000978",
+      "name": "Lloyd Bridges",
+      "sequence": 3,
+      "roles": [
+        "Fred Clarkson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002270",
+      "name": "Rex Ingram",
+      "sequence": 4,
+      "roles": [
+        "Sgt. Major Tambul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0013935",
+      "name": "Richard Aherne",
+      "sequence": 5,
+      "roles": [
+        "Capt. Jason Halliday"
+      ],
+      "notes": "(as Richard Nugent)"
+    },
+    {
+      "person_imdb_id": "nm0002053",
+      "name": "Dan Duryea",
+      "sequence": 6,
+      "roles": [
+        "Jimmy Doyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0361945",
+      "name": "Carl Harbord",
+      "sequence": 7,
+      "roles": [
+        "Marty Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641868",
+      "name": "Patrick O'Moore",
+      "sequence": 8,
+      "roles": [
+        "Osmond 'Ozzie' Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580425",
+      "name": "Louis Mercier",
+      "sequence": 9,
+      "roles": [
+        "Jean Leroux, 'Frenchie'"
+      ],
+      "notes": "(as Louis T. Mercier)"
+    },
+    {
+      "person_imdb_id": "nm0455490",
+      "name": "Guy Kingsford",
+      "sequence": 10,
+      "roles": [
+        "Peter Stegman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0471031",
+      "name": "Kurt Kreuger",
+      "sequence": 11,
+      "roles": [
+        "Capt. von Schletow"
+      ],
+      "notes": "(as Kurt Krueger)"
+    },
+    {
+      "person_imdb_id": "nm0920987",
+      "name": "John Wengraf",
+      "sequence": 12,
+      "roles": [
+        "Maj. Von Falken"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0493251",
       "name": "John Howard Lawson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0466113",
       "name": "Zoltan Korda",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0641199",
       "name": "James O'Hanlon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0531878",
       "name": "Philip MacDonald",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story: based on an incident in the Soviet photoplay, \"THE THIRTEEN\") (as Philip Macdonald)",
-      "group_id": 2
+      "notes": "(story: based on an incident in the Soviet photoplay, \"THE THIRTEEN\") (as Philip Macdonald)"
     },
     {
       "person_imdb_id": "nm0118227",
       "name": "Sidney Buchman",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1943-09-02",

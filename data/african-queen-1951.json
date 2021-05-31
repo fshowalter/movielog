@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0043265",
   "sort_title": "African Queen (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Charlie Allnutt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000031",
-      "name": "Katharine Hepburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Rose Sayer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605923",
-      "name": "Robert Morley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "The Brother",
-        "Rev. Samuel Sayer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0119988",
-      "name": "Peter Bull",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Captain of Louisa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000942",
-      "name": "Theodore Bikel",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "First Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331770",
-      "name": "Walter Gotell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Second Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822842",
-      "name": "Peter Swanwick",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "First Officer of Shona"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549424",
-      "name": "Richard Marner",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Second Officer of Shona"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -84,45 +9,120 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Charlie Allnutt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000031",
+      "name": "Katharine Hepburn",
+      "sequence": 1,
+      "roles": [
+        "Rose Sayer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605923",
+      "name": "Robert Morley",
+      "sequence": 2,
+      "roles": [
+        "The Brother",
+        "Rev. Samuel Sayer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0119988",
+      "name": "Peter Bull",
+      "sequence": 3,
+      "roles": [
+        "Captain of Louisa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000942",
+      "name": "Theodore Bikel",
+      "sequence": 4,
+      "roles": [
+        "First Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0331770",
+      "name": "Walter Gotell",
+      "sequence": 5,
+      "roles": [
+        "Second Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822842",
+      "name": "Peter Swanwick",
+      "sequence": 6,
+      "roles": [
+        "First Officer of Shona"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549424",
+      "name": "Richard Marner",
+      "sequence": 7,
+      "roles": [
+        "Second Officer of Shona"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0286163",
       "name": "C.S. Forester",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The African Queen\")",
-      "group_id": 0
+      "notes": "(novel \"The African Queen\")"
     },
     {
       "person_imdb_id": "nm0012938",
       "name": "James Agee",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 1
+      "notes": "(adapted for the screen by)"
     },
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adapted for the screen by)"
     },
     {
       "person_imdb_id": "nm0171924",
       "name": "John Collier",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0896830",
       "name": "Peter Viertel",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1951-12-26",
-  "release_date_notes": "(Los Angeles, California)",
+  "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United Kingdom",
     "United States"

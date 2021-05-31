@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0044333",
   "sort_title": "Against All Flags (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Brian Hawke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000058",
-      "name": "Maureen O'Hara",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Prudence 'Spitfire' Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000063",
-      "name": "Anthony Quinn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Roc Brasiliano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445863",
-      "name": "Alice Kelley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Princess Patma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622450",
-      "name": "Mildred Natwick",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Molvina MacGregor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913094",
-      "name": "Robert Warwick",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. Kidd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179591",
-      "name": "Harry Cording",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017580",
-      "name": "John Alderson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jonathan Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876444",
-      "name": "Phil Tully",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sir Cloudsley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654286",
-      "name": "Tudor Owen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550342",
-      "name": "Maurice Marsac",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Capt. Moisson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186608",
-      "name": "James Craven",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Capt. Hornsby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0265566",
-      "name": "James Fairfax",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Krukshank - Barber"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792450",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Brian Hawke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000058",
+      "name": "Maureen O'Hara",
+      "sequence": 1,
+      "roles": [
+        "Prudence 'Spitfire' Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000063",
+      "name": "Anthony Quinn",
+      "sequence": 2,
+      "roles": [
+        "Capt. Roc Brasiliano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445863",
+      "name": "Alice Kelley",
+      "sequence": 3,
+      "roles": [
+        "Princess Patma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622450",
+      "name": "Mildred Natwick",
+      "sequence": 4,
+      "roles": [
+        "Molvina MacGregor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913094",
+      "name": "Robert Warwick",
+      "sequence": 5,
+      "roles": [
+        "Capt. Kidd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179591",
+      "name": "Harry Cording",
+      "sequence": 6,
+      "roles": [
+        "Gow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017580",
+      "name": "John Alderson",
+      "sequence": 7,
+      "roles": [
+        "Jonathan Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876444",
+      "name": "Phil Tully",
+      "sequence": 8,
+      "roles": [
+        "Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 9,
+      "roles": [
+        "Sir Cloudsley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654286",
+      "name": "Tudor Owen",
+      "sequence": 10,
+      "roles": [
+        "Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550342",
+      "name": "Maurice Marsac",
+      "sequence": 11,
+      "roles": [
+        "Capt. Moisson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186608",
+      "name": "James Craven",
+      "sequence": 12,
+      "roles": [
+        "Capt. Hornsby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0265566",
+      "name": "James Fairfax",
+      "sequence": 13,
+      "roles": [
+        "Krukshank - Barber"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0533418",
       "name": "\u00c6neas MacKenzie",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Aeneas MacKenzie)",
-      "group_id": 0
+      "notes": "(screenplay) (as Aeneas MacKenzie)"
     },
     {
-      "person_imdb_id": "nm0388976",
+      "person_imdb_id": "nm0254754",
       "name": "Joseph Hoffman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0533418",
       "name": "\u00c6neas MacKenzie",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Aeneas MacKenzie)",
-      "group_id": 1
+      "notes": "(story) (as Aeneas MacKenzie)"
     }
   ],
   "release_date": "1952-12-24",

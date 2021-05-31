@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0039853",
   "sort_title": "Song of the Thin Man (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nick Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943978",
-      "name": "Keenan Wynn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clarence 'Clinker' Krause"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001777",
-      "name": "Dean Stockwell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nick Charles Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715637",
-      "name": "Phillip Reed",
-      "sequence": 4,
-      "notes": "(as Philip Reed)",
-      "roles": [
-        "Tommy Edlon Drake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605685",
-      "name": "Patricia Morison",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Phyllis Talbin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000748",
-      "name": "Leon Ames",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mitchell Talbin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002108",
-      "name": "Gloria Grahame",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fran Ledue Page"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005217",
-      "name": "Jayne Meadows",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Janet Thayar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604960",
-      "name": "Ralph Morgan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "David I. Thayar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0283170",
-      "name": "Bess Flowers",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jessica Thayar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852279",
-      "name": "Don Taylor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Buddy Hollis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027566",
-      "name": "Warner Anderson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Monolaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184840",
-      "name": "Bruce Cowling",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Phil Orval Brant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318349",
-      "name": "Connie Gilchrist",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bertha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625977",
-      "name": "Henry Nemo",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "The Neem"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084219",
-      "name": "William Bishop",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Al Amboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934798",
-      "name": "Marie Windsor",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Helen Amboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7036694",
-      "name": "Carol Arden",
-      "sequence": 21,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Fran Ledue Page"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0125636",
@@ -182,41 +9,205 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Nick Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Nora Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943978",
+      "name": "Keenan Wynn",
+      "sequence": 2,
+      "roles": [
+        "Clarence 'Clinker' Krause"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001777",
+      "name": "Dean Stockwell",
+      "sequence": 3,
+      "roles": [
+        "Nick Charles Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715637",
+      "name": "Phillip Reed",
+      "sequence": 4,
+      "roles": [
+        "Tommy Edlon Drake"
+      ],
+      "notes": "(as Philip Reed)"
+    },
+    {
+      "person_imdb_id": "nm0605685",
+      "name": "Patricia Morison",
+      "sequence": 5,
+      "roles": [
+        "Phyllis Talbin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000748",
+      "name": "Leon Ames",
+      "sequence": 6,
+      "roles": [
+        "Mitchell Talbin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002108",
+      "name": "Gloria Grahame",
+      "sequence": 7,
+      "roles": [
+        "Fran Ledue Page"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005217",
+      "name": "Jayne Meadows",
+      "sequence": 8,
+      "roles": [
+        "Janet Thayar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604960",
+      "name": "Ralph Morgan",
+      "sequence": 9,
+      "roles": [
+        "David I. Thayar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0283170",
+      "name": "Bess Flowers",
+      "sequence": 10,
+      "roles": [
+        "Jessica Thayar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852279",
+      "name": "Don Taylor",
+      "sequence": 11,
+      "roles": [
+        "Buddy Hollis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027566",
+      "name": "Warner Anderson",
+      "sequence": 12,
+      "roles": [
+        "Dr. Monolaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184840",
+      "name": "Bruce Cowling",
+      "sequence": 13,
+      "roles": [
+        "Phil Orval Brant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318349",
+      "name": "Connie Gilchrist",
+      "sequence": 14,
+      "roles": [
+        "Bertha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625977",
+      "name": "Henry Nemo",
+      "sequence": 15,
+      "roles": [
+        "The Neem"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0084219",
+      "name": "William Bishop",
+      "sequence": 16,
+      "roles": [
+        "Al Amboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934798",
+      "name": "Marie Windsor",
+      "sequence": 17,
+      "roles": [
+        "Helen Amboy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0279795",
       "name": "Steve Fisher",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0674759",
       "name": "Nat Perrin",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0641199",
       "name": "James O'Hanlon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0186355",
       "name": "Harry Crane",
-      "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0731592",
       "name": "Stanley Roberts",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1947-08-28",

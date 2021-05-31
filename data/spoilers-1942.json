@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0035369",
   "sort_title": "Spoilers (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000017",
-      "name": "Marlene Dietrich",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Cherry Malotte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alex McNamara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Roy Glennister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Helen Chester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002503",
-      "name": "Harry Carey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Al Dextry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001932",
-      "name": "Richard Barthelmess",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bronco Kid Farrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166477",
-      "name": "George Cleveland",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Banty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Judge Horace Stillman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801193",
-      "name": "Russell Simpson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Flapjack Sims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267912",
-      "name": "William Farnum",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Wheaton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134783",
-      "name": "Marietta Canty",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Idabelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0636226",
-      "name": "Jack Norton",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Skinner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071986",
-      "name": "Ray Bennett",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852365",
-      "name": "Forrest Taylor",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bennett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587055",
-      "name": "Art Miles",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573458",
-      "name": "Charles McMurphy",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357111",
-      "name": "Charles Halton",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Jonathan Stuve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0651627",
-      "name": "Bud Osborne",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Town Marshal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218654",
-      "name": "Drew Demorest",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Galloway"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0258015",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000017",
+      "name": "Marlene Dietrich",
+      "sequence": 0,
+      "roles": [
+        "Cherry Malotte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 1,
+      "roles": [
+        "Alex McNamara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 2,
+      "roles": [
+        "Roy Glennister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 3,
+      "roles": [
+        "Helen Chester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002503",
+      "name": "Harry Carey",
+      "sequence": 4,
+      "roles": [
+        "Al Dextry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001932",
+      "name": "Richard Barthelmess",
+      "sequence": 5,
+      "roles": [
+        "Bronco Kid Farrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166477",
+      "name": "George Cleveland",
+      "sequence": 6,
+      "roles": [
+        "Banty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 7,
+      "roles": [
+        "Judge Horace Stillman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801193",
+      "name": "Russell Simpson",
+      "sequence": 8,
+      "roles": [
+        "Flapjack Sims"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267912",
+      "name": "William Farnum",
+      "sequence": 9,
+      "roles": [
+        "Wheaton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134783",
+      "name": "Marietta Canty",
+      "sequence": 10,
+      "roles": [
+        "Idabelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0636226",
+      "name": "Jack Norton",
+      "sequence": 11,
+      "roles": [
+        "Mr. Skinner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071986",
+      "name": "Ray Bennett",
+      "sequence": 12,
+      "roles": [
+        "Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852365",
+      "name": "Forrest Taylor",
+      "sequence": 13,
+      "roles": [
+        "Bennett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587055",
+      "name": "Art Miles",
+      "sequence": 14,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573458",
+      "name": "Charles McMurphy",
+      "sequence": 15,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357111",
+      "name": "Charles Halton",
+      "sequence": 16,
+      "roles": [
+        "Jonathan Stuve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0651627",
+      "name": "Bud Osborne",
+      "sequence": 17,
+      "roles": [
+        "Town Marshal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218654",
+      "name": "Drew Demorest",
+      "sequence": 18,
+      "roles": [
+        "Galloway"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0063492",
       "name": "Rex Beach",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Spoilers\")",
-      "group_id": 0
+      "notes": "(novel \"The Spoilers\")"
     },
     {
       "person_imdb_id": "nm0371907",
       "name": "Lawrence Hazard",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1942-05-08",

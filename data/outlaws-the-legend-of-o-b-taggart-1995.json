@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0113630",
   "sort_title": "Outlaws: The Legend of O.B. Taggart (1995)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jack Parrish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001682",
-      "name": "Mickey Rooney",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "O.B. Taggart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871430",
-      "name": "Randy Travis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Phoenix Taggart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309705",
-      "name": "Larry Gatlin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gale Taggart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000308",
-      "name": "Ernest Borgnine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sheriff Laughton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000885",
-      "name": "Ned Beatty",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sam Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000863",
-      "name": "Billy Barty",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prospector Pike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002038",
-      "name": "Gloria DeHaven",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Molly Plenty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346415",
-      "name": "Nicholas Guest",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Slocum Taggart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941395",
-      "name": "Rob Word",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Character"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0008605",
-      "name": "Christopher Aber",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Young Stud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2705806",
-      "name": "Cliff Gravel",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gunslinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346416",
-      "name": "Pamela Guest",
-      "sequence": 12,
-      "notes": "(as Pamela Rack)",
-      "roles": [
-        "Landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0535933",
-      "name": "Brandon Maggart",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Smiley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1022058",
-      "name": "James 'JR' Pollard",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Prospector",
-        "Trapper in Saloon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0386991",
@@ -147,13 +9,151 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 0,
+      "roles": [
+        "Jack Parrish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001682",
+      "name": "Mickey Rooney",
+      "sequence": 1,
+      "roles": [
+        "O.B. Taggart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871430",
+      "name": "Randy Travis",
+      "sequence": 2,
+      "roles": [
+        "Phoenix Taggart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309705",
+      "name": "Larry Gatlin",
+      "sequence": 3,
+      "roles": [
+        "Gale Taggart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000308",
+      "name": "Ernest Borgnine",
+      "sequence": 4,
+      "roles": [
+        "Sheriff Laughton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000885",
+      "name": "Ned Beatty",
+      "sequence": 5,
+      "roles": [
+        "Sam Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000863",
+      "name": "Billy Barty",
+      "sequence": 6,
+      "roles": [
+        "Prospector Pike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002038",
+      "name": "Gloria DeHaven",
+      "sequence": 7,
+      "roles": [
+        "Molly Plenty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346415",
+      "name": "Nicholas Guest",
+      "sequence": 8,
+      "roles": [
+        "Slocum Taggart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941395",
+      "name": "Rob Word",
+      "sequence": 9,
+      "roles": [
+        "Character"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0008605",
+      "name": "Christopher Aber",
+      "sequence": 10,
+      "roles": [
+        "Young Stud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2705806",
+      "name": "Cliff Gravel",
+      "sequence": 11,
+      "roles": [
+        "Gunslinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346416",
+      "name": "Pamela Guest",
+      "sequence": 12,
+      "roles": [
+        "Landlady"
+      ],
+      "notes": "(as Pamela Rack)"
+    },
+    {
+      "person_imdb_id": "nm0535933",
+      "name": "Brandon Maggart",
+      "sequence": 13,
+      "roles": [
+        "Smiley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1022058",
+      "name": "James 'JR' Pollard",
+      "sequence": 14,
+      "roles": [
+        "Prospector",
+        "Trapper in Saloon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001682",
       "name": "Mickey Rooney",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1995-02-17",

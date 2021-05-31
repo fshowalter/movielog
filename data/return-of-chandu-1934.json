@@ -1,127 +1,6 @@
 {
   "imdb_id": "tt0025712",
   "sort_title": "Return of Chandu (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frank Chandler - Chandu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016183",
-      "name": "Maria Alba",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nadji - Princess of Egypt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949403",
-      "name": "Clara Kimball Young",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dorothy Regent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0698139",
-      "name": "Lucien Prival",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vindhyan - High Priest [Chs. 1-4]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0072916",
-      "name": "Dean Benton",
-      "sequence": 4,
-      "notes": "(as Deane Benton)",
-      "roles": [
-        "Bob Regent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525044",
-      "name": "Phyllis Ludwig",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Betty Regent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035356",
-      "name": "Cyril Armbrister",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sutra - Henchman [Ch.1]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534259",
-      "name": "Murdock MacQuarrie",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Supreme Voice of Ubasti [Chs. 4-12]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0524306",
-      "name": "Wilfred Lucas",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Capt. Wilson [Chs. 4-12]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842522",
-      "name": "Josef Swickard",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tyba - The White Magician [Chs. 8-12]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164030",
-      "name": "J.J. Clark",
-      "sequence": 10,
-      "notes": "(as Jack J. Clark)",
-      "roles": [
-        "Vitras - The Black Magician [Chs. 4,5,8-10]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0098553",
-      "name": "Dick Botiller",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Morta - Henchman [Chs. 1-4]",
-        "Ship's Pilot [Ch. 6]",
-        "Cat Man [Chs. 7-12]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576009",
-      "name": "Charles Meecham",
-      "sequence": 26,
-      "notes": "(Replaced by John Ince) (uncredited)",
-      "roles": [
-        "Mr. James"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0853028",
@@ -130,41 +9,153 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Frank Chandler - Chandu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016183",
+      "name": "Maria Alba",
+      "sequence": 1,
+      "roles": [
+        "Nadji - Princess of Egypt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949403",
+      "name": "Clara Kimball Young",
+      "sequence": 2,
+      "roles": [
+        "Dorothy Regent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0698139",
+      "name": "Lucien Prival",
+      "sequence": 3,
+      "roles": [
+        "Vindhyan - High Priest [Chs. 1-4]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0072916",
+      "name": "Dean Benton",
+      "sequence": 4,
+      "roles": [
+        "Bob Regent"
+      ],
+      "notes": "(as Deane Benton)"
+    },
+    {
+      "person_imdb_id": "nm0525044",
+      "name": "Phyllis Ludwig",
+      "sequence": 5,
+      "roles": [
+        "Betty Regent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035356",
+      "name": "Cyril Armbrister",
+      "sequence": 6,
+      "roles": [
+        "Sutra - Henchman [Ch.1]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534259",
+      "name": "Murdock MacQuarrie",
+      "sequence": 7,
+      "roles": [
+        "The Supreme Voice of Ubasti [Chs. 4-12]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0524306",
+      "name": "Wilfred Lucas",
+      "sequence": 8,
+      "roles": [
+        "Capt. Wilson [Chs. 4-12]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842522",
+      "name": "Josef Swickard",
+      "sequence": 9,
+      "roles": [
+        "Tyba - The White Magician [Chs. 8-12]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164030",
+      "name": "J.J. Clark",
+      "sequence": 10,
+      "roles": [
+        "Vitras - The Black Magician [Chs. 4,5,8-10]"
+      ],
+      "notes": "(as Jack J. Clark)"
+    },
+    {
+      "person_imdb_id": "nm0098553",
+      "name": "Dick Botiller",
+      "sequence": 15,
+      "roles": [
+        "Morta - Henchman [Chs. 1-4]",
+        "Ship's Pilot [Ch. 6]",
+        "Cat Man [Chs. 7-12]"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0057456",
       "name": "Barry Barringer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 0
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0057456",
       "name": "Barry Barringer",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0247440",
       "name": "Harry A. Earnshaw",
+      "group": 2,
       "sequence": 0,
-      "notes": "(radio show)",
-      "group_id": 2
+      "notes": "(radio show)"
     },
     {
       "person_imdb_id": "nm0604959",
       "name": "R.R. Morgan",
+      "group": 3,
       "sequence": 0,
-      "notes": "(radio show)",
-      "group_id": 3
+      "notes": "(radio show)"
     },
     {
       "person_imdb_id": "nm0646163",
       "name": "Vera M. Oldham",
+      "group": 4,
       "sequence": 0,
-      "notes": "(radio show)",
-      "group_id": 4
+      "notes": "(radio show)"
     }
   ],
   "release_date": "1934-10-01",

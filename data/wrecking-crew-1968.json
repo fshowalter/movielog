@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0065225",
   "sort_title": "Wrecking Crew (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Matt Helm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813961",
-      "name": "Elke Sommer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Linka Karensky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001790",
-      "name": "Sharon Tate",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Freya Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477088",
-      "name": "Nancy Kwan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Wen Yu-Rang"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0338210",
-      "name": "Nigel Green",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Count Massimo Contini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001481",
-      "name": "Tina Louise",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lola Medina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0488024",
-      "name": "John Larch",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "MacDonald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0105351",
-      "name": "John Brascia",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Karl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0498436",
-      "name": "Weaver Levy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0902455",
-      "name": "Wilhelm von Homburg",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Gregor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0756827",
-      "name": "Bill Saito",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ching"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0297667",
-      "name": "Fuji",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Toki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552893",
-      "name": "Pepper Martin",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Frankie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430201",
-      "name": "Ted Jordan",
-      "sequence": 13,
-      "notes": "(as Ted H. Jordan)",
-      "roles": [
-        "Guard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0439597",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 0,
+      "roles": [
+        "Matt Helm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813961",
+      "name": "Elke Sommer",
+      "sequence": 1,
+      "roles": [
+        "Linka Karensky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001790",
+      "name": "Sharon Tate",
+      "sequence": 2,
+      "roles": [
+        "Freya Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477088",
+      "name": "Nancy Kwan",
+      "sequence": 3,
+      "roles": [
+        "Wen Yu-Rang"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0338210",
+      "name": "Nigel Green",
+      "sequence": 4,
+      "roles": [
+        "Count Massimo Contini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001481",
+      "name": "Tina Louise",
+      "sequence": 5,
+      "roles": [
+        "Lola Medina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0488024",
+      "name": "John Larch",
+      "sequence": 6,
+      "roles": [
+        "MacDonald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0105351",
+      "name": "John Brascia",
+      "sequence": 7,
+      "roles": [
+        "Karl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0498436",
+      "name": "Weaver Levy",
+      "sequence": 8,
+      "roles": [
+        "Kim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0902455",
+      "name": "Wilhelm von Homburg",
+      "sequence": 9,
+      "roles": [
+        "Gregor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0756827",
+      "name": "Bill Saito",
+      "sequence": 10,
+      "roles": [
+        "Ching"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0297667",
+      "name": "Fuji",
+      "sequence": 11,
+      "roles": [
+        "Toki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552893",
+      "name": "Pepper Martin",
+      "sequence": 12,
+      "roles": [
+        "Frankie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430201",
+      "name": "Ted Jordan",
+      "sequence": 13,
+      "roles": [
+        "Guard"
+      ],
+      "notes": "(as Ted H. Jordan)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0357824",
       "name": "Donald Hamilton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Wrecking Crew\")",
-      "group_id": 0
+      "notes": "(novel \"The Wrecking Crew\")"
     },
     {
       "person_imdb_id": "nm0569423",
       "name": "William P. McGivern",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as William McGivern)",
-      "group_id": 1
+      "notes": "(screenplay) (as William McGivern)"
     }
   ],
   "release_date": "1968-12-25",

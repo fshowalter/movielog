@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0033537",
   "sort_title": "Dive Bomber (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lieutenant Doug Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534045",
-      "name": "Fred MacMurray",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lieutenant Commander Joe Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000897",
-      "name": "Ralph Bellamy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lieutenant Commander Lance Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807252",
-      "name": "Alexis Smith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Linda Fisher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035877",
-      "name": "Robert Armstrong",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Art Lyons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tim Griffin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420765",
-      "name": "Allen Jenkins",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "'Lucky' James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301887",
-      "name": "Craig Stevens",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "John Thomas Anthony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026802",
-      "name": "Herbert Anderson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Chubby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Senior Surgeon at San Diego"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601116",
-      "name": "Dennie Moore",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382195",
-      "name": "Louis Jean Heydt",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Swede Larson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0623400",
-      "name": "Cliff Nazarro",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Corps Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709905",
-      "name": "Jane Randolph",
-      "sequence": 47,
-      "notes": "(song \"What's New\") (uncredited)",
-      "roles": [
-        "Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807654",
-      "name": "Charles Smith",
-      "sequence": 52,
-      "notes": "(segment \"Home Mechanics\") (uncredited)",
-      "roles": [
-        "Bellboy with Comic Rhyme"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -146,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Lieutenant Doug Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534045",
+      "name": "Fred MacMurray",
+      "sequence": 1,
+      "roles": [
+        "Lieutenant Commander Joe Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000897",
+      "name": "Ralph Bellamy",
+      "sequence": 2,
+      "roles": [
+        "Lieutenant Commander Lance Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807252",
+      "name": "Alexis Smith",
+      "sequence": 3,
+      "roles": [
+        "Linda Fisher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035877",
+      "name": "Robert Armstrong",
+      "sequence": 4,
+      "roles": [
+        "Art Lyons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 5,
+      "roles": [
+        "Tim Griffin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420765",
+      "name": "Allen Jenkins",
+      "sequence": 6,
+      "roles": [
+        "'Lucky' James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301887",
+      "name": "Craig Stevens",
+      "sequence": 7,
+      "roles": [
+        "John Thomas Anthony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026802",
+      "name": "Herbert Anderson",
+      "sequence": 8,
+      "roles": [
+        "Chubby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 9,
+      "roles": [
+        "Senior Surgeon at San Diego"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601116",
+      "name": "Dennie Moore",
+      "sequence": 10,
+      "roles": [
+        "Mrs. James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382195",
+      "name": "Louis Jean Heydt",
+      "sequence": 11,
+      "roles": [
+        "Swede Larson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0623400",
+      "name": "Cliff Nazarro",
+      "sequence": 12,
+      "roles": [
+        "Corps Man"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0915693",
       "name": "Frank Wead",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0118758",
       "name": "Robert Buckner",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0915693",
       "name": "Frank Wead",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     }
   ],
   "release_date": "1941-08-12",

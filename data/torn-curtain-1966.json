@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0061107",
   "sort_title": "Torn Curtain (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Professor Michael Armstrong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000267",
-      "name": "Julie Andrews",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Sherman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444321",
-      "name": "Lila Kedrova",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Countess Kuchinska"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271544",
-      "name": "Hansj\u00f6rg Felmy",
-      "sequence": 3,
-      "notes": "(as Hansjoerg Felmy)",
-      "roles": [
-        "Heinrich Gerhard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869565",
-      "name": "Tamara Toumanova",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ballerina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232213",
-      "name": "Ludwig Donath",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Professor Gustav Lindt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452471",
-      "name": "Wolfgang Kieling",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Hermann Gromek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833080",
-      "name": "G\u00fcnter Strack",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Professor Karl Manfred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649055",
-      "name": "David Opatoshu",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Jacobi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0278920",
-      "name": "Gisela Fischer",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dr. Koska"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590123",
-      "name": "Mort Mills",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Farmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176804",
-      "name": "Carolyn Conwell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Farmer's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332520",
-      "name": "Arthur Gould-Porter",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Freddy - the Bookseller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331399",
-      "name": "Gloria Govrin",
-      "sequence": 13,
-      "notes": "(as Gloria Gorvin)",
-      "roles": [
-        "Fr\u00e4ulein Mann"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Professor Michael Armstrong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000267",
+      "name": "Julie Andrews",
+      "sequence": 1,
+      "roles": [
+        "Sarah Sherman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444321",
+      "name": "Lila Kedrova",
+      "sequence": 2,
+      "roles": [
+        "Countess Kuchinska"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271544",
+      "name": "Hansj\u00f6rg Felmy",
+      "sequence": 3,
+      "roles": [
+        "Heinrich Gerhard"
+      ],
+      "notes": "(as Hansjoerg Felmy)"
+    },
+    {
+      "person_imdb_id": "nm0869565",
+      "name": "Tamara Toumanova",
+      "sequence": 4,
+      "roles": [
+        "Ballerina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232213",
+      "name": "Ludwig Donath",
+      "sequence": 5,
+      "roles": [
+        "Professor Gustav Lindt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452471",
+      "name": "Wolfgang Kieling",
+      "sequence": 6,
+      "roles": [
+        "Hermann Gromek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833080",
+      "name": "G\u00fcnter Strack",
+      "sequence": 7,
+      "roles": [
+        "Professor Karl Manfred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0649055",
+      "name": "David Opatoshu",
+      "sequence": 8,
+      "roles": [
+        "Mr. Jacobi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0278920",
+      "name": "Gisela Fischer",
+      "sequence": 9,
+      "roles": [
+        "Dr. Koska"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590123",
+      "name": "Mort Mills",
+      "sequence": 10,
+      "roles": [
+        "Farmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176804",
+      "name": "Carolyn Conwell",
+      "sequence": 11,
+      "roles": [
+        "Farmer's Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332520",
+      "name": "Arthur Gould-Porter",
+      "sequence": 12,
+      "roles": [
+        "Freddy - the Bookseller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0331399",
+      "name": "Gloria Govrin",
+      "sequence": 13,
+      "roles": [
+        "Fr\u00e4ulein Mann"
+      ],
+      "notes": "(as Gloria Gorvin)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0600972",
       "name": "Brian Moore",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0356227",
       "name": "Willis Hall",
+      "group": 1,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(contributor to screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0913961",
       "name": "Keith Waterhouse",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to screenplay) (uncredited)"
     }
   ],
   "release_date": "1966-07-14",

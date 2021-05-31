@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0037124",
   "sort_title": "Nevada (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Jim Lacy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420331",
-      "name": "Anne Jeffreys",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Julie Dexter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930711",
-      "name": "Guinn 'Big Boy' Williams",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dusty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309607",
-      "name": "Nancy Gates",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hattie Ide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552955",
-      "name": "Richard Martin",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chito Rafferty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721660",
-      "name": "Craig Reynolds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cash Burridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Powell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0323079",
-      "name": "Edmund Glover",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ed Nelson, Assayer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911351",
-      "name": "Alan Ward",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sheriff William H. Brewer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571763",
-      "name": "Harry McKim",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Marvie Ide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0923647",
-      "name": "Larry Wheat",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ben Ide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653888",
-      "name": "Jack Overman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Croupier Red Berry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528677",
-      "name": "Emmett Lynn",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Pancake Comstock"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0453245",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Jim Lacy"
+      ],
+      "notes": "(as Bob Mitchum)"
+    },
+    {
+      "person_imdb_id": "nm0420331",
+      "name": "Anne Jeffreys",
+      "sequence": 1,
+      "roles": [
+        "Julie Dexter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930711",
+      "name": "Guinn 'Big Boy' Williams",
+      "sequence": 2,
+      "roles": [
+        "Dusty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309607",
+      "name": "Nancy Gates",
+      "sequence": 3,
+      "roles": [
+        "Hattie Ide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552955",
+      "name": "Richard Martin",
+      "sequence": 4,
+      "roles": [
+        "Chito Rafferty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721660",
+      "name": "Craig Reynolds",
+      "sequence": 5,
+      "roles": [
+        "Cash Burridge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 6,
+      "roles": [
+        "Joe Powell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0323079",
+      "name": "Edmund Glover",
+      "sequence": 7,
+      "roles": [
+        "Ed Nelson, Assayer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911351",
+      "name": "Alan Ward",
+      "sequence": 8,
+      "roles": [
+        "Sheriff William H. Brewer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571763",
+      "name": "Harry McKim",
+      "sequence": 9,
+      "roles": [
+        "Marvie Ide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0923647",
+      "name": "Larry Wheat",
+      "sequence": 10,
+      "roles": [
+        "Ben Ide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653888",
+      "name": "Jack Overman",
+      "sequence": 11,
+      "roles": [
+        "Croupier Red Berry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528677",
+      "name": "Emmett Lynn",
+      "sequence": 12,
+      "roles": [
+        "Pancake Comstock"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0396876",
       "name": "Norman Houston",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0340719",
       "name": "Zane Grey",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1944-12-25",

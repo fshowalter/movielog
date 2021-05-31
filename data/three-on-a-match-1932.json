@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0023590",
   "sort_title": "Three on a Match (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0205629",
-      "name": "Virginia Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mary Keaton as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000951",
-      "name": "Joan Blondell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Keaton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794297",
-      "name": "Anne Shirley",
-      "sequence": 2,
-      "notes": "(as Dawn O'Day)",
-      "roles": [
-        "Vivian Revere as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245304",
-      "name": "Ann Dvorak",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vivian Revere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141158",
-      "name": "Betty Carse",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ruth Westcott as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ruth Westcott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929925",
-      "name": "Warren William",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Robert Kirkwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847939",
-      "name": "Lyle Talbot",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Michael Loftus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420765",
-      "name": "Allen Jenkins",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036427",
-      "name": "Edward Arnold",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0414038",
-      "name": "Selmer Jackson",
-      "sequence": 24,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0503777",
@@ -119,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0205629",
+      "name": "Virginia Davis",
+      "sequence": 0,
+      "roles": [
+        "Mary Keaton - as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000951",
+      "name": "Joan Blondell",
+      "sequence": 1,
+      "roles": [
+        "Mary Keaton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794297",
+      "name": "Anne Shirley",
+      "sequence": 2,
+      "roles": [
+        "Vivian Revere - as a Child"
+      ],
+      "notes": "(as Dawn O'Day)"
+    },
+    {
+      "person_imdb_id": "nm0245304",
+      "name": "Ann Dvorak",
+      "sequence": 3,
+      "roles": [
+        "Vivian Revere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0141158",
+      "name": "Betty Carse",
+      "sequence": 4,
+      "roles": [
+        "Ruth Westcott - as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 5,
+      "roles": [
+        "Ruth Westcott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929925",
+      "name": "Warren William",
+      "sequence": 6,
+      "roles": [
+        "Robert Kirkwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847939",
+      "name": "Lyle Talbot",
+      "sequence": 7,
+      "roles": [
+        "Michael Loftus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 8,
+      "roles": [
+        "Harve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420765",
+      "name": "Allen Jenkins",
+      "sequence": 9,
+      "roles": [
+        "Dick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036427",
+      "name": "Edward Arnold",
+      "sequence": 10,
+      "roles": [
+        "Ace"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0399203",
       "name": "Lucien Hubbard",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0321891",
       "name": "Kubec Glasmon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0109148",
       "name": "John Bright",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1932-10-28",

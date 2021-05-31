@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0049013",
   "sort_title": "Black Sleep (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001651",
-      "name": "Basil Rathbone",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sir Joel Cadman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848667",
-      "name": "Akim Tamiroff",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Odo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001033",
-      "name": "Lon Chaney Jr.",
-      "sequence": 2,
-      "notes": "(as Lon Chaney)",
-      "roles": [
-        "Mungo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Borg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Casimir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0748822",
-      "name": "Herbert Rudley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Gordon Angus Ramsay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086323",
-      "name": "Patricia Blair",
-      "sequence": 6,
-      "notes": "(as Patricia Blake)",
-      "roles": [
-        "Laurie Monroe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822574",
-      "name": "Phyllis Stanley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Daphne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426363",
-      "name": "Tor Johnson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Curry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0946490",
-      "name": "Sally Yarnell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Nancy--Female Monster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768070",
-      "name": "George Sawaya",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "K6 - Sailor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137393",
-      "name": "Claire Carleton",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Carmona Daly"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0494110",
@@ -119,20 +9,130 @@
       "notes": "(as Reginald LeBorg)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001651",
+      "name": "Basil Rathbone",
+      "sequence": 0,
+      "roles": [
+        "Sir Joel Cadman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848667",
+      "name": "Akim Tamiroff",
+      "sequence": 1,
+      "roles": [
+        "Odo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001033",
+      "name": "Lon Chaney Jr.",
+      "sequence": 2,
+      "roles": [
+        "Mungo"
+      ],
+      "notes": "(as Lon Chaney)"
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 3,
+      "roles": [
+        "Borg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 4,
+      "roles": [
+        "Casimir"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0748822",
+      "name": "Herbert Rudley",
+      "sequence": 5,
+      "roles": [
+        "Dr. Gordon Angus Ramsay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086323",
+      "name": "Patricia Blair",
+      "sequence": 6,
+      "roles": [
+        "Laurie Monroe"
+      ],
+      "notes": "(as Patricia Blake)"
+    },
+    {
+      "person_imdb_id": "nm0822574",
+      "name": "Phyllis Stanley",
+      "sequence": 7,
+      "roles": [
+        "Daphne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0426363",
+      "name": "Tor Johnson",
+      "sequence": 8,
+      "roles": [
+        "Curry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0946490",
+      "name": "Sally Yarnell",
+      "sequence": 9,
+      "roles": [
+        "Nancy--Female Monster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768070",
+      "name": "George Sawaya",
+      "sequence": 10,
+      "roles": [
+        "K6 - Sailor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137393",
+      "name": "Claire Carleton",
+      "sequence": 11,
+      "roles": [
+        "Carmona Daly"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 0
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0383421",
       "name": "John C. Higgins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 1
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1956-06-01",

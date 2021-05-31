@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0051773",
   "sort_title": "Indiscreet (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Philip Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000006",
-      "name": "Ingrid Bergman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna Kalman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662116",
-      "name": "Cecil Parker",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alfred Munson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130829",
-      "name": "Phyllis Calvert",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Margaret Munson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0467311",
-      "name": "David Kossoff",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Carl Banks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420923",
-      "name": "Megs Jenkins",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doris Banks"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002045",
@@ -65,20 +9,76 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Philip Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000006",
+      "name": "Ingrid Bergman",
+      "sequence": 1,
+      "roles": [
+        "Anna Kalman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662116",
+      "name": "Cecil Parker",
+      "sequence": 2,
+      "roles": [
+        "Alfred Munson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130829",
+      "name": "Phyllis Calvert",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Margaret Munson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0467311",
+      "name": "David Kossoff",
+      "sequence": 4,
+      "roles": [
+        "Carl Banks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420923",
+      "name": "Megs Jenkins",
+      "sequence": 5,
+      "roles": [
+        "Doris Banks"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0469915",
       "name": "Norman Krasna",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0469915",
       "name": "Norman Krasna",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Kind Sir\")",
-      "group_id": 1
+      "notes": "(play \"Kind Sir\")"
     }
   ],
   "release_date": "1958-06-26",

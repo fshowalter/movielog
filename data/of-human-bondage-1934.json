@@ -1,121 +1,6 @@
 {
   "imdb_id": "tt0025586",
   "sort_title": "Of Human Bondage (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001366",
-      "name": "Leslie Howard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Philip"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mildred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0214168",
-      "name": "Frances Dee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0425512",
-      "name": "Kay Johnson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Norah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219666",
-      "name": "Reginald Denny",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Griffiths"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0221439",
-      "name": "Reginald Sheffield",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dunsford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654239",
-      "name": "Reginald Owen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Athelny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731017",
-      "name": "Desmond Roberts",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Jacobs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170969",
-      "name": "Charles Coleman",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0587117",
-      "name": "Frank Mills",
-      "sequence": 10,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Chimneysweep"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813881",
-      "name": "Pat Somerset",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0330157",
-      "name": "Douglas Gordon",
-      "sequence": 19,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Hawker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -124,27 +9,133 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001366",
+      "name": "Leslie Howard",
+      "sequence": 0,
+      "roles": [
+        "Philip"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 1,
+      "roles": [
+        "Mildred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0214168",
+      "name": "Frances Dee",
+      "sequence": 2,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0425512",
+      "name": "Kay Johnson",
+      "sequence": 3,
+      "roles": [
+        "Norah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219666",
+      "name": "Reginald Denny",
+      "sequence": 4,
+      "roles": [
+        "Griffiths"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 5,
+      "roles": [
+        "Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0221439",
+      "name": "Reginald Sheffield",
+      "sequence": 6,
+      "roles": [
+        "Dunsford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654239",
+      "name": "Reginald Owen",
+      "sequence": 7,
+      "roles": [
+        "Athelny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731017",
+      "name": "Desmond Roberts",
+      "sequence": 8,
+      "roles": [
+        "Dr. Jacobs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170969",
+      "name": "Charles Coleman",
+      "sequence": 9,
+      "roles": [],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0587117",
+      "name": "Frank Mills",
+      "sequence": 10,
+      "roles": [
+        "Chimneysweep"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0813881",
+      "name": "Pat Somerset",
+      "sequence": 11,
+      "roles": [],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0169556",
       "name": "Lester Cohen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0560857",
       "name": "W. Somerset Maugham",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0170923",
       "name": "Ann Coleman",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(dialogue) (uncredited)"
     }
   ],
   "release_date": "1934-06-28",

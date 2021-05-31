@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0044480",
   "sort_title": "Carbine Williams (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marsh Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0353405",
-      "name": "Jean Hagen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maggie Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179819",
-      "name": "Wendell Corey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. H.T. Peoples"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717203",
-      "name": "Carl Benton Reid",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Claude Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829717",
-      "name": "Paul Stewart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "'Dutch' Kruger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401359",
-      "name": "Otto Hulett",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mobley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931525",
-      "name": "Rhys Williams",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Redwick Karson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382229",
-      "name": "Herbert Heyes",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lionel Daniels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000790",
-      "name": "James Arness",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Leon Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356004",
-      "name": "Porter Hall",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sam Markley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740378",
-      "name": "Fay Roope",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "District Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241589",
-      "name": "Ralph Dumke",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Andrew White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002063",
-      "name": "Leif Erickson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Feder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179478",
-      "name": "Henry Corden",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bill Stockton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724090",
-      "name": "Frank Richards",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Truex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677962",
-      "name": "Howard Petrie",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709695",
-      "name": "Stuart Randall",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Tom Vennar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728349",
-      "name": "Dan Riss",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Jesse Rimmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404903",
-      "name": "Robert Hyatt",
-      "sequence": 18,
-      "notes": "(as Bobby Hyatt)",
-      "roles": [
-        "David Williams"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0861703",
@@ -182,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Marsh Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0353405",
+      "name": "Jean Hagen",
+      "sequence": 1,
+      "roles": [
+        "Maggie Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179819",
+      "name": "Wendell Corey",
+      "sequence": 2,
+      "roles": [
+        "Capt. H.T. Peoples"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717203",
+      "name": "Carl Benton Reid",
+      "sequence": 3,
+      "roles": [
+        "Claude Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829717",
+      "name": "Paul Stewart",
+      "sequence": 4,
+      "roles": [
+        "'Dutch' Kruger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401359",
+      "name": "Otto Hulett",
+      "sequence": 5,
+      "roles": [
+        "Mobley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931525",
+      "name": "Rhys Williams",
+      "sequence": 6,
+      "roles": [
+        "Redwick Karson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382229",
+      "name": "Herbert Heyes",
+      "sequence": 7,
+      "roles": [
+        "Lionel Daniels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000790",
+      "name": "James Arness",
+      "sequence": 8,
+      "roles": [
+        "Leon Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356004",
+      "name": "Porter Hall",
+      "sequence": 9,
+      "roles": [
+        "Sam Markley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0740378",
+      "name": "Fay Roope",
+      "sequence": 10,
+      "roles": [
+        "District Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241589",
+      "name": "Ralph Dumke",
+      "sequence": 11,
+      "roles": [
+        "Andrew White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002063",
+      "name": "Leif Erickson",
+      "sequence": 12,
+      "roles": [
+        "Feder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179478",
+      "name": "Henry Corden",
+      "sequence": 13,
+      "roles": [
+        "Bill Stockton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724090",
+      "name": "Frank Richards",
+      "sequence": 14,
+      "roles": [
+        "Truex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677962",
+      "name": "Howard Petrie",
+      "sequence": 15,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709695",
+      "name": "Stuart Randall",
+      "sequence": 16,
+      "roles": [
+        "Tom Vennar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728349",
+      "name": "Dan Riss",
+      "sequence": 17,
+      "roles": [
+        "Jesse Rimmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404903",
+      "name": "Robert Hyatt",
+      "sequence": 18,
+      "roles": [
+        "David Williams"
+      ],
+      "notes": "(as Bobby Hyatt)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0169883",
       "name": "Art Cohn",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0169883",
       "name": "Art Cohn",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1952-04-24",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0058745",
   "sort_title": "Where Love Has Gone (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001333",
-      "name": "Susan Hayward",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Valerie Hayden Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. Gerald Hayden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175528",
-      "name": "Mike Connors",
-      "sequence": 2,
-      "notes": "(as Michael Connors)",
-      "roles": [
-        "Major Luke Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0372758",
-      "name": "Joey Heatherton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Danielle Valerie Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339452",
-      "name": "Jane Greer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marian Spicer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001420",
-      "name": "DeForest Kelley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sam Corwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534317",
-      "name": "George Macready",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gordon Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786800",
-      "name": "Anne Seymour",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Sally Jennings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0099071",
-      "name": "Willis Bouchey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Judge Murphy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715748",
-      "name": "Walter Reed",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George Babson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233352",
-      "name": "Ann Doran",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Geraghty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732397",
-      "name": "Bartlett Robinson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. John Coleman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000946",
-      "name": "Whit Bissell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Professor Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0142273",
-      "name": "Anthony Caruso",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Rafael"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0229424",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001333",
+      "name": "Susan Hayward",
+      "sequence": 0,
+      "roles": [
+        "Valerie Hayden Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 1,
+      "roles": [
+        "Mrs. Gerald Hayden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175528",
+      "name": "Mike Connors",
+      "sequence": 2,
+      "roles": [
+        "Major Luke Miller"
+      ],
+      "notes": "(as Michael Connors)"
+    },
+    {
+      "person_imdb_id": "nm0372758",
+      "name": "Joey Heatherton",
+      "sequence": 3,
+      "roles": [
+        "Danielle Valerie Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339452",
+      "name": "Jane Greer",
+      "sequence": 4,
+      "roles": [
+        "Marian Spicer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001420",
+      "name": "DeForest Kelley",
+      "sequence": 5,
+      "roles": [
+        "Sam Corwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534317",
+      "name": "George Macready",
+      "sequence": 6,
+      "roles": [
+        "Gordon Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786800",
+      "name": "Anne Seymour",
+      "sequence": 7,
+      "roles": [
+        "Dr. Sally Jennings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0099071",
+      "name": "Willis Bouchey",
+      "sequence": 8,
+      "roles": [
+        "Judge Murphy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715748",
+      "name": "Walter Reed",
+      "sequence": 9,
+      "roles": [
+        "George Babson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233352",
+      "name": "Ann Doran",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Geraghty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732397",
+      "name": "Bartlett Robinson",
+      "sequence": 11,
+      "roles": [
+        "Mr. John Coleman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000946",
+      "name": "Whit Bissell",
+      "sequence": 12,
+      "roles": [
+        "Professor Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0142273",
+      "name": "Anthony Caruso",
+      "sequence": 13,
+      "roles": [
+        "Rafael"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0371088",
       "name": "John Michael Hayes",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0730356",
       "name": "Harold Robbins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1964-11-02",

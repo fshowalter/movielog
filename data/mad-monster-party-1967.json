@@ -1,21 +1,28 @@
 {
   "imdb_id": "tt0061931",
   "sort_title": "Mad Monster Party? (1967)",
-  "performers": [
+  "directors": [
+    {
+      "person_imdb_id": "nm0060072",
+      "name": "Jules Bass",
+      "sequence": 0,
+      "notes": ""
+    }
+  ],
+  "cast": [
     {
       "person_imdb_id": "nm0000472",
       "name": "Boris Karloff",
       "sequence": 0,
-      "notes": "(voice)",
       "roles": [
         "Baron Boris von Frankenstein"
-      ]
+      ],
+      "notes": "(voice)"
     },
     {
       "person_imdb_id": "nm0842563",
       "name": "Allen Swift",
       "sequence": 1,
-      "notes": "",
       "roles": [
         "Felix Flankin",
         "Yetch",
@@ -29,72 +36,65 @@
         "Mr. Kronkite",
         "Mail Man",
         "The Monster"
-      ]
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0307805",
       "name": "Gale Garnett",
       "sequence": 2,
-      "notes": "(voice)",
       "roles": [
         "Francesca"
-      ]
+      ],
+      "notes": "(voice)"
     },
     {
       "person_imdb_id": "nm0226887",
       "name": "Phyllis Diller",
       "sequence": 3,
-      "notes": "(voice)",
       "roles": [
         "The Monster's Mate"
-      ]
+      ],
+      "notes": "(voice)"
     },
     {
       "person_imdb_id": "nm0257884",
       "name": "Ethel Ennis",
       "sequence": 4,
-      "notes": "(voice)",
       "roles": [
         "Title Song Singer"
-      ]
-    }
-  ],
-  "directors": [
-    {
-      "person_imdb_id": "nm0060072",
-      "name": "Jules Bass",
-      "sequence": 0,
-      "notes": ""
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
     {
       "person_imdb_id": "nm1219735",
       "name": "Len Korobkin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0476069",
       "name": "Harvey Kurtzman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0710230",
       "name": "Arthur Rankin Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0009969",
       "name": "Forrest J. Ackerman",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1967-03-08",

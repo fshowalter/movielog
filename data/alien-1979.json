@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0078748",
   "sort_title": "Alien (1979)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000643",
-      "name": "Tom Skerritt",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dallas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000244",
-      "name": "Sigourney Weaver",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ripley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001021",
-      "name": "Veronica Cartwright",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lambert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001765",
-      "name": "Harry Dean Stanton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Brett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000457",
-      "name": "John Hurt",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000453",
-      "name": "Ian Holm",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ash"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001433",
-      "name": "Yaphet Kotto",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045993",
-      "name": "Bolaji Badejo",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Alien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395600",
-      "name": "Helen Horton",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "Mother"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000631",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000643",
+      "name": "Tom Skerritt",
+      "sequence": 0,
+      "roles": [
+        "Dallas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000244",
+      "name": "Sigourney Weaver",
+      "sequence": 1,
+      "roles": [
+        "Ripley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001021",
+      "name": "Veronica Cartwright",
+      "sequence": 2,
+      "roles": [
+        "Lambert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001765",
+      "name": "Harry Dean Stanton",
+      "sequence": 3,
+      "roles": [
+        "Brett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000457",
+      "name": "John Hurt",
+      "sequence": 4,
+      "roles": [
+        "Kane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000453",
+      "name": "Ian Holm",
+      "sequence": 5,
+      "roles": [
+        "Ash"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001433",
+      "name": "Yaphet Kotto",
+      "sequence": 6,
+      "roles": [
+        "Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045993",
+      "name": "Bolaji Badejo",
+      "sequence": 7,
+      "roles": [
+        "Alien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0395600",
+      "name": "Helen Horton",
+      "sequence": 8,
+      "roles": [
+        "Mother"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0639321",
       "name": "Dan O'Bannon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0639321",
       "name": "Dan O'Bannon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0795953",
       "name": "Ronald Shusett",
-      "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story by)"
     }
   ],
   "release_date": "1979-05-25",

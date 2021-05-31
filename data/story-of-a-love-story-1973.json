@@ -1,118 +1,6 @@
 {
   "imdb_id": "tt0070739",
   "sort_title": "Story of a Love Story (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000869",
-      "name": "Alan Bates",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0761212",
-      "name": "Dominique Sanda",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Natalie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041509",
-      "name": "Michel Auclair",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Georges"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262748",
-      "name": "Evans Evans",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186567",
-      "name": "Paul Crauchet",
-      "sequence": 4,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0557159",
-      "name": "Lea Massari",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123842",
-      "name": "Sean Bury",
-      "sequence": 6,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0194368",
-      "name": "Henri Czarniak",
-      "sequence": 7,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0226535",
-      "name": "Mark Dightam",
-      "sequence": 8,
-      "notes": "(as Marc Dightam)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0229943",
-      "name": "Vernon Dobtcheff",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0320806",
-      "name": "Isabelle Giraud-Carrier",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0574705",
-      "name": "Michael McVey",
-      "sequence": 11,
-      "notes": "(as Michael Mc. Vey)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0597492",
-      "name": "Laurence de Monaghan",
-      "sequence": 12,
-      "notes": "(as Laurence de Monagham)",
-      "roles": [
-        "Cleo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0745667",
-      "name": "Andr\u00e9 Rouille",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -121,20 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000869",
+      "name": "Alan Bates",
+      "sequence": 0,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0761212",
+      "name": "Dominique Sanda",
+      "sequence": 1,
+      "roles": [
+        "Natalie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041509",
+      "name": "Michel Auclair",
+      "sequence": 2,
+      "roles": [
+        "Georges"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262748",
+      "name": "Evans Evans",
+      "sequence": 3,
+      "roles": [
+        "Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186567",
+      "name": "Paul Crauchet",
+      "sequence": 4,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557159",
+      "name": "Lea Massari",
+      "sequence": 5,
+      "roles": [
+        "Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123842",
+      "name": "Sean Bury",
+      "sequence": 6,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0194368",
+      "name": "Henri Czarniak",
+      "sequence": 7,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226535",
+      "name": "Mark Dightam",
+      "sequence": 8,
+      "roles": [],
+      "notes": "(as Marc Dightam)"
+    },
+    {
+      "person_imdb_id": "nm0229943",
+      "name": "Vernon Dobtcheff",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0320806",
+      "name": "Isabelle Giraud-Carrier",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574705",
+      "name": "Michael McVey",
+      "sequence": 11,
+      "roles": [],
+      "notes": "(as Michael Mc. Vey)"
+    },
+    {
+      "person_imdb_id": "nm0597492",
+      "name": "Laurence de Monaghan",
+      "sequence": 12,
+      "roles": [
+        "Cleo"
+      ],
+      "notes": "(as Laurence de Monagham)"
+    },
+    {
+      "person_imdb_id": "nm0745667",
+      "name": "Andr\u00e9 Rouille",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0608845",
       "name": "Nicholas Mosley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Impossible Object\")",
-      "group_id": 0
+      "notes": "(novel \"Impossible Object\")"
     },
     {
       "person_imdb_id": "nm0608845",
       "name": "Nicholas Mosley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1973-05-01",

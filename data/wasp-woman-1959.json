@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0054462",
   "sort_title": "Wasp Woman (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0127693",
-      "name": "Susan Cabot",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Janice Starlin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252111",
-      "name": "Anthony Eisley",
-      "sequence": 1,
-      "notes": "(as Fred Eisley)",
-      "roles": [
-        "Bill Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606371",
-      "name": "Barboura Morris",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mary Dennison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736418",
-      "name": "William Roerick",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Arthur Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548270",
-      "name": "Michael Mark",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Eric Zinthrop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314947",
-      "name": "Frank Gerstle",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Les Hellman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0895259",
-      "name": "Bruno VeSota",
-      "sequence": 6,
-      "notes": "(as Bruno Ve Sota)",
-      "roles": [
-        "Night Watchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330574",
-      "name": "Roy Gordon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Paul Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0400495",
-      "name": "Carolyn Hughes",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jean Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0142187",
-      "name": "Lynn Cartwright",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Maureen Reardon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938231",
-      "name": "Frank Wolff",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "First Delivery Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550319",
-      "name": "Lani Mars",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058131",
-      "name": "Philip Barry",
-      "sequence": 12,
-      "notes": "(as Phillip Barry)",
-      "roles": [
-        "Second Delivery Man"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0127693",
+      "name": "Susan Cabot",
+      "sequence": 0,
+      "roles": [
+        "Janice Starlin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252111",
+      "name": "Anthony Eisley",
+      "sequence": 1,
+      "roles": [
+        "Bill Lane"
+      ],
+      "notes": "(as Fred Eisley)"
+    },
+    {
+      "person_imdb_id": "nm0606371",
+      "name": "Barboura Morris",
+      "sequence": 2,
+      "roles": [
+        "Mary Dennison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736418",
+      "name": "William Roerick",
+      "sequence": 3,
+      "roles": [
+        "Arthur Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548270",
+      "name": "Michael Mark",
+      "sequence": 4,
+      "roles": [
+        "Eric Zinthrop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314947",
+      "name": "Frank Gerstle",
+      "sequence": 5,
+      "roles": [
+        "Les Hellman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0895259",
+      "name": "Bruno VeSota",
+      "sequence": 6,
+      "roles": [
+        "Night Watchman"
+      ],
+      "notes": "(as Bruno Ve Sota)"
+    },
+    {
+      "person_imdb_id": "nm0330574",
+      "name": "Roy Gordon",
+      "sequence": 7,
+      "roles": [
+        "Paul Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0400495",
+      "name": "Carolyn Hughes",
+      "sequence": 8,
+      "roles": [
+        "Jean Carson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0142187",
+      "name": "Lynn Cartwright",
+      "sequence": 9,
+      "roles": [
+        "Maureen Reardon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938231",
+      "name": "Frank Wolff",
+      "sequence": 10,
+      "roles": [
+        "First Delivery Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550319",
+      "name": "Lani Mars",
+      "sequence": 11,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058131",
+      "name": "Philip Barry",
+      "sequence": 12,
+      "roles": [
+        "Second Delivery Man"
+      ],
+      "notes": "(as Phillip Barry)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0330388",
       "name": "Leo Gordon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0955122",
       "name": "Kinta Zertuche",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1959-07-05",

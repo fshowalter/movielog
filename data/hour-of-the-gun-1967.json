@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0061787",
   "sort_title": "Hour of the Gun (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001258",
-      "name": "James Garner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Wyatt Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001673",
-      "name": "Jason Robards",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Doc Holliday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752813",
-      "name": "Robert Ryan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ike Clanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0758692",
-      "name": "Albert Salmi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Octavius Roy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0014493",
-      "name": "Charles Aidman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Horace Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0407307",
-      "name": "Steve Ihnat",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andy Warshaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865845",
-      "name": "Michael Tolan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pete Spence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934750",
-      "name": "William Windom",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Texas Jack Vermillion"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0152452",
-      "name": "Lonny Chapman",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Turkey Creek Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309588",
-      "name": "Larry Gates",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "John P. Clum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0769974",
-      "name": "William Schallert",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Herman Spicer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281950",
-      "name": "Bill Fletcher",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jimmy Bryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842425",
-      "name": "Karl Swenson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Charles Goodfellow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932270",
-      "name": "Austin Willis",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Anson Safford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548449",
-      "name": "Monte Markham",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sherman McMasters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0119993",
-      "name": "Richard Bull",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Thomas Fitch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0578505",
-      "name": "Sam Melville",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Morgan Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176586",
-      "name": "Frank Converse",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Virgil Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000685",
-      "name": "Jon Voight",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Curly Bill Brocius"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680732",
-      "name": "Robert Phillips",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Frank Stilwell"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -191,13 +9,195 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001258",
+      "name": "James Garner",
+      "sequence": 0,
+      "roles": [
+        "Wyatt Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001673",
+      "name": "Jason Robards",
+      "sequence": 1,
+      "roles": [
+        "Doc Holliday"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752813",
+      "name": "Robert Ryan",
+      "sequence": 2,
+      "roles": [
+        "Ike Clanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0758692",
+      "name": "Albert Salmi",
+      "sequence": 3,
+      "roles": [
+        "Octavius Roy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0014493",
+      "name": "Charles Aidman",
+      "sequence": 4,
+      "roles": [
+        "Horace Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0407307",
+      "name": "Steve Ihnat",
+      "sequence": 5,
+      "roles": [
+        "Andy Warshaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865845",
+      "name": "Michael Tolan",
+      "sequence": 6,
+      "roles": [
+        "Pete Spence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934750",
+      "name": "William Windom",
+      "sequence": 7,
+      "roles": [
+        "Texas Jack Vermillion"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0152452",
+      "name": "Lonny Chapman",
+      "sequence": 8,
+      "roles": [
+        "Turkey Creek Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309588",
+      "name": "Larry Gates",
+      "sequence": 9,
+      "roles": [
+        "John P. Clum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0769974",
+      "name": "William Schallert",
+      "sequence": 10,
+      "roles": [
+        "Herman Spicer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281950",
+      "name": "Bill Fletcher",
+      "sequence": 11,
+      "roles": [
+        "Jimmy Bryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842425",
+      "name": "Karl Swenson",
+      "sequence": 12,
+      "roles": [
+        "Dr. Charles Goodfellow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932270",
+      "name": "Austin Willis",
+      "sequence": 13,
+      "roles": [
+        "Anson Safford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548449",
+      "name": "Monte Markham",
+      "sequence": 14,
+      "roles": [
+        "Sherman McMasters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0119993",
+      "name": "Richard Bull",
+      "sequence": 15,
+      "roles": [
+        "Thomas Fitch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0578505",
+      "name": "Sam Melville",
+      "sequence": 16,
+      "roles": [
+        "Morgan Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176586",
+      "name": "Frank Converse",
+      "sequence": 17,
+      "roles": [
+        "Virgil Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000685",
+      "name": "Jon Voight",
+      "sequence": 18,
+      "roles": [
+        "Curly Bill Brocius"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0680732",
+      "name": "Robert Phillips",
+      "sequence": 19,
+      "roles": [
+        "Frank Stilwell"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0030019",
       "name": "Edward Anhalt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1967-10-10",

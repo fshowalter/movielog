@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0052218",
   "sort_title": "Some Came Running (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dave Hirsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bama Dillert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000511",
-      "name": "Shirley MacLaine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ginnie Moorehead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405054",
-      "name": "Martha Hyer",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gwen French"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Frank Hirsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309607",
-      "name": "Nancy Gates",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Edith Barclay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199070",
-      "name": "Leora Dana",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Agnes Hirsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445100",
-      "name": "Betty Lou Keim",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dawn Hirsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309588",
-      "name": "Larry Gates",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Professor Robert Haven French"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669488",
-      "name": "Steve Peck",
-      "sequence": 9,
-      "notes": "(as Steven Peck)",
-      "roles": [
-        "Raymond Lanchak"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318349",
-      "name": "Connie Gilchrist",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jane Barclay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0923268",
-      "name": "Ned Wever",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Smitty"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0591486",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Dave Hirsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 1,
+      "roles": [
+        "Bama Dillert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000511",
+      "name": "Shirley MacLaine",
+      "sequence": 2,
+      "roles": [
+        "Ginnie Moorehead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405054",
+      "name": "Martha Hyer",
+      "sequence": 3,
+      "roles": [
+        "Gwen French"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 4,
+      "roles": [
+        "Frank Hirsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309607",
+      "name": "Nancy Gates",
+      "sequence": 5,
+      "roles": [
+        "Edith Barclay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199070",
+      "name": "Leora Dana",
+      "sequence": 6,
+      "roles": [
+        "Agnes Hirsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445100",
+      "name": "Betty Lou Keim",
+      "sequence": 7,
+      "roles": [
+        "Dawn Hirsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309588",
+      "name": "Larry Gates",
+      "sequence": 8,
+      "roles": [
+        "Professor Robert Haven French"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669488",
+      "name": "Steve Peck",
+      "sequence": 9,
+      "roles": [
+        "Raymond Lanchak"
+      ],
+      "notes": "(as Steven Peck)"
+    },
+    {
+      "person_imdb_id": "nm0318349",
+      "name": "Connie Gilchrist",
+      "sequence": 10,
+      "roles": [
+        "Jane Barclay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0923268",
+      "name": "Ned Wever",
+      "sequence": 11,
+      "roles": [
+        "Smitty"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0428296",
       "name": "James Jones",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Some Came Running\")",
-      "group_id": 0
+      "notes": "(novel \"Some Came Running\")"
     },
     {
       "person_imdb_id": "nm0665875",
       "name": "John Patrick",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0790654",
       "name": "Arthur Sheekman",
-      "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(writer)"
     }
   ],
   "release_date": "1958-12-18",

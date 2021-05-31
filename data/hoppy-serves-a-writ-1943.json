@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0036016",
   "sort_title": "Hoppy Serves a Writ (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0101955",
-      "name": "William Boyd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hopalong Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167395",
-      "name": "Andy Clyde",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "California Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313358",
-      "name": "Jay Kirby",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johnny Travers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430460",
-      "name": "Victor Jory",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tom Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001660",
-      "name": "George Reeves",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Steve Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160697",
-      "name": "Jan Christy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jean Hollister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907404",
-      "name": "Hal Taliaferro",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Greg Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614949",
-      "name": "Forbes Murray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ben Hollister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 8,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Rigney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288304",
-      "name": "Byron Foulger",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Danvers - Hardware Store Proprietor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388232",
-      "name": "Earle Hodgins",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054117",
-      "name": "Roy Barcroft",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Todd Colby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002179",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0101955",
+      "name": "William Boyd",
+      "sequence": 0,
+      "roles": [
+        "Hopalong Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167395",
+      "name": "Andy Clyde",
+      "sequence": 1,
+      "roles": [
+        "California Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313358",
+      "name": "Jay Kirby",
+      "sequence": 2,
+      "roles": [
+        "Johnny Travers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430460",
+      "name": "Victor Jory",
+      "sequence": 3,
+      "roles": [
+        "Tom Jordan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001660",
+      "name": "George Reeves",
+      "sequence": 4,
+      "roles": [
+        "Steve Jordan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160697",
+      "name": "Jan Christy",
+      "sequence": 5,
+      "roles": [
+        "Jean Hollister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907404",
+      "name": "Hal Taliaferro",
+      "sequence": 6,
+      "roles": [
+        "Greg Jordan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614949",
+      "name": "Forbes Murray",
+      "sequence": 7,
+      "roles": [
+        "Ben Hollister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 8,
+      "roles": [
+        "Rigney"
+      ],
+      "notes": "(as Bob Mitchum)"
+    },
+    {
+      "person_imdb_id": "nm0288304",
+      "name": "Byron Foulger",
+      "sequence": 9,
+      "roles": [
+        "Danvers - Hardware Store Proprietor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388232",
+      "name": "Earle Hodgins",
+      "sequence": 10,
+      "roles": [
+        "Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054117",
+      "name": "Roy Barcroft",
+      "sequence": 11,
+      "roles": [
+        "Todd Colby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0611794",
       "name": "Clarence E. Mulford",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0313876",
       "name": "Gerald Geraghty",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1943-03-12",

@@ -1,64 +1,6 @@
 {
   "imdb_id": "tt0045758",
   "sort_title": "Fear and Desire (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0798826",
-      "name": "Frank Silvera",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363780",
-      "name": "Kenneth Harp",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Corby",
-        "The General"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005196",
-      "name": "Paul Mazursky",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sidney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170039",
-      "name": "Stephen Coit",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Fletcher",
-        "The Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500702",
-      "name": "Virginia Leith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020419",
-      "name": "David Allen",
-      "sequence": 5,
-      "notes": "(voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000040",
@@ -67,13 +9,71 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0798826",
+      "name": "Frank Silvera",
+      "sequence": 0,
+      "roles": [
+        "Mac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363780",
+      "name": "Kenneth Harp",
+      "sequence": 1,
+      "roles": [
+        "Lt. Corby",
+        "The General"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005196",
+      "name": "Paul Mazursky",
+      "sequence": 2,
+      "roles": [
+        "Sidney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170039",
+      "name": "Stephen Coit",
+      "sequence": 3,
+      "roles": [
+        "Fletcher",
+        "The Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0500702",
+      "name": "Virginia Leith",
+      "sequence": 4,
+      "roles": [
+        "The Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020419",
+      "name": "David Allen",
+      "sequence": 5,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0755274",
       "name": "Howard Sackler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1953-03-31",

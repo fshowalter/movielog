@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0073580",
   "sort_title": "Passenger (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Locke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0773932",
-      "name": "Maria Schneider",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750192",
-      "name": "Jenny Runacre",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rachel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376915",
-      "name": "Ian Hendry",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Knight"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000925",
-      "name": "Steven Berkoff",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Stephen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0080459",
-      "name": "Ambroise Bia",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Achebe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612529",
-      "name": "Charles Mulvehill",
-      "sequence": 6,
-      "notes": "(as Chuck Mulvehill)",
-      "roles": [
-        "Robertson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000774",
@@ -74,48 +9,113 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 0,
+      "roles": [
+        "Locke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0773932",
+      "name": "Maria Schneider",
+      "sequence": 1,
+      "roles": [
+        "Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750192",
+      "name": "Jenny Runacre",
+      "sequence": 2,
+      "roles": [
+        "Rachel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376915",
+      "name": "Ian Hendry",
+      "sequence": 3,
+      "roles": [
+        "Knight"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000925",
+      "name": "Steven Berkoff",
+      "sequence": 4,
+      "roles": [
+        "Stephen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0080459",
+      "name": "Ambroise Bia",
+      "sequence": 5,
+      "roles": [
+        "Achebe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0612529",
+      "name": "Charles Mulvehill",
+      "sequence": 6,
+      "roles": [
+        "Robertson"
+      ],
+      "notes": "(as Chuck Mulvehill)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0672546",
       "name": "Mark Peploe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0672546",
       "name": "Mark Peploe",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0762924",
       "name": "Enrico Sannia",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000774",
       "name": "Michelangelo Antonioni",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0208269",
       "name": "Miguel de Echarri",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0938557",
       "name": "Peter Wollen",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1975-02-28",

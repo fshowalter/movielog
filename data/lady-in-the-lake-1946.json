@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0039545",
   "sort_title": "Lady in the Lake (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0599910",
-      "name": "Robert Montgomery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Phillip Marlowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869429",
-      "name": "Audrey Totter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Adrienne Fromsett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634313",
-      "name": "Lloyd Nolan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. DeGarmot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Capt. Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000748",
-      "name": "Leon Ames",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Derace Kingsby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005217",
-      "name": "Jayne Meadows",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mildred Havelend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799736",
-      "name": "Dick Simmons",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chris Lavery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030194",
-      "name": "Morris Ankrum",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Eugene Grayson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0498593",
-      "name": "Lila Leeds",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Receptionist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730864",
-      "name": "William Roberts",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Artist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516883",
-      "name": "Kathleen Lockhart",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Grayson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0607726",
-      "name": "Ellay Mort",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Chrystal Kingsby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0599910",
@@ -119,23 +9,133 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0599910",
+      "name": "Robert Montgomery",
+      "sequence": 0,
+      "roles": [
+        "Phillip Marlowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0869429",
+      "name": "Audrey Totter",
+      "sequence": 1,
+      "roles": [
+        "Adrienne Fromsett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634313",
+      "name": "Lloyd Nolan",
+      "sequence": 2,
+      "roles": [
+        "Lt. DeGarmot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 3,
+      "roles": [
+        "Capt. Kane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000748",
+      "name": "Leon Ames",
+      "sequence": 4,
+      "roles": [
+        "Derace Kingsby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005217",
+      "name": "Jayne Meadows",
+      "sequence": 5,
+      "roles": [
+        "Mildred Havelend"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799736",
+      "name": "Dick Simmons",
+      "sequence": 6,
+      "roles": [
+        "Chris Lavery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030194",
+      "name": "Morris Ankrum",
+      "sequence": 7,
+      "roles": [
+        "Eugene Grayson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0498593",
+      "name": "Lila Leeds",
+      "sequence": 8,
+      "roles": [
+        "Receptionist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730864",
+      "name": "William Roberts",
+      "sequence": 9,
+      "roles": [
+        "Artist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516883",
+      "name": "Kathleen Lockhart",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Grayson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0607726",
+      "name": "Ellay Mort",
+      "sequence": 11,
+      "roles": [
+        "Chrystal Kingsby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0279795",
       "name": "Steve Fisher",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
-  "release_date": "1946-12-19",
+  "release_date": "1946-12-20",
   "release_date_notes": "(London)",
   "countries": [
     "United States"

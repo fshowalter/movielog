@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0029751",
   "sort_title": "Wee Willie Winkie (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000073",
-      "name": "Shirley Temple",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Priscilla Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572142",
-      "name": "Victor McLaglen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sgt. MacDuff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807580",
-      "name": "C. Aubrey Smith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Col. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485806",
-      "name": "June Lang",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joyce Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0923481",
-      "name": "Michael Whalen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Coppy - Lt. Brandes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003110",
-      "name": "Cesar Romero",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Khoda Khan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171887",
-      "name": "Constance Collier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Allardyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779081",
-      "name": "Douglas Scott",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611351",
-      "name": "Gavin Muir",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Capt. Bibberbeigh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298699",
-      "name": "Willie Fung",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mohammet Dihn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403582",
-      "name": "Brandon Hurst",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bagby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0660402",
-      "name": "Lionel Pape",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Maj. Allardyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176971",
-      "name": "Clyde Cook",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Pipe Major Sneath"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064194",
-      "name": "Bunny Beatty",
-      "sequence": 13,
-      "notes": "(as Lauri Beatty)",
-      "roles": [
-        "Elsie Allardyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103958",
-      "name": "Lionel Braham",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Maj. Gen. Hammond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285376",
-      "name": "Mary Forbes",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mrs. MacMonachie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572136",
-      "name": "Cyril McLaglen",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Cpl. Tummel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813881",
-      "name": "Pat Somerset",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0765421",
-      "name": "Hector V. Sarno",
-      "sequence": 18,
-      "notes": "(as Hector Sarno)",
-      "roles": [
-        "Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -182,41 +9,214 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000073",
+      "name": "Shirley Temple",
+      "sequence": 0,
+      "roles": [
+        "Priscilla Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572142",
+      "name": "Victor McLaglen",
+      "sequence": 1,
+      "roles": [
+        "Sgt. MacDuff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807580",
+      "name": "C. Aubrey Smith",
+      "sequence": 2,
+      "roles": [
+        "Col. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485806",
+      "name": "June Lang",
+      "sequence": 3,
+      "roles": [
+        "Joyce Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0923481",
+      "name": "Michael Whalen",
+      "sequence": 4,
+      "roles": [
+        "Coppy - Lt. Brandes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003110",
+      "name": "Cesar Romero",
+      "sequence": 5,
+      "roles": [
+        "Khoda Khan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171887",
+      "name": "Constance Collier",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Allardyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779081",
+      "name": "Douglas Scott",
+      "sequence": 7,
+      "roles": [
+        "Mott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0611351",
+      "name": "Gavin Muir",
+      "sequence": 8,
+      "roles": [
+        "Capt. Bibberbeigh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298699",
+      "name": "Willie Fung",
+      "sequence": 9,
+      "roles": [
+        "Mohammet Dihn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403582",
+      "name": "Brandon Hurst",
+      "sequence": 10,
+      "roles": [
+        "Bagby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0660402",
+      "name": "Lionel Pape",
+      "sequence": 11,
+      "roles": [
+        "Maj. Allardyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176971",
+      "name": "Clyde Cook",
+      "sequence": 12,
+      "roles": [
+        "Pipe Major Sneath"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064194",
+      "name": "Bunny Beatty",
+      "sequence": 13,
+      "roles": [
+        "Elsie Allardyce"
+      ],
+      "notes": "(as Lauri Beatty)"
+    },
+    {
+      "person_imdb_id": "nm0103958",
+      "name": "Lionel Braham",
+      "sequence": 14,
+      "roles": [
+        "Maj. Gen. Hammond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285376",
+      "name": "Mary Forbes",
+      "sequence": 15,
+      "roles": [
+        "Mrs. MacMonachie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572136",
+      "name": "Cyril McLaglen",
+      "sequence": 16,
+      "roles": [
+        "Cpl. Tummel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813881",
+      "name": "Pat Somerset",
+      "sequence": 17,
+      "roles": [
+        "Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0765421",
+      "name": "Hector V. Sarno",
+      "sequence": 18,
+      "roles": [
+        "Driver"
+      ],
+      "notes": "(as Hector Sarno)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0664251",
       "name": "Ernest Pascal",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0430756",
       "name": "Julien Josephson",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0456017",
       "name": "Rudyard Kipling",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon the story by)",
-      "group_id": 1
+      "notes": "(based upon the story by)"
     },
     {
       "person_imdb_id": "nm0787611",
       "name": "Mordaunt Shairp",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to screen play construction) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to screen play construction) (uncredited)"
     },
     {
       "person_imdb_id": "nm0808484",
       "name": "Howard Ellis Smith",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to screen play construction) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to screen play construction) (uncredited)"
     }
   ],
   "release_date": "1937-06-25",

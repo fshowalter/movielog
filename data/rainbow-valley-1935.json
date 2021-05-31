@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0026908",
   "sort_title": "Rainbow Valley (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115043",
-      "name": "Lucile Browne",
-      "sequence": 1,
-      "notes": "(as Lucille Browne)",
-      "roles": [
-        "Eleanor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 2,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "George Hale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0556813",
-      "name": "LeRoy Mason",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408937",
-      "name": "Lloyd Ingraham",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Warden Powell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932912",
-      "name": "Jay Wilsey",
-      "sequence": 5,
-      "notes": "(as Buffalo Bill Jr.)",
-      "roles": [
-        "Butch Galt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0050370",
-      "name": "Frank Ball",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Powell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226828",
-      "name": "Bert Dillard",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henchman Spike"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -83,20 +9,94 @@
       "notes": "(as R.N. Bradbury)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115043",
+      "name": "Lucile Browne",
+      "sequence": 1,
+      "roles": [
+        "Eleanor"
+      ],
+      "notes": "(as Lucille Browne)"
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 2,
+      "roles": [
+        "George Hale"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0556813",
+      "name": "LeRoy Mason",
+      "sequence": 3,
+      "roles": [
+        "Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408937",
+      "name": "Lloyd Ingraham",
+      "sequence": 4,
+      "roles": [
+        "Warden Powell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932912",
+      "name": "Jay Wilsey",
+      "sequence": 5,
+      "roles": [
+        "Butch Galt"
+      ],
+      "notes": "(as Buffalo Bill Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0050370",
+      "name": "Frank Ball",
+      "sequence": 6,
+      "roles": [
+        "Powell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226828",
+      "name": "Bert Dillard",
+      "sequence": 7,
+      "roles": [
+        "Henchman Spike"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1935-03-15",

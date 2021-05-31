@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0038762",
   "sort_title": "My Darling Clementine (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000020",
-      "name": "Henry Fonda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Wyatt Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001105",
-      "name": "Linda Darnell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chihuahua"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001514",
-      "name": "Victor Mature",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Doc Holliday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236157",
-      "name": "Cathy Downs",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Clementine Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000974",
-      "name": "Walter Brennan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Old Man Clanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392529",
-      "name": "Tim Holt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Virgil Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Morgan Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Granville Thorndyke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409869",
-      "name": "John Ireland",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Billy Clanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731507",
-      "name": "Roy Roberts",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002034",
-      "name": "Jane Darwell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Kate Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ike Clanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mac the Barman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801193",
-      "name": "Russell Simpson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "John Simpson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -137,34 +9,162 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000020",
+      "name": "Henry Fonda",
+      "sequence": 0,
+      "roles": [
+        "Wyatt Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001105",
+      "name": "Linda Darnell",
+      "sequence": 1,
+      "roles": [
+        "Chihuahua"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001514",
+      "name": "Victor Mature",
+      "sequence": 2,
+      "roles": [
+        "Doc Holliday"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236157",
+      "name": "Cathy Downs",
+      "sequence": 3,
+      "roles": [
+        "Clementine Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000974",
+      "name": "Walter Brennan",
+      "sequence": 4,
+      "roles": [
+        "Old Man Clanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392529",
+      "name": "Tim Holt",
+      "sequence": 5,
+      "roles": [
+        "Virgil Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 6,
+      "roles": [
+        "Morgan Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 7,
+      "roles": [
+        "Granville Thorndyke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409869",
+      "name": "John Ireland",
+      "sequence": 8,
+      "roles": [
+        "Billy Clanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731507",
+      "name": "Roy Roberts",
+      "sequence": 9,
+      "roles": [
+        "Mayor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002034",
+      "name": "Jane Darwell",
+      "sequence": 10,
+      "roles": [
+        "Kate Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 11,
+      "roles": [
+        "Ike Clanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 12,
+      "roles": [
+        "Mac the Barman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801193",
+      "name": "Russell Simpson",
+      "sequence": 13,
+      "roles": [
+        "John Simpson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0257143",
       "name": "Samuel G. Engel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0588003",
       "name": "Winston Miller",
-      "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0375500",
       "name": "Sam Hellman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0482193",
       "name": "Stuart N. Lake",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on a book by)",
-      "group_id": 2
+      "notes": "(based on a book by)"
     }
   ],
   "release_date": "1946-10-16",

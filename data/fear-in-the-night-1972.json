@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0068577",
   "sort_title": "Fear in the Night (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002096",
-      "name": "Judy Geeson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Peggy Heller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001058",
-      "name": "Joan Collins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Molly Carmichael"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061012",
-      "name": "Ralph Bates",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Robert Heller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Headmaster",
-        "Michael Carmichael"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167839",
-      "name": "James Cossins",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511192",
-      "name": "Gillian Lind",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Beamish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340153",
-      "name": "Brian Grellis",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "2nd Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101421",
-      "name": "John Bown",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "1st Policeman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0762727",
@@ -84,20 +9,95 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002096",
+      "name": "Judy Geeson",
+      "sequence": 0,
+      "roles": [
+        "Peggy Heller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001058",
+      "name": "Joan Collins",
+      "sequence": 1,
+      "roles": [
+        "Molly Carmichael"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061012",
+      "name": "Ralph Bates",
+      "sequence": 2,
+      "roles": [
+        "Robert Heller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 3,
+      "roles": [
+        "The Headmaster",
+        "Michael Carmichael"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167839",
+      "name": "James Cossins",
+      "sequence": 4,
+      "roles": [
+        "The Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511192",
+      "name": "Gillian Lind",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Beamish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340153",
+      "name": "Brian Grellis",
+      "sequence": 6,
+      "roles": [
+        "2nd Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101421",
+      "name": "John Bown",
+      "sequence": 7,
+      "roles": [
+        "1st Policeman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen-play)",
-      "group_id": 0
+      "notes": "(screen-play)"
     },
     {
       "person_imdb_id": "nm0843515",
       "name": "Michael Syson",
-      "sequence": 0,
-      "notes": "(screen-play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen-play)"
     }
   ],
   "release_date": "1972-07-09",

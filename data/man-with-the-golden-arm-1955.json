@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0048347",
   "sort_title": "Man with the Golden Arm (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frankie Machine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662223",
-      "name": "Eleanor Parker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Zosh Machine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001571",
-      "name": "Kim Novak",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Molly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822205",
-      "name": "Arnold Stang",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sparrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569000",
-      "name": "Darren McGavin",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Louie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833865",
-      "name": "Robert Strauss",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Schwiefka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176235",
-      "name": "John Conte",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Drunky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580109",
-      "name": "Doro Merande",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Vi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831889",
-      "name": "George E. Stone",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sam Markette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0558636",
-      "name": "George Mathews",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455893",
-      "name": "Leonid Kinskey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dominiwski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583093",
-      "name": "Emile Meyer",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Detective Bednar"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0695937",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Frankie Machine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662223",
+      "name": "Eleanor Parker",
+      "sequence": 1,
+      "roles": [
+        "Zosh Machine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001571",
+      "name": "Kim Novak",
+      "sequence": 2,
+      "roles": [
+        "Molly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822205",
+      "name": "Arnold Stang",
+      "sequence": 3,
+      "roles": [
+        "Sparrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569000",
+      "name": "Darren McGavin",
+      "sequence": 4,
+      "roles": [
+        "Louie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833865",
+      "name": "Robert Strauss",
+      "sequence": 5,
+      "roles": [
+        "Schwiefka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176235",
+      "name": "John Conte",
+      "sequence": 6,
+      "roles": [
+        "Drunky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580109",
+      "name": "Doro Merande",
+      "sequence": 7,
+      "roles": [
+        "Vi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0831889",
+      "name": "George E. Stone",
+      "sequence": 8,
+      "roles": [
+        "Sam Markette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0558636",
+      "name": "George Mathews",
+      "sequence": 9,
+      "roles": [
+        "Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455893",
+      "name": "Leonid Kinskey",
+      "sequence": 10,
+      "roles": [
+        "Dominiwski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0583093",
+      "name": "Emile Meyer",
+      "sequence": 11,
+      "roles": [
+        "Detective Bednar"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0628305",
       "name": "Walter Newman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0578439",
       "name": "Lewis Meltzer",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0019346",
       "name": "Nelson Algren",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1955-12-15",

@@ -1,99 +1,6 @@
 {
   "imdb_id": "tt0042702",
   "sort_title": "Magnificent Yankee (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0263330",
-      "name": "Edith Evanson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Annie Gough"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0527996",
-      "name": "Jimmy Lydon",
-      "sequence": 1,
-      "notes": "(as James Lydon)",
-      "roles": [
-        "Clinton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027323",
-      "name": "Richard Anderson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Reynolds"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026802",
-      "name": "Herbert Anderson",
-      "sequence": 3,
-      "notes": "(as Guy Anderson)",
-      "roles": [
-        "Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643211",
-      "name": "Philip Ober",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Owen Wister",
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291829",
-      "name": "Eduard Franz",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Louis Brandeis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362267",
-      "name": "Ann Harding",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fanny Bowditch Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0129894",
-      "name": "Louis Calhern",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "The Magnificent Yankee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492342",
-      "name": "John Phillip Law",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Minor Role"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -102,27 +9,120 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0263330",
+      "name": "Edith Evanson",
+      "sequence": 0,
+      "roles": [
+        "Annie Gough"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0527996",
+      "name": "Jimmy Lydon",
+      "sequence": 1,
+      "roles": [
+        "Clinton"
+      ],
+      "notes": "(as James Lydon)"
+    },
+    {
+      "person_imdb_id": "nm0027323",
+      "name": "Richard Anderson",
+      "sequence": 2,
+      "roles": [
+        "Reynolds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026802",
+      "name": "Herbert Anderson",
+      "sequence": 3,
+      "roles": [
+        "Baxter"
+      ],
+      "notes": "(as Guy Anderson)"
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 4,
+      "roles": [
+        "Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643211",
+      "name": "Philip Ober",
+      "sequence": 5,
+      "roles": [
+        "Owen Wister",
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291829",
+      "name": "Eduard Franz",
+      "sequence": 6,
+      "roles": [
+        "Louis Brandeis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362267",
+      "name": "Ann Harding",
+      "sequence": 7,
+      "roles": [
+        "Fanny Bowditch Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0129894",
+      "name": "Louis Calhern",
+      "sequence": 8,
+      "roles": [
+        "The Magnificent Yankee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0492342",
+      "name": "John Phillip Law",
+      "sequence": 9,
+      "roles": [
+        "Minor Role"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0081144",
       "name": "Francis Biddle",
+      "group": 0,
       "sequence": 0,
-      "notes": "(book \"Mr. Justice Holmes\")",
-      "group_id": 0
+      "notes": "(book \"Mr. Justice Holmes\")"
     },
     {
       "person_imdb_id": "nm0491964",
       "name": "Emmet Lavery",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0491964",
       "name": "Emmet Lavery",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1950-12-20",

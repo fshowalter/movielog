@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0070212",
   "sort_title": "Iceman Cometh (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hickey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545298",
-      "name": "Fredric March",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Harry Hope"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752813",
-      "name": "Robert Ryan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Larry Slade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000313",
-      "name": "Jeff Bridges",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Don Parritt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226947",
-      "name": "Bradford Dillman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Willie Oban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0095368",
-      "name": "Sorrell Booke",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Hugo Kalmar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106155",
-      "name": "Hildy Brooks",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Margie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206167",
-      "name": "Juno Dawson",
-      "sequence": 7,
-      "notes": "(as Nancy Juno Dawson)",
-      "roles": [
-        "Pearl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262748",
-      "name": "Evans Evans",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0338139",
-      "name": "Martyn Green",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cecil Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0348214",
-      "name": "Moses Gunn",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Joe Mott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416378",
-      "name": "Clifton James",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pat McGloin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572897",
-      "name": "John McLiam",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Jimmy Tomorrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669126",
-      "name": "Stephen Pearlman",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Chuck Morelo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0670017",
-      "name": "Tom Pedi",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Rocky Pioggi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0903667",
-      "name": "George Voskovec",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Piet Wetjoen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6089760",
-      "name": "Don McGovern",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Moran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122576",
-      "name": "Bart Burns",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Lieb"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 0,
+      "roles": [
+        "Hickey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545298",
+      "name": "Fredric March",
+      "sequence": 1,
+      "roles": [
+        "Harry Hope"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752813",
+      "name": "Robert Ryan",
+      "sequence": 2,
+      "roles": [
+        "Larry Slade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000313",
+      "name": "Jeff Bridges",
+      "sequence": 3,
+      "roles": [
+        "Don Parritt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226947",
+      "name": "Bradford Dillman",
+      "sequence": 4,
+      "roles": [
+        "Willie Oban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0095368",
+      "name": "Sorrell Booke",
+      "sequence": 5,
+      "roles": [
+        "Hugo Kalmar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106155",
+      "name": "Hildy Brooks",
+      "sequence": 6,
+      "roles": [
+        "Margie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206167",
+      "name": "Juno Dawson",
+      "sequence": 7,
+      "roles": [
+        "Pearl"
+      ],
+      "notes": "(as Nancy Juno Dawson)"
+    },
+    {
+      "person_imdb_id": "nm0262748",
+      "name": "Evans Evans",
+      "sequence": 8,
+      "roles": [
+        "Cora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0338139",
+      "name": "Martyn Green",
+      "sequence": 9,
+      "roles": [
+        "Cecil Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0348214",
+      "name": "Moses Gunn",
+      "sequence": 10,
+      "roles": [
+        "Joe Mott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416378",
+      "name": "Clifton James",
+      "sequence": 11,
+      "roles": [
+        "Pat McGloin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572897",
+      "name": "John McLiam",
+      "sequence": 12,
+      "roles": [
+        "Jimmy Tomorrow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669126",
+      "name": "Stephen Pearlman",
+      "sequence": 13,
+      "roles": [
+        "Chuck Morelo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0670017",
+      "name": "Tom Pedi",
+      "sequence": 14,
+      "roles": [
+        "Rocky Pioggi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0903667",
+      "name": "George Voskovec",
+      "sequence": 15,
+      "roles": [
+        "Piet Wetjoen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6089760",
+      "name": "Don McGovern",
+      "sequence": 16,
+      "roles": [
+        "Moran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122576",
+      "name": "Bart Burns",
+      "sequence": 17,
+      "roles": [
+        "Lieb"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0193570",
       "name": "Thomas Quinn Curtiss",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0642156",
       "name": "Eugene O'Neill",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"The Iceman Cometh\")",
-      "group_id": 1
+      "notes": "(play \"The Iceman Cometh\")"
     }
   ],
   "release_date": "1973-10-29",

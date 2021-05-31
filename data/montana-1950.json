@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0042744",
   "sort_title": "Montana (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Morgan Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807252",
-      "name": "Alexis Smith",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maria Singleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0757064",
-      "name": "S.Z. Sakall",
-      "sequence": 2,
-      "notes": "(as S.Z. 'Cuddles' Sakall)",
-      "roles": [
-        "Papa Otto Schultz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448004",
-      "name": "Douglas Kennedy",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rodney Ackroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113769",
-      "name": "James Brown",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tex Coyne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531756",
-      "name": "Ian MacDonald",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Slim Reeves"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410361",
-      "name": "Charles Irwin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "MacKenzie - Sheep Herder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122834",
-      "name": "Paul E. Burns",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tecumseh Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654286",
-      "name": "Tudor Owen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George Forsythe"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0258015",
@@ -107,34 +15,126 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Morgan Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807252",
+      "name": "Alexis Smith",
+      "sequence": 1,
+      "roles": [
+        "Maria Singleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0757064",
+      "name": "S.Z. Sakall",
+      "sequence": 2,
+      "roles": [
+        "Papa Otto Schultz"
+      ],
+      "notes": "(as S.Z. 'Cuddles' Sakall)"
+    },
+    {
+      "person_imdb_id": "nm0448004",
+      "name": "Douglas Kennedy",
+      "sequence": 3,
+      "roles": [
+        "Rodney Ackroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113769",
+      "name": "James Brown",
+      "sequence": 4,
+      "roles": [
+        "Tex Coyne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531756",
+      "name": "Ian MacDonald",
+      "sequence": 5,
+      "roles": [
+        "Slim Reeves"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410361",
+      "name": "Charles Irwin",
+      "sequence": 6,
+      "roles": [
+        "MacKenzie - Sheep Herder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122834",
+      "name": "Paul E. Burns",
+      "sequence": 7,
+      "roles": [
+        "Tecumseh Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654286",
+      "name": "Tudor Owen",
+      "sequence": 8,
+      "roles": [
+        "Jock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 9,
+      "roles": [
+        "George Forsythe"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0916139",
       "name": "James R. Webb",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0153698",
       "name": "Borden Chase",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0641885",
       "name": "Charles O'Neal",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0370697",
       "name": "Ernest Haycox",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1950-01-10",

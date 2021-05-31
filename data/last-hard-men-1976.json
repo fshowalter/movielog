@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0074776",
   "sort_title": "Last Hard Men (1976)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000032",
-      "name": "Charlton Heston",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sam Burgade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000336",
-      "name": "James Coburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Provo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001347",
-      "name": "Barbara Hershey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Susan Burgade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729473",
-      "name": "Jorge Rivero",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Menendez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662981",
-      "name": "Michael Parks",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Noel Nye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928243",
-      "name": "Larry Wilcox",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Shelby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711560",
-      "name": "Thalmus Rasulala",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Weed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0667133",
-      "name": "Morgan Paull",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Shiraz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702723",
-      "name": "John Quade",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232817",
-      "name": "Robert Donner",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lee Roy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0319462",
-      "name": "Sam Gilman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dutch Vestal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045786",
-      "name": "James Bacon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Deputy Jetfore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0384610",
-      "name": "Riley Hill",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Gus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1171099",
-      "name": "Dick Alexander",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bo Simpson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1173192",
-      "name": "Yolanda Schutz",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Paloma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686271",
-      "name": "Alberto Pi\u00f1a",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Storekeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380392",
-      "name": "David Herrera",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Indian Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593844",
-      "name": "Christopher Mitchum",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Hal Brickman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115397",
-      "name": "Tony Brubaker",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Self - Tony brubaker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0572132",
@@ -182,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000032",
+      "name": "Charlton Heston",
+      "sequence": 0,
+      "roles": [
+        "Sam Burgade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000336",
+      "name": "James Coburn",
+      "sequence": 1,
+      "roles": [
+        "Provo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001347",
+      "name": "Barbara Hershey",
+      "sequence": 2,
+      "roles": [
+        "Susan Burgade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729473",
+      "name": "Jorge Rivero",
+      "sequence": 3,
+      "roles": [
+        "Menendez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662981",
+      "name": "Michael Parks",
+      "sequence": 4,
+      "roles": [
+        "Noel Nye"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928243",
+      "name": "Larry Wilcox",
+      "sequence": 5,
+      "roles": [
+        "Shelby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711560",
+      "name": "Thalmus Rasulala",
+      "sequence": 6,
+      "roles": [
+        "Weed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0667133",
+      "name": "Morgan Paull",
+      "sequence": 7,
+      "roles": [
+        "Shiraz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702723",
+      "name": "John Quade",
+      "sequence": 8,
+      "roles": [
+        "Gant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232817",
+      "name": "Robert Donner",
+      "sequence": 9,
+      "roles": [
+        "Lee Roy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0319462",
+      "name": "Sam Gilman",
+      "sequence": 10,
+      "roles": [
+        "Dutch Vestal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045786",
+      "name": "James Bacon",
+      "sequence": 11,
+      "roles": [
+        "Deputy Jetfore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0384610",
+      "name": "Riley Hill",
+      "sequence": 12,
+      "roles": [
+        "Gus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1171099",
+      "name": "Dick Alexander",
+      "sequence": 13,
+      "roles": [
+        "Bo Simpson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1173192",
+      "name": "Yolanda Schutz",
+      "sequence": 14,
+      "roles": [
+        "Paloma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686271",
+      "name": "Alberto Pi\u00f1a",
+      "sequence": 15,
+      "roles": [
+        "Storekeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380392",
+      "name": "David Herrera",
+      "sequence": 16,
+      "roles": [
+        "Indian Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593844",
+      "name": "Christopher Mitchum",
+      "sequence": 17,
+      "roles": [
+        "Hal Brickman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115397",
+      "name": "Tony Brubaker",
+      "sequence": 18,
+      "roles": [
+        "Self - Tony brubaker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0307257",
       "name": "Brian Garfield",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Gun Down\")",
-      "group_id": 0
+      "notes": "(novel \"Gun Down\")"
     },
     {
       "person_imdb_id": "nm0874100",
       "name": "Guerdon Trueblood",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1976-04-23",

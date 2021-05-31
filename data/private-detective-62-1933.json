@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0024471",
   "sort_title": "Private Detective 62 (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Free"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Janet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232766",
-      "name": "Ruth Donnelly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Amy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922503",
-      "name": "Gordon Westcott",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bandor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389824",
-      "name": "Arthur Hohl",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602096",
-      "name": "Natalie Moorhead",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Helen Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068257",
-      "name": "James Bell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Whitey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146928",
-      "name": "Hobart Cavanaugh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Harcourt S. Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045784",
-      "name": "Irving Bacon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cab Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Donald Free"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 1,
+      "roles": [
+        "Janet Reynolds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232766",
+      "name": "Ruth Donnelly",
+      "sequence": 2,
+      "roles": [
+        "Amy Moran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922503",
+      "name": "Gordon Westcott",
+      "sequence": 3,
+      "roles": [
+        "Tony Bandor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389824",
+      "name": "Arthur Hohl",
+      "sequence": 4,
+      "roles": [
+        "Dan Hogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602096",
+      "name": "Natalie Moorhead",
+      "sequence": 5,
+      "roles": [
+        "Helen Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068257",
+      "name": "James Bell",
+      "sequence": 6,
+      "roles": [
+        "Whitey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146928",
+      "name": "Hobart Cavanaugh",
+      "sequence": 7,
+      "roles": [
+        "Harcourt S. Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045784",
+      "name": "Irving Bacon",
+      "sequence": 8,
+      "roles": [
+        "Cab Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0416861",
       "name": "Rian James",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0925952",
       "name": "Raoul Whitfield",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1933-06-10",

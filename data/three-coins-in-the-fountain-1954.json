@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0047580",
   "sort_title": "Three Coins in the Fountain (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0916067",
-      "name": "Clifton Webb",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Frederick Shadwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570192",
-      "name": "Dorothy McGuire",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Miss Frances"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0676492",
-      "name": "Jean Peters",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Anita Hutchins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431139",
-      "name": "Louis Jourdan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Prince Dino di Cessi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573704",
-      "name": "Maggie McNamara",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maria Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106387",
-      "name": "Rossano Brazzi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Giorgio Bianchi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820643",
-      "name": "Howard St. John",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Burgoyne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321469",
-      "name": "Kathryn Givney",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Burgoyne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0626350",
-      "name": "Cathleen Nesbitt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Principessa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 26,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Singer of Title Song - Opening Credits"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0624535",
@@ -101,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0916067",
+      "name": "Clifton Webb",
+      "sequence": 0,
+      "roles": [
+        "John Frederick Shadwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570192",
+      "name": "Dorothy McGuire",
+      "sequence": 1,
+      "roles": [
+        "Miss Frances"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0676492",
+      "name": "Jean Peters",
+      "sequence": 2,
+      "roles": [
+        "Anita Hutchins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431139",
+      "name": "Louis Jourdan",
+      "sequence": 3,
+      "roles": [
+        "Prince Dino di Cessi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573704",
+      "name": "Maggie McNamara",
+      "sequence": 4,
+      "roles": [
+        "Maria Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106387",
+      "name": "Rossano Brazzi",
+      "sequence": 5,
+      "roles": [
+        "Giorgio Bianchi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820643",
+      "name": "Howard St. John",
+      "sequence": 6,
+      "roles": [
+        "Mr. Burgoyne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321469",
+      "name": "Kathryn Givney",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Burgoyne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0626350",
+      "name": "Cathleen Nesbitt",
+      "sequence": 8,
+      "roles": [
+        "Principessa"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0665875",
       "name": "John Patrick",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0781186",
       "name": "John H. Secondari",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a novel by)",
-      "group_id": 1
+      "notes": "(from a novel by)"
     }
   ],
   "release_date": "1954-05-01",

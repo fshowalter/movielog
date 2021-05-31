@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0019699",
   "sort_title": "Black Watch (1929)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0572142",
-      "name": "Victor McLaglen",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Donald Gordon King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Yasmani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0868456",
-      "name": "David Torrence",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Field Marshal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738426",
-      "name": "David Rollins",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Malcolm King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0149477",
-      "name": "Cyril Chadwick",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maj. Twynes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Colonel of the Black Watch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195460",
-      "name": "Roy D'Arcy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rewa Ghunga"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0672904",
-      "name": "David Percy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Soloist - Black Watch Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507568",
-      "name": "Mitchell Lewis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mohammed Khan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454596",
-      "name": "Claude King",
-      "sequence": 9,
-      "notes": "(as Claud King)",
-      "roles": [
-        "General in India"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519227",
-      "name": "Walter Long",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Harrim Bey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0572142",
+      "name": "Victor McLaglen",
+      "sequence": 0,
+      "roles": [
+        "Capt. Donald Gordon King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Yasmani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0868456",
+      "name": "David Torrence",
+      "sequence": 2,
+      "roles": [
+        "Field Marshal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738426",
+      "name": "David Rollins",
+      "sequence": 3,
+      "roles": [
+        "Lt. Malcolm King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0149477",
+      "name": "Cyril Chadwick",
+      "sequence": 4,
+      "roles": [
+        "Maj. Twynes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 5,
+      "roles": [
+        "Colonel of the Black Watch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195460",
+      "name": "Roy D'Arcy",
+      "sequence": 6,
+      "roles": [
+        "Rewa Ghunga"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0672904",
+      "name": "David Percy",
+      "sequence": 7,
+      "roles": [
+        "Soloist - Black Watch Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507568",
+      "name": "Mitchell Lewis",
+      "sequence": 8,
+      "roles": [
+        "Mohammed Khan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454596",
+      "name": "Claude King",
+      "sequence": 9,
+      "roles": [
+        "General in India"
+      ],
+      "notes": "(as Claud King)"
+    },
+    {
+      "person_imdb_id": "nm0519227",
+      "name": "Walter Long",
+      "sequence": 10,
+      "roles": [
+        "Harrim Bey"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0570130",
       "name": "James Kevin McGuinness",
+      "group": 0,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0612784",
       "name": "Talbot Mundy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"King of the Khyber Rifles\")",
-      "group_id": 1
+      "notes": "(novel \"King of the Khyber Rifles\")"
     },
     {
       "person_imdb_id": "nm0831958",
       "name": "John Stone",
+      "group": 2,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 2
+      "notes": "(writer)"
     }
   ],
   "release_date": "1929-05-08",

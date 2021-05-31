@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0043129",
   "sort_title": "When Willie Comes Marching Home (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0197314",
-      "name": "Dan Dailey",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "William 'Bill' Kluggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130794",
-      "name": "Corinne Calvet",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Yvonne Le Tete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870109",
-      "name": "Colleen Townsend",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marjorie 'Marge' Fettles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Herman Kluggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0527996",
-      "name": "Jimmy Lydon",
-      "sequence": 4,
-      "notes": "(as James Lydon)",
-      "roles": [
-        "Charles 'Charlie' Fettles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180987",
-      "name": "Lloyd Corrigan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Maj. Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889537",
-      "name": "Evelyn Varden",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Gertrude Kluggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593850",
-      "name": "John Mitchum",
-      "sequence": 7,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Schreves"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681608",
-      "name": "Paul Picerni",
-      "sequence": 8,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Kerrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0849579",
-      "name": "Charles Tannen",
-      "sequence": 96,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -101,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0197314",
+      "name": "Dan Dailey",
+      "sequence": 0,
+      "roles": [
+        "William 'Bill' Kluggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130794",
+      "name": "Corinne Calvet",
+      "sequence": 1,
+      "roles": [
+        "Yvonne Le Tete"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870109",
+      "name": "Colleen Townsend",
+      "sequence": 2,
+      "roles": [
+        "Marjorie 'Marge' Fettles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 3,
+      "roles": [
+        "Herman Kluggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0527996",
+      "name": "Jimmy Lydon",
+      "sequence": 4,
+      "roles": [
+        "Charles 'Charlie' Fettles"
+      ],
+      "notes": "(as James Lydon)"
+    },
+    {
+      "person_imdb_id": "nm0180987",
+      "name": "Lloyd Corrigan",
+      "sequence": 5,
+      "roles": [
+        "Maj. Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889537",
+      "name": "Evelyn Varden",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Gertrude Kluggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593850",
+      "name": "John Mitchum",
+      "sequence": 7,
+      "roles": [
+        "Schreves"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0681608",
+      "name": "Paul Picerni",
+      "sequence": 8,
+      "roles": [
+        "Kerrigan"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0177934",
       "name": "Sy Gomberg",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 0
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0757940",
       "name": "Richard Sale",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0519760",
       "name": "Mary Loos",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1950-02-01",

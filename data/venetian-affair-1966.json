@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0062432",
   "sort_title": "Venetian Affair (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001816",
-      "name": "Robert Vaughn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bill Fenner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813961",
-      "name": "Elke Sommer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sandra Fane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268012",
-      "name": "Felicia Farr",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claire Connor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003337",
-      "name": "Karlheinz B\u00f6hm",
-      "sequence": 3,
-      "notes": "(as Karl Boehm)",
-      "roles": [
-        "Robert Wahl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658885",
-      "name": "Luciana Paluzzi",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Giulia Almeranti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Pierre Vaugiroud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138354",
-      "name": "Roger C. Carmel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mike Ballard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000799",
-      "name": "Edward Asner",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Frank Rosenfeld"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0211460",
-      "name": "Joe De Santis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jan Aarvan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591860",
-      "name": "Fabrizio Mioni",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Russo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490639",
-      "name": "Wesley Lau",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Neill Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0918928",
-      "name": "Bill Weiss",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Goldsmith"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0861679",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001816",
+      "name": "Robert Vaughn",
+      "sequence": 0,
+      "roles": [
+        "Bill Fenner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813961",
+      "name": "Elke Sommer",
+      "sequence": 1,
+      "roles": [
+        "Sandra Fane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268012",
+      "name": "Felicia Farr",
+      "sequence": 2,
+      "roles": [
+        "Claire Connor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003337",
+      "name": "Karlheinz B\u00f6hm",
+      "sequence": 3,
+      "roles": [
+        "Robert Wahl"
+      ],
+      "notes": "(as Karl Boehm)"
+    },
+    {
+      "person_imdb_id": "nm0658885",
+      "name": "Luciana Paluzzi",
+      "sequence": 4,
+      "roles": [
+        "Giulia Almeranti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 5,
+      "roles": [
+        "Dr. Pierre Vaugiroud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138354",
+      "name": "Roger C. Carmel",
+      "sequence": 6,
+      "roles": [
+        "Mike Ballard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000799",
+      "name": "Edward Asner",
+      "sequence": 7,
+      "roles": [
+        "Frank Rosenfeld"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0211460",
+      "name": "Joe De Santis",
+      "sequence": 8,
+      "roles": [
+        "Jan Aarvan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591860",
+      "name": "Fabrizio Mioni",
+      "sequence": 9,
+      "roles": [
+        "Russo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490639",
+      "name": "Wesley Lau",
+      "sequence": 10,
+      "roles": [
+        "Neill Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0918928",
+      "name": "Bill Weiss",
+      "sequence": 11,
+      "roles": [
+        "Goldsmith"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0626981",
       "name": "E. Jack Neuman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0532820",
       "name": "Helen MacInnes",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon the novel by)",
-      "group_id": 1
+      "notes": "(based upon the novel by)"
     }
   ],
   "release_date": "1966-11-24",

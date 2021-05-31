@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0044419",
   "sort_title": "Big Sky (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000018",
-      "name": "Kirk Douglas",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Deakins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552185",
-      "name": "Dewey Martin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Boone Caudill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861910",
-      "name": "Elizabeth Threatt",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Teal Eye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Zeb Calloway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046331",
-      "name": "Buddy Baer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Romaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314065",
-      "name": "Steven Geray",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "'Frenchy' Jourdonnais"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504728",
-      "name": "Henri Letondal",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "La Badie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941401",
-      "name": "Hank Worden",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Poordevil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0204824",
-      "name": "Jim Davis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Streak"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000018",
+      "name": "Kirk Douglas",
+      "sequence": 0,
+      "roles": [
+        "Jim Deakins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552185",
+      "name": "Dewey Martin",
+      "sequence": 1,
+      "roles": [
+        "Boone Caudill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861910",
+      "name": "Elizabeth Threatt",
+      "sequence": 2,
+      "roles": [
+        "Teal Eye"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 3,
+      "roles": [
+        "Zeb Calloway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0046331",
+      "name": "Buddy Baer",
+      "sequence": 4,
+      "roles": [
+        "Romaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314065",
+      "name": "Steven Geray",
+      "sequence": 5,
+      "roles": [
+        "'Frenchy' Jourdonnais"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504728",
+      "name": "Henri Letondal",
+      "sequence": 6,
+      "roles": [
+        "La Badie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941401",
+      "name": "Hank Worden",
+      "sequence": 7,
+      "roles": [
+        "Poordevil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0204824",
+      "name": "Jim Davis",
+      "sequence": 8,
+      "roles": [
+        "Streak"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0349238",
       "name": "A.B. Guthrie Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Big Sky\")",
-      "group_id": 1
+      "notes": "(novel \"The Big Sky\")"
     },
     {
       "person_imdb_id": "nm0119409",
       "name": "Ray Buffum",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 2
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0779059",
       "name": "DeVallon Scott",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 3
+      "notes": "(adaptation) (uncredited)"
     }
   ],
   "release_date": "1952-07-29",

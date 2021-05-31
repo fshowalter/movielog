@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0073594",
   "sort_title": "Four of the Apocalypse... (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0601377",
-      "name": "Fabio Testi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stubby Preston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292802",
-      "name": "Lynne Frederick",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Emanuelle 'Bunny' O'Neill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689488",
-      "name": "Michael J. Pollard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clem"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047872",
-      "name": "Harry Baird",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587401",
-      "name": "Tomas Milian",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chaco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0489947",
-      "name": "Adolfo Lastretti",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rev. Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179059",
-      "name": "Bruno Corazzari",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lemmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872282",
-      "name": "Giorgio Trestini",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Saul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639521",
-      "name": "Donald O'Brien",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sheriff of Salt Flat"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0601377",
+      "name": "Fabio Testi",
+      "sequence": 0,
+      "roles": [
+        "Stubby Preston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292802",
+      "name": "Lynne Frederick",
+      "sequence": 1,
+      "roles": [
+        "Emanuelle 'Bunny' O'Neill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689488",
+      "name": "Michael J. Pollard",
+      "sequence": 2,
+      "roles": [
+        "Clem"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047872",
+      "name": "Harry Baird",
+      "sequence": 3,
+      "roles": [
+        "Bud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587401",
+      "name": "Tomas Milian",
+      "sequence": 4,
+      "roles": [
+        "Chaco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0489947",
+      "name": "Adolfo Lastretti",
+      "sequence": 5,
+      "roles": [
+        "Rev. Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179059",
+      "name": "Bruno Corazzari",
+      "sequence": 6,
+      "roles": [
+        "Lemmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0872282",
+      "name": "Giorgio Trestini",
+      "sequence": 7,
+      "roles": [
+        "Saul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639521",
+      "name": "Donald O'Brien",
+      "sequence": 8,
+      "roles": [
+        "Sheriff of Salt Flat"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0208086",
       "name": "Ennio De Concini",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 0
+      "notes": "(adapted for the screen by)"
     },
     {
       "person_imdb_id": "nm0366610",
       "name": "Bret Harte",
+      "group": 1,
       "sequence": 0,
-      "notes": "(stories) (as Francis Brett Harte, Brett Harte)",
-      "group_id": 1
+      "notes": "(stories) (as Francis Brett Harte, Brett Harte)"
     },
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1975-08-12",

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0019702",
   "sort_title": "Blackmail (1929)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0648565",
-      "name": "Anny Ondra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alice White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0021329",
-      "name": "Sara Allgood",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665715",
-      "name": "Charles Paton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519274",
-      "name": "John Longden",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Detective Frank Webber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130740",
-      "name": "Donald Calthrop",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tracy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728509",
-      "name": "Cyril Ritchard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Artist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428193",
-      "name": "Hannah Jones",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "The Landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102607",
-      "name": "Harvey Braban",
-      "sequence": 7,
-      "notes": "(sound version)",
-      "roles": [
-        "The Chief Inspector"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084051",
-      "name": "Ex-Det. Sergt. Bishop",
-      "sequence": 8,
-      "notes": "(as Ex-Det. Sergt. Bishop - Late C.I.D. Scotland Yard)",
-      "roles": [
-        "The Detective Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058039",
-      "name": "Joan Barry",
-      "sequence": 10,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Alice White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0515194",
-      "name": "Sam Livesey",
-      "sequence": 14,
-      "notes": "(silent version) (uncredited)",
-      "roles": [
-        "The Chief Inspector"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -110,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0648565",
+      "name": "Anny Ondra",
+      "sequence": 0,
+      "roles": [
+        "Alice White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0021329",
+      "name": "Sara Allgood",
+      "sequence": 1,
+      "roles": [
+        "Mrs. White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665715",
+      "name": "Charles Paton",
+      "sequence": 2,
+      "roles": [
+        "Mr. White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519274",
+      "name": "John Longden",
+      "sequence": 3,
+      "roles": [
+        "Detective Frank Webber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130740",
+      "name": "Donald Calthrop",
+      "sequence": 4,
+      "roles": [
+        "Tracy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728509",
+      "name": "Cyril Ritchard",
+      "sequence": 5,
+      "roles": [
+        "The Artist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428193",
+      "name": "Hannah Jones",
+      "sequence": 6,
+      "roles": [
+        "The Landlady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102607",
+      "name": "Harvey Braban",
+      "sequence": 7,
+      "roles": [
+        "The Chief Inspector"
+      ],
+      "notes": "(sound version)"
+    },
+    {
+      "person_imdb_id": "nm0084051",
+      "name": "Ex-Det. Sergt. Bishop",
+      "sequence": 8,
+      "roles": [
+        "The Detective Sergeant"
+      ],
+      "notes": "(as Ex-Det. Sergt. Bishop - Late C.I.D. Scotland Yard)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0071657",
       "name": "Charles Bennett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 0
+      "notes": "(from the play by)"
     },
     {
       "person_imdb_id": "nm0000033",
       "name": "Alfred Hitchcock",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted by)",
-      "group_id": 1
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0506349",
       "name": "Benn W. Levy",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue) (as Benn Levy)",
-      "group_id": 2
+      "notes": "(dialogue) (as Benn Levy)"
     },
     {
       "person_imdb_id": "nm0003836",
       "name": "Michael Powell",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1929-07-28",

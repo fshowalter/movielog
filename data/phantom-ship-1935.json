@@ -1,180 +1,6 @@
 {
   "imdb_id": "tt0026759",
   "sort_title": "Phantom Ship (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anton Lorenzen",
-        "A. Gottlieb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336956",
-      "name": "Shirley Grey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0546657",
-      "name": "Arthur Margetson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Benjamin Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929606",
-      "name": "Edmund Willard",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Toby Bilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388615",
-      "name": "Dennis Hoey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tom Goodschild"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610569",
-      "name": "George Mozart",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tommy Duggan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0774529",
-      "name": "Johnnie Schofield",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Peter Tooley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0596164",
-      "name": "Gunner Moir",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ponta Katz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919700",
-      "name": "Ben Welden",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Boas 'Sailor' Hoffman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572135",
-      "name": "Clifford McLaglen",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Capt. Jim Morehead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330049",
-      "name": "Bruce Gordon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Olly Deveau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332998",
-      "name": "Gibson Gowland",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Andy Gilling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210117",
-      "name": "Terence de Marney",
-      "sequence": 12,
-      "notes": "(as Terrence de Marney)",
-      "roles": [
-        "Charlie Kaye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682345",
-      "name": "Edgar Pierce",
-      "sequence": 13,
-      "notes": "(as J. Edward Pierce)",
-      "roles": [
-        "Arian Harbens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131593",
-      "name": "Herbert Cameron",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Volkerk Grot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0261408",
-      "name": "Wilfred Essex",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Horatio Sprague"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136864",
-      "name": "James Carew",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "James Winchester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218010",
-      "name": "Monti DeLyle",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Portunato"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292063",
-      "name": "Alec Fraser",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Commander Mahon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0166700",
@@ -183,20 +9,194 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Anton Lorenzen",
+        "A. Gottlieb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336956",
+      "name": "Shirley Grey",
+      "sequence": 1,
+      "roles": [
+        "Sarah Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0546657",
+      "name": "Arthur Margetson",
+      "sequence": 2,
+      "roles": [
+        "Capt. Benjamin Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929606",
+      "name": "Edmund Willard",
+      "sequence": 3,
+      "roles": [
+        "Toby Bilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388615",
+      "name": "Dennis Hoey",
+      "sequence": 4,
+      "roles": [
+        "Tom Goodschild"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610569",
+      "name": "George Mozart",
+      "sequence": 5,
+      "roles": [
+        "Tommy Duggan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0774529",
+      "name": "Johnnie Schofield",
+      "sequence": 6,
+      "roles": [
+        "Peter Tooley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0596164",
+      "name": "Gunner Moir",
+      "sequence": 7,
+      "roles": [
+        "Ponta Katz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919700",
+      "name": "Ben Welden",
+      "sequence": 8,
+      "roles": [
+        "Boas 'Sailor' Hoffman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572135",
+      "name": "Clifford McLaglen",
+      "sequence": 9,
+      "roles": [
+        "Capt. Jim Morehead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330049",
+      "name": "Bruce Gordon",
+      "sequence": 10,
+      "roles": [
+        "Olly Deveau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332998",
+      "name": "Gibson Gowland",
+      "sequence": 11,
+      "roles": [
+        "Andy Gilling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210117",
+      "name": "Terence de Marney",
+      "sequence": 12,
+      "roles": [
+        "Charlie Kaye"
+      ],
+      "notes": "(as Terrence de Marney)"
+    },
+    {
+      "person_imdb_id": "nm0682345",
+      "name": "Edgar Pierce",
+      "sequence": 13,
+      "roles": [
+        "Arian Harbens"
+      ],
+      "notes": "(as J. Edward Pierce)"
+    },
+    {
+      "person_imdb_id": "nm0131593",
+      "name": "Herbert Cameron",
+      "sequence": 14,
+      "roles": [
+        "Volkerk Grot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0261408",
+      "name": "Wilfred Essex",
+      "sequence": 15,
+      "roles": [
+        "Horatio Sprague"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0136864",
+      "name": "James Carew",
+      "sequence": 16,
+      "roles": [
+        "James Winchester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218010",
+      "name": "Monti DeLyle",
+      "sequence": 17,
+      "roles": [
+        "Portunato"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292063",
+      "name": "Alec Fraser",
+      "sequence": 18,
+      "roles": [
+        "Commander Mahon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0166700",
       "name": "Denison Clift",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0488348",
       "name": "Charles Larkworthy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 1
+      "notes": "(scenario)"
     }
   ],
   "release_date": "1935-11-14",

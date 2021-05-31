@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0023228",
   "sort_title": "Miracle Man (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Helen Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606431",
-      "name": "Chester Morris",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John 'Doc' Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176851",
-      "name": "Robert Coogan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bobbie Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942046",
-      "name": "John Wray",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Frog"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817021",
-      "name": "Ned Sparks",
-      "sequence": 4,
-      "notes": "(as Ned A. Sparks)",
-      "roles": [
-        "Harry Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0098376",
-      "name": "Hobart Bosworth",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Patriarch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0400763",
-      "name": "Lloyd Hughes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Robert Thornton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115597",
-      "name": "Virginia Bruce",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Margaret Thornton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Nikko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681635",
-      "name": "Irving Pichel",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Henry Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201227",
-      "name": "Frank Darien",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Hiram Higgins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571868",
-      "name": "Florine McKinney",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Betty Higgins"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0572851",
@@ -119,48 +9,158 @@
       "notes": "(as Norman McLeod)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 0,
+      "roles": [
+        "Helen Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606431",
+      "name": "Chester Morris",
+      "sequence": 1,
+      "roles": [
+        "John 'Doc' Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176851",
+      "name": "Robert Coogan",
+      "sequence": 2,
+      "roles": [
+        "Bobbie Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942046",
+      "name": "John Wray",
+      "sequence": 3,
+      "roles": [
+        "The Frog"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0817021",
+      "name": "Ned Sparks",
+      "sequence": 4,
+      "roles": [
+        "Harry Evans"
+      ],
+      "notes": "(as Ned A. Sparks)"
+    },
+    {
+      "person_imdb_id": "nm0098376",
+      "name": "Hobart Bosworth",
+      "sequence": 5,
+      "roles": [
+        "The Patriarch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0400763",
+      "name": "Lloyd Hughes",
+      "sequence": 6,
+      "roles": [
+        "Robert Thornton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115597",
+      "name": "Virginia Bruce",
+      "sequence": 7,
+      "roles": [
+        "Margaret Thornton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 8,
+      "roles": [
+        "Nikko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681635",
+      "name": "Irving Pichel",
+      "sequence": 9,
+      "roles": [
+        "Henry Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201227",
+      "name": "Frank Darien",
+      "sequence": 10,
+      "roles": [
+        "Hiram Higgins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571868",
+      "name": "Florine McKinney",
+      "sequence": 11,
+      "roles": [
+        "Betty Higgins"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0169125",
       "name": "George M. Cohan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0205363",
       "name": "Robert Hobart Davis",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (as Robert H. Davis)",
-      "group_id": 1
+      "notes": "(novel) (as Robert H. Davis)"
     },
     {
       "person_imdb_id": "nm0388755",
       "name": "Samuel Hoffenstein",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0655465",
       "name": "Frank L. Packard",
+      "group": 3,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 3
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0950150",
       "name": "Waldemar Young",
+      "group": 4,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 4
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0950150",
       "name": "Waldemar Young",
+      "group": 5,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 5
+      "notes": "(dialogue)"
     }
   ],
   "release_date": "1932-04-01",

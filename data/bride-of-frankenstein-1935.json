@@ -1,153 +1,6 @@
 {
   "imdb_id": "tt0026138",
   "sort_title": "Bride of Frankenstein (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "(as Karloff)",
-      "roles": [
-        "The Monster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166972",
-      "name": "Colin Clive",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Henry Frankenstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387753",
-      "name": "Valerie Hobson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0857658",
-      "name": "Ernest Thesiger",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Doctor Pretorius"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006471",
-      "name": "Elsa Lanchester",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mary Wollstonecraft Shelley",
-        "The Monster's Mate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330200",
-      "name": "Gavin Gordon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lord Byron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910498",
-      "name": "Douglas Walton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Percy Bysshe Shelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640547",
-      "name": "Una O'Connor",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Minnie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166974",
-      "name": "E.E. Clive",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Burgomaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0698139",
-      "name": "Lucien Prival",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Butler - Albert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373773",
-      "name": "O.P. Heggie",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Hermit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296859",
-      "name": "Dwight Frye",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Karl Glutz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055275",
-      "name": "Reginald Barlow",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Hans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330435",
-      "name": "Mary Gordon",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hans' Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201337",
-      "name": "Anne Darling",
-      "sequence": 14,
-      "notes": "(as Ann Darling)",
-      "roles": [
-        "Shepherdess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082501",
-      "name": "Ted Billings",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Ludwig"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001843",
@@ -156,90 +9,237 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "The Monster"
+      ],
+      "notes": "(as Karloff)"
+    },
+    {
+      "person_imdb_id": "nm0166972",
+      "name": "Colin Clive",
+      "sequence": 1,
+      "roles": [
+        "Henry Frankenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0387753",
+      "name": "Valerie Hobson",
+      "sequence": 2,
+      "roles": [
+        "Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0857658",
+      "name": "Ernest Thesiger",
+      "sequence": 3,
+      "roles": [
+        "Doctor Pretorius"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006471",
+      "name": "Elsa Lanchester",
+      "sequence": 4,
+      "roles": [
+        "Mary Wollstonecraft Shelley",
+        "The Monster's Mate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330200",
+      "name": "Gavin Gordon",
+      "sequence": 5,
+      "roles": [
+        "Lord Byron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910498",
+      "name": "Douglas Walton",
+      "sequence": 6,
+      "roles": [
+        "Percy Bysshe Shelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640547",
+      "name": "Una O'Connor",
+      "sequence": 7,
+      "roles": [
+        "Minnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166974",
+      "name": "E.E. Clive",
+      "sequence": 8,
+      "roles": [
+        "Burgomaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0698139",
+      "name": "Lucien Prival",
+      "sequence": 9,
+      "roles": [
+        "Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373773",
+      "name": "O.P. Heggie",
+      "sequence": 10,
+      "roles": [
+        "Hermit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0296859",
+      "name": "Dwight Frye",
+      "sequence": 11,
+      "roles": [
+        "Karl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055275",
+      "name": "Reginald Barlow",
+      "sequence": 12,
+      "roles": [
+        "Hans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330435",
+      "name": "Mary Gordon",
+      "sequence": 13,
+      "roles": [
+        "Hans' Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201337",
+      "name": "Anne Darling",
+      "sequence": 14,
+      "roles": [
+        "Shepherdess"
+      ],
+      "notes": "(as Ann Darling)"
+    },
+    {
+      "person_imdb_id": "nm0082501",
+      "name": "Ted Billings",
+      "sequence": 15,
+      "roles": [
+        "Ludwig"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0791217",
       "name": "Mary Shelley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(suggested by: the original story written in 1816 by) (as Mary Wollstonecraft Shelley)",
-      "group_id": 0
+      "notes": "(suggested by: the original story written in 1816 by) (as Mary Wollstonecraft Shelley)"
     },
     {
       "person_imdb_id": "nm0403398",
       "name": "William Hurlbut",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted by)",
-      "group_id": 1
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 0,
-      "notes": "(adapted by) (as John Balderston)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adapted by) (as John Balderston)"
     },
     {
       "person_imdb_id": "nm0403398",
       "name": "William Hurlbut",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0076653",
       "name": "Josef Berne",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 3
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0088662",
       "name": "Lawrence G. Blochman",
+      "group": 4,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 4
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0282984",
       "name": "Robert Florey",
+      "group": 5,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 5
+      "notes": "(story) (uncredited)"
     },
     {
       "person_imdb_id": "nm0531878",
       "name": "Philip MacDonald",
+      "group": 6,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 6
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
+      "group": 7,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 7
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0792670",
       "name": "R.C. Sherriff",
+      "group": 8,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 8
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm1073460",
       "name": "Edmund Pearson",
+      "group": 9,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 9
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm2191908",
       "name": "Morton Covan",
+      "group": 10,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 10
+      "notes": "(adaptation) (uncredited)"
     }
   ],
   "release_date": "1935-04-19",

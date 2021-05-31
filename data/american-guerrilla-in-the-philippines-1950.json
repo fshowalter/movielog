@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0042195",
   "sort_title": "American Guerrilla in the Philippines (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000061",
-      "name": "Tyrone Power",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ensign Chuck Palmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0696163",
-      "name": "Micheline Presle",
-      "sequence": 1,
-      "notes": "(as Micheline Prelle)",
-      "roles": [
-        "Jeanne Martinez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263885",
-      "name": "Tom Ewell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jim Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666097",
-      "name": "Robert Patten",
-      "sequence": 3,
-      "notes": "(as Bob Patten)",
-      "roles": [
-        "Lovejoy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177320",
-      "name": "Tommy Cook",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Miguel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867944",
-      "name": "Juan Torena",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Juan Martinez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001181",
-      "name": "Jack Elam",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "The Speaker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0056719",
-      "name": "Robert Barrat",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gen. Douglas MacArthur"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000061",
+      "name": "Tyrone Power",
+      "sequence": 0,
+      "roles": [
+        "Ensign Chuck Palmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0696163",
+      "name": "Micheline Presle",
+      "sequence": 1,
+      "roles": [
+        "Jeanne Martinez"
+      ],
+      "notes": "(as Micheline Prelle)"
+    },
+    {
+      "person_imdb_id": "nm0263885",
+      "name": "Tom Ewell",
+      "sequence": 2,
+      "roles": [
+        "Jim Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666097",
+      "name": "Robert Patten",
+      "sequence": 3,
+      "roles": [
+        "Lovejoy"
+      ],
+      "notes": "(as Bob Patten)"
+    },
+    {
+      "person_imdb_id": "nm0177320",
+      "name": "Tommy Cook",
+      "sequence": 4,
+      "roles": [
+        "Miguel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867944",
+      "name": "Juan Torena",
+      "sequence": 5,
+      "roles": [
+        "Juan Martinez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001181",
+      "name": "Jack Elam",
+      "sequence": 6,
+      "roles": [
+        "The Speaker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0056719",
+      "name": "Robert Barrat",
+      "sequence": 7,
+      "roles": [
+        "Gen. Douglas MacArthur"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0873707",
       "name": "Lamar Trotti",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0938183",
       "name": "Ira Wolfert",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1950-11-07",

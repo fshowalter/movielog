@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0069536",
   "sort_title": "White Fang (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0626259",
-      "name": "Franco Nero",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jason Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514059",
-      "name": "Virna Lisi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sister Evangelina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721073",
-      "name": "Fernando Rey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Father Oatley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825952",
-      "name": "John Steiner",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Charles 'Beauty' Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363615",
-      "name": "Raimund Harmstorf",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kurt Jansen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554607",
-      "name": "Daniel Mart\u00edn",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061309",
-      "name": "Rik Battaglia",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jim Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0239359",
-      "name": "Daniele Dublino",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Chester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689057",
-      "name": "Maurice Poli",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mountie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058384",
-      "name": "John Bartha",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mountie who frees Chester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0031412",
-      "name": "Luigi Antonio Guerra",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Smith Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541446",
-      "name": "Carla Mancini",
-      "sequence": 11,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592901",
-      "name": "Missaele",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mitsah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0029182",
-      "name": "Carole Andr\u00e9",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Krista Oatley"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -137,62 +9,190 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0626259",
+      "name": "Franco Nero",
+      "sequence": 0,
+      "roles": [
+        "Jason Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514059",
+      "name": "Virna Lisi",
+      "sequence": 1,
+      "roles": [
+        "Sister Evangelina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721073",
+      "name": "Fernando Rey",
+      "sequence": 2,
+      "roles": [
+        "Father Oatley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0825952",
+      "name": "John Steiner",
+      "sequence": 3,
+      "roles": [
+        "Charles 'Beauty' Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363615",
+      "name": "Raimund Harmstorf",
+      "sequence": 4,
+      "roles": [
+        "Kurt Jansen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0554607",
+      "name": "Daniel Mart\u00edn",
+      "sequence": 5,
+      "roles": [
+        "Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061309",
+      "name": "Rik Battaglia",
+      "sequence": 6,
+      "roles": [
+        "Jim Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0239359",
+      "name": "Daniele Dublino",
+      "sequence": 7,
+      "roles": [
+        "Chester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689057",
+      "name": "Maurice Poli",
+      "sequence": 8,
+      "roles": [
+        "Mountie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058384",
+      "name": "John Bartha",
+      "sequence": 9,
+      "roles": [
+        "Mountie who frees Chester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0031412",
+      "name": "Luigi Antonio Guerra",
+      "sequence": 10,
+      "roles": [
+        "Smith Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541446",
+      "name": "Carla Mancini",
+      "sequence": 11,
+      "roles": [
+        "Prostitute"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0592901",
+      "name": "Missaele",
+      "sequence": 12,
+      "roles": [
+        "Mitsah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0029182",
+      "name": "Carole Andr\u00e9",
+      "sequence": 13,
+      "roles": [
+        "Krista Oatley"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story) (as Peter Welbeck)",
-      "group_id": 0
+      "notes": "(story) (as Peter Welbeck)"
     },
     {
       "person_imdb_id": "nm0518711",
       "name": "Jack London",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"White Fang\")",
-      "group_id": 1
+      "notes": "(novel \"White Fang\")"
     },
     {
       "person_imdb_id": "nm0316363",
       "name": "Roberto Gianviti",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0716701",
       "name": "Piero Regnoli",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
-      "sequence": 0,
-      "notes": "(screenplay) (as Peter Welbeck)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 2,
+      "notes": "(screenplay) (as Peter Welbeck)"
     },
     {
       "person_imdb_id": "nm0255425",
       "name": "Guy Elmes",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0450838",
       "name": "Thom Keyes",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 4,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0746205",
       "name": "Guillaume Roux",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 5,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1973-12-21",

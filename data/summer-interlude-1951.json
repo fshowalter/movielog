@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0044060",
   "sort_title": "Summer Interlude (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0632274",
-      "name": "Maj-Britt Nilsson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Henrik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0458033",
-      "name": "Alf Kjellin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "David Nystr\u00f6m"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0259134",
-      "name": "Annalisa Ericson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kaj, ballet dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298777",
-      "name": "Georg Funkquist",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Uncle Erland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0645041",
-      "name": "Stig Olin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ballet Master"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689433",
-      "name": "Mimi Pollak",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Calwagen, Henrik's aunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085007",
-      "name": "Ren\u00e9e Bj\u00f6rling",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Aunt Elisabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0648056",
-      "name": "Gunnar Olsson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "The Priest"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0632274",
+      "name": "Maj-Britt Nilsson",
+      "sequence": 0,
+      "roles": [
+        "Marie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 1,
+      "roles": [
+        "Henrik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0458033",
+      "name": "Alf Kjellin",
+      "sequence": 2,
+      "roles": [
+        "David Nystr\u00f6m"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0259134",
+      "name": "Annalisa Ericson",
+      "sequence": 3,
+      "roles": [
+        "Kaj, ballet dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298777",
+      "name": "Georg Funkquist",
+      "sequence": 4,
+      "roles": [
+        "Uncle Erland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0645041",
+      "name": "Stig Olin",
+      "sequence": 5,
+      "roles": [
+        "Ballet Master"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689433",
+      "name": "Mimi Pollak",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Calwagen, Henrik's aunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085007",
+      "name": "Ren\u00e9e Bj\u00f6rling",
+      "sequence": 7,
+      "roles": [
+        "Aunt Elisabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0648056",
+      "name": "Gunnar Olsson",
+      "sequence": 8,
+      "roles": [
+        "The Priest"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0340471",
       "name": "Herbert Grevenius",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     }
   ],
   "release_date": "1951-10-01",

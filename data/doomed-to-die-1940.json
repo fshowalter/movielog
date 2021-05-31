@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0032404",
   "sort_title": "Doomed to Die (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "James Lee Wong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721851",
-      "name": "Marjorie Reynolds",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Roberta 'Bobbie' Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Police Capt. William Street"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826354",
-      "name": "William Stelling",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dick Fleming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185798",
-      "name": "Catherine Craig",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cynthia Wentworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0882322",
-      "name": "Guy Usher",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Paul Fleming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104770",
-      "name": "Henry Brandon",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Victor Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485852",
-      "name": "Melvin Lang",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cyrus B. Wentworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533101",
-      "name": "Wilbur Mack",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363218",
-      "name": "Kenneth Harlan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ludlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519618",
-      "name": "Richard Loo",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tong Leader"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0631438",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "James Lee Wong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721851",
+      "name": "Marjorie Reynolds",
+      "sequence": 1,
+      "roles": [
+        "Roberta 'Bobbie' Logan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 2,
+      "roles": [
+        "Police Capt. William Street"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826354",
+      "name": "William Stelling",
+      "sequence": 3,
+      "roles": [
+        "Dick Fleming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185798",
+      "name": "Catherine Craig",
+      "sequence": 4,
+      "roles": [
+        "Cynthia Wentworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0882322",
+      "name": "Guy Usher",
+      "sequence": 5,
+      "roles": [
+        "Paul Fleming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104770",
+      "name": "Henry Brandon",
+      "sequence": 6,
+      "roles": [
+        "Victor Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485852",
+      "name": "Melvin Lang",
+      "sequence": 7,
+      "roles": [
+        "Cyrus B. Wentworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533101",
+      "name": "Wilbur Mack",
+      "sequence": 8,
+      "roles": [
+        "Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363218",
+      "name": "Kenneth Harlan",
+      "sequence": 9,
+      "roles": [
+        "Ludlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519618",
+      "name": "Richard Loo",
+      "sequence": 10,
+      "roles": [
+        "Tong Leader"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0415004",
       "name": "Michael Jacoby",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Michel Jacoby)",
-      "group_id": 0
+      "notes": "(screenplay) (as Michel Jacoby)"
     },
     {
       "person_imdb_id": "nm0079369",
       "name": "Ralph Gilbert Bettison",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Ralph Bettinson)",
-      "group_id": 1
+      "notes": "(story) (as Ralph Bettinson)"
     },
     {
       "person_imdb_id": "nm0928840",
       "name": "Hugh Wiley",
+      "group": 2,
       "sequence": 0,
-      "notes": "(characters from James Lee Wong stories in Collier's Magazine)",
-      "group_id": 2
+      "notes": "(characters from James Lee Wong stories in Collier's Magazine)"
     }
   ],
   "release_date": "1940-08-12",

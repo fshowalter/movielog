@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0057693",
   "sort_title": "X: The Man with the X-Ray Eyes (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001537",
-      "name": "Ray Milland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. James Xavier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0886469",
-      "name": "Diana Van der Vlis",
-      "sequence": 1,
-      "notes": "(as Diana van der Vlis)",
-      "roles": [
-        "Dr. Diane Fairfax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831905",
-      "name": "Harold J. Stone",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Sam Brant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398466",
-      "name": "John Hoyt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Willard Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725543",
-      "name": "Don Rickles",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Crane"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -56,27 +9,74 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001537",
+      "name": "Ray Milland",
+      "sequence": 0,
+      "roles": [
+        "Dr. James Xavier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0886469",
+      "name": "Diana Van der Vlis",
+      "sequence": 1,
+      "roles": [
+        "Dr. Diane Fairfax"
+      ],
+      "notes": "(as Diana van der Vlis)"
+    },
+    {
+      "person_imdb_id": "nm0831905",
+      "name": "Harold J. Stone",
+      "sequence": 2,
+      "roles": [
+        "Dr. Sam Brant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398466",
+      "name": "John Hoyt",
+      "sequence": 3,
+      "roles": [
+        "Dr. Willard Benson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725543",
+      "name": "Don Rickles",
+      "sequence": 4,
+      "roles": [
+        "Crane"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0226889",
       "name": "Robert Dillon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0751400",
       "name": "Ray Russell",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0751400",
       "name": "Ray Russell",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1963-07-13",

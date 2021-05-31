@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0069945",
   "sort_title": "Dark Star (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0621406",
-      "name": "Brian Narelle",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Doolittle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0475157",
-      "name": "Cal Kuniholm",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Boiler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656607",
-      "name": "Dre Pahich",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Talby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639321",
-      "name": "Dan O'Bannon",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Pinback"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460469",
-      "name": "Cookie Knapp",
-      "sequence": 7,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Computer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000118",
@@ -56,20 +9,58 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0000118",
-      "name": "John Carpenter",
+      "person_imdb_id": "nm0621406",
+      "name": "Brian Narelle",
       "sequence": 0,
-      "notes": "(original story and screenplay)",
-      "group_id": 0
+      "roles": [
+        "Lt. Doolittle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0475157",
+      "name": "Cal Kuniholm",
+      "sequence": 1,
+      "roles": [
+        "Boiler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656607",
+      "name": "Dre Pahich",
+      "sequence": 2,
+      "roles": [
+        "Talby"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0639321",
       "name": "Dan O'Bannon",
+      "sequence": 3,
+      "roles": [
+        "Pinback"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0000118",
+      "name": "John Carpenter",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story and screenplay)",
-      "group_id": 0
+      "notes": "(original story and screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0639321",
+      "name": "Dan O'Bannon",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story and screenplay)"
     }
   ],
   "release_date": "1974-04-01",

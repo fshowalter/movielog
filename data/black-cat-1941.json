@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0033397",
   "sort_title": "Black Cat (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001651",
-      "name": "Basil Rathbone",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Montague Hartley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001890",
-      "name": "Hugh Herbert",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mr. Penny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002024",
-      "name": "Broderick Crawford",
-      "sequence": 2,
-      "notes": "(as Brod Crawford)",
-      "roles": [
-        "Hubert Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Eduardo Vigos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350374",
-      "name": "Anne Gwynne",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Elaine Winslow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178066",
-      "name": "Gladys Cooper",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Myrna Hartley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814216",
-      "name": "Gale Sondergaard",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Abigail Doone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517480",
-      "name": "Cecilia Loftus",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henrietta Winslow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230068",
-      "name": "Claire Dodd",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Margaret Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253141",
-      "name": "John Eldredge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stanley Borden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000042",
-      "name": "Alan Ladd",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Richard Hartley"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0736610",
@@ -110,41 +9,142 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001651",
+      "name": "Basil Rathbone",
+      "sequence": 0,
+      "roles": [
+        "Montague Hartley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001890",
+      "name": "Hugh Herbert",
+      "sequence": 1,
+      "roles": [
+        "Mr. Penny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002024",
+      "name": "Broderick Crawford",
+      "sequence": 2,
+      "roles": [
+        "A. Gilmore Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 3,
+      "roles": [
+        "Eduardo Vidos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350374",
+      "name": "Anne Gwynne",
+      "sequence": 4,
+      "roles": [
+        "Elaine Winslow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178066",
+      "name": "Gladys Cooper",
+      "sequence": 5,
+      "roles": [
+        "Myrna Hartley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0814216",
+      "name": "Gale Sondergaard",
+      "sequence": 6,
+      "roles": [
+        "Abigail Doone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517480",
+      "name": "Cecilia Loftus",
+      "sequence": 7,
+      "roles": [
+        "Henrietta Winslow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230068",
+      "name": "Claire Dodd",
+      "sequence": 8,
+      "roles": [
+        "Margaret Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253141",
+      "name": "John Eldredge",
+      "sequence": 9,
+      "roles": [
+        "Stanley Borden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000042",
+      "name": "Alan Ladd",
+      "sequence": 10,
+      "roles": [
+        "Richard Hartley"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0498738",
       "name": "Robert Lees",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0727411",
       "name": "Frederic I. Rinaldo",
-      "sequence": 0,
-      "notes": "(screenplay) (as Fred Rinaldo)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Fred Rinaldo)"
     },
     {
       "person_imdb_id": "nm0852338",
       "name": "Eric Taylor",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0627476",
       "name": "Robert Neville",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 1,
       "sequence": 0,
-      "notes": "(suggested by story by)",
-      "group_id": 1
+      "notes": "(suggested by story by)"
     }
   ],
   "release_date": "1941-05-02",

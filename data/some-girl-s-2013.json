@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt2201221",
   "sort_title": "Some Girl(s) (2013)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0111013",
-      "name": "Adam Brody",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068338",
-      "name": "Kristen Bell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bobbi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1443740",
-      "name": "Zoe Kazan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Reggie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0535502",
-      "name": "M\u00eda Maestro",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tyler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0607185",
-      "name": "Jennifer Morrison",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001833",
-      "name": "Emily Watson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lindsay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2654105",
-      "name": "Laura Mann",
-      "sequence": 6,
-      "notes": "(as Laura Perloe)",
-      "roles": [
-        "Flight Attendant #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5077640",
-      "name": "Kathleen Christy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Flight Attendant #2"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0902939",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0111013",
+      "name": "Adam Brody",
+      "sequence": 0,
+      "roles": [
+        "The Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068338",
+      "name": "Kristen Bell",
+      "sequence": 1,
+      "roles": [
+        "Bobbi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1443740",
+      "name": "Zoe Kazan",
+      "sequence": 2,
+      "roles": [
+        "Reggie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0535502",
+      "name": "M\u00eda Maestro",
+      "sequence": 3,
+      "roles": [
+        "Tyler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0607185",
+      "name": "Jennifer Morrison",
+      "sequence": 4,
+      "roles": [
+        "Sam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001833",
+      "name": "Emily Watson",
+      "sequence": 5,
+      "roles": [
+        "Lindsay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2654105",
+      "name": "Laura Mann",
+      "sequence": 6,
+      "roles": [
+        "Flight Attendant #1"
+      ],
+      "notes": "(as Laura Perloe)"
+    },
+    {
+      "person_imdb_id": "nm5077640",
+      "name": "Kathleen Christy",
+      "sequence": 7,
+      "roles": [
+        "Flight Attendant #2"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001438",
       "name": "Neil LaBute",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0001438",
       "name": "Neil LaBute",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the stage play written by)",
-      "group_id": 1
+      "notes": "(based on the stage play written by)"
     }
   ],
   "release_date": "2013-03-09",

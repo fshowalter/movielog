@@ -1,91 +1,6 @@
 {
   "imdb_id": "tt0037469",
   "sort_title": "Woman in the Window (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000064",
-      "name": "Edward G. Robinson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prof. Richard Wanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000910",
-      "name": "Joan Bennett",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alice Reed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557339",
-      "name": "Raymond Massey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "District Attorney Frank Lalor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107631",
-      "name": "Edmund Breon",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Michael Barkstane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002053",
-      "name": "Dan Duryea",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Heidt",
-        "Tim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0414090",
-      "name": "Thomas E. Jackson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677125",
-      "name": "Dorothy Peterson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Wanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517425",
-      "name": "Arthur Loft",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Claude Mazard",
-        "Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206126",
-      "name": "Frank Dawson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Collins"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -94,20 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000064",
+      "name": "Edward G. Robinson",
+      "sequence": 0,
+      "roles": [
+        "Prof. Richard Wanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000910",
+      "name": "Joan Bennett",
+      "sequence": 1,
+      "roles": [
+        "Alice Reed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557339",
+      "name": "Raymond Massey",
+      "sequence": 2,
+      "roles": [
+        "District Attorney Frank Lalor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107631",
+      "name": "Edmund Breon",
+      "sequence": 3,
+      "roles": [
+        "Dr. Michael Barkstane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002053",
+      "name": "Dan Duryea",
+      "sequence": 4,
+      "roles": [
+        "Heidt",
+        "Tim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0414090",
+      "name": "Thomas E. Jackson",
+      "sequence": 5,
+      "roles": [
+        "Inspector Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677125",
+      "name": "Dorothy Peterson",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Wanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517425",
+      "name": "Arthur Loft",
+      "sequence": 7,
+      "roles": [
+        "Claude Mazard",
+        "Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206126",
+      "name": "Frank Dawson",
+      "sequence": 8,
+      "roles": [
+        "Collins"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0425913",
       "name": "Nunnally Johnson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0909260",
       "name": "J.H. Wallis",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (as J. H. Wallis)",
-      "group_id": 1
+      "notes": "(novel) (as J. H. Wallis)"
     }
   ],
   "release_date": "1944-10-25",

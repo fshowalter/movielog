@@ -46,14 +46,14 @@ class Row(TypedDict):
 def fetch_rows() -> list[Row]:
     query = """
         SELECT
-            viewings.sequence
-        , movies.title
-        , movies.year
-        , movies.imdb_id
-        , slug
+            viewings.sequence AS viewing_sequence
+        , movies.title AS movie_title
+        , movies.year AS movie_year
+        , movies.imdb_id AS movie_imdb_id
+        , slug AS movie_slug
         , strftime('%Y', viewings.date) AS viewing_year
-        , viewings.date
-        , viewings.venue
+        , viewings.date AS viewing_date
+        , viewings.venue AS viewing_venue
         FROM viewings
         INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
         LEFT JOIN reviews ON reviews.movie_imdb_id = movies.imdb_id

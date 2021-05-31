@@ -1,156 +1,6 @@
 {
   "imdb_id": "tt0057646",
   "sort_title": "Horror Castle (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0687958",
-      "name": "Rossana Podest\u00e0",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mary Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729676",
-      "name": "Georges Rivi\u00e8re",
-      "sequence": 1,
-      "notes": "(as George Riviere)",
-      "roles": [
-        "Max Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "(as Cristopher Lee)",
-      "roles": [
-        "Erich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637713",
-      "name": "Laura Nucci",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230936",
-      "name": "Jim Dolen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John Selby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786319",
-      "name": "Leonardo Severini",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0214769",
-      "name": "Anny Degli Uberti",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Kidnapped Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590478",
-      "name": "Luciana Milone",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Trude"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884178",
-      "name": "Mirko Valentin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "The General"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0756756",
-      "name": "Lucile Saint-Simon",
-      "sequence": 9,
-      "notes": "(as Lucille St. Simon)",
-      "roles": [
-        "Hilde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910569",
-      "name": "Patrick Walton",
-      "sequence": 10,
-      "notes": "(as Patrik Walton)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0934778",
-      "name": "Carole Windsor",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0896545",
-      "name": "Rex Vidor",
-      "sequence": 12,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0096134",
-      "name": "James Borden",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0362727",
-      "name": "Peter Hardy",
-      "sequence": 14,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0107928",
-      "name": "Bredon Brett",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0562970",
-      "name": "Robert Mayor",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0386944",
-      "name": "Adolf Hitler",
-      "sequence": 18,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Self"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0546672",
@@ -159,34 +9,175 @@
       "notes": "(as Anthony Dawson)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0687958",
+      "name": "Rossana Podest\u00e0",
+      "sequence": 0,
+      "roles": [
+        "Mary Hunter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729676",
+      "name": "Georges Rivi\u00e8re",
+      "sequence": 1,
+      "roles": [
+        "Max Hunter"
+      ],
+      "notes": "(as George Riviere)"
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Erich"
+      ],
+      "notes": "(as Cristopher Lee)"
+    },
+    {
+      "person_imdb_id": "nm0637713",
+      "name": "Laura Nucci",
+      "sequence": 3,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230936",
+      "name": "Jim Dolen",
+      "sequence": 4,
+      "roles": [
+        "John Selby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786319",
+      "name": "Leonardo Severini",
+      "sequence": 5,
+      "roles": [
+        "The Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0214769",
+      "name": "Anny Degli Uberti",
+      "sequence": 6,
+      "roles": [
+        "Kidnapped Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590478",
+      "name": "Luciana Milone",
+      "sequence": 7,
+      "roles": [
+        "Trude"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884178",
+      "name": "Mirko Valentin",
+      "sequence": 8,
+      "roles": [
+        "The General"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0756756",
+      "name": "Lucile Saint-Simon",
+      "sequence": 9,
+      "roles": [
+        "Hilde"
+      ],
+      "notes": "(as Lucille St. Simon)"
+    },
+    {
+      "person_imdb_id": "nm0910569",
+      "name": "Patrick Walton",
+      "sequence": 10,
+      "roles": [],
+      "notes": "(as Patrik Walton)"
+    },
+    {
+      "person_imdb_id": "nm0934778",
+      "name": "Carole Windsor",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896545",
+      "name": "Rex Vidor",
+      "sequence": 12,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0096134",
+      "name": "James Borden",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362727",
+      "name": "Peter Hardy",
+      "sequence": 14,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107928",
+      "name": "Bredon Brett",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562970",
+      "name": "Robert Mayor",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0091559",
       "name": "Frank Bogart",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Virgen of Nurimberg\")",
-      "group_id": 0
+      "notes": "(novel \"The Virgen of Nurimberg\")"
     },
     {
       "person_imdb_id": "nm0002759",
       "name": "Ernesto Gastaldi",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay and adaptation) (as Gastad Green)",
-      "group_id": 1
+      "notes": "(screenplay and adaptation) (as Gastad Green)"
     },
     {
       "person_imdb_id": "nm0344933",
       "name": "Edmond T. Gr\u00e9ville",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay and adaptation) (as Edmund Greville)",
-      "group_id": 2
+      "notes": "(screenplay and adaptation) (as Edmund Greville)"
     },
     {
       "person_imdb_id": "nm0546672",
       "name": "Antonio Margheriti",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay and adaptation) (as Anthony Dawson)",
-      "group_id": 3
+      "notes": "(screenplay and adaptation) (as Anthony Dawson)"
     }
   ],
   "release_date": "1963-08-15",

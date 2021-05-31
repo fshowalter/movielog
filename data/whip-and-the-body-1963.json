@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0057078",
   "sort_title": "Whip and the Body (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0492002",
-      "name": "Daliah Lavi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nevenka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kurt Menliff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447652",
-      "name": "Tony Kendall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Christian Menliff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302837",
-      "name": "Evelyn Stewart",
-      "sequence": 3,
-      "notes": "(as Isli Oberon)",
-      "roles": [
-        "Katia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575616",
-      "name": "Harriet Medin",
-      "sequence": 4,
-      "notes": "(as Harriet White)",
-      "roles": [
-        "Giorgia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210519",
-      "name": "Gustavo De Nardo",
-      "sequence": 5,
-      "notes": "(as Dean Ardow)",
-      "roles": [
-        "Count Vladimir Menliff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0259506",
-      "name": "Jacques Herlin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0683119",
-      "name": "Luciano Pigozzi",
-      "sequence": 7,
-      "notes": "(as Alan Collins)",
-      "roles": [
-        "Losat"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -83,27 +9,101 @@
       "notes": "(as John M. Old)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0492002",
+      "name": "Daliah Lavi",
+      "sequence": 0,
+      "roles": [
+        "Nevenka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 1,
+      "roles": [
+        "Kurt Menliff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447652",
+      "name": "Tony Kendall",
+      "sequence": 2,
+      "roles": [
+        "Christian Menliff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302837",
+      "name": "Evelyn Stewart",
+      "sequence": 3,
+      "roles": [
+        "Katia"
+      ],
+      "notes": "(as Isli Oberon)"
+    },
+    {
+      "person_imdb_id": "nm0575616",
+      "name": "Harriet Medin",
+      "sequence": 4,
+      "roles": [
+        "Giorgia"
+      ],
+      "notes": "(as Harriet White)"
+    },
+    {
+      "person_imdb_id": "nm0210519",
+      "name": "Gustavo De Nardo",
+      "sequence": 5,
+      "roles": [
+        "Count Vladimir Menliff"
+      ],
+      "notes": "(as Dean Ardow)"
+    },
+    {
+      "person_imdb_id": "nm0259506",
+      "name": "Jacques Herlin",
+      "sequence": 6,
+      "roles": [
+        "Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0683119",
+      "name": "Luciano Pigozzi",
+      "sequence": 7,
+      "roles": [
+        "Losat"
+      ],
+      "notes": "(as Alan Collins)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0002759",
       "name": "Ernesto Gastaldi",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay) (as Julian Berry)",
-      "group_id": 0
+      "notes": "(story and screenplay) (as Julian Berry)"
     },
     {
       "person_imdb_id": "nm0346097",
       "name": "Ugo Guerra",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Robert Hugo)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story and screenplay) (as Robert Hugo)"
     },
     {
       "person_imdb_id": "nm0553916",
       "name": "Luciano Martino",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Martin Hardy)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story and screenplay) (as Martin Hardy)"
     }
   ],
   "release_date": "1963-08-29",

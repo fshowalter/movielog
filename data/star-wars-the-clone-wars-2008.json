@@ -1,154 +1,6 @@
 {
   "imdb_id": "tt1185834",
   "sort_title": "Star Wars: The Clone Wars (2008)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1782667",
-      "name": "Matt Lanter",
-      "sequence": 0,
-      "notes": "(voice)",
-      "roles": [
-        "Anakin Skywalker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237065",
-      "name": "Ashley Eckstein",
-      "sequence": 1,
-      "notes": "(voice)",
-      "roles": [
-        "Ahsoka Tano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852517",
-      "name": "James Arnold Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Obi-Wan Kenobi",
-        "4-A7",
-        "Medical Droid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0048389",
-      "name": "Dee Bradley Baker",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Clone Troopers",
-        "Captain Rex",
-        "Cody",
-        "Fox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0437454",
-      "name": "Tom Kane",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Yoda",
-        "Narrator",
-        "Admiral Yularen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296546",
-      "name": "Nika Futterman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Asajj Ventress",
-        "Tee-C-Seventy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000718",
-      "name": "Ian Abercrombie",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chancellor Palpatine",
-        "Darth Sidious"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123553",
-      "name": "Corey Burton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "General Loathsom",
-        "Ziro the Hutt",
-        "Kronos-327"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0845941",
-      "name": "Catherine Taber",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "Padm\u00e9 Amidala"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003214",
-      "name": "Matthew Wood",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "Battle Droids"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724656",
-      "name": "Kevin Michael Richardson",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "Jabba the Hutt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004198",
-      "name": "David Acord",
-      "sequence": 11,
-      "notes": "(voice)",
-      "roles": [
-        "Rotta the Huttlet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000168",
-      "name": "Samuel L. Jackson",
-      "sequence": 12,
-      "notes": "(voice)",
-      "roles": [
-        "Mace Windu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000355",
-      "name": "Anthony Daniels",
-      "sequence": 13,
-      "notes": "(voice)",
-      "roles": [
-        "C-3PO"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 14,
-      "notes": "(voice)",
-      "roles": [
-        "Count Dooku"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1396048",
@@ -157,34 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1782667",
+      "name": "Matt Lanter",
+      "sequence": 0,
+      "roles": [
+        "Anakin Skywalker"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0237065",
+      "name": "Ashley Eckstein",
+      "sequence": 1,
+      "roles": [
+        "Ahsoka Tano"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0852517",
+      "name": "James Arnold Taylor",
+      "sequence": 2,
+      "roles": [
+        "Obi-Wan Kenobi",
+        "4-A7",
+        "Medical Droid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0048389",
+      "name": "Dee Bradley Baker",
+      "sequence": 3,
+      "roles": [
+        "Clone Troopers",
+        "Captain Rex",
+        "Cody",
+        "Fox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0437454",
+      "name": "Tom Kane",
+      "sequence": 4,
+      "roles": [
+        "Yoda",
+        "Narrator",
+        "Admiral Yularen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0296546",
+      "name": "Nika Futterman",
+      "sequence": 5,
+      "roles": [
+        "Asajj Ventress",
+        "Tee-C-Seventy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000718",
+      "name": "Ian Abercrombie",
+      "sequence": 6,
+      "roles": [
+        "Chancellor Palpatine",
+        "Darth Sidious"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123553",
+      "name": "Corey Burton",
+      "sequence": 7,
+      "roles": [
+        "General Loathsom",
+        "Ziro the Hutt",
+        "Kronos-327"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0845941",
+      "name": "Catherine Taber",
+      "sequence": 8,
+      "roles": [
+        "Padm\u00e9 Amidala"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0003214",
+      "name": "Matthew Wood",
+      "sequence": 9,
+      "roles": [
+        "Battle Droids"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0724656",
+      "name": "Kevin Michael Richardson",
+      "sequence": 10,
+      "roles": [
+        "Jabba the Hutt"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0004198",
+      "name": "David Acord",
+      "sequence": 11,
+      "roles": [
+        "Rotta the Huttlet"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0000168",
+      "name": "Samuel L. Jackson",
+      "sequence": 12,
+      "roles": [
+        "Mace Windu"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0000355",
+      "name": "Anthony Daniels",
+      "sequence": 13,
+      "roles": [
+        "C-3PO"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 14,
+      "roles": [
+        "Count Dooku"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0319667",
       "name": "Henry Gilroy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0017447",
       "name": "Steven Melching",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0614693",
       "name": "Scott Murphy",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000184",
       "name": "George Lucas",
+      "group": 1,
       "sequence": 0,
-      "notes": "(characters and universe) (uncredited)",
-      "group_id": 1
+      "notes": "(characters and universe) (uncredited)"
     }
   ],
   "release_date": "2008-08-10",

@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0022582",
   "sort_title": "Yellow Ticket (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0484748",
-      "name": "Elissa Landi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marya Kalish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000859",
-      "name": "Lionel Barrymore",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Baron Igor Andreeff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000059",
-      "name": "Laurence Olivier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Julian Rolfe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126430",
-      "name": "Walter Byron",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Count Nikolai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466232",
-      "name": "Arnold Korff",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Grandfather Kalish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041681",
-      "name": "Mischa Auer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Melchior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561693",
-      "name": "Edwin Maxwell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Police Agent Boligoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0478996",
-      "name": "Rita La Roy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fania Rubinstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738976",
-      "name": "Constantine Romanoff",
-      "sequence": 22,
-      "notes": "",
-      "roles": [
-        "Reveller",
-        "Prison Guard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -93,27 +9,111 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0484748",
+      "name": "Elissa Landi",
+      "sequence": 0,
+      "roles": [
+        "Marya Kalish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000859",
+      "name": "Lionel Barrymore",
+      "sequence": 1,
+      "roles": [
+        "Baron Igor Andreeff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000059",
+      "name": "Laurence Olivier",
+      "sequence": 2,
+      "roles": [
+        "Julian Rolfe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126430",
+      "name": "Walter Byron",
+      "sequence": 3,
+      "roles": [
+        "Count Nikolai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466232",
+      "name": "Arnold Korff",
+      "sequence": 4,
+      "roles": [
+        "Grandfather Kalish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041681",
+      "name": "Mischa Auer",
+      "sequence": 5,
+      "roles": [
+        "Melchior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561693",
+      "name": "Edwin Maxwell",
+      "sequence": 6,
+      "roles": [
+        "Police Agent Boligoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0478996",
+      "name": "Rita La Roy",
+      "sequence": 7,
+      "roles": [
+        "Fania Rubinstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738976",
+      "name": "Constantine Romanoff",
+      "sequence": 22,
+      "roles": [
+        "Reveller",
+        "Prison Guard"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0608054",
       "name": "Michael Morton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0299154",
       "name": "Jules Furthman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0093397",
       "name": "Guy Bolton",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1931-10-30",

@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0045544",
   "sort_title": "Battle Circus (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Maj. Jed Webbe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000742",
-      "name": "June Allyson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Ruth McGara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943978",
-      "name": "Keenan Wynn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sgt. Orvil Statt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445290",
-      "name": "Robert Keith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Col. Hilary Walters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132930",
-      "name": "William Campbell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Capt. John 'Rusty' Rustford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010464",
-      "name": "Perry Sheehan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lt. Laurence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862915",
-      "name": "Patricia Tiernan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lt. Rose Ashland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519381",
-      "name": "Adele Longmire",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lt. Jane Franklin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0182902",
-      "name": "Jonathan Cott",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Adjutant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0607071",
-      "name": "Ann Morrison",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Edith Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935591",
-      "name": "Helen Winston",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lt. Graciano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0783003",
-      "name": "Sarah Selby",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Capt. Dobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151679",
-      "name": "Danny Chang",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Korean Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0014217",
-      "name": "Philip Ahn",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Korean Prisoner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002079",
-      "name": "Steve Forrest",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724143",
-      "name": "Jeff Richards",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799736",
-      "name": "Dick Simmons",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Capt. Norson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0112218",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Maj. Jed Webbe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000742",
+      "name": "June Allyson",
+      "sequence": 1,
+      "roles": [
+        "Lt. Ruth McGara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943978",
+      "name": "Keenan Wynn",
+      "sequence": 2,
+      "roles": [
+        "Sgt. Orvil Statt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445290",
+      "name": "Robert Keith",
+      "sequence": 3,
+      "roles": [
+        "Lt. Col. Hilary Walters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132930",
+      "name": "William Campbell",
+      "sequence": 4,
+      "roles": [
+        "Capt. John 'Rusty' Rustford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010464",
+      "name": "Perry Sheehan",
+      "sequence": 5,
+      "roles": [
+        "Lt. Laurence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0862915",
+      "name": "Patricia Tiernan",
+      "sequence": 6,
+      "roles": [
+        "Lt. Rose Ashland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519381",
+      "name": "Adele Longmire",
+      "sequence": 7,
+      "roles": [
+        "Lt. Jane Franklin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0182902",
+      "name": "Jonathan Cott",
+      "sequence": 8,
+      "roles": [
+        "Adjutant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0607071",
+      "name": "Ann Morrison",
+      "sequence": 9,
+      "roles": [
+        "Lt. Edith Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935591",
+      "name": "Helen Winston",
+      "sequence": 10,
+      "roles": [
+        "Lt. Graciano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0783003",
+      "name": "Sarah Selby",
+      "sequence": 11,
+      "roles": [
+        "Capt. Dobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151679",
+      "name": "Danny Chang",
+      "sequence": 12,
+      "roles": [
+        "Korean Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0014217",
+      "name": "Philip Ahn",
+      "sequence": 13,
+      "roles": [
+        "Korean Prisoner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002079",
+      "name": "Steve Forrest",
+      "sequence": 14,
+      "roles": [
+        "Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724143",
+      "name": "Jeff Richards",
+      "sequence": 15,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799736",
+      "name": "Dick Simmons",
+      "sequence": 16,
+      "roles": [
+        "Capt. Norson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0729694",
       "name": "Allen Rivkin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0449755",
       "name": "Laura Kerr",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     }
   ],
   "release_date": "1953-03-06",

@@ -1,162 +1,6 @@
 {
   "imdb_id": "tt0031747",
   "sort_title": "Oklahoma Kid (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000010",
-      "name": "James Cagney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Whip McCord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485537",
-      "name": "Rosemary Lane",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jane Hardwick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187981",
-      "name": "Donald Crisp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Judge Hardwick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827031",
-      "name": "Harvey Stephens",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ned Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0815439",
-      "name": "Hugh Sothern",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0585481",
-      "name": "Charles Middleton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Alec Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0668023",
-      "name": "Edward Pawley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Doolin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Wes Handley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367612",
-      "name": "Lew Harvey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Curley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054253",
-      "name": "Trevor Bardette",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Indian Jack Pasco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587534",
-      "name": "John Miljan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ringo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043849",
-      "name": "Arthur Aylesworth",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Judge Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045784",
-      "name": "Irving Bacon",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hotel Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222797",
-      "name": "Joe Devlin",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Keely - Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0098424",
-      "name": "Wade Boteler",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308197",
-      "name": "Sam Garrett",
-      "sequence": 33,
-      "notes": "",
-      "roles": [
-        "Rider",
-        "Roper"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0045800",
@@ -165,55 +9,211 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000010",
+      "name": "James Cagney",
+      "sequence": 0,
+      "roles": [
+        "Jim Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 1,
+      "roles": [
+        "Whip McCord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485537",
+      "name": "Rosemary Lane",
+      "sequence": 2,
+      "roles": [
+        "Jane Hardwick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187981",
+      "name": "Donald Crisp",
+      "sequence": 3,
+      "roles": [
+        "Judge Hardwick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827031",
+      "name": "Harvey Stephens",
+      "sequence": 4,
+      "roles": [
+        "Ned Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0815439",
+      "name": "Hugh Sothern",
+      "sequence": 5,
+      "roles": [
+        "John Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0585481",
+      "name": "Charles Middleton",
+      "sequence": 6,
+      "roles": [
+        "Alec Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0668023",
+      "name": "Edward Pawley",
+      "sequence": 7,
+      "roles": [
+        "Doolin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 8,
+      "roles": [
+        "Wes Handley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367612",
+      "name": "Lew Harvey",
+      "sequence": 9,
+      "roles": [
+        "Curley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054253",
+      "name": "Trevor Bardette",
+      "sequence": 10,
+      "roles": [
+        "Indian Jack Pasco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587534",
+      "name": "John Miljan",
+      "sequence": 11,
+      "roles": [
+        "Ringo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043849",
+      "name": "Arthur Aylesworth",
+      "sequence": 12,
+      "roles": [
+        "Judge Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045784",
+      "name": "Irving Bacon",
+      "sequence": 13,
+      "roles": [
+        "Hotel Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222797",
+      "name": "Joe Devlin",
+      "sequence": 14,
+      "roles": [
+        "Keely - Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0098424",
+      "name": "Wade Boteler",
+      "sequence": 15,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308197",
+      "name": "Sam Garrett",
+      "sequence": 33,
+      "roles": [
+        "Rider",
+        "Roper"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0240417",
       "name": "Warren Duff",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0118758",
       "name": "Robert Buckner",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0660923",
       "name": "Edward E. Paramore Jr.",
-      "sequence": 0,
-      "notes": "(screen play) (as Edward E. Paramore)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play) (as Edward E. Paramore)"
     },
     {
       "person_imdb_id": "nm0660923",
       "name": "Edward E. Paramore Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from an original story by) (as Edward E. Paramore)",
-      "group_id": 1
+      "notes": "(from an original story by) (as Edward E. Paramore)"
     },
     {
       "person_imdb_id": "nm0459678",
       "name": "Wally Kline",
-      "sequence": 0,
-      "notes": "(from an original story by) (as Wally Klein)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from an original story by) (as Wally Klein)"
     },
     {
       "person_imdb_id": "nm0644114",
       "name": "Jerome Odlum",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0706993",
       "name": "Norman Reilly Raine",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1939-03-03",

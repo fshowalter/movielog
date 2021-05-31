@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0031477",
   "sort_title": "In Name Only (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Julie Eden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alec Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290215",
-      "name": "Kay Francis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maida Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002013",
-      "name": "Charles Coburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899091",
-      "name": "Helen Vinson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Suzanne Duross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0018540",
-      "name": "Katharine Alexander",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Laura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354947",
-      "name": "Jonathan Hale",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Gateson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908063",
-      "name": "Nella Walker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062667",
-      "name": "Alan Baxter",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Charley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0608373",
-      "name": "Maurice Moscovitch",
-      "sequence": 9,
-      "notes": "(as Maurice Moscovich)",
-      "roles": [
-        "Dr. Muller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307750",
-      "name": "Peggy Ann Garner",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ellen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153556",
-      "name": "Spencer Charters",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gardener"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833382",
-      "name": "Robert Strange",
-      "sequence": 37,
-      "notes": "",
-      "roles": [
-        "Hotel Manager",
-        "Amorous House Detective"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -129,20 +9,140 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 0,
+      "roles": [
+        "Julie Eden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Alec Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290215",
+      "name": "Kay Francis",
+      "sequence": 2,
+      "roles": [
+        "Maida Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002013",
+      "name": "Charles Coburn",
+      "sequence": 3,
+      "roles": [
+        "Mr. Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899091",
+      "name": "Helen Vinson",
+      "sequence": 4,
+      "roles": [
+        "Suzanne Duross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0018540",
+      "name": "Katharine Alexander",
+      "sequence": 5,
+      "roles": [
+        "Laura"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354947",
+      "name": "Jonathan Hale",
+      "sequence": 6,
+      "roles": [
+        "Dr. Gateson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908063",
+      "name": "Nella Walker",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0062667",
+      "name": "Alan Baxter",
+      "sequence": 8,
+      "roles": [
+        "Charley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0608373",
+      "name": "Maurice Moscovitch",
+      "sequence": 9,
+      "roles": [
+        "Dr. Muller"
+      ],
+      "notes": "(as Maurice Moscovich)"
+    },
+    {
+      "person_imdb_id": "nm0307750",
+      "name": "Peggy Ann Garner",
+      "sequence": 10,
+      "roles": [
+        "Ellen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153556",
+      "name": "Spencer Charters",
+      "sequence": 11,
+      "roles": [
+        "Gardener"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833382",
+      "name": "Robert Strange",
+      "sequence": 39,
+      "roles": [
+        "Hotel Manager",
+        "Amorous House Detective"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0792553",
       "name": "Richard Sherman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0108024",
       "name": "Bessie Breuer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Memory of Love\")",
-      "group_id": 1
+      "notes": "(novel \"Memory of Love\")"
     }
   ],
   "release_date": "1939-08-04",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0049652",
   "sort_title": "Rack (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Edward W. Hall, Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179819",
-      "name": "Wendell Corey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maj. Sam Moulton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682074",
-      "name": "Walter Pidgeon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Col. Edward W. Hall, Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639529",
-      "name": "Edmond O'Brien",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Col. Frank Wasnick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004282",
-      "name": "Anne Francis",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Aggie Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. John R. Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001458",
-      "name": "Cloris Leachman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Caroline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123699",
-      "name": "Robert Burton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Col. Ira Hansen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0800359",
-      "name": "Robert F. Simon",
-      "sequence": 8,
-      "notes": "(as Robert Simon)",
-      "roles": [
-        "Law Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054253",
-      "name": "Trevor Bardette",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Court President"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929965",
-      "name": "Adam Williams",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sgt. Otto Pahnke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0078940",
-      "name": "James Best",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Millard Chilson Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740378",
-      "name": "Fay Roope",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Col. Dudley Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041136",
-      "name": "Barry Atwater",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Maj. Byron Phillips"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0491852",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Capt. Edward W. Hall, Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179819",
+      "name": "Wendell Corey",
+      "sequence": 1,
+      "roles": [
+        "Maj. Sam Moulton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682074",
+      "name": "Walter Pidgeon",
+      "sequence": 2,
+      "roles": [
+        "Col. Edward W. Hall, Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639529",
+      "name": "Edmond O'Brien",
+      "sequence": 3,
+      "roles": [
+        "Lt. Col. Frank Wasnick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004282",
+      "name": "Anne Francis",
+      "sequence": 4,
+      "roles": [
+        "Aggie Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 5,
+      "roles": [
+        "Capt. John R. Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001458",
+      "name": "Cloris Leachman",
+      "sequence": 6,
+      "roles": [
+        "Caroline"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123699",
+      "name": "Robert Burton",
+      "sequence": 7,
+      "roles": [
+        "Col. Ira Hansen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0800359",
+      "name": "Robert F. Simon",
+      "sequence": 8,
+      "roles": [
+        "Law Officer"
+      ],
+      "notes": "(as Robert Simon)"
+    },
+    {
+      "person_imdb_id": "nm0054253",
+      "name": "Trevor Bardette",
+      "sequence": 9,
+      "roles": [
+        "Court President"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929965",
+      "name": "Adam Williams",
+      "sequence": 10,
+      "roles": [
+        "Sgt. Otto Pahnke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0078940",
+      "name": "James Best",
+      "sequence": 11,
+      "roles": [
+        "Millard Chilson Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0740378",
+      "name": "Fay Roope",
+      "sequence": 12,
+      "roles": [
+        "Col. Dudley Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041136",
+      "name": "Barry Atwater",
+      "sequence": 13,
+      "roles": [
+        "Maj. Byron Phillips"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0827856",
       "name": "Stewart Stern",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0785245",
       "name": "Rod Serling",
+      "group": 1,
       "sequence": 0,
-      "notes": "(teleplay)",
-      "group_id": 1
+      "notes": "(teleplay)"
     }
   ],
   "release_date": "1956-11-02",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0034248",
   "sort_title": "Suspicion (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnnie Aysgarth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000021",
-      "name": "Joan Fontaine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lina McLaidlaw Aysgarth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 2,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "General McLaidlaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115558",
-      "name": "Nigel Bruce",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gordon Cochran Thwaite"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926599",
-      "name": "May Whitty",
-      "sequence": 4,
-      "notes": "(as Dame May Whitty)",
-      "roles": [
-        "Mrs. McLaidlaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419978",
-      "name": "Isabel Jeans",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Newsham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0029456",
-      "name": "Heather Angel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ethel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0496843",
-      "name": "Auriol Lee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Isobel Sedbusk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0221439",
-      "name": "Reginald Sheffield",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Reggie Wetherby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001991",
-      "name": "Leo G. Carroll",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Captain Melbeck"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -101,34 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Johnnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000021",
+      "name": "Joan Fontaine",
+      "sequence": 1,
+      "roles": [
+        "Lina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 2,
+      "roles": [
+        "General McLaidlaw"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0115558",
+      "name": "Nigel Bruce",
+      "sequence": 3,
+      "roles": [
+        "Beaky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926599",
+      "name": "May Whitty",
+      "sequence": 4,
+      "roles": [
+        "Mrs. McLaidlaw"
+      ],
+      "notes": "(as Dame May Whitty)"
+    },
+    {
+      "person_imdb_id": "nm0419978",
+      "name": "Isabel Jeans",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Newsham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0029456",
+      "name": "Heather Angel",
+      "sequence": 6,
+      "roles": [
+        "Ethel [Maid]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0496843",
+      "name": "Auriol Lee",
+      "sequence": 7,
+      "roles": [
+        "Isobel Sedbusk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0221439",
+      "name": "Reginald Sheffield",
+      "sequence": 8,
+      "roles": [
+        "Reggie Wetherby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001991",
+      "name": "Leo G. Carroll",
+      "sequence": 9,
+      "roles": [
+        "Captain Melbeck"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0710723",
       "name": "Samson Raphaelson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0365661",
       "name": "Joan Harrison",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0720904",
       "name": "Alma Reville",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0075324",
       "name": "Anthony Berkeley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Before the Fact\") (as Francis Iles)",
-      "group_id": 1
+      "notes": "(novel \"Before the Fact\") (as Francis Iles)"
     }
   ],
   "release_date": "1941-11-09",

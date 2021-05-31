@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0059641",
   "sort_title": "Red Line 7000 (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001001",
-      "name": "James Caan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222873",
-      "name": "Laura Devon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Julie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386338",
-      "name": "Gail Hire",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Holly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392392",
-      "name": "Charlene Holt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lindy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186843",
-      "name": "John Robert Crawford",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ned"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0384494",
-      "name": "Marianna Hill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gabrielle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911847",
-      "name": "Skip Ward",
-      "sequence": 6,
-      "notes": "(as James Ward)",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017491",
-      "name": "Norman Alden",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001786",
-      "name": "George Takei",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kato"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0834876",
-      "name": "Diane Strom",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Receptionist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736721",
-      "name": "Anthony Rogers",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jim Loomis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175486",
-      "name": "Carol Connors",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920048",
-      "name": "Cissy Wellman",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001001",
+      "name": "James Caan",
+      "sequence": 0,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222873",
+      "name": "Laura Devon",
+      "sequence": 1,
+      "roles": [
+        "Julie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386338",
+      "name": "Gail Hire",
+      "sequence": 2,
+      "roles": [
+        "Holly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392392",
+      "name": "Charlene Holt",
+      "sequence": 3,
+      "roles": [
+        "Lindy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186843",
+      "name": "John Robert Crawford",
+      "sequence": 4,
+      "roles": [
+        "Ned"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0384494",
+      "name": "Marianna Hill",
+      "sequence": 5,
+      "roles": [
+        "Gabrielle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911847",
+      "name": "Skip Ward",
+      "sequence": 6,
+      "roles": [
+        "Dan"
+      ],
+      "notes": "(as James Ward)"
+    },
+    {
+      "person_imdb_id": "nm0017491",
+      "name": "Norman Alden",
+      "sequence": 7,
+      "roles": [
+        "Pat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001786",
+      "name": "George Takei",
+      "sequence": 8,
+      "roles": [
+        "Kato"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0834876",
+      "name": "Diane Strom",
+      "sequence": 9,
+      "roles": [
+        "Receptionist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736721",
+      "name": "Anthony Rogers",
+      "sequence": 10,
+      "roles": [
+        "Jim Loomis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175486",
+      "name": "Carol Connors",
+      "sequence": 11,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920048",
+      "name": "Cissy Wellman",
+      "sequence": 12,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0456353",
       "name": "George Kirgo",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001328",
       "name": "Howard Hawks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0573929",
       "name": "Steve McNeil",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1965-11-09",

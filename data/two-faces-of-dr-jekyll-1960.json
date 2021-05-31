@@ -1,72 +1,6 @@
 {
   "imdb_id": "tt0054416",
   "sort_title": "Two Faces of Dr. Jekyll (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0557407",
-      "name": "Paul Massie",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Henry Jekyll",
-        "Mr. Edward Hyde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011625",
-      "name": "Dawn Addams",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kitty Jekyll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0467311",
-      "name": "David Kossoff",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Ernst Litauer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549062",
-      "name": "Norma Marla",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212470",
-      "name": "Francis De Wolff",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916931",
-      "name": "Joy Webster",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jenny"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -75,20 +9,86 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0557407",
+      "name": "Paul Massie",
+      "sequence": 0,
+      "roles": [
+        "Dr. Henry Jekyll",
+        "Mr. Edward Hyde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011625",
+      "name": "Dawn Addams",
+      "sequence": 1,
+      "roles": [
+        "Kitty Jekyll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Paul Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0467311",
+      "name": "David Kossoff",
+      "sequence": 3,
+      "roles": [
+        "Dr. Ernst Litauer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549062",
+      "name": "Norma Marla",
+      "sequence": 4,
+      "roles": [
+        "Maria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212470",
+      "name": "Francis De Wolff",
+      "sequence": 5,
+      "roles": [
+        "Inspector"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916931",
+      "name": "Joy Webster",
+      "sequence": 6,
+      "roles": [
+        "Jenny"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0542554",
       "name": "Wolf Mankowitz",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0829044",
       "name": "Robert Louis Stevenson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Strange Case of Dr. Jekyll and Mr. Hyde\") (uncredited)",
-      "group_id": 1
+      "notes": "(novel \"The Strange Case of Dr. Jekyll and Mr. Hyde\") (uncredited)"
     }
   ],
   "release_date": "1960-08-18",

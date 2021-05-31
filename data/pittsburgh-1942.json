@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0035195",
   "sort_title": "Pittsburgh (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000017",
-      "name": "Marlene Dietrich",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Josie Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cash Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pittsburgh Markham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186600",
-      "name": "Frank Craven",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "'Doc' Powers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020145",
-      "name": "Louise Allbritton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Shannon Prentiss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397602",
-      "name": "Shemp Howard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Shorty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0327089",
-      "name": "Thomas Gomez",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Malneck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0836724",
-      "name": "Ludwig St\u00f6ssel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Grazlich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Morgan Prentiss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mine Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0351744",
-      "name": "William Haade",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Johnny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170969",
-      "name": "Charles Coleman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656980",
-      "name": "Nestor Paiva",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Barney"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0782597",
@@ -128,55 +9,174 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000017",
+      "name": "Marlene Dietrich",
+      "sequence": 0,
+      "roles": [
+        "Josie Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 1,
+      "roles": [
+        "Cash Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 2,
+      "roles": [
+        "Pittsburgh Markham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186600",
+      "name": "Frank Craven",
+      "sequence": 3,
+      "roles": [
+        "'Doc' Powers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020145",
+      "name": "Louise Allbritton",
+      "sequence": 4,
+      "roles": [
+        "Shannon Prentiss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397602",
+      "name": "Shemp Howard",
+      "sequence": 5,
+      "roles": [
+        "Shorty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0327089",
+      "name": "Thomas Gomez",
+      "sequence": 6,
+      "roles": [
+        "Joe Malneck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0836724",
+      "name": "Ludwig St\u00f6ssel",
+      "sequence": 7,
+      "roles": [
+        "Dr. Grazlich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 8,
+      "roles": [
+        "Morgan Prentiss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 9,
+      "roles": [
+        "Mine Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0351744",
+      "name": "William Haade",
+      "sequence": 10,
+      "roles": [
+        "Johnny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170969",
+      "name": "Charles Coleman",
+      "sequence": 11,
+      "roles": [
+        "Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656980",
+      "name": "Nestor Paiva",
+      "sequence": 12,
+      "roles": [
+        "Barney"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0303930",
       "name": "Kenneth Gamet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0654142",
       "name": "George Owen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0878605",
       "name": "John Twist",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0271524",
       "name": "Robert Fellows",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 3
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0588003",
       "name": "Winston Miller",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 4
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1942-12-11",

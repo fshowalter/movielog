@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0072198",
   "sort_title": "Spikes Gang (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry Spikes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0342201",
-      "name": "Gary Grimes",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Will"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000165",
-      "name": "Ron Howard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Les"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001747",
-      "name": "Charles Martin Smith",
-      "sequence": 3,
-      "notes": "(as Charlie Martin Smith)",
-      "roles": [
-        "Tod"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kid White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000890",
-      "name": "Noah Beery Jr.",
-      "sequence": 5,
-      "notes": "(as Noah Beery)",
-      "roles": [
-        "Basset"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809204",
-      "name": "Marc Smith",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Abel Young"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271514",
-      "name": "Don Fellows",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cowboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838057",
-      "name": "Elliott Sullivan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Billy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064235",
-      "name": "Robert Beatty",
-      "sequence": 9,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114461",
-      "name": "Ralph Brown",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Posse Leader"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192808",
-      "name": "Bill Curran",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gillis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529890",
-      "name": "Ricardo Palacios",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0860989",
-      "name": "David Thomson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sheriff of Carrizo Springs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176638",
-      "name": "Bert Conway",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bank Teller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861860",
-      "name": "Adolfo Thous",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Pawnbroker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750985",
-      "name": "Allen Russell",
-      "sequence": 16,
-      "notes": "(as Allen E. Russell)",
-      "roles": [
-        "Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641036",
-      "name": "Frances O'Flynn",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Mrs. Young"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0281507",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 0,
+      "roles": [
+        "Harry Spikes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0342201",
+      "name": "Gary Grimes",
+      "sequence": 1,
+      "roles": [
+        "Will"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000165",
+      "name": "Ron Howard",
+      "sequence": 2,
+      "roles": [
+        "Les"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001747",
+      "name": "Charles Martin Smith",
+      "sequence": 3,
+      "roles": [
+        "Tod"
+      ],
+      "notes": "(as Charlie Martin Smith)"
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 4,
+      "roles": [
+        "Kid White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000890",
+      "name": "Noah Beery Jr.",
+      "sequence": 5,
+      "roles": [
+        "Basset"
+      ],
+      "notes": "(as Noah Beery)"
+    },
+    {
+      "person_imdb_id": "nm0809204",
+      "name": "Marc Smith",
+      "sequence": 6,
+      "roles": [
+        "Abel Young"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271514",
+      "name": "Don Fellows",
+      "sequence": 7,
+      "roles": [
+        "Cowboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838057",
+      "name": "Elliott Sullivan",
+      "sequence": 8,
+      "roles": [
+        "Billy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064235",
+      "name": "Robert Beatty",
+      "sequence": 9,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0114461",
+      "name": "Ralph Brown",
+      "sequence": 10,
+      "roles": [
+        "Posse Leader"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192808",
+      "name": "Bill Curran",
+      "sequence": 11,
+      "roles": [
+        "Gillis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529890",
+      "name": "Ricardo Palacios",
+      "sequence": 12,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0860989",
+      "name": "David Thomson",
+      "sequence": 13,
+      "roles": [
+        "Sheriff of Carrizo Springs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176638",
+      "name": "Bert Conway",
+      "sequence": 14,
+      "roles": [
+        "Bank Teller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861860",
+      "name": "Adolfo Thous",
+      "sequence": 15,
+      "roles": [
+        "Pawnbroker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750985",
+      "name": "Allen Russell",
+      "sequence": 16,
+      "roles": [
+        "Morton"
+      ],
+      "notes": "(as Allen E. Russell)"
+    },
+    {
+      "person_imdb_id": "nm0641036",
+      "name": "Frances O'Flynn",
+      "sequence": 17,
+      "roles": [
+        "Mrs. Young"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0712419",
       "name": "Irving Ravetch",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0290809",
       "name": "Harriet Frank Jr.",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0864140",
       "name": "Giles Tippette",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Bank Robber\")",
-      "group_id": 1
+      "notes": "(novel \"The Bank Robber\")"
     }
   ],
   "release_date": "1974-04-11",

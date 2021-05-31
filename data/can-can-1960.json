@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0053690",
   "sort_title": "Can-Can (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Fran\u00e7ois Durnais"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000511",
-      "name": "Shirley MacLaine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Simone Pistache"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002001",
-      "name": "Maurice Chevalier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul Barriere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431139",
-      "name": "Louis Jourdan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Philipe Forrestier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0699120",
-      "name": "Juliet Prowse",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Claudine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197950",
-      "name": "Marcel Dalio",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andre - the head waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067589",
-      "name": "Leon Belasco",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Arturo - orchestra leader"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656980",
-      "name": "Nestor Paiva",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bailiff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0626234",
-      "name": "John A. Neris",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jacques - the Photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215968",
-      "name": "Jean Del Val",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge Merceaux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168459",
-      "name": "Ann Codee",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "League president"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0485943",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Fran\u00e7ois Durnais"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000511",
+      "name": "Shirley MacLaine",
+      "sequence": 1,
+      "roles": [
+        "Simone Pistache"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002001",
+      "name": "Maurice Chevalier",
+      "sequence": 2,
+      "roles": [
+        "Paul Barriere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431139",
+      "name": "Louis Jourdan",
+      "sequence": 3,
+      "roles": [
+        "Philipe Forrestier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0699120",
+      "name": "Juliet Prowse",
+      "sequence": 4,
+      "roles": [
+        "Claudine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197950",
+      "name": "Marcel Dalio",
+      "sequence": 5,
+      "roles": [
+        "Andre - the head waiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067589",
+      "name": "Leon Belasco",
+      "sequence": 6,
+      "roles": [
+        "Arturo - orchestra leader"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656980",
+      "name": "Nestor Paiva",
+      "sequence": 7,
+      "roles": [
+        "Bailiff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0626234",
+      "name": "John A. Neris",
+      "sequence": 8,
+      "roles": [
+        "Jacques - the Photographer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215968",
+      "name": "Jean Del Val",
+      "sequence": 9,
+      "roles": [
+        "Judge Merceaux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168459",
+      "name": "Ann Codee",
+      "sequence": 10,
+      "roles": [
+        "League president"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0455510",
       "name": "Dorothy Kingsley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0123242",
       "name": "Abe Burrows",
+      "group": 1,
       "sequence": 0,
-      "notes": "(musical comedy)",
-      "group_id": 1
+      "notes": "(musical comedy)"
     }
   ],
   "release_date": "1960-03-09",

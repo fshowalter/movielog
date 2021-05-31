@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt2290065",
   "sort_title": "100 Bloody Acres (2012)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0380632",
-      "name": "Damon Herriman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Reg Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0760151",
-      "name": "Angus Sampson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lindsay Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3593738",
-      "name": "Anna McGahan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sophie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1027672",
-      "name": "Oliver Ackland",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0471597",
-      "name": "Jamie Kristian",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Wes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0418877",
-      "name": "John Jarratt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sgt Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1622736",
-      "name": "Chrissie Page",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5245729",
-      "name": "Paul Blackwell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Charlie Wick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4940576",
-      "name": "Ward Everaardt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bernard St John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380625",
-      "name": "Iain Herridge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Roadie"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1637876",
@@ -107,20 +15,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0380632",
+      "name": "Damon Herriman",
+      "sequence": 0,
+      "roles": [
+        "Reg Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0760151",
+      "name": "Angus Sampson",
+      "sequence": 1,
+      "roles": [
+        "Lindsay Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3593738",
+      "name": "Anna McGahan",
+      "sequence": 2,
+      "roles": [
+        "Sophie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1027672",
+      "name": "Oliver Ackland",
+      "sequence": 3,
+      "roles": [
+        "James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0471597",
+      "name": "Jamie Kristian",
+      "sequence": 4,
+      "roles": [
+        "Wes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0418877",
+      "name": "John Jarratt",
+      "sequence": 5,
+      "roles": [
+        "Sgt Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1622736",
+      "name": "Chrissie Page",
+      "sequence": 6,
+      "roles": [
+        "Nancy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5245729",
+      "name": "Paul Blackwell",
+      "sequence": 7,
+      "roles": [
+        "Charlie Wick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4940576",
+      "name": "Ward Everaardt",
+      "sequence": 8,
+      "roles": [
+        "Bernard St John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380625",
+      "name": "Iain Herridge",
+      "sequence": 9,
+      "roles": [
+        "Roadie"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1637876",
       "name": "Cameron Cairnes",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm1454108",
       "name": "Colin Cairnes",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     }
   ],
   "release_date": "2012-08-04",

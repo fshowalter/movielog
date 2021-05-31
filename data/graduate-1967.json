@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0061722",
   "sort_title": "Graduate (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000843",
-      "name": "Anne Bancroft",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mrs. Robinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000163",
-      "name": "Dustin Hoffman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ben Braddock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001684",
-      "name": "Katharine Ross",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Elaine Robinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200122",
-      "name": "William Daniels",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Braddock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358069",
-      "name": "Murray Hamilton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Robinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933361",
-      "name": "Elizabeth Wilson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Braddock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377750",
-      "name": "Buck Henry",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Room Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043011",
-      "name": "Brian Avery",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Carl Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111754",
-      "name": "Walter Brooke",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. McGuire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001205",
-      "name": "Norman Fell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. McCleery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0315933",
-      "name": "Alice Ghostley",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Singleman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521079",
-      "name": "Marion Lorne",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Miss DeWitte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301841",
-      "name": "Eddra Gale",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Woman on Bus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262275",
-      "name": "Bob Eubanks",
-      "sequence": 17,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "The Newlywed Game Host"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001566",
@@ -137,27 +9,146 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0932229",
-      "name": "Calder Willingham",
+      "person_imdb_id": "nm0000843",
+      "name": "Anne Bancroft",
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "roles": [
+        "Mrs. Robinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000163",
+      "name": "Dustin Hoffman",
+      "sequence": 1,
+      "roles": [
+        "Ben Braddock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001684",
+      "name": "Katharine Ross",
+      "sequence": 2,
+      "roles": [
+        "Elaine Robinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200122",
+      "name": "William Daniels",
+      "sequence": 3,
+      "roles": [
+        "Mr. Braddock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358069",
+      "name": "Murray Hamilton",
+      "sequence": 4,
+      "roles": [
+        "Mr. Robinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933361",
+      "name": "Elizabeth Wilson",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Braddock"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0377750",
       "name": "Buck Henry",
+      "sequence": 6,
+      "roles": [
+        "Room Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043011",
+      "name": "Brian Avery",
+      "sequence": 7,
+      "roles": [
+        "Carl Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111754",
+      "name": "Walter Brooke",
+      "sequence": 8,
+      "roles": [
+        "Mr. McGuire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001205",
+      "name": "Norman Fell",
+      "sequence": 9,
+      "roles": [
+        "Mr. McCleery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0315933",
+      "name": "Alice Ghostley",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Singleman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521079",
+      "name": "Marion Lorne",
+      "sequence": 11,
+      "roles": [
+        "Miss DeWitte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301841",
+      "name": "Eddra Gale",
+      "sequence": 12,
+      "roles": [
+        "Woman on Bus"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0932229",
+      "name": "Calder Willingham",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0377750",
+      "name": "Buck Henry",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0916047",
       "name": "Charles Webb",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1967-12-20",

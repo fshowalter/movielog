@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0048673",
   "sort_title": "Summertime (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000031",
-      "name": "Katharine Hepburn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jane Hudson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106387",
-      "name": "Rossano Brazzi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Renato de Rossi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592109",
-      "name": "Isa Miranda",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Signora Fiorini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569000",
-      "name": "Darren McGavin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Eddie Yaeger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017628",
-      "name": "Mari Aldon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Phyl Yaeger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0741455",
-      "name": "Jane Rose",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. McIlhenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662002",
-      "name": "MacDonald Parke",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. McIlhenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0818215",
-      "name": "Jeremy Spenser",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Vito de Rossi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027894",
-      "name": "Gaetano Autiero",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mauro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799464",
-      "name": "Virginia Simeon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Giovanna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000180",
-      "name": "David Lean",
-      "sequence": 10,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Man at Caf\u00e9"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000180",
@@ -110,34 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000031",
+      "name": "Katharine Hepburn",
+      "sequence": 0,
+      "roles": [
+        "Jane Hudson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106387",
+      "name": "Rossano Brazzi",
+      "sequence": 1,
+      "roles": [
+        "Renato de Rossi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0592109",
+      "name": "Isa Miranda",
+      "sequence": 2,
+      "roles": [
+        "Signora Fiorini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569000",
+      "name": "Darren McGavin",
+      "sequence": 3,
+      "roles": [
+        "Eddie Yaeger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017628",
+      "name": "Mari Aldon",
+      "sequence": 4,
+      "roles": [
+        "Phyl Yaeger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0741455",
+      "name": "Jane Rose",
+      "sequence": 5,
+      "roles": [
+        "Mrs. McIlhenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662002",
+      "name": "MacDonald Parke",
+      "sequence": 6,
+      "roles": [
+        "Mr. McIlhenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0818215",
+      "name": "Jeremy Spenser",
+      "sequence": 7,
+      "roles": [
+        "Vito de Rossi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027894",
+      "name": "Gaetano Autiero",
+      "sequence": 8,
+      "roles": [
+        "Mauro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799464",
+      "name": "Virginia Simeon",
+      "sequence": 9,
+      "roles": [
+        "Giovanna"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0491306",
       "name": "Arthur Laurents",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the original play \"The Time of the Cuckoo\")",
-      "group_id": 0
+      "notes": "(based on the original play \"The Time of the Cuckoo\")"
     },
     {
       "person_imdb_id": "nm0060914",
       "name": "H.E. Bates",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000180",
       "name": "David Lean",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0829330",
       "name": "Donald Ogden Stewart",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1955-05-29",

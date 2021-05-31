@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0022551",
   "sort_title": "Way Back Home (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0520492",
-      "name": "Phillips Lord",
-      "sequence": 0,
-      "notes": "(as Phillips H. Lord)",
-      "roles": [
-        "Seth Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658216",
-      "name": "Effie Palmer",
-      "sequence": 1,
-      "notes": "(as Effie L. Palmer)",
-      "roles": [
-        "Mother Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "David Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mary Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201660",
-      "name": "Frankie Darro",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Robbie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677125",
-      "name": "Dorothy Peterson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rose Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0276354",
-      "name": "Stanley Fields",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rufe Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002177",
-      "name": "Oscar Apfel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Wobbling Duffy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2339658",
-      "name": "Sophia M. Lord",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lizzie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0453285",
-      "name": "Bennett Kilpack",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cephus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403004",
-      "name": "Raymond Hunter",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Captain Bang"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0782682",
@@ -110,20 +9,121 @@
       "notes": "(as William Seiter)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0520492",
+      "name": "Phillips Lord",
+      "sequence": 0,
+      "roles": [
+        "Seth Parker"
+      ],
+      "notes": "(as Phillips H. Lord)"
+    },
+    {
+      "person_imdb_id": "nm0658216",
+      "name": "Effie Palmer",
+      "sequence": 1,
+      "roles": [
+        "Mother Parker"
+      ],
+      "notes": "(as Effie L. Palmer)"
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 2,
+      "roles": [
+        "David Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 3,
+      "roles": [
+        "Mary Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201660",
+      "name": "Frankie Darro",
+      "sequence": 4,
+      "roles": [
+        "Robbie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677125",
+      "name": "Dorothy Peterson",
+      "sequence": 5,
+      "roles": [
+        "Rose Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0276354",
+      "name": "Stanley Fields",
+      "sequence": 6,
+      "roles": [
+        "Rufe Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002177",
+      "name": "Oscar Apfel",
+      "sequence": 7,
+      "roles": [
+        "Wobbling Duffy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2339658",
+      "name": "Sophia M. Lord",
+      "sequence": 8,
+      "roles": [
+        "Lizzie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0453285",
+      "name": "Bennett Kilpack",
+      "sequence": 9,
+      "roles": [
+        "Cephus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403004",
+      "name": "Raymond Hunter",
+      "sequence": 10,
+      "roles": [
+        "Captain Bang"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0613848",
       "name": "Jane Murfin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0613848",
       "name": "Jane Murfin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1931-11-13",

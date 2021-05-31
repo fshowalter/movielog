@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0054453",
   "sort_title": "Wackiest Ship in the Army (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Rip Crandall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625699",
-      "name": "Ricky Nelson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ens. Tommy J. Hanson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526184",
-      "name": "John Lund",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Cmdr. Wilbur F. Vandewater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706256",
-      "name": "Chips Rafferty",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Patterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Capt. McClung"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0048587",
-      "name": "Joby Baker",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Josh Davidson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0075671",
-      "name": "Warren Berlinger",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Radioman 2nd Class A.J. 'Sparks' Sparks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0238046",
-      "name": "Patricia Driscoll",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maggie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446037",
-      "name": "Mike Kellin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Chief Mate Jack MacCarthy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027323",
-      "name": "Richard Anderson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Dennis M. Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0600886",
-      "name": "Alvy Moore",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Seaman J. Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302975",
-      "name": "Joseph Gallison",
-      "sequence": 11,
-      "notes": "(as Joe Gallison)",
-      "roles": [
-        "'Cameo'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793574",
-      "name": "Teru Shimada",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Maj. Samada"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793072",
-      "name": "George Shibata",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Capt. Shigetsu"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0614645",
@@ -137,34 +9,162 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 0,
+      "roles": [
+        "Lt. Rip Crandall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625699",
+      "name": "Ricky Nelson",
+      "sequence": 1,
+      "roles": [
+        "Ens. Tommy J. Hanson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526184",
+      "name": "John Lund",
+      "sequence": 2,
+      "roles": [
+        "Lt. Cmdr. Wilbur F. Vandewater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706256",
+      "name": "Chips Rafferty",
+      "sequence": 3,
+      "roles": [
+        "Patterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 4,
+      "roles": [
+        "Capt. McClung"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0048587",
+      "name": "Joby Baker",
+      "sequence": 5,
+      "roles": [
+        "Josh Davidson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0075671",
+      "name": "Warren Berlinger",
+      "sequence": 6,
+      "roles": [
+        "Radioman 2nd Class A.J. 'Sparks' Sparks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0238046",
+      "name": "Patricia Driscoll",
+      "sequence": 7,
+      "roles": [
+        "Maggie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446037",
+      "name": "Mike Kellin",
+      "sequence": 8,
+      "roles": [
+        "Chief Mate Jack MacCarthy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027323",
+      "name": "Richard Anderson",
+      "sequence": 9,
+      "roles": [
+        "Lt. Dennis M. Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0600886",
+      "name": "Alvy Moore",
+      "sequence": 10,
+      "roles": [
+        "Seaman J. Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302975",
+      "name": "Joseph Gallison",
+      "sequence": 11,
+      "roles": [
+        "'Cameo'"
+      ],
+      "notes": "(as Joe Gallison)"
+    },
+    {
+      "person_imdb_id": "nm0793574",
+      "name": "Teru Shimada",
+      "sequence": 12,
+      "roles": [
+        "Maj. Samada"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793072",
+      "name": "George Shibata",
+      "sequence": 13,
+      "roles": [
+        "Capt. Shigetsu"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0614645",
       "name": "Richard Murphy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0546786",
       "name": "Herb Margolis",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen story) (as Herbert Margolis)",
-      "group_id": 1
+      "notes": "(screen story) (as Herbert Margolis)"
     },
     {
       "person_imdb_id": "nm0713523",
       "name": "William Raynor",
-      "sequence": 0,
-      "notes": "(screen story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen story)"
     },
     {
       "person_imdb_id": "nm0137924",
       "name": "Herbert Carlson",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based upon a story by)",
-      "group_id": 2
+      "notes": "(based upon a story by)"
     }
   ],
   "release_date": "1960-12-25",

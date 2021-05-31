@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0041085",
   "sort_title": "Bud Abbott Lou Costello Meet the Killer Boris Karloff (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0007941",
-      "name": "Bud Abbott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Casey Edwards"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0182579",
-      "name": "Lou Costello",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Freddie Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Swami Talpur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041304",
-      "name": "Lenore Aubert",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Angela Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601224",
-      "name": "Gar Moore",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jeff Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551550",
-      "name": "Donna Martell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Betty Crandall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Melton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281329",
-      "name": "James Flavin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Insp. Wellman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935996",
-      "name": "Roland Winters",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "T. Hanley Brooks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431445",
-      "name": "Nicholas Joy",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Amos Strickland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175704",
-      "name": "Mikel Conrad",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sgt. Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267670",
-      "name": "Morgan Farley",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gregory Milford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395067",
-      "name": "Victoria Horne",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mrs. Hargreave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375887",
-      "name": "Percy Helton",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Abernathy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0238855",
-      "name": "Claire Du Brey",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mrs. Grimsby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370743",
-      "name": "Harry Hayden",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Lawrence Crandall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719710",
-      "name": "Vincent Renno",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mike Relia"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0059106",
@@ -164,48 +9,203 @@
       "notes": "(as Charles T. Barton)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0007941",
+      "name": "Bud Abbott",
+      "sequence": 0,
+      "roles": [
+        "Casey Edwards"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0182579",
+      "name": "Lou Costello",
+      "sequence": 1,
+      "roles": [
+        "Freddie Phillips"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 2,
+      "roles": [
+        "Swami Talpur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041304",
+      "name": "Lenore Aubert",
+      "sequence": 3,
+      "roles": [
+        "Angela Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601224",
+      "name": "Gar Moore",
+      "sequence": 4,
+      "roles": [
+        "Jeff Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551550",
+      "name": "Donna Martell",
+      "sequence": 5,
+      "roles": [
+        "Betty Crandall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 6,
+      "roles": [
+        "Melton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281329",
+      "name": "James Flavin",
+      "sequence": 7,
+      "roles": [
+        "Insp. Wellman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935996",
+      "name": "Roland Winters",
+      "sequence": 8,
+      "roles": [
+        "T. Hanley Brooks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431445",
+      "name": "Nicholas Joy",
+      "sequence": 9,
+      "roles": [
+        "Amos Strickland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175704",
+      "name": "Mikel Conrad",
+      "sequence": 10,
+      "roles": [
+        "Sgt. Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267670",
+      "name": "Morgan Farley",
+      "sequence": 11,
+      "roles": [
+        "Gregory Milford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0395067",
+      "name": "Victoria Horne",
+      "sequence": 12,
+      "roles": [
+        "Mrs. Hargreave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375887",
+      "name": "Percy Helton",
+      "sequence": 13,
+      "roles": [
+        "Abernathy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0238855",
+      "name": "Claire Du Brey",
+      "sequence": 14,
+      "roles": [
+        "Mrs. Grimsby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370743",
+      "name": "Harry Hayden",
+      "sequence": 15,
+      "roles": [
+        "Lawrence Crandall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719710",
+      "name": "Vincent Renno",
+      "sequence": 16,
+      "roles": [
+        "Mike Relia"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0917200",
       "name": "Hugh Wedlock Jr.",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0811467",
       "name": "Howard Snyder",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0917200",
       "name": "Hugh Wedlock Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0811467",
       "name": "Howard Snyder",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0335471",
       "name": "John Grant",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0110958",
       "name": "Oscar Brodney",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1949-08-22",

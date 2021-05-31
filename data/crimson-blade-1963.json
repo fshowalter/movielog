@@ -1,118 +1,6 @@
 {
   "imdb_id": "tt0056963",
   "sort_title": "Crimson Blade (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0420383",
-      "name": "Lionel Jeffries",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Col. Judd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001657",
-      "name": "Oliver Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Tom Sylvester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373324",
-      "name": "Jack Hedley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Edward Beverley, The Scarlet Blade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861185",
-      "name": "June Thorburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Clare Judd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728085",
-      "name": "Michael Ripper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pablo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0325354",
-      "name": "Harold Goldblatt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jacob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483653",
-      "name": "Duncan Lamont",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Maj. Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253826",
-      "name": "Clifford Elkin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Philip Beverley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267799",
-      "name": "Suzan Farmer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Constance Beverley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367583",
-      "name": "John Harvey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sgt. Grey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396806",
-      "name": "Charles Houston",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Drury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0224701",
-      "name": "Peter Diamond",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Soldier",
-        "Servant",
-        "Officer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0319241",
@@ -121,13 +9,125 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0420383",
+      "name": "Lionel Jeffries",
+      "sequence": 0,
+      "roles": [
+        "Col. Judd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001657",
+      "name": "Oliver Reed",
+      "sequence": 1,
+      "roles": [
+        "Capt. Tom Sylvester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373324",
+      "name": "Jack Hedley",
+      "sequence": 2,
+      "roles": [
+        "Edward Beverley, The Scarlet Blade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861185",
+      "name": "June Thorburn",
+      "sequence": 3,
+      "roles": [
+        "Clare Judd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728085",
+      "name": "Michael Ripper",
+      "sequence": 4,
+      "roles": [
+        "Pablo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0325354",
+      "name": "Harold Goldblatt",
+      "sequence": 5,
+      "roles": [
+        "Jacob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483653",
+      "name": "Duncan Lamont",
+      "sequence": 6,
+      "roles": [
+        "Maj. Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253826",
+      "name": "Clifford Elkin",
+      "sequence": 7,
+      "roles": [
+        "Philip Beverley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267799",
+      "name": "Suzan Farmer",
+      "sequence": 8,
+      "roles": [
+        "Constance Beverley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367583",
+      "name": "John Harvey",
+      "sequence": 9,
+      "roles": [
+        "Sgt. Grey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396806",
+      "name": "Charles Houston",
+      "sequence": 10,
+      "roles": [
+        "Drury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0224701",
+      "name": "Peter Diamond",
+      "sequence": 16,
+      "roles": [
+        "Soldier",
+        "Servant",
+        "Officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0319241",
       "name": "John Gilling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1963-09-01",

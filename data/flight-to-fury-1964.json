@@ -1,133 +1,6 @@
 {
   "imdb_id": "tt0060418",
   "sort_title": "Flight to Fury (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0552185",
-      "name": "Dewey Martin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Gaines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816670",
-      "name": "Fay Spain",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Destiny Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jay Wickham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0261825",
-      "name": "Joseph Estrada",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Garuda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225055",
-      "name": "Vic Diaz",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lorgren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247983",
-      "name": "Jaclyn Hellman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gloria Walsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2828376",
-      "name": "Juliet Pardo",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lei Ling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352467",
-      "name": "John Hackett",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Al Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0879966",
-      "name": "Vic Uematsu",
-      "sequence": 8,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0659020",
-      "name": "Lucien Pan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Police Inspector"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245027",
-      "name": "Henry Duval",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm3944747",
-      "name": "Serafin Sikat",
-      "sequence": 11,
-      "notes": "(as Serafin Sicat)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0196842",
-      "name": "Jose Dagumboy",
-      "sequence": 12,
-      "notes": "(as Joe Dagumboy)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0034416",
-      "name": "Robert Arevalo",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0836311",
-      "name": "Jennings Sturgeon",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bearded Man"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0375494",
@@ -136,27 +9,154 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0375494",
-      "name": "Monte Hellman",
+      "person_imdb_id": "nm0552185",
+      "name": "Dewey Martin",
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "roles": [
+        "Joe Gaines"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816670",
+      "name": "Fay Spain",
+      "sequence": 1,
+      "roles": [
+        "Destiny Cooper"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0000197",
       "name": "Jack Nicholson",
+      "sequence": 2,
+      "roles": [
+        "Jay Wickham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0261825",
+      "name": "Joseph Estrada",
+      "sequence": 3,
+      "roles": [
+        "Garuda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225055",
+      "name": "Vic Diaz",
+      "sequence": 4,
+      "roles": [
+        "Lorgren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247983",
+      "name": "Jaclyn Hellman",
+      "sequence": 5,
+      "roles": [
+        "Gloria Walsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2828376",
+      "name": "Juliet Pardo",
+      "sequence": 6,
+      "roles": [
+        "Lei Ling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352467",
+      "name": "John Hackett",
+      "sequence": 7,
+      "roles": [
+        "Al Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0879966",
+      "name": "Vic Uematsu",
+      "sequence": 8,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0659020",
+      "name": "Lucien Pan",
+      "sequence": 9,
+      "roles": [
+        "Police Inspector"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245027",
+      "name": "Henry Duval",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3944747",
+      "name": "Serafin Sikat",
+      "sequence": 11,
+      "roles": [],
+      "notes": "(as Serafin Sicat)"
+    },
+    {
+      "person_imdb_id": "nm0196842",
+      "name": "Jose Dagumboy",
+      "sequence": 12,
+      "roles": [],
+      "notes": "(as Joe Dagumboy)"
+    },
+    {
+      "person_imdb_id": "nm0034416",
+      "name": "Robert Arevalo",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0836311",
+      "name": "Jennings Sturgeon",
+      "sequence": 14,
+      "roles": [
+        "Bearded Man"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0375494",
+      "name": "Monte Hellman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0740407",
       "name": "Fred Roos",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1964-08-08",

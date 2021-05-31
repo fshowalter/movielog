@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0030545",
   "sort_title": "Overland Stage Raiders (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stony Brooke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181003",
-      "name": "Ray Corrigan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tucson Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0855579",
-      "name": "Max Terhune",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lullaby Joslin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000315",
-      "name": "Louise Brooks",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Beth Hoyt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545275",
-      "name": "Anthony Marsh",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ned Hoyt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001893",
-      "name": "John Archer",
-      "sequence": 5,
-      "notes": "(as Ralph Bowman)",
-      "roles": [
-        "Bob Whitney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366300",
-      "name": "Gordon Hart",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "W. T.Mullins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416897",
-      "name": "Roy James",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dave Harmon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290274",
-      "name": "Olin Francis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jake - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256534",
-      "name": "Fern Emmett",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ma Hawkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0652880",
-      "name": "Henry Otho",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheriff Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792812",
-      "name": "George Sherwood",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Clanton - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355256",
-      "name": "Arch Hall Sr.",
-      "sequence": 12,
-      "notes": "(as Archie Hall)",
-      "roles": [
-        "Joe Waddell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479008",
-      "name": "Frank LaRue",
-      "sequence": 13,
-      "notes": "(as Frank La Rue)",
-      "roles": [
-        "Hank Milton"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792450",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Stony Brooke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181003",
+      "name": "Ray Corrigan",
+      "sequence": 1,
+      "roles": [
+        "Tucson Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0855579",
+      "name": "Max Terhune",
+      "sequence": 2,
+      "roles": [
+        "Lullaby Joslin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000315",
+      "name": "Louise Brooks",
+      "sequence": 3,
+      "roles": [
+        "Beth Hoyt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545275",
+      "name": "Anthony Marsh",
+      "sequence": 4,
+      "roles": [
+        "Ned Hoyt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001893",
+      "name": "John Archer",
+      "sequence": 5,
+      "roles": [
+        "Bob Whitney"
+      ],
+      "notes": "(as Ralph Bowman)"
+    },
+    {
+      "person_imdb_id": "nm0366300",
+      "name": "Gordon Hart",
+      "sequence": 6,
+      "roles": [
+        "W. T.Mullins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416897",
+      "name": "Roy James",
+      "sequence": 7,
+      "roles": [
+        "Dave Harmon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290274",
+      "name": "Olin Francis",
+      "sequence": 8,
+      "roles": [
+        "Jake - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256534",
+      "name": "Fern Emmett",
+      "sequence": 9,
+      "roles": [
+        "Ma Hawkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0652880",
+      "name": "Henry Otho",
+      "sequence": 10,
+      "roles": [
+        "Sheriff Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792812",
+      "name": "George Sherwood",
+      "sequence": 11,
+      "roles": [
+        "Clanton - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355256",
+      "name": "Arch Hall Sr.",
+      "sequence": 12,
+      "roles": [
+        "Joe Waddell"
+      ],
+      "notes": "(as Archie Hall)"
+    },
+    {
+      "person_imdb_id": "nm0479008",
+      "name": "Frank LaRue",
+      "sequence": 13,
+      "roles": [
+        "Hank Milton"
+      ],
+      "notes": "(as Frank La Rue)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0566338",
       "name": "Bernard McConville",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0447071",
       "name": "Edmond Kelso",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0911698",
       "name": "Luci Ward",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1938-09-20",

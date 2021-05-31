@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0052302",
   "sort_title": "Too Much, Too Soon (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0540416",
-      "name": "Dorothy Malone",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Diana Barrymore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Barrymore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0956544",
-      "name": "Efrem Zimbalist Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Vincent Bryant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200645",
-      "name": "Ray Danton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "John Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666332",
-      "name": "Neva Patterson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Blanche Oehrichs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358069",
-      "name": "Murray Hamilton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charlie Snow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590398",
-      "name": "Martin Milner",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lincoln Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112392",
-      "name": "John Dennis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Walter Gerhardt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447220",
-      "name": "Ed Kemmer",
-      "sequence": 8,
-      "notes": "(as Edward Kemmer)",
-      "roles": [
-        "Robert Wilcox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254006",
-      "name": "Robert Ellenstein",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Gerald Frank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041021",
-      "name": "Malcolm Atterbury",
-      "sequence": 10,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Older Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062736",
-      "name": "George Baxter",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Schuyler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140790",
-      "name": "Dee Carroll",
-      "sequence": 12,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Telephone Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866344",
-      "name": "Sid Tomack",
-      "sequence": 69,
-      "notes": "",
-      "roles": [
-        "Harry",
-        "Dick Harrison"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0621073",
@@ -138,34 +9,163 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0540416",
+      "name": "Dorothy Malone",
+      "sequence": 0,
+      "roles": [
+        "Diana Barrymore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 1,
+      "roles": [
+        "John Barrymore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0956544",
+      "name": "Efrem Zimbalist Jr.",
+      "sequence": 2,
+      "roles": [
+        "Vincent Bryant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200645",
+      "name": "Ray Danton",
+      "sequence": 3,
+      "roles": [
+        "John Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666332",
+      "name": "Neva Patterson",
+      "sequence": 4,
+      "roles": [
+        "Blanche Oehrichs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358069",
+      "name": "Murray Hamilton",
+      "sequence": 5,
+      "roles": [
+        "Charlie Snow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590398",
+      "name": "Martin Milner",
+      "sequence": 6,
+      "roles": [
+        "Lincoln Forrester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112392",
+      "name": "John Dennis",
+      "sequence": 7,
+      "roles": [
+        "Walter Gerhardt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447220",
+      "name": "Ed Kemmer",
+      "sequence": 8,
+      "roles": [
+        "Robert Wilcox"
+      ],
+      "notes": "(as Edward Kemmer)"
+    },
+    {
+      "person_imdb_id": "nm0254006",
+      "name": "Robert Ellenstein",
+      "sequence": 9,
+      "roles": [
+        "Gerald Frank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041021",
+      "name": "Malcolm Atterbury",
+      "sequence": 10,
+      "roles": [
+        "Older Attendant"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0062736",
+      "name": "George Baxter",
+      "sequence": 11,
+      "roles": [
+        "Schuyler"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0140790",
+      "name": "Dee Carroll",
+      "sequence": 12,
+      "roles": [
+        "Telephone Operator"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0866344",
+      "name": "Sid Tomack",
+      "sequence": 69,
+      "roles": [
+        "Harry",
+        "Dick Harrison"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0621073",
       "name": "Art Napoleon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0621075",
       "name": "Jo Napoleon",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0058208",
       "name": "Diana Barrymore",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "notes": "(book)"
     },
     {
       "person_imdb_id": "nm0290940",
       "name": "Gerold Frank",
-      "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(book)"
     }
   ],
   "release_date": "1958-04-17",

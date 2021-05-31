@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0048791",
   "sort_title": "Virgin Queen (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Queen Elizabeth I"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865262",
-      "name": "Richard Todd",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sir Walter Raleigh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001058",
-      "name": "Joan Collins",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Beth Throgmorton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732717",
-      "name": "Jay Robinson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Chadwick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003339",
-      "name": "Herbert Marshall",
-      "sequence": 4,
-      "notes": "(Robert Dudley)",
-      "roles": [
-        "Lord Leicester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641397",
-      "name": "Dan O'Herlihy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lord Derry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001888",
-      "name": "Robert Douglas",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sir Christopher Hatton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107599",
-      "name": "Romney Brent",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "French Ambassador"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663562",
-      "name": "Leslie Parrish",
-      "sequence": 8,
-      "notes": "(as Marjorie Hellen)",
-      "roles": [
-        "Anne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200017",
-      "name": "Lisa Daniels",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mary"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0467396",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Queen Elizabeth I"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865262",
+      "name": "Richard Todd",
+      "sequence": 1,
+      "roles": [
+        "Sir Walter Raleigh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001058",
+      "name": "Joan Collins",
+      "sequence": 2,
+      "roles": [
+        "Beth Throgmorton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732717",
+      "name": "Jay Robinson",
+      "sequence": 3,
+      "roles": [
+        "Chadwick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003339",
+      "name": "Herbert Marshall",
+      "sequence": 4,
+      "roles": [
+        "Lord Leicester"
+      ],
+      "notes": "(Robert Dudley)"
+    },
+    {
+      "person_imdb_id": "nm0641397",
+      "name": "Dan O'Herlihy",
+      "sequence": 5,
+      "roles": [
+        "Lord Derry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001888",
+      "name": "Robert Douglas",
+      "sequence": 6,
+      "roles": [
+        "Sir Christopher Hatton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107599",
+      "name": "Romney Brent",
+      "sequence": 7,
+      "roles": [
+        "French Ambassador"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663562",
+      "name": "Leslie Parrish",
+      "sequence": 8,
+      "roles": [
+        "Anne"
+      ],
+      "notes": "(as Marjorie Hellen)"
+    },
+    {
+      "person_imdb_id": "nm0200017",
+      "name": "Lisa Daniels",
+      "sequence": 9,
+      "roles": [
+        "Mary"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0113689",
       "name": "Harry Brown",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0520478",
       "name": "Mindret Lord",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0113689",
       "name": "Harry Brown",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"Sir Walter Raleigh\") (uncredited)",
-      "group_id": 1
+      "notes": "(story \"Sir Walter Raleigh\") (uncredited)"
     }
   ],
   "release_date": "1955-07-22",

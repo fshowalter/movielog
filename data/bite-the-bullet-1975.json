@@ -1,182 +1,6 @@
 {
   "imdb_id": "tt0072705",
   "sort_title": "Bite the Bullet (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sam Clayton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000298",
-      "name": "Candice Bergen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Miss Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000336",
-      "name": "James Coburn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Luke Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000846",
-      "name": "Ian Bannen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sir Harry Norfolk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001821",
-      "name": "Jan-Michael Vincent",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Carbo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232817",
-      "name": "Robert Donner",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Reporter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929795",
-      "name": "Jean Willes",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rosie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0037642",
-      "name": "Mario Arteaga",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mexican"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001056",
-      "name": "Dabney Coleman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jack Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572897",
-      "name": "John McLiam",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gebhardt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398338",
-      "name": "Bob Hoy",
-      "sequence": 11,
-      "notes": "(as Robert Hoy)",
-      "roles": [
-        "Lee Christie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309702",
-      "name": "Jerry Gatlin",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Wood Cutter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000476",
-      "name": "Sally Kirkland",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Honey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778780",
-      "name": "Walter Scott",
-      "sequence": 14,
-      "notes": "(as Walter Scott Jr.)",
-      "roles": [
-        "Steve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123500",
-      "name": "William H. Burton Jr.",
-      "sequence": 15,
-      "notes": "(as Bill Burton)",
-      "roles": [
-        "Billy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0887174",
-      "name": "Buddy Van Horn",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Slim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112062",
-      "name": "Joe Brooks",
-      "sequence": 17,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0133544",
-      "name": "Lucia Canales",
-      "sequence": 18,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0482935",
-      "name": "Darwin Lamb",
-      "sequence": 19,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0112218",
@@ -185,13 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 0,
+      "roles": [
+        "Sam Clayton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000298",
+      "name": "Candice Bergen",
+      "sequence": 1,
+      "roles": [
+        "Miss Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000336",
+      "name": "James Coburn",
+      "sequence": 2,
+      "roles": [
+        "Luke Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 3,
+      "roles": [
+        "Mister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000846",
+      "name": "Ian Bannen",
+      "sequence": 4,
+      "roles": [
+        "Sir Harry Norfolk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001821",
+      "name": "Jan-Michael Vincent",
+      "sequence": 5,
+      "roles": [
+        "Carbo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232817",
+      "name": "Robert Donner",
+      "sequence": 6,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929795",
+      "name": "Jean Willes",
+      "sequence": 7,
+      "roles": [
+        "Rosie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0037642",
+      "name": "Mario Arteaga",
+      "sequence": 8,
+      "roles": [
+        "Mexican"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001056",
+      "name": "Dabney Coleman",
+      "sequence": 9,
+      "roles": [
+        "Jack Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572897",
+      "name": "John McLiam",
+      "sequence": 10,
+      "roles": [
+        "Gebhardt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398338",
+      "name": "Bob Hoy",
+      "sequence": 11,
+      "roles": [
+        "Lee Christie"
+      ],
+      "notes": "(as Robert Hoy)"
+    },
+    {
+      "person_imdb_id": "nm0309702",
+      "name": "Jerry Gatlin",
+      "sequence": 12,
+      "roles": [
+        "The Wood Cutter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000476",
+      "name": "Sally Kirkland",
+      "sequence": 13,
+      "roles": [
+        "Honey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778780",
+      "name": "Walter Scott",
+      "sequence": 14,
+      "roles": [
+        "Steve"
+      ],
+      "notes": "(as Walter Scott Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0123500",
+      "name": "William H. Burton Jr.",
+      "sequence": 15,
+      "roles": [
+        "Billy"
+      ],
+      "notes": "(as Bill Burton)"
+    },
+    {
+      "person_imdb_id": "nm0887174",
+      "name": "Buddy Van Horn",
+      "sequence": 16,
+      "roles": [
+        "Slim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112062",
+      "name": "Joe Brooks",
+      "sequence": 17,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133544",
+      "name": "Lucia Canales",
+      "sequence": 18,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482935",
+      "name": "Darwin Lamb",
+      "sequence": 19,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1975-04-26",

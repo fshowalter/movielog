@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0039053",
   "sort_title": "Two Guys from Milwaukee (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0604605",
-      "name": "Dennis Morgan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prince Henry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504125",
-      "name": "Joan Leslie",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Connie Reed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007217",
-      "name": "Jack Carson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Buzz Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656712",
-      "name": "Janis Paige",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Polly Pringle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0757064",
-      "name": "S.Z. Sakall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Count Oswald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103708",
-      "name": "Patti Brady",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0213619",
-      "name": "Rosemary DeCamp",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195235",
-      "name": "Tom D'Andrea",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Happy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mike Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574686",
-      "name": "Patrick McVey",
-      "sequence": 9,
-      "notes": "(as Pat McVey)",
-      "roles": [
-        "Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0659427",
-      "name": "Franklin Pangborn",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Theatre Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682560",
-      "name": "Francis Pierlot",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Bauer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461739",
-      "name": "Peggy Knudsen",
-      "sequence": 43,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Juke-Box Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545198",
-      "name": "Lou Marcelle",
-      "sequence": 47,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Trailer Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0124877",
@@ -137,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0604605",
+      "name": "Dennis Morgan",
+      "sequence": 0,
+      "roles": [
+        "Prince Henry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504125",
+      "name": "Joan Leslie",
+      "sequence": 1,
+      "roles": [
+        "Connie Reed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007217",
+      "name": "Jack Carson",
+      "sequence": 2,
+      "roles": [
+        "Buzz Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656712",
+      "name": "Janis Paige",
+      "sequence": 3,
+      "roles": [
+        "Polly Pringle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0757064",
+      "name": "S.Z. Sakall",
+      "sequence": 4,
+      "roles": [
+        "Count Oswald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0103708",
+      "name": "Patti Brady",
+      "sequence": 5,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0213619",
+      "name": "Rosemary DeCamp",
+      "sequence": 6,
+      "roles": [
+        "Nan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195235",
+      "name": "Tom D'Andrea",
+      "sequence": 7,
+      "roles": [
+        "Happy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 8,
+      "roles": [
+        "Mike Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574686",
+      "name": "Patrick McVey",
+      "sequence": 9,
+      "roles": [
+        "Johnson"
+      ],
+      "notes": "(as Pat McVey)"
+    },
+    {
+      "person_imdb_id": "nm0659427",
+      "name": "Franklin Pangborn",
+      "sequence": 10,
+      "roles": [
+        "Theatre Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682560",
+      "name": "Francis Pierlot",
+      "sequence": 11,
+      "roles": [
+        "Dr. Bauer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0388841",
       "name": "Charles Hoffman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1946-07-26",

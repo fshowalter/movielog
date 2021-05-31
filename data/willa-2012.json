@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt2199723",
   "sort_title": "Willa (2012)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1678610",
-      "name": "Theodore Bouloukos",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Phil Palmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3987668",
-      "name": "Gregory M. Brown",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Henry Lander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4301219",
-      "name": "Jane Brown",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pammy Andreeson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3575392",
-      "name": "Felix Flores",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Busboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4121083",
-      "name": "Jennifer Fouche",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4458565",
-      "name": "Sara Hogrefe",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Willa Stuart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4054067",
-      "name": "Susan Kirby",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Helen Palmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1959878",
-      "name": "Barbara Linton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ruth Lander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4868557",
-      "name": "Amanda Marklin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5551393",
-      "name": "Erik Jordan Meyers",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1047143",
-      "name": "Clayton Watson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "David Sanderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4873038",
-      "name": "Licia James Zegar",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Annie"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm3277191",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1678610",
+      "name": "Theodore Bouloukos",
+      "sequence": 0,
+      "roles": [
+        "Phil Palmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3987668",
+      "name": "Gregory M. Brown",
+      "sequence": 1,
+      "roles": [
+        "Henry Lander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4301219",
+      "name": "Jane Brown",
+      "sequence": 2,
+      "roles": [
+        "Pammy Andreeson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3575392",
+      "name": "Felix Flores",
+      "sequence": 3,
+      "roles": [
+        "Busboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4121083",
+      "name": "Jennifer Fouche",
+      "sequence": 4,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4458565",
+      "name": "Sara Hogrefe",
+      "sequence": 5,
+      "roles": [
+        "Willa Stuart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4054067",
+      "name": "Susan Kirby",
+      "sequence": 6,
+      "roles": [
+        "Helen Palmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1959878",
+      "name": "Barbara Linton",
+      "sequence": 7,
+      "roles": [
+        "Ruth Lander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4868557",
+      "name": "Amanda Marklin",
+      "sequence": 8,
+      "roles": [
+        "Pat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5551393",
+      "name": "Erik Jordan Meyers",
+      "sequence": 9,
+      "roles": [
+        "Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1047143",
+      "name": "Clayton Watson",
+      "sequence": 10,
+      "roles": [
+        "David Sanderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4873038",
+      "name": "Licia James Zegar",
+      "sequence": 11,
+      "roles": [
+        "Annie"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm3277191",
       "name": "Christopher Birk",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000175",
       "name": "Stephen King",
+      "group": 1,
       "sequence": 0,
-      "notes": "(short story)",
-      "group_id": 1
+      "notes": "(short story)"
     }
   ],
   "release_date": "2012-01-01",

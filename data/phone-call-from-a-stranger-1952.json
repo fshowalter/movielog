@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0045029",
   "sort_title": "Phone Call from a Stranger (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001859",
-      "name": "Shelley Winters",
-      "sequence": 0,
-      "notes": "(Mrs. Michael Carr)",
-      "roles": [
-        "Binky Gay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581282",
-      "name": "Gary Merrill",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David L. Trask"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719692",
-      "name": "Michael Rennie",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Robert Fortness"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Marie Hoke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943978",
-      "name": "Keenan Wynn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Eddie Hoke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889537",
-      "name": "Evelyn Varden",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sally Carr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828838",
-      "name": "Warren Stevens",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marty Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833152",
-      "name": "Beatrice Straight",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Claire Fortness"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232159",
-      "name": "Ted Donaldson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jerry Fortness"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301887",
-      "name": "Craig Stevens",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mike Carr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922505",
-      "name": "Helen Westcott",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jane Trask"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621573",
-      "name": "Jack Narz",
-      "sequence": 37,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Flight Announcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0849579",
-      "name": "Charles Tannen",
-      "sequence": 46,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Airport Intercom Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0624535",
@@ -128,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001859",
+      "name": "Shelley Winters",
+      "sequence": 0,
+      "roles": [
+        "Binky Gay"
+      ],
+      "notes": "(Mrs. Michael Carr)"
+    },
+    {
+      "person_imdb_id": "nm0581282",
+      "name": "Gary Merrill",
+      "sequence": 1,
+      "roles": [
+        "David L. Trask"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719692",
+      "name": "Michael Rennie",
+      "sequence": 2,
+      "roles": [
+        "Dr. Robert Fortness"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 3,
+      "roles": [
+        "Marie Hoke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943978",
+      "name": "Keenan Wynn",
+      "sequence": 4,
+      "roles": [
+        "Eddie Hoke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889537",
+      "name": "Evelyn Varden",
+      "sequence": 5,
+      "roles": [
+        "Sally Carr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828838",
+      "name": "Warren Stevens",
+      "sequence": 6,
+      "roles": [
+        "Marty Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833152",
+      "name": "Beatrice Straight",
+      "sequence": 7,
+      "roles": [
+        "Claire Fortness"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232159",
+      "name": "Ted Donaldson",
+      "sequence": 8,
+      "roles": [
+        "Jerry Fortness"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301887",
+      "name": "Craig Stevens",
+      "sequence": 9,
+      "roles": [
+        "Mike Carr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922505",
+      "name": "Helen Westcott",
+      "sequence": 10,
+      "roles": [
+        "Jane Trask"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0425913",
       "name": "Nunnally Johnson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0943782",
       "name": "I.A.R. Wylie",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1952-01-17",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0022681",
   "sort_title": "Big Stampede (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Steele"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001935",
-      "name": "Noah Beery",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sam Crew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403636",
-      "name": "Paul Hurst",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Henchman Arizona"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534996",
-      "name": "Mae Madison",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ginger Malloy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016422",
-      "name": "Luis Alberni",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sonora Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161414",
-      "name": "Berton Churchill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gov. Wallace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047496",
-      "name": "Sherwood Bailey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pat Malloy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571186",
-      "name": "Lafe McKee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cal Brett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0320681",
-      "name": "Joseph W. Girard",
-      "sequence": 8,
-      "notes": "(as Joseph Girard)",
-      "roles": [
-        "Major Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1349117",
-      "name": "Duke",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Duke - John's Horse"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0942862",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Steele"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001935",
+      "name": "Noah Beery",
+      "sequence": 1,
+      "roles": [
+        "Sam Crew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403636",
+      "name": "Paul Hurst",
+      "sequence": 2,
+      "roles": [
+        "Henchman Arizona"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534996",
+      "name": "Mae Madison",
+      "sequence": 3,
+      "roles": [
+        "Ginger Malloy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016422",
+      "name": "Luis Alberni",
+      "sequence": 4,
+      "roles": [
+        "Sonora Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161414",
+      "name": "Berton Churchill",
+      "sequence": 5,
+      "roles": [
+        "Gov. Wallace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047496",
+      "name": "Sherwood Bailey",
+      "sequence": 6,
+      "roles": [
+        "Pat Malloy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571186",
+      "name": "Lafe McKee",
+      "sequence": 7,
+      "roles": [
+        "Cal Brett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0320681",
+      "name": "Joseph W. Girard",
+      "sequence": 8,
+      "roles": [
+        "Major Parker"
+      ],
+      "notes": "(as Joseph Girard)"
+    },
+    {
+      "person_imdb_id": "nm1349117",
+      "name": "Duke",
+      "sequence": 9,
+      "roles": [
+        "Duke - John's Horse"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0413821",
       "name": "Marion Jackson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"The Land Beyond the Law\")",
-      "group_id": 0
+      "notes": "(story \"The Land Beyond the Law\")"
     },
     {
       "person_imdb_id": "nm0447472",
       "name": "Kurt Kempler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play & dialogue by)",
-      "group_id": 1
+      "notes": "(screen play & dialogue by)"
     }
   ],
   "release_date": "1932-09-29",

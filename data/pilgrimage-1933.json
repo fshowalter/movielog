@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0024453",
   "sort_title": "Pilgrimage (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0189093",
-      "name": "Henrietta Crosman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mrs. Hannah Jessop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0029456",
-      "name": "Heather Angel",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Suzanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0287988",
-      "name": "Norman Foster",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jim 'Jimmy' Jessop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479164",
-      "name": "Lucille La Verne",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Kelly Hatfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614515",
-      "name": "Maurice Murphy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gary Worth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0633260",
-      "name": "Marian Nixon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mary Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911600",
-      "name": "Jay Ward",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jimmy Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913094",
-      "name": "Robert Warwick",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maj. Albertson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141782",
-      "name": "Louise Carter",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090029",
-      "name": "Betty Blythe",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Janet Prescot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285643",
-      "name": "Francis Ford",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mayor Elmer Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335788",
-      "name": "Charley Grapewin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dad Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394407",
-      "name": "Hedda Hopper",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mrs. Worth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723646",
-      "name": "Frances Rich",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Nurse"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -137,48 +9,176 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0189093",
+      "name": "Henrietta Crosman",
+      "sequence": 0,
+      "roles": [
+        "Mrs. Hannah Jessop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0029456",
+      "name": "Heather Angel",
+      "sequence": 1,
+      "roles": [
+        "Suzanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0287988",
+      "name": "Norman Foster",
+      "sequence": 2,
+      "roles": [
+        "Jim 'Jimmy' Jessop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479164",
+      "name": "Lucille La Verne",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Kelly Hatfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614515",
+      "name": "Maurice Murphy",
+      "sequence": 4,
+      "roles": [
+        "Gary Worth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0633260",
+      "name": "Marian Nixon",
+      "sequence": 5,
+      "roles": [
+        "Mary Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911600",
+      "name": "Jay Ward",
+      "sequence": 6,
+      "roles": [
+        "Jimmy Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913094",
+      "name": "Robert Warwick",
+      "sequence": 7,
+      "roles": [
+        "Maj. Albertson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0141782",
+      "name": "Louise Carter",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0090029",
+      "name": "Betty Blythe",
+      "sequence": 9,
+      "roles": [
+        "Janet Prescot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285643",
+      "name": "Francis Ford",
+      "sequence": 10,
+      "roles": [
+        "Mayor Elmer Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335788",
+      "name": "Charley Grapewin",
+      "sequence": 11,
+      "roles": [
+        "Dad Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394407",
+      "name": "Hedda Hopper",
+      "sequence": 12,
+      "roles": [
+        "Mrs. Worth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723646",
+      "name": "Frances Rich",
+      "sequence": 13,
+      "roles": [
+        "The Nurse"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0175194",
       "name": "Barry Conners",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0425225",
       "name": "Henry Johnson",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0458934",
       "name": "Philip Klein",
+      "group": 2,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 2
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 3,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 3
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0226967",
       "name": "Basil Woon",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0943782",
       "name": "I.A.R. Wylie",
+      "group": 5,
       "sequence": 0,
-      "notes": "(story \"Pilgrimage\")",
-      "group_id": 5
+      "notes": "(story \"Pilgrimage\")"
     }
   ],
   "release_date": "1933-07-12",

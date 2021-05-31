@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0025346",
   "sort_title": "Key (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Captain Bill Tennant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0078923",
-      "name": "Edna Best",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Norah Kerr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166972",
-      "name": "Colin Clive",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Captain Andrew 'Andy' Kerr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146928",
-      "name": "Hobart Cavanaugh",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Homer - Tennant's Aide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387561",
-      "name": "Halliwell Hobbes",
-      "sequence": 4,
-      "notes": "(as Halliwell Hobbs)",
-      "roles": [
-        "General C.O. Furlong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187981",
-      "name": "Donald Crisp",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Peadar Conlan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0449858",
-      "name": "J.M. Kerrigan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "O'Duffy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0716468",
-      "name": "Phil Regan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Young Irishman Killed by Andrew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871546",
-      "name": "Arthur Treacher",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Merriman - Furlong's Aide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236445",
-      "name": "Maxine Doyle",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Pauline O'Connor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043849",
-      "name": "Arthur Aylesworth",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Kirby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795053",
-      "name": "Gertrude Short",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Evie - a Barmaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794297",
-      "name": "Anne Shirley",
-      "sequence": 13,
-      "notes": "(as Dawn O'Day)",
-      "roles": [
-        "Flower Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Captain Bill Tennant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0078923",
+      "name": "Edna Best",
+      "sequence": 1,
+      "roles": [
+        "Norah Kerr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166972",
+      "name": "Colin Clive",
+      "sequence": 2,
+      "roles": [
+        "Captain Andrew 'Andy' Kerr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146928",
+      "name": "Hobart Cavanaugh",
+      "sequence": 3,
+      "roles": [
+        "Homer - Tennant's Aide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0387561",
+      "name": "Halliwell Hobbes",
+      "sequence": 4,
+      "roles": [
+        "General C.O. Furlong"
+      ],
+      "notes": "(as Halliwell Hobbs)"
+    },
+    {
+      "person_imdb_id": "nm0187981",
+      "name": "Donald Crisp",
+      "sequence": 5,
+      "roles": [
+        "Peadar Conlan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0449858",
+      "name": "J.M. Kerrigan",
+      "sequence": 6,
+      "roles": [
+        "O'Duffy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 7,
+      "roles": [
+        "Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0716468",
+      "name": "Phil Regan",
+      "sequence": 8,
+      "roles": [
+        "Young Irishman Killed by Andrew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871546",
+      "name": "Arthur Treacher",
+      "sequence": 9,
+      "roles": [
+        "Lt. Merriman - Furlong's Aide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236445",
+      "name": "Maxine Doyle",
+      "sequence": 10,
+      "roles": [
+        "Pauline O'Connor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043849",
+      "name": "Arthur Aylesworth",
+      "sequence": 11,
+      "roles": [
+        "Kirby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795053",
+      "name": "Gertrude Short",
+      "sequence": 12,
+      "roles": [
+        "Evie - a Barmaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794297",
+      "name": "Anne Shirley",
+      "sequence": 13,
+      "roles": [
+        "Flower Girl"
+      ],
+      "notes": "(as Dawn O'Day)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0236418",
       "name": "Laird Doyle",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0330718",
       "name": "R. Gore Brown",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play) (as R. Gore-Browne)",
-      "group_id": 1
+      "notes": "(play) (as R. Gore-Browne)"
     },
     {
       "person_imdb_id": "nm0362658",
       "name": "J.L. Hardy",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(play)"
     }
   ],
   "release_date": "1934-05-31",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0055533",
   "sort_title": "Tomboy and the Champ (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0600993",
-      "name": "Candy Moore",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tommy Jo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Uncle Jim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0924964",
-      "name": "Jesse White",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Windy Skiles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0456724",
-      "name": "Jess Kirkpatrick",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Model T. Parson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807703",
-      "name": "Christine Smith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Aunt Sarah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0076569",
-      "name": "Paul Bernath",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jaspar Stockton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792733",
-      "name": "Norman Sherry",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fowler Stockton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139383",
-      "name": "Johnny Carpenter",
-      "sequence": 7,
-      "notes": "(as John Carpenter)",
-      "roles": [
-        "Fred Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680872",
-      "name": "Wally Phillips",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hi Fi Club Announcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279095",
-      "name": "Ralph Fischer",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "4-H Club President"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382684",
-      "name": "Larry Hickie",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Curly Cone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020942",
-      "name": "Rex Allen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rex Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862571",
-      "name": "Casey Tibbs",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Casey Tibbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1013187",
-      "name": "Jerry Naill",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Jerry Naill"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0528927",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0600993",
+      "name": "Candy Moore",
+      "sequence": 0,
+      "roles": [
+        "Tommy Jo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 1,
+      "roles": [
+        "Uncle Jim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0924964",
+      "name": "Jesse White",
+      "sequence": 2,
+      "roles": [
+        "Windy Skiles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0456724",
+      "name": "Jess Kirkpatrick",
+      "sequence": 3,
+      "roles": [
+        "Model T. Parson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807703",
+      "name": "Christine Smith",
+      "sequence": 4,
+      "roles": [
+        "Aunt Sarah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0076569",
+      "name": "Paul Bernath",
+      "sequence": 5,
+      "roles": [
+        "Jaspar Stockton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792733",
+      "name": "Norman Sherry",
+      "sequence": 6,
+      "roles": [
+        "Fowler Stockton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0139383",
+      "name": "Johnny Carpenter",
+      "sequence": 7,
+      "roles": [
+        "Fred Anderson"
+      ],
+      "notes": "(as John Carpenter)"
+    },
+    {
+      "person_imdb_id": "nm0680872",
+      "name": "Wally Phillips",
+      "sequence": 8,
+      "roles": [
+        "Hi Fi Club Announcer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279095",
+      "name": "Ralph Fischer",
+      "sequence": 9,
+      "roles": [
+        "4-H Club President"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382684",
+      "name": "Larry Hickie",
+      "sequence": 10,
+      "roles": [
+        "Curly Cone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020942",
+      "name": "Rex Allen",
+      "sequence": 11,
+      "roles": [
+        "Rex Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0862571",
+      "name": "Casey Tibbs",
+      "sequence": 12,
+      "roles": [
+        "Casey Tibbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1013187",
+      "name": "Jerry Naill",
+      "sequence": 13,
+      "roles": [
+        "Jerry Naill"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0177509",
       "name": "Virginia M. Cooke",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0509996",
       "name": "William Lightfoot",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0721982",
       "name": "Tommy Reynolds",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1961-04-01",

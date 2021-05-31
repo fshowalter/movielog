@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt1334102",
   "sort_title": "Resident (2011)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0005476",
-      "name": "Hilary Swank",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Juliet Devereau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604742",
-      "name": "Jeffrey Dean Morgan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1195855",
-      "name": "Lee Pace",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "August"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254712",
-      "name": "Aunjanue Ellis",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sydney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1266915",
-      "name": "Sean A. Rosales",
-      "sequence": 5,
-      "notes": "(as Sean Rosales)",
-      "roles": [
-        "Carlos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1499863",
-      "name": "Deborah Martinez",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Portes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870734",
-      "name": "Sheila Ivy Traister",
-      "sequence": 7,
-      "notes": "(as Sheila Traister)",
-      "roles": [
-        "ER Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795297",
-      "name": "Michael Showers",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "August ER Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000684",
-      "name": "Nana Visitor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Real Estate Agent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1377287",
-      "name": "Arron Shiver",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Architect"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045937",
-      "name": "Michael Badalucco",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Moving Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557219",
-      "name": "Michael Massee",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Security Tech"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0050165",
-      "name": "Penny Balfour",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Drug Addict"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606032",
-      "name": "Mark Morocco",
-      "sequence": 14,
-      "notes": "(as Mark Vincent Morocco)",
-      "roles": [
-        "ER Surgeon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3279059",
-      "name": "Veronica Hool",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Nurse Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0427037",
@@ -155,20 +9,166 @@
       "notes": "(as Antti J. Jokinen)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0005476",
+      "name": "Hilary Swank",
+      "sequence": 0,
+      "roles": [
+        "Dr. Juliet Devereau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604742",
+      "name": "Jeffrey Dean Morgan",
+      "sequence": 1,
+      "roles": [
+        "Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1195855",
+      "name": "Lee Pace",
+      "sequence": 2,
+      "roles": [
+        "Jack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
+      "roles": [
+        "August"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254712",
+      "name": "Aunjanue Ellis",
+      "sequence": 4,
+      "roles": [
+        "Sydney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1266915",
+      "name": "Sean A. Rosales",
+      "sequence": 5,
+      "roles": [
+        "Carlos"
+      ],
+      "notes": "(as Sean Rosales)"
+    },
+    {
+      "person_imdb_id": "nm1499863",
+      "name": "Deborah Martinez",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Portes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870734",
+      "name": "Sheila Ivy Traister",
+      "sequence": 7,
+      "roles": [
+        "ER Nurse"
+      ],
+      "notes": "(as Sheila Traister)"
+    },
+    {
+      "person_imdb_id": "nm0795297",
+      "name": "Michael Showers",
+      "sequence": 8,
+      "roles": [
+        "August ER Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000684",
+      "name": "Nana Visitor",
+      "sequence": 9,
+      "roles": [
+        "Real Estate Agent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1377287",
+      "name": "Arron Shiver",
+      "sequence": 10,
+      "roles": [
+        "Architect"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045937",
+      "name": "Michael Badalucco",
+      "sequence": 11,
+      "roles": [
+        "Moving Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557219",
+      "name": "Michael Massee",
+      "sequence": 12,
+      "roles": [
+        "Security Tech"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0050165",
+      "name": "Penny Balfour",
+      "sequence": 13,
+      "roles": [
+        "Drug Addict"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606032",
+      "name": "Mark Morocco",
+      "sequence": 14,
+      "roles": [
+        "ER Surgeon"
+      ],
+      "notes": "(as Mark Vincent Morocco)"
+    },
+    {
+      "person_imdb_id": "nm3279059",
+      "name": "Veronica Hool",
+      "sequence": 15,
+      "roles": [
+        "Nurse Girl"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0427037",
       "name": "Antti Jokinen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Antii J. Jokinen)",
-      "group_id": 0
+      "notes": "(written by) (as Antii J. Jokinen)"
     },
     {
       "person_imdb_id": "nm0650601",
       "name": "Robert Orr",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "2011-02-10",

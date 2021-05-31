@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0040270",
   "sort_title": "Dark Past (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Al Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001225",
-      "name": "Nina Foch",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Betty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002011",
-      "name": "Lee J. Cobb",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Andrew Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421922",
-      "name": "Adele Jergens",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Laura Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242911",
-      "name": "Stephen Dunne",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Owen Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561755",
-      "name": "Lois Maxwell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ruth Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0471854",
-      "name": "Berry Kroeger",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314065",
-      "name": "Steven Geray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Professor Fred Linder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0333807",
-      "name": "Wilton Graff",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frank Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0652366",
-      "name": "Robert Osterloh",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136293",
-      "name": "Kathryn Card",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Nora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404903",
-      "name": "Robert Hyatt",
-      "sequence": 11,
-      "notes": "(as Bobby Hyatt)",
-      "roles": [
-        "Bobby Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179289",
-      "name": "Ellen Corby",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Agnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133802",
-      "name": "Charles Cane",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931547",
-      "name": "Robert B. Williams",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569151",
-      "name": "Pat McGeehan",
-      "sequence": 28,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Commentator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005789",
@@ -155,48 +9,185 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Al Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001225",
+      "name": "Nina Foch",
+      "sequence": 1,
+      "roles": [
+        "Betty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002011",
+      "name": "Lee J. Cobb",
+      "sequence": 2,
+      "roles": [
+        "Dr. Andrew Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421922",
+      "name": "Adele Jergens",
+      "sequence": 3,
+      "roles": [
+        "Laura Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242911",
+      "name": "Stephen Dunne",
+      "sequence": 4,
+      "roles": [
+        "Owen Talbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561755",
+      "name": "Lois Maxwell",
+      "sequence": 5,
+      "roles": [
+        "Ruth Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0471854",
+      "name": "Berry Kroeger",
+      "sequence": 6,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314065",
+      "name": "Steven Geray",
+      "sequence": 7,
+      "roles": [
+        "Professor Fred Linder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0333807",
+      "name": "Wilton Graff",
+      "sequence": 8,
+      "roles": [
+        "Frank Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0652366",
+      "name": "Robert Osterloh",
+      "sequence": 9,
+      "roles": [
+        "Pete"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0136293",
+      "name": "Kathryn Card",
+      "sequence": 10,
+      "roles": [
+        "Nora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404903",
+      "name": "Robert Hyatt",
+      "sequence": 11,
+      "roles": [
+        "Bobby Collins"
+      ],
+      "notes": "(as Bobby Hyatt)"
+    },
+    {
+      "person_imdb_id": "nm0179289",
+      "name": "Ellen Corby",
+      "sequence": 12,
+      "roles": [
+        "Agnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133802",
+      "name": "Charles Cane",
+      "sequence": 13,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931547",
+      "name": "Robert B. Williams",
+      "sequence": 14,
+      "roles": [
+        "Williams"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0907013",
       "name": "Malvin Wald",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 0
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0531878",
       "name": "Philip MacDonald",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0087581",
       "name": "Michael Blankfort",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0240488",
       "name": "Albert Duffy",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0913244",
       "name": "James Warwick",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"Blind Alley\")",
-      "group_id": 2
+      "notes": "(play \"Blind Alley\")"
     }
   ],
   "release_date": "1948-12-22",

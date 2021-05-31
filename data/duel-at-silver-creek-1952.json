@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0044573",
   "sort_title": "Duel at Silver Creek (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001559",
-      "name": "Audie Murphy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Luke Cromwell - The Silver Kid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0231409",
-      "name": "Faith Domergue",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Opal Lacy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573640",
-      "name": "Stephen McNally",
-      "sequence": 2,
-      "notes": "(as Stephen Mc.Nally)",
-      "roles": [
-        "Marshal Lightning Tyrone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0127693",
-      "name": "Susan Cabot",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jane 'Dusty' Fargo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0596056",
-      "name": "Gerald Mohr",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rod Lacy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0407094",
-      "name": "Eugene Iglesias",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Johnny Sombrero"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026841",
-      "name": "James Anderson",
-      "sequence": 6,
-      "notes": "(as Kyle James)",
-      "roles": [
-        "Rat Face Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0761340",
-      "name": "Walter Sande",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pete Fargo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tinhorn Burgess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253140",
-      "name": "George Eldredge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jim Ryan - Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090008",
-      "name": "Stanley Blystone",
-      "sequence": 17,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Sam"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0796923",
@@ -110,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001559",
+      "name": "Audie Murphy",
+      "sequence": 0,
+      "roles": [
+        "Luke Cromwell - The Silver Kid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0231409",
+      "name": "Faith Domergue",
+      "sequence": 1,
+      "roles": [
+        "Opal Lacy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573640",
+      "name": "Stephen McNally",
+      "sequence": 2,
+      "roles": [
+        "Marshal Lightning Tyrone"
+      ],
+      "notes": "(as Stephen Mc.Nally)"
+    },
+    {
+      "person_imdb_id": "nm0127693",
+      "name": "Susan Cabot",
+      "sequence": 3,
+      "roles": [
+        "Jane 'Dusty' Fargo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0596056",
+      "name": "Gerald Mohr",
+      "sequence": 4,
+      "roles": [
+        "Rod Lacy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0407094",
+      "name": "Eugene Iglesias",
+      "sequence": 5,
+      "roles": [
+        "Johnny Sombrero"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026841",
+      "name": "James Anderson",
+      "sequence": 6,
+      "roles": [
+        "Rat Face Blake"
+      ],
+      "notes": "(as Kyle James)"
+    },
+    {
+      "person_imdb_id": "nm0761340",
+      "name": "Walter Sande",
+      "sequence": 7,
+      "roles": [
+        "Pete Fargo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 8,
+      "roles": [
+        "Tinhorn Burgess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253140",
+      "name": "George Eldredge",
+      "sequence": 9,
+      "roles": [
+        "Jim Ryan - Bartender"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
-      "person_imdb_id": "nm0388976",
+      "person_imdb_id": "nm0254754",
       "name": "Joseph Hoffman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1952-08-01",

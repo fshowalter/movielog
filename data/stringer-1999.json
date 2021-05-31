@@ -1,112 +1,6 @@
 {
   "imdb_id": "tt0171791",
   "sort_title": "Stringer (1999)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Wolko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0783879",
-      "name": "Elie Semoun",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Filo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675006",
-      "name": "Christina Perry",
-      "sequence": 2,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0551793",
-      "name": "Jean-Michel Martial",
-      "sequence": 3,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0039665",
-      "name": "Vanessa Aspillaga",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dolores"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256322",
-      "name": "Margaret Emery",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004908",
-      "name": "Edie Falco",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "TV Producer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580226",
-      "name": "Yvette Mercedes",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Nosy Neighbor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1453435",
-      "name": "Veronica Milagros",
-      "sequence": 8,
-      "notes": "(creditOnly) (as Veronica Diaz)",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842755",
-      "name": "Mark A. Swinson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Le Videur 2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1239022",
-      "name": "Mark Tchelistcheff",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Cowboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0505764",
-      "name": "Anna Thomson",
-      "sequence": 11,
-      "notes": "(as Anna Levine)",
-      "roles": [
-        "Ashley"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0003600",
@@ -115,25 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 0,
+      "roles": [
+        "Wolko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0783879",
+      "name": "Elie Semoun",
+      "sequence": 1,
+      "roles": [
+        "Filo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0675006",
+      "name": "Christina Perry",
+      "sequence": 2,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551793",
+      "name": "Jean-Michel Martial",
+      "sequence": 3,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039665",
+      "name": "Vanessa Aspillaga",
+      "sequence": 4,
+      "roles": [
+        "Dolores"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256322",
+      "name": "Margaret Emery",
+      "sequence": 5,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004908",
+      "name": "Edie Falco",
+      "sequence": 6,
+      "roles": [
+        "TV Producer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580226",
+      "name": "Yvette Mercedes",
+      "sequence": 7,
+      "roles": [
+        "Nosy Neighbor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1453435",
+      "name": "Veronica Milagros",
+      "sequence": 8,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": "(creditOnly) (as Veronica Diaz)"
+    },
+    {
+      "person_imdb_id": "nm0842755",
+      "name": "Mark A. Swinson",
+      "sequence": 9,
+      "roles": [
+        "Le Videur 2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1239022",
+      "name": "Mark Tchelistcheff",
+      "sequence": 10,
+      "roles": [
+        "The Cowboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0505764",
+      "name": "Anna Thomson",
+      "sequence": 11,
+      "roles": [
+        "Ashley"
+      ],
+      "notes": "(as Anna Levine)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0423535",
       "name": "Jean-Paul Jody",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0494378",
       "name": "Alain Le Henry",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1999-05-17",
   "release_date_notes": "(video premiere)",
   "countries": [
-    "France"
+    "France",
+    "United States"
   ]
 }

@@ -1,162 +1,6 @@
 {
   "imdb_id": "tt0071391",
   "sort_title": "Dark Places (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Ian Mandeville"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001058",
-      "name": "Joan Collins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Mandeville"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007042",
-      "name": "Herbert Lom",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Prescott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000945",
-      "name": "Jane Birkin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Alta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362735",
-      "name": "Robert Hardy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Edward Foster",
-        "Andrew Marr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550577",
-      "name": "Jean Marsh",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Victoria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387577",
-      "name": "Carleton Hobbs",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Old Marr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263189",
-      "name": "Roy Evans",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090796",
-      "name": "Martin Boddey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sgt. Riley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0323335",
-      "name": "John Glyn-Jones",
-      "sequence": 9,
-      "notes": "(as John Glyn Jones)",
-      "roles": [
-        "Bank Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0505244",
-      "name": "John Levene",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0857039",
-      "name": "Jennifer Thanisch",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jessica"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574705",
-      "name": "Michael McVey",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Francis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512622",
-      "name": "Barry Linehan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Asylum Gatekeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336783",
-      "name": "Linda Gray",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Woman on Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0209284",
-      "name": "Lysandre De La Haye",
-      "sequence": 15,
-      "notes": "(as Lysandra De La Haye)",
-      "roles": [
-        "Child on Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0722419",
-      "name": "Earl Rhodes",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Child on Hill"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0789033",
@@ -165,34 +9,190 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Dr. Ian Mandeville"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001058",
+      "name": "Joan Collins",
+      "sequence": 1,
+      "roles": [
+        "Sarah Mandeville"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007042",
+      "name": "Herbert Lom",
+      "sequence": 2,
+      "roles": [
+        "Prescott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000945",
+      "name": "Jane Birkin",
+      "sequence": 3,
+      "roles": [
+        "Alta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362735",
+      "name": "Robert Hardy",
+      "sequence": 4,
+      "roles": [
+        "Edward Foster",
+        "Andrew Marr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550577",
+      "name": "Jean Marsh",
+      "sequence": 5,
+      "roles": [
+        "Victoria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0387577",
+      "name": "Carleton Hobbs",
+      "sequence": 6,
+      "roles": [
+        "Old Marr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263189",
+      "name": "Roy Evans",
+      "sequence": 7,
+      "roles": [
+        "Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0090796",
+      "name": "Martin Boddey",
+      "sequence": 8,
+      "roles": [
+        "Sgt. Riley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0323335",
+      "name": "John Glyn-Jones",
+      "sequence": 9,
+      "roles": [
+        "Bank Manager"
+      ],
+      "notes": "(as John Glyn Jones)"
+    },
+    {
+      "person_imdb_id": "nm0505244",
+      "name": "John Levene",
+      "sequence": 10,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0857039",
+      "name": "Jennifer Thanisch",
+      "sequence": 11,
+      "roles": [
+        "Jessica"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574705",
+      "name": "Michael McVey",
+      "sequence": 12,
+      "roles": [
+        "Francis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512622",
+      "name": "Barry Linehan",
+      "sequence": 13,
+      "roles": [
+        "Asylum Gatekeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336783",
+      "name": "Linda Gray",
+      "sequence": 14,
+      "roles": [
+        "Woman on Hill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0209284",
+      "name": "Lysandre De La Haye",
+      "sequence": 15,
+      "roles": [
+        "Child on Hill"
+      ],
+      "notes": "(as Lysandra De La Haye)"
+    },
+    {
+      "person_imdb_id": "nm0722419",
+      "name": "Earl Rhodes",
+      "sequence": 16,
+      "roles": [
+        "Child on Hill"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1503564",
       "name": "Ed Brennan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0888305",
       "name": "Joseph Van Winkle",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0360269",
       "name": "James Hannah Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0789033",
       "name": "Don Sharp",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1974-05-01",

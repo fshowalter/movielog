@@ -1,54 +1,6 @@
 {
   "imdb_id": "tt0075651",
   "sort_title": "Shock (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0630453",
-      "name": "Daria Nicolodi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dora Baldini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825952",
-      "name": "John Steiner",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bruno Baldini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171484",
-      "name": "David Colin Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711501",
-      "name": "Ivan Rassimov",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Aldo Spidini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000877",
-      "name": "Lamberto Bava",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mover",
-        "Airplane Passenger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -63,41 +15,89 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0630453",
+      "name": "Daria Nicolodi",
+      "sequence": 0,
+      "roles": [
+        "Dora Baldini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0825952",
+      "name": "John Steiner",
+      "sequence": 1,
+      "roles": [
+        "Bruno Baldini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171484",
+      "name": "David Colin Jr.",
+      "sequence": 2,
+      "roles": [
+        "Marco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711501",
+      "name": "Ivan Rassimov",
+      "sequence": 3,
+      "roles": [
+        "Dr. Aldo Spidini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000877",
+      "name": "Lamberto Bava",
+      "sequence": 4,
+      "roles": [
+        "Mover",
+        "Airplane Passenger"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000877",
       "name": "Lamberto Bava",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     },
     {
       "person_imdb_id": "nm0053506",
       "name": "Gianfranco Barberi",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Francesco Barbieri)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story and screenplay) (as Francesco Barbieri)"
     },
     {
       "person_imdb_id": "nm0108988",
       "name": "Alessandro Parenzo",
-      "sequence": 0,
-      "notes": "(story and screenplay) (as Paolo Brigenti)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story and screenplay) (as Paolo Brigenti)"
     },
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
-      "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story and screenplay)"
     },
     {
       "person_imdb_id": "nm0915288",
       "name": "Hillary Waugh",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel: \"The Shadow Guest\") (uncredited)",
-      "group_id": 1
+      "notes": "(novel: \"The Shadow Guest\") (uncredited)"
     }
   ],
   "release_date": "1977-08-12",

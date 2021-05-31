@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0040746",
   "sort_title": "Rope (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0389516",
-      "name": "Dick Hogan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "David Kentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197982",
-      "name": "John Dall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Brandon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335048",
-      "name": "Farley Granger",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Phillip"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263330",
-      "name": "Edith Evanson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225255",
-      "name": "Douglas Dick",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kenneth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151401",
-      "name": "Joan Chandler",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Janet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 6,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "Mr. Kentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171887",
-      "name": "Constance Collier",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Atwater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Rupert Cadell"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0389516",
+      "name": "Dick Hogan",
+      "sequence": 0,
+      "roles": [
+        "David Kentley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197982",
+      "name": "John Dall",
+      "sequence": 1,
+      "roles": [
+        "Brandon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335048",
+      "name": "Farley Granger",
+      "sequence": 2,
+      "roles": [
+        "Phillip"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263330",
+      "name": "Edith Evanson",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225255",
+      "name": "Douglas Dick",
+      "sequence": 4,
+      "roles": [
+        "Kenneth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151401",
+      "name": "Joan Chandler",
+      "sequence": 5,
+      "roles": [
+        "Janet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 6,
+      "roles": [
+        "Mr. Kentley"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0171887",
+      "name": "Constance Collier",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Atwater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 8,
+      "roles": [
+        "Rupert Cadell"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0002025",
       "name": "Hume Cronyn",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adapted by)",
-      "group_id": 0
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0358096",
       "name": "Patrick Hamilton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "notes": "(from the play by)"
     },
     {
       "person_imdb_id": "nm0491306",
       "name": "Arthur Laurents",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1948-08-26",

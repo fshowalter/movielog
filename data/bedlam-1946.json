@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0038343",
   "sort_title": "Bedlam (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Master George Sims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0496819",
-      "name": "Anna Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nell Bowen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396633",
-      "name": "Billy House",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lord Mortimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292219",
-      "name": "Richard Fraser",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Stonemason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894669",
-      "name": "Glen Vernon",
-      "sequence": 4,
-      "notes": "(as Glenn Vernon)",
-      "roles": [
-        "The Gilded Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sidney Long"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730165",
-      "name": "Jason Robards Sr.",
-      "sequence": 6,
-      "notes": "(as Jason Robards)",
-      "roles": [
-        "Oliver Todd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388280",
-      "name": "Leyland Hodgson",
-      "sequence": 7,
-      "notes": "(as Leland Hodgson)",
-      "roles": [
-        "That Devil Wilkes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628536",
-      "name": "Joan Newton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dorothea the Dove"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751131",
-      "name": "Elizabeth Russell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mistress Sims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131985",
-      "name": "Hamilton Camp",
-      "sequence": 13,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Pompey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0733476",
@@ -110,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Master George Sims"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0496819",
+      "name": "Anna Lee",
+      "sequence": 1,
+      "roles": [
+        "Nell Bowen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396633",
+      "name": "Billy House",
+      "sequence": 2,
+      "roles": [
+        "Lord Mortimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292219",
+      "name": "Richard Fraser",
+      "sequence": 3,
+      "roles": [
+        "The Stonemason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894669",
+      "name": "Glen Vernon",
+      "sequence": 4,
+      "roles": [
+        "The Gilded Boy"
+      ],
+      "notes": "(as Glenn Vernon)"
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 5,
+      "roles": [
+        "Sidney Long"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730165",
+      "name": "Jason Robards Sr.",
+      "sequence": 6,
+      "roles": [
+        "Oliver Todd"
+      ],
+      "notes": "(as Jason Robards)"
+    },
+    {
+      "person_imdb_id": "nm0388280",
+      "name": "Leyland Hodgson",
+      "sequence": 7,
+      "roles": [
+        "That Devil Wilkes"
+      ],
+      "notes": "(as Leland Hodgson)"
+    },
+    {
+      "person_imdb_id": "nm0628536",
+      "name": "Joan Newton",
+      "sequence": 8,
+      "roles": [
+        "Dorothea the Dove"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751131",
+      "name": "Elizabeth Russell",
+      "sequence": 9,
+      "roles": [
+        "Mistress Sims"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0389653",
       "name": "William Hogarth",
+      "group": 0,
       "sequence": 0,
-      "notes": "(suggested by The William Hogarth painting Bedlam Plate #8 \"The Rake's Progress\")",
-      "group_id": 0
+      "notes": "(suggested by The William Hogarth painting Bedlam Plate #8 \"The Rake's Progress\")"
     },
     {
       "person_imdb_id": "nm0507932",
       "name": "Val Lewton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as Carlos Keith)",
-      "group_id": 1
+      "notes": "(screenplay) (as Carlos Keith)"
     },
     {
       "person_imdb_id": "nm0733476",
       "name": "Mark Robson",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1946-04-19",

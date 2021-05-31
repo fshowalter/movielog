@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0042546",
   "sort_title": "Harvey (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0285922",
-      "name": "Wallace Ford",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ellis Logfren, The Taxi Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528621",
-      "name": "William H. Lynn",
-      "sequence": 1,
-      "notes": "(as William Lynn)",
-      "roles": [
-        "Judge Omar Gaffney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395067",
-      "name": "Victoria Horne",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Myrtle Mae Simmons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0924964",
-      "name": "Jesse White",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Martin Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445523",
-      "name": "Cecil Kellaway",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. William Chumley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236866",
-      "name": "Charles Drake",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Raymond Sanderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235627",
-      "name": "Peggy Dow",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miss Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401449",
-      "name": "Josephine Hull",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Veta Louise Dowd Simmons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Elwood P. Dowd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117194",
-      "name": "Nana Bryant",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Hazel Chumley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590013",
-      "name": "Grayce Mills",
-      "sequence": 10,
-      "notes": "(as Grace Mills)",
-      "roles": [
-        "Mrs. Ethel Chauvenet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079681",
-      "name": "Clem Bevans",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Herman Shimelplatzer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6172450",
-      "name": "Harvey",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Harvey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180679",
-      "name": "Gino Corrado",
-      "sequence": 13,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Eccentric Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193354",
-      "name": "Jack Curtis",
-      "sequence": 14,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Undetermined Secondary Role"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601287",
-      "name": "Ida Moore",
-      "sequence": 15,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Mrs. McGiff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0915519",
-      "name": "Billy Wayne",
-      "sequence": 16,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Man in Car"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662240",
-      "name": "Fess Parker",
-      "sequence": 31,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Leslie - Chauffeur"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0467396",
@@ -173,34 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0285922",
+      "name": "Wallace Ford",
+      "sequence": 0,
+      "roles": [
+        "Ellis Logfren, The Taxi Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528621",
+      "name": "William H. Lynn",
+      "sequence": 1,
+      "roles": [
+        "Judge Omar Gaffney"
+      ],
+      "notes": "(as William Lynn)"
+    },
+    {
+      "person_imdb_id": "nm0395067",
+      "name": "Victoria Horne",
+      "sequence": 2,
+      "roles": [
+        "Myrtle Mae Simmons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0924964",
+      "name": "Jesse White",
+      "sequence": 3,
+      "roles": [
+        "Martin Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445523",
+      "name": "Cecil Kellaway",
+      "sequence": 4,
+      "roles": [
+        "Dr. William Chumley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236866",
+      "name": "Charles Drake",
+      "sequence": 5,
+      "roles": [
+        "Dr. Raymond Sanderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235627",
+      "name": "Peggy Dow",
+      "sequence": 6,
+      "roles": [
+        "Miss Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401449",
+      "name": "Josephine Hull",
+      "sequence": 7,
+      "roles": [
+        "Veta Louise Dowd Simmons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 8,
+      "roles": [
+        "Elwood P. Dowd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117194",
+      "name": "Nana Bryant",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Hazel Chumley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590013",
+      "name": "Grayce Mills",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Ethel Chauvenet"
+      ],
+      "notes": "(as Grace Mills)"
+    },
+    {
+      "person_imdb_id": "nm0079681",
+      "name": "Clem Bevans",
+      "sequence": 11,
+      "roles": [
+        "Mr. Herman Shimelplatzer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6172450",
+      "name": "Harvey",
+      "sequence": 12,
+      "roles": [
+        "Harvey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180679",
+      "name": "Gino Corrado",
+      "sequence": 13,
+      "roles": [
+        "Eccentric Man"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0193354",
+      "name": "Jack Curtis",
+      "sequence": 14,
+      "roles": [
+        "Undetermined Secondary Role"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0601287",
+      "name": "Ida Moore",
+      "sequence": 15,
+      "roles": [
+        "Mrs. McGiff"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0915519",
+      "name": "Billy Wayne",
+      "sequence": 16,
+      "roles": [
+        "Man in Car"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0153808",
       "name": "Mary Chase",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from the Pulitzer Prize Play by)",
-      "group_id": 0
+      "notes": "(from the Pulitzer Prize Play by)"
     },
     {
       "person_imdb_id": "nm0153808",
       "name": "Mary Chase",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0110958",
       "name": "Oscar Brodney",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0175333",
       "name": "Myles Connolly",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to screenplay) (uncredited)"
     }
   ],
   "release_date": "1950-12-04",

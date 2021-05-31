@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0044533",
   "sort_title": "Deadline - U.S.A. (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ed Hutcheson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000856",
-      "name": "Ethel Barrymore",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Margaret Garrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001375",
-      "name": "Kim Hunter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nora Hutcheson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003225",
-      "name": "Ed Begley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Frank Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828838",
-      "name": "Warren Stevens",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "George Burrows"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829717",
-      "name": "Paul Stewart",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harry Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0300010",
-      "name": "Martin Gabel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tomas Rienzi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0211460",
-      "name": "Joe De Santis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Herman Schmidt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533339",
-      "name": "Joyce Mackenzie",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Katherine Garrison Geary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160287",
-      "name": "Audrey Christie",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Willebrandt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0048443",
-      "name": "Fay Baker",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Alice Garrison Courtney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000822",
-      "name": "Jim Backus",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jim Cleary"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0112218",
@@ -119,17 +9,127 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Ed Hutcheson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000856",
+      "name": "Ethel Barrymore",
+      "sequence": 1,
+      "roles": [
+        "Margaret Garrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001375",
+      "name": "Kim Hunter",
+      "sequence": 2,
+      "roles": [
+        "Nora Hutcheson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003225",
+      "name": "Ed Begley",
+      "sequence": 3,
+      "roles": [
+        "Frank Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828838",
+      "name": "Warren Stevens",
+      "sequence": 4,
+      "roles": [
+        "George Burrows"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829717",
+      "name": "Paul Stewart",
+      "sequence": 5,
+      "roles": [
+        "Harry Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0300010",
+      "name": "Martin Gabel",
+      "sequence": 6,
+      "roles": [
+        "Tomas Rienzi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0211460",
+      "name": "Joe De Santis",
+      "sequence": 7,
+      "roles": [
+        "Herman Schmidt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533339",
+      "name": "Joyce Mackenzie",
+      "sequence": 8,
+      "roles": [
+        "Katherine Garrison Geary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160287",
+      "name": "Audrey Christie",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Willebrandt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0048443",
+      "name": "Fay Baker",
+      "sequence": 10,
+      "roles": [
+        "Alice Garrison Courtney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000822",
+      "name": "Jim Backus",
+      "sequence": 11,
+      "roles": [
+        "Jim Cleary"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1952-03-14",
-  "release_date_notes": "(New York City, New York)",
+  "release_date_notes": "(New York City, New York) (premiere)",
   "countries": [
     "United States"
   ]

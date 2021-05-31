@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0049778",
   "sort_title": "Somebody Up There Likes Me (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rocky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000765",
-      "name": "Pier Angeli",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Norma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0806041",
-      "name": "Everett Sloane",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Irving Cohen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373012",
-      "name": "Eileen Heckart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ma Barbella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000543",
-      "name": "Sal Mineo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Romolo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831905",
-      "name": "Harold J. Stone",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nick Barbella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0120233",
-      "name": "Joseph Buloff",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Benny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925429",
-      "name": "Sammy White",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Whitey Bimstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424516",
-      "name": "Arch Johnson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Heldon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0509294",
-      "name": "Robert P. Lieb",
-      "sequence": 9,
-      "notes": "(as Robert Lieb)",
-      "roles": [
-        "District Attorney Hogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628602",
-      "name": "Theodore Newton",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Athletic Commissioner Edward Eagan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200645",
-      "name": "Ray Danton",
-      "sequence": 42,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Off-Screen Reporter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0936404",
@@ -119,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Rocky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000765",
+      "name": "Pier Angeli",
+      "sequence": 1,
+      "roles": [
+        "Norma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0806041",
+      "name": "Everett Sloane",
+      "sequence": 2,
+      "roles": [
+        "Irving Cohen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373012",
+      "name": "Eileen Heckart",
+      "sequence": 3,
+      "roles": [
+        "Ma Barbella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000543",
+      "name": "Sal Mineo",
+      "sequence": 4,
+      "roles": [
+        "Romolo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0831905",
+      "name": "Harold J. Stone",
+      "sequence": 5,
+      "roles": [
+        "Nick Barbella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0120233",
+      "name": "Joseph Buloff",
+      "sequence": 6,
+      "roles": [
+        "Benny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925429",
+      "name": "Sammy White",
+      "sequence": 7,
+      "roles": [
+        "Whitey Bimstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424516",
+      "name": "Arch Johnson",
+      "sequence": 8,
+      "roles": [
+        "Heldon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0509294",
+      "name": "Robert P. Lieb",
+      "sequence": 9,
+      "roles": [
+        "District Attorney Hogan"
+      ],
+      "notes": "(as Robert Lieb)"
+    },
+    {
+      "person_imdb_id": "nm0628602",
+      "name": "Theodore Newton",
+      "sequence": 10,
+      "roles": [
+        "Athletic Commissioner Edward Eagan"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0499626",
       "name": "Ernest Lehman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0337200",
       "name": "Rocky Graziano",
+      "group": 1,
       "sequence": 0,
-      "notes": "(autobiography)",
-      "group_id": 1
+      "notes": "(autobiography)"
     },
     {
       "person_imdb_id": "nm0053459",
       "name": "Rowland Barber",
-      "sequence": 0,
-      "notes": "(with)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(with)"
     }
   ],
   "release_date": "1956-07-03",

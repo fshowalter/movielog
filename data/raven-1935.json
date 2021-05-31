@@ -1,128 +1,6 @@
 {
   "imdb_id": "tt0026912",
   "sort_title": "Raven (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "(as Karloff)",
-      "roles": [
-        "Edmond Bateman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 1,
-      "notes": "(as Lugosi, Bela Lugosi)",
-      "roles": [
-        "Dr. Richard Vollin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Jerry Halden",
-        "Dr. Jerry Holden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912115",
-      "name": "Irene Ware",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jean Thatcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judge Thatcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153556",
-      "name": "Spencer Charters",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Geoffrey",
-        "Col. Bertram Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183918",
-      "name": "Inez Courtney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mary Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Col. Bertram Grant",
-        "Geoffrey 'Pinky'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0877728",
-      "name": "Maidel Turner",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harriet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201337",
-      "name": "Anne Darling",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Autograph Hound"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321204",
-      "name": "June Gittelson",
-      "sequence": 10,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Autograph Hound"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370372",
-      "name": "Joe Haworth",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Drug Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908775",
-      "name": "Mary Wallace",
-      "sequence": 12,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Autograph Hound"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0484645",
@@ -131,69 +9,191 @@
       "notes": "(as Louis Friedlander)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Edmond Bateman"
+      ],
+      "notes": "(as Karloff)"
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 1,
+      "roles": [
+        "Dr. Richard Vollin"
+      ],
+      "notes": "(as Lugosi, Bela Lugosi)"
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 2,
+      "roles": [
+        "Dr. Jerry Halden",
+        "Dr. Jerry Holden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912115",
+      "name": "Irene Ware",
+      "sequence": 3,
+      "roles": [
+        "Jean Thatcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 4,
+      "roles": [
+        "Judge Thatcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153556",
+      "name": "Spencer Charters",
+      "sequence": 5,
+      "roles": [
+        "Geoffrey",
+        "Col. Bertram Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183918",
+      "name": "Inez Courtney",
+      "sequence": 6,
+      "roles": [
+        "Mary Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 7,
+      "roles": [
+        "Col. Bertram Grant",
+        "Geoffrey 'Pinky'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0877728",
+      "name": "Maidel Turner",
+      "sequence": 8,
+      "roles": [
+        "Harriet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201337",
+      "name": "Anne Darling",
+      "sequence": 9,
+      "roles": [
+        "Autograph Hound"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0321204",
+      "name": "June Gittelson",
+      "sequence": 10,
+      "roles": [
+        "Autograph Hound"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0370372",
+      "name": "Joe Haworth",
+      "sequence": 11,
+      "roles": [
+        "Drug Clerk"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0908775",
+      "name": "Mary Wallace",
+      "sequence": 12,
+      "roles": [
+        "Autograph Hound"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(poem)",
-      "group_id": 0
+      "notes": "(poem)"
     },
     {
       "person_imdb_id": "nm0091200",
       "name": "David Boehm",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0256880",
       "name": "Guy Endore",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 2
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0258005",
       "name": "Florence Enright",
+      "group": 3,
       "sequence": 0,
-      "notes": "(dialogue) (uncredited)",
-      "group_id": 3
+      "notes": "(dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0528351",
       "name": "John Lynch",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 4
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0548788",
       "name": "Clarence Marks",
+      "group": 5,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 5
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0770196",
       "name": "Dore Schary",
+      "group": 6,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 6
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0799848",
       "name": "Michael L. Simmons",
+      "group": 7,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 7
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0876432",
       "name": "Jim Tully",
+      "group": 8,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 8
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1935-07-08",

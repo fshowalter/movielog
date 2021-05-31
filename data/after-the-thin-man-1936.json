@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0027260",
   "sort_title": "After the Thin Man (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nick Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "David Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484748",
-      "name": "Elissa Landi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Selma Landis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130407",
-      "name": "Joseph Calleia",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "'Dancer'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707771",
-      "name": "Jessie Ralph",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Aunt Katherine Forrest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550701",
-      "name": "Alan Marshal",
-      "sequence": 6,
-      "notes": "(as Alan Marshall)",
-      "roles": [
-        "Robert Landis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366547",
-      "name": "Teddy Hart",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Casper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0505249",
-      "name": "Sam Levene",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Police Lt. Abrams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0802325",
-      "name": "Penny Singleton",
-      "sequence": 9,
-      "notes": "(as Dorothy McNulty)",
-      "roles": [
-        "Polly Byrnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492406",
-      "name": "William Law",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lum Kee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0958345",
-      "name": "George Zucco",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Kammer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Phil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1208817",
-      "name": "Asta",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Asta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3429692",
-      "name": "Mrs. Asta",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mrs. Asta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371214",
-      "name": "Sam Hayes",
-      "sequence": 60,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "First News Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0886754",
@@ -155,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Nick Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Nora Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 2,
+      "roles": [
+        "David Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484748",
+      "name": "Elissa Landi",
+      "sequence": 3,
+      "roles": [
+        "Selma Landis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130407",
+      "name": "Joseph Calleia",
+      "sequence": 4,
+      "roles": [
+        "'Dancer'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707771",
+      "name": "Jessie Ralph",
+      "sequence": 5,
+      "roles": [
+        "Aunt Katherine Forrest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550701",
+      "name": "Alan Marshal",
+      "sequence": 6,
+      "roles": [
+        "Robert Landis"
+      ],
+      "notes": "(as Alan Marshall)"
+    },
+    {
+      "person_imdb_id": "nm0366547",
+      "name": "Teddy Hart",
+      "sequence": 7,
+      "roles": [
+        "Casper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0505249",
+      "name": "Sam Levene",
+      "sequence": 8,
+      "roles": [
+        "Police Lt. Abrams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0802325",
+      "name": "Penny Singleton",
+      "sequence": 9,
+      "roles": [
+        "Polly Byrnes"
+      ],
+      "notes": "(as Dorothy McNulty)"
+    },
+    {
+      "person_imdb_id": "nm0492406",
+      "name": "William Law",
+      "sequence": 10,
+      "roles": [
+        "Lum Kee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0958345",
+      "name": "George Zucco",
+      "sequence": 11,
+      "roles": [
+        "Dr. Kammer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 12,
+      "roles": [
+        "Phil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1208817",
+      "name": "Asta",
+      "sequence": 13,
+      "roles": [
+        "Asta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3429692",
+      "name": "Mrs. Asta",
+      "sequence": 14,
+      "roles": [
+        "Mrs. Asta"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0329304",
       "name": "Frances Goodrich",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0352443",
       "name": "Albert Hackett",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0358591",
       "name": "Dashiell Hammett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the story by)",
-      "group_id": 1
+      "notes": "(from the story by)"
     }
   ],
   "release_date": "1936-12-25",

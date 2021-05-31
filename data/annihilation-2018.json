@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt2798920",
   "sort_title": "Annihilation (2018)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000204",
-      "name": "Natalie Portman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938950",
-      "name": "Benedict Wong",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lomax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4420495",
-      "name": "Sonoya Mizuno",
-      "sequence": 2,
-      "notes": "(Med Student)",
-      "roles": [
-        "Humanoid & Katie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1408543",
-      "name": "David Gyasi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Daniel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1209966",
-      "name": "Oscar Isaac",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1134945",
-      "name": "John Schwab",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Paramedic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000492",
-      "name": "Jennifer Jason Leigh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr Ventress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1752221",
-      "name": "Gina Rodriguez",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Anya Thorensen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637259",
-      "name": "Tuva Novotny",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cass Sheppard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1935086",
-      "name": "Tessa Thompson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Josie Radek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371363",
-      "name": "Sammy Hayman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mayer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7397928",
-      "name": "Josh Danford",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Shelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm9631942",
-      "name": "Kristen McGarrity",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Lena Double"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307497",
@@ -128,20 +9,139 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000204",
+      "name": "Natalie Portman",
+      "sequence": 0,
+      "roles": [
+        "Lena"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938950",
+      "name": "Benedict Wong",
+      "sequence": 1,
+      "roles": [
+        "Lomax"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4420495",
+      "name": "Sonoya Mizuno",
+      "sequence": 2,
+      "roles": [
+        "Humanoid & Katie"
+      ],
+      "notes": "(Med Student)"
+    },
+    {
+      "person_imdb_id": "nm1408543",
+      "name": "David Gyasi",
+      "sequence": 3,
+      "roles": [
+        "Daniel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1209966",
+      "name": "Oscar Isaac",
+      "sequence": 4,
+      "roles": [
+        "Kane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1134945",
+      "name": "John Schwab",
+      "sequence": 5,
+      "roles": [
+        "Paramedic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000492",
+      "name": "Jennifer Jason Leigh",
+      "sequence": 6,
+      "roles": [
+        "Dr Ventress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1752221",
+      "name": "Gina Rodriguez",
+      "sequence": 7,
+      "roles": [
+        "Anya Thorensen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637259",
+      "name": "Tuva Novotny",
+      "sequence": 8,
+      "roles": [
+        "Cass Sheppard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1935086",
+      "name": "Tessa Thompson",
+      "sequence": 9,
+      "roles": [
+        "Josie Radek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371363",
+      "name": "Sammy Hayman",
+      "sequence": 10,
+      "roles": [
+        "Mayer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7397928",
+      "name": "Josh Danford",
+      "sequence": 11,
+      "roles": [
+        "Shelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm9631942",
+      "name": "Kristen McGarrity",
+      "sequence": 12,
+      "roles": [
+        "Lena Double"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0307497",
       "name": "Alex Garland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm4554159",
       "name": "Jeff VanderMeer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "2018-02-13",

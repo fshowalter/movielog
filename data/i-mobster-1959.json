@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0051760",
   "sort_title": "I Mobster (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0168215",
-      "name": "Steve Cochran",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Sante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0579820",
-      "name": "Lita Milan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Teresa Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833865",
-      "name": "Robert Strauss",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Black Frankie Udino"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522767",
-      "name": "Celia Lovsky",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Sante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820506",
-      "name": "Lili St. Cyr",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lili St. Cyr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109612",
-      "name": "John Brinkley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ernie Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Paul Moran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0896035",
-      "name": "Yvette Vickers",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Blonde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314947",
-      "name": "Frank Gerstle",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "District Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790171",
-      "name": "Robert Shayne",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Senator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144082",
-      "name": "Wally Cassell",
-      "sequence": 10,
-      "notes": "(adult)",
-      "roles": [
-        "Cherry Nose Sirago"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816129",
-      "name": "Jeri Southern",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602259",
-      "name": "Brad Morrow",
-      "sequence": 31,
-      "notes": "(young) (uncredited)",
-      "roles": [
-        "Cherry Nose Sirago"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -128,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0168215",
+      "name": "Steve Cochran",
+      "sequence": 0,
+      "roles": [
+        "Joe Sante"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0579820",
+      "name": "Lita Milan",
+      "sequence": 1,
+      "roles": [
+        "Teresa Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833865",
+      "name": "Robert Strauss",
+      "sequence": 2,
+      "roles": [
+        "Black Frankie Udino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522767",
+      "name": "Celia Lovsky",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Sante"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820506",
+      "name": "Lili St. Cyr",
+      "sequence": 4,
+      "roles": [
+        "Lili St. Cyr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109612",
+      "name": "John Brinkley",
+      "sequence": 5,
+      "roles": [
+        "Ernie Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 6,
+      "roles": [
+        "Paul Moran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896035",
+      "name": "Yvette Vickers",
+      "sequence": 7,
+      "roles": [
+        "The Blonde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314947",
+      "name": "Frank Gerstle",
+      "sequence": 8,
+      "roles": [
+        "District Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790171",
+      "name": "Robert Shayne",
+      "sequence": 9,
+      "roles": [
+        "Senator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144082",
+      "name": "Wally Cassell",
+      "sequence": 10,
+      "roles": [
+        "Cherry Nose Sirago"
+      ],
+      "notes": "(adult)"
+    },
+    {
+      "person_imdb_id": "nm0816129",
+      "name": "Jeri Southern",
+      "sequence": 11,
+      "roles": [
+        "Singer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0810785",
       "name": "Joseph Hilton Smyth",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"I, Mobster\")",
-      "group_id": 0
+      "notes": "(novel \"I, Mobster\")"
     },
     {
       "person_imdb_id": "nm0279795",
       "name": "Steve Fisher",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1959-01-23",

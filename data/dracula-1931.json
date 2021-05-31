@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0021814",
   "sort_title": "Dracula (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Count Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151377",
-      "name": "Helen Chandler",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543115",
-      "name": "David Manners",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "John Harker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0296859",
-      "name": "Dwight Frye",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Renfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888000",
-      "name": "Edward Van Sloan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Van Helsing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0120557",
-      "name": "Herbert Bunston",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doctor Seward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0196596",
-      "name": "Frances Dade",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822061",
-      "name": "Joan Standing",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314699",
-      "name": "Charles K. Gerrard",
-      "sequence": 8,
-      "notes": "(as Charles Gerrard)",
-      "roles": [
-        "Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115218",
-      "name": "Tod Browning",
-      "sequence": 15,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Harbormaster"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -107,76 +15,159 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Count Dracula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151377",
+      "name": "Helen Chandler",
+      "sequence": 1,
+      "roles": [
+        "Mina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543115",
+      "name": "David Manners",
+      "sequence": 2,
+      "roles": [
+        "John Harker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0296859",
+      "name": "Dwight Frye",
+      "sequence": 3,
+      "roles": [
+        "Renfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888000",
+      "name": "Edward Van Sloan",
+      "sequence": 4,
+      "roles": [
+        "Van Helsing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0120557",
+      "name": "Herbert Bunston",
+      "sequence": 5,
+      "roles": [
+        "Doctor Seward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0196596",
+      "name": "Frances Dade",
+      "sequence": 6,
+      "roles": [
+        "Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822061",
+      "name": "Joan Standing",
+      "sequence": 7,
+      "roles": [
+        "Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314699",
+      "name": "Charles K. Gerrard",
+      "sequence": 8,
+      "roles": [
+        "Martin"
+      ],
+      "notes": "(as Charles Gerrard)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0831290",
       "name": "Bram Stoker",
+      "group": 0,
       "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
+      "notes": "(by)"
     },
     {
       "person_imdb_id": "nm0213019",
       "name": "Hamilton Deane",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play adapted by)",
-      "group_id": 1
+      "notes": "(from the play adapted by)"
     },
     {
       "person_imdb_id": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 0,
-      "notes": "(from the play adapted by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from the play adapted by)"
     },
     {
       "person_imdb_id": "nm0287124",
       "name": "Garrett Fort",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play script)",
-      "group_id": 2
+      "notes": "(play script)"
     },
     {
       "person_imdb_id": "nm0111313",
       "name": "Louis Bromfield",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 3
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0115218",
       "name": "Tod Browning",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 4
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0169606",
       "name": "Max Cohen",
+      "group": 5,
       "sequence": 0,
-      "notes": "(titles) (uncredited)",
-      "group_id": 5
+      "notes": "(titles) (uncredited)"
     },
     {
       "person_imdb_id": "nm0614225",
       "name": "Dudley Murphy",
+      "group": 6,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 6
+      "notes": "(additional dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0826873",
       "name": "Frederick Stephani",
+      "group": 7,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 7
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0828574",
       "name": "Louis Stevens",
+      "group": 8,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 8
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1931-02-09",

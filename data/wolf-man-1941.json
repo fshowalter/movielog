@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0034398",
   "sort_title": "Wolf Man (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001033",
-      "name": "Lon Chaney Jr.",
-      "sequence": 0,
-      "notes": "(as Lon Chaney)",
-      "roles": [
-        "Larry Talbot - The Wolf Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sir John Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929925",
-      "name": "Warren William",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Lloyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000897",
-      "name": "Ralph Bellamy",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Colonel Paul Montford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461549",
-      "name": "Patric Knowles",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Frank Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bela"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653642",
-      "name": "Maria Ouspenskaya",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Maleva"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030166",
-      "name": "Evelyn Ankers",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gwen Conliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0449858",
-      "name": "J.M. Kerrigan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Charles Conliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375614",
-      "name": "Fay Helm",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jenny Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367516",
-      "name": "Forrester Harvey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Twiddle"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0905729",
@@ -110,13 +9,115 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 0,
+      "roles": [
+        "Sir John Talbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929925",
+      "name": "Warren William",
+      "sequence": 1,
+      "roles": [
+        "Dr. Lloyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000897",
+      "name": "Ralph Bellamy",
+      "sequence": 2,
+      "roles": [
+        "Colonel Montford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461549",
+      "name": "Patric Knowles",
+      "sequence": 3,
+      "roles": [
+        "Frank Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 4,
+      "roles": [
+        "Bela"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653642",
+      "name": "Maria Ouspenskaya",
+      "sequence": 5,
+      "roles": [
+        "Maleva"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030166",
+      "name": "Evelyn Ankers",
+      "sequence": 6,
+      "roles": [
+        "Gwen Conliffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0449858",
+      "name": "J.M. Kerrigan",
+      "sequence": 7,
+      "roles": [
+        "Charles Conliffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375614",
+      "name": "Fay Helm",
+      "sequence": 8,
+      "roles": [
+        "Jenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367516",
+      "name": "Forrester Harvey",
+      "sequence": 9,
+      "roles": [
+        "Twiddle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001033",
+      "name": "Lon Chaney Jr.",
+      "sequence": 10,
+      "roles": [
+        "Lawrence Talbot",
+        "The Wolf Man"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1941-12-09",

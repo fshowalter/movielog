@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0069281",
   "sort_title": "Sleuth (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000059",
-      "name": "Laurence Olivier",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Andrew Wyke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000323",
-      "name": "Michael Caine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Milo Tindle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0147250",
-      "name": "Alec Cawthorne",
-      "sequence": 2,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Inspector Doppler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560064",
-      "name": "John Matthews",
-      "sequence": 3,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Detective Sergeant Tarrant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151920",
-      "name": "Eve Channing",
-      "sequence": 4,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Marguerite Wyke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0553117",
-      "name": "Teddy Martin",
-      "sequence": 5,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Police Constable Higgs"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000581",
@@ -65,20 +9,76 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000059",
+      "name": "Laurence Olivier",
+      "sequence": 0,
+      "roles": [
+        "Andrew Wyke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000323",
+      "name": "Michael Caine",
+      "sequence": 1,
+      "roles": [
+        "Milo Tindle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0147250",
+      "name": "Alec Cawthorne",
+      "sequence": 2,
+      "roles": [
+        "Inspector Doppler"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0560064",
+      "name": "John Matthews",
+      "sequence": 3,
+      "roles": [
+        "Detective Sergeant Tarrant"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0151920",
+      "name": "Eve Channing",
+      "sequence": 4,
+      "roles": [
+        "Marguerite Wyke"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0553117",
+      "name": "Teddy Martin",
+      "sequence": 5,
+      "roles": [
+        "Police Constable Higgs"
+      ],
+      "notes": "(creditOnly)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1972-12-10",

@@ -1,106 +1,6 @@
 {
   "imdb_id": "tt0075677",
   "sort_title": "Amsterdam Kill (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "(as Law Bat Mai Cham)",
-      "roles": [
-        "Larry Quinlan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250724",
-      "name": "Richard Egan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ridgeway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000558",
-      "name": "Leslie Nielsen",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Riley Knight"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226947",
-      "name": "Bradford Dillman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Howard Odums"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525601",
-      "name": "Keye Luke",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chung Wei"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156475",
-      "name": "George Cheung",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jimmy Wong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151080",
-      "name": "Sing Chen",
-      "sequence": 6,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0504998",
-      "name": "Stephen Leung",
-      "sequence": 7,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0150807",
-      "name": "Billy Chan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "[Extra]"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0482580",
-      "name": "Ching-Ying Lam",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0950707",
-      "name": "Biao Yuen",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0950757",
-      "name": "Wah Yuen",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0167195",
@@ -109,27 +9,127 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Larry Quinlan"
+      ],
+      "notes": "(as Law Bat Mai Cham)"
+    },
+    {
+      "person_imdb_id": "nm0250724",
+      "name": "Richard Egan",
+      "sequence": 1,
+      "roles": [
+        "Ridgeway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000558",
+      "name": "Leslie Nielsen",
+      "sequence": 2,
+      "roles": [
+        "Riley Knight"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226947",
+      "name": "Bradford Dillman",
+      "sequence": 3,
+      "roles": [
+        "Howard Odums"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525601",
+      "name": "Keye Luke",
+      "sequence": 4,
+      "roles": [
+        "Chung Wei"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156475",
+      "name": "George Cheung",
+      "sequence": 5,
+      "roles": [
+        "Jimmy Wong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151080",
+      "name": "Sing Chen",
+      "sequence": 6,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504998",
+      "name": "Stephen Leung",
+      "sequence": 7,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0150807",
+      "name": "Billy Chan",
+      "sequence": 8,
+      "roles": [
+        "[Extra]"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482580",
+      "name": "Ching-Ying Lam",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0950707",
+      "name": "Biao Yuen",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0950757",
+      "name": "Wah Yuen",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0167195",
       "name": "Robert Clouse",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0853998",
       "name": "Gregory Teifer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0853998",
       "name": "Gregory Teifer",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1977-10-20",

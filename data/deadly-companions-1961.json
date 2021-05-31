@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0054795",
   "sort_title": "Deadly Companions (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000058",
-      "name": "Maureen O'Hara",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Kit Tildon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001417",
-      "name": "Brian Keith",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Yellowleg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168215",
-      "name": "Steve Cochran",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Billy Keplinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932629",
-      "name": "Chill Wills",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Turk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001510",
-      "name": "Strother Martin",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Parson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942926",
-      "name": "Will Wright",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doctor Acton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0510181",
-      "name": "James O'Hara",
-      "sequence": 6,
-      "notes": "(as Jim O'Hara)",
-      "roles": [
-        "Cal, General Store"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640573",
-      "name": "Peter O'Crotty",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mayor of Hila City"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891145",
-      "name": "Billy Vaughan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mead Tildon Jr."
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001603",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000058",
+      "name": "Maureen O'Hara",
+      "sequence": 0,
+      "roles": [
+        "Kit Tildon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001417",
+      "name": "Brian Keith",
+      "sequence": 1,
+      "roles": [
+        "Yellowleg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168215",
+      "name": "Steve Cochran",
+      "sequence": 2,
+      "roles": [
+        "Billy Keplinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932629",
+      "name": "Chill Wills",
+      "sequence": 3,
+      "roles": [
+        "Turk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001510",
+      "name": "Strother Martin",
+      "sequence": 4,
+      "roles": [
+        "Parson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942926",
+      "name": "Will Wright",
+      "sequence": 5,
+      "roles": [
+        "Doctor Acton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0510181",
+      "name": "James O'Hara",
+      "sequence": 6,
+      "roles": [
+        "Cal, General Store"
+      ],
+      "notes": "(as Jim O'Hara)"
+    },
+    {
+      "person_imdb_id": "nm0640573",
+      "name": "Peter O'Crotty",
+      "sequence": 7,
+      "roles": [
+        "Mayor of Hila City"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891145",
+      "name": "Billy Vaughan",
+      "sequence": 8,
+      "roles": [
+        "Mead Tildon Jr."
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0281520",
       "name": "Albert Sidney Fleischman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as A.S. Fleischman)",
-      "group_id": 0
+      "notes": "(screenplay) (as A.S. Fleischman)"
     },
     {
       "person_imdb_id": "nm0281520",
       "name": "Albert Sidney Fleischman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Deadly Companions\") (as A.S. Fleischman)",
-      "group_id": 1
+      "notes": "(novel \"The Deadly Companions\") (as A.S. Fleischman)"
     }
   ],
   "release_date": "1961-06-06",

@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0045816",
   "sort_title": "Girl Who Had Everything (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000072",
-      "name": "Elizabeth Taylor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jean Latimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0482881",
-      "name": "Fernando Lamas",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Victor Y. Raimondi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Steve Latimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949574",
-      "name": "Gig Young",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vance Court"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926235",
-      "name": "James Whitmore",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Charles 'Chico' Menlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123699",
-      "name": "Robert Burton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John Ashmond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907553",
-      "name": "Bill Walker",
-      "sequence": 6,
-      "notes": "(as William Walker)",
-      "roles": [
-        "Julian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588211",
-      "name": "Dean Miller",
-      "sequence": 30,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0861703",
@@ -83,27 +9,92 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000072",
+      "name": "Elizabeth Taylor",
+      "sequence": 0,
+      "roles": [
+        "Jean Latimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482881",
+      "name": "Fernando Lamas",
+      "sequence": 1,
+      "roles": [
+        "Victor Y. Raimondi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 2,
+      "roles": [
+        "Steve Latimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949574",
+      "name": "Gig Young",
+      "sequence": 3,
+      "roles": [
+        "Vance Court"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926235",
+      "name": "James Whitmore",
+      "sequence": 4,
+      "roles": [
+        "Charles 'Chico' Menlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123699",
+      "name": "Robert Burton",
+      "sequence": 5,
+      "roles": [
+        "John Ashmond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907553",
+      "name": "Bill Walker",
+      "sequence": 6,
+      "roles": [
+        "Julian"
+      ],
+      "notes": "(as William Walker)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0169883",
       "name": "Art Cohn",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0533102",
       "name": "Willard Mack",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 1
+      "notes": "(play) (uncredited)"
     },
     {
       "person_imdb_id": "nm0820700",
       "name": "Adela Rogers St. Johns",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"A Free Soul\")",
-      "group_id": 2
+      "notes": "(novel \"A Free Soul\")"
     }
   ],
   "release_date": "1953-03-27",

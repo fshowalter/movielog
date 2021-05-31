@@ -1,144 +1,6 @@
 {
   "imdb_id": "tt0058461",
   "sort_title": "Fistful of Dollars (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000142",
-      "name": "Clint Eastwood",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0462367",
-      "name": "Marianne Koch",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Marisol"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002231",
-      "name": "Gian Maria Volont\u00e8",
-      "sequence": 2,
-      "notes": "(as John Wells, Johnny Wels)",
-      "roles": [
-        "Ram\u00f3n Rojo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525742",
-      "name": "Wolfgang Lukschy",
-      "sequence": 3,
-      "notes": "(as W. Lukschy)",
-      "roles": [
-        "John Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750482",
-      "name": "Sieghardt Rupp",
-      "sequence": 4,
-      "notes": "(as S. Rupp)",
-      "roles": [
-        "Esteban Rojo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250905",
-      "name": "Joseph Egger",
-      "sequence": 5,
-      "notes": "(as Joe Edger)",
-      "roles": [
-        "Piripero"
-      ]
-    },
-    {
-      "person_imdb_id": "nm8746554",
-      "name": "Antonio Prieto",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Don Benito Rojo",
-        "Don Miguel Rojo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130952",
-      "name": "Jos\u00e9 Calvo",
-      "sequence": 7,
-      "notes": "(as Jose Calvo)",
-      "roles": [
-        "Silvanito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0523597",
-      "name": "Margarita Lozano",
-      "sequence": 8,
-      "notes": "(as Margherita Lozano)",
-      "roles": [
-        "Consuelo Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554607",
-      "name": "Daniel Mart\u00edn",
-      "sequence": 9,
-      "notes": "(as Daniel Martin)",
-      "roles": [
-        "Juli\u00e1n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824934",
-      "name": "Benito Stefanelli",
-      "sequence": 10,
-      "notes": "(as Benny Reeves)",
-      "roles": [
-        "Rubio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103828",
-      "name": "Mario Brega",
-      "sequence": 11,
-      "notes": "(as Richard Stuyvesant)",
-      "roles": [
-        "Chico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139206",
-      "name": "Bruno Carotenuto",
-      "sequence": 12,
-      "notes": "(as Carol Brown)",
-      "roles": [
-        "Antonio Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0759757",
-      "name": "Aldo Sambrell",
-      "sequence": 13,
-      "notes": "(as Aldo Sambreli)",
-      "roles": [
-        "Rojo gang member"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856675",
-      "name": "Peter Tevis",
-      "sequence": 36,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "The Balladeer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001466",
@@ -147,90 +9,219 @@
       "notes": "(as Bob Robertson)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000142",
+      "name": "Clint Eastwood",
+      "sequence": 0,
+      "roles": [
+        "Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0462367",
+      "name": "Marianne Koch",
+      "sequence": 1,
+      "roles": [
+        "Marisol"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002231",
+      "name": "Gian Maria Volont\u00e8",
+      "sequence": 2,
+      "roles": [
+        "Ram\u00f3n Rojo"
+      ],
+      "notes": "(as John Wells, Johnny Wels)"
+    },
+    {
+      "person_imdb_id": "nm0525742",
+      "name": "Wolfgang Lukschy",
+      "sequence": 3,
+      "roles": [
+        "John Baxter"
+      ],
+      "notes": "(as W. Lukschy)"
+    },
+    {
+      "person_imdb_id": "nm0750482",
+      "name": "Sieghardt Rupp",
+      "sequence": 4,
+      "roles": [
+        "Esteban Rojo"
+      ],
+      "notes": "(as S. Rupp)"
+    },
+    {
+      "person_imdb_id": "nm0250905",
+      "name": "Joseph Egger",
+      "sequence": 5,
+      "roles": [
+        "Piripero"
+      ],
+      "notes": "(as Joe Edger)"
+    },
+    {
+      "person_imdb_id": "nm8746554",
+      "name": "Antonio Prieto",
+      "sequence": 6,
+      "roles": [
+        "Don Benito Rojo",
+        "Don Miguel Rojo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130952",
+      "name": "Jos\u00e9 Calvo",
+      "sequence": 7,
+      "roles": [
+        "Silvanito"
+      ],
+      "notes": "(as Jose Calvo)"
+    },
+    {
+      "person_imdb_id": "nm0523597",
+      "name": "Margarita Lozano",
+      "sequence": 8,
+      "roles": [
+        "Consuelo Baxter"
+      ],
+      "notes": "(as Margherita Lozano)"
+    },
+    {
+      "person_imdb_id": "nm0554607",
+      "name": "Daniel Mart\u00edn",
+      "sequence": 9,
+      "roles": [
+        "Juli\u00e1n"
+      ],
+      "notes": "(as Daniel Martin)"
+    },
+    {
+      "person_imdb_id": "nm0824934",
+      "name": "Benito Stefanelli",
+      "sequence": 10,
+      "roles": [
+        "Rubio"
+      ],
+      "notes": "(as Benny Reeves)"
+    },
+    {
+      "person_imdb_id": "nm0103828",
+      "name": "Mario Brega",
+      "sequence": 11,
+      "roles": [
+        "Chico"
+      ],
+      "notes": "(as Richard Stuyvesant)"
+    },
+    {
+      "person_imdb_id": "nm0139206",
+      "name": "Bruno Carotenuto",
+      "sequence": 12,
+      "roles": [
+        "Antonio Baxter"
+      ],
+      "notes": "(as Carol Brown)"
+    },
+    {
+      "person_imdb_id": "nm0759757",
+      "name": "Aldo Sambrell",
+      "sequence": 13,
+      "roles": [
+        "Rojo gang member"
+      ],
+      "notes": "(as Aldo Sambreli)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0093501",
       "name": "Adriano Bolzoni",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm8800791",
       "name": "Mark Lowell",
-      "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0146033",
       "name": "V\u00edctor Andr\u00e9s Catena",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0146033",
       "name": "V\u00edctor Andr\u00e9s Catena",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0173549",
       "name": "Jaime Comas Gil",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000041",
       "name": "Akira Kurosawa",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay \"Yojimbo\")",
-      "group_id": 2
+      "notes": "(screenplay \"Yojimbo\")"
     },
     {
       "person_imdb_id": "nm0223964",
       "name": "Fernando Di Leo",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 3
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0452878",
       "name": "Ry\u00fbz\u00f4 Kikushima",
+      "group": 4,
       "sequence": 0,
-      "notes": "(screenplay \"Yojimbo\")",
-      "group_id": 4
+      "notes": "(screenplay \"Yojimbo\")"
     },
     {
       "person_imdb_id": "nm0856319",
       "name": "Duccio Tessari",
+      "group": 5,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 5
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0884547",
       "name": "Tonino Valerii",
+      "group": 6,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 6
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1964-09-12",

@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0036377",
   "sort_title": "Song of Bernadette (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0264278",
-      "name": "William Eythe",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Antoine Nicolau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001948",
-      "name": "Charles Bickford",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Father Peyramale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Prosecutor Vital Dutour"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002011",
-      "name": "Lee J. Cobb",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Dozous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178066",
-      "name": "Gladys Cooper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sister Marie Therese Vauzous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720843",
-      "name": "Anne Revere",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Louise Soubirous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092129",
-      "name": "Roman Bohnen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fran\u00e7ois Soubirous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027156",
-      "name": "Mary Anderson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jeanne Abadie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605685",
-      "name": "Patricia Morison",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Empress Eugenie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0558434",
-      "name": "Aubrey Mather",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mayor Lacade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0227644",
-      "name": "Charles Dingle",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jacomet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057121",
-      "name": "Edith Barrett",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Croisine Bouhouhorts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750079",
-      "name": "Sig Ruman",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Louis Bouriette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0951063",
-      "name": "Blanche Yurka",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Aunt Bernarde Casterot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910222",
-      "name": "Ermadean Walters",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Marie Soubirous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197950",
-      "name": "Marcel Dalio",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Callet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003124",
-      "name": "Pedro de Cordoba",
-      "sequence": 16,
-      "notes": "(as Pedro De Cordoba)",
-      "roles": [
-        "Dr. LeCramps"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Emperor Louis Napoleon III"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428354",
-      "name": "Jennifer Jones",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Bernadette Soubirous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219593",
-      "name": "Jo-Carroll Dennison",
-      "sequence": 45,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Young Nun"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0454771",
@@ -191,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0264278",
+      "name": "William Eythe",
+      "sequence": 0,
+      "roles": [
+        "Antoine Nicolau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001948",
+      "name": "Charles Bickford",
+      "sequence": 1,
+      "roles": [
+        "Father Peyramale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Prosecutor Vital Dutour"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002011",
+      "name": "Lee J. Cobb",
+      "sequence": 3,
+      "roles": [
+        "Dr. Dozous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178066",
+      "name": "Gladys Cooper",
+      "sequence": 4,
+      "roles": [
+        "Sister Marie Therese Vauzous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720843",
+      "name": "Anne Revere",
+      "sequence": 5,
+      "roles": [
+        "Louise Soubirous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092129",
+      "name": "Roman Bohnen",
+      "sequence": 6,
+      "roles": [
+        "Fran\u00e7ois Soubirous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027156",
+      "name": "Mary Anderson",
+      "sequence": 7,
+      "roles": [
+        "Jeanne Abadie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605685",
+      "name": "Patricia Morison",
+      "sequence": 8,
+      "roles": [
+        "Empress Eugenie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0558434",
+      "name": "Aubrey Mather",
+      "sequence": 9,
+      "roles": [
+        "Mayor Lacade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0227644",
+      "name": "Charles Dingle",
+      "sequence": 10,
+      "roles": [
+        "Jacomet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057121",
+      "name": "Edith Barrett",
+      "sequence": 11,
+      "roles": [
+        "Croisine Bouhouhorts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750079",
+      "name": "Sig Ruman",
+      "sequence": 12,
+      "roles": [
+        "Louis Bouriette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0951063",
+      "name": "Blanche Yurka",
+      "sequence": 13,
+      "roles": [
+        "Aunt Bernarde Casterot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910222",
+      "name": "Ermadean Walters",
+      "sequence": 14,
+      "roles": [
+        "Marie Soubirous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197950",
+      "name": "Marcel Dalio",
+      "sequence": 15,
+      "roles": [
+        "Callet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003124",
+      "name": "Pedro de Cordoba",
+      "sequence": 16,
+      "roles": [
+        "Dr. LeCramps"
+      ],
+      "notes": "(as Pedro De Cordoba)"
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 17,
+      "roles": [
+        "Emperor Louis Napoleon III"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428354",
+      "name": "Jennifer Jones",
+      "sequence": 18,
+      "roles": [
+        "Bernadette"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0780833",
       "name": "George Seaton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0921268",
       "name": "Franz Werfel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1943-12-21",

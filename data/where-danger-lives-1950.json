@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0043131",
   "sort_title": "Where Danger Lives (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jeff Cameron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0231409",
-      "name": "Faith Domergue",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Margo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. Lannington"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001577",
-      "name": "Maureen O'Sullivan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Julie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447405",
-      "name": "Charles Kemper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Police Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241589",
-      "name": "Ralph Dumke",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Klauber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396633",
-      "name": "Billy House",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Bogardus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788288",
-      "name": "Harry Shannon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Maynard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888349",
-      "name": "Philip Van Zandt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Milo DeLong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446438",
-      "name": "Jack Kelly",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dr. Mullenbach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922203",
-      "name": "Lillian West",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Bogardus"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0268513",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Jeff Cameron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0231409",
+      "name": "Faith Domergue",
+      "sequence": 1,
+      "roles": [
+        "Margo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 2,
+      "roles": [
+        "Mr. Lannington"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001577",
+      "name": "Maureen O'Sullivan",
+      "sequence": 3,
+      "roles": [
+        "Julie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447405",
+      "name": "Charles Kemper",
+      "sequence": 4,
+      "roles": [
+        "Police Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241589",
+      "name": "Ralph Dumke",
+      "sequence": 5,
+      "roles": [
+        "Klauber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396633",
+      "name": "Billy House",
+      "sequence": 6,
+      "roles": [
+        "Mr. Bogardus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0788288",
+      "name": "Harry Shannon",
+      "sequence": 7,
+      "roles": [
+        "Dr. Maynard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888349",
+      "name": "Philip Van Zandt",
+      "sequence": 8,
+      "roles": [
+        "Milo DeLong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446438",
+      "name": "Jack Kelly",
+      "sequence": 9,
+      "roles": [
+        "Dr. Mullenbach"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922203",
+      "name": "Lillian West",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Bogardus"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0071657",
       "name": "Charles Bennett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0744576",
       "name": "Leo Rosten",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1950-11-15",

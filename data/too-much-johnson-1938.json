@@ -1,167 +1,6 @@
 {
   "imdb_id": "tt0030881",
   "sort_title": "Too Much Johnson (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Augustus Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0629931",
-      "name": "Virginia Nicolson",
-      "sequence": 1,
-      "notes": "(as Anna Stafford)",
-      "roles": [
-        "Lenore Faddish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057422",
-      "name": "Edgar Barrier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Leon Dathis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290086",
-      "name": "Arlene Francis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Clairette Dathis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285864",
-      "name": "Ruth Ford",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926897",
-      "name": "Mary Wickes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Upton Battison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943540",
-      "name": "Eustace Wyatt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Francis Faddish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455523",
-      "name": "Guy Kingsley Poynter",
-      "sequence": 7,
-      "notes": "(as Guy Kingsley)",
-      "roles": [
-        "Henry MacIntosh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0244776",
-      "name": "George Duthie",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Purser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Keystone Kop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077587",
-      "name": "John Berry",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0088567",
-      "name": "Marc Blitzstein",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Extra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236918",
-      "name": "Herbert Drake",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Keystone Kop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002144",
-      "name": "John Houseman",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Duelist",
-        "Keystone Kop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762557",
-      "name": "Erskine Sanford",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Frederick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0808473",
-      "name": "Howard Smith",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Joseph Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919213",
-      "name": "Augusta Weissberger",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0934013",
-      "name": "Richard Wilson",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Cabin boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000080",
@@ -170,20 +9,181 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0319069",
-      "name": "William Gillette",
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "roles": [
+        "Augustus Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0629931",
+      "name": "Virginia Nicolson",
+      "sequence": 1,
+      "roles": [
+        "Lenore Faddish"
+      ],
+      "notes": "(as Anna Stafford)"
+    },
+    {
+      "person_imdb_id": "nm0057422",
+      "name": "Edgar Barrier",
+      "sequence": 2,
+      "roles": [
+        "Leon Dathis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290086",
+      "name": "Arlene Francis",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Clairette Dathis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285864",
+      "name": "Ruth Ford",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926897",
+      "name": "Mary Wickes",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Upton Battison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943540",
+      "name": "Eustace Wyatt",
+      "sequence": 6,
+      "roles": [
+        "Francis Faddish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455523",
+      "name": "Guy Kingsley Poynter",
+      "sequence": 7,
+      "roles": [
+        "Henry MacIntosh"
+      ],
+      "notes": "(as Guy Kingsley)"
+    },
+    {
+      "person_imdb_id": "nm0244776",
+      "name": "George Duthie",
+      "sequence": 8,
+      "roles": [
+        "Purser"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0000080",
       "name": "Orson Welles",
+      "sequence": 9,
+      "roles": [
+        "Keystone Kop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077587",
+      "name": "John Berry",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088567",
+      "name": "Marc Blitzstein",
+      "sequence": 11,
+      "roles": [
+        "Extra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236918",
+      "name": "Herbert Drake",
+      "sequence": 12,
+      "roles": [
+        "Keystone Kop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002144",
+      "name": "John Houseman",
+      "sequence": 13,
+      "roles": [
+        "Duelist",
+        "Keystone Kop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762557",
+      "name": "Erskine Sanford",
+      "sequence": 14,
+      "roles": [
+        "Frederick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0808473",
+      "name": "Howard Smith",
+      "sequence": 15,
+      "roles": [
+        "Joseph Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919213",
+      "name": "Augusta Weissberger",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934013",
+      "name": "Richard Wilson",
+      "sequence": 17,
+      "roles": [
+        "Cabin boy"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0319069",
+      "name": "William Gillette",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(play)"
+    },
+    {
+      "person_imdb_id": "nm0000080",
+      "name": "Orson Welles",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(writer)"
     }
   ],
   "release_date": "1938-01-01",

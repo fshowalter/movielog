@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0031722",
   "sort_title": "Night Riders (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stony Brooke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181003",
-      "name": "Ray Corrigan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tucson Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0855579",
-      "name": "Max Terhune",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lullaby Joslin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737173",
-      "name": "Ruth Rogers",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Susan Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235060",
-      "name": "George Douglas",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pierce Talbot posing as de Serrano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878927",
-      "name": "Tom Tyler",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571754",
-      "name": "Sammy McKim",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tim Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562771",
-      "name": "Kermit Maynard",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sheriff Pratt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570960",
-      "name": "Doreen McKay",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Soledad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932719",
-      "name": "Walter Wills",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hazleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0481756",
-      "name": "Ethan Laidlaw",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614303",
-      "name": "Horace Murphy",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Riverboat Captain Asa Beckett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081361",
-      "name": "Edward Peil Sr.",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Rancher Harper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163417",
-      "name": "Tom London",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Rancher Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408984",
-      "name": "Jack Ingram",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Wilkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0626525",
-      "name": "Bill Nestell",
-      "sequence": 15,
-      "notes": "(as William Nestell)",
-      "roles": [
-        "Allen - A Brawler"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792450",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Stony Brooke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181003",
+      "name": "Ray Corrigan",
+      "sequence": 1,
+      "roles": [
+        "Tucson Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0855579",
+      "name": "Max Terhune",
+      "sequence": 2,
+      "roles": [
+        "Lullaby Joslin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737173",
+      "name": "Ruth Rogers",
+      "sequence": 3,
+      "roles": [
+        "Susan Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235060",
+      "name": "George Douglas",
+      "sequence": 4,
+      "roles": [
+        "Pierce Talbot - posing as de Serrano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878927",
+      "name": "Tom Tyler",
+      "sequence": 5,
+      "roles": [
+        "Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571754",
+      "name": "Sammy McKim",
+      "sequence": 6,
+      "roles": [
+        "Tim Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562771",
+      "name": "Kermit Maynard",
+      "sequence": 7,
+      "roles": [
+        "Sheriff Pratt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570960",
+      "name": "Doreen McKay",
+      "sequence": 8,
+      "roles": [
+        "Soledad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932719",
+      "name": "Walter Wills",
+      "sequence": 9,
+      "roles": [
+        "Hazleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0481756",
+      "name": "Ethan Laidlaw",
+      "sequence": 10,
+      "roles": [
+        "Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614303",
+      "name": "Horace Murphy",
+      "sequence": 11,
+      "roles": [
+        "Riverboat Capt. Asa Beckett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0081361",
+      "name": "Edward Peil Sr.",
+      "sequence": 12,
+      "roles": [
+        "Harper - Rancher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163417",
+      "name": "Tom London",
+      "sequence": 13,
+      "roles": [
+        "Wilson - Rancher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408984",
+      "name": "Jack Ingram",
+      "sequence": 14,
+      "roles": [
+        "Wilkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0626525",
+      "name": "Bill Nestell",
+      "sequence": 15,
+      "roles": [
+        "Allen - Brawler"
+      ],
+      "notes": "(as William Nestell)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0120762",
       "name": "Betty Burbridge",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0731592",
       "name": "Stanley Roberts",
-      "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screen play)"
     }
   ],
   "release_date": "1939-04-12",

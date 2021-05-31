@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0035757",
   "sort_title": "Corvette K-225 (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lieut. Commander MacClain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113769",
-      "name": "James Brown",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Paul Cartwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707048",
-      "name": "Ella Raines",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Joyce Cartwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280178",
-      "name": "Barry Fitzgerald",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Stooky O'Meara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222596",
-      "name": "Andy Devine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Walsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460906",
-      "name": "Fuzzy Knight",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cricket"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000890",
-      "name": "Noah Beery Jr.",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485518",
-      "name": "Richard Lane",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Vice Admiral"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0327089",
-      "name": "Thomas Gomez",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Smithy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115452",
-      "name": "David Bruce",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Rawlins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022367",
-      "name": "Murray Alper",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281329",
-      "name": "James Flavin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "1st Lt. Bill Gardner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0761340",
-      "name": "Walter Sande",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Evans"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0744514",
@@ -134,20 +15,139 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 0,
+      "roles": [
+        "Lieut. Commander MacClain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113769",
+      "name": "James Brown",
+      "sequence": 1,
+      "roles": [
+        "Lt. Paul Cartwright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707048",
+      "name": "Ella Raines",
+      "sequence": 2,
+      "roles": [
+        "Joyce Cartwright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280178",
+      "name": "Barry Fitzgerald",
+      "sequence": 3,
+      "roles": [
+        "Stooky O'Meara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222596",
+      "name": "Andy Devine",
+      "sequence": 4,
+      "roles": [
+        "Walsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460906",
+      "name": "Fuzzy Knight",
+      "sequence": 5,
+      "roles": [
+        "Cricket"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000890",
+      "name": "Noah Beery Jr.",
+      "sequence": 6,
+      "roles": [
+        "Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485518",
+      "name": "Richard Lane",
+      "sequence": 7,
+      "roles": [
+        "Vice Admiral"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0327089",
+      "name": "Thomas Gomez",
+      "sequence": 8,
+      "roles": [
+        "Smithy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115452",
+      "name": "David Bruce",
+      "sequence": 9,
+      "roles": [
+        "Lt. Rawlins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0022367",
+      "name": "Murray Alper",
+      "sequence": 10,
+      "roles": [
+        "Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281329",
+      "name": "James Flavin",
+      "sequence": 11,
+      "roles": [
+        "1st Lt. Bill Gardner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0761340",
+      "name": "Walter Sande",
+      "sequence": 12,
+      "roles": [
+        "Evans"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0836299",
       "name": "John Rhodes Sturdy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay) (as John Rhodes Sturdy Lieut. R.C.N.V.R.)",
-      "group_id": 0
+      "notes": "(original screenplay) (as John Rhodes Sturdy Lieut. R.C.N.V.R.)"
     },
     {
       "person_imdb_id": "nm0158737",
       "name": "Edward Chodorov",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1943-09-29",

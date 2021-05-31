@@ -1,190 +1,6 @@
 {
   "imdb_id": "tt0066518",
   "sort_title": "Vampire Lovers (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0685839",
-      "name": "Ingrid Pitt",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marcilla",
-        "Carmilla",
-        "Mircalla Karnstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824448",
-      "name": "Pippa Steel",
-      "sequence": 1,
-      "notes": "(as Pippa Steele)",
-      "roles": [
-        "Laura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809184",
-      "name": "Madeline Smith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Emma Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "General von Spielsdorf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170552",
-      "name": "George Cole",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Roger Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011625",
-      "name": "Dawn Addams",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Countess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140933",
-      "name": "Kate O'Mara",
-      "sequence": 6,
-      "notes": "(Mme. Perrodot)",
-      "roles": [
-        "The Governess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932811",
-      "name": "Douglas Wilmer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Baron Joachim von Hartog"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0277424",
-      "name": "Jon Finch",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Carl Ebhardt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562807",
-      "name": "Ferdy Mayne",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079446",
-      "name": "Kirsten Lindholm",
-      "sequence": 10,
-      "notes": "(as Kirsten Betts)",
-      "roles": [
-        "First Vampire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285424",
-      "name": "John Forbes-Robertson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Man in Black"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928161",
-      "name": "Shelagh Wilcocks",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Housekeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355637",
-      "name": "Harvey Hall",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Renton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450739",
-      "name": "Janet Key",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Gretchin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268191",
-      "name": "Charles Farrell",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Landlord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416530",
-      "name": "Graham James",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "First Young Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115085",
-      "name": "Tom Browne",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Second Young Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791204",
-      "name": "Joanna Shelley",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Woodman's Daughter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030972",
-      "name": "Olga Anthony",
-      "sequence": 19,
-      "notes": "(as Olga James)",
-      "roles": [
-        "Village Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001928",
@@ -193,41 +9,225 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0685839",
+      "name": "Ingrid Pitt",
+      "sequence": 0,
+      "roles": [
+        "Marcilla",
+        "Carmilla",
+        "Mircalla Karnstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824448",
+      "name": "Pippa Steel",
+      "sequence": 1,
+      "roles": [
+        "Laura"
+      ],
+      "notes": "(as Pippa Steele)"
+    },
+    {
+      "person_imdb_id": "nm0809184",
+      "name": "Madeline Smith",
+      "sequence": 2,
+      "roles": [
+        "Emma Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 3,
+      "roles": [
+        "General von Spielsdorf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170552",
+      "name": "George Cole",
+      "sequence": 4,
+      "roles": [
+        "Roger Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011625",
+      "name": "Dawn Addams",
+      "sequence": 5,
+      "roles": [
+        "The Countess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140933",
+      "name": "Kate O'Mara",
+      "sequence": 6,
+      "roles": [
+        "The Governess"
+      ],
+      "notes": "(Mme. Perrodot)"
+    },
+    {
+      "person_imdb_id": "nm0932811",
+      "name": "Douglas Wilmer",
+      "sequence": 7,
+      "roles": [
+        "Baron Joachim von Hartog"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0277424",
+      "name": "Jon Finch",
+      "sequence": 8,
+      "roles": [
+        "Carl Ebhardt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562807",
+      "name": "Ferdy Mayne",
+      "sequence": 9,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079446",
+      "name": "Kirsten Lindholm",
+      "sequence": 10,
+      "roles": [
+        "First Vampire"
+      ],
+      "notes": "(as Kirsten Betts)"
+    },
+    {
+      "person_imdb_id": "nm0285424",
+      "name": "John Forbes-Robertson",
+      "sequence": 11,
+      "roles": [
+        "Man in Black"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928161",
+      "name": "Shelagh Wilcocks",
+      "sequence": 12,
+      "roles": [
+        "Housekeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355637",
+      "name": "Harvey Hall",
+      "sequence": 13,
+      "roles": [
+        "Renton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450739",
+      "name": "Janet Key",
+      "sequence": 14,
+      "roles": [
+        "Gretchin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268191",
+      "name": "Charles Farrell",
+      "sequence": 15,
+      "roles": [
+        "Landlord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416530",
+      "name": "Graham James",
+      "sequence": 16,
+      "roles": [
+        "First Young Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115085",
+      "name": "Tom Browne",
+      "sequence": 17,
+      "roles": [
+        "Second Young Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791204",
+      "name": "Joanna Shelley",
+      "sequence": 18,
+      "roles": [
+        "Woodman's Daughter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030972",
+      "name": "Olga Anthony",
+      "sequence": 19,
+      "roles": [
+        "Village Girl"
+      ],
+      "notes": "(as Olga James)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0494257",
       "name": "Sheridan Le Fanu",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"Carmilla\") (as J. Sheridan Le Fanu)",
-      "group_id": 0
+      "notes": "(story \"Carmilla\") (as J. Sheridan Le Fanu)"
     },
     {
       "person_imdb_id": "nm0277612",
       "name": "Harry Fine",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0309633",
       "name": "Tudor Gates",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0836542",
       "name": "Michael Style",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0309633",
       "name": "Tudor Gates",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1970-10-04",

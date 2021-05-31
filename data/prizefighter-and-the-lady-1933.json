@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0024475",
   "sort_title": "Prizefighter and the Lady (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Belle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046368",
-      "name": "Max Baer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Steve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138712",
-      "name": "Primo Carnera",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Carnera"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218727",
-      "name": "Jack Dempsey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Promoter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404158",
-      "name": "Walter Huston",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Professor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0472603",
-      "name": "Otto Kruger",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Willie Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055998",
-      "name": "Vince Barnett",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bugsie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574743",
-      "name": "Robert McWade",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Adopted Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263088",
-      "name": "Muriel Evans",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Linda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397361",
-      "name": "Jean Howard",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Showgirl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0886754",
@@ -107,27 +15,119 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 0,
+      "roles": [
+        "Belle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0046368",
+      "name": "Max Baer",
+      "sequence": 1,
+      "roles": [
+        "Steve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138712",
+      "name": "Primo Carnera",
+      "sequence": 2,
+      "roles": [
+        "Carnera"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218727",
+      "name": "Jack Dempsey",
+      "sequence": 3,
+      "roles": [
+        "Promoter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404158",
+      "name": "Walter Huston",
+      "sequence": 4,
+      "roles": [
+        "Professor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0472603",
+      "name": "Otto Kruger",
+      "sequence": 5,
+      "roles": [
+        "Willie Ryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055998",
+      "name": "Vince Barnett",
+      "sequence": 6,
+      "roles": [
+        "Bugsie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574743",
+      "name": "Robert McWade",
+      "sequence": 7,
+      "roles": [
+        "Adopted Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263088",
+      "name": "Muriel Evans",
+      "sequence": 8,
+      "roles": [
+        "Linda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397361",
+      "name": "Jean Howard",
+      "sequence": 9,
+      "roles": [
+        "Showgirl"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0536941",
       "name": "John Lee Mahin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0576046",
       "name": "John Meehan",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0547966",
       "name": "Frances Marion",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the story by)",
-      "group_id": 1
+      "notes": "(from the story by)"
     }
   ],
   "release_date": "1933-11-10",

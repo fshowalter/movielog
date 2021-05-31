@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0061075",
   "sort_title": "Ten Little Indians (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0639385",
-      "name": "Hugh O'Brian",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hugh Lombard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247881",
-      "name": "Shirley Eaton",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ann Clyde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003104",
-      "name": "Fabian",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mike Raven"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312890",
-      "name": "Leo Genn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "General Mandrake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391361",
-      "name": "Stanley Holloway",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "William Blore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405035",
-      "name": "Wilfrid Hyde-White",
-      "sequence": 5,
-      "notes": "(as Wilfrid Hyde White)",
-      "roles": [
-        "Judge Cannon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492002",
-      "name": "Daliah Lavi",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ilona Bergen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0696866",
-      "name": "Dennis Price",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Armstrong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394365",
-      "name": "Marianne Hoppe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frau Grohmann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000728",
-      "name": "Mario Adorf",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Herr Grohmann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0563957",
-      "name": "Bill Mitchell",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 11,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Mr. U. N. Owen"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0689659",
@@ -119,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0639385",
+      "name": "Hugh O'Brian",
+      "sequence": 0,
+      "roles": [
+        "Hugh Lombard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247881",
+      "name": "Shirley Eaton",
+      "sequence": 1,
+      "roles": [
+        "Ann Clyde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003104",
+      "name": "Fabian",
+      "sequence": 2,
+      "roles": [
+        "Mike Raven"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312890",
+      "name": "Leo Genn",
+      "sequence": 3,
+      "roles": [
+        "General Mandrake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391361",
+      "name": "Stanley Holloway",
+      "sequence": 4,
+      "roles": [
+        "William Blore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405035",
+      "name": "Wilfrid Hyde-White",
+      "sequence": 5,
+      "roles": [
+        "Judge Cannon"
+      ],
+      "notes": "(as Wilfrid Hyde White)"
+    },
+    {
+      "person_imdb_id": "nm0492002",
+      "name": "Daliah Lavi",
+      "sequence": 6,
+      "roles": [
+        "Ilona Bergen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0696866",
+      "name": "Dennis Price",
+      "sequence": 7,
+      "roles": [
+        "Dr. Armstrong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394365",
+      "name": "Marianne Hoppe",
+      "sequence": 8,
+      "roles": [
+        "Frau Grohmann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000728",
+      "name": "Mario Adorf",
+      "sequence": 9,
+      "roles": [
+        "Herr Grohmann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0563957",
+      "name": "Bill Mitchell",
+      "sequence": 10,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0947343",
       "name": "Peter Yeldham",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
-      "sequence": 0,
-      "notes": "(screenplay) (as Peter Welbeck)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Peter Welbeck)"
     },
     {
       "person_imdb_id": "nm0002005",
       "name": "Agatha Christie",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (uncredited)",
-      "group_id": 1
+      "notes": "(novel) (uncredited)"
     }
   ],
   "release_date": "1965-09-01",

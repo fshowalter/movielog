@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0022321",
   "sort_title": "Road to Singapore (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hugh Dawltry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448987",
-      "name": "Doris Kenyon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Philippa Crosby March"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550620",
-      "name": "Marian Marsh",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rene March"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0129894",
-      "name": "Louis Calhern",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. George March"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0804375",
-      "name": "Alison Skipworth",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Wey-Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Wey-Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205598",
-      "name": "Tyrell Davis",
-      "sequence": 6,
-      "notes": "(as Tyrrell Davis)",
-      "roles": [
-        "Nikki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030653",
-      "name": "A.E. Anson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Muir"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0337586",
@@ -83,34 +9,108 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Hugh Dawltry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448987",
+      "name": "Doris Kenyon",
+      "sequence": 1,
+      "roles": [
+        "Philippa Crosby March"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550620",
+      "name": "Marian Marsh",
+      "sequence": 2,
+      "roles": [
+        "Rene March"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0129894",
+      "name": "Louis Calhern",
+      "sequence": 3,
+      "roles": [
+        "Dr. George March"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0804375",
+      "name": "Alison Skipworth",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Wey-Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 5,
+      "roles": [
+        "Mr. Wey-Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0205598",
+      "name": "Tyrell Davis",
+      "sequence": 6,
+      "roles": [
+        "Nikki"
+      ],
+      "notes": "(as Tyrrell Davis)"
+    },
+    {
+      "person_imdb_id": "nm0030653",
+      "name": "A.E. Anson",
+      "sequence": 7,
+      "roles": [
+        "Dr. Muir"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0732286",
       "name": "Denise Robins",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Heat Wave\")",
-      "group_id": 0
+      "notes": "(novel \"Heat Wave\")"
     },
     {
       "person_imdb_id": "nm0675729",
       "name": "Roland Pertwee",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Heat Wave\")",
-      "group_id": 1
+      "notes": "(play \"Heat Wave\")"
     },
     {
       "person_imdb_id": "nm0018470",
       "name": "J. Grubb Alexander",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0018470",
       "name": "J. Grubb Alexander",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 3
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1931-10-10",

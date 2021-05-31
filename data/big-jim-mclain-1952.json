@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0044418",
   "sort_title": "Big Jim McLain (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim McLain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647970",
-      "name": "Nancy Olson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nancy Vallon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000790",
-      "name": "James Arness",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mal Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sturak"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0096458",
-      "name": "Veda Ann Borg",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Madge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175788",
-      "name": "Hans Conried",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Robert Henried"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0063113",
-      "name": "Hal Baylor",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Poke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0903628",
-      "name": "Gayne Whitman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Gelster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428160",
-      "name": "Gordon Jones",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Olaf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450888",
-      "name": "Robert Keys",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Edwin White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399192",
-      "name": "John Hubbard",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lt. Cmdr. Clint Grey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948540",
-      "name": "Soo Yong",
-      "sequence": 11,
-      "notes": "(as Madame Soo Yong)",
-      "roles": [
-        "Mrs. Namaka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514910",
-      "name": "Dan Liu",
-      "sequence": 12,
-      "notes": "(as Honolulu Chief Of Police Dan Liu)",
-      "roles": [
-        "Dan Liu - Honolulu Chief of Police"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403636",
-      "name": "Paul Hurst",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mr. Lexiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574371",
-      "name": "Vernon 'Red' McQueen",
-      "sequence": 14,
-      "notes": "(as Red McQueen)",
-      "roles": [
-        "Phil Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0655605",
-      "name": "Sarah Padden",
-      "sequence": 15,
-      "notes": "(as Sara Padden)",
-      "roles": [
-        "Mrs. Lexiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1204230",
-      "name": "Kinko 'Lucky' Simunovich",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Muscle Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7609076",
-      "name": "Kinai Ikuma",
-      "sequence": 17,
-      "notes": "(as Bishop Kinai Ikuma)",
-      "roles": [
-        "Reverend Ito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 28,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Chauncey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604702",
-      "name": "Harry Morgan",
-      "sequence": 42,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0524995",
@@ -191,55 +9,219 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Jim McLain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647970",
+      "name": "Nancy Olson",
+      "sequence": 1,
+      "roles": [
+        "Nancy Vallon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000790",
+      "name": "James Arness",
+      "sequence": 2,
+      "roles": [
+        "Mal Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 3,
+      "roles": [
+        "Sturak"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0096458",
+      "name": "Veda Ann Borg",
+      "sequence": 4,
+      "roles": [
+        "Madge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175788",
+      "name": "Hans Conried",
+      "sequence": 5,
+      "roles": [
+        "Robert Henried"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0063113",
+      "name": "Hal Baylor",
+      "sequence": 6,
+      "roles": [
+        "Poke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0903628",
+      "name": "Gayne Whitman",
+      "sequence": 7,
+      "roles": [
+        "Dr. Gelster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428160",
+      "name": "Gordon Jones",
+      "sequence": 8,
+      "roles": [
+        "Olaf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450888",
+      "name": "Robert Keys",
+      "sequence": 9,
+      "roles": [
+        "Edwin White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399192",
+      "name": "John Hubbard",
+      "sequence": 10,
+      "roles": [
+        "Lt. Cmdr. Clint Grey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0948540",
+      "name": "Soo Yong",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Namaka"
+      ],
+      "notes": "(as Madame Soo Yong)"
+    },
+    {
+      "person_imdb_id": "nm0514910",
+      "name": "Dan Liu",
+      "sequence": 12,
+      "roles": [
+        "Dan Liu - Honolulu Chief of Police"
+      ],
+      "notes": "(as Honolulu Chief Of Police Dan Liu)"
+    },
+    {
+      "person_imdb_id": "nm0403636",
+      "name": "Paul Hurst",
+      "sequence": 13,
+      "roles": [
+        "Mr. Lexiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574371",
+      "name": "Vernon 'Red' McQueen",
+      "sequence": 14,
+      "roles": [
+        "Phil Briggs"
+      ],
+      "notes": "(as Red McQueen)"
+    },
+    {
+      "person_imdb_id": "nm0655605",
+      "name": "Sarah Padden",
+      "sequence": 15,
+      "roles": [
+        "Mrs. Lexiter"
+      ],
+      "notes": "(as Sara Padden)"
+    },
+    {
+      "person_imdb_id": "nm1204230",
+      "name": "Kinko 'Lucky' Simunovich",
+      "sequence": 16,
+      "roles": [
+        "Muscle Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7609076",
+      "name": "Kinai Ikuma",
+      "sequence": 17,
+      "roles": [
+        "Reverend Ito"
+      ],
+      "notes": "(as Bishop Kinai Ikuma)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0070948",
       "name": "Stephen Vincent Benet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(quotes from \"The Devil And Dan'l Webster\")",
-      "group_id": 0
+      "notes": "(quotes from \"The Devil And Dan'l Webster\")"
     },
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0257669",
       "name": "Richard English",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0852338",
       "name": "Eric Taylor",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0257669",
       "name": "Richard English",
+      "group": 2,
       "sequence": 0,
-      "notes": "(short story) (uncredited)",
-      "group_id": 2
+      "notes": "(short story) (uncredited)"
     },
     {
       "person_imdb_id": "nm0680474",
       "name": "James Atlee Phillips",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm1260004",
       "name": "William Wheeler",
+      "group": 4,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 4
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1952-08-30",

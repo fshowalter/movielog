@@ -1,163 +1,6 @@
 {
   "imdb_id": "tt2316204",
   "sort_title": "Alien: Covenant (2017)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1055413",
-      "name": "Michael Fassbender",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "David",
-        "Walter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2239702",
-      "name": "Katherine Waterston",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Daniels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001082",
-      "name": "Billy Crudup",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Oram"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1144419",
-      "name": "Danny McBride",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tennessee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065007",
-      "name": "Demi\u00e1n Bichir",
-      "sequence": 4,
-      "notes": "(as Demian Bichir)",
-      "roles": [
-        "Lope"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252238",
-      "name": "Carmen Ejogo",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Karine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0810620",
-      "name": "Jussie Smollett",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ricks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5555747",
-      "name": "Callie Hernandez",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Upworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1541272",
-      "name": "Amy Seimetz",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Faris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1089483",
-      "name": "Nathaniel Dean",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hallett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1542397",
-      "name": "Alexander England",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ankor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4430268",
-      "name": "Benjamin Rigby",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ledward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5937328",
-      "name": "Uli Latukefu",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Cole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3746071",
-      "name": "Tess Haubrich",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Rosenthal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455009",
-      "name": "Lorelei King",
-      "sequence": 14,
-      "notes": "(voice)",
-      "roles": [
-        "Voice of 'Mother'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2377520",
-      "name": "Goran D. Kleut",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Xenomorph",
-        "Neomorph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm8830098",
-      "name": "Andrew Crawford",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Neomorph"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000631",
@@ -166,34 +9,191 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1055413",
+      "name": "Michael Fassbender",
+      "sequence": 0,
+      "roles": [
+        "David",
+        "Walter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2239702",
+      "name": "Katherine Waterston",
+      "sequence": 1,
+      "roles": [
+        "Daniels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001082",
+      "name": "Billy Crudup",
+      "sequence": 2,
+      "roles": [
+        "Oram"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1144419",
+      "name": "Danny McBride",
+      "sequence": 3,
+      "roles": [
+        "Tennessee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065007",
+      "name": "Demi\u00e1n Bichir",
+      "sequence": 4,
+      "roles": [
+        "Lope"
+      ],
+      "notes": "(as Demian Bichir)"
+    },
+    {
+      "person_imdb_id": "nm0252238",
+      "name": "Carmen Ejogo",
+      "sequence": 5,
+      "roles": [
+        "Karine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0810620",
+      "name": "Jussie Smollett",
+      "sequence": 6,
+      "roles": [
+        "Ricks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5555747",
+      "name": "Callie Hernandez",
+      "sequence": 7,
+      "roles": [
+        "Upworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1541272",
+      "name": "Amy Seimetz",
+      "sequence": 8,
+      "roles": [
+        "Faris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1089483",
+      "name": "Nathaniel Dean",
+      "sequence": 9,
+      "roles": [
+        "Hallett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1542397",
+      "name": "Alexander England",
+      "sequence": 10,
+      "roles": [
+        "Ankor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4430268",
+      "name": "Benjamin Rigby",
+      "sequence": 11,
+      "roles": [
+        "Ledward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5937328",
+      "name": "Uli Latukefu",
+      "sequence": 12,
+      "roles": [
+        "Cole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3746071",
+      "name": "Tess Haubrich",
+      "sequence": 13,
+      "roles": [
+        "Rosenthal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455009",
+      "name": "Lorelei King",
+      "sequence": 14,
+      "roles": [
+        "Voice of 'Mother'"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2377520",
+      "name": "Goran D. Kleut",
+      "sequence": 15,
+      "roles": [
+        "Xenomorph",
+        "Neomorph"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm8830098",
+      "name": "Andrew Crawford",
+      "sequence": 16,
+      "roles": [
+        "Neomorph"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1438698",
       "name": "Jack Paglen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0338169",
       "name": "Michael Green",
-      "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0517589",
       "name": "John Logan",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 2
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0363837",
       "name": "Dante Harper",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "2017-05-04",

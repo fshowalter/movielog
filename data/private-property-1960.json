@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0054209",
   "sort_title": "Private Property (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0544347",
-      "name": "Kate Manx",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ann Carlyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001904",
-      "name": "Corey Allen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Duke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Boots"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ed Hogate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912286",
-      "name": "Robert Wark",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Roger Carlyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537955",
-      "name": "Jules Maitland",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Robbery Victim"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0828562",
@@ -65,13 +9,69 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0544347",
+      "name": "Kate Manx",
+      "sequence": 0,
+      "roles": [
+        "Ann Carlyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001904",
+      "name": "Corey Allen",
+      "sequence": 1,
+      "roles": [
+        "Duke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 2,
+      "roles": [
+        "Boots"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 3,
+      "roles": [
+        "Ed Hogate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912286",
+      "name": "Robert Wark",
+      "sequence": 4,
+      "roles": [
+        "Roger Carlyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537955",
+      "name": "Jules Maitland",
+      "sequence": 5,
+      "roles": [
+        "Robbery Victim"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0828562",
       "name": "Leslie Stevens",
+      "group": 0,
       "sequence": 0,
-      "notes": "(dramatist)",
-      "group_id": 0
+      "notes": "(dramatist)"
     }
   ],
   "release_date": "1960-04-24",

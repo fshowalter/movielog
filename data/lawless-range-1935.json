@@ -1,110 +1,6 @@
 {
   "imdb_id": "tt0026614",
   "sort_title": "Lawless Range (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Middleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111355",
-      "name": "Sheila Bromley",
-      "sequence": 1,
-      "notes": "(as Sheila Mannors)",
-      "roles": [
-        "Ann Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569465",
-      "name": "Frank McGlynn Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frank Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193354",
-      "name": "Jack Curtis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Marshal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397909",
-      "name": "Wally Howe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hank Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341548",
-      "name": "Julia Griffith",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marie Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245429",
-      "name": "Earl Dwire",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Emmett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049816",
-      "name": "Chuck Baldra",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Henchman",
-        "Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0765099",
-      "name": "Charles Sargent",
-      "sequence": 25,
-      "notes": "",
-      "roles": [
-        "Outlaw",
-        "Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833363",
-      "name": "Glenn Strange",
-      "sequence": 27,
-      "notes": "",
-      "roles": [
-        "Burns' Henchman",
-        "John Middleton's Singing Voice"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -113,20 +9,124 @@
       "notes": "(as R.N. Bradbury)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Middleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111355",
+      "name": "Sheila Bromley",
+      "sequence": 1,
+      "roles": [
+        "Ann Mason"
+      ],
+      "notes": "(as Sheila Mannors)"
+    },
+    {
+      "person_imdb_id": "nm0569465",
+      "name": "Frank McGlynn Jr.",
+      "sequence": 2,
+      "roles": [
+        "Frank Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193354",
+      "name": "Jack Curtis",
+      "sequence": 3,
+      "roles": [
+        "Marshal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397907",
+      "name": "Wally Howe",
+      "sequence": 4,
+      "roles": [
+        "Hank Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341548",
+      "name": "Julia Griffith",
+      "sequence": 5,
+      "roles": [
+        "Marie Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 6,
+      "roles": [
+        "Joe Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245429",
+      "name": "Earl Dwire",
+      "sequence": 7,
+      "roles": [
+        "Emmett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049816",
+      "name": "Chuck Baldra",
+      "sequence": 10,
+      "roles": [
+        "Henchman",
+        "Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0765099",
+      "name": "Charles Sargent",
+      "sequence": 25,
+      "roles": [
+        "Outlaw",
+        "Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833363",
+      "name": "Glenn Strange",
+      "sequence": 27,
+      "roles": [
+        "Burns' Henchman",
+        "John Middleton's Singing Voice"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1935-11-04",

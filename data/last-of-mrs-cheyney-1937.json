@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0029120",
   "sort_title": "Last of Mrs. Cheyney (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001076",
-      "name": "Joan Crawford",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Fay Cheyney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599910",
-      "name": "Robert Montgomery",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lord Arthur Dilling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604656",
-      "name": "Frank Morgan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lord Francis Kelton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707771",
-      "name": "Jessie Ralph",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Duchess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115558",
-      "name": "Nigel Bruce",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Willie Wynton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163492",
-      "name": "Colleen Clare",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401729",
-      "name": "Benita Hume",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Kitty Wynton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285391",
-      "name": "Ralph Forbes",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cousin John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0697800",
-      "name": "Aileen Pringle",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lady Maria Frinton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178259",
-      "name": "Melville Cooper",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "William"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136988",
-      "name": "Leonard Carey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352774",
-      "name": "Sara Haden",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Inspector Witherspoon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164599",
-      "name": "Wallis Clark",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662065",
-      "name": "Barnett Parker",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Purser"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0092915",
@@ -167,41 +21,187 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001076",
+      "name": "Joan Crawford",
+      "sequence": 0,
+      "roles": [
+        "Fay Cheyney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 1,
+      "roles": [
+        "Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599910",
+      "name": "Robert Montgomery",
+      "sequence": 2,
+      "roles": [
+        "Lord Arthur Dilling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604656",
+      "name": "Frank Morgan",
+      "sequence": 3,
+      "roles": [
+        "Lord Francis Kelton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707771",
+      "name": "Jessie Ralph",
+      "sequence": 4,
+      "roles": [
+        "Duchess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115558",
+      "name": "Nigel Bruce",
+      "sequence": 5,
+      "roles": [
+        "Willie Wynton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163492",
+      "name": "Colleen Clare",
+      "sequence": 6,
+      "roles": [
+        "Joan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401729",
+      "name": "Benita Hume",
+      "sequence": 7,
+      "roles": [
+        "Kitty Wynton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285391",
+      "name": "Ralph Forbes",
+      "sequence": 8,
+      "roles": [
+        "Cousin John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0697800",
+      "name": "Aileen Pringle",
+      "sequence": 9,
+      "roles": [
+        "Lady Maria Frinton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178259",
+      "name": "Melville Cooper",
+      "sequence": 10,
+      "roles": [
+        "William"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0136988",
+      "name": "Leonard Carey",
+      "sequence": 11,
+      "roles": [
+        "Ames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352774",
+      "name": "Sara Haden",
+      "sequence": 12,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 13,
+      "roles": [
+        "Inspector Witherspoon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164599",
+      "name": "Wallis Clark",
+      "sequence": 14,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662065",
+      "name": "Barnett Parker",
+      "sequence": 15,
+      "roles": [
+        "Purser"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0330390",
       "name": "Leon Gordon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0710723",
       "name": "Samson Raphaelson",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0388743",
       "name": "Monckton Hoffe",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0519556",
       "name": "Frederick Lonsdale",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 1
+      "notes": "(from the play by)"
     },
     {
       "person_imdb_id": "nm0649183",
       "name": "George Oppenheimer",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to dialogue) (uncredited)"
     }
   ],
   "release_date": "1937-02-19",

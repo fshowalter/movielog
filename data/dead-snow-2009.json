@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt1278340",
   "sort_title": "Dead Snow (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0388473",
-      "name": "Vegar Hoel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2552337",
-      "name": "Stig Frode Henriksen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Roy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2297067",
-      "name": "Charlotte Frogner",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hanna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1284656",
-      "name": "Lasse Valdal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vegard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1284277",
-      "name": "Evy Kasseth R\u00f8sten",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Liv"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1355643",
-      "name": "Jeppe Beck Laursen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Erlend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0803928",
-      "name": "Jenny Skavlan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1335996",
-      "name": "Ane Dahl Torp",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839209",
-      "name": "Bj\u00f8rn Sundquist",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Turg\u00e5er"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2505635",
-      "name": "\u00d8rjan Gamst",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Oberst Herzog"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm2482088",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm2482088",
-      "name": "Tommy Wirkola",
+      "person_imdb_id": "nm0388473",
+      "name": "Vegar Hoel",
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "roles": [
+        "Martin"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm2552337",
       "name": "Stig Frode Henriksen",
+      "sequence": 1,
+      "roles": [
+        "Roy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2297067",
+      "name": "Charlotte Frogner",
+      "sequence": 2,
+      "roles": [
+        "Hanna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1284656",
+      "name": "Lasse Valdal",
+      "sequence": 3,
+      "roles": [
+        "Vegard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1284277",
+      "name": "Evy Kasseth R\u00f8sten",
+      "sequence": 4,
+      "roles": [
+        "Liv"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1355643",
+      "name": "Jeppe Beck Laursen",
+      "sequence": 5,
+      "roles": [
+        "Erlend"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0803928",
+      "name": "Jenny Skavlan",
+      "sequence": 6,
+      "roles": [
+        "Chris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1335996",
+      "name": "Ane Dahl Torp",
+      "sequence": 7,
+      "roles": [
+        "Sara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839209",
+      "name": "Bj\u00f8rn Sundquist",
+      "sequence": 8,
+      "roles": [
+        "Turg\u00e5er"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2505635",
+      "name": "\u00d8rjan Gamst",
+      "sequence": 9,
+      "roles": [
+        "Oberst Herzog"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm2482088",
+      "name": "Tommy Wirkola",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
+    },
+    {
+      "person_imdb_id": "nm2552337",
+      "name": "Stig Frode Henriksen",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-01-09",

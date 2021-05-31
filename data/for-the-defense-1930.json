@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0020896",
   "sort_title": "For the Defense (1930)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "William B. Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290215",
-      "name": "Kay Francis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Irene Manners"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464131",
-      "name": "Scott Kolk",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jack Defoe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203527",
-      "name": "William B. Davidson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "District Attorney Herbert L. Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0414090",
-      "name": "Thomas E. Jackson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Daly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1725729",
-      "name": "Harry Walker",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0278006",
-      "name": "James Finlayson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Parrott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0921980",
-      "name": "Charles West",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545031",
-      "name": "Bertram Marburgh",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Judge Evans"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "William B. Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290215",
+      "name": "Kay Francis",
+      "sequence": 1,
+      "roles": [
+        "Irene Manners"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0464131",
+      "name": "Scott Kolk",
+      "sequence": 2,
+      "roles": [
+        "Jack Defoe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203527",
+      "name": "William B. Davidson",
+      "sequence": 3,
+      "roles": [
+        "District Attorney Herbert L. Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0414090",
+      "name": "Thomas E. Jackson",
+      "sequence": 4,
+      "roles": [
+        "Daly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1725729",
+      "name": "Harry Walker",
+      "sequence": 5,
+      "roles": [
+        "Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0278006",
+      "name": "James Finlayson",
+      "sequence": 6,
+      "roles": [
+        "Parrott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0921980",
+      "name": "Charles West",
+      "sequence": 7,
+      "roles": [
+        "Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545031",
+      "name": "Bertram Marburgh",
+      "sequence": 8,
+      "roles": [
+        "Judge Evans"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0308177",
       "name": "Oliver H.P. Garrett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 0
+      "notes": "(scenario)"
     },
     {
       "person_imdb_id": "nm0299153",
       "name": "Charles Furthman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Charles Furthmann)",
-      "group_id": 1
+      "notes": "(story) (as Charles Furthmann)"
     }
   ],
   "release_date": "1930-07-19",

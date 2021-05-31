@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0042286",
   "sort_title": "Broken Arrow (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom Jeffords"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001996",
-      "name": "Jeff Chandler",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cochise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656428",
-      "name": "Debra Paget",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sonseeahray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752278",
-      "name": "Basil Ruysdael",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gen. Oliver Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002095",
-      "name": "Will Geer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ben Slade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533339",
-      "name": "Joyce Mackenzie",
-      "sequence": 5,
-      "notes": "(as Joyce MacKenzie)",
-      "roles": [
-        "Terry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Milt Duffield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2236015",
-      "name": "Dolores Christine Cypert",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "American Indian",
-        "Redbird"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0202681",
@@ -84,27 +9,102 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Tom Jeffords"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001996",
+      "name": "Jeff Chandler",
+      "sequence": 1,
+      "roles": [
+        "Cochise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656428",
+      "name": "Debra Paget",
+      "sequence": 2,
+      "roles": [
+        "Sonseeahray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752278",
+      "name": "Basil Ruysdael",
+      "sequence": 3,
+      "roles": [
+        "Gen. Oliver Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002095",
+      "name": "Will Geer",
+      "sequence": 4,
+      "roles": [
+        "Ben Slade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533339",
+      "name": "Joyce Mackenzie",
+      "sequence": 5,
+      "roles": [
+        "Terry"
+      ],
+      "notes": "(as Joyce MacKenzie)"
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 6,
+      "roles": [
+        "Milt Duffield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2236015",
+      "name": "Dolores Christine Cypert",
+      "sequence": 17,
+      "roles": [
+        "American Indian",
+        "Redbird"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0036433",
       "name": "Elliott Arnold",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Blood Brother\")",
-      "group_id": 0
+      "notes": "(novel \"Blood Brother\")"
     },
     {
       "person_imdb_id": "nm0540816",
       "name": "Albert Maltz",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (front Michael Blankfort)",
-      "group_id": 1
+      "notes": "(screenplay) (front Michael Blankfort)"
     },
     {
       "person_imdb_id": "nm0087581",
       "name": "Michael Blankfort",
+      "group": 2,
       "sequence": 0,
-      "notes": "(front for Albert Maltz)",
-      "group_id": 2
+      "notes": "(front for Albert Maltz)"
     }
   ],
   "release_date": "1950-07-20",

@@ -1,146 +1,6 @@
 {
   "imdb_id": "tt0043643",
   "sort_title": "His Kind of Woman (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dan Milner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000066",
-      "name": "Jane Russell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lenore Brent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mark Cardigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392529",
-      "name": "Tim Holt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bill Lusk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569902",
-      "name": "Charles McGraw",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Thompson",
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721851",
-      "name": "Marjorie Reynolds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Helen Cardigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000994",
-      "name": "Raymond Burr",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nick Ferraro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052379",
-      "name": "Leslye Banning",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jennie Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000822",
-      "name": "Jim Backus",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Myron Winton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888349",
-      "name": "Philip Van Zandt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jose Morro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0617050",
-      "name": "John Mylong",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Martin Krafft"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949356",
-      "name": "Carleton G. Young",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gerald Hobson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0051199",
-      "name": "Sam Balter",
-      "sequence": 14,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Broadcaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357764",
-      "name": "Chuck Hamilton",
-      "sequence": 43,
-      "notes": "",
-      "roles": [
-        "Seaman",
-        "Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614073",
-      "name": "Al Murphy",
-      "sequence": 59,
-      "notes": "",
-      "roles": [
-        "Seaman",
-        "Henchman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0268513",
@@ -155,48 +15,179 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Dan Milner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000066",
+      "name": "Jane Russell",
+      "sequence": 1,
+      "roles": [
+        "Lenore Brent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Mark Cardigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392529",
+      "name": "Tim Holt",
+      "sequence": 3,
+      "roles": [
+        "Bill Lusk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569902",
+      "name": "Charles McGraw",
+      "sequence": 4,
+      "roles": [
+        "Thompson",
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721851",
+      "name": "Marjorie Reynolds",
+      "sequence": 5,
+      "roles": [
+        "Helen Cardigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000994",
+      "name": "Raymond Burr",
+      "sequence": 6,
+      "roles": [
+        "Nick Ferraro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052379",
+      "name": "Leslye Banning",
+      "sequence": 7,
+      "roles": [
+        "Jennie Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000822",
+      "name": "Jim Backus",
+      "sequence": 8,
+      "roles": [
+        "Myron Winton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888349",
+      "name": "Philip Van Zandt",
+      "sequence": 9,
+      "roles": [
+        "Jose Morro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0617050",
+      "name": "John Mylong",
+      "sequence": 10,
+      "roles": [
+        "Martin Krafft"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949356",
+      "name": "Carleton G. Young",
+      "sequence": 11,
+      "roles": [
+        "Gerald Hobson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357764",
+      "name": "Chuck Hamilton",
+      "sequence": 43,
+      "roles": [
+        "Seaman",
+        "Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614073",
+      "name": "Al Murphy",
+      "sequence": 59,
+      "roles": [
+        "Seaman",
+        "Henchman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0272045",
       "name": "Frank Fenton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0502649",
       "name": "Jack Leonard",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 1
+      "notes": "(story) (uncredited)"
     },
     {
       "person_imdb_id": "nm0271641",
       "name": "Earl Felton",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0281507",
       "name": "Richard Fleischer",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0400652",
       "name": "Howard Hughes",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1951-08-15",

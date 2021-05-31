@@ -1,44 +1,6 @@
 {
   "imdb_id": "tt0053925",
   "sort_title": "House of Usher (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Roderick Usher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0198941",
-      "name": "Mark Damon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Philip Winthrop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0265196",
-      "name": "Myrna Fahey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Madeline Usher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254041",
-      "name": "Harry Ellerbe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bristol"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -47,20 +9,58 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Roderick Usher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0198941",
+      "name": "Mark Damon",
+      "sequence": 1,
+      "roles": [
+        "Philip Winthrop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0265196",
+      "name": "Myrna Fahey",
+      "sequence": 2,
+      "roles": [
+        "Madeline Usher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254041",
+      "name": "Harry Ellerbe",
+      "sequence": 3,
+      "roles": [
+        "Bristol"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on \"The Fall of The House of Usher\")",
-      "group_id": 0
+      "notes": "(based on \"The Fall of The House of Usher\")"
     },
     {
       "person_imdb_id": "nm0558577",
       "name": "Richard Matheson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1960-06-18",

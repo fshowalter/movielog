@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0032635",
   "sort_title": "Invisible Man Returns (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 0,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "Richard Cobb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Geoffrey Radcliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340644",
-      "name": "Nan Grey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Helen Manson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0840330",
-      "name": "John Sutton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Doctor Frank Griffin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445523",
-      "name": "Cecil Kellaway",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sampson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Willie Spears"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367516",
-      "name": "Forrester Harvey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ben Jenkins"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0562004",
@@ -74,41 +9,106 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 0,
+      "roles": [
+        "Richard Cobb"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 1,
+      "roles": [
+        "Geoffrey Radcliffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340644",
+      "name": "Nan Grey",
+      "sequence": 2,
+      "roles": [
+        "Helen Manson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0840330",
+      "name": "John Sutton",
+      "sequence": 3,
+      "roles": [
+        "Doctor Frank Griffin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445523",
+      "name": "Cecil Kellaway",
+      "sequence": 4,
+      "roles": [
+        "Sampson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 5,
+      "roles": [
+        "Willie Spears"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367516",
+      "name": "Forrester Harvey",
+      "sequence": 6,
+      "roles": [
+        "Ben Jenkins"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0562004",
       "name": "Joe May",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
-      "sequence": 0,
-      "notes": "(story) (as Kurt Siodmak)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story) (as Kurt Siodmak)"
     },
     {
       "person_imdb_id": "nm0170660",
       "name": "Lester Cole",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
-      "sequence": 0,
-      "notes": "(screenplay) (as Kurt Siodmak)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay) (as Kurt Siodmak)"
     },
     {
       "person_imdb_id": "nm0067794",
       "name": "Cedric Belfrage",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional writer) (uncredited)",
-      "group_id": 3
+      "notes": "(additional writer) (uncredited)"
     }
   ],
   "release_date": "1940-01-12",

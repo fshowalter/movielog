@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0050658",
   "sort_title": "Love in the Afternoon (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000011",
-      "name": "Gary Cooper",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frank Flannagan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000030",
-      "name": "Audrey Hepburn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ariane Chavasse",
-        "Thin Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002001",
-      "name": "Maurice Chevalier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claude Chavasse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569410",
-      "name": "John McGiver",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Monsieur X"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0234767",
-      "name": "Van Doude",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Michel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0099812",
-      "name": "Lise Bourdin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Madame X"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885520",
-      "name": "Olga Val\u00e9ry",
-      "sequence": 6,
-      "notes": "(as Olga Valery)",
-      "roles": [
-        "Hotel Guest with Dog"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2883006",
-      "name": "The Gypsies",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Themselves"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000697",
@@ -84,27 +9,102 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000011",
+      "name": "Gary Cooper",
+      "sequence": 0,
+      "roles": [
+        "Frank Flannagan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000030",
+      "name": "Audrey Hepburn",
+      "sequence": 1,
+      "roles": [
+        "Ariane Chavasse",
+        "Thin Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002001",
+      "name": "Maurice Chevalier",
+      "sequence": 2,
+      "roles": [
+        "Claude Chavasse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569410",
+      "name": "John McGiver",
+      "sequence": 3,
+      "roles": [
+        "Monsieur X"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0234767",
+      "name": "Van Doude",
+      "sequence": 4,
+      "roles": [
+        "Michel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0099812",
+      "name": "Lise Bourdin",
+      "sequence": 5,
+      "roles": [
+        "Madame X"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885520",
+      "name": "Olga Val\u00e9ry",
+      "sequence": 6,
+      "roles": [
+        "Hotel Guest with Dog"
+      ],
+      "notes": "(as Olga Valery)"
+    },
+    {
+      "person_imdb_id": "nm2883006",
+      "name": "The Gypsies",
+      "sequence": 7,
+      "roles": [
+        "Themselves"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000697",
       "name": "Billy Wilder",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0029370",
       "name": "Claude Anet",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Ariane, jeune fille russe\")",
-      "group_id": 1
+      "notes": "(novel \"Ariane, jeune fille russe\")"
     }
   ],
   "release_date": "1957-05-29",

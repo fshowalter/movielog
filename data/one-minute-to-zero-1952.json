@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0044997",
   "sort_title": "One Minute to Zero (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Col. Steve Janowski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001955",
-      "name": "Ann Blyth",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. Linda Day"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848251",
-      "name": "William Talman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Col. John Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569902",
-      "name": "Charles McGraw",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sfc. Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792212",
-      "name": "Margaret Sheridan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mary Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250724",
-      "name": "Richard Egan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. Ralston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291829",
-      "name": "Eduard Franz",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Gustav Engstrand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0652366",
-      "name": "Robert Osterloh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maj. Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321143",
-      "name": "Robert Gist",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Maj. Carter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307819",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Col. Steve Janowski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001955",
+      "name": "Ann Blyth",
+      "sequence": 1,
+      "roles": [
+        "Mrs. Linda Day"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848251",
+      "name": "William Talman",
+      "sequence": 2,
+      "roles": [
+        "Col. John Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569902",
+      "name": "Charles McGraw",
+      "sequence": 3,
+      "roles": [
+        "Sfc. Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792212",
+      "name": "Margaret Sheridan",
+      "sequence": 4,
+      "roles": [
+        "Mary Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250724",
+      "name": "Richard Egan",
+      "sequence": 5,
+      "roles": [
+        "Capt. Ralston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291829",
+      "name": "Eduard Franz",
+      "sequence": 6,
+      "roles": [
+        "Dr. Gustav Engstrand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0652366",
+      "name": "Robert Osterloh",
+      "sequence": 7,
+      "roles": [
+        "Maj. Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321143",
+      "name": "Robert Gist",
+      "sequence": 8,
+      "roles": [
+        "Maj. Carter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0471341",
       "name": "Milton Krims",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0354317",
       "name": "William Wister Haines",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0813584",
       "name": "Andrew Solt",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1952-08-01",

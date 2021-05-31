@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0031851",
   "sort_title": "Return of Doctor X (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marshall Quesne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485537",
-      "name": "Rosemary Lane",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joan Vance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606998",
-      "name": "Wayne Morris",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Walter Garrett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604605",
-      "name": "Dennis Morgan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Michael Rhodes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514344",
-      "name": "John Litel",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Francis Flegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529227",
-      "name": "Lya Lys",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Angela Merrova"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355653",
-      "name": "Huntz Hall",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pinky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933161",
-      "name": "Charles C. Wilson",
-      "sequence": 7,
-      "notes": "(as Charles Wilson)",
-      "roles": [
-        "Detective Roy Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507849",
-      "name": "Vera Lewis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Miss Sweetman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382730",
-      "name": "Howard Hickman",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Chairman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398250",
-      "name": "Olin Howland",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Undertaker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043849",
-      "name": "Arthur Aylesworth",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Guide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0766705",
-      "name": "Cliff Saum",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective Sgt. Moran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354878",
-      "name": "Creighton Hale",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hotel Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Rodgers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003277",
-      "name": "Joseph Crehan",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Editor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485977",
-      "name": "Glenn Langan",
-      "sequence": 16,
-      "notes": "(as Glen Langan)",
-      "roles": [
-        "Intern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394438",
-      "name": "William Hopper",
-      "sequence": 17,
-      "notes": "(as DeWolf Hopper)",
-      "roles": [
-        "Intern"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792605",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Marshall Quesne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485537",
+      "name": "Rosemary Lane",
+      "sequence": 1,
+      "roles": [
+        "Joan Vance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606998",
+      "name": "Wayne Morris",
+      "sequence": 2,
+      "roles": [
+        "Walter Garrett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604605",
+      "name": "Dennis Morgan",
+      "sequence": 3,
+      "roles": [
+        "Michael Rhodes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514344",
+      "name": "John Litel",
+      "sequence": 4,
+      "roles": [
+        "Dr. Francis Flegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529227",
+      "name": "Lya Lys",
+      "sequence": 5,
+      "roles": [
+        "Angela Merrova"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355653",
+      "name": "Huntz Hall",
+      "sequence": 6,
+      "roles": [
+        "Pinky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933161",
+      "name": "Charles C. Wilson",
+      "sequence": 7,
+      "roles": [
+        "Detective Roy Kincaid"
+      ],
+      "notes": "(as Charles Wilson)"
+    },
+    {
+      "person_imdb_id": "nm0507849",
+      "name": "Vera Lewis",
+      "sequence": 8,
+      "roles": [
+        "Miss Sweetman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382730",
+      "name": "Howard Hickman",
+      "sequence": 9,
+      "roles": [
+        "Chairman"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0398250",
+      "name": "Olin Howland",
+      "sequence": 10,
+      "roles": [
+        "Undertaker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043849",
+      "name": "Arthur Aylesworth",
+      "sequence": 11,
+      "roles": [
+        "Guide"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0766705",
+      "name": "Cliff Saum",
+      "sequence": 12,
+      "roles": [
+        "Detective Sgt. Moran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354878",
+      "name": "Creighton Hale",
+      "sequence": 13,
+      "roles": [
+        "Hotel Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 14,
+      "roles": [
+        "Rodgers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003277",
+      "name": "Joseph Crehan",
+      "sequence": 15,
+      "roles": [
+        "Editor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485977",
+      "name": "Glenn Langan",
+      "sequence": 16,
+      "roles": [
+        "Intern"
+      ],
+      "notes": "(as Glen Langan)"
+    },
+    {
+      "person_imdb_id": "nm0394438",
+      "name": "William Hopper",
+      "sequence": 17,
+      "roles": [
+        "Intern"
+      ],
+      "notes": "(as DeWolf Hopper)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0441769",
       "name": "Lee Katz",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0538618",
       "name": "William J. Makin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     }
   ],
   "release_date": "1939-11-23",

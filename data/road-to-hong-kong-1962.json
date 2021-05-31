@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0056417",
   "sort_title": "Road to Hong Kong (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001078",
-      "name": "Bing Crosby",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001362",
-      "name": "Bob Hope",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chester Babcock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001058",
-      "name": "Joan Collins",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Diane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605923",
-      "name": "Robert Morley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Leader of the 3rd Echelon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331770",
-      "name": "Walter Gotell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Zorbb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043875",
-      "name": "Felix Aylmer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Grand Lama"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317506",
-      "name": "Alan Gifford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "American Official"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0596304",
-      "name": "Michel Mok",
-      "sequence": 7,
-      "notes": "(as Michele Mok)",
-      "roles": [
-        "Undetermined Role"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235135",
-      "name": "Katya Douglas",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "3rd Echelon Receptionist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0217069",
-      "name": "Roger Delgado",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jhinnah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0044010",
-      "name": "Robert Ayres",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "American Official"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512720",
-      "name": "Mei Ling",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ming Toy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428288",
-      "name": "Jacqueline Jones",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Blonde at Airport"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793553",
-      "name": "Yvonne Shima",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Poon Soon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483787",
-      "name": "Dorothy Lamour",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Dorothy Lamour"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534634",
-      "name": "Peter Madden",
-      "sequence": 33,
-      "notes": "(Slim) (uncredited)",
-      "roles": [
-        "Lama"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0659085",
@@ -155,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001078",
+      "name": "Bing Crosby",
+      "sequence": 0,
+      "roles": [
+        "Harry Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001362",
+      "name": "Bob Hope",
+      "sequence": 1,
+      "roles": [
+        "Chester Babcock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001058",
+      "name": "Joan Collins",
+      "sequence": 2,
+      "roles": [
+        "Diane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605923",
+      "name": "Robert Morley",
+      "sequence": 3,
+      "roles": [
+        "Leader of the 3rd Echelon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0331770",
+      "name": "Walter Gotell",
+      "sequence": 4,
+      "roles": [
+        "Dr. Zorbb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043875",
+      "name": "Felix Aylmer",
+      "sequence": 5,
+      "roles": [
+        "Grand Lama"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317506",
+      "name": "Alan Gifford",
+      "sequence": 6,
+      "roles": [
+        "American Official"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0596304",
+      "name": "Michel Mok",
+      "sequence": 7,
+      "roles": [
+        "Undetermined Role"
+      ],
+      "notes": "(as Michele Mok)"
+    },
+    {
+      "person_imdb_id": "nm0235135",
+      "name": "Katya Douglas",
+      "sequence": 8,
+      "roles": [
+        "3rd Echelon Receptionist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0217069",
+      "name": "Roger Delgado",
+      "sequence": 9,
+      "roles": [
+        "Jhinnah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0044010",
+      "name": "Robert Ayres",
+      "sequence": 10,
+      "roles": [
+        "American Official"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512720",
+      "name": "Mei Ling",
+      "sequence": 11,
+      "roles": [
+        "Ming Toy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428288",
+      "name": "Jacqueline Jones",
+      "sequence": 12,
+      "roles": [
+        "Blonde at Airport"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793553",
+      "name": "Yvonne Shima",
+      "sequence": 13,
+      "roles": [
+        "Poon Soon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483787",
+      "name": "Dorothy Lamour",
+      "sequence": 14,
+      "roles": [
+        "Dorothy Lamour"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0291035",
       "name": "Melvin Frank",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0659085",
       "name": "Norman Panama",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     }
   ],
   "release_date": "1962-03-29",

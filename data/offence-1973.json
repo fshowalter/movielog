@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0070468",
   "sort_title": "Offence (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002145",
-      "name": "Trevor Howard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cartwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580357",
-      "name": "Vivien Merchant",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maureen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000846",
-      "name": "Ian Bannen",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101248",
-      "name": "Peter Bowles",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cameron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627610",
-      "name": "Derek Newark",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jessard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0705382",
-      "name": "Ronald Radd",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356268",
-      "name": "John Hallam",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Panton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601784",
-      "name": "Richard Moore",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Garrett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0755990",
-      "name": "Anthony Sagar",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330445",
-      "name": "Maxine Gordon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Janie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271774",
-      "name": "Hilda Fenemore",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Woman on Common"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507654",
-      "name": "Rhoda Lewis",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Woman at School"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526152",
-      "name": "Cynthia Lund",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Child at School"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329641",
-      "name": "Howard Goorney",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Lambert"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -146,20 +9,157 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 0,
+      "roles": [
+        "Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002145",
+      "name": "Trevor Howard",
+      "sequence": 1,
+      "roles": [
+        "Cartwright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580357",
+      "name": "Vivien Merchant",
+      "sequence": 2,
+      "roles": [
+        "Maureen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000846",
+      "name": "Ian Bannen",
+      "sequence": 3,
+      "roles": [
+        "Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101248",
+      "name": "Peter Bowles",
+      "sequence": 4,
+      "roles": [
+        "Cameron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627610",
+      "name": "Derek Newark",
+      "sequence": 5,
+      "roles": [
+        "Jessard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0705382",
+      "name": "Ronald Radd",
+      "sequence": 6,
+      "roles": [
+        "Lawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356268",
+      "name": "John Hallam",
+      "sequence": 7,
+      "roles": [
+        "Panton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601784",
+      "name": "Richard Moore",
+      "sequence": 8,
+      "roles": [
+        "Garrett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0755990",
+      "name": "Anthony Sagar",
+      "sequence": 9,
+      "roles": [
+        "Hill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330445",
+      "name": "Maxine Gordon",
+      "sequence": 10,
+      "roles": [
+        "Janie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271774",
+      "name": "Hilda Fenemore",
+      "sequence": 11,
+      "roles": [
+        "Woman on Common"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507654",
+      "name": "Rhoda Lewis",
+      "sequence": 12,
+      "roles": [
+        "Woman at School"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526152",
+      "name": "Cynthia Lund",
+      "sequence": 13,
+      "roles": [
+        "Child at School"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329641",
+      "name": "Howard Goorney",
+      "sequence": 14,
+      "roles": [
+        "Lambert"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0394200",
       "name": "John Hopkins",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"This Story of Yours\")",
-      "group_id": 0
+      "notes": "(play \"This Story of Yours\")"
     },
     {
       "person_imdb_id": "nm0394200",
       "name": "John Hopkins",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1973-01-11",

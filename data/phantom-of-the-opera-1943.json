@@ -1,206 +1,6 @@
 {
   "imdb_id": "tt0036261",
   "sort_title": "Phantom of the Opera (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0248904",
-      "name": "Nelson Eddy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anatole Garron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288078",
-      "name": "Susanna Foster",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Christine DuBois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Erique Claudin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057422",
-      "name": "Edgar Barrier",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Raoul Daubert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140504",
-      "name": "Leo Carrillo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Signor Ferretti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268129",
-      "name": "Jane Farrar",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Biancarolli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111297",
-      "name": "J. Edward Bromberg",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Amiot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0270915",
-      "name": "Fritz Feld",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lecours"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700084",
-      "name": "Frank Puglia",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Villeneuve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314065",
-      "name": "Steven Geray",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Vercheres"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263481",
-      "name": "Barbara Everest",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Aunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002025",
-      "name": "Hume Cronyn",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gerard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500021",
-      "name": "Fritz Leiber",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Franz Liszt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028168",
-      "name": "Nicki Andre",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Lorenzi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086560",
-      "name": "Gladys Blake",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Jeanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192619",
-      "name": "Elvira Curci",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Biancarolli's Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378550",
-      "name": "Hans Herbert",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Marcel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493260",
-      "name": "Kate Drain Lawson",
-      "sequence": 17,
-      "notes": "(as Kate Lawson)",
-      "roles": [
-        "Landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541766",
-      "name": "Miles Mander",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Pleyel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302873",
-      "name": "Rosina Galli",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Christine's Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0821499",
-      "name": "Walter O. Stahl",
-      "sequence": 20,
-      "notes": "(as Walter Stahl)",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548001",
-      "name": "Paul Marion",
-      "sequence": 21,
-      "notes": "",
-      "roles": [
-        "Desjardines"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0523893",
@@ -209,41 +9,241 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0248904",
+      "name": "Nelson Eddy",
+      "sequence": 0,
+      "roles": [
+        "Anatole Garron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288078",
+      "name": "Susanna Foster",
+      "sequence": 1,
+      "roles": [
+        "Christine DuBois"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 2,
+      "roles": [
+        "Erique Claudin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057422",
+      "name": "Edgar Barrier",
+      "sequence": 3,
+      "roles": [
+        "Raoul Daubert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140504",
+      "name": "Leo Carrillo",
+      "sequence": 4,
+      "roles": [
+        "Signor Ferretti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268129",
+      "name": "Jane Farrar",
+      "sequence": 5,
+      "roles": [
+        "Biancarolli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111297",
+      "name": "J. Edward Bromberg",
+      "sequence": 6,
+      "roles": [
+        "Amiot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0270915",
+      "name": "Fritz Feld",
+      "sequence": 7,
+      "roles": [
+        "Lecours"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700084",
+      "name": "Frank Puglia",
+      "sequence": 8,
+      "roles": [
+        "Villeneuve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314065",
+      "name": "Steven Geray",
+      "sequence": 9,
+      "roles": [
+        "Vercheres"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263481",
+      "name": "Barbara Everest",
+      "sequence": 10,
+      "roles": [
+        "Aunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002025",
+      "name": "Hume Cronyn",
+      "sequence": 11,
+      "roles": [
+        "Gerard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0500021",
+      "name": "Fritz Leiber",
+      "sequence": 12,
+      "roles": [
+        "Franz Liszt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028168",
+      "name": "Nicki Andre",
+      "sequence": 13,
+      "roles": [
+        "Lorenzi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086560",
+      "name": "Gladys Blake",
+      "sequence": 14,
+      "roles": [
+        "Jeanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192619",
+      "name": "Elvira Curci",
+      "sequence": 15,
+      "roles": [
+        "Biancarolli's Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378550",
+      "name": "Hans Herbert",
+      "sequence": 16,
+      "roles": [
+        "Marcel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493260",
+      "name": "Kate Drain Lawson",
+      "sequence": 17,
+      "roles": [
+        "Landlady"
+      ],
+      "notes": "(as Kate Lawson)"
+    },
+    {
+      "person_imdb_id": "nm0541766",
+      "name": "Miles Mander",
+      "sequence": 18,
+      "roles": [
+        "Pleyel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302873",
+      "name": "Rosina Galli",
+      "sequence": 19,
+      "roles": [
+        "Christine's Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0821499",
+      "name": "Walter O. Stahl",
+      "sequence": 20,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": "(as Walter Stahl)"
+    },
+    {
+      "person_imdb_id": "nm0548001",
+      "name": "Paul Marion",
+      "sequence": 21,
+      "roles": [
+        "Desjardines"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0852338",
       "name": "Eric Taylor",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0388755",
       "name": "Samuel Hoffenstein",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0414989",
       "name": "Hans Jacoby",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (as John Jacoby)",
-      "group_id": 1
+      "notes": "(adaptation) (as John Jacoby)"
     },
     {
       "person_imdb_id": "nm0503693",
       "name": "Gaston Leroux",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"Le Fant\u00f4me de L'Op\u00e9ra\")",
-      "group_id": 2
+      "notes": "(novel \"Le Fant\u00f4me de L'Op\u00e9ra\")"
     },
     {
       "person_imdb_id": "nm0414989",
       "name": "Hans Jacoby",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1943-08-12",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0060862",
   "sort_title": "Professionals (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000044",
-      "name": "Burt Lancaster",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dolworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Fardan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752813",
-      "name": "Robert Ryan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ehrengard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0834754",
-      "name": "Woody Strode",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001588",
-      "name": "Jack Palance",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jesus Raza"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001012",
-      "name": "Claudia Cardinale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Maria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000897",
-      "name": "Ralph Bellamy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0211460",
-      "name": "Joe De Santis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ortega"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0078413",
-      "name": "Rafael Bertrand",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Fierro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554830",
-      "name": "Jorge Mart\u00ednez de Hoyos",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Padillia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0327050",
-      "name": "Marie Gomez",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Chiquita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161657",
-      "name": "Jos\u00e9 Ch\u00e1vez",
-      "sequence": 11,
-      "notes": "(as Jose Chavez)",
-      "roles": [
-        "Revolutionary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0739347",
-      "name": "Carlos Romero",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Revolutionary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853299",
-      "name": "Vaughn Taylor",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Banker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0112218",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000044",
+      "name": "Burt Lancaster",
+      "sequence": 0,
+      "roles": [
+        "Dolworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 1,
+      "roles": [
+        "Fardan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752813",
+      "name": "Robert Ryan",
+      "sequence": 2,
+      "roles": [
+        "Ehrengard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0834754",
+      "name": "Woody Strode",
+      "sequence": 3,
+      "roles": [
+        "Jake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001588",
+      "name": "Jack Palance",
+      "sequence": 4,
+      "roles": [
+        "Jesus Raza"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001012",
+      "name": "Claudia Cardinale",
+      "sequence": 5,
+      "roles": [
+        "Maria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000897",
+      "name": "Ralph Bellamy",
+      "sequence": 6,
+      "roles": [
+        "Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0211460",
+      "name": "Joe De Santis",
+      "sequence": 7,
+      "roles": [
+        "Ortega"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0078413",
+      "name": "Rafael Bertrand",
+      "sequence": 8,
+      "roles": [
+        "Fierro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0554830",
+      "name": "Jorge Mart\u00ednez de Hoyos",
+      "sequence": 9,
+      "roles": [
+        "Padillia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0327050",
+      "name": "Marie Gomez",
+      "sequence": 10,
+      "roles": [
+        "Chiquita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161657",
+      "name": "Jos\u00e9 Ch\u00e1vez",
+      "sequence": 11,
+      "roles": [
+        "Revolutionary"
+      ],
+      "notes": "(as Jose Chavez)"
+    },
+    {
+      "person_imdb_id": "nm0739347",
+      "name": "Carlos Romero",
+      "sequence": 12,
+      "roles": [
+        "Revolutionary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853299",
+      "name": "Vaughn Taylor",
+      "sequence": 13,
+      "roles": [
+        "Banker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0642543",
       "name": "Frank O'Rourke",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"A Mule for the Marquesa\")",
-      "group_id": 0
+      "notes": "(novel \"A Mule for the Marquesa\")"
     },
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 1
+      "notes": "(written for the screen by)"
     }
   ],
   "release_date": "1966-11-02",

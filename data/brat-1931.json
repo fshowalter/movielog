@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0021695",
   "sort_title": "Brat (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0642063",
-      "name": "Sally O'Neil",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Brat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003062",
-      "name": "Alan Dinehart",
-      "sequence": 1,
-      "notes": "(as Allan Dinehart)",
-      "roles": [
-        "MacMillan Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stephen Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171874",
-      "name": "William Collier Sr.",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Judge Emmett A. O'Flaherty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156039",
-      "name": "Virginia Cherrill",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Angela"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172875",
-      "name": "June Collyer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Timothy Timson - the Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285376",
-      "name": "Mary Forbes",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Mary Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0334581",
-      "name": "Albert Gran",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bishop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533591",
-      "name": "Louise Mackintosh",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542870",
-      "name": "Margaret Mann",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Housekeeper"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -110,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0642063",
+      "name": "Sally O'Neil",
+      "sequence": 0,
+      "roles": [
+        "The Brat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003062",
+      "name": "Alan Dinehart",
+      "sequence": 1,
+      "roles": [
+        "MacMillan Forrester"
+      ],
+      "notes": "(as Allan Dinehart)"
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 2,
+      "roles": [
+        "Stephen Forrester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171874",
+      "name": "William Collier Sr.",
+      "sequence": 3,
+      "roles": [
+        "Judge Emmett A. O'Flaherty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156039",
+      "name": "Virginia Cherrill",
+      "sequence": 4,
+      "roles": [
+        "Angela"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172875",
+      "name": "June Collyer",
+      "sequence": 5,
+      "roles": [
+        "Jane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 6,
+      "roles": [
+        "Timothy Timson - the Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285376",
+      "name": "Mary Forbes",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Mary Forrester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0334581",
+      "name": "Albert Gran",
+      "sequence": 8,
+      "roles": [
+        "Bishop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533591",
+      "name": "Louise Mackintosh",
+      "sequence": 9,
+      "roles": [
+        "Lena"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0542870",
+      "name": "Margaret Mann",
+      "sequence": 10,
+      "roles": [
+        "Housekeeper"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0067103",
       "name": "S.N. Behrman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0298494",
       "name": "Maude Fulton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0298494",
       "name": "Maude Fulton",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0397022",
       "name": "Sonya Levien",
+      "group": 3,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 3
+      "notes": "()"
     }
   ],
   "release_date": "1931-08-23",

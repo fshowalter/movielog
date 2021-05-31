@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0029284",
   "sort_title": "My Favorite Wife (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002050",
-      "name": "Irene Dunne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ellen Wagstaff Arden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nick Arden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stephen Burkett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665850",
-      "name": "Gail Patrick",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bianca Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794700",
-      "name": "Ann Shoemaker",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ma - Nick's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065717",
-      "name": "Scotty Beckett",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tim - the Ardens' Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364317",
-      "name": "Mary Lou Harrington",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chinch - the Ardens' Daughter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531385",
-      "name": "Donald MacBride",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hotel Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640078",
-      "name": "Hugh O'Connell",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Johnson - Insurance Adjuster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060912",
-      "name": "Granville Bates",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge Bryson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003124",
-      "name": "Pedro de Cordoba",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Kohlmar"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0437717",
@@ -110,62 +9,163 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002050",
+      "name": "Irene Dunne",
+      "sequence": 0,
+      "roles": [
+        "Ellen Wagstaff Arden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Nick Arden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 2,
+      "roles": [
+        "Stephen Burkett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665850",
+      "name": "Gail Patrick",
+      "sequence": 3,
+      "roles": [
+        "Bianca Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794700",
+      "name": "Ann Shoemaker",
+      "sequence": 4,
+      "roles": [
+        "Ma - Nick's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065717",
+      "name": "Scotty Beckett",
+      "sequence": 5,
+      "roles": [
+        "Tim - the Ardens' Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364317",
+      "name": "Mary Lou Harrington",
+      "sequence": 6,
+      "roles": [
+        "Chinch - the Ardens' Daughter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531385",
+      "name": "Donald MacBride",
+      "sequence": 7,
+      "roles": [
+        "Hotel Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640078",
+      "name": "Hugh O'Connell",
+      "sequence": 8,
+      "roles": [
+        "Johnson - Insurance Adjuster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060912",
+      "name": "Granville Bates",
+      "sequence": 9,
+      "roles": [
+        "Judge Bryson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003124",
+      "name": "Pedro de Cordoba",
+      "sequence": 10,
+      "roles": [
+        "Dr. Kohlmar"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0818415",
       "name": "Bella Spewack",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0818416",
       "name": "Sam Spewack",
-      "sequence": 0,
-      "notes": "(original story) (as Samuel Spewack)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story) (as Samuel Spewack)"
     },
     {
       "person_imdb_id": "nm0564970",
       "name": "Leo McCarey",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0818415",
       "name": "Bella Spewack",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 1
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0818416",
       "name": "Sam Spewack",
-      "sequence": 0,
-      "notes": "(written for the screen by) (as Samuel Spewack)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(written for the screen by) (as Samuel Spewack)"
     },
     {
       "person_imdb_id": "nm0437717",
       "name": "Garson Kanin",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0565609",
       "name": "John McClain",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0855139",
       "name": "Alfred Lord Tennyson",
+      "group": 4,
       "sequence": 0,
-      "notes": "(poem \"Enoch Arden\") (uncredited)",
-      "group_id": 4
+      "notes": "(poem \"Enoch Arden\") (uncredited)"
     }
   ],
   "release_date": "1940-05-02",

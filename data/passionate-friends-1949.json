@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0041735",
   "sort_title": "Passionate Friends (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002897",
-      "name": "Ann Todd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mary Justin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Howard Justin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002145",
-      "name": "Trevor Howard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Professor Steven Stratton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203606",
-      "name": "Betty Ann Davies",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miss Joan Layton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212794",
-      "name": "Isabel Dean",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pat Stratton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397128",
-      "name": "Arthur Howard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Smith - the Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521112",
-      "name": "Guido Lorraine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Hotel Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0690333",
-      "name": "Marcel Poncin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hall Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812497",
-      "name": "Natasha Sokolova",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Chambermaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122166",
-      "name": "H\u00e9l\u00e8ne Burls",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Flowerwoman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0785701",
-      "name": "Jean Serret",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Emigration Official"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912252",
-      "name": "Frances Waring",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Charwoman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1728846",
-      "name": "Wenda Rogerson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Bridge Guest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682702",
-      "name": "Helen Piers",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "1st Woman - Albert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671245",
-      "name": "Ina Pelly",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "2nd Woman - Albert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403924",
-      "name": "John Huson",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "1st Man - Albert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3472108",
-      "name": "John Unwin",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "2nd Man - Albert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247342",
-      "name": "Max Earle",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "3rd Man - Albert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405035",
-      "name": "Wilfrid Hyde-White",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Lawyer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000180",
@@ -182,34 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002897",
+      "name": "Ann Todd",
+      "sequence": 0,
+      "roles": [
+        "Mary Justin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 1,
+      "roles": [
+        "Howard Justin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002145",
+      "name": "Trevor Howard",
+      "sequence": 2,
+      "roles": [
+        "Professor Steven Stratton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203606",
+      "name": "Betty Ann Davies",
+      "sequence": 3,
+      "roles": [
+        "Miss Joan Layton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212794",
+      "name": "Isabel Dean",
+      "sequence": 4,
+      "roles": [
+        "Pat Stratton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397128",
+      "name": "Arthur Howard",
+      "sequence": 5,
+      "roles": [
+        "Smith - the Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521112",
+      "name": "Guido Lorraine",
+      "sequence": 6,
+      "roles": [
+        "Hotel Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0690333",
+      "name": "Marcel Poncin",
+      "sequence": 7,
+      "roles": [
+        "Hall Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812497",
+      "name": "Natasha Sokolova",
+      "sequence": 8,
+      "roles": [
+        "Chambermaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122166",
+      "name": "H\u00e9l\u00e8ne Burls",
+      "sequence": 9,
+      "roles": [
+        "Flowerwoman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0785701",
+      "name": "Jean Serret",
+      "sequence": 10,
+      "roles": [
+        "Emigration Official"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912252",
+      "name": "Frances Waring",
+      "sequence": 11,
+      "roles": [
+        "Charwoman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1728846",
+      "name": "Wenda Rogerson",
+      "sequence": 12,
+      "roles": [
+        "Bridge Guest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682702",
+      "name": "Helen Piers",
+      "sequence": 13,
+      "roles": [
+        "1st Woman - Albert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0671245",
+      "name": "Ina Pelly",
+      "sequence": 14,
+      "roles": [
+        "2nd Woman - Albert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403924",
+      "name": "John Huson",
+      "sequence": 15,
+      "roles": [
+        "1st Man - Albert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3472108",
+      "name": "John Unwin",
+      "sequence": 16,
+      "roles": [
+        "2nd Man - Albert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247342",
+      "name": "Max Earle",
+      "sequence": 17,
+      "roles": [
+        "3rd Man - Albert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405035",
+      "name": "Wilfrid Hyde-White",
+      "sequence": 18,
+      "roles": [
+        "Lawyer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0920229",
       "name": "H.G. Wells",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0001907",
       "name": "Eric Ambler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000180",
       "name": "David Lean",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0371552",
       "name": "Stanley Haynes",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1949-01-26",

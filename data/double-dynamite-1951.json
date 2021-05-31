@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0043476",
   "sort_title": "Double Dynamite (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000066",
-      "name": "Jane Russell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mildred 'Mibs' Goodhue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000050",
-      "name": "Groucho Marx",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Emile J. Keck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johnny Dalton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570190",
-      "name": "Don McGuire",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "R.B. 'Bob' Pulsifer Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293418",
-      "name": "Howard Freeman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "R.B. Pulsifer Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656980",
-      "name": "Nestor Paiva",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "'Hot Horse' Harris, the Bookie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0650995",
-      "name": "Frank Orth",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Kofer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370743",
-      "name": "Harry Hayden",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "J.L. McKissack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249602",
-      "name": "William Edmunds",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Baganucci"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861776",
-      "name": "Russell Thorson",
-      "sequence": 9,
-      "notes": "(as Russ Thorson)",
-      "roles": [
-        "Internal Revenue Service Tailman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163417",
-      "name": "Tom London",
-      "sequence": 36,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Grinning Police Patrol Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0191899",
@@ -110,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000066",
+      "name": "Jane Russell",
+      "sequence": 0,
+      "roles": [
+        "Mildred 'Mibs' Goodhue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000050",
+      "name": "Groucho Marx",
+      "sequence": 1,
+      "roles": [
+        "Emile J. Keck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 2,
+      "roles": [
+        "Johnny Dalton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570190",
+      "name": "Don McGuire",
+      "sequence": 3,
+      "roles": [
+        "R.B. 'Bob' Pulsifer Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293418",
+      "name": "Howard Freeman",
+      "sequence": 4,
+      "roles": [
+        "R.B. Pulsifer Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656980",
+      "name": "Nestor Paiva",
+      "sequence": 5,
+      "roles": [
+        "'Hot Horse' Harris, the Bookie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0650995",
+      "name": "Frank Orth",
+      "sequence": 6,
+      "roles": [
+        "Mr. Kofer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370743",
+      "name": "Harry Hayden",
+      "sequence": 7,
+      "roles": [
+        "J.L. McKissack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249602",
+      "name": "William Edmunds",
+      "sequence": 8,
+      "roles": [
+        "Mr. Baganucci"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861776",
+      "name": "Russell Thorson",
+      "sequence": 9,
+      "roles": [
+        "Internal Revenue Service Tailman"
+      ],
+      "notes": "(as Russ Thorson)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0789520",
       "name": "Melville Shavelson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0744576",
       "name": "Leo Rosten",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0186355",
       "name": "Harry Crane",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 3
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1951-12-25",

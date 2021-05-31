@@ -1,155 +1,6 @@
 {
   "imdb_id": "tt0054768",
   "sort_title": "Creature from the Haunted Sea (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0136147",
-      "name": "Antony Carbone",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Renzo Capetto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0429506",
-      "name": "Betsy Jones-Moreland",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary-Belle Monahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001801",
-      "name": "Robert Towne",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sparks Moran",
-        "Agent XK150",
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225398",
-      "name": "Beach Dickerson",
-      "sequence": 3,
-      "notes": "(as Beech Dickerson)",
-      "roles": [
-        "Pete Peterson Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0063808",
-      "name": "Robert Bean",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Happy Jack Monahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762115",
-      "name": "Esther Sandoval",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rosina Perez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328490",
-      "name": "Sonia Noem\u00ed Gonz\u00e1lez",
-      "sequence": 6,
-      "notes": "(as Sonia Noemi Gonzalez)",
-      "roles": [
-        "Mango Perez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729192",
-      "name": "Edmundo Rivera \u00c1lvarez",
-      "sequence": 7,
-      "notes": "(as Edmundo Rivera Alvarez)",
-      "roles": [
-        "Gen. Tostada"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627508",
-      "name": "Terry Nevin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cuban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0530081",
-      "name": "Elisio Lopez",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cuban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402647",
-      "name": "Tanner Hunt",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cuban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0739344",
-      "name": "Blanquita Romero",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Carmelita Rodriguez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0746856",
-      "name": "Armando Rowra",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Cuban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247983",
-      "name": "Jaclyn Hellman",
-      "sequence": 14,
-      "notes": "(Scenes added later for television showings) (uncredited)",
-      "roles": [
-        "Agent XK-120"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443397",
-      "name": "Stanton Kaye",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Cuban",
-        "Second Man Chasing XK150"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801541",
-      "name": "Richard Sinatra",
-      "sequence": 19,
-      "notes": "(scene added later for television showings) (uncredited)",
-      "roles": [
-        "Man at Pay Phone"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -158,13 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0136147",
+      "name": "Antony Carbone",
+      "sequence": 0,
+      "roles": [
+        "Renzo Capetto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0429506",
+      "name": "Betsy Jones-Moreland",
+      "sequence": 1,
+      "roles": [
+        "Mary-Belle Monahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001801",
+      "name": "Robert Towne",
+      "sequence": 2,
+      "roles": [
+        "Sparks Moran",
+        "Agent XK150",
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0225398",
+      "name": "Beach Dickerson",
+      "sequence": 3,
+      "roles": [
+        "Pete Peterson Jr."
+      ],
+      "notes": "(as Beech Dickerson)"
+    },
+    {
+      "person_imdb_id": "nm0063808",
+      "name": "Robert Bean",
+      "sequence": 4,
+      "roles": [
+        "Happy Jack Monahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762115",
+      "name": "Esther Sandoval",
+      "sequence": 5,
+      "roles": [
+        "Rosina Perez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328490",
+      "name": "Sonia Noem\u00ed Gonz\u00e1lez",
+      "sequence": 6,
+      "roles": [
+        "Mango Perez"
+      ],
+      "notes": "(as Sonia Noemi Gonzalez)"
+    },
+    {
+      "person_imdb_id": "nm0729192",
+      "name": "Edmundo Rivera \u00c1lvarez",
+      "sequence": 7,
+      "roles": [
+        "Gen. Tostada"
+      ],
+      "notes": "(as Edmundo Rivera Alvarez)"
+    },
+    {
+      "person_imdb_id": "nm0627508",
+      "name": "Terry Nevin",
+      "sequence": 8,
+      "roles": [
+        "Cuban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0530081",
+      "name": "Elisio Lopez",
+      "sequence": 9,
+      "roles": [
+        "Cuban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402647",
+      "name": "Tanner Hunt",
+      "sequence": 10,
+      "roles": [
+        "Cuban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0739344",
+      "name": "Blanquita Romero",
+      "sequence": 11,
+      "roles": [
+        "Carmelita Rodriguez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0746856",
+      "name": "Armando Rowra",
+      "sequence": 12,
+      "roles": [
+        "Cuban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0443397",
+      "name": "Stanton Kaye",
+      "sequence": 16,
+      "roles": [
+        "Cuban",
+        "Second Man Chasing XK150"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0341458",
       "name": "Charles B. Griffith",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1961-06-01",

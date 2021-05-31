@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0034521",
   "sort_title": "Black Dragons (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Melcher",
-        "Cell Prisoner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054060",
-      "name": "Joan Barclay",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alice Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671496",
-      "name": "George Pembroke",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Bill Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138194",
-      "name": "Clayton Moore",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dick Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292537",
-      "name": "Robert Frazer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Amos Hanlin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081361",
-      "name": "Edward Peil Sr.",
-      "sequence": 5,
-      "notes": "(as Edward Piel Sr.)",
-      "roles": [
-        "Ryder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279963",
-      "name": "Robert Fiske",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Phillip Wallace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593401",
-      "name": "Irving Mitchell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "John Van Dyke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363218",
-      "name": "Kenneth Harlan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "FBI Chief Colton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388791",
-      "name": "Max Hoffman Jr.",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Kearney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0578389",
-      "name": "Frank Melton",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "FBI Agent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250888",
-      "name": "Joseph Eggenton",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427157",
-      "name": "I. Stanford Jolley",
-      "sequence": 12,
-      "notes": "(as Stanford Jolley)",
-      "roles": [
-        "The Dragon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0631438",
@@ -129,27 +9,147 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Dr. Melcher",
+        "Cell Prisoner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054060",
+      "name": "Joan Barclay",
+      "sequence": 1,
+      "roles": [
+        "Alice Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0671496",
+      "name": "George Pembroke",
+      "sequence": 2,
+      "roles": [
+        "Dr. Bill Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138194",
+      "name": "Clayton Moore",
+      "sequence": 3,
+      "roles": [
+        "Dick Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292537",
+      "name": "Robert Frazer",
+      "sequence": 4,
+      "roles": [
+        "Amos Hanlin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0081361",
+      "name": "Edward Peil Sr.",
+      "sequence": 5,
+      "roles": [
+        "Ryder"
+      ],
+      "notes": "(as Edward Piel Sr.)"
+    },
+    {
+      "person_imdb_id": "nm0279963",
+      "name": "Robert Fiske",
+      "sequence": 6,
+      "roles": [
+        "Phillip Wallace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593401",
+      "name": "Irving Mitchell",
+      "sequence": 7,
+      "roles": [
+        "John Van Dyke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363218",
+      "name": "Kenneth Harlan",
+      "sequence": 8,
+      "roles": [
+        "FBI Chief Colton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388791",
+      "name": "Max Hoffman Jr.",
+      "sequence": 9,
+      "roles": [
+        "Kearney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0578389",
+      "name": "Frank Melton",
+      "sequence": 10,
+      "roles": [
+        "FBI Agent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250888",
+      "name": "Joseph Eggenton",
+      "sequence": 11,
+      "roles": [
+        "Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0427157",
+      "name": "I. Stanford Jolley",
+      "sequence": 12,
+      "roles": [
+        "The Dragon"
+      ],
+      "notes": "(as Stanford Jolley)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0309567",
       "name": "Harvey Gates",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0309567",
       "name": "Harvey Gates",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm1255711",
       "name": "Robert Kehoe",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"Black Dragon\") (uncredited)",
-      "group_id": 2
+      "notes": "(story \"Black Dragon\") (uncredited)"
     }
   ],
   "release_date": "1942-03-06",

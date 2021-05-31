@@ -1,150 +1,6 @@
 {
   "imdb_id": "tt0066830",
   "sort_title": "Big Doll House (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1726542",
-      "name": "Judith Brown",
-      "sequence": 0,
-      "notes": "(as Judy Brown)",
-      "roles": [
-        "Collier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172646",
-      "name": "Roberta Collins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alcott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000427",
-      "name": "Pam Grier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Grear"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589932",
-      "name": "Brooke Mills",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Harrad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940235",
-      "name": "Pat Woodell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bodine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354085",
-      "name": "Sid Haig",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0773311",
-      "name": "Christiane Schmidtmer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miss Dietrich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517063",
-      "name": "Kathryn Loder",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lucian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2164619",
-      "name": "Jerry Franks",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Fred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835701",
-      "name": "Gina Stuart",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ferina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0204733",
-      "name": "Jack Davis",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592263",
-      "name": "Letty Mirasol",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Leyte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0209161",
-      "name": "Shirley de las Alas",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212088",
-      "name": "Myrna De Vera",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179623",
-      "name": "Siony Cordona",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567415",
-      "name": "Kathy McDaniel",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0384335",
@@ -153,13 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1726542",
+      "name": "Judith Brown",
+      "sequence": 0,
+      "roles": [
+        "Collier"
+      ],
+      "notes": "(as Judy Brown)"
+    },
+    {
+      "person_imdb_id": "nm0172646",
+      "name": "Roberta Collins",
+      "sequence": 1,
+      "roles": [
+        "Alcott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000427",
+      "name": "Pam Grier",
+      "sequence": 2,
+      "roles": [
+        "Grear"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589932",
+      "name": "Brooke Mills",
+      "sequence": 3,
+      "roles": [
+        "Harrad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940235",
+      "name": "Pat Woodell",
+      "sequence": 4,
+      "roles": [
+        "Bodine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354085",
+      "name": "Sid Haig",
+      "sequence": 5,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0773311",
+      "name": "Christiane Schmidtmer",
+      "sequence": 6,
+      "roles": [
+        "Miss Dietrich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517063",
+      "name": "Kathryn Loder",
+      "sequence": 7,
+      "roles": [
+        "Lucian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2164619",
+      "name": "Jerry Franks",
+      "sequence": 8,
+      "roles": [
+        "Fred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835701",
+      "name": "Gina Stuart",
+      "sequence": 9,
+      "roles": [
+        "Ferina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0204733",
+      "name": "Jack Davis",
+      "sequence": 10,
+      "roles": [
+        "Dr. Phillips"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0592263",
+      "name": "Letty Mirasol",
+      "sequence": 11,
+      "roles": [
+        "Leyte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0209161",
+      "name": "Shirley de las Alas",
+      "sequence": 12,
+      "roles": [
+        "Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212088",
+      "name": "Myrna De Vera",
+      "sequence": 13,
+      "roles": [
+        "Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179623",
+      "name": "Siony Cordona",
+      "sequence": 14,
+      "roles": [
+        "Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0567415",
+      "name": "Kathy McDaniel",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0817922",
       "name": "Don Spencer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1971-04-30",

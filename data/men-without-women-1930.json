@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0021140",
   "sort_title": "Men Without Women (1930)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0533247",
-      "name": "Kenneth MacKenna",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Chief Torpedoman Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ens. Albert Edward Price"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 2,
-      "notes": "(as Farrell Macdonald)",
-      "roles": [
-        "Costello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405220",
-      "name": "Warren Hymer",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kaufman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656304",
-      "name": "Paul Page",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Handsome"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569747",
-      "name": "Walter McGrail",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Joe Cobb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0260020",
-      "name": "Stuart Erwin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jenkins - Radioman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0499548",
-      "name": "George LeGuere",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Curly Pollock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314699",
-      "name": "Charles K. Gerrard",
-      "sequence": 8,
-      "notes": "(as Charles Gerrard)",
-      "roles": [
-        "Cmdr. Weymouth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376698",
-      "name": "Ben Hendricks Jr.",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Murphy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0854888",
-      "name": "Harry Tenbrook",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dutch Winkler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725173",
-      "name": "Warner Richmond",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lt. Cmdr. Briddwell"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0533247",
+      "name": "Kenneth MacKenna",
+      "sequence": 0,
+      "roles": [
+        "Chief Torpedoman Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 1,
+      "roles": [
+        "Ens. Albert Edward Price"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 2,
+      "roles": [
+        "Costello"
+      ],
+      "notes": "(as Farrell Macdonald)"
+    },
+    {
+      "person_imdb_id": "nm0405220",
+      "name": "Warren Hymer",
+      "sequence": 3,
+      "roles": [
+        "Kaufman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656304",
+      "name": "Paul Page",
+      "sequence": 4,
+      "roles": [
+        "Handsome"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569747",
+      "name": "Walter McGrail",
+      "sequence": 5,
+      "roles": [
+        "Joe Cobb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0260020",
+      "name": "Stuart Erwin",
+      "sequence": 6,
+      "roles": [
+        "Jenkins - Radioman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0499548",
+      "name": "George LeGuere",
+      "sequence": 7,
+      "roles": [
+        "Curly Pollock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314699",
+      "name": "Charles K. Gerrard",
+      "sequence": 8,
+      "roles": [
+        "Cmdr. Weymouth"
+      ],
+      "notes": "(as Charles Gerrard)"
+    },
+    {
+      "person_imdb_id": "nm0376698",
+      "name": "Ben Hendricks Jr.",
+      "sequence": 9,
+      "roles": [
+        "Murphy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0854888",
+      "name": "Harry Tenbrook",
+      "sequence": 10,
+      "roles": [
+        "Dutch Winkler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725173",
+      "name": "Warner Richmond",
+      "sequence": 11,
+      "roles": [
+        "Lt. Cmdr. Briddwell"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000406",
       "name": "John Ford",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0570130",
       "name": "James Kevin McGuinness",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play and scenario)",
-      "group_id": 1
+      "notes": "(screen play and scenario)"
     },
     {
       "person_imdb_id": "nm0293546",
       "name": "Otis C. Freeman",
+      "group": 2,
       "sequence": 0,
-      "notes": "(titles)",
-      "group_id": 2
+      "notes": "(titles)"
     }
   ],
   "release_date": "1930-01-31",
