@@ -23,14 +23,14 @@ def prompt(
         search_results = search_func(query)
 
         person = radio_list.prompt(
-            title=f'Results for "<cyan>{query}</cyan>":',
+            title='Results for "<cyan>{0}</cyan>":'.format(query),
             options=build_options(search_results),
         )
 
     if not person:
         return None
 
-    if confirm.prompt(f"<cyan>{person.name}</cyan>?"):
+    if confirm.prompt("<cyan>{0}</cyan>?".format(person.name)):
         return person
 
     return prompt(search_func)

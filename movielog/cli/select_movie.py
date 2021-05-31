@@ -22,7 +22,7 @@ def prompt(prompt_text: str = "Title: ") -> Optional[SearchResult]:
         options = build_options(search_results)
 
         movie = radio_list.prompt(
-            title=f'Results for "<cyan>{query}</cyan>":',
+            title='Results for "<cyan>{0}</cyan>":'.format(query),
             options=options,
         )
 

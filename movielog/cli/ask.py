@@ -19,7 +19,7 @@ def prompt(
     right_side_prompt = "ESC to go back"
 
     if rprompt:
-        right_side_prompt = f"{right_side_prompt} | {rprompt}"
+        right_side_prompt = "{0} | {1}".format(right_side_prompt, rprompt)
 
     return cast(
         Optional[str],
