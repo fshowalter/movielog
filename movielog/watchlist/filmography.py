@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import fnmatch
 import time
 from typing import Iterator, Optional
@@ -13,8 +15,8 @@ silent_ids: set[str] = set()
 no_sound_mix_ids: set[str] = set()
 
 
-def is_silent(movie: imdb.Movie.Movie) -> Optional[bool]:
-    movie_id = movie.movieID
+def is_silent(imdb_movie: imdb.Movie.Movie) -> Optional[bool]:
+    movie_id = imdb_movie.movieID
 
     if movie_id in silent_ids:
         return True
@@ -23,8 +25,7 @@ def is_silent(movie: imdb.Movie.Movie) -> Optional[bool]:
         return None
 
     time.sleep(1)
-    imdb_movie = imdb.Movie.Movie(movieID=movie_id)
-    imdb_http.update(movie, info=["technical"])
+    imdb_http.update(imdb_movie, info=["technical"])
 
     if "sound mix" not in imdb_movie["technical"]:
         no_sound_mix_ids.add(movie_id)
@@ -53,7 +54,11 @@ def log_skip(
 
 
 def production_status(imdb_movie: imdb.Movie.Movie) -> Optional[str]:
-    return imdb_movie.get("status")
+    status = imdb_movie.get("status")
+    if status:
+        return str(status)
+
+    return None
 
 
 def filmography_for_person(

@@ -29,7 +29,7 @@ original_download_dir = downloader.DOWNLOAD_DIR
 
 
 @pytest.fixture(autouse=True)
-def mock_download_path(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_download_dir(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch(
         "movielog.moviedata.core.downloader.DOWNLOAD_DIR",
         os.path.join(tmp_path, original_download_dir),
@@ -37,13 +37,35 @@ def mock_download_path(mocker: MockerFixture, tmp_path: str) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_reviews_folder_path(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch("movielog.reviews.serializer.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
-def mock_viewings_folder_path(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch("movielog.viewings.serializer.FOLDER_NAME", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def mock_watchlist_collections_folder_name(
+    mocker: MockerFixture, tmp_path: str
+) -> None:
+    mocker.patch("movielog.watchlist.collections.Collection.folder_name", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def mock_watchlist_directors_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.watchlist.directors.Director.folder_name", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def mock_watchlist_writers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.watchlist.writers.Writer.folder_name", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def mock_watchlist_performers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.watchlist.performers.Performer.folder_name", tmp_path)
 
 
 def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:

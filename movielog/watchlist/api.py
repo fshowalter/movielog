@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import copy
 import operator
 
@@ -81,7 +83,7 @@ def add_writer(imdb_id: str, name: str) -> Writer:
 
 
 def add_movie_to_collection(
-    collection: Collection, imdb_id: str, title: str, year: str
+    collection: Collection, imdb_id: str, title: str, year: int
 ) -> Collection:
     collection_copy = copy.deepcopy(collection)
 
