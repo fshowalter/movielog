@@ -7,12 +7,12 @@ from typing import Callable, TypeVar
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
 
-T = TypeVar("T")  # noqa: WPS111
+DataClassType = TypeVar("DataClassType")
 
 EXPORT_FOLDER_NAME = "export"
 
 
-def serialize_dataclasses(dataclasses: Iterable[T], file_name: str) -> None:
+def serialize_dataclasses(dataclasses: Iterable[DataClassType], file_name: str) -> None:
     folder_path = os.path.join(EXPORT_FOLDER_NAME)
     os.makedirs(folder_path, exist_ok=True)
 
@@ -28,7 +28,9 @@ def serialize_dataclasses(dataclasses: Iterable[T], file_name: str) -> None:
 
 
 def serialize_dataclasses_to_folder(
-    dataclasses: Iterable[T], folder_name: str, filename_key: Callable[[T], str]
+    dataclasses: Iterable[DataClassType],
+    folder_name: str,
+    filename_key: Callable[[DataClassType], str],
 ) -> None:
     folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
     os.makedirs(folder_path, exist_ok=True)

@@ -68,6 +68,13 @@ def mock_watchlist_performers_folder_name(mocker: MockerFixture, tmp_path: str) 
     mocker.patch("movielog.watchlist.performers.Performer.folder_name", tmp_path)
 
 
+@pytest.fixture(autouse=True)
+def mock_moviedata_extended_serializer_folder_name(
+    mocker: MockerFixture, tmp_path: str
+) -> None:
+    mocker.patch("movielog.moviedata.extended.serializer.FOLDER_NAME", tmp_path)
+
+
 def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:
     row_dict = {}
     for index, column in enumerate(cursor.description):

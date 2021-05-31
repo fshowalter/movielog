@@ -19,7 +19,7 @@ class SearchResult(object):
     )
     imdb_id: str
     title: str
-    year: str
+    year: int
     principal_cast_ids: str
     principal_cast_names: list[str]
 
@@ -28,7 +28,7 @@ class SearchResult(object):
         return cls(
             imdb_id=row["imdb_id"],
             title=row["title"],
-            year=row["year"],
+            year=int(row["year"]),
             principal_cast_ids=row["principal_cast_ids"],
             principal_cast_names=[],
         )

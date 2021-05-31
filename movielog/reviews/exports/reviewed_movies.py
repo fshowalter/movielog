@@ -1,4 +1,7 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
+from typing import Any
 
 from movielog import db
 from movielog.utils import export_tools
@@ -31,7 +34,7 @@ class ReviewedMovie(object):
     aka_titles: list[str]
 
 
-def person_row_factory(cursor, row) -> Person:
+def person_row_factory(cursor: db.Cursor, row: tuple[Any, ...]) -> Person:
     return Person(full_name=row[0])
 
 

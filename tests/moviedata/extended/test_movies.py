@@ -5,13 +5,13 @@ import imdb
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import imdb_http
+from movielog.moviedata.extended import cast, directors, movies, writers
 
 
 @pytest.fixture(autouse=True)
-def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
+def imdb_http_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch.object(
-        imdb_http.imdb_scraper,
+        movies.imdb_http,
         "get_movie",
         return_value={
             "imdbID": "0092106",
@@ -59,46 +59,32 @@ def imdb_scraper_mock(mocker: MockerFixture) -> MagicMock:
     )
 
 
-def test_gets_cast_credits_for_title_from_imdb(
-    imdb_scraper_mock: MagicMock,
+def test_fetch_parses_imdb_data(
+    imdb_http_mock: MagicMock,
 ) -> None:
-    expected_title_info = imdb_http.TitleDetail(
+    expected = movies.Movie(
         imdb_id="tt0092106",
-        title="The Transformers: The Movie",
-        year=1986,
+        sort_title="Transformers: The Movie (1986)",
         release_date=date(1986, 8, 8),
         release_date_notes="",
         countries=["United States", "Japan"],
         directors=[
-            imdb_http.DirectingCreditForTitle(
-                movie_imdb_id="tt0092106",
+            directors.Credit(
                 person_imdb_id="nm0793802",
                 name="Nelson Shin",
+                sequence=0,
                 notes="",
-                sequence=0,
-            )
-        ],
-        writers=[
-            imdb_http.WritingCreditForTitle(
-                movie_imdb_id="tt0092106",
-                person_imdb_id="nm0295357",
-                name="Ron Friedman",
-                notes="(written by)",
-                group=0,
-                sequence=0,
             )
         ],
         cast=[
-            imdb_http.CastCreditForTitle(
-                movie_imdb_id="tt0092106",
+            cast.Credit(
                 person_imdb_id="nm0191520",
                 name="Peter Cullen",
                 roles=["Optimus Prime", "Ironhide"],
                 notes="(voice)",
                 sequence=0,
             ),
-            imdb_http.CastCreditForTitle(
-                movie_imdb_id="tt0092106",
+            cast.Credit(
                 person_imdb_id="nm0000080",
                 name="Orson Welles",
                 roles=["Unicrom"],
@@ -106,9 +92,18 @@ def test_gets_cast_credits_for_title_from_imdb(
                 sequence=1,
             ),
         ],
+        writers=[
+            writers.Credit(
+                person_imdb_id="nm0295357",
+                name="Ron Friedman",
+                notes="(written by)",
+                group=0,
+                sequence=0,
+            )
+        ],
     )
 
-    title_info = imdb_http.info_for_title(title_imdb_id="tt0092106")
+    movie = movies.fetch("tt0092106")
 
-    assert imdb_scraper_mock.called_once_with("0092106")
-    assert title_info == expected_title_info
+    assert imdb_http_mock.called_once_with("0092106")
+    assert expected == movie

@@ -108,7 +108,7 @@ def ask_for_venue() -> Optional[str]:
     if not selected_venue:
         return None
 
-    if confirm(f"{selected_venue}?"):
+    if confirm("{0}?".format(selected_venue)):
         return selected_venue
 
     return ask_for_venue()

@@ -2,7 +2,7 @@ import re
 from typing import Union
 
 
-def pretty_file_size(num, suffix="B"):
+def pretty_file_size(num: float, suffix: str = "B") -> str:
     for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
         if abs(num) < 1024.0:  # noqa: WPS459
             return "{0:.1f}{1}{2}".format(num, unit, suffix)

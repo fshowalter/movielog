@@ -15,7 +15,7 @@ class StatFile(object):
     average_words_per_review: float
 
 
-def count_words_in_markdown(markdown):
+def count_words_in_markdown(markdown: str) -> int:
     text = markdown
 
     # Comments
@@ -48,7 +48,8 @@ def count_words_in_markdown(markdown):
 
 def average_review_length_for_reviews(review_iterable: Sequence[Review]) -> float:
     return sum(
-        count_words_in_markdown(review.review_content) for review in review_iterable
+        count_words_in_markdown(str(review.review_content))
+        for review in review_iterable
     ) / len(review_iterable)
 
 

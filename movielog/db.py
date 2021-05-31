@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import sqlite3
 from contextlib import contextmanager
 from os import path
@@ -76,7 +78,7 @@ def execute_script(ddl: str) -> None:
         connection.executescript(ddl)
 
 
-def execute_many(ddl, parameter_seq) -> None:
+def execute_many(ddl: str, parameter_seq: Sequence[Mapping[str, Any]]) -> None:
     with connect() as connection:
         with transaction(connection):
             connection.executemany(ddl, parameter_seq)
