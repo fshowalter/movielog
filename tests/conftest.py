@@ -41,6 +41,11 @@ def mock_reviews_folder_path(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch("movielog.reviews.serializer.FOLDER_NAME", tmp_path)
 
 
+@pytest.fixture(autouse=True)
+def mock_viewings_folder_path(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.viewings.serializer.FOLDER_NAME", tmp_path)
+
+
 def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:
     row_dict = {}
     for index, column in enumerate(cursor.description):

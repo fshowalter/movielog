@@ -6,25 +6,19 @@ from movielog.viewings import serializer, viewings_table
 from movielog.viewings.exports import api as exports_api
 from movielog.viewings.viewing import Viewing
 
+save = serializer.serialize
 
-def save(viewing: Viewing) -> str:
-    return serializer.serialize(viewing)
+viewings = serializer.deserialize_all
 
-
-def viewings() -> Sequence[Viewing]:
-    return serializer.deserialize_all()
+export_data = exports_api.export
 
 
 def venues() -> Sequence[str]:
     return sorted(set([viewing.venue for viewing in viewings()]))
 
 
-def export_data() -> None:
-    exports_api.export()
-
-
 def create(
-    imdb_id: str, title: str, venue: str, viewing_date: date, year: str
+    imdb_id: str, title: str, venue: str, viewing_date: date, year: int
 ) -> Viewing:
     viewing_title = "{0} ({1})".format(title, year)
     sequence = sequence_tools.next_sequence(viewings())

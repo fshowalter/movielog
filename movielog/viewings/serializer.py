@@ -11,7 +11,7 @@ from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 from movielog.viewings.viewing import Viewing
 
-FOLDER_PATH = "viewings"
+FOLDER_NAME = "viewings"
 
 
 class JsonViewing(TypedDict):
@@ -42,7 +42,7 @@ def generate_file_path(viewing: Viewing) -> str:
         "{0:04d} {1}".format(viewing.sequence, viewing.title), replacements=[("'", "")]
     )
 
-    file_path = os.path.join(FOLDER_PATH, "{0}.json".format(file_name))
+    file_path = os.path.join(FOLDER_NAME, "{0}.json".format(file_name))
 
     path_tools.ensure_file_path(file_path)
 
@@ -63,7 +63,7 @@ def serialize(viewing: Viewing) -> str:
 def deserialize_all() -> Sequence[Viewing]:
     logger.log("==== Begin reading {} from disk...", "viewings")
 
-    file_paths = glob(os.path.join(FOLDER_PATH, "*.json"))
+    file_paths = glob(os.path.join(FOLDER_NAME, "*.json"))
 
     viewings = [deserialize(file_path) for file_path in sorted(file_paths)]
 
