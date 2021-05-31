@@ -6,7 +6,7 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.moviedata.core import movies_table, names_dataset
-from testtools.types import QueryResult
+from tests.conftest import QueryResult
 
 
 @pytest.fixture(autouse=True)

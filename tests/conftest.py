@@ -2,14 +2,13 @@ from __future__ import annotations
 
 import os
 import sqlite3
-from typing import Any, Callable, Generator, Tuple
+from typing import Any, Callable, Dict, Generator, List, Tuple
 
 import pytest
 from pytest_mock import MockerFixture
 
 from movielog import db
 from movielog.moviedata.core import downloader
-from testtools.types import QueryResult
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
 
@@ -80,6 +79,9 @@ def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]
     for index, column in enumerate(cursor.description):
         row_dict[column[0]] = row[index]
     return row_dict
+
+
+QueryResult = List[Dict[str, Any]]
 
 
 @pytest.fixture

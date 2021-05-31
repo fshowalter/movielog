@@ -5,8 +5,8 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from pytest_mock import MockerFixture
 
 from movielog.cli import radio_list
-from testtools.keys import Down, End, Enter, Home, Up
-from testtools.types import MockInput
+from tests.cli.conftest import MockInput
+from tests.cli.keys import Down, End, Enter, Home, Up
 
 Options = Sequence[Tuple[int, AnyFormattedText]]
 

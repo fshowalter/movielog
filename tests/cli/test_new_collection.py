@@ -4,8 +4,8 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import new_collection
-from testtools.keys import Enter, Escape
-from testtools.types import MockInput
+from tests.cli.conftest import MockInput
+from tests.cli.keys import Enter, Escape
 
 
 @pytest.fixture(autouse=True)

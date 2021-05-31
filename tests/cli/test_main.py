@@ -4,8 +4,8 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import main
-from testtools.keys import ControlD, Down, End, Enter, Up
-from testtools.types import MockInput
+from tests.cli.conftest import MockInput
+from tests.cli.keys import ControlD, Down, End, Enter, Up
 
 
 @pytest.fixture(autouse=True)

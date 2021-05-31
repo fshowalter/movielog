@@ -7,8 +7,8 @@ from pytest_mock import MockerFixture
 
 from movielog.cli import add_performer
 from movielog.moviedata.core import movies_table, people_table
-from testtools.keys import Down, Enter, Escape
-from testtools.types import MockInput
+from tests.cli.conftest import MockInput
+from tests.cli.keys import Down, Enter, Escape
 
 
 @pytest.fixture(autouse=True)

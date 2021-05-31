@@ -9,8 +9,8 @@ from movielog.cli import add_to_collection
 from movielog.moviedata.core import movies_table, people_table
 from movielog.watchlist.collections import Collection
 from movielog.watchlist.movies import Movie
-from testtools.keys import Down, Enter, Escape
-from testtools.types import MockInput
+from tests.cli.conftest import MockInput
+from tests.cli.keys import Down, Enter, Escape
 
 
 @pytest.fixture(autouse=True)

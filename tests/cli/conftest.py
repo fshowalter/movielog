@@ -1,13 +1,12 @@
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Generator, Sequence
+from typing import Callable, Generator, Sequence
 
 import pytest
 from prompt_toolkit.application.current import create_app_session
 from prompt_toolkit.input import create_pipe_input
 
-if TYPE_CHECKING:
-    from testtools.types import MockInput
+MockInput = Callable[[Sequence[str]], None]
 
 
 @pytest.fixture(autouse=True, scope="function")

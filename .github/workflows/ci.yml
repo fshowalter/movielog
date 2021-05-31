@@ -32,9 +32,6 @@ jobs:
       - name: black movielog
         run: black movielog
 
-      - name: black testtools
-        run: black testtools
-
       - name: black tests
         run: black tests
 
@@ -62,9 +59,6 @@ jobs:
 
       - name: mypy movielog
         run: mypy movielog
-
-      - name: mypy testtools
-        run: mypy testtools
 
       - name: mypy tests
         run: mypy tests
@@ -95,10 +89,6 @@ jobs:
       - name: flake8 movielog
         run: |
           flake8 movielog --count --show-source --statistics
-
-      - name: flake8 testtools
-        run: |
-          flake8 testtools --count --show-source --statistics
 
       - name: flake8 tests
         run: |
