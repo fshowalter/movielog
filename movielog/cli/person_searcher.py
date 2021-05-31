@@ -1,3 +1,4 @@
+import sqlite3
 from dataclasses import dataclass
 from typing import Dict, List
 
@@ -63,6 +64,7 @@ def search_writers_by_name(name: str, limit: int = 10) -> List[SearchResult]:
 
 def execute_search(query: str) -> List[SearchResult]:
     with db.connect() as connection:
+        connection.row_factory = sqlite3.Row
         search_results = fetch_results(connection, query)
         resolve_known_for_titles(connection, search_results)
 

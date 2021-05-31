@@ -7,7 +7,7 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog import reviews, viewings
+from movielog import api as movielog_api
 from movielog.cli import ask, radio_list, select_movie
 
 Option = Tuple[Optional[str], AnyFormattedText]
@@ -34,7 +34,7 @@ def prompt() -> None:
     if not grade:
         return
 
-    viewings.add(
+    movielog_api.create_viewing(
         imdb_id=movie.imdb_id,
         title=movie.title,
         venue=venue,
@@ -42,7 +42,7 @@ def prompt() -> None:
         year=movie.year,
     )
 
-    reviews.add(
+    movielog_api.create_review(
         imdb_id=movie.imdb_id,
         title=movie.title,
         venue=venue,
@@ -108,14 +108,14 @@ def ask_for_venue() -> Optional[str]:
     if not selected_venue:
         return None
 
-    if confirm(f"{selected_venue}?"):
+    if confirm("{0}?".format(selected_venue)):
         return selected_venue
 
     return ask_for_venue()
 
 
 def build_venue_options() -> List[Option]:
-    venues = viewings.venues()
+    venues = movielog_api.venues()
 
     options: List[Option] = []
 
@@ -143,12 +143,7 @@ def ask_for_grade(imdb_id: str) -> Optional[str]:
         move_cursor_to_end=True,
     )
 
-    existing_review = reviews.existing_review(imdb_id=imdb_id)
-
     default_grade = ""
-
-    if existing_review:
-        default_grade = existing_review.grade
 
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 

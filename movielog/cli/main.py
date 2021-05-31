@@ -1,6 +1,6 @@
-from movielog import exporter
+from movielog import api as movielog_api
 from movielog.cli import add_viewing, confirm, imdb, manage_watchlist, radio_list
-from movielog.logger import logger
+from movielog.utils.logging import logger
 
 
 @logger.catch
@@ -25,4 +25,4 @@ def prompt() -> None:
 def export() -> None:
     prompt_text = "<cyan>Export review, viewing, watchlist, and stats data?</cyan>"
     if confirm.prompt(prompt_text):
-        exporter.export()
+        movielog_api.export_data()

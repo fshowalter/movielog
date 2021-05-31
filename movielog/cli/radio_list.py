@@ -123,7 +123,7 @@ def prompt(
 ) -> RadioListType:
     control = RadioList(options_to_html(options))
 
-    application: Application = Application(
+    application: Application[None] = Application(
         layout=Layout(HSplit([Label(HTML(title)), control])),
         mouse_support=False,
         full_screen=False,

@@ -1,10 +1,10 @@
 import html
-from typing import List, Optional, Sequence, Tuple
+from typing import Optional, Sequence, Tuple
 
-from movielog import watchlist
+from movielog import api as movielog_api
 from movielog.cli import radio_list, select_movie
 
-Collection = watchlist.Collection
+Collection = movielog_api.Collection
 Option = Tuple[Optional[Collection], str]
 
 
@@ -16,16 +16,20 @@ def prompt() -> None:
 
     movie = select_movie.prompt(prompt_text=select_movie_prompt_text(collection))
     if movie:
-        collection.add_title(imdb_id=movie.imdb_id, title=movie.title, year=movie.year)
-        collection.save()
+        movielog_api.add_movie_to_collection(
+            collection=collection,
+            imdb_id=movie.imdb_id,
+            title=movie.title,
+            year=movie.year,
+        )
     prompt()
 
 
 def build_options() -> Sequence[Option]:
-    options: List[Option] = [(None, "Go back")]
+    options: list[Option] = [(None, "Go back")]
 
-    for collection in watchlist.all_collections():
-        option = f"<cyan>{collection.name}</cyan>"
+    for collection in movielog_api.collections():
+        option = "<cyan>{0}</cyan>".format(collection.name)
         options.append((collection, option))
 
     return options
@@ -35,7 +39,9 @@ def select_movie_prompt_text(collection: Collection) -> str:
     formatted_titles = []
     for movie in collection.movies:
         escaped_title = html.escape(movie.title)
-        formatted_title = f"<cyan>\u00B7</cyan> {escaped_title} ({movie.year}) \n"
+        formatted_title = "<cyan>\u00B7</cyan> {0} ({1}) \n".format(
+            escaped_title, movie.year
+        )
         formatted_titles.append(formatted_title)
 
     return "<cyan>{0}</cyan> titles:\n{1}\nNew Title: ".format(
