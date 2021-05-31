@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0086543",
   "sort_title": "4th Man (1983)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0469103",
-      "name": "Jeroen Krabb\u00e9",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gerard Reve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816030",
-      "name": "Ren\u00e9e Soutendijk",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Christine Halsslag"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389109",
-      "name": "Thom Hoffman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0904093",
-      "name": "Dolf de Vries",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. de Vries"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0429522",
-      "name": "Geert de Jong",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891755",
-      "name": "Hans Veerman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Begrafenisondernemer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612156",
-      "name": "Hero Muller",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Josefs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079593",
-      "name": "Caroline de Beus",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Adrienne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124453",
-      "name": "Reinout Bussemaker",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Eerste echtgenoot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576784",
-      "name": "Erik J. Meijer",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tweede echtgenoot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311634",
-      "name": "Ursul de Geer",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Derde echtgenoot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093199",
-      "name": "Filip Bolluyt",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Surfer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521082",
-      "name": "Hedda Lornie",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Verkoopster boekhandel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0638622",
-      "name": "Paul Nygaard",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Violist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534748",
-      "name": "Guus van der Made",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Treinkelner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856663",
-      "name": "Pamela Teves",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Verpleegster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264405",
-      "name": "Hella Faassen",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Vrouw bij lezing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373413",
-      "name": "Helen Hedy",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Verkoopster AKO"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000682",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0469103",
+      "name": "Jeroen Krabb\u00e9",
+      "sequence": 0,
+      "roles": [
+        "Gerard Reve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816030",
+      "name": "Ren\u00e9e Soutendijk",
+      "sequence": 1,
+      "roles": [
+        "Christine Halsslag"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389109",
+      "name": "Thom Hoffman",
+      "sequence": 2,
+      "roles": [
+        "Herman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0904093",
+      "name": "Dolf de Vries",
+      "sequence": 3,
+      "roles": [
+        "Dr. de Vries"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0429522",
+      "name": "Geert de Jong",
+      "sequence": 4,
+      "roles": [
+        "Ria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891755",
+      "name": "Hans Veerman",
+      "sequence": 5,
+      "roles": [
+        "Begrafenisondernemer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0612156",
+      "name": "Hero Muller",
+      "sequence": 6,
+      "roles": [
+        "Josefs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079593",
+      "name": "Caroline de Beus",
+      "sequence": 7,
+      "roles": [
+        "Adrienne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124453",
+      "name": "Reinout Bussemaker",
+      "sequence": 8,
+      "roles": [
+        "Eerste echtgenoot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576784",
+      "name": "Erik J. Meijer",
+      "sequence": 9,
+      "roles": [
+        "Tweede echtgenoot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0311634",
+      "name": "Ursul de Geer",
+      "sequence": 10,
+      "roles": [
+        "Derde echtgenoot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093199",
+      "name": "Filip Bolluyt",
+      "sequence": 11,
+      "roles": [
+        "Surfer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521082",
+      "name": "Hedda Lornie",
+      "sequence": 12,
+      "roles": [
+        "Verkoopster boekhandel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0638622",
+      "name": "Paul Nygaard",
+      "sequence": 13,
+      "roles": [
+        "Violist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534748",
+      "name": "Guus van der Made",
+      "sequence": 14,
+      "roles": [
+        "Treinkelner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856663",
+      "name": "Pamela Teves",
+      "sequence": 15,
+      "roles": [
+        "Verpleegster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264405",
+      "name": "Hella Faassen",
+      "sequence": 16,
+      "roles": [
+        "Vrouw bij lezing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373413",
+      "name": "Helen Hedy",
+      "sequence": 17,
+      "roles": [
+        "Verkoopster AKO"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0720771",
       "name": "Gerard Reve",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0812121",
       "name": "Gerard Soeteman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     }
   ],
   "release_date": "1983-03-24",

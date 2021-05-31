@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0023285",
   "sort_title": "Number 17 (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0513325",
-      "name": "Leon M. Lion",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ben"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340514",
-      "name": "Anne Grey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Brant - the Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835738",
-      "name": "John Stuart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Barton - the Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130740",
-      "name": "Donald Calthrop",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Brant - Nora's Escort"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427543",
-      "name": "Barry Jones",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Henry Doyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144341",
-      "name": "Ann Casson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rose Ackroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128994",
-      "name": "Henry Caine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Ackroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550552",
-      "name": "Garry Marsh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sheldrake"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -83,41 +9,115 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0513325",
+      "name": "Leon M. Lion",
+      "sequence": 0,
+      "roles": [
+        "Ben"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340514",
+      "name": "Anne Grey",
+      "sequence": 1,
+      "roles": [
+        "Nora Brant - the Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835738",
+      "name": "John Stuart",
+      "sequence": 2,
+      "roles": [
+        "Barton - the Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130740",
+      "name": "Donald Calthrop",
+      "sequence": 3,
+      "roles": [
+        "Brant - Nora's Escort"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0427543",
+      "name": "Barry Jones",
+      "sequence": 4,
+      "roles": [
+        "Henry Doyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144341",
+      "name": "Ann Casson",
+      "sequence": 5,
+      "roles": [
+        "Rose Ackroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128994",
+      "name": "Henry Caine",
+      "sequence": 6,
+      "roles": [
+        "Mr. Ackroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550552",
+      "name": "Garry Marsh",
+      "sequence": 7,
+      "roles": [
+        "Sheldrake"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0267537",
       "name": "Joseph Jefferson Farjeon",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (as J. Jefferson Farjeon)",
-      "group_id": 0
+      "notes": "() (as J. Jefferson Farjeon)"
     },
     {
       "person_imdb_id": "nm0267537",
       "name": "Joseph Jefferson Farjeon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Number Seventeen\") (as J. Jefferson Farjeon)",
-      "group_id": 1
+      "notes": "(play \"Number Seventeen\") (as J. Jefferson Farjeon)"
     },
     {
       "person_imdb_id": "nm0720904",
       "name": "Alma Reville",
+      "group": 2,
       "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 2
+      "notes": "(scenario)"
     },
     {
       "person_imdb_id": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(scenario)"
     },
     {
       "person_imdb_id": "nm0010063",
       "name": "Rodney Ackland",
-      "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 2,
+      "notes": "(scenario)"
     }
   ],
   "release_date": "1932-07-18",

@@ -1,65 +1,6 @@
 {
   "imdb_id": "tt0057569",
   "sort_title": "Terror (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Baron Victor Frederick Von Leppe",
-        "Eric"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Andre Duvalier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461070",
-      "name": "Sandra Knight",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Helene",
-        "Ghost of Ilsa The Baroness Von Leppe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 3,
-      "notes": "(as Richard Miller)",
-      "roles": [
-        "Stefan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627030",
-      "name": "Dorothy Neumann",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Katrina, Witch",
-        "Eric's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371918",
-      "name": "Jonathan Haze",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gustaf"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -104,27 +45,86 @@
       "notes": "(one final day director) (uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Baron Victor Frederick Von Leppe",
+        "Eric"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 1,
+      "roles": [
+        "Lt. Andre Duvalier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461070",
+      "name": "Sandra Knight",
+      "sequence": 2,
+      "roles": [
+        "Helene",
+        "Ghost of Ilsa The Baroness Von Leppe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588241",
+      "name": "Dick Miller",
+      "sequence": 3,
+      "roles": [
+        "Stefan"
+      ],
+      "notes": "(as Richard Miller)"
+    },
+    {
+      "person_imdb_id": "nm0627030",
+      "name": "Dorothy Neumann",
+      "sequence": 4,
+      "roles": [
+        "Katrina, Witch",
+        "Eric's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371918",
+      "name": "Jonathan Haze",
+      "sequence": 5,
+      "roles": [
+        "Gustaf"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0330388",
       "name": "Leo Gordon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0384335",
       "name": "Jack Hill",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000339",
       "name": "Roger Corman",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1963-06-17",

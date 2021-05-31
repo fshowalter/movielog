@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0080931",
   "sort_title": "Nightmare City (1980)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0830153",
-      "name": "Hugo Stiglitz",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dean Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873695",
-      "name": "Laura Trotter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Anna Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0648282",
-      "name": "Maria Rosaria Omaggio",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sheila Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0704719",
-      "name": "Francisco Rabal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Major Warren Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0900349",
-      "name": "Sonia Viviani",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cindy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0265761",
-      "name": "Eduardo Fajardo",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Kramer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057132",
-      "name": "Stefania D'Amario",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jessica Murchison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093244",
-      "name": "Ugo Bologna",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Desmond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289954",
-      "name": "Sara Franchetti",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Liz the Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0953400",
-      "name": "Manuel Zarzo",
-      "sequence": 9,
-      "notes": "(as Manolo Zarzo)",
-      "roles": [
-        "Colonel Donahue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271417",
-      "name": "Tom Felleghy",
-      "sequence": 10,
-      "notes": "(as Tom Felleghi)",
-      "roles": [
-        "Lieutenant Reedman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163020",
-      "name": "Pierangelo Civera",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067743",
-      "name": "Achille Belletti",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "TV Station Technician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002072",
-      "name": "Mel Ferrer",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "General Murchison"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0502391",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0830153",
+      "name": "Hugo Stiglitz",
+      "sequence": 0,
+      "roles": [
+        "Dean Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873695",
+      "name": "Laura Trotter",
+      "sequence": 1,
+      "roles": [
+        "Dr. Anna Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0648282",
+      "name": "Maria Rosaria Omaggio",
+      "sequence": 2,
+      "roles": [
+        "Sheila Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0704719",
+      "name": "Francisco Rabal",
+      "sequence": 3,
+      "roles": [
+        "Major Warren Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0900349",
+      "name": "Sonia Viviani",
+      "sequence": 4,
+      "roles": [
+        "Cindy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0265761",
+      "name": "Eduardo Fajardo",
+      "sequence": 5,
+      "roles": [
+        "Dr. Kramer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057132",
+      "name": "Stefania D'Amario",
+      "sequence": 6,
+      "roles": [
+        "Jessica Murchison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093244",
+      "name": "Ugo Bologna",
+      "sequence": 7,
+      "roles": [
+        "Mr. Desmond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289954",
+      "name": "Sara Franchetti",
+      "sequence": 8,
+      "roles": [
+        "Liz the Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0953400",
+      "name": "Manuel Zarzo",
+      "sequence": 9,
+      "roles": [
+        "Colonel Donahue"
+      ],
+      "notes": "(as Manolo Zarzo)"
+    },
+    {
+      "person_imdb_id": "nm0271417",
+      "name": "Tom Felleghy",
+      "sequence": 10,
+      "roles": [
+        "Lieutenant Reedman"
+      ],
+      "notes": "(as Tom Felleghi)"
+    },
+    {
+      "person_imdb_id": "nm0163020",
+      "name": "Pierangelo Civera",
+      "sequence": 11,
+      "roles": [
+        "Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067743",
+      "name": "Achille Belletti",
+      "sequence": 12,
+      "roles": [
+        "TV Station Technician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002072",
+      "name": "Mel Ferrer",
+      "sequence": 13,
+      "roles": [
+        "General Murchison"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0181420",
       "name": "Antonio Cesare Corti",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Tony Corti)",
-      "group_id": 0
+      "notes": "(written by) (as Tony Corti)"
     },
     {
       "person_imdb_id": "nm0217005",
       "name": "Luis Mar\u00eda Delgado",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by) (as Jos\u00e9 Luis Delgado)",
-      "group_id": 1
+      "notes": "(written by) (as Jos\u00e9 Luis Delgado)"
     },
     {
       "person_imdb_id": "nm0716701",
       "name": "Piero Regnoli",
+      "group": 2,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 2
+      "notes": "(written by)"
     }
   ],
   "release_date": "1980-12-11",

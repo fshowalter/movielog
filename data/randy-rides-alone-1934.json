@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0025699",
   "sort_title": "Randy Rides Alone (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Randy Bowers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891136",
-      "name": "Alberta Vaughn",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sally Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 2,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "Marvin Black"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Henchman Spike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245429",
-      "name": "Earl Dwire",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0650961",
-      "name": "Artie Ortego",
-      "sequence": 5,
-      "notes": "(as Arthur Artego)",
-      "roles": [
-        "Deputy Al"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0679845",
-      "name": "Tex Phelps",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352368",
-      "name": "Herman Hack",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Posse Rider",
-        "Henchman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0292134",
@@ -84,20 +9,95 @@
       "notes": "(as Harry Fraser)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Randy Bowers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891136",
+      "name": "Alberta Vaughn",
+      "sequence": 1,
+      "roles": [
+        "Sally Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 2,
+      "roles": [
+        "Marvin Black"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 3,
+      "roles": [
+        "Henchman Spike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245429",
+      "name": "Earl Dwire",
+      "sequence": 4,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0650961",
+      "name": "Artie Ortego",
+      "sequence": 5,
+      "roles": [
+        "Deputy Al"
+      ],
+      "notes": "(as Arthur Artego)"
+    },
+    {
+      "person_imdb_id": "nm0679845",
+      "name": "Tex Phelps",
+      "sequence": 6,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352368",
+      "name": "Herman Hack",
+      "sequence": 9,
+      "roles": [
+        "Posse Rider",
+        "Henchman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1934-06-18",

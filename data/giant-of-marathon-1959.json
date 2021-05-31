@@ -1,200 +1,6 @@
 {
   "imdb_id": "tt0052604",
   "sort_title": "Giant of Marathon (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0716302",
-      "name": "Steve Reeves",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Phillipides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218634",
-      "name": "Myl\u00e8ne Demongeot",
-      "sequence": 1,
-      "notes": "(as Mylene Demongeot)",
-      "roles": [
-        "Andromeda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266949",
-      "name": "Sergio Fantoni",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Teocrito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526958",
-      "name": "Alberto Lupo",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Milziade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889708",
-      "name": "Daniele Vargas",
-      "sequence": 4,
-      "notes": "(as Daniele Varga)",
-      "roles": [
-        "Darius - King of Persia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521463",
-      "name": "Gianni Loti",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Teucro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132035",
-      "name": "Miranda Campa",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Andromeda's Handmaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380881",
-      "name": "Philippe Hersent",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Callimaco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865338",
-      "name": "Anita Todesco",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Andromeda's Friend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307995",
-      "name": "Ivo Garrani",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Creuso"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733598",
-      "name": "Daniela Rocca",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Karis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0716313",
-      "name": "Sergio Ciani",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Euros"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266886",
-      "name": "Franco Fantasia",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Senator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0518352",
-      "name": "Carlo Lombardi",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0051110",
-      "name": "Ignazio Balsamo",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Ship's Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0743102",
-      "name": "Gian Paolo Rosmino",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0335694",
-      "name": "Walter Grant",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0558326",
-      "name": "Maria Grazia Sandri",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Andromeda's Handmaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256053",
-      "name": "Paule Emanuele",
-      "sequence": 18,
-      "notes": "(voice)",
-      "roles": [
-        "Karis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290670",
-      "name": "Richard Francoeur",
-      "sequence": 19,
-      "notes": "(voice)",
-      "roles": [
-        "Senator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0584858",
-      "name": "Jean-Claude Michel",
-      "sequence": 20,
-      "notes": "(voice)",
-      "roles": [
-        "Phillipides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0874576",
-      "name": "Roger Tr\u00e9ville",
-      "sequence": 21,
-      "notes": "(voice)",
-      "roles": [
-        "Darius - King of Persia"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0869664",
@@ -215,41 +21,235 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0716302",
+      "name": "Steve Reeves",
+      "sequence": 0,
+      "roles": [
+        "Phillipides"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218634",
+      "name": "Myl\u00e8ne Demongeot",
+      "sequence": 1,
+      "roles": [
+        "Andromeda"
+      ],
+      "notes": "(as Mylene Demongeot)"
+    },
+    {
+      "person_imdb_id": "nm0266949",
+      "name": "Sergio Fantoni",
+      "sequence": 2,
+      "roles": [
+        "Teocrito"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526958",
+      "name": "Alberto Lupo",
+      "sequence": 3,
+      "roles": [
+        "Milziade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889708",
+      "name": "Daniele Vargas",
+      "sequence": 4,
+      "roles": [
+        "Darius - King of Persia"
+      ],
+      "notes": "(as Daniele Varga)"
+    },
+    {
+      "person_imdb_id": "nm0521463",
+      "name": "Gianni Loti",
+      "sequence": 5,
+      "roles": [
+        "Teucro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132035",
+      "name": "Miranda Campa",
+      "sequence": 6,
+      "roles": [
+        "Andromeda's Handmaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380881",
+      "name": "Philippe Hersent",
+      "sequence": 7,
+      "roles": [
+        "Callimaco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865338",
+      "name": "Anita Todesco",
+      "sequence": 8,
+      "roles": [
+        "Andromeda's Friend"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307995",
+      "name": "Ivo Garrani",
+      "sequence": 9,
+      "roles": [
+        "Creuso"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733598",
+      "name": "Daniela Rocca",
+      "sequence": 10,
+      "roles": [
+        "Karis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0716313",
+      "name": "Sergio Ciani",
+      "sequence": 11,
+      "roles": [
+        "Euros"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266886",
+      "name": "Franco Fantasia",
+      "sequence": 12,
+      "roles": [
+        "Senator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0518352",
+      "name": "Carlo Lombardi",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0051110",
+      "name": "Ignazio Balsamo",
+      "sequence": 14,
+      "roles": [
+        "Ship's Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0743102",
+      "name": "Gian Paolo Rosmino",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335694",
+      "name": "Walter Grant",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0558326",
+      "name": "Maria Grazia Sandri",
+      "sequence": 17,
+      "roles": [
+        "Andromeda's Handmaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256053",
+      "name": "Paule Emanuele",
+      "sequence": 18,
+      "roles": [
+        "Karis"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0290670",
+      "name": "Richard Francoeur",
+      "sequence": 19,
+      "roles": [
+        "Senator"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0584858",
+      "name": "Jean-Claude Michel",
+      "sequence": 20,
+      "roles": [
+        "Phillipides"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0874576",
+      "name": "Roger Tr\u00e9ville",
+      "sequence": 21,
+      "roles": [
+        "Darius - King of Persia"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0058253",
       "name": "Alberto Barsanti",
+      "group": 0,
       "sequence": 0,
-      "notes": "(idea)",
-      "group_id": 0
+      "notes": "(idea)"
     },
     {
       "person_imdb_id": "nm0655411",
       "name": "Raffaello Pacini",
-      "sequence": 0,
-      "notes": "(idea)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(idea)"
     },
     {
       "person_imdb_id": "nm0208086",
       "name": "Ennio De Concini",
-      "sequence": 0,
-      "notes": "(story & screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story & screenplay)"
     },
     {
       "person_imdb_id": "nm0292295",
       "name": "Augusto Frassinetti",
-      "sequence": 0,
-      "notes": "(story & screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story & screenplay)"
     },
     {
       "person_imdb_id": "nm0883213",
       "name": "Bruno Vailati",
-      "sequence": 0,
-      "notes": "(story & screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 4,
+      "notes": "(story & screenplay)"
     }
   ],
   "release_date": "1959-12-03",

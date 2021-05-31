@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0059465",
   "sort_title": "Monster of Terror (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nahum Witley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011244",
-      "name": "Nick Adams",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Stephen Reinhart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0413528",
-      "name": "Freda Jackson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Letitia Witley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267799",
-      "name": "Suzan Farmer",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Susan Witley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210117",
-      "name": "Terence de Marney",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Merwyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0535861",
-      "name": "Patrick Magee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Henderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268306",
-      "name": "Paul Farrell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245510",
-      "name": "Leslie Dwyer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Potter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329468",
-      "name": "Harold Goodwin",
-      "sequence": 8,
-      "notes": "(UK version)",
-      "roles": [
-        "Taxi Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111356",
-      "name": "Sydney Bromley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pierce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590652",
-      "name": "Billy Milton",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Henry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713520",
-      "name": "Sheila Raynor",
-      "sequence": 11,
-      "notes": "(UK version)",
-      "roles": [
-        "Miss Bailey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0356396",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Nahum Witley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011244",
+      "name": "Nick Adams",
+      "sequence": 1,
+      "roles": [
+        "Stephen Reinhart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0413528",
+      "name": "Freda Jackson",
+      "sequence": 2,
+      "roles": [
+        "Letitia Witley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267799",
+      "name": "Suzan Farmer",
+      "sequence": 3,
+      "roles": [
+        "Susan Witley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210117",
+      "name": "Terence de Marney",
+      "sequence": 4,
+      "roles": [
+        "Merwyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0535861",
+      "name": "Patrick Magee",
+      "sequence": 5,
+      "roles": [
+        "Dr. Henderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268306",
+      "name": "Paul Farrell",
+      "sequence": 6,
+      "roles": [
+        "Jason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245510",
+      "name": "Leslie Dwyer",
+      "sequence": 7,
+      "roles": [
+        "Potter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329468",
+      "name": "Harold Goodwin",
+      "sequence": 8,
+      "roles": [
+        "Taxi Driver"
+      ],
+      "notes": "(UK version)"
+    },
+    {
+      "person_imdb_id": "nm0111356",
+      "name": "Sydney Bromley",
+      "sequence": 9,
+      "roles": [
+        "Pierce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590652",
+      "name": "Billy Milton",
+      "sequence": 10,
+      "roles": [
+        "Henry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713520",
+      "name": "Sheila Raynor",
+      "sequence": 11,
+      "roles": [
+        "Miss Bailey"
+      ],
+      "notes": "(UK version)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0812257",
       "name": "Jerry Sohl",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0522454",
       "name": "H.P. Lovecraft",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from \"The Colour Out of Space\")",
-      "group_id": 1
+      "notes": "(from \"The Colour Out of Space\")"
     }
   ],
   "release_date": "1965-10-27",

@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0470705",
   "sort_title": "Bug (2006)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000171",
-      "name": "Ashley Judd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Agnes White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788335",
-      "name": "Michael Shannon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Peter Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001065",
-      "name": "Harry Connick Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jerry Goss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1211488",
-      "name": "Lynn Collins",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "R.C."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639928",
-      "name": "Br\u00edan F. O'Byrne",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Sweet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2752856",
-      "name": "Neil Bergeron",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Man in Grocery Store"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0624727",
-      "name": "Bob Neill",
-      "sequence": 6,
-      "notes": "(voice)",
-      "roles": [
-        "Pizza Harris"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001243",
@@ -74,20 +9,85 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000171",
+      "name": "Ashley Judd",
+      "sequence": 0,
+      "roles": [
+        "Agnes White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0788335",
+      "name": "Michael Shannon",
+      "sequence": 1,
+      "roles": [
+        "Peter Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001065",
+      "name": "Harry Connick Jr.",
+      "sequence": 2,
+      "roles": [
+        "Jerry Goss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1211488",
+      "name": "Lynn Collins",
+      "sequence": 3,
+      "roles": [
+        "R.C."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639928",
+      "name": "Br\u00edan F. O'Byrne",
+      "sequence": 4,
+      "roles": [
+        "Dr. Sweet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2752856",
+      "name": "Neil Bergeron",
+      "sequence": 5,
+      "roles": [
+        "Man in Grocery Store"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0624727",
+      "name": "Bob Neill",
+      "sequence": 6,
+      "roles": [
+        "Pizza Harris"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0504832",
       "name": "Tracy Letts",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0504832",
       "name": "Tracy Letts",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     }
   ],
   "release_date": "2006-05-19",

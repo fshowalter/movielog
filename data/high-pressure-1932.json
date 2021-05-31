@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0023007",
   "sort_title": "High Pressure (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gar Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107574",
-      "name": "Evelyn Brent",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Francine Dale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0796644",
-      "name": "George Sidney",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Colonel Ginsburg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942046",
-      "name": "John Wray",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jimmy Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460477",
-      "name": "Evalyn Knapp",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Helen Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452128",
-      "name": "Guy Kibbee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Clifford Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570451",
-      "name": "Frank McHugh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mike Donahey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002177",
-      "name": "Oscar Apfel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Hackett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0018273",
-      "name": "Ben Alexander",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Geoffrey Weston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907274",
-      "name": "Harold Waldridge",
-      "sequence": 9,
-      "notes": "(as Harold Waldrige)",
-      "roles": [
-        "Gus Vanderbilt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0585481",
-      "name": "Charles Middleton",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Banks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0073595",
-      "name": "Harry Beresford",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Rudolph Pfeiffer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0503777",
@@ -119,27 +9,137 @@
       "notes": "(as Mervyn Le Roy)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Gar Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107574",
+      "name": "Evelyn Brent",
+      "sequence": 1,
+      "roles": [
+        "Francine Dale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0796644",
+      "name": "George Sidney",
+      "sequence": 2,
+      "roles": [
+        "Colonel Ginsburg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942046",
+      "name": "John Wray",
+      "sequence": 3,
+      "roles": [
+        "Jimmy Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460477",
+      "name": "Evalyn Knapp",
+      "sequence": 4,
+      "roles": [
+        "Helen Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452128",
+      "name": "Guy Kibbee",
+      "sequence": 5,
+      "roles": [
+        "Clifford Gray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570451",
+      "name": "Frank McHugh",
+      "sequence": 6,
+      "roles": [
+        "Mike Donahey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002177",
+      "name": "Oscar Apfel",
+      "sequence": 7,
+      "roles": [
+        "Mr. Hackett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0018273",
+      "name": "Ben Alexander",
+      "sequence": 8,
+      "roles": [
+        "Geoffrey Weston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907274",
+      "name": "Harold Waldridge",
+      "sequence": 9,
+      "roles": [
+        "Gus Vanderbilt"
+      ],
+      "notes": "(as Harold Waldrige)"
+    },
+    {
+      "person_imdb_id": "nm0585481",
+      "name": "Charles Middleton",
+      "sequence": 10,
+      "roles": [
+        "Mr. Banks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0073595",
+      "name": "Harry Beresford",
+      "sequence": 11,
+      "roles": [
+        "Dr. Rudolph Pfeiffer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0437189",
       "name": "Aben Kandel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Hot Money\")",
-      "group_id": 0
+      "notes": "(play \"Hot Money\")"
     },
     {
       "person_imdb_id": "nm0413711",
       "name": "Joseph Jackson",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0676661",
       "name": "S.J. Peters",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (uncredited)"
     }
   ],
   "release_date": "1932-01-10",

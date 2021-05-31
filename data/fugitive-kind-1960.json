@@ -1,166 +1,6 @@
 {
   "imdb_id": "tt0052832",
   "sort_title": "Fugitive Kind (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000008",
-      "name": "Marlon Brando",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Valentine 'Snakeskin' Xavier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0536167",
-      "name": "Anna Magnani",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lady Torrance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940946",
-      "name": "Joanne Woodward",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Carol Cutrere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822972",
-      "name": "Maureen Stapleton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vee Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430460",
-      "name": "Victor Jory",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jabe Torrance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035866",
-      "name": "R.G. Armstrong",
-      "sequence": 5,
-      "notes": "(as R. G. Armstrong)",
-      "roles": [
-        "Sheriff Jordan Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156821",
-      "name": "Virgilia Chew",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nurse Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0944869",
-      "name": "Ben Yaffee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "'Dog' Hamma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112928",
-      "name": "Joe Brown Jr.",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "'Pee Wee' Binnings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675207",
-      "name": "Mary Perry",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0819238",
-      "name": "Madame Spivy",
-      "sequence": 10,
-      "notes": "(as Spivy)",
-      "roles": [
-        "Ruby Lightfoot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052852",
-      "name": "John Baragrey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "David Cutrere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0333489",
-      "name": "Sally Gracie",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dolly Hamma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0072569",
-      "name": "Lucille Benson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Beulah Binnings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724531",
-      "name": "Emory Richardson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Uncle Pleasant, the Conjure Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365777",
-      "name": "Neil Harrison",
-      "sequence": 15,
-      "notes": "(as Nell Harrison)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0550314",
-      "name": "Janice Mars",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Gas Station Attendant's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0897141",
-      "name": "Herb Vigran",
-      "sequence": 20,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Caliope Player"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -169,27 +9,178 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000008",
+      "name": "Marlon Brando",
+      "sequence": 0,
+      "roles": [
+        "Valentine 'Snakeskin' Xavier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0536167",
+      "name": "Anna Magnani",
+      "sequence": 1,
+      "roles": [
+        "Lady Torrance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940946",
+      "name": "Joanne Woodward",
+      "sequence": 2,
+      "roles": [
+        "Carol Cutrere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822972",
+      "name": "Maureen Stapleton",
+      "sequence": 3,
+      "roles": [
+        "Vee Talbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430460",
+      "name": "Victor Jory",
+      "sequence": 4,
+      "roles": [
+        "Jabe Torrance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035866",
+      "name": "R.G. Armstrong",
+      "sequence": 5,
+      "roles": [
+        "Sheriff Jordan Talbot"
+      ],
+      "notes": "(as R. G. Armstrong)"
+    },
+    {
+      "person_imdb_id": "nm0156821",
+      "name": "Virgilia Chew",
+      "sequence": 6,
+      "roles": [
+        "Nurse Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0944869",
+      "name": "Ben Yaffee",
+      "sequence": 7,
+      "roles": [
+        "'Dog' Hamma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112928",
+      "name": "Joe Brown Jr.",
+      "sequence": 8,
+      "roles": [
+        "'Pee Wee' Binnings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0675207",
+      "name": "Mary Perry",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0819238",
+      "name": "Madame Spivy",
+      "sequence": 10,
+      "roles": [
+        "Ruby Lightfoot"
+      ],
+      "notes": "(as Spivy)"
+    },
+    {
+      "person_imdb_id": "nm0052852",
+      "name": "John Baragrey",
+      "sequence": 11,
+      "roles": [
+        "David Cutrere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0333489",
+      "name": "Sally Gracie",
+      "sequence": 12,
+      "roles": [
+        "Dolly Hamma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0072569",
+      "name": "Lucille Benson",
+      "sequence": 13,
+      "roles": [
+        "Beulah Binnings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724531",
+      "name": "Emory Richardson",
+      "sequence": 14,
+      "roles": [
+        "Uncle Pleasant, the Conjure Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365777",
+      "name": "Neil Harrison",
+      "sequence": 15,
+      "roles": [],
+      "notes": "(as Nell Harrison)"
+    },
+    {
+      "person_imdb_id": "nm0550314",
+      "name": "Janice Mars",
+      "sequence": 16,
+      "roles": [
+        "Gas Station Attendant's Wife"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0931783",
       "name": "Tennessee Williams",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0731409",
       "name": "Meade Roberts",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0931783",
       "name": "Tennessee Williams",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Orpheus Descending\")",
-      "group_id": 1
+      "notes": "(play \"Orpheus Descending\")"
     }
   ],
   "release_date": "1960-04-13",

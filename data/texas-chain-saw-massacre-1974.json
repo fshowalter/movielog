@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0072271",
   "sort_title": "Texas Chain Saw Massacre (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0122782",
-      "name": "Marilyn Burns",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200758",
-      "name": "Allen Danziger",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jerry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663935",
-      "name": "Paul A. Partain",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Franklin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0883211",
-      "name": "William Vail",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kirk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573374",
-      "name": "Teri McMinn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0623605",
-      "name": "Edwin Neal",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Hitchhiker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0796842",
-      "name": "Jim Siedow",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Old Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0360815",
-      "name": "Gunnar Hansen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Leatherface"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240811",
-      "name": "John Dugan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Grandfather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183847",
-      "name": "Robert Courtin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Window Washer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187125",
-      "name": "William Creamer",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bearded Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269038",
-      "name": "John Henry Faulk",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Storyteller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337974",
-      "name": "Jerry Green",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Cowboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0347402",
-      "name": "Ed Guinn",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Cattle Truck Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389550",
-      "name": "Joe Bill Hogan",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Drunk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0520742",
-      "name": "Perry Lorenz",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Pick Up Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0488662",
-      "name": "John Larroquette",
-      "sequence": 16,
-      "notes": "(voice)",
-      "roles": [
-        "Narration"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001361",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0122782",
+      "name": "Marilyn Burns",
+      "sequence": 0,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200758",
+      "name": "Allen Danziger",
+      "sequence": 1,
+      "roles": [
+        "Jerry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663935",
+      "name": "Paul A. Partain",
+      "sequence": 2,
+      "roles": [
+        "Franklin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0883211",
+      "name": "William Vail",
+      "sequence": 3,
+      "roles": [
+        "Kirk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573374",
+      "name": "Teri McMinn",
+      "sequence": 4,
+      "roles": [
+        "Pam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0623605",
+      "name": "Edwin Neal",
+      "sequence": 5,
+      "roles": [
+        "Hitchhiker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0796842",
+      "name": "Jim Siedow",
+      "sequence": 6,
+      "roles": [
+        "Old Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0360815",
+      "name": "Gunnar Hansen",
+      "sequence": 7,
+      "roles": [
+        "Leatherface"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240811",
+      "name": "John Dugan",
+      "sequence": 8,
+      "roles": [
+        "Grandfather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183847",
+      "name": "Robert Courtin",
+      "sequence": 9,
+      "roles": [
+        "Window Washer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187125",
+      "name": "William Creamer",
+      "sequence": 10,
+      "roles": [
+        "Bearded Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269038",
+      "name": "John Henry Faulk",
+      "sequence": 11,
+      "roles": [
+        "Storyteller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337974",
+      "name": "Jerry Green",
+      "sequence": 12,
+      "roles": [
+        "Cowboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0347402",
+      "name": "Ed Guinn",
+      "sequence": 13,
+      "roles": [
+        "Cattle Truck Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389550",
+      "name": "Joe Bill Hogan",
+      "sequence": 14,
+      "roles": [
+        "Drunk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0520742",
+      "name": "Perry Lorenz",
+      "sequence": 15,
+      "roles": [
+        "Pick Up Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0488662",
+      "name": "John Larroquette",
+      "sequence": 16,
+      "roles": [
+        "Narration"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0377066",
       "name": "Kim Henkel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0001361",
       "name": "Tobe Hooper",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0377066",
       "name": "Kim Henkel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "notes": "(story by)"
     }
   ],
   "release_date": "1974-10-01",

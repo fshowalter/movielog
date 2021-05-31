@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0054731",
   "sort_title": "Cash on Demand (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry Fordyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603682",
-      "name": "Andr\u00e9 Morell",
-      "sequence": 1,
-      "notes": "(as Andre Morell)",
-      "roles": [
-        "Colonel Gore Hepburn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894710",
-      "name": "Richard Vernon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0083424",
-      "name": "Norman Bird",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Arthur Sanderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0832325",
-      "name": "Kevin Stoney",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Detective Inspector Bill Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522887",
-      "name": "Barry Lowe",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Peter Harvill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789221",
-      "name": "Edith Sharpe",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miss Pringle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197396",
-      "name": "Lois Daine",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371815",
-      "name": "Alan Haywood",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177327",
-      "name": "Vera Cook",
-      "sequence": 10,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Mary Fordyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0849209",
-      "name": "Gareth Tandy",
-      "sequence": 14,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Tommy Fordyce"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0492974",
@@ -110,27 +9,110 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Harry Fordyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603682",
+      "name": "Andr\u00e9 Morell",
+      "sequence": 1,
+      "roles": [
+        "Colonel Gore Hepburn"
+      ],
+      "notes": "(as Andre Morell)"
+    },
+    {
+      "person_imdb_id": "nm0894710",
+      "name": "Richard Vernon",
+      "sequence": 2,
+      "roles": [
+        "Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0083424",
+      "name": "Norman Bird",
+      "sequence": 3,
+      "roles": [
+        "Arthur Sanderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0832325",
+      "name": "Kevin Stoney",
+      "sequence": 4,
+      "roles": [
+        "Detective Inspector Bill Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522887",
+      "name": "Barry Lowe",
+      "sequence": 5,
+      "roles": [
+        "Peter Harvill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789221",
+      "name": "Edith Sharpe",
+      "sequence": 6,
+      "roles": [
+        "Miss Pringle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197396",
+      "name": "Lois Daine",
+      "sequence": 7,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371815",
+      "name": "Alan Haywood",
+      "sequence": 8,
+      "roles": [
+        "Kane"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0152000",
       "name": "David T. Chantler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0340042",
       "name": "Lewis Greifer",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0319179",
       "name": "Jacques Gillies",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a play by)",
-      "group_id": 1
+      "notes": "(from a play by)"
     }
   ],
   "release_date": "1961-12-20",

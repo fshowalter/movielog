@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0062977",
   "sort_title": "Fixer (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000869",
-      "name": "Alan Bates",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Yakov Bok"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001958",
-      "name": "Dirk Bogarde",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bibikov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113632",
-      "name": "Georgia Brown",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marfa Golov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341518",
-      "name": "Hugh Griffith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lebedev"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366946",
-      "name": "Elizabeth Hartman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Zinaida"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000453",
-      "name": "Ian Holm",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Grubeshov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649055",
-      "name": "David Opatoshu",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Latke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001831",
-      "name": "David Warner",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Count Odoevsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0924576",
-      "name": "Carol White",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Raisl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0613685",
-      "name": "George Murcell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Deputy Warden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0578527",
-      "name": "Murray Melvin",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420312",
-      "name": "Peter Jeffrey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Berezhinsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328982",
-      "name": "Michael Goodliffe",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Ostrovsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0372731",
-      "name": "Thomas Heathcote",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Proshko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695511",
-      "name": "Mike Pratt",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Father Anastasy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575080",
-      "name": "Stanley Meadows",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Gronfein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212470",
-      "name": "Francis De Wolff",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Warden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517084",
-      "name": "David Lodge",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Zhitnyak"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404561",
-      "name": "William Hutt",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "The Tzar"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -182,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000869",
+      "name": "Alan Bates",
+      "sequence": 0,
+      "roles": [
+        "Yakov Bok"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001958",
+      "name": "Dirk Bogarde",
+      "sequence": 1,
+      "roles": [
+        "Bibikov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113632",
+      "name": "Georgia Brown",
+      "sequence": 2,
+      "roles": [
+        "Marfa Golov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341518",
+      "name": "Hugh Griffith",
+      "sequence": 3,
+      "roles": [
+        "Lebedev"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0366946",
+      "name": "Elizabeth Hartman",
+      "sequence": 4,
+      "roles": [
+        "Zinaida"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000453",
+      "name": "Ian Holm",
+      "sequence": 5,
+      "roles": [
+        "Grubeshov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0649055",
+      "name": "David Opatoshu",
+      "sequence": 6,
+      "roles": [
+        "Latke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001831",
+      "name": "David Warner",
+      "sequence": 7,
+      "roles": [
+        "Count Odoevsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0924576",
+      "name": "Carol White",
+      "sequence": 8,
+      "roles": [
+        "Raisl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0613685",
+      "name": "George Murcell",
+      "sequence": 9,
+      "roles": [
+        "Deputy Warden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0578527",
+      "name": "Murray Melvin",
+      "sequence": 10,
+      "roles": [
+        "Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420312",
+      "name": "Peter Jeffrey",
+      "sequence": 11,
+      "roles": [
+        "Berezhinsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328982",
+      "name": "Michael Goodliffe",
+      "sequence": 12,
+      "roles": [
+        "Ostrovsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0372731",
+      "name": "Thomas Heathcote",
+      "sequence": 13,
+      "roles": [
+        "Proshko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695511",
+      "name": "Mike Pratt",
+      "sequence": 14,
+      "roles": [
+        "Father Anastasy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0575080",
+      "name": "Stanley Meadows",
+      "sequence": 15,
+      "roles": [
+        "Gronfein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212470",
+      "name": "Francis De Wolff",
+      "sequence": 16,
+      "roles": [
+        "Warden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517084",
+      "name": "David Lodge",
+      "sequence": 17,
+      "roles": [
+        "Zhitnyak"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404561",
+      "name": "William Hutt",
+      "sequence": 18,
+      "roles": [
+        "The Tzar"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0538897",
       "name": "Bernard Malamud",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0874308",
       "name": "Dalton Trumbo",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1968-12-08",

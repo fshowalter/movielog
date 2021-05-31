@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0065872",
   "sort_title": "I Never Sang for My Father (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002048",
-      "name": "Melvyn Douglas",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom Garrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gene Garrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0830019",
-      "name": "Dorothy Stickney",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Margaret Garrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663820",
-      "name": "Estelle Parsons",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Alice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399169",
-      "name": "Elizabeth Hubbard",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694216",
-      "name": "Lovelady Powell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Norma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450796",
-      "name": "Daniel Keyes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Mayberry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047699",
-      "name": "Conrad Bain",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rev. Pell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724169",
-      "name": "Jon Richards",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Marvin Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183588",
-      "name": "Nikki Counselman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677057",
-      "name": "Carol Peterson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "1st Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791395",
-      "name": "Sloane Shelton",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "2nd Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439170",
-      "name": "James Karen",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Old Age Home Director"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930643",
-      "name": "Gene Williams",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "State Hospital Director"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0146062",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002048",
+      "name": "Melvyn Douglas",
+      "sequence": 0,
+      "roles": [
+        "Tom Garrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 1,
+      "roles": [
+        "Gene Garrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0830019",
+      "name": "Dorothy Stickney",
+      "sequence": 2,
+      "roles": [
+        "Margaret Garrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663820",
+      "name": "Estelle Parsons",
+      "sequence": 3,
+      "roles": [
+        "Alice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399169",
+      "name": "Elizabeth Hubbard",
+      "sequence": 4,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694216",
+      "name": "Lovelady Powell",
+      "sequence": 5,
+      "roles": [
+        "Norma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450796",
+      "name": "Daniel Keyes",
+      "sequence": 6,
+      "roles": [
+        "Dr. Mayberry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047699",
+      "name": "Conrad Bain",
+      "sequence": 7,
+      "roles": [
+        "Rev. Pell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724169",
+      "name": "Jon Richards",
+      "sequence": 8,
+      "roles": [
+        "Marvin Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183588",
+      "name": "Nikki Counselman",
+      "sequence": 9,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677057",
+      "name": "Carol Peterson",
+      "sequence": 10,
+      "roles": [
+        "1st Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791395",
+      "name": "Sloane Shelton",
+      "sequence": 11,
+      "roles": [
+        "2nd Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439170",
+      "name": "James Karen",
+      "sequence": 12,
+      "roles": [
+        "Old Age Home Director"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930643",
+      "name": "Gene Williams",
+      "sequence": 13,
+      "roles": [
+        "State Hospital Director"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0027355",
       "name": "Robert Anderson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0027355",
       "name": "Robert Anderson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on \"I Never Sang For My Father\" by)",
-      "group_id": 1
+      "notes": "(based on \"I Never Sang For My Father\" by)"
     }
   ],
   "release_date": "1970-10-18",

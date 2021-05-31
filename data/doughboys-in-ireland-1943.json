@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0035824",
   "sort_title": "Doughboys in Ireland (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0048653",
-      "name": "Kenny Baker",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Danny O'Keefe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232655",
-      "name": "Jeff Donnell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Molly Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581218",
-      "name": "Lynn Merrick",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gloria Gold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094494",
-      "name": "Guy Bonham",
-      "sequence": 3,
-      "notes": "(as The Jesters)",
-      "roles": [
-        "Chuck Mayers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490109",
-      "name": "Red Latham",
-      "sequence": 4,
-      "notes": "(as The Jesters)",
-      "roles": [
-        "Corny Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138044",
-      "name": "Walter Carlson",
-      "sequence": 5,
-      "notes": "(as The Jesters)",
-      "roles": [
-        "Tiny Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 6,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Ernie Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0879000",
-      "name": "George Tyne",
-      "sequence": 7,
-      "notes": "(as Buddy Yarus)",
-      "roles": [
-        "Jimmy Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788288",
-      "name": "Harry Shannon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Michael Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891027",
-      "name": "Dorothy Vaughan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0860401",
-      "name": "Larry Thompson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "U.S. Army Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768514",
-      "name": "Syd Saylor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "U.S. Army Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712660",
-      "name": "Herbert Rawlinson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Larry Hunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713979",
-      "name": "Neil Reagan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Medical Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1305337",
-      "name": "The Jesters",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Singing Group"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0484645",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0048653",
+      "name": "Kenny Baker",
+      "sequence": 0,
+      "roles": [
+        "Danny O'Keefe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232655",
+      "name": "Jeff Donnell",
+      "sequence": 1,
+      "roles": [
+        "Molly Callahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581218",
+      "name": "Lynn Merrick",
+      "sequence": 2,
+      "roles": [
+        "Gloria Gold"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094494",
+      "name": "Guy Bonham",
+      "sequence": 3,
+      "roles": [
+        "Chuck Mayers"
+      ],
+      "notes": "(as The Jesters)"
+    },
+    {
+      "person_imdb_id": "nm0490109",
+      "name": "Red Latham",
+      "sequence": 4,
+      "roles": [
+        "Corny Smith"
+      ],
+      "notes": "(as The Jesters)"
+    },
+    {
+      "person_imdb_id": "nm0138044",
+      "name": "Walter Carlson",
+      "sequence": 5,
+      "roles": [
+        "Tiny Johnson"
+      ],
+      "notes": "(as The Jesters)"
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 6,
+      "roles": [
+        "Ernie Jones"
+      ],
+      "notes": "(as Bob Mitchum)"
+    },
+    {
+      "person_imdb_id": "nm0879000",
+      "name": "George Tyne",
+      "sequence": 7,
+      "roles": [
+        "Jimmy Martin"
+      ],
+      "notes": "(as Buddy Yarus)"
+    },
+    {
+      "person_imdb_id": "nm0788288",
+      "name": "Harry Shannon",
+      "sequence": 8,
+      "roles": [
+        "Michael Callahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891027",
+      "name": "Dorothy Vaughan",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Callahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0860401",
+      "name": "Larry Thompson",
+      "sequence": 10,
+      "roles": [
+        "U.S. Army Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768514",
+      "name": "Syd Saylor",
+      "sequence": 11,
+      "roles": [
+        "U.S. Army Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712660",
+      "name": "Herbert Rawlinson",
+      "sequence": 12,
+      "roles": [
+        "Larry Hunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713979",
+      "name": "Neil Reagan",
+      "sequence": 13,
+      "roles": [
+        "Medical Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1305337",
+      "name": "The Jesters",
+      "sequence": 14,
+      "roles": [
+        "Singing Group"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0337914",
       "name": "Howard J. Green",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0108519",
       "name": "Monte Brice",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1943-10-07",

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0036218",
   "sort_title": "Northern Pursuit (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Corporal Steve Wagner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084098",
-      "name": "Julie Bishop",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Laura McBain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200626",
-      "name": "Helmut Dantine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Colonel Hugo von Keller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jim Austin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516876",
-      "name": "Gene Lockhart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ernst Willis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector Barnett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0624005",
-      "name": "Bernard Nedell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tom Dagor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235282",
-      "name": "Warren Douglas",
-      "sequence": 7,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089524",
-      "name": "Monte Blue",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185769",
-      "name": "Alec Craig",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Angus McBain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545198",
-      "name": "Lou Marcelle",
-      "sequence": 48,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Opening Off-Screen Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -110,34 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Corporal Steve Wagner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0084098",
+      "name": "Julie Bishop",
+      "sequence": 1,
+      "roles": [
+        "Laura McBain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200626",
+      "name": "Helmut Dantine",
+      "sequence": 2,
+      "roles": [
+        "Colonel Hugo von Keller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 3,
+      "roles": [
+        "Jim Austin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516876",
+      "name": "Gene Lockhart",
+      "sequence": 4,
+      "roles": [
+        "Ernst Willis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 5,
+      "roles": [
+        "Inspector Barnett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0624005",
+      "name": "Bernard Nedell",
+      "sequence": 6,
+      "roles": [
+        "Tom Dagor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235282",
+      "name": "Warren Douglas",
+      "sequence": 7,
+      "roles": [
+        "Sergeant"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0089524",
+      "name": "Monte Blue",
+      "sequence": 8,
+      "roles": [
+        "Jean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185769",
+      "name": "Alec Craig",
+      "sequence": 9,
+      "roles": [
+        "Angus McBain"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0344246",
       "name": "Frank Gruber",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0078827",
       "name": "Alvah Bessie",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0925129",
       "name": "Leslie T. White",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1943-11-13",

@@ -1,35 +1,6 @@
 {
   "imdb_id": "tt0054017",
   "sort_title": "Last Woman on Earth (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0429506",
-      "name": "Betsy Jones-Moreland",
-      "sequence": 0,
-      "notes": "(as Betsy Jones Moreland)",
-      "roles": [
-        "Evelyn Gern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136147",
-      "name": "Antony Carbone",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Harold Gern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001801",
-      "name": "Robert Towne",
-      "sequence": 2,
-      "notes": "(as Edward Wain)",
-      "roles": [
-        "Martin Joyce"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -38,13 +9,42 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0429506",
+      "name": "Betsy Jones-Moreland",
+      "sequence": 0,
+      "roles": [
+        "Evelyn Gern"
+      ],
+      "notes": "(as Betsy Jones Moreland)"
+    },
+    {
+      "person_imdb_id": "nm0136147",
+      "name": "Antony Carbone",
+      "sequence": 1,
+      "roles": [
+        "Harold Gern"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001801",
+      "name": "Robert Towne",
+      "sequence": 2,
+      "roles": [
+        "Martin Joyce"
+      ],
+      "notes": "(as Edward Wain)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001801",
       "name": "Robert Towne",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1960-08-05",

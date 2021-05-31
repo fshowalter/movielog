@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0376541",
   "sort_title": "Closer (2004)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000204",
-      "name": "Natalie Portman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000179",
-      "name": "Jude Law",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000210",
-      "name": "Julia Roberts",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654110",
-      "name": "Clive Owen",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Larry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387614",
-      "name": "Nick Hobbs",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Taxi Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0830479",
-      "name": "Colin Stinton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Customs Officer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001566",
@@ -65,20 +9,76 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000204",
+      "name": "Natalie Portman",
+      "sequence": 0,
+      "roles": [
+        "Alice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000179",
+      "name": "Jude Law",
+      "sequence": 1,
+      "roles": [
+        "Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000210",
+      "name": "Julia Roberts",
+      "sequence": 2,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654110",
+      "name": "Clive Owen",
+      "sequence": 3,
+      "roles": [
+        "Larry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0387614",
+      "name": "Nick Hobbs",
+      "sequence": 4,
+      "roles": [
+        "Taxi Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0830479",
+      "name": "Colin Stinton",
+      "sequence": 5,
+      "roles": [
+        "Customs Officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0544999",
       "name": "Patrick Marber",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0544999",
       "name": "Patrick Marber",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "2004-11-22",

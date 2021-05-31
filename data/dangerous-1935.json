@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0026261",
   "sort_title": "Dangerous (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joyce Heath"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867144",
-      "name": "Franchot Tone",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Don Bellows"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gail Armitage"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0804375",
-      "name": "Alison Skipworth",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253141",
-      "name": "John Eldredge",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gordon Heath"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285264",
-      "name": "Dick Foran",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Teddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908300",
-      "name": "Walter Walker",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Roger Farnsworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137353",
-      "name": "Richard Carle",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pitt Hanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Charles Melton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914246",
-      "name": "Pierre Watkin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George Sheffield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0939667",
-      "name": "Douglas Wood",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Elmont"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203527",
-      "name": "William B. Davidson",
-      "sequence": 11,
-      "notes": "(as William Davidson)",
-      "roles": [
-        "Reed Walsh"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0337586",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Joyce Heath"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867144",
+      "name": "Franchot Tone",
+      "sequence": 1,
+      "roles": [
+        "Don Bellows"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 2,
+      "roles": [
+        "Gail Armitage"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0804375",
+      "name": "Alison Skipworth",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253141",
+      "name": "John Eldredge",
+      "sequence": 4,
+      "roles": [
+        "Gordon Heath"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285264",
+      "name": "Dick Foran",
+      "sequence": 5,
+      "roles": [
+        "Teddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908300",
+      "name": "Walter Walker",
+      "sequence": 6,
+      "roles": [
+        "Roger Farnsworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137353",
+      "name": "Richard Carle",
+      "sequence": 7,
+      "roles": [
+        "Pitt Hanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 8,
+      "roles": [
+        "Charles Melton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914246",
+      "name": "Pierre Watkin",
+      "sequence": 9,
+      "roles": [
+        "George Sheffield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0939667",
+      "name": "Douglas Wood",
+      "sequence": 10,
+      "roles": [
+        "Elmont"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203527",
+      "name": "William B. Davidson",
+      "sequence": 11,
+      "roles": [
+        "Reed Walsh"
+      ],
+      "notes": "(as William Davidson)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0236418",
       "name": "Laird Doyle",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0236418",
       "name": "Laird Doyle",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1935-12-25",

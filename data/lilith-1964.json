@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0058294",
   "sort_title": "Lilith (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000886",
-      "name": "Warren Beatty",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Vincent Bruce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0781029",
-      "name": "Jean Seberg",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lilith Arthur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001228",
-      "name": "Peter Fonda",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stephen Evshevsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001375",
-      "name": "Kim Hunter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Bea Brice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574859",
-      "name": "Anne Meacham",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs.Yvonne Meaghan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910055",
-      "name": "Jessica Walter",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Laura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Norman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666247",
-      "name": "James Patterson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Lavrier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717735",
-      "name": "Robert Reilly",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bob Clayfield"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0744035",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000886",
+      "name": "Warren Beatty",
+      "sequence": 0,
+      "roles": [
+        "Vincent Bruce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0781029",
+      "name": "Jean Seberg",
+      "sequence": 1,
+      "roles": [
+        "Lilith Arthur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001228",
+      "name": "Peter Fonda",
+      "sequence": 2,
+      "roles": [
+        "Stephen Evshevsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001375",
+      "name": "Kim Hunter",
+      "sequence": 3,
+      "roles": [
+        "Dr. Bea Brice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574859",
+      "name": "Anne Meacham",
+      "sequence": 4,
+      "roles": [
+        "Mrs.Yvonne Meaghan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910055",
+      "name": "Jessica Walter",
+      "sequence": 5,
+      "roles": [
+        "Laura"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 6,
+      "roles": [
+        "Norman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666247",
+      "name": "James Patterson",
+      "sequence": 7,
+      "roles": [
+        "Dr. Lavrier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717735",
+      "name": "Robert Reilly",
+      "sequence": 8,
+      "roles": [
+        "Bob Clayfield"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0015899",
       "name": "Robert Alan Aurthur",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 0
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0744035",
       "name": "Robert Rossen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0757479",
       "name": "J.R. Salamanca",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 2
+      "notes": "(novel)"
     }
   ],
   "release_date": "1964-09-19",

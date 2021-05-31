@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0048573",
   "sort_title": "Sabaka (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0545158",
-      "name": "Nino Marcel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gunga Ram"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gen. Pollegar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0472632",
-      "name": "Lou Krugman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maharajah of Bakore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219666",
-      "name": "Reginald Denny",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sir Cedric"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004931",
-      "name": "June Foray",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marku Ponjoy - High Priestess of Sabaka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430460",
-      "name": "Victor Jory",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ashok"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637041",
-      "name": "Jay Novello",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Damji"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397467",
-      "name": "Lisa Howard",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Indira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168658",
-      "name": "Peter Coe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Taru"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548001",
-      "name": "Paul Marion",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Kumar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0780005",
-      "name": "Vito Scotti",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Rama"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581308",
-      "name": "Louis Merrill",
-      "sequence": 11,
-      "notes": "(as Lou Merrill)",
-      "roles": [
-        "Koobah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060931",
-      "name": "Jeanne Bates",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Durga"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0802363",
-      "name": "K.K. Sinha",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Fire Dancer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0274843",
@@ -137,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0545158",
+      "name": "Nino Marcel",
+      "sequence": 0,
+      "roles": [
+        "Gunga Ram"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 1,
+      "roles": [
+        "Gen. Pollegar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0472632",
+      "name": "Lou Krugman",
+      "sequence": 2,
+      "roles": [
+        "Maharajah of Bakore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219666",
+      "name": "Reginald Denny",
+      "sequence": 3,
+      "roles": [
+        "Sir Cedric"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004931",
+      "name": "June Foray",
+      "sequence": 4,
+      "roles": [
+        "Marku Ponjoy - High Priestess of Sabaka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430460",
+      "name": "Victor Jory",
+      "sequence": 5,
+      "roles": [
+        "Ashok"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637041",
+      "name": "Jay Novello",
+      "sequence": 6,
+      "roles": [
+        "Damji"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397467",
+      "name": "Lisa Howard",
+      "sequence": 7,
+      "roles": [
+        "Indira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168658",
+      "name": "Peter Coe",
+      "sequence": 8,
+      "roles": [
+        "Taru"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548001",
+      "name": "Paul Marion",
+      "sequence": 9,
+      "roles": [
+        "Kumar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0780005",
+      "name": "Vito Scotti",
+      "sequence": 10,
+      "roles": [
+        "Rama"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581308",
+      "name": "Louis Merrill",
+      "sequence": 11,
+      "roles": [
+        "Koobah"
+      ],
+      "notes": "(as Lou Merrill)"
+    },
+    {
+      "person_imdb_id": "nm0060931",
+      "name": "Jeanne Bates",
+      "sequence": 12,
+      "roles": [
+        "Durga"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0802363",
+      "name": "K.K. Sinha",
+      "sequence": 13,
+      "roles": [
+        "Fire Dancer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0274843",
       "name": "Frank Ferrin",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1954-10-08",

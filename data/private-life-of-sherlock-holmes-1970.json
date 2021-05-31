@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0066249",
   "sort_title": "Private Life of Sherlock Holmes (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0827137",
-      "name": "Robert Stephens",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sherlock Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086780",
-      "name": "Colin Blakely",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Watson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656180",
-      "name": "Genevi\u00e8ve Page",
-      "sequence": 2,
-      "notes": "(as Genevieve Page)",
-      "roles": [
-        "Gabrielle Valladon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mycroft Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869565",
-      "name": "Tamara Toumanova",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Madame Petrova"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720890",
-      "name": "Clive Revill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rogozhin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0359566",
-      "name": "Irene Handl",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Hudson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560985",
-      "name": "Mollie Maureen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Queen Victoria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391361",
-      "name": "Stanley Holloway",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gravedigger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479910",
-      "name": "Catherine Lacey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Woman in Wheelchair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534634",
-      "name": "Peter Madden",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Von Tirpitz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0050163",
-      "name": "Michael Balfour",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Cabby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178611",
-      "name": "James Copeland",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Guide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308334",
-      "name": "John Garrie",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "First Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416528",
-      "name": "Godfrey James",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Second Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0147204",
-      "name": "Robert Cawdron",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Hotel Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567018",
-      "name": "Alex McCrindle",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Baggageman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861530",
-      "name": "Frank Thornton",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0360600",
-      "name": "Paul Hansard",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Monk"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000697",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0827137",
+      "name": "Robert Stephens",
+      "sequence": 0,
+      "roles": [
+        "Sherlock Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086780",
+      "name": "Colin Blakely",
+      "sequence": 1,
+      "roles": [
+        "Dr. Watson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656180",
+      "name": "Genevi\u00e8ve Page",
+      "sequence": 2,
+      "roles": [
+        "Gabrielle Valladon"
+      ],
+      "notes": "(as Genevieve Page)"
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
+      "roles": [
+        "Mycroft Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0869565",
+      "name": "Tamara Toumanova",
+      "sequence": 4,
+      "roles": [
+        "Madame Petrova"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720890",
+      "name": "Clive Revill",
+      "sequence": 5,
+      "roles": [
+        "Rogozhin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0359566",
+      "name": "Irene Handl",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Hudson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560985",
+      "name": "Mollie Maureen",
+      "sequence": 7,
+      "roles": [
+        "Queen Victoria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391361",
+      "name": "Stanley Holloway",
+      "sequence": 8,
+      "roles": [
+        "Gravedigger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479910",
+      "name": "Catherine Lacey",
+      "sequence": 9,
+      "roles": [
+        "Woman in Wheelchair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534634",
+      "name": "Peter Madden",
+      "sequence": 10,
+      "roles": [
+        "Von Tirpitz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0050163",
+      "name": "Michael Balfour",
+      "sequence": 11,
+      "roles": [
+        "Cabby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178611",
+      "name": "James Copeland",
+      "sequence": 12,
+      "roles": [
+        "Guide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308334",
+      "name": "John Garrie",
+      "sequence": 13,
+      "roles": [
+        "First Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416528",
+      "name": "Godfrey James",
+      "sequence": 14,
+      "roles": [
+        "Second Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0147204",
+      "name": "Robert Cawdron",
+      "sequence": 15,
+      "roles": [
+        "Hotel Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0567018",
+      "name": "Alex McCrindle",
+      "sequence": 16,
+      "roles": [
+        "Baggageman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861530",
+      "name": "Frank Thornton",
+      "sequence": 17,
+      "roles": [
+        "Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0360600",
+      "name": "Paul Hansard",
+      "sequence": 18,
+      "roles": [
+        "Monk"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0236279",
       "name": "Arthur Conan Doyle",
+      "group": 0,
       "sequence": 0,
-      "notes": "(characters) (as Sir Arthur Conan Doyle)",
-      "group_id": 0
+      "notes": "(characters) (as Sir Arthur Conan Doyle)"
     },
     {
       "person_imdb_id": "nm0000697",
       "name": "Billy Wilder",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1970-10-29",

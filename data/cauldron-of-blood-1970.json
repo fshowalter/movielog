@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0061494",
   "sort_title": "Cauldron of Blood (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001922",
-      "name": "Jean-Pierre Aumont",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Claude Marchand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Franz Badulescu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511798",
-      "name": "Viveca Lindfors",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tania Badulescu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599478",
-      "name": "Rosenda Monteros",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Valerie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703318",
-      "name": "Milo Quesada",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Shanghai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0958743",
-      "name": "Dyanik Zurakowska",
-      "sequence": 5,
-      "notes": "(as Dianik Zurakowska)",
-      "roles": [
-        "Elga"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737944",
-      "name": "Rub\u00e9n Rojo",
-      "sequence": 6,
-      "notes": "(as Ruben Rojo)",
-      "roles": [
-        "Pablo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817520",
-      "name": "Jacqui Speed",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pilar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737939",
-      "name": "Mercedes Rojo",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gypsy Queen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657566",
-      "name": "Mary Lou Palermo",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stewardess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0207458",
-      "name": "Manuel de Blas",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184175",
-      "name": "Eduardo Coutelenq",
-      "sequence": 11,
-      "notes": "(as Eduardo Coutelen)",
-      "roles": [
-        "Domingo"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0017246",
@@ -125,27 +15,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001922",
+      "name": "Jean-Pierre Aumont",
+      "sequence": 0,
+      "roles": [
+        "Claude Marchand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 1,
+      "roles": [
+        "Franz Badulescu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511798",
+      "name": "Viveca Lindfors",
+      "sequence": 2,
+      "roles": [
+        "Tania Badulescu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599478",
+      "name": "Rosenda Monteros",
+      "sequence": 3,
+      "roles": [
+        "Valerie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0703318",
+      "name": "Milo Quesada",
+      "sequence": 4,
+      "roles": [
+        "Shanghai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0958743",
+      "name": "Dyanik Zurakowska",
+      "sequence": 5,
+      "roles": [
+        "Elga"
+      ],
+      "notes": "(as Dianik Zurakowska)"
+    },
+    {
+      "person_imdb_id": "nm0737944",
+      "name": "Rub\u00e9n Rojo",
+      "sequence": 6,
+      "roles": [
+        "Pablo"
+      ],
+      "notes": "(as Ruben Rojo)"
+    },
+    {
+      "person_imdb_id": "nm0817520",
+      "name": "Jacqui Speed",
+      "sequence": 7,
+      "roles": [
+        "Pilar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737939",
+      "name": "Mercedes Rojo",
+      "sequence": 8,
+      "roles": [
+        "Gypsy Queen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0657566",
+      "name": "Mary Lou Palermo",
+      "sequence": 9,
+      "roles": [
+        "Stewardess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0207458",
+      "name": "Manuel de Blas",
+      "sequence": 10,
+      "roles": [
+        "Lenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184175",
+      "name": "Eduardo Coutelenq",
+      "sequence": 11,
+      "roles": [
+        "Domingo"
+      ],
+      "notes": "(as Eduardo Coutelen)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0578367",
       "name": "John Melson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0542735",
       "name": "Edward Mann",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0063188",
       "name": "Jos\u00e9 Luis Bayonas",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by) (uncredited)",
-      "group_id": 1
+      "notes": "(written by) (uncredited)"
     }
   ],
   "release_date": "1970-02-16",

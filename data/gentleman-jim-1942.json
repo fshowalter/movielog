@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0034778",
   "sort_title": "Gentleman Jim (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "James J. Corbett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807252",
-      "name": "Alexis Smith",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Victoria Ware"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007217",
-      "name": "Jack Carson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Walter Lowrie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Pat Corbett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517058",
-      "name": "John Loder",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Carlton De Witt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292433",
-      "name": "William Frawley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Billy Delaney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914808",
-      "name": "Minor Watson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Buck Ware"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "John L. Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0495495",
-      "name": "Madeleine Lebeau",
-      "sequence": 8,
-      "notes": "(as Madeleine LeBeau)",
-      "roles": [
-        "Anna Held"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931525",
-      "name": "Rhys Williams",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Harry Watson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0793168",
-      "name": "Arthur Shields",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Father Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891027",
-      "name": "Dorothy Vaughan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ma Corbett"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "James J. Corbett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807252",
+      "name": "Alexis Smith",
+      "sequence": 1,
+      "roles": [
+        "Victoria Ware"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007217",
+      "name": "Jack Carson",
+      "sequence": 2,
+      "roles": [
+        "Walter Lowrie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 3,
+      "roles": [
+        "Pat Corbett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517058",
+      "name": "John Loder",
+      "sequence": 4,
+      "roles": [
+        "Carlton De Witt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292433",
+      "name": "William Frawley",
+      "sequence": 5,
+      "roles": [
+        "Billy Delaney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914808",
+      "name": "Minor Watson",
+      "sequence": 6,
+      "roles": [
+        "Buck Ware"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 7,
+      "roles": [
+        "John L. Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0495495",
+      "name": "Madeleine Lebeau",
+      "sequence": 8,
+      "roles": [
+        "Anna Held"
+      ],
+      "notes": "(as Madeleine LeBeau)"
+    },
+    {
+      "person_imdb_id": "nm0931525",
+      "name": "Rhys Williams",
+      "sequence": 9,
+      "roles": [
+        "Harry Watson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0793168",
+      "name": "Arthur Shields",
+      "sequence": 10,
+      "roles": [
+        "Father Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891027",
+      "name": "Dorothy Vaughan",
+      "sequence": 11,
+      "roles": [
+        "Ma Corbett"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0493071",
       "name": "Vincent Lawrence",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0179163",
       "name": "James J. Corbett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon the life of)",
-      "group_id": 1
+      "notes": "(based upon the life of)"
     }
   ],
   "release_date": "1942-11-14",

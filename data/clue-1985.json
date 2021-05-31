@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0088930",
   "sort_title": "Clue (1985)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0107281",
-      "name": "Eileen Brennan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mrs. Peacock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000347",
-      "name": "Tim Curry",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Wadsworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001404",
-      "name": "Madeline Kahn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000502",
-      "name": "Christopher Lloyd",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Professor Plum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571106",
-      "name": "Michael McKean",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Green"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611898",
-      "name": "Martin Mull",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Colonel Mustard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000690",
-      "name": "Lesley Ann Warren",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miss Scarlet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131974",
-      "name": "Colleen Camp",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Yvette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898962",
-      "name": "Lee Ving",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Boddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376347",
-      "name": "Bill Henderson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Cop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005553",
-      "name": "Jane Wiedlin",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Singing Telegram Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0469552",
-      "name": "Jeffrey Kramer",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Motorist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619990",
-      "name": "Kellye Nakahara",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0638593",
-      "name": "Will Nye",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Cop #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0325891",
-      "name": "Rick Goldman",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Cop #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131977",
-      "name": "Don Camp",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Cop #3"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0528718",
@@ -155,34 +9,180 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0107281",
+      "name": "Eileen Brennan",
+      "sequence": 0,
+      "roles": [
+        "Mrs. Peacock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000347",
+      "name": "Tim Curry",
+      "sequence": 1,
+      "roles": [
+        "Wadsworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001404",
+      "name": "Madeline Kahn",
+      "sequence": 2,
+      "roles": [
+        "Mrs. White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000502",
+      "name": "Christopher Lloyd",
+      "sequence": 3,
+      "roles": [
+        "Professor Plum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571106",
+      "name": "Michael McKean",
+      "sequence": 4,
+      "roles": [
+        "Mr. Green"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0611898",
+      "name": "Martin Mull",
+      "sequence": 5,
+      "roles": [
+        "Colonel Mustard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000690",
+      "name": "Lesley Ann Warren",
+      "sequence": 6,
+      "roles": [
+        "Miss Scarlet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131974",
+      "name": "Colleen Camp",
+      "sequence": 7,
+      "roles": [
+        "Yvette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898962",
+      "name": "Lee Ving",
+      "sequence": 8,
+      "roles": [
+        "Mr. Boddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376347",
+      "name": "Bill Henderson",
+      "sequence": 9,
+      "roles": [
+        "The Cop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005553",
+      "name": "Jane Wiedlin",
+      "sequence": 10,
+      "roles": [
+        "The Singing Telegram Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0469552",
+      "name": "Jeffrey Kramer",
+      "sequence": 11,
+      "roles": [
+        "The Motorist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619990",
+      "name": "Kellye Nakahara",
+      "sequence": 12,
+      "roles": [
+        "The Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0638593",
+      "name": "Will Nye",
+      "sequence": 13,
+      "roles": [
+        "Cop #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0325891",
+      "name": "Rick Goldman",
+      "sequence": 14,
+      "roles": [
+        "Cop #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131977",
+      "name": "Don Camp",
+      "sequence": 15,
+      "roles": [
+        "Cop #3"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000484",
       "name": "John Landis",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0528718",
       "name": "Jonathan Lynn",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0528718",
       "name": "Jonathan Lynn",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0695422",
       "name": "Anthony E. Pratt",
+      "group": 2,
       "sequence": 0,
-      "notes": "(board game Cluedo) (uncredited)",
-      "group_id": 2
+      "notes": "(board game Cluedo) (uncredited)"
     }
   ],
   "release_date": "1985-12-13",

@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0041929",
   "sort_title": "Streets of Laredo (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Dawkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136994",
-      "name": "Macdonald Carey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lorn Reming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293530",
-      "name": "Mona Freeman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rannie Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000904",
-      "name": "William Bendix",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Reuben 'Wahoo' Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725897",
-      "name": "Stanley Ridges",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Major Bailey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066166",
-      "name": "Alfonso Bedoya",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charley Calico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Henchman Cantrel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079681",
-      "name": "Clem Bevans",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pop Lint"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068257",
-      "name": "James Bell",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285204",
-      "name": "Dick Foote",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Texas Ranger Pipes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0231529",
-      "name": "Joe Dominguez",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Texas Ranger Francisco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0722438",
-      "name": "Grandon Rhodes",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Phil Jessup"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0412424",
-      "name": "Perry Ivins",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mayor Towson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0272059",
@@ -128,34 +9,153 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Jim Dawkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0136994",
+      "name": "Macdonald Carey",
+      "sequence": 1,
+      "roles": [
+        "Lorn Reming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293530",
+      "name": "Mona Freeman",
+      "sequence": 2,
+      "roles": [
+        "Rannie Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000904",
+      "name": "William Bendix",
+      "sequence": 3,
+      "roles": [
+        "Reuben 'Wahoo' Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725897",
+      "name": "Stanley Ridges",
+      "sequence": 4,
+      "roles": [
+        "Major Bailey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0066166",
+      "name": "Alfonso Bedoya",
+      "sequence": 5,
+      "roles": [
+        "Charley Calico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 6,
+      "roles": [
+        "Henchman Cantrel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079681",
+      "name": "Clem Bevans",
+      "sequence": 7,
+      "roles": [
+        "Pop Lint"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068257",
+      "name": "James Bell",
+      "sequence": 8,
+      "roles": [
+        "Ike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285204",
+      "name": "Dick Foote",
+      "sequence": 9,
+      "roles": [
+        "Texas Ranger Pipes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0231529",
+      "name": "Joe Dominguez",
+      "sequence": 10,
+      "roles": [
+        "Texas Ranger Francisco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0722438",
+      "name": "Grandon Rhodes",
+      "sequence": 11,
+      "roles": [
+        "Phil Jessup"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0412424",
+      "name": "Perry Ivins",
+      "sequence": 12,
+      "roles": [
+        "Mayor Towson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0912766",
       "name": "Charles Marquis Warren",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0828574",
       "name": "Louis Stevens",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0384227",
       "name": "Elizabeth Hill",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0896542",
       "name": "King Vidor",
+      "group": 2,
       "sequence": 0,
-      "notes": "(original screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(original screenplay) (uncredited)"
     }
   ],
   "release_date": "1949-05-11",

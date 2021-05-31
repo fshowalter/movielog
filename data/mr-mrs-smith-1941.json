@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0033922",
   "sort_title": "Mr. & Mrs. Smith (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599910",
-      "name": "Robert Montgomery",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713270",
-      "name": "Gene Raymond",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jeff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007217",
-      "name": "Jack Carson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Chuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580882",
-      "name": "Philip Merivale",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Custer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914778",
-      "name": "Lucile Watson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Custer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870454",
-      "name": "William Tracy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sammy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357111",
-      "name": "Charles Halton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Deever"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197689",
-      "name": "Esther Dale",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Krausheimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242562",
-      "name": "Emma Dunn",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0173993",
-      "name": "Betty Compson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gertie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268052",
-      "name": "Patricia Farr",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gloria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249602",
-      "name": "William Edmunds",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Proprietor Lucy's"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086680",
-      "name": "Pamela Blake",
-      "sequence": 13,
-      "notes": "(as Adele Pearce)",
-      "roles": [
-        "Lily"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -137,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 0,
+      "roles": [
+        "Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599910",
+      "name": "Robert Montgomery",
+      "sequence": 1,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713270",
+      "name": "Gene Raymond",
+      "sequence": 2,
+      "roles": [
+        "Jeff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007217",
+      "name": "Jack Carson",
+      "sequence": 3,
+      "roles": [
+        "Chuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580882",
+      "name": "Philip Merivale",
+      "sequence": 4,
+      "roles": [
+        "Mr. Custer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914778",
+      "name": "Lucile Watson",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Custer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870454",
+      "name": "William Tracy",
+      "sequence": 6,
+      "roles": [
+        "Sammy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357111",
+      "name": "Charles Halton",
+      "sequence": 7,
+      "roles": [
+        "Mr. Deever"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197689",
+      "name": "Esther Dale",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Krausheimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242562",
+      "name": "Emma Dunn",
+      "sequence": 9,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0173993",
+      "name": "Betty Compson",
+      "sequence": 10,
+      "roles": [
+        "Gertie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268052",
+      "name": "Patricia Farr",
+      "sequence": 11,
+      "roles": [
+        "Gloria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249602",
+      "name": "William Edmunds",
+      "sequence": 12,
+      "roles": [
+        "Proprietor Lucy's"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086680",
+      "name": "Pamela Blake",
+      "sequence": 13,
+      "roles": [
+        "Lily"
+      ],
+      "notes": "(as Adele Pearce)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0469915",
       "name": "Norman Krasna",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1941-01-31",

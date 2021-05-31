@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt1316536",
   "sort_title": "Loved Ones (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1882152",
-      "name": "Xavier Samuel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Brent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2029984",
-      "name": "Robin McLeavy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Princess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115979",
-      "name": "John Brumpton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Daddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934019",
-      "name": "Richard Wilson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jamie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1443841",
-      "name": "Victoria Thaine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Holly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2537621",
-      "name": "Jessica McNamee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317951",
-      "name": "Andrew S. Gilbert",
-      "sequence": 6,
-      "notes": "(as Andrew S Gilbert)",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0234885",
-      "name": "Suzi Dougherty",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Carla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247082",
-      "name": "Victoria Eagger",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Judith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779957",
-      "name": "Anne Scott-Pendlebury",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bright Eyes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926096",
-      "name": "Fred Whitlock",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852765",
-      "name": "Leo Taylor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Teacher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122600",
-      "name": "Brandon Burns",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Takeaway Shop Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4111396",
-      "name": "Stephen Walden",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Timmy Valentine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4109910",
-      "name": "Igor Savin",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Rhys Agnew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3729596",
-      "name": "Eden Porter",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Keir Willis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4110626",
-      "name": "Tom Mahoney",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Duncan Fletcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3164335",
-      "name": "Gulliver McGrath",
-      "sequence": 17,
-      "notes": "(as Gully McGrath)",
-      "roles": [
-        "Keir Willis 8 Year Old"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4111466",
-      "name": "Stevie-Lou Answerth",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Princess 8 Year Old"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3911286",
-      "name": "Liam Duxbury",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Duncan Fletcher 8 Year Old"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3503585",
-      "name": "Jedda",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Dog"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm2015237",
@@ -200,13 +9,204 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1882152",
+      "name": "Xavier Samuel",
+      "sequence": 0,
+      "roles": [
+        "Brent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2029984",
+      "name": "Robin McLeavy",
+      "sequence": 1,
+      "roles": [
+        "Princess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115979",
+      "name": "John Brumpton",
+      "sequence": 2,
+      "roles": [
+        "Daddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934019",
+      "name": "Richard Wilson",
+      "sequence": 3,
+      "roles": [
+        "Jamie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1443841",
+      "name": "Victoria Thaine",
+      "sequence": 4,
+      "roles": [
+        "Holly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2537621",
+      "name": "Jessica McNamee",
+      "sequence": 5,
+      "roles": [
+        "Mia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317951",
+      "name": "Andrew S. Gilbert",
+      "sequence": 6,
+      "roles": [
+        "Paul"
+      ],
+      "notes": "(as Andrew S Gilbert)"
+    },
+    {
+      "person_imdb_id": "nm0234885",
+      "name": "Suzi Dougherty",
+      "sequence": 7,
+      "roles": [
+        "Carla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247082",
+      "name": "Victoria Eagger",
+      "sequence": 8,
+      "roles": [
+        "Judith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779957",
+      "name": "Anne Scott-Pendlebury",
+      "sequence": 9,
+      "roles": [
+        "Bright Eyes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926096",
+      "name": "Fred Whitlock",
+      "sequence": 10,
+      "roles": [
+        "Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852765",
+      "name": "Leo Taylor",
+      "sequence": 11,
+      "roles": [
+        "Teacher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122600",
+      "name": "Brandon Burns",
+      "sequence": 12,
+      "roles": [
+        "Takeaway Shop Attendant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4111396",
+      "name": "Stephen Walden",
+      "sequence": 13,
+      "roles": [
+        "Timmy Valentine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4109910",
+      "name": "Igor Savin",
+      "sequence": 14,
+      "roles": [
+        "Rhys Agnew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3729596",
+      "name": "Eden Porter",
+      "sequence": 15,
+      "roles": [
+        "Keir Willis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4110626",
+      "name": "Tom Mahoney",
+      "sequence": 16,
+      "roles": [
+        "Duncan Fletcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3164335",
+      "name": "Gulliver McGrath",
+      "sequence": 17,
+      "roles": [
+        "Keir Willis 8 Year Old"
+      ],
+      "notes": "(as Gully McGrath)"
+    },
+    {
+      "person_imdb_id": "nm4111466",
+      "name": "Stevie-Lou Answerth",
+      "sequence": 18,
+      "roles": [
+        "Princess 8 Year Old"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3911286",
+      "name": "Liam Duxbury",
+      "sequence": 19,
+      "roles": [
+        "Duncan Fletcher 8 Year Old"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3503585",
+      "name": "Jedda",
+      "sequence": 20,
+      "roles": [
+        "Dog"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm2015237",
       "name": "Sean Byrne",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-09-13",

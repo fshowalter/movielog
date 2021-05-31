@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0085693",
   "sort_title": "House of the Long Shadows (1983)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lionel Grisbane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Corrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sebastian Grisbane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036107",
-      "name": "Desi Arnaz Jr.",
-      "sequence": 3,
-      "notes": "(as Desi Arnaz)",
-      "roles": [
-        "Kenneth Magee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lord Elijah Grisbane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445305",
-      "name": "Sheila Keith",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Victoria Grisbane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669453",
-      "name": "Julie Peasgood",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mary Norton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865262",
-      "name": "Richard Todd",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sam Allyson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0257654",
-      "name": "Louise English",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Diana Caulder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1027232",
-      "name": "Richard Hunter",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Andrew Caulder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744395",
-      "name": "Norman Rossington",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Station Master"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0908103",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Lionel Grisbane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 1,
+      "roles": [
+        "Corrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 2,
+      "roles": [
+        "Sebastian Grisbane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036107",
+      "name": "Desi Arnaz Jr.",
+      "sequence": 3,
+      "roles": [
+        "Kenneth Magee"
+      ],
+      "notes": "(as Desi Arnaz)"
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 4,
+      "roles": [
+        "Lord Elijah Grisbane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445305",
+      "name": "Sheila Keith",
+      "sequence": 5,
+      "roles": [
+        "Victoria Grisbane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669453",
+      "name": "Julie Peasgood",
+      "sequence": 6,
+      "roles": [
+        "Mary Norton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865262",
+      "name": "Richard Todd",
+      "sequence": 7,
+      "roles": [
+        "Sam Allyson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0257654",
+      "name": "Louise English",
+      "sequence": 8,
+      "roles": [
+        "Diana Caulder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1027232",
+      "name": "Richard Hunter",
+      "sequence": 9,
+      "roles": [
+        "Andrew Caulder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744395",
+      "name": "Norman Rossington",
+      "sequence": 10,
+      "roles": [
+        "Station Master"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0035830",
       "name": "Michael Armstrong",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0081788",
       "name": "Earl Derr Biggers",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Seven Keys to Baldpate\")",
-      "group_id": 1
+      "notes": "(novel \"Seven Keys to Baldpate\")"
     },
     {
       "person_imdb_id": "nm0169125",
       "name": "George M. Cohan",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"Seven Keys to Baldpate\")",
-      "group_id": 2
+      "notes": "(play \"Seven Keys to Baldpate\")"
     }
   ],
   "release_date": "1983-01-01",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0044144",
   "sort_title": "Treasure of Lost Canyon (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Homer 'Doc' Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011105",
-      "name": "Julie Adams",
-      "sequence": 1,
-      "notes": "(as Julia Adams)",
-      "roles": [
-        "Myra Wade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236866",
-      "name": "Charles Drake",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jim Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0213619",
-      "name": "Rosemary DeCamp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Samuella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0412443",
-      "name": "Tommy Ivo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401434",
-      "name": "Henry Hull",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cousin Lucius Cooke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424793",
-      "name": "Chubby Johnson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Baltimore Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0234732",
-      "name": "John Doucette",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gyppo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254974",
-      "name": "Marvin Press",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Paddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055899",
-      "name": "Griff Barnett",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge Wade"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005898",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Homer 'Doc' Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011105",
+      "name": "Julie Adams",
+      "sequence": 1,
+      "roles": [
+        "Myra Wade"
+      ],
+      "notes": "(as Julia Adams)"
+    },
+    {
+      "person_imdb_id": "nm0236866",
+      "name": "Charles Drake",
+      "sequence": 2,
+      "roles": [
+        "Jim Anderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0213619",
+      "name": "Rosemary DeCamp",
+      "sequence": 3,
+      "roles": [
+        "Samuella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0412443",
+      "name": "Tommy Ivo",
+      "sequence": 4,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401434",
+      "name": "Henry Hull",
+      "sequence": 5,
+      "roles": [
+        "Cousin Lucius Cooke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424793",
+      "name": "Chubby Johnson",
+      "sequence": 6,
+      "roles": [
+        "Baltimore Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0234732",
+      "name": "John Doucette",
+      "sequence": 7,
+      "roles": [
+        "Gyppo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254974",
+      "name": "Marvin Press",
+      "sequence": 8,
+      "roles": [
+        "Paddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055899",
+      "name": "Griff Barnett",
+      "sequence": 9,
+      "roles": [
+        "Judge Wade"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0240452",
       "name": "Brainerd Duffield",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0188353",
       "name": "Emerson Crocker",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0829044",
       "name": "Robert Louis Stevenson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(short story \"The Treasure of Franchard\")",
-      "group_id": 1
+      "notes": "(short story \"The Treasure of Franchard\")"
     }
   ],
   "release_date": "1952-01-27",

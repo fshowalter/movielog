@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0038468",
   "sort_title": "It Rains on Our Love (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0464167",
-      "name": "Barbro Kollberg",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Maggi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0147785",
-      "name": "G\u00f6sta Cederlund",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Man with umbrella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313209",
-      "name": "Ludde Gentzel",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Per H\u00e5kansson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405633",
-      "name": "Douglas H\u00e5ge",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Andersson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071422",
-      "name": "Benkt-\u00c5ke Benktsson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Prosecutor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0259176",
-      "name": "Sture Ericson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "K\u00e4ngsn\u00f6ret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0423885",
-      "name": "Ulf Johansson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "St\u00e5lvispen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0194660",
-      "name": "Julia C\u00e6sar",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hanna Ledin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Purman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744678",
-      "name": "Erik Ros\u00e9n",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450408",
-      "name": "Magnus Kesster",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Folke T\u00f6rnberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294882",
-      "name": "\u00c5ke Fridell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Reverend"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0464167",
+      "name": "Barbro Kollberg",
+      "sequence": 0,
+      "roles": [
+        "Maggi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 1,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0147785",
+      "name": "G\u00f6sta Cederlund",
+      "sequence": 2,
+      "roles": [
+        "Man with umbrella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313209",
+      "name": "Ludde Gentzel",
+      "sequence": 3,
+      "roles": [
+        "Per H\u00e5kansson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405633",
+      "name": "Douglas H\u00e5ge",
+      "sequence": 4,
+      "roles": [
+        "Andersson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071422",
+      "name": "Benkt-\u00c5ke Benktsson",
+      "sequence": 5,
+      "roles": [
+        "The Prosecutor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0259176",
+      "name": "Sture Ericson",
+      "sequence": 6,
+      "roles": [
+        "K\u00e4ngsn\u00f6ret"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0423885",
+      "name": "Ulf Johansson",
+      "sequence": 7,
+      "roles": [
+        "St\u00e5lvispen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0194660",
+      "name": "Julia C\u00e6sar",
+      "sequence": 8,
+      "roles": [
+        "Hanna Ledin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 9,
+      "roles": [
+        "Mr. Purman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744678",
+      "name": "Erik Ros\u00e9n",
+      "sequence": 10,
+      "roles": [
+        "The Judge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450408",
+      "name": "Magnus Kesster",
+      "sequence": 11,
+      "roles": [
+        "Folke T\u00f6rnberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294882",
+      "name": "\u00c5ke Fridell",
+      "sequence": 12,
+      "roles": [
+        "Reverend"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102602",
       "name": "Oskar Braaten",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Bra mennesker\")",
-      "group_id": 0
+      "notes": "(play \"Bra mennesker\")"
     },
     {
       "person_imdb_id": "nm0340471",
       "name": "Herbert Grevenius",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1946-11-09",

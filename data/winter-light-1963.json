@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0057358",
   "sort_title": "Winter Light (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0862026",
-      "name": "Ingrid Thulin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "M\u00e4rta Lundberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tomas Ericsson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511458",
-      "name": "Gunnel Lindblom",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Karin Persson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001884",
-      "name": "Max von Sydow",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jonas Persson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249735",
-      "name": "Allan Edwall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Algot Fr\u00f6vik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461727",
-      "name": "Kolbj\u00f6rn Knudsen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Knut Aronsson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862071",
-      "name": "Olof Thunberg",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fredrik Blom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247955",
-      "name": "Elsa Ebbesen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Magdalena Ledfors"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -83,13 +9,87 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0862026",
+      "name": "Ingrid Thulin",
+      "sequence": 0,
+      "roles": [
+        "M\u00e4rta Lundberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 1,
+      "roles": [
+        "Tomas Ericsson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511458",
+      "name": "Gunnel Lindblom",
+      "sequence": 2,
+      "roles": [
+        "Karin Persson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001884",
+      "name": "Max von Sydow",
+      "sequence": 3,
+      "roles": [
+        "Jonas Persson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249735",
+      "name": "Allan Edwall",
+      "sequence": 4,
+      "roles": [
+        "Algot Fr\u00f6vik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461727",
+      "name": "Kolbj\u00f6rn Knudsen",
+      "sequence": 5,
+      "roles": [
+        "Knut Aronsson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0862071",
+      "name": "Olof Thunberg",
+      "sequence": 6,
+      "roles": [
+        "Fredrik Blom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247955",
+      "name": "Elsa Ebbesen",
+      "sequence": 7,
+      "roles": [
+        "Magdalena Ledfors"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     }
   ],
   "release_date": "1963-02-09",

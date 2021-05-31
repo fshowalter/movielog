@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0066365",
   "sort_title": "Shark (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Caine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Doc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0837959",
-      "name": "Barry Sullivan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Prof. Dan Mallare"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0683831",
-      "name": "Silvia Pinal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717592",
-      "name": "Francisco Reiguera",
-      "sequence": 4,
-      "notes": "(as Francisco Reyguera)",
-      "roles": [
-        "Yusef"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0524468",
-      "name": "Enrique Lucero",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector Barok"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023170",
-      "name": "Manuel Alvarado",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Latalla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057949",
-      "name": "Carlos Barry",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Runt"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002087",
@@ -89,34 +15,108 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 0,
+      "roles": [
+        "Caine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 1,
+      "roles": [
+        "Doc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0837959",
+      "name": "Barry Sullivan",
+      "sequence": 2,
+      "roles": [
+        "Prof. Dan Mallare"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0683831",
+      "name": "Silvia Pinal",
+      "sequence": 3,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717592",
+      "name": "Francisco Reiguera",
+      "sequence": 4,
+      "roles": [
+        "Yusef"
+      ],
+      "notes": "(as Francisco Reyguera)"
+    },
+    {
+      "person_imdb_id": "nm0524468",
+      "name": "Enrique Lucero",
+      "sequence": 5,
+      "roles": [
+        "Inspector Barok"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023170",
+      "name": "Manuel Alvarado",
+      "sequence": 6,
+      "roles": [
+        "Latalla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057949",
+      "name": "Carlos Barry",
+      "sequence": 7,
+      "roles": [
+        "Runt"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0134124",
       "name": "Victor Canning",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"His Bones Are Coral\")",
-      "group_id": 0
+      "notes": "(novel \"His Bones Are Coral\")"
     },
     {
       "person_imdb_id": "nm0240812",
       "name": "John T. Dugan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as John Kingsbridge)",
-      "group_id": 1
+      "notes": "(screenplay) (as John Kingsbridge)"
     },
     {
       "person_imdb_id": "nm0002087",
       "name": "Samuel Fuller",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0400731",
       "name": "Ken Hughes",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 3
+      "notes": "(adaptation) (uncredited)"
     }
   ],
   "release_date": "1969-10-08",

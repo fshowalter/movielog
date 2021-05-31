@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0039357",
   "sort_title": "Escape Me Never (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sebastian Dubrok"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526946",
-      "name": "Ida Lupino",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gemma Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662223",
-      "name": "Eleanor Parker",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Fenella MacLean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949574",
-      "name": "Gig Young",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Caryl Dubrok"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219666",
-      "name": "Reginald Denny",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. MacLean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255695",
-      "name": "Isobel Elsom",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. MacLean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060168",
-      "name": "Albert Bassermann",
-      "sequence": 6,
-      "notes": "(as Albert Basserman)",
-      "roles": [
-        "Professor Heinrich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0836724",
-      "name": "Ludwig St\u00f6ssel",
-      "sequence": 7,
-      "notes": "(as Ludwig Stossel)",
-      "roles": [
-        "Mr. Steinach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594834",
-      "name": "Milada Mladova",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Natrova"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0957942",
-      "name": "George Zoritch",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0858162",
-      "name": "Helene Thimig",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700084",
-      "name": "Frank Puglia",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Guide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717046",
-      "name": "Frank Reicher",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Minister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0478446",
-      "name": "Peg La Centra",
-      "sequence": 18,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Gemma Smith"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0324013",
@@ -137,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Sebastian Dubrok"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526946",
+      "name": "Ida Lupino",
+      "sequence": 1,
+      "roles": [
+        "Gemma Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662223",
+      "name": "Eleanor Parker",
+      "sequence": 2,
+      "roles": [
+        "Fenella MacLean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949574",
+      "name": "Gig Young",
+      "sequence": 3,
+      "roles": [
+        "Caryl Dubrok"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219666",
+      "name": "Reginald Denny",
+      "sequence": 4,
+      "roles": [
+        "Mr. MacLean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255695",
+      "name": "Isobel Elsom",
+      "sequence": 5,
+      "roles": [
+        "Mrs. MacLean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060168",
+      "name": "Albert Bassermann",
+      "sequence": 6,
+      "roles": [
+        "Professor Heinrich"
+      ],
+      "notes": "(as Albert Basserman)"
+    },
+    {
+      "person_imdb_id": "nm0836724",
+      "name": "Ludwig St\u00f6ssel",
+      "sequence": 7,
+      "roles": [
+        "Mr. Steinach"
+      ],
+      "notes": "(as Ludwig Stossel)"
+    },
+    {
+      "person_imdb_id": "nm0594834",
+      "name": "Milada Mladova",
+      "sequence": 8,
+      "roles": [
+        "Natrova"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0957942",
+      "name": "George Zoritch",
+      "sequence": 9,
+      "roles": [
+        "The Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0858162",
+      "name": "Helene Thimig",
+      "sequence": 10,
+      "roles": [
+        "The Landlady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700084",
+      "name": "Frank Puglia",
+      "sequence": 11,
+      "roles": [
+        "The Guide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717046",
+      "name": "Frank Reicher",
+      "sequence": 12,
+      "roles": [
+        "The Minister"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0932163",
       "name": "Thames Williamson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0448200",
       "name": "Margaret Kennedy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel and play)",
-      "group_id": 1
+      "notes": "(novel and play)"
     },
     {
       "person_imdb_id": "nm0168829",
       "name": "Lenore J. Coffee",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1947-11-07",

@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0050405",
   "sort_title": "She Played with Fire (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0370144",
-      "name": "Jack Hawkins",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Oliver Branwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006428",
-      "name": "Arlene Dahl",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Moreton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0696866",
-      "name": "Dennis Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tracey Moreton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267214",
-      "name": "Violet Farebrother",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Moreton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402842",
-      "name": "Ian Hunter",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Clive Fisher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444602",
-      "name": "Malcolm Keen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Old Abercrombie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444584",
-      "name": "Geoffrey Keen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Michael Abercrombie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392497",
-      "name": "Patrick Holt",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fred Connor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732754",
-      "name": "John Robinson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Berkeley Reckitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328982",
-      "name": "Michael Goodliffe",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sgt. Barnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485467",
-      "name": "Martin Lane",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Det. Con. Watson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587061",
-      "name": "Bernard Miles",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Jerome"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Charles Highbury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350486",
-      "name": "Greta Gynt",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Vere Litchen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680515",
-      "name": "John Phillips",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Willis Croft"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549384",
-      "name": "Patricia Marmont",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Ambrosine"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0319148",
@@ -155,34 +9,180 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0370144",
+      "name": "Jack Hawkins",
+      "sequence": 0,
+      "roles": [
+        "Oliver Branwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006428",
+      "name": "Arlene Dahl",
+      "sequence": 1,
+      "roles": [
+        "Sarah Moreton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0696866",
+      "name": "Dennis Price",
+      "sequence": 2,
+      "roles": [
+        "Tracey Moreton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267214",
+      "name": "Violet Farebrother",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Moreton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402842",
+      "name": "Ian Hunter",
+      "sequence": 4,
+      "roles": [
+        "Clive Fisher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444602",
+      "name": "Malcolm Keen",
+      "sequence": 5,
+      "roles": [
+        "Old Abercrombie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444584",
+      "name": "Geoffrey Keen",
+      "sequence": 6,
+      "roles": [
+        "Michael Abercrombie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392497",
+      "name": "Patrick Holt",
+      "sequence": 7,
+      "roles": [
+        "Fred Connor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732754",
+      "name": "John Robinson",
+      "sequence": 8,
+      "roles": [
+        "Berkeley Reckitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328982",
+      "name": "Michael Goodliffe",
+      "sequence": 9,
+      "roles": [
+        "Sgt. Barnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485467",
+      "name": "Martin Lane",
+      "sequence": 10,
+      "roles": [
+        "Det. Con. Watson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587061",
+      "name": "Bernard Miles",
+      "sequence": 11,
+      "roles": [
+        "Mr. Jerome"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 12,
+      "roles": [
+        "Charles Highbury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350486",
+      "name": "Greta Gynt",
+      "sequence": 13,
+      "roles": [
+        "Vere Litchen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0680515",
+      "name": "John Phillips",
+      "sequence": 14,
+      "roles": [
+        "Willis Croft"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549384",
+      "name": "Patricia Marmont",
+      "sequence": 15,
+      "roles": [
+        "Ambrosine"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0319148",
       "name": "Sidney Gilliat",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0490950",
       "name": "Frank Launder",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0884318",
       "name": "Val Valentine",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adapted by)",
-      "group_id": 1
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0334357",
       "name": "Winston Graham",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"Fortune is a Woman\")",
-      "group_id": 2
+      "notes": "(novel \"Fortune is a Woman\")"
     }
   ],
   "release_date": "1957-03-13",

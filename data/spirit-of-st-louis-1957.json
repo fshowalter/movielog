@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0051003",
   "sort_title": "Spirit of St. Louis (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Charles Augustus 'Slim' Lindbergh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358069",
-      "name": "Murray Hamilton",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bud Gurney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809507",
-      "name": "Patricia Smith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mirror Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732397",
-      "name": "Bartlett Robinson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Benjamin Frank Mahoney - President, Ryan Airlines Co."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175091",
-      "name": "Marc Connelly",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Father Hussman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816475",
-      "name": "Arthur Space",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Donald Hall - Chief Engineer, Ryan Airlines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0915114",
-      "name": "Charles Watts",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "O.W. Schultz - Salesman, Atlas Suspender Co."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094042",
-      "name": "Sheila Bond",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Model",
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455559",
-      "name": "Walter Kingson",
-      "sequence": 41,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Newscaster"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000697",
@@ -93,34 +9,109 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Charles Augustus 'Slim' Lindbergh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358069",
+      "name": "Murray Hamilton",
+      "sequence": 1,
+      "roles": [
+        "Bud Gurney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0809507",
+      "name": "Patricia Smith",
+      "sequence": 2,
+      "roles": [
+        "Mirror Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732397",
+      "name": "Bartlett Robinson",
+      "sequence": 3,
+      "roles": [
+        "Benjamin Frank Mahoney - President, Ryan Airlines Co."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175091",
+      "name": "Marc Connelly",
+      "sequence": 4,
+      "roles": [
+        "Father Hussman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816475",
+      "name": "Arthur Space",
+      "sequence": 5,
+      "roles": [
+        "Donald Hall - Chief Engineer, Ryan Airlines"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0915114",
+      "name": "Charles Watts",
+      "sequence": 6,
+      "roles": [
+        "O.W. Schultz - Salesman, Atlas Suspender Co."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094042",
+      "name": "Sheila Bond",
+      "sequence": 18,
+      "roles": [
+        "Model",
+        "Dancer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0511421",
       "name": "Charles A. Lindbergh",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the book by)",
-      "group_id": 0
+      "notes": "(based on the book by)"
     },
     {
       "person_imdb_id": "nm0000697",
       "name": "Billy Wilder",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0562606",
       "name": "Wendell Mayes",
-      "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation by)",
-      "group_id": 2
+      "notes": "(adaptation by)"
     }
   ],
   "release_date": "1957-04-20",

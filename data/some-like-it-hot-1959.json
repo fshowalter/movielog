@@ -1,165 +1,6 @@
 {
   "imdb_id": "tt0053291",
   "sort_title": "Some Like It Hot (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sugar Kane Kowalczyk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000348",
-      "name": "Tony Curtis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joe",
-        "Josephine",
-        "Shell Oil Junior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jerry",
-        "Daphne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706368",
-      "name": "George Raft",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Spats Colombo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002285",
-      "name": "Pat O'Brien",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Detective Mulligan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113873",
-      "name": "Joe E. Brown",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Osgood Fielding III"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675490",
-      "name": "Nehemiah Persoff",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Little Bonaparte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790064",
-      "name": "Joan Shawlee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sweet Sue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336475",
-      "name": "Billy Gray",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sig Poliakoff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831889",
-      "name": "George E. Stone",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Toothpick Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057969",
-      "name": "Dave Barry",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Beinstock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0563417",
-      "name": "Mike Mazurki",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Spats' Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933489",
-      "name": "Harry Wilson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Spats' Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932617",
-      "name": "Beverly Wills",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dolores"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237634",
-      "name": "Barbara Drew",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Nellie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732340",
-      "name": "Edward G. Robinson Jr.",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Johnny Paradise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293659",
-      "name": "Paul Frees",
-      "sequence": 38,
-      "notes": "",
-      "roles": [
-        "Funeral Director",
-        "Speakeasy Waiter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000697",
@@ -168,34 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 0,
+      "roles": [
+        "Sugar Kane Kowalczyk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000348",
+      "name": "Tony Curtis",
+      "sequence": 1,
+      "roles": [
+        "Joe",
+        "Josephine",
+        "Shell Oil Junior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 2,
+      "roles": [
+        "Jerry",
+        "Daphne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706368",
+      "name": "George Raft",
+      "sequence": 3,
+      "roles": [
+        "Spats Colombo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002285",
+      "name": "Pat O'Brien",
+      "sequence": 4,
+      "roles": [
+        "Detective Mulligan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113873",
+      "name": "Joe E. Brown",
+      "sequence": 5,
+      "roles": [
+        "Osgood Fielding III"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0675490",
+      "name": "Nehemiah Persoff",
+      "sequence": 6,
+      "roles": [
+        "Little Bonaparte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790064",
+      "name": "Joan Shawlee",
+      "sequence": 7,
+      "roles": [
+        "Sweet Sue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336475",
+      "name": "Billy Gray",
+      "sequence": 8,
+      "roles": [
+        "Sig Poliakoff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0831889",
+      "name": "George E. Stone",
+      "sequence": 9,
+      "roles": [
+        "Toothpick Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057969",
+      "name": "Dave Barry",
+      "sequence": 10,
+      "roles": [
+        "Bienstock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0563417",
+      "name": "Mike Mazurki",
+      "sequence": 11,
+      "roles": [
+        "Spats' Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933489",
+      "name": "Harry Wilson",
+      "sequence": 12,
+      "roles": [
+        "Spats' Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932617",
+      "name": "Beverly Wills",
+      "sequence": 13,
+      "roles": [
+        "Dolores"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237634",
+      "name": "Barbara Drew",
+      "sequence": 14,
+      "roles": [
+        "Nellie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732340",
+      "name": "Edward G. Robinson Jr.",
+      "sequence": 15,
+      "roles": [
+        "Johnny Paradise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293659",
+      "name": "Paul Frees",
+      "sequence": 39,
+      "roles": [
+        "Funeral Director",
+        "Speakeasy Waiter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000697",
       "name": "Billy Wilder",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0224634",
       "name": "I.A.L. Diamond",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0858329",
       "name": "Robert Thoeren",
+      "group": 1,
       "sequence": 0,
-      "notes": "(suggested by a story by) (as R. Thoeren)",
-      "group_id": 1
+      "notes": "(suggested by a story by) (as R. Thoeren)"
     },
     {
       "person_imdb_id": "nm0517615",
       "name": "Michael Logan",
-      "sequence": 0,
-      "notes": "(suggested by a story by) (as M. Logan)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(suggested by a story by) (as M. Logan)"
     }
   ],
   "release_date": "1959-03-19",

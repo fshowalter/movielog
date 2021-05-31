@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0032245",
   "sort_title": "Before I Hang (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. John Garth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450810",
-      "name": "Evelyn Keyes",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Martha Garth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071636",
-      "name": "Bruce Bennett",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Paul Ames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888000",
-      "name": "Edward Van Sloan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Ralph Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0846498",
-      "name": "Ben Taggart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Warden Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003124",
-      "name": "Pedro de Cordoba",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Victor Sondini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0469695",
-      "name": "Wright Kramer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "George Wharton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545031",
-      "name": "Bertram Marburgh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Stephen Barclay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065975",
-      "name": "Don Beddoe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Capt. McGraw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279963",
-      "name": "Robert Fiske",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "District Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531810",
-      "name": "Kenneth MacDonald",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Anson, Prison Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724090",
-      "name": "Frank Richards",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Otto Kron - Convict"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0342417",
@@ -119,20 +9,130 @@
       "notes": "(as Nick Grind\u00e9)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Dr. John Garth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450810",
+      "name": "Evelyn Keyes",
+      "sequence": 1,
+      "roles": [
+        "Martha Garth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071636",
+      "name": "Bruce Bennett",
+      "sequence": 2,
+      "roles": [
+        "Dr. Paul Ames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888000",
+      "name": "Edward Van Sloan",
+      "sequence": 3,
+      "roles": [
+        "Dr. Ralph Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0846498",
+      "name": "Ben Taggart",
+      "sequence": 4,
+      "roles": [
+        "Warden Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003124",
+      "name": "Pedro de Cordoba",
+      "sequence": 5,
+      "roles": [
+        "Victor Sondini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0469695",
+      "name": "Wright Kramer",
+      "sequence": 6,
+      "roles": [
+        "George Wharton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545031",
+      "name": "Bertram Marburgh",
+      "sequence": 7,
+      "roles": [
+        "Stephen Barclay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065975",
+      "name": "Don Beddoe",
+      "sequence": 8,
+      "roles": [
+        "Police Capt. McGraw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279963",
+      "name": "Robert Fiske",
+      "sequence": 9,
+      "roles": [
+        "District Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531810",
+      "name": "Kenneth MacDonald",
+      "sequence": 10,
+      "roles": [
+        "Anson, Prison Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724090",
+      "name": "Frank Richards",
+      "sequence": 11,
+      "roles": [
+        "Otto Kron"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0028826",
       "name": "Robert Hardy Andrews",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay) (as Robert D. Andrews)",
-      "group_id": 0
+      "notes": "(story and screenplay) (as Robert D. Andrews)"
     },
     {
       "person_imdb_id": "nm0113954",
       "name": "Karl Brown",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1940-09-17",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0049038",
   "sort_title": "Bus Stop (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ch\u00e9rie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614916",
-      "name": "Don Murray",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Beauregard 'Bo' Decker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640023",
-      "name": "Arthur O'Connell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Virgil Blessing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275897",
-      "name": "Betty Field",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Grace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373012",
-      "name": "Eileen Heckart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Vera"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106248",
-      "name": "Robert Bray",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Carl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0486136",
-      "name": "Hope Lange",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Elma Duckworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175788",
-      "name": "Hans Conried",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Life Magazine Photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795289",
-      "name": "Max Showalter",
-      "sequence": 8,
-      "notes": "(as Casey Adams)",
-      "roles": [
-        "Life Magazine Reporter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0517597",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 0,
+      "roles": [
+        "Ch\u00e9rie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614916",
+      "name": "Don Murray",
+      "sequence": 1,
+      "roles": [
+        "Beauregard 'Bo' Decker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640023",
+      "name": "Arthur O'Connell",
+      "sequence": 2,
+      "roles": [
+        "Virgil Blessing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275897",
+      "name": "Betty Field",
+      "sequence": 3,
+      "roles": [
+        "Grace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373012",
+      "name": "Eileen Heckart",
+      "sequence": 4,
+      "roles": [
+        "Vera"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106248",
+      "name": "Robert Bray",
+      "sequence": 5,
+      "roles": [
+        "Carl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0486136",
+      "name": "Hope Lange",
+      "sequence": 6,
+      "roles": [
+        "Elma Duckworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175788",
+      "name": "Hans Conried",
+      "sequence": 7,
+      "roles": [
+        "Life Magazine Photographer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795289",
+      "name": "Max Showalter",
+      "sequence": 8,
+      "roles": [
+        "Life Magazine Reporter"
+      ],
+      "notes": "(as Casey Adams)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0043480",
       "name": "George Axelrod",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0408718",
       "name": "William Inge",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the play by)",
-      "group_id": 1
+      "notes": "(based on the play by)"
     }
   ],
   "release_date": "1956-08-31",

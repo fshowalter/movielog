@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0024500",
   "sort_title": "Riders of Destiny (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Singin' Sandy Saunders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662118",
-      "name": "Cecilia Parker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Fay Denton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852365",
-      "name": "Forrest Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "James Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 3,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "Charlie Denton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820607",
-      "name": "Al St. John",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bert - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174692",
-      "name": "Heinie Conklin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Elmer - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245429",
-      "name": "Earl Dwire",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Slip Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571186",
-      "name": "Lafe McKee",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sheriff Bill Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0287665",
-      "name": "Addie Foster",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Mason"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Singin' Sandy Saunders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662118",
+      "name": "Cecilia Parker",
+      "sequence": 1,
+      "roles": [
+        "Fay Denton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852365",
+      "name": "Forrest Taylor",
+      "sequence": 2,
+      "roles": [
+        "James Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 3,
+      "roles": [
+        "Charlie Denton"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0820607",
+      "name": "Al St. John",
+      "sequence": 4,
+      "roles": [
+        "Bert - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0174692",
+      "name": "Heinie Conklin",
+      "sequence": 5,
+      "roles": [
+        "Elmer - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 6,
+      "roles": [
+        "Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245429",
+      "name": "Earl Dwire",
+      "sequence": 7,
+      "roles": [
+        "Slip Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571186",
+      "name": "Lafe McKee",
+      "sequence": 8,
+      "roles": [
+        "Sheriff Bill Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0287665",
+      "name": "Addie Foster",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Mason"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102908",
       "name": "Robert N. Bradbury",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story) (as R.N. Bradbury)",
-      "group_id": 0
+      "notes": "(story) (as R.N. Bradbury)"
     }
   ],
   "release_date": "1933-10-10",

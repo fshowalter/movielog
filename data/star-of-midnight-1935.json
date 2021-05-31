@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0027040",
   "sort_title": "Star of Midnight (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Clay 'Dal' Dalzell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001677",
-      "name": "Ginger Rogers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Donna Mantin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446769",
-      "name": "Paul Kelly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jimmy 'Jim' Kinland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516876",
-      "name": "Gene Lockhart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Horatio Swayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604960",
-      "name": "Ralph Morgan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Roger Classon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0272059",
-      "name": "Leslie Fenton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tim Winthrop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Police Inspector Doremus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394477",
-      "name": "Russell Hopton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tommy Tennant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643004",
-      "name": "Vivien Oakland",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jerry Classon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640495",
-      "name": "Robert Emmett O'Connor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Police Sgt. Cleary"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0731596",
@@ -101,38 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Clay 'Dal' Dalzell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001677",
+      "name": "Ginger Rogers",
+      "sequence": 1,
+      "roles": [
+        "Donna Mantin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446769",
+      "name": "Paul Kelly",
+      "sequence": 2,
+      "roles": [
+        "Jimmy 'Jim' Kinland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516876",
+      "name": "Gene Lockhart",
+      "sequence": 3,
+      "roles": [
+        "Horatio Swayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604960",
+      "name": "Ralph Morgan",
+      "sequence": 4,
+      "roles": [
+        "Roger Classon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0272059",
+      "name": "Leslie Fenton",
+      "sequence": 5,
+      "roles": [
+        "Tim Winthrop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 6,
+      "roles": [
+        "Police Inspector Doremus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394477",
+      "name": "Russell Hopton",
+      "sequence": 7,
+      "roles": [
+        "Tommy Tennant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643004",
+      "name": "Vivien Oakland",
+      "sequence": 8,
+      "roles": [
+        "Jerry Classon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640495",
+      "name": "Robert Emmett O'Connor",
+      "sequence": 9,
+      "roles": [
+        "Police Sgt. Cleary"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0337914",
       "name": "Howard J. Green",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0892044",
       "name": "Anthony Veiller",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0442137",
       "name": "Edward Kaufman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0733907",
       "name": "Arthur Somers Roche",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
-  "release_date": "1935-04-11",
-  "release_date_notes": "(New York City, New York) (premiere)",
+  "release_date": "1935-04-10",
+  "release_date_notes": "(San Francisco, California) (premiere)",
   "countries": [
     "United States"
   ]

@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0059258",
   "sort_title": "Having a Wild Weekend (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1591599",
-      "name": "The Dave Clark Five",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Dave Clark Five"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0274865",
-      "name": "Barbara Ferris",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dinah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517084",
-      "name": "David Lodge",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Louis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047467",
-      "name": "Robin Bailey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Guy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431626",
-      "name": "Yootha Joyce",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Nan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0209095",
-      "name": "David de Keyser",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Zissell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842578",
-      "name": "Clive Swift",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Duffie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479951",
-      "name": "Ronald Lacey",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Yeano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910242",
-      "name": "Hugh Walters",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Grey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350372",
-      "name": "Michael Gwynn",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hardingford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0832031",
-      "name": "Marianne Stone",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Vera Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605878",
-      "name": "Donald Morley",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086820",
-      "name": "Michael Blakemore",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391327",
-      "name": "Julian Holloway",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Asst. Director"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365571",
-      "name": "Edgar Harrison",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Barman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428410",
-      "name": "John Jones",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Drinker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0629693",
-      "name": "Peter Nichols",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163828",
-      "name": "Dave Clark",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Steve"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000958",
@@ -173,13 +9,177 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0163828",
+      "name": "Dave Clark",
+      "sequence": 0,
+      "roles": [
+        "Steve"
+      ],
+      "notes": "(as The Dave Clark Five)"
+    },
+    {
+      "person_imdb_id": "nm1591599",
+      "name": "The Dave Clark Five",
+      "sequence": 1,
+      "roles": [
+        "The Dave Clark Five"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0274865",
+      "name": "Barbara Ferris",
+      "sequence": 2,
+      "roles": [
+        "Dinah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517084",
+      "name": "David Lodge",
+      "sequence": 3,
+      "roles": [
+        "Louis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047467",
+      "name": "Robin Bailey",
+      "sequence": 4,
+      "roles": [
+        "Guy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479951",
+      "name": "Ronald Lacey",
+      "sequence": 5,
+      "roles": [
+        "Yeano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431626",
+      "name": "Yootha Joyce",
+      "sequence": 6,
+      "roles": [
+        "Nan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0209095",
+      "name": "David de Keyser",
+      "sequence": 7,
+      "roles": [
+        "Zissell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350372",
+      "name": "Michael Gwynn",
+      "sequence": 8,
+      "roles": [
+        "Hardingford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842578",
+      "name": "Clive Swift",
+      "sequence": 9,
+      "roles": [
+        "Duffie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910242",
+      "name": "Hugh Walters",
+      "sequence": 10,
+      "roles": [
+        "Grey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0832031",
+      "name": "Marianne Stone",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Vera Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605878",
+      "name": "Donald Morley",
+      "sequence": 12,
+      "roles": [
+        "Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086820",
+      "name": "Michael Blakemore",
+      "sequence": 13,
+      "roles": [
+        "Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391327",
+      "name": "Julian Holloway",
+      "sequence": 14,
+      "roles": [
+        "Assistant director"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365571",
+      "name": "Edgar Harrison",
+      "sequence": 15,
+      "roles": [
+        "Barman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428410",
+      "name": "John Jones",
+      "sequence": 16,
+      "roles": [
+        "Drinker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0629693",
+      "name": "Peter Nichols",
+      "sequence": 17,
+      "roles": [
+        "Photographer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629693",
       "name": "Peter Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1965-07-15",

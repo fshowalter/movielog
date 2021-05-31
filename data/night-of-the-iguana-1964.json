@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0058404",
   "sort_title": "Night of the Iguana (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000009",
-      "name": "Richard Burton",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rev. Dr. T. Lawrence Shannon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001257",
-      "name": "Ava Gardner",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maxine Faulk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000039",
-      "name": "Deborah Kerr",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hannah Jelkes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528987",
-      "name": "Sue Lyon",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Charlotte Goodall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911847",
-      "name": "Skip Ward",
-      "sequence": 4,
-      "notes": "(as James Ward)",
-      "roles": [
-        "Hank Prosner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355621",
-      "name": "Grayson Hall",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Judith Fellowes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216819",
-      "name": "Cyril Delevanti",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nonno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102168",
-      "name": "Mary Boylan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Miss Peebles"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -83,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000009",
+      "name": "Richard Burton",
+      "sequence": 0,
+      "roles": [
+        "Rev. Dr. T. Lawrence Shannon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001257",
+      "name": "Ava Gardner",
+      "sequence": 1,
+      "roles": [
+        "Maxine Faulk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000039",
+      "name": "Deborah Kerr",
+      "sequence": 2,
+      "roles": [
+        "Hannah Jelkes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528987",
+      "name": "Sue Lyon",
+      "sequence": 3,
+      "roles": [
+        "Charlotte Goodall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911847",
+      "name": "Skip Ward",
+      "sequence": 4,
+      "roles": [
+        "Hank Prosner"
+      ],
+      "notes": "(as James Ward)"
+    },
+    {
+      "person_imdb_id": "nm0355621",
+      "name": "Grayson Hall",
+      "sequence": 5,
+      "roles": [
+        "Judith Fellowes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0216819",
+      "name": "Cyril Delevanti",
+      "sequence": 6,
+      "roles": [
+        "Nonno"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102168",
+      "name": "Mary Boylan",
+      "sequence": 7,
+      "roles": [
+        "Miss Peebles"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0931783",
       "name": "Tennessee Williams",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0892044",
       "name": "Anthony Veiller",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1964-06-09",

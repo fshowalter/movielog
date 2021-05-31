@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0025919",
   "sort_title": "Twentieth Century (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000858",
-      "name": "John Barrymore",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Oscar Jaffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lily Garland formerly Mildred Plotka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175369",
-      "name": "Walter Connolly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Oliver Webb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Owen O'Malley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285391",
-      "name": "Ralph Forbes",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "George Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485272",
-      "name": "Charles Lane",
-      "sequence": 5,
-      "notes": "(as Charles Levison)",
-      "roles": [
-        "Max Jacobs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0320761",
-      "name": "Etienne Girardot",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Matthew J. Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298202",
-      "name": "Dale Fuller",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sadie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448012",
-      "name": "Edgar Kennedy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Oscar McGonigle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786538",
-      "name": "Billie Seward",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Anita"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -101,55 +9,147 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000858",
+      "name": "John Barrymore",
+      "sequence": 0,
+      "roles": [
+        "Oscar Jaffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 1,
+      "roles": [
+        "Lily Garland formerly Mildred Plotka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175369",
+      "name": "Walter Connolly",
+      "sequence": 2,
+      "roles": [
+        "Oliver Webb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 3,
+      "roles": [
+        "Owen O'Malley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285391",
+      "name": "Ralph Forbes",
+      "sequence": 4,
+      "roles": [
+        "George Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485272",
+      "name": "Charles Lane",
+      "sequence": 5,
+      "roles": [
+        "Max Jacobs"
+      ],
+      "notes": "(as Charles Levison)"
+    },
+    {
+      "person_imdb_id": "nm0320761",
+      "name": "Etienne Girardot",
+      "sequence": 6,
+      "roles": [
+        "Matthew J. Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298202",
+      "name": "Dale Fuller",
+      "sequence": 7,
+      "roles": [
+        "Sadie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448012",
+      "name": "Edgar Kennedy",
+      "sequence": 8,
+      "roles": [
+        "Oscar McGonigle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786538",
+      "name": "Billie Seward",
+      "sequence": 9,
+      "roles": [
+        "Anita"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0589619",
       "name": "Charles Bruce Millholland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Napoleon of Broadway\")",
-      "group_id": 0
+      "notes": "(play \"Napoleon of Broadway\")"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0531269",
       "name": "Charles MacArthur",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0002545",
       "name": "Preston Sturges",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0288706",
       "name": "Gene Fowler",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 3
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 4,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 4
+      "notes": "(play) (uncredited)"
     },
     {
       "person_imdb_id": "nm0531269",
       "name": "Charles MacArthur",
+      "group": 5,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 5
+      "notes": "(play) (uncredited)"
     }
   ],
   "release_date": "1934-05-03",

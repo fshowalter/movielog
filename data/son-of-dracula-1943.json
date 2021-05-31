@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0036376",
   "sort_title": "Son of Dracula (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0656745",
-      "name": "Robert Paige",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frank Stanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020145",
-      "name": "Louise Allbritton",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Katherine Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030166",
-      "name": "Evelyn Ankers",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claire Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186600",
-      "name": "Frank Craven",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Doctor Harry Brewster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111297",
-      "name": "J. Edward Bromberg",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Professor Lazlo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Judge Simmons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212339",
-      "name": "Adeline De Walt Reynolds",
-      "sequence": 6,
-      "notes": "(as Adeline DeWalt Reynolds)",
-      "roles": [
-        "Madame Zimba"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605330",
-      "name": "Pat Moriarity",
-      "sequence": 7,
-      "notes": "(as Patrick Moriarity)",
-      "roles": [
-        "Sheriff Dawes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567400",
-      "name": "Etta McDaniel",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sarah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Colonel Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001033",
-      "name": "Lon Chaney Jr.",
-      "sequence": 10,
-      "notes": "(as Lon Chaney)",
-      "roles": [
-        "Count Dracula"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0802563",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0656745",
+      "name": "Robert Paige",
+      "sequence": 0,
+      "roles": [
+        "Frank Stanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020145",
+      "name": "Louise Allbritton",
+      "sequence": 1,
+      "roles": [
+        "Katherine Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030166",
+      "name": "Evelyn Ankers",
+      "sequence": 2,
+      "roles": [
+        "Claire Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186600",
+      "name": "Frank Craven",
+      "sequence": 3,
+      "roles": [
+        "Doctor Harry Brewster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111297",
+      "name": "J. Edward Bromberg",
+      "sequence": 4,
+      "roles": [
+        "Professor Lazlo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 5,
+      "roles": [
+        "Judge Simmons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212339",
+      "name": "Adeline De Walt Reynolds",
+      "sequence": 6,
+      "roles": [
+        "Madame Zimba"
+      ],
+      "notes": "(as Adeline DeWalt Reynolds)"
+    },
+    {
+      "person_imdb_id": "nm0605330",
+      "name": "Pat Moriarity",
+      "sequence": 7,
+      "roles": [
+        "Sheriff Dawes"
+      ],
+      "notes": "(as Patrick Moriarity)"
+    },
+    {
+      "person_imdb_id": "nm0567400",
+      "name": "Etta McDaniel",
+      "sequence": 8,
+      "roles": [
+        "Sarah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 9,
+      "roles": [
+        "Colonel Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001033",
+      "name": "Lon Chaney Jr.",
+      "sequence": 10,
+      "roles": [
+        "Count Dracula"
+      ],
+      "notes": "(as Lon Chaney)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0852338",
       "name": "Eric Taylor",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story) (as Curtis Siodmak)",
-      "group_id": 1
+      "notes": "(original story) (as Curtis Siodmak)"
     }
   ],
   "release_date": "1943-10-20",

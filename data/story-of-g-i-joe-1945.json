@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0038120",
   "sort_title": "Story of G.I. Joe (1945)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0580565",
-      "name": "Burgess Meredith",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ernie Pyle - Scripps-Howard War Correspondent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824543",
-      "name": "Freddie Steele",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sergeant Warnicki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144082",
-      "name": "Wally Cassell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Private Dondaro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516030",
-      "name": "Jimmy Lloyd",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Private Spencer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717691",
-      "name": "John R. Reilly",
-      "sequence": 5,
-      "notes": "(as Jack Reilly)",
-      "roles": [
-        "Private Murphy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614779",
-      "name": "William Murphy",
-      "sequence": 6,
-      "notes": "(as Bill Murphy)",
-      "roles": [
-        "Private Mew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1333529",
-      "name": "Combat Veterans of the Campaigns in Africa Sicily and Italy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "U.S. Army Soldiers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001362",
-      "name": "Bob Hope",
-      "sequence": 10,
-      "notes": "(Voice on Radio Program) (uncredited) (voice)",
-      "roles": [
-        "Bob Hope"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0920074",
@@ -92,48 +9,122 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0580565",
+      "name": "Burgess Meredith",
+      "sequence": 0,
+      "roles": [
+        "Ernie Pyle - Scripps-Howard War Correspondent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 1,
+      "roles": [
+        "Lt. Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824543",
+      "name": "Freddie Steele",
+      "sequence": 2,
+      "roles": [
+        "Sergeant Warnicki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144082",
+      "name": "Wally Cassell",
+      "sequence": 3,
+      "roles": [
+        "Private Dondaro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516030",
+      "name": "Jimmy Lloyd",
+      "sequence": 4,
+      "roles": [
+        "Private Spencer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717691",
+      "name": "John R. Reilly",
+      "sequence": 5,
+      "roles": [
+        "Private Murphy"
+      ],
+      "notes": "(as Jack Reilly)"
+    },
+    {
+      "person_imdb_id": "nm0614779",
+      "name": "William Murphy",
+      "sequence": 6,
+      "roles": [
+        "Private Mew"
+      ],
+      "notes": "(as Bill Murphy)"
+    },
+    {
+      "person_imdb_id": "nm1333529",
+      "name": "Combat Veterans of the Campaigns in Africa Sicily and Italy",
+      "sequence": 7,
+      "roles": [
+        "U.S. Army Soldiers"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0040852",
       "name": "Leopold Atlas",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0256880",
       "name": "Guy Endore",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0829029",
       "name": "Philip Stevenson",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0071025",
       "name": "Ben Bengal",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 1
+      "notes": "(additional dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0494435",
       "name": "Alan Le May",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0701505",
       "name": "Ernie Pyle",
+      "group": 3,
       "sequence": 0,
-      "notes": "(books \"Brave Men\" and \"Here Is Your War\") (uncredited)",
-      "group_id": 3
+      "notes": "(books \"Brave Men\" and \"Here Is Your War\") (uncredited)"
     }
   ],
   "release_date": "1945-06-18",

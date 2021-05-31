@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0037166",
   "sort_title": "Passage to Marseille (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jean Matrac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Freycinet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006807",
-      "name": "Mich\u00e8le Morgan",
-      "sequence": 2,
-      "notes": "(as Michele Morgan)",
-      "roles": [
-        "Paula Matrac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233856",
-      "name": "Philip Dorn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Renault"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002113",
-      "name": "Sydney Greenstreet",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maj. Duval"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000048",
-      "name": "Peter Lorre",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marius"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Petit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200626",
-      "name": "Helmut Dantine",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Garou"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517058",
-      "name": "John Loder",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Manning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289858",
-      "name": "Victor Francen",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Capt. Patain Malo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812453",
-      "name": "Vladimir Sokoloff",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Grandpere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161862",
-      "name": "Eduardo Ciannelli",
-      "sequence": 11,
-      "notes": "(as Edward Ciannelli)",
-      "roles": [
-        "Chief Engineer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0613389",
-      "name": "Corinna Mura",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Singer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -128,41 +9,160 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Jean Matrac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 1,
+      "roles": [
+        "Capt. Freycinet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006807",
+      "name": "Mich\u00e8le Morgan",
+      "sequence": 2,
+      "roles": [
+        "Paula Matrac"
+      ],
+      "notes": "(as Michele Morgan)"
+    },
+    {
+      "person_imdb_id": "nm0233856",
+      "name": "Philip Dorn",
+      "sequence": 3,
+      "roles": [
+        "Renault"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002113",
+      "name": "Sydney Greenstreet",
+      "sequence": 4,
+      "roles": [
+        "Maj. Duval"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000048",
+      "name": "Peter Lorre",
+      "sequence": 5,
+      "roles": [
+        "Marius"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 6,
+      "roles": [
+        "Petit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200626",
+      "name": "Helmut Dantine",
+      "sequence": 7,
+      "roles": [
+        "Garou"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517058",
+      "name": "John Loder",
+      "sequence": 8,
+      "roles": [
+        "Manning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289858",
+      "name": "Victor Francen",
+      "sequence": 9,
+      "roles": [
+        "Capt. Patain Malo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812453",
+      "name": "Vladimir Sokoloff",
+      "sequence": 10,
+      "roles": [
+        "Grandpere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161862",
+      "name": "Eduardo Ciannelli",
+      "sequence": 11,
+      "roles": [
+        "Chief Engineer"
+      ],
+      "notes": "(as Edward Ciannelli)"
+    },
+    {
+      "person_imdb_id": "nm0613389",
+      "name": "Corinna Mura",
+      "sequence": 12,
+      "roles": [
+        "Singer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0732452",
       "name": "Casey Robinson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0595654",
       "name": "Jack Moffitt",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0635079",
       "name": "Charles Nordhoff",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0355681",
       "name": "James Norman Hall",
-      "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0596963",
       "name": "Elick Moll",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to screenplay) (uncredited)"
     }
   ],
   "release_date": "1944-02-16",

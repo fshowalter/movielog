@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0055505",
   "sort_title": "Scream of Fear (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001782",
-      "name": "Susan Strasberg",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Penny Appleby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507708",
-      "name": "Ronald Lewis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Robert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002897",
-      "name": "Ann Todd",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jane Appleby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Pierre Gerrard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0785702",
-      "name": "John Serret",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector Legrand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0755168",
-      "name": "Leonard Sachs",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Spratt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086475",
-      "name": "Anne Blake",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0425102",
-      "name": "Fred Johnson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Appleby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0392519",
@@ -83,13 +9,87 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001782",
+      "name": "Susan Strasberg",
+      "sequence": 0,
+      "roles": [
+        "Penny Appleby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507708",
+      "name": "Ronald Lewis",
+      "sequence": 1,
+      "roles": [
+        "Robert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002897",
+      "name": "Ann Todd",
+      "sequence": 2,
+      "roles": [
+        "Jane Appleby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
+      "roles": [
+        "Dr. Pierre Gerrard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0785702",
+      "name": "John Serret",
+      "sequence": 4,
+      "roles": [
+        "Inspector Legrand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0755168",
+      "name": "Leonard Sachs",
+      "sequence": 5,
+      "roles": [
+        "Mr. Spratt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086475",
+      "name": "Anne Blake",
+      "sequence": 6,
+      "roles": [
+        "Marie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0425102",
+      "name": "Fred Johnson",
+      "sequence": 7,
+      "roles": [
+        "Mr. Appleby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1961-03-30",

@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0048641",
   "sort_title": "Smiles of a Summer Night (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0414965",
-      "name": "Ulla Jacobsson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anne Egerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0196992",
-      "name": "Eva Dahlbeck",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Desiree Armfeldt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027683",
-      "name": "Harriet Andersson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Petra the Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137808",
-      "name": "Margit Carlqvist",
-      "sequence": 3,
-      "notes": "(as Margit Carlquist)",
-      "roles": [
-        "Countess Charlotte Malcolm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Fredrik Egerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0474649",
-      "name": "Jarl Kulle",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Count Carl Magnus Malcolm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294882",
-      "name": "\u00c5ke Fridell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Frid the Groom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084761",
-      "name": "Bj\u00f6rn Bjelfvenstam",
-      "sequence": 7,
-      "notes": "(as Bj\u00f6rn Bjelvenstam)",
-      "roles": [
-        "Henrik Egerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0927711",
-      "name": "Naima Wifstrand",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Armfeldt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454247",
-      "name": "Jullan Kindahl",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Beata, cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622379",
-      "name": "Gull Natorp",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Malla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0883517",
-      "name": "Birgitta Valberg",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Actress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000761",
-      "name": "Bibi Andersson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Actress"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -128,13 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0414965",
+      "name": "Ulla Jacobsson",
+      "sequence": 0,
+      "roles": [
+        "Anne Egerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0196992",
+      "name": "Eva Dahlbeck",
+      "sequence": 1,
+      "roles": [
+        "Desiree Armfeldt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027683",
+      "name": "Harriet Andersson",
+      "sequence": 2,
+      "roles": [
+        "Petra the Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137808",
+      "name": "Margit Carlqvist",
+      "sequence": 3,
+      "roles": [
+        "Countess Charlotte Malcolm"
+      ],
+      "notes": "(as Margit Carlquist)"
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 4,
+      "roles": [
+        "Fredrik Egerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0474649",
+      "name": "Jarl Kulle",
+      "sequence": 5,
+      "roles": [
+        "Count Carl Magnus Malcolm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294882",
+      "name": "\u00c5ke Fridell",
+      "sequence": 6,
+      "roles": [
+        "Frid the Groom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0084761",
+      "name": "Bj\u00f6rn Bjelfvenstam",
+      "sequence": 7,
+      "roles": [
+        "Henrik Egerman"
+      ],
+      "notes": "(as Bj\u00f6rn Bjelvenstam)"
+    },
+    {
+      "person_imdb_id": "nm0927711",
+      "name": "Naima Wifstrand",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Armfeldt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454247",
+      "name": "Jullan Kindahl",
+      "sequence": 9,
+      "roles": [
+        "Beata, cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622379",
+      "name": "Gull Natorp",
+      "sequence": 10,
+      "roles": [
+        "Malla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0883517",
+      "name": "Birgitta Valberg",
+      "sequence": 11,
+      "roles": [
+        "Actress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000761",
+      "name": "Bibi Andersson",
+      "sequence": 12,
+      "roles": [
+        "Actress"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1955-12-26",

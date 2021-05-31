@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0093777",
   "sort_title": "Prince of Darkness (1987)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000587",
-      "name": "Donald Pleasence",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662321",
-      "name": "Jameson Parker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Brian Marsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0939378",
-      "name": "Victor Wong",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Prof. Howard Birack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089408",
-      "name": "Lisa Blount",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Catherine Danforth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241748",
-      "name": "Dennis Dun",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Walter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087105",
-      "name": "Susan Blanchard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397121",
-      "name": "Anne Marie Howard",
-      "sequence": 6,
-      "notes": "(as Anne Howard)",
-      "roles": [
-        "Susan Cabot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0947441",
-      "name": "Ann Yen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lisa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942565",
-      "name": "Ken Wright",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lomax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0088781",
-      "name": "Dirk Blocker",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mullins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0272480",
-      "name": "Jessie Lawrence Ferguson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Calder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419273",
-      "name": "Peter Jason",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Paul Leahy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335835",
-      "name": "Robert Grasmere",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Frank Wyndham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106257",
-      "name": "Thom Bray",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Etchinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581008",
-      "name": "Joanna Merlin",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bag Lady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004840",
-      "name": "Alice Cooper",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Street Schizo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0708199",
-      "name": "Betty Ramey",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Nun"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000118",
@@ -164,13 +9,168 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000587",
+      "name": "Donald Pleasence",
+      "sequence": 0,
+      "roles": [
+        "Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662321",
+      "name": "Jameson Parker",
+      "sequence": 1,
+      "roles": [
+        "Brian Marsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0939378",
+      "name": "Victor Wong",
+      "sequence": 2,
+      "roles": [
+        "Prof. Howard Birack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089408",
+      "name": "Lisa Blount",
+      "sequence": 3,
+      "roles": [
+        "Catherine Danforth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241748",
+      "name": "Dennis Dun",
+      "sequence": 4,
+      "roles": [
+        "Walter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087105",
+      "name": "Susan Blanchard",
+      "sequence": 5,
+      "roles": [
+        "Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397121",
+      "name": "Anne Marie Howard",
+      "sequence": 6,
+      "roles": [
+        "Susan Cabot"
+      ],
+      "notes": "(as Anne Howard)"
+    },
+    {
+      "person_imdb_id": "nm0947441",
+      "name": "Ann Yen",
+      "sequence": 7,
+      "roles": [
+        "Lisa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942565",
+      "name": "Ken Wright",
+      "sequence": 8,
+      "roles": [
+        "Lomax"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088781",
+      "name": "Dirk Blocker",
+      "sequence": 9,
+      "roles": [
+        "Mullins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0272480",
+      "name": "Jessie Lawrence Ferguson",
+      "sequence": 10,
+      "roles": [
+        "Calder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419273",
+      "name": "Peter Jason",
+      "sequence": 11,
+      "roles": [
+        "Dr. Paul Leahy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335835",
+      "name": "Robert Grasmere",
+      "sequence": 12,
+      "roles": [
+        "Frank Wyndham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106257",
+      "name": "Thom Bray",
+      "sequence": 13,
+      "roles": [
+        "Etchinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581008",
+      "name": "Joanna Merlin",
+      "sequence": 14,
+      "roles": [
+        "Bag Lady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004840",
+      "name": "Alice Cooper",
+      "sequence": 15,
+      "roles": [
+        "Street Schizo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0708199",
+      "name": "Betty Ramey",
+      "sequence": 16,
+      "roles": [
+        "Nun"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000118",
       "name": "John Carpenter",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Martin Quatermass)",
-      "group_id": 0
+      "notes": "(written by) (as Martin Quatermass)"
     }
   ],
   "release_date": "1987-10-21",

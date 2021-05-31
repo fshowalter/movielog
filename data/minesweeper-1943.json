@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0036161",
   "sort_title": "Minesweeper (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0035159",
-      "name": "Richard Arlen",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Richard Houston -"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662335",
-      "name": "Jean Parker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370797",
-      "name": "Russell Hayden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Seaman Elliot Nash"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930711",
-      "name": "Guinn 'Big Boy' Williams",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "CPO Ichabod Ferdinand 'Fixit' Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242562",
-      "name": "Emma Dunn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mom Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113184",
-      "name": "Charles D. Brown",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cmdr. Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2916826",
-      "name": "Frank Fenton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lt. Ralph Gilpin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151334",
-      "name": "Chick Chandler",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Seaman 'Corny' Welch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288830",
-      "name": "Douglas Fowley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cutter Lt. Wells"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762596",
-      "name": "Ralph Sanford",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Seaman Cox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625180",
-      "name": "Billy Nelson",
-      "sequence": 10,
-      "notes": "(as Bill Nelson)",
-      "roles": [
-        "Bos'un 'Freshwater' Heims"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "CPO Gregg - in Charge of Diving Crew"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0075318",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0035159",
+      "name": "Richard Arlen",
+      "sequence": 0,
+      "roles": [
+        "Richard Houston -"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662335",
+      "name": "Jean Parker",
+      "sequence": 1,
+      "roles": [
+        "Mary Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370797",
+      "name": "Russell Hayden",
+      "sequence": 2,
+      "roles": [
+        "Seaman Elliot Nash"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930711",
+      "name": "Guinn 'Big Boy' Williams",
+      "sequence": 3,
+      "roles": [
+        "CPO Ichabod Ferdinand 'Fixit' Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242562",
+      "name": "Emma Dunn",
+      "sequence": 4,
+      "roles": [
+        "Mom Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113184",
+      "name": "Charles D. Brown",
+      "sequence": 5,
+      "roles": [
+        "Cmdr. Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2916826",
+      "name": "Frank Fenton",
+      "sequence": 6,
+      "roles": [
+        "Lt. Ralph Gilpin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151334",
+      "name": "Chick Chandler",
+      "sequence": 7,
+      "roles": [
+        "Seaman 'Corny' Welch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288830",
+      "name": "Douglas Fowley",
+      "sequence": 8,
+      "roles": [
+        "Cutter Lt. Wells"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762596",
+      "name": "Ralph Sanford",
+      "sequence": 9,
+      "roles": [
+        "Seaman Cox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625180",
+      "name": "Billy Nelson",
+      "sequence": 10,
+      "roles": [
+        "Bos'un 'Freshwater' Heims"
+      ],
+      "notes": "(as Bill Nelson)"
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 11,
+      "roles": [
+        "CPO Gregg - in Charge of Diving Crew"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0522871",
       "name": "Edward T. Lowe Jr.",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay) (as Edward T. Lowe)",
-      "group_id": 0
+      "notes": "(original screenplay) (as Edward T. Lowe)"
     },
     {
       "person_imdb_id": "nm0788058",
       "name": "Maxwell Shane",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1943-11-10",

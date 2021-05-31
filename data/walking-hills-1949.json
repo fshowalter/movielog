@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0042033",
   "sort_title": "Walking Hills (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Carey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707048",
-      "name": "Ella Raines",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chris Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084219",
-      "name": "William Bishop",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dave 'Shep' Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118000",
-      "name": "Edgar Buchanan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Old Willy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chalk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409869",
-      "name": "John Ireland",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Frazee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183857",
-      "name": "Jerome Courtland",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Johnny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172660",
-      "name": "Russell Collins",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bibbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925024",
-      "name": "Josh White",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Josh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828950",
-      "name": "Houseley Stevenson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398139",
-      "name": "Reed Howes",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Young King"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 0,
+      "roles": [
+        "Jim Carey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707048",
+      "name": "Ella Raines",
+      "sequence": 1,
+      "roles": [
+        "Chris Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0084219",
+      "name": "William Bishop",
+      "sequence": 2,
+      "roles": [
+        "Dave 'Shep' Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118000",
+      "name": "Edgar Buchanan",
+      "sequence": 3,
+      "roles": [
+        "Old Willy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 4,
+      "roles": [
+        "Chalk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409869",
+      "name": "John Ireland",
+      "sequence": 5,
+      "roles": [
+        "Frazee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183857",
+      "name": "Jerome Courtland",
+      "sequence": 6,
+      "roles": [
+        "Johnny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172660",
+      "name": "Russell Collins",
+      "sequence": 7,
+      "roles": [
+        "Bibbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925024",
+      "name": "Josh White",
+      "sequence": 8,
+      "roles": [
+        "Josh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828950",
+      "name": "Houseley Stevenson",
+      "sequence": 9,
+      "roles": [
+        "Mr. King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398139",
+      "name": "Reed Howes",
+      "sequence": 10,
+      "roles": [
+        "Young King"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0494435",
       "name": "Alan Le May",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0494435",
       "name": "Alan Le May",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm1086449",
       "name": "Virginia Roddick",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1949-03-05",

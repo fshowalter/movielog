@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0024516",
   "sort_title": "Sagebrush Trail (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Brant -"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795549",
-      "name": "Nancy Shubert",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sally Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151420",
-      "name": "Lane Chandler",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Joseph Conlon - alias Bob Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ed Walsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355642",
-      "name": "Henry Hall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dad Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907404",
-      "name": "Hal Taliaferro",
-      "sequence": 5,
-      "notes": "(as Wally Wales)",
-      "roles": [
-        "Deputy Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594283",
-      "name": "Art Mix",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122590",
-      "name": "Bob Burns",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sheriff Parker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0769585",
@@ -83,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Brant -"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795549",
+      "name": "Nancy Shubert",
+      "sequence": 1,
+      "roles": [
+        "Sally Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151420",
+      "name": "Lane Chandler",
+      "sequence": 2,
+      "roles": [
+        "Joseph Conlon - alias Bob Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 3,
+      "roles": [
+        "Ed Walsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355642",
+      "name": "Henry Hall",
+      "sequence": 4,
+      "roles": [
+        "Dad Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907404",
+      "name": "Hal Taliaferro",
+      "sequence": 5,
+      "roles": [
+        "Deputy Sheriff"
+      ],
+      "notes": "(as Wally Wales)"
+    },
+    {
+      "person_imdb_id": "nm0594283",
+      "name": "Art Mix",
+      "sequence": 6,
+      "roles": [
+        "Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122590",
+      "name": "Bob Burns",
+      "sequence": 7,
+      "roles": [
+        "Sheriff Parker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0663858",
       "name": "Lindsley Parsons",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0063676",
       "name": "Will Beale",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 2
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1933-12-15",

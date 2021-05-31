@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0057940",
   "sort_title": "Cheyenne Autumn (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001847",
-      "name": "Richard Widmark",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Thomas Archer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004647",
-      "name": "Carroll Baker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Deborah Wright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001500",
-      "name": "Karl Malden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Wessels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000543",
-      "name": "Sal Mineo",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Red Shirt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003123",
-      "name": "Dolores del Rio",
-      "sequence": 4,
-      "notes": "(as Dolores Del Rio)",
-      "roles": [
-        "Spanish Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001544",
-      "name": "Ricardo Montalban",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Little Wolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738042",
-      "name": "Gilbert Roland",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dull Knife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Doc Holliday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Wyatt Earp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000064",
-      "name": "Edward G. Robinson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Secretary of the Interior Carl Schurz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0915618",
-      "name": "Patrick Wayne",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "2nd Lt. Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020490",
-      "name": "Elizabeth Allen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Guinevere Plantagenet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Maj. Jeff Blair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430460",
-      "name": "Victor Jory",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Tall Tree"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0563417",
-      "name": "Mike Mazurki",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Senior First Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639563",
-      "name": "George O'Brien",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Maj. Braden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0565887",
-      "name": "Sean McClory",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Dr. O'Carberry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695489",
-      "name": "Judson Pratt",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Mayor Dog Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195362",
-      "name": "Carmen D'Antonio",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Pawnee Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193411",
-      "name": "Ken Curtis",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Joe"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -191,27 +9,209 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001847",
+      "name": "Richard Widmark",
+      "sequence": 0,
+      "roles": [
+        "Capt. Thomas Archer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004647",
+      "name": "Carroll Baker",
+      "sequence": 1,
+      "roles": [
+        "Deborah Wright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001500",
+      "name": "Karl Malden",
+      "sequence": 2,
+      "roles": [
+        "Capt. Wessels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000543",
+      "name": "Sal Mineo",
+      "sequence": 3,
+      "roles": [
+        "Red Shirt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003123",
+      "name": "Dolores del Rio",
+      "sequence": 4,
+      "roles": [
+        "Spanish Woman"
+      ],
+      "notes": "(as Dolores Del Rio)"
+    },
+    {
+      "person_imdb_id": "nm0001544",
+      "name": "Ricardo Montalban",
+      "sequence": 5,
+      "roles": [
+        "Little Wolf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738042",
+      "name": "Gilbert Roland",
+      "sequence": 6,
+      "roles": [
+        "Dull Knife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 7,
+      "roles": [
+        "Doc Holliday"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 8,
+      "roles": [
+        "Wyatt Earp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000064",
+      "name": "Edward G. Robinson",
+      "sequence": 9,
+      "roles": [
+        "Secretary of the Interior Carl Schurz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0915618",
+      "name": "Patrick Wayne",
+      "sequence": 10,
+      "roles": [
+        "2nd Lt. Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020490",
+      "name": "Elizabeth Allen",
+      "sequence": 11,
+      "roles": [
+        "Guinevere Plantagenet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 12,
+      "roles": [
+        "Maj. Jeff Blair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430460",
+      "name": "Victor Jory",
+      "sequence": 13,
+      "roles": [
+        "Tall Tree"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0563417",
+      "name": "Mike Mazurki",
+      "sequence": 14,
+      "roles": [
+        "Senior First Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639563",
+      "name": "George O'Brien",
+      "sequence": 15,
+      "roles": [
+        "Maj. Braden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0565887",
+      "name": "Sean McClory",
+      "sequence": 16,
+      "roles": [
+        "Dr. O'Carberry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695489",
+      "name": "Judson Pratt",
+      "sequence": 17,
+      "roles": [
+        "Mayor Dog Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195362",
+      "name": "Carmen D'Antonio",
+      "sequence": 18,
+      "roles": [
+        "Pawnee Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193411",
+      "name": "Ken Curtis",
+      "sequence": 19,
+      "roles": [
+        "Joe"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762207",
       "name": "Mari Sandoz",
+      "group": 0,
       "sequence": 0,
-      "notes": "(suggested by \"Cheyenne Autumn\")",
-      "group_id": 0
+      "notes": "(suggested by \"Cheyenne Autumn\")"
     },
     {
       "person_imdb_id": "nm0916139",
       "name": "James R. Webb",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0268779",
       "name": "Howard Fast",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"The Last Frontier\") (uncredited)",
-      "group_id": 2
+      "notes": "(novel \"The Last Frontier\") (uncredited)"
     }
   ],
   "release_date": "1964-10-03",

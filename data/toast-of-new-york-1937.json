@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0029675",
   "sort_title": "Toast of New York (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0036427",
-      "name": "Edward Arnold",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jim Fisk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nick Boyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002068",
-      "name": "Frances Farmer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Josie Mansfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642988",
-      "name": "Jack Oakie",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Luke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576083",
-      "name": "Donald Meek",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Daniel Drew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077157",
-      "name": "Thelma Leeds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fleurique"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0463882",
-      "name": "Clarence Kolb",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Cornelius Vanderbilt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317970",
-      "name": "Billy Gilbert",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Broker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382954",
-      "name": "Russell Hicks",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lawyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166218",
-      "name": "Dudley Clements",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0069373",
-      "name": "Lionel Belmore",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "President of Board"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0565960",
-      "name": "Robert McClung",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Bellhop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240159",
-      "name": "Robert Dudley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Janitor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732552",
-      "name": "Dewey Robinson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Beef Dooley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0276354",
-      "name": "Stanley Fields",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Top Sergeant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0498174",
@@ -161,55 +15,201 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0036427",
+      "name": "Edward Arnold",
+      "sequence": 0,
+      "roles": [
+        "Jim Fisk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Nick Boyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002068",
+      "name": "Frances Farmer",
+      "sequence": 2,
+      "roles": [
+        "Josie Mansfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642988",
+      "name": "Jack Oakie",
+      "sequence": 3,
+      "roles": [
+        "Luke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576083",
+      "name": "Donald Meek",
+      "sequence": 4,
+      "roles": [
+        "Daniel Drew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077157",
+      "name": "Thelma Leeds",
+      "sequence": 5,
+      "roles": [
+        "Fleurique"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0463882",
+      "name": "Clarence Kolb",
+      "sequence": 6,
+      "roles": [
+        "Cornelius Vanderbilt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317970",
+      "name": "Billy Gilbert",
+      "sequence": 7,
+      "roles": [
+        "Photographer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 8,
+      "roles": [
+        "Broker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382954",
+      "name": "Russell Hicks",
+      "sequence": 9,
+      "roles": [
+        "Lawyer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166218",
+      "name": "Dudley Clements",
+      "sequence": 10,
+      "roles": [
+        "Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0069373",
+      "name": "Lionel Belmore",
+      "sequence": 11,
+      "roles": [
+        "President of Board"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0565960",
+      "name": "Robert McClung",
+      "sequence": 12,
+      "roles": [
+        "Bellhop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240159",
+      "name": "Robert Dudley",
+      "sequence": 13,
+      "roles": [
+        "Janitor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732552",
+      "name": "Dewey Robinson",
+      "sequence": 14,
+      "roles": [
+        "Beef Dooley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0276354",
+      "name": "Stanley Fields",
+      "sequence": 15,
+      "roles": [
+        "Top Sergeant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0878605",
       "name": "John Twist",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0768540",
       "name": "Joel Sayre",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0924538",
       "name": "Bouck White",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on: \"The Book of Daniel Drew\" by)",
-      "group_id": 1
+      "notes": "(based on: \"The Book of Daniel Drew\" by)"
     },
     {
       "person_imdb_id": "nm0430763",
       "name": "Matthew Josephson",
+      "group": 2,
       "sequence": 0,
-      "notes": "(and the story: \"Robber Barons\" by)",
-      "group_id": 2
+      "notes": "(and the story: \"Robber Barons\" by)"
     },
     {
       "person_imdb_id": "nm0502071",
       "name": "Thomas Lennon",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to treatment) (uncredited)"
     },
     {
       "person_imdb_id": "nm0938439",
       "name": "P.J. Wolfson",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributor to screenplay construction) (uncredited)",
-      "group_id": 4
+      "notes": "(contributor to screenplay construction) (uncredited)"
     }
   ],
   "release_date": "1937-07-22",

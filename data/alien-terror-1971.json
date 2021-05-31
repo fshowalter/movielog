@@ -1,157 +1,6 @@
 {
   "imdb_id": "tt0063132",
   "sort_title": "Alien Terror (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Prof. John Mayer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350051",
-      "name": "Enrique Guzm\u00e1n",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Paul Rosten"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511697",
-      "name": "Christa Linder",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Laura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0600005",
-      "name": "Maura Monti",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Isabel Reed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067280",
-      "name": "Yerye Beirute",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884676",
-      "name": "Tere Valez",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577228",
-      "name": "Griselda Mej\u00eda",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0459073",
-      "name": "Sergio Kleiner",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Alien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049553",
-      "name": "Ros\u00e1ngela Balb\u00f3",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Martha - mayor's wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282885",
-      "name": "Mariela Flores",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Deaf-mute victim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545580",
-      "name": "Tito Novaro",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gen. Nord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898094",
-      "name": "Sergio Virel",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Villager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291284",
-      "name": "Nathanael Le\u00f3n",
-      "sequence": 12,
-      "notes": "(as Frankestein)",
-      "roles": [
-        "Villager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430216",
-      "name": "V\u00edctor Jord\u00e1n",
-      "sequence": 13,
-      "notes": "(as Victor Jordan)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0580746",
-      "name": "Juli\u00e1n de Meriche",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Visiting dignitary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0502457",
-      "name": "Carlos Le\u00f3n",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Villager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216880",
-      "name": "Arturo Fern\u00e1ndez",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0384335",
@@ -172,27 +21,178 @@
       "notes": "(co-director)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Prof. John Mayer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350051",
+      "name": "Enrique Guzm\u00e1n",
+      "sequence": 1,
+      "roles": [
+        "Dr. Paul Rosten"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511697",
+      "name": "Christa Linder",
+      "sequence": 2,
+      "roles": [
+        "Laura"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0600005",
+      "name": "Maura Monti",
+      "sequence": 3,
+      "roles": [
+        "Dr. Isabel Reed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067280",
+      "name": "Yerye Beirute",
+      "sequence": 4,
+      "roles": [
+        "Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884676",
+      "name": "Tere Vales",
+      "sequence": 5,
+      "roles": [
+        "Nancy"
+      ],
+      "notes": "(as Tere Valez)"
+    },
+    {
+      "person_imdb_id": "nm0577228",
+      "name": "Griselda Mej\u00eda",
+      "sequence": 6,
+      "roles": [
+        "Prostitute"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0459073",
+      "name": "Sergio Kleiner",
+      "sequence": 7,
+      "roles": [
+        "Alien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049553",
+      "name": "Ros\u00e1ngela Balb\u00f3",
+      "sequence": 8,
+      "roles": [
+        "Martha - mayor's wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282885",
+      "name": "Mariela Flores",
+      "sequence": 9,
+      "roles": [
+        "Deaf-mute victim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545580",
+      "name": "Tito Novaro",
+      "sequence": 10,
+      "roles": [
+        "Gen. Nord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898094",
+      "name": "Sergio Virel",
+      "sequence": 11,
+      "roles": [
+        "Villager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291284",
+      "name": "Nathanael Le\u00f3n",
+      "sequence": 12,
+      "roles": [
+        "Villager"
+      ],
+      "notes": "(as Frankestein)"
+    },
+    {
+      "person_imdb_id": "nm0430216",
+      "name": "V\u00edctor Jord\u00e1n",
+      "sequence": 13,
+      "roles": [],
+      "notes": "(as Victor Jordan)"
+    },
+    {
+      "person_imdb_id": "nm0580746",
+      "name": "Juli\u00e1n de Meriche",
+      "sequence": 14,
+      "roles": [
+        "Visiting dignitary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0502457",
+      "name": "Carlos Le\u00f3n",
+      "sequence": 15,
+      "roles": [
+        "Villager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0216880",
+      "name": "Arturo Fern\u00e1ndez",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0406625",
       "name": "Juan Ib\u00e1\u00f1ez",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0770046",
       "name": "Karl Schanzer",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0894028",
       "name": "Luis Enrique Vergara",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (as L.E. Vergara C.)",
-      "group_id": 2
+      "notes": "() (as L.E. Vergara C.)"
     }
   ],
   "release_date": "1971-04-01",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0066952",
   "sort_title": "Count Yorga, Vampire (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0067146",
-      "name": "Robert Quarry",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Count Yorga"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675273",
-      "name": "Roger Perry",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. James 'Jim' Hayes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614526",
-      "name": "Michael Murphy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534318",
-      "name": "Michael Macready",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Michael 'Mike' Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025997",
-      "name": "Donna Anders",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Donna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485800",
-      "name": "Judy Lang",
-      "sequence": 5,
-      "notes": "(as Judith Lang)",
-      "roles": [
-        "Erica Landers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909624",
-      "name": "Edward Walsh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Brudah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103206",
-      "name": "Julie Conners",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cleo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0361041",
-      "name": "Paul Hansen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Peter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778757",
-      "name": "Sybil Scotford",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430094",
-      "name": "Marsha Jordan",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Donna's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201506",
-      "name": "Deborah Darnell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Vampire Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534317",
-      "name": "George Macready",
-      "sequence": 12,
-      "notes": "(voice)",
-      "roles": [
-        "Narration"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0850111",
-      "name": "Mark Tapscott",
-      "sequence": 14,
-      "notes": "(seance guest) (uncredited)",
-      "roles": [
-        "Peter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0446059",
@@ -137,13 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0067146",
+      "name": "Robert Quarry",
+      "sequence": 0,
+      "roles": [
+        "Count Yorga"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0675273",
+      "name": "Roger Perry",
+      "sequence": 1,
+      "roles": [
+        "Dr. James 'Jim' Hayes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614526",
+      "name": "Michael Murphy",
+      "sequence": 2,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534318",
+      "name": "Michael Macready",
+      "sequence": 3,
+      "roles": [
+        "Michael 'Mike' Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0025997",
+      "name": "Donna Anders",
+      "sequence": 4,
+      "roles": [
+        "Donna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485800",
+      "name": "Judy Lang",
+      "sequence": 5,
+      "roles": [
+        "Erica Landers"
+      ],
+      "notes": "(as Judith Lang)"
+    },
+    {
+      "person_imdb_id": "nm0909624",
+      "name": "Edward Walsh",
+      "sequence": 6,
+      "roles": [
+        "Brudah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0103206",
+      "name": "Julie Conners",
+      "sequence": 7,
+      "roles": [
+        "Cleo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0361041",
+      "name": "Paul Hansen",
+      "sequence": 8,
+      "roles": [
+        "Peter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778757",
+      "name": "Sybil Scotford",
+      "sequence": 9,
+      "roles": [
+        "Judy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430094",
+      "name": "Marsha Jordan",
+      "sequence": 10,
+      "roles": [
+        "Donna's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201506",
+      "name": "Deborah Darnell",
+      "sequence": 11,
+      "roles": [
+        "Vampire Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534317",
+      "name": "George Macready",
+      "sequence": 12,
+      "roles": [
+        "Narration"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0446059",
       "name": "Bob Kelljan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1970-06-10",

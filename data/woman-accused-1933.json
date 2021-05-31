@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0024781",
   "sort_title": "Woman Accused (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0007216",
-      "name": "Nancy Carroll",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Glenda O'Brien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jeffrey Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356568",
-      "name": "John Halliday",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stephen Bessemer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681635",
-      "name": "Irving Pichel",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "District Attorney Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0129894",
-      "name": "Louis Calhern",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Leo Young"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593628",
-      "name": "Norma Mitchell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479011",
-      "name": "Jack La Rue",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Little Maxie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792166",
-      "name": "Frank Sheridan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Inspector Swope"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517099",
-      "name": "John Lodge",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Simpson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446953",
-      "name": "William J. Kelly",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Captain of Boat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391612",
-      "name": "Harry Holman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Judge Osgood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067588",
-      "name": "Jay Belasco",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Tony Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0582211",
-      "name": "Gertrude Messinger",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Evelyn Craig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028158",
-      "name": "Lona Andre",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Cora Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835681",
-      "name": "Donald Stuart",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Steward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0326710",
-      "name": "Gregory Golubeff",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "The Band Leader"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0704349",
-      "name": "Robert Quirk",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Cheerleader"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408926",
-      "name": "Amo Ingraham",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "3rd Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064473",
-      "name": "Dennis Beaufort",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "2nd Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671747",
-      "name": "Steve Pendleton",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "3rd Boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0806061",
@@ -191,83 +9,265 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0007216",
+      "name": "Nancy Carroll",
+      "sequence": 0,
+      "roles": [
+        "Glenda O'Brien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Jeffrey Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356568",
+      "name": "John Halliday",
+      "sequence": 2,
+      "roles": [
+        "Stephen Bessemer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681635",
+      "name": "Irving Pichel",
+      "sequence": 3,
+      "roles": [
+        "District Attorney Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0129894",
+      "name": "Louis Calhern",
+      "sequence": 4,
+      "roles": [
+        "Leo Young"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593628",
+      "name": "Norma Mitchell",
+      "sequence": 5,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479011",
+      "name": "Jack La Rue",
+      "sequence": 6,
+      "roles": [
+        "Little Maxie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792166",
+      "name": "Frank Sheridan",
+      "sequence": 7,
+      "roles": [
+        "Inspector Swope"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517099",
+      "name": "John Lodge",
+      "sequence": 8,
+      "roles": [
+        "Dr. Simpson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446953",
+      "name": "William J. Kelly",
+      "sequence": 9,
+      "roles": [
+        "Captain of Boat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391612",
+      "name": "Harry Holman",
+      "sequence": 10,
+      "roles": [
+        "Judge Osgood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067588",
+      "name": "Jay Belasco",
+      "sequence": 11,
+      "roles": [
+        "Tony Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0582211",
+      "name": "Gertrude Messinger",
+      "sequence": 12,
+      "roles": [
+        "Evelyn Craig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028158",
+      "name": "Lona Andre",
+      "sequence": 13,
+      "roles": [
+        "Cora Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835681",
+      "name": "Donald Stuart",
+      "sequence": 14,
+      "roles": [
+        "The Steward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0326710",
+      "name": "Gregory Golubeff",
+      "sequence": 15,
+      "roles": [
+        "The Band Leader"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0704349",
+      "name": "Robert Quirk",
+      "sequence": 16,
+      "roles": [
+        "Cheerleader"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408926",
+      "name": "Amo Ingraham",
+      "sequence": 17,
+      "roles": [
+        "3rd Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064473",
+      "name": "Dennis Beaufort",
+      "sequence": 18,
+      "roles": [
+        "2nd Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0671747",
+      "name": "Steve Pendleton",
+      "sequence": 19,
+      "roles": [
+        "3rd Boy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0040457",
       "name": "Gertrude Atherton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 0
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0052231",
       "name": "Polan Banks",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0062139",
       "name": "Vicki Baum",
+      "group": 2,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 2
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0167769",
       "name": "Irvin S. Cobb",
+      "group": 3,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 3
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0217568",
       "name": "Vi\u00f1a Delmar",
+      "group": 4,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 4
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0340719",
       "name": "Zane Grey",
+      "group": 5,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 5
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0400912",
       "name": "Rupert Hughes",
+      "group": 6,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 6
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0449805",
       "name": "Sophie Kerr",
+      "group": 7,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 7
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0568571",
       "name": "J.P. McEvoy",
+      "group": 8,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 8
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0663624",
       "name": "Ursula Parrott",
+      "group": 9,
       "sequence": 0,
-      "notes": "(Liberty Magazine serial chapter)",
-      "group_id": 9
+      "notes": "(Liberty Magazine serial chapter)"
     },
     {
       "person_imdb_id": "nm0892045",
       "name": "Bayard Veiller",
+      "group": 10,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 10
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1933-02-17",

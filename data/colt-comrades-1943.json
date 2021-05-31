@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0035744",
   "sort_title": "Colt Comrades (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0101955",
-      "name": "William Boyd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hopalong Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167395",
-      "name": "Andy Clyde",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "California Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313358",
-      "name": "Jay Kirby",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johnny Travers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792597",
-      "name": "Teddi Sherman",
-      "sequence": 3,
-      "notes": "(as Lois Sherman)",
-      "roles": [
-        "Lucy Whitlock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430460",
-      "name": "Victor Jory",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jeb Hardin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001660",
-      "name": "George Reeves",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lin Whitlock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288830",
-      "name": "Douglas Fowley",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Brass"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712660",
-      "name": "Herbert Rawlinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Varney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388232",
-      "name": "Earle Hodgins",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Wildcat Willie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 9,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Dirk Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732552",
-      "name": "Dewey Robinson",
-      "sequence": 22,
-      "notes": "(Bartender) (uncredited)",
-      "roles": [
-        "Sam"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0782947",
@@ -110,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0101955",
+      "name": "William Boyd",
+      "sequence": 0,
+      "roles": [
+        "Hopalong Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167395",
+      "name": "Andy Clyde",
+      "sequence": 1,
+      "roles": [
+        "California Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313358",
+      "name": "Jay Kirby",
+      "sequence": 2,
+      "roles": [
+        "Johnny Travers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792597",
+      "name": "Teddi Sherman",
+      "sequence": 3,
+      "roles": [
+        "Lucy Whitlock"
+      ],
+      "notes": "(as Lois Sherman)"
+    },
+    {
+      "person_imdb_id": "nm0430460",
+      "name": "Victor Jory",
+      "sequence": 4,
+      "roles": [
+        "Jeb Hardin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001660",
+      "name": "George Reeves",
+      "sequence": 5,
+      "roles": [
+        "Lin Whitlock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288830",
+      "name": "Douglas Fowley",
+      "sequence": 6,
+      "roles": [
+        "Joe Brass"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712660",
+      "name": "Herbert Rawlinson",
+      "sequence": 7,
+      "roles": [
+        "Varney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388232",
+      "name": "Earle Hodgins",
+      "sequence": 8,
+      "roles": [
+        "Wildcat Willie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 9,
+      "roles": [
+        "Dirk Mason"
+      ],
+      "notes": "(as Bob Mitchum)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0933858",
       "name": "Michael Wilson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0236718",
       "name": "Harry Sinclair Drago",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon the story by) (as Bliss Lomax)",
-      "group_id": 1
+      "notes": "(based upon the story by) (as Bliss Lomax)"
     }
   ],
   "release_date": "1943-06-18",

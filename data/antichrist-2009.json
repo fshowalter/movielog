@@ -1,35 +1,6 @@
 {
   "imdb_id": "tt0870984",
   "sort_title": "Antichrist (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000353",
-      "name": "Willem Dafoe",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "He"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001250",
-      "name": "Charlotte Gainsbourg",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "She"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3527143",
-      "name": "Storm Acheche Sahlstr\u00f8m",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nic"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001885",
@@ -38,13 +9,42 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000353",
+      "name": "Willem Dafoe",
+      "sequence": 0,
+      "roles": [
+        "He"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001250",
+      "name": "Charlotte Gainsbourg",
+      "sequence": 1,
+      "roles": [
+        "She"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3527143",
+      "name": "Storm Acheche Sahlstr\u00f8m",
+      "sequence": 2,
+      "roles": [
+        "Nic"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001885",
       "name": "Lars von Trier",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-05-18",

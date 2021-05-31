@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0071200",
   "sort_title": "Beast Must Die (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0516865",
-      "name": "Calvin Lockhart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom Newcliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Christopher Lundgren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164262",
-      "name": "Marlene Clark",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Caroline Newcliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336509",
-      "name": "Charles Gray",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bennington"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226446",
-      "name": "Anton Diffring",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pavel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534570",
-      "name": "Ciaran Madden",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Davina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0149435",
-      "name": "Tom Chadbon",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Paul Foote"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002091",
-      "name": "Michael Gambon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543720",
-      "name": "Sam Mansary",
-      "sequence": 8,
-      "notes": "(as Sam Mansaray)",
-      "roles": [
-        "Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517080",
-      "name": "Andrew Lodge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pilot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092025",
-      "name": "Carl Bohen",
-      "sequence": 10,
-      "notes": "(as Carl Bohun)",
-      "roles": [
-        "1st Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141422",
-      "name": "Eric Carte",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "2nd Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245581",
-      "name": "Valentine Dyall",
-      "sequence": 12,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator of the Werewolf Break"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517506",
-      "name": "Annie Ross",
-      "sequence": 13,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Caroline Newcliffe"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0030365",
@@ -137,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0516865",
+      "name": "Calvin Lockhart",
+      "sequence": 0,
+      "roles": [
+        "Tom Newcliffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 1,
+      "roles": [
+        "Dr. Christopher Lundgren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164262",
+      "name": "Marlene Clark",
+      "sequence": 2,
+      "roles": [
+        "Caroline Newcliffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336509",
+      "name": "Charles Gray",
+      "sequence": 3,
+      "roles": [
+        "Bennington"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226446",
+      "name": "Anton Diffring",
+      "sequence": 4,
+      "roles": [
+        "Pavel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534570",
+      "name": "Ciaran Madden",
+      "sequence": 5,
+      "roles": [
+        "Davina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0149435",
+      "name": "Tom Chadbon",
+      "sequence": 6,
+      "roles": [
+        "Paul Foote"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002091",
+      "name": "Michael Gambon",
+      "sequence": 7,
+      "roles": [
+        "Jan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543720",
+      "name": "Sam Mansary",
+      "sequence": 8,
+      "roles": [
+        "Butler"
+      ],
+      "notes": "(as Sam Mansaray)"
+    },
+    {
+      "person_imdb_id": "nm0517080",
+      "name": "Andrew Lodge",
+      "sequence": 9,
+      "roles": [
+        "Pilot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092025",
+      "name": "Carl Bohen",
+      "sequence": 10,
+      "roles": [
+        "1st Hunter"
+      ],
+      "notes": "(as Carl Bohun)"
+    },
+    {
+      "person_imdb_id": "nm0141422",
+      "name": "Eric Carte",
+      "sequence": 11,
+      "roles": [
+        "2nd Hunter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0934674",
       "name": "Michael Winder",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0030365",
       "name": "Paul Annett",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0088493",
       "name": "James Blish",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"There Shall Be No Darkness\") (uncredited)",
-      "group_id": 2
+      "notes": "(story \"There Shall Be No Darkness\") (uncredited)"
     },
     {
       "person_imdb_id": "nm0277451",
       "name": "Scot Finch",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1974-04-01",

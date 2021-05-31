@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0068732",
   "sort_title": "Images (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0948772",
-      "name": "Susannah York",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Cathryn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041281",
-      "name": "Rene Auberjonois",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Hugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102566",
-      "name": "Marcel Bozzuffi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587608",
-      "name": "Hugh Millais",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Marcel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365518",
-      "name": "Cathryn Harrison",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Susannah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605899",
-      "name": "John Morley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Old Man"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000265",
@@ -65,20 +9,76 @@
       "notes": ""
     }
   ],
-  "writers": [
-    {
-      "person_imdb_id": "nm0000265",
-      "name": "Robert Altman",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
-    },
+  "cast": [
     {
       "person_imdb_id": "nm0948772",
       "name": "Susannah York",
       "sequence": 0,
-      "notes": "(novel \"In Search of Unicorns\")",
-      "group_id": 1
+      "roles": [
+        "Cathryn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041281",
+      "name": "Rene Auberjonois",
+      "sequence": 1,
+      "roles": [
+        "Hugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102566",
+      "name": "Marcel Bozzuffi",
+      "sequence": 2,
+      "roles": [
+        "Rene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587608",
+      "name": "Hugh Millais",
+      "sequence": 3,
+      "roles": [
+        "Marcel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365518",
+      "name": "Cathryn Harrison",
+      "sequence": 4,
+      "roles": [
+        "Susannah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605899",
+      "name": "John Morley",
+      "sequence": 5,
+      "roles": [
+        "Old Man"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0000265",
+      "name": "Robert Altman",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(written by)"
+    },
+    {
+      "person_imdb_id": "nm0948772",
+      "name": "Susannah York",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(novel \"In Search of Unicorns\")"
     }
   ],
   "release_date": "1972-05-09",

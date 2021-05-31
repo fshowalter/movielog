@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0050805",
   "sort_title": "Operation Mad Ball (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Pvt. Hogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0468237",
-      "name": "Ernie Kovacs",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Paul Lock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335497",
-      "name": "Kathryn Grant",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Betty Bixby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640023",
-      "name": "Arthur O'Connell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Col. Rousch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001682",
-      "name": "Mickey Rooney",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "MSgt. Yancy Skibo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948685",
-      "name": "Dick York",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cpl. Bohun"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201626",
-      "name": "James Darren",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pvt. Widowskas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0809783",
-      "name": "Roger Smith",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cpl. Berryman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504196",
-      "name": "William Leslie",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pvt. Grimes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0173758",
-      "name": "Sheridan Comerate",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sgt. Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428618",
-      "name": "L.Q. Jones",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ozark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542016",
-      "name": "Jeanne Manet",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Madame LaFour"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0703689",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 0,
+      "roles": [
+        "Pvt. Hogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0468237",
+      "name": "Ernie Kovacs",
+      "sequence": 1,
+      "roles": [
+        "Capt. Paul Lock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335497",
+      "name": "Kathryn Grant",
+      "sequence": 2,
+      "roles": [
+        "Lt. Betty Bixby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640023",
+      "name": "Arthur O'Connell",
+      "sequence": 3,
+      "roles": [
+        "Col. Rousch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001682",
+      "name": "Mickey Rooney",
+      "sequence": 4,
+      "roles": [
+        "MSgt. Yancy Skibo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0948685",
+      "name": "Dick York",
+      "sequence": 5,
+      "roles": [
+        "Cpl. Bohun"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201626",
+      "name": "James Darren",
+      "sequence": 6,
+      "roles": [
+        "Pvt. Widowskas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0809783",
+      "name": "Roger Smith",
+      "sequence": 7,
+      "roles": [
+        "Cpl. Berryman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504196",
+      "name": "William Leslie",
+      "sequence": 8,
+      "roles": [
+        "Pvt. Grimes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0173758",
+      "name": "Sheridan Comerate",
+      "sequence": 9,
+      "roles": [
+        "Sgt. Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428618",
+      "name": "L.Q. Jones",
+      "sequence": 10,
+      "roles": [
+        "Ozark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0542016",
+      "name": "Jeanne Manet",
+      "sequence": 11,
+      "roles": [
+        "Madame LaFour"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0141471",
       "name": "Arthur Carter",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0364824",
       "name": "Jed Harris",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001175",
       "name": "Blake Edwards",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0141471",
       "name": "Arthur Carter",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     }
   ],
   "release_date": "1957-08-17",

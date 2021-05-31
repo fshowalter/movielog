@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0025129",
   "sort_title": "Fog Over Frisco (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Arlene Bradford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940579",
-      "name": "Donald Woods",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tony Sterling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Valkyr 'Val' Bradford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847939",
-      "name": "Lyle Talbot",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Spencer Carleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001890",
-      "name": "Hugh Herbert",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Izzy Wright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126365",
-      "name": "Arthur Byron",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Everett Bradford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0056719",
-      "name": "Robert Barrat",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Thorne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Oren Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681635",
-      "name": "Irving Pichel",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jake Bello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241523",
-      "name": "Douglass Dumbrille",
-      "sequence": 9,
-      "notes": "(as Douglas Dumbrille)",
-      "roles": [
-        "Joshua Mayard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Police Chief O'Malley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922503",
-      "name": "Gordon Westcott",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Joe Bello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933161",
-      "name": "Charles C. Wilson",
-      "sequence": 12,
-      "notes": "(as Charles Wilson)",
-      "roles": [
-        "Detective Sgt. O'Hagen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591409",
-      "name": "Harold Minjir",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Archie Van Ness"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Spike Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181825",
-      "name": "Douglas Cosgrove",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Detective Lt. Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203527",
-      "name": "William B. Davidson",
-      "sequence": 16,
-      "notes": "(as William Davidson)",
-      "roles": [
-        "Joe Hogue - Editor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151370",
-      "name": "George Chandler",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Taxi Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0226189",
@@ -173,34 +9,198 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Arlene Bradford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940579",
+      "name": "Donald Woods",
+      "sequence": 1,
+      "roles": [
+        "Tony Sterling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 2,
+      "roles": [
+        "Valkyr 'Val' Bradford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847939",
+      "name": "Lyle Talbot",
+      "sequence": 3,
+      "roles": [
+        "Spencer Carleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001890",
+      "name": "Hugh Herbert",
+      "sequence": 4,
+      "roles": [
+        "Izzy Wright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126365",
+      "name": "Arthur Byron",
+      "sequence": 5,
+      "roles": [
+        "Everett Bradford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0056719",
+      "name": "Robert Barrat",
+      "sequence": 6,
+      "roles": [
+        "Thorne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 7,
+      "roles": [
+        "Oren Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681635",
+      "name": "Irving Pichel",
+      "sequence": 8,
+      "roles": [
+        "Jake Bello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241523",
+      "name": "Douglass Dumbrille",
+      "sequence": 9,
+      "roles": [
+        "Joshua Mayard"
+      ],
+      "notes": "(as Douglas Dumbrille)"
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 10,
+      "roles": [
+        "Police Chief O'Malley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922503",
+      "name": "Gordon Westcott",
+      "sequence": 11,
+      "roles": [
+        "Joe Bello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933161",
+      "name": "Charles C. Wilson",
+      "sequence": 12,
+      "roles": [
+        "Detective Sgt. O'Hagen"
+      ],
+      "notes": "(as Charles Wilson)"
+    },
+    {
+      "person_imdb_id": "nm0591409",
+      "name": "Harold Minjir",
+      "sequence": 13,
+      "roles": [
+        "Archie Van Ness"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 14,
+      "roles": [
+        "Spike Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181825",
+      "name": "Douglas Cosgrove",
+      "sequence": 15,
+      "roles": [
+        "Detective Lt. Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203527",
+      "name": "William B. Davidson",
+      "sequence": 16,
+      "roles": [
+        "Joe Hogue - Editor"
+      ],
+      "notes": "(as William Davidson)"
+    },
+    {
+      "person_imdb_id": "nm0151370",
+      "name": "George Chandler",
+      "sequence": 17,
+      "roles": [
+        "Taxi Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0498133",
       "name": "Robert N. Lee",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0245723",
       "name": "George Dyer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0498133",
       "name": "Robert N. Lee",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0813554",
       "name": "Eugene Solow",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1934-06-02",

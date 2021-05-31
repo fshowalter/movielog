@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0050330",
   "sort_title": "Lower Depths (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001536",
-      "name": "Toshir\u00f4 Mifune",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sutekichi the Thief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0945222",
-      "name": "Isuzu Yamada",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Osugi the Landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0434593",
-      "name": "Ky\u00f4ko Kagawa",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Okayo, Osugi's Sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0620131",
-      "name": "Ganjir\u00f4 Nakamura",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rokubei, Osugi's Husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156928",
-      "name": "Minoru Chiaki",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tonosama - the former Samurai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0297869",
-      "name": "Kamatari Fujiwara",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Actor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0624372",
-      "name": "Akemi Negishi",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Osen the Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0457953",
-      "name": "Nijiko Kiyokawa",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Otaki the Candy-Seller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594062",
-      "name": "K\u00f4ji Mitsui",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Yoshisaburo the Gambler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867391",
-      "name": "Eijir\u00f4 T\u00f4no",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tomekichi the Tinker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848984",
-      "name": "Haruo Tanaka",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tatsu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594542",
-      "name": "Eiko Miyoshi",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Asa, Tomekichi's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0383091",
-      "name": "Bokuzen Hidari",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Kahei the Pilgrim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1226419",
-      "name": "Atsushi Watanabe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Kuna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0879918",
-      "name": "Kichijir\u00f4 Ueda",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Shimazo the Police Agent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0297741",
-      "name": "Y\u00fb Fujiki",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Unokichi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1338909",
-      "name": "Fujitayama",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Tsugaru"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000041",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001536",
+      "name": "Toshir\u00f4 Mifune",
+      "sequence": 0,
+      "roles": [
+        "Sutekichi the Thief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0945222",
+      "name": "Isuzu Yamada",
+      "sequence": 1,
+      "roles": [
+        "Osugi the Landlady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0434593",
+      "name": "Ky\u00f4ko Kagawa",
+      "sequence": 2,
+      "roles": [
+        "Okayo, Osugi's Sister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0620131",
+      "name": "Ganjir\u00f4 Nakamura",
+      "sequence": 3,
+      "roles": [
+        "Rokubei, Osugi's Husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156928",
+      "name": "Minoru Chiaki",
+      "sequence": 4,
+      "roles": [
+        "Tonosama - the former Samurai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0297869",
+      "name": "Kamatari Fujiwara",
+      "sequence": 5,
+      "roles": [
+        "The Actor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0624372",
+      "name": "Akemi Negishi",
+      "sequence": 6,
+      "roles": [
+        "Osen the Prostitute"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0457953",
+      "name": "Nijiko Kiyokawa",
+      "sequence": 7,
+      "roles": [
+        "Otaki the Candy-Seller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0594062",
+      "name": "K\u00f4ji Mitsui",
+      "sequence": 8,
+      "roles": [
+        "Yoshisaburo the Gambler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867391",
+      "name": "Eijir\u00f4 T\u00f4no",
+      "sequence": 9,
+      "roles": [
+        "Tomekichi the Tinker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848984",
+      "name": "Haruo Tanaka",
+      "sequence": 10,
+      "roles": [
+        "Tatsu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0594542",
+      "name": "Eiko Miyoshi",
+      "sequence": 11,
+      "roles": [
+        "Asa, Tomekichi's Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0383091",
+      "name": "Bokuzen Hidari",
+      "sequence": 12,
+      "roles": [
+        "Kahei the Pilgrim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1226419",
+      "name": "Atsushi Watanabe",
+      "sequence": 13,
+      "roles": [
+        "Kuna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0879918",
+      "name": "Kichijir\u00f4 Ueda",
+      "sequence": 14,
+      "roles": [
+        "Shimazo the Police Agent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0297741",
+      "name": "Y\u00fb Fujiki",
+      "sequence": 15,
+      "roles": [
+        "Unokichi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1338909",
+      "name": "Fujitayama",
+      "sequence": 16,
+      "roles": [
+        "Tsugaru"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0331003",
       "name": "Maxim Gorky",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"The Lower Depths\")",
-      "group_id": 0
+      "notes": "(play \"The Lower Depths\")"
     },
     {
       "person_imdb_id": "nm0000041",
       "name": "Akira Kurosawa",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0644823",
       "name": "Hideo Oguni",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1957-09-17",

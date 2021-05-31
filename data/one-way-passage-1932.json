@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0023305",
   "sort_title": "One Way Passage (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dan Hardesty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290215",
-      "name": "Kay Francis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joan Ames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533956",
-      "name": "Aline MacMahon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Betty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570451",
-      "name": "Frank McHugh",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Skippy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405220",
-      "name": "Warren Hymer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Steve Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123579",
-      "name": "Frederick Burton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "The Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594594",
-      "name": "Wilson Mizner",
-      "sequence": 18,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Singing Drunk"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307819",
@@ -74,34 +9,90 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Dan Hardesty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290215",
+      "name": "Kay Francis",
+      "sequence": 1,
+      "roles": [
+        "Joan Ames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533956",
+      "name": "Aline MacMahon",
+      "sequence": 2,
+      "roles": [
+        "Barrel House Betty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570451",
+      "name": "Frank McHugh",
+      "sequence": 3,
+      "roles": [
+        "Skippy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405220",
+      "name": "Warren Hymer",
+      "sequence": 4,
+      "roles": [
+        "Steve Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0123579",
+      "name": "Frederick Burton",
+      "sequence": 5,
+      "roles": [
+        "The Doctor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0594594",
       "name": "Wilson Mizner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0413711",
       "name": "Joseph Jackson",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0520501",
       "name": "Robert Lord",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0307819",
       "name": "Tay Garnett",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to treatment) (uncredited)"
     }
   ],
   "release_date": "1932-10-04",

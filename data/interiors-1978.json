@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0077742",
   "sort_title": "Interiors (1978)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0341562",
-      "name": "Kristin Griffith",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Flyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002148",
-      "name": "Mary Beth Hurt",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430151",
-      "name": "Richard Jordan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frederick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000473",
-      "name": "Diane Keaton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Renata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550855",
-      "name": "E.G. Marshall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Arthur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656183",
-      "name": "Geraldine Page",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822972",
-      "name": "Maureen Stapleton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pearl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001832",
-      "name": "Sam Waterston",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394029",
-      "name": "Missy Hope",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Young Joey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240570",
-      "name": "Kerry Duffy",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Young Renata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172562",
-      "name": "Nancy Collins",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Young Flyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309462",
-      "name": "Penny Gaston",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Young Eve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603284",
-      "name": "Roger Morden",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Young Arthur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0287098",
-      "name": "Henderson Forsythe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Judge Bartel"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000095",
@@ -137,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0341562",
+      "name": "Kristin Griffith",
+      "sequence": 0,
+      "roles": [
+        "Flyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002148",
+      "name": "Mary Beth Hurt",
+      "sequence": 1,
+      "roles": [
+        "Joey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430151",
+      "name": "Richard Jordan",
+      "sequence": 2,
+      "roles": [
+        "Frederick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000473",
+      "name": "Diane Keaton",
+      "sequence": 3,
+      "roles": [
+        "Renata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550855",
+      "name": "E.G. Marshall",
+      "sequence": 4,
+      "roles": [
+        "Arthur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656183",
+      "name": "Geraldine Page",
+      "sequence": 5,
+      "roles": [
+        "Eve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822972",
+      "name": "Maureen Stapleton",
+      "sequence": 6,
+      "roles": [
+        "Pearl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001832",
+      "name": "Sam Waterston",
+      "sequence": 7,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394029",
+      "name": "Missy Hope",
+      "sequence": 8,
+      "roles": [
+        "Young Joey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240570",
+      "name": "Kerry Duffy",
+      "sequence": 9,
+      "roles": [
+        "Young Renata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172562",
+      "name": "Nancy Collins",
+      "sequence": 10,
+      "roles": [
+        "Young Flyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309462",
+      "name": "Penny Gaston",
+      "sequence": 11,
+      "roles": [
+        "Young Eve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603284",
+      "name": "Roger Morden",
+      "sequence": 12,
+      "roles": [
+        "Young Arthur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0287098",
+      "name": "Henderson Forsythe",
+      "sequence": 13,
+      "roles": [
+        "Judge Bartel"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000095",
       "name": "Woody Allen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1978-08-02",

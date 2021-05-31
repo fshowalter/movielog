@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0032032",
   "sort_title": "Three Texas Steers (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stony Brooke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181003",
-      "name": "Ray Corrigan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tucson Smith",
-        "Willie the Gorilla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0855579",
-      "name": "Max Terhune",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lullaby Joslin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484808",
-      "name": "Carole Landis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nancy Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336339",
-      "name": "Ralph Graves",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "George Ward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0040374",
-      "name": "Roscoe Ates",
-      "sequence": 5,
-      "notes": "(as Rosco Ates)",
-      "roles": [
-        "Sheriff Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529038",
-      "name": "Collette Lyons",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lillian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193260",
-      "name": "Billy Curtis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hercules"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011389",
-      "name": "Ted Adams",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Steve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090008",
-      "name": "Stanley Blystone",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Rankin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789211",
-      "name": "David Sharpe",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0481756",
-      "name": "Ethan Laidlaw",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446593",
-      "name": "Lew Kelly",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Postman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792450",
@@ -129,20 +9,140 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Stony Brooke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181003",
+      "name": "Ray Corrigan",
+      "sequence": 1,
+      "roles": [
+        "Tucson Smith",
+        "Willie the Gorilla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0855579",
+      "name": "Max Terhune",
+      "sequence": 2,
+      "roles": [
+        "Lullaby Joslin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484808",
+      "name": "Carole Landis",
+      "sequence": 3,
+      "roles": [
+        "Nancy Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336339",
+      "name": "Ralph Graves",
+      "sequence": 4,
+      "roles": [
+        "George Ward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0040374",
+      "name": "Roscoe Ates",
+      "sequence": 5,
+      "roles": [
+        "Sheriff Brown"
+      ],
+      "notes": "(as Rosco Ates)"
+    },
+    {
+      "person_imdb_id": "nm0529038",
+      "name": "Collette Lyons",
+      "sequence": 6,
+      "roles": [
+        "Lillian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193260",
+      "name": "Billy Curtis",
+      "sequence": 7,
+      "roles": [
+        "Hercules"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011389",
+      "name": "Ted Adams",
+      "sequence": 8,
+      "roles": [
+        "Steve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0090008",
+      "name": "Stanley Blystone",
+      "sequence": 9,
+      "roles": [
+        "Rankin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789211",
+      "name": "David Sharpe",
+      "sequence": 10,
+      "roles": [
+        "Tony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0481756",
+      "name": "Ethan Laidlaw",
+      "sequence": 11,
+      "roles": [
+        "Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446593",
+      "name": "Lew Kelly",
+      "sequence": 12,
+      "roles": [
+        "Postman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0120762",
       "name": "Betty Burbridge",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0731592",
       "name": "Stanley Roberts",
-      "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1939-05-12",

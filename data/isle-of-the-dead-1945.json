@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0037820",
   "sort_title": "Isle of the Dead (1945)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gen. Nikolas Pherides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237655",
-      "name": "Ellen Drew",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Thea"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186172",
-      "name": "Marc Cramer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Oliver Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256312",
-      "name": "Katherine Emery",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Mary St. Aubyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0858162",
-      "name": "Helene Thimig",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Madame Kyra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "St. Aubyn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730165",
-      "name": "Jason Robards Sr.",
-      "sequence": 6,
-      "notes": "(as Jason Robards)",
-      "roles": [
-        "Albrecht"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222074",
-      "name": "Ernst Deutsch",
-      "sequence": 7,
-      "notes": "(as Ernst Dorian)",
-      "roles": [
-        "Dr. Drossos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387556",
-      "name": "Rose Hobart",
-      "sequence": 10,
-      "notes": "(in long shot) (uncredited)",
-      "roles": [
-        "Mrs. Mary St. Aubyn"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0733476",
@@ -92,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Gen. Nikolas Pherides"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237655",
+      "name": "Ellen Drew",
+      "sequence": 1,
+      "roles": [
+        "Thea"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186172",
+      "name": "Marc Cramer",
+      "sequence": 2,
+      "roles": [
+        "Oliver Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256312",
+      "name": "Katherine Emery",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Mary St. Aubyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0858162",
+      "name": "Helene Thimig",
+      "sequence": 4,
+      "roles": [
+        "Madame Kyra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 5,
+      "roles": [
+        "St. Aubyn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730165",
+      "name": "Jason Robards Sr.",
+      "sequence": 6,
+      "roles": [
+        "Albrecht"
+      ],
+      "notes": "(as Jason Robards)"
+    },
+    {
+      "person_imdb_id": "nm0222074",
+      "name": "Ernst Deutsch",
+      "sequence": 7,
+      "roles": [
+        "Dr. Drossos"
+      ],
+      "notes": "(as Ernst Dorian)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0942027",
       "name": "Ardel Wray",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0507932",
       "name": "Val Lewton",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0592679",
       "name": "Josef Mischel",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1945-09-01",

@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0103074",
   "sort_title": "Thelma & Louise (1991)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000215",
-      "name": "Susan Sarandon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Louise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000133",
-      "name": "Geena Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Thelma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000172",
-      "name": "Harvey Keitel",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000514",
-      "name": "Michael Madsen",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jimmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001520",
-      "name": "Christopher McDonald",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Darryl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864997",
-      "name": "Stephen Tobolowsky",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000093",
-      "name": "Brad Pitt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "J.D."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137114",
-      "name": "Timothy Carhart",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Harlan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421087",
-      "name": "Lucinda Jenney",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lena, the Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000892",
-      "name": "Jason Beghe",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "State Trooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0205479",
-      "name": "Sonny Carl Davis",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Albert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0220841",
-      "name": "Shelly Desai",
-      "sequence": 11,
-      "notes": "(as Shelly De Sai)",
-      "roles": [
-        "East Indian Motel Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842855",
-      "name": "Ken Swofford",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Major"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543738",
-      "name": "Carol Mansell",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689324",
-      "name": "Stephen Polk",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Surveillance Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280372",
-      "name": "Rob Roy Fitzgerald",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Plainclothes Cop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511941",
-      "name": "Jack Lindine",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "I.D. Tech"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0217548",
-      "name": "Michael Delman",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Silver Bullet Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0741522",
-      "name": "Kristel L. Rose",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Girl Smoker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0906961",
-      "name": "Noel L. Walcott III",
-      "sequence": 19,
-      "notes": "(as Noel Walcott)",
-      "roles": [
-        "Mountain Bike Rider"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000631",
@@ -191,13 +9,195 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000215",
+      "name": "Susan Sarandon",
+      "sequence": 0,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000133",
+      "name": "Geena Davis",
+      "sequence": 1,
+      "roles": [
+        "Thelma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000172",
+      "name": "Harvey Keitel",
+      "sequence": 2,
+      "roles": [
+        "Hal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000514",
+      "name": "Michael Madsen",
+      "sequence": 3,
+      "roles": [
+        "Jimmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001520",
+      "name": "Christopher McDonald",
+      "sequence": 4,
+      "roles": [
+        "Darryl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864997",
+      "name": "Stephen Tobolowsky",
+      "sequence": 5,
+      "roles": [
+        "Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000093",
+      "name": "Brad Pitt",
+      "sequence": 6,
+      "roles": [
+        "J.D."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137114",
+      "name": "Timothy Carhart",
+      "sequence": 7,
+      "roles": [
+        "Harlan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421087",
+      "name": "Lucinda Jenney",
+      "sequence": 8,
+      "roles": [
+        "Lena, the Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000892",
+      "name": "Jason Beghe",
+      "sequence": 9,
+      "roles": [
+        "State Trooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0205479",
+      "name": "Sonny Carl Davis",
+      "sequence": 10,
+      "roles": [
+        "Albert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0220841",
+      "name": "Shelly Desai",
+      "sequence": 11,
+      "roles": [
+        "East Indian Motel Clerk"
+      ],
+      "notes": "(as Shelly De Sai)"
+    },
+    {
+      "person_imdb_id": "nm0842855",
+      "name": "Ken Swofford",
+      "sequence": 12,
+      "roles": [
+        "Major"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543738",
+      "name": "Carol Mansell",
+      "sequence": 13,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689324",
+      "name": "Stephen Polk",
+      "sequence": 14,
+      "roles": [
+        "Surveillance Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280372",
+      "name": "Rob Roy Fitzgerald",
+      "sequence": 15,
+      "roles": [
+        "Plainclothes Cop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511941",
+      "name": "Jack Lindine",
+      "sequence": 16,
+      "roles": [
+        "I.D. Tech"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0217548",
+      "name": "Michael Delman",
+      "sequence": 17,
+      "roles": [
+        "Silver Bullet Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0741522",
+      "name": "Kristel L. Rose",
+      "sequence": 18,
+      "roles": [
+        "Girl Smoker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0906961",
+      "name": "Noel L. Walcott III",
+      "sequence": 19,
+      "roles": [
+        "Mountain Bike Rider"
+      ],
+      "notes": "(as Noel Walcott)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0451884",
       "name": "Callie Khouri",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1991-05-20",

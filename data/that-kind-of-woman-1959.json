@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0053349",
   "sort_title": "That Kind of Woman (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000047",
-      "name": "Sophia Loren",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Kay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002147",
-      "name": "Tab Hunter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Red"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912001",
-      "name": "Jack Warden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "George Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0629539",
-      "name": "Barbara Nichols",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943978",
-      "name": "Keenan Wynn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry Corwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001695",
-      "name": "George Sanders",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "A.L."
-      ]
-    },
-    {
-      "person_imdb_id": "nm5154208",
-      "name": "Jay Roy Lucker",
-      "sequence": 20,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -74,20 +9,76 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000047",
+      "name": "Sophia Loren",
+      "sequence": 0,
+      "roles": [
+        "Kay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002147",
+      "name": "Tab Hunter",
+      "sequence": 1,
+      "roles": [
+        "Red"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912001",
+      "name": "Jack Warden",
+      "sequence": 2,
+      "roles": [
+        "George Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0629539",
+      "name": "Barbara Nichols",
+      "sequence": 3,
+      "roles": [
+        "Jane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943978",
+      "name": "Keenan Wynn",
+      "sequence": 4,
+      "roles": [
+        "Harry Corwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001695",
+      "name": "George Sanders",
+      "sequence": 5,
+      "roles": [
+        "A.L."
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0523365",
       "name": "Robert Lowry",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0077159",
       "name": "Walter Bernstein",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1959-06-01",

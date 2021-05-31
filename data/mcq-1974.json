@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0071824",
   "sort_title": "McQ (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "McQ"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000734",
-      "name": "Eddie Albert",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kosterman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611707",
-      "name": "Diana Muldaur",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223157",
-      "name": "Colleen Dewhurst",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Myra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0347656",
-      "name": "Clu Gulager",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Toms"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399663",
-      "name": "David Huddleston",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pinky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160589",
-      "name": "Julian Christopher",
-      "sequence": 6,
-      "notes": "(as Jim Watkins)",
-      "roles": [
-        "J.C."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504803",
-      "name": "Al Lettieri",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Santiago"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011105",
-      "name": "Julie Adams",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Elaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0608853",
-      "name": "Roger E. Mosley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Rosey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117252",
-      "name": "William Bryant",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Stan Boyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447126",
-      "name": "Richard Kelton",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Radical"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0868149",
-      "name": "Joe Tornatore",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "LaSalle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0295490",
-      "name": "Dick Friel",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bob Mahoney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247604",
-      "name": "Richard Eastham",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Walter Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0915285",
-      "name": "Fred Waugh",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Bodyguard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004931",
-      "name": "June Foray",
-      "sequence": 21,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Disk Jockey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3891517",
-      "name": "Steve Moriarty",
-      "sequence": 28,
-      "notes": "",
-      "roles": [
-        "Hospital Orderly",
-        "Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -174,13 +9,169 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "McQ"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000734",
+      "name": "Eddie Albert",
+      "sequence": 1,
+      "roles": [
+        "Kosterman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0611707",
+      "name": "Diana Muldaur",
+      "sequence": 2,
+      "roles": [
+        "Lois"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223157",
+      "name": "Colleen Dewhurst",
+      "sequence": 3,
+      "roles": [
+        "Myra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0347656",
+      "name": "Clu Gulager",
+      "sequence": 4,
+      "roles": [
+        "Toms"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399663",
+      "name": "David Huddleston",
+      "sequence": 5,
+      "roles": [
+        "Pinky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160589",
+      "name": "Julian Christopher",
+      "sequence": 6,
+      "roles": [
+        "J.C."
+      ],
+      "notes": "(as Jim Watkins)"
+    },
+    {
+      "person_imdb_id": "nm0504803",
+      "name": "Al Lettieri",
+      "sequence": 7,
+      "roles": [
+        "Santiago"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011105",
+      "name": "Julie Adams",
+      "sequence": 8,
+      "roles": [
+        "Elaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0608853",
+      "name": "Roger E. Mosley",
+      "sequence": 9,
+      "roles": [
+        "Rosey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117252",
+      "name": "William Bryant",
+      "sequence": 10,
+      "roles": [
+        "Stan Boyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447126",
+      "name": "Richard Kelton",
+      "sequence": 11,
+      "roles": [
+        "Radical"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0868149",
+      "name": "Joe Tornatore",
+      "sequence": 12,
+      "roles": [
+        "LaSalle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0295490",
+      "name": "Dick Friel",
+      "sequence": 13,
+      "roles": [
+        "Bob Mahoney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247604",
+      "name": "Richard Eastham",
+      "sequence": 14,
+      "roles": [
+        "Walter Forrester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0915285",
+      "name": "Fred Waugh",
+      "sequence": 15,
+      "roles": [
+        "Bodyguard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3891517",
+      "name": "Steve Moriarty",
+      "sequence": 28,
+      "roles": [
+        "Hospital Orderly",
+        "Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0738710",
       "name": "Lawrence Roman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1974-01-04",

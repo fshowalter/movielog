@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0104348",
   "sort_title": "Glengarry Glen Ross (1992)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000199",
-      "name": "Al Pacino",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ricky Roma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Shelley Levene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000285",
-      "name": "Alec Baldwin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000273",
-      "name": "Alan Arkin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "George Aaronow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000438",
-      "name": "Ed Harris",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dave Moss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000228",
-      "name": "Kevin Spacey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John Williamson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000596",
-      "name": "Jonathan Pryce",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "James Lingk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022883",
-      "name": "Bruce Altman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Spannel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161980",
-      "name": "Jude Ciccolella",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125084",
-      "name": "Paul Butler",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0157937",
-      "name": "Lori Tan Chinn",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Coat Check Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428925",
-      "name": "Neal Jones",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Man in Donut Shop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744028",
-      "name": "Barry Rohrssen",
-      "sequence": 12,
-      "notes": "(as Barry Rossen)",
-      "roles": [
-        "Assistant Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294135",
-      "name": "Leigh French",
-      "sequence": 13,
-      "notes": "(voice)",
-      "roles": [
-        "Additional Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156475",
-      "name": "George Cheung",
-      "sequence": 14,
-      "notes": "(voice)",
-      "roles": [
-        "Additional Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242886",
-      "name": "Murphy Dunne",
-      "sequence": 15,
-      "notes": "(voice)",
-      "roles": [
-        "Additional Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0497086",
-      "name": "Dana Lee",
-      "sequence": 16,
-      "notes": "(voice)",
-      "roles": [
-        "Additional Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0668372",
-      "name": "Julie Payne",
-      "sequence": 17,
-      "notes": "(voice)",
-      "roles": [
-        "Additional Voice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0810987",
-      "name": "Gregory Snegoff",
-      "sequence": 18,
-      "notes": "(voice) (as Greg Snegoff)",
-      "roles": [
-        "Additional Voice"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001226",
@@ -182,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000199",
+      "name": "Al Pacino",
+      "sequence": 0,
+      "roles": [
+        "Ricky Roma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 1,
+      "roles": [
+        "Shelley Levene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000285",
+      "name": "Alec Baldwin",
+      "sequence": 2,
+      "roles": [
+        "Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000273",
+      "name": "Alan Arkin",
+      "sequence": 3,
+      "roles": [
+        "George Aaronow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000438",
+      "name": "Ed Harris",
+      "sequence": 4,
+      "roles": [
+        "Dave Moss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000228",
+      "name": "Kevin Spacey",
+      "sequence": 5,
+      "roles": [
+        "John Williamson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000596",
+      "name": "Jonathan Pryce",
+      "sequence": 6,
+      "roles": [
+        "James Lingk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0022883",
+      "name": "Bruce Altman",
+      "sequence": 7,
+      "roles": [
+        "Mr. Spannel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161980",
+      "name": "Jude Ciccolella",
+      "sequence": 8,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0125084",
+      "name": "Paul Butler",
+      "sequence": 9,
+      "roles": [
+        "Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0157937",
+      "name": "Lori Tan Chinn",
+      "sequence": 10,
+      "roles": [
+        "Coat Check Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428925",
+      "name": "Neal Jones",
+      "sequence": 11,
+      "roles": [
+        "Man in Donut Shop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744028",
+      "name": "Barry Rohrssen",
+      "sequence": 12,
+      "roles": [
+        "Assistant Detective"
+      ],
+      "notes": "(as Barry Rossen)"
+    },
+    {
+      "person_imdb_id": "nm0294135",
+      "name": "Leigh French",
+      "sequence": 13,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0156475",
+      "name": "George Cheung",
+      "sequence": 14,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0242886",
+      "name": "Murphy Dunne",
+      "sequence": 15,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0497086",
+      "name": "Dana Lee",
+      "sequence": 16,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0668372",
+      "name": "Julie Payne",
+      "sequence": 17,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0810987",
+      "name": "Gregory Snegoff",
+      "sequence": 18,
+      "roles": [
+        "Additional Voice"
+      ],
+      "notes": "(voice) (as Greg Snegoff)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the play by)",
-      "group_id": 0
+      "notes": "(based on the play by)"
     },
     {
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 1
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1992-08-30",

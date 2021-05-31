@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0039390",
   "sort_title": "For the Love of Rusty (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0232159",
-      "name": "Ted Donaldson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Danny Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694631",
-      "name": "Tom Powers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Hugh Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233352",
-      "name": "Ann Doran",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ethel Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0558434",
-      "name": "Aubrey Mather",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Francis Xavier Fay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866344",
-      "name": "Sid Tomack",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Moe Hatch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574993",
-      "name": "George Meader",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "J. Cecil Rinehardt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570267",
-      "name": "Mickey McGuire",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gerald Hebble"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1829206",
-      "name": "Flame",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rusty"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -83,13 +9,87 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0232159",
+      "name": "Ted Donaldson",
+      "sequence": 0,
+      "roles": [
+        "Danny Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694631",
+      "name": "Tom Powers",
+      "sequence": 1,
+      "roles": [
+        "Hugh Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233352",
+      "name": "Ann Doran",
+      "sequence": 2,
+      "roles": [
+        "Ethel Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0558434",
+      "name": "Aubrey Mather",
+      "sequence": 3,
+      "roles": [
+        "Dr. Francis Xavier Fay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866344",
+      "name": "Sid Tomack",
+      "sequence": 4,
+      "roles": [
+        "Moe Hatch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574993",
+      "name": "George Meader",
+      "sequence": 5,
+      "roles": [
+        "J. Cecil Rinehardt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570267",
+      "name": "Mickey McGuire",
+      "sequence": 6,
+      "roles": [
+        "Gerald Hebble"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1829206",
+      "name": "Flame",
+      "sequence": 7,
+      "roles": [
+        "Rusty"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102167",
       "name": "Malcolm Stuart Boylan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1947-05-01",

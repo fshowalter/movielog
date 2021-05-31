@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0065738",
   "sort_title": "Frankenstein Must Be Destroyed (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Baron Frankenstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138040",
-      "name": "Veronica Carlson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna Spengler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428086",
-      "name": "Freddie Jones",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Professor Richter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911844",
-      "name": "Simon Ward",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Karl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910381",
-      "name": "Thorley Walters",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector Frisch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041602",
-      "name": "Maxine Audley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ella Brandt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695590",
-      "name": "George Pravda",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Doctor Brandt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001933",
-      "name": "Geoffrey Bayldon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Police Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641984",
-      "name": "Colette O'Neil",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mad Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0585460",
-      "name": "Frank Middlemass",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Guest - Plumber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067620",
-      "name": "George Belbin",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Guest - Playing chess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791219",
-      "name": "Norman Shelley",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Guest - Smoking pipe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332842",
-      "name": "Michael Gover",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Guest - Reading newspaper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178741",
-      "name": "Peter Copley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Principal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171923",
-      "name": "Jim Collier",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Dr. Heidecke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839731",
-      "name": "Allan Surtees",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Police Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0204034",
-      "name": "Windsor Davies",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Police Sergeant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -164,34 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Baron Frankenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138040",
+      "name": "Veronica Carlson",
+      "sequence": 1,
+      "roles": [
+        "Anna Spengler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428086",
+      "name": "Freddie Jones",
+      "sequence": 2,
+      "roles": [
+        "Professor Richter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911844",
+      "name": "Simon Ward",
+      "sequence": 3,
+      "roles": [
+        "Karl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910381",
+      "name": "Thorley Walters",
+      "sequence": 4,
+      "roles": [
+        "Inspector Frisch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041602",
+      "name": "Maxine Audley",
+      "sequence": 5,
+      "roles": [
+        "Ella Brandt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695590",
+      "name": "George Pravda",
+      "sequence": 6,
+      "roles": [
+        "Doctor Brandt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001933",
+      "name": "Geoffrey Bayldon",
+      "sequence": 7,
+      "roles": [
+        "Police Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641984",
+      "name": "Colette O'Neil",
+      "sequence": 8,
+      "roles": [
+        "Mad Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0585460",
+      "name": "Frank Middlemass",
+      "sequence": 9,
+      "roles": [
+        "Guest - Plumber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067620",
+      "name": "George Belbin",
+      "sequence": 10,
+      "roles": [
+        "Guest - Playing chess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791219",
+      "name": "Norman Shelley",
+      "sequence": 11,
+      "roles": [
+        "Guest - Smoking pipe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332842",
+      "name": "Michael Gover",
+      "sequence": 12,
+      "roles": [
+        "Guest - Reading newspaper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178741",
+      "name": "Peter Copley",
+      "sequence": 13,
+      "roles": [
+        "Principal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171923",
+      "name": "Jim Collier",
+      "sequence": 14,
+      "roles": [
+        "Dr. Heidecke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839731",
+      "name": "Allan Surtees",
+      "sequence": 15,
+      "roles": [
+        "Police Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0204034",
+      "name": "Windsor Davies",
+      "sequence": 16,
+      "roles": [
+        "Police Sergeant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0061260",
       "name": "Bert Batt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0450862",
       "name": "Anthony Nelson Keys",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from an original story by)",
-      "group_id": 1
+      "notes": "(from an original story by)"
     },
     {
       "person_imdb_id": "nm0061260",
       "name": "Bert Batt",
-      "sequence": 0,
-      "notes": "(from an original story by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from an original story by)"
     },
     {
       "person_imdb_id": "nm0791217",
       "name": "Mary Shelley",
+      "group": 2,
       "sequence": 0,
-      "notes": "(character: Frankenstein) (uncredited)",
-      "group_id": 2
+      "notes": "(character: Frankenstein) (uncredited)"
     }
   ],
   "release_date": "1969-05-22",

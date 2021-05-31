@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0033221",
   "sort_title": "Vigil in the Night (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Anne Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000731",
-      "name": "Brian Aherne",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Robert S. Prescott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794297",
-      "name": "Anne Shirley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lucy Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593485",
-      "name": "Julien Mitchell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Matthew Bowley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178509",
-      "name": "Robert Coote",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Caley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285301",
-      "name": "Brenda Forbes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nora Dunn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656321",
-      "name": "Rita Page",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Glennie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Joe Shand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341100",
-      "name": "Ethel Griffies",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Matron East"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0515967",
-      "name": "Doris Lloyd",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Martha Bowley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280605",
-      "name": "Emily Fitzroy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sister Gilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365444",
-      "name": "Winifred Harris",
-      "sequence": 20,
-      "notes": "(Sherman Cty.) (uncredited)",
-      "roles": [
-        "First Matron"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0828419",
@@ -119,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 0,
+      "roles": [
+        "Anne Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000731",
+      "name": "Brian Aherne",
+      "sequence": 1,
+      "roles": [
+        "Dr. Robert S. Prescott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794297",
+      "name": "Anne Shirley",
+      "sequence": 2,
+      "roles": [
+        "Lucy Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593485",
+      "name": "Julien Mitchell",
+      "sequence": 3,
+      "roles": [
+        "Matthew Bowley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178509",
+      "name": "Robert Coote",
+      "sequence": 4,
+      "roles": [
+        "Dr. Caley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285301",
+      "name": "Brenda Forbes",
+      "sequence": 5,
+      "roles": [
+        "Nora Dunn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656321",
+      "name": "Rita Page",
+      "sequence": 6,
+      "roles": [
+        "Glennie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 7,
+      "roles": [
+        "Joe Shand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341100",
+      "name": "Ethel Griffies",
+      "sequence": 8,
+      "roles": [
+        "Matron East"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0515967",
+      "name": "Doris Lloyd",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Martha Bowley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280605",
+      "name": "Emily Fitzroy",
+      "sequence": 10,
+      "roles": [
+        "Sister Gilson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0347451",
       "name": "Fred Guiol",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0938439",
       "name": "P.J. Wolfson",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0500284",
       "name": "Rowland Leigh",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0188743",
       "name": "A.J. Cronin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     }
   ],
   "release_date": "1940-02-05",

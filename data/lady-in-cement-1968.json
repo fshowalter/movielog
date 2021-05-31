@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0063210",
   "sort_title": "Lady in Cement (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tony Rome"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000079",
-      "name": "Raquel Welch",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kit Forrest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002017",
-      "name": "Richard Conte",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Dave Santini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0300010",
-      "name": "Martin Gabel",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Al Mungar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443577",
-      "name": "Lainie Kazan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maria Baretto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377963",
-      "name": "Pat Henry",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rubin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669488",
-      "name": "Steve Peck",
-      "sequence": 6,
-      "notes": "(as Steven Peck)",
-      "roles": [
-        "Paul Mungar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940067",
-      "name": "Virginia Wood",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Audrey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212586",
-      "name": "Richard Deacon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Arnie Sherwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707238",
-      "name": "Frank Raiter",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Danny Yale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387894",
-      "name": "Peter Hock",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Frenchy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826952",
-      "name": "Alex Stevens",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Shev"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865137",
-      "name": "Christine Todd",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sandra Lomax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730414",
-      "name": "Mac Robbins",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sidney the organizer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0880180",
-      "name": "Tommy Uhlar",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Kid, Tighe Santini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062293",
-      "name": "Rey Baumel",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Paco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201972",
-      "name": "Pauly Dash",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "McComb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0418894",
-      "name": "Andy Jarrell",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Pool Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0088779",
-      "name": "Dan Blocker",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Waldo Gronsky"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0235066",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Tony Rome"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000079",
+      "name": "Raquel Welch",
+      "sequence": 1,
+      "roles": [
+        "Kit Forrest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002017",
+      "name": "Richard Conte",
+      "sequence": 2,
+      "roles": [
+        "Lt. Dave Santini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0300010",
+      "name": "Martin Gabel",
+      "sequence": 3,
+      "roles": [
+        "Al Mungar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0443577",
+      "name": "Lainie Kazan",
+      "sequence": 4,
+      "roles": [
+        "Maria Baretto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377963",
+      "name": "Pat Henry",
+      "sequence": 5,
+      "roles": [
+        "Rubin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669488",
+      "name": "Steve Peck",
+      "sequence": 6,
+      "roles": [
+        "Paul Mungar"
+      ],
+      "notes": "(as Steven Peck)"
+    },
+    {
+      "person_imdb_id": "nm0940067",
+      "name": "Virginia Wood",
+      "sequence": 7,
+      "roles": [
+        "Audrey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212586",
+      "name": "Richard Deacon",
+      "sequence": 8,
+      "roles": [
+        "Arnie Sherwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707238",
+      "name": "Frank Raiter",
+      "sequence": 9,
+      "roles": [
+        "Danny Yale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0387894",
+      "name": "Peter Hock",
+      "sequence": 10,
+      "roles": [
+        "Frenchy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826952",
+      "name": "Alex Stevens",
+      "sequence": 11,
+      "roles": [
+        "Shev"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865137",
+      "name": "Christine Todd",
+      "sequence": 12,
+      "roles": [
+        "Sandra Lomax"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730414",
+      "name": "Mac Robbins",
+      "sequence": 13,
+      "roles": [
+        "Sidney the organizer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0880180",
+      "name": "Tommy Uhlar",
+      "sequence": 14,
+      "roles": [
+        "The Kid, Tighe Santini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0062293",
+      "name": "Rey Baumel",
+      "sequence": 15,
+      "roles": [
+        "Paco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201972",
+      "name": "Pauly Dash",
+      "sequence": 16,
+      "roles": [
+        "McComb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0418894",
+      "name": "Andy Jarrell",
+      "sequence": 17,
+      "roles": [
+        "Pool Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088779",
+      "name": "Dan Blocker",
+      "sequence": 18,
+      "roles": [
+        "Waldo Gronsky"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0016549",
       "name": "Marvin H. Albert",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0016549",
       "name": "Marvin H. Albert",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0348924",
       "name": "Jack Guss",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1968-11-20",

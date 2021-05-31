@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0064949",
   "sort_title": "Scream and Scream Again (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Browning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Fremont"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Major Heinrich Benedek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404732",
-      "name": "Judy Huxtable",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sylvia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548767",
-      "name": "Alfred Marks",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Detective Supt. Bellaver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331788",
-      "name": "Michael Gothard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Keith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627963",
-      "name": "Anthony Newlands",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ludwig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0758608",
-      "name": "Peter Sallis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Schweitz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517084",
-      "name": "David Lodge",
-      "sequence": 8,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Detective Inspector Phil Strickland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0506261",
-      "name": "Uta Levka",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0559968",
-      "name": "Christopher Matthews",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. David Sorel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089187",
-      "name": "Judy Bloom",
-      "sequence": 11,
-      "notes": "(as Judi Bloom)",
-      "roles": [
-        "Helen Bradford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247224",
-      "name": "Clifford Earl",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective Sgt. Jimmy Joyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0070401",
-      "name": "Kenneth Benda",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Prof. Kingsmill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428771",
-      "name": "Marshall Jones",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Konratz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3243314",
-      "name": "Amen Corner",
-      "sequence": 15,
-      "notes": "(as The Amen Corner)",
-      "roles": [
-        "Themselves"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826662",
-      "name": "Yutte Stensgaard",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Erika"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391327",
-      "name": "Julian Holloway",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Detective Constable Griffin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483270",
-      "name": "Nigel Lambert",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Ken Sparten"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522784",
-      "name": "Andy Fairweather Low",
-      "sequence": 19,
-      "notes": "(as The Amen Corner)",
-      "roles": [
-        "Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0915815",
-      "name": "Blue Weaver",
-      "sequence": 20,
-      "notes": "(as The Amen Corner)",
-      "roles": [
-        "Organist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0381638",
@@ -200,20 +9,211 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Dr. Browning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 1,
+      "roles": [
+        "Fremont"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 2,
+      "roles": [
+        "Major Heinrich Benedek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404732",
+      "name": "Judy Huxtable",
+      "sequence": 3,
+      "roles": [
+        "Sylvia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548767",
+      "name": "Alfred Marks",
+      "sequence": 4,
+      "roles": [
+        "Detective Supt. Bellaver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0331788",
+      "name": "Michael Gothard",
+      "sequence": 5,
+      "roles": [
+        "Keith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627963",
+      "name": "Anthony Newlands",
+      "sequence": 6,
+      "roles": [
+        "Ludwig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0758608",
+      "name": "Peter Sallis",
+      "sequence": 7,
+      "roles": [
+        "Schweitz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517084",
+      "name": "David Lodge",
+      "sequence": 8,
+      "roles": [
+        "Detective Inspector Phil Strickland"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0506261",
+      "name": "Uta Levka",
+      "sequence": 9,
+      "roles": [
+        "Jane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0559968",
+      "name": "Christopher Matthews",
+      "sequence": 10,
+      "roles": [
+        "Dr. David Sorel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089187",
+      "name": "Judy Bloom",
+      "sequence": 11,
+      "roles": [
+        "Helen Bradford"
+      ],
+      "notes": "(as Judi Bloom)"
+    },
+    {
+      "person_imdb_id": "nm0247224",
+      "name": "Clifford Earl",
+      "sequence": 12,
+      "roles": [
+        "Detective Sgt. Jimmy Joyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0070401",
+      "name": "Kenneth Benda",
+      "sequence": 13,
+      "roles": [
+        "Prof. Kingsmill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428771",
+      "name": "Marshall Jones",
+      "sequence": 14,
+      "roles": [
+        "Konratz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3243314",
+      "name": "Amen Corner",
+      "sequence": 15,
+      "roles": [
+        "Themselves"
+      ],
+      "notes": "(as The Amen Corner)"
+    },
+    {
+      "person_imdb_id": "nm0826662",
+      "name": "Yutte Stensgaard",
+      "sequence": 16,
+      "roles": [
+        "Erika"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391327",
+      "name": "Julian Holloway",
+      "sequence": 17,
+      "roles": [
+        "Detective Constable Griffin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483270",
+      "name": "Nigel Lambert",
+      "sequence": 18,
+      "roles": [
+        "Ken Sparten"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522784",
+      "name": "Andy Fairweather Low",
+      "sequence": 19,
+      "roles": [
+        "Singer"
+      ],
+      "notes": "(as The Amen Corner)"
+    },
+    {
+      "person_imdb_id": "nm0915815",
+      "name": "Blue Weaver",
+      "sequence": 20,
+      "roles": [
+        "Organist"
+      ],
+      "notes": "(as The Amen Corner)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0926924",
       "name": "Christopher Wicking",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0049005",
       "name": "Peter Saxon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Disorientated Man\")",
-      "group_id": 1
+      "notes": "(novel \"The Disorientated Man\")"
     }
   ],
   "release_date": "1970-01-01",

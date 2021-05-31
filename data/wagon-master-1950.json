@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0043117",
   "sort_title": "Wagon Master (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Travis Blue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0238445",
-      "name": "Joanne Dru",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Denver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Elder Wiggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447405",
-      "name": "Charles Kemper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Uncle Shiloh Clegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. A. Locksley Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002034",
-      "name": "Jane Darwell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sister Ledyard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166681",
-      "name": "Ruth Clifford",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fleuretty Phyffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801193",
-      "name": "Russell Simpson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Adam Perkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641746",
-      "name": "Kathleen O'Malley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Prudence Perkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000790",
-      "name": "James Arness",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Floyd Clegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285643",
-      "name": "Francis Ford",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Peachtree"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0508744",
-      "name": "Fred Libby",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Reese Clegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861680",
-      "name": "Jim Thorpe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Navajo Indian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801123",
-      "name": "Mickey Simpson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Jesse Clegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529036",
-      "name": "Cliff Lyons",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Marshal of Crystal City"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941401",
-      "name": "Hank Worden",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Luke Clegg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838698",
-      "name": "Don Summers",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Sam Jenkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610230",
-      "name": "Movita",
-      "sequence": 18,
-      "notes": "(as Movita Castaneda)",
-      "roles": [
-        "Young Navajo Indian"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 0,
+      "roles": [
+        "Travis Blue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0238445",
+      "name": "Joanne Dru",
+      "sequence": 1,
+      "roles": [
+        "Denver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 2,
+      "roles": [
+        "Sandy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 3,
+      "roles": [
+        "Elder Wiggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447405",
+      "name": "Charles Kemper",
+      "sequence": 4,
+      "roles": [
+        "Uncle Shiloh Clegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 5,
+      "roles": [
+        "Dr. A. Locksley Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002034",
+      "name": "Jane Darwell",
+      "sequence": 6,
+      "roles": [
+        "Sister Ledyard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166681",
+      "name": "Ruth Clifford",
+      "sequence": 7,
+      "roles": [
+        "Fleuretty Phyffe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801193",
+      "name": "Russell Simpson",
+      "sequence": 8,
+      "roles": [
+        "Adam Perkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641746",
+      "name": "Kathleen O'Malley",
+      "sequence": 9,
+      "roles": [
+        "Prudence Perkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000790",
+      "name": "James Arness",
+      "sequence": 10,
+      "roles": [
+        "Floyd Clegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285643",
+      "name": "Francis Ford",
+      "sequence": 11,
+      "roles": [
+        "Mr. Peachtree"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0508744",
+      "name": "Fred Libby",
+      "sequence": 12,
+      "roles": [
+        "Reese Clegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861680",
+      "name": "Jim Thorpe",
+      "sequence": 13,
+      "roles": [
+        "Navajo Indian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801123",
+      "name": "Mickey Simpson",
+      "sequence": 14,
+      "roles": [
+        "Jesse Clegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529036",
+      "name": "Cliff Lyons",
+      "sequence": 15,
+      "roles": [
+        "Marshal of Crystal City"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941401",
+      "name": "Hank Worden",
+      "sequence": 16,
+      "roles": [
+        "Luke Clegg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838698",
+      "name": "Don Summers",
+      "sequence": 17,
+      "roles": [
+        "Sam Jenkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610230",
+      "name": "Movita",
+      "sequence": 18,
+      "roles": [
+        "Young Navajo Indian"
+      ],
+      "notes": "(as Movita Castaneda)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0637793",
       "name": "Frank S. Nugent",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Frank Nugent)",
-      "group_id": 0
+      "notes": "(written by) (as Frank Nugent)"
     },
     {
       "person_imdb_id": "nm0285816",
       "name": "Patrick Ford",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000406",
       "name": "John Ford",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 1
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1950-04-19",

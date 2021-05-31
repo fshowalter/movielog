@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0034370",
   "sort_title": "Wagons Roll at Night (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nick Coster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Flo Lorraine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000734",
-      "name": "Eddie Albert",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Matt Varney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504125",
-      "name": "Joan Leslie",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mary Coster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750079",
-      "name": "Sig Ruman",
-      "sequence": 4,
-      "notes": "(as Sig Rumann)",
-      "roles": [
-        "Hoffman the Great"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163785",
-      "name": "Cliff Clark",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289382",
-      "name": "Charley Foy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Snapper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928207",
-      "name": "Frank Wilcox",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Arch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087404",
-      "name": "Clara Blandick",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101172",
-      "name": "Aldrich Bowker",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654136",
-      "name": "Garry Owen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610268",
-      "name": "Jack Mower",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Bundy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562866",
-      "name": "Frank Mayo",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Wally"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0258015",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Nick Coster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 1,
+      "roles": [
+        "Flo Lorraine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000734",
+      "name": "Eddie Albert",
+      "sequence": 2,
+      "roles": [
+        "Matt Varney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504125",
+      "name": "Joan Leslie",
+      "sequence": 3,
+      "roles": [
+        "Mary Coster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750079",
+      "name": "Sig Ruman",
+      "sequence": 4,
+      "roles": [
+        "Hoffman the Great"
+      ],
+      "notes": "(as Sig Rumann)"
+    },
+    {
+      "person_imdb_id": "nm0163785",
+      "name": "Cliff Clark",
+      "sequence": 5,
+      "roles": [
+        "Doc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289382",
+      "name": "Charley Foy",
+      "sequence": 6,
+      "roles": [
+        "Snapper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928207",
+      "name": "Frank Wilcox",
+      "sequence": 7,
+      "roles": [
+        "Tex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 8,
+      "roles": [
+        "Arch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087404",
+      "name": "Clara Blandick",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101172",
+      "name": "Aldrich Bowker",
+      "sequence": 10,
+      "roles": [
+        "Mr. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654136",
+      "name": "Garry Owen",
+      "sequence": 11,
+      "roles": [
+        "Gus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610268",
+      "name": "Jack Mower",
+      "sequence": 12,
+      "roles": [
+        "Bundy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562866",
+      "name": "Frank Mayo",
+      "sequence": 13,
+      "roles": [
+        "Wally"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629240",
       "name": "Fred Niblo Jr.",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0873200",
       "name": "Barry Trivers",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm1383748",
       "name": "Francis Wallace",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1941-04-25",

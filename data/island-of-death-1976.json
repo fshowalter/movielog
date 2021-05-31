@@ -1,117 +1,6 @@
 {
   "imdb_id": "tt0188527",
   "sort_title": "Island of Death (1976)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0066932",
-      "name": "Robert Behling",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Christopher",
-        "brother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528101",
-      "name": "Jane Lyle",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Celia",
-        "sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0239356",
-      "name": "Jessica Dublin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Patricia",
-        "wealthy woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1029740",
-      "name": "Gerard Gonalons",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1009504",
-      "name": "Jannice McConnell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Leslie",
-        "bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0874597",
-      "name": "Nikos Tsachiridis",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Shepherd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1032364",
-      "name": "Jeremy Rousseau",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jean-Claude"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1035811",
-      "name": "Mike Murtagh",
-      "sequence": 7,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0355133",
-      "name": "Clay Half",
-      "sequence": 8,
-      "notes": "(as Clay Huff)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm1508507",
-      "name": "Fefi Bali",
-      "sequence": 9,
-      "notes": "(as Efi Banny)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0724735",
-      "name": "Ray Richardson",
-      "sequence": 10,
-      "notes": "(as Ray Zuk)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm2732653",
-      "name": "Elizabeth Spader",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm2734442",
-      "name": "Marios Tartas",
-      "sequence": 12,
-      "notes": "(as Mario Tatras)",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0557789",
@@ -120,13 +9,120 @@
       "notes": "(as Nick Mastorakis)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm12248216",
+      "name": "Bob Behling",
+      "sequence": 0,
+      "roles": [
+        "Christopher Lambert"
+      ],
+      "notes": "(as Bob Belling)"
+    },
+    {
+      "person_imdb_id": "nm0528101",
+      "name": "Jane Lyle",
+      "sequence": 1,
+      "roles": [
+        "Celia Lambert"
+      ],
+      "notes": "(as Jane Ryall)"
+    },
+    {
+      "person_imdb_id": "nm0239356",
+      "name": "Jessica Dublin",
+      "sequence": 2,
+      "roles": [
+        "Patricia Desmond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1029740",
+      "name": "Gerard Gonalons",
+      "sequence": 3,
+      "roles": [
+        "Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1009504",
+      "name": "Jannice McConnell",
+      "sequence": 4,
+      "roles": [
+        "Leslie"
+      ],
+      "notes": "(as Janice McConnel)"
+    },
+    {
+      "person_imdb_id": "nm0874597",
+      "name": "Nikos Tsachiridis",
+      "sequence": 5,
+      "roles": [
+        "Shepherd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1032364",
+      "name": "Jeremy Rousseau",
+      "sequence": 6,
+      "roles": [
+        "Jean-Claude"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1035811",
+      "name": "Mike Murtagh",
+      "sequence": 7,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355133",
+      "name": "Clay Half",
+      "sequence": 8,
+      "roles": [],
+      "notes": "(as Clay Huff)"
+    },
+    {
+      "person_imdb_id": "nm1508507",
+      "name": "Fefi Bali",
+      "sequence": 9,
+      "roles": [],
+      "notes": "(as Efi Banny)"
+    },
+    {
+      "person_imdb_id": "nm0724735",
+      "name": "Ray Richardson",
+      "sequence": 10,
+      "roles": [],
+      "notes": "(as Ray Zuk)"
+    },
+    {
+      "person_imdb_id": "nm2732653",
+      "name": "Elizabeth Spader",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2734442",
+      "name": "Marios Tartas",
+      "sequence": 12,
+      "roles": [],
+      "notes": "(as Mario Tatras)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0557789",
       "name": "Nico Mastorakis",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (as Nick Mastorakis)",
-      "group_id": 0
+      "notes": "() (as Nick Mastorakis)"
     }
   ],
   "release_date": "1976-01-01",

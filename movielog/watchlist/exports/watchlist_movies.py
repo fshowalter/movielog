@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 from datetime import date
 from typing import Dict, TypedDict
 
@@ -11,21 +10,18 @@ from movielog.utils.logging import logger
 ETHAN_COEN_IMDB_ID = "nm0001053"
 
 
-@dataclass
-class Person(object):
+class Person(TypedDict):
     imdb_id: str
     name: str
     slug: str
 
 
-@dataclass
-class Collection(object):
+class Collection(TypedDict):
     name: str
     slug: str
 
 
-@dataclass
-class Movie(object):
+class Movie(TypedDict):
     imdb_id: str
     title: str
     year: str
@@ -116,10 +112,10 @@ def export() -> None:
         )
 
         if row["director_imdb_id"]:
-            movie.directors.append(_build_director_export(row))
+            movie["directors"].append(_build_director_export(row))
 
         if row["performer_imdb_id"]:
-            movie.performers.append(
+            movie["performers"].append(
                 Person(
                     imdb_id=row["performer_imdb_id"],
                     name=row["performer_name"],
@@ -128,7 +124,7 @@ def export() -> None:
             )
 
         if row["writer_imdb_id"]:
-            movie.writers.append(
+            movie["writers"].append(
                 Person(
                     imdb_id=row["writer_imdb_id"],
                     name=row["writer_name"],
@@ -137,8 +133,8 @@ def export() -> None:
             )
 
         if row["collection"]:
-            movie.collections.append(
+            movie["collections"].append(
                 Collection(name=row["collection"], slug=row["slug"])
             )
 
-    export_tools.serialize_dataclasses(list(movies.values()), "watchlist_movies")
+    export_tools.serialize_dicts(list(movies.values()), "watchlist_movies")

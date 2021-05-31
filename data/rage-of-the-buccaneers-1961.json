@@ -1,169 +1,6 @@
 {
   "imdb_id": "tt0054937",
   "sort_title": "Rage of the Buccaneers (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001544",
-      "name": "Ricardo Montalban",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Captain Gordon, the Black Buccaneer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Romero"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0748204",
-      "name": "Giulia Rubini",
-      "sequence": 2,
-      "notes": "(as Giuliana Rubini)",
-      "roles": [
-        "Manuela, the Governor's daughter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649752",
-      "name": "Liana Orfei",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Luana, a Gordon's faithful"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271229",
-      "name": "Mario Feliciani",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Governor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0243842",
-      "name": "Giustino Durano",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Juan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812172",
-      "name": "Gisella Sofio",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rosita, Manuela's maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039696",
-      "name": "Jos\u00e9 Jaspe",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Captain Tortuga"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867333",
-      "name": "Edoardo Toniolo",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Felipe Cortez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554370",
-      "name": "Gino Marturano",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tarto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266885",
-      "name": "Andrea Fantasia",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bonifacio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266886",
-      "name": "Franco Fantasia",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Officer on the slave ship"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061402",
-      "name": "Giulio Battiferri",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Tortuga's first man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0320257",
-      "name": "Romano Giomini",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0682539",
-      "name": "Paolo Pieri",
-      "sequence": 14,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0899815",
-      "name": "Adriano Vitale",
-      "sequence": 15,
-      "notes": "(as Alberto Vitali)",
-      "roles": [
-        "Corrao"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0014594",
-      "name": "Vanoye Aikens",
-      "sequence": 16,
-      "notes": "(as Van Aikens)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0103430",
-      "name": "Wilbert Bradley",
-      "sequence": 17,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm7896692",
-      "name": "Mario Rozzera",
-      "sequence": 18,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0182244",
@@ -172,20 +9,183 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001544",
+      "name": "Ricardo Montalban",
+      "sequence": 0,
+      "roles": [
+        "Captain Gordon, the Black Buccaneer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 1,
+      "roles": [
+        "Romero"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0748204",
+      "name": "Giulia Rubini",
+      "sequence": 2,
+      "roles": [
+        "Manuela, the Governor's daughter"
+      ],
+      "notes": "(as Giuliana Rubini)"
+    },
+    {
+      "person_imdb_id": "nm0649752",
+      "name": "Liana Orfei",
+      "sequence": 3,
+      "roles": [
+        "Luana, a Gordon's faithful"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271229",
+      "name": "Mario Feliciani",
+      "sequence": 4,
+      "roles": [
+        "The Governor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0243842",
+      "name": "Giustino Durano",
+      "sequence": 5,
+      "roles": [
+        "Juan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812172",
+      "name": "Gisella Sofio",
+      "sequence": 6,
+      "roles": [
+        "Rosita, Manuela's maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039696",
+      "name": "Jos\u00e9 Jaspe",
+      "sequence": 7,
+      "roles": [
+        "Captain Tortuga"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867333",
+      "name": "Edoardo Toniolo",
+      "sequence": 8,
+      "roles": [
+        "Felipe Cortez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0554370",
+      "name": "Gino Marturano",
+      "sequence": 9,
+      "roles": [
+        "Tarto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266885",
+      "name": "Andrea Fantasia",
+      "sequence": 10,
+      "roles": [
+        "Bonifacio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266886",
+      "name": "Franco Fantasia",
+      "sequence": 11,
+      "roles": [
+        "Officer on the slave ship"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061402",
+      "name": "Giulio Battiferri",
+      "sequence": 12,
+      "roles": [
+        "Tortuga's first man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0320257",
+      "name": "Romano Giomini",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0682539",
+      "name": "Paolo Pieri",
+      "sequence": 14,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899815",
+      "name": "Adriano Vitale",
+      "sequence": 15,
+      "roles": [
+        "Corrao"
+      ],
+      "notes": "(as Alberto Vitali)"
+    },
+    {
+      "person_imdb_id": "nm0014594",
+      "name": "Vanoye Aikens",
+      "sequence": 16,
+      "roles": [],
+      "notes": "(as Van Aikens)"
+    },
+    {
+      "person_imdb_id": "nm0103430",
+      "name": "Wilbert Bradley",
+      "sequence": 17,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7896692",
+      "name": "Mario Rozzera",
+      "sequence": 18,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0126205",
       "name": "John Byrne",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0688218",
       "name": "Ottavio Poggi",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1961-12-15",

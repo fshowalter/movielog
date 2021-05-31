@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0055178",
   "sort_title": "Wonders of Aladdin (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0640307",
-      "name": "Donald O'Connor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Aladdin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010569",
-      "name": "No\u00eblle Adam",
-      "sequence": 1,
-      "notes": "(as Noelle Adam)",
-      "roles": [
-        "Djalma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001120",
-      "name": "Vittorio De Sica",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Genie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264762",
-      "name": "Aldo Fabrizi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sultan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001352",
-      "name": "Terence Hill",
-      "sequence": 4,
-      "notes": "(as Mario Girotti)",
-      "roles": [
-        "Prince Moluk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870362",
-      "name": "Fausto Tozzi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Grand Vizier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124482",
-      "name": "Raymond Bussi\u00e8res",
-      "sequence": 6,
-      "notes": "(as Raimond Bussieres)",
-      "roles": [
-        "Magician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717374",
-      "name": "Milton Reid",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Omar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267838",
-      "name": "Alberto Farnese",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bandit Chieftain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876377",
-      "name": "Marco Tulli",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Fakir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302815",
-      "name": "Giovanna Galletti",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Midwife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264811",
-      "name": "Adriana Facchetti",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Benhai - Aladdin's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720381",
-      "name": "Franco Ressel",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Vizier's Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580440",
-      "name": "Mich\u00e8le Mercier",
-      "sequence": 13,
-      "notes": "(as Michele Mercier)",
-      "roles": [
-        "Princess Zaina"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -143,69 +15,197 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0640307",
+      "name": "Donald O'Connor",
+      "sequence": 0,
+      "roles": [
+        "Aladdin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010569",
+      "name": "No\u00eblle Adam",
+      "sequence": 1,
+      "roles": [
+        "Djalma"
+      ],
+      "notes": "(as Noelle Adam)"
+    },
+    {
+      "person_imdb_id": "nm0001120",
+      "name": "Vittorio De Sica",
+      "sequence": 2,
+      "roles": [
+        "Genie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264762",
+      "name": "Aldo Fabrizi",
+      "sequence": 3,
+      "roles": [
+        "Sultan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001352",
+      "name": "Terence Hill",
+      "sequence": 4,
+      "roles": [
+        "Prince Moluk"
+      ],
+      "notes": "(as Mario Girotti)"
+    },
+    {
+      "person_imdb_id": "nm0870362",
+      "name": "Fausto Tozzi",
+      "sequence": 5,
+      "roles": [
+        "Grand Vizier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124482",
+      "name": "Raymond Bussi\u00e8res",
+      "sequence": 6,
+      "roles": [
+        "Magician"
+      ],
+      "notes": "(as Raimond Bussieres)"
+    },
+    {
+      "person_imdb_id": "nm0717374",
+      "name": "Milton Reid",
+      "sequence": 7,
+      "roles": [
+        "Omar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267838",
+      "name": "Alberto Farnese",
+      "sequence": 8,
+      "roles": [
+        "Bandit Chieftain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876377",
+      "name": "Marco Tulli",
+      "sequence": 9,
+      "roles": [
+        "Fakir"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302815",
+      "name": "Giovanna Galletti",
+      "sequence": 10,
+      "roles": [
+        "Midwife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264811",
+      "name": "Adriana Facchetti",
+      "sequence": 11,
+      "roles": [
+        "Benhai - Aladdin's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720381",
+      "name": "Franco Ressel",
+      "sequence": 12,
+      "roles": [
+        "Vizier's Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580440",
+      "name": "Mich\u00e8le Mercier",
+      "sequence": 13,
+      "roles": [
+        "Princess Zaina"
+      ],
+      "notes": "(as Michele Mercier)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0205065",
       "name": "Luther Davis",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0835267",
       "name": "Stefano Strucchi",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0856319",
       "name": "Duccio Tessari",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0717912",
       "name": "Silvano Reina",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0698779",
       "name": "Francesco Prosperi",
-      "sequence": 0,
-      "notes": "(adaptation) (as Franco Prosperi)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(adaptation) (as Franco Prosperi)"
     },
     {
       "person_imdb_id": "nm0905001",
       "name": "Pierre V\u00e9ry",
+      "group": 2,
+      "sequence": 2,
+      "notes": "(adaptation) (as Pierre Very)"
+    },
+    {
+      "person_imdb_id": "nm0205065",
+      "name": "Luther Davis",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation) (as Pierre Very)",
-      "group_id": 2
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0895844",
       "name": "Marco Vicario",
+      "group": 4,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 3
-    },
-    {
-      "person_imdb_id": "nm0998205",
-      "name": "Paul Tuckahoe",
-      "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 4
+      "notes": "(adaptation) (uncredited)"
     }
   ],
   "release_date": "1961-10-31",
   "release_date_notes": "",
   "countries": [
-    "France",
     "Italy",
+    "France",
     "United States"
   ]
 }

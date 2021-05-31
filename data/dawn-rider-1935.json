@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0026267",
   "sort_title": "Dawn Rider (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122783",
-      "name": "Marion Burns",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alice Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601117",
-      "name": "Dennis Moore",
-      "sequence": 2,
-      "notes": "(as Denny Meadows)",
-      "roles": [
-        "Rudd Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398139",
-      "name": "Reed Howes",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ben McClure"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208657",
-      "name": "Joseph De Grasse",
-      "sequence": 4,
-      "notes": "(as Joe DeGrasse)",
-      "roles": [
-        "Dad Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Saloon Owner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245429",
-      "name": "Earl Dwire",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Pete - Expressman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0568316",
-      "name": "Nelson McDowell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bates - Undertaker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -83,27 +9,101 @@
       "notes": "(as R.N. Bradbury)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122783",
+      "name": "Marion Burns",
+      "sequence": 1,
+      "roles": [
+        "Alice Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601117",
+      "name": "Dennis Moore",
+      "sequence": 2,
+      "roles": [
+        "Rudd Gordon"
+      ],
+      "notes": "(as Denny Meadows)"
+    },
+    {
+      "person_imdb_id": "nm0398139",
+      "name": "Reed Howes",
+      "sequence": 3,
+      "roles": [
+        "Ben McClure"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208657",
+      "name": "Joseph De Grasse",
+      "sequence": 4,
+      "roles": [
+        "Dad Mason"
+      ],
+      "notes": "(as Joe DeGrasse)"
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 5,
+      "roles": [
+        "Saloon Owner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245429",
+      "name": "Earl Dwire",
+      "sequence": 6,
+      "roles": [
+        "Pete - Expressman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0568316",
+      "name": "Nelson McDowell",
+      "sequence": 7,
+      "roles": [
+        "Bates - Undertaker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0636475",
       "name": "Lloyd Nosler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0102908",
       "name": "Robert N. Bradbury",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0869389",
       "name": "Wellyn Totman",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 2
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1935-06-20",

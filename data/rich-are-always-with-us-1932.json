@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0023394",
   "sort_title": "Rich Are Always with Us (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0154183",
-      "name": "Ruth Chatterton",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Caroline Grannard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107575",
-      "name": "George Brent",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Julian Tierney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Malbro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587534",
-      "name": "John Miljan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Greg Grannard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233467",
-      "name": "Adrienne Dore",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Allison Adair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942046",
-      "name": "John Wray",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Clark Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913094",
-      "name": "Robert Warwick",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "The Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908300",
-      "name": "Walter Walker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358792",
-      "name": "Virginia Hammond",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Flo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161414",
-      "name": "Berton Churchill",
-      "sequence": 9,
-      "notes": "(as Burton Churchill)",
-      "roles": [
-        "Judge Bradshaw"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0337586",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0154183",
+      "name": "Ruth Chatterton",
+      "sequence": 0,
+      "roles": [
+        "Caroline Grannard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107575",
+      "name": "George Brent",
+      "sequence": 1,
+      "roles": [
+        "Julian Tierney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 2,
+      "roles": [
+        "Malbro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587534",
+      "name": "John Miljan",
+      "sequence": 3,
+      "roles": [
+        "Greg Grannard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233467",
+      "name": "Adrienne Dore",
+      "sequence": 4,
+      "roles": [
+        "Allison Adair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942046",
+      "name": "John Wray",
+      "sequence": 5,
+      "roles": [
+        "Clark Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913094",
+      "name": "Robert Warwick",
+      "sequence": 6,
+      "roles": [
+        "The Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908300",
+      "name": "Walter Walker",
+      "sequence": 7,
+      "roles": [
+        "Dante"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358792",
+      "name": "Virginia Hammond",
+      "sequence": 8,
+      "roles": [
+        "Flo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161414",
+      "name": "Berton Churchill",
+      "sequence": 9,
+      "roles": [
+        "Judge Bradshaw"
+      ],
+      "notes": "(as Burton Churchill)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0678723",
       "name": "Ethel Pettit",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the novel of the same name by) (as E. Pettit)",
-      "group_id": 0
+      "notes": "(based on the novel of the same name by) (as E. Pettit)"
     },
     {
       "person_imdb_id": "nm0662059",
       "name": "Austin Parker",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1932-05-19",

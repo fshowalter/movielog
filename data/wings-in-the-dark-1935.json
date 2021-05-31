@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0027221",
   "sort_title": "Wings in the Dark (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sheila Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ken Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nick Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146928",
-      "name": "Hobart Cavanaugh",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Top Harmon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394477",
-      "name": "Russell Hopton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jake Brashear"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570471",
-      "name": "Matt McHugh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "1st Mechanic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573754",
-      "name": "Graham McNamee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0282549",
@@ -83,55 +9,129 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 0,
+      "roles": [
+        "Sheila Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Ken Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 2,
+      "roles": [
+        "Nick Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146928",
+      "name": "Hobart Cavanaugh",
+      "sequence": 3,
+      "roles": [
+        "Mac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 4,
+      "roles": [
+        "Top Harmon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394477",
+      "name": "Russell Hopton",
+      "sequence": 5,
+      "roles": [
+        "Jake Brashear"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570471",
+      "name": "Matt McHugh",
+      "sequence": 6,
+      "roles": [
+        "1st Mechanic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573754",
+      "name": "Graham McNamee",
+      "sequence": 7,
+      "roles": [
+        "Radio Announcer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0456646",
       "name": "Jack Kirkland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0664022",
       "name": "Frank Partos",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0886861",
       "name": "Dale Van Every",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (as Dale VanEvery)",
-      "group_id": 1
+      "notes": "(adaptation) (as Dale VanEvery)"
     },
     {
       "person_imdb_id": "nm0732579",
       "name": "Earl H. Robinson",
-      "sequence": 0,
-      "notes": "(adaptation) (as E.H. Robinson)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation) (as E.H. Robinson)"
     },
     {
       "person_imdb_id": "nm0794109",
       "name": "Nell Shipman",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"Eyes of the Eagle\")",
-      "group_id": 2
+      "notes": "(story \"Eyes of the Eagle\")"
     },
     {
       "person_imdb_id": "nm0403527",
       "name": "Philip D. Hurn",
-      "sequence": 0,
-      "notes": "(story \"Eyes of the Eagle\")",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(story \"Eyes of the Eagle\")"
     },
     {
       "person_imdb_id": "nm0809548",
       "name": "Paul Gerard Smith",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to treatment) (uncredited)"
     }
   ],
   "release_date": "1935-02-01",

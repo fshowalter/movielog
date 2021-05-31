@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0027876",
   "sort_title": "Lawless Nineties (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Tipton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751946",
-      "name": "Ann Rutherford",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Janet Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charles K. Plummer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 3,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "Major Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0108653",
-      "name": "Al Bridge",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Steele"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867560",
-      "name": "Fred 'Snowflake' Toones",
-      "sequence": 5,
-      "notes": "(as Snowflake)",
-      "roles": [
-        "Moses"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0567400",
-      "name": "Etta McDaniel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mandy Lou Schaefer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112902",
-      "name": "Tom Brower",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Marshal Bowen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151420",
-      "name": "Lane Chandler",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bridger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529036",
-      "name": "Cliff Lyons",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Davis - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0734340",
-      "name": "Jack Rockwell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0851928",
-      "name": "Al Taylor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Red - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454559",
-      "name": "Charles King",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Hartley - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156173",
-      "name": "George Chesebro",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Green - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485597",
-      "name": "Tracy Layne",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Belden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049816",
-      "name": "Chuck Baldra",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Tex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282418",
-      "name": "Sam Flint",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Justice Department Official"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163417",
-      "name": "Tom London",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Ward - Henchman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0437356",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Tipton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751946",
+      "name": "Ann Rutherford",
+      "sequence": 1,
+      "roles": [
+        "Janet Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 2,
+      "roles": [
+        "Charles K. Plummer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 3,
+      "roles": [
+        "Maj. Carter"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0108653",
+      "name": "Al Bridge",
+      "sequence": 4,
+      "roles": [
+        "Steele"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867560",
+      "name": "Fred 'Snowflake' Toones",
+      "sequence": 5,
+      "roles": [
+        "Moses"
+      ],
+      "notes": "(as Snowflake)"
+    },
+    {
+      "person_imdb_id": "nm0567400",
+      "name": "Etta McDaniel",
+      "sequence": 6,
+      "roles": [
+        "Mandy Lou Schaefer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112902",
+      "name": "Tom Brower",
+      "sequence": 7,
+      "roles": [
+        "Marshal Bowen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151420",
+      "name": "Lane Chandler",
+      "sequence": 8,
+      "roles": [
+        "Bridger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529036",
+      "name": "Cliff Lyons",
+      "sequence": 9,
+      "roles": [
+        "Davis - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0734340",
+      "name": "Jack Rockwell",
+      "sequence": 10,
+      "roles": [
+        "Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0851928",
+      "name": "Al Taylor",
+      "sequence": 11,
+      "roles": [
+        "Red - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454559",
+      "name": "Charles King",
+      "sequence": 12,
+      "roles": [
+        "Hartley - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156173",
+      "name": "George Chesebro",
+      "sequence": 13,
+      "roles": [
+        "Green - Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485597",
+      "name": "Tracy Layne",
+      "sequence": 14,
+      "roles": [
+        "Belden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049816",
+      "name": "Chuck Baldra",
+      "sequence": 15,
+      "roles": [
+        "Tex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282418",
+      "name": "Sam Flint",
+      "sequence": 16,
+      "roles": [
+        "Justice Department Official"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163417",
+      "name": "Tom London",
+      "sequence": 17,
+      "roles": [
+        "Ward - Henchman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0688853",
       "name": "Joseph F. Poland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Joseph Poland)",
-      "group_id": 0
+      "notes": "(screenplay) (as Joseph Poland)"
     },
     {
       "person_imdb_id": "nm0688853",
       "name": "Joseph F. Poland",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story) (as Joseph Poland)",
-      "group_id": 1
+      "notes": "(original story) (as Joseph Poland)"
     },
     {
       "person_imdb_id": "nm0671501",
       "name": "Scott Pembroke",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(original story)"
     }
   ],
   "release_date": "1936-02-15",

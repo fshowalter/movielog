@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0115710",
   "sort_title": "Blood and Wine (1996)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001151",
-      "name": "Stephen Dorff",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000182",
-      "name": "Jennifer Lopez",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gabriela"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001114",
-      "name": "Judy Davis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Suzanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000323",
-      "name": "Michael Caine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Victor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0674782",
-      "name": "Harold Perrineau",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Henry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677366",
-      "name": "Robyn Peterson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0823563",
-      "name": "Mike Starr",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0782715",
-      "name": "John Seitz",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531333",
-      "name": "Marc Macaulay",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197352",
-      "name": "Dan Daily",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Todd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0892302",
-      "name": "Marta Velasco",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gabriela's Cousin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160630",
-      "name": "Thom Christopher",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Jeweller #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0845079",
-      "name": "Mario Ernesto S\u00e1nchez",
-      "sequence": 13,
-      "notes": "(Fishing Ace)",
-      "roles": [
-        "Artie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352467",
-      "name": "John Hackett",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Gas Station Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599014",
-      "name": "Hector Montano",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Gabriela's Grandfather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379724",
-      "name": "Vanessa L. Hernandez",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Little Cuban Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0530043",
-      "name": "Carmen L\u00f3pez",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Head Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139175",
-      "name": "Antoni Corone",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Caribbean Club Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869940",
-      "name": "Jim Torres Towers",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Father of Gabriela's Cousin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599013",
-      "name": "Glice Montano",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Gabriela's Grandmother"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0706182",
@@ -200,34 +9,225 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 0,
+      "roles": [
+        "Alex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001151",
+      "name": "Stephen Dorff",
+      "sequence": 1,
+      "roles": [
+        "Jason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000182",
+      "name": "Jennifer Lopez",
+      "sequence": 2,
+      "roles": [
+        "Gabriela"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001114",
+      "name": "Judy Davis",
+      "sequence": 3,
+      "roles": [
+        "Suzanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000323",
+      "name": "Michael Caine",
+      "sequence": 4,
+      "roles": [
+        "Victor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0674782",
+      "name": "Harold Perrineau",
+      "sequence": 5,
+      "roles": [
+        "Henry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677366",
+      "name": "Robyn Peterson",
+      "sequence": 6,
+      "roles": [
+        "Dina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0823563",
+      "name": "Mike Starr",
+      "sequence": 7,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0782715",
+      "name": "John Seitz",
+      "sequence": 8,
+      "roles": [
+        "Frank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531333",
+      "name": "Marc Macaulay",
+      "sequence": 9,
+      "roles": [
+        "Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197352",
+      "name": "Dan Daily",
+      "sequence": 10,
+      "roles": [
+        "Todd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0892302",
+      "name": "Marta Velasco",
+      "sequence": 11,
+      "roles": [
+        "Gabriela's Cousin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160630",
+      "name": "Thom Christopher",
+      "sequence": 12,
+      "roles": [
+        "Jeweller #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0845079",
+      "name": "Mario Ernesto S\u00e1nchez",
+      "sequence": 13,
+      "roles": [
+        "Artie"
+      ],
+      "notes": "(Fishing Ace)"
+    },
+    {
+      "person_imdb_id": "nm0352467",
+      "name": "John Hackett",
+      "sequence": 14,
+      "roles": [
+        "Gas Station Attendant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599014",
+      "name": "Hector Montano",
+      "sequence": 15,
+      "roles": [
+        "Gabriela's Grandfather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379724",
+      "name": "Vanessa L. Hernandez",
+      "sequence": 16,
+      "roles": [
+        "Little Cuban Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0530043",
+      "name": "Carmen L\u00f3pez",
+      "sequence": 17,
+      "roles": [
+        "Head Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0139175",
+      "name": "Antoni Corone",
+      "sequence": 18,
+      "roles": [
+        "Caribbean Club Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0869940",
+      "name": "Jim Torres Towers",
+      "sequence": 19,
+      "roles": [
+        "Father of Gabriela's Cousin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599013",
+      "name": "Glice Montano",
+      "sequence": 20,
+      "roles": [
+        "Gabriela's Grandmother"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0898382",
       "name": "Nick Villiers",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0706182",
       "name": "Bob Rafelson",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0898382",
       "name": "Nick Villiers",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0189105",
       "name": "Alison Cross",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1996-09-19",

@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0034742",
   "sort_title": "Flying Tigers (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Jim Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140865",
-      "name": "John Carroll",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Woody Jason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0496819",
-      "name": "Anna Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Brooke Elliott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446769",
-      "name": "Paul Kelly",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hap Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428160",
-      "name": "Gordon Jones",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alabama Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164883",
-      "name": "Mae Clarke",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Verna Bales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723935",
-      "name": "Addison Richards",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Col. Lindsay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531705",
-      "name": "Edmund MacDonald",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Blackie Bales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794301",
-      "name": "Bill Shirley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0623684",
-      "name": "Tom Neal",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Reardon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574600",
-      "name": "Malcolm 'Bud' McTaggart",
-      "sequence": 10,
-      "notes": "(as Malcolm 'Bud'McTaggart)",
-      "roles": [
-        "McCurdy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115452",
-      "name": "David Bruce",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lt. Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0304058",
-      "name": "Chester Gan",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230082",
-      "name": "Jimmie Dodd",
-      "sequence": 13,
-      "notes": "(as James Dodd)",
-      "roles": [
-        "McIntosh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0059152",
-      "name": "Gregg Barton",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Tex Norton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416624",
-      "name": "John James",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Selby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740483",
-      "name": "Franklin D. Roosevelt",
-      "sequence": 34,
-      "notes": "(uncredited) (archiveFootage) (voice)",
-      "roles": [
-        "Self"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0588183",
@@ -164,27 +9,173 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Capt. Jim Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140865",
+      "name": "John Carroll",
+      "sequence": 1,
+      "roles": [
+        "Woody Jason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0496819",
+      "name": "Anna Lee",
+      "sequence": 2,
+      "roles": [
+        "Brooke Elliott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446769",
+      "name": "Paul Kelly",
+      "sequence": 3,
+      "roles": [
+        "Hap Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428160",
+      "name": "Gordon Jones",
+      "sequence": 4,
+      "roles": [
+        "Alabama Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164883",
+      "name": "Mae Clarke",
+      "sequence": 5,
+      "roles": [
+        "Verna Bales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723935",
+      "name": "Addison Richards",
+      "sequence": 6,
+      "roles": [
+        "Col. Lindsay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531705",
+      "name": "Edmund MacDonald",
+      "sequence": 7,
+      "roles": [
+        "Blackie Bales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794301",
+      "name": "Bill Shirley",
+      "sequence": 8,
+      "roles": [
+        "Dale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0623684",
+      "name": "Tom Neal",
+      "sequence": 9,
+      "roles": [
+        "Reardon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574600",
+      "name": "Malcolm 'Bud' McTaggart",
+      "sequence": 10,
+      "roles": [
+        "McCurdy"
+      ],
+      "notes": "(as Malcolm 'Bud'McTaggart)"
+    },
+    {
+      "person_imdb_id": "nm0115452",
+      "name": "David Bruce",
+      "sequence": 11,
+      "roles": [
+        "Lt. Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0304058",
+      "name": "Chester Gan",
+      "sequence": 12,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230082",
+      "name": "Jimmie Dodd",
+      "sequence": 13,
+      "roles": [
+        "McIntosh"
+      ],
+      "notes": "(as James Dodd)"
+    },
+    {
+      "person_imdb_id": "nm0059152",
+      "name": "Gregg Barton",
+      "sequence": 14,
+      "roles": [
+        "Tex Norton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416624",
+      "name": "John James",
+      "sequence": 15,
+      "roles": [
+        "Selby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0303930",
       "name": "Kenneth Gamet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0873200",
       "name": "Barry Trivers",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0303930",
       "name": "Kenneth Gamet",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     }
   ],
   "release_date": "1942-10-08",

@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0051936",
   "sort_title": "Missouri Traveler (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001121",
-      "name": "Brandon De Wilde",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Biarn Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tobias Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581282",
-      "name": "Gary Merrill",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Doyle Magee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285818",
-      "name": "Paul Ford",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Finas Daugherty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395934",
-      "name": "Mary Hosford",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Anne Love Price"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193411",
-      "name": "Ken Curtis",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fred Mueller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864018",
-      "name": "Cal Tinney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Clyde Hamilton Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128326",
-      "name": "Frank Cady",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Willie Poole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275997",
-      "name": "Mary Field",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Nelda Hamilton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293466",
-      "name": "Kathleen Freeman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Serena Poole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942926",
-      "name": "Will Wright",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheriff Peavy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0863909",
-      "name": "Tom Tiner",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rev. Thorndyke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117252",
-      "name": "William Bryant",
-      "sequence": 12,
-      "notes": "(as Bill Bryant)",
-      "roles": [
-        "Henry Craig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193253",
-      "name": "Barry Curtis",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Jimmy Price"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514507",
-      "name": "Eddie Little Sky",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Red Poole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1631551",
-      "name": "Eddie Little",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Robert 'Red' Poole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068493",
-      "name": "Rodney Bell",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Herb Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113700",
-      "name": "Helen Brown",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Hattie Neely"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627840",
-      "name": "William Newell",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Pos Neely"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421772",
-      "name": "Roy Jenson",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Simpson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388232",
-      "name": "Earle Hodgins",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Old Sharecropper"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0394409",
@@ -200,20 +9,211 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001121",
+      "name": "Brandon De Wilde",
+      "sequence": 0,
+      "roles": [
+        "Biarn Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 1,
+      "roles": [
+        "Tobias Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581282",
+      "name": "Gary Merrill",
+      "sequence": 2,
+      "roles": [
+        "Doyle Magee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285818",
+      "name": "Paul Ford",
+      "sequence": 3,
+      "roles": [
+        "Finas Daugherty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0395934",
+      "name": "Mary Hosford",
+      "sequence": 4,
+      "roles": [
+        "Anne Love Price"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193411",
+      "name": "Ken Curtis",
+      "sequence": 5,
+      "roles": [
+        "Fred Mueller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864018",
+      "name": "Cal Tinney",
+      "sequence": 6,
+      "roles": [
+        "Clyde Hamilton Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128326",
+      "name": "Frank Cady",
+      "sequence": 7,
+      "roles": [
+        "Willie Poole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275997",
+      "name": "Mary Field",
+      "sequence": 8,
+      "roles": [
+        "Nelda Hamilton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293466",
+      "name": "Kathleen Freeman",
+      "sequence": 9,
+      "roles": [
+        "Serena Poole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942926",
+      "name": "Will Wright",
+      "sequence": 10,
+      "roles": [
+        "Sheriff Peavy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0863909",
+      "name": "Tom Tiner",
+      "sequence": 11,
+      "roles": [
+        "Rev. Thorndyke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117252",
+      "name": "William Bryant",
+      "sequence": 12,
+      "roles": [
+        "Henry Craig"
+      ],
+      "notes": "(as Bill Bryant)"
+    },
+    {
+      "person_imdb_id": "nm0193253",
+      "name": "Barry Curtis",
+      "sequence": 13,
+      "roles": [
+        "Jimmy Price"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514507",
+      "name": "Eddie Little Sky",
+      "sequence": 14,
+      "roles": [
+        "Red Poole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1631551",
+      "name": "Eddie Little",
+      "sequence": 15,
+      "roles": [
+        "Robert 'Red' Poole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068493",
+      "name": "Rodney Bell",
+      "sequence": 16,
+      "roles": [
+        "Herb Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113700",
+      "name": "Helen Brown",
+      "sequence": 17,
+      "roles": [
+        "Hattie Neely"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627840",
+      "name": "William Newell",
+      "sequence": 18,
+      "roles": [
+        "Pos Neely"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421772",
+      "name": "Roy Jenson",
+      "sequence": 19,
+      "roles": [
+        "Simpson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388232",
+      "name": "Earle Hodgins",
+      "sequence": 20,
+      "roles": [
+        "Old Sharecropper"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0123104",
       "name": "John Burress",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel) (as John Burr)",
-      "group_id": 0
+      "notes": "(novel) (as John Burr)"
     },
     {
       "person_imdb_id": "nm0355963",
       "name": "Norman S. Hall",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as Norman Shannon Hall)",
-      "group_id": 1
+      "notes": "(screenplay) (as Norman Shannon Hall)"
     }
   ],
   "release_date": "1958-01-21",

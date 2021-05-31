@@ -1,177 +1,6 @@
 {
   "imdb_id": "tt0029650",
   "sort_title": "That Certain Woman (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mary Donnell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000020",
-      "name": "Henry Fonda",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jack Merrick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521937",
-      "name": "Anita Louise",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Flip"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402842",
-      "name": "Ian Hunter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lloyd Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187981",
-      "name": "Donald Crisp",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Merrick, Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640078",
-      "name": "Hugh O'Connell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Virgil Whitaker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0018540",
-      "name": "Katharine Alexander",
-      "sequence": 6,
-      "notes": "(as Katherine Alexander)",
-      "roles": [
-        "Mrs. Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680102",
-      "name": "Mary Philips",
-      "sequence": 7,
-      "notes": "(as Mary Phillips)",
-      "roles": [
-        "Amy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914808",
-      "name": "Minor Watson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tilden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866010",
-      "name": "Sidney Toler",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Detective Neely"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932425",
-      "name": "Norman Willis",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Fred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712660",
-      "name": "Herbert Rawlinson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Hartman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377428",
-      "name": "Tim Henning",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Kenyon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206385",
-      "name": "Dwane Day",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Jackie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210614",
-      "name": "Richard DeNeut",
-      "sequence": 15,
-      "notes": "(as Dickie DeNeut)",
-      "roles": [
-        "Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357963",
-      "name": "John Hamilton",
-      "sequence": 16,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "American"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443849",
-      "name": "Edward Keane",
-      "sequence": 17,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Opposing Counsel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610268",
-      "name": "Jack Mower",
-      "sequence": 18,
-      "notes": "(scenesDeleted)",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0332539",
@@ -180,13 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Mary Donnell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000020",
+      "name": "Henry Fonda",
+      "sequence": 1,
+      "roles": [
+        "Jack Merrick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521937",
+      "name": "Anita Louise",
+      "sequence": 2,
+      "roles": [
+        "Flip"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402842",
+      "name": "Ian Hunter",
+      "sequence": 3,
+      "roles": [
+        "Lloyd Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187981",
+      "name": "Donald Crisp",
+      "sequence": 4,
+      "roles": [
+        "Merrick, Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640078",
+      "name": "Hugh O'Connell",
+      "sequence": 5,
+      "roles": [
+        "Virgil Whitaker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0018540",
+      "name": "Katharine Alexander",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Rogers"
+      ],
+      "notes": "(as Katherine Alexander)"
+    },
+    {
+      "person_imdb_id": "nm0680102",
+      "name": "Mary Philips",
+      "sequence": 7,
+      "roles": [
+        "Amy"
+      ],
+      "notes": "(as Mary Phillips)"
+    },
+    {
+      "person_imdb_id": "nm0914808",
+      "name": "Minor Watson",
+      "sequence": 8,
+      "roles": [
+        "Tilden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866010",
+      "name": "Sidney Toler",
+      "sequence": 9,
+      "roles": [
+        "Detective Neely"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 10,
+      "roles": [
+        "Dr. James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932425",
+      "name": "Norman Willis",
+      "sequence": 11,
+      "roles": [
+        "Fred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712660",
+      "name": "Herbert Rawlinson",
+      "sequence": 12,
+      "roles": [
+        "Dr. Hartman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377428",
+      "name": "Tim Henning",
+      "sequence": 13,
+      "roles": [
+        "Kenyon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206385",
+      "name": "Dwane Day",
+      "sequence": 14,
+      "roles": [
+        "Jackie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210614",
+      "name": "Richard DeNeut",
+      "sequence": 15,
+      "roles": [
+        "Boy"
+      ],
+      "notes": "(as Dickie DeNeut)"
+    },
+    {
+      "person_imdb_id": "nm0357963",
+      "name": "John Hamilton",
+      "sequence": 16,
+      "roles": [
+        "American"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0443849",
+      "name": "Edward Keane",
+      "sequence": 17,
+      "roles": [
+        "Opposing Counsel"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0610268",
+      "name": "Jack Mower",
+      "sequence": 18,
+      "roles": [],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0332539",
       "name": "Edmund Goulding",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1937-08-30",

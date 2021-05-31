@@ -1,99 +1,6 @@
 {
   "imdb_id": "tt0023249",
   "sort_title": "Murders in the Rue Morgue (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0289253",
-      "name": "Sidney Fox",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mlle. Camille L'Espanaye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Mirakle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000748",
-      "name": "Leon Ames",
-      "sequence": 2,
-      "notes": "(as Leon Waycoff)",
-      "roles": [
-        "Pierre Dupin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729991",
-      "name": "Bert Roach",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164664",
-      "name": "Betty Ross Clarke",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mme. L'Espanaye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403582",
-      "name": "Brandon Hurst",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Prefect of Police"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180967",
-      "name": "D'Arcy Corrigan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Morgue Keeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0425903",
-      "name": "Noble Johnson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Janos The Black One"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290086",
-      "name": "Arlene Francis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Woman of the Streets"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0598784",
-      "name": "Monte Montague",
-      "sequence": 22,
-      "notes": "",
-      "roles": [
-        "Workman",
-        "Gendarme"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0282984",
@@ -102,52 +9,145 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0289253",
+      "name": "Sidney Fox",
+      "sequence": 0,
+      "roles": [
+        "Mlle. Camille L'Espanaye"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 1,
+      "roles": [
+        "Dr. Mirakle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000748",
+      "name": "Leon Ames",
+      "sequence": 2,
+      "roles": [
+        "Pierre Dupin"
+      ],
+      "notes": "(as Leon Waycoff)"
+    },
+    {
+      "person_imdb_id": "nm0729991",
+      "name": "Bert Roach",
+      "sequence": 3,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164664",
+      "name": "Betty Ross Clarke",
+      "sequence": 4,
+      "roles": [
+        "Mme. L'Espanaye"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403582",
+      "name": "Brandon Hurst",
+      "sequence": 5,
+      "roles": [
+        "Prefect of Police"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180967",
+      "name": "D'Arcy Corrigan",
+      "sequence": 6,
+      "roles": [
+        "Morgue Keeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0425903",
+      "name": "Noble Johnson",
+      "sequence": 7,
+      "roles": [
+        "Janos The Black One"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290086",
+      "name": "Arlene Francis",
+      "sequence": 8,
+      "roles": [
+        "Woman of the Streets"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0598784",
+      "name": "Monte Montague",
+      "sequence": 22,
+      "roles": [
+        "Workman",
+        "Gendarme"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the immortal classic by)",
-      "group_id": 0
+      "notes": "(based on the immortal classic by)"
     },
     {
       "person_imdb_id": "nm0282984",
       "name": "Robert Florey",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0886861",
       "name": "Dale Van Every",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
+      "group": 3,
       "sequence": 0,
-      "notes": "(added dialogue)",
-      "group_id": 3
+      "notes": "(added dialogue)"
     },
     {
       "person_imdb_id": "nm0446381",
       "name": "Ethel M. Kelly",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
-  "release_date": "1932-02-21",
-  "release_date_notes": "",
+  "release_date": "1932-01-27",
+  "release_date_notes": "(Middletown, NY) (preview)",
   "countries": [
     "United States"
   ]

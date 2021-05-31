@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0057611",
   "sort_title": "Silence (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0862026",
-      "name": "Ingrid Thulin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511458",
-      "name": "Gunnel Lindblom",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512502",
-      "name": "J\u00f6rgen Lindstr\u00f6m",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415720",
-      "name": "H\u00e5kan Jahnberg",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Hotel Steward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Waiter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -56,13 +9,60 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0862026",
+      "name": "Ingrid Thulin",
+      "sequence": 0,
+      "roles": [
+        "Ester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511458",
+      "name": "Gunnel Lindblom",
+      "sequence": 1,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512502",
+      "name": "J\u00f6rgen Lindstr\u00f6m",
+      "sequence": 2,
+      "roles": [
+        "Johan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415720",
+      "name": "H\u00e5kan Jahnberg",
+      "sequence": 3,
+      "roles": [
+        "The Hotel Steward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 4,
+      "roles": [
+        "The Waiter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     }
   ],
   "release_date": "1963-09-23",

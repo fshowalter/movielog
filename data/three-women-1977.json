@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0075612",
   "sort_title": "Three Women (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001167",
-      "name": "Shelley Duvall",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Millie Lammoreaux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000651",
-      "name": "Sissy Spacek",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Pinky Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750023",
-      "name": "Janice Rule",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Willie Hart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0287279",
-      "name": "Robert Fortier",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Edgar Hart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625724",
-      "name": "Ruth Nelson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0188669",
-      "name": "John Cromwell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669579",
-      "name": "Sierra Pecheur",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ms. Bunweill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625269",
-      "name": "Craig Richard Nelson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Maas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398335",
-      "name": "Maysie Hoy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Doris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603890",
-      "name": "Belita Moreno",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Alcira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399906",
-      "name": "Leslie Ann Hudson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Polly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399936",
-      "name": "Patricia Ann Hudson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0743252",
-      "name": "Beverly Ross",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Deidre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0202726",
-      "name": "John Davey",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dr. Norton"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000265",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001167",
+      "name": "Shelley Duvall",
+      "sequence": 0,
+      "roles": [
+        "Millie Lammoreaux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000651",
+      "name": "Sissy Spacek",
+      "sequence": 1,
+      "roles": [
+        "Pinky Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750023",
+      "name": "Janice Rule",
+      "sequence": 2,
+      "roles": [
+        "Willie Hart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0287279",
+      "name": "Robert Fortier",
+      "sequence": 3,
+      "roles": [
+        "Edgar Hart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625724",
+      "name": "Ruth Nelson",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0188669",
+      "name": "John Cromwell",
+      "sequence": 5,
+      "roles": [
+        "Mr. Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669579",
+      "name": "Sierra Pecheur",
+      "sequence": 6,
+      "roles": [
+        "Ms. Bunweill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625269",
+      "name": "Craig Richard Nelson",
+      "sequence": 7,
+      "roles": [
+        "Dr. Maas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398335",
+      "name": "Maysie Hoy",
+      "sequence": 8,
+      "roles": [
+        "Doris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603890",
+      "name": "Belita Moreno",
+      "sequence": 9,
+      "roles": [
+        "Alcira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399906",
+      "name": "Leslie Ann Hudson",
+      "sequence": 10,
+      "roles": [
+        "Polly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399936",
+      "name": "Patricia Ann Hudson",
+      "sequence": 11,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0743252",
+      "name": "Beverly Ross",
+      "sequence": 12,
+      "roles": [
+        "Deidre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0202726",
+      "name": "John Davey",
+      "sequence": 13,
+      "roles": [
+        "Dr. Norton"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000265",
       "name": "Robert Altman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0720334",
       "name": "Patricia Resnick",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1977-04-10",

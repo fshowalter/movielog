@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0046675",
   "sort_title": "Wuthering Heights (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0226773",
-      "name": "Irasema Dili\u00e1n",
-      "sequence": 0,
-      "notes": "(as Irasema Dilian)",
-      "roles": [
-        "Catalina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592978",
-      "name": "Jorge Mistral",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alejandro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695033",
-      "name": "Lilia Prado",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Isabel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022172",
-      "name": "Ernesto Alonso",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Eduardo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717592",
-      "name": "Francisco Reiguera",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jos\u00e9"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0764326",
-      "name": "Hortensia Santove\u00f1a",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mar\u00eda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0327980",
-      "name": "Jaime Gonz\u00e1lez Qui\u00f1ones",
-      "sequence": 6,
-      "notes": "(as Jaime Gonz\u00e1lez)",
-      "roles": [
-        "Jorge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0009735",
-      "name": "Luis Aceves Casta\u00f1eda",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ricardo"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -83,51 +9,125 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0226773",
+      "name": "Irasema Dili\u00e1n",
+      "sequence": 0,
+      "roles": [
+        "Catalina"
+      ],
+      "notes": "(as Irasema Dilian)"
+    },
+    {
+      "person_imdb_id": "nm0592978",
+      "name": "Jorge Mistral",
+      "sequence": 1,
+      "roles": [
+        "Alejandro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695033",
+      "name": "Lilia Prado",
+      "sequence": 2,
+      "roles": [
+        "Isabel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0022172",
+      "name": "Ernesto Alonso",
+      "sequence": 3,
+      "roles": [
+        "Eduardo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717592",
+      "name": "Francisco Reiguera",
+      "sequence": 4,
+      "roles": [
+        "Jos\u00e9"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0764326",
+      "name": "Hortensia Santove\u00f1a",
+      "sequence": 5,
+      "roles": [
+        "Mar\u00eda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0327980",
+      "name": "Jaime Gonz\u00e1lez Qui\u00f1ones",
+      "sequence": 6,
+      "roles": [
+        "Jorge"
+      ],
+      "notes": "(as Jaime Gonz\u00e1lez)"
+    },
+    {
+      "person_imdb_id": "nm0009735",
+      "name": "Luis Aceves Casta\u00f1eda",
+      "sequence": 7,
+      "roles": [
+        "Ricardo"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0111577",
       "name": "Emily Bront\u00eb",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Wuthering Heights\")",
-      "group_id": 0
+      "notes": "(novel \"Wuthering Heights\")"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0017855",
       "name": "Julio Alejandro",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0537985",
       "name": "Dino Maiuri",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 2,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0881252",
       "name": "Pierre Unik",
+      "group": 3,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 3
+      "notes": "(story) (uncredited)"
     }
   ],
-  "release_date": "1954-06-30",
+  "release_date": "1954-07-03",
   "release_date_notes": "",
   "countries": [
     "Mexico"

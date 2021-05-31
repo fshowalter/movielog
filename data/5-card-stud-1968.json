@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0062626",
   "sort_title": "5 Card Stud (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Van Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Rev. Rudd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828447",
-      "name": "Inger Stevens",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lily Langford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001522",
-      "name": "Roddy McDowall",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nick Evers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0433157",
-      "name": "Katherine Justice",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Nora Evers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026930",
-      "name": "John Anderson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marshal Dana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0819786",
-      "name": "Ruth Springford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mama Malone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001433",
-      "name": "Yaphet Kotto",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Little George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0701500",
-      "name": "Denver Pyle",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sig Evers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281950",
-      "name": "Bill Fletcher",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Joe Hurley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000946",
-      "name": "Whit Bissell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208125",
-      "name": "Ted de Corsia",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Eldon Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171896",
-      "name": "Don Collier",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Rowan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421772",
-      "name": "Roy Jenson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mace Jones"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0368871",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 0,
+      "roles": [
+        "Van Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 1,
+      "roles": [
+        "Rev. Rudd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828447",
+      "name": "Inger Stevens",
+      "sequence": 2,
+      "roles": [
+        "Lily Langford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001522",
+      "name": "Roddy McDowall",
+      "sequence": 3,
+      "roles": [
+        "Nick Evers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0433157",
+      "name": "Katherine Justice",
+      "sequence": 4,
+      "roles": [
+        "Nora Evers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026930",
+      "name": "John Anderson",
+      "sequence": 5,
+      "roles": [
+        "Marshal Dana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0819786",
+      "name": "Ruth Springford",
+      "sequence": 6,
+      "roles": [
+        "Mama Malone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001433",
+      "name": "Yaphet Kotto",
+      "sequence": 7,
+      "roles": [
+        "Little George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0701500",
+      "name": "Denver Pyle",
+      "sequence": 8,
+      "roles": [
+        "Sig Evers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281950",
+      "name": "Bill Fletcher",
+      "sequence": 9,
+      "roles": [
+        "Joe Hurley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000946",
+      "name": "Whit Bissell",
+      "sequence": 10,
+      "roles": [
+        "Dr. Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208125",
+      "name": "Ted de Corsia",
+      "sequence": 11,
+      "roles": [
+        "Eldon Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171896",
+      "name": "Don Collier",
+      "sequence": 12,
+      "roles": [
+        "Rowan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421772",
+      "name": "Roy Jenson",
+      "sequence": 13,
+      "roles": [
+        "Mace Jones"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0731387",
       "name": "Marguerite Roberts",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0310070",
       "name": "Ray Gaulden",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a novel by)",
-      "group_id": 1
+      "notes": "(from a novel by)"
     }
   ],
   "release_date": "1968-07-10",

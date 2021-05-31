@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0056172",
   "sort_title": "Lawrence of Arabia (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000564",
-      "name": "Peter O'Toole",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "T.E. Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000027",
-      "name": "Alec Guinness",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Prince Faisal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000063",
-      "name": "Anthony Quinn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Auda Abu Tayi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370144",
-      "name": "Jack Hawkins",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "General Allenby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001725",
-      "name": "Omar Sharif",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sherif Ali"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001207",
-      "name": "Jos\u00e9 Ferrer",
-      "sequence": 5,
-      "notes": "(as Jose Ferrer)",
-      "roles": [
-        "Turkish Bey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703033",
-      "name": "Anthony Quayle",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Colonel Brighton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Dryden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jackson Bentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938372",
-      "name": "Donald Wolfit",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "General Murray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424102",
-      "name": "I.S. Johar",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gasim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711633",
-      "name": "Gamil Ratib",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Majid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712935",
-      "name": "Michel Ray",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Farraj"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0227249",
-      "name": "John Dimech",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Daud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0596109",
-      "name": "Zia Mohyeddin",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Tafas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548010",
-      "name": "Howard Marion-Crawford",
-      "sequence": 15,
-      "notes": "(as Howard Marion Crawford)",
-      "roles": [
-        "Medical Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007232",
-      "name": "Jack Gwillim",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Club Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588486",
-      "name": "Hugh Miller",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "R.A.M.C. Colonel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336509",
-      "name": "Charles Gray",
-      "sequence": 35,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "General Allenby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726403",
-      "name": "Robert Rietty",
-      "sequence": 54,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Majid"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000180",
@@ -191,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000564",
+      "name": "Peter O'Toole",
+      "sequence": 0,
+      "roles": [
+        "Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000027",
+      "name": "Alec Guinness",
+      "sequence": 1,
+      "roles": [
+        "Prince Faisal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000063",
+      "name": "Anthony Quinn",
+      "sequence": 2,
+      "roles": [
+        "Auda Abu Tayi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370144",
+      "name": "Jack Hawkins",
+      "sequence": 3,
+      "roles": [
+        "General Allenby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001725",
+      "name": "Omar Sharif",
+      "sequence": 4,
+      "roles": [
+        "Sherif Ali"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001207",
+      "name": "Jos\u00e9 Ferrer",
+      "sequence": 5,
+      "roles": [
+        "Turkish Bey"
+      ],
+      "notes": "(as Jose Ferrer)"
+    },
+    {
+      "person_imdb_id": "nm0703033",
+      "name": "Anthony Quayle",
+      "sequence": 6,
+      "roles": [
+        "Colonel Brighton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 7,
+      "roles": [
+        "Mr. Dryden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 8,
+      "roles": [
+        "Jackson Bentley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938372",
+      "name": "Donald Wolfit",
+      "sequence": 9,
+      "roles": [
+        "General Murray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424102",
+      "name": "I.S. Johar",
+      "sequence": 10,
+      "roles": [
+        "Gasim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711633",
+      "name": "Gamil Ratib",
+      "sequence": 11,
+      "roles": [
+        "Majid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712935",
+      "name": "Michel Ray",
+      "sequence": 12,
+      "roles": [
+        "Farraj"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0227249",
+      "name": "John Dimech",
+      "sequence": 13,
+      "roles": [
+        "Daud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0596109",
+      "name": "Zia Mohyeddin",
+      "sequence": 14,
+      "roles": [
+        "Tafas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548010",
+      "name": "Howard Marion-Crawford",
+      "sequence": 15,
+      "roles": [
+        "Medical Officer"
+      ],
+      "notes": "(as Howard Marion Crawford)"
+    },
+    {
+      "person_imdb_id": "nm0007232",
+      "name": "Jack Gwillim",
+      "sequence": 16,
+      "roles": [
+        "Club Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588486",
+      "name": "Hugh Miller",
+      "sequence": 17,
+      "roles": [
+        "R.A.M.C. Colonel"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0493042",
       "name": "T.E. Lawrence",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writings)",
-      "group_id": 0
+      "notes": "(writings)"
     },
     {
       "person_imdb_id": "nm0004122",
       "name": "Robert Bolt",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0933858",
       "name": "Michael Wilson",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (originally uncredited: credit restored in 1978 by WGA)",
-      "group_id": 2
+      "notes": "(screenplay) (originally uncredited: credit restored in 1978 by WGA)"
     }
   ],
   "release_date": "1962-12-10",

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0051406",
   "sort_title": "Bell Book and Candle (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Shepherd Henderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001571",
-      "name": "Kim Novak",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gillian Holroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nicky Holroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0468237",
-      "name": "Ernie Kovacs",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sidney Redlitch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0320006",
-      "name": "Hermione Gingold",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bianca de Passe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006471",
-      "name": "Elsa Lanchester",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Queenie Holroyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750023",
-      "name": "Janice Rule",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Merle Kittridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0165564",
-      "name": "Philippe Clay",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "French Singer at the Zodiac Club"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625171",
-      "name": "Bek Nelson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tina - Shep's Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573830",
-      "name": "Howard McNear",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Andy White - Shep's Co-Publisher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2277124",
-      "name": "The Brothers Candoli",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Musicians at the Zodiac Club"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0703689",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Shepherd Henderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001571",
+      "name": "Kim Novak",
+      "sequence": 1,
+      "roles": [
+        "Gillian Holroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 2,
+      "roles": [
+        "Nicky Holroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0468237",
+      "name": "Ernie Kovacs",
+      "sequence": 3,
+      "roles": [
+        "Sidney Redlitch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0320006",
+      "name": "Hermione Gingold",
+      "sequence": 4,
+      "roles": [
+        "Bianca de Passe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006471",
+      "name": "Elsa Lanchester",
+      "sequence": 5,
+      "roles": [
+        "Queenie Holroyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750023",
+      "name": "Janice Rule",
+      "sequence": 6,
+      "roles": [
+        "Merle Kittridge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0165564",
+      "name": "Philippe Clay",
+      "sequence": 7,
+      "roles": [
+        "French Singer at the Zodiac Club"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625171",
+      "name": "Bek Nelson",
+      "sequence": 8,
+      "roles": [
+        "Tina - Shep's Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573830",
+      "name": "Howard McNear",
+      "sequence": 9,
+      "roles": [
+        "Andy White - Shep's Co-Publisher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2277124",
+      "name": "The Brothers Candoli",
+      "sequence": 10,
+      "roles": [
+        "Musicians at the Zodiac Club"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0850168",
       "name": "Daniel Taradash",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0886668",
       "name": "John Van Druten",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Bell, Book and Candle\")",
-      "group_id": 1
+      "notes": "(play \"Bell, Book and Candle\")"
     }
   ],
   "release_date": "1958-11-11",

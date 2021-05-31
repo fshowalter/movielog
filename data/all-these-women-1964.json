@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0058124",
   "sort_title": "All These Women (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000761",
-      "name": "Bibi Andersson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Humlan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027683",
-      "name": "Harriet Andersson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Isolde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0196992",
-      "name": "Eva Dahlbeck",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Adelaide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0442664",
-      "name": "Karin Kavli",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Madame Tussaud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294892",
-      "name": "Gertrud Fridh",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Traviata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540204",
-      "name": "Mona Malm",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cecilia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386113",
-      "name": "Barbro Hiort af Orn\u00e4s",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Beatrica"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249735",
-      "name": "Allan Edwall",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jillker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298777",
-      "name": "Georg Funkquist",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tristan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082599",
-      "name": "Carl Billquist",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Young Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0474649",
-      "name": "Jarl Kulle",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cornelius"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000761",
+      "name": "Bibi Andersson",
+      "sequence": 0,
+      "roles": [
+        "Humlan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027683",
+      "name": "Harriet Andersson",
+      "sequence": 1,
+      "roles": [
+        "Isolde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0196992",
+      "name": "Eva Dahlbeck",
+      "sequence": 2,
+      "roles": [
+        "Adelaide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0442664",
+      "name": "Karin Kavli",
+      "sequence": 3,
+      "roles": [
+        "Madame Tussaud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294892",
+      "name": "Gertrud Fridh",
+      "sequence": 4,
+      "roles": [
+        "Traviata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540204",
+      "name": "Mona Malm",
+      "sequence": 5,
+      "roles": [
+        "Cecilia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386113",
+      "name": "Barbro Hiort af Orn\u00e4s",
+      "sequence": 6,
+      "roles": [
+        "Beatrica"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249735",
+      "name": "Allan Edwall",
+      "sequence": 7,
+      "roles": [
+        "Jillker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298777",
+      "name": "Georg Funkquist",
+      "sequence": 8,
+      "roles": [
+        "Tristan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0082599",
+      "name": "Carl Billquist",
+      "sequence": 9,
+      "roles": [
+        "The Young Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0474649",
+      "name": "Jarl Kulle",
+      "sequence": 10,
+      "roles": [
+        "Cornelius"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0430746",
       "name": "Erland Josephson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1964-06-15",

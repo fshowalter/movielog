@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0078836",
   "sort_title": "Bear Island (1979)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000661",
-      "name": "Donald Sutherland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frank Lansing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000603",
-      "name": "Vanessa Redgrave",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Heddi Lindquist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001847",
-      "name": "Richard Widmark",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Otto Gerran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lechinski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662808",
-      "name": "Barbara Parkins",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judith Rubin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000978",
-      "name": "Lloyd Bridges",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Smithy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199325",
-      "name": "Lawrence Dane",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Paul Hartman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172590",
-      "name": "Patricia Collins",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Inge Van Zipper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721866",
-      "name": "Michael J. Reynolds",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Heyter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181477",
-      "name": "Nicholas Cortland",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jungbeck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0770763",
-      "name": "August Schellenberg",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Marine Technician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640260",
-      "name": "Candace O'Connor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Laboratory Assistant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0326550",
-      "name": "Joseph Golland",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Meteorological Assistant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339304",
-      "name": "Bruce Greenwood",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Technician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942119",
-      "name": "Richard Wren",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Radio Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428752",
-      "name": "Mark Jones",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066732",
-      "name": "Hagan Beggs",
-      "sequence": 16,
-      "notes": "(as Hagen Beggs)",
-      "roles": [
-        "Larsen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172532",
-      "name": "Michael Collins",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Ship's Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826380",
-      "name": "Robert Stelmach",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Ship's Radio Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913967",
-      "name": "Terry Waterhouse",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Helicopter Crewman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0789033",
@@ -191,34 +9,216 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000661",
+      "name": "Donald Sutherland",
+      "sequence": 0,
+      "roles": [
+        "Frank Lansing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000603",
+      "name": "Vanessa Redgrave",
+      "sequence": 1,
+      "roles": [
+        "Heddi Lindquist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001847",
+      "name": "Richard Widmark",
+      "sequence": 2,
+      "roles": [
+        "Otto Gerran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
+      "roles": [
+        "Lechinski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662808",
+      "name": "Barbara Parkins",
+      "sequence": 4,
+      "roles": [
+        "Judith Rubin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000978",
+      "name": "Lloyd Bridges",
+      "sequence": 5,
+      "roles": [
+        "Smithy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199325",
+      "name": "Lawrence Dane",
+      "sequence": 6,
+      "roles": [
+        "Paul Hartman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172590",
+      "name": "Patricia Collins",
+      "sequence": 7,
+      "roles": [
+        "Inge Van Zipper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721866",
+      "name": "Michael J. Reynolds",
+      "sequence": 8,
+      "roles": [
+        "Heyter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181477",
+      "name": "Nicholas Cortland",
+      "sequence": 9,
+      "roles": [
+        "Jungbeck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0770763",
+      "name": "August Schellenberg",
+      "sequence": 10,
+      "roles": [
+        "Marine Technician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640260",
+      "name": "Candace O'Connor",
+      "sequence": 11,
+      "roles": [
+        "Laboratory Assistant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0326550",
+      "name": "Joseph Golland",
+      "sequence": 12,
+      "roles": [
+        "Meteorological Assistant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339304",
+      "name": "Bruce Greenwood",
+      "sequence": 13,
+      "roles": [
+        "Technician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942119",
+      "name": "Richard Wren",
+      "sequence": 14,
+      "roles": [
+        "Radio Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428752",
+      "name": "Mark Jones",
+      "sequence": 15,
+      "roles": [
+        "Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0066732",
+      "name": "Hagan Beggs",
+      "sequence": 16,
+      "roles": [
+        "Larsen"
+      ],
+      "notes": "(as Hagen Beggs)"
+    },
+    {
+      "person_imdb_id": "nm0172532",
+      "name": "Michael Collins",
+      "sequence": 17,
+      "roles": [
+        "Ship's Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826380",
+      "name": "Robert Stelmach",
+      "sequence": 18,
+      "roles": [
+        "Ship's Radio Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913967",
+      "name": "Terry Waterhouse",
+      "sequence": 19,
+      "roles": [
+        "Helicopter Crewman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0124878",
       "name": "David Butler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0789033",
       "name": "Don Sharp",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0809424",
       "name": "Murray Smith",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional material)",
-      "group_id": 1
+      "notes": "(additional material)"
     },
     {
       "person_imdb_id": "nm0533745",
       "name": "Alistair MacLean",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 2
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1979-12-05",

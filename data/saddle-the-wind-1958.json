@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0050923",
   "sort_title": "Saddle the Wind (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001791",
-      "name": "Robert Taylor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Steve Sinclair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0518728",
-      "name": "Julie London",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joan Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001023",
-      "name": "John Cassavetes",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tony Sinclair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187981",
-      "name": "Donald Crisp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dennis Deneen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569902",
-      "name": "Charles McGraw",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Larry Venables"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200455",
-      "name": "Royal Dano",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Clay Ellison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258757",
-      "name": "Richard Erdman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dallas Hanson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817930",
-      "name": "Douglas Spencer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hemp Scribner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Brick Larson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0663577",
@@ -98,27 +15,110 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001791",
+      "name": "Robert Taylor",
+      "sequence": 0,
+      "roles": [
+        "Steve Sinclair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0518728",
+      "name": "Julie London",
+      "sequence": 1,
+      "roles": [
+        "Joan Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001023",
+      "name": "John Cassavetes",
+      "sequence": 2,
+      "roles": [
+        "Tony Sinclair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187981",
+      "name": "Donald Crisp",
+      "sequence": 3,
+      "roles": [
+        "Dennis Deneen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569902",
+      "name": "Charles McGraw",
+      "sequence": 4,
+      "roles": [
+        "Larry Venables"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200455",
+      "name": "Royal Dano",
+      "sequence": 5,
+      "roles": [
+        "Clay Ellison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0258757",
+      "name": "Richard Erdman",
+      "sequence": 6,
+      "roles": [
+        "Dallas Hanson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0817930",
+      "name": "Douglas Spencer",
+      "sequence": 7,
+      "roles": [
+        "Hemp Scribner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 8,
+      "roles": [
+        "Brick Larson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0785245",
       "name": "Rod Serling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0860775",
       "name": "Thomas Thompson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen story)",
-      "group_id": 1
+      "notes": "(screen story)"
     },
     {
       "person_imdb_id": "nm0297190",
       "name": "Daniel Fuchs",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1958-03-05",

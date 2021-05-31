@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0062885",
   "sort_title": "Devil Rides Out (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Duc de Richleau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336509",
-      "name": "Charles Gray",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mocata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0037316",
-      "name": "Nike Arrighi",
-      "sequence": 2,
-      "notes": "(as Nik\u00e9 Arrighi)",
-      "roles": [
-        "Tanith Carlisle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0338839",
-      "name": "Leon Greene",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rex Van Ryn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610273",
-      "name": "Patrick Mower",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Simon Aron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203737",
-      "name": "Gwen Ffrangcon Davies",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Countess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493324",
-      "name": "Sarah Lawson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marie Eaton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0248844",
-      "name": "Paul Eddington",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Richard Eaton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484961",
-      "name": "Rosalyn Landor",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Peggy Eaton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914170",
-      "name": "Russell Waters",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Malin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0019996",
-      "name": "Patrick Allen",
-      "sequence": 11,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Rex Van Ryn"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -110,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Duc de Richleau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336509",
+      "name": "Charles Gray",
+      "sequence": 1,
+      "roles": [
+        "Mocata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0037316",
+      "name": "Nike Arrighi",
+      "sequence": 2,
+      "roles": [
+        "Tanith Carlisle"
+      ],
+      "notes": "(as Nik\u00e9 Arrighi)"
+    },
+    {
+      "person_imdb_id": "nm0338839",
+      "name": "Leon Greene",
+      "sequence": 3,
+      "roles": [
+        "Rex Van Ryn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610273",
+      "name": "Patrick Mower",
+      "sequence": 4,
+      "roles": [
+        "Simon Aron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203737",
+      "name": "Gwen Ffrangcon Davies",
+      "sequence": 5,
+      "roles": [
+        "Countess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493324",
+      "name": "Sarah Lawson",
+      "sequence": 6,
+      "roles": [
+        "Marie Eaton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0248844",
+      "name": "Paul Eddington",
+      "sequence": 7,
+      "roles": [
+        "Richard Eaton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484961",
+      "name": "Rosalyn Landor",
+      "sequence": 8,
+      "roles": [
+        "Peggy Eaton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914170",
+      "name": "Russell Waters",
+      "sequence": 9,
+      "roles": [
+        "Malin"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0558577",
       "name": "Richard Matheson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0923676",
       "name": "Dennis Wheatley",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Devil Rides Out\")",
-      "group_id": 1
+      "notes": "(novel \"The Devil Rides Out\")"
     }
   ],
   "release_date": "1968-07-20",

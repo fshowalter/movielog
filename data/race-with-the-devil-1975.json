@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0073600",
   "sort_title": "Race with the Devil (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001228",
-      "name": "Peter Fonda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Roger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Frank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842794",
-      "name": "Loretta Swit",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662430",
-      "name": "Lara Parker",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035866",
-      "name": "R.G. Armstrong",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sheriff Taylor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0849623",
-      "name": "Clay Tanner",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Delbert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0088788",
-      "name": "Carol Blodgett",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ethel Henderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393918",
-      "name": "Phil Hoover",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mechanic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912148",
-      "name": "Ricci Ware",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ricci Ware"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663935",
-      "name": "Paul A. Partain",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cal Mathers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364099",
-      "name": "James N. Harrell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gun Shop Owner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588702",
-      "name": "Karen Miller",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Kay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089475",
-      "name": "Arkey Blue",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Arkey Blue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0823630",
-      "name": "Jack Starrett",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Gas Station Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084218",
-      "name": "Wes Bishop",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Deputy Dave"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0823630",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0296532",
-      "name": "Lee Frost",
+      "person_imdb_id": "nm0001228",
+      "name": "Peter Fonda",
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "roles": [
+        "Roger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 1,
+      "roles": [
+        "Frank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842794",
+      "name": "Loretta Swit",
+      "sequence": 2,
+      "roles": [
+        "Alice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662430",
+      "name": "Lara Parker",
+      "sequence": 3,
+      "roles": [
+        "Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035866",
+      "name": "R.G. Armstrong",
+      "sequence": 4,
+      "roles": [
+        "Sheriff Taylor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0849623",
+      "name": "Clay Tanner",
+      "sequence": 5,
+      "roles": [
+        "Delbert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088788",
+      "name": "Carol Blodgett",
+      "sequence": 6,
+      "roles": [
+        "Ethel Henderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0393918",
+      "name": "Phil Hoover",
+      "sequence": 7,
+      "roles": [
+        "Mechanic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912148",
+      "name": "Ricci Ware",
+      "sequence": 8,
+      "roles": [
+        "Ricci Ware"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663935",
+      "name": "Paul A. Partain",
+      "sequence": 9,
+      "roles": [
+        "Cal Mathers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364099",
+      "name": "James N. Harrell",
+      "sequence": 10,
+      "roles": [
+        "Gun Shop Owner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588702",
+      "name": "Karen Miller",
+      "sequence": 11,
+      "roles": [
+        "Kay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089475",
+      "name": "Arkey Blue",
+      "sequence": 12,
+      "roles": [
+        "Arkey Blue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0823630",
+      "name": "Jack Starrett",
+      "sequence": 13,
+      "roles": [
+        "Gas Station Attendant"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0084218",
       "name": "Wes Bishop",
+      "sequence": 14,
+      "roles": [
+        "Deputy Dave"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0296532",
+      "name": "Lee Frost",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
+    },
+    {
+      "person_imdb_id": "nm0084218",
+      "name": "Wes Bishop",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1975-06-27",

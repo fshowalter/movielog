@@ -1,114 +1,6 @@
 {
   "imdb_id": "tt0026319",
   "sort_title": "Escapade (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Fritz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707023",
-      "name": "Luise Rainer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Leopoldine Dur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604656",
-      "name": "Frank Morgan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Karl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115597",
-      "name": "Virginia Bruce",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gerta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654239",
-      "name": "Reginald Owen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160130",
-      "name": "Mady Christians",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Anita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187711",
-      "name": "Laura Hope Crews",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Countess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871287",
-      "name": "Henry Travers",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Concierge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0173920",
-      "name": "Mathilde Comont",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Carmen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146905",
-      "name": "Paul Cavanagh",
-      "sequence": 9,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0108772",
-      "name": "Lorraine Bridges",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Singer 'You're All I Need'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1080296",
-      "name": "Tommy Tucker",
-      "sequence": 25,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Child"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0502752",
@@ -117,27 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Fritz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707023",
+      "name": "Luise Rainer",
+      "sequence": 1,
+      "roles": [
+        "Leopoldine Dur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604656",
+      "name": "Frank Morgan",
+      "sequence": 2,
+      "roles": [
+        "Karl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115597",
+      "name": "Virginia Bruce",
+      "sequence": 3,
+      "roles": [
+        "Gerta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654239",
+      "name": "Reginald Owen",
+      "sequence": 4,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160130",
+      "name": "Mady Christians",
+      "sequence": 5,
+      "roles": [
+        "Anita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187711",
+      "name": "Laura Hope Crews",
+      "sequence": 6,
+      "roles": [
+        "Countess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871287",
+      "name": "Henry Travers",
+      "sequence": 7,
+      "roles": [
+        "Concierge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0173920",
+      "name": "Mathilde Comont",
+      "sequence": 8,
+      "roles": [
+        "Carmen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146905",
+      "name": "Paul Cavanagh",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0108772",
+      "name": "Lorraine Bridges",
+      "sequence": 10,
+      "roles": [
+        "Singer 'You're All I Need'"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0286924",
       "name": "Willi Forst",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 0
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0542534",
       "name": "Herman J. Mankiewicz",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0281556",
       "name": "Walter Reisch",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1935-07-06",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0042804",
   "sort_title": "Los Olvidados (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0408494",
-      "name": "Estela Inda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "La madre de Pedro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408475",
-      "name": "Miguel Incl\u00e1n",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Don Carmelo, el ciego"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577219",
-      "name": "Alfonso Mej\u00eda",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pedro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167952",
-      "name": "Roberto Cobo",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "El Jaibo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0297384",
-      "name": "Alma Delia Fuentes",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Meche"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416220",
-      "name": "Francisco Jambrina",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "El director de la escuela granja"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0306195",
-      "name": "Jes\u00fas Garc\u00eda",
-      "sequence": 6,
-      "notes": "(as Jes\u00fas Garc\u00eda Navarro)",
-      "roles": [
-        "El padre de Juli\u00e1n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033232",
-      "name": "Efra\u00edn Arauz",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Cacarizo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898094",
-      "name": "Sergio Virel",
-      "sequence": 8,
-      "notes": "(as Sergio Villarreal)",
-      "roles": [
-        "Miembro pandilla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0701964",
-      "name": "Jorge P\u00e9rez",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pel\u00f3n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025537",
-      "name": "Javier Am\u00e9zcua",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Juli\u00e1n"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709295",
-      "name": "Mario Ram\u00edrez",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ojitos"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -119,41 +9,151 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0408494",
+      "name": "Estela Inda",
+      "sequence": 0,
+      "roles": [
+        "La madre de Pedro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408475",
+      "name": "Miguel Incl\u00e1n",
+      "sequence": 1,
+      "roles": [
+        "Don Carmelo, el ciego"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0577219",
+      "name": "Alfonso Mej\u00eda",
+      "sequence": 2,
+      "roles": [
+        "Pedro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167952",
+      "name": "Roberto Cobo",
+      "sequence": 3,
+      "roles": [
+        "El Jaibo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0297384",
+      "name": "Alma Delia Fuentes",
+      "sequence": 4,
+      "roles": [
+        "Meche"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416220",
+      "name": "Francisco Jambrina",
+      "sequence": 5,
+      "roles": [
+        "El director de la escuela granja"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0306195",
+      "name": "Jes\u00fas Garc\u00eda",
+      "sequence": 6,
+      "roles": [
+        "El padre de Juli\u00e1n"
+      ],
+      "notes": "(as Jes\u00fas Garc\u00eda Navarro)"
+    },
+    {
+      "person_imdb_id": "nm0033232",
+      "name": "Efra\u00edn Arauz",
+      "sequence": 7,
+      "roles": [
+        "Cacarizo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898094",
+      "name": "Sergio Virel",
+      "sequence": 8,
+      "roles": [
+        "Miembro pandilla"
+      ],
+      "notes": "(as Sergio Villarreal)"
+    },
+    {
+      "person_imdb_id": "nm0701964",
+      "name": "Jorge P\u00e9rez",
+      "sequence": 9,
+      "roles": [
+        "Pel\u00f3n"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0025537",
+      "name": "Javier Am\u00e9zcua",
+      "sequence": 10,
+      "roles": [
+        "Juli\u00e1n"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709295",
+      "name": "Mario Ram\u00edrez",
+      "sequence": 11,
+      "roles": [
+        "Ojitos"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0017274",
       "name": "Luis Alcoriza",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0041255",
       "name": "Max Aub",
+      "group": 1,
       "sequence": 0,
-      "notes": "(dialogue collaborator) (uncredited)",
-      "group_id": 1
+      "notes": "(dialogue collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0488601",
       "name": "Juan Larrea",
+      "group": 3,
       "sequence": 0,
-      "notes": "(dialogue collaborator) (uncredited)",
-      "group_id": 3
+      "notes": "(dialogue collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0211993",
       "name": "Pedro de Urdimalas",
+      "group": 4,
       "sequence": 0,
-      "notes": "(dialogue collaborator) (uncredited)",
-      "group_id": 4
+      "notes": "(dialogue collaborator) (uncredited)"
     }
   ],
   "release_date": "1950-11-09",

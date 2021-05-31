@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0070363",
   "sort_title": "Man Who Loved Cat Dancing (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jay Grobart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587234",
-      "name": "Sarah Miles",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Catherine Crocker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002011",
-      "name": "Lee J. Cobb",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harvey Lapchance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912001",
-      "name": "Jack Warden",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dawes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001313",
-      "name": "George Hamilton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Willard Crocker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005019",
-      "name": "Bo Hopkins",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Billy Bowen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232817",
-      "name": "Robert Donner",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dub"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450687",
-      "name": "Sandy McPeak",
-      "sequence": 7,
-      "notes": "(as Sandy Kevin)",
-      "roles": [
-        "Ben"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514686",
-      "name": "Larry Littlebird",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Iron Knife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540487",
-      "name": "Nancy Malone",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sudie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798855",
-      "name": "Jay Silverheels",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885034",
-      "name": "Jay Varela",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Charlie Bent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124184",
-      "name": "Owen Bush",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Conductor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0278054",
-      "name": "Larry Finley",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0305714",
-      "name": "Sutero Garc\u00eda Jr.",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Dream Speaker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0764781",
@@ -146,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 0,
+      "roles": [
+        "Jay Grobart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587234",
+      "name": "Sarah Miles",
+      "sequence": 1,
+      "roles": [
+        "Catherine Crocker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002011",
+      "name": "Lee J. Cobb",
+      "sequence": 2,
+      "roles": [
+        "Harvey Lapchance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912001",
+      "name": "Jack Warden",
+      "sequence": 3,
+      "roles": [
+        "Dawes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001313",
+      "name": "George Hamilton",
+      "sequence": 4,
+      "roles": [
+        "Willard Crocker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005019",
+      "name": "Bo Hopkins",
+      "sequence": 5,
+      "roles": [
+        "Billy Bowen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232817",
+      "name": "Robert Donner",
+      "sequence": 6,
+      "roles": [
+        "Dub"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450687",
+      "name": "Sandy McPeak",
+      "sequence": 7,
+      "roles": [
+        "Ben"
+      ],
+      "notes": "(as Sandy Kevin)"
+    },
+    {
+      "person_imdb_id": "nm0514686",
+      "name": "Larry Littlebird",
+      "sequence": 8,
+      "roles": [
+        "Iron Knife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540487",
+      "name": "Nancy Malone",
+      "sequence": 9,
+      "roles": [
+        "Sudie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798855",
+      "name": "Jay Silverheels",
+      "sequence": 10,
+      "roles": [
+        "The Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885034",
+      "name": "Jay Varela",
+      "sequence": 11,
+      "roles": [
+        "Charlie Bent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124184",
+      "name": "Owen Bush",
+      "sequence": 12,
+      "roles": [
+        "Conductor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0278054",
+      "name": "Larry Finley",
+      "sequence": 13,
+      "roles": [
+        "Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0305714",
+      "name": "Sutero Garc\u00eda Jr.",
+      "sequence": 14,
+      "roles": [
+        "Dream Speaker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0244092",
       "name": "Marilyn Durham",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0675052",
       "name": "Eleanor Perry",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0636151",
       "name": "William W. Norton",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 2
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1973-06-28",

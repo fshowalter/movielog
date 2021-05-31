@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0091064",
   "sort_title": "Fly (1986)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000156",
-      "name": "Jeff Goldblum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Seth Brundle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000133",
-      "name": "Geena Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Veronica Quaife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0315288",
-      "name": "John Getz",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stathis Borans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0100205",
-      "name": "Joy Boushel",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tawny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137967",
-      "name": "Leslie Carlson",
-      "sequence": 4,
-      "notes": "(as Les Carlson)",
-      "roles": [
-        "Dr. Cheevers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161546",
-      "name": "George Chuvalo",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178680",
-      "name": "Michael Copeman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "2nd Man in Bar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000343",
-      "name": "David Cronenberg",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gynecologist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493706",
-      "name": "Carol Lazare",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382087",
-      "name": "Shawn Hewitt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Clerk"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000343",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0486228",
-      "name": "George Langelaan",
+      "person_imdb_id": "nm0000156",
+      "name": "Jeff Goldblum",
       "sequence": 0,
-      "notes": "(short story)",
-      "group_id": 0
+      "roles": [
+        "Seth Brundle"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0688279",
-      "name": "Charles Edward Pogue",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "person_imdb_id": "nm0000133",
+      "name": "Geena Davis",
+      "sequence": 1,
+      "roles": [
+        "Veronica Quaife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0315288",
+      "name": "John Getz",
+      "sequence": 2,
+      "roles": [
+        "Stathis Borans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0100205",
+      "name": "Joy Boushel",
+      "sequence": 3,
+      "roles": [
+        "Tawny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137967",
+      "name": "Leslie Carlson",
+      "sequence": 4,
+      "roles": [
+        "Dr. Cheevers"
+      ],
+      "notes": "(as Les Carlson)"
+    },
+    {
+      "person_imdb_id": "nm0161546",
+      "name": "George Chuvalo",
+      "sequence": 5,
+      "roles": [
+        "Marky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178680",
+      "name": "Michael Copeman",
+      "sequence": 6,
+      "roles": [
+        "2nd Man in Bar"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0000343",
       "name": "David Cronenberg",
+      "sequence": 7,
+      "roles": [
+        "Gynecologist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493706",
+      "name": "Carol Lazare",
+      "sequence": 8,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382087",
+      "name": "Shawn Hewitt",
+      "sequence": 9,
+      "roles": [
+        "Clerk"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0486228",
+      "name": "George Langelaan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(short story)"
+    },
+    {
+      "person_imdb_id": "nm0688279",
+      "name": "Charles Edward Pogue",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0000343",
+      "name": "David Cronenberg",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1986-08-15",

@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0021507",
   "sort_title": "Deceiver (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0400763",
-      "name": "Lloyd Hughes",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tony Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0780941",
-      "name": "Dorothy Sebastian",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ina Fontanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445246",
-      "name": "Ian Keith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Reginald Thorpe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602096",
-      "name": "Natalie Moorhead",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Lawton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875983",
-      "name": "Richard Tucker",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Lawton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126389",
-      "name": "George Byron",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Speedy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335215",
-      "name": "Greta Granstedt",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Celia Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455706",
-      "name": "Murray Kinnell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Breckinridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421138",
-      "name": "DeWitt Jennings",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Inspector Dunn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0305087",
-      "name": "Al Ernest Garcia",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Payne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164003",
-      "name": "Harvey Clark",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Nat Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0102718",
-      "name": "Sidney Bracey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Barney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356556",
-      "name": "Frank Holliday",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132321",
-      "name": "Colin Campbell",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dr. Schulz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178645",
-      "name": "Nick Copeland",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Stage manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Richard Thorpe as a corpse"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0003422",
@@ -155,41 +9,187 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0400763",
+      "name": "Lloyd Hughes",
+      "sequence": 0,
+      "roles": [
+        "Tony Hill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0780941",
+      "name": "Dorothy Sebastian",
+      "sequence": 1,
+      "roles": [
+        "Ina Fontanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445246",
+      "name": "Ian Keith",
+      "sequence": 2,
+      "roles": [
+        "Reginald Thorpe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602096",
+      "name": "Natalie Moorhead",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Lawton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875983",
+      "name": "Richard Tucker",
+      "sequence": 4,
+      "roles": [
+        "Mr. Lawton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126389",
+      "name": "George Byron",
+      "sequence": 5,
+      "roles": [
+        "Speedy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335215",
+      "name": "Greta Granstedt",
+      "sequence": 6,
+      "roles": [
+        "Celia Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455706",
+      "name": "Murray Kinnell",
+      "sequence": 7,
+      "roles": [
+        "Breckinridge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421138",
+      "name": "DeWitt Jennings",
+      "sequence": 8,
+      "roles": [
+        "Inspector Dunn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0305087",
+      "name": "Al Ernest Garcia",
+      "sequence": 9,
+      "roles": [
+        "Payne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164003",
+      "name": "Harvey Clark",
+      "sequence": 10,
+      "roles": [
+        "Nat Phillips"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0102718",
+      "name": "Sidney Bracey",
+      "sequence": 11,
+      "roles": [
+        "Barney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356556",
+      "name": "Frank Holliday",
+      "sequence": 12,
+      "roles": [
+        "Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132321",
+      "name": "Colin Campbell",
+      "sequence": 13,
+      "roles": [
+        "Dr. Schulz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178645",
+      "name": "Nick Copeland",
+      "sequence": 14,
+      "roles": [
+        "Stage manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 15,
+      "roles": [
+        "Richard Thorpe as a corpse"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0192325",
       "name": "Jack Cunningham",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0277874",
       "name": "Abem Finkel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"It Might Have Happened\")",
-      "group_id": 1
+      "notes": "(story \"It Might Have Happened\")"
     },
     {
       "person_imdb_id": "nm0517786",
       "name": "Charles Logue",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0612841",
       "name": "Bella Muni",
+      "group": 3,
       "sequence": 0,
-      "notes": "(story \"It Might Have Happened\")",
-      "group_id": 3
+      "notes": "(story \"It Might Have Happened\")"
     },
     {
       "person_imdb_id": "nm0842485",
       "name": "Jo Swerling",
+      "group": 4,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 4
+      "notes": "()"
     }
   ],
   "release_date": "1931-11-21",

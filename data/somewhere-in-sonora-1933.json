@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0024592",
   "sort_title": "Somewhere in Sonora (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Bishop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1349117",
-      "name": "Duke",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Duke - John's Horse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910400",
-      "name": "Henry B. Walthall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bob Leadly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658450",
-      "name": "Shirley Palmer",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mary Burton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269543",
-      "name": "Ann Fay",
-      "sequence": 4,
-      "notes": "(as Ann Faye)",
-      "roles": [
-        "Patsy Ellis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569645",
-      "name": "J.P. McGowan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Monte Black"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bart Leadly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507635",
-      "name": "Ralph Lewis",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Kelly Burton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723423",
-      "name": "Frank Rice",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Riley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290767",
-      "name": "Billy Franey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Shorty"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0942611",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Bishop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1349117",
+      "name": "Duke",
+      "sequence": 1,
+      "roles": [
+        "Duke - John's Horse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910400",
+      "name": "Henry B. Walthall",
+      "sequence": 2,
+      "roles": [
+        "Bob Leadly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658450",
+      "name": "Shirley Palmer",
+      "sequence": 3,
+      "roles": [
+        "Mary Burton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269543",
+      "name": "Ann Fay",
+      "sequence": 4,
+      "roles": [
+        "Patsy Ellis"
+      ],
+      "notes": "(as Ann Faye)"
+    },
+    {
+      "person_imdb_id": "nm0569645",
+      "name": "J.P. McGowan",
+      "sequence": 5,
+      "roles": [
+        "Monte Black"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 6,
+      "roles": [
+        "Bart Leadly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507635",
+      "name": "Ralph Lewis",
+      "sequence": 7,
+      "roles": [
+        "Mr. Kelly Burton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723423",
+      "name": "Frank Rice",
+      "sequence": 8,
+      "roles": [
+        "Riley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290767",
+      "name": "Billy Franey",
+      "sequence": 9,
+      "roles": [
+        "Shorty"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0173810",
       "name": "Will Levington Comfort",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"Somewhere South in Sonora\" in The Saturday Evening Post)",
-      "group_id": 0
+      "notes": "(story \"Somewhere South in Sonora\" in The Saturday Evening Post)"
     },
     {
       "person_imdb_id": "nm0730039",
       "name": "Joseph Anthony Roach",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation and dialogue) (as Joe Roach)",
-      "group_id": 1
+      "notes": "(adaptation and dialogue) (as Joe Roach)"
     }
   ],
   "release_date": "1933-05-27",

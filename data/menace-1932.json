@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0020875",
   "sort_title": "Menace (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0912478",
-      "name": "H.B. Warner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Inspector Tracy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126430",
-      "name": "Walter Byron",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ronald Quayle",
-        "Robert Crockett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Peggy Lowell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602096",
-      "name": "Natalie Moorhead",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Caroline Quayle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203527",
-      "name": "William B. Davidson",
-      "sequence": 4,
-      "notes": "(as William Davidson)",
-      "roles": [
-        "John Utterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448696",
-      "name": "Crauford Kent",
-      "sequence": 5,
-      "notes": "(as Craufurd Kent)",
-      "roles": [
-        "Sam Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387561",
-      "name": "Halliwell Hobbes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314699",
-      "name": "Charles K. Gerrard",
-      "sequence": 7,
-      "notes": "(as Charles Gerrard)",
-      "roles": [
-        "Bailiff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455706",
-      "name": "Murray Kinnell",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Carr"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0624756",
@@ -93,27 +9,111 @@
       "notes": "(as Roy William Neil)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0912478",
+      "name": "H.B. Warner",
+      "sequence": 0,
+      "roles": [
+        "Inspector Tracy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126430",
+      "name": "Walter Byron",
+      "sequence": 1,
+      "roles": [
+        "Ronald Quayle",
+        "Robert Crockett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 2,
+      "roles": [
+        "Peggy Lowell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602096",
+      "name": "Natalie Moorhead",
+      "sequence": 3,
+      "roles": [
+        "Caroline Quayle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203527",
+      "name": "William B. Davidson",
+      "sequence": 4,
+      "roles": [
+        "John Utterson"
+      ],
+      "notes": "(as William Davidson)"
+    },
+    {
+      "person_imdb_id": "nm0448696",
+      "name": "Crauford Kent",
+      "sequence": 5,
+      "roles": [
+        "Sam Lewis"
+      ],
+      "notes": "(as Craufurd Kent)"
+    },
+    {
+      "person_imdb_id": "nm0387561",
+      "name": "Halliwell Hobbes",
+      "sequence": 6,
+      "roles": [
+        "Phillips"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314699",
+      "name": "Charles K. Gerrard",
+      "sequence": 7,
+      "roles": [
+        "Bailiff"
+      ],
+      "notes": "(as Charles Gerrard)"
+    },
+    {
+      "person_imdb_id": "nm0455706",
+      "name": "Murray Kinnell",
+      "sequence": 8,
+      "roles": [
+        "Carr"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0151949",
       "name": "Roy Chanslor",
+      "group": 0,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0517786",
       "name": "Charles Logue",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0908624",
       "name": "Edgar Wallace",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"The Feathered Serpent\")",
-      "group_id": 2
+      "notes": "(story \"The Feathered Serpent\")"
     }
   ],
   "release_date": "1932-01-29",

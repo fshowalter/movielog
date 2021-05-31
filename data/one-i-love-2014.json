@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt2756032",
   "sort_title": "One I Love (2014)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0243233",
-      "name": "Mark Duplass",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ethan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005253",
-      "name": "Elisabeth Moss",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sophie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001101",
-      "name": "Ted Danson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Therapist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6686435",
-      "name": "Kiana Cason",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Waitress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6686436",
-      "name": "Kaitlyn Dodson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Diner Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6686437",
-      "name": "Lori Farrar",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Diner Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7012769",
-      "name": "Marlene Malin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Diner Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6686438",
-      "name": "Tim Peddicord",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Diner Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6686439",
-      "name": "Ryan Pederson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Diner Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5672956",
-      "name": "Brett Bietz",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "Doug"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1545860",
-      "name": "Sean O'Malley",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "Dave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005460",
-      "name": "Mary Steenburgen",
-      "sequence": 11,
-      "notes": "(voice)",
-      "roles": [
-        "Mom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2427020",
-      "name": "Drew Langer",
-      "sequence": 12,
-      "notes": "(voice)",
-      "roles": [
-        "Brett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3106105",
-      "name": "Jennifer Spriggs",
-      "sequence": 13,
-      "notes": "(voice)",
-      "roles": [
-        "Ellen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1660595",
-      "name": "Charlie McDowell",
-      "sequence": 14,
-      "notes": "(voice)",
-      "roles": [
-        "Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2400555",
-      "name": "Mel Eslyn",
-      "sequence": 15,
-      "notes": "(voice)",
-      "roles": [
-        "Victoria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1900756",
-      "name": "Jeremy Mackie",
-      "sequence": 16,
-      "notes": "(voice)",
-      "roles": [
-        "Other Male"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2758686",
-      "name": "Liz Lash",
-      "sequence": 17,
-      "notes": "(voice)",
-      "roles": [
-        "Other Female"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1660595",
@@ -173,13 +9,177 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0243233",
+      "name": "Mark Duplass",
+      "sequence": 0,
+      "roles": [
+        "Ethan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005253",
+      "name": "Elisabeth Moss",
+      "sequence": 1,
+      "roles": [
+        "Sophie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001101",
+      "name": "Ted Danson",
+      "sequence": 2,
+      "roles": [
+        "Therapist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6686435",
+      "name": "Kiana Cason",
+      "sequence": 3,
+      "roles": [
+        "Waitress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6686436",
+      "name": "Kaitlyn Dodson",
+      "sequence": 4,
+      "roles": [
+        "Diner Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6686437",
+      "name": "Lori Farrar",
+      "sequence": 5,
+      "roles": [
+        "Diner Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7012769",
+      "name": "Marlene Malin",
+      "sequence": 6,
+      "roles": [
+        "Diner Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6686438",
+      "name": "Tim Peddicord",
+      "sequence": 7,
+      "roles": [
+        "Diner Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6686439",
+      "name": "Ryan Pederson",
+      "sequence": 8,
+      "roles": [
+        "Diner Patron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5672956",
+      "name": "Brett Bietz",
+      "sequence": 9,
+      "roles": [
+        "Doug"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1545860",
+      "name": "Sean O'Malley",
+      "sequence": 10,
+      "roles": [
+        "Dave"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0005460",
+      "name": "Mary Steenburgen",
+      "sequence": 11,
+      "roles": [
+        "Mom"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2427020",
+      "name": "Drew Langer",
+      "sequence": 12,
+      "roles": [
+        "Brett"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm3106105",
+      "name": "Jennifer Spriggs",
+      "sequence": 13,
+      "roles": [
+        "Ellen"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1660595",
+      "name": "Charlie McDowell",
+      "sequence": 14,
+      "roles": [
+        "Madison"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2400555",
+      "name": "Mel Eslyn",
+      "sequence": 15,
+      "roles": [
+        "Victoria"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1900756",
+      "name": "Jeremy Mackie",
+      "sequence": 16,
+      "roles": [
+        "Other Male"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2758686",
+      "name": "Liz Lash",
+      "sequence": 17,
+      "roles": [
+        "Other Female"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1645301",
       "name": "Justin Lader",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2014-01-21",

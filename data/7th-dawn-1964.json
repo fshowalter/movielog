@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0057813",
   "sort_title": "7th Dawn (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Major Ferris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948772",
-      "name": "Susannah York",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Candace Trumpey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001010",
-      "name": "Capucine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dhana Mercier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848533",
-      "name": "Tetsur\u00f4 Tanba",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ng"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328982",
-      "name": "Michael Goodliffe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Trumphey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193862",
-      "name": "Allan Cuthbertson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cavendish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0846407",
-      "name": "Sydney Tafler",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tom - Chief Petty Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219062",
-      "name": "Maurice Denham",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tarlton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0704511",
-      "name": "Beulah Quo",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ah Ming"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0318150",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Major Ferris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0948772",
+      "name": "Susannah York",
+      "sequence": 1,
+      "roles": [
+        "Candace Trumpey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001010",
+      "name": "Capucine",
+      "sequence": 2,
+      "roles": [
+        "Dhana Mercier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848533",
+      "name": "Tetsur\u00f4 Tanba",
+      "sequence": 3,
+      "roles": [
+        "Ng"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328982",
+      "name": "Michael Goodliffe",
+      "sequence": 4,
+      "roles": [
+        "Trumphey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193862",
+      "name": "Allan Cuthbertson",
+      "sequence": 5,
+      "roles": [
+        "Cavendish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0846407",
+      "name": "Sydney Tafler",
+      "sequence": 6,
+      "roles": [
+        "Tom - Chief Petty Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219062",
+      "name": "Maurice Denham",
+      "sequence": 7,
+      "roles": [
+        "Tarlton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0704511",
+      "name": "Beulah Quo",
+      "sequence": 8,
+      "roles": [
+        "Ah Ming"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0449077",
       "name": "Michael Keon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Durian Tree\")",
-      "group_id": 0
+      "notes": "(novel \"The Durian Tree\")"
     },
     {
       "person_imdb_id": "nm0876562",
       "name": "Karl Tunberg",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1964-08-13",

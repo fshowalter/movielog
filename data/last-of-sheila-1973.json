@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0070291",
   "sort_title": "Last of Sheila (1973)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000907",
-      "name": "Richard Benjamin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001007",
-      "name": "Dyan Cannon",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Christine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000336",
-      "name": "James Coburn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clinton Green"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352466",
-      "name": "Joan Hackett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000051",
-      "name": "James Mason",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Philip"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574534",
-      "name": "Ian McShane",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Anthony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000079",
-      "name": "Raquel Welch",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Alice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738635",
-      "name": "Yvonne Romain",
-      "sequence": 7,
-      "notes": "(as Yvonne Romaine)",
-      "roles": [
-        "Sheila Green"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744487",
-      "name": "Pierre Rosso",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Vittorio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0162909",
-      "name": "Serge Citon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Guido"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744307",
-      "name": "Robert Rossi",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312030",
-      "name": "Elaine Geisinger",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "American Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312031",
-      "name": "Elliot Geisinger",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "American Husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700018",
-      "name": "Jack Pugeat",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Silver Salesman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0006889",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000907",
+      "name": "Richard Benjamin",
+      "sequence": 0,
+      "roles": [
+        "Tom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001007",
+      "name": "Dyan Cannon",
+      "sequence": 1,
+      "roles": [
+        "Christine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000336",
+      "name": "James Coburn",
+      "sequence": 2,
+      "roles": [
+        "Clinton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352466",
+      "name": "Joan Hackett",
+      "sequence": 3,
+      "roles": [
+        "Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000051",
+      "name": "James Mason",
+      "sequence": 4,
+      "roles": [
+        "Philip"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574534",
+      "name": "Ian McShane",
+      "sequence": 5,
+      "roles": [
+        "Anthony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000079",
+      "name": "Raquel Welch",
+      "sequence": 6,
+      "roles": [
+        "Alice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738635",
+      "name": "Yvonne Romain",
+      "sequence": 7,
+      "roles": [
+        "Sheila"
+      ],
+      "notes": "(as Yvonne Romaine)"
+    },
+    {
+      "person_imdb_id": "nm0744487",
+      "name": "Pierre Rosso",
+      "sequence": 8,
+      "roles": [
+        "Vittorio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0162909",
+      "name": "Serge Citon",
+      "sequence": 9,
+      "roles": [
+        "Guido"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744307",
+      "name": "Robert Rossi",
+      "sequence": 10,
+      "roles": [
+        "Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312030",
+      "name": "Elaine Geisinger",
+      "sequence": 11,
+      "roles": [
+        "American Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312031",
+      "name": "Elliot Geisinger",
+      "sequence": 12,
+      "roles": [
+        "American Husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700018",
+      "name": "Jack Pugeat",
+      "sequence": 13,
+      "roles": [
+        "Silver Salesman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0814227",
       "name": "Stephen Sondheim",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000578",
       "name": "Anthony Perkins",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "1973-06-14",

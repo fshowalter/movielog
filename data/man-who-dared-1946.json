@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0038722",
   "sort_title": "Man Who Dared (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0112108",
-      "name": "Leslie Brooks",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lorna Claibourne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534317",
-      "name": "George Macready",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Donald Wayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875861",
-      "name": "Forrest Tucker",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Larry James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113184",
-      "name": "Charles D. Brown",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dist. Atty. Darrell Tyson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590224",
-      "name": "Warren Mills",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Felix"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354989",
-      "name": "Richard Hale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Reginald Fogg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262623",
-      "name": "Charles Evans",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054253",
-      "name": "Trevor Bardette",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Police Sgt. Arthur Landis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627840",
-      "name": "William Newell",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Police Sgt. Clay"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0112108",
+      "name": "Leslie Brooks",
+      "sequence": 0,
+      "roles": [
+        "Lorna Claibourne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534317",
+      "name": "George Macready",
+      "sequence": 1,
+      "roles": [
+        "Donald Wayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875861",
+      "name": "Forrest Tucker",
+      "sequence": 2,
+      "roles": [
+        "Larry James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113184",
+      "name": "Charles D. Brown",
+      "sequence": 3,
+      "roles": [
+        "Dist. Atty. Darrell Tyson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590224",
+      "name": "Warren Mills",
+      "sequence": 4,
+      "roles": [
+        "Felix"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354989",
+      "name": "Richard Hale",
+      "sequence": 5,
+      "roles": [
+        "Reginald Fogg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262623",
+      "name": "Charles Evans",
+      "sequence": 6,
+      "roles": [
+        "Judge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054253",
+      "name": "Trevor Bardette",
+      "sequence": 7,
+      "roles": [
+        "Police Sgt. Arthur Landis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627840",
+      "name": "William Newell",
+      "sequence": 8,
+      "roles": [
+        "Police Sgt. Clay"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0090645",
       "name": "Edward Bock",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0102167",
       "name": "Malcolm Stuart Boylan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0788058",
       "name": "Maxwell Shane",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 2
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0331944",
       "name": "Alex Gottlieb",
-      "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1946-05-30",

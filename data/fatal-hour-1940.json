@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0032457",
   "sort_title": "Fatal Hour (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "James Lee Wong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721851",
-      "name": "Marjorie Reynolds",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Roberta 'Bobbie' Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936728",
-      "name": "Grant Withers",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Bill Street"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "John T. Forbes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700084",
-      "name": "Frank Puglia",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harry 'Hardway' Lockett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721660",
-      "name": "Craig Reynolds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Frank Belden, Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0156745",
-      "name": "Lita Chevret",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tanya Serova"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833340",
-      "name": "Harry Strang",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Det. Ballard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0040341",
-      "name": "Hooper Atchley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frank Belden Sr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730165",
-      "name": "Jason Robards Sr.",
-      "sequence": 9,
-      "notes": "(as Jason Robards)",
-      "roles": [
-        "Griswold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519618",
-      "name": "Richard Loo",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jeweler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448076",
-      "name": "Jack Kennedy",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mike, Police Sergeant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0631438",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "James Lee Wong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721851",
+      "name": "Marjorie Reynolds",
+      "sequence": 1,
+      "roles": [
+        "Roberta 'Bobbie' Logan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936728",
+      "name": "Grant Withers",
+      "sequence": 2,
+      "roles": [
+        "Capt. Bill Street"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 3,
+      "roles": [
+        "John T. Forbes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700084",
+      "name": "Frank Puglia",
+      "sequence": 4,
+      "roles": [
+        "Harry 'Hardway' Lockett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721660",
+      "name": "Craig Reynolds",
+      "sequence": 5,
+      "roles": [
+        "Frank Belden, Jr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0156745",
+      "name": "Lita Chevret",
+      "sequence": 6,
+      "roles": [
+        "Tanya Serova"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833340",
+      "name": "Harry Strang",
+      "sequence": 7,
+      "roles": [
+        "Det. Ballard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0040341",
+      "name": "Hooper Atchley",
+      "sequence": 8,
+      "roles": [
+        "Frank Belden Sr."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730165",
+      "name": "Jason Robards Sr.",
+      "sequence": 9,
+      "roles": [
+        "Griswold"
+      ],
+      "notes": "(as Jason Robards)"
+    },
+    {
+      "person_imdb_id": "nm0519618",
+      "name": "Richard Loo",
+      "sequence": 10,
+      "roles": [
+        "Jeweler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448076",
+      "name": "Jack Kennedy",
+      "sequence": 11,
+      "roles": [
+        "Mike, Police Sergeant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0201405",
       "name": "Scott Darling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0905729",
       "name": "George Waggner",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (as Joseph West)",
-      "group_id": 1
+      "notes": "(adaptation) (as Joseph West)"
     },
     {
       "person_imdb_id": "nm0928840",
       "name": "Hugh Wiley",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on the \"James Lee Wong\" Series in Collier's Magazine written by)",
-      "group_id": 2
+      "notes": "(based on the \"James Lee Wong\" Series in Collier's Magazine written by)"
     }
   ],
   "release_date": "1940-01-15",

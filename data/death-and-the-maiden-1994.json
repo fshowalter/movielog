@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0109579",
   "sort_title": "Death and the Maiden (1994)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000244",
-      "name": "Sigourney Weaver",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Paulina Escobar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001426",
-      "name": "Ben Kingsley",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Roberto Miranda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934179",
-      "name": "Stuart Wilson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gerardo Escobar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610210",
-      "name": "Krystia Mova",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Miranda's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891842",
-      "name": "Jonathan Vega",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Miranda's Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891905",
-      "name": "Rodolphe Vega",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Miranda's Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181532",
-      "name": "Gilberto Cort\u00e9s",
-      "sequence": 6,
-      "notes": "(as Gilberto Cortes)",
-      "roles": [
-        "String Quartet Player"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0190351",
-      "name": "Jorge Cruz",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "String Quartet Player"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603897",
-      "name": "Carlos Moreno",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "String Quartet Player"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884443",
-      "name": "Eduardo Valenzuela",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "String Quartet Player"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023195",
-      "name": "Sergio Ortega Alvarado",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "String Quartet Manager"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000591",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000244",
+      "name": "Sigourney Weaver",
+      "sequence": 0,
+      "roles": [
+        "Paulina Escobar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001426",
+      "name": "Ben Kingsley",
+      "sequence": 1,
+      "roles": [
+        "Dr. Roberto Miranda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934179",
+      "name": "Stuart Wilson",
+      "sequence": 2,
+      "roles": [
+        "Gerardo Escobar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610210",
+      "name": "Krystia Mova",
+      "sequence": 3,
+      "roles": [
+        "Dr. Miranda's Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891842",
+      "name": "Jonathan Vega",
+      "sequence": 4,
+      "roles": [
+        "Dr. Miranda's Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891905",
+      "name": "Rodolphe Vega",
+      "sequence": 5,
+      "roles": [
+        "Dr. Miranda's Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181532",
+      "name": "Gilberto Cort\u00e9s",
+      "sequence": 6,
+      "roles": [
+        "String Quartet Player"
+      ],
+      "notes": "(as Gilberto Cortes)"
+    },
+    {
+      "person_imdb_id": "nm0190351",
+      "name": "Jorge Cruz",
+      "sequence": 7,
+      "roles": [
+        "String Quartet Player"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603897",
+      "name": "Carlos Moreno",
+      "sequence": 8,
+      "roles": [
+        "String Quartet Player"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884443",
+      "name": "Eduardo Valenzuela",
+      "sequence": 9,
+      "roles": [
+        "String Quartet Player"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023195",
+      "name": "Sergio Ortega Alvarado",
+      "sequence": 10,
+      "roles": [
+        "String Quartet Manager"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0233557",
       "name": "Ariel Dorfman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0947913",
       "name": "Rafael Yglesias",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0233557",
       "name": "Ariel Dorfman",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1994-12-23",

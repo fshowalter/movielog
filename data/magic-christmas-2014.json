@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt3970280",
   "sort_title": "Magic Christmas (2014)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001367",
-      "name": "C. Thomas Howell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jack Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001738",
-      "name": "Jonathan Silverman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Robert Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 2,
-      "notes": "(voice)",
-      "roles": [
-        "Buster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792209",
-      "name": "Lisa Sheridan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Holly Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703725",
-      "name": "Maeve Quinlan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Eva Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1553024",
-      "name": "Dashiell Howell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kyle Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6714604",
-      "name": "Sadie Stahura",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sienna Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6018537",
-      "name": "Darien Willardson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tommy Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1059012",
-      "name": "Clara Susan Morey II",
-      "sequence": 8,
-      "notes": "(as Carla Susan)",
-      "roles": [
-        "Mrs. Harmon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6714606",
-      "name": "Bessie Thornton",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mellon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622173",
-      "name": "Jamee Natella",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5017414",
-      "name": "Samuel Mason Paul",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sammy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0321453",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001367",
+      "name": "C. Thomas Howell",
+      "sequence": 0,
+      "roles": [
+        "Jack Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001738",
+      "name": "Jonathan Silverman",
+      "sequence": 1,
+      "roles": [
+        "Robert Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 2,
+      "roles": [
+        "Buster"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0792209",
+      "name": "Lisa Sheridan",
+      "sequence": 3,
+      "roles": [
+        "Holly Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0703725",
+      "name": "Maeve Quinlan",
+      "sequence": 4,
+      "roles": [
+        "Eva Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1553024",
+      "name": "Dashiell Howell",
+      "sequence": 5,
+      "roles": [
+        "Kyle Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6714604",
+      "name": "Sadie Stahura",
+      "sequence": 6,
+      "roles": [
+        "Sienna Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6018537",
+      "name": "Darien Willardson",
+      "sequence": 7,
+      "roles": [
+        "Tommy Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1059012",
+      "name": "Clara Susan Morey II",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Harmon"
+      ],
+      "notes": "(as Carla Susan)"
+    },
+    {
+      "person_imdb_id": "nm6714606",
+      "name": "Bessie Thornton",
+      "sequence": 9,
+      "roles": [
+        "Mellon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622173",
+      "name": "Jamee Natella",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5017414",
+      "name": "Samuel Mason Paul",
+      "sequence": 11,
+      "roles": [
+        "Sammy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0003134",
       "name": "Gregory Poppen",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm1337640",
       "name": "Jon Young",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     }
   ],
   "release_date": "2014-10-28",

@@ -1,164 +1,6 @@
 {
   "imdb_id": "tt0046097",
   "sort_title": "Island Monster (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Don Gaetano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0555807",
-      "name": "Franca Marzi",
-      "sequence": 1,
-      "notes": "(as Frana Marzi)",
-      "roles": [
-        "Gloria D'Auro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0895847",
-      "name": "Renato Vicario",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ten. Mario Andreani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0718936",
-      "name": "Patrizia Remiddi",
-      "sequence": 3,
-      "notes": "(as Patricia Remiddi)",
-      "roles": [
-        "Fiorella Andreani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0276442",
-      "name": "Jole Fierro",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Giulia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0244596",
-      "name": "Carlo Duse",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0660035",
-      "name": "Germana Paolieri",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Adalgisa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0157950",
-      "name": "Giuseppe Chinnici",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maresciallo Antonio Carcani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061402",
-      "name": "Giulio Battiferri",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Il rapitore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210581",
-      "name": "Domenico De Nimmo",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Uomo di Pozzuoli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0303699",
-      "name": "Clara Gamberini",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "La contessa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778444",
-      "name": "Salvatore Scibetta",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Col. Della Finanza"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011732",
-      "name": "Giuseppe Addobbati",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Direttore 'Sirena'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2267724",
-      "name": "Gianni Breschi",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm2265610",
-      "name": "Bruna Camerini",
-      "sequence": 14,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0195045",
-      "name": "Alberto D'Amario",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Morozzi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0221778",
-      "name": "Angelo Dessy",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Un contrabandiere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2267090",
-      "name": "Kitty Vinciguerra",
-      "sequence": 17,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0080576",
@@ -167,27 +9,185 @@
       "notes": "(as Roberto Montero)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Don Gaetano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0555807",
+      "name": "Franca Marzi",
+      "sequence": 1,
+      "roles": [
+        "Gloria D'Auro"
+      ],
+      "notes": "(as Frana Marzi)"
+    },
+    {
+      "person_imdb_id": "nm0895847",
+      "name": "Renato Vicario",
+      "sequence": 2,
+      "roles": [
+        "Ten. Mario Andreani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0718936",
+      "name": "Patrizia Remiddi",
+      "sequence": 3,
+      "roles": [
+        "Fiorella Andreani"
+      ],
+      "notes": "(as Patricia Remiddi)"
+    },
+    {
+      "person_imdb_id": "nm0276442",
+      "name": "Jole Fierro",
+      "sequence": 4,
+      "roles": [
+        "Giulia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0244596",
+      "name": "Carlo Duse",
+      "sequence": 5,
+      "roles": [
+        "Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0660035",
+      "name": "Germana Paolieri",
+      "sequence": 6,
+      "roles": [
+        "Adalgisa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0157950",
+      "name": "Giuseppe Chinnici",
+      "sequence": 7,
+      "roles": [
+        "Maresciallo Antonio Carcani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061402",
+      "name": "Giulio Battiferri",
+      "sequence": 8,
+      "roles": [
+        "Il rapitore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210581",
+      "name": "Domenico De Nimmo",
+      "sequence": 9,
+      "roles": [
+        "Uomo di Pozzuoli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0303699",
+      "name": "Clara Gamberini",
+      "sequence": 10,
+      "roles": [
+        "La contessa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778444",
+      "name": "Salvatore Scibetta",
+      "sequence": 11,
+      "roles": [
+        "Col. Della Finanza"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011732",
+      "name": "Giuseppe Addobbati",
+      "sequence": 12,
+      "roles": [
+        "Direttore 'Sirena'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2267724",
+      "name": "Gianni Breschi",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2265610",
+      "name": "Bruna Camerini",
+      "sequence": 14,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195045",
+      "name": "Alberto D'Amario",
+      "sequence": 15,
+      "roles": [
+        "Morozzi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0221778",
+      "name": "Angelo Dessy",
+      "sequence": 16,
+      "roles": [
+        "Un contrabandiere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2267090",
+      "name": "Kitty Vinciguerra",
+      "sequence": 17,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0080576",
       "name": "Roberto Bianchi Montero",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (as Roberto Montero)",
-      "group_id": 0
+      "notes": "() (as Roberto Montero)"
     },
     {
       "person_imdb_id": "nm0518432",
       "name": "Carlo Lombardo",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0891584",
       "name": "Alberto Vecchietti",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1954-01-02",

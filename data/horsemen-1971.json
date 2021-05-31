@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0067216",
   "sort_title": "Horsemen (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001725",
-      "name": "Omar Sharif",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Uraz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853375",
-      "name": "Leigh Taylor-Young",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Zareh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001588",
-      "name": "Jack Palance",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tursen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420312",
-      "name": "Peter Jeffrey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Hayatal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1548763",
-      "name": "Srinanda De",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mukhi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0613685",
-      "name": "George Murcell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mizrar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0688384",
-      "name": "Eric Pohlmann",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Merchant in Kandahar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0229943",
-      "name": "Vernon Dobtcheff",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Zam Hajji"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006762",
-      "name": "Saeed Jaffrey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "District Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0748660",
-      "name": "John Ruddock",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Scribe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171716",
-      "name": "Mark Colleano",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Rahim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0670323",
-      "name": "Salmaan Peerzada",
-      "sequence": 11,
-      "notes": "(as Salmaan Peer)",
-      "roles": [
-        "Salih"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720251",
-      "name": "Aziz Resham",
-      "sequence": 12,
-      "notes": "(as Aziz Resh)",
-      "roles": [
-        "Bacha to Ghulam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514181",
-      "name": "Leon Lissek",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Chikana Proprietor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820824",
-      "name": "Vida St. Romaine",
-      "sequence": 14,
-      "notes": "(as Vida St Romaine)",
-      "roles": [
-        "Gypsy Woman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001725",
+      "name": "Omar Sharif",
+      "sequence": 0,
+      "roles": [
+        "Uraz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853375",
+      "name": "Leigh Taylor-Young",
+      "sequence": 1,
+      "roles": [
+        "Zareh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001588",
+      "name": "Jack Palance",
+      "sequence": 2,
+      "roles": [
+        "Tursen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420312",
+      "name": "Peter Jeffrey",
+      "sequence": 3,
+      "roles": [
+        "Hayatal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1548763",
+      "name": "Srinanda De",
+      "sequence": 4,
+      "roles": [
+        "Mukhi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0613685",
+      "name": "George Murcell",
+      "sequence": 5,
+      "roles": [
+        "Mizrar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0688384",
+      "name": "Eric Pohlmann",
+      "sequence": 6,
+      "roles": [
+        "Merchant in Kandahar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0229943",
+      "name": "Vernon Dobtcheff",
+      "sequence": 7,
+      "roles": [
+        "Zam Hajji"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006762",
+      "name": "Saeed Jaffrey",
+      "sequence": 8,
+      "roles": [
+        "District Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0748660",
+      "name": "John Ruddock",
+      "sequence": 9,
+      "roles": [
+        "Scribe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171716",
+      "name": "Mark Colleano",
+      "sequence": 10,
+      "roles": [
+        "Rahim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0670323",
+      "name": "Salmaan Peerzada",
+      "sequence": 11,
+      "roles": [
+        "Salih"
+      ],
+      "notes": "(as Salmaan Peer)"
+    },
+    {
+      "person_imdb_id": "nm0720251",
+      "name": "Aziz Resham",
+      "sequence": 12,
+      "roles": [
+        "Bacha to Ghulam"
+      ],
+      "notes": "(as Aziz Resh)"
+    },
+    {
+      "person_imdb_id": "nm0514181",
+      "name": "Leon Lissek",
+      "sequence": 13,
+      "roles": [
+        "Chikana Proprietor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820824",
+      "name": "Vida St. Romaine",
+      "sequence": 14,
+      "roles": [
+        "Gypsy Woman"
+      ],
+      "notes": "(as Vida St Romaine)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0874308",
       "name": "Dalton Trumbo",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0450262",
       "name": "Joseph Kessel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon the novel 'The Horsemen' by)",
-      "group_id": 1
+      "notes": "(based upon the novel 'The Horsemen' by)"
     }
   ],
   "release_date": "1971-07-22",

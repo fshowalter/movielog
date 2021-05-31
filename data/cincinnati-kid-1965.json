@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0059037",
   "sort_title": "Cincinnati Kid (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000537",
-      "name": "Steve McQueen",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Cincinnati Kid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000268",
-      "name": "Ann-Margret",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Melba"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001500",
-      "name": "Karl Malden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Shooter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001839",
-      "name": "Tuesday Weld",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Christian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000064",
-      "name": "Edward G. Robinson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lancey Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000951",
-      "name": "Joan Blondell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lady Fingers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001800",
-      "name": "Rip Torn",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Slade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922967",
-      "name": "Jack Weston",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pig"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130572",
-      "name": "Cab Calloway",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Yeller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179786",
-      "name": "Jeff Corey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hoban"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0546209",
-      "name": "Theodore Marcuse",
-      "sequence": 10,
-      "notes": "(as Theo Marcuse)",
-      "roles": [
-        "Felix"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0783670",
-      "name": "Milton Selzer",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sokal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842425",
-      "name": "Karl Swenson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mr. Rudd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312783",
-      "name": "\u00c9mile Genest",
-      "sequence": 13,
-      "notes": "(as Emile Genest)",
-      "roles": [
-        "Cajun"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0811824",
-      "name": "Ron Soble",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Danny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853792",
-      "name": "Irene Tedrow",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mrs. Rudd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912138",
-      "name": "Midge Ware",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mrs. Slade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852305",
-      "name": "Dub Taylor",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Dealer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0422484",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000537",
+      "name": "Steve McQueen",
+      "sequence": 0,
+      "roles": [
+        "The Cincinnati Kid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000268",
+      "name": "Ann-Margret",
+      "sequence": 1,
+      "roles": [
+        "Melba"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001500",
+      "name": "Karl Malden",
+      "sequence": 2,
+      "roles": [
+        "Shooter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001839",
+      "name": "Tuesday Weld",
+      "sequence": 3,
+      "roles": [
+        "Christian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000064",
+      "name": "Edward G. Robinson",
+      "sequence": 4,
+      "roles": [
+        "Lancey Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000951",
+      "name": "Joan Blondell",
+      "sequence": 5,
+      "roles": [
+        "Lady Fingers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001800",
+      "name": "Rip Torn",
+      "sequence": 6,
+      "roles": [
+        "Slade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922967",
+      "name": "Jack Weston",
+      "sequence": 7,
+      "roles": [
+        "Pig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130572",
+      "name": "Cab Calloway",
+      "sequence": 8,
+      "roles": [
+        "Yeller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179786",
+      "name": "Jeff Corey",
+      "sequence": 9,
+      "roles": [
+        "Hoban"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0546209",
+      "name": "Theodore Marcuse",
+      "sequence": 10,
+      "roles": [
+        "Felix"
+      ],
+      "notes": "(as Theo Marcuse)"
+    },
+    {
+      "person_imdb_id": "nm0783670",
+      "name": "Milton Selzer",
+      "sequence": 11,
+      "roles": [
+        "Sokal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842425",
+      "name": "Karl Swenson",
+      "sequence": 12,
+      "roles": [
+        "Mr. Rudd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312783",
+      "name": "\u00c9mile Genest",
+      "sequence": 13,
+      "roles": [
+        "Cajun"
+      ],
+      "notes": "(as Emile Genest)"
+    },
+    {
+      "person_imdb_id": "nm0811824",
+      "name": "Ron Soble",
+      "sequence": 14,
+      "roles": [
+        "Danny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853792",
+      "name": "Irene Tedrow",
+      "sequence": 15,
+      "roles": [
+        "Mrs. Rudd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912138",
+      "name": "Midge Ware",
+      "sequence": 16,
+      "roles": [
+        "Mrs. Slade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852305",
+      "name": "Dub Taylor",
+      "sequence": 17,
+      "roles": [
+        "Dealer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0422270",
       "name": "Richard Jessup",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Cincinnati Kid\")",
-      "group_id": 0
+      "notes": "(novel \"The Cincinnati Kid\")"
     },
     {
       "person_imdb_id": "nm0488057",
       "name": "Ring Lardner Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0816143",
       "name": "Terry Southern",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1965-10-15",

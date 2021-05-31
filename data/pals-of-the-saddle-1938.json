@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0030550",
   "sort_title": "Pals of the Saddle (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stony Brooke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181003",
-      "name": "Ray Corrigan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tucson Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0855579",
-      "name": "Max Terhune",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lullaby Joslin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570960",
-      "name": "Doreen McKay",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0287162",
-      "name": "Joseph Forte",
-      "sequence": 4,
-      "notes": "(as Josef Forte)",
-      "roles": [
-        "Judge Hastings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235060",
-      "name": "George Douglas",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Paul Hartman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0586778",
-      "name": "Frank Milan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Frank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011389",
-      "name": "Ted Adams",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Henry C. Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0220128",
-      "name": "Harry Depp",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hotel Desk Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916530",
-      "name": "Dave Weber",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Russian Musician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649985",
-      "name": "Don Orlando",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Italian Musician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460836",
-      "name": "Charles Knight",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "English Musician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0456480",
-      "name": "Jack Kirk",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sheriff Johnson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792450",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Stony Brooke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181003",
+      "name": "Ray Corrigan",
+      "sequence": 1,
+      "roles": [
+        "Tucson Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0855579",
+      "name": "Max Terhune",
+      "sequence": 2,
+      "roles": [
+        "Lullaby Joslin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570960",
+      "name": "Doreen McKay",
+      "sequence": 3,
+      "roles": [
+        "Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0287162",
+      "name": "Joseph Forte",
+      "sequence": 4,
+      "roles": [
+        "Judge Hastings"
+      ],
+      "notes": "(as Josef Forte)"
+    },
+    {
+      "person_imdb_id": "nm0235060",
+      "name": "George Douglas",
+      "sequence": 5,
+      "roles": [
+        "Paul Hartman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0586778",
+      "name": "Frank Milan",
+      "sequence": 6,
+      "roles": [
+        "Frank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011389",
+      "name": "Ted Adams",
+      "sequence": 7,
+      "roles": [
+        "Henry C. Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0220128",
+      "name": "Harry Depp",
+      "sequence": 8,
+      "roles": [
+        "Hotel Desk Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916075",
+      "name": "Danny Webb",
+      "sequence": 9,
+      "roles": [
+        "Russian Musician"
+      ],
+      "notes": "(as Dave Weber)"
+    },
+    {
+      "person_imdb_id": "nm0649985",
+      "name": "Don Orlando",
+      "sequence": 10,
+      "roles": [
+        "Italian Musician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460836",
+      "name": "Charles Knight",
+      "sequence": 11,
+      "roles": [
+        "English Musician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0456480",
+      "name": "Jack Kirk",
+      "sequence": 12,
+      "roles": [
+        "Sheriff Johnson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0731592",
       "name": "Stanley Roberts",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "notes": "(original screen play)"
     },
     {
       "person_imdb_id": "nm0120762",
       "name": "Betty Burbridge",
-      "sequence": 0,
-      "notes": "(original screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screen play)"
     }
   ],
   "release_date": "1938-08-28",

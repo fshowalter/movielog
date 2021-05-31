@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0035616",
   "sort_title": "Air Force (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Pilot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949574",
-      "name": "Gig Young",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Co-Pilot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bombardier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236866",
-      "name": "Charles Drake",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Navigator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002503",
-      "name": "Harry Carey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Crew Chief Sgt. White"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Asst. Crew Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0939959",
-      "name": "Ward Wood",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Radio Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599894",
-      "name": "Ray Montgomery",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Asst. Radio Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002092",
-      "name": "John Garfield",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Aerial Gunner Joe Winocki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113769",
-      "name": "James Brown",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pursuit Pilot - Passenger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725897",
-      "name": "Stanley Ridges",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Major Mallory"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732062",
-      "name": "Willard Robertson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Colonel at Hickam Field"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Col. Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 13,
-      "notes": "(as Edward S. Brophy)",
-      "roles": [
-        "Marine Sgt. J.J. Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485518",
-      "name": "Richard Lane",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Maj. W.G. Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185742",
-      "name": "Bill Crago",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Lieut. P T. Moran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256207",
-      "name": "Faye Emerson",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Susan McMartin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723935",
-      "name": "Addison Richards",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Maj. Daniels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281329",
-      "name": "James Flavin",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Maj. A.M. Bagley"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -182,34 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 0,
+      "roles": [
+        "Pilot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949574",
+      "name": "Gig Young",
+      "sequence": 1,
+      "roles": [
+        "Co-Pilot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 2,
+      "roles": [
+        "Bombardier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236866",
+      "name": "Charles Drake",
+      "sequence": 3,
+      "roles": [
+        "Navigator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002503",
+      "name": "Harry Carey",
+      "sequence": 4,
+      "roles": [
+        "Crew Chief Sgt. White"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 5,
+      "roles": [
+        "Asst. Crew Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0939959",
+      "name": "Ward Wood",
+      "sequence": 6,
+      "roles": [
+        "Radio Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599894",
+      "name": "Ray Montgomery",
+      "sequence": 7,
+      "roles": [
+        "Asst. Radio Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002092",
+      "name": "John Garfield",
+      "sequence": 8,
+      "roles": [
+        "Aerial Gunner Joe Winocki"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113769",
+      "name": "James Brown",
+      "sequence": 9,
+      "roles": [
+        "Pursuit Pilot - Passenger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725897",
+      "name": "Stanley Ridges",
+      "sequence": 10,
+      "roles": [
+        "Major Mallory"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732062",
+      "name": "Willard Robertson",
+      "sequence": 11,
+      "roles": [
+        "Colonel at Hickam Field"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 12,
+      "roles": [
+        "Col. Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 13,
+      "roles": [
+        "Marine Sgt. J.J. Callahan"
+      ],
+      "notes": "(as Edward S. Brophy)"
+    },
+    {
+      "person_imdb_id": "nm0485518",
+      "name": "Richard Lane",
+      "sequence": 14,
+      "roles": [
+        "Maj. W.G. Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185742",
+      "name": "Bill Crago",
+      "sequence": 15,
+      "roles": [
+        "Lieut. P T. Moran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256207",
+      "name": "Faye Emerson",
+      "sequence": 16,
+      "roles": [
+        "Susan McMartin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723935",
+      "name": "Addison Richards",
+      "sequence": 17,
+      "roles": [
+        "Maj. Daniels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281329",
+      "name": "James Flavin",
+      "sequence": 18,
+      "roles": [
+        "Maj. A.M. Bagley"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 1,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(contributor to screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0047889",
       "name": "Leah Baird",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0394774",
       "name": "Arthur T. Horman",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to screenplay) (uncredited)"
     }
   ],
   "release_date": "1943-02-03",

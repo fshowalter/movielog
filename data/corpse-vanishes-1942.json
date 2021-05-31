@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0034613",
   "sort_title": "Corpse Vanishes (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. George Lorenz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910294",
-      "name": "Luana Walters",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Patricia Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168939",
-      "name": "Tristram Coffin",
-      "sequence": 2,
-      "notes": "(as Tris Coffin)",
-      "roles": [
-        "Dr. Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751131",
-      "name": "Elizabeth Russell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Countess Lorenz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0881832",
-      "name": "Minerva Urecal",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Fagah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744441",
-      "name": "Angelo Rossitto",
-      "sequence": 5,
-      "notes": "(as Angelo)",
-      "roles": [
-        "Toby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054060",
-      "name": "Joan Barclay",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Alice Wentworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363218",
-      "name": "Kenneth Harlan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Editor Keenan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448991",
-      "name": "Gwen Kenyon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Peggy Woods"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055998",
-      "name": "Vince Barnett",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602847",
-      "name": "Frank Moran",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Angel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0253140",
-      "name": "George Eldredge",
-      "sequence": 11,
-      "notes": "(as George Eldridge)",
-      "roles": [
-        "Mike"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0289297",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Dr. George Lorenz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910294",
+      "name": "Luana Walters",
+      "sequence": 1,
+      "roles": [
+        "Patricia Hunter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168939",
+      "name": "Tristram Coffin",
+      "sequence": 2,
+      "roles": [
+        "Dr. Foster"
+      ],
+      "notes": "(as Tris Coffin)"
+    },
+    {
+      "person_imdb_id": "nm0751131",
+      "name": "Elizabeth Russell",
+      "sequence": 3,
+      "roles": [
+        "Countess Lorenz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0881832",
+      "name": "Minerva Urecal",
+      "sequence": 4,
+      "roles": [
+        "Fagah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744441",
+      "name": "Angelo Rossitto",
+      "sequence": 5,
+      "roles": [
+        "Toby"
+      ],
+      "notes": "(as Angelo)"
+    },
+    {
+      "person_imdb_id": "nm0054060",
+      "name": "Joan Barclay",
+      "sequence": 6,
+      "roles": [
+        "Alice Wentworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363218",
+      "name": "Kenneth Harlan",
+      "sequence": 7,
+      "roles": [
+        "Keenan - Editor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448991",
+      "name": "Gwen Kenyon",
+      "sequence": 8,
+      "roles": [
+        "Peggy Woods"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055998",
+      "name": "Vince Barnett",
+      "sequence": 9,
+      "roles": [
+        "Sandy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602847",
+      "name": "Frank Moran",
+      "sequence": 10,
+      "roles": [
+        "Angel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0253140",
+      "name": "George Eldredge",
+      "sequence": 11,
+      "roles": [
+        "Mike"
+      ],
+      "notes": "(as George Eldridge)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0732325",
       "name": "Sam Robins",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0774205",
       "name": "Gerald Schnitzer",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0309567",
       "name": "Harvey Gates",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1942-05-08",

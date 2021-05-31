@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0039526",
   "sort_title": "Keeper of the Bees (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0239041",
-      "name": "Michael Duane",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jamie McFarlaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377839",
-      "name": "Gloria Henry",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003193",
-      "name": "Harry Davenport",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Michael Worthington"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002034",
-      "name": "Jane Darwell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Ferris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549288",
-      "name": "Jo Ann Marlowe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Little Scout - The Orphan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Postmaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942926",
-      "name": "Will Wright",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Grayson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732626",
-      "name": "Frances Robinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Marcia MacFarlane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574993",
-      "name": "George Meader",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Barber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398250",
-      "name": "Olin Howland",
-      "sequence": 9,
-      "notes": "(as Olin Howlin)",
-      "roles": [
-        "Customer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036500",
-      "name": "Jessie Arnold",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Postmaster"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -110,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0239041",
+      "name": "Michael Duane",
+      "sequence": 0,
+      "roles": [
+        "Jamie McFarlaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377839",
+      "name": "Gloria Henry",
+      "sequence": 1,
+      "roles": [
+        "Alice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003193",
+      "name": "Harry Davenport",
+      "sequence": 2,
+      "roles": [
+        "Michael Worthington"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002034",
+      "name": "Jane Darwell",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Ferris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549288",
+      "name": "Jo Ann Marlowe",
+      "sequence": 4,
+      "roles": [
+        "Little Scout - The Orphan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 5,
+      "roles": [
+        "Postmaster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942926",
+      "name": "Will Wright",
+      "sequence": 6,
+      "roles": [
+        "Dr. Grayson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732626",
+      "name": "Frances Robinson",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Marcia MacFarlane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574993",
+      "name": "George Meader",
+      "sequence": 8,
+      "roles": [
+        "Barber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398250",
+      "name": "Olin Howland",
+      "sequence": 9,
+      "roles": [
+        "Customer"
+      ],
+      "notes": "(as Olin Howlin)"
+    },
+    {
+      "person_imdb_id": "nm0036500",
+      "name": "Jessie Arnold",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Postmaster"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102167",
       "name": "Malcolm Stuart Boylan",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0741214",
       "name": "Ralph Rose Jr.",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0833691",
       "name": "Gene Stratton-Porter",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 2
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0914245",
       "name": "Lawrence Edward Watkin",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (as Lawrence E. Watkin)",
-      "group_id": 3
+      "notes": "() (as Lawrence E. Watkin)"
     }
   ],
   "release_date": "1947-07-10",

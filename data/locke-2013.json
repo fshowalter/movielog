@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt2692904",
   "sort_title": "Locke (2013)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0362766",
-      "name": "Tom Hardy",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ivan Locke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1469236",
-      "name": "Olivia Colman",
-      "sequence": 1,
-      "notes": "(voice)",
-      "roles": [
-        "Bethan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2235721",
-      "name": "Ruth Wilson",
-      "sequence": 2,
-      "notes": "(voice)",
-      "roles": [
-        "Katrina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778831",
-      "name": "Andrew Scott",
-      "sequence": 3,
-      "notes": "(voice)",
-      "roles": [
-        "Donal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199842",
-      "name": "Ben Daniels",
-      "sequence": 4,
-      "notes": "(voice)",
-      "roles": [
-        "Gareth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4043618",
-      "name": "Tom Holland",
-      "sequence": 5,
-      "notes": "(voice)",
-      "roles": [
-        "Eddie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2389463",
-      "name": "Bill Milner",
-      "sequence": 6,
-      "notes": "(voice)",
-      "roles": [
-        "Sean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916073",
-      "name": "Danny Webb",
-      "sequence": 7,
-      "notes": "(voice)",
-      "roles": [
-        "Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1546686",
-      "name": "Alice Lowe",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "Sister Margaret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141324",
-      "name": "Silas Carson",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "Doctor Gullu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0743605",
-      "name": "Lee Ross",
-      "sequence": 10,
-      "notes": "(voice)",
-      "roles": [
-        "PC Davids"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1415407",
-      "name": "Kirsty Dillon",
-      "sequence": 11,
-      "notes": "(voice)",
-      "roles": [
-        "Gareth's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6427549",
-      "name": "Alice Cady",
-      "sequence": 12,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Car Phone"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1140275",
@@ -128,13 +9,123 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0362766",
+      "name": "Tom Hardy",
+      "sequence": 0,
+      "roles": [
+        "Ivan Locke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1469236",
+      "name": "Olivia Colman",
+      "sequence": 1,
+      "roles": [
+        "Bethan"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2235721",
+      "name": "Ruth Wilson",
+      "sequence": 2,
+      "roles": [
+        "Katrina"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0778831",
+      "name": "Andrew Scott",
+      "sequence": 3,
+      "roles": [
+        "Donal"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0199842",
+      "name": "Ben Daniels",
+      "sequence": 4,
+      "roles": [
+        "Gareth"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm4043618",
+      "name": "Tom Holland",
+      "sequence": 5,
+      "roles": [
+        "Eddie"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm2389463",
+      "name": "Bill Milner",
+      "sequence": 6,
+      "roles": [
+        "Sean"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0916073",
+      "name": "Danny Webb",
+      "sequence": 7,
+      "roles": [
+        "Cassidy"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1546686",
+      "name": "Alice Lowe",
+      "sequence": 8,
+      "roles": [
+        "Sister Margaret"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0141324",
+      "name": "Silas Carson",
+      "sequence": 9,
+      "roles": [
+        "Doctor Gullu"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0743605",
+      "name": "Lee Ross",
+      "sequence": 10,
+      "roles": [
+        "PC Davids"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1415407",
+      "name": "Kirsty Dillon",
+      "sequence": 11,
+      "roles": [
+        "Gareth's Wife"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1140275",
       "name": "Steven Knight",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2013-09-02",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0490076",
   "sort_title": "All the Boys Love Mandy Lane (2006)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1720028",
-      "name": "Amber Heard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mandy Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0609845",
-      "name": "Anson Mount",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Garth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919616",
-      "name": "Michael Welch",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Emmet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2016345",
-      "name": "Whitney Able",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Chloe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0388064",
-      "name": "Edwin Hodge",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bird"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385391",
-      "name": "Aaron Himelstein",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Red"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2093766",
-      "name": "Luke Grimes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2096455",
-      "name": "Melissa Price",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Marlin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1719737",
-      "name": "Adam Powell",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dylan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1105334",
-      "name": "Peyton Hayslip",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Aunt Jo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1318410",
-      "name": "Brooke Bloom",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cousin Jen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444613",
-      "name": "Robert Earl Keen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Keg Trucker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1349522",
@@ -119,13 +9,123 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1720028",
+      "name": "Amber Heard",
+      "sequence": 0,
+      "roles": [
+        "Mandy Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0609845",
+      "name": "Anson Mount",
+      "sequence": 1,
+      "roles": [
+        "Garth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919616",
+      "name": "Michael Welch",
+      "sequence": 2,
+      "roles": [
+        "Emmet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2016345",
+      "name": "Whitney Able",
+      "sequence": 3,
+      "roles": [
+        "Chloe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0388064",
+      "name": "Edwin Hodge",
+      "sequence": 4,
+      "roles": [
+        "Bird"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385391",
+      "name": "Aaron Himelstein",
+      "sequence": 5,
+      "roles": [
+        "Red"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2093766",
+      "name": "Luke Grimes",
+      "sequence": 6,
+      "roles": [
+        "Jake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2096455",
+      "name": "Melissa Price",
+      "sequence": 7,
+      "roles": [
+        "Marlin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1719737",
+      "name": "Adam Powell",
+      "sequence": 8,
+      "roles": [
+        "Dylan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1105334",
+      "name": "Peyton Hayslip",
+      "sequence": 9,
+      "roles": [
+        "Aunt Jo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1318410",
+      "name": "Brooke Bloom",
+      "sequence": 10,
+      "roles": [
+        "Cousin Jen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444613",
+      "name": "Robert Earl Keen",
+      "sequence": 11,
+      "roles": [
+        "Keg Trucker"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm2106079",
       "name": "Jacob Forman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2006-09-09",

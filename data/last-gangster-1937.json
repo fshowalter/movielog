@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0029118",
   "sort_title": "Last Gangster (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000064",
-      "name": "Edward G. Robinson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Krozac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Paul North"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833117",
-      "name": "Rose Stradner",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Talya Krozac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822034",
-      "name": "Lionel Stander",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "'Curly'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779081",
-      "name": "Douglas Scott",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Junior Krozac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Casper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085782",
-      "name": "Sidney Blackmer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Newspaper Editor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593372",
-      "name": "Grant Mitchell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Prison Warden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 8,
-      "notes": "(as Edward S. Brophy)",
-      "roles": [
-        "'Fats' Garvey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0062667",
-      "name": "Alan Baxter",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Frankie 'Acey' Kyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175815",
-      "name": "Frank Conroy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sid Gorman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064792",
-      "name": "Louise Beavers",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Gloria"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0524995",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000064",
+      "name": "Edward G. Robinson",
+      "sequence": 0,
+      "roles": [
+        "Joe Krozac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 1,
+      "roles": [
+        "Paul North"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833117",
+      "name": "Rose Stradner",
+      "sequence": 2,
+      "roles": [
+        "Talya Krozac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822034",
+      "name": "Lionel Stander",
+      "sequence": 3,
+      "roles": [
+        "'Curly'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779081",
+      "name": "Douglas Scott",
+      "sequence": 4,
+      "roles": [
+        "Junior Krozac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 5,
+      "roles": [
+        "Casper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085782",
+      "name": "Sidney Blackmer",
+      "sequence": 6,
+      "roles": [
+        "Newspaper Editor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593372",
+      "name": "Grant Mitchell",
+      "sequence": 7,
+      "roles": [
+        "Prison Warden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 8,
+      "roles": [
+        "'Fats' Garvey"
+      ],
+      "notes": "(as Edward S. Brophy)"
+    },
+    {
+      "person_imdb_id": "nm0062667",
+      "name": "Alan Baxter",
+      "sequence": 9,
+      "roles": [
+        "Frankie 'Acey' Kyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175815",
+      "name": "Frank Conroy",
+      "sequence": 10,
+      "roles": [
+        "Sid Gorman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064792",
+      "name": "Louise Beavers",
+      "sequence": 11,
+      "roles": [
+        "Gloria"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0536941",
       "name": "John Lee Mahin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0920074",
       "name": "William A. Wellman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0308604",
       "name": "Robert Carson",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(original story)"
     }
   ],
   "release_date": "1937-11-12",

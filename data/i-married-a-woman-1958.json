@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0051757",
   "sort_title": "I Married a Woman (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0323597",
-      "name": "George Gobel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marshall 'Mickey' Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002047",
-      "name": "Diana Dors",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Janice Blake Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0579663",
-      "name": "Adolphe Menjou",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frederick W. Sutton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484829",
-      "name": "Jessie Royce Landis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847953",
-      "name": "Nita Talbot",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Miss Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714835",
-      "name": "William Redfield",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eddie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242911",
-      "name": "Stephen Dunne",
-      "sequence": 6,
-      "notes": "(as Steve Dunne)",
-      "roles": [
-        "Bob Sanders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569410",
-      "name": "John McGiver",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Girard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671747",
-      "name": "Steve Pendleton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Photographer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0437900",
@@ -92,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0323597",
+      "name": "George Gobel",
+      "sequence": 0,
+      "roles": [
+        "Marshall 'Mickey' Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002047",
+      "name": "Diana Dors",
+      "sequence": 1,
+      "roles": [
+        "Janice Blake Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0579663",
+      "name": "Adolphe Menjou",
+      "sequence": 2,
+      "roles": [
+        "Frederick W. Sutton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484829",
+      "name": "Jessie Royce Landis",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847953",
+      "name": "Nita Talbot",
+      "sequence": 4,
+      "roles": [
+        "Miss Anderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714835",
+      "name": "William Redfield",
+      "sequence": 5,
+      "roles": [
+        "Eddie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242911",
+      "name": "Stephen Dunne",
+      "sequence": 6,
+      "roles": [
+        "Bob Sanders"
+      ],
+      "notes": "(as Steve Dunne)"
+    },
+    {
+      "person_imdb_id": "nm0569410",
+      "name": "John McGiver",
+      "sequence": 7,
+      "roles": [
+        "Girard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0671747",
+      "name": "Steve Pendleton",
+      "sequence": 8,
+      "roles": [
+        "Photographer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0009640",
       "name": "Goodman Ace",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1958-03-01",

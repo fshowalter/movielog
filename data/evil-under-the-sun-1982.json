@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0083908",
   "sort_title": "Evil Under the Sun (1982)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001811",
-      "name": "Peter Ustinov",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hercule Poirot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086780",
-      "name": "Colin Blakely",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sir Horace Blatt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000945",
-      "name": "Jane Birkin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Christine Redfern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0165551",
-      "name": "Nicholas Clay",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Patrick Redfern"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001749",
-      "name": "Maggie Smith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Daphne Castle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001522",
-      "name": "Roddy McDowall",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rex Brewster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587249",
-      "name": "Sylvia Miles",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Myra Gardener"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000051",
-      "name": "James Mason",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Odell Gardener"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703615",
-      "name": "Denis Quilley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Kenneth Marshall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001671",
-      "name": "Diana Rigg",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Arlena Stuart Marshall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393130",
-      "name": "Emily Hone",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Linda Marshall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017580",
-      "name": "John Alderson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Police Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0031549",
-      "name": "Paul Antrim",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Police Inspector"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176662",
-      "name": "Cyril Conway",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Police Surgeon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382799",
-      "name": "Barbara Hicks",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Flewitt's Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894710",
-      "name": "Richard Vernon",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Flewitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233923",
-      "name": "Robert Dorning",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Concierge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028222",
-      "name": "Dimitri Andreas",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Gino"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0357891",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001811",
+      "name": "Peter Ustinov",
+      "sequence": 0,
+      "roles": [
+        "Hercule Poirot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086780",
+      "name": "Colin Blakely",
+      "sequence": 1,
+      "roles": [
+        "Sir Horace Blatt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000945",
+      "name": "Jane Birkin",
+      "sequence": 2,
+      "roles": [
+        "Christine Redfern"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0165551",
+      "name": "Nicholas Clay",
+      "sequence": 3,
+      "roles": [
+        "Patrick Redfern"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001749",
+      "name": "Maggie Smith",
+      "sequence": 4,
+      "roles": [
+        "Daphne Castle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001522",
+      "name": "Roddy McDowall",
+      "sequence": 5,
+      "roles": [
+        "Rex Brewster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587249",
+      "name": "Sylvia Miles",
+      "sequence": 6,
+      "roles": [
+        "Myra Gardener"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000051",
+      "name": "James Mason",
+      "sequence": 7,
+      "roles": [
+        "Odell Gardener"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0703615",
+      "name": "Denis Quilley",
+      "sequence": 8,
+      "roles": [
+        "Kenneth Marshall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001671",
+      "name": "Diana Rigg",
+      "sequence": 9,
+      "roles": [
+        "Arlena Stuart Marshall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0393130",
+      "name": "Emily Hone",
+      "sequence": 10,
+      "roles": [
+        "Linda Marshall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017580",
+      "name": "John Alderson",
+      "sequence": 11,
+      "roles": [
+        "Police Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0031549",
+      "name": "Paul Antrim",
+      "sequence": 12,
+      "roles": [
+        "Police Inspector"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176662",
+      "name": "Cyril Conway",
+      "sequence": 13,
+      "roles": [
+        "Police Surgeon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382799",
+      "name": "Barbara Hicks",
+      "sequence": 14,
+      "roles": [
+        "Flewitt's Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894710",
+      "name": "Richard Vernon",
+      "sequence": 15,
+      "roles": [
+        "Flewitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233923",
+      "name": "Robert Dorning",
+      "sequence": 16,
+      "roles": [
+        "Concierge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028222",
+      "name": "Dimitri Andreas",
+      "sequence": 17,
+      "roles": [
+        "Gino"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0787289",
       "name": "Anthony Shaffer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0002005",
       "name": "Agatha Christie",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (uncredited)",
-      "group_id": 1
+      "notes": "(novel) (uncredited)"
     },
     {
       "person_imdb_id": "nm0761958",
       "name": "Barry Sandler",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1982-01-25",

@@ -18,13 +18,13 @@ CREATE_DDL = """
 
 INSERT_DDL = """
   INSERT INTO {0}(movie_imdb_id, sort_title)
-    VALUES(:imdb_id, :sort_title);
+    VALUES(:movie_imdb_id, :sort_title);
 """
 
 
 class Row(TypedDict):
     movie_imdb_id: str
-    country: str
+    sort_title: str
 
 
 def reload(rows: Sequence[Row]) -> None:
@@ -45,10 +45,9 @@ def update(movies: list[Movie]) -> None:
     rows = [
         Row(
             movie_imdb_id=movie.imdb_id,
-            country=country,
+            sort_title=movie.sort_title,
         )
         for movie in movies
-        for country in movie.countries
     ]
 
     reload(rows)

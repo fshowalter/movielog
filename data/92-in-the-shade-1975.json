@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0072594",
   "sort_title": "92 in the Shade (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001228",
-      "name": "Peter Fonda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom Skelton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nichol Dance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452288",
-      "name": "Margot Kidder",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Miranda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580565",
-      "name": "Burgess Meredith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Goldsboro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001765",
-      "name": "Harry Dean Stanton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039051",
-      "name": "Elizabeth Ashley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jeannie Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587249",
-      "name": "Sylvia Miles",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382676",
-      "name": "William Hickey",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Skelton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490103",
-      "name": "Louise Latham",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Skelton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0818874",
-      "name": "Joe Spinell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ollie Slatt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736418",
-      "name": "William Roerick",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Rudleigh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751140",
-      "name": "Evelyn Russell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mrs. Rudleigh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702723",
-      "name": "John Quade",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Roy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373570",
-      "name": "John Heffernan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Myron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447230",
-      "name": "Warren J. Kemmerling",
-      "sequence": 14,
-      "notes": "(as Warren Kemmerling)",
-      "roles": [
-        "Powell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658445",
-      "name": "Scott Palmer",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Michael"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0570078",
@@ -155,26 +9,172 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001228",
+      "name": "Peter Fonda",
+      "sequence": 0,
+      "roles": [
+        "Tom Skelton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 1,
+      "roles": [
+        "Nichol Dance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452288",
+      "name": "Margot Kidder",
+      "sequence": 2,
+      "roles": [
+        "Miranda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580565",
+      "name": "Burgess Meredith",
+      "sequence": 3,
+      "roles": [
+        "Goldsboro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001765",
+      "name": "Harry Dean Stanton",
+      "sequence": 4,
+      "roles": [
+        "Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039051",
+      "name": "Elizabeth Ashley",
+      "sequence": 5,
+      "roles": [
+        "Jeannie Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587249",
+      "name": "Sylvia Miles",
+      "sequence": 6,
+      "roles": [
+        "Bella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382676",
+      "name": "William Hickey",
+      "sequence": 7,
+      "roles": [
+        "Mr. Skelton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490103",
+      "name": "Louise Latham",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Skelton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0818874",
+      "name": "Joe Spinell",
+      "sequence": 9,
+      "roles": [
+        "Ollie Slatt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736418",
+      "name": "William Roerick",
+      "sequence": 10,
+      "roles": [
+        "Rudleigh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751140",
+      "name": "Evelyn Russell",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Rudleigh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702723",
+      "name": "John Quade",
+      "sequence": 12,
+      "roles": [
+        "Roy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373570",
+      "name": "John Heffernan",
+      "sequence": 13,
+      "roles": [
+        "Myron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447230",
+      "name": "Warren J. Kemmerling",
+      "sequence": 14,
+      "roles": [
+        "Powell"
+      ],
+      "notes": "(as Warren Kemmerling)"
+    },
+    {
+      "person_imdb_id": "nm0658445",
+      "name": "Scott Palmer",
+      "sequence": 15,
+      "roles": [
+        "Michael"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0570078",
       "name": "Thomas McGuane",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0570078",
       "name": "Thomas McGuane",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (uncredited)",
-      "group_id": 1
+      "notes": "(novel) (uncredited)"
     }
   ],
   "release_date": "1975-08-22",
   "release_date_notes": "(premiere)",
   "countries": [
-    "United States",
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ]
 }

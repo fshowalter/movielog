@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0053221",
   "sort_title": "Rio Bravo (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sheriff John T. Chance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 1,
-      "notes": "('Borrach\u00f3n')",
-      "roles": [
-        "Dude"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625699",
-      "name": "Ricky Nelson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Colorado Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001141",
-      "name": "Angie Dickinson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Feathers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000974",
-      "name": "Walter Brennan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Stumpy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pat Wheeler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751245",
-      "name": "John Russell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nathan Burdette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0327602",
-      "name": "Pedro Gonzalez Gonzalez",
-      "sequence": 7,
-      "notes": "(as Pedro Gonzalez-Gonzalez)",
-      "roles": [
-        "Carlos Robante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0735310",
-      "name": "Estelita Rodriguez",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Consuela Robante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0015391",
-      "name": "Claude Akins",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Joe Burdette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041021",
-      "name": "Malcolm Atterbury",
-      "sequence": 10,
-      "notes": "(Stage Driver) (scenesDeleted)",
-      "roles": [
-        "Jake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 11,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Harold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941125",
-      "name": "Sheb Wooley",
-      "sequence": 12,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Cowboy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Sheriff John T. Chance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 1,
+      "roles": [
+        "Dude"
+      ],
+      "notes": "('Borrach\u00f3n')"
+    },
+    {
+      "person_imdb_id": "nm0625699",
+      "name": "Ricky Nelson",
+      "sequence": 2,
+      "roles": [
+        "Colorado Ryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001141",
+      "name": "Angie Dickinson",
+      "sequence": 3,
+      "roles": [
+        "Feathers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000974",
+      "name": "Walter Brennan",
+      "sequence": 4,
+      "roles": [
+        "Stumpy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 5,
+      "roles": [
+        "Pat Wheeler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751245",
+      "name": "John Russell",
+      "sequence": 6,
+      "roles": [
+        "Nathan Burdette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0327602",
+      "name": "Pedro Gonzalez Gonzalez",
+      "sequence": 7,
+      "roles": [
+        "Carlos Robante"
+      ],
+      "notes": "(as Pedro Gonzalez-Gonzalez)"
+    },
+    {
+      "person_imdb_id": "nm0735310",
+      "name": "Estelita Rodriguez",
+      "sequence": 8,
+      "roles": [
+        "Consuela Robante"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0015391",
+      "name": "Claude Akins",
+      "sequence": 9,
+      "roles": [
+        "Joe Burdette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041021",
+      "name": "Malcolm Atterbury",
+      "sequence": 10,
+      "roles": [
+        "Jake"
+      ],
+      "notes": "(Stage Driver) (scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 11,
+      "roles": [
+        "Harold"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0941125",
+      "name": "Sheb Wooley",
+      "sequence": 12,
+      "roles": [
+        "Cowboy"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0299154",
       "name": "Jules Furthman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0102824",
       "name": "Leigh Brackett",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0564800",
       "name": "B.H. McCampbell",
+      "group": 1,
       "sequence": 0,
-      "notes": "(short story) (as B. H. McCampbell)",
-      "group_id": 1
+      "notes": "(short story) (as B. H. McCampbell)"
     }
   ],
   "release_date": "1959-03-18",

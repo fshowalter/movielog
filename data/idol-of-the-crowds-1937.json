@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0029044",
   "sort_title": "Idol of the Crowds (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnny Hanson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111355",
-      "name": "Sheila Bromley",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen Dale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111226",
-      "name": "Charles Brokaw",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jack Irwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057912",
-      "name": "Bill Burrud",
-      "sequence": 3,
-      "notes": "(as Billy Burrud)",
-      "roles": [
-        "Bobby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424325",
-      "name": "Jane Johns",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330265",
-      "name": "Huntley Gordon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harvey Castle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653239",
-      "name": "Frank Otto",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Joe Garber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394477",
-      "name": "Russell Hopton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0624845",
-      "name": "Hal Neiman",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Squat Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109877",
-      "name": "Virginia Brissac",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Dale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0515989",
-      "name": "George Lloyd",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Spike Regan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079681",
-      "name": "Clem Bevans",
-      "sequence": 11,
-      "notes": "(as Clem Bevins)",
-      "roles": [
-        "Andy Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0145335",
-      "name": "Wayne Castle",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Swifty Hanson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285754",
-      "name": "Lloyd Ford",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285745",
-      "name": "Lee Ford",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Elmer Hanson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0523893",
@@ -146,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Johnny Hanson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111355",
+      "name": "Sheila Bromley",
+      "sequence": 1,
+      "roles": [
+        "Helen Dale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111226",
+      "name": "Charles Brokaw",
+      "sequence": 2,
+      "roles": [
+        "Jack Irwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057912",
+      "name": "Bill Burrud",
+      "sequence": 3,
+      "roles": [
+        "Bobby"
+      ],
+      "notes": "(as Billy Burrud)"
+    },
+    {
+      "person_imdb_id": "nm0424325",
+      "name": "Jane Johns",
+      "sequence": 4,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330265",
+      "name": "Huntley Gordon",
+      "sequence": 5,
+      "roles": [
+        "Harvey Castle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653239",
+      "name": "Frank Otto",
+      "sequence": 6,
+      "roles": [
+        "Joe Garber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394477",
+      "name": "Russell Hopton",
+      "sequence": 7,
+      "roles": [
+        "Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0624845",
+      "name": "Hal Neiman",
+      "sequence": 8,
+      "roles": [
+        "Squat Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109877",
+      "name": "Virginia Brissac",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Dale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0515989",
+      "name": "George Lloyd",
+      "sequence": 10,
+      "roles": [
+        "Spike Regan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079681",
+      "name": "Clem Bevans",
+      "sequence": 11,
+      "roles": [
+        "Andy Moore"
+      ],
+      "notes": "(as Clem Bevins)"
+    },
+    {
+      "person_imdb_id": "nm0145335",
+      "name": "Wayne Castle",
+      "sequence": 12,
+      "roles": [
+        "Swifty Hanson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285754",
+      "name": "Lloyd Ford",
+      "sequence": 13,
+      "roles": [
+        "Hank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285745",
+      "name": "Lee Ford",
+      "sequence": 14,
+      "roles": [
+        "Elmer Hanson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0905729",
       "name": "George Waggner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"Hell on Ice\")",
-      "group_id": 0
+      "notes": "(story \"Hell on Ice\")"
     },
     {
       "person_imdb_id": "nm0905729",
       "name": "George Waggner",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0118609",
       "name": "Harold Buckley",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1937-09-30",

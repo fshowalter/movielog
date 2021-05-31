@@ -1,108 +1,6 @@
 {
   "imdb_id": "tt0061014",
   "sort_title": "Dr. Goldfoot and the Girl Bombs (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Goldfoot",
-        "General Willis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003104",
-      "name": "Fabian",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Bill Dexter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289960",
-      "name": "Franco Franchi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Franco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409049",
-      "name": "Ciccio Ingrassia",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ciccio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612568",
-      "name": "Francesco Mul\u00e8",
-      "sequence": 4,
-      "notes": "(as Francesco Mul\u00e9)",
-      "roles": [
-        "Colonel Doug Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000773",
-      "name": "Laura Antonelli",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rosanna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000811",
-      "name": "Frankie Avalon",
-      "sequence": 7,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Craig Gamble"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366537",
-      "name": "Susan Hart",
-      "sequence": 13,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Diane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382722",
-      "name": "Dwayne Hickman",
-      "sequence": 15,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Todd Armstrong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454178",
-      "name": "Aron Kincaid",
-      "sequence": 16,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Motorist Who Hits Diane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611955",
-      "name": "Jack Mullaney",
-      "sequence": 17,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Igor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -111,55 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Dr. Goldfoot",
+        "General Willis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003104",
+      "name": "Fabian",
+      "sequence": 1,
+      "roles": [
+        "Bill Dexter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289960",
+      "name": "Franco Franchi",
+      "sequence": 2,
+      "roles": [
+        "Franco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409049",
+      "name": "Ciccio Ingrassia",
+      "sequence": 3,
+      "roles": [
+        "Ciccio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0612568",
+      "name": "Francesco Mul\u00e8",
+      "sequence": 4,
+      "roles": [
+        "Colonel Doug Benson"
+      ],
+      "notes": "(as Francesco Mul\u00e9)"
+    },
+    {
+      "person_imdb_id": "nm0000773",
+      "name": "Laura Antonelli",
+      "sequence": 5,
+      "roles": [
+        "Rosanna"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0144689",
       "name": "Franco Castellano",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Castellano)",
-      "group_id": 0
+      "notes": "(screenplay) (as Castellano)"
     },
     {
       "person_imdb_id": "nm0595063",
       "name": "Giuseppe Moccia",
-      "sequence": 0,
-      "notes": "(screenplay) (as Pipolo)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Pipolo)"
     },
     {
       "person_imdb_id": "nm1856874",
       "name": "Franco Dal Cer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(dialogue collaboration)",
-      "group_id": 1
+      "notes": "(dialogue collaboration)"
     },
     {
       "person_imdb_id": "nm0524670",
       "name": "Fulvio Lucisano",
+      "group": 2,
       "sequence": 0,
-      "notes": "(idea)",
-      "group_id": 2
+      "notes": "(idea)"
     },
     {
       "person_imdb_id": "nm0382384",
       "name": "Louis M. Heyward",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 3
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0442099",
       "name": "Robert Kaufman",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 3
+      "group": 3,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0629839",
       "name": "James H. Nicholson",
+      "group": 4,
       "sequence": 0,
-      "notes": "(story by) (as James Hartford)",
-      "group_id": 4
+      "notes": "(story by) (as James Hartford)"
     }
   ],
   "release_date": "1966-07-29",

@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0028212",
   "sort_title": "Sabotage (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 0,
-      "notes": "(as Sylvia Sydney)",
-      "roles": [
-        "Mrs. Verloc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393028",
-      "name": "Oskar Homolka",
-      "sequence": 1,
-      "notes": "(as Oscar Homolka)",
-      "roles": [
-        "Her Husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856469",
-      "name": "Desmond Tester",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stevie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517058",
-      "name": "John Loder",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sgt. Ted Spencer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0053829",
-      "name": "Joyce Barbour",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Renee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0099608",
-      "name": "Matthew Boulton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Superintendent Talbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912343",
-      "name": "S.J. Warmington",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Hollingshead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223168",
-      "name": "William Dewhurst",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Professor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -83,41 +9,115 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 0,
+      "roles": [
+        "Mrs. Verloc"
+      ],
+      "notes": "(as Sylvia Sydney)"
+    },
+    {
+      "person_imdb_id": "nm0393028",
+      "name": "Oskar Homolka",
+      "sequence": 1,
+      "roles": [
+        "Karl Verloc--Her Husband"
+      ],
+      "notes": "(as Oscar Homolka)"
+    },
+    {
+      "person_imdb_id": "nm0856469",
+      "name": "Desmond Tester",
+      "sequence": 2,
+      "roles": [
+        "Stevie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517058",
+      "name": "John Loder",
+      "sequence": 3,
+      "roles": [
+        "Detective Sgt. Ted Spencer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0053829",
+      "name": "Joyce Barbour",
+      "sequence": 4,
+      "roles": [
+        "Renee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0099608",
+      "name": "Matthew Boulton",
+      "sequence": 5,
+      "roles": [
+        "Superintendent Talbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912343",
+      "name": "S.J. Warmington",
+      "sequence": 6,
+      "roles": [
+        "Hollingshead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223168",
+      "name": "William Dewhurst",
+      "sequence": 7,
+      "roles": [
+        "The Professor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0175676",
       "name": "Joseph Conrad",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Secret Agent\")",
-      "group_id": 0
+      "notes": "(novel \"The Secret Agent\")"
     },
     {
       "person_imdb_id": "nm0071657",
       "name": "Charles Bennett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0067308",
       "name": "Ian Hay",
+      "group": 2,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0801026",
       "name": "Helen Simpson",
-      "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0256532",
       "name": "E.V.H. Emmett",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 3
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1936-12-02",

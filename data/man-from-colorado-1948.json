@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0041625",
   "sort_title": "Man from Colorado (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001229",
-      "name": "Glenn Ford",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Owen Devereaux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Del Stewart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237655",
-      "name": "Ellen Drew",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Caroline Emmet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172615",
-      "name": "Ray Collins",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Big Ed Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118000",
-      "name": "Edgar Buchanan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Doc Merriam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183857",
-      "name": "Jerome Courtland",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Johnny Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589641",
-      "name": "James Millican",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sgt. Jericho Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052435",
-      "name": "Jim Bannon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Nagel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680883",
-      "name": "William 'Bill' Phillips",
-      "sequence": 8,
-      "notes": "(as Wm. 'Bill' Phillips)",
-      "roles": [
-        "York"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0505610",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001229",
+      "name": "Glenn Ford",
+      "sequence": 0,
+      "roles": [
+        "Owen Devereaux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 1,
+      "roles": [
+        "Del Stewart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237655",
+      "name": "Ellen Drew",
+      "sequence": 2,
+      "roles": [
+        "Caroline Emmet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172615",
+      "name": "Ray Collins",
+      "sequence": 3,
+      "roles": [
+        "Big Ed Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118000",
+      "name": "Edgar Buchanan",
+      "sequence": 4,
+      "roles": [
+        "Doc Merriam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183857",
+      "name": "Jerome Courtland",
+      "sequence": 5,
+      "roles": [
+        "Johnny Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589641",
+      "name": "James Millican",
+      "sequence": 6,
+      "roles": [
+        "Sgt. Jericho Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052435",
+      "name": "Jim Bannon",
+      "sequence": 7,
+      "roles": [
+        "Nagel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0680883",
+      "name": "William 'Bill' Phillips",
+      "sequence": 8,
+      "roles": [
+        "York"
+      ],
+      "notes": "(as Wm. 'Bill' Phillips)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0028826",
       "name": "Robert Hardy Andrews",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Robert D. Andrews)",
-      "group_id": 0
+      "notes": "(screenplay) (as Robert D. Andrews)"
     },
     {
       "person_imdb_id": "nm0534693",
       "name": "Ben Maddow",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0153698",
       "name": "Borden Chase",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     }
   ],
   "release_date": "1948-12-01",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0038295",
   "sort_title": "Alias Mr. Twilight (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0239041",
-      "name": "Michael Duane",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tim Quaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551221",
-      "name": "Trudy Marshall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Corky Corcoran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180987",
-      "name": "Lloyd Corrigan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Geoffrey Holden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0411935",
-      "name": "Rosalind Ivan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Aunt Elizabeth Christens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0108653",
-      "name": "Al Bridge",
-      "sequence": 4,
-      "notes": "(as Alan Bridge)",
-      "roles": [
-        "Sam Bartlett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0674540",
-      "name": "Gigi Perreau",
-      "sequence": 5,
-      "notes": "(as Gi-Gi Perreau)",
-      "roles": [
-        "Susan Holden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948714",
-      "name": "Jeff York",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Police Lt. Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0110480",
-      "name": "Peter Brocco",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Brick Robey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583395",
-      "name": "Torben Meyer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Starling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405340",
-      "name": "Olaf Hytten",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Eckles"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0239041",
+      "name": "Michael Duane",
+      "sequence": 0,
+      "roles": [
+        "Tim Quaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551221",
+      "name": "Trudy Marshall",
+      "sequence": 1,
+      "roles": [
+        "Corky Corcoran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180987",
+      "name": "Lloyd Corrigan",
+      "sequence": 2,
+      "roles": [
+        "Geoffrey Holden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0411935",
+      "name": "Rosalind Ivan",
+      "sequence": 3,
+      "roles": [
+        "Aunt Elizabeth Christens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0108653",
+      "name": "Al Bridge",
+      "sequence": 4,
+      "roles": [
+        "Sam Bartlett"
+      ],
+      "notes": "(as Alan Bridge)"
+    },
+    {
+      "person_imdb_id": "nm0674540",
+      "name": "Gigi Perreau",
+      "sequence": 5,
+      "roles": [
+        "Susan Holden"
+      ],
+      "notes": "(as Gi-Gi Perreau)"
+    },
+    {
+      "person_imdb_id": "nm0948714",
+      "name": "Jeff York",
+      "sequence": 6,
+      "roles": [
+        "Police Lt. Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0110480",
+      "name": "Peter Brocco",
+      "sequence": 7,
+      "roles": [
+        "Brick Robey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0583395",
+      "name": "Torben Meyer",
+      "sequence": 8,
+      "roles": [
+        "Starling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405340",
+      "name": "Olaf Hytten",
+      "sequence": 9,
+      "roles": [
+        "Eckles"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0918709",
       "name": "Brenda Weisberg",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0102167",
       "name": "Malcolm Stuart Boylan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 1
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0650083",
       "name": "Arthur E. Orloff",
+      "group": 2,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 2
+      "notes": "(original story)"
     }
   ],
   "release_date": "1946-12-24",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0028677",
   "sort_title": "California Straight Ahead! (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Biff Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490209",
-      "name": "Louise Latimer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0574743",
-      "name": "Robert McWade",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Corrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0902226",
-      "name": "Theodore von Eltz",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "James Gifford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551222",
-      "name": "Tully Marshall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Harrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871551",
-      "name": "Emerson Treacy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charlie Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020568",
-      "name": "Harry Allen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "'Fish' McCorkle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0556813",
-      "name": "LeRoy Mason",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Padula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328757",
-      "name": "Grace Goodall",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405340",
-      "name": "Olaf Hytten",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Huggins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888778",
-      "name": "Monte Vandergrift",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Clancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707527",
-      "name": "Lorin Raker",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Secretary"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0523893",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Biff Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490209",
+      "name": "Louise Latimer",
+      "sequence": 1,
+      "roles": [
+        "Mary Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0574743",
+      "name": "Robert McWade",
+      "sequence": 2,
+      "roles": [
+        "Corrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0902226",
+      "name": "Theodore von Eltz",
+      "sequence": 3,
+      "roles": [
+        "James Gifford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551222",
+      "name": "Tully Marshall",
+      "sequence": 4,
+      "roles": [
+        "Harrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871551",
+      "name": "Emerson Treacy",
+      "sequence": 5,
+      "roles": [
+        "Charlie Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020568",
+      "name": "Harry Allen",
+      "sequence": 6,
+      "roles": [
+        "'Fish' McCorkle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0556813",
+      "name": "LeRoy Mason",
+      "sequence": 7,
+      "roles": [
+        "Padula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328757",
+      "name": "Grace Goodall",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405340",
+      "name": "Olaf Hytten",
+      "sequence": 9,
+      "roles": [
+        "Huggins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888778",
+      "name": "Monte Vandergrift",
+      "sequence": 10,
+      "roles": [
+        "Clancy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707527",
+      "name": "Lorin Raker",
+      "sequence": 11,
+      "roles": [
+        "Secretary"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0101531",
       "name": "Herman Boxer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0201405",
       "name": "Scott Darling",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as W. Scott Darling)",
-      "group_id": 1
+      "notes": "(screenplay) (as W. Scott Darling)"
     }
   ],
   "release_date": "1937-04-16",

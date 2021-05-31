@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0027440",
   "sort_title": "Charlie Chan at the Opera (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0645941",
-      "name": "Warner Oland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Charlie Chan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gravelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525601",
-      "name": "Keye Luke",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lee Chan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377766",
-      "name": "Charlotte Henry",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mlle. Kitty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065288",
-      "name": "Thomas Beck",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Phil Childers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410303",
-      "name": "Margaret Irving",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mme. Lilli Rochelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0310843",
-      "name": "Gregory Gaye",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Enrico Barelli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364197",
-      "name": "Nedda Harrigan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mme. Anita Barelli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175815",
-      "name": "Frank Conroy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Whitely"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0882322",
-      "name": "Guy Usher",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Inspector Regan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sgt. Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0143912",
-      "name": "Maurice Cass",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Arnold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570297",
-      "name": "Tom McGuire",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Morris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255388",
-      "name": "Zari Elmassian",
-      "sequence": 23,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Mme. Rochelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931859",
-      "name": "Tudor Williams",
-      "sequence": 63,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Gravelle's Singing Voice"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0401680",
@@ -146,34 +9,153 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0645941",
+      "name": "Warner Oland",
+      "sequence": 0,
+      "roles": [
+        "Charlie Chan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 1,
+      "roles": [
+        "Gravelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525601",
+      "name": "Keye Luke",
+      "sequence": 2,
+      "roles": [
+        "Lee Chan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377766",
+      "name": "Charlotte Henry",
+      "sequence": 3,
+      "roles": [
+        "Mlle. Kitty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065288",
+      "name": "Thomas Beck",
+      "sequence": 4,
+      "roles": [
+        "Phil Childers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410303",
+      "name": "Margaret Irving",
+      "sequence": 5,
+      "roles": [
+        "Mme. Lilli Rochelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0310843",
+      "name": "Gregory Gaye",
+      "sequence": 6,
+      "roles": [
+        "Enrico Barelli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364197",
+      "name": "Nedda Harrigan",
+      "sequence": 7,
+      "roles": [
+        "Mme. Anita Barelli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175815",
+      "name": "Frank Conroy",
+      "sequence": 8,
+      "roles": [
+        "Mr. Whitely"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0882322",
+      "name": "Guy Usher",
+      "sequence": 9,
+      "roles": [
+        "Inspector Regan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 10,
+      "roles": [
+        "Sgt. Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0143912",
+      "name": "Maurice Cass",
+      "sequence": 11,
+      "roles": [
+        "Mr. Arnold"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570297",
+      "name": "Tom McGuire",
+      "sequence": 12,
+      "roles": [
+        "Morris"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0201405",
       "name": "Scott Darling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0067676",
       "name": "Charles Belden",
-      "sequence": 0,
-      "notes": "(screen play) (as Charles S. Belden)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play) (as Charles S. Belden)"
     },
     {
       "person_imdb_id": "nm0580648",
       "name": "Bess Meredyth",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0081788",
       "name": "Earl Derr Biggers",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on the character created by: \"Charlie Chan\")",
-      "group_id": 2
+      "notes": "(based on the character created by: \"Charlie Chan\")"
     }
   ],
   "release_date": "1936-12-04",

@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0063970",
   "sort_title": "100 Rifles (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000987",
-      "name": "Jim Brown",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lyedecker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000079",
-      "name": "Raquel Welch",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Yaqui Joe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0482881",
-      "name": "Fernando Lamas",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Verdugo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641397",
-      "name": "Dan O'Herlihy",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Grimes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000967",
-      "name": "Eric Braeden",
-      "sequence": 5,
-      "notes": "(as Hans Gudegast)",
-      "roles": [
-        "Von Klemme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0148061",
-      "name": "Michael Forest",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Humara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0759757",
-      "name": "Aldo Sambrell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sgt. Paletes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002817",
-      "name": "Soledad Miranda",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Girl in Hotel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197623",
-      "name": "Alberto Dalb\u00e9s",
-      "sequence": 9,
-      "notes": "(as Alberto Dalbes)",
-      "roles": [
-        "Padre Francisco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106061",
-      "name": "Charly Bravo",
-      "sequence": 10,
-      "notes": "(as Carlos Bravo)",
-      "roles": [
-        "Lopez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554656",
-      "name": "Jos\u00e9 Manuel Mart\u00edn",
-      "sequence": 11,
-      "notes": "(as Jose Manuel Martin)",
-      "roles": [
-        "Sarita's Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848667",
-      "name": "Akim Tamiroff",
-      "sequence": 12,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Gen. Romero"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0340981",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000987",
+      "name": "Jim Brown",
+      "sequence": 0,
+      "roles": [
+        "Lyedecker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000079",
+      "name": "Raquel Welch",
+      "sequence": 1,
+      "roles": [
+        "Sarita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 2,
+      "roles": [
+        "Yaqui Joe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482881",
+      "name": "Fernando Lamas",
+      "sequence": 3,
+      "roles": [
+        "Verdugo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641397",
+      "name": "Dan O'Herlihy",
+      "sequence": 4,
+      "roles": [
+        "Grimes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000967",
+      "name": "Eric Braeden",
+      "sequence": 5,
+      "roles": [
+        "Von Klemme"
+      ],
+      "notes": "(as Hans Gudegast)"
+    },
+    {
+      "person_imdb_id": "nm0148061",
+      "name": "Michael Forest",
+      "sequence": 6,
+      "roles": [
+        "Humara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0759757",
+      "name": "Aldo Sambrell",
+      "sequence": 7,
+      "roles": [
+        "Sgt. Paletes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002817",
+      "name": "Soledad Miranda",
+      "sequence": 8,
+      "roles": [
+        "Girl in Hotel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197623",
+      "name": "Alberto Dalb\u00e9s",
+      "sequence": 9,
+      "roles": [
+        "Padre Francisco"
+      ],
+      "notes": "(as Alberto Dalbes)"
+    },
+    {
+      "person_imdb_id": "nm0106061",
+      "name": "Charly Bravo",
+      "sequence": 10,
+      "roles": [
+        "Lopez"
+      ],
+      "notes": "(as Carlos Bravo)"
+    },
+    {
+      "person_imdb_id": "nm0554656",
+      "name": "Jos\u00e9 Manuel Mart\u00edn",
+      "sequence": 11,
+      "roles": [
+        "Sarita's Father"
+      ],
+      "notes": "(as Jose Manuel Martin)"
+    },
+    {
+      "person_imdb_id": "nm0848667",
+      "name": "Akim Tamiroff",
+      "sequence": 12,
+      "roles": [
+        "Gen. Romero"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0400236",
       "name": "Clair Huffaker",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0340981",
       "name": "Tom Gries",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm2666219",
       "name": "Robert MacLeod",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1969-03-01",

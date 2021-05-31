@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0470752",
   "sort_title": "Ex Machina (2014)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1727304",
-      "name": "Domhnall Gleeson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Caleb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2539953",
-      "name": "Alicia Vikander",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ava"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1209966",
-      "name": "Oscar Isaac",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nathan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4420495",
-      "name": "Sonoya Mizuno",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kyoko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424819",
-      "name": "Corey Johnson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7048733",
-      "name": "Claire Selby",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lily"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5883179",
-      "name": "Symara A. Templeman",
-      "sequence": 6,
-      "notes": "(as Symara Templeman)",
-      "roles": [
-        "Jasmine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7232418",
-      "name": "Gana Bayarsaikhan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4031531",
-      "name": "Tiffany Pisani",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Katya"
-      ]
-    },
-    {
-      "person_imdb_id": "nm6045387",
-      "name": "Elina Alminas",
-      "sequence": 9,
-      "notes": "(as Lina Alminas)",
-      "roles": [
-        "Amber"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0307497",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1727304",
+      "name": "Domhnall Gleeson",
+      "sequence": 0,
+      "roles": [
+        "Caleb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2539953",
+      "name": "Alicia Vikander",
+      "sequence": 1,
+      "roles": [
+        "Ava"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1209966",
+      "name": "Oscar Isaac",
+      "sequence": 2,
+      "roles": [
+        "Nathan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4420495",
+      "name": "Sonoya Mizuno",
+      "sequence": 3,
+      "roles": [
+        "Kyoko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424819",
+      "name": "Corey Johnson",
+      "sequence": 4,
+      "roles": [
+        "Jay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7048733",
+      "name": "Claire Selby",
+      "sequence": 5,
+      "roles": [
+        "Lily"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5883179",
+      "name": "Symara A. Templeman",
+      "sequence": 6,
+      "roles": [
+        "Jasmine"
+      ],
+      "notes": "(as Symara Templeman)"
+    },
+    {
+      "person_imdb_id": "nm7232418",
+      "name": "Gana Bayarsaikhan",
+      "sequence": 7,
+      "roles": [
+        "Jade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4031531",
+      "name": "Tiffany Pisani",
+      "sequence": 8,
+      "roles": [
+        "Katya"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6045387",
+      "name": "Elina Alminas",
+      "sequence": 9,
+      "roles": [
+        "Amber"
+      ],
+      "notes": "(as Lina Alminas)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0307497",
       "name": "Alex Garland",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2014-12-16",

@@ -1,168 +1,6 @@
 {
   "imdb_id": "tt0052563",
   "sort_title": "Angry Hills (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mike Morrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0048939",
-      "name": "Stanley Baker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Conrad Heisler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0618136",
-      "name": "Elisabeth M\u00fcller",
-      "sequence": 2,
-      "notes": "(as Elisabeth Mueller)",
-      "roles": [
-        "Lisa Kyriakides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768748",
-      "name": "Gia Scala",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Eleftheria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000942",
-      "name": "Theodore Bikel",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dimitrios Tassos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001982",
-      "name": "Sebastian Cabot",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Chesney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0407810",
-      "name": "Peter Illing",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Leonides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680587",
-      "name": "Leslie Phillips",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ray Taylor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938372",
-      "name": "Donald Wolfit",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Stergion"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330961",
-      "name": "Marius Goring",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Col. Elrick Oberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485388",
-      "name": "Jocelyn Lane",
-      "sequence": 10,
-      "notes": "(as Jackie Lane)",
-      "roles": [
-        "Maria Tassos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601476",
-      "name": "Kieron Moore",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Andreas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0664965",
-      "name": "George Pastell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Papa Panos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430128",
-      "name": "Patrick Jordan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bluey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176145",
-      "name": "Marita Constantinou",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Cleopatra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885676",
-      "name": "Stanley Van Beers",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Tavern Proprietor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262333",
-      "name": "George Eugeniou",
-      "sequence": 16,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0542267",
-      "name": "Alec Mango",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Phillibos"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000736",
@@ -171,20 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Mike Morrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0048939",
+      "name": "Stanley Baker",
+      "sequence": 1,
+      "roles": [
+        "Conrad Heisler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0618136",
+      "name": "Elisabeth M\u00fcller",
+      "sequence": 2,
+      "roles": [
+        "Lisa Kyriakides"
+      ],
+      "notes": "(as Elisabeth Mueller)"
+    },
+    {
+      "person_imdb_id": "nm0768748",
+      "name": "Gia Scala",
+      "sequence": 3,
+      "roles": [
+        "Eleftheria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000942",
+      "name": "Theodore Bikel",
+      "sequence": 4,
+      "roles": [
+        "Dimitrios Tassos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001982",
+      "name": "Sebastian Cabot",
+      "sequence": 5,
+      "roles": [
+        "Chesney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0407810",
+      "name": "Peter Illing",
+      "sequence": 6,
+      "roles": [
+        "Leonides"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0680587",
+      "name": "Leslie Phillips",
+      "sequence": 7,
+      "roles": [
+        "Ray Taylor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938372",
+      "name": "Donald Wolfit",
+      "sequence": 8,
+      "roles": [
+        "Dr. Stergion"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330961",
+      "name": "Marius Goring",
+      "sequence": 9,
+      "roles": [
+        "Col. Elrick Oberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485388",
+      "name": "Jocelyn Lane",
+      "sequence": 10,
+      "roles": [
+        "Maria Tassos"
+      ],
+      "notes": "(as Jackie Lane)"
+    },
+    {
+      "person_imdb_id": "nm0601476",
+      "name": "Kieron Moore",
+      "sequence": 11,
+      "roles": [
+        "Andreas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0664965",
+      "name": "George Pastell",
+      "sequence": 12,
+      "roles": [
+        "Papa Panos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430128",
+      "name": "Patrick Jordan",
+      "sequence": 13,
+      "roles": [
+        "Bluey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176145",
+      "name": "Marita Constantinou",
+      "sequence": 14,
+      "roles": [
+        "Cleopatra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885676",
+      "name": "Stanley Van Beers",
+      "sequence": 15,
+      "roles": [
+        "Tavern Proprietor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262333",
+      "name": "George Eugeniou",
+      "sequence": 16,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0542267",
+      "name": "Alec Mango",
+      "sequence": 17,
+      "roles": [
+        "Phillibos"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0080135",
       "name": "A.I. Bezzerides",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0881979",
       "name": "Leon Uris",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the book by)",
-      "group_id": 1
+      "notes": "(based on the book by)"
     }
   ],
   "release_date": "1959-02-19",

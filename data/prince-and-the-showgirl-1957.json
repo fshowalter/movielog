@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0050861",
   "sort_title": "Prince and the Showgirl (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0915077",
-      "name": "Richard Wattis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Northbrook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0395004",
-      "name": "David Horne",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "The Foreign Office"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0818215",
-      "name": "Jeremy Spenser",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "King Nicolas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861345",
-      "name": "Sybil Thorndike",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Queen Dowager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000059",
-      "name": "Laurence Olivier",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Regent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329468",
-      "name": "Harold Goodwin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Call Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378209",
-      "name": "Gladys Henson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dresser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Elsie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448765",
-      "name": "Jean Kent",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Maisie Springfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0896094",
-      "name": "Charles Victor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Theatre Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026563",
-      "name": "Daphne Anderson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Fanny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206617",
-      "name": "Vera Day",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Betty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654145",
-      "name": "Gillian Owen",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Maggie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460874",
-      "name": "Esmond Knight",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Hoffman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362557",
-      "name": "Paul Hardwick",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Major Domo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339388",
-      "name": "Rosamund Greenwood",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Maud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0538916",
-      "name": "Andreas Malandrinos",
-      "sequence": 16,
-      "notes": "(as Andrea Melandrinos)",
-      "roles": [
-        "Valet with Violin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514262",
-      "name": "Margot Lister",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Lottie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249936",
-      "name": "Dennis Edwards",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Head Valet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223287",
-      "name": "Aubrey Dexter",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "The Ambassador"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041602",
-      "name": "Maxine Audley",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Lady Sunningdale"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000059",
@@ -200,27 +9,218 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0915077",
+      "name": "Richard Wattis",
+      "sequence": 0,
+      "roles": [
+        "Northbrook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0395004",
+      "name": "David Horne",
+      "sequence": 1,
+      "roles": [
+        "The Foreign Office"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0818215",
+      "name": "Jeremy Spenser",
+      "sequence": 2,
+      "roles": [
+        "King Nicolas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861345",
+      "name": "Sybil Thorndike",
+      "sequence": 3,
+      "roles": [
+        "The Queen Dowager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000059",
+      "name": "Laurence Olivier",
+      "sequence": 4,
+      "roles": [
+        "The Regent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329468",
+      "name": "Harold Goodwin",
+      "sequence": 5,
+      "roles": [
+        "Call Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378209",
+      "name": "Gladys Henson",
+      "sequence": 6,
+      "roles": [
+        "Dresser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 7,
+      "roles": [
+        "Elsie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448765",
+      "name": "Jean Kent",
+      "sequence": 8,
+      "roles": [
+        "Maisie Springfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896094",
+      "name": "Charles Victor",
+      "sequence": 9,
+      "roles": [
+        "Theatre Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026563",
+      "name": "Daphne Anderson",
+      "sequence": 10,
+      "roles": [
+        "Fanny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206617",
+      "name": "Vera Day",
+      "sequence": 11,
+      "roles": [
+        "Betty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654145",
+      "name": "Gillian Owen",
+      "sequence": 12,
+      "roles": [
+        "Maggie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460874",
+      "name": "Esmond Knight",
+      "sequence": 13,
+      "roles": [
+        "Hoffman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362557",
+      "name": "Paul Hardwick",
+      "sequence": 14,
+      "roles": [
+        "Major Domo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339388",
+      "name": "Rosamund Greenwood",
+      "sequence": 15,
+      "roles": [
+        "Maud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0538916",
+      "name": "Andreas Malandrinos",
+      "sequence": 16,
+      "roles": [
+        "Valet with Violin"
+      ],
+      "notes": "(as Andrea Melandrinos)"
+    },
+    {
+      "person_imdb_id": "nm0514262",
+      "name": "Margot Lister",
+      "sequence": 17,
+      "roles": [
+        "Lottie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249936",
+      "name": "Dennis Edwards",
+      "sequence": 18,
+      "roles": [
+        "Head Valet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223287",
+      "name": "Aubrey Dexter",
+      "sequence": 19,
+      "roles": [
+        "The Ambassador"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041602",
+      "name": "Maxine Audley",
+      "sequence": 20,
+      "roles": [
+        "Lady Sunningdale"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0711905",
       "name": "Terence Rattigan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
+      "notes": "(by)"
     },
     {
       "person_imdb_id": "nm0711905",
       "name": "Terence Rattigan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0711905",
       "name": "Terence Rattigan",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"The Sleeping Prince\") (uncredited)",
-      "group_id": 2
+      "notes": "(play \"The Sleeping Prince\") (uncredited)"
     }
   ],
   "release_date": "1957-06-13",

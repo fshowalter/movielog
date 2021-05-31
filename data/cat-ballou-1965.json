@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0059017",
   "sort_title": "Cat Ballou (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000404",
-      "name": "Jane Fonda",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Catherine 'Cat' Ballou"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eli 'Kid' Shelleen",
-        "Tim Strawn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130286",
-      "name": "Michael Callan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clay Boone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382722",
-      "name": "Dwayne Hickman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170713",
-      "name": "Nat 'King' Cole",
-      "sequence": 4,
-      "notes": "(as Nat King Cole)",
-      "roles": [
-        "Shouter - Sunrise Kid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443401",
-      "name": "Stubby Kaye",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Shouter - Sam the Shade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621365",
-      "name": "Tom Nardini",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jackson Two-Bears"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0549134",
-      "name": "John Marley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Frankie Ballou"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219666",
-      "name": "Reginald Denny",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sir Harry Percival"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282435",
-      "name": "Jay C. Flippen",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sheriff Ed Cardigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Butch Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0127677",
-      "name": "Bruce Cabot",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sheriff Maledon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0615993",
-      "name": "Burt Mustin",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Accuser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318198",
-      "name": "Paul Gilbert",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Train Messenger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0799033",
@@ -138,27 +9,156 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000404",
+      "name": "Jane Fonda",
+      "sequence": 0,
+      "roles": [
+        "Cat Ballou"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 1,
+      "roles": [
+        "Kid Shelleen",
+        "Tim Strawn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130286",
+      "name": "Michael Callan",
+      "sequence": 2,
+      "roles": [
+        "Clay Boone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382722",
+      "name": "Dwayne Hickman",
+      "sequence": 3,
+      "roles": [
+        "Jed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170713",
+      "name": "Nat 'King' Cole",
+      "sequence": 4,
+      "roles": [
+        "Shouter - Sunrise Kid"
+      ],
+      "notes": "(as Nat King Cole)"
+    },
+    {
+      "person_imdb_id": "nm0443401",
+      "name": "Stubby Kaye",
+      "sequence": 5,
+      "roles": [
+        "Shouter - Sam the Shade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621365",
+      "name": "Tom Nardini",
+      "sequence": 6,
+      "roles": [
+        "Jackson Two-Bears"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0549134",
+      "name": "John Marley",
+      "sequence": 7,
+      "roles": [
+        "Frankie Ballou"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219666",
+      "name": "Reginald Denny",
+      "sequence": 8,
+      "roles": [
+        "Sir Harry Percival"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282435",
+      "name": "Jay C. Flippen",
+      "sequence": 9,
+      "roles": [
+        "Sheriff Ed Cardigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 10,
+      "roles": [
+        "Butch Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0127677",
+      "name": "Bruce Cabot",
+      "sequence": 11,
+      "roles": [
+        "Sheriff Maledon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0615993",
+      "name": "Burt Mustin",
+      "sequence": 12,
+      "roles": [
+        "Accuser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318198",
+      "name": "Paul Gilbert",
+      "sequence": 13,
+      "roles": [
+        "Train Messenger"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0628305",
       "name": "Walter Newman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0682757",
       "name": "Frank Pierson",
-      "sequence": 0,
-      "notes": "(screenplay) (as Frank R. Pierson)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Frank R. Pierson)"
     },
     {
       "person_imdb_id": "nm0151949",
       "name": "Roy Chanslor",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a novel by)",
-      "group_id": 1
+      "notes": "(based on a novel by)"
     }
   ],
   "release_date": "1965-06-24",

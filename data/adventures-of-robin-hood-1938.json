@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0029843",
   "sort_title": "Adventures of Robin Hood (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robin Hood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000014",
-      "name": "Olivia de Havilland",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maid Marian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001651",
-      "name": "Basil Rathbone",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sir Guy of Gisbourne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001647",
-      "name": "Claude Rains",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Prince John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461549",
-      "name": "Patric Knowles",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Will Scarlett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657874",
-      "name": "Eugene Pallette",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Friar Tuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Little John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178259",
-      "name": "Melville Cooper",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "High Sheriff of Nottingham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402842",
-      "name": "Ian Hunter",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "King Richard the Lion-Heart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640547",
-      "name": "Una O'Connor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612743",
-      "name": "Herbert Mundin",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Much"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002311",
-      "name": "Montagu Love",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Bishop of the Black Canons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929856",
-      "name": "Leonard Willey",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sir Essex"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0633660",
-      "name": "Robert Noble",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sir Ralf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402905",
-      "name": "Kenneth Hunter",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sir Mortimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913094",
-      "name": "Robert Warwick",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Sir Geoffrey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448560",
-      "name": "Colin Kenny",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Sir Baldwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Sir Ivor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179591",
-      "name": "Harry Cording",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Dickon Malbete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801034",
-      "name": "Ivan F. Simpson",
-      "sequence": 19,
-      "notes": "(as Ivan Simpson)",
-      "roles": [
-        "Proprietor of Kent Road Tavern"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -197,27 +15,209 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Robin Hood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000014",
+      "name": "Olivia de Havilland",
+      "sequence": 1,
+      "roles": [
+        "Maid Marian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001651",
+      "name": "Basil Rathbone",
+      "sequence": 2,
+      "roles": [
+        "Sir Guy of Gisbourne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001647",
+      "name": "Claude Rains",
+      "sequence": 3,
+      "roles": [
+        "Prince John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461549",
+      "name": "Patric Knowles",
+      "sequence": 4,
+      "roles": [
+        "Will Scarlett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0657874",
+      "name": "Eugene Pallette",
+      "sequence": 5,
+      "roles": [
+        "Friar Tuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 6,
+      "roles": [
+        "Little John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178259",
+      "name": "Melville Cooper",
+      "sequence": 7,
+      "roles": [
+        "High Sheriff of Nottingham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402842",
+      "name": "Ian Hunter",
+      "sequence": 8,
+      "roles": [
+        "King Richard the Lion-Heart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640547",
+      "name": "Una O'Connor",
+      "sequence": 9,
+      "roles": [
+        "Bess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0612743",
+      "name": "Herbert Mundin",
+      "sequence": 10,
+      "roles": [
+        "Much"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002311",
+      "name": "Montagu Love",
+      "sequence": 11,
+      "roles": [
+        "Bishop of the Black Canons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929856",
+      "name": "Leonard Willey",
+      "sequence": 12,
+      "roles": [
+        "Sir Essex"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0633660",
+      "name": "Robert Noble",
+      "sequence": 13,
+      "roles": [
+        "Sir Ralf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402905",
+      "name": "Kenneth Hunter",
+      "sequence": 14,
+      "roles": [
+        "Sir Mortimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913094",
+      "name": "Robert Warwick",
+      "sequence": 15,
+      "roles": [
+        "Sir Geoffrey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448560",
+      "name": "Colin Kenny",
+      "sequence": 16,
+      "roles": [
+        "Sir Baldwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 17,
+      "roles": [
+        "Sir Ivor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179591",
+      "name": "Harry Cording",
+      "sequence": 18,
+      "roles": [
+        "Dickon Malbete"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801034",
+      "name": "Ivan F. Simpson",
+      "sequence": 19,
+      "roles": [
+        "Proprietor of Kent Road Tavern"
+      ],
+      "notes": "(as Ivan Simpson)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0706993",
       "name": "Norman Reilly Raine",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay: based upon ancient Robin Hood legends)",
-      "group_id": 0
+      "notes": "(original screenplay: based upon ancient Robin Hood legends)"
     },
     {
       "person_imdb_id": "nm0589316",
       "name": "Seton I. Miller",
-      "sequence": 0,
-      "notes": "(original screenplay: based upon ancient Robin Hood legends)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay: based upon ancient Robin Hood legends)"
     },
     {
       "person_imdb_id": "nm0500284",
       "name": "Rowland Leigh",
+      "group": 1,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 1
+      "notes": "(contributor to treatment) (uncredited)"
     }
   ],
   "release_date": "1938-05-12",

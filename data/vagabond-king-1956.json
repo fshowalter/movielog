@@ -1,189 +1,6 @@
 {
   "imdb_id": "tt0049909",
   "sort_title": "Vagabond King (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0337113",
-      "name": "Kathryn Grayson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Catherine de Vaucelles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0456696",
-      "name": "Oreste Kirkop",
-      "sequence": 1,
-      "notes": "(as Oreste)",
-      "roles": [
-        "Fran\u00e7ois Villon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001549",
-      "name": "Rita Moreno",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Huguette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 3,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "Tristan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358899",
-      "name": "Walter Hampden",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "King Louis XI"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000558",
-      "name": "Leslie Nielsen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Thibault d'Aussigny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0697733",
-      "name": "William Prince",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rene de Montigny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0520437",
-      "name": "Jack Lord",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ferrebouc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898892",
-      "name": "Billy Vine",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jacques"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573791",
-      "name": "Harry McNaughton",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Colin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839234",
-      "name": "Florence Sundstrom",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Laughing Margot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484155",
-      "name": "Lucie Lancaster",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Margaret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104243",
-      "name": "Raymond Bramley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Scar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0607986",
-      "name": "Gregory Morton",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "General Antoine De Chabannes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838912",
-      "name": "Ralph Sumpter",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Bishop of Paris and Turin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1042106",
-      "name": "Tom Duggan",
-      "sequence": 15,
-      "notes": "(as G. Thomas Duggan)",
-      "roles": [
-        "Burgundy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330200",
-      "name": "Gavin Gordon",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Majordomo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0098338",
-      "name": "Eve Boswell",
-      "sequence": 19,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Huguette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0632070",
-      "name": "David Nillo",
-      "sequence": 29,
-      "notes": "",
-      "roles": [
-        "Jean, 'The Hook'",
-        "Specialty Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 31,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -192,41 +9,206 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0337113",
+      "name": "Kathryn Grayson",
+      "sequence": 0,
+      "roles": [
+        "Catherine de Vaucelles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0456696",
+      "name": "Oreste Kirkop",
+      "sequence": 1,
+      "roles": [
+        "Fran\u00e7ois Villon"
+      ],
+      "notes": "(as Oreste)"
+    },
+    {
+      "person_imdb_id": "nm0001549",
+      "name": "Rita Moreno",
+      "sequence": 2,
+      "roles": [
+        "Huguette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 3,
+      "roles": [
+        "Tristan"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0358899",
+      "name": "Walter Hampden",
+      "sequence": 4,
+      "roles": [
+        "King Louis XI"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000558",
+      "name": "Leslie Nielsen",
+      "sequence": 5,
+      "roles": [
+        "Thibault d'Aussigny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0697733",
+      "name": "William Prince",
+      "sequence": 6,
+      "roles": [
+        "Rene de Montigny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0520437",
+      "name": "Jack Lord",
+      "sequence": 7,
+      "roles": [
+        "Ferrebouc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898892",
+      "name": "Billy Vine",
+      "sequence": 8,
+      "roles": [
+        "Jacques"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573791",
+      "name": "Harry McNaughton",
+      "sequence": 9,
+      "roles": [
+        "Colin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839234",
+      "name": "Florence Sundstrom",
+      "sequence": 10,
+      "roles": [
+        "Laughing Margot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484155",
+      "name": "Lucie Lancaster",
+      "sequence": 11,
+      "roles": [
+        "Margaret"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104243",
+      "name": "Raymond Bramley",
+      "sequence": 12,
+      "roles": [
+        "The Scar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0607986",
+      "name": "Gregory Morton",
+      "sequence": 13,
+      "roles": [
+        "General Antoine De Chabannes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838912",
+      "name": "Ralph Sumpter",
+      "sequence": 14,
+      "roles": [
+        "Bishop of Paris and Turin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1042106",
+      "name": "Tom Duggan",
+      "sequence": 15,
+      "roles": [
+        "Burgundy"
+      ],
+      "notes": "(as G. Thomas Duggan)"
+    },
+    {
+      "person_imdb_id": "nm0330200",
+      "name": "Gavin Gordon",
+      "sequence": 16,
+      "roles": [
+        "Majordomo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0632070",
+      "name": "David Nillo",
+      "sequence": 29,
+      "roles": [
+        "Jean, 'The Hook'",
+        "Specialty Dancer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0257700",
       "name": "Ken Englund",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0393613",
       "name": "Brian Hooker",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book of stage musical)",
-      "group_id": 1
+      "notes": "(book of stage musical)"
     },
     {
       "person_imdb_id": "nm0486538",
       "name": "Noel Langley",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0565199",
       "name": "Justin Huntly McCarthy",
+      "group": 3,
       "sequence": 0,
-      "notes": "(play \"If I Were King\")",
-      "group_id": 3
+      "notes": "(play \"If I Were King\")"
     },
     {
       "person_imdb_id": "nm0692877",
       "name": "William H. Post",
+      "group": 4,
       "sequence": 0,
-      "notes": "(book of stage musical)",
-      "group_id": 4
+      "notes": "(book of stage musical)"
     }
   ],
   "release_date": "1956-08-29",

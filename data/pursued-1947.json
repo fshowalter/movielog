@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0039737",
   "sort_title": "Pursued (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0942863",
-      "name": "Teresa Wright",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Thor Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jeb Rand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000752",
-      "name": "Judith Anderson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Grant Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jake Dingle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0734937",
-      "name": "John Rodney",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Adam Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949410",
-      "name": "Clifton Young",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "The Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786354",
-      "name": "Ernest Severn",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jeb, age 11"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060876",
-      "name": "Charles Bates",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Adam, age 11"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589120",
-      "name": "Peggy Miller",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Thor, age 10"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427161",
-      "name": "Norman Jolley",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "A Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151420",
-      "name": "Lane Chandler",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "A Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254166",
-      "name": "Elmer Ellingwood",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "A Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599799",
-      "name": "Jack Montgomery",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "A Callum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 15,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Army Captain"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -155,13 +9,159 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0942863",
+      "name": "Teresa Wright",
+      "sequence": 0,
+      "roles": [
+        "Thor Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 1,
+      "roles": [
+        "Jeb Rand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000752",
+      "name": "Judith Anderson",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 3,
+      "roles": [
+        "Grant Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 4,
+      "roles": [
+        "Jake Dingle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0734937",
+      "name": "John Rodney",
+      "sequence": 5,
+      "roles": [
+        "Adam Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 6,
+      "roles": [
+        "Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949410",
+      "name": "Clifton Young",
+      "sequence": 7,
+      "roles": [
+        "The Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786354",
+      "name": "Ernest Severn",
+      "sequence": 8,
+      "roles": [
+        "Jeb, age 11"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060876",
+      "name": "Charles Bates",
+      "sequence": 9,
+      "roles": [
+        "Adam, age 11"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0589120",
+      "name": "Peggy Miller",
+      "sequence": 10,
+      "roles": [
+        "Thor, age 10"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0427161",
+      "name": "Norman Jolley",
+      "sequence": 11,
+      "roles": [
+        "A Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151420",
+      "name": "Lane Chandler",
+      "sequence": 12,
+      "roles": [
+        "A Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254166",
+      "name": "Elmer Ellingwood",
+      "sequence": 13,
+      "roles": [
+        "A Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599799",
+      "name": "Jack Montgomery",
+      "sequence": 14,
+      "roles": [
+        "A Callum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 15,
+      "roles": [
+        "Army Captain"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0124002",
       "name": "Niven Busch",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1947-03-05",

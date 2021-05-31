@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0037367",
   "sort_title": "This Happy Breed (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0628579",
-      "name": "Robert Newton",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frank Gibbons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424743",
-      "name": "Celia Johnson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ethel Gibbons"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0893036",
-      "name": "Amy Veness",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Flint"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0499315",
-      "name": "Alison Leggatt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Aunt Sylvia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0391361",
-      "name": "Stanley Holloway",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bob Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590055",
-      "name": "John Mills",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Billy Mitchell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909727",
-      "name": "Kay Walsh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Queenie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0259841",
-      "name": "Eileen Erskine",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Vi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090043",
-      "name": "John Blythe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Reg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894583",
-      "name": "Guy Verney",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sam Leadbitter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281441",
-      "name": "Betty Fleetwood",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Phyllis Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869428",
-      "name": "Merle Tottenham",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Edie"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000180",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0628579",
+      "name": "Robert Newton",
+      "sequence": 0,
+      "roles": [
+        "Frank Gibbons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424743",
+      "name": "Celia Johnson",
+      "sequence": 1,
+      "roles": [
+        "Ethel Gibbons"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0893036",
+      "name": "Amy Veness",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Flint"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0499315",
+      "name": "Alison Leggatt",
+      "sequence": 3,
+      "roles": [
+        "Aunt Sylvia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0391361",
+      "name": "Stanley Holloway",
+      "sequence": 4,
+      "roles": [
+        "Bob Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590055",
+      "name": "John Mills",
+      "sequence": 5,
+      "roles": [
+        "Billy Mitchell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0909727",
+      "name": "Kay Walsh",
+      "sequence": 6,
+      "roles": [
+        "Queenie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0259841",
+      "name": "Eileen Erskine",
+      "sequence": 7,
+      "roles": [
+        "Vi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0090043",
+      "name": "John Blythe",
+      "sequence": 8,
+      "roles": [
+        "Reg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894583",
+      "name": "Guy Verney",
+      "sequence": 9,
+      "roles": [
+        "Sam Leadbitter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281441",
+      "name": "Betty Fleetwood",
+      "sequence": 10,
+      "roles": [
+        "Phyllis Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0869428",
+      "name": "Merle Tottenham",
+      "sequence": 11,
+      "roles": [
+        "Edie"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000180",
       "name": "David Lean",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 0
+      "notes": "(adapted for the screen by)"
     },
     {
       "person_imdb_id": "nm0623768",
       "name": "Ronald Neame",
-      "sequence": 0,
-      "notes": "(adapted for the screen by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(adapted for the screen by)"
     },
     {
       "person_imdb_id": "nm0369743",
       "name": "Anthony Havelock-Allan",
-      "sequence": 0,
-      "notes": "(adapted for the screen by) (as Anthony Havelock Allan)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(adapted for the screen by) (as Anthony Havelock Allan)"
     },
     {
       "person_imdb_id": "nm0002021",
       "name": "No\u00ebl Coward",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 1
+      "notes": "(play) (uncredited)"
     }
   ],
   "release_date": "1944-05-28",

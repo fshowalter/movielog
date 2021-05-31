@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0756683",
   "sort_title": "Man from Earth (2007)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0807900",
-      "name": "David Lee Smith",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865302",
-      "name": "Tony Todd",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082517",
-      "name": "John Billingsley",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186761",
-      "name": "Ellen Crawford",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Edith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007007",
-      "name": "Annika Peterson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001411",
-      "name": "William Katt",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Art"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005490",
-      "name": "Alexis Thorpe",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Linda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726223",
-      "name": "Richard Riehle",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Will Gruber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2044246",
-      "name": "Steven Littles",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Moving Man #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2162025",
-      "name": "Chase Sprague",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Moving Man #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117005",
-      "name": "Robbie Bryan",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Officer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0770942",
@@ -110,13 +9,114 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0807900",
+      "name": "David Lee Smith",
+      "sequence": 0,
+      "roles": [
+        "John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865302",
+      "name": "Tony Todd",
+      "sequence": 1,
+      "roles": [
+        "Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0082517",
+      "name": "John Billingsley",
+      "sequence": 2,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186761",
+      "name": "Ellen Crawford",
+      "sequence": 3,
+      "roles": [
+        "Edith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007007",
+      "name": "Annika Peterson",
+      "sequence": 4,
+      "roles": [
+        "Sandy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001411",
+      "name": "William Katt",
+      "sequence": 5,
+      "roles": [
+        "Art"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005490",
+      "name": "Alexis Thorpe",
+      "sequence": 6,
+      "roles": [
+        "Linda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0726223",
+      "name": "Richard Riehle",
+      "sequence": 7,
+      "roles": [
+        "Dr. Will Gruber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2044246",
+      "name": "Steven Littles",
+      "sequence": 8,
+      "roles": [
+        "Moving Man #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2162025",
+      "name": "Chase Sprague",
+      "sequence": 9,
+      "roles": [
+        "Moving Man #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117005",
+      "name": "Robbie Bryan",
+      "sequence": 10,
+      "roles": [
+        "Officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0003198",
       "name": "Jerome Bixby",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2007-06-10",

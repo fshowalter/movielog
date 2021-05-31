@@ -1,180 +1,6 @@
 {
   "imdb_id": "tt0030996",
   "sort_title": "You and Me (1938)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Helen Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706368",
-      "name": "George Raft",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joe Dennis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mickey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002503",
-      "name": "Harry Carey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Morris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cuffy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831889",
-      "name": "George E. Stone",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Patsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405220",
-      "name": "Warren Hymer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gimpy Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0191950",
-      "name": "Robert Cummings",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606343",
-      "name": "Adrian Morris",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Knucks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336919",
-      "name": "Roger Gray",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bath House"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192258",
-      "name": "Cecil Cunningham",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Morris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330653",
-      "name": "Vera Gordon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mrs. Levine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106504",
-      "name": "Egon Brecher",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mr. Levine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732062",
-      "name": "Willard Robertson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dayton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930711",
-      "name": "Guinn 'Big Boy' Williams",
-      "sequence": 14,
-      "notes": "(as Guinn Williams)",
-      "roles": [
-        "Taxi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370901",
-      "name": "Bernadene Hayes",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Nellie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174049",
-      "name": "Joyce Compton",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Curly Blonde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656695",
-      "name": "Carol Paige",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Torch Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0345300",
-      "name": "Kit Guard",
-      "sequence": 38,
-      "notes": "",
-      "roles": [
-        "2nd Gangster",
-        "Prison Inmate"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -183,27 +9,201 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 0,
+      "roles": [
+        "Helen Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706368",
+      "name": "George Raft",
+      "sequence": 1,
+      "roles": [
+        "Joe Dennis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 2,
+      "roles": [
+        "Mickey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002503",
+      "name": "Harry Carey",
+      "sequence": 3,
+      "roles": [
+        "Mr. Morris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 4,
+      "roles": [
+        "Cuffy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0831889",
+      "name": "George E. Stone",
+      "sequence": 5,
+      "roles": [
+        "Patsy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405220",
+      "name": "Warren Hymer",
+      "sequence": 6,
+      "roles": [
+        "Gimpy Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0191950",
+      "name": "Robert Cummings",
+      "sequence": 7,
+      "roles": [
+        "Jim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606343",
+      "name": "Adrian Morris",
+      "sequence": 8,
+      "roles": [
+        "Knucks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336919",
+      "name": "Roger Gray",
+      "sequence": 9,
+      "roles": [
+        "Bath House"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192258",
+      "name": "Cecil Cunningham",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Morris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330653",
+      "name": "Vera Gordon",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Levine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106504",
+      "name": "Egon Brecher",
+      "sequence": 12,
+      "roles": [
+        "Mr. Levine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732062",
+      "name": "Willard Robertson",
+      "sequence": 13,
+      "roles": [
+        "Dayton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930711",
+      "name": "Guinn 'Big Boy' Williams",
+      "sequence": 14,
+      "roles": [
+        "Taxi"
+      ],
+      "notes": "(as Guinn Williams)"
+    },
+    {
+      "person_imdb_id": "nm0370901",
+      "name": "Bernadene Hayes",
+      "sequence": 15,
+      "roles": [
+        "Nellie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0174049",
+      "name": "Joyce Compton",
+      "sequence": 16,
+      "roles": [
+        "Curly Blonde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656695",
+      "name": "Carol Paige",
+      "sequence": 17,
+      "roles": [
+        "Torch Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0345300",
+      "name": "Kit Guard",
+      "sequence": 38,
+      "roles": [
+        "2nd Gangster",
+        "Prison Inmate"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0888144",
       "name": "Virginia Van Upp",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0469915",
       "name": "Norman Krasna",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0595654",
       "name": "Jack Moffitt",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1938-05-29",

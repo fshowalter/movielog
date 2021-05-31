@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0032599",
   "sort_title": "His Girl Friday (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Walter Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751426",
-      "name": "Rosalind Russell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Hildy Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000897",
-      "name": "Ralph Bellamy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bruce Baldwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516876",
-      "name": "Gene Lockhart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sheriff Hartwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356004",
-      "name": "Porter Hall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Murphy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0874139",
-      "name": "Ernest Truex",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bensinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249893",
-      "name": "Cliff Edwards",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Endicott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0463882",
-      "name": "Clarence Kolb",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mayor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "McCue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421028",
-      "name": "Frank Jenks",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sanders"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0080867",
-      "name": "Abner Biberman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Louie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0650995",
-      "name": "Frank Orth",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Duffy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702798",
-      "name": "John Qualen",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Earl Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0532997",
-      "name": "Helen Mack",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mollie Malloy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0472557",
-      "name": "Alma Kruger",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mrs Baldwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317970",
-      "name": "Billy Gilbert",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Joe Pettibone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922283",
-      "name": "Pat West",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Warden Cooley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561693",
-      "name": "Edwin Maxwell",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Dr. Egelhoffer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -182,41 +9,214 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Walter Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751426",
+      "name": "Rosalind Russell",
+      "sequence": 1,
+      "roles": [
+        "Hildy Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000897",
+      "name": "Ralph Bellamy",
+      "sequence": 2,
+      "roles": [
+        "Bruce Baldwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516876",
+      "name": "Gene Lockhart",
+      "sequence": 3,
+      "roles": [
+        "Sheriff Hartwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356004",
+      "name": "Porter Hall",
+      "sequence": 4,
+      "roles": [
+        "Murphy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0874139",
+      "name": "Ernest Truex",
+      "sequence": 5,
+      "roles": [
+        "Bensinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249893",
+      "name": "Cliff Edwards",
+      "sequence": 6,
+      "roles": [
+        "Endicott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0463882",
+      "name": "Clarence Kolb",
+      "sequence": 7,
+      "roles": [
+        "Mayor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 8,
+      "roles": [
+        "McCue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421028",
+      "name": "Frank Jenks",
+      "sequence": 9,
+      "roles": [
+        "Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 10,
+      "roles": [
+        "Sanders"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0080867",
+      "name": "Abner Biberman",
+      "sequence": 11,
+      "roles": [
+        "Louie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0650995",
+      "name": "Frank Orth",
+      "sequence": 12,
+      "roles": [
+        "Duffy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702798",
+      "name": "John Qualen",
+      "sequence": 13,
+      "roles": [
+        "Earl Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0532997",
+      "name": "Helen Mack",
+      "sequence": 14,
+      "roles": [
+        "Mollie Malloy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0472557",
+      "name": "Alma Kruger",
+      "sequence": 15,
+      "roles": [
+        "Mrs Baldwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317970",
+      "name": "Billy Gilbert",
+      "sequence": 16,
+      "roles": [
+        "Joe Pettibone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922283",
+      "name": "Pat West",
+      "sequence": 17,
+      "roles": [
+        "Warden Cooley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561693",
+      "name": "Edwin Maxwell",
+      "sequence": 18,
+      "roles": [
+        "Dr. Egelhoffer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0496468",
       "name": "Charles Lederer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the play \"The Front Page\")",
-      "group_id": 1
+      "notes": "(from the play \"The Front Page\")"
     },
     {
       "person_imdb_id": "nm0531269",
       "name": "Charles MacArthur",
-      "sequence": 0,
-      "notes": "(from the play \"The Front Page\")",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from the play \"The Front Page\")"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0753452",
       "name": "Morrie Ryskind",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 3
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1940-01-11",

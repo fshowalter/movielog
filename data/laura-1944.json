@@ -1,62 +1,6 @@
 {
   "imdb_id": "tt0037008",
   "sort_title": "Laura (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000074",
-      "name": "Gene Tierney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Laura Hunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000763",
-      "name": "Dana Andrews",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Det. Lt. Mark McPherson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916067",
-      "name": "Clifton Webb",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Waldo Lydecker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Shelby Carpenter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000752",
-      "name": "Judith Anderson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ann Treadwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593372",
-      "name": "Grant Mitchell",
-      "sequence": 5,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Lancaster Corey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0695937",
@@ -65,41 +9,97 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000074",
+      "name": "Gene Tierney",
+      "sequence": 0,
+      "roles": [
+        "Laura Hunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000763",
+      "name": "Dana Andrews",
+      "sequence": 1,
+      "roles": [
+        "Det. Lt. Mark McPherson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916067",
+      "name": "Clifton Webb",
+      "sequence": 2,
+      "roles": [
+        "Waldo Lydecker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 3,
+      "roles": [
+        "Shelby Carpenter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000752",
+      "name": "Judith Anderson",
+      "sequence": 4,
+      "roles": [
+        "Ann Treadwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593372",
+      "name": "Grant Mitchell",
+      "sequence": 5,
+      "roles": [
+        "Lancaster Corey"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0143837",
       "name": "Vera Caspary",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0237225",
       "name": "Jay Dratler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0388755",
       "name": "Samuel Hoffenstein",
-      "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0718101",
       "name": "Elizabeth Reinhardt",
-      "sequence": 0,
-      "notes": "(screen play by) (as Betty Reinhardt)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screen play by) (as Betty Reinhardt)"
     },
     {
       "person_imdb_id": "nm0488057",
       "name": "Ring Lardner Jr.",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1944-10-11",

@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt1217070",
   "sort_title": "Triage (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0268199",
-      "name": "Colin Farrell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mark Walsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0803397",
-      "name": "Jamie Sives",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891895",
-      "name": "Paz Vega",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Elena Morales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717709",
-      "name": "Kelly Reilly",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Diane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0229301",
-      "name": "Branko Djuric",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Talzani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0787248",
-      "name": "Mozaffar Shafeie",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Talzani's Assitant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1600076",
-      "name": "Kae Bahar",
-      "sequence": 6,
-      "notes": "(as Karzan Sherabayani)",
-      "roles": [
-        "Wounded Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130429",
-      "name": "Luis Callejo",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pesh Merga Commander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3452188",
-      "name": "Alex Spijksma",
-      "sequence": 8,
-      "notes": "(as Alejandro S\u00e1nchez)",
-      "roles": [
-        "Pesh Merga Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0568400",
-      "name": "Ian McElhinney",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828980",
-      "name": "Juliet Stevenson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Amy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2838466",
-      "name": "Michelle Hartman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909626",
-      "name": "Eileen Walsh",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Christopher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242954",
-      "name": "Nick Dunning",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Dr. Hersbach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Joaqu\u00edn Morales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2201022",
-      "name": "Reece Ritchie",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Boy in Beirut"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3855644",
-      "name": "Dada Ashi",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Ugandan Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2726855",
-      "name": "Sandra Ni Bhroin",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Staff Nurse Marion Picard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0849786",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0268199",
+      "name": "Colin Farrell",
+      "sequence": 0,
+      "roles": [
+        "Mark Walsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0803397",
+      "name": "Jamie Sives",
+      "sequence": 1,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891895",
+      "name": "Paz Vega",
+      "sequence": 2,
+      "roles": [
+        "Elena Morales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717709",
+      "name": "Kelly Reilly",
+      "sequence": 3,
+      "roles": [
+        "Diane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0229301",
+      "name": "Branko Djuric",
+      "sequence": 4,
+      "roles": [
+        "Dr. Talzani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0787248",
+      "name": "Mozaffar Shafeie",
+      "sequence": 5,
+      "roles": [
+        "Talzani's Assitant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1600076",
+      "name": "Kae Bahar",
+      "sequence": 6,
+      "roles": [
+        "Wounded Man"
+      ],
+      "notes": "(as Karzan Sherabayani)"
+    },
+    {
+      "person_imdb_id": "nm0130429",
+      "name": "Luis Callejo",
+      "sequence": 7,
+      "roles": [
+        "Pesh Merga Commander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3452188",
+      "name": "Alex Spijksma",
+      "sequence": 8,
+      "roles": [
+        "Pesh Merga Sergeant"
+      ],
+      "notes": "(as Alejandro S\u00e1nchez)"
+    },
+    {
+      "person_imdb_id": "nm0568400",
+      "name": "Ian McElhinney",
+      "sequence": 9,
+      "roles": [
+        "Ivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828980",
+      "name": "Juliet Stevenson",
+      "sequence": 10,
+      "roles": [
+        "Amy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2838466",
+      "name": "Michelle Hartman",
+      "sequence": 11,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0909626",
+      "name": "Eileen Walsh",
+      "sequence": 12,
+      "roles": [
+        "Dr. Christopher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242954",
+      "name": "Nick Dunning",
+      "sequence": 13,
+      "roles": [
+        "Dr. Hersbach"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 14,
+      "roles": [
+        "Joaqu\u00edn Morales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2201022",
+      "name": "Reece Ritchie",
+      "sequence": 15,
+      "roles": [
+        "Boy in Beirut"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3855644",
+      "name": "Dada Ashi",
+      "sequence": 16,
+      "roles": [
+        "Ugandan Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2726855",
+      "name": "Sandra Ni Bhroin",
+      "sequence": 17,
+      "roles": [
+        "Staff Nurse Marion Picard"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0849786",
       "name": "Danis Tanovic",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0027417",
       "name": "Scott Anderson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "notes": "(book)"
     }
   ],
   "release_date": "2009-09-12",

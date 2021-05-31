@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0056255",
   "sort_title": "Mr. Hobbs Takes a Vacation (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Roger Hobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000058",
-      "name": "Maureen O'Hara",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Peggy Hobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003104",
-      "name": "Fabian",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Joe Carmody"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0676555",
-      "name": "Lauri Peters",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Katey Hobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313136",
-      "name": "Lili Gentle",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Janie Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768334",
-      "name": "John Saxon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Byron Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569410",
-      "name": "John McGiver",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Martin Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933810",
-      "name": "Marie Wilson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Emily Turner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0306786",
-      "name": "Reginald Gardiner",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Reggie McHugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889520",
-      "name": "Valerie Varda",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Marika Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0874353",
-      "name": "Natalie Trundy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Susan Carver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0670539",
-      "name": "Josh Peine",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Stan Carver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122798",
-      "name": "Michael Burns",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Danny Hobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0881832",
-      "name": "Minerva Urecal",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Brenda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171956",
-      "name": "Richard Collier",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mr. Kagle"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0467396",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Roger Hobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000058",
+      "name": "Maureen O'Hara",
+      "sequence": 1,
+      "roles": [
+        "Peggy Hobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003104",
+      "name": "Fabian",
+      "sequence": 2,
+      "roles": [
+        "Joe Carmody"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0676555",
+      "name": "Lauri Peters",
+      "sequence": 3,
+      "roles": [
+        "Katey Hobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313136",
+      "name": "Lili Gentle",
+      "sequence": 4,
+      "roles": [
+        "Janie Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768334",
+      "name": "John Saxon",
+      "sequence": 5,
+      "roles": [
+        "Byron Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569410",
+      "name": "John McGiver",
+      "sequence": 6,
+      "roles": [
+        "Martin Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933810",
+      "name": "Marie Wilson",
+      "sequence": 7,
+      "roles": [
+        "Emily Turner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0306786",
+      "name": "Reginald Gardiner",
+      "sequence": 8,
+      "roles": [
+        "Reggie McHugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889520",
+      "name": "Valerie Varda",
+      "sequence": 9,
+      "roles": [
+        "Marika Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0874353",
+      "name": "Natalie Trundy",
+      "sequence": 10,
+      "roles": [
+        "Susan Carver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0670539",
+      "name": "Josh Peine",
+      "sequence": 11,
+      "roles": [
+        "Stan Carver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122798",
+      "name": "Michael Burns",
+      "sequence": 12,
+      "roles": [
+        "Danny Hobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0881832",
+      "name": "Minerva Urecal",
+      "sequence": 13,
+      "roles": [
+        "Brenda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171956",
+      "name": "Richard Collier",
+      "sequence": 14,
+      "roles": [
+        "Mr. Kagle"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0425913",
       "name": "Nunnally Johnson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0834117",
       "name": "Edward Streeter",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1962-06-01",

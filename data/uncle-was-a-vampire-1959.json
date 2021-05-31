@@ -1,151 +1,6 @@
 {
   "imdb_id": "tt0053340",
   "sort_title": "Uncle Was a Vampire (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0711031",
-      "name": "Renato Rascel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Il conte Osvaldo Lambertenghi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466977",
-      "name": "Sylva Koscina",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carla"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0957866",
-      "name": "Lia Zoppelli",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Letizia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279007",
-      "name": "Kai Fischer",
-      "sequence": 3,
-      "notes": "(as Kay Ficher)",
-      "roles": [
-        "Kay - la rossa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768922",
-      "name": "Franco Scandurra",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Il professore Stricker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0921659",
-      "name": "Carl Wery",
-      "sequence": 5,
-      "notes": "(as Carlo Very)",
-      "roles": [
-        "Il professore tedesco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311646",
-      "name": "Antje Geerk",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Susan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172094",
-      "name": "Federico Collino",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Il commendatore Luigino Visnaghi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0520873",
-      "name": "Susanne Loret",
-      "sequence": 8,
-      "notes": "(as Susan Loret)",
-      "roles": [
-        "Liliana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0953091",
-      "name": "Angelo Zanolli",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Paolo - il primo play boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541043",
-      "name": "Antonio Mambretti",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0319088",
-      "name": "Ivana Gilli",
-      "sequence": 11,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0316004",
-      "name": "Franco Giacobini",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Il secondo play boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0274675",
-      "name": "Fiorella Ferrero",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0183096",
-      "name": "Francesco Tensi",
-      "sequence": 14,
-      "notes": "(as Francesco Tenzi)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0031090",
-      "name": "Lamberto Antinori",
-      "sequence": 15,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Baron Roderico da Frankurten"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0826642",
@@ -154,69 +9,214 @@
       "notes": ""
     }
   ],
-  "writers": [
-    {
-      "person_imdb_id": "nm0031196",
-      "name": "Edoardo Anton",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
-    },
-    {
-      "person_imdb_id": "nm0147601",
-      "name": "Mario Cecchi Gori",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
-    },
-    {
-      "person_imdb_id": "nm0284503",
-      "name": "Marcello Fondato",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
-    },
+  "cast": [
     {
       "person_imdb_id": "nm0711031",
       "name": "Renato Rascel",
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "roles": [
+        "Il conte Osvaldo Lambertenghi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466977",
+      "name": "Sylva Koscina",
+      "sequence": 1,
+      "roles": [
+        "Carla"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0957866",
+      "name": "Lia Zoppelli",
+      "sequence": 2,
+      "roles": [
+        "Letizia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279007",
+      "name": "Kai Fischer",
+      "sequence": 3,
+      "roles": [
+        "Kay - la rossa"
+      ],
+      "notes": "(as Kay Ficher)"
+    },
+    {
+      "person_imdb_id": "nm0768922",
+      "name": "Franco Scandurra",
+      "sequence": 4,
+      "roles": [
+        "Il professore Stricker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0921659",
+      "name": "Carl Wery",
+      "sequence": 5,
+      "roles": [
+        "Il professore tedesco"
+      ],
+      "notes": "(as Carlo Very)"
+    },
+    {
+      "person_imdb_id": "nm0311646",
+      "name": "Antje Geerk",
+      "sequence": 6,
+      "roles": [
+        "Susan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172094",
+      "name": "Federico Collino",
+      "sequence": 7,
+      "roles": [
+        "Il commendatore Luigino Visnaghi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0520873",
+      "name": "Susanne Loret",
+      "sequence": 8,
+      "roles": [
+        "Liliana"
+      ],
+      "notes": "(as Susan Loret)"
+    },
+    {
+      "person_imdb_id": "nm0953091",
+      "name": "Angelo Zanolli",
+      "sequence": 9,
+      "roles": [
+        "Paolo - il primo play boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541043",
+      "name": "Antonio Mambretti",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0319088",
+      "name": "Ivana Gilli",
+      "sequence": 11,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0316004",
+      "name": "Franco Giacobini",
+      "sequence": 12,
+      "roles": [
+        "Il secondo play boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0274675",
+      "name": "Fiorella Ferrero",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183096",
+      "name": "Francesco Tensi",
+      "sequence": 14,
+      "roles": [],
+      "notes": "(as Francesco Tenzi)"
+    },
+    {
+      "person_imdb_id": "nm0031090",
+      "name": "Lamberto Antinori",
+      "sequence": 15,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 16,
+      "roles": [
+        "Baron Roderico da Frankurten"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0031196",
+      "name": "Edoardo Anton",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0147601",
+      "name": "Mario Cecchi Gori",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0284503",
+      "name": "Marcello Fondato",
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0711031",
+      "name": "Renato Rascel",
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0826642",
       "name": "Steno",
-      "sequence": 0,
-      "notes": "(story) (as Stefano Vanzina)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 4,
+      "notes": "(story) (as Stefano Vanzina)"
     },
     {
       "person_imdb_id": "nm0031196",
       "name": "Edoardo Anton",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0176420",
       "name": "Sandro Continenza",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0893764",
       "name": "Dino Verde",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0826642",
       "name": "Steno",
-      "sequence": 0,
-      "notes": "(screenplay) (as Stefano Vanzina)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 3,
+      "notes": "(screenplay) (as Stefano Vanzina)"
     }
   ],
   "release_date": "1959-10-28",

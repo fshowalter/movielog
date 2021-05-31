@@ -1,136 +1,6 @@
 {
   "imdb_id": "tt0051745",
   "sort_title": "Houseboat (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Tom Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000047",
-      "name": "Sophia Loren",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cinzia Zaccardi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405054",
-      "name": "Martha Hyer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Carolyn Gibson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0345340",
-      "name": "Harry Guardino",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Angelo Donatello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161862",
-      "name": "Eduardo Ciannelli",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Arturo Zaccardi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358069",
-      "name": "Murray Hamilton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. Alan Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317127",
-      "name": "Mimi Gibson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Elizabeth Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0676928",
-      "name": "Paul Petersen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "David Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378517",
-      "name": "Charles Herbert",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Robert Winters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448195",
-      "name": "Madge Kennedy",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Farnsworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514344",
-      "name": "John Litel",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. William Farnsworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0459252",
-      "name": "Werner Klemperer",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Harold Messner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0283170",
-      "name": "Bess Flowers",
-      "sequence": 29,
-      "notes": "",
-      "roles": [
-        "Country Club Patron",
-        "Wedding Guest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588443",
-      "name": "Harold Miller",
-      "sequence": 43,
-      "notes": "",
-      "roles": [
-        "Country Club Patron",
-        "Wedding Guest"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0789520",
@@ -139,27 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Tom Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000047",
+      "name": "Sophia Loren",
+      "sequence": 1,
+      "roles": [
+        "Cinzia Zaccardi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405054",
+      "name": "Martha Hyer",
+      "sequence": 2,
+      "roles": [
+        "Carolyn Gibson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0345340",
+      "name": "Harry Guardino",
+      "sequence": 3,
+      "roles": [
+        "Angelo Donatello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161862",
+      "name": "Eduardo Ciannelli",
+      "sequence": 4,
+      "roles": [
+        "Arturo Zaccardi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358069",
+      "name": "Murray Hamilton",
+      "sequence": 5,
+      "roles": [
+        "Capt. Alan Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317127",
+      "name": "Mimi Gibson",
+      "sequence": 6,
+      "roles": [
+        "Elizabeth Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0676928",
+      "name": "Paul Petersen",
+      "sequence": 7,
+      "roles": [
+        "David Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378517",
+      "name": "Charles Herbert",
+      "sequence": 8,
+      "roles": [
+        "Robert Winters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448195",
+      "name": "Madge Kennedy",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Farnsworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514344",
+      "name": "John Litel",
+      "sequence": 10,
+      "roles": [
+        "Mr. William Farnsworth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0459252",
+      "name": "Werner Klemperer",
+      "sequence": 11,
+      "roles": [
+        "Harold Messner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0283170",
+      "name": "Bess Flowers",
+      "sequence": 29,
+      "roles": [
+        "Country Club Patron",
+        "Wedding Guest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588443",
+      "name": "Harold Miller",
+      "sequence": 43,
+      "roles": [
+        "Country Club Patron",
+        "Wedding Guest"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0789520",
       "name": "Melville Shavelson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0741439",
       "name": "Jack Rose",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0236860",
       "name": "Betsy Drake",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(screenplay) (uncredited)"
     }
   ],
   "release_date": "1958-10-15",

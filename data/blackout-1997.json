@@ -1,163 +1,6 @@
 {
   "imdb_id": "tt0118734",
   "sort_title": "Blackout (1997)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000546",
-      "name": "Matthew Modine",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Matty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000629",
-      "name": "Claudia Schiffer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Susan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001095",
-      "name": "B\u00e9atrice Dalle",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Annie 1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0489857",
-      "name": "Sarah Lassez",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Annie 2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000454",
-      "name": "Dennis Hopper",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mickey Wayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000874",
-      "name": "Steven Bauer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mickey's Studio Actor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0047362",
-      "name": "Laura Bailey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mickey's Studio Actress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0273997",
-      "name": "Nancy Ferrara",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mickey's Studio Actress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0278767",
-      "name": "Andrew Fiscella",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mickey's Studio Actor",
-        "barman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483342",
-      "name": "Vincent Lamberti",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Benedict Arnold Mickey's Studio Actor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240629",
-      "name": "Victoria Duffy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Script Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0207952",
-      "name": "Nicholas De Cegli",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Miami Drug Dealer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0243227",
-      "name": "Daphne Duplaix",
-      "sequence": 12,
-      "notes": "(Daphne)",
-      "roles": [
-        "Fly Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0520151",
-      "name": "Mercy Lopez",
-      "sequence": 13,
-      "notes": "(Jasmine)",
-      "roles": [
-        "Fly Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247744",
-      "name": "Lori Eastside",
-      "sequence": 14,
-      "notes": "(as Lori A. Eastside)",
-      "roles": [
-        "That Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540341",
-      "name": "Shareef Malnik",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Gold Carder",
-        "Cook helper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134145",
-      "name": "Peter Cannold",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Movie Investor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001206",
@@ -166,27 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000546",
+      "name": "Matthew Modine",
+      "sequence": 0,
+      "roles": [
+        "Matty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000629",
+      "name": "Claudia Schiffer",
+      "sequence": 1,
+      "roles": [
+        "Susan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001095",
+      "name": "B\u00e9atrice Dalle",
+      "sequence": 2,
+      "roles": [
+        "Annie 1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0489857",
+      "name": "Sarah Lassez",
+      "sequence": 3,
+      "roles": [
+        "Annie 2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000454",
+      "name": "Dennis Hopper",
+      "sequence": 4,
+      "roles": [
+        "Mickey Wayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000874",
+      "name": "Steven Bauer",
+      "sequence": 5,
+      "roles": [
+        "Mickey's Studio Actor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0047362",
+      "name": "Laura Bailey",
+      "sequence": 6,
+      "roles": [
+        "Mickey's Studio Actress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0273997",
+      "name": "Nancy Ferrara",
+      "sequence": 7,
+      "roles": [
+        "Mickey's Studio Actress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0278767",
+      "name": "Andrew Fiscella",
+      "sequence": 8,
+      "roles": [
+        "Mickey's Studio Actor",
+        "barman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483342",
+      "name": "Vincent Lamberti",
+      "sequence": 9,
+      "roles": [
+        "Benedict Arnold Mickey's Studio Actor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240629",
+      "name": "Victoria Duffy",
+      "sequence": 10,
+      "roles": [
+        "Script Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0207952",
+      "name": "Nicholas De Cegli",
+      "sequence": 11,
+      "roles": [
+        "Miami Drug Dealer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0243227",
+      "name": "Daphne Duplaix",
+      "sequence": 12,
+      "roles": [
+        "Fly Girl"
+      ],
+      "notes": "(Daphne)"
+    },
+    {
+      "person_imdb_id": "nm0520151",
+      "name": "Mercy Lopez",
+      "sequence": 13,
+      "roles": [
+        "Fly Girl"
+      ],
+      "notes": "(Jasmine)"
+    },
+    {
+      "person_imdb_id": "nm0247744",
+      "name": "Lori Eastside",
+      "sequence": 14,
+      "roles": [
+        "That Girl"
+      ],
+      "notes": "(as Lori A. Eastside)"
+    },
+    {
+      "person_imdb_id": "nm0540341",
+      "name": "Shareef Malnik",
+      "sequence": 15,
+      "roles": [
+        "Gold Carder",
+        "Cook helper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134145",
+      "name": "Peter Cannold",
+      "sequence": 16,
+      "roles": [
+        "Movie Investor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001206",
       "name": "Abel Ferrara",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0361332",
       "name": "Marla Hanson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0957631",
       "name": "Christ Zois",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1997-05-01",

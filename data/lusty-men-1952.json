@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0044860",
   "sort_title": "Lusty Men (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001333",
-      "name": "Susan Hayward",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Louise Merritt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jeff McCloud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447913",
-      "name": "Arthur Kennedy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Wes Merritt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402277",
-      "name": "Arthur Hunnicutt",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Booker Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269709",
-      "name": "Frank Faylen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Al Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185341",
-      "name": "Walter Coy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Buster Burgess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637779",
-      "name": "Carol Nugent",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rusty Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366428",
-      "name": "Maria Hart",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rosemary Maddox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0857213",
-      "name": "Lorna Thayer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Grace Burgess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0615993",
-      "name": "Burt Mustin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jeremiah Watrus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709819",
-      "name": "Karen Randle",
-      "sequence": 10,
-      "notes": "(as Karen King)",
-      "roles": [
-        "Ginny Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230082",
-      "name": "Jimmie Dodd",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Red Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865161",
-      "name": "Eleanor Todd",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Babs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151420",
-      "name": "Lane Chandler",
-      "sequence": 21,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "4th Rodeo Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0712947",
@@ -143,52 +15,171 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001333",
+      "name": "Susan Hayward",
+      "sequence": 0,
+      "roles": [
+        "Louise Merritt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 1,
+      "roles": [
+        "Jeff McCloud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447913",
+      "name": "Arthur Kennedy",
+      "sequence": 2,
+      "roles": [
+        "Wes Merritt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "sequence": 3,
+      "roles": [
+        "Booker Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269709",
+      "name": "Frank Faylen",
+      "sequence": 4,
+      "roles": [
+        "Al Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185341",
+      "name": "Walter Coy",
+      "sequence": 5,
+      "roles": [
+        "Buster Burgess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637779",
+      "name": "Carol Nugent",
+      "sequence": 6,
+      "roles": [
+        "Rusty Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0366428",
+      "name": "Maria Hart",
+      "sequence": 7,
+      "roles": [
+        "Rosemary Maddox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0857213",
+      "name": "Lorna Thayer",
+      "sequence": 8,
+      "roles": [
+        "Grace Burgess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0615993",
+      "name": "Burt Mustin",
+      "sequence": 9,
+      "roles": [
+        "Jeremiah Watrus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709819",
+      "name": "Karen Randle",
+      "sequence": 10,
+      "roles": [
+        "Ginny Logan"
+      ],
+      "notes": "(as Karen King)"
+    },
+    {
+      "person_imdb_id": "nm0230082",
+      "name": "Jimmie Dodd",
+      "sequence": 11,
+      "roles": [
+        "Red Logan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865161",
+      "name": "Eleanor Todd",
+      "sequence": 12,
+      "roles": [
+        "Babs"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0234228",
       "name": "David Dortort",
-      "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0822827",
       "name": "Claude Stanush",
+      "group": 1,
       "sequence": 0,
-      "notes": "(suggested by a story by)",
-      "group_id": 1
+      "notes": "(suggested by a story by)"
     },
     {
       "person_imdb_id": "nm0370883",
       "name": "Alfred Hayes",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0813584",
       "name": "Andrew Solt",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0907003",
       "name": "Jerry Wald",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
-  "release_date": "1952-10-01",
-  "release_date_notes": "(Dallas, Texas) (premiere)",
+  "release_date": "1952-09-30",
+  "release_date_notes": "(Fort Worth, Texas) (premiere)",
   "countries": [
     "United States"
   ]

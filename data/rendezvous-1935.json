@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0026922",
   "sort_title": "Rendezvous (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lieutenant Bill Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751426",
-      "name": "Rosalind Russell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joel Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001931",
-      "name": "Binnie Barnes",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Olivia Kerloff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041172",
-      "name": "Lionel Atwill",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Major William Brennan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003110",
-      "name": "Cesar Romero",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Captain Nicholas Nieterstein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385594",
-      "name": "Samuel S. Hinds",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827261",
-      "name": "Henry Stephenson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ambassador"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717046",
-      "name": "Frank Reicher",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. R.A. Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335788",
-      "name": "Charley Grapewin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610950",
-      "name": "Leonard Mudie",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382730",
-      "name": "Howard Hickman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "G-Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Secretary of War Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455706",
-      "name": "Murray Kinnell",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "de Segroff"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0397678",
@@ -134,69 +15,188 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Lieutenant Bill Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751426",
+      "name": "Rosalind Russell",
+      "sequence": 1,
+      "roles": [
+        "Joel Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001931",
+      "name": "Binnie Barnes",
+      "sequence": 2,
+      "roles": [
+        "Olivia Kerloff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041172",
+      "name": "Lionel Atwill",
+      "sequence": 3,
+      "roles": [
+        "Major William Brennan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003110",
+      "name": "Cesar Romero",
+      "sequence": 4,
+      "roles": [
+        "Captain Nicholas Nieterstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385594",
+      "name": "Samuel S. Hinds",
+      "sequence": 5,
+      "roles": [
+        "John Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827261",
+      "name": "Henry Stephenson",
+      "sequence": 6,
+      "roles": [
+        "Ambassador"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717046",
+      "name": "Frank Reicher",
+      "sequence": 7,
+      "roles": [
+        "Dr. R.A. Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335788",
+      "name": "Charley Grapewin",
+      "sequence": 8,
+      "roles": [
+        "Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610950",
+      "name": "Leonard Mudie",
+      "sequence": 9,
+      "roles": [
+        "Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382730",
+      "name": "Howard Hickman",
+      "sequence": 10,
+      "roles": [
+        "G-Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 11,
+      "roles": [
+        "Secretary of War Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455706",
+      "name": "Murray Kinnell",
+      "sequence": 12,
+      "roles": [
+        "de Segroff"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0818415",
       "name": "Bella Spewack",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation by)",
-      "group_id": 0
+      "notes": "(adaptation by)"
     },
     {
       "person_imdb_id": "nm0818416",
       "name": "Sam Spewack",
-      "sequence": 0,
-      "notes": "(adaptation by) (as Samuel Spewack)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(adaptation by) (as Samuel Spewack)"
     },
     {
       "person_imdb_id": "nm0938439",
       "name": "P.J. Wolfson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0649183",
       "name": "George Oppenheimer",
-      "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0946416",
       "name": "Herbert O. Yardley",
+      "group": 2,
       "sequence": 0,
-      "notes": "(from a book by)",
-      "group_id": 2
+      "notes": "(from a book by)"
     },
     {
       "person_imdb_id": "nm0388743",
       "name": "Monckton Hoffe",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0542534",
       "name": "Herman J. Mankiewicz",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0736911",
       "name": "Howard Emmett Rogers",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0837989",
       "name": "C. Gardner Sullivan",
+      "group": 6,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 6
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1935-10-23",

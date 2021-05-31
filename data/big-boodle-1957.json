@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0050189",
   "sort_title": "Big Boodle (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ned Sherwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000784",
-      "name": "Pedro Armend\u00e1riz",
-      "sequence": 1,
-      "notes": "(as Pedro Armendariz)",
-      "roles": [
-        "Colonel Mastegui"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740735",
-      "name": "Rossana Rory",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "'Fina' Ferrer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768748",
-      "name": "Gia Scala",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Anita Ferrer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041466",
-      "name": "Jacques Aubuchon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Miguel Collada"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317637",
-      "name": "Sandro Giglio",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Armando Ferrer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865134",
-      "name": "Charles Todd",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "U.S. Treasury Agent Griswold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0555993",
-      "name": "Carlos Mas",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Chuchu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0959345",
-      "name": "Guillermo \u00c1lvarez Guedes",
-      "sequence": 8,
-      "notes": "(as Guillermo Alvarez G.)",
-      "roles": [
-        "Casino Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0553739",
-      "name": "Velia Martinez",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Salcito's Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685623",
-      "name": "Aurora Pita",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Linen Shop Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380131",
-      "name": "Rogelio Hern\u00e1ndez",
-      "sequence": 11,
-      "notes": "(as Rogelio Hernandez)",
-      "roles": [
-        "Miguel Salcito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133883",
-      "name": "Francisco Canero",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Police Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649279",
-      "name": "Louis Oquendo",
-      "sequence": 13,
-      "notes": "(as Luis Oquendo)",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0190226",
-      "name": "Enrique Cruz \u00c1lvarez",
-      "sequence": 14,
-      "notes": "(as Enrique Cruz Alvarez)",
-      "roles": [
-        "Police Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2117950",
-      "name": "Sonya",
-      "sequence": 15,
-      "notes": "(as Sonya and Rudy)",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0749027",
-      "name": "Rudy",
-      "sequence": 16,
-      "notes": "(as Sonya and Rudy)",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258080",
-      "name": "Josefina Enr\u00edquez",
-      "sequence": 17,
-      "notes": "(as Josefina Enriquez)",
-      "roles": [
-        "Carmen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719851",
-      "name": "Jer\u00f3nimo Rente",
-      "sequence": 18,
-      "notes": "(as Jeronimo Rente)",
-      "roles": [
-        "Guide"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0934013",
@@ -182,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Ned Sherwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000784",
+      "name": "Pedro Armend\u00e1riz",
+      "sequence": 1,
+      "roles": [
+        "Colonel Mastegui"
+      ],
+      "notes": "(as Pedro Armendariz)"
+    },
+    {
+      "person_imdb_id": "nm0740735",
+      "name": "Rossana Rory",
+      "sequence": 2,
+      "roles": [
+        "'Fina' Ferrer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768748",
+      "name": "Gia Scala",
+      "sequence": 3,
+      "roles": [
+        "Anita Ferrer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041466",
+      "name": "Jacques Aubuchon",
+      "sequence": 4,
+      "roles": [
+        "Miguel Collada"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317637",
+      "name": "Sandro Giglio",
+      "sequence": 5,
+      "roles": [
+        "Armando Ferrer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865134",
+      "name": "Charles Todd",
+      "sequence": 6,
+      "roles": [
+        "U.S. Treasury Agent Griswold"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0555993",
+      "name": "Carlos Mas",
+      "sequence": 7,
+      "roles": [
+        "Chuchu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0959345",
+      "name": "Guillermo \u00c1lvarez Guedes",
+      "sequence": 8,
+      "roles": [
+        "Casino Manager"
+      ],
+      "notes": "(as Guillermo Alvarez G.)"
+    },
+    {
+      "person_imdb_id": "nm0553739",
+      "name": "Velia Martinez",
+      "sequence": 9,
+      "roles": [
+        "Salcito's Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685623",
+      "name": "Aurora Pita",
+      "sequence": 10,
+      "roles": [
+        "Linen Shop Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380131",
+      "name": "Rogelio Hern\u00e1ndez",
+      "sequence": 11,
+      "roles": [
+        "Miguel Salcito"
+      ],
+      "notes": "(as Rogelio Hernandez)"
+    },
+    {
+      "person_imdb_id": "nm0133883",
+      "name": "Francisco Canero",
+      "sequence": 12,
+      "roles": [
+        "Police Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0649279",
+      "name": "Louis Oquendo",
+      "sequence": 13,
+      "roles": [
+        "Detective"
+      ],
+      "notes": "(as Luis Oquendo)"
+    },
+    {
+      "person_imdb_id": "nm0190226",
+      "name": "Enrique Cruz \u00c1lvarez",
+      "sequence": 14,
+      "roles": [
+        "Police Lieutenant"
+      ],
+      "notes": "(as Enrique Cruz Alvarez)"
+    },
+    {
+      "person_imdb_id": "nm2117950",
+      "name": "Sonya",
+      "sequence": 15,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": "(as Sonya and Rudy)"
+    },
+    {
+      "person_imdb_id": "nm0749027",
+      "name": "Rudy",
+      "sequence": 16,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": "(as Sonya and Rudy)"
+    },
+    {
+      "person_imdb_id": "nm0258080",
+      "name": "Josefina Enr\u00edquez",
+      "sequence": 17,
+      "roles": [
+        "Carmen"
+      ],
+      "notes": "(as Josefina Enriquez)"
+    },
+    {
+      "person_imdb_id": "nm0719851",
+      "name": "Jer\u00f3nimo Rente",
+      "sequence": 18,
+      "roles": [
+        "Guide"
+      ],
+      "notes": "(as Jeronimo Rente)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0252100",
       "name": "Jo Eisinger",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0843253",
       "name": "Robert Sylvester",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Big Boodle\")",
-      "group_id": 1
+      "notes": "(novel \"The Big Boodle\")"
     }
   ],
   "release_date": "1957-01-25",

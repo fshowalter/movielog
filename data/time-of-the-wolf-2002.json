@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0307568",
   "sort_title": "Time of the Wolf (2002)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Archie McGregor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445715",
-      "name": "Marthe Keller",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Rebecca McGregor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237740",
-      "name": "Devin Douglas Drewitz",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Aaron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000594",
-      "name": "Jason Priestley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627453",
-      "name": "John Neville",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Preacher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1136723",
-      "name": "Jamie Kerr",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Josh Grossler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853211",
-      "name": "Steven Taylor",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Freddy McGuire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036381",
-      "name": "Charlotte Arnold",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Paige McGuire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0501355",
-      "name": "Anthony Lemke",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Alex McKenzie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569982",
-      "name": "Fraser McGregor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Arty Bower"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0629762",
-      "name": "J.D. Nicholsen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Old Man Grossler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531932",
-      "name": "Shauna MacDonald",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Anna McKenzie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1427588",
-      "name": "Phil Craig",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Merv"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308538",
-      "name": "Patrick Garrow",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mr. McGuire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455209",
-      "name": "Robert King",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Ray Ferguson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081106",
-      "name": "Robert Bidaman",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Sven"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185980",
-      "name": "Philip Craig",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Merv"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0697280",
@@ -164,20 +9,175 @@
       "notes": "(as Roderick J. Pridy)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 0,
+      "roles": [
+        "Archie McGregor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445715",
+      "name": "Marthe Keller",
+      "sequence": 1,
+      "roles": [
+        "Rebecca McGregor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237740",
+      "name": "Devin Douglas Drewitz",
+      "sequence": 2,
+      "roles": [
+        "Aaron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000594",
+      "name": "Jason Priestley",
+      "sequence": 3,
+      "roles": [
+        "Mr. Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627453",
+      "name": "John Neville",
+      "sequence": 4,
+      "roles": [
+        "Preacher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1136723",
+      "name": "Jamie Kerr",
+      "sequence": 5,
+      "roles": [
+        "Josh Grossler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853211",
+      "name": "Steven Taylor",
+      "sequence": 6,
+      "roles": [
+        "Freddy McGuire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036381",
+      "name": "Charlotte Arnold",
+      "sequence": 7,
+      "roles": [
+        "Paige McGuire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0501355",
+      "name": "Anthony Lemke",
+      "sequence": 8,
+      "roles": [
+        "Alex McKenzie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569982",
+      "name": "Fraser McGregor",
+      "sequence": 9,
+      "roles": [
+        "Arty Bower"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0629762",
+      "name": "J.D. Nicholsen",
+      "sequence": 10,
+      "roles": [
+        "Old Man Grossler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531932",
+      "name": "Shauna MacDonald",
+      "sequence": 11,
+      "roles": [
+        "Anna McKenzie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1427588",
+      "name": "Phil Craig",
+      "sequence": 12,
+      "roles": [
+        "Merv"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308538",
+      "name": "Patrick Garrow",
+      "sequence": 13,
+      "roles": [
+        "Mr. McGuire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455209",
+      "name": "Robert King",
+      "sequence": 14,
+      "roles": [
+        "Ray Ferguson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0081106",
+      "name": "Robert Bidaman",
+      "sequence": 15,
+      "roles": [
+        "Sven"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185980",
+      "name": "Philip Craig",
+      "sequence": 16,
+      "roles": [
+        "Merv"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0294073",
       "name": "Don French",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm3050878",
       "name": "Thomas A. MacDonald",
+      "group": 1,
       "sequence": 0,
-      "notes": "(book)",
-      "group_id": 1
+      "notes": "(book)"
     }
   ],
   "release_date": "2002-05-01",

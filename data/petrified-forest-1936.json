@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0028096",
   "sort_title": "Petrified Forest (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001366",
-      "name": "Leslie Howard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alan Squier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gabrielle Maple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864931",
-      "name": "Genevieve Tobin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Chisholm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285264",
-      "name": "Dick Foran",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Boze Hertzlinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Duke Mantee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768178",
-      "name": "Joe Sawyer",
-      "sequence": 5,
-      "notes": "(as Joseph Sawyer)",
-      "roles": [
-        "Jackie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356004",
-      "name": "Porter Hall",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jason Maple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335788",
-      "name": "Charley Grapewin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gramp Maple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367670",
-      "name": "Paul Harvey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Chisholm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010333",
-      "name": "Eddie Acuff",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lineman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606343",
-      "name": "Adrian Morris",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ruby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132080",
-      "name": "Nina Campana",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Paula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0860720",
-      "name": "Slim Thompson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Slim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0018517",
-      "name": "John Alexander",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Joseph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 20,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Trailer Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723935",
-      "name": "Addison Richards",
-      "sequence": 21,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Radio Announcer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0562845",
@@ -155,27 +9,155 @@
       "notes": "(as Archie L. Mayo)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001366",
+      "name": "Leslie Howard",
+      "sequence": 0,
+      "roles": [
+        "Alan Squier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 1,
+      "roles": [
+        "Gabrielle Maple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864931",
+      "name": "Genevieve Tobin",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Chisholm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285264",
+      "name": "Dick Foran",
+      "sequence": 3,
+      "roles": [
+        "Boze Hertzlinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 4,
+      "roles": [
+        "Duke Mantee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768178",
+      "name": "Joe Sawyer",
+      "sequence": 5,
+      "roles": [
+        "Jackie"
+      ],
+      "notes": "(as Joseph Sawyer)"
+    },
+    {
+      "person_imdb_id": "nm0356004",
+      "name": "Porter Hall",
+      "sequence": 6,
+      "roles": [
+        "Jason Maple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335788",
+      "name": "Charley Grapewin",
+      "sequence": 7,
+      "roles": [
+        "Gramp Maple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367670",
+      "name": "Paul Harvey",
+      "sequence": 8,
+      "roles": [
+        "Mr. Chisholm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010333",
+      "name": "Eddie Acuff",
+      "sequence": 9,
+      "roles": [
+        "Lineman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606343",
+      "name": "Adrian Morris",
+      "sequence": 10,
+      "roles": [
+        "Ruby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132080",
+      "name": "Nina Campana",
+      "sequence": 11,
+      "roles": [
+        "Paula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0860720",
+      "name": "Slim Thompson",
+      "sequence": 12,
+      "roles": [
+        "Slim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0018517",
+      "name": "John Alexander",
+      "sequence": 13,
+      "roles": [
+        "Joseph"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0448981",
       "name": "Charles Kenyon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0202681",
       "name": "Delmer Daves",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0792845",
       "name": "Robert E. Sherwood",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play) (as Robert Emmet Sherwood)",
-      "group_id": 1
+      "notes": "(play) (as Robert Emmet Sherwood)"
     }
   ],
   "release_date": "1936-01-31",

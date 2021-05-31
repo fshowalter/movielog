@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0049666",
   "sort_title": "Rebel in Town (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0668361",
-      "name": "John Payne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Willoughby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738746",
-      "name": "Ruth Roman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Willoughby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619798",
-      "name": "J. Carrol Naish",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bedloe Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177879",
-      "name": "Ben Cooper",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gray Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0808774",
-      "name": "John Smith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Wesley Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Frank Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341526",
-      "name": "James Griffith",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marshal Adam Russell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011195",
-      "name": "Mary Adams",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Grandma Ackstadt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163710",
-      "name": "Bobby Clark",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Peter Willoughby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317127",
-      "name": "Mimi Gibson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lisbeth Ackstadt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290455",
-      "name": "Sterling Franck",
-      "sequence": 10,
-      "notes": "(as Cain Mason)",
-      "roles": [
-        "Cain Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039067",
-      "name": "Joel Ashley",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0921288",
@@ -119,13 +9,123 @@
       "notes": "(as Alfred Werker)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0668361",
+      "name": "John Payne",
+      "sequence": 0,
+      "roles": [
+        "John Willoughby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738746",
+      "name": "Ruth Roman",
+      "sequence": 1,
+      "roles": [
+        "Nora Willoughby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619798",
+      "name": "J. Carrol Naish",
+      "sequence": 2,
+      "roles": [
+        "Bedloe Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0177879",
+      "name": "Ben Cooper",
+      "sequence": 3,
+      "roles": [
+        "Gray Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0808774",
+      "name": "John Smith",
+      "sequence": 4,
+      "roles": [
+        "Wesley Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 5,
+      "roles": [
+        "Frank Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341526",
+      "name": "James Griffith",
+      "sequence": 6,
+      "roles": [
+        "Marshal Adam Russell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011195",
+      "name": "Mary Adams",
+      "sequence": 7,
+      "roles": [
+        "Grandma Ackstadt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163710",
+      "name": "Bobby Clark",
+      "sequence": 8,
+      "roles": [
+        "Peter Willoughby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317127",
+      "name": "Mimi Gibson",
+      "sequence": 9,
+      "roles": [
+        "Lisbeth Ackstadt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290455",
+      "name": "Sterling Franck",
+      "sequence": 10,
+      "roles": [
+        "Cain Mason"
+      ],
+      "notes": "(as Cain Mason)"
+    },
+    {
+      "person_imdb_id": "nm0039067",
+      "name": "Joel Ashley",
+      "sequence": 11,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0036400",
       "name": "Danny Arnold",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1956-07-30",

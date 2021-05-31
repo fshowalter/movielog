@@ -1,175 +1,6 @@
 {
   "imdb_id": "tt0108588",
   "sort_title": "Woman of Desire (1994)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001194",
-      "name": "Jeff Fahey",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000137",
-      "name": "Bo Derek",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Christina",
-        "Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000874",
-      "name": "Steven Bauer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jonathan",
-        "Ted"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Walter",
-        "Husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356153",
-      "name": "Thomas Hall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Norman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0559344",
-      "name": "John Matshikiza",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Det. Lewis Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340956",
-      "name": "Warrick Grier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miller",
-        "2nd Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0421709",
-      "name": "Todd Jensen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Wendell Huston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1986110",
-      "name": "Michael McCabe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Richard Brooks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141264",
-      "name": "John Carson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1790377",
-      "name": "Peter Holden",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Michael Altman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0860112",
-      "name": "Ellia Thompson",
-      "sequence": 11,
-      "notes": "(as Elia Thompson)",
-      "roles": [
-        "Elizabeth Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926649",
-      "name": "James Whyle",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "1st Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1605085",
-      "name": "David S. Lee",
-      "sequence": 13,
-      "notes": "(as David Lee)",
-      "roles": [
-        "3rd Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0881663",
-      "name": "Craig Urbani",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Arnold Wells"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0070228",
-      "name": "Alain Benatar",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494532",
-      "name": "Ted Le Plat",
-      "sequence": 16,
-      "notes": "(as Ted Leplat)",
-      "roles": [
-        "Dr. Robert Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0823216",
-      "name": "Kimberleigh Stark",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Vivian",
-        "Nurse"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0320180",
@@ -178,20 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001194",
+      "name": "Jeff Fahey",
+      "sequence": 0,
+      "roles": [
+        "Jack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000137",
+      "name": "Bo Derek",
+      "sequence": 1,
+      "roles": [
+        "Christina",
+        "Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000874",
+      "name": "Steven Bauer",
+      "sequence": 2,
+      "roles": [
+        "Jonathan",
+        "Ted"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 3,
+      "roles": [
+        "Walter",
+        "Husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356153",
+      "name": "Thomas Hall",
+      "sequence": 4,
+      "roles": [
+        "Norman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0559344",
+      "name": "John Matshikiza",
+      "sequence": 5,
+      "roles": [
+        "Det. Lewis Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340956",
+      "name": "Warrick Grier",
+      "sequence": 6,
+      "roles": [
+        "Miller",
+        "2nd Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0421709",
+      "name": "Todd Jensen",
+      "sequence": 7,
+      "roles": [
+        "Wendell Huston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1986110",
+      "name": "Michael McCabe",
+      "sequence": 8,
+      "roles": [
+        "Dr. Richard Brooks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0141264",
+      "name": "John Carson",
+      "sequence": 9,
+      "roles": [
+        "Judge Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1790377",
+      "name": "Peter Holden",
+      "sequence": 10,
+      "roles": [
+        "Michael Altman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0860112",
+      "name": "Ellia Thompson",
+      "sequence": 11,
+      "roles": [
+        "Elizabeth Hill"
+      ],
+      "notes": "(as Elia Thompson)"
+    },
+    {
+      "person_imdb_id": "nm0926649",
+      "name": "James Whyle",
+      "sequence": 12,
+      "roles": [
+        "1st Officer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1605085",
+      "name": "David S. Lee",
+      "sequence": 13,
+      "roles": [
+        "3rd Officer"
+      ],
+      "notes": "(as David Lee)"
+    },
+    {
+      "person_imdb_id": "nm0881663",
+      "name": "Craig Urbani",
+      "sequence": 14,
+      "roles": [
+        "Arnold Wells"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0070228",
+      "name": "Alain Benatar",
+      "sequence": 15,
+      "roles": [
+        "Waiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0494532",
+      "name": "Ted Le Plat",
+      "sequence": 16,
+      "roles": [
+        "Dr. Robert Scott"
+      ],
+      "notes": "(as Ted Leplat)"
+    },
+    {
+      "person_imdb_id": "nm0823216",
+      "name": "Kimberleigh Stark",
+      "sequence": 17,
+      "roles": [
+        "Vivian",
+        "Nurse"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0658115",
       "name": "Anthony Palmer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0320180",
       "name": "Robert Ginty",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1994-01-24",

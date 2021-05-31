@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0058606",
   "sort_title": "Spider Baby or, the Maddest Story Ever Told (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001033",
-      "name": "Lon Chaney Jr.",
-      "sequence": 0,
-      "notes": "(as Lon Chaney)",
-      "roles": [
-        "Bruno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0645120",
-      "name": "Carol Ohmart",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Emily"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714793",
-      "name": "Quinn K. Redeker",
-      "sequence": 2,
-      "notes": "(as Quinn Redeker)",
-      "roles": [
-        "Peter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913340",
-      "name": "Beverly Washburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052307",
-      "name": "Jill Banner",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Virginia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354085",
-      "name": "Sid Haig",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ralph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593079",
-      "name": "Mary Mitchel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0770046",
-      "name": "Karl Schanzer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Schlocker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603646",
-      "name": "Mantan Moreland",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Messenger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0384335",
@@ -92,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001033",
+      "name": "Lon Chaney Jr.",
+      "sequence": 0,
+      "roles": [
+        "Bruno"
+      ],
+      "notes": "(as Lon Chaney)"
+    },
+    {
+      "person_imdb_id": "nm0645120",
+      "name": "Carol Ohmart",
+      "sequence": 1,
+      "roles": [
+        "Emily"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714793",
+      "name": "Quinn K. Redeker",
+      "sequence": 2,
+      "roles": [
+        "Peter"
+      ],
+      "notes": "(as Quinn Redeker)"
+    },
+    {
+      "person_imdb_id": "nm0913340",
+      "name": "Beverly Washburn",
+      "sequence": 3,
+      "roles": [
+        "Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052307",
+      "name": "Jill Banner",
+      "sequence": 4,
+      "roles": [
+        "Virginia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354085",
+      "name": "Sid Haig",
+      "sequence": 5,
+      "roles": [
+        "Ralph"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593079",
+      "name": "Mary Mitchel",
+      "sequence": 6,
+      "roles": [
+        "Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0770046",
+      "name": "Karl Schanzer",
+      "sequence": 7,
+      "roles": [
+        "Schlocker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603646",
+      "name": "Mantan Moreland",
+      "sequence": 8,
+      "roles": [
+        "Messenger"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0384335",
       "name": "Jack Hill",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1967-12-24",

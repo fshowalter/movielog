@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0056219",
   "sort_title": "Maniac (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0558663",
-      "name": "Kerwin Mathews",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jeff Farrell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336842",
-      "name": "Nadia Gray",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eve Beynat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396819",
-      "name": "Donald Houston",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Henri"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112791",
-      "name": "Liliane Brousse",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Annette Beynat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0664965",
-      "name": "George Pastell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector Etienne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0224586",
-      "name": "Arnold Diamond",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Janiello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0083424",
-      "name": "Norman Bird",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Salon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0520451",
-      "name": "Justine Lord",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Grace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920266",
-      "name": "Jerold Wells",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Giles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0544860",
-      "name": "Andr\u00e9 Maranne",
-      "sequence": 9,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Salon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0140257",
@@ -101,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0558663",
+      "name": "Kerwin Mathews",
+      "sequence": 0,
+      "roles": [
+        "Jeff Farrell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336842",
+      "name": "Nadia Gray",
+      "sequence": 1,
+      "roles": [
+        "Eve Beynat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396819",
+      "name": "Donald Houston",
+      "sequence": 2,
+      "roles": [
+        "Henri"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112791",
+      "name": "Liliane Brousse",
+      "sequence": 3,
+      "roles": [
+        "Annette Beynat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0664965",
+      "name": "George Pastell",
+      "sequence": 4,
+      "roles": [
+        "Inspector Etienne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0224586",
+      "name": "Arnold Diamond",
+      "sequence": 5,
+      "roles": [
+        "Janiello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0083424",
+      "name": "Norman Bird",
+      "sequence": 6,
+      "roles": [
+        "Salon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0520451",
+      "name": "Justine Lord",
+      "sequence": 7,
+      "roles": [
+        "Grace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920266",
+      "name": "Jerold Wells",
+      "sequence": 8,
+      "roles": [
+        "Giles"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1963-05-20",

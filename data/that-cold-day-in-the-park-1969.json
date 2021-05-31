@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0065086",
   "sort_title": "That Cold Day in the Park (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0006800",
-      "name": "Sandy Dennis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Frances Austen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122798",
-      "name": "Michael Burns",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "The Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0072971",
-      "name": "Susanne Benton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307260",
-      "name": "David Garfield",
-      "sequence": 3,
-      "notes": "(as John Garfield Jr.)",
-      "roles": [
-        "Nick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026035",
-      "name": "Luana Anders",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sylvia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339035",
-      "name": "Edward Greenhalgh",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Stevenson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118514",
-      "name": "Doris Buckinham",
-      "sequence": 6,
-      "notes": "(as Doris Buckingham)",
-      "roles": [
-        "Mrs. Ebury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0992318",
-      "name": "Frank Wade",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Ebury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025080",
-      "name": "Alicia Ammon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Pitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114459",
-      "name": "Rae Brown",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Parnell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077615",
-      "name": "Lloyd Berry",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Parnell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814857",
-      "name": "Linda Sorensen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614526",
-      "name": "Michael Murphy",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Rounder"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000265",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0006800",
+      "name": "Sandy Dennis",
+      "sequence": 0,
+      "roles": [
+        "Frances Austen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122798",
+      "name": "Michael Burns",
+      "sequence": 1,
+      "roles": [
+        "The Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0072971",
+      "name": "Susanne Benton",
+      "sequence": 2,
+      "roles": [
+        "Nina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307260",
+      "name": "David Garfield",
+      "sequence": 3,
+      "roles": [
+        "Nick"
+      ],
+      "notes": "(as John Garfield Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0026035",
+      "name": "Luana Anders",
+      "sequence": 4,
+      "roles": [
+        "Sylvia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339035",
+      "name": "Edward Greenhalgh",
+      "sequence": 5,
+      "roles": [
+        "Dr. Stevenson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118514",
+      "name": "Doris Buckinham",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Ebury"
+      ],
+      "notes": "(as Doris Buckingham)"
+    },
+    {
+      "person_imdb_id": "nm0992318",
+      "name": "Frank Wade",
+      "sequence": 7,
+      "roles": [
+        "Mr. Ebury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0025080",
+      "name": "Alicia Ammon",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Pitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0114459",
+      "name": "Rae Brown",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Parnell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077615",
+      "name": "Lloyd Berry",
+      "sequence": 10,
+      "roles": [
+        "Mr. Parnell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0814857",
+      "name": "Linda Sorensen",
+      "sequence": 11,
+      "roles": [
+        "Prostitute"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614526",
+      "name": "Michael Murphy",
+      "sequence": 12,
+      "roles": [
+        "The Rounder"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0293400",
       "name": "Gillian Freeman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0587213",
       "name": "Peter Miles",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"That Cold Day in the Park\") (as Richard Miles)",
-      "group_id": 1
+      "notes": "(novel \"That Cold Day in the Park\") (as Richard Miles)"
     }
   ],
   "release_date": "1969-05-21",

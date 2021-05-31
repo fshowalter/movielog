@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0053219",
   "sort_title": "Return of the Fly (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Francois Delambre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357020",
-      "name": "Brett Halsey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Philippe Delambre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291301",
-      "name": "David Frankham",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ronald Holmes, alias Alan Hinds"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0840330",
-      "name": "John Sutton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Insp. Beecham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786811",
-      "name": "Dan Seymour",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Max Barthold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210298",
-      "name": "Danielle De Metz",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cecile Bonnard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0198445",
-      "name": "Jack Daly",
-      "sequence": 6,
-      "notes": "(reporter)",
-      "roles": [
-        "Granville"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0334833",
-      "name": "Janine Grandel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mme. Bonnard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548270",
-      "name": "Michael Mark",
-      "sequence": 8,
-      "notes": "(watchman)",
-      "roles": [
-        "Gaston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281290",
-      "name": "Richard Flato",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sgt. Dubois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551559",
-      "name": "Gregg Martell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0076150",
-      "name": "Barry Bernard",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lt. MacLish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641315",
-      "name": "Pat O'Hara",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Insp. Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0897782",
-      "name": "Francisco Villalobos",
-      "sequence": 13,
-      "notes": "(as Francisco Villalobas)",
-      "roles": [
-        "Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183104",
-      "name": "Joan Cotton",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Nurse"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0076618",
@@ -146,20 +9,157 @@
       "notes": "(as Edward L. Bernds)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Francois Delambre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357020",
+      "name": "Brett Halsey",
+      "sequence": 1,
+      "roles": [
+        "Philippe Delambre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291301",
+      "name": "David Frankham",
+      "sequence": 2,
+      "roles": [
+        "Ronald Holmes, alias Alan Hinds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0840330",
+      "name": "John Sutton",
+      "sequence": 3,
+      "roles": [
+        "Insp. Beecham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786811",
+      "name": "Dan Seymour",
+      "sequence": 4,
+      "roles": [
+        "Max Barthold"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210298",
+      "name": "Danielle De Metz",
+      "sequence": 5,
+      "roles": [
+        "Cecile Bonnard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0198445",
+      "name": "Jack Daly",
+      "sequence": 6,
+      "roles": [
+        "Granville"
+      ],
+      "notes": "(reporter)"
+    },
+    {
+      "person_imdb_id": "nm0334833",
+      "name": "Janine Grandel",
+      "sequence": 7,
+      "roles": [
+        "Mme. Bonnard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548270",
+      "name": "Michael Mark",
+      "sequence": 8,
+      "roles": [
+        "Gaston"
+      ],
+      "notes": "(watchman)"
+    },
+    {
+      "person_imdb_id": "nm0281290",
+      "name": "Richard Flato",
+      "sequence": 9,
+      "roles": [
+        "Sgt. Dubois"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551559",
+      "name": "Gregg Martell",
+      "sequence": 10,
+      "roles": [
+        "Cop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0076150",
+      "name": "Barry Bernard",
+      "sequence": 11,
+      "roles": [
+        "Lt. MacLish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641315",
+      "name": "Pat O'Hara",
+      "sequence": 12,
+      "roles": [
+        "Insp. Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0897782",
+      "name": "Francisco Villalobos",
+      "sequence": 13,
+      "roles": [
+        "Priest"
+      ],
+      "notes": "(as Francisco Villalobas)"
+    },
+    {
+      "person_imdb_id": "nm0183104",
+      "name": "Joan Cotton",
+      "sequence": 14,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0076618",
       "name": "Edward Bernds",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Edward L. Bernds)",
-      "group_id": 0
+      "notes": "(screenplay) (as Edward L. Bernds)"
     },
     {
       "person_imdb_id": "nm0486228",
       "name": "George Langelaan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(short story \"The Fly\")",
-      "group_id": 1
+      "notes": "(short story \"The Fly\")"
     }
   ],
   "release_date": "1959-07-01",

@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0090917",
   "sort_title": "Deadly Friend (1986)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0479612",
-      "name": "Matthew Labyorteaux",
-      "sequence": 0,
-      "notes": "(as Matthew Laborteaux)",
-      "roles": [
-        "Paul Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001785",
-      "name": "Kristy Swanson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Samantha Pringle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789326",
-      "name": "Michael Sharrett",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tom 'Slime' Toomey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878645",
-      "name": "Anne Twomey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jeannie Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001649",
-      "name": "Anne Ramsey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Elvira Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0546172",
-      "name": "Richard Marcus",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harry Pringle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0547501",
-      "name": "Russ Marin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Johanson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666901",
-      "name": "Lee Paul",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sergeant Volchek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740620",
-      "name": "Andrew Roperto",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Carl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281486",
-      "name": "Charles Fleischer",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "BB"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0638396",
-      "name": "Robin Nuyen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Thief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0147113",
-      "name": "Frank Cavestani",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Angry Resident"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647745",
-      "name": "Merritt Olsen",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "CAT Scan Technician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264989",
-      "name": "William H. Faeth",
-      "sequence": 13,
-      "notes": "(as William H. Faeth M.D.)",
-      "roles": [
-        "Doctor in Sam's Room"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0383940",
-      "name": "Joel Hile",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0819582",
-      "name": "Tom Spratley",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Neighbor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410918",
-      "name": "Jim Ishida",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Coroner"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000127",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0479612",
+      "name": "Matthew Labyorteaux",
+      "sequence": 0,
+      "roles": [
+        "Paul Conway"
+      ],
+      "notes": "(as Matthew Laborteaux)"
+    },
+    {
+      "person_imdb_id": "nm0001785",
+      "name": "Kristy Swanson",
+      "sequence": 1,
+      "roles": [
+        "Samantha Pringle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789326",
+      "name": "Michael Sharrett",
+      "sequence": 2,
+      "roles": [
+        "Tom 'Slime' Toomey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878645",
+      "name": "Anne Twomey",
+      "sequence": 3,
+      "roles": [
+        "Jeannie Conway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001649",
+      "name": "Anne Ramsey",
+      "sequence": 4,
+      "roles": [
+        "Elvira Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0546172",
+      "name": "Richard Marcus",
+      "sequence": 5,
+      "roles": [
+        "Harry Pringle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0547501",
+      "name": "Russ Marin",
+      "sequence": 6,
+      "roles": [
+        "Dr. Johanson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666901",
+      "name": "Lee Paul",
+      "sequence": 7,
+      "roles": [
+        "Sergeant Volchek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0740620",
+      "name": "Andrew Roperto",
+      "sequence": 8,
+      "roles": [
+        "Carl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281486",
+      "name": "Charles Fleischer",
+      "sequence": 9,
+      "roles": [
+        "BB"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0638396",
+      "name": "Robin Nuyen",
+      "sequence": 10,
+      "roles": [
+        "Thief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0147113",
+      "name": "Frank Cavestani",
+      "sequence": 11,
+      "roles": [
+        "Angry Resident"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647745",
+      "name": "Merritt Olsen",
+      "sequence": 12,
+      "roles": [
+        "CAT Scan Technician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264989",
+      "name": "William H. Faeth",
+      "sequence": 13,
+      "roles": [
+        "Doctor in Sam's Room"
+      ],
+      "notes": "(as William H. Faeth M.D.)"
+    },
+    {
+      "person_imdb_id": "nm0383940",
+      "name": "Joel Hile",
+      "sequence": 14,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0819582",
+      "name": "Tom Spratley",
+      "sequence": 15,
+      "roles": [
+        "Neighbor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410918",
+      "name": "Jim Ishida",
+      "sequence": 16,
+      "roles": [
+        "Coroner"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0378255",
       "name": "Diana Henstell",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Friend\")",
-      "group_id": 0
+      "notes": "(novel \"Friend\")"
     },
     {
       "person_imdb_id": "nm0748022",
       "name": "Bruce Joel Rubin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1986-10-10",

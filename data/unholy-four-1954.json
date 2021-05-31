@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0047634",
   "sort_title": "Unholy Four (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002104",
-      "name": "Paulette Goddard",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Angie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0843213",
-      "name": "William Sylvester",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Philip Vickers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392497",
-      "name": "Patrick Holt",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Job Crandall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139428",
-      "name": "Paul Carpenter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bill Saul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0536815",
-      "name": "Alvys Maben",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joan Merrill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621040",
-      "name": "Russell Napier",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Insp. Treherne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130318",
-      "name": "Kay Callard",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jennie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455405",
-      "name": "David King-Wood",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sessions"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0369984",
-      "name": "Jeremy Hawk",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sgt. Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654433",
-      "name": "Patricia Owens",
-      "sequence": 9,
-      "notes": "(as Pat Owens)",
-      "roles": [
-        "Blonde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1219900",
-      "name": "Jack Taylor",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Brownie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590079",
-      "name": "Kim Mills",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Roddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1093891",
-      "name": "Owen Evans",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Redhead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0501968",
-      "name": "Philip Lennard",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Medical Examiner"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002104",
+      "name": "Paulette Goddard",
+      "sequence": 0,
+      "roles": [
+        "Angie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0843213",
+      "name": "William Sylvester",
+      "sequence": 1,
+      "roles": [
+        "Philip Vickers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392497",
+      "name": "Patrick Holt",
+      "sequence": 2,
+      "roles": [
+        "Job Crandall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0139428",
+      "name": "Paul Carpenter",
+      "sequence": 3,
+      "roles": [
+        "Bill Saul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0536815",
+      "name": "Alvys Maben",
+      "sequence": 4,
+      "roles": [
+        "Joan Merrill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621040",
+      "name": "Russell Napier",
+      "sequence": 5,
+      "roles": [
+        "Insp. Treherne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130318",
+      "name": "Kay Callard",
+      "sequence": 6,
+      "roles": [
+        "Jennie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455405",
+      "name": "David King-Wood",
+      "sequence": 7,
+      "roles": [
+        "Sessions"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0369984",
+      "name": "Jeremy Hawk",
+      "sequence": 8,
+      "roles": [
+        "Sgt. Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654433",
+      "name": "Patricia Owens",
+      "sequence": 9,
+      "roles": [
+        "Blonde"
+      ],
+      "notes": "(as Pat Owens)"
+    },
+    {
+      "person_imdb_id": "nm1219900",
+      "name": "Jack Taylor",
+      "sequence": 10,
+      "roles": [
+        "Brownie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590079",
+      "name": "Kim Mills",
+      "sequence": 11,
+      "roles": [
+        "Roddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1093891",
+      "name": "Owen Evans",
+      "sequence": 12,
+      "roles": [
+        "Redhead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0501968",
+      "name": "Philip Lennard",
+      "sequence": 13,
+      "roles": [
+        "Medical Examiner"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102824",
       "name": "Leigh Brackett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0140257",
       "name": "Michael Carreras",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0001695",
       "name": "George Sanders",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 2
+      "notes": "(novel)"
     }
   ],
   "release_date": "1954-08-09",

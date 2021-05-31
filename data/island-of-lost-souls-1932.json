@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0024188",
   "sort_title": "Island of Lost Souls (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001452",
-      "name": "Charles Laughton",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Moreau"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035159",
-      "name": "Richard Arlen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Edward Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404885",
-      "name": "Leila Hyams",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ruth Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sayer of the Law"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0121753",
-      "name": "Kathleen Burke",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Panther Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389824",
-      "name": "Arthur Hohl",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Montgomery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0276354",
-      "name": "Stanley Fields",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Captain Davies"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403636",
-      "name": "Paul Hurst",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Donahue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0826124",
-      "name": "Hans Steinke",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ouran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464514",
-      "name": "Tetsu Komai",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "M'ling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Consul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000042",
-      "name": "Alan Ladd",
-      "sequence": 22,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Beast"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0448915",
@@ -119,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001452",
+      "name": "Charles Laughton",
+      "sequence": 0,
+      "roles": [
+        "Dr. Moreau"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035159",
+      "name": "Richard Arlen",
+      "sequence": 1,
+      "roles": [
+        "Edward Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404885",
+      "name": "Leila Hyams",
+      "sequence": 2,
+      "roles": [
+        "Ruth Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 3,
+      "roles": [
+        "Sayer of the Law"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0121753",
+      "name": "Kathleen Burke",
+      "sequence": 4,
+      "roles": [
+        "The Panther Woman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389824",
+      "name": "Arthur Hohl",
+      "sequence": 5,
+      "roles": [
+        "Montgomery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0276354",
+      "name": "Stanley Fields",
+      "sequence": 6,
+      "roles": [
+        "Captain Davies"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403636",
+      "name": "Paul Hurst",
+      "sequence": 7,
+      "roles": [
+        "Donahue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0826124",
+      "name": "Hans Steinke",
+      "sequence": 8,
+      "roles": [
+        "Ouran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0464514",
+      "name": "Tetsu Komai",
+      "sequence": 9,
+      "roles": [
+        "M'ling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 10,
+      "roles": [
+        "The Consul"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0950150",
       "name": "Waldemar Young",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0943804",
       "name": "Philip Wylie",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0920229",
       "name": "H.G. Wells",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"The Island of Dr. Moreau\")",
-      "group_id": 1
+      "notes": "(novel \"The Island of Dr. Moreau\")"
     }
   ],
   "release_date": "1932-12-01",

@@ -1,180 +1,6 @@
 {
   "imdb_id": "tt0062787",
   "sort_title": "Challenge for Robin Hood (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0408813",
-      "name": "Barrie Ingham",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robin de Courtenay",
-        "Robin Hood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371687",
-      "name": "James Hayter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Friar Tuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0338839",
-      "name": "Leon Greene",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Little John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090050",
-      "name": "Peter Blythe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Roger de Courtenay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357864",
-      "name": "Gay Hamilton",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maid Marian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060023",
-      "name": "Alfie Bass",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pie Merchant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0863256",
-      "name": "Jenny Till",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "'Lady Marian'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036031",
-      "name": "John Arnatt",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sheriff of Nottingham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0283446",
-      "name": "Eric Flynn",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Alan-a-Dale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346604",
-      "name": "John Gugolka",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Stephen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528015",
-      "name": "Reg Lye",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Much"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820109",
-      "name": "William Squire",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sir John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681826",
-      "name": "Donald Pickering",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sir Jamyl de Penitone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941177",
-      "name": "Eric Woofe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Henry de Courtenay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367583",
-      "name": "John Harvey",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Wallace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593295",
-      "name": "Douglas Mitchell",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Will Scarlet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1677473",
-      "name": "John Graham",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Justin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382105",
-      "name": "Arthur Hewlett",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Edwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593629",
-      "name": "Norman Mitchell",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Dray Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005826",
@@ -183,13 +9,187 @@
       "notes": "(as Pennington Richards)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0408813",
+      "name": "Barrie Ingham",
+      "sequence": 0,
+      "roles": [
+        "Robin de Courtenay",
+        "Robin Hood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371687",
+      "name": "James Hayter",
+      "sequence": 1,
+      "roles": [
+        "Friar Tuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0338839",
+      "name": "Leon Greene",
+      "sequence": 2,
+      "roles": [
+        "Little John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0090050",
+      "name": "Peter Blythe",
+      "sequence": 3,
+      "roles": [
+        "Roger de Courtenay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357864",
+      "name": "Gay Hamilton",
+      "sequence": 4,
+      "roles": [
+        "Maid Marian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060023",
+      "name": "Alfie Bass",
+      "sequence": 5,
+      "roles": [
+        "Pie Merchant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0863256",
+      "name": "Jenny Till",
+      "sequence": 6,
+      "roles": [
+        "'Lady Marian'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036031",
+      "name": "John Arnatt",
+      "sequence": 7,
+      "roles": [
+        "Sheriff of Nottingham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0283446",
+      "name": "Eric Flynn",
+      "sequence": 8,
+      "roles": [
+        "Alan-a-Dale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346604",
+      "name": "John Gugolka",
+      "sequence": 9,
+      "roles": [
+        "Stephen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528015",
+      "name": "Reg Lye",
+      "sequence": 10,
+      "roles": [
+        "Much"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820109",
+      "name": "William Squire",
+      "sequence": 11,
+      "roles": [
+        "Sir John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681826",
+      "name": "Donald Pickering",
+      "sequence": 12,
+      "roles": [
+        "Sir Jamyl de Penitone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941177",
+      "name": "Eric Woofe",
+      "sequence": 13,
+      "roles": [
+        "Henry de Courtenay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367583",
+      "name": "John Harvey",
+      "sequence": 14,
+      "roles": [
+        "Wallace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593295",
+      "name": "Douglas Mitchell",
+      "sequence": 15,
+      "roles": [
+        "Will Scarlet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1677473",
+      "name": "John Graham",
+      "sequence": 16,
+      "roles": [
+        "Justin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382105",
+      "name": "Arthur Hewlett",
+      "sequence": 17,
+      "roles": [
+        "Edwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593629",
+      "name": "Norman Mitchell",
+      "sequence": 18,
+      "roles": [
+        "Dray Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0116999",
       "name": "Peter Bryan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1967-07-01",

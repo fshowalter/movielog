@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt2400463",
   "sort_title": "Invitation (2015)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1334869",
-      "name": "Logan Marshall-Green",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Will"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087109",
-      "name": "Tammy Blanchard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1538675",
-      "name": "Emayatzy Corinealdi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Kira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4851831",
-      "name": "Aiden Lovekamp",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0472891",
-      "name": "Michelle Krusiec",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236451",
-      "name": "Mike Doyle",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tommy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0897425",
-      "name": "Jordi Vilasuso",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miguel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0489004",
-      "name": "Jay Larson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ben"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1028991",
-      "name": "Marieh Delfino",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Claire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401264",
-      "name": "Michiel Huisman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2698115",
-      "name": "Lindsay Burdge",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sadie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002253",
-      "name": "John Carroll Lynch",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pruitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0403947",
-      "name": "Toby Huss",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Joseph"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131297",
-      "name": "Danielle Camastra",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Annie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2107865",
-      "name": "Trish Gates",
-      "sequence": 14,
-      "notes": "(as Patricia Gates)",
-      "roles": [
-        "Follower"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1400085",
-      "name": "Karl Yune",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Choi"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0476201",
@@ -155,24 +9,170 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1334869",
+      "name": "Logan Marshall-Green",
+      "sequence": 0,
+      "roles": [
+        "Will"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087109",
+      "name": "Tammy Blanchard",
+      "sequence": 1,
+      "roles": [
+        "Eden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1538675",
+      "name": "Emayatzy Corinealdi",
+      "sequence": 2,
+      "roles": [
+        "Kira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4851831",
+      "name": "Aiden Lovekamp",
+      "sequence": 3,
+      "roles": [
+        "Ty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0472891",
+      "name": "Michelle Krusiec",
+      "sequence": 4,
+      "roles": [
+        "Gina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236451",
+      "name": "Mike Doyle",
+      "sequence": 5,
+      "roles": [
+        "Tommy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0897425",
+      "name": "Jordi Vilasuso",
+      "sequence": 6,
+      "roles": [
+        "Miguel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0489004",
+      "name": "Jay Larson",
+      "sequence": 7,
+      "roles": [
+        "Ben"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1028991",
+      "name": "Marieh Delfino",
+      "sequence": 8,
+      "roles": [
+        "Claire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401264",
+      "name": "Michiel Huisman",
+      "sequence": 9,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2698115",
+      "name": "Lindsay Burdge",
+      "sequence": 10,
+      "roles": [
+        "Sadie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002253",
+      "name": "John Carroll Lynch",
+      "sequence": 11,
+      "roles": [
+        "Pruitt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0403947",
+      "name": "Toby Huss",
+      "sequence": 12,
+      "roles": [
+        "Dr. Joseph"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131297",
+      "name": "Danielle Camastra",
+      "sequence": 13,
+      "roles": [
+        "Annie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2107865",
+      "name": "Trish Gates",
+      "sequence": 14,
+      "roles": [
+        "Follower"
+      ],
+      "notes": "(as Patricia Gates)"
+    },
+    {
+      "person_imdb_id": "nm1400085",
+      "name": "Karl Yune",
+      "sequence": 15,
+      "roles": [
+        "Choi"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0006534",
       "name": "Phil Hay",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0542062",
       "name": "Matt Manfredi",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "2015-03-13",
-  "release_date_notes": "(South by Southwest Film Festival)",
+  "release_date_notes": "",
   "countries": [
     "United States"
   ]

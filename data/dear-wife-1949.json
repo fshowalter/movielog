@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0041286",
   "sort_title": "Dear Wife (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bill Seacroft"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146542",
-      "name": "Joan Caulfield",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ruth Seacroft"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212461",
-      "name": "Billy De Wolfe",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Albert Kummer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293530",
-      "name": "Mona Freeman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miriam Wilkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036427",
-      "name": "Edward Arnold",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judge Harry Wilkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0924011",
-      "name": "Arleen Whelan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tommy Murphy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680102",
-      "name": "Mary Philips",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Wilkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0903266",
-      "name": "Harry von Zell",
-      "sequence": 7,
-      "notes": "(as Harry Von Zell)",
-      "roles": [
-        "Jeff Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736238",
-      "name": "Raymond Roe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ziggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0292116",
-      "name": "Elisabeth Fraser",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Kate Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614779",
-      "name": "William Murphy",
-      "sequence": 10,
-      "notes": "(as Bill Murphy)",
-      "roles": [
-        "Dan Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275997",
-      "name": "Mary Field",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mrs. Bixby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045784",
-      "name": "Irving Bacon",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mike Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0428160",
-      "name": "Gordon Jones",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Taxi Cab Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134783",
-      "name": "Marietta Canty",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Dora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065975",
-      "name": "Don Beddoe",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Metcalfe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370821",
-      "name": "Richard Haydn",
-      "sequence": 16,
-      "notes": "(as Stanley Stayle)",
-      "roles": [
-        "Early Riser"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0370821",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Bill Seacroft"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146542",
+      "name": "Joan Caulfield",
+      "sequence": 1,
+      "roles": [
+        "Ruth Seacroft"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212461",
+      "name": "Billy De Wolfe",
+      "sequence": 2,
+      "roles": [
+        "Albert Kummer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293530",
+      "name": "Mona Freeman",
+      "sequence": 3,
+      "roles": [
+        "Miriam Wilkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036427",
+      "name": "Edward Arnold",
+      "sequence": 4,
+      "roles": [
+        "Judge Harry Wilkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0924011",
+      "name": "Arleen Whelan",
+      "sequence": 5,
+      "roles": [
+        "Tommy Murphy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0680102",
+      "name": "Mary Philips",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Wilkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0903266",
+      "name": "Harry von Zell",
+      "sequence": 7,
+      "roles": [
+        "Jeff Cooper"
+      ],
+      "notes": "(as Harry Von Zell)"
+    },
+    {
+      "person_imdb_id": "nm0736238",
+      "name": "Raymond Roe",
+      "sequence": 8,
+      "roles": [
+        "Ziggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0292116",
+      "name": "Elisabeth Fraser",
+      "sequence": 9,
+      "roles": [
+        "Kate Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614779",
+      "name": "William Murphy",
+      "sequence": 10,
+      "roles": [
+        "Dan Collins"
+      ],
+      "notes": "(as Bill Murphy)"
+    },
+    {
+      "person_imdb_id": "nm0275997",
+      "name": "Mary Field",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Bixby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045784",
+      "name": "Irving Bacon",
+      "sequence": 12,
+      "roles": [
+        "Mike Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0428160",
+      "name": "Gordon Jones",
+      "sequence": 13,
+      "roles": [
+        "Taxi Cab Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134783",
+      "name": "Marietta Canty",
+      "sequence": 14,
+      "roles": [
+        "Dora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065975",
+      "name": "Don Beddoe",
+      "sequence": 15,
+      "roles": [
+        "Metcalfe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370821",
+      "name": "Richard Haydn",
+      "sequence": 16,
+      "roles": [
+        "Early Riser"
+      ],
+      "notes": "(as Stanley Stayle)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0790654",
       "name": "Arthur Sheekman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0621783",
       "name": "N. Richard Nash",
-      "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written for the screen by)"
     }
   ],
   "release_date": "1949-11-15",

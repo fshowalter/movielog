@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0032637",
   "sort_title": "Invisible Woman (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0115597",
-      "name": "Virginia Bruce",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Kitty Carroll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000858",
-      "name": "John Barrymore",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Professor Gibbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397397",
-      "name": "John Howard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Richard Russell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0749476",
-      "name": "Charles Ruggles",
-      "sequence": 3,
-      "notes": "(as Charlie Ruggles)",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393028",
-      "name": "Oskar Homolka",
-      "sequence": 4,
-      "notes": "(as Oscar Homolka)",
-      "roles": [
-        "Blackie Cole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531385",
-      "name": "Donald MacBride",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Foghorn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002121",
-      "name": "Margaret Hamilton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397602",
-      "name": "Shemp Howard",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frankie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619254",
-      "name": "Anne Nagel",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011116",
-      "name": "Kathryn Adams",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599688",
-      "name": "Maria Montez",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485272",
-      "name": "Charles Lane",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Growley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330435",
-      "name": "Mary Gordon",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mrs. Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356159",
-      "name": "Thurston Hall",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Hudson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175641",
-      "name": "Eddie Conrad",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Hernandez"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0840042",
@@ -155,41 +9,187 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0115597",
+      "name": "Virginia Bruce",
+      "sequence": 0,
+      "roles": [
+        "Kitty Carroll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000858",
+      "name": "John Barrymore",
+      "sequence": 1,
+      "roles": [
+        "Professor Gibbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397397",
+      "name": "John Howard",
+      "sequence": 2,
+      "roles": [
+        "Richard Russell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0749476",
+      "name": "Charles Ruggles",
+      "sequence": 3,
+      "roles": [
+        "George"
+      ],
+      "notes": "(as Charlie Ruggles)"
+    },
+    {
+      "person_imdb_id": "nm0393028",
+      "name": "Oskar Homolka",
+      "sequence": 4,
+      "roles": [
+        "Blackie Cole"
+      ],
+      "notes": "(as Oscar Homolka)"
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 5,
+      "roles": [
+        "Bill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531385",
+      "name": "Donald MacBride",
+      "sequence": 6,
+      "roles": [
+        "Foghorn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002121",
+      "name": "Margaret Hamilton",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397602",
+      "name": "Shemp Howard",
+      "sequence": 8,
+      "roles": [
+        "Frankie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619254",
+      "name": "Anne Nagel",
+      "sequence": 9,
+      "roles": [
+        "Jean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011116",
+      "name": "Kathryn Adams",
+      "sequence": 10,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599688",
+      "name": "Maria Montez",
+      "sequence": 11,
+      "roles": [
+        "Marie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485272",
+      "name": "Charles Lane",
+      "sequence": 12,
+      "roles": [
+        "Growley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330435",
+      "name": "Mary Gordon",
+      "sequence": 13,
+      "roles": [
+        "Mrs. Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356159",
+      "name": "Thurston Hall",
+      "sequence": 14,
+      "roles": [
+        "Hudson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175641",
+      "name": "Eddie Conrad",
+      "sequence": 15,
+      "roles": [
+        "Hernandez"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0802561",
       "name": "Curt Siodmak",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story) (as Kurt Siodmak)",
-      "group_id": 0
+      "notes": "(original story) (as Kurt Siodmak)"
     },
     {
       "person_imdb_id": "nm0562004",
       "name": "Joe May",
-      "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story)"
     },
     {
       "person_imdb_id": "nm0498738",
       "name": "Robert Lees",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0727411",
       "name": "Frederic I. Rinaldo",
-      "sequence": 0,
-      "notes": "(screenplay) (as Fred Rinaldo)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay) (as Fred Rinaldo)"
     },
     {
       "person_imdb_id": "nm0700717",
       "name": "Gertrude Purcell",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1940-12-27",

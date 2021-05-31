@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0040897",
   "sort_title": "Treasure of the Sierra Madre (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Fred C. Dobbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404158",
-      "name": "Walter Huston",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392529",
-      "name": "Tim Holt",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Curtin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071636",
-      "name": "Bruce Bennett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cody"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 4,
-      "notes": "(as Barton Mac Lane)",
-      "roles": [
-        "Pat McCormick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066166",
-      "name": "Alfonso Bedoya",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gold Hat"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0815495",
-      "name": "Arturo Soto Rangel",
-      "sequence": 6,
-      "notes": "(as A. Soto Rangel)",
-      "roles": [
-        "Presidente"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232375",
-      "name": "Manuel Dond\u00e9",
-      "sequence": 7,
-      "notes": "(as Manuel Donde)",
-      "roles": [
-        "El Jefe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0869064",
-      "name": "Jos\u00e9 Torvay",
-      "sequence": 8,
-      "notes": "(as Jose Torvay)",
-      "roles": [
-        "Pablo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526058",
-      "name": "Margarito Luna",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pancho"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Fred C. Dobbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404158",
+      "name": "Walter Huston",
+      "sequence": 1,
+      "roles": [
+        "Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392529",
+      "name": "Tim Holt",
+      "sequence": 2,
+      "roles": [
+        "Curtin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071636",
+      "name": "Bruce Bennett",
+      "sequence": 3,
+      "roles": [
+        "Cody"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 4,
+      "roles": [
+        "Pat McCormick"
+      ],
+      "notes": "(as Barton Mac Lane)"
+    },
+    {
+      "person_imdb_id": "nm0066166",
+      "name": "Alfonso Bedoya",
+      "sequence": 5,
+      "roles": [
+        "Gold Hat"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0815495",
+      "name": "Arturo Soto Rangel",
+      "sequence": 6,
+      "roles": [
+        "Presidente"
+      ],
+      "notes": "(as A. Soto Rangel)"
+    },
+    {
+      "person_imdb_id": "nm0232375",
+      "name": "Manuel Dond\u00e9",
+      "sequence": 7,
+      "roles": [
+        "El Jefe"
+      ],
+      "notes": "(as Manuel Donde)"
+    },
+    {
+      "person_imdb_id": "nm0869064",
+      "name": "Jos\u00e9 Torvay",
+      "sequence": 8,
+      "roles": [
+        "Pablo"
+      ],
+      "notes": "(as Jose Torvay)"
+    },
+    {
+      "person_imdb_id": "nm0526058",
+      "name": "Margarito Luna",
+      "sequence": 9,
+      "roles": [
+        "Pancho"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001379",
       "name": "John Huston",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0871252",
       "name": "B. Traven",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1948-01-14",

@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0023125",
   "sort_title": "Lawyer Man (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "(Tony) Adam",
-      "roles": [
-        "Anton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000951",
-      "name": "Joan Blondell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Olga Michaels"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484439",
-      "name": "David Landau",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "John Gilmurry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899091",
-      "name": "Helen Vinson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Barbara Bentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230068",
-      "name": "Claire Dodd",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Virginia St. Johns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003062",
-      "name": "Alan Dinehart",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Granville Bentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420765",
-      "name": "Allen Jenkins",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Izzy Levine"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0226189",
@@ -74,34 +9,99 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Anton"
+      ],
+      "notes": "(Tony) Adam"
+    },
+    {
+      "person_imdb_id": "nm0000951",
+      "name": "Joan Blondell",
+      "sequence": 1,
+      "roles": [
+        "Olga Michaels"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484439",
+      "name": "David Landau",
+      "sequence": 2,
+      "roles": [
+        "John Gilmurry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899091",
+      "name": "Helen Vinson",
+      "sequence": 3,
+      "roles": [
+        "Barbara Bentley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230068",
+      "name": "Claire Dodd",
+      "sequence": 4,
+      "roles": [
+        "Virginia St. Johns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003062",
+      "name": "Alan Dinehart",
+      "sequence": 5,
+      "roles": [
+        "Granville Bentley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420765",
+      "name": "Allen Jenkins",
+      "sequence": 6,
+      "roles": [
+        "Izzy Levine"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0416861",
       "name": "Rian James",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0786827",
       "name": "James Seymour",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0871835",
       "name": "Max Trell",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Lawyer Man\")",
-      "group_id": 1
+      "notes": "(novel \"Lawyer Man\")"
     },
     {
       "person_imdb_id": "nm0594594",
       "name": "Wilson Mizner",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1932-12-10",

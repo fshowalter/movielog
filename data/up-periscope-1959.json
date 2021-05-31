@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0053399",
   "sort_title": "Up Periscope (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001258",
-      "name": "James Garner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. J.G. Kenneth M. Braden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639529",
-      "name": "Edmond O'Brien",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Commander Paul Stevenson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551907",
-      "name": "Andra Martin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sally Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001308",
-      "name": "Alan Hale Jr.",
-      "sequence": 3,
-      "notes": "(as Alan Hale)",
-      "roles": [
-        "Lt. Pat Malone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139292",
-      "name": "Carleton Carpenter",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lt. Phil Carney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317520",
-      "name": "Frank Gifford",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ensign Cy Mount"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504196",
-      "name": "William Leslie",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lt. Doherty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0048147",
-      "name": "Richard Bakalyan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Seaman Peck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126318",
-      "name": "Edd Byrnes",
-      "sequence": 8,
-      "notes": "(as Edward Byrnes)",
-      "roles": [
-        "Pharmacist Mate Ash"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308466",
-      "name": "Sean Garrison",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Seaman Floyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0474628",
-      "name": "Henry Kulky",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Chief Petty Officer York"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0235066",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001258",
+      "name": "James Garner",
+      "sequence": 0,
+      "roles": [
+        "Lt. J.G. Kenneth M. Braden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639529",
+      "name": "Edmond O'Brien",
+      "sequence": 1,
+      "roles": [
+        "Commander Paul Stevenson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551907",
+      "name": "Andra Martin",
+      "sequence": 2,
+      "roles": [
+        "Sally Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001308",
+      "name": "Alan Hale Jr.",
+      "sequence": 3,
+      "roles": [
+        "Lt. Pat Malone"
+      ],
+      "notes": "(as Alan Hale)"
+    },
+    {
+      "person_imdb_id": "nm0139292",
+      "name": "Carleton Carpenter",
+      "sequence": 4,
+      "roles": [
+        "Lt. Phil Carney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317520",
+      "name": "Frank Gifford",
+      "sequence": 5,
+      "roles": [
+        "Ensign Cy Mount"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504196",
+      "name": "William Leslie",
+      "sequence": 6,
+      "roles": [
+        "Lt. Doherty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0048147",
+      "name": "Richard Bakalyan",
+      "sequence": 7,
+      "roles": [
+        "Seaman Peck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126318",
+      "name": "Edd Byrnes",
+      "sequence": 8,
+      "roles": [
+        "Pharmacist Mate Ash"
+      ],
+      "notes": "(as Edward Byrnes)"
+    },
+    {
+      "person_imdb_id": "nm0308466",
+      "name": "Sean Garrison",
+      "sequence": 9,
+      "roles": [
+        "Seaman Floyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0474628",
+      "name": "Henry Kulky",
+      "sequence": 10,
+      "roles": [
+        "Chief Petty Officer York"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0484479",
       "name": "Richard H. Landau",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Richard Landau)",
-      "group_id": 0
+      "notes": "(screenplay) (as Richard Landau)"
     },
     {
       "person_imdb_id": "nm0925380",
       "name": "Robb White",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1959-03-04",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0038355",
   "sort_title": "Big Sleep (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Philip Marlowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000002",
-      "name": "Lauren Bacall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Vivian Rutledge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0725891",
-      "name": "John Ridgely",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eddie Mars"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0896015",
-      "name": "Martha Vickers",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Carmen Sternwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540416",
-      "name": "Dorothy Malone",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Acme Book Shop Proprietress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461739",
-      "name": "Peggy Knudsen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mona Mars"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chief Inspector Bernie Ohls"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907289",
-      "name": "Charles Waldron",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "General Sternwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113184",
-      "name": "Charles D. Brown",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Norris - the Butler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824496",
-      "name": "Bob Steele",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lash Canino"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0176879",
-      "name": "Elisha Cook Jr.",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Harry Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382195",
-      "name": "Louis Jean Heydt",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Joe Brody"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001328",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Philip Marlowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000002",
+      "name": "Lauren Bacall",
+      "sequence": 1,
+      "roles": [
+        "Vivian Rutledge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0725891",
+      "name": "John Ridgely",
+      "sequence": 2,
+      "roles": [
+        "Eddie Mars"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0896015",
+      "name": "Martha Vickers",
+      "sequence": 3,
+      "roles": [
+        "Carmen Sternwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540416",
+      "name": "Dorothy Malone",
+      "sequence": 4,
+      "roles": [
+        "Acme Book Shop Proprietress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461739",
+      "name": "Peggy Knudsen",
+      "sequence": 5,
+      "roles": [
+        "Mona Mars"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 6,
+      "roles": [
+        "Chief Inspector Bernie Ohls"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907289",
+      "name": "Charles Waldron",
+      "sequence": 7,
+      "roles": [
+        "General Sternwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113184",
+      "name": "Charles D. Brown",
+      "sequence": 8,
+      "roles": [
+        "Norris - the Butler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824496",
+      "name": "Bob Steele",
+      "sequence": 9,
+      "roles": [
+        "Lash Canino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0176879",
+      "name": "Elisha Cook Jr.",
+      "sequence": 10,
+      "roles": [
+        "Harry Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382195",
+      "name": "Louis Jean Heydt",
+      "sequence": 11,
+      "roles": [
+        "Joe Brody"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0001203",
       "name": "William Faulkner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0102824",
       "name": "Leigh Brackett",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1946-08-22",

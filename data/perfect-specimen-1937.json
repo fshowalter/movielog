@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0029391",
   "sort_title": "Perfect Specimen (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gerald Beresford Wicks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000951",
-      "name": "Joan Blondell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mona Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001890",
-      "name": "Hugh Herbert",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Killigrew Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002143",
-      "name": "Edward Everett Horton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Grattan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285264",
-      "name": "Dick Foran",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jink Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730859",
-      "name": "Beverly Roberts",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Alicia Brackett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733480",
-      "name": "May Robson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Leona Wicks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420765",
-      "name": "Allen Jenkins",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pinky Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601116",
-      "name": "Dennie Moore",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Clarabelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640078",
-      "name": "Hugh O'Connell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Waldorf Hotel Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0121707",
-      "name": "James Burke",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheriff Bill Snodgrass"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060912",
-      "name": "Granville Bates",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Hooker - Garage Owner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003193",
-      "name": "Harry Davenport",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Carl Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377428",
-      "name": "Tim Henning",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Briggs"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -137,41 +9,169 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Gerald Beresford Wicks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000951",
+      "name": "Joan Blondell",
+      "sequence": 1,
+      "roles": [
+        "Mona Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001890",
+      "name": "Hugh Herbert",
+      "sequence": 2,
+      "roles": [
+        "Killigrew Shaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002143",
+      "name": "Edward Everett Horton",
+      "sequence": 3,
+      "roles": [
+        "Mr. Grattan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285264",
+      "name": "Dick Foran",
+      "sequence": 4,
+      "roles": [
+        "Jink Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730859",
+      "name": "Beverly Roberts",
+      "sequence": 5,
+      "roles": [
+        "Alicia Brackett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733480",
+      "name": "May Robson",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Leona Wicks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420765",
+      "name": "Allen Jenkins",
+      "sequence": 7,
+      "roles": [
+        "Pinky Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601116",
+      "name": "Dennie Moore",
+      "sequence": 8,
+      "roles": [
+        "Clarabelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640078",
+      "name": "Hugh O'Connell",
+      "sequence": 9,
+      "roles": [
+        "Waldorf Hotel Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0121707",
+      "name": "James Burke",
+      "sequence": 10,
+      "roles": [
+        "Sheriff Bill Snodgrass"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060912",
+      "name": "Granville Bates",
+      "sequence": 11,
+      "roles": [
+        "Hooker - Garage Owner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003193",
+      "name": "Harry Davenport",
+      "sequence": 12,
+      "roles": [
+        "Carl Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377428",
+      "name": "Tim Henning",
+      "sequence": 13,
+      "roles": [
+        "Briggs"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0706993",
       "name": "Norman Reilly Raine",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0727109",
       "name": "Lawrence Riley",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0607583",
       "name": "Brewster Morse",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0266251",
       "name": "Fritz Falkenstein",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0011343",
       "name": "Samuel Hopkins Adams",
+      "group": 1,
       "sequence": 0,
-      "notes": "(magazine story)",
-      "group_id": 1
+      "notes": "(magazine story)"
     }
   ],
   "release_date": "1937-10-23",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0044884",
   "sort_title": "Mara Maru (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Gregory Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738746",
-      "name": "Ruth Roman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Stella Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000994",
-      "name": "Raymond Burr",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Brock Benedict"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681608",
-      "name": "Paul Picerni",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Steven Ranier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916253",
-      "name": "Richard Webb",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Andy Callahan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786811",
-      "name": "Dan Seymour",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lt. Zuenon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719292",
-      "name": "Georges Renavent",
-      "sequence": 6,
-      "notes": "(as George Renavent)",
-      "roles": [
-        "Ortega"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0127408",
-      "name": "Robert Cabal",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Manuelo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545789",
-      "name": "Henry Marco",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Perol"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0235066",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Gregory Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738746",
+      "name": "Ruth Roman",
+      "sequence": 1,
+      "roles": [
+        "Stella Callahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000994",
+      "name": "Raymond Burr",
+      "sequence": 2,
+      "roles": [
+        "Brock Benedict"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681608",
+      "name": "Paul Picerni",
+      "sequence": 3,
+      "roles": [
+        "Steven Ranier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916253",
+      "name": "Richard Webb",
+      "sequence": 4,
+      "roles": [
+        "Andy Callahan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786811",
+      "name": "Dan Seymour",
+      "sequence": 5,
+      "roles": [
+        "Lt. Zuenon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719292",
+      "name": "Georges Renavent",
+      "sequence": 6,
+      "roles": [
+        "Ortega"
+      ],
+      "notes": "(as George Renavent)"
+    },
+    {
+      "person_imdb_id": "nm0127408",
+      "name": "Robert Cabal",
+      "sequence": 7,
+      "roles": [
+        "Manuelo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545789",
+      "name": "Henry Marco",
+      "sequence": 8,
+      "roles": [
+        "Perol"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0621783",
       "name": "N. Richard Nash",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0948634",
       "name": "Philip Yordan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0363563",
       "name": "Sidney Harmon",
-      "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(from a story by)"
     },
     {
       "person_imdb_id": "nm0633591",
       "name": "Hollister Noble",
-      "sequence": 0,
-      "notes": "(from a story by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(from a story by)"
     }
   ],
   "release_date": "1952-04-23",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0082307",
   "sort_title": "Beyond (1981)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0531529",
-      "name": "Catriona MacColl",
-      "sequence": 0,
-      "notes": "(as Katherine MacColl)",
-      "roles": [
-        "Liza Merril"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911285",
-      "name": "David Warbeck",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. John McCabe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0598443",
-      "name": "Cinzia Monreale",
-      "sequence": 2,
-      "notes": "(as Sarah Keller)",
-      "roles": [
-        "Emily"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0231452",
-      "name": "Antoine Saint-John",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Schweick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0493691",
-      "name": "Veronica Lazar",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7163889",
-      "name": "Larry Ray",
-      "sequence": 5,
-      "notes": "(as Anthony Flees)",
-      "roles": [
-        "Larry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210527",
-      "name": "Giovanni De Nava",
-      "sequence": 6,
-      "notes": "(creditOnly)",
-      "roles": [
-        "Joe the Plumber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166986",
-      "name": "Al Cliver",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591959",
-      "name": "Michele Mirabella",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Martin Avery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0754990",
-      "name": "Giampaolo Saccarola",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Arthur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550356",
-      "name": "Maria Pia Marsala",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210057",
-      "name": "Laura De Marchi",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mary-Ann"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -119,48 +9,158 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0531529",
+      "name": "Catriona MacColl",
+      "sequence": 0,
+      "roles": [
+        "Liza Merril"
+      ],
+      "notes": "(as Katherine MacColl)"
+    },
+    {
+      "person_imdb_id": "nm0911285",
+      "name": "David Warbeck",
+      "sequence": 1,
+      "roles": [
+        "Dr. John McCabe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0598443",
+      "name": "Cinzia Monreale",
+      "sequence": 2,
+      "roles": [
+        "Emily"
+      ],
+      "notes": "(as Sarah Keller)"
+    },
+    {
+      "person_imdb_id": "nm0231452",
+      "name": "Antoine Saint-John",
+      "sequence": 3,
+      "roles": [
+        "Schweick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0493691",
+      "name": "Veronica Lazar",
+      "sequence": 4,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7163889",
+      "name": "Larry Ray",
+      "sequence": 5,
+      "roles": [
+        "Larry"
+      ],
+      "notes": "(as Anthony Flees)"
+    },
+    {
+      "person_imdb_id": "nm0210527",
+      "name": "Giovanni De Nava",
+      "sequence": 6,
+      "roles": [
+        "Joe the Plumber"
+      ],
+      "notes": "(creditOnly)"
+    },
+    {
+      "person_imdb_id": "nm0166986",
+      "name": "Al Cliver",
+      "sequence": 7,
+      "roles": [
+        "Dr. Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591959",
+      "name": "Michele Mirabella",
+      "sequence": 8,
+      "roles": [
+        "Martin Avery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0754990",
+      "name": "Giampaolo Saccarola",
+      "sequence": 9,
+      "roles": [
+        "Arthur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550356",
+      "name": "Maria Pia Marsala",
+      "sequence": 10,
+      "roles": [
+        "Jill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0210057",
+      "name": "Laura De Marchi",
+      "sequence": 11,
+      "roles": [
+        "Mary-Ann"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0548151",
       "name": "Giorgio Mariuzzo",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0522454",
       "name": "H.P. Lovecraft",
+      "group": 2,
       "sequence": 0,
-      "notes": "(inspiration) (uncredited)",
-      "group_id": 2
+      "notes": "(inspiration) (uncredited)"
     },
     {
       "person_imdb_id": "nm1270209",
       "name": "Clark Ashton Smith",
+      "group": 3,
       "sequence": 0,
-      "notes": "(inspiration) (uncredited)",
-      "group_id": 3
+      "notes": "(inspiration) (uncredited)"
     }
   ],
   "release_date": "1981-04-29",

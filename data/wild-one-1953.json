@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0047677",
   "sort_title": "Wild One (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000008",
-      "name": "Marlon Brando",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Johnny Strabler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0614500",
-      "name": "Mary Murphy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kathie Bleeker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445290",
-      "name": "Robert Keith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sheriff Harry Bleeker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Chino"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282435",
-      "name": "Jay C. Flippen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sheriff Stew Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0539439",
-      "name": "Peggy Maley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mildred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0761576",
-      "name": "Hugh Sanders",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Charlie Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Frank Bleeker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113876",
-      "name": "John Brown",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bill Hannegan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942926",
-      "name": "Will Wright",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Art Kleiner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0652366",
-      "name": "Robert Osterloh",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ben"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0891648",
-      "name": "William Vedder",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jimmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0234918",
-      "name": "Yvonne Doughty",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Britches"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0070670",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000008",
+      "name": "Marlon Brando",
+      "sequence": 0,
+      "roles": [
+        "Johnny Strabler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0614500",
+      "name": "Mary Murphy",
+      "sequence": 1,
+      "roles": [
+        "Kathie Bleeker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445290",
+      "name": "Robert Keith",
+      "sequence": 2,
+      "roles": [
+        "Sheriff Harry Bleeker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 3,
+      "roles": [
+        "Chino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282435",
+      "name": "Jay C. Flippen",
+      "sequence": 4,
+      "roles": [
+        "Sheriff Stew Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0539439",
+      "name": "Peggy Maley",
+      "sequence": 5,
+      "roles": [
+        "Mildred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0761576",
+      "name": "Hugh Sanders",
+      "sequence": 6,
+      "roles": [
+        "Charlie Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 7,
+      "roles": [
+        "Frank Bleeker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113876",
+      "name": "John Brown",
+      "sequence": 8,
+      "roles": [
+        "Bill Hannegan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942926",
+      "name": "Will Wright",
+      "sequence": 9,
+      "roles": [
+        "Art Kleiner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0652366",
+      "name": "Robert Osterloh",
+      "sequence": 10,
+      "roles": [
+        "Ben"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0891648",
+      "name": "William Vedder",
+      "sequence": 11,
+      "roles": [
+        "Jimmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0234918",
+      "name": "Yvonne Doughty",
+      "sequence": 12,
+      "roles": [
+        "Britches"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0668122",
       "name": "John Paxton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0740316",
       "name": "Frank Rooney",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0534693",
       "name": "Ben Maddow",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1953-12-25",

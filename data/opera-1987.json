@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0093677",
   "sort_title": "Opera (1987)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0551290",
-      "name": "Cristina Marsillach",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Betty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153182",
-      "name": "Ian Charleson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Marco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0053519",
-      "name": "Urbano Barberini",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Inspector Alan Santini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0630453",
-      "name": "Daria Nicolodi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0851016",
-      "name": "Coralina Cataldi-Tassoni",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Giulia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899856",
-      "name": "Antonella Vitale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marion"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001530",
-      "name": "William McNamara",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Stefano"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192556",
-      "name": "Barbara Cupisti",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Signora Albertini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0411899",
-      "name": "Antonino Iuorio",
-      "sequence": 8,
-      "notes": "(as Antonio Juorio)",
-      "roles": [
-        "Baddini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0821409",
-      "name": "Carola Stagnaro",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Alma's mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144339",
-      "name": "Francesca Cassola",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Alma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308521",
-      "name": "Maurizio Garrone",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Maurizio, the raven trainer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0315989",
-      "name": "Cristina Giachino",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Maria, the assistant director"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350500",
-      "name": "Gy\u00f6rgy Gy\u00f5riv\u00e1nyi",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Miro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358434",
-      "name": "Bjorn Hammer",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Cop #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685800",
-      "name": "Peter Pitsch",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mara Czekova's assistant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813934",
-      "name": "Sebastiano Somma",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Cop #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634881",
-      "name": "Elizabeth Norberg-Schulz",
-      "sequence": 17,
-      "notes": "(soprano) (singingVoice)",
-      "roles": [
-        "Lady Macbeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0675721",
-      "name": "Michele Pertusi",
-      "sequence": 18,
-      "notes": "(bass) (singingVoice)",
-      "roles": [
-        "Macbeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000783",
-      "name": "Dario Argento",
-      "sequence": 19,
-      "notes": "(Italian version) (uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000783",
@@ -191,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0551290",
+      "name": "Cristina Marsillach",
+      "sequence": 0,
+      "roles": [
+        "Betty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153182",
+      "name": "Ian Charleson",
+      "sequence": 1,
+      "roles": [
+        "Marco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0053519",
+      "name": "Urbano Barberini",
+      "sequence": 2,
+      "roles": [
+        "Inspector Alan Santini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0630453",
+      "name": "Daria Nicolodi",
+      "sequence": 3,
+      "roles": [
+        "Mira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0851016",
+      "name": "Coralina Cataldi-Tassoni",
+      "sequence": 4,
+      "roles": [
+        "Giulia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899856",
+      "name": "Antonella Vitale",
+      "sequence": 5,
+      "roles": [
+        "Marion"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001530",
+      "name": "William McNamara",
+      "sequence": 6,
+      "roles": [
+        "Stefano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192556",
+      "name": "Barbara Cupisti",
+      "sequence": 7,
+      "roles": [
+        "Signora Albertini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0411899",
+      "name": "Antonino Iuorio",
+      "sequence": 8,
+      "roles": [
+        "Baddini"
+      ],
+      "notes": "(as Antonio Juorio)"
+    },
+    {
+      "person_imdb_id": "nm0821409",
+      "name": "Carola Stagnaro",
+      "sequence": 9,
+      "roles": [
+        "Alma's mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144339",
+      "name": "Francesca Cassola",
+      "sequence": 10,
+      "roles": [
+        "Alma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308521",
+      "name": "Maurizio Garrone",
+      "sequence": 11,
+      "roles": [
+        "Maurizio, the raven trainer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0315989",
+      "name": "Cristina Giachino",
+      "sequence": 12,
+      "roles": [
+        "Maria, the assistant director"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350500",
+      "name": "Gy\u00f6rgy Gy\u00f5riv\u00e1nyi",
+      "sequence": 13,
+      "roles": [
+        "Miro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358434",
+      "name": "Bjorn Hammer",
+      "sequence": 14,
+      "roles": [
+        "Cop #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685800",
+      "name": "Peter Pitsch",
+      "sequence": 15,
+      "roles": [
+        "Mara Czekova's assistant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813934",
+      "name": "Sebastiano Somma",
+      "sequence": 16,
+      "roles": [
+        "Cop #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634881",
+      "name": "Elizabeth Norberg-Schulz",
+      "sequence": 17,
+      "roles": [
+        "Lady Macbeth"
+      ],
+      "notes": "(soprano) (singingVoice)"
+    },
+    {
+      "person_imdb_id": "nm0675721",
+      "name": "Michele Pertusi",
+      "sequence": 18,
+      "roles": [
+        "Macbeth"
+      ],
+      "notes": "(bass) (singingVoice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000783",
       "name": "Dario Argento",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0274853",
       "name": "Franco Ferrini",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0000783",
       "name": "Dario Argento",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1987-12-19",

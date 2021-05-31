@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0048140",
   "sort_title": "Guys and Dolls (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000008",
-      "name": "Marlon Brando",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sky Masterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001739",
-      "name": "Jean Simmons",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nathan Detroit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086176",
-      "name": "Vivian Blaine",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Miss Adelaide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445290",
-      "name": "Robert Keith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lt. Brannigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443401",
-      "name": "Stubby Kaye",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nicely-Nicely Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700425",
-      "name": "B.S. Pully",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Big Jule"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798721",
-      "name": "Johnny Silver",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Benny Southstreet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0502766",
-      "name": "Sheldon Leonard",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harry the Horse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001894",
-      "name": "Danny Dayton",
-      "sequence": 9,
-      "notes": "(as Dan Dayton)",
-      "roles": [
-        "Rusty Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831889",
-      "name": "George E. Stone",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Society Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Arvide Abernathy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321469",
-      "name": "Kathryn Givney",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "General Cartwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0096458",
-      "name": "Veda Ann Borg",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Laverne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389934",
-      "name": "Mary Alan Hokanson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Agatha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570335",
-      "name": "Joe McTurk",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Angie the Ox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0476484",
-      "name": "Kay E. Kuter",
-      "sequence": 16,
-      "notes": "(as Kay Kuter)",
-      "roles": [
-        "Calvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448852",
-      "name": "Stapleton Kent",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Mission Member"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0719776",
-      "name": "Renee Renor",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Cuban Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1665169",
-      "name": "The Goldwyn Girls",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Dancing Ensemble"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000581",
@@ -191,41 +9,223 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000008",
+      "name": "Marlon Brando",
+      "sequence": 0,
+      "roles": [
+        "Sky Masterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001739",
+      "name": "Jean Simmons",
+      "sequence": 1,
+      "roles": [
+        "Sarah Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 2,
+      "roles": [
+        "Nathan Detroit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086176",
+      "name": "Vivian Blaine",
+      "sequence": 3,
+      "roles": [
+        "Miss Adelaide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445290",
+      "name": "Robert Keith",
+      "sequence": 4,
+      "roles": [
+        "Lt. Brannigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0443401",
+      "name": "Stubby Kaye",
+      "sequence": 5,
+      "roles": [
+        "Nicely-Nicely Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700425",
+      "name": "B.S. Pully",
+      "sequence": 6,
+      "roles": [
+        "Big Jule"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798721",
+      "name": "Johnny Silver",
+      "sequence": 7,
+      "roles": [
+        "Benny Southstreet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0502766",
+      "name": "Sheldon Leonard",
+      "sequence": 8,
+      "roles": [
+        "Harry the Horse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001894",
+      "name": "Danny Dayton",
+      "sequence": 9,
+      "roles": [
+        "Rusty Charlie"
+      ],
+      "notes": "(as Dan Dayton)"
+    },
+    {
+      "person_imdb_id": "nm0831889",
+      "name": "George E. Stone",
+      "sequence": 10,
+      "roles": [
+        "Society Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 11,
+      "roles": [
+        "Arvide Abernathy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321469",
+      "name": "Kathryn Givney",
+      "sequence": 12,
+      "roles": [
+        "General Cartwright"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0096458",
+      "name": "Veda Ann Borg",
+      "sequence": 13,
+      "roles": [
+        "Laverne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389934",
+      "name": "Mary Alan Hokanson",
+      "sequence": 14,
+      "roles": [
+        "Agatha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570335",
+      "name": "Joe McTurk",
+      "sequence": 15,
+      "roles": [
+        "Angie the Ox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0476484",
+      "name": "Kay E. Kuter",
+      "sequence": 16,
+      "roles": [
+        "Calvin"
+      ],
+      "notes": "(as Kay Kuter)"
+    },
+    {
+      "person_imdb_id": "nm0448852",
+      "name": "Stapleton Kent",
+      "sequence": 17,
+      "roles": [
+        "Mission Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0719776",
+      "name": "Renee Renor",
+      "sequence": 18,
+      "roles": [
+        "Cuban Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1665169",
+      "name": "The Goldwyn Girls",
+      "sequence": 19,
+      "roles": [
+        "Dancing Ensemble"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0842485",
       "name": "Jo Swerling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based upon the play: \"Guys and Dolls\" book by)",
-      "group_id": 0
+      "notes": "(based upon the play: \"Guys and Dolls\" book by)"
     },
     {
       "person_imdb_id": "nm0123242",
       "name": "Abe Burrows",
-      "sequence": 0,
-      "notes": "(based upon the play: \"Guys and Dolls\" book by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(based upon the play: \"Guys and Dolls\" book by)"
     },
     {
       "person_imdb_id": "nm0750357",
       "name": "Damon Runyon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a story)",
-      "group_id": 1
+      "notes": "(from a story)"
     },
     {
       "person_imdb_id": "nm0000581",
       "name": "Joseph L. Mankiewicz",
+      "group": 2,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 2
+      "notes": "(written for the screen by)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1955-11-03",

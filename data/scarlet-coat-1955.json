@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0048588",
   "sort_title": "Scarlet Coat (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0664273",
-      "name": "Cornel Wilde",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Maj. John Boulton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928697",
-      "name": "Michael Wilding",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maj. John Andre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001695",
-      "name": "George Sanders",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Jonathan Odell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004282",
-      "name": "Anne Francis",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sally Cameron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001888",
-      "name": "Robert Douglas",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gen. Benedict Arnold"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570615",
-      "name": "John McIntire",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gen. Robert Howe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931525",
-      "name": "Rhys Williams",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Peter Andre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215000",
-      "name": "John Dehner",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Nathanael Greene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922599",
-      "name": "James Westerfield",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Col. Jameson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184524",
-      "name": "Ashley Cowan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146905",
-      "name": "Paul Cavanagh",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sir Henry Clinton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017580",
-      "name": "John Alderson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Durkin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641738",
-      "name": "John O'Malley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Col. Winfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237985",
-      "name": "Bobby Driscoll",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Ben Potter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293659",
-      "name": "Paul Frees",
-      "sequence": 33,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -146,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0664273",
+      "name": "Cornel Wilde",
+      "sequence": 0,
+      "roles": [
+        "Maj. John Boulton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928697",
+      "name": "Michael Wilding",
+      "sequence": 1,
+      "roles": [
+        "Maj. John Andre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001695",
+      "name": "George Sanders",
+      "sequence": 2,
+      "roles": [
+        "Dr. Jonathan Odell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004282",
+      "name": "Anne Francis",
+      "sequence": 3,
+      "roles": [
+        "Sally Cameron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001888",
+      "name": "Robert Douglas",
+      "sequence": 4,
+      "roles": [
+        "Gen. Benedict Arnold"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570615",
+      "name": "John McIntire",
+      "sequence": 5,
+      "roles": [
+        "Gen. Robert Howe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931525",
+      "name": "Rhys Williams",
+      "sequence": 6,
+      "roles": [
+        "Peter Andre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215000",
+      "name": "John Dehner",
+      "sequence": 7,
+      "roles": [
+        "Nathanael Greene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922599",
+      "name": "James Westerfield",
+      "sequence": 8,
+      "roles": [
+        "Col. Jameson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184524",
+      "name": "Ashley Cowan",
+      "sequence": 9,
+      "roles": [
+        "Mr. Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146905",
+      "name": "Paul Cavanagh",
+      "sequence": 10,
+      "roles": [
+        "Sir Henry Clinton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017580",
+      "name": "John Alderson",
+      "sequence": 11,
+      "roles": [
+        "Mr. Durkin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641738",
+      "name": "John O'Malley",
+      "sequence": 12,
+      "roles": [
+        "Col. Winfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237985",
+      "name": "Bobby Driscoll",
+      "sequence": 13,
+      "roles": [
+        "Ben Potter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0876562",
       "name": "Karl Tunberg",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1955-07-29",

@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0057809",
   "sort_title": "36 Hours (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001258",
-      "name": "James Garner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Major Jefferson Pike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001693",
-      "name": "Eva Marie Saint",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna Hedler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001792",
-      "name": "Rod Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Major Walter Gerber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0676729",
-      "name": "Werner Peters",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Otto Schack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052308",
-      "name": "John Banner",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ernst"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861776",
-      "name": "Russell Thorson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "General Allison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Colonel Peter MacLean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0073471",
-      "name": "Oscar Beregi Jr.",
-      "sequence": 7,
-      "notes": "(as Oscar Beregi)",
-      "roles": [
-        "Lt. Colonel Ostermann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318027",
-      "name": "Ed Gilbert",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Captain Abbott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750079",
-      "name": "Sig Ruman",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "German Guard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522767",
-      "name": "Celia Lovsky",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Elsa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125998",
-      "name": "Karl Held",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Corporal Kenter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0467170",
-      "name": "Martin Kosleck",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Kraatz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071913",
-      "name": "Marjorie Bennett",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Charwoman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0746705",
-      "name": "Henry Rowland",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "German Soldier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717137",
-      "name": "Otto Reichow",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "German Soldier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0687504",
-      "name": "Hilda Plowright",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "German Agent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0295022",
-      "name": "Walter Friedel",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Denker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577865",
-      "name": "Joseph Mell",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Lemke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386944",
-      "name": "Adolf Hitler",
-      "sequence": 43,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Self"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0780833",
@@ -191,34 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001258",
+      "name": "James Garner",
+      "sequence": 0,
+      "roles": [
+        "Major Jefferson Pike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001693",
+      "name": "Eva Marie Saint",
+      "sequence": 1,
+      "roles": [
+        "Anna Hedler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001792",
+      "name": "Rod Taylor",
+      "sequence": 2,
+      "roles": [
+        "Major Walter Gerber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0676729",
+      "name": "Werner Peters",
+      "sequence": 3,
+      "roles": [
+        "Otto Schack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052308",
+      "name": "John Banner",
+      "sequence": 4,
+      "roles": [
+        "Ernst"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861776",
+      "name": "Russell Thorson",
+      "sequence": 5,
+      "roles": [
+        "General Allison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 6,
+      "roles": [
+        "Colonel Peter MacLean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0073471",
+      "name": "Oscar Beregi Jr.",
+      "sequence": 7,
+      "roles": [
+        "Lt. Colonel Ostermann"
+      ],
+      "notes": "(as Oscar Beregi)"
+    },
+    {
+      "person_imdb_id": "nm0318027",
+      "name": "Ed Gilbert",
+      "sequence": 8,
+      "roles": [
+        "Captain Abbott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750079",
+      "name": "Sig Ruman",
+      "sequence": 9,
+      "roles": [
+        "German Guard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522767",
+      "name": "Celia Lovsky",
+      "sequence": 10,
+      "roles": [
+        "Elsa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0125998",
+      "name": "Karl Held",
+      "sequence": 11,
+      "roles": [
+        "Corporal Kenter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0467170",
+      "name": "Martin Kosleck",
+      "sequence": 12,
+      "roles": [
+        "Kraatz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071913",
+      "name": "Marjorie Bennett",
+      "sequence": 13,
+      "roles": [
+        "Charwoman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0746705",
+      "name": "Henry Rowland",
+      "sequence": 14,
+      "roles": [
+        "German Soldier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717137",
+      "name": "Otto Reichow",
+      "sequence": 15,
+      "roles": [
+        "German Soldier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0687504",
+      "name": "Hilda Plowright",
+      "sequence": 16,
+      "roles": [
+        "German Agent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0295022",
+      "name": "Walter Friedel",
+      "sequence": 17,
+      "roles": [
+        "Denker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0577865",
+      "name": "Joseph Mell",
+      "sequence": 18,
+      "roles": [
+        "Lemke"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0780833",
       "name": "George Seaton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0001094",
       "name": "Roald Dahl",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on \"Beware of the Dog\" by)",
-      "group_id": 1
+      "notes": "(based on \"Beware of the Dog\" by)"
     },
     {
       "person_imdb_id": "nm0386973",
       "name": "Carl K. Hittleman",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 2
+      "notes": "(based on a story by)"
     },
     {
       "person_imdb_id": "nm0888542",
       "name": "Luis H. Vance",
-      "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1964-11-26",

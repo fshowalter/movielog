@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0042994",
   "sort_title": "Stage Fright (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0943837",
-      "name": "Jane Wyman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Eve Gill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000017",
-      "name": "Marlene Dietrich",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Charlotte Inwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928697",
-      "name": "Michael Wilding",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ordinary Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0865262",
-      "name": "Richard Todd",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jonathan Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799237",
-      "name": "Alastair Sim",
-      "sequence": 4,
-      "notes": "(as Alistair Sim)",
-      "roles": [
-        "Commodore Gill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861345",
-      "name": "Sybil Thorndike",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Gill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909727",
-      "name": "Kay Walsh",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nellie Goode"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0539942",
-      "name": "Miles Malleson",
-      "sequence": 7,
-      "notes": "(as Miles Mallison)",
-      "roles": [
-        "Mr. Fortesque"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0532325",
-      "name": "Hector MacGregor",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Freddie Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340205",
-      "name": "Joyce Grenfell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "'Lovely Ducks'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603682",
-      "name": "Andr\u00e9 Morell",
-      "sequence": 10,
-      "notes": "(as Andre Morell)",
-      "roles": [
-        "Inspector Byard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386877",
-      "name": "Patricia Hitchcock",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Chubby Bannister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0075326",
-      "name": "Ballard Berkeley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sergeant Mellish"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -128,41 +9,160 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0943837",
+      "name": "Jane Wyman",
+      "sequence": 0,
+      "roles": [
+        "Eve Gill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000017",
+      "name": "Marlene Dietrich",
+      "sequence": 1,
+      "roles": [
+        "Charlotte Inwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928697",
+      "name": "Michael Wilding",
+      "sequence": 2,
+      "roles": [
+        "Ordinary Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0865262",
+      "name": "Richard Todd",
+      "sequence": 3,
+      "roles": [
+        "Jonathan Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799237",
+      "name": "Alastair Sim",
+      "sequence": 4,
+      "roles": [
+        "Commodore Gill"
+      ],
+      "notes": "(as Alistair Sim)"
+    },
+    {
+      "person_imdb_id": "nm0861345",
+      "name": "Sybil Thorndike",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Gill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0909727",
+      "name": "Kay Walsh",
+      "sequence": 6,
+      "roles": [
+        "Nellie Goode"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0539942",
+      "name": "Miles Malleson",
+      "sequence": 7,
+      "roles": [
+        "Mr. Fortesque"
+      ],
+      "notes": "(as Miles Mallison)"
+    },
+    {
+      "person_imdb_id": "nm0532325",
+      "name": "Hector MacGregor",
+      "sequence": 8,
+      "roles": [
+        "Freddie Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340205",
+      "name": "Joyce Grenfell",
+      "sequence": 9,
+      "roles": [
+        "'Lovely Ducks'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603682",
+      "name": "Andr\u00e9 Morell",
+      "sequence": 10,
+      "roles": [
+        "Inspector Byard"
+      ],
+      "notes": "(as Andre Morell)"
+    },
+    {
+      "person_imdb_id": "nm0386877",
+      "name": "Patricia Hitchcock",
+      "sequence": 11,
+      "roles": [
+        "Chubby Bannister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0075326",
+      "name": "Ballard Berkeley",
+      "sequence": 12,
+      "roles": [
+        "Sergeant Mellish"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0177336",
       "name": "Whitfield Cook",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0720904",
       "name": "Alma Reville",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation by)",
-      "group_id": 1
+      "notes": "(adaptation by)"
     },
     {
       "person_imdb_id": "nm0421862",
       "name": "Selwyn Jepson",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on the novel \"Man Running\" by)",
-      "group_id": 2
+      "notes": "(based on the novel \"Man Running\" by)"
     },
     {
       "person_imdb_id": "nm0108833",
       "name": "James Bridie",
+      "group": 3,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 3
+      "notes": "(additional dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0532030",
       "name": "Ranald MacDougall",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1950-02-23",

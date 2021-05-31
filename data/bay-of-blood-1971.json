@@ -1,133 +1,6 @@
 {
   "imdb_id": "tt0067656",
   "sort_title": "Bay of Blood (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000805",
-      "name": "Claudine Auger",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Renata Donati"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685559",
-      "name": "Luigi Pistilli",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alberto",
-        "Albert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131294",
-      "name": "Claudio Camaso",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Simone",
-        "Simon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0741120",
-      "name": "Anna Maria Rosati",
-      "sequence": 3,
-      "notes": "(as Anna M. Rosati)",
-      "roles": [
-        "Laura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043308",
-      "name": "Chris Avram",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Franco Ventura",
-        "Frank Ventura"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872689",
-      "name": "Leopoldo Trieste",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Paolo Fosatti",
-        "Paul Fosatti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079341",
-      "name": "Laura Betti",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Anna Fosatti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0803938",
-      "name": "Brigitte Skay",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Louise",
-        "Brunhilde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0592109",
-      "name": "Isa Miranda",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Countess Federica Donati"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599383",
-      "name": "Paola Montenero",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sylvie",
-        "Denise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0090502",
-      "name": "Guido Boccaccini",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Luca",
-        "Duke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093753",
-      "name": "Roberto Bonanni",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Roberto",
-        "Bobby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0638391",
-      "name": "Giovanni Nuvoletti",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Count Filippo Donati"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -136,69 +9,189 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0000878",
-      "name": "Mario Bava",
+      "person_imdb_id": "nm0000805",
+      "name": "Claudine Auger",
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "roles": [
+        "Renata Donati"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0572682",
-      "name": "Giuseppe Zaccariello",
-      "sequence": 0,
-      "notes": "(screenplay) (as Joseph McLee)",
-      "group_id": 0
+      "person_imdb_id": "nm0685559",
+      "name": "Luigi Pistilli",
+      "sequence": 1,
+      "roles": [
+        "Alberto"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0653322",
-      "name": "Filippo Ottoni",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "person_imdb_id": "nm0131294",
+      "name": "Claudio Camaso",
+      "sequence": 2,
+      "roles": [
+        "Simone"
+      ],
+      "notes": "(as Claudio Volont\u00e9)"
     },
     {
-      "person_imdb_id": "nm0332417",
-      "name": "Dardano Sacchetti",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "person_imdb_id": "nm0741120",
+      "name": "Anna Maria Rosati",
+      "sequence": 3,
+      "roles": [
+        "Laura"
+      ],
+      "notes": "(as Anna M. Rosati)"
     },
     {
-      "person_imdb_id": "nm0053506",
-      "name": "Gianfranco Barberi",
-      "sequence": 0,
-      "notes": "(story) (as Franco Barberi)",
-      "group_id": 1
+      "person_imdb_id": "nm0043308",
+      "name": "Chris Avram",
+      "sequence": 4,
+      "roles": [
+        "Franco Ventura",
+        "Frank Ventura"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0526876",
-      "name": "Gene Luotto",
-      "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 2
+      "person_imdb_id": "nm0872689",
+      "name": "Leopoldo Trieste",
+      "sequence": 5,
+      "roles": [
+        "Paolo Fosatti"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0079341",
       "name": "Laura Betti",
+      "sequence": 6,
+      "roles": [
+        "Anna Fosatti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0803938",
+      "name": "Brigitte Skay",
+      "sequence": 7,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0592109",
+      "name": "Isa Miranda",
+      "sequence": 8,
+      "roles": [
+        "Countess Federica Donati"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599383",
+      "name": "Paola Montenero",
+      "sequence": 9,
+      "roles": [
+        "Sylvie"
+      ],
+      "notes": "(as Paola Rubens)"
+    },
+    {
+      "person_imdb_id": "nm0090502",
+      "name": "Guido Boccaccini",
+      "sequence": 10,
+      "roles": [
+        "Luca"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0093753",
+      "name": "Roberto Bonanni",
+      "sequence": 11,
+      "roles": [
+        "Roberto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0638391",
+      "name": "Giovanni Nuvoletti",
+      "sequence": 12,
+      "roles": [
+        "Count Filippo Donati"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0000878",
+      "name": "Mario Bava",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay collaborator) (uncredited)",
-      "group_id": 3
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0572682",
+      "name": "Giuseppe Zaccariello",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Joseph McLee)"
+    },
+    {
+      "person_imdb_id": "nm0653322",
+      "name": "Filippo Ottoni",
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0332417",
+      "name": "Dardano Sacchetti",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0053506",
+      "name": "Gianfranco Barberi",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story) (as Franco Barberi)"
+    },
+    {
+      "person_imdb_id": "nm0526876",
+      "name": "Gene Luotto",
+      "group": 2,
+      "sequence": 0,
+      "notes": "(dialogue)"
+    },
+    {
+      "person_imdb_id": "nm0079341",
+      "name": "Laura Betti",
+      "group": 3,
+      "sequence": 0,
+      "notes": "(screenplay collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0133917",
       "name": "Sergio Canevari",
+      "group": 4,
       "sequence": 0,
-      "notes": "(screenplay collaborator) (uncredited)",
-      "group_id": 4
+      "notes": "(screenplay collaborator) (uncredited)"
     },
     {
       "person_imdb_id": "nm0889296",
       "name": "Franco Vanorio",
+      "group": 5,
       "sequence": 0,
-      "notes": "(screenplay collaborator) (uncredited)",
-      "group_id": 5
+      "notes": "(screenplay collaborator) (uncredited)"
     }
   ],
   "release_date": "1971-09-08",

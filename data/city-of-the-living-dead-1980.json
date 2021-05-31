@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0081318",
   "sort_title": "City of the Living Dead (1980)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0313387",
-      "name": "Christopher George",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Peter Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531529",
-      "name": "Catriona MacColl",
-      "sequence": 1,
-      "notes": "(as Katriona Mac Coll)",
-      "roles": [
-        "Mary Woodhouse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0210235",
-      "name": "Carlo De Mejo",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gerry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409420",
-      "name": "Antonella Interlenghi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Emily Robbins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0518422",
-      "name": "Giovanni Lombardo Radice",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233615",
-      "name": "Daniela Doria",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rosie Kelvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431359",
-      "name": "Fabrizio Jovine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Father William Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0892890",
-      "name": "Luca Venantini",
-      "sequence": 7,
-      "notes": "(as Luca Paisner)",
-      "roles": [
-        "John-John Robbins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0811714",
-      "name": "Michele Soavi",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tommy Fisher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0892891",
-      "name": "Venantino Venantini",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195566",
-      "name": "Enzo D'Ausilio",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Deputy Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1584102",
-      "name": "Adelaide Aste",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Theresa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0436422",
-      "name": "Luciano Rossi",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Policeman in Apartment"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0760203",
-      "name": "Robert Sampson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sheriff Russell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0013302",
-      "name": "Janet Agren",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sandra"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -146,48 +9,185 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0313387",
+      "name": "Christopher George",
+      "sequence": 0,
+      "roles": [
+        "Peter Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531529",
+      "name": "Catriona MacColl",
+      "sequence": 1,
+      "roles": [
+        "Mary Woodhouse"
+      ],
+      "notes": "(as Katriona Mac Coll)"
+    },
+    {
+      "person_imdb_id": "nm0210235",
+      "name": "Carlo De Mejo",
+      "sequence": 2,
+      "roles": [
+        "Gerry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409420",
+      "name": "Antonella Interlenghi",
+      "sequence": 3,
+      "roles": [
+        "Emily Robbins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0518422",
+      "name": "Giovanni Lombardo Radice",
+      "sequence": 4,
+      "roles": [
+        "Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233615",
+      "name": "Daniela Doria",
+      "sequence": 5,
+      "roles": [
+        "Rosie Kelvin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431359",
+      "name": "Fabrizio Jovine",
+      "sequence": 6,
+      "roles": [
+        "Father William Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0892890",
+      "name": "Luca Venantini",
+      "sequence": 7,
+      "roles": [
+        "John-John Robbins"
+      ],
+      "notes": "(as Luca Paisner)"
+    },
+    {
+      "person_imdb_id": "nm0811714",
+      "name": "Michele Soavi",
+      "sequence": 8,
+      "roles": [
+        "Tommy Fisher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0892891",
+      "name": "Venantino Venantini",
+      "sequence": 9,
+      "roles": [
+        "Mr. Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195566",
+      "name": "Enzo D'Ausilio",
+      "sequence": 10,
+      "roles": [
+        "Deputy Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1584102",
+      "name": "Adelaide Aste",
+      "sequence": 11,
+      "roles": [
+        "Theresa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0436422",
+      "name": "Luciano Rossi",
+      "sequence": 12,
+      "roles": [
+        "Policeman in Apartment"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0760203",
+      "name": "Robert Sampson",
+      "sequence": 13,
+      "roles": [
+        "Sheriff Russell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0013302",
+      "name": "Janet Agren",
+      "sequence": 14,
+      "roles": [
+        "Sandra"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0522454",
       "name": "H.P. Lovecraft",
+      "group": 2,
       "sequence": 0,
-      "notes": "(inspiration) (uncredited)",
-      "group_id": 2
+      "notes": "(inspiration) (uncredited)"
     },
     {
       "person_imdb_id": "nm1270209",
       "name": "Clark Ashton Smith",
+      "group": 3,
       "sequence": 0,
-      "notes": "(inspiration) (uncredited)",
-      "group_id": 3
+      "notes": "(inspiration) (uncredited)"
     }
   ],
   "release_date": "1980-08-11",

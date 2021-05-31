@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0069121",
   "sort_title": "Prime Cut (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Nick Devlin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mary Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866986",
-      "name": "Angel Tompkins",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clarabelle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0906966",
-      "name": "Gregory Walcott",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Weenie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000651",
-      "name": "Sissy Spacek",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Poppy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0049928",
-      "name": "Janit Baldwin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Violet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604376",
-      "name": "Bill Morey",
-      "sequence": 6,
-      "notes": "(as William Morey)",
-      "roles": [
-        "Shay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255179",
-      "name": "Clint Ellison",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Delaney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686861",
-      "name": "Howard Platt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shaughnessy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0486985",
-      "name": "Les Lannom",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "O'Brien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250670",
-      "name": "Eddie Egan",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0718267",
-      "name": "Therese Reinsch",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jake's Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933075",
-      "name": "Bob Wilson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Reaper Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0797506",
-      "name": "Gordon Signer",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Brockman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914637",
-      "name": "Gladys Watson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Milk Lady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318761",
-      "name": "Hugh Gillin",
-      "sequence": 15,
-      "notes": "(as Hugh Gillin Jr.)",
-      "roles": [
-        "Desk Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526156",
-      "name": "E. Lund",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mrs. O'Brien"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4859265",
-      "name": "David Savage",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Ox-Eye"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0152334",
-      "name": "Craig Chapman",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Farmer Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847722",
-      "name": "Jim Taksas",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Big Jim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0767409",
-      "name": "Wayne Savagne",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Freckle Face"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0006916",
@@ -200,13 +9,204 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 0,
+      "roles": [
+        "Nick Devlin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 1,
+      "roles": [
+        "Mary Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866986",
+      "name": "Angel Tompkins",
+      "sequence": 2,
+      "roles": [
+        "Clarabelle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0906966",
+      "name": "Gregory Walcott",
+      "sequence": 3,
+      "roles": [
+        "Weenie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000651",
+      "name": "Sissy Spacek",
+      "sequence": 4,
+      "roles": [
+        "Poppy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0049928",
+      "name": "Janit Baldwin",
+      "sequence": 5,
+      "roles": [
+        "Violet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604376",
+      "name": "Bill Morey",
+      "sequence": 6,
+      "roles": [
+        "Shay"
+      ],
+      "notes": "(as William Morey)"
+    },
+    {
+      "person_imdb_id": "nm0255179",
+      "name": "Clint Ellison",
+      "sequence": 7,
+      "roles": [
+        "Delaney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686861",
+      "name": "Howard Platt",
+      "sequence": 8,
+      "roles": [
+        "Shaughnessy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0486985",
+      "name": "Les Lannom",
+      "sequence": 9,
+      "roles": [
+        "O'Brien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250670",
+      "name": "Eddie Egan",
+      "sequence": 10,
+      "roles": [
+        "Jake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0718267",
+      "name": "Therese Reinsch",
+      "sequence": 11,
+      "roles": [
+        "Jake's Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933075",
+      "name": "Bob Wilson",
+      "sequence": 12,
+      "roles": [
+        "Reaper Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0797506",
+      "name": "Gordon Signer",
+      "sequence": 13,
+      "roles": [
+        "Brockman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914637",
+      "name": "Gladys Watson",
+      "sequence": 14,
+      "roles": [
+        "Milk Lady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318761",
+      "name": "Hugh Gillin",
+      "sequence": 15,
+      "roles": [
+        "Desk Clerk"
+      ],
+      "notes": "(as Hugh Gillin Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0526156",
+      "name": "E. Lund",
+      "sequence": 16,
+      "roles": [
+        "Mrs. O'Brien"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4859265",
+      "name": "David Savage",
+      "sequence": 17,
+      "roles": [
+        "Ox-Eye"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0152334",
+      "name": "Craig Chapman",
+      "sequence": 18,
+      "roles": [
+        "Farmer Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847722",
+      "name": "Jim Taksas",
+      "sequence": 19,
+      "roles": [
+        "Big Jim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0767409",
+      "name": "Wayne Savagne",
+      "sequence": 20,
+      "roles": [
+        "Freckle Face"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0226889",
       "name": "Robert Dillon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1972-06-16",

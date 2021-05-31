@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0058700",
   "sort_title": "Last Man on Earth (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Robert Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079399",
-      "name": "Franca Bettoia",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ruth Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199618",
-      "name": "Emma Danieli",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Virginia Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744351",
-      "name": "Giacomo Rossi Stuart",
-      "sequence": 3,
-      "notes": "(as Giacomo Rossi-Stuart)",
-      "roles": [
-        "Ben Cortman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706770",
-      "name": "Umberto Raho",
-      "sequence": 4,
-      "notes": "(as Umberto Rau)",
-      "roles": [
-        "Dr. Mercer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183855",
-      "name": "Christi Courtland",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Kathy Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179762",
-      "name": "Antonio Corevi",
-      "sequence": 6,
-      "notes": "(as Tony Corevi)",
-      "roles": [
-        "Governor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723027",
-      "name": "Ettore Ribotta",
-      "sequence": 7,
-      "notes": "(as Hector Ribotta)",
-      "roles": [
-        "TV Reporter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0706575",
@@ -89,41 +15,115 @@
       "notes": "(U.S. prints)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Dr. Robert Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079399",
+      "name": "Franca Bettoia",
+      "sequence": 1,
+      "roles": [
+        "Ruth Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199618",
+      "name": "Emma Danieli",
+      "sequence": 2,
+      "roles": [
+        "Virginia Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744351",
+      "name": "Giacomo Rossi Stuart",
+      "sequence": 3,
+      "roles": [
+        "Ben Cortman"
+      ],
+      "notes": "(as Giacomo Rossi-Stuart)"
+    },
+    {
+      "person_imdb_id": "nm0706770",
+      "name": "Umberto Raho",
+      "sequence": 4,
+      "roles": [
+        "Dr. Mercer"
+      ],
+      "notes": "(as Umberto Rau)"
+    },
+    {
+      "person_imdb_id": "nm0183855",
+      "name": "Christi Courtland",
+      "sequence": 5,
+      "roles": [
+        "Kathy Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179762",
+      "name": "Antonio Corevi",
+      "sequence": 6,
+      "roles": [
+        "Governor"
+      ],
+      "notes": "(as Tony Corevi)"
+    },
+    {
+      "person_imdb_id": "nm0723027",
+      "name": "Ettore Ribotta",
+      "sequence": 7,
+      "roles": [
+        "TV Reporter"
+      ],
+      "notes": "(as Hector Ribotta)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0558577",
       "name": "Richard Matheson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Logan Swanson)",
-      "group_id": 0
+      "notes": "(screenplay) (as Logan Swanson)"
     },
     {
       "person_imdb_id": "nm0500067",
       "name": "William F. Leicester",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0558577",
       "name": "Richard Matheson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"I Am Legend\")",
-      "group_id": 1
+      "notes": "(novel \"I Am Legend\")"
     },
     {
       "person_imdb_id": "nm1856964",
       "name": "Furio M. Monetti",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0706575",
       "name": "Ubaldo Ragona",
-      "sequence": 0,
-      "notes": "(screenplay) (as Ubaldo B. Ragona)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay) (as Ubaldo B. Ragona)"
     }
   ],
   "release_date": "1964-05-06",

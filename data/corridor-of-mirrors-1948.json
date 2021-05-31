@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0040246",
   "sort_title": "Corridor of Mirrors (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0692439",
-      "name": "Eric Portman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Paul Mangin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0739704",
-      "name": "Edana Romney",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mifanwy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611984",
-      "name": "Barbara Mullen",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Veronica"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801630",
-      "name": "Hugh Sinclair",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Owen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067793",
-      "name": "Bruce Belfrage",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sir David Conway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0923664",
-      "name": "Alan Wheatley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Edgar Orsen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560791",
-      "name": "Joan Maude",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Caroline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922986",
-      "name": "Leslie Weston",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mortimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490202",
-      "name": "Hugh Latimer",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0672290",
-      "name": "John Penrose",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Brandy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561755",
-      "name": "Lois Maxwell",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0898380",
-      "name": "Mavis Villiers",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Babs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386331",
-      "name": "Thora Hird",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Visitor In Tussauds"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0950109",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0557398",
-      "name": "Christopher Massie",
+      "person_imdb_id": "nm0692439",
+      "name": "Eric Portman",
       "sequence": 0,
-      "notes": "(inspired by the novel) (as Chris Massey)",
-      "group_id": 0
-    },
-    {
-      "person_imdb_id": "nm0142056",
-      "name": "Rudolph Cartier",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "roles": [
+        "Paul Mangin"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0739704",
       "name": "Edana Romney",
+      "sequence": 1,
+      "roles": [
+        "Mifanwy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0611984",
+      "name": "Barbara Mullen",
+      "sequence": 2,
+      "roles": [
+        "Veronica"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801630",
+      "name": "Hugh Sinclair",
+      "sequence": 3,
+      "roles": [
+        "Owen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067793",
+      "name": "Bruce Belfrage",
+      "sequence": 4,
+      "roles": [
+        "Sir David Conway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0923664",
+      "name": "Alan Wheatley",
+      "sequence": 5,
+      "roles": [
+        "Edgar Orsen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560791",
+      "name": "Joan Maude",
+      "sequence": 6,
+      "roles": [
+        "Caroline"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922986",
+      "name": "Leslie Weston",
+      "sequence": 7,
+      "roles": [
+        "Mortimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490202",
+      "name": "Hugh Latimer",
+      "sequence": 8,
+      "roles": [
+        "Bing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0672290",
+      "name": "John Penrose",
+      "sequence": 9,
+      "roles": [
+        "Brandy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 10,
+      "roles": [
+        "Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561755",
+      "name": "Lois Maxwell",
+      "sequence": 11,
+      "roles": [
+        "Lois"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0898380",
+      "name": "Mavis Villiers",
+      "sequence": 12,
+      "roles": [
+        "Babs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386331",
+      "name": "Thora Hird",
+      "sequence": 13,
+      "roles": [
+        "Visitor In Tussauds"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0557398",
+      "name": "Christopher Massie",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(inspired by the novel) (as Chris Massey)"
+    },
+    {
+      "person_imdb_id": "nm0142056",
+      "name": "Rudolph Cartier",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0739704",
+      "name": "Edana Romney",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1948-02-23",

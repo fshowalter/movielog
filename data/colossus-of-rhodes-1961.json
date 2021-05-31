@@ -1,151 +1,6 @@
 {
   "imdb_id": "tt0054756",
   "sort_title": "Colossus of Rhodes (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001983",
-      "name": "Rory Calhoun",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dario"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557159",
-      "name": "Lea Massari",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Diala"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545352",
-      "name": "Georges Marchal",
-      "sequence": 2,
-      "notes": "(as George Marchal)",
-      "roles": [
-        "Peliocle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0760701",
-      "name": "Conrado San Mart\u00edn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tireo",
-        "Thar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033007",
-      "name": "\u00c1ngel Aranda",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Koros"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0440075",
-      "name": "Mabel Karr",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mirte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658051",
-      "name": "Mimmo Palmara",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ares"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131209",
-      "name": "Roberto Camardiel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Serse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130731",
-      "name": "Alfio Caltabiano",
-      "sequence": 8,
-      "notes": "(as Alf Randal)",
-      "roles": [
-        "Creonte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726546",
-      "name": "George Rigaud",
-      "sequence": 9,
-      "notes": "(as Jorge Rigaud)",
-      "roles": [
-        "Lisippo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0489368",
-      "name": "Yann Larvor",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mahor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0848546",
-      "name": "Carlo Tamberlani",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Xenon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0273510",
-      "name": "F\u00e9lix Fern\u00e1ndez",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Carete"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0230888",
-      "name": "Ignazio Dolce",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0143030",
-      "name": "Antonio Casas",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Phoenician Ambassador"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131013",
-      "name": "Fernando Calzado",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Sirione"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001466",
@@ -154,111 +9,256 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001983",
+      "name": "Rory Calhoun",
+      "sequence": 0,
+      "roles": [
+        "Dario"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557159",
+      "name": "Lea Massari",
+      "sequence": 1,
+      "roles": [
+        "Diala"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545352",
+      "name": "Georges Marchal",
+      "sequence": 2,
+      "roles": [
+        "Peliocle"
+      ],
+      "notes": "(as George Marchal)"
+    },
+    {
+      "person_imdb_id": "nm0760701",
+      "name": "Conrado San Mart\u00edn",
+      "sequence": 3,
+      "roles": [
+        "Tireo",
+        "Thar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0033007",
+      "name": "\u00c1ngel Aranda",
+      "sequence": 4,
+      "roles": [
+        "Koros"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0440075",
+      "name": "Mabel Karr",
+      "sequence": 5,
+      "roles": [
+        "Mirte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658051",
+      "name": "Mimmo Palmara",
+      "sequence": 6,
+      "roles": [
+        "Ares"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131209",
+      "name": "Roberto Camardiel",
+      "sequence": 7,
+      "roles": [
+        "Serse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130731",
+      "name": "Alfio Caltabiano",
+      "sequence": 8,
+      "roles": [
+        "Creonte"
+      ],
+      "notes": "(as Alf Randal)"
+    },
+    {
+      "person_imdb_id": "nm0726546",
+      "name": "George Rigaud",
+      "sequence": 9,
+      "roles": [
+        "Lisippo"
+      ],
+      "notes": "(as Jorge Rigaud)"
+    },
+    {
+      "person_imdb_id": "nm0489368",
+      "name": "Yann Larvor",
+      "sequence": 10,
+      "roles": [
+        "Mahor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0848546",
+      "name": "Carlo Tamberlani",
+      "sequence": 11,
+      "roles": [
+        "Xenon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0273510",
+      "name": "F\u00e9lix Fern\u00e1ndez",
+      "sequence": 12,
+      "roles": [
+        "Carete"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0230888",
+      "name": "Ignazio Dolce",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0143030",
+      "name": "Antonio Casas",
+      "sequence": 14,
+      "roles": [
+        "Phoenician Ambassador"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131013",
+      "name": "Fernando Calzado",
+      "sequence": 15,
+      "roles": [
+        "Sirione"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0208086",
       "name": "Ennio De Concini",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0781112",
       "name": "Cesare Seccia",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0553916",
       "name": "Luciano Martino",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0767781",
       "name": "Ageo Savioli",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 4,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0158314",
       "name": "Luciano Chitarrini",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 5,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0345242",
       "name": "Carlo Gualtieri",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 6,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0208086",
       "name": "Ennio De Concini",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0781112",
       "name": "Cesare Seccia",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0553916",
       "name": "Luciano Martino",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0767781",
       "name": "Ageo Savioli",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 4,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0158314",
       "name": "Luciano Chitarrini",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 5,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0345242",
       "name": "Carlo Gualtieri",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 6,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0856319",
       "name": "Duccio Tessari",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 2
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1961-06-15",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0074147",
   "sort_title": "Face to Face (1976)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0880521",
-      "name": "Liv Ullmann",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jenny Isaksson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430746",
-      "name": "Erland Josephson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tomas Jacobi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0851408",
-      "name": "Aino Taube",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "The Grandmother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "The Grandfather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012358",
-      "name": "Kristina Adolphson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Nurse Veronica"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0024931",
-      "name": "Marianne Aminoff",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jenny's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252473",
-      "name": "G\u00f6sta Ekman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mikael Str\u00f6mberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294736",
-      "name": "Helene Friberg",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Anna Isaksson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0423885",
-      "name": "Ulf Johansson",
-      "sequence": 8,
-      "notes": "(as Ulf Johanson)",
-      "roles": [
-        "Helmuth Wankel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511409",
-      "name": "Sven Lindberg",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Eric Isaksson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512107",
-      "name": "Jan-Erik Lindqvist",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jenny's Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540311",
-      "name": "Birger Malmsten",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rapist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752211",
-      "name": "Sif Ruud",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Elisabeth Wankel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822236",
-      "name": "G\u00f6ran Stangertz",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Rapist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -137,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0880521",
+      "name": "Liv Ullmann",
+      "sequence": 0,
+      "roles": [
+        "Jenny Isaksson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430746",
+      "name": "Erland Josephson",
+      "sequence": 1,
+      "roles": [
+        "Tomas Jacobi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0851408",
+      "name": "Aino Taube",
+      "sequence": 2,
+      "roles": [
+        "The Grandmother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 3,
+      "roles": [
+        "The Grandfather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0012358",
+      "name": "Kristina Adolphson",
+      "sequence": 4,
+      "roles": [
+        "Nurse Veronica"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0024931",
+      "name": "Marianne Aminoff",
+      "sequence": 5,
+      "roles": [
+        "Jenny's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252473",
+      "name": "G\u00f6sta Ekman",
+      "sequence": 6,
+      "roles": [
+        "Mikael Str\u00f6mberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294736",
+      "name": "Helene Friberg",
+      "sequence": 7,
+      "roles": [
+        "Anna Isaksson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0423885",
+      "name": "Ulf Johansson",
+      "sequence": 8,
+      "roles": [
+        "Helmuth Wankel"
+      ],
+      "notes": "(as Ulf Johanson)"
+    },
+    {
+      "person_imdb_id": "nm0511409",
+      "name": "Sven Lindberg",
+      "sequence": 9,
+      "roles": [
+        "Eric Isaksson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512107",
+      "name": "Jan-Erik Lindqvist",
+      "sequence": 10,
+      "roles": [
+        "Jenny's Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540311",
+      "name": "Birger Malmsten",
+      "sequence": 11,
+      "roles": [
+        "Rapist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752211",
+      "name": "Sif Ruud",
+      "sequence": 12,
+      "roles": [
+        "Elisabeth Wankel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822236",
+      "name": "G\u00f6ran Stangertz",
+      "sequence": 13,
+      "roles": [
+        "Rapist"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1976-04-05",

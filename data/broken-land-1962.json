@@ -1,105 +1,6 @@
 {
   "imdb_id": "tt0055811",
   "sort_title": "Broken Land (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0852710",
-      "name": "Kent Taylor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marshal Jim Cogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0201244",
-      "name": "Diana Darrin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mavera"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0566947",
-      "name": "Jody McCrea",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Deputy Ed Flynn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0760203",
-      "name": "Robert Sampson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dave Dunson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Will Brocious"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0810963",
-      "name": "Gary Sneed",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Billy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0649985",
-      "name": "Don Orlando",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Frenchy Douchette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430597",
-      "name": "Helen Joseph",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ruth Flynn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128901",
-      "name": "H. Tom Cain",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Flynn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385796",
-      "name": "Robert Hinkle",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689451",
-      "name": "Bob Pollard",
-      "sequence": 10,
-      "notes": "",
-      "roles": []
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0124253",
@@ -108,13 +9,112 @@
       "notes": "(as John Bushelman)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0852710",
+      "name": "Kent Taylor",
+      "sequence": 0,
+      "roles": [
+        "Marshal Jim Cogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0201244",
+      "name": "Diana Darrin",
+      "sequence": 1,
+      "roles": [
+        "Mavera"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0566947",
+      "name": "Jody McCrea",
+      "sequence": 2,
+      "roles": [
+        "Deputy Ed Flynn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0760203",
+      "name": "Robert Sampson",
+      "sequence": 3,
+      "roles": [
+        "Dave Dunson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 4,
+      "roles": [
+        "Will Brocious"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0810963",
+      "name": "Gary Sneed",
+      "sequence": 5,
+      "roles": [
+        "Billy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0649985",
+      "name": "Don Orlando",
+      "sequence": 6,
+      "roles": [
+        "Frenchy Douchette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430597",
+      "name": "Helen Joseph",
+      "sequence": 7,
+      "roles": [
+        "Ruth Flynn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128901",
+      "name": "H. Tom Cain",
+      "sequence": 8,
+      "roles": [
+        "Mr. Flynn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385796",
+      "name": "Robert Hinkle",
+      "sequence": 9,
+      "roles": [
+        "Dave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689451",
+      "name": "Bob Pollard",
+      "sequence": 10,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0482303",
       "name": "Edward J. Lakso",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Edward Lakso)",
-      "group_id": 0
+      "notes": "(written by) (as Edward Lakso)"
     }
   ],
   "release_date": "1962-04-01",

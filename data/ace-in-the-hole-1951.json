@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0043338",
   "sort_title": "Ace in the Hole (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000018",
-      "name": "Kirk Douglas",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Chuck Tatum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012443",
-      "name": "Jan Sterling",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lorraine Minosa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0037816",
-      "name": "Robert Arthur",
-      "sequence": 2,
-      "notes": "(as Bob Arthur)",
-      "roles": [
-        "Herbie Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356004",
-      "name": "Porter Hall",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jacob Q. Boot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128326",
-      "name": "Frank Cady",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Al Federber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0070807",
-      "name": "Richard Benedict",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Leo Minosa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sheriff Gus Kretzer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552683",
-      "name": "Lewis Martin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "McCardle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0075381",
-      "name": "John Berkes",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Papa Minosa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0231518",
-      "name": "Frances Dominguez",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mama Minosa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262775",
-      "name": "Gene Evans",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Deputy Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0418490",
-      "name": "Frank Jaquet",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sam Smollett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367543",
-      "name": "Harry Harvey",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Hilton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0120308",
-      "name": "Bob Bumpas",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Radio Announcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355608",
-      "name": "Geraldine Hall",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Nellie Federber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301348",
-      "name": "Richard Gaines",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Nagel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0716695",
-      "name": "Roy Regnier",
-      "sequence": 16,
-      "notes": "(replaced by Richard Gaines) (scenesDeleted)",
-      "roles": [
-        "Nagel - New York Editor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137046",
-      "name": "Timothy Carey",
-      "sequence": 19,
-      "notes": "(uncredited) (unconfirmed)",
-      "roles": [
-        "Construction Worker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000697",
@@ -173,34 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000018",
+      "name": "Kirk Douglas",
+      "sequence": 0,
+      "roles": [
+        "Chuck Tatum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0012443",
+      "name": "Jan Sterling",
+      "sequence": 1,
+      "roles": [
+        "Lorraine Minosa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0037816",
+      "name": "Robert Arthur",
+      "sequence": 2,
+      "roles": [
+        "Herbie Cook"
+      ],
+      "notes": "(as Bob Arthur)"
+    },
+    {
+      "person_imdb_id": "nm0356004",
+      "name": "Porter Hall",
+      "sequence": 3,
+      "roles": [
+        "Jacob Q. Boot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128326",
+      "name": "Frank Cady",
+      "sequence": 4,
+      "roles": [
+        "Al Federber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0070807",
+      "name": "Richard Benedict",
+      "sequence": 5,
+      "roles": [
+        "Leo Minosa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 6,
+      "roles": [
+        "Sheriff Gus Kretzer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552683",
+      "name": "Lewis Martin",
+      "sequence": 7,
+      "roles": [
+        "McCardle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0075381",
+      "name": "John Berkes",
+      "sequence": 8,
+      "roles": [
+        "Papa Minosa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0231518",
+      "name": "Frances Dominguez",
+      "sequence": 9,
+      "roles": [
+        "Mama Minosa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262775",
+      "name": "Gene Evans",
+      "sequence": 10,
+      "roles": [
+        "Deputy Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0418490",
+      "name": "Frank Jaquet",
+      "sequence": 11,
+      "roles": [
+        "Sam Smollett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367543",
+      "name": "Harry Harvey",
+      "sequence": 12,
+      "roles": [
+        "Dr. Hilton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0120308",
+      "name": "Bob Bumpas",
+      "sequence": 13,
+      "roles": [
+        "Radio Announcer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355608",
+      "name": "Geraldine Hall",
+      "sequence": 14,
+      "roles": [
+        "Nellie Federber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301348",
+      "name": "Richard Gaines",
+      "sequence": 15,
+      "roles": [
+        "Nagel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0716695",
+      "name": "Roy Regnier",
+      "sequence": 16,
+      "roles": [
+        "Nagel - New York Editor"
+      ],
+      "notes": "(replaced by Richard Gaines) (scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000697",
       "name": "Billy Wilder",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0760488",
       "name": "Lesser Samuels",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0628305",
       "name": "Walter Newman",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0221528",
       "name": "Victor Desny",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (uncredited)",
-      "group_id": 1
+      "notes": "(story) (uncredited)"
     }
   ],
   "release_date": "1951-06-14",

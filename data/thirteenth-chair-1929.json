@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0020492",
   "sort_title": "Thirteenth Chair (1929)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0619261",
-      "name": "Conrad Nagel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Richard Crosby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404885",
-      "name": "Leila Hyams",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen O'Neill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943618",
-      "name": "Margaret Wycherly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Madame Rosalie La Grange"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587725",
-      "name": "Helene Millard",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mary Eastwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378555",
-      "name": "Holmes Herbert",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sir Roscoe Crosby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285376",
-      "name": "Mary Forbes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lady Crosby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Inspector Delzante"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203383",
-      "name": "John Davidson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Edward Wales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702993",
-      "name": "Charles Quatermaine",
-      "sequence": 8,
-      "notes": "(as Charles Quartermaine)",
-      "roles": [
-        "Dr. Philip Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140940",
-      "name": "Moon Carroll",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Helen Trent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0149477",
-      "name": "Cyril Chadwick",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Brandon Trent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424287",
-      "name": "Bertram Johns",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Howard Standish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0390700",
-      "name": "Gretchen Holland",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Grace Standish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500212",
-      "name": "Frank Leigh",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Professor Feringeea"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312238",
-      "name": "Clarence Geldart",
-      "sequence": 14,
-      "notes": "(as Clarence Geldert)",
-      "roles": [
-        "Commissioner Grimshaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576482",
-      "name": "Lal Chand Mehra",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Chotee"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0619261",
+      "name": "Conrad Nagel",
+      "sequence": 0,
+      "roles": [
+        "Richard Crosby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404885",
+      "name": "Leila Hyams",
+      "sequence": 1,
+      "roles": [
+        "Helen O'Neill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0943618",
+      "name": "Margaret Wycherly",
+      "sequence": 2,
+      "roles": [
+        "Madame Rosalie La Grange"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587725",
+      "name": "Helene Millard",
+      "sequence": 3,
+      "roles": [
+        "Mary Eastwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378555",
+      "name": "Holmes Herbert",
+      "sequence": 4,
+      "roles": [
+        "Sir Roscoe Crosby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285376",
+      "name": "Mary Forbes",
+      "sequence": 5,
+      "roles": [
+        "Lady Crosby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 6,
+      "roles": [
+        "Inspector Delzante"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203383",
+      "name": "John Davidson",
+      "sequence": 7,
+      "roles": [
+        "Edward Wales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702993",
+      "name": "Charles Quatermaine",
+      "sequence": 8,
+      "roles": [
+        "Dr. Philip Mason"
+      ],
+      "notes": "(as Charles Quartermaine)"
+    },
+    {
+      "person_imdb_id": "nm0140940",
+      "name": "Moon Carroll",
+      "sequence": 9,
+      "roles": [
+        "Helen Trent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0149477",
+      "name": "Cyril Chadwick",
+      "sequence": 10,
+      "roles": [
+        "Brandon Trent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424287",
+      "name": "Bertram Johns",
+      "sequence": 11,
+      "roles": [
+        "Howard Standish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0390700",
+      "name": "Gretchen Holland",
+      "sequence": 12,
+      "roles": [
+        "Grace Standish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0500212",
+      "name": "Frank Leigh",
+      "sequence": 13,
+      "roles": [
+        "Professor Feringeea"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312238",
+      "name": "Clarence Geldert",
+      "sequence": 14,
+      "roles": [
+        "Commissioner Grimshaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576482",
+      "name": "Lal Chand Mehra",
+      "sequence": 15,
+      "roles": [
+        "Chotee"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0892045",
       "name": "Bayard Veiller",
+      "group": 0,
       "sequence": 0,
-      "notes": "(from the play by)",
-      "group_id": 0
+      "notes": "(from the play by)"
     },
     {
       "person_imdb_id": "nm0267868",
       "name": "Joseph Farnham",
+      "group": 1,
       "sequence": 0,
-      "notes": "(titles: in sound version) (uncredited)",
-      "group_id": 1
+      "notes": "(titles: in sound version) (uncredited)"
     }
   ],
   "release_date": "1929-10-19",

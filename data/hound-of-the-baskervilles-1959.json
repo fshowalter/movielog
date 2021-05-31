@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0052905",
   "sort_title": "Hound of the Baskervilles (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sherlock Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0603682",
-      "name": "Andr\u00e9 Morell",
-      "sequence": 1,
-      "notes": "(as Andre Morell)",
-      "roles": [
-        "Doctor Watson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sir Henry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484762",
-      "name": "Marla Landi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cecile"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654588",
-      "name": "David Oxley",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sir Hugo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212470",
-      "name": "Francis De Wolff",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doctor Mortimer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0539942",
-      "name": "Miles Malleson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bishop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813450",
-      "name": "Ewen Solon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Stapleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494452",
-      "name": "John Le Mesurier",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Barrymore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331566",
-      "name": "Helen Goss",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Barrymore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477330",
-      "name": "Sam Kydd",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Perkins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370186",
-      "name": "Michael Hawkins",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Lord Caphill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610428",
-      "name": "Judi Moyens",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Servant Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611695",
-      "name": "Michael Mulcaster",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Convict"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0083631",
-      "name": "David Birks",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Servant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -146,20 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Sherlock Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0603682",
+      "name": "Andr\u00e9 Morell",
+      "sequence": 1,
+      "roles": [
+        "Doctor Watson"
+      ],
+      "notes": "(as Andre Morell)"
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Sir Henry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0484762",
+      "name": "Marla Landi",
+      "sequence": 3,
+      "roles": [
+        "Cecile"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654588",
+      "name": "David Oxley",
+      "sequence": 4,
+      "roles": [
+        "Sir Hugo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212470",
+      "name": "Francis De Wolff",
+      "sequence": 5,
+      "roles": [
+        "Doctor Mortimer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0539942",
+      "name": "Miles Malleson",
+      "sequence": 6,
+      "roles": [
+        "Bishop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813450",
+      "name": "Ewen Solon",
+      "sequence": 7,
+      "roles": [
+        "Stapleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0494452",
+      "name": "John Le Mesurier",
+      "sequence": 8,
+      "roles": [
+        "Barrymore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0331566",
+      "name": "Helen Goss",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Barrymore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477330",
+      "name": "Sam Kydd",
+      "sequence": 10,
+      "roles": [
+        "Perkins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370186",
+      "name": "Michael Hawkins",
+      "sequence": 11,
+      "roles": [
+        "Lord Caphill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610428",
+      "name": "Judi Moyens",
+      "sequence": 12,
+      "roles": [
+        "Servant Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0611695",
+      "name": "Michael Mulcaster",
+      "sequence": 13,
+      "roles": [
+        "Convict"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0083631",
+      "name": "David Birks",
+      "sequence": 14,
+      "roles": [
+        "Servant"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0236279",
       "name": "Arthur Conan Doyle",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the novel by) (as Sir Arthur Conan Doyle)",
-      "group_id": 0
+      "notes": "(based on the novel by) (as Sir Arthur Conan Doyle)"
     },
     {
       "person_imdb_id": "nm0116999",
       "name": "Peter Bryan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1959-05-04",

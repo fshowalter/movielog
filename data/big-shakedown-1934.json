@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0024890",
   "sort_title": "Big Shakedown (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0268190",
-      "name": "Charles Farrell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jimmy Morrell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Norma Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007220",
-      "name": "Ricardo Cortez",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dutch Barnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268225",
-      "name": "Glenda Farrell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lily 'Lil' Duran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420765",
-      "name": "Allen Jenkins",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lefty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Sheffner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732552",
-      "name": "Dewey Robinson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Slim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0942046",
-      "name": "John Wray",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Higgins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269395",
-      "name": "Philip Faversham",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "John - New Salesman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640495",
-      "name": "Robert Emmett O'Connor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Regan - Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926343",
-      "name": "Renee Whitney",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mae LaRue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172318",
-      "name": "G. Pat Collins",
-      "sequence": 11,
-      "notes": "(as George Pat Collins)",
-      "roles": [
-        "Gyp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606343",
-      "name": "Adrian Morris",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Trigger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376698",
-      "name": "Ben Hendricks Jr.",
-      "sequence": 13,
-      "notes": "(as Ben Hendricks)",
-      "roles": [
-        "Spike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178049",
-      "name": "George Cooper",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Shorty"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0227020",
@@ -146,34 +9,171 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0268190",
+      "name": "Charles Farrell",
+      "sequence": 0,
+      "roles": [
+        "Jimmy Morrell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 1,
+      "roles": [
+        "Norma Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007220",
+      "name": "Ricardo Cortez",
+      "sequence": 2,
+      "roles": [
+        "Dutch Barnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268225",
+      "name": "Glenda Farrell",
+      "sequence": 3,
+      "roles": [
+        "Lily 'Lil' Duran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420765",
+      "name": "Allen Jenkins",
+      "sequence": 4,
+      "roles": [
+        "Lefty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 5,
+      "roles": [
+        "Mr. Sheffner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732552",
+      "name": "Dewey Robinson",
+      "sequence": 6,
+      "roles": [
+        "Slim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0942046",
+      "name": "John Wray",
+      "sequence": 7,
+      "roles": [
+        "Higgins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269395",
+      "name": "Philip Faversham",
+      "sequence": 8,
+      "roles": [
+        "John - New Salesman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640495",
+      "name": "Robert Emmett O'Connor",
+      "sequence": 9,
+      "roles": [
+        "Regan - Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926343",
+      "name": "Renee Whitney",
+      "sequence": 10,
+      "roles": [
+        "Mae LaRue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172318",
+      "name": "G. Pat Collins",
+      "sequence": 11,
+      "roles": [
+        "Gyp"
+      ],
+      "notes": "(as George Pat Collins)"
+    },
+    {
+      "person_imdb_id": "nm0606343",
+      "name": "Adrian Morris",
+      "sequence": 12,
+      "roles": [
+        "Trigger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376698",
+      "name": "Ben Hendricks Jr.",
+      "sequence": 13,
+      "roles": [
+        "Spike"
+      ],
+      "notes": "(as Ben Hendricks)"
+    },
+    {
+      "person_imdb_id": "nm0178049",
+      "name": "George Cooper",
+      "sequence": 14,
+      "roles": [
+        "Shorty"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0124002",
       "name": "Niven Busch",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0416861",
       "name": "Rian James",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0257143",
       "name": "Samuel G. Engel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"Cut Rate\") (as S. Engels)",
-      "group_id": 1
+      "notes": "(story \"Cut Rate\") (as S. Engels)"
     },
     {
       "person_imdb_id": "nm0124002",
       "name": "Niven Busch",
-      "sequence": 0,
-      "notes": "(story \"Cut Rate\")",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story \"Cut Rate\")"
     }
   ],
   "release_date": "1934-01-06",

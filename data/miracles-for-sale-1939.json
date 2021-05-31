@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0031657",
   "sort_title": "Miracles for Sale (1939)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001870",
-      "name": "Robert Young",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Michael Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723422",
-      "name": "Florence Rice",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Judy Barclay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186600",
-      "name": "Frank Craven",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dad Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401434",
-      "name": "Henry Hull",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dave Duvallo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101350",
-      "name": "Lee Bowman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "La Claire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163785",
-      "name": "Cliff Clark",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Inspector Gavigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0021667",
-      "name": "Astrid Allwyn",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Zelma La Claire"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455491",
-      "name": "Walter Kingsford",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Colonel Watrous"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941520",
-      "name": "Frederick Worlock",
-      "sequence": 8,
-      "notes": "(as Frederic Worlock)",
-      "roles": [
-        "Dr. Sabbatt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0390192",
-      "name": "Gloria Holden",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Madame Rapport"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Quinn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591409",
-      "name": "Harold Minjir",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Tauro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203383",
-      "name": "John Davidson",
-      "sequence": 21,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Weird Voice"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -128,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001870",
+      "name": "Robert Young",
+      "sequence": 0,
+      "roles": [
+        "Michael Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723422",
+      "name": "Florence Rice",
+      "sequence": 1,
+      "roles": [
+        "Judy Barclay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186600",
+      "name": "Frank Craven",
+      "sequence": 2,
+      "roles": [
+        "Dad Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401434",
+      "name": "Henry Hull",
+      "sequence": 3,
+      "roles": [
+        "Dave Duvallo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101350",
+      "name": "Lee Bowman",
+      "sequence": 4,
+      "roles": [
+        "La Claire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163785",
+      "name": "Cliff Clark",
+      "sequence": 5,
+      "roles": [
+        "Inspector Gavigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0021667",
+      "name": "Astrid Allwyn",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Zelma La Claire"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455491",
+      "name": "Walter Kingsford",
+      "sequence": 7,
+      "roles": [
+        "Colonel Watrous"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941520",
+      "name": "Frederick Worlock",
+      "sequence": 8,
+      "roles": [
+        "Dr. Sabbatt"
+      ],
+      "notes": "(as Frederic Worlock)"
+    },
+    {
+      "person_imdb_id": "nm0390192",
+      "name": "Gloria Holden",
+      "sequence": 9,
+      "roles": [
+        "Madame Rapport"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 10,
+      "roles": [
+        "Quinn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591409",
+      "name": "Harold Minjir",
+      "sequence": 11,
+      "roles": [
+        "Tauro"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0750822",
       "name": "Harry Ruskin",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0663763",
       "name": "Marion Parsonnet",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0712692",
       "name": "Clayton Rawson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a book by)",
-      "group_id": 1
+      "notes": "(from a book by)"
     }
   ],
   "release_date": "1939-08-10",

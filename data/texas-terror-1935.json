@@ -1,109 +1,6 @@
 {
   "imdb_id": "tt0027087",
   "sort_title": "Texas Terror (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Higgins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115043",
-      "name": "Lucile Browne",
-      "sequence": 1,
-      "notes": "(as Lucille Browne)",
-      "roles": [
-        "Bess Mathews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0556813",
-      "name": "LeRoy Mason",
-      "sequence": 2,
-      "notes": "(as Leroy Mason)",
-      "roles": [
-        "Joe Dickson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256534",
-      "name": "Fern Emmett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Aunt Martha Hubbard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 4,
-      "notes": "(as George Hayes)",
-      "roles": [
-        "Sheriff Ed Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932912",
-      "name": "Jay Wilsey",
-      "sequence": 5,
-      "notes": "(as Buffalo Bill Jr.)",
-      "roles": [
-        "Blackie Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408429",
-      "name": "John Ince",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Blacksmith Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740674",
-      "name": "Henry Roquemore",
-      "sequence": 7,
-      "notes": "(as Henry Roguemore)",
-      "roles": [
-        "Square Dance Caller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240538",
-      "name": "Jack Duffy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jake Abernathy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352368",
-      "name": "Herman Hack",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Henchman",
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0679845",
-      "name": "Tex Phelps",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Henchman",
-        "Dancer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0102908",
@@ -112,20 +9,123 @@
       "notes": "(as R.N. Bradbury)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Higgins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0115043",
+      "name": "Lucile Browne",
+      "sequence": 1,
+      "roles": [
+        "Bess Mathews"
+      ],
+      "notes": "(as Lucille Browne)"
+    },
+    {
+      "person_imdb_id": "nm0556813",
+      "name": "LeRoy Mason",
+      "sequence": 2,
+      "roles": [
+        "Joe Dickson"
+      ],
+      "notes": "(as Leroy Mason)"
+    },
+    {
+      "person_imdb_id": "nm0256534",
+      "name": "Fern Emmett",
+      "sequence": 3,
+      "roles": [
+        "Aunt Martha Hubbard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 4,
+      "roles": [
+        "Sheriff Ed Williams"
+      ],
+      "notes": "(as George Hayes)"
+    },
+    {
+      "person_imdb_id": "nm0932912",
+      "name": "Jay Wilsey",
+      "sequence": 5,
+      "roles": [
+        "Blackie Martin"
+      ],
+      "notes": "(as Buffalo Bill Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0408429",
+      "name": "John Ince",
+      "sequence": 6,
+      "roles": [
+        "Blacksmith Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0740674",
+      "name": "Henry Roquemore",
+      "sequence": 7,
+      "roles": [
+        "Square Dance Caller"
+      ],
+      "notes": "(as Henry Roguemore)"
+    },
+    {
+      "person_imdb_id": "nm0240538",
+      "name": "Jack Duffy",
+      "sequence": 8,
+      "roles": [
+        "Jake Abernathy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352368",
+      "name": "Herman Hack",
+      "sequence": 12,
+      "roles": [
+        "Henchman",
+        "Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0679845",
+      "name": "Tex Phelps",
+      "sequence": 20,
+      "roles": [
+        "Henchman",
+        "Dancer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0102908",
       "name": "Robert N. Bradbury",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story) (as R.N. Bradbury)",
-      "group_id": 0
+      "notes": "(story) (as R.N. Bradbury)"
     },
     {
       "person_imdb_id": "nm0102908",
       "name": "Robert N. Bradbury",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1935-02-01",

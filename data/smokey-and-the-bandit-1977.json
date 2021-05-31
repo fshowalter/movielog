@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0076729",
   "sort_title": "Smokey and the Bandit (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000608",
-      "name": "Burt Reynolds",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bandit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000398",
-      "name": "Sally Field",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carrie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715274",
-      "name": "Jerry Reed",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Cledus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377947",
-      "name": "Mike Henry",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Junior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931437",
-      "name": "Paul Williams",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Little Enos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0566588",
-      "name": "Pat McCormick",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Big Enos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936304",
-      "name": "Alfie Wise",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Patrolman at Traffic Jam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721730",
-      "name": "George Reynolds",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Branford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0564782",
-      "name": "Macon McCalman",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. B"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0566010",
-      "name": "Linda McClure",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Waynette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264005",
-      "name": "Susie Ewing",
-      "sequence": 10,
-      "notes": "(as Susan McIver)",
-      "roles": [
-        "Hot Pants"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814074",
-      "name": "Laura Lizer Sommers",
-      "sequence": 11,
-      "notes": "(as Laura Lizer)",
-      "roles": [
-        "Little Beaver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542885",
-      "name": "Michael Mann",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Branford's Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0413758",
-      "name": "Lamar Jackson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sugar Bear"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0310807",
-      "name": "Ronnie Gay",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Georgia Trooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790801",
-      "name": "Quinnon Sheffield",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Alabama Trooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001276",
-      "name": "Jackie Gleason",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Sheriff Buford T. Justice of Portague County"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2263302",
-      "name": "Bill Rampley",
-      "sequence": 31,
-      "notes": "",
-      "roles": [
-        "Policeman",
-        "Bodyguard"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0624102",
@@ -174,41 +9,206 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000608",
+      "name": "Burt Reynolds",
+      "sequence": 0,
+      "roles": [
+        "Bandit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000398",
+      "name": "Sally Field",
+      "sequence": 1,
+      "roles": [
+        "Carrie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715274",
+      "name": "Jerry Reed",
+      "sequence": 2,
+      "roles": [
+        "Cledus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377947",
+      "name": "Mike Henry",
+      "sequence": 3,
+      "roles": [
+        "Junior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931437",
+      "name": "Paul Williams",
+      "sequence": 4,
+      "roles": [
+        "Little Enos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0566588",
+      "name": "Pat McCormick",
+      "sequence": 5,
+      "roles": [
+        "Big Enos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936304",
+      "name": "Alfie Wise",
+      "sequence": 6,
+      "roles": [
+        "Patrolman at Traffic Jam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721730",
+      "name": "George Reynolds",
+      "sequence": 7,
+      "roles": [
+        "Branford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0564782",
+      "name": "Macon McCalman",
+      "sequence": 8,
+      "roles": [
+        "Mr. B"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0566010",
+      "name": "Linda McClure",
+      "sequence": 9,
+      "roles": [
+        "Waynette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264005",
+      "name": "Susie Ewing",
+      "sequence": 10,
+      "roles": [
+        "Hot Pants"
+      ],
+      "notes": "(as Susan McIver)"
+    },
+    {
+      "person_imdb_id": "nm0814074",
+      "name": "Laura Lizer Sommers",
+      "sequence": 11,
+      "roles": [
+        "Little Beaver"
+      ],
+      "notes": "(as Laura Lizer)"
+    },
+    {
+      "person_imdb_id": "nm0542885",
+      "name": "Michael Mann",
+      "sequence": 12,
+      "roles": [
+        "Branford's Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0413758",
+      "name": "Lamar Jackson",
+      "sequence": 13,
+      "roles": [
+        "Sugar Bear"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0310807",
+      "name": "Ronnie Gay",
+      "sequence": 14,
+      "roles": [
+        "Georgia Trooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790801",
+      "name": "Quinnon Sheffield",
+      "sequence": 15,
+      "roles": [
+        "Alabama Trooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001276",
+      "name": "Jackie Gleason",
+      "sequence": 16,
+      "roles": [
+        "Sheriff Buford T. Justice of Portague County"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2263302",
+      "name": "Bill Rampley",
+      "sequence": 31,
+      "roles": [
+        "Policeman",
+        "Bodyguard"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0624102",
       "name": "Hal Needham",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0506597",
       "name": "Robert L. Levy",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0057157",
       "name": "James Lee Barrett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0796124",
       "name": "Charles Shyer",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0541629",
       "name": "Alan Mandel",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1977-05-19",

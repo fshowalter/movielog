@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0022360",
   "sort_title": "Seed (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0092900",
-      "name": "John Boles",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bart Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864931",
-      "name": "Genevieve Tobin",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mildred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933773",
-      "name": "Lois Wilson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Peggy Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0352495",
-      "name": "Raymond Hackett",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Junior Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Margaret Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686032",
-      "name": "Zasu Pitts",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jennie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875983",
-      "name": "Richard Tucker",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bliss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663540",
-      "name": "Helen Parrish",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Margaret Carter as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935483",
-      "name": "Dick Winslow",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Johnny Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932274",
-      "name": "Bill Willis",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Danny Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932352",
-      "name": "Jack Willis",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dicky Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0196596",
-      "name": "Frances Dade",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Nancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0782618",
-      "name": "Kenneth Seiling",
-      "sequence": 12,
-      "notes": "(as Kenneth Snelling)",
-      "roles": [
-        "Junior Carter as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185265",
-      "name": "Terry Cox",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Danny Carter as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601129",
-      "name": "Dickie Moore",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Johnny Carter as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184996",
-      "name": "Don Cox",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Dicky Carter as a Child"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0821472",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0092900",
+      "name": "John Boles",
+      "sequence": 0,
+      "roles": [
+        "Bart Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864931",
+      "name": "Genevieve Tobin",
+      "sequence": 1,
+      "roles": [
+        "Mildred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933773",
+      "name": "Lois Wilson",
+      "sequence": 2,
+      "roles": [
+        "Peggy Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0352495",
+      "name": "Raymond Hackett",
+      "sequence": 3,
+      "roles": [
+        "Junior Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 4,
+      "roles": [
+        "Margaret Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686032",
+      "name": "Zasu Pitts",
+      "sequence": 5,
+      "roles": [
+        "Jennie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875983",
+      "name": "Richard Tucker",
+      "sequence": 6,
+      "roles": [
+        "Bliss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663540",
+      "name": "Helen Parrish",
+      "sequence": 7,
+      "roles": [
+        "Margaret Carter as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935483",
+      "name": "Dick Winslow",
+      "sequence": 8,
+      "roles": [
+        "Johnny Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932274",
+      "name": "Bill Willis",
+      "sequence": 9,
+      "roles": [
+        "Danny Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932352",
+      "name": "Jack Willis",
+      "sequence": 10,
+      "roles": [
+        "Dicky Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0196596",
+      "name": "Frances Dade",
+      "sequence": 11,
+      "roles": [
+        "Nancy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0782618",
+      "name": "Kenneth Seiling",
+      "sequence": 12,
+      "roles": [
+        "Junior Carter as a Child"
+      ],
+      "notes": "(as Kenneth Snelling)"
+    },
+    {
+      "person_imdb_id": "nm0185265",
+      "name": "Terry Cox",
+      "sequence": 13,
+      "roles": [
+        "Danny Carter as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601129",
+      "name": "Dickie Moore",
+      "sequence": 14,
+      "roles": [
+        "Johnny Carter as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184996",
+      "name": "Don Cox",
+      "sequence": 15,
+      "roles": [
+        "Dicky Carter as a Child"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0499628",
       "name": "Gladys Lehman",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0635775",
       "name": "Charles G. Norris",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1931-05-14",

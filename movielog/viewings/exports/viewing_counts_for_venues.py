@@ -30,7 +30,7 @@ def fetch_rows() -> list[Row]:
     query = """
         SELECT
         strftime('%Y', viewings.date) AS viewing_year
-        , viewings.venue
+        , viewings.venue AS viewing_venue
         FROM viewings
         INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
     """

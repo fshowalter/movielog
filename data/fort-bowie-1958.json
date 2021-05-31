@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0051627",
   "sort_title": "Fort Bowie (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Thomas Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365642",
-      "name": "Jan Harrison",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alison Garrett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852710",
-      "name": "Kent Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Col. James Garrett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0202766",
-      "name": "Maureen Hingert",
-      "sequence": 3,
-      "notes": "(as Jana Davi)",
-      "roles": [
-        "Chanzana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540992",
-      "name": "Peter Mamakos",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sgt Kukas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151228",
-      "name": "Larry Chance",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Victorio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235083",
-      "name": "J. Ian Douglas",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Maj. Wharton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0290937",
-      "name": "Jerry Frank",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Capt. Maywood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0663632",
-      "name": "Barbara Parry",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Maywood"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0462322",
@@ -92,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 0,
+      "roles": [
+        "Capt. Thomas Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0365642",
+      "name": "Jan Harrison",
+      "sequence": 1,
+      "roles": [
+        "Alison Garrett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852710",
+      "name": "Kent Taylor",
+      "sequence": 2,
+      "roles": [
+        "Col. James Garrett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0202766",
+      "name": "Maureen Hingert",
+      "sequence": 3,
+      "roles": [
+        "Chanzana"
+      ],
+      "notes": "(as Jana Davi)"
+    },
+    {
+      "person_imdb_id": "nm0540992",
+      "name": "Peter Mamakos",
+      "sequence": 4,
+      "roles": [
+        "Sgt Kukas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151228",
+      "name": "Larry Chance",
+      "sequence": 5,
+      "roles": [
+        "Victorio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235083",
+      "name": "J. Ian Douglas",
+      "sequence": 6,
+      "roles": [
+        "Maj. Wharton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0290937",
+      "name": "Jerry Frank",
+      "sequence": 7,
+      "roles": [
+        "Capt. Maywood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0663632",
+      "name": "Barbara Parry",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Maywood"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0866572",
       "name": "Maurice Tombragel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1958-02-01",

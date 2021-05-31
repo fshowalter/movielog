@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0055516",
   "sort_title": "Terror of the Tongs (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Chung King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0598289",
-      "name": "Yvonne Monlaur",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0867555",
-      "name": "Geoffrey Toone",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Jackson Sale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537962",
-      "name": "Marne Maitland",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Beggar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941660",
-      "name": "Brian Worth",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "District Commissioner Harcourt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813450",
-      "name": "Ewen Solon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tang How - Tong Leader's Aide"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0217069",
-      "name": "Roger Delgado",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tang Hao - Tong Enforcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494854",
-      "name": "Richard Leech",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Insp. Bob Dean"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0655436",
-      "name": "Charles Lloyd Pack",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Fu Chao - Tong Member"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0121783",
-      "name": "Marie Burke",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Maya"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1124902",
-      "name": "Barbara Brown",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Helena Sale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477297",
-      "name": "Burt Kwouk",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Ming"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0124236",
@@ -119,13 +9,123 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Chung King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0598289",
+      "name": "Yvonne Monlaur",
+      "sequence": 1,
+      "roles": [
+        "Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0867555",
+      "name": "Geoffrey Toone",
+      "sequence": 2,
+      "roles": [
+        "Capt. Jackson Sale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537962",
+      "name": "Marne Maitland",
+      "sequence": 3,
+      "roles": [
+        "Beggar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941660",
+      "name": "Brian Worth",
+      "sequence": 4,
+      "roles": [
+        "District Commissioner Harcourt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813450",
+      "name": "Ewen Solon",
+      "sequence": 5,
+      "roles": [
+        "Tang How - Tong Leader's Aide"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0217069",
+      "name": "Roger Delgado",
+      "sequence": 6,
+      "roles": [
+        "Tang Hao - Tong Enforcer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0494854",
+      "name": "Richard Leech",
+      "sequence": 7,
+      "roles": [
+        "Insp. Bob Dean"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0655436",
+      "name": "Charles Lloyd Pack",
+      "sequence": 8,
+      "roles": [
+        "Dr. Fu Chao - Tong Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0121783",
+      "name": "Marie Burke",
+      "sequence": 9,
+      "roles": [
+        "Maya"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1124902",
+      "name": "Barbara Brown",
+      "sequence": 10,
+      "roles": [
+        "Helena Sale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477297",
+      "name": "Burt Kwouk",
+      "sequence": 11,
+      "roles": [
+        "Mr. Ming"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1961-03-15",

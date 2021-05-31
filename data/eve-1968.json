@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0062951",
   "sort_title": "Eve (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0946481",
-      "name": "Celeste Yarnall",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Eve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907480",
-      "name": "Robert Walker Jr.",
-      "sequence": 1,
-      "notes": "(as Robert Walker)",
-      "roles": [
-        "Mike Yates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007042",
-      "name": "Herbert Lom",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Diego"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Colonel Stuart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163939",
-      "name": "Fred Clark",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lucky Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599478",
-      "name": "Rosenda Monteros",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pili"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737538",
-      "name": "Maria Rohm",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Anne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128405",
-      "name": "Jos\u00e9 Mar\u00eda Caffarel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jos\u00e9"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0246728",
-      "name": "Ricardo D\u00edaz",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bruno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733576",
-      "name": "Vicente Roca",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bartender"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0757825",
-      "name": "Nieves Salcedo",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Girl Dancing with Mike"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0528790",
@@ -116,20 +15,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0946481",
+      "name": "Celeste Yarnall",
+      "sequence": 0,
+      "roles": [
+        "Eve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907480",
+      "name": "Robert Walker Jr.",
+      "sequence": 1,
+      "roles": [
+        "Mike Yates"
+      ],
+      "notes": "(as Robert Walker)"
+    },
+    {
+      "person_imdb_id": "nm0007042",
+      "name": "Herbert Lom",
+      "sequence": 2,
+      "roles": [
+        "Diego"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
+      "roles": [
+        "Colonel Stuart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163939",
+      "name": "Fred Clark",
+      "sequence": 4,
+      "roles": [
+        "Lucky Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599478",
+      "name": "Rosenda Monteros",
+      "sequence": 5,
+      "roles": [
+        "Pili"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737538",
+      "name": "Maria Rohm",
+      "sequence": 6,
+      "roles": [
+        "Anne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128405",
+      "name": "Jos\u00e9 Mar\u00eda Caffarel",
+      "sequence": 7,
+      "roles": [
+        "Jos\u00e9"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0246728",
+      "name": "Ricardo D\u00edaz",
+      "sequence": 8,
+      "roles": [
+        "Bruno"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733576",
+      "name": "Vicente Roca",
+      "sequence": 9,
+      "roles": [
+        "Bartender"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0757825",
+      "name": "Nieves Salcedo",
+      "sequence": 10,
+      "roles": [
+        "Girl Dancing with Mike"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Peter Welbeck)",
-      "group_id": 0
+      "notes": "(screenplay) (as Peter Welbeck)"
     },
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Peter Welbeck)",
-      "group_id": 1
+      "notes": "(story) (as Peter Welbeck)"
     }
   ],
   "release_date": "1968-07-01",

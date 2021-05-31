@@ -1,44 +1,6 @@
 {
   "imdb_id": "tt7286958",
   "sort_title": "Mute (2018)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0214860",
-      "name": "Raffaello Degruttola",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Monette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1971501",
-      "name": "Simona Roman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Barb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3690698",
-      "name": "Kevin Leslie",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hitcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7202104",
-      "name": "Olivia Moyles",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kelsie-Ann"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm2409810",
@@ -47,20 +9,58 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0214860",
+      "name": "Raffaello Degruttola",
+      "sequence": 0,
+      "roles": [
+        "Monette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3690698",
+      "name": "Kevin Leslie",
+      "sequence": 1,
+      "roles": [
+        "Hitcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1971501",
+      "name": "Simona Roman",
+      "sequence": 2,
+      "roles": [
+        "Barb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7202104",
+      "name": "Olivia Moyles",
+      "sequence": 3,
+      "roles": [
+        "Kelsie-Ann"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000175",
       "name": "Stephen King",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 0
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm2409810",
       "name": "Bizhan M. Tong",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     }
   ],
   "release_date": "2018-08-31",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0059895",
   "sort_title": "City in the Sea (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "The Captain, Sir Hugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002147",
-      "name": "Tab Hunter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ben Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866835",
-      "name": "David Tomlinson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harold Tufnell-Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0366537",
-      "name": "Susan Hart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jill Tregillis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494452",
-      "name": "John Le Mesurier",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rev. Jonathan Ives"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0651791",
-      "name": "Henry Oscar",
-      "sequence": 5,
-      "notes": "(as Harry Oscar)",
-      "roles": [
-        "Mumford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627610",
-      "name": "Derek Newark",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665916",
-      "name": "Roy Patrick",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Simon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1062370",
-      "name": "Herbert the Rooster",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Herbert the Rooster"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0869664",
@@ -98,34 +15,117 @@
       "notes": "(uncredited) (earlier film clips)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "The Captain, Sir Hugh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002147",
+      "name": "Tab Hunter",
+      "sequence": 1,
+      "roles": [
+        "Ben Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866835",
+      "name": "David Tomlinson",
+      "sequence": 2,
+      "roles": [
+        "Harold Tufnell-Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0366537",
+      "name": "Susan Hart",
+      "sequence": 3,
+      "roles": [
+        "Jill Tregillis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0494452",
+      "name": "John Le Mesurier",
+      "sequence": 4,
+      "roles": [
+        "Rev. Jonathan Ives"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0651791",
+      "name": "Henry Oscar",
+      "sequence": 5,
+      "roles": [
+        "Mumford"
+      ],
+      "notes": "(as Harry Oscar)"
+    },
+    {
+      "person_imdb_id": "nm0627610",
+      "name": "Derek Newark",
+      "sequence": 6,
+      "roles": [
+        "Dan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665916",
+      "name": "Roy Patrick",
+      "sequence": 7,
+      "roles": [
+        "Simon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1062370",
+      "name": "Herbert the Rooster",
+      "sequence": 8,
+      "roles": [
+        "Herbert the Rooster"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0071657",
       "name": "Charles Bennett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0382384",
       "name": "Louis M. Heyward",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on \"City in the Sea\")",
-      "group_id": 1
+      "notes": "(based on \"City in the Sea\")"
     },
     {
       "person_imdb_id": "nm0924256",
       "name": "David Whitaker",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (as David Whittaker)",
-      "group_id": 2
+      "notes": "(additional dialogue) (as David Whittaker)"
     }
   ],
   "release_date": "1965-05-26",

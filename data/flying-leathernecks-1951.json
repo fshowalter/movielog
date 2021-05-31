@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0043547",
   "sort_title": "Flying Leathernecks (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Maj. Daniel Xavier Kirby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752813",
-      "name": "Robert Ryan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Carl 'Griff' Griffin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852279",
-      "name": "Don Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Vern 'Cowboy' Blithe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0141681",
-      "name": "Janis Carter",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joan Kirby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282435",
-      "name": "Jay C. Flippen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "MSgt. Clancy, Line Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364203",
-      "name": "William Harrigan",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Lt.Cdr. Joe Curran"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068257",
-      "name": "James Bell",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Colonel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445868",
-      "name": "Barry Kelley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Brigadier General"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0418524",
-      "name": "Maurice Jara",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shorty Vegay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929965",
-      "name": "Adam Williams",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Bert Malotke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0229906",
-      "name": "James Dobson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lt. Pudge McCabe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949355",
-      "name": "Carleton Young",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Col. Riley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820409",
-      "name": "Michael St. Angel",
-      "sequence": 12,
-      "notes": "(as Steve Flagg)",
-      "roles": [
-        "Capt. Harold Jorgensen, Ops. Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454517",
-      "name": "Brett King",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "1st Lt. Ernie Stark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311357",
-      "name": "Gordon Gebert",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Tommy Kirby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0712947",
@@ -146,27 +9,164 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Maj. Daniel Xavier Kirby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752813",
+      "name": "Robert Ryan",
+      "sequence": 1,
+      "roles": [
+        "Capt. Carl 'Griff' Griffin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852279",
+      "name": "Don Taylor",
+      "sequence": 2,
+      "roles": [
+        "Lt. Vern 'Cowboy' Blithe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0141681",
+      "name": "Janis Carter",
+      "sequence": 3,
+      "roles": [
+        "Joan Kirby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282435",
+      "name": "Jay C. Flippen",
+      "sequence": 4,
+      "roles": [
+        "MSgt. Clancy, Line Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364203",
+      "name": "William Harrigan",
+      "sequence": 5,
+      "roles": [
+        "Dr. Lt.Cdr. Joe Curran"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068257",
+      "name": "James Bell",
+      "sequence": 6,
+      "roles": [
+        "Colonel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445868",
+      "name": "Barry Kelley",
+      "sequence": 7,
+      "roles": [
+        "Brigadier General"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0418524",
+      "name": "Maurice Jara",
+      "sequence": 8,
+      "roles": [
+        "Shorty Vegay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929965",
+      "name": "Adam Williams",
+      "sequence": 9,
+      "roles": [
+        "Lt. Bert Malotke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0229906",
+      "name": "James Dobson",
+      "sequence": 10,
+      "roles": [
+        "Lt. Pudge McCabe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949355",
+      "name": "Carleton Young",
+      "sequence": 11,
+      "roles": [
+        "Col. Riley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820409",
+      "name": "Michael St. Angel",
+      "sequence": 12,
+      "roles": [
+        "Capt. Harold Jorgensen, Ops. Officer"
+      ],
+      "notes": "(as Steve Flagg)"
+    },
+    {
+      "person_imdb_id": "nm0454517",
+      "name": "Brett King",
+      "sequence": 13,
+      "roles": [
+        "1st Lt. Ernie Stark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0311357",
+      "name": "Gordon Gebert",
+      "sequence": 14,
+      "roles": [
+        "Tommy Kirby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0303930",
       "name": "Kenneth Gamet",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0493446",
       "name": "Beirne Lay Jr.",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(screenplay) (uncredited)"
     }
   ],
   "release_date": "1951-08-28",

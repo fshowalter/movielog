@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0060980",
   "sort_title": "Silencers (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001509",
-      "name": "Dean Martin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Matt Helm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001771",
-      "name": "Stella Stevens",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gail Hendricks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0492002",
-      "name": "Daliah Lavi",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0120658",
-      "name": "Victor Buono",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tung-Tze"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640023",
-      "name": "Arthur O'Connell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Wigman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916434",
-      "name": "Robert Webber",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sam Gunther"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339834",
-      "name": "James Gregory",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "MacDonald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0468222",
-      "name": "Nancy Kovack",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Barbara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138354",
-      "name": "Roger C. Carmel",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Andreyev"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001998",
-      "name": "Cyd Charisse",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sarita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010770",
-      "name": "Beverly Adams",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lovey Kravezit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222878",
-      "name": "Richard Devon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Domino"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020200",
-      "name": "David Bond",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Naldi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0713780",
-      "name": "John Reach",
-      "sequence": 13,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Traynor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0680732",
-      "name": "Robert Phillips",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "1st Armed Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932365",
-      "name": "John Willis",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Master of Ceremonies"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314947",
-      "name": "Frank Gerstle",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Frazer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940614",
-      "name": "Grant Woods",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Radio Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910611",
-      "name": "Patrick Waltz",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Hotel Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139888",
-      "name": "Vikki Carr",
-      "sequence": 22,
-      "notes": "(uncredited) (singingVoice)",
-      "roles": [
-        "Sarita"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0439597",
@@ -191,20 +9,193 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001509",
+      "name": "Dean Martin",
+      "sequence": 0,
+      "roles": [
+        "Matt Helm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001771",
+      "name": "Stella Stevens",
+      "sequence": 1,
+      "roles": [
+        "Gail Hendricks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0492002",
+      "name": "Daliah Lavi",
+      "sequence": 2,
+      "roles": [
+        "Tina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0120658",
+      "name": "Victor Buono",
+      "sequence": 3,
+      "roles": [
+        "Tung-Tze"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640023",
+      "name": "Arthur O'Connell",
+      "sequence": 4,
+      "roles": [
+        "Joe Wigman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916434",
+      "name": "Robert Webber",
+      "sequence": 5,
+      "roles": [
+        "Sam Gunther"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339834",
+      "name": "James Gregory",
+      "sequence": 6,
+      "roles": [
+        "MacDonald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0468222",
+      "name": "Nancy Kovack",
+      "sequence": 7,
+      "roles": [
+        "Barbara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138354",
+      "name": "Roger C. Carmel",
+      "sequence": 8,
+      "roles": [
+        "Andreyev"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001998",
+      "name": "Cyd Charisse",
+      "sequence": 9,
+      "roles": [
+        "Sarita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010770",
+      "name": "Beverly Adams",
+      "sequence": 10,
+      "roles": [
+        "Lovey Kravezit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222878",
+      "name": "Richard Devon",
+      "sequence": 11,
+      "roles": [
+        "Domino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020200",
+      "name": "David Bond",
+      "sequence": 12,
+      "roles": [
+        "Dr. Naldi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0713780",
+      "name": "John Reach",
+      "sequence": 13,
+      "roles": [
+        "Traynor"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0680732",
+      "name": "Robert Phillips",
+      "sequence": 14,
+      "roles": [
+        "1st Armed Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932365",
+      "name": "John Willis",
+      "sequence": 15,
+      "roles": [
+        "Master of Ceremonies"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314947",
+      "name": "Frank Gerstle",
+      "sequence": 16,
+      "roles": [
+        "Frazer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940614",
+      "name": "Grant Woods",
+      "sequence": 17,
+      "roles": [
+        "Radio Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910611",
+      "name": "Patrick Waltz",
+      "sequence": 18,
+      "roles": [
+        "Hotel Clerk"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0357824",
       "name": "Donald Hamilton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novels \"The Silencers\" and \"Death of a Citizen\")",
-      "group_id": 0
+      "notes": "(novels \"The Silencers\" and \"Death of a Citizen\")"
     },
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1966-02-18",

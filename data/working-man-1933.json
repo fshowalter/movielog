@@ -1,118 +1,6 @@
 {
   "imdb_id": "tt0024785",
   "sort_title": "Working Man (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002183",
-      "name": "George Arliss",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Reeves",
-        "John Walton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jenny Hartland",
-        "Jane Grey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628602",
-      "name": "Theodore Newton",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tommy Hartland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017013",
-      "name": "Hardie Albright",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Benjamin Burnett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922503",
-      "name": "Gordon Westcott",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Fred Pettison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531759",
-      "name": "J. Farrell MacDonald",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Henry Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262628",
-      "name": "Charles E. Evans",
-      "sequence": 6,
-      "notes": "(as Charles Evans)",
-      "roles": [
-        "Mr. Haslitt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0123579",
-      "name": "Frederick Burton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Judge Larson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934962",
-      "name": "Pat Wing",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Reeves' Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888000",
-      "name": "Edward Van Sloan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mr. Briggs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0568282",
-      "name": "Claire McDowell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Benjamin's Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828754",
-      "name": "Ruthelma Stevens",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mrs. Price"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0012317",
@@ -121,27 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002183",
+      "name": "George Arliss",
+      "sequence": 0,
+      "roles": [
+        "John Reeves",
+        "John Walton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 1,
+      "roles": [
+        "Jenny Hartland",
+        "Jane Grey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0628602",
+      "name": "Theodore Newton",
+      "sequence": 2,
+      "roles": [
+        "Tommy Hartland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017013",
+      "name": "Hardie Albright",
+      "sequence": 3,
+      "roles": [
+        "Benjamin Burnett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922503",
+      "name": "Gordon Westcott",
+      "sequence": 4,
+      "roles": [
+        "Fred Pettison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531759",
+      "name": "J. Farrell MacDonald",
+      "sequence": 5,
+      "roles": [
+        "Henry Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262628",
+      "name": "Charles E. Evans",
+      "sequence": 6,
+      "roles": [
+        "Mr. Haslitt"
+      ],
+      "notes": "(as Charles Evans)"
+    },
+    {
+      "person_imdb_id": "nm0123579",
+      "name": "Frederick Burton",
+      "sequence": 7,
+      "roles": [
+        "Judge Larson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934962",
+      "name": "Pat Wing",
+      "sequence": 8,
+      "roles": [
+        "Reeves' Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888000",
+      "name": "Edward Van Sloan",
+      "sequence": 9,
+      "roles": [
+        "Mr. Briggs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0568282",
+      "name": "Claire McDowell",
+      "sequence": 10,
+      "roles": [
+        "Benjamin's Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828754",
+      "name": "Ruthelma Stevens",
+      "sequence": 11,
+      "roles": [
+        "Mrs. Price"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0448981",
       "name": "Charles Kenyon",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0398021",
       "name": "Maude T. Howell",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0291408",
       "name": "Edgar Franklin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1933-04-20",

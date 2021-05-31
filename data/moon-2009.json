@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt1182345",
   "sort_title": "Moon (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0005377",
-      "name": "Sam Rockwell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sam Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000228",
-      "name": "Kevin Spacey",
-      "sequence": 1,
-      "notes": "(voice)",
-      "roles": [
-        "GERTY"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1069800",
-      "name": "Dominique McElligott",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tess Bell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3675884",
-      "name": "Rosie Shaw",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Little Eve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3668631",
-      "name": "Adrienne Shaw",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Nanny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2546012",
-      "name": "Kaya Scodelario",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938950",
-      "name": "Benedict Wong",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1546196",
-      "name": "Matt Berry",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Overmeyers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829121",
-      "name": "Malcolm Stewart",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Technician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2933135",
-      "name": "Robin Chalk",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sam Bell Clone"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1512910",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0005377",
+      "name": "Sam Rockwell",
+      "sequence": 0,
+      "roles": [
+        "Sam Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000228",
+      "name": "Kevin Spacey",
+      "sequence": 1,
+      "roles": [
+        "GERTY"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm1069800",
+      "name": "Dominique McElligott",
+      "sequence": 2,
+      "roles": [
+        "Tess Bell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3675884",
+      "name": "Rosie Shaw",
+      "sequence": 3,
+      "roles": [
+        "Little Eve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3668631",
+      "name": "Adrienne Shaw",
+      "sequence": 4,
+      "roles": [
+        "Nanny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2546012",
+      "name": "Kaya Scodelario",
+      "sequence": 5,
+      "roles": [
+        "Eve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938950",
+      "name": "Benedict Wong",
+      "sequence": 6,
+      "roles": [
+        "Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1546196",
+      "name": "Matt Berry",
+      "sequence": 7,
+      "roles": [
+        "Overmeyers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829121",
+      "name": "Malcolm Stewart",
+      "sequence": 8,
+      "roles": [
+        "Technician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2933135",
+      "name": "Robin Chalk",
+      "sequence": 9,
+      "roles": [
+        "Sam Bell Clone"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1512910",
       "name": "Duncan Jones",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm2914162",
       "name": "Nathan Parker",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-01-23",

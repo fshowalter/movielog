@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0059274",
   "sort_title": "Hill (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Roberts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028674",
-      "name": "Harry Andrews",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "R.S.M. Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000846",
-      "name": "Ian Bannen",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528224",
-      "name": "Alfred Lynch",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "George Stevens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001115",
-      "name": "Ossie Davis",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jacko King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455702",
-      "name": "Roy Kinnear",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Monty Bartlett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914673",
-      "name": "Jack Watson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jock McGrath"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376915",
-      "name": "Ian Hendry",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Staff Sergeant Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714878",
-      "name": "Michael Redgrave",
-      "sequence": 8,
-      "notes": "(as Sir Michael Redgrave)",
-      "roles": [
-        "The Medical Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0083424",
-      "name": "Norman Bird",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Commandant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0565272",
-      "name": "Neil McCarthy",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Burton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329641",
-      "name": "Howard Goorney",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Walters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146579",
-      "name": "Tony Caunter",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Martin"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 0,
+      "roles": [
+        "Joe Roberts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028674",
+      "name": "Harry Andrews",
+      "sequence": 1,
+      "roles": [
+        "R.S.M. Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000846",
+      "name": "Ian Bannen",
+      "sequence": 2,
+      "roles": [
+        "Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528224",
+      "name": "Alfred Lynch",
+      "sequence": 3,
+      "roles": [
+        "George Stevens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001115",
+      "name": "Ossie Davis",
+      "sequence": 4,
+      "roles": [
+        "Jacko King"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455702",
+      "name": "Roy Kinnear",
+      "sequence": 5,
+      "roles": [
+        "Monty Bartlett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914673",
+      "name": "Jack Watson",
+      "sequence": 6,
+      "roles": [
+        "Jock McGrath"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376915",
+      "name": "Ian Hendry",
+      "sequence": 7,
+      "roles": [
+        "Staff Sergeant Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714878",
+      "name": "Michael Redgrave",
+      "sequence": 8,
+      "roles": [
+        "The Medical Officer"
+      ],
+      "notes": "(as Sir Michael Redgrave)"
+    },
+    {
+      "person_imdb_id": "nm0083424",
+      "name": "Norman Bird",
+      "sequence": 9,
+      "roles": [
+        "Commandant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0565272",
+      "name": "Neil McCarthy",
+      "sequence": 10,
+      "roles": [
+        "Burton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329641",
+      "name": "Howard Goorney",
+      "sequence": 11,
+      "roles": [
+        "Walters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146579",
+      "name": "Tony Caunter",
+      "sequence": 12,
+      "roles": [
+        "Martin"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0726598",
       "name": "Ray Rigby",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0726598",
       "name": "Ray Rigby",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0020918",
       "name": "R.S. Allen",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(play)"
     }
   ],
   "release_date": "1965-05-22",

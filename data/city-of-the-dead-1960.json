@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0053719",
   "sort_title": "City of the Dead (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0521471",
-      "name": "Dennis Lotis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Richard Barlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alan Driscoll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0422185",
-      "name": "Patricia Jessel",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Elizabeth Selwyn",
-        "Mrs. Newless"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0623306",
-      "name": "Tom Naylor",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bill Maitland"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820615",
-      "name": "Betta St. John",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Patricia Russell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829067",
-      "name": "Venetia Stevenson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Nan Barlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245581",
-      "name": "Valentine Dyall",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jethrow Keane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0063442",
-      "name": "Ann Beach",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lottie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534186",
-      "name": "Norman MacOwan",
-      "sequence": 8,
-      "notes": "(as Norman Macowan)",
-      "roles": [
-        "Reverend Russell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0425102",
-      "name": "Fred Johnson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Elder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245982",
-      "name": "James Dyrenforth",
-      "sequence": 10,
-      "notes": "(as Jimmy Dyrenforth)",
-      "roles": [
-        "Garage Attendant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0390240",
-      "name": "Maxine Holden",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0008832",
-      "name": "William Abney",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Policeman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0610303",
@@ -129,20 +9,140 @@
       "notes": "(as John Moxey)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0521471",
+      "name": "Dennis Lotis",
+      "sequence": 0,
+      "roles": [
+        "Richard Barlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 1,
+      "roles": [
+        "Alan Driscoll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0422185",
+      "name": "Patricia Jessel",
+      "sequence": 2,
+      "roles": [
+        "Elizabeth Selwyn",
+        "Mrs. Newless"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0623306",
+      "name": "Tom Naylor",
+      "sequence": 3,
+      "roles": [
+        "Bill Maitland"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820615",
+      "name": "Betta St. John",
+      "sequence": 4,
+      "roles": [
+        "Patricia Russell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829067",
+      "name": "Venetia Stevenson",
+      "sequence": 5,
+      "roles": [
+        "Nan Barlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245581",
+      "name": "Valentine Dyall",
+      "sequence": 6,
+      "roles": [
+        "Jethrow Keane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0063442",
+      "name": "Ann Beach",
+      "sequence": 7,
+      "roles": [
+        "Lottie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534186",
+      "name": "Norman MacOwan",
+      "sequence": 8,
+      "roles": [
+        "Reverend Russell"
+      ],
+      "notes": "(as Norman Macowan)"
+    },
+    {
+      "person_imdb_id": "nm0425102",
+      "name": "Fred Johnson",
+      "sequence": 9,
+      "roles": [
+        "The Elder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245982",
+      "name": "James Dyrenforth",
+      "sequence": 10,
+      "roles": [
+        "Garage Attendant"
+      ],
+      "notes": "(as Jimmy Dyrenforth)"
+    },
+    {
+      "person_imdb_id": "nm0390240",
+      "name": "Maxine Holden",
+      "sequence": 11,
+      "roles": [
+        "Sue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0008832",
+      "name": "William Abney",
+      "sequence": 12,
+      "roles": [
+        "Policeman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0062658",
       "name": "George Baxt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0836988",
       "name": "Milton Subotsky",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1960-09-01",

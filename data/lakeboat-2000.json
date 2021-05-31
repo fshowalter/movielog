@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0210149",
   "sort_title": "Lakeboat (2000)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001164",
-      "name": "Charles Durning",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Skippy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000393",
-      "name": "Peter Falk",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "The Pierman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001459",
-      "name": "Denis Leary",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "The Fireman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001233",
-      "name": "Robert Forster",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joe Pitko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426666",
-      "name": "J.J. Johnston",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Stan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541081",
-      "name": "Tony Mamet",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dale Katzman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908685",
-      "name": "Jack Wallace",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001841",
-      "name": "George Wendt",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "First Mate Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000412",
-      "name": "Andy Garcia",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Guigliani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0029569",
-      "name": "Roberta Angelica",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264551",
-      "name": "Diane Fabian",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Janice, Age 50"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330405",
-      "name": "Lori Gordon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Janice, Age 18"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337053",
-      "name": "Steven Grayhm",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Fred, Age 18"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419797",
-      "name": "Jason Jazrawy",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Joe Litko, Age 20"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666343",
-      "name": "Patrick Patterson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Janice's Husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007210",
-      "name": "Saul Rubinek",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Cuthman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0782576",
-      "name": "Charles Seixas",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Fred's Uncle"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001505",
@@ -164,20 +9,175 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001164",
+      "name": "Charles Durning",
+      "sequence": 0,
+      "roles": [
+        "Skippy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000393",
+      "name": "Peter Falk",
+      "sequence": 1,
+      "roles": [
+        "The Pierman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001459",
+      "name": "Denis Leary",
+      "sequence": 2,
+      "roles": [
+        "The Fireman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001233",
+      "name": "Robert Forster",
+      "sequence": 3,
+      "roles": [
+        "Joe Pitko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0426666",
+      "name": "J.J. Johnston",
+      "sequence": 4,
+      "roles": [
+        "Stan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541081",
+      "name": "Tony Mamet",
+      "sequence": 5,
+      "roles": [
+        "Dale Katzman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908685",
+      "name": "Jack Wallace",
+      "sequence": 6,
+      "roles": [
+        "Fred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001841",
+      "name": "George Wendt",
+      "sequence": 7,
+      "roles": [
+        "First Mate Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000412",
+      "name": "Andy Garcia",
+      "sequence": 8,
+      "roles": [
+        "Guigliani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0029569",
+      "name": "Roberta Angelica",
+      "sequence": 9,
+      "roles": [
+        "Prostitute"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0264551",
+      "name": "Diane Fabian",
+      "sequence": 10,
+      "roles": [
+        "Janice, Age 50"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330405",
+      "name": "Lori Gordon",
+      "sequence": 11,
+      "roles": [
+        "Janice, Age 18"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337053",
+      "name": "Steven Grayhm",
+      "sequence": 12,
+      "roles": [
+        "Fred, Age 18"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419797",
+      "name": "Jason Jazrawy",
+      "sequence": 13,
+      "roles": [
+        "Joe Litko, Age 20"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666343",
+      "name": "Patrick Patterson",
+      "sequence": 14,
+      "roles": [
+        "Janice's Husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007210",
+      "name": "Saul Rubinek",
+      "sequence": 15,
+      "roles": [
+        "Cuthman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0782576",
+      "name": "Charles Seixas",
+      "sequence": 16,
+      "roles": [
+        "Fred's Uncle"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000519",
       "name": "David Mamet",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 1
+      "notes": "(play) (uncredited)"
     }
   ],
   "release_date": "2000-04-13",

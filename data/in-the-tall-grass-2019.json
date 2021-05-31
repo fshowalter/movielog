@@ -1,77 +1,6 @@
 {
   "imdb_id": "tt4687108",
   "sort_title": "In the Tall Grass (2019)",
-  "performers": [
-    {
-      "person_imdb_id": "nm5315658",
-      "name": "Laysla De Oliveira",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Becky",
-        "sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10031930",
-      "name": "Avery Whitted",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cal",
-        "brother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933940",
-      "name": "Patrick Wilson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ross",
-        "husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7819375",
-      "name": "Will Buie Jr.",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tobin",
-        "son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933987",
-      "name": "Rachel Wilson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Natalie",
-        "wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1549295",
-      "name": "Harrison Gilbertson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Travis",
-        "Becky's husband"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375649",
-      "name": "Tiffany Helm",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gas Attendant"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0622112",
@@ -80,27 +9,108 @@
       "notes": "(directed by)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm5315658",
+      "name": "Laysla De Oliveira",
+      "sequence": 0,
+      "roles": [
+        "Becky",
+        "sister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10031930",
+      "name": "Avery Whitted",
+      "sequence": 1,
+      "roles": [
+        "Cal",
+        "brother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933940",
+      "name": "Patrick Wilson",
+      "sequence": 2,
+      "roles": [
+        "Ross",
+        "husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7819375",
+      "name": "Will Buie Jr.",
+      "sequence": 3,
+      "roles": [
+        "Tobin",
+        "son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933987",
+      "name": "Rachel Wilson",
+      "sequence": 4,
+      "roles": [
+        "Natalie",
+        "wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1549295",
+      "name": "Harrison Gilbertson",
+      "sequence": 5,
+      "roles": [
+        "Travis",
+        "Becky's husband"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375649",
+      "name": "Tiffany Helm",
+      "sequence": 6,
+      "roles": [
+        "Gas Attendant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2769494",
+      "name": "Everett Smith",
+      "sequence": 7,
+      "roles": [
+        "Mud Man",
+        "Grass Man"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0622112",
       "name": "Vincenzo Natali",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0000175",
       "name": "Stephen King",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novella by)",
-      "group_id": 1
+      "notes": "(based on the novella by)"
     },
     {
       "person_imdb_id": "nm0454872",
       "name": "Joe Hill",
-      "sequence": 0,
-      "notes": "(based on the novella by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(based on the novella by)"
     }
   ],
   "release_date": "2019-09-20",

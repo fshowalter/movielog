@@ -1,150 +1,6 @@
 {
   "imdb_id": "tt0064212",
   "sort_title": "De Sade (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001158",
-      "name": "Keir Dullea",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marquis de Sade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000919",
-      "name": "Senta Berger",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anne de Montreuil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658339",
-      "name": "Lilli Palmer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mme de Montreuil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557281",
-      "name": "Anna Massey",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ren\u00e9e de Montreuil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0956239",
-      "name": "Sonja Ziemann",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "La Beauvoisin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0473218",
-      "name": "Christiane Kr\u00fcger",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Laura, Marquis' Mistress"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0506261",
-      "name": "Uta Levka",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rose Keller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822106",
-      "name": "Barbara Stanek",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Colette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0901870",
-      "name": "Susanne von Almassy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Marquis' Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778219",
-      "name": "Friedrich Schoenfelder",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Marquis' Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919208",
-      "name": "Herbert Weissbach",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "M. de Montreuil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0819197",
-      "name": "Heinz Spitzner",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Inspector Marais"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490772",
-      "name": "Tilly Lauenstein",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Madame Grandcon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0343469",
-      "name": "Ortrud Gross",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0001379",
-      "name": "John Huston",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Abbe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452335",
-      "name": "Max Kiebach",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Marquis de Sade, as a boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0256831",
@@ -165,27 +21,171 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001158",
+      "name": "Keir Dullea",
+      "sequence": 0,
+      "roles": [
+        "Marquis de Sade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000919",
+      "name": "Senta Berger",
+      "sequence": 1,
+      "roles": [
+        "Anne de Montreuil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658339",
+      "name": "Lilli Palmer",
+      "sequence": 2,
+      "roles": [
+        "Mme de Montreuil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557281",
+      "name": "Anna Massey",
+      "sequence": 3,
+      "roles": [
+        "Ren\u00e9e de Montreuil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0956239",
+      "name": "Sonja Ziemann",
+      "sequence": 4,
+      "roles": [
+        "La Beauvoisin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0473218",
+      "name": "Christiane Kr\u00fcger",
+      "sequence": 5,
+      "roles": [
+        "Laura, Marquis' Mistress"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0506261",
+      "name": "Uta Levka",
+      "sequence": 6,
+      "roles": [
+        "Rose Keller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822106",
+      "name": "Barbara Stanek",
+      "sequence": 7,
+      "roles": [
+        "Colette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0901870",
+      "name": "Susanne von Almassy",
+      "sequence": 8,
+      "roles": [
+        "Marquis' Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778219",
+      "name": "Friedrich Schoenfelder",
+      "sequence": 9,
+      "roles": [
+        "Marquis' Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919208",
+      "name": "Herbert Weissbach",
+      "sequence": 10,
+      "roles": [
+        "M. de Montreuil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0819197",
+      "name": "Heinz Spitzner",
+      "sequence": 11,
+      "roles": [
+        "Inspector Marais"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490772",
+      "name": "Tilly Lauenstein",
+      "sequence": 12,
+      "roles": [
+        "Madame Grandcon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0343469",
+      "name": "Ortrud Gross",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001379",
+      "name": "John Huston",
+      "sequence": 14,
+      "roles": [
+        "The Abbe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452335",
+      "name": "Max Kiebach",
+      "sequence": 15,
+      "roles": [
+        "Marquis de Sade, as a boy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0558577",
       "name": "Richard Matheson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0073871",
       "name": "Peter Berg",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm7485319",
       "name": "Gilbert L\u00e9ly",
+      "group": 1,
       "sequence": 0,
-      "notes": "(biography) (uncredited)",
-      "group_id": 1
+      "notes": "(biography) (uncredited)"
     }
   ],
   "release_date": "1969-08-27",

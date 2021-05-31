@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0021926",
   "sort_title": "Graft (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0867538",
-      "name": "Regis Toomey",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dustin Hotchkiss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138999",
-      "name": "Sue Carol",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Constance Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720885",
-      "name": "Dorothy Revier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pearl Vaughan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "'Terry'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203527",
-      "name": "William B. Davidson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "M.H. Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Robert Hall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329467",
-      "name": "Harold Goodwin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "'Speed' Hansen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875983",
-      "name": "Richard Tucker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "District Attorney Martin Harrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732062",
-      "name": "Willard Robertson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "E. T. Scudder"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0127511",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0867538",
+      "name": "Regis Toomey",
+      "sequence": 0,
+      "roles": [
+        "Dustin Hotchkiss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138999",
+      "name": "Sue Carol",
+      "sequence": 1,
+      "roles": [
+        "Constance Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720885",
+      "name": "Dorothy Revier",
+      "sequence": 2,
+      "roles": [
+        "Pearl Vaughan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 3,
+      "roles": [
+        "'Terry'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203527",
+      "name": "William B. Davidson",
+      "sequence": 4,
+      "roles": [
+        "M.H. Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 5,
+      "roles": [
+        "Robert Hall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329467",
+      "name": "Harold Goodwin",
+      "sequence": 6,
+      "roles": [
+        "'Speed' Hansen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875983",
+      "name": "Richard Tucker",
+      "sequence": 7,
+      "roles": [
+        "District Attorney Martin Harrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732062",
+      "name": "Willard Robertson",
+      "sequence": 8,
+      "roles": [
+        "E. T. Scudder"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0057456",
       "name": "Barry Barringer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0057456",
       "name": "Barry Barringer",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1931-09-21",

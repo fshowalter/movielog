@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0035417",
   "sort_title": "Talk of the Town (1942)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Leopold Dilg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000795",
-      "name": "Jean Arthur",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nora Shelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172903",
-      "name": "Ronald Colman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Professor Michael Lightcap"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118000",
-      "name": "Edgar Buchanan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sam Yates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0268225",
-      "name": "Glenda Farrell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Regina Bush"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0227644",
-      "name": "Charles Dingle",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Andrew Holmes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242562",
-      "name": "Emma Dunn",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Shelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002270",
-      "name": "Rex Ingram",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tilney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455893",
-      "name": "Leonid Kinskey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jan Pulaski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878927",
-      "name": "Tom Tyler",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Clyde Bracken"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065975",
-      "name": "Don Beddoe",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Police Chief"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0828419",
@@ -110,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Leopold Dilg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000795",
+      "name": "Jean Arthur",
+      "sequence": 1,
+      "roles": [
+        "Nora Shelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172903",
+      "name": "Ronald Colman",
+      "sequence": 2,
+      "roles": [
+        "Professor Michael Lightcap"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118000",
+      "name": "Edgar Buchanan",
+      "sequence": 3,
+      "roles": [
+        "Sam Yates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0268225",
+      "name": "Glenda Farrell",
+      "sequence": 4,
+      "roles": [
+        "Regina Bush"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0227644",
+      "name": "Charles Dingle",
+      "sequence": 5,
+      "roles": [
+        "Andrew Holmes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242562",
+      "name": "Emma Dunn",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Shelley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002270",
+      "name": "Rex Ingram",
+      "sequence": 7,
+      "roles": [
+        "Tilney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455893",
+      "name": "Leonid Kinskey",
+      "sequence": 8,
+      "roles": [
+        "Jan Pulaski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878927",
+      "name": "Tom Tyler",
+      "sequence": 9,
+      "roles": [
+        "Clyde Bracken"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065975",
+      "name": "Don Beddoe",
+      "sequence": 10,
+      "roles": [
+        "Police Chief"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0789758",
       "name": "Irwin Shaw",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0118227",
       "name": "Sidney Buchman",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0886861",
       "name": "Dale Van Every",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0363563",
       "name": "Sidney Harmon",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 2
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1942-08-20",

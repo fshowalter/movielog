@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0045330",
   "sort_title": "Wild Stallion (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dan Light"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118000",
-      "name": "Edgar Buchanan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Wintergreen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0405054",
-      "name": "Martha Hyer",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Caroline Cullen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0740718",
-      "name": "Hayden Rorke",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Maj. Cullen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064604",
-      "name": "Hugh Beaumont",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Capt. Wilmurt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511854",
-      "name": "Orley Lindgren",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Young Dan Light"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0353628",
-      "name": "Don Haggerty",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sgt. Keach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0644084",
-      "name": "Susan Odin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Caroline - as a Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427157",
-      "name": "I. Stanford Jolley",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bill Cole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940234",
-      "name": "Barbara Wooddell",
-      "sequence": 9,
-      "notes": "(as Barbara Woodell)",
-      "roles": [
-        "Abigail Light"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356718",
-      "name": "John Halloran",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "John Light"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0172485",
@@ -110,13 +9,114 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 0,
+      "roles": [
+        "Dan Light"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118000",
+      "name": "Edgar Buchanan",
+      "sequence": 1,
+      "roles": [
+        "John Wintergreen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0405054",
+      "name": "Martha Hyer",
+      "sequence": 2,
+      "roles": [
+        "Caroline Cullen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0740718",
+      "name": "Hayden Rorke",
+      "sequence": 3,
+      "roles": [
+        "Major Cullen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064604",
+      "name": "Hugh Beaumont",
+      "sequence": 4,
+      "roles": [
+        "Captain Wilmurt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511854",
+      "name": "Orley Lindgren",
+      "sequence": 5,
+      "roles": [
+        "Young Dan Light"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0353628",
+      "name": "Don Haggerty",
+      "sequence": 6,
+      "roles": [
+        "Sergeant Keach"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0644084",
+      "name": "Susan Odin",
+      "sequence": 7,
+      "roles": [
+        "Caroline - as a Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0427157",
+      "name": "I. Stanford Jolley",
+      "sequence": 8,
+      "roles": [
+        "Bill Cole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940234",
+      "name": "Barbara Wooddell",
+      "sequence": 9,
+      "roles": [
+        "Abigail Light"
+      ],
+      "notes": "(as Barbara Woodell)"
+    },
+    {
+      "person_imdb_id": "nm0356718",
+      "name": "John Halloran",
+      "sequence": 10,
+      "roles": [
+        "John Light"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0880489",
       "name": "Daniel B. Ullman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Dan Ullman)",
-      "group_id": 0
+      "notes": "(written by) (as Dan Ullman)"
     }
   ],
   "release_date": "1952-04-27",

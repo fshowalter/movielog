@@ -1,191 +1,6 @@
 {
   "imdb_id": "tt0040558",
   "sort_title": "Macbeth (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Macbeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634282",
-      "name": "Jeanette Nolan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lady Macbeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641397",
-      "name": "Dan O'Herlihy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Macduff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001522",
-      "name": "Roddy McDowall",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Malcolm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057422",
-      "name": "Edgar Barrier",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Banquo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "A Holy Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762557",
-      "name": "Erskine Sanford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Duncan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226109",
-      "name": "John Dierkes",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193408",
-      "name": "Keene Curtis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lennox"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916423",
-      "name": "Peggy Webber",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lady Macduff",
-        "The Three"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103958",
-      "name": "Lionel Braham",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Siward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0381846",
-      "name": "Archie Heugly",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Young Siward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267139",
-      "name": "Jerry Farber",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Fleance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919914",
-      "name": "Christopher Welles",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Macduff's Child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267670",
-      "name": "Morgan Farley",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878354",
-      "name": "Lurene Tuttle",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Gentlewoman",
-        "The Three"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240452",
-      "name": "Brainerd Duffield",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "First Murderer",
-        "The Three"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020041",
-      "name": "William Alland",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Second Murderer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0158125",
-      "name": "George Chirello",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Seyton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0771696",
-      "name": "Gus Schilling",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "A Porter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000080",
@@ -194,27 +9,212 @@
       "notes": ""
     }
   ],
-  "writers": [
-    {
-      "person_imdb_id": "nm0000636",
-      "name": "William Shakespeare",
-      "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
-    },
+  "cast": [
     {
       "person_imdb_id": "nm0000080",
       "name": "Orson Welles",
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 1
+      "roles": [
+        "Macbeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634282",
+      "name": "Jeanette Nolan",
+      "sequence": 1,
+      "roles": [
+        "Lady Macbeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641397",
+      "name": "Dan O'Herlihy",
+      "sequence": 2,
+      "roles": [
+        "Macduff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001522",
+      "name": "Roddy McDowall",
+      "sequence": 3,
+      "roles": [
+        "Malcolm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057422",
+      "name": "Edgar Barrier",
+      "sequence": 4,
+      "roles": [
+        "Banquo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 5,
+      "roles": [
+        "A Holy Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762557",
+      "name": "Erskine Sanford",
+      "sequence": 6,
+      "roles": [
+        "Duncan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226109",
+      "name": "John Dierkes",
+      "sequence": 7,
+      "roles": [
+        "Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193408",
+      "name": "Keene Curtis",
+      "sequence": 8,
+      "roles": [
+        "Lennox"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916423",
+      "name": "Peggy Webber",
+      "sequence": 9,
+      "roles": [
+        "Lady Macduff",
+        "The Three"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0103958",
+      "name": "Lionel Braham",
+      "sequence": 10,
+      "roles": [
+        "Siward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0381846",
+      "name": "Archie Heugly",
+      "sequence": 11,
+      "roles": [
+        "Young Siward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267139",
+      "name": "Jerry Farber",
+      "sequence": 12,
+      "roles": [
+        "Fleance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919914",
+      "name": "Christopher Welles",
+      "sequence": 13,
+      "roles": [
+        "Macduff's Child"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267670",
+      "name": "Morgan Farley",
+      "sequence": 14,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878354",
+      "name": "Lurene Tuttle",
+      "sequence": 15,
+      "roles": [
+        "Gentlewoman",
+        "The Three"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240452",
+      "name": "Brainerd Duffield",
+      "sequence": 16,
+      "roles": [
+        "First Murderer",
+        "The Three"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020041",
+      "name": "William Alland",
+      "sequence": 17,
+      "roles": [
+        "Second Murderer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0158125",
+      "name": "George Chirello",
+      "sequence": 18,
+      "roles": [
+        "Seyton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0771696",
+      "name": "Gus Schilling",
+      "sequence": 19,
+      "roles": [
+        "A Porter"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0000636",
+      "name": "William Shakespeare",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(by)"
+    },
+    {
+      "person_imdb_id": "nm0000080",
+      "name": "Orson Welles",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(adaptation) (uncredited)"
     },
     {
       "person_imdb_id": "nm0000636",
       "name": "William Shakespeare",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play) (uncredited)",
-      "group_id": 2
+      "notes": "(play) (uncredited)"
     }
   ],
   "release_date": "1948-09-03",

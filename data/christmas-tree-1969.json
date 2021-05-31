@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0064037",
   "sort_title": "Christmas Tree (1969)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Laurent S\u00e9gur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514059",
-      "name": "Virna Lisi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Catherine Graziani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0100186",
-      "name": "Bourvil",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Verdun"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0198823",
-      "name": "Madeleine Damien",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Marinette"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271229",
-      "name": "Mario Feliciani",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Le docteur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0496428",
-      "name": "Friedrich von Ledebur",
-      "sequence": 5,
-      "notes": "(as Friedrich Ledebur)",
-      "roles": [
-        "Vernet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235367",
-      "name": "Georges Douking",
-      "sequence": 6,
-      "notes": "(as Douking)",
-      "roles": [
-        "L'animalier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0859732",
-      "name": "Michel Thomass",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "L'ami corse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144413",
-      "name": "Jean-Pierre Castaldi",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Le motard de la gendarmerie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0058246",
-      "name": "Yves Barsacq",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Charlie le breton - le pompiste"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0202394",
-      "name": "France Daunic",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "La monitrice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298184",
-      "name": "Brook Fuller",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pascal S\u00e9gur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1260468",
-      "name": "Lucie Dol\u00e8ne",
-      "sequence": 14,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Pascal S\u00e9gur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0582829",
-      "name": "Gaston Meunier",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Customer at Maxim's",
-        "The grocer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0950109",
@@ -138,20 +9,140 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Laurent S\u00e9gur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514059",
+      "name": "Virna Lisi",
+      "sequence": 1,
+      "roles": [
+        "Catherine Graziani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0100186",
+      "name": "Bourvil",
+      "sequence": 2,
+      "roles": [
+        "Verdun"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0198823",
+      "name": "Madeleine Damien",
+      "sequence": 3,
+      "roles": [
+        "Marinette"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271229",
+      "name": "Mario Feliciani",
+      "sequence": 4,
+      "roles": [
+        "Le docteur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0496428",
+      "name": "Friedrich von Ledebur",
+      "sequence": 5,
+      "roles": [
+        "Vernet"
+      ],
+      "notes": "(as Friedrich Ledebur)"
+    },
+    {
+      "person_imdb_id": "nm0235367",
+      "name": "Georges Douking",
+      "sequence": 6,
+      "roles": [
+        "L'animalier"
+      ],
+      "notes": "(as Douking)"
+    },
+    {
+      "person_imdb_id": "nm0859732",
+      "name": "Michel Thomass",
+      "sequence": 7,
+      "roles": [
+        "L'ami corse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144413",
+      "name": "Jean-Pierre Castaldi",
+      "sequence": 8,
+      "roles": [
+        "Le motard de la gendarmerie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058246",
+      "name": "Yves Barsacq",
+      "sequence": 9,
+      "roles": [
+        "Charlie le breton - le pompiste"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0202394",
+      "name": "France Daunic",
+      "sequence": 10,
+      "roles": [
+        "La monitrice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298184",
+      "name": "Brook Fuller",
+      "sequence": 11,
+      "roles": [
+        "Pascal S\u00e9gur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0582829",
+      "name": "Gaston Meunier",
+      "sequence": 16,
+      "roles": [
+        "Customer at Maxim's",
+        "The grocer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0060660",
       "name": "Michel Bataille",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0950109",
       "name": "Terence Young",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     }
   ],
   "release_date": "1969-09-25",

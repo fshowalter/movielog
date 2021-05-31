@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0045846",
   "sort_title": "Gun Fury (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001369",
-      "name": "Rock Hudson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ben Warren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001656",
-      "name": "Donna Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jennifer Ballard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137023",
-      "name": "Philip Carey",
-      "sequence": 2,
-      "notes": "(as Phil Carey)",
-      "roles": [
-        "Frank Slayton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371536",
-      "name": "Roberta Haynes",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Estella Morales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330388",
-      "name": "Leo Gordon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Tom 'Jess' Burgess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Blinky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104507",
-      "name": "Neville Brand",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Brazos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0859397",
-      "name": "Ray Thomas",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Doc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0380787",
-      "name": "Bob Herron",
-      "sequence": 8,
-      "notes": "(as Robert Herron)",
-      "roles": [
-        "Curly Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712652",
-      "name": "Phil Rawlins",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jim Morse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507189",
-      "name": "Forrest Lewis",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Weatherby"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -110,41 +9,142 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001369",
+      "name": "Rock Hudson",
+      "sequence": 0,
+      "roles": [
+        "Ben Warren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001656",
+      "name": "Donna Reed",
+      "sequence": 1,
+      "roles": [
+        "Jennifer Ballard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137023",
+      "name": "Philip Carey",
+      "sequence": 2,
+      "roles": [
+        "Frank Slayton"
+      ],
+      "notes": "(as Phil Carey)"
+    },
+    {
+      "person_imdb_id": "nm0371536",
+      "name": "Roberta Haynes",
+      "sequence": 3,
+      "roles": [
+        "Estella Morales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330388",
+      "name": "Leo Gordon",
+      "sequence": 4,
+      "roles": [
+        "Tom 'Jess' Burgess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 5,
+      "roles": [
+        "Blinky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104507",
+      "name": "Neville Brand",
+      "sequence": 6,
+      "roles": [
+        "Brazos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0859397",
+      "name": "Ray Thomas",
+      "sequence": 7,
+      "roles": [
+        "Doc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0380787",
+      "name": "Bob Herron",
+      "sequence": 8,
+      "roles": [
+        "Curly Jordan"
+      ],
+      "notes": "(as Robert Herron)"
+    },
+    {
+      "person_imdb_id": "nm0712652",
+      "name": "Phil Rawlins",
+      "sequence": 9,
+      "roles": [
+        "Jim Morse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507189",
+      "name": "Forrest Lewis",
+      "sequence": 10,
+      "roles": [
+        "Weatherby"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0908683",
       "name": "Irving Wallace",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0400403",
       "name": "Roy Huggins",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm2793381",
       "name": "Kathleen B. Granger",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Ten Against Caesar\")",
-      "group_id": 1
+      "notes": "(novel \"Ten Against Caesar\")"
     },
     {
       "person_imdb_id": "nm1367038",
       "name": "George Granger",
-      "sequence": 0,
-      "notes": "(novel \"Ten Against Caesar\")",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(novel \"Ten Against Caesar\")"
     },
     {
       "person_imdb_id": "nm0335077",
       "name": "Robert A. Granger",
-      "sequence": 0,
-      "notes": "(novel \"Ten Against Caesar\")",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(novel \"Ten Against Caesar\")"
     }
   ],
   "release_date": "1953-10-09",

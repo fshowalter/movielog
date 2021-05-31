@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0039302",
   "sort_title": "Dark Passage (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Vincent Parry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000002",
-      "name": "Lauren Bacall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Irene Jansen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071636",
-      "name": "Bruce Bennett",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bob"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001547",
-      "name": "Agnes Moorehead",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Madge Rapf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195235",
-      "name": "Tom D'Andrea",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cabby - Sam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949410",
-      "name": "Clifton Young",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448004",
-      "name": "Douglas Kennedy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0540047",
-      "name": "Rory Mallinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "George Fellsinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828950",
-      "name": "Houseley Stevenson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Walter Coley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023569",
-      "name": "John Alvin",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Blackie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0821300",
-      "name": "Jo Stafford",
-      "sequence": 30,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Singer on Recording"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0202681",
@@ -110,24 +9,116 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Vincent Parry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000002",
+      "name": "Lauren Bacall",
+      "sequence": 1,
+      "roles": [
+        "Irene Jansen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071636",
+      "name": "Bruce Bennett",
+      "sequence": 2,
+      "roles": [
+        "Bob"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001547",
+      "name": "Agnes Moorehead",
+      "sequence": 3,
+      "roles": [
+        "Madge Rapf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195235",
+      "name": "Tom D'Andrea",
+      "sequence": 4,
+      "roles": [
+        "Cabby - Sam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949410",
+      "name": "Clifton Young",
+      "sequence": 5,
+      "roles": [
+        "Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448004",
+      "name": "Douglas Kennedy",
+      "sequence": 6,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0540047",
+      "name": "Rory Mallinson",
+      "sequence": 7,
+      "roles": [
+        "George Fellsinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828950",
+      "name": "Houseley Stevenson",
+      "sequence": 8,
+      "roles": [
+        "Dr. Walter Coley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023569",
+      "name": "John Alvin",
+      "sequence": 9,
+      "roles": [
+        "Blackie"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0202681",
       "name": "Delmer Daves",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play by)",
-      "group_id": 0
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0328959",
       "name": "David Goodis",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     }
   ],
   "release_date": "1947-09-05",
-  "release_date_notes": "(New York City, New York)",
+  "release_date_notes": "(New York City, New York) (premiere)",
   "countries": [
     "United States"
   ]

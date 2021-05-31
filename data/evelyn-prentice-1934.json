@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0025091",
   "sort_title": "Evelyn Prentice (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001485",
-      "name": "Myrna Loy",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Evelyn Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580916",
-      "name": "Una Merkel",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Amy Drexel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751426",
-      "name": "Rosalind Russell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Nancy Harrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0422436",
-      "name": "Isabel Jewell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judith Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827031",
-      "name": "Harvey Stephens",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lawrence Kennard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Eddie Delaney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0905622",
-      "name": "Henry Wadsworth",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Chester Wylie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172237",
-      "name": "Cora Sue Collins",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dorothy Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175815",
-      "name": "Frank Conroy",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dist. Atty. Farley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0707771",
-      "name": "Jessie Ralph",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0745525",
-      "name": "Matty Roubert",
-      "sequence": 38,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Offscreen Newsboy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0397678",
@@ -119,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "John Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001485",
+      "name": "Myrna Loy",
+      "sequence": 1,
+      "roles": [
+        "Evelyn Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580916",
+      "name": "Una Merkel",
+      "sequence": 2,
+      "roles": [
+        "Amy Drexel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751426",
+      "name": "Rosalind Russell",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Nancy Harrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0422436",
+      "name": "Isabel Jewell",
+      "sequence": 4,
+      "roles": [
+        "Judith Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827031",
+      "name": "Harvey Stephens",
+      "sequence": 5,
+      "roles": [
+        "Lawrence Kennard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 6,
+      "roles": [
+        "Eddie Delaney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0905622",
+      "name": "Henry Wadsworth",
+      "sequence": 7,
+      "roles": [
+        "Chester Wylie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172237",
+      "name": "Cora Sue Collins",
+      "sequence": 8,
+      "roles": [
+        "Dorothy Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0175815",
+      "name": "Frank Conroy",
+      "sequence": 9,
+      "roles": [
+        "Dist. Atty. Farley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0707771",
+      "name": "Jessie Ralph",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Blake"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0168829",
       "name": "Lenore J. Coffee",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0941003",
       "name": "W.E. Woodward",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the book by)",
-      "group_id": 1
+      "notes": "(from the book by)"
     },
     {
       "person_imdb_id": "nm0736911",
       "name": "Howard Emmett Rogers",
+      "group": 2,
       "sequence": 0,
-      "notes": "(adaptation) (uncredited)",
-      "group_id": 2
+      "notes": "(adaptation) (uncredited)"
     }
   ],
   "release_date": "1934-11-09",

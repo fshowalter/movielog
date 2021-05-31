@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0045323",
   "sort_title": "What Price Glory (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000010",
-      "name": "James Cagney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Flagg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130794",
-      "name": "Corinne Calvet",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Charmaine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0197314",
-      "name": "Dan Dailey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "1st Sgt. Quirt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cpl. Kiper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0384154",
-      "name": "Craig Hill",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lt. Aldrich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001822",
-      "name": "Robert Wagner",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pvt. Lewisohn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0667542",
-      "name": "Marisa Pavan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Nicole Bouchard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795289",
-      "name": "Max Showalter",
-      "sequence": 7,
-      "notes": "(as Casey Adams)",
-      "roles": [
-        "Lt. Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322299",
-      "name": "James Gleason",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gen. Cokely"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894734",
-      "name": "Wally Vernon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lipinsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504728",
-      "name": "Henri Letondal",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cognac Pete"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -110,34 +9,135 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000010",
+      "name": "James Cagney",
+      "sequence": 0,
+      "roles": [
+        "Capt. Flagg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130794",
+      "name": "Corinne Calvet",
+      "sequence": 1,
+      "roles": [
+        "Charmaine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0197314",
+      "name": "Dan Dailey",
+      "sequence": 2,
+      "roles": [
+        "1st Sgt. Quirt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 3,
+      "roles": [
+        "Cpl. Kiper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0384154",
+      "name": "Craig Hill",
+      "sequence": 4,
+      "roles": [
+        "Lt. Aldrich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001822",
+      "name": "Robert Wagner",
+      "sequence": 5,
+      "roles": [
+        "Pvt. Lewisohn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0667542",
+      "name": "Marisa Pavan",
+      "sequence": 6,
+      "roles": [
+        "Nicole Bouchard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795289",
+      "name": "Max Showalter",
+      "sequence": 7,
+      "roles": [
+        "Lt. Moore"
+      ],
+      "notes": "(as Casey Adams)"
+    },
+    {
+      "person_imdb_id": "nm0322299",
+      "name": "James Gleason",
+      "sequence": 8,
+      "roles": [
+        "Gen. Cokely"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894734",
+      "name": "Wally Vernon",
+      "sequence": 9,
+      "roles": [
+        "Lipinsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504728",
+      "name": "Henri Letondal",
+      "sequence": 10,
+      "roles": [
+        "Cognac Pete"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0258290",
       "name": "Phoebe Ephron",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0258288",
       "name": "Henry Ephron",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0027173",
       "name": "Maxwell Anderson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0821716",
       "name": "Laurence Stallings",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(play)"
     }
   ],
   "release_date": "1952-07-25",

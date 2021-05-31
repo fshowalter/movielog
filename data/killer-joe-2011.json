@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt1726669",
   "sort_title": "Killer Joe (2011)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000190",
-      "name": "Matthew McConaughey",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Killer Joe Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386472",
-      "name": "Emile Hirsch",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Chris Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1017334",
-      "name": "Juno Temple",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dottie Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002006",
-      "name": "Thomas Haden Church",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ansel Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000153",
-      "name": "Gina Gershon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sharla Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531333",
-      "name": "Marc Macaulay",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Digger Soames"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2505507",
-      "name": "Gralen Bryant Banks",
-      "sequence": 6,
-      "notes": "(as Graylen Banks)",
-      "roles": [
-        "Pizza Patron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0840285",
-      "name": "Carol Sutton",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Saleslady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258342",
-      "name": "Danny Epper",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "G-Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0303316",
-      "name": "Jeff Galpin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Biker Thug"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0553047",
-      "name": "Scott A. Martin",
-      "sequence": 10,
-      "notes": "(as Scott Martin)",
-      "roles": [
-        "Pizza Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4262386",
-      "name": "Gregory C. Bachaud",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Filpatrick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4463494",
-      "name": "Charley Vance",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Preacher"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001243",
@@ -128,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000190",
+      "name": "Matthew McConaughey",
+      "sequence": 0,
+      "roles": [
+        "Killer Joe Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386472",
+      "name": "Emile Hirsch",
+      "sequence": 1,
+      "roles": [
+        "Chris Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1017334",
+      "name": "Juno Temple",
+      "sequence": 2,
+      "roles": [
+        "Dottie Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002006",
+      "name": "Thomas Haden Church",
+      "sequence": 3,
+      "roles": [
+        "Ansel Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000153",
+      "name": "Gina Gershon",
+      "sequence": 4,
+      "roles": [
+        "Sharla Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531333",
+      "name": "Marc Macaulay",
+      "sequence": 5,
+      "roles": [
+        "Digger Soames"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2505507",
+      "name": "Gralen Bryant Banks",
+      "sequence": 6,
+      "roles": [
+        "Pizza Patron"
+      ],
+      "notes": "(as Graylen Banks)"
+    },
+    {
+      "person_imdb_id": "nm0840285",
+      "name": "Carol Sutton",
+      "sequence": 7,
+      "roles": [
+        "Saleslady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0258342",
+      "name": "Danny Epper",
+      "sequence": 8,
+      "roles": [
+        "G-Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0303316",
+      "name": "Jeff Galpin",
+      "sequence": 9,
+      "roles": [
+        "Biker Thug"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0553047",
+      "name": "Scott A. Martin",
+      "sequence": 10,
+      "roles": [
+        "Pizza Manager"
+      ],
+      "notes": "(as Scott Martin)"
+    },
+    {
+      "person_imdb_id": "nm4262386",
+      "name": "Gregory C. Bachaud",
+      "sequence": 11,
+      "roles": [
+        "Filpatrick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4463494",
+      "name": "Charley Vance",
+      "sequence": 12,
+      "roles": [
+        "Preacher"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0504832",
       "name": "Tracy Letts",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0504832",
       "name": "Tracy Letts",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play \"Killer Joe\")",
-      "group_id": 1
+      "notes": "(play \"Killer Joe\")"
     }
   ],
   "release_date": "2011-09-08",

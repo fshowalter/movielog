@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0028010",
   "sort_title": "My Man Godfrey (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Godfrey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001479",
-      "name": "Carole Lombard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Irene Bullock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103567",
-      "name": "Alice Brady",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Angelica Bullock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665850",
-      "name": "Gail Patrick",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cornelia Bullock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657874",
-      "name": "Eugene Pallette",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alexander Bullock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0228863",
-      "name": "Jean Dixon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Molly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tommy Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041681",
-      "name": "Mischa Auer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Carlo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280900",
-      "name": "Pat Flaherty",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mike Flaherty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0509941",
-      "name": "Robert Light",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Faithful George"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0478441",
@@ -101,48 +9,140 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Godfrey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001479",
+      "name": "Carole Lombard",
+      "sequence": 1,
+      "roles": [
+        "Irene Bullock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0103567",
+      "name": "Alice Brady",
+      "sequence": 2,
+      "roles": [
+        "Angelica Bullock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665850",
+      "name": "Gail Patrick",
+      "sequence": 3,
+      "roles": [
+        "Cornelia Bullock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0657874",
+      "name": "Eugene Pallette",
+      "sequence": 4,
+      "roles": [
+        "Alexander Bullock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0228863",
+      "name": "Jean Dixon",
+      "sequence": 5,
+      "roles": [
+        "Molly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 6,
+      "roles": [
+        "Tommy Gray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041681",
+      "name": "Mischa Auer",
+      "sequence": 7,
+      "roles": [
+        "Carlo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280900",
+      "name": "Pat Flaherty",
+      "sequence": 8,
+      "roles": [
+        "Mike Flaherty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0509941",
+      "name": "Robert Light",
+      "sequence": 9,
+      "roles": [
+        "Faithful George"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0753452",
       "name": "Morrie Ryskind",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0368719",
       "name": "Eric Hatch",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0368719",
       "name": "Eric Hatch",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     },
     {
       "person_imdb_id": "nm0015399",
       "name": "Zoe Akins",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 2
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0478441",
       "name": "Gregory La Cava",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0696190",
       "name": "Robert Presnell Sr.",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 4
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1936-09-01",

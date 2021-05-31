@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0033477",
   "sort_title": "Come Live with Me (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Bill Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001443",
-      "name": "Hedy Lamarr",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Johnny Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0402842",
-      "name": "Ian Hunter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Barton Kendrick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853623",
-      "name": "Verree Teasdale",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Diana Kendrick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576083",
-      "name": "Donald Meek",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Darsie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Barney Grogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039049",
-      "name": "Edward Ashley",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Arnold Stafford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168459",
-      "name": "Ann Codee",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Yvonne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007215",
-      "name": "King Baggot",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Doorman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0212339",
-      "name": "Adeline De Walt Reynolds",
-      "sequence": 9,
-      "notes": "(as Adeline de Walt Reynolds)",
-      "roles": [
-        "Grandma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0650995",
-      "name": "Frank Orth",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jerry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269709",
-      "name": "Frank Faylen",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573024",
-      "name": "Horace McMahon",
-      "sequence": 12,
-      "notes": "(as Horace MacMahon)",
-      "roles": [
-        "Taxi Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583135",
-      "name": "Greta Meyer",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Frieda"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0113284",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Bill Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001443",
+      "name": "Hedy Lamarr",
+      "sequence": 1,
+      "roles": [
+        "Johnny Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0402842",
+      "name": "Ian Hunter",
+      "sequence": 2,
+      "roles": [
+        "Barton Kendrick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853623",
+      "name": "Verree Teasdale",
+      "sequence": 3,
+      "roles": [
+        "Diana Kendrick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576083",
+      "name": "Donald Meek",
+      "sequence": 4,
+      "roles": [
+        "Joe Darsie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 5,
+      "roles": [
+        "Barney Grogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039049",
+      "name": "Edward Ashley",
+      "sequence": 6,
+      "roles": [
+        "Arnold Stafford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168459",
+      "name": "Ann Codee",
+      "sequence": 7,
+      "roles": [
+        "Yvonne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007215",
+      "name": "King Baggot",
+      "sequence": 8,
+      "roles": [
+        "Doorman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0212339",
+      "name": "Adeline De Walt Reynolds",
+      "sequence": 9,
+      "roles": [
+        "Grandma"
+      ],
+      "notes": "(as Adeline de Walt Reynolds)"
+    },
+    {
+      "person_imdb_id": "nm0650995",
+      "name": "Frank Orth",
+      "sequence": 10,
+      "roles": [
+        "Jerry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269709",
+      "name": "Frank Faylen",
+      "sequence": 11,
+      "roles": [
+        "Waiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573024",
+      "name": "Horace McMahon",
+      "sequence": 12,
+      "roles": [
+        "Taxi Driver"
+      ],
+      "notes": "(as Horace MacMahon)"
+    },
+    {
+      "person_imdb_id": "nm0583135",
+      "name": "Greta Meyer",
+      "sequence": 13,
+      "roles": [
+        "Frieda"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0574110",
       "name": "Patterson McNutt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0888144",
       "name": "Virginia Van Upp",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     }
   ],
   "release_date": "1941-01-29",

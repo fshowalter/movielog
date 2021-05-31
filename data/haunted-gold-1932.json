@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0022981",
   "sort_title": "Haunted Gold (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1349117",
-      "name": "Duke",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Duke - His Horse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856077",
-      "name": "Sheila Terry",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Janet Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940617",
-      "name": "Harry Woods",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joe Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017578",
-      "name": "Erville Alderson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Benedict"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389043",
-      "name": "Otto Hoffman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Simon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560442",
-      "name": "Martha Mattox",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913405",
-      "name": "Blue Washington",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Clarence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562770",
-      "name": "Ken Maynard",
-      "sequence": 14,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Rider"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1224044",
-      "name": "Tarzan",
-      "sequence": 17,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Tarzan"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0942611",
@@ -113,20 +21,94 @@
       "notes": "(uncredited) (animation sequences)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1349117",
+      "name": "Duke",
+      "sequence": 1,
+      "roles": [
+        "Duke - His Horse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856077",
+      "name": "Sheila Terry",
+      "sequence": 2,
+      "roles": [
+        "Janet Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940617",
+      "name": "Harry Woods",
+      "sequence": 3,
+      "roles": [
+        "Joe Ryan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017578",
+      "name": "Erville Alderson",
+      "sequence": 4,
+      "roles": [
+        "Benedict"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389043",
+      "name": "Otto Hoffman",
+      "sequence": 5,
+      "roles": [
+        "Simon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560442",
+      "name": "Martha Mattox",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Herman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913405",
+      "name": "Blue Washington",
+      "sequence": 7,
+      "roles": [
+        "Clarence"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0119378",
       "name": "Adele Buffington",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0119378",
       "name": "Adele Buffington",
+      "group": 1,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 1
+      "notes": "(dialogue)"
     }
   ],
   "release_date": "1932-12-17",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0027849",
   "sort_title": "King of the Pecos (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Clayborn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263088",
-      "name": "Muriel Evans",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Belle Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447580",
-      "name": "Cy Kendall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alexander Stiles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1211217",
-      "name": "Jack Rube Clifford",
-      "sequence": 3,
-      "notes": "(as Jack Clifford)",
-      "roles": [
-        "Ash - Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043849",
-      "name": "Arthur Aylesworth",
-      "sequence": 4,
-      "notes": "(as Arthur Aylsworth)",
-      "roles": [
-        "Hank Mathews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371834",
-      "name": "Herbert Heywood",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Josh Billings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322551",
-      "name": "J. Frank Glendon",
-      "sequence": 6,
-      "notes": "(as Frank Glendon)",
-      "roles": [
-        "Brewster - Lawyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0372487",
-      "name": "Edward Hearn",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Eli Jackson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065182",
-      "name": "John Beck",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mr. Clayborn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533712",
-      "name": "Mary MacLaren",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Clayborn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0582445",
-      "name": "Bradley Metcalfe",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Little John"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Pete - Henchman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0437356",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Clayborn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263088",
+      "name": "Muriel Evans",
+      "sequence": 1,
+      "roles": [
+        "Belle Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447580",
+      "name": "Cy Kendall",
+      "sequence": 2,
+      "roles": [
+        "Alexander Stiles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1211217",
+      "name": "Jack Rube Clifford",
+      "sequence": 3,
+      "roles": [
+        "Ash - Henchman"
+      ],
+      "notes": "(as Jack Clifford)"
+    },
+    {
+      "person_imdb_id": "nm0043849",
+      "name": "Arthur Aylesworth",
+      "sequence": 4,
+      "roles": [
+        "Hank Mathews"
+      ],
+      "notes": "(as Arthur Aylsworth)"
+    },
+    {
+      "person_imdb_id": "nm0371834",
+      "name": "Herbert Heywood",
+      "sequence": 5,
+      "roles": [
+        "Josh Billings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0322551",
+      "name": "J. Frank Glendon",
+      "sequence": 6,
+      "roles": [
+        "Brewster - Lawyer"
+      ],
+      "notes": "(as Frank Glendon)"
+    },
+    {
+      "person_imdb_id": "nm0372487",
+      "name": "Edward Hearn",
+      "sequence": 7,
+      "roles": [
+        "Eli Jackson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065182",
+      "name": "John Beck",
+      "sequence": 8,
+      "roles": [
+        "Mr. Clayborn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533712",
+      "name": "Mary MacLaren",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Clayborn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0582445",
+      "name": "Bradley Metcalfe",
+      "sequence": 10,
+      "roles": [
+        "Little John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134831",
+      "name": "Yakima Canutt",
+      "sequence": 11,
+      "roles": [
+        "Pete - Henchman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0566338",
       "name": "Bernard McConville",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0569638",
       "name": "Dorrell McGowan",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0569708",
       "name": "Stuart E. McGowan",
-      "sequence": 0,
-      "notes": "(screenplay) (as Stuart McGowan)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay) (as Stuart McGowan)"
     },
     {
       "person_imdb_id": "nm0566338",
       "name": "Bernard McConville",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     }
   ],
   "release_date": "1936-03-09",

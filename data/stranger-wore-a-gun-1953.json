@@ -1,127 +1,6 @@
 {
   "imdb_id": "tt0046375",
   "sort_title": "Stranger Wore a Gun (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jeff Travis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872456",
-      "name": "Claire Trevor",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Josie Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0919730",
-      "name": "Joan Weldon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Shelby Conroy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534317",
-      "name": "George Macready",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jules Mourret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066166",
-      "name": "Alfonso Bedoya",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Degas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001511",
-      "name": "Lee Marvin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dan Kurth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000308",
-      "name": "Ernest Borgnine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bull Slager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914246",
-      "name": "Pierre Watkin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jason Conroy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899880",
-      "name": "Joseph Vitale",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shorty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079681",
-      "name": "Clem Bevans",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jim Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055736",
-      "name": "Rayford Barnes",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Raider Todd",
-        "Townsman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543319",
-      "name": "Knox Manning",
-      "sequence": 38,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Opening Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876444",
-      "name": "Phil Tully",
-      "sequence": 61,
-      "notes": "",
-      "roles": [
-        "Confederate Soldier",
-        "Barfly"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0211964",
@@ -130,20 +9,132 @@
       "notes": "(as Andre De Toth)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 0,
+      "roles": [
+        "Jeff Travis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0872456",
+      "name": "Claire Trevor",
+      "sequence": 1,
+      "roles": [
+        "Josie Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0919730",
+      "name": "Joan Weldon",
+      "sequence": 2,
+      "roles": [
+        "Shelby Conroy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534317",
+      "name": "George Macready",
+      "sequence": 3,
+      "roles": [
+        "Jules Mourret"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0066166",
+      "name": "Alfonso Bedoya",
+      "sequence": 4,
+      "roles": [
+        "Degas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001511",
+      "name": "Lee Marvin",
+      "sequence": 5,
+      "roles": [
+        "Dan Kurth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000308",
+      "name": "Ernest Borgnine",
+      "sequence": 6,
+      "roles": [
+        "Bull Slager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914246",
+      "name": "Pierre Watkin",
+      "sequence": 7,
+      "roles": [
+        "Jason Conroy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899880",
+      "name": "Joseph Vitale",
+      "sequence": 8,
+      "roles": [
+        "Shorty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079681",
+      "name": "Clem Bevans",
+      "sequence": 9,
+      "roles": [
+        "Jim Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055736",
+      "name": "Rayford Barnes",
+      "sequence": 13,
+      "roles": [
+        "Raider Todd",
+        "Townsman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876444",
+      "name": "Phil Tully",
+      "sequence": 61,
+      "roles": [
+        "Confederate Soldier",
+        "Barfly"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0303930",
       "name": "Kenneth Gamet",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0192356",
       "name": "John W. Cunningham",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based upon\"Yankee Gold\" by) (as John M. Cunningham)",
-      "group_id": 1
+      "notes": "(based upon\"Yankee Gold\" by) (as John M. Cunningham)"
     }
   ],
   "release_date": "1953-07-30",

@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0042899",
   "sort_title": "Rocky Mountain (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "(CSA)",
-      "roles": [
-        "Capt. Lafe Barstow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0943867",
-      "name": "Patrice Wymore",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Johanna Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285401",
-      "name": "Scott Forbes",
-      "sequence": 2,
-      "notes": "(USA)",
-      "roles": [
-        "Lt. Rickey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930711",
-      "name": "Guinn 'Big Boy' Williams",
-      "sequence": 3,
-      "notes": "(CSA) (as Guinn Williams)",
-      "roles": [
-        "Pap Dennison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427934",
-      "name": "Dickie Jones",
-      "sequence": 4,
-      "notes": "(Buck) Wheat (CSA) (as Dick Jones)",
-      "roles": [
-        "Jim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677962",
-      "name": "Howard Petrie",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cole Smith",
-        "California Beal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001620",
-      "name": "Slim Pickens",
-      "sequence": 6,
-      "notes": "(CSA)",
-      "roles": [
-        "Plank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424793",
-      "name": "Chubby Johnson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gil Craigie - Stage Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0377986",
-      "name": "Robert 'Buzz' Henry",
-      "sequence": 8,
-      "notes": "(CSA) (as Buzz Henry)",
-      "roles": [
-        "Kip Waterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941125",
-      "name": "Sheb Wooley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Kay Rawlins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168658",
-      "name": "Peter Coe",
-      "sequence": 10,
-      "notes": "(CSA)",
-      "roles": [
-        "Pierre Duchesne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931621",
-      "name": "Rush Williams",
-      "sequence": 11,
-      "notes": "(CSA)",
-      "roles": [
-        "Jonas Weatherby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 12,
-      "notes": "(USA) (uncredited)",
-      "roles": [
-        "Trooper Ryan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242305",
-      "name": "Steve Dunhill",
-      "sequence": 13,
-      "notes": "(USA) (uncredited)",
-      "roles": [
-        "Sgt. Ash"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0445033",
@@ -138,27 +9,138 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Capt. Lafe Barstow"
+      ],
+      "notes": "(CSA)"
+    },
+    {
+      "person_imdb_id": "nm0943867",
+      "name": "Patrice Wymore",
+      "sequence": 1,
+      "roles": [
+        "Johanna Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285401",
+      "name": "Scott Forbes",
+      "sequence": 2,
+      "roles": [
+        "Lt. Rickey"
+      ],
+      "notes": "(USA)"
+    },
+    {
+      "person_imdb_id": "nm0930711",
+      "name": "Guinn 'Big Boy' Williams",
+      "sequence": 3,
+      "roles": [
+        "Pap Dennison"
+      ],
+      "notes": "(CSA) (as Guinn Williams)"
+    },
+    {
+      "person_imdb_id": "nm0427934",
+      "name": "Dickie Jones",
+      "sequence": 4,
+      "roles": [
+        "Jim"
+      ],
+      "notes": "(Buck) Wheat (CSA) (as Dick Jones)"
+    },
+    {
+      "person_imdb_id": "nm0677962",
+      "name": "Howard Petrie",
+      "sequence": 5,
+      "roles": [
+        "Cole Smith",
+        "California Beal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001620",
+      "name": "Slim Pickens",
+      "sequence": 6,
+      "roles": [
+        "Plank"
+      ],
+      "notes": "(CSA)"
+    },
+    {
+      "person_imdb_id": "nm0424793",
+      "name": "Chubby Johnson",
+      "sequence": 7,
+      "roles": [
+        "Gil Craigie - Stage Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0377986",
+      "name": "Robert 'Buzz' Henry",
+      "sequence": 8,
+      "roles": [
+        "Kip Waterson"
+      ],
+      "notes": "(CSA) (as Buzz Henry)"
+    },
+    {
+      "person_imdb_id": "nm0941125",
+      "name": "Sheb Wooley",
+      "sequence": 9,
+      "roles": [
+        "Kay Rawlins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168658",
+      "name": "Peter Coe",
+      "sequence": 10,
+      "roles": [
+        "Pierre Duchesne"
+      ],
+      "notes": "(CSA)"
+    },
+    {
+      "person_imdb_id": "nm0931621",
+      "name": "Rush Williams",
+      "sequence": 11,
+      "roles": [
+        "Jonas Weatherby"
+      ],
+      "notes": "(CSA)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0588003",
       "name": "Winston Miller",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0494435",
       "name": "Alan Le May",
-      "sequence": 0,
-      "notes": "(screenplay) (as Alan LeMay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay) (as Alan LeMay)"
     },
     {
       "person_imdb_id": "nm0494435",
       "name": "Alan Le May",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"Ghost Mountain\") (as Alan LeMay)",
-      "group_id": 1
+      "notes": "(story \"Ghost Mountain\") (as Alan LeMay)"
     }
   ],
   "release_date": "1950-11-11",

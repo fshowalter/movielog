@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0082696",
   "sort_title": "Madman (1981)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0743417",
-      "name": "Gaylen Ross",
-      "sequence": 0,
-      "notes": "(as Alexis Dubin)",
-      "roles": [
-        "Betsy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279311",
-      "name": "Tony Fish",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "TP"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060062",
-      "name": "Harriet Bass",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Stacy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0429227",
-      "name": "Seth Jones",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163262",
-      "name": "Jan Claire",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Ellie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1071400",
-      "name": "Alex Murphy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133702",
-      "name": "Tom Candela",
-      "sequence": 6,
-      "notes": "(as Jimmy Steele)",
-      "roles": [
-        "Richie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627045",
-      "name": "Frederick Neumann",
-      "sequence": 7,
-      "notes": "(as Carl Fredericks)",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1511554",
-      "name": "Michael Sullivan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dippy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0251220",
-      "name": "Paul Ehlers",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Madman Marz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2985559",
-      "name": "Tom Veilleux",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Tommy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2984269",
-      "name": "Stephen Clark",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jimmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2986542",
-      "name": "Vicki Kenneally",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mary Ellen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2985424",
-      "name": "Shelley Mathes",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Shirley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2985903",
-      "name": "Lori Mathes",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Jeanie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2986024",
-      "name": "Jane Pappidas",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Marz's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2984124",
-      "name": "Travis Sawyer",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Marz's Son"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2984141",
-      "name": "Deidre Higgins",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Marz's Daughter"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0316311",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0743417",
+      "name": "Gaylen Ross",
+      "sequence": 0,
+      "roles": [
+        "Betsy"
+      ],
+      "notes": "(as Alexis Dubin)"
+    },
+    {
+      "person_imdb_id": "nm0279311",
+      "name": "Tony Fish",
+      "sequence": 1,
+      "roles": [
+        "TP"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060062",
+      "name": "Harriet Bass",
+      "sequence": 2,
+      "roles": [
+        "Stacy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0429227",
+      "name": "Seth Jones",
+      "sequence": 3,
+      "roles": [
+        "Dave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163262",
+      "name": "Jan Claire",
+      "sequence": 4,
+      "roles": [
+        "Ellie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1071400",
+      "name": "Alex Murphy",
+      "sequence": 5,
+      "roles": [
+        "Bill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133702",
+      "name": "Tom Candela",
+      "sequence": 6,
+      "roles": [
+        "Richie"
+      ],
+      "notes": "(as Jimmy Steele)"
+    },
+    {
+      "person_imdb_id": "nm0627045",
+      "name": "Frederick Neumann",
+      "sequence": 7,
+      "roles": [
+        "Max"
+      ],
+      "notes": "(as Carl Fredericks)"
+    },
+    {
+      "person_imdb_id": "nm1511554",
+      "name": "Michael Sullivan",
+      "sequence": 8,
+      "roles": [
+        "Dippy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0251220",
+      "name": "Paul Ehlers",
+      "sequence": 9,
+      "roles": [
+        "Madman Marz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2985559",
+      "name": "Tom Veilleux",
+      "sequence": 10,
+      "roles": [
+        "Tommy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2984269",
+      "name": "Stephen Clark",
+      "sequence": 11,
+      "roles": [
+        "Jimmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2986542",
+      "name": "Vicki Kenneally",
+      "sequence": 12,
+      "roles": [
+        "Mary Ellen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2985424",
+      "name": "Shelley Mathes",
+      "sequence": 13,
+      "roles": [
+        "Shirley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2985903",
+      "name": "Lori Mathes",
+      "sequence": 14,
+      "roles": [
+        "Jeanie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2986024",
+      "name": "Jane Pappidas",
+      "sequence": 15,
+      "roles": [
+        "Marz's Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2984124",
+      "name": "Travis Sawyer",
+      "sequence": 16,
+      "roles": [
+        "Marz's Son"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2984141",
+      "name": "Deidre Higgins",
+      "sequence": 17,
+      "roles": [
+        "Marz's Daughter"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0316311",
       "name": "Joe Giannone",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0316311",
       "name": "Joe Giannone",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0758111",
       "name": "Gary Sales",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1981-10-30",

@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0034384",
   "sort_title": "Western Union (1941)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001870",
-      "name": "Robert Young",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Richard Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000068",
-      "name": "Randolph Scott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Vance Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Edward Creighton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0319582",
-      "name": "Virginia Gilmore",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sue Creighton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Doc Murdoch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838843",
-      "name": "Slim Summerville",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Herman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932629",
-      "name": "Chill Wills",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Homer Kettle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jack Slade"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382954",
-      "name": "Russell Hicks",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Governor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0453081",
-      "name": "Victor Kilian",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914808",
-      "name": "Minor Watson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Pat Grogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151370",
-      "name": "George Chandler",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Herb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081697",
-      "name": "Chief John Big Tree",
-      "sequence": 12,
-      "notes": "(as Chief Big Tree)",
-      "roles": [
-        "Chief Spotted Horse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862086",
-      "name": "Chief Thundercloud",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Indian Leader"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723634",
-      "name": "Dick Rich",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Porky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723935",
-      "name": "Addison Richards",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Capt. Harlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045784",
-      "name": "Irving Bacon",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Barber"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -164,41 +9,196 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001870",
+      "name": "Robert Young",
+      "sequence": 0,
+      "roles": [
+        "Richard Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000068",
+      "name": "Randolph Scott",
+      "sequence": 1,
+      "roles": [
+        "Vance Shaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 2,
+      "roles": [
+        "Edward Creighton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0319582",
+      "name": "Virginia Gilmore",
+      "sequence": 3,
+      "roles": [
+        "Sue Creighton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 4,
+      "roles": [
+        "Doc Murdoch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838843",
+      "name": "Slim Summerville",
+      "sequence": 5,
+      "roles": [
+        "Herman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932629",
+      "name": "Chill Wills",
+      "sequence": 6,
+      "roles": [
+        "Homer Kettle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 7,
+      "roles": [
+        "Jack Slade"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382954",
+      "name": "Russell Hicks",
+      "sequence": 8,
+      "roles": [
+        "Governor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0453081",
+      "name": "Victor Kilian",
+      "sequence": 9,
+      "roles": [
+        "Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914808",
+      "name": "Minor Watson",
+      "sequence": 10,
+      "roles": [
+        "Pat Grogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151370",
+      "name": "George Chandler",
+      "sequence": 11,
+      "roles": [
+        "Herb"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0081697",
+      "name": "Chief John Big Tree",
+      "sequence": 12,
+      "roles": [
+        "Chief Spotted Horse"
+      ],
+      "notes": "(as Chief Big Tree)"
+    },
+    {
+      "person_imdb_id": "nm0862086",
+      "name": "Chief Thundercloud",
+      "sequence": 13,
+      "roles": [
+        "Indian Leader"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723634",
+      "name": "Dick Rich",
+      "sequence": 14,
+      "roles": [
+        "Porky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0723935",
+      "name": "Addison Richards",
+      "sequence": 15,
+      "roles": [
+        "Capt. Harlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0045784",
+      "name": "Irving Bacon",
+      "sequence": 16,
+      "roles": [
+        "Barber"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0340719",
       "name": "Zane Grey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0308604",
       "name": "Robert Carson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0028682",
       "name": "Jack Andrews",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to dialogue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0115482",
       "name": "George Bruce",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributing writer) (uncredited)",
-      "group_id": 3
+      "notes": "(contributing writer) (uncredited)"
     },
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
+      "group": 4,
       "sequence": 0,
-      "notes": "(contributor to dialogue) (uncredited)",
-      "group_id": 4
+      "notes": "(contributor to dialogue) (uncredited)"
     }
   ],
   "release_date": "1941-01-31",

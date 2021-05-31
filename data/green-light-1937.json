@@ -1,173 +1,6 @@
 {
   "imdb_id": "tt0028958",
   "sort_title": "Green Light (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Newell Paige"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521937",
-      "name": "Anita Louise",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Phyllis Dexter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frances Ogilvie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362567",
-      "name": "Cedric Hardwicke",
-      "sequence": 3,
-      "notes": "(as Sir Cedric Hardwicke)",
-      "roles": [
-        "Dean Harcourt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0008496",
-      "name": "Walter Abel",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John Stafford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Endicott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001981",
-      "name": "Spring Byington",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Dexter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639895",
-      "name": "Erin O'Brien-Moore",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pat Arlen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464137",
-      "name": "Henry Kolker",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dr. Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914246",
-      "name": "Pierre Watkin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dr. Booth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060912",
-      "name": "Granville Bates",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0801193",
-      "name": "Russell Simpson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Sheep Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824332",
-      "name": "Myrtle Stedman",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "A Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1286909",
-      "name": "St. Luke's Episcopal Church Choristers",
-      "sequence": 13,
-      "notes": "(as St. Luke's Choristers)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0151356",
-      "name": "Eddy Chandler",
-      "sequence": 14,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164003",
-      "name": "Harvey Clark",
-      "sequence": 15,
-      "notes": "(scenesDeleted)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0267650",
-      "name": "Jim Farley",
-      "sequence": 16,
-      "notes": "(scenesDeleted)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0448259",
-      "name": "Noel Kennedy",
-      "sequence": 17,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "English Messenger Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452133",
-      "name": "Milton Kibbee",
-      "sequence": 18,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Other Man"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0097648",
@@ -176,20 +9,187 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Dr. Newell Paige"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0521937",
+      "name": "Anita Louise",
+      "sequence": 1,
+      "roles": [
+        "Phyllis Dexter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 2,
+      "roles": [
+        "Frances Ogilvie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362567",
+      "name": "Cedric Hardwicke",
+      "sequence": 3,
+      "roles": [
+        "Dean Harcourt"
+      ],
+      "notes": "(as Sir Cedric Hardwicke)"
+    },
+    {
+      "person_imdb_id": "nm0008496",
+      "name": "Walter Abel",
+      "sequence": 4,
+      "roles": [
+        "John Stafford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 5,
+      "roles": [
+        "Dr. Endicott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001981",
+      "name": "Spring Byington",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Dexter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639895",
+      "name": "Erin O'Brien-Moore",
+      "sequence": 7,
+      "roles": [
+        "Pat Arlen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0464137",
+      "name": "Henry Kolker",
+      "sequence": 8,
+      "roles": [
+        "Dr. Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914246",
+      "name": "Pierre Watkin",
+      "sequence": 9,
+      "roles": [
+        "Dr. Booth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060912",
+      "name": "Granville Bates",
+      "sequence": 10,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0801193",
+      "name": "Russell Simpson",
+      "sequence": 11,
+      "roles": [
+        "Sheep Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824332",
+      "name": "Myrtle Stedman",
+      "sequence": 12,
+      "roles": [
+        "A Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1286909",
+      "name": "St. Luke's Episcopal Church Choristers",
+      "sequence": 13,
+      "roles": [],
+      "notes": "(as St. Luke's Choristers)"
+    },
+    {
+      "person_imdb_id": "nm0151356",
+      "name": "Eddy Chandler",
+      "sequence": 14,
+      "roles": [
+        "Policeman"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0164003",
+      "name": "Harvey Clark",
+      "sequence": 15,
+      "roles": [],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0267650",
+      "name": "Jim Farley",
+      "sequence": 16,
+      "roles": [],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0448259",
+      "name": "Noel Kennedy",
+      "sequence": 17,
+      "roles": [
+        "English Messenger Boy"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0452133",
+      "name": "Milton Kibbee",
+      "sequence": 18,
+      "roles": [
+        "Other Man"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0471341",
       "name": "Milton Krims",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0235160",
       "name": "Lloyd C. Douglas",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 1
+      "notes": "(from the novel by)"
     }
   ],
   "release_date": "1937-02-12",

@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0051887",
   "sort_title": "Machine-Gun Kelly (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000314",
-      "name": "Charles Bronson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "George R. 'Machine Gun' Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0127693",
-      "name": "Susan Cabot",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Florence 'Flo' Becker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025440",
-      "name": "Morey Amsterdam",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Michael Fandango"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222878",
-      "name": "Richard Devon",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Apple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483173",
-      "name": "Jack Lambert",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215308",
-      "name": "Frank DeKova",
-      "sequence": 5,
-      "notes": "(as Frank De Kova)",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318349",
-      "name": "Connie Gilchrist",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "'Ma' Becker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133140",
-      "name": "Wally Campo",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Maize"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0606371",
-      "name": "Barboura Morris",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lynn Grayson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552700",
-      "name": "Lori Martin",
-      "sequence": 9,
-      "notes": "(as Dawn Menzer)",
-      "roles": [
-        "Sherryl Vito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033609",
-      "name": "George Archambeault",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Frank"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341351",
-      "name": "Robert Griffin",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mr. Andrew Vito"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289147",
-      "name": "Michael Fox",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective Clinton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861158",
-      "name": "Larry Thor",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Detective Drummond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0266481",
-      "name": "Shirley Falls",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Martha"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -146,13 +9,150 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000314",
+      "name": "Charles Bronson",
+      "sequence": 0,
+      "roles": [
+        "George R. 'Machine Gun' Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0127693",
+      "name": "Susan Cabot",
+      "sequence": 1,
+      "roles": [
+        "Florence 'Flo' Becker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0025440",
+      "name": "Morey Amsterdam",
+      "sequence": 2,
+      "roles": [
+        "Michael Fandango"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222878",
+      "name": "Richard Devon",
+      "sequence": 3,
+      "roles": [
+        "Apple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483173",
+      "name": "Jack Lambert",
+      "sequence": 4,
+      "roles": [
+        "Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215308",
+      "name": "Frank DeKova",
+      "sequence": 5,
+      "roles": [
+        "Harry"
+      ],
+      "notes": "(as Frank De Kova)"
+    },
+    {
+      "person_imdb_id": "nm0318349",
+      "name": "Connie Gilchrist",
+      "sequence": 6,
+      "roles": [
+        "'Ma' Becker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133140",
+      "name": "Wally Campo",
+      "sequence": 7,
+      "roles": [
+        "Maize"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0606371",
+      "name": "Barboura Morris",
+      "sequence": 8,
+      "roles": [
+        "Lynn Grayson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552700",
+      "name": "Lori Martin",
+      "sequence": 9,
+      "roles": [
+        "Sherryl Vito"
+      ],
+      "notes": "(as Dawn Menzer)"
+    },
+    {
+      "person_imdb_id": "nm0033609",
+      "name": "George Archambeault",
+      "sequence": 10,
+      "roles": [
+        "Frank"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341351",
+      "name": "Robert Griffin",
+      "sequence": 11,
+      "roles": [
+        "Mr. Andrew Vito"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289147",
+      "name": "Michael Fox",
+      "sequence": 12,
+      "roles": [
+        "Detective Clinton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861158",
+      "name": "Larry Thor",
+      "sequence": 13,
+      "roles": [
+        "Detective Drummond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0266481",
+      "name": "Shirley Falls",
+      "sequence": 14,
+      "roles": [
+        "Martha"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0132790",
       "name": "R. Wright Campbell",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1958-05-01",

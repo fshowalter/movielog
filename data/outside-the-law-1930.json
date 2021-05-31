@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0021224",
   "sort_title": "Outside the Law (1930)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0634322",
-      "name": "Mary Nolan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Connie Madden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000064",
-      "name": "Edward G. Robinson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cobra Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601698",
-      "name": "Owen Moore",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harry 'Fingers' O'Dell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271503",
-      "name": "Rockliffe Fellowes",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Police Captain Fred O'Reilly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914584",
-      "name": "Delmar Watson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Kid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0836363",
-      "name": "Eddie Sturgis",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313478",
-      "name": "John George",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Humpy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -74,27 +9,92 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0634322",
+      "name": "Mary Nolan",
+      "sequence": 0,
+      "roles": [
+        "Connie Madden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000064",
+      "name": "Edward G. Robinson",
+      "sequence": 1,
+      "roles": [
+        "Cobra Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601698",
+      "name": "Owen Moore",
+      "sequence": 2,
+      "roles": [
+        "Harry 'Fingers' O'Dell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271503",
+      "name": "Rockliffe Fellowes",
+      "sequence": 3,
+      "roles": [
+        "Police Captain Fred O'Reilly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914584",
+      "name": "Delmar Watson",
+      "sequence": 4,
+      "roles": [
+        "The Kid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0836363",
+      "name": "Eddie Sturgis",
+      "sequence": 5,
+      "roles": [
+        "Jake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313478",
+      "name": "John George",
+      "sequence": 6,
+      "roles": [
+        "Humpy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0115218",
       "name": "Tod Browning",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0115218",
       "name": "Tod Browning",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0287124",
       "name": "Garrett Fort",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1930-09-18",

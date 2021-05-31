@@ -1,153 +1,6 @@
 {
   "imdb_id": "tt0023955",
   "sort_title": "Doctor Bull (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0737259",
-      "name": "Will Rogers",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. George 'Doc' Bull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0021136",
-      "name": "Vera Allen",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. Janet Cardmaker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0633260",
-      "name": "Marian Nixon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "May Tupping - Telephone Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0482464",
-      "name": "Howard Lally",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joe Tupping"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161414",
-      "name": "Berton Churchill",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Herbert Banning - Janet's Brother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0237571",
-      "name": "Louise Dresser",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Herbert Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222596",
-      "name": "Andy Devine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Larry Ward, Sodajerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399955",
-      "name": "Rochelle Hudson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Virginia",
-        "Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0683114",
-      "name": "Tempe Pigott",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Grandma Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0666201",
-      "name": "Elizabeth Patterson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Aunt Patricia Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0147704",
-      "name": "Nora Cecil",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Aunt Emily Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604960",
-      "name": "Ralph Morgan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dr. Verney - Owner Verney Laboratory"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639925",
-      "name": "Patsy O'Byrne",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Susan - Dr. Bull's Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0118536",
-      "name": "Veda Buckland",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mary - Janet's Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255285",
-      "name": "Effie Ellsler",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Aunt Myra Bull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293415",
-      "name": "Helen Freeman",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Helen Upjohn - New Winton Postmistress"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -156,27 +9,174 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0737259",
+      "name": "Will Rogers",
+      "sequence": 0,
+      "roles": [
+        "Dr. George 'Doc' Bull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0021136",
+      "name": "Vera Allen",
+      "sequence": 1,
+      "roles": [
+        "Mrs. Janet Cardmaker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0633260",
+      "name": "Marian Nixon",
+      "sequence": 2,
+      "roles": [
+        "May Tupping - Telephone Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482464",
+      "name": "Howard Lally",
+      "sequence": 3,
+      "roles": [
+        "Joe Tupping"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161414",
+      "name": "Berton Churchill",
+      "sequence": 4,
+      "roles": [
+        "Herbert Banning - Janet's Brother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0237571",
+      "name": "Louise Dresser",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Herbert Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222596",
+      "name": "Andy Devine",
+      "sequence": 6,
+      "roles": [
+        "Larry Ward, Sodajerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399955",
+      "name": "Rochelle Hudson",
+      "sequence": 7,
+      "roles": [
+        "Virginia",
+        "Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0683114",
+      "name": "Tempe Pigott",
+      "sequence": 8,
+      "roles": [
+        "Grandma Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0666201",
+      "name": "Elizabeth Patterson",
+      "sequence": 9,
+      "roles": [
+        "Aunt Patricia Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0147704",
+      "name": "Nora Cecil",
+      "sequence": 10,
+      "roles": [
+        "Aunt Emily Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604960",
+      "name": "Ralph Morgan",
+      "sequence": 11,
+      "roles": [
+        "Dr. Verney - Owner Verney Laboratory"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639925",
+      "name": "Patsy O'Byrne",
+      "sequence": 12,
+      "roles": [
+        "Susan - Dr. Bull's Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0118536",
+      "name": "Veda Buckland",
+      "sequence": 13,
+      "roles": [
+        "Mary - Janet's Maid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255285",
+      "name": "Effie Ellsler",
+      "sequence": 14,
+      "roles": [
+        "Aunt Myra Bull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293415",
+      "name": "Helen Freeman",
+      "sequence": 15,
+      "roles": [
+        "Helen Upjohn - New Winton Postmistress"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0185516",
       "name": "James Gould Cozzens",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Last Adam\")",
-      "group_id": 0
+      "notes": "(novel \"The Last Adam\")"
     },
     {
       "person_imdb_id": "nm0338233",
       "name": "Paul Green",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0458934",
       "name": "Philip Klein",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1933-09-01",

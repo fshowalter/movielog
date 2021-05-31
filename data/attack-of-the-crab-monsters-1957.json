@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0050147",
   "sort_title": "Attack of the Crab Monsters (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0307560",
-      "name": "Richard Garland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dale Brewer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242056",
-      "name": "Pamela Duncan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Martha Hunter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426157",
-      "name": "Russell Johnson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Hank Chapman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103320",
-      "name": "Leslie Bradley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Karl Weigand"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003203",
-      "name": "Mel Welles",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jules Deveroux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0194023",
-      "name": "Richard H. Cutting",
-      "sequence": 5,
-      "notes": "(as Richard Cutting)",
-      "roles": [
-        "Dr. James Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0225398",
-      "name": "Beach Dickerson",
-      "sequence": 6,
-      "notes": "(as Beech Dickerson)",
-      "roles": [
-        "Seaman Ron Fellows"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0589454",
-      "name": "Tony Miller",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Seaman Jack Sommers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625343",
-      "name": "Ed Nelson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lt. Quinlan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0727160",
-      "name": "Robin Riley",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Seaman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730249",
-      "name": "Doug Roberts",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Seaman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -110,13 +9,114 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0307560",
+      "name": "Richard Garland",
+      "sequence": 0,
+      "roles": [
+        "Dale Brewer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242056",
+      "name": "Pamela Duncan",
+      "sequence": 1,
+      "roles": [
+        "Martha Hunter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0426157",
+      "name": "Russell Johnson",
+      "sequence": 2,
+      "roles": [
+        "Hank Chapman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0103320",
+      "name": "Leslie Bradley",
+      "sequence": 3,
+      "roles": [
+        "Dr. Karl Weigand"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003203",
+      "name": "Mel Welles",
+      "sequence": 4,
+      "roles": [
+        "Jules Deveroux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0194023",
+      "name": "Richard H. Cutting",
+      "sequence": 5,
+      "roles": [
+        "Dr. James Carson"
+      ],
+      "notes": "(as Richard Cutting)"
+    },
+    {
+      "person_imdb_id": "nm0225398",
+      "name": "Beach Dickerson",
+      "sequence": 6,
+      "roles": [
+        "Seaman Ron Fellows"
+      ],
+      "notes": "(as Beech Dickerson)"
+    },
+    {
+      "person_imdb_id": "nm0589454",
+      "name": "Tony Miller",
+      "sequence": 7,
+      "roles": [
+        "Seaman Jack Sommers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625343",
+      "name": "Ed Nelson",
+      "sequence": 8,
+      "roles": [
+        "Lt. Quinlan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0727160",
+      "name": "Robin Riley",
+      "sequence": 9,
+      "roles": [
+        "Seaman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730249",
+      "name": "Doug Roberts",
+      "sequence": 10,
+      "roles": [
+        "Seaman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0341458",
       "name": "Charles B. Griffith",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by) (as Charles Griffith)",
-      "group_id": 0
+      "notes": "(screenplay by) (as Charles Griffith)"
     }
   ],
   "release_date": "1957-02-10",

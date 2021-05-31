@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0038205",
   "sort_title": "Unseen (1945)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0566948",
-      "name": "Joel McCrea",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "David Fielding"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751149",
-      "name": "Gail Russell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Elizabeth Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003339",
-      "name": "Herbert Marshall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Charles Evans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112198",
-      "name": "Phyllis Brooks",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Maxine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255695",
-      "name": "Isobel Elsom",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marian Tygarth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516093",
-      "name": "Norman Lloyd",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Jasper Goodwin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711566",
-      "name": "Mikhail Rasumny",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728230",
-      "name": "Elisabeth Risdon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mrs. Norris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341577",
-      "name": "Nona Griffith",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ellen Fielding"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528973",
-      "name": "Richard Lyon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Barnaby Fielding"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172615",
-      "name": "Ray Collins",
-      "sequence": 16,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Off-screen narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0020765",
@@ -119,41 +9,142 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0566948",
+      "name": "Joel McCrea",
+      "sequence": 0,
+      "roles": [
+        "David Fielding"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751149",
+      "name": "Gail Russell",
+      "sequence": 1,
+      "roles": [
+        "Elizabeth Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003339",
+      "name": "Herbert Marshall",
+      "sequence": 2,
+      "roles": [
+        "Dr. Charles Evans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112198",
+      "name": "Phyllis Brooks",
+      "sequence": 3,
+      "roles": [
+        "Maxine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255695",
+      "name": "Isobel Elsom",
+      "sequence": 4,
+      "roles": [
+        "Marian Tygarth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516093",
+      "name": "Norman Lloyd",
+      "sequence": 5,
+      "roles": [
+        "Jasper Goodwin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711566",
+      "name": "Mikhail Rasumny",
+      "sequence": 6,
+      "roles": [
+        "Chester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728230",
+      "name": "Elisabeth Risdon",
+      "sequence": 7,
+      "roles": [
+        "Mrs. Norris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 8,
+      "roles": [
+        "Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341577",
+      "name": "Nona Griffith",
+      "sequence": 9,
+      "roles": [
+        "Ellen Fielding"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528973",
+      "name": "Richard Lyon",
+      "sequence": 10,
+      "roles": [
+        "Barnaby Fielding"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0928444",
       "name": "Hagar Wilde",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0928444",
       "name": "Hagar Wilde",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0257700",
       "name": "Ken Englund",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0924781",
       "name": "Ethel Lina White",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"Her Heart in Her Throat\")",
-      "group_id": 2
+      "notes": "(novel \"Her Heart in Her Throat\")"
     }
   ],
   "release_date": "1945-05-12",

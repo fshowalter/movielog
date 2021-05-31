@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt1187064",
   "sort_title": "Triangle (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0313534",
-      "name": "Melissa George",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3620280",
-      "name": "Joshua McIvor",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tommy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3815288",
-      "name": "Jack Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jack"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1168915",
-      "name": "Michael Dorman",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Greg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1285178",
-      "name": "Henry Nixon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Downey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139257",
-      "name": "Rachael Carpani",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1344335",
-      "name": "Emma Lung",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Heather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2955013",
-      "name": "Liam Hemsworth",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Victor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2159255",
-      "name": "Bryan Probets",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm1247462",
@@ -92,13 +9,96 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0313534",
+      "name": "Melissa George",
+      "sequence": 0,
+      "roles": [
+        "Jess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3620280",
+      "name": "Joshua McIvor",
+      "sequence": 1,
+      "roles": [
+        "Tommy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3815288",
+      "name": "Jack Taylor",
+      "sequence": 2,
+      "roles": [
+        "Jack"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1168915",
+      "name": "Michael Dorman",
+      "sequence": 3,
+      "roles": [
+        "Greg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1285178",
+      "name": "Henry Nixon",
+      "sequence": 4,
+      "roles": [
+        "Downey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0139257",
+      "name": "Rachael Carpani",
+      "sequence": 5,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1344335",
+      "name": "Emma Lung",
+      "sequence": 6,
+      "roles": [
+        "Heather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2955013",
+      "name": "Liam Hemsworth",
+      "sequence": 7,
+      "roles": [
+        "Victor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2159255",
+      "name": "Bryan Probets",
+      "sequence": 8,
+      "roles": [
+        "Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm1247462",
       "name": "Christopher Smith",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-08-27",

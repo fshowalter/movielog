@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0062185",
   "sort_title": "Reflections in a Golden Eye (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000072",
-      "name": "Elizabeth Taylor",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Leonora Penderton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000008",
-      "name": "Marlon Brando",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Maj. Weldon Penderton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001417",
-      "name": "Brian Keith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Col. Morris Langdon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364915",
-      "name": "Julie Harris",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Alison Langdon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203096",
-      "name": "Zorro David",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Anacleto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593369",
-      "name": "Gordon Mitchell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Stables Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0240805",
-      "name": "Irvin Dugan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Capt. Murray Weincheck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816981",
-      "name": "Fay Sparks",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Susie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001233",
-      "name": "Robert Forster",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pvt. L.G. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0582726",
-      "name": "Ed Metzger",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pvt. Frank Brian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726403",
-      "name": "Robert Rietty",
-      "sequence": 17,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Anacleto"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -110,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000072",
+      "name": "Elizabeth Taylor",
+      "sequence": 0,
+      "roles": [
+        "Leonora Penderton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000008",
+      "name": "Marlon Brando",
+      "sequence": 1,
+      "roles": [
+        "Maj. Weldon Penderton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001417",
+      "name": "Brian Keith",
+      "sequence": 2,
+      "roles": [
+        "Lt. Col. Morris Langdon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364915",
+      "name": "Julie Harris",
+      "sequence": 3,
+      "roles": [
+        "Alison Langdon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203096",
+      "name": "Zorro David",
+      "sequence": 4,
+      "roles": [
+        "Anacleto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593369",
+      "name": "Gordon Mitchell",
+      "sequence": 5,
+      "roles": [
+        "Stables Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0240805",
+      "name": "Irvin Dugan",
+      "sequence": 6,
+      "roles": [
+        "Capt. Murray Weincheck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816981",
+      "name": "Fay Sparks",
+      "sequence": 7,
+      "roles": [
+        "Susie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001233",
+      "name": "Robert Forster",
+      "sequence": 8,
+      "roles": [
+        "Pvt. L.G. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0582726",
+      "name": "Ed Metzger",
+      "sequence": 9,
+      "roles": [
+        "Pvt. Frank Brian"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0607852",
       "name": "Chapman Mortimer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0384283",
       "name": "Gladys Hill",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0567111",
       "name": "Carson McCullers",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1967-10-11",

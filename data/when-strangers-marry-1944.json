@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0037458",
   "sort_title": "When Strangers Marry (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0415591",
-      "name": "Dean Jagger",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Paul Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001375",
-      "name": "Kim Hunter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mildred Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Fred Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358076",
-      "name": "Neil Hamilton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Police Lieutenant Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0523912",
-      "name": "Lou Lubin",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jacob Houser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452133",
-      "name": "Milton Kibbee",
-      "sequence": 5,
-      "notes": "(as Milt Kibbee)",
-      "roles": [
-        "Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732552",
-      "name": "Dewey Robinson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Newsstand Owner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926280",
-      "name": "Claire Whitney",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Middle-Aged Wife on Train"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443849",
-      "name": "Edward Keane",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Middle - Aged Husband on Train"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0757943",
-      "name": "Virginia Sale",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hotel Chambermaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254424",
-      "name": "Dick Elliott",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sam Prescott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0925113",
-      "name": "Lee 'Lasses' White",
-      "sequence": 11,
-      "notes": "(as Lee White)",
-      "roles": [
-        "Old Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0594022",
-      "name": "Marta Mitrovich",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Baby's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625180",
-      "name": "Billy Nelson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Louisville Driver"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0145336",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0415591",
+      "name": "Dean Jagger",
+      "sequence": 0,
+      "roles": [
+        "Paul Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001375",
+      "name": "Kim Hunter",
+      "sequence": 1,
+      "roles": [
+        "Mildred Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 2,
+      "roles": [
+        "Fred Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358076",
+      "name": "Neil Hamilton",
+      "sequence": 3,
+      "roles": [
+        "Police Lieutenant Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0523912",
+      "name": "Lou Lubin",
+      "sequence": 4,
+      "roles": [
+        "Jacob Houser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452133",
+      "name": "Milton Kibbee",
+      "sequence": 5,
+      "roles": [
+        "Charlie"
+      ],
+      "notes": "(as Milt Kibbee)"
+    },
+    {
+      "person_imdb_id": "nm0732552",
+      "name": "Dewey Robinson",
+      "sequence": 6,
+      "roles": [
+        "Newsstand Owner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926280",
+      "name": "Claire Whitney",
+      "sequence": 7,
+      "roles": [
+        "Middle-Aged Wife on Train"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0443849",
+      "name": "Edward Keane",
+      "sequence": 8,
+      "roles": [
+        "Middle - Aged Husband on Train"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0757943",
+      "name": "Virginia Sale",
+      "sequence": 9,
+      "roles": [
+        "Hotel Chambermaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254424",
+      "name": "Dick Elliott",
+      "sequence": 10,
+      "roles": [
+        "Sam Prescott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0925113",
+      "name": "Lee 'Lasses' White",
+      "sequence": 11,
+      "roles": [
+        "Old Man"
+      ],
+      "notes": "(as Lee White)"
+    },
+    {
+      "person_imdb_id": "nm0594022",
+      "name": "Marta Mitrovich",
+      "sequence": 12,
+      "roles": [
+        "Baby's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625180",
+      "name": "Billy Nelson",
+      "sequence": 13,
+      "roles": [
+        "Louisville Driver"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0948634",
       "name": "Philip Yordan",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0177983",
       "name": "Dennis J. Cooper",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0608763",
       "name": "George Moskov",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1944-08-21",

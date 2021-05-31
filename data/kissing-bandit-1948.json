@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0040513",
   "sort_title": "Kissing Bandit (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ricardo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337113",
-      "name": "Kathryn Grayson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Teresa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619798",
-      "name": "J. Carrol Naish",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Chico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622450",
-      "name": "Mildred Natwick",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Isabella"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711566",
-      "name": "Mikhail Rasumny",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Don Jose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317970",
-      "name": "Billy Gilbert",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "General Felipe Toro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0651522",
-      "name": "Sono Osato",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bianca"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839069",
-      "name": "Clinton Sundberg",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Colonel Gomez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949356",
-      "name": "Carleton G. Young",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Count Ricardo Belmonte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001544",
-      "name": "Ricardo Montalban",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Fiesta Specialty Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587900",
-      "name": "Ann Miller",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Fiesta Specialty Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001998",
-      "name": "Cyd Charisse",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0804240",
-      "name": "Edna Skinner",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Juanita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0351278",
-      "name": "Vicente G\u00f3mez",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mexican Guitarist"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0070670",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "Ricardo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337113",
+      "name": "Kathryn Grayson",
+      "sequence": 1,
+      "roles": [
+        "Teresa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619798",
+      "name": "J. Carrol Naish",
+      "sequence": 2,
+      "roles": [
+        "Chico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622450",
+      "name": "Mildred Natwick",
+      "sequence": 3,
+      "roles": [
+        "Isabella"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711566",
+      "name": "Mikhail Rasumny",
+      "sequence": 4,
+      "roles": [
+        "Don Jose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317970",
+      "name": "Billy Gilbert",
+      "sequence": 5,
+      "roles": [
+        "General Felipe Toro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0651522",
+      "name": "Sono Osato",
+      "sequence": 6,
+      "roles": [
+        "Bianca"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839069",
+      "name": "Clinton Sundberg",
+      "sequence": 7,
+      "roles": [
+        "Colonel Gomez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949356",
+      "name": "Carleton G. Young",
+      "sequence": 8,
+      "roles": [
+        "Count Ricardo Belmonte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001544",
+      "name": "Ricardo Montalban",
+      "sequence": 9,
+      "roles": [
+        "Fiesta Specialty Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587900",
+      "name": "Ann Miller",
+      "sequence": 10,
+      "roles": [
+        "Fiesta Specialty Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001998",
+      "name": "Cyd Charisse",
+      "sequence": 11,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0804240",
+      "name": "Edna Skinner",
+      "sequence": 12,
+      "roles": [
+        "Juanita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0351278",
+      "name": "Vicente G\u00f3mez",
+      "sequence": 13,
+      "roles": [
+        "Mexican Guitarist"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0362337",
       "name": "John Briard Harding",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0501973",
       "name": "Isobel Lennart",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     }
   ],
   "release_date": "1948-11-18",

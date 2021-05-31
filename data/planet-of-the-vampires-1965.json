@@ -1,121 +1,6 @@
 {
   "imdb_id": "tt0059792",
   "sort_title": "Planet of the Vampires (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0837959",
-      "name": "Barry Sullivan",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Mark Markary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071034",
-      "name": "Norma Bengell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sanya"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0033007",
-      "name": "\u00c1ngel Aranda",
-      "sequence": 2,
-      "notes": "(as Angel Aranda)",
-      "roles": [
-        "Wess Wescant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0544826",
-      "name": "Evi Marandi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tiona"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133719",
-      "name": "Stelio Candelli",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Brad",
-        "Mud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028321",
-      "name": "Franco Andrei",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Bert",
-        "Garr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0892621",
-      "name": "Fernando Villena",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Karan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602699",
-      "name": "Mario Morales",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Eldon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0711501",
-      "name": "Ivan Rassimov",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Carter",
-        "Dervy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092231",
-      "name": "Federico Boido",
-      "sequence": 9,
-      "notes": "(as Rico Boido)",
-      "roles": [
-        "Keir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077795",
-      "name": "Alberto Cevenini",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Toby Markary",
-        "Wan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0726741",
-      "name": "Massimo Righi",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Capt. Sallas",
-        "Nordeg"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -124,76 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0837959",
+      "name": "Barry Sullivan",
+      "sequence": 0,
+      "roles": [
+        "Capt. Mark Markary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071034",
+      "name": "Norma Bengell",
+      "sequence": 1,
+      "roles": [
+        "Sanya"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0033007",
+      "name": "\u00c1ngel Aranda",
+      "sequence": 2,
+      "roles": [
+        "Wess Wescant"
+      ],
+      "notes": "(as Angel Aranda)"
+    },
+    {
+      "person_imdb_id": "nm0544826",
+      "name": "Evi Marandi",
+      "sequence": 3,
+      "roles": [
+        "Tiona"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133719",
+      "name": "Stelio Candelli",
+      "sequence": 4,
+      "roles": [
+        "Brad",
+        "Mud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028321",
+      "name": "Franco Andrei",
+      "sequence": 5,
+      "roles": [
+        "Bert",
+        "Garr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0892621",
+      "name": "Fernando Villena",
+      "sequence": 6,
+      "roles": [
+        "Dr. Karan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602699",
+      "name": "Mario Morales",
+      "sequence": 7,
+      "roles": [
+        "Eldon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0711501",
+      "name": "Ivan Rassimov",
+      "sequence": 8,
+      "roles": [
+        "Carter",
+        "Dervy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092231",
+      "name": "Federico Boido",
+      "sequence": 9,
+      "roles": [
+        "Keir"
+      ],
+      "notes": "(as Rico Boido)"
+    },
+    {
+      "person_imdb_id": "nm0077795",
+      "name": "Alberto Cevenini",
+      "sequence": 10,
+      "roles": [
+        "Toby Markary",
+        "Wan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0726741",
+      "name": "Massimo Righi",
+      "sequence": 12,
+      "roles": [
+        "Capt. Sallas",
+        "Nordeg"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0676119",
       "name": "Renato Pestriniero",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story \"One Night of 21 Hours\")",
-      "group_id": 0
+      "notes": "(story \"One Night of 21 Hours\")"
     },
     {
       "person_imdb_id": "nm0577477",
       "name": "Ib Melchior",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0079748",
       "name": "Alberto Bevilacqua",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0182742",
       "name": "Callisto Cosulich",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0739794",
       "name": "Antonio Rom\u00e1n",
-      "sequence": 0,
-      "notes": "(screenplay) (as Antonio Roman)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 4,
+      "notes": "(screenplay) (as Antonio Roman)"
     },
     {
       "person_imdb_id": "nm0759453",
       "name": "Rafael J. Salvia",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 5,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0577477",
       "name": "Ib Melchior",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0382384",
       "name": "Louis M. Heyward",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0577477",
       "name": "Ib Melchior",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screen story)",
-      "group_id": 3
+      "notes": "(screen story)"
     }
   ],
   "release_date": "1965-09-15",
@@ -201,6 +201,8 @@
   "countries": [
     "Italy",
     "Spain",
-    "United States"
+    "United States",
+    "United Kingdom",
+    "Mexico"
   ]
 }

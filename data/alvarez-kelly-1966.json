@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0060095",
   "sort_title": "Alvarez Kelly (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alvarez Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001847",
-      "name": "Richard Widmark",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Col. Tom Rossiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750023",
-      "name": "Janice Rule",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Liz Pickering"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641929",
-      "name": "Patrick O'Neal",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Major Albert Stedman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790021",
-      "name": "Victoria Shaw",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Charity Warwick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138354",
-      "name": "Roger C. Carmel",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Capt. Angus Ferguson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751802",
-      "name": "Richard Rust",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sergeant Hatcher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291821",
-      "name": "Arthur Franz",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Capt. Towers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0057983",
-      "name": "Don 'Red' Barry",
-      "sequence": 8,
-      "notes": "(as Donald Barry)",
-      "roles": [
-        "Lt. Farrow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0387564",
-      "name": "Duke Hobbie",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "John Beaurider"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cpl. Peterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128995",
-      "name": "Howard Caine",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "McIntyre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401064",
-      "name": "Mauritz Hugo",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Ely Harrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041136",
-      "name": "Barry Atwater",
-      "sequence": 13,
-      "notes": "(as G.B. Atwater)",
-      "roles": [
-        "General Kautz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604993",
-      "name": "Robert Morgan",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Capt. Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525566",
-      "name": "Paul Lukather",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Capt. Webster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0384688",
-      "name": "Stephanie Hill",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mary Ann"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0037774",
-      "name": "Indus Arthur",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Melinda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728539",
-      "name": "Clint Ritchie",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Union Lt."
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0229424",
@@ -182,27 +9,200 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Alvarez Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001847",
+      "name": "Richard Widmark",
+      "sequence": 1,
+      "roles": [
+        "Col. Tom Rossiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750023",
+      "name": "Janice Rule",
+      "sequence": 2,
+      "roles": [
+        "Liz Pickering"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641929",
+      "name": "Patrick O'Neal",
+      "sequence": 3,
+      "roles": [
+        "Major Albert Stedman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790021",
+      "name": "Victoria Shaw",
+      "sequence": 4,
+      "roles": [
+        "Charity Warwick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138354",
+      "name": "Roger C. Carmel",
+      "sequence": 5,
+      "roles": [
+        "Capt. Angus Ferguson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751802",
+      "name": "Richard Rust",
+      "sequence": 6,
+      "roles": [
+        "Sergeant Hatcher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291821",
+      "name": "Arthur Franz",
+      "sequence": 7,
+      "roles": [
+        "Capt. Towers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0057983",
+      "name": "Don 'Red' Barry",
+      "sequence": 8,
+      "roles": [
+        "Lt. Farrow"
+      ],
+      "notes": "(as Donald Barry)"
+    },
+    {
+      "person_imdb_id": "nm0387564",
+      "name": "Duke Hobbie",
+      "sequence": 9,
+      "roles": [
+        "John Beaurider"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 10,
+      "roles": [
+        "Cpl. Peterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128995",
+      "name": "Howard Caine",
+      "sequence": 11,
+      "roles": [
+        "McIntyre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401064",
+      "name": "Mauritz Hugo",
+      "sequence": 12,
+      "roles": [
+        "Ely Harrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041136",
+      "name": "Barry Atwater",
+      "sequence": 13,
+      "roles": [
+        "General Kautz"
+      ],
+      "notes": "(as G.B. Atwater)"
+    },
+    {
+      "person_imdb_id": "nm0604993",
+      "name": "Robert Morgan",
+      "sequence": 14,
+      "roles": [
+        "Capt. Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525566",
+      "name": "Paul Lukather",
+      "sequence": 15,
+      "roles": [
+        "Capt. Webster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0384688",
+      "name": "Stephanie Hill",
+      "sequence": 16,
+      "roles": [
+        "Mary Ann"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0037774",
+      "name": "Indus Arthur",
+      "sequence": 17,
+      "roles": [
+        "Melinda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728539",
+      "name": "Clint Ritchie",
+      "sequence": 18,
+      "roles": [
+        "Union Lt."
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0168759",
       "name": "Franklin Coen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0036433",
       "name": "Elliott Arnold",
+      "group": 1,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 1
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0850168",
       "name": "Daniel Taradash",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1966-10-01",

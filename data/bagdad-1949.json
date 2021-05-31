@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0041149",
   "sort_title": "Bagdad (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000058",
-      "name": "Maureen O'Hara",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Princess Marjan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007098",
-      "name": "Paul Hubschmid",
-      "sequence": 1,
-      "notes": "(as Paul Christian)",
-      "roles": [
-        "Hassan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pasha Ali Nadim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0840330",
-      "name": "John Sutton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Raizul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179786",
-      "name": "Jeff Corey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mohammed Jao"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700084",
-      "name": "Frank Puglia",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Saleel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0061784",
-      "name": "David Bauer",
-      "sequence": 6,
-      "notes": "(as David Wolfe)",
-      "roles": [
-        "Mahmud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0500021",
-      "name": "Fritz Leiber",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Emir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907170",
-      "name": "Otto Waldis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Marengo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0067589",
-      "name": "Leon Belasco",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Beggar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0469456",
-      "name": "Anne P. Kramer",
-      "sequence": 10,
-      "notes": "(as Ann Pearce)",
-      "roles": [
-        "Tirza"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0006943",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000058",
+      "name": "Maureen O'Hara",
+      "sequence": 0,
+      "roles": [
+        "Princess Marjan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007098",
+      "name": "Paul Hubschmid",
+      "sequence": 1,
+      "roles": [
+        "Hassan"
+      ],
+      "notes": "(as Paul Christian)"
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Pasha Ali Nadim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0840330",
+      "name": "John Sutton",
+      "sequence": 3,
+      "roles": [
+        "Raizul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179786",
+      "name": "Jeff Corey",
+      "sequence": 4,
+      "roles": [
+        "Mohammed Jao"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700084",
+      "name": "Frank Puglia",
+      "sequence": 5,
+      "roles": [
+        "Saleel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0061784",
+      "name": "David Bauer",
+      "sequence": 6,
+      "roles": [
+        "Mahmud"
+      ],
+      "notes": "(as David Wolfe)"
+    },
+    {
+      "person_imdb_id": "nm0500021",
+      "name": "Fritz Leiber",
+      "sequence": 7,
+      "roles": [
+        "Emir"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907170",
+      "name": "Otto Waldis",
+      "sequence": 8,
+      "roles": [
+        "Marengo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0067589",
+      "name": "Leon Belasco",
+      "sequence": 9,
+      "roles": [
+        "Beggar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0469456",
+      "name": "Anne P. Kramer",
+      "sequence": 10,
+      "roles": [
+        "Tirza"
+      ],
+      "notes": "(as Ann Pearce)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0397023",
       "name": "Tamara Hovey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0028826",
       "name": "Robert Hardy Andrews",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1949-11-23",

@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0059045",
   "sort_title": "Knives of the Avenger (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0593192",
-      "name": "Cameron Mitchell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rurik",
-        "Helmut"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870362",
-      "name": "Fausto Tozzi",
-      "sequence": 1,
-      "notes": "(as Frank Ross)",
-      "roles": [
-        "Hagen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744351",
-      "name": "Giacomo Rossi Stuart",
-      "sequence": 2,
-      "notes": "(as Jack Rossi Stuart)",
-      "roles": [
-        "King Arald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689541",
-      "name": "Luciano Pollentin",
-      "sequence": 3,
-      "notes": "(as Louis Polletin)",
-      "roles": [
-        "Moki"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872820",
-      "name": "Amedeo Trilli",
-      "sequence": 4,
-      "notes": "(as Michael Moore)",
-      "roles": [
-        "Viking King"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0855722",
-      "name": "Renato Terra",
-      "sequence": 5,
-      "notes": "(as Rodney Terra)",
-      "roles": [
-        "Hagen's Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181484",
-      "name": "Sergio Cortona",
-      "sequence": 6,
-      "notes": "(as Sidney Cort\u00e8z)",
-      "roles": [
-        "Hagen's Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681638",
-      "name": "Elissa Pichelli",
-      "sequence": 7,
-      "notes": "(as Lisa Wagner)",
-      "roles": [
-        "Karin"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -90,41 +15,117 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0593192",
+      "name": "Cameron Mitchell",
+      "sequence": 0,
+      "roles": [
+        "Ator",
+        "Rurik",
+        "Helmut"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870362",
+      "name": "Fausto Tozzi",
+      "sequence": 1,
+      "roles": [
+        "Hagen"
+      ],
+      "notes": "(as Frank Ross)"
+    },
+    {
+      "person_imdb_id": "nm0744351",
+      "name": "Giacomo Rossi Stuart",
+      "sequence": 2,
+      "roles": [
+        "King Arald"
+      ],
+      "notes": "(as Jack Rossi Stuart)"
+    },
+    {
+      "person_imdb_id": "nm0689541",
+      "name": "Luciano Pollentin",
+      "sequence": 3,
+      "roles": [
+        "Moki"
+      ],
+      "notes": "(as Louis Polletin)"
+    },
+    {
+      "person_imdb_id": "nm0872820",
+      "name": "Amedeo Trilli",
+      "sequence": 4,
+      "roles": [
+        "Viking King"
+      ],
+      "notes": "(as Michael Moore)"
+    },
+    {
+      "person_imdb_id": "nm0855722",
+      "name": "Renato Terra",
+      "sequence": 5,
+      "roles": [
+        "Hagen's Henchman"
+      ],
+      "notes": "(as Rodney Terra)"
+    },
+    {
+      "person_imdb_id": "nm0181484",
+      "name": "Sergio Cortona",
+      "sequence": 6,
+      "roles": [
+        "Hagen's Henchman"
+      ],
+      "notes": "(as Sidney Cort\u00e8z)"
+    },
+    {
+      "person_imdb_id": "nm0681638",
+      "name": "Elissa Pichelli",
+      "sequence": 7,
+      "roles": [
+        "Karin"
+      ],
+      "notes": "(as Lisa Wagner)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0508771",
       "name": "Alberto Liberati",
+      "group": 0,
       "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0526876",
       "name": "Gene Luotto",
+      "group": 1,
       "sequence": 0,
-      "notes": "(dialogue: English version)",
-      "group_id": 1
+      "notes": "(dialogue: English version)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story and screenplay) (credited on reissue prints) (as John Hold)",
-      "group_id": 2
+      "notes": "(story and screenplay) (credited on reissue prints) (as John Hold)"
     },
     {
       "person_imdb_id": "nm0800547",
       "name": "Giorgio Simonelli",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 3
+      "notes": "(screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm0800548",
       "name": "Giovanni Simonelli",
+      "group": 4,
       "sequence": 0,
-      "notes": "(screenplay) (uncredited)",
-      "group_id": 4
+      "notes": "(screenplay) (uncredited)"
     }
   ],
   "release_date": "1966-05-30",

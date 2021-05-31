@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0058754",
   "sort_title": "Woman of Straw (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0518178",
-      "name": "Gina Lollobrigida",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Maria Marcello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000125",
-      "name": "Sean Connery",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anthony 'Tony' Richmond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724732",
-      "name": "Ralph Richardson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charles Richmond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461594",
-      "name": "Alexander Knox",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Detective Inspector Lomer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0782885",
-      "name": "Johnny Sekka",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Thomas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362695",
-      "name": "Laurence Hardy",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Baines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0534634",
-      "name": "Peter Madden",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Yacht Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199880",
-      "name": "Danny Daniels",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fenton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398233",
-      "name": "Noel Howlett",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Assistant Solicitor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0932811",
-      "name": "Douglas Wilmer",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Dr. Murray"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0213136",
@@ -101,27 +9,119 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0518178",
+      "name": "Gina Lollobrigida",
+      "sequence": 0,
+      "roles": [
+        "Maria Marcello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000125",
+      "name": "Sean Connery",
+      "sequence": 1,
+      "roles": [
+        "Anthony 'Tony' Richmond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724732",
+      "name": "Ralph Richardson",
+      "sequence": 2,
+      "roles": [
+        "Charles Richmond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461594",
+      "name": "Alexander Knox",
+      "sequence": 3,
+      "roles": [
+        "Detective Inspector Lomer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0782885",
+      "name": "Johnny Sekka",
+      "sequence": 4,
+      "roles": [
+        "Thomas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362695",
+      "name": "Laurence Hardy",
+      "sequence": 5,
+      "roles": [
+        "Baines"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0534634",
+      "name": "Peter Madden",
+      "sequence": 6,
+      "roles": [
+        "Yacht Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199880",
+      "name": "Danny Daniels",
+      "sequence": 7,
+      "roles": [
+        "Fenton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398233",
+      "name": "Noel Howlett",
+      "sequence": 8,
+      "roles": [
+        "Assistant Solicitor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0932811",
+      "name": "Douglas Wilmer",
+      "sequence": 9,
+      "roles": [
+        "Dr. Murray"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0035176",
       "name": "Catherine Arley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0612232",
       "name": "Robert Muller",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0542970",
       "name": "Stanley Mann",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1964-04-28",

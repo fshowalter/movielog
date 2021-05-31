@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0041746",
   "sort_title": "Pinky (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002022",
-      "name": "Jeanne Crain",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Patricia 'Pinky' Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000856",
-      "name": "Ethel Barrymore",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Miss Em"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914083",
-      "name": "Ethel Waters",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dicey Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526485",
-      "name": "William Lundigan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Thomas Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752278",
-      "name": "Basil Ruysdael",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judge Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913486",
-      "name": "Kenny Washington",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Canady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0571904",
-      "name": "Nina Mae McKinney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rozelia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055899",
-      "name": "Griff Barnett",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Joseph 'Doc Joe' McGill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0641902",
-      "name": "Frederick O'Neal",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jake Walters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889537",
-      "name": "Evelyn Varden",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Melba Wooley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339121",
-      "name": "Raymond Greenleaf",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Judge Shoreham"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001415",
@@ -116,41 +15,142 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002022",
+      "name": "Jeanne Crain",
+      "sequence": 0,
+      "roles": [
+        "Patricia 'Pinky' Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000856",
+      "name": "Ethel Barrymore",
+      "sequence": 1,
+      "roles": [
+        "Miss Em"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914083",
+      "name": "Ethel Waters",
+      "sequence": 2,
+      "roles": [
+        "Dicey Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526485",
+      "name": "William Lundigan",
+      "sequence": 3,
+      "roles": [
+        "Dr. Thomas Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752278",
+      "name": "Basil Ruysdael",
+      "sequence": 4,
+      "roles": [
+        "Judge Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913486",
+      "name": "Kenny Washington",
+      "sequence": 5,
+      "roles": [
+        "Dr. Canady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0571904",
+      "name": "Nina Mae McKinney",
+      "sequence": 6,
+      "roles": [
+        "Rozelia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055899",
+      "name": "Griff Barnett",
+      "sequence": 7,
+      "roles": [
+        "Dr. Joseph 'Doc Joe' McGill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0641902",
+      "name": "Frederick O'Neal",
+      "sequence": 8,
+      "roles": [
+        "Jake Walters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889537",
+      "name": "Evelyn Varden",
+      "sequence": 9,
+      "roles": [
+        "Melba Wooley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339121",
+      "name": "Raymond Greenleaf",
+      "sequence": 10,
+      "roles": [
+        "Judge Shoreham"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0838865",
       "name": "Cid Ricketts Sumner",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Quality\")",
-      "group_id": 0
+      "notes": "(novel \"Quality\")"
     },
     {
       "person_imdb_id": "nm0242897",
       "name": "Philip Dunne",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001415",
       "name": "Elia Kazan",
+      "group": 2,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 2
+      "notes": "(contributor to screenplay) (uncredited)"
     },
     {
       "person_imdb_id": "nm5234602",
       "name": "Jane White",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to screenplay) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to screenplay) (uncredited)"
     }
   ],
   "release_date": "1949-09-29",

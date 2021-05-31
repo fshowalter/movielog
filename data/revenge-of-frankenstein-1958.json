@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0050894",
   "sort_title": "Revenge of Frankenstein (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Doctor Victor Stein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560022",
-      "name": "Francis Matthews",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Doctor Hans Kleve"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0311013",
-      "name": "Eunice Gayson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Margaret"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350372",
-      "name": "Michael Gwynn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Karl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920555",
-      "name": "John Welsh",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bergman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420383",
-      "name": "Lionel Jeffries",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fritz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0704457",
-      "name": "Oscar Quitak",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dwarf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0941416",
-      "name": "Richard Wordsworth",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Up Patient"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0655436",
-      "name": "Charles Lloyd Pack",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "President"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835738",
-      "name": "John Stuart",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Inspector"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0224586",
-      "name": "Arnold Diamond",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Molke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340353",
-      "name": "Marjorie Gresley",
-      "sequence": 11,
-      "notes": "(as Margery Gresley)",
-      "roles": [
-        "Countess Barscynska"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909446",
-      "name": "Anna Walmsley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Vera Barscynska"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940161",
-      "name": "George Woodbridge",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Janitor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728085",
-      "name": "Michael Ripper",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Kurt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926434",
-      "name": "Ian Whittaker",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504062",
-      "name": "Avril Leslie",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Doctor Victor Stein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560022",
+      "name": "Francis Matthews",
+      "sequence": 1,
+      "roles": [
+        "Doctor Hans Kleve"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0311013",
+      "name": "Eunice Gayson",
+      "sequence": 2,
+      "roles": [
+        "Margaret Conrad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350372",
+      "name": "Michael Gwynn",
+      "sequence": 3,
+      "roles": [
+        "Karl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920555",
+      "name": "John Welsh",
+      "sequence": 4,
+      "roles": [
+        "Bergman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420383",
+      "name": "Lionel Jeffries",
+      "sequence": 5,
+      "roles": [
+        "Fritz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0704457",
+      "name": "Oscar Quitak",
+      "sequence": 6,
+      "roles": [
+        "Dwarf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0941416",
+      "name": "Richard Wordsworth",
+      "sequence": 7,
+      "roles": [
+        "Up Patient"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0655436",
+      "name": "Charles Lloyd Pack",
+      "sequence": 8,
+      "roles": [
+        "President"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835738",
+      "name": "John Stuart",
+      "sequence": 9,
+      "roles": [
+        "Inspector"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0224586",
+      "name": "Arnold Diamond",
+      "sequence": 10,
+      "roles": [
+        "Molke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340353",
+      "name": "Marjorie Gresley",
+      "sequence": 11,
+      "roles": [
+        "Countess Barscynska"
+      ],
+      "notes": "(as Margery Gresley)"
+    },
+    {
+      "person_imdb_id": "nm0909446",
+      "name": "Anna Walmsley",
+      "sequence": 12,
+      "roles": [
+        "Vera Barscynska"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940161",
+      "name": "George Woodbridge",
+      "sequence": 13,
+      "roles": [
+        "Janitor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728085",
+      "name": "Michael Ripper",
+      "sequence": 14,
+      "roles": [
+        "Kurt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926434",
+      "name": "Ian Whittaker",
+      "sequence": 15,
+      "roles": [
+        "Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504062",
+      "name": "Avril Leslie",
+      "sequence": 16,
+      "roles": [
+        "Girl"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0417478",
       "name": "Hurford Janes",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue by)",
-      "group_id": 1
+      "notes": "(additional dialogue by)"
     },
     {
       "person_imdb_id": "nm0062658",
       "name": "George Baxt",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue) (uncredited)",
-      "group_id": 2
+      "notes": "(additional dialogue) (uncredited)"
     }
   ],
   "release_date": "1958-06-13",

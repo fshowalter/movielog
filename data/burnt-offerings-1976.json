@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0074258",
   "sort_title": "Burnt Offerings (1976)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000947",
-      "name": "Karen Black",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marian Rolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001657",
-      "name": "Oliver Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ben Rolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580565",
-      "name": "Burgess Meredith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Arnold Allardyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0373012",
-      "name": "Eileen Heckart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Roz Allardyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599837",
-      "name": "Lee Montgomery",
-      "sequence": 4,
-      "notes": "(as Lee H. Montgomery)",
-      "roles": [
-        "David Rolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852305",
-      "name": "Dub Taylor",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Aunt Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0727086",
-      "name": "Joseph Riley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ben's Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878066",
-      "name": "Todd Turquand",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Young Ben"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0134246",
-      "name": "Orin Cannon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Minister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0616747",
-      "name": "Jim Myers",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416279",
-      "name": "Anthony James",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Chauffeur"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0193303",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000947",
+      "name": "Karen Black",
+      "sequence": 0,
+      "roles": [
+        "Marian Rolf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001657",
+      "name": "Oliver Reed",
+      "sequence": 1,
+      "roles": [
+        "Ben Rolf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580565",
+      "name": "Burgess Meredith",
+      "sequence": 2,
+      "roles": [
+        "Arnold Allardyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0373012",
+      "name": "Eileen Heckart",
+      "sequence": 3,
+      "roles": [
+        "Roz Allardyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0599837",
+      "name": "Lee Montgomery",
+      "sequence": 4,
+      "roles": [
+        "David Rolf"
+      ],
+      "notes": "(as Lee H. Montgomery)"
+    },
+    {
+      "person_imdb_id": "nm0852305",
+      "name": "Dub Taylor",
+      "sequence": 5,
+      "roles": [
+        "Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 6,
+      "roles": [
+        "Aunt Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0727086",
+      "name": "Joseph Riley",
+      "sequence": 7,
+      "roles": [
+        "Ben's Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878066",
+      "name": "Todd Turquand",
+      "sequence": 8,
+      "roles": [
+        "Young Ben"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0134246",
+      "name": "Orin Cannon",
+      "sequence": 9,
+      "roles": [
+        "Minister"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0616747",
+      "name": "Jim Myers",
+      "sequence": 10,
+      "roles": [
+        "Dr. Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416279",
+      "name": "Anthony James",
+      "sequence": 11,
+      "roles": [
+        "The Chauffeur"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0544912",
       "name": "Robert Marasco",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0634368",
       "name": "William F. Nolan",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0193303",
       "name": "Dan Curtis",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1976-04-01",

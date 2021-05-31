@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0037150",
   "sort_title": "Once Upon a Time (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jerry Flynn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086268",
-      "name": "Janet Blair",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jeannie Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322299",
-      "name": "James Gleason",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "McGillicuddy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232159",
-      "name": "Ted Donaldson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Arthur 'Pinky' Thompson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Brandt"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0355284",
@@ -56,41 +9,88 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Jerry Flynn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086268",
+      "name": "Janet Blair",
+      "sequence": 1,
+      "roles": [
+        "Jeannie Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0322299",
+      "name": "James Gleason",
+      "sequence": 2,
+      "roles": [
+        "McGillicuddy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232159",
+      "name": "Ted Donaldson",
+      "sequence": 3,
+      "roles": [
+        "Arthur 'Pinky' Thompson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 4,
+      "roles": [
+        "Brandt"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0578439",
       "name": "Lewis Meltzer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0277687",
       "name": "Irving Fineman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0181658",
       "name": "Norman Corwin",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0282061",
       "name": "Lucille Fletcher",
-      "sequence": 0,
-      "notes": "(story) (as Lucille Fletcher Herrmann)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(story) (as Lucille Fletcher Herrmann)"
     }
   ],
   "release_date": "1944-05-11",

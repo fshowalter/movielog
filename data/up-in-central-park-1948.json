@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0040925",
   "sort_title": "Up in Central Park (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0002052",
-      "name": "Deanna Durbin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Rosie Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371376",
-      "name": "Dick Haymes",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "William Marcy 'Boss' Tweed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789185",
-      "name": "Albert Sharpe",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Timothy Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694631",
-      "name": "Tom Powers",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0146928",
-      "name": "Hobart Cavanaugh",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mayor Oakley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356159",
-      "name": "Thurston Hall",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Governor Motley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293418",
-      "name": "Howard Freeman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Myron Schultz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275997",
-      "name": "Mary Field",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Miss Murch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0670017",
-      "name": "Tom Pedi",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "O'Toole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Big Jim Fitts"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0804369",
-      "name": "William Skipper",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Dancer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279716",
-      "name": "Nellie Fisher",
-      "sequence": 12,
-      "notes": "(as Nelle Fisher)",
-      "roles": [
-        "Dancer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0782682",
@@ -128,34 +9,153 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0002052",
+      "name": "Deanna Durbin",
+      "sequence": 0,
+      "roles": [
+        "Rosie Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371376",
+      "name": "Dick Haymes",
+      "sequence": 1,
+      "roles": [
+        "John Matthews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "William Marcy 'Boss' Tweed"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0789185",
+      "name": "Albert Sharpe",
+      "sequence": 3,
+      "roles": [
+        "Timothy Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694631",
+      "name": "Tom Powers",
+      "sequence": 4,
+      "roles": [
+        "Rogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0146928",
+      "name": "Hobart Cavanaugh",
+      "sequence": 5,
+      "roles": [
+        "Mayor Oakley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356159",
+      "name": "Thurston Hall",
+      "sequence": 6,
+      "roles": [
+        "Governor Motley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293418",
+      "name": "Howard Freeman",
+      "sequence": 7,
+      "roles": [
+        "Myron Schultz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275997",
+      "name": "Mary Field",
+      "sequence": 8,
+      "roles": [
+        "Miss Murch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0670017",
+      "name": "Tom Pedi",
+      "sequence": 9,
+      "roles": [
+        "O'Toole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 10,
+      "roles": [
+        "Big Jim Fitts"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0804369",
+      "name": "William Skipper",
+      "sequence": 11,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279716",
+      "name": "Nellie Fisher",
+      "sequence": 12,
+      "roles": [
+        "Dancer"
+      ],
+      "notes": "(as Nelle Fisher)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0276252",
       "name": "Herbert Fields",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the musical play \"Up in Central Park\" by)",
-      "group_id": 0
+      "notes": "(based on the musical play \"Up in Central Park\" by)"
     },
     {
       "person_imdb_id": "nm0276227",
       "name": "Dorothy Fields",
-      "sequence": 0,
-      "notes": "(based on the musical play \"Up in Central Park\" by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(based on the musical play \"Up in Central Park\" by)"
     },
     {
       "person_imdb_id": "nm0739146",
       "name": "Sigmund Romberg",
-      "sequence": 0,
-      "notes": "(based on the musical play \"Up in Central Park\" by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(based on the musical play \"Up in Central Park\" by)"
     },
     {
       "person_imdb_id": "nm0876562",
       "name": "Karl Tunberg",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written for the screen by)",
-      "group_id": 1
+      "notes": "(written for the screen by)"
     }
   ],
   "release_date": "1948-05-26",

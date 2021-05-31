@@ -1,81 +1,6 @@
 {
   "imdb_id": "tt0037075",
   "sort_title": "Ministry of Fear (1944)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001537",
-      "name": "Ray Milland",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stephen Neale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0721851",
-      "name": "Marjorie Reynolds",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carla Hilfe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0260722",
-      "name": "Carl Esmond",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Willi Hilfe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111702",
-      "name": "Hillary Brooke",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Bellane #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911278",
-      "name": "Percy Waram",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002053",
-      "name": "Dan Duryea",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cost",
-        "Travers the Tailor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. JM Forrester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762557",
-      "name": "Erskine Sanford",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "George Rennit"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000485",
@@ -84,20 +9,95 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001537",
+      "name": "Ray Milland",
+      "sequence": 0,
+      "roles": [
+        "Stephen Neale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0721851",
+      "name": "Marjorie Reynolds",
+      "sequence": 1,
+      "roles": [
+        "Carla Hilfe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0260722",
+      "name": "Carl Esmond",
+      "sequence": 2,
+      "roles": [
+        "Willi Hilfe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111702",
+      "name": "Hillary Brooke",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Bellane #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911278",
+      "name": "Percy Waram",
+      "sequence": 4,
+      "roles": [
+        "Inspector Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002053",
+      "name": "Dan Duryea",
+      "sequence": 5,
+      "roles": [
+        "Cost",
+        "Travers the Tailor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 6,
+      "roles": [
+        "Dr. JM Forrester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0762557",
+      "name": "Erskine Sanford",
+      "sequence": 7,
+      "roles": [
+        "George Rennit"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0589316",
       "name": "Seton I. Miller",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0001294",
       "name": "Graham Greene",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1944-05-19",

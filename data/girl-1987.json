@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0091117",
   "sort_title": "Girl (1987)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0626259",
-      "name": "Franco Nero",
-      "sequence": 0,
-      "notes": "(John) Berg",
-      "roles": [
-        "Johan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0825231",
-      "name": "Bernice Stegers",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eva Berg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694683",
-      "name": "Clare Powney",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pat, the girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107285",
-      "name": "Frank Brennan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lindberg, reporter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Peter Storm"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2304760",
-      "name": "Mark Robinson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Hans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071005",
-      "name": "Derek Benfield",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Janitor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0741317",
-      "name": "Clifford Rose",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "General Carlsson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419402",
-      "name": "Rosie Jauckens",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Fru Carlsson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0952801",
-      "name": "Lenore Zann",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Viveka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394077",
-      "name": "Heinz Hopf",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "David"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0235857",
-      "name": "Mark Dowling",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Silenski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686805",
-      "name": "Pontus Platin",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sandberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085006",
-      "name": "Olle Bj\u00f6rling",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Host"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0111194",
-      "name": "Hanna Brogren",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Housekeeper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0259626",
-      "name": "Gunnar Ernblad",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Editor 1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0247353",
-      "name": "Timothy Earle",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Editor 2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177273",
-      "name": "Sam Cook",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Antonio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0450768",
-      "name": "Sara Key",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Adriana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0051608",
-      "name": "Christer Banck",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "The Locksmith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577199",
-      "name": "Damir Mejovsek",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Graudenz"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0560489",
@@ -200,13 +9,204 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0626259",
+      "name": "Franco Nero",
+      "sequence": 0,
+      "roles": [
+        "Johan"
+      ],
+      "notes": "(John) Berg"
+    },
+    {
+      "person_imdb_id": "nm0825231",
+      "name": "Bernice Stegers",
+      "sequence": 1,
+      "roles": [
+        "Eva Berg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694683",
+      "name": "Clare Powney",
+      "sequence": 2,
+      "roles": [
+        "Pat, the girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107285",
+      "name": "Frank Brennan",
+      "sequence": 3,
+      "roles": [
+        "Lindberg, reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 4,
+      "roles": [
+        "Peter Storm"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2304760",
+      "name": "Mark Robinson",
+      "sequence": 5,
+      "roles": [
+        "Hans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071005",
+      "name": "Derek Benfield",
+      "sequence": 6,
+      "roles": [
+        "Janitor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0741317",
+      "name": "Clifford Rose",
+      "sequence": 7,
+      "roles": [
+        "General Carlsson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419402",
+      "name": "Rosie Jauckens",
+      "sequence": 8,
+      "roles": [
+        "Fru Carlsson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0952801",
+      "name": "Lenore Zann",
+      "sequence": 9,
+      "roles": [
+        "Viveka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394077",
+      "name": "Heinz Hopf",
+      "sequence": 10,
+      "roles": [
+        "David"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0235857",
+      "name": "Mark Dowling",
+      "sequence": 11,
+      "roles": [
+        "Silenski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686805",
+      "name": "Pontus Platin",
+      "sequence": 12,
+      "roles": [
+        "Sandberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085006",
+      "name": "Olle Bj\u00f6rling",
+      "sequence": 13,
+      "roles": [
+        "The Host"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0111194",
+      "name": "Hanna Brogren",
+      "sequence": 14,
+      "roles": [
+        "The Housekeeper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0259626",
+      "name": "Gunnar Ernblad",
+      "sequence": 15,
+      "roles": [
+        "Editor 1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0247353",
+      "name": "Timothy Earle",
+      "sequence": 16,
+      "roles": [
+        "Editor 2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0177273",
+      "name": "Sam Cook",
+      "sequence": 17,
+      "roles": [
+        "Antonio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0450768",
+      "name": "Sara Key",
+      "sequence": 18,
+      "roles": [
+        "Adriana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0051608",
+      "name": "Christer Banck",
+      "sequence": 19,
+      "roles": [
+        "The Locksmith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0577199",
+      "name": "Damir Mejovsek",
+      "sequence": 20,
+      "roles": [
+        "Graudenz"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0396215",
       "name": "Ernest Hotch",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     }
   ],
   "release_date": "1987-08-07",

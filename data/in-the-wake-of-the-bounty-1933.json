@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0024176",
   "sort_title": "In the Wake of the Bounty (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0338429",
-      "name": "Arthur Greenaway",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528890",
-      "name": "Mayne Lynton",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Bligh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Fletcher Christian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0332682",
-      "name": "Victor Gouriet",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Michael Byrne - The 'Bounty's' Blind Fiddler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913248",
-      "name": "John Warwick",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Midshipman Young"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0154374",
@@ -56,13 +9,60 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0338429",
+      "name": "Arthur Greenaway",
+      "sequence": 0,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528890",
+      "name": "Mayne Lynton",
+      "sequence": 1,
+      "roles": [
+        "Lt. Bligh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 2,
+      "roles": [
+        "Fletcher Christian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0332682",
+      "name": "Victor Gouriet",
+      "sequence": 3,
+      "roles": [
+        "Michael Byrne - The 'Bounty's' Blind Fiddler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913248",
+      "name": "John Warwick",
+      "sequence": 4,
+      "roles": [
+        "Midshipman Young"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0154374",
       "name": "Charles Chauvel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 0
+      "notes": "(scenario)"
     }
   ],
   "release_date": "1933-03-15",

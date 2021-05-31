@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0023396",
   "sort_title": "Ride Him, Cowboy (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Drury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1349117",
-      "name": "Duke",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Duke - Gaunt's Horse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0356073",
-      "name": "Ruth Hall",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ruth Gaunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910400",
-      "name": "Henry B. Walthall",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "John Gaunt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363227",
-      "name": "Otis Harlan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Judge Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340807",
-      "name": "Harry Gribbon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Deputy Sheriff Clout"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0353790",
-      "name": "Frank Hagney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Henry Sims -"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0020522",
@@ -74,20 +9,85 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "John Drury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1349117",
+      "name": "Duke",
+      "sequence": 1,
+      "roles": [
+        "Duke - Gaunt's Horse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0356073",
+      "name": "Ruth Hall",
+      "sequence": 2,
+      "roles": [
+        "Ruth Gaunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910400",
+      "name": "Henry B. Walthall",
+      "sequence": 3,
+      "roles": [
+        "John Gaunt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363227",
+      "name": "Otis Harlan",
+      "sequence": 4,
+      "roles": [
+        "Judge Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340807",
+      "name": "Harry Gribbon",
+      "sequence": 5,
+      "roles": [
+        "Deputy Sheriff Clout"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0353790",
+      "name": "Frank Hagney",
+      "sequence": 6,
+      "roles": [
+        "Henry Sims -"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0673988",
       "name": "Kenneth Perkins",
+      "group": 0,
       "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
+      "notes": "(by)"
     },
     {
       "person_imdb_id": "nm0556947",
       "name": "Scott Mason",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation & dialogue)",
-      "group_id": 1
+      "notes": "(adaptation & dialogue)"
     }
   ],
   "release_date": "1932-08-27",

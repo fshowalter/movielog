@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0060548",
   "sort_title": "Island of Terror (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Brian Stanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431837",
-      "name": "Edward Judd",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. David West"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336500",
-      "name": "Carole Gray",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Toni Merrill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125952",
-      "name": "Eddie Byrne",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Reginald Landers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477330",
-      "name": "Sam Kydd",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Constable John Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0532277",
-      "name": "Niall MacGinnis",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Roger Campbell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128454",
-      "name": "James Caffrey",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Peter Argyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0300739",
-      "name": "Liam Gaffney",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ian Bellows"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0372732",
-      "name": "Roger Heathcott",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dunley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068327",
-      "name": "Keith Bell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Halsey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479941",
-      "name": "Margaret Lacey",
-      "sequence": 10,
-      "notes": "(as Margaret Lacy)",
-      "roles": [
-        "Old Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0331125",
-      "name": "Shay Gorman",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285426",
-      "name": "Peter Forbes-Robertson",
-      "sequence": 12,
-      "notes": "(as Peter Forbes Robertson)",
-      "roles": [
-        "Dr. Lawrence Phillips"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081204",
-      "name": "Richard Bidlake",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Carson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376203",
-      "name": "Joyce Hemson",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Mrs. Bellows"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0644604",
-      "name": "Edward Ogden",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Helicopter Pilot"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -155,34 +9,180 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "Dr. Brian Stanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431837",
+      "name": "Edward Judd",
+      "sequence": 1,
+      "roles": [
+        "Dr. David West"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336500",
+      "name": "Carole Gray",
+      "sequence": 2,
+      "roles": [
+        "Toni Merrill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0125952",
+      "name": "Eddie Byrne",
+      "sequence": 3,
+      "roles": [
+        "Dr. Reginald Landers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477330",
+      "name": "Sam Kydd",
+      "sequence": 4,
+      "roles": [
+        "Constable John Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0532277",
+      "name": "Niall MacGinnis",
+      "sequence": 5,
+      "roles": [
+        "Mr. Roger Campbell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128454",
+      "name": "James Caffrey",
+      "sequence": 6,
+      "roles": [
+        "Peter Argyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0300739",
+      "name": "Liam Gaffney",
+      "sequence": 7,
+      "roles": [
+        "Ian Bellows"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0372732",
+      "name": "Roger Heathcott",
+      "sequence": 8,
+      "roles": [
+        "Dunley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068327",
+      "name": "Keith Bell",
+      "sequence": 9,
+      "roles": [
+        "Halsey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479941",
+      "name": "Margaret Lacey",
+      "sequence": 10,
+      "roles": [
+        "Old Woman"
+      ],
+      "notes": "(as Margaret Lacy)"
+    },
+    {
+      "person_imdb_id": "nm0331125",
+      "name": "Shay Gorman",
+      "sequence": 11,
+      "roles": [
+        "Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285426",
+      "name": "Peter Forbes-Robertson",
+      "sequence": 12,
+      "roles": [
+        "Dr. Lawrence Phillips"
+      ],
+      "notes": "(as Peter Forbes Robertson)"
+    },
+    {
+      "person_imdb_id": "nm0081204",
+      "name": "Richard Bidlake",
+      "sequence": 13,
+      "roles": [
+        "Carson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376203",
+      "name": "Joyce Hemson",
+      "sequence": 14,
+      "roles": [
+        "Mrs. Bellows"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0644604",
+      "name": "Edward Ogden",
+      "sequence": 15,
+      "roles": [
+        "Helicopter Pilot"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0542735",
       "name": "Edward Mann",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story) (as Edward Andrew Mann)",
-      "group_id": 0
+      "notes": "(original story) (as Edward Andrew Mann)"
     },
     {
       "person_imdb_id": "nm0708944",
       "name": "Al Ramsen",
-      "sequence": 0,
-      "notes": "(original story) (as Allan Ramsen)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original story) (as Allan Ramsen)"
     },
     {
       "person_imdb_id": "nm0542735",
       "name": "Edward Mann",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay) (as Edward Andrew Mann)",
-      "group_id": 1
+      "notes": "(screenplay) (as Edward Andrew Mann)"
     },
     {
       "person_imdb_id": "nm0708944",
       "name": "Al Ramsen",
-      "sequence": 0,
-      "notes": "(screenplay) (as Allan Ramsen)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay) (as Allan Ramsen)"
     }
   ],
   "release_date": "1966-06-20",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0049737",
   "sort_title": "Serenade (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0487292",
-      "name": "Mario Lanza",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Damon Vincenti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000021",
-      "name": "Joan Fontaine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kendall Hale"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0600060",
-      "name": "Sara Montiel",
-      "sequence": 2,
-      "notes": "(as Sarita Montiel)",
-      "roles": [
-        "Juana Montes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Charles Winthrop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130407",
-      "name": "Joseph Calleia",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Maestro Marcatello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068772",
-      "name": "Harry Bellaver",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tonio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250436",
-      "name": "Vince Edwards",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marco Roselli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591035",
-      "name": "Silvio Minciotti",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lardelli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700084",
-      "name": "Frank Puglia",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Manuel Montes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686857",
-      "name": "Edward Platt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Everett Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016274",
-      "name": "Licia Albanese",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Desdemona in 'Otello'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271873",
-      "name": "Jean Fenn",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Soprano in San Francisco"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0542649",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0487292",
+      "name": "Mario Lanza",
+      "sequence": 0,
+      "roles": [
+        "Damon Vincenti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000021",
+      "name": "Joan Fontaine",
+      "sequence": 1,
+      "roles": [
+        "Kendall Hale"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0600060",
+      "name": "Sara Montiel",
+      "sequence": 2,
+      "roles": [
+        "Juana Montes"
+      ],
+      "notes": "(as Sarita Montiel)"
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 3,
+      "roles": [
+        "Charles Winthrop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130407",
+      "name": "Joseph Calleia",
+      "sequence": 4,
+      "roles": [
+        "Maestro Marcatello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068772",
+      "name": "Harry Bellaver",
+      "sequence": 5,
+      "roles": [
+        "Tonio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250436",
+      "name": "Vince Edwards",
+      "sequence": 6,
+      "roles": [
+        "Marco Roselli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591035",
+      "name": "Silvio Minciotti",
+      "sequence": 7,
+      "roles": [
+        "Lardelli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700084",
+      "name": "Frank Puglia",
+      "sequence": 8,
+      "roles": [
+        "Manuel Montes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686857",
+      "name": "Edward Platt",
+      "sequence": 9,
+      "roles": [
+        "Everett Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016274",
+      "name": "Licia Albanese",
+      "sequence": 10,
+      "roles": [
+        "Desdemona in 'Otello'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271873",
+      "name": "Jean Fenn",
+      "sequence": 11,
+      "roles": [
+        "Soprano in San Francisco"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0324578",
       "name": "Ivan Goff",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0730850",
       "name": "Ben Roberts",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0878605",
       "name": "John Twist",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0128906",
       "name": "James M. Cain",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     }
   ],
   "release_date": "1956-03-23",

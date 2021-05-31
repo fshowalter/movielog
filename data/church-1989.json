@@ -1,206 +1,6 @@
 {
   "imdb_id": "tt0094860",
   "sort_title": "Church (1989)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0702934",
-      "name": "Hugh Quarshie",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Father Gus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0032962",
-      "name": "Tomas Arana",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Evan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0149923",
-      "name": "Feodor Chaliapin Jr.",
-      "sequence": 2,
-      "notes": "(as Feodor Chaliapin)",
-      "roles": [
-        "The Bishop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192556",
-      "name": "Barbara Cupisti",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lisa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899856",
-      "name": "Antonella Vitale",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bridal Model"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0518422",
-      "name": "Giovanni Lombardo Radice",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Reverend"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000782",
-      "name": "Asia Argento",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lotte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0142341",
-      "name": "Roberto Caruso",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Freddie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179222",
-      "name": "Roberto Corbiletto",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hermann, the Sacristan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0211614",
-      "name": "Alina De Simone",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lottie's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192557",
-      "name": "Olivia Cupisti",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208656",
-      "name": "Gianfranco De Grassi",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Accuser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362536",
-      "name": "Claire Hardwick",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Joanna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430399",
-      "name": "Lars Jorgenson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Bruno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439570",
-      "name": "John Karlsen",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Heinrich"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548212",
-      "name": "Katherine Bell Marjorie",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Heinrich's Wife"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591187",
-      "name": "Riccardo Minervini",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Schoolboy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0652373",
-      "name": "Enrico Osterman",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "The Torturer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0148238",
-      "name": "Micaela Pignatelli",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Fashion shoot photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0700634",
-      "name": "Patrizia Punzo",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Miss Br\u00fcckner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0724623",
-      "name": "John Richardson",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Architect"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733664",
-      "name": "Matteo Rocchietta",
-      "sequence": 21,
-      "notes": "",
-      "roles": [
-        "Younger Schoolboy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0811714",
@@ -209,76 +9,276 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0702934",
+      "name": "Hugh Quarshie",
+      "sequence": 0,
+      "roles": [
+        "Father Gus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0032962",
+      "name": "Tomas Arana",
+      "sequence": 1,
+      "roles": [
+        "Evan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0149923",
+      "name": "Feodor Chaliapin Jr.",
+      "sequence": 2,
+      "roles": [
+        "The Bishop"
+      ],
+      "notes": "(as Feodor Chaliapin)"
+    },
+    {
+      "person_imdb_id": "nm0192556",
+      "name": "Barbara Cupisti",
+      "sequence": 3,
+      "roles": [
+        "Lisa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899856",
+      "name": "Antonella Vitale",
+      "sequence": 4,
+      "roles": [
+        "Bridal Model"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0518422",
+      "name": "Giovanni Lombardo Radice",
+      "sequence": 5,
+      "roles": [
+        "Reverend"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000782",
+      "name": "Asia Argento",
+      "sequence": 6,
+      "roles": [
+        "Lotte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0142341",
+      "name": "Roberto Caruso",
+      "sequence": 7,
+      "roles": [
+        "Freddie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179222",
+      "name": "Roberto Corbiletto",
+      "sequence": 8,
+      "roles": [
+        "Hermann, the Sacristan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0211614",
+      "name": "Alina De Simone",
+      "sequence": 9,
+      "roles": [
+        "Lottie's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192557",
+      "name": "Olivia Cupisti",
+      "sequence": 10,
+      "roles": [
+        "Mira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208656",
+      "name": "Gianfranco De Grassi",
+      "sequence": 11,
+      "roles": [
+        "The Accuser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362536",
+      "name": "Claire Hardwick",
+      "sequence": 12,
+      "roles": [
+        "Joanna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430399",
+      "name": "Lars Jorgenson",
+      "sequence": 13,
+      "roles": [
+        "Bruno"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439570",
+      "name": "John Karlsen",
+      "sequence": 14,
+      "roles": [
+        "Heinrich"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548212",
+      "name": "Katherine Bell Marjorie",
+      "sequence": 15,
+      "roles": [
+        "Heinrich's Wife"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591187",
+      "name": "Riccardo Minervini",
+      "sequence": 16,
+      "roles": [
+        "Schoolboy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0652373",
+      "name": "Enrico Osterman",
+      "sequence": 17,
+      "roles": [
+        "The Torturer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0148238",
+      "name": "Micaela Pignatelli",
+      "sequence": 18,
+      "roles": [
+        "Fashion shoot photographer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0700634",
+      "name": "Patrizia Punzo",
+      "sequence": 19,
+      "roles": [
+        "Miss Br\u00fcckner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0724623",
+      "name": "John Richardson",
+      "sequence": 20,
+      "roles": [
+        "Architect"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733664",
+      "name": "Matteo Rocchietta",
+      "sequence": 21,
+      "roles": [
+        "Younger Schoolboy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000783",
       "name": "Dario Argento",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0274853",
       "name": "Franco Ferrini",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0000783",
       "name": "Dario Argento",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0274853",
       "name": "Franco Ferrini",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0811714",
       "name": "Michele Soavi",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000877",
       "name": "Lamberto Bava",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0018647",
       "name": "Nick Alexander",
+      "group": 3,
       "sequence": 0,
-      "notes": "(dialogue: English version)",
-      "group_id": 3
+      "notes": "(dialogue: English version)"
     },
     {
       "person_imdb_id": "nm0062565",
       "name": "Fabrizio Bava",
+      "group": 4,
       "sequence": 0,
-      "notes": "(prologue) (uncredited)",
-      "group_id": 4
+      "notes": "(prologue) (uncredited)"
     },
     {
       "person_imdb_id": "nm0332417",
       "name": "Dardano Sacchetti",
+      "group": 5,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 5
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0416721",
       "name": "M.R. James",
+      "group": 6,
       "sequence": 0,
-      "notes": "(story \"The Treasure of Abbot Thomas\") (uncredited)",
-      "group_id": 6
+      "notes": "(story \"The Treasure of Abbot Thomas\") (uncredited)"
     }
   ],
   "release_date": "1989-03-10",

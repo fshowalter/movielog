@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0058092",
   "sort_title": "Father Goose (1964)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Walter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001989",
-      "name": "Leslie Caron",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Catherine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002145",
-      "name": "Trevor Howard",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Houghton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0328689",
-      "name": "Jack Goode",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Stebbings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516799",
-      "name": "Sharyl Locke",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816948",
-      "name": "Pip Sparke",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Anne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339110",
-      "name": "Verina Greenlaw",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Christine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077400",
-      "name": "Stephanie Berrington",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Elizabeth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077399",
-      "name": "Jennifer Berrington",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harriet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271583",
-      "name": "Laurelle Felsette",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Angelique"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0271584",
-      "name": "Nicole Felsette",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dominique"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0625680",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 0,
+      "roles": [
+        "Walter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001989",
+      "name": "Leslie Caron",
+      "sequence": 1,
+      "roles": [
+        "Catherine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002145",
+      "name": "Trevor Howard",
+      "sequence": 2,
+      "roles": [
+        "Houghton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0328689",
+      "name": "Jack Goode",
+      "sequence": 3,
+      "roles": [
+        "Stebbings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516799",
+      "name": "Sharyl Locke",
+      "sequence": 4,
+      "roles": [
+        "Jenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816948",
+      "name": "Pip Sparkes",
+      "sequence": 5,
+      "roles": [
+        "Anne"
+      ],
+      "notes": "(as Pip Sparke)"
+    },
+    {
+      "person_imdb_id": "nm0339110",
+      "name": "Verina Greenlaw",
+      "sequence": 6,
+      "roles": [
+        "Christine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077400",
+      "name": "Stephanie Berrington",
+      "sequence": 7,
+      "roles": [
+        "Elizabeth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077399",
+      "name": "Jennifer Berrington",
+      "sequence": 8,
+      "roles": [
+        "Harriet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271583",
+      "name": "Laurelle Felsette",
+      "sequence": 9,
+      "roles": [
+        "Angelique"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0271584",
+      "name": "Nicole Felsette",
+      "sequence": 10,
+      "roles": [
+        "Dominique"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0832099",
       "name": "Peter Stone",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0850514",
       "name": "Frank Tarloff",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0055975",
       "name": "S.H. Barnett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1964-12-10",

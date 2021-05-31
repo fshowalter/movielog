@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0032701",
   "sort_title": "Letter (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Leslie Crosbie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003339",
-      "name": "Herbert Marshall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Robert Crosbie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827263",
-      "name": "James Stephenson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Howard Joyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408586",
-      "name": "Frieda Inescort",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dorothy Joyce"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814216",
-      "name": "Gale Sondergaard",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Hammond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0504423",
-      "name": "Bruce Lester",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John Withers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0408876",
-      "name": "Elizabeth Inglis",
-      "sequence": 6,
-      "notes": "(as Elizabeth Earl)",
-      "roles": [
-        "Adele Ainsworth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445523",
-      "name": "Cecil Kellaway",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Prescott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0950958",
-      "name": "Victor Sen Yung",
-      "sequence": 8,
-      "notes": "(as Sen Yung)",
-      "roles": [
-        "Ong Chi Seng"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0515967",
-      "name": "Doris Lloyd",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Mrs. Cooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0298699",
-      "name": "Willie Fung",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Chung Hi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0464514",
-      "name": "Tetsu Komai",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Head Boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0943758",
@@ -119,23 +9,133 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Leslie Crosbie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003339",
+      "name": "Herbert Marshall",
+      "sequence": 1,
+      "roles": [
+        "Robert Crosbie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827263",
+      "name": "James Stephenson",
+      "sequence": 2,
+      "roles": [
+        "Howard Joyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408586",
+      "name": "Frieda Inescort",
+      "sequence": 3,
+      "roles": [
+        "Dorothy Joyce"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0814216",
+      "name": "Gale Sondergaard",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Hammond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0504423",
+      "name": "Bruce Lester",
+      "sequence": 5,
+      "roles": [
+        "John Withers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0408876",
+      "name": "Elizabeth Inglis",
+      "sequence": 6,
+      "roles": [
+        "Adele Ainsworth"
+      ],
+      "notes": "(as Elizabeth Earl)"
+    },
+    {
+      "person_imdb_id": "nm0445523",
+      "name": "Cecil Kellaway",
+      "sequence": 7,
+      "roles": [
+        "Prescott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0950958",
+      "name": "Victor Sen Yung",
+      "sequence": 8,
+      "roles": [
+        "Ong Chi Seng"
+      ],
+      "notes": "(as Sen Yung)"
+    },
+    {
+      "person_imdb_id": "nm0515967",
+      "name": "Doris Lloyd",
+      "sequence": 9,
+      "roles": [
+        "Mrs. Cooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0298699",
+      "name": "Willie Fung",
+      "sequence": 10,
+      "roles": [
+        "Chung Hi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0464514",
+      "name": "Tetsu Komai",
+      "sequence": 11,
+      "roles": [
+        "Head Boy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0560857",
       "name": "W. Somerset Maugham",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0462321",
       "name": "Howard Koch",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     }
   ],
-  "release_date": "1940-11-15",
+  "release_date": "1940-11-14",
   "release_date_notes": "(San Francisco, California) (premiere)",
   "countries": [
     "United States"

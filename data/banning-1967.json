@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0061383",
   "sort_title": "Banning (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001822",
-      "name": "Robert Wagner",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mike Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0173735",
-      "name": "Anjanette Comer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carol Lindquist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001762",
-      "name": "Jill St. John",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Angela Barr"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0830967",
-      "name": "Guy Stockwell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jonathan Linus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0267232",
-      "name": "James Farentino",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chris Patton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164540",
-      "name": "Susan Clark",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Cynthia Linus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820643",
-      "name": "Howard St. John",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "J. Pallister Young"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446037",
-      "name": "Mike Kellin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Harry Kalielle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tommy Del Gaddo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0308466",
-      "name": "Sean Garrison",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Richard Tyson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709029",
-      "name": "Logan Ramsey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Doc Brewer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002269",
-      "name": "Edmon Ryan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Stuart Warren"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569685",
-      "name": "Oliver McGowan",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Senator Brady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0580612",
-      "name": "Lucille Meredith",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Maggi Andrews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181186",
-      "name": "William Cort",
-      "sequence": 14,
-      "notes": "(as Bill Cort)",
-      "roles": [
-        "Tony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170365",
-      "name": "Pat Colby",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Golfer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3100540",
-      "name": "Sheila Duffy",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Daughter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0615607",
-      "name": "Nino Musco",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "The General"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0935636",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001822",
+      "name": "Robert Wagner",
+      "sequence": 0,
+      "roles": [
+        "Mike Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0173735",
+      "name": "Anjanette Comer",
+      "sequence": 1,
+      "roles": [
+        "Carol Lindquist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001762",
+      "name": "Jill St. John",
+      "sequence": 2,
+      "roles": [
+        "Angela Barr"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0830967",
+      "name": "Guy Stockwell",
+      "sequence": 3,
+      "roles": [
+        "Jonathan Linus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0267232",
+      "name": "James Farentino",
+      "sequence": 4,
+      "roles": [
+        "Chris Patton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164540",
+      "name": "Susan Clark",
+      "sequence": 5,
+      "roles": [
+        "Cynthia Linus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820643",
+      "name": "Howard St. John",
+      "sequence": 6,
+      "roles": [
+        "J. Pallister Young"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446037",
+      "name": "Mike Kellin",
+      "sequence": 7,
+      "roles": [
+        "Harry Kalielle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 8,
+      "roles": [
+        "Tommy Del Gaddo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0308466",
+      "name": "Sean Garrison",
+      "sequence": 9,
+      "roles": [
+        "Richard Tyson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709029",
+      "name": "Logan Ramsey",
+      "sequence": 10,
+      "roles": [
+        "Doc Brewer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002269",
+      "name": "Edmon Ryan",
+      "sequence": 11,
+      "roles": [
+        "Stuart Warren"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569685",
+      "name": "Oliver McGowan",
+      "sequence": 12,
+      "roles": [
+        "Senator Brady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0580612",
+      "name": "Lucille Meredith",
+      "sequence": 13,
+      "roles": [
+        "Maggi Andrews"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181186",
+      "name": "William Cort",
+      "sequence": 14,
+      "roles": [
+        "Tony"
+      ],
+      "notes": "(as Bill Cort)"
+    },
+    {
+      "person_imdb_id": "nm0170365",
+      "name": "Pat Colby",
+      "sequence": 15,
+      "roles": [
+        "Golfer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3100540",
+      "name": "Sheila Duffy",
+      "sequence": 16,
+      "roles": [
+        "Daughter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0615607",
+      "name": "Nino Musco",
+      "sequence": 17,
+      "roles": [
+        "The General"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0497458",
       "name": "James Lee",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0560899",
       "name": "Hamilton Maule",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1967-06-30",

@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0065569",
   "sort_title": "Count Dracula (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Count Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007042",
-      "name": "Herbert Lom",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Professor Van Helsing"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001428",
-      "name": "Klaus Kinski",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Renfield"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737538",
-      "name": "Maria Rohm",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930603",
-      "name": "Fred Williams",
-      "sequence": 4,
-      "notes": "(as Frederick Williams)",
-      "roles": [
-        "Jonathan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002817",
-      "name": "Soledad Miranda",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852488",
-      "name": "Jack Taylor",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Quincey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612219",
-      "name": "Paul Muller",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Seward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0554809",
-      "name": "Jos\u00e9 Mart\u00ednez Blanco",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Traveller",
-        "Dr. Seward"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001238",
@@ -93,62 +9,146 @@
       "notes": "(as Jesse Franco, Jess Franco, Jesus Franco Manera)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Count Dracula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007042",
+      "name": "Herbert Lom",
+      "sequence": 1,
+      "roles": [
+        "Professor Van Helsing"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001428",
+      "name": "Klaus Kinski",
+      "sequence": 2,
+      "roles": [
+        "Renfield"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737538",
+      "name": "Maria Rohm",
+      "sequence": 3,
+      "roles": [
+        "Mina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930603",
+      "name": "Fred Williams",
+      "sequence": 4,
+      "roles": [
+        "Jonathan"
+      ],
+      "notes": "(as Frederick Williams)"
+    },
+    {
+      "person_imdb_id": "nm0002817",
+      "name": "Soledad Miranda",
+      "sequence": 5,
+      "roles": [
+        "Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852488",
+      "name": "Jack Taylor",
+      "sequence": 6,
+      "roles": [
+        "Quincey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0612219",
+      "name": "Paul Muller",
+      "sequence": 7,
+      "roles": [
+        "Dr. Seward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0554809",
+      "name": "Jos\u00e9 Mart\u00ednez Blanco",
+      "sequence": 13,
+      "roles": [
+        "Traveller",
+        "Dr. Seward"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0831290",
       "name": "Bram Stoker",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"Dracula\")",
-      "group_id": 0
+      "notes": "(novel \"Dracula\")"
     },
     {
       "person_imdb_id": "nm0463440",
       "name": "Erich Kr\u00f6hnke",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0278326",
       "name": "Augusto Finocchi",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 2
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0869935",
       "name": "Harry Alan Towers",
-      "sequence": 0,
-      "notes": "(screenplay: English version)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay: English version)"
     },
     {
       "person_imdb_id": "nm0001238",
       "name": "Jes\u00fas Franco",
+      "group": 3,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 3
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0066963",
       "name": "Dietmar Behnke",
+      "group": 4,
       "sequence": 0,
-      "notes": "(dialogue: German version)",
-      "group_id": 4
+      "notes": "(dialogue: German version)"
     },
     {
       "person_imdb_id": "nm0190965",
       "name": "Milo G. Cuccia",
+      "group": 5,
       "sequence": 0,
-      "notes": "(dialogue: Italian version)",
-      "group_id": 5
+      "notes": "(dialogue: Italian version)"
     },
     {
       "person_imdb_id": "nm0264894",
       "name": "Carlo Fadda",
+      "group": 6,
       "sequence": 0,
-      "notes": "(dialogue: Italian version)",
-      "group_id": 6
+      "notes": "(dialogue: Italian version)"
     }
   ],
   "release_date": "1970-04-03",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0050983",
   "sort_title": "Slim Carter (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0537146",
-      "name": "Jock Mahoney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Slim Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011105",
-      "name": "Julie Adams",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Clover Doyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397024",
-      "name": "Tim Hovey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Leo Gallaher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394438",
-      "name": "William Hopper",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joe Brewster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Montana Burriss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601369",
-      "name": "Joanna Moore",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charlene Carroll"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715748",
-      "name": "Walter Reed",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Richard L. Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275992",
-      "name": "Margaret Field",
-      "sequence": 7,
-      "notes": "(as Maggie Mahoney)",
-      "roles": [
-        "Hat Check Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930103",
-      "name": "Bill Williams",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Frank Hanneman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354853",
-      "name": "Barbara Hale",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Allie Hanneman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0058885",
@@ -101,27 +9,119 @@
       "notes": "(as Richard H. Bartlett)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0537146",
+      "name": "Jock Mahoney",
+      "sequence": 0,
+      "roles": [
+        "Slim Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011105",
+      "name": "Julie Adams",
+      "sequence": 1,
+      "roles": [
+        "Clover Doyle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397024",
+      "name": "Tim Hovey",
+      "sequence": 2,
+      "roles": [
+        "Leo Gallaher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394438",
+      "name": "William Hopper",
+      "sequence": 3,
+      "roles": [
+        "Joe Brewster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
+      "sequence": 4,
+      "roles": [
+        "Montana Burriss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601369",
+      "name": "Joanna Moore",
+      "sequence": 5,
+      "roles": [
+        "Charlene Carroll"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715748",
+      "name": "Walter Reed",
+      "sequence": 6,
+      "roles": [
+        "Richard L. Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275992",
+      "name": "Margaret Field",
+      "sequence": 7,
+      "roles": [
+        "Hat Check Girl"
+      ],
+      "notes": "(as Maggie Mahoney)"
+    },
+    {
+      "person_imdb_id": "nm0930103",
+      "name": "Bill Williams",
+      "sequence": 8,
+      "roles": [
+        "Frank Hanneman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354853",
+      "name": "Barbara Hale",
+      "sequence": 9,
+      "roles": [
+        "Allie Hanneman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0685957",
       "name": "Montgomery Pittman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0104279",
       "name": "David Bramson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0564610",
       "name": "Mary C. McCall Jr.",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1957-11-01",

@@ -1,189 +1,6 @@
 {
   "imdb_id": "tt0069113",
   "sort_title": "Poseidon Adventure (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Reverend Scott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000308",
-      "name": "Ernest Borgnine",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mike Rogo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000999",
-      "name": "Red Buttons",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "James Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528595",
-      "name": "Carol Lynley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nonnie Parry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001522",
-      "name": "Roddy McDowall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Acres"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001771",
-      "name": "Stella Stevens",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Linda Rogo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001859",
-      "name": "Shelley Winters",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Belle Rosen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016776",
-      "name": "Jack Albertson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Manny Rosen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552863",
-      "name": "Pamela Sue Martin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Susan Shelby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0640023",
-      "name": "Arthur O'Connell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chaplain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790272",
-      "name": "Eric Shea",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Robin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0755589",
-      "name": "Fred Sadoff",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Linarcos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0021052",
-      "name": "Sheila Allen",
-      "sequence": 12,
-      "notes": "(as Sheila Mathews)",
-      "roles": [
-        "Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0038066",
-      "name": "Jan Arvan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Doctor Caravello"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0916843",
-      "name": "Byron Webster",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Purser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0186833",
-      "name": "John Crawford",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Chief Engineer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0368561",
-      "name": "Bob Hastings",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "M. C."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625358",
-      "name": "Erik L. Nelson",
-      "sequence": 17,
-      "notes": "(as Erik Nelson)",
-      "roles": [
-        "Mr. Tinkham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000558",
-      "name": "Leslie Nielsen",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Captain Harrison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0376433",
-      "name": "Francine Henderson",
-      "sequence": 41,
-      "notes": "",
-      "roles": [
-        "Woman at Sermon",
-        "Female Passenger with Broken Neck"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0623768",
@@ -192,27 +9,210 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 0,
+      "roles": [
+        "Reverend Scott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000308",
+      "name": "Ernest Borgnine",
+      "sequence": 1,
+      "roles": [
+        "Mike Rogo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000999",
+      "name": "Red Buttons",
+      "sequence": 2,
+      "roles": [
+        "James Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528595",
+      "name": "Carol Lynley",
+      "sequence": 3,
+      "roles": [
+        "Nonnie Parry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001522",
+      "name": "Roddy McDowall",
+      "sequence": 4,
+      "roles": [
+        "Acres"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001771",
+      "name": "Stella Stevens",
+      "sequence": 5,
+      "roles": [
+        "Linda Rogo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001859",
+      "name": "Shelley Winters",
+      "sequence": 6,
+      "roles": [
+        "Belle Rosen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016776",
+      "name": "Jack Albertson",
+      "sequence": 7,
+      "roles": [
+        "Manny Rosen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552863",
+      "name": "Pamela Sue Martin",
+      "sequence": 8,
+      "roles": [
+        "Susan Shelby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0640023",
+      "name": "Arthur O'Connell",
+      "sequence": 9,
+      "roles": [
+        "Chaplain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790272",
+      "name": "Eric Shea",
+      "sequence": 10,
+      "roles": [
+        "Robin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0755589",
+      "name": "Fred Sadoff",
+      "sequence": 11,
+      "roles": [
+        "Linarcos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0021052",
+      "name": "Sheila Allen",
+      "sequence": 12,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": "(as Sheila Mathews)"
+    },
+    {
+      "person_imdb_id": "nm0038066",
+      "name": "Jan Arvan",
+      "sequence": 13,
+      "roles": [
+        "Doctor Caravello"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0916843",
+      "name": "Byron Webster",
+      "sequence": 14,
+      "roles": [
+        "Purser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0186833",
+      "name": "John Crawford",
+      "sequence": 15,
+      "roles": [
+        "Chief Engineer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0368561",
+      "name": "Bob Hastings",
+      "sequence": 16,
+      "roles": [
+        "M. C."
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625358",
+      "name": "Erik L. Nelson",
+      "sequence": 17,
+      "roles": [
+        "Mr. Tinkham"
+      ],
+      "notes": "(as Erik Nelson)"
+    },
+    {
+      "person_imdb_id": "nm0000558",
+      "name": "Leslie Nielsen",
+      "sequence": 18,
+      "roles": [
+        "Captain Harrison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0376433",
+      "name": "Francine Henderson",
+      "sequence": 41,
+      "roles": [
+        "Woman at Sermon",
+        "Female Passenger with Broken Neck"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0302904",
       "name": "Paul Gallico",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0798103",
       "name": "Stirling Silliphant",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 1
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0562606",
       "name": "Wendell Mayes",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1972-12-12",

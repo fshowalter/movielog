@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0077630",
   "sort_title": "Grayeagle (1977)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0424565",
-      "name": "Ben Johnson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Colter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002014",
-      "name": "Iron Eyes Cody",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Standing Bear"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0939836",
-      "name": "Lana Wood",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Beth Colter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001181",
-      "name": "Jack Elam",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Trapper Willis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Running Wolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179376",
-      "name": "Alex Cord",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Grayeagle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199966",
-      "name": "Jacob Daniels",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Scar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166000",
-      "name": "Jimmy Clem",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Abe Stroud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124865",
-      "name": "Cindy Butler",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ida Coulter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0682309",
-      "name": "Charles B. Pierce",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Bugler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0923245",
-      "name": "Blackie Wetzell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Medicine Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729233",
-      "name": "Cheyenne Rivera",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Shoshone Brave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1303565",
-      "name": "Wayne Wells",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Shoshone Brave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1305549",
-      "name": "Bill Lafromboise",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Indian at Fort"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2410521",
-      "name": "Don Wright",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Indian at Fort"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1307447",
-      "name": "Jim Hirst",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Young Running Wolf"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920555",
-      "name": "John Welsh",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Lum Stroud"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0682309",
@@ -164,41 +9,196 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0924539",
-      "name": "Brad White",
+      "person_imdb_id": "nm0424565",
+      "name": "Ben Johnson",
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "roles": [
+        "John Colter"
+      ],
+      "notes": ""
     },
     {
-      "person_imdb_id": "nm0756935",
-      "name": "Michael O. Sajbel",
-      "sequence": 0,
-      "notes": "(story) (as Mike Sajbel)",
-      "group_id": 0
+      "person_imdb_id": "nm0002014",
+      "name": "Iron Eyes Cody",
+      "sequence": 1,
+      "roles": [
+        "Standing Bear"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0939836",
+      "name": "Lana Wood",
+      "sequence": 2,
+      "roles": [
+        "Beth Colter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001181",
+      "name": "Jack Elam",
+      "sequence": 3,
+      "roles": [
+        "Trapper Willis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 4,
+      "roles": [
+        "Running Wolf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179376",
+      "name": "Alex Cord",
+      "sequence": 5,
+      "roles": [
+        "Grayeagle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199966",
+      "name": "Jacob Daniels",
+      "sequence": 6,
+      "roles": [
+        "Scar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166000",
+      "name": "Jimmy Clem",
+      "sequence": 7,
+      "roles": [
+        "Abe Stroud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124865",
+      "name": "Cindy Butler",
+      "sequence": 8,
+      "roles": [
+        "Ida Coulter"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0682309",
       "name": "Charles B. Pierce",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "sequence": 9,
+      "roles": [
+        "Bugler"
+      ],
+      "notes": ""
     },
+    {
+      "person_imdb_id": "nm0923245",
+      "name": "Blackie Wetzell",
+      "sequence": 10,
+      "roles": [
+        "Medicine Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729233",
+      "name": "Cheyenne Rivera",
+      "sequence": 11,
+      "roles": [
+        "Shoshone Brave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1303565",
+      "name": "Wayne Wells",
+      "sequence": 12,
+      "roles": [
+        "Shoshone Brave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1305549",
+      "name": "Bill Lafromboise",
+      "sequence": 13,
+      "roles": [
+        "Indian at Fort"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2410521",
+      "name": "Don Wright",
+      "sequence": 14,
+      "roles": [
+        "Indian at Fort"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1307447",
+      "name": "Jim Hirst",
+      "sequence": 15,
+      "roles": [
+        "Young Running Wolf"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920555",
+      "name": "John Welsh",
+      "sequence": 16,
+      "roles": [
+        "Lum Stroud"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
     {
       "person_imdb_id": "nm0924539",
       "name": "Brad White",
+      "group": 0,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0756935",
       "name": "Michael O. Sajbel",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story) (as Mike Sajbel)"
+    },
+    {
+      "person_imdb_id": "nm0682309",
+      "name": "Charles B. Pierce",
+      "group": 1,
       "sequence": 0,
-      "notes": "(additional dialogue) (as Mike Sajbel)",
-      "group_id": 2
+      "notes": "(written by)"
+    },
+    {
+      "person_imdb_id": "nm0924539",
+      "name": "Brad White",
+      "group": 2,
+      "sequence": 0,
+      "notes": "(additional dialogue)"
+    },
+    {
+      "person_imdb_id": "nm0756935",
+      "name": "Michael O. Sajbel",
+      "group": 2,
+      "sequence": 1,
+      "notes": "(additional dialogue) (as Mike Sajbel)"
     }
   ],
   "release_date": "1977-12-28",

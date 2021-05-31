@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0052602",
   "sort_title": "Bat (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Malcolm Wells"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001547",
-      "name": "Agnes Moorehead",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cornelia van Gorder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330200",
-      "name": "Gavin Gordon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Andy Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0840330",
-      "name": "John Sutton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Warner - The Chauffeur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0485425",
-      "name": "Lenita Lane",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lizzie Allen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0249964",
-      "name": "Elaine Edwards",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dale Bailey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393454",
-      "name": "Darla Hood",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Judy Hollander"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117136",
-      "name": "John Bryant",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mark Fleming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827031",
-      "name": "Harvey Stephens",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "John Fleming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0824628",
-      "name": "Mike Steele",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Victor Bailey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0747324",
-      "name": "Riza Royce",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Jane Patterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0931547",
-      "name": "Robert B. Williams",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Detective Davenport"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0928108",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Dr. Malcolm Wells"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001547",
+      "name": "Agnes Moorehead",
+      "sequence": 1,
+      "roles": [
+        "Cornelia van Gorder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330200",
+      "name": "Gavin Gordon",
+      "sequence": 2,
+      "roles": [
+        "Lt. Andy Anderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0840330",
+      "name": "John Sutton",
+      "sequence": 3,
+      "roles": [
+        "Warner - The Chauffeur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0485425",
+      "name": "Lenita Lane",
+      "sequence": 4,
+      "roles": [
+        "Lizzie Allen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0249964",
+      "name": "Elaine Edwards",
+      "sequence": 5,
+      "roles": [
+        "Dale Bailey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0393454",
+      "name": "Darla Hood",
+      "sequence": 6,
+      "roles": [
+        "Judy Hollander"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117136",
+      "name": "John Bryant",
+      "sequence": 7,
+      "roles": [
+        "Mark Fleming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827031",
+      "name": "Harvey Stephens",
+      "sequence": 8,
+      "roles": [
+        "John Fleming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0824628",
+      "name": "Mike Steele",
+      "sequence": 9,
+      "roles": [
+        "Victor Bailey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0747324",
+      "name": "Riza Royce",
+      "sequence": 10,
+      "roles": [
+        "Jane Patterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0931547",
+      "name": "Robert B. Williams",
+      "sequence": 11,
+      "roles": [
+        "Detective Davenport"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0928108",
       "name": "Crane Wilbur",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen story)",
-      "group_id": 0
+      "notes": "(screen story)"
     },
     {
       "person_imdb_id": "nm0928108",
       "name": "Crane Wilbur",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0727497",
       "name": "Mary Roberts Rinehart",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 2
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0394479",
       "name": "Avery Hopwood",
-      "sequence": 0,
-      "notes": "(play)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(play)"
     }
   ],
   "release_date": "1959-08-09",

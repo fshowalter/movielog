@@ -1,108 +1,6 @@
 {
   "imdb_id": "tt0032610",
   "sort_title": "House of the Seven Gables (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001695",
-      "name": "George Sanders",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jaffrey Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0512267",
-      "name": "Margaret Lindsay",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Hepzibah Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Clifford Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285264",
-      "name": "Dick Foran",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Matthew Holgrave"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0340644",
-      "name": "Nan Grey",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Phoebe Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445523",
-      "name": "Cecil Kellaway",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Philip Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0621002",
-      "name": "Alan Napier",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Fuller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0256298",
-      "name": "Gilbert Emery",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gerald Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0541766",
-      "name": "Miles Mander",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Deacon Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694302",
-      "name": "Russ Powell",
-      "sequence": 29,
-      "notes": "",
-      "roles": [
-        "Grocer",
-        "Juror"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0562004",
@@ -111,27 +9,129 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001695",
+      "name": "George Sanders",
+      "sequence": 0,
+      "roles": [
+        "Jaffrey Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0512267",
+      "name": "Margaret Lindsay",
+      "sequence": 1,
+      "roles": [
+        "Hepzibah Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Clifford Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285264",
+      "name": "Dick Foran",
+      "sequence": 3,
+      "roles": [
+        "Matthew Holgrave"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0340644",
+      "name": "Nan Grey",
+      "sequence": 4,
+      "roles": [
+        "Phoebe Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445523",
+      "name": "Cecil Kellaway",
+      "sequence": 5,
+      "roles": [
+        "Philip Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0621002",
+      "name": "Alan Napier",
+      "sequence": 6,
+      "roles": [
+        "Fuller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0256298",
+      "name": "Gilbert Emery",
+      "sequence": 7,
+      "roles": [
+        "Gerald Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0541766",
+      "name": "Miles Mander",
+      "sequence": 8,
+      "roles": [
+        "Deacon Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 9,
+      "roles": [
+        "Judge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694302",
+      "name": "Russ Powell",
+      "sequence": 29,
+      "roles": [
+        "Grocer",
+        "Juror"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0170660",
       "name": "Lester Cole",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0338770",
       "name": "Harold Greene",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0370426",
       "name": "Nathaniel Hawthorne",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 2
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1940-02-29",

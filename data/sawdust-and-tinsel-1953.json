@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0045848",
   "sort_title": "Sawdust and Tinsel (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0344958",
-      "name": "\u00c5ke Gr\u00f6nberg",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Albert Johansson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027683",
-      "name": "Harriet Andersson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252475",
-      "name": "Hasse Ekman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Frans"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0252244",
-      "name": "Anders Ek",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Frost"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112548",
-      "name": "Gudrun Brost",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Alma"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872300",
-      "name": "Annika Tretow",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Agda"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833324",
-      "name": "Erik Strandmark",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085038",
-      "name": "Gunnar Bj\u00f6rnstrand",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Sjuberg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0530586",
-      "name": "Curt L\u00f6wgren",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Blom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452810",
-      "name": "Kiki",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Dwarf"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000005",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0344958",
+      "name": "\u00c5ke Gr\u00f6nberg",
+      "sequence": 0,
+      "roles": [
+        "Albert Johansson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027683",
+      "name": "Harriet Andersson",
+      "sequence": 1,
+      "roles": [
+        "Anne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252475",
+      "name": "Hasse Ekman",
+      "sequence": 2,
+      "roles": [
+        "Frans"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0252244",
+      "name": "Anders Ek",
+      "sequence": 3,
+      "roles": [
+        "Frost"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112548",
+      "name": "Gudrun Brost",
+      "sequence": 4,
+      "roles": [
+        "Alma"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0872300",
+      "name": "Annika Tretow",
+      "sequence": 5,
+      "roles": [
+        "Agda"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833324",
+      "name": "Erik Strandmark",
+      "sequence": 6,
+      "roles": [
+        "Jens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085038",
+      "name": "Gunnar Bj\u00f6rnstrand",
+      "sequence": 7,
+      "roles": [
+        "Mr. Sjuberg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0530586",
+      "name": "Curt L\u00f6wgren",
+      "sequence": 8,
+      "roles": [
+        "Blom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452810",
+      "name": "Kiki",
+      "sequence": 9,
+      "roles": [
+        "The Dwarf"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000005",
       "name": "Ingmar Bergman",
+      "group": 0,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 0
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1953-09-14",

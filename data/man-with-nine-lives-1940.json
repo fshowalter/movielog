@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0032753",
   "sort_title": "Man with Nine Lives (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Leon Kravaal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0699430",
-      "name": "Roger Pryor",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Tim Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768471",
-      "name": "Jo Ann Sayers",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Judith Blair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114692",
-      "name": "Stanley Brown",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bob Adams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0227117",
-      "name": "John Dilson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "John Hawthorne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907404",
-      "name": "Hal Taliaferro",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sheriff Stanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0288304",
-      "name": "Byron Foulger",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Bassett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Harvey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010958",
-      "name": "Ernie Adams",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pete Daggett"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0342417",
@@ -92,20 +9,103 @@
       "notes": "(as Nick Grind\u00e9)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "Dr. Leon Kravaal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0699430",
+      "name": "Roger Pryor",
+      "sequence": 1,
+      "roles": [
+        "Dr. Tim Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768471",
+      "name": "Jo Ann Sayers",
+      "sequence": 2,
+      "roles": [
+        "Judith Blair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0114692",
+      "name": "Stanley Brown",
+      "sequence": 3,
+      "roles": [
+        "Bob Adams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0227117",
+      "name": "John Dilson",
+      "sequence": 4,
+      "roles": [
+        "John Hawthorne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907404",
+      "name": "Hal Taliaferro",
+      "sequence": 5,
+      "roles": [
+        "Sheriff Stanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0288304",
+      "name": "Byron Foulger",
+      "sequence": 6,
+      "roles": [
+        "Dr. Bassett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 7,
+      "roles": [
+        "Dr. Harvey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010958",
+      "name": "Ernie Adams",
+      "sequence": 8,
+      "roles": [
+        "Pete Daggett"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0113954",
       "name": "Karl Brown",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0795851",
       "name": "Harold Shumate",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1940-04-18",

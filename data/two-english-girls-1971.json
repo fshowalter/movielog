@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0066989",
   "sort_title": "Two English Girls (1971)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0529543",
-      "name": "Jean-Pierre L\u00e9aud",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Claude Roc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548440",
-      "name": "Kika Markham",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ann Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0854909",
-      "name": "Stacey Tendeter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Muriel Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0550204",
-      "name": "Sylvia Marriott",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Brown"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543719",
-      "name": "Marie Mansart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Madame Roc"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0529645",
-      "name": "Philippe L\u00e9otard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Diurka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876567",
-      "name": "Ir\u00e8ne Tunc",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ruta"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0677297",
-      "name": "Mark Peterson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Flint"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000016",
-      "name": "Georges Delerue",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Claude's Business Agent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0409764",
-      "name": "Marie Iracane",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Madame Roc's maidservant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0073338",
-      "name": "Marcel Berbert",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Vendeur d'art"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516562",
-      "name": "Jeanne Lobre",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Porter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0548432",
-      "name": "David Markham",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Palmist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000076",
-      "name": "Fran\u00e7ois Truffaut",
-      "sequence": 22,
-      "notes": "",
-      "roles": [
-        "R\u00e9citant",
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000076",
@@ -138,27 +9,156 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0734132",
-      "name": "Henri-Pierre Roch\u00e9",
+      "person_imdb_id": "nm0529543",
+      "name": "Jean-Pierre L\u00e9aud",
       "sequence": 0,
-      "notes": "(novel \"Deux anglaises et le continent\")",
-      "group_id": 0
+      "roles": [
+        "Claude Roc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548440",
+      "name": "Kika Markham",
+      "sequence": 1,
+      "roles": [
+        "Ann Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0854909",
+      "name": "Stacey Tendeter",
+      "sequence": 2,
+      "roles": [
+        "Muriel Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0550204",
+      "name": "Sylvia Marriott",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Brown"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543719",
+      "name": "Marie Mansart",
+      "sequence": 4,
+      "roles": [
+        "Madame Roc"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0529645",
+      "name": "Philippe L\u00e9otard",
+      "sequence": 5,
+      "roles": [
+        "Diurka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876567",
+      "name": "Ir\u00e8ne Tunc",
+      "sequence": 6,
+      "roles": [
+        "Ruta"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0677297",
+      "name": "Mark Peterson",
+      "sequence": 7,
+      "roles": [
+        "Mr. Flint"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000016",
+      "name": "Georges Delerue",
+      "sequence": 8,
+      "roles": [
+        "Claude's Business Agent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0409764",
+      "name": "Marie Iracane",
+      "sequence": 9,
+      "roles": [
+        "Madame Roc's maidservant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0073338",
+      "name": "Marcel Berbert",
+      "sequence": 10,
+      "roles": [
+        "Vendeur d'art"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516562",
+      "name": "Jeanne Lobre",
+      "sequence": 11,
+      "roles": [
+        "Porter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0548432",
+      "name": "David Markham",
+      "sequence": 12,
+      "roles": [
+        "Palmist"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0000076",
       "name": "Fran\u00e7ois Truffaut",
+      "sequence": 22,
+      "roles": [
+        "R\u00e9citant",
+        "Narrator"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0734132",
+      "name": "Henri-Pierre Roch\u00e9",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation & dialogue)",
-      "group_id": 1
+      "notes": "(novel \"Deux anglaises et le continent\")"
+    },
+    {
+      "person_imdb_id": "nm0000076",
+      "name": "Fran\u00e7ois Truffaut",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(adaptation & dialogue)"
     },
     {
       "person_imdb_id": "nm0344171",
       "name": "Jean Gruault",
-      "sequence": 0,
-      "notes": "(adaptation & dialogue)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation & dialogue)"
     }
   ],
   "release_date": "1971-11-18",

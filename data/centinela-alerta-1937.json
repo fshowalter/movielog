@@ -1,108 +1,6 @@
 {
   "imdb_id": "tt0028533",
   "sort_title": "\u00a1Centinela, alerta! (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0193810",
-      "name": "Ana Mar\u00eda Custodio",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Candelas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0760049",
-      "name": "\u00c1ngel Sampedro 'Angelillo'",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "\u00c1ngel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0844538",
-      "name": "Jos\u00e9 Luis S\u00e1enz de Heredia",
-      "sequence": 2,
-      "notes": "(as Luis de Heredia)",
-      "roles": [
-        "Tiburcio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0383081",
-      "name": "Pablo Hidalgo",
-      "sequence": 3,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0511000",
-      "name": "Jos\u00e9 Mar\u00eda Linares-Rivas",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Arturo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692357",
-      "name": "Emilio Portes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0181559",
-      "name": "Mapy Cort\u00e9s",
-      "sequence": 6,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0379805",
-      "name": "Josita Hern\u00e1n",
-      "sequence": 7,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0959363",
-      "name": "Pablo \u00c1lvarez Rubio",
-      "sequence": 8,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0655313",
-      "name": "Mario Pacheco",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "El ni\u00f1o"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133668",
-      "name": "Ra\u00fal Cancio",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0655311",
-      "name": "Mari-Tere Pacheco",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "La ni\u00f1a"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0344927",
@@ -117,27 +15,147 @@
       "notes": "(co-director)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0193810",
+      "name": "Ana Mar\u00eda Custodio",
+      "sequence": 0,
+      "roles": [
+        "Candelas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0760049",
+      "name": "\u00c1ngel Sampedro 'Angelillo'",
+      "sequence": 1,
+      "roles": [
+        "\u00c1ngel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378864",
+      "name": "Luis Heredia",
+      "sequence": 2,
+      "roles": [
+        "Tiburcio"
+      ],
+      "notes": "(as Luis de Heredia)"
+    },
+    {
+      "person_imdb_id": "nm0383081",
+      "name": "Pablo Hidalgo",
+      "sequence": 3,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0844538",
+      "name": "Jos\u00e9 Luis S\u00e1enz de Heredia",
+      "sequence": 4,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511000",
+      "name": "Jos\u00e9 Mar\u00eda Linares-Rivas",
+      "sequence": 5,
+      "roles": [
+        "Arturo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692357",
+      "name": "Emilio Portes",
+      "sequence": 6,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0181559",
+      "name": "Mapy Cort\u00e9s",
+      "sequence": 7,
+      "roles": [
+        "Novia del marino"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379805",
+      "name": "Josita Hern\u00e1n",
+      "sequence": 8,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0959363",
+      "name": "Pablo \u00c1lvarez Rubio",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0655313",
+      "name": "Mario Pacheco",
+      "sequence": 10,
+      "roles": [
+        "El ni\u00f1o"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133668",
+      "name": "Ra\u00fal Cancio",
+      "sequence": 11,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0655311",
+      "name": "Mari-Tere Pacheco",
+      "sequence": 12,
+      "roles": [
+        "La ni\u00f1a"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12595920",
+      "name": "Jos\u00e9 Mar\u00eda Posadas",
+      "sequence": 13,
+      "roles": [
+        "Guitarrista flamenco"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0036298",
       "name": "Carlos Arniches",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"La alegr\u00eda del batall\u00f3n\")",
-      "group_id": 0
+      "notes": "(play \"La alegr\u00eda del batall\u00f3n\")"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0880064",
       "name": "Eduardo Ugarte",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1937-07-12",

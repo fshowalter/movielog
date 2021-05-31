@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0054215",
   "sort_title": "Psycho (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000578",
-      "name": "Anthony Perkins",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Norman Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587256",
-      "name": "Vera Miles",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lila Crane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001260",
-      "name": "John Gavin",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sam Loomis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001463",
-      "name": "Janet Leigh",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Marion Crane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000842",
-      "name": "Martin Balsam",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Det. Milton Arbogast"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570615",
-      "name": "John McIntire",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sheriff Al Chambers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643000",
-      "name": "Simon Oakland",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Fred Richman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tom Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386877",
-      "name": "Patricia Hitchcock",
-      "sequence": 8,
-      "notes": "(as Pat Hitchcock)",
-      "roles": [
-        "Caroline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853299",
-      "name": "Vaughn Taylor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George Lowery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0878354",
-      "name": "Lurene Tuttle",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Chambers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026930",
-      "name": "John Anderson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "California Charlie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590123",
-      "name": "Mort Mills",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Highway Patrol Officer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339615",
-      "name": "Virginia Gregg",
-      "sequence": 22,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Norma Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419220",
-      "name": "Paul Jasmin",
-      "sequence": 24,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Norma Bates"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634282",
-      "name": "Jeanette Nolan",
-      "sequence": 30,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Norma Bates"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -155,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000578",
+      "name": "Anthony Perkins",
+      "sequence": 0,
+      "roles": [
+        "Norman Bates"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587256",
+      "name": "Vera Miles",
+      "sequence": 1,
+      "roles": [
+        "Lila Crane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001260",
+      "name": "John Gavin",
+      "sequence": 2,
+      "roles": [
+        "Sam Loomis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001463",
+      "name": "Janet Leigh",
+      "sequence": 3,
+      "roles": [
+        "Marion Crane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000842",
+      "name": "Martin Balsam",
+      "sequence": 4,
+      "roles": [
+        "Det. Milton Arbogast"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570615",
+      "name": "John McIntire",
+      "sequence": 5,
+      "roles": [
+        "Sheriff Al Chambers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643000",
+      "name": "Simon Oakland",
+      "sequence": 6,
+      "roles": [
+        "Dr. Fred Richman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 7,
+      "roles": [
+        "Tom Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386877",
+      "name": "Patricia Hitchcock",
+      "sequence": 8,
+      "roles": [
+        "Caroline"
+      ],
+      "notes": "(as Pat Hitchcock)"
+    },
+    {
+      "person_imdb_id": "nm0853299",
+      "name": "Vaughn Taylor",
+      "sequence": 9,
+      "roles": [
+        "George Lowery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0878354",
+      "name": "Lurene Tuttle",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Chambers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026930",
+      "name": "John Anderson",
+      "sequence": 11,
+      "roles": [
+        "California Charlie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590123",
+      "name": "Mort Mills",
+      "sequence": 12,
+      "roles": [
+        "Highway Patrol Officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0825010",
       "name": "Joseph Stefano",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0088645",
       "name": "Robert Bloch",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1960-06-16",

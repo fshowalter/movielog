@@ -1,188 +1,6 @@
 {
   "imdb_id": "tt0040614",
   "sort_title": "Mr. Peabody and the Mermaid (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Mr. Peabody"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001955",
-      "name": "Ann Blyth",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mermaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0381154",
-      "name": "Irene Hervey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Polly Peabody"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454448",
-      "name": "Andrea King",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cathy Livingston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839069",
-      "name": "Clinton Sundberg",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mike Fitzgerald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807354",
-      "name": "Art Smith",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Harvey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294099",
-      "name": "Hugh French",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Major Hadley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Colonel Mandrake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164763",
-      "name": "Frederick Clarke",
-      "sequence": 8,
-      "notes": "(as Fred Clark)",
-      "roles": [
-        "Basil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5880869",
-      "name": "James Logan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275997",
-      "name": "Mary Field",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Wee Shop Clerk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730849",
-      "name": "Beatrice Roberts",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0179965",
-      "name": "Cynthia Corley",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Nurse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829064",
-      "name": "Tom Stevenson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0813900",
-      "name": "Mary Somerville",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Lady Trebshaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0752512",
-      "name": "Dick Ryan",
-      "sequence": 15,
-      "notes": "(as Richard Ryan)",
-      "roles": [
-        "Waiter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404903",
-      "name": "Robert Hyatt",
-      "sequence": 16,
-      "notes": "(as Bobby Hyatt)",
-      "roles": [
-        "Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115170",
-      "name": "Ivan Browning",
-      "sequence": 17,
-      "notes": "(as Ivan H. Browning)",
-      "roles": [
-        "Sidney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082153",
-      "name": "Lydia Bilbrook",
-      "sequence": 18,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Woman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365444",
-      "name": "Winifred Harris",
-      "sequence": 19,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Woman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0681635",
@@ -191,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Mr. Peabody"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001955",
+      "name": "Ann Blyth",
+      "sequence": 1,
+      "roles": [
+        "Mermaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0381154",
+      "name": "Irene Hervey",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Polly Peabody"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454448",
+      "name": "Andrea King",
+      "sequence": 3,
+      "roles": [
+        "Cathy Livingston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839069",
+      "name": "Clinton Sundberg",
+      "sequence": 4,
+      "roles": [
+        "Mike Fitzgerald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807354",
+      "name": "Art Smith",
+      "sequence": 5,
+      "roles": [
+        "Dr. Harvey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294099",
+      "name": "Hugh French",
+      "sequence": 6,
+      "roles": [
+        "Major Hadley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 7,
+      "roles": [
+        "Colonel Mandrake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164763",
+      "name": "Frederick Clarke",
+      "sequence": 8,
+      "roles": [
+        "Basil"
+      ],
+      "notes": "(as Fred Clark)"
+    },
+    {
+      "person_imdb_id": "nm5880869",
+      "name": "James Logan",
+      "sequence": 9,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275997",
+      "name": "Mary Field",
+      "sequence": 10,
+      "roles": [
+        "Wee Shop Clerk"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730849",
+      "name": "Beatrice Roberts",
+      "sequence": 11,
+      "roles": [
+        "Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0179965",
+      "name": "Cynthia Corley",
+      "sequence": 12,
+      "roles": [
+        "Nurse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829064",
+      "name": "Tom Stevenson",
+      "sequence": 13,
+      "roles": [
+        "Waiter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0813900",
+      "name": "Mary Somerville",
+      "sequence": 14,
+      "roles": [
+        "Lady Trebshaw"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0752512",
+      "name": "Dick Ryan",
+      "sequence": 15,
+      "roles": [
+        "Waiter"
+      ],
+      "notes": "(as Richard Ryan)"
+    },
+    {
+      "person_imdb_id": "nm0404903",
+      "name": "Robert Hyatt",
+      "sequence": 16,
+      "roles": [
+        "Boy"
+      ],
+      "notes": "(as Bobby Hyatt)"
+    },
+    {
+      "person_imdb_id": "nm0115170",
+      "name": "Ivan Browning",
+      "sequence": 17,
+      "roles": [
+        "Sidney"
+      ],
+      "notes": "(as Ivan H. Browning)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0425913",
       "name": "Nunnally Johnson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0428179",
       "name": "Guy Jones",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel \"Peabody's Mermaid\")",
-      "group_id": 1
+      "notes": "(novel \"Peabody's Mermaid\")"
     },
     {
       "person_imdb_id": "nm1924374",
       "name": "Constance Jones",
-      "sequence": 0,
-      "notes": "(novel \"Peabody's Mermaid\")",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(novel \"Peabody's Mermaid\")"
     }
   ],
   "release_date": "1948-08-11",

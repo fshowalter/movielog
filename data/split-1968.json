@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0063636",
   "sort_title": "Split (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000987",
-      "name": "Jim Brown",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "McClain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140792",
-      "name": "Diahann Carroll",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ellen 'Ellie' Kennedy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000308",
-      "name": "Ernest Borgnine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bert Clinger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0364915",
-      "name": "Julie Harris",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gladys"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000432",
-      "name": "Gene Hackman",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Detective Lt. Walter Brill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001430",
-      "name": "Jack Klugman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Harry Kifka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Marty Gough"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926235",
-      "name": "James Whitmore",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Herb Sutro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000661",
-      "name": "Donald Sutherland",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dave Negli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0417055",
-      "name": "Joyce Jameson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Jenifer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382782",
-      "name": "Harry Hickox",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0430604",
-      "name": "Jackie Joseph",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jackie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888845",
-      "name": "Warren Vanders",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0300276",
-      "name": "Roman Gabriel",
-      "sequence": 24,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Roman Gabriel - L.A. Rams Quarterback"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0974566",
-      "name": "Bart Starr",
-      "sequence": 47,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Bart Starr - Green Bay Packers Quarterback"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0281865",
@@ -146,20 +9,139 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000987",
+      "name": "Jim Brown",
+      "sequence": 0,
+      "roles": [
+        "McClain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140792",
+      "name": "Diahann Carroll",
+      "sequence": 1,
+      "roles": [
+        "Ellen 'Ellie' Kennedy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000308",
+      "name": "Ernest Borgnine",
+      "sequence": 2,
+      "roles": [
+        "Bert Clinger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0364915",
+      "name": "Julie Harris",
+      "sequence": 3,
+      "roles": [
+        "Gladys"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000432",
+      "name": "Gene Hackman",
+      "sequence": 4,
+      "roles": [
+        "Detective Lt. Walter Brill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001430",
+      "name": "Jack Klugman",
+      "sequence": 5,
+      "roles": [
+        "Harry Kifka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 6,
+      "roles": [
+        "Marty Gough"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926235",
+      "name": "James Whitmore",
+      "sequence": 7,
+      "roles": [
+        "Herb Sutro"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000661",
+      "name": "Donald Sutherland",
+      "sequence": 8,
+      "roles": [
+        "Dave Negli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0417055",
+      "name": "Joyce Jameson",
+      "sequence": 9,
+      "roles": [
+        "Jenifer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382782",
+      "name": "Harry Hickox",
+      "sequence": 10,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0430604",
+      "name": "Jackie Joseph",
+      "sequence": 11,
+      "roles": [
+        "Jackie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888845",
+      "name": "Warren Vanders",
+      "sequence": 12,
+      "roles": [
+        "Mason"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0922799",
       "name": "Donald E. Westlake",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Seventh\") (as Richard Stark)",
-      "group_id": 0
+      "notes": "(novel \"The Seventh\") (as Richard Stark)"
     },
     {
       "person_imdb_id": "nm0754517",
       "name": "Robert Sabaroff",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1968-10-01",

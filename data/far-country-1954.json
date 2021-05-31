@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0048055",
   "sort_title": "Far Country (1954)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jeff Webster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738746",
-      "name": "Ruth Roman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ronda Castle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130794",
-      "name": "Corinne Calvet",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Renee Vallon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000974",
-      "name": "Walter Brennan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ben Tatum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570615",
-      "name": "John McIntire",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Gannon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0282435",
-      "name": "Jay C. Flippen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rube"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0604702",
-      "name": "Harry Morgan",
-      "sequence": 6,
-      "notes": "(as Henry Morgan)",
-      "roles": [
-        "Ketchum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0110917",
-      "name": "Steve Brodie",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ives"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318349",
-      "name": "Connie Gilchrist",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Hominy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0929057",
-      "name": "Robert J. Wilke",
-      "sequence": 9,
-      "notes": "(as Robert Wilke)",
-      "roles": [
-        "Madden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424793",
-      "name": "Chubby Johnson",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dusty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200455",
-      "name": "Royal Dano",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Luke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001181",
-      "name": "Jack Elam",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Frank Newberry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293466",
-      "name": "Kathleen Freeman",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Grits"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888403",
-      "name": "Connie Van",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Molasses"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0542649",
@@ -146,13 +9,150 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "Jeff Webster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738746",
+      "name": "Ruth Roman",
+      "sequence": 1,
+      "roles": [
+        "Ronda Castle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130794",
+      "name": "Corinne Calvet",
+      "sequence": 2,
+      "roles": [
+        "Renee Vallon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000974",
+      "name": "Walter Brennan",
+      "sequence": 3,
+      "roles": [
+        "Ben Tatum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570615",
+      "name": "John McIntire",
+      "sequence": 4,
+      "roles": [
+        "Gannon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0282435",
+      "name": "Jay C. Flippen",
+      "sequence": 5,
+      "roles": [
+        "Rube"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0604702",
+      "name": "Harry Morgan",
+      "sequence": 6,
+      "roles": [
+        "Ketchum"
+      ],
+      "notes": "(as Henry Morgan)"
+    },
+    {
+      "person_imdb_id": "nm0110917",
+      "name": "Steve Brodie",
+      "sequence": 7,
+      "roles": [
+        "Ives"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318349",
+      "name": "Connie Gilchrist",
+      "sequence": 8,
+      "roles": [
+        "Hominy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0929057",
+      "name": "Robert J. Wilke",
+      "sequence": 9,
+      "roles": [
+        "Madden"
+      ],
+      "notes": "(as Robert Wilke)"
+    },
+    {
+      "person_imdb_id": "nm0424793",
+      "name": "Chubby Johnson",
+      "sequence": 10,
+      "roles": [
+        "Dusty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200455",
+      "name": "Royal Dano",
+      "sequence": 11,
+      "roles": [
+        "Luke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001181",
+      "name": "Jack Elam",
+      "sequence": 12,
+      "roles": [
+        "Frank Newberry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293466",
+      "name": "Kathleen Freeman",
+      "sequence": 13,
+      "roles": [
+        "Grits"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888403",
+      "name": "Connie Van",
+      "sequence": 14,
+      "roles": [
+        "Molasses"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0153698",
       "name": "Borden Chase",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1954-07-22",

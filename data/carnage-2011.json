@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt1692486",
   "sort_title": "Carnage (2011)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000149",
-      "name": "Jodie Foster",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Penelope Longstreet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000701",
-      "name": "Kate Winslet",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nancy Cowan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910607",
-      "name": "Christoph Waltz",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alan Cowan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000604",
-      "name": "John C. Reilly",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Michael Longstreet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2068431",
-      "name": "Elvis Polanski",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Zachary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm4698984",
-      "name": "Eliot Berger",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ethan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0722161",
-      "name": "Joseph Rezwin",
-      "sequence": 6,
-      "notes": "(voice) (as Joe Rezwin)",
-      "roles": [
-        "Walter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2920051",
-      "name": "Nathan Rippy",
-      "sequence": 7,
-      "notes": "(voice)",
-      "roles": [
-        "Dennis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519839",
-      "name": "Tanya Lopert",
-      "sequence": 8,
-      "notes": "(voice)",
-      "roles": [
-        "Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011105",
-      "name": "Julie Adams",
-      "sequence": 9,
-      "notes": "(voice)",
-      "roles": [
-        "Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2335945",
-      "name": "Lexie Kendrick",
-      "sequence": 10,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Jogger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000591",
@@ -110,34 +9,126 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000149",
+      "name": "Jodie Foster",
+      "sequence": 0,
+      "roles": [
+        "Penelope Longstreet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000701",
+      "name": "Kate Winslet",
+      "sequence": 1,
+      "roles": [
+        "Nancy Cowan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910607",
+      "name": "Christoph Waltz",
+      "sequence": 2,
+      "roles": [
+        "Alan Cowan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000604",
+      "name": "John C. Reilly",
+      "sequence": 3,
+      "roles": [
+        "Michael Longstreet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2068431",
+      "name": "Elvis Polanski",
+      "sequence": 4,
+      "roles": [
+        "Zachary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4698984",
+      "name": "Eliot Berger",
+      "sequence": 5,
+      "roles": [
+        "Ethan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0722161",
+      "name": "Joseph Rezwin",
+      "sequence": 6,
+      "roles": [
+        "Walter"
+      ],
+      "notes": "(voice) (as Joe Rezwin)"
+    },
+    {
+      "person_imdb_id": "nm2920051",
+      "name": "Nathan Rippy",
+      "sequence": 7,
+      "roles": [
+        "Dennis"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0519839",
+      "name": "Tanya Lopert",
+      "sequence": 8,
+      "roles": [
+        "Mother"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "person_imdb_id": "nm0011105",
+      "name": "Julie Adams",
+      "sequence": 9,
+      "roles": [
+        "Secretary"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0722078",
       "name": "Yasmina Reza",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the play 'Le Dieu du Carnage' by)",
-      "group_id": 0
+      "notes": "(based on the play 'Le Dieu du Carnage' by)"
     },
     {
       "person_imdb_id": "nm0441301",
       "name": "Michael Katims",
+      "group": 1,
       "sequence": 0,
-      "notes": "(translated by)",
-      "group_id": 1
+      "notes": "(translated by)"
     },
     {
       "person_imdb_id": "nm0722078",
       "name": "Yasmina Reza",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 2
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0000591",
       "name": "Roman Polanski",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "2011-09-01",

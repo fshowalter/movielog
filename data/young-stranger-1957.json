@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0051214",
   "sort_title": "Young Stranger (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0531279",
-      "name": "James MacArthur",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hal Ditmar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001375",
-      "name": "Kim Hunter",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen Ditmar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0198446",
-      "name": "James Daly",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Tom Ditmar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339834",
-      "name": "James Gregory",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Police Sgt. Shipley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000946",
-      "name": "Whit Bissell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Grubbs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0798712",
-      "name": "Jeffrey Silver",
-      "sequence": 5,
-      "notes": "(as Jeff Silver)",
-      "roles": [
-        "Jerry Doyle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0611955",
-      "name": "Jack Mullaney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Confused Boy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685964",
-      "name": "Tom Pittman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lynn Spears"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0204332",
-      "name": "Charles Davis",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899090",
-      "name": "Gary Vinson",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Boy in Courtroom"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001239",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0531279",
+      "name": "James MacArthur",
+      "sequence": 0,
+      "roles": [
+        "Hal Ditmar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001375",
+      "name": "Kim Hunter",
+      "sequence": 1,
+      "roles": [
+        "Helen Ditmar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0198446",
+      "name": "James Daly",
+      "sequence": 2,
+      "roles": [
+        "Tom Ditmar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339834",
+      "name": "James Gregory",
+      "sequence": 3,
+      "roles": [
+        "Police Sgt. Shipley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000946",
+      "name": "Whit Bissell",
+      "sequence": 4,
+      "roles": [
+        "Grubbs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0798712",
+      "name": "Jeffrey Silver",
+      "sequence": 5,
+      "roles": [
+        "Jerry Doyle"
+      ],
+      "notes": "(as Jeff Silver)"
+    },
+    {
+      "person_imdb_id": "nm0611955",
+      "name": "Jack Mullaney",
+      "sequence": 6,
+      "roles": [
+        "Confused Boy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685964",
+      "name": "Tom Pittman",
+      "sequence": 7,
+      "roles": [
+        "Lynn Spears"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0204332",
+      "name": "Charles Davis",
+      "sequence": 8,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899090",
+      "name": "Gary Vinson",
+      "sequence": 9,
+      "roles": [
+        "Boy in Courtroom"
+      ],
+      "notes": "(scenesDeleted)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0236544",
       "name": "Robert Dozier",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0236544",
       "name": "Robert Dozier",
+      "group": 1,
       "sequence": 0,
-      "notes": "(television play \"Deal a Blow\") (uncredited)",
-      "group_id": 1
+      "notes": "(television play \"Deal a Blow\") (uncredited)"
     }
   ],
   "release_date": "1957-02-01",

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0094315",
   "sort_title": "Whales of August (1987)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Libby Strong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001273",
-      "name": "Lillian Gish",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sarah Webber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. Maranov"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0815433",
-      "name": "Ann Sothern",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tisha Doughty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001013",
-      "name": "Harry Carey Jr.",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joshua Brackett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0342200",
-      "name": "Frank Grimes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mr. Beckwith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0480470",
-      "name": "Margaret Ladd",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Young Libby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827594",
-      "name": "Tisha Sterling",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Young Tisha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005460",
-      "name": "Mary Steenburgen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Young Sarah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0685711",
-      "name": "Frank Pitkin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Old Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124175",
-      "name": "Mike Bush",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Young Randall"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000755",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Libby Strong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001273",
+      "name": "Lillian Gish",
+      "sequence": 1,
+      "roles": [
+        "Sarah Webber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "Mr. Maranov"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0815433",
+      "name": "Ann Sothern",
+      "sequence": 3,
+      "roles": [
+        "Tisha Doughty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001013",
+      "name": "Harry Carey Jr.",
+      "sequence": 4,
+      "roles": [
+        "Joshua Brackett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0342200",
+      "name": "Frank Grimes",
+      "sequence": 5,
+      "roles": [
+        "Mr. Beckwith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0480470",
+      "name": "Margaret Ladd",
+      "sequence": 6,
+      "roles": [
+        "Young Libby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827594",
+      "name": "Tisha Sterling",
+      "sequence": 7,
+      "roles": [
+        "Young Tisha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005460",
+      "name": "Mary Steenburgen",
+      "sequence": 8,
+      "roles": [
+        "Young Sarah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0685711",
+      "name": "Frank Pitkin",
+      "sequence": 9,
+      "roles": [
+        "Old Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124175",
+      "name": "Mike Bush",
+      "sequence": 10,
+      "roles": [
+        "Young Randall"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0077527",
       "name": "David Berry",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0077527",
       "name": "David Berry",
+      "group": 1,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 1
+      "notes": "(play)"
     }
   ],
   "release_date": "1987-08-19",

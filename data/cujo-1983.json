@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0085382",
   "sort_title": "Cujo (1983)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0908914",
-      "name": "Dee Wallace",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Donna Trenton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001622",
-      "name": "Danny Pintauro",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tad Trenton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446298",
-      "name": "Daniel Hugh Kelly",
-      "sequence": 2,
-      "notes": "(as Daniel Hugh-Kelly)",
-      "roles": [
-        "Vic Trenton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0831791",
-      "name": "Christopher Stone",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Steve Kemp"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0491590",
-      "name": "Ed Lauter",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Joe Camber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0435260",
-      "name": "Kaiulani Lee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charity Camber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0419747",
-      "name": "Billy Jayne",
-      "sequence": 6,
-      "notes": "(as Billy Jacoby)",
-      "roles": [
-        "Brett Camber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914806",
-      "name": "Mills Watson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gary Pervier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0911832",
-      "name": "Sandy Ward",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bannerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362222",
-      "name": "Jerry Hardin",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Masen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647745",
-      "name": "Merritt Olsen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Professor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0742172",
-      "name": "Arthur Rosenberg",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Roger Breakstone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233077",
-      "name": "Terry Donovan-Smith",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Harry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255588",
-      "name": "Robert Elross",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Meara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0066932",
-      "name": "Robert Behling",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Fournier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0634653",
-      "name": "Clare Torao",
-      "sequence": 15,
-      "notes": "(as Claire Nono)",
-      "roles": [
-        "Lady Reporter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087828",
-      "name": "Daniel H. Blatt",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Dr. Merkatz"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0853546",
@@ -164,27 +9,182 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0908914",
+      "name": "Dee Wallace",
+      "sequence": 0,
+      "roles": [
+        "Donna Trenton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001622",
+      "name": "Danny Pintauro",
+      "sequence": 1,
+      "roles": [
+        "Tad Trenton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446298",
+      "name": "Daniel Hugh Kelly",
+      "sequence": 2,
+      "roles": [
+        "Vic Trenton"
+      ],
+      "notes": "(as Daniel Hugh-Kelly)"
+    },
+    {
+      "person_imdb_id": "nm0831791",
+      "name": "Christopher Stone",
+      "sequence": 3,
+      "roles": [
+        "Steve Kemp"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0491590",
+      "name": "Ed Lauter",
+      "sequence": 4,
+      "roles": [
+        "Joe Camber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0435260",
+      "name": "Kaiulani Lee",
+      "sequence": 5,
+      "roles": [
+        "Charity Camber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419747",
+      "name": "Billy Jayne",
+      "sequence": 6,
+      "roles": [
+        "Brett Camber"
+      ],
+      "notes": "(as Billy Jacoby)"
+    },
+    {
+      "person_imdb_id": "nm0914806",
+      "name": "Mills Watson",
+      "sequence": 7,
+      "roles": [
+        "Gary Pervier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0911832",
+      "name": "Sandy Ward",
+      "sequence": 8,
+      "roles": [
+        "Bannerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362222",
+      "name": "Jerry Hardin",
+      "sequence": 9,
+      "roles": [
+        "Masen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647745",
+      "name": "Merritt Olsen",
+      "sequence": 10,
+      "roles": [
+        "Professor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0742172",
+      "name": "Arthur Rosenberg",
+      "sequence": 11,
+      "roles": [
+        "Roger Breakstone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233077",
+      "name": "Terry Donovan-Smith",
+      "sequence": 12,
+      "roles": [
+        "Harry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255588",
+      "name": "Robert Elross",
+      "sequence": 13,
+      "roles": [
+        "Meara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0066932",
+      "name": "Robert Behling",
+      "sequence": 14,
+      "roles": [
+        "Fournier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0634653",
+      "name": "Clare Torao",
+      "sequence": 15,
+      "roles": [
+        "Lady Reporter"
+      ],
+      "notes": "(as Claire Nono)"
+    },
+    {
+      "person_imdb_id": "nm0087828",
+      "name": "Daniel H. Blatt",
+      "sequence": 16,
+      "roles": [
+        "Dr. Merkatz"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000175",
       "name": "Stephen King",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0241795",
       "name": "Don Carlos Dunaway",
+      "group": 1,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 1
+      "notes": "(writer)"
     },
     {
       "person_imdb_id": "nm0193009",
       "name": "Barbara Turner",
-      "sequence": 0,
-      "notes": "(writer) (as Lauren Currier)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(writer) (as Lauren Currier)"
     }
   ],
   "release_date": "1983-08-10",

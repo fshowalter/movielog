@@ -1,197 +1,6 @@
 {
   "imdb_id": "tt0053903",
   "sort_title": "Hellfire Club (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0585004",
-      "name": "Keith Michell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jason Caldwell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0180920",
-      "name": "Adrienne Corri",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lady Isobel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. Merryweather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0036170",
-      "name": "Peter Arne",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Thomas - Earl of Netherden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0279007",
-      "name": "Kai Fischer",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Yvonne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517084",
-      "name": "David Lodge",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Timothy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0654089",
-      "name": "Bill Owen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0539942",
-      "name": "Miles Malleson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827101",
-      "name": "Martin Stephens",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jason Junior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517095",
-      "name": "Jean Lodge",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lady Netherden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560022",
-      "name": "Francis Matthews",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sir Hugh Manning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0910156",
-      "name": "Desmond Walter-Ellis",
-      "sequence": 11,
-      "notes": "(as Desmond Walter Ellis)",
-      "roles": [
-        "Lord Chorley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0789687",
-      "name": "Denis Shaw",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Sir Richard Benlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0501384",
-      "name": "Tutte Lemkow",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Higgins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0651740",
-      "name": "Rupert Osborne",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Thomas Junior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0553074",
-      "name": "Skip Martin",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Joey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0398032",
-      "name": "Peter Howell",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "William Pitt - Earl of Chatham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0834074",
-      "name": "George Street",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Landlord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779368",
-      "name": "John Scott",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Prison Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269026",
-      "name": "Andrew Faulds",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Lord Netherden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043280",
-      "name": "Roger Avon",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Turnkey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0048875",
@@ -206,27 +15,218 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0585004",
+      "name": "Keith Michell",
+      "sequence": 0,
+      "roles": [
+        "Jason Caldwell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0180920",
+      "name": "Adrienne Corri",
+      "sequence": 1,
+      "roles": [
+        "Lady Isobel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 2,
+      "roles": [
+        "Mr. Merryweather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0036170",
+      "name": "Peter Arne",
+      "sequence": 3,
+      "roles": [
+        "Thomas - Earl of Netherden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0279007",
+      "name": "Kai Fischer",
+      "sequence": 4,
+      "roles": [
+        "Yvonne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517084",
+      "name": "David Lodge",
+      "sequence": 5,
+      "roles": [
+        "Timothy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0654089",
+      "name": "Bill Owen",
+      "sequence": 6,
+      "roles": [
+        "Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0539942",
+      "name": "Miles Malleson",
+      "sequence": 7,
+      "roles": [
+        "Judge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827101",
+      "name": "Martin Stephens",
+      "sequence": 8,
+      "roles": [
+        "Jason Junior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517095",
+      "name": "Jean Lodge",
+      "sequence": 9,
+      "roles": [
+        "Lady Netherden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560022",
+      "name": "Francis Matthews",
+      "sequence": 10,
+      "roles": [
+        "Sir Hugh Manning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0910156",
+      "name": "Desmond Walter-Ellis",
+      "sequence": 11,
+      "roles": [
+        "Lord Chorley"
+      ],
+      "notes": "(as Desmond Walter Ellis)"
+    },
+    {
+      "person_imdb_id": "nm0789687",
+      "name": "Denis Shaw",
+      "sequence": 12,
+      "roles": [
+        "Sir Richard Benlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0501384",
+      "name": "Tutte Lemkow",
+      "sequence": 13,
+      "roles": [
+        "Higgins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0651740",
+      "name": "Rupert Osborne",
+      "sequence": 14,
+      "roles": [
+        "Thomas Junior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0553074",
+      "name": "Skip Martin",
+      "sequence": 15,
+      "roles": [
+        "Joey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0398032",
+      "name": "Peter Howell",
+      "sequence": 16,
+      "roles": [
+        "William Pitt - Earl of Chatham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0834074",
+      "name": "George Street",
+      "sequence": 17,
+      "roles": [
+        "Landlord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779368",
+      "name": "John Scott",
+      "sequence": 18,
+      "roles": [
+        "Prison Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269026",
+      "name": "Andrew Faulds",
+      "sequence": 19,
+      "roles": [
+        "Lord Netherden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043280",
+      "name": "Roger Avon",
+      "sequence": 20,
+      "roles": [
+        "Turnkey"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0762727",
       "name": "Jimmy Sangster",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0341707",
       "name": "Leon Griffiths",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1961-02-01",

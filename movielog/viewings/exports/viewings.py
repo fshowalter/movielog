@@ -1,13 +1,12 @@
-from dataclasses import dataclass
 from datetime import date
+from typing import TypedDict
 
 from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
 
-@dataclass
-class Viewing(object):
+class Viewing(TypedDict):
     imdb_id: str
     title: str
     year: str
@@ -54,4 +53,4 @@ def export() -> None:
         for row in db.fetch_all(query)
     ]
 
-    export_tools.serialize_dataclasses(viewings, "viewings")
+    export_tools.serialize_dicts(viewings, "viewings")

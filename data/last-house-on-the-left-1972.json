@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0068833",
   "sort_title": "Last House on the Left (1972)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0144053",
-      "name": "Sandra Peabody",
-      "sequence": 0,
-      "notes": "(as Sandra Cassell)",
-      "roles": [
-        "Mari Collingwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335715",
-      "name": "Lucy Grantham",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Phyllis Stone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0381450",
-      "name": "David Hess",
-      "sequence": 2,
-      "notes": "(as David A. Hess)",
-      "roles": [
-        "Krug Stillo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0511107",
-      "name": "Fred J. Lincoln",
-      "sequence": 3,
-      "notes": "(as Fred Lincoln)",
-      "roles": [
-        "Fred 'Weasel' Podowski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706942",
-      "name": "Jeramie Rain",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sadie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0790820",
-      "name": "Marc Sheffler",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Junior Stillo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820577",
-      "name": "Richard Towers",
-      "sequence": 6,
-      "notes": "(as Gaylord St. James)",
-      "roles": [
-        "Dr. John Collingwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0139660",
-      "name": "Cynthia Carr",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Estelle Collingwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913392",
-      "name": "Ada Washington",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ada"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030159",
-      "name": "Marshall Anker",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184392",
-      "name": "Martin Kove",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Deputy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm7788114",
-      "name": "Ray Edwards",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Postman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000127",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0144053",
+      "name": "Sandra Peabody",
+      "sequence": 0,
+      "roles": [
+        "Mari Collingwood"
+      ],
+      "notes": "(as Sandra Cassell)"
+    },
+    {
+      "person_imdb_id": "nm0335715",
+      "name": "Lucy Grantham",
+      "sequence": 1,
+      "roles": [
+        "Phyllis Stone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0381450",
+      "name": "David Hess",
+      "sequence": 2,
+      "roles": [
+        "Krug Stillo"
+      ],
+      "notes": "(as David A. Hess)"
+    },
+    {
+      "person_imdb_id": "nm0511107",
+      "name": "Fred J. Lincoln",
+      "sequence": 3,
+      "roles": [
+        "Fred 'Weasel' Podowski"
+      ],
+      "notes": "(as Fred Lincoln)"
+    },
+    {
+      "person_imdb_id": "nm0706942",
+      "name": "Jeramie Rain",
+      "sequence": 4,
+      "roles": [
+        "Sadie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0790820",
+      "name": "Marc Sheffler",
+      "sequence": 5,
+      "roles": [
+        "Junior Stillo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820577",
+      "name": "Richard Towers",
+      "sequence": 6,
+      "roles": [
+        "Dr. John Collingwood"
+      ],
+      "notes": "(as Gaylord St. James)"
+    },
+    {
+      "person_imdb_id": "nm0139660",
+      "name": "Cynthia Carr",
+      "sequence": 7,
+      "roles": [
+        "Estelle Collingwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913392",
+      "name": "Ada Washington",
+      "sequence": 8,
+      "roles": [
+        "Ada"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030159",
+      "name": "Marshall Anker",
+      "sequence": 9,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184392",
+      "name": "Martin Kove",
+      "sequence": 10,
+      "roles": [
+        "Deputy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7788114",
+      "name": "Ray Edwards",
+      "sequence": 11,
+      "roles": [
+        "Postman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000127",
       "name": "Wes Craven",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0410694",
       "name": "Ulla Isaksson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(earlier screenplay) (uncredited)",
-      "group_id": 1
+      "notes": "(earlier screenplay) (uncredited)"
     }
   ],
   "release_date": "1972-08-02",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0049800",
   "sort_title": "Storm Center (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alicia Hull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001417",
-      "name": "Brian Keith",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Paul Duncan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001375",
-      "name": "Kim Hunter",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Martha Lockridge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446769",
-      "name": "Paul Kelly",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Judge Robert Ellerbee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0544064",
-      "name": "Joe Mantell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "George Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183358",
-      "name": "Kevin Coughlin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Freddie Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112387",
-      "name": "Sally Brophy",
-      "sequence": 6,
-      "notes": "(as Sallie Brophie)",
-      "roles": [
-        "Laura Slater"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0927569",
-      "name": "Howard Wierum",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mayor Levering"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0177527",
-      "name": "Curtis Cooksey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Stacey Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0706283",
-      "name": "Michael Raffetto",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Edgar Greenbaum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0444012",
-      "name": "Joseph Kearns",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mr. Morrisey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686857",
-      "name": "Edward Platt",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rev. Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0335497",
-      "name": "Kathryn Grant",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Hazel Levering"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920831",
-      "name": "Howard Wendell",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sen. Bascomb"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0850168",
@@ -137,20 +9,148 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 0,
+      "roles": [
+        "Alicia Hull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001417",
+      "name": "Brian Keith",
+      "sequence": 1,
+      "roles": [
+        "Paul Duncan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001375",
+      "name": "Kim Hunter",
+      "sequence": 2,
+      "roles": [
+        "Martha Lockridge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446769",
+      "name": "Paul Kelly",
+      "sequence": 3,
+      "roles": [
+        "Judge Robert Ellerbee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0544064",
+      "name": "Joe Mantell",
+      "sequence": 4,
+      "roles": [
+        "George Slater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183358",
+      "name": "Kevin Coughlin",
+      "sequence": 5,
+      "roles": [
+        "Freddie Slater"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112387",
+      "name": "Sally Brophy",
+      "sequence": 6,
+      "roles": [
+        "Laura Slater"
+      ],
+      "notes": "(as Sallie Brophie)"
+    },
+    {
+      "person_imdb_id": "nm0927569",
+      "name": "Howard Wierum",
+      "sequence": 7,
+      "roles": [
+        "Mayor Levering"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0177527",
+      "name": "Curtis Cooksey",
+      "sequence": 8,
+      "roles": [
+        "Stacey Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706283",
+      "name": "Michael Raffetto",
+      "sequence": 9,
+      "roles": [
+        "Edgar Greenbaum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0444012",
+      "name": "Joseph Kearns",
+      "sequence": 10,
+      "roles": [
+        "Mr. Morrisey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686857",
+      "name": "Edward Platt",
+      "sequence": 11,
+      "roles": [
+        "Rev. Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0335497",
+      "name": "Kathryn Grant",
+      "sequence": 12,
+      "roles": [
+        "Hazel Levering"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920831",
+      "name": "Howard Wendell",
+      "sequence": 13,
+      "roles": [
+        "Sen. Bascomb"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0850168",
       "name": "Daniel Taradash",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     },
     {
       "person_imdb_id": "nm0596963",
       "name": "Elick Moll",
-      "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1956-05-24",

@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0041423",
   "sort_title": "Great Madcap (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0812937",
-      "name": "Fernando Soler",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ramiro de la Mata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0334650",
-      "name": "Rosario Granados",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Virginia de la Mata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812919",
-      "name": "Andr\u00e9s Soler",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Ladislao de la Mata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737944",
-      "name": "Rub\u00e9n Rojo",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Pablo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737924",
-      "name": "Gustavo Rojo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Eduardo de la Mata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341060",
-      "name": "Maruja Grifell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Milagros"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416220",
-      "name": "Francisco Jambrina",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Gregorio de la Mata"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017274",
-      "name": "Luis Alcoriza",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Alfredo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106055",
-      "name": "Antonio Bravo",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Alfonso"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0598634",
-      "name": "Antonio Monsell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Juan, mayordomo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0785584",
-      "name": "Mar\u00eda Luisa Serrano",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mam\u00e1 de Alfredo"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -110,27 +9,128 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0017272",
-      "name": "Janet Alcoriza",
+      "person_imdb_id": "nm0812937",
+      "name": "Fernando Soler",
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 0
+      "roles": [
+        "Ramiro de la Mata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0334650",
+      "name": "Rosario Granados",
+      "sequence": 1,
+      "roles": [
+        "Virginia de la Mata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812919",
+      "name": "Andr\u00e9s Soler",
+      "sequence": 2,
+      "roles": [
+        "Ladislao de la Mata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737944",
+      "name": "Rub\u00e9n Rojo",
+      "sequence": 3,
+      "roles": [
+        "Pablo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737924",
+      "name": "Gustavo Rojo",
+      "sequence": 4,
+      "roles": [
+        "Eduardo de la Mata"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0341060",
+      "name": "Maruja Grifell",
+      "sequence": 5,
+      "roles": [
+        "Milagros"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0416220",
+      "name": "Francisco Jambrina",
+      "sequence": 6,
+      "roles": [
+        "Gregorio de la Mata"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0017274",
       "name": "Luis Alcoriza",
+      "sequence": 7,
+      "roles": [
+        "Alfredo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106055",
+      "name": "Antonio Bravo",
+      "sequence": 8,
+      "roles": [
+        "Alfonso"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0598634",
+      "name": "Antonio Monsell",
+      "sequence": 9,
+      "roles": [
+        "Juan, mayordomo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0785584",
+      "name": "Mar\u00eda Luisa Serrano",
+      "sequence": 10,
+      "roles": [
+        "Mam\u00e1 de Alfredo"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0017272",
+      "name": "Janet Alcoriza",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
+    },
+    {
+      "person_imdb_id": "nm0017274",
+      "name": "Luis Alcoriza",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0868307",
       "name": "Adolfo Torrado",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play \"El Gran Calavera\")",
-      "group_id": 2
+      "notes": "(play \"El Gran Calavera\")"
     }
   ],
   "release_date": "1949-11-25",

@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0062861",
   "sort_title": "Danger: Diabolik (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0492342",
-      "name": "John Phillip Law",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Diabolik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0577867",
-      "name": "Marisa Mell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eva Kant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681566",
-      "name": "Michel Piccoli",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Inspector Ginko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0148041",
-      "name": "Adolfo Celi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ralph Valmont"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329746",
-      "name": "Claudio Gora",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Police Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232434",
-      "name": "Mario Donen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sergeant Danek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658425",
-      "name": "Renzo Palmer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Hammond - Second Minister of the Interior"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0095950",
-      "name": "Caterina Boratto",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lady Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0595342",
-      "name": "Lucia Modugno",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Prostitute"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0329780",
-      "name": "Annie Gorassini",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Rose"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0188311",
-      "name": "Carlo Croccolo",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Lorry Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0083162",
-      "name": "Lidia Biondi",
-      "sequence": 11,
-      "notes": "(as Lidia Biondi C.S.C.)",
-      "roles": [
-        "Policewoman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0097953",
-      "name": "Andrea Bosic",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Bank Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0092231",
-      "name": "Federico Boido",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Joe - Valmont's Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593990",
-      "name": "Tiberio Mitri",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Valmont's Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712248",
-      "name": "Isarco Ravaioli",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Valmont's Henchman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0778480",
-      "name": "Giorgio Sciolette",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Dr. Ferrara - Morgue Physician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856103",
-      "name": "Terry-Thomas",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Minister of the Interior",
-        "Minister of Finance"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000878",
@@ -174,62 +9,227 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0492342",
+      "name": "John Phillip Law",
+      "sequence": 0,
+      "roles": [
+        "Diabolik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0577867",
+      "name": "Marisa Mell",
+      "sequence": 1,
+      "roles": [
+        "Eva Kant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681566",
+      "name": "Michel Piccoli",
+      "sequence": 2,
+      "roles": [
+        "Inspector Ginko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0148041",
+      "name": "Adolfo Celi",
+      "sequence": 3,
+      "roles": [
+        "Ralph Valmont"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329746",
+      "name": "Claudio Gora",
+      "sequence": 4,
+      "roles": [
+        "Police Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232434",
+      "name": "Mario Donen",
+      "sequence": 5,
+      "roles": [
+        "Sergeant Danek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658425",
+      "name": "Renzo Palmer",
+      "sequence": 6,
+      "roles": [
+        "Mr. Hammond - Second Minister of the Interior"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0095950",
+      "name": "Caterina Boratto",
+      "sequence": 7,
+      "roles": [
+        "Lady Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0595342",
+      "name": "Lucia Modugno",
+      "sequence": 8,
+      "roles": [
+        "Prostitute"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0329780",
+      "name": "Annie Gorassini",
+      "sequence": 9,
+      "roles": [
+        "Rose"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0188311",
+      "name": "Carlo Croccolo",
+      "sequence": 10,
+      "roles": [
+        "Lorry Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0083162",
+      "name": "Lidia Biondi",
+      "sequence": 11,
+      "roles": [
+        "Policewoman"
+      ],
+      "notes": "(as Lidia Biondi C.S.C.)"
+    },
+    {
+      "person_imdb_id": "nm0097953",
+      "name": "Andrea Bosic",
+      "sequence": 12,
+      "roles": [
+        "Bank Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0092231",
+      "name": "Federico Boido",
+      "sequence": 13,
+      "roles": [
+        "Joe - Valmont's Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593990",
+      "name": "Tiberio Mitri",
+      "sequence": 14,
+      "roles": [
+        "Valmont's Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712248",
+      "name": "Isarco Ravaioli",
+      "sequence": 15,
+      "roles": [
+        "Valmont's Henchman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0778480",
+      "name": "Giorgio Sciolette",
+      "sequence": 16,
+      "roles": [
+        "Dr. Ferrara - Morgue Physician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856103",
+      "name": "Terry-Thomas",
+      "sequence": 17,
+      "roles": [
+        "Minister of the Interior",
+        "Minister of Finance"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0321380",
       "name": "Angela Giussani",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0321383",
       "name": "Luciana Giussani",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0537985",
       "name": "Dino Maiuri",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0052814",
       "name": "Adriano Baracco",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0537985",
       "name": "Dino Maiuri",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0214659",
       "name": "Brian Degas",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0309633",
       "name": "Tudor Gates",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 3,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1968-01-26",

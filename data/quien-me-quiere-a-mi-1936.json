@@ -1,90 +1,6 @@
 {
   "imdb_id": "tt0028534",
   "sort_title": "\u00bfQui\u00e9n me quiere a m\u00ed? (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0033475",
-      "name": "Manuel Arb\u00f3",
-      "sequence": 0,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0062593",
-      "name": "Jos\u00e9 Baviera",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alfredo Flores"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215753",
-      "name": "Carlos del Pozo",
-      "sequence": 2,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0294675",
-      "name": "Fernando Freyre de Andrade",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "El \u00c1guila"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378864",
-      "name": "Luis Heredia",
-      "sequence": 4,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0511000",
-      "name": "Jos\u00e9 Mar\u00eda Linares-Rivas",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Eduardo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3100104",
-      "name": "Jaume Najarro Sol\u00e9",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Chico"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0655311",
-      "name": "Mari-Tere Pacheco",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "child"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0844538",
-      "name": "Jos\u00e9 Luis S\u00e1enz de Heredia",
-      "sequence": 8,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0947285",
-      "name": "Lina Yegros",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Marta V\u00e9lez"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0844538",
@@ -99,41 +15,131 @@
       "notes": "(co-director)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0947285",
+      "name": "Lina Yegros",
+      "sequence": 0,
+      "roles": [
+        "Marta V\u00e9lez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0655311",
+      "name": "Mari-Tere Pacheco",
+      "sequence": 1,
+      "roles": [
+        "Mari-Tere"
+      ],
+      "notes": "(as Mari-Tere)"
+    },
+    {
+      "person_imdb_id": "nm0062593",
+      "name": "Jos\u00e9 Baviera",
+      "sequence": 2,
+      "roles": [
+        "Alfredo Flores"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294675",
+      "name": "Fernando Freyre de Andrade",
+      "sequence": 3,
+      "roles": [
+        "El \u00c1guila"
+      ],
+      "notes": "(as Fernando Freyre Andrade)"
+    },
+    {
+      "person_imdb_id": "nm0033475",
+      "name": "Manuel Arb\u00f3",
+      "sequence": 4,
+      "roles": [
+        "Antonio Reyes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0511000",
+      "name": "Jos\u00e9 Mar\u00eda Linares-Rivas",
+      "sequence": 5,
+      "roles": [
+        "Eduardo"
+      ],
+      "notes": "(as Jos\u00e9 M\u00aa Linares Rivas)"
+    },
+    {
+      "person_imdb_id": "nm0378864",
+      "name": "Luis Heredia",
+      "sequence": 6,
+      "roles": [
+        "S\u00fapito"
+      ],
+      "notes": "(as Luis de Heredia)"
+    },
+    {
+      "person_imdb_id": "nm0133668",
+      "name": "Ra\u00fal Cancio",
+      "sequence": 7,
+      "roles": [
+        "Toxic\u00f3mano"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3100104",
+      "name": "Jaume Najarro Sol\u00e9",
+      "sequence": 8,
+      "roles": [
+        "Chico"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215753",
+      "name": "Carlos del Pozo",
+      "sequence": 9,
+      "roles": [],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0127419",
       "name": "Caballero",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0395522",
       "name": "Enrique Horta",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0670758",
       "name": "Enrique Pelayo y Caballero",
+      "group": 3,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 3
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0880064",
       "name": "Eduardo Ugarte",
+      "group": 4,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 4
+      "notes": "()"
     }
   ],
   "release_date": "1936-04-11",

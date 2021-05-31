@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0029030",
   "sort_title": "Hurricane (1937)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0483787",
-      "name": "Dorothy Lamour",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Marama"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355755",
-      "name": "Jon Hall",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Terangi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000802",
-      "name": "Mary Astor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mme. DeLaage"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807580",
-      "name": "C. Aubrey Smith",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Father Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593775",
-      "name": "Thomas Mitchell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Kersaint"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557339",
-      "name": "Raymond Massey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "DeLaage"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Warden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Captain Nagle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452866",
-      "name": "Al Kikume",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Chief Mehevi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208048",
-      "name": "Kuulei De Clercq",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0866285",
-      "name": "Layne Tom Jr.",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mako"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164238",
-      "name": "Mamo Clark",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Hitia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610230",
-      "name": "Movita",
-      "sequence": 12,
-      "notes": "(as Movita Castenada)",
-      "roles": [
-        "Arai"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000406",
@@ -128,48 +9,167 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0483787",
+      "name": "Dorothy Lamour",
+      "sequence": 0,
+      "roles": [
+        "Marama"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0355755",
+      "name": "Jon Hall",
+      "sequence": 1,
+      "roles": [
+        "Terangi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000802",
+      "name": "Mary Astor",
+      "sequence": 2,
+      "roles": [
+        "Mme. DeLaage"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807580",
+      "name": "C. Aubrey Smith",
+      "sequence": 3,
+      "roles": [
+        "Father Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593775",
+      "name": "Thomas Mitchell",
+      "sequence": 4,
+      "roles": [
+        "Dr. Kersaint"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557339",
+      "name": "Raymond Massey",
+      "sequence": 5,
+      "roles": [
+        "DeLaage"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 6,
+      "roles": [
+        "Warden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 7,
+      "roles": [
+        "Captain Nagle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452866",
+      "name": "Al Kikume",
+      "sequence": 8,
+      "roles": [
+        "Chief Mehevi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208048",
+      "name": "Kuulei De Clercq",
+      "sequence": 9,
+      "roles": [
+        "Tita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0866285",
+      "name": "Layne Tom Jr.",
+      "sequence": 10,
+      "roles": [
+        "Mako"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164238",
+      "name": "Mamo Clark",
+      "sequence": 11,
+      "roles": [
+        "Hitia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610230",
+      "name": "Movita",
+      "sequence": 12,
+      "roles": [
+        "Arai"
+      ],
+      "notes": "(as Movita Castenada)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0629580",
       "name": "Dudley Nichols",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0308177",
       "name": "Oliver H.P. Garrett",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0635079",
       "name": "Charles Nordhoff",
+      "group": 2,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 2
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0355681",
       "name": "James Norman Hall",
-      "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0513744",
       "name": "W.P. Lipscomb",
+      "group": 4,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 4
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1937-11-05",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0053457",
   "sort_title": "Yellowstone Kelly (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0907636",
-      "name": "Clint Walker",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Luther 'Yellowstone' Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126318",
-      "name": "Edd Byrnes",
-      "sequence": 1,
-      "notes": "(as Edward Byrnes)",
-      "roles": [
-        "Anse Harper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751245",
-      "name": "John Russell",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Gall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0200645",
-      "name": "Ray Danton",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sayapi - Gall's Nephew"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0015391",
-      "name": "Claude Akins",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714156",
-      "name": "Rhodes Reason",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Maj. Towns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551907",
-      "name": "Andra Martin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Wahleeah - Sayapi's Arapaho Captive"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899090",
-      "name": "Gary Vinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lieutenant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0643105",
-      "name": "Warren Oates",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Corporal"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0235066",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0907636",
+      "name": "Clint Walker",
+      "sequence": 0,
+      "roles": [
+        "Luther 'Yellowstone' Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126318",
+      "name": "Edd Byrnes",
+      "sequence": 1,
+      "roles": [
+        "Anse Harper"
+      ],
+      "notes": "(as Edward Byrnes)"
+    },
+    {
+      "person_imdb_id": "nm0751245",
+      "name": "John Russell",
+      "sequence": 2,
+      "roles": [
+        "Gall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0200645",
+      "name": "Ray Danton",
+      "sequence": 3,
+      "roles": [
+        "Sayapi - Gall's Nephew"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0015391",
+      "name": "Claude Akins",
+      "sequence": 4,
+      "roles": [
+        "Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714156",
+      "name": "Rhodes Reason",
+      "sequence": 5,
+      "roles": [
+        "Maj. Towns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551907",
+      "name": "Andra Martin",
+      "sequence": 6,
+      "roles": [
+        "Wahleeah - Sayapi's Arapaho Captive"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899090",
+      "name": "Gary Vinson",
+      "sequence": 7,
+      "roles": [
+        "Lieutenant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643105",
+      "name": "Warren Oates",
+      "sequence": 8,
+      "roles": [
+        "Corporal"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0447944",
       "name": "Burt Kennedy",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0020571",
       "name": "Heck Allen",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from the book by) (as Clay Fisher)",
-      "group_id": 1
+      "notes": "(from the book by) (as Clay Fisher)"
     }
   ],
   "release_date": "1959-11-11",

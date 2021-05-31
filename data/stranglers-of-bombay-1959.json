@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0054346",
   "sort_title": "Stranglers of Bombay (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0738212",
-      "name": "Guy Rolfe",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Harry Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193862",
-      "name": "Allan Cuthbertson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Christopher Connaught-Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0189972",
-      "name": "Andrew Cruickshank",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Col. Henderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0664965",
-      "name": "George Pastell",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "High Priest of Kali"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537962",
-      "name": "Marne Maitland",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Patel Shari"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0390201",
-      "name": "Jan Holden",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mary Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0823728",
-      "name": "Paul Stassino",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lt. Silver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0501384",
-      "name": "Tutte Lemkow",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ram Das"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0279807",
@@ -83,13 +9,87 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0738212",
+      "name": "Guy Rolfe",
+      "sequence": 0,
+      "roles": [
+        "Capt. Harry Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193862",
+      "name": "Allan Cuthbertson",
+      "sequence": 1,
+      "roles": [
+        "Capt. Christopher Connaught-Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0189972",
+      "name": "Andrew Cruickshank",
+      "sequence": 2,
+      "roles": [
+        "Col. Henderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0664965",
+      "name": "George Pastell",
+      "sequence": 3,
+      "roles": [
+        "High Priest of Kali"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537962",
+      "name": "Marne Maitland",
+      "sequence": 4,
+      "roles": [
+        "Patel Shari"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0390201",
+      "name": "Jan Holden",
+      "sequence": 5,
+      "roles": [
+        "Mary Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0823728",
+      "name": "Paul Stassino",
+      "sequence": 6,
+      "roles": [
+        "Lt. Silver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0501384",
+      "name": "Tutte Lemkow",
+      "sequence": 7,
+      "roles": [
+        "Ram Das"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0329051",
       "name": "David Zelag Goodman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as David Z. Goodman)",
-      "group_id": 0
+      "notes": "(written by) (as David Z. Goodman)"
     }
   ],
   "release_date": "1959-12-04",

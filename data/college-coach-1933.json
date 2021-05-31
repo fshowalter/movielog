@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0023899",
   "sort_title": "College Coach (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0694090",
-      "name": "Dick Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Phil Sargent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0245304",
-      "name": "Ann Dvorak",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Claire Gore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002285",
-      "name": "Pat O'Brien",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Coach Gore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0126365",
-      "name": "Arthur Byron",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Dr. Phillip Sargent"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847939",
-      "name": "Lyle Talbot",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Herbert P. 'Buck' Weaver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001890",
-      "name": "Hugh Herbert",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "J- Marvin Barnett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389824",
-      "name": "Arthur Hohl",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Seymour Young"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933161",
-      "name": "Charles C. Wilson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Charles Hauser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0930711",
-      "name": "Guinn 'Big Boy' Williams",
-      "sequence": 8,
-      "notes": "(as Guinn Williams)",
-      "roles": [
-        "Matthews"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0671738",
-      "name": "Nat Pendleton",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ladislaus Petrowski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0715637",
-      "name": "Phillip Reed",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "'Wes' Westerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576083",
-      "name": "Donald Meek",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Prof. Spencer Trask"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161414",
-      "name": "Berton Churchill",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Otis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0073595",
-      "name": "Harry Beresford",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Professor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0082884",
-      "name": "Herman Bing",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Prof. Glantz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768178",
-      "name": "Joe Sawyer",
-      "sequence": 15,
-      "notes": "(as Joe Sauers)",
-      "roles": [
-        "Holcomb"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269395",
-      "name": "Philip Faversham",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Editor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0920074",
@@ -164,34 +9,189 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0694090",
+      "name": "Dick Powell",
+      "sequence": 0,
+      "roles": [
+        "Phil Sargent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0245304",
+      "name": "Ann Dvorak",
+      "sequence": 1,
+      "roles": [
+        "Claire Gore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002285",
+      "name": "Pat O'Brien",
+      "sequence": 2,
+      "roles": [
+        "Coach Gore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0126365",
+      "name": "Arthur Byron",
+      "sequence": 3,
+      "roles": [
+        "Dr. Phillip Sargent"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847939",
+      "name": "Lyle Talbot",
+      "sequence": 4,
+      "roles": [
+        "Herbert P. 'Buck' Weaver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001890",
+      "name": "Hugh Herbert",
+      "sequence": 5,
+      "roles": [
+        "J- Marvin Barnett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389824",
+      "name": "Arthur Hohl",
+      "sequence": 6,
+      "roles": [
+        "Seymour Young"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933161",
+      "name": "Charles C. Wilson",
+      "sequence": 7,
+      "roles": [
+        "Charles Hauser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0930711",
+      "name": "Guinn 'Big Boy' Williams",
+      "sequence": 8,
+      "roles": [
+        "Matthews"
+      ],
+      "notes": "(as Guinn Williams)"
+    },
+    {
+      "person_imdb_id": "nm0671738",
+      "name": "Nat Pendleton",
+      "sequence": 9,
+      "roles": [
+        "Ladislaus Petrowski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0715637",
+      "name": "Phillip Reed",
+      "sequence": 10,
+      "roles": [
+        "'Wes' Westerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576083",
+      "name": "Donald Meek",
+      "sequence": 11,
+      "roles": [
+        "Prof. Spencer Trask"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161414",
+      "name": "Berton Churchill",
+      "sequence": 12,
+      "roles": [
+        "Otis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0073595",
+      "name": "Harry Beresford",
+      "sequence": 13,
+      "roles": [
+        "Professor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0082884",
+      "name": "Herman Bing",
+      "sequence": 14,
+      "roles": [
+        "Prof. Glantz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768178",
+      "name": "Joe Sawyer",
+      "sequence": 15,
+      "roles": [
+        "Holcomb"
+      ],
+      "notes": "(as Joe Sauers)"
+    },
+    {
+      "person_imdb_id": "nm0269395",
+      "name": "Philip Faversham",
+      "sequence": 16,
+      "roles": [
+        "Editor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0124002",
       "name": "Niven Busch",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0781719",
       "name": "Manuel Seff",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0124002",
       "name": "Niven Busch",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0781719",
       "name": "Manuel Seff",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1933-11-04",

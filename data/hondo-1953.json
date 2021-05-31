@@ -1,117 +1,6 @@
 {
   "imdb_id": "tt0045883",
   "sort_title": "Hondo (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hondo Lane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656183",
-      "name": "Geraldine Page",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Angie Lowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Buffalo Baker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0665327",
-      "name": "Michael Pate",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Vittorio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000790",
-      "name": "James Arness",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lennie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010240",
-      "name": "Rodolfo Acosta",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Silva"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0330388",
-      "name": "Leo Gordon",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ed Lowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410011",
-      "name": "Tom Irish",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Lt. McKay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007342",
-      "name": "Lee Aaker",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Johnny Lowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280707",
-      "name": "Paul Fix",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Maj. Sherry"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0055736",
-      "name": "Rayford Barnes",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Pete - Card Player in Saloon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730574",
-      "name": "Chuck Roberson",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Kloori",
-        "Cavalry Sergeant Killed in Indian Attack"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0268513",
@@ -120,20 +9,131 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Hondo Lane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656183",
+      "name": "Geraldine Page",
+      "sequence": 1,
+      "roles": [
+        "Angie Lowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 2,
+      "roles": [
+        "Buffalo Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0665327",
+      "name": "Michael Pate",
+      "sequence": 3,
+      "roles": [
+        "Vittorio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000790",
+      "name": "James Arness",
+      "sequence": 4,
+      "roles": [
+        "Lennie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010240",
+      "name": "Rodolfo Acosta",
+      "sequence": 5,
+      "roles": [
+        "Silva"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0330388",
+      "name": "Leo Gordon",
+      "sequence": 6,
+      "roles": [
+        "Ed Lowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0410011",
+      "name": "Tom Irish",
+      "sequence": 7,
+      "roles": [
+        "Lt. McKay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007342",
+      "name": "Lee Aaker",
+      "sequence": 8,
+      "roles": [
+        "Johnny Lowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280707",
+      "name": "Paul Fix",
+      "sequence": 9,
+      "roles": [
+        "Maj. Sherry"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0055736",
+      "name": "Rayford Barnes",
+      "sequence": 10,
+      "roles": [
+        "Pete - Card Player in Saloon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730574",
+      "name": "Chuck Roberson",
+      "sequence": 13,
+      "roles": [
+        "Kloori",
+        "Cavalry Sergeant Killed in Indian Attack"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0478263",
       "name": "Louis L'Amour",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1953-11-25",

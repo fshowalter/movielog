@@ -59,4 +59,8 @@ def reload(rows: Sequence[Row]) -> None:
         rows=rows,
     )
 
+    db.add_index(TABLE_NAME, "movie_imdb_id")
+    db.add_index(TABLE_NAME, "region")
+    db.add_index(TABLE_NAME, "title")
+
     db.validate_row_count(TABLE_NAME, len(rows))

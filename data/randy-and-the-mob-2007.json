@@ -1,162 +1,6 @@
 {
   "imdb_id": "tt0466943",
   "sort_title": "Randy and the Mob (2007)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0571964",
-      "name": "Ray McKinnon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Randy Pearson",
-        "Cecil Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0324658",
-      "name": "Walton Goggins",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tino Armani"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089408",
-      "name": "Lisa Blount",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charlotte Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215229",
-      "name": "Tim DeKay",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Bill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0638056",
-      "name": "Bill Nunn",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Wardlowe Gone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0109785",
-      "name": "Brent Briscoe",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Griff Postell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0070115",
-      "name": "Paul Ben-Victor",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Franco"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0689269",
-      "name": "Vic Polizos",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Leonardo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0482799",
-      "name": "Leon Lamar",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Man with Walker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625280",
-      "name": "Danny Nelson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Deaf Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166232",
-      "name": "Jill Jane Clements",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Sheila"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593817",
-      "name": "Carol Mitchell-Leon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Cousey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0166499",
-      "name": "Rob Cleveland",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Coach Scales"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1999813",
-      "name": "Sam Frihart",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Four"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587331",
-      "name": "David Milford",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0465572",
-      "name": "Rebecca Koon",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Becky Pearson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0412378",
-      "name": "Edith Ivey",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Mother Pearson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0571964",
@@ -165,13 +9,169 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
       "person_imdb_id": "nm0571964",
       "name": "Ray McKinnon",
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "roles": [
+        "Randy Pearson",
+        "Cecil Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0324658",
+      "name": "Walton Goggins",
+      "sequence": 1,
+      "roles": [
+        "Tino Armani"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089408",
+      "name": "Lisa Blount",
+      "sequence": 2,
+      "roles": [
+        "Charlotte Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215229",
+      "name": "Tim DeKay",
+      "sequence": 3,
+      "roles": [
+        "Bill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0638056",
+      "name": "Bill Nunn",
+      "sequence": 4,
+      "roles": [
+        "Wardlowe Gone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0109785",
+      "name": "Brent Briscoe",
+      "sequence": 5,
+      "roles": [
+        "Griff Postell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0070115",
+      "name": "Paul Ben-Victor",
+      "sequence": 6,
+      "roles": [
+        "Franco"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689269",
+      "name": "Vic Polizos",
+      "sequence": 7,
+      "roles": [
+        "Leonardo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0482799",
+      "name": "Leon Lamar",
+      "sequence": 8,
+      "roles": [
+        "Man with Walker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625280",
+      "name": "Danny Nelson",
+      "sequence": 9,
+      "roles": [
+        "Deaf Man"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166232",
+      "name": "Jill Jane Clements",
+      "sequence": 10,
+      "roles": [
+        "Sheila"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0593817",
+      "name": "Carol Mitchell-Leon",
+      "sequence": 11,
+      "roles": [
+        "Cousey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0166499",
+      "name": "Rob Cleveland",
+      "sequence": 12,
+      "roles": [
+        "Coach Scales"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1999813",
+      "name": "Sam Frihart",
+      "sequence": 13,
+      "roles": [
+        "Four"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587331",
+      "name": "David Milford",
+      "sequence": 14,
+      "roles": [
+        "Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0465572",
+      "name": "Rebecca Koon",
+      "sequence": 15,
+      "roles": [
+        "Becky Pearson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0412378",
+      "name": "Edith Ivey",
+      "sequence": 16,
+      "roles": [
+        "Mother Pearson"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0571964",
+      "name": "Ray McKinnon",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(written by)"
     }
   ],
   "release_date": "2007-10-13",

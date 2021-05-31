@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0039066",
   "sort_title": "Undercurrent (1946)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000031",
-      "name": "Katharine Hepburn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ann Hamilton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001791",
-      "name": "Robert Taylor",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alan Garroway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Michael Garroway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350324",
-      "name": "Edmund Gwenn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Prof. David 'Dink' Hamilton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537685",
-      "name": "Marjorie Main",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lucy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0005217",
-      "name": "Jayne Meadows",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sylvia Lea Burton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0839069",
-      "name": "Clinton Sundberg",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mr. Warmsley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864921",
-      "name": "Dan Tobin",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Prof. Joseph Bangs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0136293",
-      "name": "Kathryn Card",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0924181",
-      "name": "Leigh Whipper",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Justice Putnam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0922599",
-      "name": "James Westerfield",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Henry Gilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0565595",
-      "name": "Billy McClain",
-      "sequence": 12,
-      "notes": "(as Billy McLain)",
-      "roles": [
-        "Uncle Ben"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0591486",
@@ -128,38 +9,157 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000031",
+      "name": "Katharine Hepburn",
+      "sequence": 0,
+      "roles": [
+        "Ann Hamilton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001791",
+      "name": "Robert Taylor",
+      "sequence": 1,
+      "roles": [
+        "Alan Garroway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 2,
+      "roles": [
+        "Michael Garroway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350324",
+      "name": "Edmund Gwenn",
+      "sequence": 3,
+      "roles": [
+        "Prof. David 'Dink' Hamilton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537685",
+      "name": "Marjorie Main",
+      "sequence": 4,
+      "roles": [
+        "Lucy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0005217",
+      "name": "Jayne Meadows",
+      "sequence": 5,
+      "roles": [
+        "Sylvia Lea Burton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0839069",
+      "name": "Clinton Sundberg",
+      "sequence": 6,
+      "roles": [
+        "Mr. Warmsley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864921",
+      "name": "Dan Tobin",
+      "sequence": 7,
+      "roles": [
+        "Prof. Joseph Bangs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0136293",
+      "name": "Kathryn Card",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0924181",
+      "name": "Leigh Whipper",
+      "sequence": 9,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0873845",
+      "name": "Charles Trowbridge",
+      "sequence": 10,
+      "roles": [
+        "Justice Putnam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0922599",
+      "name": "James Westerfield",
+      "sequence": 11,
+      "roles": [
+        "Henry Gilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0565595",
+      "name": "Billy McClain",
+      "sequence": 12,
+      "roles": [
+        "Uncle Ben"
+      ],
+      "notes": "(as Billy McLain)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0158737",
       "name": "Edward Chodorov",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0833017",
       "name": "Thelma Strabel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0649183",
       "name": "George Oppenheimer",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     },
     {
       "person_imdb_id": "nm0731387",
       "name": "Marguerite Roberts",
+      "group": 3,
       "sequence": 0,
-      "notes": "(contributor to treatment) (uncredited)",
-      "group_id": 3
+      "notes": "(contributor to treatment) (uncredited)"
     }
   ],
   "release_date": "1946-11-11",
-  "release_date_notes": "(Los Angeles, California)",
+  "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United States"
   ]

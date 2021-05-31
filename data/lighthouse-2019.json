@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt7984734",
   "sort_title": "Lighthouse (2019)",
-  "performers": [
-    {
-      "person_imdb_id": "nm1500155",
-      "name": "Robert Pattinson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Thomas Howard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000353",
-      "name": "Willem Dafoe",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Thomas Wake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm10840078",
-      "name": "Valeriia Karaman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mermaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm11125041",
-      "name": "Logan Hawkes",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ephraim Winslow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5777181",
-      "name": "Kyla Nicolle",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Woman on the Rocks"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0164996",
-      "name": "Shaun Clarke",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Departing Wickie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2652673",
-      "name": "Pierre Richard",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Departing Assistant Wickie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1860965",
-      "name": "Preston Hudson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tender Mate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2496005",
-      "name": "Jeffrey Cruts",
-      "sequence": 8,
-      "notes": "(as Jeff Cruts)",
-      "roles": [
-        "Tender Mate"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm3211470",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm1500155",
+      "name": "Robert Pattinson",
+      "sequence": 0,
+      "roles": [
+        "Thomas Howard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000353",
+      "name": "Willem Dafoe",
+      "sequence": 1,
+      "roles": [
+        "Thomas Wake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm10840078",
+      "name": "Valeriia Karaman",
+      "sequence": 2,
+      "roles": [
+        "Mermaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm11125041",
+      "name": "Logan Hawkes",
+      "sequence": 3,
+      "roles": [
+        "Ephraim Winslow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5777181",
+      "name": "Kyla Nicolle",
+      "sequence": 4,
+      "roles": [
+        "Woman on the Rocks"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0164996",
+      "name": "Shaun Clarke",
+      "sequence": 5,
+      "roles": [
+        "Departing Wickie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2652673",
+      "name": "Pierre Richard",
+      "sequence": 6,
+      "roles": [
+        "Departing Assistant Wickie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1860965",
+      "name": "Preston Hudson",
+      "sequence": 7,
+      "roles": [
+        "Tender Mate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2496005",
+      "name": "Jeffrey Cruts",
+      "sequence": 8,
+      "roles": [
+        "Tender Mate"
+      ],
+      "notes": "(as Jeff Cruts)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm3211470",
       "name": "Robert Eggers",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm3220455",
       "name": "Max Eggers",
-      "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(written by)"
     }
   ],
   "release_date": "2019-05-19",

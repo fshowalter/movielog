@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0051819",
   "sort_title": "Kings Go Forth (1958)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000069",
-      "name": "Frank Sinatra",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "1st Lt. Sam Loggins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000348",
-      "name": "Tony Curtis",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cpl. Britt Harris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000081",
-      "name": "Natalie Wood",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Monique Blair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199070",
-      "name": "Leora Dana",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Blair"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0842425",
-      "name": "Karl Swenson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "The Colonel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0168459",
-      "name": "Ann Codee",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mme. Brieux"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0753103",
-      "name": "Eddie Ryder",
-      "sequence": 6,
-      "notes": "(as Edward Ryder)",
-      "roles": [
-        "Cpl. Lindsay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077917",
-      "name": "Jacques Berthe",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jean-Fran\u00e7ois Dauvah, Boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0202681",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000069",
+      "name": "Frank Sinatra",
+      "sequence": 0,
+      "roles": [
+        "1st Lt. Sam Loggins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000348",
+      "name": "Tony Curtis",
+      "sequence": 1,
+      "roles": [
+        "Cpl. Britt Harris"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000081",
+      "name": "Natalie Wood",
+      "sequence": 2,
+      "roles": [
+        "Monique Blair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199070",
+      "name": "Leora Dana",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Blair"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0842425",
+      "name": "Karl Swenson",
+      "sequence": 4,
+      "roles": [
+        "The Colonel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168459",
+      "name": "Ann Codee",
+      "sequence": 5,
+      "roles": [
+        "Mme. Brieux"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0753103",
+      "name": "Eddie Ryder",
+      "sequence": 6,
+      "roles": [
+        "Cpl. Lindsay"
+      ],
+      "notes": "(as Edward Ryder)"
+    },
+    {
+      "person_imdb_id": "nm0077917",
+      "name": "Jacques Berthe",
+      "sequence": 7,
+      "roles": [
+        "Jean-Fran\u00e7ois Dauvah, Boy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0113872",
       "name": "Joe David Brown",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel: \"Kings Go Forth\")",
-      "group_id": 0
+      "notes": "(novel: \"Kings Go Forth\")"
     },
     {
       "person_imdb_id": "nm0588959",
       "name": "Merle Miller",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1958-06-18",

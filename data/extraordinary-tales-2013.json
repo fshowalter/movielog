@@ -1,72 +1,6 @@
 {
   "imdb_id": "tt3454574",
   "sort_title": "Extraordinary Tales (2013)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "(segment \"The Fall of the House of Usher\") (voice) (as Sir Christopher Lee)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 1,
-      "notes": "(segment \"The Tell-Tale Heart\") (archiveFootage) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001696",
-      "name": "Julian Sands",
-      "sequence": 2,
-      "notes": "(segment \"The Facts in the Case of M. Valdemar\") (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0868219",
-      "name": "Guillermo del Toro",
-      "sequence": 3,
-      "notes": "(segment \"The Pit and the Pendulum\") (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 4,
-      "notes": "(segment \"The Masque of the Red Death\") (voice)",
-      "roles": [
-        "Prince Prospero"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1345076",
-      "name": "Stephen Hughes",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Crow",
-        "Poe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1751315",
-      "name": "Cornelia Funke",
-      "sequence": 6,
-      "notes": "(interstitials) (voice)",
-      "roles": [
-        "Death"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0306452",
@@ -75,27 +9,93 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(segment \"The Fall of the House of Usher\") (voice) (as Sir Christopher Lee)"
+    },
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 1,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(segment \"The Tell-Tale Heart\") (archiveFootage) (voice)"
+    },
+    {
+      "person_imdb_id": "nm0001696",
+      "name": "Julian Sands",
+      "sequence": 2,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(segment \"The Facts in the Case of M. Valdemar\") (voice)"
+    },
+    {
+      "person_imdb_id": "nm0868219",
+      "name": "Guillermo del Toro",
+      "sequence": 3,
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(segment \"The Pit and the Pendulum\") (voice)"
+    },
+    {
+      "person_imdb_id": "nm0000339",
+      "name": "Roger Corman",
+      "sequence": 4,
+      "roles": [
+        "Prince Prospero"
+      ],
+      "notes": "(segment \"The Masque of the Red Death\") (voice)"
+    },
+    {
+      "person_imdb_id": "nm1345076",
+      "name": "Stephen Hughes",
+      "sequence": 5,
+      "roles": [
+        "Crow",
+        "Poe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1751315",
+      "name": "Cornelia Funke",
+      "sequence": 6,
+      "roles": [
+        "Death"
+      ],
+      "notes": "(interstitials) (voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000590",
       "name": "Edgar Allan Poe",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the stories of)",
-      "group_id": 0
+      "notes": "(based on the stories of)"
     },
     {
       "person_imdb_id": "nm0306452",
       "name": "Raul Garcia",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm2847097",
       "name": "St\u00e9phan Roelants",
+      "group": 2,
       "sequence": 0,
-      "notes": "(co-writer)",
-      "group_id": 2
+      "notes": "(co-writer)"
     }
   ],
   "release_date": "2013-02-28",

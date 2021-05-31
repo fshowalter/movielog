@@ -1,53 +1,6 @@
 {
   "imdb_id": "tt0056186",
   "sort_title": "Lion (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Robert Hayward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002145",
-      "name": "Trevor Howard",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Bullit"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001010",
-      "name": "Capucine",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Christine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291512",
-      "name": "Pamela Franklin",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Tina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3815917",
-      "name": "Zamba",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "King"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002153",
@@ -56,27 +9,74 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Robert Hayward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002145",
+      "name": "Trevor Howard",
+      "sequence": 1,
+      "roles": [
+        "John Bullit"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001010",
+      "name": "Capucine",
+      "sequence": 2,
+      "roles": [
+        "Christine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291512",
+      "name": "Pamela Franklin",
+      "sequence": 3,
+      "roles": [
+        "Tina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3815917",
+      "name": "Zamba",
+      "sequence": 4,
+      "roles": [
+        "King"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0436894",
       "name": "Irene Kamp",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0436896",
       "name": "Louis Kamp",
-      "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0450262",
       "name": "Joseph Kessel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the novel by)",
-      "group_id": 1
+      "notes": "(based on the novel by)"
     }
   ],
   "release_date": "1962-07-26",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0023213",
   "sort_title": "Merrily We Go to Hell (1932)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0796662",
-      "name": "Sylvia Sidney",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joan Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545298",
-      "name": "Fredric March",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Jerry Corbett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020239",
-      "name": "Adrianne Allen",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Claire Hempstead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0302480",
-      "name": "Richard 'Skeets' Gallagher",
-      "sequence": 3,
-      "notes": "(as Skeets Gallagher)",
-      "roles": [
-        "Buck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0410271",
-      "name": "George Irving",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Prentice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0397284",
-      "name": "Esther Howard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Vi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0110177",
-      "name": "Florence Britton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Charlcie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0170969",
-      "name": "Charles Coleman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Richard Damery"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Charlie Baxter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852710",
-      "name": "Kent Taylor",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Greg Boleslavsky"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002188",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0796662",
+      "name": "Sylvia Sidney",
+      "sequence": 0,
+      "roles": [
+        "Joan Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545298",
+      "name": "Fredric March",
+      "sequence": 1,
+      "roles": [
+        "Jerry Corbett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020239",
+      "name": "Adrianne Allen",
+      "sequence": 2,
+      "roles": [
+        "Claire Hempstead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0302480",
+      "name": "Richard 'Skeets' Gallagher",
+      "sequence": 3,
+      "roles": [
+        "Buck"
+      ],
+      "notes": "(as Skeets Gallagher)"
+    },
+    {
+      "person_imdb_id": "nm0410271",
+      "name": "George Irving",
+      "sequence": 4,
+      "roles": [
+        "Mr. Prentice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0397284",
+      "name": "Esther Howard",
+      "sequence": 5,
+      "roles": [
+        "Vi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0110177",
+      "name": "Florence Britton",
+      "sequence": 6,
+      "roles": [
+        "Charlcie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0170969",
+      "name": "Charles Coleman",
+      "sequence": 7,
+      "roles": [
+        "Richard Damery"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 8,
+      "roles": [
+        "Charlie Baxter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852710",
+      "name": "Kent Taylor",
+      "sequence": 9,
+      "roles": [
+        "Greg Boleslavsky"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0562372",
       "name": "Edwin Justus Mayer",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0524106",
       "name": "Cleo Lucas",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"I, Jerry, Take Thee, Joan\")",
-      "group_id": 1
+      "notes": "(story \"I, Jerry, Take Thee, Joan\")"
     }
   ],
   "release_date": "1932-06-10",

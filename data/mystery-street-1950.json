@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0042771",
   "sort_title": "Mystery Street (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001544",
-      "name": "Ricardo Montalban",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Peter Moralas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0286692",
-      "name": "Sally Forrest",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Grace Shanway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0071636",
-      "name": "Bruce Bennett",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. McAdoo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0006471",
-      "name": "Elsa Lanchester",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Smerrling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0860471",
-      "name": "Marshall Thompson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Henry Shanway"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012443",
-      "name": "Jan Sterling",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Vivian Heldon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002269",
-      "name": "Edmon Ryan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "James Joshua Harkley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086198",
-      "name": "Betsy Blair",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jackie Elcott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0536890",
-      "name": "Wally Maher",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tim Sharkey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241589",
-      "name": "Ralph Dumke",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "A Tattooist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0914018",
-      "name": "Willard Waterman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "A Mortician"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0121900",
-      "name": "Walter Burke",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "An Ornithologist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791325",
-      "name": "Don Shelton",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "A District Attorney"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001544",
+      "name": "Ricardo Montalban",
+      "sequence": 0,
+      "roles": [
+        "Peter Moralas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0286692",
+      "name": "Sally Forrest",
+      "sequence": 1,
+      "roles": [
+        "Grace Shanway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0071636",
+      "name": "Bruce Bennett",
+      "sequence": 2,
+      "roles": [
+        "Dr. McAdoo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0006471",
+      "name": "Elsa Lanchester",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Smerrling"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0860471",
+      "name": "Marshall Thompson",
+      "sequence": 4,
+      "roles": [
+        "Henry Shanway"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0012443",
+      "name": "Jan Sterling",
+      "sequence": 5,
+      "roles": [
+        "Vivian Heldon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002269",
+      "name": "Edmon Ryan",
+      "sequence": 6,
+      "roles": [
+        "James Joshua Harkley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0086198",
+      "name": "Betsy Blair",
+      "sequence": 7,
+      "roles": [
+        "Jackie Elcott"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0536890",
+      "name": "Wally Maher",
+      "sequence": 8,
+      "roles": [
+        "Tim Sharkey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241589",
+      "name": "Ralph Dumke",
+      "sequence": 9,
+      "roles": [
+        "A Tattooist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914018",
+      "name": "Willard Waterman",
+      "sequence": 10,
+      "roles": [
+        "A Mortician"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0121900",
+      "name": "Walter Burke",
+      "sequence": 11,
+      "roles": [
+        "An Ornithologist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791325",
+      "name": "Don Shelton",
+      "sequence": 12,
+      "roles": [
+        "A District Attorney"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0091213",
       "name": "Sydney Boehm",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0112218",
       "name": "Richard Brooks",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0818700",
       "name": "Leonard Spigelgass",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1950-06-23",

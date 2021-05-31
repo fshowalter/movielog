@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0048642",
   "sort_title": "Son of Sinbad (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0731783",
-      "name": "Dale Robertson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sinbad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0286692",
-      "name": "Sally Forrest",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Ameer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820506",
-      "name": "Lili St. Cyr",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nerissa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Omar Khayyam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087080",
-      "name": "Mari Blanchard",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kristina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0039169",
-      "name": "Leon Askin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Khalif"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637041",
-      "name": "Jay Novello",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Jiddah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339121",
-      "name": "Raymond Greenleaf",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Simon Aristides"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0040371",
-      "name": "Nejla Ates",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Dancer in market"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2896607",
-      "name": "Kalantan",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dancer in desert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0531756",
-      "name": "Ian MacDonald",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Murad"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709893",
-      "name": "Donald Randolph",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Councillor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005898",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0731783",
+      "name": "Dale Robertson",
+      "sequence": 0,
+      "roles": [
+        "Sinbad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0286692",
+      "name": "Sally Forrest",
+      "sequence": 1,
+      "roles": [
+        "Ameer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820506",
+      "name": "Lili St. Cyr",
+      "sequence": 2,
+      "roles": [
+        "Nerissa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 3,
+      "roles": [
+        "Omar Khayyam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087080",
+      "name": "Mari Blanchard",
+      "sequence": 4,
+      "roles": [
+        "Kristina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0039169",
+      "name": "Leon Askin",
+      "sequence": 5,
+      "roles": [
+        "Khalif"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0637041",
+      "name": "Jay Novello",
+      "sequence": 6,
+      "roles": [
+        "Jiddah"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339121",
+      "name": "Raymond Greenleaf",
+      "sequence": 7,
+      "roles": [
+        "Simon Aristides"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0040371",
+      "name": "Nejla Ates",
+      "sequence": 8,
+      "roles": [
+        "Dancer in market"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2896607",
+      "name": "Kalantan",
+      "sequence": 9,
+      "roles": [
+        "Dancer in desert"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531756",
+      "name": "Ian MacDonald",
+      "sequence": 10,
+      "roles": [
+        "Murad"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709893",
+      "name": "Donald Randolph",
+      "sequence": 11,
+      "roles": [
+        "Councillor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0047306",
       "name": "Jeff Bailey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(contributor to screenplay construction) (uncredited)",
-      "group_id": 0
+      "notes": "(contributor to screenplay construction) (uncredited)"
     },
     {
       "person_imdb_id": "nm0689565",
       "name": "Jack Pollexfen",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0936254",
       "name": "Aubrey Wisberg",
+      "group": 2,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 2
+      "notes": "()"
     }
   ],
   "release_date": "1955-05-31",

@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0035608",
   "sort_title": "Action in the North Atlantic (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Joe Rossi"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0557339",
-      "name": "Raymond Massey",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Capt. Steve Jarvis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Boats O'Hara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0084098",
-      "name": "Julie Bishop",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Pearl O'Neill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002106",
-      "name": "Ruth Gordon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mrs. Sarah Jarvis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0505249",
-      "name": "Sam Levene",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Abel 'Chips' Abrams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163816",
-      "name": "Dane Clark",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Johnnie Pulaski"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926338",
-      "name": "Peter Whitney",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Whitey Lara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389516",
-      "name": "Dick Hogan",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Cadet Ezra Parker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0160417",
-      "name": "Virginia Christine",
-      "sequence": 9,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Pebbles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0599894",
-      "name": "Ray Montgomery",
-      "sequence": 10,
-      "notes": "(scenesDeleted)",
-      "roles": [
-        "Aherne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0319497",
-      "name": "Art Gilmore",
-      "sequence": 53,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "President Franklin D. Roosevelt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562866",
-      "name": "Frank Mayo",
-      "sequence": 75,
-      "notes": "",
-      "roles": [
-        "Major",
-        "Seaman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949635",
-      "name": "Jack Young",
-      "sequence": 132,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "President Franklin D. Roosevelt"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0045800",
@@ -150,34 +21,145 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Lt. Joe Rossi"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0557339",
+      "name": "Raymond Massey",
+      "sequence": 1,
+      "roles": [
+        "Capt. Steve Jarvis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 2,
+      "roles": [
+        "Boats O'Hara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0084098",
+      "name": "Julie Bishop",
+      "sequence": 3,
+      "roles": [
+        "Pearl O'Neill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002106",
+      "name": "Ruth Gordon",
+      "sequence": 4,
+      "roles": [
+        "Mrs. Sarah Jarvis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0505249",
+      "name": "Sam Levene",
+      "sequence": 5,
+      "roles": [
+        "Abel 'Chips' Abrams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163816",
+      "name": "Dane Clark",
+      "sequence": 6,
+      "roles": [
+        "Johnnie Pulaski"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926338",
+      "name": "Peter Whitney",
+      "sequence": 7,
+      "roles": [
+        "Whitey Lara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389516",
+      "name": "Dick Hogan",
+      "sequence": 8,
+      "roles": [
+        "Cadet Ezra Parker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0160417",
+      "name": "Virginia Christine",
+      "sequence": 9,
+      "roles": [
+        "Pebbles"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0599894",
+      "name": "Ray Montgomery",
+      "sequence": 10,
+      "roles": [
+        "Aherne"
+      ],
+      "notes": "(scenesDeleted)"
+    },
+    {
+      "person_imdb_id": "nm0562866",
+      "name": "Frank Mayo",
+      "sequence": 75,
+      "roles": [
+        "Major",
+        "Seaman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0493251",
       "name": "John Howard Lawson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0319626",
       "name": "Guy Gilpatric",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0080135",
       "name": "A.I. Bezzerides",
+      "group": 2,
       "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "notes": "(additional dialogue)"
     },
     {
       "person_imdb_id": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 0,
-      "notes": "(additional dialogue)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(additional dialogue)"
     }
   ],
   "release_date": "1943-05-21",

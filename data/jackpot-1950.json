@@ -1,118 +1,6 @@
 {
   "imdb_id": "tt0042610",
   "sort_title": "Jackpot (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "William J. 'Bill' Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354853",
-      "name": "Barbara Hale",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Amy Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0322299",
-      "name": "James Gleason",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Harry Summers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163939",
-      "name": "Fred Clark",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mr. Andrew J. Woodruff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610253",
-      "name": "Alan Mowbray",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Leslie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0575756",
-      "name": "Patricia Medina",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Hildegarde Jonet",
-        "Hilda Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000081",
-      "name": "Natalie Wood",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Phyllis Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0720568",
-      "name": "Tommy Rettig",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Tommy Lawrence"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321143",
-      "name": "Robert Gist",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pete Spooner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847939",
-      "name": "Lyle Talbot",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Fred Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0416548",
-      "name": "Harry James",
-      "sequence": 35,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Harry James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0888349",
-      "name": "Philip Van Zandt",
-      "sequence": 62,
-      "notes": "",
-      "roles": [
-        "Franklin Laswell",
-        "Flick Morgan"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0485943",
@@ -121,27 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "William J. 'Bill' Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354853",
+      "name": "Barbara Hale",
+      "sequence": 1,
+      "roles": [
+        "Amy Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0322299",
+      "name": "James Gleason",
+      "sequence": 2,
+      "roles": [
+        "Harry Summers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163939",
+      "name": "Fred Clark",
+      "sequence": 3,
+      "roles": [
+        "Mr. Andrew J. Woodruff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610253",
+      "name": "Alan Mowbray",
+      "sequence": 4,
+      "roles": [
+        "Leslie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0575756",
+      "name": "Patricia Medina",
+      "sequence": 5,
+      "roles": [
+        "Hildegarde Jonet",
+        "Hilda Jones"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000081",
+      "name": "Natalie Wood",
+      "sequence": 6,
+      "roles": [
+        "Phyllis Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0720568",
+      "name": "Tommy Rettig",
+      "sequence": 7,
+      "roles": [
+        "Tommy Lawrence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321143",
+      "name": "Robert Gist",
+      "sequence": 8,
+      "roles": [
+        "Pete Spooner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847939",
+      "name": "Lyle Talbot",
+      "sequence": 9,
+      "roles": [
+        "Fred Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0888349",
+      "name": "Philip Van Zandt",
+      "sequence": 62,
+      "roles": [
+        "Franklin Laswell",
+        "Flick Morgan"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0574073",
       "name": "John McNulty",
+      "group": 0,
       "sequence": 0,
-      "notes": "(New Yorker article)",
-      "group_id": 0
+      "notes": "(New Yorker article)"
     },
     {
       "person_imdb_id": "nm0258290",
       "name": "Phoebe Ephron",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0258288",
       "name": "Henry Ephron",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1950-11-01",

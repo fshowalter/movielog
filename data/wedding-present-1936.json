@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0028486",
   "sort_title": "Wedding Present (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000910",
-      "name": "Joan Bennett",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Monica 'Rusty' Fleming"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Charlie Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0051628",
-      "name": "George Bancroft",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Pete Stagg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0619261",
-      "name": "Conrad Nagel",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Roger Dodacker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0516876",
-      "name": "Gene Lockhart",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Archduke Gustav Ernest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "'Smiles' Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0183918",
-      "name": "Inez Courtney",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mary Lawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112395",
-      "name": "Edward Brophy",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Squinty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0695525",
-      "name": "Purnell Pratt",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Howard Van Dorn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0939667",
-      "name": "Douglas Wood",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Willett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576120",
-      "name": "George Meeker",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Gordon Blaker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285586",
-      "name": "Damon Ford",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mike Haley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933773",
-      "name": "Lois Wilson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Laura Dodacker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285376",
-      "name": "Mary Forbes",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Mrs. Dodacker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0644404",
-      "name": "George Offerman Jr.",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sammy Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0020683",
-      "name": "John Henry Allen",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Jonathan"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0908831",
@@ -155,20 +9,166 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000910",
+      "name": "Joan Bennett",
+      "sequence": 0,
+      "roles": [
+        "Monica 'Rusty' Fleming"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Charlie Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0051628",
+      "name": "George Bancroft",
+      "sequence": 2,
+      "roles": [
+        "Pete Stagg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0619261",
+      "name": "Conrad Nagel",
+      "sequence": 3,
+      "roles": [
+        "Roger Dodacker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0516876",
+      "name": "Gene Lockhart",
+      "sequence": 4,
+      "roles": [
+        "Archduke Gustav Ernest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 5,
+      "roles": [
+        "'Smiles' Benson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0183918",
+      "name": "Inez Courtney",
+      "sequence": 6,
+      "roles": [
+        "Mary Lawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112395",
+      "name": "Edward Brophy",
+      "sequence": 7,
+      "roles": [
+        "Squinty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0695525",
+      "name": "Purnell Pratt",
+      "sequence": 8,
+      "roles": [
+        "Howard Van Dorn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0939667",
+      "name": "Douglas Wood",
+      "sequence": 9,
+      "roles": [
+        "Willett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576120",
+      "name": "George Meeker",
+      "sequence": 10,
+      "roles": [
+        "Gordon Blaker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285586",
+      "name": "Damon Ford",
+      "sequence": 11,
+      "roles": [
+        "Mike Haley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933773",
+      "name": "Lois Wilson",
+      "sequence": 12,
+      "roles": [
+        "Laura Dodacker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285376",
+      "name": "Mary Forbes",
+      "sequence": 13,
+      "roles": [
+        "Mrs. Dodacker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0644404",
+      "name": "George Offerman Jr.",
+      "sequence": 14,
+      "roles": [
+        "Sammy Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0020683",
+      "name": "John Henry Allen",
+      "sequence": 15,
+      "roles": [
+        "Jonathan"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0030916",
       "name": "Joseph Anthony",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0302904",
       "name": "Paul Gallico",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on the story by)",
-      "group_id": 1
+      "notes": "(based on the story by)"
     }
   ],
   "release_date": "1936-10-09",

@@ -25,7 +25,7 @@ def fetch_rows() -> list[Row]:
     query = """
         SELECT
             viewings.sequence
-        , movies.imdb_id
+        , movies.imdb_id AS movie_imdb_id
         , strftime('%Y', viewings.date) AS viewing_year
         , viewings.date
         FROM viewings

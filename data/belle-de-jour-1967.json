@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0061395",
   "sort_title": "Belle de Jour (1967)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000366",
-      "name": "Catherine Deneuve",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "S\u00e9verine Serizy",
-        "Belle de Jour"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0814799",
-      "name": "Jean Sorel",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Pierre Serizy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681566",
-      "name": "Michel Piccoli",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Henri Husson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656180",
-      "name": "Genevi\u00e8ve Page",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Madame Anais"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167509",
-      "name": "Pierre Cl\u00e9menti",
-      "sequence": 4,
-      "notes": "(as Pierre Clementi)",
-      "roles": [
-        "Marcel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0264554",
-      "name": "Fran\u00e7oise Fabian",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Charlotte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0617736",
-      "name": "Macha M\u00e9ril",
-      "sequence": 6,
-      "notes": "(as Macha Meril)",
-      "roles": [
-        "Renee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0612840",
-      "name": "Muni",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Pallas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0490334",
-      "name": "Maria Latour",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mathilde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0148858",
-      "name": "Claude Cerval",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Le chauffeur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153474",
-      "name": "Michel Charrel",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Footman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0451237",
-      "name": "Iska Khan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Asian Client"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0615913",
-      "name": "Bernard Musson",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Majordomo"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153656",
-      "name": "Marcel Charvey",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Prof. Henri"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537922",
-      "name": "Fran\u00e7ois Maistre",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "L'enseignant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0704719",
-      "name": "Francisco Rabal",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Hyppolite"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0545352",
-      "name": "Georges Marchal",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Duke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087126",
-      "name": "Francis Blanche",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Monsieur Adolphe"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000320",
@@ -174,27 +9,192 @@
       "notes": "(as Luis Bunuel)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000366",
+      "name": "Catherine Deneuve",
+      "sequence": 0,
+      "roles": [
+        "S\u00e9verine Serizy",
+        "Belle de Jour"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0814799",
+      "name": "Jean Sorel",
+      "sequence": 1,
+      "roles": [
+        "Pierre Serizy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681566",
+      "name": "Michel Piccoli",
+      "sequence": 2,
+      "roles": [
+        "Henri Husson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656180",
+      "name": "Genevi\u00e8ve Page",
+      "sequence": 3,
+      "roles": [
+        "Madame Anais"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167509",
+      "name": "Pierre Cl\u00e9menti",
+      "sequence": 4,
+      "roles": [
+        "Marcel"
+      ],
+      "notes": "(as Pierre Clementi)"
+    },
+    {
+      "person_imdb_id": "nm0264554",
+      "name": "Fran\u00e7oise Fabian",
+      "sequence": 5,
+      "roles": [
+        "Charlotte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0617736",
+      "name": "Macha M\u00e9ril",
+      "sequence": 6,
+      "roles": [
+        "Renee"
+      ],
+      "notes": "(as Macha Meril)"
+    },
+    {
+      "person_imdb_id": "nm0612840",
+      "name": "Muni",
+      "sequence": 7,
+      "roles": [
+        "Pallas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0490334",
+      "name": "Maria Latour",
+      "sequence": 8,
+      "roles": [
+        "Mathilde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0148858",
+      "name": "Claude Cerval",
+      "sequence": 9,
+      "roles": [
+        "Le chauffeur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153474",
+      "name": "Michel Charrel",
+      "sequence": 10,
+      "roles": [
+        "Footman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0451237",
+      "name": "Iska Khan",
+      "sequence": 11,
+      "roles": [
+        "Asian Client"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0615913",
+      "name": "Bernard Musson",
+      "sequence": 12,
+      "roles": [
+        "Majordomo"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153656",
+      "name": "Marcel Charvey",
+      "sequence": 13,
+      "roles": [
+        "Prof. Henri"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537922",
+      "name": "Fran\u00e7ois Maistre",
+      "sequence": 14,
+      "roles": [
+        "L'enseignant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0704719",
+      "name": "Francisco Rabal",
+      "sequence": 15,
+      "roles": [
+        "Hyppolite"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0545352",
+      "name": "Georges Marchal",
+      "sequence": 16,
+      "roles": [
+        "Duke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087126",
+      "name": "Francis Blanche",
+      "sequence": 17,
+      "roles": [
+        "Monsieur Adolphe"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0450262",
       "name": "Joseph Kessel",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel) (as Joseph Kessel de l'Acad\u00e9mie Fran\u00e7aise)",
-      "group_id": 0
+      "notes": "(novel) (as Joseph Kessel de l'Acad\u00e9mie Fran\u00e7aise)"
     },
     {
       "person_imdb_id": "nm0000320",
       "name": "Luis Bu\u00f1uel",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation and dialogue) (as Luis Bunuel)",
-      "group_id": 1
+      "notes": "(adaptation and dialogue) (as Luis Bunuel)"
     },
     {
       "person_imdb_id": "nm0140643",
       "name": "Jean-Claude Carri\u00e8re",
-      "sequence": 0,
-      "notes": "(adaptation and dialogue)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation and dialogue)"
     }
   ],
   "release_date": "1967-05-24",

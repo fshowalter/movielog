@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0062909",
   "sort_title": "Dracula Has Risen from the Grave (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dracula"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203959",
-      "name": "Rupert Davies",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Monsignor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138040",
-      "name": "Veronica Carlson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263941",
-      "name": "Barbara Ewing",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Zena"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028568",
-      "name": "Barry Andrews",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0393739",
-      "name": "Ewan Hooper",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Priest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0558788",
-      "name": "Marion Mathie",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728085",
-      "name": "Michael Ripper",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172412",
-      "name": "John D. Collins",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Student"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0178058",
-      "name": "George A. Cooper",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Landlord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192262",
-      "name": "Christopher Cunningham",
-      "sequence": 10,
-      "notes": "(as Chris Cunningham)",
-      "roles": [
-        "Farmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0045815",
-      "name": "Norman Bacon",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Altar boy"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005711",
@@ -119,13 +9,123 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 0,
+      "roles": [
+        "Dracula"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203959",
+      "name": "Rupert Davies",
+      "sequence": 1,
+      "roles": [
+        "Monsignor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138040",
+      "name": "Veronica Carlson",
+      "sequence": 2,
+      "roles": [
+        "Maria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263941",
+      "name": "Barbara Ewing",
+      "sequence": 3,
+      "roles": [
+        "Zena"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028568",
+      "name": "Barry Andrews",
+      "sequence": 4,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0393739",
+      "name": "Ewan Hooper",
+      "sequence": 5,
+      "roles": [
+        "Priest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0558788",
+      "name": "Marion Mathie",
+      "sequence": 6,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728085",
+      "name": "Michael Ripper",
+      "sequence": 7,
+      "roles": [
+        "Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172412",
+      "name": "John D. Collins",
+      "sequence": 8,
+      "roles": [
+        "Student"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0178058",
+      "name": "George A. Cooper",
+      "sequence": 9,
+      "roles": [
+        "Landlord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192262",
+      "name": "Christopher Cunningham",
+      "sequence": 10,
+      "roles": [
+        "Farmer"
+      ],
+      "notes": "(as Chris Cunningham)"
+    },
+    {
+      "person_imdb_id": "nm0045815",
+      "name": "Norman Bacon",
+      "sequence": 11,
+      "roles": [
+        "Altar boy"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0385573",
       "name": "Anthony Hinds",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as John Elder)",
-      "group_id": 0
+      "notes": "(screenplay) (as John Elder)"
     }
   ],
   "release_date": "1968-11-07",

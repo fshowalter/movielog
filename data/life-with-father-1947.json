@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0039566",
   "sort_title": "Life with Father (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Clarence Day - Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002050",
-      "name": "Irene Dunne",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Vinnie Day - Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000072",
-      "name": "Elizabeth Taylor",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mary Skinner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350324",
-      "name": "Edmund Gwenn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Rev. Dr. Lloyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686032",
-      "name": "Zasu Pitts",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cora Cartwright"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0527996",
-      "name": "Jimmy Lydon",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Clarence Day Jr."
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242562",
-      "name": "Emma Dunn",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Margaret - the Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Humphries"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0728230",
-      "name": "Elisabeth Risdon",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Whitehead"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779053",
-      "name": "Derek Scott",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Harlan Day"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130075",
-      "name": "Johnny Calkins",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Whitney Day"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0590398",
-      "name": "Martin Milner",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "John Day"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0928445",
-      "name": "Heather Wilde",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Annie - the Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089524",
-      "name": "Monte Blue",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275997",
-      "name": "Mary Field",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Nora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0502745",
-      "name": "Queenie Leonard",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Maggie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263091",
-      "name": "Nancy Evans",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Delia - the New Maid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087404",
-      "name": "Clara Blandick",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Miss Wiggins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0254457",
-      "name": "Frank Elliott",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Dr. Somers"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -182,34 +9,207 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002050",
+      "name": "Irene Dunne",
+      "sequence": 1,
+      "roles": [
+        "Vinnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000072",
+      "name": "Elizabeth Taylor",
+      "sequence": 2,
+      "roles": [
+        "Mary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350324",
+      "name": "Edmund Gwenn",
+      "sequence": 3,
+      "roles": [
+        "Rev. Dr. Lloyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686032",
+      "name": "Zasu Pitts",
+      "sequence": 4,
+      "roles": [
+        "Cora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0527996",
+      "name": "Jimmy Lydon",
+      "sequence": 5,
+      "roles": [
+        "Clarence"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242562",
+      "name": "Emma Dunn",
+      "sequence": 6,
+      "roles": [
+        "Margaret"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 7,
+      "roles": [
+        "Dr. Humphries"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0728230",
+      "name": "Elisabeth Risdon",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Whitehead"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779053",
+      "name": "Derek Scott",
+      "sequence": 9,
+      "roles": [
+        "Harlan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130075",
+      "name": "Johnny Calkins",
+      "sequence": 10,
+      "roles": [
+        "Whitney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0590398",
+      "name": "Martin Milner",
+      "sequence": 11,
+      "roles": [
+        "John"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0928445",
+      "name": "Heather Wilde",
+      "sequence": 12,
+      "roles": [
+        "Annie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089524",
+      "name": "Monte Blue",
+      "sequence": 13,
+      "roles": [
+        "The Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275997",
+      "name": "Mary Field",
+      "sequence": 14,
+      "roles": [
+        "Nora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0502745",
+      "name": "Queenie Leonard",
+      "sequence": 15,
+      "roles": [
+        "Maggie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263091",
+      "name": "Nancy Evans",
+      "sequence": 16,
+      "roles": [
+        "Delia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087404",
+      "name": "Clara Blandick",
+      "sequence": 17,
+      "roles": [
+        "Miss Wiggins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0254457",
+      "name": "Frank Elliott",
+      "sequence": 18,
+      "roles": [
+        "Dr. Somers"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0206325",
       "name": "Clarence Day",
+      "group": 0,
       "sequence": 0,
-      "notes": "(memoir \"Life with Father\")",
-      "group_id": 0
+      "notes": "(memoir \"Life with Father\")"
     },
     {
       "person_imdb_id": "nm0829330",
       "name": "Donald Ogden Stewart",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0512231",
       "name": "Howard Lindsay",
+      "group": 2,
       "sequence": 0,
-      "notes": "(from the original play by)",
-      "group_id": 2
+      "notes": "(from the original play by)"
     },
     {
       "person_imdb_id": "nm0189496",
       "name": "Russel Crouse",
-      "sequence": 0,
-      "notes": "(from the original play by)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(from the original play by)"
     }
   ],
   "release_date": "1947-08-14",

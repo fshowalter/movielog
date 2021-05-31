@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0055282",
   "sort_title": "Passport to China (1960)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000865",
-      "name": "Richard Basehart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Don Benton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0786780",
-      "name": "Athene Seyler",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mao Tai Tai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0309470",
-      "name": "Lisa Gastoni",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lola Sanchez"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0688384",
-      "name": "Eric Pohlmann",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ivono Kong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0537962",
-      "name": "Marne Maitland",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Han Po"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0187754",
-      "name": "Bernard Cribbins",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Pereira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0317506",
-      "name": "Alan Gifford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Charles Orme"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779441",
-      "name": "Kevin Scott",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sam Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0477297",
-      "name": "Burt Kwouk",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jimmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908669",
-      "name": "Hedger Wallace",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Inspector Taylor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0140257",
@@ -101,13 +9,105 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000865",
+      "name": "Richard Basehart",
+      "sequence": 0,
+      "roles": [
+        "Don Benton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0786780",
+      "name": "Athene Seyler",
+      "sequence": 1,
+      "roles": [
+        "Mao Tai Tai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0309470",
+      "name": "Lisa Gastoni",
+      "sequence": 2,
+      "roles": [
+        "Lola Sanchez"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0688384",
+      "name": "Eric Pohlmann",
+      "sequence": 3,
+      "roles": [
+        "Ivono Kong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0537962",
+      "name": "Marne Maitland",
+      "sequence": 4,
+      "roles": [
+        "Han Po"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0187754",
+      "name": "Bernard Cribbins",
+      "sequence": 5,
+      "roles": [
+        "Pereira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0317506",
+      "name": "Alan Gifford",
+      "sequence": 6,
+      "roles": [
+        "Charles Orme"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779441",
+      "name": "Kevin Scott",
+      "sequence": 7,
+      "roles": [
+        "Sam Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0477297",
+      "name": "Burt Kwouk",
+      "sequence": 8,
+      "roles": [
+        "Jimmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908669",
+      "name": "Hedger Wallace",
+      "sequence": 9,
+      "roles": [
+        "Inspector Taylor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0919968",
       "name": "Gordon Wellesley",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1960-12-26",

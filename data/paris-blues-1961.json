@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0055278",
   "sort_title": "Paris Blues (1961)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000056",
-      "name": "Paul Newman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Ram Bowen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940946",
-      "name": "Joanne Woodward",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lillian Corning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001627",
-      "name": "Sidney Poitier",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Eddie Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001918",
-      "name": "Louis Armstrong",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Wild Man Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0140792",
-      "name": "Diahann Carroll",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Connie Lampson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0479209",
-      "name": "Barbara Laage",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marie S\u00e9oul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525283",
-      "name": "Andr\u00e9 Luguet",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Ren\u00e9 Bernard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894949",
-      "name": "Marie Versini",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Nicole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0610116",
-      "name": "Moustache",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mustachio"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0108696",
-      "name": "Aaron Bridgers",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Pianist"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669979",
-      "name": "Guy Pedersen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Bass Player"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0716577",
-      "name": "Serge Reggiani",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Michel 'Gypsy' Devigne"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0728688",
@@ -119,41 +9,151 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000056",
+      "name": "Paul Newman",
+      "sequence": 0,
+      "roles": [
+        "Ram Bowen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940946",
+      "name": "Joanne Woodward",
+      "sequence": 1,
+      "roles": [
+        "Lillian Corning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001627",
+      "name": "Sidney Poitier",
+      "sequence": 2,
+      "roles": [
+        "Eddie Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001918",
+      "name": "Louis Armstrong",
+      "sequence": 3,
+      "roles": [
+        "Wild Man Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0140792",
+      "name": "Diahann Carroll",
+      "sequence": 4,
+      "roles": [
+        "Connie Lampson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0479209",
+      "name": "Barbara Laage",
+      "sequence": 5,
+      "roles": [
+        "Marie S\u00e9oul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525283",
+      "name": "Andr\u00e9 Luguet",
+      "sequence": 6,
+      "roles": [
+        "Ren\u00e9 Bernard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894949",
+      "name": "Marie Versini",
+      "sequence": 7,
+      "roles": [
+        "Nicole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0610116",
+      "name": "Moustache",
+      "sequence": 8,
+      "roles": [
+        "Mustachio"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0108696",
+      "name": "Aaron Bridgers",
+      "sequence": 9,
+      "roles": [
+        "Pianist"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669979",
+      "name": "Guy Pedersen",
+      "sequence": 10,
+      "roles": [
+        "Bass Player"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0716577",
+      "name": "Serge Reggiani",
+      "sequence": 11,
+      "roles": [
+        "Michel 'Gypsy' Devigne"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0792042",
       "name": "Jack Sher",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0436894",
       "name": "Irene Kamp",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0077159",
       "name": "Walter Bernstein",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0742554",
       "name": "Lulla Rosenfeld",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (as Lulla Adler)",
-      "group_id": 1
+      "notes": "(adaptation) (as Lulla Adler)"
     },
     {
       "person_imdb_id": "nm0281868",
       "name": "Harold Flender",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based upon a novel by)",
-      "group_id": 2
+      "notes": "(based upon a novel by)"
     }
   ],
   "release_date": "1961-09-27",

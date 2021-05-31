@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0057447",
   "sort_title": "Rampage (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Harry Stanton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0553349",
-      "name": "Elsa Martinelli",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370144",
-      "name": "Jack Hawkins",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Otto Abbot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0754942",
-      "name": "Sabu",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Talib"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137164",
-      "name": "Cely Carillo",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chep"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0312783",
-      "name": "\u00c9mile Genest",
-      "sequence": 5,
-      "notes": "(as Emile Genest)",
-      "roles": [
-        "Schelling"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0773608",
-      "name": "Stefan Schnabel",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Sakai Chief"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128170",
-      "name": "David Cadiente",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Baka"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466977",
-      "name": "Sylva Koscina",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Stewardess"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0439597",
@@ -92,34 +9,117 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Harry Stanton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0553349",
+      "name": "Elsa Martinelli",
+      "sequence": 1,
+      "roles": [
+        "Anna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370144",
+      "name": "Jack Hawkins",
+      "sequence": 2,
+      "roles": [
+        "Otto Abbot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0754942",
+      "name": "Sabu",
+      "sequence": 3,
+      "roles": [
+        "Talib"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137164",
+      "name": "Cely Carillo",
+      "sequence": 4,
+      "roles": [
+        "Chep"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0312783",
+      "name": "\u00c9mile Genest",
+      "sequence": 5,
+      "roles": [
+        "Schelling"
+      ],
+      "notes": "(as Emile Genest)"
+    },
+    {
+      "person_imdb_id": "nm0773608",
+      "name": "Stefan Schnabel",
+      "sequence": 6,
+      "roles": [
+        "Sakai Chief"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128170",
+      "name": "David Cadiente",
+      "sequence": 7,
+      "roles": [
+        "Baka"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466977",
+      "name": "Sylva Koscina",
+      "sequence": 8,
+      "roles": [
+        "Stewardess"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0392510",
       "name": "Robert I. Holt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0731387",
       "name": "Marguerite Roberts",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0128845",
       "name": "Alan Caillou",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 1
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0003198",
       "name": "Jerome Bixby",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screen story) (uncredited)",
-      "group_id": 2
+      "notes": "(screen story) (uncredited)"
     }
   ],
   "release_date": "1963-09-12",

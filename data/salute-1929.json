@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0020359",
   "sort_title": "Salute (1929)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0639563",
-      "name": "George O'Brien",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Cadet John Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151377",
-      "name": "Helen Chandler",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nancy Wayne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0417829",
-      "name": "William Janney",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Midshipman Paul Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275297",
-      "name": "Stepin Fetchit",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Smoke Screen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Midshipman Albert Edward Price"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0174049",
-      "name": "Joyce Compton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marian Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0124877",
-      "name": "David Butler",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Navy Coach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0362815",
-      "name": "Lumsden Hare",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Rear Admiral John Randall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218718",
-      "name": "Clifford Dempsey",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Major General Somers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000955",
-      "name": "Ward Bond",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Midshipman Harold"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0124877",
@@ -107,34 +15,126 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0639563",
+      "name": "George O'Brien",
+      "sequence": 0,
+      "roles": [
+        "Cadet John Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151377",
+      "name": "Helen Chandler",
+      "sequence": 1,
+      "roles": [
+        "Nancy Wayne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0417829",
+      "name": "William Janney",
+      "sequence": 2,
+      "roles": [
+        "Midshipman Paul Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275297",
+      "name": "Stepin Fetchit",
+      "sequence": 3,
+      "roles": [
+        "Smoke Screen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 4,
+      "roles": [
+        "Midshipman Albert Edward Price"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0174049",
+      "name": "Joyce Compton",
+      "sequence": 5,
+      "roles": [
+        "Marian Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0124877",
+      "name": "David Butler",
+      "sequence": 6,
+      "roles": [
+        "Navy Coach"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0362815",
+      "name": "Lumsden Hare",
+      "sequence": 7,
+      "roles": [
+        "Rear Admiral John Randall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218718",
+      "name": "Clifford Dempsey",
+      "sequence": 8,
+      "roles": [
+        "Major General Somers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000955",
+      "name": "Ward Bond",
+      "sequence": 9,
+      "roles": [
+        "Midshipman Harold"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0876811",
       "name": "Tristram Tupper",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0831958",
       "name": "John Stone",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0570130",
       "name": "James Kevin McGuinness",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay and dialogue)",
-      "group_id": 1
+      "notes": "(screenplay and dialogue)"
     },
     {
       "person_imdb_id": "nm0607576",
       "name": "Wilbur Morse Jr.",
+      "group": 2,
       "sequence": 0,
-      "notes": "(titles) (uncredited)",
-      "group_id": 2
+      "notes": "(titles) (uncredited)"
     }
   ],
   "release_date": "1929-09-01",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0073794",
   "sort_title": "Big Scare (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "MacGregor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0885098",
-      "name": "Alida Valli",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "H\u00e9lo\u00efse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0579500",
-      "name": "Bernard Menez",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Alfred"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0591877",
-      "name": "Miou-Miou",
-      "sequence": 3,
-      "notes": "(as Miou Miou)",
-      "roles": [
-        "Marie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184004",
-      "name": "Nathalie Courval",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Madeleine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788012",
-      "name": "St\u00e9phane Shandor",
-      "sequence": 5,
-      "notes": "(as Stephane Shandor)",
-      "roles": [
-        "Boris"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0347453",
-      "name": "Julien Guiomar",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Le Producteur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750959",
-      "name": "Percival Russel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Ab\u00e9lard - le Serviteur"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0096634",
-      "name": "Brigitte Borghese",
-      "sequence": 8,
-      "notes": "(as Brigitte de Borghese)",
-      "roles": [
-        "La Secr\u00e9taire du Producteur"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0344641",
@@ -92,41 +9,124 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 0,
+      "roles": [
+        "MacGregor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0885098",
+      "name": "Alida Valli",
+      "sequence": 1,
+      "roles": [
+        "H\u00e9lo\u00efse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0579500",
+      "name": "Bernard Menez",
+      "sequence": 2,
+      "roles": [
+        "Alfred"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0591877",
+      "name": "Miou-Miou",
+      "sequence": 3,
+      "roles": [
+        "Marie"
+      ],
+      "notes": "(as Miou Miou)"
+    },
+    {
+      "person_imdb_id": "nm0184004",
+      "name": "Nathalie Courval",
+      "sequence": 4,
+      "roles": [
+        "Madeleine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0788012",
+      "name": "St\u00e9phane Shandor",
+      "sequence": 5,
+      "roles": [
+        "Boris"
+      ],
+      "notes": "(as Stephane Shandor)"
+    },
+    {
+      "person_imdb_id": "nm0347453",
+      "name": "Julien Guiomar",
+      "sequence": 6,
+      "roles": [
+        "Le Producteur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750959",
+      "name": "Percival Russel",
+      "sequence": 7,
+      "roles": [
+        "Ab\u00e9lard - le Serviteur"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0096634",
+      "name": "Brigitte Borghese",
+      "sequence": 8,
+      "roles": [
+        "La Secr\u00e9taire du Producteur"
+      ],
+      "notes": "(as Brigitte de Borghese)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0502145",
       "name": "Justin Lenoir",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0502145",
       "name": "Justin Lenoir",
-      "sequence": 0,
-      "notes": "(dialogue)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0105986",
       "name": "Hal Brav",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0502145",
       "name": "Justin Lenoir",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0344641",
       "name": "Pierre Grunstein",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(adaptation)"
     }
   ],
   "release_date": "1974-08-07",

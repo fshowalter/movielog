@@ -1,99 +1,6 @@
 {
   "imdb_id": "tt0035862",
   "sort_title": "False Colors (1943)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0101955",
-      "name": "William Boyd",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Hopalong Cassidy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0167395",
-      "name": "Andy Clyde",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "California Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736956",
-      "name": "Jimmy Rogers",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jimmy Rogers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0241523",
-      "name": "Douglass Dumbrille",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mark Foster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0782377",
-      "name": "Tom Seidel",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bud Lawton",
-        "Kit Moyer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0236873",
-      "name": "Claudia Drake",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Faith Lawton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 6,
-      "notes": "(as Bob Mitchum)",
-      "roles": [
-        "Rip Austin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833363",
-      "name": "Glenn Strange",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sonora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0527973",
-      "name": "Pierce Lyden",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lefty"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0054117",
-      "name": "Roy Barcroft",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sheriff Clem"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002179",
@@ -102,13 +9,106 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0101955",
+      "name": "William Boyd",
+      "sequence": 0,
+      "roles": [
+        "Hopalong Cassidy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0167395",
+      "name": "Andy Clyde",
+      "sequence": 1,
+      "roles": [
+        "California Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736956",
+      "name": "Jimmy Rogers",
+      "sequence": 2,
+      "roles": [
+        "Jimmy Rogers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0241523",
+      "name": "Douglass Dumbrille",
+      "sequence": 3,
+      "roles": [
+        "Mark Foster"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0782377",
+      "name": "Tom Seidel",
+      "sequence": 4,
+      "roles": [
+        "Bud Lawton",
+        "Kit Moyer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0236873",
+      "name": "Claudia Drake",
+      "sequence": 5,
+      "roles": [
+        "Faith Lawton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 6,
+      "roles": [
+        "Rip Austin"
+      ],
+      "notes": "(as Bob Mitchum)"
+    },
+    {
+      "person_imdb_id": "nm0833363",
+      "name": "Glenn Strange",
+      "sequence": 7,
+      "roles": [
+        "Sonora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0527973",
+      "name": "Pierce Lyden",
+      "sequence": 8,
+      "roles": [
+        "Lefty"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0054117",
+      "name": "Roy Barcroft",
+      "sequence": 9,
+      "roles": [
+        "Sheriff Clem"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0169243",
       "name": "Bennett Cohen",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1943-11-05",

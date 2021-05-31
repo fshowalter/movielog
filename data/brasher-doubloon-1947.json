@@ -1,71 +1,6 @@
 {
   "imdb_id": "tt0039217",
   "sort_title": "Brasher Doubloon (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0599787",
-      "name": "George Montgomery",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Philip Marlowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0346927",
-      "name": "Nancy Guild",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Merle Davis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0417641",
-      "name": "Conrad Janis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Leslie Murdock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731507",
-      "name": "Roy Roberts",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Police Lt. Breeze"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0466776",
-      "name": "Fritz Kortner",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Rudolph Vannier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060904",
-      "name": "Florence Bates",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Elizabeth Murdock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588922",
-      "name": "Marvin Miller",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Vince Blair"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0103975",
@@ -74,27 +9,99 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0599787",
+      "name": "George Montgomery",
+      "sequence": 0,
+      "roles": [
+        "Philip Marlowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0346927",
+      "name": "Nancy Guild",
+      "sequence": 1,
+      "roles": [
+        "Merle Davis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0417641",
+      "name": "Conrad Janis",
+      "sequence": 2,
+      "roles": [
+        "Leslie Murdock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731507",
+      "name": "Roy Roberts",
+      "sequence": 3,
+      "roles": [
+        "Police Lt. Breeze"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0466776",
+      "name": "Fritz Kortner",
+      "sequence": 4,
+      "roles": [
+        "Rudolph Vannier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0060904",
+      "name": "Florence Bates",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Elizabeth Murdock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588922",
+      "name": "Marvin Miller",
+      "sequence": 6,
+      "roles": [
+        "Vince Blair"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0071722",
       "name": "Dorothy Bennett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Dorothy Hannah)",
-      "group_id": 0
+      "notes": "(screenplay) (as Dorothy Hannah)"
     },
     {
       "person_imdb_id": "nm0695292",
       "name": "Leonard Praskins",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
+      "group": 2,
       "sequence": 0,
-      "notes": "(novel \"The High Window\")",
-      "group_id": 2
+      "notes": "(novel \"The High Window\")"
+    },
+    {
+      "person_imdb_id": "nm0488057",
+      "name": "Ring Lardner Jr.",
+      "group": 3,
+      "sequence": 0,
+      "notes": "(contributing writer) (uncredited)"
     }
   ],
   "release_date": "1947-02-06",

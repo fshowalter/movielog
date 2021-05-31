@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0028478",
   "sort_title": "Walking Dead (1936)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000472",
-      "name": "Boris Karloff",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "John Ellman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007220",
-      "name": "Ricardo Cortez",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0350324",
-      "name": "Edmund Gwenn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Evan Beaumont"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0161451",
-      "name": "Marguerite Churchill",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Nancy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401478",
-      "name": "Warren Hull",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jimmy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533692",
-      "name": "Barton MacLane",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Loder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642180",
-      "name": "Henry O'Neill",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "District Attorney Werner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0454870",
-      "name": "Joe King",
-      "sequence": 7,
-      "notes": "(as Joseph King)",
-      "roles": [
-        "Judge Roger Shaw"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0723935",
-      "name": "Addison Richards",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Prison Warden"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367670",
-      "name": "Paul Harvey",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Blackstone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833382",
-      "name": "Robert Strange",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Merritt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768178",
-      "name": "Joe Sawyer",
-      "sequence": 11,
-      "notes": "(as Joseph Sawyer)",
-      "roles": [
-        "Trigger Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010333",
-      "name": "Eddie Acuff",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Betcha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363218",
-      "name": "Kenneth Harlan",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Stephen Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0605723",
-      "name": "Miki Morita",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sako"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733059",
-      "name": "Ruth Robinson",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mrs. Shaw"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -155,48 +9,194 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000472",
+      "name": "Boris Karloff",
+      "sequence": 0,
+      "roles": [
+        "John Ellman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007220",
+      "name": "Ricardo Cortez",
+      "sequence": 1,
+      "roles": [
+        "Nolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0350324",
+      "name": "Edmund Gwenn",
+      "sequence": 2,
+      "roles": [
+        "Dr. Evan Beaumont"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0161451",
+      "name": "Marguerite Churchill",
+      "sequence": 3,
+      "roles": [
+        "Nancy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401478",
+      "name": "Warren Hull",
+      "sequence": 4,
+      "roles": [
+        "Jimmy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533692",
+      "name": "Barton MacLane",
+      "sequence": 5,
+      "roles": [
+        "Loder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642180",
+      "name": "Henry O'Neill",
+      "sequence": 6,
+      "roles": [
+        "District Attorney Werner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0454870",
+      "name": "Joe King",
+      "sequence": 7,
+      "roles": [
+        "Judge Roger Shaw"
+      ],
+      "notes": "(as Joseph King)"
+    },
+    {
+      "person_imdb_id": "nm0723935",
+      "name": "Addison Richards",
+      "sequence": 8,
+      "roles": [
+        "Prison Warden"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367670",
+      "name": "Paul Harvey",
+      "sequence": 9,
+      "roles": [
+        "Blackstone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833382",
+      "name": "Robert Strange",
+      "sequence": 10,
+      "roles": [
+        "Merritt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768178",
+      "name": "Joe Sawyer",
+      "sequence": 11,
+      "roles": [
+        "Trigger Smith"
+      ],
+      "notes": "(as Joseph Sawyer)"
+    },
+    {
+      "person_imdb_id": "nm0010333",
+      "name": "Eddie Acuff",
+      "sequence": 12,
+      "roles": [
+        "Betcha"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363218",
+      "name": "Kenneth Harlan",
+      "sequence": 13,
+      "roles": [
+        "Stephen Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0605723",
+      "name": "Miki Morita",
+      "sequence": 14,
+      "roles": [
+        "Sako"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733059",
+      "name": "Ruth Robinson",
+      "sequence": 15,
+      "roles": [
+        "Mrs. Shaw"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0011485",
       "name": "Ewart Adamson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0590361",
       "name": "Peter Milne",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0028826",
       "name": "Robert Hardy Andrews",
-      "sequence": 0,
-      "notes": "(screen play) (as Robert Andrews)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 2,
+      "notes": "(screen play) (as Robert Andrews)"
     },
     {
       "person_imdb_id": "nm0371771",
       "name": "Lillie Hayward",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 3,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0011485",
       "name": "Ewart Adamson",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0276284",
       "name": "Joseph Fields",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1936-03-01",

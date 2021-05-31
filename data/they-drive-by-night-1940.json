@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0033149",
   "sort_title": "They Drive by Night (1940)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0706368",
-      "name": "George Raft",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Joe Fabrini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792130",
-      "name": "Ann Sheridan",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cassie Hartley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526946",
-      "name": "Ida Lupino",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lana Carlsen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Paul Fabrini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656175",
-      "name": "Gale Page",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pearl Fabrini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002118",
-      "name": "Alan Hale",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ed Carlsen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439850",
-      "name": "Roscoe Karns",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Irish McGurn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514344",
-      "name": "John Litel",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Harry McNamara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "George Rondolos"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0706368",
+      "name": "George Raft",
+      "sequence": 0,
+      "roles": [
+        "Joe Fabrini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792130",
+      "name": "Ann Sheridan",
+      "sequence": 1,
+      "roles": [
+        "Cassie Hartley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526946",
+      "name": "Ida Lupino",
+      "sequence": 2,
+      "roles": [
+        "Lana Carlsen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 3,
+      "roles": [
+        "Paul Fabrini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656175",
+      "name": "Gale Page",
+      "sequence": 4,
+      "roles": [
+        "Pearl Fabrini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002118",
+      "name": "Alan Hale",
+      "sequence": 5,
+      "roles": [
+        "Ed Carlsen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439850",
+      "name": "Roscoe Karns",
+      "sequence": 6,
+      "roles": [
+        "Irish McGurn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514344",
+      "name": "John Litel",
+      "sequence": 7,
+      "roles": [
+        "Harry McNamara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 8,
+      "roles": [
+        "George Rondolos"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0907003",
       "name": "Jerry Wald",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0531335",
       "name": "Richard Macaulay",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0080135",
       "name": "A.I. Bezzerides",
+      "group": 1,
       "sequence": 0,
-      "notes": "(from a novel by)",
-      "group_id": 1
+      "notes": "(from a novel by)"
     }
   ],
   "release_date": "1940-07-26",

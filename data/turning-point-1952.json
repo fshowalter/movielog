@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0045267",
   "sort_title": "Turning Point (1952)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jerry McKibbon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0639529",
-      "name": "Edmond O'Brien",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "John Conroy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807252",
-      "name": "Alexis Smith",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Amanda Waycross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Matt Conroy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003225",
-      "name": "Ed Begley",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Neil Eichelberger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001894",
-      "name": "Danny Dayton",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Roy Ackerman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0519381",
-      "name": "Adele Longmire",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Carmelina LaRue"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0853576",
-      "name": "Ray Teal",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Clint, Police Captain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0208125",
-      "name": "Ted de Corsia",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harrigan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692093",
-      "name": "Don Porter",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Joe Silbray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0293418",
-      "name": "Howard Freeman",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Fogel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0104507",
-      "name": "Neville Brand",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Red"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0226189",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Jerry McKibbon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0639529",
+      "name": "Edmond O'Brien",
+      "sequence": 1,
+      "roles": [
+        "John Conroy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807252",
+      "name": "Alexis Smith",
+      "sequence": 2,
+      "roles": [
+        "Amanda Waycross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 3,
+      "roles": [
+        "Matt Conroy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003225",
+      "name": "Ed Begley",
+      "sequence": 4,
+      "roles": [
+        "Neil Eichelberger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001894",
+      "name": "Danny Dayton",
+      "sequence": 5,
+      "roles": [
+        "Roy Ackerman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0519381",
+      "name": "Adele Longmire",
+      "sequence": 6,
+      "roles": [
+        "Carmelina LaRue"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0853576",
+      "name": "Ray Teal",
+      "sequence": 7,
+      "roles": [
+        "Clint, Police Captain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0208125",
+      "name": "Ted de Corsia",
+      "sequence": 8,
+      "roles": [
+        "Harrigan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692093",
+      "name": "Don Porter",
+      "sequence": 9,
+      "roles": [
+        "Joe Silbray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0293418",
+      "name": "Howard Freeman",
+      "sequence": 10,
+      "roles": [
+        "Fogel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0104507",
+      "name": "Neville Brand",
+      "sequence": 11,
+      "roles": [
+        "Red"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0240417",
       "name": "Warren Duff",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0566752",
       "name": "Horace McCoy",
+      "group": 1,
       "sequence": 0,
-      "notes": "(based on a story by)",
-      "group_id": 1
+      "notes": "(based on a story by)"
     }
   ],
   "release_date": "1952-11-14",

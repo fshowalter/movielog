@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0074268",
   "sort_title": "Shatter (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0926183",
-      "name": "Stuart Whitman",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Shatter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0862479",
-      "name": "Lung Ti",
-      "sequence": 1,
-      "notes": "(as Ti Lung)",
-      "roles": [
-        "Tai Pah"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0497763",
-      "name": "Lily Li",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mai-Mee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001088",
-      "name": "Peter Cushing",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Paul Rattwood"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226446",
-      "name": "Anton Diffring",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Hans Leber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0014994",
-      "name": "Yemi Goodman Ajibade",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Ansabi M'Goya",
-        "Dabula M'Goya"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514905",
-      "name": "Chia-Yung Liu",
-      "sequence": 6,
-      "notes": "(as Liu Ka Yong)",
-      "roles": [
-        "1st Bodyguard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399031",
-      "name": "Pei-Chi Huang",
-      "sequence": 7,
-      "notes": "(as Huang Pei Chi)",
-      "roles": [
-        "2nd Bodyguard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948070",
-      "name": "Ya Ying Liu",
-      "sequence": 8,
-      "notes": "(as Liu Ya Ying)",
-      "roles": [
-        "Leber's Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1796608",
-      "name": "Wai Lo",
-      "sequence": 9,
-      "notes": "(as Lo Wei)",
-      "roles": [
-        "Howe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3035786",
-      "name": "Tsan-Hsi Ma",
-      "sequence": 10,
-      "notes": "(as James Ma)",
-      "roles": [
-        "Thai Boxer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0359151",
-      "name": "Han Chiang",
-      "sequence": 11,
-      "notes": "(as Chiang Han)",
-      "roles": [
-        "Korean Boxer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2375628",
-      "name": "Hsiung Kao",
-      "sequence": 12,
-      "notes": "(as Kao Hsiung)",
-      "roles": [
-        "Japanese Boxer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0140257",
@@ -135,17 +15,137 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0926183",
+      "name": "Stuart Whitman",
+      "sequence": 0,
+      "roles": [
+        "Shatter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0862479",
+      "name": "Lung Ti",
+      "sequence": 1,
+      "roles": [
+        "Tai Pah"
+      ],
+      "notes": "(as Ti Lung)"
+    },
+    {
+      "person_imdb_id": "nm0497763",
+      "name": "Lily Li",
+      "sequence": 2,
+      "roles": [
+        "Mai-Mee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001088",
+      "name": "Peter Cushing",
+      "sequence": 3,
+      "roles": [
+        "Paul Rattwood"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226446",
+      "name": "Anton Diffring",
+      "sequence": 4,
+      "roles": [
+        "Hans Leber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0014994",
+      "name": "Yemi Goodman Ajibade",
+      "sequence": 5,
+      "roles": [
+        "Ansabi M'Goya",
+        "Dabula M'Goya"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514905",
+      "name": "Chia-Yung Liu",
+      "sequence": 6,
+      "roles": [
+        "1st Bodyguard"
+      ],
+      "notes": "(as Liu Ka Yong)"
+    },
+    {
+      "person_imdb_id": "nm0399031",
+      "name": "Pei-Chi Huang",
+      "sequence": 7,
+      "roles": [
+        "2nd Bodyguard"
+      ],
+      "notes": "(as Huang Pei Chi)"
+    },
+    {
+      "person_imdb_id": "nm0948070",
+      "name": "Ya Ying Liu",
+      "sequence": 8,
+      "roles": [
+        "Leber's Girl"
+      ],
+      "notes": "(as Liu Ya Ying)"
+    },
+    {
+      "person_imdb_id": "nm1796608",
+      "name": "Wai Lo",
+      "sequence": 9,
+      "roles": [
+        "Howe"
+      ],
+      "notes": "(as Lo Wei)"
+    },
+    {
+      "person_imdb_id": "nm3035786",
+      "name": "Tsan-Hsi Ma",
+      "sequence": 10,
+      "roles": [
+        "Thai Boxer"
+      ],
+      "notes": "(as James Ma)"
+    },
+    {
+      "person_imdb_id": "nm0359151",
+      "name": "Han Chiang",
+      "sequence": 11,
+      "roles": [
+        "Korean Boxer"
+      ],
+      "notes": "(as Chiang Han)"
+    },
+    {
+      "person_imdb_id": "nm2375628",
+      "name": "Hsiung Kao",
+      "sequence": 12,
+      "roles": [
+        "Japanese Boxer"
+      ],
+      "notes": "(as Kao Hsiung)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0396449",
       "name": "Don Houghton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "notes": "(screenplay by)"
     }
   ],
-  "release_date": "1974-01-01",
-  "release_date_notes": "Given release date: 1975-03-01 ",
+  "release_date": "1974-12-01",
+  "release_date_notes": "",
   "countries": [
     "United Kingdom",
     "Hong Kong"

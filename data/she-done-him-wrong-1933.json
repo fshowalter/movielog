@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0024548",
   "sort_title": "She Done Him Wrong (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0922213",
-      "name": "Mae West",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lady Lou"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Captain Cummings"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601698",
-      "name": "Owen Moore",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Chick Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738042",
-      "name": "Gilbert Roland",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Serge Stanieff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001935",
-      "name": "Noah Beery",
-      "sequence": 4,
-      "notes": "(as Noah Beery Sr.)",
-      "roles": [
-        "Gus Jordan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0484439",
-      "name": "David Landau",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dan Flynn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653188",
-      "name": "Rafaela Ottiano",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Russian Rita"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0732552",
-      "name": "Dewey Robinson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Spider Kane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399955",
-      "name": "Rochelle Hudson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sally"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0950102",
-      "name": "Tammany Young",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Chuck Connors"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0460906",
-      "name": "Fuzzy Knight",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Rag Time Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357883",
-      "name": "Grace La Rue",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Frances"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0392912",
-      "name": "Robert Homans",
-      "sequence": 12,
-      "notes": "(as Robert E. Homans)",
-      "roles": [
-        "Doheney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064792",
-      "name": "Louise Beavers",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Pearl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792514",
@@ -137,27 +9,155 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
       "person_imdb_id": "nm0922213",
       "name": "Mae West",
       "sequence": 0,
-      "notes": "(by)",
-      "group_id": 0
+      "roles": [
+        "Lady Lou"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Captain Cummings"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601698",
+      "name": "Owen Moore",
+      "sequence": 2,
+      "roles": [
+        "Chick Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738042",
+      "name": "Gilbert Roland",
+      "sequence": 3,
+      "roles": [
+        "Serge Stanieff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001935",
+      "name": "Noah Beery",
+      "sequence": 4,
+      "roles": [
+        "Gus Jordan"
+      ],
+      "notes": "(as Noah Beery Sr.)"
+    },
+    {
+      "person_imdb_id": "nm0484439",
+      "name": "David Landau",
+      "sequence": 5,
+      "roles": [
+        "Dan Flynn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653188",
+      "name": "Rafaela Ottiano",
+      "sequence": 6,
+      "roles": [
+        "Russian Rita"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0732552",
+      "name": "Dewey Robinson",
+      "sequence": 7,
+      "roles": [
+        "Spider Kane"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399955",
+      "name": "Rochelle Hudson",
+      "sequence": 8,
+      "roles": [
+        "Sally"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0950102",
+      "name": "Tammany Young",
+      "sequence": 9,
+      "roles": [
+        "Chuck Connors"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0460906",
+      "name": "Fuzzy Knight",
+      "sequence": 10,
+      "roles": [
+        "Rag Time Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357883",
+      "name": "Grace La Rue",
+      "sequence": 11,
+      "roles": [
+        "Frances"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0392912",
+      "name": "Robert Homans",
+      "sequence": 12,
+      "roles": [
+        "Doheney"
+      ],
+      "notes": "(as Robert E. Homans)"
+    },
+    {
+      "person_imdb_id": "nm0064792",
+      "name": "Louise Beavers",
+      "sequence": 13,
+      "roles": [
+        "Pearl"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0922213",
+      "name": "Mae West",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(by)"
     },
     {
       "person_imdb_id": "nm0857710",
       "name": "Harvey F. Thew",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play) (as Harvey Thew)",
-      "group_id": 1
+      "notes": "(screen play) (as Harvey Thew)"
     },
     {
       "person_imdb_id": "nm0109148",
       "name": "John Bright",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1933-01-27",

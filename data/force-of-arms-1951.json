@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0043553",
   "sort_title": "Force of Arms (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sgt. John 'Pete' Peterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647970",
-      "name": "Nancy Olson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Eleanor MacKay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522481",
-      "name": "Frank Lovejoy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maj. Blackford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262775",
-      "name": "Gene Evans",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sgt. Smiley 'Mac' McFee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0921879",
-      "name": "Dick Wesson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kleiner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0681608",
-      "name": "Paul Picerni",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sheridan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0912911",
-      "name": "Katherine Warren",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Maj. Waldron"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285861",
-      "name": "Ross Ford",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hooker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0353543",
-      "name": "Ron Hagerthy",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Minto"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -92,20 +9,103 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Sgt. John 'Pete' Peterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647970",
+      "name": "Nancy Olson",
+      "sequence": 1,
+      "roles": [
+        "Lt. Eleanor MacKay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522481",
+      "name": "Frank Lovejoy",
+      "sequence": 2,
+      "roles": [
+        "Maj. Blackford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0262775",
+      "name": "Gene Evans",
+      "sequence": 3,
+      "roles": [
+        "Sgt. Smiley 'Mac' McFee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0921879",
+      "name": "Dick Wesson",
+      "sequence": 4,
+      "roles": [
+        "Kleiner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0681608",
+      "name": "Paul Picerni",
+      "sequence": 5,
+      "roles": [
+        "Sheridan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0912911",
+      "name": "Katherine Warren",
+      "sequence": 6,
+      "roles": [
+        "Maj. Waldron"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285861",
+      "name": "Ross Ford",
+      "sequence": 7,
+      "roles": [
+        "Hooker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0353543",
+      "name": "Ron Hagerthy",
+      "sequence": 8,
+      "roles": [
+        "Minto"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0417839",
       "name": "Orin Jannings",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0871730",
       "name": "Richard Tregaskis",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1951-08-13",

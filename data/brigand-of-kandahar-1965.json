@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0058991",
   "sort_title": "Brigand of Kandahar (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0507708",
-      "name": "Ronald Lewis",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Case"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001657",
-      "name": "Oliver Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Eli Khan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0483653",
-      "name": "Duncan Lamont",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Colonel Drewe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738635",
-      "name": "Yvonne Romain",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Ratina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0940890",
-      "name": "Katherine Woodville",
-      "sequence": 4,
-      "notes": "(as Catherine Woodville)",
-      "roles": [
-        "Elsa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396830",
-      "name": "Glyn Houston",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Marriott"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528445",
-      "name": "Sean Lynch",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rattu"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0114880",
-      "name": "Walter Brown",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Hitala"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0413599",
-      "name": "Inigo Jackson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Captain Boyd"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122505",
-      "name": "Jeremy Burnham",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Captain Connelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0694170",
-      "name": "Joe Powell",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Colour Sergeant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0203747",
-      "name": "Henry Davies",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "2nd Lt. Crowe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0816188",
-      "name": "John Southworth",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "2nd Lt. Barlow"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0306856",
-      "name": "Caron Gardner",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Serving Maid"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0319241",
@@ -137,13 +9,141 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0507708",
+      "name": "Ronald Lewis",
+      "sequence": 0,
+      "roles": [
+        "Robert Case"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001657",
+      "name": "Oliver Reed",
+      "sequence": 1,
+      "roles": [
+        "Eli Khan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0483653",
+      "name": "Duncan Lamont",
+      "sequence": 2,
+      "roles": [
+        "Colonel Drewe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738635",
+      "name": "Yvonne Romain",
+      "sequence": 3,
+      "roles": [
+        "Ratina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0940890",
+      "name": "Katherine Woodville",
+      "sequence": 4,
+      "roles": [
+        "Elsa Connelly"
+      ],
+      "notes": "(as Catherine Woodville)"
+    },
+    {
+      "person_imdb_id": "nm0396830",
+      "name": "Glyn Houston",
+      "sequence": 5,
+      "roles": [
+        "Jed Marriot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528445",
+      "name": "Sean Lynch",
+      "sequence": 6,
+      "roles": [
+        "Rattu"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0114880",
+      "name": "Walter Brown",
+      "sequence": 7,
+      "roles": [
+        "Hitala"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0413599",
+      "name": "Inigo Jackson",
+      "sequence": 8,
+      "roles": [
+        "Captain Boyd"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122505",
+      "name": "Jeremy Burnham",
+      "sequence": 9,
+      "roles": [
+        "Captain Connelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0694170",
+      "name": "Joe Powell",
+      "sequence": 10,
+      "roles": [
+        "Color Sergeant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0203747",
+      "name": "Henry Davies",
+      "sequence": 11,
+      "roles": [
+        "Second Lt. Crowe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0816188",
+      "name": "John Southworth",
+      "sequence": 12,
+      "roles": [
+        "Second Lt. Barlow"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0306856",
+      "name": "Caron Gardner",
+      "sequence": 13,
+      "roles": [
+        "Serving Maid"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0319241",
       "name": "John Gilling",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original story and screenplay)",
-      "group_id": 0
+      "notes": "(original story and screenplay)"
     }
   ],
   "release_date": "1965-08-09",

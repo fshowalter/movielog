@@ -1,135 +1,6 @@
 {
   "imdb_id": "tt0046463",
   "sort_title": "Trouble Along the Way (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stephen Aloysius 'Steve' Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001656",
-      "name": "Donna Reed",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Alice Singleton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002013",
-      "name": "Charles Coburn",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Father Matthew William Burke"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0876451",
-      "name": "Tom Tully",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Father Malone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0414046",
-      "name": "Sherry Jackson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Carol Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0934798",
-      "name": "Marie Windsor",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Anne Williams McCormick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0375738",
-      "name": "Tom Helmore",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Harold McCormick"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339428",
-      "name": "Dabbs Greer",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Father Peterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002063",
-      "name": "Leif Erickson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Father Provincial - Ed"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817930",
-      "name": "Douglas Spencer",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Father Procurator - George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0560091",
-      "name": "Lester Matthews",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Cardinal William Patrick O'Shea"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0175200",
-      "name": "Chuck Connors",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Stan Schwegler - Assistant Coach"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0341311",
-      "name": "Merv Griffin",
-      "sequence": 31,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Football Broadcaster"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0672593",
-      "name": "Jack Pepper",
-      "sequence": 49,
-      "notes": "",
-      "roles": [
-        "Irish Tenor",
-        "Pianist in Saloon"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002031",
@@ -138,41 +9,161 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 0,
+      "roles": [
+        "Steve Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001656",
+      "name": "Donna Reed",
+      "sequence": 1,
+      "roles": [
+        "Alice Singleton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002013",
+      "name": "Charles Coburn",
+      "sequence": 2,
+      "roles": [
+        "Father Burke"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0876451",
+      "name": "Tom Tully",
+      "sequence": 3,
+      "roles": [
+        "Father Malone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0414046",
+      "name": "Sherry Jackson",
+      "sequence": 4,
+      "roles": [
+        "Carol Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0934798",
+      "name": "Marie Windsor",
+      "sequence": 5,
+      "roles": [
+        "Anne McCormick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0375738",
+      "name": "Tom Helmore",
+      "sequence": 6,
+      "roles": [
+        "Harold McCormick"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339428",
+      "name": "Dabbs Greer",
+      "sequence": 7,
+      "roles": [
+        "Father Peterson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002063",
+      "name": "Leif Erickson",
+      "sequence": 8,
+      "roles": [
+        "Father Provincial"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0817930",
+      "name": "Douglas Spencer",
+      "sequence": 9,
+      "roles": [
+        "Father Procurator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0560091",
+      "name": "Lester Matthews",
+      "sequence": 10,
+      "roles": [
+        "Cardinal O'Shea"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0168035",
+      "name": "Chuck Connors",
+      "sequence": 11,
+      "roles": [
+        "Stan Schwegler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0672593",
+      "name": "Jack Pepper",
+      "sequence": 62,
+      "roles": [
+        "Irish Tenor",
+        "Pianist in Saloon"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0789520",
       "name": "Melville Shavelson",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0741439",
       "name": "Jack Rose",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0607487",
       "name": "Douglas Morrow",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0028826",
       "name": "Robert Hardy Andrews",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0335455",
       "name": "James Edward Grant",
+      "group": 2,
       "sequence": 0,
-      "notes": "(revisions) (uncredited)",
-      "group_id": 2
+      "notes": "(revisions) (uncredited)"
     }
   ],
   "release_date": "1953-04-04",

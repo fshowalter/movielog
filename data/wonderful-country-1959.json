@@ -1,168 +1,6 @@
 {
   "imdb_id": "tt0053453",
   "sort_title": "Wonderful Country (1959)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Martin Brady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0518728",
-      "name": "Julie London",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen Colton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581282",
-      "name": "Gary Merrill",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Maj. Stark Colton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215260",
-      "name": "Albert Dekker",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Texas Ranger Capt. Rucker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0642988",
-      "name": "Jack Oakie",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Travis Hyte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0569902",
-      "name": "Charles McGraw",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Herbert J. Stovall"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0656724",
-      "name": "Leroy 'Satchel' Paige",
-      "sequence": 6,
-      "notes": "(as 'Satchel' Paige)",
-      "roles": [
-        "Sgt. Tobe Sutton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0142273",
-      "name": "Anthony Caruso",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Santiago Santos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0446037",
-      "name": "Mike Kellin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Pancho Gil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0579384",
-      "name": "V\u00edctor Manuel Mendoza",
-      "sequence": 9,
-      "notes": "(as Victor Mendoza)",
-      "roles": [
-        "Gen. Marcos Castro"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0637041",
-      "name": "Jay Novello",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Diego Casas"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0052308",
-      "name": "John Banner",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ben Sterner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0805330",
-      "name": "Max Slaten",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Ludwig 'Chico' Sterner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0526058",
-      "name": "Margarito Luna",
-      "sequence": 13,
-      "notes": "(as Marguerito Luna)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0370372",
-      "name": "Joe Haworth",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Stoker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0494794",
-      "name": "Tom Lea",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Mr. Peebles - the barber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730574",
-      "name": "Chuck Roberson",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000784",
-      "name": "Pedro Armend\u00e1riz",
-      "sequence": 17,
-      "notes": "(as Pedro Armendariz)",
-      "roles": [
-        "Cipriano Castro"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0663577",
@@ -171,27 +9,189 @@
       "notes": ""
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0034124",
-      "name": "Robert Ardrey",
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "roles": [
+        "Martin Brady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0518728",
+      "name": "Julie London",
+      "sequence": 1,
+      "roles": [
+        "Helen Colton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581282",
+      "name": "Gary Merrill",
+      "sequence": 2,
+      "roles": [
+        "Maj. Stark Colton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215260",
+      "name": "Albert Dekker",
+      "sequence": 3,
+      "roles": [
+        "Texas Ranger Capt. Rucker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0642988",
+      "name": "Jack Oakie",
+      "sequence": 4,
+      "roles": [
+        "Travis Hyte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0569902",
+      "name": "Charles McGraw",
+      "sequence": 5,
+      "roles": [
+        "Dr. Herbert J. Stovall"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0656724",
+      "name": "Leroy 'Satchel' Paige",
+      "sequence": 6,
+      "roles": [
+        "Sgt. Tobe Sutton"
+      ],
+      "notes": "(as 'Satchel' Paige)"
+    },
+    {
+      "person_imdb_id": "nm0142273",
+      "name": "Anthony Caruso",
+      "sequence": 7,
+      "roles": [
+        "Santiago Santos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0446037",
+      "name": "Mike Kellin",
+      "sequence": 8,
+      "roles": [
+        "Pancho Gil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0579384",
+      "name": "V\u00edctor Manuel Mendoza",
+      "sequence": 9,
+      "roles": [
+        "Gen. Marcos Castro"
+      ],
+      "notes": "(as Victor Mendoza)"
+    },
+    {
+      "person_imdb_id": "nm0637041",
+      "name": "Jay Novello",
+      "sequence": 10,
+      "roles": [
+        "Diego Casas"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0052308",
+      "name": "John Banner",
+      "sequence": 11,
+      "roles": [
+        "Ben Sterner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0805330",
+      "name": "Max Slaten",
+      "sequence": 12,
+      "roles": [
+        "Ludwig 'Chico' Sterner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0526058",
+      "name": "Margarito Luna",
+      "sequence": 13,
+      "roles": [],
+      "notes": "(as Marguerito Luna)"
+    },
+    {
+      "person_imdb_id": "nm0370372",
+      "name": "Joe Haworth",
+      "sequence": 14,
+      "roles": [
+        "Stoker"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0494794",
       "name": "Tom Lea",
+      "sequence": 15,
+      "roles": [
+        "Mr. Peebles - the barber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730574",
+      "name": "Chuck Roberson",
+      "sequence": 16,
+      "roles": [
+        "Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000784",
+      "name": "Pedro Armend\u00e1riz",
+      "sequence": 17,
+      "roles": [
+        "Cipriano Castro"
+      ],
+      "notes": "(as Pedro Armendariz)"
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0034124",
+      "name": "Robert Ardrey",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel The Wonderful Country)",
-      "group_id": 1
+      "notes": "(screenplay)"
+    },
+    {
+      "person_imdb_id": "nm0494794",
+      "name": "Tom Lea",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(novel The Wonderful Country)"
     },
     {
       "person_imdb_id": "nm0077159",
       "name": "Walter Bernstein",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1959-09-24",

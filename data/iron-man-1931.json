@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0022002",
   "sort_title": "Iron Man (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000817",
-      "name": "Lew Ayres",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Kid Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035877",
-      "name": "Robert Armstrong",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "George Regan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001318",
-      "name": "Jean Harlow",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Rose Mason"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0587534",
-      "name": "John Miljan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Paul H. Lewis"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226992",
-      "name": "Edward Dillon",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jeff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232592",
-      "name": "Mike Donlin",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "McNeil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0169137",
-      "name": "Morrie Cohan",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Rattler O'Keefe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233390",
-      "name": "Mary Doran",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Showgirl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0886648",
-      "name": "Mildred Van Dorn",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Gladys DeVere"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0817021",
-      "name": "Ned Sparks",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Riley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089702",
-      "name": "Sammy Blum",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mandel"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0115218",
@@ -110,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000817",
+      "name": "Lew Ayres",
+      "sequence": 0,
+      "roles": [
+        "Kid Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035877",
+      "name": "Robert Armstrong",
+      "sequence": 1,
+      "roles": [
+        "George Regan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001318",
+      "name": "Jean Harlow",
+      "sequence": 2,
+      "roles": [
+        "Rose Mason"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0587534",
+      "name": "John Miljan",
+      "sequence": 3,
+      "roles": [
+        "Paul H. Lewis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0226992",
+      "name": "Edward Dillon",
+      "sequence": 4,
+      "roles": [
+        "Jeff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232592",
+      "name": "Mike Donlin",
+      "sequence": 5,
+      "roles": [
+        "McNeil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0169137",
+      "name": "Morrie Cohan",
+      "sequence": 6,
+      "roles": [
+        "Rattler O'Keefe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233390",
+      "name": "Mary Doran",
+      "sequence": 7,
+      "roles": [
+        "Showgirl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0886648",
+      "name": "Mildred Van Dorn",
+      "sequence": 8,
+      "roles": [
+        "Gladys DeVere"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0817021",
+      "name": "Ned Sparks",
+      "sequence": 9,
+      "roles": [
+        "Riley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089702",
+      "name": "Sammy Blum",
+      "sequence": 10,
+      "roles": [
+        "Mandel"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0122446",
       "name": "W.R. Burnett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story) (as William R. Burnett)",
-      "group_id": 0
+      "notes": "(story) (as William R. Burnett)"
     },
     {
       "person_imdb_id": "nm0267020",
       "name": "Francis Edward Faragoh",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay and dialogue)",
-      "group_id": 1
+      "notes": "(screenplay and dialogue)"
     }
   ],
   "release_date": "1931-04-30",

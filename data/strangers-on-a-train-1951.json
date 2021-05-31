@@ -1,126 +1,6 @@
 {
   "imdb_id": "tt0044079",
   "sort_title": "Strangers on a Train (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0335048",
-      "name": "Farley Granger",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Guy Haines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738746",
-      "name": "Ruth Roman",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Anne Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0908153",
-      "name": "Robert Walker",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Bruno Antony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001991",
-      "name": "Leo G. Carroll",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sen. Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0386877",
-      "name": "Patricia Hitchcock",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Barbara Morton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0736990",
-      "name": "Kasey Rogers",
-      "sequence": 5,
-      "notes": "(as Laura Elliott)",
-      "roles": [
-        "Miriam Joyce Haines"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0521079",
-      "name": "Marion Lorne",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Antony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0354947",
-      "name": "Jonathan Hale",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Antony"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0820643",
-      "name": "Howard St. John",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Police Capt. Turley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113876",
-      "name": "John Brown",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Prof. Collins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0889540",
-      "name": "Norma Varden",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Mrs. Cunningham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0321143",
-      "name": "Robert Gist",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Det. Leslie Hennessey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0447043",
-      "name": "Fred Kelsey",
-      "sequence": 45,
-      "notes": "",
-      "roles": [
-        "Tennis Match Spectator",
-        "Carnival Attendee"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000033",
@@ -129,41 +9,161 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0335048",
+      "name": "Farley Granger",
+      "sequence": 0,
+      "roles": [
+        "Guy Haines"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738746",
+      "name": "Ruth Roman",
+      "sequence": 1,
+      "roles": [
+        "Anne Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0908153",
+      "name": "Robert Walker",
+      "sequence": 2,
+      "roles": [
+        "Bruno Antony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001991",
+      "name": "Leo G. Carroll",
+      "sequence": 3,
+      "roles": [
+        "Sen. Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0386877",
+      "name": "Patricia Hitchcock",
+      "sequence": 4,
+      "roles": [
+        "Barbara Morton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0736990",
+      "name": "Kasey Rogers",
+      "sequence": 5,
+      "roles": [
+        "Miriam Joyce Haines"
+      ],
+      "notes": "(as Laura Elliott)"
+    },
+    {
+      "person_imdb_id": "nm0521079",
+      "name": "Marion Lorne",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Antony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0354947",
+      "name": "Jonathan Hale",
+      "sequence": 7,
+      "roles": [
+        "Mr. Antony"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0820643",
+      "name": "Howard St. John",
+      "sequence": 8,
+      "roles": [
+        "Police Capt. Turley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113876",
+      "name": "John Brown",
+      "sequence": 9,
+      "roles": [
+        "Prof. Collins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0889540",
+      "name": "Norma Varden",
+      "sequence": 10,
+      "roles": [
+        "Mrs. Cunningham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0321143",
+      "name": "Robert Gist",
+      "sequence": 11,
+      "roles": [
+        "Det. Leslie Hennessey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0447043",
+      "name": "Fred Kelsey",
+      "sequence": 45,
+      "roles": [
+        "Tennis Match Spectator",
+        "Carnival Attendee"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0151452",
       "name": "Raymond Chandler",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0650262",
       "name": "Czenzi Ormonde",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0177336",
       "name": "Whitfield Cook",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0383604",
       "name": "Patricia Highsmith",
+      "group": 2,
       "sequence": 0,
-      "notes": "(from the novel by)",
-      "group_id": 2
+      "notes": "(from the novel by)"
     },
     {
       "person_imdb_id": "nm0372942",
       "name": "Ben Hecht",
+      "group": 3,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 3
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1951-06-27",

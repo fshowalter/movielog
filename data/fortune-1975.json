@@ -1,179 +1,6 @@
 {
   "imdb_id": "tt0073008",
   "sort_title": "Fortune (1975)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Oscar Sullivan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000886",
-      "name": "Warren Beatty",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nicky Wilson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000330",
-      "name": "Stockard Channing",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Freddie Bigard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822476",
-      "name": "Florence Stanley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Gould"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795711",
-      "name": "Richard B. Shull",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Chief Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0628287",
-      "name": "Tom Newman",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "John the Barber"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0275835",
-      "name": "John Fiedler",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Photographer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001079",
-      "name": "Scatman Crothers",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fisherman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Justice of the Peace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0585265",
-      "name": "Rose Michtom",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Wife of Justice of the Peace"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043011",
-      "name": "Brian Avery",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Airline Steward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852305",
-      "name": "Dub Taylor",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Rattlesnake Tom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0010818",
-      "name": "Catlin Adams",
-      "sequence": 12,
-      "notes": "(as Nira Barab)",
-      "roles": [
-        "Girl Lover"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001302",
-      "name": "Christopher Guest",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Boy Lover"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0031386",
-      "name": "Jim Antonio",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "1st Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0884865",
-      "name": "Vic Vallaro",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "2nd Policeman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0868149",
-      "name": "Joe Tornatore",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Detective"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0342852",
-      "name": "Kathryn Grody",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Police Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731121",
-      "name": "George Roberts",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Officer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001566",
@@ -182,13 +9,186 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000197",
+      "name": "Jack Nicholson",
+      "sequence": 0,
+      "roles": [
+        "Oscar Sullivan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000886",
+      "name": "Warren Beatty",
+      "sequence": 1,
+      "roles": [
+        "Nicky Wilson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000330",
+      "name": "Stockard Channing",
+      "sequence": 2,
+      "roles": [
+        "Freddie Bigard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822476",
+      "name": "Florence Stanley",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Gould"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795711",
+      "name": "Richard B. Shull",
+      "sequence": 4,
+      "roles": [
+        "Chief Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0628287",
+      "name": "Tom Newman",
+      "sequence": 5,
+      "roles": [
+        "John the Barber"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0275835",
+      "name": "John Fiedler",
+      "sequence": 6,
+      "roles": [
+        "Photographer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001079",
+      "name": "Scatman Crothers",
+      "sequence": 7,
+      "roles": [
+        "Fisherman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 8,
+      "roles": [
+        "Justice of the Peace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0585265",
+      "name": "Rose Michtom",
+      "sequence": 9,
+      "roles": [
+        "Wife of Justice of the Peace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043011",
+      "name": "Brian Avery",
+      "sequence": 10,
+      "roles": [
+        "Airline Steward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0852305",
+      "name": "Dub Taylor",
+      "sequence": 11,
+      "roles": [
+        "Rattlesnake Tom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0010818",
+      "name": "Catlin Adams",
+      "sequence": 12,
+      "roles": [
+        "Girl Lover"
+      ],
+      "notes": "(as Nira Barab)"
+    },
+    {
+      "person_imdb_id": "nm0001302",
+      "name": "Christopher Guest",
+      "sequence": 13,
+      "roles": [
+        "Boy Lover"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0031386",
+      "name": "Jim Antonio",
+      "sequence": 14,
+      "roles": [
+        "1st Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0884865",
+      "name": "Vic Vallaro",
+      "sequence": 15,
+      "roles": [
+        "2nd Policeman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0868149",
+      "name": "Joe Tornatore",
+      "sequence": 16,
+      "roles": [
+        "Detective"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0342852",
+      "name": "Kathryn Grody",
+      "sequence": 17,
+      "roles": [
+        "Police Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731121",
+      "name": "George Roberts",
+      "sequence": 18,
+      "roles": [
+        "Officer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0247628",
       "name": "Carole Eastman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by) (as Adrien Joyce)",
-      "group_id": 0
+      "notes": "(written by) (as Adrien Joyce)"
     }
   ],
   "release_date": "1975-05-20",

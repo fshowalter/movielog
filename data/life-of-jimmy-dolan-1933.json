@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0024257",
   "sort_title": "Life of Jimmy Dolan (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001195",
-      "name": "Douglas Fairbanks Jr.",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jimmy Dolan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0949835",
-      "name": "Loretta Young",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Peggy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0533956",
-      "name": "Aline MacMahon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mrs. Moore"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0452128",
-      "name": "Guy Kibbee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Phlaxer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0847939",
-      "name": "Lyle Talbot",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Doc Woods"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0195888",
-      "name": "Fifi D'Orsay",
-      "sequence": 5,
-      "notes": "(as Fifi Dorsay)",
-      "roles": [
-        "Budgie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399346",
-      "name": "Harold Huber",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Reggie Newman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0336956",
-      "name": "Shirley Grey",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Goldie West"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576120",
-      "name": "George Meeker",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Charles Magee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000078",
-      "name": "John Wayne",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Smith"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0389824",
-      "name": "Arthur Hohl",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Herman Malvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0794297",
-      "name": "Anne Shirley",
-      "sequence": 11,
-      "notes": "(as Dawn O'Day)",
-      "roles": [
-        "Mary Lou"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0562845",
@@ -119,34 +9,144 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001195",
+      "name": "Douglas Fairbanks Jr.",
+      "sequence": 0,
+      "roles": [
+        "Jimmy Dolan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0949835",
+      "name": "Loretta Young",
+      "sequence": 1,
+      "roles": [
+        "Peggy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0533956",
+      "name": "Aline MacMahon",
+      "sequence": 2,
+      "roles": [
+        "Mrs. Moore"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0452128",
+      "name": "Guy Kibbee",
+      "sequence": 3,
+      "roles": [
+        "Phlaxer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0847939",
+      "name": "Lyle Talbot",
+      "sequence": 4,
+      "roles": [
+        "Doc Woods"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0195888",
+      "name": "Fifi D'Orsay",
+      "sequence": 5,
+      "roles": [
+        "Budgie"
+      ],
+      "notes": "(as Fifi Dorsay)"
+    },
+    {
+      "person_imdb_id": "nm0399346",
+      "name": "Harold Huber",
+      "sequence": 6,
+      "roles": [
+        "Reggie Newman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0336956",
+      "name": "Shirley Grey",
+      "sequence": 7,
+      "roles": [
+        "Goldie West"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0576120",
+      "name": "George Meeker",
+      "sequence": 8,
+      "roles": [
+        "Charles Magee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000078",
+      "name": "John Wayne",
+      "sequence": 9,
+      "roles": [
+        "Smith"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0389824",
+      "name": "Arthur Hohl",
+      "sequence": 10,
+      "roles": [
+        "Herman Malvin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0794297",
+      "name": "Anne Shirley",
+      "sequence": 11,
+      "roles": [
+        "Mary Lou"
+      ],
+      "notes": "(as Dawn O'Day)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0589616",
       "name": "Bertram Millhauser",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on a play by) (as Bertram Milhauser)",
-      "group_id": 0
+      "notes": "(based on a play by) (as Bertram Milhauser)"
     },
     {
       "person_imdb_id": "nm0228693",
       "name": "Beulah Marie Dix",
-      "sequence": 0,
-      "notes": "(based on a play by)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(based on a play by)"
     },
     {
       "person_imdb_id": "nm0091200",
       "name": "David Boehm",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0312510",
       "name": "Erwin Gelsey",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screen play)"
     }
   ],
   "release_date": "1933-06-03",

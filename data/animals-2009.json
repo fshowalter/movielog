@@ -1,215 +1,6 @@
 {
   "imdb_id": "tt1056036",
   "sort_title": "Animals (2009)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0089456",
-      "name": "Marc Blucas",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Jarrett"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0004710",
-      "name": "Naveen Andrews",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Vic"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0043704",
-      "name": "Nicki Aycox",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Nora"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0025483",
-      "name": "Eva Amurri Martino",
-      "sequence": 3,
-      "notes": "(as Eva Amurri)",
-      "roles": [
-        "Jane"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0173688",
-      "name": "Andy Comeau",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jules"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0424559",
-      "name": "Bart Johnson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Vaughn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795926",
-      "name": "Gillian Shure",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Trish"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1731797",
-      "name": "Mark Elias",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Bud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0737318",
-      "name": "Ron Rogg\u00e9",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Tommy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2762580",
-      "name": "Heidi Shepherd",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tristana"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2599580",
-      "name": "Adrienne Hartvigsen",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Employee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1642850",
-      "name": "Matthew C. Temple",
-      "sequence": 11,
-      "notes": "(as Matthew Temple)",
-      "roles": [
-        "Frat Boy #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2021427",
-      "name": "Christopher Tarantino",
-      "sequence": 12,
-      "notes": "(as Chris Tarantino)",
-      "roles": [
-        "Frat Boy #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0355155",
-      "name": "Charles Halford",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0255317",
-      "name": "Stan Ellsworth",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Drunk #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0137850",
-      "name": "Skip Carlsen",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Drunk #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3757046",
-      "name": "Lorrie Dohoney",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #1"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3734096",
-      "name": "Nina Alverez",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #2"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3755429",
-      "name": "Ashley Barenz",
-      "sequence": 18,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #3"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132741",
-      "name": "Monica Campbell",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #4"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3734105",
-      "name": "Sofya Sadiq",
-      "sequence": 20,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #5"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3755908",
-      "name": "Michelle Buck",
-      "sequence": 21,
-      "notes": "",
-      "roles": [
-        "Slippery Kitten #6"
-      ]
-    },
-    {
-      "person_imdb_id": "nm3155140",
-      "name": "Shalaina Castle",
-      "sequence": 22,
-      "notes": "(as Shalaina Fotheringham)",
-      "roles": [
-        "Hot Screamer Chick"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0007439",
@@ -218,27 +9,236 @@
       "notes": "(as Arnold Cassius)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0089456",
+      "name": "Marc Blucas",
+      "sequence": 0,
+      "roles": [
+        "Jarrett"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0004710",
+      "name": "Naveen Andrews",
+      "sequence": 1,
+      "roles": [
+        "Vic"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0043704",
+      "name": "Nicki Aycox",
+      "sequence": 2,
+      "roles": [
+        "Nora"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0025483",
+      "name": "Eva Amurri Martino",
+      "sequence": 3,
+      "roles": [
+        "Jane"
+      ],
+      "notes": "(as Eva Amurri)"
+    },
+    {
+      "person_imdb_id": "nm0173688",
+      "name": "Andy Comeau",
+      "sequence": 4,
+      "roles": [
+        "Jules"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0424559",
+      "name": "Bart Johnson",
+      "sequence": 5,
+      "roles": [
+        "Vaughn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795926",
+      "name": "Gillian Shure",
+      "sequence": 6,
+      "roles": [
+        "Trish"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1731797",
+      "name": "Mark Elias",
+      "sequence": 7,
+      "roles": [
+        "Bud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0737318",
+      "name": "Ron Rogg\u00e9",
+      "sequence": 8,
+      "roles": [
+        "Tommy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2762580",
+      "name": "Heidi Shepherd",
+      "sequence": 9,
+      "roles": [
+        "Tristana"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2599580",
+      "name": "Adrienne Hartvigsen",
+      "sequence": 10,
+      "roles": [
+        "Employee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1642850",
+      "name": "Matthew C. Temple",
+      "sequence": 11,
+      "roles": [
+        "Frat Boy #1"
+      ],
+      "notes": "(as Matthew Temple)"
+    },
+    {
+      "person_imdb_id": "nm2021427",
+      "name": "Christopher Tarantino",
+      "sequence": 12,
+      "roles": [
+        "Frat Boy #2"
+      ],
+      "notes": "(as Chris Tarantino)"
+    },
+    {
+      "person_imdb_id": "nm0355155",
+      "name": "Charles Halford",
+      "sequence": 13,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0255317",
+      "name": "Stan Ellsworth",
+      "sequence": 14,
+      "roles": [
+        "Drunk #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0137850",
+      "name": "Skip Carlsen",
+      "sequence": 15,
+      "roles": [
+        "Drunk #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3757046",
+      "name": "Lorrie Dohoney",
+      "sequence": 16,
+      "roles": [
+        "Slippery Kitten #1"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3734096",
+      "name": "Nina Alverez",
+      "sequence": 17,
+      "roles": [
+        "Slippery Kitten #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3755429",
+      "name": "Ashley Barenz",
+      "sequence": 18,
+      "roles": [
+        "Slippery Kitten #3"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132741",
+      "name": "Monica Campbell",
+      "sequence": 19,
+      "roles": [
+        "Slippery Kitten #4"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3734105",
+      "name": "Sofya Sadiq",
+      "sequence": 20,
+      "roles": [
+        "Slippery Kitten #5"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3755908",
+      "name": "Michelle Buck",
+      "sequence": 21,
+      "roles": [
+        "Slippery Kitten #6"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm3155140",
+      "name": "Shalaina Castle",
+      "sequence": 22,
+      "roles": [
+        "Hot Screamer Chick"
+      ],
+      "notes": "(as Shalaina Fotheringham)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0804345",
       "name": "John Skipp",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0817468",
       "name": "Craig Spector",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0817468",
       "name": "Craig Spector",
+      "group": 2,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 2
+      "notes": "(written by)"
     }
   ],
   "release_date": "2009-11-26",

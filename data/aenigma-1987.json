@@ -1,141 +1,6 @@
 {
   "imdb_id": "tt0092516",
   "sort_title": "Aenigma (1987)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0552474",
-      "name": "Jared Martin",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Robert Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622066",
-      "name": "Lara Lamberti",
-      "sequence": 1,
-      "notes": "(as Lara Naszinski)",
-      "roles": [
-        "Eva Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0718279",
-      "name": "Ulli Reinthaler",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Jenny Clark"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0042023",
-      "name": "Sophie d'Aulan",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Kim"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0622494",
-      "name": "Jennifer Naud",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Grace O'Neal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0009666",
-      "name": "Riccardo Acerbi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Fred Vernon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0936372",
-      "name": "Kathi Wise",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Virginia Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0957182",
-      "name": "Milijana Zirojevic",
-      "sequence": 7,
-      "notes": "(as Mijlijana Zirojevic)",
-      "roles": [
-        "Kathy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0081449",
-      "name": "Dragan Bjelogrlic",
-      "sequence": 8,
-      "notes": "(as Dragan Ejelogrlic)",
-      "roles": [
-        "Tom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0086064",
-      "name": "Ljiljana Blagojevic",
-      "sequence": 9,
-      "notes": "(as Lijlijana Blagojevic)",
-      "roles": [
-        "Ms. Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1050559",
-      "name": "Franciska Spahic",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Joanne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0954217",
-      "name": "Dusica Zegarac",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Mary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1054217",
-      "name": "Zorica Lesic",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Miss James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1054003",
-      "name": "Zoran Lesic",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm1053918",
-      "name": "Rade Colovic",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Tom"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0002086",
@@ -144,20 +9,155 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0552474",
+      "name": "Jared Martin",
+      "sequence": 0,
+      "roles": [
+        "Dr. Robert Anderson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622066",
+      "name": "Lara Lamberti",
+      "sequence": 1,
+      "roles": [
+        "Eva Gordon"
+      ],
+      "notes": "(as Lara Naszinski)"
+    },
+    {
+      "person_imdb_id": "nm0718279",
+      "name": "Ulli Reinthaler",
+      "sequence": 2,
+      "roles": [
+        "Jenny Clark"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0042023",
+      "name": "Sophie d'Aulan",
+      "sequence": 3,
+      "roles": [
+        "Kim"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0622494",
+      "name": "Jennifer Naud",
+      "sequence": 4,
+      "roles": [
+        "Grace O'Neal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0009666",
+      "name": "Riccardo Acerbi",
+      "sequence": 5,
+      "roles": [
+        "Fred Vernon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0936372",
+      "name": "Kathi Wise",
+      "sequence": 6,
+      "roles": [
+        "Virginia Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0957182",
+      "name": "Milijana Zirojevic",
+      "sequence": 7,
+      "roles": [
+        "Kathy"
+      ],
+      "notes": "(as Mijlijana Zirojevic)"
+    },
+    {
+      "person_imdb_id": "nm0081449",
+      "name": "Dragan Bjelogrlic",
+      "sequence": 8,
+      "roles": [
+        "Tom"
+      ],
+      "notes": "(as Dragan Ejelogrlic)"
+    },
+    {
+      "person_imdb_id": "nm0086064",
+      "name": "Ljiljana Blagojevic",
+      "sequence": 9,
+      "roles": [
+        "Ms. Jones"
+      ],
+      "notes": "(as Lijlijana Blagojevic)"
+    },
+    {
+      "person_imdb_id": "nm1050559",
+      "name": "Franciska Spahic",
+      "sequence": 10,
+      "roles": [
+        "Joanne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0954217",
+      "name": "Dusica Zegarac",
+      "sequence": 11,
+      "roles": [
+        "Mary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1054217",
+      "name": "Zorica Lesic",
+      "sequence": 12,
+      "roles": [
+        "Miss James"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1054003",
+      "name": "Zoran Lesic",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1053918",
+      "name": "Rade Colovic",
+      "sequence": 14,
+      "roles": [
+        "Tom"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0002086",
       "name": "Lucio Fulci",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0548151",
       "name": "Giorgio Mariuzzo",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1987-10-25",

@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0081467",
   "sort_title": "Screamers (1979)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000819",
-      "name": "Barbara Bach",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Amanda Marvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144292",
-      "name": "Claudio Cassinelli",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lt. Claude de Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0426062",
-      "name": "Richard Johnson",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Edmond Rackham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0192241",
-      "name": "Beryl Cunningham",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Shakira"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001072",
-      "name": "Joseph Cotten",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Prof. Ernest Marvin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0406376",
-      "name": "Franco Javarone",
-      "sequence": 5,
-      "notes": "(as Franco Iavarone)",
-      "roles": [
-        "Jos\u00e9"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692778",
-      "name": "Roberto Posse",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Peter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0144693",
-      "name": "Giuseppe Castellano",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Skip"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0563567",
-      "name": "Franco Mazzieri",
-      "sequence": 8,
-      "notes": "(as Francesco Mazzieri)",
-      "roles": [
-        "Fran\u00e7ois"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022471",
-      "name": "Jim Alquist",
-      "sequence": 9,
-      "notes": "(US version) (as James Alquist)",
-      "roles": [
-        "James"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0093330",
-      "name": "Eunice Bolt",
-      "sequence": 10,
-      "notes": "(US version)",
-      "roles": [
-        "Samantha"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216348",
-      "name": "Tom J. Delaney",
-      "sequence": 11,
-      "notes": "(US version)",
-      "roles": [
-        "Patterson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002072",
-      "name": "Mel Ferrer",
-      "sequence": 12,
-      "notes": "(US version)",
-      "roles": [
-        "Radcliffe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593192",
-      "name": "Cameron Mitchell",
-      "sequence": 13,
-      "notes": "(US version)",
-      "roles": [
-        "Decker"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0553941",
@@ -137,48 +9,176 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000819",
+      "name": "Barbara Bach",
+      "sequence": 0,
+      "roles": [
+        "Amanda Marvin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144292",
+      "name": "Claudio Cassinelli",
+      "sequence": 1,
+      "roles": [
+        "Lt. Claude de Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0426062",
+      "name": "Richard Johnson",
+      "sequence": 2,
+      "roles": [
+        "Edmond Rackham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0192241",
+      "name": "Beryl Cunningham",
+      "sequence": 3,
+      "roles": [
+        "Shakira"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001072",
+      "name": "Joseph Cotten",
+      "sequence": 4,
+      "roles": [
+        "Prof. Ernest Marvin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0406376",
+      "name": "Franco Javarone",
+      "sequence": 5,
+      "roles": [
+        "Jos\u00e9"
+      ],
+      "notes": "(as Franco Iavarone)"
+    },
+    {
+      "person_imdb_id": "nm0692778",
+      "name": "Roberto Posse",
+      "sequence": 6,
+      "roles": [
+        "Peter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0144693",
+      "name": "Giuseppe Castellano",
+      "sequence": 7,
+      "roles": [
+        "Skip"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0563567",
+      "name": "Franco Mazzieri",
+      "sequence": 8,
+      "roles": [
+        "Fran\u00e7ois"
+      ],
+      "notes": "(as Francesco Mazzieri)"
+    },
+    {
+      "person_imdb_id": "nm0022471",
+      "name": "Jim Alquist",
+      "sequence": 9,
+      "roles": [
+        "James"
+      ],
+      "notes": "(US version) (as James Alquist)"
+    },
+    {
+      "person_imdb_id": "nm0093330",
+      "name": "Eunice Bolt",
+      "sequence": 10,
+      "roles": [
+        "Samantha"
+      ],
+      "notes": "(US version)"
+    },
+    {
+      "person_imdb_id": "nm0216348",
+      "name": "Tom J. Delaney",
+      "sequence": 11,
+      "roles": [
+        "Patterson"
+      ],
+      "notes": "(US version)"
+    },
+    {
+      "person_imdb_id": "nm0002072",
+      "name": "Mel Ferrer",
+      "sequence": 12,
+      "roles": [
+        "Radcliffe"
+      ],
+      "notes": "(US version)"
+    },
+    {
+      "person_imdb_id": "nm0593192",
+      "name": "Cameron Mitchell",
+      "sequence": 13,
+      "roles": [
+        "Decker"
+      ],
+      "notes": "(US version)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0296658",
       "name": "Cesare Frugoni",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0553916",
       "name": "Luciano Martino",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0006872",
       "name": "Sergio Donati",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0296658",
       "name": "Cesare Frugoni",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0553941",
       "name": "Sergio Martino",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0522454",
       "name": "H.P. Lovecraft",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story \"The Shadow Over Innsmouth\") (uncredited)",
-      "group_id": 2
+      "notes": "(story \"The Shadow Over Innsmouth\") (uncredited)"
     }
   ],
   "release_date": "1979-01-18",

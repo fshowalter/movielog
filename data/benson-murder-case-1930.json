@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0020679",
   "sort_title": "Benson Murder Case (1930)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001635",
-      "name": "William Powell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Philo Vance"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0101954",
-      "name": "William 'Stage' Boyd",
-      "sequence": 1,
-      "notes": "(as William Boyd)",
-      "roles": [
-        "Harry Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0657874",
-      "name": "Eugene Pallette",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Sgt. Ernest Heath"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0510134",
-      "name": "Paul Lukas",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Adolph Mohler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0602096",
-      "name": "Natalie Moorhead",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Fanny Del Roy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875983",
-      "name": "Richard Tucker",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Anthony Benson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0064225",
-      "name": "May Beatty",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mrs. Paula Banning"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130797",
-      "name": "E.H. Calvert",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dist. Atty. John F.X. Markham"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0878338",
@@ -83,20 +9,94 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001635",
+      "name": "William Powell",
+      "sequence": 0,
+      "roles": [
+        "Philo Vance"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0101954",
+      "name": "William 'Stage' Boyd",
+      "sequence": 1,
+      "roles": [
+        "Harry Gray"
+      ],
+      "notes": "(as William Boyd)"
+    },
+    {
+      "person_imdb_id": "nm0657874",
+      "name": "Eugene Pallette",
+      "sequence": 2,
+      "roles": [
+        "Sgt. Ernest Heath"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0510134",
+      "name": "Paul Lukas",
+      "sequence": 3,
+      "roles": [
+        "Adolph Mohler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0602096",
+      "name": "Natalie Moorhead",
+      "sequence": 4,
+      "roles": [
+        "Fanny Del Roy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875983",
+      "name": "Richard Tucker",
+      "sequence": 5,
+      "roles": [
+        "Anthony Benson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0064225",
+      "name": "May Beatty",
+      "sequence": 6,
+      "roles": [
+        "Mrs. Paula Banning"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130797",
+      "name": "E.H. Calvert",
+      "sequence": 7,
+      "roles": [
+        "Dist. Atty. John F.X. Markham"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0886597",
       "name": "S.S. Van Dine",
+      "group": 0,
       "sequence": 0,
-      "notes": "(novel)",
-      "group_id": 0
+      "notes": "(novel)"
     },
     {
       "person_imdb_id": "nm0179993",
       "name": "Bartlett Cormack",
+      "group": 1,
       "sequence": 0,
-      "notes": "(scenario)",
-      "group_id": 1
+      "notes": "(scenario)"
     }
   ],
   "release_date": "1930-04-12",

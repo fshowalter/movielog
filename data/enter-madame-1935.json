@@ -1,143 +1,6 @@
 {
   "imdb_id": "tt0026315",
   "sort_title": "Enter Madame! (1935)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0484748",
-      "name": "Elissa Landi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lisa Della Robbia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Gerald Fitzgerald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0653892",
-      "name": "Lynne Overman",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mr. Farnum"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528800",
-      "name": "Sharon Lynn",
-      "sequence": 3,
-      "notes": "(as Sharon Lynne)",
-      "roles": [
-        "Flora Preston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0120706",
-      "name": "Michelette Burani",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Bice"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0691668",
-      "name": "Paul Porcasi",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Archimede"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0743075",
-      "name": "Adrian Rosley",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Doctor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662118",
-      "name": "Cecilia Parker",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Aline Chalmers"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007214",
-      "name": "Frank Albertson",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "John Fitzgerald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0363014",
-      "name": "Wilfred Hari",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Tamamoto"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0583395",
-      "name": "Torben Meyer",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Carlson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0077270",
-      "name": "Harold Berquist",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Bjorgenson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0507114",
-      "name": "Diana Lewis",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Operator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0094267",
-      "name": "Richard Bonelli",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Scorpia in 'La Tosca'"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0792130",
-      "name": "Ann Sheridan",
-      "sequence": 14,
-      "notes": "(as Clara Lou Sheridan)",
-      "roles": [
-        "Flora's Shipboard Friend"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0637790",
@@ -146,34 +9,171 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0484748",
+      "name": "Elissa Landi",
+      "sequence": 0,
+      "roles": [
+        "Lisa Della Robbia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Gerald Fitzgerald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0653892",
+      "name": "Lynne Overman",
+      "sequence": 2,
+      "roles": [
+        "Mr. Farnum"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528800",
+      "name": "Sharon Lynn",
+      "sequence": 3,
+      "roles": [
+        "Flora Preston"
+      ],
+      "notes": "(as Sharon Lynne)"
+    },
+    {
+      "person_imdb_id": "nm0120706",
+      "name": "Michelette Burani",
+      "sequence": 4,
+      "roles": [
+        "Bice"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0691668",
+      "name": "Paul Porcasi",
+      "sequence": 5,
+      "roles": [
+        "Archimede"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0743075",
+      "name": "Adrian Rosley",
+      "sequence": 6,
+      "roles": [
+        "Doctor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662118",
+      "name": "Cecilia Parker",
+      "sequence": 7,
+      "roles": [
+        "Aline Chalmers"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007214",
+      "name": "Frank Albertson",
+      "sequence": 8,
+      "roles": [
+        "John Fitzgerald"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0363014",
+      "name": "Wilfred Hari",
+      "sequence": 9,
+      "roles": [
+        "Tamamoto"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0583395",
+      "name": "Torben Meyer",
+      "sequence": 10,
+      "roles": [
+        "Carlson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0077270",
+      "name": "Harold Berquist",
+      "sequence": 11,
+      "roles": [
+        "Bjorgenson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0507114",
+      "name": "Diana Lewis",
+      "sequence": 12,
+      "roles": [
+        "Operator"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0094267",
+      "name": "Richard Bonelli",
+      "sequence": 13,
+      "roles": [
+        "Scorpia in 'La Tosca'"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0792130",
+      "name": "Ann Sheridan",
+      "sequence": 14,
+      "roles": [
+        "Flora's Shipboard Friend"
+      ],
+      "notes": "(as Clara Lou Sheridan)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0033764",
       "name": "Gilda Varesi Archibald",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 0
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0102818",
       "name": "Charles Brackett",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0232616",
       "name": "Dorothea Donn-Byrne",
+      "group": 2,
       "sequence": 0,
-      "notes": "(play)",
-      "group_id": 2
+      "notes": "(play)"
     },
     {
       "person_imdb_id": "nm0499628",
       "name": "Gladys Lehman",
+      "group": 3,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 3
+      "notes": "()"
     }
   ],
   "release_date": "1935-01-04",

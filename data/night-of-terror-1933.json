@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0024382",
   "sort_title": "Night of Terror (1933)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000509",
-      "name": "Bela Lugosi",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Degar"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285922",
-      "name": "Wallace Ford",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Tom Hartley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087434",
-      "name": "Sally Blane",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mary Rinehart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913341",
-      "name": "Bryant Washburn",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "John Rinehart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0551222",
-      "name": "Tully Marshall",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Richard Rinehart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0584119",
-      "name": "Gertrude Michael",
-      "sequence": 5,
-      "notes": "(as Gertrude Michaels)",
-      "roles": [
-        "Sarah Rinehart"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576120",
-      "name": "George Meeker",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prof. Arthur Hornsby"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0294606",
-      "name": "Mary Frey",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sika"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570471",
-      "name": "Matt McHugh",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Detective Bailey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0561693",
-      "name": "Edwin Maxwell",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "The Maniac"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0831577",
@@ -101,27 +9,119 @@
       "notes": "(directed by) (as Ben Stoloff)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000509",
+      "name": "Bela Lugosi",
+      "sequence": 0,
+      "roles": [
+        "Degar"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285922",
+      "name": "Wallace Ford",
+      "sequence": 1,
+      "roles": [
+        "Tom Hartley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087434",
+      "name": "Sally Blane",
+      "sequence": 2,
+      "roles": [
+        "Mary Rinehart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913341",
+      "name": "Bryant Washburn",
+      "sequence": 3,
+      "roles": [
+        "John Rinehart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0551222",
+      "name": "Tully Marshall",
+      "sequence": 4,
+      "roles": [
+        "Richard Rinehart"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0584119",
+      "name": "Gertrude Michael",
+      "sequence": 5,
+      "roles": [
+        "Sarah Rinehart"
+      ],
+      "notes": "(as Gertrude Michaels)"
+    },
+    {
+      "person_imdb_id": "nm0576120",
+      "name": "George Meeker",
+      "sequence": 6,
+      "roles": [
+        "Prof. Arthur Hornsby"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0294606",
+      "name": "Mary Frey",
+      "sequence": 7,
+      "roles": [
+        "Sika"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570471",
+      "name": "Matt McHugh",
+      "sequence": 8,
+      "roles": [
+        "Detective Bailey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0561693",
+      "name": "Edwin Maxwell",
+      "sequence": 9,
+      "roles": [
+        "The Maniac"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0888396",
       "name": "Beatrice Van",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0414673",
       "name": "William Jacobs",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0533102",
       "name": "Willard Mack",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"The Public Be Damned\")",
-      "group_id": 1
+      "notes": "(story \"The Public Be Damned\")"
     }
   ],
   "release_date": "1933-04-24",

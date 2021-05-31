@@ -1,161 +1,6 @@
 {
   "imdb_id": "tt0050230",
   "sort_title": "Carnival Rock (1957)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0127693",
-      "name": "Susan Cabot",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Natalie Cook"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0404606",
-      "name": "Brian G. Hutton",
-      "sequence": 1,
-      "notes": "(as Brian Hutton)",
-      "roles": [
-        "Stanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829299",
-      "name": "David J. Stewart",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Christopher 'Christy' Cristakos"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Benny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012441",
-      "name": "Iris Adrian",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Celia"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0371918",
-      "name": "Jonathan Haze",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Max"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625343",
-      "name": "Ed Nelson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Cannon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0895259",
-      "name": "Bruno VeSota",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Mr. Kirsch"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0017108",
-      "name": "Chris Alcaide",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Slug"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0673772",
-      "name": "Frank Ray Perilli",
-      "sequence": 9,
-      "notes": "(as Frankie Ray)",
-      "roles": [
-        "Billy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627030",
-      "name": "Dorothy Neumann",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Clara"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0517568",
-      "name": "Horace Logan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Master of Ceremonies"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0669474",
-      "name": "Yvonne Peattie",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Henry's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1323963",
-      "name": "The Platters",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Platters"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396813",
-      "name": "David Houston",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Self - Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0525836",
-      "name": "Bob Luman",
-      "sequence": 15,
-      "notes": "(as Bob Luman and his Shadows)",
-      "roles": [
-        "Self - Singer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2182967",
-      "name": "The Blockbusters",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "The Blockbusters"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -164,17 +9,172 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0127693",
+      "name": "Susan Cabot",
+      "sequence": 0,
+      "roles": [
+        "Natalie Cook"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0404606",
+      "name": "Brian G. Hutton",
+      "sequence": 1,
+      "roles": [
+        "Stanley"
+      ],
+      "notes": "(as Brian Hutton)"
+    },
+    {
+      "person_imdb_id": "nm0829299",
+      "name": "David J. Stewart",
+      "sequence": 2,
+      "roles": [
+        "Christopher 'Christy' Cristakos"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588241",
+      "name": "Dick Miller",
+      "sequence": 3,
+      "roles": [
+        "Benny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0012441",
+      "name": "Iris Adrian",
+      "sequence": 4,
+      "roles": [
+        "Celia"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0371918",
+      "name": "Jonathan Haze",
+      "sequence": 5,
+      "roles": [
+        "Max"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625343",
+      "name": "Ed Nelson",
+      "sequence": 6,
+      "roles": [
+        "Cannon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0895259",
+      "name": "Bruno VeSota",
+      "sequence": 7,
+      "roles": [
+        "Mr. Kirsch"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0017108",
+      "name": "Chris Alcaide",
+      "sequence": 8,
+      "roles": [
+        "Slug"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0673772",
+      "name": "Frank Ray Perilli",
+      "sequence": 9,
+      "roles": [
+        "Billy"
+      ],
+      "notes": "(as Frankie Ray)"
+    },
+    {
+      "person_imdb_id": "nm0627030",
+      "name": "Dorothy Neumann",
+      "sequence": 10,
+      "roles": [
+        "Clara"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0517568",
+      "name": "Horace Logan",
+      "sequence": 11,
+      "roles": [
+        "Master of Ceremonies"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0669474",
+      "name": "Yvonne Peattie",
+      "sequence": 12,
+      "roles": [
+        "Henry's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1323963",
+      "name": "The Platters",
+      "sequence": 13,
+      "roles": [
+        "The Platters"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396813",
+      "name": "David Houston",
+      "sequence": 14,
+      "roles": [
+        "Self - Singer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0525836",
+      "name": "Bob Luman",
+      "sequence": 15,
+      "roles": [
+        "Self - Singer"
+      ],
+      "notes": "(as Bob Luman and his Shadows)"
+    },
+    {
+      "person_imdb_id": "nm2182967",
+      "name": "The Blockbusters",
+      "sequence": 16,
+      "roles": [
+        "The Blockbusters"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0509398",
       "name": "Leo Lieberman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     }
   ],
-  "release_date": "1957-01-01",
-  "release_date_notes": "No release date",
+  "release_date": "1957-09-01",
+  "release_date_notes": "",
   "countries": [
     "United States"
   ]

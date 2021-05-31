@@ -1,118 +1,6 @@
 {
   "imdb_id": "tt0057608",
   "sort_title": "Twice-Told Tales (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Alex Medbourne",
-        "Dr. Giacomo Rappaccini",
-        "Gerald Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001982",
-      "name": "Sebastian Cabot",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Carl Heidigger"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0357020",
-      "name": "Brett Halsey",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Giovanni Guasconti"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0307500",
-      "name": "Beverly Garland",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Alice Pyncheon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0219396",
-      "name": "Richard Denning",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Jonathan Maulle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0087080",
-      "name": "Mari Blanchard",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sylvia Ward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0812125",
-      "name": "Abraham Sofaer",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Prof. Pietro Baglioni"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223190",
-      "name": "Jacqueline deWit",
-      "sequence": 7,
-      "notes": "(as Jacqueline de Wit)",
-      "roles": [
-        "Hannah Pyncheon, Gerald's Sister"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0852674",
-      "name": "Joyce Taylor",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Beatrice Rappaccini"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0263330",
-      "name": "Edith Evanson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lisabetta, the landlady"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0799754",
-      "name": "Floyd Simmons",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Ghost of Mathew Maulle"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0744841",
-      "name": "Gene Roth",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Cabman"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0758508",
@@ -121,20 +9,132 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Alex Medbourne",
+        "Dr. Giacomo Rappaccini",
+        "Gerald Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001982",
+      "name": "Sebastian Cabot",
+      "sequence": 1,
+      "roles": [
+        "Dr. Carl Heidigger"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0357020",
+      "name": "Brett Halsey",
+      "sequence": 2,
+      "roles": [
+        "Giovanni Guasconti"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0307500",
+      "name": "Beverly Garland",
+      "sequence": 3,
+      "roles": [
+        "Alice Pyncheon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0219396",
+      "name": "Richard Denning",
+      "sequence": 4,
+      "roles": [
+        "Jonathan Maulle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0087080",
+      "name": "Mari Blanchard",
+      "sequence": 5,
+      "roles": [
+        "Sylvia Ward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0812125",
+      "name": "Abraham Sofaer",
+      "sequence": 6,
+      "roles": [
+        "Prof. Pietro Baglioni"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223190",
+      "name": "Jacqueline deWit",
+      "sequence": 7,
+      "roles": [
+        "Hannah Pyncheon, Gerald's Sister"
+      ],
+      "notes": "(as Jacqueline de Wit)"
+    },
+    {
+      "person_imdb_id": "nm0852674",
+      "name": "Joyce Taylor",
+      "sequence": 8,
+      "roles": [
+        "Beatrice Rappaccini"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0263330",
+      "name": "Edith Evanson",
+      "sequence": 9,
+      "roles": [
+        "Lisabetta, the landlady"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0799754",
+      "name": "Floyd Simmons",
+      "sequence": 10,
+      "roles": [
+        "Ghost of Mathew Maulle"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0744841",
+      "name": "Gene Roth",
+      "sequence": 11,
+      "roles": [
+        "Cabman"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0370426",
       "name": "Nathaniel Hawthorne",
+      "group": 0,
       "sequence": 0,
-      "notes": "(based on the stories by)",
-      "group_id": 0
+      "notes": "(based on the stories by)"
     },
     {
       "person_imdb_id": "nm0448839",
       "name": "Robert E. Kent",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     }
   ],
   "release_date": "1963-10-30",

@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0045737",
   "sort_title": "Escape from Fort Bravo (1953)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Roper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662223",
-      "name": "Eleanor Parker",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Carla Forester"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001234",
-      "name": "John Forsythe",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. John Marsh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0218131",
-      "name": "William Demarest",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Campbell"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132930",
-      "name": "William Campbell",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Cabot Young"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000917",
-      "name": "Polly Bergen",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Alice Owens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027323",
-      "name": "Richard Anderson",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lt. Beecher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717203",
-      "name": "Carl Benton Reid",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Col. Owens"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0527017",
-      "name": "John Lupton",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Bailey"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Capt. Roper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662223",
+      "name": "Eleanor Parker",
+      "sequence": 1,
+      "roles": [
+        "Carla Forester"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001234",
+      "name": "John Forsythe",
+      "sequence": 2,
+      "roles": [
+        "Capt. John Marsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0218131",
+      "name": "William Demarest",
+      "sequence": 3,
+      "roles": [
+        "Campbell"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132930",
+      "name": "William Campbell",
+      "sequence": 4,
+      "roles": [
+        "Cabot Young"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000917",
+      "name": "Polly Bergen",
+      "sequence": 5,
+      "roles": [
+        "Alice Owens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027323",
+      "name": "Richard Anderson",
+      "sequence": 6,
+      "roles": [
+        "Lt. Beecher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717203",
+      "name": "Carl Benton Reid",
+      "sequence": 7,
+      "roles": [
+        "Col. Owens"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0527017",
+      "name": "John Lupton",
+      "sequence": 8,
+      "roles": [
+        "Bailey"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0272045",
       "name": "Frank Fenton",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0734193",
-      "name": "Philip Rock",
+      "name": "Phillip Rock",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story) (as Phillip Rock)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0665327",
       "name": "Michael Pate",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1953-12-04",

@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0057706",
   "sort_title": "Young Racers (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0198941",
-      "name": "Mark Damon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stephen Children"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132930",
-      "name": "William Campbell",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joe Machin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0026035",
-      "name": "Luana Anders",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Henny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0535861",
-      "name": "Patrick Magee",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sir William Dragonet"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0572224",
-      "name": "John McLaren",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Lotus Team Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0132790",
-      "name": "R. Wright Campbell",
-      "sequence": 5,
-      "notes": "(as Robert Campbell)",
-      "roles": [
-        "Robert Machin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0703318",
-      "name": "Milo Quesada",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Italian Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm2415919",
-      "name": "Anthony Marsh",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Announcer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894949",
-      "name": "Marie Versini",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Sesia Machin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0733433",
-      "name": "Margrete Robsahm",
-      "sequence": 9,
-      "notes": "(as Margrete Robsahn)",
-      "roles": [
-        "Lea Anderson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339565",
-      "name": "Christina Gregg",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Daphne"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0022675",
-      "name": "B\u00e9atrice Altariba",
-      "sequence": 11,
-      "notes": "(as Beatrice Altariba)",
-      "roles": [
-        "Monique"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -119,13 +9,123 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0198941",
+      "name": "Mark Damon",
+      "sequence": 0,
+      "roles": [
+        "Stephen Children"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132930",
+      "name": "William Campbell",
+      "sequence": 1,
+      "roles": [
+        "Joe Machin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0026035",
+      "name": "Luana Anders",
+      "sequence": 2,
+      "roles": [
+        "Henny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0535861",
+      "name": "Patrick Magee",
+      "sequence": 3,
+      "roles": [
+        "Sir William Dragonet"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0572224",
+      "name": "John McLaren",
+      "sequence": 4,
+      "roles": [
+        "Lotus Team Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0132790",
+      "name": "R. Wright Campbell",
+      "sequence": 5,
+      "roles": [
+        "Robert Machin"
+      ],
+      "notes": "(as Robert Campbell)"
+    },
+    {
+      "person_imdb_id": "nm0703318",
+      "name": "Milo Quesada",
+      "sequence": 6,
+      "roles": [
+        "Italian Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2415919",
+      "name": "Anthony Marsh",
+      "sequence": 7,
+      "roles": [
+        "Announcer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0894949",
+      "name": "Marie Versini",
+      "sequence": 8,
+      "roles": [
+        "Sesia Machin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0733433",
+      "name": "Margrete Robsahm",
+      "sequence": 9,
+      "roles": [
+        "Lea Anderson"
+      ],
+      "notes": "(as Margrete Robsahn)"
+    },
+    {
+      "person_imdb_id": "nm0339565",
+      "name": "Christina Gregg",
+      "sequence": 10,
+      "roles": [
+        "Daphne"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0022675",
+      "name": "B\u00e9atrice Altariba",
+      "sequence": 11,
+      "roles": [
+        "Monique"
+      ],
+      "notes": "(as Beatrice Altariba)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0132790",
       "name": "R. Wright Campbell",
+      "group": 0,
       "sequence": 0,
-      "notes": "(writer)",
-      "group_id": 0
+      "notes": "(writer)"
     }
   ],
   "release_date": "1963-01-01",

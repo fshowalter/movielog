@@ -1,128 +1,6 @@
 {
   "imdb_id": "tt0021636",
   "sort_title": "Bad Sister (1931)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0619261",
-      "name": "Conrad Nagel",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Dick Lindley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289253",
-      "name": "Sidney Fox",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Marianne Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000012",
-      "name": "Bette Davis",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Laura Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Valentine Corliss"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0935415",
-      "name": "Charles Winninger",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mr. Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242562",
-      "name": "Emma Dunn",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mrs. Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0686032",
-      "name": "Zasu Pitts",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Minnie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838843",
-      "name": "Slim Summerville",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Sam"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0729991",
-      "name": "Bert Roach",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Wade Trumbull"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0243774",
-      "name": "David Durand",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Hedrick Madison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0089702",
-      "name": "Sammy Blum",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dave - Townsman",
-        "Investor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0316794",
-      "name": "Charles Giblyn",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Townsman",
-        "Investor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0909228",
-      "name": "Will Walling",
-      "sequence": 19,
-      "notes": "",
-      "roles": [
-        "Townsman",
-        "Investor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0377126",
@@ -131,62 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0619261",
+      "name": "Conrad Nagel",
+      "sequence": 0,
+      "roles": [
+        "Dr. Dick Lindley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289253",
+      "name": "Sidney Fox",
+      "sequence": 1,
+      "roles": [
+        "Marianne Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000012",
+      "name": "Bette Davis",
+      "sequence": 2,
+      "roles": [
+        "Laura Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 3,
+      "roles": [
+        "Valentine Corliss"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0935415",
+      "name": "Charles Winninger",
+      "sequence": 4,
+      "roles": [
+        "Mr. Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242562",
+      "name": "Emma Dunn",
+      "sequence": 5,
+      "roles": [
+        "Mrs. Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0686032",
+      "name": "Zasu Pitts",
+      "sequence": 6,
+      "roles": [
+        "Minnie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838843",
+      "name": "Slim Summerville",
+      "sequence": 7,
+      "roles": [
+        "Sam"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0729991",
+      "name": "Bert Roach",
+      "sequence": 8,
+      "roles": [
+        "Wade Trumbull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0243774",
+      "name": "David Durand",
+      "sequence": 9,
+      "roles": [
+        "Hedrick Madison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0089702",
+      "name": "Sammy Blum",
+      "sequence": 12,
+      "roles": [
+        "Dave - Townsman",
+        "Investor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0316794",
+      "name": "Charles Giblyn",
+      "sequence": 15,
+      "roles": [
+        "Townsman",
+        "Investor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0909228",
+      "name": "Will Walling",
+      "sequence": 19,
+      "roles": [
+        "Townsman",
+        "Investor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0461348",
       "name": "Edwin H. Knopf",
+      "group": 0,
       "sequence": 0,
-      "notes": "(adaptation) (as Edwin Knopf)",
-      "group_id": 0
+      "notes": "(adaptation) (as Edwin Knopf)"
     },
     {
       "person_imdb_id": "nm0461348",
       "name": "Edwin H. Knopf",
+      "group": 1,
       "sequence": 0,
-      "notes": "(dialogue) (as Edwin Knopf)",
-      "group_id": 1
+      "notes": "(dialogue) (as Edwin Knopf)"
     },
     {
       "person_imdb_id": "nm0461348",
       "name": "Edwin H. Knopf",
+      "group": 2,
       "sequence": 0,
-      "notes": "(screenplay) (as Edwin Knopf)",
-      "group_id": 2
+      "notes": "(screenplay) (as Edwin Knopf)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
+      "group": 3,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 3
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0715723",
       "name": "Tom Reed",
+      "group": 4,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 4
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0775419",
       "name": "Raymond L. Schrock",
+      "group": 5,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 5
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0775419",
       "name": "Raymond L. Schrock",
+      "group": 6,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 6
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0850483",
       "name": "Booth Tarkington",
+      "group": 7,
       "sequence": 0,
-      "notes": "(novel \"The Flirt\")",
-      "group_id": 7
+      "notes": "(novel \"The Flirt\")"
     }
   ],
   "release_date": "1931-03-29",

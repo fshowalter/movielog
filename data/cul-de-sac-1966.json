@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0060268",
   "sort_title": "Cul-de-sac (1966)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000587",
-      "name": "Donald Pleasence",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "George"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233753",
-      "name": "Fran\u00e7oise Dorl\u00e9ac",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Teresa"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0822034",
-      "name": "Lionel Stander",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Richard"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0532290",
-      "name": "Jack MacGowran",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Albie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702928",
-      "name": "Iain Quarrier",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Christopher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0838875",
-      "name": "Geoffrey Sumner",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Christopher's Father"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0396881",
-      "name": "Renee Houston",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Christopher's Mother"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233923",
-      "name": "Robert Dorning",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Philip Fairweather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0443811",
-      "name": "Marie Kean",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Marion Fairweather"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0291598",
-      "name": "William Franklyn",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Cecil"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000302",
-      "name": "Jacqueline Bisset",
-      "sequence": 10,
-      "notes": "(as Jackie Bisset)",
-      "roles": [
-        "Jacqueline"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0216350",
-      "name": "Trevor Delaney",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Horace"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000591",
@@ -119,20 +9,130 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000587",
+      "name": "Donald Pleasence",
+      "sequence": 0,
+      "roles": [
+        "George"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233753",
+      "name": "Fran\u00e7oise Dorl\u00e9ac",
+      "sequence": 1,
+      "roles": [
+        "Teresa"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0822034",
+      "name": "Lionel Stander",
+      "sequence": 2,
+      "roles": [
+        "Richard"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0532290",
+      "name": "Jack MacGowran",
+      "sequence": 3,
+      "roles": [
+        "Albie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702928",
+      "name": "Iain Quarrier",
+      "sequence": 4,
+      "roles": [
+        "Christopher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838875",
+      "name": "Geoffrey Sumner",
+      "sequence": 5,
+      "roles": [
+        "Christopher's Father"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0396881",
+      "name": "Renee Houston",
+      "sequence": 6,
+      "roles": [
+        "Christopher's Mother"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233923",
+      "name": "Robert Dorning",
+      "sequence": 7,
+      "roles": [
+        "Philip Fairweather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0443811",
+      "name": "Marie Kean",
+      "sequence": 8,
+      "roles": [
+        "Marion Fairweather"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0291598",
+      "name": "William Franklyn",
+      "sequence": 9,
+      "roles": [
+        "Cecil"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000302",
+      "name": "Jacqueline Bisset",
+      "sequence": 10,
+      "roles": [
+        "Jacqueline"
+      ],
+      "notes": "(as Jackie Bisset)"
+    },
+    {
+      "person_imdb_id": "nm0216350",
+      "name": "Trevor Delaney",
+      "sequence": 11,
+      "roles": [
+        "Horace"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0000591",
       "name": "Roman Polanski",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     },
     {
       "person_imdb_id": "nm0102722",
       "name": "G\u00e9rard Brach",
-      "sequence": 0,
-      "notes": "(original screenplay) (as Gerard Brach)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(original screenplay) (as Gerard Brach)"
     }
   ],
   "release_date": "1966-06-02",

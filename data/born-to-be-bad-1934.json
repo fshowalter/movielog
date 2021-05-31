@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0024906",
   "sort_title": "Born to Be Bad (1934)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0949835",
-      "name": "Loretta Young",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Letty Strong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000026",
-      "name": "Cary Grant",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Malcolm Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445470",
-      "name": "Jackie Kelk",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mickey Strong"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0122783",
-      "name": "Marion Burns",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mrs. Alyce Trevor"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0871287",
-      "name": "Henry Travers",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Fuzzy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367670",
-      "name": "Paul Harvey",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Attorney Brian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0394477",
-      "name": "Russell Hopton",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Steve Karns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0337894",
-      "name": "Harry Green",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Adolph - Letty's Lawyer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792514",
@@ -89,13 +15,87 @@
       "notes": "(uncredited)"
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0949835",
+      "name": "Loretta Young",
+      "sequence": 0,
+      "roles": [
+        "Letty Strong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000026",
+      "name": "Cary Grant",
+      "sequence": 1,
+      "roles": [
+        "Malcolm Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445470",
+      "name": "Jackie Kelk",
+      "sequence": 2,
+      "roles": [
+        "Mickey Strong"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0122783",
+      "name": "Marion Burns",
+      "sequence": 3,
+      "roles": [
+        "Mrs. Alyce Trevor"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0871287",
+      "name": "Henry Travers",
+      "sequence": 4,
+      "roles": [
+        "Fuzzy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367670",
+      "name": "Paul Harvey",
+      "sequence": 5,
+      "roles": [
+        "Attorney Brian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0394477",
+      "name": "Russell Hopton",
+      "sequence": 6,
+      "roles": [
+        "Steve Karns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0337894",
+      "name": "Harry Green",
+      "sequence": 7,
+      "roles": [
+        "Adolph - Letty's Lawyer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0336339",
       "name": "Ralph Graves",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story and screenplay)",
-      "group_id": 0
+      "notes": "(story and screenplay)"
     }
   ],
   "release_date": "1934-05-18",

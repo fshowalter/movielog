@@ -1,158 +1,6 @@
 {
   "imdb_id": "tt0043264",
   "sort_title": "Adventures of Captain Fabian (1951)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Michael Fabian"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0696163",
-      "name": "Micheline Presle",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Lea Mariotte",
-        "Micheline Presle in New Orleans Adventure)"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "George Brissac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001547",
-      "name": "Agnes Moorehead",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Aunt Jezebel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289858",
-      "name": "Victor Francen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Henri Brissac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0313899",
-      "name": "Jim G\u00e9rald",
-      "sequence": 5,
-      "notes": "(as Jim Gerald)",
-      "roles": [
-        "Commissioner Germain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543924",
-      "name": "H\u00e9l\u00e9na Manson",
-      "sequence": 6,
-      "notes": "(as Helena Manson)",
-      "roles": [
-        "Josephine"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0894677",
-      "name": "Howard Vernon",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Emile"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0088436",
-      "name": "Roger Blin",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Philippe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0131301",
-      "name": "Valentine Camax",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Governess"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0281270",
-      "name": "Georges Flateau",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Judge Jean Brissac"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0041335",
-      "name": "Zanie Campan",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Cynthia Wintrop"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0620513",
-      "name": "Reggie Nalder",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Constant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0431169",
-      "name": "Marcel Journet",
-      "sequence": 13,
-      "notes": "",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0703056",
-      "name": "Gilles Qu\u00e9ant",
-      "sequence": 14,
-      "notes": "(as Gilles Queant)",
-      "roles": []
-    },
-    {
-      "person_imdb_id": "nm0269485",
-      "name": "Charles Fawcett",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Defense Counsel"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0100950",
-      "name": "Aubrey Bower",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Sailor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0550777",
@@ -167,20 +15,172 @@
       "notes": "(uncredited)"
     }
   ],
-  "writers": [
+  "cast": [
     {
       "person_imdb_id": "nm0001224",
       "name": "Errol Flynn",
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "roles": [
+        "Capt. Michael Fabian"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0696163",
+      "name": "Micheline Presle",
+      "sequence": 1,
+      "roles": [
+        "Lea Mariotte",
+        "Micheline Presle in New Orleans Adventure)"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 2,
+      "roles": [
+        "George Brissac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001547",
+      "name": "Agnes Moorehead",
+      "sequence": 3,
+      "roles": [
+        "Aunt Jezebel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289858",
+      "name": "Victor Francen",
+      "sequence": 4,
+      "roles": [
+        "Henri Brissac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0313899",
+      "name": "Jim G\u00e9rald",
+      "sequence": 5,
+      "roles": [
+        "Commissioner Germain"
+      ],
+      "notes": "(as Jim Gerald)"
+    },
+    {
+      "person_imdb_id": "nm0543924",
+      "name": "H\u00e9l\u00e9na Manson",
+      "sequence": 6,
+      "roles": [
+        "Josephine"
+      ],
+      "notes": "(as Helena Manson)"
+    },
+    {
+      "person_imdb_id": "nm0894677",
+      "name": "Howard Vernon",
+      "sequence": 7,
+      "roles": [
+        "Emile"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0088436",
+      "name": "Roger Blin",
+      "sequence": 8,
+      "roles": [
+        "Philippe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131301",
+      "name": "Valentine Camax",
+      "sequence": 9,
+      "roles": [
+        "Governess"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0281270",
+      "name": "Georges Flateau",
+      "sequence": 10,
+      "roles": [
+        "Judge Jean Brissac"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0041335",
+      "name": "Zanie Campan",
+      "sequence": 11,
+      "roles": [
+        "Cynthia Wintrop"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0620513",
+      "name": "Reggie Nalder",
+      "sequence": 12,
+      "roles": [
+        "Constant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0431169",
+      "name": "Marcel Journet",
+      "sequence": 13,
+      "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0703056",
+      "name": "Gilles Qu\u00e9ant",
+      "sequence": 14,
+      "roles": [],
+      "notes": "(as Gilles Queant)"
+    },
+    {
+      "person_imdb_id": "nm0269485",
+      "name": "Charles Fawcett",
+      "sequence": 15,
+      "roles": [
+        "Defense Counsel"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0100950",
+      "name": "Aubrey Bower",
+      "sequence": 16,
+      "roles": [
+        "Sailor"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0788356",
       "name": "Robert T. Shannon",
+      "group": 1,
       "sequence": 0,
-      "notes": "(novel) (uncredited)",
-      "group_id": 1
+      "notes": "(novel) (uncredited)"
     }
   ],
   "release_date": "1951-03-21",

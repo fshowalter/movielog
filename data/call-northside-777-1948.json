@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0040202",
   "sort_title": "Call Northside 777 (1948)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000071",
-      "name": "James Stewart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "P.J. McNeal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002017",
-      "name": "Richard Conte",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Frank Wiecek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002011",
-      "name": "Lee J. Cobb",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Brian Kelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907785",
-      "name": "Helen Walker",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Laura McNeal"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0306608",
-      "name": "Betty Garde",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Wanda Skutnik"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0651452",
-      "name": "Kasia Orzazewski",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Tillie Wiecek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0207390",
-      "name": "Joanne De Bergh",
-      "sequence": 6,
-      "notes": "(as Joanne de Bergh)",
-      "roles": [
-        "Helen Wiecek"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0808473",
-      "name": "Howard Smith",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "K.L. Palmer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647752",
-      "name": "Moroni Olsen",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Parole Board Chairman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0570615",
-      "name": "John McIntire",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Sam Faxon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367670",
-      "name": "Paul Harvey",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Martin Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103423",
-      "name": "Truman Bradley",
-      "sequence": 15,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0135330",
-      "name": "Al Capone",
-      "sequence": 17,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Capone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0226926",
-      "name": "John Dillinger",
-      "sequence": 21,
-      "notes": "(uncredited) (archiveFootage)",
-      "roles": [
-        "Dillinger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0368871",
@@ -137,48 +9,149 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000071",
+      "name": "James Stewart",
+      "sequence": 0,
+      "roles": [
+        "P.J. McNeal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002017",
+      "name": "Richard Conte",
+      "sequence": 1,
+      "roles": [
+        "Frank Wiecek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002011",
+      "name": "Lee J. Cobb",
+      "sequence": 2,
+      "roles": [
+        "Brian Kelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907785",
+      "name": "Helen Walker",
+      "sequence": 3,
+      "roles": [
+        "Laura McNeal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0306608",
+      "name": "Betty Garde",
+      "sequence": 4,
+      "roles": [
+        "Wanda Skutnik"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0651452",
+      "name": "Kasia Orzazewski",
+      "sequence": 5,
+      "roles": [
+        "Tillie Wiecek"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0207390",
+      "name": "Joanne De Bergh",
+      "sequence": 6,
+      "roles": [
+        "Helen Wiecek"
+      ],
+      "notes": "(as Joanne de Bergh)"
+    },
+    {
+      "person_imdb_id": "nm0808473",
+      "name": "Howard Smith",
+      "sequence": 7,
+      "roles": [
+        "K.L. Palmer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647752",
+      "name": "Moroni Olsen",
+      "sequence": 8,
+      "roles": [
+        "Parole Board Chairman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0570615",
+      "name": "John McIntire",
+      "sequence": 9,
+      "roles": [
+        "Sam Faxon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367670",
+      "name": "Paul Harvey",
+      "sequence": 10,
+      "roles": [
+        "Martin Burns"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0128332",
       "name": "Jerome Cady",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0237225",
       "name": "Jay Dratler",
-      "sequence": 0,
-      "notes": "(screen play)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0389002",
       "name": "Leonard Hoffman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0721913",
       "name": "Quentin Reynolds",
-      "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0570215",
       "name": "James P. McGuire",
+      "group": 2,
       "sequence": 0,
-      "notes": "(based on articles by)",
-      "group_id": 2
+      "notes": "(based on articles by)"
     },
     {
       "person_imdb_id": "nm1098613",
       "name": "Jack McPhaul",
+      "group": 3,
       "sequence": 0,
-      "notes": "(articles) (uncredited)",
-      "group_id": 3
+      "notes": "(articles) (uncredited)"
     }
   ],
   "release_date": "1948-02-13",

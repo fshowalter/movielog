@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0099180",
   "sort_title": "Bride of Re-Animator (1990)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001062",
-      "name": "Jeffrey Combs",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. Herbert West"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007940",
-      "name": "Bruce Abbott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Dan Cain"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0427779",
-      "name": "Claude Earl Jones",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Leslie Chapham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0007197",
-      "name": "Fabiana Udenio",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Francesca Danelli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301834",
-      "name": "David Gale",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Carl Hill"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0455681",
-      "name": "Kathleen Kinmont",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Gloria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003857",
-      "name": "Mel Stewart",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Dr. Graves"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0128514",
-      "name": "Irene Cagen",
-      "sequence": 7,
-      "notes": "(as Irene Forrest)",
-      "roles": [
-        "Nurse Shelley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833499",
-      "name": "Michael Strasser",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Ernest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0791057",
-      "name": "Mary Sheldon",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Meg Halsey"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0877735",
-      "name": "Marge Turner",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Elizabeth Chapham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0499253",
-      "name": "Johnny Legend",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Skinny Corpse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0125963",
-      "name": "David Bynum",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Black Corpse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0185971",
-      "name": "Noble Craig",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Crypt Creature"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662419",
-      "name": "Kim Parker",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Crypt Creature"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0773741",
-      "name": "Charles Schneider",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Crypt Creature"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714491",
-      "name": "Rebeca Scott",
-      "sequence": 16,
-      "notes": "(as Rebeca Recio)",
-      "roles": [
-        "The Re-Animated: Crypt Creature"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0262858",
-      "name": "Jay Evans",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "The Re-Animated: Crypt Creature"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0951206",
@@ -173,27 +9,191 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001062",
+      "name": "Jeffrey Combs",
+      "sequence": 0,
+      "roles": [
+        "Dr. Herbert West"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007940",
+      "name": "Bruce Abbott",
+      "sequence": 1,
+      "roles": [
+        "Dr. Dan Cain"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0427779",
+      "name": "Claude Earl Jones",
+      "sequence": 2,
+      "roles": [
+        "Lt. Leslie Chapham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0007197",
+      "name": "Fabiana Udenio",
+      "sequence": 3,
+      "roles": [
+        "Francesca Danelli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301834",
+      "name": "David Gale",
+      "sequence": 4,
+      "roles": [
+        "Dr. Carl Hill"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0455681",
+      "name": "Kathleen Kinmont",
+      "sequence": 5,
+      "roles": [
+        "Gloria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003857",
+      "name": "Mel Stewart",
+      "sequence": 6,
+      "roles": [
+        "Dr. Graves"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0128514",
+      "name": "Irene Cagen",
+      "sequence": 7,
+      "roles": [
+        "Nurse Shelley"
+      ],
+      "notes": "(as Irene Forrest)"
+    },
+    {
+      "person_imdb_id": "nm0833499",
+      "name": "Michael Strasser",
+      "sequence": 8,
+      "roles": [
+        "Ernest"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0791057",
+      "name": "Mary Sheldon",
+      "sequence": 9,
+      "roles": [
+        "Meg Halsey"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0877735",
+      "name": "Marge Turner",
+      "sequence": 10,
+      "roles": [
+        "The Re-Animated: Elizabeth Chapham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0499253",
+      "name": "Johnny Legend",
+      "sequence": 11,
+      "roles": [
+        "The Re-Animated: Skinny Corpse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0125963",
+      "name": "David Bynum",
+      "sequence": 12,
+      "roles": [
+        "The Re-Animated: Black Corpse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0185971",
+      "name": "Noble Craig",
+      "sequence": 13,
+      "roles": [
+        "The Re-Animated: Crypt Creature"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662419",
+      "name": "Kim Parker",
+      "sequence": 14,
+      "roles": [
+        "The Re-Animated: Crypt Creature"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0773741",
+      "name": "Charles Schneider",
+      "sequence": 15,
+      "roles": [
+        "The Re-Animated: Crypt Creature"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714491",
+      "name": "Rebeca Scott",
+      "sequence": 16,
+      "roles": [
+        "The Re-Animated: Crypt Creature"
+      ],
+      "notes": "(as Rebeca Recio)"
+    },
+    {
+      "person_imdb_id": "nm0262858",
+      "name": "Jay Evans",
+      "sequence": 17,
+      "roles": [
+        "The Re-Animated: Crypt Creature"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0296779",
       "name": "Rick Fry",
+      "group": 0,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 0
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0445319",
       "name": "Woody Keith",
+      "group": 1,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 1
+      "notes": "()"
     },
     {
       "person_imdb_id": "nm0951206",
       "name": "Brian Yuzna",
+      "group": 3,
       "sequence": 0,
-      "notes": "()",
-      "group_id": 3
+      "notes": "()"
     }
   ],
   "release_date": "1990-01-01",

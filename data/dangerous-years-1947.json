@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0040267",
   "sort_title": "Dangerous Years (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0356890",
-      "name": "Billy Halop",
-      "sequence": 0,
-      "notes": "(as William Halop)",
-      "roles": [
-        "Danny Jones"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065717",
-      "name": "Scotty Beckett",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Willy Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0301348",
-      "name": "Richard Gaines",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Edgar Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002896",
-      "name": "Ann E. Todd",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Doris Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0184578",
-      "name": "Jerome Cowan",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Weston"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0378134",
-      "name": "Anabel Shaw",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Connie Burns"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382718",
-      "name": "Darryl Hickman",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Leo Emerson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0601129",
-      "name": "Dickie Moore",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gene Spooner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0367405",
-      "name": "Harry Harvey Jr.",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Phil Kenny"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0833645",
-      "name": "Gil Stratton",
-      "sequence": 9,
-      "notes": "(as Gil Stratton Jr.)",
-      "roles": [
-        "Tammy McDonald"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0788288",
-      "name": "Harry Shannon",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Judge Raymond"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0193321",
-      "name": "Donald Curtis",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Jeff Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0899880",
-      "name": "Joseph Vitale",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "August Miller"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000054",
-      "name": "Marilyn Monroe",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Evie - Waitress at the Gopher Hole"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117194",
-      "name": "Nana Bryant",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Miss Templeton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0448366",
-      "name": "Tom Kennedy",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Adamson"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0682734",
@@ -155,13 +9,159 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0356890",
+      "name": "Billy Halop",
+      "sequence": 0,
+      "roles": [
+        "Danny Jones"
+      ],
+      "notes": "(as William Halop)"
+    },
+    {
+      "person_imdb_id": "nm0065717",
+      "name": "Scotty Beckett",
+      "sequence": 1,
+      "roles": [
+        "Willy Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0301348",
+      "name": "Richard Gaines",
+      "sequence": 2,
+      "roles": [
+        "Edgar Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002896",
+      "name": "Ann E. Todd",
+      "sequence": 3,
+      "roles": [
+        "Doris Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0184578",
+      "name": "Jerome Cowan",
+      "sequence": 4,
+      "roles": [
+        "Weston"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0378134",
+      "name": "Anabel Shaw",
+      "sequence": 5,
+      "roles": [
+        "Connie Burns"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382718",
+      "name": "Darryl Hickman",
+      "sequence": 6,
+      "roles": [
+        "Leo Emerson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0601129",
+      "name": "Dickie Moore",
+      "sequence": 7,
+      "roles": [
+        "Gene Spooner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0367405",
+      "name": "Harry Harvey Jr.",
+      "sequence": 8,
+      "roles": [
+        "Phil Kenny"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0833645",
+      "name": "Gil Stratton",
+      "sequence": 9,
+      "roles": [
+        "Tammy McDonald"
+      ],
+      "notes": "(as Gil Stratton Jr.)"
+    },
+    {
+      "person_imdb_id": "nm0788288",
+      "name": "Harry Shannon",
+      "sequence": 10,
+      "roles": [
+        "Judge Raymond"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0193321",
+      "name": "Donald Curtis",
+      "sequence": 11,
+      "roles": [
+        "Jeff Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0899880",
+      "name": "Joseph Vitale",
+      "sequence": 12,
+      "roles": [
+        "August Miller"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000054",
+      "name": "Marilyn Monroe",
+      "sequence": 13,
+      "roles": [
+        "Evie - Waitress at the Gopher Hole"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117194",
+      "name": "Nana Bryant",
+      "sequence": 14,
+      "roles": [
+        "Miss Templeton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0448366",
+      "name": "Tom Kennedy",
+      "sequence": 15,
+      "roles": [
+        "Adamson"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0067801",
       "name": "Arnold Belgard",
+      "group": 0,
       "sequence": 0,
-      "notes": "(original screenplay)",
-      "group_id": 0
+      "notes": "(original screenplay)"
     }
   ],
   "release_date": "1947-12-07",

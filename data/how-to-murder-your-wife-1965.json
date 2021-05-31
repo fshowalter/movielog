@@ -1,171 +1,6 @@
 {
   "imdb_id": "tt0058212",
   "sort_title": "How to Murder Your Wife (1965)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000493",
-      "name": "Jack Lemmon",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Stanley Ford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0514059",
-      "name": "Virna Lisi",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Mrs. Ford"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0856103",
-      "name": "Terry-Thomas",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Charles"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0562305",
-      "name": "Eddie Mayehoff",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Harold Lampson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872456",
-      "name": "Claire Trevor",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Edna"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0085782",
-      "name": "Sidney Blackmer",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Judge Blackstone"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0795289",
-      "name": "Max Showalter",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Tobey Rawlins"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0016776",
-      "name": "Jack Albertson",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Dr. Bentley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0926897",
-      "name": "Mary Wickes",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Harold's Secretary"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382003",
-      "name": "Alan Hewitt",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "District Attorney"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445868",
-      "name": "Barry Kelley",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Club Member in Steam Room"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0117252",
-      "name": "William Bryant",
-      "sequence": 11,
-      "notes": "(as Bill Bryant)",
-      "roles": [
-        "Construction Worker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0060789",
-      "name": "Charles Bateman",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Club Member in Steam Room"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0269067",
-      "name": "Edward Faulkner",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Club Member in Steam Room",
-        "Party Guest"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0318142",
-      "name": "Lauren Gilbert",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Men's Club Manager"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0920831",
-      "name": "Howard Wendell",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "The Trial Judge"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0223556",
-      "name": "Khigh Dhiegh",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Bald Actor Playing Thug"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0870145",
-      "name": "K.C. Townsend",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Party Girl"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0703689",
@@ -174,13 +9,177 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000493",
+      "name": "Jack Lemmon",
+      "sequence": 0,
+      "roles": [
+        "Stanley Ford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0514059",
+      "name": "Virna Lisi",
+      "sequence": 1,
+      "roles": [
+        "Mrs. Ford"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0856103",
+      "name": "Terry-Thomas",
+      "sequence": 2,
+      "roles": [
+        "Charles"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0562305",
+      "name": "Eddie Mayehoff",
+      "sequence": 3,
+      "roles": [
+        "Harold Lampson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0872456",
+      "name": "Claire Trevor",
+      "sequence": 4,
+      "roles": [
+        "Edna"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0085782",
+      "name": "Sidney Blackmer",
+      "sequence": 5,
+      "roles": [
+        "Judge Blackstone"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0795289",
+      "name": "Max Showalter",
+      "sequence": 6,
+      "roles": [
+        "Tobey Rawlins"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0016776",
+      "name": "Jack Albertson",
+      "sequence": 7,
+      "roles": [
+        "Dr. Bentley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0926897",
+      "name": "Mary Wickes",
+      "sequence": 8,
+      "roles": [
+        "Harold's Secretary"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382003",
+      "name": "Alan Hewitt",
+      "sequence": 9,
+      "roles": [
+        "District Attorney"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445868",
+      "name": "Barry Kelley",
+      "sequence": 10,
+      "roles": [
+        "Club Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0117252",
+      "name": "William Bryant",
+      "sequence": 11,
+      "roles": [
+        "Club Member"
+      ],
+      "notes": "(as Bill Bryant)"
+    },
+    {
+      "person_imdb_id": "nm0060789",
+      "name": "Charles Bateman",
+      "sequence": 12,
+      "roles": [
+        "Club Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0269067",
+      "name": "Edward Faulkner",
+      "sequence": 13,
+      "roles": [
+        "Club Member"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0318142",
+      "name": "Lauren Gilbert",
+      "sequence": 14,
+      "roles": [
+        "Men's Club Manager"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0920831",
+      "name": "Howard Wendell",
+      "sequence": 15,
+      "roles": [
+        "The Trial Judge"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0223556",
+      "name": "Khigh Dhiegh",
+      "sequence": 16,
+      "roles": [
+        "Bald Actor Playing Thug"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0870145",
+      "name": "K.C. Townsend",
+      "sequence": 17,
+      "roles": [
+        "Party Girl"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0043480",
       "name": "George Axelrod",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     }
   ],
   "release_date": "1965-01-26",

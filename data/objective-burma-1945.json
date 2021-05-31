@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0037954",
   "sort_title": "Objective, Burma! (1945)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001224",
-      "name": "Errol Flynn",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. Nelson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0113769",
-      "name": "James Brown",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "SSgt. Treacy"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0697733",
-      "name": "William Prince",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Lt. Sid Jacobs"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0864869",
-      "name": "George Tobias",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Cpl. Gabby Gordon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0401434",
-      "name": "Henry Hull",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mark Williams"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0027566",
-      "name": "Warner Anderson",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Col. J. Carter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023569",
-      "name": "John Alvin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Hogan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0828594",
-      "name": "Mark Stevens",
-      "sequence": 7,
-      "notes": "(as Stephen Richards)",
-      "roles": [
-        "Lt. Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0258757",
-      "name": "Richard Erdman",
-      "sequence": 8,
-      "notes": "(as Dick Erdman)",
-      "roles": [
-        "Pvt. Nebraska Hooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0103423",
-      "name": "Truman Bradley",
-      "sequence": 15,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator - Opening Sequence"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0909825",
@@ -101,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001224",
+      "name": "Errol Flynn",
+      "sequence": 0,
+      "roles": [
+        "Capt. Nelson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0113769",
+      "name": "James Brown",
+      "sequence": 1,
+      "roles": [
+        "SSgt. Treacy"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0697733",
+      "name": "William Prince",
+      "sequence": 2,
+      "roles": [
+        "Lt. Sid Jacobs"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0864869",
+      "name": "George Tobias",
+      "sequence": 3,
+      "roles": [
+        "Cpl. Gabby Gordon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0401434",
+      "name": "Henry Hull",
+      "sequence": 4,
+      "roles": [
+        "Mark Williams"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0027566",
+      "name": "Warner Anderson",
+      "sequence": 5,
+      "roles": [
+        "Col. J. Carter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023569",
+      "name": "John Alvin",
+      "sequence": 6,
+      "roles": [
+        "Hogan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0828594",
+      "name": "Mark Stevens",
+      "sequence": 7,
+      "roles": [
+        "Lt. Barker"
+      ],
+      "notes": "(as Stephen Richards)"
+    },
+    {
+      "person_imdb_id": "nm0258757",
+      "name": "Richard Erdman",
+      "sequence": 8,
+      "roles": [
+        "Pvt. Nebraska Hooper"
+      ],
+      "notes": "(as Dick Erdman)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0532030",
       "name": "Ranald MacDougall",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0170660",
       "name": "Lester Cole",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0078827",
       "name": "Alvah Bessie",
+      "group": 1,
       "sequence": 0,
-      "notes": "(original story)",
-      "group_id": 1
+      "notes": "(original story)"
     }
   ],
   "release_date": "1945-01-26",

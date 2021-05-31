@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0072876",
   "sort_title": "Diagnosis: Murder (1974)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0277424",
-      "name": "Jon Finch",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Det. Insp. Lomax"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002096",
-      "name": "Judy Geeson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Helen"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Stephen Hayward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0065777",
-      "name": "Tony Beckley",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Sgt. Greene"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0358251",
-      "name": "Dilys Hamlett",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Julia Hayward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0581457",
-      "name": "Jane Merrow",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Mary Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0420010",
-      "name": "Colin Jeavons",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Bob Dawson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0872366",
-      "name": "David Trevena",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0129056",
-      "name": "Adrian Cairns",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0627433",
-      "name": "Daphne Neville",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Nurse Fisher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0810409",
-      "name": "Hugh Smith-Marriott",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Chapman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0875880",
-      "name": "Hubert Tucker",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Ronalds"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0486378",
-      "name": "David Langford",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Gray"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0370868",
@@ -128,27 +9,146 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0277424",
+      "name": "Jon Finch",
+      "sequence": 0,
+      "roles": [
+        "Det. Insp. Lomax"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002096",
+      "name": "Judy Geeson",
+      "sequence": 1,
+      "roles": [
+        "Helen"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 2,
+      "roles": [
+        "Dr. Stephen Hayward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0065777",
+      "name": "Tony Beckley",
+      "sequence": 3,
+      "roles": [
+        "Sgt. Greene"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0358251",
+      "name": "Dilys Hamlett",
+      "sequence": 4,
+      "roles": [
+        "Julia Hayward"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0581457",
+      "name": "Jane Merrow",
+      "sequence": 5,
+      "roles": [
+        "Mary Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0420010",
+      "name": "Colin Jeavons",
+      "sequence": 6,
+      "roles": [
+        "Bob Dawson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0872366",
+      "name": "David Trevena",
+      "sequence": 7,
+      "roles": [
+        "Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0129056",
+      "name": "Adrian Cairns",
+      "sequence": 8,
+      "roles": [
+        "Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0627433",
+      "name": "Daphne Neville",
+      "sequence": 9,
+      "roles": [
+        "Nurse Fisher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0810409",
+      "name": "Hugh Smith-Marriott",
+      "sequence": 10,
+      "roles": [
+        "Dr. Chapman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0875880",
+      "name": "Hubert Tucker",
+      "sequence": 11,
+      "roles": [
+        "Ronalds"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0486378",
+      "name": "David Langford",
+      "sequence": 12,
+      "roles": [
+        "Gray"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0324578",
       "name": "Ivan Goff",
+      "group": 0,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 0
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0505247",
       "name": "Philip Levene",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0730850",
       "name": "Ben Roberts",
+      "group": 2,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 2
+      "notes": "(written by)"
     }
   ],
   "release_date": "1974-01-01",

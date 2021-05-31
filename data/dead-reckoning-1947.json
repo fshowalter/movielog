@@ -1,107 +1,6 @@
 {
   "imdb_id": "tt0039305",
   "sort_title": "Dead Reckoning (1947)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Capt. 'Rip' Murdock"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0779507",
-      "name": "Lizabeth Scott",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "'Dusty' Chandler"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0138885",
-      "name": "Morris Carnovsky",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Martinelli"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0133802",
-      "name": "Charles Cane",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lt. Kincaid"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0697733",
-      "name": "William Prince",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Sgt. Johnny Drake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0588922",
-      "name": "Marvin Miller",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Krause"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0285922",
-      "name": "Wallace Ford",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "McGee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0068257",
-      "name": "James Bell",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Father Logan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0151370",
-      "name": "George Chandler",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Louis Ord"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0286704",
-      "name": "William Forrest",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Lt. Col. Simpson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0199276",
-      "name": "Ruby Dandridge",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Hyacinth"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0188669",
@@ -110,45 +9,147 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Capt. 'Rip' Murdock"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0779507",
+      "name": "Lizabeth Scott",
+      "sequence": 1,
+      "roles": [
+        "Coral 'Dusty'",
+        "'Mike' Chandler"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0138885",
+      "name": "Morris Carnovsky",
+      "sequence": 2,
+      "roles": [
+        "Martinelli"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0133802",
+      "name": "Charles Cane",
+      "sequence": 3,
+      "roles": [
+        "Lt. Kincaid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0697733",
+      "name": "William Prince",
+      "sequence": 4,
+      "roles": [
+        "Sgt. Johnny Drake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0588922",
+      "name": "Marvin Miller",
+      "sequence": 5,
+      "roles": [
+        "Krause"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0285922",
+      "name": "Wallace Ford",
+      "sequence": 6,
+      "roles": [
+        "McGee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0068257",
+      "name": "James Bell",
+      "sequence": 7,
+      "roles": [
+        "Father Logan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0151370",
+      "name": "George Chandler",
+      "sequence": 8,
+      "roles": [
+        "Louis Ord"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0286704",
+      "name": "William Forrest",
+      "sequence": 9,
+      "roles": [
+        "Lt. Col. Simpson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0199276",
+      "name": "Ruby Dandridge",
+      "sequence": 10,
+      "roles": [
+        "Hyacinth"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0308177",
       "name": "Oliver H.P. Garrett",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0279795",
       "name": "Steve Fisher",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0729694",
       "name": "Allen Rivkin",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story) (as Gerald Adams)",
-      "group_id": 2
+      "notes": "(story) (as Gerald Adams)"
     },
     {
       "person_imdb_id": "nm0081126",
       "name": "Sidney Biddell",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "group": 2,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
-  "release_date": "1947-01-18",
-  "release_date_notes": "(San Francisco, California)",
+  "release_date": "1947-01-15",
+  "release_date_notes": "(Miami, Florida) (premiere)",
   "countries": [
     "United States"
   ]

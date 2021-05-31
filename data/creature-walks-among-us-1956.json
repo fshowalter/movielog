@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt0049103",
   "sort_title": "Creature Walks Among Us (1956)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0607504",
-      "name": "Jeff Morrow",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dr. William Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0714155",
-      "name": "Rex Reason",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dr. Thomas Morgan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0811357",
-      "name": "Leigh Snowden",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Marcia Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0658250",
-      "name": "Gregg Palmer",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jed Grant"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0543939",
-      "name": "Maurice Manson",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Dr. Borg"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0712588",
-      "name": "James Rawley",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Johnson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0573005",
-      "name": "David McMahon",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Captain Stanley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0276452",
-      "name": "Paul Fierro",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Morteno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0596592",
-      "name": "Lillian Molieri",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Mrs. Morteno"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0399777",
-      "name": "Larry Hudson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "State Trooper"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0153759",
-      "name": "Frank Chase",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Steward"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0115202",
-      "name": "Ricou Browning",
-      "sequence": 11,
-      "notes": "(In Water) (uncredited)",
-      "roles": [
-        "The Gill Man"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0576353",
-      "name": "Don Megowan",
-      "sequence": 12,
-      "notes": "(On Land) (uncredited)",
-      "roles": [
-        "The Gill Man"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0792822",
@@ -128,20 +9,121 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0607504",
+      "name": "Jeff Morrow",
+      "sequence": 0,
+      "roles": [
+        "Dr. William Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0714155",
+      "name": "Rex Reason",
+      "sequence": 1,
+      "roles": [
+        "Dr. Thomas Morgan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0811357",
+      "name": "Leigh Snowden",
+      "sequence": 2,
+      "roles": [
+        "Marcia Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0658250",
+      "name": "Gregg Palmer",
+      "sequence": 3,
+      "roles": [
+        "Jed Grant"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0543939",
+      "name": "Maurice Manson",
+      "sequence": 4,
+      "roles": [
+        "Dr. Borg"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0712588",
+      "name": "James Rawley",
+      "sequence": 5,
+      "roles": [
+        "Dr. Johnson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0573005",
+      "name": "David McMahon",
+      "sequence": 6,
+      "roles": [
+        "Captain Stanley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0276452",
+      "name": "Paul Fierro",
+      "sequence": 7,
+      "roles": [
+        "Morteno"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0596592",
+      "name": "Lillian Molieri",
+      "sequence": 8,
+      "roles": [
+        "Mrs. Morteno"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0399777",
+      "name": "Larry Hudson",
+      "sequence": 9,
+      "roles": [
+        "State Trooper"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0153759",
+      "name": "Frank Chase",
+      "sequence": 10,
+      "roles": [
+        "Steward"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0743232",
       "name": "Arthur A. Ross",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story by) (as Arthur Ross)",
-      "group_id": 0
+      "notes": "(story by) (as Arthur Ross)"
     },
     {
       "person_imdb_id": "nm0743232",
       "name": "Arthur A. Ross",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay by) (as Arthur Ross)",
-      "group_id": 1
+      "notes": "(screenplay by) (as Arthur Ross)"
     }
   ],
   "release_date": "1956-04-26",

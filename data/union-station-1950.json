@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0043090",
   "sort_title": "Union Station (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000034",
-      "name": "William Holden",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. William Calhoun"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647970",
-      "name": "Nancy Olson",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joyce Willecombe"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0280178",
-      "name": "Barry Fitzgerald",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Inspector Donnelly"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0079328",
-      "name": "Lyle Bettger",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Joe Beacom"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0012443",
-      "name": "Jan Sterling",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Marge Wrighter"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0730815",
-      "name": "Allene Roberts",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lorna Murchison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0382229",
-      "name": "Herbert Heyes",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Henry L. Murchison"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242940",
-      "name": "Don Dunning",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Gus Hadder"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0333775",
-      "name": "Fred Graff",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Vince Marley"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0709478",
-      "name": "James Seay",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Detective Eddie Shattuck"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0046373",
-      "name": "Parley Baer",
-      "sequence": 10,
-      "notes": "(as Parley E. Baer)",
-      "roles": [
-        "Detective Gottschalk"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0762596",
-      "name": "Ralph Sanford",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Detective Fay"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0439463",
-      "name": "Richard Karlan",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Detective George Stein"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768530",
-      "name": "Bigelow Sayre",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Detective Ross"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0206742",
-      "name": "Charles Dayton",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Howard Kettner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0751918",
-      "name": "Jean Ruth",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Pretty Girl"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0498734",
-      "name": "Paul Lees",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Young Man Masher"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0370743",
-      "name": "Harry Hayden",
-      "sequence": 17,
-      "notes": "",
-      "roles": [
-        "Skelly - Conductor"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0005789",
@@ -173,20 +9,184 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000034",
+      "name": "William Holden",
+      "sequence": 0,
+      "roles": [
+        "Lt. William Calhoun"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647970",
+      "name": "Nancy Olson",
+      "sequence": 1,
+      "roles": [
+        "Joyce Willecombe"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0280178",
+      "name": "Barry Fitzgerald",
+      "sequence": 2,
+      "roles": [
+        "Inspector Donnelly"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0079328",
+      "name": "Lyle Bettger",
+      "sequence": 3,
+      "roles": [
+        "Joe Beacom"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0012443",
+      "name": "Jan Sterling",
+      "sequence": 4,
+      "roles": [
+        "Marge Wrighter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0730815",
+      "name": "Allene Roberts",
+      "sequence": 5,
+      "roles": [
+        "Lorna Murchison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0382229",
+      "name": "Herbert Heyes",
+      "sequence": 6,
+      "roles": [
+        "Henry L. Murchison"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242940",
+      "name": "Don Dunning",
+      "sequence": 7,
+      "roles": [
+        "Gus Hadder"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0333775",
+      "name": "Fred Graff",
+      "sequence": 8,
+      "roles": [
+        "Vince Marley"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0709478",
+      "name": "James Seay",
+      "sequence": 9,
+      "roles": [
+        "Detective Eddie Shattuck"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0046373",
+      "name": "Parley Baer",
+      "sequence": 10,
+      "roles": [
+        "Detective Gottschalk"
+      ],
+      "notes": "(as Parley E. Baer)"
+    },
+    {
+      "person_imdb_id": "nm0762596",
+      "name": "Ralph Sanford",
+      "sequence": 11,
+      "roles": [
+        "Detective Fay"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0439463",
+      "name": "Richard Karlan",
+      "sequence": 12,
+      "roles": [
+        "Detective George Stein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768530",
+      "name": "Bigelow Sayre",
+      "sequence": 13,
+      "roles": [
+        "Detective Ross"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0206742",
+      "name": "Charles Dayton",
+      "sequence": 14,
+      "roles": [
+        "Howard Kettner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0751918",
+      "name": "Jean Ruth",
+      "sequence": 15,
+      "roles": [
+        "Pretty Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0498734",
+      "name": "Paul Lees",
+      "sequence": 16,
+      "roles": [
+        "Young Man Masher"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0370743",
+      "name": "Harry Hayden",
+      "sequence": 17,
+      "roles": [
+        "Skelly - Conductor"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0091213",
       "name": "Sydney Boehm",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0909884",
       "name": "Thomas Walsh",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     }
   ],
   "release_date": "1950-08-31",

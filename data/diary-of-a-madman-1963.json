@@ -1,170 +1,6 @@
 {
   "imdb_id": "tt0056993",
   "sort_title": "Diary of a Madman (1963)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001637",
-      "name": "Vincent Price",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Magistrate Simon Cordier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0468222",
-      "name": "Nancy Kovack",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Odette Mallotte"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0861312",
-      "name": "Chris Warfield",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Paul Duclasse"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0222986",
-      "name": "Elaine Devry",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jeanne D'Arville"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pierre"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0731597",
-      "name": "Stephen Roberts",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Police Captain Robert Rennedon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0552683",
-      "name": "Lewis Martin",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Father Raymonde"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0011195",
-      "name": "Mary Adams",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Louise"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0172909",
-      "name": "Edward Colmans",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Andre D'Arville"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0647483",
-      "name": "Nelson Olmsted",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Dr. Borman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827031",
-      "name": "Harvey Stephens",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Louis Girot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0933304",
-      "name": "Dick Wilson",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Martin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0171975",
-      "name": "Wayne Collier",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Arguing Cafe Couple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0163973",
-      "name": "Gloria Clark",
-      "sequence": 13,
-      "notes": "",
-      "roles": [
-        "Arguing Cafe Couple"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0110893",
-      "name": "Don Brodie",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Marcel the Postman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0768070",
-      "name": "George Sawaya",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Wagon Driver"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0215688",
-      "name": "Joseph Del Nostro Jr.",
-      "sequence": 16,
-      "notes": "",
-      "roles": [
-        "Coachman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0750826",
-      "name": "Joseph Ruskin",
-      "sequence": 17,
-      "notes": "(voice)",
-      "roles": [
-        "The Horla"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0494110",
@@ -173,24 +9,188 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001637",
+      "name": "Vincent Price",
+      "sequence": 0,
+      "roles": [
+        "Magistrate Simon Cordier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0468222",
+      "name": "Nancy Kovack",
+      "sequence": 1,
+      "roles": [
+        "Odette Mallotte"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0861312",
+      "name": "Chris Warfield",
+      "sequence": 2,
+      "roles": [
+        "Paul Duclasse"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0222986",
+      "name": "Elaine Devry",
+      "sequence": 3,
+      "roles": [
+        "Jeanne D'Arville"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0938052",
+      "name": "Ian Wolfe",
+      "sequence": 4,
+      "roles": [
+        "Pierre"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0731597",
+      "name": "Stephen Roberts",
+      "sequence": 5,
+      "roles": [
+        "Police Captain Robert Rennedon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0552683",
+      "name": "Lewis Martin",
+      "sequence": 6,
+      "roles": [
+        "Father Raymonde"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0011195",
+      "name": "Mary Adams",
+      "sequence": 7,
+      "roles": [
+        "Louise"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0172909",
+      "name": "Edward Colmans",
+      "sequence": 8,
+      "roles": [
+        "Andre D'Arville"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0647483",
+      "name": "Nelson Olmsted",
+      "sequence": 9,
+      "roles": [
+        "Dr. Borman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0827031",
+      "name": "Harvey Stephens",
+      "sequence": 10,
+      "roles": [
+        "Louis Girot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0933304",
+      "name": "Dick Wilson",
+      "sequence": 11,
+      "roles": [
+        "Martin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0171975",
+      "name": "Wayne Collier",
+      "sequence": 12,
+      "roles": [
+        "Arguing Cafe Couple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0163973",
+      "name": "Gloria Clark",
+      "sequence": 13,
+      "roles": [
+        "Arguing Cafe Couple"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0110893",
+      "name": "Don Brodie",
+      "sequence": 14,
+      "roles": [
+        "Marcel the Postman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0768070",
+      "name": "George Sawaya",
+      "sequence": 15,
+      "roles": [
+        "Wagon Driver"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0215688",
+      "name": "Joseph Del Nostro Jr.",
+      "sequence": 16,
+      "roles": [
+        "Coachman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0750826",
+      "name": "Joseph Ruskin",
+      "sequence": 17,
+      "roles": [
+        "The Horla"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0560943",
       "name": "Guy de Maupassant",
+      "group": 0,
       "sequence": 0,
-      "notes": "(stories)",
-      "group_id": 0
+      "notes": "(stories)"
     },
     {
       "person_imdb_id": "nm0448839",
       "name": "Robert E. Kent",
+      "group": 1,
       "sequence": 0,
-      "notes": "(written by)",
-      "group_id": 1
+      "notes": "(written by)"
     }
   ],
-  "release_date": "1963-03-06",
-  "release_date_notes": "",
+  "release_date": "1963-02-23",
+  "release_date_notes": "(San Francisco, California)",
   "countries": [
     "United States"
   ]

@@ -1,80 +1,6 @@
 {
   "imdb_id": "tt0041178",
   "sort_title": "Big Steal (1949)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000053",
-      "name": "Robert Mitchum",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Lt. Duke Halliday"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0339452",
-      "name": "Jane Greer",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Joan Graham"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000904",
-      "name": "William Bendix",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Capt. Vincent Blake"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0461549",
-      "name": "Patric Knowles",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Jim Fiske"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0003895",
-      "name": "Ramon Novarro",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Inspector General Ortega"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0023147",
-      "name": "Don Alvarado",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Lt. Ruiz"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702798",
-      "name": "John Qualen",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Julius Seton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0305814",
-      "name": "Pascual Garc\u00eda Pe\u00f1a",
-      "sequence": 7,
-      "notes": "(as Pascual Garcia Pena)",
-      "roles": [
-        "Manuel"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0796923",
@@ -83,27 +9,101 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000053",
+      "name": "Robert Mitchum",
+      "sequence": 0,
+      "roles": [
+        "Lt. Duke Halliday"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0339452",
+      "name": "Jane Greer",
+      "sequence": 1,
+      "roles": [
+        "Joan Graham"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000904",
+      "name": "William Bendix",
+      "sequence": 2,
+      "roles": [
+        "Capt. Vincent Blake"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0461549",
+      "name": "Patric Knowles",
+      "sequence": 3,
+      "roles": [
+        "Jim Fiske"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0003895",
+      "name": "Ramon Novarro",
+      "sequence": 4,
+      "roles": [
+        "Inspector General Ortega"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0023147",
+      "name": "Don Alvarado",
+      "sequence": 5,
+      "roles": [
+        "Lt. Ruiz"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702798",
+      "name": "John Qualen",
+      "sequence": 6,
+      "roles": [
+        "Julius Seton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0305814",
+      "name": "Pascual Garc\u00eda Pe\u00f1a",
+      "sequence": 7,
+      "roles": [
+        "Manuel"
+      ],
+      "notes": "(as Pascual Garcia Pena)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0537784",
       "name": "Daniel Mainwaring",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as Geoffrey Homes)",
-      "group_id": 0
+      "notes": "(screenplay) (as Geoffrey Homes)"
     },
     {
       "person_imdb_id": "nm0010987",
       "name": "Gerald Drayson Adams",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0941556",
       "name": "Richard Wormser",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story \"The Road to Carmichael's\")",
-      "group_id": 1
+      "notes": "(story \"The Road to Carmichael's\")"
     }
   ],
   "release_date": "1949-06-29",

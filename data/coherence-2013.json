@@ -1,125 +1,6 @@
 {
   "imdb_id": "tt2866360",
   "sort_title": "Coherence (2013)",
-  "performers": [
-    {
-      "person_imdb_id": "nm2032150",
-      "name": "Emily Baldoni",
-      "sequence": 0,
-      "notes": "(as Emily Foxler)",
-      "roles": [
-        "Em"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0827561",
-      "name": "Maury Sterling",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Kevin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0107183",
-      "name": "Nicholas Brendon",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Mike"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1032521",
-      "name": "Lorene Scafaria",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Lee"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001286",
-      "name": "Elizabeth Gracen",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Beth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0035730",
-      "name": "Hugo Armstrong",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Hugh"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1178832",
-      "name": "Alex Manugian",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Amir"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1266413",
-      "name": "Lauren Maher",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Laurie"
-      ]
-    },
-    {
-      "person_imdb_id": "nm5032019",
-      "name": "Aqueela Zoll",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Extra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm9326130",
-      "name": "Carrie Patterson",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Extra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0233010",
-      "name": "Kelly Donovan",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Extra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm1925806",
-      "name": "Alexis Boozer Sterling",
-      "sequence": 11,
-      "notes": "(as Alexis Boozer)",
-      "roles": [
-        "Extra"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0050924",
-      "name": "Mark Ballou",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Extra"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0126096",
@@ -128,27 +9,146 @@
       "notes": "(directed by)"
     }
   ],
-  "writers": [
+  "cast": [
     {
-      "person_imdb_id": "nm0126096",
-      "name": "James Ward Byrkit",
+      "person_imdb_id": "nm2032150",
+      "name": "Emily Baldoni",
       "sequence": 0,
-      "notes": "(screenplay by)",
-      "group_id": 0
+      "roles": [
+        "Em"
+      ],
+      "notes": "(as Emily Foxler)"
     },
     {
-      "person_imdb_id": "nm0126096",
-      "name": "James Ward Byrkit",
-      "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "person_imdb_id": "nm0827561",
+      "name": "Maury Sterling",
+      "sequence": 1,
+      "roles": [
+        "Kevin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0107183",
+      "name": "Nicholas Brendon",
+      "sequence": 2,
+      "roles": [
+        "Mike"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1032521",
+      "name": "Lorene Scafaria",
+      "sequence": 3,
+      "roles": [
+        "Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001286",
+      "name": "Elizabeth Gracen",
+      "sequence": 4,
+      "roles": [
+        "Beth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0035730",
+      "name": "Hugo Armstrong",
+      "sequence": 5,
+      "roles": [
+        "Hugh"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm1178832",
       "name": "Alex Manugian",
+      "sequence": 6,
+      "roles": [
+        "Amir"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1266413",
+      "name": "Lauren Maher",
+      "sequence": 7,
+      "roles": [
+        "Laurie"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm5032019",
+      "name": "Aqueela Zoll",
+      "sequence": 8,
+      "roles": [
+        "Extra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm9326130",
+      "name": "Carrie Patterson",
+      "sequence": 9,
+      "roles": [
+        "Extra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0233010",
+      "name": "Kelly Donovan",
+      "sequence": 10,
+      "roles": [
+        "Extra"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1925806",
+      "name": "Alexis Boozer Sterling",
+      "sequence": 11,
+      "roles": [
+        "Extra"
+      ],
+      "notes": "(as Alexis Boozer)"
+    },
+    {
+      "person_imdb_id": "nm0050924",
+      "name": "Mark Ballou",
+      "sequence": 12,
+      "roles": [
+        "Extra"
+      ],
+      "notes": ""
+    }
+  ],
+  "writers": [
+    {
+      "person_imdb_id": "nm0126096",
+      "name": "James Ward Byrkit",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story by)",
-      "group_id": 1
+      "notes": "(screenplay by)"
+    },
+    {
+      "person_imdb_id": "nm0126096",
+      "name": "James Ward Byrkit",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(story by)"
+    },
+    {
+      "person_imdb_id": "nm1178832",
+      "name": "Alex Manugian",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story by)"
     }
   ],
   "release_date": "2013-09-19",

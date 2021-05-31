@@ -1,134 +1,6 @@
 {
   "imdb_id": "tt0055998",
   "sort_title": "Freud (1962)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001050",
-      "name": "Montgomery Clift",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Sigmund Freud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0948772",
-      "name": "Susannah York",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Cecily Koertner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0662972",
-      "name": "Larry Parks",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Dr. Joseph Breuer"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0463435",
-      "name": "Susan Kohner",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Martha Freud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379047",
-      "name": "Eileen Herlie",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Frau Ida Koertner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0496614",
-      "name": "Fernand Ledoux",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Charcot"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0564724",
-      "name": "David McCallum",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Carl von Schlosser"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0190194",
-      "name": "Rosalie Crutchley",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Frau Amalia Freud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0467311",
-      "name": "David Kossoff",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Jacob Freud"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0299822",
-      "name": "Joseph F\u00fcrst",
-      "sequence": 9,
-      "notes": "(as Joseph Furst)",
-      "roles": [
-        "Herr Jacob Koertner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0542268",
-      "name": "Alexander Mango",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Babinsky"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0755168",
-      "name": "Leonard Sachs",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Brouhardier"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0692439",
-      "name": "Eric Portman",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Dr. Theodore Meynert"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001379",
-      "name": "John Huston",
-      "sequence": 24,
-      "notes": "(uncredited) (voice)",
-      "roles": [
-        "Narrator"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001379",
@@ -137,34 +9,153 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001050",
+      "name": "Montgomery Clift",
+      "sequence": 0,
+      "roles": [
+        "Sigmund Freud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0948772",
+      "name": "Susannah York",
+      "sequence": 1,
+      "roles": [
+        "Cecily Koertner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0662972",
+      "name": "Larry Parks",
+      "sequence": 2,
+      "roles": [
+        "Dr. Joseph Breuer"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0463435",
+      "name": "Susan Kohner",
+      "sequence": 3,
+      "roles": [
+        "Martha Freud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379047",
+      "name": "Eileen Herlie",
+      "sequence": 4,
+      "roles": [
+        "Frau Ida Koertner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0496614",
+      "name": "Fernand Ledoux",
+      "sequence": 5,
+      "roles": [
+        "Dr. Charcot"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0564724",
+      "name": "David McCallum",
+      "sequence": 6,
+      "roles": [
+        "Carl von Schlosser"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0190194",
+      "name": "Rosalie Crutchley",
+      "sequence": 7,
+      "roles": [
+        "Frau Amalia Freud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0467311",
+      "name": "David Kossoff",
+      "sequence": 8,
+      "roles": [
+        "Jacob Freud"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0299822",
+      "name": "Joseph F\u00fcrst",
+      "sequence": 9,
+      "roles": [
+        "Herr Jacob Koertner"
+      ],
+      "notes": "(as Joseph Furst)"
+    },
+    {
+      "person_imdb_id": "nm0542268",
+      "name": "Alexander Mango",
+      "sequence": 10,
+      "roles": [
+        "Babinsky"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0755168",
+      "name": "Leonard Sachs",
+      "sequence": 11,
+      "roles": [
+        "Brouhardier"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0692439",
+      "name": "Eric Portman",
+      "sequence": 12,
+      "roles": [
+        "Dr. Theodore Meynert"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0442105",
       "name": "Charles Kaufman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0718140",
       "name": "Wolfgang Reinhardt",
-      "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0442105",
       "name": "Charles Kaufman",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0765683",
       "name": "Jean-Paul Sartre",
+      "group": 2,
       "sequence": 0,
-      "notes": "() (uncredited)",
-      "group_id": 2
+      "notes": "() (uncredited)"
     }
   ],
   "release_date": "1962-12-12",

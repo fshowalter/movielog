@@ -1,116 +1,6 @@
 {
   "imdb_id": "tt0042593",
   "sort_title": "In a Lonely Place (1950)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000007",
-      "name": "Humphrey Bogart",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Dixon Steele"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0002108",
-      "name": "Gloria Grahame",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Laurel Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0522481",
-      "name": "Frank Lovejoy",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Brub Nicolai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0717203",
-      "name": "Carl Benton Reid",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Capt. Lochner"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0807354",
-      "name": "Art Smith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Mel Lippman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0232655",
-      "name": "Jeff Donnell",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Sylvia Nicolai"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0829643",
-      "name": "Martha Stewart",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Mildred Atkinson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0913094",
-      "name": "Robert Warwick",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Charlie Waterman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0030194",
-      "name": "Morris Ankrum",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Lloyd Barnes"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0157893",
-      "name": "William Ching",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Ted Barton"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0314065",
-      "name": "Steven Geray",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Paul"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0112007",
-      "name": "Hadda Brooks",
-      "sequence": 11,
-      "notes": "",
-      "roles": [
-        "Singer"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0712947",
@@ -119,27 +9,137 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000007",
+      "name": "Humphrey Bogart",
+      "sequence": 0,
+      "roles": [
+        "Dixon Steele"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0002108",
+      "name": "Gloria Grahame",
+      "sequence": 1,
+      "roles": [
+        "Laurel Gray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0522481",
+      "name": "Frank Lovejoy",
+      "sequence": 2,
+      "roles": [
+        "Brub Nicolai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0717203",
+      "name": "Carl Benton Reid",
+      "sequence": 3,
+      "roles": [
+        "Capt. Lochner"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0807354",
+      "name": "Art Smith",
+      "sequence": 4,
+      "roles": [
+        "Mel Lippman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0232655",
+      "name": "Jeff Donnell",
+      "sequence": 5,
+      "roles": [
+        "Sylvia Nicolai"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0829643",
+      "name": "Martha Stewart",
+      "sequence": 6,
+      "roles": [
+        "Mildred Atkinson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0913094",
+      "name": "Robert Warwick",
+      "sequence": 7,
+      "roles": [
+        "Charlie Waterman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0030194",
+      "name": "Morris Ankrum",
+      "sequence": 8,
+      "roles": [
+        "Lloyd Barnes"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0157893",
+      "name": "William Ching",
+      "sequence": 9,
+      "roles": [
+        "Ted Barton"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0314065",
+      "name": "Steven Geray",
+      "sequence": 10,
+      "roles": [
+        "Paul"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0112007",
+      "name": "Hadda Brooks",
+      "sequence": 11,
+      "roles": [
+        "Singer"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0813584",
       "name": "Andrew Solt",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0636002",
       "name": "Edmund H. North",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation)",
-      "group_id": 1
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0400568",
       "name": "Dorothy B. Hughes",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1950-05-17",

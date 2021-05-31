@@ -1,152 +1,6 @@
 {
   "imdb_id": "tt0065481",
   "sort_title": "Bloody Mama (1970)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0001859",
-      "name": "Shelley Winters",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "'Ma' Kate Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0385757",
-      "name": "Pat Hingle",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Sam Adams Pendlebury"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0835144",
-      "name": "Don Stroud",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Herman Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0890215",
-      "name": "Diane Varsi",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Mona Gibson"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001136",
-      "name": "Bruce Dern",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Kevin Dirkman"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0453910",
-      "name": "Clint Kimbrough",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Arthur Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000134",
-      "name": "Robert De Niro",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Lloyd Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0907107",
-      "name": "Robert Walden",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Fred Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0630132",
-      "name": "Alex Nicol",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "George Barker"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0242405",
-      "name": "Pamela Dunlap",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Rembrandt"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0289147",
-      "name": "Michael Fox",
-      "sequence": 10,
-      "notes": "",
-      "roles": [
-        "Dr. Roth"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001079",
-      "name": "Scatman Crothers",
-      "sequence": 11,
-      "notes": "(as 'Scatman' Crothers)",
-      "roles": [
-        "Moses"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0365345",
-      "name": "Stacy Harris",
-      "sequence": 12,
-      "notes": "",
-      "roles": [
-        "Agent McClellan"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0422706",
-      "name": "Lisa Linsky",
-      "sequence": 13,
-      "notes": "(as Lisa Jill)",
-      "roles": [
-        "Young Kate"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0593083",
-      "name": "Steve Mitchell",
-      "sequence": 14,
-      "notes": "",
-      "roles": [
-        "Sheriff"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0406910",
-      "name": "Roy Idom",
-      "sequence": 15,
-      "notes": "",
-      "roles": [
-        "Ferryboat Passenger"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0000339",
@@ -155,27 +9,173 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0001859",
+      "name": "Shelley Winters",
+      "sequence": 0,
+      "roles": [
+        "'Ma' Kate Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0385757",
+      "name": "Pat Hingle",
+      "sequence": 1,
+      "roles": [
+        "Sam Adams Pendlebury"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0835144",
+      "name": "Don Stroud",
+      "sequence": 2,
+      "roles": [
+        "Herman Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0890215",
+      "name": "Diane Varsi",
+      "sequence": 3,
+      "roles": [
+        "Mona Gibson"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001136",
+      "name": "Bruce Dern",
+      "sequence": 4,
+      "roles": [
+        "Kevin Dirkman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0453910",
+      "name": "Clint Kimbrough",
+      "sequence": 5,
+      "roles": [
+        "Arthur Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000134",
+      "name": "Robert De Niro",
+      "sequence": 6,
+      "roles": [
+        "Lloyd Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0907107",
+      "name": "Robert Walden",
+      "sequence": 7,
+      "roles": [
+        "Fred Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0630132",
+      "name": "Alex Nicol",
+      "sequence": 8,
+      "roles": [
+        "George Barker"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0242405",
+      "name": "Pamela Dunlap",
+      "sequence": 9,
+      "roles": [
+        "Rembrandt"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0289147",
+      "name": "Michael Fox",
+      "sequence": 10,
+      "roles": [
+        "Dr. Roth"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001079",
+      "name": "Scatman Crothers",
+      "sequence": 11,
+      "roles": [
+        "Moses"
+      ],
+      "notes": "(as 'Scatman' Crothers)"
+    },
+    {
+      "person_imdb_id": "nm0365345",
+      "name": "Stacy Harris",
+      "sequence": 12,
+      "roles": [
+        "Agent McClellan"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0422706",
+      "name": "Lisa Linsky",
+      "sequence": 13,
+      "roles": [
+        "Young Kate"
+      ],
+      "notes": "(as Lisa Jill)"
+    },
+    {
+      "person_imdb_id": "nm0593083",
+      "name": "Steve Mitchell",
+      "sequence": 14,
+      "roles": [
+        "Sheriff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0406910",
+      "name": "Roy Idom",
+      "sequence": 15,
+      "roles": [
+        "Ferryboat Passenger"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0676396",
       "name": "Don Peters",
+      "group": 0,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 0
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0858379",
       "name": "Robert Thom",
+      "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 1
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0858379",
       "name": "Robert Thom",
+      "group": 2,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 2
+      "notes": "(story)"
     }
   ],
   "release_date": "1970-03-24",

@@ -1,98 +1,6 @@
 {
   "imdb_id": "tt0063569",
   "sort_title": "Sea Gull (1968)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000051",
-      "name": "James Mason",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Trigorin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0000603",
-      "name": "Vanessa Redgrave",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Nina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0797531",
-      "name": "Simone Signoret",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Irina Arkadina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001831",
-      "name": "David Warner",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Konstantin Treplev"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0028674",
-      "name": "Harry Andrews",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Pjotr Nikolayevich Sorin"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0001186",
-      "name": "Denholm Elliott",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Dr. Yevgeny Dorn"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0379047",
-      "name": "Eileen Herlie",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Polina"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0528224",
-      "name": "Alfred Lynch",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Semyon Medvedenko"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0705382",
-      "name": "Ronald Radd",
-      "sequence": 8,
-      "notes": "",
-      "roles": [
-        "Shamraev"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0927043",
-      "name": "Kathleen Widdoes",
-      "sequence": 9,
-      "notes": "",
-      "roles": [
-        "Masha"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0001486",
@@ -101,20 +9,112 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000051",
+      "name": "James Mason",
+      "sequence": 0,
+      "roles": [
+        "Trigorin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0000603",
+      "name": "Vanessa Redgrave",
+      "sequence": 1,
+      "roles": [
+        "Nina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0797531",
+      "name": "Simone Signoret",
+      "sequence": 2,
+      "roles": [
+        "Irina Arkadina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001831",
+      "name": "David Warner",
+      "sequence": 3,
+      "roles": [
+        "Konstantin Treplev"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0028674",
+      "name": "Harry Andrews",
+      "sequence": 4,
+      "roles": [
+        "Pjotr Nikolayevich Sorin"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0001186",
+      "name": "Denholm Elliott",
+      "sequence": 5,
+      "roles": [
+        "Dr. Yevgeny Dorn"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0379047",
+      "name": "Eileen Herlie",
+      "sequence": 6,
+      "roles": [
+        "Polina"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0528224",
+      "name": "Alfred Lynch",
+      "sequence": 7,
+      "roles": [
+        "Semyon Medvedenko"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0705382",
+      "name": "Ronald Radd",
+      "sequence": 8,
+      "roles": [
+        "Shamraev"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0927043",
+      "name": "Kathleen Widdoes",
+      "sequence": 9,
+      "roles": [
+        "Masha"
+      ],
+      "notes": ""
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0155009",
       "name": "Anton Chekhov",
+      "group": 0,
       "sequence": 0,
-      "notes": "(play \"Chayka\")",
-      "group_id": 0
+      "notes": "(play \"Chayka\")"
     },
     {
       "person_imdb_id": "nm0118900",
       "name": "Moura Budberg",
+      "group": 1,
       "sequence": 0,
-      "notes": "(adaptation & translation)",
-      "group_id": 1
+      "notes": "(adaptation & translation)"
     }
   ],
   "release_date": "1968-12-23",

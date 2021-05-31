@@ -1,89 +1,6 @@
 {
   "imdb_id": "tt0048764",
   "sort_title": "Underwater! (1955)",
-  "performers": [
-    {
-      "person_imdb_id": "nm0000066",
-      "name": "Jane Russell",
-      "sequence": 0,
-      "notes": "",
-      "roles": [
-        "Theresa Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0738042",
-      "name": "Gilbert Roland",
-      "sequence": 1,
-      "notes": "",
-      "roles": [
-        "Dominic Quesada"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0250724",
-      "name": "Richard Egan",
-      "sequence": 2,
-      "notes": "",
-      "roles": [
-        "Johnny Gray"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0625562",
-      "name": "Lori Nelson",
-      "sequence": 3,
-      "notes": "",
-      "roles": [
-        "Gloria"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0445290",
-      "name": "Robert Keith",
-      "sequence": 4,
-      "notes": "",
-      "roles": [
-        "Father Cannon"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0130407",
-      "name": "Joseph Calleia",
-      "sequence": 5,
-      "notes": "",
-      "roles": [
-        "Rico Herrera"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0407094",
-      "name": "Eugene Iglesias",
-      "sequence": 6,
-      "notes": "",
-      "roles": [
-        "Miguel Vega"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0106959",
-      "name": "Ric Roman",
-      "sequence": 7,
-      "notes": "",
-      "roles": [
-        "Jesus"
-      ]
-    },
-    {
-      "person_imdb_id": "nm0702000",
-      "name": "D\u00e1maso P\u00e9rez Prado",
-      "sequence": 8,
-      "notes": "(as Perez Prado)",
-      "roles": [
-        "Perez Prado"
-      ]
-    }
-  ],
   "directors": [
     {
       "person_imdb_id": "nm0836328",
@@ -92,27 +9,110 @@
       "notes": ""
     }
   ],
+  "cast": [
+    {
+      "person_imdb_id": "nm0000066",
+      "name": "Jane Russell",
+      "sequence": 0,
+      "roles": [
+        "Theresa Gray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0738042",
+      "name": "Gilbert Roland",
+      "sequence": 1,
+      "roles": [
+        "Dominic Quesada"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0250724",
+      "name": "Richard Egan",
+      "sequence": 2,
+      "roles": [
+        "Johnny Gray"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0625562",
+      "name": "Lori Nelson",
+      "sequence": 3,
+      "roles": [
+        "Gloria"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0445290",
+      "name": "Robert Keith",
+      "sequence": 4,
+      "roles": [
+        "Father Cannon"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0130407",
+      "name": "Joseph Calleia",
+      "sequence": 5,
+      "roles": [
+        "Rico Herrera"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0407094",
+      "name": "Eugene Iglesias",
+      "sequence": 6,
+      "roles": [
+        "Miguel Vega"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0106959",
+      "name": "Ric Roman",
+      "sequence": 7,
+      "roles": [
+        "Jesus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0702000",
+      "name": "D\u00e1maso P\u00e9rez Prado",
+      "sequence": 8,
+      "roles": [
+        "Perez Prado"
+      ],
+      "notes": "(as Perez Prado)"
+    }
+  ],
   "writers": [
     {
       "person_imdb_id": "nm0628305",
       "name": "Walter Newman",
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)",
-      "group_id": 0
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm2331062",
       "name": "Hugh King",
+      "group": 1,
       "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0047464",
       "name": "Robert B. Bailey",
-      "sequence": 0,
-      "notes": "(story)",
-      "group_id": 1
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story)"
     }
   ],
   "release_date": "1955-02-09",
