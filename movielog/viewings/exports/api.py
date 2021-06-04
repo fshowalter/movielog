@@ -6,10 +6,12 @@ from movielog.viewings.exports import (
     viewing_counts_for_decades,
     viewing_counts_for_venues,
     viewing_stats,
+    viewings,
 )
 
 
 def export() -> None:
+    viewings.export()
     viewing_stats.export()
     viewing_counts_for_decades.export()
     viewing_counts_for_venues.export()
