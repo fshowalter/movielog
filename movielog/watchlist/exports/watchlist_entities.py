@@ -6,7 +6,7 @@ from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
-ETHAN_COEN_IMDB_ID = "nm0001053"
+JOEL_COEN_IMDB_ID = "nm0001054"
 
 
 class PersonStats(TypedDict):
@@ -78,7 +78,7 @@ def _fetch_person_stats(person_type: str) -> Sequence[PersonStats]:
 
     for row in db.fetch_all(query.format(person_type)):
         name = row["name"]
-        if row["imdb_id"] == ETHAN_COEN_IMDB_ID:
+        if row["imdb_id"] == JOEL_COEN_IMDB_ID:
             name = "The Coen Brothers"
 
         person_stats.append(
