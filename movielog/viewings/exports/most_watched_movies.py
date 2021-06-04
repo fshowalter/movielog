@@ -8,6 +8,8 @@ from movielog import db
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
 
+LIMIT = 20
+
 
 @dataclass
 class Viewing(object):
@@ -94,7 +96,7 @@ def most_watched_movies_for_rows(rows: list[Row]) -> list[Movie]:
 
     return sorted(
         most_watched_movies, reverse=True, key=lambda movie: len(movie.viewings)
-    )
+    )[:LIMIT]
 
 
 def export() -> None:
