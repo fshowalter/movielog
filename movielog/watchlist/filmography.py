@@ -92,7 +92,7 @@ def valid_movies_for_person(  # noqa: WPS231
             log_skip(
                 imdb_person=imdb_person,
                 imdb_movie=imdb_movie,
-                reason="({0} not found in database)".format(imdb_movie.movieID),
+                reason="(tt{0} not found in database)".format(imdb_movie.movieID),
             )
             continue
 
@@ -132,7 +132,7 @@ def for_director(person_imdb_id: str) -> list[Movie]:
             log_skip(
                 imdb_person=imdb_person,
                 imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie["notes"]),
+                reason="({0})".format(imdb_movie.notes),
             )
             continue
 
@@ -149,7 +149,7 @@ def for_writer(person_imdb_id: str) -> list[Movie]:
             log_skip(
                 imdb_person=imdb_person,
                 imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie["notes"]),
+                reason="({0})".format(imdb_movie.notes),
             )
             continue
 
@@ -166,7 +166,7 @@ def for_performer(person_imdb_id: str) -> list[Movie]:
             log_skip(
                 imdb_person=imdb_person,
                 imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie["notes"]),
+                reason="({0})".format(imdb_movie.notes),
             )
             continue
 
