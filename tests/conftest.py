@@ -36,6 +36,11 @@ def mock_download_dir(mocker: MockerFixture, tmp_path: str) -> None:
 
 
 @pytest.fixture(autouse=True)
+def mock_exports_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+    mocker.patch("movielog.utils.export_tools.EXPORT_FOLDER_NAME", tmp_path)
+
+
+@pytest.fixture(autouse=True)
 def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch("movielog.reviews.serializer.FOLDER_NAME", tmp_path)
 
