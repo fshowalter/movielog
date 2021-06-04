@@ -7,7 +7,7 @@ from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
-ETHAN_COEN_IMDB_ID = "nm0001053"
+JOEL_COEN_IMDB_ID = "nm0001054"
 
 
 class Person(TypedDict):
@@ -51,7 +51,7 @@ class Row(TypedDict):
 
 def _build_director_export(row: Row) -> Person:
     name = row["director_name"]
-    if row["director_imdb_id"] == ETHAN_COEN_IMDB_ID:
+    if row["director_imdb_id"] == JOEL_COEN_IMDB_ID:
         name = "The Coen Brothers"
 
     return Person(
