@@ -119,7 +119,7 @@ def init_db() -> None:
     )
 
 
-def test_create_serializes_new_review(tmp_path: str) -> None:
+def test_exports_reviewed_movies(tmp_path: str) -> None:
     expected = [
         {
             "imdb_id": "tt0053221",
