@@ -54,22 +54,34 @@ def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
 def mock_watchlist_collections_folder_name(
     mocker: MockerFixture, tmp_path: str
 ) -> None:
-    mocker.patch("movielog.watchlist.collections.Collection.folder_name", tmp_path)
+    mocker.patch(
+        "movielog.watchlist.collections.Collection.folder_name",
+        os.path.join(tmp_path, "collections"),
+    )
 
 
 @pytest.fixture(autouse=True)
 def mock_watchlist_directors_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.watchlist.directors.Director.folder_name", tmp_path)
+    mocker.patch(
+        "movielog.watchlist.directors.Director.folder_name",
+        os.path.join(tmp_path, "directors"),
+    )
 
 
 @pytest.fixture(autouse=True)
 def mock_watchlist_writers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.watchlist.writers.Writer.folder_name", tmp_path)
+    mocker.patch(
+        "movielog.watchlist.writers.Writer.folder_name",
+        os.path.join(tmp_path, "writers"),
+    )
 
 
 @pytest.fixture(autouse=True)
 def mock_watchlist_performers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.watchlist.performers.Performer.folder_name", tmp_path)
+    mocker.patch(
+        "movielog.watchlist.performers.Performer.folder_name",
+        os.path.join(tmp_path, "performers"),
+    )
 
 
 @pytest.fixture(autouse=True)

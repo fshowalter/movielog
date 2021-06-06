@@ -14,7 +14,9 @@ def test_add_serializes_new_collection(tmp_path: str) -> None:
 
     collections.add(name="Halloween")
 
-    with open(os.path.join(tmp_path, "halloween.json"), "r") as output_file:
+    with open(
+        os.path.join(tmp_path, "collections", "halloween.json"), "r"
+    ) as output_file:
         file_content = json.load(output_file)
 
     assert file_content == expected

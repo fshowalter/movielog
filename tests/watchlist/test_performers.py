@@ -45,7 +45,9 @@ def test_add_performer_serializes_performer(
 
     watchlist_api.add_performer(imdb_id="nm0000078", name="John Wayne")
 
-    with open(os.path.join(tmp_path, "john-wayne.json"), "r") as output_file:
+    with open(
+        os.path.join(tmp_path, "performers", "john-wayne.json"), "r"
+    ) as output_file:
         file_content = json.load(output_file)
 
     assert file_content == expected
