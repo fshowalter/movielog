@@ -14,7 +14,7 @@ MAX_RESULTS = 20
 @dataclass
 class Movie(object):
     title: str
-    year: str
+    year: int
     slug: str
 
 
@@ -44,7 +44,7 @@ class StatFile(object):
 class Row(TypedDict):
     review_sequence: int
     movie_title: str
-    movie_year: str
+    movie_year: int
     movie_imdb_id: str
     person_imdb_id: str
     grade_value: float
