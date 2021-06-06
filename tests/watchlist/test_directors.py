@@ -45,7 +45,9 @@ def test_add_director_serializes_director(
 
     watchlist_api.add_director(imdb_id="nm0000080", name="Orson Welles")
 
-    with open(os.path.join(tmp_path, "orson-welles.json"), "r") as output_file:
+    with open(
+        os.path.join(tmp_path, "directors", "orson-welles.json"), "r"
+    ) as output_file:
         file_content = json.load(output_file)
 
     assert file_content == expected

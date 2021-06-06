@@ -45,7 +45,9 @@ def test_add_writer_serializes_writer(
 
     watchlist_api.add_writer(imdb_id="nm0102824", name="Leigh Brackett")
 
-    with open(os.path.join(tmp_path, "leigh-brackett.json"), "r") as output_file:
+    with open(
+        os.path.join(tmp_path, "writers", "leigh-brackett.json"), "r"
+    ) as output_file:
         file_content = json.load(output_file)
 
     assert file_content == expected
