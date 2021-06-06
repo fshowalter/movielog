@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 from dataclasses import asdict, dataclass
-from datetime import date
+from datetime import date, datetime
 from glob import glob
 from typing import Any, Optional
 
@@ -78,7 +78,7 @@ def deserialize_json_movie(json_movie: dict[str, Any]) -> Movie:
         directors=directors.deserialize(json_movie["directors"]),
         writers=writers.deserialize(json_movie["writers"]),
         countries=json_movie["countries"],
-        release_date=json_movie["release_date"],
+        release_date=datetime.fromisoformat(json_movie["release_date"]).date(),
         release_date_notes=json_movie["release_date_notes"],
     )
 
