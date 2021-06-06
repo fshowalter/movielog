@@ -50,3 +50,16 @@ def refresh_movies() -> None:
         writer_copy.movies = movies_for_writer(writer_copy.imdb_id, writer_copy.name)
 
         serializer.serialize(writer_copy)
+
+
+def add(imdb_id: str, name: str) -> Writer:
+    writer = Writer(
+        frozen=False,
+        name=name,
+        imdb_id=imdb_id,
+        slug=person.slug_for_name(name),
+        movies=movies_for_writer(imdb_id, name),
+    )
+    serializer.serialize(writer)
+
+    return writer

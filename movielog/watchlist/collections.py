@@ -1,8 +1,12 @@
+import copy
 import json
+import operator
 import os
 from dataclasses import dataclass
 from glob import glob
 from typing import Sequence, TypedDict, cast
+
+from slugify import slugify
 
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
@@ -21,6 +25,30 @@ class JsonCollection(TypedDict):
     name: str
     slug: str
     movies: list[movies.JsonMovie]
+
+
+def add_movie(
+    collection: Collection, imdb_id: str, title: str, year: int
+) -> Collection:
+    collection_copy = copy.deepcopy(collection)
+
+    collection_copy.movies.append(movies.Movie(imdb_id=imdb_id, title=title, year=year))
+
+    collection_copy.movies.sort(key=operator.attrgetter("year"))
+
+    serializer.serialize(collection_copy)
+
+    return collection_copy
+
+
+def add(name: str) -> Collection:
+    slug = slugify(name, replacements=[("'", "")])
+
+    collection = Collection(name=name, slug=slug, movies=[])
+
+    serializer.serialize(collection)
+
+    return collection
 
 
 def deserialize(file_path: str) -> Collection:

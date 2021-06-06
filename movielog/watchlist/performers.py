@@ -52,3 +52,16 @@ def refresh_movies() -> None:
         )
 
         serializer.serialize(performer_copy)
+
+
+def add(imdb_id: str, name: str) -> Performer:
+    performer = Performer(
+        frozen=False,
+        name=name,
+        imdb_id=imdb_id,
+        slug=person.slug_for_name(name),
+        movies=movies_for_performer(imdb_id, name),
+    )
+    serializer.serialize(performer)
+
+    return performer

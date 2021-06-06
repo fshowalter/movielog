@@ -52,3 +52,16 @@ def refresh_movies() -> None:
         )
 
         serializer.serialize(director_copy)
+
+
+def add(imdb_id: str, name: str) -> Director:
+    director = Director(
+        frozen=False,
+        name=name,
+        imdb_id=imdb_id,
+        slug=person.slug_for_name(name),
+        movies=movies_for_director(imdb_id, name),
+    )
+    serializer.serialize(director)
+
+    return director
