@@ -124,9 +124,4 @@ def update(imdb_ids: set[str]) -> None:
         new_movie = fetch(imdb_id)
         all_movie_data.append(new_movie)
 
-    tables_api.update_directing_credits(all_movie_data)
-    tables_api.update_performing_credits(all_movie_data)
-    tables_api.update_writing_credits(all_movie_data)
-    tables_api.update_release_dates(all_movie_data)
-    tables_api.update_countries(all_movie_data)
-    tables_api.update_sort_titles(all_movie_data)
+    tables_api.reload(all_movie_data)
