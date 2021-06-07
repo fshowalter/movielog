@@ -217,3 +217,102 @@ def test_sort_title_only_drops_leading_articles() -> None:
     expected = "Rio Bravo (1959)"
 
     assert expected == movies.generate_sort_title("Rio Bravo", "1959")
+
+
+def test_update_fetches_details_for_non_serialized_titles(
+    mocker: MockerFixture,
+) -> None:
+    tables_api_update_mock = mocker.patch(
+        "movielog.moviedata.extended.movies.tables_api.reload"
+    )
+
+    serialized_movie = movies.Movie(
+        imdb_id="tt0053221",
+        sort_title="Rio Bravo (1959)",
+        release_date=date(1959, 3, 18),
+        release_date_notes="(limited)",
+        countries=["United States"],
+        directors=[
+            directors.Credit(
+                person_imdb_id="nm0001328",
+                name="Howard Hawks",
+                sequence=0,
+                notes="",
+            )
+        ],
+        cast=[
+            cast.Credit(
+                person_imdb_id="nm0000078",
+                name="John Wayne",
+                roles=["Sheriff John T. Chance"],
+                notes="",
+                sequence=0,
+            ),
+            cast.Credit(
+                person_imdb_id="nm0001509",
+                name="Dean Margin",
+                roles=["Dude"],
+                notes="('Borrach\u00f3n')",
+                sequence=1,
+            ),
+        ],
+        writers=[
+            writers.Credit(
+                person_imdb_id="nm0102824",
+                name="Leigh Brackett",
+                notes="(screenplay)",
+                group=0,
+                sequence=0,
+            )
+        ],
+    )
+
+    movies.serialize(serialized_movie)
+
+    expected = [
+        serialized_movie,
+        movies.Movie(
+            imdb_id="tt0092106",
+            sort_title="Transformers: The Movie (1986)",
+            release_date=date(1986, 8, 8),
+            release_date_notes="",
+            countries=["United States", "Japan"],
+            directors=[
+                directors.Credit(
+                    person_imdb_id="nm0793802",
+                    name="Nelson Shin",
+                    sequence=0,
+                    notes="",
+                )
+            ],
+            cast=[
+                cast.Credit(
+                    person_imdb_id="nm0191520",
+                    name="Peter Cullen",
+                    roles=["Optimus Prime", "Ironhide"],
+                    notes="(voice)",
+                    sequence=0,
+                ),
+                cast.Credit(
+                    person_imdb_id="nm0000080",
+                    name="Orson Welles",
+                    roles=["Unicrom"],
+                    notes="(voice)",
+                    sequence=1,
+                ),
+            ],
+            writers=[
+                writers.Credit(
+                    person_imdb_id="nm0295357",
+                    name="Ron Friedman",
+                    notes="(written by)",
+                    group=0,
+                    sequence=0,
+                )
+            ],
+        ),
+    ]
+
+    movies.update(set(["tt0053221", "tt0092106"]))
+
+    tables_api_update_mock.assert_called_once_with(expected)

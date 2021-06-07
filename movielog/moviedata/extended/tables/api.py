@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
 from movielog.moviedata.extended.tables import (
     countries_table,
     directing_credits_table,
@@ -7,14 +11,19 @@ from movielog.moviedata.extended.tables import (
     writing_credits_table,
 )
 
-update_countries = countries_table.update
+if TYPE_CHECKING:
+    from movielog.moviedata.extended.movies import Movie
 
-update_directing_credits = directing_credits_table.update
 
-update_performing_credits = performing_credits_table.update
+def reload(movies: list[Movie]) -> None:
+    countries_table.update(movies)
 
-update_writing_credits = writing_credits_table.update
+    directing_credits_table.update(movies)
 
-update_release_dates = release_dates_table.update
+    performing_credits_table.update(movies)
 
-update_sort_titles = sort_titles_table.update
+    writing_credits_table.update(movies)
+
+    release_dates_table.update(movies)
+
+    sort_titles_table.update(movies)
