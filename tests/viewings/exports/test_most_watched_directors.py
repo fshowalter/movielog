@@ -200,7 +200,7 @@ def init_db() -> None:
     )
 
 
-def test_exports_highest_rated_directors(tmp_path: str) -> None:
+def test_exports_most_watched_directors(tmp_path: str) -> None:
 
     most_watched_directors.export()
 
