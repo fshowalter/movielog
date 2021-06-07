@@ -211,3 +211,9 @@ def test_can_deserializes_movies(tmp_path: str) -> None:
 
     deserialized_movies = movies.deserialize_all()
     assert expected[0] == deserialized_movies[0]
+
+
+def test_sort_title_only_drops_leading_articles() -> None:
+    expected = "Rio Bravo (1959)"
+
+    assert expected == movies.generate_sort_title("Rio Bravo", "1959")
