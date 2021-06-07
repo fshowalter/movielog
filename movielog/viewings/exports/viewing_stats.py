@@ -30,7 +30,6 @@ def fetch_rows() -> list[Row]:
         , viewings.date
         FROM viewings
         INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
-        LEFT JOIN reviews ON reviews.movie_imdb_id = movies.imdb_id
         ORDER BY
             viewing_year
     """
