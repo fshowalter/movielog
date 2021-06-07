@@ -5,8 +5,8 @@ from datetime import date
 import pytest
 
 from movielog.moviedata.core import movies_table
-from movielog.reviews import reviews_table
-from movielog.reviews.exports import average_grade_for_decades
+from movielog.viewings import viewings_table
+from movielog.viewings.exports import viewing_counts_for_decades
 
 
 @pytest.fixture(autouse=True)
@@ -56,50 +56,35 @@ def init_db() -> None:
         ]
     )
 
-    reviews_table.reload(
+    viewings_table.reload(
         [
-            reviews_table.Row(
+            viewings_table.Row(
                 sequence=1,
-                slug="ride-lonesome-1959",
                 movie_imdb_id="tt0053220",
-                grade="B",
-                grade_value=4,
                 venue="Vudu",
                 date=date(2016, 3, 12),
             ),
-            reviews_table.Row(
+            viewings_table.Row(
                 sequence=2,
-                slug="rio-bravo-1959",
                 movie_imdb_id="tt0053221",
-                grade="A+",
-                grade_value=5.33,
                 venue="Blu-ray",
                 date=date(2016, 4, 10),
             ),
-            reviews_table.Row(
+            viewings_table.Row(
                 sequence=3,
-                slug="fright-night-1985",
                 movie_imdb_id="tt0089175",
-                grade="A+",
-                grade_value=5.33,
                 venue="Blu-ray",
                 date=date(2016, 10, 31),
             ),
-            reviews_table.Row(
+            viewings_table.Row(
                 sequence=1,
-                slug="friday-the-13th-the-final-chapter-1984",
                 movie_imdb_id="tt0087298",
-                grade="B",
-                grade_value=4,
                 venue="Vudu",
                 date=date(2017, 3, 12),
             ),
-            reviews_table.Row(
+            viewings_table.Row(
                 sequence=2,
-                slug="horror-of-dracula-1958",
                 movie_imdb_id="tt0051554",
-                grade="A",
-                grade_value=5,
                 venue="Blu-ray",
                 date=date(2017, 4, 10),
             ),
@@ -107,67 +92,70 @@ def init_db() -> None:
     )
 
 
-def test_exports_average_grade_for_decades(tmp_path: str) -> None:
-    average_grade_for_decades.export()
+def test_exports_viewing_counts_for_decades(tmp_path: str) -> None:
+    viewing_counts_for_decades.export()
 
     expected = {
-        "review_year": "2016",
+        "viewing_year": "2016",
+        "total_viewing_count": 3,
         "decade_stats": [
             {
                 "decade": "1950s",
-                "average_grade_value": 4.665,
+                "viewing_count": 2,
             },
             {
                 "decade": "1980s",
-                "average_grade_value": 5.33,
+                "viewing_count": 1,
             },
         ],
     }
 
     with open(
-        os.path.join(tmp_path, "average_grade_for_decades", "2016.json"), "r"
+        os.path.join(tmp_path, "viewing_counts_for_decades", "2016.json"), "r"
     ) as file2016:
         file_content = json.load(file2016)
 
     assert file_content == expected
 
     expected = {
-        "review_year": "2017",
+        "viewing_year": "2017",
+        "total_viewing_count": 2,
         "decade_stats": [
             {
                 "decade": "1950s",
-                "average_grade_value": 5.0,
+                "viewing_count": 1,
             },
             {
                 "decade": "1980s",
-                "average_grade_value": 4.0,
+                "viewing_count": 1,
             },
         ],
     }
 
     with open(
-        os.path.join(tmp_path, "average_grade_for_decades", "2017.json"), "r"
+        os.path.join(tmp_path, "viewing_counts_for_decades", "2017.json"), "r"
     ) as file2017:
         file_content = json.load(file2017)
 
     assert file_content == expected
 
     expected = {
-        "review_year": "all",
+        "viewing_year": "all",
+        "total_viewing_count": 5,
         "decade_stats": [
             {
                 "decade": "1950s",
-                "average_grade_value": 4.776666666666666,
+                "viewing_count": 3,
             },
             {
                 "decade": "1980s",
-                "average_grade_value": 4.665,
+                "viewing_count": 2,
             },
         ],
     }
 
     with open(
-        os.path.join(tmp_path, "average_grade_for_decades", "all.json"), "r"
+        os.path.join(tmp_path, "viewing_counts_for_decades", "all.json"), "r"
     ) as file_all:
         file_content = json.load(file_all)
 

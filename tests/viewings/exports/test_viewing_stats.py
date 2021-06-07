@@ -90,7 +90,7 @@ def init_db() -> None:
     )
 
 
-def test_exports_review_stats(tmp_path: str) -> None:
+def test_exports_viewing_stats(tmp_path: str) -> None:
     viewing_stats.export()
 
     expected = {
