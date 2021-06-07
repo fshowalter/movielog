@@ -24,7 +24,7 @@ def test_refresh_credits_refreshes_all_types(mocker: MockerFixture) -> None:
     writers_refresh_mock.assert_called_once()
 
 
-def test_export_data_calls_watchlist_table_update_with_all_people_and_collections(
+def test_export_data_calls_table_updater_with_all_people_and_collections(
     mocker: MockerFixture,
 ) -> None:
     mocker.patch(
@@ -33,7 +33,7 @@ def test_export_data_calls_watchlist_table_update_with_all_people_and_collection
 
     mocker.patch("movielog.watchlist.api.exports_api.export")
 
-    watchlist_table_mock = mocker.patch("movielog.watchlist.api.watchlist_table.update")
+    table_updater_mock = mocker.patch("movielog.watchlist.api.table_updater.update")
 
     director = watchlist_api.add_director(imdb_id="nm0001328", name="Howard Hawks")
     performer = watchlist_api.add_performer(imdb_id="nm0000078", name="John Wayne")
@@ -42,7 +42,7 @@ def test_export_data_calls_watchlist_table_update_with_all_people_and_collection
 
     watchlist_api.export_data()
 
-    watchlist_table_mock.assert_called_once_with(
+    table_updater_mock.assert_called_once_with(
         [director, performer, writer], [collection]
     )
 
@@ -57,7 +57,7 @@ def test_movies_returns_all_people_and_collections_movies() -> None:
             slug="howard-hawks",
             movies=[
                 movies.Movie(
-                    title="Rio Bravo", year=1959, imdb_id="nm0001328", notes=""
+                    title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""
                 )
             ],
         )
@@ -85,7 +85,7 @@ def test_movies_returns_all_people_and_collections_movies() -> None:
             slug="john-wayne",
             movies=[
                 movies.Movie(
-                    title="Rio Bravo", year=1959, imdb_id="nm0001328", notes=""
+                    title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""
                 )
             ],
         )
@@ -107,8 +107,8 @@ def test_movies_returns_all_people_and_collections_movies() -> None:
     )
 
     expected = [
-        movies.Movie(title="Rio Bravo", year=1959, imdb_id="nm0001328", notes=""),
-        movies.Movie(title="Rio Bravo", year=1959, imdb_id="nm0001328", notes=""),
+        movies.Movie(title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""),
+        movies.Movie(title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""),
         movies.Movie(imdb_id="tt0038355", title="The Big Sleep", year=1946, notes=""),
         movies.Movie(
             imdb_id="tt0089175",
