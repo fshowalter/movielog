@@ -1,6 +1,6 @@
 from typing import Callable
 
-from movielog.watchlist import movies, table_updater
+from movielog.watchlist import movies, watchlist_table
 from movielog.watchlist.collections import Collection
 from movielog.watchlist.directors import Director
 from movielog.watchlist.performers import Performer
@@ -8,7 +8,7 @@ from movielog.watchlist.writers import Writer
 from tests.conftest import QueryResult
 
 
-def test_update_reloads_watchlist_table_with_given_entities(
+def test_update_reloads_table_with_given_entities(
     sql_query: Callable[[str], QueryResult]
 ) -> None:
 
@@ -102,6 +102,6 @@ def test_update_reloads_watchlist_table_with_given_entities(
         },
     ]
 
-    table_updater.update(people, collections)
+    watchlist_table.update(people, collections)
 
     assert expected == sql_query("SELECT * FROM 'watchlist' order by id;")

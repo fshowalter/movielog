@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from movielog.watchlist import collections as watchlist_collections
-from movielog.watchlist import directors, performers, person, table_updater, writers
+from movielog.watchlist import directors, performers, person, watchlist_table, writers
 from movielog.watchlist.exports import api as exports_api
 from movielog.watchlist.movies import Movie
 
@@ -53,5 +53,5 @@ def export_data() -> None:
     people.extend(directors.deserialize_all())
     people.extend(performers.deserialize_all())
     people.extend(writers.deserialize_all())
-    table_updater.update(people, collections())
+    watchlist_table.update(people, collections())
     exports_api.export()

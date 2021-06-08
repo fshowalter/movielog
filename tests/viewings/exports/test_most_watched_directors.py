@@ -19,7 +19,7 @@ def init_db() -> None:
             movies_table.Row(
                 imdb_id="tt0053221",
                 title="Rio Bravo",
-                original_title="Original Rio Bravo",
+                original_title="Rio Bravo",
                 year=1959,
                 runtime_minutes=141,
                 principal_cast_ids="",
