@@ -24,7 +24,7 @@ def test_refresh_credits_refreshes_all_types(mocker: MockerFixture) -> None:
     writers_refresh_mock.assert_called_once()
 
 
-def test_export_data_calls_table_updater_with_all_people_and_collections(
+def test_export_data_calls_update_table_with_all_people_and_collections(
     mocker: MockerFixture,
 ) -> None:
     mocker.patch(
@@ -33,7 +33,7 @@ def test_export_data_calls_table_updater_with_all_people_and_collections(
 
     mocker.patch("movielog.watchlist.api.exports_api.export")
 
-    table_updater_mock = mocker.patch("movielog.watchlist.api.table_updater.update")
+    watchlist_table_mock = mocker.patch("movielog.watchlist.api.watchlist_table.update")
 
     director = watchlist_api.add_director(imdb_id="nm0001328", name="Howard Hawks")
     performer = watchlist_api.add_performer(imdb_id="nm0000078", name="John Wayne")
@@ -42,7 +42,7 @@ def test_export_data_calls_table_updater_with_all_people_and_collections(
 
     watchlist_api.export_data()
 
-    table_updater_mock.assert_called_once_with(
+    watchlist_table_mock.assert_called_once_with(
         [director, performer, writer], [collection]
     )
 

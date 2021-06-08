@@ -5,10 +5,10 @@ import os
 import pytest
 
 from movielog.moviedata.core import movies_table, people_table
-from movielog.moviedata.extended.tables import performing_credits_table
+from movielog.moviedata.extended.tables import writing_credits_table
 from movielog.reviews import reviews_table
 from movielog.viewings import viewings_table
-from movielog.viewings.exports import most_watched_performers
+from movielog.viewings.exports import most_watched_writers
 from movielog.watchlist import watchlist_table
 
 
@@ -33,11 +33,11 @@ def init_db() -> None:
                 principal_cast_ids="",
             ),
             movies_table.Row(
-                imdb_id="tt0031971",
-                title="Stagecoach",
-                original_title="Stagecoach",
-                year=1939,
-                runtime_minutes=94,
+                imdb_id="tt6019206",
+                title="Kill Bill: The Whole Bloody Affair",
+                original_title="Kill Bill: The Whole Bloody Affair",
+                year=2011,
+                runtime_minutes=247,
                 principal_cast_ids="",
             ),
             movies_table.Row(
@@ -54,47 +54,51 @@ def init_db() -> None:
     people_table.reload(
         [
             people_table.Row(
-                imdb_id="nm0000078",
-                full_name="John Wayne",
+                imdb_id="nm0102824",
+                full_name="Leigh Brackett",
                 known_for_title_ids="",
             ),
             people_table.Row(
-                imdb_id="nm0000007",
-                full_name="Humphrey Bogart",
+                imdb_id="nm0000233",
+                full_name="Quentin Tarantino",
                 known_for_title_ids="",
             ),
             people_table.Row(
-                imdb_id="nm0001697",
-                full_name="Chris Sarandon",
+                imdb_id="nm0276169",
+                full_name="Tom Holland",
                 known_for_title_ids="",
             ),
         ]
     )
 
-    performing_credits_table.reload(
+    writing_credits_table.reload(
         [
-            performing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0053221",
-                person_imdb_id="nm0000078",
+                person_imdb_id="nm0102824",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            performing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0038355",
-                person_imdb_id="nm0000007",
+                person_imdb_id="nm0102824",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            performing_credits_table.Row(
-                movie_imdb_id="tt0031971",
-                person_imdb_id="nm0000078",
+            writing_credits_table.Row(
+                movie_imdb_id="tt6019206",
+                person_imdb_id="nm0000233",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            performing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0089175",
-                person_imdb_id="nm0001697",
+                person_imdb_id="nm0276169",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
         ]
@@ -115,7 +119,7 @@ def init_db() -> None:
                 venue="Blu-ray",
             ),
             viewings_table.Row(
-                movie_imdb_id="tt0031971",
+                movie_imdb_id="tt6019206",
                 date=datetime.date(2017, 4, 29),
                 sequence=3,
                 venue="New Beverly",
@@ -150,12 +154,12 @@ def init_db() -> None:
                 venue="Blu-ray",
             ),
             reviews_table.Row(
-                movie_imdb_id="tt0031971",
+                movie_imdb_id="tt6019206",
                 date=datetime.date(2017, 4, 29),
                 sequence=3,
                 grade="A",
                 grade_value=5,
-                slug="stagecoach-1939",
+                slug="kill-bill-the-whole-bloody-affair-2011",
                 venue="New Beverly",
             ),
             reviews_table.Row(
@@ -175,42 +179,42 @@ def init_db() -> None:
             watchlist_table.Row(
                 movie_imdb_id="tt0053221",
                 director_imdb_id=None,
-                slug="john-wayne",
-                performer_imdb_id="nm0000078",
-                writer_imdb_id=None,
+                slug="leigh-brackett",
+                performer_imdb_id=None,
+                writer_imdb_id="nm0102824",
                 collection_name=None,
             ),
             watchlist_table.Row(
                 movie_imdb_id="tt0038355",
                 director_imdb_id=None,
-                slug="humphrey-bogart",
-                performer_imdb_id="nm0000007",
-                writer_imdb_id=None,
+                slug="leigh-brackett",
+                performer_imdb_id=None,
+                writer_imdb_id="nm0102824",
                 collection_name=None,
             ),
             watchlist_table.Row(
-                movie_imdb_id="tt0031971",
+                movie_imdb_id="tt6019206",
                 director_imdb_id=None,
-                slug="john-wayne",
-                performer_imdb_id="nm0000078",
-                writer_imdb_id=None,
+                slug="quentin-tarantino",
+                performer_imdb_id=None,
+                writer_imdb_id="nm0000233",
                 collection_name=None,
             ),
         ]
     )
 
 
-def test_exports_most_watched_performers(tmp_path: str) -> None:
+def test_exports_most_watched_directors(tmp_path: str) -> None:
 
-    most_watched_performers.export()
+    most_watched_writers.export()
 
     expected = {
         "viewing_year": "2016",
         "most_watched": [
             {
-                "imdb_id": "nm0000078",
-                "full_name": "John Wayne",
-                "slug": "john-wayne",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "viewing_count": 1,
                 "viewings": [
                     {
@@ -228,7 +232,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "most_watched_performers", "2016.json"), "r"
+        os.path.join(tmp_path, "most_watched_writers", "2016.json"), "r"
     ) as file2016:
         file_content = json.load(file2016)
 
@@ -238,9 +242,9 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
         "viewing_year": "2017",
         "most_watched": [
             {
-                "imdb_id": "nm0000007",
-                "full_name": "Humphrey Bogart",
-                "slug": "humphrey-bogart",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "viewing_count": 1,
                 "viewings": [
                     {
@@ -255,25 +259,25 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                 ],
             },
             {
-                "imdb_id": "nm0000078",
-                "full_name": "John Wayne",
-                "slug": "john-wayne",
+                "imdb_id": "nm0000233",
+                "full_name": "Quentin Tarantino",
+                "slug": "quentin-tarantino",
                 "viewing_count": 1,
                 "viewings": [
                     {
                         "venue": "New Beverly",
                         "date": "2017-04-29",
                         "movie": {
-                            "title": "Stagecoach",
-                            "year": 1939,
-                            "slug": "stagecoach-1939",
+                            "title": "Kill Bill: The Whole Bloody Affair",
+                            "year": 2011,
+                            "slug": "kill-bill-the-whole-bloody-affair-2011",
                         },
                     }
                 ],
             },
             {
-                "imdb_id": "nm0001697",
-                "full_name": "Chris Sarandon",
+                "imdb_id": "nm0276169",
+                "full_name": "Tom Holland",
                 "slug": None,
                 "viewing_count": 1,
                 "viewings": [
@@ -292,7 +296,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "most_watched_performers", "2017.json"), "r"
+        os.path.join(tmp_path, "most_watched_writers", "2017.json"), "r"
     ) as file2017:
         file_content = json.load(file2017)
 
@@ -302,9 +306,9 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
         "viewing_year": "all",
         "most_watched": [
             {
-                "imdb_id": "nm0000078",
-                "full_name": "John Wayne",
-                "slug": "john-wayne",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "viewing_count": 2,
                 "viewings": [
                     {
@@ -317,23 +321,6 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                         },
                     },
                     {
-                        "venue": "New Beverly",
-                        "date": "2017-04-29",
-                        "movie": {
-                            "title": "Stagecoach",
-                            "year": 1939,
-                            "slug": "stagecoach-1939",
-                        },
-                    },
-                ],
-            },
-            {
-                "imdb_id": "nm0000007",
-                "full_name": "Humphrey Bogart",
-                "slug": "humphrey-bogart",
-                "viewing_count": 1,
-                "viewings": [
-                    {
                         "venue": "Blu-ray",
                         "date": "2017-03-12",
                         "movie": {
@@ -341,12 +328,29 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                             "year": 1946,
                             "slug": "the-big-sleep-1946",
                         },
+                    },
+                ],
+            },
+            {
+                "imdb_id": "nm0000233",
+                "full_name": "Quentin Tarantino",
+                "slug": "quentin-tarantino",
+                "viewing_count": 1,
+                "viewings": [
+                    {
+                        "venue": "New Beverly",
+                        "date": "2017-04-29",
+                        "movie": {
+                            "title": "Kill Bill: The Whole Bloody Affair",
+                            "year": 2011,
+                            "slug": "kill-bill-the-whole-bloody-affair-2011",
+                        },
                     }
                 ],
             },
             {
-                "imdb_id": "nm0001697",
-                "full_name": "Chris Sarandon",
+                "imdb_id": "nm0276169",
+                "full_name": "Tom Holland",
                 "slug": None,
                 "viewing_count": 1,
                 "viewings": [
@@ -365,7 +369,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "most_watched_performers", "all.json"), "r"
+        os.path.join(tmp_path, "most_watched_writers", "all.json"), "r"
     ) as file_all:
         file_content = json.load(file_all)
 

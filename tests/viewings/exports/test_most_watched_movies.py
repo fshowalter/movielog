@@ -17,7 +17,7 @@ def init_db() -> None:
             movies_table.Row(
                 imdb_id="tt0053221",
                 title="Rio Bravo",
-                original_title="Original Rio Bravo",
+                original_title="Rio Bravo",
                 year=1959,
                 runtime_minutes=141,
                 principal_cast_ids="nm0000078",
@@ -25,7 +25,7 @@ def init_db() -> None:
             movies_table.Row(
                 imdb_id="tt0190590",
                 title="O Brother, Where Art Thou?",
-                original_title="Original Rio Bravo",
+                original_title="O Brother, Where Art Thou?",
                 year=2000,
                 runtime_minutes=121,
                 principal_cast_ids="",
