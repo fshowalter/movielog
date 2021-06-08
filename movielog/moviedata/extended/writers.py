@@ -13,7 +13,6 @@ INVALID_NOTES = (
     "(characters) (uncredited)",
     '("Alien" characters)',
     "(based on the Marvel comics by)",
-    "(based on the Marvel comics by) and",
     "(based on characters created by)",
     "(based on elements created by)",
     "(excerpt)",
