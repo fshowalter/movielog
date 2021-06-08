@@ -5,9 +5,9 @@ import os
 import pytest
 
 from movielog.moviedata.core import movies_table, people_table
-from movielog.moviedata.extended.tables import directing_credits_table
+from movielog.moviedata.extended.tables import writing_credits_table
 from movielog.reviews import reviews_table
-from movielog.reviews.exports import highest_rated_directors
+from movielog.reviews.exports import highest_rated_writers
 from movielog.watchlist import watchlist_table
 
 
@@ -53,8 +53,8 @@ def init_db() -> None:
     people_table.reload(
         [
             people_table.Row(
-                imdb_id="nm0001328",
-                full_name="Howard Hawks",
+                imdb_id="nm0102824",
+                full_name="Leigh Brackett",
                 known_for_title_ids="",
             ),
             people_table.Row(
@@ -70,30 +70,34 @@ def init_db() -> None:
         ]
     )
 
-    directing_credits_table.reload(
+    writing_credits_table.reload(
         [
-            directing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0053221",
-                person_imdb_id="nm0001328",
+                person_imdb_id="nm0102824",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            directing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0038355",
-                person_imdb_id="nm0001328",
+                person_imdb_id="nm0102824",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            directing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt6019206",
                 person_imdb_id="nm0000233",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
-            directing_credits_table.Row(
+            writing_credits_table.Row(
                 movie_imdb_id="tt0089175",
                 person_imdb_id="nm0276169",
                 sequence=0,
+                group_id=0,
                 notes="",
             ),
         ]
@@ -144,43 +148,43 @@ def init_db() -> None:
         [
             watchlist_table.Row(
                 movie_imdb_id="tt0053221",
-                director_imdb_id="nm0001328",
-                slug="howard-hawks",
+                director_imdb_id=None,
+                slug="leigh-brackett",
                 performer_imdb_id=None,
-                writer_imdb_id=None,
+                writer_imdb_id="nm0102824",
                 collection_name=None,
             ),
             watchlist_table.Row(
                 movie_imdb_id="tt0038355",
-                director_imdb_id="nm0001328",
-                slug="howard-hawks",
+                director_imdb_id=None,
+                slug="leigh-brackett",
                 performer_imdb_id=None,
-                writer_imdb_id=None,
+                writer_imdb_id="nm0102824",
                 collection_name=None,
             ),
             watchlist_table.Row(
                 movie_imdb_id="tt6019206",
-                director_imdb_id="nm0000233",
+                director_imdb_id=None,
                 slug="quentin-tarantino",
                 performer_imdb_id=None,
-                writer_imdb_id=None,
+                writer_imdb_id="nm0000233",
                 collection_name=None,
             ),
         ]
     )
 
 
-def test_exports_highest_rated_directors(tmp_path: str) -> None:
+def test_exports_highest_rated_writers(tmp_path: str) -> None:
 
-    highest_rated_directors.export()
+    highest_rated_writers.export()
 
     expected = {
         "review_year": "2016",
         "highest_rated": [
             {
-                "imdb_id": "nm0001328",
-                "full_name": "Howard Hawks",
-                "slug": "howard-hawks",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "average_grade_value": 5.33,
                 "review_count": 1,
                 "reviews": [
@@ -199,7 +203,7 @@ def test_exports_highest_rated_directors(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "highest_rated_directors", "2016.json"), "r"
+        os.path.join(tmp_path, "highest_rated_writers", "2016.json"), "r"
     ) as file2016:
         file_content = json.load(file2016)
 
@@ -227,9 +231,9 @@ def test_exports_highest_rated_directors(tmp_path: str) -> None:
                 ],
             },
             {
-                "imdb_id": "nm0001328",
-                "full_name": "Howard Hawks",
-                "slug": "howard-hawks",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "average_grade_value": 5.0,
                 "review_count": 1,
                 "reviews": [
@@ -266,7 +270,7 @@ def test_exports_highest_rated_directors(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "highest_rated_directors", "2017.json"), "r"
+        os.path.join(tmp_path, "highest_rated_writers", "2017.json"), "r"
     ) as file2017:
         file_content = json.load(file2017)
 
@@ -294,9 +298,9 @@ def test_exports_highest_rated_directors(tmp_path: str) -> None:
                 ],
             },
             {
-                "imdb_id": "nm0001328",
-                "full_name": "Howard Hawks",
-                "slug": "howard-hawks",
+                "imdb_id": "nm0102824",
+                "full_name": "Leigh Brackett",
+                "slug": "leigh-brackett",
                 "average_grade_value": 5.165,
                 "review_count": 2,
                 "reviews": [
@@ -342,7 +346,7 @@ def test_exports_highest_rated_directors(tmp_path: str) -> None:
     }
 
     with open(
-        os.path.join(tmp_path, "highest_rated_directors", "all.json"), "r"
+        os.path.join(tmp_path, "highest_rated_writers", "all.json"), "r"
     ) as file_all:
         file_content = json.load(file_all)
 
