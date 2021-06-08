@@ -3,12 +3,15 @@ from __future__ import annotations
 import os
 import sqlite3
 from typing import Any, Callable, Dict, Generator, List, Tuple
+from unittest.mock import MagicMock
 
 import pytest
 from pytest_mock import MockerFixture
 
 from movielog import db
 from movielog.moviedata.core import downloader
+from movielog.moviedata.extended import movies
+from movielog.watchlist import filmography
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
 
@@ -25,6 +28,16 @@ def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
 
 
 original_download_dir = downloader.DOWNLOAD_DIR
+
+
+@pytest.fixture(autouse=True)
+def mock_filmography_imdb_http(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch.object(filmography.imdb_http, "get_person")
+
+
+@pytest.fixture(autouse=True)
+def mock_moviedata_extended_movies_imdb_http(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch.object(movies.imdb_http, "get_movie")
 
 
 @pytest.fixture(autouse=True)
