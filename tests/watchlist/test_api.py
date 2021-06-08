@@ -27,10 +27,6 @@ def test_refresh_credits_refreshes_all_types(mocker: MockerFixture) -> None:
 def test_export_data_calls_update_table_with_all_people_and_collections(
     mocker: MockerFixture,
 ) -> None:
-    mocker.patch(
-        "movielog.watchlist.filmography.filmography_for_person", return_value=[]
-    )
-
     mocker.patch("movielog.watchlist.api.exports_api.export")
 
     watchlist_table_mock = mocker.patch("movielog.watchlist.api.watchlist_table.update")

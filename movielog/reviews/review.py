@@ -17,9 +17,6 @@ class Review(object):
 
     @property
     def grade_value(self) -> float:
-        if not self.grade:
-            return 0
-
         value_modifier = 0.33
 
         grade_map = {
