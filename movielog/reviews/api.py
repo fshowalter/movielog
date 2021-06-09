@@ -17,8 +17,7 @@ def save(review: Review) -> str:
     return serializer.serialize(review)
 
 
-def export_data() -> None:
-    exports_api.export()
+export_data = exports_api.export
 
 
 def create(  # noqa: WPS211

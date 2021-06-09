@@ -51,7 +51,6 @@ def parse_release_dates(raw_release_dates: list[Dict[str, str]]) -> list[Release
 
 def parse(imdb_movie: imdb.Movie.Movie) -> ReleaseDate:
     raw_release_dates = imdb_movie.get("raw release dates")
-
     if not raw_release_dates:
         return no_release_date(imdb_movie)
 
