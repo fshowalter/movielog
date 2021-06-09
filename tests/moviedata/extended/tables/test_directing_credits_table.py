@@ -7,7 +7,7 @@ from movielog.moviedata.extended.tables import directing_credits_table
 from tests.conftest import QueryResult
 
 
-def test_update_adds_countries(sql_query: Callable[[str], QueryResult]) -> None:
+def test_update_adds_directors(sql_query: Callable[[str], QueryResult]) -> None:
     expected = [
         {
             "movie_imdb_id": "tt0086979",
