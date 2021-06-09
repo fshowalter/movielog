@@ -34,6 +34,14 @@ def init_db() -> None:
                 runtime_minutes=121,
                 principal_cast_ids="",
             ),
+            movies_table.Row(
+                imdb_id="tt0055928",
+                title="Dr. No",
+                original_title="Dr. No",
+                year=1962,
+                runtime_minutes=111,
+                principal_cast_ids="",
+            ),
         ]
     )
 
@@ -84,6 +92,11 @@ def init_db() -> None:
                 release_date=datetime.date(2000, 5, 13),
                 notes="(Cannes Film Festival)",
             ),
+            release_dates_table.Row(
+                movie_imdb_id="tt0055928",
+                release_date=datetime.date(1962, 10, 5),
+                notes="(London) (premiere)",
+            ),
         ]
     )
 
@@ -93,6 +106,7 @@ def init_db() -> None:
             countries_table.Row(movie_imdb_id="tt0190590", country="United Kingdom"),
             countries_table.Row(movie_imdb_id="tt0190590", country="United States"),
             countries_table.Row(movie_imdb_id="tt0190590", country="France"),
+            countries_table.Row(movie_imdb_id="tt0055928", country="United Kingdom"),
         ]
     )
 
@@ -102,6 +116,7 @@ def init_db() -> None:
             sort_titles_table.Row(
                 movie_imdb_id="tt0190590", sort_title="O Brother, Where Art Thou?"
             ),
+            sort_titles_table.Row(movie_imdb_id="tt0055928", sort_title="Dr. No"),
         ]
     )
 
@@ -147,6 +162,14 @@ def init_db() -> None:
                 writer_imdb_id="nm0102824",
                 collection_name=None,
             ),
+            watchlist_table.Row(
+                movie_imdb_id="tt0055928",
+                director_imdb_id=None,
+                slug="james-bond",
+                performer_imdb_id=None,
+                writer_imdb_id=None,
+                collection_name="James Bond",
+            ),
         ]
     )
 
@@ -182,6 +205,22 @@ def test_exports_watchlist_movies(tmp_path: str) -> None:
                 },
             ],
             "collections": [],
+        },
+        {
+            "imdb_id": "tt0055928",
+            "title": "Dr. No",
+            "year": 1962,
+            "sort_title": "Dr. No",
+            "release_date": "1962-10-05",
+            "directors": [],
+            "performers": [],
+            "writers": [],
+            "collections": [
+                {
+                    "name": "James Bond",
+                    "slug": "james-bond",
+                }
+            ],
         },
         {
             "imdb_id": "tt0190590",
