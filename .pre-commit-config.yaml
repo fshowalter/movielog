@@ -4,15 +4,36 @@ repos:
     hooks:
     -   id: no-commit-to-branch
     -   id: requirements-txt-fixer
--   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: '0f75d9fd2d6e07a5f96515d1b82c7161b23aed7d'
-    hooks:
-    -   id: mypy
--   repo: https://github.com/psf/black
-    rev: 19.3b0
+-   repo: local
     hooks:
     -   id: black
--   repo: https://github.com/pycqa/flake8
-    rev: '3.9.2'
-    hooks:
+        name: black
+        entry: black
+        language: system
+        types: [python]
+        pass_filenames: true
     -   id: flake8
+        name: flake8
+        entry: flake8
+        language: system
+        files: '^(movielog|test)/.*$'
+        types: [python]
+        pass_filenames: true
+    -   id: mypy
+        name: mypy
+        entry: mypy movielog tests
+        language: system
+        types: [python]
+        pass_filenames: true
+    -   id: pytest
+        name: pytest
+        entry: pytest tests
+        language: system
+        files: '^(movielog|test)/.*$'
+        pass_filenames: false
+    -   id: vale
+        name: vale
+        entry: vale
+        language: system
+        files: '^reviews/*.md$'
+        pass_filenames: true
