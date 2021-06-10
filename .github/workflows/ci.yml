@@ -57,10 +57,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: mypy install types
-        run: mypy --install-types
-
-      - name: mypy movielog tests
+      - name: mypy --no-incremental --install-types movielog tests
         run: mypy movielog tests
 
 
