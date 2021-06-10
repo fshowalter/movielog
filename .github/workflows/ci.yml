@@ -57,11 +57,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: mypy movielog
-        run: mypy movielog
+      - name: mypy install types
+        run: mypy --install-types
 
-      - name: mypy tests
-        run: mypy tests
+      - name: mypy movielog tests
+        run: mypy movielog tests
 
 
   flake8:
