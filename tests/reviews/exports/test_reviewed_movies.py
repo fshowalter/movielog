@@ -22,11 +22,19 @@ def init_db() -> None:
             movies_table.Row(
                 imdb_id="tt0053221",
                 title="Rio Bravo",
-                original_title="Original Rio Bravo",
+                original_title="Rio Bravo",
                 year=1959,
                 runtime_minutes=141,
-                principal_cast_ids="nm0000078,nm0001509,nm0625699,nm0001141",
-            )
+                principal_cast_ids="nm0000078,nm0001509,nm0625699",
+            ),
+            movies_table.Row(
+                imdb_id="tt0051554",
+                title="Horror of Dracula",
+                original_title="Dracula",
+                year=1958,
+                runtime_minutes=98,
+                principal_cast_ids="nm0001088,nm0000489",
+            ),
         ]
     )
 
@@ -53,8 +61,18 @@ def init_db() -> None:
                 known_for_title_ids="",
             ),
             people_table.Row(
-                imdb_id="nm0001141",
-                full_name="Angie Dickinson",
+                imdb_id="nm0001088",
+                full_name="Peter Cushing",
+                known_for_title_ids="",
+            ),
+            people_table.Row(
+                imdb_id="nm0000489",
+                full_name="Christopher Lee",
+                known_for_title_ids="",
+            ),
+            people_table.Row(
+                imdb_id="nm0279807",
+                full_name="Terence Fisher",
                 known_for_title_ids="",
             ),
         ]
@@ -81,16 +99,29 @@ def init_db() -> None:
                 movie_imdb_id="tt0053221",
                 release_date=datetime.date(1959, 3, 18),
                 notes="",
-            )
+            ),
+            release_dates_table.Row(
+                movie_imdb_id="tt0051554",
+                release_date=datetime.date(1958, 5, 8),
+                notes="",
+            ),
         ]
     )
 
     countries_table.reload(
-        [countries_table.Row(movie_imdb_id="tt0053221", country="United States")]
+        [
+            countries_table.Row(movie_imdb_id="tt0053221", country="United States"),
+            countries_table.Row(movie_imdb_id="tt0051554", country="United Kingdom"),
+        ]
     )
 
     sort_titles_table.reload(
-        [sort_titles_table.Row(movie_imdb_id="tt0053221", sort_title="Rio Bravo")]
+        [
+            sort_titles_table.Row(movie_imdb_id="tt0053221", sort_title="Rio Bravo"),
+            sort_titles_table.Row(
+                movie_imdb_id="tt0051554", sort_title="Horror of Dracula"
+            ),
+        ]
     )
 
     directing_credits_table.reload(
@@ -100,7 +131,13 @@ def init_db() -> None:
                 person_imdb_id="nm0001328",
                 sequence=0,
                 notes="",
-            )
+            ),
+            directing_credits_table.Row(
+                movie_imdb_id="tt0051554",
+                person_imdb_id="nm0279807",
+                sequence=0,
+                notes="",
+            ),
         ]
     )
 
@@ -114,7 +151,16 @@ def init_db() -> None:
                 grade_value=5.33,
                 slug="rio-bravo-1959",
                 venue="Blu-ray",
-            )
+            ),
+            reviews_table.Row(
+                movie_imdb_id="tt0051554",
+                date=datetime.date(2021, 3, 12),
+                sequence=166,
+                grade="A",
+                grade_value=5.0,
+                slug="horror-of-dracula-1958",
+                venue="Blu-ray",
+            ),
         ]
     )
 
@@ -122,9 +168,39 @@ def init_db() -> None:
 def test_exports_reviewed_movies(tmp_path: str) -> None:
     expected = [
         {
+            "imdb_id": "tt0051554",
+            "title": "Horror of Dracula",
+            "original_title": "Dracula",
+            "year": 1958,
+            "review_date": "2021-03-12",
+            "review_sequence": 166,
+            "release_date": "1958-05-08",
+            "last_review_grade": "A",
+            "last_review_grade_value": 5,
+            "slug": "horror-of-dracula-1958",
+            "sort_title": "Horror of Dracula",
+            "principal_cast_ids": "nm0001088,nm0000489",
+            "runtime_minutes": 98,
+            "directors": [
+                {
+                    "full_name": "Terence Fisher",
+                }
+            ],
+            "principal_cast": [
+                {
+                    "full_name": "Peter Cushing",
+                },
+                {
+                    "full_name": "Christopher Lee",
+                },
+            ],
+            "countries": ["United Kingdom"],
+            "aka_titles": ["Dracula"],
+        },
+        {
             "imdb_id": "tt0053221",
             "title": "Rio Bravo",
-            "original_title": "Original Rio Bravo",
+            "original_title": "Rio Bravo",
             "year": 1959,
             "review_date": "2021-01-29",
             "review_sequence": 165,
@@ -133,7 +209,7 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "last_review_grade_value": 5.33,
             "slug": "rio-bravo-1959",
             "sort_title": "Rio Bravo",
-            "principal_cast_ids": "nm0000078,nm0001509,nm0625699,nm0001141",
+            "principal_cast_ids": "nm0000078,nm0001509,nm0625699",
             "runtime_minutes": 141,
             "directors": [
                 {
@@ -150,11 +226,10 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
                 {
                     "full_name": "Ricky Nelson",
                 },
-                {"full_name": "Angie Dickinson"},
             ],
             "countries": ["United States"],
-            "aka_titles": ["Howard Hawks' Rio Bravo", "Original Rio Bravo"],
-        }
+            "aka_titles": ["Howard Hawks' Rio Bravo"],
+        },
     ]
 
     reviewed_movies.export()
