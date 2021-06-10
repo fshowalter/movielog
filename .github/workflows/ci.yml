@@ -58,7 +58,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: mypy --no-incremental --install-types movielog tests
-        run: mypy movielog tests
+        run: mypy --no-incremental --install-types movielog tests
 
 
   flake8:
