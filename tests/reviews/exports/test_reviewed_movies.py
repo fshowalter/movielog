@@ -35,6 +35,14 @@ def init_db() -> None:
                 runtime_minutes=98,
                 principal_cast_ids="nm0001088,nm0000489",
             ),
+            movies_table.Row(
+                imdb_id="tt0098327",
+                title="The Seventh Continent",
+                original_title="Der siebente Kontinent",
+                year=1989,
+                runtime_minutes=120,
+                principal_cast_ids="",
+            ),
         ]
     )
 
@@ -75,6 +83,11 @@ def init_db() -> None:
                 full_name="Terence Fisher",
                 known_for_title_ids="",
             ),
+            people_table.Row(
+                imdb_id="nm0359734",
+                full_name="Michael Haneke",
+                known_for_title_ids="",
+            ),
         ]
     )
 
@@ -82,12 +95,22 @@ def init_db() -> None:
         [
             aka_titles_table.Row(
                 movie_imdb_id="tt0053221",
-                sequence=36,
+                sequence=1,
                 title="Howard Hawks' Rio Bravo",
                 region="US",
                 language=None,
                 is_original_title=False,
                 attributes="complete title",
+                types=None,
+            ),
+            aka_titles_table.Row(
+                movie_imdb_id="tt0051554",
+                sequence=1,
+                title="Dracula",
+                region="US",
+                language=None,
+                is_original_title=True,
+                attributes="original title",
                 types=None,
             ),
         ]
@@ -105,6 +128,11 @@ def init_db() -> None:
                 release_date=datetime.date(1958, 5, 8),
                 notes="",
             ),
+            release_dates_table.Row(
+                movie_imdb_id="tt0098327",
+                release_date=datetime.date(1989, 5, 19),
+                notes="",
+            ),
         ]
     )
 
@@ -112,6 +140,7 @@ def init_db() -> None:
         [
             countries_table.Row(movie_imdb_id="tt0053221", country="United States"),
             countries_table.Row(movie_imdb_id="tt0051554", country="United Kingdom"),
+            countries_table.Row(movie_imdb_id="tt0098327", country="Austria"),
         ]
     )
 
@@ -120,6 +149,9 @@ def init_db() -> None:
             sort_titles_table.Row(movie_imdb_id="tt0053221", sort_title="Rio Bravo"),
             sort_titles_table.Row(
                 movie_imdb_id="tt0051554", sort_title="Horror of Dracula"
+            ),
+            sort_titles_table.Row(
+                movie_imdb_id="tt0098327", sort_title="Seventh Continent"
             ),
         ]
     )
@@ -135,6 +167,12 @@ def init_db() -> None:
             directing_credits_table.Row(
                 movie_imdb_id="tt0051554",
                 person_imdb_id="nm0279807",
+                sequence=0,
+                notes="",
+            ),
+            directing_credits_table.Row(
+                movie_imdb_id="tt0098327",
+                person_imdb_id="nm0359734",
                 sequence=0,
                 notes="",
             ),
@@ -159,6 +197,15 @@ def init_db() -> None:
                 grade="A",
                 grade_value=5.0,
                 slug="horror-of-dracula-1958",
+                venue="Blu-ray",
+            ),
+            reviews_table.Row(
+                movie_imdb_id="tt0098327",
+                date=datetime.date(2021, 10, 31),
+                sequence=167,
+                grade="A",
+                grade_value=5.0,
+                slug="the-seventh-continent-1989",
                 venue="Blu-ray",
             ),
         ]
@@ -229,6 +276,29 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             ],
             "countries": ["United States"],
             "aka_titles": ["Howard Hawks' Rio Bravo"],
+        },
+        {
+            "imdb_id": "tt0098327",
+            "title": "The Seventh Continent",
+            "original_title": "Der siebente Kontinent",
+            "year": 1989,
+            "review_date": "2021-10-31",
+            "review_sequence": 167,
+            "release_date": "1989-05-19",
+            "last_review_grade": "A",
+            "last_review_grade_value": 5,
+            "slug": "the-seventh-continent-1989",
+            "sort_title": "Seventh Continent",
+            "principal_cast_ids": "",
+            "runtime_minutes": 120,
+            "directors": [
+                {
+                    "full_name": "Michael Haneke",
+                }
+            ],
+            "principal_cast": [],
+            "countries": ["Austria"],
+            "aka_titles": ["Der siebente Kontinent"],
         },
     ]
 
