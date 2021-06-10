@@ -24,7 +24,7 @@ repos:
         entry: mypy movielog tests
         language: system
         types: [python]
-        pass_filenames: true
+        pass_filenames: false
     -   id: pytest
         name: pytest
         entry: pytest tests
@@ -35,5 +35,6 @@ repos:
         name: vale
         entry: vale
         language: system
-        files: '^reviews/*.md$'
+        files: '^reviews\/.*$'
+        types: [markdown]
         pass_filenames: true
