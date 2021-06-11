@@ -28,7 +28,9 @@ def stub_venues(mocker: MockerFixture) -> None:
         "Blu-ray",
     ]
 
-    mocker.patch("movielog.cli.add_viewing.movielog_api.venues", return_value=venues)
+    mocker.patch(
+        "movielog.cli.add_viewing.movielog_api.active_venues", return_value=venues
+    )
 
 
 @pytest.fixture(autouse=True)
