@@ -1,12 +1,13 @@
 import json
 import os
+from datetime import date, timedelta
 
 from movielog.viewings import venues
 
 
-def test_active_venues_returns_sorted_filtered_venues(tmp_path: str) -> None:
+def test_active_venues_returns_recent_venues(tmp_path: str) -> None:
 
-    expected = ["Alamo Drafthouse", "Blu-ray", "DVD"]
+    expected = ["Alamo Drafthouse", "Blu-ray"]
 
     existing_viewings = [
         {
@@ -18,21 +19,21 @@ def test_active_venues_returns_sorted_filtered_venues(tmp_path: str) -> None:
         },
         {
             "sequence": 2,
-            "date": "2006-03-26",
-            "imdb_id": "tt0266697",
-            "title": "Kill Bill: Vol. 1 (2003)",
-            "venue": "Alamo Drafthouse",
-        },
-        {
-            "sequence": 3,
             "date": "2006-04-29",
             "imdb_id": "tt0025480",
             "title": "Bad Seed (1934)",
             "venue": "Arte",
         },
         {
+            "sequence": 3,
+            "date": (date.today() - timedelta(days=1)).isoformat(),
+            "imdb_id": "tt0266697",
+            "title": "Kill Bill: Vol. 1 (2003)",
+            "venue": "Alamo Drafthouse",
+        },
+        {
             "sequence": 4,
-            "date": "2007-03-26",
+            "date": date.today().isoformat(),
             "imdb_id": "tt0053221",
             "title": "Rio Bravo (1959)",
             "venue": "Blu-ray",
@@ -45,4 +46,4 @@ def test_active_venues_returns_sorted_filtered_venues(tmp_path: str) -> None:
         ) as output_file:
             output_file.write(json.dumps(existing_viewing))
 
-    assert expected == venues.active()
+    assert expected == venues.recent()
