@@ -1,8 +1,7 @@
 from datetime import date
-from typing import Sequence
 
 from movielog.utils import sequence_tools
-from movielog.viewings import serializer, viewings_table
+from movielog.viewings import serializer, venues, viewings_table
 from movielog.viewings.exports import api as exports_api
 from movielog.viewings.viewing import Viewing
 
@@ -12,9 +11,7 @@ viewings = serializer.deserialize_all
 
 export_data = exports_api.export
 
-
-def venues() -> Sequence[str]:
-    return sorted(set([viewing.venue for viewing in viewings()]))
+active_venues = venues.active
 
 
 def create(

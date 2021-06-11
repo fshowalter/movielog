@@ -115,7 +115,7 @@ def ask_for_venue() -> Optional[str]:
 
 
 def build_venue_options() -> List[Option]:
-    venues = movielog_api.venues()
+    venues = movielog_api.active_venues()
 
     options: List[Option] = []
 
