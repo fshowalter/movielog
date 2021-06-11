@@ -29,7 +29,7 @@ def stub_venues(mocker: MockerFixture) -> None:
     ]
 
     mocker.patch(
-        "movielog.cli.add_viewing.movielog_api.active_venues", return_value=venues
+        "movielog.cli.add_viewing.movielog_api.recent_venues", return_value=venues
     )
 
 

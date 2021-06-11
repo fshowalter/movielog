@@ -1,30 +1,17 @@
+from datetime import date
 from typing import Sequence
 
 from movielog.viewings import serializer
+from movielog.viewings.viewing import Viewing
 
-INACTIVE_VENUES = (
-    "AFI Silver",
-    "AMC Tysons Corner",
-    "Alamo Drafthouse Cinema - Winchester",
-    "Alamo Drafthouse Cinema - Woodbridge",
-    "Angelika Film Center Mosaic",
-    "Arte",
-    "Encore HD",
-    "FXM",
-    "HBO GO",
-    "HBO HD",
-    "HDNet",
-    "Landmark E Street Cinema",
-    "Prince Charles Cinema",
-    "Sun & Surf Cinema",
-    "TCM",
-    "The Black Cat",
-)
+RECENT_DAYS = 365
 
 
-def active() -> Sequence[str]:
-    all_venues = sorted(
-        set([viewing.venue for viewing in serializer.deserialize_all()])
-    )
+def viewing_is_recent(viewing: Viewing) -> bool:
+    return (date.today() - viewing.date).days < RECENT_DAYS
 
-    return list(filter(lambda venue: venue not in INACTIVE_VENUES, all_venues))
+
+def recent() -> Sequence[str]:
+    recent_viewings = filter(viewing_is_recent, serializer.deserialize_all())
+
+    return sorted(set([viewing.venue for viewing in recent_viewings]))
