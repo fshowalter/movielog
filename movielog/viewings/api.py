@@ -11,7 +11,7 @@ viewings = serializer.deserialize_all
 
 export_data = exports_api.export
 
-active_venues = venues.active
+recent_venues = venues.recent
 
 
 def create(

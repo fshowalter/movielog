@@ -9,7 +9,7 @@ Collection = watchlist_api.Collection
 
 create_viewing = viewings_api.create
 
-active_venues = viewings_api.active_venues
+recent_venues = viewings_api.recent_venues
 
 # review methods
 

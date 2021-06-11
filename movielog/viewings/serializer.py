@@ -16,7 +16,7 @@ FOLDER_NAME = "viewings"
 
 class JsonViewing(TypedDict):
     sequence: int
-    date: date
+    date: str
     imdb_id: str
     title: str
     venue: str
@@ -33,7 +33,7 @@ def deserialize(file_path: str) -> Viewing:
         title=json_object["title"],
         venue=json_object["venue"],
         sequence=json_object["sequence"],
-        date=json_object["date"],
+        date=date.fromisoformat(json_object["date"]),
     )
 
 
