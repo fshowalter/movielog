@@ -3,7 +3,6 @@ from __future__ import annotations
 from movielog.watchlist import collections as watchlist_collections
 from movielog.watchlist import directors, performers, person, watchlist_table, writers
 from movielog.watchlist.exports import api as exports_api
-from movielog.watchlist.movies import Movie
 
 Collection = watchlist_collections.Collection
 Director = directors.Director
@@ -14,7 +13,7 @@ Person = person.Person
 collections = watchlist_collections.deserialize_all
 
 
-def movies() -> list[Movie]:
+def movie_ids() -> set[str]:
     people: list[Person] = []
     people.extend(directors.deserialize_all())
     people.extend(performers.deserialize_all())
@@ -28,7 +27,7 @@ def movies() -> list[Movie]:
     for collection in collections():
         all_movies.extend(collection.movies)
 
-    return all_movies
+    return set([movie.imdb_id for movie in all_movies])
 
 
 add_director = directors.add

@@ -13,8 +13,16 @@ def test_export_calls_all_exports(
         mocker.patch("movielog.reviews.exports.api.highest_rated_directors.export"),
         mocker.patch("movielog.reviews.exports.api.highest_rated_performers.export"),
         mocker.patch("movielog.reviews.exports.api.highest_rated_writers.export"),
+        mocker.patch("movielog.reviews.exports.api.most_watched_directors.export"),
+        mocker.patch("movielog.reviews.exports.api.most_watched_movies.export"),
+        mocker.patch("movielog.reviews.exports.api.most_watched_performers.export"),
+        mocker.patch("movielog.reviews.exports.api.most_watched_writers.export"),
         mocker.patch("movielog.reviews.exports.api.review_stats.export"),
         mocker.patch("movielog.reviews.exports.api.reviewed_movies.export"),
+        mocker.patch("movielog.reviews.exports.api.viewing_counts_for_decades.export"),
+        mocker.patch("movielog.reviews.exports.api.viewing_counts_for_venues.export"),
+        mocker.patch("movielog.reviews.exports.api.viewing_stats.export"),
+        mocker.patch("movielog.reviews.exports.api.viewings.export"),
     ]
 
     exports_api.export()

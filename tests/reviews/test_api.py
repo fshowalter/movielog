@@ -6,11 +6,13 @@ import pytest
 from movielog.reviews import api as reviews_api
 from movielog.reviews import reviews_table
 from movielog.utils.sequence_tools import SequenceError
+from movielog.viewings import viewings_table
 
 
 @pytest.fixture(autouse=True)
 def init_db() -> None:
     reviews_table.reload([])
+    viewings_table.reload([])
 
 
 def test_create_serializes_new_review(tmp_path: str) -> None:

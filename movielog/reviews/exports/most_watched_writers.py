@@ -1,0 +1,13 @@
+from movielog.reviews.exports import most_watched_people
+from movielog.utils import export_tools
+from movielog.utils.logging import logger
+
+
+def export() -> None:
+    logger.log("==== Begin exporting {}...", "most watched writers")
+    stat_files = most_watched_people.generate("writing_credits", "writer_imdb_id")
+    export_tools.serialize_dataclasses_to_folder(
+        dataclasses=stat_files,
+        folder_name="most_watched_writers",
+        filename_key=lambda stats: stats.viewing_year,
+    )

@@ -43,7 +43,7 @@ def test_export_data_calls_update_table_with_all_people_and_collections(
     )
 
 
-def test_movies_returns_all_people_and_collections_movies() -> None:
+def test_movie_imdb_ids_returns_all_people_and_collections_movie_imdb_ids() -> None:
 
     serializer.serialize(
         Director(
@@ -102,16 +102,6 @@ def test_movies_returns_all_people_and_collections_movies() -> None:
         )
     )
 
-    expected = [
-        movies.Movie(title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""),
-        movies.Movie(title="Rio Bravo", year=1959, imdb_id="tt0053221", notes=""),
-        movies.Movie(imdb_id="tt0038355", title="The Big Sleep", year=1946, notes=""),
-        movies.Movie(
-            imdb_id="tt0089175",
-            title="Fright Night",
-            year=1985,
-            notes="",
-        ),
-    ]
+    expected = set(["tt0053221", "tt0038355", "tt0089175"])
 
-    assert expected == watchlist_api.movies()
+    assert watchlist_api.movie_imdb_ids() == expected
