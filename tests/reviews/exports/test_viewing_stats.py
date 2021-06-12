@@ -5,8 +5,8 @@ from datetime import date
 import pytest
 
 from movielog.moviedata.core import movies_table
-from movielog.viewings import viewings_table
-from movielog.viewings.exports import viewing_stats
+from movielog.reviews import viewings_table
+from movielog.reviews.exports import viewing_stats
 
 
 @pytest.fixture(autouse=True)

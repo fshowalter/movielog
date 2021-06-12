@@ -43,7 +43,7 @@ def test_export_data_calls_update_table_with_all_people_and_collections(
     )
 
 
-def test_movie_imdb_ids_returns_all_people_and_collections_movie_imdb_ids() -> None:
+def test_movie_ids_returns_all_people_and_collections_movie_ids() -> None:
 
     serializer.serialize(
         Director(
@@ -104,4 +104,4 @@ def test_movie_imdb_ids_returns_all_people_and_collections_movie_imdb_ids() -> N
 
     expected = set(["tt0053221", "tt0038355", "tt0089175"])
 
-    assert watchlist_api.movie_imdb_ids() == expected
+    assert watchlist_api.movie_ids() == expected

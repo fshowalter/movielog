@@ -12,11 +12,6 @@ def reviews_export_mock(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def viewings_export_mock(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.api.viewings_api.export_data")
-
-
-@pytest.fixture(autouse=True)
 def watchlist_export_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.api.watchlist_api.export_data")
 
@@ -24,6 +19,22 @@ def watchlist_export_mock(mocker: MockerFixture) -> MagicMock:
 @pytest.fixture(autouse=True)
 def update_extended_data_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.api.moviedata_api.update_extended_data")
+
+
+@pytest.fixture(autouse=True)
+def mock_review_movie_ids(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch(
+        "movielog.api.reviews_api.movie_ids",
+        return_value=set(["tt0053221", "tt0038355", "tt0089175"]),
+    )
+
+
+@pytest.fixture(autouse=True)
+def mock_watchlist_movie_ids(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch(
+        "movielog.api.watchlist_api.movie_ids",
+        return_value=set(["tt0053221", "tt0038355", "tt0031971"]),
+    )
 
 
 def test_export_data_calls_update_extended_data_with_viewing_and_watchlist_imdb_ids(
@@ -42,14 +53,6 @@ def test_export_data_calls_export_date_for_reviews(
     movielog_api.export_data()
 
     reviews_export_mock.assert_called_once()
-
-
-def test_export_data_calls_export_date_for_viewings(
-    viewings_export_mock: MagicMock,
-) -> None:
-    movielog_api.export_data()
-
-    viewings_export_mock.assert_called_once()
 
 
 def test_export_data_calls_export_date_for_watchlist(

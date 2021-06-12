@@ -6,8 +6,8 @@ import pytest
 
 from movielog.moviedata.core import movies_table
 from movielog.moviedata.extended.tables import release_dates_table, sort_titles_table
-from movielog.viewings import viewings_table
-from movielog.viewings.exports import viewings
+from movielog.reviews import viewings_table
+from movielog.reviews.exports import viewings
 
 
 @pytest.fixture(autouse=True)

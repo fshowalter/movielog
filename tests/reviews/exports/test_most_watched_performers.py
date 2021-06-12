@@ -6,9 +6,8 @@ import pytest
 
 from movielog.moviedata.core import movies_table, people_table
 from movielog.moviedata.extended.tables import performing_credits_table
-from movielog.reviews import reviews_table
-from movielog.viewings import viewings_table
-from movielog.viewings.exports import most_watched_performers
+from movielog.reviews import reviews_table, viewings_table
+from movielog.reviews.exports import most_watched_performers
 from movielog.watchlist import watchlist_table
 
 
