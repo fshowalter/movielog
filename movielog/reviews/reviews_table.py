@@ -59,14 +59,6 @@ def reload(rows: Sequence[Row]) -> None:
     db.validate_row_count(TABLE_NAME, len(rows))
 
 
-def add_row(row: Row) -> None:
-    db.insert_into_table(
-        table_name=TABLE_NAME,
-        insert_ddl=INSERT_DDL.format(TABLE_NAME),
-        rows=[row],
-    )
-
-
 def update(reviews: Sequence[Review]) -> None:
     reload(
         [

@@ -2,6 +2,7 @@ import os
 from datetime import date
 
 import pytest
+from pytest_mock import MockerFixture
 
 from movielog.reviews import api as reviews_api
 from movielog.utils.sequence_tools import SequenceError
@@ -45,3 +46,18 @@ def test_create_raises_error_if_sequence_out_of_sync(tmp_path: str) -> None:
             venue="Alamo Drafthouse One Loudon",
             review_date=date(2026, 3, 12),
         )
+
+
+def test_export_data_updates_reviews_and_viewings_table(mocker: MockerFixture) -> None:
+    viewings_table_update_mock = mocker.patch(
+        "movielog.reviews.api.viewings_table.update"
+    )
+    reviews_table_update_mock = mocker.patch(
+        "movielog.reviews.api.reviews_table.update"
+    )
+    mocker.patch("movielog.reviews.api.exports_api")
+
+    reviews_api.export_data()
+
+    viewings_table_update_mock.assert_called_once()
+    reviews_table_update_mock.assert_called_once()

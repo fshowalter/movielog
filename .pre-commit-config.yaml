@@ -16,7 +16,7 @@ repos:
         name: flake8
         entry: flake8
         language: system
-        files: '^(movielog|test)/.*$'
+        files: '^(movielog|tests)/.*$'
         types: [python]
         pass_filenames: true
     -   id: mypy
@@ -29,7 +29,7 @@ repos:
         name: pytest
         entry: pytest tests
         language: system
-        files: '^(movielog|test)/.*$'
+        files: '^(movielog|tests)/.*$'
         pass_filenames: false
     -   id: vale
         name: vale
