@@ -60,7 +60,7 @@ def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
 
 @pytest.fixture(autouse=True)
 def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.viewings.serializer.FOLDER_NAME", tmp_path)
+    mocker.patch("movielog.reviews.viewings.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)

@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Sequence, TypedDict
+from typing import Protocol, Sequence, TypedDict
 
 from movielog import db
 
@@ -32,6 +32,19 @@ class Row(TypedDict):
     venue: str
 
 
+class Review(Protocol):
+    sequence: int
+    imdb_id: str
+    date: date
+    grade: str
+    venue: str
+    slug: str
+
+    @property
+    def grade_value(self) -> float:
+        """MyPy needs this to recognize the prop."""
+
+
 def reload(rows: Sequence[Row]) -> None:
     db.recreate_table(TABLE_NAME, CREATE_DDL)
 
@@ -46,9 +59,18 @@ def reload(rows: Sequence[Row]) -> None:
     db.validate_row_count(TABLE_NAME, len(rows))
 
 
-def add_row(row: Row) -> None:
-    db.insert_into_table(
-        table_name=TABLE_NAME,
-        insert_ddl=INSERT_DDL.format(TABLE_NAME),
-        rows=[row],
+def update(reviews: Sequence[Review]) -> None:
+    reload(
+        [
+            Row(
+                movie_imdb_id=review.imdb_id,
+                date=review.date,
+                sequence=review.sequence,
+                grade=review.grade,
+                grade_value=review.grade_value,
+                slug=review.slug,
+                venue=review.venue,
+            )
+            for review in reviews
+        ]
     )

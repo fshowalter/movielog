@@ -1,19 +1,15 @@
 from movielog.moviedata import api as moviedata_api
 from movielog.reviews import api as reviews_api
-from movielog.viewings import api as viewings_api
 from movielog.watchlist import api as watchlist_api
 
 Collection = watchlist_api.Collection
 
-# viewing methods
-
-create_viewing = viewings_api.create
-
-recent_venues = viewings_api.recent_venues
-
 # review methods
 
 create_review = reviews_api.create
+
+recent_venues = reviews_api.recent_venues
+
 
 # moviedata methods
 
@@ -37,10 +33,8 @@ add_movie_to_collection = watchlist_api.add_movie_to_collection
 
 
 def export_data() -> None:
-    viewing_imdb_ids = set([movie.imdb_id for movie in viewings_api.viewings()])
-    watchlist_imdb_ids = set([movie.imdb_id for movie in watchlist_api.movies()])
-
-    moviedata_api.update_extended_data(viewing_imdb_ids.union(watchlist_imdb_ids))
+    moviedata_api.update_extended_data(
+        watchlist_api.movie_ids().union(reviews_api.movie_ids())
+    )
     reviews_api.export_data()
-    viewings_api.export_data()
     watchlist_api.export_data()

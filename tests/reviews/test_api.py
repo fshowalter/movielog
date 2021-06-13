@@ -1,16 +1,12 @@
+import json
 import os
 from datetime import date
 
 import pytest
+from pytest_mock import MockerFixture
 
 from movielog.reviews import api as reviews_api
-from movielog.reviews import reviews_table
 from movielog.utils.sequence_tools import SequenceError
-
-
-@pytest.fixture(autouse=True)
-def init_db() -> None:
-    reviews_table.reload([])
 
 
 def test_create_serializes_new_review(tmp_path: str) -> None:
@@ -51,3 +47,88 @@ def test_create_raises_error_if_sequence_out_of_sync(tmp_path: str) -> None:
             venue="Alamo Drafthouse One Loudon",
             review_date=date(2026, 3, 12),
         )
+
+
+def test_export_data_updates_reviews_and_viewings_table(mocker: MockerFixture) -> None:
+    viewings_table_update_mock = mocker.patch(
+        "movielog.reviews.api.viewings_table.update"
+    )
+    reviews_table_update_mock = mocker.patch(
+        "movielog.reviews.api.reviews_table.update"
+    )
+    mocker.patch("movielog.reviews.api.exports_api")
+
+    reviews_api.export_data()
+
+    viewings_table_update_mock.assert_called_once()
+    reviews_table_update_mock.assert_called_once()
+
+
+def test_movie_ids_returns_review_and_viewing_movie_ids(tmp_path: str) -> None:
+    expected = set(
+        ["tt0159693", "tt0025480", "tt0266697", "tt0053221", "tt0159693", "tt0031971"]
+    )
+
+    existing_viewings = [
+        {
+            "sequence": 1,
+            "date": "2005-03-26",
+            "imdb_id": "tt0159693",
+            "title": "Razor Blade Smile (1998)",
+            "venue": "DVD",
+        },
+        {
+            "sequence": 2,
+            "date": "2006-04-29",
+            "imdb_id": "tt0025480",
+            "title": "Bad Seed (1934)",
+            "venue": "Arte",
+        },
+        {
+            "sequence": 3,
+            "date": "2007-05-15",
+            "imdb_id": "tt0266697",
+            "title": "Kill Bill: Vol. 1 (2003)",
+            "venue": "Alamo Drafthouse",
+        },
+        {
+            "sequence": 4,
+            "date": "2008-02-05",
+            "imdb_id": "tt0053221",
+            "title": "Rio Bravo (1959)",
+            "venue": "Blu-ray",
+        },
+    ]
+
+    for index, existing_viewing in enumerate(existing_viewings):
+        with open(
+            os.path.join(tmp_path, "viewing-{0}.json".format(index)), "w"
+        ) as output_file:
+            output_file.write(json.dumps(existing_viewing))
+
+    reviews_api.create(
+        review_date=date(2010, 3, 12),
+        imdb_id="tt0159693",
+        title="Fright Night",
+        year=1985,
+        grade="A+",
+        venue="AFI Silver",
+    )
+    reviews_api.create(
+        review_date=date(2011, 7, 29),
+        imdb_id="tt0031971",
+        title="Stagecoach",
+        year=1939,
+        grade="A",
+        venue="Blu-ray",
+    )
+    reviews_api.create(
+        review_date=date(2020, 3, 12),
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
+        grade="A+",
+        venue="Blu-ray",
+    )
+
+    assert expected == reviews_api.movie_ids()
