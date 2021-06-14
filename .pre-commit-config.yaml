@@ -3,6 +3,7 @@ repos:
     rev: v2.3.0
     hooks:
     -   id: no-commit-to-branch
+        args: ['--branch', 'main']
     -   id: requirements-txt-fixer
 -   repo: local
     hooks:
