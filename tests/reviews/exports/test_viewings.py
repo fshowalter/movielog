@@ -6,7 +6,8 @@ import pytest
 
 from movielog.moviedata.core import movies_table
 from movielog.moviedata.extended.tables import release_dates_table, sort_titles_table
-from movielog.reviews import viewings_table
+from movielog.reviews import api as reviews_api
+from movielog.reviews import reviews_table, viewings_table
 from movielog.reviews.exports import viewings
 
 
@@ -39,16 +40,17 @@ def init_db() -> None:
         [sort_titles_table.Row(movie_imdb_id="tt0053221", sort_title="Rio Bravo")]
     )
 
-    viewings_table.reload(
-        [
-            viewings_table.Row(
-                movie_imdb_id="tt0053221",
-                date=datetime.date(2021, 1, 29),
-                sequence=165,
-                venue="Blu-ray",
-            )
-        ]
+    review = reviews_api.create(
+        datetime.date(2021, 1, 29),
+        imdb_id="tt0053221",
+        title="Rio Bravo",
+        year=1959,
+        grade="A+",
+        venue="Blu-ray",
     )
+
+    reviews_table.update([review])
+    viewings_table.update([review])
 
 
 def test_exports_viewings(tmp_path: str) -> None:
@@ -58,11 +60,12 @@ def test_exports_viewings(tmp_path: str) -> None:
             "title": "Rio Bravo",
             "year": 1959,
             "viewing_date": "2021-01-29",
-            "sequence": 165,
+            "sequence": 1,
             "viewing_year": "2021",
             "release_date": "1959-03-18",
             "sort_title": "Rio Bravo",
             "venue": "Blu-ray",
+            "slug": "rio-bravo-1959",
         }
     ]
 
