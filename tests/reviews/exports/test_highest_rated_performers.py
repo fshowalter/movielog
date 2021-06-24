@@ -185,13 +185,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 1,
                         "grade_value": 5.33,
                         "date": "2016-06-19",
-                        "movie": {
-                            "title": "Rio Bravo",
-                            "year": 1959,
-                            "slug": "rio-bravo-1959",
-                        },
+                        "title": "Rio Bravo",
+                        "year": 1959,
+                        "slug": "rio-bravo-1959",
                     }
                 ],
             },
@@ -216,13 +215,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 4,
                         "grade_value": 5.33,
                         "date": "2017-10-31",
-                        "movie": {
-                            "title": "Fright Night",
-                            "year": 1985,
-                            "slug": "fright-night-1985",
-                        },
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": "fright-night-1985",
                     }
                 ],
             },
@@ -234,13 +232,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 2,
                         "grade_value": 5,
                         "date": "2017-03-12",
-                        "movie": {
-                            "title": "The Big Sleep",
-                            "year": 1946,
-                            "slug": "the-big-sleep-1946",
-                        },
+                        "title": "The Big Sleep",
+                        "year": 1946,
+                        "slug": "the-big-sleep-1946",
                     }
                 ],
             },
@@ -252,13 +249,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 3,
                         "grade_value": 5,
                         "date": "2017-04-29",
-                        "movie": {
-                            "title": "Stagecoach",
-                            "year": 1939,
-                            "slug": "stagecoach-1939",
-                        },
+                        "title": "Stagecoach",
+                        "year": 1939,
+                        "slug": "stagecoach-1939",
                     }
                 ],
             },
@@ -283,13 +279,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 4,
                         "grade_value": 5.33,
                         "date": "2017-10-31",
-                        "movie": {
-                            "title": "Fright Night",
-                            "year": 1985,
-                            "slug": "fright-night-1985",
-                        },
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": "fright-night-1985",
                     }
                 ],
             },
@@ -301,22 +296,20 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 2,
                 "reviews": [
                     {
+                        "sequence": 1,
                         "grade_value": 5.33,
                         "date": "2016-06-19",
-                        "movie": {
-                            "title": "Rio Bravo",
-                            "year": 1959,
-                            "slug": "rio-bravo-1959",
-                        },
+                        "title": "Rio Bravo",
+                        "year": 1959,
+                        "slug": "rio-bravo-1959",
                     },
                     {
+                        "sequence": 3,
                         "grade_value": 5,
                         "date": "2017-04-29",
-                        "movie": {
-                            "title": "Stagecoach",
-                            "year": 1939,
-                            "slug": "stagecoach-1939",
-                        },
+                        "title": "Stagecoach",
+                        "year": 1939,
+                        "slug": "stagecoach-1939",
                     },
                 ],
             },
@@ -328,13 +321,12 @@ def test_exports_highest_rated_performers(tmp_path: str) -> None:
                 "review_count": 1,
                 "reviews": [
                     {
+                        "sequence": 2,
                         "grade_value": 5,
                         "date": "2017-03-12",
-                        "movie": {
-                            "title": "The Big Sleep",
-                            "year": 1946,
-                            "slug": "the-big-sleep-1946",
-                        },
+                        "title": "The Big Sleep",
+                        "year": 1946,
+                        "slug": "the-big-sleep-1946",
                     },
                 ],
             },

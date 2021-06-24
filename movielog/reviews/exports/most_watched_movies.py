@@ -16,6 +16,7 @@ class Viewing(object):
     date: date
     venue: str
     sequence: int
+    slug: str
 
 
 @dataclass
@@ -25,13 +26,12 @@ class Movie(object):
     imdb_id: str
     title: str
     year: str
-    slug: str
 
 
 @dataclass
 class StatFile(object):
     viewing_year: str
-    movies: list[Movie]
+    most_watched: list[Movie]
 
 
 class Row(TypedDict):
@@ -39,7 +39,7 @@ class Row(TypedDict):
     movie_title: str
     movie_year: str
     movie_imdb_id: str
-    movie_slug: str
+    review_slug: str
     viewing_year: str
     viewing_date: date
     viewing_venue: str
@@ -52,13 +52,13 @@ def fetch_rows() -> list[Row]:
         , movies.title AS movie_title
         , movies.year AS movie_year
         , movies.imdb_id AS movie_imdb_id
-        , slug AS movie_slug
+        , slug AS review_slug
         , strftime('%Y', viewings.date) AS viewing_year
         , viewings.date AS viewing_date
         , viewings.venue AS viewing_venue
         FROM viewings
         INNER JOIN movies ON movies.imdb_id = viewings.movie_imdb_id
-        LEFT JOIN reviews ON reviews.movie_imdb_id = movies.imdb_id
+        LEFT JOIN reviews ON reviews.sequence = viewings.sequence
         ORDER BY
             viewing_year
     """
@@ -80,7 +80,6 @@ def most_watched_movies_for_rows(rows: list[Row]) -> list[Movie]:
             Movie(
                 imdb_id=first_row["movie_imdb_id"],
                 title=first_row["movie_title"],
-                slug=first_row["movie_slug"],
                 year=first_row["movie_year"],
                 viewing_count=len(movie_imdb_id_rows),
                 viewings=[
@@ -88,6 +87,7 @@ def most_watched_movies_for_rows(rows: list[Row]) -> list[Movie]:
                         sequence=row["viewing_sequence"],
                         date=row["viewing_date"],
                         venue=row["viewing_venue"],
+                        slug=row["review_slug"],
                     )
                     for row in movie_imdb_id_rows
                 ],
@@ -107,14 +107,14 @@ def export() -> None:
         rows, lambda row: row["viewing_year"]
     )
     stat_files = [
-        StatFile(viewing_year="all", movies=most_watched_movies_for_rows(rows))
+        StatFile(viewing_year="all", most_watched=most_watched_movies_for_rows(rows))
     ]
 
     for year, rows_for_year in rows_by_viewing_year.items():
         stat_files.append(
             StatFile(
                 viewing_year=year,
-                movies=most_watched_movies_for_rows(rows_for_year),
+                most_watched=most_watched_movies_for_rows(rows_for_year),
             ),
         )
 

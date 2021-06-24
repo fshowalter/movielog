@@ -18,7 +18,7 @@ class DecadeStat(object):
 class StatFile(object):
     viewing_year: str
     total_viewing_count: int
-    decade_stats: list[DecadeStat]
+    stats: list[DecadeStat]
 
 
 class Row(TypedDict):
@@ -57,7 +57,7 @@ def export() -> None:
         StatFile(
             viewing_year="all",
             total_viewing_count=len(rows),
-            decade_stats=decade_stats_for_rows(rows),
+            stats=decade_stats_for_rows(rows),
         )
     ]
 
@@ -67,7 +67,7 @@ def export() -> None:
             StatFile(
                 viewing_year=year,
                 total_viewing_count=len(rows_for_year),
-                decade_stats=decade_stats_for_rows(rows_for_year),
+                stats=decade_stats_for_rows(rows_for_year),
             )
         )
 

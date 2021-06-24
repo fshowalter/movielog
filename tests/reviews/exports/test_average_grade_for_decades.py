@@ -112,7 +112,7 @@ def test_exports_average_grade_for_decades(tmp_path: str) -> None:
 
     expected = {
         "review_year": "2016",
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "average_grade_value": 4.665,
@@ -133,7 +133,7 @@ def test_exports_average_grade_for_decades(tmp_path: str) -> None:
 
     expected = {
         "review_year": "2017",
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "average_grade_value": 5.0,
@@ -154,7 +154,7 @@ def test_exports_average_grade_for_decades(tmp_path: str) -> None:
 
     expected = {
         "review_year": "all",
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "average_grade_value": 4.776666666666666,

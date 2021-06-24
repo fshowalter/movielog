@@ -217,86 +217,39 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
         {
             "imdb_id": "tt0051554",
             "title": "Horror of Dracula",
-            "original_title": "Dracula",
             "year": 1958,
-            "review_date": "2021-03-12",
-            "review_sequence": 166,
             "release_date": "1958-05-08",
-            "last_review_grade": "A",
-            "last_review_grade_value": 5,
             "slug": "horror-of-dracula-1958",
             "sort_title": "Horror of Dracula",
-            "principal_cast_ids": "nm0001088,nm0000489",
             "runtime_minutes": 98,
-            "directors": [
-                {
-                    "full_name": "Terence Fisher",
-                }
-            ],
-            "principal_cast": [
-                {
-                    "full_name": "Peter Cushing",
-                },
-                {
-                    "full_name": "Christopher Lee",
-                },
-            ],
+            "director_names": ["Terence Fisher"],
+            "principal_cast_names": ["Peter Cushing", "Christopher Lee"],
             "countries": ["United Kingdom"],
             "aka_titles": ["Dracula"],
         },
         {
             "imdb_id": "tt0053221",
             "title": "Rio Bravo",
-            "original_title": "Rio Bravo",
             "year": 1959,
-            "review_date": "2021-01-29",
-            "review_sequence": 165,
             "release_date": "1959-03-18",
-            "last_review_grade": "A+",
-            "last_review_grade_value": 5.33,
             "slug": "rio-bravo-1959",
             "sort_title": "Rio Bravo",
-            "principal_cast_ids": "nm0000078,nm0001509,nm0625699",
             "runtime_minutes": 141,
-            "directors": [
-                {
-                    "full_name": "Howard Hawks",
-                }
-            ],
-            "principal_cast": [
-                {
-                    "full_name": "John Wayne",
-                },
-                {
-                    "full_name": "Dean Martin",
-                },
-                {
-                    "full_name": "Ricky Nelson",
-                },
-            ],
+            "director_names": ["Howard Hawks"],
+            "principal_cast_names": ["John Wayne", "Dean Martin", "Ricky Nelson"],
             "countries": ["United States"],
             "aka_titles": ["Howard Hawks' Rio Bravo"],
         },
         {
             "imdb_id": "tt0098327",
             "title": "The Seventh Continent",
-            "original_title": "Der siebente Kontinent",
             "year": 1989,
-            "review_date": "2021-10-31",
-            "review_sequence": 167,
             "release_date": "1989-05-19",
-            "last_review_grade": "A",
-            "last_review_grade_value": 5,
             "slug": "the-seventh-continent-1989",
             "sort_title": "Seventh Continent",
-            "principal_cast_ids": "",
             "runtime_minutes": 120,
-            "directors": [
-                {
-                    "full_name": "Michael Haneke",
-                }
-            ],
-            "principal_cast": [],
+            "director_names": ["Michael Haneke"],
+            "principal_cast_names": [],
             "countries": ["Austria"],
             "aka_titles": ["Der siebente Kontinent"],
         },

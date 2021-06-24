@@ -182,29 +182,10 @@ def test_exports_watchlist_movies(tmp_path: str) -> None:
             "year": 1959,
             "sort_title": "Rio Bravo",
             "release_date": "1959-03-18",
-            "directors": [
-                {"imdb_id": "nm0001328", "name": "Howard Hawks", "slug": "howard-hawks"}
-            ],
-            "performers": [
-                {
-                    "imdb_id": "nm0000078",
-                    "name": "John Wayne",
-                    "slug": "john-wayne",
-                },
-                {
-                    "imdb_id": "nm0001509",
-                    "name": "Dean Martin",
-                    "slug": "dean-martin",
-                },
-            ],
-            "writers": [
-                {
-                    "imdb_id": "nm0102824",
-                    "name": "Leigh Brackett",
-                    "slug": "leigh-brackett",
-                },
-            ],
-            "collections": [],
+            "director_imdb_ids": ["nm0001328"],
+            "performer_imdb_ids": ["nm0000078", "nm0001509"],
+            "writer_imdb_ids": ["nm0102824"],
+            "collection_names": [],
         },
         {
             "imdb_id": "tt0055928",
@@ -212,15 +193,10 @@ def test_exports_watchlist_movies(tmp_path: str) -> None:
             "year": 1962,
             "sort_title": "Dr. No",
             "release_date": "1962-10-05",
-            "directors": [],
-            "performers": [],
-            "writers": [],
-            "collections": [
-                {
-                    "name": "James Bond",
-                    "slug": "james-bond",
-                }
-            ],
+            "director_imdb_ids": [],
+            "performer_imdb_ids": [],
+            "writer_imdb_ids": [],
+            "collection_names": ["James Bond"],
         },
         {
             "imdb_id": "tt0190590",
@@ -228,16 +204,10 @@ def test_exports_watchlist_movies(tmp_path: str) -> None:
             "year": 2000,
             "sort_title": "O Brother, Where Art Thou?",
             "release_date": "2000-05-13",
-            "directors": [
-                {
-                    "imdb_id": "nm0001054",
-                    "name": "The Coen Brothers",
-                    "slug": "the-coen-brothers",
-                }
-            ],
-            "performers": [],
-            "writers": [],
-            "collections": [],
+            "director_imdb_ids": ["nm0001054"],
+            "performer_imdb_ids": [],
+            "writer_imdb_ids": [],
+            "collection_names": [],
         },
     ]
 

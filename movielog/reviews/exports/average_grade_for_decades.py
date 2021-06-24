@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
 from typing import TypedDict
 
@@ -21,7 +23,7 @@ class Row(TypedDict):
 @dataclass
 class StatFile(object):
     review_year: str
-    decade_stats: list[DecadeStat]
+    stats: list[DecadeStat]
 
 
 def fetch_rows() -> list[Row]:
@@ -59,14 +61,14 @@ def decade_stats_for_rows(rows: list[Row]) -> list[DecadeStat]:
 def export() -> None:
     logger.log("==== Begin exporting {}...", "average grade for decades")
     rows = fetch_rows()
-    stat_files = [StatFile(review_year="all", decade_stats=decade_stats_for_rows(rows))]
+    stat_files = [StatFile(review_year="all", stats=decade_stats_for_rows(rows))]
 
     rows_by_year = list_tools.group_list_by_key(rows, lambda row: row["review_year"])
     for year, rows_for_year in rows_by_year.items():
         stat_files.append(
             StatFile(
                 review_year=str(year),
-                decade_stats=decade_stats_for_rows(rows_for_year),
+                stats=decade_stats_for_rows(rows_for_year),
             )
         )
 
