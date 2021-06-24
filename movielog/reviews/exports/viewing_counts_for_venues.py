@@ -10,7 +10,7 @@ from movielog.utils.logging import logger
 
 @dataclass
 class VenueStat(object):
-    venue: str
+    name: str
     viewing_count: int
 
 
@@ -18,7 +18,7 @@ class VenueStat(object):
 class StatFile(object):
     viewing_year: str
     total_viewing_count: int
-    venue_stats: list[VenueStat]
+    stats: list[VenueStat]
 
 
 class Row(TypedDict):
@@ -44,10 +44,10 @@ def venue_stats_for_rows(rows: list[Row]) -> list[VenueStat]:
         rows, lambda row: row["viewing_venue"]
     )
 
-    for venue, venue_viewings in viewings_by_venue.items():
-        venue_stats.append(VenueStat(venue=venue, viewing_count=len(venue_viewings)))
+    for name, venue_viewings in viewings_by_venue.items():
+        venue_stats.append(VenueStat(name=name, viewing_count=len(venue_viewings)))
 
-    return sorted(venue_stats, key=lambda stat: stat.venue.lower())
+    return sorted(venue_stats, key=lambda stat: stat.name.lower())
 
 
 def export() -> None:
@@ -57,7 +57,7 @@ def export() -> None:
         StatFile(
             viewing_year="all",
             total_viewing_count=len(rows),
-            venue_stats=venue_stats_for_rows(rows),
+            stats=venue_stats_for_rows(rows),
         )
     ]
 
@@ -67,7 +67,7 @@ def export() -> None:
             StatFile(
                 viewing_year=year,
                 total_viewing_count=len(rows_for_year),
-                venue_stats=venue_stats_for_rows(rows_for_year),
+                stats=venue_stats_for_rows(rows_for_year),
             )
         )
 

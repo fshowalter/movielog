@@ -37,7 +37,7 @@ def init_db() -> None:
             reviews_table.Row(
                 movie_imdb_id="tt0053221",
                 date=datetime.date(2021, 1, 29),
-                sequence=165,
+                sequence=3,
                 grade="A+",
                 grade_value=5.33,
                 slug="rio-bravo-1959",
@@ -81,22 +81,23 @@ def test_exports_most_watched_movies(tmp_path: str) -> None:
 
     expected = {
         "viewing_year": "2017",
-        "movies": [
+        "most_watched": [
             {
                 "imdb_id": "tt0053221",
                 "title": "Rio Bravo",
                 "year": 1959,
                 "viewing_count": 2,
-                "slug": "rio-bravo-1959",
                 "viewings": [
                     {
                         "date": "2017-03-12",
                         "venue": "AFI Silver",
+                        "slug": None,
                         "sequence": 1,
                     },
                     {
                         "date": "2017-06-19",
                         "venue": "Alamo Drafthouse",
+                        "slug": None,
                         "sequence": 2,
                     },
                 ],
@@ -113,7 +114,7 @@ def test_exports_most_watched_movies(tmp_path: str) -> None:
 
     expected = {
         "viewing_year": "2021",
-        "movies": [],
+        "most_watched": [],
     }
 
     with open(
@@ -125,27 +126,29 @@ def test_exports_most_watched_movies(tmp_path: str) -> None:
 
     expected = {
         "viewing_year": "all",
-        "movies": [
+        "most_watched": [
             {
                 "imdb_id": "tt0053221",
                 "title": "Rio Bravo",
                 "year": 1959,
                 "viewing_count": 3,
-                "slug": "rio-bravo-1959",
                 "viewings": [
                     {
                         "date": "2017-03-12",
                         "venue": "AFI Silver",
+                        "slug": None,
                         "sequence": 1,
                     },
                     {
                         "date": "2017-06-19",
                         "venue": "Alamo Drafthouse",
+                        "slug": None,
                         "sequence": 2,
                     },
                     {
                         "date": "2021-01-29",
                         "venue": "Blu-ray",
+                        "slug": "rio-bravo-1959",
                         "sequence": 3,
                     },
                 ],

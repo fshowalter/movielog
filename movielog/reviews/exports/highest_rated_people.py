@@ -12,17 +12,13 @@ MAX_RESULTS = 20
 
 
 @dataclass
-class Movie(object):
+class Review(object):
+    sequence: int
+    grade_value: float
+    date: date
     title: str
     year: int
     slug: str
-
-
-@dataclass
-class Review(object):
-    grade_value: float
-    date: date
-    movie: Movie
 
 
 @dataclass
@@ -115,13 +111,12 @@ def highest_rated_people_for_rows(rows: list[Row]) -> list[Person]:
                 review_count=len(person_rows),
                 reviews=[
                     Review(
+                        sequence=person_row["review_sequence"],
                         grade_value=person_row["grade_value"],
                         date=person_row["review_date"],
-                        movie=Movie(
-                            title=person_row["movie_title"],
-                            year=person_row["movie_year"],
-                            slug=person_row["review_slug"],
-                        ),
+                        title=person_row["movie_title"],
+                        year=person_row["movie_year"],
+                        slug=person_row["review_slug"],
                     )
                     for person_row in person_rows
                 ],

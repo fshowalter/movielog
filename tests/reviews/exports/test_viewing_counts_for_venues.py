@@ -98,13 +98,13 @@ def test_exports_viewing_counts_for_venues(tmp_path: str) -> None:
     expected = {
         "viewing_year": "2016",
         "total_viewing_count": 3,
-        "venue_stats": [
+        "stats": [
             {
-                "venue": "Blu-ray",
+                "name": "Blu-ray",
                 "viewing_count": 2,
             },
             {
-                "venue": "Vudu",
+                "name": "Vudu",
                 "viewing_count": 1,
             },
         ],
@@ -120,13 +120,13 @@ def test_exports_viewing_counts_for_venues(tmp_path: str) -> None:
     expected = {
         "viewing_year": "2017",
         "total_viewing_count": 2,
-        "venue_stats": [
+        "stats": [
             {
-                "venue": "Blu-ray",
+                "name": "Blu-ray",
                 "viewing_count": 1,
             },
             {
-                "venue": "Vudu",
+                "name": "Vudu",
                 "viewing_count": 1,
             },
         ],
@@ -142,13 +142,13 @@ def test_exports_viewing_counts_for_venues(tmp_path: str) -> None:
     expected = {
         "viewing_year": "all",
         "total_viewing_count": 5,
-        "venue_stats": [
+        "stats": [
             {
-                "venue": "Blu-ray",
+                "name": "Blu-ray",
                 "viewing_count": 3,
             },
             {
-                "venue": "Vudu",
+                "name": "Vudu",
                 "viewing_count": 2,
             },
         ],

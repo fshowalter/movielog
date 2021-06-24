@@ -213,13 +213,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 1,
                         "venue": "Alamo Drafthouse",
                         "date": "2016-06-19",
-                        "movie": {
-                            "title": "Rio Bravo",
-                            "year": 1959,
-                            "slug": "rio-bravo-1959",
-                        },
+                        "title": "Rio Bravo",
+                        "year": 1959,
+                        "slug": "rio-bravo-1959",
                     }
                 ],
             },
@@ -243,13 +242,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 2,
                         "venue": "Blu-ray",
                         "date": "2017-03-12",
-                        "movie": {
-                            "title": "The Big Sleep",
-                            "year": 1946,
-                            "slug": "the-big-sleep-1946",
-                        },
+                        "title": "The Big Sleep",
+                        "year": 1946,
+                        "slug": "the-big-sleep-1946",
                     }
                 ],
             },
@@ -260,13 +258,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 3,
                         "venue": "New Beverly",
                         "date": "2017-04-29",
-                        "movie": {
-                            "title": "Kill Bill: The Whole Bloody Affair",
-                            "year": 2011,
-                            "slug": "kill-bill-the-whole-bloody-affair-2011",
-                        },
+                        "title": "Kill Bill: The Whole Bloody Affair",
+                        "year": 2011,
+                        "slug": "kill-bill-the-whole-bloody-affair-2011",
                     }
                 ],
             },
@@ -277,13 +274,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 4,
                         "venue": "AFI Silver",
                         "date": "2017-10-31",
-                        "movie": {
-                            "title": "Fright Night",
-                            "year": 1985,
-                            "slug": "fright-night-1985",
-                        },
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": "fright-night-1985",
                     }
                 ],
             },
@@ -307,22 +303,20 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 2,
                 "viewings": [
                     {
+                        "sequence": 1,
                         "venue": "Alamo Drafthouse",
                         "date": "2016-06-19",
-                        "movie": {
-                            "title": "Rio Bravo",
-                            "year": 1959,
-                            "slug": "rio-bravo-1959",
-                        },
+                        "title": "Rio Bravo",
+                        "year": 1959,
+                        "slug": "rio-bravo-1959",
                     },
                     {
+                        "sequence": 2,
                         "venue": "Blu-ray",
                         "date": "2017-03-12",
-                        "movie": {
-                            "title": "The Big Sleep",
-                            "year": 1946,
-                            "slug": "the-big-sleep-1946",
-                        },
+                        "title": "The Big Sleep",
+                        "year": 1946,
+                        "slug": "the-big-sleep-1946",
                     },
                 ],
             },
@@ -333,13 +327,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 3,
                         "venue": "New Beverly",
                         "date": "2017-04-29",
-                        "movie": {
-                            "title": "Kill Bill: The Whole Bloody Affair",
-                            "year": 2011,
-                            "slug": "kill-bill-the-whole-bloody-affair-2011",
-                        },
+                        "title": "Kill Bill: The Whole Bloody Affair",
+                        "year": 2011,
+                        "slug": "kill-bill-the-whole-bloody-affair-2011",
                     }
                 ],
             },
@@ -350,13 +343,12 @@ def test_exports_most_watched_directors(tmp_path: str) -> None:
                 "viewing_count": 1,
                 "viewings": [
                     {
+                        "sequence": 4,
                         "venue": "AFI Silver",
                         "date": "2017-10-31",
-                        "movie": {
-                            "title": "Fright Night",
-                            "year": 1985,
-                            "slug": "fright-night-1985",
-                        },
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": "fright-night-1985",
                     }
                 ],
             },

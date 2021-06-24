@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Any, TypedDict
+from typing import TypedDict
 
 from movielog import db
 from movielog.utils import export_tools
@@ -11,43 +11,30 @@ class Person(TypedDict):
     full_name: str
 
 
-class ReviewedMovie(TypedDict):
+class ReviewedMovie(TypedDict, total=False):
     imdb_id: str
     title: str
-    original_title: str
-    year: str
-    review_date: str
-    review_sequence: int
+    year: int
     release_date: str
-    last_review_grade: str
-    last_review_grade_value: float
     slug: str
     sort_title: str
-    principal_cast_ids: str
-    runtime_minutes: str
-    directors: list[Person]
-    principal_cast: list[Person]
+    runtime_minutes: int
+    director_names: list[str]
+    principal_cast_names: list[str]
     countries: list[str]
     aka_titles: list[str]
-
-
-def person_row_factory(cursor: db.Cursor, row: tuple[Any, ...]) -> Person:
-    return Person(full_name=row[0])
+    original_title: str
+    principal_cast_ids: str
 
 
 def fetch_reviewed_movies() -> list[ReviewedMovie]:
     query = """
         SELECT
-        DISTINCT(reviews.movie_imdb_id) AS imdb_id
+            reviews.movie_imdb_id AS imdb_id
         , title
         , original_title
         , year
-        , reviews.date as review_date
-        , strftime('%Y', reviews.date) AS review_year
-        , reviews.sequence as review_sequence
         , release_date
-        , grade as last_review_grade
-        , grade_value as last_review_grade_value
         , slug
         , sort_title
         , principal_cast_ids
@@ -56,7 +43,8 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
         INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
         INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
         INNER JOIN sort_titles ON reviews.movie_imdb_id = sort_titles.movie_imdb_id
-        ORDER BY sort_title ASC;
+        ORDER BY
+            sort_title ASC;
     """
 
     return [
@@ -65,17 +53,13 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
             title=row["title"],
             original_title=row["original_title"],
             year=row["year"],
-            review_date=row["review_date"],
-            review_sequence=row["review_sequence"],
             release_date=row["release_date"],
-            last_review_grade=row["last_review_grade"],
-            last_review_grade_value=row["last_review_grade_value"],
             slug=row["slug"],
             sort_title=row["sort_title"],
             principal_cast_ids=row["principal_cast_ids"],
             runtime_minutes=row["runtime_minutes"],
-            directors=[],
-            principal_cast=[],
+            director_names=[],
+            principal_cast_names=[],
             countries=[],
             aka_titles=[],
         )
@@ -83,7 +67,7 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
     ]
 
 
-def fetch_directors(reviewed_movie: ReviewedMovie) -> list[Person]:
+def fetch_directors(reviewed_movie: ReviewedMovie) -> list[str]:
     query = """
         SELECT
         full_name
@@ -93,8 +77,7 @@ def fetch_directors(reviewed_movie: ReviewedMovie) -> list[Person]:
     """
 
     return db.fetch_all(
-        query.format(reviewed_movie["imdb_id"]),
-        person_row_factory,
+        query.format(reviewed_movie["imdb_id"]), lambda cursor, row: row[0]
     )
 
 
@@ -136,7 +119,7 @@ def fetch_aka_titles(reviewed_movie: ReviewedMovie) -> list[str]:
     return aka_titles
 
 
-def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[Person]:
+def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[str]:
     query = """
         SELECT
         full_name
@@ -148,10 +131,7 @@ def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[Person]:
 
     for principal_cast_id in reviewed_movie["principal_cast_ids"].split(","):
         principal_cast.extend(
-            db.fetch_all(
-                query.format(principal_cast_id),
-                person_row_factory,
-            )
+            db.fetch_all(query.format(principal_cast_id), lambda cursor, row: row[0])
         )
 
     return principal_cast
@@ -162,10 +142,12 @@ def export() -> None:
     reviewed_movies = []
 
     for reviewed_movie in fetch_reviewed_movies():
-        reviewed_movie["directors"] = fetch_directors(reviewed_movie)
+        reviewed_movie["director_names"] = fetch_directors(reviewed_movie)
         reviewed_movie["aka_titles"] = fetch_aka_titles(reviewed_movie)
-        reviewed_movie["principal_cast"] = fetch_principal_cast(reviewed_movie)
+        reviewed_movie["principal_cast_names"] = fetch_principal_cast(reviewed_movie)
         reviewed_movie["countries"] = fetch_countries(reviewed_movie)
+        reviewed_movie.pop("principal_cast_ids")
+        reviewed_movie.pop("original_title")
 
         reviewed_movies.append(reviewed_movie)
 

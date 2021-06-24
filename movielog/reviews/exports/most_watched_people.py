@@ -12,17 +12,13 @@ MAX_RESULTS = 20
 
 
 @dataclass
-class Movie(object):
-    title: str
-    year: str
-    slug: str
-
-
-@dataclass
 class Viewing(object):
+    sequence: int
     venue: str
     date: date
-    movie: Movie
+    title: str
+    year: int
+    slug: str
 
 
 @dataclass
@@ -43,7 +39,7 @@ class StatFile(object):
 class Row(TypedDict):
     viewing_sequence: int
     movie_title: str
-    movie_year: str
+    movie_year: int
     movie_imdb_id: str
     viewing_year: str
     viewing_date: date
@@ -72,7 +68,7 @@ def fetch_rows(credit_table: str, credit_table_key: str) -> list[Row]:
         LEFT JOIN movies ON viewings.movie_imdb_id = movies.imdb_id
         LEFT JOIN {0} ON {0}.movie_imdb_id = viewings.movie_imdb_id
         LEFT JOIN people ON person_imdb_id = people.imdb_id
-        LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
+        LEFT JOIN reviews ON viewings.sequence = reviews.sequence
         LEFT JOIN (
             SELECT
                 reviews.movie_imdb_id
@@ -113,13 +109,12 @@ def most_watched_people_for_rows(rows: list[Row]) -> list[Person]:
                 viewing_count=len(person_rows),
                 viewings=[
                     Viewing(
+                        sequence=person_row["viewing_sequence"],
                         venue=person_row["viewing_venue"],
                         date=person_row["viewing_date"],
-                        movie=Movie(
-                            title=person_row["movie_title"],
-                            year=person_row["movie_year"],
-                            slug=person_row["review_slug"],
-                        ),
+                        title=person_row["movie_title"],
+                        year=person_row["movie_year"],
+                        slug=person_row["review_slug"],
                     )
                     for person_row in person_rows
                 ],

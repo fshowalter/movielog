@@ -98,7 +98,7 @@ def test_exports_viewing_counts_for_decades(tmp_path: str) -> None:
     expected = {
         "viewing_year": "2016",
         "total_viewing_count": 3,
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "viewing_count": 2,
@@ -120,7 +120,7 @@ def test_exports_viewing_counts_for_decades(tmp_path: str) -> None:
     expected = {
         "viewing_year": "2017",
         "total_viewing_count": 2,
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "viewing_count": 1,
@@ -142,7 +142,7 @@ def test_exports_viewing_counts_for_decades(tmp_path: str) -> None:
     expected = {
         "viewing_year": "all",
         "total_viewing_count": 5,
-        "decade_stats": [
+        "stats": [
             {
                 "decade": "1950s",
                 "viewing_count": 3,
