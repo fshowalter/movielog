@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import datetime
 import json
 import os
@@ -125,8 +127,14 @@ def init_db() -> None:
             ),
             viewings_table.Row(
                 movie_imdb_id="tt0089175",
-                date=datetime.date(2017, 10, 31),
+                date=datetime.date(2017, 10, 30),
                 sequence=4,
+                venue="AFI Silver",
+            ),
+            viewings_table.Row(
+                movie_imdb_id="tt0089175",
+                date=datetime.date(2017, 10, 31),
+                sequence=5,
                 venue="AFI Silver",
             ),
         ]
@@ -207,26 +215,9 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
 
     most_watched_writers.export()
 
-    expected = {
+    expected: dict[str, object] = {
         "viewing_year": "2016",
-        "most_watched": [
-            {
-                "imdb_id": "nm0102824",
-                "full_name": "Leigh Brackett",
-                "slug": "leigh-brackett",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 1,
-                        "venue": "Alamo Drafthouse",
-                        "date": "2016-06-19",
-                        "title": "Rio Bravo",
-                        "year": 1959,
-                        "slug": "rio-bravo-1959",
-                    }
-                ],
-            },
-        ],
+        "most_watched": [],
     }
 
     with open(
@@ -240,51 +231,27 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
         "viewing_year": "2017",
         "most_watched": [
             {
-                "imdb_id": "nm0102824",
-                "full_name": "Leigh Brackett",
-                "slug": "leigh-brackett",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 2,
-                        "venue": "Blu-ray",
-                        "date": "2017-03-12",
-                        "title": "The Big Sleep",
-                        "year": 1946,
-                        "slug": "the-big-sleep-1946",
-                    }
-                ],
-            },
-            {
-                "imdb_id": "nm0000233",
-                "full_name": "Quentin Tarantino",
-                "slug": "quentin-tarantino",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 3,
-                        "venue": "New Beverly",
-                        "date": "2017-04-29",
-                        "title": "Kill Bill: The Whole Bloody Affair",
-                        "year": 2011,
-                        "slug": "kill-bill-the-whole-bloody-affair-2011",
-                    }
-                ],
-            },
-            {
                 "imdb_id": "nm0276169",
                 "full_name": "Tom Holland",
                 "slug": None,
-                "viewing_count": 1,
+                "viewing_count": 2,
                 "viewings": [
                     {
                         "sequence": 4,
                         "venue": "AFI Silver",
-                        "date": "2017-10-31",
+                        "date": "2017-10-30",
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
-                    }
+                    },
+                    {
+                        "sequence": 5,
+                        "venue": "AFI Silver",
+                        "date": "2017-10-31",
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": None,
+                    },
                 ],
             },
         ],
@@ -325,35 +292,27 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                 ],
             },
             {
-                "imdb_id": "nm0000233",
-                "full_name": "Quentin Tarantino",
-                "slug": "quentin-tarantino",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 3,
-                        "venue": "New Beverly",
-                        "date": "2017-04-29",
-                        "title": "Kill Bill: The Whole Bloody Affair",
-                        "year": 2011,
-                        "slug": "kill-bill-the-whole-bloody-affair-2011",
-                    }
-                ],
-            },
-            {
                 "imdb_id": "nm0276169",
                 "full_name": "Tom Holland",
                 "slug": None,
-                "viewing_count": 1,
+                "viewing_count": 2,
                 "viewings": [
                     {
                         "sequence": 4,
                         "venue": "AFI Silver",
-                        "date": "2017-10-31",
+                        "date": "2017-10-30",
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
-                    }
+                    },
+                    {
+                        "sequence": 5,
+                        "venue": "AFI Silver",
+                        "date": "2017-10-31",
+                        "title": "Fright Night",
+                        "year": 1985,
+                        "slug": None,
+                    },
                 ],
             },
         ],

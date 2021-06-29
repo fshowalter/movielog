@@ -100,6 +100,8 @@ def most_watched_people_for_rows(rows: list[Row]) -> list[Person]:
     )
 
     for person_rows in rows_by_person_imdb_id.values():
+        if len(person_rows) == 1:
+            continue
         first_row = person_rows[0]
         watched_people.append(
             Person(

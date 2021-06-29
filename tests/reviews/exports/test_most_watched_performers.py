@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import datetime
 import json
 import os
@@ -203,26 +205,9 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
 
     most_watched_performers.export()
 
-    expected = {
+    expected: dict[str, object] = {
         "viewing_year": "2016",
-        "most_watched": [
-            {
-                "imdb_id": "nm0000078",
-                "full_name": "John Wayne",
-                "slug": "john-wayne",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 1,
-                        "venue": "Alamo Drafthouse",
-                        "date": "2016-06-19",
-                        "title": "Rio Bravo",
-                        "year": 1959,
-                        "slug": "rio-bravo-1959",
-                    }
-                ],
-            },
-        ],
+        "most_watched": [],
     }
 
     with open(
@@ -234,56 +219,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
 
     expected = {
         "viewing_year": "2017",
-        "most_watched": [
-            {
-                "imdb_id": "nm0000007",
-                "full_name": "Humphrey Bogart",
-                "slug": "humphrey-bogart",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 2,
-                        "venue": "Blu-ray",
-                        "date": "2017-03-12",
-                        "title": "The Big Sleep",
-                        "year": 1946,
-                        "slug": "the-big-sleep-1946",
-                    }
-                ],
-            },
-            {
-                "imdb_id": "nm0000078",
-                "full_name": "John Wayne",
-                "slug": "john-wayne",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 3,
-                        "venue": "New Beverly",
-                        "date": "2017-04-29",
-                        "title": "Stagecoach",
-                        "year": 1939,
-                        "slug": "stagecoach-1939",
-                    }
-                ],
-            },
-            {
-                "imdb_id": "nm0001697",
-                "full_name": "Chris Sarandon",
-                "slug": None,
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 4,
-                        "venue": "AFI Silver",
-                        "date": "2017-10-31",
-                        "title": "Fright Night",
-                        "year": 1985,
-                        "slug": "fright-night-1985",
-                    }
-                ],
-            },
-        ],
+        "most_watched": [],
     }
 
     with open(
@@ -318,38 +254,6 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                         "year": 1939,
                         "slug": "stagecoach-1939",
                     },
-                ],
-            },
-            {
-                "imdb_id": "nm0000007",
-                "full_name": "Humphrey Bogart",
-                "slug": "humphrey-bogart",
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 2,
-                        "venue": "Blu-ray",
-                        "date": "2017-03-12",
-                        "title": "The Big Sleep",
-                        "year": 1946,
-                        "slug": "the-big-sleep-1946",
-                    }
-                ],
-            },
-            {
-                "imdb_id": "nm0001697",
-                "full_name": "Chris Sarandon",
-                "slug": None,
-                "viewing_count": 1,
-                "viewings": [
-                    {
-                        "sequence": 4,
-                        "venue": "AFI Silver",
-                        "date": "2017-10-31",
-                        "title": "Fright Night",
-                        "year": 1985,
-                        "slug": "fright-night-1985",
-                    }
                 ],
             },
         ],
