@@ -6,7 +6,7 @@ title: Island of Death (1976)
 grade: B
 slug: island-of-death-1976
 venue: Blu-ray
-venue_notes: 2015 | Arrow Video
+venue_notes: 2015 | Arrow
 ---
 
 When it cut to Robert Behling's contorted face as he sodomized the baby goat, I grinned. Few films would dare hurtle so far over the top, and if they dared, they'd build-up to it. _Island of Death_ proffers that scene in the first 15 minutes.
