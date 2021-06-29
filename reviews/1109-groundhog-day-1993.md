@@ -9,7 +9,7 @@ venue: 4k UHD Blu-ray
 venue_notes: 2018 | Universal Sony Pictures Home Entertainment
 ---
 
-I remember seeing this in the theaters and feeling burned. Bill Murray playing a snooty weatherman forced to repeat the titular day over and over in a small Pennsylvania town evoked the meld of dark comedy and fantasy that I'd enjoyed in <span data-imdb-id="tt0096061">_Scrooged_</span>. But _Groundhog Day_ played as a romantic comedy, with Murray spending his repeated eternity becoming a better man to woo his producer, played by Andie MacDowell. At least, that's how I saw it.
+**I remember seeing this in the theater and feeling burned.** Bill Murray playing a snooty weatherman forced to repeat the titular day over and over in a small Pennsylvania town evoked the meld of dark comedy and fantasy that I'd enjoyed in <span data-imdb-id="tt0096061">_Scrooged_</span>. But _Groundhog Day_ played as a romantic comedy, with Murray spending his repeated eternity becoming a better man to woo his producer, played by Andie MacDowell. At least, that's how I saw it.
 
 <!-- end -->
 

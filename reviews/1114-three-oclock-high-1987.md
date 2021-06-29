@@ -13,4 +13,4 @@ How did I miss this off-beat 80s teen comedy that skews closer to Savage Steve H
 
 <!-- end -->
 
-My nitpick: Jerry didn’t connect. Entertaining performance by Casey Siemaszko, but the script paints him as a bumbling doofus who’s his own worst enemy. Hard to root for him. Instead, imagine a draft where the second-act finale sees him accept his fate and adopt a devil-may-care attitude befitting a dying man. It kicks off with him seducing Miss Farmer and gets darker and weirder. Too much? Perhaps, but I can’t help wishing this were a bit edgier.
+My nitpick: Jerry didn’t connect. Casey Siemaszko delivers an entertaining performance, but the script paints him as a bumbling doofus who’s his own worst enemy. Hard to root for him. Instead, imagine a draft where the second-act finale sees him accept his fate and adopt a devil-may-care attitude befitting a dying man. It kicks off with him seducing Miss Farmer and gets darker and weirder. Too much? Perhaps, but I can’t help wishing this packed a bit more edge.

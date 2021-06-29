@@ -9,7 +9,7 @@ venue: 4k UHD Blu-ray
 venue_notes: 2019 | RLJ Entertainment
 ---
 
-**I liked this one, but I wanted to love it.** Based on H. P. Lovecraft's story, the plot sees a family doomed by extraterrestrial forces after a meteorite lands in the front yard of their isolated New England farmhouse. Nicolas Cage plays the exasperated patriarch.
+**I liked this one, but I wanted to love it.** Based on H. P. Lovecraft’s story, a meteorite crash-lands outside an isolated New England farmhouse, dooming the family within to manipulation by extraterrestrial forces. Nicolas Cage plays the exasperated patriarch.
 
 <!-- end -->
 
@@ -17,4 +17,4 @@ I loved the atmosphere. The opening wide shots convey a clear storytelling visio
 
 The cast shines too. I bought everyone in their roles, though Cage's performance feels too heightened at the start.
 
-Which brings me to my lone gripe. I sense there's a great movie here. Perhaps a longer cut affording Cage more runway to transform from mild Dad to deranged victim. Or a shorter cut fueled by nightmare logic. As-is, the film feels disjointed. Cage's relationship with his father emerges in two isolated scenes as though it were a central theme. The lame explanation for the ever-present alpacas makes no sense and doesn't pay off. It's as though Stanley couldn't decide if he wanted to present a dramatic horror or psychedelic nightmare. He delivers impressive aspects of both, but in committing to neither, shortchanges his film.
+Which brings me to my lone gripe. I sense there's a great movie here. Perhaps a longer cut affording Cage more runway to transform from mild Dad to deranged victim. Or a shorter cut fueled by nightmare logic. As-is, the film feels disjointed. For example, Cage's relationship with his father emerges in two isolated scenes as though it were a central theme. Meanwhile, the ever-present alpacas mean... something? It's as though Stanley couldn't decide if he wanted to present a dramatic horror or psychedelic nightmare. He delivers impressive aspects of both, but in committing to neither, shortchanges his film.
