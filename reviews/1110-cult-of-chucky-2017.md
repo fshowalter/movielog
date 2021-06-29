@@ -19,6 +19,6 @@ But then the film shifts. We rejoin Fiona Dourif from _Curse of Chucky_, now in 
 
 But now the film meanders. We meet the other inmates and the chief doctor. Chucky shows up and stars offing inmates, framing Dourif’s character. Andy arrives for the finale as an afterthought. Not Scatman Crothers bad, but a head-scratcher.
 
-This one proves an odd duck. The tone proves uneven, veering from antiseptic horror to black comedy. To wit, Chucky delivers the funniest line of the series when referring to another antagonist saying, “I’m not sure if I should kill him or just take notes!”
+This one proves an odd duck. The tone veers from antiseptic horror to black comedy. To wit, Chucky delivers the funniest line of the series when referring to another antagonist saying, “I’m not sure if I should kill him or just take notes!”
 
 But the opening tease of a final showdown between Andy and Chucky never materializes, and the ending underwhelmed. Yes, it serves as a series finale, but it feels like they grafted the Andy bits onto another story. Said story isn’t bad, but not the finale I wanted.

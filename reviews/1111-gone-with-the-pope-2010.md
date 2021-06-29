@@ -15,7 +15,7 @@ How do you review this? A film shot in 1976 but not released until 2010, when ed
 
 Duke Mitchell plays Paul, a Los Angeles hood out on parole. The mob recruits him to execute several hits. He takes the job to fund retirement for himself and his prison buddies Peter, John, Luke, and “The Old Man”. This despite Paul’s wealthy former flame eager to rekindle their romance. Paul insists on fending for himself.
 
-The hits go well and Paul and friends skip town on his girlfriend’s yacht. They sail through the Panama canal and head for Rome. There, Paul concocts an ambitious scheme. The group will kidnap the pope and hold him for ransom. Says Paul, “I want a dollar from every Catholic in the world.”
+The hits go well and Paul and friends skip town on his girlfriend’s yacht. They sail through the Panama canal and head for Rome. There, Paul concocts an ambitious scheme. The group will kidnap the Pope and hold him for ransom. Says Paul, “I want a dollar from every Catholic in the world.”
 
 The group pull off the kidnapping, having The Old Man sub for the Pope, leaving Paul, Peter, Luke, and John on the yacht off the Italian coast with the pontiff. Get the symbolism? This sets up the film’s strongest segments, with Lorenzo Dardado playing a convincing Pope and winning over Paul’s crew, leading to Paul’s aforementioned soliloquy condemning the Catholic Church.
 
