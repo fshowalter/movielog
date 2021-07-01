@@ -9,6 +9,35 @@ from movielog.reviews import api as reviews_api
 from movielog.utils.sequence_tools import SequenceError
 
 
+def test_most_recent_review_returns_most_recent_review() -> None:
+    reviews_api.create(
+        imdb_id="tt6019206",
+        title="Kill Bill: The Whole Bloody Affair",
+        year=2011,
+        grade="B",
+        venue="Alamo Drafthouse One Loudon",
+        review_date=date(2016, 3, 12),
+    )
+
+    expected = reviews_api.create(
+        imdb_id="tt6019206",
+        title="Kill Bill: The Whole Bloody Affair",
+        year=2011,
+        grade="A",
+        venue="Alamo Drafthouse One Loudon",
+        review_date=date(2017, 3, 12),
+    )
+
+    expected.review_content = ""
+
+    assert reviews_api.most_recent_review_for_movie("tt6019206") == expected
+
+
+def test_most_recent_review_returns_none_if_no_reviews() -> None:
+
+    assert reviews_api.most_recent_review_for_movie("tt6019206") is None
+
+
 def test_create_serializes_new_review(tmp_path: str) -> None:
     expected = "---\nsequence: 1\ndate: 2016-03-12\nimdb_id: tt6019206\ntitle: 'Kill Bill: The Whole Bloody Affair (2011)'\ngrade: A\nslug: kill-bill-the-whole-bloody-affair-2011\nvenue: Alamo Drafthouse One Loudon\nvenue_notes:\n---\n\n"  # noqa: 501
 

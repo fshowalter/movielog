@@ -29,7 +29,7 @@ class ReviewedMovie(TypedDict, total=False):
 
 def fetch_reviewed_movies() -> list[ReviewedMovie]:
     query = """
-        SELECT
+        SELECT DISTINCT
             reviews.movie_imdb_id AS imdb_id
         , title
         , original_title

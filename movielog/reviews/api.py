@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date
+from typing import Optional
 
 from slugify import slugify
 
@@ -12,6 +13,14 @@ from movielog.utils import sequence_tools
 save = serializer.serialize
 
 recent_venues = venues.recent
+
+
+def most_recent_review_for_movie(imdb_id: str) -> Optional[Review]:
+    all_reviews = serializer.deserialize_all()
+    filtered_reviews = filter(
+        lambda review: review.imdb_id == imdb_id, reversed(all_reviews)
+    )
+    return next(filtered_reviews, None)
 
 
 def export_data() -> None:
