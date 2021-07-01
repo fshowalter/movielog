@@ -21,4 +21,4 @@ Perhaps it’s natural my take on the film should evolve. I came to _Christmas V
 
 That said, this viewing revealed a gag I’d never caught. Chase and Quaid are shopping in Wal-Mart, Chase pushing the cart and trying to broach an uncomfortable topic with Quaid. As they walk and talk, Quaid piles dog food into the cart. In the midst of this, Chase grabs a package of light bulbs and places them in the cart only for Quaid to crush them a heartbeat later by hefting an enormous bag of dog food atop them. Neither man acknowledges the gag, and I’d always been too focused on the dialogue to catch it.
 
-For Blu-ray, the newer 25th Anniversary scan proves far superior to the 2006 version. Besides improved audio and video, the tighter framing better hides the sled skit guide-wires.
+On Blu-ray, the 25th Anniversary scan proves far superior to the 2006 version. Besides improved audio and video, the tighter framing better hides the saucer sled guide-wires.
