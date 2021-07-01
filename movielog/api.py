@@ -10,6 +10,7 @@ create_review = reviews_api.create
 
 recent_venues = reviews_api.recent_venues
 
+most_recent_review_for_movie = reviews_api.most_recent_review_for_movie
 
 # moviedata methods
 

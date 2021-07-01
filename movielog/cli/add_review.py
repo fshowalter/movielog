@@ -135,7 +135,9 @@ def ask_for_grade(imdb_id: str) -> Optional[str]:
         move_cursor_to_end=True,
     )
 
-    default_grade = ""
+    last_review = movielog_api.most_recent_review_for_movie(imdb_id)
+
+    default_grade = last_review.grade if last_review else ""
 
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 
