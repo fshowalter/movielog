@@ -17,7 +17,7 @@ Okay, the title’s great once you’ve seen the movie, but as an attractor, it 
 
 Set in a remote Finnish community on the Russian border, the film concerns a mysterious mountain top excavation. Pietari, a boy on the cusp of abandoning his beloved stuffy, believes the excavators have unearthed Santa Claus, and that he’s hardly the jolly fellow we’ve been led to believe. Soon it’s up to Pietari to save the day.
 
-It’s a terrific spin on the Spielberg formula, buoyed by majestic yet ominous location photography, believable performances (Pietari and his father are real-life father and son), and great effects.
+It’s a terrific spin on the Spielberg formula, buoyed by majestic-yet-ominous location photography, believable performances (Pietari and his father are real-life father and son), and great effects.
 
 My lone gripe lies with Pietari’s whining through the first two acts. I appreciate the desire to demonstrate a noticeable arc, but Spielberg did this without having his protagonists grate early.
 
