@@ -9,4 +9,4 @@ venue: Vudu
 venue_notes:
 ---
 
-In 1845 Paris, Bela Lugosi plays a mad scientist injecting blood from his sideshow ape into abducted women to prove an ape-to-human evolutionary link. Cooky set design and stylish cinematography can’t overcome the talky script (with dialog punch-ups by John Huston!) and ape suit effects that aren’t fooling anyone. The scariest thing about this movie is Lugosi’s unibrow.
+Bela Lugosi plays a mad scientist injecting blood from his sideshow ape into abducted women. I appreciated the stylish cinematography and cooky mid-nineteenth-century Paris production design. But the talky script (with dialog punch-ups by John Huston!) and lame ape-suit effects proved too much. The scariest thing about this movie was Lugosi's unibrow.
