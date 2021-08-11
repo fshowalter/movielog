@@ -68,7 +68,7 @@ def fetch_rows(credit_table: str, credit_table_key: str) -> list[Row]:
         LEFT JOIN movies ON viewings.movie_imdb_id = movies.imdb_id
         LEFT JOIN {0} ON {0}.movie_imdb_id = viewings.movie_imdb_id
         LEFT JOIN people ON person_imdb_id = people.imdb_id
-        LEFT JOIN reviews ON viewings.sequence = reviews.sequence
+        LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
         LEFT JOIN (
             SELECT
                 reviews.movie_imdb_id
