@@ -6,7 +6,7 @@ title: The Range Feud (1931)
 grade: D+
 slug: the-range-feud-1931
 venue: DVD
-venue_notes: 2015 | Mill Creek Entertainment
+venue_notes: 2015 | Mill Creek Entertainment | John Wayne & The Western Trios - 50 Movie Roundup
 ---
 
 John Wayne and Susan Fleming play lovers caught between two feuding ranchers. Lead Buck Jones plays the horseshoe-bedazzled-shirt-wearing sheriff determined to prove Wayne innocent of murder. Spoiler, there's a third party at play.
