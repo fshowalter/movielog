@@ -9,4 +9,4 @@ venue: iTunes
 venue_notes: Theatrical Version
 ---
 
-John Cho and Kal Penn play roommates who spend a Friday evening getting high, then set out on a quest for White Castle sliders. This unpretentious stoner-comedy has aged well, with it's racially-tinged social satire still resonating. Cho and Penn have great chemistry and the parade of cameos all kill, including an unrecognizable Christopher Meloni as a disfigured tow-truck driver.
+John Cho and Kal Penn play roommates who spend a Friday evening getting high, then set out on a quest for White Castle sliders. This unpretentious stoner-comedy has aged well, with its racially-tinged social satire still resonating. Cho and Penn have great chemistry and the parade of cameos all kill, including an unrecognizable Christopher Meloni as a disfigured tow-truck driver.
