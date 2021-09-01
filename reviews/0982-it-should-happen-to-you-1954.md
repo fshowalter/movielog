@@ -9,7 +9,11 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Jack Lemmon's feature debut. He plays Pete, an aspiring documentary filmmaker who chances on Judy Holliday's character in Central Park. Holliday plays Gladys Glover, a naïve--and somewhat ditzy--former girdle model yearning for fame. Spying an open billboard in Columbus Circle, she uses her life's savings to plaster her name on it for three months.<!-- end --> Plot happens and soon Gladys has her name on multiple signs around the city. Pete moves in across the hall and tries to build a relationship with Gladys, but she's consumed by her signs. More plot and Gladys teams up with a sleazy manager who books her in talk-show appearances and commercials. Soon, Gladys realizes fame may not be what she dreamed.
+**Jack Lemmon's feature debut.** He plays Pete, an aspiring documentary filmmaker who chances on Judy Holliday's character in Central Park. Holliday plays Gladys Glover, a naïve--and somewhat ditzy--former girdle model yearning for fame. Spying an open billboard in Columbus Circle, she uses her life's savings to plaster her name on it for three months.
+
+<!-- end -->
+
+Plot happens and soon Gladys has her name on multiple signs around the city. Pete moves in across the hall and tries to build a relationship with Gladys, but she's consumed by her signs. More plot and Gladys teams up with a sleazy manager who books her in talk-show appearances and commercials. Soon, Gladys realizes fame may not be what she dreamed.
 
 Ugh. Where do I begin? Lemmon's performance proves interesting. He's raw--almost flat--in the early Central Park scenes, but as the film unfolds, we glimpse his potential. And I enjoyed the New York photography.
 
