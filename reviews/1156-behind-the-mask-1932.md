@@ -6,7 +6,7 @@ title: Behind the Mask (1932)
 grade: C-
 slug: behind-the-mask-1932
 venue: DVD
-venue_notes:
+venue_notes: "2013 | TCM Vault Collection | Karloff: Criminal Kind"
 ---
 
 Boris Karloff plays a low-level goon working for Mr. X, a mysterious drug smuggling kingpin. The G-Men have been trying to unmask Mr. X but have only dead agents to show for their efforts.
