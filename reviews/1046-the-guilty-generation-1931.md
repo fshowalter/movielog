@@ -6,7 +6,7 @@ title: The Guilty Generation (1931)
 grade: C
 slug: the-guilty-generation-1931
 venue: DVD
-venue_notes: 2013 | Sony Pictures | TCM Vault Collection
+venue_notes: "2013 | TCM Vault Collection | Karloff: Criminal Kind"
 ---
 
 Constance Cummings and Robert Young play lovers caught between their warring mobster fathers, played by Leo Carrillo and Boris Karloff.
