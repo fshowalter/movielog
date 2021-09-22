@@ -9,8 +9,8 @@ venue: Criterion Channel
 venue_notes:
 ---
 
-David Cronenberg’s first feature. Proffered as an educational film from the fictional Canadian Academy of Erotic Enquiry, the film documents telepathic experiments conducted on a group of young people.
+**David Cronenberg’s first feature.** Proffered as an educational film from the fictional Canadian Academy of Erotic Enquiry, the film documents telepathic experiments conducted on a group of young people.
 
 <!-- end -->
 
-Shot in silent black-and-white with clinical voice-over narration, I found the film near-impenetrable, yet intriguing. It lacks an overt narrative, but the thematic through line to Cronenberg's <span data-imdb-id="tt0081455">_Scanners_</span> proves evident.
+Shot in silent black-and-white with clinical voice-over narration, I found the film near-impenetrable, yet intriguing. It lacks an overt narrative, but the thematic through-line to Cronenberg's <span data-imdb-id="tt0081455">_Scanners_</span> proves evident.
