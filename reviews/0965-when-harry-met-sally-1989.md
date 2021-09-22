@@ -9,4 +9,4 @@ venue: HBO Max
 venue_notes:
 ---
 
-Remains a cut above most light-hearted romantic comedies. The dialogue still amuses, Ryan still charms, and the New York City location photography ages like fine wine.
+The snappy dialog, Meg Ryan's charming performance, and the terrific New York City location photography make for a pleasant watch.
