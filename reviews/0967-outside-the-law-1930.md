@@ -9,7 +9,7 @@ venue: VHS-rip
 venue_notes:
 ---
 
-Starts strong, with gangster Robinson noticing crook Moore's presence in town. Robinson shakes down Moore, demanding half of any job he's planning to pull. Robinson also takes an interest in Moore's moll, played by Nolan.
+Starts strong, with gangster Edward G. Robinson noticing crook Owen Moore's presence in town. Robinson shakes down Moore, demanding half of any job he's planning to pull. Robinson also takes an interest in Moore's moll, played by Mary Nolan.
 
 <!-- end -->
 
