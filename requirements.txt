@@ -6,7 +6,7 @@ mypy==0.910
 pre-commit==2.15.0
 prompt-toolkit==3.0.20
 pytest==6.2.5
-pytest-cov==2.12.1
+pytest-cov==3.0.0
 pytest-mock==3.6.1
 pytest-randomly==3.10.1
 python-slugify==5.0.2
