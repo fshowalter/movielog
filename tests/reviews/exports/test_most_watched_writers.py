@@ -243,6 +243,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
+                        "imdb_id": "tt0089175",
                     },
                     {
                         "sequence": 5,
@@ -251,6 +252,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
+                        "imdb_id": "tt0089175",
                     },
                 ],
             },
@@ -280,6 +282,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "Rio Bravo",
                         "year": 1959,
                         "slug": "rio-bravo-1959",
+                        "imdb_id": "tt0053221",
                     },
                     {
                         "sequence": 2,
@@ -288,6 +291,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "The Big Sleep",
                         "year": 1946,
                         "slug": "the-big-sleep-1946",
+                        "imdb_id": "tt0038355",
                     },
                 ],
             },
@@ -304,6 +308,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
+                        "imdb_id": "tt0089175",
                     },
                     {
                         "sequence": 5,
@@ -312,6 +317,7 @@ def test_exports_most_watched_writers(tmp_path: str) -> None:
                         "title": "Fright Night",
                         "year": 1985,
                         "slug": "fright-night-1985",
+                        "imdb_id": "tt0089175",
                     },
                 ],
             },

@@ -17,6 +17,7 @@ class Viewing(TypedDict):
     venue: str
     sort_title: str
     slug: str
+    grade: str
 
 
 def export() -> None:
@@ -34,11 +35,15 @@ def export() -> None:
         , viewings.venue
         , sort_title
         , reviews.slug
+        , r2.grade
         FROM viewings
         INNER JOIN movies ON viewings.movie_imdb_id = imdb_id
         INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id
         INNER JOIN sort_titles ON sort_titles.movie_imdb_id = viewings.movie_imdb_id
-        LEFT JOIN reviews ON viewings.sequence = reviews.sequence;
+        LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
+        LEFT JOIN reviews AS r2 ON viewings.sequence = r2.sequence
+        GROUP BY
+            viewings.sequence;
         """
 
     viewings = [
@@ -53,6 +58,7 @@ def export() -> None:
             sort_title=row["sort_title"],
             year=row["year"],
             slug=row["slug"],
+            grade=row["grade"],
         )
         for row in db.fetch_all(query)
     ]

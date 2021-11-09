@@ -66,6 +66,7 @@ def test_exports_viewings(tmp_path: str) -> None:
             "sort_title": "Rio Bravo",
             "venue": "Blu-ray",
             "slug": "rio-bravo-1959",
+            "grade": "A+",
         }
     ]
 

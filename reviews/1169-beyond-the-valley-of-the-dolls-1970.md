@@ -9,12 +9,8 @@ venue: Criterion Channel
 venue_notes:
 ---
 
-Commentary rewatch. Screenwriter Roger Ebert proves entertaining and enlightening. He's self-deprecating without dismissing his work and praises director Russ Meyer.
+Commentary rewatch. Screenwriter Roger Ebert proves entertaining and enlightening.
 
-<!-- end -->
+My favorite anecdote shed light on how director Russ Meyer achieved the film's unusual tone. According to Ebert, Meyer convinced the performers they were playing a straight drama. When some expressed concern about the film's comical nature, Meyer assuaged them with earnest discussions about their character's motivations in each scene. I love it.
 
-Some notes:
-
-- Meyer achieved the film's unusual tone by directing the actors as though they were playing a straight drama. This confused some, but Meyer's earnest discussions about their character's motivations convinced them.
-
-- Ebert can't find Pam Grier either, leading me to believe she's not present in the final cut.
+And Ebert can't find Pam Grier either, leading me to believe she's not present in the final cut.

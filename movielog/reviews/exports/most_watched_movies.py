@@ -8,7 +8,7 @@ from movielog import db
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
 
-LIMIT = 20
+LIMIT = 12
 
 
 @dataclass
