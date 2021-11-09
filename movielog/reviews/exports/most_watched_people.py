@@ -8,7 +8,7 @@ from typing import TypedDict
 from movielog import db
 from movielog.utils import list_tools, query_tools
 
-MAX_RESULTS = 20
+MAX_RESULTS = 10
 
 
 @dataclass
@@ -19,6 +19,7 @@ class Viewing(object):
     title: str
     year: int
     slug: str
+    imdb_id: str
 
 
 @dataclass
@@ -117,6 +118,7 @@ def most_watched_people_for_rows(rows: list[Row]) -> list[Person]:
                         title=person_row["movie_title"],
                         year=person_row["movie_year"],
                         slug=person_row["review_slug"],
+                        imdb_id=person_row["movie_imdb_id"],
                     )
                     for person_row in person_rows
                 ],

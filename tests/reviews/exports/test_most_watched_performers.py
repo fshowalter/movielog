@@ -245,6 +245,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                         "title": "Rio Bravo",
                         "year": 1959,
                         "slug": "rio-bravo-1959",
+                        "imdb_id": "tt0053221",
                     },
                     {
                         "sequence": 3,
@@ -253,6 +254,7 @@ def test_exports_most_watched_performers(tmp_path: str) -> None:
                         "title": "Stagecoach",
                         "year": 1939,
                         "slug": "stagecoach-1939",
+                        "imdb_id": "tt0031971",
                     },
                 ],
             },
