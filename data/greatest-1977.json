@@ -97,7 +97,7 @@
       "name": "Chip McAllister",
       "sequence": 9,
       "roles": [
-        "Cassius Clay Aged 18"
+        "Cassius Clay - Aged 18"
       ],
       "notes": "(as Phillip 'Chip' McAllister)"
     },
@@ -219,20 +219,20 @@
       "notes": "(as Howard Bingham)"
     },
     {
-      "person_imdb_id": "nm0682474",
-      "name": "Stack Pierce",
+      "person_imdb_id": "nm0893390",
+      "name": "Richard Venture",
       "sequence": 23,
       "roles": [
-        "Rahaman"
+        "Colonel"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0893390",
-      "name": "Richard Venture",
+      "person_imdb_id": "nm0682474",
+      "name": "Stack Pierce",
       "sequence": 24,
       "roles": [
-        "Colonel"
+        "Rahaman"
       ],
       "notes": ""
     },
@@ -453,18 +453,9 @@
       "notes": "(archiveFootage)"
     },
     {
-      "person_imdb_id": "nm0542931",
-      "name": "Ray Mann",
-      "sequence": 49,
-      "roles": [
-        "Young Man"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm2111371",
       "name": "Buster Mathis",
-      "sequence": 50,
+      "sequence": 49,
       "roles": [
         "Self"
       ],
@@ -473,7 +464,7 @@
     {
       "person_imdb_id": "nm0580190",
       "name": "Arthur Mercante",
-      "sequence": 51,
+      "sequence": 50,
       "roles": [
         "Self"
       ],
@@ -482,16 +473,16 @@
     {
       "person_imdb_id": "nm0600911",
       "name": "Archie Moore",
-      "sequence": 52,
+      "sequence": 51,
       "roles": [
-        "Archie Moore"
+        "Self"
       ],
       "notes": "(archiveFootage)"
     },
     {
       "person_imdb_id": "nm0636243",
       "name": "Ken Norton",
-      "sequence": 53,
+      "sequence": 52,
       "roles": [
         "Self"
       ],
@@ -500,7 +491,7 @@
     {
       "person_imdb_id": "nm0666206",
       "name": "Floyd Patterson",
-      "sequence": 54,
+      "sequence": 53,
       "roles": [
         "Self"
       ],
@@ -509,7 +500,7 @@
     {
       "person_imdb_id": "nm1620897",
       "name": "Jerry Quarry",
-      "sequence": 55,
+      "sequence": 54,
       "roles": [
         "Self"
       ],
@@ -522,21 +513,21 @@
       "name": "Muhammad Ali",
       "group": 0,
       "sequence": 0,
-      "notes": "(based on: \"The Greatest: My Own Story\" by)"
+      "notes": "(book \"The Greatest: My Own Story\")"
     },
     {
       "person_imdb_id": "nm0611249",
       "name": "Herbert Muhammad",
       "group": 0,
       "sequence": 1,
-      "notes": "(based on: \"The Greatest: My Own Story\" by)"
+      "notes": "(book \"The Greatest: My Own Story\")"
     },
     {
       "person_imdb_id": "nm0244101",
       "name": "Richard Durham",
       "group": 0,
       "sequence": 2,
-      "notes": "(based on: \"The Greatest: My Own Story\" by)"
+      "notes": "(book \"The Greatest: My Own Story\")"
     },
     {
       "person_imdb_id": "nm0488057",
@@ -547,9 +538,14 @@
     }
   ],
   "release_date": "1977-05-19",
-  "release_date_notes": "(Marquette, MIchigan)",
+  "release_date_notes": "(Los Angeles, California)",
   "countries": [
     "United Kingdom",
     "United States"
+  ],
+  "genres": [
+    "Biography",
+    "Drama",
+    "Sport"
   ]
 }

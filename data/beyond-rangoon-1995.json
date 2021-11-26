@@ -209,22 +209,22 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0411339",
-      "name": "Norlela Ismail",
-      "sequence": 22,
-      "roles": [
-        "Young Sula Woman"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm0845216",
       "name": "Ramona Diaz Sanchez",
-      "sequence": 23,
+      "sequence": 22,
       "roles": [
         "Female Tourist #1"
       ],
       "notes": "(as Ramona S\u00e1nchez-Waggoner)"
+    },
+    {
+      "person_imdb_id": "nm0411339",
+      "name": "Norlela Ismail",
+      "sequence": 23,
+      "roles": [
+        "Young Sula Woman"
+      ],
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0652064",
@@ -493,5 +493,10 @@
   "countries": [
     "United Kingdom",
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
   ]
 }

@@ -213,14 +213,18 @@
       "person_imdb_id": "nm0006631",
       "name": "Anthony Foutz",
       "sequence": 22,
-      "roles": [],
+      "roles": [
+        "Mobster"
+      ],
       "notes": "(as Tony Foutz)"
     },
     {
       "person_imdb_id": "nm0450839",
       "name": "Tom Keyes",
       "sequence": 23,
-      "roles": [],
+      "roles": [
+        "Mobster"
+      ],
       "notes": ""
     },
     {
@@ -299,7 +303,9 @@
       "person_imdb_id": "nm0065191",
       "name": "Julian Beck",
       "sequence": 32,
-      "roles": [],
+      "roles": [
+        "Hippy"
+      ],
       "notes": ""
     }
   ],
@@ -332,5 +338,10 @@
     "Italy",
     "France",
     "United States"
+  ],
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
   ]
 }

@@ -6,7 +6,7 @@
       "person_imdb_id": "nm0852279",
       "name": "Don Taylor",
       "sequence": 0,
-      "notes": ""
+      "notes": "(directed by)"
     },
     {
       "person_imdb_id": "nm0388198",
@@ -311,21 +311,21 @@
       "name": "Harvey Bernhard",
       "group": 0,
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0542970",
       "name": "Stanley Mann",
       "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0388198",
       "name": "Mike Hodges",
       "group": 2,
       "sequence": 1,
-      "notes": "(screenplay) (as Michael Hodges)"
+      "notes": "(screenplay by) (as Michael Hodges)"
     }
   ],
   "release_date": "1978-06-05",
@@ -333,5 +333,8 @@
   "countries": [
     "United Kingdom",
     "United States"
+  ],
+  "genres": [
+    "Horror"
   ]
 }

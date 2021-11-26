@@ -11,40 +11,41 @@
   ],
   "cast": [
     {
-      "person_imdb_id": "nm0263330",
-      "name": "Edith Evanson",
+      "person_imdb_id": "nm0129894",
+      "name": "Louis Calhern",
       "sequence": 0,
       "roles": [
-        "Annie Gough"
+        "Oliver Wendell Holmes - The Magnificent Yankee"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0527996",
-      "name": "Jimmy Lydon",
+      "person_imdb_id": "nm0362267",
+      "name": "Ann Harding",
       "sequence": 1,
       "roles": [
-        "Clinton"
-      ],
-      "notes": "(as James Lydon)"
-    },
-    {
-      "person_imdb_id": "nm0027323",
-      "name": "Richard Anderson",
-      "sequence": 2,
-      "roles": [
-        "Reynolds"
+        "Fanny Bowditch Holmes"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0026802",
-      "name": "Herbert Anderson",
+      "person_imdb_id": "nm0291829",
+      "name": "Eduard Franz",
+      "sequence": 2,
+      "roles": [
+        "Louis Brandeis"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0643211",
+      "name": "Philip Ober",
       "sequence": 3,
       "roles": [
-        "Baxter"
+        "Owen Wister",
+        "Narrator"
       ],
-      "notes": "(as Guy Anderson)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0938052",
@@ -56,41 +57,40 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0643211",
-      "name": "Philip Ober",
+      "person_imdb_id": "nm0263330",
+      "name": "Edith Evanson",
       "sequence": 5,
       "roles": [
-        "Owen Wister",
-        "Narrator"
+        "Annie Gough"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0291829",
-      "name": "Eduard Franz",
+      "person_imdb_id": "nm0026802",
+      "name": "Herbert Anderson",
       "sequence": 6,
       "roles": [
-        "Louis Brandeis"
+        "Baxter"
       ],
-      "notes": ""
+      "notes": "(as Guy Anderson)"
     },
     {
-      "person_imdb_id": "nm0362267",
-      "name": "Ann Harding",
+      "person_imdb_id": "nm0027323",
+      "name": "Richard Anderson",
       "sequence": 7,
       "roles": [
-        "Fanny Bowditch Holmes"
+        "Reynolds"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0129894",
-      "name": "Louis Calhern",
+      "person_imdb_id": "nm0527996",
+      "name": "Jimmy Lydon",
       "sequence": 8,
       "roles": [
-        "The Magnificent Yankee"
+        "Clinton"
       ],
-      "notes": ""
+      "notes": "(as James Lydon)"
     },
     {
       "person_imdb_id": "nm0492342",
@@ -104,30 +104,34 @@
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0081144",
-      "name": "Francis Biddle",
+      "person_imdb_id": "nm0491964",
+      "name": "Emmet Lavery",
       "group": 0,
       "sequence": 0,
-      "notes": "(book \"Mr. Justice Holmes\")"
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0491964",
       "name": "Emmet Lavery",
-      "group": 1,
-      "sequence": 0,
+      "group": 0,
+      "sequence": 1,
       "notes": "(play)"
     },
     {
-      "person_imdb_id": "nm0491964",
-      "name": "Emmet Lavery",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(screenplay)"
+      "person_imdb_id": "nm0081144",
+      "name": "Francis Biddle",
+      "group": 0,
+      "sequence": 2,
+      "notes": "(book \"Mr. Justice Holmes\")"
     }
   ],
   "release_date": "1950-12-20",
   "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Biography",
+    "Drama"
   ]
 }

@@ -6,7 +6,7 @@
       "person_imdb_id": "nm0005196",
       "name": "Paul Mazursky",
       "sequence": 0,
-      "notes": ""
+      "notes": "(directed by)"
     }
   ],
   "cast": [
@@ -384,30 +384,42 @@
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0344171",
-      "name": "Jean Gruault",
-      "group": 0,
-      "sequence": 0,
-      "notes": "(adaptation) (uncredited)"
-    },
-    {
       "person_imdb_id": "nm0005196",
       "name": "Paul Mazursky",
-      "group": 1,
+      "group": 0,
       "sequence": 0,
-      "notes": "()"
+      "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm0734132",
       "name": "Henri-Pierre Roch\u00e9",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(novel \"Jules et Jim\") (uncredited)"
+    },
+    {
+      "person_imdb_id": "nm0000076",
+      "name": "Fran\u00e7ois Truffaut",
       "group": 2,
       "sequence": 0,
-      "notes": "(novel) (uncredited)"
+      "notes": "(adaptation and dialogue) (1962 film \"Jules et Jim\") (uncredited)"
+    },
+    {
+      "person_imdb_id": "nm0344171",
+      "name": "Jean Gruault",
+      "group": 2,
+      "sequence": 1,
+      "notes": "(adaptation and dialogue) (1962 film \"Jules et Jim\") (uncredited)"
     }
   ],
   "release_date": "1980-08-15",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
   ]
 }

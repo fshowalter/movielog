@@ -222,7 +222,7 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm1202358",
+      "person_imdb_id": "nm1181023",
       "name": "Nino D'Agata",
       "sequence": 24,
       "roles": [],
@@ -313,7 +313,9 @@
       "person_imdb_id": "nm2610096",
       "name": "Andrea Ricciardi",
       "sequence": 36,
-      "roles": [],
+      "roles": [
+        "Medico"
+      ],
       "notes": ""
     },
     {
@@ -379,5 +381,9 @@
   "release_date_notes": "(Rome Film Festival)",
   "countries": [
     "Italy"
+  ],
+  "genres": [
+    "Drama",
+    "History"
   ]
 }

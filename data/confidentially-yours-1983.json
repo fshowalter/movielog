@@ -62,7 +62,7 @@
       "roles": [
         "Bertrand Fabre"
       ],
-      "notes": ""
+      "notes": "(as Xavier Saint Macary)"
     },
     {
       "person_imdb_id": "nm0723827",
@@ -203,7 +203,7 @@
       "name": "Marie-No\u00eblle Guilliot",
       "sequence": 22,
       "roles": [],
-      "notes": ""
+      "notes": "(as Marie-Noelle Guilliot)"
     },
     {
       "person_imdb_id": "nm0463492",
@@ -265,26 +265,53 @@
       "name": "Fran\u00e7ois Truffaut",
       "group": 1,
       "sequence": 0,
-      "notes": "(adaptation) (dialogue)"
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0771535",
       "name": "Suzanne Schiffman",
       "group": 1,
       "sequence": 1,
-      "notes": "(adaptation) (dialogue)"
+      "notes": "(adaptation)"
     },
     {
       "person_imdb_id": "nm0042159",
       "name": "Jean Aurel",
       "group": 1,
       "sequence": 2,
-      "notes": "(adaptation) (dialogue)"
+      "notes": "(adaptation)"
+    },
+    {
+      "person_imdb_id": "nm0000076",
+      "name": "Fran\u00e7ois Truffaut",
+      "group": 2,
+      "sequence": 0,
+      "notes": "(dialogue)"
+    },
+    {
+      "person_imdb_id": "nm0771535",
+      "name": "Suzanne Schiffman",
+      "group": 2,
+      "sequence": 1,
+      "notes": "(dialogue)"
+    },
+    {
+      "person_imdb_id": "nm0042159",
+      "name": "Jean Aurel",
+      "group": 2,
+      "sequence": 2,
+      "notes": "(dialogue)"
     }
   ],
   "release_date": "1983-08-05",
   "release_date_notes": "(Locarno Film Festival)",
   "countries": [
     "France"
+  ],
+  "genres": [
+    "Comedy",
+    "Crime",
+    "Mystery",
+    "Thriller"
   ]
 }

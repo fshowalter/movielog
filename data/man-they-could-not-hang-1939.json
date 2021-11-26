@@ -51,7 +51,7 @@
       "name": "Don Beddoe",
       "sequence": 4,
       "roles": [
-        "Police Lt. Shane"
+        "Lieutenant Shane"
       ],
       "notes": ""
     },
@@ -96,7 +96,7 @@
       "name": "Dick Curtis",
       "sequence": 9,
       "roles": [
-        "Jury Foreman Clifford Kearney"
+        "Kearney"
       ],
       "notes": ""
     },
@@ -105,7 +105,7 @@
       "name": "James Craig",
       "sequence": 10,
       "roles": [
-        "Juror Watkins"
+        "Watkins"
       ],
       "notes": ""
     },
@@ -114,7 +114,7 @@
       "name": "John Tyrrell",
       "sequence": 11,
       "roles": [
-        "Juror Sutton"
+        "Sutton"
       ],
       "notes": ""
     }
@@ -128,23 +128,28 @@
       "notes": "(screenplay)"
     },
     {
+      "person_imdb_id": "nm0925129",
+      "name": "Leslie T. White",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(story)"
+    },
+    {
       "person_imdb_id": "nm0768536",
       "name": "George Wallace Sayre",
       "group": 1,
-      "sequence": 0,
+      "sequence": 1,
       "notes": "(story) (as George W. Sayre)"
-    },
-    {
-      "person_imdb_id": "nm0925129",
-      "name": "Leslie T. White",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(story)"
     }
   ],
   "release_date": "1939-08-17",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Crime",
+    "Horror",
+    "Sci-Fi"
   ]
 }

@@ -22,6 +22,7 @@ def test_update_adds_countries(sql_query: Callable[[str], QueryResult]) -> None:
             release_date=date(1986, 8, 8),
             release_date_notes="",
             countries=["United States", "Japan"],
+            genres=["Animation", "Action"],
         )
     ]
 

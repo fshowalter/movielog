@@ -15,7 +15,7 @@
       "name": "Humphrey Bogart",
       "sequence": 0,
       "roles": [
-        "Capt. 'Rip' Murdock"
+        "Rip Murdock"
       ],
       "notes": ""
     },
@@ -24,8 +24,7 @@
       "name": "Lizabeth Scott",
       "sequence": 1,
       "roles": [
-        "Coral 'Dusty'",
-        "'Mike' Chandler"
+        "Coral Chandler"
       ],
       "notes": ""
     },
@@ -52,7 +51,7 @@
       "name": "William Prince",
       "sequence": 4,
       "roles": [
-        "Sgt. Johnny Drake"
+        "Johnny Drake"
       ],
       "notes": ""
     },
@@ -91,24 +90,6 @@
         "Louis Ord"
       ],
       "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0286704",
-      "name": "William Forrest",
-      "sequence": 9,
-      "roles": [
-        "Lt. Col. Simpson"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0199276",
-      "name": "Ruby Dandridge",
-      "sequence": 10,
-      "roles": [
-        "Hyacinth"
-      ],
-      "notes": ""
     }
   ],
   "writers": [
@@ -117,14 +98,14 @@
       "name": "Oliver H.P. Garrett",
       "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0279795",
       "name": "Steve Fisher",
       "group": 0,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "person_imdb_id": "nm0729694",
@@ -152,5 +133,12 @@
   "release_date_notes": "(Miami, Florida) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Crime",
+    "Drama",
+    "Film-Noir",
+    "Mystery",
+    "Thriller"
   ]
 }

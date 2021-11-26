@@ -45,6 +45,7 @@ def test_update_adds_performers(sql_query: Callable[[str], QueryResult]) -> None
                     roles=["Dude"],
                 ),
             ],
+            genres=["Western"],
             release_date=date(1959, 3, 18),
             release_date_notes="",
             countries=["United States"],

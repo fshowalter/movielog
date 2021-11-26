@@ -53,19 +53,37 @@
       "name": "John Carpenter",
       "group": 0,
       "sequence": 0,
-      "notes": "(original story and screenplay)"
+      "notes": "(original story by)"
     },
     {
       "person_imdb_id": "nm0639321",
       "name": "Dan O'Bannon",
       "group": 0,
       "sequence": 1,
-      "notes": "(original story and screenplay)"
+      "notes": "(original story by)"
+    },
+    {
+      "person_imdb_id": "nm0000118",
+      "name": "John Carpenter",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(screenplay by)"
+    },
+    {
+      "person_imdb_id": "nm0639321",
+      "name": "Dan O'Bannon",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1974-04-01",
   "release_date_notes": "(Filmex L.A.)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
   ]
 }

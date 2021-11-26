@@ -528,16 +528,7 @@
       "name": "Stanley",
       "sequence": 57,
       "roles": [
-        "Self"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm1332316",
-      "name": "Tom Fisher",
-      "sequence": 58,
-      "roles": [
-        "Seaman"
+        "Stanley"
       ],
       "notes": ""
     }
@@ -548,21 +539,21 @@
       "name": "Tom Clancy",
       "group": 0,
       "sequence": 0,
-      "notes": "(novel \"The Hunt for Red October\")"
+      "notes": "(based on the novel by)"
     },
     {
       "person_imdb_id": "nm0272511",
       "name": "Larry Ferguson",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0829329",
       "name": "Donald E. Stewart",
       "group": 1,
       "sequence": 1,
-      "notes": "(screenplay) (as Donald Stewart)"
+      "notes": "(screenplay by) (as Donald Stewart)"
     },
     {
       "person_imdb_id": "nm0787072",
@@ -576,5 +567,10 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
   ]
 }

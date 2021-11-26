@@ -15,7 +15,7 @@
       "name": "George Segal",
       "sequence": 0,
       "roles": [
-        "Stephen Blume"
+        "Blume"
       ],
       "notes": ""
     },
@@ -24,7 +24,7 @@
       "name": "Susan Anspach",
       "sequence": 1,
       "roles": [
-        "Nina Blume"
+        "Nina"
       ],
       "notes": ""
     },
@@ -33,7 +33,7 @@
       "name": "Kris Kristofferson",
       "sequence": 2,
       "roles": [
-        "Elmo Cole"
+        "Elmo"
       ],
       "notes": ""
     },
@@ -69,7 +69,7 @@
       "name": "Paul Mazursky",
       "sequence": 6,
       "roles": [
-        "Kurt Hellman"
+        "Hellman"
       ],
       "notes": ""
     },
@@ -78,7 +78,7 @@
       "name": "Erin O'Reilly",
       "sequence": 7,
       "roles": [
-        "Cindy Chase"
+        "Cindy"
       ],
       "notes": ""
     },
@@ -168,7 +168,7 @@
       "name": "Dennis Kort",
       "sequence": 17,
       "roles": [
-        "Bobby Phillips - Boy at Party"
+        "Boy at Party"
       ],
       "notes": ""
     },
@@ -249,7 +249,7 @@
       "name": "Karl Lukas",
       "sequence": 26,
       "roles": [
-        "Karl - Cleaning Man"
+        "Cleaning Man"
       ],
       "notes": ""
     }
@@ -260,12 +260,17 @@
       "name": "Paul Mazursky",
       "group": 0,
       "sequence": 0,
-      "notes": "(writer)"
+      "notes": "(written by)"
     }
   ],
   "release_date": "1973-05-17",
   "release_date_notes": "(Cannes Film Festival)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
   ]
 }

@@ -96,7 +96,7 @@
       "name": "Andrew Reilly",
       "sequence": 9,
       "roles": [
-        "Hans Von Buelow"
+        "Hans von B\u00fclow"
       ],
       "notes": ""
     },
@@ -204,7 +204,7 @@
       "name": "Kenneth Colley",
       "sequence": 21,
       "roles": [
-        "Frederic Chopin"
+        "Fr\u00e9d\u00e9ric Chopin"
       ],
       "notes": "(as Ken Colley)"
     },
@@ -213,7 +213,7 @@
       "name": "Otto Diamant",
       "sequence": 22,
       "roles": [
-        "Felix Mendelsohn"
+        "Felix Mendelssohn"
       ],
       "notes": ""
     }
@@ -224,12 +224,18 @@
       "name": "Ken Russell",
       "group": 0,
       "sequence": 0,
-      "notes": "()"
+      "notes": "(written by)"
     }
   ],
   "release_date": "1975-10-10",
   "release_date_notes": "(New York City, New York)",
   "countries": [
     "United Kingdom"
+  ],
+  "genres": [
+    "Biography",
+    "Comedy",
+    "Music",
+    "Musical"
   ]
 }

@@ -10,8 +10,8 @@ from movielog.reviews.exports import (  # noqa: WPS235
     most_watched_writers,
     review_stats,
     reviewed_movies,
+    top_venues,
     viewing_counts_for_decades,
-    viewing_counts_for_venues,
     viewing_stats,
     viewings,
 )
@@ -30,6 +30,6 @@ def export() -> None:  # noqa: WPS213
     review_stats.export()
     reviewed_movies.export()
     viewing_counts_for_decades.export()
-    viewing_counts_for_venues.export()
+    top_venues.export()
     viewing_stats.export()
     viewings.export()

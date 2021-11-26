@@ -47,20 +47,20 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm3548282",
-      "name": "Camille Chamoux",
+      "person_imdb_id": "nm0747690",
+      "name": "Brigitte Ro\u00fcan",
       "sequence": 4,
       "roles": [
-        "Oriane, l'attach\u00e9e de presse"
+        "La documentaliste du lyc\u00e9e"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0747690",
-      "name": "Brigitte Ro\u00fcan",
+      "person_imdb_id": "nm3548282",
+      "name": "Camille Chamoux",
       "sequence": 5,
       "roles": [
-        "La documentaliste du lyc\u00e9e"
+        "Oriane, l'attach\u00e9e de presse"
       ],
       "notes": ""
     },
@@ -92,9 +92,27 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0501258",
+      "name": "\u00c9dith Le Merdy",
+      "sequence": 9,
+      "roles": [
+        "La voisine"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2161889",
+      "name": "Saadia Benta\u00efeb",
+      "sequence": 10,
+      "roles": [
+        "Jeanne"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm1353056",
       "name": "Elisabeth Quin",
-      "sequence": 9,
+      "sequence": 11,
       "roles": [
         "La journaliste"
       ],
@@ -103,25 +121,16 @@
     {
       "person_imdb_id": "nm4044784",
       "name": "Damien Bonnard",
-      "sequence": 10,
+      "sequence": 12,
       "roles": [
         "Le preneur de son"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm2161889",
-      "name": "Saadia Benta\u00efeb",
-      "sequence": 11,
-      "roles": [
-        "Jeanne"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm2058123",
       "name": "V\u00e9ronique Vasseur",
-      "sequence": 12,
+      "sequence": 13,
       "roles": [
         "La m\u00e8re de Delphine"
       ],
@@ -130,7 +139,7 @@
     {
       "person_imdb_id": "nm9409122",
       "name": "Stanislas Moreau",
-      "sequence": 13,
+      "sequence": 14,
       "roles": [
         "Le barman"
       ],
@@ -139,7 +148,7 @@
     {
       "person_imdb_id": "nm3565204",
       "name": "Val\u00e9rie de Monza",
-      "sequence": 14,
+      "sequence": 15,
       "roles": [
         "Femme Salon du livre"
       ],
@@ -148,7 +157,7 @@
     {
       "person_imdb_id": "nm5667861",
       "name": "Anouchka Csernakova",
-      "sequence": 15,
+      "sequence": 16,
       "roles": [
         "Femme Salon du livre"
       ],
@@ -157,7 +166,7 @@
     {
       "person_imdb_id": "nm9409124",
       "name": "Paul Garcia",
-      "sequence": 16,
+      "sequence": 17,
       "roles": [
         "Homme Salon du livre"
       ],
@@ -166,7 +175,7 @@
     {
       "person_imdb_id": "nm9409125",
       "name": "M\u00e9lanie Bourgeois",
-      "sequence": 17,
+      "sequence": 18,
       "roles": [
         "Femme Salon du livre"
       ],
@@ -175,7 +184,7 @@
     {
       "person_imdb_id": "nm9409126",
       "name": "Jean Frischmann",
-      "sequence": 18,
+      "sequence": 19,
       "roles": [
         "Homme Salon du livre"
       ],
@@ -184,7 +193,7 @@
     {
       "person_imdb_id": "nm6212638",
       "name": "Charlotte Mangel",
-      "sequence": 19,
+      "sequence": 20,
       "roles": [
         "Femme Salon du livre"
       ],
@@ -193,14 +202,14 @@
     {
       "person_imdb_id": "nm11520626",
       "name": "H\u00e9l\u00e8ne Dars",
-      "sequence": 20,
+      "sequence": 21,
       "roles": [],
       "notes": ""
     },
     {
       "person_imdb_id": "nm4965014",
       "name": "Sophie Gibert",
-      "sequence": 21,
+      "sequence": 22,
       "roles": [
         "Doublure Emmanuelle Seigner"
       ],
@@ -236,5 +245,10 @@
     "France",
     "Poland",
     "Belgium"
+  ],
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Thriller"
   ]
 }

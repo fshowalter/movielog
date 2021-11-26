@@ -11,20 +11,20 @@
   ],
   "cast": [
     {
-      "person_imdb_id": "nm0000772",
-      "name": "Susan Anton",
+      "person_imdb_id": "nm0000336",
+      "name": "James Coburn",
       "sequence": 0,
       "roles": [
-        "Goldine Serafin"
+        "Dryden"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0000336",
-      "name": "James Coburn",
+      "person_imdb_id": "nm0000772",
+      "name": "Susan Anton",
       "sequence": 1,
       "roles": [
-        "Jack Dryden"
+        "Goldine"
       ],
       "notes": ""
     },
@@ -33,41 +33,14 @@
       "name": "Curd J\u00fcrgens",
       "sequence": 2,
       "roles": [
-        "Dr. Serafin"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0001989",
-      "name": "Leslie Caron",
-      "sequence": 3,
-      "roles": [
-        "Dr. Sammy Lee"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0191685",
-      "name": "Robert Culp",
-      "sequence": 4,
-      "roles": [
-        "Steve Esselton"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0914482",
-      "name": "James A. Watson Jr.",
-      "sequence": 5,
-      "roles": [
-        "Winters"
+        "Serafin"
       ],
       "notes": ""
     },
     {
       "person_imdb_id": "nm0345340",
       "name": "Harry Guardino",
-      "sequence": 6,
+      "sequence": 3,
       "roles": [
         "Valenti"
       ],
@@ -76,7 +49,7 @@
     {
       "person_imdb_id": "nm0182626",
       "name": "Ward Costello",
-      "sequence": 7,
+      "sequence": 4,
       "roles": [
         "Cobb"
       ],
@@ -85,27 +58,54 @@
     {
       "person_imdb_id": "nm0503627",
       "name": "Michael Lerner",
-      "sequence": 8,
+      "sequence": 5,
       "roles": [
         "Sternberg"
       ],
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0001989",
+      "name": "Leslie Caron",
+      "sequence": 6,
+      "roles": [
+        "Lee"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0914482",
+      "name": "James A. Watson Jr.",
+      "sequence": 7,
+      "roles": [
+        "Winters"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm0627761",
       "name": "John Newcombe",
-      "sequence": 9,
+      "sequence": 8,
       "roles": [
         "Armitage"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm2116582",
-      "name": "Andrea Brown",
+      "person_imdb_id": "nm0275980",
+      "name": "Julianna Fjeld",
+      "sequence": 9,
+      "roles": [
+        "Ingrid"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0191685",
+      "name": "Robert Culp",
       "sequence": 10,
       "roles": [
-        "Teammate"
+        "Esselton"
       ],
       "notes": ""
     },
@@ -114,61 +114,189 @@
       "name": "Nicolas Coster",
       "sequence": 11,
       "roles": [
-        "US Olympic Team Doctor"
+        "Dr. Dalton"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0275980",
-      "name": "Julianna Fjeld",
+      "person_imdb_id": "nm0223179",
+      "name": "Sheila Wills",
       "sequence": 12,
       "roles": [
-        "Ingrid"
+        "Jackson"
       ],
-      "notes": "(as Julianna Field)"
-    },
-    {
-      "person_imdb_id": "nm0369631",
-      "name": "Mischa Hausserman",
-      "sequence": 13,
-      "roles": [
-        "Pilot"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm5195582",
-      "name": "Phillip Mote",
-      "sequence": 14,
-      "roles": [
-        "Loud fan"
-      ],
-      "notes": ""
+      "notes": "(as Sheila DeWindt)"
     },
     {
       "person_imdb_id": "nm0849564",
       "name": "Annette Tannader",
-      "sequence": 15,
+      "sequence": 13,
       "roles": [
         "Krull"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0910055",
-      "name": "Jessica Walter",
-      "sequence": 16,
-      "roles": [],
+      "person_imdb_id": "nm0369631",
+      "name": "Mischa Hausserman",
+      "sequence": 14,
+      "roles": [
+        "Pilot"
+      ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0223179",
-      "name": "Sheila Wills",
+      "person_imdb_id": "nm0104558",
+      "name": "Tony Brande",
+      "sequence": 15,
+      "roles": [
+        "Vince"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12459717",
+      "name": "Michelle Hooper",
+      "sequence": 16,
+      "roles": [
+        "Muratova"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12921205",
+      "name": "Jeff Vanderstock",
       "sequence": 17,
       "roles": [
-        "Debbie"
+        "Starter #1"
       ],
-      "notes": "(as Sheila DeWindt)"
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0689633",
+      "name": "Ben Pollock",
+      "sequence": 18,
+      "roles": [
+        "Starter #2"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12921206",
+      "name": "Nazaret Khodiquian",
+      "sequence": 19,
+      "roles": [
+        "Starter #3"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm6826495",
+      "name": "Elliott Mason",
+      "sequence": 20,
+      "roles": [
+        "Makepeace"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0838135",
+      "name": "Jenny Sullivan",
+      "sequence": 21,
+      "roles": [
+        "Dr. Walsh"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12921207",
+      "name": "Karen Werner",
+      "sequence": 22,
+      "roles": [
+        "Kansas Girl"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2116582",
+      "name": "Andrea Brown",
+      "sequence": 23,
+      "roles": [
+        "Teammate"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0531648",
+      "name": "Casey MacDonald",
+      "sequence": 24,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm4624293",
+      "name": "Theresa Aldrich Fagundes",
+      "sequence": 25,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": "(as Theresa Aldrich)"
+    },
+    {
+      "person_imdb_id": "nm0337872",
+      "name": "Gilbert Green",
+      "sequence": 26,
+      "roles": [
+        "Dr. Hatrwig"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0239349",
+      "name": "Darren Dublin",
+      "sequence": 27,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm12921208",
+      "name": "Joyce Danelen",
+      "sequence": 28,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0808323",
+      "name": "Gil Smith",
+      "sequence": 29,
+      "roles": [
+        "Reporter"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0063753",
+      "name": "Bob Beamon",
+      "sequence": 30,
+      "roles": [
+        "Colorman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm1025337",
+      "name": "Dwight E. Stones",
+      "sequence": 31,
+      "roles": [
+        "Philip"
+      ],
+      "notes": ""
     }
   ],
   "writers": [
@@ -184,12 +312,17 @@
       "name": "Peter Lovesey",
       "group": 1,
       "sequence": 0,
-      "notes": "(novel)"
+      "notes": "(novel) (as Peter Lear)"
     }
   ],
   "release_date": "1979-06-15",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Drama",
+    "Sci-Fi",
+    "Sport"
   ]
 }

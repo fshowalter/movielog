@@ -4,7 +4,7 @@
   "directors": [
     {
       "person_imdb_id": "nm2947553",
-      "name": "Hong-jin Na",
+      "name": "Na Hong-jin",
       "sequence": 0,
       "notes": ""
     }
@@ -12,7 +12,7 @@
   "cast": [
     {
       "person_imdb_id": "nm1978402",
-      "name": "Jung-woo Ha",
+      "name": "Ha Jung-woo",
       "sequence": 0,
       "roles": [
         "Gu-nam"
@@ -92,18 +92,9 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm7686174",
-      "name": "Yoo-Mi Lee",
-      "sequence": 9,
-      "roles": [
-        "Tae-Won's Daughter"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm3076797",
       "name": "Gi-won Yang",
-      "sequence": 10,
+      "sequence": 9,
       "roles": [
         "Detective 2"
       ],
@@ -112,8 +103,17 @@
     {
       "person_imdb_id": "nm6723561",
       "name": "Dong-Heon Yeom",
-      "sequence": 11,
+      "sequence": 10,
       "roles": [],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm7686174",
+      "name": "Lee Yoo-mi",
+      "sequence": 11,
+      "roles": [
+        "Tae-Won's Daughter"
+      ],
       "notes": ""
     },
     {
@@ -136,14 +136,14 @@
     },
     {
       "person_imdb_id": "nm2947553",
-      "name": "Hong-jin Na",
+      "name": "Na Hong-jin",
       "group": 1,
       "sequence": 0,
       "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm2947553",
-      "name": "Hong-jin Na",
+      "name": "Na Hong-jin",
       "group": 2,
       "sequence": 0,
       "notes": "(screenplay)"
@@ -155,5 +155,11 @@
     "South Korea",
     "United States",
     "Hong Kong"
+  ],
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama",
+    "Thriller"
   ]
 }

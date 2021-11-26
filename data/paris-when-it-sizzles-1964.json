@@ -35,7 +35,7 @@
       "name": "Gr\u00e9goire Aslan",
       "sequence": 2,
       "roles": [
-        "Police Insp. Gilet"
+        "Inspector Gilet"
       ],
       "notes": ""
     },
@@ -44,9 +44,9 @@
       "name": "Raymond Bussi\u00e8res",
       "sequence": 3,
       "roles": [
-        "Fran\u00e7ois - 1st Gangster"
+        "Fran\u00e7ois"
       ],
-      "notes": ""
+      "notes": "(as Raymond Bussieres)"
     },
     {
       "person_imdb_id": "nm0245104",
@@ -55,16 +55,16 @@
       "roles": [
         "Maitre d'Hotel"
       ],
-      "notes": ""
+      "notes": "(as Christian Duvallex)"
     },
     {
       "person_imdb_id": "nm0859732",
       "name": "Michel Thomass",
       "sequence": 5,
       "roles": [
-        "2nd Gangster"
+        "Second Gangster"
       ],
-      "notes": "(as Michel Thomas)"
+      "notes": "(as Thomas Michel)"
     },
     {
       "person_imdb_id": "nm0097802",
@@ -92,16 +92,6 @@
         "Alexander Meyerheim"
       ],
       "notes": "(as Noel Coward)"
-    },
-    {
-      "person_imdb_id": "nm0000348",
-      "name": "Tony Curtis",
-      "sequence": 9,
-      "roles": [
-        "Maurice",
-        "Philippe - 2nd Policeman"
-      ],
-      "notes": ""
     }
   ],
   "writers": [
@@ -110,14 +100,14 @@
       "name": "Julien Duvivier",
       "group": 0,
       "sequence": 0,
-      "notes": "(story \"La f\u00eate \u00e0 Henriette\")"
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0419986",
       "name": "Henri Jeanson",
       "group": 0,
       "sequence": 1,
-      "notes": "(story \"La f\u00eate \u00e0 Henriette\")"
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0043480",
@@ -131,5 +121,9 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Romance"
   ]
 }

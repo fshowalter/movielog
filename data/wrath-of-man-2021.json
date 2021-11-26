@@ -368,7 +368,7 @@
       "roles": [
         "SWAT"
       ],
-      "notes": ""
+      "notes": "(as Glenn Boateng)"
     }
   ],
   "writers": [
@@ -377,14 +377,14 @@
       "name": "Nicolas Boukhrief",
       "group": 0,
       "sequence": 0,
-      "notes": "(written by)"
+      "notes": "(based upon the film 'Le Convoyeur' written by)"
     },
     {
       "person_imdb_id": "nm0078704",
       "name": "\u00c9ric Besnard",
       "group": 0,
       "sequence": 1,
-      "notes": "(written by)"
+      "notes": "(based upon the film 'Le Convoyeur' written by) (as Eric Besnard)"
     },
     {
       "person_imdb_id": "nm0005363",
@@ -394,15 +394,15 @@
       "notes": "(screenplay by)"
     },
     {
-      "person_imdb_id": "nm3044095",
-      "name": "Marn Davies",
+      "person_imdb_id": "nm6842463",
+      "name": "Ivan Atkinson",
       "group": 1,
       "sequence": 1,
       "notes": "(screenplay by)"
     },
     {
-      "person_imdb_id": "nm6842463",
-      "name": "Ivan Atkinson",
+      "person_imdb_id": "nm3044095",
+      "name": "Marn Davies",
       "group": 1,
       "sequence": 2,
       "notes": "(screenplay by)"
@@ -413,5 +413,10 @@
   "countries": [
     "United Kingdom",
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
   ]
 }

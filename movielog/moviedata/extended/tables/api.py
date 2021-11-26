@@ -5,6 +5,7 @@ from typing import TYPE_CHECKING
 from movielog.moviedata.extended.tables import (
     countries_table,
     directing_credits_table,
+    genres_table,
     performing_credits_table,
     release_dates_table,
     sort_titles_table,
@@ -27,3 +28,5 @@ def reload(movies: list[Movie]) -> None:
     release_dates_table.update(movies)
 
     sort_titles_table.update(movies)
+
+    genres_table.update(movies)

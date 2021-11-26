@@ -692,28 +692,28 @@
       "name": "Eddie Murphy",
       "group": 1,
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0905160",
       "name": "Robert D. Wachs",
       "group": 1,
       "sequence": 1,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0272511",
       "name": "Larry Ferguson",
       "group": 2,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0803730",
       "name": "Warren Skaaren",
       "group": 2,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0318429",
@@ -734,5 +734,11 @@
   "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Comedy",
+    "Crime",
+    "Thriller"
   ]
 }

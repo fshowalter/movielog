@@ -108,42 +108,6 @@
         "Nora"
       ],
       "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0404903",
-      "name": "Robert Hyatt",
-      "sequence": 11,
-      "roles": [
-        "Bobby Collins"
-      ],
-      "notes": "(as Bobby Hyatt)"
-    },
-    {
-      "person_imdb_id": "nm0179289",
-      "name": "Ellen Corby",
-      "sequence": 12,
-      "roles": [
-        "Agnes"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0133802",
-      "name": "Charles Cane",
-      "sequence": 13,
-      "roles": [
-        "Sheriff"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0931547",
-      "name": "Robert B. Williams",
-      "sequence": 14,
-      "roles": [
-        "Williams"
-      ],
-      "notes": ""
     }
   ],
   "writers": [
@@ -152,47 +116,52 @@
       "name": "Malvin Wald",
       "group": 0,
       "sequence": 0,
-      "notes": "(adaptation)"
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
       "group": 0,
       "sequence": 1,
-      "notes": "(adaptation)"
+      "notes": "(adapted by)"
     },
     {
       "person_imdb_id": "nm0531878",
       "name": "Philip MacDonald",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(from a screen play by)"
     },
     {
       "person_imdb_id": "nm0087581",
       "name": "Michael Blankfort",
       "group": 1,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(from a screen play by)"
     },
     {
       "person_imdb_id": "nm0240488",
       "name": "Albert Duffy",
       "group": 1,
       "sequence": 2,
-      "notes": "(screenplay)"
+      "notes": "(from a screen play by)"
     },
     {
       "person_imdb_id": "nm0913244",
       "name": "James Warwick",
       "group": 2,
       "sequence": 0,
-      "notes": "(play \"Blind Alley\")"
+      "notes": "(based upon the play \"Blind Alley\" by)"
     }
   ],
   "release_date": "1948-12-22",
   "release_date_notes": "(New York City, New York)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Crime",
+    "Film-Noir",
+    "Thriller"
   ]
 }

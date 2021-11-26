@@ -116,7 +116,7 @@
       "name": "Bill Cardille",
       "sequence": 11,
       "roles": [
-        "Self - Field Reporter"
+        "Field Reporter"
       ],
       "notes": "(as Bill 'Chilly Billy' Cardille)"
     },
@@ -282,7 +282,7 @@
       "name": "Steve Hutsko",
       "sequence": 29,
       "roles": [
-        "Self - Cardille's Cameraman",
+        "Cardille's Cameraman",
         "Zombie"
       ],
       "notes": ""
@@ -342,19 +342,23 @@
       "name": "John A. Russo",
       "group": 0,
       "sequence": 0,
-      "notes": "(screenplay) (as John Russo)"
+      "notes": "(screenplay by) (as John Russo)"
     },
     {
       "person_imdb_id": "nm0001681",
       "name": "George A. Romero",
       "group": 0,
       "sequence": 1,
-      "notes": "(screenplay) (as George Romero)"
+      "notes": "(screenplay by) (as George Romero)"
     }
   ],
   "release_date": "1968-10-01",
   "release_date_notes": "(Pittsburgh, Pennsylvania) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Horror",
+    "Thriller"
   ]
 }

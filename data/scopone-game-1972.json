@@ -77,7 +77,9 @@
       "person_imdb_id": "nm0239359",
       "name": "Daniele Dublino",
       "sequence": 7,
-      "roles": [],
+      "roles": [
+        "Priest"
+      ],
       "notes": ""
     },
     {
@@ -137,7 +139,9 @@
       "person_imdb_id": "nm0148669",
       "name": "Guido Cerniglia",
       "sequence": 15,
-      "roles": [],
+      "roles": [
+        "Doctor"
+      ],
       "notes": ""
     },
     {
@@ -182,7 +186,7 @@
       "name": "Fabio Garriba",
       "sequence": 21,
       "roles": [],
-      "notes": ""
+      "notes": "(creditOnly)"
     }
   ],
   "writers": [
@@ -198,5 +202,9 @@
   "release_date_notes": "(Saint Vincent) (premiere)",
   "countries": [
     "Italy"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama"
   ]
 }

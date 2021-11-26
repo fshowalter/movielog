@@ -23,6 +23,10 @@ def imdb_http_mock(mocker: MockerFixture) -> MagicMock:
                 "United States",
                 "Japan",
             ],
+            "genres": [
+                "Animation",
+                "Action",
+            ],
             "raw release dates": [
                 {
                     "country": "USA\n",
@@ -70,6 +74,7 @@ def test_fetch_parses_imdb_data(
         release_date=date(1986, 8, 8),
         release_date_notes="",
         countries=["United States", "Japan"],
+        genres=["Animation", "Action"],
         directors=[
             directors.Credit(
                 person_imdb_id="nm0793802",
@@ -151,6 +156,7 @@ def test_fetch_serializes_movie(tmp_path: str) -> None:
         "release_date": "1986-08-08",
         "release_date_notes": "",
         "countries": ["United States", "Japan"],
+        "genres": ["Animation", "Action"],
     }
 
     movies.fetch("tt0092106")
@@ -171,6 +177,7 @@ def test_can_deserializes_movies(tmp_path: str) -> None:
             release_date=date(1986, 8, 8),
             release_date_notes="",
             countries=["United States", "Japan"],
+            genres=["Animation", "Action"],
             directors=[
                 directors.Credit(
                     person_imdb_id="nm0793802",
@@ -232,6 +239,7 @@ def test_update_fetches_details_for_non_serialized_titles(
         release_date=date(1959, 3, 18),
         release_date_notes="(limited)",
         countries=["United States"],
+        genres=["Western"],
         directors=[
             directors.Credit(
                 person_imdb_id="nm0001328",
@@ -277,6 +285,7 @@ def test_update_fetches_details_for_non_serialized_titles(
             release_date=date(1986, 8, 8),
             release_date_notes="",
             countries=["United States", "Japan"],
+            genres=["Animation", "Action"],
             directors=[
                 directors.Credit(
                     person_imdb_id="nm0793802",

@@ -481,22 +481,22 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm1115856",
-      "name": "Phil Grieve",
-      "sequence": 52,
-      "roles": [
-        "Orc commander"
-      ],
-      "notes": "(Extended Edition) (as Phillip Grieve)"
-    },
-    {
       "person_imdb_id": "nm0000374",
       "name": "Brad Dourif",
-      "sequence": 53,
+      "sequence": 52,
       "roles": [
         "Wormtongue"
       ],
       "notes": "(extended edition)"
+    },
+    {
+      "person_imdb_id": "nm1115856",
+      "name": "Phil Grieve",
+      "sequence": 53,
+      "roles": [
+        "Orc commander"
+      ],
+      "notes": "(Extended Edition) (as Phillip Grieve)"
     },
     {
       "person_imdb_id": "nm0000489",
@@ -593,5 +593,11 @@
   "countries": [
     "New Zealand",
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy"
   ]
 }

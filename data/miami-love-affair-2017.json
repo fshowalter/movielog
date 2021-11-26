@@ -245,9 +245,18 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm6047422",
+      "name": "Maor",
+      "sequence": 26,
+      "roles": [
+        "Cafe Patron"
+      ],
+      "notes": "(as Maor Ohzana)"
+    },
+    {
       "person_imdb_id": "nm6570376",
       "name": "Ricardo Matallana",
-      "sequence": 26,
+      "sequence": 27,
       "roles": [
         "Reporter #1"
       ],
@@ -256,18 +265,9 @@
     {
       "person_imdb_id": "nm4484899",
       "name": "Aniela McGuinness",
-      "sequence": 27,
-      "roles": [
-        "Nolita"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm6047422",
-      "name": "Maor Ohzana",
       "sequence": 28,
       "roles": [
-        "Cafe Patron"
+        "Nolita"
       ],
       "notes": ""
     },
@@ -312,5 +312,9 @@
   "release_date_notes": "(Calcutta International Cult Film Festival)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Romance"
   ]
 }
