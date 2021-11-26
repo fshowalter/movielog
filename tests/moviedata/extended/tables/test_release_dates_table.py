@@ -25,6 +25,7 @@ def test_update_adds_release_dates(sql_query: Callable[[str], QueryResult]) -> N
             cast=[],
             release_date=date(1986, 8, 8),
             release_date_notes="",
+            genres=["Animation", "Action"],
             countries=["United States", "Japan"],
         ),
         Movie(
@@ -35,6 +36,7 @@ def test_update_adds_release_dates(sql_query: Callable[[str], QueryResult]) -> N
             cast=[],
             release_date=date(1959, 3, 18),
             release_date_notes="(limited)",
+            genres=["Western"],
             countries=["United States"],
         ),
     ]

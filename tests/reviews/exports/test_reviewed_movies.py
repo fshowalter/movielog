@@ -225,7 +225,7 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "director_names": ["Terence Fisher"],
             "principal_cast_names": ["Peter Cushing", "Christopher Lee"],
             "countries": ["United Kingdom"],
-            "aka_titles": ["Dracula"],
+            "original_title": "Dracula",
         },
         {
             "imdb_id": "tt0053221",
@@ -238,7 +238,7 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "director_names": ["Howard Hawks"],
             "principal_cast_names": ["John Wayne", "Dean Martin", "Ricky Nelson"],
             "countries": ["United States"],
-            "aka_titles": ["Howard Hawks' Rio Bravo"],
+            "original_title": None,
         },
         {
             "imdb_id": "tt0098327",
@@ -251,7 +251,7 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "director_names": ["Michael Haneke"],
             "principal_cast_names": [],
             "countries": ["Austria"],
-            "aka_titles": ["Der siebente Kontinent"],
+            "original_title": "Der siebente Kontinent",
         },
     ]
 

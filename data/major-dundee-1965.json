@@ -15,7 +15,7 @@
       "name": "Charlton Heston",
       "sequence": 0,
       "roles": [
-        "Maj. Amos Charles Dundee"
+        "Major Amos Charles Dundee"
       ],
       "notes": ""
     },
@@ -24,7 +24,7 @@
       "name": "Richard Harris",
       "sequence": 1,
       "roles": [
-        "Capt. Benjamin Tyreen"
+        "Captain Benjamin Tyreen"
       ],
       "notes": ""
     },
@@ -33,7 +33,7 @@
       "name": "Jim Hutton",
       "sequence": 2,
       "roles": [
-        "Lt. Graham"
+        "Lieutenant Graham"
       ],
       "notes": ""
     },
@@ -69,7 +69,7 @@
       "name": "Mario Adorf",
       "sequence": 6,
       "roles": [
-        "Sgt. Gomez"
+        "Sergeant Gomez"
       ],
       "notes": ""
     },
@@ -96,7 +96,7 @@
       "name": "Ben Johnson",
       "sequence": 9,
       "roles": [
-        "Sgt. Chillum"
+        "Sergeant Chillum"
       ],
       "notes": ""
     },
@@ -105,7 +105,7 @@
       "name": "R.G. Armstrong",
       "sequence": 10,
       "roles": [
-        "Rev. Dahlstrom"
+        "Reverend Dahlstrom"
       ],
       "notes": ""
     },
@@ -168,7 +168,7 @@
       "name": "Albert Carrier",
       "sequence": 17,
       "roles": [
-        "Capt. Jacques Tremaine"
+        "Captain Jacques Tremaine"
       ],
       "notes": ""
     },
@@ -204,7 +204,7 @@
       "name": "Enrique Lucero",
       "sequence": 21,
       "roles": [
-        "Dr. Aguilar"
+        "Doctor Aguilar"
       ],
       "notes": ""
     },
@@ -224,33 +224,38 @@
       "name": "Harry Julian Fink",
       "group": 0,
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0277807",
       "name": "Harry Julian Fink",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0766665",
       "name": "Oscar Saul",
       "group": 1,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0001603",
       "name": "Sam Peckinpah",
       "group": 1,
       "sequence": 2,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1965-03-15",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Adventure",
+    "War",
+    "Western"
   ]
 }

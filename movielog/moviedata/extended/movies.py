@@ -30,6 +30,7 @@ class Movie(object):
     release_date: date
     release_date_notes: Optional[str]
     countries: list[str]
+    genres: list[str]
 
 
 def generate_sort_title(title: str, year: str) -> str:
@@ -63,6 +64,7 @@ def fetch(
         writers=writers.parse(imdb_movie),
         cast=cast.parse(imdb_movie),
         countries=imdb_movie["countries"],
+        genres=imdb_movie["genres"],
     )
 
     serialize(movie)
@@ -80,6 +82,7 @@ def deserialize_json_movie(json_movie: dict[str, Any]) -> Movie:
         countries=json_movie["countries"],
         release_date=datetime.fromisoformat(json_movie["release_date"]).date(),
         release_date_notes=json_movie["release_date_notes"],
+        genres=json_movie["genres"],
     )
 
 

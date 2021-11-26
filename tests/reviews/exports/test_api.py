@@ -20,7 +20,7 @@ def test_export_calls_all_exports(
         mocker.patch("movielog.reviews.exports.api.review_stats.export"),
         mocker.patch("movielog.reviews.exports.api.reviewed_movies.export"),
         mocker.patch("movielog.reviews.exports.api.viewing_counts_for_decades.export"),
-        mocker.patch("movielog.reviews.exports.api.viewing_counts_for_venues.export"),
+        mocker.patch("movielog.reviews.exports.api.top_venues.export"),
         mocker.patch("movielog.reviews.exports.api.viewing_stats.export"),
         mocker.patch("movielog.reviews.exports.api.viewings.export"),
     ]

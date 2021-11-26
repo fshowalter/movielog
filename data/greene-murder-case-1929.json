@@ -121,37 +121,43 @@
   ],
   "writers": [
     {
+      "person_imdb_id": "nm0886597",
+      "name": "S.S. Van Dine",
+      "group": 0,
+      "sequence": 0,
+      "notes": "(novel)"
+    },
+    {
+      "person_imdb_id": "nm0519079",
+      "name": "Louise Long",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(scenario)"
+    },
+    {
       "person_imdb_id": "nm0179993",
       "name": "Bartlett Cormack",
-      "group": 0,
+      "group": 2,
       "sequence": 0,
       "notes": "(dialogue)"
     },
     {
       "person_imdb_id": "nm0226501",
       "name": "Richard H. Digges Jr.",
-      "group": 1,
-      "sequence": 0,
-      "notes": "(titles) (uncredited)"
-    },
-    {
-      "person_imdb_id": "nm0519079",
-      "name": "Louise Long",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
-      "person_imdb_id": "nm0886597",
-      "name": "S.S. Van Dine",
       "group": 3,
       "sequence": 0,
-      "notes": "(novel)"
+      "notes": "(titles)"
     }
   ],
   "release_date": "1929-08-11",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Mystery",
+    "Romance"
   ]
 }

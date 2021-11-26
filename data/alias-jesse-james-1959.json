@@ -119,18 +119,9 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0000810",
-      "name": "Gene Autry",
-      "sequence": 12,
-      "roles": [
-        "Gene Autry"
-      ],
-      "notes": "(scenesDeleted)"
-    },
-    {
       "person_imdb_id": "nm0001258",
       "name": "James Garner",
-      "sequence": 13,
+      "sequence": 12,
       "roles": [
         "Bret Maverick"
       ],
@@ -157,19 +148,24 @@
       "name": "William Bowers",
       "group": 1,
       "sequence": 0,
-      "notes": "(writer)"
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0064332",
       "name": "Daniel B. Beauchamps",
       "group": 1,
       "sequence": 1,
-      "notes": "(writer)"
+      "notes": "(screenplay)"
     }
   ],
   "release_date": "1959-03-17",
   "release_date_notes": "(Los Angeles, California)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Western"
   ]
 }

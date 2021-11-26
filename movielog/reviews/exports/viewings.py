@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import date
 from typing import TypedDict
 
@@ -18,6 +20,20 @@ class Viewing(TypedDict):
     sort_title: str
     slug: str
     grade: str
+    genres: list[str]
+
+
+def fetch_genres(viewing: Viewing) -> list[str]:
+    query = """
+        SELECT
+        genre
+        FROM genres
+        WHERE movie_imdb_id = "{0}";
+    """
+
+    formatted_query = query.format(viewing["imdb_id"])
+
+    return db.fetch_all(formatted_query, lambda cursor, row: row[0])
 
 
 def export() -> None:
@@ -59,8 +75,12 @@ def export() -> None:
             year=row["year"],
             slug=row["slug"],
             grade=row["grade"],
+            genres=[],
         )
         for row in db.fetch_all(query)
     ]
+
+    for viewing in viewings:
+        viewing["genres"] = fetch_genres(viewing)
 
     export_tools.serialize_dicts(viewings, "viewings")

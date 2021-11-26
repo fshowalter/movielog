@@ -15,7 +15,7 @@
       "name": "James Stewart",
       "sequence": 0,
       "roles": [
-        "L.B. 'Jeff' Jefferies"
+        "L.B. Jefferies"
       ],
       "notes": ""
     },
@@ -24,7 +24,7 @@
       "name": "Grace Kelly",
       "sequence": 1,
       "roles": [
-        "Lisa Carol Fremont"
+        "Lisa Fremont"
       ],
       "notes": ""
     },
@@ -33,7 +33,7 @@
       "name": "Wendell Corey",
       "sequence": 2,
       "roles": [
-        "Det. Lt. Thomas J. Doyle"
+        "Tom Doyle"
       ],
       "notes": ""
     },
@@ -123,7 +123,7 @@
       "name": "Irene Winston",
       "sequence": 12,
       "roles": [
-        "Mrs. Emma Thorwald"
+        "Emma Thorwald"
       ],
       "notes": ""
     },
@@ -150,12 +150,16 @@
       "name": "Cornell Woolrich",
       "group": 1,
       "sequence": 0,
-      "notes": "(based on the short story by)"
+      "notes": "(short story)"
     }
   ],
-  "release_date": "1954-08-04",
-  "release_date_notes": "(New York City, New York) (premiere)",
+  "release_date": "1954-08-01",
+  "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Mystery",
+    "Thriller"
   ]
 }

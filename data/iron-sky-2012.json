@@ -294,7 +294,8 @@
       "name": "Eugene Schlusser",
       "sequence": 31,
       "roles": [
-        "Nazi General"
+        "Nazi General",
+        "Nazi Officer"
       ],
       "notes": ""
     },
@@ -378,6 +379,24 @@
         "Imperial SS Trooper"
       ],
       "notes": ""
+    },
+    {
+      "person_imdb_id": "nm2555569",
+      "name": "Karl Van Moorsel",
+      "sequence": 41,
+      "roles": [
+        "The Last Trooper"
+      ],
+      "notes": "(director's cut) (as Karl Van Moorsal)"
+    },
+    {
+      "person_imdb_id": "nm1993322",
+      "name": "Timo Vuorensola",
+      "sequence": 42,
+      "roles": [
+        "Malibu-Pete"
+      ],
+      "notes": "(director's cut)"
     }
   ],
   "writers": [
@@ -421,5 +440,11 @@
     "Belgium",
     "Denmark",
     "United Kingdom"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
   ]
 }

@@ -24,7 +24,7 @@
       "name": "Daniel Cauchy",
       "sequence": 1,
       "roles": [
-        "Paulo"
+        "Paolo"
       ],
       "notes": ""
     },
@@ -33,7 +33,7 @@
       "name": "Roger Duchesne",
       "sequence": 2,
       "roles": [
-        "Robert 'Bob' Montagn\u00e9"
+        "Bob Montagn\u00e9"
       ],
       "notes": ""
     },
@@ -69,7 +69,7 @@
       "name": "Claude Cerval",
       "sequence": 6,
       "roles": [
-        "Jean - le croupier"
+        "Jean"
       ],
       "notes": ""
     },
@@ -78,7 +78,7 @@
       "name": "Colette Fleury",
       "sequence": 7,
       "roles": [
-        "Suzanne - la femme de Jean"
+        "Suzanne"
       ],
       "notes": ""
     },
@@ -105,7 +105,7 @@
       "name": "Howard Vernon",
       "sequence": 10,
       "roles": [
-        "McKimmie - le commanditaire"
+        "McKimmie"
       ],
       "notes": ""
     },
@@ -123,7 +123,7 @@
       "name": "Germaine Licht",
       "sequence": 12,
       "roles": [
-        "C\u00e9leste R\u00e9gnier - la concierge"
+        "C\u00e9leste R\u00e9gnier"
       ],
       "notes": "(as Germaine Amiel)"
     },
@@ -144,18 +144,9 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm2655665",
-      "name": "Emile Cuvelier",
-      "sequence": 15,
-      "roles": [
-        "Un gangster"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm0038090",
       "name": "Jannick Arvel",
-      "sequence": 16,
+      "sequence": 15,
       "roles": [
         "La deuxi\u00e8me fille du bar"
       ],
@@ -164,7 +155,7 @@
     {
       "person_imdb_id": "nm0078350",
       "name": "Annick Bertrand",
-      "sequence": 17,
+      "sequence": 16,
       "roles": [
         "La premi\u00e8re fille du bar"
       ],
@@ -173,14 +164,14 @@
     {
       "person_imdb_id": "nm0138481",
       "name": "Duilio Carmine",
-      "sequence": 18,
+      "sequence": 17,
       "roles": [],
       "notes": ""
     },
     {
       "person_imdb_id": "nm0152742",
       "name": "Roland Charbaux",
-      "sequence": 19,
+      "sequence": 18,
       "roles": [
         "Un policier"
       ],
@@ -189,7 +180,7 @@
     {
       "person_imdb_id": "nm6620003",
       "name": "Albert Cuvellier",
-      "sequence": 20,
+      "sequence": 19,
       "roles": [
         "Un gangster"
       ],
@@ -198,7 +189,7 @@
     {
       "person_imdb_id": "nm0244372",
       "name": "Pierre Durrieu",
-      "sequence": 21,
+      "sequence": 20,
       "roles": [
         "Un gangster"
       ],
@@ -207,7 +198,7 @@
     {
       "person_imdb_id": "nm0449926",
       "name": "Chris Kersen",
-      "sequence": 22,
+      "sequence": 21,
       "roles": [
         "Un gangster"
       ],
@@ -216,35 +207,16 @@
     {
       "person_imdb_id": "nm0721071",
       "name": "Evelyne Rey",
-      "sequence": 23,
+      "sequence": 22,
       "roles": [],
       "notes": ""
     },
     {
       "person_imdb_id": "nm0730153",
       "name": "Jean-Marie Robain",
-      "sequence": 24,
+      "sequence": 23,
       "roles": [
         "Un joueur de poker"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm8977433",
-      "name": "Cichi",
-      "sequence": 25,
-      "roles": [
-        "Un gangster"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0578483",
-      "name": "Jean-Pierre Melville",
-      "sequence": 34,
-      "roles": [
-        "R\u00e9citant",
-        "Narrator"
       ],
       "notes": ""
     }
@@ -283,5 +255,10 @@
   "release_date_notes": "",
   "countries": [
     "France"
+  ],
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
   ]
 }

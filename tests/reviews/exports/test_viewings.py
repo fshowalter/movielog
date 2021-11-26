@@ -5,7 +5,11 @@ import os
 import pytest
 
 from movielog.moviedata.core import movies_table
-from movielog.moviedata.extended.tables import release_dates_table, sort_titles_table
+from movielog.moviedata.extended.tables import (
+    genres_table,
+    release_dates_table,
+    sort_titles_table,
+)
 from movielog.reviews import api as reviews_api
 from movielog.reviews import reviews_table, viewings_table
 from movielog.reviews.exports import viewings
@@ -25,6 +29,8 @@ def init_db() -> None:
             )
         ]
     )
+
+    genres_table.reload([genres_table.Row(movie_imdb_id="tt0053221", genre="Western")])
 
     release_dates_table.reload(
         [
@@ -61,6 +67,7 @@ def test_exports_viewings(tmp_path: str) -> None:
             "year": 1959,
             "viewing_date": "2021-01-29",
             "sequence": 1,
+            "genres": ["Western"],
             "viewing_year": "2021",
             "release_date": "1959-03-18",
             "sort_title": "Rio Bravo",

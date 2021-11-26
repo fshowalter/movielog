@@ -487,9 +487,19 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm7903320",
+      "name": "Gail Gamble",
+      "sequence": 92,
+      "roles": [
+        "Cafe Patron",
+        "Pedestrian"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm9177465",
       "name": "Elgin Lee",
-      "sequence": 110,
+      "sequence": 111,
       "roles": [
         "Policeman",
         "Pedestrian"
@@ -499,7 +509,7 @@
     {
       "person_imdb_id": "nm9845961",
       "name": "Christopher Leong",
-      "sequence": 111,
+      "sequence": 112,
       "roles": [
         "Tourist",
         "Whale Watcher"
@@ -509,7 +519,7 @@
     {
       "person_imdb_id": "nm9106736",
       "name": "Homero Lopez",
-      "sequence": 114,
+      "sequence": 115,
       "roles": [
         "San Francisco Pedestrian",
         "Tourist"
@@ -519,7 +529,7 @@
     {
       "person_imdb_id": "nm3240610",
       "name": "Seth McCracken",
-      "sequence": 121,
+      "sequence": 122,
       "roles": [
         "Whale Watcher",
         "Tourist"
@@ -529,7 +539,7 @@
     {
       "person_imdb_id": "nm9061391",
       "name": "Perla Middleton",
-      "sequence": 125,
+      "sequence": 126,
       "roles": [
         "Waitress",
         "Market patron"
@@ -539,7 +549,7 @@
     {
       "person_imdb_id": "nm8489413",
       "name": "Anne-Marie Olsen",
-      "sequence": 133,
+      "sequence": 135,
       "roles": [
         "Tourist",
         "Driver"
@@ -549,7 +559,7 @@
     {
       "person_imdb_id": "nm9301942",
       "name": "David M Sandoval Jr.",
-      "sequence": 150,
+      "sequence": 152,
       "roles": [
         "Tourist Pier 39",
         "Chinatown"
@@ -619,5 +629,11 @@
   "release_date_notes": "(Los Angeles, California) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Sci-Fi"
   ]
 }

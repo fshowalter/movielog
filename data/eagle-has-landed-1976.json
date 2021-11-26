@@ -15,7 +15,7 @@
       "name": "Michael Caine",
       "sequence": 0,
       "roles": [
-        "Oberst Kurt Steiner"
+        "Col. Kurt Steiner"
       ],
       "notes": ""
     },
@@ -60,7 +60,7 @@
       "name": "Anthony Quayle",
       "sequence": 5,
       "roles": [
-        "Admiral Canaris"
+        "Adm. Wilhelm Canaris"
       ],
       "notes": ""
     },
@@ -78,7 +78,7 @@
       "name": "Sven-Bertil Taube",
       "sequence": 7,
       "roles": [
-        "Captain von Neustadt"
+        "Capt. Hans von Neustadt"
       ],
       "notes": ""
     },
@@ -96,7 +96,7 @@
       "name": "Judy Geeson",
       "sequence": 9,
       "roles": [
-        "Pamela"
+        "Pamela Verecker"
       ],
       "notes": ""
     },
@@ -105,7 +105,7 @@
       "name": "Treat Williams",
       "sequence": 10,
       "roles": [
-        "Captain Clark"
+        "Capt. Harry Clark"
       ],
       "notes": ""
     },
@@ -114,7 +114,7 @@
       "name": "Larry Hagman",
       "sequence": 11,
       "roles": [
-        "Colonel Pitts"
+        "Col. Clarence E. Pitts"
       ],
       "notes": ""
     },
@@ -141,7 +141,7 @@
       "name": "Michael Byrne",
       "sequence": 14,
       "roles": [
-        "Karl"
+        "Karl Hofer"
       ],
       "notes": ""
     },
@@ -257,7 +257,9 @@
       "person_imdb_id": "nm0853860",
       "name": "Asa Teeter",
       "sequence": 27,
-      "roles": [],
+      "roles": [
+        "Major Neuer's Driver"
+      ],
       "notes": ""
     },
     {
@@ -271,7 +273,9 @@
       "person_imdb_id": "nm0567137",
       "name": "Jack McCulloch",
       "sequence": 29,
-      "roles": [],
+      "roles": [
+        "Major Neuer"
+      ],
       "notes": ""
     },
     {
@@ -314,5 +318,11 @@
   "release_date_notes": "",
   "countries": [
     "United Kingdom"
+  ],
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Thriller",
+    "War"
   ]
 }

@@ -141,20 +141,18 @@
       "name": "Jonathan Haley",
       "sequence": 13,
       "roles": [
-        "Beverly",
-        "Age 9"
+        "Beverly"
       ],
-      "notes": ""
+      "notes": "(Age 9)"
     },
     {
       "person_imdb_id": "nm0355114",
       "name": "Nicholas Haley",
       "sequence": 14,
       "roles": [
-        "Elliot",
-        "Age 9"
+        "Elliot"
       ],
-      "notes": ""
+      "notes": "(Age 9)"
     },
     {
       "person_imdb_id": "nm0603416",
@@ -402,5 +400,10 @@
   "release_date_notes": "(Toronto International Film Festival)",
   "countries": [
     "Canada"
+  ],
+  "genres": [
+    "Drama",
+    "Horror",
+    "Thriller"
   ]
 }

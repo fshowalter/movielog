@@ -249,7 +249,7 @@
       "name": "Lillian Lim",
       "sequence": 26,
       "roles": [
-        "Eldery Woman on Bus"
+        "Elderly Woman on Bus"
       ],
       "notes": ""
     },
@@ -288,38 +288,29 @@
         "Mother on Bus"
       ],
       "notes": ""
-    },
-    {
-      "person_imdb_id": "nm2831588",
-      "name": "Sharmaine Yeoh",
-      "sequence": 31,
-      "roles": [
-        "Man's Wife"
-      ],
-      "notes": ""
     }
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0153338",
-      "name": "Eric C. Charmelo",
-      "group": 0,
-      "sequence": 0,
-      "notes": "(written by) (as Eric Charmelo)"
-    },
-    {
       "person_imdb_id": "nm0791672",
       "name": "Richard Shepard",
-      "group": 1,
+      "group": 0,
       "sequence": 0,
       "notes": "(written by)"
     },
     {
       "person_imdb_id": "nm1709372",
       "name": "Nicole Snyder",
-      "group": 2,
-      "sequence": 0,
+      "group": 0,
+      "sequence": 1,
       "notes": "(written by)"
+    },
+    {
+      "person_imdb_id": "nm0153338",
+      "name": "Eric C. Charmelo",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(written by) (as Eric Charmelo)"
     }
   ],
   "release_date": "2018-09-20",
@@ -327,5 +318,11 @@
   "countries": [
     "United States",
     "Canada"
+  ],
+  "genres": [
+    "Drama",
+    "Horror",
+    "Music",
+    "Thriller"
   ]
 }

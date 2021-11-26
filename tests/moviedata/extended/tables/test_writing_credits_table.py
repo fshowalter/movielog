@@ -63,6 +63,7 @@ def test_update_adds_writers(sql_query: Callable[[str], QueryResult]) -> None:
             cast=[],
             release_date=date(1984, 8, 8),
             release_date_notes="",
+            genres=["Crime", "Drama"],
             countries=["United States"],
         )
     ]

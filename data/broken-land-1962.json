@@ -104,7 +104,9 @@
       "person_imdb_id": "nm0689451",
       "name": "Bob Pollard",
       "sequence": 10,
-      "roles": [],
+      "roles": [
+        "Stagecoach Driver"
+      ],
       "notes": ""
     }
   ],
@@ -121,5 +123,10 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Romance",
+    "Western"
   ]
 }

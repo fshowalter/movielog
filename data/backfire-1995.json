@@ -71,7 +71,7 @@
       "roles": [
         "Tom Tobias"
       ],
-      "notes": "(Ted Levis)"
+      "notes": "(Ted Levis) (as John Christian)"
     },
     {
       "person_imdb_id": "nm0397375",
@@ -90,7 +90,7 @@
       "roles": [
         "Katie"
       ],
-      "notes": ""
+      "notes": "(as Michelle Miller)"
     },
     {
       "person_imdb_id": "nm0178636",
@@ -216,7 +216,7 @@
       "roles": [
         "Yugo Salesman"
       ],
-      "notes": ""
+      "notes": "(as Timothy Bernard)"
     },
     {
       "person_imdb_id": "nm0763585",
@@ -252,7 +252,7 @@
       "roles": [
         "Ninja"
       ],
-      "notes": "(as Thomas P. Chang)"
+      "notes": "(as Thomas Chang)"
     },
     {
       "person_imdb_id": "nm0183476",
@@ -490,18 +490,9 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0706563",
-      "name": "Cynthia Rago",
-      "sequence": 53,
-      "roles": [
-        "Party Animal"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm0357152",
       "name": "Pricilla Halverson",
-      "sequence": 54,
+      "sequence": 53,
       "roles": [
         "Party Animal"
       ],
@@ -510,16 +501,7 @@
     {
       "person_imdb_id": "nm0423302",
       "name": "Andrew Joakim",
-      "sequence": 55,
-      "roles": [
-        "Party Animal"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0766727",
-      "name": "Andrei Saunders",
-      "sequence": 56,
+      "sequence": 54,
       "roles": [
         "Party Animal"
       ],
@@ -528,7 +510,7 @@
     {
       "person_imdb_id": "nm0431596",
       "name": "Richard Joyce",
-      "sequence": 57,
+      "sequence": 55,
       "roles": [
         "Party Animal"
       ],
@@ -537,7 +519,7 @@
     {
       "person_imdb_id": "nm0460496",
       "name": "John Knapp",
-      "sequence": 58,
+      "sequence": 56,
       "roles": [
         "Party Animal"
       ],
@@ -546,7 +528,7 @@
     {
       "person_imdb_id": "nm1661231",
       "name": "Matt Long",
-      "sequence": 59,
+      "sequence": 57,
       "roles": [
         "Party Animal"
       ],
@@ -555,7 +537,7 @@
     {
       "person_imdb_id": "nm0531196",
       "name": "Joe Macaione",
-      "sequence": 60,
+      "sequence": 58,
       "roles": [
         "Party Animal"
       ],
@@ -564,7 +546,7 @@
     {
       "person_imdb_id": "nm0634990",
       "name": "Barbara Norden",
-      "sequence": 61,
+      "sequence": 59,
       "roles": [
         "Party Animal"
       ],
@@ -573,7 +555,16 @@
     {
       "person_imdb_id": "nm2794020",
       "name": "Cindy Rago",
-      "sequence": 62,
+      "sequence": 60,
+      "roles": [
+        "Party Animal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0706563",
+      "name": "Cynthia Rago",
+      "sequence": 61,
       "roles": [
         "Party Animal"
       ],
@@ -582,6 +573,15 @@
     {
       "person_imdb_id": "nm0752532",
       "name": "Emmet Ryan",
+      "sequence": 62,
+      "roles": [
+        "Party Animal"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0766727",
+      "name": "Andrei Saunders",
       "sequence": 63,
       "roles": [
         "Party Animal"
@@ -634,5 +634,8 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy"
   ]
 }

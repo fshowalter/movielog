@@ -40,6 +40,7 @@ def test_update_adds_directors(sql_query: Callable[[str], QueryResult]) -> None:
             ],
             writers=[],
             cast=[],
+            genres=["Crime", "Drama"],
             release_date=date(1984, 8, 8),
             release_date_notes="",
             countries=["United States"],

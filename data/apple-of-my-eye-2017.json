@@ -11,9 +11,18 @@
   ],
   "cast": [
     {
+      "person_imdb_id": "nm2553987",
+      "name": "Liam McIntyre",
+      "sequence": 0,
+      "roles": [
+        "Jason Andrews"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm0005442",
       "name": "Amy Smart",
-      "sequence": 0,
+      "sequence": 1,
       "roles": [
         "Caroline Andrews"
       ],
@@ -22,18 +31,9 @@
     {
       "person_imdb_id": "nm0000608",
       "name": "Burt Reynolds",
-      "sequence": 1,
-      "roles": [
-        "Charlie"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm2553987",
-      "name": "Liam McIntyre",
       "sequence": 2,
       "roles": [
-        "Jason Andrews"
+        "Charlie"
       ],
       "notes": ""
     },
@@ -65,20 +65,20 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm3889070",
-      "name": "Nick Bateman",
+      "person_imdb_id": "nm2500541",
+      "name": "Castille Landon",
       "sequence": 6,
       "roles": [
-        "Dr. Grant"
+        "Ari"
       ],
       "notes": ""
     },
     {
-      "person_imdb_id": "nm2500541",
-      "name": "Castille Landon",
+      "person_imdb_id": "nm3889070",
+      "name": "Nick Bateman",
       "sequence": 7,
       "roles": [
-        "Ari"
+        "Dr. Grant"
       ],
       "notes": ""
     },
@@ -110,9 +110,18 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm5886572",
+      "name": "Thaddeus Ygnacio",
+      "sequence": 11,
+      "roles": [
+        "Park extra"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm8907915",
       "name": "Lillieanna Jalbert",
-      "sequence": 11,
+      "sequence": 12,
       "roles": [
         "Girl in park"
       ],
@@ -121,18 +130,9 @@
     {
       "person_imdb_id": "nm8907914",
       "name": "Julieanna Jalbert",
-      "sequence": 12,
-      "roles": [
-        "Girl in park"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm5886572",
-      "name": "Thaddeus Ygnacio",
       "sequence": 13,
       "roles": [
-        "Park extra"
+        "Girl in park"
       ],
       "notes": ""
     }
@@ -150,5 +150,8 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Family"
   ]
 }

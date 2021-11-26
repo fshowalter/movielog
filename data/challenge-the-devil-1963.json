@@ -4,7 +4,7 @@
   "directors": [
     {
       "person_imdb_id": "nm0891959",
-      "name": "Vegezzi",
+      "name": "Giuseppe Veggezzi",
       "sequence": 0,
       "notes": "(as Joseph Vegh)"
     }
@@ -17,7 +17,7 @@
       "roles": [
         "Mephistoles"
       ],
-      "notes": ""
+      "notes": "(as Cristopher Lee)"
     },
     {
       "person_imdb_id": "nm0034068",
@@ -41,7 +41,9 @@
       "person_imdb_id": "nm0778413",
       "name": "Ulderico Sciaretta",
       "sequence": 3,
-      "roles": [],
+      "roles": [
+        "Padre Guardiano"
+      ],
       "notes": "(as Ulderico Sciarretta)"
     },
     {
@@ -139,5 +141,9 @@
   "release_date_notes": "",
   "countries": [
     "Italy"
+  ],
+  "genres": [
+    "Fantasy",
+    "Horror"
   ]
 }

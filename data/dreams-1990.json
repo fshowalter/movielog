@@ -128,22 +128,28 @@
       "person_imdb_id": "nm0945637",
       "name": "Tessho Yamashita",
       "sequence": 12,
-      "roles": [],
+      "roles": [
+        "Second Lieutenant"
+      ],
       "notes": ""
     },
     {
       "person_imdb_id": "nm0851179",
       "name": "Misato Tate",
       "sequence": 13,
-      "roles": [],
-      "notes": ""
+      "roles": [
+        "Peach Trees' Fairy"
+      ],
+      "notes": "(segment \"The Peach Orchard\")"
     },
     {
       "person_imdb_id": "nm0128294",
       "name": "Catherine Cadou",
       "sequence": 14,
-      "roles": [],
-      "notes": ""
+      "roles": [
+        "A woman in the fields"
+      ],
+      "notes": "(segment \"Crows\")"
     },
     {
       "person_imdb_id": "nm0840643",
@@ -1083,5 +1089,9 @@
   "countries": [
     "Japan",
     "United States"
+  ],
+  "genres": [
+    "Drama",
+    "Fantasy"
   ]
 }

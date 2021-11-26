@@ -201,12 +201,12 @@
     },
     {
       "person_imdb_id": "nm0288106",
-      "name": "V.J. Foster",
+      "name": "Vincent Foster",
       "sequence": 21,
       "roles": [
         "Hungry Fish Con"
       ],
-      "notes": ""
+      "notes": "(as V.J. Foster)"
     },
     {
       "person_imdb_id": "nm0838734",
@@ -503,19 +503,22 @@
       "name": "Stephen King",
       "group": 0,
       "sequence": 0,
-      "notes": "(short story \"Rita Hayworth and Shawshank Redemption\")"
+      "notes": "(based on the short novel \"Rita Hayworth and the Shawshank Redemption\" by)"
     },
     {
       "person_imdb_id": "nm0001104",
       "name": "Frank Darabont",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1994-09-10",
   "release_date_notes": "(Toronto International Film Festival)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Drama"
   ]
 }

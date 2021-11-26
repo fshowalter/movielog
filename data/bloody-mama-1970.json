@@ -24,7 +24,7 @@
       "name": "Pat Hingle",
       "sequence": 1,
       "roles": [
-        "Sam Adams Pendlebury"
+        "Sam Pendlebury"
       ],
       "notes": ""
     },
@@ -150,37 +150,41 @@
       "name": "Roy Idom",
       "sequence": 15,
       "roles": [
-        "Ferryboat Passenger"
+        "Ferry Boat Passenger"
       ],
       "notes": ""
     }
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0676396",
-      "name": "Don Peters",
+      "person_imdb_id": "nm0858379",
+      "name": "Robert Thom",
       "group": 0,
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0858379",
       "name": "Robert Thom",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(story by)"
     },
     {
-      "person_imdb_id": "nm0858379",
-      "name": "Robert Thom",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(story)"
+      "person_imdb_id": "nm0676396",
+      "name": "Don Peters",
+      "group": 1,
+      "sequence": 1,
+      "notes": "(story by)"
     }
   ],
   "release_date": "1970-03-24",
   "release_date_notes": "(Little Rock, Arkansas)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Crime",
+    "Drama"
   ]
 }

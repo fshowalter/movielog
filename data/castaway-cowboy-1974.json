@@ -6,7 +6,7 @@
       "person_imdb_id": "nm0568546",
       "name": "Vincent McEveety",
       "sequence": 0,
-      "notes": ""
+      "notes": "(directed by)"
     }
   ],
   "cast": [
@@ -15,7 +15,7 @@
       "name": "James Garner",
       "sequence": 0,
       "roles": [
-        "Lincoln Costain"
+        "Costain"
       ],
       "notes": ""
     },
@@ -33,7 +33,7 @@
       "name": "Robert Culp",
       "sequence": 2,
       "roles": [
-        "Calvin Bryson"
+        "Bryson"
       ],
       "notes": ""
     },
@@ -42,7 +42,7 @@
       "name": "Eric Shea",
       "sequence": 3,
       "roles": [
-        "Booton 'Little Maca' MacAvoy"
+        "Booton MacAvoy"
       ],
       "notes": ""
     },
@@ -53,7 +53,7 @@
       "roles": [
         "Liliha"
       ],
-      "notes": "(MacAvoy housekeeper)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0876797",
@@ -69,16 +69,16 @@
       "name": "Gregory Sierra",
       "sequence": 6,
       "roles": [
-        "Marruja"
+        "Marrujo"
       ],
-      "notes": "(Bryson's henchman)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0279786",
       "name": "Shug Fisher",
       "sequence": 7,
       "roles": [
-        "Capt. Cary"
+        "Captain Cary"
       ],
       "notes": ""
     },
@@ -89,7 +89,7 @@
       "roles": [
         "Malakoma"
       ],
-      "notes": "(witch doctor)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0135188",
@@ -134,14 +134,14 @@
       "roles": [
         "The Hatman"
       ],
-      "notes": "(loses hat to Costain)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0366179",
       "name": "Buddy Joe Hooker",
       "sequence": 14,
       "roles": [
-        "Boatman taking Costain to ship"
+        "Boatman"
       ],
       "notes": ""
     },
@@ -150,7 +150,7 @@
       "name": "Patrick Sullivan Burke",
       "sequence": 15,
       "roles": [
-        "Sea captain in poker game"
+        "Sea Captain"
       ],
       "notes": ""
     },
@@ -170,26 +170,38 @@
       "name": "Don Tait",
       "group": 0,
       "sequence": 0,
-      "notes": "(story & screenplay)"
+      "notes": "(screenplay by)"
+    },
+    {
+      "person_imdb_id": "nm0846884",
+      "name": "Don Tait",
+      "group": 1,
+      "sequence": 0,
+      "notes": "(story by)"
     },
     {
       "person_imdb_id": "nm0089560",
       "name": "Richard M. Bluel",
-      "group": 0,
+      "group": 1,
       "sequence": 1,
-      "notes": "(story)"
+      "notes": "(story by) (as Richard Bluel)"
     },
     {
       "person_imdb_id": "nm0072510",
       "name": "Hugh Benson",
-      "group": 0,
+      "group": 1,
       "sequence": 2,
-      "notes": "(story)"
+      "notes": "(story by)"
     }
   ],
   "release_date": "1974-08-01",
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Family",
+    "Western"
   ]
 }

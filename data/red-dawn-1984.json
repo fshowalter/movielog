@@ -326,9 +326,18 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0417360",
+      "name": "Krzysztof Janczar",
+      "sequence": 35,
+      "roles": [
+        "Soviet Soldier"
+      ],
+      "notes": "(as Christopher Janczar)"
+    },
+    {
       "person_imdb_id": "nm1284345",
       "name": "Benjamin Schick",
-      "sequence": 35,
+      "sequence": 36,
       "roles": [
         "Russian Sergeant"
       ],
@@ -337,7 +346,7 @@
     {
       "person_imdb_id": "nm0279510",
       "name": "George Fisher",
-      "sequence": 36,
+      "sequence": 37,
       "roles": [
         "KGB Major"
       ],
@@ -346,7 +355,7 @@
     {
       "person_imdb_id": "nm0443601",
       "name": "Zitto Kazann",
-      "sequence": 37,
+      "sequence": 38,
       "roles": [
         "Political Officer"
       ],
@@ -355,7 +364,7 @@
     {
       "person_imdb_id": "nm1707739",
       "name": "Chuk Besher",
-      "sequence": 38,
+      "sequence": 39,
       "roles": [
         "Door Gunner"
       ],
@@ -364,7 +373,7 @@
     {
       "person_imdb_id": "nm0752263",
       "name": "J.D. Ruybal",
-      "sequence": 39,
+      "sequence": 40,
       "roles": [
         "Cuban Crew Chief"
       ],
@@ -373,7 +382,7 @@
     {
       "person_imdb_id": "nm0485497",
       "name": "Pacho Lane",
-      "sequence": 40,
+      "sequence": 41,
       "roles": [
         "Firing Squad Officer"
       ],
@@ -382,20 +391,11 @@
     {
       "person_imdb_id": "nm0583220",
       "name": "Julius L. Meyer",
-      "sequence": 41,
+      "sequence": 42,
       "roles": [
         "Latin Soldier"
       ],
       "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0417360",
-      "name": "Krzysztof Janczar",
-      "sequence": 42,
-      "roles": [
-        "Soviet Soldier"
-      ],
-      "notes": "(as Christopher Janczar)"
     }
   ],
   "writers": [
@@ -425,5 +425,9 @@
   "release_date_notes": "",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Drama"
   ]
 }

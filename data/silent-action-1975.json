@@ -193,15 +193,22 @@
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0184344",
-      "name": "Gianfranco Couyoumdjian",
+      "person_imdb_id": "nm0685985",
+      "name": "Fabio Pittorru",
       "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(story)"
     },
     {
       "person_imdb_id": "nm0271284",
       "name": "Massimo Felisatti",
+      "group": 0,
+      "sequence": 1,
+      "notes": "(story)"
+    },
+    {
+      "person_imdb_id": "nm0685985",
+      "name": "Fabio Pittorru",
       "group": 1,
       "sequence": 0,
       "notes": "(screenplay)"
@@ -209,35 +216,33 @@
     {
       "person_imdb_id": "nm0271284",
       "name": "Massimo Felisatti",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(story)"
+      "group": 1,
+      "sequence": 1,
+      "notes": "(screenplay)"
     },
     {
       "person_imdb_id": "nm0553941",
       "name": "Sergio Martino",
-      "group": 3,
-      "sequence": 0,
+      "group": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
-      "person_imdb_id": "nm0685985",
-      "name": "Fabio Pittorru",
-      "group": 4,
-      "sequence": 0,
+      "person_imdb_id": "nm0184344",
+      "name": "Gianfranco Couyoumdjian",
+      "group": 1,
+      "sequence": 3,
       "notes": "(screenplay)"
-    },
-    {
-      "person_imdb_id": "nm0685985",
-      "name": "Fabio Pittorru",
-      "group": 5,
-      "sequence": 0,
-      "notes": "(story)"
     }
   ],
   "release_date": "1975-04-05",
   "release_date_notes": "",
   "countries": [
     "Italy"
+  ],
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
   ]
 }

@@ -6,7 +6,7 @@
       "person_imdb_id": "nm0000247",
       "name": "John Woo",
       "sequence": 0,
-      "notes": ""
+      "notes": "(directed by)"
     }
   ],
   "cast": [
@@ -201,12 +201,12 @@
     },
     {
       "person_imdb_id": "nm0934806",
-      "name": "Romy Windsor",
+      "name": "Romy Walthall",
       "sequence": 21,
       "roles": [
         "Kimberly"
       ],
-      "notes": "(as Romy Walthall)"
+      "notes": ""
     },
     {
       "person_imdb_id": "nm0004272",
@@ -491,5 +491,11 @@
   "release_date_notes": "(Westwood, California) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Crime",
+    "Sci-Fi",
+    "Thriller"
   ]
 }

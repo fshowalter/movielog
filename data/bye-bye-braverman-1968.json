@@ -29,36 +29,9 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0910055",
-      "name": "Jessica Walter",
-      "sequence": 2,
-      "roles": [
-        "Inez Braverman"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0131387",
-      "name": "Godfrey Cambridge",
-      "sequence": 3,
-      "roles": [
-        "Taxi Driver"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0628233",
-      "name": "Phyllis Newman",
-      "sequence": 4,
-      "roles": [
-        "Myra Mandelbaum"
-      ],
-      "notes": ""
-    },
-    {
       "person_imdb_id": "nm0936476",
       "name": "Joseph Wiseman",
-      "sequence": 5,
+      "sequence": 2,
       "roles": [
         "Felix Ottensteen"
       ],
@@ -67,18 +40,45 @@
     {
       "person_imdb_id": "nm0095368",
       "name": "Sorrell Booke",
-      "sequence": 6,
+      "sequence": 3,
       "roles": [
         "Holly Levine"
       ],
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0910055",
+      "name": "Jessica Walter",
+      "sequence": 4,
+      "roles": [
+        "Inez Braverman"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0628233",
+      "name": "Phyllis Newman",
+      "sequence": 5,
+      "roles": [
+        "Myra Mandelbaum"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm0483876",
       "name": "Zohra Lampert",
-      "sequence": 7,
+      "sequence": 6,
       "roles": [
         "Etta Rieff"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0131387",
+      "name": "Godfrey Cambridge",
+      "sequence": 7,
+      "roles": [
+        "Taxi Driver"
       ],
       "notes": ""
     },
@@ -92,9 +92,36 @@
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0390603",
+      "name": "Anthony Holland",
+      "sequence": 9,
+      "roles": [
+        "Max Ottenstein"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0419054",
+      "name": "Graham Jarvis",
+      "sequence": 10,
+      "roles": [
+        "Man on Bus"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0347935",
+      "name": "Peter Gumeny",
+      "sequence": 11,
+      "roles": [
+        "Man on Bus"
+      ],
+      "notes": ""
+    },
+    {
       "person_imdb_id": "nm0943756",
       "name": "Susan Wyler",
-      "sequence": 9,
+      "sequence": 12,
       "roles": [
         "Pilar"
       ],
@@ -103,11 +130,11 @@
     {
       "person_imdb_id": "nm0502229",
       "name": "Leib Lensky",
-      "sequence": 10,
+      "sequence": 13,
       "roles": [
         "Custodian"
       ],
-      "notes": ""
+      "notes": "(as Leib Linsky)"
     },
     {
       "person_imdb_id": "nm8739861",
@@ -141,5 +168,9 @@
   "release_date_notes": "(New York City, New York)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama"
   ]
 }

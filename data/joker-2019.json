@@ -318,12 +318,12 @@
     },
     {
       "person_imdb_id": "nm0072613",
-      "name": "Peter Benson",
+      "name": "Peter Hans Benson",
       "sequence": 34,
       "roles": [
         "Good Morning Host"
       ],
-      "notes": ""
+      "notes": "(as Peter Benson)"
     },
     {
       "person_imdb_id": "nm7898438",
@@ -601,7 +601,7 @@
     {
       "person_imdb_id": "nm10389257",
       "name": "Robert Wayne Grondski",
-      "sequence": 101,
+      "sequence": 102,
       "roles": [
         "Protestor",
         "Rioter"
@@ -611,7 +611,7 @@
     {
       "person_imdb_id": "nm5205327",
       "name": "Joseph Hernandez",
-      "sequence": 104,
+      "sequence": 105,
       "roles": [
         "Protester",
         "Rioter"
@@ -621,7 +621,7 @@
     {
       "person_imdb_id": "nm7882161",
       "name": "Sean Kilkenny",
-      "sequence": 109,
+      "sequence": 110,
       "roles": [
         "Protester",
         "Rioter"
@@ -651,7 +651,7 @@
     {
       "person_imdb_id": "nm9291836",
       "name": "David Valentino Penaga",
-      "sequence": 129,
+      "sequence": 128,
       "roles": [
         "Protester",
         "Rioter"
@@ -661,7 +661,7 @@
     {
       "person_imdb_id": "nm2180547",
       "name": "Todd Smolar",
-      "sequence": 144,
+      "sequence": 147,
       "roles": [
         "Henchman",
         "Protester"
@@ -671,7 +671,7 @@
     {
       "person_imdb_id": "nm3866974",
       "name": "Lauren Yaffe",
-      "sequence": 161,
+      "sequence": 164,
       "roles": [
         "Pogo",
         "MFS Attendee"
@@ -700,5 +700,10 @@
   "countries": [
     "United States",
     "Canada"
+  ],
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
   ]
 }

@@ -11,11 +11,11 @@
   ],
   "cast": [
     {
-      "person_imdb_id": "nm0703600",
-      "name": "Eddie Quillan",
+      "person_imdb_id": "nm0259816",
+      "name": "Leon Errol",
       "sequence": 0,
       "roles": [
-        "Marvin Howe"
+        "Big Mike O'Brien"
       ],
       "notes": ""
     },
@@ -29,36 +29,45 @@
       "notes": ""
     },
     {
-      "person_imdb_id": "nm0259816",
-      "name": "Leon Errol",
+      "person_imdb_id": "nm0703600",
+      "name": "Eddie Quillan",
       "sequence": 2,
       "roles": [
-        "Big Mike O'Brien"
-      ],
-      "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0740300",
-      "name": "Anne Rooney",
-      "sequence": 3,
-      "roles": [
-        "Juanita Turnbull"
+        "Marvin Howe"
       ],
       "notes": ""
     },
     {
       "person_imdb_id": "nm0385594",
       "name": "Samuel S. Hinds",
-      "sequence": 4,
+      "sequence": 3,
       "roles": [
         "Pop Turnbull"
       ],
       "notes": ""
     },
     {
+      "person_imdb_id": "nm0740300",
+      "name": "Anne Rooney",
+      "sequence": 4,
+      "roles": [
+        "Juanita Turnbull"
+      ],
+      "notes": ""
+    },
+    {
+      "person_imdb_id": "nm0058778",
+      "name": "Benny Bartlett",
+      "sequence": 5,
+      "roles": [
+        "Cootie"
+      ],
+      "notes": "(as Bennie Bartlett)"
+    },
+    {
       "person_imdb_id": "nm0000053",
       "name": "Robert Mitchum",
-      "sequence": 5,
+      "sequence": 6,
       "roles": [
         "Tate Winters"
       ],
@@ -67,20 +76,11 @@
     {
       "person_imdb_id": "nm0382954",
       "name": "Russell Hicks",
-      "sequence": 6,
+      "sequence": 7,
       "roles": [
         "Jeremiah K. Barton"
       ],
       "notes": ""
-    },
-    {
-      "person_imdb_id": "nm0058778",
-      "name": "Benny Bartlett",
-      "sequence": 7,
-      "roles": [
-        "Cootie"
-      ],
-      "notes": "(as Bennie Bartlett)"
     },
     {
       "person_imdb_id": "nm0169067",
@@ -209,5 +209,10 @@
   "release_date_notes": "(Cincinatti, Ohio) (premiere)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Music",
+    "Romance"
   ]
 }

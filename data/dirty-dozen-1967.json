@@ -244,21 +244,21 @@
       "name": "Nunnally Johnson",
       "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0375355",
       "name": "Lukas Heller",
       "group": 0,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "person_imdb_id": "nm0622284",
       "name": "E.M. Nathanson",
       "group": 1,
       "sequence": 0,
-      "notes": "(novel)"
+      "notes": "(from the novel by)"
     }
   ],
   "release_date": "1967-06-15",
@@ -266,5 +266,10 @@
   "countries": [
     "United Kingdom",
     "United States"
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "War"
   ]
 }

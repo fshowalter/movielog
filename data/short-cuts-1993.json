@@ -449,7 +449,7 @@
       "name": "Alex Trebek",
       "sequence": 48,
       "roles": [
-        "Self"
+        "Alex Trebek"
       ],
       "notes": ""
     },
@@ -458,7 +458,7 @@
       "name": "Jerry Dunphy",
       "sequence": 49,
       "roles": [
-        "Self"
+        "Jerry Dunphy"
       ],
       "notes": ""
     },
@@ -550,26 +550,30 @@
       "name": "Raymond Carver",
       "group": 0,
       "sequence": 0,
-      "notes": "(writings)"
+      "notes": "(based on the writings of)"
     },
     {
       "person_imdb_id": "nm0000265",
       "name": "Robert Altman",
       "group": 1,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm3004592",
       "name": "Frank Barhydt",
       "group": 1,
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1993-09-04",
   "release_date_notes": "(Venice Film Festival)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama"
   ]
 }

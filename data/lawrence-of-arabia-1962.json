@@ -175,30 +175,29 @@
   ],
   "writers": [
     {
-      "person_imdb_id": "nm0493042",
-      "name": "T.E. Lawrence",
-      "group": 0,
-      "sequence": 0,
-      "notes": "(writings)"
-    },
-    {
       "person_imdb_id": "nm0004122",
       "name": "Robert Bolt",
-      "group": 1,
+      "group": 0,
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "person_imdb_id": "nm0933858",
       "name": "Michael Wilson",
-      "group": 2,
-      "sequence": 0,
-      "notes": "(screenplay) (originally uncredited: credit restored in 1978 by WGA)"
+      "group": 0,
+      "sequence": 1,
+      "notes": "(screenplay by)"
     }
   ],
   "release_date": "1962-12-10",
   "release_date_notes": "(London) (Royal premiere)",
   "countries": [
     "United Kingdom"
+  ],
+  "genres": [
+    "Adventure",
+    "Biography",
+    "Drama",
+    "War"
   ]
 }

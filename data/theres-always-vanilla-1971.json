@@ -149,7 +149,9 @@
       "person_imdb_id": "nm0550066",
       "name": "Mike Marracino",
       "sequence": 15,
-      "roles": [],
+      "roles": [
+        "Bartender"
+      ],
       "notes": ""
     },
     {
@@ -166,7 +168,7 @@
       "name": "Thomas Ashwell",
       "sequence": 17,
       "roles": [
-        "Abortionist Thug #1"
+        "Abortionist Doctor"
       ],
       "notes": ""
     },
@@ -175,7 +177,7 @@
       "name": "George Kosana",
       "sequence": 18,
       "roles": [
-        "Abortionist Thug #2"
+        "Abortionist Thug"
       ],
       "notes": ""
     },
@@ -183,7 +185,9 @@
       "person_imdb_id": "nm0828277",
       "name": "Bob Stevens",
       "sequence": 19,
-      "roles": [],
+      "roles": [
+        "Crewman"
+      ],
       "notes": ""
     },
     {
@@ -226,7 +230,9 @@
       "person_imdb_id": "nm0712983",
       "name": "Roger Ray",
       "sequence": 24,
-      "roles": [],
+      "roles": [
+        "Landlord"
+      ],
       "notes": ""
     },
     {
@@ -288,5 +294,10 @@
   "release_date_notes": "(New York City, New York)",
   "countries": [
     "United States"
+  ],
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
   ]
 }
