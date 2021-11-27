@@ -6,7 +6,7 @@ See [franksmovielog.com](https://www.franksmovielog.com) for a nice presentation
 
 ## Install
 
-Assumes a [Homebrew](https://brew.sh/) install. Will install python3 and direnv.
+Assumes a direnv and pyenv install.
 
 ```
 ./setup.sh
