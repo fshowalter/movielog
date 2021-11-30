@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: Vinegar Syndrome, 2020
 ---
 
-Not a <span data-imdb-id="">_Beyond the Door_</span> sequel, but an original film re-titled. Mary Kohnert plays Beverly, a timid teen traveling to Yugoslavia on a class trip. Bo Svenson channels Sean Bean as the sinister professor Andromolek, who meets the students when they arrive. Andromolek takes them to a remote village where he intends for Beverly to star in a once-a-century Satanic ritual.
+Not a <span data-imdb-id="">_Beyond the Door_</span> sequel, but an original film re-titled. Mary Kohnert plays Beverly, a timid teen traveling to Yugoslavia on a class trip. Bo Svenson channels Sean Bean as the sinister professor Andromolek, who meets the students when they arrive. Andromolek takes them to a remote village where he intends for Beverly to star in a once-a-century satanic ritual.
 
 <!-- end -->
 
