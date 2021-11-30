@@ -37,5 +37,5 @@ def export_data() -> None:
     moviedata_api.update_extended_data(
         watchlist_api.movie_ids().union(reviews_api.movie_ids())
     )
-    reviews_api.export_data()
     watchlist_api.export_data()
+    reviews_api.export_data()
