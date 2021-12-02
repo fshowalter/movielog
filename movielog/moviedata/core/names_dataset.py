@@ -28,28 +28,18 @@ def valid_known_for_title_ids(all_known_for_title_ids: Optional[str]) -> Optiona
 
 def extract_names(file_path: str) -> list[PeopleRow]:
     names: dict[str, PeopleRow] = {}
-    filtered = 0
 
     for fields in extractor.extract(file_path):
         known_for_title_ids = valid_known_for_title_ids(fields[5])
 
-        if known_for_title_ids:
-            imdb_id = str(fields[0])
-            names[imdb_id] = people_table.Row(
-                imdb_id=imdb_id,
-                full_name=str(fields[1]),
-                known_for_title_ids=known_for_title_ids,
-            )
-        else:
-            filtered += 1
+        imdb_id = str(fields[0])
+        names[imdb_id] = people_table.Row(
+            imdb_id=imdb_id,
+            full_name=str(fields[1]),
+            known_for_title_ids=known_for_title_ids,
+        )
 
     logger.log("Extracted {} {}.", format_tools.humanize_int(len(names)), "names")
-    logger.log(
-        "Filtered {} {} with {}.",
-        format_tools.humanize_int(filtered),
-        "names",
-        "no known-for titles",
-    )
 
     return list(names.values())
 
