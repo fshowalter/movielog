@@ -1,14 +1,16 @@
-from typing import Sequence, TypedDict
+from typing import Optional, Sequence, TypedDict
 
 from movielog import db
 
 TABLE_NAME = "people"
+
 
 CREATE_DDL = """
   "imdb_id" TEXT PRIMARY KEY NOT NULL,
   "full_name" varchar(255) NOT NULL,
   "known_for_title_ids" TEXT
 """
+
 
 INSERT_DDL = """
   INSERT INTO {0}(
@@ -25,7 +27,7 @@ INSERT_DDL = """
 class Row(TypedDict):
     imdb_id: str
     full_name: str
-    known_for_title_ids: str
+    known_for_title_ids: Optional[str]
 
 
 def reload(rows: Sequence[Row]) -> None:
