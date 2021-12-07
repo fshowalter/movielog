@@ -9,7 +9,7 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Pat O'Brien plays an opportunistic football coach hired to raise a struggling college program's fortunes. The story reminded me of High Pressure, and while I bought O'Brien as a coach, he didn't convince as a wheeler-dealer.
+Pat O'Brien plays an opportunistic football coach hired to raise a struggling college program's fortunes. The story reminded me of <span data-imdb-id="tt0023007">_High Pressure_</span>, and while I bought O'Brien as a coach, he didn't convince as a wheeler-dealer.
 
 <!-- end -->
 
