@@ -9,4 +9,4 @@ venue: HBO Max
 venue_notes:
 ---
 
-A tepid <span data-imdb-id="tt0085334">_Christmas Story_</span> update. Devoid of authenticity and drowning in manufactured nostalgia. One could explain away the timidity and anachronisms by pointing out that Neil Patrick Harris is relating the story to his tween daughter. Fair enough, but the films it emulates had more heart and courage. Worst of all is the finale's attempt at a John Hughes-like catharsis, which feels so heavy-handed it could almost be parody.
+A tepid <span data-imdb-id="tt0085334">_Christmas Story_</span> update. Devoid of authenticity and drowning in manufactured nostalgia. One could explain away the timidity and anachronisms by pointing out that Neil Patrick Harris is relating the story to his tween daughter. Fair enough, but the films it emulates had more heart and courage. Worst of all, the finale's attempt at a John Hughes-like catharsis feels so heavy-handed it could almost be parody.
