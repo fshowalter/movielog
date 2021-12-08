@@ -3,7 +3,7 @@ sequence: 1193
 date: 2021-11-25
 imdb_id: tt0085253
 title: Blood Rage (1987)
-grade: B-
+grade: C+
 slug: blood-rage-1987
 venue: Blu-ray
 venue_notes: Arrow, 2017
