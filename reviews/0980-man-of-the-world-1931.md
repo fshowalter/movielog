@@ -9,7 +9,7 @@ venue: DVD
 venue_notes: 2013 | Universal Studios
 ---
 
-Powell plays an American ex-pat living in Paris. A gentleman in outward appearance, he's the secret publisher of a well-read scandal sheet, and earns his living blackmailing wealthy tourists to keep their names out of it. A chance meeting with his latest mark's daughter--played by Lombard--forces him to reconsider his life.
+Powell plays an American ex-pat living in Paris. A gentleman in outward appearance, he's the secret publisher of a well-read scandal sheet, and earns his living blackmailing wealthy tourists to keep their names out of it. A chance meeting with his latest mark's niece--played by Lombard--forces him to reconsider his life.
 
 <!-- end -->
 
