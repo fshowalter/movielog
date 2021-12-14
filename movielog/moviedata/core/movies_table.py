@@ -11,12 +11,23 @@ CREATE_DDL = """
   "original_title" TEXT,
   "year" INT NOT NULL,
   "runtime_minutes" INT,
-  "principal_cast_ids" TEXT
+  "principal_cast_ids" TEXT,
+  "votes" INT,
+  "has_below_average_votes" BOOLEAN DEFAULT FALSE
 """
 
 INSERT_DDL = """
-  INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes, principal_cast_ids)
-    VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes, :principal_cast_ids);
+  INSERT INTO {0}(imdb_id, title, original_title, year, runtime_minutes, principal_cast_ids, votes)
+    VALUES(:imdb_id, :title, :original_title, :year, :runtime_minutes, :principal_cast_ids, :votes)
+"""
+
+UPDATE_BELOW_AVERAGE_VOTES_DDL = """
+  UPDATE {0}
+    SET
+        has_below_average_votes = votes < (
+    SELECT
+        avg(votes)
+    FROM movies);
 """
 
 
@@ -27,6 +38,7 @@ class Row(TypedDict):
     year: int
     runtime_minutes: Optional[int]
     principal_cast_ids: Optional[str]
+    votes: Optional[int]
 
 
 def reload(rows: Sequence[Row]) -> None:
@@ -41,6 +53,8 @@ def reload(rows: Sequence[Row]) -> None:
     db.add_index(TABLE_NAME, "title")
 
     db.validate_row_count(TABLE_NAME, len(rows))
+
+    db.execute_script(UPDATE_BELOW_AVERAGE_VOTES_DDL.format(TABLE_NAME))
 
     movie_ids.cache_clear()
 

@@ -32,6 +32,7 @@ def seed_db() -> None:
                 year=1942,
                 runtime_minutes=None,
                 principal_cast_ids=None,
+                votes=32,
             ),
             movies_table.Row(
                 imdb_id="tt0040506",
@@ -40,6 +41,7 @@ def seed_db() -> None:
                 year=1948,
                 runtime_minutes=None,
                 principal_cast_ids=None,
+                votes=23,
             ),
             movies_table.Row(
                 imdb_id="tt0053198",
@@ -48,6 +50,7 @@ def seed_db() -> None:
                 year=1959,
                 runtime_minutes=None,
                 principal_cast_ids=None,
+                votes=16,
             ),
             movies_table.Row(
                 imdb_id="tt0054135",
@@ -56,6 +59,7 @@ def seed_db() -> None:
                 year=1960,
                 runtime_minutes=None,
                 principal_cast_ids=None,
+                votes=11,
             ),
         ]
     )

@@ -26,6 +26,7 @@ def init_db() -> None:
                 year=1959,
                 runtime_minutes=141,
                 principal_cast_ids="nm0000078,nm0001509,nm0625699",
+                votes=20,
             ),
             movies_table.Row(
                 imdb_id="tt0051554",
@@ -34,6 +35,7 @@ def init_db() -> None:
                 year=1958,
                 runtime_minutes=98,
                 principal_cast_ids="nm0001088,nm0000489",
+                votes=18,
             ),
             movies_table.Row(
                 imdb_id="tt0098327",
@@ -42,6 +44,7 @@ def init_db() -> None:
                 year=1989,
                 runtime_minutes=120,
                 principal_cast_ids="",
+                votes=17,
             ),
         ]
     )
