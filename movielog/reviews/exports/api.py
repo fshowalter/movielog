@@ -11,6 +11,7 @@ from movielog.reviews.exports import (  # noqa: WPS235
     review_stats,
     reviewed_movies,
     top_venues,
+    underseen_gems,
     viewing_counts_for_decades,
     viewing_stats,
     viewings,
@@ -33,3 +34,4 @@ def export() -> None:  # noqa: WPS213
     top_venues.export()
     viewing_stats.export()
     viewings.export()
+    underseen_gems.export()

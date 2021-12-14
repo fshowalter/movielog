@@ -3,7 +3,7 @@ sequence: 1141
 date: 2021-08-08
 imdb_id: tt0084921
 title: Five Elements Ninjas (1982)
-grade: B-
+grade: C+
 slug: five-elements-ninjas-1982
 venue: Netflix
 venue_notes:

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from typing import Dict, TypedDict
+from typing import Dict, Optional, TypedDict
 
 from movielog.moviedata.core import downloader, extractor, movies_table
 from movielog.utils import format_tools
@@ -9,6 +9,8 @@ from movielog.utils.logging import logger
 
 TITLE_BASICS_FILE_NAME = "title.basics.tsv.gz"
 TITLE_PRINCIPALS_FILE_NAME = "title.principals.tsv.gz"
+TITLE_RATINGS_FILE_NAME = "title.ratings.tsv.gz"
+
 
 Whitelist = {
     "tt0019035",  # Interference (1928) (no runtime)
@@ -57,6 +59,7 @@ def extract_titles(title_basics_file_path: str) -> Dict[str, MovieRow]:
                 year=int(str(fields[5])),
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast_ids=None,
+                votes=None,
             )
 
     logger.log("Extracted {} {}.", format_tools.humanize_int(len(titles)), "titles")
@@ -90,8 +93,32 @@ def extract_principals(
     return principals
 
 
-def append_principal_cast_ids(
-    titles: Dict[str, MovieRow], principals: Dict[str, list[Principal]]
+def extract_votes(
+    titles: Dict[str, MovieRow], title_ratings_file_path: str
+) -> Dict[str, Optional[int]]:
+    votes: Dict[str, Optional[int]] = defaultdict(lambda: None)
+
+    for fields in extractor.extract(title_ratings_file_path):
+        movie_imdb_id = str(fields[0])
+        if movie_imdb_id not in titles:
+            continue
+
+        movie_votes = int(str(fields[2])) if fields[2] else None
+        votes[movie_imdb_id] = movie_votes
+
+    logger.log(
+        "Extracted {} {}.",
+        format_tools.humanize_int(len(votes)),
+        "title rating votes",
+    )
+
+    return votes
+
+
+def append_principal_cast_ids_and_votes(
+    titles: Dict[str, MovieRow],
+    principals: Dict[str, list[Principal]],
+    votes: Dict[str, Optional[int]],
 ) -> list[MovieRow]:
     removed = 0
 
@@ -104,6 +131,7 @@ def append_principal_cast_ids(
             titles[imdb_id]["principal_cast_ids"] = ",".join(
                 map(lambda princ: princ["imdb_id"], sorted_principals)
             )
+            titles[imdb_id]["votes"] = votes[imdb_id]
         else:
             del titles[imdb_id]  # noqa: WPS420
             removed += 1
@@ -118,12 +146,16 @@ def append_principal_cast_ids(
     return list(titles.values())
 
 
-def refresh() -> None:
+def refresh() -> None:  # noqa: WPS210
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)
     title_principals_file_path = downloader.download(TITLE_PRINCIPALS_FILE_NAME)
+    title_ratings_file_path = downloader.download(TITLE_RATINGS_FILE_NAME)
 
     for _ in extractor.checkpoint(title_principals_file_path):  # noqa: WPS122
         titles = extract_titles(title_basics_file_path)
         principals = extract_principals(titles, title_principals_file_path)
-        titles_with_principal_cast_ids = append_principal_cast_ids(titles, principals)
-        movies_table.reload(titles_with_principal_cast_ids)
+        votes = extract_votes(titles, title_ratings_file_path)
+        titles_with_principal_cast_ids_and_votes = append_principal_cast_ids_and_votes(
+            titles, principals, votes
+        )
+        movies_table.reload(titles_with_principal_cast_ids_and_votes)

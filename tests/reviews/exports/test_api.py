@@ -23,6 +23,7 @@ def test_export_calls_all_exports(
         mocker.patch("movielog.reviews.exports.api.top_venues.export"),
         mocker.patch("movielog.reviews.exports.api.viewing_stats.export"),
         mocker.patch("movielog.reviews.exports.api.viewings.export"),
+        mocker.patch("movielog.reviews.exports.api.underseen_gems.export"),
     ]
 
     exports_api.export()
