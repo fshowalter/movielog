@@ -31,6 +31,11 @@ class Principal(TypedDict):
     order: int
 
 
+class Rating(TypedDict):
+    rating: Optional[float]
+    votes: Optional[int]
+
+
 def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WPS212
     if fields[1] != "movie":
         return False
@@ -60,6 +65,7 @@ def extract_titles(title_basics_file_path: str) -> Dict[str, MovieRow]:
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast_ids=None,
                 votes=None,
+                imdb_rating=None,
             )
 
     logger.log("Extracted {} {}.", format_tools.humanize_int(len(titles)), "titles")
@@ -93,18 +99,19 @@ def extract_principals(
     return principals
 
 
-def extract_votes(
+def extract_ratings(
     titles: Dict[str, MovieRow], title_ratings_file_path: str
-) -> Dict[str, Optional[int]]:
-    votes: Dict[str, Optional[int]] = defaultdict(lambda: None)
+) -> Dict[str, Rating]:
+    votes: Dict[str, Rating] = defaultdict(lambda: Rating(rating=None, votes=None))
 
     for fields in extractor.extract(title_ratings_file_path):
         movie_imdb_id = str(fields[0])
         if movie_imdb_id not in titles:
             continue
 
-        movie_votes = int(str(fields[2])) if fields[2] else None
-        votes[movie_imdb_id] = movie_votes
+        rating = float(str(fields[1])) if fields[1] else None
+        number_of_votes = int(str(fields[2])) if fields[2] else None
+        votes[movie_imdb_id] = Rating(rating=rating, votes=number_of_votes)
 
     logger.log(
         "Extracted {} {}.",
@@ -115,10 +122,10 @@ def extract_votes(
     return votes
 
 
-def append_principal_cast_ids_and_votes(
+def append_principal_cast_ids_and_rating(
     titles: Dict[str, MovieRow],
     principals: Dict[str, list[Principal]],
-    votes: Dict[str, Optional[int]],
+    ratings: Dict[str, Rating],
 ) -> list[MovieRow]:
     removed = 0
 
@@ -131,7 +138,9 @@ def append_principal_cast_ids_and_votes(
             titles[imdb_id]["principal_cast_ids"] = ",".join(
                 map(lambda princ: princ["imdb_id"], sorted_principals)
             )
-            titles[imdb_id]["votes"] = votes[imdb_id]
+            rating = ratings[imdb_id]
+            titles[imdb_id]["votes"] = rating["votes"]
+            titles[imdb_id]["imdb_rating"] = rating["rating"]
         else:
             del titles[imdb_id]  # noqa: WPS420
             removed += 1
@@ -154,8 +163,8 @@ def refresh() -> None:  # noqa: WPS210
     for _ in extractor.checkpoint(title_principals_file_path):  # noqa: WPS122
         titles = extract_titles(title_basics_file_path)
         principals = extract_principals(titles, title_principals_file_path)
-        votes = extract_votes(titles, title_ratings_file_path)
-        titles_with_principal_cast_ids_and_votes = append_principal_cast_ids_and_votes(
-            titles, principals, votes
+        ratings = extract_ratings(titles, title_ratings_file_path)
+        titles_with_principal_cast_ids_and_votes = append_principal_cast_ids_and_rating(
+            titles, principals, ratings
         )
         movies_table.reload(titles_with_principal_cast_ids_and_votes)

@@ -48,6 +48,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=32,
+                imdb_rating=4.5,
             ),
             movies_table.Row(
                 imdb_id="tt0053221",
@@ -57,6 +58,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=23,
+                imdb_rating=8.5,
             ),
             movies_table.Row(
                 imdb_id="tt0089175",
@@ -66,6 +68,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=16,
+                imdb_rating=6.5,
             ),
         ]
     )

@@ -39,7 +39,7 @@ def test_inserts_movies_from_dataset(sql_query: Callable[[str], QueryResult]) ->
             "runtime_minutes": 82,
             "principal_cast_ids": "nm0001088",
             "votes": 23,
-            "has_below_average_votes": 1,
+            "imdb_rating": 6.7,
         },
         {
             "imdb_id": "tt0051554",
@@ -49,7 +49,7 @@ def test_inserts_movies_from_dataset(sql_query: Callable[[str], QueryResult]) ->
             "runtime_minutes": 82,
             "principal_cast_ids": "nm0001088",
             "votes": 32,
-            "has_below_average_votes": 0,
+            "imdb_rating": 4.7,
         },
         {
             "imdb_id": "tt0053221",
@@ -59,7 +59,7 @@ def test_inserts_movies_from_dataset(sql_query: Callable[[str], QueryResult]) ->
             "runtime_minutes": 141,
             "principal_cast_ids": "nm0000078,nm0001509,nm0625699",
             "votes": 16,
-            "has_below_average_votes": 1,
+            "imdb_rating": 5.7,
         },
         {
             "imdb_id": "tt0089175",
@@ -69,7 +69,7 @@ def test_inserts_movies_from_dataset(sql_query: Callable[[str], QueryResult]) ->
             "runtime_minutes": 106,
             "principal_cast_ids": "nm0001697",
             "votes": 44,
-            "has_below_average_votes": 0,
+            "imdb_rating": 7.72,
         },
         {
             "imdb_id": "tt0116671",
@@ -79,7 +79,7 @@ def test_inserts_movies_from_dataset(sql_query: Callable[[str], QueryResult]) ->
             "runtime_minutes": 89,
             "principal_cast_ids": "nm0531924",
             "votes": 3,
-            "has_below_average_votes": 1,
+            "imdb_rating": 4.0,
         },
     ]
 

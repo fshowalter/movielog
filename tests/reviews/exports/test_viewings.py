@@ -27,6 +27,7 @@ def init_db() -> None:
                 runtime_minutes=141,
                 principal_cast_ids="nm0000078,nm0001509,nm0625699,nm0001141",
                 votes=8,
+                imdb_rating=6.1,
             )
         ]
     )
