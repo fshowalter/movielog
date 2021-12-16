@@ -33,6 +33,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=32,
+                imdb_rating=7.4,
             ),
             movies_table.Row(
                 imdb_id="tt0040506",
@@ -42,6 +43,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=23,
+                imdb_rating=7.1,
             ),
             movies_table.Row(
                 imdb_id="tt0053198",
@@ -51,6 +53,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=16,
+                imdb_rating=8.1,
             ),
             movies_table.Row(
                 imdb_id="tt0054135",
@@ -60,6 +63,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids=None,
                 votes=11,
+                imdb_rating=6,
             ),
         ]
     )

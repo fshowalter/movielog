@@ -50,6 +50,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0000397, nm0000000",
                 votes=32,
+                imdb_rating=6.4,
             ),
             movies_table.Row(
                 imdb_id="tt0089175",
@@ -59,6 +60,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0001697",
                 votes=23,
+                imdb_rating=4,
             ),
             movies_table.Row(
                 imdb_id="tt0080761",
@@ -68,6 +70,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0658133",
                 votes=45,
+                imdb_rating=7.4,
             ),
             movies_table.Row(
                 imdb_id="tt0082418",
@@ -77,6 +80,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0824386",
                 votes=34,
+                imdb_rating=5.5,
             ),
             movies_table.Row(
                 imdb_id="tt0083972",
@@ -86,6 +90,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0050676",
                 votes=33,
+                imdb_rating=4.9,
             ),
         ]
     )

@@ -65,6 +65,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0001088",
                 votes=23,
+                imdb_rating=4.5,
             ),
             movies_table.Row(
                 imdb_id="tt0053221",
@@ -74,6 +75,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0000078,nm0001509,nm0625699",
                 votes=32,
+                imdb_rating=7.8,
             ),
             movies_table.Row(
                 imdb_id="tt0050280",
@@ -83,6 +85,7 @@ def seed_db() -> None:
                 runtime_minutes=None,
                 principal_cast_ids="nm0001088",
                 votes=16,
+                imdb_rating=5.8,
             ),
         ]
     )

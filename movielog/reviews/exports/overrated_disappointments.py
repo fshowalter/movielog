@@ -19,7 +19,7 @@ class Movie(TypedDict, total=False):
     grade: str
 
 
-def fetch_underseen_gems() -> list[Movie]:
+def fetch_movies() -> list[Movie]:
     query = """
         SELECT
             movies.imdb_id
@@ -37,12 +37,16 @@ def fetch_underseen_gems() -> list[Movie]:
         INNER JOIN sort_titles ON reviews.movie_imdb_id = sort_titles.movie_imdb_id
         GROUP BY
             reviews.movie_imdb_id
-        HAVING movies.votes < (
+        HAVING(movies.votes > (
         SELECT
             avg(votes)
-        FROM movies)
-        AND (grade LIKE 'B%'
-            OR grade LIKE 'A%')
+        FROM movies))
+        AND (movies.imdb_rating > (
+            SELECT
+                avg(imdb_rating)
+            FROM movies))
+        AND (grade LIKE 'F%'
+            OR grade LIKE 'D%')
         ORDER BY
             release_date DESC;
     """
@@ -76,12 +80,12 @@ def fetch_genres(movie: Movie) -> list[str]:
 
 
 def export() -> None:
-    logger.log("==== Begin exporting {}...", "underseen gems")
-    underseen_gems = []
+    logger.log("==== Begin exporting {}...", "overrated disappointments")
+    movies = []
 
-    for movie in fetch_underseen_gems():
+    for movie in fetch_movies():
         movie["genres"] = fetch_genres(movie)
 
-        underseen_gems.append(movie)
+        movies.append(movie)
 
-    export_tools.serialize_dicts(underseen_gems, "underseen_gems")
+    export_tools.serialize_dicts(movies, "overrated_disappointments")

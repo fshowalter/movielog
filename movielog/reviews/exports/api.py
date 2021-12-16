@@ -8,6 +8,7 @@ from movielog.reviews.exports import (  # noqa: WPS235
     most_watched_movies,
     most_watched_performers,
     most_watched_writers,
+    overrated_disappointments,
     review_stats,
     reviewed_movies,
     top_venues,
@@ -35,3 +36,4 @@ def export() -> None:  # noqa: WPS213
     viewing_stats.export()
     viewings.export()
     underseen_gems.export()
+    overrated_disappointments.export()
