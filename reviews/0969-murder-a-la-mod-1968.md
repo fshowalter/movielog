@@ -6,16 +6,16 @@ title: Murder à la Mod (1968)
 grade: B-
 slug: murder-a-la-mod-1968
 venue: Blu-ray
-venue_notes: 2011 | Criterion
+venue_notes: Criterion, 2011
 ---
 
-Brian De Palma’s debut feature. Describing this Möbius strip of a film will prove tricky. Spoilers follow.
+**Brian De Palma’s debut feature.** Describing this Möbius strip of a film will prove tricky. Spoilers follow.
 
 <!-- end -->
 
 The film documents a few afternoon hours where a young woman named Karen meets up with her friend Tracy. They visit a boutique, then split while Tracy goes to the bank. Karen then spies her director boyfriend Chris on the street and follows him into his studio. She later leaves, finds a note from Tracy, and re-enters the studio, never to return.
 
-The film then jumps back an hour and picks up Tracy at the bank. We follow her out, watch her leave the note, then go to retrieve a dress. Tracy just misses Karen but soon sees a strange man emerge wheeling a large trunk on a dolly. A tuft of Karen’s dress sprouts from said trunk. Tracy follows the man to a cemetery where he assaults her with an ice-pick.
+The film then jumps back an hour and picks up Tracy at the bank. We follow her out, watch her leave the note, then go to retrieve a dress. Tracy just misses Karen enter the studio but soon sees a strange man emerge wheeling a large trunk. A tuft of Karen’s dress sprouts from said trunk. Tracy follows the man to a cemetery where he assaults her with an ice-pick.
 
 Jump back again. This time we follow Otto, the trunk-wheeling man, who proves to be a deranged--albeit harmless--prankster. I needn’t spoil what he does but suffice it to say we learn his assault on Tracy was harmless, but Chris turns up in the cemetery and assaults Otto with an ice-pick.
 
