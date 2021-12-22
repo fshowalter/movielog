@@ -6,7 +6,7 @@ title: The Sister of Ursula (1978)
 grade: F
 slug: the-sister-of-ursula-1978
 venue: DVD
-venue_notes: 2010 | Severin Films
+venue_notes: _The Euro-Sleaze Collection_, Severin Films, 2010
 ---
 
 _The Sister of Ursula_ centers on two sisters, Dagmar and Ursula. As the film opens, they're checking into a luxury hotel on the Italian coast. Ursula begs Dagmar to leave, claiming visions of a horrible future. With heavy sighs, Dagmar dismisses Ursula's pleadings. Ursula pouts. Instead of establishing a forbidding atmosphere, the scene left me cold to Ursula's petulant behavior.
