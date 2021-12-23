@@ -9,7 +9,7 @@ venue: DVD
 venue_notes: _The Euro-Sleaze Collection_, Severin Films, 2010
 ---
 
-Despite the title and game performance from Torben Bille, _The Sinful Dwarf_ manages to bore.
+Despite the title and game performance from Torben Bille, _The Sinful Dwarf_ bores.
 
 <!-- end -->
 
