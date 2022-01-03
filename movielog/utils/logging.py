@@ -1,5 +1,4 @@
 import sys as _sys
-import types
 from typing import TYPE_CHECKING, Any, Callable, TypeVar
 
 from loguru import logger as _base_logger
@@ -10,20 +9,16 @@ if TYPE_CHECKING:
 T = TypeVar("T")  # noqa: WPS111
 Function = Callable[..., T]
 
-LOGGER_CONFIG = types.MappingProxyType(
+logger_handlers = [
     {
-        "handlers": [
-            {
-                "sink": _sys.stdout,
-                "format": "<green>{elapsed}</green> | "
-                + "<level>{message}</level> "
-                + "(<cyan>{file}</cyan>:<cyan>{line}</cyan>)",
-            },
-        ],
-    }
-)
+        "sink": _sys.stdout,
+        "format": "<green>{elapsed}</green> | "
+        + "<level>{message}</level> "
+        + "(<cyan>{file}</cyan>:<cyan>{line}</cyan>)",
+    },
+]
 
-_base_logger.configure(**LOGGER_CONFIG)
+_base_logger.configure(handlers=logger_handlers)
 
 
 class ExtendedLogger(object):
