@@ -6,7 +6,7 @@ title: The Crowd Roars (1932)
 grade: C-
 slug: the-crowd-roars-1932
 venue: DVD
-venue_notes: Warner Bros., 2012
+venue_notes: Warner Archive Collection, 2012
 ---
 
 James Cagney plays a hotshot race car driver whose ego can't handle kid brother Eric Linden's talent. Ann Dvorak plays Cagney's long-suffering girlfriend. Joan Blondell plays Dvorak's friend and Linden's love-interest.
