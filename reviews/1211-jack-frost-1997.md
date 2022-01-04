@@ -9,4 +9,4 @@ venue: Blu-ray
 venue_notes: Vinegar Syndrome, 2016
 ---
 
-**My appreciation grows.** I thought this played like a straight slasher with a snowman killer, but it proves more self aware. The cast deadpans the entire way, save Scott MacDonald, who seems aware he’s a schlock movie monster.
+**My appreciation grows.** I thought this played like a straight slasher with a snowman killer, but it proves more self aware. The cast deadpans the entire way, save Scott MacDonald, who relishes playing a schlock movie monster.
