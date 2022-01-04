@@ -9,4 +9,4 @@ venue: DVD
 venue_notes: _John Wayne & The Western Trios - 50 Movie Roundup_, Mill Creek Entertainment, 2015
 ---
 
-Dull, idiot plot opens with Tim McCoy losing his ranch to a crooked land baron played by Wheeler Oakman. McCoy then departs to prospect for silver, but returns in time to save love interest Alice Day from Oakman's schemes. Long in talk and short in action. John Wayne has a bit part as one of McCoy's sidekicks. Walter Brennan has an even smaller role as a sheriff's deputy.
+Tedious, idiot plot opens with Tim McCoy losing his ranch to a crooked land baron played by Wheeler Oakman. McCoy then departs to prospect for silver, but returns in time to save love interest Alice Day from Oakman's schemes. Long in talk and short in action. John Wayne has a bit part as one of McCoy's sidekicks. Walter Brennan has an even smaller role as a sheriff's deputy.
