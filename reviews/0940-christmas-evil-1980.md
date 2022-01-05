@@ -6,7 +6,7 @@ title: Christmas Evil (1980)
 grade: B+
 slug: christmas-evil-1980
 venue: Blu-ray
-venue_notes: 2014 | Vinegar Syndrome
+venue_notes: Vinegar Syndrome, 2014
 ---
 
 _Christmas Evil_ isn't the sleazy Santa slasher you'd expect.
