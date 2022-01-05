@@ -6,7 +6,7 @@ title: Black Christmas (1974)
 grade: B+
 slug: black-christmas-1974
 venue: Blu-ray
-venue_notes: 2016 | Shout Factory
+venue_notes: Shout Factory, 2016
 ---
 
 **It's grown on me.** I wrote a snarky review in 2011 that bemoaned the final girl's "fit of acting" as she goes up the stairs instead of out the door, but time has been kind to _Black Christmas_.
