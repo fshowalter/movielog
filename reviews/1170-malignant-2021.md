@@ -3,7 +3,7 @@ sequence: 1170
 date: 2021-09-30
 imdb_id: tt3811906
 title: Malignant (2021)
-grade: C
+grade: D+
 slug: malignant-2021
 venue: Vudu
 venue_notes:
