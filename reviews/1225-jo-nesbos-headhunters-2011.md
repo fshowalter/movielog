@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: Magnolia Pictures, 2012
 ---
 
-An elite corporate head hunter finances his lavish lifestyle by stealing art from his prospects. This setup serves as a fulcrum for a clockwork plot that feels both organic and precise. To reveal anymore would spoil the film's myriad surprises.
+An elite corporate head hunter finances his lavish lifestyle by stealing art from his prospects. This setup serves as a fulcrum for a clockwork plot. To reveal anymore would spoil the film's myriad surprises.
 
 <!-- end -->
 
