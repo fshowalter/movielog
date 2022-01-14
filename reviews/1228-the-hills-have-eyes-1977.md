@@ -6,7 +6,7 @@ title: The Hills Have Eyes (1977)
 grade: C-
 slug: the-hills-have-eyes-1977
 venue: 4k UHD Blu-ray
-venue_notes:
+venue_notes: Arrow, 2021
 ---
 
 A murderous clan of cannibalistic savages descends upon an unwitting family stranded in the desert.
