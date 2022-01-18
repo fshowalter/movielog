@@ -19,4 +19,4 @@ And savage may be too harsh a term. The group operates with radio comms, decoy e
 
 Lest you think Craven has lost all his edge, I appreciated the film’s willingness to imperil a baby. The savages—er, paramilitary hill people—refer to it as a “young thanksgiving turkey”. Good stuff.
 
-The new 4k master looks terrific, but the HDR color grading felt off in a few third act scenes. The saturated blue sky gave more one shot a soundstage appearance. A minor quibble with the film’s best presentation to date.
+The new 4k master looks terrific, but the HDR color grading felt off in a few third act scenes. The saturated blue sky lent more than one shot a soundstage appearance. A minor quibble with the film’s best presentation to date.
