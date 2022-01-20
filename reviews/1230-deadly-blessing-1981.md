@@ -6,7 +6,7 @@ title: Deadly Blessing (1981)
 grade: D-
 slug: deadly-blessing-1981
 venue: Blu-ray
-venue_notes:
+venue_notes: Arrow, 2017
 ---
 
 After directing gritty indie-horrors <span data-imdb-id="tt0068833">_The Last House on the Left_</span> and <span data-imdb-id="tt0077681">_The Hills Have Eyes_</span>, Wes Craven landed a job directing a TV movie called <span data-imdb-id="tt0078330">_Summer of Fear_</span>. The result proved popular enough to secure a theatrical run in Europe and lead to this entry, his first studio theatrical production. A rural giallo starring Ernest Borgnine and featuring an early performance from Sharon Stone. Fair warning, spoilers follow.
