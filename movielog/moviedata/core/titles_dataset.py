@@ -21,6 +21,7 @@ Whitelist = {
     "tt11060882",  # Batman: The Dark Knight Returns (2013) [V]
     "tt0101760",  # Door to Silence (1992) [V]
     "tt0112643",  # Castle Freak (1995) [V]
+    "tt1356864",  # I'm Still Here (2010) (documentary)
 }
 
 MovieRow = movies_table.Row
