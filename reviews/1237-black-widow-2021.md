@@ -9,7 +9,7 @@ venue: Disney+
 venue_notes:
 ---
 
-Scarlett Johansson plays Natasha Romanoff, a Russian super-spy turned Avenger in this origin story that opens with her as a tween in suburban Ohio. Her bucolic life shatters when authorities discover her family is a sleeper-cell, forcing them to flee to Cuba. There, she's separated from her kid sister and shipped off to the Black Widow super-spy training program.
+Scarlett Johansson plays Natasha Romanoff, a Russian super-spy turned Avenger in this semi-origin story that opens with her as a tween in suburban Ohio. Her bucolic life shatters when authorities discover her family is a sleeper-cell, forcing them to flee to Cuba. There, she's separated from her kid sister and shipped off to the Black Widow super-spy training program.
 
 <!-- end -->
 
