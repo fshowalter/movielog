@@ -13,7 +13,7 @@ Wes, what have you done? You return to your independent roots after two studio e
 
 <!-- end -->
 
-Set seven years after the first film, a teen motocross crew comprising some of the first film’s survivors becomes stranded in the desert. There, they run afoul of the first film’s lone surviving baddie Pluto, now teamed up with his monstrous uncle, the Reaper.
+Set seven years after the <span data-imdb-id="tt0077681">first film</span>, a teen motocross crew comprising some of the first film’s survivors becomes stranded in the desert. There, they run afoul of the first film’s lone surviving baddie Pluto, now teamed up with his monstrous uncle, the Reaper.
 
 Unlike the first film, where the savages operated with paramilitary precision, Pluto and the Reaper rely on elaborate booby traps. Given the isolated location, who did they expect to fall prey to said traps? And how did they know said intruders would ride motorcycles? Speaking of motorcycles, we see Pluto’s learned to ride one. I guess they get lots of motorbikes and gas in the desert?
 
