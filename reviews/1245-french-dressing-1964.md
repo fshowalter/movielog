@@ -9,7 +9,7 @@ venue: DVD
 venue_notes:
 ---
 
-**Ken Russell’s debut feature.** James Booth plays Jim, a deckchair attendant in a dying English seaside resort town. Alita Naughton plays his charming girlfriend, an American journalist who’s showing signs of outgrowing the small town. With his world threatened, Jim concocts a scheme to stage a film festival starring a French beauty.
+**Ken Russell’s debut feature.** James Booth plays Jim, a deckchair attendant in a dying English seaside resort. Alita Naughton plays his charming girlfriend, an American journalist who’s showing signs of outgrowing their small town. With his world threatened, Jim concocts a scheme to stage a film festival starring a French beauty.
 
 <!-- end -->
 
