@@ -19,6 +19,6 @@ As the film goes on, a pattern emerges. A pair of characters have sex. A mysteri
 
 The script proffers few red herrings. Instead, it doles out assorted subplots like the sisters' search for their estranged mother, the hotel manager‘s struggles with his estranged wife, and the gigolo's drug habit.
 
-None of these threads held my interest. But the film‘s reputation as a sleazy Giallo convinced me it would veer into crazy territory.
+None of these threads held my interest. But the film‘s reputation as a sleazy giallo convinced me it would veer into crazy territory.
 
 It proved a long wait. During the finale, after an unsurprising reveal of the killer‘s identity, we see the murder weapon. Spoiler--it‘s a giant phallus. The killer advancing, phallus in hand, is just the sort of crazy I'd been hoping for. But this lone scene can't justify the hour-and-a-half investment.
