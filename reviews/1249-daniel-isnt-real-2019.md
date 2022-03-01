@@ -21,6 +21,6 @@ It's a twist on the <span data-imdb-id="tt0137523">_Fight Club_</span> story. Sc
 
 But in focusing on this aspect, Mortimer missed the film's biggest problem: as compelling as Daniel is as a character, Luke proves just as uncompelling. In _Fight Club_, Edward Norton's character opens the film sleepwalking through life, but as his relationship with Tyler grows, he takes more agency. Consider the comedic scene where he confronts his boss and frees himself from the 9-to-5 grind. Seeing him take action endears him to us.
 
-Luke has no such arc. He lacks agency throughout. The film introduces disposable characters to ask the questions or take the actions Luke should. He's a whiny, mopey sad sack that we feel sorry for but never root for.
+Luke has no such arc. He lacks agency throughout. The film introduces disposable characters to ask the questions or take the actions Luke should. He's a whiny, mopey sad sack. We feel sorry for him but never root for him.
 
 This comes to a head in the film's ludicrous third act. Having your leads sword fighting atop a New York brownstone should have been warning enough, but that's the thing about blind spots. You don't know what you don't know.
