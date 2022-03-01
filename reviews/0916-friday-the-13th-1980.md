@@ -9,7 +9,7 @@ venue: Blu-ray
 venue_notes: 2020 | Shout Factory
 ---
 
-**There's no hockey mask and no Jason.** Yes, an unknown killer picks off young people working to re-open a New Jersey summer camp, but the plot hews closer to a Giallo than a modern slasher.
+**There's no hockey mask and no Jason.** Yes, an unknown killer picks off young people working to re-open a New Jersey summer camp, but the plot hews closer to a giallo than a modern slasher.
 
 <!-- end -->
 

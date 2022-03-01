@@ -9,4 +9,4 @@ venue: Blu-ray
 venue_notes: 2019 | 88 Films
 ---
 
-Grindhouse historical drama. Fulci takes a tired plot (oppressive patriarch murdered by his family) and livens it up with salacious plotting, sloe-eyed Adrienne Larussa, and Hammeresque gore.
+A grindhouse historical drama. Fulci takes a tired plot (oppressive patriarch murdered by his family) and livens it up with salacious plotting, sloe-eyed Adrienne Larussa, and Hammeresque gore.
