@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes:
 ---
 
-In the DMZ between North and South Korea, gunshots shatter the nighttime silence. Two North Korean soldiers lay dead in their guardhouse, as a South Korean soldier, bloodied and wounded, limps toward the south. Both sides mobilize troops and exchange gunfire. The next morning, accusations fly. South Korea claims the North abducted the soldier. North Korea claims the South Korean guard crossed the border and committed a massacre. The Neutral Nations Supervisory Commission calls in a Swiss investigator to discover the truth.
+At the guarded border between North and South Korea, gunshots shatter the nighttime silence. Two North Korean soldiers lay dead in their guardhouse, as a South Korean soldier, bloodied and wounded, limps toward the south. Both sides mobilize troops and exchange gunfire. The next morning, accusations fly. South Korea claims the North abducted the soldier. North Korea claims the South Korean guard crossed the border and committed a massacre. The Neutral Nations Supervisory Commission calls in a Swiss investigator to discover the truth.
 
 <!-- end -->
 
