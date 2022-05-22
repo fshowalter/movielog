@@ -2,7 +2,7 @@
 sequence: 1076
 date: 2021-04-09
 imdb_id: tt0089173
-title: 'Friday the 13th: A New Beginning (1985)'
+title: "Friday the 13th: A New Beginning (1985)"
 grade: D
 slug: friday-the-13th-a-new-beginning-1985
 venue: Blu-ray
@@ -19,7 +19,7 @@ Despite being the nominal lead, Tommy’s superficial to the plot and says under
 
 The setting is, of course, a remote camp. This time, a halfway house for troubled teens.
 
-The plot kicks into gear after one teen murders another with an ax, then disappears into the surrounding woods. After that, an unseen assailant begins murdering teens, staff, and pretty much everyone else.
+The plot kicks into gear after one teen murders another with an axe. After that, an unseen assailant begins murdering teens, staff, and pretty much everyone else.
 
 Like <span data-imdb-id="tt0080761">the original</span>, this entry withholds the killer’s identity until the finale. We’re offered several red herrings, making this film more a mystery-thriller than a monster movie.
 
