@@ -6,7 +6,7 @@ title: Good Times (1967)
 grade: F
 slug: good-times-1967
 venue: Blu-ray
-venue_notes: 2018 | Kino Lober
+venue_notes: Kino Lober, 2018
 ---
 
 **William Friedkin's debut feature.** A post-<span data-imdb-id="tt0058182">_Hard Day's Night_ pop musical that sees Sonny and Cher spoof the western, _Tarzan_, and hard-boiled detective genres.
