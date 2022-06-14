@@ -19,7 +19,7 @@ def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:
 
     json_file_name = os.path.join(folder_path, "{0}.json".format(file_name))
     with open(json_file_name, "w") as output_file:
-        output_file.write(json.dumps(dicts, default=str))
+        output_file.write(json.dumps(dicts, default=str, indent=""))
 
     logger.log(
         "Wrote {} ({}).",
@@ -41,7 +41,7 @@ def serialize_dataclasses_to_folder(
             folder_path, "{0}.json".format(filename_key(dataclass))
         )
         with open(file_name, "w") as output_file:
-            output_file.write(json.dumps(asdict(dataclass), default=str))
+            output_file.write(json.dumps(asdict(dataclass), default=str, indent=""))
         logger.log(
             "Wrote {} ({}).",
             file_name,
