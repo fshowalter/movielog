@@ -11,7 +11,9 @@ venue_notes:
 
 Daniel Craig's debut as Bond. A series reboot that opens with Bond earning his Double-O status, then tracing a bomb-maker to Le Chiffre, an international black-market banker.
 
-After reading the source novel, I revisited the film as an adaptation. Though it makes many questionable choices, it improves on the source in a couple of aspects. Spoilers follow.
+<!-- end -->
+
+After <a href="https://www.franksbooklog.com/reviews/casino-royale-by-ian-fleming/">reading the source novel</a>, I revisited the film as an adaptation. Though it makes many questionable choices, it improves on the source in a couple of aspects. Spoilers follow.
 
 The book more-or-less starts with Bond arriving at the casino on orders from MI6. The film introduces a whole backstory that sees Bond himself discover Le Chiffre. It doesn't arrive at the titular casino until the half-way point. On the plus side, this provides several entertaining set-pieces, including an early parkour chase that announces this Bond as an action hero. On the down side, it stretches the film past two hours.
 
