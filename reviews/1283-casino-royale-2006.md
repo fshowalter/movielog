@@ -6,7 +6,7 @@ title: Casino Royale (2006)
 grade: B-
 slug: casino-royale-2006
 venue: 4k UHD Blu-ray
-venue_notes:
+venue_notes: "_007: The Daniel Craig Collection_, Metro-Goldwyn-Mayer, 2019"
 ---
 
 **Daniel Craig's James Bond debut.** A series reboot that opens with Bond earning his Double-O status, then tracing a bomb-maker to Le Chiffre, an international black-market banker.
