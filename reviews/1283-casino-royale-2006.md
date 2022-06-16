@@ -9,7 +9,7 @@ venue: 4k UHD Blu-ray
 venue_notes:
 ---
 
-Daniel Craig's debut as Bond. A series reboot that opens with Bond earning his Double-O status, then tracing a bomb-maker to Le Chiffre, an international black-market banker.
+**Daniel Craig's James Bond debut.** A series reboot that opens with Bond earning his Double-O status, then tracing a bomb-maker to Le Chiffre, an international black-market banker.
 
 <!-- end -->
 
