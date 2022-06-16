@@ -13,6 +13,6 @@ venue_notes:
 
 <!-- end -->
 
-Absent his trademark formal vigor, one would be hard pressed to imagine Scott's future output based on this film. It's quiet, contemplative, and, even at just 57 minutes, unhurried. Scott, who also wrote and edited the picture, cuts between expansive wide shots showcasing the open countryside and claustrophobic, cluttered interiors. The resulting atmosphere flirts with hill-people horror, but the film remains rooted in psychological drama.
+Absent his trademark formal vigor, one would be hard pressed to imagine Scott's future output based on this film. It's quiet, contemplative, and, even at just 57 minutes, unhurried. Scott, who also wrote and edited the picture, cuts between expansive wide shots showcasing the open countryside and claustrophobic, cluttered interiors. The resulting atmosphere flirts with hicksploitation, but the film remains rooted in psychological drama.
 
 A solid effort, but the genre fan in me wishes Scott had married this story with a bit more horror.
