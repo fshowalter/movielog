@@ -58,6 +58,7 @@ def test_exports_review_stats(tmp_path: str) -> None:
         "review_year": "2016",
         "total_review_count": 1,
         "average_words_per_review": 4,
+        "watchlist_titles_reviewed": 0,
     }
 
     with open(os.path.join(tmp_path, "review_stats", "2016.json"), "r") as file2016:
@@ -69,6 +70,7 @@ def test_exports_review_stats(tmp_path: str) -> None:
         "review_year": "2017",
         "total_review_count": 2,
         "average_words_per_review": 11,
+        "watchlist_titles_reviewed": 0,
     }
 
     with open(os.path.join(tmp_path, "review_stats", "2017.json"), "r") as file2017:
@@ -80,6 +82,7 @@ def test_exports_review_stats(tmp_path: str) -> None:
         "review_year": "all",
         "total_review_count": 3,
         "average_words_per_review": 8.666666666666666,
+        "watchlist_titles_reviewed": 0,
     }
 
     with open(os.path.join(tmp_path, "review_stats", "all.json"), "r") as file_all:

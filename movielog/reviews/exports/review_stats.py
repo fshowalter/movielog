@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import re
 from dataclasses import dataclass
 from typing import Sequence
@@ -6,6 +8,7 @@ from movielog.reviews import serializer
 from movielog.reviews.review import Review
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
+from movielog.watchlist import api as watchlist_api
 
 
 @dataclass
@@ -13,6 +16,7 @@ class StatFile(object):
     review_year: str
     total_review_count: int
     average_words_per_review: float
+    watchlist_titles_reviewed: int
 
 
 def count_words_in_markdown(markdown: str) -> int:
@@ -53,16 +57,27 @@ def average_review_length_for_reviews(review_iterable: Sequence[Review]) -> floa
     ) / len(review_iterable)
 
 
-def export() -> None:
+def watchlist_titles_reviewed(
+    review_iterable: Sequence[Review], watchlist_movie_ids: set[str]
+) -> int:
+    reviewed_movie_ids = set(review.imdb_id for review in review_iterable)
+    return len(watchlist_movie_ids.intersection(reviewed_movie_ids))
+
+
+def export() -> None:  # noqa: WPS210
     logger.log("==== Begin exporting {}...", "review stats")
 
     all_reviews = serializer.deserialize_all()
+    watchlist_movie_ids = watchlist_api.movie_ids()
 
     stat_files = [
         StatFile(
             review_year="all",
             total_review_count=len(all_reviews),
             average_words_per_review=average_review_length_for_reviews(all_reviews),
+            watchlist_titles_reviewed=watchlist_titles_reviewed(
+                all_reviews, watchlist_movie_ids
+            ),
         )
     ]
 
@@ -76,6 +91,9 @@ def export() -> None:
                 total_review_count=len(reviews_for_year),
                 average_words_per_review=average_review_length_for_reviews(
                     reviews_for_year
+                ),
+                watchlist_titles_reviewed=watchlist_titles_reviewed(
+                    reviews_for_year, watchlist_movie_ids
                 ),
             )
         )
