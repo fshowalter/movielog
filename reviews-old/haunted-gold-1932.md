@@ -19,6 +19,6 @@ Wayne plays a cowboy investigating an abandoned mine. It’s a dull, talky story
 
 Wayne's performance is stiff and unsure, lacking even a glimpse of his signature laconic persona.
 
-And then there’s Blue Washington as Wayne’s sidekick. It’s an unfunny and demeaning role that sees him referred to as “boy” by Wayne and “watermelon mouth” by the villains. It makes a bad movie even worse.
+And then there’s Blue Washington as Wayne’s sidekick. It’s an unfunny and demeaning role that sees him referred to as “boy” by Wayne and his “watermelon accent” noted by the villains. It makes a bad movie even worse.
 
 Warner Bros. may have known they had a turkey on their hands. They shot and released two more Maynard remakes with Wayne, _Ride Him, Cowboy (1932)_ and _The Big Stampede (1932)_, before releasing this stinker.
