@@ -19,7 +19,9 @@ Yes, James Bond dies. It's a death meant to shock and lend resonance to the five
 
 But I'm getting ahead of myself. Let's talk about the script.
 
-Like <span data-imdb-id="tt2379713">_Spectre_</span>, this entry continues the inane mandate that every plot have a personal connection to Bond. Here they carry over the chemistry-less romance between Bond and Madeleine, a Spectre agent's daughter. The film opens with a flashback to pre-teen Madeleine's childhood, where a masked assailant breaks into her family's Norwegian lake house and murders her mother. Madeline flees, only to become trapped under the frozen lake's ice. The assassin saves her.
+Like <span data-imdb-id="tt2379713">_Spectre_</span>, this entry continues the inane mandate that every plot thread must have a personal connection to Bond. But Bond films have never been _about_ Bond anymore than <span data-imdb-id="tt0095016">_Die Hard_</span> was _about_ John McClane or <span data-imdb-id="tt0082971">_Raiders of the Lost Ark_</span> was _about_ Indiana Jones. If you want an espionage series _about_ the protagonist, there's Jason Bourne. His name's in every title.
+
+_No Time to Die_ carries over the chemistry-less romance between Bond and Madeleine, a Spectre agent's daughter. The film opens with a flashback to pre-teen Madeleine's childhood, where a masked assailant breaks into her family's Norwegian lake house and murders her mother. Madeline flees, only to become trapped under the frozen lake's ice. The assassin saves her.
 
 Fast-forward to post-_Spectre_ present. Said assassin, played by Rami Malek, resurfaces in Madeleine's life and professes his love for her. Somehow, he's the same age as Madeleine, but the script proffers no explanation. Malek's performance follows Christoph Waltz's trend of talented actors proving terrible Bond villains. His intelligible accent and detached performance feel pretentious.
 
