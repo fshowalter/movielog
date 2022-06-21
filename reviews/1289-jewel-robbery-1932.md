@@ -6,7 +6,7 @@ title: Jewel Robbery (1932)
 grade: C-
 slug: jewel-robbery-1932
 venue: DVD
-venue_notes:
+venue_notes: "_Forbidden Hollywood Collection: Volume 4_, Warner Bros., 2012"
 ---
 
 _Jewel Robbery_ proves memorable thanks to William Powell's introduction. He plays a gentleman thief who robs a jewelry store frequented by a restless baroness, played by Kay Francis. After robbing the store and clientele of their valuables, Powell gives the staff, Francis, and her entourage marijuana cigarettes to stone them into supplication. When the cops arrive, everyone is giggle happy and Powell and his crew have disappeared. Ah, pre-code Hollywood.

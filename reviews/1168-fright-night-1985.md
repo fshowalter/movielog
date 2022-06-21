@@ -6,7 +6,7 @@ title: Fright Night (1985)
 grade: A+
 slug: fright-night-1985
 venue: Blu-ray
-venue_notes: 2019 | Sony Pictures
+venue_notes: Sony Pictures, 2019
 ---
 
 "Yeah Charlie, what's down there?"
