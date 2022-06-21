@@ -6,7 +6,7 @@ title: The Skin Game (1931)
 grade: D
 slug: the-skin-game-1931
 venue: Blu-ray
-venue_notes: 2019 | Kino Lorber
+venue_notes: "_Hitchcock: British International Pictures Collection_, Kino Lorber, 2019"
 ---
 
 Gwenn plays Hornblower, the ambitious and somewhat unscrupulous head of a new-moneyed family. His expanding factory empire puts him at odds with the Hillcrists, an old-moneyed family. The Hillcrists find themselves powerless until they discover a secret about Hornblower's daughter-in-law.

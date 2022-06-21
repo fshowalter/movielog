@@ -6,7 +6,7 @@ title: Code Unknown (2000)
 grade: B+
 slug: code-unknown-2000
 venue: Blu-ray
-venue_notes: 2015 | Criterion
+venue_notes: Criterion, 2015
 ---
 
 A fascinating entry from writer/director Michael Haneke. Like his prior film, <span data-imdb-id="tt0109020">_71 Fragments of a Chronology of Chance_</span>, it follows several disparate characters united by a single incident. But while that film built toward its climax, _Code Unknown_ opens with its converging incident then follows the rippling impacts through its character's lives.

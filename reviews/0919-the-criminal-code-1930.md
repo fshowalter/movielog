@@ -6,7 +6,7 @@ title: The Criminal Code (1930)
 grade: C+
 slug: the-criminal-code-1930
 venue: DVD
-venue_notes: "2013 | TCM Vault Collection | Karloff: Criminal Kind"
+venue_notes: "_Karloff: Criminal Kind_, TCM Vault Collection, 2013"
 ---
 
 **Howard Hawks's second sound picture.** A competent prison-reform drama that nevertheless feels like a work-for-hire job. Walter Huston's electric as a former district attorney turned prison warden, and Boris Karloff maximizes his role as a grudge-bearing convict. But Phillips Holmes doesn't register as the hard-luck protagonist. Ditto Constance Cummings as his love interest.
