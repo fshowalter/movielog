@@ -13,7 +13,7 @@ Tony Curtis plays Sidney Falco, a hungry Manhattan press agent desperate to curr
 
 <!-- end -->
 
-In many ways, _Sweet Smell of Success_ is brilliant.
+So much of _Sweet Smell of Success_ is brilliant.
 
 The crisp black-and-white location photography captures Manhattan’s gleaming, noisy, crowded, thumping heart. The characters worm their way through teaming sidewalks. They finagle deals inside the packed 21 Club and Toots Shor’s. They drink coffee in closet-sized diners.
 
