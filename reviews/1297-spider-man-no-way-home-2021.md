@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes:
 ---
 
-With his identity exposed and his friends and family suffering the consequences, Peter Parker seeks the aid of Doctor Strange, who casts a spell designed to make everyone forget Peter is Spider-Man. But things go awry and instead, the spell summons everyone who knows Peter is Spider-Man from across the multi-verse. Major spoilers follow.
+With his identity exposed and his friends and family suffering the consequences, Peter Parker seeks the aid of Doctor Strange, who casts a spell designed to make everyone forget Peter is Spider-Man. But things go awry and instead, the spell summons everyone who knows Peter is Spider-Man from across the multi-verse. **Major spoilers follow.**
 
 <!-- end -->
 
