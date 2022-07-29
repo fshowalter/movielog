@@ -15,7 +15,7 @@ from movielog.moviedata.extended.tables import api as tables_api
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 
-imdb_http = imdb.IMDb(reraiseExceptions=True)
+imdb_http = imdb.Cinemagoer(reraiseExceptions=True)
 
 FOLDER_NAME = "data"
 
