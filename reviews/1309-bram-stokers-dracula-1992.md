@@ -6,7 +6,7 @@ title: Bram Stoker's Dracula (1992)
 grade: C+
 slug: bram-stokers-dracula-1992
 venue: 4k UHD Blu-ray
-venue_notes:
+venue_notes: 25th Anniversary Edition, Sony Pictures, 2017
 ---
 
 Vlad Dracula, a Christian warlord, leads his army into battle against an overwhelming Turkish Muslim force. Though he emerges victorious, the Turks send word to Vlad’s beloved wife that he has perished. She commits suicide. An outraged Vlad renounces God and curses himself to become a vampire. Four centuries later, he emigrates to London and discovers his wife's reincarnation.
