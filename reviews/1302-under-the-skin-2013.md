@@ -9,7 +9,7 @@ venue: iTunes
 venue_notes:
 ---
 
-Scarlett Johansson plays an alien posing as a human preying upon unwitting males.
+Scarlett Johansson plays an alien posing as a human to prey upon unwitting males.
 
 <!-- end -->
 
