@@ -10,10 +10,6 @@ The Locket
 
 Trite story based on psychobabble with execution so convoluted and over-the-top, it borders on parody. Example: Mitchum’s flashback-within-a-flashback voice-over narration saying “I sent her a telegram.” Day enters the room. “I got your telegram,” she says.
 
-The Crowd Roars
-
-Thrilling racing footage interspersed with underwritten melodrama. Worth it for the spectacle of Cagney grabbing Linden by the lapels and unleashing a one-handed 1930's-tough-guy slapdown.
-
 His Kind of Woman
 
 Gambler Mitchum finds himself coerced into visiting a Mexican resort so deported gangster Burr can steal Mitchum's identity and re-enter the states. Odd mix of film noir, melodrama, and Hollywood satire works thanks to the strong performances and crackling dialog.
@@ -49,10 +45,6 @@ A group of former Vermont state troopers finds themselves back in uniform patrol
 Pat Garrett & Billy the Kid
 
 Coburn plays Garrett, a gunslinger turned sheriff charged with ousting the Kid, his one-time friend, played by Kristofferson. After deconstructing western archetypes in Ride the High Country (1962) and The Wild Bunch (1969), Peckinpah tries his hand at a real-life western legend. Coburn's solid as always and Kristofferson proves a charismatic revelation but they can't overcome the loss of cinematographer Lucien Ballard and a muddled script incapable of transcending its historical roots.
-
-Dear Ruth
-
-G.I. Holden turns up on Caulfield's doorstep, believing she's his pen-pal sweetheart, unaware her precocious kid sister has written all the letters. Caulfield, Holden, and Edward Arnold make the trite premise work with underplayed performances overflowing with charm.
 
 Land of the Pharaohs
 
