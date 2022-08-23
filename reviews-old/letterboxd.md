@@ -1,7 +1,3 @@
-Hoodlum Saint
-
-Powell returns from WWI, finagles a job as a corporate executive, amasses a fortune, loses it in the crash of '29, and finds religion. Dull script flounders between social outrage, Runyonesque comedy, and overwrought melodrama.
-
 It's a Big Country
 
 Eight-segment propaganda-ish anthology celebrating America. Barrymore lends her segment a dignity it doesn't deserve and Cooper's self-deprecating segment elicits a few chuckles, but the other segments range from forgettable at best to cringeworthy at worst.
