@@ -21,7 +21,7 @@ Then we cut to a cantina where Luis Alberni shines as Felipe, a mariachi. He's t
 
 Wayne shows up and rescues Felipe from Don Luis's wrath. As usual in these Warner westerns, Wayne's stiff but still charismatic. Felipe joins up as Wayne's sidekick, and the pair set out to convince Don Jose to register his lands.
 
-Wayne rescues Delores from a runaway stage and falls for her. This convinces Don Jose to trust Wayne and register his lands. But Don Luis kidnaps Don Jose en route to the registrar's office, then forces Delores to marry him.
+Wayne rescues Delores from a runaway stage and falls for her. This convinces Don Jose to trust Wayne. But Don Luis kidnaps Don Jose en route to the registrar's office, then forces Delores to marry him.
 
 Despite all signs pointing to Don Luis, Wayne's convinced a group of American pioneers might have kidnapped Don Jose, so he rides up, pulls a gun and demands they produce the prisoner. Their entire defense amounts to “We didn't do it,” which he accepts without argument.
 
