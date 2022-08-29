@@ -21,4 +21,4 @@ That's not to say Burr is bad in his part. He delivers the best performance of t
 
 Indeed, there's little to recommend _Meet Danny Wilson_. Even Sinatra's lip-synched performances feel half-hearted, as though he'd rather be doing something else. At best, the film can serve as a curiosity for Sinatra fans, as he's playing a thin facsimile of himself.
 
-Still seen as a bobby-soxer idol, Sinatra had yet to reinvent himself with the saloon singer image that would define his career. The film's end shot, with Sinatra clad in a better-fitting tuxedo and playing to a theater full of adults, proves a prescient look at his future, though, at the time, no one would have believed it.
+Still seen as a bobby-soxer idol, Sinatra had yet to reinvent himself with the saloon singer image that would define his career. The film's end shot, with Sinatra clad in a better-fitting tuxedo and playing to a sold-out theater full of adults, proves a prescient look at his future, though, at the time, no one would have believed it.
