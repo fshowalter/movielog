@@ -35,6 +35,6 @@ Next, Dennis tours of the grounds. The hostess points to a section holding the e
 
 And another section for loved ones “dedicated to the sea”, to include “long distance swimmers, Fourth of July boating enthusiasts, admirals…”
 
-The film gets even more absurd when it introduces Rod Steiger’s prissy embalmer, Mr. Joyboy. He and Dennis both pursue cosmetician Aimée, played by Anjanette Comer. Steiger invites her to his home for dinner, where, to her horror, she realizes he’s subservient to his obese mother. These scenes border on horror, painting Joyboy as an inciting incident away from serial killer.
+The film gets even more absurd when it introduces Rod Steiger’s prissy embalmer, Mr. Joyboy. He and Dennis both pursue cosmetician Aimee. Steiger invites her to his home for dinner, where, to her horror, she realizes he’s subservient to his obese mother. These scenes border on horror, painting Joyboy as an inciting incident away from serial killer.
 
 From here, the film loses its way. The satire remains, focusing on corporate exec Jonathan Winters’s plan to launch corpses into space, but aside from a memorable orgy sequence including a laugh-out-loud moment from Liberace, the laughs fizzle. Instead, the focus pivots to the relationship between Dennis and Aimée. The pair have no chemistry and it’s not clear what he sees in her. After the prior absurdity, I couldn’t invest in these narrative stakes, rendering the third act a disappointment.
