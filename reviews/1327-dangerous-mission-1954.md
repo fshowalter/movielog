@@ -37,4 +37,4 @@ Anyway, a little before the halfway point, we discover Paul's true identity. Tho
 
 Matt, now revealed as a cop working for the New York District Attorney's office, sets out after Paul. Of course, Louise ends up tagging along. After some great location photography, everything culminates in a showdown inside an ice fissure. A real ice cave would have impressed. The soundstage artifice does not. You'll be hard-pressed not to laugh at the matte backgrounds. Ditto the scene where Price kicks Mature in the face.
 
-The print on Watch TCM is standard definition. A shame. The location photography and Technicolor presentation prove the film's biggest assets. But Vincent Price fans should enjoy him here, if only for the outfit he wears for the square-dance scene.
+The print streaming on Watch TCM is standard definition. A shame. The location photography and Technicolor presentation prove the film's biggest assets. But Vincent Price fans should enjoy him here, if only for the outfit he wears for the square-dance scene.
