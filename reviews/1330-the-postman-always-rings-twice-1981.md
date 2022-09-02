@@ -11,6 +11,8 @@ venue_notes:
 
 **David Mamet’s feature debut.** Not a remake of <span data-imdb-id="tt0038854">the 1946 Lana Turner film</span>, but another adaptation of James M. Cain’s novel. Jack Nicholson plays Frank Chambers, an opportunistic drifter who hires on at a rural luncheonette with his eye on the owner’s wife Cora, played by Jessica Lange. The two begin a torrid affair and soon they’re plotting to off her husband. **Spoilers follow.**
 
+<!-- end -->
+
 This review proves tricky. Do I write for the audience who’s seen the Turner film or the ones who’ve read the book? What about those new to the material? Or those familiar with both? Bear with me as I endeavor to cover all these bases.
 
 First, if you’ve seen neither version, read the book. It’s a quick read, packs more cynicism than either adaptation, and while the sex isn’t as graphic as this version, it includes a sadomasochistic edge that’s expunged from the Turner version and only hinted at here.
