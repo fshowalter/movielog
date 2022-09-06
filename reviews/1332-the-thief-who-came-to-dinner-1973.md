@@ -13,7 +13,7 @@ Ryan O'Neal plays a computer programmer who quits his well-paying job to become 
 
 <!-- end -->
 
-What a pleasant surprise. O'Neal charms as a man who “decided only some of the rules apply,” and opts to become an honest jewel thief. His first endeavor proves comical. Automatic sprinklers drench him as he approaches the house. His well-practiced glass cutting routine results in the entire window shattering. Despite the hiccups, his break-in proves successful. Besides loot, he purloins information he uses to blackmail the house's owner into introducing him to high society.
+What a pleasant surprise. O'Neal charms as a man who “decided only some of the rules apply,” and opts to make his own. His first robbery proves comical. Automatic sprinklers drench him as he approaches the house. His well-practiced glass cutting routine results in the entire window shattering. Despite the hiccups, his break-in proves successful. Besides loot, he purloins information he uses to blackmail the house's owner into introducing him to high society.
 
 Now O'Neal is mingling with the very people he's planning to rob. He's a gentleman thief ala Cary Grant in <span data-imdb-id="tt0048728">_To Catch a Thief_</span> and meets his Grace Kelly in the form of Jacqueline Bisset, who plays an heiress living in an empty rundown estate she can't sell or afford.
 
