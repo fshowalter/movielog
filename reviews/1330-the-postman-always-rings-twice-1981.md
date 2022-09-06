@@ -9,7 +9,7 @@ venue: HBO Max
 venue_notes:
 ---
 
-**David Mamet’s feature debut.** Not a remake of <span data-imdb-id="tt0038854">the 1946 Lana Turner film</span>, but another adaptation of James M. Cain’s novel. Jack Nicholson plays Frank Chambers, an opportunistic drifter who hires on at a rural luncheonette with his eye on the owner’s wife Cora, played by Jessica Lange. The two begin a torrid affair and soon they’re plotting to off her husband. **Spoilers follow.**
+**David Mamet’s screenwriting debut.** Not a remake of <span data-imdb-id="tt0038854">the 1946 Lana Turner film</span>, but another adaptation of James M. Cain’s novel. Jack Nicholson plays Frank, an opportunistic drifter who hires on at a rural luncheonette with his eye on the owner’s wife Cora, played by Jessica Lange. The two begin a torrid affair and soon they’re plotting to off her husband. **Spoilers follow.**
 
 <!-- end -->
 
