@@ -6,7 +6,7 @@ title: One-Armed Boxer (1972)
 grade: B+
 slug: one-armed-boxer-1972
 venue: Blu-ray
-venue_notes:
+venue_notes: Arrow, 2022
 ---
 
 A crooked martial arts school recruits a cadre of specialist fighters to massacre a rival school. Jimmy Wang Yu plays the titular boxer, who escapes the massacre but not before losing his right arm. After convalescing, Wang Yu takes a mysterious elixir that grants his remaining arm superhuman strength. He then sets out for revenge.
