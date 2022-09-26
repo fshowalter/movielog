@@ -3,7 +3,7 @@ sequence: 1338
 date: 2022-09-05
 imdb_id: tt0040876
 title: The Three Musketeers (1948)
-grade: D+
+grade: D
 slug: the-three-musketeers-1948
 venue: Watch TCM
 venue_notes:
@@ -13,7 +13,7 @@ You know the story, but the casting will surprise you. Gene Kelly plays D’Arta
 
 <!-- end -->
 
-Though Kelly shines in the choreographed sword fights, these only amount to about fifteen minutes of the two-hour-plus running time. The rest of the time he struggles. Putting aside the absurdity of his playing a Frenchman, the script tries to play to his strengths. It shoehorns in several scenes of physical comedy, including one that sees him braying like a Tex Avery cartoon upon espying June Allyson. These scenes fall flat. Kelly has the physical talent, but lacks the timing and charm to make them feel organic. Even worse, these silly bits undermine the film’s attempt at genuine pathos later.
+Though Kelly shines in the choreographed sword fights, of the two-hour-plus running time these scenes amount to about fifteen minutes. The rest of the time he struggles. Putting aside the absurdity of his playing a Frenchman, the script tries to play to his strengths. It shoehorns in several scenes of physical comedy, including one that sees him braying like a Tex Avery cartoon upon espying June Allyson. These scenes fall flat. Kelly has the physical talent, but lacks the timing and charm to make them feel organic. Even worse, these silly bits undermine the film’s attempt at genuine pathos later.
 
 And that’s the other big problem. This feels like two films grafted together, one a comedy-adventure full of pratfalls and comedic duels, and another, darker melodrama with political intrigue and brutal murders. These darker bits seem to exist only to give top-billed Lana Turner something to do capped with a showy monologue. One wonders if the script began more even-toned, and if either Kelly or Turner’s casting triggered rewrites.
 
