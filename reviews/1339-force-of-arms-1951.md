@@ -13,6 +13,6 @@ William Holden plays an infantry Sergeant in Italy during World War II. He falls
 
 <!-- end -->
 
-Holden and Olsen are fine and director Michael Curtiz lends the battlefield scenes a dirty verisimilitude. But the ample amount of spliced stock footage and underdressed sets betray an undersized budget. During one scene, Holden and Olsen drink at a table in front of a large mural of the Naples cityscape. Except it's not meant to be a mural, but the actual cityscape, and it's not fooling anyone. Such moments of obvious artifice detract from what's otherwise a solid melodrama.
+Holden and Olson are fine and director Michael Curtiz lends the battlefield scenes a dirty verisimilitude. But the ample amount of spliced stock footage and underdressed sets betray an undersized budget. During one scene, Holden and Olsen drink at a table in front of a large mural of the Naples cityscape. Except it's not meant to be a mural, but the actual cityscape, and it's not fooling anyone. Such moments of obvious artifice detract from what's otherwise a solid melodrama.
 
 The Watch TCM stream appears upscaled from a standard definition source bearing the 1954 re-release title _A Girl for Joe_.
