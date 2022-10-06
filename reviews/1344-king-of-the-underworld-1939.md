@@ -9,7 +9,9 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Kay Francis plays a doctor in danger of losing her license after her fellow doctor husband dies during a police raid where it’s discovered he’s been a criminal gang lead by Humphrey Bogart and getting well paid for it.
+Kay Francis plays a doctor in danger of losing her license after her fellow doctor husband dies during a police raid where it’s discovered he’s been aiding a criminal gang lead by Humphrey Bogart and getting well paid for it.
+
+<!-- end -->
 
 Determined to clear her name, Francis moves out to the country where it’s believed Bogart’s hiding out. James Stephenson plays a wandering intellectual who Bogart ropes into ghost-writing his autobiography. Soon Bogart’s injured during a robbery and shows up at Francis’s door looking for help. She ingratiates herself but soon springs a trap.
 
