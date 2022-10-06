@@ -79,7 +79,8 @@ def fetch_rows(credit_table: str, credit_table_key: str) -> list[Row]:
             INNER JOIN watchlist ON reviews.movie_imdb_id = watchlist.movie_imdb_id
             GROUP BY {1}
         ) AS watchlist ON watchlist.{1} = person_imdb_id
-        WHERE {2}
+        WHERE
+            notes != "(archiveFootage)" AND notes != "(scenesDeleted)" AND {2}
         GROUP BY
             viewing_sequence
             , person_imdb_id
