@@ -27,12 +27,12 @@ Joan Leslie surprised me as Velma. When Earle first asks her outside and she rea
 
 But later, after Earle forks over a chunk of dough for her surgery, she transforms into a hedonistic terror. Breaking our hearts and Earle’s. Lupino shines here. She enters the scene determined to sabotage her rival, but when she sees Earle’s despair, her demeanor changes and Lupino conveys volumes of empathy without saying a word.
 
-In the car after, she says, “You don’t love her anymore, do you?”
+But she's not above needling him. In the car after, she says, “You don’t love her anymore, do you?”
 
-“No,” Earl replies. “If you weren’t sure you wouldn’t have asked me.”
+“No,” Earl replies, aware of her motive. “If you weren’t sure you wouldn’t have asked me.”
 
 As mentioned, the robbery goes bad. Earle and Marie escape with the loot, but must wait to convert the jewels to cash. They hide out, but are soon at each other’s throats. The blanket press coverage leads to their discovery and Earle puts Marie on a bus to Vegas.
 
-Roadblocks force Earle to flee into the mountains, the cops in pursuit. In a memorable scene, we see his car winding up a twisty mountain road. Without cutting, the camera pans back and tilts down and we see the cops heading up the same road, hot on Earle’s tail. He holes up at the base of Mount Whitney, locked in a standoff with a growing crowd of police and reporters.
+Roadblocks force Earle to flee into the mountains, the cops in pursuit. In a memorable shot, we see his car winding up a twisty mountain road. Without cutting, the camera pans back and tilts down and we see the cops heading up the same road, hot on Earle’s tail. He holes up at the base of Mount Whitney, locked in a standoff with a growing crowd of police and reporters.
 
-The ending sees Lupino wailing with weepy violins swelling on the soundtrack. Perhaps director Raoul Walsh couldn’t resist, but I suspect the film would have packed a bigger punch with a quieter ending.
+The ending sees Lupino wailing with weepy violins swelling on the soundtrack. Perhaps director Raoul Walsh couldn’t resist, but I suspect a quieter ending would have packed a bigger punch.
