@@ -9,7 +9,7 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Robert Mitchum plays a veteran working as a temporary salesman during the Christmas season in the toy department of a bustling New York City department store. Janet Leigh pushes her way through the crowd to purchase an expensive—around a thousand dollars in today's money—train set. When she returns the next day for a refund, Mitchum pegs her for a comparison shopper. But upon learning she's a war widow with an elementary-school aged son, instead of reporting her, he invites her to lunch.
+Robert Mitchum plays a veteran working as a temporary salesman during the Christmas season in the toy department of a bustling New York City department store. Janet Leigh pushes her way through the crowd to purchase an expensive—around a thousand dollars in today's money—train set. When she returns the next day for a refund, Mitchum pegs her for a comparison shopper. But upon learning she's a war widow supporting an elementary-school aged son, instead of reporting her, he invites her to lunch.
 
 <!-- end -->
 
