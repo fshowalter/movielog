@@ -3,7 +3,7 @@ sequence: 1354
 date: 2022-09-17
 imdb_id: tt0027698
 title: The Great Ziegfeld (1936)
-grade: D+
+grade: D
 slug: the-great-ziegfeld-1936
 venue: Watch TCM
 venue_notes:
