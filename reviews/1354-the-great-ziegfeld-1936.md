@@ -9,7 +9,7 @@ venue: Watch TCM
 venue_notes:
 ---
 
-William Powell stars as famed impresario Florenz Ziegfeld. The film traces his career from sideshow barker to Broadway mogul, at one point having four hits at once, only to die broke after losing everything in the crash of 29.
+William Powell stars as famed impresario Florenz Ziegfeld. The film traces his career from sideshow barker to Broadway mogul, at one point having four hits at once, only to die broke after losing everything in the crash of '29.
 
 <!-- end -->
 
