@@ -20,7 +20,7 @@ jobs:
           python-version: 3.9
 
       - name: cache python environment
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -48,7 +48,7 @@ jobs:
           python-version: 3.9
 
       - name: cache python environment
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -73,7 +73,7 @@ jobs:
           python-version: 3.9
 
       - name: cache python environment
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -103,7 +103,7 @@ jobs:
           python-version: 3.9
 
       - name: cache python environment
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
