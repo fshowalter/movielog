@@ -9,13 +9,13 @@ venue: Watch TCM
 venue_notes:
 ---
 
-Joan Crawford plays a spoiled French heiress hiding a downed American pilot played by John Wayne from the Nazis in occupied Paris.
+Joan Crawford plays a French heiress hiding a downed American pilot played by John Wayne from the Nazis in occupied Paris.
 
 <!-- end -->
 
-_Reunion in France_ proves a chore from the start. Crawford stomps around with the entitled indifference of a spoiled brat, unable to grasp why she can't have her silks delivered via diplomatic pouch. Her insolence toward the occupying Nazis feels naïve at best and disingenuous at worst.
+Crawford opens the film stomping around with the entitled indifference of a spoiled brat, unable to grasp why she can't have her silks delivered via diplomatic pouch. Her insolence toward the occupying Nazis feels naïve at best and disingenuous at worst.
 
-She makes no attempt at a French accent. I kept expecting the film to explain this away, until the Germans also show up sporting American accents. At least John Carradine convinces as head of the local Gestapo.
+She makes no attempt at a French accent. I kept expecting the film to explain this away, until the Germans show up also sporting American accents. At least John Carradine convinces as head of the local Gestapo.
 
 Forty-one-minutes in, John Wayne appears. He's wasted, with nothing to do, save play damsel in distress. Meanwhile, the script pushes an idiot plot with Crawford and her fiancé who may or may not be in league with the Nazis. Romance blooms between Wayne and Crawford. He calls her Mike like Bogart would Lizabeth Scott in <span data-imdb-id="tt0039305">_Dead Reckoning_</span>. Am I missing a cultural reference?
 
