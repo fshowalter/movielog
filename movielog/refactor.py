@@ -4,11 +4,15 @@ import datetime
 import json
 import os
 import re
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from glob import glob
 from typing import Any, Optional, Sequence, TypedDict, cast
 
 import yaml
+from slugify import slugify
+
+from movielog.utils import path_tools
+from movielog.utils.logging import logger
 
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
@@ -29,6 +33,24 @@ class ReviewYaml(TypedDict):
     slug: str
     venue: str
     venue_notes: Optional[str]
+
+
+class NewReviewYaml(TypedDict):
+    date: datetime.date
+    imdb_id: str
+    title: str
+    grade: str
+    slug: str
+
+
+@dataclass
+class NewReview(object):
+    imdb_id: str
+    title: str
+    date: datetime.date
+    grade: str
+    slug: str
+    review_content: Optional[str] = None
 
 
 @dataclass
@@ -116,13 +138,12 @@ class JsonViewing(TypedDict):
 @dataclass
 class NewJsonViewing(object):
     sequence: int
-    date: str
+    date: datetime.date
     imdb_id: str
-    title: str
-    venue: str
-    source: str
-    source_notes: str
-    viewing_notes: str
+    slug: str
+    venue: Optional[str]
+    medium: Optional[str]
+    medium_notes: Optional[str]
 
 
 def deserialize_viewing(file_path: str) -> Viewing:
@@ -146,6 +167,180 @@ def deserialize_all_viewings() -> Sequence[Viewing]:
     return [deserialize_viewing(file_path) for file_path in sorted(file_paths)]
 
 
+def venue_for_review(review: Review) -> Optional[str]:
+    if review.venue in ("Prince Charles Cinema"):
+        return review.venue
+
+    return None
+
+
+def medium_for_review(review: Review) -> str:
+    if review.venue in ("Prince Charles Cinema"):
+        return "35mm"
+
+    return review.venue
+
+
+def venue_for_viewing(viewing: Viewing) -> Optional[str]:
+    if viewing.venue in {
+        "AFI Silver",
+        "Alamo Drafthouse Cinema - One Loudoun",
+        "Alamo Drafthouse Cinema - Winchester",
+        "Alamo Drafthouse Cinema - Woodbridge",
+        "Alamo On Demand",
+        "AMC Tysons Corner 16",
+        "Angelika Film Center Mosaic",
+        "Landmark E Street Cinema",
+        "Prince Charles Cinema",
+        "Sun &amp; Surf Cinema",
+        "The Black Cat",
+    }:
+        return viewing.venue
+
+    return None
+
+
+def medium_for_viewing(viewing: Viewing) -> Optional[str]:
+    if viewing.venue in {
+        "4k UHD Blu-ray",
+        "Alamo On Demand",
+        "Amazon",
+        "archive.org",
+        "Arrow Player",
+        "Arte",
+        "Blu-ray",
+        "Criterion Channel",
+        "Disney+",
+        "DVD",
+        "Encore HD",
+        "FandangoNOW",
+        "FXM",
+        "HBO GO",
+        "HBO HD",
+        "HBO Max",
+        "HDNet",
+        "Hoopla",
+        "Hulu",
+        "iTunes",
+        "Kanopy",
+        "Netflix",
+        "OK.ru",
+        "Shudder",
+        "TCM",
+        "TCM HD",
+        "VHS-rip",
+        "Vudu",
+        "Watch TCM",
+        "YouTube",
+    }:
+        return viewing.venue
+
+    return None
+
+
+def generate_viewing_file_path(viewing: NewJsonViewing) -> str:
+    file_name = slugify(
+        "{0:04d} {1}".format(viewing.sequence, viewing.slug),
+    )
+
+    file_path = os.path.join("viewings_test", "{0}.json".format(file_name))
+
+    path_tools.ensure_file_path(file_path)
+
+    return file_path
+
+
+def generate_review_file_path(review: NewReview) -> str:
+    file_path = os.path.join("reviews_test", "{0}.md".format(review.slug))
+
+    path_tools.ensure_file_path(file_path)
+
+    return file_path
+
+
+def serialize_viewing(viewing: NewJsonViewing) -> str:
+    file_path = generate_viewing_file_path(viewing)
+
+    with open(file_path, "w") as output_file:
+        json.dump(asdict(viewing), output_file, indent=4, default=str)
+
+    return file_path
+
+
+def generate_new_review_yaml(review: NewReview) -> NewReviewYaml:
+    return NewReviewYaml(
+        date=review.date,
+        imdb_id=review.imdb_id,
+        title=review.title,
+        grade=review.grade,
+        slug=review.slug,
+    )
+
+
+def serialize_review(review: NewReview) -> str:
+    file_path = generate_review_file_path(review)
+
+    stripped_content = str(review.review_content or "").strip()
+
+    with open(file_path, "w") as output_file:
+        output_file.write("---\n")
+        yaml.dump(
+            generate_new_review_yaml(review),
+            encoding="utf-8",
+            allow_unicode=True,
+            default_flow_style=False,
+            sort_keys=False,
+            stream=output_file,
+        )
+        output_file.write("---\n\n")
+        output_file.write(stripped_content)
+
+    return file_path
+
+
 if __name__ == "__main__":
     reviews = deserialize_all_reviews()
     viewings = deserialize_all_viewings()
+
+    for review in reviews:
+
+        new_viewing = NewJsonViewing(
+            sequence=review.sequence,
+            date=review.date,
+            imdb_id=review.imdb_id,
+            slug=review.slug,
+            venue=venue_for_review(review),
+            medium=medium_for_review(review),
+            medium_notes=review.venue_notes,
+        )
+
+        serialize_viewing(new_viewing)
+
+        new_review = NewReview(
+            date=review.date,
+            imdb_id=review.imdb_id,
+            title=review.title,
+            grade=review.grade,
+            review_content=review.review_content,
+            slug=review.slug,
+        )
+
+        if os.path.exists(generate_review_file_path(new_review)):
+            logger.log("Duplicate review: {0}-{1}", review.sequence, review.slug)
+        else:
+            serialize_review(new_review)
+
+    for viewing in viewings:
+        viewing_slug = slugify(viewing.title, replacements=[("'", "")])
+
+        new_viewing = NewJsonViewing(
+            sequence=viewing.sequence,
+            date=viewing.date,
+            imdb_id=viewing.imdb_id,
+            slug=viewing_slug,
+            venue=venue_for_viewing(viewing),
+            medium=medium_for_viewing(viewing),
+            medium_notes=None,
+        )
+
+        serialize_viewing(new_viewing)

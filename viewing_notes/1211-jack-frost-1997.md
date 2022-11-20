@@ -1,0 +1,1 @@
+**My appreciation grows.** I thought this played like a straight slasher with a snowman killer, but it proves more self aware. The cast deadpans the entire way, save Scott MacDonald, who relishes playing a schlock movie monster.

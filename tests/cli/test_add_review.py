@@ -4,7 +4,7 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog.cli import add_review
+from movielog.cli import add_viewing
 from movielog.moviedata.core import movies_table, people_table
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Backspace, Down, End, Enter, Escape
@@ -128,7 +128,7 @@ def test_calls_add_review(mock_input: MockInput, mock_create_review: MagicMock) 
         ]
     )
 
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -167,7 +167,7 @@ def test_can_confirm_movie(
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -183,7 +183,7 @@ def test_does_not_call_add_review_if_no_movie(
     mock_input: MockInput, mock_create_review: MagicMock
 ) -> None:
     mock_input([Escape])
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_not_called()
 
@@ -192,7 +192,7 @@ def test_does_not_call_add_review_if_no_date(
     mock_input: MockInput, mock_create_review: MagicMock
 ) -> None:
     mock_input(["Rio Bravo", Enter, Down, Enter, "y", Escape, Escape])
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_not_called()
 
@@ -220,7 +220,7 @@ def test_does_not_call_add_review_if_no_grade(
             Escape,
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_not_called()
 
@@ -250,7 +250,7 @@ def test_can_confirm_grade(
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -287,7 +287,7 @@ def test_guards_against_bad_dates(
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -323,7 +323,7 @@ def test_can_confirm_date(mock_input: MockInput, mock_create_review: MagicMock) 
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -358,7 +358,7 @@ def test_can_add_new_venue(
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -398,7 +398,7 @@ def test_can_confirm_new_venue(
             "y",
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_called_once_with(
         imdb_id="tt0053221",
@@ -430,6 +430,6 @@ def test_does_not_call_add_review_if_no_venue(
             Escape,
         ]
     )
-    add_review.prompt()
+    add_viewing.prompt()
 
     mock_create_review.assert_not_called()

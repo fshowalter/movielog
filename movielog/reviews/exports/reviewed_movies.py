@@ -24,6 +24,8 @@ class ReviewedMovie(TypedDict, total=False):
     countries: list[str]
     original_title: Optional[str]
     principal_cast_ids: str
+    grade: str
+    grade_value: int
 
 
 def fetch_reviewed_movies() -> list[ReviewedMovie]:
@@ -38,6 +40,8 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
         , sort_title
         , principal_cast_ids
         , runtime_minutes
+        , grade
+        , grade_value
         FROM reviews
         INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
         INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
@@ -60,6 +64,8 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
             director_names=[],
             principal_cast_names=[],
             countries=[],
+            grade=row["grade"],
+            grade_value=row["grade_value"],
         )
         for row in db.fetch_all(query)
     ]

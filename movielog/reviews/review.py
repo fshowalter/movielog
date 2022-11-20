@@ -5,29 +5,27 @@ from typing import Optional
 
 @dataclass
 class Review(object):
-    sequence: int
     imdb_id: str
-    title: str
+    slug: str
     date: date
     grade: str
-    venue: str
-    slug: str
-    venue_notes: Optional[str] = None
     review_content: Optional[str] = None
 
     @property
-    def grade_value(self) -> float:
-        value_modifier = 0.33
+    def grade_value(self) -> Optional[int]:
+        if not self.grade:
+            return None
+
+        value_modifier = 1
 
         grade_map = {
-            "A": 5.0,
-            "B": 4.0,
-            "C": 3.0,
-            "D": 2.0,
-            "F": 1.0,
+            "A": 12,
+            "B": 9,
+            "C": 6,
+            "D": 3,
         }
 
-        grade_value = grade_map.get(self.grade[0], 3)
+        grade_value = grade_map.get(self.grade[0], 1)
         modifier = self.grade[-1]
 
         if modifier == "+":

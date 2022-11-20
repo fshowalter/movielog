@@ -30,7 +30,6 @@ def fetch_underseen_gems() -> list[Movie]:
         , sort_title
         , grade
         , release_date
-        , max(sequence)
         FROM reviews
         INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
         INNER JOIN release_dates ON reviews.movie_imdb_id = release_dates.movie_imdb_id
