@@ -1,12 +1,12 @@
 from movielog import api as movielog_api
-from movielog.cli import add_review, confirm, imdb, manage_watchlist, radio_list
+from movielog.cli import add_viewing, confirm, imdb, manage_watchlist, radio_list
 from movielog.utils.logging import logger
 
 
 @logger.catch
 def prompt() -> None:
     options = [
-        (add_review.prompt, "<cyan>Add Review</cyan>"),
+        (add_viewing.prompt, "<cyan>Add Viewing</cyan>"),
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (imdb.prompt, "<cyan>IMDb</cyan>"),
         (export, "<cyan>Export Data</cyan>"),

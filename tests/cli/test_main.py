@@ -9,8 +9,8 @@ from tests.cli.keys import ControlD, Down, End, Enter, Up
 
 
 @pytest.fixture(autouse=True)
-def mock_add_review(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.main.add_review.prompt")
+def mock_add_viewing(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.main.add_viewing.prompt")
 
 
 @pytest.fixture(autouse=True)
@@ -28,11 +28,11 @@ def mock_export_data(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.cli.main.movielog_api.export_data")
 
 
-def test_calls_add_viewing(mock_input: MockInput, mock_add_review: MagicMock) -> None:
+def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input([Enter, ControlD])
     main.prompt()
 
-    mock_add_review.assert_called_once()
+    mock_add_viewing.assert_called_once()
 
 
 def test_calls_manage_watchlist(

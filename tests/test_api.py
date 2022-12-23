@@ -12,6 +12,11 @@ def reviews_export_mock(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
+def viewings_export_mock(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.api.viewings_api.export_data")
+
+
+@pytest.fixture(autouse=True)
 def watchlist_export_mock(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.api.watchlist_api.export_data")
 
@@ -24,7 +29,7 @@ def update_extended_data_mock(mocker: MockerFixture) -> MagicMock:
 @pytest.fixture(autouse=True)
 def mock_review_movie_ids(mocker: MockerFixture) -> MagicMock:
     return mocker.patch(
-        "movielog.api.reviews_api.movie_ids",
+        "movielog.api.viewings_api.movie_ids",
         return_value=set(["tt0053221", "tt0038355", "tt0089175"]),
     )
 

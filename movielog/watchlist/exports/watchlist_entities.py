@@ -9,21 +9,26 @@ from movielog.utils.logging import logger
 JOEL_COEN_IMDB_ID = "nm0001054"
 
 
-class PersonStats(TypedDict):
-    imdb_id: str
-    name: str
-    slug: str
-    title_count: int
-    review_count: int
-    entity_type: str
+PersonStats = TypedDict(
+    "PersonStats",
+    {
+        "imdbId": str,
+        "name": str,
+        "slug": str,
+        "titleCount": int,
+        "entityType": str,
+    },
+)
 
-
-class CollectionStats(TypedDict):
-    name: str
-    slug: str
-    title_count: int
-    review_count: int
-    entity_type: str
+CollectionStats = TypedDict(
+    "CollectionStats",
+    {
+        "name": str,
+        "slug": str,
+        "titleCount": int,
+        "entityType": str,
+    },
+)
 
 
 def _fetch_collection_stats() -> Sequence[CollectionStats]:
@@ -31,11 +36,9 @@ def _fetch_collection_stats() -> Sequence[CollectionStats]:
         SELECT
             collection_name AS 'name'
             , count(movies.imdb_id) AS 'title_count'
-            , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
             , watchlist.slug
         FROM watchlist
         LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
-        LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
         WHERE collection_name IS NOT NULL
         GROUP BY
             collection_name
@@ -47,9 +50,8 @@ def _fetch_collection_stats() -> Sequence[CollectionStats]:
         CollectionStats(
             name=row["name"],
             slug=row["slug"],
-            title_count=row["title_count"],
-            review_count=row["review_count"],
-            entity_type="collection",
+            titleCount=row["title_count"],
+            entityType="collection",
         )
         for row in db.fetch_all(query)
     ]
@@ -61,11 +63,9 @@ def _fetch_person_stats(person_type: str) -> Sequence[PersonStats]:
             {0}s.imdb_id AS 'imdb_id'
         , {0}s.full_name AS 'name'
         , count(movies.imdb_id) AS 'title_count'
-        , count(DISTINCT(reviews.movie_imdb_id)) AS 'review_count'
         , watchlist.slug
         FROM watchlist
         LEFT JOIN movies ON watchlist.movie_imdb_id = movies.imdb_id
-        LEFT JOIN reviews ON reviews.movie_imdb_id = watchlist.movie_imdb_id
         LEFT JOIN people AS {0}s ON {0}_imdb_id = {0}s.imdb_id
         WHERE {0}_imdb_id IS NOT NULL
         GROUP BY
@@ -83,12 +83,11 @@ def _fetch_person_stats(person_type: str) -> Sequence[PersonStats]:
 
         person_stats.append(
             PersonStats(
-                imdb_id=row["imdb_id"],
+                imdbId=row["imdb_id"],
                 name=name,
                 slug=row["slug"],
-                title_count=row["title_count"],
-                review_count=row["review_count"],
-                entity_type=person_type,
+                titleCount=row["title_count"],
+                entityType=person_type,
             )
         )
 

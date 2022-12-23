@@ -4,10 +4,9 @@ import datetime
 import os
 import re
 from glob import glob
-from typing import Any, Optional, Sequence, TypedDict, cast
+from typing import Any, Sequence, TypedDict, cast
 
 import yaml
-from slugify import slugify
 
 from movielog.reviews.review import Review
 from movielog.utils import path_tools
@@ -26,14 +25,10 @@ yaml.add_representer(type(None), represent_none)
 
 
 class ReviewYaml(TypedDict):
-    sequence: int
     date: datetime.date
     imdb_id: str
-    title: str
     grade: str
     slug: str
-    venue: str
-    venue_notes: Optional[str]
 
 
 def deserialize(file_path: str) -> Review:
@@ -45,12 +40,8 @@ def deserialize(file_path: str) -> Review:
     return Review(
         date=review_yaml["date"],
         grade=review_yaml["grade"],
-        title=review_yaml["title"],
         imdb_id=review_yaml["imdb_id"],
-        sequence=review_yaml["sequence"],
         slug=review_yaml["slug"],
-        venue=review_yaml["venue"],
-        venue_notes=review_yaml["venue_notes"],
         review_content=review_content,
     )
 
@@ -60,17 +51,13 @@ def deserialize_all() -> Sequence[Review]:
     for review_file_path in glob(os.path.join(FOLDER_NAME, "*.md")):
         reviews.append(deserialize(review_file_path))
 
-    reviews.sort(key=lambda review: review.sequence)
+    reviews.sort(key=lambda review: review.slug)
 
     return reviews
 
 
 def generate_file_path(review: Review) -> str:
-    file_name = slugify(
-        "{0:04d} {1}".format(review.sequence, review.slug),
-    )
-
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
+    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(review.slug))
 
     path_tools.ensure_file_path(file_path)
 
@@ -79,14 +66,10 @@ def generate_file_path(review: Review) -> str:
 
 def generate_yaml(review: Review) -> ReviewYaml:
     return ReviewYaml(
-        sequence=review.sequence,
         date=review.date,
         imdb_id=review.imdb_id,
-        title=review.title,
         grade=review.grade,
         slug=review.slug,
-        venue=review.venue,
-        venue_notes=review.venue_notes,
     )
 
 

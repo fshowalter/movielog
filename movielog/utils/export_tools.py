@@ -47,3 +47,24 @@ def serialize_dataclasses_to_folder(
             file_name,
             format_tools.pretty_file_size(os.path.getsize(file_name)),
         )
+
+
+def serialize_dicts_to_folder(
+    dicts: Iterable[DictType],
+    folder_name: str,
+    filename_key: Callable[[DictType], str],
+) -> None:
+    folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
+    os.makedirs(folder_path, exist_ok=True)
+
+    for dict_to_serialize in dicts:
+        file_name = os.path.join(
+            folder_path, "{0}.json".format(filename_key(dict_to_serialize))
+        )
+        with open(file_name, "w") as output_file:
+            output_file.write(json.dumps(dict_to_serialize, default=str, indent=""))
+        logger.log(
+            "Wrote {} ({}).",
+            file_name,
+            format_tools.pretty_file_size(os.path.getsize(file_name)),
+        )

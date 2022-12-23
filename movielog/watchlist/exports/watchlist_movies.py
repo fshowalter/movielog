@@ -9,17 +9,20 @@ from movielog.utils.logging import logger
 
 JOEL_COEN_IMDB_ID = "nm0001054"
 
-
-class Movie(TypedDict):
-    imdb_id: str
-    title: str
-    year: str
-    sort_title: str
-    release_date: date
-    director_imdb_ids: list[str]
-    performer_imdb_ids: list[str]
-    writer_imdb_ids: list[str]
-    collection_names: list[str]
+Movie = TypedDict(
+    "Movie",
+    {
+        "imdbId": str,
+        "title": str,
+        "year": str,
+        "sortTitle": str,
+        "releaseDate": date,
+        "directorImdbIds": list[str],
+        "performerImdbIds": list[str],
+        "writerImdbIds": list[str],
+        "collectionNames": list[str],
+    },
+)
 
 
 class Row(TypedDict):
@@ -63,28 +66,28 @@ def export() -> None:
         movie = movies.setdefault(
             row["imdb_id"],
             Movie(
-                imdb_id=row["imdb_id"],
+                imdbId=row["imdb_id"],
                 title=row["title"],
                 year=row["year"],
-                sort_title=row["sort_title"],
-                release_date=row["release_date"],
-                director_imdb_ids=[],
-                performer_imdb_ids=[],
-                writer_imdb_ids=[],
-                collection_names=[],
+                sortTitle=row["sort_title"],
+                releaseDate=row["release_date"],
+                directorImdbIds=[],
+                performerImdbIds=[],
+                writerImdbIds=[],
+                collectionNames=[],
             ),
         )
 
         if row["director_imdb_id"]:
-            movie["director_imdb_ids"].append(row["director_imdb_id"])
+            movie["directorImdbIds"].append(row["director_imdb_id"])
 
         if row["performer_imdb_id"]:
-            movie["performer_imdb_ids"].append(row["performer_imdb_id"])
+            movie["performerImdbIds"].append(row["performer_imdb_id"])
 
         if row["writer_imdb_id"]:
-            movie["writer_imdb_ids"].append(row["writer_imdb_id"])
+            movie["writerImdbIds"].append(row["writer_imdb_id"])
 
         if row["collection_name"]:
-            movie["collection_names"].append(row["collection_name"])
+            movie["collectionNames"].append(row["collection_name"])
 
     export_tools.serialize_dicts(list(movies.values()), "watchlist_movies")

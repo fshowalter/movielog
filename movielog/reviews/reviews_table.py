@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Protocol, Sequence, TypedDict
+from typing import Optional, Protocol, Sequence, TypedDict
 
 from movielog import db
 
@@ -9,39 +9,33 @@ CREATE_DDL = """
   "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
   "movie_imdb_id" TEXT NOT NULL REFERENCES movies(imdb_id) DEFERRABLE INITIALLY DEFERRED,
   "date" DATE NOT NULL,
-  "sequence" INT NOT NULL,
   "grade" TEXT NOT NULL,
   "grade_value" INT NOT NULL,
-  "slug" TEXT NOT NULL,
-  "venue" TEXT NOT NULL
+  "slug" TEXT NOT NULL
 """
 
 INSERT_DDL = """
-  INSERT INTO {0}(movie_imdb_id, date, sequence, grade, grade_value, slug, venue)
-    VALUES(:movie_imdb_id, :date, :sequence, :grade, :grade_value, :slug, :venue);
+  INSERT INTO {0}(movie_imdb_id, date, grade, grade_value, slug)
+    VALUES(:movie_imdb_id, :date, :grade, :grade_value, :slug);
 """
 
 
 class Row(TypedDict):
     movie_imdb_id: str
     date: date
-    sequence: int
     grade: str
-    grade_value: float
+    grade_value: Optional[int]
     slug: str
-    venue: str
 
 
 class Review(Protocol):
-    sequence: int
     imdb_id: str
     date: date
     grade: str
-    venue: str
     slug: str
 
     @property
-    def grade_value(self) -> float:
+    def grade_value(self) -> Optional[int]:
         """MyPy needs this to recognize the prop."""
 
 
@@ -65,11 +59,9 @@ def update(reviews: Sequence[Review]) -> None:
             Row(
                 movie_imdb_id=review.imdb_id,
                 date=review.date,
-                sequence=review.sequence,
                 grade=review.grade,
                 grade_value=review.grade_value,
                 slug=review.slug,
-                venue=review.venue,
             )
             for review in reviews
         ]
