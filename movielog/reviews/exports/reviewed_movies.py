@@ -6,26 +6,31 @@ from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
+Person = TypedDict(
+    "Person",
+    {"fullName": str},
+)
 
-class Person(TypedDict):
-    full_name: str
 
-
-class ReviewedMovie(TypedDict, total=False):
-    imdb_id: str
-    title: str
-    year: int
-    release_date: str
-    slug: str
-    sort_title: str
-    runtime_minutes: int
-    director_names: list[str]
-    principal_cast_names: list[str]
-    countries: list[str]
-    original_title: Optional[str]
-    principal_cast_ids: str
-    grade: str
-    grade_value: int
+ReviewedMovie = TypedDict(
+    "ReviewedMovie",
+    {
+        "imdbId": str,
+        "title": str,
+        "year": int,
+        "releaseDate": str,
+        "slug": str,
+        "sortTitle": str,
+        "runtimeMinutes": int,
+        "directorNames": list[str],
+        "principalCastNames": list[str],
+        "countries": list[str],
+        "originalTitle": Optional[str],
+        "principalCastIds": str,
+        "grade": str,
+        "gradeValue": int,
+    },
+)
 
 
 def fetch_reviewed_movies() -> list[ReviewedMovie]:
@@ -52,20 +57,20 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
 
     return [
         ReviewedMovie(
-            imdb_id=row["imdb_id"],
+            imdbId=row["imdb_id"],
             title=row["title"],
-            original_title=row["original_title"],
+            originalTitle=row["original_title"],
             year=row["year"],
-            release_date=row["release_date"],
+            releaseDate=row["release_date"],
             slug=row["slug"],
-            sort_title=row["sort_title"],
-            principal_cast_ids=row["principal_cast_ids"],
-            runtime_minutes=row["runtime_minutes"],
-            director_names=[],
-            principal_cast_names=[],
+            sortTitle=row["sort_title"],
+            principalCastIds=row["principal_cast_ids"],
+            runtimeMinutes=row["runtime_minutes"],
+            directorNames=[],
+            principalCastNames=[],
             countries=[],
             grade=row["grade"],
-            grade_value=row["grade_value"],
+            gradeValue=row["grade_value"],
         )
         for row in db.fetch_all(query)
     ]
@@ -81,7 +86,7 @@ def fetch_directors(reviewed_movie: ReviewedMovie) -> list[str]:
     """
 
     return db.fetch_all(
-        query.format(reviewed_movie["imdb_id"]), lambda cursor, row: row[0]
+        query.format(reviewed_movie["imdbId"]), lambda cursor, row: row[0]
     )
 
 
@@ -94,13 +99,13 @@ def fetch_countries(reviewed_movie: ReviewedMovie) -> list[str]:
     """
 
     return db.fetch_all(
-        query.format(reviewed_movie["imdb_id"]), lambda cursor, row: row[0]
+        query.format(reviewed_movie["imdbId"]), lambda cursor, row: row[0]
     )
 
 
 def update_original_title(reviewed_movie: ReviewedMovie) -> None:
-    if reviewed_movie["original_title"] == reviewed_movie["title"]:
-        reviewed_movie["original_title"] = None
+    if reviewed_movie["originalTitle"] == reviewed_movie["title"]:
+        reviewed_movie["originalTitle"] = None
 
 
 def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[str]:
@@ -113,7 +118,7 @@ def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[str]:
 
     principal_cast = []
 
-    for principal_cast_id in reviewed_movie["principal_cast_ids"].split(","):
+    for principal_cast_id in reviewed_movie["principalCastIds"].split(","):
         principal_cast.extend(
             db.fetch_all(query.format(principal_cast_id), lambda cursor, row: row[0])
         )
@@ -127,11 +132,12 @@ def export() -> None:
 
     for reviewed_movie in fetch_reviewed_movies():
         update_original_title(reviewed_movie)
-        reviewed_movie["director_names"] = fetch_directors(reviewed_movie)
-        reviewed_movie["principal_cast_names"] = fetch_principal_cast(reviewed_movie)
+        reviewed_movie["directorNames"] = fetch_directors(reviewed_movie)
+        reviewed_movie["principalCastNames"] = fetch_principal_cast(reviewed_movie)
         reviewed_movie["countries"] = fetch_countries(reviewed_movie)
-        reviewed_movie.pop("principal_cast_ids")
+        export_data = dict(reviewed_movie)
+        export_data.pop("principalCastIds")
 
-        reviewed_movies.append(reviewed_movie)
+        reviewed_movies.append(export_data)
 
     export_tools.serialize_dicts(reviewed_movies, "reviewed_movies")

@@ -8,31 +8,28 @@ from movielog.reviews.review import Review
 @pytest.mark.parametrize(
     "grade, expected_grade_value",
     [
-        ("A+", 5.33),
-        ("A", 5.0),
-        ("A-", 4.67),
-        ("B+", 4.33),
-        ("B", 4.0),
-        ("B-", 3.67),
-        ("C+", 3.33),
-        ("C", 3.0),
-        ("C-", 2.67),
-        ("D+", 2.33),
-        ("D", 2.0),
-        ("D-", 1.67),
-        ("F", 1.0),
+        ("A+", 13),
+        ("A", 12),
+        ("A-", 11),
+        ("B+", 10),
+        ("B", 9),
+        ("B-", 8),
+        ("C+", 7),
+        ("C", 6),
+        ("C-", 5),
+        ("D+", 4),
+        ("D", 3),
+        ("D-", 2),
+        ("F", 1),
     ],
 )
 def test_grade_value_accounts_for_modifers(
     grade: str, expected_grade_value: float
 ) -> None:
     review = Review(
-        sequence=1,
         grade=grade,
         imdb_id="tt0053221",
-        title="Rio Bravo",
         date=date(2017, 3, 12),
-        venue="Alamo Drafthouse",
         slug="rio-bravo-1959",
     )
 

@@ -1,11 +1,9 @@
-import datetime
 import json
 import os
 
 import pytest
 
 from movielog.moviedata.core import movies_table, people_table
-from movielog.reviews import reviews_table
 from movielog.watchlist import watchlist_table
 from movielog.watchlist.exports import watchlist_entities
 
@@ -92,20 +90,6 @@ def init_db() -> None:
         ]
     )
 
-    reviews_table.reload(
-        [
-            reviews_table.Row(
-                movie_imdb_id="tt0053221",
-                date=datetime.date(2021, 1, 29),
-                sequence=165,
-                grade="A+",
-                grade_value=5.33,
-                slug="rio-bravo-1959",
-                venue="Blu-ray",
-            )
-        ]
-    )
-
     watchlist_table.reload(
         [
             watchlist_table.Row(
@@ -179,51 +163,45 @@ def init_db() -> None:
 def test_exports_watchlist_entities(tmp_path: str) -> None:
     expected = [
         {
-            "imdb_id": "nm0001328",
+            "imdbId": "nm0001328",
             "name": "Howard Hawks",
             "slug": "howard-hawks",
-            "title_count": 2,
-            "review_count": 1,
-            "entity_type": "director",
+            "titleCount": 2,
+            "entityType": "director",
         },
         {
-            "imdb_id": "nm0001054",
+            "imdbId": "nm0001054",
             "name": "The Coen Brothers",
             "slug": "the-coen-brothers",
-            "title_count": 1,
-            "review_count": 0,
-            "entity_type": "director",
+            "titleCount": 1,
+            "entityType": "director",
         },
         {
-            "imdb_id": "nm0001509",
+            "imdbId": "nm0001509",
             "name": "Dean Martin",
             "slug": "dean-martin",
-            "title_count": 1,
-            "review_count": 1,
-            "entity_type": "performer",
+            "titleCount": 1,
+            "entityType": "performer",
         },
         {
-            "imdb_id": "nm0000078",
+            "imdbId": "nm0000078",
             "name": "John Wayne",
             "slug": "john-wayne",
-            "title_count": 1,
-            "review_count": 1,
-            "entity_type": "performer",
+            "titleCount": 1,
+            "entityType": "performer",
         },
         {
-            "imdb_id": "nm0102824",
+            "imdbId": "nm0102824",
             "name": "Leigh Brackett",
             "slug": "leigh-brackett",
-            "title_count": 2,
-            "review_count": 1,
-            "entity_type": "writer",
+            "titleCount": 2,
+            "entityType": "writer",
         },
         {
             "name": "Bond",
             "slug": "bond",
-            "title_count": 1,
-            "review_count": 0,
-            "entity_type": "collection",
+            "titleCount": 1,
+            "entityType": "collection",
         },
     ]
 

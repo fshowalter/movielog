@@ -6,11 +6,14 @@ from movielog import db
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
 
-
-class Distribution(TypedDict):
-    grade: str
-    grade_value: int
-    review_count: int
+Distribution = TypedDict(
+    "Distribution",
+    {
+        "grade": str,
+        "gradeValue": int,
+        "reviewCount": int,
+    },
+)
 
 
 class Row(TypedDict):
@@ -39,12 +42,12 @@ def distribution_for_rows(rows: list[Row]) -> list[Distribution]:
         distributions.append(
             Distribution(
                 grade=grade,
-                grade_value=first_row["grade_value"],
-                review_count=len(grade_rows),
+                gradeValue=first_row["grade_value"],
+                reviewCount=len(grade_rows),
             )
         )
 
-    return sorted(distributions, reverse=True, key=lambda group: group["grade_value"])
+    return sorted(distributions, reverse=True, key=lambda group: group["gradeValue"])
 
 
 def export() -> None:

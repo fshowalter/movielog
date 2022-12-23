@@ -31,9 +31,6 @@ def prompt() -> None:
 
     grade = ask_for_grade(imdb_id=movie.imdb_id)
 
-    if not grade:
-        return
-
     movielog_api.add_viewing(
         imdb_id=movie.imdb_id,
         title=movie.title,
@@ -62,11 +59,13 @@ def ask_for_date() -> Optional[date]:
         move_cursor_to_end=True,
     )
 
+    default_date = movielog_api.last_viewing_date() or date.today()
+
     date_string = ask.prompt(
         "Date: ",
         rprompt="YYYY-MM-DD format.",
         validator=validator,
-        default=date.today().strftime("%Y-%m-%d"),  # noqa: WPS323
+        default=default_date.strftime("%Y-%m-%d"),  # noqa: WPS323
     )
 
     if not date_string:
@@ -125,6 +124,9 @@ def new_medium() -> Optional[str]:
 
 
 def is_grade(text: str) -> bool:
+    if not text:
+        return True
+
     return bool(re.match("[a-d|A-D|f|F][+|-]?", text))
 
 

@@ -6,17 +6,20 @@ from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
-
-class Movie(TypedDict, total=False):
-    imdb_id: str
-    title: str
-    year: int
-    release_date: str
-    slug: str
-    sort_title: str
-    countries: list[str]
-    genres: list[str]
-    grade: str
+Movie = TypedDict(
+    "Movie",
+    {
+        "imdbId": str,
+        "title": str,
+        "year": int,
+        "releaseDate": str,
+        "slug": str,
+        "sortTitle": str,
+        "genres": list[str],
+        "grade": str,
+        "gradeValue": int,
+    },
+)
 
 
 def fetch_movies() -> list[Movie]:
@@ -29,6 +32,7 @@ def fetch_movies() -> list[Movie]:
         , slug
         , sort_title
         , grade
+        , grade_value
         , release_date
         FROM reviews
         INNER JOIN movies ON reviews.movie_imdb_id = movies.imdb_id
@@ -46,19 +50,18 @@ def fetch_movies() -> list[Movie]:
             FROM movies))
         AND (grade LIKE 'F%'
             OR grade LIKE 'D%')
-        ORDER BY
-            release_date DESC;
     """
 
     return [
         Movie(
-            imdb_id=row["imdb_id"],
+            imdbId=row["imdb_id"],
             title=row["title"],
             year=row["year"],
-            release_date=row["release_date"],
+            releaseDate=row["release_date"],
             slug=row["slug"],
-            sort_title=row["sort_title"],
+            sortTitle=row["sort_title"],
             grade=row["grade"],
+            gradeValue=row["grade_value"],
             genres=[],
         )
         for row in db.fetch_all(query)
@@ -73,7 +76,7 @@ def fetch_genres(movie: Movie) -> list[str]:
         WHERE movie_imdb_id = "{0}";
     """
 
-    formatted_query = query.format(movie["imdb_id"])
+    formatted_query = query.format(movie["imdbId"])
 
     return db.fetch_all(formatted_query, lambda cursor, row: row[0])
 

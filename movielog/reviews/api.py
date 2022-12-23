@@ -14,9 +14,9 @@ def review_for_movie(imdb_id: str) -> Optional[Review]:
     return next(filtered_reviews, None)
 
 
-def export_data(watchlist_movie_ids: set[str]) -> None:
+def export_data() -> None:
     reviews_table.update(serializer.deserialize_all())
-    exports_api.export(watchlist_movie_ids=watchlist_movie_ids)
+    exports_api.export()
 
 
 def create_or_update(review_date: date, imdb_id: str, slug: str, grade: str) -> Review:

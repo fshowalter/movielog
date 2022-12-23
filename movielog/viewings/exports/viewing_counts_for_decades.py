@@ -1,24 +1,28 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 from typing import TypedDict
 
 from movielog import db
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
 
+DecadeStat = TypedDict(
+    "DecadeStat",
+    {
+        "decade": str,
+        "viewingCount": int,
+    },
+)
 
-@dataclass
-class DecadeStat(object):
-    decade: str
-    viewing_count: int
 
-
-@dataclass
-class StatFile(object):
-    viewing_year: str
-    total_viewing_count: int
-    stats: list[DecadeStat]
+StatFile = TypedDict(
+    "StatFile",
+    {
+        "viewingYear": str,
+        "totalViewingCount": int,
+        "stats": list[DecadeStat],
+    },
+)
 
 
 class Row(TypedDict):
@@ -45,9 +49,9 @@ def decade_stats_for_rows(rows: list[Row]) -> list[DecadeStat]:
     )
 
     for decade, decade_rows in viewings_by_decade.items():
-        decades.append(DecadeStat(decade=decade, viewing_count=len(decade_rows)))
+        decades.append(DecadeStat(decade=decade, viewingCount=len(decade_rows)))
 
-    return sorted(decades, key=lambda group: group.decade)
+    return sorted(decades, key=lambda group: group["decade"])
 
 
 def export() -> None:
@@ -55,8 +59,8 @@ def export() -> None:
     rows = fetch_rows()
     stat_files = [
         StatFile(
-            viewing_year="all",
-            total_viewing_count=len(rows),
+            viewingYear="all",
+            totalViewingCount=len(rows),
             stats=decade_stats_for_rows(rows),
         )
     ]
@@ -65,14 +69,14 @@ def export() -> None:
     for year, rows_for_year in rows_by_year.items():
         stat_files.append(
             StatFile(
-                viewing_year=year,
-                total_viewing_count=len(rows_for_year),
+                viewingYear=year,
+                totalViewingCount=len(rows_for_year),
                 stats=decade_stats_for_rows(rows_for_year),
             )
         )
 
-    export_tools.serialize_dataclasses_to_folder(
-        dataclasses=stat_files,
+    export_tools.serialize_dicts_to_folder(
+        dicts=stat_files,
         folder_name="viewing_counts_for_decades",
-        filename_key=lambda stat_file: stat_file.viewing_year,
+        filename_key=lambda stat_file: stat_file["viewingYear"],
     )

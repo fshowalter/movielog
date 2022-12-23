@@ -9,9 +9,9 @@ from movielog.reviews.exports import (  # noqa: WPS235
 )
 
 
-def export(watchlist_movie_ids: set[str]) -> None:  # noqa: WPS213
+def export() -> None:  # noqa: WPS213
     grade_distributions.export()
     reviewed_movies.export()
     underseen_gems.export()
     overrated_disappointments.export()
-    review_stats.export(watchlist_movie_ids=watchlist_movie_ids)
+    review_stats.export()

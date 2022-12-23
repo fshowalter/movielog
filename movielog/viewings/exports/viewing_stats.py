@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 from typing import TypedDict
 
 from movielog import db
@@ -13,12 +12,15 @@ class Row(TypedDict):
     movie_imdb_id: str
 
 
-@dataclass
-class StatGroup(object):
-    viewing_year: str
-    movie_count: int
-    new_movie_count: int
-    viewing_count: int
+StatGroup = TypedDict(
+    "StatGroup",
+    {
+        "viewingYear": str,
+        "movieCount": int,
+        "newMovieCount": int,
+        "viewingCount": int,
+    },
+)
 
 
 def fetch_rows() -> list[Row]:
@@ -44,10 +46,10 @@ def stats_for_rows_and_year(rows: list[Row], year: str) -> StatGroup:
     older_movie_ids = set(row["movie_imdb_id"] for row in older_rows)
 
     return StatGroup(
-        viewing_year=year,
-        movie_count=len(movie_ids_for_year),
-        new_movie_count=len(movie_ids_for_year - older_movie_ids),
-        viewing_count=len(rows_for_year),
+        viewingYear=year,
+        movieCount=len(movie_ids_for_year),
+        newMovieCount=len(movie_ids_for_year - older_movie_ids),
+        viewingCount=len(rows_for_year),
     )
 
 
@@ -56,10 +58,10 @@ def build_all_stats_group(rows: list[Row]) -> list[StatGroup]:
     movie_count = len(all_movie_ids)
     return [
         StatGroup(
-            viewing_year="all",
-            movie_count=movie_count,
-            new_movie_count=movie_count,
-            viewing_count=len(rows),
+            viewingYear="all",
+            movieCount=movie_count,
+            newMovieCount=movie_count,
+            viewingCount=len(rows),
         )
     ]
 
@@ -73,8 +75,8 @@ def export() -> None:
     for year in years:
         stat_groups.append(stats_for_rows_and_year(rows, year))
 
-    export_tools.serialize_dataclasses_to_folder(
-        dataclasses=stat_groups,
+    export_tools.serialize_dicts_to_folder(
+        dicts=stat_groups,
         folder_name="viewing_stats",
-        filename_key=lambda stat_file: stat_file.viewing_year,
+        filename_key=lambda stat_file: stat_file["viewingYear"],
     )

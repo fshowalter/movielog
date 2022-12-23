@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from datetime import date
 from typing import TypedDict
 
@@ -7,20 +5,23 @@ from movielog import db
 from movielog.utils import export_tools
 from movielog.utils.logging import logger
 
-
-class Viewing(TypedDict):
-    imdb_id: str
-    title: str
-    year: str
-    release_date: date
-    viewing_date: date
-    viewing_year: str
-    sequence: int
-    venue: str
-    medium: str
-    medium_notes: str
-    sort_title: str
-    genres: list[str]
+Viewing = TypedDict(
+    "Viewing",
+    {
+        "imdbId": str,
+        "title": str,
+        "year": str,
+        "releaseDate": date,
+        "viewingDate": date,
+        "viewingYear": str,
+        "sequence": int,
+        "venue": str,
+        "medium": str,
+        "mediumNotes": str,
+        "sortTitle": str,
+        "genres": list[str],
+    },
+)
 
 
 def fetch_genres(viewing: Viewing) -> list[str]:
@@ -31,7 +32,7 @@ def fetch_genres(viewing: Viewing) -> list[str]:
         WHERE movie_imdb_id = "{0}";
     """
 
-    formatted_query = query.format(viewing["imdb_id"])
+    formatted_query = query.format(viewing["imdbId"])
 
     return db.fetch_all(formatted_query, lambda cursor, row: row[0])
 
@@ -56,21 +57,20 @@ def export() -> None:
         INNER JOIN movies ON viewings.movie_imdb_id = imdb_id
         INNER JOIN release_dates ON release_dates.movie_imdb_id = viewings.movie_imdb_id
         INNER JOIN sort_titles ON sort_titles.movie_imdb_id = viewings.movie_imdb_id
-        LEFT JOIN reviews ON viewings.movie_imdb_id = reviews.movie_imdb_id
         """
 
     viewings = [
         Viewing(
-            imdb_id=row["imdb_id"],
+            imdbId=row["imdb_id"],
             title=row["title"],
-            release_date=row["release_date"],
-            viewing_date=row["viewing_date"],
-            viewing_year=row["viewing_year"],
+            releaseDate=row["release_date"],
+            viewingDate=row["viewing_date"],
+            viewingYear=row["viewing_year"],
             sequence=row["sequence"],
             venue=row["venue"],
             medium=row["medium"],
-            medium_notes=row["medium_notes"],
-            sort_title=row["sort_title"],
+            mediumNotes=row["medium_notes"],
+            sortTitle=row["sort_title"],
             year=row["year"],
             genres=[],
         )

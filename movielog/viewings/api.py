@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date
+from typing import Optional
 
 from movielog.utils import sequence_tools
 from movielog.viewings import media, serializer, viewings_table
@@ -8,6 +9,17 @@ from movielog.viewings.exports import api as exports_api
 from movielog.viewings.viewing import Viewing
 
 recent_media = media.recent
+
+
+def last_viewing_date() -> Optional[date]:
+    sorted_viewings = sorted(
+        serializer.deserialize_all(), reverse=True, key=lambda viewing: viewing.sequence
+    )
+
+    if sorted_viewings:
+        return sorted_viewings[0].date
+
+    return None
 
 
 def movie_ids() -> set[str]:

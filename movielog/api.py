@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Optional
 
 from slugify import slugify
 
@@ -16,6 +17,7 @@ review_for_movie = reviews_api.review_for_movie
 # viewing methods
 
 recent_media = viewings_api.recent_media
+last_viewing_date = viewings_api.last_viewing_date
 
 # moviedata methods
 
@@ -38,13 +40,13 @@ add_collection = watchlist_api.add_collection
 add_movie_to_collection = watchlist_api.add_movie_to_collection
 
 
-def add_viewing(
+def add_viewing(  # noqa: WPS211
     imdb_id: str,
     viewing_date: date,
     title: str,
     year: int,
     medium: str,
-    grade: str,
+    grade: Optional[str],
 ) -> None:
     title_with_year = "{0} ({1})".format(title, year)
     slug = slugify(title_with_year, replacements=[("'", "")])
@@ -56,9 +58,10 @@ def add_viewing(
         medium=medium,
     )
 
-    reviews_api.create_or_update(
-        review_date=viewing_date, imdb_id=imdb_id, slug=slug, grade=grade
-    )
+    if grade:
+        reviews_api.create_or_update(
+            review_date=viewing_date, imdb_id=imdb_id, slug=slug, grade=grade
+        )
 
 
 def export_data() -> None:
@@ -66,6 +69,6 @@ def export_data() -> None:
     moviedata_api.update_extended_data(
         watchlist_movie_ids.union(viewings_api.movie_ids())
     )
-    reviews_api.export_data(watchlist_movie_ids)
+    reviews_api.export_data()
     watchlist_api.export_data()
     viewings_api.export_data()
