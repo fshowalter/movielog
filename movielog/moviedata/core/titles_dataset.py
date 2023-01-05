@@ -23,6 +23,7 @@ Whitelist = {
     "tt0112643",  # Castle Freak (1995) [V]
     "tt1356864",  # I'm Still Here (2010) (documentary)
     "tt0209095",  # Leprechaun 5: In the Hood [V]
+    "tt0239496",  # Jack Frost 2 (2000) [V]
 }
 
 MovieRow = movies_table.Row

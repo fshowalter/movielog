@@ -1,7 +1,6 @@
 ---
 date: 2020-12-24
 imdb_id: tt1401143
-title: Rare Exports (2010)
 grade: B
 slug: rare-exports-2010
 ---
