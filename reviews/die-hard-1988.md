@@ -1,7 +1,6 @@
 ---
 date: 2020-12-12
 imdb_id: tt0095016
-title: Die Hard (1988)
 grade: A+
 slug: die-hard-1988
 ---
