@@ -6,7 +6,7 @@ grade: D+
 slug: five-star-final-1931
 ---
 
-Would-be social outrage drama sees Edward G. Robinson editing a New York scandal sheet. Caving to ownership pressure, he assigns amoral reporter Boris Karloff to dredge up a scandalous, twenty-year-old murder story.
+A would-be social outrage drama that sees Edward G. Robinson editing a New York scandal sheet. Caving to ownership pressure, he assigns amoral reporter Boris Karloff to dredge up a scandalous, twenty-year-old murder story.
 
 <!-- end -->
 
