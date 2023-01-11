@@ -15,8 +15,8 @@ One such stop sees Ann Sheridan behind the counter, slinging hash and fending of
 
 Sheridan dazzles with a wholesome-but-not-naïve charm that makes Raft's hard fall and resolute devotion not just plausible, but relatable.
 
-From this promising intro, the film transitions into a remake of Bordertown. It stumbles along the way with some ill-conceived attempts at comedy. Alan Hale, who plays Lupino's bumbling husband, can't work the office intercom. The film paints him so inept, one wonders how he built a successful business.
+From this promising intro, the film transitions into a remake of <span data-imdb-id="tt0026129">_Bordertown_</span>. It stumbles along the way with some ill-conceived attempts at comedy. Alan Hale, who plays Lupino's bumbling husband, can't work the office intercom. The film paints him so inept, one wonders how he built a successful business.
 
-Things continue downhill. Bogart disappears and Lupino assumes the co-lead. She's a capable actress, as High Sierra would prove, but her performance here proves too emotive.
+Things continue downhill. Bogart disappears and Lupino assumes the co-lead. She's a capable actress, as <span data-imdb-id="tt0033717">_High Sierra_</span> would prove, but her performance here proves too emotive.
 
 When confronted with an automatic door, she screws up her face and cranks her performance to eleven. In the climatic courtroom sequence, she devolves into cackling maniacal laughter. After such an organic opening, falling back to the hysterical woman trope disappointed. Compounding matters, the closing shot sees Sheridan, Bogart and company winking at the camera.
