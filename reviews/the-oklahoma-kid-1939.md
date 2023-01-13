@@ -7,6 +7,8 @@ grade: C-
 
 Humphrey Bogart plays Whip McCord, the leader of an outlaw gang who opens the film robbing a stagecoach. Enter James Cagney as the titular kid, another outlaw who, in turn, robs McCord and his gang.
 
+<!-- end -->
+
 Cagney proves the black sheep of his family. His father and brother have big dreams of founding a city in the coming Cherokee Strip Land Run. Cagney wants nothing to do with it, content with his life.
 
 The land rush sequence proves a grand spectacle with a screen full of speeding wagons and horses racing for the future. Cagney's brother and father lead the pack, but when they arrive at their desired spot, they find Bogart and gang already there—"sooners” who cheated. Rather than file a complaint and risk losing, Cagney's father settles with Bogart, who demands casino and saloon rights in the new town.
