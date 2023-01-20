@@ -5,7 +5,7 @@ grade: F
 slug: the-falcon-takes-over-1942
 ---
 
-**The first Raymond Chandler adaptation for the big screen.** It takes the setup and principal characters of Chandler’s novel, _Farewell, My Lovely_, transplants the location to New York City, substitutes gentleman detective Gay Laurence (aka The Falcon), played by George Sanders, for Philip Marlowe, and grafts on a pair of sidekicks. The result underwhelms.
+**The screen's first Raymond Chandler adaptation.** It takes the setup and principal characters of Chandler’s novel, _Farewell, My Lovely_, transplants the location to New York City, substitutes gentleman detective Gay Laurence (aka The Falcon), played by George Sanders, for Philip Marlowe, and grafts on a pair of sidekicks. The result underwhelms.
 
 <!-- end -->
 
