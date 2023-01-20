@@ -1,7 +1,7 @@
 ---
 date: 2021-04-16
 imdb_id: tt0091080
-title: 'Friday the 13th Part VI: Jason Lives (1986)'
+title: "Friday the 13th Part VI: Jason Lives (1986)"
 grade: B-
 slug: friday-the-13th-part-vi-jason-lives-1986
 ---
@@ -18,7 +18,7 @@ Meanwhile, Jason resumes his murderous ways. He offs some corporate paintballers
 
 Not to worry though, the sheriff's plucky teen daughter soon frees Tommy, and the pair head to Camp Crystal Lake to confront Jason using a plan Tommy gleaned from reading a book on the occult.
 
-This entry cements Jason's transition from deranged madman to supernatural monster. Jason now has superhuman strength. Bullets can't kill him. Early on, Tommy looks to incinerate Jason, but the skies open and the resulting rain prevents Tommy from striking a match. It's a nice touch that casts Jason as a force of nature.
+This entry cements Jason's transition from deranged madman to supernatural monster. Jason now has superhuman strength. Bullets can't kill him. Early on, Tommy looks to incinerate Jason, but the skies open and the resulting rain prevents Tommy from striking a match. It's a nice touch that casts Jason as unstoppable.
 
 This installment also sports a nice streak of self-referential black comedy. As a surly groundskeeper fills in Jason's grave, he looks into the camera and mutters, “Some folks sure got a strange idea of entertainment.”
 

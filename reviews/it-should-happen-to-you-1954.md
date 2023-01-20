@@ -16,7 +16,7 @@ Ugh. Where do I begin? Lemmon's performance proves interesting. He's raw--almost
 
 I hated everything else.
 
-I hated the story. Gladys's myopic quest for fame didn't amuse or entertain me. An honest story about one person's drive to rise above the crowd can rivet, but this is hypocritical chauvinistic condescension meant to reaffirm a woman's place as married and anonymous, made by a bunch of famous people cautioning the masses against aspiring to the very fame those elite possess.
+I hated the story. Gladys's myopic quest for fame didn't amuse or entertain me. An honest story about one person's drive to rise above the crowd can rivet, but this is hypocritical chauvinistic condescension meant to reaffirm a woman's place as married and anonymous, made by a bunch of famous people cautioning the masses against aspiring to the fame those elite possess.
 
 I hated the characters too. Holliday has ample charisma, but not enough to overcome her character's egocentric behavior. Peter Lawford plays a rapey ad-man the script proffers as Pete's rival. He's good in the role, but the way Holliday's character kinda-sorta condones his aggression further alienated me. Even Lemmon's character proves creepy, as we're expected to find his stalking behavior endearing.
 

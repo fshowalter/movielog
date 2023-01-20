@@ -20,7 +20,7 @@ To balance this softer Dracula, the film darkens the heroes. Van Helsing careens
 
 On the casting front, Tom Waits surprises as Renfield. Mixing equal parts pathos and menace, his take ranks alongside Dwight Fry’s performance in <span data-imdb-id="tt0021814">the Lugosi version</span>.
 
-Gary Oldman also shines as Dracula. His slight frame and delicate features prove a far cry from the book’s tall, aquiline Count, but they fit this version, who spends more time crying than drinking blood. Oldman’s a chameleon, capable of portraying a more aggressive, hyper-masculine presence, but he molds himself to this role. His Lugosiesque accent never creeps into mimicry and allows him to deliver lines like “I have crossed oceans of time for you,” with a straight face.
+Gary Oldman also shines as Dracula. His slight frame and delicate features contradict the book’s tall, aquiline Count, but they fit this version, who spends more time crying than drinking blood. Oldman’s a chameleon, capable of portraying a more aggressive, hyper-masculine presence, but he molds himself to this role. His Lugosiesque accent never creeps into mimicry and allows him to deliver lines like “I have crossed oceans of time for you,” with a straight face.
 
 As Mina, Winona Ryder acquits herself well-enough, but struggles with some of the script's purple prose. When she looks deep into Oldman's eyes, begging him to turn her, saying, “Take me away from all this death,” the corniness makes me cringe.
 

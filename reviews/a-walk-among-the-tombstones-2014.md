@@ -21,4 +21,4 @@ Spoon-feeding plot-points like this causes the film to drag. Consider the openin
 
 Why not open with Scudder entering the bar? The morning light and wordless exchange tell us everything. And the partner? We never see him again.
 
-Wikipedia tells me the film combines several Lawrence Block novels. Giving Block the benefit of the doubt, perhaps the script condensed too many subplots into this single movie. Regardless, it's pretty damning that Liam Neeson's would-be New York accent proves the least of this film's problems.
+Wikipedia tells me the film combines several Lawrence Block novels. Maybe they're great and the script condensed too many subplots into this single movie. Regardless, it's pretty damning that Liam Neeson's would-be New York accent proves the least of this film's problems.
