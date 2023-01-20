@@ -16,4 +16,4 @@ Revisiting the film, I grasped the aesthetic I missed the first time around: a l
 
 Kudos to Christopher Allport who delivers an underrated but charismatic performance as the beleaguered small-town sheriff targeted by the killer snowman. _(There's a sentence I never thought I'd type.)_
 
-Anyway, I enjoyed the film. Walking the tonal tightrope of wink-wink comedy and genuine horror, it stumbles at times, but not for want of effort. It feels like a labor of love, and I'm glad I gave it a second look.
+Anyway, I enjoyed the film. Walking the tonal tightrope of wink-wink comedy and genuine horror, it stumbles at times, but not for want of effort. I'm glad I gave it a second look.

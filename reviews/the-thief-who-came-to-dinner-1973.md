@@ -12,7 +12,7 @@ Ryan O'Neal plays a computer programmer who quits his well-paying job to become 
 
 What a pleasant surprise. O'Neal charms as a man who “decided only some of the rules apply,” and opts to make his own. His first robbery proves comical. Automatic sprinklers drench him as he approaches the house. His well-practiced glass cutting routine results in the entire window shattering. Despite the hiccups, his break-in proves successful. Besides loot, he purloins information he uses to blackmail the house's owner into introducing him to high society.
 
-Now O'Neal is mingling with the very people he's planning to rob. He's a gentleman thief ala Cary Grant in <span data-imdb-id="tt0048728">_To Catch a Thief_</span> and meets his Grace Kelly in the form of Jacqueline Bisset, who plays an heiress living in an empty rundown estate she can't sell or afford.
+Now O'Neal can mingle with his marks. He's a gentleman thief ala Cary Grant in <span data-imdb-id="tt0048728">_To Catch a Thief_</span> and meets his Grace Kelly in the form of Jacqueline Bisset, who plays an heiress living in an empty rundown estate she can't sell or afford.
 
 As O'Neal's robberies mount, the insurance companies dispatch Warren Oates to investigate. Rather than setup a cat-and-mouse game between the two, O'Neal recognizes something of a kindred soul in Oates. When Oats ends up hospitalized trying to keep up with O'Neal on a run, O'Neal visits, bringing him a copy of Don Quixote. Later, when Oates is tailing him and has car trouble, O'Neal pulls over to help, and even tells Oates where he's going.
 

@@ -10,7 +10,7 @@ Betsy Drake plays a department store clerk who obsesses over trapping a pediatri
 
 <!-- end -->
 
-A young woman exchanges a few words with a pediatrician at a magazine stand. They go their separate ways, but she fixates on him. She shows up at his office. She scrounges through his trash for details of his life. She pumps his friends, associates, and ex-girlfriends for information. She invents a relationship with her boss to make the doctor jealous. This lands the boss in hot water, but she doesn't care. When none of this works, she threatens the doctor's business.
+A young woman exchanges a few words with a pediatrician at a magazine stand. They go their separate ways, but she fixates on him. She shows up at his office. She scrounges through his trash for details of his life. She pumps his friends, associates, and ex-girlfriends for information. She invents a relationship with her boss to make the doctor jealous. This lands the boss in the scandal sheet, but she doesn't care. When none of this works, she threatens the doctor's business.
 
 Does this sound like a romantic comedy or a horror film? What if you flipped the genders? How did a story by Eleanor Harris in the October 1947 issue of _Ladies' Home Journal_ morph into this paranoid male fantasy masquerading as female empowerment?
 
