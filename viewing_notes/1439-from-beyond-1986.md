@@ -1,1 +1,1 @@
-The Vinegar Syndrome 4k cleans up the optical effect artifacts while retaining the organic grain. And the HDR color grading shines during the resonator scenes. A recommended upgrade.
+The Vinegar Syndrome 4k provides a modest picture quality boost over the Scream Factory release, but the HDR transforms the resonator scenes into a psychedelic phantasmagoria. A recommended upgrade.
