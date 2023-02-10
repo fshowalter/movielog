@@ -25,7 +25,7 @@ This may be a good thing. Canutt proves an actor of limited range, and his pigeo
 
 The short productions beget much reuse. The films recycle locations, sets, and cast. But unlike Wayne's prior oaters at Warner Bros., which recycled action footage from Ken Maynard silents, these featured all original stunt work, much of it courtesy of Canutt who served as Wayne's stunt double and stunt coordinator besides his acting chores.
 
-These stunts prove the major differentiators between the films. _The Star Packer_ climaxes with a large action sequence that see's the Shadow ride into town with his men and a wagon bearing a machine gun. Wayne rallies the town to intercept.
+These stunts prove the major differentiators between the films. _The Star Packer_ climaxes with the Shadow riding on the town with his men and a wagon bearing a machine gun. Wayne rallies the town to intercept. A large action sequence follows featuring galloping horses, gunfire, and a racing wagon.
 
 Like all of Wayne's Monogram releases, _The Star Packer_ suffers from stilted dialog, wooden performances, and rushed production. These aren't good films, but important ones. Their limitations, combined with their relentless production schedules and Wayne's professional insecurity[^2], pushed Wayne to improve. Watching them is watching John Wayne as a work-in-progress.
 

@@ -1,1 +1,1 @@
-The WatchTCM print lacks the synthesized score dubbed onto most distributions.
+The Watch TCM print lacks the synthesized score dubbed onto most distributions.
