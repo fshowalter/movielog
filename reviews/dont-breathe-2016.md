@@ -1,13 +1,13 @@
 ---
-sequence: 57
-date: 2016-09-12
+date: 2016-08-25
 imdb_id: tt4160708
-title: Don't Breathe (2016)
 grade: D
-slug: don-t-breathe-2016
+slug: dont-breathe-2016
 ---
 
 The more I think about _Don't Breathe_, the less I like it.
+
+<!-- end -->
 
 The story sees a trio of teens burgle a blind man's dilapidated Detroit home. But the mark proves resourceful, and soon the kids are fighting to escape.
 
