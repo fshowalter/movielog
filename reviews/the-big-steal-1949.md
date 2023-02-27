@@ -7,6 +7,8 @@ slug: the-big-steal-1949
 
 Aboard an ocean liner just docked in Veracruz, Mexico, William Bendix bursts into Robert Mitchum’s cabin pointing a gun. Bendix wants something he believes Mitchum stole. “You’ve got the wrong man,” Mitchum says.
 
+<!-- end -->
+
 Bendix isn’t buying it. He moves to arrest Mitchum, but Mitchum overpowers him and knocks him out. Mitchum takes Bendix’s gun and identification. The identification reads: Captain Vincent Blake of the US Army.
 
 After debarking, Mitchum crosses paths with Jane Greer. It’s a short meeting, as Mitchum has to duck out of sight when Bendix emerges from the ship. Once the coast is clear, Mitchum tries catching a cab, but finds Greer has gotten the last one.
