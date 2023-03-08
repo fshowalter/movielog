@@ -1,13 +1,17 @@
+from __future__ import annotations
+
 import json
 import os
 from collections.abc import Iterable
 from dataclasses import asdict
-from typing import Callable, TypeVar
+from typing import TYPE_CHECKING, Callable, TypeVar
+
+if TYPE_CHECKING:
+    from _typeshed import DataclassInstance  # noqa: WPS436
 
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
 
-DataClassType = TypeVar("DataClassType")
 DictType = TypeVar("DictType")
 
 EXPORT_FOLDER_NAME = "export"
@@ -29,9 +33,9 @@ def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:
 
 
 def serialize_dataclasses_to_folder(
-    dataclasses: Iterable[DataClassType],
+    dataclasses: Iterable[DataclassInstance],
     folder_name: str,
-    filename_key: Callable[[DataClassType], str],
+    filename_key: Callable[[DataclassInstance], str],
 ) -> None:
     folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
     os.makedirs(folder_path, exist_ok=True)
