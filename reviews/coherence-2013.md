@@ -15,9 +15,9 @@ So please, give it a watch, because I'm about to talk about said plot, along wit
 
 Back? I hope you enjoyed it. Watching it a second time, it still resonates. I love how the film plays its cards. Like a close-up magician, Byrkit proves a master of misdirection. He begins with a mystery box. Inside, photographs of the guests with hand-written numbers on the back. The intrigue holds us rapt, so much so, we ignore the contrivance that introduced the box.
 
-Before this mystery resolves, another twist. Two guests aren't who we believed. This revelation glosses over another contrivance, a book explaining Schrödinger's cat. Again, we're so caught up in speculation, we don't bristle at the contrivance.
+Before this mystery resolves, another twist. Two guests aren't who we believed. This revelation glosses over a book explaining Schrödinger's cat.
 
-Then the ultimate card. When Byrkit reveals the characters aren't facing a parallel reality, but a near-infinite multiverse. Again, the execution shines. No histrionics, just a creeping realization by our protagonist that mirrors the audience.
+Then the ultimate card. When Byrkit reveals the characters aren't facing a parallel reality, but a near-infinite multiverse. Again, the execution shines. No histrionics from our protagonist, just a creeping realization.
 
 And now my pet theory. Early in the dinner party, Mike, played by Nicholas Brendon, needles Laurie, his friend's date, about her profession. Is she still teaching “Spanish Yoga?” Laurie looks confused, saying “Not me,” and Mike brushes it off, saying he must have her confused with one of his friend's prior girlfriends. An uncomfortable moment, we write off as an honest mistake.
 
