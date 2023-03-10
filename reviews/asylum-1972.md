@@ -1,17 +1,17 @@
 ---
-sequence: 49
-date: 2015-11-21
+date: 2015-09-19
 imdb_id: tt0068230
-title: Asylum (1972)
 grade: D+
 slug: asylum-1972
 ---
 
-_Asylum_ is another anthology horror from Amicus Productions. As with _The House That Dripped Blood (1971)_, the script comes courtesy of Robert Bloch.
+_Asylum_ is another anthology horror from Amicus Productions. As with <span data-imdb-id="tt0065854">_The House That Dripped Blood (1971)_</span>, the script comes courtesy of Robert Bloch.
 
-The framing story follows a young doctor named Martin. Martin is interviewing for a position at an asylum for the “incurable insane”. He’s greeted with several surprises. The asylum head, Dr. Starr, has gone insane himself and is now counted amongst the asylum’s patients. Starr’s replacement, Dr. Rutherford, is wheel-chair bound after a patient attack. As if those weren’t enough red flags,  Rutherford makes Martin an unusual offer. Martin can have the job provided he deduces which of the patients is Dr. Starr. Martin protests, but heads upstairs to interview the patients. The bulk of the film illustrates their stories.
+<!-- end -->
 
-The first story concerns a man who murders his wife, chops up her body, wraps the parts in packing paper, and stores them in a basement freezer. Unfortunately, said wife had a magic bracelet. When the husband tosses the bracelet into the freezer, the body parts spring to life, attacking him and his mistress.
+The framing story follows Martin, a young doctor interviewing for a position at an asylum for the “incurable insane”. He’s greeted with several surprises. The asylum head, Dr. Starr, has gone insane himself and is now counted amongst the asylum’s patients. Starr’s replacement, Dr. Rutherford, is wheel-chair bound after a patient attack. As if those weren’t enough red flags, Rutherford makes Martin an unusual offer. Martin can have the job provided he deduces which of the patients is Dr. Starr. Martin protests, but heads upstairs to interview the patients. The bulk of the film illustrates their stories.
+
+The first story concerns a man who murders his wife, chops up her body, wraps the parts in packing paper, and stores them in a basement freezer. Unfortunately, said wife had a magic bracelet. When the husband tosses the bracelet into the freezer, the body parts come to life, attacking him and his mistress.
 
 These types of stories always fail to suspend my disbelief. Not the resurrection part which is creepy with a nice touch where we see a severed head sucking air through the paper wrap. No, the problem lies in the physics of those body parts moving about. Just because they’re reanimated, it doesn’t give them the ability to fly. Yet, how else to explain a severed head climbing a flight of stairs? We see arms and legs lurching about and it looks laughable.
 
