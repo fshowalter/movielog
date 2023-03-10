@@ -1,8 +1,6 @@
 ---
-sequence: 51
-date: 2015-11-25
+date: 2015-09-05
 imdb_id: tt0065854
-title: The House That Dripped Blood (1971)
 grade: C+
 slug: the-house-that-dripped-blood-1971
 ---
@@ -17,11 +15,11 @@ But just as I’m willing to humor a movie that stumbles, provided its intention
 
 _The House that Dripped Blood_ comprises four stories revolving around an old English country house. They vary in quality.
 
-The first story, _Method for Murder_, sees a writer, Charles Hillyer, move into the house along with his wife. Hillyer writes lurid thrillers. He’s certain the house’s creaky atmosphere will help him finish his latest novel. Things take a turn for the macabre when Hillyer sees his literary creation, the murderous strangler Dominic, lurking around the estate.
+The first story, _Method for Murder_, sees a writer, Charles, move into the house along with his wife. Charles writes lurid thrillers. He’s certain the house’s creaky atmosphere will help him finish his latest novel. Things take a turn for the macabre when Charles sees his literary creation, the murderous strangler Dominic, lurking around the estate.
 
 It’s a worn premise, but screenwriter Robert Bloch puts a twist on the twist that makes for a satisfying ending.
 
-The second story, _Waxworks_, follows a retired businessman named Philip Grayson, played by Peter Cushing. While touring a horrific wax museum in town, Grayson notices a figure that bears a striking resemblance to a girl he loved as a young man. Soon, he’s obsessed with the perceived effigy and, as you suspect, it doesn’t end well.
+The second story, _Waxworks_, follows a retired businessman named Philip, played by Peter Cushing. While touring a horrific wax museum in town, Philip notices a figure that bears a striking resemblance to a girl he loved as a young man. Soon, he’s obsessed with the perceived effigy and, as you suspect, it doesn’t end well.
 
 As with the first installment, you’ll see the twist coming, but Cushing makes it work. Soon to be a widower in real life, Cushing brings a pathos to what’s otherwise a throw-away role.
 
@@ -39,4 +37,4 @@ The plot kicks in when Henderson acquires a cape that belonged to an actual vamp
 
 It’s played as camp, which is a shame. Co-star Ingrid Pitt, strikes the right balance, but Jon Pertwee’s performance as Henderson never hooked me. The resulting segment fails to thrill or amuse.
 
-Anthology films are hard to grade. My rating averages the individual segments. The third piece’s excellences cancels the fourth’s failed camp. But Christopher Lee’s segment is enough to recommend _The House that Dripped Blood_. After all, if the other stories don’t seem appealing, there’s always the fast-forward button.
+Anthology films are hard to grade. My rating averages the individual segments. The third piece’s excellence cancels the fourth’s failed camp. But Christopher Lee’s segment is enough to recommend _The House that Dripped Blood_. After all, if the other stories don’t seem appealing, there’s always the fast-forward button.
