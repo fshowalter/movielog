@@ -7,6 +7,8 @@ slug: the-house-that-dripped-blood-1971
 
 Reviewing anthology movies is hard. I picture you, dear reader, trudging through endless paragraphs of plot synopsis and I feel guilty. I have let you down.
 
+<!-- end -->
+
 My duty as a reviewer is to describe the film. My job as a writer is to respect your time and attention.
 
 And so my challenge is to describe the picture in a succinct manner that holds your interest. Not that different, I suppose, from what I expect of the films I review.
