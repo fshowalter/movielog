@@ -5,7 +5,7 @@ grade: B+
 slug: kill-list-2011
 ---
 
-My favorite line in _Kill List_ comes late in the second act, when one character asks another, “Just how long have we been working for you?”
+My favorite line in _Kill List_ comes late in the second act, when one character asks another, "How long have we been working for you?”
 
 <!-- end -->
 
