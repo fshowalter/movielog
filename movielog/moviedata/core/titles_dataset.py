@@ -24,6 +24,7 @@ Whitelist = {
     "tt1356864",  # I'm Still Here (2010) (documentary)
     "tt0209095",  # Leprechaun 5: In the Hood [V]
     "tt0239496",  # Jack Frost 2 (2000) [V]
+    "tt0094762",  # Blood Delerium (1988) (no year)
 }
 
 MovieRow = movies_table.Row
@@ -64,7 +65,7 @@ def extract_titles(title_basics_file_path: str) -> Dict[str, MovieRow]:
                 imdb_id=str(fields[0]),
                 title=str(fields[2]),
                 original_title=str(fields[3]),
-                year=int(str(fields[5])),
+                year=int(str(fields[5] or "2023")),
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast_ids=None,
                 votes=None,
