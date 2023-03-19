@@ -15,4 +15,6 @@ But all this sleaze obscures a deeper cynicism. Every character displays some se
 
 And yet, when revealed, the killer's motive packs a wallop, revealing a devastating emotional cruelty toward the film's lone innocent—a grade school-aged girl suffering a terminal illness.
 
-Though it's tempting to reduce _The New York Ripper_ to misogynistic exploitation, the finale reveals a deeper sense of guilt. Fulci identifies with his characters. Having co-written the screenplay and shot the film, he's wallowing in those same perversions. This internal dissonance resonates. Fulci paints New York City as a convincing hell. One whose residents struggle to ignore the shame of their own complacency.
+Though it's tempting to reduce _The New York Ripper_ to misogynistic exploitation, the finale reveals a meditation on guilt. Corrupt characters drown their insecurities in sexual vice as Fulci grapples with whether they’re victims or monsters.
+
+Having co-written the screenplay and shot the film, Fulci's wallowing in those same perversions. His New York City proves a convincing hell. One whose residents struggle to ignore the shame of their own complacency.

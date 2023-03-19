@@ -25,6 +25,7 @@ Whitelist = {
     "tt0209095",  # Leprechaun 5: In the Hood [V]
     "tt0239496",  # Jack Frost 2 (2000) [V]
     "tt0094762",  # Blood Delerium (1988) (no year)
+    "tt0113636",  # Leprechaun 3 [V]
 }
 
 MovieRow = movies_table.Row
