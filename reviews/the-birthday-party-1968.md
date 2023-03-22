@@ -21,6 +21,6 @@ But Friedkin isn't afraid to let his cast carry a scene. Robert Shaw convinces a
 
 But it's Dandy Nichols who disappears into her role as the lonely middle-aged boarding house owner that grounds the film. A fearless performance given her character's unflattering lighting and grating dialog. It's the contrast between her verisimilitude and McCann and Goldberg's absurdity that heightens the film's sense of dread.
 
-All that said, though Friedkin and Pinter Friedkin and Pinter evoke a nightmarish atmosphere with allusions to paranoia, authoritarianism, and conformance, the oblique nature blunts its impact.
+Indeed, Friedkin and Pinter evoke a nightmarish atmosphere with allusions to paranoia, authoritarianism, and conformance, but the oblique nature blunts its impact.
 
-To its credit, the film addresses its own abstract nature, with Stanley, full of menace, saying, "Tell me, Mrs Boles, when you address yourself to me, do you ever ask yourself who exactly you are talking to?"
+Pinter seems aware, as Stanley, full of menace, says, "Tell me, Mrs Boles, when you address yourself to me, do you ever ask yourself who exactly you are talking to?"
