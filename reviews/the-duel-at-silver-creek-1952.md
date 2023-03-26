@@ -35,4 +35,6 @@ This sets up the real finale, a big shootout that sees the Marshall, Murphy, and
 
 Worse still, the script disappears Murphy for much of the first act, then regulates him to supporting status when he reappears. Despite receiving third billing, Stephen McNally proves the lead as Marshall Tyrone. The script introduces him as a discerning, middle-aged lawman only to have him behave like a petulant love-sick teenager in the second act. McNally tries, but can’t distract from the forced plotting. Compounding matters, he and Faith Domergue—who plays Brown Eyes—have no chemistry.
 
+Believe it or not, co-screenwriter Gerald Drayson Adams also co-wrote director Don Seigal's prior film, <span data-imdb-id="tt0041178">_The Big Steal_</span>, which featured a tight script peppered with snappy dialog. What happened here?
+
 More than once, this reminded me of a better produced version of John Wayne’s early poverty-row westerns. The bigger budget affords a longer running time, larger cast and better sets and costumes, but the script feels just as rushed, and the cast chemistry as hit-or-miss. At least those poverty-row productions were shorter and featured better stunts.
