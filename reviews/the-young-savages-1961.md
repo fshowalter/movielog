@@ -25,6 +25,6 @@ A strong effort all around, until the finale, which sees Lancaster descend into 
 
 Imagine the optics: an Italian DA helps three Italian teens escape the death penalty, including the son of a former flame.
 
-Maybe if we saw the fall out. New York's Puerto Rican community riots.Lancaster loses his job. The gang exacts vengeance on Lancaster's ex-flame's son. Chandler leaves jail ten years later, a hardened criminal, and commits another murder.
+Maybe if we saw the fall out. New York's Puerto Rican community riots. Lancaster loses his job. The gang exacts vengeance on Lancaster's ex-flame's son. Chandler leaves jail ten years later, a hardened criminal, and commits another murder.
 
-Instead, the pat, reductive ending undermines the measured performances and even-handed script, rendering the whole disappointing, but not without merits.
+Instead, the reductive ending undermines the measured performances and even-handed script. Disappointing, but not without merits.
