@@ -7,6 +7,8 @@ slug: night-train-to-terror-1985
 
 An anthology comprising three unrelated low-budget horror features chopped down to half or a third of their running time and book-ended by God and Satan riding a train to Las Vegas with an 80s pop-rock band. How good could it be? Better than you'd expect.
 
+<!-- end -->
+
 The wrap-around segment opens on the train, with the teen band breaking into a music video-like production, lip-syncing into the camera and breakdancing. The song proves catchy, but that might be due to how often they repeat the chorus.
 
 Meanwhile, in a private car, sit God and Satan. Ferdy Mayne and Tony Giorgio commit to their roles with a professionalism akin to Boris Karloff, Peter Cushing, or Christopher Lee and their performances evoke a similar--albeit lesser--charm. Their discussion concerns the fate of various souls, beginning with Harry Billings.
