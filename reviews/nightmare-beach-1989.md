@@ -23,7 +23,7 @@ One scene introduces a group of breakers partying on the beach at night. An anon
 
 How long was he in there? How did he know it was her trailer? What if she wasn't alone? So many questions, so few answers.
 
-A better movie would have followed the killer around, showing him hurrying to put on his leathers and get to his hiding places, then shown us how he passes the time in closets, elevator shafts, and other hiding places.
+A better movie would have followed the killer around, showing him hurrying to put on his leathers and get to his hiding places, then showing how he passes the time in closets, elevator shafts, and other hiding places.
 
 But I digress. The killer's behavior isn't the only head-scratcher. One of the myriad side plots concerns a pair of thieves preying on the breakers. One performs an attention-grabbing prank, like playing dead in the pool. When everyone rushes to see the prankster, his accomplice disappears with any untended cash. At one point, the prankster poses as a shark. Swimmers scream and run ashore. A local cop urges everyone back, then opens fire with his pistol into the water. The inanity had me roaring.
 
