@@ -1,7 +1,7 @@
 ---
 date: 2023-04-06
 imdb_id: tt0027407
-grade: D+
+grade: C-
 slug: bullets-or-ballots-1936
 ---
 
