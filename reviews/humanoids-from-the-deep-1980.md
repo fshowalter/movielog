@@ -5,7 +5,7 @@ grade: B-
 slug: humanoids-from-the-deep-1980
 ---
 
-Delicate sensibilities beware. _Humanoids of the Deep_ features explicit rape sequences, a graphic dog killing, and multiple mutilated dog corpses. But those that brave a viewing will discover a thrilling--albeit often ridiculous--monster movie.
+Delicate sensibilities beware. _Humanoids from the Deep_ features explicit rape sequences, a graphic dog killing, and multiple mutilated dog corpses. But those that brave a viewing will discover a thrilling--albeit often ridiculous--monster movie.
 
 <!-- end -->
 
