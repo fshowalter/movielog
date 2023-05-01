@@ -23,4 +23,4 @@ And it's the third act where the two threads merge, and the film transcends the 
 
 The addiction story thus far has avoided reductive tropes. Mike attempts to lay blame on Chris's parents, but Chris has none of it. “I do drugs because my body chemistry makes me wanna do drugs,” he says. “If I had your parents, you know what I'd be, man? I'd be a guy with rad parents who fucking loves doing drugs.”
 
-How can this end? Chris and Mike's scramble to satisfy the unseen force mirrors Chris's scramble to satisfy his addiction, and mirrors the filmmaker's scramble to deliver a satisfying ending. That said ending proves both predictable and a total surprise attests to the film's ingenuity and resonance.
+How can this end? Chris and Mike's scramble to satisfy the unseen force mirrors Chris's scramble to satisfy his addiction, and mirrors the filmmaker's scramble to deliver a satisfying ending. That said ending proves both predictable and surprising attests to the film's ingenuity and resonance.
