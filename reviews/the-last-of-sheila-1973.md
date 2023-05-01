@@ -9,6 +9,8 @@ James Coburn plays an influential movie producer whose wife, the titular Sheila,
 
 One year later, Coburn invites six acquaintances, all connected to the party, for a week-long stay on his yacht in the Mediterranean. There, they'll discuss a potential bio-pic about Sheila and play a series of parlor games. But when the guests learn the games involve their darkest secrets, murder ensues. **Minor spoilers follow.**
 
+<!-- end -->
+
 I say minor, dear reader, because I suspect you'll suss out the “who” in this whodunit long before anyone in the cast. The film doesn't withhold clues and director Herbert Ross lingers on a key shot long enough for even the sleepiest-eyed viewer to spot what's awry.
 
 But I'm getting ahead of myself. The film's first-half shines, with improbable screenwriters Anthony Perkins and Stephen Sondheim papering over the logistics of assembling and introducing a cast of suspects with an entertaining Hollywood satire.
