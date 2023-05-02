@@ -1,5 +1,5 @@
 ---
-date: 2023-04-25
+date: 2023-04-27
 imdb_id: tt0070291
 grade: B
 slug: the-last-of-sheila-1973
