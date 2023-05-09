@@ -5,7 +5,9 @@ grade: F
 slug: mark-of-the-vampire-1935
 ---
 
-When Sir Karell is discovered drained of blood and bearing puncture wounds in his neck, vampires are blamed. Lionel Barrymore plays an occult expert summoned to protect Sir Karell's daughter who appears to be the vampire's next target. Also, Bela Lugosi plays a Dracula-like character sporting an unexplained gunshot head wound whose only two lines come in the finale. Spoilers follow.
+When Sir Karell is discovered drained of blood and bearing puncture wounds in his neck, vampires are blamed. Lionel Barrymore plays an occult expert summoned to protect Sir Karell's daughter who appears to be the vampire's next target. Also, Bela Lugosi plays a Dracula-like character sporting an unexplained gunshot head wound whose only two lines come in the finale. **Spoilers follow.**
+
+<!-- end -->
 
 The first fifty minutes of this hour-long film proffer a quasi-rehash of <span data-imdb-id="tt0021814">_Dracula_</span>'s second act. Lugosi stalks around a cobweb-strewn castle holding a candelabra, gazing bug-eyed at rats and spiders. Accompanying Lugosi is Carroll Borland as his vampire… daughter? Their relationship, like the bullet hole in Lugosi's head, isn't explained. Nor is his identity beyond his name: Count Mora.
 
