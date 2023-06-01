@@ -6,7 +6,7 @@ from movielog import db
 from movielog.utils import export_tools, list_tools
 from movielog.utils.logging import logger
 
-LIMIT = 12
+LIMIT = 10
 
 
 Movie = TypedDict(

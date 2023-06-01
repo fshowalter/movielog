@@ -8,6 +8,7 @@ from movielog.moviedata.core import aka_titles_table, movies_table, people_table
 from movielog.moviedata.extended.tables import (
     countries_table,
     directing_credits_table,
+    genres_table,
     release_dates_table,
     sort_titles_table,
 )
@@ -150,6 +151,8 @@ def init_db() -> None:
         ]
     )
 
+    genres_table.reload([genres_table.Row(movie_imdb_id="tt0053221", genre="Western")])
+
     sort_titles_table.reload(
         [
             sort_titles_table.Row(movie_imdb_id="tt0053221", sort_title="Rio Bravo"),
@@ -228,6 +231,9 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "originalTitle": "Dracula",
             "grade": "A",
             "gradeValue": 5,
+            "reviewDate": "2021-03-12",
+            "reviewYear": "2021",
+            "genres": [],
         },
         {
             "imdbId": "tt0053221",
@@ -243,6 +249,9 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "originalTitle": None,
             "grade": "A+",
             "gradeValue": 6,
+            "reviewDate": "2021-01-29",
+            "reviewYear": "2021",
+            "genres": ["Western"],
         },
         {
             "imdbId": "tt0098327",
@@ -258,6 +267,9 @@ def test_exports_reviewed_movies(tmp_path: str) -> None:
             "originalTitle": "Der siebente Kontinent",
             "grade": "A",
             "gradeValue": 5,
+            "reviewDate": "2021-10-31",
+            "reviewYear": "2021",
+            "genres": [],
         },
     ]
 
