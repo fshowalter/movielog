@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date
 from typing import Optional, TypedDict
 
 from movielog import db
@@ -19,6 +20,8 @@ ReviewedMovie = TypedDict(
         "title": str,
         "year": int,
         "releaseDate": str,
+        "reviewDate": date,
+        "reviewYear": str,
         "slug": str,
         "sortTitle": str,
         "runtimeMinutes": int,
@@ -29,6 +32,7 @@ ReviewedMovie = TypedDict(
         "principalCastIds": str,
         "grade": str,
         "gradeValue": int,
+        "genres": list[str],
     },
 )
 
@@ -40,6 +44,8 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
         , title
         , original_title
         , year
+        , date
+        , strftime('%Y', reviews.date) AS review_year
         , release_date
         , slug
         , sort_title
@@ -71,6 +77,9 @@ def fetch_reviewed_movies() -> list[ReviewedMovie]:
             countries=[],
             grade=row["grade"],
             gradeValue=row["grade_value"],
+            reviewDate=row["date"],
+            reviewYear=row["review_year"],
+            genres=[],
         )
         for row in db.fetch_all(query)
     ]
@@ -108,6 +117,19 @@ def update_original_title(reviewed_movie: ReviewedMovie) -> None:
         reviewed_movie["originalTitle"] = None
 
 
+def fetch_genres(reviewed_movie: ReviewedMovie) -> list[str]:
+    query = """
+        SELECT
+        genre
+        FROM genres
+        WHERE movie_imdb_id = "{0}";
+    """
+
+    formatted_query = query.format(reviewed_movie["imdbId"])
+
+    return db.fetch_all(formatted_query, lambda cursor, row: row[0])
+
+
 def fetch_principal_cast(reviewed_movie: ReviewedMovie) -> list[str]:
     query = """
         SELECT
@@ -135,6 +157,7 @@ def export() -> None:
         reviewed_movie["directorNames"] = fetch_directors(reviewed_movie)
         reviewed_movie["principalCastNames"] = fetch_principal_cast(reviewed_movie)
         reviewed_movie["countries"] = fetch_countries(reviewed_movie)
+        reviewed_movie["genres"] = fetch_genres(reviewed_movie)
         export_data = dict(reviewed_movie)
         export_data.pop("principalCastIds")
 
