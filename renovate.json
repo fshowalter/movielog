@@ -1,0 +1,13 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:base"],
+    "rangeStrategy": "pin",
+    "prHourlyLimit": 0,
+    "prConcurrentLimit": 0,
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": ["at any time"]
+    },
+    "assignees": ["fshowalter"]
+  }
+  
