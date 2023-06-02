@@ -5,7 +5,7 @@ grade: D
 slug: lawyer-man-1932
 ---
 
-William Powell plays a womanizing Lower East Side lawyer who joins a prestigious uptown firm. His rising star attracts the attention of local political boss John Gilmurry. Powell rebuffs Gilmurry's advances, only to lose the moral high ground when he accepts a breach of promise case from a seductive actress against a well-connected doctor. Ignoring advice to drop the case, Powell becomes entangled in a manufactured scandal, leading to his ruin. Vowing to fight back, Powell promises to "fight dirty" to take down those who wronged him.
+William Powell plays a womanizing Lower East Side lawyer who joins a prestigious uptown firm. His rising star attracts the attention of local political boss John Gilmurry. Powell rebuffs Gilmurry's advances, only to lose the moral high ground when he accepts a breach of promise case from a seductive actress. Ignoring advice to drop the case, Powell becomes entangled in a manufactured scandal, leading to his ruin. Vowing to fight back, Powell promises to "fight dirty" to take down those who wronged him.
 
 <!-- end -->
 
