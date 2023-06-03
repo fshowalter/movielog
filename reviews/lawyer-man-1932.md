@@ -23,6 +23,6 @@ His revenge complete, Powell abdicates his post and returns to his Lower East Si
 
 So what was the point? Others will fill the vacuum left by Powell's revenge and the corruption will continue. Powell admits as much and seems unchanged by the experience, leaving the viewer nonplussed.
 
-It's indicative of a script that can't decide between melodrama, comedy, and social justice. It dabbles but never commits, and thus amounts to nothing.
+It's indicative of a script that can't decide between melodrama, comedy, and social justice. It dabbles but never commits, and thus amounts to nothing. Worse still, Powell's too old for the part. A twenty-something man chasing skirts is one thing, but a forty-year-old one is another.
 
 A disappointment on almost every front, the film's lone bright spot comes via David Landau as Gilmurry. His blend of weary menace and charm convinces as a sociopathic king-maker in the script's only interesting part.
