@@ -47,4 +47,4 @@ The film builds to an unexpected downbeat ending that I won't spoil, except to s
 
 What a discovery. I expected a goofy camp picture and came away impressed by the film's existential undercurrent. Clark surprises with his confident screen presence and minimalist performance, and Boorman proffers terrific location photography and a measured tone that disguises a deeper film as a pop group vehicle.
 
-[^1]: Predating the Hamburglar from McDonalds by several years.
+[^1]: Predating the Hamburglar from McDonald's by several years.
