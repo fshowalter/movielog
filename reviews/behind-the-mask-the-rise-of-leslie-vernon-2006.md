@@ -5,7 +5,7 @@ grade: B
 slug: behind-the-mask-the-rise-of-leslie-vernon-2006
 ---
 
-A quasi-mockumentary set in a world where iconic horror killers like Jason Voorhees, Michael Myers, and Freddy Krueger are real historical figures. Taylor, a young journalist, leads a two-man crew into suburban Maryland to profile serial killer Leslie Vernon. They find Leslie charming and open as he presents a behind-the-scenes look at the work involved in maintaining the image of a supernatural killer. **Spoilers follow**.
+A quasi-mockumentary set in a world where iconic horror killers like Jason Voorhees, Michael Myers, and Freddy Krueger are real historical figures. Taylor, a young journalist, leads a two-man crew into suburban Maryland to profile serial killer Leslie Vernon. They find Leslie charming and open as he presents a behind-the-scenes look at the work involved in maintaining the illusion of a supernatural killer. **Spoilers follow**.
 
 <!-- end -->
 
