@@ -13,7 +13,7 @@ Coburn would have made a great Philip Marlowe. His character has all the traits:
 
 > Carey: And that's all you need?
 >
-> Pearson: That's all. But if there's more we'll find it. Who knows, you might even be involved.
+> Pearson: That's all. But if there's more we'll find it. Now Who knows, you might even be involved.
 >
 > Carey: Oh, yeah, well, there's always that possibility.
 >
