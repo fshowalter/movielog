@@ -5,7 +5,7 @@ grade: B-
 slug: gosford-park-2001
 ---
 
-In 1932 England, Sir William McCordle hosts a hunting party for assorted friends and relatives at his palatial country estate, the titular Gosford Park. Assorted secrets and betrayals emerge among the upstairs gentry and downstairs help. When someone falls victim to an unseen killer, almost everyone has a motive.
+In 1932 England, Sir William McCordle hosts a hunting party at his palatial country estate, the titular Gosford Park. Assorted secrets and betrayals emerge among the upstairs gentry and downstairs help. When someone falls victim to an unseen killer, almost everyone has a motive.
 
 <!-- end -->
 
