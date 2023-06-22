@@ -15,7 +15,7 @@ Fiorentino shines as Bridgette, a noir femme fatale cranked to 11. When Mike app
 
 “I'm hung like a horse,” he whispers. “Think about it.”
 
-“Let's see,” she replies and unzips his fly, fishing around in his pants to verify his claims. Satisfied, she invites herself back to his place. The next morning, she’s rummaging around his fridge for something to eat while on the phone with her lawyer. She settles on a pie, tries a bite, and spits it back into the dish. After hanging up, she stubs out her cigarette on the pie, and we spy the note on top, "Love, Grandma." That’s cold, Bridgette.
+“Let's see,” she replies and unzips his fly, and fishes around in his pants to verify his claim. Satisfied, she invites herself back to his place. The next morning, she’s rummaging around his fridge for something to eat while on the phone with her lawyer. She settles on a pie, tries a bite, and spits it back into the dish. After hanging up, she stubs out her cigarette on the pie, and we spy the note on top, "Love, Grandma." That’s cold, Bridgette.
 
 Later that morning, she’s downtown to grab coffee and a paper. A dozen people pass her on the street, each saying, “Good morning!” She replies with stone silence.
 
@@ -31,7 +31,7 @@ But I can look past the murders. The third act reveal, however, proves a bridge 
 
 The secret in question is that she’s transgender. When Mike threatens to go to the police, Bridgette goads him into assaulting her by saying, "You married a man, you farm f\*\*\*\*t." This assault frames Mike for the murder she committed and lets her walk free.
 
-I see two ways to interpret this twist. Either the filmmakers again misplayed the film’s tone and went for straight noir instead of a heightened parody, or—even worse—they felt transphobia _was_ heightened parody.
+I see two ways to interpret this twist. Either the filmmakers again misplayed the film’s tone and went for straight noir instead of heightened parody, or—even worse—they felt transphobia _was_ heightened parody.
 
 Did the film intend this as a takedown of small-town morals? Given an earlier scene involving a black detective asking about Bridgette and the all-white town askance about his blackness, perhaps. But that scene had us laughing at the townsfolk. This scene just feels mean-spirited. Tone is tricky, and misjudging it here sours an otherwise entertaining ride.
 
