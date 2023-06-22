@@ -11,7 +11,7 @@ Linda Fiorentino plays Bridgette, the floor manager of a high-pressure cold-call
 
 _The Last Seduction_ is equal parts brilliant and frustrating. For much of its running time, it delivers a heightened satire of the film noir genre.
 
-Fiorentino shines as Bridgette, a noir femme fatale cranked to 11. When Mike approaches her at the town’s lone bar, she dismisses him, saying, “Go find yourself a nice little cowgirl and make nice little cow babies and leave me alone.”
+Fiorentino shines as Bridgette, a noir femme fatale cranked to eleven. When Mike approaches her at the town’s lone bar, she dismisses him, saying, “Go find yourself a nice little cowgirl and make nice little cow babies and leave me alone.”
 
 “I'm hung like a horse,” he whispers. “Think about it.”
 
