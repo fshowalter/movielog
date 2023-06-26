@@ -5,7 +5,7 @@ grade: D-
 slug: the-heavenly-body-1944
 ---
 
-In this screwball comedy, William Powell plays an astronomer who's just discovered in a new comet. But the weeks of working nights leading up to this career-defining moment have left his younger wife, played by Hedy Lamarr, feeling neglected. On the advice of their nosy neighbor, Lamarr visits an astrologer, who tells her she'll soon meet a man “who really loves her.” This man manifests as the local air-raid warden, played by James Craig.
+In this screwball comedy, William Powell plays an astronomer who's discovered in a new comet. But the weeks of working nights leading up to this career-defining moment have left his younger wife, played by Hedy Lamarr, feeling neglected. On the advice of their nosy neighbor, Lamarr visits an astrologer, who tells her she'll soon meet a man “who really loves her.” This man manifests as the local air-raid warden, played by James Craig.
 
 <!-- end -->
 
