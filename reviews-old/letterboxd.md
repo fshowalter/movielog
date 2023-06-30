@@ -1,7 +1,3 @@
-It's a Big Country
-
-Eight-segment propaganda-ish anthology celebrating America. Barrymore lends her segment a dignity it doesn't deserve and Cooper's self-deprecating segment elicits a few chuckles, but the other segments range from forgettable at best to cringeworthy at worst.
-
 The Locket
 
 Trite story based on psychobabble with execution so convoluted and over-the-top, it borders on parody. Example: Mitchum’s flashback-within-a-flashback voice-over narration saying “I sent her a telegram.” Day enters the room. “I got your telegram,” she says.
@@ -50,19 +46,11 @@ Somewhere in Sonora
 
 Fifth of a six-picture contract Wayne signed with Warner Bros. in 1932. A remake of Ken Maynard's silent Somewhere in Sonora (1927) that recycles footage from the original. Cowboy Wayne joins an outlaw gang to break up a mine robbery and rescue a friend's estranged son. Wayne offers hints of the star he'd become, but the dialog proves laughable when delivered by the wooden supporting cast. The barroom brawl scene serves as the lone standout.
 
-China Clipper
-
-Aviation propaganda masquerading as melodrama sees O'Brien endure professional and personal setbacks as he builds the first trans-Pacific airline. Bogart outshines the robotic O'Brien but isn't on-screen enough to make this worth your time.
-
 Baby Face
 
 "Use men to get the things you want!"
 
 The first half plays like vintage exploitation with Stanwyck flashing her calves and sleeping her way up the corporate ladder, including a brief fling with a young, eye-shadow laden John Wayne. Then Brent makes his entrance and the film loses its edge, devolving into a predictable—albeit passable—melodrama.
-
-The Endless
-
-Engrossing mix of Lovecraftian horror and sibling drama sees brothers Moorhead and Benson return to the UFO cult they'd fled a decade earlier. It didn't stick with me like Resoution (2012), but I'm eager for a second viewing.
 
 The Swimmer
 
