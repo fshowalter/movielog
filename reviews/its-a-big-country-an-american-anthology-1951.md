@@ -9,7 +9,7 @@ An eight-episode, star-studded portmanteau comprising comedic, dramatic, and doc
 
 <!-- end -->
 
-The introductory episode, set aboard a train, features William Powell as a bespectacled professor reading. James Whitmore sits down next to him and, oblivious to Powell’s reading, insists on striking up a conversation. Less interested in what Powell has to say, than in hearing himself talk, Whitmore pontificates on America’s greatness.
+The introductory episode, set aboard a train, features William Powell as a bespectacled professor. He sits reading. James Whitmore sits down next to him and, oblivious to Powell’s reading, insists on striking up a conversation. Less interested in what Powell has to say, than in hearing himself talk, Whitmore pontificates on America’s greatness.
 
 “Which America?” Powell replies, giving up on his book. Whitmore sits puzzled. Powell elaborates, rattling off the various Americas: the political America, the historical America, the America of the world community, and the American personality. One might hope the rest of the film would explore these themes, perhaps contrasting them via a through-line character, but alas.
 
