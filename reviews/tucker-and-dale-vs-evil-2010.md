@@ -39,7 +39,7 @@ Meanwhile, in the coeds' slasher film, one coed's inherit hatred of hillbillies 
 
 Having said coed sport a popped collar and ooze aggression and entitlement renders his character one-dimensional. As a convenient genre trope to advance the plot, that's fine, but the straw man characterization mutes any social commentary.
 
-From here, the film devolves into a comedic monster movie. The aforementioned popped-collar coed transforms into a disfigured maniac, kidnaps Allison, and imperils her Snidely Whiplash style in an old sawmill. It elicits some chuckles but relies on the humor of Dale's awkward fit as an action hero.
+From here, the film devolves into a comedic monster movie. The aforementioned popped-collar coed transforms into a disfigured maniac, kidnaps Allison, and imperils her, Snidely Whiplash style, in an old sawmill. It elicits some chuckles but relies on the humor of Dale's awkward fit as an action hero.
 
 It's a rehash of the film's running mistaken identity theme. One gag involves Dale “suiting up” to battle the maniac, only to have Allison shriek when she spies him, leading Dale to say, “Oh, I thought it might look kind of intimidating. Does it?”
 
@@ -47,4 +47,4 @@ Another gag has burly Dale besting the maniac, not by violence, but by trivial k
 
 Such bits prove more cute than clever. Disappointing, but they demonstrate the difficulty inherit in the comedic horror genre. With everyone playing broad, including the antagonist, the film has become a one-joke movie. Thanks to Labine's charismatic performance, said joke still elicits chuckles.
 
-Despite this underwhelming finale, the film works. It elicited some of heartiest and most improbable laughs I've encountered and the romance charmed. It's not perfect, but it's close.
+Despite this underwhelming finale, the film works. It elicited some of heartiest and most improbable laughs I've encountered and the romance charmed. Recommended, provided you're not put off by the over-the-top death scenes.
