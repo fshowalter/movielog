@@ -7,6 +7,8 @@ slug: tucker-and-dale-vs-evil-2010
 
 Alan Tudyk and Tyler Labine play the titular Tucker and Dale, a pair of good-natured hillbillies. They're visiting their new Appalachian vacation home, a dilapidated cabin right out of a horror film that they're proud to call their own. But their relaxing weekend of fishing and home renovation goes awry when they cross paths with a group of coeds who mistake them for psychopaths. For the coeds, a series of comical misunderstandings beget horrific misfortunes, while the befuddled Tucker and Dale find themselves surrounded by bodies.
 
+<!-- ene -->
+
 The film's genius lies in its execution.
 
 The coeds are in a traditional slasher horror film. They encounter menacing mountain folk, witness one of their own being dragged motionless aboard the hillbillies' boat, and discover their friends' mutilated corpses.
