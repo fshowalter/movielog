@@ -9,7 +9,7 @@ Alan Tudyk and Tyler Labine play the titular Tucker and Dale, a pair of good-nat
 
 <!-- end -->
 
-The film's genius lies in its execution.
+Horror comedy is hard, but for its first two acts, this film makes it look easy. The genius lies how the film places its cast in two separate movies.
 
 The coeds are in a traditional slasher horror film. They encounter menacing mountain folk, witness one of their own being dragged motionless aboard the hillbillies' boat, and discover their friends' mutilated corpses.
 
