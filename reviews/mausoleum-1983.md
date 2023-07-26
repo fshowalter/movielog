@@ -21,7 +21,7 @@ LaPage then walks in on Susan, who's glowing green, mid-transformation. Cue some
 
 She fails, returns to the house and pours herself a “drink of the good stuff,” J&B, of course. With a shaking hand, she raises the glass to her lips, saying, “I ain't been this nervous since I've been black.”
 
-She creeps back upstairs and sees Susan further changed. More comedic music and over-cranked footage LaPage flees out the front door, bags packed and running down the street.
+She creeps back upstairs and sees Susan further changed. More comedic music and over-cranked footage as LaPage flees out the front door, bags packed, running down the street.
 
 This sequence elicited a big laugh and proved the film's highlight.
 
