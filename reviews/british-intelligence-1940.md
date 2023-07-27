@@ -7,6 +7,8 @@ slug: british-intelligence-1940
 
 Fair warning, I’m going to spoil the entire plot of _British Intelligence_. How else to review this espionage drama? Plot is all it offers.
 
+<!-- end -->
+
 In 1917, amid World War I, the British are hurting. Every plan leaks to the Germans. The British suspect the notorious German spy Strendler has infiltrated their organization, but no one can identify him. Desperate to weed out Strendler, the British recall their best agent from undercover duty.
 
 This plan also leaks to the Germans, who kill the British agent and shoot down his extraction plane.
