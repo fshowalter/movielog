@@ -30,5 +30,5 @@ Tracy recognizes it. An early prison yard scene sees Bogart stand up for another
 
 The iTunes print is spliced from multiple sources, replete with sound and frame drops, and numerous scratches. Sadly, it's the best quality available, but it distracts from any early editing innovations Ford might be employing. Still, for Spencer Tracy fans, it's worth seeking out, as it marks an impressive debut and stands as one of the best early talkies I've seen. For Bogart fans, this proves more curiosity than revelation, and they may opt to wait and hope a better print surfaces.
 
-[^1]: Peter Bogdanovich. _John Ford_ (University of California Press, 1967), 52.
+[^1]: Peter Bogdanovich, _John Ford_ (University of California Press, 1967), 52.
 [^2]: Ann M. Sperber and Eric Lax, _Bogart_ (HarperCollins, 2011), 40.
