@@ -40,7 +40,7 @@ One scene might offer a glimpse into Wayne’s inner turmoil. After getting some
 Thus, for John Wayne fans, _Big Jim McLain_ should entertain. Others should give it a pass, as without Wayne, the clumsy production and muddled script will prove difficult to overlook.
 
 [^1]: Scott Eyman, _John Wayne: The Life and Legend_ (New York: Simon & Schuster, 2014), 226, Kindle.
-[^2]: The said it was about a Texas cattle buyer who followed “a trail of excitement” to Hawaii. (Eyman, 2014, 227)
+[^2]: They said it was about a Texas cattle buyer who followed “a trail of excitement” to Hawaii. (Eyman, 2014, 227)
 [^3]: Scott Eyman, _John Wayne: The Life and Legend_ (New York: Simon & Schuster, 2014), 227, Kindle.
 [^4]: A profit of $261,641. (Eyman, 2014, 228)
 [^5]: Michael Munn, _John Wayne_ (New York: Penguin Publishing Group, 2003), 143, Kindle.
