@@ -5,7 +5,7 @@ grade: B+
 slug: dredd-2012
 ---
 
-Often overlooked among the best comic book adaptations, _Dredd_ unfolds in a dystopian alternate timeline with Karl Urban in the titular role as an authoritarian police officer able to judge, sentence, and execute perpetrators on the spot. A routine call sends him and his rookie partner to a 200-storey housing block where they find themselves trapped and under siege from a murderous drug gang.
+Often overlooked among the best comic book adaptations, _Dredd_ unfolds in a dystopian alternate timeline with Karl Urban in the titular role as an authoritarian police officer able to judge, sentence, and execute perpetrators on the spot. A routine call sends him and his rookie partner to a 200-story housing block where they find themselves trapped and under siege from a murderous drug gang.
 
 <!-- end -->
 
