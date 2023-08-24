@@ -5,7 +5,7 @@ grade: B+
 slug: the-seventh-curse-1986
 ---
 
-Describing _The Seventh Curse_ proves a challenge. I could relate the plot involving a Hong Kong doctor travelling to Thailand to battle an evil wizard to rid himself of a black magic curse, but this doesn't capture the film's manic energy. Imagine a rollicking amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in a pulp adventure. That's _The Seventh Curse_, and it's glorious.
+Describing _The Seventh Curse_ proves challenging. I could relate the plot involving a Hong Kong doctor travelling to Thailand to battle an evil wizard to rid himself of a black magic curse, but this doesn't capture the film's manic energy. Imagine a rollicking amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in a pulp adventure. That's _The Seventh Curse_, and it's glorious.
 
 <!-- end -->
 
@@ -27,10 +27,10 @@ Shocked, Yuen's compatriots flee, but Yuen rushes forward, determined to rescue 
 
 Flashback complete, Wisely tells Yuen the blood curse will cause six vessels to pop, one per day, until the seventh and final day, when his heart will burst. Wisely suggests Yuen return to Thailand to seek a cure. Again, credit the decision to cast Chow, who delivers the equivalent of “that's tough… good luck!” with charm.
 
-But I digress. The rest of the film sees Yuen return to Thailand, leading to another run-in with the wizard and his tribe of goons. More action, after the requisite “gear up” scene, including a massive kung-fu battle up and down an ancient statue, a fight with a skeleton puppet that evokes Ray Harryhausen, and gallons of blood.
+The rest of the film sees Yuen return to Thailand, leading to another run-in with the wizard and his tribe of goons. More action, after the requisite “gear up” scene, including a massive kung-fu battle up and down an ancient statue, a fight with a skeleton puppet that evokes Ray Harryhausen, and gallons of blood.
 
 Despite the ample gore, the film retains a contagious sense of fun and adventure akin to the better James Bond entries. Don't expect rich characterization or deep emotional arcs. The focus is on spectacle and thrills with high narrative stakes but low emotional engagement. A fun watch where the thrill isn't _will_ our hero survive, but _how_. It may lack the Bond franchise's polish, but it compensates with sheer enthusiasm, overflowing with set pieces, special effects, and stunt work.
 
-Granted, some of those stunts seem a little too real, including a sequence where a Mitsubishi Jeep-like car bursts into a crowd of bad guys. It's a quick shot, but either they really hit somebody or that was the best stunt dummy I've seen in ages. This borderline dangerous approach continues with a scene where the Jeep barrels up the steps of a Thailand ruin. I can't imagine them allowing such a sequence today.
+Granted, some of those stunts seem a little too real, including a sequence where a Mitsubishi Jeep-like car bursts into a crowd of bad guys. It's a quick shot, but either they really hit someone or that was the best stunt dummy I've seen in ages. This borderline dangerous approach continues with a scene where the Jeep barrels up the steps of a Thailand ruin. I can't imagine them allowing such a sequence today.
 
 _The Seventh Curse_ is not for everyone. It takes its influences and dials them to eleven, even if such reach exceeds its grasp. You see the strings for the skeleton puppet. The preposterous action sees our hero take on an entire village almost single-handed. The horror includes a throwaway shot of a stone device crushing babies for their blood. But if you exist in the Venn overlap of kung-fu fans, Cannon action fans, and Italian horror fans, like me, you may wonder where this movie's been all your life.
