@@ -5,7 +5,7 @@ grade: C-
 slug: frontiers-2007
 ---
 
-Riots engulf Paris following a conservative candidate's election victory. Tight shots with handheld cameras convey the chaos and urgency. Five young adult French Muslims, a girl hiding a pregnancy, her brother, and three other men (one meek, one daring, and one hot-headed) have seized the opportunity to commit a robbery. The brother suffers a gunshot wound during the escape, prompting the group to split. The meek and daring men flee the city with the cash, while the girl and the hot-head—her former lover—drop her brother at a hospital. They plan to rendezvous in the countryside, but the rural inn they choose as a meeting place harbours nasty surprises. **Spoilers follow.**
+Riots engulf Paris following a conservative candidate's election victory. Tight shots with handheld cameras convey the chaos and urgency. Five young adult French Muslims, a girl hiding a pregnancy, her brother, and three other men (one meek, one daring, and one hot-headed) have seized the opportunity to commit a robbery. The brother suffers a gunshot wound during the escape, prompting the group to split. The meek one and daring one flee the city with the cash, while the girl and the hot-head—her former lover—drop her brother at a hospital. They plan to rendezvous in the countryside, but the rural inn they choose as a meeting place harbours nasty surprises. **Spoilers follow.**
 
 <!-- end -->
 

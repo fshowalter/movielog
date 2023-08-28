@@ -5,7 +5,7 @@ imdb_id: "tt0037611"
 grade: C
 ---
 
-Humphrey Bogart plays an engineer trapped in a loveless marriage and carrying a secret torch for his wife's sister. Seeing a way out, Bogart executes what he thinks is the perfect murder, but soon the evidence mounts that his wife may still be alive.
+Humphrey Bogart plays an engineer trapped in a loveless marriage and carrying a secret torch for his wife's sister. Seeing a way out, Bogart executes what he thinks is the perfect murder, but evidence soon mounts indicating his wife may still be alive. **Spoilers follow.**
 
 <!-- end -->
 
@@ -17,6 +17,6 @@ After the murder, Bogart's conscience weighs on him, as foreshadowed by psycholo
 
 From here the film pivots to gothic chiller. Long shadows and dark rooms dominate as Bogart's nerves fray. Witness report seeing his wife. Bogart spots her jewelry at a pawnbroker, only to find it gone when he returns with a detective. Worse still, the broker doesn't remember the jewelry and there's no entry in the shop's ledger.
 
-Driven to near madness, Bogart to return to the crime scene, where the police and Greenstreet are waiting. An exposition dump explains how Greenstreet orchestrated everything to prompt Bogart to implicate himself. Tidy enough, but the logistics fall apart at the slightest scrutiny.
+Driven to near madness, Bogart returns to the crime scene, where the police and Greenstreet are waiting. An exposition dump explains how Greenstreet orchestrated everything to prompt Bogart to implicate himself. Tidy enough, but the logistics fall apart at the slightest scrutiny.
 
 And as for Greenstreet, he acquits himself well as the hero detective. One could imagine an entire series with him in the role, solving crimes with a psychological twist. That said, I couldn't help but imagine Claude Rains in the part.
