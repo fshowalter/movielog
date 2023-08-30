@@ -5,7 +5,7 @@ grade: B+
 slug: the-seventh-curse-1986
 ---
 
-Describing _The Seventh Curse_ proves challenging. I could relate the plot involving a Hong Kong doctor travelling to Thailand to battle an evil wizard to rid himself of a black magic curse, but this doesn't capture the film's manic energy. Imagine a rollicking amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in a pulp adventure. That's _The Seventh Curse_, and it's glorious.
+Describing _The Seventh Curse_ proves challenging. I could relate the plot involving a Hong Kong doctor travelling to Thailand to battle an evil wizard to rid himself of a black magic curse, but this doesn't capture the film's manic energy. Imagine a glorious amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in pulp adventure and cranked to eleven. That's _The Seventh Curse_, and I loved it.
 
 <!-- end -->
 
@@ -33,4 +33,4 @@ Despite the ample gore, the film retains a contagious sense of fun and adventure
 
 Granted, some of those stunts seem a little too real, including a sequence where a Mitsubishi Jeep-like car bursts into a crowd of bad guys. It's a quick shot, but either they really hit someone or that was the best stunt dummy I've seen in ages. This borderline dangerous approach continues with a scene where the Jeep barrels up the steps of a Thailand ruin. I can't imagine them allowing such a sequence today.
 
-_The Seventh Curse_ is not for everyone. It takes its influences and dials them to eleven, even if such reach exceeds its grasp. You see the strings for the skeleton puppet. The preposterous action sees our hero take on an entire village almost single-handed. The horror includes a throwaway shot of a stone device crushing babies for their blood. But if you exist in the Venn overlap of kung-fu fans, Cannon action fans, and Italian horror fans, like me, you may wonder where this movie's been all your life.
+_The Seventh Curse_ is not for everyone. It embraces its influences to extremes, even if such reach exceeds its grasp. You see the strings for the skeleton puppet. The preposterous action sees our hero take on an entire village almost single-handed. The horror includes a throwaway shot of a stone device crushing babies for their blood. But if you exist in the Venn overlap of kung-fu fans, Cannon action fans, and Italian horror fans, like me, you may wonder where this movie's been all your life.
