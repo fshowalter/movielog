@@ -5,7 +5,7 @@ grade: B+
 slug: the-seventh-curse-1986
 ---
 
-Describing _The Seventh Curse_ proves challenging. I could relate the plot involving a Hong Kong doctor travelling to Thailand to battle an evil wizard to rid himself of a black magic curse, but this doesn't capture the film's manic energy. Imagine a glorious amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in pulp adventure and cranked to eleven. That's _The Seventh Curse_, and I loved it.
+Imagine a glorious amalgam of Golden Harvest martial arts, Cannon action, and Italian horror wrapped in pulp adventure and cranked to eleven. That's _The Seventh Curse_, and I loved it.
 
 <!-- end -->
 
