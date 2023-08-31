@@ -5,7 +5,7 @@ grade: B
 slug: the-magnificent-seven-1960
 ---
 
-Six are, indeed, magnificent, but the seventh seems plucked from a lesser movie.
+Six are, indeed, magnificent, but Horst Buchholz seems plucked from a lesser movie.
 
 <!-- end -->
 
@@ -49,11 +49,11 @@ James Coburn follows as Britt, whose near wordless performance sees his piercing
 
 Last comes Robert Vaughn as Lee, a wanted man harboring a secret shame.
 
-Indeed, these six are magnificent. When the film works best, such as the aforementioned stage scene, director John Sturges and the script let the six's boundless charisma radiate from the screen. Such moments evoke Howard Hawks, and indeed, as the men arrive in the village and await Wallach’s return, the film settles into a hangout picture similar to <span data-imdb-id="tt0053221">_Rio Bravo_</span>.
+These six are magnificent. When the film works best, such as the aforementioned stage scene, director John Sturges and the script let the six's boundless charisma radiate from the screen. Such moments evoke Howard Hawks, and indeed, as the men arrive in the village and await Wallach’s return, the film settles into a hangout picture similar to <span data-imdb-id="tt0053221">_Rio Bravo_</span>.
 
-But about the seventh.
+But about Buchholz.
 
-Horst Buchholz plays Chico, a would-be gunslinger who auditions for Brynner early, only for Brynner to sniff out his neophyte status and send him packing.
+He plays Chico, a would-be gunslinger who auditions for Brynner early, only for Brynner to sniff out his neophyte status and send him packing.
 
 Humiliated, Buchholz turns up later, drunk, and does a lot of whiny emoting while Brynner and company ignore him with stoic silence.
 
