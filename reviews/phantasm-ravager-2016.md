@@ -9,7 +9,7 @@ Cut it some slack.
 
 <!-- end -->
 
-In his autobiography _True Indie_, <span data-imdb-id="tt0079714">_Phantasm_</span> creator Don Coscarelli relates how, in 2009, David Hartman approached him with an idea of shooting some experimental short films set in the Phantasm universe. Coscarelli, who knew Hartman from his visual effects work on Coscarelli’s film <span data-imdb-id="tt0281686">_Bubba Ho-Tep_</span>, agreed and brought Reggie Bannister onboard. Hartman assembled a six-person crew of family and friends and shot on weekends when schedules permitted.
+In his autobiography _True Indie_, <span data-imdb-id="tt0079714">_Phantasm_</span> creator Don Coscarelli relates how, in 2009, David Hartman approached him with an idea of shooting some experimental short films set in the _Phantasm_ universe. Coscarelli, who knew Hartman from his visual effects work on Coscarelli’s film <span data-imdb-id="tt0281686">_Bubba Ho-Tep_</span>, agreed and brought Reggie Bannister onboard. Hartman assembled a six-person crew of family and friends and shot on weekends when schedules permitted.
 
 These shorts were based on disjointed scenarios and ideas, like “Reggie [meets] a young woman hitchhiking,” and “Reggie encounters the Lady in Lavender,” not an overarching script.
 
