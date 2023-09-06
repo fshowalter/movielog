@@ -15,7 +15,7 @@ These shorts were based on disjointed scenarios and ideas, like “Reggie [meets
 
 When complete, they totaled about twenty minutes of footage. Coscarelli and Hartman discussed ideas for how to weave these into a feature. They collaborated on a script that became _Phantasm: Ravager_, and Hartman set out to finish the film with Coscarelli serving as a producer.
 
-Working with half the first film’s budget meant shooting on video instead of film and necessitated a skeleton crew that saw Hartman also double as a camera operator and visual effects artist. Hartman kept his day job—an animation director at Disney—and shot on weekends. Over five years, he completed the film.
+Working with half the first film’s budget meant shooting on video instead of film and necessitated a skeleton crew that saw Hartman also double as a camera operator and visual effects artist. Hartman kept his day job—an animation director at Disney and later Hasbro—and shot on weekends. Over five years, he completed the film.
 
 It opens with Reggie emerging from the desert, his clothes in tatters, after an indeterminate amount of time chasing the Tall Man through other worlds or dimensions. Finding his car--the Hemicuda--missing, he hoofs it down the highway.
 
