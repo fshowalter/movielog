@@ -48,7 +48,7 @@ The producers budgeted $500,000 including Sonny and Cher's $100,000 fee. Friedki
 
 He also didn't know much about vetting and managing union crews. A series of bad decisions saw Friedkin blow through his twenty-day shoot and budget with just forty-five minutes of usable footage. The producer was apoplectic. Sonny, nonplussed.
 
-Friedkin proposed a solution. He'd recruit his The People vs Paul Crump partner, cameraman Bill Butler, from Chicago, and, along with a small non-union crew, steal enough shots around Los Angeles to complete the film for under $100,000. The producers thought him crazy, but agreed. Two weeks later, Friedkin had another forty-five minutes of footage and a finished movie.
+Friedkin proposed a solution. He'd recruit his _The People vs Paul Crump_ partner, cameraman Bill Butler, from Chicago, and, along with a small non-union crew, steal enough shots around Los Angeles to complete the film for under $100,000. The producers thought him crazy, but agreed. Two weeks later, Friedkin had another forty-five minutes of footage and a finished movie.
 
 The tone and production style of the satirical fantasy sequences evoke the then-contemporary _Batman_ television series—complete with George Sanders as the celebrity villain. Friedkin proffers some novel camera angles--bird's eye views and high-corner shots--but can't overcome the production's innate flaw.
 
