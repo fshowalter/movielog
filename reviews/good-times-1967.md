@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2021-09-20
 imdb_id: tt0061720
 title: Good Times (1967)
 grade: F
