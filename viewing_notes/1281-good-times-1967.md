@@ -1,4 +1,4 @@
-Commentary watch. Lee Gambin, an unabashed fan of both Friedkin and Sonny and Cher, offers a wealth of information about the film's production and stars. But he did little to convince me of the film's merits. At best, I gained an appreciation for Friedkin's dynamic camera work. But I still struggled with Bono's uncanny valley performance. He's a thirty-something man acting like a teenager. It's not so much that it's a bad performance (it is) but how calculated it feels, right down to portraying him as a henpecked husband with Cher not letting him ride his motorcycle.
+Commentary watch. Lee Gambin, an unabashed fan of both Friedkin and Sonny and Cher, offers a wealth of information about the film's production and stars. But he did little to convince me of the film's merits. At best, I gained an appreciation for Friedkin's dynamic camera work. But I still struggled with Bono's uncanny valley performance. He's a thirty-something man acting like a teenager.
 
 <!-- end -->
 
