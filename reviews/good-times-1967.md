@@ -10,7 +10,7 @@ Sonny Bono was the original hipster.
 
 <!-- end -->
 
-In his autobiography, The Friedkin Connection, director William Friedkin chronicles the improbable path to his debut feature, a musical comedy starring Sonny and Cher.
+In his autobiography, _The Friedkin Connection_, director William Friedkin chronicles the improbable path to his debut feature, a musical comedy starring Sonny and Cher.
 
 Born to Ukrainian immigrants, Friedkin grew up in a poor uptown Chicago neighborhood.
 
@@ -30,7 +30,7 @@ At WTTW, he met Lois Solomon, the producer of several local arts shows. She invi
 
 At the party, he met another “interesting” guest, Father Robert Serfling, the Death Row chaplain at Chicago's Cook County Jail. To make conversation, Friedkin asked Serfling if he ever met anyone he thought was innocent. Serfling told Friedkin about a man awaiting execution now, named Paul Crump.
 
-That conversation led to Friedkin's first film, a documentary titled _The People vs. Paul Crump_. The documentary won awards, which led to more documentary work, which led to Friedkin gaining representation by the William Morris Agency.
+That conversation led to Friedkin's first film, a documentary titled <span data-imdb-id="tt0378552">_The People vs. Paul Crump_</span>. The documentary won awards, which led to more documentary work, which led to Friedkin gaining representation by the William Morris Agency.
 
 This led to Friedkin moving to Hollywood, where he cranked out documentaries for The Wolper Company.
 
@@ -40,7 +40,7 @@ In Sonny Bono, Friedkin found an improbable mentor. Wrote Friedkin, “I've work
 
 Consider the series of chances leading to this pairing. What if Friedkin picked up a different newspaper all those years ago? What if he blew off the cocktail party? What if he never met Father Serfling? What if he signed with a different talent agency?
 
-Add another chance to the pile. Friedkin almost passed on the job. He had an offer from John Frankenheimer to helm second unit on Frankenheimer's racing picture _Grand Prix_. Friedkin idolized Frankenheimer, as Frankenheimer had come up through live television like Friedkin and graduated to make A-list pictures like _Birdman of Alcatraz_ and _The Manchurian Candidate_. The William Morris folks convinced him to do the Sonny and Cher picture, “Because if you do second unit on the Frankenheimer movie and it works, you'll be a second-unit director forever. If it doesn't work, you'll have a hard time getting a film to direct. Do Sonny and Cher, and whether it's good or bad, you are a film director.”[^3]
+Add another chance to the pile. Friedkin almost passed on the job. He had an offer from John Frankenheimer to helm second unit on Frankenheimer's racing picture <span data-imdb-id="tt0060472">_Grand Prix_</span>. Friedkin idolized Frankenheimer, as Frankenheimer had come up through live television like Friedkin and graduated to make A-list pictures like <span data-imdb-id="tt0055798">_Birdman of Alcatraz_</span> and <span data-imdb-id="tt0056218">_The Manchurian Candidate_</span>. The William Morris folks convinced him to do the Sonny and Cher picture, “Because if you do second unit on the Frankenheimer movie and it works, you'll be a second-unit director forever. If it doesn't work, you'll have a hard time getting a film to direct. Do Sonny and Cher, and whether it's good or bad, you are a film director.”[^3]
 
 So Friedkin signed on, and he and Sonny set out to draft a script. They floundered before recruiting amateur screenwriter Nicholas Hyams, who proposed Sonny and Cher play themselves trying to make a movie. The relationship between Hyams and Friedkin soured fast. Sonny stayed loyal to Friedkin and dismissed Hyams. Sonny and Friedkin retained the meta contextual premise and set about crafting a movie. They landed on a Faustian tale that would see them enact fantasies of the kinds of movies they might make, which would satirize the western, Tarzan, and private-eye genres.
 
