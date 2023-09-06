@@ -6,7 +6,7 @@ grade: F
 slug: good-times-1967
 ---
 
-Sonny Bono was a hipster before hipsters.
+Sonny Bono was the original hipster.
 
 <!-- end -->
 
