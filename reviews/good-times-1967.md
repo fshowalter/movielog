@@ -6,7 +6,7 @@ grade: F
 slug: good-times-1967
 ---
 
-Sonny Bono was the original hipster.
+Sonny Bono creeps me out.
 
 <!-- end -->
 
@@ -16,7 +16,7 @@ Born to Ukrainian immigrants, Friedkin grew up in a poor uptown Chicago neighbor
 
 Unremarkable at school—aside from a bad-boy streak that saw him pinched for shoplifting as a teen—Friedkin graduated with few prospects and no interest in college.
 
-A newspaper want ad led to a mail room job at a television station WGN-TV.
+A newspaper want ad led to a mail room job at television station WGN-TV.
 
 Live television production fascinated Friedkin, who soaked up every bit of information he could. Seeing the director at work unlocked an ambition Friedkin didn't know he possessed.
 
@@ -54,7 +54,7 @@ The tone and production style of the satirical fantasy sequences evoke the then-
 
 Throughout the film, Sonny and Cher worry about “selling out” and making a hollow cash-grab of a film. Having them play themselves proved inspired, but Sonny's reluctance to show the reality behind the curtain—where Cher remained in his thrall—forced an artifice upon their screen personas. Cher handles it with practiced ease, but Sonny struggles. I couldn't shake the sense that he was “playing” Sonny.
 
-Maybe it was the dissonance between his age and haircut, but unlike Cher, he feels like a façade. A hipster before hipsters. Consider the sequence where Cher forbids him from riding his motorcycle. This attempt to cast him as a hen-pecked husband rings false. By Friedkin's account, Cher was "completely and voluntarily under Sonny’s domination, but this wasn’t an image you’d want to portray."[^4]
+Maybe it was the dissonance between his age and haircut, but unlike Cher, he feels like a façade. A projected image meant to conceal something more calculating. Consider the sequence where Cher forbids him from riding his motorcycle. This attempt to cast him as a hen-pecked husband rings false. By Friedkin's account, Cher was "completely and voluntarily under Sonny’s domination, but this wasn’t an image you’d want to portray."[^4]
 
 Thus, the film, meant to be ironic, turns out as the vapid cash grab they feared. The hard-boiled segment elicited a few chuckles, but the rest of the comedy fell flat.
 
