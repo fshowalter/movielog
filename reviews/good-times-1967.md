@@ -6,11 +6,9 @@ grade: F
 slug: good-times-1967
 ---
 
-Sonny Bono creeps me out.
+In his autobiography, _The Friedkin Connection_, director William Friedkin chronicles the improbable path to his debut feature, a musical comedy starring Sonny and Cher.
 
 <!-- end -->
-
-In his autobiography, _The Friedkin Connection_, director William Friedkin chronicles the improbable path to his debut feature, a musical comedy starring Sonny and Cher.
 
 Born to Ukrainian immigrants, Friedkin grew up in a poor uptown Chicago neighborhood.
 
