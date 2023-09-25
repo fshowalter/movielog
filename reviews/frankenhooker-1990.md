@@ -11,7 +11,7 @@ Don't let the title fool you. Director and co-writer Frank Henenlotter's story o
 
 In a performance evoking Andrew McCarthy by way of New Jersey, James Lorinz, plays Jeffrey, a utility worker with a side interest in bioelectrical engineering. He opens the film at a party at his future in-laws. While his fiancée, Elizabeth, mingles with the guests outside, Jeffrey sits at the kitchen table fiddling with a brain attached to a makeshift electrical apparatus wired into a camcorder. Jeffrey has attached a lone eyeball to the brain's center and can track its vision on a small television via camcorder.
 
-Jeffrey's imploring the eye to follow his hand. When it doesn't respond, he drives a scalpel into the brain, as if to depress a deep button. The act carries less a sense of malice than frustration at a failing experiment. To his delight, the scalpel seems to work, and the eye begins tracking his hand. Then Elizabeth's mother interrupts, oblivious to the macabre experiment. and asks him to please pass the ketchup.
+Jeffrey's imploring the eye to follow his hand. When it doesn't respond, he plunges a scalpel into the brain, as if to depress a button. The act carries less a sense of malice than frustration at a failing experiment. To his delight, the scalpel seems to work, and the eye begins tracking his hand. Then Elizabeth's mother interrupts, oblivious to the macabre experiment. and asks him to please pass the ketchup.
 
 We follow Elizabeth's mother outside, where she chides Elizabeth to “ease up on the pretzels.” Later, Elizabeth explains to a friend all the efforts she's made to lose weight, saying: “Oh, heck. I've tried it all and nothing works. I've tried liquid diet, seafood diets, vegetable diets, fruit diets, pills, powders, Weight Watchers, and clinics. I even had Jeffrey staple my stomach and nothing helps.”
 
@@ -21,7 +21,7 @@ Later in the party, Elizabeth falls victim to a gruesome lawnmower accident, set
 
 After the opening credits, a distraught Jeffrey confesses his growing concerns over his mental health to his mother, saying “I feel like sometimes I'm plunging headfirst into some kind of black void of sheer utter madness.” Jeffrey's mother responds with a blank face, asking, “Do you want a sandwich?”
 
-Another memorable scene comes when Jeffrey brainstorms ways to acquire the body parts necessary to reconstruct Elizabeth. Frustrated in his schemes, he produces a power-drill, identifies a segment of his brain, and drills. This produces a jolt of inspiration. Not satisfied, he drills again and arrives on the idea of preying on sex workers.
+Another memorable scene comes when Jeffrey brainstorms ways to acquire the body parts necessary to reconstruct Elizabeth. Frustrated by his lack of ideas, he produces a power-drill, identifies a segment of his brain, and drills. This produces a jolt of inspiration. Not satisfied, he drills again and arrives on the idea of preying on sex workers.
 
 After identifying his victims, Jeffrey needs a way to murder them. On the television, a Morton Downey Jr.-like talk-show host disparages his guest, a sex worker promoting a program called “Hold On to Our Knowledge of Equal Rights”, or H.O.O.K.E.R.
 
