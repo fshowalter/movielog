@@ -49,17 +49,17 @@ What a discovery. I expected a goofy camp picture and came away impressed by the
 
 ---
 
-After watching the film, I began reading Boorman’s autobiography, _Adventures of a Suburban Boy_.[^2] He came up through television, directing stylish documentaries for BBC Bristol. One film covered an articulate beatnik teen, which inspired this film’s hippy encounter. Another film, about Glastonbury, uncovered its “Rabelaisian underbelly”—a thread excised from the finished film but served as inspiration for the Guy and Nan characters.
+After watching the film, I began reading Boorman’s autobiography, _Adventures of a Suburban Boy_.[^2] He came up through television, directing stylish documentaries for BBC Bristol. One film covered an articulate beatnik teen, which inspired this film’s hippy encounter. Another production, shot in Glastonbury, uncovered its “Rabelaisian underbelly” which inspired this film's Guy and Nan characters.
 
 Interesting, but the behind-the-scenes drama proved more surprising.
 
-When Boorman and screenwriter Peter Nichols first met Clark, they were “immediately depressed by his large, expressionless features and his flat, lugubrious voice.” What I saw as a confident, minimalist performance from Clark owed more to Boorman, who, having trouble getting Clark to perform, cut his dialogue to the bare minimum and had him play silent and taciturn. He resented the attention paid to Barbara Farris, who, in turn, was insecure about her appearance.
+When Boorman and screenwriter Peter Nichols first met Clark, they were “immediately depressed by his large, expressionless features and his flat, lugubrious voice.” What I saw as a confident, minimalist performance from Clark owed more to Boorman, who, having trouble getting Clark to perform, cut his dialogue to the bare minimum and had him play silent and taciturn. Boorman turned his attention to Farris, which Clark resented. Farris, in turn, was insecure about her appearance.
 
 Tensions boiled over when Clark insulted the costume designer and received a sock in the jaw from her husband, one of Boorman’s few trusted confidants. Clark took three days to recover.
 
 Nichols and Boorman wrote the script in three weeks. Four months from the day they sat down to write, the picture opened. Just before the film’s release, Boorman gave a press interview saying it was “not a great film.” Looking back in his autobiography, he maintains that position, saying “However brilliantly Peter and I had decorated the surfaces, it had a hollow center.”
 
-Perhaps its troubled production colors Boorman's perspective. Yes, it has a hollow center, but that’s the entire point. The celebrities, the beatniks, the libertines, the businessmen, they’re all hollow. In applying his documentary lens, Boorman has betrayed the truth behind the façade. For the film to proffer anything else would feel disingenuous.
+Perhaps the troubled production colors Boorman's perspective. Yes, it has a hollow center, but that’s the entire point. The celebrities, the beatniks, the libertines, the businessmen, they’re all hollow. In applying his documentary lens, Boorman has betrayed the truth behind the façade. For the film to proffer anything else would feel disingenuous.
 
 Pauline Kael also saw something, as she praised it in _The New Yorker_, upping Boorman’s Hollywood credibility. Indeed, it may not be a great film, Mr. Boorman, but it is a good one.
 
