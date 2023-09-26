@@ -5,7 +5,7 @@ grade: B-
 slug: having-a-wild-weekend-1965
 ---
 
-Director John Boorman's feature debut sees Dave Clark and his band playing stunt men working on a London-based ad-campaign. Clark and the spokesmodel, played by Barbara Ferris, ditch the production for a road trip to an island in south England with the ad company in close pursuit. **Spoilers follow**.
+Director John Boorman's feature debut sees Dave Clark and his band playing stuntmen working on a London-based ad-campaign. Clark and the spokesmodel, played by Barbara Ferris, ditch the production for a road trip to an island in south England with the ad company in close pursuit. **Spoilers follow**.
 
 <!-- end -->
 
@@ -19,7 +19,7 @@ Back to Clark and Ferris. First, they tool around London in a stolen Jaguar. The
 
 After touring London, the pair scuba dive in a rooftop pool. On the surface it proves just another goofy lark, but the contrast of Clark and Ferris in wetsuits swimming in near-freezing water under cloudy skies looks more like a desperate escapist fantasy than fun. It piqued my curiosity.
 
-The pair then leave town, heading for the island. We learn Ferris dreams of purchasing it with her modeling money.
+The pair then leave for the island. We learn Ferris dreams of purchasing it with her modeling money.
 
 Their first pit-stop lands them in a desolate village. Overcast skies and leafless trees frame empty run-down houses. In one large building, they encounter a destitute group of beatniks.
 
@@ -47,4 +47,21 @@ The film builds to an unexpected downbeat ending that I won't spoil, except to s
 
 What a discovery. I expected a goofy camp picture and came away impressed by the film's existential undercurrent. Clark surprises with his confident screen presence and minimalist performance, and Boorman proffers terrific location photography and a measured tone that disguises a deeper film as a pop group vehicle.
 
-[^1]: Predating the Hamburglar from McDonald's by several years.
+---
+
+After watching the film, I began reading Boorman’s autobiography, _Adventures of a Suburban Boy_.[^2] He came up through television, directing stylish documentaries for BBC Bristol. One film covered an articulate beatnik teen, which inspired this film’s hippy encounter. Another production, shot in Glastonbury, uncovered its “Rabelaisian underbelly” which inspired this film's Guy and Nan characters.
+
+Interesting, but the behind-the-scenes drama proved more surprising.
+
+When Boorman and screenwriter Peter Nichols first met Clark, they were “immediately depressed by his large, expressionless features and his flat, lugubrious voice.” What I saw as a confident, minimalist performance from Clark owed more to Boorman, who, having trouble getting Clark to perform, cut his dialogue to the bare minimum and had him play silent and taciturn. Boorman turned his attention to Farris, which Clark resented. Farris, in turn, was insecure about her appearance.
+
+Tensions boiled over when Clark insulted the costume designer and received a sock in the jaw from her husband, one of Boorman’s few trusted confidants. Clark took three days to recover.
+
+Nichols and Boorman wrote the script in three weeks. Four months from the day they sat down to write, the picture opened. Just before the film’s release, Boorman gave a press interview saying it was “not a great film.” Looking back in his autobiography, he maintains that position, saying “However brilliantly Peter and I had decorated the surfaces, it had a hollow center.”
+
+Perhaps the troubled production colors Boorman's perspective. Yes, it has a hollow center, but that’s the entire point. The celebrities, the beatniks, the libertines, the businessmen, they’re all hollow. In applying his documentary lens, Boorman has betrayed the truth behind the façade. For the film to proffer anything else would feel disingenuous.
+
+Pauline Kael also saw something, as she praised it in _The New Yorker_, upping Boorman’s Hollywood credibility. Indeed, it may not be a great film, Mr. Boorman, but it is a good one.
+
+[^1]: Predating the Hamburglar from McDonald's by several years. According to Boorman, "At the time there was an advertising campaign for milk featuring a sprightly girl, Zoe Newton--'Drinka pinta milka day'--and we invented a variation on that. 'Meat for Go' was our slogan." (_Adventures of a Suburban Boy_, 113-114)
+[^2]: John Boorman, _Adventures of a Suburban Boy_, (New York: Farrar, Straus and Giroux, 2003), Kindle.
