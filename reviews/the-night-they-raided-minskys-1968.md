@@ -7,6 +7,8 @@ slug: the-night-they-raided-minskys-1968
 
 For his second feature, director William Friedkin tries another musical comedy, this one about the waning days of burlesque. He should have known better, but given the circumstances, I understand.
 
+<!-- end -->
+
 In his autobiography, _The Friedkin Connection_, Friedkin reveals how, post <span data-imdb-id="tt0061720">_Good Times_</span>, he feared another flop would end his career. Thus, he passed on a lot of material. This led to concerns from his agents at William Morris. “You’re only a film director if you’re making films,” they cautioned.
 
 Enter Bud Yorkin. Friedkin met Yorkin through Dave Wolper, a documentary producer and Friedkin’s former employer. Yorkin and Friedkin hit it off and became instant friends.
