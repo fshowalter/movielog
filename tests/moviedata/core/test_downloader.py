@@ -53,7 +53,15 @@ def test_skips_download_if_file_already_exists(subprocess_mock: MagicMock) -> No
 def test_calls_curl_with_the_correct_args(subprocess_mock: MagicMock) -> None:
     folder_path = os.path.join(downloader.DOWNLOAD_DIR, "2020-04-04")
     expected_out = os.path.join(folder_path, "test.tsv.gz")
+    expected_in = "{0}test.tsv.gz".format(downloader.IMDB_BASE)
 
-    expected_args = ["curl", "--fail", "--progress-bar", "-o", expected_out]
+    expected_args = [
+        "curl",
+        "--fail",
+        "--progress-bar",
+        "-o",
+        expected_out,
+        expected_in,
+    ]
     assert downloader.download("test.tsv.gz") == expected_out
-    assert subprocess_mock.called_once_with(expected_args, shell=False)
+    subprocess_mock.assert_called_once_with(expected_args, shell=False)
