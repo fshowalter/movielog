@@ -5,7 +5,8 @@
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
-    }
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "python.linting.flake8Enabled": true,
   "python.linting.mypyArgs": ["--show-column-numbers"],

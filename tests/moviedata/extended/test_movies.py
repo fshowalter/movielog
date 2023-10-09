@@ -112,7 +112,7 @@ def test_fetch_parses_imdb_data(
 
     movie = movies.fetch("tt0092106")
 
-    assert imdb_http_mock.called_once_with("0092106")
+    imdb_http_mock.assert_called_once_with("0092106", info=["main", "release_dates"])
     assert expected == movie
 
 
