@@ -5,7 +5,7 @@ grade: C+
 slug: the-birthday-party-1968
 ---
 
-Director William Friedkin’s third feature adapts Harold Pinter’s play described as “a comedy of menace.” Spoilers follow.
+Director William Friedkin’s third feature adapts Harold Pinter’s play described as “a comedy of menace.” **Spoilers follow.**
 
 <!-- end -->
 
