@@ -5,7 +5,7 @@ grade: D+
 slug: friday-the-13th-part-vii-the-new-blood-1988
 ---
 
-I came with an open mind. I'd heard rumblings this Jason meets _Carrie_ slasher was bad, but rumblings can be wrong.
+I came with an open mind. I'd heard rumblings this Jason meets <span data-imdb-id="tt0074285">_Carrie_</span> slasher was bad, but rumblings can be wrong.
 
 <!-- end -->
 
