@@ -1,7 +1,7 @@
 ---
 date: 2023-03-28
 imdb_id: tt0095740
-grade: D-
+grade: D
 slug: nightmare-beach-1989
 ---
 

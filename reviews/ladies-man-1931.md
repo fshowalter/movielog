@@ -1,7 +1,6 @@
 ---
 date: 2020-11-25
 imdb_id: tt0022043
-title: Ladies' Man (1931)
 grade: C
 slug: ladies-man-1931
 ---
