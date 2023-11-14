@@ -9,11 +9,11 @@ Someone is murdering spring-breakers and it's up to a morose, undersized college
 
 <!-- end -->
 
-On the plus side, Nightmare Beach maximizes its Daytona Beach photography. I had no idea roads and parking lots bisect the beaches, but an early shot shows masses of spring breakers lounging in the sand with rows of parked cars between them and the ocean. A later shot shows a procession of cars cruising down the beach, again bisecting the sunbathers and the surf.
+On the plus side, _Nightmare Beach_ maximizes its Daytona Beach photography. I had no idea roads and parking lots bisect the beaches, but an early shot shows masses of spring breakers lounging in the sand with rows of parked cars between them and the ocean. A later shot shows a procession of cars cruising down the beach, again bisecting the sunbathers and the surf.
 
-This sense of overcrowded, drunken revelry effuses the film's principal sets. A local bar where you can smell the sweat and suntan lotion, and a budget hotel, where drunken breakers sit unconscious outside room doors. As a time-capsule, the film shines.
+This sense of overcrowded, drunken revelry effuses the film's principal sets. A local bar where you can smell the sweat and suntan lotion, and a budget hotel, where drunken breakers lay sprawled unconscious outside room doors. As a time-capsule, the film shines.
 
-But this concludes the plus side.
+This concludes the plus side.
 
 The inane script concerns an “unknown” assailant who—dressed in a trim leather biker suit and face-hiding motorcycle helmet—electrocutes random breakers using his tricked out touring bike. I say “unknown” with quotes because veteran giallo fans will guess the culprit early-on, though it doesn't detract from the narrative as the script downplays the mystery.
 
@@ -21,13 +21,17 @@ Instead, it focuses on the kills. While the assailant prefers breakers, he's not
 
 One scene introduces a group of breakers partying on the beach at night. An anonymous girl returns to her RV for a moment. As she moves through the confined space, the killer pops out of a closet.
 
-How long was he in there? How did he know it was her trailer? What if she wasn't alone? So many questions, so few answers.
+How long was he in there? How did he know it was her trailer? What if she wasn't alone?
 
-A better movie would have followed the killer around, showing him hurrying to put on his leathers and get to his hiding places, then showing how he passes the time in closets, elevator shafts, and other hiding places.
+So many questions, so few answers.
 
-But I digress. The killer's behavior isn't the only head-scratcher. One of the myriad side plots concerns a pair of thieves preying on the breakers. One performs an attention-grabbing prank, like playing dead in the pool. When everyone rushes to see the prankster, his accomplice disappears with any untended cash. At one point, the prankster poses as a shark. Swimmers scream and run ashore. A local cop urges everyone back, then opens fire with his pistol into the water. The inanity had me roaring.
+A better movie would have followed the killer around, showing him hurrying to put on his leathers and get to his hiding places, then showing how he passes the time waiting in closets, elevator shafts, and other hiding places.
 
-And lest I forget our protagonists. Skip is a college football quarterback who just lost the orange bowl for his team. Gail, a local bartender. Both deliver their lines dead flat, as though someone were reading them the script via an earpiece and they were just repeating the words with no sense of context or emphasis.
+But I digress.
+
+The killer's behavior isn't the only head-scratcher. One of the myriad side plots concerns a pair of thieves preying on the breakers. One performs an attention-grabbing prank, like playing dead in the pool. When everyone rushes to see the prankster, his accomplice disappears with any untended cash. At one point, the prankster poses as a shark. Swimmers scream and run ashore. A local cop urges everyone back, then opens fire with his pistol into the water. The inanity had me roaring.
+
+And lest I forget our protagonists. Skip is a college football quarterback who just lost the Orange Bowl for his team. Gail, a local bartender. Both deliver their lines dead flat, as though someone were feeding them the script via an earpiece and they were just repeating the words with no sense of context or emphasis.
 
 The supporting players fare better. John Saxon plays the local police chief. Unlike his usual cop roles, this time he wears a uniform. Lance LeGault plays the local reverend with his typical gravitas. And Michael Parks plays the local coroner with a drinking problem that's not intended as comedy but plays as such. But the standout supporting player award goes to “Gator Guy,” a drunken University of Florida fan who pops up screaming “Gators!” at various times. Love that guy.
 
