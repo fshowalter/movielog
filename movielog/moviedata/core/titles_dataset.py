@@ -13,7 +13,7 @@ TITLE_RATINGS_FILE_NAME = "title.ratings.tsv.gz"
 
 
 Whitelist = {
-    "tt0019035",  # Interference (1928) (no runtime)
+    "tt0019035",  # Interference (1928) [no runtime]
     "tt0116671",  # Jack Frost (1997) [V]
     "tt0148615",  # Play Motel (1979) [X]
     "tt1801096",  # Sexy Evil Genius (2013) [V]
@@ -21,12 +21,16 @@ Whitelist = {
     "tt11060882",  # Batman: The Dark Knight Returns (2013) [V]
     "tt0101760",  # Door to Silence (1992) [V]
     "tt0112643",  # Castle Freak (1995) [V]
-    "tt1356864",  # I'm Still Here (2010) (documentary)
+    "tt1356864",  # I'm Still Here (2010) [documentary]
     "tt0209095",  # Leprechaun 5: In the Hood [V]
     "tt0239496",  # Jack Frost 2 (2000) [V]
     "tt0094762",  # Blood Delerium (1988) (no year)
     "tt0113636",  # Leprechaun 3 [V]
     "tt22698070",  # Mortal Kombat Legends: Cage Match [V]
+    "tt0114397",  # The Setup [Showtime TV Movie]
+    "tt0242798",  # Proximity (2001) [HBO TV Movie]
+    "tt0106449",  # Body Bags (1993) [Showtime TV Movie]
+    "tt0070696",  # The Sinful Dwarf (1973) [X]
 }
 
 MovieRow = movies_table.Row

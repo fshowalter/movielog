@@ -26,14 +26,6 @@ JsonWriter = TypedDict(
     },
 )
 
-JsonWriterGroup = TypedDict(
-    "JsonWriterGroup",
-    {
-        "sequence": int,
-        "writers": list[JsonWriter],
-    },
-)
-
 JsonPerformer = TypedDict(
     "JsonPerformer",
     {
@@ -69,7 +61,7 @@ JsonTitle = TypedDict(
         "genres": list[str],
         "directors": list[JsonDirector],
         "performers": list[JsonPerformer],
-        "writers": list[JsonWriterGroup],
+        "writers": list[JsonWriter],
     },
 )
 
@@ -112,12 +104,6 @@ class CreateTitleWriter(object):
     notes: Optional[str]
 
 
-@dataclass
-class CreateTitleWriterGroup(object):
-    sequence: int
-    writers: list[CreateTitleWriter]
-
-
 def create(
     imdb_id: str,
     title: str,
@@ -128,7 +114,7 @@ def create(
     genres: list[str],
     directors: list[CreateTitleDirector],
     performers: list[CreateTitlePerformer],
-    writers: list[CreateTitleWriterGroup],
+    writers: list[CreateTitleWriter],
 ) -> JsonTitle:
     title_with_year = "{0} ({1})".format(title, year)
     slug = slugify(title_with_year, replacements=[("'", "")])
@@ -163,19 +149,13 @@ def create(
             for performer in performers
         ],
         writers=[
-            JsonWriterGroup(
-                sequence=group.sequence,
-                writers=[
-                    JsonWriter(
-                        imdbId=writer.imdb_id,
-                        name=writer.name,
-                        sequence=writer.sequence,
-                        notes=writer.notes,
-                    )
-                    for writer in group.writers
-                ],
+            JsonWriter(
+                imdbId=writer.imdb_id,
+                name=writer.name,
+                sequence=writer.sequence,
+                notes=writer.notes,
             )
-            for group in writers
+            for writer in writers
         ],
     )
 
@@ -191,7 +171,7 @@ class DbData(object):
 
 
 def fetch_db_data(imdb_id: str) -> DbData:
-    query = "select title, year from movies where imdb_id={0}"
+    query = 'select title, year from movies where imdb_id="{0}"'
 
     row = db.fetch_all(query.format(imdb_id))[0]
 
@@ -214,7 +194,9 @@ def fix_all() -> None:
                 title=db_data.title,
                 year=db_data.year,
                 release_date=json_data["release_date"],
-                release_date_notes=json_data["release_date_notes"],
+                release_date_notes=None
+                if json_data["release_date_notes"] == ""
+                else json_data["release_date_notes"],
                 countries=json_data["countries"],
                 genres=json_data["genres"],
                 directors=[
@@ -222,7 +204,7 @@ def fix_all() -> None:
                         imdb_id=director["person_imdb_id"],
                         name=director["name"],
                         sequence=director["sequence"],
-                        notes=director["notes"],
+                        notes=None if director["notes"] == "" else director["notes"],
                     )
                     for director in json_data["directors"]
                 ],
@@ -232,24 +214,18 @@ def fix_all() -> None:
                         name=performer["name"],
                         sequence=performer["sequence"],
                         roles=performer["roles"],
-                        notes=performer["notes"],
+                        notes=None if performer["notes"] == "" else performer["notes"],
                     )
                     for performer in json_data["cast"]
                 ],
                 writers=[
-                    CreateTitleWriterGroup(
-                        sequence=group,
-                        writers=[
-                            CreateTitleWriter(
-                                imdb_id=writer["person_imdb_id"],
-                                name=writer["name"],
-                                sequence=writer["sequence"],
-                                notes=writer["notes"],
-                            )
-                            for writer in writers
-                        ],
+                    CreateTitleWriter(
+                        imdb_id=writer["person_imdb_id"],
+                        name=writer["name"],
+                        sequence=index,
+                        notes=None if writer["notes"] == "" else writer["notes"],
                     )
-                    for group, writers in writers_by_group.items()
+                    for index, writer in enumerate(json_data["writers"])
                 ],
             )
 

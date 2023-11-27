@@ -14,6 +14,27 @@ imdb_http = imdb.IMDb(reraiseExceptions=True)
 silent_ids: set[str] = set()
 no_sound_mix_ids: set[str] = set()
 
+Whitelist = {
+    "tt0019035",  # Interference (1928) [no runtime]
+    "tt0116671",  # Jack Frost (1997) [V]
+    "tt0148615",  # Play Motel (1979) [X]
+    "tt1801096",  # Sexy Evil Genius (2013) [V]
+    "tt0093135",  # Hack-O-Lantern (1988) [V]
+    "tt11060882",  # Batman: The Dark Knight Returns (2013) [V]
+    "tt0101760",  # Door to Silence (1992) [V]
+    "tt0112643",  # Castle Freak (1995) [V]
+    "tt1356864",  # I'm Still Here (2010) [documentary]
+    "tt0209095",  # Leprechaun 5: In the Hood [V]
+    "tt0239496",  # Jack Frost 2 (2000) [V]
+    "tt0094762",  # Blood Delerium (1988) (no year)
+    "tt0113636",  # Leprechaun 3 [V]
+    "tt22698070",  # Mortal Kombat Legends: Cage Match [V]
+    "tt0114397",  # The Setup [Showtime TV Movie]
+    "tt0242798",  # Proximity (2001) [HBO TV Movie]
+    "tt0106449",  # Body Bags (1993) [Showtime TV Movie]
+    "tt0070696",  # The Sinful Dwarf (1973) [X]
+}
+
 
 def is_silent(imdb_movie: imdb.Movie.Movie) -> Optional[bool]:
     movie_id = imdb_movie.movieID
@@ -67,7 +88,10 @@ def filmography_for_person(
     filmography = imdb_person["filmography"]
 
     if key == "performer":
-        filmography["performer"] = filmography.pop("actor", [],) + filmography.pop(
+        filmography["performer"] = filmography.pop(
+            "actor",
+            [],
+        ) + filmography.pop(
             "actress",
             [],
         )
@@ -82,18 +106,52 @@ def has_invalid_movie_id(imdb_movie: imdb.Movie.Movie) -> bool:
     return movie_id not in valid_imdb_ids
 
 
+def is_valie_feature(imdb_movie: imdb.Movie.Movie) -> bool:
+    if "tt{0}".format(imdb_movie.movieID) in Whitelist:
+        return True
+
+    return (
+        imdb_movie["kind"] == "movie"
+        and "Adult" not in imdb_movie["genres"]
+        and "Short" not in imdb_movie["genres"]
+        and "Documentary" not in imdb_movie["genres"]
+    )
+
+
 def valid_movies_for_person(  # noqa: WPS231
     person_imdb_id: str, key: str
 ) -> Iterator[tuple[imdb.Person.Person, imdb.Movie.Movie]]:
     imdb_person = imdb_http.get_person(person_imdb_id[2:])
 
     for imdb_movie in filmography_for_person(imdb_person, key):
-        if has_invalid_movie_id(imdb_movie):
+        imdb_movie = imdb_http.get_movie(imdb_movie.movieID)
+
+        if "tt{0}".format(imdb_movie.movieID) in Whitelist:
+            yield (imdb_person, imdb_movie)
+
+        if imdb_movie["kind"] != "movie":
             log_skip(
                 imdb_person=imdb_person,
                 imdb_movie=imdb_movie,
-                reason="(tt{0} not found in database)".format(imdb_movie.movieID),
+                reason="(tt{0} kind is {1})".format(
+                    imdb_movie.movieID, imdb_movie["kind"]
+                ),
             )
+            continue
+
+        skipped = False
+        for invalid_genre in ["Adult", "Short", "Documentary"]:
+            if invalid_genre in imdb_movie["genres"]:
+                log_skip(
+                    imdb_person=imdb_person,
+                    imdb_movie=imdb_movie,
+                    reason="(tt{0} genres includes {1})".format(
+                        imdb_movie.movieID, invalid_genre
+                    ),
+                )
+                skipped = True
+
+        if skipped:
             continue
 
         if is_silent(imdb_movie):
@@ -128,6 +186,14 @@ def for_director(person_imdb_id: str) -> list[Movie]:
     movie_list: list[Movie] = []
 
     for imdb_person, imdb_movie in valid_movies_for_person(person_imdb_id, "director"):
+        director_notes = [
+            credit.notes
+            for credit in imdb_movie["directors"]
+            if credit.personID == person_imdb_id[2:]
+        ]
+
+        imdb_movie.notes = " / ".join(director_notes)
+
         if not moviedata_api.valid_director_notes(imdb_movie):
             log_skip(
                 imdb_person=imdb_person,
@@ -145,6 +211,14 @@ def for_writer(person_imdb_id: str) -> list[Movie]:
     movie_list: list[Movie] = []
 
     for imdb_person, imdb_movie in valid_movies_for_person(person_imdb_id, "writer"):
+        writer_notes = [
+            credit.notes
+            for credit in imdb_movie["writers"]
+            if credit.personID == person_imdb_id[2:]
+        ]
+
+        imdb_movie.notes = " / ".join(writer_notes)
+
         if not moviedata_api.valid_writer_notes(imdb_movie):
             log_skip(
                 imdb_person=imdb_person,
