@@ -1,140 +1,348 @@
 {
-  "frozen": true,
   "name": "Ken Russell",
   "slug": "ken-russell",
-  "imdb_id": "nm0001692",
-  "movies": [
+  "imdbId": "nm0001692",
+  "titles": [
     {
-      "title": "French Dressing",
-      "year": 1964,
-      "imdb_id": "tt0057073",
-      "notes": null
+      "imdbId": "tt0057073",
+      "title": "French Dressing (1964)"
     },
     {
-      "title": "Billion Dollar Brain",
-      "year": 1967,
-      "imdb_id": "tt0061405",
-      "notes": null
+      "imdbId": "tt0060546",
+      "title": "Isadora (1966) (TV)"
     },
     {
-      "title": "Women in Love",
-      "year": 1969,
-      "imdb_id": "tt0066579",
-      "notes": null
+      "imdbId": "tt0061405",
+      "title": "Billion Dollar Brain (1967)"
     },
     {
-      "title": "The Music Lovers",
-      "year": 1971,
-      "imdb_id": "tt0066109",
-      "notes": null
+      "imdbId": "tt0066579",
+      "title": "Women in Love (1969)"
     },
     {
-      "title": "The Devils",
-      "year": 1971,
-      "imdb_id": "tt0066993",
-      "notes": null
+      "imdbId": "tt0066109",
+      "title": "The Music Lovers (1971)"
     },
     {
-      "title": "The Boy Friend",
-      "year": 1971,
-      "imdb_id": "tt0066858",
-      "notes": null
+      "imdbId": "tt0066993",
+      "title": "The Devils (1971)"
     },
     {
-      "title": "Savage Messiah",
-      "year": 1972,
-      "imdb_id": "tt0069225",
-      "notes": null
+      "imdbId": "tt0066858",
+      "title": "The Boy Friend (1971)"
     },
     {
-      "title": "Mahler",
-      "year": 1974,
-      "imdb_id": "tt0071797",
-      "notes": null
+      "imdbId": "tt0069225",
+      "title": "Savage Messiah (1972)"
     },
     {
-      "title": "Tommy",
-      "year": 1975,
-      "imdb_id": "tt0073812",
-      "notes": null
+      "imdbId": "tt0071797",
+      "title": "Mahler (1974)"
     },
     {
-      "title": "Lisztomania",
-      "year": 1975,
-      "imdb_id": "tt0073298",
-      "notes": null
+      "imdbId": "tt0073812",
+      "title": "Tommy (1975)"
     },
     {
-      "title": "Valentino",
-      "year": 1977,
-      "imdb_id": "tt0076868",
-      "notes": null
+      "imdbId": "tt0073298",
+      "title": "Lisztomania (1975)"
     },
     {
-      "title": "Altered States",
-      "year": 1980,
-      "imdb_id": "tt0080360",
-      "notes": null
+      "imdbId": "tt0076868",
+      "title": "Valentino (1977)"
     },
     {
-      "title": "Crimes of Passion",
-      "year": 1984,
-      "imdb_id": "tt0087100",
-      "notes": null
+      "imdbId": "tt0080360",
+      "title": "Altered States (1980)"
     },
     {
-      "title": "Gothic",
-      "year": 1986,
-      "imdb_id": "tt0091142",
-      "notes": null
+      "imdbId": "tt0087100",
+      "title": "Crimes of Passion (1984)"
     },
     {
-      "title": "Aria",
-      "year": 1987,
-      "imdb_id": "tt0092580",
-      "notes": "(segment \"Nessun dorma\")"
+      "imdbId": "tt6358750",
+      "title": "Now That's What I Call Music 6 (1985) (V)"
     },
     {
-      "title": "Salome's Last Dance",
-      "year": 1988,
-      "imdb_id": "tt0096029",
-      "notes": null
+      "imdbId": "tt2087757",
+      "title": "Faust (1985) (TV)"
     },
     {
-      "title": "The Lair of the White Worm",
-      "year": 1988,
-      "imdb_id": "tt0095488",
-      "notes": null
+      "imdbId": "tt0091142",
+      "title": "Gothic (1986)"
     },
     {
-      "title": "The Rainbow",
-      "year": 1989,
-      "imdb_id": "tt0098165",
-      "notes": null
+      "imdbId": "tt0092580",
+      "title": "Aria (1987)"
     },
     {
-      "title": "Whore",
-      "year": 1991,
-      "imdb_id": "tt0103253",
-      "notes": null
+      "imdbId": "tt0096029",
+      "title": "Salome's Last Dance (1988)"
     },
     {
-      "title": "Tales of Erotica",
-      "year": 1996,
-      "imdb_id": "tt0117827",
-      "notes": "(segment \"The Insatiable Mrs. Kirsch\")"
+      "imdbId": "tt0095488",
+      "title": "The Lair of the White Worm (1988)"
     },
     {
-      "title": "The Fall of the Louse of Usher: A Gothic Tale for the 21st Century",
-      "year": 2002,
-      "imdb_id": "tt0268295",
-      "notes": null
+      "imdbId": "tt0096982",
+      "title": "A British Picture (1989) (TV)"
     },
     {
-      "title": "Trapped Ashes",
-      "year": 2006,
-      "imdb_id": "tt0478303",
-      "notes": "(segment \"The Girl With Golden Breasts\")"
+      "imdbId": "tt0098165",
+      "title": "The Rainbow (1989)"
+    },
+    {
+      "imdbId": "tt0097859",
+      "title": "Il Mefistofele (1989) (TV)"
+    },
+    {
+      "imdbId": "tt0100949",
+      "title": "Women and Men: Stories of Seduction (1990) (TV)"
+    },
+    {
+      "imdbId": "tt0100700",
+      "title": "The Strange Affliction of Anton Bruckner (1990) (TV)"
+    },
+    {
+      "imdbId": "tt0103253",
+      "title": "Whore (1991)"
+    },
+    {
+      "imdbId": "tt0102715",
+      "title": "Prisoner of Honor (1991) (TV)"
+    },
+    {
+      "imdbId": "tt0105339",
+      "title": "The Secret Life of Arnold Bax (1992) (TV)"
+    },
+    {
+      "imdbId": "tt0213101",
+      "title": "The Mystery of Dr Martinu (1993) (TV)"
+    },
+    {
+      "imdbId": "tt0756354",
+      "title": "Treasure Island (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0174456",
+      "title": "Alice in Russialand (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0113826",
+      "title": "Mindbender (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0117827",
+      "title": "Tales of Erotica (1996)"
+    },
+    {
+      "imdbId": "tt0150363",
+      "title": "Dogboys (1998) (TV)"
+    },
+    {
+      "imdbId": "tt0268295",
+      "title": "The Fall of the Louse of Usher: A Gothic Tale for the 21st Century (2002)"
+    },
+    {
+      "imdbId": "tt0478303",
+      "title": "Trapped Ashes (2006)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0049606",
+      "title": "Peepshow (1956)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0049417",
+      "title": "Knights on Bikes (1956)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0051882",
+      "title": "Lourdes (1958)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050119",
+      "title": "Amelia and the Angel (1958)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0259792",
+      "title": "\"Monitor\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053178",
+      "title": "Poet's London (1959)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0053607",
+      "title": "Architecture of Entertainment (1960) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0053924",
+      "title": "A House in Bayswater (1960)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0054299",
+      "title": "Shelagh Delaney's Salford (1960)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0053736",
+      "title": "Cranko at Work (1960)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0054633",
+      "title": "Antonio Gaudi (1961)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0056369",
+      "title": "Preservation Man (1962)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0056254",
+      "title": "Mr. Chesher's Traction Engines (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0497975",
+      "title": "\"Six\" (1964)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0058300",
+      "title": "Lonely Shore (1964)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1711895",
+      "title": "\"Sunday Night\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0200358",
+      "title": "\"Omnibus\" (1967)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0199184",
+      "title": "\"Arena\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt5272570",
+      "title": "\"Clouds of Glory\" (1978) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0077082",
+      "title": "\"The South Bank Show\" (1978)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt6695856",
+      "title": "Elton John: Nikita (1985)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt11800502",
+      "title": "Cliff Richard: She's So Beautiful (1985)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt8493480",
+      "title": "Elton John: Cry to Heaven (1986)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt11800548",
+      "title": "Cliff Richard & Sarah Brightman: All I Ask of You (1986)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt23951714",
+      "title": "Sarah Brightman & Steve Harley: The Phantom of the Opera (1986)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt23951818",
+      "title": "Sarah Brightman: Wishing You Were Somehow Here Again (1987)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt22812902",
+      "title": "Pandora's Box: It's All Coming Back to Me Now (1989)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0460553",
+      "title": "Road to Mandalay (1991) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0104666",
+      "title": "\"Lady Chatterley\" (1993) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt8736936",
+      "title": "Bryan Adams: Diana (1993)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0107218",
+      "title": "The Insatiable Mrs. Kirsch (1995)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0112686",
+      "title": "Classic Widows (1995) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0183349",
+      "title": "Ken Russell: In Search of the English Folk Song (1997)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0265287",
+      "title": "Lion's Mouth (2000)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0342327",
+      "title": "Elgar: Fantasy of a Composer on a Bicycle (2002) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0854158",
+      "title": "Revenge of the Elephant Man (2004)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2222124",
+      "title": "Ein Kitten f\u00fcr Hitler (2007)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2132283",
+      "title": "Boudica Bites Back (2009)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0808150",
+      "title": "Andrew Lloyd Webber: The Premiere Collection Encore (1992) (V)",
+      "reason": "music video"
     }
   ]
 }

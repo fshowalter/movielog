@@ -3,13 +3,25 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional, TypedDict
 
+JsonTitle = TypedDict("JsonTitle", {"imdbId": str, "title": str})
+
+
+JsonExcludedTitle = TypedDict(
+    "JsonExcludedTitle",
+    {
+        "imdbId": str,
+        "title": str,
+        "reason": str,
+    },
+)
+
 
 @dataclass
 class Movie(object):
-    title: str
-    year: int
     imdb_id: str
-    notes: Optional[str] = None
+    title: str
+    notes: str
+    year: int
 
 
 class JsonMovie(TypedDict):
@@ -26,6 +38,7 @@ def deserialize(json_movies: list[JsonMovie]) -> list[Movie]:
             notes=json_movie.get("notes", None),
             title=json_movie["title"],
             year=int(json_movie["year"]),
+            kind="",
         )
         for json_movie in json_movies
     ]

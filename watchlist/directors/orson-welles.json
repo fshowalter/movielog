@@ -1,116 +1,282 @@
 {
-  "frozen": true,
   "name": "Orson Welles",
   "slug": "orson-welles",
-  "imdb_id": "nm0000080",
-  "movies": [
+  "imdbId": "nm0000080",
+  "titles": [
     {
-      "title": "Too Much Johnson",
-      "year": 1938,
-      "imdb_id": "tt0030881",
-      "notes": null
+      "imdbId": "tt0030881",
+      "title": "Too Much Johnson (1938)"
     },
     {
-      "title": "Citizen Kane",
-      "year": 1941,
-      "imdb_id": "tt0033467",
-      "notes": null
+      "imdbId": "tt0033467",
+      "title": "Citizen Kane (1941)"
     },
     {
-      "title": "The Magnificent Ambersons",
-      "year": 1942,
-      "imdb_id": "tt0035015",
-      "notes": null
+      "imdbId": "tt0035015",
+      "title": "The Magnificent Ambersons (1942)"
     },
     {
-      "title": "Journey Into Fear",
-      "year": 1943,
-      "imdb_id": "tt0034922",
-      "notes": "(uncredited)"
+      "imdbId": "tt0034922",
+      "title": "Journey Into Fear (1943)"
     },
     {
-      "title": "The Stranger",
-      "year": 1946,
-      "imdb_id": "tt0038991",
-      "notes": null
+      "imdbId": "tt0038991",
+      "title": "The Stranger (1946)"
     },
     {
-      "title": "The Lady from Shanghai",
-      "year": 1947,
-      "imdb_id": "tt0040525",
-      "notes": "(uncredited)"
+      "imdbId": "tt0040525",
+      "title": "The Lady from Shanghai (1947)"
     },
     {
-      "title": "Macbeth",
-      "year": 1948,
-      "imdb_id": "tt0040558",
-      "notes": null
+      "imdbId": "tt0040558",
+      "title": "Macbeth (1948)"
     },
     {
-      "title": "Black Magic",
-      "year": 1949,
-      "imdb_id": "tt0041182",
-      "notes": "(uncredited)"
+      "imdbId": "tt0041182",
+      "title": "Black Magic (1949)"
     },
     {
-      "title": "Othello",
-      "year": 1951,
-      "imdb_id": "tt0045251",
-      "notes": "(uncredited)"
+      "imdbId": "tt0045251",
+      "title": "Othello (1951)"
     },
     {
-      "title": "Three Cases of Murder",
-      "year": 1955,
-      "imdb_id": "tt0047579",
-      "notes": "(segment \"Lord Mountdrago\", uncredited)"
+      "imdbId": "tt0047579",
+      "title": "Three Cases of Murder (1954)"
     },
     {
-      "title": "Confidential Report",
-      "year": 1955,
-      "imdb_id": "tt0048393",
-      "notes": null
+      "imdbId": "tt0048393",
+      "title": "Confidential Report (1955)"
     },
     {
-      "title": "Touch of Evil",
-      "year": 1958,
-      "imdb_id": "tt0052311",
-      "notes": null
+      "imdbId": "tt0349829",
+      "title": "Moby Dick Rehearsed (1955) (TV)"
     },
     {
-      "title": "No Exit",
-      "year": 1962,
-      "imdb_id": "tt0056282",
-      "notes": "(uncredited)"
+      "imdbId": "tt0052311",
+      "title": "Touch of Evil (1958)"
     },
     {
-      "title": "The Trial",
-      "year": 1962,
-      "imdb_id": "tt0057427",
-      "notes": null
+      "imdbId": "tt0054788",
+      "title": "David and Goliath (1960)"
     },
     {
-      "title": "Chimes at Midnight",
-      "year": 1965,
-      "imdb_id": "tt0059012",
-      "notes": null
+      "imdbId": "tt0056282",
+      "title": "No Exit (1962)"
     },
     {
-      "title": "The Deep",
-      "year": 1970,
-      "imdb_id": "tt0209994",
-      "notes": null
+      "imdbId": "tt0057427",
+      "title": "The Trial (1962)"
     },
     {
-      "title": "Don Quixote",
-      "year": 1992,
-      "imdb_id": "tt0104121",
-      "notes": "(original footage)"
+      "imdbId": "tt0059012",
+      "title": "Chimes at Midnight (1965)"
     },
     {
-      "title": "The Other Side of the Wind",
-      "year": 2018,
-      "imdb_id": "tt0069049",
-      "notes": null
+      "imdbId": "tt7350968",
+      "title": "The Heroine (1967)"
+    },
+    {
+      "imdbId": "tt0063127",
+      "title": "The Immortal Story (1968) (TV)"
+    },
+    {
+      "imdbId": "tt0065025",
+      "title": "The Southern Star (1969)"
+    },
+    {
+      "imdbId": "tt0209994",
+      "title": "The Deep (1970)"
+    },
+    {
+      "imdbId": "tt7350986",
+      "title": "Don Quixote (1972)"
+    },
+    {
+      "imdbId": "tt0173582",
+      "title": "The Orson Welles Show (1979)"
+    },
+    {
+      "imdbId": "tt0089744",
+      "title": "Orson Welles' Magic Show (1985) (TV)"
+    },
+    {
+      "imdbId": "tt0104121",
+      "title": "Don Quixote (1992)"
+    },
+    {
+      "imdbId": "tt29596750",
+      "title": "Chimes at Midnight (2016)"
+    },
+    {
+      "imdbId": "tt0069049",
+      "title": "The Other Side of the Wind (2018)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt7794952",
+      "title": "Twelfth Night (1933)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0025227",
+      "title": "The Hearts of Age (1934)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3005926",
+      "title": "The Green Goddess (1939)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11311372",
+      "title": "Citizen Kane Trailer (1940)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt4368938",
+      "title": "The Story of Samba (1943)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt7332078",
+      "title": "It's All True (1943)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1778925",
+      "title": "The Miracle of St. Anne (1950)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0166085",
+      "title": "\"Around the World with Orson Welles\" (1955) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0166301",
+      "title": "Orson Welles and People (1956)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0453991",
+      "title": "\"Colgate Theatre\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0166313",
+      "title": "Orson Welles at Large: Portrait of Gina (1958) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0249324",
+      "title": "\"Tempo\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0166223",
+      "title": "\"Nella terra di Don Chisciotte\" (1964)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2274728",
+      "title": "Treasure Island (1965)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0290100",
+      "title": "Vienna (1968)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0283477",
+      "title": "The Merchant of Venice (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0489485",
+      "title": "An Evening with Orson Welles: The Golden Honeymoon (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11471996",
+      "title": "An Evening with Orson Welles: Chesterton Speeches (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11472020",
+      "title": "An Evening with Orson Welles: Wodehouse Speeches (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11471090",
+      "title": "An Evening with Orson Welles: The Happy Prince (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11471948",
+      "title": "An Evening with Orson Welles: Socrates Speeches (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11471970",
+      "title": "An Evening with Orson Welles: Clarence Darrow Speeches (1972) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0072962",
+      "title": "F for Fake (1973)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0159875",
+      "title": "\"Orson Welles' Great Mysteries\" (1973)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt7699216",
+      "title": "Orson Welles' F for Fake Trailer (1976)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0077547",
+      "title": "Filming 'Othello' (1978)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0489479",
+      "title": "Filming 'the Trial' (1981)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1934355",
+      "title": "The Dreamers (1982)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0290869",
+      "title": "The Spirit of Charles Lindbergh (1984)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0107233",
+      "title": "It's All True (1993)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0289993",
+      "title": "One Man Band (1999)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0331570",
+      "title": "Moby Dick (2000)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12789550",
+      "title": "Hopper/Welles (2020)",
+      "reason": "Documentary"
     }
   ]
 }

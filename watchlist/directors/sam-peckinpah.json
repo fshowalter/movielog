@@ -1,92 +1,134 @@
 {
-  "frozen": true,
   "name": "Sam Peckinpah",
   "slug": "sam-peckinpah",
-  "imdb_id": "nm0001603",
-  "movies": [
+  "imdbId": "nm0001603",
+  "titles": [
     {
-      "title": "The Deadly Companions",
-      "year": 1961,
-      "imdb_id": "tt0054795",
-      "notes": null
+      "imdbId": "tt0054795",
+      "title": "The Deadly Companions (1961)"
     },
     {
-      "title": "Ride the High Country",
-      "year": 1962,
-      "imdb_id": "tt0056412",
-      "notes": null
+      "imdbId": "tt0056412",
+      "title": "Ride the High Country (1962)"
     },
     {
-      "title": "Major Dundee",
-      "year": 1965,
-      "imdb_id": "tt0059418",
-      "notes": null
+      "imdbId": "tt0059418",
+      "title": "Major Dundee (1965)"
     },
     {
-      "title": "The Wild Bunch",
-      "year": 1969,
-      "imdb_id": "tt0065214",
-      "notes": null
+      "imdbId": "tt0059037",
+      "title": "The Cincinnati Kid (1965)"
     },
     {
-      "title": "The Ballad of Cable Hogue",
-      "year": 1970,
-      "imdb_id": "tt0065446",
-      "notes": null
+      "imdbId": "tt0065214",
+      "title": "The Wild Bunch (1969)"
     },
     {
-      "title": "Straw Dogs",
-      "year": 1971,
-      "imdb_id": "tt0067800",
-      "notes": null
+      "imdbId": "tt0065446",
+      "title": "The Ballad of Cable Hogue (1970)"
     },
     {
-      "title": "Junior Bonner",
-      "year": 1972,
-      "imdb_id": "tt0068786",
-      "notes": null
+      "imdbId": "tt0067800",
+      "title": "Straw Dogs (1971)"
     },
     {
-      "title": "The Getaway",
-      "year": 1972,
-      "imdb_id": "tt0068638",
-      "notes": null
+      "imdbId": "tt0068786",
+      "title": "Junior Bonner (1972)"
     },
     {
-      "title": "Pat Garrett & Billy the Kid",
-      "year": 1973,
-      "imdb_id": "tt0070518",
-      "notes": null
+      "imdbId": "tt0068638",
+      "title": "The Getaway (1972)"
     },
     {
-      "title": "Bring Me the Head of Alfredo Garcia",
-      "year": 1974,
-      "imdb_id": "tt0071249",
-      "notes": null
+      "imdbId": "tt0070518",
+      "title": "Pat Garrett & Billy the Kid (1973)"
     },
     {
-      "title": "The Killer Elite",
-      "year": 1975,
-      "imdb_id": "tt0073240",
-      "notes": null
+      "imdbId": "tt0071249",
+      "title": "Bring Me the Head of Alfredo Garcia (1974)"
     },
     {
-      "title": "Cross of Iron",
-      "year": 1977,
-      "imdb_id": "tt0074695",
-      "notes": null
+      "imdbId": "tt0073240",
+      "title": "The Killer Elite (1975)"
     },
     {
-      "title": "Convoy",
-      "year": 1978,
-      "imdb_id": "tt0077369",
-      "notes": null
+      "imdbId": "tt0074695",
+      "title": "Cross of Iron (1977)"
     },
     {
-      "title": "The Osterman Weekend",
-      "year": 1983,
-      "imdb_id": "tt0086058",
-      "notes": null
+      "imdbId": "tt0077369",
+      "title": "Convoy (1978)"
+    },
+    {
+      "imdbId": "tt0086058",
+      "title": "The Osterman Weekend (1983)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0048848",
+      "title": "\"Broken Arrow\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048916",
+      "title": "\"Zane Grey Theatre\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051308",
+      "title": "\"The Rifleman\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053516",
+      "title": "\"Klondike\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053551",
+      "title": "\"The Westerner\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053534",
+      "title": "\"Route 66\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054532",
+      "title": "\"The Dick Powell Theatre\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056742",
+      "title": "\"Bob Hope Presents the Chrysler Theatre\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0233023",
+      "title": "\"ABC Stage 67\" (1966)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt13767820",
+      "title": "Sparks: Funny Face (1981)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt3900032",
+      "title": "Julian Lennon: Valotte (1984)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt3900026",
+      "title": "Julian Lennon: Too Late for Goodbyes (1984)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0478575",
+      "title": "Essential Music Videos: Classic '80s (2004) (V)",
+      "reason": "Short"
     }
   ]
 }

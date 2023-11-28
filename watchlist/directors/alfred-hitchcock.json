@@ -1,272 +1,308 @@
 {
-  "frozen": true,
   "name": "Alfred Hitchcock",
   "slug": "alfred-hitchcock",
-  "imdb_id": "nm0000033",
-  "movies": [
+  "imdbId": "nm0000033",
+  "titles": [
     {
-      "title": "Blackmail",
-      "year": 1929,
-      "imdb_id": "tt0019702",
-      "notes": null
+      "imdbId": "tt0019702",
+      "title": "Blackmail (1929)"
     },
     {
-      "title": "Juno and the Paycock",
-      "year": 1930,
-      "imdb_id": "tt0021015",
-      "notes": null
+      "imdbId": "tt0021015",
+      "title": "Juno and the Paycock (1929)"
     },
     {
-      "title": "Murder!",
-      "year": 1930,
-      "imdb_id": "tt0021165",
-      "notes": null
+      "imdbId": "tt0020852",
+      "title": "Elstree Calling (1930)"
     },
     {
-      "title": "The Skin Game",
-      "year": 1931,
-      "imdb_id": "tt0022395",
-      "notes": null
+      "imdbId": "tt0021165",
+      "title": "Murder! (1930)"
     },
     {
-      "title": "East of Shanghai",
-      "year": 1931,
-      "imdb_id": "tt0023395",
-      "notes": null
+      "imdbId": "tt0022395",
+      "title": "The Skin Game (1931)"
     },
     {
-      "title": "Number 17",
-      "year": 1932,
-      "imdb_id": "tt0023285",
-      "notes": null
+      "imdbId": "tt0021128",
+      "title": "Mary (1931)"
     },
     {
-      "title": "Strauss' Great Waltz",
-      "year": 1934,
-      "imdb_id": "tt0024747",
-      "notes": null
+      "imdbId": "tt0023395",
+      "title": "East of Shanghai (1931)"
     },
     {
-      "title": "The Man Who Knew Too Much",
-      "year": 1934,
-      "imdb_id": "tt0025452",
-      "notes": null
+      "imdbId": "tt0023285",
+      "title": "Number 17 (1932)"
     },
     {
-      "title": "The 39 Steps",
-      "year": 1935,
-      "imdb_id": "tt0026029",
-      "notes": null
+      "imdbId": "tt0024747",
+      "title": "Strauss' Great Waltz (1934)"
     },
     {
-      "title": "Secret Agent",
-      "year": 1936,
-      "imdb_id": "tt0028231",
-      "notes": null
+      "imdbId": "tt0025452",
+      "title": "The Man Who Knew Too Much (1934)"
     },
     {
-      "title": "Sabotage",
-      "year": 1936,
-      "imdb_id": "tt0028212",
-      "notes": null
+      "imdbId": "tt0026029",
+      "title": "The 39 Steps (1935)"
     },
     {
-      "title": "Young and Innocent",
-      "year": 1937,
-      "imdb_id": "tt0029811",
-      "notes": null
+      "imdbId": "tt0028231",
+      "title": "Secret Agent (1936)"
     },
     {
-      "title": "The Lady Vanishes",
-      "year": 1938,
-      "imdb_id": "tt0030341",
-      "notes": null
+      "imdbId": "tt0028212",
+      "title": "Sabotage (1936)"
     },
     {
-      "title": "Jamaica Inn",
-      "year": 1939,
-      "imdb_id": "tt0031505",
-      "notes": null
+      "imdbId": "tt0029811",
+      "title": "Young and Innocent (1937)"
     },
     {
-      "title": "Rebecca",
-      "year": 1940,
-      "imdb_id": "tt0032976",
-      "notes": null
+      "imdbId": "tt0030341",
+      "title": "The Lady Vanishes (1938)"
     },
     {
-      "title": "Foreign Correspondent",
-      "year": 1940,
-      "imdb_id": "tt0032484",
-      "notes": null
+      "imdbId": "tt0031505",
+      "title": "Jamaica Inn (1939)"
     },
     {
-      "title": "Mr. & Mrs. Smith",
-      "year": 1941,
-      "imdb_id": "tt0033922",
-      "notes": null
+      "imdbId": "tt0032976",
+      "title": "Rebecca (1940)"
     },
     {
-      "title": "Suspicion",
-      "year": 1941,
-      "imdb_id": "tt0034248",
-      "notes": null
+      "imdbId": "tt0032484",
+      "title": "Foreign Correspondent (1940)"
     },
     {
-      "title": "Saboteur",
-      "year": 1942,
-      "imdb_id": "tt0035279",
-      "notes": null
+      "imdbId": "tt0033922",
+      "title": "Mr. & Mrs. Smith (1941)"
     },
     {
-      "title": "Shadow of a Doubt",
-      "year": 1943,
-      "imdb_id": "tt0036342",
-      "notes": null
+      "imdbId": "tt0034248",
+      "title": "Suspicion (1941)"
     },
     {
-      "title": "Lifeboat",
-      "year": 1944,
-      "imdb_id": "tt0037017",
-      "notes": null
+      "imdbId": "tt0035279",
+      "title": "Saboteur (1942)"
     },
     {
-      "title": "Spellbound",
-      "year": 1945,
-      "imdb_id": "tt0038109",
-      "notes": null
+      "imdbId": "tt0036342",
+      "title": "Shadow of a Doubt (1943)"
     },
     {
-      "title": "Notorious",
-      "year": 1946,
-      "imdb_id": "tt0038787",
-      "notes": null
+      "imdbId": "tt0037017",
+      "title": "Lifeboat (1944)"
     },
     {
-      "title": "The Paradine Case",
-      "year": 1947,
-      "imdb_id": "tt0039694",
-      "notes": null
+      "imdbId": "tt0038109",
+      "title": "Spellbound (1945)"
     },
     {
-      "title": "Rope",
-      "year": 1948,
-      "imdb_id": "tt0040746",
-      "notes": null
+      "imdbId": "tt0038787",
+      "title": "Notorious (1946)"
     },
     {
-      "title": "Under Capricorn",
-      "year": 1949,
-      "imdb_id": "tt0042004",
-      "notes": null
+      "imdbId": "tt0039694",
+      "title": "The Paradine Case (1947)"
     },
     {
-      "title": "Stage Fright",
-      "year": 1950,
-      "imdb_id": "tt0042994",
-      "notes": null
+      "imdbId": "tt0040746",
+      "title": "Rope (1948)"
     },
     {
-      "title": "Strangers on a Train",
-      "year": 1951,
-      "imdb_id": "tt0044079",
-      "notes": null
+      "imdbId": "tt0042004",
+      "title": "Under Capricorn (1949)"
     },
     {
-      "title": "I Confess",
-      "year": 1953,
-      "imdb_id": "tt0045897",
-      "notes": null
+      "imdbId": "tt0042994",
+      "title": "Stage Fright (1950)"
     },
     {
-      "title": "Dial M for Murder",
-      "year": 1954,
-      "imdb_id": "tt0046912",
-      "notes": null
+      "imdbId": "tt0044079",
+      "title": "Strangers on a Train (1951)"
     },
     {
-      "title": "Rear Window",
-      "year": 1954,
-      "imdb_id": "tt0047396",
-      "notes": null
+      "imdbId": "tt0045897",
+      "title": "I Confess (1953)"
     },
     {
-      "title": "To Catch a Thief",
-      "year": 1955,
-      "imdb_id": "tt0048728",
-      "notes": null
+      "imdbId": "tt0046912",
+      "title": "Dial M for Murder (1954)"
     },
     {
-      "title": "The Trouble with Harry",
-      "year": 1955,
-      "imdb_id": "tt0048750",
-      "notes": null
+      "imdbId": "tt0047396",
+      "title": "Rear Window (1954)"
     },
     {
-      "title": "The Man Who Knew Too Much",
-      "year": 1956,
-      "imdb_id": "tt0049470",
-      "notes": null
+      "imdbId": "tt0048728",
+      "title": "To Catch a Thief (1955)"
     },
     {
-      "title": "The Wrong Man",
-      "year": 1956,
-      "imdb_id": "tt0051207",
-      "notes": null
+      "imdbId": "tt0048750",
+      "title": "The Trouble with Harry (1955)"
     },
     {
-      "title": "Vertigo",
-      "year": 1958,
-      "imdb_id": "tt0052357",
-      "notes": null
+      "imdbId": "tt0049470",
+      "title": "The Man Who Knew Too Much (1956)"
     },
     {
-      "title": "North by Northwest",
-      "year": 1959,
-      "imdb_id": "tt0053125",
-      "notes": null
+      "imdbId": "tt0051207",
+      "title": "The Wrong Man (1956)"
     },
     {
-      "title": "Psycho",
-      "year": 1960,
-      "imdb_id": "tt0054215",
-      "notes": null
+      "imdbId": "tt0052357",
+      "title": "Vertigo (1958)"
     },
     {
-      "title": "The Birds",
-      "year": 1963,
-      "imdb_id": "tt0056869",
-      "notes": null
+      "imdbId": "tt0053125",
+      "title": "North by Northwest (1959)"
     },
     {
-      "title": "Marnie",
-      "year": 1964,
-      "imdb_id": "tt0058329",
-      "notes": null
+      "imdbId": "tt0054215",
+      "title": "Psycho (1960)"
     },
     {
-      "title": "Torn Curtain",
-      "year": 1966,
-      "imdb_id": "tt0061107",
-      "notes": null
+      "imdbId": "tt0056869",
+      "title": "The Birds (1963)"
     },
     {
-      "title": "Topaz",
-      "year": 1969,
-      "imdb_id": "tt0065112",
-      "notes": null
+      "imdbId": "tt0058329",
+      "title": "Marnie (1964)"
     },
     {
-      "title": "Frenzy",
-      "year": 1972,
-      "imdb_id": "tt0068611",
-      "notes": null
+      "imdbId": "tt0061107",
+      "title": "Torn Curtain (1966)"
     },
     {
-      "title": "Family Plot",
-      "year": 1976,
-      "imdb_id": "tt0074512",
-      "notes": null
+      "imdbId": "tt0065112",
+      "title": "Topaz (1969)"
+    },
+    {
+      "imdbId": "tt0068611",
+      "title": "Frenzy (1972)"
+    },
+    {
+      "imdbId": "tt0074512",
+      "title": "Family Plot (1976)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0013444",
+      "title": "Number 13 (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0818899",
+      "title": "Always Tell Your Wife (1923)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0016230",
+      "title": "The Pleasure Garden (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016127",
+      "title": "The Mountain Eagle (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017075",
+      "title": "The Lodger: A Story of the London Fog (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017825",
+      "title": "Downhill (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017843",
+      "title": "Easy Virtue (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018328",
+      "title": "The Ring (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018876",
+      "title": "The Farmer's Wife (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018756",
+      "title": "Champagne (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020142",
+      "title": "The Manxman (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0249159",
+      "title": "Sound Test for Blackmail (1929)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0295228",
+      "title": "An Elastic Affair (1930)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0036659",
+      "title": "Bon Voyage (1944)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0036621",
+      "title": "Aventure malgache (1944)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1375299",
+      "title": "The Fighting Generation (1944)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0187589",
+      "title": "Watchtower Over Tomorrow (1945)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0047708",
+      "title": "\"Alfred Hitchcock Presents\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050064",
+      "title": "\"Suspicion\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052511",
+      "title": "\"Startime\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055657",
+      "title": "\"The Alfred Hitchcock Hour\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt6914094",
+      "title": "Kaleidoscope (1967)",
+      "reason": "abandoned"
+    },
+    {
+      "imdbId": "tt3455796",
+      "title": "German Concentration Camps Factual Survey (2014) (TV)",
+      "reason": "Documentary"
     }
   ]
 }

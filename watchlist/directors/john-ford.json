@@ -1,380 +1,681 @@
 {
-  "frozen": true,
   "name": "John Ford",
   "slug": "john-ford",
-  "imdb_id": "nm0000406",
-  "movies": [
+  "imdbId": "nm0000406",
+  "titles": [
     {
-      "title": "The Black Watch",
-      "year": 1929,
-      "imdb_id": "tt0019699",
-      "notes": null
+      "imdbId": "tt0019699",
+      "title": "The Black Watch (1929)"
     },
     {
-      "title": "Salute",
-      "year": 1929,
-      "imdb_id": "tt0020359",
-      "notes": "(uncredited)"
+      "imdbId": "tt0020359",
+      "title": "Salute (1929)"
     },
     {
-      "title": "Men Without Women",
-      "year": 1930,
-      "imdb_id": "tt0021140",
-      "notes": null
+      "imdbId": "tt0021140",
+      "title": "Men Without Women (1930)"
     },
     {
-      "title": "Born Reckless",
-      "year": 1930,
-      "imdb_id": "tt0020702",
-      "notes": null
+      "imdbId": "tt0020702",
+      "title": "Born Reckless (1930)"
     },
     {
-      "title": "Up the River",
-      "year": 1930,
-      "imdb_id": "tt0021508",
-      "notes": null
+      "imdbId": "tt0021508",
+      "title": "Up the River (1930)"
     },
     {
-      "title": "Seas Beneath",
-      "year": 1931,
-      "imdb_id": "tt0022353",
-      "notes": null
+      "imdbId": "tt0022353",
+      "title": "The Seas Beneath (1931)"
     },
     {
-      "title": "The Brat",
-      "year": 1931,
-      "imdb_id": "tt0021695",
-      "notes": null
+      "imdbId": "tt0021695",
+      "title": "The Brat (1931)"
     },
     {
-      "title": "Arrowsmith",
-      "year": 1931,
-      "imdb_id": "tt0021622",
-      "notes": null
+      "imdbId": "tt0021622",
+      "title": "Arrowsmith (1931)"
     },
     {
-      "title": "Air Mail",
-      "year": 1932,
-      "imdb_id": "tt0022615",
-      "notes": null
+      "imdbId": "tt0022615",
+      "title": "Air Mail (1932)"
     },
     {
-      "title": "Flesh",
-      "year": 1932,
-      "imdb_id": "tt0022897",
-      "notes": "(uncredited)"
+      "imdbId": "tt0022897",
+      "title": "Flesh (1932)"
     },
     {
-      "title": "Pilgrimage",
-      "year": 1933,
-      "imdb_id": "tt0024453",
-      "notes": null
+      "imdbId": "tt0024453",
+      "title": "Pilgrimage (1933)"
     },
     {
-      "title": "Doctor Bull",
-      "year": 1933,
-      "imdb_id": "tt0023955",
-      "notes": null
+      "imdbId": "tt0023955",
+      "title": "Doctor Bull (1933)"
     },
     {
-      "title": "The Lost Patrol",
-      "year": 1934,
-      "imdb_id": "tt0025423",
-      "notes": null
+      "imdbId": "tt0025423",
+      "title": "The Lost Patrol (1934)"
     },
     {
-      "title": "The World Moves On",
-      "year": 1934,
-      "imdb_id": "tt0026008",
-      "notes": null
+      "imdbId": "tt0026008",
+      "title": "The World Moves On (1934)"
     },
     {
-      "title": "Judge Priest",
-      "year": 1934,
-      "imdb_id": "tt0025335",
-      "notes": null
+      "imdbId": "tt0025335",
+      "title": "Judge Priest (1934)"
     },
     {
-      "title": "The Whole Town's Talking",
-      "year": 1935,
-      "imdb_id": "tt0027214",
-      "notes": null
+      "imdbId": "tt0027214",
+      "title": "The Whole Town's Talking (1935)"
     },
     {
-      "title": "The Informer",
-      "year": 1935,
-      "imdb_id": "tt0026529",
-      "notes": null
+      "imdbId": "tt0026529",
+      "title": "The Informer (1935)"
     },
     {
-      "title": "Steamboat Round the Bend",
-      "year": 1935,
-      "imdb_id": "tt0027042",
-      "notes": null
+      "imdbId": "tt0027042",
+      "title": "Steamboat Round the Bend (1935)"
     },
     {
-      "title": "The Prisoner of Shark Island",
-      "year": 1936,
-      "imdb_id": "tt0028141",
-      "notes": null
+      "imdbId": "tt0028141",
+      "title": "The Prisoner of Shark Island (1936)"
     },
     {
-      "title": "Mary of Scotland",
-      "year": 1936,
-      "imdb_id": "tt0027948",
-      "notes": null
+      "imdbId": "tt0027948",
+      "title": "Mary of Scotland (1936)"
     },
     {
-      "title": "The Plough and the Stars",
-      "year": 1936,
-      "imdb_id": "tt0028112",
-      "notes": null
+      "imdbId": "tt0028112",
+      "title": "The Plough and the Stars (1936)"
     },
     {
-      "title": "Wee Willie Winkie",
-      "year": 1937,
-      "imdb_id": "tt0029751",
-      "notes": null
+      "imdbId": "tt0029751",
+      "title": "Wee Willie Winkie (1937)"
     },
     {
-      "title": "The Hurricane",
-      "year": 1937,
-      "imdb_id": "tt0029030",
-      "notes": null
+      "imdbId": "tt0029030",
+      "title": "The Hurricane (1937)"
     },
     {
-      "title": "Four Men and a Prayer",
-      "year": 1938,
-      "imdb_id": "tt0030150",
-      "notes": null
+      "imdbId": "tt0030150",
+      "title": "Four Men and a Prayer (1938)"
     },
     {
-      "title": "Submarine Patrol",
-      "year": 1938,
-      "imdb_id": "tt0030808",
-      "notes": null
+      "imdbId": "tt0030808",
+      "title": "Submarine Patrol (1938)"
     },
     {
-      "title": "Stagecoach",
-      "year": 1939,
-      "imdb_id": "tt0031971",
-      "notes": null
+      "imdbId": "tt0031971",
+      "title": "Stagecoach (1939)"
     },
     {
-      "title": "Young Mr. Lincoln",
-      "year": 1939,
-      "imdb_id": "tt0032155",
-      "notes": null
+      "imdbId": "tt0032155",
+      "title": "Young Mr. Lincoln (1939)"
     },
     {
-      "title": "Drums Along the Mohawk",
-      "year": 1939,
-      "imdb_id": "tt0031252",
-      "notes": null
+      "imdbId": "tt0031252",
+      "title": "Drums Along the Mohawk (1939)"
     },
     {
-      "title": "The Grapes of Wrath",
-      "year": 1940,
-      "imdb_id": "tt0032551",
-      "notes": null
+      "imdbId": "tt0032551",
+      "title": "The Grapes of Wrath (1940)"
     },
     {
-      "title": "The Long Voyage Home",
-      "year": 1940,
-      "imdb_id": "tt0032728",
-      "notes": null
+      "imdbId": "tt0032728",
+      "title": "The Long Voyage Home (1940)"
     },
     {
-      "title": "Tobacco Road",
-      "year": 1941,
-      "imdb_id": "tt0034297",
-      "notes": null
+      "imdbId": "tt0034297",
+      "title": "Tobacco Road (1941)"
     },
     {
-      "title": "How Green Was My Valley",
-      "year": 1941,
-      "imdb_id": "tt0033729",
-      "notes": null
+      "imdbId": "tt0033729",
+      "title": "How Green Was My Valley (1941)"
     },
     {
-      "title": "They Were Expendable",
-      "year": 1945,
-      "imdb_id": "tt0038160",
-      "notes": "(as John Ford Captain U.S.N.R.)"
+      "imdbId": "tt0274560",
+      "title": "Undercover (1944)"
     },
     {
-      "title": "My Darling Clementine",
-      "year": 1946,
-      "imdb_id": "tt0038762",
-      "notes": null
+      "imdbId": "tt0038160",
+      "title": "They Were Expendable (1945)"
     },
     {
-      "title": "The Fugitive",
-      "year": 1947,
-      "imdb_id": "tt0039402",
-      "notes": null
+      "imdbId": "tt0038762",
+      "title": "My Darling Clementine (1946)"
     },
     {
-      "title": "Fort Apache",
-      "year": 1948,
-      "imdb_id": "tt0040369",
-      "notes": null
+      "imdbId": "tt0039402",
+      "title": "The Fugitive (1947)"
     },
     {
-      "title": "3 Godfathers",
-      "year": 1948,
-      "imdb_id": "tt0040064",
-      "notes": null
+      "imdbId": "tt0040369",
+      "title": "Fort Apache (1948)"
     },
     {
-      "title": "She Wore a Yellow Ribbon",
-      "year": 1949,
-      "imdb_id": "tt0041866",
-      "notes": null
+      "imdbId": "tt0040064",
+      "title": "3 Godfathers (1948)"
     },
     {
-      "title": "Pinky",
-      "year": 1949,
-      "imdb_id": "tt0041746",
-      "notes": "(uncredited)"
+      "imdbId": "tt0041866",
+      "title": "She Wore a Yellow Ribbon (1949)"
     },
     {
-      "title": "When Willie Comes Marching Home",
-      "year": 1950,
-      "imdb_id": "tt0043129",
-      "notes": null
+      "imdbId": "tt0041746",
+      "title": "Pinky (1949)"
     },
     {
-      "title": "Wagon Master",
-      "year": 1950,
-      "imdb_id": "tt0043117",
-      "notes": null
+      "imdbId": "tt0043129",
+      "title": "When Willie Comes Marching Home (1950)"
     },
     {
-      "title": "Rio Grande",
-      "year": 1950,
-      "imdb_id": "tt0042895",
-      "notes": null
+      "imdbId": "tt0043117",
+      "title": "Wagon Master (1950)"
     },
     {
-      "title": "The Quiet Man",
-      "year": 1952,
-      "imdb_id": "tt0045061",
-      "notes": null
+      "imdbId": "tt0042895",
+      "title": "Rio Grande (1950)"
     },
     {
-      "title": "What Price Glory",
-      "year": 1952,
-      "imdb_id": "tt0045323",
-      "notes": null
+      "imdbId": "tt0045061",
+      "title": "The Quiet Man (1952)"
     },
     {
-      "title": "The Sun Shines Bright",
-      "year": 1953,
-      "imdb_id": "tt0046384",
-      "notes": null
+      "imdbId": "tt0045323",
+      "title": "What Price Glory (1952)"
     },
     {
-      "title": "Mogambo",
-      "year": 1953,
-      "imdb_id": "tt0046085",
-      "notes": null
+      "imdbId": "tt0046384",
+      "title": "The Sun Shines Bright (1953)"
     },
     {
-      "title": "The Long Gray Line",
-      "year": 1955,
-      "imdb_id": "tt0048312",
-      "notes": null
+      "imdbId": "tt0046085",
+      "title": "Mogambo (1953)"
     },
     {
-      "title": "Mister Roberts",
-      "year": 1955,
-      "imdb_id": "tt0048380",
-      "notes": null
+      "imdbId": "tt0048312",
+      "title": "The Long Gray Line (1955)"
     },
     {
-      "title": "The Searchers",
-      "year": 1956,
-      "imdb_id": "tt0049730",
-      "notes": null
+      "imdbId": "tt0048380",
+      "title": "Mister Roberts (1955)"
     },
     {
-      "title": "The Wings of Eagles",
-      "year": 1957,
-      "imdb_id": "tt0051198",
-      "notes": null
+      "imdbId": "tt0049730",
+      "title": "The Searchers (1956)"
     },
     {
-      "title": "The Rising of the Moon",
-      "year": 1957,
-      "imdb_id": "tt0050902",
-      "notes": null
+      "imdbId": "tt0051198",
+      "title": "The Wings of Eagles (1957)"
     },
     {
-      "title": "Gideon of Scotland Yard",
-      "year": 1958,
-      "imdb_id": "tt0051655",
-      "notes": null
+      "imdbId": "tt0050902",
+      "title": "The Rising of the Moon (1957)"
     },
     {
-      "title": "The Last Hurrah",
-      "year": 1958,
-      "imdb_id": "tt0051845",
-      "notes": null
+      "imdbId": "tt0051655",
+      "title": "Gideon of Scotland Yard (1958)"
     },
     {
-      "title": "The Horse Soldiers",
-      "year": 1959,
-      "imdb_id": "tt0052902",
-      "notes": null
+      "imdbId": "tt0051845",
+      "title": "The Last Hurrah (1958)"
     },
     {
-      "title": "Sergeant Rutledge",
-      "year": 1960,
-      "imdb_id": "tt0054292",
-      "notes": null
+      "imdbId": "tt0052902",
+      "title": "The Horse Soldiers (1959)"
     },
     {
-      "title": "Two Rode Together",
-      "year": 1961,
-      "imdb_id": "tt0055558",
-      "notes": null
+      "imdbId": "tt0054292",
+      "title": "Sergeant Rutledge (1960)"
     },
     {
-      "title": "The Man Who Shot Liberty Valance",
-      "year": 1962,
-      "imdb_id": "tt0056217",
-      "notes": null
+      "imdbId": "tt0055558",
+      "title": "Two Rode Together (1961)"
     },
     {
-      "title": "How the West Was Won",
-      "year": 1962,
-      "imdb_id": "tt0056085",
-      "notes": "(segment \"The Civil War\")"
+      "imdbId": "tt0056217",
+      "title": "The Man Who Shot Liberty Valance (1962)"
     },
     {
-      "title": "Donovan's Reef",
-      "year": 1963,
-      "imdb_id": "tt0057007",
-      "notes": null
+      "imdbId": "tt0056085",
+      "title": "How the West Was Won (1962)"
     },
     {
-      "title": "Cheyenne Autumn",
-      "year": 1964,
-      "imdb_id": "tt0057940",
-      "notes": null
+      "imdbId": "tt0057007",
+      "title": "Donovan's Reef (1963)"
     },
     {
-      "title": "Young Cassidy",
-      "year": 1965,
-      "imdb_id": "tt0059930",
-      "notes": "(uncredited)"
+      "imdbId": "tt0057940",
+      "title": "Cheyenne Autumn (1964)"
     },
     {
-      "title": "7 Women",
-      "year": 1966,
-      "imdb_id": "tt0060050",
-      "notes": null
+      "imdbId": "tt0059930",
+      "title": "Young Cassidy (1965)"
+    },
+    {
+      "imdbId": "tt0060050",
+      "title": "7 Women (1965)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0008690",
+      "title": "The Tornado (1917)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0008692",
+      "title": "The Trail of Hate (1917)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0008547",
+      "title": "The Scrapper (1917)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0008605",
+      "title": "The Soul Herder (1917)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0007791",
+      "title": "Cheyenne's Pal (1917)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0008634",
+      "title": "Straight Shooting (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008551",
+      "title": "The Secret Man (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008271",
+      "title": "A Marked Man (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0007755",
+      "title": "Bucking Broadway (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009494",
+      "title": "The Phantom Riders (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009811",
+      "title": "Wild Women (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009690",
+      "title": "Thieves' Gold (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009580",
+      "title": "The Scarlet Drop (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009153",
+      "title": "Hell Bent (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009837",
+      "title": "A Woman's Fool (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008978",
+      "title": "The Craving (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009696",
+      "title": "Three Mounted Men (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010640",
+      "title": "Roped (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010120",
+      "title": "The Fighting Brothers (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0010119",
+      "title": "A Fight for Love (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009977",
+      "title": "By Indian Post (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0010648",
+      "title": "Rustlers (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0009903",
+      "title": "Bare Fists (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010199",
+      "title": "Gun Law (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0010200",
+      "title": "The Gun Packer (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0010629",
+      "title": "Riders of Vengeance (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0208256",
+      "title": "The Last Outlaw (1919)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0010544",
+      "title": "The Outcasts of Poker Flat (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009859",
+      "title": "Ace of the Saddle (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010628",
+      "title": "Rider of the Law (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010198",
+      "title": "A Gun Fightin' Gentleman (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010438",
+      "title": "Marked Men (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011603",
+      "title": "The Prince of Avenue A (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011228",
+      "title": "The Girl in Number 29 (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011298",
+      "title": "Hitchin' Posts (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011358",
+      "title": "Just Pals (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011968",
+      "title": "The Big Punch (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012194",
+      "title": "The Freeze-Out (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012818",
+      "title": "The Wallop (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012102",
+      "title": "Desperate Trails (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011906",
+      "title": "Action (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012734",
+      "title": "Sure Fire (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012328",
+      "title": "Jackie (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013321",
+      "title": "Little Miss Smiles (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013603",
+      "title": "Silver Wings (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013735",
+      "title": "The Village Blacksmith (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014031",
+      "title": "The Face on the Bar-Room Floor (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014539",
+      "title": "Three Jumps Ahead (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013909",
+      "title": "Cameo Kirby (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014321",
+      "title": "North of Hudson Bay (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014999",
+      "title": "Hoodman Blind (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015016",
+      "title": "The Iron Horse (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014977",
+      "title": "Hearts of Oak (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016022",
+      "title": "Lightnin' (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015973",
+      "title": "Kentucky Pride (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016417",
+      "title": "Thank You (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015811",
+      "title": "The Fighting Heart (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017374",
+      "title": "The Shamrock Handicap (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017463",
+      "title": "3 Bad Men (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016664",
+      "title": "The Blue Eagle (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018530",
+      "title": "Upstream (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018972",
+      "title": "Hangman's House (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019203",
+      "title": "Napoleon's Barber (1928)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0019182",
+      "title": "Mother Machree (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018909",
+      "title": "Four Sons (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019325",
+      "title": "Riley the Cop (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020459",
+      "title": "Strong Boy (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0034171",
+      "title": "Sex Hygiene (1942)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0034498",
+      "title": "The Battle of Midway (1942)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0035459",
+      "title": "Torpedo Squadron (1942)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0035653",
+      "title": "At the Front in North Africa with the U.S. Army (1943)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0036517",
+      "title": "We Sail at Midnight (1943)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0274519",
+      "title": "German Industrial Manpower (1943)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0035790",
+      "title": "December 7th (1943)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt8874154",
+      "title": "It's Your America (1946)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0041023",
+      "title": "\"Fireside Theatre\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044122",
+      "title": "This Is Korea! (1951)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0047745",
+      "title": "\"Jane Wyman Presents the Fireside Theatre\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047768",
+      "title": "\"Screen Directors Playhouse\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt21327296",
+      "title": "The Growler Story (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050073",
+      "title": "\"Wagon Train\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052974",
+      "title": "Korea (1959)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0054513",
+      "title": "\"Alcoa Premiere\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0065541",
+      "title": "Chesty: A Tribute to a Legend (1976)",
+      "reason": "Documentary"
     }
   ]
 }

@@ -1,146 +1,126 @@
 {
-  "frozen": true,
   "name": "Fran\u00e7ois Truffaut",
   "slug": "francois-truffaut",
-  "imdb_id": "nm0000076",
-  "movies": [
+  "imdbId": "nm0000076",
+  "titles": [
     {
-      "title": "The 400 Blows",
-      "year": 1959,
-      "imdb_id": "tt0053198",
-      "notes": null
+      "imdbId": "tt0053198",
+      "title": "The 400 Blows (1959)"
     },
     {
-      "title": "Shoot the Piano Player",
-      "year": 1960,
-      "imdb_id": "tt0054389",
-      "notes": null
+      "imdbId": "tt0054389",
+      "title": "Shoot the Piano Player (1960)"
     },
     {
-      "title": "The Army Game",
-      "year": 1960,
-      "imdb_id": "tt0167460",
-      "notes": "(co-director)"
+      "imdbId": "tt0167460",
+      "title": "The Army Game (1960)"
     },
     {
-      "title": "Jules and Jim",
-      "year": 1962,
-      "imdb_id": "tt0055032",
-      "notes": null
+      "imdbId": "tt0055032",
+      "title": "Jules and Jim (1962)"
     },
     {
-      "title": "Love at Twenty",
-      "year": 1962,
-      "imdb_id": "tt0055747",
-      "notes": "(segment \"Antoine et Colette\")"
+      "imdbId": "tt0055747",
+      "title": "Love at Twenty (1962)"
     },
     {
-      "title": "The Soft Skin",
-      "year": 1964,
-      "imdb_id": "tt0058458",
-      "notes": null
+      "imdbId": "tt0058458",
+      "title": "The Soft Skin (1964)"
     },
     {
-      "title": "Fahrenheit 451",
-      "year": 1966,
-      "imdb_id": "tt0060390",
-      "notes": null
+      "imdbId": "tt0060390",
+      "title": "Fahrenheit 451 (1966)"
     },
     {
-      "title": "The Bride Wore Black",
-      "year": 1968,
-      "imdb_id": "tt0061955",
-      "notes": null
+      "imdbId": "tt0061955",
+      "title": "The Bride Wore Black (1968)"
     },
     {
-      "title": "Stolen Kisses",
-      "year": 1968,
-      "imdb_id": "tt0062695",
-      "notes": null
+      "imdbId": "tt0062695",
+      "title": "Stolen Kisses (1968)"
     },
     {
-      "title": "Mississippi Mermaid",
-      "year": 1969,
-      "imdb_id": "tt0064990",
-      "notes": null
+      "imdbId": "tt0064990",
+      "title": "Mississippi Mermaid (1969)"
     },
     {
-      "title": "The Wild Child",
-      "year": 1970,
-      "imdb_id": "tt0064285",
-      "notes": null
+      "imdbId": "tt0064285",
+      "title": "The Wild Child (1970)"
     },
     {
-      "title": "Bed & Board",
-      "year": 1970,
-      "imdb_id": "tt0065651",
-      "notes": null
+      "imdbId": "tt0065651",
+      "title": "Bed & Board (1970)"
     },
     {
-      "title": "Two English Girls",
-      "year": 1971,
-      "imdb_id": "tt0066989",
-      "notes": null
+      "imdbId": "tt0066989",
+      "title": "Two English Girls (1971)"
     },
     {
-      "title": "A Gorgeous Girl Like Me",
-      "year": 1972,
-      "imdb_id": "tt0069442",
-      "notes": null
+      "imdbId": "tt0069442",
+      "title": "A Gorgeous Girl Like Me (1972)"
     },
     {
-      "title": "Day for Night",
-      "year": 1973,
-      "imdb_id": "tt0070460",
-      "notes": null
+      "imdbId": "tt0070460",
+      "title": "Day for Night (1973)"
     },
     {
-      "title": "The Story of Adele H",
-      "year": 1975,
-      "imdb_id": "tt0073114",
-      "notes": null
+      "imdbId": "tt0073114",
+      "title": "The Story of Adele H (1975)"
     },
     {
-      "title": "Small Change",
-      "year": 1976,
-      "imdb_id": "tt0074152",
-      "notes": null
+      "imdbId": "tt0074152",
+      "title": "Small Change (1976)"
     },
     {
-      "title": "The Man Who Loved Women",
-      "year": 1977,
-      "imdb_id": "tt0076155",
-      "notes": null
+      "imdbId": "tt0076155",
+      "title": "The Man Who Loved Women (1977)"
     },
     {
-      "title": "The Green Room",
-      "year": 1978,
-      "imdb_id": "tt0077315",
-      "notes": null
+      "imdbId": "tt0077315",
+      "title": "The Green Room (1978)"
     },
     {
-      "title": "Love on the Run",
-      "year": 1979,
-      "imdb_id": "tt0078771",
-      "notes": null
+      "imdbId": "tt0078771",
+      "title": "Love on the Run (1979)"
     },
     {
-      "title": "The Last Metro",
-      "year": 1980,
-      "imdb_id": "tt0080610",
-      "notes": null
+      "imdbId": "tt0080610",
+      "title": "The Last Metro (1980)"
     },
     {
-      "title": "The Woman Next Door",
-      "year": 1981,
-      "imdb_id": "tt0082370",
-      "notes": null
+      "imdbId": "tt0082370",
+      "title": "The Woman Next Door (1981)"
     },
     {
-      "title": "Confidentially Yours",
-      "year": 1983,
-      "imdb_id": "tt0086551",
-      "notes": null
+      "imdbId": "tt0086551",
+      "title": "Confidentially Yours (1983)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0048766",
+      "title": "A Visit (1955)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050714",
+      "title": "The Mischief Makers (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0052338",
+      "title": "A Story of Water (1961)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1180329",
+      "title": "Antoine and Colette (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt5660184",
+      "title": "Los 4 Golpes (1962)",
+      "reason": "Short"
     }
   ]
 }

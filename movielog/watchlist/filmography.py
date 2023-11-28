@@ -1,14 +1,20 @@
 from __future__ import annotations
 
 import fnmatch
+import re
 import time
-from typing import Iterator, Optional
+from typing import TYPE_CHECKING, Callable, Iterator, Optional
 
 import imdb
 
 from movielog.moviedata import api as moviedata_api
+from movielog.utils import list_tools
 from movielog.utils.logging import logger
-from movielog.watchlist.movies import Movie
+from movielog.watchlist.movies import JsonExcludedTitle, JsonTitle
+
+if TYPE_CHECKING:
+    from movielog.directors import Director
+    from movielog.person import Person
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
 silent_ids: set[str] = set()
@@ -37,38 +43,36 @@ Whitelist = {
 
 
 def is_silent(imdb_movie: imdb.Movie.Movie) -> Optional[bool]:
-    movie_id = imdb_movie.movieID
+    # movie_id = imdb_movie.movieID
 
-    if movie_id in silent_ids:
-        return True
+    # if movie_id in silent_ids:
+    #     return True
 
-    if movie_id in no_sound_mix_ids:
-        return None
+    # if movie_id in no_sound_mix_ids:
+    #     return None
 
-    time.sleep(1)
-    imdb_http.update(imdb_movie, info=["technical"])
+    # imdb_http.update(imdb_movie, info=["technical"])
 
-    if "sound mix" not in imdb_movie["technical"]:
-        no_sound_mix_ids.add(movie_id)
-        return None
+    # if "sound mix" not in imdb_movie["technical"]:
+    #     no_sound_mix_ids.add(movie_id)
+    #     return None
 
-    pattern = "Silent*"
+    # pattern = "Silent*"
 
-    sound_mixes = imdb_movie["technical"]["sound mix"]
-    if fnmatch.filter(sound_mixes, pattern):
-        silent_ids.add(movie_id)
-        return True
+    # sound_mixes = imdb_movie["technical"]["sound mix"]
+    # if fnmatch.filter(sound_mixes, pattern):
+    #     silent_ids.add(movie_id)
+    #     return True
 
-    return False
+    # return False
+
+    return "Silent" in imdb_movie.get("sound mix", [])
 
 
-def log_skip(
-    imdb_person: imdb.Person.Person, imdb_movie: imdb.Movie.Movie, reason: str
-) -> None:
+def log_skip(person_name: str, imdb_movie: imdb.Movie.Movie, reason: str) -> None:
     logger.log(
-        "Skipping {0} ({1}) for {2} {3}",
-        imdb_movie["title"],
-        imdb_movie.get("year", "????"),
+        "Skipping {0} for {1} {2}",
+        imdb_movie["long imdb title"],
         imdb_person["name"],
         reason,
     )
@@ -107,70 +111,156 @@ def has_invalid_movie_id(imdb_movie: imdb.Movie.Movie) -> bool:
 
 
 def is_valie_feature(imdb_movie: imdb.Movie.Movie) -> bool:
-    if "tt{0}".format(imdb_movie.movieID) in Whitelist:
-        return True
-
+    # if "tt{0}".format(imdb_movie.movieID) in Whitelist:
+    #     return True
     return (
-        imdb_movie["kind"] == "movie"
-        and "Adult" not in imdb_movie["genres"]
+        "Adult" not in imdb_movie["genres"]
         and "Short" not in imdb_movie["genres"]
         and "Documentary" not in imdb_movie["genres"]
     )
 
 
 def valid_movies_for_person(  # noqa: WPS231
-    person_imdb_id: str, key: str
-) -> Iterator[tuple[imdb.Person.Person, imdb.Movie.Movie]]:
-    imdb_person = imdb_http.get_person(person_imdb_id[2:])
+    person: Person,
+    key: str,
+    validator: Callable[[imdb.Movie.Movie], Optional[str]],
+) -> Person:
+    filmography: set[str] = {}
 
-    for imdb_movie in filmography_for_person(imdb_person, key):
-        imdb_movie = imdb_http.get_movie(imdb_movie.movieID)
+    if len(person.imdbIds) == 1:
+        imdb_person = imdb_http.get_person(person.imdbIds[0][2:])
+        filmography = set(
+            [movie.movieID for movie in filmography_for_person(imdb_person, key)]
+        )
+    else:
+        filmographies: list[set[str]] = []
+        for imdb_id in person.imdbIds:
+            imdb_person = imdb_http.get_person(imdb_id)
+            filmographies.append(
+                set(movie.movieID for movie in filmography_for_person(imdb_person, key))
+            )
 
-        if "tt{0}".format(imdb_movie.movieID) in Whitelist:
-            yield (imdb_person, imdb_movie)
+        filmography = set.intersection(*filmographies)
 
-        if imdb_movie["kind"] != "movie":
+    for imdb_id in filmography:
+        excluded_title = next(
+            (
+                excluded_title
+                for excluded_title in person.excludedTitles
+                if excluded_title["imdbId"][2:] == imdb_id
+            ),
+            None,
+        )
+
+        if excluded_title:
+            continue
+
+        existing_title = next(
+            (
+                included_title
+                for included_title in person.titles
+                if included_title["imdbId"][2:] == imdb_id
+            ),
+            None,
+        )
+
+        if existing_title:
+            continue
+
+        imdb_movie = imdb_http.get_movie(imdb_id)
+
+        # if "tt{0}".format(imdb_movie.movieID) in Whitelist:
+        #     yield (imdb_person, imdb_movie)
+
+        if imdb_movie.get("production status", None):
             log_skip(
-                imdb_person=imdb_person,
+                person_name=person.name,
                 imdb_movie=imdb_movie,
-                reason="(tt{0} kind is {1})".format(
-                    imdb_movie.movieID, imdb_movie["kind"]
+                reason="(tt{0} production status {1})".format(
+                    imdb_movie.movieID, imdb_movie["production status"]
                 ),
             )
             continue
 
-        skipped = False
-        for invalid_genre in ["Adult", "Short", "Documentary"]:
-            if invalid_genre in imdb_movie["genres"]:
-                log_skip(
-                    imdb_person=imdb_person,
-                    imdb_movie=imdb_movie,
-                    reason="(tt{0} genres includes {1})".format(
-                        imdb_movie.movieID, invalid_genre
-                    ),
+        if imdb_movie["kind"] in {"tv series", "music video", "tv mini series"}:
+            # log_skip(
+            #     imdb_person=imdb_person,
+            #     imdb_movie=imdb_movie,
+            #     reason="(tt{0} kind is {1})".format(
+            #         imdb_movie.movieID, imdb_movie["kind"]
+            #     ),
+            # )
+            person.excludedTitles.append(
+                JsonExcludedTitle(
+                    imdbId="tt{0}".format(imdb_movie.movieID),
+                    title=imdb_movie["long imdb title"],
+                    reason="{0}".format(imdb_movie["kind"]),
                 )
-                skipped = True
+            )
+            continue
 
-        if skipped:
+        invalid_genres = {"Adult", "Short", "Documentary"} & set(
+            imdb_movie.get("genres", [])
+        )
+        if invalid_genres:
+            # log_skip(
+            #     imdb_person=imdb_person,
+            #     imdb_movie=imdb_movie,
+            #     reason="(tt{0} genres include {1})".format(
+            #         imdb_movie.movieID, ", ".join(invalid_genres)
+            #     ),
+            # )
+            person.excludedTitles.append(
+                JsonExcludedTitle(
+                    imdbId="tt{0}".format(imdb_movie.movieID),
+                    title=imdb_movie["long imdb title"],
+                    reason="{0}".format(", ".join(invalid_genres)),
+                )
+            )
             continue
 
         if is_silent(imdb_movie):
-            log_skip(
-                imdb_person=imdb_person,
-                imdb_movie=imdb_movie,
-                reason="(silent movie)",
+            # log_skip(
+            #     imdb_person=imdb_person,
+            #     imdb_movie=imdb_movie,
+            #     reason="(tt{0} sound mix is silent)".format(imdb_movie.movieID),
+            # )
+            person.excludedTitles.append(
+                JsonExcludedTitle(
+                    imdbId="tt{0}".format(imdb_movie.movieID),
+                    title=imdb_movie["long imdb title"],
+                    reason="silent",
+                )
             )
             continue
 
-        if production_status(imdb_movie):
-            log_skip(
-                imdb_person=imdb_person,
-                imdb_movie=imdb_movie,
-                reason="({0})".format(production_status(imdb_movie)),
+        person.titles.append(
+            JsonTitle(
+                imdbId="tt{0}".format(imdb_movie.movieID),
+                title=imdb_movie["long imdb title"],
             )
-            continue
+        )
 
-        yield (imdb_person, imdb_movie)
+    person.titles = sorted(
+        person.titles, key=lambda title: title_sort_key(title["title"])
+    )
+
+    person.excludedTitles = sorted(
+        person.excludedTitles, key=lambda title: title_sort_key(title["title"])
+    )
+
+    return person
+
+
+def title_sort_key(title: str) -> str:
+    year_sort_regex = r"\(\d*\)"
+
+    year = re.search(year_sort_regex, title)
+
+    if year:
+        return year.group(0)
+
+    return "(????)"
 
 
 def build_movie(imdb_movie: imdb.Movie.Movie) -> Movie:
@@ -178,39 +268,62 @@ def build_movie(imdb_movie: imdb.Movie.Movie) -> Movie:
         imdb_id="tt{0}".format(imdb_movie.movieID),
         year=imdb_movie["year"],
         title=imdb_movie["title"],
-        notes=imdb_movie.notes,
+        notes=None if imdb_movie.notes == "" else imdb_movie.notes,
+        kind=imdb_movie["kind"],
     )
 
 
-def for_director(person_imdb_id: str) -> list[Movie]:
+def valid_for_director(
+    imdb_movie: imdb.Movie.Movie, person_imdb_id: str
+) -> Optional[str]:
+    director_notes = [
+        credit.notes
+        for credit in imdb_movie.get("directors", [])
+        if credit.personID == person_imdb_id[2:]
+    ]
+
+    imdb_movie.notes = " / ".join(director_notes)
+
+    if not moviedata_api.valid_director_notes(imdb_movie):
+        return imdb_movie.notes
+
+    return None
+
+
+def for_director(director: Director) -> Director:
+    valid_movies_for_person(director, "director", valid_for_director)
+
+    return director
+    # ):
+    #     # director_notes = [
+    #     #     credit.notes
+    #     #     for credit in imdb_movie.get("directors", [])
+    #     #     if credit.personID == person_imdb_id[2:]
+    #     # ]
+
+    #     # imdb_movie.notes = " / ".join(director_notes)
+
+    #     # if not moviedata_api.valid_director_notes(imdb_movie):
+    #     #     log_skip(
+    #     #         imdb_person=imdb_person,
+    #     #         imdb_movie=imdb_movie,
+    #     #         reason="({0})".format(imdb_movie.notes),
+    #     #     )
+    #     #     continue
+
+    #     movie_list.append(build_movie(imdb_movie))
+    #     excluded_movies = excluded_titles
+
+    # return movie_list, excluded_movies
+
+
+def for_writer(person_imdb_id: str) -> tuple[list[Movie], list[ExcludedTitle]]:
     movie_list: list[Movie] = []
+    excluded_movies = []
 
-    for imdb_person, imdb_movie in valid_movies_for_person(person_imdb_id, "director"):
-        director_notes = [
-            credit.notes
-            for credit in imdb_movie["directors"]
-            if credit.personID == person_imdb_id[2:]
-        ]
-
-        imdb_movie.notes = " / ".join(director_notes)
-
-        if not moviedata_api.valid_director_notes(imdb_movie):
-            log_skip(
-                imdb_person=imdb_person,
-                imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie.notes),
-            )
-            continue
-
-        movie_list.append(build_movie(imdb_movie))
-
-    return movie_list
-
-
-def for_writer(person_imdb_id: str) -> list[Movie]:
-    movie_list: list[Movie] = []
-
-    for imdb_person, imdb_movie in valid_movies_for_person(person_imdb_id, "writer"):
+    for imdb_person, imdb_movie, excluded_titles in valid_movies_for_person(
+        person_imdb_id, "writer"
+    ):
         writer_notes = [
             credit.notes
             for credit in imdb_movie["writers"]
@@ -228,14 +341,18 @@ def for_writer(person_imdb_id: str) -> list[Movie]:
             continue
 
         movie_list.append(build_movie(imdb_movie))
+        excluded_movies = excluded_titles
 
-    return movie_list
+    return movie_list, excluded_movies
 
 
-def for_performer(person_imdb_id: str) -> list[Movie]:
+def for_performer(person_imdb_id: str) -> tuple[list[Movie], list[ExcludedTitle]]:
     movie_list: list[Movie] = []
+    excluded_movies = []
 
-    for imdb_person, imdb_movie in valid_movies_for_person(person_imdb_id, "performer"):
+    for imdb_person, imdb_movie, excluded_titles in valid_movies_for_person(
+        person_imdb_id, "performer"
+    ):
         if not moviedata_api.valid_cast_notes(imdb_movie):
             log_skip(
                 imdb_person=imdb_person,
@@ -245,5 +362,6 @@ def for_performer(person_imdb_id: str) -> list[Movie]:
             continue
 
         movie_list.append(build_movie(imdb_movie))
+        excluded_movies = excluded_titles
 
-    return movie_list
+    return movie_list, excluded_movies

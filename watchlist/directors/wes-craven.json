@@ -1,134 +1,139 @@
 {
-  "frozen": true,
   "name": "Wes Craven",
   "slug": "wes-craven",
-  "imdb_id": "nm0000127",
-  "movies": [
+  "imdbId": "nm0000127",
+  "titles": [
     {
-      "title": "The Last House on the Left",
-      "year": 1972,
-      "imdb_id": "tt0068833",
-      "notes": null
+      "imdbId": "tt0068833",
+      "title": "The Last House on the Left (1972)"
     },
     {
-      "title": "The Hills Have Eyes",
-      "year": 1977,
-      "imdb_id": "tt0077681",
-      "notes": null
+      "imdbId": "tt0077681",
+      "title": "The Hills Have Eyes (1977)"
     },
     {
-      "title": "Deadly Blessing",
-      "year": 1981,
-      "imdb_id": "tt0082245",
-      "notes": null
+      "imdbId": "tt0078330",
+      "title": "Summer of Fear (1978) (TV)"
     },
     {
-      "title": "Swamp Thing",
-      "year": 1982,
-      "imdb_id": "tt0084745",
-      "notes": null
+      "imdbId": "tt0082245",
+      "title": "Deadly Blessing (1981)"
     },
     {
-      "title": "The Hills Have Eyes Part II",
-      "year": 1984,
-      "imdb_id": "tt0089274",
-      "notes": null
+      "imdbId": "tt0084745",
+      "title": "Swamp Thing (1982)"
     },
     {
-      "title": "A Nightmare on Elm Street",
-      "year": 1984,
-      "imdb_id": "tt0087800",
-      "notes": null
+      "imdbId": "tt0087480",
+      "title": "Invitation to Hell (1984) (TV)"
     },
     {
-      "title": "Deadly Friend",
-      "year": 1986,
-      "imdb_id": "tt0090917",
-      "notes": null
+      "imdbId": "tt0089274",
+      "title": "The Hills Have Eyes Part II (1984)"
     },
     {
-      "title": "The Serpent and the Rainbow",
-      "year": 1988,
-      "imdb_id": "tt0096071",
-      "notes": null
+      "imdbId": "tt0087800",
+      "title": "A Nightmare on Elm Street (1984)"
     },
     {
-      "title": "Shocker",
-      "year": 1989,
-      "imdb_id": "tt0098320",
-      "notes": null
+      "imdbId": "tt0088912",
+      "title": "Chiller (1985) (TV)"
     },
     {
-      "title": "The People Under the Stairs",
-      "year": 1991,
-      "imdb_id": "tt0105121",
-      "notes": null
+      "imdbId": "tt0090917",
+      "title": "Deadly Friend (1986)"
     },
     {
-      "title": "New Nightmare",
-      "year": 1994,
-      "imdb_id": "tt0111686",
-      "notes": null
+      "imdbId": "tt0096071",
+      "title": "The Serpent and the Rainbow (1988)"
     },
     {
-      "title": "Vampire in Brooklyn",
-      "year": 1995,
-      "imdb_id": "tt0114825",
-      "notes": null
+      "imdbId": "tt0098320",
+      "title": "Shocker (1989)"
     },
     {
-      "title": "Scream",
-      "year": 1996,
-      "imdb_id": "tt0117571",
-      "notes": null
+      "imdbId": "tt0100253",
+      "title": "Night Visions (1990) (TV)"
     },
     {
-      "title": "Scream 2",
-      "year": 1997,
-      "imdb_id": "tt0120082",
-      "notes": null
+      "imdbId": "tt0105121",
+      "title": "The People Under the Stairs (1991)"
     },
     {
-      "title": "Music of the Heart",
-      "year": 1999,
-      "imdb_id": "tt0166943",
-      "notes": null
+      "imdbId": "tt0111686",
+      "title": "New Nightmare (1994)"
     },
     {
-      "title": "Scream 3",
-      "year": 2000,
-      "imdb_id": "tt0134084",
-      "notes": null
+      "imdbId": "tt0114825",
+      "title": "Vampire in Brooklyn (1995)"
     },
     {
-      "title": "Cursed",
-      "year": 2005,
-      "imdb_id": "tt0257516",
-      "notes": null
+      "imdbId": "tt0117571",
+      "title": "Scream (1996)"
     },
     {
-      "title": "Red Eye",
-      "year": 2005,
-      "imdb_id": "tt0421239",
-      "notes": null
+      "imdbId": "tt0120082",
+      "title": "Scream 2 (1997)"
     },
     {
-      "title": "Paris, je t'aime",
-      "year": 2006,
-      "imdb_id": "tt0401711",
-      "notes": "(segment \"Pere-Lachaise\")"
+      "imdbId": "tt0166943",
+      "title": "Music of the Heart (1999)"
     },
     {
-      "title": "My Soul to Take",
-      "year": 2010,
-      "imdb_id": "tt0872230",
-      "notes": null
+      "imdbId": "tt0134084",
+      "title": "Scream 3 (2000)"
     },
     {
-      "title": "Scream 4",
-      "year": 2011,
-      "imdb_id": "tt1262416",
-      "notes": null
+      "imdbId": "tt0257516",
+      "title": "Cursed (2005)"
+    },
+    {
+      "imdbId": "tt0421239",
+      "title": "Red Eye (2005)"
+    },
+    {
+      "imdbId": "tt0401711",
+      "title": "Paris, je t'aime (2006)"
+    },
+    {
+      "imdbId": "tt0872230",
+      "title": "My Soul to Take (2010)"
+    },
+    {
+      "imdbId": "tt1262416",
+      "title": "Scream 4 (2011)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0046593",
+      "title": "\"The Magical World of Disney\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0122943",
+      "title": "The Fireworks Woman (1975)",
+      "reason": "Adult"
+    },
+    {
+      "imdbId": "tt0088634",
+      "title": "\"The Twilight Zone\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt29102932",
+      "title": "Deadly Friend: Deleted Scenes (1986) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0103502",
+      "title": "\"Nightmare Cafe\" (1992)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt27648368",
+      "title": "Tales That'll Tear Your Heart Out (2002) (V)",
+      "reason": "Short"
     }
   ]
 }

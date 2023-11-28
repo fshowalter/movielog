@@ -1,110 +1,151 @@
 {
-  "frozen": false,
   "name": "John Boorman",
   "slug": "john-boorman",
-  "imdb_id": "nm0000958",
-  "movies": [
+  "imdbId": "nm0000958",
+  "titles": [
     {
-      "title": "Having a Wild Weekend",
-      "year": 1965,
-      "imdb_id": "tt0059258",
-      "notes": "(directed by)"
+      "imdbId": "tt4372024",
+      "title": "The Concrete Vision (1962) (TV)"
     },
     {
-      "title": "Point Blank",
-      "year": 1967,
-      "imdb_id": "tt0062138",
-      "notes": ""
+      "imdbId": "tt0059258",
+      "title": "Having a Wild Weekend (1965)"
     },
     {
-      "title": "Hell in the Pacific",
-      "year": 1968,
-      "imdb_id": "tt0063056",
-      "notes": ""
+      "imdbId": "tt0062138",
+      "title": "Point Blank (1967)"
     },
     {
-      "title": "Leo the Last",
-      "year": 1970,
-      "imdb_id": "tt0065974",
-      "notes": ""
+      "imdbId": "tt0063056",
+      "title": "Hell in the Pacific (1968)"
     },
     {
-      "title": "Deliverance",
-      "year": 1972,
-      "imdb_id": "tt0068473",
-      "notes": ""
+      "imdbId": "tt0065974",
+      "title": "Leo the Last (1970)"
     },
     {
-      "title": "Zardoz",
-      "year": 1974,
-      "imdb_id": "tt0070948",
-      "notes": ""
+      "imdbId": "tt0068473",
+      "title": "Deliverance (1972)"
     },
     {
-      "title": "Exorcist II: The Heretic",
-      "year": 1977,
-      "imdb_id": "tt0076009",
-      "notes": ""
+      "imdbId": "tt0070948",
+      "title": "Zardoz (1974)"
     },
     {
-      "title": "Excalibur",
-      "year": 1981,
-      "imdb_id": "tt0082348",
-      "notes": ""
+      "imdbId": "tt0076009",
+      "title": "Exorcist II: The Heretic (1977)"
     },
     {
-      "title": "The Emerald Forest",
-      "year": 1985,
-      "imdb_id": "tt0089087",
-      "notes": ""
+      "imdbId": "tt0082348",
+      "title": "Excalibur (1981)"
     },
     {
-      "title": "Hope and Glory",
-      "year": 1987,
-      "imdb_id": "tt0093209",
-      "notes": ""
+      "imdbId": "tt0089087",
+      "title": "The Emerald Forest (1985)"
     },
     {
-      "title": "Where the Heart Is",
-      "year": 1990,
-      "imdb_id": "tt0100924",
-      "notes": ""
+      "imdbId": "tt0093209",
+      "title": "Hope and Glory (1987)"
     },
     {
-      "title": "Beyond Rangoon",
-      "year": 1995,
-      "imdb_id": "tt0112495",
-      "notes": ""
+      "imdbId": "tt0100924",
+      "title": "Where the Heart Is (1990)"
     },
     {
-      "title": "The General",
-      "year": 1998,
-      "imdb_id": "tt0120706",
-      "notes": ""
+      "imdbId": "tt0112495",
+      "title": "Beyond Rangoon (1995)"
     },
     {
-      "title": "The Tailor of Panama",
-      "year": 2001,
-      "imdb_id": "tt0236784",
-      "notes": ""
+      "imdbId": "tt0120706",
+      "title": "The General (1998)"
     },
     {
-      "title": "In My Country",
-      "year": 2004,
-      "imdb_id": "tt0349260",
-      "notes": ""
+      "imdbId": "tt0236784",
+      "title": "The Tailor of Panama (2001)"
     },
     {
-      "title": "The Tiger's Tail",
-      "year": 2006,
-      "imdb_id": "tt0490499",
-      "notes": ""
+      "imdbId": "tt0349260",
+      "title": "In My Country (2004)"
     },
     {
-      "title": "Queen & Country",
-      "year": 2014,
-      "imdb_id": "tt2392810",
-      "notes": ""
+      "imdbId": "tt0490499",
+      "title": "The Tiger's Tail (2006)"
+    },
+    {
+      "imdbId": "tt2392810",
+      "title": "Queen & Country (2014)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt4366608",
+      "title": "\"Southern Affairs\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt4366764",
+      "title": "\"Day by Day\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2605526",
+      "title": "\"In View\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt1667716",
+      "title": "\"Citizen 63\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0362358",
+      "title": "\"The Newcomers\" (1964) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt1711895",
+      "title": "\"Sunday Night\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt29120102",
+      "title": "Exorcist II: The Heretic: Alternate Opening (1977)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0102085",
+      "title": "I Dreamt I Woke Up (1991)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0123358",
+      "title": "\"Picture Windows\" (1994)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0113718",
+      "title": "Lumi\u00e8re and Company (1995)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0325723",
+      "title": "Lee Marvin: A Personal Portrait by John Boorman (1998) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0114755",
+      "title": "Two Nudes Bathing (2001)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0362788",
+      "title": "Journey Into Light (2001) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0796171",
+      "title": "\"Timeshift\" (2002)",
+      "reason": "tv series"
     }
   ]
 }

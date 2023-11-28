@@ -22,7 +22,7 @@ def movie_ids() -> set[str]:
     all_movies = []
 
     for watchlist_person in people:
-        all_movies.extend(watchlist_person.movies)
+        all_movies.extend(watchlist_person.titles)
 
     for collection in collections():
         all_movies.extend(collection.movies)

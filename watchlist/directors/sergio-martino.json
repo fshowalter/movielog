@@ -1,98 +1,290 @@
 {
-  "frozen": true,
   "name": "Sergio Martino",
   "slug": "sergio-martino",
-  "imdb_id": "nm0553941",
-  "movies": [
+  "imdbId": "nm0553941",
+  "titles": [
     {
-      "title": "Arizona Colt, Hired Gun",
-      "year": 1970,
-      "imdb_id": "tt0065422",
-      "notes": null
+      "imdbId": "tt0065422",
+      "title": "Arizona Colt, Hired Gun (1970)"
     },
     {
-      "title": "The Strange Vice of Mrs. Wardh",
-      "year": 1971,
-      "imdb_id": "tt0066412",
-      "notes": null
+      "imdbId": "tt0066412",
+      "title": "The Strange Vice of Mrs. Wardh (1971)"
     },
     {
-      "title": "The Case of the Scorpion's Tail",
-      "year": 1971,
-      "imdb_id": "tt0066924",
-      "notes": null
+      "imdbId": "tt0066924",
+      "title": "The Case of the Scorpion's Tail (1971)"
     },
     {
-      "title": "All the Colors of the Dark",
-      "year": 1972,
-      "imdb_id": "tt0069390",
-      "notes": null
+      "imdbId": "tt0069390",
+      "title": "All the Colors of the Dark (1972)"
     },
     {
-      "title": "Your Vice Is a Locked Room and Only I Have the Key",
-      "year": 1972,
-      "imdb_id": "tt0069421",
-      "notes": null
+      "imdbId": "tt0069421",
+      "title": "Your Vice Is a Locked Room and Only I Have the Key (1972)"
     },
     {
-      "title": "Torso",
-      "year": 1973,
-      "imdb_id": "tt0069920",
-      "notes": null
+      "imdbId": "tt0069920",
+      "title": "Torso (1973)"
     },
     {
-      "title": "Milano trema: la polizia vuole giustizia",
-      "year": 1973,
-      "imdb_id": "tt0070393",
-      "notes": null
+      "imdbId": "tt0070111",
+      "title": "Giovannona Long-Thigh (1973)"
     },
     {
-      "title": "La bellissima estate",
-      "year": 1974,
-      "imdb_id": "tt0138321",
-      "notes": null
+      "imdbId": "tt0070393",
+      "title": "The Violent Professionals (1973)"
     },
     {
-      "title": "Gambling City",
-      "year": 1975,
-      "imdb_id": "tt0071331",
-      "notes": null
+      "imdbId": "tt0071378",
+      "title": "High School Girl (1974)"
     },
     {
-      "title": "Silent Action",
-      "year": 1975,
-      "imdb_id": "tt0075083",
-      "notes": null
+      "imdbId": "tt0138321",
+      "title": "La bellissima estate (1974)"
     },
     {
-      "title": "The Suspicious Death of a Minor",
-      "year": 1975,
-      "imdb_id": "tt0073406",
-      "notes": null
+      "imdbId": "tt0071331",
+      "title": "Gambling City (1975)"
     },
     {
-      "title": "A Man Called Blade",
-      "year": 1977,
-      "imdb_id": "tt0076360",
-      "notes": null
+      "imdbId": "tt0075083",
+      "title": "Silent Action (1975)"
     },
     {
-      "title": "Slave of the Cannibal God",
-      "year": 1978,
-      "imdb_id": "tt0077945",
-      "notes": null
+      "imdbId": "tt0073406",
+      "title": "The Suspicious Death of a Minor (1975)"
     },
     {
-      "title": "Screamers",
-      "year": 1979,
-      "imdb_id": "tt0081467",
-      "notes": null
+      "imdbId": "tt0074086",
+      "title": "Sex with a Smile (1976)"
     },
     {
-      "title": "The Great Alligator",
-      "year": 1979,
-      "imdb_id": "tt0079156",
-      "notes": null
+      "imdbId": "tt0075255",
+      "title": "Spogliamoci cos\u00ec, senza pudor... (1976)"
+    },
+    {
+      "imdbId": "tt0076360",
+      "title": "A Man Called Blade (1977)"
+    },
+    {
+      "imdbId": "tt0077945",
+      "title": "Slave of the Cannibal God (1978)"
+    },
+    {
+      "imdbId": "tt0081467",
+      "title": "The Island of the Fishmen (1979)"
+    },
+    {
+      "imdbId": "tt0079837",
+      "title": "Saturday, Sunday and Friday (1979)"
+    },
+    {
+      "imdbId": "tt0079156",
+      "title": "The Great Alligator (1979)"
+    },
+    {
+      "imdbId": "tt0081170",
+      "title": "La moglie in vacanza... l'amante in citt\u00e0 (1980)"
+    },
+    {
+      "imdbId": "tt0081807",
+      "title": "Sugar, Honey and Pepper (1980)"
+    },
+    {
+      "imdbId": "tt0145484",
+      "title": "Spaghetti a mezzanotte (1981)"
+    },
+    {
+      "imdbId": "tt0082203",
+      "title": "Cream Horn (1981)"
+    },
+    {
+      "imdbId": "tt0084506",
+      "title": "Don't Play with Tigers (1982)"
+    },
+    {
+      "imdbId": "tt0083585",
+      "title": "The Scorpion with Two Tails (1982)"
+    },
+    {
+      "imdbId": "tt0085134",
+      "title": "Acapulco, prima spiaggia... a sinistra (1983)"
+    },
+    {
+      "imdbId": "tt0085125",
+      "title": "2019: After the Fall of New York (1983)"
+    },
+    {
+      "imdbId": "tt0086033",
+      "title": "Occhio, malocchio, prezzemolo e finocchio (1983)"
+    },
+    {
+      "imdbId": "tt0086266",
+      "title": "Se tutto va bene siamo rovinati (1983)"
+    },
+    {
+      "imdbId": "tt24054386",
+      "title": "Gigi e Andrea, comici in a... scesa (1984) (TV)"
+    },
+    {
+      "imdbId": "tt0086874",
+      "title": "L'allenatore nel pallone (1984)"
+    },
+    {
+      "imdbId": "tt24048836",
+      "title": "Alla conquista di Roma (1985) (TV)"
+    },
+    {
+      "imdbId": "tt0196509",
+      "title": "Doppio misto (1985) (TV)"
+    },
+    {
+      "imdbId": "tt0089587",
+      "title": "Mezzo destro mezzo sinistro - 2 calciatori senza pallone (1985)"
+    },
+    {
+      "imdbId": "tt0091166",
+      "title": "Hands of Steel (1986)"
+    },
+    {
+      "imdbId": "tt0172446",
+      "title": "Ferragosto O.K. (1986) (TV)"
+    },
+    {
+      "imdbId": "tt0190107",
+      "title": "Un'australiana a Roma (1987) (TV)"
+    },
+    {
+      "imdbId": "tt0171310",
+      "title": "La famiglia Brandacci (1987) (TV)"
+    },
+    {
+      "imdbId": "tt0100300",
+      "title": "The Opponent (1988)"
+    },
+    {
+      "imdbId": "tt0093796",
+      "title": "Provare per credere (1988) (TV)"
+    },
+    {
+      "imdbId": "tt0094843",
+      "title": "Casablanca Express (1989)"
+    },
+    {
+      "imdbId": "tt0096806",
+      "title": "American Rickshaw (1989)"
+    },
+    {
+      "imdbId": "tt0143137",
+      "title": "Beyond Kilimanjaro, Across the River of Blood (1990)"
+    },
+    {
+      "imdbId": "tt0099297",
+      "title": "After the Condor (1990)"
+    },
+    {
+      "imdbId": "tt0105067",
+      "title": "A Bear Named Arthur (1992)"
+    },
+    {
+      "imdbId": "tt0111222",
+      "title": "Foxy Lady (1992)"
+    },
+    {
+      "imdbId": "tt0194926",
+      "title": "Craving Desire (1993)"
+    },
+    {
+      "imdbId": "tt0327733",
+      "title": "The Fishmen and Their Queen (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0162513",
+      "title": "Padre pap\u00e0 (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0186791",
+      "title": "A due passi dal cielo (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0308603",
+      "title": "Mozart Is a Murderer (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0363537",
+      "title": "Cornetti al miele (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0298197",
+      "title": "L'ultimo sogno (2000) (TV)"
+    },
+    {
+      "imdbId": "tt0452880",
+      "title": "L'ultimo rigore (2002) (TV)"
+    },
+    {
+      "imdbId": "tt0419705",
+      "title": "Una donna scomoda (2004) (TV)"
+    },
+    {
+      "imdbId": "tt1329261",
+      "title": "L'ultimo rigore 2 (2006) (TV)"
+    },
+    {
+      "imdbId": "tt1073654",
+      "title": "L'allenatore nel pallone 2 (2008)"
+    },
+    {
+      "imdbId": "tt2416420",
+      "title": "Il paese delle piccole piogge (2012) (TV)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0064669",
+      "title": "Wages of Sin (1969)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0202788",
+      "title": "Naked and Violent (1970)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0244963",
+      "title": "America un giorno (1970)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0277474",
+      "title": "\"Caccia al ladro d'autore\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0239187",
+      "title": "\"Rally\" (1989) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0103398",
+      "title": "\"Private Crimes\" (1993) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0127675",
+      "title": "\"Mamma per caso\" (1997) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0178143",
+      "title": "\"L'ispettore Giusti\" (1999)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0312103",
+      "title": "\"Carabinieri\" (2002)",
+      "reason": "tv series"
     }
   ]
 }

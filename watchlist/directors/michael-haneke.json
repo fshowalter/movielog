@@ -1,80 +1,104 @@
 {
-  "frozen": false,
   "name": "Michael Haneke",
   "slug": "michael-haneke",
-  "imdb_id": "nm0359734",
-  "movies": [
+  "imdbId": "nm0359734",
+  "titles": [
     {
-      "title": "The Seventh Continent",
-      "year": 1989,
-      "imdb_id": "tt0098327",
-      "notes": ""
+      "imdbId": "tt0071108",
+      "title": "After Liverpool (1974) (TV)"
     },
     {
-      "title": "Benny's Video",
-      "year": 1992,
-      "imdb_id": "tt0103793",
-      "notes": ""
+      "imdbId": "tt0074432",
+      "title": "Three Paths to the Lake (1976) (TV)"
     },
     {
-      "title": "71 Fragments of a Chronology of Chance",
-      "year": 1994,
-      "imdb_id": "tt0109020",
-      "notes": ""
+      "imdbId": "tt0075252",
+      "title": "Sperrm\u00fcll (1976) (TV)"
     },
     {
-      "title": "Funny Games",
-      "year": 1997,
-      "imdb_id": "tt0119167",
-      "notes": ""
+      "imdbId": "tt0086526",
+      "title": "Variation - oder Da\u00df es Utopien gibt, wei\u00df ich selber! (1983) (TV)"
     },
     {
-      "title": "Code Unknown",
-      "year": 2000,
-      "imdb_id": "tt0216625",
-      "notes": ""
+      "imdbId": "tt0088389",
+      "title": "Wer war Edgar Allan? (1984) (TV)"
     },
     {
-      "title": "The Piano Teacher",
-      "year": 2001,
-      "imdb_id": "tt0254686",
-      "notes": ""
+      "imdbId": "tt0091076",
+      "title": "Fraulein - Ein deutsches Melodram (1986) (TV)"
     },
     {
-      "title": "Time of the Wolf",
-      "year": 2003,
-      "imdb_id": "tt0324197",
-      "notes": ""
+      "imdbId": "tt0098327",
+      "title": "The Seventh Continent (1989)"
     },
     {
-      "title": "Cach\u00e9",
-      "year": 2005,
-      "imdb_id": "tt0387898",
-      "notes": ""
+      "imdbId": "tt0103793",
+      "title": "Benny's Video (1992)"
     },
     {
-      "title": "Funny Games",
-      "year": 2007,
-      "imdb_id": "tt0808279",
-      "notes": ""
+      "imdbId": "tt0107929",
+      "title": "Die Rebellion (1993) (TV)"
     },
     {
-      "title": "The White Ribbon",
-      "year": 2009,
-      "imdb_id": "tt1149362",
-      "notes": ""
+      "imdbId": "tt0109020",
+      "title": "71 Fragments of a Chronology of Chance (1994)"
     },
     {
-      "title": "Amour",
-      "year": 2012,
-      "imdb_id": "tt1602620",
-      "notes": ""
+      "imdbId": "tt0120075",
+      "title": "The Castle (1997) (TV)"
     },
     {
-      "title": "Happy End",
-      "year": 2017,
-      "imdb_id": "tt5304464",
-      "notes": ""
+      "imdbId": "tt0119167",
+      "title": "Funny Games (1997)"
+    },
+    {
+      "imdbId": "tt0216625",
+      "title": "Code Unknown (2000)"
+    },
+    {
+      "imdbId": "tt0254686",
+      "title": "The Piano Teacher (2001)"
+    },
+    {
+      "imdbId": "tt0324197",
+      "title": "Time of the Wolf (2003)"
+    },
+    {
+      "imdbId": "tt0387898",
+      "title": "Cach\u00e9 (2005)"
+    },
+    {
+      "imdbId": "tt0808279",
+      "title": "Funny Games (2007)"
+    },
+    {
+      "imdbId": "tt1149362",
+      "title": "The White Ribbon (2009)"
+    },
+    {
+      "imdbId": "tt1602620",
+      "title": "Amour (2012)"
+    },
+    {
+      "imdbId": "tt5304464",
+      "title": "Happy End (2017)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt2487424",
+      "title": "\"Lemminge\" (1979) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0102507",
+      "title": "Nachruf f\u00fcr einen M\u00f6rder (1991) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0113718",
+      "title": "Lumi\u00e8re and Company (1995)",
+      "reason": "Documentary"
     }
   ]
 }

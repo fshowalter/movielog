@@ -5,16 +5,17 @@ from typing import TypedDict
 
 from slugify import slugify
 
-from movielog.watchlist.movies import JsonMovie, Movie
+from movielog.watchlist.movies import JsonExcludedTitle, JsonMovie, JsonTitle
 
 
 @dataclass
 class Person(object):
-    frozen: bool
     name: str
     slug: str
-    imdb_id: str
-    movies: list[Movie]
+    imdbId: str
+    imdbIds: list[str]
+    titles: list[JsonTitle]
+    excludedTitles: list[JsonExcludedTitle]
 
 
 class JsonPerson(TypedDict):

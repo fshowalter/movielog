@@ -1,98 +1,201 @@
 {
-  "frozen": true,
   "name": "Tobe Hooper",
   "slug": "tobe-hooper",
-  "imdb_id": "nm0001361",
-  "movies": [
+  "imdbId": "nm0001361",
+  "titles": [
     {
-      "title": "Eggshells",
-      "year": 1969,
-      "imdb_id": "tt0404011",
-      "notes": null
+      "imdbId": "tt0404011",
+      "title": "Eggshells (1969)"
     },
     {
-      "title": "The Texas Chain Saw Massacre",
-      "year": 1974,
-      "imdb_id": "tt0072271",
-      "notes": null
+      "imdbId": "tt0072271",
+      "title": "The Texas Chain Saw Massacre (1974)"
     },
     {
-      "title": "Eaten Alive",
-      "year": 1976,
-      "imdb_id": "tt0074455",
-      "notes": null
+      "imdbId": "tt0074455",
+      "title": "Eaten Alive (1976)"
     },
     {
-      "title": "The Dark",
-      "year": 1979,
-      "imdb_id": "tt0079027",
-      "notes": "(replaced by John Cardos, uncredited)"
+      "imdbId": "tt0079027",
+      "title": "The Dark (1979)"
     },
     {
-      "title": "The Funhouse",
-      "year": 1981,
-      "imdb_id": "tt0082427",
-      "notes": null
+      "imdbId": "tt0082427",
+      "title": "The Funhouse (1981)"
     },
     {
-      "title": "Poltergeist",
-      "year": 1982,
-      "imdb_id": "tt0084516",
-      "notes": null
+      "imdbId": "tt0084854",
+      "title": "Venom (1981)"
     },
     {
-      "title": "Lifeforce",
-      "year": 1985,
-      "imdb_id": "tt0089489",
-      "notes": null
+      "imdbId": "tt0084516",
+      "title": "Poltergeist (1982)"
     },
     {
-      "title": "Invaders from Mars",
-      "year": 1986,
-      "imdb_id": "tt0091276",
-      "notes": null
+      "imdbId": "tt0089489",
+      "title": "Lifeforce (1985)"
     },
     {
-      "title": "The Texas Chainsaw Massacre 2",
-      "year": 1986,
-      "imdb_id": "tt0092076",
-      "notes": null
+      "imdbId": "tt0091276",
+      "title": "Invaders from Mars (1986)"
     },
     {
-      "title": "Spontaneous Combustion",
-      "year": 1990,
-      "imdb_id": "tt0098375",
-      "notes": null
+      "imdbId": "tt0092076",
+      "title": "The Texas Chainsaw Massacre 2 (1986)"
     },
     {
-      "title": "Night Terrors",
-      "year": 1993,
-      "imdb_id": "tt0108350",
-      "notes": null
+      "imdbId": "tt0098375",
+      "title": "Spontaneous Combustion (1989)"
     },
     {
-      "title": "The Mangler",
-      "year": 1995,
-      "imdb_id": "tt0113762",
-      "notes": null
+      "imdbId": "tt0099822",
+      "title": "I'm Dangerous Tonight (1990) (TV)"
     },
     {
-      "title": "Toolbox Murders",
-      "year": 2004,
-      "imdb_id": "tt0367153",
-      "notes": null
+      "imdbId": "tt13496738",
+      "title": "The Nightmare Begins Again (1993) (V)"
     },
     {
-      "title": "Mortuary",
-      "year": 2005,
-      "imdb_id": "tt0415167",
-      "notes": null
+      "imdbId": "tt0108350",
+      "title": "Night Terrors (1993)"
     },
     {
-      "title": "Djinn",
-      "year": 2013,
-      "imdb_id": "tt1770672",
-      "notes": null
+      "imdbId": "tt0106449",
+      "title": "Body Bags (1993) (TV)"
+    },
+    {
+      "imdbId": "tt0113762",
+      "title": "The Mangler (1995)"
+    },
+    {
+      "imdbId": "tt0198309",
+      "title": "The Apartment Complex (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0203425",
+      "title": "Crocodile (2000) (V)"
+    },
+    {
+      "imdbId": "tt0328723",
+      "title": "Shadow Realm (2002) (TV)"
+    },
+    {
+      "imdbId": "tt0367153",
+      "title": "Toolbox Murders (2004)"
+    },
+    {
+      "imdbId": "tt0415167",
+      "title": "Mortuary (2005)"
+    },
+    {
+      "imdbId": "tt3087848",
+      "title": "Destiny Express Redux (2009)"
+    },
+    {
+      "imdbId": "tt1770672",
+      "title": "Djinn (2013)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt14908620",
+      "title": "The Abyss (1959)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3083958",
+      "title": "The Heisters (1964)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt9510410",
+      "title": "Down Friday Street (1966)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt14901416",
+      "title": "A Way of Learning (1967)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt8821398",
+      "title": "Peter Paul and Mary: The Song is Love (1971) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0079844",
+      "title": "\"Salem's Lot\" (1979) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt6734776",
+      "title": "Billy Idol: Dancing with Myself (1983)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0088478",
+      "title": "\"Amazing Stories\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0088513",
+      "title": "\"The Equalizer\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0094466",
+      "title": "\"Freddy's Nightmares\" (1988)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0096708",
+      "title": "\"Tales from the Crypt\" (1989)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt3980622",
+      "title": "\"Haunted Lives: True Ghost Stories\" (1991) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0112104",
+      "title": "\"Nowhere Man\" (1995)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0115151",
+      "title": "\"Dark Skies\" (1996)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0118426",
+      "title": "\"Perversions of Science\" (1997)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0128419",
+      "title": "\"Prey\" (1998)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0229916",
+      "title": "\"The Others\" (2000)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0247120",
+      "title": "\"Night Visions\" (2001)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0289830",
+      "title": "\"Taken\" (2002) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0448190",
+      "title": "\"Masters of Horror\" (2005)",
+      "reason": "tv series"
     }
   ]
 }

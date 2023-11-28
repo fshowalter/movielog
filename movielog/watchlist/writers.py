@@ -25,7 +25,7 @@ def deserialize(file_path: str) -> Writer:
         frozen=json_person["frozen"],
         slug=json_person["slug"],
         name=json_person["name"],
-        movies=movies.deserialize(json_person["movies"]),
+        titles=movies.deserialize(json_person["movies"]),
     )
 
 
@@ -49,7 +49,7 @@ def refresh_movies() -> None:
         if writer.frozen:
             continue
         writer_copy = copy.deepcopy(writer)
-        writer_copy.movies = movies_for_writer(writer_copy.imdb_id, writer_copy.name)
+        writer_copy.titles = movies_for_writer(writer_copy.imdb_id, writer_copy.name)
 
         serializer.serialize(writer_copy)
 
@@ -60,7 +60,7 @@ def add(imdb_id: str, name: str) -> Writer:
         name=name,
         imdb_id=imdb_id,
         slug=person.slug_for_name(name),
-        movies=movies_for_writer(imdb_id, name),
+        titles=movies_for_writer(imdb_id, name),
     )
     serializer.serialize(writer)
 

@@ -1,86 +1,76 @@
 {
-  "frozen": true,
   "name": "Stanley Kubrick",
   "slug": "stanley-kubrick",
-  "imdb_id": "nm0000040",
-  "movies": [
+  "imdbId": "nm0000040",
+  "titles": [
     {
-      "title": "Fear and Desire",
-      "year": 1953,
-      "imdb_id": "tt0045758",
-      "notes": null
+      "imdbId": "tt0045758",
+      "title": "Fear and Desire (1952)"
     },
     {
-      "title": "Killer's Kiss",
-      "year": 1955,
-      "imdb_id": "tt0048254",
-      "notes": null
+      "imdbId": "tt0048254",
+      "title": "Killer's Kiss (1955)"
     },
     {
-      "title": "The Killing",
-      "year": 1956,
-      "imdb_id": "tt0049406",
-      "notes": null
+      "imdbId": "tt0049406",
+      "title": "The Killing (1956)"
     },
     {
-      "title": "Paths of Glory",
-      "year": 1957,
-      "imdb_id": "tt0050825",
-      "notes": null
+      "imdbId": "tt0050825",
+      "title": "Paths of Glory (1957)"
     },
     {
-      "title": "Spartacus",
-      "year": 1960,
-      "imdb_id": "tt0054331",
-      "notes": null
+      "imdbId": "tt0054331",
+      "title": "Spartacus (1960)"
     },
     {
-      "title": "Lolita",
-      "year": 1962,
-      "imdb_id": "tt0056193",
-      "notes": null
+      "imdbId": "tt0056193",
+      "title": "Lolita (1962)"
     },
     {
-      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-      "year": 1964,
-      "imdb_id": "tt0057012",
-      "notes": null
+      "imdbId": "tt0057012",
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)"
     },
     {
-      "title": "2001: A Space Odyssey",
-      "year": 1968,
-      "imdb_id": "tt0062622",
-      "notes": null
+      "imdbId": "tt0062622",
+      "title": "2001: A Space Odyssey (1968)"
     },
     {
-      "title": "A Clockwork Orange",
-      "year": 1971,
-      "imdb_id": "tt0066921",
-      "notes": null
+      "imdbId": "tt0066921",
+      "title": "A Clockwork Orange (1971)"
     },
     {
-      "title": "Barry Lyndon",
-      "year": 1975,
-      "imdb_id": "tt0072684",
-      "notes": null
+      "imdbId": "tt0072684",
+      "title": "Barry Lyndon (1975)"
     },
     {
-      "title": "The Shining",
-      "year": 1980,
-      "imdb_id": "tt0081505",
-      "notes": null
+      "imdbId": "tt0081505",
+      "title": "The Shining (1980)"
     },
     {
-      "title": "Full Metal Jacket",
-      "year": 1987,
-      "imdb_id": "tt0093058",
-      "notes": null
+      "imdbId": "tt0093058",
+      "title": "Full Metal Jacket (1987)"
     },
     {
-      "title": "Eyes Wide Shut",
-      "year": 1999,
-      "imdb_id": "tt0120663",
-      "notes": null
+      "imdbId": "tt0120663",
+      "title": "Eyes Wide Shut (1999)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0043548",
+      "title": "Flying Padre (1951)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0042384",
+      "title": "Day of the Fight (1951)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0045130",
+      "title": "The Seafarers (1953)",
+      "reason": "Documentary, Short"
     }
   ]
 }

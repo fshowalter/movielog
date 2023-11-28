@@ -1,128 +1,189 @@
 {
-  "frozen": false,
   "name": "William Friedkin",
   "slug": "william-friedkin",
-  "imdb_id": "nm0001243",
-  "movies": [
+  "imdbId": "nm0001243",
+  "titles": [
     {
-      "title": "Good Times",
-      "year": 1967,
-      "imdb_id": "tt0061720",
-      "notes": ""
+      "imdbId": "tt0061720",
+      "title": "Good Times (1967)"
     },
     {
-      "title": "The Birthday Party",
-      "year": 1968,
-      "imdb_id": "tt0062732",
-      "notes": ""
+      "imdbId": "tt7274390",
+      "title": "The Pickle Brothers (1967) (TV)"
     },
     {
-      "title": "The Night They Raided Minsky's",
-      "year": 1968,
-      "imdb_id": "tt0063348",
-      "notes": ""
+      "imdbId": "tt0062732",
+      "title": "The Birthday Party (1968)"
     },
     {
-      "title": "The Boys in the Band",
-      "year": 1970,
-      "imdb_id": "tt0065488",
-      "notes": ""
+      "imdbId": "tt0063348",
+      "title": "The Night They Raided Minsky's (1968)"
     },
     {
-      "title": "The French Connection",
-      "year": 1971,
-      "imdb_id": "tt0067116",
-      "notes": ""
+      "imdbId": "tt0065488",
+      "title": "The Boys in the Band (1970)"
     },
     {
-      "title": "The Exorcist",
-      "year": 1973,
-      "imdb_id": "tt0070047",
-      "notes": ""
+      "imdbId": "tt0067116",
+      "title": "The French Connection (1971)"
     },
     {
-      "title": "Sorcerer",
-      "year": 1977,
-      "imdb_id": "tt0076740",
-      "notes": ""
+      "imdbId": "tt0070047",
+      "title": "The Exorcist (1973)"
     },
     {
-      "title": "The Brink's Job",
-      "year": 1978,
-      "imdb_id": "tt0077275",
-      "notes": ""
+      "imdbId": "tt0076740",
+      "title": "Sorcerer (1977)"
     },
     {
-      "title": "Cruising",
-      "year": 1980,
-      "imdb_id": "tt0080569",
-      "notes": ""
+      "imdbId": "tt0077275",
+      "title": "The Brink's Job (1978)"
     },
     {
-      "title": "Deal of the Century",
-      "year": 1983,
-      "imdb_id": "tt0085412",
-      "notes": ""
+      "imdbId": "tt0080569",
+      "title": "Cruising (1980)"
     },
     {
-      "title": "To Live and Die in L.A.",
-      "year": 1985,
-      "imdb_id": "tt0090180",
-      "notes": ""
+      "imdbId": "tt0085412",
+      "title": "Deal of the Century (1983)"
     },
     {
-      "title": "Rampage",
-      "year": 1987,
-      "imdb_id": "tt0095958",
-      "notes": ""
+      "imdbId": "tt0090180",
+      "title": "To Live and Die in L.A. (1985)"
     },
     {
-      "title": "The Guardian",
-      "year": 1990,
-      "imdb_id": "tt0099710",
-      "notes": ""
+      "imdbId": "tt0090783",
+      "title": "C.A.T. Squad (1986) (TV)"
     },
     {
-      "title": "Blue Chips",
-      "year": 1994,
-      "imdb_id": "tt0109305",
-      "notes": ""
+      "imdbId": "tt0095958",
+      "title": "Rampage (1987)"
     },
     {
-      "title": "Jade",
-      "year": 1995,
-      "imdb_id": "tt0113451",
-      "notes": ""
+      "imdbId": "tt0094823",
+      "title": "C.A.T. Squad: Python Wolf (1988) (TV)"
     },
     {
-      "title": "Rules of Engagement",
-      "year": 2000,
-      "imdb_id": "tt0160797",
-      "notes": ""
+      "imdbId": "tt0099710",
+      "title": "The Guardian (1990)"
     },
     {
-      "title": "The Hunted",
-      "year": 2003,
-      "imdb_id": "tt0269347",
-      "notes": ""
+      "imdbId": "tt0109305",
+      "title": "Blue Chips (1994)"
     },
     {
-      "title": "Bug",
-      "year": 2006,
-      "imdb_id": "tt0470705",
-      "notes": ""
+      "imdbId": "tt0113451",
+      "title": "Jade (1995)"
     },
     {
-      "title": "Killer Joe",
-      "year": 2011,
-      "imdb_id": "tt1726669",
-      "notes": ""
+      "imdbId": "tt0118528",
+      "title": "12 Angry Men (1997) (TV)"
     },
     {
-      "title": "The Caine Mutiny Court-Martial",
-      "year": 2023,
-      "imdb_id": "tt24249946",
-      "notes": ""
+      "imdbId": "tt0160797",
+      "title": "Rules of Engagement (2000)"
+    },
+    {
+      "imdbId": "tt0269347",
+      "title": "The Hunted (2003)"
+    },
+    {
+      "imdbId": "tt0470705",
+      "title": "Bug (2006)"
+    },
+    {
+      "imdbId": "tt1726669",
+      "title": "Killer Joe (2011)"
+    },
+    {
+      "imdbId": "tt6883152",
+      "title": "The Devil and Father Amorth (2017)"
+    },
+    {
+      "imdbId": "tt24249946",
+      "title": "The Caine Mutiny Court-Martial (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0378552",
+      "title": "The People vs. Paul Crump (1962) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0055657",
+      "title": "\"The Alfred Hitchcock Hour\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0857360",
+      "title": "The Bold Men (1965) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0860928",
+      "title": "Pro Football: Mayhem on a Sunday Afternoon (1965) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0860931",
+      "title": "The Thin Blue Line (1966) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0276970",
+      "title": "Fritz Lang Interviewed by William Friedkin (1975)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt4651934",
+      "title": "Laura Branigan: Self Control (1984)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt7444330",
+      "title": "Wang Chung: To Live and Die in LA (1985)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0088634",
+      "title": "\"The Twilight Zone\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt12916982",
+      "title": "Barbra Streisand: Somewhere (1985)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0255529",
+      "title": "Putting It Together: The Making of the Broadway Album (1986) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0096708",
+      "title": "\"Tales from the Crypt\" (1989)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0108902",
+      "title": "\"Rebel Highway\" (1994)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt28441291",
+      "title": "Johnny Hallyday: Ce que je sais (1998)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0247082",
+      "title": "\"CSI: Crime Scene Investigation\" (2000)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt1122601",
+      "title": "The Painter's Voice (2007) (V)",
+      "reason": "Documentary, Short"
     }
   ]
 }

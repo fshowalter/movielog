@@ -1,74 +1,133 @@
 {
-  "frozen": false,
   "name": "Wes Anderson",
   "slug": "wes-anderson",
-  "imdb_id": "nm0027572",
-  "movies": [
+  "imdbId": "nm0027572",
+  "titles": [
     {
-      "title": "Bottle Rocket",
-      "year": 1996,
-      "imdb_id": "tt0115734",
-      "notes": ""
+      "imdbId": "tt0115734",
+      "title": "Bottle Rocket (1996)"
     },
     {
-      "title": "Rushmore",
-      "year": 1998,
-      "imdb_id": "tt0128445",
-      "notes": ""
+      "imdbId": "tt0128445",
+      "title": "Rushmore (1998)"
     },
     {
-      "title": "The Royal Tenenbaums",
-      "year": 2001,
-      "imdb_id": "tt0265666",
-      "notes": ""
+      "imdbId": "tt0265666",
+      "title": "The Royal Tenenbaums (2001)"
     },
     {
-      "title": "The Life Aquatic with Steve Zissou",
-      "year": 2004,
-      "imdb_id": "tt0362270",
-      "notes": ""
+      "imdbId": "tt0362270",
+      "title": "The Life Aquatic with Steve Zissou (2004)"
     },
     {
-      "title": "The Darjeeling Limited",
-      "year": 2007,
-      "imdb_id": "tt0838221",
-      "notes": ""
+      "imdbId": "tt0838221",
+      "title": "The Darjeeling Limited (2007)"
     },
     {
-      "title": "Fantastic Mr. Fox",
-      "year": 2009,
-      "imdb_id": "tt0432283",
-      "notes": ""
+      "imdbId": "tt0432283",
+      "title": "Fantastic Mr. Fox (2009)"
     },
     {
-      "title": "Moonrise Kingdom",
-      "year": 2012,
-      "imdb_id": "tt1748122",
-      "notes": ""
+      "imdbId": "tt1748122",
+      "title": "Moonrise Kingdom (2012)"
     },
     {
-      "title": "The Grand Budapest Hotel",
-      "year": 2014,
-      "imdb_id": "tt2278388",
-      "notes": ""
+      "imdbId": "tt2278388",
+      "title": "The Grand Budapest Hotel (2014)"
     },
     {
-      "title": "Isle of Dogs",
-      "year": 2018,
-      "imdb_id": "tt5104604",
-      "notes": ""
+      "imdbId": "tt5104604",
+      "title": "Isle of Dogs (2018)"
     },
     {
-      "title": "The French Dispatch",
-      "year": 2021,
-      "imdb_id": "tt8847712",
-      "notes": ""
+      "imdbId": "tt8847712",
+      "title": "The French Dispatch (2021)"
     },
     {
-      "title": "Asteroid City",
-      "year": 2023,
-      "imdb_id": "tt14230388",
-      "notes": "(directed by)"
+      "imdbId": "tt14230388",
+      "title": "Asteroid City (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0109322",
+      "title": "Bottle Rocket (1994)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt4283584",
+      "title": "American Express: My Life. My Card. (2006) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1094249",
+      "title": "Hotel Chevalier (2007)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12753128",
+      "title": "SoftBank Commercial (2008)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12753124",
+      "title": "Stella Artois Le Apartomatic Commercial (2010)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3707014",
+      "title": "Moonrise Kingdom: Animated Book Short (2012)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2219564",
+      "title": "Cousin Ben Troop Screening with Jason Schwartzman (2012)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2808968",
+      "title": "Prada: Candy (2013)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3331512",
+      "title": "Castello Cavalcanti (2013)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6282412",
+      "title": "Come Together: A Fashion Picture in Motion (2016)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt21071898",
+      "title": "Tip-Top: Aline (2021)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt28259927",
+      "title": "Asteroid City Location Featurette (2023) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt16968450",
+      "title": "The Wonderful Story of Henry Sugar (2023)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt28912758",
+      "title": "The Swan (2023)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt28912858",
+      "title": "The Rat Catcher (2023)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt28912885",
+      "title": "Poison (2023)",
+      "reason": "Short"
     }
   ]
 }
