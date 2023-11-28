@@ -73,7 +73,7 @@ def log_skip(person_name: str, imdb_movie: imdb.Movie.Movie, reason: str) -> Non
     logger.log(
         "Skipping {0} for {1} {2}",
         imdb_movie["long imdb title"],
-        imdb_person["name"],
+        person_name,
         reason,
     )
 
@@ -123,7 +123,7 @@ def is_valie_feature(imdb_movie: imdb.Movie.Movie) -> bool:
 def valid_movies_for_person(  # noqa: WPS231
     person: Person,
     key: str,
-    validator: Callable[[imdb.Movie.Movie], Optional[str]],
+    validator: Callable[[imdb.Movie.Movie, str], Optional[str]],
 ) -> Person:
     filmography: set[str] = {}
 
@@ -230,6 +230,17 @@ def valid_movies_for_person(  # noqa: WPS231
                     imdbId="tt{0}".format(imdb_movie.movieID),
                     title=imdb_movie["long imdb title"],
                     reason="silent",
+                )
+            )
+            continue
+
+        invalid_notes = validator(imdb_movie, person.imdbId)
+        if invalid_notes:
+            person.excludedTitles.append(
+                JsonExcludedTitle(
+                    imdbId="tt{0}".format(imdb_movie.movieID),
+                    title=imdb_movie["long imdb title"],
+                    reason=invalid_notes,
                 )
             )
             continue

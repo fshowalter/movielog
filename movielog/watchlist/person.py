@@ -12,7 +12,6 @@ from movielog.watchlist.movies import JsonExcludedTitle, JsonMovie, JsonTitle
 class Person(object):
     name: str
     slug: str
-    imdbId: str
     imdbIds: list[str]
     titles: list[JsonTitle]
     excludedTitles: list[JsonExcludedTitle]
