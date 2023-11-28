@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import TypedDict
+from typing import TypedDict, Union
 
 from slugify import slugify
 
@@ -12,7 +12,7 @@ from movielog.watchlist.movies import JsonExcludedTitle, JsonMovie, JsonTitle
 class Person(object):
     name: str
     slug: str
-    imdbIds: list[str]
+    imdbId: Union[str, list[str]]
     titles: list[JsonTitle]
     excludedTitles: list[JsonExcludedTitle]
 

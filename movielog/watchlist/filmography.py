@@ -123,19 +123,19 @@ def is_valie_feature(imdb_movie: imdb.Movie.Movie) -> bool:
 def valid_movies_for_person(  # noqa: WPS231
     person: Person,
     key: str,
-    validator: Callable[[imdb.Movie.Movie, str], Optional[str]],
+    validator: Callable[[imdb.Movie.Movie, Person], Optional[str]],
 ) -> Person:
-    filmography: set[str] = {}
+    filmography: set[str] = set()
 
-    if len(person.imdbIds) == 1:
-        imdb_person = imdb_http.get_person(person.imdbIds[0][2:])
+    if isinstance(person.imdbId, str):
+        imdb_person = imdb_http.get_person(person.imdbId[2:])
         filmography = set(
             [movie.movieID for movie in filmography_for_person(imdb_person, key)]
         )
     else:
         filmographies: list[set[str]] = []
-        for imdb_id in person.imdbIds:
-            imdb_person = imdb_http.get_person(imdb_id)
+        for imdb_id in person.imdbId:
+            imdb_person = imdb_http.get_person(imdb_id[2:])
             filmographies.append(
                 set(movie.movieID for movie in filmography_for_person(imdb_person, key))
             )
@@ -234,7 +234,7 @@ def valid_movies_for_person(  # noqa: WPS231
             )
             continue
 
-        invalid_notes = validator(imdb_movie, person.imdbId)
+        invalid_notes = validator(imdb_movie, person)
         if invalid_notes:
             person.excludedTitles.append(
                 JsonExcludedTitle(
@@ -284,14 +284,14 @@ def build_movie(imdb_movie: imdb.Movie.Movie) -> Movie:
     )
 
 
-def valid_for_director(
-    imdb_movie: imdb.Movie.Movie, person_imdb_id: str
-) -> Optional[str]:
-    director_notes = [
-        credit.notes
-        for credit in imdb_movie.get("directors", [])
-        if credit.personID == person_imdb_id[2:]
-    ]
+def valid_for_director(imdb_movie: imdb.Movie.Movie, person: Person) -> Optional[str]:
+    director_notes = set(
+        [
+            credit.notes
+            for credit in imdb_movie.get("directors", [])
+            if "tt{0}".format(credit.personID) in person.imdbId
+        ]
+    )
 
     imdb_movie.notes = " / ".join(director_notes)
 

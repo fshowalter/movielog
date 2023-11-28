@@ -1,7 +1,10 @@
 {
   "name": "The Coen Brothers",
   "slug": "the-coen-brothers",
-  "imdbIds": ["nm0001054", "nm0001053"],
+  "imdbId": [
+    "nm0001054",
+    "nm0001053"
+  ],
   "titles": [
     {
       "imdbId": "tt0086979",
@@ -34,10 +37,6 @@
     {
       "imdbId": "tt0190590",
       "title": "O Brother, Where Art Thou? (2000)"
-    },
-    {
-      "imdbId": "tt0243133",
-      "title": "The Man Who Wasn't There (2001)"
     },
     {
       "imdbId": "tt0138524",
@@ -82,10 +81,6 @@
     {
       "imdbId": "tt6412452",
       "title": "The Ballad of Buster Scruggs (2018)"
-    },
-    {
-      "imdbId": "tt10095582",
-      "title": "The Tragedy of Macbeth (2021)"
     }
   ],
   "excludedTitles": [
@@ -97,11 +92,6 @@
     {
       "imdbId": "tt6261532",
       "title": "Lumberjacks at Play (1971)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt6261498",
-      "title": "Soundings (1980)",
       "reason": "Short"
     },
     {
