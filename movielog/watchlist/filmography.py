@@ -14,6 +14,7 @@ from movielog.watchlist.movies import JsonExcludedTitle, JsonTitle
 
 if TYPE_CHECKING:
     from movielog.directors import Director
+    from movielog.performers import Performer
     from movielog.person import Person
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
@@ -301,10 +302,26 @@ def valid_for_director(imdb_movie: imdb.Movie.Movie, person: Person) -> Optional
     return None
 
 
-def for_director(director: Director) -> Director:
-    valid_movies_for_person(director, "director", valid_for_director)
+def valid_for_performer(imdb_movie: imdb.Movie.Movie, person: Person) -> Optional[str]:
+    performer_notes = set(
+        [
+            credit.notes
+            for credit in imdb_movie.get("cast", [])
+            if "tt{0}".format(credit.personID) in person.imdbId
+        ]
+    )
 
-    return director
+    imdb_movie.notes = " / ".join(performer_notes)
+
+    if not moviedata_api.valid_cast_notes(imdb_movie):
+        return imdb_movie.notes
+
+    return None
+
+
+def for_director(director: Director) -> Director:
+    return valid_movies_for_person(director, "director", valid_for_director)
+
     # ):
     #     # director_notes = [
     #     #     credit.notes
@@ -357,22 +374,5 @@ def for_writer(person_imdb_id: str) -> tuple[list[Movie], list[ExcludedTitle]]:
     return movie_list, excluded_movies
 
 
-def for_performer(person_imdb_id: str) -> tuple[list[Movie], list[ExcludedTitle]]:
-    movie_list: list[Movie] = []
-    excluded_movies = []
-
-    for imdb_person, imdb_movie, excluded_titles in valid_movies_for_person(
-        person_imdb_id, "performer"
-    ):
-        if not moviedata_api.valid_cast_notes(imdb_movie):
-            log_skip(
-                imdb_person=imdb_person,
-                imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie.notes),
-            )
-            continue
-
-        movie_list.append(build_movie(imdb_movie))
-        excluded_movies = excluded_titles
-
-    return movie_list, excluded_movies
+def for_performer(performer: Performer) -> Performer:
+    return valid_movies_for_person(performer, "performer", valid_for_performer)
