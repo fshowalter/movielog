@@ -56,7 +56,6 @@ JsonTitle = TypedDict(
         "sortTitle": str,
         "year": int,
         "releaseDate": str,
-        "releaseDateNotes": Optional[str],
         "countries": list[str],
         "genres": list[str],
         "directors": list[JsonDirector],
@@ -109,7 +108,6 @@ def create(
     title: str,
     year: int,
     release_date: str,
-    release_date_notes: Optional[str],
     countries: list[str],
     genres: list[str],
     directors: list[CreateTitleDirector],
@@ -126,7 +124,6 @@ def create(
         year=year,
         slug=slug,
         releaseDate=release_date,
-        releaseDateNotes=release_date_notes,
         countries=countries,
         genres=genres,
         directors=[
@@ -194,9 +191,6 @@ def fix_all() -> None:
                 title=db_data.title,
                 year=db_data.year,
                 release_date=json_data["release_date"],
-                release_date_notes=None
-                if json_data["release_date_notes"] == ""
-                else json_data["release_date_notes"],
                 countries=json_data["countries"],
                 genres=json_data["genres"],
                 directors=[
