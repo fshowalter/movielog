@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0084695",
-  "title": "The Slumber Party Massacre",
-  "sortTitle": "Slumber Party Massacre (1982)",
-  "year": 1982,
   "slug": "the-slumber-party-massacre-1982",
-  "releaseDate": "1982-01-01",
+  "title": "The Slumber Party Massacre",
+  "originalTitle": "The Slumber Party Massacre",
+  "sortTitle": "Slumber Party Massacre, The",
+  "year": 1982,
+  "releaseDate": "1982-11-12",
   "countries": [
     "United States"
   ],
@@ -15,19 +17,17 @@
     {
       "imdbId": "nm0427468",
       "name": "Amy Holden Jones",
-      "sequence": 0,
-      "notes": "(as Amy Jones)"
+      "sequence": 0
     }
   ],
   "performers": [
     {
       "imdbId": "nm0584445",
-      "name": "Michelle Michaels",
+      "name": "Michele Michaels",
       "sequence": 0,
       "roles": [
         "Trish"
-      ],
-      "notes": "(as Michele Michaels)"
+      ]
     },
     {
       "imdbId": "nm0830241",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Valerie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0898252",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Russ Thorn"
-      ],
-      "notes": "(as Michael Villela)"
+      ]
     },
     {
       "imdbId": "nm0217231",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Kim"
-      ],
-      "notes": "(as Debra Deliso)"
+      ]
     },
     {
       "imdbId": "nm0393390",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Jackie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3495928",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Diane"
-      ],
-      "notes": "(as Gina Mari)"
+      ]
     },
     {
       "imdbId": "nm0583560",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Courtney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0425401",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Neil"
-      ],
-      "notes": "(as Joe Johnson)"
+      ]
     },
     {
       "imdbId": "nm0587778",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Jeff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0101643",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "John Minor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747398",
@@ -116,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Coach Jana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0828288",
@@ -125,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Linda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448300",
@@ -134,8 +123,7 @@
       "sequence": 12,
       "roles": [
         "David Contant"
-      ],
-      "notes": "(as Ryan Kennedy)"
+      ]
     },
     {
       "imdbId": "nm0889852",
@@ -143,8 +131,7 @@
       "sequence": 13,
       "roles": [
         "Telephone Repairwoman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0666534",
@@ -152,8 +139,7 @@
       "sequence": 14,
       "roles": [
         "Mrs. Devereaux"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0298870",
@@ -161,8 +147,7 @@
       "sequence": 15,
       "roles": [
         "Mr. Devereaux"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0134845",
@@ -170,8 +155,7 @@
       "sequence": 16,
       "roles": [
         "Carpenter"
-      ],
-      "notes": "(as Pam Canzano)"
+      ]
     },
     {
       "imdbId": "nm0003497",
@@ -179,8 +163,7 @@
       "sequence": 17,
       "roles": [
         "Pizza Boy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0579459",
@@ -188,8 +171,15 @@
       "sequence": 18,
       "roles": [
         "Paper Boy"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0043498",
+      "name": "Robert Axelrod",
+      "sequence": 19,
+      "roles": [
+        "Larry"
+      ]
     }
   ],
   "writers": [
@@ -198,12 +188,6 @@
       "name": "Rita Mae Brown",
       "sequence": 0,
       "notes": "(written by)"
-    },
-    {
-      "imdbId": "nm0427468",
-      "name": "Amy Holden Jones",
-      "sequence": 1,
-      "notes": "() (uncredited)"
     }
   ]
 }

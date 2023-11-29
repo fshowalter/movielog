@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021926",
-  "title": "Graft",
-  "sortTitle": "Graft (1931)",
-  "year": 1931,
   "slug": "graft-1931",
+  "title": "Graft",
+  "originalTitle": "Graft",
+  "sortTitle": "Graft",
+  "year": 1931,
   "releaseDate": "1931-09-21",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Crime",
     "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0127511",
       "name": "Christy Cabanne",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dustin Hotchkiss"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138999",
@@ -35,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Constance Hall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720885",
@@ -44,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Pearl Vaughan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "'Terry'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0203527",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "M.H. Thomas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0410271",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Robert Hall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0329467",
@@ -80,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "'Speed' Hansen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0875983",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "District Attorney Martin Harrison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732062",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "E. T. Scudder"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -112,7 +105,7 @@
     {
       "imdbId": "nm0057456",
       "name": "Barry Barringer",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story)"
     }
   ]

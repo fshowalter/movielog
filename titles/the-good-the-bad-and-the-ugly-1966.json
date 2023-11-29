@@ -1,24 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0060196",
-  "title": "The Good, the Bad and the Ugly",
-  "sortTitle": "Good, the Bad and the Ugly (1966)",
-  "year": 1966,
   "slug": "the-good-the-bad-and-the-ugly-1966",
-  "releaseDate": "1966-12-23",
+  "title": "The Good, the Bad and the Ugly",
+  "originalTitle": "Il buono, il brutto, il cattivo",
+  "sortTitle": "Good, the Bad and the Ugly, The",
+  "year": 1966,
+  "releaseDate": "1967-12-29",
   "countries": [
     "Italy",
     "Spain",
     "West Germany"
   ],
   "genres": [
+    "Adventure",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Tuco"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000142",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Blondie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001812",
@@ -47,8 +47,7 @@
       "roles": [
         "Sentenza",
         "Angel Eyes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0321294",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Alcoholic Union Captain"
-      ],
-      "notes": "(as Aldo Giuffre')"
+      ]
     },
     {
       "imdbId": "nm0685559",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Father Pablo Ramirez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0711502",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Maria"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0677654",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Storekeeper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0769116",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Mexican Peon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0058384",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Sheriff"
-      ],
-      "notes": "(as John Bartho)"
+      ]
     },
     {
       "imdbId": "nm0520859",
@@ -110,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Baker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0142804",
@@ -120,8 +112,7 @@
       "roles": [
         "Jackson",
         "Bill Carson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0769118",
@@ -129,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Mexican Peon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0824934",
@@ -138,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Member of Angel Eyes' Gang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0637064",
@@ -147,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Monk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0143030",
@@ -156,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Stevens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0759757",
@@ -165,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Member of Angel Eyes' Gang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0612468",
@@ -174,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "One-Armed Bounty Hunter"
-      ],
-      "notes": "(as Al Mulloch)"
+      ]
     },
     {
       "imdbId": "nm0579155",
@@ -183,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Blonde Bounty Hunter"
-      ],
-      "notes": "(as Sergio Mendizabal)"
+      ]
     },
     {
       "imdbId": "nm0590158",
@@ -192,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Capt. Harper"
-      ],
-      "notes": "(as Molino Rocho)"
+      ]
     },
     {
       "imdbId": "nm0696468",
@@ -201,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Clem"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0103828",
@@ -210,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Cpl. Wallace"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -230,25 +211,25 @@
     {
       "imdbId": "nm0408488",
       "name": "Agenore Incrocci",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay) (as Age)"
     },
     {
       "imdbId": "nm0769249",
       "name": "Furio Scarpelli",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay) (as Scarpelli)"
     },
     {
       "imdbId": "nm0898812",
       "name": "Luciano Vincenzoni",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 5,
+      "sequence": 6,
       "notes": "(screenplay)"
     }
   ]

@@ -1,14 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0069048",
-  "title": "Baron Blood",
-  "sortTitle": "Baron Blood (1972)",
-  "year": 1972,
   "slug": "baron-blood-1972",
-  "releaseDate": "1972-05-27",
+  "title": "Baron Blood",
+  "originalTitle": "Gli orrori del castello di Norimberga",
+  "sortTitle": "Baron Blood",
+  "year": 1972,
+  "releaseDate": "1972-10-27",
   "countries": [
     "Italy",
-    "West Germany",
-    "United States"
+    "West Germany"
   ],
   "genres": [
     "Horror"
@@ -17,8 +18,7 @@
     {
       "imdbId": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +29,7 @@
       "roles": [
         "Baron Otto von Kleist",
         "Alfred Becker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0813961",
@@ -38,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Eva Arnold"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0320988",
@@ -47,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Karl Hummel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0683119",
@@ -56,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Fritz"
-      ],
-      "notes": "(as Alan Collins)"
+      ]
     },
     {
       "imdbId": "nm0134464",
@@ -65,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Peter Kleist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706770",
@@ -74,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Inspector"
-      ],
-      "notes": "(as Humi Raho on US prints)"
+      ]
     },
     {
       "imdbId": "nm0255435",
@@ -83,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Gretchen Hummel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0872272",
@@ -92,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mayor Dortmundt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm9087864",
@@ -101,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Auctioner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0210519",
@@ -110,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Dr. Werner Hesse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0754669",
@@ -119,15 +109,13 @@
       "sequence": 10,
       "roles": [
         "Martha Hummel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0266922",
       "name": "Irio Fantini",
       "sequence": 11,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0711502",
@@ -136,8 +124,7 @@
       "roles": [
         "Christina Hoffmann",
         "Elizabeth H\u00f6lle"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -156,31 +143,31 @@
     {
       "imdbId": "nm0260552",
       "name": "Willibald Eser",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0287181",
       "name": "Vincent Fotre",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(original story)"
     },
     {
       "imdbId": "nm0287181",
       "name": "Vincent Fotre",
-      "sequence": 5,
+      "sequence": 8,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0047937",
       "name": "William A. Bairn",
-      "sequence": 6,
+      "sequence": 10,
       "notes": "(adapted for the screen by)"
     }
   ]

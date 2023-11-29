@@ -1,13 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0081738",
-  "title": "The Watcher in the Woods",
-  "sortTitle": "Watcher in the Woods (1980)",
-  "year": 1980,
   "slug": "the-watcher-in-the-woods-1980",
-  "releaseDate": "1980-04-17",
+  "title": "The Watcher in the Woods",
+  "originalTitle": "The Watcher in the Woods",
+  "sortTitle": "Watcher in the Woods, The",
+  "year": 1980,
+  "releaseDate": "1981-10-09",
   "countries": [
-    "United States",
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ],
   "genres": [
     "Family",
@@ -19,14 +21,7 @@
     {
       "imdbId": "nm0396421",
       "name": "John Hough",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0568546",
-      "name": "Vincent McEveety",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -36,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Mrs. Aylwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000468",
@@ -45,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Jan Curtis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0724202",
@@ -54,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Ellie Curtis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0004647",
@@ -63,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Helen Curtis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0564724",
@@ -72,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Paul Curtis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0852028",
@@ -81,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Mike Fleming"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0191311",
@@ -90,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Mary Fleming"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0664390",
@@ -99,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Tom Colley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000846",
@@ -108,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "John Keller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0506496",
@@ -117,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Karen Aylwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0838628",
@@ -126,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. Thayer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354914",
@@ -135,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Young Mrs. Aylwood"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -144,31 +127,25 @@
       "imdbId": "nm0166018",
       "name": "Brian Clemens",
       "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0206409",
-      "name": "Gerry Day",
-      "sequence": 1,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0709585",
-      "name": "Florence Engel Randall",
-      "sequence": 2,
-      "notes": "(novel \"A Watcher in the Woods\")"
-    },
-    {
-      "imdbId": "nm0803100",
-      "name": "Rosemary Anne Sisson",
-      "sequence": 3,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0189171",
       "name": "Harry Spalding",
+      "sequence": 1,
+      "notes": "(screenplay by)"
+    },
+    {
+      "imdbId": "nm0803100",
+      "name": "Rosemary Anne Sisson",
+      "sequence": 2,
+      "notes": "(screenplay by)"
+    },
+    {
+      "imdbId": "nm0709585",
+      "name": "Florence Engel Randall",
       "sequence": 4,
-      "notes": "(screenplay)"
+      "notes": "(novel \"A Watcher in the Woods\")"
     }
   ]
 }

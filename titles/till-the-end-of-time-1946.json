@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0039036",
-  "title": "Till the End of Time",
-  "sortTitle": "Till the End of Time (1946)",
-  "year": 1946,
   "slug": "till-the-end-of-time-1946",
-  "releaseDate": "1946-07-23",
+  "title": "Till the End of Time",
+  "originalTitle": "Till the End of Time",
+  "sortTitle": "Till the End of Time",
+  "year": 1946,
+  "releaseDate": "1946-01-01",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0229424",
       "name": "Edward Dmytryk",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Pat Ruscomb"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534972",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Cliff Harper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "William Tabeshaw"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930103",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Perry Kincheloe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0876451",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "C.W. Harper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307326",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Sgt. Gunny Watrous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692156",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Helen Ingersoll"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0762329",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0863877",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Pinky"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625724",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Amy Harper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747413",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. Kincheloe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0903266",
@@ -127,17 +117,15 @@
       "sequence": 11,
       "roles": [
         "Scuffy"
-      ],
-      "notes": "(as Harry Von Zell)"
+      ]
     },
     {
       "imdbId": "nm0070807",
       "name": "Richard Benedict",
       "sequence": 12,
       "roles": [
-        "The Boy From Idaho"
-      ],
-      "notes": null
+        "The Boy from Idaho"
+      ]
     }
   ],
   "writers": [
@@ -145,13 +133,13 @@
       "imdbId": "nm0729694",
       "name": "Allen Rivkin",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0124002",
       "name": "Niven Busch",
-      "sequence": 1,
-      "notes": "(novel \"They Dream of Home\")"
+      "sequence": 2,
+      "notes": "(based on the novel \"They Dream of Home\" by)"
     }
   ]
 }

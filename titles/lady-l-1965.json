@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0059377",
-  "title": "Lady L",
-  "sortTitle": "Lady L (1965)",
-  "year": 1965,
   "slug": "lady-l-1965",
+  "title": "Lady L",
+  "originalTitle": "Lady L",
+  "sortTitle": "Lady L",
+  "year": 1965,
   "releaseDate": "1965-12-17",
   "countries": [
     "United Kingdom",
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001811",
       "name": "Peter Ustinov",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,10 +28,8 @@
       "name": "Sophia Loren",
       "sequence": 0,
       "roles": [
-        "Lady Louise Lendale",
-        "Lady L"
-      ],
-      "notes": null
+        "Louise"
+      ]
     },
     {
       "imdbId": "nm0000056",
@@ -38,17 +37,15 @@
       "sequence": 1,
       "roles": [
         "Armand Denis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000057",
       "name": "David Niven",
       "sequence": 2,
       "roles": [
-        "Dicky, Lord Lendale"
-      ],
-      "notes": null
+        "Lord Dicky Lendale"
+      ]
     },
     {
       "imdbId": "nm0197950",
@@ -56,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Sapper"
-      ],
-      "notes": "(as Dalio)"
+      ]
     },
     {
       "imdbId": "nm0662116",
@@ -65,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Sir Percy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0634159",
@@ -74,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Ambroise G\u00e9r\u00f4me"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0240638",
@@ -83,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Bealu"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0213895",
@@ -92,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Koenigstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0256399",
@@ -101,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Kobeleff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0677885",
@@ -110,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Madam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0927484",
@@ -119,60 +109,53 @@
       "sequence": 10,
       "roles": [
         "Krajewski"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0871105",
       "name": "Roger Trapp",
       "sequence": 11,
       "roles": [
-        "L'inspecteur de police Dubaron"
-      ],
-      "notes": null
+        "L'Inspecteur de Police Dubaron"
+      ]
     },
     {
       "imdbId": "nm0750432",
       "name": "Jean Rupert",
       "sequence": 12,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0202087",
       "name": "Joe Dassin",
       "sequence": 13,
       "roles": [
-        "Un inspecteur de police"
-      ],
-      "notes": null
+        "Un Inspecteur de Police"
+      ]
     },
     {
       "imdbId": "nm0499493",
       "name": "Jacques Legras",
       "sequence": 14,
       "roles": [
-        "Un inspecteur de police"
-      ],
-      "notes": null
+        "Un Inspecteur de Police"
+      ]
     },
     {
       "imdbId": "nm0271229",
       "name": "Mario Feliciani",
       "sequence": 15,
       "roles": [
-        "L'anarchiste italien"
-      ],
-      "notes": null
+        "L'Anarchiste Italien"
+      ]
     },
     {
       "imdbId": "nm0685782",
       "name": "Sacha Pito\u00ebff",
       "sequence": 16,
       "roles": [
-        "Bomb-throwing revolutionary"
-      ],
-      "notes": "(as Sacha Pitoeff)"
+        "Bomb-Throwing Revolutionary"
+      ]
     },
     {
       "imdbId": "nm0397128",
@@ -180,29 +163,25 @@
       "sequence": 17,
       "roles": [
         "Butler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0721697",
       "name": "Dorothy Reynolds",
       "sequence": 18,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0162791",
       "name": "Jacques Ciron",
       "sequence": 19,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0400642",
       "name": "Hazel Hughes",
       "sequence": 20,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0681566",
@@ -210,8 +189,7 @@
       "sequence": 21,
       "roles": [
         "Lecoeur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0202405",
@@ -219,22 +197,21 @@
       "sequence": 22,
       "roles": [
         "Inspector Mercier"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0308900",
-      "name": "Romain Gary",
-      "sequence": 0,
-      "notes": "(novel \"Lady L\")"
-    },
-    {
       "imdbId": "nm0001811",
       "name": "Peter Ustinov",
-      "sequence": 1,
-      "notes": "()"
+      "sequence": 0,
+      "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0308900",
+      "name": "Romain Gary",
+      "sequence": 2,
+      "notes": "(novel)"
     }
   ]
 }

@@ -1,24 +1,27 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0103874",
-  "title": "Bram Stoker's Dracula",
-  "sortTitle": "Bram Stoker's Dracula (1992)",
-  "year": 1992,
   "slug": "bram-stokers-dracula-1992",
-  "releaseDate": "1992-11-10",
+  "title": "Bram Stoker's Dracula",
+  "originalTitle": "Bram Stoker's Dracula",
+  "sortTitle": "Bram Stoker's Dracula",
+  "year": 1992,
+  "releaseDate": "1992-11-13",
   "countries": [
     "United Kingdom",
     "United States"
   ],
   "genres": [
+    "Drama",
     "Fantasy",
-    "Horror"
+    "Horror",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0000338",
       "name": "Francis Ford Coppola",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Dracula"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000213",
@@ -38,8 +40,7 @@
       "roles": [
         "Mina Murray",
         "Elisabeta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000164",
@@ -47,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Professor Abraham Van Helsing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000206",
@@ -56,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Jonathan Harker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001290",
@@ -65,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Dr. Jack Seward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000144",
@@ -74,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Lord Arthur Holmwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001004",
@@ -83,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Quincey P. Morris"
-      ],
-      "notes": "(as Bill Campbell)"
+      ]
     },
     {
       "imdbId": "nm0001244",
@@ -92,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Lucy Westenra"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001823",
@@ -101,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "R.M. Renfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000899",
@@ -110,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Dracula's Bride"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0073404",
@@ -119,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Dracula's Bride"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447706",
@@ -128,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Dracula's Bride"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732717",
@@ -137,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Mr. Hawkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0387734",
@@ -146,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Hobbs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0291670",
@@ -155,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Lucy's Maid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0934615",
@@ -164,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Downstairs Maid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0128201",
@@ -173,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Deacon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0315294",
@@ -182,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822104",
@@ -191,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Sister Agatha"
-      ],
-      "notes": "(as Dagmar Stanec)"
+      ]
     },
     {
       "imdbId": "nm0960133",
@@ -200,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Sister Sylva"
-      ],
-      "notes": "(as Eniko Oss)"
+      ]
     },
     {
       "imdbId": "nm0153108",
@@ -209,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Older Woman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0902278",
@@ -218,8 +200,7 @@
       "sequence": 21,
       "roles": [
         "Younger Woman"
-      ],
-      "notes": "(as Tatiana von Furstenberg)"
+      ]
     },
     {
       "imdbId": "nm0843230",
@@ -227,17 +208,15 @@
       "sequence": 22,
       "roles": [
         "Zookeeper"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0920234",
+      "imdbId": "nm0919928",
       "name": "Hubert Wells",
       "sequence": 23,
       "roles": [
         "Zookeeper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0628054",
@@ -245,8 +224,7 @@
       "sequence": 24,
       "roles": [
         "News Hawker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491065",
@@ -254,8 +232,7 @@
       "sequence": 25,
       "roles": [
         "Peep Show Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0224657",
@@ -263,8 +240,7 @@
       "sequence": 26,
       "roles": [
         "Peep Show Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0118504",
@@ -272,8 +248,7 @@
       "sequence": 27,
       "roles": [
         "Husband"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292979",
@@ -281,8 +256,7 @@
       "sequence": 28,
       "roles": [
         "Van Helsing's Assistant"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -295,7 +269,7 @@
     {
       "imdbId": "nm0366337",
       "name": "James V. Hart",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

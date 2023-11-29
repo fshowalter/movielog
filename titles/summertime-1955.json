@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0048673",
-  "title": "Summertime",
-  "sortTitle": "Summertime (1955)",
-  "year": 1955,
   "slug": "summertime-1955",
-  "releaseDate": "1955-05-29",
+  "title": "Summertime",
+  "originalTitle": "Summertime",
+  "sortTitle": "Summertime",
+  "year": 1955,
+  "releaseDate": "1955-08-12",
   "countries": [
     "United Kingdom",
     "United States"
   ],
   "genres": [
+    "Comedy",
     "Drama",
     "Romance"
   ],
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0000180",
       "name": "David Lean",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Jane Hudson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0106387",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Renato de Rossi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0592109",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Signora Fiorini"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0569000",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Eddie Yaeger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0017628",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Phyl Yaeger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0741455",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. McIlhenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662002",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mr. McIlhenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0818215",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Vito de Rossi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0027894",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Mauro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0799464",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Giovanna"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -123,20 +115,14 @@
     {
       "imdbId": "nm0060914",
       "name": "H.E. Bates",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000180",
       "name": "David Lean",
-      "sequence": 2,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0829330",
-      "name": "Donald Ogden Stewart",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

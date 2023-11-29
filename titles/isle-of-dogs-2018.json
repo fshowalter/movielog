@@ -1,302 +1,33 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt5104604",
-  "title": "Isle of Dogs",
-  "sortTitle": "Isle of Dogs (2018)",
-  "year": 2018,
   "slug": "isle-of-dogs-2018",
-  "releaseDate": "2018-02-15",
+  "title": "Isle of Dogs",
+  "originalTitle": "Isle of Dogs",
+  "sortTitle": "Isle of Dogs",
+  "year": 2018,
+  "releaseDate": "2018-04-13",
   "countries": [
     "United States",
     "Germany",
-    "United Kingdom"
+    "United Kingdom",
+    "Japan"
   ],
   "genres": [
     "Animation",
     "Adventure",
     "Comedy",
     "Drama",
-    "Fantasy",
     "Sci-Fi"
   ],
   "directors": [
     {
       "imdbId": "nm0027572",
       "name": "Wes Anderson",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
-    {
-      "imdbId": "nm0186505",
-      "name": "Bryan Cranston",
-      "sequence": 0,
-      "roles": [
-        "Chief"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm8659025",
-      "name": "Koyu Rankin",
-      "sequence": 1,
-      "roles": [
-        "Atari"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0001570",
-      "name": "Edward Norton",
-      "sequence": 2,
-      "roles": [
-        "Rex"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000837",
-      "name": "Bob Balaban",
-      "sequence": 3,
-      "roles": [
-        "King"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000156",
-      "name": "Jeff Goldblum",
-      "sequence": 4,
-      "roles": [
-        "Duke"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000195",
-      "name": "Bill Murray",
-      "sequence": 5,
-      "roles": [
-        "Boss"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1440081",
-      "name": "Kunichi Nomura",
-      "sequence": 6,
-      "roles": [
-        "Mayor Kobayashi"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0847425",
-      "name": "Akira Takayama",
-      "sequence": 7,
-      "roles": [
-        "Major-Domo"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1950086",
-      "name": "Greta Gerwig",
-      "sequence": 8,
-      "roles": [
-        "Tracy Walker"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000531",
-      "name": "Frances McDormand",
-      "sequence": 9,
-      "roles": [
-        "Interpreter Nelson"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm4510749",
-      "name": "Akira Ito",
-      "sequence": 10,
-      "roles": [
-        "Professor Watanabe"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0424060",
-      "name": "Scarlett Johansson",
-      "sequence": 11,
-      "roles": [
-        "Nutmeg"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000172",
-      "name": "Harvey Keitel",
-      "sequence": 12,
-      "roles": [
-        "Gondo"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000719",
-      "name": "F. Murray Abraham",
-      "sequence": 13,
-      "roles": [
-        "Jupiter"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0648780",
-      "name": "Yoko Ono",
-      "sequence": 14,
-      "roles": [
-        "Assistant-Scientist Yoko-ono"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0842770",
-      "name": "Tilda Swinton",
-      "sequence": 15,
-      "roles": [
-        "Oracle"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0913822",
-      "name": "Ken Watanabe",
-      "sequence": 16,
-      "roles": [
-        "Head Surgeon"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0622412",
-      "name": "Mari Natsuki",
-      "sequence": 17,
-      "roles": [
-        "Auntie"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0001770",
-      "name": "Fisher Stevens",
-      "sequence": 18,
-      "roles": [
-        "Scrap"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm6327727",
-      "name": "Nijir\u00f4 Murakami",
-      "sequence": 19,
-      "roles": [
-        "Editor Hiroshi"
-      ],
-      "notes": "(voice) (as Nijiro Murakami)"
-    },
-    {
-      "imdbId": "nm0000630",
-      "name": "Liev Schreiber",
-      "sequence": 20,
-      "roles": [
-        "Spots"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0005524",
-      "name": "Courtney B. Vance",
-      "sequence": 21,
-      "roles": [
-        "The Narrator"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm6376499",
-      "name": "Satoshi Yamazaki",
-      "sequence": 22,
-      "roles": [
-        "Taiko Drummer"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm2982111",
-      "name": "Gen Ueda",
-      "sequence": 23,
-      "roles": [
-        "Taiko Drummer"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0178910",
-      "name": "Roman Coppola",
-      "sequence": 24,
-      "roles": [
-        "Igor"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0001378",
-      "name": "Anjelica Huston",
-      "sequence": 25,
-      "roles": [
-        "Mute Poodle"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm6911565",
-      "name": "Y\u00f4jir\u00f4 Noda",
-      "sequence": 26,
-      "roles": [
-        "News Anchor"
-      ],
-      "notes": "(voice) (as Yojiro Noda)"
-    },
-    {
-      "imdbId": "nm1303233",
-      "name": "Takayuki Yamada",
-      "sequence": 27,
-      "roles": [
-        "Junior Scientist 1"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm4227176",
-      "name": "Kozue Akimoto",
-      "sequence": 28,
-      "roles": [
-        "Junior Scientist 2"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm2097378",
-      "name": "Sh\u00f4ta Matsuda",
-      "sequence": 29,
-      "roles": [
-        "Junior Scientist 3"
-      ],
-      "notes": "(voice) (as Shota Matsuda)"
-    },
     {
       "imdbId": "nm0559430",
       "name": "Ry\u00fbhei Matsuda",
@@ -304,170 +35,7 @@
       "roles": [
         "Junior Scientist 4",
         "Bartender"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm9710585",
-      "name": "Jun Takahashi",
-      "sequence": 31,
-      "roles": [
-        "Mission Control Drone Pilot"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9710586",
-      "name": "Luli Shioi",
-      "sequence": 32,
-      "roles": [
-        "Mission Control Technician"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9177227",
-      "name": "Erica Dorn",
-      "sequence": 33,
-      "roles": [
-        "Mission Control Technician"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9159075",
-      "name": "Chinami Narikawa",
-      "sequence": 34,
-      "roles": [
-        "Mission Control Technician"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm3638077",
-      "name": "Jake Ryan",
-      "sequence": 35,
-      "roles": [
-        "Junior Interpreter Ernie"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm4233819",
-      "name": "Elaiza Ikeda",
-      "sequence": 36,
-      "roles": [
-        "Punk Girl"
-      ],
-      "notes": "(voice) (as Eliza Ikeda)"
-    },
-    {
-      "imdbId": "nm6691849",
-      "name": "Ikunosuke",
-      "sequence": 37,
-      "roles": [
-        "Daily Manifesto Student"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9710587",
-      "name": "Taichi Kodama",
-      "sequence": 38,
-      "roles": [
-        "Daily Manifesto Student"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9710588",
-      "name": "Karin Okoso",
-      "sequence": 39,
-      "roles": [
-        "Daily Manifesto Student"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0939703",
-      "name": "Frank Wood",
-      "sequence": 40,
-      "roles": [
-        "Simul-Translate Machine"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm3266699",
-      "name": "Edward Bursch",
-      "sequence": 41,
-      "roles": [
-        "Owl"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm2407715",
-      "name": "Chris Benz",
-      "sequence": 42,
-      "roles": [
-        "Aboriginal Dog"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm8874203",
-      "name": "Alex Orman",
-      "sequence": 43,
-      "roles": [
-        "Aboriginal Dog"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9721522",
-      "name": "J. Wurster",
-      "sequence": 44,
-      "roles": [
-        "Aboriginal Dog"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm4442319",
-      "name": "Kara Hayward",
-      "sequence": 45,
-      "roles": [
-        "Peppermint"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm8343763",
-      "name": "Kiyotaka Mizukoshi",
-      "sequence": 46,
-      "roles": [
-        "Election Night Tabulator"
-      ],
-      "notes": "(voice) (as Kiyotaka 'Mozu' Mizukoshi)"
-    },
-    {
-      "imdbId": "nm9710590",
-      "name": "Ryuhei Nakadai",
-      "sequence": 47,
-      "roles": [
-        "Surgical Assistant"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm9710591",
-      "name": "Shin Mononobe",
-      "sequence": 48,
-      "roles": [
-        "Surgical Assistant"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -498,7 +66,7 @@
     {
       "imdbId": "nm0027572",
       "name": "Wes Anderson",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay by)"
     }
   ]

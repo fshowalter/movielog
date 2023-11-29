@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034398",
-  "title": "The Wolf Man",
-  "sortTitle": "Wolf Man (1941)",
-  "year": 1941,
   "slug": "the-wolf-man-1941",
-  "releaseDate": "1941-12-09",
+  "title": "The Wolf Man",
+  "originalTitle": "The Wolf Man",
+  "sortTitle": "Wolf Man, The",
+  "year": 1941,
+  "releaseDate": "1941-12-12",
   "countries": [
     "United States"
   ],
@@ -17,28 +19,26 @@
     {
       "imdbId": "nm0905729",
       "name": "George Waggner",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0001647",
-      "name": "Claude Rains",
+      "imdbId": "nm0001033",
+      "name": "Lon Chaney Jr.",
       "sequence": 0,
       "roles": [
-        "Sir John Talbot"
-      ],
-      "notes": null
+        "Lawrence Talbot",
+        "The Wolf Man"
+      ]
     },
     {
-      "imdbId": "nm0929925",
-      "name": "Warren William",
+      "imdbId": "nm0001647",
+      "name": "Claude Rains",
       "sequence": 1,
       "roles": [
-        "Dr. Lloyd"
-      ],
-      "notes": null
+        "Sir John Talbot"
+      ]
     },
     {
       "imdbId": "nm0000897",
@@ -46,53 +46,47 @@
       "sequence": 2,
       "roles": [
         "Colonel Montford"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0929925",
+      "name": "Warren William",
+      "sequence": 3,
+      "roles": [
+        "Dr. Lloyd"
+      ]
     },
     {
       "imdbId": "nm0461549",
       "name": "Patric Knowles",
-      "sequence": 3,
+      "sequence": 4,
       "roles": [
         "Frank Andrews"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000509",
       "name": "Bela Lugosi",
-      "sequence": 4,
+      "sequence": 5,
       "roles": [
         "Bela"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0653642",
       "name": "Maria Ouspenskaya",
-      "sequence": 5,
+      "sequence": 6,
       "roles": [
         "Maleva"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0030166",
       "name": "Evelyn Ankers",
-      "sequence": 6,
-      "roles": [
-        "Gwen Conliffe"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0449858",
-      "name": "J.M. Kerrigan",
       "sequence": 7,
       "roles": [
-        "Charles Conliffe"
-      ],
-      "notes": null
+        "Gwen Conliffe"
+      ]
     },
     {
       "imdbId": "nm0375614",
@@ -100,27 +94,23 @@
       "sequence": 8,
       "roles": [
         "Jenny"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0449858",
+      "name": "J.M. Kerrigan",
+      "sequence": 9,
+      "roles": [
+        "Charles Conliffe"
+      ]
     },
     {
       "imdbId": "nm0367516",
       "name": "Forrester Harvey",
-      "sequence": 9,
-      "roles": [
-        "Twiddle"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001033",
-      "name": "Lon Chaney Jr.",
       "sequence": 10,
       "roles": [
-        "Lawrence Talbot",
-        "The Wolf Man"
-      ],
-      "notes": null
+        "Twiddle"
+      ]
     }
   ],
   "writers": [

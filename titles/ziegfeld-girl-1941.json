@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034415",
-  "title": "Ziegfeld Girl",
-  "sortTitle": "Ziegfeld Girl (1941)",
-  "year": 1941,
   "slug": "ziegfeld-girl-1941",
+  "title": "Ziegfeld Girl",
+  "originalTitle": "Ziegfeld Girl",
+  "sortTitle": "Ziegfeld Girl",
+  "year": 1941,
   "releaseDate": "1941-04-25",
   "countries": [
     "United States"
@@ -15,16 +17,14 @@
   ],
   "directors": [
     {
-      "imdbId": "nm0502752",
-      "name": "Robert Z. Leonard",
-      "sequence": 0,
-      "notes": null
-    },
-    {
       "imdbId": "nm0000923",
       "name": "Busby Berkeley",
-      "sequence": 1,
-      "notes": "(musical numbers directed by)"
+      "sequence": 0
+    },
+    {
+      "imdbId": "nm0502752",
+      "name": "Robert Z. Leonard",
+      "sequence": 1
     }
   ],
   "performers": [
@@ -34,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Gilbert Young"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000023",
@@ -43,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Susan Gallagher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001443",
@@ -52,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Sandra Kolter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001805",
@@ -61,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Sheila Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0553149",
@@ -70,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "Frank Merton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178114",
@@ -79,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Jerry Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402842",
@@ -88,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Geoffrey Collis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0935415",
@@ -97,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "'Pop' Gallagher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002143",
@@ -106,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "Noble Sage"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0233856",
@@ -115,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Franz Kolter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0446769",
@@ -124,8 +114,7 @@
       "sequence": 10,
       "roles": [
         "John Slayton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000781",
@@ -133,8 +122,7 @@
       "sequence": 11,
       "roles": [
         "Patsy Dixon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0197314",
@@ -142,8 +130,7 @@
       "sequence": 12,
       "roles": [
         "Jimmy Walters"
-      ],
-      "notes": "(as Dan Dailey Jr.)"
+      ]
     },
     {
       "imdbId": "nm0790383",
@@ -151,8 +138,7 @@
       "sequence": 13,
       "roles": [
         "Al"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0390189",
@@ -160,8 +146,7 @@
       "sequence": 14,
       "roles": [
         "Mrs. Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107795",
@@ -169,8 +154,7 @@
       "sequence": 15,
       "roles": [
         "Mischa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0387556",
@@ -178,8 +162,7 @@
       "sequence": 16,
       "roles": [
         "Mrs. Merton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0624005",
@@ -187,8 +170,7 @@
       "sequence": 17,
       "roles": [
         "Nick Capalini"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0573677",
@@ -196,8 +178,7 @@
       "sequence": 18,
       "roles": [
         "Mr. Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0123994",
@@ -205,8 +186,7 @@
       "sequence": 19,
       "roles": [
         "Jenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0722690",
@@ -214,8 +194,7 @@
       "sequence": 20,
       "roles": [
         "Annie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0926475",
@@ -223,8 +202,7 @@
       "sequence": 21,
       "roles": [
         "Perkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0650805",
@@ -232,8 +210,7 @@
       "sequence": 22,
       "roles": [
         "Native Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0112937",
@@ -241,8 +218,7 @@
       "sequence": 23,
       "roles": [
         "Black Drum Major in Finale"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
@@ -250,25 +226,19 @@
       "imdbId": "nm0731387",
       "name": "Marguerite Roberts",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0397022",
       "name": "Sonya Levien",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0570305",
       "name": "William Anthony McGuire",
-      "sequence": 2,
-      "notes": "(original story)"
-    },
-    {
-      "imdbId": "nm0926217",
-      "name": "Annalee Whitmore",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(original story by)"
     }
   ]
 }

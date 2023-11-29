@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0044084",
-  "title": "Mexican Bus Ride",
-  "sortTitle": "Mexican Bus Ride (1952)",
-  "year": 1952,
   "slug": "mexican-bus-ride-1952",
-  "releaseDate": "1952-05-06",
+  "title": "Mexican Bus Ride",
+  "originalTitle": "Subida al cielo",
+  "sortTitle": "Mexican Bus Ride",
+  "year": 1952,
+  "releaseDate": "1952-06-26",
   "countries": [
     "Mexico"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Raquel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0562862",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Oliverio Grajales"
-      ],
-      "notes": "(as Esteban M\u00e1rquez)"
+      ]
     },
     {
       "imdbId": "nm0009735",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Silvestre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0232375",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Eladio Gonz\u00e1lez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0167952",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Juan Grajales"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0708570",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Elisa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0635341",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Licenciado Figueroa"
-      ],
-      "notes": "(as Manolo Noriega)"
+      ]
     },
     {
       "imdbId": "nm0583332",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Don Nemesio \u00c1lvarez y Villalbazo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0255851",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "El cojo"
-      ],
-      "notes": "(as Pitouto)"
+      ]
     },
     {
       "imdbId": "nm0406437",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Felipe Grajales"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0351155",
@@ -116,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Do\u00f1a Linda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0530049",
@@ -125,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Compadre Chema"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0898233",
@@ -134,29 +123,25 @@
       "sequence": 12,
       "roles": [
         "Do\u00f1a Ester - Mam\u00e1 de Oliverio"
-      ],
-      "notes": "(as Paz Villegas de Orellana)"
+      ]
     },
     {
       "imdbId": "nm0145703",
       "name": "Silvia Castro",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0719395",
       "name": "Paula Rend\u00f3n",
       "sequence": 14,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0702393",
       "name": "V\u00edctor P\u00e9rez",
       "sequence": 15,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0327643",
@@ -164,8 +149,7 @@
       "sequence": 16,
       "roles": [
         "Albina"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0328186",
@@ -173,8 +157,7 @@
       "sequence": 17,
       "roles": [
         "S\u00e1nchez Coello"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -187,25 +170,25 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0127400",
       "name": "Juan de la Cabada",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(adaptation and dialogue)"
     },
     {
       "imdbId": "nm0713781",
       "name": "Manuel Reachi",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0812650",
       "name": "Lilia Solano Galeana",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(dialogue)"
     }
   ]

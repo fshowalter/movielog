@@ -1,12 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0075995",
-  "title": "Equus",
-  "sortTitle": "Equus (1977)",
-  "year": 1977,
   "slug": "equus-1977",
-  "releaseDate": "1977-10-01",
+  "title": "Equus",
+  "originalTitle": "Equus",
+  "sortTitle": "Equus",
+  "year": 1977,
+  "releaseDate": "1977-10-20",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ],
   "genres": [
     "Drama",
@@ -16,8 +19,7 @@
     {
       "imdbId": "nm0001486",
       "name": "Sidney Lumet",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Martin Dysart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0278752",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Alan Strang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086780",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Frank Strang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0687506",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Dora Strang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0028674",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Harry Dalton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0040586",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Hesther Saloman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000256",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Jill Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003679",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Margaret Dysart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943840",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Horseman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0393882",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Miss Raintree"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0416663",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Mr. Pearce"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0117399",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Hospital Patient"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -135,13 +125,13 @@
       "imdbId": "nm0787323",
       "name": "Peter Shaffer",
       "sequence": 0,
-      "notes": "(play)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0787323",
       "name": "Peter Shaffer",
-      "sequence": 1,
-      "notes": "(screenplay)"
+      "sequence": 2,
+      "notes": "(based upon the stage play by)"
     }
   ]
 }

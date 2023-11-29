@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054795",
-  "title": "The Deadly Companions",
-  "sortTitle": "Deadly Companions (1961)",
-  "year": 1961,
   "slug": "the-deadly-companions-1961",
-  "releaseDate": "1961-06-06",
+  "title": "The Deadly Companions",
+  "originalTitle": "The Deadly Companions",
+  "sortTitle": "Deadly Companions, The",
+  "year": 1961,
+  "releaseDate": "1962-02-16",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001603",
       "name": "Sam Peckinpah",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Kit Tildon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001417",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Yellowleg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0168215",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Billy Keplinger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0932629",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Turk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001510",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Parson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0942926",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Doctor Acton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0510181",
@@ -81,17 +76,15 @@
       "sequence": 6,
       "roles": [
         "Cal, General Store"
-      ],
-      "notes": "(as Jim O'Hara)"
+      ]
     },
     {
       "imdbId": "nm0640573",
       "name": "Peter O'Crotty",
       "sequence": 7,
       "roles": [
-        "Mayor of Hila City"
-      ],
-      "notes": null
+        "Mayor of Gila City"
+      ]
     },
     {
       "imdbId": "nm0891145",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Mead Tildon Jr."
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -108,13 +100,13 @@
       "imdbId": "nm0281520",
       "name": "Albert Sidney Fleischman",
       "sequence": 0,
-      "notes": "(screenplay) (as A.S. Fleischman)"
+      "notes": "(screenplay by) (as A.S. Fleischman)"
     },
     {
       "imdbId": "nm0281520",
       "name": "Albert Sidney Fleischman",
-      "sequence": 1,
-      "notes": "(novel \"The Deadly Companions\") (as A.S. Fleischman)"
+      "sequence": 2,
+      "notes": "(from his novel \"The Deadly Companions\") (as A.S. Fleischman)"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0048432",
-  "title": "Not as a Stranger",
-  "sortTitle": "Not as a Stranger (1955)",
-  "year": 1955,
   "slug": "not-as-a-stranger-1955",
-  "releaseDate": "1955-06-28",
+  "title": "Not as a Stranger",
+  "originalTitle": "Not as a Stranger",
+  "sortTitle": "Not as a Stranger",
+  "year": 1955,
+  "releaseDate": "1955-07-01",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0006452",
       "name": "Stanley Kramer",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,36 +28,32 @@
       "name": "Olivia de Havilland",
       "sequence": 0,
       "roles": [
-        "Kristina Hedvigson"
-      ],
-      "notes": null
+        "Kristina"
+      ]
     },
     {
       "imdbId": "nm0000053",
       "name": "Robert Mitchum",
       "sequence": 1,
       "roles": [
-        "Lucas Marsh"
-      ],
-      "notes": null
+        "Lucas"
+      ]
     },
     {
       "imdbId": "nm0000069",
       "name": "Frank Sinatra",
       "sequence": 2,
       "roles": [
-        "Alfred Boone"
-      ],
-      "notes": null
+        "Alfred"
+      ]
     },
     {
       "imdbId": "nm0002108",
       "name": "Gloria Grahame",
       "sequence": 3,
       "roles": [
-        "Harriet Lang"
-      ],
-      "notes": null
+        "Harriet"
+      ]
     },
     {
       "imdbId": "nm0002024",
@@ -64,44 +61,39 @@
       "sequence": 4,
       "roles": [
         "Dr. Aarons"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001948",
       "name": "Charles Bickford",
       "sequence": 5,
       "roles": [
-        "Dr. Dave Runkleman"
-      ],
-      "notes": null
+        "Dr. Runkleman"
+      ]
     },
     {
       "imdbId": "nm0566584",
       "name": "Myron McCormick",
       "sequence": 6,
       "roles": [
-        "Dr. Clem Snider"
-      ],
-      "notes": null
+        "Dr. Snider"
+      ]
     },
     {
       "imdbId": "nm0001033",
       "name": "Lon Chaney Jr.",
       "sequence": 7,
       "roles": [
-        "Job Marsh"
-      ],
-      "notes": "(as Lon Chaney)"
+        "Job"
+      ]
     },
     {
       "imdbId": "nm0924964",
       "name": "Jesse White",
       "sequence": 8,
       "roles": [
-        "Ben Cosgrove"
-      ],
-      "notes": null
+        "Cosgrove"
+      ]
     },
     {
       "imdbId": "nm0604702",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Oley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001511",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Brundage"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0160417",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Bruni"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000946",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Dr. Dietrich"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706978",
@@ -145,26 +133,23 @@
       "sequence": 13,
       "roles": [
         "Dr. Lettering"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164883",
       "name": "Mae Clarke",
       "sequence": 14,
       "roles": [
-        "Nurse Odell"
-      ],
-      "notes": null
+        "Odell"
+      ]
     },
     {
       "imdbId": "nm0891648",
       "name": "William Vedder",
       "sequence": 15,
       "roles": [
-        "Carlisle Emmons"
-      ],
-      "notes": null
+        "Emmons"
+      ]
     },
     {
       "imdbId": "nm0226109",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Bursar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0614073",
@@ -181,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Patient Being Restrained"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
@@ -201,8 +184,8 @@
     {
       "imdbId": "nm0860522",
       "name": "Morton Thompson",
-      "sequence": 2,
-      "notes": "(novel)"
+      "sequence": 3,
+      "notes": "(based on the novel by)"
     }
   ]
 }

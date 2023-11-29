@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052626",
-  "title": "The Big Circus",
-  "sortTitle": "Big Circus (1959)",
-  "year": 1959,
   "slug": "the-big-circus-1959",
+  "title": "The Big Circus",
+  "originalTitle": "The Big Circus",
+  "sortTitle": "Big Circus, The",
+  "year": 1959,
   "releaseDate": "1959-07-05",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0628149",
       "name": "Joseph M. Newman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Henry Jasper 'Hank' Whirling"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000999",
@@ -35,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Randy Sherman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0281766",
@@ -44,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Helen Harrison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0335497",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Jeannie Whirling"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001637",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Hans Hagenfeld"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0738042",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Zach Colino"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000048",
@@ -80,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Skeeter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625287",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Tommy Gordon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0544711",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Maria 'Mama' Colino"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0573830",
@@ -107,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mr. Lomax"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0915114",
@@ -116,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Jonathan T. Nelson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0006752",
@@ -125,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Steve Allen"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -134,25 +124,25 @@
       "imdbId": "nm0000740",
       "name": "Irwin Allen",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0071657",
       "name": "Charles Bennett",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0908683",
       "name": "Irving Wallace",
       "sequence": 2,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0000740",
       "name": "Irwin Allen",
-      "sequence": 3,
-      "notes": "(story)"
+      "sequence": 4,
+      "notes": "(story by)"
     }
   ]
 }

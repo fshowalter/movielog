@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052017",
-  "title": "Brink of Life",
-  "sortTitle": "Brink of Life (1958)",
-  "year": 1958,
   "slug": "brink-of-life-1958",
+  "title": "Brink of Life",
+  "originalTitle": "N\u00e4ra livet",
+  "sortTitle": "Brink of Life",
+  "year": 1958,
   "releaseDate": "1958-03-31",
   "countries": [
     "Sweden"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0000005",
       "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Stina Andersson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0862026",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Cecilia Ellius"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000761",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Hj\u00f6rdis Petterson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0386113",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Nurse Brita"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0430746",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Anders Ellius"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001884",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Harry Andersson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0803561",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Dr. Nordlander"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0350463",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Counsellor Gran"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0484736",
@@ -98,27 +91,14 @@
       "sequence": 8,
       "roles": [
         "Greta Ellius"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0000005",
-      "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": "() (uncredited)"
-    },
-    {
       "imdbId": "nm0410694",
       "name": "Ulla Isaksson",
-      "sequence": 1,
-      "notes": "(novels \"Det v\u00e4nliga, v\u00e4rdiga\" and \"Det orubbliga\") (uncredited)"
-    },
-    {
-      "imdbId": "nm0410694",
-      "name": "Ulla Isaksson",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     }
   ]

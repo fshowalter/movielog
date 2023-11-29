@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0063671",
-  "title": "Targets",
-  "sortTitle": "Targets (1968)",
-  "year": 1968,
   "slug": "targets-1968",
-  "releaseDate": "1968-06-01",
+  "title": "Targets",
+  "originalTitle": "Targets",
+  "sortTitle": "Targets",
+  "year": 1968,
+  "releaseDate": "1968-08-15",
   "countries": [
     "United States"
   ],
@@ -17,199 +19,177 @@
     {
       "imdbId": "nm0000953",
       "name": "Peter Bogdanovich",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0641517",
-      "name": "Tim O'Kelly",
-      "sequence": 0,
-      "roles": [
-        "Bobby Thompson"
-      ],
-      "notes": null
-    },
-    {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
-      "sequence": 1,
+      "sequence": 0,
       "roles": [
         "Byron Orlok"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0677011",
-      "name": "Arthur Peterson",
-      "sequence": 2,
+      "imdbId": "nm0641517",
+      "name": "Tim O'Kelly",
+      "sequence": 1,
       "roles": [
-        "Ed Loughlin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0484842",
-      "name": "Monte Landis",
-      "sequence": 3,
-      "roles": [
-        "Marshall Smith"
-      ],
-      "notes": "(as Monty Landis)"
+        "Bobby Thompson"
+      ]
     },
     {
       "imdbId": "nm0398857",
       "name": "Nancy Hsueh",
-      "sequence": 4,
+      "sequence": 2,
       "roles": [
         "Jenny"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000953",
-      "name": "Peter Bogdanovich",
-      "sequence": 5,
-      "roles": [
-        "Sammy Michaels"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0011937",
-      "name": "Daniel Ades",
-      "sequence": 6,
-      "roles": [
-        "Chauffeur"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0605042",
-      "name": "Stafford Morgan",
-      "sequence": 7,
-      "roles": [
-        "Salesman - 1st Gunshop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113769",
       "name": "James Brown",
-      "sequence": 8,
+      "sequence": 3,
       "roles": [
         "Robert Thompson Sr."
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0413839",
-      "name": "Mary Jackson",
-      "sequence": 9,
+      "imdbId": "nm0677011",
+      "name": "Arthur Peterson",
+      "sequence": 4,
       "roles": [
-        "Charlotte Thompson"
-      ],
-      "notes": null
+        "Ed Loughlin"
+      ]
     },
     {
       "imdbId": "nm0605055",
       "name": "Tanya Morgan",
-      "sequence": 10,
+      "sequence": 5,
       "roles": [
         "Ilene Thompson"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0122900",
-      "name": "Timothy Burns",
-      "sequence": 11,
+      "imdbId": "nm0413839",
+      "name": "Mary Jackson",
+      "sequence": 6,
       "roles": [
-        "Waiter"
-      ],
-      "notes": "(as Tim Burns)"
-    },
-    {
-      "imdbId": "nm0925573",
-      "name": "Warren White",
-      "sequence": 12,
-      "roles": [
-        "Grocery Boy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0219509",
-      "name": "Mark Dennis",
-      "sequence": 13,
-      "roles": [
-        "Salesman - 2nd Gunshop"
-      ],
-      "notes": null
+        "Charlotte Thompson"
+      ]
     },
     {
       "imdbId": "nm0056310",
       "name": "Sandy Baron",
-      "sequence": 14,
+      "sequence": 7,
       "roles": [
         "Kip Larkin"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0056240",
-      "name": "Geraldine Baron",
-      "sequence": 15,
+      "imdbId": "nm0484842",
+      "name": "Monte Landis",
+      "sequence": 8,
       "roles": [
-        "Larkin's Girl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0448743",
-      "name": "Gary Kent",
-      "sequence": 16,
-      "roles": [
-        "Gas Tank Worker"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0907721",
-      "name": "Ellie Wood Walker",
-      "sequence": 17,
-      "roles": [
-        "Woman on Freeway"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0550881",
-      "name": "Frank Marshall",
-      "sequence": 18,
-      "roles": [
-        "Ticket Boy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0079474",
-      "name": "Byron Betz",
-      "sequence": 19,
-      "roles": [
-        "Projectionist"
-      ],
-      "notes": null
+        "Marshall Smith"
+      ]
     },
     {
       "imdbId": "nm0174459",
       "name": "Paul Condylis",
-      "sequence": 20,
+      "sequence": 9,
       "roles": [
         "Drive-In Manager"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0219509",
+      "name": "Mark Dennis",
+      "sequence": 10,
+      "roles": [
+        "Salesman"
+      ]
+    },
+    {
+      "imdbId": "nm0605042",
+      "name": "Stafford Morgan",
+      "sequence": 11,
+      "roles": [
+        "Salesman"
+      ]
+    },
+    {
+      "imdbId": "nm0000953",
+      "name": "Peter Bogdanovich",
+      "sequence": 12,
+      "roles": [
+        "Sammy Michaels"
+      ]
+    },
+    {
+      "imdbId": "nm0011937",
+      "name": "Daniel Ades",
+      "sequence": 13,
+      "roles": [
+        "Chauffeur"
+      ]
+    },
+    {
+      "imdbId": "nm0122900",
+      "name": "Timothy Burns",
+      "sequence": 14,
+      "roles": [
+        "Waiter"
+      ]
+    },
+    {
+      "imdbId": "nm0925573",
+      "name": "Warren White",
+      "sequence": 15,
+      "roles": [
+        "Grocery Boy"
+      ]
+    },
+    {
+      "imdbId": "nm0056240",
+      "name": "Geraldine Baron",
+      "sequence": 16,
+      "roles": [
+        "Larkin's Girl"
+      ]
+    },
+    {
+      "imdbId": "nm0448743",
+      "name": "Gary Kent",
+      "sequence": 17,
+      "roles": [
+        "Gas Tank Worker"
+      ]
+    },
+    {
+      "imdbId": "nm0907721",
+      "name": "Ellie Wood Walker",
+      "sequence": 18,
+      "roles": [
+        "Woman on Freeway"
+      ]
+    },
+    {
+      "imdbId": "nm0550881",
+      "name": "Frank Marshall",
+      "sequence": 19,
+      "roles": [
+        "Ticket Boy"
+      ]
+    },
+    {
+      "imdbId": "nm0079474",
+      "name": "Byron Betz",
+      "sequence": 20,
+      "roles": [
+        "Projectionist"
+      ]
     },
     {
       "imdbId": "nm0268286",
@@ -217,8 +197,7 @@
       "sequence": 21,
       "roles": [
         "Man in Phonebooth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0760452",
@@ -226,8 +205,7 @@
       "sequence": 22,
       "roles": [
         "Cashier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0199655",
@@ -235,8 +213,7 @@
       "sequence": 23,
       "roles": [
         "Snack Bar Attendant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0606610",
@@ -244,8 +221,7 @@
       "sequence": 24,
       "roles": [
         "Man with Pistol"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0664005",
@@ -253,8 +229,7 @@
       "sequence": 25,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0067649",
@@ -262,8 +237,7 @@
       "sequence": 26,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0101150",
@@ -271,8 +245,7 @@
       "sequence": 27,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0691720",
@@ -280,8 +253,7 @@
       "sequence": 28,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0165910",
@@ -289,8 +261,7 @@
       "sequence": 29,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0235136",
@@ -298,8 +269,7 @@
       "sequence": 30,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747153",
@@ -307,8 +277,7 @@
       "sequence": 31,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0039045",
@@ -316,8 +285,7 @@
       "sequence": 32,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0779453",
@@ -325,8 +293,7 @@
       "sequence": 33,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0235255",
@@ -334,18 +301,7 @@
       "sequence": 34,
       "roles": [
         "Other at the Drive-In"
-      ],
-      "notes": "(as Susan Douglas)"
-    },
-    {
-      "imdbId": "nm0461070",
-      "name": "Sandra Knight",
-      "sequence": 35,
-      "roles": [
-        "Helene",
-        "Ilsa"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -353,25 +309,19 @@
       "imdbId": "nm0000953",
       "name": "Peter Bogdanovich",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0686895",
       "name": "Polly Platt",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0000953",
       "name": "Peter Bogdanovich",
-      "sequence": 2,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0002087",
-      "name": "Samuel Fuller",
       "sequence": 3,
-      "notes": "(co-screenwriter) (uncredited)"
+      "notes": "(story by)"
     }
   ]
 }

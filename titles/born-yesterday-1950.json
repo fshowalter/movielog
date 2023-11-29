@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0042276",
-  "title": "Born Yesterday",
-  "sortTitle": "Born Yesterday (1950)",
-  "year": 1950,
   "slug": "born-yesterday-1950",
-  "releaseDate": "1950-12-25",
+  "title": "Born Yesterday",
+  "originalTitle": "Born Yesterday",
+  "sortTitle": "Born Yesterday",
+  "year": 1950,
+  "releaseDate": "1951-02-01",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0002030",
       "name": "George Cukor",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Billie Dawn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002024",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Harry Brock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000034",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Paul Verrall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0820643",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Jim Devery"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0653239",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Eddie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0646915",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Congressman Norval Hedges"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113072",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Anna Hedges"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0722438",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Sanborn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0137393",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Helen"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -114,14 +106,8 @@
     {
       "imdbId": "nm0543171",
       "name": "Albert Mannheimer",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0437717",
-      "name": "Garson Kanin",
       "sequence": 2,
-      "notes": "(screenplay revision) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

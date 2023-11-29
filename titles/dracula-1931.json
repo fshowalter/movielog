@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021814",
-  "title": "Dracula",
-  "sortTitle": "Dracula (1931)",
-  "year": 1931,
   "slug": "dracula-1931",
-  "releaseDate": "1931-02-09",
+  "title": "Dracula",
+  "originalTitle": "Dracula",
+  "sortTitle": "Dracula",
+  "year": 1931,
+  "releaseDate": "1931-02-14",
   "countries": [
     "United States"
   ],
@@ -17,14 +19,7 @@
     {
       "imdbId": "nm0115218",
       "name": "Tod Browning",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0005713",
-      "name": "Karl Freund",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -34,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Count Dracula"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0151377",
@@ -43,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Mina"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543115",
@@ -52,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "John Harker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0296859",
@@ -61,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Renfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888000",
@@ -70,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Van Helsing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0120557",
@@ -79,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Doctor Seward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0196596",
@@ -88,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Lucy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822061",
@@ -97,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Maid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314699",
@@ -106,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Martin"
-      ],
-      "notes": "(as Charles Gerrard)"
+      ]
     }
   ],
   "writers": [
@@ -120,56 +106,20 @@
     {
       "imdbId": "nm0213019",
       "name": "Hamilton Deane",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(from the play adapted by)"
     },
     {
       "imdbId": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(from the play adapted by)"
     },
     {
       "imdbId": "nm0287124",
       "name": "Garrett Fort",
-      "sequence": 3,
-      "notes": "(play script)"
-    },
-    {
-      "imdbId": "nm0111313",
-      "name": "Louis Bromfield",
-      "sequence": 4,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0115218",
-      "name": "Tod Browning",
       "sequence": 5,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0169606",
-      "name": "Max Cohen",
-      "sequence": 6,
-      "notes": "(titles) (uncredited)"
-    },
-    {
-      "imdbId": "nm0614225",
-      "name": "Dudley Murphy",
-      "sequence": 7,
-      "notes": "(additional dialogue) (uncredited)"
-    },
-    {
-      "imdbId": "nm0826873",
-      "name": "Frederick Stephani",
-      "sequence": 8,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0828574",
-      "name": "Louis Stevens",
-      "sequence": 9,
-      "notes": "(contributing writer) (uncredited)"
+      "notes": "(play script)"
     }
   ]
 }

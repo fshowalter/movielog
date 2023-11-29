@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054244",
-  "title": "The Risk",
-  "sortTitle": "Risk (1960)",
-  "year": 1960,
   "slug": "the-risk-1960",
-  "releaseDate": "1960-11-15",
+  "title": "The Risk",
+  "originalTitle": "Suspect",
+  "sortTitle": "Risk, The",
+  "year": 1960,
+  "releaseDate": "1962-09-09",
   "countries": [
     "United Kingdom"
   ],
@@ -17,14 +19,12 @@
     {
       "imdbId": "nm0099589",
       "name": "John Boulting",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0099592",
       "name": "Roy Boulting",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -33,72 +33,64 @@
       "name": "Tony Britton",
       "sequence": 0,
       "roles": [
-        "Dr. Robert Marriott"
-      ],
-      "notes": null
+        "Bob Marriott"
+      ]
     },
     {
       "imdbId": "nm0556458",
       "name": "Virginia Maskell",
       "sequence": 1,
       "roles": [
-        "Dr. Lucy Byrne"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000846",
-      "name": "Ian Bannen",
-      "sequence": 2,
-      "roles": [
-        "Alan Andrews"
-      ],
-      "notes": null
+        "Lucy Byrne"
+      ]
     },
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
-      "sequence": 3,
+      "sequence": 2,
       "roles": [
         "Professor Sewell"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0000846",
+      "name": "Ian Bannen",
+      "sequence": 3,
+      "roles": [
+        "Alan Andrews"
+      ]
     },
     {
       "imdbId": "nm0403171",
       "name": "Raymond Huntley",
       "sequence": 4,
       "roles": [
-        "Sir George Gatting the Minister of Defense"
-      ],
-      "notes": null
+        "Sir George Gatling"
+      ]
     },
     {
       "imdbId": "nm0910381",
       "name": "Thorley Walters",
       "sequence": 5,
       "roles": [
-        "Special Agent Prince"
-      ],
-      "notes": null
+        "Mr. Prince"
+      ]
     },
     {
       "imdbId": "nm0000587",
       "name": "Donald Pleasence",
       "sequence": 6,
       "roles": [
-        "Parsons, alias Bill Brown"
-      ],
-      "notes": null
+        "Brown"
+      ]
     },
     {
       "imdbId": "nm0589711",
       "name": "Spike Milligan",
       "sequence": 7,
       "roles": [
-        "Arthur, lab orderly"
-      ],
-      "notes": null
+        "Arthur"
+      ]
     },
     {
       "imdbId": "nm0341558",
@@ -106,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Shole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115569",
@@ -115,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Levers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0095641",
@@ -124,17 +114,15 @@
       "sequence": 10,
       "roles": [
         "Parkin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0226584",
       "name": "Basil Dignam",
       "sequence": 11,
       "roles": [
-        "Dr Childs"
-      ],
-      "notes": null
+        "Dr. Childs"
+      ]
     },
     {
       "imdbId": "nm0653580",
@@ -142,8 +130,7 @@
       "sequence": 12,
       "roles": [
         "Director"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0477330",
@@ -151,8 +138,7 @@
       "sequence": 13,
       "roles": [
         "Slater"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0668366",
@@ -160,35 +146,31 @@
       "sequence": 14,
       "roles": [
         "Iverson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0479941",
       "name": "Margaret Lacey",
       "sequence": 15,
       "roles": [
-        "Prince's Secretary"
-      ],
-      "notes": null
+        "Mr. Prince's Secretary"
+      ]
     },
     {
       "imdbId": "nm0927839",
       "name": "Bruce Wightman",
       "sequence": 16,
       "roles": [
-        "Phil the Barman"
-      ],
-      "notes": null
+        "Phil - the Barman"
+      ]
     },
     {
       "imdbId": "nm0933509",
       "name": "Ian Wilson",
       "sequence": 17,
       "roles": [
-        "Pin Table Man"
-      ],
-      "notes": null
+        "Pin-Table Man"
+      ]
     },
     {
       "imdbId": "nm0578527",
@@ -196,8 +178,7 @@
       "sequence": 18,
       "roles": [
         "Teddy Boy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001933",
@@ -205,8 +186,7 @@
       "sequence": 19,
       "roles": [
         "Rosson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0152906",
@@ -214,8 +194,7 @@
       "sequence": 20,
       "roles": [
         "Heller"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -228,20 +207,32 @@
     {
       "imdbId": "nm0049587",
       "name": "Nigel Balchin",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0217325",
+      "name": "Jeffrey Dell",
+      "sequence": 4,
+      "notes": "(additional scenes)"
     },
     {
       "imdbId": "nm0099592",
       "name": "Roy Boulting",
-      "sequence": 2,
+      "sequence": 5,
       "notes": "(additional scenes)"
     },
     {
       "imdbId": "nm0217325",
       "name": "Jeffrey Dell",
-      "sequence": 3,
-      "notes": "(additional scenes)"
+      "sequence": 7,
+      "notes": "(additional dialogue)"
+    },
+    {
+      "imdbId": "nm0099592",
+      "name": "Roy Boulting",
+      "sequence": 8,
+      "notes": "(additional dialogue)"
     }
   ]
 }

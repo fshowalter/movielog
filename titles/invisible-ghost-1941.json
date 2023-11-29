@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0033760",
-  "title": "Invisible Ghost",
-  "sortTitle": "Invisible Ghost (1941)",
-  "year": 1941,
   "slug": "invisible-ghost-1941",
+  "title": "Invisible Ghost",
+  "originalTitle": "Invisible Ghost",
+  "sortTitle": "Invisible Ghost",
+  "year": 1941,
   "releaseDate": "1941-04-25",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0507390",
       "name": "Joseph H. Lewis",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Charles Kessler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0949961",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Virginia Kessler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570222",
@@ -48,8 +47,7 @@
       "roles": [
         "Ralph Dickson",
         "Paul Dickson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0615617",
@@ -57,17 +55,15 @@
       "sequence": 3,
       "roles": [
         "Evans"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0196885",
-      "name": "Alice Dahl",
+      "name": "Terry Walker",
       "sequence": 4,
       "roles": [
         "Cecile Mannix"
-      ],
-      "notes": "(as Terry Walker)"
+      ]
     },
     {
       "imdbId": "nm0173993",
@@ -75,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Kessler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0010958",
@@ -84,17 +79,15 @@
       "sequence": 6,
       "roles": [
         "Jules Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0671496",
       "name": "George Pembroke",
       "sequence": 7,
       "roles": [
-        "Police Lt. Williams"
-      ],
-      "notes": null
+        "Detective Williams"
+      ]
     },
     {
       "imdbId": "nm0626453",
@@ -102,26 +95,23 @@
       "sequence": 8,
       "roles": [
         "Mrs. Mason"
-      ],
-      "notes": "(as Ollola Nesmith)"
+      ]
     },
     {
       "imdbId": "nm0447043",
       "name": "Fred Kelsey",
       "sequence": 9,
       "roles": [
-        "Ryan - Policeman"
-      ],
-      "notes": null
+        "Detective Ryan"
+      ]
     },
     {
       "imdbId": "nm0611804",
       "name": "Jack Mulhall",
       "sequence": 10,
       "roles": [
-        "Tim - Police Detective"
-      ],
-      "notes": null
+        "Tim"
+      ]
     }
   ],
   "writers": [
@@ -129,25 +119,25 @@
       "imdbId": "nm0552385",
       "name": "Helen Martin",
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0551869",
       "name": "Al Martin",
       "sequence": 1,
-      "notes": "(story)"
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0552385",
       "name": "Helen Martin",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0551869",
       "name": "Al Martin",
-      "sequence": 3,
-      "notes": "(screenplay)"
+      "sequence": 4,
+      "notes": "(screen play by)"
     }
   ]
 }

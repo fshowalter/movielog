@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041928",
-  "title": "The Stratton Story",
-  "sortTitle": "Stratton Story (1949)",
-  "year": 1949,
   "slug": "the-stratton-story-1949",
-  "releaseDate": "1949-04-21",
+  "title": "The Stratton Story",
+  "originalTitle": "The Stratton Story",
+  "sortTitle": "Stratton Story, The",
+  "year": 1949,
+  "releaseDate": "1949-06-01",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0939992",
       "name": "Sam Wood",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Monty Stratton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000742",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Ethel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0604656",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Barney Wile"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001547",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Ma Stratton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930103",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Eddie Dibson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0184840",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Ted Lyons"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163785",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Josh Higgins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491132",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Dot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0924692",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Luke Appling"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0321143",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Earnie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0063961",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Gene Bearden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0225459",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Bill Dickey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245846",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Jimmy Dykes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790316",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Mervyn Shea"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -166,14 +153,8 @@
     {
       "imdbId": "nm0607487",
       "name": "Douglas Morrow",
-      "sequence": 2,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0920216",
-      "name": "George Wells",
       "sequence": 3,
-      "notes": "(contributor to screenplay construction) (uncredited)"
+      "notes": "(story)"
     }
   ]
 }

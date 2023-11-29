@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0036230",
-  "title": "Old Acquaintance",
-  "sortTitle": "Old Acquaintance (1943)",
-  "year": 1943,
   "slug": "old-acquaintance-1943",
+  "title": "Old Acquaintance",
+  "originalTitle": "Old Acquaintance",
+  "sortTitle": "Old Acquaintance",
+  "year": 1943,
   "releaseDate": "1943-11-27",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0792605",
       "name": "Vincent Sherman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,17 +28,15 @@
       "sequence": 0,
       "roles": [
         "Katherine 'Kit' Marlowe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394244",
       "name": "Miriam Hopkins",
       "sequence": 1,
       "roles": [
-        "Midred 'Millie' Drake"
-      ],
-      "notes": null
+        "Mildred 'Millie' Drake"
+      ]
     },
     {
       "imdbId": "nm0949574",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Rudd Kendall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0517058",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Preston Drake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0602834",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Deirdre'DeDe' Drake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0715637",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Lucian Grant"
-      ],
-      "notes": "(as Philip Reed)"
+      ]
     },
     {
       "imdbId": "nm0439850",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Charlie Archer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720843",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Belle Carter"
-      ],
-      "notes": "(as Ann Revere)"
+      ]
     },
     {
       "imdbId": "nm0197689",
@@ -99,18 +92,22 @@
       "sequence": 8,
       "roles": [
         "Harriet"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm14519133",
+      "name": "Frances Louise Ward",
+      "sequence": 9,
+      "roles": []
     },
     {
       "imdbId": "nm0447043",
       "name": "Fred Kelsey",
-      "sequence": 22,
+      "sequence": 23,
       "roles": [
         "Train Conductor",
         "Man at Radio Broadcast"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -129,14 +126,8 @@
     {
       "imdbId": "nm0886668",
       "name": "John Van Druten",
-      "sequence": 2,
-      "notes": "(play)"
-    },
-    {
-      "imdbId": "nm0332539",
-      "name": "Edmund Goulding",
       "sequence": 3,
-      "notes": "(contributor to screenplay) (uncredited)"
+      "notes": "(play)"
     }
   ]
 }

@@ -1,24 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0060862",
-  "title": "The Professionals",
-  "sortTitle": "Professionals (1966)",
-  "year": 1966,
   "slug": "the-professionals-1966",
-  "releaseDate": "1966-11-02",
+  "title": "The Professionals",
+  "originalTitle": "The Professionals",
+  "sortTitle": "Professionals, The",
+  "year": 1966,
+  "releaseDate": "1966-11-04",
   "countries": [
     "United States"
   ],
   "genres": [
     "Action",
     "Adventure",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0112218",
       "name": "Richard Brooks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Dolworth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001511",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Fardan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0752813",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Ehrengard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0834754",
@@ -55,17 +54,15 @@
       "sequence": 3,
       "roles": [
         "Jake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001588",
       "name": "Jack Palance",
       "sequence": 4,
       "roles": [
-        "Jesus Raza"
-      ],
-      "notes": null
+        "Raza"
+      ]
     },
     {
       "imdbId": "nm0001012",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Maria"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000897",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Grant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0211460",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Ortega"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0078413",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Fierro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0554830",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Padillia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0327050",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Chiquita"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0161657",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Revolutionary"
-      ],
-      "notes": "(as Jose Chavez)"
+      ]
     },
     {
       "imdbId": "nm0739347",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Revolutionary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0853299",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Banker"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -159,7 +147,7 @@
     {
       "imdbId": "nm0112218",
       "name": "Richard Brooks",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(written for the screen by)"
     }
   ]

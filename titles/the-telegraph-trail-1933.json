@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024647",
-  "title": "The Telegraph Trail",
-  "sortTitle": "Telegraph Trail (1933)",
-  "year": 1933,
   "slug": "the-telegraph-trail-1933",
+  "title": "The Telegraph Trail",
+  "originalTitle": "The Telegraph Trail",
+  "sortTitle": "Telegraph Trail, The",
+  "year": 1933,
   "releaseDate": "1933-03-18",
   "countries": [
     "United States"
@@ -11,15 +13,14 @@
   "genres": [
     "Action",
     "Adventure",
-    "Romance",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0942862",
       "name": "Tenny Wright",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "John Trent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1349117",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Duke - John's Horse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570451",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Corporal Tippy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0206496",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Alice Keller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0363227",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Uncle Zeke Keller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0807238",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Gus Lynch"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0134831",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "High Wolf"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571186",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Lafe"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -106,7 +99,7 @@
     {
       "imdbId": "nm0447472",
       "name": "Kurt Kempler",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(dialogue)"
     }
   ]

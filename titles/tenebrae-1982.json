@@ -1,14 +1,17 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0084777",
-  "title": "Tenebrae",
-  "sortTitle": "Tenebrae (1982)",
-  "year": 1982,
   "slug": "tenebrae-1982",
-  "releaseDate": "1982-10-27",
+  "title": "Tenebrae",
+  "originalTitle": "Tenebre",
+  "sortTitle": "Tenebrae",
+  "year": 1982,
+  "releaseDate": "1984-02-17",
   "countries": [
     "Italy"
   ],
   "genres": [
+    "Drama",
     "Horror",
     "Mystery",
     "Thriller"
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0000783",
       "name": "Dario Argento",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Peter Neal"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768334",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Bullmer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0630453",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Anne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0312575",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Detective Germani"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0097392",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Gianni"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195291",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Tilde"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0488194",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Jane McKerrow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0682582",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Elsa Manni"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732189",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Girl on Beach"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0821409",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Detective Altieri"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0825952",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Christiano Berti"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0055558",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Maria Alboretto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0023734",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Bullmer's secretary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0052537",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Marion"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0320942",
@@ -154,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Department Store Manager"
-      ],
-      "notes": "(as Enio Girolami)"
+      ]
     },
     {
       "imdbId": "nm0537877",
@@ -163,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Woman at Airport"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166706",
@@ -172,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "John"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591307",
@@ -181,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Alboretto, the porter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0754990",
@@ -190,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Coroner"
-      ],
-      "notes": "(as Gianpaolo Saccarola)"
+      ]
     },
     {
       "imdbId": "nm0763407",
@@ -199,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Prostitute"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0899532",
@@ -208,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Department Store Clerk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000783",
@@ -218,31 +199,16 @@
       "roles": [
         "Narrator",
         "Murderer's Hands"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0057277",
-      "name": "Sean Barrett",
-      "sequence": 22,
-      "roles": [
-        "Killer",
-        "Homeless Man",
-        "Coroner",
-        "News Anchor",
-        "Handyman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0811714",
       "name": "Michele Soavi",
-      "sequence": 36,
+      "sequence": 35,
       "roles": [
         "Maria's Boyfriend",
         "Man Walking with Girl on Beach"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -255,7 +221,7 @@
     {
       "imdbId": "nm0000783",
       "name": "Dario Argento",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0062037",
-  "title": "Night of the Big Heat",
-  "sortTitle": "Night of the Big Heat (1967)",
-  "year": 1967,
   "slug": "night-of-the-big-heat-1967",
-  "releaseDate": "1967-05-26",
+  "title": "Night of the Big Heat",
+  "originalTitle": "Night of the Big Heat",
+  "sortTitle": "Night of the Big Heat",
+  "year": 1967,
+  "releaseDate": "1967-01-01",
   "countries": [
     "United Kingdom"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0279807",
       "name": "Terence Fisher",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Godfrey Hanson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0019996",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Jeff Callum"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001088",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Vernon Stone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0581457",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Angela Roberts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0493324",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Frankie Callum"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0524308",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Ken Stanley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178560",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Tinker Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378612",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Gerald Foster"
-      ],
-      "notes": "(as Percy Hurbert)"
+      ]
     },
     {
       "imdbId": "nm0372731",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Bob Hayward"
-      ],
-      "notes": "(as Tom Heathcote)"
+      ]
     },
     {
       "imdbId": "nm0877383",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Stella Hayward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0088404",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Ben Siddle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0111356",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Old Tramp"
-      ],
-      "notes": "(as Sidney Bromley)"
+      ]
     },
     {
       "imdbId": "nm0356538",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Radar Operator"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -151,31 +139,31 @@
     {
       "imdbId": "nm0528174",
       "name": "John Lymington",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on a novel by)"
     },
     {
       "imdbId": "nm0048836",
       "name": "Pip Baker",
-      "sequence": 2,
-      "notes": "(additional scenes by)"
-    },
-    {
-      "imdbId": "nm0048547",
-      "name": "Jane Baker",
-      "sequence": 3,
-      "notes": "(additional scenes by)"
-    },
-    {
-      "imdbId": "nm0048836",
-      "name": "Pip Baker",
       "sequence": 4,
-      "notes": "(dialogue by)"
+      "notes": "(additional scenes by)"
     },
     {
       "imdbId": "nm0048547",
       "name": "Jane Baker",
       "sequence": 5,
+      "notes": "(additional scenes by)"
+    },
+    {
+      "imdbId": "nm0048836",
+      "name": "Pip Baker",
+      "sequence": 7,
+      "notes": "(dialogue by)"
+    },
+    {
+      "imdbId": "nm0048547",
+      "name": "Jane Baker",
+      "sequence": 8,
       "notes": "(dialogue by)"
     }
   ]

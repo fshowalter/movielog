@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0062732",
-  "title": "The Birthday Party",
-  "sortTitle": "Birthday Party (1968)",
-  "year": 1968,
   "slug": "the-birthday-party-1968",
+  "title": "The Birthday Party",
+  "originalTitle": "The Birthday Party",
+  "sortTitle": "Birthday Party, The",
+  "year": 1968,
   "releaseDate": "1968-12-09",
   "countries": [
     "United Kingdom"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001243",
       "name": "William Friedkin",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Stanley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0535861",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "McCann"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846407",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Goldberg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0629563",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Meg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447016",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Petey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292136",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Lulu"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -83,12 +78,6 @@
       "name": "Harold Pinter",
       "sequence": 0,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0056217",
-      "name": "Harold Pinter",
-      "sequence": 1,
-      "notes": "(play) (uncredited)"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0027221",
-  "title": "Wings in the Dark",
-  "sortTitle": "Wings in the Dark (1935)",
-  "year": 1935,
   "slug": "wings-in-the-dark-1935",
+  "title": "Wings in the Dark",
+  "originalTitle": "Wings in the Dark",
+  "sortTitle": "Wings in the Dark",
+  "year": 1935,
   "releaseDate": "1935-02-01",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0282549",
       "name": "James Flood",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Sheila Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000026",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Ken Gordon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0439850",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Nick Williams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0146928",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Mac"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0415591",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Top Harmon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394477",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Jake Brashear"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570471",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "1st Mechanic"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0573754",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Radio Announcer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -110,32 +103,26 @@
     {
       "imdbId": "nm0886861",
       "name": "Dale Van Every",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation) (as Dale VanEvery)"
     },
     {
       "imdbId": "nm0732579",
       "name": "Earl H. Robinson",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(adaptation) (as E.H. Robinson)"
     },
     {
       "imdbId": "nm0794109",
       "name": "Nell Shipman",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(story \"Eyes of the Eagle\")"
     },
     {
       "imdbId": "nm0403527",
       "name": "Philip D. Hurn",
-      "sequence": 5,
+      "sequence": 7,
       "notes": "(story \"Eyes of the Eagle\")"
-    },
-    {
-      "imdbId": "nm0809548",
-      "name": "Paul Gerard Smith",
-      "sequence": 6,
-      "notes": "(contributor to treatment) (uncredited)"
     }
   ]
 }

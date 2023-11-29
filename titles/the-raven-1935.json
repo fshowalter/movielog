@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0026912",
-  "title": "The Raven",
-  "sortTitle": "Raven (1935)",
-  "year": 1935,
   "slug": "the-raven-1935",
+  "title": "The Raven",
+  "originalTitle": "The Raven",
+  "sortTitle": "Raven, The",
+  "year": 1935,
   "releaseDate": "1935-07-08",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0484645",
       "name": "Lew Landers",
-      "sequence": 0,
-      "notes": "(as Louis Friedlander)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Edmond Bateman"
-      ],
-      "notes": "(as Karloff)"
+      ]
     },
     {
       "imdbId": "nm0000509",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Richard Vollin"
-      ],
-      "notes": "(as Lugosi, Bela Lugosi)"
+      ]
     },
     {
       "imdbId": "nm0560091",
@@ -46,8 +45,7 @@
       "roles": [
         "Dr. Jerry Halden",
         "Dr. Jerry Holden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912115",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Jean Thatcher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0385594",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Judge Thatcher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0153556",
@@ -74,8 +70,7 @@
       "roles": [
         "Geoffrey",
         "Col. Bertram Grant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0183918",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mary Burns"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0938052",
@@ -93,8 +87,7 @@
       "roles": [
         "Col. Bertram Grant",
         "Geoffrey 'Pinky'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0877728",
@@ -102,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Harriet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0201337",
@@ -111,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Autograph Hound"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0321204",
@@ -120,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Autograph Hound"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0370372",
@@ -129,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Drug Clerk"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0908775",
@@ -138,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Autograph Hound"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
@@ -152,50 +140,8 @@
     {
       "imdbId": "nm0091200",
       "name": "David Boehm",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0256880",
-      "name": "Guy Endore",
       "sequence": 2,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0258005",
-      "name": "Florence Enright",
-      "sequence": 3,
-      "notes": "(dialogue) (uncredited)"
-    },
-    {
-      "imdbId": "nm0528351",
-      "name": "John Lynch",
-      "sequence": 4,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0548788",
-      "name": "Clarence Marks",
-      "sequence": 5,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0770196",
-      "name": "Dore Schary",
-      "sequence": 6,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0799848",
-      "name": "Michael L. Simmons",
-      "sequence": 7,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0876432",
-      "name": "Jim Tully",
-      "sequence": 8,
-      "notes": "(contributing writer) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

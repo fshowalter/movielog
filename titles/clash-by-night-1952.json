@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0044502",
-  "title": "Clash by Night",
-  "sortTitle": "Clash by Night (1952)",
-  "year": 1952,
   "slug": "clash-by-night-1952",
-  "releaseDate": "1952-05-28",
+  "title": "Clash by Night",
+  "originalTitle": "Clash by Night",
+  "sortTitle": "Clash by Night",
+  "year": 1952,
+  "releaseDate": "1952-06-06",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000485",
       "name": "Fritz Lang",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,9 +28,8 @@
       "name": "Barbara Stanwyck",
       "sequence": 0,
       "roles": [
-        "Mae Doyle D'Amato"
-      ],
-      "notes": null
+        "Mae Doyle"
+      ]
     },
     {
       "imdbId": "nm0007222",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Jerry D'Amato"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0752813",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Earl Pfeiffer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000054",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Peggy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0619798",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Uncle Vince"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591035",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Papa D'Amato"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0027882",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Joe Doyle"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -91,13 +85,13 @@
       "imdbId": "nm0370883",
       "name": "Alfred Hayes",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0644048",
       "name": "Clifford Odets",
-      "sequence": 1,
-      "notes": "(play \"Clash by Night\")"
+      "sequence": 2,
+      "notes": "(based on the stage play written by)"
     }
   ]
 }

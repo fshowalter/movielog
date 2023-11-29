@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0049513",
-  "title": "Moby Dick",
-  "sortTitle": "Moby Dick (1956)",
-  "year": 1956,
   "slug": "moby-dick-1956",
-  "releaseDate": "1956-06-27",
+  "title": "Moby Dick",
+  "originalTitle": "Moby Dick",
+  "sortTitle": "Moby Dick",
+  "year": 1956,
+  "releaseDate": "1956-08-29",
   "countries": [
     "United Kingdom"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Captain Ahab"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000865",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Ishmael"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0312890",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Starbuck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0433150",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Capt. Boomer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0028674",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Stubb"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587061",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "The Manxman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0700740",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Ship's Carpenter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0175403",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Daggoo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0424345",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Peleg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0866627",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Peter Coffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0212470",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Capt. Gardiner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0821598",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Bildad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0200455",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "'Elijah'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0446853",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Flask"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0496428",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Queequeg"
-      ],
-      "notes": "(as Friedrich Ledebur)"
+      ]
     },
     {
       "imdbId": "nm0000080",
@@ -162,8 +148,7 @@
       "sequence": 15,
       "roles": [
         "Father Mapple"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001379",
@@ -172,8 +157,7 @@
       "roles": [
         "Barman",
         "Ship's Lookout"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -188,18 +172,6 @@
       "name": "John Huston",
       "sequence": 1,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0181658",
-      "name": "Norman Corwin",
-      "sequence": 2,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0578479",
-      "name": "Herman Melville",
-      "sequence": 3,
-      "notes": "(novel \"Moby-Dick; or, The Whale\") (uncredited)"
     }
   ]
 }

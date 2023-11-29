@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0857265",
-  "title": "Sleuth",
-  "sortTitle": "Sleuth (2007)",
-  "year": 2007,
   "slug": "sleuth-2007",
-  "releaseDate": "2007-08-30",
+  "title": "Sleuth",
+  "originalTitle": "Sleuth",
+  "sortTitle": "Sleuth",
+  "year": 2007,
+  "releaseDate": "2007-10-11",
   "countries": [
     "United Kingdom",
     "United States"
@@ -19,8 +21,7 @@
     {
       "imdbId": "nm0000110",
       "name": "Kenneth Branagh",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Andrew Wyke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000179",
@@ -39,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Milo Tindle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0056217",
@@ -48,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Man on T.V."
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -62,7 +60,7 @@
     {
       "imdbId": "nm0056217",
       "name": "Harold Pinter",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0056923",
-  "title": "Charade",
-  "sortTitle": "Charade (1963)",
-  "year": 1963,
   "slug": "charade-1963",
-  "releaseDate": "1963-12-01",
+  "title": "Charade",
+  "originalTitle": "Charade",
+  "sortTitle": "Charade",
+  "year": 1963,
+  "releaseDate": "1963-12-05",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Peter Joshua"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000030",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Regina Lampert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000527",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Hamilton Bartholomew"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000336",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Tex Panthollow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001421",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Herman Scobie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591606",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Sylvie Gaudet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0321982",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Leopold W. Gideon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0547462",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Insp. Edouard Grandpierre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0094585",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Mr. Felix"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0155056",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Jean-Louis Gaudet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0832099",
@@ -120,8 +111,7 @@
       "roles": [
         "Man in Elevator",
         "Voice of Marine"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -129,19 +119,19 @@
       "imdbId": "nm0832099",
       "name": "Peter Stone",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0832099",
       "name": "Peter Stone",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0066939",
       "name": "Marc Behm",
-      "sequence": 2,
-      "notes": "(story)"
+      "sequence": 3,
+      "notes": "(story by)"
     }
   ]
 }

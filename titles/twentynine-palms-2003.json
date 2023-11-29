@@ -1,24 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0315110",
-  "title": "Twentynine Palms",
-  "sortTitle": "Twentynine Palms (2003)",
-  "year": 2003,
   "slug": "twentynine-palms-2003",
-  "releaseDate": "2003-09-03",
+  "title": "Twentynine Palms",
+  "originalTitle": "Twentynine Palms",
+  "sortTitle": "Twentynine Palms",
+  "year": 2003,
+  "releaseDate": "2003-09-17",
   "countries": [
     "France",
     "Germany",
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Drama",
+    "Horror"
   ],
   "directors": [
     {
       "imdbId": "nm0241622",
       "name": "Bruno Dumont",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Katia"
-      ],
-      "notes": "(as Katia Golubeva)"
+      ]
     },
     {
       "imdbId": "nm0936618",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "David"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

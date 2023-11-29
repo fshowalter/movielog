@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0059792",
-  "title": "Planet of the Vampires",
-  "sortTitle": "Planet of the Vampires (1965)",
-  "year": 1965,
   "slug": "planet-of-the-vampires-1965",
-  "releaseDate": "1965-09-15",
+  "title": "Planet of the Vampires",
+  "originalTitle": "Terrore nello spazio",
+  "sortTitle": "Planet of the Vampires",
+  "year": 1965,
+  "releaseDate": "1965-10-27",
   "countries": [
     "Italy",
     "Spain"
@@ -12,7 +14,6 @@
   "genres": [
     "Action",
     "Adventure",
-    "Family",
     "Horror",
     "Sci-Fi"
   ],
@@ -20,8 +21,7 @@
     {
       "imdbId": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Capt. Mark Markary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0071034",
@@ -40,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Sanya"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0033007",
@@ -49,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Wess Wescant"
-      ],
-      "notes": "(as Angel Aranda)"
+      ]
     },
     {
       "imdbId": "nm0544826",
@@ -58,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Tiona"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0133719",
@@ -68,8 +64,7 @@
       "roles": [
         "Brad",
         "Mud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0028321",
@@ -78,8 +73,7 @@
       "roles": [
         "Bert",
         "Garr"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0892621",
@@ -87,8 +81,7 @@
       "sequence": 6,
       "roles": [
         "Dr. Karan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0602699",
@@ -96,8 +89,7 @@
       "sequence": 7,
       "roles": [
         "Eldon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0711501",
@@ -106,8 +98,7 @@
       "roles": [
         "Carter",
         "Dervy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0092231",
@@ -115,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Keir"
-      ],
-      "notes": "(as Rico Boido)"
+      ]
     },
     {
       "imdbId": "nm0077795",
@@ -125,18 +115,16 @@
       "roles": [
         "Toby Markary",
         "Wan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0726741",
       "name": "Massimo Righi",
-      "sequence": 12,
+      "sequence": 13,
       "roles": [
         "Capt. Sallas",
         "Nordeg"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -149,55 +137,55 @@
     {
       "imdbId": "nm0577477",
       "name": "Ib Melchior",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0079748",
       "name": "Alberto Bevilacqua",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0182742",
       "name": "Callisto Cosulich",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0739794",
       "name": "Antonio Rom\u00e1n",
-      "sequence": 5,
+      "sequence": 6,
       "notes": "(screenplay) (as Antonio Roman)"
     },
     {
       "imdbId": "nm0759453",
       "name": "Rafael J. Salvia",
-      "sequence": 6,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0577477",
-      "name": "Ib Melchior",
       "sequence": 7,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0382384",
-      "name": "Louis M. Heyward",
-      "sequence": 8,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0577477",
       "name": "Ib Melchior",
       "sequence": 9,
+      "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0382384",
+      "name": "Louis M. Heyward",
+      "sequence": 10,
+      "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0577477",
+      "name": "Ib Melchior",
+      "sequence": 12,
       "notes": "(screen story)"
     }
   ]

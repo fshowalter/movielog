@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024184",
-  "title": "The Invisible Man",
-  "sortTitle": "Invisible Man (1933)",
-  "year": 1933,
   "slug": "the-invisible-man-1933",
-  "releaseDate": "1933-10-31",
+  "title": "The Invisible Man",
+  "originalTitle": "The Invisible Man",
+  "sortTitle": "Invisible Man, The",
+  "year": 1933,
+  "releaseDate": "1933-11-13",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001843",
       "name": "James Whale",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Jack Griffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001784",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Flora Cranley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0364203",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Arthur Kemp"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0871287",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Cranley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0640547",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Jenny Hall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0367516",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Herbert Hall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378555",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Chief of Police"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166974",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Constable Jaffers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0226502",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Chief Detective"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0835913",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Inspector Bird"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0835681",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Inspector Lane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0869428",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Millie"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -140,20 +129,8 @@
     {
       "imdbId": "nm0792670",
       "name": "R.C. Sherriff",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0002545",
-      "name": "Preston Sturges",
       "sequence": 2,
-      "notes": "(contributing writer) (uncredited)"
-    },
-    {
-      "imdbId": "nm0943804",
-      "name": "Philip Wylie",
-      "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

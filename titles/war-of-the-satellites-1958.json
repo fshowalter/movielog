@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052379",
-  "title": "War of the Satellites",
-  "sortTitle": "War of the Satellites (1958)",
-  "year": 1958,
   "slug": "war-of-the-satellites-1958",
+  "title": "War of the Satellites",
+  "originalTitle": "War of the Satellites",
+  "sortTitle": "War of the Satellites",
+  "year": 1958,
   "releaseDate": "1958-05-18",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dave Boyer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0127693",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Sybil Carrington"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0222878",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Pol Van Ponder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801612",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Howard Lazar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0289147",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Jason ibn Akad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790171",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Cole Hotchkiss"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054057",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "John Compo"
-      ],
-      "notes": "(as Jerry Barclay)"
+      ]
     },
     {
       "imdbId": "nm0109612",
@@ -90,15 +84,15 @@
       "sequence": 7,
       "roles": [
         "Crew Member"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0589454",
       "name": "Tony Miller",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Assistant Astrogator"
+      ]
     },
     {
       "imdbId": "nm0895259",
@@ -106,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mr. LeMoine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768448",
@@ -115,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Jay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0564669",
@@ -124,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Mitzi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330574",
@@ -133,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "The President"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0225398",
@@ -142,60 +132,15 @@
       "sequence": 13,
       "roles": [
         "Crewman with Gun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0460955",
       "name": "Jim Knight",
       "sequence": 14,
-      "roles": [],
-      "notes": "(as James Knight)"
-    },
-    {
-      "imdbId": "nm0381209",
-      "name": "Ursula Herwig",
-      "sequence": 15,
       "roles": [
-        "Nancy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0454310",
-      "name": "Klaus Kindler",
-      "sequence": 16,
-      "roles": [
-        "Larry Scott"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0597810",
-      "name": "Eberhard Mondry",
-      "sequence": 17,
-      "roles": [
-        "Glenn"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0622612",
-      "name": "Horst Naumann",
-      "sequence": 18,
-      "roles": [
-        "Ted"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1191355",
-      "name": "Werner Uschkurat",
-      "sequence": 19,
-      "roles": [
-        "Ray"
-      ],
-      "notes": null
+        "Reporter"
+      ]
     }
   ],
   "writers": [
@@ -208,13 +153,13 @@
     {
       "imdbId": "nm0325825",
       "name": "Lawrence L. Goldman",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "() (as Lawrence Louis Goldman)"
     },
     {
       "imdbId": "nm0704896",
       "name": "Jack Rabin",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(story)"
     }
   ]

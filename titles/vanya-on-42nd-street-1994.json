@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0111590",
-  "title": "Vanya on 42nd Street",
-  "sortTitle": "Vanya on 42nd Street (1994)",
-  "year": 1994,
   "slug": "vanya-on-42nd-street-1994",
-  "releaseDate": "1994-09-10",
+  "title": "Vanya on 42nd Street",
+  "originalTitle": "Vanya on 42nd Street",
+  "sortTitle": "Vanya on 42nd Street",
+  "year": 1994,
+  "releaseDate": "1994-10-19",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001501",
       "name": "Louis Malle",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Nanny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0169565",
@@ -37,17 +37,15 @@
       "sequence": 1,
       "roles": [
         "Maman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0310960",
       "name": "George Gaynes",
       "sequence": 2,
       "roles": [
-        "Serybryakov"
-      ],
-      "notes": null
+        "Prof. Serebryakov"
+      ]
     },
     {
       "imdbId": "nm0562420",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Waffles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000194",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Yelena"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0683978",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Astrov"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0807548",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Sonya"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001728",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Vanya"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339737",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Self"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0415528",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Mrs. Chao"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -123,13 +114,13 @@
     {
       "imdbId": "nm0000519",
       "name": "David Mamet",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(play adaptation)"
     },
     {
       "imdbId": "nm0339737",
       "name": "Andre Gregory",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     }
   ]

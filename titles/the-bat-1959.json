@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052602",
-  "title": "The Bat",
-  "sortTitle": "Bat (1959)",
-  "year": 1959,
   "slug": "the-bat-1959",
+  "title": "The Bat",
+  "originalTitle": "The Bat",
+  "sortTitle": "Bat, The",
+  "year": 1959,
   "releaseDate": "1959-08-09",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0928108",
       "name": "Crane Wilbur",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Malcolm Wells"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001547",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Cornelia van Gorder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330200",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lt. Andy Anderson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0840330",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Warner - The Chauffeur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0485425",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Lizzie Allen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0249964",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Dale Bailey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0393454",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Judy Hollander"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0117136",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mark Fleming"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0827031",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "John Fleming"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0824628",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Victor Bailey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747324",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Jane Patterson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0931547",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Detective Davenport"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -136,25 +125,25 @@
       "imdbId": "nm0928108",
       "name": "Crane Wilbur",
       "sequence": 0,
-      "notes": "(screen story)"
+      "notes": "(screen story by)"
     },
     {
       "imdbId": "nm0928108",
       "name": "Crane Wilbur",
-      "sequence": 1,
-      "notes": "(screenplay)"
+      "sequence": 2,
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0727497",
       "name": "Mary Roberts Rinehart",
-      "sequence": 2,
-      "notes": "(play)"
+      "sequence": 4,
+      "notes": "(based on the play by)"
     },
     {
       "imdbId": "nm0394479",
       "name": "Avery Hopwood",
-      "sequence": 3,
-      "notes": "(play)"
+      "sequence": 5,
+      "notes": "(based on the play by)"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0056606",
-  "title": "Tower of London",
-  "sortTitle": "Tower of London (1962)",
-  "year": 1962,
   "slug": "tower-of-london-1962",
+  "title": "Tower of London",
+  "originalTitle": "Tower of London",
+  "sortTitle": "Tower of London",
+  "year": 1962,
   "releaseDate": "1962-10-24",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Richard of Gloucester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0665327",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Sir Ratcliffe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0293444",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Lady Margaret"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0114543",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Sir Justin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330050",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Earl of Buckingham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131406",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Anne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354989",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Tyrus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461070",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Mistress Shore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0531321",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "George, Duke of Clarence"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0914742",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Edward IV"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0783003",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Queen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0521289",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Prince Richard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846448",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Richard's mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0552268",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Edward V"
-      ],
-      "notes": "(as Eugene Martin)"
+      ]
     }
   ],
   "writers": [
@@ -155,31 +142,31 @@
       "imdbId": "nm0330388",
       "name": "Leo Gordon",
       "sequence": 0,
-      "notes": "(story) (as Leo V. Gordon)"
-    },
-    {
-      "imdbId": "nm0694115",
-      "name": "F. Amos Powell",
-      "sequence": 1,
-      "notes": "(story) (as Amos Powell)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0330388",
       "name": "Leo Gordon",
+      "sequence": 1,
+      "notes": "(story)"
+    },
+    {
+      "imdbId": "nm0694115",
+      "name": "F. Amos Powell",
       "sequence": 2,
-      "notes": "() (as Leo V. Gordon)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0694115",
       "name": "F. Amos Powell",
       "sequence": 3,
-      "notes": "() (as Amos Powell)"
+      "notes": "(story)"
     },
     {
       "imdbId": "nm0448839",
       "name": "Robert E. Kent",
       "sequence": 4,
-      "notes": "() (as James B. Gordon)"
+      "notes": "(screen play)"
     }
   ]
 }

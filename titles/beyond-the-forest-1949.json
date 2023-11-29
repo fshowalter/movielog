@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041172",
-  "title": "Beyond the Forest",
-  "sortTitle": "Beyond the Forest (1949)",
-  "year": 1949,
   "slug": "beyond-the-forest-1949",
+  "title": "Beyond the Forest",
+  "originalTitle": "Beyond the Forest",
+  "sortTitle": "Beyond the Forest",
+  "year": 1949,
   "releaseDate": "1949-10-21",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0896542",
       "name": "King Vidor",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,17 +30,15 @@
       "sequence": 0,
       "roles": [
         "Rosa Moline"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001072",
       "name": "Joseph Cotten",
       "sequence": 1,
       "roles": [
-        "Doctor Louis Moline"
-      ],
-      "notes": null
+        "Doctor Lewis Moline"
+      ]
     },
     {
       "imdbId": "nm0108406",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Neil Latimer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0738746",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Carol Lawson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0914808",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Moose Lawson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0236888",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Jenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Sorren"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0783003",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Mildred Sorren"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -106,7 +99,7 @@
     {
       "imdbId": "nm0257745",
       "name": "Stuart Engstrand",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(novel)"
     }
   ]

@@ -1,16 +1,19 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0029080",
-  "title": "Kid Galahad",
-  "sortTitle": "Kid Galahad (1937)",
-  "year": 1937,
   "slug": "kid-galahad-1937",
-  "releaseDate": "1937-05-26",
+  "title": "Kid Galahad",
+  "originalTitle": "Kid Galahad",
+  "sortTitle": "Kid Galahad",
+  "year": 1937,
+  "releaseDate": "1937-05-29",
   "countries": [
     "United States"
   ],
   "genres": [
     "Crime",
     "Drama",
+    "Film-Noir",
     "Romance",
     "Sport"
   ],
@@ -18,8 +21,7 @@
     {
       "imdbId": "nm0002031",
       "name": "Michael Curtiz",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Nick Donati"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000012",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Fluff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000007",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Turkey Morgan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0606998",
@@ -57,8 +56,7 @@
       "roles": [
         "Ward Guisenberry",
         "Kid Galahad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0116953",
@@ -66,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Marie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002503",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Silver Jackson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0351744",
@@ -84,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Chuck McGraw"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0423054",
@@ -93,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Mrs. Donati"
-      ],
-      "notes": "(as Soledad Jiminez)"
+      ]
     },
     {
       "imdbId": "nm0192346",
@@ -102,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Joe Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0919700",
@@ -111,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Buzz Barett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003277",
@@ -120,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Brady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0096458",
@@ -129,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "The Redhead"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269709",
@@ -138,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Barney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0875877",
@@ -147,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Gunman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0262576",
@@ -156,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Sam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0360001",
@@ -165,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Burke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0626526",
@@ -174,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "O'Brien"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0469828",
@@ -183,8 +168,15 @@
       "sequence": 17,
       "roles": [
         "Denbaugh"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0086554",
+      "name": "George Blake",
+      "sequence": 18,
+      "roles": [
+        "Referee"
+      ]
     },
     {
       "imdbId": "nm0482474",
@@ -193,8 +185,7 @@
       "roles": [
         "Party Guest",
         "Reporter"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -207,7 +198,7 @@
     {
       "imdbId": "nm1383748",
       "name": "Francis Wallace",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(from the story by: Saturday Evening Post)"
     }
   ]

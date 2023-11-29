@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0073794",
-  "title": "The Big Scare",
-  "sortTitle": "Big Scare (1974)",
-  "year": 1974,
   "slug": "the-big-scare-1974",
-  "releaseDate": "1974-08-07",
+  "title": "The Big Scare",
+  "originalTitle": "Tendre Dracula",
+  "sortTitle": "Big Scare, The",
+  "year": 1974,
+  "releaseDate": "1975-01-01",
   "countries": [
     "France"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0344641",
       "name": "Pierre Grunstein",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "MacGregor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0885098",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "H\u00e9lo\u00efse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0579500",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Alfred"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591877",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Marie"
-      ],
-      "notes": "(as Miou Miou)"
+      ]
     },
     {
       "imdbId": "nm0184004",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Madeleine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0788012",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Boris"
-      ],
-      "notes": "(as Stephane Shandor)"
+      ]
     },
     {
       "imdbId": "nm0347453",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Le Producteur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0750959",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Ab\u00e9lard - le Serviteur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0096634",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "La Secr\u00e9taire du Producteur"
-      ],
-      "notes": "(as Brigitte de Borghese)"
+      ]
     }
   ],
   "writers": [
@@ -119,19 +111,19 @@
     {
       "imdbId": "nm0105986",
       "name": "Hal Brav",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0502145",
       "name": "Justin Lenoir",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0344641",
       "name": "Pierre Grunstein",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(adaptation)"
     }
   ]

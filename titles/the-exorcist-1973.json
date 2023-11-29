@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0070047",
-  "title": "The Exorcist",
-  "sortTitle": "Exorcist (1973)",
-  "year": 1973,
   "slug": "the-exorcist-1973",
+  "title": "The Exorcist",
+  "originalTitle": "The Exorcist",
+  "sortTitle": "Exorcist, The",
+  "year": 1973,
   "releaseDate": "1973-12-26",
   "countries": [
     "United States"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0001243",
       "name": "William Friedkin",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,26 +27,23 @@
       "sequence": 0,
       "roles": [
         "Chris MacNeil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001884",
       "name": "Max von Sydow",
       "sequence": 1,
       "roles": [
-        "Father Lankester Merrin"
-      ],
-      "notes": null
+        "Father Merrin"
+      ]
     },
     {
       "imdbId": "nm0002011",
       "name": "Lee J. Cobb",
       "sequence": 2,
       "roles": [
-        "Lt. William Kinderman"
-      ],
-      "notes": null
+        "Lt. Kinderman"
+      ]
     },
     {
       "imdbId": "nm0935345",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Sharon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0532290",
@@ -62,26 +59,23 @@
       "sequence": 4,
       "roles": [
         "Burke Dennings"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0588553",
       "name": "Jason Miller",
       "sequence": 5,
       "roles": [
-        "Father Damien Karras"
-      ],
-      "notes": null
+        "Father Karras"
+      ]
     },
     {
       "imdbId": "nm0000304",
       "name": "Linda Blair",
       "sequence": 6,
       "roles": [
-        "Regan MacNeil"
-      ],
-      "notes": null
+        "Regan"
+      ]
     },
     {
       "imdbId": "nm0641780",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Father Dyer"
-      ],
-      "notes": "(as Reverend William O'Malley S.J.)"
+      ]
     },
     {
       "imdbId": "nm0382263",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Klein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0557751",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Dr. Barringer - Clinic Director"
-      ],
-      "notes": "(as Pete Masterson)"
+      ]
     },
     {
       "imdbId": "nm0771869",
@@ -116,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Karl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0678420",
@@ -125,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Willi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0843367",
@@ -134,8 +123,7 @@
       "sequence": 12,
       "roles": [
         "Dr. Taney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0832407",
@@ -143,8 +131,7 @@
       "sequence": 13,
       "roles": [
         "Psychiatrist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0075900",
@@ -152,8 +139,7 @@
       "sequence": 14,
       "roles": [
         "Tom - President of University"
-      ],
-      "notes": "(as Reverend Thomas Bermingham S.J.)"
+      ]
     },
     {
       "imdbId": "nm0539518",
@@ -161,8 +147,7 @@
       "sequence": 15,
       "roles": [
         "Karras' Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888937",
@@ -170,8 +155,7 @@
       "sequence": 16,
       "roles": [
         "Karras' Uncle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0537089",
@@ -179,8 +163,7 @@
       "sequence": 17,
       "roles": [
         "Language Lab Director"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0740367",
@@ -188,8 +171,7 @@
       "sequence": 18,
       "roles": [
         "Bishop Michael"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0264515",
@@ -198,8 +180,7 @@
       "roles": [
         "Chuck - Assistant Director",
         "Demonic Voice"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593291",
@@ -207,8 +188,7 @@
       "sequence": 20,
       "roles": [
         "Mary Jo Perrin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178358",
@@ -216,8 +196,7 @@
       "sequence": 21,
       "roles": [
         "Jesuit Dean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314745",
@@ -225,17 +204,7 @@
       "sequence": 22,
       "roles": [
         "Senator at Party"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0564790",
-      "name": "Mercedes McCambridge",
-      "sequence": 23,
-      "roles": [
-        "Demon"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -248,8 +217,8 @@
     {
       "imdbId": "nm0087861",
       "name": "William Peter Blatty",
-      "sequence": 1,
-      "notes": "(novel)"
+      "sequence": 2,
+      "notes": "(based on the novel by)"
     }
   ]
 }

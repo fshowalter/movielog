@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0061512",
-  "title": "Cool Hand Luke",
-  "sortTitle": "Cool Hand Luke (1967)",
-  "year": 1967,
   "slug": "cool-hand-luke-1967",
+  "title": "Cool Hand Luke",
+  "originalTitle": "Cool Hand Luke",
+  "sortTitle": "Cool Hand Luke",
+  "year": 1967,
   "releaseDate": "1967-11-01",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0742341",
       "name": "Stuart Rosenberg",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,9 +27,8 @@
       "name": "Paul Newman",
       "sequence": 0,
       "roles": [
-        "Luke"
-      ],
-      "notes": null
+        "Lucas 'Luke' Jackson"
+      ]
     },
     {
       "imdbId": "nm0001421",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Dragline"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0134201",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Society Red"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0031398",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Koko"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0238105",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Loudmouth Steve"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001510",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Captain"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0886888",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Arletta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0416378",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Carr"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0940971",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Boss Godfrey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0039435",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Boss Paul"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0147049",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Rabbitt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0202501",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Blind Dick"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0232817",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Boss Shorty"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0278258",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Tattoo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000454",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Babalugats"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0572897",
@@ -162,8 +148,7 @@
       "sequence": 15,
       "roles": [
         "Boss Keen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0737257",
@@ -171,8 +156,7 @@
       "sequence": 16,
       "roles": [
         "Gambler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001765",
@@ -180,8 +164,7 @@
       "sequence": 17,
       "roles": [
         "Tramp"
-      ],
-      "notes": "(as Dean Stanton)"
+      ]
     },
     {
       "imdbId": "nm0879006",
@@ -189,8 +172,7 @@
       "sequence": 18,
       "roles": [
         "Boss Higgins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0906627",
@@ -198,8 +180,7 @@
       "sequence": 19,
       "roles": [
         "Alibi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001875",
@@ -207,8 +188,7 @@
       "sequence": 20,
       "roles": [
         "Dog Boy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0440203",
@@ -216,8 +196,7 @@
       "sequence": 21,
       "roles": [
         "Dynamite"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0363518",
@@ -225,8 +204,7 @@
       "sequence": 22,
       "roles": [
         "The Girl"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -234,25 +212,19 @@
       "imdbId": "nm0668914",
       "name": "Donn Pearce",
       "sequence": 0,
-      "notes": "(screenplay by)"
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0682757",
       "name": "Frank Pierson",
       "sequence": 1,
-      "notes": "(screenplay by) (as Frank R. Pierson)"
+      "notes": "(screenplay) (as Frank R. Pierson)"
     },
     {
       "imdbId": "nm0668914",
       "name": "Donn Pearce",
-      "sequence": 2,
-      "notes": "(based on the novel by)"
-    },
-    {
-      "imdbId": "nm0237543",
-      "name": "Hal Dresner",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(novel)"
     }
   ]
 }

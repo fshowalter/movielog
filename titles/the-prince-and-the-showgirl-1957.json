@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0050861",
-  "title": "The Prince and the Showgirl",
-  "sortTitle": "Prince and the Showgirl (1957)",
-  "year": 1957,
   "slug": "the-prince-and-the-showgirl-1957",
+  "title": "The Prince and the Showgirl",
+  "originalTitle": "The Prince and the Showgirl",
+  "sortTitle": "Prince and the Showgirl, The",
+  "year": 1957,
   "releaseDate": "1957-06-13",
   "countries": [
     "United Kingdom",
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000059",
       "name": "Laurence Olivier",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Northbrook"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0395004",
@@ -37,35 +37,31 @@
       "sequence": 1,
       "roles": [
         "The Foreign Office"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0818215",
-      "name": "Jeremy Spenser",
-      "sequence": 2,
-      "roles": [
-        "King Nicolas"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0861345",
-      "name": "Sybil Thorndike",
-      "sequence": 3,
-      "roles": [
-        "The Queen Dowager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000059",
       "name": "Laurence Olivier",
-      "sequence": 4,
+      "sequence": 2,
       "roles": [
         "The Regent"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0818215",
+      "name": "Jeremy Spenser",
+      "sequence": 3,
+      "roles": [
+        "King Nicolas"
+      ]
+    },
+    {
+      "imdbId": "nm0861345",
+      "name": "Sybil Thorndike",
+      "sequence": 4,
+      "roles": [
+        "The Queen Dowager"
+      ]
     },
     {
       "imdbId": "nm0329468",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Call Boy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378209",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Dresser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000054",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Elsie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448765",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Maisie Springfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0896094",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Theatre Manager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0026563",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Fanny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0206617",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Betty"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0654145",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Maggie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0460874",
@@ -145,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Hoffman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362557",
@@ -154,8 +141,7 @@
       "sequence": 14,
       "roles": [
         "Major Domo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339388",
@@ -163,8 +149,7 @@
       "sequence": 15,
       "roles": [
         "Maud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0538916",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Valet with Violin"
-      ],
-      "notes": "(as Andrea Melandrinos)"
+      ]
     },
     {
       "imdbId": "nm0514262",
@@ -181,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Lottie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0249936",
@@ -190,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "Head Valet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0223287",
@@ -199,8 +181,7 @@
       "sequence": 19,
       "roles": [
         "The Ambassador"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0041602",
@@ -208,8 +189,7 @@
       "sequence": 20,
       "roles": [
         "Lady Sunningdale"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -222,14 +202,8 @@
     {
       "imdbId": "nm0711905",
       "name": "Terence Rattigan",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0711905",
-      "name": "Terence Rattigan",
       "sequence": 2,
-      "notes": "(play \"The Sleeping Prince\") (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

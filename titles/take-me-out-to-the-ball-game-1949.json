@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041944",
-  "title": "Take Me Out to the Ball Game",
-  "sortTitle": "Take Me Out to the Ball Game (1949)",
-  "year": 1949,
   "slug": "take-me-out-to-the-ball-game-1949",
-  "releaseDate": "1949-03-09",
+  "title": "Take Me Out to the Ball Game",
+  "originalTitle": "Take Me Out to the Ball Game",
+  "sortTitle": "Take Me Out to the Ball Game",
+  "year": 1949,
+  "releaseDate": "1949-04-01",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000923",
       "name": "Busby Berkeley",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Dennis Ryan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930565",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "K.C. Higgins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000037",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Eddie O'Brien"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0308081",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Shirley Delwyn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0036427",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Joe Lorgan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0613235",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Nat Goldberg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0485518",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Michael Gilhuly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0240836",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Slappy Burke"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -112,20 +105,14 @@
     {
       "imdbId": "nm0000037",
       "name": "Gene Kelly",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 3,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0186355",
-      "name": "Harry Crane",
       "sequence": 4,
-      "notes": "() (uncredited)"
+      "notes": "(story)"
     }
   ]
 }

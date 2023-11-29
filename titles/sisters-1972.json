@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0070698",
-  "title": "Sisters",
-  "sortTitle": "Sisters (1972)",
-  "year": 1972,
   "slug": "sisters-1972",
-  "releaseDate": "1972-11-18",
+  "title": "Sisters",
+  "originalTitle": "Sisters",
+  "sortTitle": "Sisters",
+  "year": 1972,
+  "releaseDate": "1973-03-26",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000361",
       "name": "Brian De Palma",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "roles": [
         "Danielle Breton",
         "Dominique Blanchion"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0759022",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Grace Collier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001164",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Joseph Larch"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0278073",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Emil Breton"
-      ],
-      "notes": "(as Bill Finley)"
+      ]
     },
     {
       "imdbId": "nm0933769",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Phillip Woode"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0400464",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Arthur McLennen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0202629",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mrs. Peyson Collier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842248",
@@ -92,15 +86,7 @@
       "sequence": 7,
       "roles": [
         "Detective Kelly"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0172178",
-      "name": "Bobby Collins",
-      "sequence": 8,
-      "roles": [],
-      "notes": "(as Bobby C. Collins)"
+      ]
     }
   ],
   "writers": [
@@ -119,7 +105,7 @@
     {
       "imdbId": "nm0000361",
       "name": "Brian De Palma",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(original story)"
     }
   ]

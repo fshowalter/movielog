@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024675",
-  "title": "Today We Live",
-  "sortTitle": "Today We Live (1933)",
-  "year": 1933,
   "slug": "today-we-live-1933",
-  "releaseDate": "1933-03-03",
+  "title": "Today We Live",
+  "originalTitle": "Today We Live",
+  "sortTitle": "Today We Live",
+  "year": 1933,
+  "releaseDate": "1933-04-14",
   "countries": [
     "United States"
   ],
@@ -17,14 +19,12 @@
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0744514",
       "name": "Richard Rosson",
-      "sequence": 1,
-      "notes": "(co-director)"
+      "sequence": 1
     }
   ],
   "performers": [
@@ -34,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Diana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000011",
@@ -43,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Bogard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001870",
@@ -52,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Claude"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867144",
@@ -61,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Lieutenant Ronnie Boyce-Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0439850",
@@ -70,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "McGinnis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0167113",
@@ -79,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Applegate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0516121",
@@ -88,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Major"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0891176",
@@ -97,15 +90,13 @@
       "sequence": 7,
       "roles": [
         "Eleanor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm6243470",
       "name": "Gene O'Brien",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [
@@ -118,32 +109,20 @@
     {
       "imdbId": "nm0280223",
       "name": "Edith Fitzgerald",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0852313",
       "name": "Dwight Taylor",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 3,
-      "notes": "(dialogue)"
-    },
-    {
-      "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 4,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0192234",
-      "name": "Ann Cunningham",
       "sequence": 5,
-      "notes": "() (uncredited)"
+      "notes": "(dialogue)"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt10935560",
-  "title": "Dark Glasses",
-  "sortTitle": "Dark Glasses (2022)",
-  "year": 2022,
   "slug": "dark-glasses-2022",
-  "releaseDate": "2022-02-11",
+  "title": "Dark Glasses",
+  "originalTitle": "Occhiali neri",
+  "sortTitle": "Dark Glasses",
+  "year": 2022,
+  "releaseDate": "2022-10-13",
   "countries": [
     "Italy",
     "France"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000783",
       "name": "Dario Argento",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Diana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000782",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Rita"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2081756",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Matteo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4041738",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Chief Inspector Aleardi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3397823",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Ispettrice Bajani"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm7200873",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Ispettore Baldacci"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm12762620",
@@ -83,35 +78,31 @@
       "sequence": 6,
       "roles": [
         "Chin"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm4487942",
+      "name": "Paola Sambo",
+      "sequence": 7,
+      "roles": [
+        "Suora Istituto"
+      ]
     },
     {
       "imdbId": "nm4737994",
       "name": "Ivan Alovisio",
-      "sequence": 7,
-      "roles": [
-        "Medico Oftalmico"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm12762621",
-      "name": "Fabrizio Eleuteri",
       "sequence": 8,
       "roles": [
-        "Dream Killer"
-      ],
-      "notes": null
+        "Medico Oftalmico"
+      ]
     },
     {
-      "imdbId": "nm1984126",
-      "name": "Guglielmo Favilla",
+      "imdbId": "nm14242472",
+      "name": "Giuseppe Cometa",
       "sequence": 9,
       "roles": [
-        "Jerry"
-      ],
-      "notes": null
+        "Bambino istituto"
+      ]
     },
     {
       "imdbId": "nm0346569",
@@ -119,17 +110,15 @@
       "sequence": 10,
       "roles": [
         "Pardi"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm8551158",
-      "name": "Cristiano Simone Iannone",
+      "imdbId": "nm1984126",
+      "name": "Guglielmo Favilla",
       "sequence": 11,
       "roles": [
-        "Padre Eclissi"
-      ],
-      "notes": null
+        "Jerry"
+      ]
     },
     {
       "imdbId": "nm10294096",
@@ -137,53 +126,53 @@
       "sequence": 12,
       "roles": [
         "Escort"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm9761401",
-      "name": "Maurizio Jiritano",
-      "sequence": 13,
-      "roles": [
-        "Cliente Escort"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm6837006",
       "name": "Gladys Robles",
-      "sequence": 14,
+      "sequence": 13,
       "roles": [
         "Marisol"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm4487942",
-      "name": "Paola Sambo",
-      "sequence": 15,
-      "roles": [
-        "Suora Istituto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm6958370",
       "name": "Mario Scerbo",
-      "sequence": 16,
+      "sequence": 14,
       "roles": [
         "Facchino Albergo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm8515429",
       "name": "Tiffany Zhou",
-      "sequence": 17,
+      "sequence": 15,
       "roles": [
         "Feng"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm13341597",
+      "name": "Solomon Andra",
+      "sequence": 16,
+      "roles": []
+    },
+    {
+      "imdbId": "nm0701260",
+      "name": "David Maria Putorti",
+      "sequence": 17,
+      "roles": [
+        "Concierge"
+      ]
+    },
+    {
+      "imdbId": "nm4834355",
+      "name": "Gianluca Scuotto",
+      "sequence": 18,
+      "roles": [
+        "Portiere albergo"
+      ]
     }
   ],
   "writers": [
@@ -196,7 +185,7 @@
     {
       "imdbId": "nm0274853",
       "name": "Franco Ferrini",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     }
   ]

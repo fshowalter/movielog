@@ -1,28 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0042744",
-  "title": "Montana",
-  "sortTitle": "Montana (1950)",
-  "year": 1950,
   "slug": "montana-1950",
-  "releaseDate": "1950-01-10",
+  "title": "Montana",
+  "originalTitle": "Montana",
+  "sortTitle": "Montana",
+  "year": 1950,
+  "releaseDate": "1950-01-28",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0258015",
       "name": "Ray Enright",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0909825",
-      "name": "Raoul Walsh",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -32,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Morgan Lane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0807252",
@@ -41,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Maria Singleton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0757064",
@@ -50,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Papa Otto Schultz"
-      ],
-      "notes": "(as S.Z. 'Cuddles' Sakall)"
+      ]
     },
     {
       "imdbId": "nm0448004",
@@ -59,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Rodney Ackroyd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113769",
@@ -68,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Tex Coyne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0531756",
@@ -77,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Slim Reeves"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0410361",
@@ -86,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "MacKenzie - Sheep Herder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0122834",
@@ -95,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Tecumseh Burke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0654286",
@@ -104,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Jock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0560091",
@@ -113,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "George Forsythe"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -122,25 +108,25 @@
       "imdbId": "nm0916139",
       "name": "James R. Webb",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0153698",
       "name": "Borden Chase",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0641885",
       "name": "Charles O'Neal",
       "sequence": 2,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0370697",
       "name": "Ernest Haycox",
-      "sequence": 3,
-      "notes": "(story)"
+      "sequence": 4,
+      "notes": "(based on a story by)"
     }
   ]
 }

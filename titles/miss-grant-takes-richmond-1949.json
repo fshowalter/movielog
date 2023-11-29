@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041652",
-  "title": "Miss Grant Takes Richmond",
-  "sortTitle": "Miss Grant Takes Richmond (1949)",
-  "year": 1949,
   "slug": "miss-grant-takes-richmond-1949",
+  "title": "Miss Grant Takes Richmond",
+  "originalTitle": "Miss Grant Takes Richmond",
+  "sortTitle": "Miss Grant Takes Richmond",
+  "year": 1949,
   "releaseDate": "1949-09-20",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Comedy"
+    "Comedy",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0045800",
       "name": "Lloyd Bacon",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Ellen Grant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000034",
@@ -35,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Dick Richmond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0141681",
@@ -44,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Peggy Donato"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0322299",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Timothy P. Gleason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0377839",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Helen White"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570451",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Mr. Kilcoyne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166477",
@@ -80,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Judge Ben Grant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0242911",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Ralph Winton"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -115,7 +109,7 @@
     {
       "imdbId": "nm0293388",
       "name": "Everett Freeman",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(story)"
     }
   ]

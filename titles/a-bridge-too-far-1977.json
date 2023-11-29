@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0075784",
-  "title": "A Bridge Too Far",
-  "sortTitle": "Bridge Too Far (1977)",
-  "year": 1977,
   "slug": "a-bridge-too-far-1977",
+  "title": "A Bridge Too Far",
+  "originalTitle": "A Bridge Too Far",
+  "sortTitle": "Bridge Too Far, A",
+  "year": 1977,
   "releaseDate": "1977-06-15",
   "countries": [
     "United States",
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000277",
       "name": "Richard Attenborough",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Underground Leader"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0017236",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Underground Leader's Wife"
-      ],
-      "notes": "(as Marlies Van Alcmaer)"
+      ]
     },
     {
       "imdbId": "nm0885546",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Underground Leader's Son"
-      ],
-      "notes": "(as Eric Van't Wout)"
+      ]
     },
     {
       "imdbId": "nm0007234",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Field Marshal Gerd Von Rundstedt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0902026",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Gen. Blumentritt"
-      ],
-      "notes": "(as Hans Von Borsody)"
+      ]
     },
     {
       "imdbId": "nm0670263",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Cafe Waitress"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001958",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Lt .Gen. Browning"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561792",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Maj. Gen. Maxwell Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000125",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Maj. Gen. Urquhart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0641939",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Brig. Gen. Gavin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000432",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Maj. Gen. Sosabowski"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0463491",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Field Marshal Model"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0264512",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Capt. 'Harry' Bestebreurtje"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0065427",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "German Sentry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0342200",
@@ -155,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Maj. Fuller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447305",
@@ -164,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "R.A.F. Briefing Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0681826",
@@ -173,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Lt. Col. Mackenzie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0235028",
@@ -182,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Brig Lathbury"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0786104",
@@ -191,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Lt. Cole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0601891",
@@ -200,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Maj. Steele"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002081",
@@ -209,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Lt. Gen. Horrocks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000323",
@@ -218,8 +198,7 @@
       "sequence": 21,
       "roles": [
         "Lt. Col. J.O.E. Vandeleur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126250",
@@ -227,17 +206,15 @@
       "sequence": 22,
       "roles": [
         "Lt. Col. Giles Vandeleur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000164",
       "name": "Anthony Hopkins",
       "sequence": 23,
       "roles": [
-        "Lieutenant Colonel Frost"
-      ],
-      "notes": null
+        "Lt. Col. Frost"
+      ]
     },
     {
       "imdbId": "nm0178674",
@@ -245,8 +222,7 @@
       "sequence": 24,
       "roles": [
         "Pvt. Wicks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0132757",
@@ -254,8 +230,7 @@
       "sequence": 25,
       "roles": [
         "Capt. Glass"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001001",
@@ -263,8 +238,7 @@
       "sequence": 26,
       "roles": [
         "SSgt. Dohun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0799245",
@@ -272,8 +246,7 @@
       "sequence": 27,
       "roles": [
         "Col. Sims"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0228533",
@@ -281,8 +254,7 @@
       "sequence": 28,
       "roles": [
         "U.S. Private"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0158364",
@@ -290,8 +262,7 @@
       "sequence": 29,
       "roles": [
         "Organist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0370287",
@@ -299,80 +270,71 @@
       "sequence": 30,
       "roles": [
         "Vicar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0268200",
       "name": "Colin Farrell",
       "sequence": 31,
       "roles": [
-        "Corporal Hancock"
-      ],
-      "notes": null
+        "Cpl. Hancock"
+      ]
     },
     {
       "imdbId": "nm0328676",
       "name": "Christopher Good",
       "sequence": 32,
       "roles": [
-        "Major Carlyle"
-      ],
-      "notes": null
+        "Maj. Carlyle"
+      ]
     },
     {
       "imdbId": "nm0339914",
       "name": "Norman Gregory",
       "sequence": 33,
       "roles": [
-        "Private Morgan"
-      ],
-      "notes": null
+        "Pvt. Morgan"
+      ]
     },
     {
       "imdbId": "nm0035605",
       "name": "Alun Armstrong",
       "sequence": 34,
       "roles": [
-        "Corporal Davies"
-      ],
-      "notes": null
+        "Cpl. Davies"
+      ]
     },
     {
       "imdbId": "nm0590372",
       "name": "Anthony Milner",
       "sequence": 35,
       "roles": [
-        "Private Dodds"
-      ],
-      "notes": null
+        "Pvt. Dodds"
+      ]
     },
     {
       "imdbId": "nm0565061",
       "name": "Barry McCarthy",
       "sequence": 36,
       "roles": [
-        "Private Clark"
-      ],
-      "notes": null
+        "Pvt. Clark"
+      ]
     },
     {
       "imdbId": "nm0216683",
       "name": "Lex van Delden",
       "sequence": 37,
       "roles": [
-        "Sergeant Matthias"
-      ],
-      "notes": "(as Lex Van Delden)"
+        "Sgt. Matthias"
+      ]
     },
     {
       "imdbId": "nm0001703",
       "name": "Maximilian Schell",
       "sequence": 38,
       "roles": [
-        "Lieutenant General Bittrich"
-      ],
-      "notes": null
+        "Lt. Gen. Bittrich"
+      ]
     },
     {
       "imdbId": "nm0937875",
@@ -380,17 +342,15 @@
       "sequence": 39,
       "roles": [
         "Field Marshal Model's Aide"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0473228",
       "name": "Hardy Kr\u00fcger",
       "sequence": 40,
       "roles": [
-        "Major General Ludwig"
-      ],
-      "notes": "(as Hardy Kruger)"
+        "Maj. Gen. Ludwig"
+      ]
     },
     {
       "imdbId": "nm0558773",
@@ -398,8 +358,7 @@
       "sequence": 41,
       "roles": [
         "Irish Guards Lieutenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0066407",
@@ -407,8 +366,7 @@
       "sequence": 42,
       "roles": [
         "German Private"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0781164",
@@ -416,8 +374,7 @@
       "sequence": 43,
       "roles": [
         "British Padre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0880521",
@@ -425,8 +382,7 @@
       "sequence": 44,
       "roles": [
         "Kate Ter Horst"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0066390",
@@ -434,8 +390,7 @@
       "sequence": 45,
       "roles": [
         "Jan Ter Horst"
-      ],
-      "notes": "(as Tom Van Beek)"
+      ]
     },
     {
       "imdbId": "nm0098657",
@@ -443,8 +398,7 @@
       "sequence": 46,
       "roles": [
         "Dutch Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0021706",
@@ -452,17 +406,15 @@
       "sequence": 47,
       "roles": [
         "Dutch Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001285",
       "name": "Elliott Gould",
       "sequence": 48,
       "roles": [
-        "Colonel Stout"
-      ],
-      "notes": null
+        "Col. Stout"
+      ]
     },
     {
       "imdbId": "nm0422457",
@@ -470,8 +422,7 @@
       "sequence": 49,
       "roles": [
         "U.S. Radio Operator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0385911",
@@ -479,17 +430,15 @@
       "sequence": 50,
       "roles": [
         "British Wireless Operator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0237951",
       "name": "Keith Drinkel",
       "sequence": 51,
       "roles": [
-        "Lieutenant Cornish"
-      ],
-      "notes": null
+        "Lt. Cornish"
+      ]
     },
     {
       "imdbId": "nm0810483",
@@ -497,26 +446,23 @@
       "sequence": 52,
       "roles": [
         "Old Dutch Lady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0188534",
       "name": "Hans Croiset",
       "sequence": 53,
       "roles": [
-        "Hans. Her Son"
-      ],
-      "notes": null
+        "Hans - Old Dutch Lady's Son"
+      ]
     },
     {
       "imdbId": "nm0930603",
       "name": "Fred Williams",
       "sequence": 54,
       "roles": [
-        "Captain Grabner"
-      ],
-      "notes": null
+        "Capt. Grabner"
+      ]
     },
     {
       "imdbId": "nm0670241",
@@ -524,17 +470,15 @@
       "sequence": 55,
       "roles": [
         "German Lieutenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0431851",
       "name": "John Judd",
       "sequence": 56,
       "roles": [
-        "Sergeant Clegg"
-      ],
-      "notes": null
+        "Sgt. Clegg"
+      ]
     },
     {
       "imdbId": "nm0002027",
@@ -542,8 +486,7 @@
       "sequence": 57,
       "roles": [
         "Trooper Binns"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591678",
@@ -551,8 +494,7 @@
       "sequence": 58,
       "roles": [
         "British Medical Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0257602",
@@ -560,8 +502,7 @@
       "sequence": 59,
       "roles": [
         "Private Andrews"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0397141",
@@ -569,8 +510,7 @@
       "sequence": 60,
       "roles": [
         "Sergeant Towns"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0185163",
@@ -578,8 +518,7 @@
       "sequence": 61,
       "roles": [
         "Captain Cleminson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0805101",
@@ -587,8 +526,7 @@
       "sequence": 62,
       "roles": [
         "Elderly Dutch Couple"
-      ],
-      "notes": "(as Johan Te Slaa)"
+      ]
     },
     {
       "imdbId": "nm0721439",
@@ -596,8 +534,7 @@
       "sequence": 63,
       "roles": [
         "Elderly Dutch Couple"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0342890",
@@ -605,8 +542,7 @@
       "sequence": 64,
       "roles": [
         "Young Dutch Couple"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0459185",
@@ -614,8 +550,7 @@
       "sequence": 65,
       "roles": [
         "Young Dutch Couple"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001186",
@@ -623,8 +558,7 @@
       "sequence": 66,
       "roles": [
         "R.A.F. Met. Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330517",
@@ -632,8 +566,7 @@
       "sequence": 67,
       "roles": [
         "U.S. Sergeant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0384050",
@@ -641,8 +574,7 @@
       "sequence": 68,
       "roles": [
         "U.S. Medical Colonel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0353796",
@@ -650,8 +582,7 @@
       "sequence": 69,
       "roles": [
         "Lieutenant Rafferty"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0350312",
@@ -659,8 +590,7 @@
       "sequence": 70,
       "roles": [
         "U.S. Engineer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0713182",
@@ -668,8 +598,7 @@
       "sequence": 71,
       "roles": [
         "Grenadier Guards Lieutenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0603015",
@@ -677,8 +606,7 @@
       "sequence": 72,
       "roles": [
         "British Corporal"
-      ],
-      "notes": "(as Tim Morand)"
+      ]
     },
     {
       "imdbId": "nm0912062",
@@ -686,8 +614,7 @@
       "sequence": 73,
       "roles": [
         "Private Gibbs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448256",
@@ -695,8 +622,7 @@
       "sequence": 74,
       "roles": [
         "Colonel Barker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0759110",
@@ -704,8 +630,7 @@
       "sequence": 75,
       "roles": [
         "Private 'Ginger' Marsh"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0352470",
@@ -713,8 +638,7 @@
       "sequence": 76,
       "roles": [
         "Glider Pilot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0495818",
@@ -722,8 +646,7 @@
       "sequence": 77,
       "roles": [
         "Regimental Sergeant Major"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0303177",
@@ -731,8 +654,7 @@
       "sequence": 78,
       "roles": [
         "Private Vincent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0128264",
@@ -740,8 +662,7 @@
       "sequence": 79,
       "roles": [
         "Private Long"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0042004",
@@ -749,8 +670,7 @@
       "sequence": 80,
       "roles": [
         "'Taffy' Brace"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000059",
@@ -758,8 +678,7 @@
       "sequence": 81,
       "roles": [
         "Doctor Spaander"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0437417",
@@ -767,8 +686,7 @@
       "sequence": 82,
       "roles": [
         "Colonel Weaver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0757476",
@@ -776,8 +694,7 @@
       "sequence": 83,
       "roles": [
         "Private Stephenson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0051952",
@@ -785,8 +702,7 @@
       "sequence": 84,
       "roles": [
         "British Staff Colonel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0713350",
@@ -794,8 +710,7 @@
       "sequence": 85,
       "roles": [
         "Grenadier Guards Colonel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0718628",
@@ -803,8 +718,7 @@
       "sequence": 86,
       "roles": [
         "Boat Truck Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000602",
@@ -812,8 +726,7 @@
       "sequence": 87,
       "roles": [
         "Major Cook"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0789598",
@@ -821,8 +734,7 @@
       "sequence": 88,
       "roles": [
         "U.S. Captain"
-      ],
-      "notes": "(as Anthony Pullen)"
+      ]
     },
     {
       "imdbId": "nm0608014",
@@ -830,8 +742,7 @@
       "sequence": 89,
       "roles": [
         "U.S. Padre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001652",
@@ -839,8 +750,7 @@
       "sequence": 90,
       "roles": [
         "U.S. Lieutenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0753236",
@@ -848,8 +758,7 @@
       "sequence": 91,
       "roles": [
         "German Lieutenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0726292",
@@ -857,8 +766,7 @@
       "sequence": 92,
       "roles": [
         "Captain Krafft"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0514282",
@@ -866,8 +774,7 @@
       "sequence": 93,
       "roles": [
         "Sergeant Whitney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0711884",
@@ -875,8 +782,7 @@
       "sequence": 94,
       "roles": [
         "Private Gordon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0792214",
@@ -884,8 +790,7 @@
       "sequence": 95,
       "roles": [
         "Sergeant Tomblin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0409171",
@@ -893,8 +798,7 @@
       "sequence": 96,
       "roles": [
         "Sergeant Macdonald"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0834438",
@@ -902,8 +806,7 @@
       "sequence": 97,
       "roles": [
         "Grenadier Guards Major"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0655604",
@@ -911,8 +814,7 @@
       "sequence": 98,
       "roles": [
         "British Medical Orderly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0336329",
@@ -920,8 +822,7 @@
       "sequence": 99,
       "roles": [
         "British Medical Orderly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0151463",
@@ -929,8 +830,7 @@
       "sequence": 100,
       "roles": [
         "Private Simmonds"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0435866",
@@ -938,8 +838,7 @@
       "sequence": 101,
       "roles": [
         "Private Archer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0193132",
@@ -947,8 +846,7 @@
       "sequence": 102,
       "roles": [
         "Corporal Robbins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0008758",
@@ -956,8 +854,7 @@
       "sequence": 103,
       "roles": [
         "Sergeant Treadwell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930257",
@@ -965,8 +862,7 @@
       "sequence": 104,
       "roles": [
         "Corporal Merrick"
-      ],
-      "notes": "(as Christopher Williams)"
+      ]
     },
     {
       "imdbId": "nm0104347",
@@ -974,8 +870,7 @@
       "sequence": 105,
       "roles": [
         "Flute Player"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307684",
@@ -983,8 +878,7 @@
       "sequence": 106,
       "roles": [
         "British Staff Major"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0036941",
@@ -992,8 +886,7 @@
       "sequence": 107,
       "roles": [
         "Dutch Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086729",
@@ -1001,8 +894,7 @@
       "sequence": 108,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0101886",
@@ -1010,8 +902,7 @@
       "sequence": 109,
       "roles": [
         "Soldier"
-      ],
-      "notes": "(as Ray Boyd)"
+      ]
     },
     {
       "imdbId": "nm0161410",
@@ -1019,8 +910,7 @@
       "sequence": 110,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0188474",
@@ -1028,8 +918,7 @@
       "sequence": 111,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0225703",
@@ -1037,8 +926,7 @@
       "sequence": 112,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0316615",
@@ -1046,8 +934,7 @@
       "sequence": 113,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339840",
@@ -1055,8 +942,7 @@
       "sequence": 114,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0346791",
@@ -1064,8 +950,7 @@
       "sequence": 115,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0360360",
@@ -1073,8 +958,7 @@
       "sequence": 116,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0369350",
@@ -1082,8 +966,7 @@
       "sequence": 117,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0397755",
@@ -1091,8 +974,7 @@
       "sequence": 118,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0419052",
@@ -1100,8 +982,7 @@
       "sequence": 119,
       "roles": [
         "Col. Frost's Aide"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0453193",
@@ -1109,8 +990,7 @@
       "sequence": 120,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0518926",
@@ -1118,8 +998,7 @@
       "sequence": 121,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0552335",
@@ -1127,8 +1006,7 @@
       "sequence": 122,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0567513",
@@ -1136,8 +1014,7 @@
       "sequence": 123,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570370",
@@ -1145,8 +1022,7 @@
       "sequence": 124,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571536",
@@ -1154,8 +1030,7 @@
       "sequence": 125,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0611209",
@@ -1163,8 +1038,7 @@
       "sequence": 126,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0648425",
@@ -1172,8 +1046,7 @@
       "sequence": 127,
       "roles": [
         "Soldier"
-      ],
-      "notes": "(as Richard Ommaney)"
+      ]
     },
     {
       "imdbId": "nm0703674",
@@ -1181,8 +1054,7 @@
       "sequence": 128,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0778573",
@@ -1190,8 +1062,7 @@
       "sequence": 129,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0792164",
@@ -1199,8 +1070,7 @@
       "sequence": 130,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0811042",
@@ -1208,8 +1078,7 @@
       "sequence": 131,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2089883",
@@ -1217,8 +1086,7 @@
       "sequence": 132,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0830933",
@@ -1226,8 +1094,7 @@
       "sequence": 133,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0891130",
@@ -1235,8 +1102,7 @@
       "sequence": 134,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0924939",
@@ -1244,8 +1110,7 @@
       "sequence": 135,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0948740",
@@ -1253,8 +1118,7 @@
       "sequence": 136,
       "roles": [
         "Soldier"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -1267,7 +1131,7 @@
     {
       "imdbId": "nm0001279",
       "name": "William Goldman",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     }
   ]

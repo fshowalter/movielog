@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0049461",
-  "title": "Magic Fire",
-  "sortTitle": "Magic Fire (1955)",
-  "year": 1955,
   "slug": "magic-fire-1955",
-  "releaseDate": "1955-11-21",
+  "title": "Magic Fire",
+  "originalTitle": "Magic Fire",
+  "sortTitle": "Magic Fire",
+  "year": 1955,
+  "releaseDate": "1956-03-29",
   "countries": [
     "United States"
   ],
   "genres": [
     "Biography",
-    "Drama"
+    "Drama",
+    "Music"
   ],
   "directors": [
     {
       "imdbId": "nm0226189",
       "name": "William Dieterle",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Minna Planer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0859939",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Franz Liszt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0303601",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Cosima Liszt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0181305",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Mathilde Wesendonk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045996",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Richard Wagner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001088",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Otto Wesendonk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0884776",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Minister von Moll"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0726153",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "King Ludwig II"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0776711",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Hans von Bulow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0293910",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "August Roeckel"
-      ],
-      "notes": "(as Robert Freytag)"
+      ]
     },
     {
       "imdbId": "nm0459747",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "King of Saxonia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0753687",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Giacomo Meyerbeer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003248",
@@ -135,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Pfistermeister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0344152",
@@ -144,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Magdeburg Theatre Manager"
-      ],
-      "notes": "(as Kurt Grosskurth)"
+      ]
     },
     {
       "imdbId": "nm0703351",
@@ -153,8 +141,7 @@
       "sequence": 14,
       "roles": [
         "Robert Hubner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0376842",
@@ -162,8 +149,7 @@
       "sequence": 15,
       "roles": [
         "Michael Bakunin"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -177,7 +163,7 @@
       "imdbId": "nm0243295",
       "name": "Ewald Andr\u00e9 Dupont",
       "sequence": 1,
-      "notes": "(screenplay) (as E. A. Dupont)"
+      "notes": "(screenplay) (as E.A. Dupont)"
     },
     {
       "imdbId": "nm0152000",
@@ -188,7 +174,7 @@
     {
       "imdbId": "nm0362274",
       "name": "Bertita Harding",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(based upon the novel by)"
     }
   ]

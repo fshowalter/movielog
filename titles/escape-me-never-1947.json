@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0039357",
-  "title": "Escape Me Never",
-  "sortTitle": "Escape Me Never (1947)",
-  "year": 1947,
   "slug": "escape-me-never-1947",
-  "releaseDate": "1947-11-07",
+  "title": "Escape Me Never",
+  "originalTitle": "Escape Me Never",
+  "sortTitle": "Escape Me Never",
+  "year": 1947,
+  "releaseDate": "1947-12-18",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0324013",
       "name": "Peter Godfrey",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Sebastian Dubrok"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0526946",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Gemma Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662223",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Fenella MacLean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0949574",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Caryl Dubrok"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0219666",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Mr. MacLean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0255695",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. MacLean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060168",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Professor Heinrich"
-      ],
-      "notes": "(as Albert Basserman)"
+      ]
     },
     {
       "imdbId": "nm0836724",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Mr. Steinach"
-      ],
-      "notes": "(as Ludwig Stossel)"
+      ]
     },
     {
       "imdbId": "nm0594834",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Natrova"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0957942",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "The Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0858162",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "The Landlady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0700084",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "The Guide"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717046",
@@ -135,8 +124,15 @@
       "sequence": 12,
       "roles": [
         "The Minister"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm1979950",
+      "name": "Corps de Ballet",
+      "sequence": 13,
+      "roles": [
+        "Ballet Troupe"
+      ]
     }
   ],
   "writers": [
@@ -144,19 +140,19 @@
       "imdbId": "nm0932163",
       "name": "Thames Williamson",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0448200",
       "name": "Margaret Kennedy",
-      "sequence": 1,
-      "notes": "(novel and play)"
+      "sequence": 2,
+      "notes": "(novel)"
     },
     {
-      "imdbId": "nm0168829",
-      "name": "Lenore J. Coffee",
-      "sequence": 2,
-      "notes": "() (uncredited)"
+      "imdbId": "nm0448200",
+      "name": "Margaret Kennedy",
+      "sequence": 4,
+      "notes": "(play)"
     }
   ]
 }

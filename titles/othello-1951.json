@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0045251",
-  "title": "Othello",
-  "sortTitle": "Othello (1951)",
-  "year": 1951,
   "slug": "othello-1951",
-  "releaseDate": "1951-11-27",
+  "title": "Othello",
+  "originalTitle": "The Tragedy of Othello: The Moor of Venice",
+  "sortTitle": "Othello",
+  "year": 1951,
+  "releaseDate": "1955-09-12",
   "countries": [
     "Italy",
     "Morocco",
@@ -12,15 +14,13 @@
   ],
   "genres": [
     "Drama",
-    "History",
     "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0000080",
       "name": "Orson Welles",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Iago"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0167235",
@@ -39,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Desdemona"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000080",
@@ -48,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Othello"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178509",
@@ -57,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Roderigo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0250042",
@@ -66,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Brabantio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491135",
@@ -75,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Cassio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0174029",
@@ -84,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Emilia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115556",
@@ -93,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Lodovico"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0235835",
@@ -102,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Bianca"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -112,18 +103,6 @@
       "name": "William Shakespeare",
       "sequence": 0,
       "notes": "(based on the play by)"
-    },
-    {
-      "imdbId": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 1,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0755068",
-      "name": "Jean Sacha",
-      "sequence": 2,
-      "notes": "() (uncredited)"
     }
   ]
 }

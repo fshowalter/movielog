@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0038355",
-  "title": "The Big Sleep",
-  "sortTitle": "Big Sleep (1946)",
-  "year": 1946,
   "slug": "the-big-sleep-1946",
-  "releaseDate": "1946-08-22",
+  "title": "The Big Sleep",
+  "originalTitle": "The Big Sleep",
+  "sortTitle": "Big Sleep, The",
+  "year": 1946,
+  "releaseDate": "1946-08-31",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Philip Marlowe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000002",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Vivian Rutledge"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0725891",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Eddie Mars"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0896015",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Carmen Sternwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0540416",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Acme Book Shop Proprietress"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461739",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mona Mars"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Chief Inspector Bernie Ohls"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0907289",
@@ -92,17 +86,15 @@
       "sequence": 7,
       "roles": [
         "General Sternwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113184",
       "name": "Charles D. Brown",
       "sequence": 8,
       "roles": [
-        "Norris - the Butler"
-      ],
-      "notes": null
+        "Norris"
+      ]
     },
     {
       "imdbId": "nm0824496",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Lash Canino"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0176879",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Harry Jones"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382195",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Joe Brody"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -154,7 +143,7 @@
     {
       "imdbId": "nm0151452",
       "name": "Raymond Chandler",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(novel)"
     }
   ]

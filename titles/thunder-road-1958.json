@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052293",
-  "title": "Thunder Road",
-  "sortTitle": "Thunder Road (1958)",
-  "year": 1958,
   "slug": "thunder-road-1958",
+  "title": "Thunder Road",
+  "originalTitle": "Thunder Road",
+  "sortTitle": "Thunder Road",
+  "year": 1958,
   "releaseDate": "1958-05-10",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0727999",
       "name": "Arthur Ripley",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Lucas Doolin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0058001",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Troy Barrett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0041466",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Carl Kogan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0808906",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Francie Wymore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054253",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Vernon Doolin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461070",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Roxanna Ledbetter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593848",
@@ -83,80 +78,7 @@
       "sequence": 6,
       "roles": [
         "Robin Doolin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0392379",
-      "name": "Betsy Holt",
-      "sequence": 7,
-      "roles": [
-        "Mary Barrett"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0465567",
-      "name": "Francis Koon",
-      "sequence": 8,
-      "roles": [
-        "Sarah Doolin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0817029",
-      "name": "Randy Sparks",
-      "sequence": 9,
-      "roles": [
-        "Guitarist"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0752751",
-      "name": "Mitchell Ryan",
-      "sequence": 10,
-      "roles": [
-        "Jed Moultrie"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0106539",
-      "name": "Peter Breck",
-      "sequence": 11,
-      "roles": [
-        "Stacey Gouge"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0395200",
-      "name": "Peter Hornsby",
-      "sequence": 12,
-      "roles": [
-        "Lucky - Kogan's Henchman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0362222",
-      "name": "Jerry Hardin",
-      "sequence": 13,
-      "roles": [
-        "Niles Penland"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0692351",
-      "name": "Robert Porterfield",
-      "sequence": 14,
-      "roles": [
-        "Preacher"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -164,19 +86,19 @@
       "imdbId": "nm0680474",
       "name": "James Atlee Phillips",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0936428",
       "name": "Walter Wise",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0000053",
       "name": "Robert Mitchum",
-      "sequence": 2,
-      "notes": "(original story)"
+      "sequence": 3,
+      "notes": "(based on an original story by)"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0047925",
-  "title": "This is Called Dawn",
-  "sortTitle": "This is Called Dawn (1956)",
-  "year": 1956,
   "slug": "this-is-called-dawn-1956",
+  "title": "This is Called Dawn",
+  "originalTitle": "Cela s'appelle l'aurore",
+  "sortTitle": "This is Called Dawn",
+  "year": 1956,
   "releaseDate": "1956-05-09",
   "countries": [
     "France",
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Doctor Valerio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0098393",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Clara"
-      ],
-      "notes": "(as Lucia Bos\u00e9)"
+      ]
     },
     {
       "imdbId": "nm0077921",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "The Commissioner Fasaro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0216628",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Gorzone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0661628",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Mrs. Gorzone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0494285",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Pietro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0255275",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Magda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0563695",
@@ -90,15 +84,13 @@
       "sequence": 7,
       "roles": [
         "Azzopardi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605854",
       "name": "Jane Morlet",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0595321",
@@ -106,8 +98,7 @@
       "sequence": 9,
       "roles": [
         "Sandro's new tenant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0621974",
@@ -115,8 +106,7 @@
       "sequence": 10,
       "roles": [
         "Angela's father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0702454",
@@ -124,8 +114,7 @@
       "sequence": 11,
       "roles": [
         "Fesco"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0858149",
@@ -133,8 +122,7 @@
       "sequence": 12,
       "roles": [
         "Delphine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0261161",
@@ -142,8 +130,7 @@
       "sequence": 13,
       "roles": [
         "Sandro Galli"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0096501",
@@ -151,15 +138,13 @@
       "sequence": 14,
       "roles": [
         "Angela"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0130270",
       "name": "Lucien Callamand",
       "sequence": 15,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm5424876",
@@ -167,8 +152,7 @@
       "sequence": 16,
       "roles": [
         "Le grand-p\u00e8re incestueux"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -181,12 +165,6 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 1,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0275081",
-      "name": "Jean Ferry",
       "sequence": 2,
       "notes": "(adaptation)"
     },
@@ -194,6 +172,12 @@
       "imdbId": "nm0275081",
       "name": "Jean Ferry",
       "sequence": 3,
+      "notes": "(adaptation)"
+    },
+    {
+      "imdbId": "nm0275081",
+      "name": "Jean Ferry",
+      "sequence": 5,
       "notes": "(dialogue)"
     }
   ]

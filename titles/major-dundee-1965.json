@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0059418",
-  "title": "Major Dundee",
-  "sortTitle": "Major Dundee (1965)",
-  "year": 1965,
   "slug": "major-dundee-1965",
+  "title": "Major Dundee",
+  "originalTitle": "Major Dundee",
+  "sortTitle": "Major Dundee",
+  "year": 1965,
   "releaseDate": "1965-03-15",
   "countries": [
     "United States"
   ],
   "genres": [
     "Adventure",
+    "Drama",
     "War",
     "Western"
   ],
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0001603",
       "name": "Sam Peckinpah",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Major Amos Charles Dundee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001321",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Captain Benjamin Tyreen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001380",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Lieutenant Graham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000336",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Samuel Potts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0026295",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Tim Ryan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000919",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Teresa Santiago"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000728",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Sergeant Gomez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0676349",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Aesop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0643105",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "O. W. Hadley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0424565",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Sergeant Chillum"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035866",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Reverend Dahlstrom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0428618",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Arthur Hadley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001620",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Wiley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842425",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Captain Waller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0665327",
@@ -154,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Sierra Charriba"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0151405",
@@ -163,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Jimmy Lee Benteen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0852305",
@@ -172,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Priam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0140390",
@@ -181,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Captain Jacques Tremaine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0137728",
@@ -190,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Riago"
-      ],
-      "notes": "(as Jose Carlos Ruiz)"
+      ]
     },
     {
       "imdbId": "nm0165411",
@@ -199,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Melinche"
-      ],
-      "notes": "(as Aurora Clavell)"
+      ]
     },
     {
       "imdbId": "nm0657231",
@@ -208,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Linda"
-      ],
-      "notes": "(as Begonia Palacios)"
+      ]
     },
     {
       "imdbId": "nm0524468",
@@ -217,8 +198,7 @@
       "sequence": 21,
       "roles": [
         "Doctor Aguilar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717592",
@@ -226,8 +206,7 @@
       "sequence": 22,
       "roles": [
         "Old Apache"
-      ],
-      "notes": "(as Francisco Reyguera)"
+      ]
     }
   ],
   "writers": [
@@ -240,19 +219,19 @@
     {
       "imdbId": "nm0277807",
       "name": "Harry Julian Fink",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0766665",
       "name": "Oscar Saul",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0001603",
       "name": "Sam Peckinpah",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay by)"
     }
   ]

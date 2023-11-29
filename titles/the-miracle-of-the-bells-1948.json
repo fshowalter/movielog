@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0040594",
-  "title": "The Miracle of the Bells",
-  "sortTitle": "Miracle of the Bells (1948)",
-  "year": 1948,
   "slug": "the-miracle-of-the-bells-1948",
-  "releaseDate": "1948-03-16",
+  "title": "The Miracle of the Bells",
+  "originalTitle": "The Miracle of the Bells",
+  "sortTitle": "Miracle of the Bells, The",
+  "year": 1948,
+  "releaseDate": "1948-03-27",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0681635",
       "name": "Irving Pichel",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Bill Dunnigan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0885098",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Olga"
-      ],
-      "notes": "(as Valli)"
+      ]
     },
     {
       "imdbId": "nm0000069",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Father Paul"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002011",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Marcus Harris"
-      ],
-      "notes": "(as Lee Cobb)"
+      ]
     },
     {
       "imdbId": "nm0894447",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Orloff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580566",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Father Spinsky"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0634278",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Tod Jones"
-      ],
-      "notes": "(as Jim Nolan)"
+      ]
     },
     {
       "imdbId": "nm0665239",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Anna Klovna"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0014217",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Ming Gow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0272432",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Dolan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0928207",
@@ -116,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Dr. Jennings"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -130,20 +120,14 @@
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0721913",
       "name": "Quentin Reynolds",
-      "sequence": 2,
-      "notes": "(screen play)"
-    },
-    {
-      "imdbId": "nm0090840",
-      "name": "DeWitt Bodeen",
       "sequence": 3,
-      "notes": "(additional dialogue) (uncredited)"
+      "notes": "(screen play)"
     }
   ]
 }

@@ -1,16 +1,19 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0039288",
-  "title": "Cry Wolf",
-  "sortTitle": "Cry Wolf (1947)",
-  "year": 1947,
   "slug": "cry-wolf-1947",
-  "releaseDate": "1947-07-18",
+  "title": "Cry Wolf",
+  "originalTitle": "Cry Wolf",
+  "sortTitle": "Cry Wolf",
+  "year": 1947,
+  "releaseDate": "1947-08-19",
   "countries": [
     "United States"
   ],
   "genres": [
     "Crime",
     "Drama",
+    "Film-Noir",
     "Mystery",
     "Thriller"
   ],
@@ -18,8 +21,7 @@
     {
       "imdbId": "nm0324013",
       "name": "Peter Godfrey",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Mark Caldwell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001766",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Sandra Marshall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0111997",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Julie Demarest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000865",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "James Demarest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0184578",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Senator Caldwell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0725891",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Jackson Laidell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0058117",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Angela"
-      ],
-      "notes": "(as Patricia White)"
+      ]
     },
     {
       "imdbId": "nm0540047",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Becket"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0858162",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Marta"
-      ],
-      "notes": "(as Helen Thimig)"
+      ]
     },
     {
       "imdbId": "nm0822792",
@@ -110,17 +103,15 @@
       "sequence": 9,
       "roles": [
         "Davenport"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0076150",
       "name": "Barry Bernard",
       "sequence": 10,
       "roles": [
-        "Roberts - Groom"
-      ],
-      "notes": null
+        "Roberts"
+      ]
     }
   ],
   "writers": [
@@ -128,12 +119,12 @@
       "imdbId": "nm0877957",
       "name": "Catherine Turney",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm2803228",
       "name": "Marjorie Carleton",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(novel)"
     }
   ]

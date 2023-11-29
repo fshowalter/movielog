@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024768",
-  "title": "The Whispering Shadow",
-  "sortTitle": "Whispering Shadow (1933)",
-  "year": 1933,
   "slug": "the-whispering-shadow-1933",
+  "title": "The Whispering Shadow",
+  "originalTitle": "The Whispering Shadow",
+  "sortTitle": "Whispering Shadow, The",
+  "year": 1933,
   "releaseDate": "1933-04-18",
   "countries": [
     "United States"
@@ -11,6 +13,7 @@
   "genres": [
     "Action",
     "Crime",
+    "Family",
     "Horror",
     "Mystery",
     "Thriller"
@@ -19,14 +22,12 @@
     {
       "imdbId": "nm0163786",
       "name": "Colbert Clark",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0379092",
       "name": "Albert Herman",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -36,8 +37,7 @@
       "sequence": 0,
       "roles": [
         "Prof. Adam Anton Strang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0851324",
@@ -45,8 +45,7 @@
       "sequence": 1,
       "roles": [
         "Vera Strang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570006",
@@ -54,8 +53,7 @@
       "sequence": 2,
       "roles": [
         "Jack Foster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0910400",
@@ -63,8 +61,7 @@
       "sequence": 3,
       "roles": [
         "J.D. Bradley - Company President"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0913094",
@@ -72,8 +69,7 @@
       "sequence": 4,
       "roles": [
         "Detective Robert Raymond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0165691",
@@ -81,8 +77,7 @@
       "sequence": 5,
       "roles": [
         "The Countess Helen [Chs. 5-8]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195460",
@@ -90,8 +85,7 @@
       "sequence": 6,
       "roles": [
         "Prof. Alexis Steinbeck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0199322",
@@ -99,8 +93,7 @@
       "sequence": 7,
       "roles": [
         "Sparks - Dispatcher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0926103",
@@ -108,8 +101,7 @@
       "sequence": 8,
       "roles": [
         "Young - Henchman #3"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0466773",
@@ -117,8 +109,7 @@
       "sequence": 9,
       "roles": [
         "Jasper Slade - The Convict"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571186",
@@ -126,8 +117,7 @@
       "sequence": 10,
       "roles": [
         "D.W. Jerome - Company Vice President"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

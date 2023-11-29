@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054462",
-  "title": "The Wasp Woman",
-  "sortTitle": "Wasp Woman (1959)",
-  "year": 1959,
   "slug": "the-wasp-woman-1959",
-  "releaseDate": "1959-07-05",
+  "title": "The Wasp Woman",
+  "originalTitle": "The Wasp Woman",
+  "sortTitle": "Wasp Woman, The",
+  "year": 1959,
+  "releaseDate": "1959-10-30",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Janice Starlin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0252111",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Bill Lane"
-      ],
-      "notes": "(as Fred Eisley)"
+      ]
     },
     {
       "imdbId": "nm0606371",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Mary Dennison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0736418",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Arthur Cooper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0548270",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Eric Zinthrop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314947",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Les Hellman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0895259",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Night Watchman"
-      ],
-      "notes": "(as Bruno Ve Sota)"
+      ]
     },
     {
       "imdbId": "nm0330574",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Paul Thompson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0400495",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Jean Carson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0142187",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Maureen Reardon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0938231",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "First Delivery Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550319",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0058131",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Second Delivery Man"
-      ],
-      "notes": "(as Phillip Barry)"
+      ]
     }
   ],
   "writers": [
@@ -144,13 +132,13 @@
       "imdbId": "nm0330388",
       "name": "Leo Gordon",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0955122",
       "name": "Kinta Zertuche",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(from a story by)"
     }
   ]
 }

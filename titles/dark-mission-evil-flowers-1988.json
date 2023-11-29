@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0094950",
-  "title": "Dark Mission: Evil Flowers",
-  "sortTitle": "Dark Mission: Evil Flowers (1988)",
-  "year": 1988,
   "slug": "dark-mission-evil-flowers-1988",
-  "releaseDate": "1988-04-21",
+  "title": "Dark Mission: Evil Flowers",
+  "originalTitle": "Dark Mission: Flowers of Evil",
+  "sortTitle": "Dark Mission: Evil Flowers",
+  "year": 1988,
+  "releaseDate": "1988-08-18",
   "countries": [
     "France",
     "Spain"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001238",
       "name": "Jes\u00fas Franco",
-      "sequence": 0,
-      "notes": "(as Jess Franco)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Luis Morel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593844",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Derek Carpenter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0365835",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lt. Sparks"
-      ],
-      "notes": "(as Richard Harrisson)"
+      ]
     },
     {
       "imdbId": "nm0383699",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Linda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0483166",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Antonio"
-      ],
-      "notes": "(as Henry Lambert)"
+      ]
     },
     {
       "imdbId": "nm0605989",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Elena Barrios"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0221321",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Moira Panella"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0441660",
@@ -91,29 +85,27 @@
       "sequence": 7,
       "roles": [
         "Barrios"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0305737",
       "name": "Jos\u00e9 Miguel Garc\u00eda",
       "sequence": 8,
-      "roles": [],
-      "notes": "(as J.M. Marfa)"
+      "roles": [
+        "The Spy"
+      ]
     },
     {
       "imdbId": "nm0221403",
       "name": "Frank Desmet",
       "sequence": 9,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0873205",
       "name": "Trino Trives",
       "sequence": 10,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [
@@ -126,7 +118,7 @@
     {
       "imdbId": "nm0295082",
       "name": "Georges Friedland",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(dialogue) (as George Freedland)"
     }
   ]

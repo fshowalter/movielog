@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0057449",
-  "title": "The Raven",
-  "sortTitle": "Raven (1963)",
-  "year": 1963,
   "slug": "the-raven-1963",
-  "releaseDate": "1963-01-25",
+  "title": "The Raven",
+  "originalTitle": "The Raven",
+  "sortTitle": "Raven, The",
+  "year": 1963,
+  "releaseDate": "1963-08-29",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Erasmus Craven"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000048",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Adolphus Bedlo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Scarabus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0183764",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Lenore Craven"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0836346",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Estelle Craven"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000197",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Rexford Bedlo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0908579",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Maid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0059962",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Grimes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768312",
@@ -100,22 +93,21 @@
       "sequence": 8,
       "roles": [
         "Gort"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0558577",
-      "name": "Richard Matheson",
-      "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
       "imdbId": "nm0000590",
       "name": "Edgar Allan Poe",
-      "sequence": 1,
+      "sequence": 0,
       "notes": "(poem)"
+    },
+    {
+      "imdbId": "nm0558577",
+      "name": "Richard Matheson",
+      "sequence": 2,
+      "notes": "(screenplay)"
     }
   ]
 }

@@ -1,23 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0026129",
-  "title": "Bordertown",
-  "sortTitle": "Bordertown (1935)",
-  "year": 1935,
   "slug": "bordertown-1935",
-  "releaseDate": "1935-01-08",
+  "title": "Bordertown",
+  "originalTitle": "Bordertown",
+  "sortTitle": "Bordertown",
+  "year": 1935,
+  "releaseDate": "1935-01-23",
   "countries": [
     "United States"
   ],
   "genres": [
     "Crime",
-    "Drama"
+    "Drama",
+    "Film-Noir",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0562845",
       "name": "Archie Mayo",
-      "sequence": 0,
-      "notes": "(as Archie L. Mayo)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Johnny Ramirez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000012",
@@ -36,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Marie Roark"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0512267",
@@ -45,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Dale Elwell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0657874",
@@ -54,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Charlie Roark"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0056719",
@@ -63,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Padre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0423054",
@@ -72,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Ramirez"
-      ],
-      "notes": "(as Soledad Jimenez)"
+      ]
     },
     {
       "imdbId": "nm0146928",
@@ -81,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Harry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330200",
@@ -90,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Brook Manville"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0203527",
@@ -99,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Carter"
-      ],
-      "notes": "(as William Davidson)"
+      ]
     },
     {
       "imdbId": "nm0831736",
@@ -108,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Manuel Diego"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0864969",
@@ -117,15 +110,13 @@
       "sequence": 10,
       "roles": [
         "Mrs. Garner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm9847967",
       "name": "Carmen Gould",
       "sequence": 11,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [
@@ -144,13 +135,13 @@
     {
       "imdbId": "nm0520501",
       "name": "Robert Lord",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0333958",
       "name": "Carroll Graham",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(suggested by: Carroll Graham's novel)"
     }
   ]

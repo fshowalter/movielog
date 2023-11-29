@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0057447",
-  "title": "Rampage",
-  "sortTitle": "Rampage (1963)",
-  "year": 1963,
   "slug": "rampage-1963",
-  "releaseDate": "1963-09-12",
+  "title": "Rampage",
+  "originalTitle": "Rampage",
+  "sortTitle": "Rampage",
+  "year": 1963,
+  "releaseDate": "1963-10-09",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0439597",
       "name": "Phil Karlson",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Harry Stanton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0553349",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Anna"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0370144",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Otto Abbot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0754942",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Talib"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0137164",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Chep"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0312783",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Schelling"
-      ],
-      "notes": "(as Emile Genest)"
+      ]
     },
     {
       "imdbId": "nm0773608",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Sakai Chief"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0128170",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Baka"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0466977",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Stewardess"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -119,14 +111,8 @@
     {
       "imdbId": "nm0128845",
       "name": "Alan Caillou",
-      "sequence": 2,
-      "notes": "(novel)"
-    },
-    {
-      "imdbId": "nm0003198",
-      "name": "Jerome Bixby",
       "sequence": 3,
-      "notes": "(screen story) (uncredited)"
+      "notes": "(novel)"
     }
   ]
 }

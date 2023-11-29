@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0028291",
-  "title": "Speed",
-  "sortTitle": "Speed (1936)",
-  "year": 1936,
   "slug": "speed-1936",
+  "title": "Speed",
+  "originalTitle": "Speed",
+  "sortTitle": "Speed",
+  "year": 1936,
   "releaseDate": "1936-05-08",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0547446",
       "name": "Edwin L. Marin",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Terry Martin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0057412",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Jane Mitchell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580916",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Josephine Sanderson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382165",
@@ -56,17 +54,15 @@
       "sequence": 3,
       "roles": [
         "Frank Lawson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0372384",
       "name": "Ted Healy",
       "sequence": 4,
       "roles": [
-        "Clarence 'Gadget' Harrigan"
-      ],
-      "notes": null
+        "Gadget"
+      ]
     },
     {
       "imdbId": "nm0604960",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mr. Dean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0928617",
@@ -83,37 +78,27 @@
       "sequence": 6,
       "roles": [
         "Fanny Lane"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1211217",
-      "name": "Jack Rube Clifford",
-      "sequence": 7,
-      "roles": [
-        "Master of Ceremonies"
-      ],
-      "notes": "(as Jack Clifford)"
+      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0275255",
+      "name": "Michael Fessier",
+      "sequence": 0,
+      "notes": "(screen play by)"
+    },
+    {
       "imdbId": "nm0471341",
       "name": "Milton Krims",
-      "sequence": 0,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(from the original story by)"
     },
     {
       "imdbId": "nm0045512",
       "name": "Lawrence P. Bachmann",
-      "sequence": 1,
-      "notes": "(story) (as Larry Bachman)"
-    },
-    {
-      "imdbId": "nm0275255",
-      "name": "Michael Fessier",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(from the original story by) (as Larry Bachman)"
     }
   ]
 }

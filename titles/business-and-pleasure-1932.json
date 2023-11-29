@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021702",
-  "title": "Business and Pleasure",
-  "sortTitle": "Business and Pleasure (1932)",
-  "year": 1932,
   "slug": "business-and-pleasure-1932",
-  "releaseDate": "1932-02-24",
+  "title": "Business and Pleasure",
+  "originalTitle": "Business and Pleasure",
+  "sortTitle": "Business and Pleasure",
+  "year": 1932,
+  "releaseDate": "1932-03-06",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0124877",
       "name": "David Butler",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Earl Tinker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0332135",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Madame Momora"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0566948",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Lawrence Ogle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0677125",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Jane Olsen Tinker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0743743",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Olivia Tinker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0727529",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Arthur Jones"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0698985",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Ben Wackstle"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -89,25 +83,25 @@
       "imdbId": "nm0175902",
       "name": "William M. Conselman",
       "sequence": 0,
-      "notes": "()"
+      "notes": "(adaptation) (as William Conselman)"
+    },
+    {
+      "imdbId": "nm0175902",
+      "name": "William M. Conselman",
+      "sequence": 2,
+      "notes": "(dialogue) (as William Conselman)"
     },
     {
       "imdbId": "nm0329290",
       "name": "Arthur F. Goodrich",
-      "sequence": 1,
-      "notes": "(play \"The Plutocrat\")"
+      "sequence": 4,
+      "notes": "(comedy \"The Plutocrat\") (as Arthur Goodrich)"
     },
     {
       "imdbId": "nm0850483",
       "name": "Booth Tarkington",
-      "sequence": 2,
+      "sequence": 6,
       "notes": "(novel)"
-    },
-    {
-      "imdbId": "nm0869999",
-      "name": "Gene Towne",
-      "sequence": 3,
-      "notes": "()"
     }
   ]
 }

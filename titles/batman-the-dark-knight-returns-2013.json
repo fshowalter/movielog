@@ -1,26 +1,29 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt11060882",
-  "title": "Batman: The Dark Knight Returns",
-  "sortTitle": "Batman: The Dark Knight Returns (2013)",
-  "year": 2013,
   "slug": "batman-the-dark-knight-returns-2013",
-  "releaseDate": "2013-10-08",
+  "title": "Batman: The Dark Knight Returns",
+  "originalTitle": "Batman: The Dark Knight Returns",
+  "sortTitle": "Batman: The Dark Knight Returns",
+  "year": 2013,
+  "releaseDate": "2013-01-01",
   "countries": [
     "United States"
   ],
   "genres": [
     "Animation",
     "Action",
-    "Adventure",
     "Crime",
-    "Drama"
+    "Drama",
+    "Mystery",
+    "Sci-Fi",
+    "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0646515",
       "name": "Jay Oliva",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +34,7 @@
       "roles": [
         "Batman",
         "Bruce Wayne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1736769",
@@ -41,35 +43,7 @@
       "roles": [
         "Robin",
         "Carrie Kelley"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0782978",
-      "name": "David Selby",
-      "sequence": 2,
-      "roles": [
-        "Commissioner Gordon"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0931898",
-      "name": "Wade Williams",
-      "sequence": 3,
-      "roles": [
-        "Harvey Dent"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0256237",
-      "name": "Michael Emerson",
-      "sequence": 4,
-      "roles": [
-        "Joker"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0885090",
@@ -78,107 +52,7 @@
       "roles": [
         "Superman",
         "Clark Kent"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0016141",
-      "name": "Carlos Alazraqui",
-      "sequence": 6,
-      "roles": [
-        "Hernando"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0048389",
-      "name": "Dee Bradley Baker",
-      "sequence": 7,
-      "roles": [
-        "Don"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0108295",
-      "name": "Paget Brewster",
-      "sequence": 8,
-      "roles": [
-        "Lana Lang"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0133566",
-      "name": "Maria Canals-Barrera",
-      "sequence": 9,
-      "roles": [
-        "Ellen Yindel"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0146681",
-      "name": "Cathy Cavadini",
-      "sequence": 10,
-      "roles": [
-        "Joanie"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0171243",
-      "name": "Townsend Coleman",
-      "sequence": 11,
-      "roles": [
-        "Morrie"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0217221",
-      "name": "Grey Griffin",
-      "sequence": 12,
-      "roles": [
-        "Anchor Carla"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0236481",
-      "name": "Richard Doyle",
-      "sequence": 13,
-      "roles": [
-        "The Mayor"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0126023",
-      "name": "Greg Eagles",
-      "sequence": 14,
-      "roles": [
-        "Mackie"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0413859",
-      "name": "Michael Jackson",
-      "sequence": 15,
-      "roles": [
-        "Alfred Pennyworth"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0414365",
-      "name": "Danny Jacobs",
-      "sequence": 16,
-      "roles": [
-        "Merkel"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0005606",
@@ -187,8 +61,7 @@
       "roles": [
         "Dr. Herbert Willing",
         "Anchor Tom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534134",
@@ -198,17 +71,7 @@
         "Selina Kyle",
         "Bruno",
         "Old Lady"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0235960",
-      "name": "Robin Atkin Downes",
-      "sequence": 19,
-      "roles": [
-        "Oliver Queen"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0523180",
@@ -217,26 +80,7 @@
       "roles": [
         "Son of Batman",
         "Rookie Police Officer"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0571106",
-      "name": "Michael McKean",
-      "sequence": 21,
-      "roles": [
-        "Dr. Bartholomew Wolper"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0573481",
-      "name": "Sam McMurray",
-      "sequence": 22,
-      "roles": [
-        "Anchor Ted"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0002350",
@@ -245,8 +89,7 @@
       "roles": [
         "General Briggs",
         "President"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0667326",
@@ -255,17 +98,7 @@
       "roles": [
         "Rob",
         "Robber"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0738849",
-      "name": "Andrea Romano",
-      "sequence": 25,
-      "roles": [
-        "Woman"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0152839",
@@ -276,26 +109,7 @@
         "Anchor Trish",
         "Young Bruce Wayne",
         "Kevin Ridley"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0835722",
-      "name": "James Patrick Stuart",
-      "sequence": 27,
-      "roles": [
-        "Murray"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0836365",
-      "name": "Gary Anthony Sturgis",
-      "sequence": 28,
-      "roles": [
-        "Silk"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0852517",
@@ -304,26 +118,7 @@
       "roles": [
         "Mr. Hudson",
         "Store Wone"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0863622",
-      "name": "Bruce Timm",
-      "sequence": 30,
-      "roles": [
-        "Thomas Wayne"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0911589",
-      "name": "Jim Ward",
-      "sequence": 31,
-      "roles": [
-        "Femur's Lawyer"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0919798",
@@ -332,8 +127,7 @@
       "roles": [
         "Mayor Stevenson",
         "Weather Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930637",
@@ -342,53 +136,7 @@
       "roles": [
         "Mutant Leader",
         "Anchor Bill"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0936364",
-      "name": "Jim Wise",
-      "sequence": 34,
-      "roles": [
-        "Femur"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1290102",
-      "name": "Gwendoline Yeo",
-      "sequence": 35,
-      "roles": [
-        "Lola Chong"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0005277",
-      "name": "Conan O'Brien",
-      "sequence": 36,
-      "roles": [
-        "David Endocrine"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1390709",
-      "name": "Jason Charles Miller",
-      "sequence": 37,
-      "roles": [
-        "Axe Fireman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0485670",
-      "name": "Lex Lang",
-      "sequence": 38,
-      "roles": [
-        "Rescued Man"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -401,13 +149,13 @@
     {
       "imdbId": "nm0588340",
       "name": "Frank Miller",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on the graphic novel by)"
     },
     {
       "imdbId": "nm2744748",
       "name": "Klaus Janson",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(based on the graphic novel by)"
     }
   ]

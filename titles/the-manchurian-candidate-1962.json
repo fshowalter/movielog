@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0056218",
-  "title": "The Manchurian Candidate",
-  "sortTitle": "Manchurian Candidate (1962)",
-  "year": 1962,
   "slug": "the-manchurian-candidate-1962",
+  "title": "The Manchurian Candidate",
+  "originalTitle": "The Manchurian Candidate",
+  "sortTitle": "Manchurian Candidate, The",
+  "year": 1962,
   "releaseDate": "1962-10-24",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001239",
       "name": "John Frankenheimer",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Major Bennett Marco"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002131",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Raymond Shaw"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001463",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Eugenie Rose Chaney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001450",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Eleanor Shaw Iselin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0798328",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Chunjin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339834",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Senator John Yerkes Iselin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0663562",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Jocelyn Jordan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0569410",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Senator Thomas Jordan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0223556",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Yen Lo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0250066",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Corporal Allen Melvin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0376415",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Colonel Milt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0667292",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Zilkov"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0445868",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Secretary of Defense"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0180987",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Holborn Gaines"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0819238",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Female Berezovo"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -167,14 +153,8 @@
     {
       "imdbId": "nm0043480",
       "name": "George Axelrod",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0001239",
-      "name": "John Frankenheimer",
       "sequence": 2,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

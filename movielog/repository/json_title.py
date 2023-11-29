@@ -5,7 +5,7 @@ import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from glob import glob
 from pathlib import Path
 from typing import Iterable, Optional, TypedDict, cast
@@ -50,14 +50,12 @@ JsonDirector = TypedDict(
         "imdbId": str,
         "name": str,
         "sequence": int,
-        "notes": Optional[str],
     },
 )
 
 JsonTitle = TypedDict(
     "JsonTitle",
     {
-        "fetched": str,
         "slug": str,
         "imdbId": str,
         "title": str,
@@ -127,7 +125,6 @@ def create(
     slug = slugify(title_with_year, replacements=[("'", "")])
 
     json_title = JsonTitle(
-        fetched=date.today().isoformat(),
         imdbId=imdb_id,
         title=title,
         originalTitle="",
@@ -142,7 +139,6 @@ def create(
                 imdbId=director.imdb_id,
                 name=director.name,
                 sequence=director.sequence,
-                notes=director.notes,
             )
             for director in directors
         ],
@@ -235,57 +231,95 @@ def build_performers(imdb_movie: imdb.Movie.Movie) -> list[JsonPerformer]:
 
 
 def fix_all() -> None:
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
-        with open(file_path, "r+") as json_file:
-            json_title = cast(JsonTitle, json.load(json_file))
+    processed_files = []
+    existing_progress = []
 
-            # if (
-            #     json_title["performers"]
-            #     and "notes" not in json_title["performers"][0].keys()
-            # ):
-            #     continue
+    progress_file_path = os.path.join(FOLDER_NAME, ".progress")
+    path_tools.ensure_file_path(progress_file_path)
 
-            imdb_movie = imdb_http.get_movie(json_title["imdbId"][2:])
+    with open(progress_file_path, "r") as existing_progress_output_file:
+        existing_progress = existing_progress_output_file.readlines()
 
-            updated_title = JsonTitle(
-                fetched=date.today().isoformat(),
-                imdbId=json_title["imdbId"],
-                slug=json_title["slug"],
-                title=imdb_movie["title"],
-                originalTitle=imdb_movie["original title"],
-                sortTitle=imdb_movie["canonical title"],
-                year=imdb_movie["year"],
-                releaseDate=parse_release_date(imdb_movie),
-                countries=imdb_movie["countries"],
-                genres=imdb_movie["genres"],
-                directors=[
-                    JsonDirector(
-                        imdbId="nm{0}".format(director.personID),
-                        name=director["name"],
-                        sequence=index,
-                        notes=None if director.notes == "" else director.notes,
+    try:
+        json_files = glob(os.path.join(FOLDER_NAME, "*.json"))
+        total_count = len(json_files)
+
+        for index, file_path in enumerate(json_files):
+            with open(file_path, "r+") as json_file:
+                json_title = cast(JsonTitle, json.load(json_file))
+
+                if file_path in existing_progress:
+                    logger.log(
+                        "{}/{} Skipped {} (already processed).",
+                        index,
+                        total_count,
+                        file_path,
                     )
-                    for index, director in enumerate(imdb_movie["directors"])
-                ],
-                performers=build_performers(imdb_movie),
-                writers=[
-                    JsonWriter(
-                        imdbId="nm{0}".format(writer.personID),
-                        name=writer["name"],
-                        sequence=index,
-                        notes=None if writer.notes == "" else writer.notes,
+                    continue
+
+                imdb_movie = imdb_http.get_movie(json_title["imdbId"][2:])
+
+                updated_title = JsonTitle(
+                    imdbId=json_title["imdbId"],
+                    slug=json_title["slug"],
+                    title=imdb_movie["title"],
+                    originalTitle=imdb_movie["original title"],
+                    sortTitle=imdb_movie["canonical title"],
+                    year=imdb_movie["year"],
+                    releaseDate=parse_release_date(imdb_movie),
+                    countries=imdb_movie["countries"],
+                    genres=imdb_movie["genres"],
+                    directors=[
+                        JsonDirector(
+                            imdbId="nm{0}".format(director.personID),
+                            name=director["name"],
+                            sequence=index,
+                        )
+                        for index, director in enumerate(imdb_movie["directors"])
+                        if moviedata_api.valid_director_notes(director)
+                    ],
+                    performers=build_performers(imdb_movie),
+                    writers=[
+                        JsonWriter(
+                            imdbId="nm{0}".format(writer.personID),
+                            name=writer["name"],
+                            sequence=index,
+                            notes=None if writer.notes == "" else writer.notes,
+                        )
+                        for index, writer in enumerate(imdb_movie.get("writers", []))
+                        if writer.keys() and moviedata_api.valid_writer_notes(writer)
+                    ],
+                )
+
+                if updated_title == json_title:
+                    logger.log(
+                        "{}/{} No updates for {}.",
+                        index,
+                        total_count,
+                        file_path,
                     )
-                    for index, writer in enumerate(imdb_movie.get("writers", []))
-                    if writer.keys() and moviedata_api.valid_writer_notes(writer)
-                ],
-            )
-            json_file.seek(0)
-            json_file.write(json.dumps(updated_title, default=str, indent=2))
-            json_file.truncate()
+                    continue
+
+                json_file.seek(0)
+                json_file.write(json.dumps(updated_title, default=str, indent=2))
+                json_file.truncate()
+
+                logger.log(
+                    "{}/{} Updated {}.",
+                    index,
+                    total_count,
+                    file_path,
+                )
+
+            processed_files.append(file_path)
+
+    except:
+        with open(progress_file_path, "a") as progress_output_file:
+            progress_output_file.writelines(processed_files)
 
         logger.log(
             "Wrote {}.",
-            file_path,
+            progress_file_path,
         )
 
 
@@ -294,19 +328,74 @@ def validate() -> None:
     watchlist_movie_ids = watchlist_api.movie_ids()
 
     valid_title_ids = viewing_movie_ids.union(watchlist_movie_ids)
+    files_to_remove = []
+    files_to_rename = []
 
     for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
-        title = None
-        with open(file_path, "r") as json_file:
-            title = cast(JsonTitle, json.load(json_file))
+        edited = False
+        with open(file_path, "r+") as json_file:
+            json_title = cast(JsonTitle, json.load(json_file))
 
-        if title["imdbId"] not in valid_title_ids:
-            logger.log(
-                "Removing {0}, {1} not found. Removing.",
-                file_path,
-                title["imdbId"],
+            if json_title["imdbId"] not in valid_title_ids:
+                logger.log(
+                    "{0} not found. {1} marked for removal.",
+                    json_title["imdbId"],
+                    file_path,
+                )
+                files_to_remove.append(file_path)
+                continue
+
+            correct_slug = slugify(json_title["title"])
+            if json_title["slug"] != correct_slug:
+                json_title["slug"] = correct_slug
+                edited = True
+                logger.log(
+                    "{0} slug is {1} corrected to {2}.",
+                    file_path,
+                    json_title["slug"],
+                    correct_slug,
+                )
+
+            correct_file_path = os.path.join(
+                FOLDER_NAME, "{0}.json".format(json_title["slug"])
             )
-            Path.unlink(Path(file_path))
+            if file_path != correct_file_path:
+                files_to_rename.append((file_path, correct_file_path))
+                logger.log(
+                    "{0} filename should be {1}. Marked for rename.",
+                    file_path,
+                    correct_file_path,
+                )
+
+            if json_title["slug"] != correct_slug:
+                json_title["slug"] = correct_slug
+                edited = True
+                logger.log(
+                    "{0} slug is {1} corrected to {2}.",
+                    file_path,
+                    json_title["slug"],
+                    correct_slug,
+                )
+
+            if edited:
+                json_file.seek(0)
+                json_file.write(json.dumps(json_title, default=str, indent=2))
+                json_file.truncate()
+                logger.log(
+                    "Wrote {}.",
+                    file_path,
+                )
+
+    for file_path_to_remove in files_to_remove:
+        Path.unlink(Path(file_path_to_remove))
+        logger.log(
+            "{0} removed.",
+            file_path_to_remove,
+        )
+
+    for old_file_path, new_file_path in files_to_rename:
+        os.rename(old_file_path, new_file_path)
+        logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
 
 
 def migrate() -> None:

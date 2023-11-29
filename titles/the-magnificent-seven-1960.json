@@ -1,24 +1,27 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054047",
-  "title": "The Magnificent Seven",
-  "sortTitle": "Magnificent Seven (1960)",
-  "year": 1960,
   "slug": "the-magnificent-seven-1960",
+  "title": "The Magnificent Seven",
+  "originalTitle": "The Magnificent Seven",
+  "sortTitle": "Magnificent Seven, The",
+  "year": 1960,
   "releaseDate": "1960-10-12",
   "countries": [
-    "United States"
+    "United States",
+    "Mexico"
   ],
   "genres": [
     "Action",
     "Adventure",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0836328",
       "name": "John Sturges",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Chris Larabee Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0908919",
@@ -37,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Calvera"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000537",
@@ -46,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Vin Tanner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001976",
@@ -55,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Chico"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000314",
@@ -64,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Bernardo O'Reilly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001816",
@@ -73,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Lee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0223290",
@@ -82,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Harry Luck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000336",
@@ -91,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Britt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0554830",
@@ -100,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Hilario"
-      ],
-      "notes": "(as Jorge Martinez de Hoyas)"
+      ]
     },
     {
       "imdbId": "nm0812453",
@@ -109,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Old Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0599478",
@@ -118,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Petra"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0015976",
@@ -127,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Sotero"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0379473",
@@ -136,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Tomas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0882974",
@@ -145,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Villager"
-      ],
-      "notes": "(as Natividad Vacio)"
+      ]
     },
     {
       "imdbId": "nm0622956",
@@ -154,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Boy with O'Reilly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0106062",
@@ -163,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Boy with O'Reilly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002166",
@@ -172,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Miguel"
-      ],
-      "notes": "(as John Alonso)"
+      ]
     },
     {
       "imdbId": "nm0524468",
@@ -181,8 +167,7 @@
       "sequence": 17,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0600188",
@@ -190,8 +175,7 @@
       "sequence": 18,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0929057",
@@ -199,8 +183,7 @@
       "sequence": 19,
       "roles": [
         "Wallace"
-      ],
-      "notes": "(as Robert Wilke)"
+      ]
     },
     {
       "imdbId": "nm0043088",
@@ -208,8 +191,7 @@
       "sequence": 20,
       "roles": [
         "Henry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000946",
@@ -217,8 +199,7 @@
       "sequence": 21,
       "roles": [
         "Chamlee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0751032",
@@ -226,8 +207,7 @@
       "sequence": 22,
       "roles": [
         "Robert"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -236,36 +216,6 @@
       "name": "William Roberts",
       "sequence": 0,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0000041",
-      "name": "Akira Kurosawa",
-      "sequence": 1,
-      "notes": "(screenplay \"Shichinin no samurai\") (uncredited)"
-    },
-    {
-      "imdbId": "nm0077159",
-      "name": "Walter Bernstein",
-      "sequence": 2,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0368074",
-      "name": "Shinobu Hashimoto",
-      "sequence": 3,
-      "notes": "(screenplay \"Shichinin no samurai\") (uncredited)"
-    },
-    {
-      "imdbId": "nm0628305",
-      "name": "Walter Newman",
-      "sequence": 4,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0644823",
-      "name": "Hideo Oguni",
-      "sequence": 5,
-      "notes": "(screenplay \"Shichinin no samurai\") (uncredited)"
     }
   ]
 }

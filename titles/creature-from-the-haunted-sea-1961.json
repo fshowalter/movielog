@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054768",
-  "title": "Creature from the Haunted Sea",
-  "sortTitle": "Creature from the Haunted Sea (1961)",
-  "year": 1961,
   "slug": "creature-from-the-haunted-sea-1961",
+  "title": "Creature from the Haunted Sea",
+  "originalTitle": "Creature from the Haunted Sea",
+  "sortTitle": "Creature from the Haunted Sea",
+  "year": 1961,
   "releaseDate": "1961-06-01",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Renzo Capetto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0429506",
@@ -36,19 +36,15 @@
       "sequence": 1,
       "roles": [
         "Mary-Belle Monahan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001801",
       "name": "Robert Towne",
       "sequence": 2,
       "roles": [
-        "Sparks Moran",
-        "Agent XK150",
-        "Narrator"
-      ],
-      "notes": null
+        "Sparks Moranaja"
+      ]
     },
     {
       "imdbId": "nm0225398",
@@ -56,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Pete Peterson Jr."
-      ],
-      "notes": "(as Beech Dickerson)"
+      ]
     },
     {
       "imdbId": "nm0063808",
@@ -65,17 +60,15 @@
       "sequence": 4,
       "roles": [
         "Happy Jack Monahan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0762115",
       "name": "Esther Sandoval",
       "sequence": 5,
       "roles": [
-        "Rosina Perez"
-      ],
-      "notes": null
+        "Carmelita Rodr\u00edguez"
+      ]
     },
     {
       "imdbId": "nm0328490",
@@ -83,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Mango Perez"
-      ],
-      "notes": "(as Sonia Noemi Gonzalez)"
+      ]
     },
     {
       "imdbId": "nm0729192",
@@ -92,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Gen. Tostada"
-      ],
-      "notes": "(as Edmundo Rivera Alvarez)"
+      ]
     },
     {
       "imdbId": "nm0627508",
@@ -101,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Cuban"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0530081",
@@ -110,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Cuban"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402647",
@@ -119,17 +108,15 @@
       "sequence": 10,
       "roles": [
         "Cuban"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0739344",
       "name": "Blanquita Romero",
       "sequence": 11,
       "roles": [
-        "Carmelita Rodriguez"
-      ],
-      "notes": null
+        "Rosina P\u00e9rez"
+      ]
     },
     {
       "imdbId": "nm0746856",
@@ -137,18 +124,16 @@
       "sequence": 12,
       "roles": [
         "Cuban"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0443397",
       "name": "Stanton Kaye",
-      "sequence": 16,
+      "sequence": 15,
       "roles": [
         "Cuban",
-        "Second Man Chasing XK150"
-      ],
-      "notes": null
+        "Second Man Chasing Sparks"
+      ]
     }
   ],
   "writers": [
@@ -156,7 +141,7 @@
       "imdbId": "nm0341458",
       "name": "Charles B. Griffith",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ]
 }

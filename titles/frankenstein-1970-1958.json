@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0051630",
-  "title": "Frankenstein 1970",
-  "sortTitle": "Frankenstein 1970 (1958)",
-  "year": 1958,
   "slug": "frankenstein-1970-1958",
+  "title": "Frankenstein 1970",
+  "originalTitle": "Frankenstein 1970",
+  "sortTitle": "Frankenstein 1970",
+  "year": 1958,
   "releaseDate": "1958-07-20",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0462322",
       "name": "Howard W. Koch",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Baron Victor von Frankenstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1042106",
@@ -36,26 +36,23 @@
       "sequence": 1,
       "roles": [
         "Mike Shaw"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0526181",
+      "imdbId": "nm0248712",
       "name": "Jana Lund",
       "sequence": 2,
       "roles": [
         "Carolyn Hayes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0057983",
       "name": "Don 'Red' Barry",
       "sequence": 3,
       "roles": [
-        "Douglas Row"
-      ],
-      "notes": "(as Donald Barry)"
+        "Douglas Rowe"
+      ]
     },
     {
       "imdbId": "nm0042349",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Judy Stevens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0075306",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Inspector Raab"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0026049",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Wilhelm Gottfried"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0771667",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Shuter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0112392",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Morgan Haley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0485485",
@@ -109,8 +101,7 @@
       "roles": [
         "Hans Himmler",
         "The Monster"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -121,22 +112,22 @@
       "notes": "(screenplay) (as Richard Landau)"
     },
     {
-      "imdbId": "nm0608562",
-      "name": "Charles A. Moses",
+      "imdbId": "nm0946753",
+      "name": "George Worthing Yates",
       "sequence": 1,
-      "notes": "(story)"
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0770838",
       "name": "Aubrey Schenck",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     },
     {
-      "imdbId": "nm0946753",
-      "name": "George Worthing Yates",
-      "sequence": 3,
-      "notes": "(screenplay)"
+      "imdbId": "nm0608562",
+      "name": "Charles A. Moses",
+      "sequence": 4,
+      "notes": "(story)"
     }
   ]
 }

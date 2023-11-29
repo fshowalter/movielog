@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0019702",
-  "title": "Blackmail",
-  "sortTitle": "Blackmail (1929)",
-  "year": 1929,
   "slug": "blackmail-1929",
-  "releaseDate": "1929-07-28",
+  "title": "Blackmail",
+  "originalTitle": "Blackmail",
+  "sortTitle": "Blackmail",
+  "year": 1929,
+  "releaseDate": "1929-10-06",
   "countries": [
     "United Kingdom"
   ],
   "genres": [
     "Crime",
+    "Drama",
     "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Alice White"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0021329",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Mrs. White"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0665715",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Mr. White"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0519274",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Detective Frank Webber"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0130740",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Tracy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0728509",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "The Artist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0428193",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "The Landlady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0102607",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "The Chief Inspector"
-      ],
-      "notes": "(sound version)"
+      ]
     },
     {
       "imdbId": "nm0084051",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "The Detective Sergeant"
-      ],
-      "notes": "(as Ex-Det. Sergt. Bishop - Late C.I.D. Scotland Yard)"
+      ]
     }
   ],
   "writers": [
@@ -113,20 +106,14 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adapted by)"
     },
     {
       "imdbId": "nm0506349",
       "name": "Benn W. Levy",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(dialogue) (as Benn Levy)"
-    },
-    {
-      "imdbId": "nm0003836",
-      "name": "Michael Powell",
-      "sequence": 3,
-      "notes": "() (uncredited)"
     }
   ]
 }

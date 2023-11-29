@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0042463",
-  "title": "The Fireball",
-  "sortTitle": "Fireball (1950)",
-  "year": 1950,
   "slug": "the-fireball-1950",
-  "releaseDate": "1950-10-07",
+  "title": "The Fireball",
+  "originalTitle": "The Fireball",
+  "sortTitle": "Fireball, The",
+  "year": 1950,
+  "releaseDate": "1950-11-25",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Drama",
+    "Sport"
   ],
   "directors": [
     {
       "imdbId": "nm0307819",
       "name": "Tay Garnett",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Johnny Casar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002285",
@@ -35,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Father O'Hara"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0878778",
@@ -44,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Mary Reeves"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113769",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Allen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0241589",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Bruno Crystal"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0832065",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Jeff Davis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0066765",
@@ -80,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Shilling"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000054",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Polly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0282418",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Barton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0390228",
@@ -107,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mack Miller"
-      ],
-      "notes": "(as Glenn Corbett)"
+      ]
     },
     {
       "imdbId": "nm0373335",
@@ -116,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Ullman"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -136,7 +127,7 @@
     {
       "imdbId": "nm0566752",
       "name": "Horace McCoy",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     }
   ]

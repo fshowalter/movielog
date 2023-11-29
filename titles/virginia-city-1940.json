@@ -1,26 +1,23 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0033226",
-  "title": "Virginia City",
-  "sortTitle": "Virginia City (1940)",
-  "year": 1940,
   "slug": "virginia-city-1940",
-  "releaseDate": "1940-03-16",
+  "title": "Virginia City",
+  "originalTitle": "Virginia City",
+  "sortTitle": "Virginia City",
+  "year": 1940,
+  "releaseDate": "1940-03-23",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Action",
-    "Drama",
-    "History",
-    "Romance",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0002031",
       "name": "Michael Curtiz",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Kerry Bradford"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394244",
@@ -39,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Julia Hayne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000068",
@@ -48,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Vance Irby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000007",
@@ -57,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "John Murrell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570451",
@@ -66,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Mr. Upjohn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002118",
@@ -75,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Olaf 'Moosehead' Swenson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930711",
@@ -84,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "'Marblehead'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0514344",
@@ -93,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "U.S. Marshal"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0241523",
@@ -102,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Maj. Drewery"
-      ],
-      "notes": "(as Douglas Dumbrille)"
+      ]
     },
     {
       "imdbId": "nm0647752",
@@ -111,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Cameron"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382954",
@@ -120,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Armistead"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0427934",
@@ -129,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Cobby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0928207",
@@ -138,8 +123,7 @@
       "sequence": 12,
       "roles": [
         "Union Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801193",
@@ -147,8 +131,7 @@
       "sequence": 13,
       "roles": [
         "Gaylord"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0453081",
@@ -156,8 +139,7 @@
       "sequence": 14,
       "roles": [
         "Abraham Lincoln"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0585481",
@@ -165,8 +147,15 @@
       "sequence": 15,
       "roles": [
         "Jefferson Davis"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm13915469",
+      "name": "Margarette Coverly",
+      "sequence": 16,
+      "roles": [
+        "Dancer"
+      ]
     }
   ],
   "writers": [
@@ -175,18 +164,6 @@
       "name": "Robert Buckner",
       "sequence": 0,
       "notes": "(original screen play)"
-    },
-    {
-      "imdbId": "nm0462321",
-      "name": "Howard Koch",
-      "sequence": 1,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0706993",
-      "name": "Norman Reilly Raine",
-      "sequence": 2,
-      "notes": "() (uncredited)"
     }
   ]
 }

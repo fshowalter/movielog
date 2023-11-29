@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0040367",
-  "title": "A Foreign Affair",
-  "sortTitle": "Foreign Affair (1948)",
-  "year": 1948,
   "slug": "a-foreign-affair-1948",
-  "releaseDate": "1948-06-30",
+  "title": "A Foreign Affair",
+  "originalTitle": "A Foreign Affair",
+  "sortTitle": "Foreign Affair, A",
+  "year": 1948,
+  "releaseDate": "1948-08-20",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000697",
       "name": "Billy Wilder",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Congresswoman Phoebe Frost"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000017",
@@ -37,26 +37,23 @@
       "sequence": 1,
       "roles": [
         "Erika Von Schluetow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0526184",
       "name": "John Lund",
       "sequence": 2,
       "roles": [
-        "Captain John Pringle"
-      ],
-      "notes": null
+        "Capt. John Pringle"
+      ]
     },
     {
       "imdbId": "nm0593612",
       "name": "Millard Mitchell",
       "sequence": 3,
       "roles": [
-        "Colonel Rufus J. Plummer"
-      ],
-      "notes": null
+        "Col. Rufus J. Plummer"
+      ]
     },
     {
       "imdbId": "nm0903274",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Hans Otto Birgel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0695111",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Mike"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0614779",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Joe"
-      ],
-      "notes": "(as Bill Murphy)"
+      ]
     },
     {
       "imdbId": "nm0094022",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Congressman Pennecot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0204266",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Congressman Giffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0539135",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Congressman Kramer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580566",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Congressman Yandell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706283",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Congressman Salvatore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0641035",
@@ -136,35 +125,31 @@
       "sequence": 12,
       "roles": [
         "Lieutenant Colonel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2916826",
       "name": "Frank Fenton",
       "sequence": 13,
       "roles": [
-        "Major Mathews"
-      ],
-      "notes": null
+        "Maj. Mathews"
+      ]
     },
     {
       "imdbId": "nm0488361",
       "name": "James Lorimer",
       "sequence": 14,
       "roles": [
-        "Lieutenant Hornby"
-      ],
-      "notes": "(as James Larmore)"
+        "Lt. Hornby"
+      ]
     },
     {
       "imdbId": "nm0875877",
       "name": "Harland Tucker",
       "sequence": 15,
       "roles": [
-        "General McAndrew"
-      ],
-      "notes": null
+        "Gen. McAndrew"
+      ]
     },
     {
       "imdbId": "nm0624285",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Lieutenant Lee Thompson"
-      ],
-      "notes": "(as William Neff)"
+      ]
     },
     {
       "imdbId": "nm0137396",
@@ -181,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "General Finney"
-      ],
-      "notes": "(as George Carleton)"
+      ]
     },
     {
       "imdbId": "nm0428160",
@@ -190,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "Military Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0824543",
@@ -199,8 +181,7 @@
       "sequence": 19,
       "roles": [
         "Military Policeman"
-      ],
-      "notes": "(as Fred Steele)"
+      ]
     }
   ],
   "writers": [
@@ -225,13 +206,13 @@
     {
       "imdbId": "nm0361837",
       "name": "Robert Harari",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0789675",
       "name": "David Shaw",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(original story)"
     }
   ]

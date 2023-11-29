@@ -1,23 +1,27 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0036959",
-  "title": "The Invisible Man's Revenge",
-  "sortTitle": "Invisible Man's Revenge (1944)",
-  "year": 1944,
   "slug": "the-invisible-mans-revenge-1944",
-  "releaseDate": "1944-06-09",
+  "title": "The Invisible Man's Revenge",
+  "originalTitle": "The Invisible Man's Revenge",
+  "sortTitle": "Invisible Man's Revenge, The",
+  "year": 1944,
+  "releaseDate": "1944-07-12",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Crime",
     "Horror",
+    "Mystery",
+    "Romance",
     "Sci-Fi"
   ],
   "directors": [
     {
       "imdbId": "nm0066247",
       "name": "Ford Beebe",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,44 +31,39 @@
       "sequence": 0,
       "roles": [
         "Robert Griffin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0259816",
-      "name": "Leon Errol",
-      "sequence": 1,
-      "roles": [
-        "Herbert Higgins"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001017",
-      "name": "John Carradine",
-      "sequence": 2,
-      "roles": [
-        "Doctor Peter Drury"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0193232",
-      "name": "Alan Curtis",
-      "sequence": 3,
-      "roles": [
-        "Mark Foster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0030166",
       "name": "Evelyn Ankers",
-      "sequence": 4,
+      "sequence": 1,
       "roles": [
         "Julie Herrick"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0193232",
+      "name": "Alan Curtis",
+      "sequence": 2,
+      "roles": [
+        "Mark Foster"
+      ]
+    },
+    {
+      "imdbId": "nm0259816",
+      "name": "Leon Errol",
+      "sequence": 3,
+      "roles": [
+        "Herbert Higgins"
+      ]
+    },
+    {
+      "imdbId": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 4,
+      "roles": [
+        "Doctor Peter Drury"
+      ]
     },
     {
       "imdbId": "nm0814216",
@@ -72,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Irene, Lady Herrick"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0560091",
@@ -81,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Sir Jasper Herrick"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0387561",
@@ -90,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Cleghorn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0388280",
@@ -99,44 +95,15 @@
       "sequence": 8,
       "roles": [
         "Sir Frederick Travers"
-      ],
-      "notes": "(as Leland Hodgson)"
+      ]
     },
     {
-      "imdbId": "nm0515967",
-      "name": "Doris Lloyd",
+      "imdbId": "nm0216819",
+      "name": "Cyril Delevanti",
       "sequence": 9,
       "roles": [
-        "Maud"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0938052",
-      "name": "Ian Wolfe",
-      "sequence": 10,
-      "roles": [
-        "Feeney"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0079645",
-      "name": "Billy Bevan",
-      "sequence": 11,
-      "roles": [
-        "Sergeant"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1228876",
-      "name": "Grey Shadow",
-      "sequence": 12,
-      "roles": [
-        "Grey Shadow"
-      ],
-      "notes": null
+        "Malty Bill - Shopkeeper"
+      ]
     }
   ],
   "writers": [
@@ -147,9 +114,15 @@
       "notes": "(original screenplay)"
     },
     {
+      "imdbId": "nm13257188",
+      "name": "Jane MacDonald",
+      "sequence": 2,
+      "notes": "(adaptation)"
+    },
+    {
       "imdbId": "nm0920229",
       "name": "H.G. Wells",
-      "sequence": 1,
+      "sequence": 4,
       "notes": "(suggested by \"The Invisible Man\")"
     }
   ]

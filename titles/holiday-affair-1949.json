@@ -1,24 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041473",
-  "title": "Holiday Affair",
-  "sortTitle": "Holiday Affair (1949)",
-  "year": 1949,
   "slug": "holiday-affair-1949",
-  "releaseDate": "1949-11-23",
+  "title": "Holiday Affair",
+  "originalTitle": "Holiday Affair",
+  "sortTitle": "Holiday Affair",
+  "year": 1949,
+  "releaseDate": "1949-12-24",
   "countries": [
     "United States"
   ],
   "genres": [
     "Comedy",
     "Drama",
+    "Family",
     "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0366942",
       "name": "Don Hartman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Steve Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001463",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Connie Ennis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0179819",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Carl Davis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0311357",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Timmy Ennis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0055899",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Mr. Ennis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0197689",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Ennis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0642180",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mr. Crowley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0604702",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Police Lieutenant"
-      ],
-      "notes": "(as Henry Morgan)"
+      ]
     },
     {
       "imdbId": "nm0086627",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Plainclothesman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113700",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Emily"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -123,7 +115,7 @@
     {
       "imdbId": "nm0915873",
       "name": "John D. Weaver",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story \"Christmas Gift\")"
     }
   ]

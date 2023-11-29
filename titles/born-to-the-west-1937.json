@@ -1,23 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0028653",
-  "title": "Born to the West",
-  "sortTitle": "Born to the West (1937)",
-  "year": 1937,
   "slug": "born-to-the-west-1937",
+  "title": "Born to the West",
+  "originalTitle": "Born to the West",
+  "sortTitle": "Born to the West",
+  "year": 1937,
   "releaseDate": "1937-12-10",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Romance",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0059106",
       "name": "Charles Barton",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dare Rudd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402554",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Judy Worstall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113902",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Tom Fillmore"
-      ],
-      "notes": "(as John Mack Brown)"
+      ]
     },
     {
       "imdbId": "nm0666273",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Lynn Hardy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0089524",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Bart Hammond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768514",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Dinkey Hooley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0514707",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Cattle Buyer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -101,14 +95,8 @@
     {
       "imdbId": "nm0340719",
       "name": "Zane Grey",
-      "sequence": 2,
-      "notes": "(novel)"
-    },
-    {
-      "imdbId": "nm0622435",
-      "name": "Jack Natteford",
       "sequence": 3,
-      "notes": "(additional dialogue) (uncredited)"
+      "notes": "(novel)"
     }
   ]
 }

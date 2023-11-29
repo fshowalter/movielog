@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0047892",
-  "title": "Bob the Gambler",
-  "sortTitle": "Bob the Gambler (1956)",
-  "year": 1956,
   "slug": "bob-the-gambler-1956",
-  "releaseDate": "1956-08-24",
+  "title": "Bob the Gambler",
+  "originalTitle": "Bob le flambeur",
+  "sortTitle": "Bob the Gambler",
+  "year": 1956,
+  "releaseDate": "1956-01-01",
   "countries": [
     "France"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0578483",
       "name": "Jean-Pierre Melville",
-      "sequence": 0,
-      "notes": "(as Melville)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Anne"
-      ],
-      "notes": "(as Isabel Corey)"
+      ]
     },
     {
       "imdbId": "nm0146446",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Paolo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0239841",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Bob Montagn\u00e9"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0213948",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Le commissaire Ledru"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307217",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Roger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0119587",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Marc"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0148858",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Jean"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0282198",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Suzanne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0369702",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "L'inspecteur Morin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0661628",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Yvonne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0894677",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "McKimmie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0020128",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Un gangster"
-      ],
-      "notes": "(as Henri Allaume)"
+      ]
     },
     {
       "imdbId": "nm2656065",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "C\u00e9leste R\u00e9gnier"
-      ],
-      "notes": "(as Germaine Amiel)"
+      ]
     },
     {
       "imdbId": "nm0024976",
@@ -145,15 +133,13 @@
       "sequence": 13,
       "roles": [
         "La copine d'Anne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0031143",
       "name": "Dominique Antoine",
       "sequence": 14,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0038090",
@@ -161,8 +147,7 @@
       "sequence": 15,
       "roles": [
         "La deuxi\u00e8me fille du bar"
-      ],
-      "notes": "(as Yannick Arvel)"
+      ]
     },
     {
       "imdbId": "nm0078350",
@@ -170,15 +155,13 @@
       "sequence": 16,
       "roles": [
         "La premi\u00e8re fille du bar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138481",
       "name": "Duilio Carmine",
       "sequence": 17,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0152742",
@@ -186,8 +169,7 @@
       "sequence": 18,
       "roles": [
         "Un policier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm6620003",
@@ -195,8 +177,7 @@
       "sequence": 19,
       "roles": [
         "Un gangster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0244372",
@@ -204,8 +185,7 @@
       "sequence": 20,
       "roles": [
         "Un gangster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0449926",
@@ -213,15 +193,13 @@
       "sequence": 21,
       "roles": [
         "Un gangster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0721071",
       "name": "Evelyne Rey",
       "sequence": 22,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0730153",
@@ -229,8 +207,7 @@
       "sequence": 23,
       "roles": [
         "Un joueur de poker"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -243,19 +220,19 @@
     {
       "imdbId": "nm0578483",
       "name": "Jean-Pierre Melville",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation) (as Melville)"
     },
     {
       "imdbId": "nm0494138",
       "name": "Auguste Le Breton",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0494138",
       "name": "Auguste Le Breton",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(dialogue)"
     }
   ]

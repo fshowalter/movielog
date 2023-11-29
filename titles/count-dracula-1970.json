@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0065569",
-  "title": "Count Dracula",
-  "sortTitle": "Count Dracula (1970)",
-  "year": 1970,
   "slug": "count-dracula-1970",
-  "releaseDate": "1970-04-03",
+  "title": "Count Dracula",
+  "originalTitle": "Nachts, wenn Dracula erwacht",
+  "sortTitle": "Count Dracula",
+  "year": 1970,
+  "releaseDate": "1973-10-12",
   "countries": [
     "Spain",
     "West Germany",
@@ -20,8 +22,7 @@
     {
       "imdbId": "nm0001238",
       "name": "Jes\u00fas Franco",
-      "sequence": 0,
-      "notes": "(as Jesse Franco, Jess Franco, Jesus Franco Manera)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,81 +32,80 @@
       "sequence": 0,
       "roles": [
         "Count Dracula"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0007042",
-      "name": "Herbert Lom",
-      "sequence": 1,
-      "roles": [
-        "Professor Van Helsing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001428",
       "name": "Klaus Kinski",
+      "sequence": 1,
+      "roles": [
+        "R.M. Renfield"
+      ]
+    },
+    {
+      "imdbId": "nm0007042",
+      "name": "Herbert Lom",
       "sequence": 2,
       "roles": [
-        "Renfield"
-      ],
-      "notes": null
+        "Professor Abraham Van Helsing"
+      ]
     },
     {
       "imdbId": "nm0737538",
       "name": "Maria Rohm",
       "sequence": 3,
       "roles": [
-        "Mina"
-      ],
-      "notes": null
+        "Mina Murray"
+      ]
     },
     {
       "imdbId": "nm0930603",
       "name": "Fred Williams",
       "sequence": 4,
       "roles": [
-        "Jonathan"
-      ],
-      "notes": "(as Frederick Williams)"
+        "Jonathan Harker"
+      ]
     },
     {
       "imdbId": "nm0002817",
       "name": "Soledad Miranda",
       "sequence": 5,
       "roles": [
-        "Lucy"
-      ],
-      "notes": null
+        "Lucy Westenra"
+      ]
     },
     {
       "imdbId": "nm0852488",
       "name": "Jack Taylor",
       "sequence": 6,
       "roles": [
-        "Quincey"
-      ],
-      "notes": null
+        "Quincey Morris"
+      ]
+    },
+    {
+      "imdbId": "nm0144669",
+      "name": "Franco Castellani",
+      "sequence": 7,
+      "roles": [
+        "Renfield's Warden"
+      ]
     },
     {
       "imdbId": "nm0612219",
       "name": "Paul Muller",
-      "sequence": 7,
+      "sequence": 8,
       "roles": [
-        "Dr. Seward"
-      ],
-      "notes": null
+        "Dr. John Seward"
+      ]
     },
     {
       "imdbId": "nm0554809",
       "name": "Jos\u00e9 Mart\u00ednez Blanco",
-      "sequence": 13,
+      "sequence": 14,
       "roles": [
         "Traveller",
         "Dr. Seward"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -118,43 +118,43 @@
     {
       "imdbId": "nm0463440",
       "name": "Erich Kr\u00f6hnke",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0278326",
       "name": "Augusto Finocchi",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0869935",
       "name": "Harry Alan Towers",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(screenplay: English version)"
     },
     {
       "imdbId": "nm0001238",
       "name": "Jes\u00fas Franco",
-      "sequence": 4,
+      "sequence": 7,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0066963",
       "name": "Dietmar Behnke",
-      "sequence": 5,
+      "sequence": 9,
       "notes": "(dialogue: German version)"
     },
     {
       "imdbId": "nm0190965",
       "name": "Milo G. Cuccia",
-      "sequence": 6,
+      "sequence": 11,
       "notes": "(dialogue: Italian version)"
     },
     {
       "imdbId": "nm0264894",
       "name": "Carlo Fadda",
-      "sequence": 7,
+      "sequence": 13,
       "notes": "(dialogue: Italian version)"
     }
   ]

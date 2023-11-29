@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0039694",
-  "title": "The Paradine Case",
-  "sortTitle": "Paradine Case (1947)",
-  "year": 1947,
   "slug": "the-paradine-case-1947",
-  "releaseDate": "1947-12-29",
+  "title": "The Paradine Case",
+  "originalTitle": "The Paradine Case",
+  "sortTitle": "Paradine Case, The",
+  "year": 1947,
+  "releaseDate": "1948-07-13",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Anthony Keane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002897",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Gay Keane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001452",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Judge Lord Thomas Horfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002013",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Sir Simon Flaquer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000856",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Lady Sophie Horfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0431139",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Andre Latour"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0885098",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Maddalena Anna Paradine"
-      ],
-      "notes": "(as Valli)"
+      ]
     },
     {
       "imdbId": "nm0001991",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Sir Joseph"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0856583",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Judy Flaquer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0255695",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Innkeeper"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -124,26 +115,14 @@
     {
       "imdbId": "nm0720904",
       "name": "Alma Reville",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0006388",
       "name": "David O. Selznick",
-      "sequence": 2,
-      "notes": "(screen play)"
-    },
-    {
-      "imdbId": "nm0108833",
-      "name": "James Bridie",
-      "sequence": 3,
-      "notes": "(treatment in consultation with) (uncredited)"
-    },
-    {
-      "imdbId": "nm0372942",
-      "name": "Ben Hecht",
       "sequence": 4,
-      "notes": "(additional dialogue) (uncredited)"
+      "notes": "(screen play)"
     }
   ]
 }

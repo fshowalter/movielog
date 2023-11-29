@@ -1,26 +1,28 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0043379",
-  "title": "Captain Horatio Hornblower",
-  "sortTitle": "Captain Horatio Hornblower (1951)",
-  "year": 1951,
   "slug": "captain-horatio-hornblower-1951",
+  "title": "Captain Horatio Hornblower",
+  "originalTitle": "Captain Horatio Hornblower R.N.",
+  "sortTitle": "Captain Horatio Hornblower",
+  "year": 1951,
   "releaseDate": "1951-04-10",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States",
+    "France"
   ],
   "genres": [
     "Action",
     "Adventure",
     "Drama",
-    "History",
     "War"
   ],
   "directors": [
     {
       "imdbId": "nm0909825",
       "name": "Raoul Walsh",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Capt. Horatio Hornblower R.N"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0562920",
@@ -39,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Lady Barbara Wellesley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0064235",
@@ -48,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Lt. William Bush"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447016",
@@ -57,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Lt. Crystal"
-      ],
-      "notes": "(as M. Kelsall)"
+      ]
     },
     {
       "imdbId": "nm0605059",
@@ -66,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "2nd Lt. Gerard"
-      ],
-      "notes": "(as T. Morgan)"
+      ]
     },
     {
       "imdbId": "nm0448082",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Midshipman Longley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0433150",
@@ -84,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Seaman Quist"
-      ],
-      "notes": "(as James R. Justice)"
+      ]
     },
     {
       "imdbId": "nm0640614",
@@ -93,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "RAdm. Sir Rodney Leighton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0372539",
@@ -102,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Polwheal"
-      ],
-      "notes": "(Hornblower's Batman)"
+      ]
     },
     {
       "imdbId": "nm0230823",
@@ -111,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Surgeon Gundarson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0048939",
@@ -120,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Mr. Harrison"
-      ],
-      "notes": "(Bosun)"
+      ]
     },
     {
       "imdbId": "nm0863519",
@@ -129,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Hernandez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0542267",
@@ -138,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "El Supremo"
-      ],
-      "notes": "(Don Julian Alvarado)"
+      ]
     },
     {
       "imdbId": "nm0000489",
@@ -147,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Spanish Captain"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0937143",
@@ -156,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Capt. Entenza"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0328982",
@@ -165,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Col. Caillard - POW Escort"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0213895",
@@ -174,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "French Commandant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0902595",
@@ -183,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Hebe"
-      ],
-      "notes": "(Lady Barbara's Maid) (as Ingeborg Wells)"
+      ]
     },
     {
       "imdbId": "nm0893036",
@@ -192,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Mrs. McPhee"
-      ],
-      "notes": "(Hornblower's Housekeeper)"
+      ]
     },
     {
       "imdbId": "nm0716242",
@@ -201,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Adm. Lord Hood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0010580",
@@ -210,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Adm. McCartney"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -236,13 +217,13 @@
     {
       "imdbId": "nm0286163",
       "name": "C.S. Forester",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0286163",
       "name": "C.S. Forester",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(adapted for the screen by)"
     }
   ]

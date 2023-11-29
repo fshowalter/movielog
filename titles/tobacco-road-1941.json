@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034297",
-  "title": "Tobacco Road",
-  "sortTitle": "Tobacco Road (1941)",
-  "year": 1941,
   "slug": "tobacco-road-1941",
-  "releaseDate": "1941-02-20",
+  "title": "Tobacco Road",
+  "originalTitle": "Tobacco Road",
+  "sortTitle": "Tobacco Road",
+  "year": 1941,
+  "releaseDate": "1941-03-07",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000406",
       "name": "John Ford",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Jeeter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0708081",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Sister Bessie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000074",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Ellie May"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0870454",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Dude Lester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0666201",
@@ -63,17 +60,15 @@
       "sequence": 4,
       "roles": [
         "Ada Lester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000763",
       "name": "Dana Andrews",
       "sequence": 5,
       "roles": [
-        "Capt. Tim"
-      ],
-      "notes": null
+        "Captain Tim"
+      ]
     },
     {
       "imdbId": "nm0838843",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Peabody"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000955",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Lov"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593372",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "George Payne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0863193",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Grandma"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801193",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Chief of Police"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0153556",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "County Clerk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045784",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Teller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0878826",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Auto Dealer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0357111",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Mayor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0151370",
@@ -162,46 +148,27 @@
       "sequence": 15,
       "roles": [
         "Clerk"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0873845",
-      "name": "Charles Trowbridge",
-      "sequence": 16,
-      "roles": [
-        "Rector"
-      ],
-      "notes": "(scenesDeleted)"
-    },
-    {
-      "imdbId": "nm0907289",
-      "name": "Charles Waldron",
-      "sequence": 17,
-      "roles": [
-        "Mr. Lester"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0129708",
-      "name": "Erskine Caldwell",
+      "imdbId": "nm0425913",
+      "name": "Nunnally Johnson",
       "sequence": 0,
-      "notes": "(based on the novel by)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0456646",
       "name": "Jack Kirkland",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(stage play)"
     },
     {
-      "imdbId": "nm0425913",
-      "name": "Nunnally Johnson",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "imdbId": "nm0129708",
+      "name": "Erskine Caldwell",
+      "sequence": 4,
+      "notes": "(novel)"
     }
   ]
 }

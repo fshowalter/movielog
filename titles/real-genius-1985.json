@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0089886",
-  "title": "Real Genius",
-  "sortTitle": "Real Genius (1985)",
-  "year": 1985,
   "slug": "real-genius-1985",
+  "title": "Real Genius",
+  "originalTitle": "Real Genius",
+  "sortTitle": "Real Genius",
+  "year": 1985,
   "releaseDate": "1985-08-07",
   "countries": [
     "United States"
@@ -17,271 +19,241 @@
     {
       "imdbId": "nm0004838",
       "name": "Martha Coolidge",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0000174",
-      "name": "Val Kilmer",
-      "sequence": 0,
-      "roles": [
-        "Chris Knight"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0418909",
-      "name": "Gabriel Jarret",
-      "sequence": 1,
-      "roles": [
-        "Mitch Taylor"
-      ],
-      "notes": "(as Gabe Jarret)"
-    },
-    {
-      "imdbId": "nm0001534",
-      "name": "Michelle Meyrink",
-      "sequence": 2,
-      "roles": [
-        "Jordan Cochran"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0040472",
-      "name": "William Atherton",
-      "sequence": 3,
-      "roles": [
-        "Prof. Jerry Hathaway"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0340973",
-      "name": "Jon Gries",
-      "sequence": 4,
-      "roles": [
-        "Lazlo Hollyfeld"
-      ],
-      "notes": "(as Jonathan Gries)"
-    },
-    {
-      "imdbId": "nm0001091",
-      "name": "Patti D'Arbanville",
-      "sequence": 5,
-      "roles": [
-        "Sherry Nugil"
-      ],
-      "notes": null
-    },
-    {
       "imdbId": "nm0672769",
       "name": "Stacy Peralta",
-      "sequence": 6,
+      "sequence": 0,
       "roles": [
         "Shuttle Pilot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0011937",
       "name": "Daniel Ades",
-      "sequence": 7,
+      "sequence": 1,
       "roles": [
         "Laser Ray Victim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0043686",
       "name": "Andres Aybar",
-      "sequence": 8,
+      "sequence": 2,
       "roles": [
         "Bartender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0316080",
       "name": "Louis Giambalvo",
-      "sequence": 9,
+      "sequence": 3,
       "roles": [
         "Major Carnagle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491590",
       "name": "Ed Lauter",
-      "sequence": 10,
+      "sequence": 4,
       "roles": [
         "David Decker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0795705",
       "name": "Charles Shull",
-      "sequence": 11,
+      "sequence": 5,
       "roles": [
         "Air Force General"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0082507",
       "name": "Beau Billingslea",
-      "sequence": 12,
+      "sequence": 6,
       "roles": [
         "George"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662922",
       "name": "Charles Parks",
-      "sequence": 13,
+      "sequence": 7,
       "roles": [
         "Larry"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0040472",
+      "name": "William Atherton",
+      "sequence": 8,
+      "roles": [
+        "Professor Jerry Hathaway"
+      ]
     },
     {
       "imdbId": "nm0296892",
       "name": "Sean Frye",
-      "sequence": 14,
+      "sequence": 9,
       "roles": [
         "Boy at Science Fair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0929840",
       "name": "JoAnn Willette",
-      "sequence": 15,
+      "sequence": 10,
       "roles": [
         "Girl at Science Fair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0332396",
       "name": "Ina Gould",
-      "sequence": 16,
+      "sequence": 11,
       "roles": [
         "Old Lady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0900399",
       "name": "Nadine Vix",
-      "sequence": 17,
+      "sequence": 12,
       "roles": [
         "Student at Science Fair"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0418909",
+      "name": "Gabriel Jarret",
+      "sequence": 13,
+      "roles": [
+        "Mitch Taylor"
+      ]
     },
     {
       "imdbId": "nm0876375",
       "name": "Paul Tulley",
-      "sequence": 18,
+      "sequence": 14,
       "roles": [
         "Mr. Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0056249",
       "name": "Joanne Baron",
-      "sequence": 19,
+      "sequence": 15,
       "roles": [
         "Mrs. Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0424766",
       "name": "Harry Johnson",
-      "sequence": 20,
+      "sequence": 16,
       "roles": [
         "Darlington Recruiter"
-      ],
-      "notes": "(as Chip Johnson)"
+      ]
+    },
+    {
+      "imdbId": "nm0000174",
+      "name": "Val Kilmer",
+      "sequence": 17,
+      "roles": [
+        "Chris Knight"
+      ]
+    },
+    {
+      "imdbId": "nm0001091",
+      "name": "Patti D'Arbanville",
+      "sequence": 18,
+      "roles": [
+        "Sherry Nugil"
+      ]
     },
     {
       "imdbId": "nm0484842",
       "name": "Monte Landis",
-      "sequence": 21,
+      "sequence": 19,
       "roles": [
         "Dr. Dodd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0553036",
       "name": "Sandy Martin",
-      "sequence": 22,
+      "sequence": 20,
       "roles": [
         "Mrs. Meredith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0201089",
       "name": "Severn Darden",
-      "sequence": 23,
+      "sequence": 21,
       "roles": [
         "Dr. Meredith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0237850",
       "name": "Randy Lowell",
-      "sequence": 24,
+      "sequence": 22,
       "roles": [
         "Cornell"
-      ],
-      "notes": "(as Randolph Dreyfuss)"
+      ]
+    },
+    {
+      "imdbId": "nm0340973",
+      "name": "Jon Gries",
+      "sequence": 23,
+      "roles": [
+        "Lazlo Hollyfeld"
+      ]
     },
     {
       "imdbId": "nm0696127",
       "name": "Robert Prescott",
-      "sequence": 25,
+      "sequence": 24,
       "roles": [
         "Kent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717309",
       "name": "John Shepherd Reid",
-      "sequence": 26,
+      "sequence": 25,
       "roles": [
         "Carter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842476",
       "name": "Tommy Swerdlow",
-      "sequence": 27,
+      "sequence": 26,
       "roles": [
         "Bodie"
-      ],
-      "notes": "(as Tom Swerdlow)"
+      ]
     },
     {
       "imdbId": "nm0436786",
       "name": "Mark Kamiyama",
-      "sequence": 28,
+      "sequence": 27,
       "roles": [
         "'Ick' Ikagami"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0001534",
+      "name": "Michelle Meyrink",
+      "sequence": 28,
+      "roles": [
+        "Jordan Cochran"
+      ]
     },
     {
       "imdbId": "nm0348064",
@@ -289,8 +261,7 @@
       "sequence": 29,
       "roles": [
         "Math Professor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587990",
@@ -298,8 +269,7 @@
       "sequence": 30,
       "roles": [
         "Carpet Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002041",
@@ -307,8 +277,7 @@
       "sequence": 31,
       "roles": [
         "Milton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0645785",
@@ -316,8 +285,7 @@
       "sequence": 32,
       "roles": [
         "Fenton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0927649",
@@ -325,8 +293,7 @@
       "sequence": 33,
       "roles": [
         "Chris' Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0048827",
@@ -334,8 +301,7 @@
       "sequence": 34,
       "roles": [
         "Ick's Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0440076",
@@ -343,8 +309,7 @@
       "sequence": 35,
       "roles": [
         "Cornell's Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0907804",
@@ -352,8 +317,7 @@
       "sequence": 36,
       "roles": [
         "Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0538338",
@@ -361,8 +325,7 @@
       "sequence": 37,
       "roles": [
         "Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0920140",
@@ -370,8 +333,7 @@
       "sequence": 38,
       "roles": [
         "Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534058",
@@ -379,8 +341,7 @@
       "sequence": 39,
       "roles": [
         "Girl at Party"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0890557",
@@ -388,8 +349,7 @@
       "sequence": 40,
       "roles": [
         "Student"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307979",
@@ -397,8 +357,7 @@
       "sequence": 41,
       "roles": [
         "TV Makeup Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0177601",
@@ -406,8 +365,7 @@
       "sequence": 42,
       "roles": [
         "TV Stage Manager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0830690",
@@ -415,8 +373,7 @@
       "sequence": 43,
       "roles": [
         "Waitress"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0286033",
@@ -424,8 +381,7 @@
       "sequence": 44,
       "roles": [
         "Susan Decker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0555560",
@@ -433,8 +389,7 @@
       "sequence": 45,
       "roles": [
         "Student in Hall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0185611",
@@ -442,8 +397,7 @@
       "sequence": 46,
       "roles": [
         "Air Force SP at Gate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842370",
@@ -451,8 +405,7 @@
       "sequence": 47,
       "roles": [
         "Air Force SP at Gate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0663602",
@@ -460,8 +413,7 @@
       "sequence": 48,
       "roles": [
         "Air Force SP at Gate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0853108",
@@ -469,8 +421,7 @@
       "sequence": 49,
       "roles": [
         "Computer Technician"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0140572",
@@ -478,8 +429,7 @@
       "sequence": 50,
       "roles": [
         "Air Force Major"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045660",
@@ -487,8 +437,7 @@
       "sequence": 51,
       "roles": [
         "Air Force Controller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0180016",
@@ -496,8 +445,7 @@
       "sequence": 52,
       "roles": [
         "Air Force Sergeant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605249",
@@ -505,8 +453,7 @@
       "sequence": 53,
       "roles": [
         "Laser Technician"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0882139",
@@ -514,8 +461,7 @@
       "sequence": 54,
       "roles": [
         "Engineer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0234154",
@@ -523,8 +469,7 @@
       "sequence": 55,
       "roles": [
         "Congressman Dougton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461684",
@@ -532,8 +477,7 @@
       "sequence": 56,
       "roles": [
         "Laser Specialist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403469",
@@ -541,17 +485,7 @@
       "sequence": 57,
       "roles": [
         "Air Force Technician"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1364813",
-      "name": "Robert J. Woodhead",
-      "sequence": 58,
-      "roles": [
-        "Hacking Consultant"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -570,19 +504,19 @@
     {
       "imdbId": "nm0411477",
       "name": "Neal Israel",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0698493",
       "name": "Pat Proft",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0868242",
       "name": "PJ Torokvei",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay) (as Peter Torokvei)"
     }
   ]

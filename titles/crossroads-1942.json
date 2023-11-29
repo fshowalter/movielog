@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034622",
-  "title": "Crossroads",
-  "sortTitle": "Crossroads (1942)",
-  "year": 1942,
   "slug": "crossroads-1942",
-  "releaseDate": "1942-07-01",
+  "title": "Crossroads",
+  "originalTitle": "Crossroads",
+  "sortTitle": "Crossroads",
+  "year": 1942,
+  "releaseDate": "1942-10-22",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0176699",
       "name": "Jack Conway",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "David Talbot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001443",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Lucienne Talbot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0872456",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Michelle Allaine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001651",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Henri Sarrou"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943618",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Madame Pelletier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107795",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Andre Tessier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0750079",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Dr. Alex Dubroc"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912478",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Prosecuting Attorney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580882",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Commissaire"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -115,20 +107,14 @@
     {
       "imdbId": "nm0434528",
       "name": "John H. Kafka",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story) (as John Kafka)"
     },
     {
       "imdbId": "nm0736911",
       "name": "Howard Emmett Rogers",
-      "sequence": 2,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0463430",
-      "name": "Frederick Kohner",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(story)"
     }
   ]
 }

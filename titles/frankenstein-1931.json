@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021884",
-  "title": "Frankenstein",
-  "sortTitle": "Frankenstein (1931)",
-  "year": 1931,
   "slug": "frankenstein-1931",
-  "releaseDate": "1931-11-19",
+  "title": "Frankenstein",
+  "originalTitle": "Frankenstein",
+  "sortTitle": "Frankenstein",
+  "year": 1931,
+  "releaseDate": "1931-11-21",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0001843",
       "name": "James Whale",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Henry Frankenstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164883",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Elizabeth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0092900",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Victor Moritz"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "The Monster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888000",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Doctor Waldman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0449694",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Baron Frankenstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0296859",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Fritz"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0069373",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "The Burgomaster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0365048",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Little Maria"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -115,44 +107,32 @@
     {
       "imdbId": "nm0791217",
       "name": "Mary Shelley",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(from the novel by) (as Mrs. Percy B. Shelley)"
     },
     {
       "imdbId": "nm0916811",
       "name": "Peggy Webling",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(adapted from the play by)"
     },
     {
       "imdbId": "nm0287124",
       "name": "Garrett Fort",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0267020",
       "name": "Francis Edward Faragoh",
-      "sequence": 4,
+      "sequence": 7,
       "notes": "(screen play) (as Francis Edwards Faragoh)"
     },
     {
       "imdbId": "nm0770337",
       "name": "Richard Schayer",
-      "sequence": 5,
+      "sequence": 9,
       "notes": "(scenario editor)"
-    },
-    {
-      "imdbId": "nm0282984",
-      "name": "Robert Florey",
-      "sequence": 6,
-      "notes": "(contributor to treatment) (uncredited)"
-    },
-    {
-      "imdbId": "nm0751246",
-      "name": "John Russell",
-      "sequence": 7,
-      "notes": "(contributor to screenplay construction) (uncredited)"
     }
   ]
 }

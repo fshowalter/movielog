@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0053719",
-  "title": "The City of the Dead",
-  "sortTitle": "City of the Dead (1960)",
-  "year": 1960,
   "slug": "the-city-of-the-dead-1960",
-  "releaseDate": "1960-09-01",
+  "title": "The City of the Dead",
+  "originalTitle": "The City of the Dead",
+  "sortTitle": "City of the Dead, The",
+  "year": 1960,
+  "releaseDate": "1962-09-12",
   "countries": [
     "United Kingdom"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0610303",
       "name": "John Llewellyn Moxey",
-      "sequence": 0,
-      "notes": "(as John Moxey)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Richard Barlow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Alan Driscoll"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0422185",
@@ -47,8 +46,7 @@
       "roles": [
         "Elizabeth Selwyn",
         "Mrs. Newless"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0623306",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Bill Maitland"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0820615",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Patricia Russell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0829067",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Nan Barlow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245581",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Jethrow Keane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0063442",
@@ -92,17 +86,15 @@
       "sequence": 7,
       "roles": [
         "Lottie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534186",
       "name": "Norman MacOwan",
       "sequence": 8,
       "roles": [
-        "Reverend Russell"
-      ],
-      "notes": "(as Norman Macowan)"
+        "Rev. Russell"
+      ]
     },
     {
       "imdbId": "nm0425102",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "The Elder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245982",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Garage Attendant"
-      ],
-      "notes": "(as Jimmy Dyrenforth)"
+      ]
     },
     {
       "imdbId": "nm0390240",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Sue"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0008832",
@@ -137,22 +126,21 @@
       "sequence": 12,
       "roles": [
         "Policeman"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0062658",
-      "name": "George Baxt",
-      "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
       "imdbId": "nm0836988",
       "name": "Milton Subotsky",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 0,
+      "notes": "(story by)"
+    },
+    {
+      "imdbId": "nm0062658",
+      "name": "George Baxt",
+      "sequence": 2,
+      "notes": "(screenplay by)"
     }
   ]
 }

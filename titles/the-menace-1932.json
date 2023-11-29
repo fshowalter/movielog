@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0020875",
-  "title": "The Menace",
-  "sortTitle": "Menace (1932)",
-  "year": 1932,
   "slug": "the-menace-1932",
+  "title": "The Menace",
+  "originalTitle": "The Menace",
+  "sortTitle": "Menace, The",
+  "year": 1932,
   "releaseDate": "1932-01-29",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0624756",
       "name": "Roy William Neill",
-      "sequence": 0,
-      "notes": "(as Roy William Neil)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Inspector Tracy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126430",
@@ -38,8 +38,7 @@
       "roles": [
         "Ronald Quayle",
         "Robert Crockett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000012",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Peggy Lowell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0602096",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Caroline Quayle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0203527",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "John Utterson"
-      ],
-      "notes": "(as William Davidson)"
+      ]
     },
     {
       "imdbId": "nm0448696",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Sam Lewis"
-      ],
-      "notes": "(as Craufurd Kent)"
+      ]
     },
     {
       "imdbId": "nm0387561",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Phillips"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314699",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Bailiff"
-      ],
-      "notes": "(as Charles Gerrard)"
+      ]
     },
     {
       "imdbId": "nm0455706",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Carr"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -115,13 +107,13 @@
     {
       "imdbId": "nm0517786",
       "name": "Charles Logue",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0908624",
       "name": "Edgar Wallace",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(story \"The Feathered Serpent\")"
     }
   ]

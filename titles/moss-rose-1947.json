@@ -1,14 +1,19 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0037089",
-  "title": "Moss Rose",
-  "sortTitle": "Moss Rose (1947)",
-  "year": 1947,
   "slug": "moss-rose-1947",
+  "title": "Moss Rose",
+  "originalTitle": "Moss Rose",
+  "sortTitle": "Moss Rose",
+  "year": 1947,
   "releaseDate": "1947-05-30",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Action",
+    "Crime",
+    "Film-Noir",
     "Mystery",
     "Thriller"
   ],
@@ -16,8 +21,7 @@
     {
       "imdbId": "nm0711855",
       "name": "Gregory Ratoff",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Belle Adair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001514",
@@ -36,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Michael Drego"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000856",
@@ -45,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Lady Margaret Drego"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001637",
@@ -54,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Police Inspector R. Clinner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0940231",
@@ -63,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Daisy Arrow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0958345",
@@ -72,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Craxton - the butler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0575756",
@@ -81,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Audrey Ashton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0931525",
@@ -90,45 +87,32 @@
       "sequence": 7,
       "roles": [
         "Deputy Inspector Evans"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0073394",
-      "name": "Leonardo Bercovici",
-      "sequence": 0,
-      "notes": "(contributor to screenplay construction) (uncredited)"
-    },
-    {
       "imdbId": "nm0124002",
       "name": "Niven Busch",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0548403",
-      "name": "Gene Markey",
-      "sequence": 3,
-      "notes": "(contributing writer) (uncredited)"
     },
     {
       "imdbId": "nm0715723",
       "name": "Tom Reed",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0100884",
       "name": "Joseph Shearing",
-      "sequence": 5,
+      "sequence": 10,
       "notes": "(novel \"The Crime of Laura Saurelle\")"
     }
   ]

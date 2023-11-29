@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0038787",
-  "title": "Notorious",
-  "sortTitle": "Notorious (1946)",
-  "year": 1946,
   "slug": "notorious-1946",
-  "releaseDate": "1946-08-15",
+  "title": "Notorious",
+  "originalTitle": "Notorious",
+  "sortTitle": "Notorious",
+  "year": 1946,
+  "releaseDate": "1946-09-06",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Devlin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000006",
@@ -38,44 +38,39 @@
       "sequence": 1,
       "roles": [
         "Alicia Huberman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001647",
       "name": "Claude Rains",
       "sequence": 2,
       "roles": [
-        "Alexander Sebastian"
-      ],
-      "notes": null
+        "Alexander 'Alex' Sebastian"
+      ]
     },
     {
       "imdbId": "nm0129894",
       "name": "Louis Calhern",
       "sequence": 3,
       "roles": [
-        "Paul Prescott"
-      ],
-      "notes": null
+        "Captain Paul Prescott"
+      ]
     },
     {
       "imdbId": "nm0465369",
       "name": "Leopoldine Konstantin",
       "sequence": 4,
       "roles": [
-        "Mme. Sebastian"
-      ],
-      "notes": "(as Madame Konstantin)"
+        "Madame Sebastian"
+      ]
     },
     {
       "imdbId": "nm0778306",
       "name": "Reinhold Sch\u00fcnzel",
       "sequence": 5,
       "roles": [
-        "'Dr. Anderson'"
-      ],
-      "notes": "(as Reinhold Schunzel)"
+        "Dr. Anderson"
+      ]
     },
     {
       "imdbId": "nm0647752",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Walter Beardsley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0872683",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Eric Mathis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591615",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Joseph"
-      ],
-      "notes": "(as Alex Minotis)"
+      ]
     },
     {
       "imdbId": "nm0114878",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Mr. Hopkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0579157",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Commodore"
-      ],
-      "notes": "(as Sir Charles Mendl)"
+      ]
     },
     {
       "imdbId": "nm0182284",
@@ -128,17 +118,15 @@
       "sequence": 11,
       "roles": [
         "Dr. Barbosa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0472745",
       "name": "E.A. Krumschmidt",
       "sequence": 12,
       "roles": [
-        "Hupka"
-      ],
-      "notes": "(as Eberhard Krumschmidt)"
+        "Emil Hupka"
+      ]
     },
     {
       "imdbId": "nm0048443",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Ethel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0602100",
@@ -156,8 +143,7 @@
       "roles": [
         "Diner Extra",
         "Party Guest"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -166,24 +152,6 @@
       "name": "Ben Hecht",
       "sequence": 0,
       "notes": "(written by)"
-    },
-    {
-      "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 1,
-      "notes": "(screenplay contributor) (uncredited)"
-    },
-    {
-      "imdbId": "nm0285218",
-      "name": "John Taintor Foote",
-      "sequence": 2,
-      "notes": "(story \"The Song of the Dragon\") (uncredited)"
-    },
-    {
-      "imdbId": "nm0644048",
-      "name": "Clifford Odets",
-      "sequence": 3,
-      "notes": "(dialogue: love scenes) (uncredited)"
     }
   ]
 }

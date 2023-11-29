@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023427",
-  "title": "Scarface",
-  "sortTitle": "Scarface (1932)",
-  "year": 1932,
   "slug": "scarface-1932",
-  "releaseDate": "1932-03-31",
+  "title": "Scarface",
+  "originalTitle": "Scarface",
+  "sortTitle": "Scarface",
+  "year": 1932,
+  "releaseDate": "1932-04-09",
   "countries": [
     "United States"
   ],
@@ -19,14 +21,12 @@
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0744514",
       "name": "Richard Rosson",
-      "sequence": 1,
-      "notes": "(co-director)"
+      "sequence": 1
     }
   ],
   "performers": [
@@ -36,8 +36,7 @@
       "sequence": 0,
       "roles": [
         "Tony"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245304",
@@ -45,8 +44,7 @@
       "sequence": 1,
       "roles": [
         "Cesca"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605904",
@@ -54,8 +52,7 @@
       "sequence": 2,
       "roles": [
         "Poppy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0674019",
@@ -63,8 +60,7 @@
       "sequence": 3,
       "roles": [
         "Lovo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330059",
@@ -72,8 +68,7 @@
       "sequence": 4,
       "roles": [
         "Guarino"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706368",
@@ -81,8 +76,7 @@
       "sequence": 5,
       "roles": [
         "Rinaldo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0055998",
@@ -90,8 +84,7 @@
       "sequence": 6,
       "roles": [
         "Angelo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -99,8 +92,7 @@
       "sequence": 7,
       "roles": [
         "Gaffney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0695525",
@@ -108,8 +100,7 @@
       "sequence": 8,
       "roles": [
         "Publisher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0551222",
@@ -117,8 +108,7 @@
       "sequence": 9,
       "roles": [
         "Managing Editor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0657366",
@@ -126,8 +116,7 @@
       "sequence": 10,
       "roles": [
         "Tony's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561693",
@@ -135,8 +124,7 @@
       "sequence": 11,
       "roles": [
         "Detective Chief"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -149,38 +137,26 @@
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen story by)"
     },
     {
       "imdbId": "nm0589316",
       "name": "Seton I. Miller",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm0536941",
       "name": "John Lee Mahin",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 4,
-      "notes": "(dialogue)"
-    },
-    {
-      "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 5,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0664646",
-      "name": "Fred Pasley",
       "sequence": 6,
-      "notes": "(screenplay) (uncredited)"
+      "notes": "(dialogue)"
     }
   ]
 }

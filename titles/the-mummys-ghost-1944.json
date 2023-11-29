@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0037099",
-  "title": "The Mummy's Ghost",
-  "sortTitle": "Mummy's Ghost (1944)",
-  "year": 1944,
   "slug": "the-mummys-ghost-1944",
-  "releaseDate": "1944-07-01",
+  "title": "The Mummy's Ghost",
+  "originalTitle": "The Mummy's Ghost",
+  "sortTitle": "Mummy's Ghost, The",
+  "year": 1944,
+  "releaseDate": "1944-07-07",
   "countries": [
     "United States"
   ],
@@ -16,118 +18,105 @@
     {
       "imdbId": "nm0494110",
       "name": "Reginald Le Borg",
-      "sequence": 0,
-      "notes": "(as Reginald LeBorg)"
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0001017",
-      "name": "John Carradine",
+      "imdbId": "nm0001033",
+      "name": "Lon Chaney Jr.",
       "sequence": 0,
       "roles": [
+        "Kharis"
+      ]
+    },
+    {
+      "imdbId": "nm0001017",
+      "name": "John Carradine",
+      "sequence": 1,
+      "roles": [
         "Yousef Bey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0523225",
       "name": "Robert Lowery",
-      "sequence": 1,
+      "sequence": 2,
       "roles": [
         "Tom Hervey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0024738",
       "name": "Ramsay Ames",
-      "sequence": 2,
+      "sequence": 3,
       "roles": [
         "Amina"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0533692",
       "name": "Barton MacLane",
-      "sequence": 3,
+      "sequence": 4,
       "roles": [
         "Inspector Walgreen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0958345",
       "name": "George Zucco",
-      "sequence": 4,
+      "sequence": 5,
       "roles": [
         "High Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717046",
       "name": "Frank Reicher",
-      "sequence": 5,
+      "sequence": 6,
       "roles": [
         "Professor Norman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0788288",
       "name": "Harry Shannon",
-      "sequence": 6,
+      "sequence": 7,
       "roles": [
         "Sheriff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0900850",
       "name": "Emmett Vogan",
-      "sequence": 7,
+      "sequence": 8,
       "roles": [
         "Coroner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0789247",
       "name": "Lester Sharpe",
-      "sequence": 8,
+      "sequence": 9,
       "roles": [
         "Doctor Ayad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0926280",
       "name": "Claire Whitney",
-      "sequence": 9,
+      "sequence": 10,
       "roles": [
         "Mrs. Norman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0642679",
       "name": "Oscar O'Shea",
-      "sequence": 10,
-      "roles": [
-        "Watchman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001033",
-      "name": "Lon Chaney Jr.",
       "sequence": 11,
       "roles": [
-        "Kharis"
-      ],
-      "notes": "(as Lon Chaney)"
+        "Watchman"
+      ]
     }
   ],
   "writers": [
@@ -146,19 +135,19 @@
     {
       "imdbId": "nm0419591",
       "name": "Griffin Jay",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0837058",
       "name": "Henry Sucher",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0918709",
       "name": "Brenda Weisberg",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     }
   ]

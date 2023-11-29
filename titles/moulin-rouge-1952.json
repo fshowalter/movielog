@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0044926",
-  "title": "Moulin Rouge",
-  "sortTitle": "Moulin Rouge (1952)",
-  "year": 1952,
   "slug": "moulin-rouge-1952",
-  "releaseDate": "1952-12-23",
+  "title": "Moulin Rouge",
+  "originalTitle": "Moulin Rouge",
+  "sortTitle": "Moulin Rouge",
+  "year": 1952,
+  "releaseDate": "1953-04-10",
   "countries": [
     "United Kingdom"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +31,7 @@
       "roles": [
         "Henri de Toulouse-Lautrec",
         "Comte Alphonse de Toulouse-Lautrec"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001248",
@@ -39,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Jane Avril"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0282530",
@@ -48,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Myriamme Hayam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0634488",
@@ -57,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Countess Ad\u00e8le de Toulouse-Lautrec"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0441251",
@@ -66,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Louise Weber"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0809421",
@@ -76,8 +72,7 @@
       "roles": [
         "Aicha",
         "Singing Voice of Jane Avril"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163515",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Madame Loubet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0187957",
@@ -94,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Valentin le Desoss\u00e9"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0440661",
@@ -103,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Charles Zidler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0486946",
@@ -112,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Sgt. Balthazar Patou"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0598777",
@@ -121,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Maurice Joyant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0841842",
@@ -130,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Denise de Frontiac"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0501384",
@@ -139,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Aicha's Partner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0071824",
@@ -148,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Sarah"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000942",
@@ -157,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "King Milo IV of Serbia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001088",
@@ -166,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Marcel de la Voisier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0141202",
@@ -175,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Count Mo\u00efse de Camondo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0189293",
@@ -184,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Babare"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0545376",
@@ -193,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Marie Charlet"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -202,19 +184,19 @@
       "imdbId": "nm0478761",
       "name": "Pierre La Mure",
       "sequence": 0,
-      "notes": "(novel \"Moulin Rouge\")"
+      "notes": "(from the novel \"Moulin Rouge\" by)"
     },
     {
       "imdbId": "nm0892044",
       "name": "Anthony Veiller",
-      "sequence": 1,
-      "notes": "(screenplay)"
+      "sequence": 2,
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(screenplay by)"
     }
   ]
 }

@@ -1,16 +1,17 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt1692486",
-  "title": "Carnage",
-  "sortTitle": "Carnage (2011)",
-  "year": 2011,
   "slug": "carnage-2011",
-  "releaseDate": "2011-09-01",
+  "title": "Carnage",
+  "originalTitle": "Carnage",
+  "sortTitle": "Carnage",
+  "year": 2011,
+  "releaseDate": "2011-09-16",
   "countries": [
     "France",
     "Germany",
     "Poland",
-    "Spain",
-    "United States"
+    "Spain"
   ],
   "genres": [
     "Comedy",
@@ -20,8 +21,7 @@
     {
       "imdbId": "nm0000591",
       "name": "Roman Polanski",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Penelope Longstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000701",
@@ -40,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Nancy Cowan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0910607",
@@ -49,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Alan Cowan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000604",
@@ -58,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Michael Longstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2068431",
@@ -67,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Zachary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4698984",
@@ -76,44 +71,7 @@
       "sequence": 5,
       "roles": [
         "Ethan"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0722161",
-      "name": "Joseph Rezwin",
-      "sequence": 6,
-      "roles": [
-        "Walter"
-      ],
-      "notes": "(voice) (as Joe Rezwin)"
-    },
-    {
-      "imdbId": "nm2920051",
-      "name": "Nathan Rippy",
-      "sequence": 7,
-      "roles": [
-        "Dennis"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0519839",
-      "name": "Tanya Lopert",
-      "sequence": 8,
-      "roles": [
-        "Mother"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0011105",
-      "name": "Julie Adams",
-      "sequence": 9,
-      "roles": [
-        "Secretary"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -126,19 +84,19 @@
     {
       "imdbId": "nm0441301",
       "name": "Michael Katims",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(translated by)"
     },
     {
       "imdbId": "nm0722078",
       "name": "Yasmina Reza",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0000591",
       "name": "Roman Polanski",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(screenplay by)"
     }
   ]

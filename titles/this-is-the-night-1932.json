@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023584",
-  "title": "This Is the Night",
-  "sortTitle": "This Is the Night (1932)",
-  "year": 1932,
   "slug": "this-is-the-night-1932",
+  "title": "This Is the Night",
+  "originalTitle": "This Is the Night",
+  "sortTitle": "This Is the Night",
+  "year": 1932,
   "releaseDate": "1932-04-08",
   "countries": [
     "United States"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0878338",
       "name": "Frank Tuttle",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Germaine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0749476",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Bunny West"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0950019",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Gerald Gray"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0865298",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Claire Mathewson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000026",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Stephen Mathewson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045784",
@@ -71,39 +67,38 @@
       "sequence": 5,
       "roles": [
         "Sparks"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0266145",
-      "name": "Henry Falk",
+      "name": "Henri Falk",
       "sequence": 0,
-      "notes": "(play \"Pouche\") (as Henri Falk)"
+      "notes": "(play \"Pouche\")"
     },
     {
       "imdbId": "nm0322227",
       "name": "Benjamin Glazer",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "()"
     },
     {
       "imdbId": "nm0394479",
       "name": "Avery Hopwood",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(play \"Naughty Cinderella\")"
     },
     {
       "imdbId": "nm0547938",
       "name": "George Marion Jr.",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "()"
     },
     {
       "imdbId": "nm0676242",
       "name": "Ren\u00e9 Peter",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(play \"Pouche\")"
     }
   ]

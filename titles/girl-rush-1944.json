@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0036865",
-  "title": "Girl Rush",
-  "sortTitle": "Girl Rush (1944)",
-  "year": 1944,
   "slug": "girl-rush-1944",
+  "title": "Girl Rush",
+  "originalTitle": "Girl Rush",
+  "sortTitle": "Girl Rush",
+  "year": 1944,
   "releaseDate": "1944-10-21",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0235066",
       "name": "Gordon Douglas",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Jerry Miles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138768",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Mike Strager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0486387",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Flo Daniels"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0020289",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Suzie Banks"
-      ],
-      "notes": "(as Vera Vague)"
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Jimmy Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403636",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Muley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0109353",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Claire"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0655605",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mrs. Emma Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447580",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "'Honest' Greg Barlan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0581611",
@@ -109,28 +101,27 @@
       "sequence": 9,
       "roles": [
         "Scully"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0448839",
+      "name": "Robert E. Kent",
+      "sequence": 0,
+      "notes": "(screen play by)"
+    },
+    {
       "imdbId": "nm0883017",
       "name": "L\u00e1szl\u00f3 Vadnay",
-      "sequence": 0,
-      "notes": "(story \"Petticoat Fever\") (as Laszlo Vadnay)"
+      "sequence": 2,
+      "notes": "(based on the original story by) (as Laszlo Vadnay)"
     },
     {
       "imdbId": "nm0015801",
       "name": "Aladar Laszlo",
-      "sequence": 1,
-      "notes": "(story \"Petticoat Fever\")"
-    },
-    {
-      "imdbId": "nm0448839",
-      "name": "Robert E. Kent",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(based on the original story by)"
     }
   ]
 }

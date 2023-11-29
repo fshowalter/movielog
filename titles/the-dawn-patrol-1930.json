@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0020815",
-  "title": "The Dawn Patrol",
-  "sortTitle": "Dawn Patrol (1930)",
-  "year": 1930,
   "slug": "the-dawn-patrol-1930",
-  "releaseDate": "1930-07-10",
+  "title": "The Dawn Patrol",
+  "originalTitle": "The Dawn Patrol",
+  "sortTitle": "Dawn Patrol, The",
+  "year": 1930,
+  "releaseDate": "1930-08-20",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Dick Courtney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001195",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Douglas Scott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0358076",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Major Brand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570451",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Flaherty"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0176971",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Bott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0278006",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Field Sergeant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0416515",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Ralph Hollister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0417829",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Gordon Scott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107631",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Lieut. Phipps"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -114,26 +106,20 @@
     {
       "imdbId": "nm0869371",
       "name": "Dan Totheroh",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation & dialogue)"
     },
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation & dialogue)"
     },
     {
       "imdbId": "nm0589316",
       "name": "Seton I. Miller",
-      "sequence": 3,
-      "notes": "(adaptation & dialogue) (as Seton Miller)"
-    },
-    {
-      "imdbId": "nm0011485",
-      "name": "Ewart Adamson",
       "sequence": 4,
-      "notes": "(contributing writer) (uncredited)"
+      "notes": "(adaptation & dialogue) (as Seton Miller)"
     }
   ]
 }

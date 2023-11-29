@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0045469",
-  "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
-  "sortTitle": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde (1953)",
-  "year": 1953,
   "slug": "abbott-and-costello-meet-dr-jekyll-and-mr-hyde-1953",
+  "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+  "originalTitle": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+  "sortTitle": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+  "year": 1953,
   "releaseDate": "1953-08-01",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0006943",
       "name": "Charles Lamont",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Slim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0182579",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Tubby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -48,8 +47,7 @@
       "roles": [
         "Dr. Henry Jekyll",
         "Mr. Hyde"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0301887",
@@ -57,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Bruce Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0922505",
@@ -66,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Vicky Edwards"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0219666",
@@ -75,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Inspector"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0226109",
@@ -84,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Batley"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -104,25 +98,25 @@
     {
       "imdbId": "nm0276352",
       "name": "Sid Fields",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(stories)"
     },
     {
       "imdbId": "nm0307222",
       "name": "Grant Garett",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0227481",
       "name": "Howard Dimsdale",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(writer)"
     },
     {
       "imdbId": "nm0829044",
       "name": "Robert Louis Stevenson",
-      "sequence": 5,
+      "sequence": 8,
       "notes": "(novel \"The Strange Case of Dr. Jekyll and Mr. Hyde\")"
     }
   ]

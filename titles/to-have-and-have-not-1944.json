@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0037382",
-  "title": "To Have and Have Not",
-  "sortTitle": "To Have and Have Not (1944)",
-  "year": 1944,
   "slug": "to-have-and-have-not-1944",
-  "releaseDate": "1944-10-11",
+  "title": "To Have and Have Not",
+  "originalTitle": "To Have and Have Not",
+  "sortTitle": "To Have and Have Not",
+  "year": 1944,
+  "releaseDate": "1945-01-20",
   "countries": [
     "United States"
   ],
@@ -20,8 +22,7 @@
     {
       "imdbId": "nm0001328",
       "name": "Howard Hawks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,9 +31,8 @@
       "name": "Humphrey Bogart",
       "sequence": 0,
       "roles": [
-        "Harry Morgan"
-      ],
-      "notes": null
+        "Harry 'Steve' Morgan"
+      ]
     },
     {
       "imdbId": "nm0000974",
@@ -40,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Eddie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000002",
@@ -49,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Marie 'Slim' Browning"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0602834",
@@ -58,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Mme. Hellene de Bursac"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005994",
@@ -67,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Cricket"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0502766",
@@ -76,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Lt. Coyo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0844346",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Paul de Bursac"
-      ],
-      "notes": "(as Walter Molnar)"
+      ]
     },
     {
       "imdbId": "nm0197950",
@@ -94,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Gerard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0761340",
@@ -103,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0786811",
@@ -112,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Capt. M. Renard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0618891",
@@ -121,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Renard's Bodyguard"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -135,26 +125,14 @@
     {
       "imdbId": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 2,
-      "notes": "(screen play)"
-    },
-    {
-      "imdbId": "nm0010850",
-      "name": "Cleve F. Adams",
       "sequence": 3,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0150462",
-      "name": "Whitman Chambers",
-      "sequence": 4,
-      "notes": "() (uncredited)"
+      "notes": "(screen play)"
     }
   ]
 }

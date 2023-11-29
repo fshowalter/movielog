@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0025969",
-  "title": "West of the Divide",
-  "sortTitle": "West of the Divide (1934)",
-  "year": 1934,
   "slug": "west-of-the-divide-1934",
+  "title": "West of the Divide",
+  "originalTitle": "West of the Divide",
+  "sortTitle": "West of the Divide",
+  "year": 1934,
   "releaseDate": "1934-02-15",
   "countries": [
     "United States"
@@ -11,6 +13,7 @@
   "genres": [
     "Action",
     "Adventure",
+    "Drama",
     "Romance",
     "Western"
   ],
@@ -18,8 +21,7 @@
     {
       "imdbId": "nm0102908",
       "name": "Robert N. Bradbury",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Ted Hayden posing as Gat Ganns"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0265551",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Fay Winters"
-      ],
-      "notes": "(as Virginia Faire Brown)"
+      ]
     },
     {
       "imdbId": "nm0371025",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Dusty Rhodes"
-      ],
-      "notes": "(as George Hayes)"
+      ]
     },
     {
       "imdbId": "nm0926103",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Mr. Gentry"
-      ],
-      "notes": "(as Loyd Whitlock)"
+      ]
     },
     {
       "imdbId": "nm0134831",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Henchman Hank"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571186",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Fred Winters"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0639446",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Spud Hayden"
-      ],
-      "notes": "(as Billie O'Brien)"
+      ]
     },
     {
       "imdbId": "nm0225513",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Henchman Joe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245429",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Sheriff"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -111,12 +104,6 @@
       "name": "Robert N. Bradbury",
       "sequence": 0,
       "notes": "(story and screen play)"
-    },
-    {
-      "imdbId": "nm0236980",
-      "name": "Oliver Drake",
-      "sequence": 1,
-      "notes": "(story) (uncredited)"
     }
   ]
 }

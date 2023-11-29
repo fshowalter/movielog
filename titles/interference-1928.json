@@ -1,28 +1,30 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0019035",
-  "title": "Interference",
-  "sortTitle": "Interference (1928)",
-  "year": 1928,
   "slug": "interference-1928",
-  "releaseDate": "1928-11-05",
+  "title": "Interference",
+  "originalTitle": "Interference",
+  "sortTitle": "Interference",
+  "year": 1928,
+  "releaseDate": "1928-01-01",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Crime",
+    "Drama",
+    "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0578985",
       "name": "Lothar Mendes",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0690120",
       "name": "Roy Pomeroy",
-      "sequence": 1,
-      "notes": "(as Roy J. Pomeroy)"
+      "sequence": 1
     }
   ],
   "performers": [
@@ -32,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Deborah Kane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0111612",
@@ -41,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Sir John Marlay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001635",
@@ -50,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Philip Voaze"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448987",
@@ -59,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Faith Marlay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403582",
@@ -68,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "Inspector Haynes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0725529",
@@ -77,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Charles Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0668391",
@@ -86,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Childers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0637507",
@@ -95,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "Dr. Gray"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0835681",
@@ -104,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "Freddie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0492980",
@@ -113,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Reporter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0176971",
@@ -122,8 +114,7 @@
       "sequence": 10,
       "roles": [
         "Hearse Driver"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -136,31 +127,31 @@
     {
       "imdbId": "nm0425456",
       "name": "Julian Johnson",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(titles)"
     },
     {
       "imdbId": "nm0519079",
       "name": "Louise Long",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(writer)"
     },
     {
       "imdbId": "nm0521002",
       "name": "Hope Loring",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0664251",
       "name": "Ernest Pascal",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm0675729",
       "name": "Roland Pertwee",
-      "sequence": 5,
+      "sequence": 10,
       "notes": "(play)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0037558",
-  "title": "Brief Encounter",
-  "sortTitle": "Brief Encounter (1945)",
-  "year": 1945,
   "slug": "brief-encounter-1945",
-  "releaseDate": "1945-11-19",
+  "title": "Brief Encounter",
+  "originalTitle": "Brief Encounter",
+  "sortTitle": "Brief Encounter",
+  "year": 1945,
+  "releaseDate": "1946-08-24",
   "countries": [
     "United Kingdom"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000180",
       "name": "David Lean",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Laura Jesson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002145",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Alec Harvey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0391361",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Albert Godby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0136983",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Myrtle Bagot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0713231",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Fred Jesson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339573",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Dolly Messiter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550323",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Mary Norton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0059200",
@@ -90,40 +84,15 @@
       "sequence": 7,
       "roles": [
         "Beryl Walters - Tea Room Assistant"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0002021",
       "name": "No\u00ebl Coward",
-      "sequence": 0,
-      "notes": "(play \"Still Life\") (uncredited)"
-    },
-    {
-      "imdbId": "nm0002021",
-      "name": "No\u00ebl Coward",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0369743",
-      "name": "Anthony Havelock-Allan",
       "sequence": 2,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0000180",
-      "name": "David Lean",
-      "sequence": 3,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0623768",
-      "name": "Ronald Neame",
-      "sequence": 4,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

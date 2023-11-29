@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0035692",
-  "title": "Border Patrol",
-  "sortTitle": "Border Patrol (1943)",
-  "year": 1943,
   "slug": "border-patrol-1943",
+  "title": "Border Patrol",
+  "originalTitle": "Border Patrol",
+  "sortTitle": "Border Patrol",
+  "year": 1943,
   "releaseDate": "1943-04-02",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0782947",
       "name": "Lesley Selander",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -25,27 +27,24 @@
       "name": "William Boyd",
       "sequence": 0,
       "roles": [
-        "Hopalong Cassidy - Texas Ranger"
-      ],
-      "notes": null
+        "Hopalong Cassidy -"
+      ]
     },
     {
       "imdbId": "nm0167395",
       "name": "Andy Clyde",
       "sequence": 1,
       "roles": [
-        "California Carlson - Texas Ranger"
-      ],
-      "notes": null
+        "California Carlson"
+      ]
     },
     {
       "imdbId": "nm0313358",
       "name": "Jay Kirby",
       "sequence": 2,
       "roles": [
-        "Johnny Travers - Texas Ranger"
-      ],
-      "notes": null
+        "Johnny Travers"
+      ]
     },
     {
       "imdbId": "nm0801193",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Orestes Krebs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0236873",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Inez La Barca"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001660",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Don Enrique Perez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0719121",
@@ -80,17 +76,15 @@
       "sequence": 6,
       "roles": [
         "Commandante"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0527973",
       "name": "Pierce Lyden",
       "sequence": 7,
       "roles": [
-        "Loren - Henchman"
-      ],
-      "notes": null
+        "Loren"
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -98,27 +92,24 @@
       "sequence": 8,
       "roles": [
         "Quinn"
-      ],
-      "notes": "(as Bob Mitchum)"
+      ]
     },
     {
       "imdbId": "nm0662830",
       "name": "Cliff Parkinson",
       "sequence": 9,
       "roles": [
-        "Barton - Henchman"
-      ],
-      "notes": null
+        "Barton"
+      ]
     },
     {
       "imdbId": "nm0352368",
       "name": "Herman Hack",
-      "sequence": 16,
+      "sequence": 17,
       "roles": [
         "Henchman",
         "Miner"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

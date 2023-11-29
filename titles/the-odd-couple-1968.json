@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0063374",
-  "title": "The Odd Couple",
-  "sortTitle": "Odd Couple (1968)",
-  "year": 1968,
   "slug": "the-odd-couple-1968",
-  "releaseDate": "1968-05-02",
+  "title": "The Odd Couple",
+  "originalTitle": "The Odd Couple",
+  "sortTitle": "Odd Couple, The",
+  "year": 1968,
+  "releaseDate": "1968-05-16",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0757256",
       "name": "Gene Saks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Felix Ungar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000527",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Oscar Madison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0275835",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Vinnie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0248983",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Murray"
-      ],
-      "notes": "(as Herbert Edelman)"
+      ]
     },
     {
       "imdbId": "nm0790905",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Roy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354261",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Speed"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0263082",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Cecily"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0791186",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Gwendolyn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0012441",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Waitress"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -112,7 +104,7 @@
     {
       "imdbId": "nm0800319",
       "name": "Neil Simon",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

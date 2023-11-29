@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0030473",
-  "title": "Mr. Wong, Detective",
-  "sortTitle": "Mr. Wong, Detective (1938)",
-  "year": 1938,
   "slug": "mr-wong-detective-1938",
+  "title": "Mr. Wong, Detective",
+  "originalTitle": "Mr. Wong, Detective",
+  "sortTitle": "Mr. Wong, Detective",
+  "year": 1938,
   "releaseDate": "1938-10-05",
   "countries": [
     "United States"
@@ -19,8 +21,7 @@
     {
       "imdbId": "nm0631438",
       "name": "William Nigh",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,18 +30,16 @@
       "name": "Boris Karloff",
       "sequence": 0,
       "roles": [
-        "Mr. James Lee Wong"
-      ],
-      "notes": null
+        "James Lee Wong"
+      ]
     },
     {
       "imdbId": "nm0936728",
       "name": "Grant Withers",
       "sequence": 1,
       "roles": [
-        "Capt. Sam Street"
-      ],
-      "notes": null
+        "Police Capt. Sam Street"
+      ]
     },
     {
       "imdbId": "nm0421218",
@@ -48,17 +47,15 @@
       "sequence": 2,
       "roles": [
         "Myra Ross"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107574",
       "name": "Evelyn Brent",
       "sequence": 3,
       "roles": [
-        "Olga -"
-      ],
-      "notes": null
+        "Olga Petroff"
+      ]
     },
     {
       "imdbId": "nm0515989",
@@ -66,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Devlin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0698139",
@@ -75,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Anton Mohl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0820821",
@@ -84,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Carl Roemer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0332517",
@@ -93,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Theodore Meisle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0040341",
@@ -102,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Christian Wilk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0357963",
@@ -111,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Simon Dayton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0533101",
@@ -120,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Russell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0285146",
@@ -129,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Tchin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107589",
@@ -138,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0939726",
@@ -147,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Mrs. Roemer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -161,7 +148,7 @@
     {
       "imdbId": "nm0928840",
       "name": "Hugh Wiley",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on: the \"James Lee Wong\" series in Collier's Magazine written by)"
     }
   ]

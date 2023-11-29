@@ -1,23 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0056277",
-  "title": "Night Creatures",
-  "sortTitle": "Night Creatures (1962)",
-  "year": 1962,
   "slug": "night-creatures-1962",
-  "releaseDate": "1962-06-07",
+  "title": "Night Creatures",
+  "originalTitle": "Captain Clegg",
+  "sortTitle": "Night Creatures",
+  "year": 1962,
+  "releaseDate": "1962-06-13",
   "countries": [
     "United Kingdom"
   ],
   "genres": [
     "Adventure",
-    "Horror"
+    "Drama"
   ],
   "directors": [
     {
       "imdbId": "nm0779670",
       "name": "Peter Graham Scott",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,18 +27,16 @@
       "name": "Peter Cushing",
       "sequence": 0,
       "roles": [
-        "Rev. Dr. Blyss"
-      ],
-      "notes": null
+        "Dr. Blyss"
+      ]
     },
     {
       "imdbId": "nm0738635",
       "name": "Yvonne Romain",
       "sequence": 1,
       "roles": [
-        "Imogene - serving wench"
-      ],
-      "notes": null
+        "Imogene"
+      ]
     },
     {
       "imdbId": "nm0019996",
@@ -45,53 +44,47 @@
       "sequence": 2,
       "roles": [
         "Captain Collier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001657",
       "name": "Oliver Reed",
       "sequence": 3,
       "roles": [
-        "Harry Cobtree"
-      ],
-      "notes": null
+        "Harry"
+      ]
     },
     {
       "imdbId": "nm0728085",
       "name": "Michael Ripper",
       "sequence": 4,
       "roles": [
-        "Jeremiah Mipps"
-      ],
-      "notes": "(coffinmaker)"
+        "Mipps"
+      ]
     },
     {
       "imdbId": "nm0072578",
       "name": "Martin Benson",
       "sequence": 5,
       "roles": [
-        "Mr. Rash"
-      ],
-      "notes": "(innkeeper)"
+        "Rash"
+      ]
     },
     {
       "imdbId": "nm0517084",
       "name": "David Lodge",
       "sequence": 6,
       "roles": [
-        "Navy Bosun"
-      ],
-      "notes": null
+        "Bosun"
+      ]
     },
     {
       "imdbId": "nm0290136",
       "name": "Derek Francis",
       "sequence": 7,
       "roles": [
-        "Squire Anthony Cobtree"
-      ],
-      "notes": null
+        "Squire"
+      ]
     },
     {
       "imdbId": "nm0026563",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Mrs. Rash"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717374",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mulatto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0532290",
@@ -117,35 +108,31 @@
       "sequence": 10,
       "roles": [
         "Frightened Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0356579",
       "name": "Peter Halliday",
       "sequence": 11,
       "roles": [
-        "1st Sailor Jack Pott"
-      ],
-      "notes": null
+        "1st. Sailor"
+      ]
     },
     {
       "imdbId": "nm0780300",
       "name": "Terry Scully",
       "sequence": 12,
       "roles": [
-        "2nd Sailor Dick Tate"
-      ],
-      "notes": null
+        "2nd. Sailor"
+      ]
     },
     {
       "imdbId": "nm0111356",
       "name": "Sydney Bromley",
       "sequence": 13,
       "roles": [
-        "Old Tom Ketch"
-      ],
-      "notes": null
+        "Tom Ketch"
+      ]
     },
     {
       "imdbId": "nm0651740",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Gerry"
-      ],
-      "notes": "(as Rupert Osborn)"
+      ]
     },
     {
       "imdbId": "nm0712606",
@@ -162,8 +148,7 @@
       "sequence": 15,
       "roles": [
         "Wurzel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0372121",
@@ -171,8 +156,7 @@
       "sequence": 16,
       "roles": [
         "Peg-Leg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0234997",
@@ -180,8 +164,7 @@
       "sequence": 17,
       "roles": [
         "Pirate Bosun"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -189,19 +172,13 @@
       "imdbId": "nm0385573",
       "name": "Anthony Hinds",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by) (as John Elder)"
     },
     {
       "imdbId": "nm0363813",
       "name": "Barbara S. Harper",
-      "sequence": 1,
-      "notes": "(additional dialogue)"
-    },
-    {
-      "imdbId": "nm0861343",
-      "name": "Russell Thorndike",
       "sequence": 2,
-      "notes": "(novel \"Dr. Syn\")"
+      "notes": "(additional dialogue)"
     }
   ]
 }

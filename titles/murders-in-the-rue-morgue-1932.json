@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023249",
-  "title": "Murders in the Rue Morgue",
-  "sortTitle": "Murders in the Rue Morgue (1932)",
-  "year": 1932,
   "slug": "murders-in-the-rue-morgue-1932",
-  "releaseDate": "1932-01-27",
+  "title": "Murders in the Rue Morgue",
+  "originalTitle": "Murders in the Rue Morgue",
+  "sortTitle": "Murders in the Rue Morgue",
+  "year": 1932,
+  "releaseDate": "1932-02-21",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0282984",
       "name": "Robert Florey",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Mlle. Camille L'Espanaye"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000509",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Mirakle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000748",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Pierre Dupin"
-      ],
-      "notes": "(as Leon Waycoff)"
+      ]
     },
     {
       "imdbId": "nm0729991",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Paul"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164664",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Mme. L'Espanaye"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403582",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Prefect of Police"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0180967",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Morgue Keeper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0425903",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Janos The Black One"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0290086",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Woman of the Streets"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0598784",
@@ -111,8 +103,7 @@
       "roles": [
         "Workman",
         "Gendarme"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -125,32 +116,26 @@
     {
       "imdbId": "nm0282984",
       "name": "Robert Florey",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0715723",
       "name": "Tom Reed",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0886861",
       "name": "Dale Van Every",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 4,
+      "sequence": 7,
       "notes": "(added dialogue)"
-    },
-    {
-      "imdbId": "nm0446381",
-      "name": "Ethel M. Kelly",
-      "sequence": 5,
-      "notes": "() (uncredited)"
     }
   ]
 }

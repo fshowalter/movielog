@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0048347",
-  "title": "The Man with the Golden Arm",
-  "sortTitle": "Man with the Golden Arm (1955)",
-  "year": 1955,
   "slug": "the-man-with-the-golden-arm-1955",
-  "releaseDate": "1955-12-15",
+  "title": "The Man with the Golden Arm",
+  "originalTitle": "The Man with the Golden Arm",
+  "sortTitle": "Man with the Golden Arm, The",
+  "year": 1955,
+  "releaseDate": "1956-01-16",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0695937",
       "name": "Otto Preminger",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Frankie Machine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662223",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Zosh Machine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001571",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Molly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822205",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Sparrow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0569000",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Louie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0833865",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Schwiefka"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0176235",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Drunky"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580109",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Vi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0831889",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Sam Markette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0558636",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Williams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0455893",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Dominiwski"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0583093",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Detective Bednar"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -147,14 +136,8 @@
     {
       "imdbId": "nm0019346",
       "name": "Nelson Algren",
-      "sequence": 2,
-      "notes": "(from the novel by)"
-    },
-    {
-      "imdbId": "nm0372942",
-      "name": "Ben Hecht",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(from the novel by)"
     }
   ]
 }

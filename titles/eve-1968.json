@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0062951",
-  "title": "Eve",
-  "sortTitle": "Eve (1968)",
-  "year": 1968,
   "slug": "eve-1968",
-  "releaseDate": "1968-07-01",
+  "title": "Eve",
+  "originalTitle": "The Face of Eve",
+  "sortTitle": "Eve",
+  "year": 1968,
+  "releaseDate": "1968-07-19",
   "countries": [
     "United Kingdom",
     "Spain",
@@ -19,14 +21,12 @@
     {
       "imdbId": "nm0528790",
       "name": "Robert Lynn",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0838725",
       "name": "Jeremy Summers",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -36,8 +36,7 @@
       "sequence": 0,
       "roles": [
         "Eve"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0907480",
@@ -45,8 +44,7 @@
       "sequence": 1,
       "roles": [
         "Mike Yates"
-      ],
-      "notes": "(as Robert Walker)"
+      ]
     },
     {
       "imdbId": "nm0007042",
@@ -54,8 +52,7 @@
       "sequence": 2,
       "roles": [
         "Diego"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
@@ -63,8 +60,7 @@
       "sequence": 3,
       "roles": [
         "Colonel Stuart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163939",
@@ -72,8 +68,7 @@
       "sequence": 4,
       "roles": [
         "Lucky Burke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0599478",
@@ -81,8 +76,7 @@
       "sequence": 5,
       "roles": [
         "Pili"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0737538",
@@ -90,8 +84,7 @@
       "sequence": 6,
       "roles": [
         "Anne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0128405",
@@ -99,8 +92,7 @@
       "sequence": 7,
       "roles": [
         "Jos\u00e9"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0246728",
@@ -108,8 +100,7 @@
       "sequence": 8,
       "roles": [
         "Bruno"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0733576",
@@ -117,8 +108,7 @@
       "sequence": 9,
       "roles": [
         "Bartender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0757825",
@@ -126,8 +116,7 @@
       "sequence": 10,
       "roles": [
         "Girl Dancing with Mike"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -140,7 +129,7 @@
     {
       "imdbId": "nm0869935",
       "name": "Harry Alan Towers",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story) (as Peter Welbeck)"
     }
   ]

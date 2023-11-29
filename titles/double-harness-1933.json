@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023960",
-  "title": "Double Harness",
-  "sortTitle": "Double Harness (1933)",
-  "year": 1933,
   "slug": "double-harness-1933",
-  "releaseDate": "1933-07-21",
+  "title": "Double Harness",
+  "originalTitle": "Double Harness",
+  "sortTitle": "Double Harness",
+  "year": 1933,
+  "releaseDate": "1933-09-23",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0188669",
       "name": "John Cromwell",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Joan Colby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001635",
@@ -36,17 +36,15 @@
       "sequence": 1,
       "roles": [
         "John Fletcher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115043",
       "name": "Lucile Browne",
       "sequence": 2,
       "roles": [
-        "Valerie Colby Moore"
-      ],
-      "notes": null
+        "Valerie Colby"
+      ]
     },
     {
       "imdbId": "nm0827261",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Colonel Sam Colby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0093988",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Monica Paige"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0576120",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Dennis Moore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0654239",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Freeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0358724",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Eleanor Weston"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0020757",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Leonard Weston"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403154",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Farley Drake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164599",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Postmaster General"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0763796",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Bruno"
-      ],
-      "notes": "(as Fredric Santley)"
+      ]
     }
   ],
   "writers": [
@@ -140,8 +129,8 @@
     {
       "imdbId": "nm0599772",
       "name": "Edward Poor Montgomery",
-      "sequence": 1,
-      "notes": "(from the play by)"
+      "sequence": 2,
+      "notes": "(play)"
     }
   ]
 }

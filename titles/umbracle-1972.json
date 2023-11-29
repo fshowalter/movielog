@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0066499",
-  "title": "Umbracle",
-  "sortTitle": "Umbracle (1972)",
-  "year": 1972,
   "slug": "umbracle-1972",
+  "title": "Umbracle",
+  "originalTitle": "Umbracle",
+  "sortTitle": "Umbracle",
+  "year": 1972,
   "releaseDate": "1972-01-01",
   "countries": [
     "Spain"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0691908",
       "name": "Pere Portabella",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "The Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0582321",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "The Woman"
-      ],
-      "notes": "(as Jeanine Mestre)"
+      ]
     }
   ],
   "writers": [
@@ -49,7 +48,7 @@
     {
       "imdbId": "nm0691908",
       "name": "Pere Portabella",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "()"
     }
   ]

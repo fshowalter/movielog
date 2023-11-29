@@ -1,22 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0045737",
-  "title": "Escape from Fort Bravo",
-  "sortTitle": "Escape from Fort Bravo (1953)",
-  "year": 1953,
   "slug": "escape-from-fort-bravo-1953",
+  "title": "Escape from Fort Bravo",
+  "originalTitle": "Escape from Fort Bravo",
+  "sortTitle": "Escape from Fort Bravo",
+  "year": 1953,
   "releaseDate": "1953-12-04",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
+    "Romance",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0836328",
       "name": "John Sturges",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Capt. Roper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662223",
@@ -35,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Carla Forester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001234",
@@ -44,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Capt. John Marsh"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0218131",
@@ -53,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Campbell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0132930",
@@ -62,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Cabot Young"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000917",
@@ -71,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Alice Owens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0027323",
@@ -80,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Lt. Beecher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717203",
@@ -89,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Col. Owens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0527017",
@@ -98,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Bailey"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -107,19 +101,19 @@
       "imdbId": "nm0272045",
       "name": "Frank Fenton",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0734193",
       "name": "Phillip Rock",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0665327",
       "name": "Michael Pate",
-      "sequence": 2,
-      "notes": "(story)"
+      "sequence": 3,
+      "notes": "(story by)"
     }
   ]
 }

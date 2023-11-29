@@ -1,13 +1,14 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0091064",
-  "title": "The Fly",
-  "sortTitle": "Fly (1986)",
-  "year": 1986,
   "slug": "the-fly-1986",
+  "title": "The Fly",
+  "originalTitle": "The Fly",
+  "sortTitle": "Fly, The",
+  "year": 1986,
   "releaseDate": "1986-08-15",
   "countries": [
     "United States",
-    "United Kingdom",
     "Canada"
   ],
   "genres": [
@@ -19,8 +20,7 @@
     {
       "imdbId": "nm0000343",
       "name": "David Cronenberg",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Seth Brundle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000133",
@@ -39,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Veronica Quaife"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0315288",
@@ -48,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Stathis Borans"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0100205",
@@ -57,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Tawny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0137967",
@@ -66,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Dr. Cheevers"
-      ],
-      "notes": "(as Les Carlson)"
+      ]
     },
     {
       "imdbId": "nm0161546",
@@ -75,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Marky"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178680",
@@ -84,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "2nd Man in Bar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000343",
@@ -93,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Gynecologist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0493706",
@@ -102,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382087",
@@ -111,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Clerk"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -120,19 +110,19 @@
       "imdbId": "nm0486228",
       "name": "George Langelaan",
       "sequence": 0,
-      "notes": "(short story)"
+      "notes": "(from the story by)"
     },
     {
       "imdbId": "nm0688279",
       "name": "Charles Edward Pogue",
-      "sequence": 1,
-      "notes": "(screenplay)"
+      "sequence": 2,
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0000343",
       "name": "David Cronenberg",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(screenplay by)"
     }
   ]
 }

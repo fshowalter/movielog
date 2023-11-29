@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0033537",
-  "title": "Dive Bomber",
-  "sortTitle": "Dive Bomber (1941)",
-  "year": 1941,
   "slug": "dive-bomber-1941",
-  "releaseDate": "1941-08-12",
+  "title": "Dive Bomber",
+  "originalTitle": "Dive Bomber",
+  "sortTitle": "Dive Bomber",
+  "year": 1941,
+  "releaseDate": "1941-08-30",
   "countries": [
     "United States"
   ],
   "genres": [
     "Drama",
+    "Romance",
     "War"
   ],
   "directors": [
     {
       "imdbId": "nm0002031",
       "name": "Michael Curtiz",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Lieutenant Doug Lee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534045",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Lieutenant Commander Joe Blake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000897",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lieutenant Commander Lance Rogers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0807252",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Linda Fisher"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035877",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Art Lyons"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Tim Griffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0420765",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "'Lucky' James"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0301887",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "John Thomas Anthony"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0026802",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Chubby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0647752",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Senior Surgeon at San Diego"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0601116",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. James"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382195",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Swede Larson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0623400",
@@ -135,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Corps Man"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -155,8 +144,8 @@
     {
       "imdbId": "nm0915693",
       "name": "Frank Wead",
-      "sequence": 2,
-      "notes": "(from a story by)"
+      "sequence": 3,
+      "notes": "(story)"
     }
   ]
 }

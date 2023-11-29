@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0065210",
-  "title": "Whirlpool",
-  "sortTitle": "Whirlpool (1970)",
-  "year": 1970,
   "slug": "whirlpool-1970",
+  "title": "Whirlpool",
+  "originalTitle": "Whirlpool",
+  "sortTitle": "Whirlpool",
+  "year": 1970,
   "releaseDate": "1970-01-01",
   "countries": [
     "Denmark",
@@ -11,14 +13,14 @@
   ],
   "genres": [
     "Drama",
+    "Horror",
     "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0488574",
       "name": "Jos\u00e9 Ram\u00f3n Larraz",
-      "sequence": 0,
-      "notes": "(as J.R. Larrath)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Theo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0627399",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Tulia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0027801",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Sarah"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0373765",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Rhonda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0335254",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Tom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113498",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mr. Field"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0421145",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Old Tramp"
-      ],
-      "notes": "(as Ernest Jennings)"
+      ]
     },
     {
       "imdbId": "nm0200347",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Pub Landlord"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1364937",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Eric"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1177027",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Inspector"
-      ],
-      "notes": "(as Barrie Craine)"
+      ]
     },
     {
       "imdbId": "nm0340685",
@@ -118,15 +110,13 @@
       "sequence": 10,
       "roles": [
         "Olivia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm5540302",
       "name": "John Davenport",
       "sequence": 11,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [
@@ -139,7 +129,7 @@
     {
       "imdbId": "nm0518525",
       "name": "Sam Lomberg",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on an idea by)"
     }
   ]

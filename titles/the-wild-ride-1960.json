@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054475",
-  "title": "The Wild Ride",
-  "sortTitle": "Wild Ride (1960)",
-  "year": 1960,
   "slug": "the-wild-ride-1960",
+  "title": "The Wild Ride",
+  "originalTitle": "The Wild Ride",
+  "sortTitle": "Wild Ride, The",
+  "year": 1960,
   "releaseDate": "1960-06-17",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0075769",
       "name": "Harvey Berman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Johnny Varron"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0141636",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Nancy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0063808",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Dave"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1226967",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Joyce"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1227007",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Barny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1229518",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Cliff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm8120401",
@@ -81,57 +76,49 @@
       "sequence": 6,
       "roles": [
         "Ann"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846230",
       "name": "Wesley Marie Tackitt",
       "sequence": 7,
-      "roles": [],
-      "notes": "(as Wesley Tackitt)"
+      "roles": []
     },
     {
       "imdbId": "nm1230094",
       "name": "Sydene Wallace",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm1227287",
       "name": "Donna Dabney",
       "sequence": 9,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm1227976",
       "name": "Garry Korpi",
       "sequence": 10,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0931155",
       "name": "Leonard Williams",
       "sequence": 11,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm1226348",
       "name": "John Holden",
       "sequence": 12,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm1229710",
       "name": "Raymond O'Day",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [

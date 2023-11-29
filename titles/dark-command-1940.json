@@ -1,25 +1,26 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0032383",
-  "title": "Dark Command",
-  "sortTitle": "Dark Command (1940)",
-  "year": 1940,
   "slug": "dark-command-1940",
-  "releaseDate": "1940-04-04",
+  "title": "Dark Command",
+  "originalTitle": "Dark Command",
+  "sortTitle": "Dark Command",
+  "year": 1940,
+  "releaseDate": "1940-04-15",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Adventure",
     "Drama",
     "Romance",
+    "War",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0909825",
       "name": "Raoul Walsh",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Mary McCloud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000078",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Bob Seton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0682074",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "William 'Will' Cantrell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001678",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Fletch McCloud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0371025",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Doc Grunch"
-      ],
-      "notes": "(as George Hayes)"
+      ]
     },
     {
       "imdbId": "nm0356004",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Angus McCloud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0537685",
@@ -84,8 +79,7 @@
       "roles": [
         "Mrs. Cantrell",
         "Mrs. Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0906940",
@@ -93,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Judge Buckner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768178",
@@ -102,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Bushropp"
-      ],
-      "notes": "(as Joseph Sawyer)"
+      ]
     },
     {
       "imdbId": "nm0533235",
@@ -111,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Mrs. Hale"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0531759",
@@ -120,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Dave"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054253",
@@ -129,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Mr. Hale"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -155,13 +144,13 @@
     {
       "imdbId": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0287430",
       "name": "Jan Fortune",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(adaptation)"
     }
   ]

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0065597",
-  "title": "Cry of the Banshee",
-  "sortTitle": "Cry of the Banshee (1970)",
-  "year": 1970,
   "slug": "cry-of-the-banshee-1970",
+  "title": "Cry of the Banshee",
+  "originalTitle": "Cry of the Banshee",
+  "sortTitle": "Cry of the Banshee",
+  "year": 1970,
   "releaseDate": "1970-07-22",
   "countries": [
     "United Kingdom"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0381638",
       "name": "Gordon Hessler",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,251 +27,223 @@
       "sequence": 0,
       "roles": [
         "Lord Edward Whitman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0675579",
-      "name": "Essy Persson",
-      "sequence": 1,
-      "roles": [
-        "Lady Patricia Whitman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0245495",
-      "name": "Hilary Heath",
-      "sequence": 2,
-      "roles": [
-        "Maureen Whitman"
-      ],
-      "notes": "(as Hilary Dwyer)"
-    },
-    {
-      "imdbId": "nm0726621",
-      "name": "Carl Rigg",
-      "sequence": 3,
-      "roles": [
-        "Harry Whitman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0153833",
-      "name": "Stephan Chase",
-      "sequence": 4,
-      "roles": [
-        "Sean Whitman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0428771",
-      "name": "Marshall Jones",
-      "sequence": 5,
-      "roles": [
-        "Father Tom"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0567124",
-      "name": "Andrew McCulloch",
-      "sequence": 6,
-      "roles": [
-        "Bully Boy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0255573",
-      "name": "Michael Elphick",
-      "sequence": 7,
-      "roles": [
-        "Burke"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0596198",
-      "name": "Pamela Moiseiwitsch",
-      "sequence": 8,
-      "roles": [
-        "Maid"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0541873",
-      "name": "Joyce Mandre",
-      "sequence": 9,
-      "roles": [
-        "Party Guest"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0404665",
-      "name": "Robert Hutton",
-      "sequence": 10,
-      "roles": [
-        "Party Guest"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0214742",
-      "name": "Guy Deghy",
-      "sequence": 11,
-      "roles": [
-        "Party Guest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0074949",
       "name": "Elisabeth Bergner",
-      "sequence": 12,
+      "sequence": 1,
       "roles": [
         "Oona"
-      ],
-      "notes": "(as Elizabeth Bergner)"
+      ]
     },
     {
-      "imdbId": "nm0610273",
-      "name": "Patrick Mower",
-      "sequence": 13,
+      "imdbId": "nm0675579",
+      "name": "Essy Persson",
+      "sequence": 2,
       "roles": [
-        "Roderick"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0265497",
-      "name": "Victoria Fairbrother",
-      "sequence": 14,
-      "roles": [
-        "Margaret Donald - Witch"
-      ],
-      "notes": "(as Pamela Farbrother)"
-    },
-    {
-      "imdbId": "nm0641323",
-      "name": "Quinn O'Hara",
-      "sequence": 15,
-      "roles": [
-        "Maggie - Witch"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0212609",
-      "name": "Jane Deady",
-      "sequence": 16,
-      "roles": [
-        "Naked Girl"
-      ],
-      "notes": null
+        "Lady Patricia Whitman"
+      ]
     },
     {
       "imdbId": "nm0341518",
       "name": "Hugh Griffith",
-      "sequence": 17,
+      "sequence": 3,
       "roles": [
         "Mickey"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0744412",
-      "name": "Jan Rossini",
-      "sequence": 18,
-      "roles": [
-        "Bess"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0311674",
       "name": "Sally Geeson",
-      "sequence": 19,
+      "sequence": 4,
       "roles": [
         "Sarah"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0404665",
+      "name": "Robert Hutton",
+      "sequence": 5,
+      "roles": [
+        "Party Guest"
+      ]
+    },
+    {
+      "imdbId": "nm0610273",
+      "name": "Patrick Mower",
+      "sequence": 6,
+      "roles": [
+        "Roderick"
+      ]
+    },
+    {
+      "imdbId": "nm0245495",
+      "name": "Hilary Heath",
+      "sequence": 7,
+      "roles": [
+        "Maureen Whitman"
+      ]
+    },
+    {
+      "imdbId": "nm0726621",
+      "name": "Carl Rigg",
+      "sequence": 8,
+      "roles": [
+        "Harry Whitman"
+      ]
+    },
+    {
+      "imdbId": "nm0153833",
+      "name": "Stephan Chase",
+      "sequence": 9,
+      "roles": [
+        "Sean Whitman"
+      ]
+    },
+    {
+      "imdbId": "nm0428771",
+      "name": "Marshall Jones",
+      "sequence": 10,
+      "roles": [
+        "Father Tom"
+      ]
+    },
+    {
+      "imdbId": "nm0567124",
+      "name": "Andrew McCulloch",
+      "sequence": 11,
+      "roles": [
+        "Bully Boy"
+      ]
+    },
+    {
+      "imdbId": "nm0255573",
+      "name": "Michael Elphick",
+      "sequence": 12,
+      "roles": [
+        "Burke"
+      ]
+    },
+    {
+      "imdbId": "nm0265497",
+      "name": "Victoria Fairbrother",
+      "sequence": 13,
+      "roles": [
+        "Margaret Donald - Witch"
+      ]
+    },
+    {
+      "imdbId": "nm0641323",
+      "name": "Quinn O'Hara",
+      "sequence": 14,
+      "roles": [
+        "Maggie - Witch"
+      ]
+    },
+    {
+      "imdbId": "nm0744412",
+      "name": "Jan Rossini",
+      "sequence": 15,
+      "roles": [
+        "Bess"
+      ]
     },
     {
       "imdbId": "nm0416528",
       "name": "Godfrey James",
-      "sequence": 20,
+      "sequence": 16,
       "roles": [
         "Head Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0458378",
       "name": "Gertan Klauber",
-      "sequence": 21,
+      "sequence": 17,
       "roles": [
         "Tavern Keeper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0072611",
       "name": "Peter Benson",
-      "sequence": 22,
+      "sequence": 18,
       "roles": [
         "Brander"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0214742",
+      "name": "Guy Deghy",
+      "sequence": 19,
+      "roles": [
+        "Party Guest"
+      ]
     },
     {
       "imdbId": "nm0263565",
       "name": "Richard Everett",
-      "sequence": 23,
+      "sequence": 20,
       "roles": [
         "Timothy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0783640",
       "name": "Louis Selwyn",
-      "sequence": 24,
+      "sequence": 21,
       "roles": [
         "Apprentice"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0048777",
       "name": "Micky Baker",
-      "sequence": 25,
+      "sequence": 22,
       "roles": [
         "Rider"
-      ],
-      "notes": "(as Mickey Baker)"
-    },
-    {
-      "imdbId": "nm0221425",
-      "name": "Carol Desmond",
-      "sequence": 26,
-      "roles": [
-        "Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0056707",
       "name": "Ann Barrass",
-      "sequence": 27,
+      "sequence": 23,
       "roles": [
         "Elga"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0212609",
+      "name": "Jane Deady",
+      "sequence": 24,
+      "roles": [
+        "Naked Girl"
+      ]
+    },
+    {
+      "imdbId": "nm0221425",
+      "name": "Carol Desmond",
+      "sequence": 25,
+      "roles": [
+        "Girl"
+      ]
+    },
+    {
+      "imdbId": "nm0541873",
+      "name": "Joyce Mandre",
+      "sequence": 26,
+      "roles": [
+        "Party Guest"
+      ]
+    },
+    {
+      "imdbId": "nm0596198",
+      "name": "Pamela Moiseiwitsch",
+      "sequence": 27,
+      "roles": [
+        "Maid"
+      ]
     },
     {
       "imdbId": "nm0575361",
@@ -278,8 +251,7 @@
       "sequence": 28,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692464",
@@ -287,8 +259,7 @@
       "sequence": 29,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001653",
@@ -296,8 +267,7 @@
       "sequence": 30,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0170324",
@@ -305,8 +275,7 @@
       "sequence": 31,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0820880",
@@ -314,8 +283,7 @@
       "sequence": 32,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0796232",
@@ -323,8 +291,7 @@
       "sequence": 33,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0426795",
@@ -332,8 +299,7 @@
       "sequence": 34,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943806",
@@ -341,8 +307,7 @@
       "sequence": 35,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0859586",
@@ -350,8 +315,7 @@
       "sequence": 36,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0756311",
@@ -359,8 +323,7 @@
       "sequence": 37,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0744935",
@@ -368,8 +331,7 @@
       "sequence": 38,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0398036",
@@ -377,8 +339,7 @@
       "sequence": 39,
       "roles": [
         "Villager"
-      ],
-      "notes": "(as Philly Howell)"
+      ]
     },
     {
       "imdbId": "nm0682361",
@@ -386,8 +347,7 @@
       "sequence": 40,
       "roles": [
         "Villager"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -400,13 +360,13 @@
     {
       "imdbId": "nm0446909",
       "name": "Tim Kelly",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0926924",
       "name": "Christopher Wicking",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0035052",
-  "title": "Meet the Stewarts",
-  "sortTitle": "Meet the Stewarts (1942)",
-  "year": 1942,
   "slug": "meet-the-stewarts-1942",
-  "releaseDate": "1942-05-21",
+  "title": "Meet the Stewarts",
+  "originalTitle": "Meet the Stewarts",
+  "sortTitle": "Meet the Stewarts",
+  "year": 1942,
+  "releaseDate": "1942-10-30",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0337586",
       "name": "Alfred E. Green",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Michael Stewart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0214168",
@@ -35,17 +35,15 @@
       "sequence": 1,
       "roles": [
         "Candace Goodwin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593372",
       "name": "Grant Mitchell",
       "sequence": 2,
       "roles": [
-        "Mr. Pierce Goodwin"
-      ],
-      "notes": null
+        "Mr. Goodwin"
+      ]
     },
     {
       "imdbId": "nm0309641",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Goodwin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720843",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Geraldine Stewart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164441",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Ted Graham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0247702",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "John Goodwin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0319268",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Jane Goodwin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002121",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Willametta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0065975",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Taxi Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330435",
@@ -116,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. Stewart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307324",
@@ -125,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Moving Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0240836",
@@ -134,8 +123,7 @@
       "sequence": 12,
       "roles": [
         "Moving Man"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -143,13 +131,13 @@
       "imdbId": "nm0223248",
       "name": "Karen DeWolf",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0242560",
       "name": "Elizabeth Dunn",
-      "sequence": 1,
-      "notes": "(story \"Something Borrowed\")"
+      "sequence": 2,
+      "notes": "(story)"
     }
   ]
 }

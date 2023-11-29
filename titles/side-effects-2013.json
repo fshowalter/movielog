@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt2053463",
-  "title": "Side Effects",
-  "sortTitle": "Side Effects (2013)",
-  "year": 2013,
   "slug": "side-effects-2013",
-  "releaseDate": "2013-01-31",
+  "title": "Side Effects",
+  "originalTitle": "Side Effects",
+  "sortTitle": "Side Effects",
+  "year": 2013,
+  "releaseDate": "2013-02-08",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0001752",
       "name": "Steven Soderbergh",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,35 +30,31 @@
       "sequence": 0,
       "roles": [
         "Emily Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm1439162",
-      "name": "Carmen Pelaez",
+      "imdbId": "nm0000179",
+      "name": "Jude Law",
       "sequence": 1,
       "roles": [
-        "Prison Desk Guard"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1677477",
-      "name": "Marin Ireland",
-      "sequence": 2,
-      "roles": [
-        "Upset Visitor"
-      ],
-      "notes": null
+        "Dr. Jonathan Banks"
+      ]
     },
     {
       "imdbId": "nm1475594",
       "name": "Channing Tatum",
-      "sequence": 3,
+      "sequence": 2,
       "roles": [
         "Martin Taylor"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0001876",
+      "name": "Catherine Zeta-Jones",
+      "sequence": 3,
+      "roles": [
+        "Dr. Victoria Siebert"
+      ]
     },
     {
       "imdbId": "nm0237164",
@@ -65,134 +62,119 @@
       "sequence": 4,
       "roles": [
         "Emily's Boss"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0235652",
-      "name": "Ann Dowd",
-      "sequence": 5,
-      "roles": [
-        "Martin's Mother"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm5486184",
-      "name": "Haraldo Alvarez",
-      "sequence": 6,
-      "roles": [
-        "Garage Attendant"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000179",
-      "name": "Jude Law",
-      "sequence": 7,
-      "roles": [
-        "Dr. Jonathan Banks"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1353808",
-      "name": "James Martinez",
-      "sequence": 8,
-      "roles": [
-        "Police Officer at Hospital"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm2479938",
-      "name": "Vladimir Versailles",
-      "sequence": 9,
-      "roles": [
-        "Augustin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0030751",
-      "name": "Jacqueline Antaramian",
-      "sequence": 10,
-      "roles": [
-        "Desk Nurse"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm3605847",
-      "name": "Michelle Vergara Moore",
-      "sequence": 11,
-      "roles": [
-        "Joan"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001876",
-      "name": "Catherine Zeta-Jones",
-      "sequence": 12,
-      "roles": [
-        "Dr. Victoria Siebert"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1705090",
-      "name": "Katie Lowes",
-      "sequence": 13,
-      "roles": [
-        "Conference Organizer"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0182345",
-      "name": "David Costabile",
-      "sequence": 14,
-      "roles": [
-        "Carl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0336701",
-      "name": "Mamie Gummer",
-      "sequence": 15,
-      "roles": [
-        "Kayla"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm5485911",
-      "name": "Steven Platt",
-      "sequence": 16,
-      "roles": [
-        "Bartender"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1497615",
-      "name": "Victor Cruz",
-      "sequence": 17,
-      "roles": [
-        "NYPD Officer Beahan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005416",
       "name": "Vinessa Shaw",
-      "sequence": 18,
+      "sequence": 5,
       "roles": [
         "Dierdre Banks"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0235652",
+      "name": "Ann Dowd",
+      "sequence": 6,
+      "roles": [
+        "Martin's Mother"
+      ]
+    },
+    {
+      "imdbId": "nm5486184",
+      "name": "Haraldo Alvarez",
+      "sequence": 7,
+      "roles": [
+        "Garage Attendant"
+      ]
+    },
+    {
+      "imdbId": "nm1677477",
+      "name": "Marin Ireland",
+      "sequence": 8,
+      "roles": [
+        "Upset Visitor"
+      ]
+    },
+    {
+      "imdbId": "nm1439162",
+      "name": "Carmen Pelaez",
+      "sequence": 9,
+      "roles": [
+        "Prison Desk Guard"
+      ]
+    },
+    {
+      "imdbId": "nm1353808",
+      "name": "James Martinez",
+      "sequence": 10,
+      "roles": [
+        "Police Officer at Hospital"
+      ]
+    },
+    {
+      "imdbId": "nm2479938",
+      "name": "Vladimir Versailles",
+      "sequence": 11,
+      "roles": [
+        "Augustin"
+      ]
+    },
+    {
+      "imdbId": "nm0030751",
+      "name": "Jacqueline Antaramian",
+      "sequence": 12,
+      "roles": [
+        "Desk Nurse"
+      ]
+    },
+    {
+      "imdbId": "nm3605847",
+      "name": "Michelle Vergara Moore",
+      "sequence": 13,
+      "roles": [
+        "Joan"
+      ]
+    },
+    {
+      "imdbId": "nm1705090",
+      "name": "Katie Lowes",
+      "sequence": 14,
+      "roles": [
+        "Conference Organizer"
+      ]
+    },
+    {
+      "imdbId": "nm0182345",
+      "name": "David Costabile",
+      "sequence": 15,
+      "roles": [
+        "Carl"
+      ]
+    },
+    {
+      "imdbId": "nm0336701",
+      "name": "Mamie Gummer",
+      "sequence": 16,
+      "roles": [
+        "Kayla"
+      ]
+    },
+    {
+      "imdbId": "nm5485911",
+      "name": "Steven Platt",
+      "sequence": 17,
+      "roles": [
+        "Bartender"
+      ]
+    },
+    {
+      "imdbId": "nm1497615",
+      "name": "Victor Cruz",
+      "sequence": 18,
+      "roles": [
+        "NYPD Officer Beahan"
+      ]
     },
     {
       "imdbId": "nm0735300",
@@ -200,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Pharmacist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0295334",
@@ -209,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Banks Partner #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0091553",
@@ -218,8 +198,7 @@
       "sequence": 21,
       "roles": [
         "Drug Rep"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732309",
@@ -227,8 +206,7 @@
       "sequence": 22,
       "roles": [
         "Banks Partner #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm5056668",
@@ -236,8 +214,7 @@
       "sequence": 23,
       "roles": [
         "Ezra Banks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1792244",
@@ -245,8 +222,7 @@
       "sequence": 24,
       "roles": [
         "Banks Patient #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4784175",
@@ -254,8 +230,7 @@
       "sequence": 25,
       "roles": [
         "Paramedic #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3103834",
@@ -263,8 +238,7 @@
       "sequence": 26,
       "roles": [
         "Paramedic #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0791864",
@@ -272,8 +246,7 @@
       "sequence": 27,
       "roles": [
         "NYPD Detective"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0622294",
@@ -281,8 +254,7 @@
       "sequence": 28,
       "roles": [
         "Assistant District Attorney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0459000",
@@ -290,8 +262,7 @@
       "sequence": 29,
       "roles": [
         "Transporting Officer Klein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2782521",
@@ -299,8 +270,7 @@
       "sequence": 30,
       "roles": [
         "Emily's Attorney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2540733",
@@ -308,8 +278,7 @@
       "sequence": 31,
       "roles": [
         "GMA Anchor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054254",
@@ -317,8 +286,7 @@
       "sequence": 32,
       "roles": [
         "Dr. Peter Joubert"
-      ],
-      "notes": "(as Sasha Bardey MD)"
+      ]
     },
     {
       "imdbId": "nm3969462",
@@ -326,8 +294,7 @@
       "sequence": 33,
       "roles": [
         "Reporter #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3815718",
@@ -335,8 +302,7 @@
       "sequence": 34,
       "roles": [
         "Reporter #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0548880",
@@ -344,8 +310,7 @@
       "sequence": 35,
       "roles": [
         "Banks Patient #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0711864",
@@ -353,8 +318,7 @@
       "sequence": 36,
       "roles": [
         "Banks Patient #3"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0429196",
@@ -362,8 +326,7 @@
       "sequence": 37,
       "roles": [
         "Jeffrey Childs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1627707",
@@ -371,8 +334,7 @@
       "sequence": 38,
       "roles": [
         "Judge #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1083283",
@@ -380,8 +342,7 @@
       "sequence": 39,
       "roles": [
         "Susan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2903649",
@@ -389,8 +350,7 @@
       "sequence": 40,
       "roles": [
         "Wards Island Administrator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3043150",
@@ -398,8 +358,7 @@
       "sequence": 41,
       "roles": [
         "ECT Patient"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0760977",
@@ -407,8 +366,7 @@
       "sequence": 42,
       "roles": [
         "ECT Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0030532",
@@ -416,8 +374,7 @@
       "sequence": 43,
       "roles": [
         "Disturbed Patient on Phone"
-      ],
-      "notes": "(as Nicole Ansari)"
+      ]
     },
     {
       "imdbId": "nm0478447",
@@ -425,8 +382,7 @@
       "sequence": 44,
       "roles": [
         "Wards Island Desk Nurse"
-      ],
-      "notes": "(as Lachanze)"
+      ]
     },
     {
       "imdbId": "nm1331015",
@@ -434,8 +390,7 @@
       "sequence": 45,
       "roles": [
         "Wards Island Nurse"
-      ],
-      "notes": "(as Alice Niedermair-Ludwig)"
+      ]
     },
     {
       "imdbId": "nm0196185",
@@ -443,8 +398,7 @@
       "sequence": 46,
       "roles": [
         "Wards Island Orderly"
-      ],
-      "notes": "(as Craig Mums Grant)"
+      ]
     },
     {
       "imdbId": "nm0568672",
@@ -452,8 +406,7 @@
       "sequence": 47,
       "roles": [
         "Judge #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3003238",
@@ -461,8 +414,7 @@
       "sequence": 48,
       "roles": [
         "Arresting Officer"
-      ],
-      "notes": "(as Raymond DeBendictis)"
+      ]
     },
     {
       "imdbId": "nm2556652",
@@ -470,8 +422,7 @@
       "sequence": 49,
       "roles": [
         "Zach"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0083024",
-  "title": "The Salamander",
-  "sortTitle": "Salamander (1981)",
-  "year": 1981,
   "slug": "the-salamander-1981",
-  "releaseDate": "1981-01-01",
+  "title": "The Salamander",
+  "originalTitle": "The Salamander",
+  "sortTitle": "Salamander, The",
+  "year": 1981,
+  "releaseDate": "1983-05-23",
   "countries": [
     "United Kingdom",
     "Italy"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0957038",
       "name": "Peter Zinner",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Carabinieri Colonel Dante Matucci"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000063",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Bruno Manzini"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000842",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Captain Steffanelli"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000356",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Lili Anders"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Prince Baldasar, the Director of Counterintelligence"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001476",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Major Carl Malinowski, USMC"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0809544",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "The Surgeon"
-      ],
-      "notes": "(as Paul Smith)"
+      ]
     },
     {
       "imdbId": "nm0825952",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Captain Roditi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001012",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Elena Leporello"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0908919",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "General Leporello"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0658425",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Carabinieri Major Giorgione"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0248815",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Princess Faubiani"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166706",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Captain Rigoli"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0259506",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Woodpecker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0028186",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "General Pantaleone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0821088",
@@ -162,8 +148,7 @@
       "sequence": 15,
       "roles": [
         "Concierge"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0261627",
@@ -171,8 +156,7 @@
       "sequence": 16,
       "roles": [
         "Minister of Defence"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0162635",
@@ -180,8 +164,25 @@
       "sequence": 17,
       "roles": [
         "Assassin"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0657769",
+      "name": "Nello Palladino",
+      "sequence": 30,
+      "roles": [
+        "Man at Pantaleone's Funeral",
+        "Party Guest"
+      ]
+    },
+    {
+      "imdbId": "nm5305092",
+      "name": "Lamberto Solfa",
+      "sequence": 33,
+      "roles": [
+        "Man at Funeral",
+        "Party Guest"
+      ]
     }
   ],
   "writers": [
@@ -194,13 +195,13 @@
     {
       "imdbId": "nm0785245",
       "name": "Rod Serling",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0922256",
       "name": "Morris West",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(novel) (as Morris L. West)"
     }
   ]

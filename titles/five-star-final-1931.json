@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021873",
-  "title": "Five Star Final",
-  "sortTitle": "Five Star Final (1931)",
-  "year": 1931,
   "slug": "five-star-final-1931",
-  "releaseDate": "1931-09-10",
+  "title": "Five Star Final",
+  "originalTitle": "Five Star Final",
+  "sortTitle": "Five Star Final",
+  "year": 1931,
+  "releaseDate": "1931-09-26",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0503777",
       "name": "Mervyn LeRoy",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,9 +27,8 @@
       "name": "Edward G. Robinson",
       "sequence": 0,
       "roles": [
-        "Joseph W. Randall"
-      ],
-      "notes": null
+        "Jos. W. Randall"
+      ]
     },
     {
       "imdbId": "nm0550620",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Jenny Townsend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912478",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Michael Townsend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0124236",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Phillip Weeks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0831889",
@@ -63,17 +60,15 @@
       "sequence": 4,
       "roles": [
         "Ziggie Feinstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0823503",
       "name": "Frances Starr",
       "sequence": 5,
       "roles": [
-        "Nancy 'Voorhees' Townsend"
-      ],
-      "notes": null
+        "Nancy"
+      ]
     },
     {
       "imdbId": "nm0613262",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Kitty Carmody"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "T. Vernon Isopod"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0533956",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Miss Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002177",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Bernard Hinchecliffe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0695525",
@@ -117,17 +108,15 @@
       "sequence": 10,
       "roles": [
         "Robert French"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254609",
       "name": "Robert Elliott",
       "sequence": 11,
       "roles": [
-        "R. J. Brannegan"
-      ],
-      "notes": null
+        "R.J. Brannegan"
+      ]
     }
   ],
   "writers": [
@@ -135,18 +124,18 @@
       "imdbId": "nm0919380",
       "name": "Louis Weitzenkorn",
       "sequence": 0,
-      "notes": "(based on the play by)"
+      "notes": "(play)"
     },
     {
       "imdbId": "nm0604526",
       "name": "Byron Morgan",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0520501",
       "name": "Robert Lord",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(adaptation)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt4687108",
-  "title": "In the Tall Grass",
-  "sortTitle": "In the Tall Grass (2019)",
-  "year": 2019,
   "slug": "in-the-tall-grass-2019",
-  "releaseDate": "2019-09-20",
+  "title": "In the Tall Grass",
+  "originalTitle": "In the Tall Grass",
+  "sortTitle": "In the Tall Grass",
+  "year": 2019,
+  "releaseDate": "2019-10-04",
   "countries": [
     "Canada",
     "United States"
@@ -19,8 +21,7 @@
     {
       "imdbId": "nm0622112",
       "name": "Vincenzo Natali",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +32,7 @@
       "roles": [
         "Becky",
         "sister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm10031930",
@@ -41,8 +41,7 @@
       "roles": [
         "Cal",
         "brother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0933940",
@@ -51,8 +50,7 @@
       "roles": [
         "Ross",
         "husband"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm7819375",
@@ -61,8 +59,7 @@
       "roles": [
         "Tobin",
         "son"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0933987",
@@ -71,8 +68,7 @@
       "roles": [
         "Natalie",
         "wife"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1549295",
@@ -81,8 +77,7 @@
       "roles": [
         "Travis",
         "Becky's husband"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0375649",
@@ -90,28 +85,42 @@
       "sequence": 6,
       "roles": [
         "Gas Attendant"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm11617463",
+      "name": "Ashley St. John",
+      "sequence": 7,
+      "roles": [
+        "Grass People"
+      ]
+    },
+    {
+      "imdbId": "nm2577400",
+      "name": "Peter D'Souza",
+      "sequence": 10,
+      "roles": [
+        "Mud Person",
+        "Grass Person"
+      ]
     },
     {
       "imdbId": "nm2769494",
       "name": "Everett Smith",
-      "sequence": 7,
+      "sequence": 11,
       "roles": [
         "Mud Man",
         "Grass Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm7249774",
       "name": "Amanda-May Wilson",
-      "sequence": 9,
+      "sequence": 13,
       "roles": [
         "Mud Person",
         "Grass Person"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -124,13 +133,13 @@
     {
       "imdbId": "nm0000175",
       "name": "Stephen King",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on the novella by)"
     },
     {
       "imdbId": "nm0454872",
       "name": "Joe Hill",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(based on the novella by)"
     }
   ]

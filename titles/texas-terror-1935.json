@@ -1,16 +1,16 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0027087",
-  "title": "Texas Terror",
-  "sortTitle": "Texas Terror (1935)",
-  "year": 1935,
   "slug": "texas-terror-1935",
+  "title": "Texas Terror",
+  "originalTitle": "Texas Terror",
+  "sortTitle": "Texas Terror",
+  "year": 1935,
   "releaseDate": "1935-02-01",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Action",
-    "Adventure",
     "Drama",
     "Western"
   ],
@@ -18,8 +18,7 @@
     {
       "imdbId": "nm0102908",
       "name": "Robert N. Bradbury",
-      "sequence": 0,
-      "notes": "(as R.N. Bradbury)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "John Higgins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115043",
@@ -38,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Bess Mathews"
-      ],
-      "notes": "(as Lucille Browne)"
+      ]
     },
     {
       "imdbId": "nm0556813",
@@ -47,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Joe Dickson"
-      ],
-      "notes": "(as Leroy Mason)"
+      ]
     },
     {
       "imdbId": "nm0256534",
@@ -56,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Aunt Martha Hubbard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0371025",
@@ -65,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Sheriff Ed Williams"
-      ],
-      "notes": "(as George Hayes)"
+      ]
     },
     {
       "imdbId": "nm0932912",
@@ -74,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Blackie Martin"
-      ],
-      "notes": "(as Buffalo Bill Jr.)"
+      ]
     },
     {
       "imdbId": "nm0408429",
@@ -83,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Blacksmith Bob"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0740674",
@@ -92,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Square Dance Caller"
-      ],
-      "notes": "(as Henry Roguemore)"
+      ]
     },
     {
       "imdbId": "nm0240538",
@@ -101,28 +92,7 @@
       "sequence": 8,
       "roles": [
         "Jake Abernathy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0352368",
-      "name": "Herman Hack",
-      "sequence": 12,
-      "roles": [
-        "Henchman",
-        "Dancer"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0679845",
-      "name": "Tex Phelps",
-      "sequence": 20,
-      "roles": [
-        "Henchman",
-        "Dancer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -135,7 +105,7 @@
     {
       "imdbId": "nm0102908",
       "name": "Robert N. Bradbury",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

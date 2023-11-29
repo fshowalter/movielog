@@ -1,17 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0064338",
-  "title": "The Castle of Fu Manchu",
-  "sortTitle": "Castle of Fu Manchu (1969)",
-  "year": 1969,
   "slug": "the-castle-of-fu-manchu-1969",
-  "releaseDate": "1969-05-30",
+  "title": "The Castle of Fu Manchu",
+  "originalTitle": "The Castle of Fu Manchu",
+  "sortTitle": "Castle of Fu Manchu, The",
+  "year": 1969,
+  "releaseDate": "1969-01-01",
   "countries": [
     "United Kingdom",
     "West Germany",
-    "Italy",
     "Spain",
-    "Liechtenstein",
-    "Turkey"
+    "Italy",
+    "Liechtenstein"
   ],
   "genres": [
     "Adventure",
@@ -22,8 +23,7 @@
     {
       "imdbId": "nm0001238",
       "name": "Jes\u00fas Franco",
-      "sequence": 0,
-      "notes": "(as Jess Franco)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -33,8 +33,7 @@
       "sequence": 0,
       "roles": [
         "Fu Manchu"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0338901",
@@ -42,8 +41,7 @@
       "sequence": 1,
       "roles": [
         "Nayland Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0548010",
@@ -51,8 +49,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Petrie"
-      ],
-      "notes": "(as Howard Marion Crawford)"
+      ]
     },
     {
       "imdbId": "nm0831512",
@@ -60,8 +57,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Curt Kessler"
-      ],
-      "notes": "(as Gunther Stoll)"
+      ]
     },
     {
       "imdbId": "nm0626219",
@@ -69,8 +65,7 @@
       "sequence": 4,
       "roles": [
         "Lisa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0675413",
@@ -79,17 +74,15 @@
       "roles": [
         "Marie",
         "Ingrid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0554656",
       "name": "Jos\u00e9 Manuel Mart\u00edn",
       "sequence": 6,
       "roles": [
-        "Omar Pashu"
-      ],
-      "notes": "(as Jose Manuel Martin)"
+        "Omar Pasha"
+      ]
     },
     {
       "imdbId": "nm0009393",
@@ -97,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "Melnik"
-      ],
-      "notes": "(as Werner Aprelat)"
+      ]
     },
     {
       "imdbId": "nm0157796",
@@ -106,58 +98,33 @@
       "sequence": 8,
       "roles": [
         "Lin Tang"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0048939",
-      "name": "Stanley Baker",
-      "sequence": 9,
-      "roles": [
-        "Running Man"
-      ],
-      "notes": "(archiveFootage)"
-    },
-    {
-      "imdbId": "nm0001958",
-      "name": "Dirk Bogarde",
-      "sequence": 10,
-      "roles": [
-        "Running Man"
-      ],
-      "notes": "(archiveFootage)"
+      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0869935",
+      "name": "Harry Alan Towers",
+      "sequence": 2,
+      "notes": "(screenplay) (as Peter Welbeck)"
+    },
+    {
       "imdbId": "nm0049621",
       "name": "Jaime Jes\u00fas Balc\u00e1zar",
-      "sequence": 0,
+      "sequence": 4,
       "notes": "(dialogue: Spanish version)"
     },
     {
       "imdbId": "nm0058600",
       "name": "Manfred Barthel",
-      "sequence": 1,
+      "sequence": 6,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0058600",
       "name": "Manfred Barthel",
-      "sequence": 2,
+      "sequence": 8,
       "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0356422",
-      "name": "Michael Haller",
-      "sequence": 3,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0869935",
-      "name": "Harry Alan Towers",
-      "sequence": 4,
-      "notes": "(screenplay) (as Peter Welbeck)"
     }
   ]
 }

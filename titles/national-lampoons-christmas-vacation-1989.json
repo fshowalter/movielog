@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0097958",
-  "title": "National Lampoon's Christmas Vacation",
-  "sortTitle": "National Lampoon's Christmas Vacation (1989)",
-  "year": 1989,
   "slug": "national-lampoons-christmas-vacation-1989",
-  "releaseDate": "1989-11-30",
+  "title": "National Lampoon's Christmas Vacation",
+  "originalTitle": "National Lampoon's Christmas Vacation",
+  "sortTitle": "National Lampoon's Christmas Vacation",
+  "year": 1989,
+  "releaseDate": "1989-12-01",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0154819",
       "name": "Jeremiah S. Chechik",
-      "sequence": 0,
-      "notes": "(as Jeremiah Chechik)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -25,72 +26,64 @@
       "name": "Chevy Chase",
       "sequence": 0,
       "roles": [
-        "Clark"
-      ],
-      "notes": null
+        "Clark Griswold"
+      ]
     },
     {
       "imdbId": "nm0000350",
       "name": "Beverly D'Angelo",
       "sequence": 1,
       "roles": [
-        "Ellen"
-      ],
-      "notes": null
+        "Ellen Griswold"
+      ]
     },
     {
       "imdbId": "nm0000496",
       "name": "Juliette Lewis",
       "sequence": 2,
       "roles": [
-        "Audrey"
-      ],
-      "notes": null
+        "Audrey Griswold"
+      ]
     },
     {
       "imdbId": "nm0301959",
       "name": "Johnny Galecki",
       "sequence": 3,
       "roles": [
-        "Rusty"
-      ],
-      "notes": null
+        "Rusty Griswold"
+      ]
     },
     {
       "imdbId": "nm0709907",
       "name": "John Randolph",
       "sequence": 4,
       "roles": [
-        "Clark, Sr."
-      ],
-      "notes": null
+        "Clark Griswold Sr."
+      ]
     },
     {
       "imdbId": "nm0002663",
       "name": "Diane Ladd",
       "sequence": 5,
       "roles": [
-        "Nora"
-      ],
-      "notes": null
+        "Nora Griswold"
+      ]
     },
     {
       "imdbId": "nm0550855",
       "name": "E.G. Marshall",
       "sequence": 6,
       "roles": [
-        "Art"
-      ],
-      "notes": null
+        "Art Smith"
+      ]
     },
     {
       "imdbId": "nm0005368",
       "name": "Doris Roberts",
       "sequence": 7,
       "roles": [
-        "Francis"
-      ],
-      "notes": null
+        "Frances Smith"
+      ]
     },
     {
       "imdbId": "nm0001642",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Cousin Eddie Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0283565",
@@ -107,26 +99,23 @@
       "sequence": 9,
       "roles": [
         "Cousin Catherine Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0121186",
       "name": "Cody Burger",
       "sequence": 10,
       "roles": [
-        "Rocky"
-      ],
-      "notes": null
+        "Rocky Johnson"
+      ]
     },
     {
       "imdbId": "nm0490477",
       "name": "Ellen Latzen",
       "sequence": 11,
       "roles": [
-        "Ruby Sue"
-      ],
-      "notes": "(as Ellen Hamilton Latzen)"
+        "Ruby Sue Johnson"
+      ]
     },
     {
       "imdbId": "nm0382676",
@@ -134,8 +123,7 @@
       "sequence": 12,
       "roles": [
         "Lewis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0703362",
@@ -143,8 +131,7 @@
       "sequence": 13,
       "roles": [
         "Bethany"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0573481",
@@ -152,8 +139,7 @@
       "sequence": 14,
       "roles": [
         "Bill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0346415",
@@ -161,8 +147,7 @@
       "sequence": 15,
       "roles": [
         "Todd Chester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000506",
@@ -170,8 +155,7 @@
       "sequence": 16,
       "roles": [
         "Margo Chester"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0778739",
@@ -179,8 +163,7 @@
       "sequence": 17,
       "roles": [
         "Mary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0533227",
@@ -188,8 +171,7 @@
       "sequence": 18,
       "roles": [
         "Delivery Boy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0236519",
@@ -197,8 +179,7 @@
       "sequence": 19,
       "roles": [
         "Frank Shirley"
-      ],
-      "notes": "(as Brian Doyle Murray)"
+      ]
     },
     {
       "imdbId": "nm0634101",
@@ -206,17 +187,15 @@
       "sequence": 20,
       "roles": [
         "Mrs. Shirley"
-      ],
-      "notes": "(as Natalia Nogulich)"
+      ]
     },
     {
-      "imdbId": "nm0258353",
+      "imdbId": "nm15319036",
       "name": "Tony Epper",
       "sequence": 21,
       "roles": [
         "Bozo #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0393611",
@@ -224,8 +203,7 @@
       "sequence": 22,
       "roles": [
         "Bozo #2"
-      ],
-      "notes": "(as Hank Hooker)"
+      ]
     },
     {
       "imdbId": "nm0284273",
@@ -233,8 +211,7 @@
       "sequence": 23,
       "roles": [
         "Swat Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0731230",
@@ -242,8 +219,7 @@
       "sequence": 24,
       "roles": [
         "Cop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0915981",
@@ -251,8 +227,7 @@
       "sequence": 25,
       "roles": [
         "Cop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0442220",
@@ -260,17 +235,7 @@
       "sequence": 26,
       "roles": [
         "Young Executive"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0515770",
-      "name": "Doug Llewelyn",
-      "sequence": 27,
-      "roles": [
-        "Parade Announcer"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [

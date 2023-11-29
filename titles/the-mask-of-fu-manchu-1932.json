@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023194",
-  "title": "The Mask of Fu Manchu",
-  "sortTitle": "Mask of Fu Manchu (1932)",
-  "year": 1932,
   "slug": "the-mask-of-fu-manchu-1932",
+  "title": "The Mask of Fu Manchu",
+  "originalTitle": "The Mask of Fu Manchu",
+  "sortTitle": "Mask of Fu Manchu, The",
+  "year": 1932,
   "releaseDate": "1932-11-05",
   "countries": [
     "United States"
@@ -17,14 +19,7 @@
     {
       "imdbId": "nm0102643",
       "name": "Charles Brabin",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0896533",
-      "name": "Charles Vidor",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -34,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Fu Manchu"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0832011",
@@ -43,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Nayland Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605904",
@@ -52,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Sheila Barton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0823633",
@@ -61,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Terrence Granville"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001485",
@@ -70,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Fah Lo See"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0380965",
@@ -79,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Von Berg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0335517",
@@ -88,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Sir Lionel Barton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0868456",
@@ -97,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "McLeod"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -123,7 +110,7 @@
     {
       "imdbId": "nm0737544",
       "name": "Sax Rohmer",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(from the story by)"
     }
   ]

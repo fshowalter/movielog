@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0031602",
-  "title": "Made for Each Other",
-  "sortTitle": "Made for Each Other (1939)",
-  "year": 1939,
   "slug": "made-for-each-other-1939",
+  "title": "Made for Each Other",
+  "originalTitle": "Made for Each Other",
+  "sortTitle": "Made for Each Other",
+  "year": 1939,
   "releaseDate": "1939-02-10",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0188669",
       "name": "John Cromwell",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Jane Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000071",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "John Horace Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002013",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Judge Joseph M. Doolittle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0914778",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Harriet Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0703600",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Conway"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0472557",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Sister Madeline"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -82,19 +77,13 @@
       "imdbId": "nm0842485",
       "name": "Jo Swerling",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0291263",
       "name": "Rose Franken",
-      "sequence": 1,
-      "notes": "(suggested by a story by)"
-    },
-    {
-      "imdbId": "nm0752541",
-      "name": "Frank Ryan",
       "sequence": 2,
-      "notes": "(contributor: humorous situations) (uncredited)"
+      "notes": "(suggested by a story by)"
     }
   ]
 }

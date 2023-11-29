@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0042035",
-  "title": "We Were Strangers",
-  "sortTitle": "We Were Strangers (1949)",
-  "year": 1949,
   "slug": "we-were-strangers-1949",
+  "title": "We Were Strangers",
+  "originalTitle": "We Were Strangers",
+  "sortTitle": "We Were Strangers",
+  "year": 1949,
   "releaseDate": "1949-04-27",
   "countries": [
     "United States"
@@ -11,14 +13,14 @@
   "genres": [
     "Adventure",
     "Drama",
+    "Film-Noir",
     "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "China Vald\u00e9s"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002092",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Tony Fenner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000784",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Armando Ariete"
-      ],
-      "notes": "(as Pedro Armendariz)"
+      ]
     },
     {
       "imdbId": "nm0738042",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Guillermo Montilla"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003895",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Chief"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0144082",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Miguel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0020200",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Ram\u00f3n S\u00e1nchez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0702210",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Toto"
-      ],
-      "notes": "(as Jose Perez)"
+      ]
     },
     {
       "imdbId": "nm0030194",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Mr. Seymour"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -120,14 +113,8 @@
     {
       "imdbId": "nm0843253",
       "name": "Robert Sylvester",
-      "sequence": 2,
-      "notes": "(novel \"Rough Sketch\")"
-    },
-    {
-      "imdbId": "nm0372942",
-      "name": "Ben Hecht",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(novel \"Rough Sketch\")"
     }
   ]
 }

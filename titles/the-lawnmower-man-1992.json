@@ -1,14 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0104692",
-  "title": "The Lawnmower Man",
-  "sortTitle": "Lawnmower Man (1992)",
-  "year": 1992,
   "slug": "the-lawnmower-man-1992",
+  "title": "The Lawnmower Man",
+  "originalTitle": "The Lawnmower Man",
+  "sortTitle": "Lawnmower Man, The",
+  "year": 1992,
   "releaseDate": "1992-03-06",
   "countries": [
     "United Kingdom",
-    "Japan",
-    "United States"
+    "Japan"
   ],
   "genres": [
     "Horror",
@@ -18,8 +19,7 @@
     {
       "imdbId": "nm0502577",
       "name": "Brett Leonard",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,17 +29,15 @@
       "sequence": 0,
       "roles": [
         "Jobe Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000112",
       "name": "Pierce Brosnan",
       "sequence": 1,
       "roles": [
-        "Dr. Lawrence Angelo"
-      ],
-      "notes": null
+        "Lawrence Angelo"
+      ]
     },
     {
       "imdbId": "nm0942486",
@@ -47,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Marnie Burke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0109517",
@@ -56,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Sebastian Timms"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0507212",
@@ -65,26 +61,23 @@
       "sequence": 4,
       "roles": [
         "Terry McKeen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0805177",
       "name": "Jeremy Slate",
       "sequence": 5,
       "roles": [
-        "Father Francis McKeen"
-      ],
-      "notes": null
+        "Father McKeen"
+      ]
     },
     {
       "imdbId": "nm0606487",
       "name": "Dean Norris",
       "sequence": 6,
       "roles": [
-        "The Director"
-      ],
-      "notes": null
+        "Director"
+      ]
     },
     {
       "imdbId": "nm0168853",
@@ -92,80 +85,71 @@
       "sequence": 7,
       "roles": [
         "Caroline Angelo"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0484830",
-      "name": "Jim Landis",
-      "sequence": 8,
-      "roles": [
-        "Ed Walts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0263283",
       "name": "Troy Evans",
-      "sequence": 9,
+      "sequence": 8,
       "roles": [
-        "Lieutenant Goodwin"
-      ],
-      "notes": null
+        "Lt. Goodwin"
+      ]
     },
     {
       "imdbId": "nm0562618",
       "name": "Rosalee Mayeux",
-      "sequence": 10,
+      "sequence": 9,
       "roles": [
         "Carla Parkette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0639432",
       "name": "Austin O'Brien",
-      "sequence": 11,
+      "sequence": 10,
       "roles": [
         "Peter Parkette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195702",
       "name": "Michael Gregory",
-      "sequence": 12,
+      "sequence": 11,
       "roles": [
         "Security Chief"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0366356",
       "name": "Joe Hart",
-      "sequence": 13,
+      "sequence": 12,
       "roles": [
         "Patrolman Cooley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0490855",
       "name": "John Laughlin",
-      "sequence": 14,
+      "sequence": 13,
       "roles": [
         "Jake Simpson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0510140",
       "name": "Ray Lykins",
-      "sequence": 15,
+      "sequence": 14,
       "roles": [
         "Harold Parkette"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0484830",
+      "name": "Jim Landis",
+      "sequence": 15,
+      "roles": [
+        "Ed Walts"
+      ]
     },
     {
       "imdbId": "nm0885473",
@@ -173,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Day Gate Guard"
-      ],
-      "notes": "(as Mike Valverde)"
+      ]
     },
     {
       "imdbId": "nm0710632",
@@ -182,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Dolly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0172806",
@@ -191,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "Night Gate Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0806676",
@@ -200,8 +181,7 @@
       "sequence": 19,
       "roles": [
         "Assistant"
-      ],
-      "notes": "(as Jonathan Smart)"
+      ]
     },
     {
       "imdbId": "nm0288065",
@@ -209,8 +189,7 @@
       "sequence": 20,
       "roles": [
         "Letchworth"
-      ],
-      "notes": "(as Steffen Gregory Foster)"
+      ]
     },
     {
       "imdbId": "nm0006535",
@@ -218,8 +197,7 @@
       "sequence": 21,
       "roles": [
         "Security Tech"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0682334",
@@ -227,8 +205,7 @@
       "sequence": 22,
       "roles": [
         "Skinhead Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0740241",
@@ -236,8 +213,7 @@
       "sequence": 23,
       "roles": [
         "Older Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0072910",
@@ -245,8 +221,7 @@
       "sequence": 24,
       "roles": [
         "White Coat"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0284943",
@@ -254,8 +229,7 @@
       "sequence": 25,
       "roles": [
         "Hotel Waiter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0244281",
@@ -263,8 +237,7 @@
       "sequence": 26,
       "roles": [
         "Young Woman Clerk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126169",
@@ -272,8 +245,7 @@
       "sequence": 27,
       "roles": [
         "Letchworth Buddy"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -281,19 +253,19 @@
       "imdbId": "nm0000175",
       "name": "Stephen King",
       "sequence": 0,
-      "notes": "(title only) (credit removed following lawsuit)"
+      "notes": "(based on a short story by) (credit removed following lawsuit)"
     },
     {
       "imdbId": "nm0502577",
       "name": "Brett Leonard",
-      "sequence": 1,
-      "notes": "(screenplay)"
+      "sequence": 2,
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0263518",
       "name": "Gimel Everett",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(screenplay by)"
     }
   ]
 }

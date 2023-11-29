@@ -1,14 +1,17 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0053125",
-  "title": "North by Northwest",
-  "sortTitle": "North by Northwest (1959)",
-  "year": 1959,
   "slug": "north-by-northwest-1959",
-  "releaseDate": "1959-07-01",
+  "title": "North by Northwest",
+  "originalTitle": "North by Northwest",
+  "sortTitle": "North by Northwest",
+  "year": 1959,
+  "releaseDate": "1959-12-18",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Action",
     "Adventure",
     "Mystery",
     "Thriller"
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Roger Thornhill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001693",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Eve Kendall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000051",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Phillip Vandamm"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0484829",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Clara Thornhill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001991",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "The Professor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0404360",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Townsend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0643211",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Lester Townsend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001445",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Leonard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0929965",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Valerian"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0686857",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Victor Larrabee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254006",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Licht"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0871876",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Auctioneer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0177642",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Dr. Cross"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0574686",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Sergeant Flamm"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0083081",
@@ -154,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Captain Junket"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0528373",
@@ -163,18 +150,16 @@
       "sequence": 15,
       "roles": [
         "Charley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768538",
       "name": "Jeffrey Sayre",
-      "sequence": 105,
+      "sequence": 106,
       "roles": [
         "Hotel Lounge Patron",
         "Man at Mt. Rushmore Cafeteria"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

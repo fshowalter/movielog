@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0061452",
-  "title": "Casino Royale",
-  "sortTitle": "Casino Royale (1967)",
-  "year": 1967,
   "slug": "casino-royale-1967",
-  "releaseDate": "1967-04-13",
+  "title": "Casino Royale",
+  "originalTitle": "Casino Royale",
+  "sortTitle": "Casino Royale",
+  "year": 1967,
+  "releaseDate": "1967-04-28",
   "countries": [
     "United Kingdom",
     "United States"
@@ -16,38 +18,27 @@
     {
       "imdbId": "nm0346436",
       "name": "Val Guest",
-      "sequence": 0,
-      "notes": "(scenes with Woody Allen and additional scenes with David Niven)"
+      "sequence": 0
     },
     {
       "imdbId": "nm0400731",
       "name": "Ken Hughes",
-      "sequence": 1,
-      "notes": "(Berlin scenes) (as Kenneth Hughes)"
+      "sequence": 1
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 2,
-      "notes": "(scenes at Sir James Bond's house and castle in Scotland scenes)"
+      "sequence": 2
     },
     {
       "imdbId": "nm0569825",
       "name": "Joseph McGrath",
-      "sequence": 3,
-      "notes": "(scenes with Peter Sellers, Ursula Andress and Orson Welles)"
+      "sequence": 3
     },
     {
       "imdbId": "nm0663577",
       "name": "Robert Parrish",
-      "sequence": 4,
-      "notes": "(scenes with Peter Sellers and Orson Welles)"
-    },
-    {
-      "imdbId": "nm0848234",
-      "name": "Richard Talmadge",
-      "sequence": 5,
-      "notes": "(uncredited) (Casino Royale finale)"
+      "sequence": 4
     }
   ],
   "performers": [
@@ -57,8 +48,7 @@
       "sequence": 0,
       "roles": [
         "Evelyn Tremble"
-      ],
-      "notes": "(James Bond - 007)"
+      ]
     },
     {
       "imdbId": "nm0000266",
@@ -66,8 +56,7 @@
       "sequence": 1,
       "roles": [
         "Vesper Lynd"
-      ],
-      "notes": "(007)"
+      ]
     },
     {
       "imdbId": "nm0000057",
@@ -75,8 +64,7 @@
       "sequence": 2,
       "roles": [
         "Sir James Bond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000080",
@@ -84,8 +72,7 @@
       "sequence": 3,
       "roles": [
         "Le Chiffre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0678620",
@@ -93,8 +80,7 @@
       "sequence": 4,
       "roles": [
         "Mata Bond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0492002",
@@ -102,8 +88,7 @@
       "sequence": 5,
       "roles": [
         "The Detainer"
-      ],
-      "notes": "(007)"
+      ]
     },
     {
       "imdbId": "nm0000095",
@@ -111,8 +96,7 @@
       "sequence": 6,
       "roles": [
         "Jimmy Bond"
-      ],
-      "notes": "(Dr. Noah)"
+      ]
     },
     {
       "imdbId": "nm0000039",
@@ -120,8 +104,7 @@
       "sequence": 7,
       "roles": [
         "Agent Mimi"
-      ],
-      "notes": "(Alias Lady Fiona)"
+      ]
     },
     {
       "imdbId": "nm0000034",
@@ -129,8 +112,7 @@
       "sequence": 8,
       "roles": [
         "Ransome"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000964",
@@ -138,8 +120,7 @@
       "sequence": 9,
       "roles": [
         "Le Grand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001379",
@@ -147,8 +128,7 @@
       "sequence": 10,
       "roles": [
         "McTarry"
-      ],
-      "notes": "(M)"
+      ]
     },
     {
       "imdbId": "nm0441069",
@@ -156,8 +136,7 @@
       "sequence": 11,
       "roles": [
         "Smernov"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706368",
@@ -165,8 +144,7 @@
       "sequence": 12,
       "roles": [
         "George Raft"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000901",
@@ -174,8 +152,7 @@
       "sequence": 13,
       "roles": [
         "French Legionnaire"
-      ],
-      "notes": "(as Jean Paul Belmondo)"
+      ]
     },
     {
       "imdbId": "nm0178414",
@@ -183,8 +160,7 @@
       "sequence": 14,
       "roles": [
         "Cooper"
-      ],
-      "notes": "(James Bond - 007)"
+      ]
     },
     {
       "imdbId": "nm0099054",
@@ -192,8 +168,7 @@
       "sequence": 15,
       "roles": [
         "Moneypenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0780029",
@@ -201,8 +176,7 @@
       "sequence": 16,
       "roles": [
         "Buttercup"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0509145",
@@ -210,8 +184,7 @@
       "sequence": 17,
       "roles": [
         "Eliza"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0188004",
@@ -219,8 +192,7 @@
       "sequence": 18,
       "roles": [
         "Heather"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0852327",
@@ -228,8 +200,7 @@
       "sequence": 19,
       "roles": [
         "Peg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000302",
@@ -237,8 +208,7 @@
       "sequence": 20,
       "roles": [
         "Miss Goodthighs"
-      ],
-      "notes": "(as Jacky Bisset)"
+      ]
     },
     {
       "imdbId": "nm0060406",
@@ -246,8 +216,7 @@
       "sequence": 21,
       "roles": [
         "Meg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0703032",
@@ -255,8 +224,7 @@
       "sequence": 22,
       "roles": [
         "Frau Hoffner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0632368",
@@ -264,8 +232,7 @@
       "sequence": 23,
       "roles": [
         "Hadley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0179196",
@@ -273,8 +240,7 @@
       "sequence": 24,
       "roles": [
         "Polo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330101",
@@ -282,8 +248,7 @@
       "sequence": 25,
       "roles": [
         "Casino Director"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0187754",
@@ -291,8 +256,7 @@
       "sequence": 26,
       "roles": [
         "Taxi Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1064352",
@@ -300,8 +264,7 @@
       "sequence": 27,
       "roles": [
         "Fang Leader"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0089944",
@@ -309,8 +272,7 @@
       "sequence": 28,
       "roles": [
         "Casino Doorman & M.I.5. Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001933",
@@ -318,8 +280,7 @@
       "sequence": 29,
       "roles": [
         "'Q'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0920272",
@@ -327,8 +288,7 @@
       "sequence": 30,
       "roles": [
         "'Q's' Assistant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534280",
@@ -336,8 +296,7 @@
       "sequence": 31,
       "roles": [
         "Inspector Mathis"
-      ],
-      "notes": "(as Duncan MaCrae)"
+      ]
     },
     {
       "imdbId": "nm0823174",
@@ -345,8 +304,7 @@
       "sequence": 32,
       "roles": [
         "Cashier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0614883",
@@ -354,8 +312,7 @@
       "sequence": 33,
       "roles": [
         "Chic"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0746130",
@@ -363,8 +320,7 @@
       "sequence": 34,
       "roles": [
         "John"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0915077",
@@ -372,8 +328,7 @@
       "sequence": 35,
       "roles": [
         "British Army Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0792996",
@@ -381,8 +336,7 @@
       "sequence": 36,
       "roles": [
         "Le Chiffre's Representative"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378612",
@@ -390,8 +344,7 @@
       "sequence": 37,
       "roles": [
         "1st Piper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0727146",
@@ -399,8 +352,7 @@
       "sequence": 38,
       "roles": [
         "Control Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0738050",
@@ -408,48 +360,52 @@
       "sequence": 39,
       "roles": [
         "Captain of the Guards"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0065271",
+      "name": "Roy Beck",
+      "sequence": 46,
+      "roles": [
+        "Casino Patron",
+        "Tourist"
+      ]
     },
     {
       "imdbId": "nm0118543",
       "name": "Ken Buckle",
-      "sequence": 51,
+      "sequence": 52,
       "roles": [
         "Crewman",
         "Gamekeeper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0191855",
       "name": "Bill Cummings",
-      "sequence": 58,
+      "sequence": 60,
       "roles": [
         "Russian Officer",
         "Cowboy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245581",
       "name": "Valentine Dyall",
-      "sequence": 65,
+      "sequence": 67,
       "roles": [
         "Vesper Lynd's Assistant",
         "Dr. Noah's Voice"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732569",
       "name": "Doug Robinson",
-      "sequence": 106,
+      "sequence": 108,
       "roles": [
         "Russian Officer",
         "Wrestler"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -474,50 +430,8 @@
     {
       "imdbId": "nm0001220",
       "name": "Ian Fleming",
-      "sequence": 3,
-      "notes": "(suggested by the novel \"Casino Royale\")"
-    },
-    {
-      "imdbId": "nm0000095",
-      "name": "Woody Allen",
       "sequence": 4,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0000634",
-      "name": "Peter Sellers",
-      "sequence": 5,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0000697",
-      "name": "Billy Wilder",
-      "sequence": 6,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0346436",
-      "name": "Val Guest",
-      "sequence": 7,
-      "notes": "(additional dialogue) (uncredited)"
-    },
-    {
-      "imdbId": "nm0372942",
-      "name": "Ben Hecht",
-      "sequence": 8,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0375342",
-      "name": "Joseph Heller",
-      "sequence": 9,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0816143",
-      "name": "Terry Southern",
-      "sequence": 10,
-      "notes": "() (uncredited)"
+      "notes": "(suggested by the novel \"Casino Royale\")"
     }
   ]
 }

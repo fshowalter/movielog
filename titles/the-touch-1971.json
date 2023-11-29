@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0066826",
-  "title": "The Touch",
-  "sortTitle": "Touch (1971)",
-  "year": 1971,
   "slug": "the-touch-1971",
-  "releaseDate": "1971-06-26",
+  "title": "The Touch",
+  "originalTitle": "The Touch",
+  "sortTitle": "Touch, The",
+  "year": 1971,
+  "releaseDate": "1971-07-14",
   "countries": [
     "Sweden",
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000005",
       "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": "(a film by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "David Kovac"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000761",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Karin Vergerus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001884",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Andreas Vergerus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0715693",
@@ -54,16 +52,8 @@
       "sequence": 3,
       "roles": [
         "Sara Kovac"
-      ],
-      "notes": null
+      ]
     }
   ],
-  "writers": [
-    {
-      "imdbId": "nm0000005",
-      "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": "(screenplay) (uncredited)"
-    }
-  ]
+  "writers": []
 }

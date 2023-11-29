@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0069467",
-  "title": "Cries & Whispers",
-  "sortTitle": "Cries & Whispers (1972)",
-  "year": 1972,
   "slug": "cries-whispers-1972",
-  "releaseDate": "1972-12-21",
+  "title": "Cries & Whispers",
+  "originalTitle": "Viskningar och rop",
+  "sortTitle": "Cries & Whispers",
+  "year": 1972,
+  "releaseDate": "1973-03-05",
   "countries": [
     "Sweden"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0000005",
       "name": "Ingmar Bergman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,26 +27,25 @@
       "sequence": 0,
       "roles": [
         "Agnes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0843306",
       "name": "Kari Sylwan",
       "sequence": 1,
       "roles": [
-        "Anna"
-      ],
-      "notes": null
+        "Anna",
+        "maid"
+      ]
     },
     {
       "imdbId": "nm0862026",
       "name": "Ingrid Thulin",
       "sequence": 2,
       "roles": [
-        "Karin"
-      ],
-      "notes": null
+        "Karin",
+        "Agnes' sister"
+      ]
     },
     {
       "imdbId": "nm0880521",
@@ -53,18 +53,17 @@
       "sequence": 3,
       "roles": [
         "Maria",
-        "Mother"
-      ],
-      "notes": null
+        "Agnes' sister"
+      ]
     },
     {
       "imdbId": "nm0252244",
       "name": "Anders Ek",
       "sequence": 4,
       "roles": [
-        "Isak"
-      ],
-      "notes": null
+        "Isak",
+        "priest"
+      ]
     },
     {
       "imdbId": "nm0318676",
@@ -72,17 +71,16 @@
       "sequence": 5,
       "roles": [
         "Storyteller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0430746",
       "name": "Erland Josephson",
       "sequence": 6,
       "roles": [
-        "David"
-      ],
-      "notes": null
+        "David",
+        "doctor"
+      ]
     },
     {
       "imdbId": "nm0605786",
@@ -90,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Joakim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0959813",
@@ -99,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Fredrik"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

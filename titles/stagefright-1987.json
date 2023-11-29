@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0092576",
-  "title": "StageFright",
-  "sortTitle": "StageFright (1987)",
-  "year": 1987,
   "slug": "stagefright-1987",
-  "releaseDate": "1987-01-01",
+  "title": "StageFright",
+  "originalTitle": "Deliria",
+  "sortTitle": "StageFright",
+  "year": 1987,
+  "releaseDate": "1987-02-08",
   "countries": [
     "Italy"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0811714",
       "name": "Michele Soavi",
-      "sequence": 0,
-      "notes": "(as Michael Soavi)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,143 +28,127 @@
       "sequence": 0,
       "roles": [
         "Peter"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0192556",
-      "name": "Barbara Cupisti",
-      "sequence": 1,
-      "roles": [
-        "Alicia"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0278455",
-      "name": "Domenico Fiore",
-      "sequence": 2,
-      "roles": [
-        "Police Chief"
-      ],
-      "notes": "(as Don Fiore)"
-    },
-    {
-      "imdbId": "nm0322855",
-      "name": "Robert Gligorov",
-      "sequence": 3,
-      "roles": [
-        "Danny"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0461658",
-      "name": "Mickey Knox",
-      "sequence": 4,
-      "roles": [
-        "Old Cop"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0518422",
-      "name": "Giovanni Lombardo Radice",
-      "sequence": 5,
-      "roles": [
-        "Brett"
-      ],
-      "notes": "(as John Morghen)"
-    },
-    {
-      "imdbId": "nm0662147",
-      "name": "Clain Parker",
-      "sequence": 6,
-      "roles": [
-        "Irving Wallace"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0663445",
-      "name": "Loredana Parrella",
-      "sequence": 7,
-      "roles": [
-        "Corinne"
-      ],
-      "notes": "(as Lori Parrel)"
-    },
-    {
-      "imdbId": "nm0680101",
-      "name": "Martin Philips",
-      "sequence": 8,
-      "roles": [
-        "Mark"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0760178",
-      "name": "James Sampson",
-      "sequence": 9,
-      "roles": [
-        "Willy"
-      ],
-      "notes": "(as James E.R. Sampson)"
-    },
-    {
-      "imdbId": "nm0777914",
-      "name": "Ulrike Schwerk",
-      "sequence": 10,
-      "roles": [
-        "Betty"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0783325",
-      "name": "Mary Sellers",
-      "sequence": 11,
-      "roles": [
-        "Laurel"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0808740",
-      "name": "Jo Ann Smith",
-      "sequence": 12,
-      "roles": [
-        "Sybil"
-      ],
-      "notes": "(as Jo Anne Smith)"
-    },
-    {
-      "imdbId": "nm0896235",
-      "name": "Piero Vida",
-      "sequence": 13,
-      "roles": [
-        "Ferrari"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054803",
       "name": "Richard Barkeley",
-      "sequence": 14,
+      "sequence": 1,
       "roles": [
-        "Dr. Porter"
-      ],
-      "notes": null
+        "Doctor Porter"
+      ]
+    },
+    {
+      "imdbId": "nm0192556",
+      "name": "Barbara Cupisti",
+      "sequence": 2,
+      "roles": [
+        "Alicia"
+      ]
+    },
+    {
+      "imdbId": "nm0278455",
+      "name": "Domenico Fiore",
+      "sequence": 3,
+      "roles": [
+        "Police Chief"
+      ]
+    },
+    {
+      "imdbId": "nm0322855",
+      "name": "Robert Gligorov",
+      "sequence": 4,
+      "roles": [
+        "Danny"
+      ]
     },
     {
       "imdbId": "nm0325307",
       "name": "Sheila Goldberg",
-      "sequence": 15,
+      "sequence": 5,
       "roles": [
         "Nurse"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0461658",
+      "name": "Mickey Knox",
+      "sequence": 6,
+      "roles": [
+        "Old Cop"
+      ]
+    },
+    {
+      "imdbId": "nm0518422",
+      "name": "Giovanni Lombardo Radice",
+      "sequence": 7,
+      "roles": [
+        "Brett"
+      ]
+    },
+    {
+      "imdbId": "nm0662147",
+      "name": "Clain Parker",
+      "sequence": 8,
+      "roles": [
+        "Irving Wallace"
+      ]
+    },
+    {
+      "imdbId": "nm0663445",
+      "name": "Loredana Parrella",
+      "sequence": 9,
+      "roles": [
+        "Corinne"
+      ]
+    },
+    {
+      "imdbId": "nm0680101",
+      "name": "Martin Philips",
+      "sequence": 10,
+      "roles": [
+        "Mark"
+      ]
+    },
+    {
+      "imdbId": "nm0760178",
+      "name": "James Edward Sampson",
+      "sequence": 11,
+      "roles": [
+        "Willy"
+      ]
+    },
+    {
+      "imdbId": "nm0777914",
+      "name": "Ulrike Schwerk",
+      "sequence": 12,
+      "roles": [
+        "Betty"
+      ]
+    },
+    {
+      "imdbId": "nm0783325",
+      "name": "Mary Sellers",
+      "sequence": 13,
+      "roles": [
+        "Laurel"
+      ]
+    },
+    {
+      "imdbId": "nm0808740",
+      "name": "Jo Ann Smith",
+      "sequence": 14,
+      "roles": [
+        "Sybil"
+      ]
+    },
+    {
+      "imdbId": "nm0896235",
+      "name": "Piero Vida",
+      "sequence": 15,
+      "roles": [
+        "Ferrari"
+      ]
     },
     {
       "imdbId": "nm0330114",
@@ -171,8 +156,7 @@
       "sequence": 16,
       "roles": [
         "Dancer"
-      ],
-      "notes": "(as Dany Gordon)"
+      ]
     },
     {
       "imdbId": "nm0433008",
@@ -180,8 +164,7 @@
       "sequence": 17,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662853",
@@ -189,8 +172,7 @@
       "sequence": 18,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1225729",
@@ -198,8 +180,7 @@
       "sequence": 19,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692377",
@@ -207,8 +188,7 @@
       "sequence": 20,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0743063",
@@ -216,8 +196,7 @@
       "sequence": 21,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1225553",
@@ -225,8 +204,7 @@
       "sequence": 22,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0755597",
@@ -234,8 +212,7 @@
       "sequence": 23,
       "roles": [
         "Dancer"
-      ],
-      "notes": "(as Simone Sardon)"
+      ]
     },
     {
       "imdbId": "nm0776188",
@@ -243,8 +220,7 @@
       "sequence": 24,
       "roles": [
         "Dancer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0776349",
@@ -252,8 +228,7 @@
       "sequence": 25,
       "roles": [
         "Dancer"
-      ],
-      "notes": "(as Sandy Schultz)"
+      ]
     }
   ],
   "writers": [
@@ -266,7 +241,7 @@
     {
       "imdbId": "nm0325307",
       "name": "Sheila Goldberg",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(dialogue)"
     }
   ]

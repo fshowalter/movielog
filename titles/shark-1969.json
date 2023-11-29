@@ -1,13 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0066365",
-  "title": "Shark",
-  "sortTitle": "Shark (1969)",
-  "year": 1969,
   "slug": "shark-1969",
+  "title": "Shark",
+  "originalTitle": "Shark!",
+  "sortTitle": "Shark",
+  "year": 1969,
   "releaseDate": "1969-10-08",
   "countries": [
-    "United States",
-    "Mexico"
+    "Mexico",
+    "United States"
   ],
   "genres": [
     "Action",
@@ -18,14 +20,7 @@
     {
       "imdbId": "nm0002087",
       "name": "Samuel Fuller",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0692414",
-      "name": "Rafael Portillo",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -35,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Caine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0447913",
@@ -44,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Doc"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0837959",
@@ -53,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Prof. Dan Mallare"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0683831",
@@ -62,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Anna"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0717592",
@@ -71,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Yusef"
-      ],
-      "notes": "(as Francisco Reyguera)"
+      ]
     },
     {
       "imdbId": "nm0524468",
@@ -80,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Inspector Barok"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0023170",
@@ -89,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Latalla"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0057949",
@@ -98,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Runt"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -112,20 +99,14 @@
     {
       "imdbId": "nm0240812",
       "name": "John T. Dugan",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay) (as John Kingsbridge)"
     },
     {
       "imdbId": "nm0002087",
       "name": "Samuel Fuller",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0400731",
-      "name": "Ken Hughes",
-      "sequence": 3,
-      "notes": "(adaptation) (uncredited)"
     }
   ]
 }

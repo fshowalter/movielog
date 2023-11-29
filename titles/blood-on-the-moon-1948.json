@@ -1,22 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0040175",
-  "title": "Blood on the Moon",
-  "sortTitle": "Blood on the Moon (1948)",
-  "year": 1948,
   "slug": "blood-on-the-moon-1948",
-  "releaseDate": "1948-11-11",
+  "title": "Blood on the Moon",
+  "originalTitle": "Blood on the Moon",
+  "sortTitle": "Blood on the Moon",
+  "year": 1948,
+  "releaseDate": "1948-11-21",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0936404",
       "name": "Robert Wise",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Jim Garry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000895",
@@ -35,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Amy Lufton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0696481",
@@ -44,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Tate Riling"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000974",
@@ -53,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Kris Barden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0857187",
@@ -62,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Carol Lufton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269709",
@@ -71,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Jake Pindalest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0876451",
@@ -80,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "John Lufton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0569902",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Milo Sweet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0949410",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Joe Shotten"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0878927",
@@ -107,17 +100,15 @@
       "sequence": 9,
       "roles": [
         "Frank Reardon"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0178055",
+      "imdbId": "nm0178052",
       "name": "George Cooper",
       "sequence": 10,
       "roles": [
         "Fred Barden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0444740",
@@ -125,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Ted Elser"
-      ],
-      "notes": "(as Richard Powers)"
+      ]
     },
     {
       "imdbId": "nm0651627",
@@ -134,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Cap Willis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0615329",
@@ -143,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Nels Titterton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0106248",
@@ -152,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Bart Daniels"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -166,12 +153,6 @@
     {
       "imdbId": "nm0795851",
       "name": "Harold Shumate",
-      "sequence": 1,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0795080",
-      "name": "Luke Short",
       "sequence": 2,
       "notes": "(adaptation)"
     },
@@ -179,6 +160,12 @@
       "imdbId": "nm0795080",
       "name": "Luke Short",
       "sequence": 3,
+      "notes": "(adaptation)"
+    },
+    {
+      "imdbId": "nm0795080",
+      "name": "Luke Short",
+      "sequence": 5,
       "notes": "(from the Saturday Evening Post serial storyl by)"
     }
   ]

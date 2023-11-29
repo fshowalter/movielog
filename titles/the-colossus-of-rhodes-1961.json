@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054756",
-  "title": "The Colossus of Rhodes",
-  "sortTitle": "Colossus of Rhodes (1961)",
-  "year": 1961,
   "slug": "the-colossus-of-rhodes-1961",
-  "releaseDate": "1961-06-15",
+  "title": "The Colossus of Rhodes",
+  "originalTitle": "Il colosso di Rodi",
+  "sortTitle": "Colossus of Rhodes, The",
+  "year": 1961,
+  "releaseDate": "1961-08-11",
   "countries": [
     "Italy",
     "France",
@@ -20,8 +22,7 @@
     {
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Dario"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0557159",
@@ -40,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Diala"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0545352",
@@ -49,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Peliocle"
-      ],
-      "notes": "(as George Marchal)"
+      ]
     },
     {
       "imdbId": "nm0760701",
@@ -59,8 +57,7 @@
       "roles": [
         "Tireo",
         "Thar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0033007",
@@ -68,8 +65,7 @@
       "sequence": 4,
       "roles": [
         "Koros"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0440075",
@@ -77,8 +73,7 @@
       "sequence": 5,
       "roles": [
         "Mirte"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0658051",
@@ -86,8 +81,7 @@
       "sequence": 6,
       "roles": [
         "Ares"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131209",
@@ -95,8 +89,7 @@
       "sequence": 7,
       "roles": [
         "Serse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0130731",
@@ -104,8 +97,7 @@
       "sequence": 8,
       "roles": [
         "Creonte"
-      ],
-      "notes": "(as Alf Randal)"
+      ]
     },
     {
       "imdbId": "nm0726546",
@@ -113,8 +105,7 @@
       "sequence": 9,
       "roles": [
         "Lisippo"
-      ],
-      "notes": "(as Jorge Rigaud)"
+      ]
     },
     {
       "imdbId": "nm0489368",
@@ -122,8 +113,7 @@
       "sequence": 10,
       "roles": [
         "Mahor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0848546",
@@ -131,8 +121,7 @@
       "sequence": 11,
       "roles": [
         "Xenon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0273510",
@@ -140,15 +129,13 @@
       "sequence": 12,
       "roles": [
         "Carete"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0230888",
       "name": "Ignazio Dolce",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0143030",
@@ -156,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Phoenician Ambassador"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131013",
@@ -165,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Sirione"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -215,50 +200,44 @@
     {
       "imdbId": "nm0208086",
       "name": "Ennio De Concini",
-      "sequence": 7,
+      "sequence": 8,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 8,
+      "sequence": 9,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0781112",
       "name": "Cesare Seccia",
-      "sequence": 9,
+      "sequence": 10,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0553916",
       "name": "Luciano Martino",
-      "sequence": 10,
+      "sequence": 11,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0767781",
       "name": "Ageo Savioli",
-      "sequence": 11,
+      "sequence": 12,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0158314",
       "name": "Luciano Chitarrini",
-      "sequence": 12,
+      "sequence": 13,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0345242",
       "name": "Carlo Gualtieri",
-      "sequence": 13,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0856319",
-      "name": "Duccio Tessari",
       "sequence": 14,
-      "notes": "(story) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

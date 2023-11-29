@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023479",
-  "title": "Sinners in the Sun",
-  "sortTitle": "Sinners in the Sun (1932)",
-  "year": 1932,
   "slug": "sinners-in-the-sun-1932",
+  "title": "Sinners in the Sun",
+  "originalTitle": "Sinners in the Sun",
+  "sortTitle": "Sinners in the Sun",
+  "year": 1932,
   "releaseDate": "1932-05-13",
   "countries": [
     "United States"
@@ -16,20 +18,12 @@
     {
       "imdbId": "nm0355284",
       "name": "Alexander Hall",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0123556",
       "name": "David Burton",
-      "sequence": 1,
-      "notes": "(replacement director)"
-    },
-    {
-      "imdbId": "nm0210352",
-      "name": "William C. de Mille",
-      "sequence": 2,
-      "notes": "(uncredited) (for the first two weeks)"
+      "sequence": 1
     }
   ],
   "performers": [
@@ -39,8 +33,7 @@
       "sequence": 0,
       "roles": [
         "Doris Blake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0606431",
@@ -48,8 +41,7 @@
       "sequence": 1,
       "roles": [
         "Jimmie Martin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0024669",
@@ -57,8 +49,7 @@
       "sequence": 2,
       "roles": [
         "Claire Kinkaid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0804375",
@@ -66,8 +57,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Blake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000026",
@@ -75,8 +65,7 @@
       "sequence": 4,
       "roles": [
         "Ridgeway"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126430",
@@ -84,8 +73,7 @@
       "sequence": 5,
       "roles": [
         "Eric Nelson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0478996",
@@ -93,8 +81,7 @@
       "sequence": 6,
       "roles": [
         "Lil"
-      ],
-      "notes": "(as Rita LaRoy)"
+      ]
     }
   ],
   "writers": [
@@ -107,19 +94,13 @@
     {
       "imdbId": "nm0388755",
       "name": "Samuel Hoffenstein",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0493071",
-      "name": "Vincent Lawrence",
       "sequence": 2,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0950150",
       "name": "Waldemar Young",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(screenplay)"
     }
   ]

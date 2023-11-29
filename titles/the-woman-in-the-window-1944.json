@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0037469",
-  "title": "The Woman in the Window",
-  "sortTitle": "Woman in the Window (1944)",
-  "year": 1944,
   "slug": "the-woman-in-the-window-1944",
-  "releaseDate": "1944-10-25",
+  "title": "The Woman in the Window",
+  "originalTitle": "The Woman in the Window",
+  "sortTitle": "Woman in the Window, The",
+  "year": 1944,
+  "releaseDate": "1944-11-03",
   "countries": [
     "United States"
   ],
@@ -19,8 +21,7 @@
     {
       "imdbId": "nm0000485",
       "name": "Fritz Lang",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,9 +30,8 @@
       "name": "Edward G. Robinson",
       "sequence": 0,
       "roles": [
-        "Prof. Richard Wanley"
-      ],
-      "notes": null
+        "Professor Richard Wanley"
+      ]
     },
     {
       "imdbId": "nm0000910",
@@ -39,17 +39,15 @@
       "sequence": 1,
       "roles": [
         "Alice Reed"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0557339",
       "name": "Raymond Massey",
       "sequence": 2,
       "roles": [
-        "District Attorney Frank Lalor"
-      ],
-      "notes": null
+        "Frank Lalor"
+      ]
     },
     {
       "imdbId": "nm0107631",
@@ -57,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Michael Barkstane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002053",
@@ -67,8 +64,7 @@
       "roles": [
         "Heidt",
         "Tim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0414090",
@@ -76,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Inspector Jackson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0677125",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Mrs. Wanley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0517425",
@@ -95,8 +89,7 @@
       "roles": [
         "Claude Mazard",
         "Charlie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0206126",
@@ -104,8 +97,7 @@
       "sequence": 8,
       "roles": [
         "Collins"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -118,7 +110,7 @@
     {
       "imdbId": "nm0909260",
       "name": "J.H. Wallis",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(novel) (as J. H. Wallis)"
     }
   ]

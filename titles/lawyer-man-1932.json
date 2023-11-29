@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0023125",
-  "title": "Lawyer Man",
-  "sortTitle": "Lawyer Man (1932)",
-  "year": 1932,
   "slug": "lawyer-man-1932",
-  "releaseDate": "1932-12-10",
+  "title": "Lawyer Man",
+  "originalTitle": "Lawyer Man",
+  "sortTitle": "Lawyer Man",
+  "year": 1932,
+  "releaseDate": "1933-01-07",
   "countries": [
     "United States"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0226189",
       "name": "William Dieterle",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Anton"
-      ],
-      "notes": "(Tony) Adam"
+      ]
     },
     {
       "imdbId": "nm0000951",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Olga Michaels"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0484439",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "John Gilmurry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0899091",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Barbara Bentley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0230068",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Virginia St. Johns"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003062",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Granville Bentley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0420765",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Izzy Levine"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -101,14 +95,8 @@
     {
       "imdbId": "nm0871835",
       "name": "Max Trell",
-      "sequence": 2,
-      "notes": "(novel \"Lawyer Man\")"
-    },
-    {
-      "imdbId": "nm0594594",
-      "name": "Wilson Mizner",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(novel \"Lawyer Man\")"
     }
   ]
 }

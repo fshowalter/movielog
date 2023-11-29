@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034786",
-  "title": "The Ghost of Frankenstein",
-  "sortTitle": "Ghost of Frankenstein (1942)",
-  "year": 1942,
   "slug": "the-ghost-of-frankenstein-1942",
+  "title": "The Ghost of Frankenstein",
+  "originalTitle": "The Ghost of Frankenstein",
+  "sortTitle": "Ghost of Frankenstein, The",
+  "year": 1942,
   "releaseDate": "1942-03-13",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0448915",
       "name": "Erle C. Kenton",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "The Monster"
-      ],
-      "notes": "(as Lon Chaney)"
+      ]
     },
     {
       "imdbId": "nm0362567",
@@ -38,8 +38,7 @@
       "roles": [
         "Ludwig Frankenstein",
         "Ghost of Henry Frankenstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000897",
@@ -47,17 +46,15 @@
       "sequence": 2,
       "roles": [
         "Erik Ernst"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0041172",
       "name": "Lionel Atwill",
       "sequence": 3,
       "roles": [
-        "Doctor Theodore Bohmer"
-      ],
-      "notes": null
+        "Dr. Theodore Bohmer"
+      ]
     },
     {
       "imdbId": "nm0000509",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Ygor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0030166",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Elsa Frankenstein"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0303154",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Cloestine Hussman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0946363",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Dr. Kettering"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0515967",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Martha"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0388280",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Chief Constable"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0405340",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Hussman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378555",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Magistrate"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -142,7 +131,7 @@
     {
       "imdbId": "nm0852338",
       "name": "Eric Taylor",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(original story)"
     }
   ]

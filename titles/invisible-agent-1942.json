@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034902",
-  "title": "Invisible Agent",
-  "sortTitle": "Invisible Agent (1942)",
-  "year": 1942,
   "slug": "invisible-agent-1942",
-  "releaseDate": "1942-07-31",
+  "title": "Invisible Agent",
+  "originalTitle": "Invisible Agent",
+  "sortTitle": "Invisible Agent",
+  "year": 1942,
+  "releaseDate": "1942-08-07",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0547446",
       "name": "Edwin L. Marin",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Maria Sorenson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0355755",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Frank Raymond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000048",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Baron Ikito"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362567",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Conrad Stauffer"
-      ],
-      "notes": "(as Sir Cedric Hardwicke)"
+      ]
     },
     {
       "imdbId": "nm0111297",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Karl Heiser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060168",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Arnold Schmidt"
-      ],
-      "notes": "(as Albert Basserman)"
+      ]
     },
     {
       "imdbId": "nm0514344",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "John Gardiner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378555",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Sir Alfred Spencer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0525601",
@@ -101,22 +94,21 @@
       "sequence": 8,
       "roles": [
         "Surgeon"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0920229",
-      "name": "H.G. Wells",
-      "sequence": 0,
-      "notes": "(novel \"The Invisible Man\")"
-    },
-    {
       "imdbId": "nm0802561",
       "name": "Curt Siodmak",
-      "sequence": 1,
+      "sequence": 0,
       "notes": "(original screenplay) (as Curtis Siodmak)"
+    },
+    {
+      "imdbId": "nm0920229",
+      "name": "H.G. Wells",
+      "sequence": 2,
+      "notes": "(suggested by \"The Invisible Man\")"
     }
   ]
 }

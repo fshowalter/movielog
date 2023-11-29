@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0048991",
-  "title": "The Beast with a Million Eyes",
-  "sortTitle": "Beast with a Million Eyes (1955)",
-  "year": 1955,
   "slug": "the-beast-with-a-million-eyes-1955",
+  "title": "The Beast with a Million Eyes",
+  "originalTitle": "The Beast with a Million Eyes",
+  "sortTitle": "Beast with a Million Eyes, The",
+  "year": 1955,
   "releaseDate": "1955-06-15",
   "countries": [
     "United States"
@@ -16,20 +18,7 @@
     {
       "imdbId": "nm0469436",
       "name": "David Kramarsky",
-      "sequence": 0,
-      "notes": "(creditOnly)"
-    },
-    {
-      "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 1,
-      "notes": "(uncredited) (some scenes)"
-    },
-    {
-      "imdbId": "nm0686340",
-      "name": "Lou Place",
-      "sequence": 2,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -39,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Allan Kelley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0857213",
@@ -48,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Carol Kelley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0170532",
@@ -57,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Sandra Kelley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0765102",
@@ -66,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Deputy Larry Brewster"
-      ],
-      "notes": "(as Richard Sargeant)"
+      ]
     },
     {
       "imdbId": "nm0850781",
@@ -75,17 +60,7 @@
       "sequence": 4,
       "roles": [
         "Him -"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0926221",
-      "name": "Bruce Whitmore",
-      "sequence": 5,
-      "roles": [
-        "The Beast"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0174682",
@@ -93,8 +68,7 @@
       "sequence": 6,
       "roles": [
         "Ben Webber"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -102,7 +76,7 @@
       "imdbId": "nm0276869",
       "name": "Tom Filer",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0079648",
-  "title": "Nutcracker Fantasy",
-  "sortTitle": "Nutcracker Fantasy (1979)",
-  "year": 1979,
   "slug": "nutcracker-fantasy-1979",
-  "releaseDate": "1979-03-03",
+  "title": "Nutcracker Fantasy",
+  "originalTitle": "Nutcracker Fantasy",
+  "sortTitle": "Nutcracker Fantasy",
+  "year": 1979,
+  "releaseDate": "1979-07-06",
   "countries": [
     "Japan"
   ],
@@ -17,38 +19,10 @@
     {
       "imdbId": "nm0620238",
       "name": "Takeo Nakamura",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
-    {
-      "imdbId": "nm0497891",
-      "name": "Michele Lee",
-      "sequence": 0,
-      "roles": [
-        "Narrator"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0001271",
-      "name": "Melissa Gilbert",
-      "sequence": 1,
-      "roles": [
-        "Clara"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0878354",
-      "name": "Lurene Tuttle",
-      "sequence": 2,
-      "roles": [
-        "Aunt Gerda"
-      ],
-      "notes": "(voice)"
-    },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
@@ -58,17 +32,7 @@
         "Street Singer",
         "The Puppeteer",
         "The Watchmaker"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0941506",
-      "name": "Jo Anne Worley",
-      "sequence": 4,
-      "roles": [
-        "Queen Morphia"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0763052",
@@ -77,17 +41,7 @@
       "roles": [
         "Chamberlain",
         "The Poet Wiseman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0887694",
-      "name": "Dick Van Patten",
-      "sequence": 6,
-      "roles": [
-        "King Goodwin"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0001522",
@@ -96,8 +50,7 @@
       "roles": [
         "Franz",
         "Fritz"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307054",
@@ -106,8 +59,7 @@
       "roles": [
         "The Indian Wiseman",
         "The Viking Wiseman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0029460",
@@ -117,8 +69,7 @@
         "The Chinese Wiseman",
         "The Executioner",
         "Gar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0608968",
@@ -128,161 +79,7 @@
         "Otto Von'Atra",
         "The French Wiseman",
         "Clovis"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001247",
-      "name": "Eva Gabor",
-      "sequence": 11,
-      "roles": [
-        "Queen of Time"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0314119",
-      "name": "Joan Gerber",
-      "sequence": 12,
-      "roles": [
-        "Mice Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0279684",
-      "name": "Maxine Fisher",
-      "sequence": 13,
-      "roles": [
-        "Mice Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0353165",
-      "name": "Robin Haffner",
-      "sequence": 14,
-      "roles": [
-        "Princess Mary"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0014555",
-      "name": "Kin'ya Aikawa",
-      "sequence": 15,
-      "roles": [
-        "Executioner"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0206795",
-      "name": "Hisao Dazai",
-      "sequence": 16,
-      "roles": [
-        "Chamberlain"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1011131",
-      "name": "Arihiro Fujimura",
-      "sequence": 17,
-      "roles": [
-        "French Wiseman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0297789",
-      "name": "Shunji Fujimura",
-      "sequence": 18,
-      "roles": [
-        "Indian Wiseman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1346442",
-      "name": "Atsuko Ichinomiya",
-      "sequence": 19,
-      "roles": [
-        "Queen Morphia"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm5402103",
-      "name": "Ichiy\u00f4 It\u00f4",
-      "sequence": 20,
-      "roles": [
-        "Prussian Wiseman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0457216",
-      "name": "Shir\u00f4 Kishibe",
-      "sequence": 21,
-      "roles": [
-        "Corpulent Rat"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0457514",
-      "name": "Haruko Kitahama",
-      "sequence": 22,
-      "roles": [
-        "Gypsy Fortuneteller"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0538590",
-      "name": "Shinji Maki",
-      "sequence": 23,
-      "roles": [
-        "British Wiseman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0557918",
-      "name": "Kiiton Masuda",
-      "sequence": 24,
-      "roles": [
-        "King Goodwin"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0605797",
-      "name": "Sh\u00fbichir\u00f4 Moriyama",
-      "sequence": 25,
-      "roles": [
-        "Poet"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0619227",
-      "name": "Hiroyuki Nagato",
-      "sequence": 26,
-      "roles": [
-        "Doctor of Letters"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0622406",
-      "name": "Shizue Natsukawa",
-      "sequence": 27,
-      "roles": [
-        "Aunt Gerda"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0632757",
@@ -293,17 +90,7 @@
         "Strange Old Woman",
         "The Puppeteer",
         "Watchmaker"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0756973",
-      "name": "Jir\u00f4 Sakagami",
-      "sequence": 29,
-      "roles": [
-        "Chinese Wiseman"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0793336",
@@ -312,44 +99,7 @@
       "roles": [
         "Franz",
         "Fritz"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0837519",
-      "name": "Kaoru Sugita",
-      "sequence": 31,
-      "roles": [
-        "Clara"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm1552405",
-      "name": "Yukari Uehara",
-      "sequence": 32,
-      "roles": [
-        "Princess Mary"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0945272",
-      "name": "Takao Yamada",
-      "sequence": 33,
-      "roles": [
-        "Shunruru"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0644960",
-      "name": "Kyosen \u00d4hashi",
-      "sequence": 34,
-      "roles": [
-        "Russian Wiseman"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -362,19 +112,19 @@
     {
       "imdbId": "nm0006782",
       "name": "E.T.A. Hoffmann",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story \"The Nutcracker and the Mouse King\")"
     },
     {
       "imdbId": "nm0423297",
       "name": "Thomas Joachim",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0288489",
       "name": "Eugene A. Fournier",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(adaptation) (as Eugene Fournier)"
     }
   ]

@@ -1,12 +1,16 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0071402",
-  "title": "Death Wish",
-  "sortTitle": "Death Wish (1974)",
-  "year": 1974,
   "slug": "death-wish-1974",
+  "title": "Death Wish",
+  "originalTitle": "Death Wish",
+  "sortTitle": "Death Wish",
+  "year": 1974,
   "releaseDate": "1974-07-24",
   "countries": [
-    "United States"
+    "United States",
+    "United Kingdom",
+    "Italy"
   ],
   "genres": [
     "Action",
@@ -18,8 +22,7 @@
     {
       "imdbId": "nm0935382",
       "name": "Michael Winner",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Paul Kersey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0486136",
@@ -38,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Joanna Kersey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0306696",
@@ -47,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Frank Ochoa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0444198",
@@ -56,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Jack Toby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0714835",
@@ -65,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Sam Kreutzer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0546765",
@@ -74,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Aimes Jainchill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254634",
@@ -83,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Police Commissioner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0865841",
@@ -92,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Carol Toby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0908685",
@@ -101,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Hank"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0778656",
@@ -110,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "District Attorney"
-      ],
-      "notes": "(as Fred Scollay)"
+      ]
     },
     {
       "imdbId": "nm0132967",
@@ -119,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Ives"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0477304",
@@ -128,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Joe Charles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0344013",
@@ -137,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Lt. Briggs"
-      ],
-      "notes": "(as Ed Grover)"
+      ]
     },
     {
       "imdbId": "nm0000156",
@@ -146,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Freak #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0517529",
@@ -155,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Freak #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747479",
@@ -164,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Spraycan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0505801",
@@ -173,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Desk Sergeant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0552385",
@@ -182,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Alma Lee Brown"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0308056",
@@ -191,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Andrew McCabe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001302",
@@ -200,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Patrolman Reilly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0476040",
@@ -209,17 +192,7 @@
       "sequence": 20,
       "roles": [
         "Receptionist"
-      ],
-      "notes": "(as Marcia Jean-Kurtz)"
-    },
-    {
-      "imdbId": "nm0001156",
-      "name": "Olympia Dukakis",
-      "sequence": 21,
-      "roles": [
-        "Cop at the Precinct"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -232,20 +205,8 @@
     {
       "imdbId": "nm0562606",
       "name": "Wendell Mayes",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0933449",
-      "name": "Gerald Wilson",
       "sequence": 2,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0935382",
-      "name": "Michael Winner",
-      "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

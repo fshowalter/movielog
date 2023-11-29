@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0064212",
-  "title": "De Sade",
-  "sortTitle": "De Sade (1969)",
-  "year": 1969,
   "slug": "de-sade-1969",
+  "title": "De Sade",
+  "originalTitle": "De Sade",
+  "sortTitle": "Sade, De",
+  "year": 1969,
   "releaseDate": "1969-08-27",
   "countries": [
     "West Germany",
@@ -19,20 +21,7 @@
     {
       "imdbId": "nm0256831",
       "name": "Cy Endfield",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 1,
-      "notes": "(uncredited)"
-    },
-    {
-      "imdbId": "nm0381638",
-      "name": "Gordon Hessler",
-      "sequence": 2,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -42,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Marquis de Sade"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000919",
@@ -51,44 +39,41 @@
       "sequence": 1,
       "roles": [
         "Anne de Montreuil"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0658339",
-      "name": "Lilli Palmer",
-      "sequence": 2,
-      "roles": [
-        "Mme de Montreuil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0557281",
       "name": "Anna Massey",
-      "sequence": 3,
+      "sequence": 2,
       "roles": [
         "Ren\u00e9e de Montreuil"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0658339",
+      "name": "Lilli Palmer",
+      "sequence": 3,
+      "roles": [
+        "Mme de Montreuil"
+      ]
     },
     {
       "imdbId": "nm0956239",
       "name": "Sonja Ziemann",
       "sequence": 4,
       "roles": [
-        "La Beauvoisin"
-      ],
-      "notes": null
+        "La Beauvoisin",
+        "actress"
+      ]
     },
     {
       "imdbId": "nm0473218",
       "name": "Christiane Kr\u00fcger",
       "sequence": 5,
       "roles": [
-        "Laura, Marquis' Mistress"
-      ],
-      "notes": null
+        "Laura",
+        "Marquis' Mistress"
+      ]
     },
     {
       "imdbId": "nm0506261",
@@ -96,17 +81,16 @@
       "sequence": 6,
       "roles": [
         "Rose Keller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822106",
       "name": "Barbara Stanek",
       "sequence": 7,
       "roles": [
-        "Colette"
-      ],
-      "notes": null
+        "Colette",
+        "Mme de Montreuil's prot\u00e9g\u00e9"
+      ]
     },
     {
       "imdbId": "nm0901870",
@@ -114,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "Marquis' Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0778219",
@@ -123,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Marquis' Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0919208",
@@ -132,17 +114,16 @@
       "sequence": 10,
       "roles": [
         "M. de Montreuil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0819197",
       "name": "Heinz Spitzner",
       "sequence": 11,
       "roles": [
-        "Inspector Marais"
-      ],
-      "notes": null
+        "Marais",
+        "Inspector"
+      ]
     },
     {
       "imdbId": "nm0490772",
@@ -150,33 +131,31 @@
       "sequence": 12,
       "roles": [
         "Madame Grandcon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0343469",
       "name": "Ortrud Gross",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
       "sequence": 14,
       "roles": [
-        "The Abbe"
-      ],
-      "notes": null
+        "The Abbe",
+        "Marquis' uncle"
+      ]
     },
     {
       "imdbId": "nm0452335",
       "name": "Max Kiebach",
       "sequence": 15,
       "roles": [
-        "Marquis de Sade, as a boy"
-      ],
-      "notes": null
+        "Marquis de Sade",
+        "boy"
+      ]
     }
   ],
   "writers": [
@@ -191,12 +170,6 @@
       "name": "Peter Berg",
       "sequence": 1,
       "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm7485319",
-      "name": "Gilbert L\u00e9ly",
-      "sequence": 2,
-      "notes": "(biography) (uncredited)"
     }
   ]
 }

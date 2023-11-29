@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0048990",
-  "title": "Pursuit of the Graf Spee",
-  "sortTitle": "Pursuit of the Graf Spee (1956)",
-  "year": 1956,
   "slug": "pursuit-of-the-graf-spee-1956",
-  "releaseDate": "1956-10-29",
+  "title": "Pursuit of the Graf Spee",
+  "originalTitle": "The Battle of the River Plate",
+  "sortTitle": "Pursuit of the Graf Spee",
+  "year": 1956,
+  "releaseDate": "1957-11-01",
   "countries": [
     "United Kingdom"
   ],
@@ -19,14 +21,12 @@
     {
       "imdbId": "nm0003836",
       "name": "Michael Powell",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0696247",
       "name": "Emeric Pressburger",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -36,8 +36,7 @@
       "sequence": 0,
       "roles": [
         "Captain Bell - H.M.S. Exeter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0703033",
@@ -45,217 +44,193 @@
       "sequence": 1,
       "roles": [
         "Commodore Harwood-H.M.S. Ajax"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0402842",
-      "name": "Ian Hunter",
-      "sequence": 2,
-      "roles": [
-        "Captain Woodhouse - H.M.S. Ajax"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0007232",
-      "name": "Jack Gwillim",
-      "sequence": 3,
-      "roles": [
-        "Captain Parry - H.M.N.Z.S. Achilles"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0496866",
-      "name": "Bernard Lee",
-      "sequence": 4,
-      "roles": [
-        "Captain Dove - M.S. Africa Shell"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm11323371",
-      "name": "H.M.S. Sheffield",
-      "sequence": 5,
-      "roles": [
-        "H. M. S. Ajax"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm11323372",
-      "name": "I.N.S. Delhi",
-      "sequence": 6,
-      "roles": [
-        "H.M.N.Z.S. Achilles"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm11323373",
-      "name": "H.M.S. Jamaica",
-      "sequence": 7,
-      "roles": [
-        "H.M.S. Exeter"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm11323374",
-      "name": "H.M.S. Cumberland",
-      "sequence": 8,
-      "roles": [
-        "H.M.S. Cumberland"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0615463",
-      "name": "Lionel Murton",
-      "sequence": 9,
-      "roles": [
-        "Mike Fowler"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0124236",
-      "name": "Anthony Bushell",
-      "sequence": 10,
-      "roles": [
-        "Mr. Millington Drake - British Minister, Montevideo"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0407810",
-      "name": "Peter Illing",
-      "sequence": 11,
-      "roles": [
-        "Dr. Guani - Foreign Minister, Uruguay"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0328982",
-      "name": "Michael Goodliffe",
-      "sequence": 12,
-      "roles": [
-        "Captain McCall - R.N., British Naval Attache, Buenos Aires"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001495",
-      "name": "Patrick Macnee",
-      "sequence": 13,
-      "roles": [
-        "Lieutenant Commander Medley R.N."
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0151499",
-      "name": "John Chandos",
-      "sequence": 14,
-      "roles": [
-        "Dr. Langmann - German Minister, Montevideo"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0932811",
-      "name": "Douglas Wilmer",
-      "sequence": 15,
-      "roles": [
-        "M. Desmoulins - French Minister, Montevideo"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0820109",
-      "name": "William Squire",
-      "sequence": 16,
-      "roles": [
-        "Ray Martin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0217069",
-      "name": "Roger Delgado",
-      "sequence": 17,
-      "roles": [
-        "Captain Varela - Uruguayan Navy"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0189972",
-      "name": "Andrew Cruickshank",
-      "sequence": 18,
-      "roles": [
-        "Captain Stubbs - 'Doric Star'"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 19,
-      "roles": [
-        "Manolo"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0040498",
-      "name": "Edward Atienza",
-      "sequence": 20,
-      "roles": [
-        "Pop"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0647557",
-      "name": "April Olrich",
-      "sequence": 21,
-      "roles": [
-        "Dolores"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002075",
       "name": "Peter Finch",
-      "sequence": 22,
+      "sequence": 2,
       "roles": [
         "Captain Langsdorff - 'Admiral Graf Spee'"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0402842",
+      "name": "Ian Hunter",
+      "sequence": 3,
+      "roles": [
+        "Captain Woodhouse - H.M.S. Ajax"
+      ]
+    },
+    {
+      "imdbId": "nm0007232",
+      "name": "Jack Gwillim",
+      "sequence": 4,
+      "roles": [
+        "Captain Parry - H.M.N.Z.S. Achilles"
+      ]
+    },
+    {
+      "imdbId": "nm0496866",
+      "name": "Bernard Lee",
+      "sequence": 5,
+      "roles": [
+        "Captain Dove - M.S. Africa Shell"
+      ]
+    },
+    {
+      "imdbId": "nm11323371",
+      "name": "H.M.S. Sheffield",
+      "sequence": 6,
+      "roles": [
+        "H. M. S. Ajax"
+      ]
+    },
+    {
+      "imdbId": "nm11323372",
+      "name": "I.N.S. Delhi",
+      "sequence": 7,
+      "roles": [
+        "H.M.N.Z.S. Achilles"
+      ]
+    },
+    {
+      "imdbId": "nm11323373",
+      "name": "H.M.S. Jamaica",
+      "sequence": 8,
+      "roles": [
+        "H.M.S. Exeter"
+      ]
+    },
+    {
+      "imdbId": "nm11323374",
+      "name": "H.M.S. Cumberland",
+      "sequence": 9,
+      "roles": [
+        "H.M.S. Cumberland"
+      ]
+    },
+    {
+      "imdbId": "nm0615463",
+      "name": "Lionel Murton",
+      "sequence": 10,
+      "roles": [
+        "Mike Fowler"
+      ]
+    },
+    {
+      "imdbId": "nm0124236",
+      "name": "Anthony Bushell",
+      "sequence": 11,
+      "roles": [
+        "Mr. Millington Drake - British Minister, Montevideo"
+      ]
+    },
+    {
+      "imdbId": "nm0407810",
+      "name": "Peter Illing",
+      "sequence": 12,
+      "roles": [
+        "Dr. Guani - Foreign Minister, Uruguay"
+      ]
+    },
+    {
+      "imdbId": "nm0328982",
+      "name": "Michael Goodliffe",
+      "sequence": 13,
+      "roles": [
+        "Captain McCall - R.N., British Naval Attache, Buenos Aires"
+      ]
+    },
+    {
+      "imdbId": "nm0001495",
+      "name": "Patrick Macnee",
+      "sequence": 14,
+      "roles": [
+        "Lieutenant Commander Medley R.N."
+      ]
+    },
+    {
+      "imdbId": "nm0151499",
+      "name": "John Chandos",
+      "sequence": 15,
+      "roles": [
+        "Dr. Langmann - German Minister, Montevideo"
+      ]
+    },
+    {
+      "imdbId": "nm0932811",
+      "name": "Douglas Wilmer",
+      "sequence": 16,
+      "roles": [
+        "M. Desmoulins - French Minister, Montevideo"
+      ]
+    },
+    {
+      "imdbId": "nm0820109",
+      "name": "William Squire",
+      "sequence": 17,
+      "roles": [
+        "Ray Martin"
+      ]
+    },
+    {
+      "imdbId": "nm0217069",
+      "name": "Roger Delgado",
+      "sequence": 18,
+      "roles": [
+        "Captain Varela - Uruguayan Navy"
+      ]
+    },
+    {
+      "imdbId": "nm0189972",
+      "name": "Andrew Cruickshank",
+      "sequence": 19,
+      "roles": [
+        "Captain Stubbs - 'Doric Star'"
+      ]
+    },
+    {
+      "imdbId": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 20,
+      "roles": [
+        "Manolo"
+      ]
+    },
+    {
+      "imdbId": "nm0040498",
+      "name": "Edward Atienza",
+      "sequence": 21,
+      "roles": [
+        "Pop"
+      ]
+    },
+    {
+      "imdbId": "nm0647557",
+      "name": "April Olrich",
+      "sequence": 22,
+      "roles": [
+        "Dolores"
+      ]
     },
     {
       "imdbId": "nm1706896",
       "name": "John Lynn",
-      "sequence": 89,
+      "sequence": 92,
       "roles": [
         "German Sailor with Luggage",
         "Manolo's Patron"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1468358",
       "name": "Norman Morris",
-      "sequence": 100,
+      "sequence": 103,
       "roles": [
         "Merchant Officer",
         "Prisoner on Graf Spee"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

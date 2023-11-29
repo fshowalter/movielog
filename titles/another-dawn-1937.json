@@ -1,24 +1,23 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0028579",
-  "title": "Another Dawn",
-  "sortTitle": "Another Dawn (1937)",
-  "year": 1937,
   "slug": "another-dawn-1937",
-  "releaseDate": "1937-06-18",
+  "title": "Another Dawn",
+  "originalTitle": "Another Dawn",
+  "sortTitle": "Another Dawn",
+  "year": 1937,
+  "releaseDate": "1937-06-26",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Adventure",
-    "Drama",
-    "Romance"
+    "Drama"
   ],
   "directors": [
     {
       "imdbId": "nm0226189",
       "name": "William Dieterle",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Julia Ashton Wister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001224",
@@ -37,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Capt. Denny Roark"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402842",
@@ -46,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Col John Wister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0408586",
@@ -55,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Grace Roark"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0612743",
@@ -64,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Wilkins - Wister's Orderly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403139",
@@ -73,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Lord Alden"
-      ],
-      "notes": "(as G.P. Huntley Jr.)"
+      ]
     },
     {
       "imdbId": "nm0079645",
@@ -82,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Pvt. Hawkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0176971",
@@ -91,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Sgt. Murphy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0694286",
@@ -100,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Pvt. Henderson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402905",
@@ -109,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Sir Chas. Benton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0285376",
@@ -118,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. Lydia Benton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0540924",
@@ -127,8 +115,7 @@
       "sequence": 11,
       "roles": [
         "Mrs. Farnold"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362888",
@@ -136,15 +123,13 @@
       "sequence": 12,
       "roles": [
         "Steward"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0452133",
       "name": "Milton Kibbee",
       "sequence": 13,
-      "roles": [],
-      "notes": "(scenesDeleted)"
+      "roles": []
     },
     {
       "imdbId": "nm0716501",
@@ -152,8 +137,7 @@
       "sequence": 14,
       "roles": [
         "Sheik Achaben"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
@@ -166,14 +150,8 @@
     {
       "imdbId": "nm0236418",
       "name": "Laird Doyle",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0560857",
-      "name": "W. Somerset Maugham",
       "sequence": 2,
-      "notes": "(story \"The Ambassador's Wife\") (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

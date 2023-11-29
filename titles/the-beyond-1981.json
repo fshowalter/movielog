@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0082307",
-  "title": "The Beyond",
-  "sortTitle": "Beyond (1981)",
-  "year": 1981,
   "slug": "the-beyond-1981",
-  "releaseDate": "1981-04-29",
+  "title": "The Beyond",
+  "originalTitle": "...E tu vivrai nel terrore! L'aldil\u00e0",
+  "sortTitle": "Beyond, The",
+  "year": 1981,
+  "releaseDate": "1983-11-11",
   "countries": [
     "Italy"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Liza Merril"
-      ],
-      "notes": "(as Katherine MacColl)"
+      ]
     },
     {
       "imdbId": "nm0911285",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Dr. John McCabe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0598443",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Emily"
-      ],
-      "notes": "(as Sarah Keller)"
+      ]
     },
     {
       "imdbId": "nm0231452",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Schweick"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0493691",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Martha"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm7163889",
@@ -71,17 +67,16 @@
       "sequence": 5,
       "roles": [
         "Larry"
-      ],
-      "notes": "(as Anthony Flees)"
+      ]
     },
     {
       "imdbId": "nm0210527",
       "name": "Giovanni De Nava",
       "sequence": 6,
       "roles": [
-        "Joe the Plumber"
-      ],
-      "notes": "(creditOnly)"
+        "Joe the Plumber",
+        "Zombie Schweick"
+      ]
     },
     {
       "imdbId": "nm0166986",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Dr. Harris"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0591959",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Martin Avery"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0754990",
@@ -107,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Arthur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550356",
@@ -116,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Jill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0210057",
@@ -125,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Mary-Ann"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -139,32 +129,20 @@
     {
       "imdbId": "nm0332417",
       "name": "Dardano Sacchetti",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0548151",
       "name": "Giorgio Mariuzzo",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 3,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0522454",
-      "name": "H.P. Lovecraft",
       "sequence": 4,
-      "notes": "(inspiration) (uncredited)"
-    },
-    {
-      "imdbId": "nm1270209",
-      "name": "Clark Ashton Smith",
-      "sequence": 5,
-      "notes": "(inspiration) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

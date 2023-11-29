@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0051706",
-  "title": "The Haunted Strangler",
-  "sortTitle": "Haunted Strangler (1958)",
-  "year": 1958,
   "slug": "the-haunted-strangler-1958",
+  "title": "The Haunted Strangler",
+  "originalTitle": "Grip of the Strangler",
+  "sortTitle": "Haunted Strangler, The",
+  "year": 1958,
   "releaseDate": "1958-05-11",
   "countries": [
     "United Kingdom"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0206560",
       "name": "Robert Day",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,143 +29,127 @@
       "sequence": 0,
       "roles": [
         "James Rankin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0448765",
-      "name": "Jean Kent",
-      "sequence": 1,
-      "roles": [
-        "Cora Seth"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0019922",
-      "name": "Elizabeth Allan",
-      "sequence": 2,
-      "roles": [
-        "Barbara Rankin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0206060",
       "name": "Anthony Dawson",
-      "sequence": 3,
+      "sequence": 1,
       "roles": [
         "Supt. Burk"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0206617",
-      "name": "Vera Day",
-      "sequence": 4,
-      "roles": [
-        "Pearl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0877908",
-      "name": "Tim Turner",
-      "sequence": 5,
-      "roles": [
-        "Dr. Kenneth McColl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0041395",
-      "name": "Diane Aubrey",
-      "sequence": 6,
-      "roles": [
-        "Lily Rankin"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0109421",
-      "name": "Max Brimmell",
-      "sequence": 7,
-      "roles": [
-        "Newgate Prison Turnkey"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0674788",
-      "name": "Leslie Perrins",
-      "sequence": 8,
-      "roles": [
-        "Newgate Prison Governor"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0129073",
-      "name": "Jessica Cairns",
-      "sequence": 9,
-      "roles": [
-        "Asylum Maid"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0330156",
-      "name": "Dorothy Gordon",
-      "sequence": 10,
-      "roles": [
-        "Hannah"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0731017",
-      "name": "Desmond Roberts",
-      "sequence": 11,
-      "roles": [
-        "Dr. Johnson"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0751431",
-      "name": "Roy Russell",
-      "sequence": 12,
-      "roles": [
-        "Medical Superintendent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0083254",
       "name": "Derek Birch",
-      "sequence": 13,
+      "sequence": 2,
       "roles": [
-        "Guyse Hospital Superintendent"
-      ],
-      "notes": null
+        "Hospital Superintendent"
+      ]
     },
     {
-      "imdbId": "nm0030310",
-      "name": "Peggy Ann Clifford",
-      "sequence": 14,
+      "imdbId": "nm0330156",
+      "name": "Dorothy Gordon",
+      "sequence": 3,
       "roles": [
-        "Kate"
-      ],
-      "notes": null
+        "Hannah"
+      ]
+    },
+    {
+      "imdbId": "nm0019922",
+      "name": "Elizabeth Allan",
+      "sequence": 4,
+      "roles": [
+        "Barbara Rankin"
+      ]
+    },
+    {
+      "imdbId": "nm0041395",
+      "name": "Diane Aubrey",
+      "sequence": 5,
+      "roles": [
+        "Lily Rankin"
+      ]
+    },
+    {
+      "imdbId": "nm0877908",
+      "name": "Tim Turner",
+      "sequence": 6,
+      "roles": [
+        "Dr. Kenneth McColl"
+      ]
+    },
+    {
+      "imdbId": "nm0448765",
+      "name": "Jean Kent",
+      "sequence": 7,
+      "roles": [
+        "Cora Seth"
+      ]
+    },
+    {
+      "imdbId": "nm0206617",
+      "name": "Vera Day",
+      "sequence": 8,
+      "roles": [
+        "Pearl"
+      ]
+    },
+    {
+      "imdbId": "nm0109421",
+      "name": "Max Brimmell",
+      "sequence": 9,
+      "roles": [
+        "Newgate Prison Turnkey"
+      ]
+    },
+    {
+      "imdbId": "nm0674788",
+      "name": "Leslie Perrins",
+      "sequence": 10,
+      "roles": [
+        "Newgate Prison Governor"
+      ]
     },
     {
       "imdbId": "nm0264563",
       "name": "John Fabian",
-      "sequence": 15,
+      "sequence": 11,
       "roles": [
         "Young Blood"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0731017",
+      "name": "Desmond Roberts",
+      "sequence": 12,
+      "roles": [
+        "Dr. Johnson"
+      ]
+    },
+    {
+      "imdbId": "nm0129073",
+      "name": "Jessica Cairns",
+      "sequence": 13,
+      "roles": [
+        "Asylum Maid"
+      ]
+    },
+    {
+      "imdbId": "nm0751431",
+      "name": "Roy Russell",
+      "sequence": 14,
+      "roles": [
+        "Medical Superintendent"
+      ]
+    },
+    {
+      "imdbId": "nm0030310",
+      "name": "Peggy Ann Clifford",
+      "sequence": 15,
+      "roles": [
+        "Kate"
+      ]
     },
     {
       "imdbId": "nm0255832",
@@ -172,37 +157,27 @@
       "sequence": 16,
       "roles": [
         "Can-Can Girl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm6332015",
-      "name": "Audrey Sykes",
-      "sequence": 17,
-      "roles": [
-        "Laughing Lady at Hanging"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0189875",
-      "name": "John Croydon",
-      "sequence": 0,
-      "notes": "() (as John C. Cooper)"
-    },
-    {
       "imdbId": "nm0713833",
       "name": "Jan Read",
-      "sequence": 1,
+      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
+      "imdbId": "nm0189875",
+      "name": "John Croydon",
+      "sequence": 1,
+      "notes": "(screenplay) (as John C. Cooper)"
+    },
+    {
       "imdbId": "nm0713833",
       "name": "Jan Read",
-      "sequence": 2,
-      "notes": "(story \"Stranglehold\")"
+      "sequence": 3,
+      "notes": "(original story)"
     }
   ]
 }

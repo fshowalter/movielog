@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0026846",
-  "title": "Paradise Canyon",
-  "sortTitle": "Paradise Canyon (1935)",
-  "year": 1935,
   "slug": "paradise-canyon-1935",
+  "title": "Paradise Canyon",
+  "originalTitle": "Paradise Canyon",
+  "sortTitle": "Paradise Canyon",
+  "year": 1935,
   "releaseDate": "1935-07-20",
   "countries": [
     "United States"
   ],
   "genres": [
     "Action",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0682744",
       "name": "Carl Pierson",
-      "sequence": 0,
-      "notes": "(as Carl L. Pierson)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "John Wyatt - Posing as John Rogers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0122783",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Linda Carter -"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0398139",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Red - Henchman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0388232",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Doc Carter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0180679",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Rurales Captain"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0134831",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Curly Joe Gale"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0613806",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Ike"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166624",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mike"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0355642",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Colonel Peters"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -113,7 +106,7 @@
     {
       "imdbId": "nm0849806",
       "name": "Robert Emmett Tansey",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen play) (as Robert Emmett)"
     }
   ]

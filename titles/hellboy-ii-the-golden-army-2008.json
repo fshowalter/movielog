@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0411477",
-  "title": "Hellboy II: The Golden Army",
-  "sortTitle": "Hellboy II: The Golden Army (2008)",
-  "year": 2008,
   "slug": "hellboy-ii-the-golden-army-2008",
-  "releaseDate": "2008-06-28",
+  "title": "Hellboy II: The Golden Army",
+  "originalTitle": "Hellboy II: The Golden Army",
+  "sortTitle": "Hellboy II: The Golden Army",
+  "year": 2008,
+  "releaseDate": "2008-07-11",
   "countries": [
     "United States",
     "Germany",
@@ -13,14 +15,15 @@
   "genres": [
     "Action",
     "Adventure",
-    "Fantasy"
+    "Fantasy",
+    "Horror",
+    "Sci-Fi"
   ],
   "directors": [
     {
       "imdbId": "nm0868219",
       "name": "Guillermo del Toro",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +33,7 @@
       "sequence": 0,
       "roles": [
         "Hellboy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0004757",
@@ -39,8 +41,7 @@
       "sequence": 1,
       "roles": [
         "Liz Sherman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0427964",
@@ -50,8 +51,7 @@
         "Abe Sapien",
         "Chamberlain",
         "Angel of Death"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0018515",
@@ -60,8 +60,7 @@
       "roles": [
         "Johann Krauss",
         "Bethmoora Goblin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1384773",
@@ -69,17 +68,7 @@
       "sequence": 4,
       "roles": [
         "Johann Krauss"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0532235",
-      "name": "Seth MacFarlane",
-      "sequence": 5,
-      "roles": [
-        "Johann"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm0331577",
@@ -87,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Prince Nuada"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0910472",
@@ -96,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Princess Nuala"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001787",
@@ -105,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Tom Manning"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000457",
@@ -114,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Professor Broom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0824498",
@@ -127,8 +112,7 @@
         "Spice Shop Troll",
         "Cathedral Head",
         "Fragglewump"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1336506",
@@ -136,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Agent Flint"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0436442",
@@ -145,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Agent Steel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1808061",
@@ -154,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Agent Marble"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0956722",
@@ -163,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Auctioneer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0782213",
@@ -172,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Distinguished Buyer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0234541",
@@ -181,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "King Balor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1483166",
@@ -190,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Two-Headed Shop Owner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0595154",
@@ -199,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Bag Lady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1556767",
@@ -208,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Young Hellboy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0253219",
@@ -217,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Fat Slob"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0971082",
@@ -226,8 +200,7 @@
       "sequence": 21,
       "roles": [
         "Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0682642",
@@ -235,8 +208,7 @@
       "sequence": 22,
       "roles": [
         "Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0642871",
@@ -244,8 +216,7 @@
       "sequence": 23,
       "roles": [
         "Limb Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0933557",
@@ -253,8 +224,7 @@
       "sequence": 24,
       "roles": [
         "Cat Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0515733",
@@ -262,8 +232,7 @@
       "sequence": 25,
       "roles": [
         "Tadpole Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3058456",
@@ -271,8 +240,7 @@
       "sequence": 26,
       "roles": [
         "Bagpipe Player"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1640219",
@@ -281,8 +249,7 @@
       "roles": [
         "Silkard",
         "Fish Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3058453",
@@ -290,8 +257,7 @@
       "sequence": 28,
       "roles": [
         "Mummy Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0453994",
@@ -299,8 +265,7 @@
       "sequence": 29,
       "roles": [
         "Jimmy Kimmel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0281334",
@@ -308,8 +273,7 @@
       "sequence": 30,
       "roles": [
         "Newscaster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3058455",
@@ -317,8 +281,7 @@
       "sequence": 31,
       "roles": [
         "Newscaster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2984813",
@@ -326,8 +289,7 @@
       "sequence": 32,
       "roles": [
         "Newscaster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1208061",
@@ -335,8 +297,7 @@
       "sequence": 33,
       "roles": [
         "Newscaster"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1316139",
@@ -344,8 +305,7 @@
       "sequence": 34,
       "roles": [
         "Lady with Dog"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0650433",
@@ -353,8 +313,7 @@
       "sequence": 35,
       "roles": [
         "Woman with Baby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0576444",
@@ -362,8 +321,7 @@
       "sequence": 36,
       "roles": [
         "Auction Bidder Man"
-      ],
-      "notes": "(as Michael A. Mehlmann)"
+      ]
     },
     {
       "imdbId": "nm1208766",
@@ -371,8 +329,7 @@
       "sequence": 37,
       "roles": [
         "Auction Bidder Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2224674",
@@ -380,8 +337,7 @@
       "sequence": 38,
       "roles": [
         "Auction Bidder Woman"
-      ],
-      "notes": "(as Beatrix Zentai)"
+      ]
     },
     {
       "imdbId": "nm0394740",
@@ -389,8 +345,7 @@
       "sequence": 39,
       "roles": [
         "Steward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0726490",
@@ -398,8 +353,7 @@
       "sequence": 40,
       "roles": [
         "TV Pundit"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -412,13 +366,13 @@
     {
       "imdbId": "nm0868219",
       "name": "Guillermo del Toro",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0586005",
       "name": "Mike Mignola",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     }
   ]

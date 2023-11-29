@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0094997",
-  "title": "Demonia",
-  "sortTitle": "Demonia (1990)",
-  "year": 1990,
   "slug": "demonia-1990",
-  "releaseDate": "1990-10-01",
+  "title": "Demonia",
+  "originalTitle": "Demonia",
+  "sortTitle": "Demonia",
+  "year": 1990,
+  "releaseDate": "1990-01-01",
   "countries": [
     "Italy"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Professor Paul Evans"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0716657",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Liza Harris"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0758031",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Turi DeSimone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0257211",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Susie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0238448",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Kevin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0165081",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Sean"
-      ],
-      "notes": "(as Grady Thomas Clarkson)"
+      ]
     },
     {
       "imdbId": "nm0173814",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "John"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0144336",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Lilla the Medium"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0036909",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Lt. Andi"
-      ],
-      "notes": "(as Michael J. Aronin)"
+      ]
     },
     {
       "imdbId": "nm0166986",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Porter"
-      ],
-      "notes": "(as Al Clever)"
+      ]
     },
     {
       "imdbId": "nm0180669",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Nun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0185533",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Pregnant Nun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0744136",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Nun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0129362",
@@ -144,50 +132,43 @@
       "sequence": 13,
       "roles": [
         "Nun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0577749",
       "name": "Antonio Melillo",
       "sequence": 14,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0027397",
       "name": "Ruth Anderson",
       "sequence": 15,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0093843",
       "name": "Gianfranco Bonavita",
       "sequence": 16,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0080800",
       "name": "Francesco Biasini",
       "sequence": 17,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0699721",
       "name": "Clorinda Pucci",
       "sequence": 18,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0812032",
       "name": "Kerstin Soderberg",
       "sequence": 19,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0193753",
@@ -195,8 +176,7 @@
       "sequence": 20,
       "roles": [
         "Robbie"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -215,14 +195,8 @@
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 2,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0855193",
-      "name": "Antonio Tentori",
       "sequence": 3,
-      "notes": "(story) (uncredited)"
+      "notes": "(story)"
     }
   ]
 }

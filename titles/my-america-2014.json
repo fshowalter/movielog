@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt3831696",
-  "title": "My America",
-  "sortTitle": "My America (2014)",
-  "year": 2014,
   "slug": "my-america-2014",
+  "title": "My America",
+  "originalTitle": "My America",
+  "sortTitle": "My America",
+  "year": 2014,
   "releaseDate": "2014-07-04",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001325",
       "name": "Hal Hartley",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "The Father"
-      ],
-      "notes": "(segment \"Anthem\")"
+      ]
     },
     {
       "imdbId": "nm5943050",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "The 5th L"
-      ],
-      "notes": "(segment \"From A Distance\") (as the 5th L)"
+      ]
     },
     {
       "imdbId": "nm5943049",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "The 5th L"
-      ],
-      "notes": "(segment \"From A Distance\") (as the 5th L)"
+      ]
     },
     {
       "imdbId": "nm3304510",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "The College Graduate"
-      ],
-      "notes": "(segment \"Current Events\")"
+      ]
     },
     {
       "imdbId": "nm6264319",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "War Veteran"
-      ],
-      "notes": "(segment \"Space Mountain\")"
+      ]
     },
     {
       "imdbId": "nm3438395",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Miss America Finalist"
-      ],
-      "notes": "(segment \"Miss America\")"
+      ]
     },
     {
       "imdbId": "nm3691741",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "The Witness"
-      ],
-      "notes": "(segment \"Hit and Run\")"
+      ]
     },
     {
       "imdbId": "nm0020561",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "The Fanatic"
-      ],
-      "notes": "(segment \"Me America\")"
+      ]
     },
     {
       "imdbId": "nm0425718",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "The Gay Reverend"
-      ],
-      "notes": "(segment \"The Preacher's Benediction\")"
+      ]
     },
     {
       "imdbId": "nm0523527",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Phil"
-      ],
-      "notes": "(segment \"Phil\")"
+      ]
     },
     {
       "imdbId": "nm1732548",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "The Shopper"
-      ],
-      "notes": "(segment \"Cake\")"
+      ]
     },
     {
       "imdbId": "nm0578815",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "The Victim's Brother"
-      ],
-      "notes": "(segment \"Christmas\")"
+      ]
     },
     {
       "imdbId": "nm3109964",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "The Convict"
-      ],
-      "notes": "(segment \"Nate's America\")"
+      ]
     },
     {
       "imdbId": "nm3651449",
@@ -144,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Mr. Pal"
-      ],
-      "notes": "(segment \"Flatland\") (as Johnny Wu)"
+      ]
     },
     {
       "imdbId": "nm0113807",
@@ -153,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "The Announcer"
-      ],
-      "notes": "(segment \"Remote Control Kid\")"
+      ]
     },
     {
       "imdbId": "nm0630899",
@@ -162,22 +148,19 @@
       "sequence": 15,
       "roles": [
         "The Conservative Woman"
-      ],
-      "notes": "(segment \"Joan & Boostie\")"
+      ]
     },
     {
       "imdbId": "nm0752876",
       "name": "Thomas Jay Ryan",
       "sequence": 16,
-      "roles": [],
-      "notes": "(segment \"Two Days Before My Taxes Are Due\")"
+      "roles": []
     },
     {
       "imdbId": "nm0917376",
       "name": "Andrew Weems",
       "sequence": 17,
-      "roles": [],
-      "notes": "(segment \"John\")"
+      "roles": []
     },
     {
       "imdbId": "nm0174750",
@@ -185,15 +168,13 @@
       "sequence": 18,
       "roles": [
         "Wade Shevlevski"
-      ],
-      "notes": "(segment \"The Great American Auction\")"
+      ]
     },
     {
       "imdbId": "nm0563070",
       "name": "Jefferson Mays",
       "sequence": 19,
-      "roles": [],
-      "notes": "(segment \"Fire in Dreamland\")"
+      "roles": []
     },
     {
       "imdbId": "nm0258423",
@@ -201,15 +182,13 @@
       "sequence": 20,
       "roles": [
         "Elderly Veteran"
-      ],
-      "notes": "(segment \"Roosevelt Island\")"
+      ]
     },
     {
       "imdbId": "nm0149910",
       "name": "Kathleen Chalfant",
       "sequence": 21,
-      "roles": [],
-      "notes": "(segment \"Still\")"
+      "roles": []
     }
   ],
   "writers": [
@@ -222,127 +201,127 @@
     {
       "imdbId": "nm3492555",
       "name": "Bekah Brunstetter",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(segment \"'Cake'\") (written by)"
     },
     {
       "imdbId": "nm1691014",
       "name": "Kia Corthron",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(segment \"'Nate's America'\") (written by)"
     },
     {
       "imdbId": "nm1143319",
       "name": "Dan Dietz",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(segment \"'Space Mountain'\") (written by)"
     },
     {
       "imdbId": "nm5926700",
       "name": "Marcus Gardley",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(segment \"'The Preacher's Benediction'\") (written by)"
     },
     {
       "imdbId": "nm5943066",
       "name": "Kirsten Greenidge",
-      "sequence": 5,
+      "sequence": 10,
       "notes": "(segment \"'Hit and Run'\") (written by)"
     },
     {
       "imdbId": "nm2456461",
       "name": "Rinne Groff",
-      "sequence": 6,
+      "sequence": 12,
       "notes": "(segment \"Fire in Dreamland'\") (written by)"
     },
     {
       "imdbId": "nm0387773",
       "name": "Danny Hoch",
-      "sequence": 7,
+      "sequence": 14,
       "notes": "(segment \"'Phil'\") (written by)"
     },
     {
       "imdbId": "nm5912294",
       "name": "Naomi Iizuka",
-      "sequence": 8,
+      "sequence": 16,
       "notes": "(segment \"'Still'\") (written by)"
     },
     {
       "imdbId": "nm4396670",
       "name": "Rajiv Joseph",
-      "sequence": 9,
+      "sequence": 18,
       "notes": "(segment \"'Roosevelt Island'\") (written by)"
     },
     {
       "imdbId": "nm0439130",
       "name": "Jeremy Kareken",
-      "sequence": 10,
+      "sequence": 20,
       "notes": "(segment \"'Two Days Before My Taxes Are Due'\") (written by)"
     },
     {
       "imdbId": "nm0001438",
       "name": "Neil LaBute",
-      "sequence": 11,
+      "sequence": 22,
       "notes": "(segment \"'Current Events'\") (written by)"
     },
     {
       "imdbId": "nm5943050",
       "name": "Femi Lawal",
-      "sequence": 12,
+      "sequence": 24,
       "notes": "(segment \"'From A Distance'\") (written by)"
     },
     {
       "imdbId": "nm5940483",
       "name": "Kenneth Lin",
-      "sequence": 13,
+      "sequence": 26,
       "notes": "(segment \"'John'\") (written by)"
     },
     {
       "imdbId": "nm1878398",
       "name": "James Magruder",
-      "sequence": 14,
+      "sequence": 28,
       "notes": "(segment \"'Joan & Bootsie'\") (written by)"
     },
     {
       "imdbId": "nm0578815",
       "name": "D.J. Mendel",
-      "sequence": 15,
+      "sequence": 30,
       "notes": "(segment \"'Christmas'\") (written by)"
     },
     {
       "imdbId": "nm5943067",
       "name": "Polly Pen",
-      "sequence": 16,
+      "sequence": 32,
       "notes": "(segment \"'Remote Control Kid'\") (written by)"
     },
     {
       "imdbId": "nm5927156",
       "name": "Lynn Rosen",
-      "sequence": 17,
+      "sequence": 34,
       "notes": "(segment \"'The Amazing America Auction'\") (written by)"
     },
     {
       "imdbId": "nm5943049",
       "name": "David Ross",
-      "sequence": 18,
+      "sequence": 36,
       "notes": "(segment \"'From A Distance'\") (written by)"
     },
     {
       "imdbId": "nm5509776",
       "name": "Alena Smith",
-      "sequence": 19,
+      "sequence": 38,
       "notes": "(segment \"'Miss America'\") (written by)"
     },
     {
       "imdbId": "nm3991174",
       "name": "Gwydion Suilebhan",
-      "sequence": 20,
+      "sequence": 40,
       "notes": "(segment \"'Anthem'\") (written by)"
     },
     {
       "imdbId": "nm5912312",
       "name": "Lauren Yee",
-      "sequence": 21,
+      "sequence": 42,
       "notes": "(segment \"'Flatland'\") (written by)"
     }
   ]

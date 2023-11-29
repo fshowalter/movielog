@@ -1,14 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0082198",
-  "title": "Conan the Barbarian",
-  "sortTitle": "Conan the Barbarian (1982)",
-  "year": 1982,
   "slug": "conan-the-barbarian-1982",
-  "releaseDate": "1982-03-31",
+  "title": "Conan the Barbarian",
+  "originalTitle": "Conan the Barbarian",
+  "sortTitle": "Conan the Barbarian",
+  "year": 1982,
+  "releaseDate": "1982-05-14",
   "countries": [
     "United States",
-    "Mexico",
-    "Spain"
+    "Mexico"
   ],
   "genres": [
     "Action",
@@ -19,8 +20,7 @@
     {
       "imdbId": "nm0587518",
       "name": "John Milius",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -30,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Conan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000469",
@@ -39,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Thulsa Doom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001884",
@@ -48,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "King Osric"
-      ],
-      "notes": "(as Max Von Sydow)"
+      ]
     },
     {
       "imdbId": "nm0000922",
@@ -57,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Valeria"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0203234",
@@ -66,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Rexor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0310430",
@@ -75,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "The Witch"
-      ],
-      "notes": "(as Cassandra Gaviola)"
+      ]
     },
     {
       "imdbId": "nm0520068",
@@ -84,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Subotai"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0538683",
@@ -94,8 +87,7 @@
       "roles": [
         "The Wizard",
         "Narrator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0703211",
@@ -103,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "The Princess"
-      ],
-      "notes": "(as Valerie Quennessen)"
+      ]
     },
     {
       "imdbId": "nm0810342",
@@ -112,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Conan's Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0053719",
@@ -121,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Red Hair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0173372",
@@ -130,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Pictish Scout"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0284084",
@@ -139,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Sacrificial Snake Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0379131",
@@ -148,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Osric's Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0392103",
@@ -157,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Turanian War Officer"
-      ],
-      "notes": "(as Erick Holmey)"
+      ]
     },
     {
       "imdbId": "nm0593052",
@@ -166,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Mongol General"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0618920",
@@ -175,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Conan's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0764450",
@@ -184,8 +167,7 @@
       "sequence": 17,
       "roles": [
         "Young Conan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0852488",
@@ -193,8 +175,7 @@
       "sequence": 18,
       "roles": [
         "Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0861752",
@@ -202,37 +183,29 @@
       "sequence": 19,
       "roles": [
         "Thorgrim"
-      ],
-      "notes": "(as Sven Ole Thorsen)"
+      ]
     },
     {
       "imdbId": "nm0945586",
-      "name": "Kiyoshi Yamasaki",
+      "name": "Kiyoshi Yamazaki",
       "sequence": 20,
       "roles": [
         "Sword Master"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0587518",
       "name": "John Milius",
-      "sequence": 0,
+      "sequence": 2,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0000231",
       "name": "Oliver Stone",
-      "sequence": 1,
+      "sequence": 3,
       "notes": "(written by)"
-    },
-    {
-      "imdbId": "nm0838598",
-      "name": "Edward Summer",
-      "sequence": 2,
-      "notes": "(story) (uncredited)"
     }
   ]
 }

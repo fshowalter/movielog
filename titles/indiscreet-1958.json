@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0051773",
-  "title": "Indiscreet",
-  "sortTitle": "Indiscreet (1958)",
-  "year": 1958,
   "slug": "indiscreet-1958",
-  "releaseDate": "1958-06-26",
+  "title": "Indiscreet",
+  "originalTitle": "Indiscreet",
+  "sortTitle": "Indiscreet",
+  "year": 1958,
+  "releaseDate": "1958-07-26",
   "countries": [
     "United Kingdom"
   ],
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Philip Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000006",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Anna Kalman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662116",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Alfred Munson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0130829",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Margaret Munson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0467311",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Carl Banks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0420923",
@@ -72,8 +68,18 @@
       "sequence": 5,
       "roles": [
         "Doris Banks"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm1794593",
+      "name": "Ernest Blyth",
+      "sequence": 7,
+      "roles": [
+        "Dignitary",
+        "Ballet Audience",
+        "Club Member",
+        "Guest at Spring Dance"
+      ]
     }
   ],
   "writers": [
@@ -86,7 +92,7 @@
     {
       "imdbId": "nm0469915",
       "name": "Norman Krasna",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(play \"Kind Sir\")"
     }
   ]

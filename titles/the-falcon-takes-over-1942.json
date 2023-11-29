@@ -1,24 +1,27 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034716",
-  "title": "The Falcon Takes Over",
-  "sortTitle": "Falcon Takes Over (1942)",
-  "year": 1942,
   "slug": "the-falcon-takes-over-1942",
+  "title": "The Falcon Takes Over",
+  "originalTitle": "The Falcon Takes Over",
+  "sortTitle": "Falcon Takes Over, The",
+  "year": 1942,
   "releaseDate": "1942-05-29",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Comedy",
     "Crime",
     "Mystery",
+    "Romance",
     "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0718321",
       "name": "Irving Reis",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Gay Lawrence"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054609",
@@ -37,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Ann Riordan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0322299",
@@ -46,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Inspector Mike O'Hara"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0420765",
@@ -55,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Jonathan 'Goldy' Locke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0318070",
@@ -64,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Diana Kenyon"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -84,7 +82,7 @@
     {
       "imdbId": "nm0151452",
       "name": "Raymond Chandler",
-      "sequence": 2,
+      "sequence": 5,
       "notes": "(novel \"Farewell, My Lovely\")"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0049083",
-  "title": "The Cockleshell Heroes",
-  "sortTitle": "Cockleshell Heroes (1955)",
-  "year": 1955,
   "slug": "the-cockleshell-heroes-1955",
-  "releaseDate": "1955-11-16",
+  "title": "The Cockleshell Heroes",
+  "originalTitle": "The Cockleshell Heroes",
+  "sortTitle": "Cockleshell Heroes, The",
+  "year": 1955,
+  "releaseDate": "1956-03-27",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0001207",
       "name": "Jos\u00e9 Ferrer",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Major Geoffrey Stringer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002145",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Captain Hugh Thompson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0116932",
@@ -47,17 +46,15 @@
       "sequence": 2,
       "roles": [
         "Myrtle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
       "sequence": 3,
       "roles": [
-        "Commander Dick Raikes - Submarine Commander"
-      ],
-      "notes": null
+        "Lieutenant-Commander Greaves"
+      ]
     },
     {
       "imdbId": "nm0534658",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Marine Sgt. Craig"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0627969",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Marine Clarke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0517084",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Marine Ruddock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0036170",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Marine Corporal Stevens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378612",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Marine Lomas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0829406",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Marine Booth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0264563",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Marine Cooney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0886881",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Marine Bradley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0221476",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Marine Todd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0280406",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Gestapo Commandant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0826749",
@@ -155,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Assistant Gestapo Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0132224",
@@ -164,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Mrs. Ruddock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846407",
@@ -173,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378209",
@@ -182,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Barmaid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0096293",
@@ -191,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "French Fisherman"
-      ],
-      "notes": "(as Jacques Brunius)"
+      ]
     },
     {
       "imdbId": "nm0538916",
@@ -200,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "French Fisherman"
-      ],
-      "notes": "(as Andrea Malandrinos)"
+      ]
     },
     {
       "imdbId": "nm0299093",
@@ -209,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "W.V.S. Woman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0233247",
@@ -218,18 +198,16 @@
       "sequence": 21,
       "roles": [
         "Claridge - Sailor in Pub"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1527877",
       "name": "Barry Johns",
-      "sequence": 36,
+      "sequence": 42,
       "roles": [
         "Marine",
         "Pub Patron"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -248,7 +226,7 @@
     {
       "imdbId": "nm0448745",
       "name": "George Kent",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     }
   ]

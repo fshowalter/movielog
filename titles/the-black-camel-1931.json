@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0021668",
-  "title": "The Black Camel",
-  "sortTitle": "Black Camel (1931)",
-  "year": 1931,
   "slug": "the-black-camel-1931",
+  "title": "The Black Camel",
+  "originalTitle": "The Black Camel",
+  "sortTitle": "Black Camel, The",
+  "year": 1931,
   "releaseDate": "1931-06-21",
   "countries": [
     "United States"
@@ -13,14 +15,7 @@
     "Mystery",
     "Thriller"
   ],
-  "directors": [
-    {
-      "imdbId": "nm0532187",
-      "name": "Hamilton MacFadden",
-      "sequence": 0,
-      "notes": "(uncredited)"
-    }
-  ],
+  "directors": [],
   "performers": [
     {
       "imdbId": "nm0645941",
@@ -28,8 +23,7 @@
       "sequence": 0,
       "roles": [
         "Inspector Charlie Chan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0251755",
@@ -37,8 +31,7 @@
       "sequence": 1,
       "roles": [
         "Julie O'Neil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000509",
@@ -46,8 +39,7 @@
       "sequence": 2,
       "roles": [
         "Tarneverro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720885",
@@ -55,8 +47,7 @@
       "sequence": 3,
       "roles": [
         "Shelah Fane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0889511",
@@ -64,8 +55,7 @@
       "sequence": 4,
       "roles": [
         "Robert Fyfe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0455706",
@@ -73,8 +63,7 @@
       "sequence": 5,
       "roles": [
         "Archie Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692796",
@@ -82,8 +71,7 @@
       "sequence": 6,
       "roles": [
         "Alan Jaynes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001870",
@@ -91,8 +79,7 @@
       "sequence": 7,
       "roles": [
         "Jimmy Bradshaw"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0242792",
@@ -100,8 +87,7 @@
       "sequence": 8,
       "roles": [
         "Anna"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0449858",
@@ -109,8 +95,7 @@
       "sequence": 9,
       "roles": [
         "Thomas MacMasters"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330435",
@@ -118,8 +103,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. MacMasters"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0747535",
@@ -127,8 +111,7 @@
       "sequence": 11,
       "roles": [
         "Luana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0353950",
@@ -136,8 +119,7 @@
       "sequence": 12,
       "roles": [
         "Kashimo"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -150,38 +132,32 @@
     {
       "imdbId": "nm0822219",
       "name": "Hugh Stanislaus Stange",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation) (as Hugh Stange)"
     },
     {
       "imdbId": "nm0175194",
       "name": "Barry Conners",
-      "sequence": 2,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0458934",
-      "name": "Philip Klein",
-      "sequence": 3,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0175194",
-      "name": "Barry Conners",
       "sequence": 4,
-      "notes": "(dialogue)"
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0458934",
       "name": "Philip Klein",
       "sequence": 5,
+      "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0175194",
+      "name": "Barry Conners",
+      "sequence": 7,
       "notes": "(dialogue)"
     },
     {
-      "imdbId": "nm0629580",
-      "name": "Dudley Nichols",
-      "sequence": 6,
-      "notes": "() (uncredited)"
+      "imdbId": "nm0458934",
+      "name": "Philip Klein",
+      "sequence": 8,
+      "notes": "(dialogue)"
     }
   ]
 }

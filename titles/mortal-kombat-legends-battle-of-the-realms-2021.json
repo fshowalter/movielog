@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt14901058",
-  "title": "Mortal Kombat Legends: Battle of the Realms",
-  "sortTitle": "Mortal Kombat Legends: Battle of the Realms (2021)",
-  "year": 2021,
   "slug": "mortal-kombat-legends-battle-of-the-realms-2021",
-  "releaseDate": "2021-08-30",
+  "title": "Mortal Kombat Legends: Battle of the Realms",
+  "originalTitle": "Mortal Kombat Legends: Battle of the Realms",
+  "sortTitle": "Mortal Kombat Legends: Battle of the Realms",
+  "year": 2021,
+  "releaseDate": "2021-08-31",
   "countries": [
     "United States"
   ],
@@ -18,29 +20,10 @@
     {
       "imdbId": "nm2320725",
       "name": "Ethan Spaulding",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
-    {
-      "imdbId": "nm1358539",
-      "name": "Jennifer Carpenter",
-      "sequence": 0,
-      "roles": [
-        "Sonya Blade"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0570364",
-      "name": "Joel McHale",
-      "sequence": 1,
-      "roles": [
-        "Johnny Cage"
-      ],
-      "notes": "(voice)"
-    },
     {
       "imdbId": "nm2941559",
       "name": "Ike Amadi",
@@ -48,8 +31,7 @@
       "roles": [
         "Jax Briggs",
         "One Being"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2995162",
@@ -59,8 +41,7 @@
         "Shang Tsung",
         "Shao Khan Soldier",
         "Cyrax"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3739133",
@@ -69,8 +50,7 @@
       "roles": [
         "Sub-Zero",
         "Kuai Liang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0235960",
@@ -79,8 +59,7 @@
       "roles": [
         "Shinnok",
         "Reiko"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0217221",
@@ -90,17 +69,7 @@
         "Satoshi Hasashi",
         "Kitana",
         "Mileena"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0455058",
-      "name": "Matthew Yang King",
-      "sequence": 7,
-      "roles": [
-        "Kung Lao"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm2233310",
@@ -110,8 +79,7 @@
         "Stryker",
         "Demon One",
         "Smoke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2022559",
@@ -121,17 +89,7 @@
         "Raiden",
         "Kintaro",
         "Sektor"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm1478697",
-      "name": "Paul Nakauchi",
-      "sequence": 10,
-      "roles": [
-        "Lin Kuei Grandmaster"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm1386659",
@@ -140,17 +98,7 @@
       "roles": [
         "Jade",
         "Mother"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0735366",
-      "name": "Jordan Rodrigues",
-      "sequence": 12,
-      "roles": [
-        "Liu Kang"
-      ],
-      "notes": "(voice)"
+      ]
     },
     {
       "imdbId": "nm1365137",
@@ -159,44 +107,7 @@
       "roles": [
         "Hanzo Hasashi",
         "Scorpion"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0851317",
-      "name": "Fred Tatasciore",
-      "sequence": 14,
-      "roles": [
-        "Shao Kahn"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0933281",
-      "name": "Debra Wilson",
-      "sequence": 15,
-      "roles": [
-        "D'Vorah"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000498",
-      "name": "Matthew Lillard",
-      "sequence": 16,
-      "roles": [
-        "Shaggy"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm5453354",
-      "name": "Kyle Wyatt",
-      "sequence": 17,
-      "roles": [
-        "Mob Leader"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [

@@ -1,13 +1,14 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0071877",
-  "title": "Murder on the Orient Express",
-  "sortTitle": "Murder on the Orient Express (1974)",
-  "year": 1974,
   "slug": "murder-on-the-orient-express-1974",
-  "releaseDate": "1974-11-21",
+  "title": "Murder on the Orient Express",
+  "originalTitle": "Murder on the Orient Express",
+  "sortTitle": "Murder on the Orient Express",
+  "year": 1974,
+  "releaseDate": "1974-11-24",
   "countries": [
-    "United Kingdom",
-    "United States"
+    "United Kingdom"
   ],
   "genres": [
     "Crime",
@@ -18,8 +19,7 @@
     {
       "imdbId": "nm0001486",
       "name": "Sidney Lumet",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,17 +29,15 @@
       "sequence": 0,
       "roles": [
         "Hercule Poirot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000002",
       "name": "Lauren Bacall",
       "sequence": 1,
       "roles": [
-        "Mrs. Hubbard"
-      ],
-      "notes": null
+        "Mrs. Harriet Hubbard"
+      ]
     },
     {
       "imdbId": "nm0000842",
@@ -47,35 +45,31 @@
       "sequence": 2,
       "roles": [
         "Bianchi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000006",
       "name": "Ingrid Bergman",
       "sequence": 3,
       "roles": [
-        "Greta"
-      ],
-      "notes": null
+        "Greta Ohlsson"
+      ]
     },
     {
       "imdbId": "nm0000302",
       "name": "Jacqueline Bisset",
       "sequence": 4,
       "roles": [
-        "Countess Andrenyi"
-      ],
-      "notes": null
+        "Countess Elena Andrenyi"
+      ]
     },
     {
       "imdbId": "nm0144045",
       "name": "Jean-Pierre Cassel",
       "sequence": 5,
       "roles": [
-        "Pierre"
-      ],
-      "notes": "(as Jean Pierre Cassel)"
+        "Pierre Paul Michel"
+      ]
     },
     {
       "imdbId": "nm0000125",
@@ -83,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Col. Arbuthnot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000024",
@@ -92,26 +85,23 @@
       "sequence": 7,
       "roles": [
         "Beddoes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0384908",
       "name": "Wendy Hiller",
       "sequence": 8,
       "roles": [
-        "Princess Dragomiroff"
-      ],
-      "notes": null
+        "Princess Natalia Dragomiroff"
+      ]
     },
     {
       "imdbId": "nm0000578",
       "name": "Anthony Perkins",
       "sequence": 9,
       "roles": [
-        "McQueen"
-      ],
-      "notes": null
+        "Hector McQueen"
+      ]
     },
     {
       "imdbId": "nm0000603",
@@ -119,17 +109,15 @@
       "sequence": 10,
       "roles": [
         "Mary Debenham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0731499",
       "name": "Rachel Roberts",
       "sequence": 11,
       "roles": [
-        "Hildegarde"
-      ],
-      "notes": null
+        "Hildegarde Schmidt"
+      ]
     },
     {
       "imdbId": "nm0001847",
@@ -137,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Ratchett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001868",
@@ -146,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Count Andrenyi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086780",
@@ -155,26 +141,23 @@
       "sequence": 14,
       "roles": [
         "Hardman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0183459",
       "name": "George Coulouris",
       "sequence": 15,
       "roles": [
-        "Doctor"
-      ],
-      "notes": null
+        "Doctor Constantine"
+      ]
     },
     {
       "imdbId": "nm0703615",
       "name": "Denis Quilley",
       "sequence": 16,
       "roles": [
-        "Foscarelli"
-      ],
-      "notes": null
+        "Antonio Foscarelli"
+      ]
     },
     {
       "imdbId": "nm0229943",
@@ -182,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Concierge"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0516027",
@@ -191,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "A.D.C."
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0595602",
@@ -200,28 +181,21 @@
       "sequence": 19,
       "roles": [
         "Chief Attendant"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0214989",
-      "name": "Paul Dehn",
-      "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
       "imdbId": "nm0002005",
       "name": "Agatha Christie",
-      "sequence": 1,
-      "notes": "(novel) (uncredited)"
+      "sequence": 0,
+      "notes": "(novel)"
     },
     {
-      "imdbId": "nm0787289",
-      "name": "Anthony Shaffer",
+      "imdbId": "nm0214989",
+      "name": "Paul Dehn",
       "sequence": 2,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

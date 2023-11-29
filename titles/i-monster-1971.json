@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0068727",
-  "title": "I, Monster",
-  "sortTitle": "I, Monster (1971)",
-  "year": 1971,
   "slug": "i-monster-1971",
-  "releaseDate": "1971-11-01",
+  "title": "I, Monster",
+  "originalTitle": "I, Monster",
+  "sortTitle": "I, Monster",
+  "year": 1971,
+  "releaseDate": "1973-04-01",
   "countries": [
     "United Kingdom"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0917358",
       "name": "Stephen Weeks",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -25,19 +26,17 @@
       "name": "Christopher Lee",
       "sequence": 0,
       "roles": [
-        "Marlowe",
-        "Blake"
-      ],
-      "notes": null
+        "Dr. Charles Marlowe",
+        "Edward Blake"
+      ]
     },
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
       "sequence": 1,
       "roles": [
-        "Utterson"
-      ],
-      "notes": null
+        "Frederick Utterson"
+      ]
     },
     {
       "imdbId": "nm0265631",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Enfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403528",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Lanyon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0581416",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Poole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912915",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Deane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0417075",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Diane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0492915",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Annie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0216195",
@@ -99,17 +92,15 @@
       "sequence": 8,
       "roles": [
         "Landlady"
-      ],
-      "notes": "(as Aimee Delamain)"
+      ]
     },
     {
       "imdbId": "nm0220735",
       "name": "Michael Des Barres",
       "sequence": 9,
       "roles": [
-        "Boy in alley"
-      ],
-      "notes": null
+        "Boy in Alley"
+      ]
     }
   ],
   "writers": [
@@ -122,7 +113,7 @@
     {
       "imdbId": "nm0836988",
       "name": "Milton Subotsky",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

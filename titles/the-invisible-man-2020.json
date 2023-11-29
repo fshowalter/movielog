@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt1051906",
-  "title": "The Invisible Man",
-  "sortTitle": "Invisible Man (2020)",
-  "year": 2020,
   "slug": "the-invisible-man-2020",
-  "releaseDate": "2020-02-24",
+  "title": "The Invisible Man",
+  "originalTitle": "The Invisible Man",
+  "sortTitle": "Invisible Man, The",
+  "year": 2020,
+  "releaseDate": "2020-02-28",
   "countries": [
     "Australia",
     "United States"
@@ -20,8 +22,7 @@
     {
       "imdbId": "nm1191481",
       "name": "Leigh Whannell",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Cecilia Kass"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2719825",
@@ -40,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Adrian Griffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2976830",
@@ -49,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Emily Kass"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0388038",
@@ -58,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "James Lanier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4977564",
@@ -67,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Sydney Lanier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1168915",
@@ -76,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Tom Griffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3715624",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Marc"
-      ],
-      "notes": "(Architect)"
+      ]
     },
     {
       "imdbId": "nm1813111",
@@ -94,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Doctor Lee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0576020",
@@ -103,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Lyft Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm11382550",
@@ -112,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Taylor"
-      ],
-      "notes": "(Waiter)"
+      ]
     },
     {
       "imdbId": "nm4824349",
@@ -121,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Screaming Woman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394034",
@@ -130,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Head Doctor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4783654",
@@ -139,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Orderly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm11382551",
@@ -148,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Police Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2784877",
@@ -157,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Detective Reckley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4549541",
@@ -166,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm5048661",
@@ -175,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Strike-Stun Guard"
-      ],
-      "notes": "(as Serag Mohammed)"
+      ]
     },
     {
       "imdbId": "nm0003482",
@@ -184,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Security Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0938931",
@@ -193,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Accident Victim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1091921",
@@ -202,8 +184,16 @@
       "sequence": 19,
       "roles": [
         "Detective"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm7592239",
+      "name": "Paul Pedersen",
+      "sequence": 31,
+      "roles": [
+        "Deadman",
+        "Guard"
+      ]
     }
   ],
   "writers": [
@@ -216,14 +206,8 @@
     {
       "imdbId": "nm1191481",
       "name": "Leigh Whannell",
-      "sequence": 1,
-      "notes": "(screen story by)"
-    },
-    {
-      "imdbId": "nm0920229",
-      "name": "H.G. Wells",
       "sequence": 2,
-      "notes": "(novel) (uncredited)"
+      "notes": "(screen story by)"
     }
   ]
 }

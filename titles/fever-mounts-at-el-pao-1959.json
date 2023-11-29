@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052810",
-  "title": "Fever Mounts at El Pao",
-  "sortTitle": "Fever Mounts at El Pao (1959)",
-  "year": 1959,
   "slug": "fever-mounts-at-el-pao-1959",
+  "title": "Fever Mounts at El Pao",
+  "originalTitle": "La fi\u00e8vre monte \u00e0 El Pao",
+  "sortTitle": "Fever Mounts at El Pao",
+  "year": 1959,
   "releaseDate": "1959-12-05",
   "countries": [
     "France",
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Ram\u00f3n V\u00e1zquez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0299661",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "In\u00e9s Rojas"
-      ],
-      "notes": "(as Maria Felix)"
+      ]
     },
     {
       "imdbId": "nm0785771",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Alejandro Gual"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0274940",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Le gouverneur Mariano Vargas"
-      ],
-      "notes": "(as M.A. Soler)"
+      ]
     },
     {
       "imdbId": "nm0200661",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Le lieutenant Garc\u00eda"
-      ],
-      "notes": "(as Raoul Dantes)"
+      ]
     },
     {
       "imdbId": "nm0812929",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Le professeur Juan C\u00e1rdenas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0432466",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Indarte"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0147436",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Le colonel Olivares"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0812919",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Le pr\u00e9sident Carlos Barreiro"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -113,24 +105,18 @@
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation) (as Luis Bunuel)"
     },
     {
       "imdbId": "nm0017274",
       "name": "Luis Alcoriza",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0233431",
       "name": "Charles Dorat",
-      "sequence": 3,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0764583",
-      "name": "Louis Sapin",
       "sequence": 4,
       "notes": "(adaptation)"
     },
@@ -138,6 +124,12 @@
       "imdbId": "nm0764583",
       "name": "Louis Sapin",
       "sequence": 5,
+      "notes": "(adaptation)"
+    },
+    {
+      "imdbId": "nm0764583",
+      "name": "Louis Sapin",
+      "sequence": 7,
       "notes": "(dialogue)"
     }
   ]

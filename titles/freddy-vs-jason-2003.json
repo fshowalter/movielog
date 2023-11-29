@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0329101",
-  "title": "Freddy vs. Jason",
-  "sortTitle": "Freddy vs. Jason (2003)",
-  "year": 2003,
   "slug": "freddy-vs-jason-2003",
-  "releaseDate": "2003-08-13",
+  "title": "Freddy vs. Jason",
+  "originalTitle": "Freddy vs. Jason",
+  "sortTitle": "Freddy vs. Jason",
+  "year": 2003,
+  "releaseDate": "2003-08-15",
   "countries": [
     "Canada",
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0950553",
       "name": "Ronny Yu",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Freddy Krueger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0457090",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Jason Voorhees"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0444621",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lori Campbell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0728762",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Will Rollins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0746714",
@@ -64,71 +61,63 @@
       "sequence": 4,
       "roles": [
         "Kia Waterson"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0549815",
-      "name": "Chris Marquette",
-      "sequence": 5,
-      "roles": [
-        "Charlie Linderman"
-      ],
-      "notes": "(as Christopher George Marquette)"
-    },
-    {
-      "imdbId": "nm0281956",
-      "name": "Brendan Fletcher",
-      "sequence": 6,
-      "roles": [
-        "Mark Davis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0410622",
       "name": "Katharine Isabelle",
-      "sequence": 7,
+      "sequence": 5,
       "roles": [
         "Gibb"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0613147",
-      "name": "Lochlyn Munro",
-      "sequence": 8,
+      "imdbId": "nm0549815",
+      "name": "Christopher Marquette",
+      "sequence": 6,
       "roles": [
-        "Deputy Scott Stubbs"
-      ],
-      "notes": null
+        "Charlie Linderman"
+      ]
     },
     {
-      "imdbId": "nm0479526",
-      "name": "Kyle Labine",
-      "sequence": 9,
+      "imdbId": "nm0281956",
+      "name": "Brendan Fletcher",
+      "sequence": 7,
       "roles": [
-        "Bill Freeburg"
-      ],
-      "notes": null
+        "Mark Davis"
+      ]
     },
     {
       "imdbId": "nm0125148",
       "name": "Tom Butler",
-      "sequence": 10,
+      "sequence": 8,
       "roles": [
         "Dr. Campbell"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0465831",
-      "name": "David Kopp",
+      "imdbId": "nm0613147",
+      "name": "Lochlyn Munro",
+      "sequence": 9,
+      "roles": [
+        "Deputy Scott Stubbs"
+      ]
+    },
+    {
+      "imdbId": "nm0479526",
+      "name": "Kyle Labine",
+      "sequence": 10,
+      "roles": [
+        "Bill Freeburg"
+      ]
+    },
+    {
+      "imdbId": "nm0911933",
+      "name": "Zack Ward",
       "sequence": 11,
       "roles": [
-        "Blake"
-      ],
-      "notes": null
+        "Bobby Davis"
+      ]
     },
     {
       "imdbId": "nm0789912",
@@ -136,35 +125,31 @@
       "sequence": 12,
       "roles": [
         "Mrs. Pamela Voorhees"
-      ],
-      "notes": "(Jason's Mother)"
-    },
-    {
-      "imdbId": "nm1237948",
-      "name": "Jesse Hutch",
-      "sequence": 13,
-      "roles": [
-        "Trey"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0911933",
-      "name": "Zack Ward",
-      "sequence": 14,
-      "roles": [
-        "Bobby Davis"
-      ],
-      "notes": "(Mark's Brother)"
+      ]
     },
     {
       "imdbId": "nm0149942",
       "name": "Garry Chalk",
-      "sequence": 15,
+      "sequence": 13,
       "roles": [
         "Sheriff Williams"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm1237948",
+      "name": "Jesse Hutch",
+      "sequence": 14,
+      "roles": [
+        "Trey"
+      ]
+    },
+    {
+      "imdbId": "nm0465831",
+      "name": "David Kopp",
+      "sequence": 15,
+      "roles": [
+        "Blake"
+      ]
     },
     {
       "imdbId": "nm0152313",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Blake's Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1432523",
@@ -181,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Young Jason Voorhees"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1431091",
@@ -190,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "Little Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0008533",
@@ -199,8 +181,7 @@
       "sequence": 19,
       "roles": [
         "Officer Goodman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790144",
@@ -208,8 +189,7 @@
       "sequence": 20,
       "roles": [
         "Principal Shaye"
-      ],
-      "notes": "(as L.E. Moko)"
+      ]
     },
     {
       "imdbId": "nm0310240",
@@ -217,8 +197,7 @@
       "sequence": 21,
       "roles": [
         "Shack"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1145557",
@@ -226,8 +205,7 @@
       "sequence": 22,
       "roles": [
         "Teammate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912361",
@@ -235,8 +213,7 @@
       "sequence": 23,
       "roles": [
         "Beer Line Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0360930",
@@ -244,17 +221,15 @@
       "sequence": 24,
       "roles": [
         "Beer Line Guy"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0337592",
-      "name": "Alex Green",
+      "imdbId": "nm4112405",
+      "name": "Axel Green",
       "sequence": 25,
       "roles": [
         "Frisell"
-      ],
-      "notes": "(Glowing Raver)"
+      ]
     },
     {
       "imdbId": "nm0613205",
@@ -262,8 +237,7 @@
       "sequence": 26,
       "roles": [
         "Heather"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1400220",
@@ -271,8 +245,7 @@
       "sequence": 27,
       "roles": [
         "Dead Girl on Tree"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1399910",
@@ -280,8 +253,7 @@
       "sequence": 28,
       "roles": [
         "Dead Boy on Tree"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0494892",
@@ -289,8 +261,7 @@
       "sequence": 29,
       "roles": [
         "Kinsey Park"
-      ],
-      "notes": "(Male Nurse)"
+      ]
     },
     {
       "imdbId": "nm0929835",
@@ -298,8 +269,7 @@
       "sequence": 30,
       "roles": [
         "Asylum Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0727005",
@@ -307,8 +277,7 @@
       "sequence": 31,
       "roles": [
         "TV Reporter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0676676",
@@ -316,8 +285,7 @@
       "sequence": 32,
       "roles": [
         "Lori's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1175649",
@@ -325,8 +293,7 @@
       "sequence": 33,
       "roles": [
         "Skipping Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1433055",
@@ -334,8 +301,7 @@
       "sequence": 34,
       "roles": [
         "Skipping Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1432027",
@@ -343,8 +309,7 @@
       "sequence": 35,
       "roles": [
         "Skipping Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0669826",
@@ -352,8 +317,7 @@
       "sequence": 36,
       "roles": [
         "School Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1021473",
@@ -361,8 +325,7 @@
       "sequence": 37,
       "roles": [
         "Male Counselor"
-      ],
-      "notes": "(as Tyler Foley)"
+      ]
     },
     {
       "imdbId": "nm1191160",
@@ -370,8 +333,7 @@
       "sequence": 38,
       "roles": [
         "Female Counselor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1158465",
@@ -379,8 +341,7 @@
       "sequence": 39,
       "roles": [
         "Female Counselor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0794665",
@@ -388,8 +349,7 @@
       "sequence": 40,
       "roles": [
         "Cruel Child"
-      ],
-      "notes": "(as Colton Schock)"
+      ]
     },
     {
       "imdbId": "nm1431418",
@@ -397,8 +357,7 @@
       "sequence": 41,
       "roles": [
         "Cruel Child"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1274858",
@@ -406,21 +365,20 @@
       "sequence": 42,
       "roles": [
         "Cruel Child"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1226735",
       "name": "Damian Shannon",
-      "sequence": 0,
+      "sequence": 3,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm1226737",
       "name": "Mark Swift",
-      "sequence": 1,
+      "sequence": 4,
       "notes": "(written by)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0057569",
-  "title": "The Terror",
-  "sortTitle": "Terror (1963)",
-  "year": 1963,
   "slug": "the-terror-1963",
-  "releaseDate": "1963-06-17",
+  "title": "The Terror",
+  "originalTitle": "The Terror",
+  "sortTitle": "Terror, The",
+  "year": 1963,
+  "releaseDate": "1963-05-30",
   "countries": [
     "United States"
   ],
@@ -16,44 +18,7 @@
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000338",
-      "name": "Francis Ford Coppola",
-      "sequence": 1,
-      "notes": "(three or four days director) (uncredited)"
-    },
-    {
-      "imdbId": "nm8466308",
-      "name": "Jack Hale",
-      "sequence": 2,
-      "notes": "(one day director) (uncredited)"
-    },
-    {
-      "imdbId": "nm0375494",
-      "name": "Monte Hellman",
-      "sequence": 3,
-      "notes": "(few days director) (uncredited)"
-    },
-    {
-      "imdbId": "nm0384335",
-      "name": "Jack Hill",
-      "sequence": 4,
-      "notes": "(uncredited)"
-    },
-    {
-      "imdbId": "nm0415911",
-      "name": "Dennis Jakob",
-      "sequence": 5,
-      "notes": "(one day director) (uncredited)"
-    },
-    {
-      "imdbId": "nm0000197",
-      "name": "Jack Nicholson",
-      "sequence": 6,
-      "notes": "(one final day director) (uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -64,8 +29,7 @@
       "roles": [
         "Baron Victor Frederick Von Leppe",
         "Eric"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000197",
@@ -73,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Lt. Andre Duvalier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461070",
@@ -83,8 +46,7 @@
       "roles": [
         "Helene",
         "Ghost of Ilsa The Baroness Von Leppe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0588241",
@@ -92,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Stefan"
-      ],
-      "notes": "(as Richard Miller)"
+      ]
     },
     {
       "imdbId": "nm0627030",
@@ -102,8 +63,7 @@
       "roles": [
         "Katrina - Witch",
         "Eric's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0371918",
@@ -111,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Gustaf"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -120,19 +79,13 @@
       "imdbId": "nm0330388",
       "name": "Leo Gordon",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0384335",
       "name": "Jack Hill",
       "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 2,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay by)"
     }
   ]
 }

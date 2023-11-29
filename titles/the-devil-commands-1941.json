@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0033530",
-  "title": "The Devil Commands",
-  "sortTitle": "Devil Commands (1941)",
-  "year": 1941,
   "slug": "the-devil-commands-1941",
+  "title": "The Devil Commands",
+  "originalTitle": "The Devil Commands",
+  "sortTitle": "Devil Commands, The",
+  "year": 1941,
   "releaseDate": "1941-02-03",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0229424",
       "name": "Edward Dmytryk",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Julian Blair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0279961",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Richard Sayles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0240358",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Anne Blair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720843",
@@ -54,17 +52,15 @@
       "sequence": 3,
       "roles": [
         "Mrs. Blanche Walters"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0771822",
-      "name": "Cy Schindell",
+      "imdbId": "nm12510482",
+      "name": "Ralph Penney",
       "sequence": 4,
       "roles": [
         "Karl"
-      ],
-      "notes": "(as Ralph Penney)"
+      ]
     },
     {
       "imdbId": "nm0010928",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Marcy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0050019",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Seth Marcy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0531810",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Sheriff Ed Willis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0911969",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Helen Blair"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -119,8 +111,8 @@
     {
       "imdbId": "nm0806069",
       "name": "William Sloane",
-      "sequence": 2,
-      "notes": "(novel \"The Edge of Running Water\") (uncredited)"
+      "sequence": 3,
+      "notes": "(story: novel \"The Edge of Running Water\")"
     }
   ]
 }

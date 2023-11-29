@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0032551",
-  "title": "The Grapes of Wrath",
-  "sortTitle": "Grapes of Wrath (1940)",
-  "year": 1940,
   "slug": "the-grapes-of-wrath-1940",
-  "releaseDate": "1940-01-24",
+  "title": "The Grapes of Wrath",
+  "originalTitle": "The Grapes of Wrath",
+  "sortTitle": "Grapes of Wrath, The",
+  "year": 1940,
+  "releaseDate": "1940-03-15",
   "countries": [
     "United States"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0000406",
       "name": "John Ford",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -26,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Tom Joad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002034",
@@ -35,35 +35,31 @@
       "sequence": 1,
       "roles": [
         "Ma Joad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001017",
       "name": "John Carradine",
       "sequence": 2,
       "roles": [
-        "Jim Casy"
-      ],
-      "notes": null
+        "Casy"
+      ]
     },
     {
       "imdbId": "nm0335788",
       "name": "Charley Grapewin",
       "sequence": 3,
       "roles": [
-        "Grandpa Joad"
-      ],
-      "notes": null
+        "Grandpa"
+      ]
     },
     {
       "imdbId": "nm0100758",
       "name": "Dorris Bowdon",
       "sequence": 4,
       "roles": [
-        "Rosasharn Rivers"
-      ],
-      "notes": null
+        "Rosasharn"
+      ]
     },
     {
       "imdbId": "nm0801193",
@@ -71,80 +67,71 @@
       "sequence": 5,
       "roles": [
         "Pa Joad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0925713",
       "name": "O.Z. Whitehead",
       "sequence": 6,
       "roles": [
-        "Al Joad"
-      ],
-      "notes": null
+        "Al"
+      ]
     },
     {
       "imdbId": "nm0702798",
       "name": "John Qualen",
       "sequence": 7,
       "roles": [
-        "Muley Bates"
-      ],
-      "notes": null
+        "Muley"
+      ]
     },
     {
       "imdbId": "nm0703600",
       "name": "Eddie Quillan",
       "sequence": 8,
       "roles": [
-        "Connie Rivers"
-      ],
-      "notes": null
+        "Connie"
+      ]
     },
     {
       "imdbId": "nm0863193",
       "name": "Zeffie Tilbury",
       "sequence": 9,
       "roles": [
-        "Grandma Joad"
-      ],
-      "notes": null
+        "Grandma"
+      ]
     },
     {
       "imdbId": "nm0838412",
       "name": "Frank Sully",
       "sequence": 10,
       "roles": [
-        "Noah Joad"
-      ],
-      "notes": null
+        "Noah"
+      ]
     },
     {
       "imdbId": "nm0201227",
       "name": "Frank Darien",
       "sequence": 11,
       "roles": [
-        "Uncle John Joad"
-      ],
-      "notes": null
+        "Uncle John"
+      ]
     },
     {
       "imdbId": "nm0382718",
       "name": "Darryl Hickman",
       "sequence": 12,
       "roles": [
-        "Winfield Joad"
-      ],
-      "notes": null
+        "Winfield"
+      ]
     },
     {
       "imdbId": "nm0590189",
       "name": "Shirley Mills",
       "sequence": 13,
       "roles": [
-        "Ruthie Joad"
-      ],
-      "notes": null
+        "Ruth Joad"
+      ]
     },
     {
       "imdbId": "nm0408184",
@@ -152,8 +139,7 @@
       "sequence": 14,
       "roles": [
         "Thomas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0593372",
@@ -161,8 +147,7 @@
       "sequence": 15,
       "roles": [
         "Caretaker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113184",
@@ -170,8 +155,7 @@
       "sequence": 16,
       "roles": [
         "Wilkie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035138",
@@ -179,17 +163,15 @@
       "sequence": 17,
       "roles": [
         "Davis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000955",
       "name": "Ward Bond",
       "sequence": 18,
       "roles": [
-        "Needles Policeman"
-      ],
-      "notes": null
+        "Policeman"
+      ]
     },
     {
       "imdbId": "nm0878826",
@@ -197,8 +179,7 @@
       "sequence": 19,
       "roles": [
         "Bert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269524",
@@ -206,8 +187,7 @@
       "sequence": 20,
       "roles": [
         "Bill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0849579",
@@ -215,8 +195,7 @@
       "sequence": 21,
       "roles": [
         "Joe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0414038",
@@ -224,17 +203,15 @@
       "sequence": 22,
       "roles": [
         "Inspection Officer"
-      ],
-      "notes": "(as Selmar Jackson)"
+      ]
     },
     {
       "imdbId": "nm0585481",
       "name": "Charles Middleton",
       "sequence": 23,
       "roles": [
-        "Roadblock Leader"
-      ],
-      "notes": null
+        "Leader"
+      ]
     },
     {
       "imdbId": "nm0909040",
@@ -242,8 +219,7 @@
       "sequence": 24,
       "roles": [
         "Proprietor"
-      ],
-      "notes": "(as Eddie Waller)"
+      ]
     },
     {
       "imdbId": "nm0002116",
@@ -251,8 +227,7 @@
       "sequence": 25,
       "roles": [
         "Floyd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0400537",
@@ -260,8 +235,7 @@
       "sequence": 26,
       "roles": [
         "Frank"
-      ],
-      "notes": "(as David Hughes)"
+      ]
     },
     {
       "imdbId": "nm0163785",
@@ -269,17 +243,15 @@
       "sequence": 27,
       "roles": [
         "City Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0768178",
       "name": "Joe Sawyer",
       "sequence": 28,
       "roles": [
-        "Keene Ranch Foreman"
-      ],
-      "notes": "(as Joseph Sawyer)"
+        "Bookkeeper"
+      ]
     },
     {
       "imdbId": "nm0269709",
@@ -287,17 +259,15 @@
       "sequence": 29,
       "roles": [
         "Tim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0606343",
       "name": "Adrian Morris",
       "sequence": 30,
       "roles": [
-        "Fake Hiring Agent"
-      ],
-      "notes": null
+        "Agent"
+      ]
     },
     {
       "imdbId": "nm0422435",
@@ -305,8 +275,7 @@
       "sequence": 31,
       "roles": [
         "Muley's Son"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0392912",
@@ -314,17 +283,15 @@
       "sequence": 32,
       "roles": [
         "Spencer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045784",
       "name": "Irving Bacon",
       "sequence": 33,
       "roles": [
-        "Truck Driver"
-      ],
-      "notes": null
+        "Driver"
+      ]
     },
     {
       "imdbId": "nm0570468",
@@ -332,8 +299,7 @@
       "sequence": 34,
       "roles": [
         "Mae"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0854888",
@@ -342,8 +308,7 @@
       "roles": [
         "Deputy",
         "Troublemaker"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -356,7 +321,7 @@
     {
       "imdbId": "nm0825705",
       "name": "John Steinbeck",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on the novel by)"
     }
   ]

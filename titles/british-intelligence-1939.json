@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0032283",
-  "title": "British Intelligence",
-  "sortTitle": "British Intelligence (1939)",
-  "year": 1939,
   "slug": "british-intelligence-1939",
+  "title": "British Intelligence",
+  "originalTitle": "British Intelligence",
+  "sortTitle": "British Intelligence",
+  "year": 1939,
   "releaseDate": "1940-01-29",
   "countries": [
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0002542",
       "name": "Terry O. Morse",
-      "sequence": 0,
-      "notes": "(as Terry Morse)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,17 +29,15 @@
       "sequence": 0,
       "roles": [
         "Valdar"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0512267",
       "name": "Margaret Lindsay",
       "sequence": 1,
       "roles": [
-        "Helene von Lorbeer"
-      ],
-      "notes": null
+        "Helene von Lorbeer -"
+      ]
     },
     {
       "imdbId": "nm0504423",
@@ -46,17 +45,15 @@
       "sequence": 2,
       "roles": [
         "Frank Bennett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0610950",
       "name": "Leonard Mudie",
       "sequence": 3,
       "roles": [
-        "Colonel James Yeats"
-      ],
-      "notes": null
+        "Col. James Yeats"
+      ]
     },
     {
       "imdbId": "nm0378555",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Arthur Bennett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0265627",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "George Bennett"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -87,7 +82,7 @@
     {
       "imdbId": "nm0446189",
       "name": "Anthony Paul Kelly",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on a play ['Two Faces East'] by)"
     }
   ]

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0072308",
-  "title": "The Towering Inferno",
-  "sortTitle": "Towering Inferno (1974)",
-  "year": 1974,
   "slug": "the-towering-inferno-1974",
+  "title": "The Towering Inferno",
+  "originalTitle": "The Towering Inferno",
+  "sortTitle": "Towering Inferno, The",
+  "year": 1974,
   "releaseDate": "1974-12-14",
   "countries": [
     "United States"
@@ -17,28 +19,25 @@
     {
       "imdbId": "nm0347086",
       "name": "John Guillermin",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0000537",
-      "name": "Steve McQueen",
-      "sequence": 0,
-      "roles": [
-        "Chief O'Halloran"
-      ],
-      "notes": null
-    },
-    {
       "imdbId": "nm0000056",
       "name": "Paul Newman",
-      "sequence": 1,
+      "sequence": 0,
       "roles": [
         "Doug Roberts"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0000537",
+      "name": "Steve McQueen",
+      "sequence": 1,
+      "roles": [
+        "Chief O'Hallorhan"
+      ]
     },
     {
       "imdbId": "nm0000034",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Jim Duncan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001159",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Susan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000001",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Harlee Claiborne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086806",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Patty"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000328",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Simmons"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0428354",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Lisolette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001740",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Jernigan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001816",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Senator Parker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001822",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Dan Bigelow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0281224",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Lorrie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0021052",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Paula Ramsay"
-      ],
-      "notes": "(as Sheila Mathews)"
+      ]
     },
     {
       "imdbId": "nm0123680",
@@ -145,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Giddings"
-      ],
-      "notes": "(as Normann Burton)"
+      ]
     },
     {
       "imdbId": "nm0172355",
@@ -154,8 +141,7 @@
       "sequence": 14,
       "roles": [
         "Mayor Ramsay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330150",
@@ -163,8 +149,7 @@
       "sequence": 15,
       "roles": [
         "Kappy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0675066",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Scott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0797268",
@@ -181,8 +165,7 @@
       "sequence": 17,
       "roles": [
         "Carlos"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0650683",
@@ -190,8 +173,7 @@
       "sequence": 18,
       "roles": [
         "Mark Powers"
-      ],
-      "notes": "(as Ernie Orsatti)"
+      ]
     },
     {
       "imdbId": "nm0001056",
@@ -199,8 +181,7 @@
       "sequence": 19,
       "roles": [
         "Deputy Chief #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0736861",
@@ -208,8 +189,7 @@
       "sequence": 20,
       "roles": [
         "Lady in Buoy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0500061",
@@ -217,8 +197,7 @@
       "sequence": 21,
       "roles": [
         "Guest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0333288",
@@ -226,8 +205,7 @@
       "sequence": 22,
       "roles": [
         "Flaker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254616",
@@ -235,8 +213,7 @@
       "sequence": 23,
       "roles": [
         "Deputy Chief #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0815825",
@@ -244,8 +221,7 @@
       "sequence": 24,
       "roles": [
         "Johnson"
-      ],
-      "notes": "(as Olan Soul\u00e9)"
+      ]
     },
     {
       "imdbId": "nm0332971",
@@ -253,8 +229,7 @@
       "sequence": 25,
       "roles": [
         "Angela Allbright"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0519654",
@@ -262,8 +237,7 @@
       "sequence": 26,
       "roles": [
         "Phillip Allbright"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0568561",
@@ -271,8 +245,7 @@
       "sequence": 27,
       "roles": [
         "Mrs. Allbright"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0628263",
@@ -280,8 +253,7 @@
       "sequence": 28,
       "roles": [
         "Young Fireman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0173815",
@@ -289,17 +261,15 @@
       "sequence": 29,
       "roles": [
         "Tim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0908647",
-      "name": "George Wallace",
+      "name": "George D. Wallace",
       "sequence": 30,
       "roles": [
         "Chief Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0191611",
@@ -307,8 +277,7 @@
       "sequence": 31,
       "roles": [
         "Technician"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060248",
@@ -316,8 +285,7 @@
       "sequence": 32,
       "roles": [
         "Leasing Agent"
-      ],
-      "notes": "(as William H. Bassett)"
+      ]
     },
     {
       "imdbId": "nm0186833",
@@ -325,8 +293,7 @@
       "sequence": 33,
       "roles": [
         "Callahan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625358",
@@ -334,8 +301,7 @@
       "sequence": 34,
       "roles": [
         "Wes"
-      ],
-      "notes": "(as Erik Nelson)"
+      ]
     },
     {
       "imdbId": "nm0050255",
@@ -343,8 +309,7 @@
       "sequence": 35,
       "roles": [
         "Announcer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382928",
@@ -352,8 +317,7 @@
       "sequence": 36,
       "roles": [
         "Pilot"
-      ],
-      "notes": "(as LCDR. Norman Hicks)"
+      ]
     },
     {
       "imdbId": "nm0439786",
@@ -361,8 +325,7 @@
       "sequence": 37,
       "roles": [
         "Co-Pilot"
-      ],
-      "notes": "(as LTJG. Thomas Karnahan)"
+      ]
     }
   ],
   "writers": [
@@ -370,25 +333,25 @@
       "imdbId": "nm0827827",
       "name": "Richard Martin Stern",
       "sequence": 0,
-      "notes": "(novel \"The Tower\")"
+      "notes": "(based on the novel \"The Tower\" by)"
     },
     {
       "imdbId": "nm0778743",
       "name": "Thomas N. Scortia",
-      "sequence": 1,
-      "notes": "(novel \"The Glass Inferno\")"
+      "sequence": 2,
+      "notes": "(based on the novel \"The Glass Inferno\" by)"
     },
     {
       "imdbId": "nm0732631",
       "name": "Frank M. Robinson",
-      "sequence": 2,
-      "notes": "(novel \"The Glass Inferno\")"
+      "sequence": 3,
+      "notes": "(based on the novel \"The Glass Inferno\" by)"
     },
     {
       "imdbId": "nm0798103",
       "name": "Stirling Silliphant",
-      "sequence": 3,
-      "notes": "(screenplay)"
+      "sequence": 5,
+      "notes": "(screenplay by)"
     }
   ]
 }

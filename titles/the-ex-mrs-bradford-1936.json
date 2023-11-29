@@ -1,25 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0027593",
-  "title": "The Ex-Mrs. Bradford",
-  "sortTitle": "Ex-Mrs. Bradford (1936)",
-  "year": 1936,
   "slug": "the-ex-mrs-bradford-1936",
-  "releaseDate": "1936-04-23",
+  "title": "The Ex-Mrs. Bradford",
+  "originalTitle": "The Ex-Mrs. Bradford",
+  "sortTitle": "Ex-Mrs. Bradford, The",
+  "year": 1936,
+  "releaseDate": "1936-05-13",
   "countries": [
     "United States"
   ],
   "genres": [
     "Comedy",
-    "Crime",
-    "Mystery",
-    "Romance"
+    "Mystery"
   ],
   "directors": [
     {
       "imdbId": "nm0731596",
       "name": "Stephen Roberts",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Lawrence Bradford"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000795",
@@ -38,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Paula Bradford"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0322299",
@@ -47,17 +44,15 @@
       "sequence": 2,
       "roles": [
         "Inspector Corrigan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0089314",
       "name": "Eric Blore",
       "sequence": 3,
       "roles": [
-        "Stokes - Bradford's Butler"
-      ],
-      "notes": null
+        "Stokes"
+      ]
     },
     {
       "imdbId": "nm0035877",
@@ -65,26 +60,23 @@
       "sequence": 4,
       "roles": [
         "Nick Martel"
-      ],
-      "notes": "(Bookie)"
+      ]
     },
     {
       "imdbId": "nm0497759",
       "name": "Lila Lee",
       "sequence": 5,
       "roles": [
-        "Miss Prentiss - Bradford's Receptionist"
-      ],
-      "notes": null
+        "Miss Prentiss"
+      ]
     },
     {
       "imdbId": "nm0593372",
       "name": "Grant Mitchell",
       "sequence": 6,
       "roles": [
-        "John Summers - Luxury's Owner"
-      ],
-      "notes": null
+        "John Summers"
+      ]
     },
     {
       "imdbId": "nm0639895",
@@ -92,17 +84,15 @@
       "sequence": 7,
       "roles": [
         "Mrs. Summers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0604960",
       "name": "Ralph Morgan",
       "sequence": 8,
       "roles": [
-        "Leroy Hutchins - Warcloud's Owner"
-      ],
-      "notes": null
+        "Leroy Hutchins"
+      ]
     },
     {
       "imdbId": "nm0322319",
@@ -110,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mrs. Hutchins"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -119,13 +108,13 @@
       "imdbId": "nm0892044",
       "name": "Anthony Veiller",
       "sequence": 0,
-      "notes": "(screen play by)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0335455",
       "name": "James Edward Grant",
-      "sequence": 1,
-      "notes": "(story by)"
+      "sequence": 2,
+      "notes": "(story)"
     }
   ]
 }

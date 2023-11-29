@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0038109",
-  "title": "Spellbound",
-  "sortTitle": "Spellbound (1945)",
-  "year": 1945,
   "slug": "spellbound-1945",
-  "releaseDate": "1945-10-31",
+  "title": "Spellbound",
+  "originalTitle": "Spellbound",
+  "sortTitle": "Spellbound",
+  "year": 1945,
+  "releaseDate": "1945-12-28",
   "countries": [
     "United States"
   ],
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Constance Petersen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000060",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "John Ballantyne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0155011",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Alexander Brulov"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001991",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Murchison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0281766",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Mary Carmichael"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0256305",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Fleurot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0516093",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mr. Garmes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0329433",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "House Detective"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314065",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Graff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0193321",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Harry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0285922",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Stranger in Hotel Lobby"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0048238",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Det. Lt. Cooley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Det. Sgt. Gillespie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0367670",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Dr. Hanish"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -160,26 +147,20 @@
     {
       "imdbId": "nm1301541",
       "name": "John Palmer",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(suggested by novel: \"The House of Dr. Edwardes\") (as Francis Bleeding)"
     },
     {
       "imdbId": "nm0761573",
       "name": "Hilary St George Saunders",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(suggested by novel: \"The House of Dr. Edwardes\") (as Francis Bleeding)"
     },
     {
       "imdbId": "nm0534191",
       "name": "Angus MacPhail",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0739676",
-      "name": "May E. Romm",
-      "sequence": 4,
-      "notes": "(contributing writer: foreword) (uncredited)"
     }
   ]
 }

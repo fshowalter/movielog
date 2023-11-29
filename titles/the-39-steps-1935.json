@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0026029",
-  "title": "The 39 Steps",
-  "sortTitle": "39 Steps (1935)",
-  "year": 1935,
   "slug": "the-39-steps-1935",
-  "releaseDate": "1935-06-06",
+  "title": "The 39 Steps",
+  "originalTitle": "The 39 Steps",
+  "sortTitle": "39 Steps, The",
+  "year": 1935,
+  "releaseDate": "1935-07-31",
   "countries": [
     "United Kingdom"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,9 +28,8 @@
       "name": "Robert Donat",
       "sequence": 0,
       "roles": [
-        "Richard Hannay"
-      ],
-      "notes": null
+        "Hannay"
+      ]
     },
     {
       "imdbId": "nm0140914",
@@ -37,17 +37,15 @@
       "sequence": 1,
       "roles": [
         "Pamela"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543169",
       "name": "Lucie Mannheim",
       "sequence": 2,
       "roles": [
-        "Annabella Smith"
-      ],
-      "notes": null
+        "Miss Smith"
+      ]
     },
     {
       "imdbId": "nm0853607",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Professor Jordan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001919",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Crofter's Wife"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491406",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Crofter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0370848",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Mrs. Jordan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0148144",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "The Sheriff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0914931",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Memory"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0573790",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Commercial Traveller"
-      ],
-      "notes": "(as Gus Mac Naughton)"
+      ]
     },
     {
       "imdbId": "nm0894624",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Commercial Traveller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801152",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Maid"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -141,13 +130,13 @@
     {
       "imdbId": "nm0071657",
       "name": "Charles Bennett",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0067308",
       "name": "Ian Hay",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(dialogue)"
     }
   ]

@@ -1,12 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0055928",
-  "title": "Dr. No",
-  "sortTitle": "Dr. No (1962)",
-  "year": 1962,
   "slug": "dr-no-1962",
-  "releaseDate": "1962-10-05",
+  "title": "Dr. No",
+  "originalTitle": "Dr. No",
+  "sortTitle": "Dr. No",
+  "year": 1962,
+  "releaseDate": "1962-10-10",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ],
   "genres": [
     "Action",
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0950109",
       "name": "Terence Young",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "James Bond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000266",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Honey Ryder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0936476",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Dr. No"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0520437",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Felix Leiter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0496866",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "M."
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0206060",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Professor Dent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0551243",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Miss Taro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0457839",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Quarrel"
-      ],
-      "notes": "(as John Kitzmuller)"
+      ]
     },
     {
       "imdbId": "nm0311013",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Sylvia Trench"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561755",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Miss Moneypenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0078252",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Major Boothroyd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0793553",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Sister Lily"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0596304",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Sister Rose"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0506759",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Annabel Chung - Photographer"
-      ],
-      "notes": "(as Margaret Le Wars, Marguerite Lewars: end credits)"
+      ]
     },
     {
       "imdbId": "nm0288126",
@@ -154,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Superintendent Duff"
-      ],
-      "notes": "(as Wm. Foster-Davis)"
+      ]
     },
     {
       "imdbId": "nm0444180",
@@ -163,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Mary Trueblood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0141883",
@@ -172,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Mr. Jones"
-      ],
-      "notes": "(as Reginald Carter)"
+      ]
     },
     {
       "imdbId": "nm0085108",
@@ -181,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Pleydell-Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0123552",
@@ -190,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "General Potter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0726403",
@@ -200,8 +183,7 @@
       "roles": [
         "John Strangways",
         "Superintendent Duff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0886424",
@@ -211,8 +193,7 @@
         "Honey Ryder",
         "Sylvia Trench",
         "Various"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -237,20 +218,8 @@
     {
       "imdbId": "nm0001220",
       "name": "Ian Fleming",
-      "sequence": 3,
-      "notes": "(based on the novel by)"
-    },
-    {
-      "imdbId": "nm0542554",
-      "name": "Wolf Mankowitz",
       "sequence": 4,
-      "notes": "(treatment) (uncredited)"
-    },
-    {
-      "imdbId": "nm0950109",
-      "name": "Terence Young",
-      "sequence": 5,
-      "notes": "() (uncredited)"
+      "notes": "(based on the novel by)"
     }
   ]
 }

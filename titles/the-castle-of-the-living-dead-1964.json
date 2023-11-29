@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0057924",
-  "title": "The Castle of the Living Dead",
-  "sortTitle": "Castle of the Living Dead (1964)",
-  "year": 1964,
   "slug": "the-castle-of-the-living-dead-1964",
+  "title": "The Castle of the Living Dead",
+  "originalTitle": "Il castello dei morti vivi",
+  "sortTitle": "Castle of the Living Dead, The",
+  "year": 1964,
   "releaseDate": "1964-08-05",
   "countries": [
     "Italy",
@@ -18,14 +20,12 @@
     {
       "imdbId": "nm0754575",
       "name": "Warren Kiefer",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0723226",
       "name": "Luciano Ricci",
-      "sequence": 1,
-      "notes": "(creditOnly) (as Herbert Wise)"
+      "sequence": 1
     }
   ],
   "performers": [
@@ -35,8 +35,7 @@
       "sequence": 0,
       "roles": [
         "Count Drago"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0314543",
@@ -44,8 +43,7 @@
       "sequence": 1,
       "roles": [
         "Laura"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0006573",
@@ -53,8 +51,7 @@
       "sequence": 2,
       "roles": [
         "Eric"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0884178",
@@ -62,8 +59,7 @@
       "sequence": 3,
       "roles": [
         "Sandro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000661",
@@ -73,8 +69,7 @@
         "Sgt. Paul",
         "The Witch",
         "The Old Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0210137",
@@ -82,8 +77,7 @@
       "sequence": 5,
       "roles": [
         "Nick"
-      ],
-      "notes": "(as Anthony Martin)"
+      ]
     },
     {
       "imdbId": "nm0855722",
@@ -91,8 +85,7 @@
       "sequence": 6,
       "roles": [
         "Policeman"
-      ],
-      "notes": "(as David Pappas, Renato Terra Caizzi)"
+      ]
     },
     {
       "imdbId": "nm0095084",
@@ -100,8 +93,7 @@
       "sequence": 7,
       "roles": [
         "Marc"
-      ],
-      "notes": "(as Lewis Bonos, Luigi W. Bonos)"
+      ]
     },
     {
       "imdbId": "nm0031272",
@@ -109,8 +101,7 @@
       "sequence": 8,
       "roles": [
         "Gianni"
-      ],
-      "notes": "(as Ike Pollack)"
+      ]
     },
     {
       "imdbId": "nm0822268",
@@ -118,8 +109,7 @@
       "sequence": 9,
       "roles": [
         "Bruno"
-      ],
-      "notes": "(as Jack Stany)"
+      ]
     },
     {
       "imdbId": "nm0683119",
@@ -127,8 +117,7 @@
       "sequence": 10,
       "roles": [
         "Dart"
-      ],
-      "notes": "(as Luke Pigozzi)"
+      ]
     }
   ],
   "writers": [
@@ -147,20 +136,14 @@
     {
       "imdbId": "nm0754575",
       "name": "Warren Kiefer",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0036053",
       "name": "Fede Arnaud",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(Italian dialogue)"
-    },
-    {
-      "imdbId": "nm0716262",
-      "name": "Michael Reeves",
-      "sequence": 4,
-      "notes": "(additional material) (uncredited)"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0078300",
-  "title": "The Sister of Ursula",
-  "sortTitle": "Sister of Ursula (1978)",
-  "year": 1978,
   "slug": "the-sister-of-ursula-1978",
+  "title": "The Sister of Ursula",
+  "originalTitle": "La sorella di Ursula",
+  "sortTitle": "Sister of Ursula, The",
+  "year": 1978,
   "releaseDate": "1978-10-18",
   "countries": [
     "Italy"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0587479",
       "name": "Enzo Milioni",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Ursula Beyne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0057132",
@@ -38,26 +38,24 @@
       "sequence": 1,
       "roles": [
         "Dagmar Beyne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0957029",
       "name": "Anna Zinnemann",
       "sequence": 2,
       "roles": [
-        "Vanessa"
-      ],
-      "notes": null
+        "Vanessa",
+        "Roberto's wife"
+      ]
     },
     {
       "imdbId": "nm0558308",
       "name": "Vanni Materassi",
       "sequence": 3,
       "roles": [
-        "Roberto Delleri"
-      ],
-      "notes": null
+        "Roberto Delleri - Hotel Manager"
+      ]
     },
     {
       "imdbId": "nm0363378",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Stella Shining"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0691727",
@@ -75,17 +72,16 @@
       "roles": [
         "Filippo Andrei",
         "Gianni Nardi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625997",
       "name": "Antiniska Nemour",
       "sequence": 6,
       "roles": [
-        "Jenny"
-      ],
-      "notes": "(as Antinisca Nemour)"
+        "Jenny",
+        "Vanessa's lesbian lover"
+      ]
     },
     {
       "imdbId": "nm0952972",
@@ -93,8 +89,7 @@
       "sequence": 7,
       "roles": [
         "The Psychologist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0315650",
@@ -102,8 +97,7 @@
       "sequence": 8,
       "roles": [
         "Young Fianc\u00e9e"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0211335",
@@ -111,8 +105,7 @@
       "sequence": 9,
       "roles": [
         "Young Fianc\u00e9"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -125,7 +118,7 @@
     {
       "imdbId": "nm0587479",
       "name": "Enzo Milioni",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

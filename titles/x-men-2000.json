@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0120903",
-  "title": "X-Men",
-  "sortTitle": "X-Men (2000)",
-  "year": 2000,
   "slug": "x-men-2000",
-  "releaseDate": "2000-07-12",
+  "title": "X-Men",
+  "originalTitle": "X-Men",
+  "sortTitle": "X-Men",
+  "year": 2000,
+  "releaseDate": "2000-07-14",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0001741",
       "name": "Bryan Singer",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,27 +30,23 @@
       "roles": [
         "Logan",
         "Wolverine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001772",
       "name": "Patrick Stewart",
       "sequence": 1,
       "roles": [
-        "Professor Charles Xavier"
-      ],
-      "notes": null
+        "Xavier"
+      ]
     },
     {
       "imdbId": "nm0005212",
       "name": "Ian McKellen",
       "sequence": 2,
       "roles": [
-        "Eric Lensherr",
         "Magneto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000463",
@@ -57,28 +54,23 @@
       "sequence": 3,
       "roles": [
         "Jean Grey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005188",
       "name": "James Marsden",
       "sequence": 4,
       "roles": [
-        "Scott Summers",
         "Cyclops"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000932",
       "name": "Halle Berry",
       "sequence": 5,
       "roles": [
-        "Ororo Munroe",
         "Storm"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001593",
@@ -86,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Rogue"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0541932",
@@ -95,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Sabretooth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0661917",
@@ -104,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Toad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005381",
@@ -113,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Mystique"
-      ],
-      "notes": "(as Rebecca Romijn-Stamos)"
+      ]
     },
     {
       "imdbId": "nm0001117",
@@ -122,17 +110,15 @@
       "sequence": 10,
       "roles": [
         "Senator Kelly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0789106",
       "name": "Matthew Sharp",
       "sequence": 11,
       "roles": [
-        "Henry Gyrich"
-      ],
-      "notes": null
+        "Henry Guyrich"
+      ]
     },
     {
       "imdbId": "nm0606401",
@@ -140,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Young Magneto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790949",
@@ -149,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Magneto's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0532342",
@@ -158,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Magneto's Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0731575",
@@ -167,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Rogue's Boyfriend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0328904",
@@ -176,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Rogue's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625054",
@@ -185,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Rogue's Father"
-      ],
-      "notes": "(as John E. Nelles)"
+      ]
     },
     {
       "imdbId": "nm0125579",
@@ -194,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Trucker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570180",
@@ -203,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Contender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543248",
@@ -212,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Waterboy #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0505119",
@@ -221,8 +198,7 @@
       "sequence": 21,
       "roles": [
         "Waterboy #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846488",
@@ -230,8 +206,7 @@
       "sequence": 22,
       "roles": [
         "Emcee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0750764",
@@ -239,8 +214,7 @@
       "sequence": 23,
       "roles": [
         "Stu"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0502085",
@@ -248,8 +222,7 @@
       "sequence": 24,
       "roles": [
         "Bartender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0629570",
@@ -257,8 +230,7 @@
       "sequence": 25,
       "roles": [
         "Newscaster #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0624325",
@@ -266,48 +238,39 @@
       "sequence": 26,
       "roles": [
         "Stu's Buddy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0443184",
       "name": "Sumela Kay",
       "sequence": 27,
       "roles": [
-        "Kitty Pryde",
-        "Shadowcat"
-      ],
-      "notes": null
+        "Kitty"
+      ]
     },
     {
       "imdbId": "nm0039162",
       "name": "Shawn Ashmore",
       "sequence": 28,
       "roles": [
-        "Bobby Drake",
-        "Iceman"
-      ],
-      "notes": null
+        "Bobby"
+      ]
     },
     {
       "imdbId": "nm0282646",
       "name": "Katrina Florece",
       "sequence": 29,
       "roles": [
-        "Jubilation Lee",
         "Jubilee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0123509",
       "name": "Alex Burton",
       "sequence": 30,
       "roles": [
-        "John Allerdyce",
-        "Pyro"
-      ],
-      "notes": null
+        "John"
+      ]
     },
     {
       "imdbId": "nm0942717",
@@ -315,17 +278,15 @@
       "sequence": 31,
       "roles": [
         "Lily Pond Kid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0535805",
-      "name": "Daniel Magder",
+      "name": "Danny Mags",
       "sequence": 32,
       "roles": [
         "Boy on Raft"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0918135",
@@ -333,8 +294,7 @@
       "sequence": 33,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0484099",
@@ -342,8 +302,7 @@
       "sequence": 34,
       "roles": [
         "Tommy's Sister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0498278",
@@ -351,8 +310,7 @@
       "sequence": 35,
       "roles": [
         "Hot Dog Vendor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0972459",
@@ -360,17 +318,7 @@
       "sequence": 36,
       "roles": [
         "Newscaster #2"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0969561",
-      "name": "Amy Leland",
-      "sequence": 37,
-      "roles": [
-        "Cerebro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0733263",
@@ -378,8 +326,7 @@
       "sequence": 38,
       "roles": [
         "Guy on Line"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0113357",
@@ -387,8 +334,7 @@
       "sequence": 39,
       "roles": [
         "Lead Cop"
-      ],
-      "notes": "(as Dave Brown)"
+      ]
     },
     {
       "imdbId": "nm0006548",
@@ -396,8 +342,7 @@
       "sequence": 40,
       "roles": [
         "Sabretooth Cop"
-      ],
-      "notes": "(as Ben P. Jensen)"
+      ]
     },
     {
       "imdbId": "nm0220892",
@@ -405,8 +350,7 @@
       "sequence": 41,
       "roles": [
         "Toad Cop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0241352",
@@ -414,8 +358,7 @@
       "sequence": 42,
       "roles": [
         "Coast Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0243678",
@@ -423,8 +366,7 @@
       "sequence": 43,
       "roles": [
         "Newscaster #3"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0953558",
@@ -432,8 +374,7 @@
       "sequence": 44,
       "roles": [
         "U.N. Secretary General"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1616215",
@@ -441,8 +382,7 @@
       "sequence": 45,
       "roles": [
         "President"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0811316",
@@ -450,8 +390,7 @@
       "sequence": 46,
       "roles": [
         "Secret Service"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0371684",
@@ -459,8 +398,7 @@
       "sequence": 47,
       "roles": [
         "Museum Cop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0680295",
@@ -468,8 +406,7 @@
       "sequence": 48,
       "roles": [
         "Security Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163834",
@@ -477,8 +414,7 @@
       "sequence": 49,
       "roles": [
         "Newscaster #4"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086534",
@@ -486,8 +422,7 @@
       "sequence": 50,
       "roles": [
         "Plastic Prison Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0385457",
@@ -495,8 +430,7 @@
       "sequence": 51,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0787808",
@@ -504,8 +438,7 @@
       "sequence": 52,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0948580",
@@ -513,8 +446,7 @@
       "sequence": 53,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0583928",
@@ -522,8 +454,7 @@
       "sequence": 54,
       "roles": [
         "Translator"
-      ],
-      "notes": "(as Gregori Miakouchkine)"
+      ]
     },
     {
       "imdbId": "nm0173779",
@@ -531,8 +462,7 @@
       "sequence": 55,
       "roles": [
         "Translator"
-      ],
-      "notes": "(as Eleanor Comes)"
+      ]
     },
     {
       "imdbId": "nm0302310",
@@ -540,8 +470,7 @@
       "sequence": 56,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0105325",
@@ -549,8 +478,7 @@
       "sequence": 57,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0304248",
@@ -558,8 +486,7 @@
       "sequence": 58,
       "roles": [
         "Translator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0700943",
@@ -567,8 +494,7 @@
       "sequence": 59,
       "roles": [
         "German Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0894060",
@@ -576,8 +502,7 @@
       "sequence": 60,
       "roles": [
         "German Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0618343",
@@ -585,8 +510,7 @@
       "sequence": 61,
       "roles": [
         "German Soldier"
-      ],
-      "notes": "(as Wolfgang Muller)"
+      ]
     },
     {
       "imdbId": "nm0958589",
@@ -594,8 +518,7 @@
       "sequence": 62,
       "roles": [
         "German Soldier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0343820",
@@ -603,8 +526,7 @@
       "sequence": 63,
       "roles": [
         "German Soldier"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -623,7 +545,7 @@
     {
       "imdbId": "nm0371684",
       "name": "David Hayter",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     }
   ]

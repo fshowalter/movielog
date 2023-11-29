@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0054215",
-  "title": "Psycho",
-  "sortTitle": "Psycho (1960)",
-  "year": 1960,
   "slug": "psycho-1960",
-  "releaseDate": "1960-06-16",
+  "title": "Psycho",
+  "originalTitle": "Psycho",
+  "sortTitle": "Psycho",
+  "year": 1960,
+  "releaseDate": "1960-09-08",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Norman Bates"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587256",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Lila Crane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001260",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Sam Loomis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001463",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Marion Crane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000842",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Det. Milton Arbogast"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570615",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Sheriff Al Chambers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0643000",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Dr. Fred Richman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0007214",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Tom Cassidy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0386877",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Caroline"
-      ],
-      "notes": "(as Pat Hitchcock)"
+      ]
     },
     {
       "imdbId": "nm0853299",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "George Lowery"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0878354",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Mrs. Chambers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0026930",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "California Charlie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0590123",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Highway Patrol Officer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -150,7 +138,7 @@
     {
       "imdbId": "nm0088645",
       "name": "Robert Bloch",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on the novel by)"
     }
   ]

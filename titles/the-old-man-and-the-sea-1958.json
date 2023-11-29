@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0052027",
-  "title": "The Old Man and the Sea",
-  "sortTitle": "Old Man and the Sea (1958)",
-  "year": 1958,
   "slug": "the-old-man-and-the-sea-1958",
-  "releaseDate": "1958-10-07",
+  "title": "The Old Man and the Sea",
+  "originalTitle": "The Old Man and the Sea",
+  "sortTitle": "Old Man and the Sea, The",
+  "year": 1958,
+  "releaseDate": "1958-10-11",
   "countries": [
     "United States"
   ],
@@ -16,14 +18,7 @@
     {
       "imdbId": "nm0836328",
       "name": "John Sturges",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0003593",
-      "name": "Fred Zinnemann",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -34,8 +29,7 @@
       "roles": [
         "The Old Man",
         "Narrator"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0668626",
@@ -43,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "The Boy"
-      ],
-      "notes": "(as Felipe Pazos Jr.)"
+      ]
     },
     {
       "imdbId": "nm0068772",
@@ -52,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "The Cafe Owner"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -66,7 +58,7 @@
     {
       "imdbId": "nm0896830",
       "name": "Peter Viertel",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0060901",
-  "title": "Savage Gringo",
-  "sortTitle": "Savage Gringo (1966)",
-  "year": 1966,
   "slug": "savage-gringo-1966",
+  "title": "Savage Gringo",
+  "originalTitle": "Ringo del Nebraska",
+  "sortTitle": "Savage Gringo",
+  "year": 1966,
   "releaseDate": "1966-03-18",
   "countries": [
     "Italy",
@@ -11,20 +13,14 @@
   ],
   "genres": [
     "Action",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0739794",
       "name": "Antonio Rom\u00e1n",
-      "sequence": 0,
-      "notes": "(as Anthony Roman)"
-    },
-    {
-      "imdbId": "nm0000878",
-      "name": "Mario Bava",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -35,8 +31,7 @@
       "roles": [
         "Ringo",
         "Nebraska"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060519",
@@ -44,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Kay Hillmann"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0525794",
@@ -53,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Bill Carter"
-      ],
-      "notes": "(as Peter Carter)"
+      ]
     },
     {
       "imdbId": "nm0001886",
@@ -62,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Lou Felton"
-      ],
-      "notes": "(as Red Ross)"
+      ]
     },
     {
       "imdbId": "nm0737752",
@@ -71,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Marthy Hillmann"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0333560",
@@ -80,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Brack, the Bartender"
-      ],
-      "notes": "(as Anthony Gradwell)"
+      ]
     },
     {
       "imdbId": "nm0764440",
@@ -89,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Dottor Parson"
-      ],
-      "notes": "(as Paco Sanz)"
+      ]
     },
     {
       "imdbId": "nm0520859",
@@ -98,15 +87,13 @@
       "sequence": 7,
       "roles": [
         "Sheriff Bert"
-      ],
-      "notes": "(as Charles Lawrence)"
+      ]
     },
     {
       "imdbId": "nm0855722",
       "name": "Renato Terra",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0651282",
@@ -114,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Hanck Dewey"
-      ],
-      "notes": "(as Angel Ortiz)"
+      ]
     },
     {
       "imdbId": "nm0133531",
@@ -123,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Elmer Dowson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0106394",
@@ -132,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Dickson"
-      ],
-      "notes": "(as Frank Brana)"
+      ]
     }
   ],
   "writers": [
@@ -152,31 +136,31 @@
     {
       "imdbId": "nm0622803",
       "name": "Jes\u00fas Navarro Carri\u00f3n",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay) (as Jesus Navarro)"
     },
     {
       "imdbId": "nm0739794",
       "name": "Antonio Rom\u00e1n",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay) (as Antonio Roman)"
     },
     {
       "imdbId": "nm0093501",
       "name": "Adriano Bolzoni",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0093501",
       "name": "Adriano Bolzoni",
-      "sequence": 5,
+      "sequence": 7,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm10447393",
       "name": "Grazia Benedetti",
-      "sequence": 6,
+      "sequence": 8,
       "notes": "(dialogue)"
     }
   ]

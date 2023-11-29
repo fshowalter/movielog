@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0057840",
-  "title": "The Americanization of Emily",
-  "sortTitle": "Americanization of Emily (1964)",
-  "year": 1964,
   "slug": "the-americanization-of-emily-1964",
+  "title": "The Americanization of Emily",
+  "originalTitle": "The Americanization of Emily",
+  "sortTitle": "Americanization of Emily, The",
+  "year": 1964,
   "releaseDate": "1964-10-27",
   "countries": [
     "United States"
@@ -18,8 +20,7 @@
     {
       "imdbId": "nm0002137",
       "name": "Arthur Hiller",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,9 +29,8 @@
       "name": "James Garner",
       "sequence": 0,
       "roles": [
-        "Lt. Commander Charles Edward Madison"
-      ],
-      "notes": null
+        "Lt. Commander Charles E. Madison"
+      ]
     },
     {
       "imdbId": "nm0000267",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Emily Barham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002048",
@@ -47,17 +46,15 @@
       "sequence": 2,
       "roles": [
         "Admiral William Jessup"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000336",
       "name": "James Coburn",
       "sequence": 3,
       "roles": [
-        "Lt. Commander Paul 'Bus' Cummings"
-      ],
-      "notes": null
+        "Lt. Commander 'Bus' Cummings"
+      ]
     },
     {
       "imdbId": "nm0340205",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Mrs. Barham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0083081",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Admiral Thomas Healy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292187",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Sheila"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943978",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Old Sailor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0934750",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Captain Harry Spaulding"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0186833",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Chief Petty Officer Paul Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0376415",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Captain Marvin Ellender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002269",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Admiral Hoyle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0291266",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Young Sailor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0627945",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "General William Hallerton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0168324",
@@ -155,17 +142,15 @@
       "sequence": 14,
       "roles": [
         "Lieutenant Victor Wade"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0837297",
       "name": "Alan Sues",
       "sequence": 15,
       "roles": [
-        "Petty Officer Enright"
-      ],
-      "notes": null
+        "Enright"
+      ]
     },
     {
       "imdbId": "nm0292077",
@@ -173,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Port Commander"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126237",
@@ -182,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Nurse Captain"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0397102",
@@ -191,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Port Ensign"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0549299",
@@ -200,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Pat"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0336704",
@@ -209,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "1st 'Nameless Broad'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138637",
@@ -218,8 +198,7 @@
       "sequence": 21,
       "roles": [
         "2nd 'Nameless Broad'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0449947",
@@ -227,8 +206,7 @@
       "sequence": 22,
       "roles": [
         "3rd 'Nameless Broad'"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -241,7 +219,7 @@
     {
       "imdbId": "nm0401239",
       "name": "William Bradford Huie",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(novel)"
     }
   ]

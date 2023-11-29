@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041716",
-  "title": "On the Town",
-  "sortTitle": "On the Town (1949)",
-  "year": 1949,
   "slug": "on-the-town-1949",
-  "releaseDate": "1949-12-08",
+  "title": "On the Town",
+  "originalTitle": "On the Town",
+  "sortTitle": "On the Town",
+  "year": 1949,
+  "releaseDate": "1949-12-30",
   "countries": [
     "United States"
   ],
@@ -17,14 +19,12 @@
     {
       "imdbId": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0000037",
       "name": "Gene Kelly",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -34,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Gabey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000069",
@@ -43,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Chip"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0308081",
@@ -52,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Brunhilde Esterhazy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587900",
@@ -61,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Claire Huddesen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0613235",
@@ -70,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "Ozzie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0893584",
@@ -79,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Ivy Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060904",
@@ -88,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Mme. Dilyovska"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0668879",
@@ -97,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "Lucy Shmeeler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0574993",
@@ -106,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "Professor"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -126,19 +117,19 @@
     {
       "imdbId": "nm0337582",
       "name": "Adolph Green",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(based upon the musical play whose book was by)"
     },
     {
       "imdbId": "nm0173679",
       "name": "Betty Comden",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(based upon the musical play whose book was by)"
     },
     {
       "imdbId": "nm0730385",
       "name": "Jerome Robbins",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(idea)"
     }
   ]

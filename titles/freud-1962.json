@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0055998",
-  "title": "Freud",
-  "sortTitle": "Freud (1962)",
-  "year": 1962,
   "slug": "freud-1962",
+  "title": "Freud",
+  "originalTitle": "Freud",
+  "sortTitle": "Freud",
+  "year": 1962,
   "releaseDate": "1962-12-12",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Sigmund Freud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0948772",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Cecily Koertner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662972",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Joseph Breuer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0463435",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Martha Freud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0379047",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Frau Ida Koertner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0496614",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Charcot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0564724",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Carl von Schlosser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0190194",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Frau Amalia Freud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0467311",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Jacob Freud"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0299822",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Herr Jacob Koertner"
-      ],
-      "notes": "(as Joseph Furst)"
+      ]
     },
     {
       "imdbId": "nm0542268",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Babinsky"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0755168",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Brouhardier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692439",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Dr. Theodore Meynert"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -155,14 +143,8 @@
     {
       "imdbId": "nm0442105",
       "name": "Charles Kaufman",
-      "sequence": 2,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0765683",
-      "name": "Jean-Paul Sartre",
       "sequence": 3,
-      "notes": "() (uncredited)"
+      "notes": "(story)"
     }
   ]
 }

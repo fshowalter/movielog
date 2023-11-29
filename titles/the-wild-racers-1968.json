@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0063807",
-  "title": "The Wild Racers",
-  "sortTitle": "Wild Racers (1968)",
-  "year": 1968,
   "slug": "the-wild-racers-1968",
+  "title": "The Wild Racers",
+  "originalTitle": "The Wild Racers",
+  "sortTitle": "Wild Racers, The",
+  "year": 1968,
   "releaseDate": "1968-03-27",
   "countries": [
     "United States"
@@ -16,14 +18,7 @@
     {
       "imdbId": "nm0356396",
       "name": "Daniel Haller",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -33,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Joe Joe Quillico"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002069",
@@ -42,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Katherine Pearson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0180498",
@@ -51,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Pippy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801389",
@@ -60,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Charlie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0369255",
@@ -69,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Virgil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0484440",
@@ -78,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Ian"
-      ],
-      "notes": "(as David Landar)"
+      ]
     },
     {
       "imdbId": "nm0001735",
@@ -87,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "June - Katherine's Friend"
-      ],
-      "notes": "(as Talia Coppola)"
+      ]
     },
     {
       "imdbId": "nm0667418",
@@ -96,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "French Girlfriend"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0588241",
@@ -105,22 +92,19 @@
       "sequence": 8,
       "roles": [
         "Pit Crew Mechanic"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0304532",
       "name": "Ron Gans",
       "sequence": 9,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0034189",
       "name": "Fabienne Arel",
       "sequence": 10,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0191351",
@@ -128,8 +112,7 @@
       "sequence": 11,
       "roles": [
         "Louise"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0221044",
@@ -137,15 +120,13 @@
       "sequence": 12,
       "roles": [
         "Dancing Girl"
-      ],
-      "notes": "(as Mary Jo Kennedy)"
+      ]
     },
     {
       "imdbId": "nm0095467",
       "name": "Kurt Boon",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [

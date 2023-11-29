@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0043255",
-  "title": "Bud Abbott and Lou Costello Meet the Invisible Man",
-  "sortTitle": "Bud Abbott and Lou Costello Meet the Invisible Man (1951)",
-  "year": 1951,
   "slug": "bud-abbott-and-lou-costello-meet-the-invisible-man-1951",
+  "title": "Bud Abbott and Lou Costello Meet the Invisible Man",
+  "originalTitle": "Bud Abbott and Lou Costello Meet the Invisible Man",
+  "sortTitle": "Bud Abbott and Lou Costello Meet the Invisible Man",
+  "year": 1951,
   "releaseDate": "1951-03-07",
   "countries": [
     "United States"
   ],
   "genres": [
     "Comedy",
+    "Family",
     "Sci-Fi",
     "Sport"
   ],
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0006943",
       "name": "Charles Lamont",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Bud Alexander"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0182579",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Lou Francis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0346927",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Helen Gray"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0291821",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Tommy Nelson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0421922",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Boots Marsden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0502766",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Morgan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292433",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Detective Roberts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0611351",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Dr. Philip Gray"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0051199",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Radio Announcer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0196876",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Rocky Hanlon"
-      ],
-      "notes": "(as John Day)"
+      ]
     }
   ],
   "writers": [
@@ -129,25 +121,25 @@
     {
       "imdbId": "nm0498738",
       "name": "Robert Lees",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0727411",
       "name": "Frederic I. Rinaldo",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0335471",
       "name": "John Grant",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0920229",
       "name": "H.G. Wells",
-      "sequence": 5,
+      "sequence": 7,
       "notes": "(story \"The Invisible Man\")"
     }
   ]

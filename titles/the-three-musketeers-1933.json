@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024663",
-  "title": "The Three Musketeers",
-  "sortTitle": "Three Musketeers (1933)",
-  "year": 1933,
   "slug": "the-three-musketeers-1933",
+  "title": "The Three Musketeers",
+  "originalTitle": "The Three Musketeers",
+  "sortTitle": "Three Musketeers, The",
+  "year": 1933,
   "releaseDate": "1933-04-07",
   "countries": [
     "United States"
@@ -20,14 +22,12 @@
     {
       "imdbId": "nm0163786",
       "name": "Colbert Clark",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0769585",
       "name": "Armand Schaefer",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -37,8 +37,7 @@
       "sequence": 0,
       "roles": [
         "Clancy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0369058",
@@ -46,8 +45,7 @@
       "sequence": 1,
       "roles": [
         "Renard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0124287",
@@ -55,8 +53,7 @@
       "sequence": 2,
       "roles": [
         "Dutch Schmidt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000078",
@@ -64,8 +61,7 @@
       "sequence": 3,
       "roles": [
         "Tom Wayne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0356073",
@@ -73,17 +69,15 @@
       "sequence": 4,
       "roles": [
         "Elaine Corday"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001033",
       "name": "Lon Chaney Jr.",
       "sequence": 5,
       "roles": [
-        "Armand Corday [Chs. 1, 10]"
-      ],
-      "notes": "(as Creighton Chaney)"
+        "Armand Corday"
+      ]
     },
     {
       "imdbId": "nm0040341",
@@ -91,8 +85,7 @@
       "sequence": 6,
       "roles": [
         "El Kadur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0210016",
@@ -100,8 +93,7 @@
       "sequence": 7,
       "roles": [
         "Col. Duval"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292537",
@@ -109,17 +101,15 @@
       "sequence": 8,
       "roles": [
         "Maj. Booth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000890",
       "name": "Noah Beery Jr.",
       "sequence": 9,
       "roles": [
-        "Stubbs [Chs. 1-2, 10]"
-      ],
-      "notes": null
+        "Stubbs"
+      ]
     },
     {
       "imdbId": "nm0272360",
@@ -127,8 +117,7 @@
       "sequence": 10,
       "roles": [
         "Ali"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0081361",
@@ -136,8 +125,7 @@
       "sequence": 11,
       "roles": [
         "Ratkin"
-      ],
-      "notes": "(as Edward Piel)"
+      ]
     },
     {
       "imdbId": "nm0221488",
@@ -145,8 +133,7 @@
       "sequence": 12,
       "roles": [
         "Capt. Boncour"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0536499",
@@ -154,8 +141,7 @@
       "sequence": 13,
       "roles": [
         "El Maghreb"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0913094",
@@ -163,8 +149,7 @@
       "sequence": 14,
       "roles": [
         "Col. Brent [Ch. 1]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0154352",
@@ -172,18 +157,7 @@
       "sequence": 15,
       "roles": [
         "Gen. Pelletier [Ch. 1]"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0134831",
-      "name": "Yakima Canutt",
-      "sequence": 16,
-      "roles": [
-        "El Shaitan-Masked",
-        "Legion Officer [Ch. 8]"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -196,31 +170,31 @@
     {
       "imdbId": "nm0355963",
       "name": "Norman S. Hall",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story and screenplay)"
     },
     {
       "imdbId": "nm0163786",
       "name": "Colbert Clark",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story and screenplay)"
     },
     {
       "imdbId": "nm0765036",
       "name": "Barney A. Sarecky",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(story and screenplay)"
     },
     {
       "imdbId": "nm0169243",
       "name": "Bennett Cohen",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0321216",
       "name": "Wyndham Gittens",
-      "sequence": 5,
+      "sequence": 6,
       "notes": "(story and screenplay)"
     }
   ]

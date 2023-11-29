@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0027824",
-  "title": "Juggernaut",
-  "sortTitle": "Juggernaut (1936)",
-  "year": 1936,
   "slug": "juggernaut-1936",
-  "releaseDate": "1936-09-08",
+  "title": "Juggernaut",
+  "originalTitle": "Juggernaut",
+  "sortTitle": "Juggernaut",
+  "year": 1936,
+  "releaseDate": "1937-04-30",
   "countries": [
     "United Kingdom"
   ],
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0250038",
       "name": "Henry Edwards",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -25,9 +26,8 @@
       "name": "Boris Karloff",
       "sequence": 0,
       "roles": [
-        "Doctor Sartorius"
-      ],
-      "notes": null
+        "Doctor Victor Sartorius"
+      ]
     },
     {
       "imdbId": "nm0943908",
@@ -35,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Eve Rowe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0546657",
@@ -44,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Roger Clifford"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0333023",
@@ -53,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Yvonne Clifford"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0409847",
@@ -62,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Capt. Arthur Halliday"
-      ],
-      "notes": "(as Antony Ireland)"
+      ]
     },
     {
       "imdbId": "nm0783527",
@@ -71,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Sir Charles Clifford"
-      ],
-      "notes": "(as Morton Setten)"
+      ]
     },
     {
       "imdbId": "nm0099107",
@@ -80,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Mary Clifford"
-      ],
-      "notes": "(as Mina Boucicault)"
+      ]
     },
     {
       "imdbId": "nm0572324",
@@ -89,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Jacques"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0731182",
@@ -98,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Chalmers"
-      ],
-      "notes": "(as H.H. Roberts)"
+      ]
     },
     {
       "imdbId": "nm0726405",
@@ -107,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Doctor Bousquet"
-      ],
-      "notes": "(as V. Rietti)"
+      ]
     }
   ],
   "writers": [
@@ -121,26 +112,20 @@
     {
       "imdbId": "nm0133050",
       "name": "Cyril Campion",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adapted for the screen by)"
     },
     {
       "imdbId": "nm0575197",
       "name": "H. Fowler Mear",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adapted for the screen by)"
     },
     {
       "imdbId": "nm0289534",
       "name": "Heinrich Fraenkel",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(adaptation) (as H. Fraenkel)"
-    },
-    {
-      "imdbId": "nm0132190",
-      "name": "Alice Campbell",
-      "sequence": 4,
-      "notes": "(novel \"Juggernaut\") (uncredited)"
     }
   ]
 }

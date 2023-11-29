@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0044144",
-  "title": "The Treasure of Lost Canyon",
-  "sortTitle": "Treasure of Lost Canyon (1952)",
-  "year": 1952,
   "slug": "the-treasure-of-lost-canyon-1952",
-  "releaseDate": "1952-01-27",
+  "title": "The Treasure of Lost Canyon",
+  "originalTitle": "The Treasure of Lost Canyon",
+  "sortTitle": "Treasure of Lost Canyon, The",
+  "year": 1952,
+  "releaseDate": "1952-03-01",
   "countries": [
     "United States"
   ],
   "genres": [
     "Adventure",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0005898",
       "name": "Ted Tetzlaff",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Homer 'Doc' Brown"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0011105",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Myra Wade"
-      ],
-      "notes": "(as Julia Adams)"
+      ]
     },
     {
       "imdbId": "nm0236866",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Jim Anderson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0213619",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Samuella"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0412443",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "David"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0401434",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Cousin Lucius Cooke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0424793",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Baltimore Dan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0234732",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Gyppo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254974",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Paddy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0055899",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Judge Wade"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -128,7 +120,7 @@
     {
       "imdbId": "nm0829044",
       "name": "Robert Louis Stevenson",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(short story \"The Treasure of Franchard\")"
     }
   ]

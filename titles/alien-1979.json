@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0078748",
-  "title": "Alien",
-  "sortTitle": "Alien (1979)",
-  "year": 1979,
   "slug": "alien-1979",
-  "releaseDate": "1979-05-25",
+  "title": "Alien",
+  "originalTitle": "Alien",
+  "sortTitle": "Alien",
+  "year": 1979,
+  "releaseDate": "1979-06-22",
   "countries": [
     "United Kingdom",
     "United States"
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0000631",
       "name": "Ridley Scott",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Dallas"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000244",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Ripley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001021",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lambert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001765",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Brett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000457",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Kane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000453",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Ash"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001433",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Parker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045993",
@@ -91,17 +85,7 @@
       "sequence": 7,
       "roles": [
         "Alien"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0395600",
-      "name": "Helen Horton",
-      "sequence": 8,
-      "roles": [
-        "Mother"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -114,13 +98,13 @@
     {
       "imdbId": "nm0639321",
       "name": "Dan O'Bannon",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story by)"
     },
     {
       "imdbId": "nm0795953",
       "name": "Ronald Shusett",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story by)"
     }
   ]

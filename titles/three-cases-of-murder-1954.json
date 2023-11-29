@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0047579",
-  "title": "Three Cases of Murder",
-  "sortTitle": "Three Cases of Murder (1954)",
-  "year": 1954,
   "slug": "three-cases-of-murder-1954",
+  "title": "Three Cases of Murder",
+  "originalTitle": "Three Cases of Murder",
+  "sortTitle": "Three Cases of Murder",
+  "year": 1954,
   "releaseDate": "1955-02-11",
   "countries": [
     "United Kingdom",
@@ -20,26 +22,17 @@
     {
       "imdbId": "nm0247050",
       "name": "David Eady",
-      "sequence": 0,
-      "notes": "(segment \"You Killed Elizabeth\")"
+      "sequence": 0
     },
     {
       "imdbId": "nm0641007",
       "name": "George More O'Ferrall",
-      "sequence": 1,
-      "notes": "(segment \"Lord Mountdrago\")"
+      "sequence": 1
     },
     {
       "imdbId": "nm0870300",
       "name": "Wendy Toye",
-      "sequence": 2,
-      "notes": "(segment \"In The Picture\")"
-    },
-    {
-      "imdbId": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 3,
-      "notes": "(segment \"Lord Mountdrago\") (uncredited)"
+      "sequence": 2
     }
   ],
   "performers": [
@@ -49,8 +42,7 @@
       "sequence": 0,
       "roles": [
         "Lord Mountdrago"
-      ],
-      "notes": "(\"Lord Mountdrago\" segment)"
+      ]
     },
     {
       "imdbId": "nm0339992",
@@ -58,8 +50,7 @@
       "sequence": 1,
       "roles": [
         "Edgar"
-      ],
-      "notes": "(segment \"You Killed Elizabeth\")"
+      ]
     },
     {
       "imdbId": "nm0783288",
@@ -67,8 +58,7 @@
       "sequence": 2,
       "roles": [
         "Elizabeth"
-      ],
-      "notes": "(segment \"You Killed Elizabeth\")"
+      ]
     },
     {
       "imdbId": "nm0428039",
@@ -76,8 +66,7 @@
       "sequence": 3,
       "roles": [
         "George"
-      ],
-      "notes": "(segment \"You Killed Elizabeth\")"
+      ]
     },
     {
       "imdbId": "nm0045996",
@@ -87,8 +76,7 @@
         "Owen",
         "\"Mr. X\"-",
         "Harry-"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0603682",
@@ -96,8 +84,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Audlin"
-      ],
-      "notes": "(segment \"Lord Mountdrago\") (as Andre Morell)"
+      ]
     },
     {
       "imdbId": "nm0699337",
@@ -105,8 +92,7 @@
       "sequence": 6,
       "roles": [
         "Jarvis"
-      ],
-      "notes": "(segment \"In the Picture\")"
+      ]
     },
     {
       "imdbId": "nm0532296",
@@ -114,8 +100,7 @@
       "sequence": 7,
       "roles": [
         "Woman in the House"
-      ],
-      "notes": "(segment \"In the Picture\") (as Leueen Mac Grath)"
+      ]
     },
     {
       "imdbId": "nm0125952",
@@ -123,8 +108,7 @@
       "sequence": 8,
       "roles": [
         "Snyder"
-      ],
-      "notes": "(segment \"In the Picture\")"
+      ]
     },
     {
       "imdbId": "nm0156078",
@@ -132,8 +116,7 @@
       "sequence": 9,
       "roles": [
         "Lady Mountdrago"
-      ],
-      "notes": "(segment \"Lord Mountdrago\")"
+      ]
     },
     {
       "imdbId": "nm0028644",
@@ -141,8 +124,7 @@
       "sequence": 10,
       "roles": [
         "the stories Introduced by"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -167,19 +149,19 @@
     {
       "imdbId": "nm0198202",
       "name": "Ian Dalrymple",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screen-play)"
     },
     {
       "imdbId": "nm0933318",
       "name": "Donald B. Wilson",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screen-play)"
     },
     {
       "imdbId": "nm0140987",
       "name": "Sidney Carroll",
-      "sequence": 5,
+      "sequence": 6,
       "notes": "(screen-play)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt1852770",
-  "title": "Dracula 3D",
-  "sortTitle": "Dracula 3D (2012)",
-  "year": 2012,
   "slug": "dracula-3d-2012",
-  "releaseDate": "2012-05-19",
+  "title": "Dracula 3D",
+  "originalTitle": "Dracula 3D",
+  "sortTitle": "Dracula 3D",
+  "year": 2012,
+  "releaseDate": "2013-10-04",
   "countries": [
     "Italy",
     "France",
@@ -20,8 +22,7 @@
     {
       "imdbId": "nm0000783",
       "name": "Dario Argento",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -31,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Dracula"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3068922",
@@ -40,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Mina Harker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000782",
@@ -49,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Lucy Kisslinger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0880054",
@@ -58,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Jonathan Harker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1085458",
@@ -67,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Tanja"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000442",
@@ -76,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Van Helsing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0375356",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Jarmila"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0958335",
@@ -94,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Andrej Kisslinger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1083068",
@@ -103,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Prete"
-      ],
-      "notes": "(as Franco Guido Ravera)"
+      ]
     },
     {
       "imdbId": "nm4519451",
@@ -112,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Ten. Delbruck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1549154",
@@ -121,17 +112,15 @@
       "sequence": 10,
       "roles": [
         "Reinfield"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1238215",
-      "name": "Giuseppe Lo Console",
+      "name": "Giuseppe Loconsole",
       "sequence": 11,
       "roles": [
         "Zoran"
-      ],
-      "notes": "(as Giuseppe Loconsole)"
+      ]
     },
     {
       "imdbId": "nm2295534",
@@ -139,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Janek"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4451119",
@@ -148,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Milos"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0020194",
@@ -157,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Oste"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4569241",
@@ -166,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Fabbro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm5725935",
@@ -175,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Marika"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4500169",
@@ -184,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Soldato 1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4500166",
@@ -193,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Soldato 2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2853513",
@@ -202,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Capo Stazione"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm6001083",
@@ -211,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Moglie Oste"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -225,25 +205,25 @@
     {
       "imdbId": "nm0148554",
       "name": "Enrique Cerezo",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm2863804",
       "name": "Stefano Piani",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0831290",
       "name": "Bram Stoker",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(book)"
     },
     {
       "imdbId": "nm0855193",
       "name": "Antonio Tentori",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(screenplay)"
     }
   ]

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0084924",
-  "title": "Duel to the Death",
-  "sortTitle": "Duel to the Death (1983)",
-  "year": 1983,
   "slug": "duel-to-the-death-1983",
+  "title": "Duel to the Death",
+  "originalTitle": "Xian si jue",
+  "sortTitle": "Duel to the Death",
+  "year": 1983,
   "releaseDate": "1983-01-13",
   "countries": [
     "Hong Kong"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0155642",
       "name": "Siu-Tung Ching",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Hashimoto"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0490521",
@@ -36,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Ching Wan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0156473",
@@ -45,29 +44,29 @@
       "sequence": 2,
       "roles": [
         "Sheng Nan"
-      ],
-      "notes": "(as Flora Cheung)"
+      ]
     },
     {
       "imdbId": "nm0151787",
       "name": "Paul Chang Chung",
       "sequence": 3,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Master Han"
+      ]
     },
     {
       "imdbId": "nm0155314",
       "name": "Mang-Ha Cheng",
       "sequence": 4,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Puppeteer's Wife"
+      ]
     },
     {
       "imdbId": "nm3249055",
       "name": "Hsiu-hsien Chiang",
       "sequence": 5,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0157780",
@@ -75,29 +74,27 @@
       "sequence": 6,
       "roles": [
         "Mr. Fok"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3249958",
       "name": "Shou-fu Chin",
       "sequence": 7,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0359171",
       "name": "Kwok-Choi Hon",
       "sequence": 8,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Ching Wan's Sifu"
+      ]
     },
     {
       "imdbId": "nm1367173",
       "name": "Lueng Shing Hung",
       "sequence": 9,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0304708",
@@ -105,92 +102,105 @@
       "sequence": 10,
       "roles": [
         "Kenji"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0473928",
-      "name": "Yeong-Mun Kwon",
+      "name": "Yeong-moon Kwon",
       "sequence": 11,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Shaolin Abbot"
+      ]
     },
     {
       "imdbId": "nm0490507",
       "name": "Chi-Ho Lau",
       "sequence": 12,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0266649",
       "name": "Yat Fan Lau",
       "sequence": 13,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Sketch Artist"
+      ]
     },
     {
       "imdbId": "nm0497016",
       "name": "Kin-sang Lee",
       "sequence": 14,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0504970",
       "name": "Shing-Hung Leung",
       "sequence": 15,
-      "roles": [],
-      "notes": null
+      "roles": []
     },
     {
       "imdbId": "nm0793387",
       "name": "Huang-Hsi Liu",
       "sequence": 16,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Hashimoto's Samurai Classmate"
+      ]
     },
     {
       "imdbId": "nm2510264",
       "name": "Long Mang",
       "sequence": 17,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Swordsman"
+      ]
     },
     {
       "imdbId": "nm1360958",
       "name": "Chuen-Hing Tam",
       "sequence": 18,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Swordsman Drinking with Fok"
+      ]
     },
     {
       "imdbId": "nm0867268",
       "name": "Wilson Tong",
       "sequence": 19,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Japanese Troublemaker"
+      ]
     },
     {
       "imdbId": "nm0910705",
       "name": "Fat Wan",
       "sequence": 20,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Hashimoto's Samurai Classmate"
+      ]
     },
     {
       "imdbId": "nm0938977",
-      "name": "Casanova Wong",
+      "name": "Ho Wang",
       "sequence": 21,
-      "roles": [],
-      "notes": null
+      "roles": [
+        "Swordsman Fighting Flying Ninjas"
+      ]
+    },
+    {
+      "imdbId": "nm5930630",
+      "name": "Chak-Lam Yeung",
+      "sequence": 22,
+      "roles": [
+        "Shaolin Senior Monk"
+      ]
     },
     {
       "imdbId": "nm0948149",
       "name": "Stephan Yip",
-      "sequence": 22,
-      "roles": [],
-      "notes": null
+      "sequence": 23,
+      "roles": [
+        "Japanese Troublemaker"
+      ]
     }
   ],
   "writers": [
@@ -203,13 +213,13 @@
     {
       "imdbId": "nm0481681",
       "name": "David Lai",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(writer)"
     },
     {
       "imdbId": "nm0939236",
       "name": "Manfred Wong",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(writer)"
     }
   ]

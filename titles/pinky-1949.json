@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0041746",
-  "title": "Pinky",
-  "sortTitle": "Pinky (1949)",
-  "year": 1949,
   "slug": "pinky-1949",
-  "releaseDate": "1949-09-29",
+  "title": "Pinky",
+  "originalTitle": "Pinky",
+  "sortTitle": "Pinky",
+  "year": 1949,
+  "releaseDate": "1949-11-01",
   "countries": [
     "United States"
   ],
@@ -15,14 +17,7 @@
     {
       "imdbId": "nm0001415",
       "name": "Elia Kazan",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000406",
-      "name": "John Ford",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -32,8 +27,7 @@
       "sequence": 0,
       "roles": [
         "Patricia 'Pinky' Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000856",
@@ -41,8 +35,7 @@
       "sequence": 1,
       "roles": [
         "Miss Em"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0914083",
@@ -50,8 +43,7 @@
       "sequence": 2,
       "roles": [
         "Dicey Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0526485",
@@ -59,8 +51,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Thomas Adams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0752278",
@@ -68,8 +59,7 @@
       "sequence": 4,
       "roles": [
         "Judge Walker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0913486",
@@ -77,8 +67,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Canady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571904",
@@ -86,8 +75,7 @@
       "sequence": 6,
       "roles": [
         "Rozelia"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0055899",
@@ -95,8 +83,7 @@
       "sequence": 7,
       "roles": [
         "Dr. Joseph 'Doc Joe' McGill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0641902",
@@ -104,8 +91,7 @@
       "sequence": 8,
       "roles": [
         "Jake Walters"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0889537",
@@ -113,8 +99,7 @@
       "sequence": 9,
       "roles": [
         "Melba Wooley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0339121",
@@ -122,8 +107,7 @@
       "sequence": 10,
       "roles": [
         "Judge Shoreham"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -136,26 +120,14 @@
     {
       "imdbId": "nm0242897",
       "name": "Philip Dunne",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0629580",
       "name": "Dudley Nichols",
-      "sequence": 2,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0001415",
-      "name": "Elia Kazan",
       "sequence": 3,
-      "notes": "(contributor to screenplay) (uncredited)"
-    },
-    {
-      "imdbId": "nm5234602",
-      "name": "Jane White",
-      "sequence": 4,
-      "notes": "(contributor to screenplay) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

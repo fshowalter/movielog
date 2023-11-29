@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0081485",
-  "title": "Serial",
-  "sortTitle": "Serial (1980)",
-  "year": 1980,
   "slug": "serial-1980",
+  "title": "Serial",
+  "originalTitle": "Serial",
+  "sortTitle": "Serial",
+  "year": 1980,
   "releaseDate": "1980-03-28",
   "countries": [
     "United States"
@@ -15,8 +17,7 @@
     {
       "imdbId": "nm0675479",
       "name": "Bill Persky",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -25,72 +26,65 @@
       "name": "Martin Mull",
       "sequence": 0,
       "roles": [
-        "Harvey"
-      ],
-      "notes": null
+        "Harvey Holroyd"
+      ]
     },
     {
       "imdbId": "nm0001839",
       "name": "Tuesday Weld",
       "sequence": 1,
       "roles": [
-        "Kate"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0563983",
-      "name": "Jennifer McAllister",
-      "sequence": 2,
-      "roles": [
-        "Joan"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0156780",
-      "name": "Sam Chew Jr.",
-      "sequence": 3,
-      "roles": [
-        "Bill"
-      ],
-      "notes": null
+        "Kate Holroyd"
+      ]
     },
     {
       "imdbId": "nm0001419",
       "name": "Sally Kellerman",
-      "sequence": 4,
+      "sequence": 2,
       "roles": [
         "Martha"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0061282",
-      "name": "Anthony Battaglia",
-      "sequence": 5,
+      "imdbId": "nm0000489",
+      "name": "Christopher Lee",
+      "sequence": 3,
       "roles": [
-        "Stokely"
-      ],
-      "notes": null
+        "Stewart Luckman",
+        "Skull"
+      ]
     },
     {
       "imdbId": "nm0534409",
       "name": "Bill Macy",
-      "sequence": 6,
+      "sequence": 4,
       "roles": [
-        "Sam"
-      ],
-      "notes": null
+        "Sam Stone"
+      ]
     },
     {
-      "imdbId": "nm0847953",
-      "name": "Nita Talbot",
+      "imdbId": "nm0094288",
+      "name": "Peter Bonerz",
+      "sequence": 5,
+      "roles": [
+        "Dr. Leonard Miller"
+      ]
+    },
+    {
+      "imdbId": "nm0810691",
+      "name": "Tom Smothers",
+      "sequence": 6,
+      "roles": [
+        "Rev. Spike"
+      ]
+    },
+    {
+      "imdbId": "nm0722315",
+      "name": "Barbara Rhoades",
       "sequence": 7,
       "roles": [
-        "Angela"
-      ],
-      "notes": null
+        "Vivian"
+      ]
     },
     {
       "imdbId": "nm0000900",
@@ -98,179 +92,159 @@
       "sequence": 8,
       "roles": [
         "Carol"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0722315",
-      "name": "Barbara Rhoades",
+      "imdbId": "nm0847953",
+      "name": "Nita Talbot",
       "sequence": 9,
       "roles": [
-        "Vivian"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0919710",
-      "name": "Ann Weldon",
-      "sequence": 10,
-      "roles": [
-        "Rachel"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0094288",
-      "name": "Peter Bonerz",
-      "sequence": 11,
-      "roles": [
-        "Leonard"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0284572",
-      "name": "Jon Fong",
-      "sequence": 12,
-      "roles": [
-        "Wong"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000489",
-      "name": "Christopher Lee",
-      "sequence": 13,
-      "roles": [
-        "Luckman Skull"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0533378",
-      "name": "Patch Mackenzie",
-      "sequence": 14,
-      "roles": [
-        "Stella"
-      ],
-      "notes": null
+        "Angela Stone"
+      ]
     },
     {
       "imdbId": "nm0625030",
       "name": "Stacey Nelkin",
-      "sequence": 15,
+      "sequence": 10,
       "roles": [
         "Marlene"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0810691",
-      "name": "Tom Smothers",
-      "sequence": 16,
+      "imdbId": "nm0533378",
+      "name": "Patch Mackenzie",
+      "sequence": 11,
       "roles": [
-        "Spike"
-      ],
-      "notes": null
+        "Stella"
+      ]
+    },
+    {
+      "imdbId": "nm0156780",
+      "name": "Sam Chew Jr.",
+      "sequence": 12,
+      "roles": [
+        "Bill"
+      ]
+    },
+    {
+      "imdbId": "nm0919710",
+      "name": "Ann Weldon",
+      "sequence": 13,
+      "roles": [
+        "Rachel"
+      ]
+    },
+    {
+      "imdbId": "nm0563983",
+      "name": "Jennifer McAllister",
+      "sequence": 14,
+      "roles": [
+        "Joan Holroyd"
+      ]
+    },
+    {
+      "imdbId": "nm0061282",
+      "name": "Anthony Battaglia",
+      "sequence": 15,
+      "roles": [
+        "Stokely"
+      ]
     },
     {
       "imdbId": "nm0104745",
       "name": "Clark Brandon",
-      "sequence": 17,
+      "sequence": 16,
       "roles": [
         "Spenser"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0744387",
-      "name": "Paul Rossilli",
-      "sequence": 18,
+      "imdbId": "nm0284572",
+      "name": "Jon Fong",
+      "sequence": 17,
       "roles": [
-        "Paco"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0893320",
-      "name": "Clyde Ventura",
-      "sequence": 19,
-      "roles": [
-        "Donald"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0221554",
-      "name": "Rosanna DeSoto",
-      "sequence": 20,
-      "roles": [
-        "Maria"
-      ],
-      "notes": "(as Rosana Soto)"
+        "Wong"
+      ]
     },
     {
       "imdbId": "nm0639653",
       "name": "Kevin O'Brien",
-      "sequence": 21,
+      "sequence": 18,
       "roles": [
         "Jim"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0852848",
-      "name": "Mark L. Taylor",
-      "sequence": 22,
+      "imdbId": "nm0744387",
+      "name": "Paul Rossilli",
+      "sequence": 19,
       "roles": [
-        "Cult Member 1"
-      ],
-      "notes": "(as Mark Taylor)"
-    },
-    {
-      "imdbId": "nm0690614",
-      "name": "Donna Ponterotto",
-      "sequence": 23,
-      "roles": [
-        "Daphne"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0929502",
-      "name": "Lee Wilkof",
-      "sequence": 24,
-      "roles": [
-        "Brian"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0860317",
-      "name": "John Thompson",
-      "sequence": 25,
-      "roles": [
-        "Store Manager"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0397437",
-      "name": "Kevin Howard",
-      "sequence": 26,
-      "roles": [
-        "Roger"
-      ],
-      "notes": null
+        "Paco"
+      ]
     },
     {
       "imdbId": "nm0792848",
       "name": "Robin Sherwood",
+      "sequence": 20,
+      "roles": [
+        "Woman Saltzburger"
+      ]
+    },
+    {
+      "imdbId": "nm0852848",
+      "name": "Mark L. Taylor",
+      "sequence": 21,
+      "roles": [
+        "Cult Member 1"
+      ]
+    },
+    {
+      "imdbId": "nm0893320",
+      "name": "Clyde Ventura",
+      "sequence": 22,
+      "roles": [
+        "Donald"
+      ]
+    },
+    {
+      "imdbId": "nm0929502",
+      "name": "Lee Wilkof",
+      "sequence": 23,
+      "roles": [
+        "Brian"
+      ]
+    },
+    {
+      "imdbId": "nm0221554",
+      "name": "Rosanna DeSoto",
+      "sequence": 24,
+      "roles": [
+        "Maria"
+      ]
+    },
+    {
+      "imdbId": "nm0690614",
+      "name": "Donna Ponterotto",
+      "sequence": 25,
+      "roles": [
+        "Daphne"
+      ]
+    },
+    {
+      "imdbId": "nm0860317",
+      "name": "John Thompson",
+      "sequence": 26,
+      "roles": [
+        "Store Manager"
+      ]
+    },
+    {
+      "imdbId": "nm0397437",
+      "name": "Kevin Howard",
       "sequence": 27,
       "roles": [
-        "Woman"
-      ],
-      "notes": null
+        "Roger"
+      ]
     },
     {
       "imdbId": "nm0050182",
@@ -278,8 +252,7 @@
       "sequence": 28,
       "roles": [
         "Harold"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0404733",
@@ -287,8 +260,7 @@
       "sequence": 29,
       "roles": [
         "Millie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0024646",
@@ -296,8 +268,7 @@
       "sequence": 30,
       "roles": [
         "Indian Chief"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005022",
@@ -305,8 +276,7 @@
       "sequence": 31,
       "roles": [
         "Cult Member 4"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0193025",
@@ -314,8 +284,7 @@
       "sequence": 32,
       "roles": [
         "Cult Member 5"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0366179",
@@ -323,8 +292,7 @@
       "sequence": 33,
       "roles": [
         "Biker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0762294",
@@ -332,8 +300,7 @@
       "sequence": 34,
       "roles": [
         "Bartender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0219682",
@@ -341,8 +308,7 @@
       "sequence": 35,
       "roles": [
         "Painter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0941442",
@@ -350,8 +316,7 @@
       "sequence": 36,
       "roles": [
         "Secretary"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0711382",
@@ -359,8 +324,7 @@
       "sequence": 37,
       "roles": [
         "Tony Wilson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0420593",
@@ -368,8 +332,7 @@
       "sequence": 38,
       "roles": [
         "Man on Ferry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0299284",
@@ -377,8 +340,7 @@
       "sequence": 39,
       "roles": [
         "Hip Caterer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0667182",
@@ -386,8 +348,7 @@
       "sequence": 40,
       "roles": [
         "Jon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0951772",
@@ -395,8 +356,7 @@
       "sequence": 41,
       "roles": [
         "Disco Instructor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912260",
@@ -404,8 +364,7 @@
       "sequence": 42,
       "roles": [
         "Cult Member 2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0124137",
@@ -413,8 +372,7 @@
       "sequence": 43,
       "roles": [
         "Cult Member 6"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2110646",
@@ -422,8 +380,7 @@
       "sequence": 44,
       "roles": [
         "Cult Member 3"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -436,13 +393,13 @@
     {
       "imdbId": "nm0262414",
       "name": "Rich Eustis",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0253498",
       "name": "Michael Elias",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     }
   ]

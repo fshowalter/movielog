@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034224",
-  "title": "Spooks Run Wild",
-  "sortTitle": "Spooks Run Wild (1941)",
-  "year": 1941,
   "slug": "spooks-run-wild-1941",
+  "title": "Spooks Run Wild",
+  "originalTitle": "Spooks Run Wild",
+  "sortTitle": "Spooks Run Wild",
+  "year": 1941,
   "releaseDate": "1941-10-24",
   "countries": [
     "United States"
@@ -16,8 +18,7 @@
     {
       "imdbId": "nm0005847",
       "name": "Phil Rosen",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,17 +28,15 @@
       "sequence": 0,
       "roles": [
         "Nardo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0329832",
       "name": "Leo Gorcey",
       "sequence": 1,
       "roles": [
-        "Muggs McGinnis"
-      ],
-      "notes": null
+        "Muggs"
+      ]
     },
     {
       "imdbId": "nm0429853",
@@ -45,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Danny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0355653",
@@ -54,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Glimpy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0425409",
@@ -63,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Scruno"
-      ],
-      "notes": "(as Sunshine Sammy Morrison)"
+      ]
     },
     {
       "imdbId": "nm0639495",
@@ -72,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Jeff Dixon"
-      ],
-      "notes": "(as David O'Brien)"
+      ]
     },
     {
       "imdbId": "nm0795044",
@@ -81,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Linda Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0329828",
@@ -90,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Peewee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354239",
@@ -99,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Skinny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0601117",
@@ -108,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Dr. Von Grosch"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0446739",
@@ -117,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Lem Harvey"
-      ],
-      "notes": "(as P.J. Kelley)"
+      ]
     },
     {
       "imdbId": "nm0744441",
@@ -126,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Luigi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0929116",
@@ -135,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Constable"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -155,19 +143,19 @@
     {
       "imdbId": "nm0286025",
       "name": "Carl Foreman",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0547949",
       "name": "Charles R. Marion",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0377127",
       "name": "Jack Henley",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(additional dialogue)"
     }
   ]

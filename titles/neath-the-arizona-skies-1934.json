@@ -1,25 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0024805",
-  "title": "'Neath the Arizona Skies",
-  "sortTitle": "'Neath the Arizona Skies (1934)",
-  "year": 1934,
   "slug": "neath-the-arizona-skies-1934",
+  "title": "'Neath the Arizona Skies",
+  "originalTitle": "'Neath the Arizona Skies",
+  "sortTitle": "'Neath the Arizona Skies",
+  "year": 1934,
   "releaseDate": "1934-12-05",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Action",
-    "Adventure",
-    "Romance",
+    "Drama",
     "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0292134",
       "name": "Harry L. Fraser",
-      "sequence": 0,
-      "notes": "(as Harry Fraser)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Chris Morrell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0856077",
@@ -38,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Clara Moore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0419880",
@@ -47,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Nina"
-      ],
-      "notes": "(as Shirley Jane Rickert)"
+      ]
     },
     {
       "imdbId": "nm0734340",
@@ -56,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Vic Byrd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0134831",
@@ -65,44 +60,39 @@
       "sequence": 4,
       "roles": [
         "Sam Black"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0371025",
-      "name": "George 'Gabby' Hayes",
-      "sequence": 5,
-      "roles": [
-        "Matt Downing"
-      ],
-      "notes": "(as George Hayes)"
-    },
-    {
-      "imdbId": "nm0932912",
-      "name": "Jay Wilsey",
-      "sequence": 6,
-      "roles": [
-        "Jim Moore"
-      ],
-      "notes": "(as Buffalo Bill Jr.)"
-    },
-    {
-      "imdbId": "nm0452404",
-      "name": "Philip Kieffer",
-      "sequence": 7,
-      "roles": [
-        "Jameson Hodges"
-      ],
-      "notes": "(as Phil Keefer)"
+      ]
     },
     {
       "imdbId": "nm0292134",
       "name": "Harry L. Fraser",
-      "sequence": 8,
+      "sequence": 5,
       "roles": [
         "Henchman in the Brush"
-      ],
-      "notes": "(as Weston Edwards)"
+      ]
+    },
+    {
+      "imdbId": "nm0371025",
+      "name": "George 'Gabby' Hayes",
+      "sequence": 6,
+      "roles": [
+        "Matt Downing"
+      ]
+    },
+    {
+      "imdbId": "nm0932912",
+      "name": "Jay Wilsey",
+      "sequence": 7,
+      "roles": [
+        "Jim Moore"
+      ]
+    },
+    {
+      "imdbId": "nm0452404",
+      "name": "Philip Kieffer",
+      "sequence": 8,
+      "roles": [
+        "Jameson Hodges"
+      ]
     }
   ],
   "writers": [
@@ -115,7 +105,7 @@
     {
       "imdbId": "nm0878328",
       "name": "Burl R. Tuttle",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay) (as Burl Tuttle)"
     }
   ]

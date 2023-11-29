@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0049429",
-  "title": "Lust of the Vampire",
-  "sortTitle": "Lust of the Vampire (1957)",
-  "year": 1957,
   "slug": "lust-of-the-vampire-1957",
-  "releaseDate": "1957-04-06",
+  "title": "Lust of the Vampire",
+  "originalTitle": "I vampiri",
+  "sortTitle": "Lust of the Vampire",
+  "year": 1957,
+  "releaseDate": "1957-01-01",
   "countries": [
     "Italy"
   ],
@@ -15,14 +17,7 @@
     {
       "imdbId": "nm0292720",
       "name": "Riccardo Freda",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000878",
-      "name": "Mario Bava",
-      "sequence": 1,
-      "notes": "(uncredited)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -33,8 +28,7 @@
       "roles": [
         "Giselle du Grand",
         "Margherita du Grand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195258",
@@ -42,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "L'ispettore Chantal"
-      ],
-      "notes": "(as Carlo d'Angelo)"
+      ]
     },
     {
       "imdbId": "nm0584266",
@@ -51,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Pierre Lantin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0346717",
@@ -60,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Laurette Robert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0301685",
@@ -69,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Ronald Fontaine"
-      ],
-      "notes": "(as Angiolo Galassi)"
+      ]
     },
     {
       "imdbId": "nm0867422",
@@ -78,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "L'assistente del professore Grand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269485",
@@ -87,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Signor Robert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0541528",
@@ -96,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Amica di Laurette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0132035",
@@ -105,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Signora Robert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0051086",
@@ -114,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Professor Julien du Grand"
-      ],
-      "notes": "(as Antoine Balpetr\u00e9 de la Com\u00e9die Fran\u00e7aise)"
+      ]
     },
     {
       "imdbId": "nm0612219",
@@ -123,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Joseph Signoret"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -143,26 +127,20 @@
     {
       "imdbId": "nm0716701",
       "name": "Piero Regnoli",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000878",
       "name": "Mario Bava",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay) (as Rijk Sij\u00f6strom)"
     },
     {
       "imdbId": "nm0292720",
       "name": "Riccardo Freda",
-      "sequence": 4,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0722233",
-      "name": "V.J. Rheims",
       "sequence": 5,
-      "notes": "(final revisions written by: English version) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

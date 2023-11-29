@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0031796",
-  "title": "The Phantom Creeps",
-  "sortTitle": "Phantom Creeps (1939)",
-  "year": 1939,
   "slug": "the-phantom-creeps-1939",
+  "title": "The Phantom Creeps",
+  "originalTitle": "The Phantom Creeps",
+  "sortTitle": "Phantom Creeps, The",
+  "year": 1939,
   "releaseDate": "1939-01-07",
   "countries": [
     "United States"
   ],
   "genres": [
     "Action",
+    "Family",
     "Horror",
     "Sci-Fi"
   ],
@@ -17,14 +20,12 @@
     {
       "imdbId": "nm0066247",
       "name": "Ford Beebe",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0328966",
       "name": "Saul A. Goodkind",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -34,8 +35,7 @@
       "sequence": 0,
       "roles": [
         "Dr. Alex Zorka"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448836",
@@ -43,8 +43,7 @@
       "sequence": 1,
       "roles": [
         "Capt. Bob West"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0036419",
@@ -52,8 +51,7 @@
       "sequence": 2,
       "roles": [
         "Jean Drew"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822468",
@@ -61,8 +59,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Fred Mallory"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -70,8 +67,7 @@
       "sequence": 4,
       "roles": [
         "Jim Daly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0808552",
@@ -79,8 +75,7 @@
       "sequence": 5,
       "roles": [
         "Monk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888000",
@@ -88,8 +83,7 @@
       "sequence": 6,
       "roles": [
         "Jarvis [Chs. 2-12]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166076",
@@ -97,8 +91,7 @@
       "sequence": 7,
       "roles": [
         "Ann Zorka [Chs. 1-2]"
-      ],
-      "notes": "(as Dora Clemant)"
+      ]
     },
     {
       "imdbId": "nm0042958",
@@ -106,8 +99,7 @@
       "sequence": 8,
       "roles": [
         "Rankin - Henchman [Chs. 2-12]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0403154",
@@ -115,8 +107,7 @@
       "sequence": 9,
       "roles": [
         "Perkins - Mallory's Lab Assistant [Chs. 2-12]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888778",
@@ -124,8 +115,7 @@
       "sequence": 10,
       "roles": [
         "Al - Guard [Ch. 5]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0562866",
@@ -133,8 +123,7 @@
       "sequence": 11,
       "roles": [
         "Train Engineer [Ch. 6]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0267650",
@@ -142,8 +131,7 @@
       "sequence": 12,
       "roles": [
         "Skipper [Ch. 9]"
-      ],
-      "notes": "(as James Farley)"
+      ]
     },
     {
       "imdbId": "nm0010333",
@@ -151,8 +139,7 @@
       "sequence": 13,
       "roles": [
         "Mac - AMI Agent [Chs. 2-12]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0398139",
@@ -160,8 +147,7 @@
       "sequence": 14,
       "roles": [
         "Signalman [Ch. 10]"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0938224",
@@ -169,8 +155,7 @@
       "sequence": 15,
       "roles": [
         "The Robot"
-      ],
-      "notes": "(as Edw. Wolff)"
+      ]
     },
     {
       "imdbId": "nm0536499",
@@ -179,8 +164,7 @@
       "roles": [
         "Thug-Pilot",
         "Schooner Crewman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0824685",
@@ -189,8 +173,7 @@
       "roles": [
         "Train Conductor",
         "Radio Truck Driver"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -215,7 +198,7 @@
     {
       "imdbId": "nm0178459",
       "name": "Wyllis Cooper",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(original story by) (as Willis Cooper)"
     }
   ]

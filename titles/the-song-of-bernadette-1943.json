@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0036377",
-  "title": "The Song of Bernadette",
-  "sortTitle": "Song of Bernadette (1943)",
-  "year": 1943,
   "slug": "the-song-of-bernadette-1943",
-  "releaseDate": "1943-12-21",
+  "title": "The Song of Bernadette",
+  "originalTitle": "The Song of Bernadette",
+  "sortTitle": "Song of Bernadette, The",
+  "year": 1943,
+  "releaseDate": "1945-04-01",
   "countries": [
     "United States"
   ],
   "genres": [
     "Biography",
-    "Drama"
+    "Drama",
+    "Mystery"
   ],
   "directors": [
     {
       "imdbId": "nm0454771",
       "name": "Henry King",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Antoine Nicolau"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001948",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Father Peyramale"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001637",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Prosecutor Vital Dutour"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002011",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Dozous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178066",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Sister Marie Therese Vauzous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720843",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Louise Soubirous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0092129",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Fran\u00e7ois Soubirous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0027156",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Jeanne Abadie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605685",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Empress Eugenie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0558434",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Mayor Lacade"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0227644",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Jacomet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0057121",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Croisine Bouhouhorts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0750079",
@@ -135,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Louis Bouriette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0951063",
@@ -144,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Aunt Bernarde Casterot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0910222",
@@ -153,8 +141,7 @@
       "sequence": 14,
       "roles": [
         "Marie Soubirous"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0197950",
@@ -162,8 +149,7 @@
       "sequence": 15,
       "roles": [
         "Callet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003124",
@@ -171,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Dr. LeCramps"
-      ],
-      "notes": "(as Pedro De Cordoba)"
+      ]
     },
     {
       "imdbId": "nm0184578",
@@ -180,17 +165,15 @@
       "sequence": 17,
       "roles": [
         "Emperor Louis Napoleon III"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0428354",
       "name": "Jennifer Jones",
       "sequence": 18,
       "roles": [
-        "Bernadette"
-      ],
-      "notes": null
+        "Bernadette Soubirous"
+      ]
     }
   ],
   "writers": [
@@ -203,7 +186,7 @@
     {
       "imdbId": "nm0921268",
       "name": "Franz Werfel",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(novel)"
     }
   ]

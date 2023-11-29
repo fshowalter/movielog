@@ -1,25 +1,28 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0039589",
-  "title": "Lured",
-  "sortTitle": "Lured (1947)",
-  "year": 1947,
   "slug": "lured-1947",
-  "releaseDate": "1947-08-28",
+  "title": "Lured",
+  "originalTitle": "Lured",
+  "sortTitle": "Lured",
+  "year": 1947,
+  "releaseDate": "1947-09-05",
   "countries": [
     "United States"
   ],
   "genres": [
     "Crime",
+    "Drama",
     "Film-Noir",
     "Mystery",
+    "Romance",
     "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm0802862",
       "name": "Douglas Sirk",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Robert Fleming"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000840",
@@ -38,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Sandra Carpenter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002013",
@@ -47,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Inspector Harley Temple"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -56,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Charles van Druten"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362567",
@@ -65,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Julian Wilde"
-      ],
-      "notes": "(as Sir Cedric Hardwicke)"
+      ]
     },
     {
       "imdbId": "nm0130407",
@@ -74,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Nicholas Moryani"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0610253",
@@ -83,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Lyle Maxwell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0958345",
@@ -92,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Officer H. R. Barrett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178509",
@@ -101,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Detective"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0621002",
@@ -110,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Detective Gordon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0151473",
@@ -119,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Lucy Barnard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912723",
@@ -128,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Blonde Nightclub Singer"
-      ],
-      "notes": "(singingVoice)"
+      ]
     }
   ],
   "writers": [
@@ -142,19 +133,19 @@
     {
       "imdbId": "nm0173952",
       "name": "Jacques Compan\u00e9ez",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(from a story by) (as Jacques Companeez)"
     },
     {
       "imdbId": "nm0626773",
       "name": "Ernst Neubach",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(from a story by) (as Ernest Neuville)"
     },
     {
       "imdbId": "nm0304605",
       "name": "Simon Gantillon",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(from a story by)"
     }
   ]

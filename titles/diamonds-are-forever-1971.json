@@ -1,12 +1,15 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0066995",
-  "title": "Diamonds Are Forever",
-  "sortTitle": "Diamonds Are Forever (1971)",
-  "year": 1971,
   "slug": "diamonds-are-forever-1971",
-  "releaseDate": "1971-12-14",
+  "title": "Diamonds Are Forever",
+  "originalTitle": "Diamonds Are Forever",
+  "sortTitle": "Diamonds Are Forever",
+  "year": 1971,
+  "releaseDate": "1971-12-17",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ],
   "genres": [
     "Action",
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0357891",
       "name": "Guy Hamilton",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "James Bond"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001762",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Tiffany Case"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0336509",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Blofeld"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0939836",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Plenty O'Toole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0212818",
@@ -64,17 +62,15 @@
       "sequence": 4,
       "roles": [
         "Willard Whyte"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0127677",
       "name": "Bruce Cabot",
       "sequence": 5,
       "roles": [
-        "Saxby"
-      ],
-      "notes": null
+        "Albert R. Saxby"
+      ]
     },
     {
       "imdbId": "nm0809623",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Mr. Kidd"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0323098",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Mr. Wint"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0123680",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Leiter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0299822",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Dr Metz"
-      ],
-      "notes": "(as Joseph Furst)"
+      ]
     },
     {
       "imdbId": "nm0496866",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "'M'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005155",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "'Q'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0056536",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Shady Tree"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561755",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Moneypenny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0479941",
@@ -154,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Mrs. Whistler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732750",
@@ -163,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Peter Franks"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0209095",
@@ -172,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "Doctor"
-      ],
-      "notes": "(as David De Keyser)"
+      ]
     },
     {
       "imdbId": "nm0619802",
@@ -181,8 +166,7 @@
       "sequence": 17,
       "roles": [
         "Sir Donald Munger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0061784",
@@ -190,8 +174,7 @@
       "sequence": 18,
       "roles": [
         "Mr. Slumber"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0492908",
@@ -199,8 +182,7 @@
       "sequence": 19,
       "roles": [
         "Slumber Inc. Attendant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354085",
@@ -208,8 +190,7 @@
       "sequence": 20,
       "roles": [
         "Slumber Inc. Attendant"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -224,12 +205,6 @@
       "name": "Tom Mankiewicz",
       "sequence": 1,
       "notes": "(screenplay by)"
-    },
-    {
-      "imdbId": "nm0001220",
-      "name": "Ian Fleming",
-      "sequence": 2,
-      "notes": "(novel \"Diamonds Are Forever\") (uncredited)"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0029843",
-  "title": "The Adventures of Robin Hood",
-  "sortTitle": "Adventures of Robin Hood (1938)",
-  "year": 1938,
   "slug": "the-adventures-of-robin-hood-1938",
-  "releaseDate": "1938-05-12",
+  "title": "The Adventures of Robin Hood",
+  "originalTitle": "The Adventures of Robin Hood",
+  "sortTitle": "Adventures of Robin Hood, The",
+  "year": 1938,
+  "releaseDate": "1938-05-14",
   "countries": [
     "United States"
   ],
@@ -17,14 +19,12 @@
     {
       "imdbId": "nm0002031",
       "name": "Michael Curtiz",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     },
     {
       "imdbId": "nm0445033",
       "name": "William Keighley",
-      "sequence": 1,
-      "notes": null
+      "sequence": 1
     }
   ],
   "performers": [
@@ -34,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Robin Hood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000014",
@@ -43,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Maid Marian"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001651",
@@ -52,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Sir Guy of Gisbourne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001647",
@@ -61,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Prince John"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0461549",
@@ -70,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "Will Scarlett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0657874",
@@ -79,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Friar Tuck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002118",
@@ -88,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Little John"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178259",
@@ -97,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "High Sheriff of Nottingham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402842",
@@ -106,8 +98,7 @@
       "sequence": 8,
       "roles": [
         "King Richard the Lion-Heart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0640547",
@@ -115,8 +106,7 @@
       "sequence": 9,
       "roles": [
         "Bess"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0612743",
@@ -124,8 +114,7 @@
       "sequence": 10,
       "roles": [
         "Much"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002311",
@@ -133,8 +122,7 @@
       "sequence": 11,
       "roles": [
         "Bishop of the Black Canons"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0929856",
@@ -142,8 +130,7 @@
       "sequence": 12,
       "roles": [
         "Sir Essex"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0633660",
@@ -151,8 +138,7 @@
       "sequence": 13,
       "roles": [
         "Sir Ralf"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402905",
@@ -160,8 +146,7 @@
       "sequence": 14,
       "roles": [
         "Sir Mortimer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0913094",
@@ -169,8 +154,7 @@
       "sequence": 15,
       "roles": [
         "Sir Geoffrey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448560",
@@ -178,8 +162,7 @@
       "sequence": 16,
       "roles": [
         "Sir Baldwin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0560091",
@@ -187,8 +170,7 @@
       "sequence": 17,
       "roles": [
         "Sir Ivor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0179591",
@@ -196,8 +178,7 @@
       "sequence": 18,
       "roles": [
         "Dickon Malbete"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801034",
@@ -205,8 +186,7 @@
       "sequence": 19,
       "roles": [
         "Proprietor of Kent Road Tavern"
-      ],
-      "notes": "(as Ivan Simpson)"
+      ]
     }
   ],
   "writers": [
@@ -221,12 +201,6 @@
       "name": "Seton I. Miller",
       "sequence": 1,
       "notes": "(original screenplay: based upon ancient Robin Hood legends)"
-    },
-    {
-      "imdbId": "nm0500284",
-      "name": "Rowland Leigh",
-      "sequence": 2,
-      "notes": "(contributor to treatment) (uncredited)"
     }
   ]
 }

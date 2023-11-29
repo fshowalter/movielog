@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt14549466",
-  "title": "Crimes of the Future",
-  "sortTitle": "Crimes of the Future (2022)",
-  "year": 2022,
   "slug": "crimes-of-the-future-2022",
-  "releaseDate": "2022-01-01",
+  "title": "Crimes of the Future",
+  "originalTitle": "Crimes of the Future",
+  "sortTitle": "Crimes of the Future",
+  "year": 2022,
+  "releaseDate": "2022-05-25",
   "countries": [
     "Canada",
     "Greece",
@@ -19,19 +21,17 @@
     {
       "imdbId": "nm0000343",
       "name": "David Cronenberg",
-      "sequence": 0,
-      "notes": "(directed by)"
+      "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0001557",
-      "name": "Viggo Mortensen",
+      "imdbId": "nm13693627",
+      "name": "Sotiris Siozos",
       "sequence": 0,
       "roles": [
-        "Saul Tenser"
-      ],
-      "notes": null
+        "Brecken"
+      ]
     },
     {
       "imdbId": "nm6779063",
@@ -39,35 +39,31 @@
       "sequence": 1,
       "roles": [
         "Djuna"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm2244205",
-      "name": "L\u00e9a Seydoux",
-      "sequence": 2,
-      "roles": [
-        "Caprice"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005454",
       "name": "Scott Speedman",
-      "sequence": 3,
+      "sequence": 2,
       "roles": [
         "Lang Dotrice"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0829576",
-      "name": "Kristen Stewart",
+      "imdbId": "nm0001557",
+      "name": "Viggo Mortensen",
+      "sequence": 3,
+      "roles": [
+        "Saul Tenser"
+      ]
+    },
+    {
+      "imdbId": "nm2244205",
+      "name": "L\u00e9a Seydoux",
       "sequence": 4,
       "roles": [
-        "Timlin"
-      ],
-      "notes": null
+        "Caprice"
+      ]
     },
     {
       "imdbId": "nm0001528",
@@ -75,107 +71,95 @@
       "sequence": 5,
       "roles": [
         "Wippet"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0829576",
+      "name": "Kristen Stewart",
+      "sequence": 6,
+      "roles": [
+        "Timlin"
+      ]
     },
     {
       "imdbId": "nm0514879",
       "name": "Nadia Litz",
-      "sequence": 6,
+      "sequence": 7,
       "roles": [
         "Router"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4496161",
       "name": "Tanaya Beatty",
-      "sequence": 7,
+      "sequence": 8,
       "roles": [
         "Berst"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4248791",
       "name": "Mihalis Valasoglou",
-      "sequence": 8,
+      "sequence": 9,
       "roles": [
         "NVU Agent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2993505",
       "name": "Welket Bungu\u00e9",
-      "sequence": 9,
+      "sequence": 10,
       "roles": [
         "Cope"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm13729824",
       "name": "Tassos Karahalios",
-      "sequence": 10,
+      "sequence": 11,
       "roles": [
         "Klinek"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm11336120",
       "name": "Ephie Kantza",
-      "sequence": 11,
+      "sequence": 12,
       "roles": [
         "Adrienne Berceau"
-      ],
-      "notes": "(as Efi Kantza)"
+      ]
     },
     {
       "imdbId": "nm0701566",
       "name": "Yorgos Pirpassopoulos",
-      "sequence": 12,
+      "sequence": 13,
       "roles": [
         "Dr. Nasatir"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm10890890",
       "name": "Jason Bitter",
-      "sequence": 13,
+      "sequence": 14,
       "roles": [
         "Tarr"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm7500140",
       "name": "Denise Capezza",
-      "sequence": 14,
+      "sequence": 15,
       "roles": [
         "Odile"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm5236473",
       "name": "Penelope Tsilika",
-      "sequence": 15,
-      "roles": [
-        "Beauty Spa Woman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm13693627",
-      "name": "Sotiris Siozos",
       "sequence": 16,
       "roles": [
-        "Brecken"
-      ],
-      "notes": null
+        "Beauty Spa Woman"
+      ]
     }
   ],
   "writers": [

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0035015",
-  "title": "The Magnificent Ambersons",
-  "sortTitle": "Magnificent Ambersons (1942)",
-  "year": 1942,
   "slug": "the-magnificent-ambersons-1942",
-  "releaseDate": "1942-07-09",
+  "title": "The Magnificent Ambersons",
+  "originalTitle": "The Magnificent Ambersons",
+  "sortTitle": "Magnificent Ambersons, The",
+  "year": 1942,
+  "releaseDate": "1942-07-10",
   "countries": [
     "United States"
   ],
@@ -16,20 +18,7 @@
     {
       "imdbId": "nm0000080",
       "name": "Orson Welles",
-      "sequence": 0,
-      "notes": null
-    },
-    {
-      "imdbId": "nm0281381",
-      "name": "Fred Fleck",
-      "sequence": 1,
-      "notes": "(uncredited) (additional sequences)"
-    },
-    {
-      "imdbId": "nm0936404",
-      "name": "Robert Wise",
-      "sequence": 2,
-      "notes": "(uncredited) (additional sequences)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -39,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Eugene Morgan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0182537",
@@ -48,8 +36,7 @@
       "sequence": 1,
       "roles": [
         "Isabel Amberson Minafer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000879",
@@ -57,8 +44,7 @@
       "sequence": 2,
       "roles": [
         "Lucy Morgan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0392529",
@@ -66,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "George Minafer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001547",
@@ -75,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Fanny Minafer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0172615",
@@ -84,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "Jack Amberson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0762557",
@@ -93,8 +76,7 @@
       "sequence": 6,
       "roles": [
         "Roger Bronson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0071992",
@@ -102,17 +84,7 @@
       "sequence": 7,
       "roles": [
         "Major Amberson"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 8,
-      "roles": [
-        "Narrator"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -125,20 +97,8 @@
     {
       "imdbId": "nm0000080",
       "name": "Orson Welles",
-      "sequence": 1,
-      "notes": "(script writer)"
-    },
-    {
-      "imdbId": "nm0001072",
-      "name": "Joseph Cotten",
       "sequence": 2,
-      "notes": "(additional scenes) (uncredited)"
-    },
-    {
-      "imdbId": "nm0608986",
-      "name": "Jack Moss",
-      "sequence": 3,
-      "notes": "(additional scenes) (uncredited)"
+      "notes": "(script writer)"
     }
   ]
 }

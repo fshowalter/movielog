@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0032976",
-  "title": "Rebecca",
-  "sortTitle": "Rebecca (1940)",
-  "year": 1940,
   "slug": "rebecca-1940",
-  "releaseDate": "1940-03-21",
+  "title": "Rebecca",
+  "originalTitle": "Rebecca",
+  "sortTitle": "Rebecca",
+  "year": 1940,
+  "releaseDate": "1940-04-12",
   "countries": [
     "United States"
   ],
   "genres": [
     "Drama",
+    "Film-Noir",
     "Mystery",
     "Romance",
     "Thriller"
@@ -18,8 +21,7 @@
     {
       "imdbId": "nm0000033",
       "name": "Alfred Hitchcock",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "'Maxim' de Winter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000021",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Mrs. de Winter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001695",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Jack Favell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000752",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Mrs. Danvers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115558",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Major Giles Lacy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0219666",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Frank Crawley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0807580",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Colonel Julyan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178066",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Beatrice Lacy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060904",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Mrs. Van Hopper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0178259",
@@ -110,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Coroner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001991",
@@ -119,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Dr. Baker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0136988",
@@ -128,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Ben"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362815",
@@ -137,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Tabbs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0276132",
@@ -146,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Frith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0935817",
@@ -155,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Robert"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0367516",
@@ -164,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Chalcroft"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -178,25 +164,25 @@
     {
       "imdbId": "nm0792845",
       "name": "Robert E. Sherwood",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0365661",
       "name": "Joan Harrison",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0531878",
       "name": "Philip MacDonald",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0389580",
       "name": "Michael Hogan",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(adaptation)"
     }
   ]

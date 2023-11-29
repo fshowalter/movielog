@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0106364",
-  "title": "Batman: Mask of the Phantasm",
-  "sortTitle": "Batman: Mask of the Phantasm (1993)",
-  "year": 1993,
   "slug": "batman-mask-of-the-phantasm-1993",
-  "releaseDate": "1993-01-01",
+  "title": "Batman: Mask of the Phantasm",
+  "originalTitle": "Batman: Mask of the Phantasm",
+  "sortTitle": "Batman: Mask of the Phantasm",
+  "year": 1993,
+  "releaseDate": "1993-12-25",
   "countries": [
     "United States"
   ],
@@ -21,68 +23,35 @@
     {
       "imdbId": "nm0022828",
       "name": "Kevin Altieri",
-      "sequence": 0,
-      "notes": "(sequence director)"
+      "sequence": 0
     },
     {
       "imdbId": "nm0456631",
       "name": "Boyd Kirkland",
-      "sequence": 1,
-      "notes": "(sequence director)"
+      "sequence": 1
     },
     {
       "imdbId": "nm0667469",
       "name": "Frank Paur",
-      "sequence": 2,
-      "notes": "(sequence director)"
+      "sequence": 2
     },
     {
       "imdbId": "nm0722713",
       "name": "Dan Riba",
-      "sequence": 3,
-      "notes": "(sequence director)"
+      "sequence": 3
     },
     {
       "imdbId": "nm0705779",
       "name": "Eric Radomski",
-      "sequence": 4,
-      "notes": "(directed by)"
+      "sequence": 4
     },
     {
       "imdbId": "nm0863622",
       "name": "Bruce Timm",
-      "sequence": 5,
-      "notes": "(directed by) (as Bruce W. Timm)"
+      "sequence": 5
     }
   ],
   "performers": [
-    {
-      "imdbId": "nm0175834",
-      "name": "Kevin Conroy",
-      "sequence": 0,
-      "roles": [
-        "Batman"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0001127",
-      "name": "Dana Delany",
-      "sequence": 1,
-      "roles": [
-        "Andrea Beaumont"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000952",
-      "name": "Hart Bochner",
-      "sequence": 2,
-      "roles": [
-        "Arthur Reeves"
-      ],
-      "notes": "(voice)"
-    },
     {
       "imdbId": "nm0005078",
       "name": "Stacy Keach",
@@ -90,161 +59,7 @@
       "roles": [
         "Phantasm",
         "Carl Beaumont"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001820",
-      "name": "Abe Vigoda",
-      "sequence": 4,
-      "roles": [
-        "Salvatore Valestra"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 5,
-      "roles": [
-        "Chuckie Sol"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0752636",
-      "name": "John P. Ryan",
-      "sequence": 6,
-      "roles": [
-        "Buzz Bronski"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0956544",
-      "name": "Efrem Zimbalist Jr.",
-      "sequence": 7,
-      "roles": [
-        "Alfred"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0368561",
-      "name": "Bob Hastings",
-      "sequence": 8,
-      "roles": [
-        "Commissioner Gordon"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0182456",
-      "name": "Robert Costanzo",
-      "sequence": 9,
-      "roles": [
-        "Detective Bullock"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000434",
-      "name": "Mark Hamill",
-      "sequence": 10,
-      "roles": [
-        "The Joker"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0236185",
-      "name": "Jane Downs",
-      "sequence": 11,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0615730",
-      "name": "Pat Musick",
-      "sequence": 12,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0914937",
-      "name": "Vernee Watson",
-      "sequence": 13,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice) (as Vernee Watson-Johnson)"
-    },
-    {
-      "imdbId": "nm0318027",
-      "name": "Ed Gilbert",
-      "sequence": 14,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0719115",
-      "name": "Peter Renaday",
-      "sequence": 15,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0071818",
-      "name": "Jeff Bennett",
-      "sequence": 16,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0398112",
-      "name": "Charles Howerton",
-      "sequence": 17,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0684712",
-      "name": "Thom Pinto",
-      "sequence": 18,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0000447",
-      "name": "Marilu Henner",
-      "sequence": 19,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
-    },
-    {
-      "imdbId": "nm0743719",
-      "name": "Neil Ross",
-      "sequence": 20,
-      "roles": [
-        "Additional Voices"
-      ],
-      "notes": "(voice)"
+      ]
     }
   ],
   "writers": [
@@ -257,31 +72,31 @@
     {
       "imdbId": "nm0122334",
       "name": "Alan Burnett",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0227704",
       "name": "Paul Dini",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0664632",
       "name": "Martin Pasko",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0714184",
       "name": "Michael Reaves",
-      "sequence": 4,
+      "sequence": 5,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0004170",
       "name": "Bob Kane",
-      "sequence": 5,
+      "sequence": 7,
       "notes": "(created by: Batman)"
     }
   ]

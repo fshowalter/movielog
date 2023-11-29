@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0061074",
-  "title": "Massacre Time",
-  "sortTitle": "Massacre Time (1966)",
-  "year": 1966,
   "slug": "massacre-time-1966",
-  "releaseDate": "1966-08-10",
+  "title": "Massacre Time",
+  "originalTitle": "Le colt cantarono la morte e fu... tempo di massacro",
+  "sortTitle": "Massacre Time",
+  "year": 1966,
+  "releaseDate": "1968-12-04",
   "countries": [
     "Italy"
   ],
   "genres": [
     "Action",
+    "Drama",
     "Thriller",
     "Western"
   ],
@@ -17,8 +20,7 @@
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Tom Corbett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0385253",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Jeff 'Slim' Corbett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790167",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Brady"
-      ],
-      "notes": "(as Lynn Shane)"
+      ]
     },
     {
       "imdbId": "nm0011732",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Mr. Scott"
-      ],
-      "notes": "(as John M. Douglas)"
+      ]
     },
     {
       "imdbId": "nm0144875",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Jason 'Junior' Scott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0271417",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Murray"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605398",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Scott Henchman"
-      ],
-      "notes": "(as Franco Morici)"
+      ]
     },
     {
       "imdbId": "nm0289953",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Mercedes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0853434",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Undertaker"
-      ],
-      "notes": "(as Yu Tchang)"
+      ]
     },
     {
       "imdbId": "nm0241757",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Sonko"
-      ],
-      "notes": "(as Aysanoa Runachagua [Sonko])"
+      ]
     }
   ],
   "writers": [
@@ -123,20 +115,8 @@
     {
       "imdbId": "nm0223964",
       "name": "Fernando Di Leo",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0002086",
-      "name": "Lucio Fulci",
       "sequence": 2,
-      "notes": "(screenplay collaborator) (uncredited)"
-    },
-    {
-      "imdbId": "nm0217258",
-      "name": "Enzo Dell'Aquila",
-      "sequence": 3,
-      "notes": "(screenplay collaborator) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

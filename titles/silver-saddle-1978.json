@@ -1,23 +1,25 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0078224",
-  "title": "Silver Saddle",
-  "sortTitle": "Silver Saddle (1978)",
-  "year": 1978,
   "slug": "silver-saddle-1978",
+  "title": "Silver Saddle",
+  "originalTitle": "Sella d'argento",
+  "sortTitle": "Silver Saddle",
+  "year": 1978,
   "releaseDate": "1978-04-20",
   "countries": [
     "Italy"
   ],
   "genres": [
-    "Western",
-    "Action"
+    "Action",
+    "Drama",
+    "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Roy Blood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0885386",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Thomas Barrett, Jr."
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543188",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Thomas Barrett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1091972",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Turner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0598443",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Margaret Barrett"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0502262",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Miss Sheba"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0759757",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Garrincha"
-      ],
-      "notes": "(as Aldo Sanbrell)"
+      ]
     },
     {
       "imdbId": "nm0380881",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Sheriff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0639521",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Fletcher"
-      ],
-      "notes": "(as Donal O'Brien)"
+      ]
     },
     {
       "imdbId": "nm0502819",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Butch The Bartender"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0894316",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Peggy"
-      ],
-      "notes": "(as Karine Stampfli)"
+      ]
     },
     {
       "imdbId": "nm0436192",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "One Of Sheba's Women"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1325398",
@@ -135,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Sheba's Woman"
-      ],
-      "notes": "(as Anna Maria Tinelli)"
+      ]
     },
     {
       "imdbId": "nm0507212",
@@ -144,15 +133,13 @@
       "sequence": 13,
       "roles": [
         "Two-Strike Snake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm10377885",
       "name": "Mario Filippo",
       "sequence": 14,
-      "roles": [],
-      "notes": null
+      "roles": []
     }
   ],
   "writers": [
@@ -165,7 +152,7 @@
     {
       "imdbId": "nm0093501",
       "name": "Adriano Bolzoni",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(story)"
     }
   ]

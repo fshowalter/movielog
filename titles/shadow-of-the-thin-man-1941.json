@@ -1,24 +1,24 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0034172",
-  "title": "Shadow of the Thin Man",
-  "sortTitle": "Shadow of the Thin Man (1941)",
-  "year": 1941,
   "slug": "shadow-of-the-thin-man-1941",
+  "title": "Shadow of the Thin Man",
+  "originalTitle": "Shadow of the Thin Man",
+  "sortTitle": "Shadow of the Thin Man",
+  "year": 1941,
   "releaseDate": "1941-11-01",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Comedy",
-    "Crime",
+    "Drama",
     "Mystery"
   ],
   "directors": [
     {
       "imdbId": "nm0886754",
       "name": "W.S. Van Dyke",
-      "sequence": 0,
-      "notes": "(as Maj. W.S. Van Dyke II)"
+      "sequence": 0
     }
   ],
   "performers": [
@@ -27,27 +27,24 @@
       "name": "William Powell",
       "sequence": 0,
       "roles": [
-        "Nick"
-      ],
-      "notes": null
+        "Nick Charles"
+      ]
     },
     {
       "imdbId": "nm0001485",
       "name": "Myrna Loy",
       "sequence": 1,
       "roles": [
-        "Nora"
-      ],
-      "notes": null
+        "Nora Charles"
+      ]
     },
     {
       "imdbId": "nm0625167",
       "name": "Barry Nelson",
       "sequence": 2,
       "roles": [
-        "Paul"
-      ],
-      "notes": null
+        "Paul Clark"
+      ]
     },
     {
       "imdbId": "nm0001656",
@@ -55,8 +52,7 @@
       "sequence": 3,
       "roles": [
         "Molly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0505249",
@@ -64,8 +60,7 @@
       "sequence": 4,
       "roles": [
         "Lieutenant Abrams"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0062667",
@@ -73,8 +68,7 @@
       "sequence": 5,
       "roles": [
         "'Whitey' Barrow"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0642180",
@@ -82,17 +76,15 @@
       "sequence": 6,
       "roles": [
         "Major Jason I. Sculley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0355501",
       "name": "Richard Hall",
       "sequence": 7,
       "roles": [
-        "Nick Jr."
-      ],
-      "notes": "(as Dickie Hall)"
+        "Nick Charles Jr."
+      ]
     },
     {
       "imdbId": "nm0012245",
@@ -100,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Claire Porter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0809143",
@@ -109,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "'Link' Stephens"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0030917",
@@ -118,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Fred Macy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0523912",
@@ -127,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "'Rainbow' Benny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0064792",
@@ -136,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Stella"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1208817",
@@ -145,18 +132,16 @@
       "sequence": 13,
       "roles": [
         "Asta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0933489",
       "name": "Harry Wilson",
-      "sequence": 94,
+      "sequence": 97,
       "roles": [
         "Mug Shoving Waiter",
         "Racetrack Security Guard"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -175,7 +160,7 @@
     {
       "imdbId": "nm0475823",
       "name": "Harry Kurnitz",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(from a story by)"
     }
   ]

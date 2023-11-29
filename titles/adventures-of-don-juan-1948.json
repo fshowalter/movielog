@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29.1",
   "imdbId": "tt0040076",
-  "title": "Adventures of Don Juan",
-  "sortTitle": "Adventures of Don Juan (1948)",
-  "year": 1948,
   "slug": "adventures-of-don-juan-1948",
-  "releaseDate": "1948-12-01",
+  "title": "Adventures of Don Juan",
+  "originalTitle": "Adventures of Don Juan",
+  "sortTitle": "Adventures of Don Juan",
+  "year": 1948,
+  "releaseDate": "1949-01-29",
   "countries": [
     "United States"
   ],
@@ -17,8 +19,7 @@
     {
       "imdbId": "nm0792605",
       "name": "Vincent Sherman",
-      "sequence": 0,
-      "notes": null
+      "sequence": 0
     }
   ],
   "performers": [
@@ -28,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Don Juan de Mara\u00f1a"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0511798",
@@ -37,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Queen Margaret"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001888",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Duke de Lorca"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002118",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Leporello"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0107599",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "King Phillip III"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0751946",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Donna Elena"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0913094",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Don Jos\u00e9 - Count de Polan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0042424",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Don Sebastian"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0448004",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Don Rodrigo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0791797",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Donna Carlotta"
-      ],
-      "notes": "(as Jeanne Shepherd)"
+      ]
     },
     {
       "imdbId": "nm0835791",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Catherine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0922505",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Lady Diana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0093769",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Don Serafino Lopez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0558434",
@@ -145,8 +133,7 @@
       "sequence": 13,
       "roles": [
         "Lord Chalmers"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0640547",
@@ -154,8 +141,7 @@
       "sequence": 14,
       "roles": [
         "Duenna"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000994",
@@ -163,8 +149,16 @@
       "sequence": 15,
       "roles": [
         "Captain Alvarez"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0060845",
+      "name": "Barbara Bates",
+      "sequence": 20,
+      "roles": [
+        "Micaela",
+        "Innkeeper's Daughter"
+      ]
     }
   ],
   "writers": [
@@ -177,26 +171,14 @@
     {
       "imdbId": "nm0649183",
       "name": "George Oppenheimer",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0475823",
       "name": "Harry Kurnitz",
-      "sequence": 2,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0001203",
-      "name": "William Faulkner",
       "sequence": 3,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0282984",
-      "name": "Robert Florey",
-      "sequence": 4,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }
