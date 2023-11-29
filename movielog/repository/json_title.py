@@ -231,6 +231,50 @@ def build_performers(imdb_movie: imdb.Movie.Movie) -> list[JsonPerformer]:
 
 
 def fix_all() -> None:
+    json_files = glob(os.path.join(FOLDER_NAME, "*.json"))
+    total_count = len(json_files)
+
+    for index, file_path in enumerate(json_files):
+        with open(file_path, "r+") as json_file:
+            json_title = cast(JsonTitle, json.load(json_file))
+
+            updated_title = JsonTitle(
+                imdbId=json_title["imdbId"],
+                slug=json_title["slug"],
+                title=json_title["title"],
+                originalTitle=json_title["originalTitle"],
+                sortTitle=json_title["sortTitle"],
+                year=json_title["year"],
+                releaseDate=json_title["releaseDate"],
+                countries=json_title["countries"],
+                genres=json_title["genres"],
+                directors=json_title["directors"],
+                performers=json_title["performers"],
+                writers=json_title["writers"],
+            )
+
+            if updated_title == json_title:
+                logger.log(
+                    "{}/{} No updates for {}.",
+                    index + 1,
+                    total_count,
+                    file_path,
+                )
+                continue
+
+            json_file.seek(0)
+            json_file.write(json.dumps(updated_title, default=str, indent=2))
+            json_file.truncate()
+
+            logger.log(
+                "{}/{} Updated {}.",
+                index + 1,
+                total_count,
+                file_path,
+            )
+
+
+def update() -> None:
     processed_files = []
     existing_progress = []
 
@@ -251,7 +295,7 @@ def fix_all() -> None:
                 if file_path in existing_progress:
                     logger.log(
                         "{}/{} Skipped {} (already processed).",
-                        index,
+                        index + 1,
                         total_count,
                         file_path,
                     )
@@ -294,7 +338,7 @@ def fix_all() -> None:
                 if updated_title == json_title:
                     logger.log(
                         "{}/{} No updates for {}.",
-                        index,
+                        index + 1,
                         total_count,
                         file_path,
                     )
@@ -306,7 +350,7 @@ def fix_all() -> None:
 
                 logger.log(
                     "{}/{} Updated {}.",
-                    index,
+                    index + 1,
                     total_count,
                     file_path,
                 )
