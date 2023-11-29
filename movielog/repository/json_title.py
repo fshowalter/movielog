@@ -5,13 +5,16 @@ import os
 from collections import defaultdict
 from dataclasses import dataclass
 from glob import glob
+from pathlib import Path
 from typing import Iterable, Optional, TypedDict, cast
 
 from slugify import slugify
 
 from movielog import db
-from movielog.utils import path_tools
+from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
+from movielog.viewings import api as viewings_api
+from movielog.watchlist import api as watchlist_api
 
 FOLDER_NAME = "titles"
 
@@ -176,6 +179,26 @@ def fetch_db_data(imdb_id: str) -> DbData:
 
 
 def fix_all() -> None:
+    viewing_movie_ids = viewings_api.movie_ids()
+    watchlist_movie_ids = watchlist_api.movie_ids()
+
+    valid_title_ids = viewing_movie_ids.union(watchlist_movie_ids)
+
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        title = None
+        with open(file_path, "r") as json_file:
+            title = cast(JsonTitle, json.load(json_file))
+
+        if title["imdbId"] not in valid_title_ids:
+            logger.log(
+                "Removing {0}, {1} not found. Removing.",
+                file_path,
+                title["imdbId"],
+            )
+            Path.unlink(Path(file_path))
+
+
+def migrate() -> None:
     for file_path in glob(os.path.join("data", "*.json")):
         with open(file_path, "r") as json_file:
             json_data = json.load(json_file)
@@ -235,3 +258,19 @@ def serialize(json_title: JsonTitle) -> None:
         "Wrote {}.",
         file_path,
     )
+
+
+def deserialize_all() -> list[JsonTitle]:
+    logger.log("==== Begin deserializing {}...", "titles")
+    titles: list[JsonTitle] = []
+
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        with open(file_path, "r") as json_file:
+            titles.append(cast(JsonTitle, json.load(json_file)))
+
+    logger.log(
+        "Deserialized {} files.",
+        format_tools.humanize_int(len(titles)),
+    )
+
+    return titles

@@ -25,9 +25,9 @@ def movie_ids() -> set[str]:
         all_movies.extend(watchlist_person.titles)
 
     for collection in collections():
-        all_movies.extend(collection.movies)
+        all_movies.extend(collection.titles)
 
-    return set([movie.imdb_id for movie in all_movies])
+    return set([movie["imdbId"] for movie in all_movies])
 
 
 add_director = directors.add

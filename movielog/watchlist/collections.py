@@ -7,6 +7,7 @@ import os
 import re
 from dataclasses import dataclass
 from glob import glob
+from pathlib import Path
 from typing import Sequence, TypedDict, cast
 
 import imdb
@@ -30,7 +31,7 @@ class Collection(object):
 class JsonCollection(TypedDict):
     name: str
     slug: str
-    movies: list[movies.JsonMovie]
+    titles: list[movies.JsonTitle]
 
 
 def add_movie(
@@ -90,13 +91,7 @@ def deserialize(file_path: str) -> Collection:
     return Collection(
         slug=json_collection["slug"],
         name=json_collection["name"],
-        titles=[
-            movies.JsonTitle(
-                imdbId=json_movie["imdb_id"],
-                title=json_movie["title"],
-            )
-            for json_movie in json_collection["movies"]
-        ],
+        titles=json_collection["titles"],
     )
 
 
