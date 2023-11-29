@@ -20,12 +20,41 @@ def deserialize(file_path: str) -> Writer:
     with open(file_path, "r") as json_file:
         json_person = cast(person.JsonPerson, json.load(json_file))
 
+    json_titles = []
+
+    if "titles" in json_person.keys():
+        json_titles = json_person["titles"]
+
+    excluded_titles = []
+    imdb_id = ""
+    # imdb_id = json_person["imdbIds"]
+
+    # if len(imdb_id) == 1:
+    #     imdb_id = imdb_id[0]
+
+    if "imdb_id" in json_person.keys():
+        imdb_id = json_person["imdb_id"]
+    elif "imdbId" in json_person.keys():
+        imdb_id = json_person["imdbId"]
+    # else:
+    #     imdb_ids = json_person["imdbIds"]
+
+    if "excludedTitles" in json_person.keys():
+        excluded_titles = [
+            movies.JsonExcludedTitle(
+                imdbId=json_excluded_title["imdbId"],
+                title=json_excluded_title["title"],
+                reason=json_excluded_title["reason"],
+            )
+            for json_excluded_title in json_person["excludedTitles"]
+        ]
+
     return Writer(
-        imdb_id=json_person["imdb_id"],
-        frozen=json_person["frozen"],
+        imdbId=imdb_id,
         slug=json_person["slug"],
         name=json_person["name"],
-        titles=movies.deserialize(json_person["movies"]),
+        titles=json_titles,
+        excludedTitles=excluded_titles,
     )
 
 
@@ -43,15 +72,31 @@ def movies_for_writer(person_imdb_id: str, name: str) -> list[movies.Movie]:
     return filmography.for_writer(person_imdb_id)
 
 
+# def refresh_movies() -> None:
+#     writers = deserialize_all()
+#     for writer in writers:
+#         if writer.frozen:
+#             continue
+#         writer_copy = copy.deepcopy(writer)
+#         writer_copy.titles = movies_for_writer(writer_copy.imdb_id, writer_copy.name)
+
+#         serializer.serialize(writer_copy)
+
+
 def refresh_movies() -> None:
     writers = deserialize_all()
     for writer in writers:
-        if writer.frozen:
-            continue
-        writer_copy = copy.deepcopy(writer)
-        writer_copy.titles = movies_for_writer(writer_copy.imdb_id, writer_copy.name)
+        # if director.frozen:
+        #     continue
+        logger.log(
+            "==== Begin getting {} credits for {}...",
+            "writer",
+            writer.name,
+        )
 
-        serializer.serialize(writer_copy)
+        writer = filmography.for_writer(writer)
+
+        serializer.serialize(writer, writer.folder_name)
 
 
 def add(imdb_id: str, name: str) -> Writer:

@@ -1,446 +1,322 @@
 {
-  "frozen": true,
   "name": "Cary Grant",
   "slug": "cary-grant",
-  "imdb_id": "nm0000026",
-  "movies": [
+  "imdbId": "nm0000026",
+  "titles": [
     {
-      "title": "This Is the Night",
-      "year": 1932,
-      "imdb_id": "tt0023584",
-      "notes": "Stephen Mathewson"
+      "imdbId": "tt0022814",
+      "title": "Devil and the Deep (1932)"
     },
     {
-      "title": "Sinners in the Sun",
-      "year": 1932,
-      "imdb_id": "tt0023479",
-      "notes": "Ridgeway"
+      "imdbId": "tt0022698",
+      "title": "Blonde Venus (1932)"
     },
     {
-      "title": "Merrily We Go to Hell",
-      "year": 1932,
-      "imdb_id": "tt0023213",
-      "notes": "Charlie Baxter"
+      "imdbId": "tt0023479",
+      "title": "Sinners in the Sun (1932)"
     },
     {
-      "title": "Devil and the Deep",
-      "year": 1932,
-      "imdb_id": "tt0022814",
-      "notes": "Lt. Jaeckel"
+      "imdbId": "tt0023213",
+      "title": "Merrily We Go to Hell (1932)"
     },
     {
-      "title": "Blonde Venus",
-      "year": 1932,
-      "imdb_id": "tt0022698",
-      "notes": "Nick Townsend"
+      "imdbId": "tt0023584",
+      "title": "This Is the Night (1932)"
     },
     {
-      "title": "Hot Saturday",
-      "year": 1932,
-      "imdb_id": "tt0023028",
-      "notes": "Romer Sheffield"
+      "imdbId": "tt0023169",
+      "title": "Madame Butterfly (1932)"
     },
     {
-      "title": "Madame Butterfly",
-      "year": 1932,
-      "imdb_id": "tt0023169",
-      "notes": "Lieutenant B.F. Pinkerton"
+      "imdbId": "tt0023028",
+      "title": "Hot Saturday (1932)"
     },
     {
-      "title": "She Done Him Wrong",
-      "year": 1933,
-      "imdb_id": "tt0024548",
-      "notes": "Captain Cummings"
+      "imdbId": "tt0023753",
+      "title": "Alice in Wonderland (1933)"
     },
     {
-      "title": "The Woman Accused",
-      "year": 1933,
-      "imdb_id": "tt0024781",
-      "notes": "Jeffrey Baxter"
+      "imdbId": "tt0023973",
+      "title": "The Eagle and the Hawk (1933)"
     },
     {
-      "title": "The Eagle and the Hawk",
-      "year": 1933,
-      "imdb_id": "tt0023973",
-      "notes": "Henry Crocker"
+      "imdbId": "tt0024048",
+      "title": "Gambling Ship (1933)"
     },
     {
-      "title": "Gambling Ship",
-      "year": 1933,
-      "imdb_id": "tt0024048",
-      "notes": "Ace Corbin"
+      "imdbId": "tt0024781",
+      "title": "The Woman Accused (1933)"
     },
     {
-      "title": "I'm No Angel",
-      "year": 1933,
-      "imdb_id": "tt0024166",
-      "notes": "Jack Clayton"
+      "imdbId": "tt0024166",
+      "title": "I'm No Angel (1933)"
     },
     {
-      "title": "Alice in Wonderland",
-      "year": 1933,
-      "imdb_id": "tt0023753",
-      "notes": "Mock Turtle"
+      "imdbId": "tt0024548",
+      "title": "She Done Him Wrong (1933)"
     },
     {
-      "title": "Thirty Day Princess",
-      "year": 1934,
-      "imdb_id": "tt0025880",
-      "notes": "Porter Madison III"
+      "imdbId": "tt0025880",
+      "title": "Thirty Day Princess (1934)"
     },
     {
-      "title": "Born to Be Bad",
-      "year": 1934,
-      "imdb_id": "tt0024906",
-      "notes": "Malcolm Trevor"
+      "imdbId": "tt0024906",
+      "title": "Born to Be Bad (1934)"
     },
     {
-      "title": "Kiss and Make-Up",
-      "year": 1934,
-      "imdb_id": "tt0025351",
-      "notes": "Dr. Maurice Lamar"
+      "imdbId": "tt0025351",
+      "title": "Kiss and Make-Up (1934)"
     },
     {
-      "title": "Ladies Should Listen",
-      "year": 1934,
-      "imdb_id": "tt0025363",
-      "notes": "Julian De Lussac"
+      "imdbId": "tt0025363",
+      "title": "Ladies Should Listen (1934)"
     },
     {
-      "title": "Enter Madame!",
-      "year": 1935,
-      "imdb_id": "tt0026315",
-      "notes": "Gerald Fitzgerald"
+      "imdbId": "tt0026315",
+      "title": "Enter Madame! (1934)"
     },
     {
-      "title": "Wings in the Dark",
-      "year": 1935,
-      "imdb_id": "tt0027221",
-      "notes": "Ken Gordon"
+      "imdbId": "tt0027067",
+      "title": "Sylvia Scarlett (1935)"
     },
     {
-      "title": "The Last Outpost",
-      "year": 1935,
-      "imdb_id": "tt0026607",
-      "notes": "Michael Andrews"
+      "imdbId": "tt0027221",
+      "title": "Wings in the Dark (1935)"
     },
     {
-      "title": "Sylvia Scarlett",
-      "year": 1935,
-      "imdb_id": "tt0027067",
-      "notes": "Jimmy Monkley"
+      "imdbId": "tt0026607",
+      "title": "The Last Outpost (1935)"
     },
     {
-      "title": "Big Brown Eyes",
-      "year": 1936,
-      "imdb_id": "tt0027357",
-      "notes": "Danny Barr"
+      "imdbId": "tt0028330",
+      "title": "Suzy (1936)"
     },
     {
-      "title": "Suzy",
-      "year": 1936,
-      "imdb_id": "tt0028330",
-      "notes": "Andre Charville"
+      "imdbId": "tt0027357",
+      "title": "Big Brown Eyes (1936)"
     },
     {
-      "title": "The Amazing Adventure",
-      "year": 1936,
-      "imdb_id": "tt0027286",
-      "notes": "Ernest Bliss"
+      "imdbId": "tt0028486",
+      "title": "Wedding Present (1936)"
     },
     {
-      "title": "Wedding Present",
-      "year": 1936,
-      "imdb_id": "tt0028486",
-      "notes": "Charlie Mason"
+      "imdbId": "tt0027286",
+      "title": "The Amazing Adventure (1936)"
     },
     {
-      "title": "When You're in Love",
-      "year": 1937,
-      "imdb_id": "tt0029761",
-      "notes": "Jimmy Hudson"
+      "imdbId": "tt0029682",
+      "title": "Topper (1937)"
     },
     {
-      "title": "Topper",
-      "year": 1937,
-      "imdb_id": "tt0029682",
-      "notes": "George Kerby"
+      "imdbId": "tt0029675",
+      "title": "The Toast of New York (1937)"
     },
     {
-      "title": "The Toast of New York",
-      "year": 1937,
-      "imdb_id": "tt0029675",
-      "notes": "Nick Boyd"
+      "imdbId": "tt0028597",
+      "title": "The Awful Truth (1937)"
     },
     {
-      "title": "The Awful Truth",
-      "year": 1937,
-      "imdb_id": "tt0028597",
-      "notes": "Jerry Warriner"
+      "imdbId": "tt0029761",
+      "title": "When You're in Love (1937)"
     },
     {
-      "title": "Bringing Up Baby",
-      "year": 1938,
-      "imdb_id": "tt0029947",
-      "notes": "David"
+      "imdbId": "tt0029947",
+      "title": "Bringing Up Baby (1938)"
     },
     {
-      "title": "Holiday",
-      "year": 1938,
-      "imdb_id": "tt0030241",
-      "notes": "Johnny Case"
+      "imdbId": "tt0030241",
+      "title": "Holiday (1938)"
     },
     {
-      "title": "Gunga Din",
-      "year": 1939,
-      "imdb_id": "tt0031398",
-      "notes": "Cutter"
+      "imdbId": "tt0031398",
+      "title": "Gunga Din (1939)"
     },
     {
-      "title": "Only Angels Have Wings",
-      "year": 1939,
-      "imdb_id": "tt0031762",
-      "notes": "Geoff Carter"
+      "imdbId": "tt0031762",
+      "title": "Only Angels Have Wings (1939)"
     },
     {
-      "title": "In Name Only",
-      "year": 1939,
-      "imdb_id": "tt0031477",
-      "notes": "Alec Walker"
+      "imdbId": "tt0031477",
+      "title": "In Name Only (1939)"
     },
     {
-      "title": "His Girl Friday",
-      "year": 1940,
-      "imdb_id": "tt0032599",
-      "notes": "Walter Burns"
+      "imdbId": "tt0032612",
+      "title": "The Howards of Virginia (1940)"
     },
     {
-      "title": "My Favorite Wife",
-      "year": 1940,
-      "imdb_id": "tt0029284",
-      "notes": "Nick Arden"
+      "imdbId": "tt0032904",
+      "title": "The Philadelphia Story (1940)"
     },
     {
-      "title": "The Howards of Virginia",
-      "year": 1940,
-      "imdb_id": "tt0032612",
-      "notes": "Matt Howard"
+      "imdbId": "tt0032599",
+      "title": "His Girl Friday (1940)"
     },
     {
-      "title": "The Philadelphia Story",
-      "year": 1940,
-      "imdb_id": "tt0032904",
-      "notes": "C. K. Dexter Haven"
+      "imdbId": "tt0029284",
+      "title": "My Favorite Wife (1940)"
     },
     {
-      "title": "Penny Serenade",
-      "year": 1941,
-      "imdb_id": "tt0034012",
-      "notes": "Roger Adams"
+      "imdbId": "tt0034248",
+      "title": "Suspicion (1941)"
     },
     {
-      "title": "Suspicion",
-      "year": 1941,
-      "imdb_id": "tt0034248",
-      "notes": "Johnnie Aysgarth"
+      "imdbId": "tt0034012",
+      "title": "Penny Serenade (1941)"
     },
     {
-      "title": "The Talk of the Town",
-      "year": 1942,
-      "imdb_id": "tt0035417",
-      "notes": "Leopold Dilg"
+      "imdbId": "tt0035417",
+      "title": "The Talk of the Town (1942)"
     },
     {
-      "title": "Once Upon a Honeymoon",
-      "year": 1942,
-      "imdb_id": "tt0035151",
-      "notes": "Patrick O'Toole"
+      "imdbId": "tt0035151",
+      "title": "Once Upon a Honeymoon (1942)"
     },
     {
-      "title": "Mr. Lucky",
-      "year": 1943,
-      "imdb_id": "tt0036174",
-      "notes": "Joe Adams -posing as Joe Bascopolous"
+      "imdbId": "tt0035799",
+      "title": "Destination Tokyo (1943)"
     },
     {
-      "title": "Destination Tokyo",
-      "year": 1943,
-      "imdb_id": "tt0035799",
-      "notes": "Capt. Cassidy"
+      "imdbId": "tt0036174",
+      "title": "Mr. Lucky (1943)"
     },
     {
-      "title": "Once Upon a Time",
-      "year": 1944,
-      "imdb_id": "tt0037150",
-      "notes": "Jerry Flynn"
+      "imdbId": "tt0037150",
+      "title": "Once Upon a Time (1944)"
     },
     {
-      "title": "Arsenic and Old Lace",
-      "year": 1944,
-      "imdb_id": "tt0036613",
-      "notes": "Mortimer Brewster"
+      "imdbId": "tt0036613",
+      "title": "Arsenic and Old Lace (1944)"
     },
     {
-      "title": "None But the Lonely Heart",
-      "year": 1944,
-      "imdb_id": "tt0037135",
-      "notes": "Ernie Mott"
+      "imdbId": "tt0037135",
+      "title": "None But the Lonely Heart (1944)"
     },
     {
-      "title": "Without Reservations",
-      "year": 1946,
-      "imdb_id": "tt0039110",
-      "notes": "Cary Grant (uncredited)"
+      "imdbId": "tt0038787",
+      "title": "Notorious (1946)"
     },
     {
-      "title": "Night and Day",
-      "year": 1946,
-      "imdb_id": "tt0038776",
-      "notes": "Cole Porter"
+      "imdbId": "tt0038776",
+      "title": "Night and Day (1946)"
     },
     {
-      "title": "Notorious",
-      "year": 1946,
-      "imdb_id": "tt0038787",
-      "notes": "Devlin"
+      "imdbId": "tt0039190",
+      "title": "The Bishop's Wife (1947)"
     },
     {
-      "title": "The Bachelor and the Bobby-Soxer",
-      "year": 1947,
-      "imdb_id": "tt0039169",
-      "notes": "Dick Nugent"
+      "imdbId": "tt0039169",
+      "title": "The Bachelor and the Bobby-Soxer (1947)"
     },
     {
-      "title": "The Bishop's Wife",
-      "year": 1947,
-      "imdb_id": "tt0039190",
-      "notes": "Dudley"
+      "imdbId": "tt0040613",
+      "title": "Mr. Blandings Builds His Dream House (1948)"
     },
     {
-      "title": "Mr. Blandings Builds His Dream House",
-      "year": 1948,
-      "imdb_id": "tt0040613",
-      "notes": "Jim Blandings"
+      "imdbId": "tt0040331",
+      "title": "Every Girl Should Be Married (1948)"
     },
     {
-      "title": "Every Girl Should Be Married",
-      "year": 1948,
-      "imdb_id": "tt0040331",
-      "notes": "Dr. Madison Brown"
+      "imdbId": "tt0041498",
+      "title": "I Was a Male War Bride (1949)"
     },
     {
-      "title": "I Was a Male War Bride",
-      "year": 1949,
-      "imdb_id": "tt0041498",
-      "notes": "Captain Henri Rochard"
+      "imdbId": "tt0042352",
+      "title": "Crisis (1950)"
     },
     {
-      "title": "Crisis",
-      "year": 1950,
-      "imdb_id": "tt0042352",
-      "notes": "Dr. Eugene Norland Ferguson"
+      "imdbId": "tt0043915",
+      "title": "People Will Talk (1951)"
     },
     {
-      "title": "People Will Talk",
-      "year": 1951,
-      "imdb_id": "tt0043915",
-      "notes": "Dr. Noah Praetorius"
+      "imdbId": "tt0044916",
+      "title": "Monkey Business (1952)"
     },
     {
-      "title": "Room for One More",
-      "year": 1952,
-      "imdb_id": "tt0045102",
-      "notes": "George Rose"
+      "imdbId": "tt0045102",
+      "title": "Room for One More (1952)"
     },
     {
-      "title": "Monkey Business",
-      "year": 1952,
-      "imdb_id": "tt0044916",
-      "notes": "Dr. Barnaby Fulton"
+      "imdbId": "tt0045706",
+      "title": "Dream Wife (1953)"
     },
     {
-      "title": "Dream Wife",
-      "year": 1953,
-      "imdb_id": "tt0045706",
-      "notes": "Clemson Reade"
+      "imdbId": "tt0048728",
+      "title": "To Catch a Thief (1955)"
     },
     {
-      "title": "To Catch a Thief",
-      "year": 1955,
-      "imdb_id": "tt0048728",
-      "notes": "John Robie"
+      "imdbId": "tt0050105",
+      "title": "An Affair to Remember (1957)"
     },
     {
-      "title": "The Pride and the Passion",
-      "year": 1957,
-      "imdb_id": "tt0050858",
-      "notes": "Anthony"
+      "imdbId": "tt0050858",
+      "title": "The Pride and the Passion (1957)"
     },
     {
-      "title": "An Affair to Remember",
-      "year": 1957,
-      "imdb_id": "tt0050105",
-      "notes": "Nickie Ferrante"
+      "imdbId": "tt0050599",
+      "title": "Kiss Them for Me (1957)"
     },
     {
-      "title": "Kiss Them for Me",
-      "year": 1957,
-      "imdb_id": "tt0050599",
-      "notes": "Cmdr. Andy Crewson"
+      "imdbId": "tt0051745",
+      "title": "Houseboat (1958)"
     },
     {
-      "title": "Indiscreet",
-      "year": 1958,
-      "imdb_id": "tt0051773",
-      "notes": "Philip Adams"
+      "imdbId": "tt0051773",
+      "title": "Indiscreet (1958)"
     },
     {
-      "title": "Houseboat",
-      "year": 1958,
-      "imdb_id": "tt0051745",
-      "notes": "Tom Winters"
+      "imdbId": "tt0053125",
+      "title": "North by Northwest (1959)"
     },
     {
-      "title": "North by Northwest",
-      "year": 1959,
-      "imdb_id": "tt0053125",
-      "notes": "Roger Thornhill"
+      "imdbId": "tt0053143",
+      "title": "Operation Petticoat (1959)"
     },
     {
-      "title": "Operation Petticoat",
-      "year": 1959,
-      "imdb_id": "tt0053143",
-      "notes": "Lt. Cmdr. Matt T. Sherman"
+      "imdbId": "tt0053877",
+      "title": "The Grass Is Greener (1960)"
     },
     {
-      "title": "The Grass Is Greener",
-      "year": 1960,
-      "imdb_id": "tt0053877",
-      "notes": "Victor Rhyall, Earl"
+      "imdbId": "tt0056575",
+      "title": "That Touch of Mink (1962)"
     },
     {
-      "title": "That Touch of Mink",
-      "year": 1962,
-      "imdb_id": "tt0056575",
-      "notes": "Philip Shayne"
+      "imdbId": "tt0056923",
+      "title": "Charade (1963)"
     },
     {
-      "title": "Charade",
-      "year": 1963,
-      "imdb_id": "tt0056923",
-      "notes": "Peter Joshua"
+      "imdbId": "tt0058092",
+      "title": "Father Goose (1964)"
     },
     {
-      "title": "Father Goose",
-      "year": 1964,
-      "imdb_id": "tt0058092",
-      "notes": "Walter"
+      "imdbId": "tt0061170",
+      "title": "Walk Don't Run (1966)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0022387",
+      "title": "Singapore Sue (1932)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0026870",
+      "title": "Pirate Party on Catalina Isle (1935)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2125669",
+      "title": "The Shining Future (1944)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0186497",
+      "title": "The Road to Victory (1944)",
+      "reason": "Short"
     },
     {
-      "title": "Walk Don't Run",
-      "year": 1966,
-      "imdb_id": "tt0061170",
-      "notes": "Sir William Rutland"
+      "imdbId": "tt0039110",
+      "title": "Without Reservations (1946)",
+      "reason": "(uncredited)"
     }
   ]
 }

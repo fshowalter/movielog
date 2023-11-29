@@ -1,242 +1,311 @@
 {
-  "frozen": true,
   "name": "Dean Martin",
   "slug": "dean-martin",
-  "imdb_id": "nm0001509",
-  "movies": [
+  "imdbId": "nm0001509",
+  "titles": [
     {
-      "title": "Ten Thousand Bedrooms",
-      "year": 1957,
-      "imdb_id": "tt0051066",
-      "notes": "Ray Hunter"
+      "imdbId": "tt0051066",
+      "title": "Ten Thousand Bedrooms (1957)"
     },
     {
-      "title": "The Young Lions",
-      "year": 1958,
-      "imdb_id": "tt0052415",
-      "notes": "Michael Whiteacre"
+      "imdbId": "tt0052218",
+      "title": "Some Came Running (1958)"
     },
     {
-      "title": "Some Came Running",
-      "year": 1958,
-      "imdb_id": "tt0052218",
-      "notes": "Bama Dillert"
+      "imdbId": "tt0052415",
+      "title": "The Young Lions (1958)"
     },
     {
-      "title": "Rio Bravo",
-      "year": 1959,
-      "imdb_id": "tt0053221",
-      "notes": "Dude ('Borrach\u00f3n')"
+      "imdbId": "tt0053221",
+      "title": "Rio Bravo (1959)"
     },
     {
-      "title": "Career",
-      "year": 1959,
-      "imdb_id": "tt0052673",
-      "notes": "Maurice 'Maury' Novak"
+      "imdbId": "tt0052673",
+      "title": "Career (1959)"
     },
     {
-      "title": "Who Was That Lady?",
-      "year": 1960,
-      "imdb_id": "tt0054473",
-      "notes": "Michael Haney"
+      "imdbId": "tt0054172",
+      "title": "Pepe (1960)"
     },
     {
-      "title": "Bells Are Ringing",
-      "year": 1960,
-      "imdb_id": "tt0053645",
-      "notes": "Jeffrey Moss"
+      "imdbId": "tt0054473",
+      "title": "Who Was That Lady? (1960)"
     },
     {
-      "title": "Ocean's 11",
-      "year": 1960,
-      "imdb_id": "tt0054135",
-      "notes": "Sam Harmon"
+      "imdbId": "tt0054135",
+      "title": "Ocean's Eleven (1960)"
     },
     {
-      "title": "Pepe",
-      "year": 1960,
-      "imdb_id": "tt0054172",
-      "notes": "Dean Martin"
+      "imdbId": "tt0053645",
+      "title": "Bells Are Ringing (1960)"
     },
     {
-      "title": "All in a Night's Work",
-      "year": 1961,
-      "imdb_id": "tt0054615",
-      "notes": "Tony Ryder"
+      "imdbId": "tt0054601",
+      "title": "Ada (1961)"
     },
     {
-      "title": "Ada",
-      "year": 1961,
-      "imdb_id": "tt0054601",
-      "notes": "Bo Gillis"
+      "imdbId": "tt0054615",
+      "title": "All in a Night's Work (1961)"
     },
     {
-      "title": "Sergeants 3",
-      "year": 1962,
-      "imdb_id": "tt0056470",
-      "notes": "Sgt. Chip Deal"
+      "imdbId": "tt0056691",
+      "title": "Who's Got the Action? (1962)"
     },
     {
-      "title": "The Road to Hong Kong",
-      "year": 1962,
-      "imdb_id": "tt0056417",
-      "notes": "The 'Grape' on Plutomium (uncredited)"
+      "imdbId": "tt0056470",
+      "title": "Sergeants 3 (1962)"
     },
     {
-      "title": "Who's Got the Action?",
-      "year": 1962,
-      "imdb_id": "tt0056691",
-      "notes": "Steve Flood"
+      "imdbId": "tt0057071",
+      "title": "4 for Texas (1963)"
     },
     {
-      "title": "Come Blow Your Horn",
-      "year": 1963,
-      "imdb_id": "tt0056940",
-      "notes": "The Bum (uncredited)"
+      "imdbId": "tt0057682",
+      "title": "Who's Been Sleeping in My Bed? (1963)"
     },
     {
-      "title": "Toys in the Attic",
-      "year": 1963,
-      "imdb_id": "tt0057598",
-      "notes": "Julian Berniers"
+      "imdbId": "tt0057598",
+      "title": "Toys in the Attic (1963)"
     },
     {
-      "title": "4 for Texas",
-      "year": 1963,
-      "imdb_id": "tt0057071",
-      "notes": "Joe Jarrett"
+      "imdbId": "tt0058529",
+      "title": "Robin and the 7 Hoods (1964)"
     },
     {
-      "title": "Who's Been Sleeping in My Bed?",
-      "year": 1963,
-      "imdb_id": "tt0057682",
-      "notes": "Jason Steel"
+      "imdbId": "tt0058743",
+      "title": "What a Way to Go! (1964)"
     },
     {
-      "title": "What a Way to Go!",
-      "year": 1964,
-      "imdb_id": "tt0058743",
-      "notes": "Leonard 'Lennie' Crawley"
+      "imdbId": "tt0058265",
+      "title": "Kiss Me, Stupid (1964)"
     },
     {
-      "title": "Robin and the 7 Hoods",
-      "year": 1964,
-      "imdb_id": "tt0058529",
-      "notes": "John"
+      "imdbId": "tt0059431",
+      "title": "Marriage on the Rocks (1965)"
     },
     {
-      "title": "Kiss Me, Stupid",
-      "year": 1964,
-      "imdb_id": "tt0058265",
-      "notes": "Dino"
+      "imdbId": "tt0059740",
+      "title": "The Sons of Katie Elder (1965)"
     },
     {
-      "title": "The Sons of Katie Elder",
-      "year": 1965,
-      "imdb_id": "tt0059740",
-      "notes": "Tom Elder"
+      "imdbId": "tt0060728",
+      "title": "Murderers' Row (1966)"
     },
     {
-      "title": "Marriage on the Rocks",
-      "year": 1965,
-      "imdb_id": "tt0059431",
-      "notes": "Ernie Brewer"
+      "imdbId": "tt0060980",
+      "title": "The Silencers (1966)"
     },
     {
-      "title": "The Silencers",
-      "year": 1966,
-      "imdb_id": "tt0060980",
-      "notes": "Matt Helm"
+      "imdbId": "tt0061080",
+      "title": "Texas Across the River (1966)"
     },
     {
-      "title": "Birds Do It",
-      "year": 1966,
-      "imdb_id": "tt0060169",
-      "notes": "Golfer (uncredited)"
+      "imdbId": "tt0062218",
+      "title": "Rough Night in Jericho (1967)"
     },
     {
-      "title": "Texas Across the River",
-      "year": 1966,
-      "imdb_id": "tt0061080",
-      "notes": "Sam Hollis"
+      "imdbId": "tt0062657",
+      "title": "The Ambushers (1967)"
     },
     {
-      "title": "Murderers' Row",
-      "year": 1966,
-      "imdb_id": "tt0060728",
-      "notes": "Matt Helm"
+      "imdbId": "tt0065225",
+      "title": "The Wrecking Crew (1968)"
     },
     {
-      "title": "Rough Night in Jericho",
-      "year": 1967,
-      "imdb_id": "tt0062218",
-      "notes": "Alex Flood"
+      "imdbId": "tt0062708",
+      "title": "Bandolero! (1968)"
     },
     {
-      "title": "The Ambushers",
-      "year": 1967,
-      "imdb_id": "tt0062657",
-      "notes": "Matt Helm"
+      "imdbId": "tt0062626",
+      "title": "5 Card Stud (1968)"
     },
     {
-      "title": "How to Save a Marriage and Ruin Your Life",
-      "year": 1968,
-      "imdb_id": "tt0063102",
-      "notes": "David Sloane"
+      "imdbId": "tt0063102",
+      "title": "How to Save a Marriage and Ruin Your Life (1968)"
     },
     {
-      "title": "Bandolero!",
-      "year": 1968,
-      "imdb_id": "tt0062708",
-      "notes": "Dee Bishop"
+      "imdbId": "tt0262030",
+      "title": "Swing Out, Sweet Land (1970) (TV)"
     },
     {
-      "title": "5 Card Stud",
-      "year": 1968,
-      "imdb_id": "tt0062626",
-      "notes": "Van Morgan"
+      "imdbId": "tt0065377",
+      "title": "Airport (1970)"
     },
     {
-      "title": "The Wrecking Crew",
-      "year": 1968,
-      "imdb_id": "tt0065225",
-      "notes": "Matt Helm"
+      "imdbId": "tt0068022",
+      "title": "Something Big (1971)"
     },
     {
-      "title": "Airport",
-      "year": 1970,
-      "imdb_id": "tt0065377",
-      "notes": "Vernon Demerest"
+      "imdbId": "tt0070687",
+      "title": "Showdown (1973)"
     },
     {
-      "title": "Something Big",
-      "year": 1971,
-      "imdb_id": "tt0068022",
-      "notes": "Joe Baker"
+      "imdbId": "tt0073411",
+      "title": "Mr. Ricco (1975)"
     },
     {
-      "title": "Showdown",
-      "year": 1973,
-      "imdb_id": "tt0070687",
-      "notes": "Billy Massey"
+      "imdbId": "tt0082136",
+      "title": "The Cannonball Run (1981)"
     },
     {
-      "title": "Mr. Ricco",
-      "year": 1975,
-      "imdb_id": "tt0073411",
-      "notes": "Joe Ricco"
+      "imdbId": "tt0087032",
+      "title": "Cannonball Run II (1984)"
     },
     {
-      "title": "The Cannonball Run",
-      "year": 1981,
-      "imdb_id": "tt0082136",
-      "notes": "Jamie Blake"
+      "imdbId": "tt0089246",
+      "title": "Half Nelson (1985) (TV)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0362651",
+      "title": "Film Vodvil: Art Mooney and Orchestra (1946)",
+      "reason": "Short"
     },
     {
-      "title": "Cannonball Run II",
-      "year": 1984,
-      "imdb_id": "tt0087032",
-      "notes": "Jamie Blake"
+      "imdbId": "tt0041673",
+      "title": "My Friend Irma (1949)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0042209",
+      "title": "At War with the Army (1950)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0042769",
+      "title": "My Friend Irma Goes West (1950)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0045192",
+      "title": "The Stooge (1951)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0044119",
+      "title": "That's My Boy (1951)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0045094",
+      "title": "Road to Bali (1952)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0044774",
+      "title": "Jumping Jacks (1952)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0043989",
+      "title": "Sailor Beware (1952)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0045410",
+      "title": "\"The Danny Thomas Show\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046280",
+      "title": "Scared Stiff (1953)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0046087",
+      "title": "Money from Home (1953)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0045589",
+      "title": "The Caddy (1953)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0047582",
+      "title": "3 Ring Circus (1954)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0047184",
+      "title": "Living It Up (1954)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0047763",
+      "title": "\"The Phil Silvers Show\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047840",
+      "title": "Artists and Models (1955)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0048822",
+      "title": "You're Never Too Young (1955)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0049593",
+      "title": "Pardners (1956)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0049322",
+      "title": "Hollywood or Bust (1956)",
+      "reason": "Martin and Lewis"
+    },
+    {
+      "imdbId": "tt0052504",
+      "title": "\"Rawhide\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055686",
+      "title": "\"The Lucy Show\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0217055",
+      "title": "Something's Got to Give (1962)",
+      "reason": "abandoned"
+    },
+    {
+      "imdbId": "tt0056417",
+      "title": "The Road to Hong Kong (1962)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0056940",
+      "title": "Come Blow Your Horn (1963)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0060169",
+      "title": "Birds Do It (1966)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0073972",
+      "title": "\"Charlie's Angels\" (1976)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0077093",
+      "title": "\"Vega$\" (1978)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt29338300",
+      "title": "Dean Martin: Since I Met You Baby (1983)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0088530",
+      "title": "\"Half Nelson\" (1985)",
+      "reason": "tv series"
     }
   ]
 }

@@ -1,596 +1,940 @@
 {
-  "frozen": true,
   "name": "Boris Karloff",
   "slug": "boris-karloff",
-  "imdb_id": "nm0000472",
-  "movies": [
+  "imdbId": "nm0000472",
+  "titles": [
     {
-      "title": "Behind That Curtain",
-      "year": 1929,
-      "imdb_id": "tt0019684",
-      "notes": "Beetham's Manservant"
+      "imdbId": "tt0019684",
+      "title": "Behind That Curtain (1929)"
     },
     {
-      "title": "The Unholy Night",
-      "year": 1929,
-      "imdb_id": "tt0020534",
-      "notes": "Abdul Mohammed Bey - the Hindu Lawyer (uncredited)"
+      "imdbId": "tt0021345",
+      "title": "The Sea Bat (1930)"
     },
     {
-      "title": "The Bad One",
-      "year": 1930,
-      "imdb_id": "tt0020663",
-      "notes": "Monsieur Gaston"
+      "imdbId": "tt0021509",
+      "title": "The Utah Kid (1930)"
     },
     {
-      "title": "The Sea Bat",
-      "year": 1930,
-      "imdb_id": "tt0021345",
-      "notes": "Corsican"
+      "imdbId": "tt0020663",
+      "title": "The Bad One (1930)"
     },
     {
-      "title": "The Utah Kid",
-      "year": 1930,
-      "imdb_id": "tt0021509",
-      "notes": "Baxter - Henchman"
+      "imdbId": "tt0021770",
+      "title": "The Criminal Code (1930)"
     },
     {
-      "title": "The Criminal Code",
-      "year": 1930,
-      "imdb_id": "tt0021770",
-      "notes": "Galloway"
+      "imdbId": "tt0021768",
+      "title": "Cracked Nuts (1931)"
     },
     {
-      "title": "Cracked Nuts",
-      "year": 1931,
-      "imdb_id": "tt0021768",
-      "notes": "Boris - First Revolutionary"
+      "imdbId": "tt0022028",
+      "title": "King of the Wild (1931)"
     },
     {
-      "title": "Young Donovan's Kid",
-      "year": 1931,
-      "imdb_id": "tt0022589",
-      "notes": "Cokey Joe"
+      "imdbId": "tt0021926",
+      "title": "Graft (1931)"
     },
     {
-      "title": "Smart Money",
-      "year": 1931,
-      "imdb_id": "tt0022403",
-      "notes": "Sport Williams (uncredited)"
+      "imdbId": "tt0021884",
+      "title": "Frankenstein (1931)"
     },
     {
-      "title": "The Public Defender",
-      "year": 1931,
-      "imdb_id": "tt0022285",
-      "notes": "The Professor"
+      "imdbId": "tt0021986",
+      "title": "I Like Your Nerve (1931)"
     },
     {
-      "title": "Five Star Final",
-      "year": 1931,
-      "imdb_id": "tt0021873",
-      "notes": "T. Vernon Isopod"
+      "imdbId": "tt0022589",
+      "title": "Young Donovan's Kid (1931)"
     },
     {
-      "title": "I Like Your Nerve",
-      "year": 1931,
-      "imdb_id": "tt0021986",
-      "notes": "Luigi - Pacheco's Butler"
+      "imdbId": "tt0022489",
+      "title": "Tonight or Never (1931)"
     },
     {
-      "title": "Graft",
-      "year": 1931,
-      "imdb_id": "tt0021926",
-      "notes": "'Terry'"
+      "imdbId": "tt0021932",
+      "title": "The Guilty Generation (1931)"
     },
     {
-      "title": "The Yellow Ticket",
-      "year": 1931,
-      "imdb_id": "tt0022582",
-      "notes": "Drunken Orderly (uncredited)"
+      "imdbId": "tt0021873",
+      "title": "Five Star Final (1931)"
     },
     {
-      "title": "The Mad Genius",
-      "year": 1931,
-      "imdb_id": "tt0022103",
-      "notes": "Fedor's Father (uncredited)"
+      "imdbId": "tt0022285",
+      "title": "The Public Defender (1931)"
     },
     {
-      "title": "The Guilty Generation",
-      "year": 1931,
-      "imdb_id": "tt0021932",
-      "notes": "Tony Ricca"
+      "imdbId": "tt0023194",
+      "title": "The Mask of Fu Manchu (1932)"
     },
     {
-      "title": "Frankenstein",
-      "year": 1931,
-      "imdb_id": "tt0021884",
-      "notes": "The Monster (as Boris Karloff)"
+      "imdbId": "tt0022770",
+      "title": "The Cohens and Kellys in Hollywood (1932)"
     },
     {
-      "title": "Tonight or Never",
-      "year": 1931,
-      "imdb_id": "tt0022489",
-      "notes": "Waiter"
+      "imdbId": "tt0023427",
+      "title": "Scarface (1932)"
     },
     {
-      "title": "Business and Pleasure",
-      "year": 1932,
-      "imdb_id": "tt0021702",
-      "notes": "Sheik Ali Ben Joseph (uncredited)"
+      "imdbId": "tt0023293",
+      "title": "The Old Dark House (1932)"
     },
     {
-      "title": "Behind the Mask",
-      "year": 1932,
-      "imdb_id": "tt0022663",
-      "notes": "Jim Henderson"
+      "imdbId": "tt0023271",
+      "title": "Night World (1932)"
     },
     {
-      "title": "Scarface",
-      "year": 1932,
-      "imdb_id": "tt0023427",
-      "notes": "Tom Gaffney"
+      "imdbId": "tt0023245",
+      "title": "The Mummy (1932)"
     },
     {
-      "title": "The Miracle Man",
-      "year": 1932,
-      "imdb_id": "tt0023228",
-      "notes": "Nikko"
+      "imdbId": "tt0023228",
+      "title": "The Miracle Man (1932)"
     },
     {
-      "title": "Night World",
-      "year": 1932,
-      "imdb_id": "tt0023271",
-      "notes": "'Happy' MacDonald"
+      "imdbId": "tt0022663",
+      "title": "Behind the Mask (1932)"
     },
     {
-      "title": "The Old Dark House",
-      "year": 1932,
-      "imdb_id": "tt0023293",
-      "notes": "Morgan"
+      "imdbId": "tt0024055",
+      "title": "The Ghoul (1933)"
     },
     {
-      "title": "The Mask of Fu Manchu",
-      "year": 1932,
-      "imdb_id": "tt0023194",
-      "notes": "Dr. Fu Manchu"
+      "imdbId": "tt0025272",
+      "title": "The House of Rothschild (1934)"
     },
     {
-      "title": "The Mummy",
-      "year": 1932,
-      "imdb_id": "tt0023245",
-      "notes": "Imhotep"
+      "imdbId": "tt0025423",
+      "title": "The Lost Patrol (1934)"
     },
     {
-      "title": "The Ghoul",
-      "year": 1933,
-      "imdb_id": "tt0024055",
-      "notes": "Prof. Henry Morlant"
+      "imdbId": "tt0024894",
+      "title": "The Black Cat (1934)"
     },
     {
-      "title": "The Lost Patrol",
-      "year": 1934,
-      "imdb_id": "tt0025423",
-      "notes": "Sanders"
+      "imdbId": "tt0025170",
+      "title": "Gift of Gab (1934)"
     },
     {
-      "title": "The House of Rothschild",
-      "year": 1934,
-      "imdb_id": "tt0025272",
-      "notes": "Count Ledrantz"
+      "imdbId": "tt0026123",
+      "title": "The Black Room (1935)"
     },
     {
-      "title": "The Black Cat",
-      "year": 1934,
-      "imdb_id": "tt0024894",
-      "notes": "Hjalmar Poelzig (as Karloff)"
+      "imdbId": "tt0027800",
+      "title": "The Invisible Ray (1935)"
     },
     {
-      "title": "Gift of Gab",
-      "year": 1934,
-      "imdb_id": "tt0025170",
-      "notes": "The Phantom (as Karloff)"
+      "imdbId": "tt0026912",
+      "title": "The Raven (1935)"
     },
     {
-      "title": "The Bride of Frankenstein",
-      "year": 1935,
-      "imdb_id": "tt0026138",
-      "notes": "The Monster (as Karloff)"
+      "imdbId": "tt0026138",
+      "title": "The Bride of Frankenstein (1935)"
     },
     {
-      "title": "The Raven",
-      "year": 1935,
-      "imdb_id": "tt0026912",
-      "notes": "Edmond Bateman (as Karloff)"
+      "imdbId": "tt0027938",
+      "title": "The Man Who Lived Again (1936)"
     },
     {
-      "title": "The Black Room",
-      "year": 1935,
-      "imdb_id": "tt0026123",
-      "notes": "Baron Gregor de Berghman / Anton de Berghman"
+      "imdbId": "tt0027824",
+      "title": "Juggernaut (1936)"
     },
     {
-      "title": "The Invisible Ray",
-      "year": 1936,
-      "imdb_id": "tt0027800",
-      "notes": "Dr. Janos Rukh (as Karloff)"
+      "imdbId": "tt0027440",
+      "title": "Charlie Chan at the Opera (1936)"
     },
     {
-      "title": "The Walking Dead",
-      "year": 1936,
-      "imdb_id": "tt0028478",
-      "notes": "John Ellman"
+      "imdbId": "tt0028478",
+      "title": "The Walking Dead (1936)"
     },
     {
-      "title": "Juggernaut",
-      "year": 1936,
-      "imdb_id": "tt0027824",
-      "notes": "Doctor Sartorius"
+      "imdbId": "tt0029309",
+      "title": "Night Key (1937)"
     },
     {
-      "title": "The Man Who Lived Again",
-      "year": 1936,
-      "imdb_id": "tt0027938",
-      "notes": "Dr. Laurience / Dick Haslewood"
+      "imdbId": "tt0029754",
+      "title": "West of Shanghai (1937)"
     },
     {
-      "title": "Charlie Chan at the Opera",
-      "year": 1936,
-      "imdb_id": "tt0027440",
-      "notes": "Gravelle"
+      "imdbId": "tt0032391",
+      "title": "Devil's Island (1938)"
     },
     {
-      "title": "Night Key",
-      "year": 1937,
-      "imdb_id": "tt0029309",
-      "notes": "David Mallory"
+      "imdbId": "tt0030277",
+      "title": "The Invisible Menace (1938)"
     },
     {
-      "title": "West of Shanghai",
-      "year": 1937,
-      "imdb_id": "tt0029754",
-      "notes": "Wu Yen Fang"
+      "imdbId": "tt0030473",
+      "title": "Mr. Wong, Detective (1938)"
     },
     {
-      "title": "The Invisible Menace",
-      "year": 1938,
-      "imdb_id": "tt0030277",
-      "notes": "Jevries"
+      "imdbId": "tt0031704",
+      "title": "The Mystery of Mr. Wong (1939)"
     },
     {
-      "title": "Mr. Wong, Detective",
-      "year": 1938,
-      "imdb_id": "tt0030473",
-      "notes": "Mr. James Lee Wong"
+      "imdbId": "tt0031951",
+      "title": "Son of Frankenstein (1939)"
     },
     {
-      "title": "Devil's Island",
-      "year": 1939,
-      "imdb_id": "tt0032391",
-      "notes": "Dr. Charles Gaudet"
+      "imdbId": "tt0031680",
+      "title": "Mr. Wong in Chinatown (1939)"
     },
     {
-      "title": "Son of Frankenstein",
-      "year": 1939,
-      "imdb_id": "tt0031951",
-      "notes": "The Monster"
+      "imdbId": "tt0032283",
+      "title": "British Intelligence (1939)"
     },
     {
-      "title": "The Mystery of Mr. Wong",
-      "year": 1939,
-      "imdb_id": "tt0031704",
-      "notes": "Mr. James Lee Wong"
+      "imdbId": "tt0032049",
+      "title": "Tower of London (1939)"
     },
     {
-      "title": "Mr. Wong in Chinatown",
-      "year": 1939,
-      "imdb_id": "tt0031680",
-      "notes": "James Lee Wong"
+      "imdbId": "tt0031614",
+      "title": "The Man They Could Not Hang (1939)"
     },
     {
-      "title": "The Man They Could Not Hang",
-      "year": 1939,
-      "imdb_id": "tt0031614",
-      "notes": "Dr. Henryk Savaard"
+      "imdbId": "tt0032404",
+      "title": "Doomed to Die (1940)"
     },
     {
-      "title": "Tower of London",
-      "year": 1939,
-      "imdb_id": "tt0032049",
-      "notes": "Mord"
+      "imdbId": "tt0032753",
+      "title": "The Man with Nine Lives (1940)"
     },
     {
-      "title": "The Fatal Hour",
-      "year": 1940,
-      "imdb_id": "tt0032457",
-      "notes": "James Lee Wong"
+      "imdbId": "tt0032457",
+      "title": "The Fatal Hour (1940)"
     },
     {
-      "title": "British Intelligence",
-      "year": 1940,
-      "imdb_id": "tt0032283",
-      "notes": "Valdar"
+      "imdbId": "tt0032258",
+      "title": "Black Friday (1940)"
     },
     {
-      "title": "Black Friday",
-      "year": 1940,
-      "imdb_id": "tt0032258",
-      "notes": "Dr. Ernest Sovac"
+      "imdbId": "tt0032215",
+      "title": "The Ape (1940)"
     },
     {
-      "title": "The Man with Nine Lives",
-      "year": 1940,
-      "imdb_id": "tt0032753",
-      "notes": "Dr. Leon Kravaal"
+      "imdbId": "tt0033283",
+      "title": "You'll Find Out (1940)"
     },
     {
-      "title": "Doomed to Die",
-      "year": 1940,
-      "imdb_id": "tt0032404",
-      "notes": "James Lee Wong"
+      "imdbId": "tt0032245",
+      "title": "Before I Hang (1940)"
     },
     {
-      "title": "Before I Hang",
-      "year": 1940,
-      "imdb_id": "tt0032245",
-      "notes": "Dr. John Garth"
+      "imdbId": "tt0033530",
+      "title": "The Devil Commands (1941)"
     },
     {
-      "title": "The Ape",
-      "year": 1940,
-      "imdb_id": "tt0032215",
-      "notes": "Dr. Bernard Adrian"
+      "imdbId": "tt0034540",
+      "title": "The Boogie Man Will Get You (1942)"
     },
     {
-      "title": "You'll Find Out",
-      "year": 1940,
-      "imdb_id": "tt0033283",
-      "notes": "Judge Spencer Mainwaring"
+      "imdbId": "tt0036715",
+      "title": "The Climax (1944)"
     },
     {
-      "title": "The Devil Commands",
-      "year": 1941,
-      "imdb_id": "tt0033530",
-      "notes": "Dr. Julian Blair"
+      "imdbId": "tt0036931",
+      "title": "House of Frankenstein (1944)"
     },
     {
-      "title": "The Boogie Man Will Get You",
-      "year": 1942,
-      "imdb_id": "tt0034540",
-      "notes": "Prof. Nathaniel Billings"
+      "imdbId": "tt0037820",
+      "title": "Isle of the Dead (1945)"
     },
     {
-      "title": "The Climax",
-      "year": 1944,
-      "imdb_id": "tt0036715",
-      "notes": "Dr. Friedrich Hohner"
+      "imdbId": "tt0037549",
+      "title": "The Body Snatcher (1945)"
     },
     {
-      "title": "House of Frankenstein",
-      "year": 1944,
-      "imdb_id": "tt0036931",
-      "notes": "Doctor Niemann"
+      "imdbId": "tt0038343",
+      "title": "Bedlam (1946)"
     },
     {
-      "title": "The Body Snatcher",
-      "year": 1945,
-      "imdb_id": "tt0037549",
-      "notes": "Cabman John Gray"
+      "imdbId": "tt0039589",
+      "title": "Lured (1947)"
     },
     {
-      "title": "Isle of the Dead",
-      "year": 1945,
-      "imdb_id": "tt0037820",
-      "notes": "Gen. Nikolas Pherides"
+      "imdbId": "tt0039931",
+      "title": "Unconquered (1947)"
     },
     {
-      "title": "Bedlam",
-      "year": 1946,
-      "imdb_id": "tt0038343",
-      "notes": "Master George Sims"
+      "imdbId": "tt0039808",
+      "title": "The Secret Life of Walter Mitty (1947)"
     },
     {
-      "title": "The Secret Life of Walter Mitty",
-      "year": 1947,
-      "imdb_id": "tt0039808",
-      "notes": "Dr. Hugo Hollingshead"
+      "imdbId": "tt0039320",
+      "title": "Dick Tracy Meets Gruesome (1947)"
     },
     {
-      "title": "Lured",
-      "year": 1947,
-      "imdb_id": "tt0039589",
-      "notes": "Charles van Druten"
+      "imdbId": "tt0040861",
+      "title": "Tap Roots (1948)"
     },
     {
-      "title": "Unconquered",
-      "year": 1947,
-      "imdb_id": "tt0039931",
-      "notes": "Guyasuta - Chief of the Senecas"
+      "imdbId": "tt0041085",
+      "title": "Bud Abbott Lou Costello Meet the Killer Boris Karloff (1949)"
     },
     {
-      "title": "Dick Tracy Meets Gruesome",
-      "year": 1947,
-      "imdb_id": "tt0039320",
-      "notes": "Gruesome"
+      "imdbId": "tt0044078",
+      "title": "The Strange Door (1951)"
     },
     {
-      "title": "Tap Roots",
-      "year": 1948,
-      "imdb_id": "tt0040861",
-      "notes": "Tishomingo"
+      "imdbId": "tt0044423",
+      "title": "The Black Castle (1952)"
     },
     {
-      "title": "The Emperor's Nightingale",
-      "year": 1949,
-      "imdb_id": "tt0043410",
-      "notes": "Narrator (English version) (English version, voice)"
+      "imdbId": "tt0045469",
+      "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde (1953)"
     },
     {
-      "title": "Bud Abbott Lou Costello Meet the Killer Boris Karloff",
-      "year": 1949,
-      "imdb_id": "tt0041085",
-      "notes": "Swami Talpur"
+      "imdbId": "tt0044505",
+      "title": "Colonel March Investigates (1953)"
     },
     {
-      "title": "The Strange Door",
-      "year": 1951,
-      "imdb_id": "tt0044078",
-      "notes": "Voltan"
+      "imdbId": "tt0048573",
+      "title": "Sabaka (1954)"
     },
     {
-      "title": "The Black Castle",
-      "year": 1952,
-      "imdb_id": "tt0044423",
-      "notes": "Dr. Meissen"
+      "imdbId": "tt0046097",
+      "title": "The Island Monster (1954)"
     },
     {
-      "title": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
-      "year": 1953,
-      "imdb_id": "tt0045469",
-      "notes": "Dr. Henry Jekyll / Mr. Hyde"
+      "imdbId": "tt0321754",
+      "title": "A Connecticut Yankee (1955) (TV)"
     },
     {
-      "title": "The Island Monster",
-      "year": 1954,
-      "imdb_id": "tt0046097",
-      "notes": "Don Gaetano"
+      "imdbId": "tt0051173",
+      "title": "Voodoo Island (1957)"
     },
     {
-      "title": "Sabaka",
-      "year": 1954,
-      "imdb_id": "tt0048573",
-      "notes": "Gen. Pollegar"
+      "imdbId": "tt0595392",
+      "title": "The Lark (1957) (TV)"
     },
     {
-      "title": "Voodoo Island",
-      "year": 1957,
-      "imdb_id": "tt0051173",
-      "notes": "Phillip Knight"
+      "imdbId": "tt0051542",
+      "title": "Corridors of Blood (1958)"
     },
     {
-      "title": "The Haunted Strangler",
-      "year": 1958,
-      "imdb_id": "tt0051706",
-      "notes": "James Rankin"
+      "imdbId": "tt0051630",
+      "title": "Frankenstein 1970 (1958)"
     },
     {
-      "title": "Frankenstein 1970",
-      "year": 1958,
-      "imdb_id": "tt0051630",
-      "notes": "Baron Victor von Frankenstein"
+      "imdbId": "tt0051706",
+      "title": "The Haunted Strangler (1958)"
     },
     {
-      "title": "Corridors of Blood",
-      "year": 1958,
-      "imdb_id": "tt0051542",
-      "notes": "Dr. Bolton"
+      "imdbId": "tt3711568",
+      "title": "Upgreen - And at 'Em (1960)"
     },
     {
-      "title": "The Raven",
-      "year": 1963,
-      "imdb_id": "tt0057449",
-      "notes": "Dr. Scarabus"
+      "imdbId": "tt0424425",
+      "title": "The Secret World of Eddie Hodges (1960) (TV)"
     },
     {
-      "title": "The Terror",
-      "year": 1963,
-      "imdb_id": "tt0057569",
-      "notes": "Baron Victor Frederick Von Leppe / Eric"
+      "imdbId": "tt0595267",
+      "title": "Arsenic & Old Lace (1962) (TV)"
     },
     {
-      "title": "Black Sabbath",
-      "year": 1963,
-      "imdb_id": "tt0057603",
-      "notes": "Gorca (segment \"I Wurdalak\")"
+      "imdbId": "tt0330743",
+      "title": "The Paradine Case (1962) (TV)"
     },
     {
-      "title": "The Comedy of Terrors",
-      "year": 1963,
-      "imdb_id": "tt0056943",
-      "notes": "Amos Hinchley"
+      "imdbId": "tt0056943",
+      "title": "The Comedy of Terrors (1963)"
     },
     {
-      "title": "Bikini Beach",
-      "year": 1964,
-      "imdb_id": "tt0057887",
-      "notes": "The Art Dealer"
+      "imdbId": "tt0057569",
+      "title": "The Terror (1963)"
     },
     {
-      "title": "Monster of Terror",
-      "year": 1965,
-      "imdb_id": "tt0059465",
-      "notes": "Nahum Witley"
+      "imdbId": "tt0057449",
+      "title": "The Raven (1963)"
     },
     {
-      "title": "The Ghost in the Invisible Bikini",
-      "year": 1966,
-      "imdb_id": "tt0060457",
-      "notes": "The Corpse"
+      "imdbId": "tt0057603",
+      "title": "Black Sabbath (1963)"
     },
     {
-      "title": "The Daydreamer",
-      "year": 1966,
-      "imdb_id": "tt0060283",
-      "notes": "The Rat (voice)"
+      "imdbId": "tt0057887",
+      "title": "Bikini Beach (1964)"
     },
     {
-      "title": "The Venetian Affair",
-      "year": 1966,
-      "imdb_id": "tt0062432",
-      "notes": "Dr. Pierre Vaugiroud"
+      "imdbId": "tt0059465",
+      "title": "Die, Monster, Die! (1965)"
     },
     {
-      "title": "Mad Monster Party?",
-      "year": 1967,
-      "imdb_id": "tt0061931",
-      "notes": "Baron Boris von Frankenstein (voice)"
+      "imdbId": "tt0062432",
+      "title": "The Venetian Affair (1966)"
     },
     {
-      "title": "The Sorcerers",
-      "year": 1967,
-      "imdb_id": "tt0062292",
-      "notes": "Prof. Marcus Monserrat"
+      "imdbId": "tt0060457",
+      "title": "The Ghost in the Invisible Bikini (1966)"
     },
     {
-      "title": "Targets",
-      "year": 1968,
-      "imdb_id": "tt0063671",
-      "notes": "Byron Orlok"
+      "imdbId": "tt0062292",
+      "title": "The Sorcerers (1967)"
     },
     {
-      "title": "The Snake People",
-      "year": 1968,
-      "imdb_id": "tt0062960",
-      "notes": "Dr. Karl Mantell"
+      "imdbId": "tt0062960",
+      "title": "Fear Chamber (1968)"
     },
     {
-      "title": "The Crimson Cult",
-      "year": 1968,
-      "imdb_id": "tt0062833",
-      "notes": "Professor John Marsh"
+      "imdbId": "tt0063097",
+      "title": "Macabre Serenade (1968)"
     },
     {
-      "title": "House of Evil",
-      "year": 1968,
-      "imdb_id": "tt0063097",
-      "notes": "Matthias Morteval"
+      "imdbId": "tt0062833",
+      "title": "The Crimson Cult (1968)"
     },
     {
-      "title": "Cauldron of Blood",
-      "year": 1970,
-      "imdb_id": "tt0061494",
-      "notes": "Franz Badulescu"
+      "imdbId": "tt0063671",
+      "title": "Targets (1968)"
     },
     {
-      "title": "Isle of the Snake People",
-      "year": 1971,
-      "imdb_id": "tt0063142",
-      "notes": "Carl van Molder / Damballah"
+      "imdbId": "tt0061494",
+      "title": "Cauldron of Blood (1968)"
     },
     {
-      "title": "Alien Terror",
-      "year": 1971,
-      "imdb_id": "tt0063132",
-      "notes": "Prof. John Mayer"
+      "imdbId": "tt0063142",
+      "title": "Isle of the Snake People (1971)"
+    },
+    {
+      "imdbId": "tt0063132",
+      "title": "Alien Terror (1971)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0010357",
+      "title": "The Lightning Raider (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010587",
+      "title": "The Prince and Betty (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010255",
+      "title": "His Majesty, the American (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010026",
+      "title": "The Courage of Marge O'Doone (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011387",
+      "title": "The Last of the Mohicans (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010058",
+      "title": "The Deadlier Sex (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012856",
+      "title": "Without Benefit of Clergy (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012039",
+      "title": "Cheated Hearts (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012293",
+      "title": "The Hope Diamond Mystery (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012034",
+      "title": "The Cave Girl (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013778",
+      "title": "The Woman Conquers (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012891",
+      "title": "The Altar Stairs (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013425",
+      "title": "Nan of the North (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013368",
+      "title": "The Man from Downing Street (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013451",
+      "title": "Omar the Tentmaker (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013267",
+      "title": "The Infidel (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014377",
+      "title": "The Prisoner (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014857",
+      "title": "Dynamite Dan (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0179520",
+      "title": "The White Panther (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014979",
+      "title": "The Hellion (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015277",
+      "title": "Riders of the Plains (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016150",
+      "title": "Never the Twain Shall Meet (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016543",
+      "title": "Without Mercy (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016214",
+      "title": "Perils of the Wild (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016239",
+      "title": "The Prairie Wife (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015834",
+      "title": "Forbidden Cargo (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016202",
+      "title": "Parisian Nights (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016002",
+      "title": "Lady Robinhood (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016929",
+      "title": "The Golden Web (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016640",
+      "title": "The Bells (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017226",
+      "title": "Old Ironsides (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016882",
+      "title": "Flaming Fury (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016879",
+      "title": "Flames (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016815",
+      "title": "The Eagle of the Sea (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017204",
+      "title": "The Nickel-Hopper (1926)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0016940",
+      "title": "The Greater Glory (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017112",
+      "title": "The Man in the Saddle (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016958",
+      "title": "Her Honor, the Governor (1926)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018261",
+      "title": "The Phantom Buster (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018109",
+      "title": "The Love Mart (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018151",
+      "title": "The Meddlin' Stranger (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018285",
+      "title": "The Princess from Hoboken (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018515",
+      "title": "Two Arabian Knights (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018084",
+      "title": "Let It Rain (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018464",
+      "title": "Tarzan and the Golden Lion (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0018423",
+      "title": "Soft Cushions (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019106",
+      "title": "The Little Wild Girl (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019540",
+      "title": "Vultures of the Sea (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019738",
+      "title": "Burning the Wind (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019522",
+      "title": "The Vanishing Rider (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019370",
+      "title": "Sharp Shooters (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019873",
+      "title": "The Fatal Warning (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019817",
+      "title": "The Devil's Chaplain (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019641",
+      "title": "Anne Against the World (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020526",
+      "title": "Two Sisters (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020268",
+      "title": "The Phantom of the North (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020534",
+      "title": "The Unholy Night (1929)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0020059",
+      "title": "The King of the Kongo (1929)",
+      "reason": "serial"
+    },
+    {
+      "imdbId": "tt0022531",
+      "title": "The Vanishing Legion (1931)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0022403",
+      "title": "Smart Money (1931)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0022582",
+      "title": "The Yellow Ticket (1931)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0022103",
+      "title": "The Mad Genius (1931)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0021702",
+      "title": "Business and Pleasure (1932)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0023486",
+      "title": "Skyscraper Souls (1932)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0041037",
+      "title": "\"Lights Out\" (1946)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0040051",
+      "title": "\"Studio One\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0191690",
+      "title": "\"The Ford Theatre Hour\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0040036",
+      "title": "\"The Chevrolet Tele-Theatre\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043410",
+      "title": "The Emperor's Nightingale (1949)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0041061",
+      "title": "\"Suspense\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042123",
+      "title": "\"Lux Video Theatre\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0195473",
+      "title": "\"Masterpiece Playhouse\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042141",
+      "title": "\"Robert Montgomery Presents\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043206",
+      "title": "\"Hollywood Opening Night\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043238",
+      "title": "\"Tales of Tomorrow\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043224",
+      "title": "\"The Red Skelton Hour\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043228",
+      "title": "\"Schlitz Playhouse\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0374370",
+      "title": "\"CBS Television Workshop\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044256",
+      "title": "\"Curtain Call\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045395",
+      "title": "\"General Electric Theater\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045449",
+      "title": "\"The United States Steel Hour\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0381727",
+      "title": "\"The Plymouth Playhouse\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046588",
+      "title": "\"Colonel March of Scotland Yard\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046587",
+      "title": "\"Climax!\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046594",
+      "title": "\"The Donald O'Connor Show\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0203251",
+      "title": "\"The Elgin Hour\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046580",
+      "title": "\"The Best of Broadway\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047707",
+      "title": "\"The Alcoa Hour\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048893",
+      "title": "\"Playhouse 90\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048863",
+      "title": "\"The Gale Storm Show: Oh! Susanna\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048903",
+      "title": "\"Telephone Time\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050064",
+      "title": "\"Suspicion\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050575",
+      "title": "The Juggler of Our Lady (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050013",
+      "title": "\"The DuPont Show of the Month\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0255763",
+      "title": "\"The Veil\" (1958) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0051312",
+      "title": "\"Shirley Temple's Storybook\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053499",
+      "title": "\"The Dickie Henderson Show\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053534",
+      "title": "\"Route 66\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt7929636",
+      "title": "Who Killed Chung Ling Soo? (1960)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2199914",
+      "title": "\"Theatre '62\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0058816",
+      "title": "\"I Spy\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0058855",
+      "title": "\"The Wild Wild West\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0060283",
+      "title": "The Daydreamer (1966)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0060345",
+      "title": "How the Grinch Stole Christmas! (1966) (TV)",
+      "reason": "Short, tv movie, (voice)"
+    },
+    {
+      "imdbId": "tt0059988",
+      "title": "\"The Girl from U.N.C.L.E.\" (1966)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0061931",
+      "title": "Mad Monster Party? (1967)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0062591",
+      "title": "\"The Name of the Game\" (1968)",
+      "reason": "tv series"
     }
   ]
 }

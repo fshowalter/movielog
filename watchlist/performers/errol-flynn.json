@@ -1,332 +1,280 @@
 {
-  "frozen": true,
   "name": "Errol Flynn",
   "slug": "errol-flynn",
-  "imdb_id": "nm0001224",
-  "movies": [
+  "imdbId": "nm0001224",
+  "titles": [
     {
-      "title": "In the Wake of the Bounty",
-      "year": 1933,
-      "imdb_id": "tt0024176",
-      "notes": "Fletcher Christian"
+      "imdbId": "tt0024176",
+      "title": "In the Wake of the Bounty (1933)"
     },
     {
-      "title": "Murder at Monte Carlo",
-      "year": 1935,
-      "imdb_id": "tt0025527",
-      "notes": "Dyter"
+      "imdbId": "tt0025527",
+      "title": "Murder at Monte Carlo (1935)"
     },
     {
-      "title": "The Case of the Curious Bride",
-      "year": 1935,
-      "imdb_id": "tt0026184",
-      "notes": "Gregory Moxley"
+      "imdbId": "tt0026289",
+      "title": "Don't Bet on Blondes (1935)"
     },
     {
-      "title": "Don't Bet on Blondes",
-      "year": 1935,
-      "imdb_id": "tt0026289",
-      "notes": "David Van Dusen"
+      "imdbId": "tt0026174",
+      "title": "Captain Blood (1935)"
     },
     {
-      "title": "Captain Blood",
-      "year": 1935,
-      "imdb_id": "tt0026174",
-      "notes": "Peter Blood"
+      "imdbId": "tt0026184",
+      "title": "The Case of the Curious Bride (1935)"
     },
     {
-      "title": "The Charge of the Light Brigade",
-      "year": 1936,
-      "imdb_id": "tt0027438",
-      "notes": "Maj. Geoffrey Vickers"
+      "imdbId": "tt0027438",
+      "title": "The Charge of the Light Brigade (1936)"
     },
     {
-      "title": "Green Light",
-      "year": 1937,
-      "imdb_id": "tt0028958",
-      "notes": "Dr. Newell Paige"
+      "imdbId": "tt0028958",
+      "title": "Green Light (1937)"
     },
     {
-      "title": "The Prince and the Pauper",
-      "year": 1937,
-      "imdb_id": "tt0029440",
-      "notes": "Miles Hendon"
+      "imdbId": "tt0029440",
+      "title": "The Prince and the Pauper (1937)"
     },
     {
-      "title": "Another Dawn",
-      "year": 1937,
-      "imdb_id": "tt0028579",
-      "notes": "Capt. Denny Roark"
+      "imdbId": "tt0028579",
+      "title": "Another Dawn (1937)"
     },
     {
-      "title": "The Perfect Specimen",
-      "year": 1937,
-      "imdb_id": "tt0029391",
-      "notes": "Gerald Beresford Wicks"
+      "imdbId": "tt0029391",
+      "title": "The Perfect Specimen (1937)"
     },
     {
-      "title": "The Adventures of Robin Hood",
-      "year": 1938,
-      "imdb_id": "tt0029843",
-      "notes": "Robin Hood"
+      "imdbId": "tt0030755",
+      "title": "The Sisters (1938)"
     },
     {
-      "title": "Four's a Crowd",
-      "year": 1938,
-      "imdb_id": "tt0030151",
-      "notes": "Bob Lansford"
+      "imdbId": "tt0029843",
+      "title": "The Adventures of Robin Hood (1938)"
     },
     {
-      "title": "The Sisters",
-      "year": 1938,
-      "imdb_id": "tt0030755",
-      "notes": "Frank Medlin"
+      "imdbId": "tt0030151",
+      "title": "Four's a Crowd (1938)"
     },
     {
-      "title": "The Dawn Patrol",
-      "year": 1938,
-      "imdb_id": "tt0030044",
-      "notes": "Courtney"
+      "imdbId": "tt0030044",
+      "title": "The Dawn Patrol (1938)"
     },
     {
-      "title": "Dodge City",
-      "year": 1939,
-      "imdb_id": "tt0031235",
-      "notes": "Wade Hatton"
+      "imdbId": "tt0031235",
+      "title": "Dodge City (1939)"
     },
     {
-      "title": "The Private Lives of Elizabeth and Essex",
-      "year": 1939,
-      "imdb_id": "tt0031826",
-      "notes": "Earl of Essex"
+      "imdbId": "tt0031826",
+      "title": "The Private Lives of Elizabeth and Essex (1939)"
     },
     {
-      "title": "Virginia City",
-      "year": 1940,
-      "imdb_id": "tt0033226",
-      "notes": "Kerry Bradford"
+      "imdbId": "tt0033028",
+      "title": "The Sea Hawk (1940)"
     },
     {
-      "title": "The Sea Hawk",
-      "year": 1940,
-      "imdb_id": "tt0033028",
-      "notes": "Geoffrey Thorpe"
+      "imdbId": "tt0033021",
+      "title": "Santa Fe Trail (1940)"
     },
     {
-      "title": "Santa Fe Trail",
-      "year": 1940,
-      "imdb_id": "tt0033021",
-      "notes": "Jeb Stuart"
+      "imdbId": "tt0033226",
+      "title": "Virginia City (1940)"
     },
     {
-      "title": "Footsteps in the Dark",
-      "year": 1941,
-      "imdb_id": "tt0033616",
-      "notes": "Francis Warren aka F.X. Pettijohn"
+      "imdbId": "tt0034277",
+      "title": "They Died with Their Boots On (1941)"
     },
     {
-      "title": "Dive Bomber",
-      "year": 1941,
-      "imdb_id": "tt0033537",
-      "notes": "Lieutenant Doug Lee"
+      "imdbId": "tt0033616",
+      "title": "Footsteps in the Dark (1941)"
     },
     {
-      "title": "They Died with Their Boots On",
-      "year": 1941,
-      "imdb_id": "tt0034277",
-      "notes": "George Armstrong Custer"
+      "imdbId": "tt0033537",
+      "title": "Dive Bomber (1941)"
     },
     {
-      "title": "Desperate Journey",
-      "year": 1942,
-      "imdb_id": "tt0034646",
-      "notes": "Flight Lt. Terrence Forbes"
+      "imdbId": "tt0034646",
+      "title": "Desperate Journey (1942)"
     },
     {
-      "title": "Gentleman Jim",
-      "year": 1942,
-      "imdb_id": "tt0034778",
-      "notes": "James J. Corbett"
+      "imdbId": "tt0034778",
+      "title": "Gentleman Jim (1942)"
     },
     {
-      "title": "Edge of Darkness",
-      "year": 1943,
-      "imdb_id": "tt0034694",
-      "notes": "Gunnar Brogge"
+      "imdbId": "tt0034694",
+      "title": "Edge of Darkness (1943)"
     },
     {
-      "title": "Thank Your Lucky Stars",
-      "year": 1943,
-      "imdb_id": "tt0036422",
-      "notes": "Errol Flynn"
+      "imdbId": "tt0036422",
+      "title": "Thank Your Lucky Stars (1943)"
     },
     {
-      "title": "Northern Pursuit",
-      "year": 1943,
-      "imdb_id": "tt0036218",
-      "notes": "Cpl. Steve Wagner"
+      "imdbId": "tt0036218",
+      "title": "Northern Pursuit (1943)"
     },
     {
-      "title": "Uncertain Glory",
-      "year": 1944,
-      "imdb_id": "tt0037414",
-      "notes": "Jean Picard / Emil DuPont"
+      "imdbId": "tt0037414",
+      "title": "Uncertain Glory (1944)"
     },
     {
-      "title": "Objective, Burma!",
-      "year": 1945,
-      "imdb_id": "tt0037954",
-      "notes": "Capt. Nelson"
+      "imdbId": "tt0037954",
+      "title": "Objective, Burma! (1945)"
     },
     {
-      "title": "San Antonio",
-      "year": 1945,
-      "imdb_id": "tt0038048",
-      "notes": "Clay Hardin"
+      "imdbId": "tt0038048",
+      "title": "San Antonio (1945)"
     },
     {
-      "title": "Never Say Goodbye",
-      "year": 1946,
-      "imdb_id": "tt0038773",
-      "notes": "Phil Gayley"
+      "imdbId": "tt0038773",
+      "title": "Never Say Goodbye (1946)"
     },
     {
-      "title": "Cry Wolf",
-      "year": 1947,
-      "imdb_id": "tt0039288",
-      "notes": "Mark Caldwell"
+      "imdbId": "tt0039357",
+      "title": "Escape Me Never (1947)"
     },
     {
-      "title": "Escape Me Never",
-      "year": 1947,
-      "imdb_id": "tt0039357",
-      "notes": "Sebastian Dubrok"
+      "imdbId": "tt0039288",
+      "title": "Cry Wolf (1947)"
     },
     {
-      "title": "Silver River",
-      "year": 1948,
-      "imdb_id": "tt0040789",
-      "notes": "Michael J. 'Mike' McComb"
+      "imdbId": "tt0040789",
+      "title": "Silver River (1948)"
     },
     {
-      "title": "Adventures of Don Juan",
-      "year": 1948,
-      "imdb_id": "tt0040076",
-      "notes": "Don Juan de Mara\u00f1a"
+      "imdbId": "tt0040076",
+      "title": "Adventures of Don Juan (1948)"
     },
     {
-      "title": "It's a Great Feeling",
-      "year": 1949,
-      "imdb_id": "tt0041515",
-      "notes": "Jeffrey Bushdinkle, the Groom (uncredited)"
+      "imdbId": "tt0041955",
+      "title": "That Forsyte Woman (1949)"
     },
     {
-      "title": "That Forsyte Woman",
-      "year": 1949,
-      "imdb_id": "tt0041955",
-      "notes": "Soames Forsyte"
+      "imdbId": "tt0042899",
+      "title": "Rocky Mountain (1950)"
     },
     {
-      "title": "Montana",
-      "year": 1950,
-      "imdb_id": "tt0042744",
-      "notes": "Morgan Lane"
+      "imdbId": "tt0042744",
+      "title": "Montana (1950)"
     },
     {
-      "title": "Rocky Mountain",
-      "year": 1950,
-      "imdb_id": "tt0042899",
-      "notes": "Capt. Lafe Barstow (CSA)"
+      "imdbId": "tt0042644",
+      "title": "Kim (1950)"
     },
     {
-      "title": "Kim",
-      "year": 1950,
-      "imdb_id": "tt0042644",
-      "notes": "Mahbub Ali - The Red Beard"
+      "imdbId": "tt0043630",
+      "title": "Hello God (1951)"
     },
     {
-      "title": "Adventures of Captain Fabian",
-      "year": 1951,
-      "imdb_id": "tt0043264",
-      "notes": "Capt. Michael Fabian"
+      "imdbId": "tt0043264",
+      "title": "Adventures of Captain Fabian (1951)"
     },
     {
-      "title": "Mara Maru",
-      "year": 1952,
-      "imdb_id": "tt0044884",
-      "notes": "Gregory Mason"
+      "imdbId": "tt0044884",
+      "title": "Mara Maru (1952)"
     },
     {
-      "title": "Against All Flags",
-      "year": 1952,
-      "imdb_id": "tt0044333",
-      "notes": "Brian Hawke"
+      "imdbId": "tt0044333",
+      "title": "Against All Flags (1952)"
     },
     {
-      "title": "The Master of Ballantrae",
-      "year": 1953,
-      "imdb_id": "tt0046054",
-      "notes": "Jamie Durie"
+      "imdbId": "tt0046054",
+      "title": "The Master of Ballantrae (1953)"
     },
     {
-      "title": "Crossed Swords",
-      "year": 1954,
-      "imdb_id": "tt0046024",
-      "notes": "Renzo"
+      "imdbId": "tt0046024",
+      "title": "Crossed Swords (1954)"
     },
     {
-      "title": "Let's Make Up",
-      "year": 1954,
-      "imdb_id": "tt0048294",
-      "notes": "John 'Beau' Beaumont"
+      "imdbId": "tt0048294",
+      "title": "Let's Make Up (1954)"
     },
     {
-      "title": "The Warriors",
-      "year": 1955,
-      "imdb_id": "tt0047975",
-      "notes": "Prince Edward"
+      "imdbId": "tt0047975",
+      "title": "The Warriors (1955)"
     },
     {
-      "title": "King's Rhapsody",
-      "year": 1955,
-      "imdb_id": "tt0048258",
-      "notes": "Richard, King of Laurentia"
+      "imdbId": "tt0048258",
+      "title": "King's Rhapsody (1955)"
     },
     {
-      "title": "Istanbul",
-      "year": 1957,
-      "imdb_id": "tt0050552",
-      "notes": "James Brennan"
+      "imdbId": "tt0050552",
+      "title": "Istanbul (1957)"
     },
     {
-      "title": "The Big Boodle",
-      "year": 1957,
-      "imdb_id": "tt0050189",
-      "notes": "Ned Sherwood"
+      "imdbId": "tt0051028",
+      "title": "The Sun Also Rises (1957)"
     },
     {
-      "title": "The Sun Also Rises",
-      "year": 1957,
-      "imdb_id": "tt0051028",
-      "notes": "Mike Campbell"
+      "imdbId": "tt0050189",
+      "title": "The Big Boodle (1957)"
     },
     {
-      "title": "Too Much, Too Soon",
-      "year": 1958,
-      "imdb_id": "tt0052302",
-      "notes": "John Barrymore"
+      "imdbId": "tt0052302",
+      "title": "Too Much, Too Soon (1958)"
     },
     {
-      "title": "The Roots of Heaven",
-      "year": 1958,
-      "imdb_id": "tt0052148",
-      "notes": "Forsythe"
+      "imdbId": "tt0052148",
+      "title": "The Roots of Heaven (1958)"
     },
     {
-      "title": "Cuban Rebel Girls",
-      "year": 1959,
-      "imdb_id": "tt0052717",
-      "notes": "The American Correspondent"
+      "imdbId": "tt0052717",
+      "title": "Cuban Rebel Girls (1959)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0024149",
+      "title": "I Adore You (1933)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0026870",
+      "title": "Pirate Party on Catalina Isle (1935)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0026058",
+      "title": "All American Drawback (1935)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt28751754",
+      "title": "Breakdowns of 1949 (1949)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0041515",
+      "title": "It's a Great Feeling (1949)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0043224",
+      "title": "\"The Red Skelton Hour\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0190148",
+      "title": "The Story of William Tell (1953)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0047768",
+      "title": "\"Screen Directors Playhouse\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050015",
+      "title": "\"The Errol Flynn Theatre\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048893",
+      "title": "\"Playhouse 90\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0158413",
+      "title": "\"Goodyear Theatre\" (1957)",
+      "reason": "tv series"
     }
   ]
 }

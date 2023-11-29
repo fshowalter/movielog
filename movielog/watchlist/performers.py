@@ -14,7 +14,7 @@ class Performer(person.Person):
     folder_name = "performers"
 
 
-def deserialize(file_path: str) -> Director:
+def deserialize(file_path: str) -> Performer:
     json_person = None
 
     with open(file_path, "r") as json_file:
@@ -26,16 +26,16 @@ def deserialize(file_path: str) -> Director:
         json_titles = json_person["titles"]
 
     excluded_titles = []
+    imdb_id = ""
+    # imdb_id = json_person["imdbIds"]
 
-    imdb_id = json_person["imdbIds"]
+    # if len(imdb_id) == 1:
+    #     imdb_id = imdb_id[0]
 
-    if len(imdb_id) == 1:
-        imdb_id = imdb_id[0]
-
-    # if "imdb_id" in json_person.keys():
-    #     imdb_ids = [json_person["imdb_id"]]
-    # elif "imdbId" in json_person.keys():
-    #     imdb_ids = [json_person["imdbId"]]
+    if "imdb_id" in json_person.keys():
+        imdb_id = json_person["imdb_id"]
+    elif "imdbId" in json_person.keys():
+        imdb_id = json_person["imdbId"]
     # else:
     #     imdb_ids = json_person["imdbIds"]
 
@@ -50,7 +50,7 @@ def deserialize(file_path: str) -> Director:
         ]
 
     return Performer(
-        imdbId=json_person["imdb_id"],
+        imdbId=imdb_id,
         slug=json_person["slug"],
         name=json_person["name"],
         titles=json_titles,

@@ -16,17 +16,10 @@
       "title": "Eaten Alive (1976)"
     },
     {
-      "imdbId": "tt0079027",
-      "title": "The Dark (1979)"
-    },
-    {
       "imdbId": "tt0082427",
       "title": "The Funhouse (1981)"
     },
-    {
-      "imdbId": "tt0084854",
-      "title": "Venom (1981)"
-    },
+    
     {
       "imdbId": "tt0084516",
       "title": "Poltergeist (1982)"
@@ -51,10 +44,7 @@
       "imdbId": "tt0099822",
       "title": "I'm Dangerous Tonight (1990) (TV)"
     },
-    {
-      "imdbId": "tt13496738",
-      "title": "The Nightmare Begins Again (1993) (V)"
-    },
+    
     {
       "imdbId": "tt0108350",
       "title": "Night Terrors (1993)"
@@ -76,10 +66,6 @@
       "title": "Crocodile (2000) (V)"
     },
     {
-      "imdbId": "tt0328723",
-      "title": "Shadow Realm (2002) (TV)"
-    },
-    {
       "imdbId": "tt0367153",
       "title": "Toolbox Murders (2004)"
     },
@@ -97,6 +83,26 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt13496738",
+      "title": "The Nightmare Begins Again (1993) (V)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0328723",
+      "title": "Shadow Realm (2002) (TV)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0079027",
+      "title": "The Dark (1979)",
+      "reason": "replaced"
+    },
+    {
+      "imdbId": "tt0084854",
+      "title": "Venom (1981)",
+      "reason": "replaced"
+    },
     {
       "imdbId": "tt14908620",
       "title": "The Abyss (1959)",

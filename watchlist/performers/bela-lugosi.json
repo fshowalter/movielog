@@ -1,386 +1,508 @@
 {
-  "frozen": true,
   "name": "Bela Lugosi",
   "slug": "bela-lugosi",
-  "imdb_id": "nm0000509",
-  "movies": [
+  "imdbId": "nm0000509",
+  "titles": [
     {
-      "title": "The Thirteenth Chair",
-      "year": 1929,
-      "imdb_id": "tt0020492",
-      "notes": "Inspector Delzante"
+      "imdbId": "tt0020492",
+      "title": "The Thirteenth Chair (1929)"
     },
     {
-      "title": "Wild Company",
-      "year": 1930,
-      "imdb_id": "tt0021554",
-      "notes": "Felix Brown"
+      "imdbId": "tt0019525",
+      "title": "The Veiled Woman (1929)"
     },
     {
-      "title": "Renegades",
-      "year": 1930,
-      "imdb_id": "tt0021295",
-      "notes": "The Marabout - Sheik Muhammed Halid"
+      "imdbId": "tt0021295",
+      "title": "Renegades (1930)"
     },
     {
-      "title": "Oh, for a Man!",
-      "year": 1930,
-      "imdb_id": "tt0021199",
-      "notes": "Frescatti"
+      "imdbId": "tt0021199",
+      "title": "Oh, for a Man! (1930)"
     },
     {
-      "title": "Dracula",
-      "year": 1931,
-      "imdb_id": "tt0021814",
-      "notes": "Count Dracula"
+      "imdbId": "tt0021554",
+      "title": "Wild Company (1930)"
     },
     {
-      "title": "The Black Camel",
-      "year": 1931,
-      "imdb_id": "tt0021668",
-      "notes": "Tarneverro"
+      "imdbId": "tt0021814",
+      "title": "Dracula (1931)"
     },
     {
-      "title": "Broadminded",
-      "year": 1931,
-      "imdb_id": "tt0021697",
-      "notes": "Pancho Arango"
+      "imdbId": "tt0021668",
+      "title": "The Black Camel (1931)"
     },
     {
-      "title": "Murders in the Rue Morgue",
-      "year": 1932,
-      "imdb_id": "tt0023249",
-      "notes": "Dr. Mirakle"
+      "imdbId": "tt0021697",
+      "title": "Broadminded (1931)"
     },
     {
-      "title": "White Zombie",
-      "year": 1932,
-      "imdb_id": "tt0023694",
-      "notes": "'Murder' Legendre"
+      "imdbId": "tt0023249",
+      "title": "Murders in the Rue Morgue (1932)"
     },
     {
-      "title": "Chandu the Magician",
-      "year": 1932,
-      "imdb_id": "tt0022753",
-      "notes": "Roxor"
+      "imdbId": "tt0023935",
+      "title": "The Death Kiss (1932)"
     },
     {
-      "title": "The Death Kiss",
-      "year": 1932,
-      "imdb_id": "tt0023935",
-      "notes": "Joseph Steiner"
+      "imdbId": "tt0023694",
+      "title": "White Zombie (1932)"
     },
     {
-      "title": "Island of Lost Souls",
-      "year": 1932,
-      "imdb_id": "tt0024188",
-      "notes": "Sayer of the Law"
+      "imdbId": "tt0022753",
+      "title": "Chandu the Magician (1932)"
     },
     {
-      "title": "The Whispering Shadow",
-      "year": 1933,
-      "imdb_id": "tt0024768",
-      "notes": "Professor Adam Anton Strang"
+      "imdbId": "tt0024188",
+      "title": "Island of Lost Souls (1932)"
     },
     {
-      "title": "Night of Terror",
-      "year": 1933,
-      "imdb_id": "tt0024382",
-      "notes": "Degar"
+      "imdbId": "tt0024382",
+      "title": "Night of Terror (1933)"
     },
     {
-      "title": "International House",
-      "year": 1933,
-      "imdb_id": "tt0024183",
-      "notes": "General Nicholas Branovsky Petronovich"
+      "imdbId": "tt0024768",
+      "title": "The Whispering Shadow (1933)"
     },
     {
-      "title": "The Black Cat",
-      "year": 1934,
-      "imdb_id": "tt0024894",
-      "notes": "Dr. Vitus Werdegast"
+      "imdbId": "tt0024183",
+      "title": "International House (1933)"
     },
     {
-      "title": "Gift of Gab",
-      "year": 1934,
-      "imdb_id": "tt0025170",
-      "notes": "French Apache Dancer"
+      "imdbId": "tt16978034",
+      "title": "El Misterioso Mr. Wong (1934)"
     },
     {
-      "title": "The Return of Chandu",
-      "year": 1934,
-      "imdb_id": "tt0025712",
-      "notes": "Frank Chandler (Chandu)"
+      "imdbId": "tt0024894",
+      "title": "The Black Cat (1934)"
     },
     {
-      "title": "The Mysterious Mr. Wong",
-      "year": 1934,
-      "imdb_id": "tt0026755",
-      "notes": "Mr. Fu Wong aka Li See (as B\u00e9la Lugosi)"
+      "imdbId": "tt0026755",
+      "title": "The Mysterious Mr. Wong (1934)"
     },
     {
-      "title": "The Best Man Wins",
-      "year": 1935,
-      "imdb_id": "tt0026108",
-      "notes": "Doc Boehm"
+      "imdbId": "tt0025170",
+      "title": "Gift of Gab (1934)"
     },
     {
-      "title": "Mark of the Vampire",
-      "year": 1935,
-      "imdb_id": "tt0026685",
-      "notes": "Count Mora"
+      "imdbId": "tt0025712",
+      "title": "The Return of Chandu (1934)"
     },
     {
-      "title": "The Raven",
-      "year": 1935,
-      "imdb_id": "tt0026912",
-      "notes": "Dr. Richard Vollin"
+      "imdbId": "tt0026759",
+      "title": "Phantom Ship (1935)"
     },
     {
-      "title": "Murder by Television",
-      "year": 1935,
-      "imdb_id": "tt0026740",
-      "notes": "Dr. Arthur Perry / Edwin Perry"
+      "imdbId": "tt0026108",
+      "title": "The Best Man Wins (1935)"
     },
     {
-      "title": "Phantom Ship",
-      "year": 1935,
-      "imdb_id": "tt0026759",
-      "notes": "Anton Lorenzen / A. Gottlieb"
+      "imdbId": "tt0026740",
+      "title": "Murder by Television (1935)"
     },
     {
-      "title": "The Invisible Ray",
-      "year": 1936,
-      "imdb_id": "tt0027800",
-      "notes": "Dr. Felix Benet"
+      "imdbId": "tt0026685",
+      "title": "Mark of the Vampire (1935)"
     },
     {
-      "title": "Postal Inspector",
-      "year": 1936,
-      "imdb_id": "tt0028132",
-      "notes": "Gregory Benez"
+      "imdbId": "tt0027800",
+      "title": "The Invisible Ray (1935)"
     },
     {
-      "title": "Shadow of Chinatown",
-      "year": 1936,
-      "imdb_id": "tt0028241",
-      "notes": "Victor Poten"
+      "imdbId": "tt0026912",
+      "title": "The Raven (1935)"
     },
     {
-      "title": "SOS Coast Guard",
-      "year": 1937,
-      "imdb_id": "tt0029508",
-      "notes": "Boroff"
+      "imdbId": "tt0028132",
+      "title": "Postal Inspector (1936)"
     },
     {
-      "title": "The Phantom Creeps",
-      "year": 1939,
-      "imdb_id": "tt0031796",
-      "notes": "Dr. Alex Zorka"
+      "imdbId": "tt0028241",
+      "title": "Shadow of Chinatown (1936)"
     },
     {
-      "title": "Son of Frankenstein",
-      "year": 1939,
-      "imdb_id": "tt0031951",
-      "notes": "Ygor"
+      "imdbId": "tt0029508",
+      "title": "SOS Coast Guard (1937)"
     },
     {
-      "title": "The Gorilla",
-      "year": 1939,
-      "imdb_id": "tt0031387",
-      "notes": "Peters"
+      "imdbId": "tt0031796",
+      "title": "The Phantom Creeps (1939)"
     },
     {
-      "title": "The Human Monster",
-      "year": 1939,
-      "imdb_id": "tt0031208",
-      "notes": "Dr. Feodor Orloff"
+      "imdbId": "tt0031951",
+      "title": "Son of Frankenstein (1939)"
     },
     {
-      "title": "Ninotchka",
-      "year": 1939,
-      "imdb_id": "tt0031725",
-      "notes": "Commissar Razinin"
+      "imdbId": "tt0031725",
+      "title": "Ninotchka (1939)"
     },
     {
-      "title": "The Saint's Double Trouble",
-      "year": 1940,
-      "imdb_id": "tt0033014",
-      "notes": "The Partner"
+      "imdbId": "tt0031208",
+      "title": "The Human Monster (1939)"
     },
     {
-      "title": "Black Friday",
-      "year": 1940,
-      "imdb_id": "tt0032258",
-      "notes": "Eric Marnay"
+      "imdbId": "tt0031387",
+      "title": "The Gorilla (1939)"
     },
     {
-      "title": "The Devil Bat",
-      "year": 1940,
-      "imdb_id": "tt0032390",
-      "notes": "Dr. Paul Carruthers"
+      "imdbId": "tt0033014",
+      "title": "The Saint's Double Trouble (1940)"
     },
     {
-      "title": "You'll Find Out",
-      "year": 1940,
-      "imdb_id": "tt0033283",
-      "notes": "Prince Saliano"
+      "imdbId": "tt0032258",
+      "title": "Black Friday (1940)"
     },
     {
-      "title": "Invisible Ghost",
-      "year": 1941,
-      "imdb_id": "tt0033760",
-      "notes": "Charles Kessler"
+      "imdbId": "tt0033283",
+      "title": "You'll Find Out (1940)"
     },
     {
-      "title": "The Black Cat",
-      "year": 1941,
-      "imdb_id": "tt0033397",
-      "notes": "Eduardo Vigos"
+      "imdbId": "tt0032390",
+      "title": "The Devil Bat (1940)"
     },
     {
-      "title": "Spooks Run Wild",
-      "year": 1941,
-      "imdb_id": "tt0034224",
-      "notes": "Nardo"
+      "imdbId": "tt0034398",
+      "title": "The Wolf Man (1941)"
     },
     {
-      "title": "The Wolf Man",
-      "year": 1941,
-      "imdb_id": "tt0034398",
-      "notes": "Bela"
+      "imdbId": "tt0033397",
+      "title": "The Black Cat (1941)"
     },
     {
-      "title": "Black Dragons",
-      "year": 1942,
-      "imdb_id": "tt0034521",
-      "notes": "Dr. Melcher aka Monsieur Colomb / Cell Prisoner"
+      "imdbId": "tt0033760",
+      "title": "Invisible Ghost (1941)"
     },
     {
-      "title": "The Ghost of Frankenstein",
-      "year": 1942,
-      "imdb_id": "tt0034786",
-      "notes": "Ygor"
+      "imdbId": "tt0034224",
+      "title": "Spooks Run Wild (1941)"
     },
     {
-      "title": "The Corpse Vanishes",
-      "year": 1942,
-      "imdb_id": "tt0034613",
-      "notes": "Dr. George Lorenz"
+      "imdbId": "tt0034521",
+      "title": "Black Dragons (1942)"
     },
     {
-      "title": "Night Monster",
-      "year": 1942,
-      "imdb_id": "tt0035124",
-      "notes": "Rolf"
+      "imdbId": "tt0034613",
+      "title": "The Corpse Vanishes (1942)"
     },
     {
-      "title": "Bowery at Midnight",
-      "year": 1942,
-      "imdb_id": "tt0034546",
-      "notes": "Professor Brenner aka Karl Wagner"
+      "imdbId": "tt0034786",
+      "title": "The Ghost of Frankenstein (1942)"
     },
     {
-      "title": "The Ape Man",
-      "year": 1943,
-      "imdb_id": "tt0035640",
-      "notes": "Dr. James Brewster"
+      "imdbId": "tt0034546",
+      "title": "Bowery at Midnight (1942)"
     },
     {
-      "title": "Frankenstein Meets the Wolf Man",
-      "year": 1943,
-      "imdb_id": "tt0035899",
-      "notes": "Monster"
+      "imdbId": "tt0035124",
+      "title": "Night Monster (1942)"
     },
     {
-      "title": "Ghosts on the Loose",
-      "year": 1943,
-      "imdb_id": "tt0035939",
-      "notes": "Emil"
+      "imdbId": "tt0035899",
+      "title": "Frankenstein Meets the Wolf Man (1943)"
     },
     {
-      "title": "The Return of the Vampire",
-      "year": 1943,
-      "imdb_id": "tt0037219",
-      "notes": "Armand Tesla / Dr. Hugo Bruckner"
+      "imdbId": "tt0037219",
+      "title": "The Return of the Vampire (1943)"
     },
     {
-      "title": "Voodoo Man",
-      "year": 1944,
-      "imdb_id": "tt0037441",
-      "notes": "Dr. Marlowe"
+      "imdbId": "tt0035640",
+      "title": "The Ape Man (1943)"
     },
     {
-      "title": "Return of the Ape Man",
-      "year": 1944,
-      "imdb_id": "tt0037217",
-      "notes": "Prof. Dexter"
+      "imdbId": "tt0035939",
+      "title": "Ghosts on the Loose (1943)"
     },
     {
-      "title": "One Body Too Many",
-      "year": 1944,
-      "imdb_id": "tt0037151",
-      "notes": "Merkil"
+      "imdbId": "tt0037441",
+      "title": "Voodoo Man (1944)"
     },
     {
-      "title": "The Body Snatcher",
-      "year": 1945,
-      "imdb_id": "tt0037549",
-      "notes": "Joseph"
+      "imdbId": "tt0037217",
+      "title": "Return of the Ape Man (1944)"
     },
     {
-      "title": "Zombies on Broadway",
-      "year": 1945,
-      "imdb_id": "tt0038270",
-      "notes": "Professor Paul Renault"
+      "imdbId": "tt0037151",
+      "title": "One Body Too Many (1944)"
     },
     {
-      "title": "Genius at Work",
-      "year": 1946,
-      "imdb_id": "tt0037735",
-      "notes": "Stone"
+      "imdbId": "tt0038270",
+      "title": "Zombies on Broadway (1945)"
     },
     {
-      "title": "Scared to Death",
-      "year": 1947,
-      "imdb_id": "tt0039800",
-      "notes": "Prof. Leonide"
+      "imdbId": "tt0037549",
+      "title": "The Body Snatcher (1945)"
     },
     {
-      "title": "Abbott and Costello Meet Frankenstein",
-      "year": 1948,
-      "imdb_id": "tt0040068",
-      "notes": "Dracula"
+      "imdbId": "tt0037735",
+      "title": "Genius at Work (1946)"
     },
     {
-      "title": "Vampire Over London",
-      "year": 1952,
-      "imdb_id": "tt0044925",
-      "notes": "The Vampire"
+      "imdbId": "tt0039800",
+      "title": "Scared to Death (1946)"
     },
     {
-      "title": "Bela Lugosi Meets a Brooklyn Gorilla",
-      "year": 1952,
-      "imdb_id": "tt0044406",
-      "notes": "Dr. Zabor"
+      "imdbId": "tt0040068",
+      "title": "Abbott and Costello Meet Frankenstein (1948)"
     },
     {
-      "title": "Glen or Glenda",
-      "year": 1953,
-      "imdb_id": "tt0045826",
-      "notes": "Scientist"
+      "imdbId": "tt0044406",
+      "title": "Bela Lugosi Meets a Brooklyn Gorilla (1952)"
     },
     {
-      "title": "Bride of the Monster",
-      "year": 1955,
-      "imdb_id": "tt0047898",
-      "notes": "Dr. Eric Vornoff"
+      "imdbId": "tt0044925",
+      "title": "Vampire Over London (1952)"
     },
     {
-      "title": "The Black Sleep",
-      "year": 1956,
-      "imdb_id": "tt0049013",
-      "notes": "Casimir"
+      "imdbId": "tt0045826",
+      "title": "Glen or Glenda (1953)"
+    },
+    {
+      "imdbId": "tt0047898",
+      "title": "Bride of the Monster (1955)"
+    },
+    {
+      "imdbId": "tt0049013",
+      "title": "The Black Sleep (1956)"
+    },
+    {
+      "imdbId": "tt0052077",
+      "title": "Plan 9 from Outer Space (1957)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0008176",
+      "title": "Leoni Leo (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009851",
+      "title": "Masked Ball (1917)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009683",
+      "title": "Tavaszi vihar (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008528",
+      "title": "A R\u00e9gis\u00e9ggy\u00fcjt\u00f6 (1918)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0009436",
+      "title": "N\u00e1szdal (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009852",
+      "title": "The Picture of Dorian Gray (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008177",
+      "title": "K\u00fczdelem a L\u00e9t\u00e9rt (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008810",
+      "title": "99 (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0009302",
+      "title": "Lili (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0240693",
+      "title": "Lulu (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0007910",
+      "title": "The Colonel (1918)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0008952",
+      "title": "Casanova (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011195",
+      "title": "Der Fluch der Menschheit - 1. Die Tochter der Arbeit (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0198318",
+      "title": "Auf den Tr\u00fcmmern des Paradieses (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0278084",
+      "title": "Der Tanz auf dem Vulkan - 2. Der Tod des Grossf\u00fcrsten (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011393",
+      "title": "Leather Stocking: The Deerslayer and Chingachgook (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt1339094",
+      "title": "Das ganze Sein ist flammend Leid (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0277707",
+      "title": "Der Fluch der Menschheit - 2. Im Rausche der Milliarden (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011348",
+      "title": "The Head of Janus (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt1339168",
+      "title": "Die Sklavenhalter von Kansas-City (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011208",
+      "title": "Die Frau im Delphin, oder 30 Tage auf dem Meeresgrund (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011394",
+      "title": "Leather Stocking: The Last of the Mohicans (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012496",
+      "title": "Nat Pinkerton im Kampf, 1. Teil - Das Ende des Artisten Bartolini (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0199093",
+      "title": "Caravan of Death (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0276209",
+      "title": "Hypnose (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012740",
+      "title": "Daughter of the Night (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012335",
+      "title": "Apachenrache, 3. Teil - Die verschwundene Million (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011757",
+      "title": "Die Teufelsanbeter (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0014469",
+      "title": "The Silent Command (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0280761",
+      "title": "Ihre Hoheit die T\u00e4nzerin (1923)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015270",
+      "title": "The Rejected Woman (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015739",
+      "title": "Daughters Who Pay (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0016107",
+      "title": "The Midnight Girl (1925)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017295",
+      "title": "Punchinello (1926)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0019028",
+      "title": "How to Handle Women (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020078",
+      "title": "The Last Performance (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0020291",
+      "title": "Prisoners (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0021432",
+      "title": "Such Men Are Dangerous (1930)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0021025",
+      "title": "King of Jazz (1930)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0021522",
+      "title": "Viennese Nights (1930)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0022576",
+      "title": "Women of All Nations (1931)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0021859",
+      "title": "50 Million Frenchmen (1931)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0123105",
+      "title": "Hollywood on Parade No. A-8 (1933)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0023945",
+      "title": "The Devil's in Love (1933)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0041061",
+      "title": "\"Suspense\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0300836",
+      "title": "\"The Paul Winchell Show\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043224",
+      "title": "\"The Red Skelton Hour\" (1951)",
+      "reason": "tv series"
     }
   ]
 }

@@ -3,10 +3,7 @@
   "slug": "howard-hawks",
   "imdbId": "nm0001328",
   "titles": [
-    {
-      "imdbId": "tt0018633",
-      "title": "The Air Circus (1928)"
-    },
+
     {
       "imdbId": "tt0020815",
       "title": "The Dawn Patrol (1930)"
@@ -161,6 +158,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0018633",
+      "title": "The Air Circus (1928)",
+      "reason": "silent as directed by Hawks, dialogue scenes added later and directed by Lewis Seiler"
+    },
     {
       "imdbId": "tt0017328",
       "title": "The Road to Glory (1926)",

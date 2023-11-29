@@ -43,7 +43,7 @@ add_collection = watchlist_collections.add
 
 def refresh_credits() -> None:
     # directors.refresh_movies()
-    performers.refresh_movies()
+    # performers.refresh_movies()
     writers.refresh_movies()
 
 

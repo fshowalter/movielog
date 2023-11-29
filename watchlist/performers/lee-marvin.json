@@ -1,314 +1,486 @@
 {
-  "frozen": true,
   "name": "Lee Marvin",
   "slug": "lee-marvin",
-  "imdb_id": "nm0001511",
-  "movies": [
+  "imdbId": "nm0001511",
+  "titles": [
     {
-      "title": "The Duel at Silver Creek",
-      "year": 1952,
-      "imdb_id": "tt0044573",
-      "notes": "Tinhorn Burgess"
+      "imdbId": "tt0044683",
+      "title": "Hangman's Knot (1952)"
     },
     {
-      "title": "Hangman's Knot",
-      "year": 1952,
-      "imdb_id": "tt0044683",
-      "notes": "Rolph Bainter"
+      "imdbId": "tt0044579",
+      "title": "Eight Iron Men (1952)"
     },
     {
-      "title": "Eight Iron Men",
-      "year": 1952,
-      "imdb_id": "tt0044579",
-      "notes": "Sgt. Joe Mooney"
+      "imdbId": "tt0044573",
+      "title": "The Duel at Silver Creek (1952)"
     },
     {
-      "title": "Seminole",
-      "year": 1953,
-      "imdb_id": "tt0046294",
-      "notes": "Sgt. Magruder"
+      "imdbId": "tt0045827",
+      "title": "The Glory Brigade (1953)"
     },
     {
-      "title": "The Glory Brigade",
-      "year": 1953,
-      "imdb_id": "tt0045827",
-      "notes": "Cpl. Bowman"
+      "imdbId": "tt0046375",
+      "title": "The Stranger Wore a Gun (1953)"
     },
     {
-      "title": "The Stranger Wore a Gun",
-      "year": 1953,
-      "imdb_id": "tt0046375",
-      "notes": "Dan Kurth"
+      "imdbId": "tt0046294",
+      "title": "Seminole (1953)"
     },
     {
-      "title": "Gun Fury",
-      "year": 1953,
-      "imdb_id": "tt0045846",
-      "notes": "Blinky"
+      "imdbId": "tt0047677",
+      "title": "The Wild One (1953)"
     },
     {
-      "title": "The Big Heat",
-      "year": 1953,
-      "imdb_id": "tt0045555",
-      "notes": "Vince Stone"
+      "imdbId": "tt0045846",
+      "title": "Gun Fury (1953)"
     },
     {
-      "title": "The Wild One",
-      "year": 1953,
-      "imdb_id": "tt0047677",
-      "notes": "Chino"
+      "imdbId": "tt0045555",
+      "title": "The Big Heat (1953)"
     },
     {
-      "title": "Gorilla at Large",
-      "year": 1954,
-      "imdb_id": "tt0047041",
-      "notes": "Shaughnessy--Policeman"
+      "imdbId": "tt0046816",
+      "title": "The Caine Mutiny (1954)"
     },
     {
-      "title": "The Caine Mutiny",
-      "year": 1954,
-      "imdb_id": "tt0046816",
-      "notes": "Meatball"
+      "imdbId": "tt0047041",
+      "title": "Gorilla at Large (1954)"
     },
     {
-      "title": "The Raid",
-      "year": 1954,
-      "imdb_id": "tt0047388",
-      "notes": "Lt. Keating"
+      "imdbId": "tt0047388",
+      "title": "The Raid (1954)"
     },
     {
-      "title": "Bad Day at Black Rock",
-      "year": 1955,
-      "imdb_id": "tt0047849",
-      "notes": "Hector David"
+      "imdbId": "tt0048432",
+      "title": "Not as a Stranger (1955)"
     },
     {
-      "title": "Violent Saturday",
-      "year": 1955,
-      "imdb_id": "tt0048790",
-      "notes": "Dill, Bank Robber"
+      "imdbId": "tt0048301",
+      "title": "A Life in the Balance (1955)"
     },
     {
-      "title": "Not as a Stranger",
-      "year": 1955,
-      "imdb_id": "tt0048432",
-      "notes": "Brundage"
+      "imdbId": "tt0048484",
+      "title": "Pete Kelly's Blues (1955)"
     },
     {
-      "title": "A Life in the Balance",
-      "year": 1955,
-      "imdb_id": "tt0048301",
-      "notes": "The Killer"
+      "imdbId": "tt0048190",
+      "title": "I Died a Thousand Times (1955)"
     },
     {
-      "title": "Pete Kelly's Blues",
-      "year": 1955,
-      "imdb_id": "tt0048484",
-      "notes": "Al Gannaway"
+      "imdbId": "tt0048790",
+      "title": "Violent Saturday (1955)"
     },
     {
-      "title": "I Died a Thousand Times",
-      "year": 1955,
-      "imdb_id": "tt0048190",
-      "notes": "Babe Kossuck"
+      "imdbId": "tt0048607",
+      "title": "Shack Out on 101 (1955)"
     },
     {
-      "title": "Shack Out on 101",
-      "year": 1955,
-      "imdb_id": "tt0048607",
-      "notes": "Slob / Mr. Gregory"
+      "imdbId": "tt0047849",
+      "title": "Bad Day at Black Rock (1955)"
     },
     {
-      "title": "7 Men from Now",
-      "year": 1956,
-      "imdb_id": "tt0049743",
-      "notes": "Bill Masters"
+      "imdbId": "tt0049652",
+      "title": "The Rack (1956)"
     },
     {
-      "title": "Attack",
-      "year": 1956,
-      "imdb_id": "tt0048966",
-      "notes": "Lt. Col. Clyde Bartlett - CO, White Battalion"
+      "imdbId": "tt0049743",
+      "title": "7 Men from Now (1956)"
     },
     {
-      "title": "Pillars of the Sky",
-      "year": 1956,
-      "imdb_id": "tt0049619",
-      "notes": "Sgt. Lloyd Carracart"
+      "imdbId": "tt0048966",
+      "title": "Attack (1956)"
     },
     {
-      "title": "The Rack",
-      "year": 1956,
-      "imdb_id": "tt0049652",
-      "notes": "Capt. John R. Miller"
+      "imdbId": "tt0049619",
+      "title": "Pillars of the Sky (1956)"
     },
     {
-      "title": "Raintree County",
-      "year": 1957,
-      "imdb_id": "tt0050882",
-      "notes": "Orville 'Flash' Perkins"
+      "imdbId": "tt0050882",
+      "title": "Raintree County (1957)"
     },
     {
-      "title": "The Missouri Traveler",
-      "year": 1958,
-      "imdb_id": "tt0051936",
-      "notes": "Tobias Brown"
+      "imdbId": "tt0051936",
+      "title": "The Missouri Traveler (1958)"
     },
     {
-      "title": "The Comancheros",
-      "year": 1961,
-      "imdb_id": "tt0054757",
-      "notes": "Tully Crow"
+      "imdbId": "tt0054757",
+      "title": "The Comancheros (1961)"
     },
     {
-      "title": "The Man Who Shot Liberty Valance",
-      "year": 1962,
-      "imdb_id": "tt0056217",
-      "notes": "Liberty Valance"
+      "imdbId": "tt0056217",
+      "title": "The Man Who Shot Liberty Valance (1962)"
     },
     {
-      "title": "Donovan's Reef",
-      "year": 1963,
-      "imdb_id": "tt0057007",
-      "notes": "Thomas Aloysius 'Boats' Gilhooley"
+      "imdbId": "tt0057007",
+      "title": "Donovan's Reef (1963)"
     },
     {
-      "title": "The Killers",
-      "year": 1964,
-      "imdb_id": "tt0058262",
-      "notes": "Charlie Strom"
+      "imdbId": "tt0058262",
+      "title": "The Killers (1964)"
     },
     {
-      "title": "Cat Ballou",
-      "year": 1965,
-      "imdb_id": "tt0059017",
-      "notes": "Shelleen / Strawn"
+      "imdbId": "tt0059017",
+      "title": "Cat Ballou (1965)"
     },
     {
-      "title": "Ship of Fools",
-      "year": 1965,
-      "imdb_id": "tt0059712",
-      "notes": "Bill Tenny"
+      "imdbId": "tt0059712",
+      "title": "Ship of Fools (1965)"
     },
     {
-      "title": "The Professionals",
-      "year": 1966,
-      "imdb_id": "tt0060862",
-      "notes": "Fardan"
+      "imdbId": "tt0060862",
+      "title": "The Professionals (1966)"
     },
     {
-      "title": "The Dirty Dozen",
-      "year": 1967,
-      "imdb_id": "tt0061578",
-      "notes": "Major Reisman"
+      "imdbId": "tt0062138",
+      "title": "Point Blank (1967)"
     },
     {
-      "title": "Point Blank",
-      "year": 1967,
-      "imdb_id": "tt0062138",
-      "notes": "Walker"
+      "imdbId": "tt0061578",
+      "title": "The Dirty Dozen (1967)"
     },
     {
-      "title": "Hell in the Pacific",
-      "year": 1968,
-      "imdb_id": "tt0063056",
-      "notes": "American Pilot"
+      "imdbId": "tt0063584",
+      "title": "Sergeant Ryker (1968)"
     },
     {
-      "title": "Paint Your Wagon",
-      "year": 1969,
-      "imdb_id": "tt0064782",
-      "notes": "Ben Rumson"
+      "imdbId": "tt0063056",
+      "title": "Hell in the Pacific (1968)"
     },
     {
-      "title": "Monte Walsh",
-      "year": 1970,
-      "imdb_id": "tt0066093",
-      "notes": "Monte Walsh"
+      "imdbId": "tt0064782",
+      "title": "Paint Your Wagon (1969)"
     },
     {
-      "title": "Pocket Money",
-      "year": 1972,
-      "imdb_id": "tt0069103",
-      "notes": "Leonard"
+      "imdbId": "tt0066093",
+      "title": "Monte Walsh (1970)"
     },
     {
-      "title": "Prime Cut",
-      "year": 1972,
-      "imdb_id": "tt0069121",
-      "notes": "Nick Devlin"
+      "imdbId": "tt0069103",
+      "title": "Pocket Money (1972)"
     },
     {
-      "title": "Emperor of the North",
-      "year": 1973,
-      "imdb_id": "tt0070030",
-      "notes": "A No. 1"
+      "imdbId": "tt0069121",
+      "title": "Prime Cut (1972)"
     },
     {
-      "title": "The Iceman Cometh",
-      "year": 1973,
-      "imdb_id": "tt0070212",
-      "notes": "Hickey"
+      "imdbId": "tt0070030",
+      "title": "Emperor of the North (1973)"
     },
     {
-      "title": "The Spikes Gang",
-      "year": 1974,
-      "imdb_id": "tt0072198",
-      "notes": "Harry Spikes"
+      "imdbId": "tt0070212",
+      "title": "The Iceman Cometh (1973)"
     },
     {
-      "title": "The Klansman",
-      "year": 1974,
-      "imdb_id": "tt0071721",
-      "notes": "Sheriff Track Bascomb"
+      "imdbId": "tt0072198",
+      "title": "The Spikes Gang (1974)"
     },
     {
-      "title": "Shout at the Devil",
-      "year": 1976,
-      "imdb_id": "tt0075214",
-      "notes": "Flynn"
+      "imdbId": "tt0071721",
+      "title": "The Klansman (1974)"
     },
     {
-      "title": "The Great Scout & Cathouse Thursday",
-      "year": 1976,
-      "imdb_id": "tt0074588",
-      "notes": "Sam Longwood"
+      "imdbId": "tt0075214",
+      "title": "Shout at the Devil (1976)"
     },
     {
-      "title": "Avalanche Express",
-      "year": 1979,
-      "imdb_id": "tt0078812",
-      "notes": "Col. Harry Wargrave"
+      "imdbId": "tt0074588",
+      "title": "The Great Scout & Cathouse Thursday (1976)"
     },
     {
-      "title": "The Big Red One",
-      "year": 1980,
-      "imdb_id": "tt0080437",
-      "notes": "The Sergeant"
+      "imdbId": "tt0078812",
+      "title": "Avalanche Express (1979)"
     },
     {
-      "title": "Death Hunt",
-      "year": 1981,
-      "imdb_id": "tt0082247",
-      "notes": "Millen"
+      "imdbId": "tt0080437",
+      "title": "The Big Red One (1980)"
     },
     {
-      "title": "Gorky Park",
-      "year": 1983,
-      "imdb_id": "tt0085615",
-      "notes": "Jack Osborne"
+      "imdbId": "tt0082247",
+      "title": "Death Hunt (1981)"
     },
     {
-      "title": "Dog Day",
-      "year": 1984,
-      "imdb_id": "tt0085289",
-      "notes": "Jimmy Cobb"
+      "imdbId": "tt0085615",
+      "title": "Gorky Park (1983)"
     },
     {
-      "title": "The Delta Force",
-      "year": 1986,
-      "imdb_id": "tt0090927",
-      "notes": "Nick"
+      "imdbId": "tt0085289",
+      "title": "Dog Day (1984)"
+    },
+    {
+      "imdbId": "tt0089026",
+      "title": "The Dirty Dozen: Next Mission (1985) (TV)"
+    },
+    {
+      "imdbId": "tt0090927",
+      "title": "The Delta Force (1986)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0039123",
+      "title": "\"Kraft Theatre\" (1947)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0040051",
+      "title": "\"Studio One\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0041007",
+      "title": "\"The Big Story\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0041023",
+      "title": "\"Fireside Theatre\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0041061",
+      "title": "\"Suspense\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042167",
+      "title": "\"The Web\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042101",
+      "title": "\"Escape\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042159",
+      "title": "\"Treasury Men in Action\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044112",
+      "title": "Teresa (1951)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0043194",
+      "title": "\"Dragnet\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044224",
+      "title": "You're in the Navy Now (1951)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0043228",
+      "title": "\"Schlitz Playhouse\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044552",
+      "title": "Diplomatic Courier (1952)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0044290",
+      "title": "\"Rebound\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045702",
+      "title": "Down Among the Sheltering Palms (1952)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0045317",
+      "title": "We're Not Married! (1952)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0044261",
+      "title": "\"The Doctor\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044238",
+      "title": "\"Biff Baker, U.S.A.\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045415",
+      "title": "\"The Motorola Television Hour\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045449",
+      "title": "\"The United States Steel Hour\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0381727",
+      "title": "\"The Plymouth Playhouse\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045430",
+      "title": "\"The Pepsi-Cola Playhouse\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0267216",
+      "title": "\"The Revlon Mirror Theater\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045395",
+      "title": "\"General Electric Theater\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046648",
+      "title": "\"Studio 57\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046623",
+      "title": "\"Medic\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046587",
+      "title": "\"Climax!\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0383086",
+      "title": "\"Center Stage\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047732",
+      "title": "\"Front Row Center\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047745",
+      "title": "\"Jane Wyman Presents the Fireside Theatre\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047780",
+      "title": "\"TV Reader's Digest\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050073",
+      "title": "\"Wagon Train\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050035",
+      "title": "\"M Squad\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051328",
+      "title": "\"Westinghouse Desilu Playhouse\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052520",
+      "title": "\"The Twilight Zone\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052522",
+      "title": "\"The Untouchables\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052451",
+      "title": "\"Bonanza\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052512",
+      "title": "\"Sunday Showcase\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053491",
+      "title": "\"Checkmate\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053483",
+      "title": "\"The Barbara Stanwyck Show\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053534",
+      "title": "\"Route 66\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0185797",
+      "title": "\"The DuPont Show of the Week\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054532",
+      "title": "\"The Dick Powell Theatre\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054513",
+      "title": "\"Alcoa Premiere\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054550",
+      "title": "\"The Investigators\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054535",
+      "title": "\"Dr. Kildare\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054515",
+      "title": "\"The Americans\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054519",
+      "title": "\"Ben Casey\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055710",
+      "title": "\"The Virginian\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055666",
+      "title": "\"Combat!\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056742",
+      "title": "\"Bob Hope Presents the Chrysler Theatre\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056768",
+      "title": "\"Kraft Suspense Theatre\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056761",
+      "title": "\"The Great Adventure\" (1963)",
+      "reason": "tv series"
     }
   ]
 }

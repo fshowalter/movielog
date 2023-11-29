@@ -17,7 +17,11 @@ class Credit(object):
 
 def valid_notes(credit: imdb.Person.Person) -> bool:
     notes = credit.notes.strip()
-    return "uncredited" not in notes and "scenes deleted" not in notes
+    return (
+        "uncredited" not in notes
+        and "scenes deleted" not in notes
+        and "voice" not in notes
+    )
 
 
 def parse_role(

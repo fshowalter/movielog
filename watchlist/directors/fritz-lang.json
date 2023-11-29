@@ -126,17 +126,21 @@
     {
       "imdbId": "tt0052949",
       "title": "Journey to the Lost City (1960)"
+    }
+    
+    
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt27129263",
+      "title": "Metropolis Retrofit (2023)",
+      "reason": "archive footage"
     },
     {
       "imdbId": "tt9098914",
-      "title": "Die 1000 Glotzb\u00f6bbel vom Dr. Mabuse (2018)"
+      "title": "Die 1000 Glotzb\u00f6bbel vom Dr. Mabuse (2018)",
+      "reason": "dubbed footage"
     },
-    {
-      "imdbId": "tt27129263",
-      "title": "Metropolis Retrofit (2023)"
-    }
-  ],
-  "excludedTitles": [
     {
       "imdbId": "tt0010203",
       "title": "The Halfbreed (1919)",

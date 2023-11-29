@@ -16,6 +16,7 @@ if TYPE_CHECKING:
     from movielog.directors import Director
     from movielog.performers import Performer
     from movielog.person import Person
+    from movielog.writer import Writer
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
 silent_ids: set[str] = set()
@@ -183,7 +184,12 @@ def valid_movies_for_person(  # noqa: WPS231
             )
             continue
 
-        if imdb_movie["kind"] in {"tv series", "music video", "tv mini series"}:
+        if imdb_movie["kind"] in {
+            "tv series",
+            "music video",
+            "tv mini series",
+            "video game",
+        }:
             # log_skip(
             #     imdb_person=imdb_person,
             #     imdb_movie=imdb_movie,
@@ -290,7 +296,7 @@ def valid_for_director(imdb_movie: imdb.Movie.Movie, person: Person) -> Optional
         [
             credit.notes
             for credit in imdb_movie.get("directors", [])
-            if "tt{0}".format(credit.personID) in person.imdbId
+            if "nm{0}".format(credit.personID) in person.imdbId
         ]
     )
 
@@ -307,13 +313,30 @@ def valid_for_performer(imdb_movie: imdb.Movie.Movie, person: Person) -> Optiona
         [
             credit.notes
             for credit in imdb_movie.get("cast", [])
-            if "tt{0}".format(credit.personID) in person.imdbId
+            if "nm{0}".format(credit.personID) in person.imdbId
         ]
     )
 
     imdb_movie.notes = " / ".join(performer_notes)
 
     if not moviedata_api.valid_cast_notes(imdb_movie):
+        return imdb_movie.notes
+
+    return None
+
+
+def valid_for_writer(imdb_movie: imdb.Movie.Movie, person: Person) -> Optional[str]:
+    writer_notes = set(
+        [
+            credit.notes
+            for credit in imdb_movie.get("writers", [])
+            if "nm{0}".format(credit.personID) in person.imdbId
+        ]
+    )
+
+    imdb_movie.notes = " / ".join(writer_notes)
+
+    if not moviedata_api.valid_writer_notes(imdb_movie):
         return imdb_movie.notes
 
     return None
@@ -345,33 +368,8 @@ def for_director(director: Director) -> Director:
     # return movie_list, excluded_movies
 
 
-def for_writer(person_imdb_id: str) -> tuple[list[Movie], list[ExcludedTitle]]:
-    movie_list: list[Movie] = []
-    excluded_movies = []
-
-    for imdb_person, imdb_movie, excluded_titles in valid_movies_for_person(
-        person_imdb_id, "writer"
-    ):
-        writer_notes = [
-            credit.notes
-            for credit in imdb_movie["writers"]
-            if credit.personID == person_imdb_id[2:]
-        ]
-
-        imdb_movie.notes = " / ".join(writer_notes)
-
-        if not moviedata_api.valid_writer_notes(imdb_movie):
-            log_skip(
-                imdb_person=imdb_person,
-                imdb_movie=imdb_movie,
-                reason="({0})".format(imdb_movie.notes),
-            )
-            continue
-
-        movie_list.append(build_movie(imdb_movie))
-        excluded_movies = excluded_titles
-
-    return movie_list, excluded_movies
+def for_writer(writer: Writer) -> Writer:
+    return valid_movies_for_person(writer, "writer", valid_for_writer)
 
 
 def for_performer(performer: Performer) -> Performer:

@@ -1,596 +1,952 @@
 {
-  "frozen": true,
   "name": "Vincent Price",
   "slug": "vincent-price",
-  "imdb_id": "nm0001637",
-  "movies": [
+  "imdbId": "nm0001637",
+  "titles": [
     {
-      "title": "Service de Luxe",
-      "year": 1938,
-      "imdb_id": "tt0030732",
-      "notes": "Robert Wade"
+      "imdbId": "tt0030732",
+      "title": "Service de Luxe (1938)"
     },
     {
-      "title": "The Private Lives of Elizabeth and Essex",
-      "year": 1939,
-      "imdb_id": "tt0031826",
-      "notes": "Sir Walter Raleigh"
+      "imdbId": "tt0032049",
+      "title": "Tower of London (1939)"
     },
     {
-      "title": "Tower of London",
-      "year": 1939,
-      "imdb_id": "tt0032049",
-      "notes": "Duke of Clarence"
+      "imdbId": "tt0031826",
+      "title": "The Private Lives of Elizabeth and Essex (1939)"
     },
     {
-      "title": "The Invisible Man Returns",
-      "year": 1940,
-      "imdb_id": "tt0032635",
-      "notes": "Geoffrey Radcliffe"
+      "imdbId": "tt0032281",
+      "title": "Brigham Young (1940)"
     },
     {
-      "title": "Green Hell",
-      "year": 1940,
-      "imdb_id": "tt0032558",
-      "notes": "David Richardson"
+      "imdbId": "tt0032558",
+      "title": "Green Hell (1940)"
     },
     {
-      "title": "The House of the Seven Gables",
-      "year": 1940,
-      "imdb_id": "tt0032610",
-      "notes": "Clifford Pyncheon"
+      "imdbId": "tt0032635",
+      "title": "The Invisible Man Returns (1940)"
     },
     {
-      "title": "Brigham Young",
-      "year": 1940,
-      "imdb_id": "tt0032281",
-      "notes": "Joseph Smith"
+      "imdbId": "tt0032613",
+      "title": "Hudson's Bay (1940)"
     },
     {
-      "title": "Hudson's Bay",
-      "year": 1940,
-      "imdb_id": "tt0032613",
-      "notes": "King Charles II"
+      "imdbId": "tt0032610",
+      "title": "The House of the Seven Gables (1940)"
     },
     {
-      "title": "The Song of Bernadette",
-      "year": 1943,
-      "imdb_id": "tt0036377",
-      "notes": "Prosecutor Vital Dutour"
+      "imdbId": "tt0036377",
+      "title": "The Song of Bernadette (1943)"
     },
     {
-      "title": "The Eve of St. Mark",
-      "year": 1944,
-      "imdb_id": "tt0036803",
-      "notes": "Pvt. Francis Marion"
+      "imdbId": "tt0036803",
+      "title": "The Eve of St. Mark (1944)"
     },
     {
-      "title": "Wilson",
-      "year": 1944,
-      "imdb_id": "tt0037465",
-      "notes": "William Gibbs McAdoo"
+      "imdbId": "tt0037008",
+      "title": "Laura (1944)"
     },
     {
-      "title": "Laura",
-      "year": 1944,
-      "imdb_id": "tt0037008",
-      "notes": "Shelby Carpenter"
+      "imdbId": "tt0036983",
+      "title": "The Keys of the Kingdom (1944)"
     },
     {
-      "title": "The Keys of the Kingdom",
-      "year": 1944,
-      "imdb_id": "tt0036983",
-      "notes": "Angus Mealey"
+      "imdbId": "tt0037465",
+      "title": "Wilson (1944)"
     },
     {
-      "title": "A Royal Scandal",
-      "year": 1945,
-      "imdb_id": "tt0038040",
-      "notes": "Marquis de Fleury"
+      "imdbId": "tt0037865",
+      "title": "Leave Her to Heaven (1945)"
     },
     {
-      "title": "Leave Her to Heaven",
-      "year": 1945,
-      "imdb_id": "tt0037865",
-      "notes": "Russell Quinton"
+      "imdbId": "tt0038040",
+      "title": "A Royal Scandal (1945)"
     },
     {
-      "title": "Shock",
-      "year": 1946,
-      "imdb_id": "tt0038937",
-      "notes": "Dr. Richard Cross"
+      "imdbId": "tt0038937",
+      "title": "Shock (1946)"
     },
     {
-      "title": "Dragonwyck",
-      "year": 1946,
-      "imdb_id": "tt0038492",
-      "notes": "Nicholas Van Ryn"
+      "imdbId": "tt0038492",
+      "title": "Dragonwyck (1946)"
     },
     {
-      "title": "The Web",
-      "year": 1947,
-      "imdb_id": "tt0039973",
-      "notes": "Andrew Colby"
+      "imdbId": "tt0037089",
+      "title": "Moss Rose (1947)"
     },
     {
-      "title": "The Long Night",
-      "year": 1947,
-      "imdb_id": "tt0039581",
-      "notes": "Maximilian the Great"
+      "imdbId": "tt0039391",
+      "title": "Forever Amber (1947)"
     },
     {
-      "title": "Moss Rose",
-      "year": 1947,
-      "imdb_id": "tt0037089",
-      "notes": "Police Inspector R. Clinner"
+      "imdbId": "tt0039581",
+      "title": "The Long Night (1947)"
     },
     {
-      "title": "Forever Amber",
-      "year": 1947,
-      "imdb_id": "tt0039391",
-      "notes": "Lord Harry Almsbury (scenes deleted)"
+      "imdbId": "tt0039973",
+      "title": "The Web (1947)"
     },
     {
-      "title": "Up in Central Park",
-      "year": 1948,
-      "imdb_id": "tt0040925",
-      "notes": "William Marcy 'Boss' Tweed"
+      "imdbId": "tt0040744",
+      "title": "Rogues' Regiment (1948)"
     },
     {
-      "title": "Abbott and Costello Meet Frankenstein",
-      "year": 1948,
-      "imdb_id": "tt0040068",
-      "notes": "The Invisible Man (voice, uncredited)"
+      "imdbId": "tt0040876",
+      "title": "The Three Musketeers (1948)"
     },
     {
-      "title": "Rogues' Regiment",
-      "year": 1948,
-      "imdb_id": "tt0040744",
-      "notes": "Mark Van Ratten"
+      "imdbId": "tt0040925",
+      "title": "Up in Central Park (1948)"
     },
     {
-      "title": "The Three Musketeers",
-      "year": 1948,
-      "imdb_id": "tt0040876",
-      "notes": "Richelieu"
+      "imdbId": "tt0041149",
+      "title": "Bagdad (1949)"
     },
     {
-      "title": "The Bribe",
-      "year": 1949,
-      "imdb_id": "tt0041207",
-      "notes": "Carwood"
+      "imdbId": "tt0225394",
+      "title": "The Christmas Carol (1949) (TV)"
     },
     {
-      "title": "Bagdad",
-      "year": 1949,
-      "imdb_id": "tt0041149",
-      "notes": "Pasha Ali Nadim"
+      "imdbId": "tt0041207",
+      "title": "The Bribe (1949)"
     },
     {
-      "title": "The Baron of Arizona",
-      "year": 1950,
-      "imdb_id": "tt0042229",
-      "notes": "James Addison Reavis 'The Baron'"
+      "imdbId": "tt0042229",
+      "title": "The Baron of Arizona (1950)"
     },
     {
-      "title": "Champagne for Caesar",
-      "year": 1950,
-      "imdb_id": "tt0042325",
-      "notes": "Burnbridge Waters"
+      "imdbId": "tt0041479",
+      "title": "Curtain Call at Cactus Creek (1950)"
     },
     {
-      "title": "Curtain Call at Cactus Creek",
-      "year": 1950,
-      "imdb_id": "tt0041479",
-      "notes": "Tracy Holland"
+      "imdbId": "tt0042325",
+      "title": "Champagne for Caesar (1950)"
     },
     {
-      "title": "Adventures of Captain Fabian",
-      "year": 1951,
-      "imdb_id": "tt0043264",
-      "notes": "George Brissac"
+      "imdbId": "tt0043264",
+      "title": "Adventures of Captain Fabian (1951)"
     },
     {
-      "title": "His Kind of Woman",
-      "year": 1951,
-      "imdb_id": "tt0043643",
-      "notes": "Mark Cardigan"
+      "imdbId": "tt0043643",
+      "title": "His Kind of Woman (1951)"
     },
     {
-      "title": "The Las Vegas Story",
-      "year": 1952,
-      "imdb_id": "tt0044825",
-      "notes": "Lloyd Rollins"
+      "imdbId": "tt0044825",
+      "title": "The Las Vegas Story (1952)"
     },
     {
-      "title": "House of Wax",
-      "year": 1953,
-      "imdb_id": "tt0045888",
-      "notes": "Prof. Henry Jarrod"
+      "imdbId": "tt0045888",
+      "title": "House of Wax (1953)"
     },
     {
-      "title": "Dangerous Mission",
-      "year": 1954,
-      "imdb_id": "tt0046891",
-      "notes": "Paul Adams"
+      "imdbId": "tt0047200",
+      "title": "The Mad Magician (1954)"
     },
     {
-      "title": "Casanova's Big Night",
-      "year": 1954,
-      "imdb_id": "tt0046834",
-      "notes": "Casanova (uncredited)"
+      "imdbId": "tt0046891",
+      "title": "Dangerous Mission (1954)"
     },
     {
-      "title": "The Mad Magician",
-      "year": 1954,
-      "imdb_id": "tt0047200",
-      "notes": "Don Gallico / Gallico the Great"
+      "imdbId": "tt0048642",
+      "title": "Son of Sinbad (1955)"
     },
     {
-      "title": "Son of Sinbad",
-      "year": 1955,
-      "imdb_id": "tt0048642",
-      "notes": "Omar Khayyam"
+      "imdbId": "tt0049949",
+      "title": "While the City Sleeps (1956)"
     },
     {
-      "title": "Serenade",
-      "year": 1956,
-      "imdb_id": "tt0049737",
-      "notes": "Charles Winthrop"
+      "imdbId": "tt0049833",
+      "title": "The Ten Commandments (1956)"
     },
     {
-      "title": "While the City Sleeps",
-      "year": 1956,
-      "imdb_id": "tt0049949",
-      "notes": "Walter Kyne"
+      "imdbId": "tt0049737",
+      "title": "Serenade (1956)"
     },
     {
-      "title": "The Vagabond King",
-      "year": 1956,
-      "imdb_id": "tt0049909",
-      "notes": "Narrator (voice, uncredited)"
+      "imdbId": "tt0120937",
+      "title": "Collector's Item: The Left Fist of David (1957) (TV)"
     },
     {
-      "title": "The Ten Commandments",
-      "year": 1956,
-      "imdb_id": "tt0049833",
-      "notes": "Baka"
+      "imdbId": "tt0051016",
+      "title": "The Story of Mankind (1957)"
     },
     {
-      "title": "The Story of Mankind",
-      "year": 1957,
-      "imdb_id": "tt0051016",
-      "notes": "Mr. Scratch - The Devil"
+      "imdbId": "tt0051622",
+      "title": "The Fly (1958)"
     },
     {
-      "title": "The Fly",
-      "year": 1958,
-      "imdb_id": "tt0051622",
-      "notes": "Fran\u00e7ois Delambre"
+      "imdbId": "tt0053363",
+      "title": "The Tingler (1959)"
     },
     {
-      "title": "House on Haunted Hill",
-      "year": 1959,
-      "imdb_id": "tt0051744",
-      "notes": "Frederick Loren"
+      "imdbId": "tt0052602",
+      "title": "The Bat (1959)"
     },
     {
-      "title": "The Big Circus",
-      "year": 1959,
-      "imdb_id": "tt0052626",
-      "notes": "Hans Hagenfeld"
+      "imdbId": "tt0052626",
+      "title": "The Big Circus (1959)"
     },
     {
-      "title": "The Tingler",
-      "year": 1959,
-      "imdb_id": "tt0053363",
-      "notes": "Dr. Warren Chapin"
+      "imdbId": "tt0053219",
+      "title": "Return of the Fly (1959)"
     },
     {
-      "title": "Return of the Fly",
-      "year": 1959,
-      "imdb_id": "tt0053219",
-      "notes": "Francois Delambre"
+      "imdbId": "tt0051744",
+      "title": "House on Haunted Hill (1959)"
     },
     {
-      "title": "The Bat",
-      "year": 1959,
-      "imdb_id": "tt0052602",
-      "notes": "Dr. Malcolm Wells"
+      "imdbId": "tt0217090",
+      "title": "Family Classics: The Three Musketeers (1960) (TV)"
     },
     {
-      "title": "House of Usher",
-      "year": 1960,
-      "imdb_id": "tt0053925",
-      "notes": "Roderick Usher"
+      "imdbId": "tt0053925",
+      "title": "House of Usher (1960)"
     },
     {
-      "title": "Master of the World",
-      "year": 1961,
-      "imdb_id": "tt0055152",
-      "notes": "Robur"
+      "imdbId": "tt0055222",
+      "title": "Queen of the Nile (1961)"
     },
     {
-      "title": "Pit and the Pendulum",
-      "year": 1961,
-      "imdb_id": "tt0055304",
-      "notes": "Nicholas Medina / Sebastian Medina"
+      "imdbId": "tt0055152",
+      "title": "Master of the World (1961)"
     },
     {
-      "title": "Queen of the Nile",
-      "year": 1961,
-      "imdb_id": "tt0055222",
-      "notes": "Benakon"
+      "imdbId": "tt0054937",
+      "title": "Rage of the Buccaneers (1961)"
     },
     {
-      "title": "Rage of the Buccaneers",
-      "year": 1961,
-      "imdb_id": "tt0054937",
-      "notes": "Romero"
+      "imdbId": "tt2009474",
+      "title": "Famous Ghost Stories (1961) (TV)"
     },
     {
-      "title": "Confessions of an Opium Eater",
-      "year": 1962,
-      "imdb_id": "tt0055864",
-      "notes": "Gilbert De Quincey"
+      "imdbId": "tt0055304",
+      "title": "The Pit and the Pendulum (1961)"
     },
     {
-      "title": "Tales of Terror",
-      "year": 1962,
-      "imdb_id": "tt0056552",
-      "notes": "Locke / Fortunato Luchresi / Ernest Valdemar"
+      "imdbId": "tt0056552",
+      "title": "Tales of Terror (1962)"
     },
     {
-      "title": "Convicts 4",
-      "year": 1962,
-      "imdb_id": "tt0055868",
-      "notes": "Carl Carmer"
+      "imdbId": "tt0056606",
+      "title": "Tower of London (1962)"
     },
     {
-      "title": "Tower of London",
-      "year": 1962,
-      "imdb_id": "tt0056606",
-      "notes": "Richard of Gloucester"
+      "imdbId": "tt0055864",
+      "title": "Confessions of an Opium Eater (1962)"
     },
     {
-      "title": "The Raven",
-      "year": 1963,
-      "imdb_id": "tt0057449",
-      "notes": "Dr. Erasmus Craven"
+      "imdbId": "tt0055868",
+      "title": "Convicts 4 (1962)"
     },
     {
-      "title": "Diary of a Madman",
-      "year": 1963,
-      "imdb_id": "tt0056993",
-      "notes": "Magistrate Simon Cordier"
+      "imdbId": "tt0056943",
+      "title": "The Comedy of Terrors (1963)"
     },
     {
-      "title": "Beach Party",
-      "year": 1963,
-      "imdb_id": "tt0056860",
-      "notes": "Big Daddy"
+      "imdbId": "tt0056993",
+      "title": "Diary of a Madman (1963)"
     },
     {
-      "title": "The Haunted Palace",
-      "year": 1963,
-      "imdb_id": "tt0057128",
-      "notes": "Charles Dexter Ward / Joseph Curwen"
+      "imdbId": "tt0056860",
+      "title": "Beach Party (1963)"
     },
     {
-      "title": "Twice-Told Tales",
-      "year": 1963,
-      "imdb_id": "tt0057608",
-      "notes": "Alex Medbourne / Dr. Giacomo Rappaccini / Gerald Pyncheon"
+      "imdbId": "tt0057449",
+      "title": "The Raven (1963)"
     },
     {
-      "title": "The Comedy of Terrors",
-      "year": 1963,
-      "imdb_id": "tt0056943",
-      "notes": "Waldo Trumbull"
+      "imdbId": "tt0057128",
+      "title": "The Haunted Palace (1963)"
     },
     {
-      "title": "The Last Man on Earth",
-      "year": 1964,
-      "imdb_id": "tt0058700",
-      "notes": "Dr. Robert Morgan"
+      "imdbId": "tt0057608",
+      "title": "Twice-Told Tales (1963)"
     },
     {
-      "title": "The Masque of the Red Death",
-      "year": 1964,
-      "imdb_id": "tt0058333",
-      "notes": "Prince Prospero"
+      "imdbId": "tt0059821",
+      "title": "The Tomb of Ligeia (1964)"
     },
     {
-      "title": "The Tomb of Ligeia",
-      "year": 1964,
-      "imdb_id": "tt0059821",
-      "notes": "Verden Fell"
+      "imdbId": "tt0058333",
+      "title": "The Masque of the Red Death (1964)"
     },
     {
-      "title": "City in the Sea",
-      "year": 1965,
-      "imdb_id": "tt0059895",
-      "notes": "The Captain, Sir Hugh"
+      "imdbId": "tt0058700",
+      "title": "The Last Man on Earth (1964)"
     },
     {
-      "title": "Dr. Goldfoot and the Bikini Machine",
-      "year": 1965,
-      "imdb_id": "tt0059124",
-      "notes": "Dr. Goldfoot"
+      "imdbId": "tt0059895",
+      "title": "City in the Sea (1965)"
     },
     {
-      "title": "Dr. Goldfoot and the Girl Bombs",
-      "year": 1966,
-      "imdb_id": "tt0061014",
-      "notes": "Dr. Goldfoot / General Willis"
+      "imdbId": "tt0309072",
+      "title": "The Wild Weird World of Dr. Goldfoot (1965) (TV)"
     },
     {
-      "title": "House of 1,000 Dolls",
-      "year": 1967,
-      "imdb_id": "tt0061451",
-      "notes": "Felix Manderville"
+      "imdbId": "tt0059124",
+      "title": "Dr. Goldfoot and the Bikini Machine (1965)"
     },
     {
-      "title": "The Jackals",
-      "year": 1967,
-      "imdb_id": "tt0061832",
-      "notes": "Oupa Decker"
+      "imdbId": "tt0061014",
+      "title": "Dr. Goldfoot and the Girl Bombs (1966)"
     },
     {
-      "title": "Witchfinder General",
-      "year": 1968,
-      "imdb_id": "tt0063285",
-      "notes": "Matthew Hopkins"
+      "imdbId": "tt1391464",
+      "title": "Clown Alley (1966) (TV)"
     },
     {
-      "title": "Spirits of the Dead",
-      "year": 1968,
-      "imdb_id": "tt0063715",
-      "notes": "Narrator (English version, voice, uncredited)"
+      "imdbId": "tt0061451",
+      "title": "House of 1,000 Dolls (1967)"
     },
     {
-      "title": "More Dead Than Alive",
-      "year": 1969,
-      "imdb_id": "tt0064695",
-      "notes": "Dan Ruffalo"
+      "imdbId": "tt0061832",
+      "title": "The Jackals (1967)"
     },
     {
-      "title": "The Trouble with Girls",
-      "year": 1969,
-      "imdb_id": "tt0065125",
-      "notes": "Mr. Morality"
+      "imdbId": "tt0063285",
+      "title": "Witchfinder General (1968)"
     },
     {
-      "title": "The Oblong Box",
-      "year": 1969,
-      "imdb_id": "tt0064747",
-      "notes": "Julian"
+      "imdbId": "tt0065125",
+      "title": "The Trouble with Girls (1969)"
     },
     {
-      "title": "Scream and Scream Again",
-      "year": 1970,
-      "imdb_id": "tt0064949",
-      "notes": "Dr. Browning"
+      "imdbId": "tt0064747",
+      "title": "The Oblong Box (1969)"
     },
     {
-      "title": "Cry of the Banshee",
-      "year": 1970,
-      "imdb_id": "tt0065597",
-      "notes": "Lord Edward Whitman"
+      "imdbId": "tt0064695",
+      "title": "More Dead Than Alive (1969)"
     },
     {
-      "title": "The Abominable Dr. Phibes",
-      "year": 1971,
-      "imdb_id": "tt0066740",
-      "notes": "Dr. Anton Phibes"
+      "imdbId": "tt0065597",
+      "title": "Cry of the Banshee (1970)"
     },
     {
-      "title": "Dr. Phibes Rises Again",
-      "year": 1972,
-      "imdb_id": "tt0068503",
-      "notes": "Dr. Anton Phibes"
+      "imdbId": "tt0301143",
+      "title": "Cucumber Castle (1970) (TV)"
     },
     {
-      "title": "Theater of Blood",
-      "year": 1973,
-      "imdb_id": "tt0070791",
-      "notes": "Edward Lionheart"
+      "imdbId": "tt0064949",
+      "title": "Scream and Scream Again (1970)"
     },
     {
-      "title": "Madhouse",
-      "year": 1974,
-      "imdb_id": "tt0071790",
-      "notes": "Paul Toombes"
+      "imdbId": "tt0229371",
+      "title": "An Evening of Edgar Allan Poe (1970)"
     },
     {
-      "title": "It's Not the Size That Counts",
-      "year": 1974,
-      "imdb_id": "tt0071677",
-      "notes": "Stavos Mammonian"
+      "imdbId": "tt0066740",
+      "title": "The Abominable Dr. Phibes (1971)"
     },
     {
-      "title": "Journey Into Fear",
-      "year": 1975,
-      "imdb_id": "tt0073213",
-      "notes": "Dervos"
+      "imdbId": "tt0067974",
+      "title": "What's a Nice Girl Like You...? (1971) (TV)"
     },
     {
-      "title": "The Butterfly Ball",
-      "year": 1977,
-      "imdb_id": "tt0074260",
-      "notes": "Narrator"
+      "imdbId": "tt0068503",
+      "title": "Dr. Phibes Rises Again (1972)"
     },
     {
-      "title": "Scavenger Hunt",
-      "year": 1979,
-      "imdb_id": "tt0079858",
-      "notes": "Milton Parker"
+      "imdbId": "tt0070791",
+      "title": "Theater of Blood (1973)"
     },
     {
-      "title": "I Go Pogo",
-      "year": 1980,
-      "imdb_id": "tt0087925",
-      "notes": "Deacon Mushrat (voice)"
+      "imdbId": "tt0284316",
+      "title": "Mooch (1974) (TV)"
     },
     {
-      "title": "The Monster Club",
-      "year": 1981,
-      "imdb_id": "tt0081178",
-      "notes": "Eramus (Segment \"The Monster Club\")"
+      "imdbId": "tt0071790",
+      "title": "Madhouse (1974)"
     },
     {
-      "title": "House of the Long Shadows",
-      "year": 1983,
-      "imdb_id": "tt0085693",
-      "notes": "Lionel Grisbane"
+      "imdbId": "tt0071677",
+      "title": "It's Not the Size That Counts (1974)"
     },
     {
-      "title": "Bloodbath at the House of Death",
-      "year": 1984,
-      "imdb_id": "tt0086981",
-      "notes": "Sinister Man"
+      "imdbId": "tt0072624",
+      "title": "Alice Cooper: The Nightmare (1975) (TV)"
     },
     {
-      "title": "The Great Mouse Detective",
-      "year": 1986,
-      "imdb_id": "tt0091149",
-      "notes": "Professor Ratigan (voice)"
+      "imdbId": "tt0073213",
+      "title": "Journey Into Fear (1975)"
     },
     {
-      "title": "From a Whisper to a Scream",
-      "year": 1987,
-      "imdb_id": "tt0091671",
-      "notes": "Julian White"
+      "imdbId": "tt0362824",
+      "title": "Lindsay Wagner: Another Side of Me (1977)"
     },
     {
-      "title": "The Whales of August",
-      "year": 1987,
-      "imdb_id": "tt0094315",
-      "notes": "Mr. Maranov"
+      "imdbId": "tt0074260",
+      "title": "The Butterfly Ball (1977)"
     },
     {
-      "title": "Dead Heat",
-      "year": 1988,
-      "imdb_id": "tt0094961",
-      "notes": "Arthur P. Loudermilk"
+      "imdbId": "tt0077071",
+      "title": "Ringo (1978) (TV)"
     },
     {
-      "title": "Catchfire",
-      "year": 1990,
-      "imdb_id": "tt0096875",
-      "notes": "Mr. Avoca"
+      "imdbId": "tt0078327",
+      "title": "The Strange Case of Alice Cooper (1979) (TV)"
     },
     {
-      "title": "Edward Scissorhands",
-      "year": 1990,
-      "imdb_id": "tt0099487",
-      "notes": "The Inventor"
+      "imdbId": "tt0079858",
+      "title": "Scavenger Hunt (1979)"
     },
     {
-      "title": "The Thief and the Cobbler",
-      "year": 1993,
-      "imdb_id": "tt0112389",
-      "notes": "ZigZag (voice)"
+      "imdbId": "tt0081178",
+      "title": "The Monster Club (1981)"
+    },
+    {
+      "imdbId": "tt0082121",
+      "title": "Bustin' Loose (1981)"
+    },
+    {
+      "imdbId": "tt8263566",
+      "title": "Chris and the Magical Drip (1981) (TV)"
+    },
+    {
+      "imdbId": "tt0184871",
+      "title": "Ruddigore (1983) (TV)"
+    },
+    {
+      "imdbId": "tt0249567",
+      "title": "Hansel and Gretel (1983) (TV)"
+    },
+    {
+      "imdbId": "tt0085693",
+      "title": "House of the Long Shadows (1983)"
+    },
+    {
+      "imdbId": "tt0086981",
+      "title": "Bloodbath at the House of Death (1984)"
+    },
+    {
+      "imdbId": "tt0091016",
+      "title": "Escapes (1986) (TV)"
+    },
+    {
+      "imdbId": "tt0091671",
+      "title": "From a Whisper to a Scream (1987)"
+    },
+    {
+      "imdbId": "tt0094315",
+      "title": "The Whales of August (1987)"
+    },
+    {
+      "imdbId": "tt0094961",
+      "title": "Dead Heat (1988)"
+    },
+    {
+      "imdbId": "tt0096875",
+      "title": "Catchfire (1990)"
+    },
+    {
+      "imdbId": "tt0099487",
+      "title": "Edward Scissorhands (1990)"
+    },
+    {
+      "imdbId": "tt0104400",
+      "title": "The Heart of Justice (1992) (TV)"
+    },
+    {
+      "imdbId": "tt29732758",
+      "title": "Synthwave Horror: House on Haunted Hill (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0041037",
+      "title": "\"Lights Out\" (1946)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0040068",
+      "title": "Abbott and Costello Meet Frankenstein (1948)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0041023",
+      "title": "\"Fireside Theatre\" (1949)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt12479588",
+      "title": "\"The Croupier\" (1949) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0042141",
+      "title": "\"Robert Montgomery Presents\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042116",
+      "title": "\"The Jack Benny Program\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042123",
+      "title": "\"Lux Video Theatre\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042138",
+      "title": "\"Pulitzer Prize Playhouse\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043224",
+      "title": "\"The Red Skelton Hour\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043228",
+      "title": "\"Schlitz Playhouse\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0324840",
+      "title": "\"Gruen Guild Theater\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0379096",
+      "title": "\"Chesterfield Presents\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045433",
+      "title": "\"The Philip Morris Playhouse\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045449",
+      "title": "\"The United States Steel Hour\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0381727",
+      "title": "\"The Plymouth Playhouse\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045395",
+      "title": "\"General Electric Theater\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045441",
+      "title": "\"Summer Theatre\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046648",
+      "title": "\"Studio 57\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046834",
+      "title": "Casanova's Big Night (1954)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0046587",
+      "title": "\"Climax!\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046604",
+      "title": "\"The George Gobel Show\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt1982867",
+      "title": "The Orange Coast College Story (1954)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0048663",
+      "title": "Born in Freedom: The Story of Colonel Drake (1954)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0046643",
+      "title": "\"Shower of Stars\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047708",
+      "title": "\"Alfred Hitchcock Presents\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047767",
+      "title": "\"Science Fiction Theatre\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047730",
+      "title": "\"The Eddie Cantor Comedy Theater\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047756",
+      "title": "\"Matinee Theatre\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047707",
+      "title": "\"The Alcoa Hour\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047745",
+      "title": "\"Jane Wyman Presents the Fireside Theatre\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047724",
+      "title": "\"Crossroads\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047780",
+      "title": "\"TV Reader's Digest\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048893",
+      "title": "\"Playhouse 90\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0049909",
+      "title": "The Vagabond King (1956)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0050025",
+      "title": "\"Have Gun - Will Travel\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt12453326",
+      "title": "Chesscetera (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt10525134",
+      "title": "\"Campy's Corner\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052440",
+      "title": "\"Adventures in Paradise\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052506",
+      "title": "\"Riverboat\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052511",
+      "title": "\"Startime\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt7611730",
+      "title": "\"Expedition!\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053539",
+      "title": "\"The Chevy Mystery Show\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0360247",
+      "title": "\"The Best of the Post\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056748",
+      "title": "\"The Danny Kaye Show\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0057742",
+      "title": "\"Daniel Boone\" (1964)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0057765",
+      "title": "\"The Man from U.N.C.L.E.\" (1964)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt17634020",
+      "title": "Tombstone's Historama (1964)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0057798",
+      "title": "\"Voyage to the Bottom of the Sea\" (1964)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0058800",
+      "title": "\"F Troop\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0165593",
+      "title": "\"BBC Play of the Month\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0058805",
+      "title": "\"Get Smart\" (1965)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0059968",
+      "title": "\"Batman\" (1966)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0061240",
+      "title": "\"The Carol Burnett Show\" (1967)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0062601",
+      "title": "\"Rowan & Martin's Laugh-In\" (1967)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0062570",
+      "title": "\"Here's Lucy\" (1968)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0063715",
+      "title": "Spirits of the Dead (1968)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0062567",
+      "title": "\"The Good Guys\" (1968)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0062589",
+      "title": "\"Mod Squad\" (1968)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0063878",
+      "title": "\"The Brady Bunch\" (1969)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0065327",
+      "title": "\"Night Gallery\" (1969)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0063925",
+      "title": "\"Love, American Style\" (1969)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2006687",
+      "title": "World Wide Adventures: Annabel Lee (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0071416",
+      "title": "The Devil's Triangle (1971)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0066673",
+      "title": "\"The Jimmy Stewart Show\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0066662",
+      "title": "\"Chevrolet Presents the Golddiggers\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0066644",
+      "title": "\"Curiosity Shop\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt1466074",
+      "title": "\"Columbo\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0066670",
+      "title": "\"The Hilarious House of Frightenstein\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0249577",
+      "title": "Here Comes Peter Cottontail (1971) (TV)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0069633",
+      "title": "\"The Snoop Sisters\" (1972)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0072496",
+      "title": "\"Ellery Queen\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0075419",
+      "title": "Alice Cooper: Welcome to My Nightmare (Concert Feature) (1975)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt4773444",
+      "title": "\"Consumer Survival Kit\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0073985",
+      "title": "\"Donny and Marie\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2388808",
+      "title": "\"Standing Room Only\" (1976)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0073965",
+      "title": "\"The Bionic Woman\" (1976)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0075485",
+      "title": "\"The Brady Bunch Variety Hour\" (1976)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0075529",
+      "title": "\"The Love Boat\" (1977)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2730240",
+      "title": "L\u00e9gendes du Qu\u00e9bec (1977)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0078702",
+      "title": "\"Time Express\" (1979)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0078704",
+      "title": "\"Trapper John, M.D.\" (1979)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0087925",
+      "title": "I Go Pogo (1980)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt1475429",
+      "title": "The Sorcerer's Apprentice (1980)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0084868",
+      "title": "Vincent (1982)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0199214",
+      "title": "\"Faerie Tale Theatre\" (1982)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0083975",
+      "title": "Fun with Mr. Future (1982)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0088263",
+      "title": "Michael Jackson: Thriller (1983)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0088628",
+      "title": "\"The 13 Ghosts of Scooby-Doo\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt3579746",
+      "title": "Simon & Schuster Communications (1985) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt5090166",
+      "title": "\"The Greatest Adventure: Stories from the Bible\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0090398",
+      "title": "\"Blacke's Magic\" (1986)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0091149",
+      "title": "The Great Mouse Detective (1986)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0300143",
+      "title": "The Little Troll Prince (1987) (TV)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0378792",
+      "title": "Sparky's Magic Piano (1987) (V)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0302848",
+      "title": "The Nativity (1987) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt4792484",
+      "title": "\"Read, Write and Draw\" (1987)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt12373420",
+      "title": "Ghost Ship (1988) (TV)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0098929",
+      "title": "\"Tiny Toon Adventures\" (1990)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0112389",
+      "title": "The Thief and the Cobbler (1993)",
+      "reason": "(voice)"
     }
   ]
 }
