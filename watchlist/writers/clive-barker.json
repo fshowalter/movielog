@@ -1,92 +1,203 @@
 {
-  "frozen": false,
   "name": "Clive Barker",
   "slug": "clive-barker",
-  "imdb_id": "nm0000850",
-  "movies": [
+  "imdbId": "nm0000850",
+  "titles": [
     {
-      "title": "Underworld",
-      "year": 1985,
-      "imdb_id": "tt0090233",
-      "notes": "(screenplay) / (story)"
+      "imdbId": "tt0090233",
+      "title": "Underworld (1985)"
     },
     {
-      "title": "Rawhead Rex",
-      "year": 1986,
-      "imdb_id": "tt0091829",
-      "notes": "(screenplay)"
+      "imdbId": "tt0091829",
+      "title": "Rawhead Rex (1986)"
     },
     {
-      "title": "Hellraiser",
-      "year": 1987,
-      "imdb_id": "tt0093177",
-      "notes": "(written by) / (novel) (uncredited)"
+      "imdbId": "tt0093177",
+      "title": "Hellraiser (1987)"
     },
     {
-      "title": "Hellbound: Hellraiser II",
-      "year": 1988,
-      "imdb_id": "tt0095294",
-      "notes": "(based on a story by)"
+      "imdbId": "tt0095294",
+      "title": "Hellbound: Hellraiser II (1988)"
     },
     {
-      "title": "Nightbreed",
-      "year": 1990,
-      "imdb_id": "tt0100260",
-      "notes": "(novel) / (screenplay)"
+      "imdbId": "tt0100260",
+      "title": "Nightbreed (1990)"
     },
     {
-      "title": "Candyman",
-      "year": 1992,
-      "imdb_id": "tt0103919",
-      "notes": "(based on \"The Forbidden\" by)"
+      "imdbId": "tt0103919",
+      "title": "Candyman (1992)"
     },
     {
-      "title": "Candyman: Farewell to the Flesh",
-      "year": 1995,
-      "imdb_id": "tt0112625",
-      "notes": "(story by)"
+      "imdbId": "tt0113690",
+      "title": "Lord of Illusions (1995)"
     },
     {
-      "title": "Lord of Illusions",
-      "year": 1995,
-      "imdb_id": "tt0113690",
-      "notes": "(story \"The Last Illusion\") / (screenplay)"
+      "imdbId": "tt0112625",
+      "title": "Candyman: Farewell to the Flesh (1995)"
     },
     {
-      "title": "The Midnight Meat Train",
-      "year": 2008,
-      "imdb_id": "tt0805570",
-      "notes": "(short story \"The Midnight Meat Train\")"
+      "imdbId": "tt0119975",
+      "title": "Quicksilver Highway (1997) (TV)"
     },
     {
-      "title": "Book of Blood",
-      "year": 2009,
-      "imdb_id": "tt1169809",
-      "notes": "(short stories \"The Book of Blood\" and \"On Jerusalem Street\")"
+      "imdbId": "tt0313016",
+      "title": "Saint Sinner (2002) (TV)"
     },
     {
-      "title": "Dread",
-      "year": 2009,
-      "imdb_id": "tt1331307",
-      "notes": "(based upon the short story \"Dread\" by)"
+      "imdbId": "tt0805570",
+      "title": "The Midnight Meat Train (2008)"
     },
     {
-      "title": "Books of Blood",
-      "year": 2020,
-      "imdb_id": "tt11242218",
-      "notes": "(from the story 'The Book of Blood' by)"
+      "imdbId": "tt1169809",
+      "title": "Book of Blood (2009)"
     },
     {
-      "title": "Candyman",
-      "year": 2021,
-      "imdb_id": "tt9347730",
-      "notes": "(based on the short story \"The Forbidden\" by)"
+      "imdbId": "tt1331307",
+      "title": "Dread (2009)"
     },
     {
-      "title": "Hellraiser",
-      "year": 2022,
-      "imdb_id": "tt0887261",
-      "notes": "(based on the book by)"
+      "imdbId": "tt11242218",
+      "title": "Books of Blood (2020)"
+    },
+    {
+      "imdbId": "tt9347730",
+      "title": "Candyman (2021)"
+    },
+    {
+      "imdbId": "tt0887261",
+      "title": "Hellraiser (2022)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0070624",
+      "title": "Salome (1973)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0077571",
+      "title": "The Forbidden (1978)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0086814",
+      "title": "\"Tales from the Darkside\" (1983)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt6224998",
+      "title": "Nightbreed: The Action Game (1990) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt6224874",
+      "title": "Nightbreed: The Interactive Movie (1990) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt2354075",
+      "title": "Hellraiser (1991) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt5181898",
+      "title": "Mot\u00f6rhead: Hellraiser (1992)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0104409",
+      "title": "Hellraiser III: Hell on Earth (1992)",
+      "reason": "(based on characters created by)"
+    },
+    {
+      "imdbId": "tt2501622",
+      "title": "Clive Barker's Salom\u00e9 & The Forbidden (1998) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0165662",
+      "title": "Candyman: Day of the Dead (1999) (V)",
+      "reason": "(based upon characters created by)"
+    },
+    {
+      "imdbId": "tt0229440",
+      "title": "Hellraiser: Inferno (2000) (V)",
+      "reason": "(based on characters created by)"
+    },
+    {
+      "imdbId": "tt0276592",
+      "title": "Undying (2001) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt0274546",
+      "title": "Hellraiser: Hellseeker (2002) (V)",
+      "reason": "(characters)"
+    },
+    {
+      "imdbId": "tt0337636",
+      "title": "Hellraiser: Deader (2005) (V)",
+      "reason": "(based on characters created by)"
+    },
+    {
+      "imdbId": "tt0448190",
+      "title": "\"Masters of Horror\" (2005)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0354623",
+      "title": "Hellraiser: Hellworld (2005) (V)",
+      "reason": "(characters)"
+    },
+    {
+      "imdbId": "tt0478136",
+      "title": "Demonik (2006) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt0805545",
+      "title": "Hellraiser: Prophecy (2006)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1135590",
+      "title": "Jericho (2007) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt1523299",
+      "title": "Hellraiser: Deader - Winter's Lament (2009)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1716747",
+      "title": "Hellraiser: Revelations (2011)",
+      "reason": "(based on characters created by)"
+    },
+    {
+      "imdbId": "tt5476182",
+      "title": "Hellraiser: Judgment (2018) (V)",
+      "reason": "(based on characters created by)"
+    },
+    {
+      "imdbId": "tt12571424",
+      "title": "Cineficci\u00f3n Radio (2019)",
+      "reason": "podcast series"
+    },
+    {
+      "imdbId": "tt14695412",
+      "title": "Chatterer: A Hellraiser Fan Film (2020)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12209072",
+      "title": "\"Hellbound Laments\" (2020)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt28655477",
+      "title": "I Am Monsters! (2023)",
+      "reason": "Documentary"
     }
   ]
 }

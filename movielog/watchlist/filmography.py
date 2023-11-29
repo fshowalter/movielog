@@ -144,6 +144,31 @@ def valid_movies_for_person(  # noqa: WPS231
 
         filmography = set.intersection(*filmographies)
 
+    existing_title_ids = set([title["imdbId"][2:] for title in person.titles])
+
+    missing_ids = existing_title_ids - filmography
+
+    for missing_id in missing_ids:
+        missing_title = next(
+            (title for title in person.titles if title["imdbId"][2:] == missing_id),
+            None,
+        )
+
+        if missing_title:
+            person.titles.remove(missing_title)
+
+        missing_excluded_title = next(
+            (
+                excluded_title
+                for excluded_title in person.excludedTitles
+                if excluded_title["imdbId"][2:] == missing_id
+            ),
+            None,
+        )
+
+        if missing_excluded_title:
+            person.excludedTitles.remove(missing_excluded_title)
+
     for imdb_id in filmography:
         excluded_title = next(
             (
@@ -184,11 +209,10 @@ def valid_movies_for_person(  # noqa: WPS231
             )
             continue
 
-        if imdb_movie["kind"] in {
-            "tv series",
-            "music video",
-            "tv mini series",
-            "video game",
+        if imdb_movie["kind"] not in {
+            "movie",
+            "tv movie",
+            "video movie",
         }:
             # log_skip(
             #     imdb_person=imdb_person,

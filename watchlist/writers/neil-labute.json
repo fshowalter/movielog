@@ -1,80 +1,179 @@
 {
-  "frozen": false,
   "name": "Neil LaBute",
   "slug": "neil-labute",
-  "imdb_id": "nm0001438",
-  "movies": [
+  "imdbId": "nm0001438",
+  "titles": [
     {
-      "title": "In the Company of Men",
-      "year": 1997,
-      "imdb_id": "tt0119361",
-      "notes": ""
+      "imdbId": "tt0119361",
+      "title": "In the Company of Men (1997)"
     },
     {
-      "title": "Your Friends and Neighbors",
-      "year": 1998,
-      "imdb_id": "tt0119517",
-      "notes": ""
+      "imdbId": "tt0119517",
+      "title": "Your Friends and Neighbors (1998)"
     },
     {
-      "title": "Possession",
-      "year": 2002,
-      "imdb_id": "tt0256276",
-      "notes": ""
+      "imdbId": "tt0259210",
+      "title": "Bash: Latter-Day Plays (2001) (TV)"
     },
     {
-      "title": "The Shape of Things",
-      "year": 2003,
-      "imdb_id": "tt0308878",
-      "notes": ""
+      "imdbId": "tt0256276",
+      "title": "Possession (2002)"
     },
     {
-      "title": "The Wicker Man",
-      "year": 2006,
-      "imdb_id": "tt0450345",
-      "notes": ""
+      "imdbId": "tt0308878",
+      "title": "The Shape of Things (2003)"
     },
     {
-      "title": "Some Girl",
-      "year": 2013,
-      "imdb_id": "tt2201221",
-      "notes": "(S)"
+      "imdbId": "tt0450345",
+      "title": "The Wicker Man (2006)"
     },
     {
-      "title": "Some Velvet Morning",
-      "year": 2013,
-      "imdb_id": "tt2231138",
-      "notes": ""
+      "imdbId": "tt2644980",
+      "title": "Stars in Shorts (2012)"
     },
     {
-      "title": "My America",
-      "year": 2014,
-      "imdb_id": "tt3831696",
-      "notes": ""
+      "imdbId": "tt2231138",
+      "title": "Some Velvet Morning (2013)"
     },
     {
-      "title": "Dirty Weekend",
-      "year": 2015,
-      "imdb_id": "tt3194590",
-      "notes": ""
+      "imdbId": "tt2201221",
+      "title": "Some Girl(S) (2013)"
     },
     {
-      "title": "Berlin, I Love You",
-      "year": 2019,
-      "imdb_id": "tt2275743",
-      "notes": ""
+      "imdbId": "tt3831696",
+      "title": "My America (2014)"
     },
     {
-      "title": "House of Darkness",
-      "year": 2022,
-      "imdb_id": "tt18224610",
-      "notes": ""
+      "imdbId": "tt3194590",
+      "title": "Dirty Weekend (2015)"
     },
     {
-      "title": "Out of the Blue",
-      "year": 2022,
-      "imdb_id": "tt15333788",
-      "notes": ""
+      "imdbId": "tt2275743",
+      "title": "Berlin, I Love You (2019)"
+    },
+    {
+      "imdbId": "tt15333788",
+      "title": "Out of the Blue (2022)"
+    },
+    {
+      "imdbId": "tt18224610",
+      "title": "House of Darkness (2022)"
+    },
+    {
+      "imdbId": "tt19848268",
+      "title": "Fear the Night (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0391507",
+      "title": "Tumble (2000)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1756726",
+      "title": "Sexting (2010)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1806808",
+      "title": "Bench Seat (2011)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1776052",
+      "title": "After-School Special (2011)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt26626400",
+      "title": "Sweet Nothings (2011)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2095628",
+      "title": "Double or Nothing (2012)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3147424",
+      "title": "\"My America\" (2012)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2275545",
+      "title": "BFF (2012)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2232006",
+      "title": "Denise (2012)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2888334",
+      "title": "\"Full Circle\" (2013)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt3693122",
+      "title": "\"Ten X Ten\" (2014) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt3544138",
+      "title": "It's Okay (2014)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt4277268",
+      "title": "\"Billy & Billie\" (2015)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt5197820",
+      "title": "\"Van Helsing\" (2016)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt5571750",
+      "title": "The Mulberry Bush (2016)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt5811556",
+      "title": "Black Chicks (2017)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6079578",
+      "title": "Good Luck: In Farsi (2017)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6169398",
+      "title": "10 K (2017)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6587378",
+      "title": "\"Staging Film\" (2017)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt9067020",
+      "title": "\"The I-Land\" (2019) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt4257262",
+      "title": "\"American Gigolo\" (2022)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt11213858",
+      "title": "Sparring Partner (2022)",
+      "reason": "Short"
     }
   ]
 }
