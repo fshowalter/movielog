@@ -3,13 +3,10 @@
   "slug": "lucio-fulci",
   "imdbId": "nm0002086",
   "titles": [
-
-    
     {
       "imdbId": "tt0061074",
       "title": "Massacre Time (1966)"
     },
-    
     {
       "imdbId": "tt0065148",
       "title": "One on Top of the Other (1969)"
@@ -22,7 +19,6 @@
       "imdbId": "tt0067361",
       "title": "A Lizard in a Woman's Skin (1971)"
     },
-    
     {
       "imdbId": "tt0069019",
       "title": "Don't Torture a Duckling (1972)"
@@ -39,7 +35,6 @@
       "imdbId": "tt0073594",
       "title": "The Four of the Apocalypse... (1975)"
     },
-    
     {
       "imdbId": "tt0075614",
       "title": "Murder to the Tune of the Seven Black Notes (1977)"
@@ -143,38 +138,53 @@
   ],
   "excludedTitles": [
     {
-      "imdbId": "tt0072771",
-      "title": "Dracula in the Provinces (1975)",
+      "imdbId": "tt9504594",
+      "title": "Una lezione di sistema con Fulvio Bernardini (1948)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt9504368",
+      "title": "Pittori italiani del dopoguerra (1948)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt12544204",
+      "title": "Il sogno di Icaro (1948)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt8917978",
+      "title": "Pittori di provincia (I macchiaioli) (1953)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0052985",
+      "title": "I ladri (1959)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0075101",
-      "title": "My Sister in Law (1976)",
+      "imdbId": "tt0053207",
+      "title": "Ragazzi del Juke-Box (1959)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0068193",
-      "title": "The Eroticist (1972)",
-      "reason": "Comedy"
-    },
-    {
-      "imdbId": "tt0061499",
-      "title": "Come rubammo la bomba atomica (1967)",
-      "reason": "Comedy"
-    },
-    {
-      "imdbId": "tt0061925",
-      "title": "Il lungo, il corto, il gatto (1967)",
-      "reason": "Comedy"
-    },
-    {
-      "imdbId": "tt0061324",
-      "title": "Operation St. Peter's (1967)",
+      "imdbId": "tt0053401",
+      "title": "Howlers of the Dock (1960)",
       "reason": "Comedy"
     },
     {
       "imdbId": "tt0057294",
       "title": "Le massaggiatrici (1962)",
+      "reason": "Comedy"
+    },
+    {
+      "imdbId": "tt0055856",
+      "title": "Colpo gobbo all'italiana (1962)",
+      "reason": "Comedy"
+    },
+    {
+      "imdbId": "tt0055937",
+      "title": "I due della legione (1962)",
       "reason": "Comedy"
     },
     {
@@ -228,49 +238,34 @@
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0052985",
-      "title": "I ladri (1959)",
+      "imdbId": "tt0061499",
+      "title": "Come rubammo la bomba atomica (1967)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0053207",
-      "title": "Ragazzi del Juke-Box (1959)",
+      "imdbId": "tt0061925",
+      "title": "Il lungo, il corto, il gatto (1967)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0053401",
-      "title": "Howlers of the Dock (1960)",
+      "imdbId": "tt0061324",
+      "title": "Operation St. Peter's (1967)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0055856",
-      "title": "Colpo gobbo all'italiana (1962)",
+      "imdbId": "tt0068193",
+      "title": "The Eroticist (1972)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt0055937",
-      "title": "I due della legione (1962)",
+      "imdbId": "tt0072771",
+      "title": "Dracula in the Provinces (1975)",
       "reason": "Comedy"
     },
     {
-      "imdbId": "tt9504594",
-      "title": "Una lezione di sistema con Fulvio Bernardini (1948)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt9504368",
-      "title": "Pittori italiani del dopoguerra (1948)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt12544204",
-      "title": "Il sogno di Icaro (1948)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt8917978",
-      "title": "Pittori di provincia (I macchiaioli) (1953)",
-      "reason": "Documentary, Short"
+      "imdbId": "tt0075101",
+      "title": "My Sister in Law (1976)",
+      "reason": "Comedy"
     },
     {
       "imdbId": "tt9504640",

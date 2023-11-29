@@ -29,10 +29,10 @@ def deserialize(file_path: str) -> Director:
 
     excluded_titles = []
 
-    imdb_id = json_person["imdbIds"]
+    # imdb_id = json_person["imdbIds"]
 
-    if len(imdb_id) == 1:
-        imdb_id = imdb_id[0]
+    # if len(imdb_id) == 1:
+    #     imdb_id = imdb_id[0]
 
     # if "imdb_id" in json_person.keys():
     #     imdb_ids = [json_person["imdb_id"]]
@@ -52,7 +52,7 @@ def deserialize(file_path: str) -> Director:
         ]
 
     return Director(
-        imdbId=imdb_id,
+        imdbId=json_person["imdbId"],
         slug=json_person["slug"],
         name=json_person["name"],
         titles=json_titles,
