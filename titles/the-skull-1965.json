@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0059727",
-  "title": "The Skull",
-  "sortTitle": "Skull (1965)",
-  "year": 1965,
   "slug": "the-skull-1965",
+  "title": "The Skull",
+  "originalTitle": "The Skull",
+  "sortTitle": "Skull, The",
+  "year": 1965,
   "releaseDate": "1965-08-25",
   "countries": [
     "United Kingdom"
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Christopher Maitland"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943859",
@@ -36,143 +37,127 @@
       "sequence": 1,
       "roles": [
         "Anthony Marco"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0071824",
-      "name": "Jill Bennett",
-      "sequence": 2,
-      "roles": [
-        "Jane Maitland"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0338210",
-      "name": "Nigel Green",
-      "sequence": 3,
-      "roles": [
-        "Inspector Wilson"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0535861",
-      "name": "Patrick Magee",
-      "sequence": 4,
-      "roles": [
-        "Police Surgeon"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0940885",
-      "name": "Peter Woodthorpe",
-      "sequence": 5,
-      "roles": [
-        "Bert Travers"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001284",
-      "name": "Michael Gough",
-      "sequence": 6,
-      "roles": [
-        "Auctioneer"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0183459",
-      "name": "George Coulouris",
-      "sequence": 7,
-      "roles": [
-        "Dr. Londe"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0647557",
-      "name": "April Olrich",
-      "sequence": 8,
-      "roles": [
-        "French Girl"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0328708",
-      "name": "Maurice Good",
-      "sequence": 9,
-      "roles": [
-        "Pierre, Phrenologist"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0657728",
-      "name": "Anna Palk",
-      "sequence": 10,
-      "roles": [
-        "Maid"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0287045",
-      "name": "Frank Forsyth",
-      "sequence": 11,
-      "roles": [
-        "Judge"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0830889",
-      "name": "Paul Stockman",
-      "sequence": 12,
-      "roles": [
-        "First Guard"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0156188",
-      "name": "Geoffrey Cheshire",
-      "sequence": 13,
-      "roles": [
-        "Second Guard"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0385149",
-      "name": "George Hilsdon",
-      "sequence": 14,
-      "roles": [
-        "Policeman"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0798021",
-      "name": "Jack Silk",
-      "sequence": 15,
-      "roles": [
-        "Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
-      "sequence": 16,
+      "sequence": 2,
       "roles": [
         "Sir Matthew Phillips"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0071824",
+      "name": "Jill Bennett",
+      "sequence": 3,
+      "roles": [
+        "Jane Maitland"
+      ]
+    },
+    {
+      "imdbId": "nm0338210",
+      "name": "Nigel Green",
+      "sequence": 4,
+      "roles": [
+        "Inspector Wilson"
+      ]
+    },
+    {
+      "imdbId": "nm0535861",
+      "name": "Patrick Magee",
+      "sequence": 5,
+      "roles": [
+        "Police Surgeon"
+      ]
+    },
+    {
+      "imdbId": "nm0940885",
+      "name": "Peter Woodthorpe",
+      "sequence": 6,
+      "roles": [
+        "Bert Travers"
+      ]
+    },
+    {
+      "imdbId": "nm0001284",
+      "name": "Michael Gough",
+      "sequence": 7,
+      "roles": [
+        "Auctioneer"
+      ]
+    },
+    {
+      "imdbId": "nm0183459",
+      "name": "George Coulouris",
+      "sequence": 8,
+      "roles": [
+        "Dr. Londe"
+      ]
+    },
+    {
+      "imdbId": "nm0647557",
+      "name": "April Olrich",
+      "sequence": 9,
+      "roles": [
+        "French Girl"
+      ]
+    },
+    {
+      "imdbId": "nm0328708",
+      "name": "Maurice Good",
+      "sequence": 10,
+      "roles": [
+        "Pierre, Phrenologist"
+      ]
+    },
+    {
+      "imdbId": "nm0657728",
+      "name": "Anna Palk",
+      "sequence": 11,
+      "roles": [
+        "Maid"
+      ]
+    },
+    {
+      "imdbId": "nm0287045",
+      "name": "Frank Forsyth",
+      "sequence": 12,
+      "roles": [
+        "Judge"
+      ]
+    },
+    {
+      "imdbId": "nm0830889",
+      "name": "Paul Stockman",
+      "sequence": 13,
+      "roles": [
+        "First Guard"
+      ]
+    },
+    {
+      "imdbId": "nm0156188",
+      "name": "Geoffrey Cheshire",
+      "sequence": 14,
+      "roles": [
+        "Second Guard"
+      ]
+    },
+    {
+      "imdbId": "nm0385149",
+      "name": "George Hilsdon",
+      "sequence": 15,
+      "roles": [
+        "Policeman"
+      ]
+    },
+    {
+      "imdbId": "nm0798021",
+      "name": "Jack Silk",
+      "sequence": 16,
+      "roles": [
+        "Driver"
+      ]
     }
   ],
   "writers": [
@@ -185,7 +170,7 @@
     {
       "imdbId": "nm0836988",
       "name": "Milton Subotsky",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     }
   ]

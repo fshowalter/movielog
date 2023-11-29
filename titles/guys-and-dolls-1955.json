@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0048140",
-  "title": "Guys and Dolls",
-  "sortTitle": "Guys and Dolls (1955)",
-  "year": 1955,
   "slug": "guys-and-dolls-1955",
-  "releaseDate": "1955-11-03",
+  "title": "Guys and Dolls",
+  "originalTitle": "Guys and Dolls",
+  "sortTitle": "Guys and Dolls",
+  "year": 1955,
+  "releaseDate": "1955-12-23",
   "countries": [
     "United States"
   ],
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Sky Masterson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001739",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Sarah Brown"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000069",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Nathan Detroit"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086176",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Miss Adelaide"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0445290",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Lt. Brannigan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0443401",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Nicely-Nicely Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0700425",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Big Jule"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0798721",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Benny Southstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0502766",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Harry the Horse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001894",
@@ -110,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Rusty Charlie"
-      ],
-      "notes": "(as Dan Dayton)"
+      ]
     },
     {
       "imdbId": "nm0831889",
@@ -119,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Society Max"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0867538",
@@ -128,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Arvide Abernathy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0321469",
@@ -137,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "General Cartwright"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0096458",
@@ -146,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Laverne"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0389934",
@@ -155,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Agatha"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0570335",
@@ -164,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Angie the Ox"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0476484",
@@ -173,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Calvin"
-      ],
-      "notes": "(as Kay Kuter)"
+      ]
     },
     {
       "imdbId": "nm0448852",
@@ -182,8 +167,7 @@
       "sequence": 17,
       "roles": [
         "Mission Member"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0719776",
@@ -191,8 +175,7 @@
       "sequence": 18,
       "roles": [
         "Cuban Singer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm1665169",
@@ -200,8 +183,16 @@
       "sequence": 19,
       "roles": [
         "Dancing Ensemble"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0654330",
+      "name": "Charles Owens",
+      "sequence": 65,
+      "roles": [
+        "Man in Barbershop",
+        "Caterer"
+      ]
     }
   ],
   "writers": [
@@ -220,20 +211,14 @@
     {
       "imdbId": "nm0750357",
       "name": "Damon Runyon",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(from a story)"
     },
     {
       "imdbId": "nm0000581",
       "name": "Joseph L. Mankiewicz",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(written for the screen by)"
-    },
-    {
-      "imdbId": "nm0372942",
-      "name": "Ben Hecht",
-      "sequence": 4,
-      "notes": "() (uncredited)"
     }
   ]
 }

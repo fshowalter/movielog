@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0050083",
-  "title": "12 Angry Men",
-  "sortTitle": "12 Angry Men (1957)",
-  "year": 1957,
   "slug": "12-angry-men-1957",
+  "title": "12 Angry Men",
+  "originalTitle": "12 Angry Men",
+  "sortTitle": "12 Angry Men",
+  "year": 1957,
   "releaseDate": "1957-04-10",
   "countries": [
     "United States"
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Juror 1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0275835",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Juror 2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002011",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Juror 3"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550855",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Juror 4"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001430",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Juror 5"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0083081",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Juror 6"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0912001",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Juror 7"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000020",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Juror 8"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842137",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Juror 9"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003225",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Juror 10"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0903667",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Juror 11"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0916434",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Juror 12"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -135,12 +125,12 @@
       "imdbId": "nm0741627",
       "name": "Reginald Rose",
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(teleplay \"Twelve Angry Men\")"
     },
     {
       "imdbId": "nm0741627",
       "name": "Reginald Rose",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

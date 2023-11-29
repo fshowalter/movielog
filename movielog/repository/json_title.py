@@ -2,20 +2,25 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import date, datetime
 from glob import glob
 from pathlib import Path
 from typing import Iterable, Optional, TypedDict, cast
 
+import imdb
 from slugify import slugify
 
 from movielog import db
+from movielog.moviedata import api as moviedata_api
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 from movielog.viewings import api as viewings_api
 from movielog.watchlist import api as watchlist_api
 
+imdb_http = imdb.IMDb(reraiseExceptions=True)
 FOLDER_NAME = "titles"
 
 
@@ -36,7 +41,6 @@ JsonPerformer = TypedDict(
         "name": str,
         "sequence": int,
         "roles": list[str],
-        "notes": Optional[str],
     },
 )
 
@@ -53,9 +57,11 @@ JsonDirector = TypedDict(
 JsonTitle = TypedDict(
     "JsonTitle",
     {
+        "fetched": str,
         "slug": str,
         "imdbId": str,
         "title": str,
+        "originalTitle": str,
         "sortTitle": str,
         "year": int,
         "releaseDate": str,
@@ -121,8 +127,10 @@ def create(
     slug = slugify(title_with_year, replacements=[("'", "")])
 
     json_title = JsonTitle(
+        fetched=date.today().isoformat(),
         imdbId=imdb_id,
         title=title,
+        originalTitle="",
         sortTitle=generate_sort_title(title=title, year=year),
         year=year,
         slug=slug,
@@ -144,7 +152,6 @@ def create(
                 name=performer.name,
                 sequence=performer.sequence,
                 roles=performer.roles,
-                notes=performer.notes,
             )
             for performer in performers
         ],
@@ -178,7 +185,111 @@ def fetch_db_data(imdb_id: str) -> DbData:
     return DbData(title=row["title"], year=row["year"])
 
 
+def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
+    re_match = re.search(r"(.*)\s\(", imdb_movie.get("original air date", ""))
+
+    if not re_match:
+        return "{0}-01-01".format(imdb_movie["year"])
+
+    imdb_date = re_match.group(1)
+
+    try:
+        return (
+            datetime.strptime(imdb_date, "%d %b %Y").date().isoformat()
+        )  # noqa: WPS323
+    except ValueError:
+        try:  # noqa: WPS505
+            return datetime.strptime(imdb_date, "%b %Y").date().isoformat()
+        except ValueError:
+            return "{0}-01-01".format(imdb_movie["year"])
+
+
+def parse_roles(person: imdb.Person.Person) -> list[str]:
+    if isinstance(person.currentRole, list):
+        return [role["name"] for role in person.currentRole if role.keys()]
+
+    if person.currentRole.has_key("name"):
+        return [person.currentRole["name"]]
+
+    return []
+
+
+def build_performers(imdb_movie: imdb.Movie.Movie) -> list[JsonPerformer]:
+    performers = []
+    for index, performer in enumerate(imdb_movie["cast"]):
+        if not moviedata_api.valid_cast_notes(performer):
+            continue
+
+        roles = parse_roles(performer)
+
+        performers.append(
+            JsonPerformer(
+                imdbId="nm{0}".format(performer.personID),
+                name=performer["name"],
+                sequence=index,
+                roles=roles,
+            )
+        )
+
+    return performers
+
+
 def fix_all() -> None:
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        with open(file_path, "r+") as json_file:
+            json_title = cast(JsonTitle, json.load(json_file))
+
+            # if (
+            #     json_title["performers"]
+            #     and "notes" not in json_title["performers"][0].keys()
+            # ):
+            #     continue
+
+            imdb_movie = imdb_http.get_movie(json_title["imdbId"][2:])
+
+            updated_title = JsonTitle(
+                fetched=date.today().isoformat(),
+                imdbId=json_title["imdbId"],
+                slug=json_title["slug"],
+                title=imdb_movie["title"],
+                originalTitle=imdb_movie["original title"],
+                sortTitle=imdb_movie["canonical title"],
+                year=imdb_movie["year"],
+                releaseDate=parse_release_date(imdb_movie),
+                countries=imdb_movie["countries"],
+                genres=imdb_movie["genres"],
+                directors=[
+                    JsonDirector(
+                        imdbId="nm{0}".format(director.personID),
+                        name=director["name"],
+                        sequence=index,
+                        notes=None if director.notes == "" else director.notes,
+                    )
+                    for index, director in enumerate(imdb_movie["directors"])
+                ],
+                performers=build_performers(imdb_movie),
+                writers=[
+                    JsonWriter(
+                        imdbId="nm{0}".format(writer.personID),
+                        name=writer["name"],
+                        sequence=index,
+                        notes=None if writer.notes == "" else writer.notes,
+                    )
+                    for index, writer in enumerate(imdb_movie.get("writers", []))
+                    if writer.keys() and moviedata_api.valid_writer_notes(writer)
+                ],
+            )
+            json_file.seek(0)
+            json_file.write(json.dumps(updated_title, default=str, indent=2))
+            json_file.truncate()
+
+        logger.log(
+            "Wrote {}.",
+            file_path,
+        )
+
+
+def validate() -> None:
     viewing_movie_ids = viewings_api.movie_ids()
     watchlist_movie_ids = watchlist_api.movie_ids()
 

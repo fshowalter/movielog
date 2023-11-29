@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0093870",
-  "title": "RoboCop",
-  "sortTitle": "RoboCop (1987)",
-  "year": 1987,
   "slug": "robocop-1987",
+  "title": "RoboCop",
+  "originalTitle": "RoboCop",
+  "sortTitle": "RoboCop",
+  "year": 1987,
   "releaseDate": "1987-07-17",
   "countries": [
     "United States"
@@ -28,19 +30,17 @@
       "name": "Peter Weller",
       "sequence": 0,
       "roles": [
-        "Murphy",
+        "Alex Murphy",
         "RoboCop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000262",
       "name": "Nancy Allen",
       "sequence": 1,
       "roles": [
-        "Lewis"
-      ],
-      "notes": null
+        "Anne Lewis"
+      ]
     },
     {
       "imdbId": "nm0641397",
@@ -48,35 +48,31 @@
       "sequence": 2,
       "roles": [
         "The Old Man"
-      ],
-      "notes": "(as Daniel O'Herlihy)"
+      ]
     },
     {
       "imdbId": "nm0001074",
       "name": "Ronny Cox",
       "sequence": 3,
       "roles": [
-        "Jones"
-      ],
-      "notes": null
+        "Dick Jones"
+      ]
     },
     {
       "imdbId": "nm0001748",
       "name": "Kurtwood Smith",
       "sequence": 4,
       "roles": [
-        "Clarence"
-      ],
-      "notes": null
+        "Clarence Boddicker"
+      ]
     },
     {
       "imdbId": "nm0001208",
       "name": "Miguel Ferrer",
       "sequence": 5,
       "roles": [
-        "Morton"
-      ],
-      "notes": null
+        "Bob Morton"
+      ]
     },
     {
       "imdbId": "nm0233306",
@@ -84,17 +80,15 @@
       "sequence": 6,
       "roles": [
         "Sgt. Reed"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0936403",
       "name": "Ray Wise",
       "sequence": 7,
       "roles": [
-        "Leon"
-      ],
-      "notes": null
+        "Leon Nash"
+      ]
     },
     {
       "imdbId": "nm0675066",
@@ -102,26 +96,23 @@
       "sequence": 8,
       "roles": [
         "Johnson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005204",
       "name": "Paul McCrane",
       "sequence": 9,
       "roles": [
-        "Emil"
-      ],
-      "notes": null
+        "Emil Antonowsky"
+      ]
     },
     {
       "imdbId": "nm0324795",
       "name": "Jesse D. Goins",
       "sequence": 10,
       "roles": [
-        "Joe"
-      ],
-      "notes": "(as Jesse Goins)"
+        "Joe Cox"
+      ]
     },
     {
       "imdbId": "nm0952685",
@@ -129,17 +120,15 @@
       "sequence": 11,
       "roles": [
         "Kaplan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0432517",
       "name": "Calvin Jung",
       "sequence": 12,
       "roles": [
-        "Minh"
-      ],
-      "notes": null
+        "Steve Minh"
+      ]
     },
     {
       "imdbId": "nm0509408",
@@ -147,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Walker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0207616",
@@ -156,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Sal"
-      ],
-      "notes": "(as Lee DeBroux)"
+      ]
     },
     {
       "imdbId": "nm0138210",
@@ -165,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Miller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0249962",
@@ -174,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Manson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195702",
@@ -183,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Lt. Hedgecock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0382556",
@@ -192,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Bobby"
-      ],
-      "notes": "(as Fred Hice)"
+      ]
     },
     {
       "imdbId": "nm0838612",
@@ -201,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Dougy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0937566",
@@ -210,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Prisoner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0693518",
@@ -219,8 +200,7 @@
       "sequence": 21,
       "roles": [
         "Slimey Lawyer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138954",
@@ -228,8 +208,7 @@
       "sequence": 22,
       "roles": [
         "Bail Bondsman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0656239",
@@ -237,8 +216,7 @@
       "sequence": 23,
       "roles": [
         "Kinney"
-      ],
-      "notes": "(as Ken Page)"
+      ]
     },
     {
       "imdbId": "nm0931953",
@@ -246,8 +224,7 @@
       "sequence": 24,
       "roles": [
         "Ramirez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0021132",
@@ -255,8 +232,7 @@
       "sequence": 25,
       "roles": [
         "Starkweather"
-      ],
-      "notes": "(as Tyress Allen)"
+      ]
     },
     {
       "imdbId": "nm0203788",
@@ -264,8 +240,7 @@
       "sequence": 26,
       "roles": [
         "Chessman"
-      ],
-      "notes": "(as John Davies)"
+      ]
     },
     {
       "imdbId": "nm0006422",
@@ -273,8 +248,7 @@
       "sequence": 27,
       "roles": [
         "Cecil the Clerk"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0077377",
@@ -282,8 +256,7 @@
       "sequence": 28,
       "roles": [
         "Roosevelt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0662600",
@@ -291,8 +264,7 @@
       "sequence": 29,
       "roles": [
         "Tyler"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0705363",
@@ -300,8 +272,7 @@
       "sequence": 30,
       "roles": [
         "Technician #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0184981",
@@ -309,8 +280,7 @@
       "sequence": 31,
       "roles": [
         "Technician #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0371479",
@@ -318,8 +288,7 @@
       "sequence": 32,
       "roles": [
         "Dr. McNamara"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0794687",
@@ -327,8 +296,7 @@
       "sequence": 33,
       "roles": [
         "Creep"
-      ],
-      "notes": "(as Bill Schockley)"
+      ]
     },
     {
       "imdbId": "nm0444432",
@@ -336,8 +304,7 @@
       "sequence": 34,
       "roles": [
         "Rape Victim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0120878",
@@ -345,8 +312,7 @@
       "sequence": 35,
       "roles": [
         "Hophead"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0753396",
@@ -354,8 +320,7 @@
       "sequence": 36,
       "roles": [
         "Grocery Mom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0515257",
@@ -363,8 +328,7 @@
       "sequence": 37,
       "roles": [
         "Grocery Pop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0685201",
@@ -372,8 +336,7 @@
       "sequence": 38,
       "roles": [
         "Barbara"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0732187",
@@ -381,8 +344,7 @@
       "sequence": 39,
       "roles": [
         "Chandra"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0755124",
@@ -390,8 +352,7 @@
       "sequence": 40,
       "roles": [
         "Tawney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0331522",
@@ -399,8 +360,7 @@
       "sequence": 41,
       "roles": [
         "Salesman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0093135",
@@ -408,8 +368,7 @@
       "sequence": 42,
       "roles": [
         "Murphy's Wife"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0505831",
@@ -417,8 +376,7 @@
       "sequence": 43,
       "roles": [
         "Murphy's Son"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625930",
@@ -426,8 +384,7 @@
       "sequence": 44,
       "roles": [
         "Bixby Snyder"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0267724",
@@ -435,8 +392,7 @@
       "sequence": 45,
       "roles": [
         "Justin Ballard-Watkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402964",
@@ -444,8 +400,7 @@
       "sequence": 46,
       "roles": [
         "Peter the Homeowner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0698597",
@@ -453,8 +408,7 @@
       "sequence": 47,
       "roles": [
         "Gas Station Attendant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0951541",
@@ -462,8 +416,7 @@
       "sequence": 48,
       "roles": [
         "Nurse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0454974",
@@ -471,8 +424,7 @@
       "sequence": 49,
       "roles": [
         "Emergency Doctor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0655478",
@@ -480,8 +432,7 @@
       "sequence": 50,
       "roles": [
         "Emergency Doctor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0004957",
@@ -489,8 +440,7 @@
       "sequence": 51,
       "roles": [
         "Jesse Perkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0532478",
@@ -498,8 +448,7 @@
       "sequence": 52,
       "roles": [
         "Casey Wong"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [

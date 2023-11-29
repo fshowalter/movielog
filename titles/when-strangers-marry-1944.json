@@ -1,17 +1,21 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0037458",
-  "title": "When Strangers Marry",
-  "sortTitle": "When Strangers Marry (1944)",
-  "year": 1944,
   "slug": "when-strangers-marry-1944",
+  "title": "When Strangers Marry",
+  "originalTitle": "When Strangers Meet",
+  "sortTitle": "When Strangers Marry",
+  "year": 1944,
   "releaseDate": "1944-08-21",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Crime",
     "Drama",
     "Film-Noir",
-    "Mystery"
+    "Mystery",
+    "Romance"
   ],
   "directors": [
     {
@@ -28,17 +32,15 @@
       "sequence": 0,
       "roles": [
         "Paul Baxter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001375",
       "name": "Kim Hunter",
       "sequence": 1,
       "roles": [
-        "Mildred Baxter"
-      ],
-      "notes": null
+        "Mildred 'Millie' Baxter"
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -46,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Fred Graham"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0358076",
@@ -55,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Police Lieutenant Blake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0523912",
@@ -64,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Jacob Houser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0452133",
@@ -73,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Charlie"
-      ],
-      "notes": "(as Milt Kibbee)"
+      ]
     },
     {
       "imdbId": "nm0732552",
@@ -82,26 +80,23 @@
       "sequence": 6,
       "roles": [
         "Newsstand Owner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0926280",
       "name": "Claire Whitney",
       "sequence": 7,
       "roles": [
-        "Middle-Aged Wife on Train"
-      ],
-      "notes": null
+        "Wife on Train"
+      ]
     },
     {
       "imdbId": "nm0443849",
       "name": "Edward Keane",
       "sequence": 8,
       "roles": [
-        "Middle - Aged Husband on Train"
-      ],
-      "notes": null
+        "Husband on Train"
+      ]
     },
     {
       "imdbId": "nm0757943",
@@ -109,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Hotel Chambermaid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254424",
@@ -118,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Sam Prescott"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0925113",
@@ -127,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Old Man"
-      ],
-      "notes": "(as Lee White)"
+      ]
     },
     {
       "imdbId": "nm0594022",
@@ -136,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Baby's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0625180",
@@ -145,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Louisville Driver"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -165,7 +155,7 @@
     {
       "imdbId": "nm0608763",
       "name": "George Moskov",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(story)"
     }
   ]

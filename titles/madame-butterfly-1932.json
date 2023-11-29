@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0023169",
-  "title": "Madame Butterfly",
-  "sortTitle": "Madame Butterfly (1932)",
-  "year": 1932,
   "slug": "madame-butterfly-1932",
-  "releaseDate": "1932-12-23",
+  "title": "Madame Butterfly",
+  "originalTitle": "Madame Butterfly",
+  "sortTitle": "Madame Butterfly",
+  "year": 1932,
+  "releaseDate": "1932-12-30",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "directors": [
     {
@@ -26,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Cho-Cho San"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000026",
@@ -35,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Lieutenant B.F. Pinkerton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0749476",
@@ -44,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Lt. Barton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0681635",
@@ -53,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Yomadori"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0248890",
@@ -62,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Cho-Cho's mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0106785",
@@ -71,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Cho-Cho's grandfather"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0141782",
@@ -80,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Suzuki"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0477574",
@@ -89,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Goro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0903740",
@@ -98,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Madame Goro"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0856077",
@@ -107,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Mrs. Pinkerton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0508717",
@@ -116,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Peach Blossom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0161414",
@@ -125,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "American Consul"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0395250",
@@ -134,15 +125,7 @@
       "sequence": 12,
       "roles": [
         "Trouble"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0152909",
-      "name": "Charita Alden",
-      "sequence": 13,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164599",
@@ -150,8 +133,7 @@
       "sequence": 14,
       "roles": [
         "Comm. Anderson"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -162,27 +144,21 @@
       "notes": "(play)"
     },
     {
-      "imdbId": "nm0381152",
-      "name": "Harry Hervey",
-      "sequence": 1,
-      "notes": "(treatment) (uncredited)"
-    },
-    {
       "imdbId": "nm0519029",
       "name": "John Luther Long",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0522674",
       "name": "Josephine Lovett",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0545309",
       "name": "Joseph Moncure March",
-      "sequence": 4,
+      "sequence": 8,
       "notes": "(screenplay)"
     }
   ]

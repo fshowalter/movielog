@@ -1,13 +1,14 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0084787",
-  "title": "The Thing",
-  "sortTitle": "Thing (1982)",
-  "year": 1982,
   "slug": "the-thing-1982",
+  "title": "The Thing",
+  "originalTitle": "The Thing",
+  "sortTitle": "Thing, The",
+  "year": 1982,
   "releaseDate": "1982-06-25",
   "countries": [
-    "United States",
-    "Canada"
+    "United States"
   ],
   "genres": [
     "Horror",
@@ -19,7 +20,7 @@
       "imdbId": "nm0000118",
       "name": "John Carpenter",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -29,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "MacReady"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000979",
@@ -38,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Dr. Blair"
-      ],
-      "notes": "(as A. Wilford Brimley)"
+      ]
     },
     {
       "imdbId": "nm0141953",
@@ -47,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Nauls"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0166359",
@@ -56,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Palmer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0202966",
@@ -65,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Childs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0246004",
@@ -74,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Copper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0356251",
@@ -83,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Vance Norris"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0540595",
@@ -92,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "George Bennings"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0557956",
@@ -101,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Clark"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0595567",
@@ -110,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Garry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0689177",
@@ -119,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Fuchs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0906640",
@@ -128,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Windows"
-      ],
-      "notes": "(as Thomas Waites)"
+      ]
     },
     {
       "imdbId": "nm0919256",
@@ -137,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Norwegian"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0290581",
@@ -146,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Norwegian Passenger with Rifle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0410429",
@@ -155,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Helicopter Pilot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0954730",
@@ -164,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Pilot"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -173,13 +158,13 @@
       "imdbId": "nm0484111",
       "name": "Bill Lancaster",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0132168",
       "name": "John W. Campbell Jr.",
-      "sequence": 1,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(based on the story \"Who Goes There\" by)"
     }
   ]
 }

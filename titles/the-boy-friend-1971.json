@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0066858",
-  "title": "The Boy Friend",
-  "sortTitle": "Boy Friend (1971)",
-  "year": 1971,
   "slug": "the-boy-friend-1971",
-  "releaseDate": "1971-12-16",
+  "title": "The Boy Friend",
+  "originalTitle": "The Boy Friend",
+  "sortTitle": "Boy Friend, The",
+  "year": 1971,
+  "releaseDate": "1971-12-24",
   "countries": [
     "United Kingdom",
     "United States"
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Polly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0300083",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Tony"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0012451",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Max"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0697799",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Percy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0578527",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Alphonse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0292202",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Mme. Dubonnet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0354914",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Fay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0117222",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Nancy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0792996",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "De Thrill"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0876585",
@@ -110,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0614120",
@@ -119,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Peter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035505",
@@ -128,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Michael"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254701",
@@ -137,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Maisie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0514530",
@@ -146,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Dulcie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0417041",
@@ -155,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Mrs. Peter"
-      ],
-      "notes": "(as Ann Jameson)"
+      ]
     },
     {
       "imdbId": "nm0932537",
@@ -164,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Catherine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0478374",
@@ -173,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Chauffeur"
-      ],
-      "notes": "(as Robert La'Bassiere)"
+      ]
     },
     {
       "imdbId": "nm0934774",
@@ -182,22 +167,21 @@
       "sequence": 17,
       "roles": [
         "Hortense"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0001692",
-      "name": "Ken Russell",
-      "sequence": 0,
-      "notes": "(screenplay)"
-    },
-    {
       "imdbId": "nm0934101",
       "name": "Sandy Wilson",
-      "sequence": 1,
-      "notes": "(based on the musical play by)"
+      "sequence": 0,
+      "notes": "(based on a musical play by)"
+    },
+    {
+      "imdbId": "nm0001692",
+      "name": "Ken Russell",
+      "sequence": 2,
+      "notes": "(screenplay by)"
     }
   ]
 }

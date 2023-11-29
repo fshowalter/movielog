@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0050748",
-  "title": "Naked Paradise",
-  "sortTitle": "Naked Paradise (1957)",
-  "year": 1957,
   "slug": "naked-paradise-1957",
+  "title": "Naked Paradise",
+  "originalTitle": "Naked Paradise",
+  "sortTitle": "Naked Paradise",
+  "year": 1957,
   "releaseDate": "1957-01-01",
   "countries": [
     "United States"
@@ -26,8 +28,7 @@
       "sequence": 0,
       "roles": [
         "Duke Bradley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0307500",
@@ -35,35 +36,31 @@
       "sequence": 1,
       "roles": [
         "Max MacKenzie"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0599306",
-      "name": "Lisa Montell",
-      "sequence": 2,
-      "roles": [
-        "Lanai"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0588241",
-      "name": "Dick Miller",
-      "sequence": 3,
-      "roles": [
-        "Mitch"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0103320",
       "name": "Leslie Bradley",
-      "sequence": 4,
+      "sequence": 2,
       "roles": [
         "Zach Cotton"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0599306",
+      "name": "Lisa Montell",
+      "sequence": 3,
+      "roles": [
+        "Lanai"
+      ]
+    },
+    {
+      "imdbId": "nm0588241",
+      "name": "Dick Miller",
+      "sequence": 4,
+      "roles": [
+        "Mitch"
+      ]
     },
     {
       "imdbId": "nm0371918",
@@ -71,44 +68,23 @@
       "sequence": 5,
       "roles": [
         "Stony Gratoni"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0035098",
-      "name": "Samuel Z. Arkoff",
-      "sequence": 6,
-      "roles": [
-        "Sam"
-      ],
-      "notes": "(Man at Luau)"
-    },
-    {
-      "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 7,
-      "roles": [
-        "Office Worker"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0452540",
       "name": "Johnny Kieoni",
-      "sequence": 8,
+      "sequence": 6,
       "roles": [
         "Kieoni"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0512192",
       "name": "Carol Lindsay",
-      "sequence": 9,
+      "sequence": 7,
       "roles": [
         "Luau Dancer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -121,7 +97,7 @@
     {
       "imdbId": "nm0360221",
       "name": "Mark Hanna",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

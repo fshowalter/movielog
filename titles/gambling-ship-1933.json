@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0024048",
-  "title": "Gambling Ship",
-  "sortTitle": "Gambling Ship (1933)",
-  "year": 1933,
   "slug": "gambling-ship-1933",
+  "title": "Gambling Ship",
+  "originalTitle": "Gambling Ship",
+  "sortTitle": "Gambling Ship",
+  "year": 1933,
   "releaseDate": "1933-06-23",
   "countries": [
     "United States"
@@ -32,8 +34,7 @@
       "sequence": 0,
       "roles": [
         "Ace Corbin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0401729",
@@ -41,8 +42,7 @@
       "sequence": 1,
       "roles": [
         "Eleanor La Velle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0479011",
@@ -50,8 +50,7 @@
       "sequence": 2,
       "roles": [
         "Pete Manning"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0268225",
@@ -59,8 +58,7 @@
       "sequence": 3,
       "roles": [
         "Jeanne Sands"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0439850",
@@ -68,8 +66,7 @@
       "sequence": 4,
       "roles": [
         "Blooey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0899129",
@@ -77,8 +74,7 @@
       "sequence": 5,
       "roles": [
         "Joe Burke"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0930239",
@@ -86,8 +82,7 @@
       "sequence": 6,
       "roles": [
         "Baby Face"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561693",
@@ -95,8 +90,7 @@
       "sequence": 7,
       "roles": [
         "D.A"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0153556",
@@ -104,34 +98,33 @@
       "sequence": 8,
       "roles": [
         "Detective"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0083125",
-      "name": "Claude Binyon",
+      "imdbId": "nm0750537",
+      "name": "Peter Ruric",
       "sequence": 0,
-      "notes": "(adaptation)"
+      "notes": "(story)"
     },
     {
       "imdbId": "nm0545730",
       "name": "Max Marcin",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0589316",
       "name": "Seton I. Miller",
-      "sequence": 2,
-      "notes": "(writer)"
+      "sequence": 3,
+      "notes": "(screenplay)"
     },
     {
-      "imdbId": "nm0750537",
-      "name": "Peter Ruric",
-      "sequence": 3,
-      "notes": "(story)"
+      "imdbId": "nm0083125",
+      "name": "Claude Binyon",
+      "sequence": 5,
+      "notes": "(adaptation)"
     }
   ]
 }

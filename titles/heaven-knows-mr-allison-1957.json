@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0050490",
-  "title": "Heaven Knows, Mr. Allison",
-  "sortTitle": "Heaven Knows, Mr. Allison (1957)",
-  "year": 1957,
   "slug": "heaven-knows-mr-allison-1957",
+  "title": "Heaven Knows, Mr. Allison",
+  "originalTitle": "Heaven Knows, Mr. Allison",
+  "sortTitle": "Heaven Knows, Mr. Allison",
+  "year": 1957,
   "releaseDate": "1957-03-13",
   "countries": [
     "United States"
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Sister Angela"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Corporal Allison USMC"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -46,19 +46,19 @@
       "imdbId": "nm0536941",
       "name": "John Lee Mahin",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0789650",
       "name": "Charles Shaw",
-      "sequence": 2,
-      "notes": "(novel)"
+      "sequence": 3,
+      "notes": "(based on the novel by)"
     }
   ]
 }

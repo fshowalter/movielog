@@ -1,16 +1,20 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0025878",
-  "title": "The Thin Man",
-  "sortTitle": "Thin Man (1934)",
-  "year": 1934,
   "slug": "the-thin-man-1934",
+  "title": "The Thin Man",
+  "originalTitle": "The Thin Man",
+  "sortTitle": "Thin Man, The",
+  "year": 1934,
   "releaseDate": "1934-05-25",
   "countries": [
     "United States"
   ],
   "genres": [
     "Comedy",
-    "Mystery"
+    "Crime",
+    "Mystery",
+    "Romance"
   ],
   "directors": [
     {
@@ -27,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Nick Charles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001485",
@@ -36,44 +39,39 @@
       "sequence": 1,
       "roles": [
         "Nora Charles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001577",
       "name": "Maureen O'Sullivan",
       "sequence": 2,
       "roles": [
-        "Dorothy"
-      ],
-      "notes": null
+        "Dorothy Wynant"
+      ]
     },
     {
       "imdbId": "nm0671738",
       "name": "Nat Pendleton",
       "sequence": 3,
       "roles": [
-        "Guild"
-      ],
-      "notes": null
+        "Lt. John Guild"
+      ]
     },
     {
       "imdbId": "nm0326809",
       "name": "Minna Gombell",
       "sequence": 4,
       "roles": [
-        "Mimi"
-      ],
-      "notes": null
+        "Mimi Jorgenson"
+      ]
     },
     {
       "imdbId": "nm0356004",
       "name": "Porter Hall",
       "sequence": 5,
       "roles": [
-        "MacCaulay"
-      ],
-      "notes": null
+        "Herbert MacCaulay"
+      ]
     },
     {
       "imdbId": "nm0905622",
@@ -81,17 +79,15 @@
       "sequence": 6,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378026",
       "name": "William Henry",
       "sequence": 7,
       "roles": [
-        "Gilbert"
-      ],
-      "notes": null
+        "Gilbert Wynant"
+      ]
     },
     {
       "imdbId": "nm0399346",
@@ -99,17 +95,15 @@
       "sequence": 8,
       "roles": [
         "Nunheim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003110",
       "name": "Cesar Romero",
       "sequence": 9,
       "roles": [
-        "Chris"
-      ],
-      "notes": null
+        "Chris Jorgenson"
+      ]
     },
     {
       "imdbId": "nm0602096",
@@ -117,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Julia Wolf"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0112395",
@@ -126,17 +119,15 @@
       "sequence": 11,
       "roles": [
         "Morelli"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254818",
       "name": "Edward Ellis",
       "sequence": 12,
       "roles": [
-        "Wynant"
-      ],
-      "notes": null
+        "Clyde Wynant"
+      ]
     },
     {
       "imdbId": "nm0861509",
@@ -144,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Tanner"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -164,7 +154,7 @@
     {
       "imdbId": "nm0358591",
       "name": "Dashiell Hammett",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(from the novel by)"
     }
   ]

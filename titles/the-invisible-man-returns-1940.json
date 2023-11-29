@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0032635",
-  "title": "The Invisible Man Returns",
-  "sortTitle": "Invisible Man Returns (1940)",
-  "year": 1940,
   "slug": "the-invisible-man-returns-1940",
+  "title": "The Invisible Man Returns",
+  "originalTitle": "The Invisible Man Returns",
+  "sortTitle": "Invisible Man Returns, The",
+  "year": 1940,
   "releaseDate": "1940-01-12",
   "countries": [
     "United States"
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Richard Cobb"
-      ],
-      "notes": "(as Sir Cedric Hardwicke)"
+      ]
     },
     {
       "imdbId": "nm0001637",
@@ -39,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Geoffrey Radcliffe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0340644",
@@ -48,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Helen Manson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0840330",
@@ -57,17 +56,15 @@
       "sequence": 3,
       "roles": [
         "Doctor Frank Griffin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0445523",
       "name": "Cecil Kellaway",
       "sequence": 4,
       "roles": [
-        "Sampson"
-      ],
-      "notes": null
+        "Scotland Yard Inspector Sampson"
+      ]
     },
     {
       "imdbId": "nm0621002",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Willie Spears"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0367516",
@@ -84,40 +80,33 @@
       "sequence": 6,
       "roles": [
         "Ben Jenkins"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0562004",
       "name": "Joe May",
-      "sequence": 0,
+      "sequence": 2,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0802561",
       "name": "Curt Siodmak",
-      "sequence": 1,
+      "sequence": 3,
       "notes": "(story) (as Kurt Siodmak)"
     },
     {
       "imdbId": "nm0170660",
       "name": "Lester Cole",
-      "sequence": 2,
+      "sequence": 5,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0802561",
       "name": "Curt Siodmak",
-      "sequence": 3,
+      "sequence": 6,
       "notes": "(screenplay) (as Kurt Siodmak)"
-    },
-    {
-      "imdbId": "nm0067794",
-      "name": "Cedric Belfrage",
-      "sequence": 4,
-      "notes": "(additional writer) (uncredited)"
     }
   ]
 }

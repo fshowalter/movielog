@@ -1,14 +1,16 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt1230385",
-  "title": "The Yellow Sea",
-  "sortTitle": "Yellow Sea (2010)",
-  "year": 2010,
   "slug": "the-yellow-sea-2010",
-  "releaseDate": "2010-12-22",
+  "title": "The Yellow Sea",
+  "originalTitle": "Hwanghae",
+  "sortTitle": "Yellow Sea, The",
+  "year": 2010,
+  "releaseDate": "2011-12-02",
   "countries": [
     "South Korea",
-    "United States",
-    "Hong Kong"
+    "Hong Kong",
+    "United States"
   ],
   "genres": [
     "Action",
@@ -26,49 +28,44 @@
   ],
   "performers": [
     {
-      "imdbId": "nm1978402",
-      "name": "Ha Jung-woo",
+      "imdbId": "nm7686174",
+      "name": "Lee Yoo-mi",
       "sequence": 0,
       "roles": [
+        "Tae-Won's Daughter"
+      ]
+    },
+    {
+      "imdbId": "nm1978402",
+      "name": "Ha Jung-woo",
+      "sequence": 1,
+      "roles": [
         "Gu-nam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm2412823",
       "name": "Kim Yoon-seok",
-      "sequence": 1,
+      "sequence": 2,
       "roles": [
         "Myun-ga"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm3649689",
+      "name": "Park Byeong-eun",
+      "sequence": 3,
+      "roles": [
+        "Bank Employee"
+      ]
     },
     {
       "imdbId": "nm1443295",
       "name": "Jo Sung-ha",
-      "sequence": 2,
-      "roles": [
-        "Tae-won"
-      ],
-      "notes": "(as Seong-Ha Cho)"
-    },
-    {
-      "imdbId": "nm2713055",
-      "name": "Cheol-min Lee",
-      "sequence": 3,
-      "roles": [
-        "Choi Seong-nam"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm3673821",
-      "name": "Seo-hyun Ahn",
       "sequence": 4,
       "roles": [
-        "Professor's daughter"
-      ],
-      "notes": null
+        "Tae-won"
+      ]
     },
     {
       "imdbId": "nm3113075",
@@ -76,17 +73,15 @@
       "sequence": 5,
       "roles": [
         "Boeun Police 2"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm3030006",
-      "name": "Seok-jeong Hwang",
+      "imdbId": "nm3673821",
+      "name": "Seo-hyun Ahn",
       "sequence": 6,
       "roles": [
-        "Dollar Dealer"
-      ],
-      "notes": null
+        "Professor's daughter"
+      ]
     },
     {
       "imdbId": "nm3362169",
@@ -94,51 +89,47 @@
       "sequence": 7,
       "roles": [
         "Detective 1"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm3704031",
-      "name": "Hyeon-joo Kim",
+      "imdbId": "nm2713055",
+      "name": "Cheol-min Lee",
       "sequence": 8,
       "roles": [
-        "Killed smuggler"
-      ],
-      "notes": null
+        "Choi Seong-nam"
+      ]
     },
     {
-      "imdbId": "nm3076797",
-      "name": "Gi-won Yang",
+      "imdbId": "nm3030006",
+      "name": "Hwang Seok-jeong",
       "sequence": 9,
       "roles": [
-        "Detective 2"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm6723561",
-      "name": "Dong-Heon Yeom",
-      "sequence": 10,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm7686174",
-      "name": "Lee Yoo-mi",
-      "sequence": 11,
-      "roles": [
-        "Tae-Won's Daughter"
-      ],
-      "notes": null
+        "Dollar Dealer"
+      ]
     },
     {
       "imdbId": "nm1361235",
       "name": "Ha-bok Yu",
-      "sequence": 12,
+      "sequence": 10,
       "roles": [
         "Yanbian taxi boss"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm3076797",
+      "name": "Gi-won Yang",
+      "sequence": 11,
+      "roles": [
+        "Detective 2"
+      ]
+    },
+    {
+      "imdbId": "nm3704031",
+      "name": "Hyeon-joo Kim",
+      "sequence": 12,
+      "roles": [
+        "Killed smuggler"
+      ]
     }
   ],
   "writers": [
@@ -151,13 +142,13 @@
     {
       "imdbId": "nm2947553",
       "name": "Na Hong-jin",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm2947553",
       "name": "Na Hong-jin",
-      "sequence": 2,
+      "sequence": 4,
       "notes": "(screenplay)"
     }
   ]

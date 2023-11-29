@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0048484",
-  "title": "Pete Kelly's Blues",
-  "sortTitle": "Pete Kelly's Blues (1955)",
-  "year": 1955,
   "slug": "pete-kellys-blues-1955",
+  "title": "Pete Kelly's Blues",
+  "originalTitle": "Pete Kelly's Blues",
+  "sortTitle": "Pete Kelly's Blues",
+  "year": 1955,
   "releaseDate": "1955-07-31",
   "countries": [
     "United States"
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Pete Kelly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001463",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Ivy Conrad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0639529",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Fran McCarg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0498007",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Rose Hopkins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0222596",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "George Tenell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001511",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Al Gannaway"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0280228",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Maggie Jackson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0590398",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Joey Firestone"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0943660",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Rudy Shulak"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0254870",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Bedido"
-      ],
-      "notes": "(as Herb Ellis)"
+      ]
     },
     {
       "imdbId": "nm0112392",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Guy Bettenhouser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543790",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Cigarette Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0551067",
@@ -136,53 +126,47 @@
       "sequence": 12,
       "roles": [
         "Cootie Jacobs"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0773959",
-      "name": "Moe Schneider",
+      "imdbId": "nm0146103",
+      "name": "Dick Cathcart",
       "sequence": 13,
       "roles": [
-        "Trombonist"
-      ],
-      "notes": "(Big 7)"
-    },
-    {
-      "imdbId": "nm0886826",
-      "name": "George Van Eps",
-      "sequence": 14,
-      "roles": [
-        "Guitarist"
-      ],
-      "notes": "(Big 7)"
-    },
-    {
-      "imdbId": "nm0792549",
-      "name": "Ray Sherman",
-      "sequence": 15,
-      "roles": [
-        "Pianist"
-      ],
-      "notes": "(Big 7)"
+        "Trumpet Player"
+      ]
     },
     {
       "imdbId": "nm0559155",
       "name": "Matty Matlock",
-      "sequence": 16,
+      "sequence": 14,
       "roles": [
         "Clarinetist"
-      ],
-      "notes": "(Big 7)"
+      ]
+    },
+    {
+      "imdbId": "nm0773959",
+      "name": "Moe Schneider",
+      "sequence": 15,
+      "roles": [
+        "Trombonist"
+      ]
     },
     {
       "imdbId": "nm0588286",
       "name": "Eddie Miller",
-      "sequence": 17,
+      "sequence": 16,
       "roles": [
         "Saxophonist"
-      ],
-      "notes": "(Big 7)"
+      ]
+    },
+    {
+      "imdbId": "nm0886826",
+      "name": "George Van Eps",
+      "sequence": 17,
+      "roles": [
+        "Guitarist"
+      ]
     },
     {
       "imdbId": "nm0268889",
@@ -190,27 +174,23 @@
       "sequence": 18,
       "roles": [
         "Drummer"
-      ],
-      "notes": "(Big 7)"
+      ]
+    },
+    {
+      "imdbId": "nm0792549",
+      "name": "Ray Sherman",
+      "sequence": 19,
+      "roles": [
+        "Pianist"
+      ]
     },
     {
       "imdbId": "nm0210525",
       "name": "Jud De Naut",
-      "sequence": 19,
+      "sequence": 20,
       "roles": [
         "Bassist"
-      ],
-      "notes": "(Big 7)"
-    },
-    {
-      "imdbId": "nm0146103",
-      "name": "Dick Cathcart",
-      "sequence": 24,
-      "roles": [
-        "Trumpet Player",
-        "Webb's Cornet Double"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -218,7 +198,7 @@
       "imdbId": "nm0106764",
       "name": "Richard L. Breen",
       "sequence": 0,
-      "notes": "()"
+      "notes": "(screen play by)"
     }
   ]
 }

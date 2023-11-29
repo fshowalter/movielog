@@ -15,7 +15,7 @@ class Credit(object):
 
 
 def valid_notes(credit: imdb.Movie.Movie) -> bool:
-    return "scenes deleted" not in credit.notes
+    return "scenes deleted" not in credit.notes and "uncredited" not in credit.notes
 
 
 def parse(movie: imdb.Movie.Movie) -> list[Credit]:

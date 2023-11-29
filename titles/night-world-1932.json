@@ -1,15 +1,20 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0023271",
-  "title": "Night World",
-  "sortTitle": "Night World (1932)",
-  "year": 1932,
   "slug": "night-world-1932",
+  "title": "Night World",
+  "originalTitle": "Night World",
+  "sortTitle": "Night World",
+  "year": 1932,
   "releaseDate": "1932-05-05",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Comedy",
+    "Crime",
+    "Drama",
+    "Musical"
   ],
   "directors": [
     {
@@ -26,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Michael Rand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164883",
@@ -35,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Ruth Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000472",
@@ -44,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "'Happy' MacDonald"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0720885",
@@ -53,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Jill MacDonald"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394477",
@@ -62,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Klauss"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0394407",
@@ -71,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Mrs. Rand"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0615617",
@@ -80,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Tim Washington, the Doorman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0677125",
@@ -89,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Edith Blair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0729991",
@@ -98,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Tommy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706368",
@@ -107,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Ed Powell"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0604674",
@@ -116,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Joe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330265",
@@ -125,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Jim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0640495",
@@ -134,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "The Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0241904",
@@ -143,18 +135,16 @@
       "sequence": 13,
       "roles": [
         "Cigarette Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0288304",
       "name": "Byron Foulger",
-      "sequence": 23,
+      "sequence": 26,
       "roles": [
         "Mr. Baby",
         "Nightclub Patron"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -173,7 +163,7 @@
     {
       "imdbId": "nm0770337",
       "name": "Richard Schayer",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screen play)"
     }
   ]

@@ -1,15 +1,19 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0045102",
-  "title": "Room for One More",
-  "sortTitle": "Room for One More (1952)",
-  "year": 1952,
   "slug": "room-for-one-more-1952",
-  "releaseDate": "1952-01-15",
+  "title": "Room for One More",
+  "originalTitle": "Room for One More",
+  "sortTitle": "Room for One More",
+  "year": 1952,
+  "releaseDate": "1952-01-26",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Comedy"
+    "Comedy",
+    "Drama",
+    "Family"
   ],
   "directors": [
     {
@@ -26,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "George Rose"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0236860",
@@ -35,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Anna Perrott Rose"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0878354",
@@ -44,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Miss Kenyon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0835836",
@@ -53,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Gladys Foreman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0725891",
@@ -62,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Harry Foreman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0045784",
@@ -71,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Mayor Michael J. Kane"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0871695",
@@ -80,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Grace Roberts"
-      ],
-      "notes": "(as Mary Lou Treen)"
+      ]
     },
     {
       "imdbId": "nm0542788",
@@ -89,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Jane Miller"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0935487",
@@ -98,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Teenie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0851341",
@@ -107,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Jimmy John Wilson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0330203",
@@ -116,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Trot"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0144071",
@@ -125,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Tim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0647714",
@@ -134,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Benji Roberts"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0049055",
@@ -143,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Milkman"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0288830",
@@ -152,8 +142,7 @@
       "sequence": 14,
       "roles": [
         "Ice Man"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0389934",
@@ -161,8 +150,7 @@
       "sequence": 15,
       "roles": [
         "Minor Role"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     },
     {
       "imdbId": "nm0740718",
@@ -170,8 +158,7 @@
       "sequence": 16,
       "roles": [
         "The Doctor"
-      ],
-      "notes": "(scenesDeleted)"
+      ]
     }
   ],
   "writers": [
@@ -190,7 +177,7 @@
     {
       "imdbId": "nm0741249",
       "name": "Anna Perrot Rose",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(book)"
     }
   ]

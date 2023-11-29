@@ -1,15 +1,18 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0022002",
-  "title": "The Iron Man",
-  "sortTitle": "Iron Man (1931)",
-  "year": 1931,
   "slug": "the-iron-man-1931",
+  "title": "The Iron Man",
+  "originalTitle": "Iron Man",
+  "sortTitle": "Iron Man, The",
+  "year": 1931,
   "releaseDate": "1931-04-30",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Drama"
+    "Drama",
+    "Romance"
   ],
   "directors": [
     {
@@ -26,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Kid Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035877",
@@ -35,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "George Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001318",
@@ -44,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Rose Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587534",
@@ -53,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Paul H. Lewis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0226992",
@@ -62,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Jeff"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0232592",
@@ -71,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "McNeil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0169137",
@@ -80,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Rattler O'Keefe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0233390",
@@ -89,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Showgirl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0886648",
@@ -98,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Gladys DeVere"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0817021",
@@ -107,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Riley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0089702",
@@ -116,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Mandel"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -130,7 +122,7 @@
     {
       "imdbId": "nm0267020",
       "name": "Francis Edward Faragoh",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay and dialogue)"
     }
   ]

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0077234",
-  "title": "The Big Sleep",
-  "sortTitle": "Big Sleep (1978)",
-  "year": 1978,
   "slug": "the-big-sleep-1978",
-  "releaseDate": "1978-03-13",
+  "title": "The Big Sleep",
+  "originalTitle": "The Big Sleep",
+  "sortTitle": "Big Sleep, The",
+  "year": 1978,
+  "releaseDate": "1978-04-07",
   "countries": [
     "United Kingdom",
     "United States"
@@ -20,7 +22,7 @@
       "imdbId": "nm0935382",
       "name": "Michael Winner",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Philip Marlowe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0587234",
@@ -39,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Charlotte Sternwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0095524",
@@ -48,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Lash Canino"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163748",
@@ -57,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Camilla Sternwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001058",
@@ -66,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Agnes Lozelle"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002081",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Joe Brody"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0590055",
@@ -84,17 +80,15 @@
       "sequence": 6,
       "roles": [
         "Inspector Carson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000071",
       "name": "James Stewart",
       "sequence": 7,
       "roles": [
-        "Gen. Sternwood"
-      ],
-      "notes": null
+        "General Sternwood"
+      ]
     },
     {
       "imdbId": "nm0001657",
@@ -102,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Eddie Mars"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0028674",
@@ -111,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Norris"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0086780",
@@ -120,17 +112,15 @@
       "sequence": 10,
       "roles": [
         "Harry Jones"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0865262",
       "name": "Richard Todd",
       "sequence": 11,
       "roles": [
-        "Cmdr. Barker"
-      ],
-      "notes": null
+        "Commander Barker"
+      ]
     },
     {
       "imdbId": "nm0703438",
@@ -138,8 +128,7 @@
       "sequence": 12,
       "roles": [
         "Mona Grant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0232019",
@@ -147,8 +136,7 @@
       "sequence": 13,
       "roles": [
         "Inspector Gregory"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0433188",
@@ -156,8 +144,7 @@
       "sequence": 14,
       "roles": [
         "Arthur Geiger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0279842",
@@ -165,8 +152,7 @@
       "sequence": 15,
       "roles": [
         "Karl Lundgren"
-      ],
-      "notes": "(as Simon Turner)"
+      ]
     },
     {
       "imdbId": "nm0693318",
@@ -174,8 +160,7 @@
       "sequence": 16,
       "roles": [
         "Owen Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0767674",
@@ -183,8 +168,7 @@
       "sequence": 17,
       "roles": [
         "Rusty Regan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0840303",
@@ -192,8 +176,7 @@
       "sequence": 18,
       "roles": [
         "Lanny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0376405",
@@ -201,8 +184,7 @@
       "sequence": 19,
       "roles": [
         "Lou"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0286982",
@@ -210,8 +192,7 @@
       "sequence": 20,
       "roles": [
         "Croupier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0728583",
@@ -219,8 +200,7 @@
       "sequence": 21,
       "roles": [
         "Taxi Driver"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0244190",
@@ -228,17 +208,15 @@
       "sequence": 22,
       "roles": [
         "Reg"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0212600",
       "name": "Derek Deadman",
       "sequence": 23,
       "roles": [
-        "Customer In Bookshop"
-      ],
-      "notes": null
+        "Customer in Bookshop"
+      ]
     }
   ],
   "writers": [
@@ -251,8 +229,8 @@
     {
       "imdbId": "nm0151452",
       "name": "Raymond Chandler",
-      "sequence": 1,
-      "notes": "(novel)"
+      "sequence": 2,
+      "notes": "(book)"
     }
   ]
 }

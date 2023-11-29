@@ -42,10 +42,10 @@ add_collection = watchlist_collections.add
 
 
 def refresh_credits() -> None:
-    # directors.refresh_movies()
-    # performers.refresh_movies()
-    # writers.refresh_movies()
-    watchlist_collections.update()
+    directors.refresh_movies()
+    performers.refresh_movies()
+    writers.refresh_movies()
+    # watchlist_collections.update()
 
 
 def export_data() -> None:

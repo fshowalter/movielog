@@ -21,6 +21,7 @@ def valid_notes(credit: imdb.Person.Person) -> bool:
         "uncredited" not in notes
         and "scenes deleted" not in notes
         and "voice" not in notes
+        and "archiveFootage" not in notes
     )
 
 

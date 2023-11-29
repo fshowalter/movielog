@@ -1,24 +1,28 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0025712",
-  "title": "The Return of Chandu",
-  "sortTitle": "Return of Chandu (1934)",
-  "year": 1934,
   "slug": "the-return-of-chandu-1934",
+  "title": "The Return of Chandu",
+  "originalTitle": "The Return of Chandu",
+  "sortTitle": "Return of Chandu, The",
+  "year": 1934,
   "releaseDate": "1934-10-01",
   "countries": [
     "United States"
   ],
   "genres": [
     "Adventure",
+    "Family",
     "Fantasy",
-    "Horror"
+    "Horror",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm0853028",
       "name": "Ray Taylor",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -28,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Frank Chandler - Chandu"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0016183",
@@ -37,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Princess Nadji"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0949403",
@@ -46,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Dorothy Regent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0698139",
@@ -55,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Vindhyan - High Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0072916",
@@ -64,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Bob Regent"
-      ],
-      "notes": "(as Deane Benton)"
+      ]
     },
     {
       "imdbId": "nm0525044",
@@ -73,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Betty Regent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0035356",
@@ -82,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Sutra"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534259",
@@ -91,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "The Voice of Ubasti"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0524306",
@@ -100,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Capt. Wilson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0842522",
@@ -109,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Tyba"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0164030",
@@ -118,40 +112,39 @@
       "sequence": 10,
       "roles": [
         "Vitras"
-      ],
-      "notes": "(as Jack J. Clark)"
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0057456",
-      "name": "Barry Barringer",
-      "sequence": 0,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0057456",
-      "name": "Barry Barringer",
-      "sequence": 1,
-      "notes": "()"
-    },
-    {
       "imdbId": "nm0247440",
       "name": "Harry A. Earnshaw",
-      "sequence": 2,
-      "notes": "(radio show)"
-    },
-    {
-      "imdbId": "nm0604959",
-      "name": "R.R. Morgan",
-      "sequence": 3,
+      "sequence": 0,
       "notes": "(radio show)"
     },
     {
       "imdbId": "nm0646163",
       "name": "Vera M. Oldham",
-      "sequence": 4,
+      "sequence": 1,
       "notes": "(radio show)"
+    },
+    {
+      "imdbId": "nm0604959",
+      "name": "R.R. Morgan",
+      "sequence": 2,
+      "notes": "(radio show)"
+    },
+    {
+      "imdbId": "nm0057456",
+      "name": "Barry Barringer",
+      "sequence": 4,
+      "notes": "(adaptation)"
+    },
+    {
+      "imdbId": "nm0057456",
+      "name": "Barry Barringer",
+      "sequence": 6,
+      "notes": "(screenplay)"
     }
   ]
 }

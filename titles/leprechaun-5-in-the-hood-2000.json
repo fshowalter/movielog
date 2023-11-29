@@ -1,15 +1,16 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0209095",
-  "title": "Leprechaun 5: In the Hood",
-  "sortTitle": "Leprechaun 5: In the Hood (2000)",
-  "year": 2000,
   "slug": "leprechaun-5-in-the-hood-2000",
+  "title": "Leprechaun 5: In the Hood",
+  "originalTitle": "Leprechaun 5: In the Hood",
+  "sortTitle": "Leprechaun 5: In the Hood",
+  "year": 2000,
   "releaseDate": "2000-03-28",
   "countries": [
     "United States"
   ],
   "genres": [
-    "Action",
     "Comedy",
     "Fantasy",
     "Horror",
@@ -30,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Leprechaun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001384",
@@ -39,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Mack Daddy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0599719",
@@ -48,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Postmaster P."
-      ],
-      "notes": "(as A.T. Montgomery)"
+      ]
     },
     {
       "imdbId": "nm0620558",
@@ -57,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Stray Bullet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0335613",
@@ -66,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Butch"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0520901",
@@ -75,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Jackie Dee"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0780957",
@@ -84,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Fontaine Rivera"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0643655",
@@ -93,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Reverend Hanson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0648643",
@@ -102,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Chow Yung Pi"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0572028",
@@ -111,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Slug"
-      ],
-      "notes": "(as Bleu DaVinci)"
+      ]
     },
     {
       "imdbId": "nm0236858",
@@ -120,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Post's Mother"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0673925",
@@ -129,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Jackie Dee's Wife"
-      ],
-      "notes": "(as Donna Perkins)"
+      ]
     },
     {
       "imdbId": "nm0883173",
@@ -138,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Waitress #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402756",
@@ -147,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Waitress #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0428700",
@@ -156,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Waitress #3"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0543877",
@@ -165,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Bodyguard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0692298",
@@ -174,46 +159,45 @@
       "sequence": 16,
       "roles": [
         "Berry Grady"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1113287",
       "name": "William Wells",
-      "sequence": 0,
+      "sequence": 2,
       "notes": "(story by)"
     },
     {
       "imdbId": "nm1113283",
       "name": "Alan Reynolds",
-      "sequence": 1,
+      "sequence": 3,
       "notes": "(story by)"
     },
     {
       "imdbId": "nm0818237",
       "name": "Rob Spera",
-      "sequence": 2,
-      "notes": "(story by)"
-    },
-    {
-      "imdbId": "nm3852554",
-      "name": "Doug Hall",
-      "sequence": 3,
-      "notes": "(story by)"
-    },
-    {
-      "imdbId": "nm3852554",
-      "name": "Doug Hall",
       "sequence": 4,
-      "notes": "(screenplay by)"
+      "notes": "(story by)"
     },
     {
       "imdbId": "nm0400277",
       "name": "Jon Huffman",
-      "sequence": 5,
+      "sequence": 6,
       "notes": "(screenplay by)"
+    },
+    {
+      "imdbId": "nm9454271",
+      "name": "Doug Hall",
+      "sequence": 8,
+      "notes": "(screenplay by)"
+    },
+    {
+      "imdbId": "nm9454271",
+      "name": "Doug Hall",
+      "sequence": 10,
+      "notes": "(story by)"
     }
   ]
 }

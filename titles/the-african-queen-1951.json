@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0043265",
-  "title": "The African Queen",
-  "sortTitle": "African Queen (1951)",
-  "year": 1951,
   "slug": "the-african-queen-1951",
-  "releaseDate": "1951-12-26",
+  "title": "The African Queen",
+  "originalTitle": "The African Queen",
+  "sortTitle": "African Queen, The",
+  "year": 1951,
+  "releaseDate": "1952-03-21",
   "countries": [
     "United Kingdom",
     "United States"
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Charlie Allnutt"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000031",
@@ -39,18 +40,15 @@
       "sequence": 1,
       "roles": [
         "Rose Sayer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0605923",
       "name": "Robert Morley",
       "sequence": 2,
       "roles": [
-        "The Brother",
-        "Rev. Samuel Sayer"
-      ],
-      "notes": null
+        "Rev. Samuel Sayer - The Brother"
+      ]
     },
     {
       "imdbId": "nm0119988",
@@ -58,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Captain of Louisa"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000942",
@@ -67,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "First Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0331770",
@@ -76,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Second Officer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0822842",
@@ -85,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "First Officer of Shona"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0549424",
@@ -94,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Second Officer of Shona"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -108,26 +101,14 @@
     {
       "imdbId": "nm0012938",
       "name": "James Agee",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adapted for the screen by)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 2,
-      "notes": "(adapted for the screen by)"
-    },
-    {
-      "imdbId": "nm0171924",
-      "name": "John Collier",
       "sequence": 3,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0896830",
-      "name": "Peter Viertel",
-      "sequence": 4,
-      "notes": "() (uncredited)"
+      "notes": "(adapted for the screen by)"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0042313",
-  "title": "The Capture",
-  "sortTitle": "Capture (1950)",
-  "year": 1950,
   "slug": "the-capture-1950",
+  "title": "The Capture",
+  "originalTitle": "The Capture",
+  "sortTitle": "Capture, The",
+  "year": 1950,
   "releaseDate": "1950-04-08",
   "countries": [
     "United States"
@@ -27,9 +29,8 @@
       "name": "Lew Ayres",
       "sequence": 0,
       "roles": [
-        "Vanner"
-      ],
-      "notes": null
+        "Lin Vanner"
+      ]
     },
     {
       "imdbId": "nm0942863",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Ellen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0430460",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Father Gomez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0924916",
@@ -55,26 +54,23 @@
       "sequence": 3,
       "roles": [
         "Luana"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0402505",
       "name": "Jimmy Hunt",
       "sequence": 4,
       "roles": [
-        "Mike"
-      ],
-      "notes": null
+        "Mike Tevlin"
+      ]
     },
     {
       "imdbId": "nm0445868",
       "name": "Barry Kelley",
       "sequence": 5,
       "roles": [
-        "Mahoney"
-      ],
-      "notes": null
+        "Earl C. Mahoney"
+      ]
     },
     {
       "imdbId": "nm0719121",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Carlos"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0049055",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Tolin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0663875",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Thin Man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0560449",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Juan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0877099",
@@ -118,17 +110,15 @@
       "sequence": 10,
       "roles": [
         "Valdez"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0709456",
       "name": "Edwin Rand",
       "sequence": 11,
       "roles": [
-        "Tevlin"
-      ],
-      "notes": null
+        "Sam Tevlin"
+      ]
     }
   ],
   "writers": [
@@ -137,12 +127,6 @@
       "name": "Niven Busch",
       "sequence": 0,
       "notes": "(written by)"
-    },
-    {
-      "imdbId": "nm0124002",
-      "name": "Niven Busch",
-      "sequence": 1,
-      "notes": "(novel) (uncredited)"
     }
   ]
 }

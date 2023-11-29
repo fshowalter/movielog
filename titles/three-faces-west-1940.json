@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0033159",
-  "title": "Three Faces West",
-  "sortTitle": "Three Faces West (1940)",
-  "year": 1940,
   "slug": "three-faces-west-1940",
+  "title": "Three Faces West",
+  "originalTitle": "Three Faces West",
+  "sortTitle": "Three Faces West",
+  "year": 1940,
   "releaseDate": "1940-07-03",
   "countries": [
     "United States"
@@ -11,7 +13,8 @@
   "genres": [
     "Adventure",
     "Drama",
-    "Romance"
+    "Romance",
+    "War"
   ],
   "directors": [
     {
@@ -28,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "John Phillips"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0348619",
@@ -37,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Leni 'Lenchen' Braun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002013",
@@ -46,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Karl Braun"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0153556",
@@ -55,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Dr. 'Nunk' Atterbury"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0533235",
@@ -64,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Mrs. Welles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0890131",
@@ -73,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Eric Von Scherer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0120674",
@@ -82,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Billy Welles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0098424",
@@ -91,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Mr. Harris - Department of Agriculture Official"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0054253",
@@ -100,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Clem Higgins"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801193",
@@ -109,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Minister"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0907289",
@@ -118,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Dr. William Thorpe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0632057",
@@ -127,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Man-on-the-Street Radio Announcer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -149,12 +140,6 @@
       "name": "Samuel Ornitz",
       "sequence": 2,
       "notes": "(original screenplay)"
-    },
-    {
-      "imdbId": "nm0026639",
-      "name": "Doris Anderson",
-      "sequence": 3,
-      "notes": "(screenplay) (uncredited) (unconfirmed)"
     }
   ]
 }

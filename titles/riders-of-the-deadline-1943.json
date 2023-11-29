@@ -1,14 +1,17 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0037224",
-  "title": "Riders of the Deadline",
-  "sortTitle": "Riders of the Deadline (1943)",
-  "year": 1943,
   "slug": "riders-of-the-deadline-1943",
+  "title": "Riders of the Deadline",
+  "originalTitle": "Riders of the Deadline",
+  "sortTitle": "Riders of the Deadline",
+  "year": 1943,
   "releaseDate": "1943-12-03",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
@@ -25,27 +28,24 @@
       "name": "William Boyd",
       "sequence": 0,
       "roles": [
-        "Ranger Hopalong Cassidy"
-      ],
-      "notes": null
+        "Hopalong Cassidy"
+      ]
     },
     {
       "imdbId": "nm0167395",
       "name": "Andy Clyde",
       "sequence": 1,
       "roles": [
-        "Ranger California Carson"
-      ],
-      "notes": null
+        "California Carson"
+      ]
     },
     {
       "imdbId": "nm0736956",
       "name": "Jimmy Rogers",
       "sequence": 2,
       "roles": [
-        "Ranger Jimmy Rogers"
-      ],
-      "notes": null
+        "Jimmy Rogers"
+      ]
     },
     {
       "imdbId": "nm0940923",
@@ -53,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Sue Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0356620",
@@ -62,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Simon Crandall"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000053",
@@ -71,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Nick Drago"
-      ],
-      "notes": "(as Bob Mitchum)"
+      ]
     },
     {
       "imdbId": "nm0186415",
@@ -80,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Tim Mason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0911955",
@@ -89,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "'Gunner' Madigan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0698804",
@@ -98,17 +93,15 @@
       "sequence": 8,
       "roles": [
         "Deputy Sheriff Martin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0712660",
       "name": "Herbert Rawlinson",
       "sequence": 9,
       "roles": [
-        "Ranger Captain Jennings"
-      ],
-      "notes": null
+        "Captain Jennings"
+      ]
     },
     {
       "imdbId": "nm0734340",
@@ -116,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Tex"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0388232",
@@ -125,17 +117,15 @@
       "sequence": 11,
       "roles": [
         "Sourdough"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0598936",
       "name": "Montie Montana",
       "sequence": 12,
       "roles": [
-        "Ranger Kelton"
-      ],
-      "notes": "(Private Calhoun in credits)"
+        "Private Calhoun"
+      ]
     }
   ],
   "writers": [
@@ -143,7 +133,7 @@
       "imdbId": "nm0169243",
       "name": "Bennett Cohen",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(original screenplay)"
     }
   ]
 }

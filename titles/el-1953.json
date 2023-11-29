@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0045361",
-  "title": "El",
-  "sortTitle": "El (1953)",
-  "year": 1953,
   "slug": "el-1953",
-  "releaseDate": "1953-04-01",
+  "title": "El",
+  "originalTitle": "\u00c9l",
+  "sortTitle": "El",
+  "year": 1953,
+  "releaseDate": "1953-01-01",
   "countries": [
     "Mexico"
   ],
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Francisco Galv\u00e1n de Montemayor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0305509",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Gloria Vilalta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0907541",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Do\u00f1a Esperanza Vilalta"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0554805",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Padre Velasco"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0232375",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Pablo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0052486",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Ricardo Luj\u00e1n"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0142914",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Lic. Beltr\u00e1n"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0682055",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Padre prior"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0583332",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Licenciado"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0075251",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Ra\u00fal Conde"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -117,23 +109,17 @@
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
       "sequence": 0,
-      "notes": "(story)"
+      "notes": "(written by)"
     },
     {
       "imdbId": "nm0017274",
       "name": "Luis Alcoriza",
       "sequence": 1,
-      "notes": "(story)"
+      "notes": "(written by)"
     },
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 2,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0017274",
-      "name": "Luis Alcoriza",
       "sequence": 3,
       "notes": "(adaptation)"
     },
@@ -141,7 +127,13 @@
       "imdbId": "nm0684696",
       "name": "Mercedes Pinto",
       "sequence": 4,
-      "notes": "(novel \"\u00c9l\")"
+      "notes": "(novel \"Pensamientos\")"
+    },
+    {
+      "imdbId": "nm0017274",
+      "name": "Luis Alcoriza",
+      "sequence": 5,
+      "notes": "(adaptation)"
     }
   ]
 }

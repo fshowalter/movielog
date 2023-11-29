@@ -1,14 +1,17 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0050923",
-  "title": "Saddle the Wind",
-  "sortTitle": "Saddle the Wind (1958)",
-  "year": 1958,
   "slug": "saddle-the-wind-1958",
+  "title": "Saddle the Wind",
+  "originalTitle": "Saddle the Wind",
+  "sortTitle": "Saddle the Wind",
+  "year": 1958,
   "releaseDate": "1958-03-05",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
@@ -32,8 +35,7 @@
       "sequence": 0,
       "roles": [
         "Steve Sinclair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0518728",
@@ -41,8 +43,7 @@
       "sequence": 1,
       "roles": [
         "Joan Blake"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001023",
@@ -50,8 +51,7 @@
       "sequence": 2,
       "roles": [
         "Tony Sinclair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0187981",
@@ -59,8 +59,7 @@
       "sequence": 3,
       "roles": [
         "Dennis Deneen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0569902",
@@ -68,8 +67,7 @@
       "sequence": 4,
       "roles": [
         "Larry Venables"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0200455",
@@ -77,8 +75,7 @@
       "sequence": 5,
       "roles": [
         "Clay Ellison"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0258757",
@@ -86,8 +83,7 @@
       "sequence": 6,
       "roles": [
         "Dallas Hanson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0817930",
@@ -95,8 +91,7 @@
       "sequence": 7,
       "roles": [
         "Hemp Scribner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0853576",
@@ -104,8 +99,7 @@
       "sequence": 8,
       "roles": [
         "Brick Larson"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -118,14 +112,8 @@
     {
       "imdbId": "nm0860775",
       "name": "Thomas Thompson",
-      "sequence": 1,
-      "notes": "(screen story)"
-    },
-    {
-      "imdbId": "nm0297190",
-      "name": "Daniel Fuchs",
       "sequence": 2,
-      "notes": "() (uncredited)"
+      "notes": "(screen story)"
     }
   ]
 }

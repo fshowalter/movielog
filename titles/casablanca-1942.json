@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0034583",
-  "title": "Casablanca",
-  "sortTitle": "Casablanca (1942)",
-  "year": 1942,
   "slug": "casablanca-1942",
-  "releaseDate": "1942-11-26",
+  "title": "Casablanca",
+  "originalTitle": "Casablanca",
+  "sortTitle": "Casablanca",
+  "year": 1942,
+  "releaseDate": "1943-01-23",
   "countries": [
     "United States"
   ],
@@ -18,7 +20,7 @@
       "imdbId": "nm0002031",
       "name": "Michael Curtiz",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Rick Blaine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000006",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Ilsa Lund"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002134",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Victor Laszlo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001647",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Captain Louis Renault"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0891998",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Major Heinrich Strasser"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002113",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Signor Ferrari"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000048",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Ugarte"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0757064",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Carl"
-      ],
-      "notes": "(as S.K. Sakall)"
+      ]
     },
     {
       "imdbId": "nm0495495",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Yvonne"
-      ],
-      "notes": "(as Madeleine LeBeau)"
+      ]
     },
     {
       "imdbId": "nm0933330",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Sam"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0656226",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Annina Brandel"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0702798",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Berger"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0455893",
@@ -136,8 +126,7 @@
       "sequence": 12,
       "roles": [
         "Sascha"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0092290",
@@ -145,8 +134,7 @@
       "sequence": 13,
       "roles": [
         "Pickpocket"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3629365",
@@ -155,8 +143,7 @@
       "roles": [
         "French Soldier",
         "Singer"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -164,37 +151,31 @@
       "imdbId": "nm0258493",
       "name": "Julius J. Epstein",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0258525",
       "name": "Philip G. Epstein",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0462321",
       "name": "Howard Koch",
       "sequence": 2,
-      "notes": "(screenplay)"
+      "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0122417",
       "name": "Murray Burnett",
-      "sequence": 3,
-      "notes": "(play)"
+      "sequence": 4,
+      "notes": "(from a play by)"
     },
     {
       "imdbId": "nm0019706",
       "name": "Joan Alison",
-      "sequence": 4,
-      "notes": "(play)"
-    },
-    {
-      "imdbId": "nm0732452",
-      "name": "Casey Robinson",
       "sequence": 5,
-      "notes": "() (uncredited)"
+      "notes": "(from a play by)"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0041555",
-  "title": "Knock on Any Door",
-  "sortTitle": "Knock on Any Door (1949)",
-  "year": 1949,
   "slug": "knock-on-any-door-1949",
-  "releaseDate": "1949-02-22",
+  "title": "Knock on Any Door",
+  "originalTitle": "Knock on Any Door",
+  "sortTitle": "Knock on Any Door",
+  "year": 1949,
+  "releaseDate": "1949-03-17",
   "countries": [
     "United States"
   ],
@@ -28,62 +30,55 @@
       "sequence": 0,
       "roles": [
         "Andrew Morton"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0001135",
-      "name": "John Derek",
-      "sequence": 1,
-      "roles": [
-        "Nick Romano"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0534317",
       "name": "George Macready",
-      "sequence": 2,
+      "sequence": 1,
       "roles": [
-        "Dist. Atty. Kerman"
-      ],
-      "notes": null
+        "District Attorney Kerman"
+      ]
     },
     {
       "imdbId": "nm0730815",
       "name": "Allene Roberts",
-      "sequence": 3,
+      "sequence": 2,
       "roles": [
         "Emma"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0870253",
       "name": "Candy Toxton",
-      "sequence": 4,
+      "sequence": 3,
       "roles": [
         "Adele Morton"
-      ],
-      "notes": "(as Susan Perry)"
+      ]
     },
     {
       "imdbId": "nm0461658",
       "name": "Mickey Knox",
-      "sequence": 5,
+      "sequence": 4,
       "roles": [
         "Vito"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0445868",
       "name": "Barry Kelley",
-      "sequence": 6,
+      "sequence": 5,
       "roles": [
         "Judge Drake"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0001135",
+      "name": "John Derek",
+      "sequence": 6,
+      "roles": [
+        "Nick Romano"
+      ]
     },
     {
       "imdbId": "nm0096128",
@@ -92,8 +87,7 @@
       "roles": [
         "The Chef in Poolroom",
         "Court Spectator"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -101,19 +95,19 @@
       "imdbId": "nm0850168",
       "name": "Daniel Taradash",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0598267",
       "name": "John Monks Jr.",
       "sequence": 1,
-      "notes": "(screenplay)"
+      "notes": "(screen play)"
     },
     {
       "imdbId": "nm0609380",
       "name": "Willard Motley",
-      "sequence": 2,
-      "notes": "(from the novel \"Knock On Any Door\" by)"
+      "sequence": 3,
+      "notes": "(novel \"Knock On Any Door\")"
     }
   ]
 }

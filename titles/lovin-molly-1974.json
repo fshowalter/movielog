@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0071780",
-  "title": "Lovin' Molly",
-  "sortTitle": "Lovin' Molly (1974)",
-  "year": 1974,
   "slug": "lovin-molly-1974",
-  "releaseDate": "1974-04-14",
+  "title": "Lovin' Molly",
+  "originalTitle": "Lovin' Molly",
+  "sortTitle": "Lovin' Molly",
+  "year": 1974,
+  "releaseDate": "1974-01-01",
   "countries": [
     "United States"
   ],
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Gid"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000977",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Johnny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001100",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Molly"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0083081",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Mr. Frye"
-      ],
-      "notes": "(as Ed Binns)"
+      ]
     },
     {
       "imdbId": "nm0000215",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Sarah"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0288619",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Eddie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0871334",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Mr. Taylor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269038",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mr. Grinsom"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0122782",
@@ -100,22 +94,21 @@
       "roles": [
         "Sarah",
         "Molly"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0573505",
-      "name": "Larry McMurtry",
-      "sequence": 0,
-      "notes": "(novel \"Leaving Cheyenne\")"
-    },
-    {
       "imdbId": "nm0295375",
       "name": "Stephen J. Friedman",
-      "sequence": 1,
+      "sequence": 0,
       "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0573505",
+      "name": "Larry McMurtry",
+      "sequence": 1,
+      "notes": "(novel \"Leaving Cheyenne\")"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0055152",
-  "title": "Master of the World",
-  "sortTitle": "Master of the World (1961)",
-  "year": 1961,
   "slug": "master-of-the-world-1961",
+  "title": "Master of the World",
+  "originalTitle": "Master of the World",
+  "sortTitle": "Master of the World",
+  "year": 1961,
   "releaseDate": "1961-05-01",
   "countries": [
     "United States"
@@ -17,7 +19,7 @@
       "imdbId": "nm0936823",
       "name": "William Witney",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Robur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000314",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "John Strock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0401434",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Prudent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm3497822",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Dorothy Prudent"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0291301",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Phillip Evans"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0365835",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Alistair"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0780005",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Topage"
-      ],
-      "notes": "(as Vitto Scotti)"
+      ]
     },
     {
       "imdbId": "nm0133140",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Turner"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -99,12 +93,12 @@
       "imdbId": "nm0558577",
       "name": "Richard Matheson",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0894523",
       "name": "Jules Verne",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(based on two novels by: \"Master of the World\" and \"Robur, the Conqueror\")"
     }
   ]

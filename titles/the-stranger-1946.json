@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0038991",
-  "title": "The Stranger",
-  "sortTitle": "Stranger (1946)",
-  "year": 1946,
   "slug": "the-stranger-1946",
-  "releaseDate": "1946-07-02",
+  "title": "The Stranger",
+  "originalTitle": "The Stranger",
+  "sortTitle": "Stranger, The",
+  "year": 1946,
+  "releaseDate": "1946-08-01",
   "countries": [
     "United States"
   ],
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Mr. Wilson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0949835",
@@ -39,17 +40,15 @@
       "sequence": 1,
       "roles": [
         "Mary Longstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000080",
       "name": "Orson Welles",
       "sequence": 2,
       "roles": [
-        "Professor Charles Rankin"
-      ],
-      "notes": null
+        "Prof. Charles Rankin"
+      ]
     },
     {
       "imdbId": "nm0580882",
@@ -57,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Judge Adam Longstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0519160",
@@ -66,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Noah Longstreet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0790164",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Konrad Meinike"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0126405",
@@ -84,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Dr. Jeffrey Lawrence"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0396633",
@@ -93,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Mr. Potter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0921131",
@@ -102,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Sara"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -116,32 +109,20 @@
     {
       "imdbId": "nm0873193",
       "name": "Victor Trivas",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0242938",
       "name": "Decla Dunning",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0873193",
       "name": "Victor Trivas",
-      "sequence": 3,
-      "notes": "(original story)"
-    },
-    {
-      "imdbId": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 4,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0001379",
-      "name": "John Huston",
       "sequence": 5,
-      "notes": "() (uncredited)"
+      "notes": "(original story)"
     }
   ]
 }

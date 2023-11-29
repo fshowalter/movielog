@@ -1,16 +1,19 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0050772",
-  "title": "No Road Back",
-  "sortTitle": "No Road Back (1957)",
-  "year": 1957,
   "slug": "no-road-back-1957",
-  "releaseDate": "1957-02-04",
+  "title": "No Road Back",
+  "originalTitle": "No Road Back",
+  "sortTitle": "No Road Back",
+  "year": 1957,
+  "releaseDate": "1959-10-19",
   "countries": [
     "United Kingdom"
   ],
   "genres": [
     "Action",
-    "Crime"
+    "Crime",
+    "Drama"
   ],
   "directors": [
     {
@@ -27,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "John Railton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0139428",
@@ -36,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Clem Hayes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0197414",
@@ -45,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Beth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0941076",
@@ -54,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Insp. Harris"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0712615",
@@ -63,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Mrs. Railton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0838628",
@@ -72,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Marguerite"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0060023",
@@ -81,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Rudge Harvey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000125",
@@ -90,49 +86,31 @@
       "sequence": 7,
       "roles": [
         "Spike"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0034012",
-      "name": "Ricky Arden",
-      "sequence": 8,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0115569",
       "name": "Robert Bruce",
-      "sequence": 9,
+      "sequence": 8,
       "roles": [
         "Sgt. Brooks"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0176648",
-      "name": "Carl Conway",
-      "sequence": 10,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0302504",
-      "name": "Thomas Gallagher",
-      "sequence": 11,
-      "roles": [
-        "Night Watchman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0712960",
       "name": "Philip Ray",
-      "sequence": 12,
+      "sequence": 9,
       "roles": [
         "Garage Man"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm0302504",
+      "name": "Thomas Gallagher",
+      "sequence": 10,
+      "roles": [
+        "Night Watchman"
+      ]
     }
   ],
   "writers": [
@@ -151,25 +129,25 @@
     {
       "imdbId": "nm0498576",
       "name": "Charles Leeds",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay) (as Charles A. Leeds)"
     },
     {
       "imdbId": "nm0876440",
       "name": "Montgomery Tully",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0498576",
       "name": "Charles Leeds",
-      "sequence": 4,
+      "sequence": 6,
       "notes": "(additional dialogue) (as Charles A. Leeds)"
     },
     {
       "imdbId": "nm0876440",
       "name": "Montgomery Tully",
-      "sequence": 5,
+      "sequence": 7,
       "notes": "(additional dialogue)"
     }
   ]

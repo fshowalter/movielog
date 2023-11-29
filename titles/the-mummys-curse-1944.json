@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0037098",
-  "title": "The Mummy's Curse",
-  "sortTitle": "Mummy's Curse (1944)",
-  "year": 1944,
   "slug": "the-mummys-curse-1944",
+  "title": "The Mummy's Curse",
+  "originalTitle": "The Mummy's Curse",
+  "sortTitle": "Mummy's Curse, The",
+  "year": 1944,
   "releaseDate": "1944-12-22",
   "countries": [
     "United States"
@@ -30,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Mummy"
-      ],
-      "notes": "(as Lon Chaney)"
+      ]
     },
     {
       "imdbId": "nm0168658",
@@ -39,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Doctor Ilzor Zardad"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0160417",
@@ -48,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Princess Ananka"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0362323",
@@ -57,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Betty Ward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0601117",
@@ -66,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Doctor James Halsey"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0467170",
@@ -75,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Ragheb"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0441193",
@@ -84,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Cajun Joe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0723935",
@@ -93,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Major Pat Walsh"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0378555",
@@ -102,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Dr. Cooper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0828314",
@@ -111,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Achilles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0267912",
@@ -120,8 +112,7 @@
       "sequence": 10,
       "roles": [
         "Sacristan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801138",
@@ -129,8 +120,7 @@
       "sequence": 11,
       "roles": [
         "Goobie"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -143,38 +133,26 @@
     {
       "imdbId": "nm0009205",
       "name": "Leon Abrams",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(original story)"
     },
     {
       "imdbId": "nm0044831",
       "name": "Dwight V. Babcock",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(original story)"
     },
     {
       "imdbId": "nm0009205",
       "name": "Leon Abrams",
-      "sequence": 3,
+      "sequence": 5,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0044831",
       "name": "Dwight V. Babcock",
-      "sequence": 4,
-      "notes": "(adaptation)"
-    },
-    {
-      "imdbId": "nm0236980",
-      "name": "Oliver Drake",
-      "sequence": 5,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0725159",
-      "name": "Ted Richmond",
       "sequence": 6,
-      "notes": "(story) (uncredited)"
+      "notes": "(adaptation)"
     }
   ]
 }

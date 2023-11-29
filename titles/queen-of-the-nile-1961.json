@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0055222",
-  "title": "Queen of the Nile",
-  "sortTitle": "Queen of the Nile (1961)",
-  "year": 1961,
   "slug": "queen-of-the-nile-1961",
-  "releaseDate": "1961-09-20",
+  "title": "Queen of the Nile",
+  "originalTitle": "Nefertite, regina del Nilo",
+  "sortTitle": "Queen of the Nile",
+  "year": 1961,
+  "releaseDate": "1964-01-15",
   "countries": [
     "Italy"
   ],
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Nefertiti"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001637",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Benakon"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0700803",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Tumos, Scultore"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0623443",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Amenophis IV"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0649752",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Merith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195258",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Seper"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0267838",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Dakim"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0558089",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Penaba"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0545567",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Meck"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0657541",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Nagor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0706770",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Zeton, Priest"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0554370",
@@ -126,15 +117,7 @@
       "sequence": 11,
       "roles": [
         "Melad"
-      ],
-      "notes": "(as Luigi Marturano)"
-    },
-    {
-      "imdbId": "nm0320257",
-      "name": "Romano Giomini",
-      "sequence": 12,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0049673",
@@ -142,15 +125,7 @@
       "sequence": 13,
       "roles": [
         "Mareb"
-      ],
-      "notes": "(as Raffaele Baldassarre)"
-    },
-    {
-      "imdbId": "nm0899815",
-      "name": "Adriano Vitale",
-      "sequence": 14,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0847790",
@@ -158,8 +133,7 @@
       "sequence": 15,
       "roles": [
         "Kanru"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -167,25 +141,25 @@
       "imdbId": "nm0126205",
       "name": "John Byrne",
       "sequence": 0,
-      "notes": "()"
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0148486",
       "name": "Fernando Cerchio",
-      "sequence": 1,
-      "notes": "()"
+      "sequence": 2,
+      "notes": "(screenplay)"
     },
     {
       "imdbId": "nm5433444",
       "name": "Emerico Papp",
-      "sequence": 2,
-      "notes": "()"
+      "sequence": 4,
+      "notes": "(story)"
     },
     {
       "imdbId": "nm0688218",
       "name": "Ottavio Poggi",
-      "sequence": 3,
-      "notes": "()"
+      "sequence": 6,
+      "notes": "(story + screenplay)"
     }
   ]
 }

@@ -1,16 +1,19 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0059578",
-  "title": "For a Few Dollars More",
-  "sortTitle": "For a Few Dollars More (1965)",
-  "year": 1965,
   "slug": "for-a-few-dollars-more-1965",
-  "releaseDate": "1965-12-18",
+  "title": "For a Few Dollars More",
+  "originalTitle": "Per qualche dollaro in pi\u00f9",
+  "sortTitle": "For a Few Dollars More",
+  "year": 1965,
+  "releaseDate": "1967-05-10",
   "countries": [
     "Italy",
     "Spain",
     "West Germany"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
@@ -28,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Monco"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001812",
@@ -37,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Col. Douglas Mortimer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0002231",
@@ -46,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "El Indio"
-      ],
-      "notes": "(The Indian)"
+      ]
     },
     {
       "imdbId": "nm0472756",
@@ -55,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Mary - Hotel Manager's Beautiful Wife"
-      ],
-      "notes": "(as Mara Krup)"
+      ]
     },
     {
       "imdbId": "nm0685559",
@@ -64,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Groggy, Member of Indio's Gang"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001428",
@@ -73,17 +71,15 @@
       "sequence": 5,
       "roles": [
         "Juan Wild - The Hunchback"
-      ],
-      "notes": null
+      ]
     },
     {
-      "imdbId": "nm0735668",
+      "imdbId": "nm8621588",
       "name": "Luis Rodr\u00edguez",
       "sequence": 6,
       "roles": [
-        "Manuel, Member of Indio's Gang"
-      ],
-      "notes": "(as Luis Rodriguez)"
+        "Manuel"
+      ]
     },
     {
       "imdbId": "nm0824934",
@@ -91,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Luke 'Hughie'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0660208",
@@ -100,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Sancho Perez, Member of Indio's Gang"
-      ],
-      "notes": "(as Panos Papadopoulos)"
+      ]
     },
     {
       "imdbId": "nm0759757",
@@ -109,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Cuchillio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131209",
@@ -118,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Tucumcari station clerk"
-      ],
-      "notes": "(as Robert Camardiel)"
+      ]
     },
     {
       "imdbId": "nm0250905",
@@ -127,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "Old Prophet"
-      ],
-      "notes": "(as Josef Egger)"
+      ]
     },
     {
       "imdbId": "nm0087339",
@@ -136,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "Tucumcari sheriff"
-      ],
-      "notes": "(as Tomas Blanco)"
+      ]
     },
     {
       "imdbId": "nm0696468",
@@ -145,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Tomaso, Indio's Traitor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0535979",
@@ -154,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Carpenter in cell with El Indio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0579155",
@@ -163,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Tucumcari bank manager"
-      ],
-      "notes": "(as Sergio Mendizabal)"
+      ]
     },
     {
       "imdbId": "nm0704972",
@@ -172,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Callaway's beautiful girl in tub"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0850190",
@@ -181,8 +167,7 @@
       "sequence": 17,
       "roles": [
         "Santa Cruz telegraphist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0579634",
@@ -190,8 +175,7 @@
       "sequence": 18,
       "roles": [
         "Train Conductor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0103828",
@@ -199,8 +183,7 @@
       "sequence": 19,
       "roles": [
         "Nino, Member of Indio's Gang"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -219,32 +202,14 @@
     {
       "imdbId": "nm0898812",
       "name": "Luciano Vincenzoni",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
-      "sequence": 3,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0006872",
-      "name": "Sergio Donati",
       "sequence": 4,
-      "notes": "() (uncredited)"
-    },
-    {
-      "imdbId": "nm0217258",
-      "name": "Enzo Dell'Aquila",
-      "sequence": 5,
-      "notes": "(original treatment) (uncredited)"
-    },
-    {
-      "imdbId": "nm0223964",
-      "name": "Fernando Di Leo",
-      "sequence": 6,
-      "notes": "() (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

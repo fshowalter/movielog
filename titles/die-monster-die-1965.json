@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0059465",
-  "title": "Die, Monster, Die!",
-  "sortTitle": "Die, Monster, Die! (1965)",
-  "year": 1965,
   "slug": "die-monster-die-1965",
+  "title": "Die, Monster, Die!",
+  "originalTitle": "Die, Monster, Die!",
+  "sortTitle": "Die, Monster, Die!",
+  "year": 1965,
   "releaseDate": "1965-10-27",
   "countries": [
     "United Kingdom"
@@ -18,7 +20,7 @@
       "imdbId": "nm0356396",
       "name": "Daniel Haller",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Nahum Witley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0011244",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Stephen Reinhart"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0413528",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Letitia Witley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0267799",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Susan Witley"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0210117",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Merwyn"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0535861",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Dr. Henderson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0268306",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "Jason"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0245510",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Potter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0329468",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Taxi Driver"
-      ],
-      "notes": "(UK version)"
+      ]
     },
     {
       "imdbId": "nm0111356",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "Pierce"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0590652",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Henry"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0713520",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Miss Bailey"
-      ],
-      "notes": "(UK version)"
+      ]
     }
   ],
   "writers": [
@@ -136,12 +126,12 @@
       "imdbId": "nm0812257",
       "name": "Jerry Sohl",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0522454",
       "name": "H.P. Lovecraft",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(from \"The Colour Out of Space\")"
     }
   ]

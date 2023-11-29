@@ -1,14 +1,17 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0033873",
-  "title": "Man Hunt",
-  "sortTitle": "Man Hunt (1941)",
-  "year": 1941,
   "slug": "man-hunt-1941",
-  "releaseDate": "1941-06-13",
+  "title": "Man Hunt",
+  "originalTitle": "Man Hunt",
+  "sortTitle": "Man Hunt",
+  "year": 1941,
+  "releaseDate": "1941-06-20",
   "countries": [
     "United States"
   ],
   "genres": [
+    "Crime",
     "Drama",
     "Romance",
     "Thriller",
@@ -29,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Captain Alan Thorndike"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000910",
@@ -38,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Jerry Stokes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001695",
@@ -47,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Major Quive-Smith"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001017",
@@ -56,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Mr. Jones"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001522",
@@ -65,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Vaner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0836724",
@@ -74,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Doctor"
-      ],
-      "notes": "(as Ludwig Stossell)"
+      ]
     },
     {
       "imdbId": "nm0857124",
@@ -83,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Lady Alice Risborough"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0941520",
@@ -92,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Lord Gerald Risborough"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0408184",
@@ -101,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Captain Jensen"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -115,14 +109,8 @@
     {
       "imdbId": "nm0629580",
       "name": "Dudley Nichols",
-      "sequence": 1,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0873707",
-      "name": "Lamar Trotti",
       "sequence": 2,
-      "notes": "(contract writer) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

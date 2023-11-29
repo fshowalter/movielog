@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0058920",
-  "title": "The Art of Love",
-  "sortTitle": "Art of Love (1965)",
-  "year": 1965,
   "slug": "the-art-of-love-1965",
-  "releaseDate": "1965-06-25",
+  "title": "The Art of Love",
+  "originalTitle": "The Art of Love",
+  "sortTitle": "Art of Love, The",
+  "year": 1965,
+  "releaseDate": "1965-07-08",
   "countries": [
     "United States"
   ],
@@ -25,45 +27,40 @@
       "name": "James Garner",
       "sequence": 0,
       "roles": [
-        "Casey Barnett"
-      ],
-      "notes": null
+        "Casey"
+      ]
     },
     {
       "imdbId": "nm0001813",
       "name": "Dick Van Dyke",
       "sequence": 1,
       "roles": [
-        "Paul Sloane"
-      ],
-      "notes": null
+        "Paul"
+      ]
     },
     {
       "imdbId": "nm0813961",
       "name": "Elke Sommer",
       "sequence": 2,
       "roles": [
-        "Nikki Dunnay"
-      ],
-      "notes": null
+        "Nikki"
+      ]
     },
     {
       "imdbId": "nm0001141",
       "name": "Angie Dickinson",
       "sequence": 3,
       "roles": [
-        "Laurie Gibson"
-      ],
-      "notes": null
+        "Laurie"
+      ]
     },
     {
       "imdbId": "nm0581062",
       "name": "Ethel Merman",
       "sequence": 4,
       "roles": [
-        "Madame Coco La Fontaine"
-      ],
-      "notes": null
+        "Madame Coco"
+      ]
     },
     {
       "imdbId": "nm0005348",
@@ -71,17 +68,15 @@
       "sequence": 5,
       "roles": [
         "Rodin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0645870",
       "name": "Pierre Olaf",
       "sequence": 6,
       "roles": [
-        "Inspector Carnot"
-      ],
-      "notes": null
+        "Carnot"
+      ]
     },
     {
       "imdbId": "nm0846987",
@@ -89,8 +84,7 @@
       "sequence": 7,
       "roles": [
         "Chou Chou"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0138354",
@@ -98,8 +92,7 @@
       "sequence": 8,
       "roles": [
         "Zorgus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0414851",
@@ -107,8 +100,7 @@
       "sequence": 9,
       "roles": [
         "Mr. Fromkis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0637041",
@@ -116,8 +108,7 @@
       "sequence": 10,
       "roles": [
         "Janitor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0828653",
@@ -125,8 +116,7 @@
       "sequence": 11,
       "roles": [
         "Mrs. Sarah Fromkis"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0149027",
@@ -134,8 +124,7 @@
       "sequence": 12,
       "roles": [
         "Pepe de Winter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0067589",
@@ -143,8 +132,7 @@
       "sequence": 13,
       "roles": [
         "Prince"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0580425",
@@ -152,8 +140,7 @@
       "sequence": 14,
       "roles": [
         "Magistrate"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550342",
@@ -161,8 +148,7 @@
       "sequence": 15,
       "roles": [
         "Prosecutor"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0195888",
@@ -170,8 +156,7 @@
       "sequence": 16,
       "roles": [
         "Fanny"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0384787",
@@ -179,8 +164,7 @@
       "sequence": 17,
       "roles": [
         "Executioner"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0898316",
@@ -188,8 +172,7 @@
       "sequence": 18,
       "roles": [
         "Couchette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0552832",
@@ -197,8 +180,7 @@
       "sequence": 19,
       "roles": [
         "Margo"
-      ],
-      "notes": "(as Nancy Martin)"
+      ]
     },
     {
       "imdbId": "nm0141027",
@@ -206,8 +188,7 @@
       "sequence": 20,
       "roles": [
         "Yvette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0794958",
@@ -215,8 +196,7 @@
       "sequence": 21,
       "roles": [
         "Betti"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0207575",
@@ -224,28 +204,27 @@
       "sequence": 22,
       "roles": [
         "Cerise"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0005348",
+      "name": "Carl Reiner",
+      "sequence": 0,
+      "notes": "(screenplay by)"
+    },
+    {
       "imdbId": "nm0671766",
       "name": "Richard Alan Simmons",
-      "sequence": 0,
-      "notes": "(story)"
+      "sequence": 2,
+      "notes": "(bbased on a story by)"
     },
     {
       "imdbId": "nm0755266",
       "name": "William Sackheim",
-      "sequence": 1,
-      "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0005348",
-      "name": "Carl Reiner",
-      "sequence": 2,
-      "notes": "(screenplay)"
+      "sequence": 3,
+      "notes": "(bbased on a story by)"
     }
   ]
 }

@@ -1,17 +1,20 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0044386",
-  "title": "Robinson Crusoe",
-  "sortTitle": "Robinson Crusoe (1954)",
-  "year": 1954,
   "slug": "robinson-crusoe-1954",
-  "releaseDate": "1954-06-01",
+  "title": "Robinson Crusoe",
+  "originalTitle": "Robinson Crusoe",
+  "sortTitle": "Robinson Crusoe",
+  "year": 1954,
+  "releaseDate": "1954-08-05",
   "countries": [
     "Mexico",
     "United States"
   ],
   "genres": [
     "Adventure",
-    "Drama"
+    "Drama",
+    "Family"
   ],
   "directors": [
     {
@@ -29,8 +32,7 @@
       "roles": [
         "Robinson Crusoe",
         "Crusoe's father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0272979",
@@ -38,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Friday"
-      ],
-      "notes": "(as Jaime Fernandez)"
+      ]
     },
     {
       "imdbId": "nm0016166",
@@ -47,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Captain Oberzo"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0530049",
@@ -56,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "The Bos'n"
-      ],
-      "notes": "(as Chel Lopez)"
+      ]
     },
     {
       "imdbId": "nm0161657",
@@ -65,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Leader of the Mutiny"
-      ],
-      "notes": "(as Jose Chavez)"
+      ]
     },
     {
       "imdbId": "nm0307404",
@@ -74,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Leader of the Mutiny"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -88,13 +85,13 @@
     {
       "imdbId": "nm0124947",
       "name": "Hugo Butler",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000320",
       "name": "Luis Bu\u00f1uel",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(screenplay)"
     }
   ]

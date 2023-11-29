@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import json
 from dataclasses import asdict, dataclass
+from datetime import date
 from typing import Sequence, cast
 
 from movielog.utils.logging import logger
@@ -52,10 +53,11 @@ def deserialize(file_path: str) -> Director:
         ]
 
     return Director(
+        fetched=json_person.get("fetched", date.today().isoformat()),
         imdbId=json_person["imdbId"],
         slug=json_person["slug"],
         name=json_person["name"],
-        titles=json_titles,
+        titles=[],
         excludedTitles=excluded_titles,
     )
 
@@ -88,6 +90,7 @@ def refresh_movies() -> None:
         )
 
         director = filmography.for_director(director)
+        director.fetched = date.today().isoformat()
 
         serializer.serialize(director, director.folder_name)
 

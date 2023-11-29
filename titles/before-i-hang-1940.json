@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0032245",
-  "title": "Before I Hang",
-  "sortTitle": "Before I Hang (1940)",
-  "year": 1940,
   "slug": "before-i-hang-1940",
+  "title": "Before I Hang",
+  "originalTitle": "Before I Hang",
+  "sortTitle": "Before I Hang",
+  "year": 1940,
   "releaseDate": "1940-09-17",
   "countries": [
     "United States"
@@ -28,8 +30,7 @@
       "sequence": 0,
       "roles": [
         "Dr. John Garth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0450810",
@@ -37,8 +38,7 @@
       "sequence": 1,
       "roles": [
         "Martha Garth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0071636",
@@ -46,8 +46,7 @@
       "sequence": 2,
       "roles": [
         "Dr. Paul Ames"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0888000",
@@ -55,8 +54,7 @@
       "sequence": 3,
       "roles": [
         "Dr. Ralph Howard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0846498",
@@ -64,8 +62,7 @@
       "sequence": 4,
       "roles": [
         "Warden Thompson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0003124",
@@ -73,8 +70,7 @@
       "sequence": 5,
       "roles": [
         "Victor Sondini"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0469695",
@@ -82,8 +78,7 @@
       "sequence": 6,
       "roles": [
         "George Wharton"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0545031",
@@ -91,8 +86,7 @@
       "sequence": 7,
       "roles": [
         "Stephen Barclay"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0065975",
@@ -100,8 +94,7 @@
       "sequence": 8,
       "roles": [
         "Police Capt. McGraw"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0279963",
@@ -109,8 +102,7 @@
       "sequence": 9,
       "roles": [
         "District Attorney"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0531810",
@@ -118,8 +110,7 @@
       "sequence": 10,
       "roles": [
         "Anson, Prison Guard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0724090",
@@ -127,8 +118,7 @@
       "sequence": 11,
       "roles": [
         "Otto Kron"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -136,12 +126,18 @@
       "imdbId": "nm0028826",
       "name": "Robert Hardy Andrews",
       "sequence": 0,
-      "notes": "(story and screenplay) (as Robert D. Andrews)"
+      "notes": "(screenplay) (as Robert D. Andrews)"
+    },
+    {
+      "imdbId": "nm0028826",
+      "name": "Robert Hardy Andrews",
+      "sequence": 2,
+      "notes": "(story) (as Robert D. Andrews)"
     },
     {
       "imdbId": "nm0113954",
       "name": "Karl Brown",
-      "sequence": 1,
+      "sequence": 4,
       "notes": "(story)"
     }
   ]

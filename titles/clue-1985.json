@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0088930",
-  "title": "Clue",
-  "sortTitle": "Clue (1985)",
-  "year": 1985,
   "slug": "clue-1985",
+  "title": "Clue",
+  "originalTitle": "Clue",
+  "sortTitle": "Clue",
+  "year": 1985,
   "releaseDate": "1985-12-13",
   "countries": [
     "United States"
@@ -29,8 +31,7 @@
       "sequence": 0,
       "roles": [
         "Mrs. Peacock"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000347",
@@ -38,8 +39,7 @@
       "sequence": 1,
       "roles": [
         "Wadsworth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001404",
@@ -47,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "Mrs. White"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000502",
@@ -56,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "Professor Plum"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0571106",
@@ -65,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "Mr. Green"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0611898",
@@ -74,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Colonel Mustard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000690",
@@ -83,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Miss Scarlet"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131974",
@@ -92,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "Yvette"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0898962",
@@ -101,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Mr. Boddy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0376347",
@@ -110,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "The Cop"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0005553",
@@ -119,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "The Singing Telegram Girl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0469552",
@@ -128,17 +119,15 @@
       "sequence": 11,
       "roles": [
         "The Motorist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0619990",
       "name": "Kellye Nakahara",
       "sequence": 12,
       "roles": [
-        "The Cook"
-      ],
-      "notes": null
+        "Mrs. Ho - The Cook"
+      ]
     },
     {
       "imdbId": "nm0638593",
@@ -146,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "Cop #1"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0325891",
@@ -155,8 +143,7 @@
       "sequence": 14,
       "roles": [
         "Cop #2"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0131977",
@@ -164,8 +151,7 @@
       "sequence": 15,
       "roles": [
         "Cop #3"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -184,14 +170,8 @@
     {
       "imdbId": "nm0528718",
       "name": "Jonathan Lynn",
-      "sequence": 2,
-      "notes": "(screenplay)"
-    },
-    {
-      "imdbId": "nm0695422",
-      "name": "Anthony E. Pratt",
       "sequence": 3,
-      "notes": "(board game Cluedo) (uncredited)"
+      "notes": "(screenplay)"
     }
   ]
 }

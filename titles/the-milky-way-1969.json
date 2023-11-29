@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0066534",
-  "title": "The Milky Way",
-  "sortTitle": "Milky Way (1969)",
-  "year": 1969,
   "slug": "the-milky-way-1969",
+  "title": "The Milky Way",
+  "originalTitle": "La voie lact\u00e9e",
+  "sortTitle": "Milky Way, The",
+  "year": 1969,
   "releaseDate": "1969-02-28",
   "countries": [
     "France",
@@ -11,6 +13,7 @@
     "West Germany"
   ],
   "genres": [
+    "Comedy",
     "Drama"
   ],
   "directors": [
@@ -27,18 +30,16 @@
       "name": "Paul Frankeur",
       "sequence": 0,
       "roles": [
-        "Pierre"
-      ],
-      "notes": null
+        "Pierre Dupont"
+      ]
     },
     {
       "imdbId": "nm0856187",
       "name": "Laurent Terzieff",
       "sequence": 1,
       "roles": [
-        "Jean"
-      ],
-      "notes": null
+        "Jean Duval"
+      ]
     },
     {
       "imdbId": "nm0192490",
@@ -46,8 +47,7 @@
       "sequence": 2,
       "roles": [
         "L'homme \u00e0 la cape"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0778568",
@@ -55,8 +55,7 @@
       "sequence": 3,
       "roles": [
         "La Vierge Marie"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0894302",
@@ -64,8 +63,7 @@
       "sequence": 4,
       "roles": [
         "J\u00e9sus"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0537922",
@@ -73,8 +71,7 @@
       "sequence": 5,
       "roles": [
         "Le cur\u00e9 fou"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0148858",
@@ -82,8 +79,7 @@
       "sequence": 6,
       "roles": [
         "Le brigadier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0612840",
@@ -91,8 +87,7 @@
       "sequence": 7,
       "roles": [
         "La m\u00e8re sup\u00e9rieure"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0077921",
@@ -100,8 +95,7 @@
       "sequence": 8,
       "roles": [
         "Richard 'ma\u00eetre d'h\u00f4tel'"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0046891",
@@ -109,8 +103,7 @@
       "sequence": 9,
       "roles": [
         "Madame Garnier"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0681566",
@@ -118,8 +111,7 @@
       "sequence": 10,
       "roles": [
         "Le marquis de Sade"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0135621",
@@ -127,8 +119,7 @@
       "sequence": 11,
       "roles": [
         "La directrice de l'institution Lamartine"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0262014",
@@ -136,8 +127,7 @@
       "sequence": 12,
       "roles": [
         "L'inquisiteur"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0167509",
@@ -145,8 +135,7 @@
       "sequence": 13,
       "roles": [
         "L'ange de la mort"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0545352",
@@ -154,17 +143,15 @@
       "sequence": 14,
       "roles": [
         "Le j\u00e9suite"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0681284",
       "name": "Jean Piat",
       "sequence": 15,
       "roles": [
-        "Le comte"
-      ],
-      "notes": null
+        "Le comte jans\u00e9niste"
+      ]
     },
     {
       "imdbId": "nm0544240",
@@ -172,8 +159,7 @@
       "sequence": 16,
       "roles": [
         "Rodolphe, un \u00e9tudiant protestant"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0683600",
@@ -181,8 +167,7 @@
       "sequence": 17,
       "roles": [
         "Fran\u00e7ois, ami de Rodolphe"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0111610",
@@ -190,8 +175,7 @@
       "sequence": 18,
       "roles": [
         "L'\u00e9v\u00eaque"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0347453",
@@ -199,8 +183,7 @@
       "sequence": 19,
       "roles": [
         "Le cur\u00e9 espagnol"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0702454",
@@ -208,8 +191,7 @@
       "sequence": 20,
       "roles": [
         "Le cur\u00e9 de l'auberge espagnole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0786891",
@@ -217,8 +199,7 @@
       "sequence": 21,
       "roles": [
         "La prostitu\u00e9e"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0073734",
@@ -226,8 +207,7 @@
       "sequence": 22,
       "roles": [
         "La m\u00e8re de famille"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0078574",
@@ -235,22 +215,7 @@
       "sequence": 23,
       "roles": [
         "Le premier diacre de Priscillien"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0112804",
-      "name": "Jean-Louis Broust",
-      "sequence": 24,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0100490",
-      "name": "St\u00e9phane Bouy",
-      "sequence": 25,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0140643",
@@ -258,8 +223,7 @@
       "sequence": 26,
       "roles": [
         "Priscillian"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0140634",
@@ -267,8 +231,7 @@
       "sequence": 27,
       "roles": [
         "La religieuse crucifi\u00e9e"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0163581",
@@ -276,8 +239,7 @@
       "sequence": 28,
       "roles": [
         "Saint-Pierre"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0182389",
@@ -285,8 +247,7 @@
       "sequence": 29,
       "roles": [
         "Une fille de Priscillien"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0187649",
@@ -294,22 +255,7 @@
       "sequence": 30,
       "roles": [
         "Un serveur"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0216867",
-      "name": "Raoul Delfosse",
-      "sequence": 31,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0223548",
-      "name": "Jean-Michel Dhermay",
-      "sequence": 32,
-      "roles": [],
-      "notes": "(as Jean Dhermay)"
+      ]
     },
     {
       "imdbId": "nm0235367",
@@ -317,8 +263,7 @@
       "sequence": 33,
       "roles": [
         "Le berger avec la ch\u00e8vre"
-      ],
-      "notes": "(as Douking)"
+      ]
     },
     {
       "imdbId": "nm0251399",
@@ -326,15 +271,7 @@
       "sequence": 34,
       "roles": [
         "Le condamn\u00e9"
-      ],
-      "notes": "(as Jean Ehrman)"
-    },
-    {
-      "imdbId": "nm0267205",
-      "name": "Pascal Fardoulis",
-      "sequence": 35,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0323560",
@@ -342,8 +279,7 @@
       "sequence": 36,
       "roles": [
         "Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0422349",
@@ -351,8 +287,7 @@
       "sequence": 37,
       "roles": [
         "La Vierge de l'auberge espagnole"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0491335",
@@ -361,8 +296,7 @@
       "roles": [
         "L'aveugle",
         "Second blind man"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0536536",
@@ -370,8 +304,7 @@
       "sequence": 39,
       "roles": [
         "Le caporal de la Guardia Civil"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0537392",
@@ -379,8 +312,7 @@
       "sequence": 40,
       "roles": [
         "Une fille de Priscillien"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0615913",
@@ -388,29 +320,7 @@
       "sequence": 41,
       "roles": [
         "L'aubergiste fran\u00e7ais"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0667573",
-      "name": "Paul Pavel",
-      "sequence": 42,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0713823",
-      "name": "Douglas Read",
-      "sequence": 43,
-      "roles": [],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0728337",
-      "name": "Jacques Rispal",
-      "sequence": 44,
-      "roles": [],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0745663",
@@ -418,24 +328,15 @@
       "sequence": 45,
       "roles": [
         "L'h\u00f4tesse"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0800096",
       "name": "Christine Simon",
       "sequence": 46,
       "roles": [
-        "La jeune fille encha\u00een\u00e9e"
-      ],
-      "notes": null
-    },
-    {
-      "imdbId": "nm0868601",
-      "name": "C\u00e9sar Torres",
-      "sequence": 47,
-      "roles": [],
-      "notes": null
+        "Th\u00e9r\u00e8se la jeune fille encha\u00een\u00e9e"
+      ]
     }
   ],
   "writers": [
@@ -448,7 +349,7 @@
     {
       "imdbId": "nm0140643",
       "name": "Jean-Claude Carri\u00e8re",
-      "sequence": 1,
+      "sequence": 2,
       "notes": "(writer)"
     }
   ]

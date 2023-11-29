@@ -1,24 +1,28 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt18925334",
-  "title": "Pearl",
-  "sortTitle": "Pearl (2022)",
-  "year": 2022,
   "slug": "pearl-2022",
-  "releaseDate": "2022-09-03",
+  "title": "Pearl",
+  "originalTitle": "Pearl",
+  "sortTitle": "Pearl",
+  "year": 2022,
+  "releaseDate": "2022-09-16",
   "countries": [
     "United States",
     "Canada",
     "New Zealand"
   ],
   "genres": [
-    "Horror"
+    "Drama",
+    "Horror",
+    "Thriller"
   ],
   "directors": [
     {
       "imdbId": "nm1488800",
       "name": "Ti West",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -28,8 +32,7 @@
       "sequence": 0,
       "roles": [
         "Pearl"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4825178",
@@ -37,8 +40,7 @@
       "sequence": 1,
       "roles": [
         "Projectionist"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0942858",
@@ -46,8 +48,7 @@
       "sequence": 2,
       "roles": [
         "Ruth"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0839146",
@@ -55,8 +56,7 @@
       "sequence": 3,
       "roles": [
         "Father"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm12559937",
@@ -64,8 +64,7 @@
       "sequence": 4,
       "roles": [
         "Mitsy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4592485",
@@ -73,8 +72,7 @@
       "sequence": 5,
       "roles": [
         "Howard"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm4213766",
@@ -82,8 +80,7 @@
       "sequence": 6,
       "roles": [
         "Margaret"
-      ],
-      "notes": "(as Amelia Reid-Meredith)"
+      ]
     },
     {
       "imdbId": "nm7988981",
@@ -91,8 +88,7 @@
       "sequence": 7,
       "roles": [
         "Woman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm9071590",
@@ -100,8 +96,7 @@
       "sequence": 8,
       "roles": [
         "Pianist"
-      ],
-      "notes": "(as Lauren May Stewart)"
+      ]
     },
     {
       "imdbId": "nm0728119",
@@ -109,8 +104,7 @@
       "sequence": 9,
       "roles": [
         "Director"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm8336639",
@@ -118,21 +112,20 @@
       "sequence": 10,
       "roles": [
         "Ticket Taker"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1488800",
       "name": "Ti West",
-      "sequence": 0,
+      "sequence": 2,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm5301405",
       "name": "Mia Goth",
-      "sequence": 1,
+      "sequence": 3,
       "notes": "(written by)"
     }
   ]

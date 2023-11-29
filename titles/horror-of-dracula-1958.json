@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0051554",
-  "title": "Horror of Dracula",
-  "sortTitle": "Horror of Dracula (1958)",
-  "year": 1958,
   "slug": "horror-of-dracula-1958",
-  "releaseDate": "1958-05-08",
+  "title": "Horror of Dracula",
+  "originalTitle": "Dracula",
+  "sortTitle": "Horror of Dracula",
+  "year": 1958,
+  "releaseDate": "1958-06-16",
   "countries": [
     "United Kingdom"
   ],
@@ -17,7 +19,7 @@
       "imdbId": "nm0279807",
       "name": "Terence Fisher",
       "sequence": 0,
-      "notes": null
+      "notes": "(directed by)"
     }
   ],
   "performers": [
@@ -27,18 +29,15 @@
       "sequence": 0,
       "roles": [
         "Doctor Van Helsing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
       "sequence": 1,
       "roles": [
-        "Dracula",
         "Count Dracula"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0001284",
@@ -46,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Arthur Holmwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0834320",
@@ -55,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Mina Holmwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0550515",
@@ -64,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Lucy Holmwood"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0225487",
@@ -73,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Gerda"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0886881",
@@ -82,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Jonathan"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0310152",
@@ -91,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Vampire Woman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0269668",
@@ -100,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Tania"
-      ],
-      "notes": "(as Janine Faye)"
+      ]
     },
     {
       "imdbId": "nm0033636",
@@ -109,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Inga"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0655436",
@@ -118,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Doctor Seward"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0581416",
@@ -127,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Policeman"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0940161",
@@ -136,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Landlord"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0072498",
@@ -145,17 +133,15 @@
       "sequence": 13,
       "roles": [
         "Official"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0539942",
       "name": "Miles Malleson",
       "sequence": 14,
       "roles": [
-        "Marx - Undertaker"
-      ],
-      "notes": null
+        "Marx the Undertaker"
+      ]
     },
     {
       "imdbId": "nm0001933",
@@ -163,8 +149,7 @@
       "sequence": 15,
       "roles": [
         "Porter"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0170728",
@@ -172,8 +157,7 @@
       "sequence": 16,
       "roles": [
         "Lad"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
@@ -181,13 +165,13 @@
       "imdbId": "nm0762727",
       "name": "Jimmy Sangster",
       "sequence": 0,
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0831290",
       "name": "Bram Stoker",
-      "sequence": 1,
-      "notes": "(novel)"
+      "sequence": 2,
+      "notes": "(based on the novel by)"
     }
   ]
 }

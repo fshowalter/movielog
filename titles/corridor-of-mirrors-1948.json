@@ -1,10 +1,12 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0040246",
-  "title": "Corridor of Mirrors",
-  "sortTitle": "Corridor of Mirrors (1948)",
-  "year": 1948,
   "slug": "corridor-of-mirrors-1948",
-  "releaseDate": "1948-02-23",
+  "title": "Corridor of Mirrors",
+  "originalTitle": "Corridor of Mirrors",
+  "sortTitle": "Corridor of Mirrors",
+  "year": 1948,
+  "releaseDate": "1948-07-24",
   "countries": [
     "United Kingdom"
   ],
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Paul Mangin"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0739704",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Mifanwy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0611984",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Veronica"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0801630",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Owen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0067793",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Sir David Conway"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0923664",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Edgar Orsen"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0560791",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Caroline"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0922986",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Mortimer"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0490202",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Bing"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0672290",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Brandy"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000489",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Charles"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0561755",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Lois"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0898380",
@@ -135,8 +125,7 @@
       "sequence": 12,
       "roles": [
         "Babs"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0386331",
@@ -144,28 +133,27 @@
       "sequence": 13,
       "roles": [
         "Visitor In Tussauds"
-      ],
-      "notes": null
+      ]
     }
   ],
   "writers": [
     {
-      "imdbId": "nm0557398",
-      "name": "Christopher Massie",
-      "sequence": 0,
-      "notes": "(inspired by the novel) (as Chris Massey)"
-    },
-    {
       "imdbId": "nm0142056",
       "name": "Rudolph Cartier",
-      "sequence": 1,
+      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0739704",
       "name": "Edana Romney",
-      "sequence": 2,
+      "sequence": 1,
       "notes": "(screenplay)"
+    },
+    {
+      "imdbId": "nm0557398",
+      "name": "Christopher Massie",
+      "sequence": 2,
+      "notes": "(inspired by the novel by)"
     }
   ]
 }

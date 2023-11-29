@@ -40,7 +40,8 @@ class Credit(object):
 def valid_notes(credit: imdb.Person.Person) -> bool:
     notes = credit.notes.strip()
     return (
-        (notes not in INVALID_NOTES)
+        "(uncredited)" not in notes
+        and notes not in INVALID_NOTES
         and not CREATED_BY_REGEX.match(notes)
         and not CHARACTER_CREATED_BY_REGEX.match(notes)
     )

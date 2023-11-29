@@ -1,9 +1,11 @@
 {
+  "fetched": "2023-11-29",
   "imdbId": "tt0037522",
-  "title": "Back to Bataan",
-  "sortTitle": "Back to Bataan (1945)",
-  "year": 1945,
   "slug": "back-to-bataan-1945",
+  "title": "Back to Bataan",
+  "originalTitle": "Back to Bataan",
+  "sortTitle": "Back to Bataan",
+  "year": 1945,
   "releaseDate": "1945-05-31",
   "countries": [
     "United States"
@@ -27,8 +29,7 @@
       "sequence": 0,
       "roles": [
         "Col. Joseph Madden"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0000063",
@@ -36,8 +37,7 @@
       "sequence": 1,
       "roles": [
         "Capt. Andr\u00e9s Bonif\u00e1cio"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0094135",
@@ -45,8 +45,7 @@
       "sequence": 2,
       "roles": [
         "Bertha Barnes"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0291714",
@@ -54,8 +53,7 @@
       "sequence": 3,
       "roles": [
         "Dalisay Delgado"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0519618",
@@ -63,8 +61,7 @@
       "sequence": 4,
       "roles": [
         "Maj. Hasko"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0014217",
@@ -72,8 +69,7 @@
       "sequence": 5,
       "roles": [
         "Col. Coroki"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0369845",
@@ -81,8 +77,7 @@
       "sequence": 6,
       "roles": [
         "Sgt. Bernessa"
-      ],
-      "notes": "(as J. Alex Havier)"
+      ]
     },
     {
       "imdbId": "nm0521811",
@@ -90,8 +85,7 @@
       "sequence": 7,
       "roles": [
         "Maximo Cuenca"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0862937",
@@ -99,8 +93,7 @@
       "sequence": 8,
       "roles": [
         "Lt. Cmdr. Waite"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0835012",
@@ -108,8 +101,7 @@
       "sequence": 9,
       "roles": [
         "Gen. Homma"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0280707",
@@ -117,8 +109,7 @@
       "sequence": 10,
       "roles": [
         "Bindle Jackson"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0080867",
@@ -126,8 +117,7 @@
       "sequence": 11,
       "roles": [
         "Japanese Captain"
-      ],
-      "notes": null
+      ]
     },
     {
       "imdbId": "nm0812453",
@@ -135,8 +125,105 @@
       "sequence": 12,
       "roles": [
         "Se\u00f1or Buenaventura J. Bello"
-      ],
-      "notes": null
+      ]
+    },
+    {
+      "imdbId": "nm14211430",
+      "name": "Earl G. Baumgardner",
+      "sequence": 13,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211434",
+      "name": "Eugene C. Commander",
+      "sequence": 14,
+      "roles": [
+        "Self",
+        "Sgt. Eugene C. Commander)"
+      ]
+    },
+    {
+      "imdbId": "nm14211439",
+      "name": "Virgil H. Greenaway",
+      "sequence": 15,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211437",
+      "name": "Max M. Greenberg",
+      "sequence": 16,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211435",
+      "name": "George W. Greene",
+      "sequence": 17,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211440",
+      "name": "Lawrence C. Hall",
+      "sequence": 18,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211441",
+      "name": "Neil P. Iovino",
+      "sequence": 19,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211438",
+      "name": "Alfred C. Jolley",
+      "sequence": 20,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211429",
+      "name": "Emmet L. Manson",
+      "sequence": 21,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211436",
+      "name": "Kenneth W. Mize",
+      "sequence": 22,
+      "roles": [
+        "Self",
+        "Sgt. Kenneth W. Mize)"
+      ]
+    },
+    {
+      "imdbId": "nm14211433",
+      "name": "Dennis D. Rainwater",
+      "sequence": 23,
+      "roles": [
+        "Self"
+      ]
+    },
+    {
+      "imdbId": "nm14211428",
+      "name": "Jesus Santos",
+      "sequence": 24,
+      "roles": [
+        "Self"
+      ]
     }
   ],
   "writers": [
@@ -155,13 +242,13 @@
     {
       "imdbId": "nm0533418",
       "name": "\u00c6neas MacKenzie",
-      "sequence": 2,
+      "sequence": 3,
       "notes": "(original story) (as Aeneas Mac Kenzie)"
     },
     {
       "imdbId": "nm0330667",
       "name": "William Gordon",
-      "sequence": 3,
+      "sequence": 4,
       "notes": "(original story)"
     }
   ]
