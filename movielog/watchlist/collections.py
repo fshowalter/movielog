@@ -8,18 +8,21 @@ from dataclasses import dataclass
 from glob import glob
 from typing import Sequence, TypedDict, cast
 
+import imdb
 from slugify import slugify
 
 from movielog.utils import format_tools
 from movielog.utils.logging import logger
 from movielog.watchlist import movies, serializer
 
+imdb_http = imdb.IMDb(reraiseExceptions=True)
+
 
 @dataclass
 class Collection(object):
     name: str
     slug: str
-    movies: list[movies.Movie]
+    titles: list[movies.JsonTitle]
     folder_name = "collections"
 
 
@@ -53,6 +56,30 @@ def add(name: str) -> Collection:
     return collection
 
 
+def title_sort_key(title: str) -> str:
+    year_sort_regex = r"\(\d*\)"
+
+    year = re.search(year_sort_regex, title)
+
+    if year:
+        return year.group(0)
+
+    return "(????)"
+
+
+def update() -> None:
+    for collection in deserialize_all():
+        for title in collection.titles:
+            imdb_movie = imdb_http.get_movie(title["imdbId"][2:])
+            title["title"] = imdb_movie["long imdb title"]
+
+        collection.titles = sorted(
+            collection.titles, key=lambda title: title_sort_key(title["title"])
+        )
+
+        serializer.serialize(collection, collection.folder_name)
+
+
 def deserialize(file_path: str) -> Collection:
     json_collection = None
 
@@ -62,7 +89,13 @@ def deserialize(file_path: str) -> Collection:
     return Collection(
         slug=json_collection["slug"],
         name=json_collection["name"],
-        movies=movies.deserialize(json_collection["movies"]),
+        titles=[
+            movies.JsonTitle(
+                imdbId=json_movie["imdb_id"],
+                title=json_movie["title"],
+            )
+            for json_movie in json_collection["movies"]
+        ],
     )
 
 
