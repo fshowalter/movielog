@@ -1,476 +1,382 @@
 {
   "name": "Hammer Films",
   "slug": "hammer-films",
-  "movies": [
+  "titles": [
     {
-      "title": "The Quatermass Xperiment",
-      "year": 1955,
-      "imdb_id": "tt0049646"
+      "imdbId": "tt0049646",
+      "title": "The Quatermass Xperiment (1955)"
     },
     {
-      "title": "X the Unknown",
-      "year": 1956,
-      "imdb_id": "tt0049967"
+      "imdbId": "tt0049967",
+      "title": "X the Unknown (1956)"
     },
     {
-      "title": "The Abominable Snowman",
-      "year": 1957,
-      "imdb_id": "tt0050095"
+      "imdbId": "tt0050095",
+      "title": "The Abominable Snowman (1957)"
     },
     {
-      "title": "The Curse of Frankenstein",
-      "year": 1957,
-      "imdb_id": "tt0050280"
+      "imdbId": "tt0050280",
+      "title": "The Curse of Frankenstein (1957)"
     },
     {
-      "title": "Quatermass 2",
-      "year": 1957,
-      "imdb_id": "tt0050873"
+      "imdbId": "tt0050873",
+      "title": "Quatermass 2 (1957)"
     },
     {
-      "title": "The Steel Bayonet",
-      "year": 1957,
-      "imdb_id": "tt0051009"
+      "imdbId": "tt0051009",
+      "title": "The Steel Bayonet (1957)"
     },
     {
-      "title": "The Revenge of Frankenstein",
-      "year": 1958,
-      "imdb_id": "tt0050894"
+      "imdbId": "tt0050894",
+      "title": "The Revenge of Frankenstein (1958)"
     },
     {
-      "title": "The Camp on Blood Island",
-      "year": 1958,
-      "imdb_id": "tt0051444"
+      "imdbId": "tt0051444",
+      "title": "The Camp on Blood Island (1958)"
     },
     {
-      "title": "Horror of Dracula",
-      "year": 1958,
-      "imdb_id": "tt0051554"
+      "imdbId": "tt0051554",
+      "title": "Horror of Dracula (1958)"
     },
     {
-      "title": "The Snorkel",
-      "year": 1958,
-      "imdb_id": "tt0052207"
+      "imdbId": "tt0052207",
+      "title": "The Snorkel (1958)"
     },
     {
-      "title": "The Hound of the Baskervilles",
-      "year": 1959,
-      "imdb_id": "tt0052905"
+      "imdbId": "tt0052905",
+      "title": "The Hound of the Baskervilles (1959)"
     },
     {
-      "title": "The Man Who Could Cheat Death",
-      "year": 1959,
-      "imdb_id": "tt0053041"
+      "imdbId": "tt0053041",
+      "title": "The Man Who Could Cheat Death (1959)"
     },
     {
-      "title": "The Mummy",
-      "year": 1959,
-      "imdb_id": "tt0053085"
+      "imdbId": "tt0053085",
+      "title": "The Mummy (1959)"
     },
     {
-      "title": "Ten Seconds to Hell",
-      "year": 1959,
-      "imdb_id": "tt0053341"
+      "imdbId": "tt0053341",
+      "title": "Ten Seconds to Hell (1959)"
     },
     {
-      "title": "Yesterday's Enemy",
-      "year": 1959,
-      "imdb_id": "tt0053458"
+      "imdbId": "tt0053458",
+      "title": "Yesterday's Enemy (1959)"
     },
     {
-      "title": "The Stranglers of Bombay",
-      "year": 1959,
-      "imdb_id": "tt0054346"
+      "imdbId": "tt0054346",
+      "title": "The Stranglers of Bombay (1959)"
     },
     {
-      "title": "The Brides of Dracula",
-      "year": 1960,
-      "imdb_id": "tt0053677"
+      "imdbId": "tt0053677",
+      "title": "The Brides of Dracula (1960)"
     },
     {
-      "title": "Hell Is a City",
-      "year": 1960,
-      "imdb_id": "tt0053900"
+      "imdbId": "tt0053900",
+      "title": "Hell Is a City (1960)"
     },
     {
-      "title": "Never Take Candy from A Stranger",
-      "year": 1960,
-      "imdb_id": "tt0054116"
+      "imdbId": "tt0054116",
+      "title": "Never Take Candy from A Stranger (1960)"
     },
     {
-      "title": "Sword of Sherwood Forest",
-      "year": 1960,
-      "imdb_id": "tt0054358"
+      "imdbId": "tt0054358",
+      "title": "Sword of Sherwood Forest (1960)"
     },
     {
-      "title": "The Two Faces of Dr. Jekyll",
-      "year": 1960,
-      "imdb_id": "tt0054416"
+      "imdbId": "tt0054416",
+      "title": "The Two Faces of Dr. Jekyll (1960)"
     },
     {
-      "title": "Stop Me Before I Kill!",
-      "year": 1960,
-      "imdb_id": "tt0054901"
+      "imdbId": "tt0054901",
+      "title": "Stop Me Before I Kill! (1960)"
     },
     {
-      "title": "Passport to China",
-      "year": 1960,
-      "imdb_id": "tt0055282"
+      "imdbId": "tt0055282",
+      "title": "Passport to China (1960)"
     },
     {
-      "title": "Cash on Demand",
-      "year": 1961,
-      "imdb_id": "tt0054731"
+      "imdbId": "tt0054731",
+      "title": "Cash on Demand (1961)"
     },
     {
-      "title": "The Curse of the Werewolf",
-      "year": 1961,
-      "imdb_id": "tt0054777"
+      "imdbId": "tt0054777",
+      "title": "The Curse of the Werewolf (1961)"
     },
     {
-      "title": "The Shadow of the Cat",
-      "year": 1961,
-      "imdb_id": "tt0055438"
+      "imdbId": "tt0055438",
+      "title": "The Shadow of the Cat (1961)"
     },
     {
-      "title": "Scream of Fear",
-      "year": 1961,
-      "imdb_id": "tt0055505"
+      "imdbId": "tt0055505",
+      "title": "Scream of Fear (1961)"
     },
     {
-      "title": "The Terror of the Tongs",
-      "year": 1961,
-      "imdb_id": "tt0055516"
+      "imdbId": "tt0055516",
+      "title": "The Terror of the Tongs (1961)"
     },
     {
-      "title": "Night Creatures",
-      "year": 1962,
-      "imdb_id": "tt0056277"
+      "imdbId": "tt0056277",
+      "title": "Night Creatures (1962)"
     },
     {
-      "title": "The Phantom of the Opera",
-      "year": 1962,
-      "imdb_id": "tt0056347"
+      "imdbId": "tt0056347",
+      "title": "The Phantom of the Opera (1962)"
     },
     {
-      "title": "The Pirates of Blood River",
-      "year": 1962,
-      "imdb_id": "tt0056350"
+      "imdbId": "tt0056350",
+      "title": "The Pirates of Blood River (1962)"
     },
     {
-      "title": "These Are the Damned",
-      "year": 1962,
-      "imdb_id": "tt0056576"
+      "imdbId": "tt0056576",
+      "title": "The Damned (1962)"
     },
     {
-      "title": "Maniac",
-      "year": 1963,
-      "imdb_id": "tt0056219"
+      "imdbId": "tt0056219",
+      "title": "Maniac (1963)"
     },
     {
-      "title": "The Crimson Blade",
-      "year": 1963,
-      "imdb_id": "tt0056963"
+      "imdbId": "tt0056963",
+      "title": "The Crimson Blade (1963)"
     },
     {
-      "title": "The Kiss of the Vampire",
-      "year": 1963,
-      "imdb_id": "tt0057226"
+      "imdbId": "tt0057226",
+      "title": "The Kiss of the Vampire (1963)"
     },
     {
-      "title": "The Old Dark House",
-      "year": 1963,
-      "imdb_id": "tt0057379"
+      "imdbId": "tt0057379",
+      "title": "The Old Dark House (1963)"
     },
     {
-      "title": "Paranoiac",
-      "year": 1963,
-      "imdb_id": "tt0057401"
+      "imdbId": "tt0057401",
+      "title": "Paranoiac (1963)"
     },
     {
-      "title": "The Curse of the Mummy's Tomb",
-      "year": 1964,
-      "imdb_id": "tt0057986"
+      "imdbId": "tt0057986",
+      "title": "The Curse of the Mummy's Tomb (1964)"
     },
     {
-      "title": "The Devil-Ship Pirates",
-      "year": 1964,
-      "imdb_id": "tt0058011"
+      "imdbId": "tt0058011",
+      "title": "The Devil-Ship Pirates (1964)"
     },
     {
-      "title": "The Evil of Frankenstein",
-      "year": 1964,
-      "imdb_id": "tt0058073"
+      "imdbId": "tt0058073",
+      "title": "The Evil of Frankenstein (1964)"
     },
     {
-      "title": "The Gorgon",
-      "year": 1964,
-      "imdb_id": "tt0058155"
+      "imdbId": "tt0058155",
+      "title": "The Gorgon (1964)"
     },
     {
-      "title": "Nightmare",
-      "year": 1964,
-      "imdb_id": "tt0058405"
+      "imdbId": "tt0058405",
+      "title": "Nightmare (1964)"
     },
     {
-      "title": "Hysteria",
-      "year": 1965,
-      "imdb_id": "tt0058216"
+      "imdbId": "tt0058216",
+      "title": "Hysteria (1965)"
     },
     {
-      "title": "The Brigand of Kandahar",
-      "year": 1965,
-      "imdb_id": "tt0058991"
+      "imdbId": "tt0058991",
+      "title": "The Brigand of Kandahar (1965)"
     },
     {
-      "title": "Die! Die! My Darling!",
-      "year": 1965,
-      "imdb_id": "tt0059106"
+      "imdbId": "tt0059106",
+      "title": "Die! Die! My Darling! (1965)"
     },
     {
-      "title": "The Nanny",
-      "year": 1965,
-      "imdb_id": "tt0059496"
+      "imdbId": "tt0059496",
+      "title": "The Nanny (1965)"
     },
     {
-      "title": "The Secret of Blood Island",
-      "year": 1965,
-      "imdb_id": "tt0059693"
+      "imdbId": "tt0059693",
+      "title": "The Secret of Blood Island (1965)"
     },
     {
-      "title": "She",
-      "year": 1965,
-      "imdb_id": "tt0059710"
+      "imdbId": "tt0059710",
+      "title": "She (1965)"
     },
     {
-      "title": "Dracula: Prince of Darkness",
-      "year": 1966,
-      "imdb_id": "tt0059127"
+      "imdbId": "tt0059127",
+      "title": "Dracula: Prince of Darkness (1966)"
     },
     {
-      "title": "Rasputin: The Mad Monk",
-      "year": 1966,
-      "imdb_id": "tt0059635"
+      "imdbId": "tt0059635",
+      "title": "Rasputin: The Mad Monk (1966)"
     },
     {
-      "title": "The Witches",
-      "year": 1966,
-      "imdb_id": "tt0060307"
+      "imdbId": "tt0060307",
+      "title": "The Witches (1966)"
     },
     {
-      "title": "One Million Years B.C.",
-      "year": 1966,
-      "imdb_id": "tt0060782"
+      "imdbId": "tt0060782",
+      "title": "One Million Years B.C. (1966)"
     },
     {
-      "title": "The Plague of the Zombies",
-      "year": 1966,
-      "imdb_id": "tt0060841"
+      "imdbId": "tt0060841",
+      "title": "The Plague of the Zombies (1966)"
     },
     {
-      "title": "The Reptile",
-      "year": 1966,
-      "imdb_id": "tt0060893"
+      "imdbId": "tt0060893",
+      "title": "The Reptile (1966)"
     },
     {
-      "title": "Frankenstein Created Woman",
-      "year": 1967,
-      "imdb_id": "tt0061683"
+      "imdbId": "tt0061683",
+      "title": "Frankenstein Created Woman (1967)"
     },
     {
-      "title": "The Mummy's Shroud",
-      "year": 1967,
-      "imdb_id": "tt0062006"
+      "imdbId": "tt0062006",
+      "title": "The Mummy's Shroud (1967)"
     },
     {
-      "title": "Prehistoric Women",
-      "year": 1967,
-      "imdb_id": "tt0062150"
+      "imdbId": "tt0062150",
+      "title": "Prehistoric Women (1967)"
     },
     {
-      "title": "Quatermass and the Pit",
-      "year": 1967,
-      "imdb_id": "tt0062168"
+      "imdbId": "tt0062168",
+      "title": "Quatermass and the Pit (1967)"
     },
     {
-      "title": "The Viking Queen",
-      "year": 1967,
-      "imdb_id": "tt0062443"
+      "imdbId": "tt0062443",
+      "title": "The Viking Queen (1967)"
     },
     {
-      "title": "A Challenge for Robin Hood",
-      "year": 1967,
-      "imdb_id": "tt0062787"
+      "imdbId": "tt0062787",
+      "title": "A Challenge for Robin Hood (1967)"
     },
     {
-      "title": "The Anniversary",
-      "year": 1968,
-      "imdb_id": "tt0062671"
+      "imdbId": "tt0062671",
+      "title": "The Anniversary (1968)"
     },
     {
-      "title": "The Devil Rides Out",
-      "year": 1968,
-      "imdb_id": "tt0062885"
+      "imdbId": "tt0062885",
+      "title": "The Devil Rides Out (1968)"
     },
     {
-      "title": "Dracula Has Risen from the Grave",
-      "year": 1968,
-      "imdb_id": "tt0062909"
+      "imdbId": "tt0062909",
+      "title": "Dracula Has Risen from the Grave (1968)"
     },
     {
-      "title": "The Lost Continent",
-      "year": 1968,
-      "imdb_id": "tt0063240"
+      "imdbId": "tt0063240",
+      "title": "The Lost Continent (1968)"
     },
     {
-      "title": "The Vengeance of She",
-      "year": 1968,
-      "imdb_id": "tt0063765"
+      "imdbId": "tt0063765",
+      "title": "The Vengeance of She (1968)"
     },
     {
-      "title": "Moon Zero Two",
-      "year": 1969,
-      "imdb_id": "tt0064691"
+      "imdbId": "tt0064691",
+      "title": "Moon Zero Two (1969)"
     },
     {
-      "title": "Frankenstein Must Be Destroyed",
-      "year": 1969,
-      "imdb_id": "tt0065738"
+      "imdbId": "tt0065738",
+      "title": "Frankenstein Must Be Destroyed (1969)"
     },
     {
-      "title": "Crescendo",
-      "year": 1970,
-      "imdb_id": "tt0064188"
+      "imdbId": "tt0064188",
+      "title": "Crescendo (1970)"
     },
     {
-      "title": "Taste the Blood of Dracula",
-      "year": 1970,
-      "imdb_id": "tt0065073"
+      "imdbId": "tt0065073",
+      "title": "Taste the Blood of Dracula (1970)"
     },
     {
-      "title": "The Horror of Frankenstein",
-      "year": 1970,
-      "imdb_id": "tt0065851"
+      "imdbId": "tt0065851",
+      "title": "The Horror of Frankenstein (1970)"
     },
     {
-      "title": "The Vampire Lovers",
-      "year": 1970,
-      "imdb_id": "tt0066518"
+      "imdbId": "tt0066518",
+      "title": "The Vampire Lovers (1970)"
     },
     {
-      "title": "When Dinosaurs Ruled the Earth",
-      "year": 1970,
-      "imdb_id": "tt0066561"
+      "imdbId": "tt0066561",
+      "title": "When Dinosaurs Ruled the Earth (1970)"
     },
     {
-      "title": "Scars of Dracula",
-      "year": 1970,
-      "imdb_id": "tt0067713"
+      "imdbId": "tt0067713",
+      "title": "Scars of Dracula (1970)"
     },
     {
-      "title": "Countess Dracula",
-      "year": 1971,
-      "imdb_id": "tt0065580"
+      "imdbId": "tt0065580",
+      "title": "Countess Dracula (1971)"
     },
     {
-      "title": "Creatures the World Forgot",
-      "year": 1971,
-      "imdb_id": "tt0066955"
+      "imdbId": "tt0066955",
+      "title": "Creatures the World Forgot (1971)"
     },
     {
-      "title": "Hands of the Ripper",
-      "year": 1971,
-      "imdb_id": "tt0067176"
+      "imdbId": "tt0067176",
+      "title": "Hands of the Ripper (1971)"
     },
     {
-      "title": "Lust for a Vampire",
-      "year": 1971,
-      "imdb_id": "tt0067367"
+      "imdbId": "tt0067367",
+      "title": "Lust for a Vampire (1971)"
     },
     {
-      "title": "Blood from the Mummy's Tomb",
-      "year": 1971,
-      "imdb_id": "tt0068290"
+      "imdbId": "tt0068290",
+      "title": "Blood from the Mummy's Tomb (1971)"
     },
     {
-      "title": "Dr Jekyll & Sister Hyde",
-      "year": 1971,
-      "imdb_id": "tt0068502"
+      "imdbId": "tt0068502",
+      "title": "Dr Jekyll & Sister Hyde (1971)"
     },
     {
-      "title": "Twins of Evil",
-      "year": 1971,
-      "imdb_id": "tt0069427"
+      "imdbId": "tt0069427",
+      "title": "Twins of Evil (1971)"
     },
     {
-      "title": "Journey to Murder",
-      "year": 1971,
-      "imdb_id": "tt0329247"
+      "imdbId": "tt0329247",
+      "title": "Journey to Murder (1971)"
     },
     {
-      "title": "Demons of the Mind",
-      "year": 1972,
-      "imdb_id": "tt0066982"
+      "imdbId": "tt0066982",
+      "title": "Demons of the Mind (1972)"
     },
     {
-      "title": "Vampire Circus",
-      "year": 1972,
-      "imdb_id": "tt0067924"
+      "imdbId": "tt0067924",
+      "title": "Vampire Circus (1972)"
     },
     {
-      "title": "Dracula A.D. 1972",
-      "year": 1972,
-      "imdb_id": "tt0068505"
+      "imdbId": "tt0068505",
+      "title": "Dracula A.D. 1972 (1972)"
     },
     {
-      "title": "Fear in the Night",
-      "year": 1972,
-      "imdb_id": "tt0068577"
+      "imdbId": "tt0068577",
+      "title": "Fear in the Night (1972)"
     },
     {
-      "title": "Straight on Till Morning",
-      "year": 1972,
-      "imdb_id": "tt0069318"
+      "imdbId": "tt0069318",
+      "title": "Straight on Till Morning (1972)"
     },
     {
-      "title": "Wolfshead: The Legend of Robin Hood",
-      "year": 1973,
-      "imdb_id": "tt0065221"
+      "imdbId": "tt0065221",
+      "title": "Wolfshead: The Legend of Robin Hood (1973)"
     },
     {
-      "title": "The Satanic Rites of Dracula",
-      "year": 1973,
-      "imdb_id": "tt0070634"
+      "imdbId": "tt0070634",
+      "title": "The Satanic Rites of Dracula (1973)"
     },
     {
-      "title": "Man at the Top",
-      "year": 1973,
-      "imdb_id": "tt0073342"
+      "imdbId": "tt0073342",
+      "title": "Man at the Top (1973)"
     },
     {
-      "title": "The Legend of the 7 Golden Vampires",
-      "year": 1974,
-      "imdb_id": "tt0070297"
+      "imdbId": "tt0070297",
+      "title": "The Legend of the 7 Golden Vampires (1974)"
     },
     {
-      "title": "Captain Kronos: Vampire Hunter",
-      "year": 1974,
-      "imdb_id": "tt0071276"
+      "imdbId": "tt0071276",
+      "title": "Captain Kronos: Vampire Hunter (1974)"
     },
     {
-      "title": "Frankenstein and the Monster from Hell",
-      "year": 1974,
-      "imdb_id": "tt0071519"
+      "imdbId": "tt0071519",
+      "title": "Frankenstein and the Monster from Hell (1974)"
     },
     {
-      "title": "Shatter",
-      "year": 1974,
-      "imdb_id": "tt0074268"
+      "imdbId": "tt0074268",
+      "title": "Shatter (1974)"
     },
     {
-      "title": "To the Devil a Daughter",
-      "year": 1976,
-      "imdb_id": "tt0075334"
+      "imdbId": "tt0075334",
+      "title": "To the Devil a Daughter (1976)"
     }
   ]
 }

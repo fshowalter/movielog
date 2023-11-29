@@ -1,151 +1,122 @@
 {
   "name": "Universal Monsters",
   "slug": "universal-monsters",
-  "movies": [
+  "titles": [
     {
-      "title": "Dracula",
-      "year": 1931,
-      "imdb_id": "tt0021814"
+      "imdbId": "tt0021814",
+      "title": "Dracula (1931)"
     },
     {
-      "title": "Dr\u00e1cula",
-      "year": 1931,
-      "imdb_id": "tt0021815"
+      "imdbId": "tt0021815",
+      "title": "Dr\u00e1cula (1931)"
     },
     {
-      "title": "Frankenstein",
-      "year": 1931,
-      "imdb_id": "tt0021884"
+      "imdbId": "tt0021884",
+      "title": "Frankenstein (1931)"
     },
     {
-      "title": "The Mummy",
-      "year": 1932,
-      "imdb_id": "tt0023245"
+      "imdbId": "tt0023245",
+      "title": "The Mummy (1932)"
     },
     {
-      "title": "The Invisible Man",
-      "year": 1933,
-      "imdb_id": "tt0024184"
+      "imdbId": "tt0024184",
+      "title": "The Invisible Man (1933)"
     },
     {
-      "title": "The Bride of Frankenstein",
-      "year": 1935,
-      "imdb_id": "tt0026138"
+      "imdbId": "tt0026138",
+      "title": "The Bride of Frankenstein (1935)"
     },
     {
-      "title": "Dracula's Daughter",
-      "year": 1936,
-      "imdb_id": "tt0027545"
+      "imdbId": "tt0027545",
+      "title": "Dracula's Daughter (1936)"
     },
     {
-      "title": "Son of Frankenstein",
-      "year": 1939,
-      "imdb_id": "tt0031951"
+      "imdbId": "tt0031951",
+      "title": "Son of Frankenstein (1939)"
     },
     {
-      "title": "The Invisible Man Returns",
-      "year": 1940,
-      "imdb_id": "tt0032635"
+      "imdbId": "tt0032635",
+      "title": "The Invisible Man Returns (1940)"
     },
     {
-      "title": "The Mummy's Hand",
-      "year": 1940,
-      "imdb_id": "tt0032818"
+      "imdbId": "tt0032818",
+      "title": "The Mummy's Hand (1940)"
     },
     {
-      "title": "The Invisible Woman",
-      "year": 1940,
-      "imdb_id": "tt0032637"
+      "imdbId": "tt0032637",
+      "title": "The Invisible Woman (1940)"
     },
     {
-      "title": "The Wolf Man",
-      "year": 1941,
-      "imdb_id": "tt0034398"
+      "imdbId": "tt0034398",
+      "title": "The Wolf Man (1941)"
     },
     {
-      "title": "The Ghost of Frankenstein",
-      "year": 1942,
-      "imdb_id": "tt0034786"
+      "imdbId": "tt0034786",
+      "title": "The Ghost of Frankenstein (1942)"
     },
     {
-      "title": "Invisible Agent",
-      "year": 1942,
-      "imdb_id": "tt0034902"
+      "imdbId": "tt0034902",
+      "title": "Invisible Agent (1942)"
     },
     {
-      "title": "The Mummy's Tomb",
-      "year": 1942,
-      "imdb_id": "tt0035096"
+      "imdbId": "tt0035096",
+      "title": "The Mummy's Tomb (1942)"
     },
     {
-      "title": "Frankenstein Meets the Wolf Man",
-      "year": 1943,
-      "imdb_id": "tt0035899"
+      "imdbId": "tt0035899",
+      "title": "Frankenstein Meets the Wolf Man (1943)"
     },
     {
-      "title": "Phantom of the Opera",
-      "year": 1943,
-      "imdb_id": "tt0036261"
+      "imdbId": "tt0036261",
+      "title": "Phantom of the Opera (1943)"
     },
     {
-      "title": "Son of Dracula",
-      "year": 1943,
-      "imdb_id": "tt0036376"
+      "imdbId": "tt0036376",
+      "title": "Son of Dracula (1943)"
     },
     {
-      "title": "The Invisible Man's Revenge",
-      "year": 1944,
-      "imdb_id": "tt0036959"
+      "imdbId": "tt0036959",
+      "title": "The Invisible Man's Revenge (1944)"
     },
     {
-      "title": "The Mummy's Ghost",
-      "year": 1944,
-      "imdb_id": "tt0037099"
+      "imdbId": "tt0037099",
+      "title": "The Mummy's Ghost (1944)"
     },
     {
-      "title": "House of Frankenstein",
-      "year": 1944,
-      "imdb_id": "tt0036931"
+      "imdbId": "tt0036931",
+      "title": "House of Frankenstein (1944)"
     },
     {
-      "title": "The Mummy's Curse",
-      "year": 1944,
-      "imdb_id": "tt0037098"
+      "imdbId": "tt0037098",
+      "title": "The Mummy's Curse (1944)"
     },
     {
-      "title": "House of Dracula",
-      "year": 1945,
-      "imdb_id": "tt0037793"
+      "imdbId": "tt0037793",
+      "title": "House of Dracula (1945)"
     },
     {
-      "title": "Abbott and Costello Meet Frankenstein",
-      "year": 1948,
-      "imdb_id": "tt0040068"
+      "imdbId": "tt0040068",
+      "title": "Abbott and Costello Meet Frankenstein (1948)"
     },
     {
-      "title": "Bud Abbott and Lou Costello Meet the Invisible Man",
-      "year": 1951,
-      "imdb_id": "tt0043255"
+      "imdbId": "tt0043255",
+      "title": "Bud Abbott and Lou Costello Meet the Invisible Man (1951)"
     },
     {
-      "title": "Creature from the Black Lagoon",
-      "year": 1954,
-      "imdb_id": "tt0046876"
+      "imdbId": "tt0046876",
+      "title": "Creature from the Black Lagoon (1954)"
     },
     {
-      "title": "Revenge of the Creature",
-      "year": 1955,
-      "imdb_id": "tt0048554"
+      "imdbId": "tt0048554",
+      "title": "Revenge of the Creature (1955)"
     },
     {
-      "title": "Abbott and Costello Meet the Mummy",
-      "year": 1955,
-      "imdb_id": "tt0047795"
+      "imdbId": "tt0047795",
+      "title": "Abbott and Costello Meet the Mummy (1955)"
     },
     {
-      "title": "The Creature Walks Among Us",
-      "year": 1956,
-      "imdb_id": "tt0049103"
+      "imdbId": "tt0049103",
+      "title": "The Creature Walks Among Us (1956)"
     }
   ]
 }

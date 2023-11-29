@@ -4,6 +4,7 @@ import copy
 import json
 import operator
 import os
+import re
 from dataclasses import dataclass
 from glob import glob
 from typing import Sequence, TypedDict, cast
