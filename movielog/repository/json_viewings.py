@@ -17,12 +17,12 @@ JsonViewing = TypedDict(
     {
         "sequence": int,
         "date": str,
-        "imdb_id": str,
+        "imdbId": str,
         "slug": str,
         "venue": Optional[str],
-        # "venueNotes": Optional[str],
+        "venueNotes": Optional[str],
         "medium": Optional[str],
-        "medium_notes": Optional[str],
+        "mediumNotes": Optional[str],
     },
 )
 
@@ -30,16 +30,51 @@ JsonViewing = TypedDict(
 def fix() -> None:
     # viewings_by_sequence = defaultdict(list)
     titles = json_titles.deserialize_all()
-    for json_viewing in deserialize_all():
+    files_to_rename = []
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        with open(file_path, "r+") as json_file:
+            old_viewing = json.load(json_file)
+
         # viewings_by_sequence[json_viewing["sequence"]].append(json_viewing)
-        new_slug = next(
-            slugify(
-                "{0} ({1})".format(title["title"], title["year"]),
-                replacements=[("'", ""), ("&", "and"), ("(", ""), (")", "")],
+            new_slug = next(
+                title["slug"]
+                for title in titles
+                if title["imdbId"] == old_viewing["imdb_id"]
             )
-            for title in titles
-            if title["imdbId"] == json_viewing["imdb_id"]
-        )
+            
+            new_viewing = JsonViewing(
+                sequence=old_viewing["sequence"],
+                date=old_viewing["date"],
+                imdbId=old_viewing["imdb_id"],
+                slug=new_slug,
+                venue=old_viewing["venue"],
+                venueNotes=None,
+                medium=old_viewing["medium"]
+                mediumNotes=old_viewing["medium_notes"]
+            )
+
+            correct_file_path = generate_file_path(new_viewing)
+            
+            if file_path != correct_file_path:
+                files_to_rename.append((file_path, correct_file_path))
+                logger.log(
+                    "{0} filename should be {1}. Marked for rename.",
+                    file_path,
+                    correct_file_path,
+                )
+
+            json_file.seek(0)
+            json_file.write(json.dumps(new_viewing, default=str, indent=2))
+            json_file.truncate()
+            logger.log(
+                "Wrote {}.",
+                file_path,
+            )
+
+
+    for old_file_path, new_file_path in files_to_rename:
+        os.rename(old_file_path, new_file_path)
+        logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
         # serialize(json_viewing=json_viewing)
 
     # for sequence in viewings_by_sequence.keys():
