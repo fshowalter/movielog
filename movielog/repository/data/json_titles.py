@@ -408,7 +408,9 @@ def validate() -> None:
             title_ids_to_add.remove(json_title["imdbId"])
 
             correct_slug = slugify(
-                "{0} ({1})".format(json_title["title"], json_title["year"]),
+                "{0} ({1})-{2}".format(
+                    json_title["title"], json_title["year"], json_title["imdbId"]
+                ),
                 replacements=[("'", "")],
             )
             if json_title["slug"] != correct_slug:
