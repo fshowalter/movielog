@@ -1,11 +1,11 @@
 {
-  "imdbId": "tt0021815",
+  "imdbId": "tt0021814",
   "slug": "dracula-1931",
-  "title": "Dr\u00e1cula (Spanish language version)",
-  "originalTitle": "Dr\u00e1cula",
-  "sortTitle": "Dr\u00e1cula",
+  "title": "Dracula",
+  "originalTitle": "Dracula",
+  "sortTitle": "Dracula",
   "year": 1931,
-  "releaseDate": "1931-01-01",
+  "releaseDate": "1931-02-14",
   "countries": [
     "United States"
   ],
@@ -19,82 +19,82 @@
   "imdbVotes": null,
   "directors": [
     {
-      "imdbId": "nm0577654",
-      "name": "George Melford",
+      "imdbId": "nm0115218",
+      "name": "Tod Browning",
       "sequence": 0
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0898107",
-      "name": "Carlos Villar\u00edas",
+      "imdbId": "nm0000509",
+      "name": "Bela Lugosi",
       "sequence": 0,
       "roles": [
-        "Conde Dr\u00e1cula"
+        "Count Dracula"
       ]
     },
     {
-      "imdbId": "nm0869830",
-      "name": "Lupita Tovar",
+      "imdbId": "nm0151377",
+      "name": "Helen Chandler",
       "sequence": 1,
       "roles": [
-        "Eva"
+        "Mina"
       ]
     },
     {
-      "imdbId": "nm0636161",
-      "name": "Barry Norton",
+      "imdbId": "nm0543115",
+      "name": "David Manners",
       "sequence": 2,
       "roles": [
-        "Juan Harker"
+        "John Harker"
       ]
     },
     {
-      "imdbId": "nm0959363",
-      "name": "Pablo \u00c1lvarez Rubio",
+      "imdbId": "nm0296859",
+      "name": "Dwight Frye",
       "sequence": 3,
       "roles": [
         "Renfield"
       ]
     },
     {
-      "imdbId": "nm0037060",
-      "name": "Eduardo Arozamena",
+      "imdbId": "nm0888000",
+      "name": "Edward Van Sloan",
       "sequence": 4,
       "roles": [
         "Van Helsing"
       ]
     },
     {
-      "imdbId": "nm0814983",
-      "name": "Jos\u00e9 Soriano Viosca",
+      "imdbId": "nm0120557",
+      "name": "Herbert Bunston",
       "sequence": 5,
       "roles": [
         "Doctor Seward"
       ]
     },
     {
-      "imdbId": "nm0346165",
-      "name": "Carmen Guerrero",
+      "imdbId": "nm0196596",
+      "name": "Frances Dade",
       "sequence": 6,
       "roles": [
-        "Luc\u00eda"
+        "Lucy"
       ]
     },
     {
-      "imdbId": "nm0784343",
-      "name": "Amelia Senisterra",
+      "imdbId": "nm0822061",
+      "name": "Joan Standing",
       "sequence": 7,
       "roles": [
-        "Marta"
+        "Maid"
       ]
     },
     {
-      "imdbId": "nm0033475",
-      "name": "Manuel Arb\u00f3",
+      "imdbId": "nm0314699",
+      "name": "Charles K. Gerrard",
       "sequence": 8,
       "roles": [
-        "Mart\u00edn"
+        "Martin"
       ]
     }
   ],
@@ -103,13 +103,25 @@
       "imdbId": "nm0831290",
       "name": "Bram Stoker",
       "sequence": 0,
-      "notes": "(novel \"Dracula\")"
+      "notes": "(by)"
     },
     {
-      "imdbId": "nm0273239",
-      "name": "Baltasar Fern\u00e1ndez Cu\u00e9",
+      "imdbId": "nm0213019",
+      "name": "Hamilton Deane",
       "sequence": 2,
-      "notes": "() (as B.Fernandez Cue.)"
+      "notes": "(from the play adapted by)"
+    },
+    {
+      "imdbId": "nm0049721",
+      "name": "John L. Balderston",
+      "sequence": 3,
+      "notes": "(from the play adapted by)"
+    },
+    {
+      "imdbId": "nm0287124",
+      "name": "Garrett Fort",
+      "sequence": 5,
+      "notes": "(play script)"
     }
   ]
 }
