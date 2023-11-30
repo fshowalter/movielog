@@ -1,6 +1,6 @@
 from movielog import api as movielog_api
 from movielog.cli import add_viewing, confirm, imdb, manage_watchlist, radio_list
-from movielog.repository.data import json_titles
+from movielog.repository import json_viewings
 from movielog.utils.logging import logger
 
 
@@ -11,7 +11,7 @@ def prompt() -> None:
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (imdb.prompt, "<cyan>IMDb</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
-        (json_titles.validate, "Fix data"),
+        (json_viewings.fix, "Fix data"),
         (None, "Exit"),
     ]
 

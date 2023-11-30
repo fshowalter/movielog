@@ -434,16 +434,6 @@ def validate() -> None:
                     correct_file_path,
                 )
 
-            if json_title["slug"] != correct_slug:
-                json_title["slug"] = correct_slug
-                edited = True
-                logger.log(
-                    "{0} slug is {1} corrected to {2}.",
-                    file_path,
-                    json_title["slug"],
-                    correct_slug,
-                )
-
             if edited:
                 json_file.seek(0)
                 json_file.write(json.dumps(json_title, default=str, indent=2))
