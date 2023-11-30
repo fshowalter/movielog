@@ -31,7 +31,10 @@ def fix() -> None:
 
     for json_viewing in deserialize_all():
         json_viewing["slug"] = next(
-            title["slug"]
+            slugify(
+                "{0} ({1})".format(title["title"], title["year"]),
+                replacements=[("'", "")],
+            )
             for title in titles
             if title["imdbId"] == json_viewing["imdb_id"]
         )
