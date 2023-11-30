@@ -389,6 +389,7 @@ def validate() -> None:
     valid_title_ids = viewing_movie_ids.union(watchlist_movie_ids)
     files_to_remove = []
     files_to_rename = []
+    title_ids_to_add = valid_title_ids
 
     for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
         edited = False
@@ -403,6 +404,8 @@ def validate() -> None:
                 )
                 files_to_remove.append(file_path)
                 continue
+
+            title_ids_to_add.remove(json_title["imdbId"])
 
             correct_slug = slugify(
                 "{0} ({1})".format(json_title["title"], json_title["year"]),
@@ -458,6 +461,55 @@ def validate() -> None:
     for old_file_path, new_file_path in files_to_rename:
         os.rename(old_file_path, new_file_path)
         logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
+
+    total_to_add = len(title_ids_to_add)
+    for index, title_id_to_add in enumerate(title_ids_to_add):
+        imdb_movie = imdb_http.get_movie(title_id_to_add[2:])
+        logger.log(
+            "{}/{} processing {}.",
+            index + 1,
+            total_to_add,
+            imdb_movie["long imdb title"],
+        )
+        new_title = JsonTitle(
+            imdbId=title_id_to_add,
+            slug=slugify(
+                "{0} ({1})".format(imdb_movie["title"], imdb_movie["year"]),
+                replacements=[("'", "")],
+            ),
+            title=imdb_movie["title"],
+            originalTitle=imdb_movie["original title"],
+            sortTitle=imdb_movie["canonical title"],
+            year=imdb_movie["year"],
+            releaseDate=parse_release_date(imdb_movie),
+            countries=imdb_movie["countries"],
+            genres=imdb_movie["genres"],
+            runtimeMinutes=0,
+            imdbRating=None,
+            imdbVotes=None,
+            directors=[
+                JsonDirector(
+                    imdbId="nm{0}".format(director.personID),
+                    name=director["name"],
+                    sequence=index,
+                )
+                for index, director in enumerate(imdb_movie["directors"])
+                if moviedata_api.valid_director_notes(director)
+            ],
+            performers=build_performers(imdb_movie),
+            writers=[
+                JsonWriter(
+                    imdbId="nm{0}".format(writer.personID),
+                    name=writer["name"],
+                    sequence=index,
+                    notes=None if writer.notes == "" else writer.notes,
+                )
+                for index, writer in enumerate(imdb_movie.get("writers", []))
+                if writer.keys() and moviedata_api.valid_writer_notes(writer)
+            ],
+        )
+
+        serialize(new_title)
 
 
 def migrate() -> None:

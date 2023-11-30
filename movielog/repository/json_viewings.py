@@ -5,6 +5,7 @@ from typing import Optional, TypedDict, cast
 
 from slugify import slugify
 
+# from movielog.repository.data import json_titles
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 
@@ -15,22 +16,27 @@ JsonViewing = TypedDict(
     {
         "sequence": int,
         "date": str,
-        "imdbId": str,
+        "imdb_id": str,
         "slug": str,
         "venue": Optional[str],
-        "venueNotes": Optional[str],
+        # "venueNotes": Optional[str],
         "medium": Optional[str],
-        "mediumNotes": Optional[str],
+        "medium_notes": Optional[str],
     },
 )
 
 
-def fix() -> None:
-    for json_viewing in deserialize_all():
-        json_viewing["imdbId"] = json_viewing["imdb_id"]
-        json_viewing["venueNotes"] = None
-        json_viewing["mediumNotes"] = json_viewing["medium_notes"]
-        serialize(json_viewing=json_viewing)
+# def fix() -> None:
+#     titles = json_titles.deserialize_all()
+
+#     for json_viewing in deserialize_all():
+#         print(json_viewing["slug"])
+#         json_viewing["slug"] = next(
+#             title["slug"]
+#             for title in titles
+#             if title["imdbId"] == json_viewing["imdb_id"]
+#         )
+#         serialize(json_viewing=json_viewing)
 
 
 def deserialize_all() -> list[JsonViewing]:

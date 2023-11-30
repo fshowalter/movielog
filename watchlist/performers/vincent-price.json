@@ -384,10 +384,6 @@
       "title": "Ringo (1978) (TV)"
     },
     {
-      "imdbId": "tt0078327",
-      "title": "The Strange Case of Alice Cooper (1979) (TV)"
-    },
-    {
       "imdbId": "tt0079858",
       "title": "Scavenger Hunt (1979)"
     },
@@ -399,10 +395,7 @@
       "imdbId": "tt0082121",
       "title": "Bustin' Loose (1981)"
     },
-    {
-      "imdbId": "tt8263566",
-      "title": "Chris and the Magical Drip (1981) (TV)"
-    },
+    
     {
       "imdbId": "tt0085693",
       "title": "House of the Long Shadows (1983)"
@@ -446,13 +439,24 @@
     {
       "imdbId": "tt0104400",
       "title": "The Heart of Justice (1992) (TV)"
+    }    
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt8263566",
+      "title": "Chris and the Magical Drip (1981) (TV)",
+      "reason": "tv special"
     },
     {
       "imdbId": "tt29732758",
-      "title": "Synthwave Horror: House on Haunted Hill (2023)"
-    }
-  ],
-  "excludedTitles": [
+      "title": "Synthwave Horror: House on Haunted Hill (2023)",
+      "reason": "archive footage"
+    },
+    {
+      "imdbId": "tt0078327",
+      "title": "The Strange Case of Alice Cooper (1979) (TV)",
+      "reason": "music video"
+    },
     {
       "imdbId": "tt0041037",
       "title": "\"Lights Out\" (1946)",

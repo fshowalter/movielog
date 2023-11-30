@@ -96,10 +96,6 @@
       "title": "The Orson Welles Show (1979)"
     },
     {
-      "imdbId": "tt0089744",
-      "title": "Orson Welles' Magic Show (1985) (TV)"
-    },
-    {
       "imdbId": "tt0104121",
       "title": "Don Quixote (1992)"
     },
@@ -113,6 +109,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0089744",
+      "title": "Orson Welles' Magic Show (1985) (TV)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt7794952",
       "title": "Twelfth Night (1933)",

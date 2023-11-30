@@ -215,10 +215,7 @@
       "imdbId": "tt1745672",
       "title": "Children of the Corn: Genesis (2011)"
     },
-    {
-      "imdbId": "tt16101762",
-      "title": "The Shining Audiobook (2012) (V)"
-    },
+    
     {
       "imdbId": "tt2199723",
       "title": "Willa (2012)"
@@ -252,10 +249,6 @@
       "title": "Lsnienie (Audioplay) (2016) (V)"
     },
     {
-      "imdbId": "tt28319986",
-      "title": "Thinner (2016) (V)"
-    },
-    {
       "imdbId": "tt1396484",
       "title": "It (2017)"
     },
@@ -275,14 +268,7 @@
       "imdbId": "tt6214928",
       "title": "1922 (2017)"
     },
-    {
-      "imdbId": "tt28319989",
-      "title": "Pet Sematary (2018) (V)"
-    },
-    {
-      "imdbId": "tt28319999",
-      "title": "The Body (2018) (V)"
-    },
+    
     {
       "imdbId": "tt5565634",
       "title": "Children of the Corn: Runaway (2018) (V)"
@@ -299,10 +285,7 @@
       "imdbId": "tt0837563",
       "title": "Pet Sematary (2019)"
     },
-    {
-      "imdbId": "tt29392917",
-      "title": "Carrie (2019) (V)"
-    },
+    
     {
       "imdbId": "tt4687108",
       "title": "In the Tall Grass (2019)"
@@ -320,24 +303,12 @@
       "title": "The Doctor's Case (2019)"
     },
     {
-      "imdbId": "tt28320004",
-      "title": "Misery (2020) (V)"
-    },
-    {
-      "imdbId": "tt29392915",
-      "title": "Misery (2020) (V)"
-    },
-    {
       "imdbId": "tt7215646",
       "title": "The Dark Tower (2020) (TV)"
     },
     {
       "imdbId": "tt15528116",
       "title": "The Timekeepers of Eternity (2021)"
-    },
-    {
-      "imdbId": "tt29392901",
-      "title": "Later (2021) (V)"
     },
     {
       "imdbId": "tt12908110",
@@ -358,13 +329,55 @@
     {
       "imdbId": "tt3427252",
       "title": "The Boogeyman (2023)"
+    }
+    
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt29392917",
+      "title": "Carrie (2019) (V)",
+      "reason": "audiobook"
     },
     {
       "imdbId": "tt29392906",
-      "title": "The Colorado Kid: A Hard Case Crime Novel (2025) (V)"
-    }
-  ],
-  "excludedTitles": [
+      "title": "The Colorado Kid: A Hard Case Crime Novel (2025) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt16101762",
+      "title": "The Shining Audiobook (2012) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt28319989",
+      "title": "Pet Sematary (2018) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt28319999",
+      "title": "The Body (2018) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt29392901",
+      "title": "Later (2021) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt28319986",
+      "title": "Thinner (2016) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt28320004",
+      "title": "Misery (2020) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt29392915",
+      "title": "Misery (2020) (V)",
+      "reason": "audiobook"
+    },
     {
       "imdbId": "tt0079844",
       "title": "\"Salem's Lot\" (1979) (mini)",

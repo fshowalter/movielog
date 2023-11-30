@@ -63,10 +63,7 @@
       "imdbId": "tt2087757",
       "title": "Faust (1985) (TV)"
     },
-    {
-      "imdbId": "tt6358750",
-      "title": "Now That's What I Call Music 6 (1985) (V)"
-    },
+    
     {
       "imdbId": "tt0091142",
       "title": "Gothic (1986)"
@@ -149,6 +146,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt6358750",
+      "title": "Now That's What I Call Music 6 (1985) (V)",
+      "reason": "music video"
+    },
     {
       "imdbId": "tt0049417",
       "title": "Knights on Bikes (1956)",

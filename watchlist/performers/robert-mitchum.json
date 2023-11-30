@@ -323,10 +323,7 @@
       "imdbId": "tt0069515",
       "title": "The Wrath of God (1972)"
     },
-    {
-      "imdbId": "tt0069703",
-      "title": "America on the Rocks (1973) (TV)"
-    },
+    
     {
       "imdbId": "tt0070077",
       "title": "The Friends of Eddie Coyle (1973)"
@@ -461,6 +458,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0069703",
+      "title": "America on the Rocks (1973) (TV)",
+      "reason": "tv special, Documentary, (voice)"
+    },
     {
       "imdbId": "tt0035614",
       "title": "Aerial Gunner (1943)",

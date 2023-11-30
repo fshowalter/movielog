@@ -3,10 +3,7 @@
   "slug": "sean-connery",
   "imdbId": "nm0000125",
   "titles": [
-    {
-      "imdbId": "tt5061960",
-      "title": "The Condemned (1956) (TV)"
-    },
+    
     {
       "imdbId": "tt0050099",
       "title": "Action of the Tiger (1957)"
@@ -43,10 +40,7 @@
       "imdbId": "tt0053334",
       "title": "Tarzan's Greatest Adventure (1959)"
     },
-    {
-      "imdbId": "tt0314890",
-      "title": "Without the Grail (1960) (TV)"
-    },
+    
     {
       "imdbId": "tt1068663",
       "title": "Riders to the Sea (1960) (TV)"
@@ -289,6 +283,16 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0314890",
+      "title": "Without the Grail (1960) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt5061960",
+      "title": "The Condemned (1956) (TV)",
+      "reason": "tv movie"
+    },
     {
       "imdbId": "tt0042116",
       "title": "\"The Jack Benny Program\" (1950)",
