@@ -1,11 +1,11 @@
 import copy
 
-from movielog.repository.data import json_titles
+from movielog.repository.data import json_metadata, json_titles
 from movielog.repository.datasets import api as datasets_api
 from movielog.utils.logging import logger
 
 
-def update_for_title_datasets(titles: dict[str, datasets_api.DatasetTitle]) -> None:
+def update_for_datasets(titles: dict[str, datasets_api.DatasetTitle]) -> None:
     for json_title in json_titles.deserialize_all():
         dataset_title = titles.get(json_title["imdbId"], None)
         if not dataset_title:
@@ -24,3 +24,5 @@ def update_for_title_datasets(titles: dict[str, datasets_api.DatasetTitle]) -> N
 
         if updated_json_title != json_title:
             json_titles.serialize(updated_json_title)
+
+    json_metadata.update(list(titles.values()))

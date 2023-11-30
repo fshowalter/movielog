@@ -10,4 +10,4 @@ def update_datasets() -> None:
         titles=list(titles.values()), names=list(names.values())
     )
 
-    data_api.update_for_title_datasets(titles=titles)
+    data_api.update_for_datasets(titles=titles)
