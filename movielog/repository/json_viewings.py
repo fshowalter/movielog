@@ -35,13 +35,13 @@ def fix() -> None:
         with open(file_path, "r+") as json_file:
             old_viewing = json.load(json_file)
 
-        # viewings_by_sequence[json_viewing["sequence"]].append(json_viewing)
+            # viewings_by_sequence[json_viewing["sequence"]].append(json_viewing)
             new_slug = next(
                 title["slug"]
                 for title in titles
                 if title["imdbId"] == old_viewing["imdb_id"]
             )
-            
+
             new_viewing = JsonViewing(
                 sequence=old_viewing["sequence"],
                 date=old_viewing["date"],
@@ -49,12 +49,12 @@ def fix() -> None:
                 slug=new_slug,
                 venue=old_viewing["venue"],
                 venueNotes=None,
-                medium=old_viewing["medium"]
-                mediumNotes=old_viewing["medium_notes"]
+                medium=old_viewing["medium"],
+                mediumNotes=old_viewing["medium_notes"],
             )
 
             correct_file_path = generate_file_path(new_viewing)
-            
+
             if file_path != correct_file_path:
                 files_to_rename.append((file_path, correct_file_path))
                 logger.log(
@@ -70,7 +70,6 @@ def fix() -> None:
                 "Wrote {}.",
                 file_path,
             )
-
 
     for old_file_path, new_file_path in files_to_rename:
         os.rename(old_file_path, new_file_path)
