@@ -409,7 +409,7 @@ def validate() -> None:
 
             correct_slug = slugify(
                 "{0} ({1})-{2}".format(
-                    json_title["title"], json_title["year"], json_title["imdbId"]
+                    json_title["title"], json_title["year"], json_title["imdbId"][2:]
                 ),
                 replacements=[("'", "")],
             )
