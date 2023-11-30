@@ -415,17 +415,18 @@ def validate() -> None:
             title_ids_to_add.remove(json_title["imdbId"])
 
             correct_slug = title_slug(
-                original_title=json_title["originalTitle"], year=json_title["year"]
+                original_title=json_title["title"], year=json_title["year"]
             )
 
             if json_title["slug"] != correct_slug:
+                old_slug = json_title["slug"]
                 json_title["slug"] = correct_slug
                 edited = True
                 logger.log(
-                    "{0} slug is {1} corrected to {2}.",
+                    "{0} slug was {1} corrected to {2}.",
                     file_path,
+                    old_slug,
                     json_title["slug"],
-                    correct_slug,
                 )
 
             correct_file_path = os.path.join(
