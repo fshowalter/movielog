@@ -154,6 +154,9 @@ def update_titles_with_akas(file_path: str, titles: dict[str, DatasetTitle]) -> 
         if not title:
             continue
 
+        if str(fields[3]) not in {"US", "GB"}:
+            continue
+
         aka_title = str(fields[2])
 
         if aka_title in {title["title"], title["original_title"]}:

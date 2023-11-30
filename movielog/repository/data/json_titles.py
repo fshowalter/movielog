@@ -382,6 +382,13 @@ def fix_all() -> None:
         os.unlink(progress_file_path)
 
 
+def title_slug(original_title: str, year: int) -> str:
+    return slugify(
+        "{0} ({1})".format(original_title, year),
+        replacements=[("'", ""), ("&", "and"), ("(", ""), (")", "")],
+    )
+
+
 def validate() -> None:
     viewing_movie_ids = viewings_api.movie_ids()
     watchlist_movie_ids = watchlist_api.movie_ids()
@@ -407,12 +414,10 @@ def validate() -> None:
 
             title_ids_to_add.remove(json_title["imdbId"])
 
-            correct_slug = slugify(
-                "{0} ({1})-{2}".format(
-                    json_title["title"], json_title["year"], json_title["imdbId"][2:]
-                ),
-                replacements=[("'", "")],
+            correct_slug = title_slug(
+                original_title=json_title["originalTitle"], year=json_title["year"]
             )
+
             if json_title["slug"] != correct_slug:
                 json_title["slug"] = correct_slug
                 edited = True
@@ -424,7 +429,8 @@ def validate() -> None:
                 )
 
             correct_file_path = os.path.join(
-                FOLDER_NAME, "{0}.json".format(json_title["slug"])
+                FOLDER_NAME,
+                "{0}-{1}.json".format(json_title["slug"], json_title["imdbId"][2:]),
             )
             if file_path != correct_file_path:
                 files_to_rename.append((file_path, correct_file_path))
