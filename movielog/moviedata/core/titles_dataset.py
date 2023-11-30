@@ -36,6 +36,18 @@ Whitelist = {
 MovieRow = movies_table.Row
 
 
+class Title(TypedDict):
+    imdb_id: str
+    title: str
+    original_title: str
+    year: int
+    runtime_minutes: Optional[int]
+    principal_cast: list[str]
+    aka_titles: list[str]
+    imdb_votes: Optional[int]
+    imdb_rating: Optional[float]
+
+
 class Principal(TypedDict):
     imdb_id: str
     order: int
@@ -61,20 +73,21 @@ def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WP
     return "Documentary" not in genres
 
 
-def extract_titles(title_basics_file_path: str) -> Dict[str, MovieRow]:
-    titles: Dict[str, MovieRow] = {}
+def extract_titles(title_basics_file_path: str) -> Dict[str, Title]:
+    titles: Dict[str, Title] = {}
 
     for fields in extractor.extract(title_basics_file_path):
         imdb_id = str(fields[0])
         if imdb_id in Whitelist or title_fields_are_valid(fields):
-            titles[imdb_id] = movies_table.Row(
+            titles[imdb_id] = Title(
                 imdb_id=str(fields[0]),
                 title=str(fields[2]),
                 original_title=str(fields[3]),
                 year=int(str(fields[5] or "2023")),
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
-                principal_cast_ids=None,
-                votes=None,
+                principal_cast=[],
+                aka_titles=[],
+                imdb_votes=None,
                 imdb_rating=None,
             )
 

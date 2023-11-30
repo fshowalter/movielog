@@ -8,10 +8,6 @@
     },
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyArgs": ["--show-column-numbers"],
-  "python.linting.mypyEnabled": true,
-  "python.formatting.provider": "black",
   "python.testing.pytestArgs": [],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,

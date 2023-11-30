@@ -11,8 +11,9 @@ CREATE_DDL = """
   "original_title" TEXT,
   "year" INT NOT NULL,
   "runtime_minutes" INT,
-  "principal_cast_ids" TEXT,
-  "votes" INT,
+  "principal_cast" JSON,
+  "aka_titles" JSON
+  "imdb_votes" INT,
   "imdb_rating" FLOAT
 """
 
@@ -23,9 +24,10 @@ INSERT_DDL = """
     , original_title
     , year
     , runtime_minutes
-    , principal_cast_ids
-    , votes
+    , principal_cast
+    , imdb_votes
     , imdb_rating
+    , aka_titles
     )
     VALUES(
       :imdb_id
@@ -33,9 +35,10 @@ INSERT_DDL = """
     , :original_title
     , :year
     , :runtime_minutes
-    , :principal_cast_ids
-    , :votes
+    , :principal_cast
+    , :imdb_votes
     , :imdb_rating
+    , :aka_titles
     )
 """
 
@@ -46,8 +49,8 @@ class Row(TypedDict):
     original_title: Optional[str]
     year: int
     runtime_minutes: Optional[int]
-    principal_cast_ids: Optional[str]
-    votes: Optional[int]
+    principal_cast: Optional[str]
+    imdb_votes: Optional[int]
     imdb_rating: Optional[float]
 
 

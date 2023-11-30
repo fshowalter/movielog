@@ -11,7 +11,7 @@ def prompt() -> None:
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (imdb.prompt, "<cyan>IMDb</cyan>"),
         (export, "<cyan>Export Data</cyan>"),
-        (json_title.fix_all, "Fix data"),
+        (json_title.validate, "Fix data"),
         (None, "Exit"),
     ]
 
