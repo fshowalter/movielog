@@ -230,7 +230,7 @@ def build_performers(imdb_movie: imdb.Movie.Movie) -> list[JsonPerformer]:
     return performers
 
 
-def fix_all() -> None:
+def reset() -> None:
     json_files = glob(os.path.join(FOLDER_NAME, "*.json"))
     total_count = len(json_files)
 
@@ -243,7 +243,9 @@ def fix_all() -> None:
                 slug=json_title["slug"],
                 title=json_title["title"],
                 originalTitle=json_title["originalTitle"],
-                sortTitle=json_title["sortTitle"],
+                sortTitle="{0} ({1})".format(
+                    json_title["sortTitle"], json_title["year"]
+                ),
                 year=json_title["year"],
                 releaseDate=json_title["releaseDate"],
                 countries=json_title["countries"],
@@ -274,15 +276,16 @@ def fix_all() -> None:
             )
 
 
-def update() -> None:
+def fix_all() -> None:
     processed_files = []
     existing_progress = []
 
     progress_file_path = os.path.join(FOLDER_NAME, ".progress")
     path_tools.ensure_file_path(progress_file_path)
 
-    with open(progress_file_path, "r") as existing_progress_output_file:
-        existing_progress = existing_progress_output_file.readlines()
+    if os.path.isfile(progress_file_path):
+        with open(progress_file_path, "r") as existing_progress_output_file:
+            existing_progress = existing_progress_output_file.read().splitlines()
 
     try:
         json_files = glob(os.path.join(FOLDER_NAME, "*.json"))
@@ -290,8 +293,6 @@ def update() -> None:
 
         for index, file_path in enumerate(json_files):
             with open(file_path, "r+") as json_file:
-                json_title = cast(JsonTitle, json.load(json_file))
-
                 if file_path in existing_progress:
                     logger.log(
                         "{}/{} Skipped {} (already processed).",
@@ -301,11 +302,15 @@ def update() -> None:
                     )
                     continue
 
+                json_title = cast(JsonTitle, json.load(json_file))
                 imdb_movie = imdb_http.get_movie(json_title["imdbId"][2:])
 
                 updated_title = JsonTitle(
                     imdbId=json_title["imdbId"],
-                    slug=json_title["slug"],
+                    slug=slugify(
+                        "{0} ({1})".format(imdb_movie["title"], imdb_movie["year"]),
+                        replacements=[("'", "")],
+                    ),
                     title=imdb_movie["title"],
                     originalTitle=imdb_movie["original title"],
                     sortTitle=imdb_movie["canonical title"],
@@ -342,6 +347,7 @@ def update() -> None:
                         total_count,
                         file_path,
                     )
+                    processed_files.append(file_path)
                     continue
 
                 json_file.seek(0)
@@ -359,12 +365,18 @@ def update() -> None:
 
     except:
         with open(progress_file_path, "a") as progress_output_file:
-            progress_output_file.writelines(processed_files)
+            progress_output_file.writelines(
+                filename + "\n" for filename in processed_files
+            )
 
         logger.log(
             "Wrote {}.",
             progress_file_path,
         )
+        return
+
+    if os.path.isfile(progress_file_path):
+        os.unlink(progress_file_path)
 
 
 def validate() -> None:
@@ -389,7 +401,10 @@ def validate() -> None:
                 files_to_remove.append(file_path)
                 continue
 
-            correct_slug = slugify(json_title["title"])
+            correct_slug = slugify(
+                "{0} ({1})".format(json_title["title"], json_title["year"]),
+                replacements=[("'", "")],
+            )
             if json_title["slug"] != correct_slug:
                 json_title["slug"] = correct_slug
                 edited = True
