@@ -23,4 +23,4 @@ def update_for_title_datasets(titles: dict[str, datasets_api.DatasetTitle]) -> N
         updated_json_title["imdbVotes"] = dataset_title["imdb_votes"]
 
         if updated_json_title != json_title:
-            json_titles.serialize(json_title)
+            json_titles.serialize(updated_json_title)
