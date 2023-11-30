@@ -1,5 +1,6 @@
 import json
 import os
+from collections import defaultdict
 from glob import glob
 from typing import Optional, TypedDict, cast
 
@@ -27,18 +28,23 @@ JsonViewing = TypedDict(
 
 
 def fix() -> None:
-    titles = json_titles.deserialize_all()
+    viewings_by_sequence = defaultdict(list)
 
     for json_viewing in deserialize_all():
-        json_viewing["slug"] = next(
-            slugify(
-                "{0} ({1})".format(title["title"], title["year"]),
-                replacements=[("'", "")],
-            )
-            for title in titles
-            if title["imdbId"] == json_viewing["imdb_id"]
-        )
-        serialize(json_viewing=json_viewing)
+        viewings_by_sequence[json_viewing["sequence"]].append(json_viewing)
+        # json_viewing["slug"] = next(
+        #     slugify(
+        #         "{0} ({1})".format(title["title"], title["year"]),
+        #         replacements=[("'", ""), ("&", "and")],
+        #     )
+        #     for title in titles
+        #     if title["imdbId"] == json_viewing["imdb_id"]
+        # )
+        # serialize(json_viewing=json_viewing)
+
+    for sequence in viewings_by_sequence.keys():
+        if len(viewings_by_sequence[sequence]) > 1:
+            print(sequence)
 
 
 def deserialize_all() -> list[JsonViewing]:
