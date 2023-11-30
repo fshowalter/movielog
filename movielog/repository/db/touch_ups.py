@@ -1,4 +1,4 @@
-from movielog import db
+from movielog.repository.db import db
 
 
 def apply() -> None:

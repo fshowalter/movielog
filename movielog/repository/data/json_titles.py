@@ -5,23 +5,23 @@ import os
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta
+from datetime import datetime
 from glob import glob
 from pathlib import Path
-from typing import Iterable, Optional, TypedDict, cast
+from typing import Optional, TypedDict, cast
 
 import imdb
 from slugify import slugify
 
-from movielog import db
 from movielog.moviedata import api as moviedata_api
+from movielog.repository.db import db
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 from movielog.viewings import api as viewings_api
 from movielog.watchlist import api as watchlist_api
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
-FOLDER_NAME = "titles"
+FOLDER_NAME = os.path.join("data", "titles")
 
 
 JsonWriter = TypedDict(
@@ -61,6 +61,9 @@ JsonTitle = TypedDict(
         "title": str,
         "originalTitle": str,
         "sortTitle": str,
+        "runtimeMinutes": Optional[int],
+        "imdbRating": Optional[float],
+        "imdbVotes": Optional[int],
         "year": int,
         "releaseDate": str,
         "countries": list[str],

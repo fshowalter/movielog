@@ -1,8 +1,8 @@
 import json
 from typing import TypedDict
 
-from movielog import db
 from movielog.repository.datasets.dataset_name import DatasetName
+from movielog.repository.db import db
 
 TABLE_NAME = "names"
 

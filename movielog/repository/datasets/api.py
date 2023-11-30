@@ -1,11 +1,6 @@
 from __future__ import annotations
 
-from movielog.repository.datasets import (
-    downloader,
-    extractor,
-    names_table,
-    titles_table,
-)
+from movielog.repository.datasets import downloader, extractor
 from movielog.repository.datasets.dataset_name import DatasetName
 from movielog.repository.datasets.dataset_title import DatasetTitle
 from movielog.utils import format_tools
@@ -24,7 +19,7 @@ AllowList = {
 
 
 def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WPS212
-    if fields[1] in {"movie", "video", "tvMovie"}:
+    if fields[1] not in {"movie", "video", "tvMovie"}:
         return False
     if fields[4] == "1":  # adult
         return False
@@ -171,19 +166,20 @@ def update_titles_with_akas(file_path: str, titles: dict[str, DatasetTitle]) -> 
     logger.log("Extracted {} {}.", format_tools.humanize_int(count), "aka titles")
 
 
-def update() -> None:  # noqa: WPS210
+def download_and_extract() -> (
+    tuple[dict[str, DatasetTitle], dict[str, DatasetName]]
+):  # noqa: WPS210
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)
     title_principals_file_path = downloader.download(TITLE_PRINCIPALS_FILE_NAME)
     title_ratings_file_path = downloader.download(TITLE_RATINGS_FILE_NAME)
     title_akas_file_path = downloader.download(TITLE_AKAS_FILE_NAME)
     name_basics_file_path = downloader.download(NAME_BASICS_FILE_NAME)
 
-    for _ in extractor.checkpoint(title_principals_file_path):  # noqa: WPS122
-        titles = extract_titles(title_basics_file_path)
-        update_titles_with_ratings(title_ratings_file_path, titles)
-        update_titles_with_akas(title_akas_file_path, titles)
-        names = extract_names(name_basics_file_path, titles)
-        update_titles_with_principals(title_principals_file_path, titles, names)
-        prune_titles_with_no_principal_cast(titles)
-        titles_table.reload(list(titles.values()))
-        names_table.reload(list(names.values()))
+    titles = extract_titles(title_basics_file_path)
+    update_titles_with_ratings(title_ratings_file_path, titles)
+    update_titles_with_akas(title_akas_file_path, titles)
+    names = extract_names(name_basics_file_path, titles)
+    update_titles_with_principals(title_principals_file_path, titles, names)
+    prune_titles_with_no_principal_cast(titles)
+
+    return (titles, names)

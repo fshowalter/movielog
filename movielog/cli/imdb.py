@@ -1,6 +1,6 @@
 from movielog import api as movielog_api
 from movielog.cli import confirm, radio_list
-from movielog.repository.datasets import api as dataset_api
+from movielog.repository import api as repository_api
 
 
 def prompt() -> None:
@@ -26,7 +26,7 @@ def prompt() -> None:
 def update_titles_and_people() -> None:
     if confirm.prompt("<cyan>Download and update IMDb titles and people?</cyan>"):
         # movielog_api.refresh_core_data()
-        dataset_api.update()
+        repository_api.update_datasets()
 
 
 def update_watchlist_person_credits() -> None:

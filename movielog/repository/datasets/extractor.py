@@ -1,10 +1,9 @@
 import gzip
-import pathlib
-from typing import Generator, List, Optional, Sequence
+from typing import Generator, Optional, Sequence
 
 from movielog.utils.logging import logger
 
-DatasetFields = List[Optional[str]]
+DatasetFields = list[Optional[str]]
 
 
 def extract(
@@ -20,18 +19,6 @@ def extract(
                 continue
 
             yield parse_fields(fields)
-
-
-def checkpoint(file_path: str) -> Generator[None, None, None]:
-    success_file = pathlib.Path("{0}._success".format(file_path))
-
-    if success_file.exists():
-        logger.log("Found {} file. Skipping load.", success_file)
-        return
-
-    yield
-
-    success_file.touch()
 
 
 def parse_fields(
