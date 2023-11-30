@@ -12,12 +12,12 @@
       "title": "The Criminal Code (1930)"
     },
     {
-      "imdbId": "tt0023427",
-      "title": "Scarface (1932)"
-    },
-    {
       "imdbId": "tt0022792",
       "title": "The Crowd Roars (1932)"
+    },
+    {
+      "imdbId": "tt0023427",
+      "title": "Scarface (1932)"
     },
     {
       "imdbId": "tt0023594",
@@ -26,14 +26,6 @@
     {
       "imdbId": "tt0024675",
       "title": "Today We Live (1933)"
-    },
-    {
-      "imdbId": "tt0024475",
-      "title": "The Prizefighter and the Lady (1933)"
-    },
-    {
-      "imdbId": "tt0025948",
-      "title": "Viva Villa! (1934)"
     },
     {
       "imdbId": "tt0025919",
@@ -48,12 +40,12 @@
       "title": "Ceiling Zero (1936)"
     },
     {
-      "imdbId": "tt0028191",
-      "title": "The Road to Glory (1936)"
-    },
-    {
       "imdbId": "tt0027459",
       "title": "Come and Get It (1936)"
+    },
+    {
+      "imdbId": "tt0028191",
+      "title": "The Road to Glory (1936)"
     },
     {
       "imdbId": "tt0029947",
@@ -68,24 +60,16 @@
       "title": "His Girl Friday (1940)"
     },
     {
-      "imdbId": "tt0034167",
-      "title": "Sergeant York (1941)"
-    },
-    {
       "imdbId": "tt0033373",
       "title": "Ball of Fire (1941)"
     },
     {
+      "imdbId": "tt0034167",
+      "title": "Sergeant York (1941)"
+    },
+    {
       "imdbId": "tt0035616",
       "title": "Air Force (1943)"
-    },
-    {
-      "imdbId": "tt0036241",
-      "title": "The Outlaw (1943)"
-    },
-    {
-      "imdbId": "tt0035757",
-      "title": "Corvette K-225 (1943)"
     },
     {
       "imdbId": "tt0037382",
@@ -108,20 +92,16 @@
       "title": "I Was a Male War Bride (1949)"
     },
     {
-      "imdbId": "tt0044121",
-      "title": "The Thing from Another World (1951)"
-    },
-    {
       "imdbId": "tt0044419",
       "title": "The Big Sky (1952)"
     },
     {
-      "imdbId": "tt0044981",
-      "title": "O. Henry's Full House (1952)"
-    },
-    {
       "imdbId": "tt0044916",
       "title": "Monkey Business (1952)"
+    },
+    {
+      "imdbId": "tt0044981",
+      "title": "O. Henry's Full House (1952)"
     },
     {
       "imdbId": "tt0045810",
@@ -158,13 +138,13 @@
   ],
   "excludedTitles": [
     {
-      "imdbId": "tt0017328",
-      "title": "The Road to Glory (1926)",
+      "imdbId": "tt0016854",
+      "title": "Fig Leaves (1926)",
       "reason": "silent"
     },
     {
-      "imdbId": "tt0016854",
-      "title": "Fig Leaves (1926)",
+      "imdbId": "tt0017328",
+      "title": "The Road to Glory (1926)",
       "reason": "silent"
     },
     {
@@ -183,13 +163,13 @@
       "reason": "silent as directed by Hawks, dialogue scenes added later and directed by Lewis Seiler"
     },
     {
-      "imdbId": "tt0018937",
-      "title": "A Girl in Every Port (1928)",
+      "imdbId": "tt0018879",
+      "title": "Fazil (1928)",
       "reason": "silent"
     },
     {
-      "imdbId": "tt0018879",
-      "title": "Fazil (1928)",
+      "imdbId": "tt0018937",
+      "title": "A Girl in Every Port (1928)",
       "reason": "silent"
     },
     {
@@ -201,6 +181,31 @@
       "imdbId": "tt0132979",
       "title": "La foule hurle (1932)",
       "reason": "French version of The Crowd Roars (1932)"
+    },
+    {
+      "imdbId": "tt0024475",
+      "title": "The Prizefighter and the Lady (1933)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0025948",
+      "title": "Viva Villa! (1934)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0035757",
+      "title": "Corvette K-225 (1943)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0036241",
+      "title": "The Outlaw (1943)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0044121",
+      "title": "The Thing from Another World (1951)",
+      "reason": "(uncredited)"
     }
   ]
 }

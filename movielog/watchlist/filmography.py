@@ -3,7 +3,7 @@ from __future__ import annotations
 import fnmatch
 import re
 import time
-from typing import TYPE_CHECKING, Callable, Iterator, Optional
+from typing import TYPE_CHECKING, Callable, Iterator, Optional, Union
 
 import imdb
 
@@ -73,7 +73,7 @@ def is_silent(imdb_movie: imdb.Movie.Movie) -> Optional[bool]:
 
 def log_skip(person_name: str, imdb_movie: imdb.Movie.Movie, reason: str) -> None:
     logger.log(
-        "Skipping {0} for {1} {2}",
+        "Skipping {} for {} {}",
         imdb_movie["long imdb title"],
         person_name,
         reason,
@@ -146,30 +146,57 @@ def valid_movies_for_person(  # noqa: WPS231
 
     existing_title_ids = set([title["imdbId"][2:] for title in person.titles])
 
-    missing_ids = existing_title_ids - filmography
+    missing_title_ids = existing_title_ids - filmography
+    total_missing_title_ids = len(missing_title_ids)
 
-    for missing_id in missing_ids:
+    for index, missing_title_id in enumerate(missing_title_ids):
         missing_title = next(
-            (title for title in person.titles if title["imdbId"][2:] == missing_id),
+            (
+                title
+                for title in person.titles
+                if title["imdbId"][2:] == missing_title_id
+            ),
             None,
         )
 
         if missing_title:
             person.titles.remove(missing_title)
+            logger.log(
+                "{}/{} missing title {} removed.",
+                index + 1,
+                total_missing_title_ids,
+                missing_title_id,
+            )
 
+    existing_excluded_title_ids = set(
+        [title["imdbId"][2:] for title in person.excludedTitles]
+    )
+
+    missing_excluded_title_ids = existing_excluded_title_ids - filmography
+    total_missing_excluded_title_ids = len(missing_excluded_title_ids)
+
+    for index, missing_excluded_title_id in enumerate(missing_excluded_title_ids):
         missing_excluded_title = next(
             (
                 excluded_title
                 for excluded_title in person.excludedTitles
-                if excluded_title["imdbId"][2:] == missing_id
+                if excluded_title["imdbId"][2:] == missing_excluded_title_id
             ),
             None,
         )
 
         if missing_excluded_title:
             person.excludedTitles.remove(missing_excluded_title)
+            logger.log(
+                "{}/{} missing excluded title {} removed.",
+                index + 1,
+                total_missing_excluded_title_ids,
+                missing_excluded_title_id,
+            )
 
-    for imdb_id in filmography:
+    total_filmography = len(filmography)
+
+    for index, imdb_id in enumerate(filmography):
         excluded_title = next(
             (
                 excluded_title
@@ -180,6 +207,14 @@ def valid_movies_for_person(  # noqa: WPS231
         )
 
         if excluded_title:
+            logger.log(
+                "{0}/{1} {2} already in {3}.".format(
+                    index + 1,
+                    total_filmography,
+                    excluded_title["title"],
+                    "excludedTitles",
+                ),
+            )
             continue
 
         existing_title = next(
@@ -192,6 +227,14 @@ def valid_movies_for_person(  # noqa: WPS231
         )
 
         if existing_title:
+            logger.log(
+                "{0}/{1} {2} already in {3}.".format(
+                    index + 1,
+                    total_filmography,
+                    existing_title["title"],
+                    "titles",
+                )
+            )
             continue
 
         imdb_movie = imdb_http.get_movie(imdb_id)
@@ -225,8 +268,16 @@ def valid_movies_for_person(  # noqa: WPS231
                 JsonExcludedTitle(
                     imdbId="tt{0}".format(imdb_movie.movieID),
                     title=imdb_movie["long imdb title"],
-                    reason="{0}".format(imdb_movie["kind"]),
+                    reason=imdb_movie["kind"],
                 )
+            )
+            logger.log(
+                "{}/{} {} added to {} ({}).",
+                index + 1,
+                total_filmography,
+                imdb_movie["long imdb title"],
+                "excludedTitles",
+                imdb_movie["kind"],
             )
             continue
 
@@ -248,6 +299,14 @@ def valid_movies_for_person(  # noqa: WPS231
                     reason="{0}".format(", ".join(invalid_genres)),
                 )
             )
+            logger.log(
+                "{}/{} {} added to {} ({}).",
+                index + 1,
+                total_filmography,
+                imdb_movie["long imdb title"],
+                "excludedTitles",
+                "{0}".format(", ".join(invalid_genres)),
+            )
             continue
 
         if is_silent(imdb_movie):
@@ -263,6 +322,14 @@ def valid_movies_for_person(  # noqa: WPS231
                     reason="silent",
                 )
             )
+            logger.log(
+                "{}/{} {} added to {} ({}).",
+                index + 1,
+                total_filmography,
+                imdb_movie["long imdb title"],
+                "excludedTitles",
+                "silent",
+            )
             continue
 
         invalid_notes = validator(imdb_movie, person)
@@ -274,6 +341,14 @@ def valid_movies_for_person(  # noqa: WPS231
                     reason=invalid_notes,
                 )
             )
+            logger.log(
+                "{}/{} {} added to {} ({}).",
+                index + 1,
+                total_filmography,
+                imdb_movie["long imdb title"],
+                "excludedTitles",
+                invalid_notes,
+            )
             continue
 
         person.titles.append(
@@ -282,27 +357,32 @@ def valid_movies_for_person(  # noqa: WPS231
                 title=imdb_movie["long imdb title"],
             )
         )
+        logger.log(
+            "{}/{} {} added to {}.",
+            index + 1,
+            total_filmography,
+            imdb_movie["long imdb title"],
+            "titles",
+        )
 
-    person.titles = sorted(
-        person.titles, key=lambda title: title_sort_key(title["title"])
-    )
+    person.titles = sorted(person.titles, key=lambda title: title_sort_key(title))
 
     person.excludedTitles = sorted(
-        person.excludedTitles, key=lambda title: title_sort_key(title["title"])
+        person.excludedTitles, key=lambda title: title_sort_key(title)
     )
 
     return person
 
 
-def title_sort_key(title: str) -> str:
+def title_sort_key(title: Union[JsonTitle, JsonExcludedTitle]) -> str:
     year_sort_regex = r"\(\d*\)"
 
-    year = re.search(year_sort_regex, title)
+    year = re.search(year_sort_regex, title["title"])
 
     if year:
-        return year.group(0)
+        return "{0}-{1}".format(year.group(0), title["imdbId"])
 
-    return "(????)"
+    return "(????)-{0}".format(title["imdbId"])
 
 
 def build_movie(imdb_movie: imdb.Movie.Movie) -> Movie:

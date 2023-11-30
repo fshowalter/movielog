@@ -51,11 +51,10 @@ def deserialize(file_path: str) -> Writer:
         ]
 
     return Writer(
-        fetched=json_person.get("fetched", date.today().isoformat()),
         imdbId=imdb_id,
         slug=json_person["slug"],
         name=json_person["name"],
-        titles=[],
+        titles=json_titles,
         excludedTitles=excluded_titles,
     )
 

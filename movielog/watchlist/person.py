@@ -10,7 +10,6 @@ from movielog.watchlist.movies import JsonExcludedTitle, JsonMovie, JsonTitle
 
 @dataclass
 class Person(object):
-    fetched: str
     name: str
     slug: str
     imdbId: Union[str, list[str]]

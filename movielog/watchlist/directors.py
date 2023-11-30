@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import copy
 import json
+import os
 from dataclasses import asdict, dataclass
 from datetime import date
 from typing import Sequence, cast
 
+from movielog.utils import path_tools
 from movielog.utils.logging import logger
 from movielog.watchlist import filmography, movies, person, serializer
 
@@ -53,11 +55,10 @@ def deserialize(file_path: str) -> Director:
         ]
 
     return Director(
-        fetched=json_person.get("fetched", date.today().isoformat()),
         imdbId=json_person["imdbId"],
         slug=json_person["slug"],
         name=json_person["name"],
-        titles=[],
+        titles=json_titles,
         excludedTitles=excluded_titles,
     )
 
@@ -80,19 +81,50 @@ def movies_for_director(
 
 def refresh_movies() -> None:
     directors = deserialize_all()
-    for director in directors:
-        # if director.frozen:
-        #     continue
+    processed_files = []
+    existing_progress = []
+
+    progress_file_path = os.path.join(serializer.FOLDER_PATH, "directors", ".progress")
+    path_tools.ensure_file_path(progress_file_path)
+
+    if os.path.isfile(progress_file_path):
+        with open(progress_file_path, "r") as existing_progress_output_file:
+            existing_progress = existing_progress_output_file.readlines()
+
+    total_count = len(directors)
+    try:
+        for index, director in enumerate(directors):
+            # if director.frozen:
+            #     continue
+            logger.log(
+                "==== Begin getting {} credits for {}...",
+                "director",
+                director.name,
+            )
+
+            if director.slug in existing_progress:
+                logger.log(
+                    "{}/{} Skipped {} (already processed).",
+                    index + 1,
+                    total_count,
+                    director.name,
+                )
+                continue
+
+            director = filmography.for_director(director)
+
+            serializer.serialize(director, director.folder_name)
+
+            processed_files.append(director.slug)
+
+    except:
+        with open(progress_file_path, "a") as progress_output_file:
+            progress_output_file.writelines(processed_files)
+
         logger.log(
-            "==== Begin getting {} credits for {}...",
-            "director",
-            director.name,
+            "Wrote {}.",
+            progress_file_path,
         )
-
-        director = filmography.for_director(director)
-        director.fetched = date.today().isoformat()
-
-        serializer.serialize(director, director.folder_name)
 
 
 def add(imdb_id: str, name: str) -> Director:

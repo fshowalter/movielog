@@ -4,10 +4,6 @@
   "imdbId": "nm0000180",
   "titles": [
     {
-      "imdbId": "tt0033868",
-      "title": "Major Barbara (1941)"
-    },
-    {
       "imdbId": "tt0034891",
       "title": "In Which We Serve (1942)"
     },
@@ -16,12 +12,12 @@
       "title": "This Happy Breed (1944)"
     },
     {
-      "imdbId": "tt0038363",
-      "title": "Blithe Spirit (1945)"
-    },
-    {
       "imdbId": "tt0037558",
       "title": "Brief Encounter (1945)"
+    },
+    {
+      "imdbId": "tt0038363",
+      "title": "Blithe Spirit (1945)"
     },
     {
       "imdbId": "tt0038574",
@@ -60,10 +56,6 @@
       "title": "Lawrence of Arabia (1962)"
     },
     {
-      "imdbId": "tt0059245",
-      "title": "The Greatest Story Ever Told (1965)"
-    },
-    {
       "imdbId": "tt0059113",
       "title": "Doctor Zhivago (1965)"
     },
@@ -77,6 +69,16 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0033868",
+      "title": "Major Barbara (1941)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0059245",
+      "title": "The Greatest Story Ever Told (1965)",
+      "reason": "(uncredited) (some scenes)"
+    },
     {
       "imdbId": "tt0296729",
       "title": "Lost and Found: The Story of Cook's Anchor (1979)",

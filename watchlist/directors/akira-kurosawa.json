@@ -12,12 +12,12 @@
       "title": "The Most Beautiful (1944)"
     },
     {
-      "imdbId": "tt0038268",
-      "title": "Sanshiro Sugata, Part Two (1945)"
-    },
-    {
       "imdbId": "tt0038182",
       "title": "The Men Who Tread on the Tiger's Tail (1945)"
+    },
+    {
+      "imdbId": "tt0038268",
+      "title": "Sanshiro Sugata, Part Two (1945)"
     },
     {
       "imdbId": "tt0038310",
@@ -36,20 +36,20 @@
       "title": "Drunken Angel (1948)"
     },
     {
-      "imdbId": "tt0041870",
-      "title": "The Quiet Duel (1949)"
-    },
-    {
       "imdbId": "tt0041699",
       "title": "Stray Dog (1949)"
     },
     {
-      "imdbId": "tt0042958",
-      "title": "Scandal (1950)"
+      "imdbId": "tt0041870",
+      "title": "The Quiet Duel (1949)"
     },
     {
       "imdbId": "tt0042876",
       "title": "Rashomon (1950)"
+    },
+    {
+      "imdbId": "tt0042958",
+      "title": "Scandal (1950)"
     },
     {
       "imdbId": "tt0043614",
@@ -68,12 +68,12 @@
       "title": "I Live in Fear (1955)"
     },
     {
-      "imdbId": "tt0050613",
-      "title": "Throne of Blood (1957)"
-    },
-    {
       "imdbId": "tt0050330",
       "title": "The Lower Depths (1957)"
+    },
+    {
+      "imdbId": "tt0050613",
+      "title": "Throne of Blood (1957)"
     },
     {
       "imdbId": "tt0051808",
@@ -98,10 +98,6 @@
     {
       "imdbId": "tt0058888",
       "title": "Red Beard (1965)"
-    },
-    {
-      "imdbId": "tt0066473",
-      "title": "Tora! Tora! Tora! (1970)"
     },
     {
       "imdbId": "tt0065649",
@@ -133,6 +129,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0066473",
+      "title": "Tora! Tora! Tora! (1970)",
+      "reason": "(uncredited) (some Japanese sequences)"
+    },
     {
       "imdbId": "tt4346112",
       "title": "Song of the Horse (1970) (TV)",
