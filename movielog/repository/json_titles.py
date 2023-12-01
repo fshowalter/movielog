@@ -18,7 +18,6 @@ from movielog.moviedata import api as moviedata_api
 from movielog.repository.datasets import api as datasets_api
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
-from movielog.viewings import api as viewings_api
 from movielog.watchlist import api as watchlist_api
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
@@ -114,61 +113,61 @@ class CreateTitleWriter(object):
     notes: Optional[str]
 
 
-def create(
-    imdb_id: str,
-    title: str,
-    year: int,
-    release_date: str,
-    countries: list[str],
-    genres: list[str],
-    directors: list[CreateTitleDirector],
-    performers: list[CreateTitlePerformer],
-    writers: list[CreateTitleWriter],
-) -> JsonTitle:
-    title_with_year = "{0} ({1})".format(title, year)
-    slug = slugify(title_with_year, replacements=[("'", "")])
+# def create(
+#     imdb_id: str,
+#     title: str,
+#     year: int,
+#     release_date: str,
+#     countries: list[str],
+#     genres: list[str],
+#     directors: list[CreateTitleDirector],
+#     performers: list[CreateTitlePerformer],
+#     writers: list[CreateTitleWriter],
+# ) -> JsonTitle:
+#     title_with_year = "{0} ({1})".format(title, year)
+#     slug = slugify(title_with_year, replacements=[("'", "")])
 
-    json_title = JsonTitle(
-        imdbId=imdb_id,
-        title=title,
-        originalTitle="",
-        sortTitle=generate_sort_title(title=title, year=year),
-        year=year,
-        slug=slug,
-        releaseDate=release_date,
-        countries=countries,
-        genres=genres,
-        directors=[
-            JsonDirector(
-                imdbId=director.imdb_id,
-                name=director.name,
-                sequence=director.sequence,
-            )
-            for director in directors
-        ],
-        performers=[
-            JsonPerformer(
-                imdbId=performer.imdb_id,
-                name=performer.name,
-                sequence=performer.sequence,
-                roles=performer.roles,
-            )
-            for performer in performers
-        ],
-        writers=[
-            JsonWriter(
-                imdbId=writer.imdb_id,
-                name=writer.name,
-                sequence=writer.sequence,
-                notes=writer.notes,
-            )
-            for writer in writers
-        ],
-    )
+#     json_title = JsonTitle(
+#         imdbId=imdb_id,
+#         title=title,
+#         originalTitle="",
+#         sortTitle=generate_sort_title(title=title, year=year),
+#         year=year,
+#         slug=slug,
+#         releaseDate=release_date,
+#         countries=countries,
+#         genres=genres,
+#         directors=[
+#             JsonDirector(
+#                 imdbId=director.imdb_id,
+#                 name=director.name,
+#                 sequence=director.sequence,
+#             )
+#             for director in directors
+#         ],
+#         performers=[
+#             JsonPerformer(
+#                 imdbId=performer.imdb_id,
+#                 name=performer.name,
+#                 sequence=performer.sequence,
+#                 roles=performer.roles,
+#             )
+#             for performer in performers
+#         ],
+#         writers=[
+#             JsonWriter(
+#                 imdbId=writer.imdb_id,
+#                 name=writer.name,
+#                 sequence=writer.sequence,
+#                 notes=writer.notes,
+#             )
+#             for writer in writers
+#         ],
+#     )
 
-    serialize(json_title)
+#     serialize(json_title)
 
-    return json_title
+#     return json_title
 
 
 def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:

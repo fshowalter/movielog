@@ -31,8 +31,8 @@ def build_json_viewing(
 
     return JsonViewing(
         sequence=viewing.sequence,
-        viewingYear=str(viewing.viewing_date.year),
-        viewingDate=viewing.viewing_date.isoformat(),
+        viewingYear=str(viewing.date.year),
+        viewingDate=viewing.date.isoformat(),
         releaseDate=title.release_date.isoformat(),
         title=title.title,
         sortTitle=title.sort_title,
@@ -52,8 +52,8 @@ def export(repository_data: RepositoryData) -> None:
         for viewing in repository_data.viewings
     ]
 
-    exporter.serialize_dicts_to_folder(
+    exporter.serialize_dicts_by_key(
         json_viewings,
         "viewings",
-        filename_key=lambda viewing: viewing["viewingYear"],
+        key=lambda viewing: viewing["viewingYear"],
     )

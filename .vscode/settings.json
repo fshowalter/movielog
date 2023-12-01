@@ -8,8 +8,9 @@
     },
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.testing.pytestArgs": [],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "python.analysis.typeCheckingMode": "basic"
 }

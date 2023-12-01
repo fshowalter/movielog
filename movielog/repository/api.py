@@ -1,17 +1,22 @@
 import datetime
 from dataclasses import dataclass
-from typing import Iterable, Optional, Sequence
+from typing import Iterable, Literal, Optional, Sequence, Union
 
 from movielog.repository import (
     json_metadata,
     json_titles,
     json_viewings,
+    json_watchlist_collections,
+    json_watchlist_people,
     markdown_reviews,
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 
 RECENT_VIEWING_DAYS = 365
+
+
+WatchlistEntityKind = Union[json_watchlist_people.Kind, Literal["collections"]]
 
 
 @dataclass
@@ -41,12 +46,20 @@ class Title(object):
             viewing for viewing in viewing_iterable if viewing.imdb_id == self.imdb_id
         ]
 
+    def watchlist_entities(
+        self, kind: WatchlistEntityKind, cache: Optional[list["WatchlistEntity"]]
+    ) -> list["WatchlistEntity"]:
+        people_iterable = cache or watchlist_entities(kind=kind)
+        return [
+            person for person in people_iterable if self.imdb_id in person.title_ids
+        ]
+
 
 @dataclass
 class Viewing(object):
     imdb_id: str
     sequence: int
-    viewing_date: datetime.date
+    date: datetime.date
     medium: Optional[str]
     venue: Optional[str]
     medium_notes: Optional[str]
@@ -89,8 +102,52 @@ class Review(object):
 
         return grade_value
 
+    def title(self, cache: Optional[list[Title]] = None) -> Title:
+        title_iterable = cache or titles()
+        return next(title for title in title_iterable if title.imdb_id == self.imdb_id)
 
-def hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
+
+@dataclass
+class WatchlistEntity(object):
+    name: str
+    slug: str
+    title_ids: set[str]
+
+    def titles(self, cache: Optional[list[Title]] = None) -> list[Title]:
+        title_iterable = cache or titles()
+        return [title for title in title_iterable if title.imdb_id in self.title_ids]
+
+
+JsonWatchlistEntity = Union[
+    json_watchlist_people.JsonWatchlistPerson,
+    json_watchlist_collections.JsonWatchlistCollection,
+]
+
+
+def _hydrate_json_watchlist_entity(
+    json_watchlist_entity: JsonWatchlistEntity,
+) -> WatchlistEntity:
+    return WatchlistEntity(
+        name=json_watchlist_entity["name"],
+        slug=json_watchlist_entity["slug"],
+        title_ids=set([title["imdbId"] for title in json_watchlist_entity["titles"]]),
+    )
+
+
+def watchlist_entities(kind: WatchlistEntityKind) -> list[WatchlistEntity]:
+    if kind == "collections":
+        for json_watchlist_collection in json_watchlist_collections.read_all():
+            yield _hydrate_json_watchlist_entity(
+                json_watchlist_entity=json_watchlist_collection
+            )
+    else:
+        for json_watchlist_person in json_watchlist_people.read_all(kind):
+            yield _hydrate_json_watchlist_entity(
+                json_watchlist_entity=json_watchlist_person
+            )
+
+
+def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
     return Title(
         imdb_id=json_title["imdbId"],
         title=json_title["imdbId"],
@@ -110,18 +167,20 @@ def hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
     )
 
 
-def hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
+def _hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
     return Viewing(
         imdb_id=json_viewing["imdbId"],
         sequence=json_viewing["sequence"],
         medium=json_viewing["medium"],
         venue=json_viewing["medium"],
-        viewing_date=datetime.date.fromisoformat(json_viewing["date"]),
+        date=datetime.date.fromisoformat(json_viewing["date"]),
         medium_notes=json_viewing["mediumNotes"],
     )
 
 
-def hydrate_markdown_review(markdown_review: markdown_reviews.MarkdownReview) -> Review:
+def _hydrate_markdown_review(
+    markdown_review: markdown_reviews.MarkdownReview,
+) -> Review:
     return Review(
         slug=markdown_review.yaml["slug"],
         date=markdown_review.yaml["date"],
@@ -133,17 +192,17 @@ def hydrate_markdown_review(markdown_review: markdown_reviews.MarkdownReview) ->
 
 def titles() -> Iterable[Title]:
     for json_title in json_titles.read_all():
-        yield hydrate_json_title(json_title=json_title)
+        yield _hydrate_json_title(json_title=json_title)
 
 
 def viewings() -> Iterable[Viewing]:
     for json_viewing in json_viewings.read_all():
-        yield hydrate_json_viewing(json_viewing=json_viewing)
+        yield _hydrate_json_viewing(json_viewing=json_viewing)
 
 
 def reviews() -> Iterable[Review]:
     for markdown_review in markdown_reviews.read_all():
-        yield hydrate_markdown_review(markdown_review=markdown_review)
+        yield _hydrate_markdown_review(markdown_review=markdown_review)
 
 
 def update_datasets() -> None:
@@ -157,12 +216,12 @@ def update_datasets() -> None:
     json_metadata.update_for_datasets(dataset_titles=list(dataset_titles.values()))
 
 
-def viewing_is_recent(viewing: Viewing) -> bool:
-    return (datetime.date.today() - viewing.viewing_date).days < RECENT_VIEWING_DAYS
+def _viewing_is_recent(viewing: Viewing) -> bool:
+    return (datetime.date.today() - viewing.date).days < RECENT_VIEWING_DAYS
 
 
 def recent_media() -> Sequence[str]:
-    recent_viewings = filter(viewing_is_recent, viewings())
+    recent_viewings = filter(_viewing_is_recent, viewings())
 
     return sorted(
         set([viewing.medium for viewing in recent_viewings if viewing.medium])
@@ -174,4 +233,4 @@ def last_viewing_date() -> Optional[datetime.date]:
         viewings(), reverse=True, key=lambda viewing: viewing.sequence
     )
 
-    return sorted_viewings[0].viewing_date if sorted_viewings else None
+    return sorted_viewings[0].date if sorted_viewings else None

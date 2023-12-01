@@ -4,20 +4,27 @@ from typing import Optional
 from slugify import slugify
 
 from movielog.moviedata import api as moviedata_api
-from movielog.reviews import api as reviews_api
-from movielog.viewings import api as viewings_api
 from movielog.watchlist import api as watchlist_api
 
 Collection = watchlist_api.Collection
 
 # review methods
 
-review_for_movie = reviews_api.review_for_movie
+
+def review_for_movie():
+    pass
+
 
 # viewing methods
 
-recent_media = viewings_api.recent_media
-last_viewing_date = viewings_api.last_viewing_date
+
+def recent_media():
+    pass
+
+
+def last_viewing_date():
+    pass
+
 
 # moviedata methods
 
