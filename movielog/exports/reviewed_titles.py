@@ -73,7 +73,9 @@ def build_json_more_title(
     title: repository_api.Title,
     repository_data: RepositoryData,
 ) -> JsonMoreTitle:
-    review = repository_data.reviews[title.imdb_id]
+    review = title.review(repository_data.reviews)
+
+    assert review
 
     return JsonMoreTitle(
         title=title.title,
@@ -165,7 +167,7 @@ def build_json_more_reviews(
     review: repository_api.Review,
     repository_data: RepositoryData,
 ) -> list[JsonMoreTitle]:
-    sliced_reviews = slice_list(
+    sliced_titles = slice_list(
         source_list=sorted(
             repository_data.reviewed_titles, key=lambda title: title.sort_title
         ),
@@ -174,11 +176,11 @@ def build_json_more_reviews(
 
     return [
         build_json_more_title(
-            title=repository_data.titles[sliced_review.imdb_id],
+            title=sliced_title,
             repository_data=repository_data,
         )
-        for sliced_review in sliced_reviews
-        if sliced_review.imdb_id != review.imdb_id
+        for sliced_title in sliced_titles
+        if sliced_title.imdb_id != review.imdb_id
     ]
 
 
@@ -220,7 +222,7 @@ def build_json_reviewed_title(
     review: repository_api.Review,
     repository_data: RepositoryData,
 ) -> JsonReviewedTitle:
-    title = repository_data.titles[review.imdb_id]
+    title = review.title(repository_data.titles)
 
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
@@ -247,7 +249,7 @@ def build_json_reviewed_title(
                 date=viewing.date.isoformat(),
                 venue=viewing.venue,
             )
-            for viewing in repository_data.viewings_for_id[review.imdb_id]
+            for viewing in title.viewings(repository_data.viewings)
         ],
         more=build_json_more(
             title=title, review=review, repository_data=repository_data
@@ -260,7 +262,7 @@ def export(repository_data: RepositoryData) -> None:
 
     json_reviewed_titles = [
         build_json_reviewed_title(review=review, repository_data=repository_data)
-        for review in repository_data.reviews.values()
+        for review in repository_data.reviews
     ]
 
     exporter.serialize_dicts_to_folder(

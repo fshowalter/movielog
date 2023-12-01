@@ -26,8 +26,8 @@ JsonViewing = TypedDict(
 def build_json_viewing(
     viewing: repository_api.Viewing, repository_data: RepositoryData
 ) -> JsonViewing:
-    title = repository_data.titles[viewing.imdb_id]
-    review = repository_data.reviews.get(viewing.imdb_id, None)
+    title = viewing.title(repository_data.titles)
+    review = title.review(repository_data.reviews)
 
     return JsonViewing(
         sequence=viewing.sequence,

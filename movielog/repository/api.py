@@ -1,6 +1,6 @@
 import datetime
 from dataclasses import dataclass
-from typing import Iterable, Literal, Optional, Sequence, Union
+from typing import Iterable, Literal, Optional, Sequence, Union, get_args
 
 from movielog.repository import (
     json_metadata,
@@ -16,7 +16,9 @@ from movielog.repository.db import api as db_api
 RECENT_VIEWING_DAYS = 365
 
 
-WatchlistEntityKind = Union[json_watchlist_people.Kind, Literal["collections"]]
+WatchlistEntityKind = Literal[json_watchlist_people.Kind, Literal["collections"]]
+
+WATCHLIST_ENTITY_KINDS = get_args(WatchlistEntityKind)
 
 
 @dataclass
@@ -150,7 +152,7 @@ def watchlist_entities(kind: WatchlistEntityKind) -> list[WatchlistEntity]:
 def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
     return Title(
         imdb_id=json_title["imdbId"],
-        title=json_title["imdbId"],
+        title=json_title["title"],
         release_date=datetime.date.fromisoformat(json_title["releaseDate"]),
         sort_title=json_title["sortTitle"],
         year=json_title["year"],
