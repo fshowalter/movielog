@@ -2,6 +2,7 @@ from typing import Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
+from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
 JsonViewing = TypedDict(
@@ -16,40 +17,43 @@ JsonViewing = TypedDict(
         "medium": Optional[str],
         "venue": Optional[str],
         "year": str,
-        "slug": str,
+        "slug": Optional[str],
         "genres": list[str],
     },
 )
 
 
-def export(repository_data: RepositoryData) -> None:
-    logger.log("==== Begin exporting {}...", "unreviewed-works")
+def build_json_viewing(
+    viewing: repository_api.Viewing, repository_data: RepositoryData
+) -> JsonViewing:
+    title = viewing.title(repository_data.titles)
+    review = title.review(repository_data.reviews)
 
-    json_unreviewed_works = [
-        JsonUnreviewedWork(
-            slug=work.slug,
-            title=work.title,
-            subtitle=work.subtitle,
-            sortTitle=work.sort_title,
-            yearPublished=work.year,
-            kind=work.kind,
-            authors=[
-                json_work_author.build_json_work_author(
-                    work_author=work_author, all_authors=repository_data.authors
-                )
-                for work_author in work.work_authors
-            ],
-            includedInSlugs=[
-                included_in_work.slug
-                for included_in_work in work.included_in_works(repository_data.works)
-            ],
-        )
-        for work in repository_data.works
-        if not work.review(repository_data.reviews)
+    return JsonViewing(
+        sequence=viewing.sequence,
+        viewingYear=str(viewing.viewing_date.year),
+        viewingDate=viewing.viewing_date.isoformat(),
+        releaseDate=title.release_date.isoformat(),
+        title=title.title,
+        sortTitle=title.sort_title,
+        medium=viewing.medium,
+        venue=viewing.venue,
+        year=title.year,
+        slug=review.slug if review else None,
+        genres=title.genres,
+    )
+
+
+def export(repository_data: RepositoryData) -> None:
+    logger.log("==== Begin exporting {}...", "viewings")
+
+    json_viewings = [
+        build_json_viewing(viewing=viewing, repository_data=repository_data)
+        for viewing in repository_data.viewings
     ]
 
     exporter.serialize_dicts_to_folder(
-        json_unreviewed_works,
-        "unreviewed_works",
-        filename_key=lambda work: work["slug"],
+        json_viewings,
+        "viewings",
+        filename_key=lambda viewing: viewing["viewingYear"],
     )

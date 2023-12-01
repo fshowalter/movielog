@@ -24,13 +24,13 @@ JsonMetadata = TypedDict(
 )
 
 
-def update(titles: list[datasets_api.DatasetTitle]) -> None:
+def update_for_datasets(dataset_titles: list[datasets_api.DatasetTitle]) -> None:
     average_imdb_rating = mean(
-        title["imdb_rating"] for title in titles if title["imdb_rating"]
+        title["imdb_rating"] for title in dataset_titles if title["imdb_rating"]
     )
 
     average_imdb_votes = mean(
-        title["imdb_votes"] for title in titles if title["imdb_votes"]
+        title["imdb_votes"] for title in dataset_titles if title["imdb_votes"]
     )
 
     json_metadata = JsonMetadata(

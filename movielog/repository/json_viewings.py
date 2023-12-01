@@ -1,7 +1,7 @@
 import json
 import os
 from glob import glob
-from typing import Optional, TypedDict, cast
+from typing import Iterable, Optional, TypedDict, cast
 
 from slugify import slugify
 
@@ -58,3 +58,9 @@ def serialize(json_viewing: JsonViewing) -> str:
     logger.log("Wrote {}.", file_path)
 
     return file_path
+
+
+def read_all() -> Iterable[JsonViewing]:
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        with open(file_path, "r") as json_file:
+            yield (cast(JsonViewing, json.load(json_file)))

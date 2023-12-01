@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import json
 import os
 import re
@@ -14,6 +15,7 @@ import imdb
 from slugify import slugify
 
 from movielog.moviedata import api as moviedata_api
+from movielog.repository.datasets import api as datasets_api
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 from movielog.viewings import api as viewings_api
@@ -60,10 +62,10 @@ JsonTitle = TypedDict(
         "title": str,
         "originalTitle": str,
         "sortTitle": str,
-        "runtimeMinutes": Optional[int],
+        "runtimeMinutes": int,
         "imdbRating": Optional[float],
         "imdbVotes": Optional[int],
-        "year": int,
+        "year": str,
         "releaseDate": str,
         "countries": list[str],
         "genres": list[str],
@@ -578,3 +580,24 @@ def read_all() -> Iterable[JsonTitle]:
     for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
         with open(file_path, "r") as json_file:
             yield (cast(JsonTitle, json.load(json_file)))
+
+
+def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) -> None:
+    for json_title in read_all():
+        dataset_title = dataset_titles.get(json_title["imdbId"], None)
+        if not dataset_title:
+            logger.log(
+                "No dataset title found for {} ({}).",
+                json_title["imdbId"],
+                json_title["title"],
+            )
+            continue
+
+        updated_json_title = copy.deepcopy(json_title)
+
+        updated_json_title["runtimeMinutes"] = dataset_title["runtime_minutes"] or 0
+        updated_json_title["imdbRating"] = dataset_title["imdb_rating"]
+        updated_json_title["imdbVotes"] = dataset_title["imdb_votes"]
+
+        if updated_json_title != json_title:
+            serialize(updated_json_title)
