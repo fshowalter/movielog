@@ -73,9 +73,7 @@ def build_json_more_title(
     title: repository_api.Title,
     repository_data: RepositoryData,
 ) -> JsonMoreTitle:
-    review = title.review(repository_data.reviews)
-
-    assert review
+    review = repository_data.reviews[title.imdb_id]
 
     return JsonMoreTitle(
         title=title.title,
@@ -140,7 +138,7 @@ def build_json_more_entities(
             source_list=sorted(
                 [
                     title
-                    for title in repository_data.titles
+                    for title in repository_data.reviewed_titles
                     if title.imdb_id in reviewed_ids
                 ],
                 key=lambda title: title.release_date,
@@ -168,13 +166,15 @@ def build_json_more_reviews(
     repository_data: RepositoryData,
 ) -> list[JsonMoreTitle]:
     sliced_reviews = slice_list(
-        source_list=repository_data.reviews,
+        source_list=sorted(
+            repository_data.reviewed_titles, key=lambda title: title.sort_title
+        ),
         matcher=build_imdb_id_matcher(review.imdb_id),
     )
 
     return [
         build_json_more_title(
-            title=sliced_review.title(repository_data.titles),
+            title=repository_data.titles[sliced_review.imdb_id],
             repository_data=repository_data,
         )
         for sliced_review in sliced_reviews
@@ -220,7 +220,7 @@ def build_json_reviewed_title(
     review: repository_api.Review,
     repository_data: RepositoryData,
 ) -> JsonReviewedTitle:
-    title = review.title(repository_data.titles)
+    title = repository_data.titles[review.imdb_id]
 
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
@@ -247,7 +247,7 @@ def build_json_reviewed_title(
                 date=viewing.date.isoformat(),
                 venue=viewing.venue,
             )
-            for viewing in title.viewings(repository_data.viewings)
+            for viewing in repository_data.viewings_for_id[review.imdb_id]
         ],
         more=build_json_more(
             title=title, review=review, repository_data=repository_data
@@ -260,7 +260,7 @@ def export(repository_data: RepositoryData) -> None:
 
     json_reviewed_titles = [
         build_json_reviewed_title(review=review, repository_data=repository_data)
-        for review in repository_data.reviews
+        for review in repository_data.reviews.values()
     ]
 
     exporter.serialize_dicts_to_folder(

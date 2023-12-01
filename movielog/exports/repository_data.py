@@ -10,7 +10,9 @@ WatchlistDict = dict[
 @dataclass
 class RepositoryData(object):
     viewings: list[repository_api.Viewing]
-    titles: list[repository_api.Title]
-    reviews: list[repository_api.Review]
+    viewings_for_id: dict[str, list[repository_api.Viewing]]
+    titles: dict[str, repository_api.Title]
+    reviews: dict[str, repository_api.Review]
+    reviewed_titles: list[repository_api.Title]
     watchlist: WatchlistDict
     review_ids: set[str]
