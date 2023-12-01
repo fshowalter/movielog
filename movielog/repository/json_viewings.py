@@ -1,12 +1,10 @@
 import json
 import os
-from collections import defaultdict
 from glob import glob
 from typing import Optional, TypedDict, cast
 
 from slugify import slugify
 
-from movielog.repository.data import json_titles
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 
@@ -25,60 +23,6 @@ JsonViewing = TypedDict(
         "mediumNotes": Optional[str],
     },
 )
-
-
-def fix() -> None:
-    # viewings_by_sequence = defaultdict(list)
-    titles = json_titles.deserialize_all()
-    files_to_rename = []
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
-        with open(file_path, "r+") as json_file:
-            old_viewing = json.load(json_file)
-
-            # viewings_by_sequence[json_viewing["sequence"]].append(json_viewing)
-            new_slug = next(
-                title["slug"]
-                for title in titles
-                if title["imdbId"] == old_viewing["imdb_id"]
-            )
-
-            new_viewing = JsonViewing(
-                sequence=old_viewing["sequence"],
-                date=old_viewing["date"],
-                imdbId=old_viewing["imdb_id"],
-                slug=new_slug,
-                venue=old_viewing["venue"],
-                venueNotes=None,
-                medium=old_viewing["medium"],
-                mediumNotes=old_viewing["medium_notes"],
-            )
-
-            correct_file_path = generate_file_path(new_viewing)
-
-            if file_path != correct_file_path:
-                files_to_rename.append((file_path, correct_file_path))
-                logger.log(
-                    "{0} filename should be {1}. Marked for rename.",
-                    file_path,
-                    correct_file_path,
-                )
-
-            json_file.seek(0)
-            json_file.write(json.dumps(new_viewing, default=str, indent=2))
-            json_file.truncate()
-            logger.log(
-                "Wrote {}.",
-                file_path,
-            )
-
-    for old_file_path, new_file_path in files_to_rename:
-        os.rename(old_file_path, new_file_path)
-        logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
-        # serialize(json_viewing=json_viewing)
-
-    # for sequence in viewings_by_sequence.keys():
-    #     if len(viewings_by_sequence[sequence]) > 1:
-    #         print(sequence)
 
 
 def deserialize_all() -> list[JsonViewing]:

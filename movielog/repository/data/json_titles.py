@@ -8,13 +8,12 @@ from dataclasses import dataclass
 from datetime import datetime
 from glob import glob
 from pathlib import Path
-from typing import Optional, TypedDict, cast
+from typing import Iterable, Optional, TypedDict, cast
 
 import imdb
 from slugify import slugify
 
 from movielog.moviedata import api as moviedata_api
-from movielog.repository.db import db
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
 from movielog.viewings import api as viewings_api
@@ -168,20 +167,6 @@ def create(
     serialize(json_title)
 
     return json_title
-
-
-@dataclass
-class DbData(object):
-    title: str
-    year: int
-
-
-def fetch_db_data(imdb_id: str) -> DbData:
-    query = 'select title, year from movies where imdb_id="{0}"'
-
-    row = db.fetch_all(query.format(imdb_id))[0]
-
-    return DbData(title=row["title"], year=row["year"])
 
 
 def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
@@ -587,3 +572,9 @@ def deserialize_all() -> list[JsonTitle]:
     )
 
     return titles
+
+
+def read_all() -> Iterable[JsonTitle]:
+    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
+        with open(file_path, "r") as json_file:
+            yield (cast(JsonTitle, json.load(json_file)))
