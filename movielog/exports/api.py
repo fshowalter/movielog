@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from movielog.exports import reviewed_titles, viewings, watchlist_titles
+from movielog.exports import reviewed_titles, stats, viewings, watchlist_titles
 from movielog.exports.repository_data import RepositoryData, Watchlist
 from movielog.repository import api as repository_api
 
@@ -39,3 +39,4 @@ def export_data() -> None:
     viewings.export(repository_data)
     reviewed_titles.export(repository_data)
     watchlist_titles.export(repository_data)
+    stats.export(repository_data)

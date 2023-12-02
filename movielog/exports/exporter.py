@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING, Callable, TypeVar
 if TYPE_CHECKING:
     from _typeshed import DataclassInstance  # noqa: WPS436
 
-from movielog.utils import list_tools
+from movielog.exports import list_tools
 from movielog.utils.logging import logger
 
 DictType = TypeVar("DictType")

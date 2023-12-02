@@ -22,6 +22,13 @@ WATCHLIST_ENTITY_KINDS = get_args(WatchlistEntityKind)
 
 
 @dataclass
+class Name(object):
+    name: str
+    imdb_id: str
+    sequence: int
+
+
+@dataclass
 class Title(object):
     imdb_id: str
     title: str
@@ -31,8 +38,9 @@ class Title(object):
     genres: list[str]
     runtime_minutes: int
     countries: list[str]
-    director_names: list[str]
-    principal_cast_names: list[str]
+    directors: list[Name]
+    performers: list[Name]
+    writers: list[Name]
     original_title: str
 
     def review(self, cache: Optional[list["Review"]] = None) -> Optional["Review"]:
@@ -160,11 +168,29 @@ def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
         original_title=json_title["originalTitle"],
         runtime_minutes=json_title["runtimeMinutes"],
         countries=json_title["countries"],
-        director_names=[director["name"] for director in json_title["directors"]],
-        principal_cast_names=[
-            performer["name"]
-            for index, performer in enumerate(json_title["performers"])
-            if index < 4
+        directors=[
+            Name(
+                name=director["name"],
+                imdb_id=director["imdbId"],
+                sequence=director["sequence"],
+            )
+            for director in json_title["directors"]
+        ],
+        performers=[
+            Name(
+                name=performer["name"],
+                imdb_id=performer["imdbId"],
+                sequence=performer["sequence"],
+            )
+            for performer in json_title["performers"]
+        ],
+        writers=[
+            Name(
+                name=writer["name"],
+                imdb_id=writer["imdbId"],
+                sequence=writer["sequence"],
+            )
+            for writer in json_title["writers"]
         ],
     )
 

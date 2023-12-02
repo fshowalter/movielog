@@ -69,4 +69,8 @@ def export(repository_data: RepositoryData) -> None:
             )
         )
 
-    exporter.serialize_dicts(watchlist_titles, "watchlist-titles")
+    exporter.serialize_dicts_to_folder(
+        watchlist_titles,
+        "watchlist-titles",
+        filename_key=lambda watchlist_title: watchlist_title["imdbId"],
+    )

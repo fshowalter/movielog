@@ -237,8 +237,12 @@ def build_json_reviewed_title(
         originalTitle=title.original_title,
         gradeValue=review.grade_value,
         runtimeMinutes=title.runtime_minutes,
-        directorNames=title.director_names,
-        principalCastNames=title.principal_cast_names,
+        directorNames=[director.name for director in title.directors],
+        principalCastNames=[
+            performer.name
+            for index, performer in enumerate(title.performers)
+            if index < 4
+        ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
         viewings=[
