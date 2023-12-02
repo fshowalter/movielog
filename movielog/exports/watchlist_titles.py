@@ -1,5 +1,5 @@
 from collections import defaultdict
-from typing import Optional, TypedDict
+from typing import Literal, Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -24,16 +24,22 @@ JsonTitle = TypedDict(
     },
 )
 
-WachlistIndex = dict[str, dict[repository_api.WatchlistEntityKind, list[str]]]
+WachlistIndex = dict[
+    str, dict[Literal[repository_api.WatchlistPersonKind, "collections"], list[str]]
+]
 
 
 def build_watchlist_index(repository_data: RepositoryData) -> WachlistIndex:
     watchlist_index: WachlistIndex = defaultdict(lambda: defaultdict(list))
 
-    for watchlist_key in repository_api.WATCHLIST_ENTITY_KINDS:
-        for watchlist_entity in repository_data.watchlist[watchlist_key]:
-            for title_id in watchlist_entity.title_ids:
-                watchlist_index[title_id][watchlist_key].append(watchlist_entity.name)
+    for collection in repository_data.watchlist_collections:
+        for collection_title_id in collection.title_ids:
+            watchlist_index[collection_title_id]["collections"].append(collection.name)
+
+    for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
+        for watchlist_person in repository_data.watchlist_people[watchlist_key]:
+            for title_id in watchlist_person.title_ids:
+                watchlist_index[title_id][watchlist_key].append(watchlist_person.name)
 
     return watchlist_index
 
@@ -44,13 +50,10 @@ def export(repository_data: RepositoryData) -> None:
     watchlist_title_index = build_watchlist_index(repository_data=repository_data)
 
     watchlist_titles = []
-    watchlist_title_ids = set(watchlist_title_index.keys())
 
-    for title in repository_data.titles:
-        if title.imdb_id not in watchlist_title_ids:
-            continue
-
-        review = title.review(repository_data.reviews)
+    for watchlist_title_id in watchlist_title_index.keys():
+        title = repository_data.titles[watchlist_title_id]
+        review = repository_data.reviews.get(watchlist_title_id, None)
 
         watchlist_titles.append(
             JsonTitle(

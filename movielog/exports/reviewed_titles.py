@@ -1,4 +1,4 @@
-from typing import Callable, Optional, TypedDict, TypeVar, Union
+from typing import Callable, Optional, Sequence, TypedDict, TypeVar, Union
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -73,7 +73,7 @@ def build_json_more_title(
     title: repository_api.Title,
     repository_data: RepositoryData,
 ) -> JsonMoreTitle:
-    review = title.review(repository_data.reviews)
+    review = repository_data.reviews[title.imdb_id]
 
     assert review
 
@@ -120,19 +120,14 @@ def build_imdb_id_matcher(
     return lambda item_with_imdb_id: item_with_imdb_id.imdb_id == id_to_match
 
 
-def build_json_more_entities(
-    title: repository_api.Title,
+def build_json_more_for_watchlist_entities(
     review: repository_api.Review,
-    key: repository_api.WatchlistEntityKind,
+    watchlist_entities: Sequence[repository_api.WatchlistEntity],
     repository_data: RepositoryData,
 ) -> list[JsonMoreEntity]:
-    watchlist_entities = title.watchlist_entities(key, repository_data.watchlist[key])
-
     more_entries = []
     for watchlist_entity in watchlist_entities:
-        reviewed_ids = repository_data.review_ids.intersection(
-            watchlist_entity.title_ids
-        )
+        reviewed_ids = repository_data.reviews.keys() & watchlist_entity.title_ids
         if len(reviewed_ids) < 5:
             continue
 
@@ -190,28 +185,32 @@ def build_json_more(
     repository_data: RepositoryData,
 ) -> JsonMore:
     return JsonMore(
-        directedBy=build_json_more_entities(
-            title=title,
+        directedBy=build_json_more_for_watchlist_entities(
             review=review,
-            key="directors",
+            watchlist_entities=title.watchlist_people(
+                "directors", repository_data.watchlist_people["directors"]
+            ),
             repository_data=repository_data,
         ),
-        withPerformer=build_json_more_entities(
-            title=title,
+        withPerformer=build_json_more_for_watchlist_entities(
             review=review,
-            key="performers",
+            watchlist_entities=title.watchlist_people(
+                "performers", repository_data.watchlist_people["performers"]
+            ),
             repository_data=repository_data,
         ),
-        writtenBy=build_json_more_entities(
-            title=title,
+        writtenBy=build_json_more_for_watchlist_entities(
             review=review,
-            key="writers",
+            watchlist_entities=title.watchlist_people(
+                "writers", repository_data.watchlist_people["writers"]
+            ),
             repository_data=repository_data,
         ),
-        inCollection=build_json_more_entities(
-            title=title,
+        inCollection=build_json_more_for_watchlist_entities(
             review=review,
-            key="collections",
+            watchlist_entities=title.watchlist_collections(
+                repository_data.watchlist_collections
+            ),
             repository_data=repository_data,
         ),
         reviews=build_json_more_reviews(review=review, repository_data=repository_data),
@@ -222,7 +221,7 @@ def build_json_reviewed_title(
     review: repository_api.Review,
     repository_data: RepositoryData,
 ) -> JsonReviewedTitle:
-    title = review.title(repository_data.titles)
+    title = repository_data.titles[review.imdb_id]
 
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
@@ -266,7 +265,7 @@ def export(repository_data: RepositoryData) -> None:
 
     json_reviewed_titles = [
         build_json_reviewed_title(review=review, repository_data=repository_data)
-        for review in repository_data.reviews
+        for review in repository_data.reviews.values()
     ]
 
     exporter.serialize_dicts_to_folder(

@@ -1,0 +1,1214 @@
+{
+  "year": "2018",
+  "newTitleCount": 71,
+  "viewingCount": 95,
+  "titleCount": 91,
+  "mediaDistribution": [
+    {
+      "name": "TCM",
+      "count": 13
+    },
+    {
+      "name": "Amazon",
+      "count": 8
+    },
+    {
+      "name": "TCM HD",
+      "count": 6
+    },
+    {
+      "name": "Netflix",
+      "count": 5
+    },
+    {
+      "name": "Blu-ray",
+      "count": 5
+    },
+    {
+      "name": "Shudder",
+      "count": 4
+    },
+    {
+      "name": "DVD",
+      "count": 3
+    },
+    {
+      "name": "HDNet",
+      "count": 1
+    },
+    {
+      "name": "Hulu",
+      "count": 1
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "1960s",
+      "count": 3
+    },
+    {
+      "name": "1970s",
+      "count": 9
+    },
+    {
+      "name": "1980s",
+      "count": 20
+    },
+    {
+      "name": "2010s",
+      "count": 26
+    },
+    {
+      "name": "2000s",
+      "count": 6
+    },
+    {
+      "name": "1990s",
+      "count": 8
+    },
+    {
+      "name": "1940s",
+      "count": 8
+    },
+    {
+      "name": "1930s",
+      "count": 9
+    },
+    {
+      "name": "1950s",
+      "count": 6
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "Avengers: Infinity War",
+      "imdbId": "tt4154756",
+      "year": "2018",
+      "count": 4,
+      "slug": "avengers-infinity-war-2018"
+    },
+    {
+      "title": "Mandy",
+      "imdbId": "tt6998518",
+      "year": "2018",
+      "count": 2,
+      "slug": "mandy-2018"
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "The Russo Brothers",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Dario Argento",
+      "count": 3,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 644,
+          "date": "2018-03-10",
+          "slug": null,
+          "title": "Tenebrae",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1982"
+        },
+        {
+          "sequence": 649,
+          "date": "2018-03-23",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": null,
+          "venue": null,
+          "year": "1970"
+        },
+        {
+          "sequence": 715,
+          "date": "2018-10-27",
+          "slug": null,
+          "title": "Deep Red",
+          "medium": null,
+          "venue": null,
+          "year": "1975"
+        }
+      ]
+    },
+    {
+      "name": "Howard Hawks",
+      "count": 3,
+      "slug": "howard-hawks",
+      "viewings": [
+        {
+          "sequence": 657,
+          "date": "2018-03-28",
+          "slug": "the-crowd-roars-1932",
+          "title": "The Crowd Roars",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 671,
+          "date": "2018-05-01",
+          "slug": null,
+          "title": "Land of the Pharaohs",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1955"
+        },
+        {
+          "sequence": 686,
+          "date": "2018-06-17",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    },
+    {
+      "name": "Lucio Fulci",
+      "count": 2,
+      "slug": "lucio-fulci",
+      "viewings": [
+        {
+          "sequence": 633,
+          "date": "2018-01-20",
+          "slug": null,
+          "title": "Zombie 3",
+          "medium": null,
+          "venue": null,
+          "year": "1988"
+        },
+        {
+          "sequence": 710,
+          "date": "2018-10-13",
+          "slug": null,
+          "title": "Zombie",
+          "medium": null,
+          "venue": null,
+          "year": "1979"
+        }
+      ]
+    },
+    {
+      "name": "Lowell Dean",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 635,
+          "date": "2018-01-31",
+          "slug": "wolfcop-2014",
+          "title": "Wolfcop",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 636,
+          "date": "2018-01-31",
+          "slug": "another-wolfcop-2017",
+          "title": "Another WolfCop",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Michael Curtiz",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 654,
+          "date": "2018-03-25",
+          "slug": null,
+          "title": "Kid Galahad",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1937"
+        },
+        {
+          "sequence": 695,
+          "date": "2018-08-05",
+          "slug": "private-detective-62-1933",
+          "title": "Private Detective 62",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Joseph Zito",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 662,
+          "date": "2018-04-13",
+          "slug": "friday-the-13th-the-final-chapter-1984",
+          "title": "Friday the 13th: The Final Chapter",
+          "medium": null,
+          "venue": null,
+          "year": "1984"
+        },
+        {
+          "sequence": 701,
+          "date": "2018-09-15",
+          "slug": null,
+          "title": "The Prowler",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "Ray Enright",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 663,
+          "date": "2018-04-14",
+          "slug": null,
+          "title": "The Wagons Roll at Night",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1941"
+        },
+        {
+          "sequence": 673,
+          "date": "2018-05-02",
+          "slug": "china-clipper-1936",
+          "title": "China Clipper",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1936"
+        }
+      ]
+    },
+    {
+      "name": "Justin Benson",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 675,
+          "date": "2018-05-09",
+          "slug": "the-endless-2017",
+          "title": "The Endless",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        },
+        {
+          "sequence": 678,
+          "date": "2018-05-19",
+          "slug": "resolution-2012",
+          "title": "Resolution",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "2012"
+        }
+      ]
+    },
+    {
+      "name": "Aaron Moorhead",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 675,
+          "date": "2018-05-09",
+          "slug": "the-endless-2017",
+          "title": "The Endless",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        },
+        {
+          "sequence": 678,
+          "date": "2018-05-19",
+          "slug": "resolution-2012",
+          "title": "Resolution",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "2012"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "Florence Kasumba",
+      "count": 6,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 700,
+          "date": "2018-09-08",
+          "slug": null,
+          "title": "Wonder Woman",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Benedict Wong",
+      "count": 6,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 643,
+          "date": "2018-03-10",
+          "slug": null,
+          "title": "Moon",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2009"
+        },
+        {
+          "sequence": 647,
+          "date": "2018-03-19",
+          "slug": null,
+          "title": "Annihilation",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Chadwick Boseman",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Danai Gurira",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Letitia Wright",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Winston Duke",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Stan Lee",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 641,
+          "date": "2018-02-22",
+          "slug": "black-panther-2018",
+          "title": "Black Panther",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Humphrey Bogart",
+      "count": 5,
+      "slug": "humphrey-bogart",
+      "viewings": [
+        {
+          "sequence": 654,
+          "date": "2018-03-25",
+          "slug": null,
+          "title": "Kid Galahad",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1937"
+        },
+        {
+          "sequence": 663,
+          "date": "2018-04-14",
+          "slug": null,
+          "title": "The Wagons Roll at Night",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1941"
+        },
+        {
+          "sequence": 666,
+          "date": "2018-04-19",
+          "slug": null,
+          "title": "Beat the Devil",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1953"
+        },
+        {
+          "sequence": 673,
+          "date": "2018-05-02",
+          "slug": "china-clipper-1936",
+          "title": "China Clipper",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1936"
+        },
+        {
+          "sequence": 692,
+          "date": "2018-08-04",
+          "slug": "dead-reckoning-1947",
+          "title": "Dead Reckoning",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1946"
+        }
+      ]
+    },
+    {
+      "name": "Chris Hemsworth",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 711,
+          "date": "2018-10-21",
+          "slug": null,
+          "title": "Bad Times at the El Royale",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Josh Brolin",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 684,
+          "date": "2018-06-14",
+          "slug": "deadpool-2-2018",
+          "title": "Deadpool 2",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "The Russo Brothers",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 677,
+          "date": "2018-05-18",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 679,
+          "date": "2018-05-22",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 681,
+          "date": "2018-05-27",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        },
+        {
+          "sequence": 683,
+          "date": "2018-06-13",
+          "slug": "avengers-infinity-war-2018",
+          "title": "Avengers: Infinity War",
+          "medium": null,
+          "venue": null,
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Dario Argento",
+      "count": 3,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 644,
+          "date": "2018-03-10",
+          "slug": null,
+          "title": "Tenebrae",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1982"
+        },
+        {
+          "sequence": 649,
+          "date": "2018-03-23",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": null,
+          "venue": null,
+          "year": "1970"
+        },
+        {
+          "sequence": 715,
+          "date": "2018-10-27",
+          "slug": null,
+          "title": "Deep Red",
+          "medium": null,
+          "venue": null,
+          "year": "1975"
+        }
+      ]
+    },
+    {
+      "name": "Howard Hawks",
+      "count": 3,
+      "slug": "howard-hawks",
+      "viewings": [
+        {
+          "sequence": 657,
+          "date": "2018-03-28",
+          "slug": "the-crowd-roars-1932",
+          "title": "The Crowd Roars",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 671,
+          "date": "2018-05-01",
+          "slug": null,
+          "title": "Land of the Pharaohs",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1955"
+        },
+        {
+          "sequence": 686,
+          "date": "2018-06-17",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    },
+    {
+      "name": "Lucio Fulci",
+      "count": 2,
+      "slug": "lucio-fulci",
+      "viewings": [
+        {
+          "sequence": 633,
+          "date": "2018-01-20",
+          "slug": null,
+          "title": "Zombie 3",
+          "medium": null,
+          "venue": null,
+          "year": "1988"
+        },
+        {
+          "sequence": 710,
+          "date": "2018-10-13",
+          "slug": null,
+          "title": "Zombie",
+          "medium": null,
+          "venue": null,
+          "year": "1979"
+        }
+      ]
+    },
+    {
+      "name": "Lowell Dean",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 635,
+          "date": "2018-01-31",
+          "slug": "wolfcop-2014",
+          "title": "Wolfcop",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 636,
+          "date": "2018-01-31",
+          "slug": "another-wolfcop-2017",
+          "title": "Another WolfCop",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Michael Curtiz",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 654,
+          "date": "2018-03-25",
+          "slug": null,
+          "title": "Kid Galahad",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1937"
+        },
+        {
+          "sequence": 695,
+          "date": "2018-08-05",
+          "slug": "private-detective-62-1933",
+          "title": "Private Detective 62",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Joseph Zito",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 662,
+          "date": "2018-04-13",
+          "slug": "friday-the-13th-the-final-chapter-1984",
+          "title": "Friday the 13th: The Final Chapter",
+          "medium": null,
+          "venue": null,
+          "year": "1984"
+        },
+        {
+          "sequence": 701,
+          "date": "2018-09-15",
+          "slug": null,
+          "title": "The Prowler",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "Ray Enright",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 663,
+          "date": "2018-04-14",
+          "slug": null,
+          "title": "The Wagons Roll at Night",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1941"
+        },
+        {
+          "sequence": 673,
+          "date": "2018-05-02",
+          "slug": "china-clipper-1936",
+          "title": "China Clipper",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1936"
+        }
+      ]
+    },
+    {
+      "name": "Justin Benson",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 675,
+          "date": "2018-05-09",
+          "slug": "the-endless-2017",
+          "title": "The Endless",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        },
+        {
+          "sequence": 678,
+          "date": "2018-05-19",
+          "slug": "resolution-2012",
+          "title": "Resolution",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "2012"
+        }
+      ]
+    },
+    {
+      "name": "Aaron Moorhead",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 675,
+          "date": "2018-05-09",
+          "slug": "the-endless-2017",
+          "title": "The Endless",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        },
+        {
+          "sequence": 678,
+          "date": "2018-05-19",
+          "slug": "resolution-2012",
+          "title": "Resolution",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "2012"
+        }
+      ]
+    }
+  ]
+}

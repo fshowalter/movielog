@@ -1,0 +1,543 @@
+{
+  "year": "2016",
+  "newTitleCount": 31,
+  "viewingCount": 40,
+  "titleCount": 38,
+  "mediaDistribution": [
+    {
+      "name": "Blu-ray",
+      "count": 7
+    },
+    {
+      "name": "Amazon",
+      "count": 6
+    },
+    {
+      "name": "TCM",
+      "count": 3
+    },
+    {
+      "name": "Shudder",
+      "count": 1
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "2010s",
+      "count": 16
+    },
+    {
+      "name": "1950s",
+      "count": 3
+    },
+    {
+      "name": "1940s",
+      "count": 1
+    },
+    {
+      "name": "1970s",
+      "count": 8
+    },
+    {
+      "name": "1990s",
+      "count": 3
+    },
+    {
+      "name": "1930s",
+      "count": 4
+    },
+    {
+      "name": "1980s",
+      "count": 4
+    },
+    {
+      "name": "2000s",
+      "count": 1
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "The Witch",
+      "imdbId": "tt4263482",
+      "year": "2015",
+      "count": 2,
+      "slug": "the-witch-2015"
+    },
+    {
+      "title": "Captain America: Civil War",
+      "imdbId": "tt3498820",
+      "year": "2016",
+      "count": 2,
+      "slug": "captain-america-civil-war-2016"
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "Robert Eggers",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 542,
+          "date": "2016-03-10",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 559,
+          "date": "2016-09-17",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Sam Peckinpah",
+      "count": 2,
+      "slug": "sam-peckinpah",
+      "viewings": [
+        {
+          "sequence": 571,
+          "date": "2016-11-27",
+          "slug": null,
+          "title": "The Getaway",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1972"
+        },
+        {
+          "sequence": 573,
+          "date": "2016-12-02",
+          "slug": null,
+          "title": "Straw Dogs",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1971"
+        }
+      ]
+    },
+    {
+      "name": "The Russo Brothers",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "Stan Lee",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 541,
+          "date": "2016-03-10",
+          "slug": "deadpool-2016",
+          "title": "Deadpool",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        },
+        {
+          "sequence": 570,
+          "date": "2016-11-16",
+          "slug": "doctor-strange-2016",
+          "title": "Doctor Strange",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "name": "John Wayne",
+      "count": 4,
+      "slug": "john-wayne",
+      "viewings": [
+        {
+          "sequence": 555,
+          "date": "2016-08-22",
+          "slug": "haunted-gold-1932",
+          "title": "Haunted Gold",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 558,
+          "date": "2016-09-04",
+          "slug": "ride-him-cowboy-1932",
+          "title": "Ride Him, Cowboy",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 560,
+          "date": "2016-09-17",
+          "slug": null,
+          "title": "Riders of Destiny",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1933"
+        },
+        {
+          "sequence": 568,
+          "date": "2016-11-09",
+          "slug": null,
+          "title": "Sagebrush Trail",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Alfre Woodard",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 538,
+          "date": "2016-01-02",
+          "slug": null,
+          "title": "Mississippi Grind",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        },
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "name": "Inder Kumar",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 545,
+          "date": "2016-04-21",
+          "slug": null,
+          "title": "Barbershop: The Next Cut",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "name": "Don Cheadle",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        },
+        {
+          "sequence": 572,
+          "date": "2016-11-27",
+          "slug": null,
+          "title": "Ocean's Thirteen",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2007"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Reynolds",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 538,
+          "date": "2016-01-02",
+          "slug": null,
+          "title": "Mississippi Grind",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        },
+        {
+          "sequence": 541,
+          "date": "2016-03-10",
+          "slug": "deadpool-2016",
+          "title": "Deadpool",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "name": "Humphrey Bogart",
+      "count": 2,
+      "slug": "humphrey-bogart",
+      "viewings": [
+        {
+          "sequence": 539,
+          "date": "2016-01-21",
+          "slug": "chain-lightning-1950",
+          "title": "Chain Lightning",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1950"
+        },
+        {
+          "sequence": 540,
+          "date": "2016-02-28",
+          "slug": null,
+          "title": "Casablanca",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1942"
+        }
+      ]
+    },
+    {
+      "name": "Anya Taylor-Joy",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 542,
+          "date": "2016-03-10",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 559,
+          "date": "2016-09-17",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Ralph Ineson",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 542,
+          "date": "2016-03-10",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 559,
+          "date": "2016-09-17",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Kate Dickie",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 542,
+          "date": "2016-03-10",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 559,
+          "date": "2016-09-17",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "Robert Eggers",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 542,
+          "date": "2016-03-10",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 559,
+          "date": "2016-09-17",
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Sam Peckinpah",
+      "count": 2,
+      "slug": "sam-peckinpah",
+      "viewings": [
+        {
+          "sequence": 571,
+          "date": "2016-11-27",
+          "slug": null,
+          "title": "The Getaway",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1972"
+        },
+        {
+          "sequence": 573,
+          "date": "2016-12-02",
+          "slug": null,
+          "title": "Straw Dogs",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1971"
+        }
+      ]
+    },
+    {
+      "name": "The Russo Brothers",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 547,
+          "date": "2016-05-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": null,
+          "venue": null,
+          "year": "2016"
+        },
+        {
+          "sequence": 569,
+          "date": "2016-11-12",
+          "slug": "captain-america-civil-war-2016",
+          "title": "Captain America: Civil War",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2016"
+        }
+      ]
+    }
+  ]
+}

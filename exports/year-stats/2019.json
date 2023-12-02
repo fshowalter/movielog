@@ -1,0 +1,1053 @@
+{
+  "year": "2019",
+  "newTitleCount": 58,
+  "viewingCount": 85,
+  "titleCount": 80,
+  "mediaDistribution": [
+    {
+      "name": "iTunes",
+      "count": 7
+    },
+    {
+      "name": "Netflix",
+      "count": 6
+    },
+    {
+      "name": "Shudder",
+      "count": 4
+    },
+    {
+      "name": "Amazon",
+      "count": 4
+    },
+    {
+      "name": "Vudu",
+      "count": 3
+    },
+    {
+      "name": "Blu-ray",
+      "count": 3
+    },
+    {
+      "name": "Hulu",
+      "count": 2
+    },
+    {
+      "name": "DVD",
+      "count": 2
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "2000s",
+      "count": 12
+    },
+    {
+      "name": "1970s",
+      "count": 6
+    },
+    {
+      "name": "2010s",
+      "count": 29
+    },
+    {
+      "name": "1980s",
+      "count": 23
+    },
+    {
+      "name": "1990s",
+      "count": 9
+    },
+    {
+      "name": "1950s",
+      "count": 1
+    },
+    {
+      "name": "1960s",
+      "count": 4
+    },
+    {
+      "name": "1930s",
+      "count": 1
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "Avengers: Endgame",
+      "imdbId": "tt4154796",
+      "year": "2019",
+      "count": 3,
+      "slug": "avengers-endgame-2019"
+    },
+    {
+      "title": "Halloween III: Season of the Witch",
+      "imdbId": "tt0085636",
+      "year": "1982",
+      "count": 2,
+      "slug": null
+    },
+    {
+      "title": "Jason X",
+      "imdbId": "tt0211443",
+      "year": "2001",
+      "count": 2,
+      "slug": null
+    },
+    {
+      "title": "Once Upon a Time in Hollywood",
+      "imdbId": "tt7131622",
+      "year": "2019",
+      "count": 2,
+      "slug": null
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "The Russo Brothers",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Rick Rosenthal",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 729,
+          "date": "2019-01-31",
+          "slug": null,
+          "title": "Halloween II",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        },
+        {
+          "sequence": 737,
+          "date": "2019-02-15",
+          "slug": null,
+          "title": "Halloween: Resurrection",
+          "medium": "Hulu",
+          "venue": "Hulu",
+          "year": "2002"
+        }
+      ]
+    },
+    {
+      "name": "Tommy Lee Wallace",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 730,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1982"
+        },
+        {
+          "sequence": 790,
+          "date": "2019-10-22",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": null,
+          "venue": null,
+          "year": "1982"
+        }
+      ]
+    },
+    {
+      "name": "Steve Miner",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 735,
+          "date": "2019-02-09",
+          "slug": null,
+          "title": "Halloween H20: 20 Years Later",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1998"
+        },
+        {
+          "sequence": 782,
+          "date": "2019-09-13",
+          "slug": "friday-the-13th-part-2-1981",
+          "title": "Friday the 13th Part 2",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "James Isaac",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 739,
+          "date": "2019-02-16",
+          "slug": null,
+          "title": "Jason X",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2001"
+        },
+        {
+          "sequence": 801,
+          "date": "2019-12-13",
+          "slug": null,
+          "title": "Jason X",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "2001"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Winding Refn",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 755,
+          "date": "2019-05-25",
+          "slug": null,
+          "title": "Pusher",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1996"
+        },
+        {
+          "sequence": 767,
+          "date": "2019-08-05",
+          "slug": null,
+          "title": "Drive",
+          "medium": null,
+          "venue": null,
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "name": "Dan O'Bannon",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 763,
+          "date": "2019-07-20",
+          "slug": null,
+          "title": "The Resurrected",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1991"
+        },
+        {
+          "sequence": 764,
+          "date": "2019-07-23",
+          "slug": null,
+          "title": "The Return of the Living Dead",
+          "medium": null,
+          "venue": null,
+          "year": "1985"
+        }
+      ]
+    },
+    {
+      "name": "Quentin Tarantino",
+      "count": 2,
+      "slug": "quentin-tarantino",
+      "viewings": [
+        {
+          "sequence": 773,
+          "date": "2019-08-22",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 780,
+          "date": "2019-09-09",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Tobe Hooper",
+      "count": 2,
+      "slug": "tobe-hooper",
+      "viewings": [
+        {
+          "sequence": 776,
+          "date": "2019-08-27",
+          "slug": null,
+          "title": "The Texas Chain Saw Massacre",
+          "medium": null,
+          "venue": null,
+          "year": "1974"
+        },
+        {
+          "sequence": 777,
+          "date": "2019-08-27",
+          "slug": null,
+          "title": "The Texas Chainsaw Massacre 2",
+          "medium": null,
+          "venue": null,
+          "year": "1986"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "Jamie Lee Curtis",
+      "count": 7,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 728,
+          "date": "2019-01-31",
+          "slug": "halloween-1978",
+          "title": "Halloween",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1978"
+        },
+        {
+          "sequence": 729,
+          "date": "2019-01-31",
+          "slug": null,
+          "title": "Halloween II",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        },
+        {
+          "sequence": 730,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1982"
+        },
+        {
+          "sequence": 735,
+          "date": "2019-02-09",
+          "slug": null,
+          "title": "Halloween H20: 20 Years Later",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1998"
+        },
+        {
+          "sequence": 737,
+          "date": "2019-02-15",
+          "slug": null,
+          "title": "Halloween: Resurrection",
+          "medium": "Hulu",
+          "venue": "Hulu",
+          "year": "2002"
+        },
+        {
+          "sequence": 790,
+          "date": "2019-10-22",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": null,
+          "venue": null,
+          "year": "1982"
+        },
+        {
+          "sequence": 803,
+          "date": "2019-12-18",
+          "slug": null,
+          "title": "Knives Out",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Donald Pleasence",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 728,
+          "date": "2019-01-31",
+          "slug": "halloween-1978",
+          "title": "Halloween",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1978"
+        },
+        {
+          "sequence": 729,
+          "date": "2019-01-31",
+          "slug": null,
+          "title": "Halloween II",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        },
+        {
+          "sequence": 731,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween 4: The Return of Michael Myers",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1988"
+        },
+        {
+          "sequence": 732,
+          "date": "2019-02-02",
+          "slug": null,
+          "title": "Halloween 5: The Revenge of Michael Myers",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1989"
+        },
+        {
+          "sequence": 733,
+          "date": "2019-02-02",
+          "slug": null,
+          "title": "Halloween: The Curse of Michael Myers",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1995"
+        }
+      ]
+    },
+    {
+      "name": "Samuel L. Jackson",
+      "count": 5,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 741,
+          "date": "2019-03-16",
+          "slug": "captain-marvel-2019",
+          "title": "Captain Marvel",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 760,
+          "date": "2019-06-23",
+          "slug": null,
+          "title": "The Hitman's Bodyguard",
+          "medium": "iTunes",
+          "venue": "iTunes",
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Nancy Kyes",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 728,
+          "date": "2019-01-31",
+          "slug": "halloween-1978",
+          "title": "Halloween",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1978"
+        },
+        {
+          "sequence": 729,
+          "date": "2019-01-31",
+          "slug": null,
+          "title": "Halloween II",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        },
+        {
+          "sequence": 730,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1982"
+        },
+        {
+          "sequence": 790,
+          "date": "2019-10-22",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": null,
+          "venue": null,
+          "year": "1982"
+        }
+      ]
+    },
+    {
+      "name": "Danielle Harris",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 731,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween 4: The Return of Michael Myers",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1988"
+        },
+        {
+          "sequence": 732,
+          "date": "2019-02-02",
+          "slug": null,
+          "title": "Halloween 5: The Revenge of Michael Myers",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1989"
+        },
+        {
+          "sequence": 773,
+          "date": "2019-08-22",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 780,
+          "date": "2019-09-09",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Paul Rudd",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 733,
+          "date": "2019-02-02",
+          "slug": null,
+          "title": "Halloween: The Curse of Michael Myers",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1995"
+        },
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Brie Larson",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 741,
+          "date": "2019-03-16",
+          "slug": "captain-marvel-2019",
+          "title": "Captain Marvel",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Stan Lee",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 741,
+          "date": "2019-03-16",
+          "slug": "captain-marvel-2019",
+          "title": "Captain Marvel",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Winston Duke",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 743,
+          "date": "2019-04-01",
+          "slug": null,
+          "title": "Us",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Chris Evans",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 803,
+          "date": "2019-12-18",
+          "slug": null,
+          "title": "Knives Out",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "The Russo Brothers",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 750,
+          "date": "2019-05-13",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 751,
+          "date": "2019-05-16",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 756,
+          "date": "2019-06-03",
+          "slug": "avengers-endgame-2019",
+          "title": "Avengers: Endgame",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Rick Rosenthal",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 729,
+          "date": "2019-01-31",
+          "slug": null,
+          "title": "Halloween II",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1981"
+        },
+        {
+          "sequence": 737,
+          "date": "2019-02-15",
+          "slug": null,
+          "title": "Halloween: Resurrection",
+          "medium": "Hulu",
+          "venue": "Hulu",
+          "year": "2002"
+        }
+      ]
+    },
+    {
+      "name": "Tommy Lee Wallace",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 730,
+          "date": "2019-02-01",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1982"
+        },
+        {
+          "sequence": 790,
+          "date": "2019-10-22",
+          "slug": null,
+          "title": "Halloween III: Season of the Witch",
+          "medium": null,
+          "venue": null,
+          "year": "1982"
+        }
+      ]
+    },
+    {
+      "name": "Steve Miner",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 735,
+          "date": "2019-02-09",
+          "slug": null,
+          "title": "Halloween H20: 20 Years Later",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "1998"
+        },
+        {
+          "sequence": 782,
+          "date": "2019-09-13",
+          "slug": "friday-the-13th-part-2-1981",
+          "title": "Friday the 13th Part 2",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "James Isaac",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 739,
+          "date": "2019-02-16",
+          "slug": null,
+          "title": "Jason X",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2001"
+        },
+        {
+          "sequence": 801,
+          "date": "2019-12-13",
+          "slug": null,
+          "title": "Jason X",
+          "medium": "Vudu",
+          "venue": "Vudu",
+          "year": "2001"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Winding Refn",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 755,
+          "date": "2019-05-25",
+          "slug": null,
+          "title": "Pusher",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1996"
+        },
+        {
+          "sequence": 767,
+          "date": "2019-08-05",
+          "slug": null,
+          "title": "Drive",
+          "medium": null,
+          "venue": null,
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "name": "Dan O'Bannon",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 763,
+          "date": "2019-07-20",
+          "slug": null,
+          "title": "The Resurrected",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1991"
+        },
+        {
+          "sequence": 764,
+          "date": "2019-07-23",
+          "slug": null,
+          "title": "The Return of the Living Dead",
+          "medium": null,
+          "venue": null,
+          "year": "1985"
+        }
+      ]
+    },
+    {
+      "name": "Quentin Tarantino",
+      "count": 2,
+      "slug": "quentin-tarantino",
+      "viewings": [
+        {
+          "sequence": 773,
+          "date": "2019-08-22",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        },
+        {
+          "sequence": 780,
+          "date": "2019-09-09",
+          "slug": null,
+          "title": "Once Upon a Time in Hollywood",
+          "medium": null,
+          "venue": null,
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "name": "Tobe Hooper",
+      "count": 2,
+      "slug": "tobe-hooper",
+      "viewings": [
+        {
+          "sequence": 776,
+          "date": "2019-08-27",
+          "slug": null,
+          "title": "The Texas Chain Saw Massacre",
+          "medium": null,
+          "venue": null,
+          "year": "1974"
+        },
+        {
+          "sequence": 777,
+          "date": "2019-08-27",
+          "slug": null,
+          "title": "The Texas Chainsaw Massacre 2",
+          "medium": null,
+          "venue": null,
+          "year": "1986"
+        }
+      ]
+    }
+  ]
+}

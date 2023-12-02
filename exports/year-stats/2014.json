@@ -1,0 +1,834 @@
+{
+  "year": "2014",
+  "newTitleCount": 95,
+  "viewingCount": 106,
+  "titleCount": 105,
+  "mediaDistribution": [
+    {
+      "name": "Netflix",
+      "count": 46
+    },
+    {
+      "name": "Blu-ray",
+      "count": 19
+    },
+    {
+      "name": "TCM",
+      "count": 5
+    },
+    {
+      "name": "DVD",
+      "count": 5
+    },
+    {
+      "name": "Amazon",
+      "count": 4
+    },
+    {
+      "name": "TCM HD",
+      "count": 2
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "2010s",
+      "count": 53
+    },
+    {
+      "name": "2000s",
+      "count": 9
+    },
+    {
+      "name": "1990s",
+      "count": 7
+    },
+    {
+      "name": "1970s",
+      "count": 7
+    },
+    {
+      "name": "1980s",
+      "count": 17
+    },
+    {
+      "name": "1960s",
+      "count": 6
+    },
+    {
+      "name": "1930s",
+      "count": 4
+    },
+    {
+      "name": "1950s",
+      "count": 3
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "Horror of Dracula",
+      "imdbId": "tt0051554",
+      "year": "1958",
+      "count": 2,
+      "slug": "horror-of-dracula-1958"
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "Dario Argento",
+      "count": 3,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 368,
+          "date": "2014-02-01",
+          "slug": null,
+          "title": "Dracula 3D",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2012"
+        },
+        {
+          "sequence": 388,
+          "date": "2014-05-17",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1970"
+        },
+        {
+          "sequence": 393,
+          "date": "2014-05-31",
+          "slug": null,
+          "title": "Inferno",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1980"
+        }
+      ]
+    },
+    {
+      "name": "Isaac Florentine",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 360,
+          "date": "2014-01-11",
+          "slug": null,
+          "title": "Ninja: Shadow of a Tear",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 367,
+          "date": "2014-01-27",
+          "slug": null,
+          "title": "Ninja",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2009"
+        }
+      ]
+    },
+    {
+      "name": "Quentin Tarantino",
+      "count": 2,
+      "slug": "quentin-tarantino",
+      "viewings": [
+        {
+          "sequence": 372,
+          "date": "2014-02-16",
+          "slug": null,
+          "title": "Kill Bill: Vol. 1",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2003"
+        },
+        {
+          "sequence": 378,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Kill Bill: Vol. 2",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2004"
+        }
+      ]
+    },
+    {
+      "name": "Terence Fisher",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 418,
+          "date": "2014-08-16",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1958"
+        },
+        {
+          "sequence": 456,
+          "date": "2014-12-20",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1958"
+        }
+      ]
+    },
+    {
+      "name": "Adam Wingard",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 420,
+          "date": "2014-08-22",
+          "slug": null,
+          "title": "You're Next",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2011"
+        },
+        {
+          "sequence": 440,
+          "date": "2014-10-25",
+          "slug": null,
+          "title": "V/H/S/2",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        }
+      ]
+    },
+    {
+      "name": "Don Sharp",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 436,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Face of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1965"
+        },
+        {
+          "sequence": 437,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Brides of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1966"
+        }
+      ]
+    },
+    {
+      "name": "Eduardo S\u00e1nchez",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 440,
+          "date": "2014-10-25",
+          "slug": null,
+          "title": "V/H/S/2",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        },
+        {
+          "sequence": 441,
+          "date": "2014-10-26",
+          "slug": null,
+          "title": "Exists",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "Christopher Lee",
+      "count": 7,
+      "slug": "christopher-lee",
+      "viewings": [
+        {
+          "sequence": 406,
+          "date": "2014-07-03",
+          "slug": null,
+          "title": "Horror Castle",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1963"
+        },
+        {
+          "sequence": 414,
+          "date": "2014-08-02",
+          "slug": null,
+          "title": "The Bloody Judge",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1970"
+        },
+        {
+          "sequence": 416,
+          "date": "2014-08-09",
+          "slug": null,
+          "title": "Psycho-Circus",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1966"
+        },
+        {
+          "sequence": 418,
+          "date": "2014-08-16",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1958"
+        },
+        {
+          "sequence": 436,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Face of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1965"
+        },
+        {
+          "sequence": 437,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Brides of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1966"
+        },
+        {
+          "sequence": 456,
+          "date": "2014-12-20",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1958"
+        }
+      ]
+    },
+    {
+      "name": "Stan Lee",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 379,
+          "date": "2014-04-10",
+          "slug": null,
+          "title": "Captain America: The Winter Soldier",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 415,
+          "date": "2014-08-07",
+          "slug": null,
+          "title": "Guardians of the Galaxy",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 459,
+          "date": "2014-12-24",
+          "slug": null,
+          "title": "Iron Man 3",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2013"
+        },
+        {
+          "sequence": 462,
+          "date": "2014-12-31",
+          "slug": null,
+          "title": "Thor: The Dark World",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2013"
+        }
+      ]
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 357,
+          "date": "2014-01-02",
+          "slug": null,
+          "title": "American Hustle",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        },
+        {
+          "sequence": 390,
+          "date": "2014-05-22",
+          "slug": "x-men-days-of-future-past-2014",
+          "title": "X-Men: Days of Future Past",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 448,
+          "date": "2014-12-03",
+          "slug": null,
+          "title": "The Hunger Games: Mockingjay - Part 1",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "name": "Peter Stormare",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 359,
+          "date": "2014-01-11",
+          "slug": null,
+          "title": "The Last Stand",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 387,
+          "date": "2014-05-11",
+          "slug": null,
+          "title": "Pain & Gain",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 398,
+          "date": "2014-06-19",
+          "slug": null,
+          "title": "22 Jump Street",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "name": "Shun Sugata",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 360,
+          "date": "2014-01-11",
+          "slug": null,
+          "title": "Ninja: Shadow of a Tear",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 372,
+          "date": "2014-02-16",
+          "slug": null,
+          "title": "Kill Bill: Vol. 1",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2003"
+        },
+        {
+          "sequence": 378,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Kill Bill: Vol. 2",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2004"
+        }
+      ]
+    },
+    {
+      "name": "Price Carson",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 363,
+          "date": "2014-01-18",
+          "slug": null,
+          "title": "Wrong",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2012"
+        },
+        {
+          "sequence": 417,
+          "date": "2014-08-16",
+          "slug": null,
+          "title": "The Master",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2012"
+        },
+        {
+          "sequence": 444,
+          "date": "2014-11-06",
+          "slug": "nightcrawler-2014",
+          "title": "Nightcrawler",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "name": "Julianne Moore",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 371,
+          "date": "2014-02-15",
+          "slug": null,
+          "title": "Tales from the Darkside: The Movie",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "1990"
+        },
+        {
+          "sequence": 383,
+          "date": "2014-04-26",
+          "slug": null,
+          "title": "Don Jon",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 448,
+          "date": "2014-12-03",
+          "slug": null,
+          "title": "The Hunger Games: Mockingjay - Part 1",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "name": "David Carradine",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 372,
+          "date": "2014-02-16",
+          "slug": null,
+          "title": "Kill Bill: Vol. 1",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2003"
+        },
+        {
+          "sequence": 377,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Death Race 2000",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "1975"
+        },
+        {
+          "sequence": 378,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Kill Bill: Vol. 2",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2004"
+        }
+      ]
+    },
+    {
+      "name": "Keanu Reeves",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 375,
+          "date": "2014-03-22",
+          "slug": null,
+          "title": "Man of Tai Chi",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 395,
+          "date": "2014-06-14",
+          "slug": null,
+          "title": "The Matrix",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1999"
+        },
+        {
+          "sequence": 445,
+          "date": "2014-11-06",
+          "slug": null,
+          "title": "John Wick",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "name": "Clark Middleton",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 378,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Kill Bill: Vol. 2",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2004"
+        },
+        {
+          "sequence": 412,
+          "date": "2014-07-17",
+          "slug": null,
+          "title": "Snowpiercer",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        },
+        {
+          "sequence": 447,
+          "date": "2014-11-20",
+          "slug": null,
+          "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "Dario Argento",
+      "count": 3,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 368,
+          "date": "2014-02-01",
+          "slug": null,
+          "title": "Dracula 3D",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2012"
+        },
+        {
+          "sequence": 388,
+          "date": "2014-05-17",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1970"
+        },
+        {
+          "sequence": 393,
+          "date": "2014-05-31",
+          "slug": null,
+          "title": "Inferno",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1980"
+        }
+      ]
+    },
+    {
+      "name": "Isaac Florentine",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 360,
+          "date": "2014-01-11",
+          "slug": null,
+          "title": "Ninja: Shadow of a Tear",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2013"
+        },
+        {
+          "sequence": 367,
+          "date": "2014-01-27",
+          "slug": null,
+          "title": "Ninja",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2009"
+        }
+      ]
+    },
+    {
+      "name": "Quentin Tarantino",
+      "count": 2,
+      "slug": "quentin-tarantino",
+      "viewings": [
+        {
+          "sequence": 372,
+          "date": "2014-02-16",
+          "slug": null,
+          "title": "Kill Bill: Vol. 1",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2003"
+        },
+        {
+          "sequence": 378,
+          "date": "2014-03-29",
+          "slug": null,
+          "title": "Kill Bill: Vol. 2",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2004"
+        }
+      ]
+    },
+    {
+      "name": "Terence Fisher",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 418,
+          "date": "2014-08-16",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1958"
+        },
+        {
+          "sequence": 456,
+          "date": "2014-12-20",
+          "slug": "horror-of-dracula-1958",
+          "title": "Horror of Dracula",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1958"
+        }
+      ]
+    },
+    {
+      "name": "Adam Wingard",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 420,
+          "date": "2014-08-22",
+          "slug": null,
+          "title": "You're Next",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2011"
+        },
+        {
+          "sequence": 440,
+          "date": "2014-10-25",
+          "slug": null,
+          "title": "V/H/S/2",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        }
+      ]
+    },
+    {
+      "name": "Don Sharp",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 436,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Face of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1965"
+        },
+        {
+          "sequence": 437,
+          "date": "2014-10-18",
+          "slug": null,
+          "title": "The Brides of Fu Manchu",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1966"
+        }
+      ]
+    },
+    {
+      "name": "Eduardo S\u00e1nchez",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 440,
+          "date": "2014-10-25",
+          "slug": null,
+          "title": "V/H/S/2",
+          "medium": null,
+          "venue": null,
+          "year": "2013"
+        },
+        {
+          "sequence": 441,
+          "date": "2014-10-26",
+          "slug": null,
+          "title": "Exists",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        }
+      ]
+    }
+  ]
+}

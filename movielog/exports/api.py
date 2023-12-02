@@ -1,16 +1,24 @@
 from __future__ import annotations
 
-from movielog.exports import reviewed_titles, stats, viewings, watchlist_titles
-from movielog.exports.repository_data import RepositoryData, Watchlist
+from movielog.exports import (
+    list_tools,
+    reviewed_titles,
+    stats,
+    viewings,
+    watchlist_titles,
+)
+from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 
 
-def build_watchlist() -> Watchlist:
-    watchlist: Watchlist = {}
+def build_watchlist_people() -> (
+    dict[repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]]
+):
+    watchlist = {}
 
-    for watchlist_key in repository_api.WATCHLIST_ENTITY_KINDS:
+    for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
         watchlist[watchlist_key] = sorted(
-            repository_api.watchlist_entities(kind=watchlist_key),
+            repository_api.watchlist_people(kind=watchlist_key),
             key=lambda entity: entity.slug,
         )
 
@@ -18,12 +26,15 @@ def build_watchlist() -> Watchlist:
 
 
 def export_data() -> None:
-    reviews = list(repository_api.reviews())
+    reviews = list_tools.list_to_dict(
+        repository_api.reviews(), key=lambda review: review.imdb_id
+    )
 
-    review_ids = set([review.imdb_id for review in reviews])
-    titles = list(repository_api.titles())
+    titles = list_tools.list_to_dict(
+        repository_api.titles(), key=lambda title: title.imdb_id
+    )
 
-    titles_with_reviews = [title for title in titles if title.imdb_id in review_ids]
+    titles_with_reviews = [titles[review_id] for review_id in reviews.keys()]
 
     repository_data = RepositoryData(
         viewings=sorted(
@@ -32,8 +43,11 @@ def export_data() -> None:
         titles=titles,
         reviews=reviews,
         reviewed_titles=titles_with_reviews,
-        review_ids=review_ids,
-        watchlist=build_watchlist(),
+        watchlist_people=build_watchlist_people(),
+        watchlist_collections=sorted(
+            repository_api.watchlist_collections(),
+            key=lambda collection: collection.slug,
+        ),
     )
 
     viewings.export(repository_data)

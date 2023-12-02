@@ -1,0 +1,615 @@
+{
+  "year": "2017",
+  "newTitleCount": 41,
+  "viewingCount": 52,
+  "titleCount": 51,
+  "mediaDistribution": [
+    {
+      "name": "Blu-ray",
+      "count": 6
+    },
+    {
+      "name": "Amazon",
+      "count": 5
+    },
+    {
+      "name": "Netflix",
+      "count": 5
+    },
+    {
+      "name": "Shudder",
+      "count": 4
+    },
+    {
+      "name": "TCM",
+      "count": 3
+    },
+    {
+      "name": "DVD",
+      "count": 2
+    },
+    {
+      "name": "FXM",
+      "count": 1
+    },
+    {
+      "name": "HBO GO",
+      "count": 1
+    },
+    {
+      "name": "HDNet",
+      "count": 1
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "1930s",
+      "count": 3
+    },
+    {
+      "name": "2010s",
+      "count": 21
+    },
+    {
+      "name": "1970s",
+      "count": 11
+    },
+    {
+      "name": "2000s",
+      "count": 4
+    },
+    {
+      "name": "1960s",
+      "count": 1
+    },
+    {
+      "name": "1940s",
+      "count": 1
+    },
+    {
+      "name": "1990s",
+      "count": 3
+    },
+    {
+      "name": "1950s",
+      "count": 2
+    },
+    {
+      "name": "1980s",
+      "count": 6
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "Rio Bravo",
+      "imdbId": "tt0053221",
+      "year": "1959",
+      "count": 2,
+      "slug": "rio-bravo-1959"
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "Tenny Wright",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 578,
+          "date": "2017-01-10",
+          "slug": "the-big-stampede-1932",
+          "title": "The Big Stampede",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 580,
+          "date": "2017-01-17",
+          "slug": null,
+          "title": "The Telegraph Trail",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Dario Argento",
+      "count": 2,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 582,
+          "date": "2017-01-31",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1970"
+        },
+        {
+          "sequence": 613,
+          "date": "2017-10-21",
+          "slug": null,
+          "title": "Suspiria",
+          "medium": null,
+          "venue": null,
+          "year": "1977"
+        }
+      ]
+    },
+    {
+      "name": "Taika Waititi",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 588,
+          "date": "2017-03-01",
+          "slug": null,
+          "title": "What We Do in the Shadows",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2014"
+        },
+        {
+          "sequence": 623,
+          "date": "2017-12-13",
+          "slug": "thor-ragnarok-2017",
+          "title": "Thor: Ragnarok",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Howard Hawks",
+      "count": 2,
+      "slug": "howard-hawks",
+      "viewings": [
+        {
+          "sequence": 598,
+          "date": "2017-06-18",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": null,
+          "venue": null,
+          "year": "1959"
+        },
+        {
+          "sequence": 622,
+          "date": "2017-12-09",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    },
+    {
+      "name": "Guillermo del Toro",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 618,
+          "date": "2017-11-13",
+          "slug": null,
+          "title": "Hellboy",
+          "medium": null,
+          "venue": null,
+          "year": "2004"
+        },
+        {
+          "sequence": 619,
+          "date": "2017-11-13",
+          "slug": null,
+          "title": "Hellboy II: The Golden Army",
+          "medium": null,
+          "venue": null,
+          "year": "2008"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "John Wayne",
+      "count": 4,
+      "slug": "john-wayne",
+      "viewings": [
+        {
+          "sequence": 578,
+          "date": "2017-01-10",
+          "slug": "the-big-stampede-1932",
+          "title": "The Big Stampede",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 580,
+          "date": "2017-01-17",
+          "slug": null,
+          "title": "The Telegraph Trail",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        },
+        {
+          "sequence": 598,
+          "date": "2017-06-18",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": null,
+          "venue": null,
+          "year": "1959"
+        },
+        {
+          "sequence": 622,
+          "date": "2017-12-09",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    },
+    {
+      "name": "Lafe McKee",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 578,
+          "date": "2017-01-10",
+          "slug": "the-big-stampede-1932",
+          "title": "The Big Stampede",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 580,
+          "date": "2017-01-17",
+          "slug": null,
+          "title": "The Telegraph Trail",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Duke",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 578,
+          "date": "2017-01-10",
+          "slug": "the-big-stampede-1932",
+          "title": "The Big Stampede",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 580,
+          "date": "2017-01-17",
+          "slug": null,
+          "title": "The Telegraph Trail",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Patrick Stewart",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 579,
+          "date": "2017-01-14",
+          "slug": null,
+          "title": "Green Room",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2015"
+        },
+        {
+          "sequence": 589,
+          "date": "2017-03-09",
+          "slug": "logan-2017",
+          "title": "Logan",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Fulvio Mingozzi",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 582,
+          "date": "2017-01-31",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1970"
+        },
+        {
+          "sequence": 613,
+          "date": "2017-10-21",
+          "slug": null,
+          "title": "Suspiria",
+          "medium": null,
+          "venue": null,
+          "year": "1977"
+        }
+      ]
+    },
+    {
+      "name": "Cohen Holloway",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 588,
+          "date": "2017-03-01",
+          "slug": null,
+          "title": "What We Do in the Shadows",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2014"
+        },
+        {
+          "sequence": 623,
+          "date": "2017-12-13",
+          "slug": "thor-ragnarok-2017",
+          "title": "Thor: Ragnarok",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Stan Lee",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 592,
+          "date": "2017-04-20",
+          "slug": "deadpool-2016",
+          "title": "Deadpool",
+          "medium": "HBO GO",
+          "venue": "HBO GO",
+          "year": "2016"
+        },
+        {
+          "sequence": 621,
+          "date": "2017-12-09",
+          "slug": "guardians-of-the-galaxy-vol-2-2017",
+          "title": "Guardians of the Galaxy Vol. 2",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Robert De Niro",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 595,
+          "date": "2017-05-02",
+          "slug": "heat-1995",
+          "title": "Heat",
+          "medium": null,
+          "venue": null,
+          "year": "1995"
+        },
+        {
+          "sequence": 605,
+          "date": "2017-08-17",
+          "slug": null,
+          "title": "Goodfellas",
+          "medium": null,
+          "venue": null,
+          "year": "1990"
+        }
+      ]
+    },
+    {
+      "name": "Paul Herman",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 595,
+          "date": "2017-05-02",
+          "slug": "heat-1995",
+          "title": "Heat",
+          "medium": null,
+          "venue": null,
+          "year": "1995"
+        },
+        {
+          "sequence": 605,
+          "date": "2017-08-17",
+          "slug": null,
+          "title": "Goodfellas",
+          "medium": null,
+          "venue": null,
+          "year": "1990"
+        }
+      ]
+    },
+    {
+      "name": "Dean Martin",
+      "count": 2,
+      "slug": "dean-martin",
+      "viewings": [
+        {
+          "sequence": 598,
+          "date": "2017-06-18",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": null,
+          "venue": null,
+          "year": "1959"
+        },
+        {
+          "sequence": 622,
+          "date": "2017-12-09",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "Tenny Wright",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 578,
+          "date": "2017-01-10",
+          "slug": "the-big-stampede-1932",
+          "title": "The Big Stampede",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        },
+        {
+          "sequence": 580,
+          "date": "2017-01-17",
+          "slug": null,
+          "title": "The Telegraph Trail",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1933"
+        }
+      ]
+    },
+    {
+      "name": "Dario Argento",
+      "count": 2,
+      "slug": "dario-argento",
+      "viewings": [
+        {
+          "sequence": 582,
+          "date": "2017-01-31",
+          "slug": "the-bird-with-the-crystal-plumage-1970",
+          "title": "The Bird with the Crystal Plumage",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1970"
+        },
+        {
+          "sequence": 613,
+          "date": "2017-10-21",
+          "slug": null,
+          "title": "Suspiria",
+          "medium": null,
+          "venue": null,
+          "year": "1977"
+        }
+      ]
+    },
+    {
+      "name": "Taika Waititi",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 588,
+          "date": "2017-03-01",
+          "slug": null,
+          "title": "What We Do in the Shadows",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "2014"
+        },
+        {
+          "sequence": 623,
+          "date": "2017-12-13",
+          "slug": "thor-ragnarok-2017",
+          "title": "Thor: Ragnarok",
+          "medium": null,
+          "venue": null,
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "name": "Howard Hawks",
+      "count": 2,
+      "slug": "howard-hawks",
+      "viewings": [
+        {
+          "sequence": 598,
+          "date": "2017-06-18",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": null,
+          "venue": null,
+          "year": "1959"
+        },
+        {
+          "sequence": 622,
+          "date": "2017-12-09",
+          "slug": "rio-bravo-1959",
+          "title": "Rio Bravo",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1959"
+        }
+      ]
+    },
+    {
+      "name": "Guillermo del Toro",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 618,
+          "date": "2017-11-13",
+          "slug": null,
+          "title": "Hellboy",
+          "medium": null,
+          "venue": null,
+          "year": "2004"
+        },
+        {
+          "sequence": 619,
+          "date": "2017-11-13",
+          "slug": null,
+          "title": "Hellboy II: The Golden Army",
+          "medium": null,
+          "venue": null,
+          "year": "2008"
+        }
+      ]
+    }
+  ]
+}

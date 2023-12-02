@@ -1,6 +1,6 @@
 import datetime
 from dataclasses import dataclass
-from typing import Iterable, Literal, Optional, Sequence, Union, get_args
+from typing import Iterable, Optional, Sequence, Union, get_args
 
 from movielog.repository import (
     json_metadata,
@@ -15,10 +15,9 @@ from movielog.repository.db import api as db_api
 
 RECENT_VIEWING_DAYS = 365
 
+WatchlistPersonKind = json_watchlist_people.Kind
 
-WatchlistEntityKind = Literal[json_watchlist_people.Kind, Literal["collections"]]
-
-WATCHLIST_ENTITY_KINDS = get_args(WatchlistEntityKind)
+WATCHLIST_PERSON_KINDS = get_args(WatchlistPersonKind)
 
 
 @dataclass
@@ -56,10 +55,23 @@ class Title(object):
             viewing for viewing in viewing_iterable if viewing.imdb_id == self.imdb_id
         ]
 
-    def watchlist_entities(
-        self, kind: WatchlistEntityKind, cache: Optional[list["WatchlistEntity"]]
-    ) -> list["WatchlistEntity"]:
-        people_iterable = cache or watchlist_entities(kind=kind)
+    def watchlist_collections(
+        self,
+        cache: Optional[list["WatchlistCollection"]],
+    ) -> list["WatchlistCollection"]:
+        collections_iterable = cache or watchlist_collections()
+        return [
+            collection
+            for collection in collections_iterable
+            if self.imdb_id in collection.title_ids
+        ]
+
+    def watchlist_people(
+        self,
+        kind: WatchlistPersonKind,
+        cache: Optional[list["WatchlistPerson"]],
+    ) -> list["WatchlistPerson"]:
+        people_iterable = cache or watchlist_people(kind=kind)
         return [
             person for person in people_iterable if self.imdb_id in person.title_ids
         ]
@@ -128,33 +140,51 @@ class WatchlistEntity(object):
         return [title for title in title_iterable if title.imdb_id in self.title_ids]
 
 
-JsonWatchlistEntity = Union[
-    json_watchlist_people.JsonWatchlistPerson,
-    json_watchlist_collections.JsonWatchlistCollection,
-]
+@dataclass
+class WatchlistCollection(WatchlistEntity):
+    description: Optional[str] = None
 
 
-def _hydrate_json_watchlist_entity(
-    json_watchlist_entity: JsonWatchlistEntity,
-) -> WatchlistEntity:
-    return WatchlistEntity(
-        name=json_watchlist_entity["name"],
-        slug=json_watchlist_entity["slug"],
-        title_ids=set([title["imdbId"] for title in json_watchlist_entity["titles"]]),
+@dataclass
+class WatchlistPerson(WatchlistEntity):
+    imdb_id: Union[str, list[str]]
+
+
+def _hydrate_json_watchlist_person(
+    json_watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+) -> WatchlistPerson:
+    return WatchlistPerson(
+        imdb_id=json_watchlist_person["imdbId"],
+        name=json_watchlist_person["name"],
+        slug=json_watchlist_person["slug"],
+        title_ids=set([title["imdbId"] for title in json_watchlist_person["titles"]]),
     )
 
 
-def watchlist_entities(kind: WatchlistEntityKind) -> list[WatchlistEntity]:
-    if kind == "collections":
-        for json_watchlist_collection in json_watchlist_collections.read_all():
-            yield _hydrate_json_watchlist_entity(
-                json_watchlist_entity=json_watchlist_collection
-            )
-    else:
-        for json_watchlist_person in json_watchlist_people.read_all(kind):
-            yield _hydrate_json_watchlist_entity(
-                json_watchlist_entity=json_watchlist_person
-            )
+def _hydrate_json_watchlist_collection(
+    json_watchlist_collection: json_watchlist_collections.JsonWatchlistCollection,
+) -> WatchlistEntity:
+    return WatchlistCollection(
+        name=json_watchlist_collection["name"],
+        slug=json_watchlist_collection["slug"],
+        title_ids=set(
+            [title["imdbId"] for title in json_watchlist_collection["titles"]]
+        ),
+    )
+
+
+def watchlist_collections() -> list[WatchlistCollection]:
+    for json_watchlist_collection in json_watchlist_collections.read_all():
+        yield _hydrate_json_watchlist_collection(
+            json_watchlist_collection=json_watchlist_collection
+        )
+
+
+def watchlist_people(kind: WatchlistPersonKind) -> list[WatchlistPerson]:
+    for json_watchlist_person in json_watchlist_people.read_all(kind):
+        yield _hydrate_json_watchlist_person(
+            json_watchlist_person=json_watchlist_person
+        )
 
 
 def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
@@ -163,7 +193,7 @@ def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
         title=json_title["title"],
         release_date=datetime.date.fromisoformat(json_title["releaseDate"]),
         sort_title=json_title["sortTitle"],
-        year=json_title["year"],
+        year=str(json_title["year"]),
         genres=json_title["genres"],
         original_title=json_title["originalTitle"],
         runtime_minutes=json_title["runtimeMinutes"],

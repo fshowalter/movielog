@@ -1,0 +1,832 @@
+{
+  "year": "2015",
+  "newTitleCount": 64,
+  "viewingCount": 75,
+  "titleCount": 74,
+  "mediaDistribution": [
+    {
+      "name": "Blu-ray",
+      "count": 11
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "TCM HD",
+      "count": 8
+    },
+    {
+      "name": "Shudder",
+      "count": 8
+    },
+    {
+      "name": "Amazon",
+      "count": 6
+    },
+    {
+      "name": "DVD",
+      "count": 4
+    },
+    {
+      "name": "TCM",
+      "count": 1
+    }
+  ],
+  "decadeDistribution": [
+    {
+      "name": "1950s",
+      "count": 9
+    },
+    {
+      "name": "2010s",
+      "count": 27
+    },
+    {
+      "name": "1940s",
+      "count": 4
+    },
+    {
+      "name": "1960s",
+      "count": 6
+    },
+    {
+      "name": "1970s",
+      "count": 10
+    },
+    {
+      "name": "1980s",
+      "count": 14
+    },
+    {
+      "name": "1930s",
+      "count": 2
+    },
+    {
+      "name": "2000s",
+      "count": 2
+    },
+    {
+      "name": "1990s",
+      "count": 1
+    }
+  ],
+  "mostWatchedTitles": [
+    {
+      "title": "The Beyond",
+      "imdbId": "tt0082307",
+      "year": "1981",
+      "count": 2,
+      "slug": null
+    }
+  ],
+  "mostWatchedDirectors": [
+    {
+      "name": "Terence Fisher",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 471,
+          "date": "2015-01-17",
+          "slug": null,
+          "title": "The Devil Rides Out",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1968"
+        },
+        {
+          "sequence": 527,
+          "date": "2015-10-24",
+          "slug": "the-curse-of-frankenstein-1957",
+          "title": "The Curse of Frankenstein",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1957"
+        }
+      ]
+    },
+    {
+      "name": "Don Siegel",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 473,
+          "date": "2015-01-31",
+          "slug": "the-big-steal-1949",
+          "title": "The Big Steal",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1949"
+        },
+        {
+          "sequence": 504,
+          "date": "2015-07-11",
+          "slug": null,
+          "title": "Hell Is for Heroes",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "1962"
+        }
+      ]
+    },
+    {
+      "name": "Mervyn LeRoy",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 484,
+          "date": "2015-03-07",
+          "slug": "three-on-a-match-1932",
+          "title": "Three on a Match",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1932"
+        },
+        {
+          "sequence": 513,
+          "date": "2015-08-08",
+          "slug": "big-city-blues-1932",
+          "title": "Big City Blues",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        }
+      ]
+    },
+    {
+      "name": "Lucio Fulci",
+      "count": 2,
+      "slug": "lucio-fulci",
+      "viewings": [
+        {
+          "sequence": 503,
+          "date": "2015-06-23",
+          "slug": null,
+          "title": "The Beyond",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        },
+        {
+          "sequence": 532,
+          "date": "2015-11-05",
+          "slug": null,
+          "title": "The Beyond",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "Roy Ward Baker",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 515,
+          "date": "2015-08-13",
+          "slug": null,
+          "title": "And Now the Screaming Starts!",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1973"
+        },
+        {
+          "sequence": 521,
+          "date": "2015-09-19",
+          "slug": "asylum-1972",
+          "title": "Asylum",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1972"
+        }
+      ]
+    }
+  ],
+  "mostWatchedPerformers": [
+    {
+      "name": "Christopher Lee",
+      "count": 11,
+      "slug": "christopher-lee",
+      "viewings": [
+        {
+          "sequence": 466,
+          "date": "2015-01-08",
+          "slug": null,
+          "title": "The Hobbit: The Battle of the Five Armies",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 471,
+          "date": "2015-01-17",
+          "slug": null,
+          "title": "The Devil Rides Out",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1968"
+        },
+        {
+          "sequence": 472,
+          "date": "2015-01-17",
+          "slug": null,
+          "title": "Rasputin: The Mad Monk",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1966"
+        },
+        {
+          "sequence": 475,
+          "date": "2015-01-31",
+          "slug": null,
+          "title": "The Crimson Cult",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "1968"
+        },
+        {
+          "sequence": 481,
+          "date": "2015-02-21",
+          "slug": null,
+          "title": "To the Devil a Daughter",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1976"
+        },
+        {
+          "sequence": 498,
+          "date": "2015-06-06",
+          "slug": null,
+          "title": "The City of the Dead",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1960"
+        },
+        {
+          "sequence": 514,
+          "date": "2015-08-11",
+          "slug": null,
+          "title": "I, Monster",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1971"
+        },
+        {
+          "sequence": 519,
+          "date": "2015-08-29",
+          "slug": null,
+          "title": "The Whip and the Body",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1963"
+        },
+        {
+          "sequence": 520,
+          "date": "2015-09-05",
+          "slug": "the-house-that-dripped-blood-1971",
+          "title": "The House That Dripped Blood",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1971"
+        },
+        {
+          "sequence": 525,
+          "date": "2015-10-13",
+          "slug": null,
+          "title": "The Creeping Flesh",
+          "medium": null,
+          "venue": null,
+          "year": "1973"
+        },
+        {
+          "sequence": 527,
+          "date": "2015-10-24",
+          "slug": "the-curse-of-frankenstein-1957",
+          "title": "The Curse of Frankenstein",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1957"
+        }
+      ]
+    },
+    {
+      "name": "Peter Cushing",
+      "count": 7,
+      "slug": "peter-cushing",
+      "viewings": [
+        {
+          "sequence": 514,
+          "date": "2015-08-11",
+          "slug": null,
+          "title": "I, Monster",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1971"
+        },
+        {
+          "sequence": 515,
+          "date": "2015-08-13",
+          "slug": null,
+          "title": "And Now the Screaming Starts!",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1973"
+        },
+        {
+          "sequence": 517,
+          "date": "2015-08-15",
+          "slug": null,
+          "title": "Shock Waves",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1977"
+        },
+        {
+          "sequence": 520,
+          "date": "2015-09-05",
+          "slug": "the-house-that-dripped-blood-1971",
+          "title": "The House That Dripped Blood",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1971"
+        },
+        {
+          "sequence": 521,
+          "date": "2015-09-19",
+          "slug": "asylum-1972",
+          "title": "Asylum",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1972"
+        },
+        {
+          "sequence": 525,
+          "date": "2015-10-13",
+          "slug": null,
+          "title": "The Creeping Flesh",
+          "medium": null,
+          "venue": null,
+          "year": "1973"
+        },
+        {
+          "sequence": 527,
+          "date": "2015-10-24",
+          "slug": "the-curse-of-frankenstein-1957",
+          "title": "The Curse of Frankenstein",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1957"
+        }
+      ]
+    },
+    {
+      "name": "Robert Mitchum",
+      "count": 6,
+      "slug": "robert-mitchum",
+      "viewings": [
+        {
+          "sequence": 463,
+          "date": "2015-01-03",
+          "slug": null,
+          "title": "She Couldn't Say No",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1953"
+        },
+        {
+          "sequence": 467,
+          "date": "2015-01-09",
+          "slug": "rachel-and-the-stranger-1948",
+          "title": "Rachel and the Stranger",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1948"
+        },
+        {
+          "sequence": 468,
+          "date": "2015-01-10",
+          "slug": null,
+          "title": "The Angry Hills",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1959"
+        },
+        {
+          "sequence": 473,
+          "date": "2015-01-31",
+          "slug": "the-big-steal-1949",
+          "title": "The Big Steal",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1949"
+        },
+        {
+          "sequence": 476,
+          "date": "2015-02-07",
+          "slug": null,
+          "title": "Where Danger Lives",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1950"
+        },
+        {
+          "sequence": 499,
+          "date": "2015-06-06",
+          "slug": null,
+          "title": "Out of the Past",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1947"
+        }
+      ]
+    },
+    {
+      "name": "Samuel L. Jackson",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 465,
+          "date": "2015-01-04",
+          "slug": null,
+          "title": "Captain America: The Winter Soldier",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2014"
+        },
+        {
+          "sequence": 477,
+          "date": "2015-02-12",
+          "slug": null,
+          "title": "Kingsman: The Secret Service",
+          "medium": null,
+          "venue": null,
+          "year": "2014"
+        },
+        {
+          "sequence": 492,
+          "date": "2015-04-30",
+          "slug": "avengers-age-of-ultron-2015",
+          "title": "Avengers: Age of Ultron",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 537,
+          "date": "2015-12-29",
+          "slug": null,
+          "title": "The Hateful Eight",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Stan Lee",
+      "count": 4,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 465,
+          "date": "2015-01-04",
+          "slug": null,
+          "title": "Captain America: The Winter Soldier",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2014"
+        },
+        {
+          "sequence": 470,
+          "date": "2015-01-11",
+          "slug": null,
+          "title": "Guardians of the Galaxy",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2014"
+        },
+        {
+          "sequence": 492,
+          "date": "2015-04-30",
+          "slug": "avengers-age-of-ultron-2015",
+          "title": "Avengers: Age of Ultron",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 508,
+          "date": "2015-07-30",
+          "slug": "ant-man-2015",
+          "title": "Ant-Man",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Vincent Price",
+      "count": 4,
+      "slug": "vincent-price",
+      "viewings": [
+        {
+          "sequence": 480,
+          "date": "2015-02-14",
+          "slug": null,
+          "title": "The Long Night",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1947"
+        },
+        {
+          "sequence": 483,
+          "date": "2015-02-28",
+          "slug": "dangerous-mission-1954",
+          "title": "Dangerous Mission",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1954"
+        },
+        {
+          "sequence": 486,
+          "date": "2015-03-26",
+          "slug": null,
+          "title": "House on Haunted Hill",
+          "medium": null,
+          "venue": null,
+          "year": "1959"
+        },
+        {
+          "sequence": 523,
+          "date": "2015-10-08",
+          "slug": null,
+          "title": "House of Wax",
+          "medium": null,
+          "venue": null,
+          "year": "1953"
+        }
+      ]
+    },
+    {
+      "name": "Anthony Mackie",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 465,
+          "date": "2015-01-04",
+          "slug": null,
+          "title": "Captain America: The Winter Soldier",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2014"
+        },
+        {
+          "sequence": 492,
+          "date": "2015-04-30",
+          "slug": "avengers-age-of-ultron-2015",
+          "title": "Avengers: Age of Ultron",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 508,
+          "date": "2015-07-30",
+          "slug": "ant-man-2015",
+          "title": "Ant-Man",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Hayley Atwell",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 465,
+          "date": "2015-01-04",
+          "slug": null,
+          "title": "Captain America: The Winter Soldier",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "2014"
+        },
+        {
+          "sequence": 492,
+          "date": "2015-04-30",
+          "slug": "avengers-age-of-ultron-2015",
+          "title": "Avengers: Age of Ultron",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        },
+        {
+          "sequence": 508,
+          "date": "2015-07-30",
+          "slug": "ant-man-2015",
+          "title": "Ant-Man",
+          "medium": null,
+          "venue": null,
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "name": "Denholm Elliott",
+      "count": 3,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 479,
+          "date": "2015-02-14",
+          "slug": null,
+          "title": "Raiders of the Lost Ark",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1981"
+        },
+        {
+          "sequence": 481,
+          "date": "2015-02-21",
+          "slug": null,
+          "title": "To the Devil a Daughter",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1976"
+        },
+        {
+          "sequence": 520,
+          "date": "2015-09-05",
+          "slug": "the-house-that-dripped-blood-1971",
+          "title": "The House That Dripped Blood",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1971"
+        }
+      ]
+    },
+    {
+      "name": "Ralph Dumke",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 463,
+          "date": "2015-01-03",
+          "slug": null,
+          "title": "She Couldn't Say No",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1953"
+        },
+        {
+          "sequence": 476,
+          "date": "2015-02-07",
+          "slug": null,
+          "title": "Where Danger Lives",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1950"
+        }
+      ]
+    }
+  ],
+  "mostWatchedWriters": [
+    {
+      "name": "Terence Fisher",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 471,
+          "date": "2015-01-17",
+          "slug": null,
+          "title": "The Devil Rides Out",
+          "medium": "DVD",
+          "venue": "DVD",
+          "year": "1968"
+        },
+        {
+          "sequence": 527,
+          "date": "2015-10-24",
+          "slug": "the-curse-of-frankenstein-1957",
+          "title": "The Curse of Frankenstein",
+          "medium": "Blu-ray",
+          "venue": "Blu-ray",
+          "year": "1957"
+        }
+      ]
+    },
+    {
+      "name": "Don Siegel",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 473,
+          "date": "2015-01-31",
+          "slug": "the-big-steal-1949",
+          "title": "The Big Steal",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1949"
+        },
+        {
+          "sequence": 504,
+          "date": "2015-07-11",
+          "slug": null,
+          "title": "Hell Is for Heroes",
+          "medium": "Netflix",
+          "venue": "Netflix",
+          "year": "1962"
+        }
+      ]
+    },
+    {
+      "name": "Mervyn LeRoy",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 484,
+          "date": "2015-03-07",
+          "slug": "three-on-a-match-1932",
+          "title": "Three on a Match",
+          "medium": "TCM HD",
+          "venue": "TCM HD",
+          "year": "1932"
+        },
+        {
+          "sequence": 513,
+          "date": "2015-08-08",
+          "slug": "big-city-blues-1932",
+          "title": "Big City Blues",
+          "medium": "TCM",
+          "venue": "TCM",
+          "year": "1932"
+        }
+      ]
+    },
+    {
+      "name": "Lucio Fulci",
+      "count": 2,
+      "slug": "lucio-fulci",
+      "viewings": [
+        {
+          "sequence": 503,
+          "date": "2015-06-23",
+          "slug": null,
+          "title": "The Beyond",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        },
+        {
+          "sequence": 532,
+          "date": "2015-11-05",
+          "slug": null,
+          "title": "The Beyond",
+          "medium": null,
+          "venue": null,
+          "year": "1981"
+        }
+      ]
+    },
+    {
+      "name": "Roy Ward Baker",
+      "count": 2,
+      "slug": null,
+      "viewings": [
+        {
+          "sequence": 515,
+          "date": "2015-08-13",
+          "slug": null,
+          "title": "And Now the Screaming Starts!",
+          "medium": "Shudder",
+          "venue": "Shudder",
+          "year": "1973"
+        },
+        {
+          "sequence": 521,
+          "date": "2015-09-19",
+          "slug": "asylum-1972",
+          "title": "Asylum",
+          "medium": "Amazon",
+          "venue": "Amazon",
+          "year": "1972"
+        }
+      ]
+    }
+  ]
+}

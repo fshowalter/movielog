@@ -64,7 +64,7 @@ JsonTitle = TypedDict(
         "runtimeMinutes": int,
         "imdbRating": Optional[float],
         "imdbVotes": Optional[int],
-        "year": str,
+        "year": int,
         "releaseDate": str,
         "countries": list[str],
         "genres": list[str],
