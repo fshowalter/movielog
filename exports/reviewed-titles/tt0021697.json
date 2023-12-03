@@ -11,7 +11,6 @@
     "Comedy",
     "Romance"
   ],
-  "releaseDate": "1931-08-01",
   "sortTitle": "Broadminded",
   "originalTitle": "Broadminded",
   "gradeValue": 1,
@@ -44,11 +43,11 @@
         "slug": "bela-lugosi",
         "titles": [
           {
-            "title": "Dracula",
-            "imdbId": "tt0021814",
-            "year": "1931",
-            "slug": "dracula-1931",
-            "grade": "A-"
+            "title": "Wild Company",
+            "imdbId": "tt0021554",
+            "year": "1930",
+            "slug": "wild-company-1930",
+            "grade": "D+"
           },
           {
             "title": "The Black Camel",
@@ -58,18 +57,18 @@
             "grade": "C+"
           },
           {
+            "title": "Dracula",
+            "imdbId": "tt0021814",
+            "year": "1931",
+            "slug": "dracula-1931",
+            "grade": "A-"
+          },
+          {
             "title": "Murders in the Rue Morgue",
             "imdbId": "tt0023249",
             "year": "1932",
             "slug": "murders-in-the-rue-morgue-1932",
             "grade": "D-"
-          },
-          {
-            "title": "The Death Kiss",
-            "imdbId": "tt0023935",
-            "year": "1932",
-            "slug": "the-death-kiss-1932",
-            "grade": "D"
           }
         ]
       }

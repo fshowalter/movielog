@@ -10,7 +10,6 @@
   "genres": [
     "Comedy"
   ],
-  "releaseDate": "1932-04-08",
   "sortTitle": "This Is the Night",
   "originalTitle": "This Is the Night",
   "gradeValue": 6,
@@ -43,13 +42,6 @@
         "slug": "cary-grant",
         "titles": [
           {
-            "title": "Penny Serenade",
-            "imdbId": "tt0034012",
-            "year": "1941",
-            "slug": "penny-serenade-1941",
-            "grade": "F"
-          },
-          {
             "title": "Every Girl Should Be Married",
             "imdbId": "tt0040331",
             "year": "1948",
@@ -69,6 +61,13 @@
             "year": "1936",
             "slug": "suzy-1936",
             "grade": "D-"
+          },
+          {
+            "title": "Topper",
+            "imdbId": "tt0029682",
+            "year": "1937",
+            "slug": "topper-1937",
+            "grade": "B-"
           }
         ]
       }

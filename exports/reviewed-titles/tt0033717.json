@@ -14,7 +14,6 @@
     "Film-Noir",
     "Thriller"
   ],
-  "releaseDate": "1941-01-25",
   "sortTitle": "High Sierra",
   "originalTitle": "High Sierra",
   "gradeValue": 8,
@@ -47,18 +46,18 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
-            "title": "Virginia City",
-            "imdbId": "tt0033226",
-            "year": "1940",
-            "slug": "virginia-city-1940",
-            "grade": "C-"
-          },
-          {
             "title": "They Drive by Night",
             "imdbId": "tt0033149",
             "year": "1940",
             "slug": "they-drive-by-night-1940",
             "grade": "C+"
+          },
+          {
+            "title": "Virginia City",
+            "imdbId": "tt0033226",
+            "year": "1940",
+            "slug": "virginia-city-1940",
+            "grade": "C-"
           },
           {
             "title": "The Big Shot",

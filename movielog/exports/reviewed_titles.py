@@ -1,3 +1,4 @@
+from itertools import count
 from typing import Callable, Optional, Sequence, TypedDict, TypeVar, Union
 
 from movielog.exports import exporter
@@ -54,7 +55,6 @@ JsonReviewedTitle = TypedDict(
         "grade": str,
         "countries": list[str],
         "genres": list[str],
-        "releaseDate": str,
         "sortTitle": str,
         "originalTitle": str,
         "gradeValue": Optional[int],
@@ -90,14 +90,14 @@ ListType = TypeVar("ListType")
 
 
 def slice_list(  # noqa: WPS210
-    source_list: list[ListType], matcher: Callable[[ListType], bool]
+    source_list: list[ListType],
+    matcher: Callable[[ListType], bool],
 ) -> list[ListType]:
     midpoint = next(
         index
-        for index, collection_item in enumerate(source_list)
+        for index, collection_item in zip(count(), source_list)
         if matcher(collection_item)
     )
-
     collection_length = len(source_list)
 
     start_index = midpoint - 2
@@ -127,18 +127,19 @@ def build_json_more_for_watchlist_entities(
 ) -> list[JsonMoreEntity]:
     more_entries = []
     for watchlist_entity in watchlist_entities:
-        reviewed_ids = repository_data.reviews.keys() & watchlist_entity.title_ids
-        if len(reviewed_ids) < 5:
+        reviewed_ids_for_watchlist_entity = (
+            repository_data.reviews.keys() & watchlist_entity.title_ids
+        )
+        if len(reviewed_ids_for_watchlist_entity) < 5:
             continue
 
         sliced_titles = slice_list(
             source_list=sorted(
                 [
-                    title
-                    for title in repository_data.reviewed_titles
-                    if title.imdb_id in reviewed_ids
+                    repository_data.titles[reviewed_id]
+                    for reviewed_id in reviewed_ids_for_watchlist_entity
                 ],
-                key=lambda title: title.release_date,
+                key=lambda title: "{0}{1}".format(title.year, title.imdb_id),
             ),
             matcher=build_imdb_id_matcher(review.imdb_id),
         )
@@ -231,7 +232,6 @@ def build_json_reviewed_title(
         grade=review.grade,
         countries=title.countries,
         genres=title.genres,
-        releaseDate=title.release_date.isoformat(),
         sortTitle=title.sort_title,
         originalTitle=title.original_title,
         gradeValue=review.grade_value,

@@ -13,7 +13,6 @@
     "Film-Noir",
     "Thriller"
   ],
-  "releaseDate": "1940-08-03",
   "sortTitle": "They Drive by Night",
   "originalTitle": "They Drive by Night",
   "gradeValue": 7,
@@ -53,6 +52,13 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
+            "title": "The Oklahoma Kid",
+            "imdbId": "tt0031747",
+            "year": "1939",
+            "slug": "the-oklahoma-kid-1939",
+            "grade": "C-"
+          },
+          {
             "title": "Invisible Stripes",
             "imdbId": "tt0032636",
             "year": "1939",
@@ -72,13 +78,6 @@
             "year": "1940",
             "slug": "high-sierra-1941",
             "grade": "B-"
-          },
-          {
-            "title": "The Big Shot",
-            "imdbId": "tt0034513",
-            "year": "1942",
-            "slug": "the-big-shot-1942",
-            "grade": "C"
           }
         ]
       }

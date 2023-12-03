@@ -11,7 +11,6 @@
     "Comedy",
     "Drama"
   ],
-  "releaseDate": "1932-09-18",
   "sortTitle": "Big City Blues",
   "originalTitle": "Big City Blues",
   "gradeValue": 7,
@@ -51,6 +50,13 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
+            "title": "Bad Sister",
+            "imdbId": "tt0021636",
+            "year": "1931",
+            "slug": "the-bad-sister-1931",
+            "grade": "D+"
+          },
+          {
             "title": "A Holy Terror",
             "imdbId": "tt0021966",
             "year": "1931",
@@ -70,13 +76,6 @@
             "year": "1932",
             "slug": "three-on-a-match-1932",
             "grade": "C+"
-          },
-          {
-            "title": "Midnight",
-            "imdbId": "tt0025499",
-            "year": "1934",
-            "slug": "midnight-1934",
-            "grade": "F"
           }
         ]
       }

@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1931-05-09",
   "sortTitle": "Ladies' Man",
   "originalTitle": "Ladies' Man",
   "gradeValue": 6,
@@ -50,11 +49,18 @@
         "slug": "william-powell",
         "titles": [
           {
-            "title": "For the Defense",
-            "imdbId": "tt0020896",
+            "title": "Shadow of the Law",
+            "imdbId": "tt0021359",
             "year": "1930",
-            "slug": "for-the-defense-1930",
-            "grade": "C"
+            "slug": "shadow-of-the-law-1930",
+            "grade": "C+"
+          },
+          {
+            "title": "Street of Chance",
+            "imdbId": "tt0021420",
+            "year": "1930",
+            "slug": "street-of-chance-1930",
+            "grade": "D+"
           },
           {
             "title": "Man of the World",
@@ -69,13 +75,6 @@
             "year": "1931",
             "slug": "the-road-to-singapore-1931",
             "grade": "B-"
-          },
-          {
-            "title": "High Pressure",
-            "imdbId": "tt0023007",
-            "year": "1932",
-            "slug": "high-pressure-1932",
-            "grade": "C-"
           }
         ]
       }

@@ -12,7 +12,6 @@
     "Mystery",
     "Thriller"
   ],
-  "releaseDate": "1950-10-23",
   "sortTitle": "This Can't Happen Here",
   "originalTitle": "S\u00e5nt h\u00e4nder inte h\u00e4r",
   "gradeValue": 1,
@@ -44,11 +43,18 @@
         "slug": "ingmar-bergman",
         "titles": [
           {
-            "title": "A Ship to India",
-            "imdbId": "tt0039834",
-            "year": "1947",
-            "slug": "a-ship-to-india-1947",
+            "title": "Prison",
+            "imdbId": "tt0041399",
+            "year": "1949",
+            "slug": "prison-1949",
             "grade": "D+"
+          },
+          {
+            "title": "Thirst",
+            "imdbId": "tt0041998",
+            "year": "1949",
+            "slug": "thirst-1949",
+            "grade": "F"
           },
           {
             "title": "To Joy",
@@ -56,13 +62,6 @@
             "year": "1950",
             "slug": "to-joy-1950",
             "grade": "C+"
-          },
-          {
-            "title": "Summer with Monika",
-            "imdbId": "tt0046345",
-            "year": "1953",
-            "slug": "summer-with-monika-1953",
-            "grade": "B+"
           },
           {
             "title": "Summer Interlude",

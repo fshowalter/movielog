@@ -14,7 +14,6 @@
     "Horror",
     "Sci-Fi"
   ],
-  "releaseDate": "2022-05-25",
   "sortTitle": "Crimes of the Future",
   "originalTitle": "Crimes of the Future",
   "gradeValue": 8,
@@ -46,18 +45,18 @@
         "slug": "david-cronenberg",
         "titles": [
           {
+            "title": "The Brood",
+            "imdbId": "tt0078908",
+            "year": "1979",
+            "slug": "the-brood-1979",
+            "grade": "D-"
+          },
+          {
             "title": "Fast Company",
             "imdbId": "tt0079138",
             "year": "1979",
             "slug": "fast-company-1979",
             "grade": "C"
-          },
-          {
-            "title": "Crimes of the Future",
-            "imdbId": "tt0065591",
-            "year": "1970",
-            "slug": "crimes-of-the-future-1970",
-            "grade": "D+"
           },
           {
             "title": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
@@ -67,11 +66,11 @@
             "grade": "D"
           },
           {
-            "title": "Shivers",
-            "imdbId": "tt0073705",
-            "year": "1975",
-            "slug": "shivers-1975",
-            "grade": "C-"
+            "title": "Crimes of the Future",
+            "imdbId": "tt0065591",
+            "year": "1970",
+            "slug": "crimes-of-the-future-1970",
+            "grade": "D+"
           }
         ]
       }

@@ -11,7 +11,6 @@
     "Crime",
     "Drama"
   ],
-  "releaseDate": "1931-09-26",
   "sortTitle": "Five Star Final",
   "originalTitle": "Five Star Final",
   "gradeValue": 4,
@@ -44,25 +43,18 @@
         "slug": "boris-karloff",
         "titles": [
           {
-            "title": "The Public Defender",
-            "imdbId": "tt0022285",
-            "year": "1931",
-            "slug": "the-public-defender-1931",
-            "grade": "C"
+            "title": "The Criminal Code",
+            "imdbId": "tt0021770",
+            "year": "1930",
+            "slug": "the-criminal-code-1930",
+            "grade": "C+"
           },
           {
-            "title": "I Like Your Nerve",
-            "imdbId": "tt0021986",
+            "title": "Cracked Nuts",
+            "imdbId": "tt0021768",
             "year": "1931",
-            "slug": "i-like-your-nerve-1931",
-            "grade": "F"
-          },
-          {
-            "title": "The Guilty Generation",
-            "imdbId": "tt0021932",
-            "year": "1931",
-            "slug": "the-guilty-generation-1931",
-            "grade": "C"
+            "slug": "cracked-nuts-1931",
+            "grade": "D"
           },
           {
             "title": "Frankenstein",
@@ -70,6 +62,13 @@
             "year": "1931",
             "slug": "frankenstein-1931",
             "grade": "B+"
+          },
+          {
+            "title": "The Guilty Generation",
+            "imdbId": "tt0021932",
+            "year": "1931",
+            "slug": "the-guilty-generation-1931",
+            "grade": "C"
           }
         ]
       }

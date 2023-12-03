@@ -10,7 +10,6 @@
   "genres": [
     "Sci-Fi"
   ],
-  "releaseDate": "1969-01-01",
   "sortTitle": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
   "originalTitle": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
   "gradeValue": 3,
@@ -42,11 +41,11 @@
         "slug": "david-cronenberg",
         "titles": [
           {
-            "title": "Crimes of the Future",
-            "imdbId": "tt0065591",
-            "year": "1970",
-            "slug": "crimes-of-the-future-1970",
-            "grade": "D+"
+            "title": "Fast Company",
+            "imdbId": "tt0079138",
+            "year": "1979",
+            "slug": "fast-company-1979",
+            "grade": "C"
           },
           {
             "title": "Crimes of the Future",
@@ -56,17 +55,17 @@
             "grade": "B-"
           },
           {
+            "title": "Crimes of the Future",
+            "imdbId": "tt0065591",
+            "year": "1970",
+            "slug": "crimes-of-the-future-1970",
+            "grade": "D+"
+          },
+          {
             "title": "Shivers",
             "imdbId": "tt0073705",
             "year": "1975",
             "slug": "shivers-1975",
-            "grade": "C-"
-          },
-          {
-            "title": "Rabid",
-            "imdbId": "tt0076590",
-            "year": "1977",
-            "slug": "rabid-1977",
             "grade": "C-"
           }
         ]

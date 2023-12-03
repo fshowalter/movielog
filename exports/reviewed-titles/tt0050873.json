@@ -12,7 +12,6 @@
     "Sci-Fi",
     "Horror"
   ],
-  "releaseDate": "1957-09-01",
   "sortTitle": "Quatermass 2",
   "originalTitle": "Quatermass 2",
   "gradeValue": 4,
@@ -47,11 +46,11 @@
         "slug": "hammer-films",
         "titles": [
           {
-            "title": "X the Unknown",
-            "imdbId": "tt0049967",
-            "year": "1956",
-            "slug": "x-the-unknown-1956",
-            "grade": "C+"
+            "title": "The Abominable Snowman",
+            "imdbId": "tt0050095",
+            "year": "1957",
+            "slug": "the-abominable-snowman-1957",
+            "grade": "D+"
           },
           {
             "title": "The Curse of Frankenstein",
@@ -61,6 +60,34 @@
             "grade": "A"
           },
           {
+            "title": "The Camp on Blood Island",
+            "imdbId": "tt0051444",
+            "year": "1958",
+            "slug": "the-camp-on-blood-island-1958",
+            "grade": "B-"
+          },
+          {
+            "title": "Horror of Dracula",
+            "imdbId": "tt0051554",
+            "year": "1958",
+            "slug": "horror-of-dracula-1958",
+            "grade": "A-"
+          },
+          {
+            "title": "The Quatermass Xperiment",
+            "imdbId": "tt0049646",
+            "year": "1955",
+            "slug": "the-quatermass-xperiment-1955",
+            "grade": "B-"
+          },
+          {
+            "title": "X the Unknown",
+            "imdbId": "tt0049967",
+            "year": "1956",
+            "slug": "x-the-unknown-1956",
+            "grade": "C+"
+          },
+          {
             "title": "The Abominable Snowman",
             "imdbId": "tt0050095",
             "year": "1957",
@@ -68,11 +95,25 @@
             "grade": "D+"
           },
           {
+            "title": "The Curse of Frankenstein",
+            "imdbId": "tt0050280",
+            "year": "1957",
+            "slug": "the-curse-of-frankenstein-1957",
+            "grade": "A"
+          },
+          {
             "title": "The Camp on Blood Island",
             "imdbId": "tt0051444",
             "year": "1958",
             "slug": "the-camp-on-blood-island-1958",
             "grade": "B-"
+          },
+          {
+            "title": "Horror of Dracula",
+            "imdbId": "tt0051554",
+            "year": "1958",
+            "slug": "horror-of-dracula-1958",
+            "grade": "A-"
           }
         ]
       }

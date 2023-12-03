@@ -13,7 +13,6 @@
     "Mystery",
     "Romance"
   ],
-  "releaseDate": "1932-02-21",
   "sortTitle": "Murders in the Rue Morgue",
   "originalTitle": "Murders in the Rue Morgue",
   "gradeValue": 2,
@@ -53,18 +52,18 @@
         "slug": "bela-lugosi",
         "titles": [
           {
-            "title": "The Black Camel",
-            "imdbId": "tt0021668",
-            "year": "1931",
-            "slug": "the-black-camel-1931",
-            "grade": "C+"
-          },
-          {
             "title": "Broadminded",
             "imdbId": "tt0021697",
             "year": "1931",
             "slug": "broadminded-1931",
             "grade": "F"
+          },
+          {
+            "title": "Dracula",
+            "imdbId": "tt0021814",
+            "year": "1931",
+            "slug": "dracula-1931",
+            "grade": "A-"
           },
           {
             "title": "The Death Kiss",
@@ -88,11 +87,11 @@
             "grade": "D+"
           },
           {
-            "title": "Wild Company",
-            "imdbId": "tt0021554",
+            "title": "Oh, for a Man!",
+            "imdbId": "tt0021199",
             "year": "1930",
-            "slug": "wild-company-1930",
-            "grade": "D+"
+            "slug": "oh-for-a-man-1930",
+            "grade": "F"
           },
           {
             "title": "Renegades",
@@ -102,18 +101,11 @@
             "grade": "C+"
           },
           {
-            "title": "Oh, for a Man!",
-            "imdbId": "tt0021199",
+            "title": "Wild Company",
+            "imdbId": "tt0021554",
             "year": "1930",
-            "slug": "oh-for-a-man-1930",
-            "grade": "F"
-          },
-          {
-            "title": "Dracula",
-            "imdbId": "tt0021814",
-            "year": "1931",
-            "slug": "dracula-1931",
-            "grade": "A-"
+            "slug": "wild-company-1930",
+            "grade": "D+"
           },
           {
             "title": "The Black Camel",
@@ -128,6 +120,13 @@
             "year": "1931",
             "slug": "broadminded-1931",
             "grade": "F"
+          },
+          {
+            "title": "Dracula",
+            "imdbId": "tt0021814",
+            "year": "1931",
+            "slug": "dracula-1931",
+            "grade": "A-"
           },
           {
             "title": "The Death Kiss",

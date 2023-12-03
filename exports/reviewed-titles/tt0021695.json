@@ -10,7 +10,6 @@
   "genres": [
     "Comedy"
   ],
-  "releaseDate": "1931-09-20",
   "sortTitle": "Brat, The",
   "originalTitle": "The Brat",
   "gradeValue": 2,
@@ -49,13 +48,6 @@
             "grade": "B-"
           },
           {
-            "title": "The Seas Beneath",
-            "imdbId": "tt0022353",
-            "year": "1931",
-            "slug": "seas-beneath-1931",
-            "grade": "D+"
-          },
-          {
             "title": "Arrowsmith",
             "imdbId": "tt0021622",
             "year": "1931",
@@ -63,11 +55,18 @@
             "grade": "D+"
           },
           {
-            "title": "Pilgrimage",
-            "imdbId": "tt0024453",
+            "title": "The Seas Beneath",
+            "imdbId": "tt0022353",
+            "year": "1931",
+            "slug": "seas-beneath-1931",
+            "grade": "D+"
+          },
+          {
+            "title": "Doctor Bull",
+            "imdbId": "tt0023955",
             "year": "1933",
-            "slug": "pilgrimage-1933",
-            "grade": "C"
+            "slug": "doctor-bull-1933",
+            "grade": "C-"
           }
         ]
       }

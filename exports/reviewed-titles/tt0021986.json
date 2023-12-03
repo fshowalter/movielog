@@ -11,7 +11,6 @@
     "Comedy",
     "Romance"
   ],
-  "releaseDate": "1931-09-12",
   "sortTitle": "Like Your Nerve, I",
   "originalTitle": "I Like Your Nerve",
   "gradeValue": 1,
@@ -44,11 +43,18 @@
         "slug": "boris-karloff",
         "titles": [
           {
-            "title": "Cracked Nuts",
-            "imdbId": "tt0021768",
+            "title": "Frankenstein",
+            "imdbId": "tt0021884",
             "year": "1931",
-            "slug": "cracked-nuts-1931",
-            "grade": "D"
+            "slug": "frankenstein-1931",
+            "grade": "B+"
+          },
+          {
+            "title": "The Guilty Generation",
+            "imdbId": "tt0021932",
+            "year": "1931",
+            "slug": "the-guilty-generation-1931",
+            "grade": "C"
           },
           {
             "title": "The Public Defender",
@@ -58,18 +64,11 @@
             "grade": "C"
           },
           {
-            "title": "Five Star Final",
-            "imdbId": "tt0021873",
+            "title": "Tonight or Never",
+            "imdbId": "tt0022489",
             "year": "1931",
-            "slug": "five-star-final-1931",
+            "slug": "tonight-or-never-1931",
             "grade": "D+"
-          },
-          {
-            "title": "The Guilty Generation",
-            "imdbId": "tt0021932",
-            "year": "1931",
-            "slug": "the-guilty-generation-1931",
-            "grade": "C"
           }
         ]
       }

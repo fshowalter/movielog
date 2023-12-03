@@ -12,7 +12,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1932-05-21",
   "sortTitle": "Rich Are Always with Us, The",
   "originalTitle": "The Rich Are Always with Us",
   "gradeValue": 3,
@@ -45,6 +44,13 @@
         "slug": "bette-davis",
         "titles": [
           {
+            "title": "Hell's House",
+            "imdbId": "tt0022991",
+            "year": "1932",
+            "slug": "hells-house-1932",
+            "grade": "C-"
+          },
+          {
             "title": "The Man Who Played God",
             "imdbId": "tt0023181",
             "year": "1932",
@@ -59,18 +65,11 @@
             "grade": "D"
           },
           {
-            "title": "Hell's House",
-            "imdbId": "tt0022991",
+            "title": "Three on a Match",
+            "imdbId": "tt0023590",
             "year": "1932",
-            "slug": "hells-house-1932",
-            "grade": "C-"
-          },
-          {
-            "title": "The Cabin in the Cotton",
-            "imdbId": "tt0022735",
-            "year": "1932",
-            "slug": "the-cabin-in-the-cotton-1932",
-            "grade": "D"
+            "slug": "three-on-a-match-1932",
+            "grade": "C+"
           }
         ]
       }

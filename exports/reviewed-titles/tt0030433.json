@@ -11,7 +11,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1938-07-16",
   "sortTitle": "Men Are Such Fools",
   "originalTitle": "Men Are Such Fools",
   "gradeValue": 1,
@@ -58,6 +57,13 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
+            "title": "The Great O'Malley",
+            "imdbId": "tt0028955",
+            "year": "1937",
+            "slug": "the-great-omalley-1937",
+            "grade": "D-"
+          },
+          {
             "title": "Marked Woman",
             "imdbId": "tt0029217",
             "year": "1937",
@@ -77,13 +83,6 @@
             "year": "1939",
             "slug": "king-of-the-underworld-1939",
             "grade": "D+"
-          },
-          {
-            "title": "The Oklahoma Kid",
-            "imdbId": "tt0031747",
-            "year": "1939",
-            "slug": "the-oklahoma-kid-1939",
-            "grade": "C-"
           }
         ]
       }

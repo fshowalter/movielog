@@ -11,7 +11,6 @@
     "Drama",
     "Western"
   ],
-  "releaseDate": "1943-04-02",
   "sortTitle": "Border Patrol",
   "originalTitle": "Border Patrol",
   "gradeValue": 4,
@@ -44,18 +43,18 @@
         "slug": "robert-mitchum",
         "titles": [
           {
+            "title": "Holiday Affair",
+            "imdbId": "tt0041473",
+            "year": "1949",
+            "slug": "holiday-affair-1949",
+            "grade": "C"
+          },
+          {
             "title": "The Racket",
             "imdbId": "tt0043955",
             "year": "1951",
             "slug": "the-racket-1951",
             "grade": "B-"
-          },
-          {
-            "title": "Hoppy Serves a Writ",
-            "imdbId": "tt0036016",
-            "year": "1943",
-            "slug": "hoppy-serves-a-writ-1943",
-            "grade": "D"
           },
           {
             "title": "Colt Comrades",
@@ -65,10 +64,10 @@
             "grade": "D"
           },
           {
-            "title": "Rachel and the Stranger",
-            "imdbId": "tt0040720",
-            "year": "1948",
-            "slug": "rachel-and-the-stranger-1948",
+            "title": "Hoppy Serves a Writ",
+            "imdbId": "tt0036016",
+            "year": "1943",
+            "slug": "hoppy-serves-a-writ-1943",
             "grade": "D"
           }
         ]

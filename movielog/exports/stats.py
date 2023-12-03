@@ -398,7 +398,7 @@ def build_decade_distribution(
     titles: list[repository_api.Title],
 ) -> list[JsonDistribution]:
     return build_json_distributions(
-        titles, lambda title: "{0}0s".format(str(title.year)[:3])
+        titles, lambda title: "{0}0s".format(title.year[:3])
     )
 
 

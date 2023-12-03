@@ -11,7 +11,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1929-08-17",
   "sortTitle": "Charming Sinners",
   "originalTitle": "Charming Sinners",
   "gradeValue": 6,
@@ -44,6 +43,13 @@
         "slug": "william-powell",
         "titles": [
           {
+            "title": "Interference",
+            "imdbId": "tt0019035",
+            "year": "1928",
+            "slug": "interference-1928",
+            "grade": "D+"
+          },
+          {
             "title": "The Canary Murder Case",
             "imdbId": "tt0019745",
             "year": "1929",
@@ -63,13 +69,6 @@
             "year": "1929",
             "slug": "pointed-heels-1929",
             "grade": "D"
-          },
-          {
-            "title": "Street of Chance",
-            "imdbId": "tt0021420",
-            "year": "1930",
-            "slug": "street-of-chance-1930",
-            "grade": "D+"
           }
         ]
       }

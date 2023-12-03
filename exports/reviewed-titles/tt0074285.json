@@ -11,7 +11,6 @@
     "Horror",
     "Mystery"
   ],
-  "releaseDate": "1976-11-16",
   "sortTitle": "Carrie",
   "originalTitle": "Carrie",
   "gradeValue": 8,
@@ -43,6 +42,13 @@
         "slug": "brian-de-palma",
         "titles": [
           {
+            "title": "Sisters",
+            "imdbId": "tt0070698",
+            "year": "1972",
+            "slug": "sisters-1972",
+            "grade": "C+"
+          },
+          {
             "title": "Phantom of the Paradise",
             "imdbId": "tt0071994",
             "year": "1974",
@@ -62,13 +68,6 @@
             "year": "1978",
             "slug": "the-fury-1978",
             "grade": "D-"
-          },
-          {
-            "title": "Home Movies",
-            "imdbId": "tt0079302",
-            "year": "1979",
-            "slug": "home-movies-1979",
-            "grade": "D"
           }
         ]
       }

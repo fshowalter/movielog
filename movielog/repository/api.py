@@ -31,7 +31,6 @@ class Name(object):
 class Title(object):
     imdb_id: str
     title: str
-    release_date: datetime.date
     sort_title: str
     year: str
     genres: list[str]
@@ -41,6 +40,8 @@ class Title(object):
     performers: list[Name]
     writers: list[Name]
     original_title: str
+    imdb_rating: Optional[float]
+    imdb_votes: Optional[int]
 
     def review(self, cache: Optional[list["Review"]] = None) -> Optional["Review"]:
         review_iterable = cache or reviews()
@@ -191,13 +192,14 @@ def _hydrate_json_title(json_title: json_titles.JsonTitle) -> Title:
     return Title(
         imdb_id=json_title["imdbId"],
         title=json_title["title"],
-        release_date=datetime.date.fromisoformat(json_title["releaseDate"]),
         sort_title=json_title["sortTitle"],
         year=str(json_title["year"]),
         genres=json_title["genres"],
         original_title=json_title["originalTitle"],
         runtime_minutes=json_title["runtimeMinutes"],
         countries=json_title["countries"],
+        imdb_rating=json_title["imdbRating"],
+        imdb_votes=json_title["imdbVotes"],
         directors=[
             Name(
                 name=director["name"],
@@ -292,3 +294,17 @@ def last_viewing_date() -> Optional[datetime.date]:
     )
 
     return sorted_viewings[0].date if sorted_viewings else None
+
+
+@dataclass
+class Metadata(object):
+    average_imdb_votes: float
+    average_imdb_rating: float
+
+
+def metadata() -> Metadata:
+    json_metadata_info = json_metadata.deserialize()
+    return Metadata(
+        average_imdb_rating=json_metadata_info["averageImdbRating"],
+        average_imdb_votes=json_metadata_info["averageImdbVotes"],
+    )

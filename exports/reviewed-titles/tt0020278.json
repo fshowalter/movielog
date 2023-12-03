@@ -11,7 +11,6 @@
     "Comedy",
     "Musical"
   ],
-  "releaseDate": "1929-12-21",
   "sortTitle": "Pointed Heels",
   "originalTitle": "Pointed Heels",
   "gradeValue": 3,
@@ -44,13 +43,6 @@
         "slug": "william-powell",
         "titles": [
           {
-            "title": "The Greene Murder Case",
-            "imdbId": "tt0019949",
-            "year": "1929",
-            "slug": "the-greene-murder-case-1929",
-            "grade": "D+"
-          },
-          {
             "title": "Charming Sinners",
             "imdbId": "tt0019758",
             "year": "1929",
@@ -58,10 +50,10 @@
             "grade": "C"
           },
           {
-            "title": "Street of Chance",
-            "imdbId": "tt0021420",
-            "year": "1930",
-            "slug": "street-of-chance-1930",
+            "title": "The Greene Murder Case",
+            "imdbId": "tt0019949",
+            "year": "1929",
+            "slug": "the-greene-murder-case-1929",
             "grade": "D+"
           },
           {
@@ -70,6 +62,13 @@
             "year": "1930",
             "slug": "behind-the-make-up-1930",
             "grade": "C+"
+          },
+          {
+            "title": "The Benson Murder Case",
+            "imdbId": "tt0020679",
+            "year": "1930",
+            "slug": "the-benson-murder-case-1930",
+            "grade": "C"
           }
         ]
       }

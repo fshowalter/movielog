@@ -12,7 +12,6 @@
     "Crime",
     "Drama"
   ],
-  "releaseDate": "1930-10-12",
   "sortTitle": "Up the River",
   "originalTitle": "Up the River",
   "gradeValue": 8,
@@ -44,13 +43,6 @@
         "slug": "john-ford",
         "titles": [
           {
-            "title": "Men Without Women",
-            "imdbId": "tt0021140",
-            "year": "1930",
-            "slug": "men-without-women-1930",
-            "grade": "C+"
-          },
-          {
             "title": "Born Reckless",
             "imdbId": "tt0020702",
             "year": "1930",
@@ -58,10 +50,17 @@
             "grade": "D+"
           },
           {
-            "title": "The Seas Beneath",
-            "imdbId": "tt0022353",
+            "title": "Men Without Women",
+            "imdbId": "tt0021140",
+            "year": "1930",
+            "slug": "men-without-women-1930",
+            "grade": "C+"
+          },
+          {
+            "title": "Arrowsmith",
+            "imdbId": "tt0021622",
             "year": "1931",
-            "slug": "seas-beneath-1931",
+            "slug": "arrowsmith-1931",
             "grade": "D+"
           },
           {

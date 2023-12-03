@@ -12,7 +12,6 @@
     "Romance",
     "War"
   ],
-  "releaseDate": "1942-12-25",
   "sortTitle": "Reunion in France",
   "originalTitle": "Reunion in France",
   "gradeValue": 2,
@@ -45,17 +44,17 @@
         "slug": "john-wayne",
         "titles": [
           {
-            "title": "The Star Packer",
-            "imdbId": "tt0025830",
-            "year": "1934",
-            "slug": "the-star-packer-1934",
-            "grade": "D"
-          },
-          {
             "title": "The Lawless Frontier",
             "imdbId": "tt0025373",
             "year": "1934",
             "slug": "the-lawless-frontier-1934",
+            "grade": "D"
+          },
+          {
+            "title": "The Star Packer",
+            "imdbId": "tt0025830",
+            "year": "1934",
+            "slug": "the-star-packer-1934",
             "grade": "D"
           },
           {
@@ -80,6 +79,13 @@
             "grade": "B-"
           },
           {
+            "title": "Maker of Men",
+            "imdbId": "tt0022109",
+            "year": "1931",
+            "slug": "maker-of-men-1931",
+            "grade": "F"
+          },
+          {
             "title": "Arizona",
             "imdbId": "tt0022134",
             "year": "1931",
@@ -94,11 +100,25 @@
             "grade": "D+"
           },
           {
-            "title": "Maker of Men",
-            "imdbId": "tt0022109",
-            "year": "1931",
-            "slug": "maker-of-men-1931",
+            "title": "The Big Stampede",
+            "imdbId": "tt0022681",
+            "year": "1932",
+            "slug": "the-big-stampede-1932",
+            "grade": "D"
+          },
+          {
+            "title": "Haunted Gold",
+            "imdbId": "tt0022981",
+            "year": "1932",
+            "slug": "haunted-gold-1932",
             "grade": "F"
+          },
+          {
+            "title": "Ride Him, Cowboy",
+            "imdbId": "tt0023396",
+            "year": "1932",
+            "slug": "ride-him-cowboy-1932",
+            "grade": "D"
           },
           {
             "title": "Texas Cyclone",
@@ -112,27 +132,6 @@
             "imdbId": "tt0023631",
             "year": "1932",
             "slug": "two-fisted-law-1932",
-            "grade": "F"
-          },
-          {
-            "title": "Ride Him, Cowboy",
-            "imdbId": "tt0023396",
-            "year": "1932",
-            "slug": "ride-him-cowboy-1932",
-            "grade": "D"
-          },
-          {
-            "title": "The Big Stampede",
-            "imdbId": "tt0022681",
-            "year": "1932",
-            "slug": "the-big-stampede-1932",
-            "grade": "D"
-          },
-          {
-            "title": "Haunted Gold",
-            "imdbId": "tt0022981",
-            "year": "1932",
-            "slug": "haunted-gold-1932",
             "grade": "F"
           },
           {
@@ -150,17 +149,17 @@
             "grade": "D-"
           },
           {
-            "title": "The Star Packer",
-            "imdbId": "tt0025830",
-            "year": "1934",
-            "slug": "the-star-packer-1934",
-            "grade": "D"
-          },
-          {
             "title": "The Lawless Frontier",
             "imdbId": "tt0025373",
             "year": "1934",
             "slug": "the-lawless-frontier-1934",
+            "grade": "D"
+          },
+          {
+            "title": "The Star Packer",
+            "imdbId": "tt0025830",
+            "year": "1934",
+            "slug": "the-star-packer-1934",
             "grade": "D"
           },
           {

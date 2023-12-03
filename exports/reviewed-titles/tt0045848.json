@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1956-04-09",
   "sortTitle": "Sawdust and Tinsel",
   "originalTitle": "Gycklarnas afton",
   "gradeValue": 10,
@@ -42,13 +41,6 @@
         "slug": "ingmar-bergman",
         "titles": [
           {
-            "title": "Summer with Monika",
-            "imdbId": "tt0046345",
-            "year": "1953",
-            "slug": "summer-with-monika-1953",
-            "grade": "B+"
-          },
-          {
             "title": "Summer Interlude",
             "imdbId": "tt0044060",
             "year": "1951",
@@ -56,18 +48,25 @@
             "grade": "C+"
           },
           {
-            "title": "Smiles of a Summer Night",
-            "imdbId": "tt0048641",
-            "year": "1955",
-            "slug": "smiles-of-a-summer-night-1955",
-            "grade": "C+"
+            "title": "Secrets of Women",
+            "imdbId": "tt0044811",
+            "year": "1952",
+            "slug": "waiting-women-1952",
+            "grade": "C-"
           },
           {
-            "title": "Brink of Life",
-            "imdbId": "tt0052017",
-            "year": "1958",
-            "slug": "brink-of-life-1958",
-            "grade": "D+"
+            "title": "Summer with Monika",
+            "imdbId": "tt0046345",
+            "year": "1953",
+            "slug": "summer-with-monika-1953",
+            "grade": "B+"
+          },
+          {
+            "title": "A Lesson in Love",
+            "imdbId": "tt0047167",
+            "year": "1954",
+            "slug": "a-lesson-in-love-1954",
+            "grade": "C"
           }
         ]
       }

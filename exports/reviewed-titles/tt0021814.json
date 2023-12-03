@@ -12,7 +12,6 @@
     "Fantasy",
     "Horror"
   ],
-  "releaseDate": "1931-02-14",
   "sortTitle": "Dracula",
   "originalTitle": "Dracula",
   "gradeValue": 11,
@@ -80,20 +79,6 @@
         "slug": "bela-lugosi",
         "titles": [
           {
-            "title": "Renegades",
-            "imdbId": "tt0021295",
-            "year": "1930",
-            "slug": "renegades-1930",
-            "grade": "C+"
-          },
-          {
-            "title": "Oh, for a Man!",
-            "imdbId": "tt0021199",
-            "year": "1930",
-            "slug": "oh-for-a-man-1930",
-            "grade": "F"
-          },
-          {
             "title": "The Black Camel",
             "imdbId": "tt0021668",
             "year": "1931",
@@ -106,6 +91,20 @@
             "year": "1931",
             "slug": "broadminded-1931",
             "grade": "F"
+          },
+          {
+            "title": "Murders in the Rue Morgue",
+            "imdbId": "tt0023249",
+            "year": "1932",
+            "slug": "murders-in-the-rue-morgue-1932",
+            "grade": "D-"
+          },
+          {
+            "title": "The Death Kiss",
+            "imdbId": "tt0023935",
+            "year": "1932",
+            "slug": "the-death-kiss-1932",
+            "grade": "D"
           }
         ]
       }

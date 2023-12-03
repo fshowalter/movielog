@@ -12,7 +12,6 @@
     "Romance",
     "Sport"
   ],
-  "releaseDate": "1929-09-01",
   "sortTitle": "Salute",
   "originalTitle": "Salute",
   "gradeValue": 4,
@@ -56,18 +55,18 @@
             "grade": "F"
           },
           {
-            "title": "Men Without Women",
-            "imdbId": "tt0021140",
-            "year": "1930",
-            "slug": "men-without-women-1930",
-            "grade": "C+"
-          },
-          {
             "title": "Born Reckless",
             "imdbId": "tt0020702",
             "year": "1930",
             "slug": "born-reckless-1930",
             "grade": "D+"
+          },
+          {
+            "title": "Men Without Women",
+            "imdbId": "tt0021140",
+            "year": "1930",
+            "slug": "men-without-women-1930",
+            "grade": "C+"
           }
         ]
       }

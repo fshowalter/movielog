@@ -13,7 +13,6 @@
     "Film-Noir",
     "Romance"
   ],
-  "releaseDate": "1934-03-07",
   "sortTitle": "Midnight",
   "originalTitle": "Midnight",
   "gradeValue": 1,
@@ -46,11 +45,11 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
-            "title": "Big City Blues",
-            "imdbId": "tt0022676",
+            "title": "Love Affair",
+            "imdbId": "tt0023153",
             "year": "1932",
-            "slug": "big-city-blues-1932",
-            "grade": "C+"
+            "slug": "love-affair-1932",
+            "grade": "C-"
           },
           {
             "title": "Three on a Match",
@@ -60,18 +59,18 @@
             "grade": "C+"
           },
           {
-            "title": "Two Against the World",
-            "imdbId": "tt0028426",
-            "year": "1936",
-            "slug": "two-against-the-world-1936",
-            "grade": "D-"
-          },
-          {
             "title": "Bullets or Ballots",
             "imdbId": "tt0027407",
             "year": "1936",
             "slug": "bullets-or-ballots-1936",
             "grade": "C-"
+          },
+          {
+            "title": "China Clipper",
+            "imdbId": "tt0027445",
+            "year": "1936",
+            "slug": "china-clipper-1936",
+            "grade": "D"
           }
         ]
       }

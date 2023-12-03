@@ -11,7 +11,6 @@
     "Comedy",
     "Family"
   ],
-  "releaseDate": "1940-02-16",
   "sortTitle": "Chump at Oxford, A",
   "originalTitle": "A Chump at Oxford",
   "gradeValue": 4,
@@ -58,18 +57,18 @@
             "grade": "C"
           },
           {
-            "title": "The Curse of Frankenstein",
-            "imdbId": "tt0050280",
-            "year": "1957",
-            "slug": "the-curse-of-frankenstein-1957",
-            "grade": "A"
-          },
-          {
             "title": "The Abominable Snowman",
             "imdbId": "tt0050095",
             "year": "1957",
             "slug": "the-abominable-snowman-1957",
             "grade": "D+"
+          },
+          {
+            "title": "The Curse of Frankenstein",
+            "imdbId": "tt0050280",
+            "year": "1957",
+            "slug": "the-curse-of-frankenstein-1957",
+            "grade": "A"
           }
         ]
       }

@@ -12,7 +12,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1930-10-25",
   "sortTitle": "For the Defense",
   "originalTitle": "For the Defense",
   "gradeValue": 6,
@@ -52,6 +51,13 @@
         "slug": "william-powell",
         "titles": [
           {
+            "title": "Behind the Make-Up",
+            "imdbId": "tt0020677",
+            "year": "1930",
+            "slug": "behind-the-make-up-1930",
+            "grade": "C+"
+          },
+          {
             "title": "The Benson Murder Case",
             "imdbId": "tt0020679",
             "year": "1930",
@@ -66,18 +72,11 @@
             "grade": "C+"
           },
           {
-            "title": "Man of the World",
-            "imdbId": "tt0022119",
-            "year": "1931",
-            "slug": "man-of-the-world-1931",
+            "title": "Street of Chance",
+            "imdbId": "tt0021420",
+            "year": "1930",
+            "slug": "street-of-chance-1930",
             "grade": "D+"
-          },
-          {
-            "title": "Ladies' Man",
-            "imdbId": "tt0022043",
-            "year": "1931",
-            "slug": "ladies-man-1931",
-            "grade": "C"
           }
         ]
       }

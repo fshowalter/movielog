@@ -12,7 +12,6 @@ JsonTitle = TypedDict(
         "imdbId": str,
         "title": str,
         "year": str,
-        "releaseDate": str,
         "sortTitle": str,
         "slug": Optional[str],
         "grade": Optional[str],
@@ -59,8 +58,7 @@ def export(repository_data: RepositoryData) -> None:
             JsonTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
-                year=str(title.year),
-                releaseDate=title.release_date.isoformat(),
+                year=title.year,
                 sortTitle=title.sort_title,
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,

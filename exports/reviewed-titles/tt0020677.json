@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1930-02-21",
   "sortTitle": "Behind the Make-Up",
   "originalTitle": "Behind the Make-Up",
   "gradeValue": 7,
@@ -43,18 +42,18 @@
         "slug": "william-powell",
         "titles": [
           {
+            "title": "The Greene Murder Case",
+            "imdbId": "tt0019949",
+            "year": "1929",
+            "slug": "the-greene-murder-case-1929",
+            "grade": "D+"
+          },
+          {
             "title": "Pointed Heels",
             "imdbId": "tt0020278",
             "year": "1929",
             "slug": "pointed-heels-1929",
             "grade": "D"
-          },
-          {
-            "title": "Street of Chance",
-            "imdbId": "tt0021420",
-            "year": "1930",
-            "slug": "street-of-chance-1930",
-            "grade": "D+"
           },
           {
             "title": "The Benson Murder Case",
@@ -64,11 +63,11 @@
             "grade": "C"
           },
           {
-            "title": "Shadow of the Law",
-            "imdbId": "tt0021359",
+            "title": "For the Defense",
+            "imdbId": "tt0020896",
             "year": "1930",
-            "slug": "shadow-of-the-law-1930",
-            "grade": "C+"
+            "slug": "for-the-defense-1930",
+            "grade": "C"
           }
         ]
       }

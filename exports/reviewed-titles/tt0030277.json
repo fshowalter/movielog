@@ -12,7 +12,6 @@
     "Mystery",
     "Thriller"
   ],
-  "releaseDate": "1938-01-22",
   "sortTitle": "Invisible Menace, The",
   "originalTitle": "The Invisible Menace",
   "gradeValue": 3,
@@ -45,18 +44,18 @@
         "slug": "boris-karloff",
         "titles": [
           {
+            "title": "Behind the Mask",
+            "imdbId": "tt0022663",
+            "year": "1932",
+            "slug": "behind-the-mask-1932",
+            "grade": "C-"
+          },
+          {
             "title": "Scarface",
             "imdbId": "tt0023427",
             "year": "1932",
             "slug": "scarface-1932",
             "grade": "B-"
-          },
-          {
-            "title": "Tonight or Never",
-            "imdbId": "tt0022489",
-            "year": "1931",
-            "slug": "tonight-or-never-1931",
-            "grade": "D+"
           },
           {
             "title": "British Intelligence",

@@ -12,7 +12,6 @@
     "Drama",
     "War"
   ],
-  "releaseDate": "1930-06-06",
   "sortTitle": "Born Reckless",
   "originalTitle": "Born Reckless",
   "gradeValue": 4,
@@ -44,6 +43,13 @@
         "slug": "john-ford",
         "titles": [
           {
+            "title": "The Black Watch",
+            "imdbId": "tt0019699",
+            "year": "1929",
+            "slug": "the-black-watch-1929",
+            "grade": "F"
+          },
+          {
             "title": "Salute",
             "imdbId": "tt0020359",
             "year": "1929",
@@ -63,13 +69,6 @@
             "year": "1930",
             "slug": "up-the-river-1930",
             "grade": "B-"
-          },
-          {
-            "title": "The Seas Beneath",
-            "imdbId": "tt0022353",
-            "year": "1931",
-            "slug": "seas-beneath-1931",
-            "grade": "D+"
           }
         ]
       }

@@ -12,7 +12,6 @@
     "Drama",
     "Sport"
   ],
-  "releaseDate": "1932-04-16",
   "sortTitle": "Crowd Roars, The",
   "originalTitle": "The Crowd Roars",
   "gradeValue": 5,
@@ -51,6 +50,13 @@
         "slug": "howard-hawks",
         "titles": [
           {
+            "title": "The Dawn Patrol",
+            "imdbId": "tt0020815",
+            "year": "1930",
+            "slug": "the-dawn-patrol-1930",
+            "grade": "B-"
+          },
+          {
             "title": "The Criminal Code",
             "imdbId": "tt0021770",
             "year": "1930",
@@ -77,6 +83,27 @@
             "year": "1930",
             "slug": "the-dawn-patrol-1930",
             "grade": "B-"
+          },
+          {
+            "title": "The Criminal Code",
+            "imdbId": "tt0021770",
+            "year": "1930",
+            "slug": "the-criminal-code-1930",
+            "grade": "C+"
+          },
+          {
+            "title": "Scarface",
+            "imdbId": "tt0023427",
+            "year": "1932",
+            "slug": "scarface-1932",
+            "grade": "B-"
+          },
+          {
+            "title": "Rio Bravo",
+            "imdbId": "tt0053221",
+            "year": "1959",
+            "slug": "rio-bravo-1959",
+            "grade": "A+"
           }
         ]
       }

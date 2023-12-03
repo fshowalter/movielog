@@ -12,7 +12,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1932-06-10",
   "sortTitle": "Merrily We Go to Hell",
   "originalTitle": "Merrily We Go to Hell",
   "gradeValue": 3,
@@ -45,6 +44,13 @@
         "slug": "cary-grant",
         "titles": [
           {
+            "title": "Penny Serenade",
+            "imdbId": "tt0034012",
+            "year": "1941",
+            "slug": "penny-serenade-1941",
+            "grade": "F"
+          },
+          {
             "title": "Every Girl Should Be Married",
             "imdbId": "tt0040331",
             "year": "1948",
@@ -64,13 +70,6 @@
             "year": "1936",
             "slug": "suzy-1936",
             "grade": "D-"
-          },
-          {
-            "title": "Topper",
-            "imdbId": "tt0029682",
-            "year": "1937",
-            "slug": "topper-1937",
-            "grade": "B-"
           }
         ]
       }

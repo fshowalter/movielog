@@ -2,8 +2,10 @@ from __future__ import annotations
 
 from movielog.exports import (
     list_tools,
+    overrated_disappointments,
     reviewed_titles,
     stats,
+    underseen_gems,
     viewings,
     watchlist_titles,
 )
@@ -34,23 +36,24 @@ def export_data() -> None:
         repository_api.titles(), key=lambda title: title.imdb_id
     )
 
-    titles_with_reviews = [titles[review_id] for review_id in reviews.keys()]
-
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(), key=lambda viewing: viewing.sequence
         ),
         titles=titles,
         reviews=reviews,
-        reviewed_titles=titles_with_reviews,
+        reviewed_titles=[titles[review_id] for review_id in reviews.keys()],
         watchlist_people=build_watchlist_people(),
         watchlist_collections=sorted(
             repository_api.watchlist_collections(),
             key=lambda collection: collection.slug,
         ),
+        metadata=repository_api.metadata(),
     )
 
     viewings.export(repository_data)
     reviewed_titles.export(repository_data)
+    overrated_disappointments.export(repository_data)
+    underseen_gems.export(repository_data)
     watchlist_titles.export(repository_data)
     stats.export(repository_data)

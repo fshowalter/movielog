@@ -11,7 +11,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1932-04-30",
   "sortTitle": "So Big!",
   "originalTitle": "So Big!",
   "gradeValue": 3,
@@ -44,13 +43,6 @@
         "slug": "bette-davis",
         "titles": [
           {
-            "title": "Way Back Home",
-            "imdbId": "tt0022551",
-            "year": "1931",
-            "slug": "way-back-home-1931",
-            "grade": "D+"
-          },
-          {
             "title": "The Man Who Played God",
             "imdbId": "tt0023181",
             "year": "1932",
@@ -65,11 +57,18 @@
             "grade": "D"
           },
           {
-            "title": "Hell's House",
-            "imdbId": "tt0022991",
+            "title": "Three on a Match",
+            "imdbId": "tt0023590",
             "year": "1932",
-            "slug": "hells-house-1932",
-            "grade": "C-"
+            "slug": "three-on-a-match-1932",
+            "grade": "C+"
+          },
+          {
+            "title": "20,000 Years in Sing Sing",
+            "imdbId": "tt0023731",
+            "year": "1932",
+            "slug": "20000-years-in-sing-sing-1932",
+            "grade": "B"
           }
         ]
       }

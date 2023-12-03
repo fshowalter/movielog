@@ -13,7 +13,6 @@
     "Film-Noir",
     "Thriller"
   ],
-  "releaseDate": "1936-06-06",
   "sortTitle": "Bullets or Ballots",
   "originalTitle": "Bullets or Ballots",
   "gradeValue": 5,
@@ -46,18 +45,18 @@
         "slug": "humphrey-bogart",
         "titles": [
           {
+            "title": "Three on a Match",
+            "imdbId": "tt0023590",
+            "year": "1932",
+            "slug": "three-on-a-match-1932",
+            "grade": "C+"
+          },
+          {
             "title": "Midnight",
             "imdbId": "tt0025499",
             "year": "1934",
             "slug": "midnight-1934",
             "grade": "F"
-          },
-          {
-            "title": "Two Against the World",
-            "imdbId": "tt0028426",
-            "year": "1936",
-            "slug": "two-against-the-world-1936",
-            "grade": "D-"
           },
           {
             "title": "China Clipper",

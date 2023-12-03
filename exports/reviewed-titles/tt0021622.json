@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1931-12-26",
   "sortTitle": "Arrowsmith",
   "originalTitle": "Arrowsmith",
   "gradeValue": 4,
@@ -49,11 +48,18 @@
         "slug": "john-ford",
         "titles": [
           {
-            "title": "The Seas Beneath",
-            "imdbId": "tt0022353",
-            "year": "1931",
-            "slug": "seas-beneath-1931",
-            "grade": "D+"
+            "title": "Men Without Women",
+            "imdbId": "tt0021140",
+            "year": "1930",
+            "slug": "men-without-women-1930",
+            "grade": "C+"
+          },
+          {
+            "title": "Up the River",
+            "imdbId": "tt0021508",
+            "year": "1930",
+            "slug": "up-the-river-1930",
+            "grade": "B-"
           },
           {
             "title": "The Brat",
@@ -63,18 +69,11 @@
             "grade": "D-"
           },
           {
-            "title": "Pilgrimage",
-            "imdbId": "tt0024453",
-            "year": "1933",
-            "slug": "pilgrimage-1933",
-            "grade": "C"
-          },
-          {
-            "title": "Doctor Bull",
-            "imdbId": "tt0023955",
-            "year": "1933",
-            "slug": "doctor-bull-1933",
-            "grade": "C-"
+            "title": "The Seas Beneath",
+            "imdbId": "tt0022353",
+            "year": "1931",
+            "slug": "seas-beneath-1931",
+            "grade": "D+"
           }
         ]
       }

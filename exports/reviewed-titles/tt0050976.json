@@ -11,7 +11,6 @@
     "Drama",
     "Fantasy"
   ],
-  "releaseDate": "1958-10-13",
   "sortTitle": "Seventh Seal, The",
   "originalTitle": "Det sjunde inseglet",
   "gradeValue": 10,
@@ -43,18 +42,18 @@
         "slug": "ingmar-bergman",
         "titles": [
           {
+            "title": "Dreams",
+            "imdbId": "tt0048272",
+            "year": "1955",
+            "slug": "dreams-1955",
+            "grade": "C+"
+          },
+          {
             "title": "Smiles of a Summer Night",
             "imdbId": "tt0048641",
             "year": "1955",
             "slug": "smiles-of-a-summer-night-1955",
             "grade": "C+"
-          },
-          {
-            "title": "Brink of Life",
-            "imdbId": "tt0052017",
-            "year": "1958",
-            "slug": "brink-of-life-1958",
-            "grade": "D+"
           },
           {
             "title": "Wild Strawberries",

@@ -11,7 +11,6 @@
     "Drama",
     "Western"
   ],
-  "releaseDate": "1934-11-22",
   "sortTitle": "Lawless Frontier, The",
   "originalTitle": "The Lawless Frontier",
   "gradeValue": 3,
@@ -51,6 +50,13 @@
         "slug": "john-wayne",
         "titles": [
           {
+            "title": "The Life of Jimmy Dolan",
+            "imdbId": "tt0024257",
+            "year": "1933",
+            "slug": "the-life-of-jimmy-dolan-1933",
+            "grade": "C+"
+          },
+          {
             "title": "The Man from Monterey",
             "imdbId": "tt0024293",
             "year": "1933",
@@ -70,13 +76,6 @@
             "year": "1942",
             "slug": "reunion-in-france-1942",
             "grade": "D-"
-          },
-          {
-            "title": "Big Jim McLain",
-            "imdbId": "tt0044418",
-            "year": "1952",
-            "slug": "big-jim-mclain-1952",
-            "grade": "C"
           }
         ]
       }

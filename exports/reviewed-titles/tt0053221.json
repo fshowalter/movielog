@@ -11,7 +11,6 @@
     "Drama",
     "Western"
   ],
-  "releaseDate": "1959-04-04",
   "sortTitle": "Rio Bravo",
   "originalTitle": "Rio Bravo",
   "gradeValue": 13,
@@ -64,18 +63,18 @@
         "slug": "howard-hawks",
         "titles": [
           {
-            "title": "Scarface",
-            "imdbId": "tt0023427",
-            "year": "1932",
-            "slug": "scarface-1932",
-            "grade": "B-"
-          },
-          {
             "title": "The Crowd Roars",
             "imdbId": "tt0022792",
             "year": "1932",
             "slug": "the-crowd-roars-1932",
             "grade": "C-"
+          },
+          {
+            "title": "Scarface",
+            "imdbId": "tt0023427",
+            "year": "1932",
+            "slug": "scarface-1932",
+            "grade": "B-"
           },
           {
             "title": "The Dawn Patrol",
@@ -121,11 +120,11 @@
             "grade": "B-"
           },
           {
-            "title": "Arizona",
-            "imdbId": "tt0022134",
+            "title": "Maker of Men",
+            "imdbId": "tt0022109",
             "year": "1931",
-            "slug": "arizona-1931",
-            "grade": "C-"
+            "slug": "maker-of-men-1931",
+            "grade": "F"
           }
         ]
       }

@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1932-10-15",
   "sortTitle": "Cabin in the Cotton, The",
   "originalTitle": "The Cabin in the Cotton",
   "gradeValue": 3,
@@ -43,11 +42,18 @@
         "slug": "bette-davis",
         "titles": [
           {
-            "title": "The Rich Are Always with Us",
-            "imdbId": "tt0023394",
-            "year": "1932",
-            "slug": "the-rich-are-always-with-us-1932",
-            "grade": "D"
+            "title": "Waterloo Bridge",
+            "imdbId": "tt0022550",
+            "year": "1931",
+            "slug": "waterloo-bridge-1931",
+            "grade": "C-"
+          },
+          {
+            "title": "Way Back Home",
+            "imdbId": "tt0022551",
+            "year": "1931",
+            "slug": "way-back-home-1931",
+            "grade": "D+"
           },
           {
             "title": "Hell's House",
@@ -57,18 +63,11 @@
             "grade": "C-"
           },
           {
-            "title": "Three on a Match",
-            "imdbId": "tt0023590",
+            "title": "The Man Who Played God",
+            "imdbId": "tt0023181",
             "year": "1932",
-            "slug": "three-on-a-match-1932",
-            "grade": "C+"
-          },
-          {
-            "title": "20,000 Years in Sing Sing",
-            "imdbId": "tt0023731",
-            "year": "1932",
-            "slug": "20000-years-in-sing-sing-1932",
-            "grade": "B"
+            "slug": "the-man-who-played-god-1932",
+            "grade": "D"
           }
         ]
       }

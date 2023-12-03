@@ -12,7 +12,6 @@
     "Drama",
     "Romance"
   ],
-  "releaseDate": "1935-09-06",
   "sortTitle": "Steamboat Round the Bend",
   "originalTitle": "Steamboat Round the Bend",
   "gradeValue": 6,
@@ -44,18 +43,18 @@
         "slug": "john-ford",
         "titles": [
           {
-            "title": "Pilgrimage",
-            "imdbId": "tt0024453",
-            "year": "1933",
-            "slug": "pilgrimage-1933",
-            "grade": "C"
-          },
-          {
             "title": "Doctor Bull",
             "imdbId": "tt0023955",
             "year": "1933",
             "slug": "doctor-bull-1933",
             "grade": "C-"
+          },
+          {
+            "title": "Pilgrimage",
+            "imdbId": "tt0024453",
+            "year": "1933",
+            "slug": "pilgrimage-1933",
+            "grade": "C"
           },
           {
             "title": "The Plough and the Stars",

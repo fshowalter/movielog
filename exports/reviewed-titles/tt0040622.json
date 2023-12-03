@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1963-07-01",
   "sortTitle": "Music in Darkness",
   "originalTitle": "Musik i m\u00f6rker",
   "gradeValue": 4,
@@ -42,17 +41,10 @@
         "slug": "ingmar-bergman",
         "titles": [
           {
-            "title": "Thirst",
-            "imdbId": "tt0041998",
-            "year": "1949",
-            "slug": "thirst-1949",
-            "grade": "F"
-          },
-          {
-            "title": "Prison",
-            "imdbId": "tt0041399",
-            "year": "1949",
-            "slug": "prison-1949",
+            "title": "A Ship to India",
+            "imdbId": "tt0039834",
+            "year": "1947",
+            "slug": "a-ship-to-india-1947",
             "grade": "D+"
           },
           {
@@ -63,11 +55,18 @@
             "grade": "D+"
           },
           {
-            "title": "Crisis",
-            "imdbId": "tt0038675",
-            "year": "1946",
-            "slug": "crisis-1946",
-            "grade": "B-"
+            "title": "Prison",
+            "imdbId": "tt0041399",
+            "year": "1949",
+            "slug": "prison-1949",
+            "grade": "D+"
+          },
+          {
+            "title": "Thirst",
+            "imdbId": "tt0041998",
+            "year": "1949",
+            "slug": "thirst-1949",
+            "grade": "F"
           }
         ]
       }

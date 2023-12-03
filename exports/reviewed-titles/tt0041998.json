@@ -10,7 +10,6 @@
   "genres": [
     "Drama"
   ],
-  "releaseDate": "1961-07-11",
   "sortTitle": "Thirst",
   "originalTitle": "T\u00f6rst",
   "gradeValue": 1,
@@ -42,18 +41,11 @@
         "slug": "ingmar-bergman",
         "titles": [
           {
-            "title": "The Virgin Spring",
-            "imdbId": "tt0053976",
-            "year": "1960",
-            "slug": "the-virgin-spring-1960",
-            "grade": "B"
-          },
-          {
-            "title": "Secrets of Women",
-            "imdbId": "tt0044811",
-            "year": "1952",
-            "slug": "waiting-women-1952",
-            "grade": "C-"
+            "title": "Music in Darkness",
+            "imdbId": "tt0040622",
+            "year": "1948",
+            "slug": "music-in-darkness-1948",
+            "grade": "D+"
           },
           {
             "title": "Prison",
@@ -63,11 +55,18 @@
             "grade": "D+"
           },
           {
-            "title": "Music in Darkness",
-            "imdbId": "tt0040622",
-            "year": "1948",
-            "slug": "music-in-darkness-1948",
-            "grade": "D+"
+            "title": "This Can't Happen Here",
+            "imdbId": "tt0043019",
+            "year": "1950",
+            "slug": "this-cant-happen-here-1950",
+            "grade": "F"
+          },
+          {
+            "title": "To Joy",
+            "imdbId": "tt0043048",
+            "year": "1950",
+            "slug": "to-joy-1950",
+            "grade": "C+"
           }
         ]
       }

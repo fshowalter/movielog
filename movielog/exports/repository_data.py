@@ -13,3 +13,4 @@ class RepositoryData(object):
         repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
     ]
     watchlist_collections: list[repository_api.WatchlistCollection]
+    metadata: repository_api.Metadata

@@ -10,7 +10,6 @@
   "genres": [
     "Horror"
   ],
-  "releaseDate": "2006-11-21",
   "sortTitle": "Boxer's Omen, The",
   "originalTitle": "Mo",
   "gradeValue": 9,
@@ -45,6 +44,13 @@
         "slug": "shaw-brothers",
         "titles": [
           {
+            "title": "Crippled Avengers",
+            "imdbId": "tt0077292",
+            "year": "1978",
+            "slug": "crippled-avengers-1978",
+            "grade": "C+"
+          },
+          {
             "title": "Five Elements Ninjas",
             "imdbId": "tt0084921",
             "year": "1982",
@@ -64,13 +70,6 @@
             "year": "1972",
             "slug": "the-boxer-from-shantung-1972",
             "grade": "C+"
-          },
-          {
-            "title": "Five Fingers of Death",
-            "imdbId": "tt0070800",
-            "year": "1972",
-            "slug": "five-fingers-of-death-1972",
-            "grade": "B"
           }
         ]
       }

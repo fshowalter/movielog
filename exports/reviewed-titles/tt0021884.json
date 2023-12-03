@@ -13,7 +13,6 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "releaseDate": "1931-11-21",
   "sortTitle": "Frankenstein",
   "originalTitle": "Frankenstein",
   "gradeValue": 10,
@@ -53,6 +52,13 @@
         "slug": "boris-karloff",
         "titles": [
           {
+            "title": "Cracked Nuts",
+            "imdbId": "tt0021768",
+            "year": "1931",
+            "slug": "cracked-nuts-1931",
+            "grade": "D"
+          },
+          {
             "title": "Five Star Final",
             "imdbId": "tt0021873",
             "year": "1931",
@@ -67,18 +73,11 @@
             "grade": "C"
           },
           {
-            "title": "Behind the Mask",
-            "imdbId": "tt0022663",
-            "year": "1932",
-            "slug": "behind-the-mask-1932",
-            "grade": "C-"
-          },
-          {
-            "title": "Scarface",
-            "imdbId": "tt0023427",
-            "year": "1932",
-            "slug": "scarface-1932",
-            "grade": "B-"
+            "title": "I Like Your Nerve",
+            "imdbId": "tt0021986",
+            "year": "1931",
+            "slug": "i-like-your-nerve-1931",
+            "grade": "F"
           }
         ]
       }

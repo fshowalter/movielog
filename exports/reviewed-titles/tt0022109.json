@@ -11,7 +11,6 @@
     "Drama",
     "Sport"
   ],
-  "releaseDate": "1931-12-10",
   "sortTitle": "Maker of Men",
   "originalTitle": "Maker of Men",
   "gradeValue": 1,
@@ -44,6 +43,20 @@
         "slug": "john-wayne",
         "titles": [
           {
+            "title": "Rio Bravo",
+            "imdbId": "tt0053221",
+            "year": "1959",
+            "slug": "rio-bravo-1959",
+            "grade": "A+"
+          },
+          {
+            "title": "The Big Trail",
+            "imdbId": "tt0020691",
+            "year": "1930",
+            "slug": "the-big-trail-1930",
+            "grade": "B-"
+          },
+          {
             "title": "Arizona",
             "imdbId": "tt0022134",
             "year": "1931",
@@ -56,20 +69,6 @@
             "year": "1931",
             "slug": "the-range-feud-1931",
             "grade": "D+"
-          },
-          {
-            "title": "Texas Cyclone",
-            "imdbId": "tt0023567",
-            "year": "1932",
-            "slug": "texas-cyclone-1932",
-            "grade": "C-"
-          },
-          {
-            "title": "Two-Fisted Law",
-            "imdbId": "tt0023631",
-            "year": "1932",
-            "slug": "two-fisted-law-1932",
-            "grade": "F"
           }
         ]
       }

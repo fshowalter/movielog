@@ -11,7 +11,6 @@
     "Drama",
     "Horror"
   ],
-  "releaseDate": "1958-06-16",
   "sortTitle": "Horror of Dracula",
   "originalTitle": "Dracula",
   "gradeValue": 11,
@@ -106,6 +105,13 @@
             "grade": "D+"
           },
           {
+            "title": "The Curse of Frankenstein",
+            "imdbId": "tt0050280",
+            "year": "1957",
+            "slug": "the-curse-of-frankenstein-1957",
+            "grade": "A"
+          },
+          {
             "title": "Violent Playground",
             "imdbId": "tt0052367",
             "year": "1958",
@@ -118,13 +124,6 @@
             "year": "1971",
             "slug": "the-house-that-dripped-blood-1971",
             "grade": "C+"
-          },
-          {
-            "title": "Asylum",
-            "imdbId": "tt0068230",
-            "year": "1972",
-            "slug": "asylum-1972",
-            "grade": "D+"
           }
         ]
       }
@@ -136,10 +135,10 @@
         "slug": "hammer-films",
         "titles": [
           {
-            "title": "The Abominable Snowman",
-            "imdbId": "tt0050095",
+            "title": "Quatermass 2",
+            "imdbId": "tt0050873",
             "year": "1957",
-            "slug": "the-abominable-snowman-1957",
+            "slug": "quatermass-2-1957",
             "grade": "D+"
           },
           {
