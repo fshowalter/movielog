@@ -139,7 +139,7 @@ def build_json_more_for_watchlist_entities(
                     repository_data.titles[reviewed_id]
                     for reviewed_id in reviewed_ids_for_watchlist_entity
                 ],
-                key=lambda title: "{0}{1}".format(title.year, title.imdb_id),
+                key=lambda title: title.pseudo_release_date,
             ),
             matcher=build_imdb_id_matcher(review.imdb_id),
         )
@@ -180,6 +180,18 @@ def build_json_more_reviews(
     ]
 
 
+def watchlist_people_for_title(
+    title: repository_api.Title,
+    kind: repository_api.WatchlistPersonKind,
+    repository_data: RepositoryData,
+) -> list[repository_api.WatchlistPerson]:
+    return [
+        watchlist_person
+        for watchlist_person in repository_data.watchlist_people[kind]
+        if title.imdb_id in watchlist_person.title_ids
+    ]
+
+
 def build_json_more(
     title: repository_api.Title,
     review: repository_api.Review,
@@ -188,30 +200,32 @@ def build_json_more(
     return JsonMore(
         directedBy=build_json_more_for_watchlist_entities(
             review=review,
-            watchlist_entities=title.watchlist_people(
-                "directors", repository_data.watchlist_people["directors"]
+            watchlist_entities=watchlist_people_for_title(
+                title=title, kind="directors", repository_data=repository_data
             ),
             repository_data=repository_data,
         ),
         withPerformer=build_json_more_for_watchlist_entities(
             review=review,
-            watchlist_entities=title.watchlist_people(
-                "performers", repository_data.watchlist_people["performers"]
+            watchlist_entities=watchlist_people_for_title(
+                title=title, kind="performers", repository_data=repository_data
             ),
             repository_data=repository_data,
         ),
         writtenBy=build_json_more_for_watchlist_entities(
             review=review,
-            watchlist_entities=title.watchlist_people(
-                "writers", repository_data.watchlist_people["writers"]
+            watchlist_entities=watchlist_people_for_title(
+                title=title, kind="writers", repository_data=repository_data
             ),
             repository_data=repository_data,
         ),
         inCollection=build_json_more_for_watchlist_entities(
             review=review,
-            watchlist_entities=title.watchlist_collections(
-                repository_data.watchlist_collections
-            ),
+            watchlist_entities=[
+                collection
+                for collection in repository_data.watchlist_collections
+                if title.imdb_id in collection.title_ids
+            ],
             repository_data=repository_data,
         ),
         reviews=build_json_more_reviews(review=review, repository_data=repository_data),
@@ -252,7 +266,8 @@ def build_json_reviewed_title(
                 date=viewing.date.isoformat(),
                 venue=viewing.venue,
             )
-            for viewing in title.viewings(repository_data.viewings)
+            for viewing in repository_data.viewings
+            if viewing.imdb_id == title.imdb_id
         ],
         more=build_json_more(
             title=title, review=review, repository_data=repository_data

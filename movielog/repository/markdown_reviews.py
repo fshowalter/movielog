@@ -9,6 +9,7 @@ from typing import Any, Iterable, Optional, TypedDict, cast
 
 import yaml
 
+from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
@@ -44,9 +45,8 @@ ReviewYaml = TypedDict(
 
 def create_or_update(
     imdb_id: str,
-    slug: str,
     grade: str,
-    title: str,
+    full_title: str,
     date: datetime.date,
 ) -> MarkdownReview:
     markdown_review = next(
@@ -61,13 +61,13 @@ def create_or_update(
     if markdown_review:
         markdown_review.yaml["date"] = date
         markdown_review.yaml["grade"] = grade
-        markdown_review.yaml["title"] = title
+        markdown_review.yaml["title"] = full_title
     else:
         markdown_review = MarkdownReview(
             yaml=ReviewYaml(
                 imdb_id=imdb_id,
-                title=title,
-                slug=slug,
+                title=full_title,
+                slug=slugifier.slugify_title(full_title),
                 grade=grade,
                 date=date,
             )

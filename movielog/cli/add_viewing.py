@@ -16,7 +16,7 @@ Option = Tuple[Optional[str], AnyFormattedText]
 Stages = Literal[
     "ask_for_title",
     "ask_for_date",
-    "ask_for_medium_or_venue",
+    "ask_for_medium",
     "ask_for_grade",
     "persist_viewing",
     "end",
@@ -26,7 +26,7 @@ Stages = Literal[
 @dataclass(kw_only=True)
 class State(object):
     stage: Stages = "ask_for_title"
-    title: Optional[repository_api.Title] = None
+    title: Optional[select_title.SearchResult] = None
     date: Optional[datetime.date] = None
     medium: Optional[str] = None
     venue: Optional[str] = None
@@ -41,13 +41,40 @@ def prompt() -> None:
         "ask_for_title": ask_for_title,
         "ask_for_date": ask_for_date,
         "ask_for_medium": ask_for_medium,
-        "ask_for_venue": ask_for_venue,
         "ask_for_grade": ask_for_grade,
         "persist_viewing": persist_viewing,
     }
 
     while state.stage != "end":
         state_machine[state.stage](state)
+
+
+def persist_viewing(state: State) -> State:
+    assert state.title
+    assert state.date
+    assert state.medium
+    assert state.grade
+
+    repository_api.create_viewing(
+        imdb_id=state.title.imdb_id,
+        full_title=state.title.full_title,
+        date=state.date,
+        medium=state.medium,
+    )
+
+    repository_api.create_or_update_review(
+        imdb_id=state.title.imdb_id,
+        full_title=state.title.full_title,
+        date=state.date,
+        grade=state.grade,
+    )
+
+    if confirm("Add another viewing?"):
+        state.stage = "ask_for_title"
+    else:
+        state.stage = "end"
+
+    return state
 
 
 def ask_for_title(state: State) -> State:
@@ -102,7 +129,7 @@ def ask_for_date(state: State) -> State:
 def ask_for_medium(state: State) -> State:
     state.medium = None
 
-    options: List[Option] = build_medium_options()
+    options = build_medium_options()
 
     selected_medium = None
 
@@ -112,28 +139,27 @@ def ask_for_medium(state: State) -> State:
             options=options,
         )
 
-        selected_medium = selected_medium or new_medium()
+        selected_medium = selected_medium or ask.prompt("Medium: ")
 
         if selected_medium is None:
             break
 
     if not selected_medium:
-        return None
+        state.stage = "ask_for_date"
+        return state
 
-    if confirm("{0}?".format(selected_medium)):
-        return selected_medium
+    state.medium = selected_medium
+    state.stage = "ask_for_grade"
 
-    return ask_for_medium()
+    return state
 
 
 def build_medium_options() -> List[Option]:
-    media = movielog_api.recent_media()
+    media = repository_api.recent_media()
 
-    options: List[Option] = []
-
-    for medium in media:
-        option = (medium, "<cyan>{0}</cyan>".format(html.escape(medium)))
-        options.append(option)
+    options: List[Option] = [
+        (medium, "<cyan>{0}</cyan>".format(html.escape(medium))) for medium in media
+    ]
 
     options.append((None, "New medium"))
 
@@ -151,23 +177,35 @@ def is_grade(text: str) -> bool:
     return bool(re.match("[a-d|A-D|f|F][+|-]?", text))
 
 
-def ask_for_grade(imdb_id: str) -> Optional[str]:
+def ask_for_grade(state: State) -> State:
+    state.grade = None
+
     validator = Validator.from_callable(
         is_grade,
         error_message="Must be a valid grade.",
         move_cursor_to_end=True,
     )
 
-    existing_review = movielog_api.review_for_movie(imdb_id)
+    assert state.title
+
+    existing_review = next(
+        (
+            review
+            for review in repository_api.reviews()
+            if review.imdb_id == state.title.imdb_id
+        ),
+        None,
+    )
 
     default_grade = existing_review.grade if existing_review else ""
 
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 
     if not review_grade:
-        return None
+        state.stage = "ask_for_medium"
+        state.grade = None
+        return state
 
-    if confirm(review_grade):  # noqa: WPS323
-        return review_grade
-
-    return ask_for_grade(imdb_id=imdb_id)
+    state.grade = review_grade
+    state.stage = "persist_viewing"
+    return state

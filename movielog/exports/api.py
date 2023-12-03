@@ -27,6 +27,24 @@ def build_watchlist_people() -> (
     return watchlist
 
 
+def with_progress(func):
+    def wrapper():
+        test_array = [1, 2, 3]
+
+        try:
+            func(test_array)
+        except:
+            print(test_array)
+
+    return wrapper
+
+
+@with_progress
+def test(array_to_test) -> None:
+    array_to_test.append(4)
+    raise
+
+
 def export_data() -> None:
     reviews = list_tools.list_to_dict(
         repository_api.reviews(), key=lambda review: review.imdb_id

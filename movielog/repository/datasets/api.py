@@ -38,7 +38,7 @@ def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
         imdb_id = str(fields[0])
         if imdb_id in AllowList or title_fields_are_valid(fields):
             title = str(fields[2])
-            year = int(str(fields[5] or "2023"))
+            year = str(fields[5] or "????")
             titles[imdb_id] = DatasetTitle(
                 imdb_id=str(fields[0]),
                 title=title,
@@ -65,9 +65,7 @@ def update_titles_with_principals(
     count = 0
     for fields in extractor.extract(title_principals_file_path):
         title = titles.get(str(fields[0]), None)
-        if not title:
-            continue
-        if fields[3] not in {"actor", "actress"}:
+        if not title or fields[3] not in {"actor", "actress"}:
             continue
 
         name = names.get(str(fields[2]), None)

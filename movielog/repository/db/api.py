@@ -1,5 +1,8 @@
 from movielog.repository.datasets import api as datasets_api
+from movielog.repository.db import db as database
 from movielog.repository.db import names_table, titles_table
+
+db = database
 
 
 def update_titles_and_names(

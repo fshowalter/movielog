@@ -2,8 +2,8 @@ import sqlite3
 from dataclasses import dataclass
 from typing import Dict, List
 
-from movielog import db
 from movielog.cli import query_formatter
+from movielog.repository.db import db
 
 
 @dataclass

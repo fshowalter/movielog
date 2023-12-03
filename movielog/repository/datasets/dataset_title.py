@@ -5,7 +5,7 @@ class DatasetTitle(TypedDict):
     imdb_id: str
     title: str
     original_title: str
-    year: int
+    year: str
     full_title: str
     runtime_minutes: Optional[int]
     principal_cast: list[str]

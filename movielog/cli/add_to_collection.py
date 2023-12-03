@@ -3,10 +3,10 @@ from __future__ import annotations
 import html
 from typing import Optional, Sequence, Tuple
 
-from movielog import api as movielog_api
-from movielog.cli import radio_list, select_movie
+from movielog.cli import radio_list, select_title
+from movielog.repository import api as repository_api
 
-Collection = movielog_api.Collection
+Collection = repository_api.WatchlistCollection
 Option = Tuple[Optional[Collection], str]
 
 
@@ -16,9 +16,9 @@ def prompt() -> None:
     if not collection:
         return
 
-    movie = select_movie.prompt(prompt_text=select_movie_prompt_text(collection))
+    movie = select_title.prompt(prompt_text=select_movie_prompt_text(collection))
     if movie:
-        movielog_api.add_movie_to_collection(
+        repository_api.add_movie_to_collection(
             collection=collection,
             imdb_id=movie.imdb_id,
             title=movie.title,
@@ -30,7 +30,7 @@ def prompt() -> None:
 def build_options() -> Sequence[Option]:
     options: list[Option] = [(None, "Go back")]
 
-    for collection in movielog_api.collections():
+    for collection in repository_api.collections():
         option = "<cyan>{0}</cyan>".format(collection.name)
         options.append((collection, option))
 

@@ -9,16 +9,17 @@ from dataclasses import dataclass
 from datetime import datetime
 from glob import glob
 from pathlib import Path
-from typing import Iterable, Optional, TypedDict, cast
+from typing import TYPE_CHECKING, Iterable, Optional, TypedDict, cast
 
 import imdb
 from slugify import slugify
 
-from movielog.moviedata import api as moviedata_api
-from movielog.repository.datasets import api as datasets_api
 from movielog.utils import format_tools, path_tools
 from movielog.utils.logging import logger
-from movielog.watchlist import api as watchlist_api
+
+if TYPE_CHECKING:
+    from movielog.repository.datasets import api as datasets_api
+
 
 imdb_http = imdb.IMDb(reraiseExceptions=True)
 FOLDER_NAME = os.path.join("data", "titles")
@@ -594,6 +595,8 @@ def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) ->
 
         updated_json_title = copy.deepcopy(json_title)
 
+        updated_json_title["title"] = dataset_title["title"]
+        updated_json_title["year"] = dataset_title["year"]
         updated_json_title["runtimeMinutes"] = dataset_title["runtime_minutes"] or 0
         updated_json_title["imdbRating"] = dataset_title["imdb_rating"]
         updated_json_title["imdbVotes"] = dataset_title["imdb_votes"]

@@ -1,54 +1,51 @@
 import html
-from typing import List, Optional, Sequence, Tuple
+from typing import Iterable, Optional, Tuple
 
 from prompt_toolkit.formatted_text import AnyFormattedText
+from prompt_toolkit.shortcuts import confirm
 
-from movielog.cli import ask, confirm, movie_searcher, radio_list
+from movielog.cli import ask, radio_list, title_searcher
 
-SearchResult = movie_searcher.SearchResult
+SearchResult = title_searcher.SearchResult
 Option = Tuple[Optional[SearchResult], AnyFormattedText]
 
 
 def prompt(prompt_text: str = "Title: ") -> Optional[SearchResult]:
-    movie = None
-
-    while movie is None:
+    while True:
         query = ask.prompt(prompt_text, rprompt="Use ^ and $ to anchor")
 
         if query is None:
-            break
+            return None
 
-        search_results = movie_searcher.search_by_title(query)
+        search_results = title_searcher.search(query)
         options = build_options(search_results)
 
-        movie = radio_list.prompt(
+        selected_title = radio_list.prompt(
             title='Results for "<cyan>{0}</cyan>":'.format(query),
             options=options,
         )
 
-    if not movie:
-        return None
+        if selected_title is None:
+            continue
 
-    if confirm.prompt(("{0}?".format(result_to_html_string(movie)))):
-        return movie
-
-    return prompt(prompt_text)
+        if confirm(("{0}?".format(result_to_html_string(selected_title)))):
+            return selected_title
 
 
 def result_to_html_string(search_result: SearchResult) -> str:
-    return "<cyan>{0} ({1})</cyan> ({2})".format(
-        html.escape(search_result.title),
-        search_result.year,
+    return "<cyan>{0}</cyan> ({1})".format(
+        html.escape(search_result.full_title),
         ", ".join(
             html.escape(principal) for principal in search_result.principal_cast_names
         ),
     )
 
 
-def build_options(search_results: Sequence[SearchResult]) -> Sequence[Option]:
-    options: List[Option] = [(None, "Search again")]
+def build_options(search_results: Iterable[SearchResult]) -> list[Option]:
+    if not search_results:
+        return [(None, "Search Again")]
 
-    for search_result in search_results:
-        options.append((search_result, result_to_html_string(search_result)))
-
-    return options
+    return [
+        (search_result, result_to_html_string(search_result))
+        for search_result in search_results
+    ]
