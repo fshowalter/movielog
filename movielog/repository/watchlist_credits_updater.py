@@ -4,10 +4,14 @@ import os
 import re
 from collections.abc import Generator
 from contextlib import contextmanager
-from typing import Callable, Optional, Union
+from typing import Optional, Union
 
-from movielog.moviedata import api as moviedata_api
-from movielog.repository import imdb_http, json_watchlist_people, watchlist_serializer
+from movielog.repository import (
+    credit_notes_validator,
+    imdb_http,
+    json_watchlist_people,
+    watchlist_serializer,
+)
 from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonTitle
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
@@ -19,31 +23,23 @@ VALID_KINDS = (
 )
 
 
-def log_excluded_title(
-    index: int, total: int, excluded_title: JsonExcludedTitle
-) -> None:
-    logger.log(
-        "{}/{} {} added to {} ({}).",
-        index,
-        total,
-        excluded_title["title"],
-        "excludedTitles",
-        excluded_title["reason"],
-    )
-
-
 def add_to_person_excluded_titles(
     imdb_movie: imdb_http.Movie,
     person: json_watchlist_people.JsonWatchlistPerson,
     reason: str,
-) -> JsonExcludedTitle:
+) -> None:
     excluded_title = JsonExcludedTitle(
         imdbId=imdb_movie.imdb_id, title=imdb_movie.full_title, reason=reason
     )
 
     person["excludedTitles"].append(excluded_title)
 
-    return excluded_title
+    logger.log(
+        "{} added to {} ({}).",
+        excluded_title["title"],
+        "excludedTitles",
+        excluded_title["reason"],
+    )
 
 
 def title_sort_key(title: Union[JsonTitle, JsonExcludedTitle]) -> str:
@@ -57,74 +53,40 @@ def title_sort_key(title: Union[JsonTitle, JsonExcludedTitle]) -> str:
     return "(????)-{0}".format(title["imdbId"])
 
 
-def valid_for_director(
-    imdb_movie: imdb_http.Movie, person: json_watchlist_people.JsonWatchlistPerson
+def invalid_credit_notes(
+    imdb_movie: imdb_http.Movie,
+    person: json_watchlist_people.JsonWatchlistPerson,
+    kind: imdb_http.CreditKind,
 ) -> Optional[str]:
-    len(imdb_movie.credits_for_person(person["imdbId"])) == len(
-        imdb_movie.invalid_credits_for_person(person["imdbId"])
-    )
+    credits_for_person = [credit for credit in imdb_movie.credits[kind]]
 
-    invalid_credit_notes = [
-        credit.notes
-        for credit in credits
-        if credit.notes
-        and ("scenes deleted" in credit.notes or "uncredited" in credit.notes)
-    ]
+    valid_credits = []
+    invalid_credits = []
 
-    if len(credits) - len(invalid_credit_notes) == 0:
-        return " / ".join(invalid_credit_notes)
+    for credit in credits_for_person:
+        valid, notes = credit_notes_validator.credit_notes_are_valid_for_kind(
+            credit.notes, kind
+        )
+        if valid:
+            valid_credits.append(credit)
+        else:
+            invalid_credits.append(credit)
 
-    return None
+    if valid_credits:
+        return None
 
-
-def valid_for_performe(
-    imdb_movie: imdb_http.Movie, person: json_watchlist_people.JsonWatchlistPerson
-) -> Optional[str]:
-    performer_notes = set(
+    return " / ".join(
         [
-            credit.notes
-            for credit in imdb_movie.get("cast", [])
-            if "nm{0}".format(credit.personID) in person.imdbId
+            invalid_credit.notes
+            for invalid_credit in invalid_credits
+            if invalid_credit.notes
         ]
     )
-
-    imdb_movie.notes = " / ".join(performer_notes)
-
-    if not moviedata_api.valid_cast_notes(imdb_movie):
-        return imdb_movie.notes
-
-    return None
-
-
-def valid_for_writer(
-    imdb_movie: imdb_http.Movie, person: json_watchlist_people.JsonWatchlistPerson
-) -> Optional[str]:
-    writer_notes = set(
-        [
-            credit.notes
-            for credit in imdb_movie.get("writers", [])
-            if "nm{0}".format(credit.personID) in person.imdbId
-        ]
-    )
-
-    imdb_movie.notes = " / ".join(writer_notes)
-
-    if not moviedata_api.valid_writer_notes(imdb_movie):
-        return imdb_movie.notes
-
-    return None
-
-
-NotesValidator: dict[imdb_http.CreditKind, Callable] = {
-    "director": valid_for_director,
-    "writer": valid_for_writer,
-    "performer": valid_for_performer,
-}
 
 
 def parse_credit_title_ids_for_person(
     person: json_watchlist_people.JsonWatchlistPerson, kind: imdb_http.CreditKind
-) -> set(str):
+) -> set[str]:
     if isinstance(person["imdbId"], str):
         imdb_person = imdb_http.get_person(person["imdbId"])
         return set([credit.imdb_id for credit in imdb_person.credits[kind]])
@@ -143,55 +105,36 @@ def remove_missing_titles(
     person: json_watchlist_people.JsonWatchlistPerson, credit_title_ids: set[str]
 ) -> None:
     existing_title_ids = set([title["imdbId"] for title in person["titles"]])
-    missing_title_ids = existing_title_ids - credit_title_ids
 
-    for index, missing_title_id in enumerate(missing_title_ids):
-        missing_title = next(
-            (
-                title
-                for title in person["titles"]
-                if title["imdbId"] == missing_title_id
-            ),
-            None,
+    missing_titles = (
+        title
+        for title in person["titles"]
+        if title["imdbId"] in existing_title_ids - credit_title_ids
+    )
+
+    for missing_title in missing_titles:
+        person["titles"].remove(missing_title)
+        logger.log(
+            "Missing title {} removed.",
+            missing_title["title"],
         )
 
-        if missing_title:
-            person["titles"].remove(missing_title)
-            logger.log(
-                "{}/{} missing title {} removed.",
-                index + 1,
-                len(missing_title_ids),
-                missing_title_id,
-            )
-
-
-def remove_missing_excluded_titles(
-    person: json_watchlist_people.JsonWatchlistPerson, credit_title_ids: set[str]
-) -> None:
     existing_excluded_title_ids = set(
         [title["imdbId"] for title in person["excludedTitles"]]
     )
 
-    missing_excluded_title_ids = existing_excluded_title_ids - credit_title_ids
+    missing_excluded_titles = (
+        title
+        for title in person["excludedTitles"]
+        if title["imdbId"] in existing_excluded_title_ids - credit_title_ids
+    )
 
-    for index, missing_excluded_title_id in enumerate(missing_excluded_title_ids):
-        missing_excluded_title = next(
-            (
-                excluded_title
-                for excluded_title in person["excludedTitles"]
-                if excluded_title["imdbId"] == missing_excluded_title_id
-            ),
-            None,
+    for missing_exluded_title in missing_excluded_titles:
+        person["excludedTitles"].remove(missing_exluded_title)
+        logger.log(
+            "Missing excluded title {} removed.",
+            missing_exluded_title["title"],
         )
-
-        if missing_excluded_title:
-            person["excludedTitles"].remove(missing_excluded_title)
-            logger.log(
-                "{}/{} missing excluded title {} removed.",
-                index + 1,
-                len(missing_excluded_title_ids),
-                missing_excluded_title_id,
-            )
 
 
 def skip_existing_titles(
@@ -215,13 +158,18 @@ def update_entity_titles(
 
     remove_missing_titles(person=person, credit_title_ids=credit_title_ids)
 
-    remove_missing_excluded_titles(person=person, credit_title_ids=credit_title_ids)
-
     new_credit_title_ids = skip_existing_titles(
         person=person, credit_title_ids=credit_title_ids
     )
 
     for index, imdb_id in enumerate(new_credit_title_ids):
+        logger.log(
+            "{}/{} fetching data for {}...",
+            index + 1,
+            len(new_credit_title_ids),
+            imdb_id,
+        )
+
         imdb_movie = imdb_http.get_movie(imdb_id)
 
         if imdb_movie.production_status:
@@ -234,61 +182,38 @@ def update_entity_titles(
             continue
 
         if imdb_movie.kind not in VALID_KINDS:
-            excluded_title = add_to_person_excluded_titles(
+            add_to_person_excluded_titles(
                 imdb_movie=imdb_movie, person=person, reason=imdb_movie.kind
-            )
-            log_excluded_title(
-                index=index,
-                total=len(new_credit_title_ids),
-                excluded_title=excluded_title,
             )
             continue
 
         invalid_genres = {"Adult", "Short", "Documentary"} & imdb_movie.genres
         if invalid_genres:
-            excluded_title = add_to_person_excluded_titles(
+            add_to_person_excluded_titles(
                 imdb_movie=imdb_movie,
                 person=person,
                 reason="{0}".format(", ".join(invalid_genres)),
             )
-            log_excluded_title(
-                index=index,
-                total=len(new_credit_title_ids),
-                excluded_title=excluded_title,
-            )
             continue
 
         if "Silent" in imdb_movie.sound_mix:
-            excluded_title = add_to_person_excluded_titles(
+            add_to_person_excluded_titles(
                 imdb_movie=imdb_movie,
                 person=person,
                 reason="silent",
             )
-            log_excluded_title(
-                index=index,
-                total=len(new_credit_title_ids),
-                excluded_title=excluded_title,
-            )
             continue
 
-        # invalid_notes = validator(imdb_movie, person)
-        # if invalid_notes:
-        #     person.excludedTitles.append(
-        #         JsonExcludedTitle(
-        #             imdbId="tt{0}".format(imdb_movie.movieID),
-        #             title=imdb_movie["long imdb title"],
-        #             reason=invalid_notes,
-        #         )
-        #     )
-        #     logger.log(
-        #         "{}/{} {} added to {} ({}).",
-        #         index + 1,
-        #         total_filmography,
-        #         imdb_movie["long imdb title"],
-        #         "excludedTitles",
-        #         invalid_notes,
-        #     )
-        #     continue
+        invalid_notes = invalid_credit_notes(
+            imdb_movie=imdb_movie, person=person, kind=kind
+        )
+        if invalid_notes:
+            add_to_person_excluded_titles(
+                imdb_movie=imdb_movie,
+                person=person,
+                reason=invalid_notes,
+            )
+            continue
 
         person["titles"].append(
             JsonTitle(
@@ -296,10 +221,9 @@ def update_entity_titles(
                 title=imdb_movie.full_title,
             )
         )
+
         logger.log(
-            "{}/{} {} added to {}.",
-            index + 1,
-            len(new_credit_title_ids),
+            "{} added to {}.",
             imdb_movie.full_title,
             "titles",
         )

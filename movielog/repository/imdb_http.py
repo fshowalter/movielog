@@ -5,32 +5,27 @@ import imdb
 
 imdb_http = imdb.Cinemagoer(reraiseExceptions=True)
 
-NameCreditKind = Literal[
-    "directors",
-    "writers",
-    "performers",
-]
 
-NAME_CREDIT_KINDS = get_args(NameCreditKind)
+CreditKind = Literal["director", "writer", "performer"]
 
-TitleCreditKind = Literal["director", "writer", "performer"]
-
-TITLE_CREDIT_KINDS = get_args(TitleCreditKind)
+CREDIT_KINDS = get_args(CreditKind)
 
 
 @dataclass
 class TitleCredit(object):
+    kind: CreditKind
     imdb_id: str
     full_title: str
 
 
 @dataclass
 class Person(object):
-    credits: dict[TitleCreditKind, list[TitleCredit]]
+    credits: dict[CreditKind, list[TitleCredit]]
 
 
 @dataclass
 class NameCredit(object):
+    kind: CreditKind
     imdb_id: str
     name: str
     notes: Optional[str] = None
@@ -41,20 +36,20 @@ class Movie(object):
     imdb_id: str
     production_status: Optional[str]
     kind: str
-    credits: dict[NameCreditKind, list[NameCredit]]
+    credits: dict[CreditKind, list[NameCredit]]
     full_title: str
     genres: set[str]
     sound_mix: set[str]
 
     def credits_for_person(
-        self, person_imdb_id: str, kind: NameCreditKind
+        self, person_imdb_id: str, kind: CreditKind
     ) -> list[NameCredit]:
         return [
             credit for credit in self.credits[kind] if credit.imdb_id == person_imdb_id
         ]
 
     def invalid_credits_for_person(
-        self, person_imdb_id: str, kind: NameCreditKind
+        self, person_imdb_id: str, kind: CreditKind
     ) -> list[NameCredit]:
         return [
             credit
@@ -66,7 +61,7 @@ class Movie(object):
 
 def build_title_credits_for_person(
     imdb_person: imdb.Person.Person,
-) -> dict[TitleCreditKind, list[TitleCredit]]:
+) -> dict[CreditKind, list[TitleCredit]]:
     credits = {}
 
     filmography = imdb_person["filmography"]
@@ -79,9 +74,10 @@ def build_title_credits_for_person(
         [],
     )
 
-    for kind in TITLE_CREDIT_KINDS:
+    for kind in CREDIT_KINDS:
         credits[kind] = [
             TitleCredit(
+                kind=kind,
                 imdb_id="tt{0}".format(credit.movieID),
                 full_title=credit["long imdb title"],
             )
@@ -93,18 +89,19 @@ def build_title_credits_for_person(
 
 def build_name_credits_for_movie(
     imdb_movie: imdb.Movie.Movie,
-) -> dict[NameCreditKind, list[NameCredit]]:
-    name_credit_kind_map: dict[NameCreditKind, str] = {
-        "directors": "director",
-        "performers": "cast",
-        "writers": "writers",
+) -> dict[CreditKind, list[NameCredit]]:
+    credit_kind_map: dict[CreditKind, str] = {
+        "director": "directors",
+        "performer": "cast",
+        "writer": "writers",
     }
 
     credits = {}
 
-    for name_credit_kind, imdb_key in name_credit_kind_map.items():
-        credits[name_credit_kind] = [
+    for credit_kind, imdb_key in credit_kind_map.items():
+        credits[credit_kind] = [
             NameCredit(
+                kind=credit_kind,
                 imdb_id="nm{0}".format(credit.personID),
                 name=credit["name"],
                 notes=credit.notes if credit.notes else None,
