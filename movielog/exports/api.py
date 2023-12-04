@@ -8,6 +8,7 @@ from movielog.exports import (
     underseen_gems,
     viewings,
     watchlist_collections,
+    watchlist_people,
     watchlist_titles,
 )
 from movielog.exports.repository_data import RepositoryData
@@ -58,4 +59,5 @@ def export_data() -> None:
     underseen_gems.export(repository_data)
     watchlist_titles.export(repository_data)
     watchlist_collections.export(repository_data)
+    watchlist_people.export(repository_data)
     stats.export(repository_data)

@@ -5,7 +5,7 @@ from contextlib import contextmanager
 from os import path
 from typing import Any, Callable, Dict, Generator, Mapping, Sequence, Tuple
 
-from movielog.utils import format_tools
+from movielog.repository import format_tools
 from movielog.utils.logging import logger
 
 DB_FILE_NAME = "movie_db.sqlite3"

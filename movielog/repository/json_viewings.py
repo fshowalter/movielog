@@ -3,8 +3,8 @@ import os
 from glob import glob
 from typing import Iterable, Optional, TypedDict, cast
 
-from movielog.repository import slugifier
-from movielog.utils import format_tools, path_tools
+from movielog.repository import format_tools, slugifier
+from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
 FOLDER_NAME = "viewings"

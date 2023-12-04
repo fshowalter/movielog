@@ -1,6 +1,6 @@
 import pytest
 
-from movielog.utils import format_tools
+from movielog.repository import format_tools
 
 
 @pytest.mark.parametrize("test_input, expected", [(1000, "1,000"), (100, "100")])

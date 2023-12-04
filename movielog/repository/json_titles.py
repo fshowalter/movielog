@@ -14,7 +14,8 @@ from typing import TYPE_CHECKING, Iterable, Optional, TypedDict, cast
 import imdb
 from slugify import slugify
 
-from movielog.utils import format_tools, path_tools
+from movielog.repository import format_tools
+from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
 if TYPE_CHECKING:

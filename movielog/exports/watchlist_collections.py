@@ -56,7 +56,7 @@ def build_collection_titles(
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "watchlist-collections")
 
-    watchlist_titles = []
+    watchlist_collections = []
 
     for collection in repository_data.watchlist_collections:
         reviewed_titles = [
@@ -65,7 +65,7 @@ def export(repository_data: RepositoryData) -> None:
             if review.imdb_id in collection.title_ids
         ]
 
-        watchlist_titles.append(
+        watchlist_collections.append(
             JsonCollection(
                 name=collection.name,
                 slug=collection.slug,
@@ -76,6 +76,6 @@ def export(repository_data: RepositoryData) -> None:
         )
 
     exporter.serialize_dicts(
-        watchlist_titles,
+        watchlist_collections,
         "watchlist-collections",
     )

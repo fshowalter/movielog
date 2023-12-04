@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+from movielog.repository import format_tools
 from movielog.repository.datasets import downloader, extractor
 from movielog.repository.datasets.dataset_name import DatasetName
 from movielog.repository.datasets.dataset_title import DatasetTitle
-from movielog.utils import format_tools
 from movielog.utils.logging import logger
 
 TITLE_BASICS_FILE_NAME = "title.basics.tsv.gz"

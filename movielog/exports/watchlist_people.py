@@ -18,8 +18,8 @@ JsonTitle = TypedDict(
     },
 )
 
-JsonCollection = TypedDict(
-    "JsonCollection",
+JsonWatchlistPerson = TypedDict(
+    "JsonWatchlistPerson",
     {
         "name": str,
         "slug": str,
@@ -57,7 +57,7 @@ def export(repository_data: RepositoryData) -> None:
     for kind in repository_api.WATCHLIST_PERSON_KINDS:
         logger.log("==== Begin exporting {}...", "watchlist-{0}".format(kind))
 
-        watchlist_titles = []
+        watchlist_people = []
 
         for watchlist_person in repository_data.watchlist_people[kind]:
             reviewed_titles = [
@@ -66,8 +66,8 @@ def export(repository_data: RepositoryData) -> None:
                 if review.imdb_id in watchlist_person.title_ids
             ]
 
-            watchlist_titles.append(
-                JsonCollection(
+            watchlist_people.append(
+                JsonWatchlistPerson(
                     name=watchlist_person.name,
                     slug=watchlist_person.slug,
                     titleCount=len(watchlist_person.title_ids),
@@ -79,6 +79,6 @@ def export(repository_data: RepositoryData) -> None:
             )
 
         exporter.serialize_dicts(
-            watchlist_titles,
+            watchlist_people,
             "watchlist-{0}".format(kind),
         )
