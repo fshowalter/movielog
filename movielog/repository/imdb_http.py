@@ -19,7 +19,7 @@ class TitleCredit(object):
 
 
 @dataclass
-class Person(object):
+class NamePage(object):
     credits: dict[CreditKind, list[TitleCredit]]
 
 
@@ -32,7 +32,7 @@ class NameCredit(object):
 
 
 @dataclass
-class Movie(object):
+class TitlePage(object):
     imdb_id: str
     production_status: Optional[str]
     kind: str
@@ -59,12 +59,12 @@ class Movie(object):
         ]
 
 
-def build_title_credits_for_person(
-    imdb_person: imdb.Person.Person,
+def build_title_credits_for_name_page(
+    imdb_name_page: imdb.Person.Person,
 ) -> dict[CreditKind, list[TitleCredit]]:
     credits = {}
 
-    filmography = imdb_person["filmography"]
+    filmography = imdb_name_page["filmography"]
 
     filmography["performer"] = filmography.pop(
         "actor",
@@ -81,14 +81,14 @@ def build_title_credits_for_person(
                 imdb_id="tt{0}".format(credit.movieID),
                 full_title=credit["long imdb title"],
             )
-            for credit in imdb_person["filmography"][kind]
+            for credit in imdb_name_page["filmography"][kind]
         ]
 
     return credits
 
 
-def build_name_credits_for_movie(
-    imdb_movie: imdb.Movie.Movie,
+def build_name_credits_for_title_page(
+    imdb_title_page: imdb.Movie.Movie,
 ) -> dict[CreditKind, list[NameCredit]]:
     credit_kind_map: dict[CreditKind, str] = {
         "director": "directors",
@@ -106,27 +106,27 @@ def build_name_credits_for_movie(
                 name=credit["name"],
                 notes=credit.notes if credit.notes else None,
             )
-            for credit in imdb_movie[imdb_key]
+            for credit in imdb_title_page[imdb_key]
         ]
 
     return credits
 
 
-def get_person(imdb_id: str) -> Person:
-    imdb_person = imdb_http.get_person(imdb_id[2:])
+def get_name_page(imdb_id: str) -> NamePage:
+    imdb_name_page = imdb_http.get_person(imdb_id[2:])
 
-    return Person(credits=build_title_credits_for_person(imdb_person))
+    return NamePage(credits=build_title_credits_for_name_page(imdb_name_page))
 
 
-def get_movie(imdb_id: str) -> Movie:
+def get_title_page(imdb_id: str) -> TitlePage:
     imdb_movie = imdb_http.get_movie(imdb_id[2:])
 
-    return Movie(
+    return TitlePage(
         imdb_id="tt{0}".format(imdb_movie.movieID),
         production_status=imdb_movie.get("production status", None),
         kind=imdb_movie["kind"],
         full_title=imdb_movie["long imdb title"],
         genres=set(imdb_movie.get("genres", [])),
         sound_mix=set(imdb_movie.get("sound mix", [])),
-        credits=build_name_credits_for_movie(imdb_movie),
+        credits=build_name_credits_for_title_page(imdb_movie),
     )

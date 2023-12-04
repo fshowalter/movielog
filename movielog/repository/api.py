@@ -9,6 +9,7 @@ from movielog.repository import (
     json_watchlist_collections,
     json_watchlist_people,
     markdown_reviews,
+    watchlist_credits_updater,
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
@@ -20,6 +21,8 @@ WatchlistPersonKind = json_watchlist_people.Kind
 WATCHLIST_PERSON_KINDS = get_args(WatchlistPersonKind)
 
 db = db_api.db
+
+update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 
 
 @dataclass
@@ -277,7 +280,3 @@ def create_or_update_review(
             imdb_id=imdb_id, full_title=full_title, date=date, grade=grade
         )
     )
-
-
-def update_watchlist_people() -> None:
-    ...

@@ -6,7 +6,7 @@ def prompt() -> None:
     options = [
         (repository_api.update_datasets, "<cyan>Update datasets</cyan>"),
         (
-            repository_api.update_watchlist_people,
+            repository_api.update_watchlist_credits,
             "<cyan>Update watchlist director, performer, and writer credits</cyan>",
         ),
     ]

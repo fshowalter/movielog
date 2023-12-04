@@ -31,31 +31,6 @@ def serialize(
     watchlist_entity: WatchlistEntityType,
     folder_name: str,
 ) -> str:
-    #     if watchlist_entity.__class__.__name__ != "Collection":
-    #         toml_file_path = os.path.join(
-    #             FOLDER_PATH,
-    #             watchlist_entity.folder_name,
-    #             "{0}.toml".format(watchlist_entity.slug),
-    #         )
-
-    #         path_tools.ensure_file_path(toml_file_path)
-
-    #         toml_template = """
-    # name = "{0}"
-    # slug = "{1}"
-    # imdb_id = "{2}"
-    # excluded_titles = []
-    # """
-
-    #         with open(toml_file_path, "w") as toml_output_file:
-    #             toml_output_file.write(
-    #                 toml_template.format(
-    #                     watchlist_entity.name,
-    #                     watchlist_entity.slug,
-    #                     watchlist_entity.imdb_id,
-    #                 ).strip()
-    #             )
-
     file_path = os.path.join(
         FOLDER_PATH,
         folder_name,
