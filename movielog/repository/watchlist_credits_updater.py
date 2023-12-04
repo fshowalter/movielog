@@ -56,7 +56,7 @@ def add_title_page_to_watchlist_person_titles(
     )
 
 
-def all_credits_on_title_page_are_invalid_for_watchlist_person(
+def all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
     title_page: imdb_http.TitlePage,
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
@@ -116,7 +116,7 @@ def remove_watchlist_person_titles_not_in_given_title_ids(
 ) -> None:
     for title_kind in ("titles", "excludedTitles"):
         existing_title_ids = set(
-            [title["imdbId"] for title in watchlist_person[title_kind]]
+            [title["imdbId"] for title in watchlist_person[title_kind]]  # type:ignore
         )
 
         missing_titles = (
@@ -126,7 +126,7 @@ def remove_watchlist_person_titles_not_in_given_title_ids(
         )
 
         for missing_title in missing_titles:
-            watchlist_person[title_kind].remove(missing_title)
+            watchlist_person[title_kind].remove(missing_title)  # type:ignore
             logger.log(
                 "Missing title {} removed from {}.", missing_title["title"], title_kind
             )
@@ -164,7 +164,7 @@ def title_page_is_invalid_credit(
     return (False, "None")
 
 
-def update_watchlist_person_titles_for_credit_kind(
+def update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
 ) -> None:
@@ -244,7 +244,7 @@ def get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
     return progress_file_path
 
 
-def update_watchlist_credits() -> None:
+def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
     progress_files: list[str] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
