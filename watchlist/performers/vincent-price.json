@@ -395,7 +395,6 @@
       "imdbId": "tt0082121",
       "title": "Bustin' Loose (1981)"
     },
-    
     {
       "imdbId": "tt0085693",
       "title": "House of the Long Shadows (1983)"
@@ -439,24 +438,9 @@
     {
       "imdbId": "tt0104400",
       "title": "The Heart of Justice (1992) (TV)"
-    }    
+    }
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt8263566",
-      "title": "Chris and the Magical Drip (1981) (TV)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt29732758",
-      "title": "Synthwave Horror: House on Haunted Hill (2023)",
-      "reason": "archive footage"
-    },
-    {
-      "imdbId": "tt0078327",
-      "title": "The Strange Case of Alice Cooper (1979) (TV)",
-      "reason": "music video"
-    },
     {
       "imdbId": "tt0041037",
       "title": "\"Lights Out\" (1946)",
@@ -853,6 +837,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt0078327",
+      "title": "The Strange Case of Alice Cooper (1979) (TV)",
+      "reason": "music video"
+    },
+    {
       "imdbId": "tt0078702",
       "title": "\"Time Express\" (1979)",
       "reason": "tv series"
@@ -871,6 +860,11 @@
       "imdbId": "tt1475429",
       "title": "The Sorcerer's Apprentice (1980)",
       "reason": "Short"
+    },
+    {
+      "imdbId": "tt8263566",
+      "title": "Chris and the Magical Drip (1981) (TV)",
+      "reason": "tv special"
     },
     {
       "imdbId": "tt0083975",
@@ -951,6 +945,11 @@
       "imdbId": "tt0112389",
       "title": "The Thief and the Cobbler (1993)",
       "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt29732758",
+      "title": "Synthwave Horror: House on Haunted Hill (2023)",
+      "reason": "archive footage"
     }
   ]
 }

@@ -10,6 +10,8 @@ CreditKind = Literal["director", "writer", "performer"]
 
 CREDIT_KINDS = get_args(CreditKind)
 
+IMDbDataAccessError = imdb.IMDbDataAccessError
+
 
 @dataclass
 class TitleCredit(object):
@@ -41,23 +43,6 @@ class TitlePage(object):
     genres: set[str]
     sound_mix: set[str]
 
-    def credits_for_person(
-        self, person_imdb_id: str, kind: CreditKind
-    ) -> list[NameCredit]:
-        return [
-            credit for credit in self.credits[kind] if credit.imdb_id == person_imdb_id
-        ]
-
-    def invalid_credits_for_person(
-        self, person_imdb_id: str, kind: CreditKind
-    ) -> list[NameCredit]:
-        return [
-            credit
-            for credit in self.credits_for_person(person_imdb_id, kind)
-            if credit.notes
-            and ("scenes deleted" in credit.notes or "uncredited" in credit.notes)
-        ]
-
 
 def build_title_credits_for_name_page(
     imdb_name_page: imdb.Person.Person,
@@ -81,7 +66,7 @@ def build_title_credits_for_name_page(
                 imdb_id="tt{0}".format(credit.movieID),
                 full_title=credit["long imdb title"],
             )
-            for credit in imdb_name_page["filmography"][kind]
+            for credit in imdb_name_page["filmography"].get(kind, [])
         ]
 
     return credits
@@ -106,7 +91,8 @@ def build_name_credits_for_title_page(
                 name=credit["name"],
                 notes=credit.notes if credit.notes else None,
             )
-            for credit in imdb_title_page[imdb_key]
+            for credit in imdb_title_page.get(imdb_key, [])
+            if "name" in credit.keys()
         ]
 
     return credits
@@ -124,7 +110,7 @@ def get_title_page(imdb_id: str) -> TitlePage:
     return TitlePage(
         imdb_id="tt{0}".format(imdb_movie.movieID),
         production_status=imdb_movie.get("production status", None),
-        kind=imdb_movie["kind"],
+        kind=imdb_movie.get("kind", "Unknown"),
         full_title=imdb_movie["long imdb title"],
         genres=set(imdb_movie.get("genres", [])),
         sound_mix=set(imdb_movie.get("sound mix", [])),

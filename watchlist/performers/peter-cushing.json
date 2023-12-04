@@ -23,13 +23,10 @@
       "imdbId": "tt0040416",
       "title": "Hamlet (1948)"
     },
-    
     {
       "imdbId": "tt0044926",
       "title": "Moulin Rouge (1952)"
     },
-    
-    
     {
       "imdbId": "tt0337115",
       "title": "Rookery Nook (1953) (TV)"
@@ -38,7 +35,6 @@
       "imdbId": "tt0046786",
       "title": "The Black Knight (1954)"
     },
-    
     {
       "imdbId": "tt14473100",
       "title": "1984 - BBC Live TV Productions (1954) (TV)"
@@ -51,7 +47,6 @@
       "imdbId": "tt0049461",
       "title": "Magic Fire (1955)"
     },
-
     {
       "imdbId": "tt0337099",
       "title": "Richard of Bordeaux (1955) (TV)"
@@ -72,7 +67,6 @@
       "imdbId": "tt0050280",
       "title": "The Curse of Frankenstein (1957)"
     },
-    
     {
       "imdbId": "tt0050894",
       "title": "The Revenge of Frankenstein (1958)"
@@ -85,7 +79,6 @@
       "imdbId": "tt0052367",
       "title": "Violent Playground (1958)"
     },
-    
     {
       "imdbId": "tt0337483",
       "title": "The Winslow Boy (1958) (TV)"
@@ -393,46 +386,6 @@
   ],
   "excludedTitles": [
     {
-      "imdbId": "tt0336407",
-      "title": "The Face of Love (1954) (TV)",
-      "reason":"tv movie"
-    },
-    {
-      "imdbId": "tt0336080",
-      "title": "The Browning Version (1955) (TV)",
-      "reason":"tv movie"
-    },
-    {
-      "imdbId": "tt0336589",
-      "title": "Home at Seven (1957) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0336619",
-      "title": "If This Be Error (1952) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0337368",
-      "title": "Uncle Harry (1958) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0337474",
-      "title": "When We Are Married (1951) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt1662014",
-      "title": "Asmod\u00e9e (1952) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0336917",
-      "title": "The Noble Spaniard (1953) (TV)",
-      "reason": "tv movie"
-    },
-    {
       "imdbId": "tt0032612",
       "title": "The Howards of Virginia (1940)",
       "reason": "(uncredited)"
@@ -473,9 +426,19 @@
       "reason": "tv series"
     },
     {
+      "imdbId": "tt0337474",
+      "title": "When We Are Married (1951) (TV)",
+      "reason": "tv movie"
+    },
+    {
       "imdbId": "tt0335734",
       "title": "\"Pride and Prejudice\" (1952) (mini)",
       "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0336619",
+      "title": "If This Be Error (1952) (TV)",
+      "reason": "tv movie"
     },
     {
       "imdbId": "tt0337200",
@@ -488,6 +451,11 @@
       "reason": "tv series"
     },
     {
+      "imdbId": "tt1662014",
+      "title": "Asmod\u00e9e (1952) (TV)",
+      "reason": "tv movie"
+    },
+    {
       "imdbId": "tt0045458",
       "title": "\"You Are There\" (1953)",
       "reason": "tv series"
@@ -498,9 +466,34 @@
       "reason": "tv mini series"
     },
     {
+      "imdbId": "tt0336917",
+      "title": "The Noble Spaniard (1953) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0336407",
+      "title": "The Face of Love (1954) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0336080",
+      "title": "The Browning Version (1955) (TV)",
+      "reason": "tv movie"
+    },
+    {
       "imdbId": "tt0441950",
       "title": "\"ITV Television Playhouse\" (1955)",
       "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0336589",
+      "title": "Home at Seven (1957) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0337368",
+      "title": "Uncle Harry (1958) (TV)",
+      "reason": "tv movie"
     },
     {
       "imdbId": "tt0054518",
@@ -572,7 +565,5 @@
       "title": "\"Hammer House of Horror\" (1980)",
       "reason": "tv series"
     }
-    
-    
   ]
 }

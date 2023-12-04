@@ -215,7 +215,6 @@
       "imdbId": "tt1745672",
       "title": "Children of the Corn: Genesis (2011)"
     },
-    
     {
       "imdbId": "tt2199723",
       "title": "Willa (2012)"
@@ -268,7 +267,6 @@
       "imdbId": "tt6214928",
       "title": "1922 (2017)"
     },
-    
     {
       "imdbId": "tt5565634",
       "title": "Children of the Corn: Runaway (2018) (V)"
@@ -285,7 +283,6 @@
       "imdbId": "tt0837563",
       "title": "Pet Sematary (2019)"
     },
-    
     {
       "imdbId": "tt4687108",
       "title": "In the Tall Grass (2019)"
@@ -330,54 +327,8 @@
       "imdbId": "tt3427252",
       "title": "The Boogeyman (2023)"
     }
-    
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt29392917",
-      "title": "Carrie (2019) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt29392906",
-      "title": "The Colorado Kid: A Hard Case Crime Novel (2025) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt16101762",
-      "title": "The Shining Audiobook (2012) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt28319989",
-      "title": "Pet Sematary (2018) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt28319999",
-      "title": "The Body (2018) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt29392901",
-      "title": "Later (2021) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt28319986",
-      "title": "Thinner (2016) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt28320004",
-      "title": "Misery (2020) (V)",
-      "reason": "audiobook"
-    },
-    {
-      "imdbId": "tt29392915",
-      "title": "Misery (2020) (V)",
-      "reason": "audiobook"
-    },
     {
       "imdbId": "tt0079844",
       "title": "\"Salem's Lot\" (1979) (mini)",
@@ -864,6 +815,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt16101762",
+      "title": "The Shining Audiobook (2012) (V)",
+      "reason": "audiobook"
+    },
+    {
       "imdbId": "tt2150468",
       "title": "Stephen King's The Boogeyman (2012)",
       "reason": "Short"
@@ -1089,6 +1045,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt28319986",
+      "title": "Thinner (2016) (V)",
+      "reason": "audiobook"
+    },
+    {
       "imdbId": "tt2879552",
       "title": "\"11.22.63\" (2016) (mini)",
       "reason": "tv mini series"
@@ -1264,6 +1225,16 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt28319989",
+      "title": "Pet Sematary (2018) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt28319999",
+      "title": "The Body (2018) (V)",
+      "reason": "audiobook"
+    },
+    {
       "imdbId": "tt6548228",
       "title": "\"Castle Rock\" (2018)",
       "reason": "tv series"
@@ -1404,6 +1375,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt29392917",
+      "title": "Carrie (2019) (V)",
+      "reason": "audiobook"
+    },
+    {
       "imdbId": "tt7379726",
       "title": "Rest Stop (2019)",
       "reason": "Short"
@@ -1494,6 +1470,16 @@
       "reason": "tv mini series"
     },
     {
+      "imdbId": "tt28320004",
+      "title": "Misery (2020) (V)",
+      "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt29392915",
+      "title": "Misery (2020) (V)",
+      "reason": "audiobook"
+    },
+    {
       "imdbId": "tt6849784",
       "title": "One for the Road (2020)",
       "reason": "Short"
@@ -1557,6 +1543,11 @@
       "imdbId": "tt17519692",
       "title": "Cain Rose Up (2021)",
       "reason": "Short"
+    },
+    {
+      "imdbId": "tt29392901",
+      "title": "Later (2021) (V)",
+      "reason": "audiobook"
     },
     {
       "imdbId": "tt3312878",
@@ -1632,6 +1623,11 @@
       "imdbId": "tt25995788",
       "title": "All That You Love (2023)",
       "reason": "Short"
+    },
+    {
+      "imdbId": "tt29392906",
+      "title": "The Colorado Kid: A Hard Case Crime Novel (2025) (V)",
+      "reason": "audiobook"
     }
   ]
 }

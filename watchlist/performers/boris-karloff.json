@@ -303,7 +303,6 @@
       "imdbId": "tt0051173",
       "title": "Voodoo Island (1957)"
     },
-    
     {
       "imdbId": "tt0051542",
       "title": "Corridors of Blood (1958)"
@@ -320,7 +319,6 @@
       "imdbId": "tt0424425",
       "title": "The Secret World of Eddie Hodges (1960) (TV)"
     },
-    
     {
       "imdbId": "tt0330743",
       "title": "The Paradine Case (1962) (TV)"
@@ -395,16 +393,6 @@
     }
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt0595392",
-      "title": "The Lark (1957) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt3711568",
-      "title": "Upgreen - And at 'Em (1960)",
-      "reason": "tv series"
-    },
     {
       "imdbId": "tt0010255",
       "title": "His Majesty, the American (1919)",
@@ -876,6 +864,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt0595392",
+      "title": "The Lark (1957) (TV)",
+      "reason": "tv movie"
+    },
+    {
       "imdbId": "tt0051312",
       "title": "\"Shirley Temple's Storybook\" (1958)",
       "reason": "tv series"
@@ -893,6 +886,11 @@
     {
       "imdbId": "tt0053534",
       "title": "\"Route 66\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt3711568",
+      "title": "Upgreen - And at 'Em (1960)",
       "reason": "tv series"
     },
     {

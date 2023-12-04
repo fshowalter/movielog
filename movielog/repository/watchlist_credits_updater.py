@@ -245,18 +245,22 @@ def get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
 
 
 def update_watchlist_credits() -> None:
+    progress_files: list[str] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
 
         progress_file_path = get_progress_file_path(kind)
+        progress_files.append(progress_file_path)
 
-        with open(progress_file_path, "r+") as progress_file:
+        with open(
+            progress_file_path, "r+" if os.path.exists(progress_file_path) else "w+"
+        ) as progress_file:
+            progress_file.seek(0)
             processed_slugs = progress_file.read().splitlines()
-
             for watchlist_person in json_watchlist_people.read_all(kind):
                 logger.log(
                     "==== Begin getting {} credits for {}...",
-                    kind,
+                    WatchlistKindToCreditKind[kind],
                     watchlist_person["name"],
                 )
 
@@ -267,8 +271,14 @@ def update_watchlist_credits() -> None:
                     )
                     continue
 
-                update_watchlist_person_titles_for_credit_kind(
-                    watchlist_person, WatchlistKindToCreditKind[kind]
-                )
+                try:
+                    update_watchlist_person_titles_for_credit_kind(
+                        watchlist_person, WatchlistKindToCreditKind[kind]
+                    )
+                except imdb_http.IMDbDataAccessError:
+                    return
                 json_watchlist_people.serialize(watchlist_person, kind)
                 progress_file.write("{0}\n".format(watchlist_person["slug"]))
+
+    for completed_progress_file_path in progress_files:
+        os.remove(completed_progress_file_path)
