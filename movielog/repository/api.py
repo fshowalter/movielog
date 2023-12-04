@@ -49,7 +49,7 @@ class Title(object):
     imdb_votes: Optional[int]
 
     @property
-    def pseudo_release_date(self) -> str:
+    def year_and_imdb_id(self) -> str:
         return "{0}{1}".format(self.year, self.imdb_id)
 
 

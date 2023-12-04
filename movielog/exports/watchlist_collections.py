@@ -15,6 +15,7 @@ JsonTitle = TypedDict(
         "slug": Optional[str],
         "grade": Optional[str],
         "gradeValue": Optional[int],
+        "yearAndImdbId": str,
     },
 )
 
@@ -22,7 +23,7 @@ JsonCollection = TypedDict(
     "JsonCollection",
     {
         "name": str,
-        "slug": str,
+        "slug": Optional[str],
         "titleCount": int,
         "reviewCount": int,
         "titles": list[JsonTitle],
@@ -44,6 +45,7 @@ def build_collection_titles(
                 title=title.title,
                 sortTitle=title.sort_title,
                 year=title.year,
+                yearAndImdbId=title.year_and_imdb_id,
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,
                 gradeValue=review.grade_value if review else None,
@@ -68,7 +70,7 @@ def export(repository_data: RepositoryData) -> None:
         watchlist_collections.append(
             JsonCollection(
                 name=collection.name,
-                slug=collection.slug,
+                slug=collection.slug if reviewed_titles else None,
                 titleCount=len(collection.title_ids),
                 reviewCount=len(reviewed_titles),
                 titles=build_collection_titles(collection, repository_data),

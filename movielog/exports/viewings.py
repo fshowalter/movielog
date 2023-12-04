@@ -13,6 +13,7 @@ JsonViewing = TypedDict(
         "viewingDate": str,
         "title": str,
         "sortTitle": str,
+        "yearAndImdbId": str,
         "medium": Optional[str],
         "venue": Optional[str],
         "year": str,
@@ -39,6 +40,7 @@ def build_json_viewing(
         year=title.year,
         slug=review.slug if review else None,
         genres=title.genres,
+        yearAndImdbId=title.year_and_imdb_id,
     )
 
 

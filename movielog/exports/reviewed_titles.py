@@ -48,6 +48,7 @@ JsonMore = TypedDict(
 JsonReviewedTitle = TypedDict(
     "JsonReviewedTitle",
     {
+        "sequence": int,
         "imdbId": str,
         "title": str,
         "year": str,
@@ -64,6 +65,7 @@ JsonReviewedTitle = TypedDict(
         "reviewDate": str,
         "reviewYear": str,
         "viewings": list[JsonViewing],
+        "yearAndImdbId": str,
         "more": JsonMore,
     },
 )
@@ -139,7 +141,7 @@ def build_json_more_for_watchlist_entities(
                     repository_data.titles[reviewed_id]
                     for reviewed_id in reviewed_ids_for_watchlist_entity
                 ],
-                key=lambda title: title.pseudo_release_date,
+                key=lambda title: title.year_and_imdb_id,
             ),
             matcher=build_imdb_id_matcher(review.imdb_id),
         )
@@ -237,6 +239,15 @@ def build_json_reviewed_title(
     repository_data: RepositoryData,
 ) -> JsonReviewedTitle:
     title = repository_data.titles[review.imdb_id]
+    viewings = sorted(
+        [
+            viewing
+            for viewing in repository_data.viewings
+            if viewing.imdb_id == title.imdb_id
+        ],
+        key=lambda viewing: viewing.sequence,
+        reverse=True,
+    )
 
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
@@ -250,6 +261,7 @@ def build_json_reviewed_title(
         originalTitle=title.original_title,
         gradeValue=review.grade_value,
         runtimeMinutes=title.runtime_minutes,
+        yearAndImdbId=title.year_and_imdb_id,
         directorNames=[director.name for director in title.directors],
         principalCastNames=[
             performer.name
@@ -258,6 +270,7 @@ def build_json_reviewed_title(
         ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
+        sequence=viewings[0].sequence,
         viewings=[
             JsonViewing(
                 sequence=viewing.sequence,
@@ -266,8 +279,7 @@ def build_json_reviewed_title(
                 date=viewing.date.isoformat(),
                 venue=viewing.venue,
             )
-            for viewing in repository_data.viewings
-            if viewing.imdb_id == title.imdb_id
+            for viewing in viewings
         ],
         more=build_json_more(
             title=title, review=review, repository_data=repository_data

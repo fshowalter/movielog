@@ -1,4 +1,5 @@
-from typing import Optional, TypedDict
+from collections import defaultdict
+from typing import Literal, Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -10,72 +11,70 @@ JsonTitle = TypedDict(
     {
         "imdbId": str,
         "title": str,
-        "sortTitle": str,
         "year": str,
+        "sortTitle": str,
         "slug": Optional[str],
         "grade": Optional[str],
         "gradeValue": Optional[int],
+        "yearAndImdbId": str,
+        "directorNames": list[str],
+        "performerNames": list[str],
+        "writerNames": list[str],
+        "collectionNames": list[str],
     },
 )
 
-JsonCollection = TypedDict(
-    "JsonCollection",
-    {
-        "name": str,
-        "slug": str,
-        "titleCount": int,
-        "reviewCount": int,
-        "titles": list[JsonTitle],
-    },
-)
+WachlistIndex = dict[
+    str, dict[Literal[repository_api.WatchlistPersonKind, "collections"], list[str]]
+]
 
 
-def build_person_titles(
-    watchlist_person: repository_api.WatchlistPerson, repository_data: RepositoryData
-) -> list[JsonTitle]:
-    titles = []
-    for title_id in watchlist_person.title_ids:
-        title = repository_data.titles[title_id]
-        review = repository_data.reviews.get(title_id, None)
+def build_watchlist_index(  # noqa: WPS210
+    repository_data: RepositoryData,
+) -> WachlistIndex:
+    watchlist_index: WachlistIndex = defaultdict(lambda: defaultdict(list))
 
-        titles.append(
-            JsonTitle(
-                imdbId=title_id,
-                title=title.title,
-                sortTitle=title.sort_title,
-                year=title.year,
-                slug=review.slug if review else None,
-                grade=review.grade if review else None,
-                gradeValue=review.grade_value if review else None,
-            )
-        )
+    for collection in repository_data.watchlist_collections:
+        for collection_title_id in collection.title_ids:
+            watchlist_index[collection_title_id]["collections"].append(collection.name)
 
-    return titles
+    for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
+        for watchlist_person in repository_data.watchlist_people[watchlist_key]:
+            for title_id in watchlist_person.title_ids:
+                watchlist_index[title_id][watchlist_key].append(watchlist_person.name)
+
+    return watchlist_index
 
 
 def export(repository_data: RepositoryData) -> None:
-    for kind in repository_api.WATCHLIST_PERSON_KINDS:
-        logger.log("==== Begin exporting {}...", "watchlist-{0}".format(kind))
-        watchlist_titles = []
+    logger.log("==== Begin exporting {}...", "watchlist-titles")
 
-        for watchlist_person in repository_data.watchlist_people[kind]:
-            reviewed_titles = [
-                review
-                for review in repository_data.reviews.values()
-                if review.imdb_id in watchlist_person.title_ids
-            ]
+    watchlist_title_index = build_watchlist_index(repository_data=repository_data)
 
-            watchlist_titles.append(
-                JsonCollection(
-                    name=watchlist_person.name,
-                    slug=watchlist_person.slug,
-                    titleCount=len(watchlist_person.title_ids),
-                    reviewCount=len(reviewed_titles),
-                    titles=build_person_titles(watchlist_person, repository_data),
-                )
+    watchlist_titles = []
+
+    for watchlist_title_id in watchlist_title_index.keys():
+        title = repository_data.titles[watchlist_title_id]
+        review = repository_data.reviews.get(watchlist_title_id, None)
+
+        watchlist_titles.append(
+            JsonTitle(
+                imdbId=title.imdb_id,
+                title=title.title,
+                year=title.year,
+                sortTitle=title.sort_title,
+                yearAndImdbId=title.year_and_imdb_id,
+                slug=review.slug if review else None,
+                grade=review.grade if review else None,
+                gradeValue=review.grade_value if review else None,
+                directorNames=watchlist_title_index[title.imdb_id]["directors"],
+                performerNames=watchlist_title_index[title.imdb_id]["performers"],
+                writerNames=watchlist_title_index[title.imdb_id]["writers"],
+                collectionNames=watchlist_title_index[title.imdb_id]["collections"],
             )
-
-        exporter.serialize_dicts(
-            watchlist_titles,
-            "watchlist-{0}".format(kind),
         )
+
+    exporter.serialize_dicts(
+        watchlist_titles,
+        "watchlist-titles",
+    )
