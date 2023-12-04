@@ -30,11 +30,11 @@ JsonCollection = TypedDict(
 )
 
 
-def build_person_titles(
-    watchlist_person: repository_api.WatchlistPerson, repository_data: RepositoryData
+def build_collection_titles(
+    collection: repository_api.WatchlistCollection, repository_data: RepositoryData
 ) -> list[JsonTitle]:
     titles = []
-    for title_id in watchlist_person.title_ids:
+    for title_id in collection.title_ids:
         title = repository_data.titles[title_id]
         review = repository_data.reviews.get(title_id, None)
 
@@ -54,28 +54,28 @@ def build_person_titles(
 
 
 def export(repository_data: RepositoryData) -> None:
-    for kind in repository_api.WATCHLIST_PERSON_KINDS:
-        logger.log("==== Begin exporting {}...", "watchlist-{0}".format(kind))
-        watchlist_titles = []
+    logger.log("==== Begin exporting {}...", "watchlist-collections")
 
-        for watchlist_person in repository_data.watchlist_people[kind]:
-            reviewed_titles = [
-                review
-                for review in repository_data.reviews.values()
-                if review.imdb_id in watchlist_person.title_ids
-            ]
+    watchlist_titles = []
 
-            watchlist_titles.append(
-                JsonCollection(
-                    name=watchlist_person.name,
-                    slug=watchlist_person.slug,
-                    titleCount=len(watchlist_person.title_ids),
-                    reviewCount=len(reviewed_titles),
-                    titles=build_person_titles(watchlist_person, repository_data),
-                )
+    for collection in repository_data.watchlist_collections:
+        reviewed_titles = [
+            review
+            for review in repository_data.reviews.values()
+            if review.imdb_id in collection.title_ids
+        ]
+
+        watchlist_titles.append(
+            JsonCollection(
+                name=collection.name,
+                slug=collection.slug,
+                titleCount=len(collection.title_ids),
+                reviewCount=len(reviewed_titles),
+                titles=build_collection_titles(collection, repository_data),
             )
-
-        exporter.serialize_dicts(
-            watchlist_titles,
-            "watchlist-{0}".format(kind),
         )
+
+    exporter.serialize_dicts(
+        watchlist_titles,
+        "watchlist-collections",
+    )

@@ -14,7 +14,7 @@ from movielog.utils.logging import logger
 
 DictType = TypeVar("DictType")
 
-EXPORT_FOLDER_NAME = "exports"
+EXPORT_FOLDER_NAME = "export"
 
 
 def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:

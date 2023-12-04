@@ -30,7 +30,7 @@ JsonCollection = TypedDict(
 )
 
 
-def build_person_titles(
+def build_watchlist_person_titles(
     watchlist_person: repository_api.WatchlistPerson, repository_data: RepositoryData
 ) -> list[JsonTitle]:
     titles = []
@@ -56,6 +56,7 @@ def build_person_titles(
 def export(repository_data: RepositoryData) -> None:
     for kind in repository_api.WATCHLIST_PERSON_KINDS:
         logger.log("==== Begin exporting {}...", "watchlist-{0}".format(kind))
+
         watchlist_titles = []
 
         for watchlist_person in repository_data.watchlist_people[kind]:
@@ -71,7 +72,9 @@ def export(repository_data: RepositoryData) -> None:
                     slug=watchlist_person.slug,
                     titleCount=len(watchlist_person.title_ids),
                     reviewCount=len(reviewed_titles),
-                    titles=build_person_titles(watchlist_person, repository_data),
+                    titles=build_watchlist_person_titles(
+                        watchlist_person, repository_data
+                    ),
                 )
             )
 

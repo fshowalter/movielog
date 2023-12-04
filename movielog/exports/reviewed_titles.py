@@ -283,8 +283,7 @@ def export(repository_data: RepositoryData) -> None:
         for review in repository_data.reviews.values()
     ]
 
-    exporter.serialize_dicts_to_folder(
+    exporter.serialize_dicts(
         json_reviewed_titles,
         "reviewed-titles",
-        filename_key=lambda reviewed_title: reviewed_title["imdbId"],
     )

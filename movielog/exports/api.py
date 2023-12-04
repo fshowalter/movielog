@@ -7,6 +7,7 @@ from movielog.exports import (
     stats,
     underseen_gems,
     viewings,
+    watchlist_collections,
     watchlist_titles,
 )
 from movielog.exports.repository_data import RepositoryData
@@ -25,24 +26,6 @@ def build_watchlist_people() -> (
         )
 
     return watchlist
-
-
-def with_progress(func):
-    def wrapper():
-        test_array = [1, 2, 3]
-
-        try:
-            func(test_array)
-        except:
-            print(test_array)
-
-    return wrapper
-
-
-@with_progress
-def test(array_to_test) -> None:
-    array_to_test.append(4)
-    raise
 
 
 def export_data() -> None:
@@ -74,4 +57,5 @@ def export_data() -> None:
     overrated_disappointments.export(repository_data)
     underseen_gems.export(repository_data)
     watchlist_titles.export(repository_data)
+    watchlist_collections.export(repository_data)
     stats.export(repository_data)
