@@ -100,18 +100,17 @@ def slice_list(  # noqa: WPS210
         for index, collection_item in zip(count(), source_list)
         if matcher(collection_item)
     )
-    collection_length = len(source_list)
 
     start_index = midpoint - 2
     end_index = midpoint + 3
 
-    if start_index >= 0 and end_index < collection_length:
+    if start_index >= 0 and end_index < len(source_list):
         return source_list[start_index:end_index]
 
     if start_index < 0:
-        start_index += collection_length
-    if end_index > collection_length:
-        end_index -= collection_length
+        start_index += len(source_list)
+    if end_index >= len(source_list):
+        end_index -= len(source_list)
 
     return source_list[start_index:] + source_list[:end_index]
 
