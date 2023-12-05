@@ -52,8 +52,7 @@ def export(repository_data: RepositoryData) -> None:
         for viewing in repository_data.viewings
     ]
 
-    exporter.serialize_dicts_by_key(
+    exporter.serialize_dicts(
         json_viewings,
         "viewings",
-        key=lambda viewing: viewing["viewingYear"],
     )

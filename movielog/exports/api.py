@@ -9,6 +9,7 @@ from movielog.exports import (
     viewings,
     watchlist_collections,
     watchlist_people,
+    watchlist_progress,
     watchlist_titles,
 )
 from movielog.exports.repository_data import RepositoryData
@@ -61,3 +62,4 @@ def export_data() -> None:
     watchlist_collections.export(repository_data)
     watchlist_people.export(repository_data)
     stats.export(repository_data)
+    watchlist_progress.export(repository_data)

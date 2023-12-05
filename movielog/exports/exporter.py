@@ -3,11 +3,7 @@ from __future__ import annotations
 import json
 import os
 from collections.abc import Iterable
-from dataclasses import asdict
-from typing import TYPE_CHECKING, Callable, TypeVar
-
-if TYPE_CHECKING:
-    from _typeshed import DataclassInstance  # noqa: WPS436
+from typing import Callable, TypeVar
 
 from movielog.exports import list_tools
 from movielog.utils.logging import logger
@@ -49,27 +45,6 @@ def serialize_dicts_by_key(
             "Wrote {} ({}).",
             json_file_name,
             pretty_file_size(os.path.getsize(json_file_name)),
-        )
-
-
-def serialize_dataclasses_to_folder(
-    dataclasses: Iterable[DataclassInstance],
-    folder_name: str,
-    filename_key: Callable[[DataclassInstance], str],
-) -> None:
-    folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
-    os.makedirs(folder_path, exist_ok=True)
-
-    for dataclass in dataclasses:
-        file_name = os.path.join(
-            folder_path, "{0}.json".format(filename_key(dataclass))
-        )
-        with open(file_name, "w") as output_file:
-            output_file.write(json.dumps(asdict(dataclass), default=str, indent=2))
-        logger.log(
-            "Wrote {} ({}).",
-            file_name,
-            pretty_file_size(os.path.getsize(file_name)),
         )
 
 
