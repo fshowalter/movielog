@@ -48,7 +48,7 @@ JsonMore = TypedDict(
 JsonReviewedTitle = TypedDict(
     "JsonReviewedTitle",
     {
-        "sequence": int,
+        "sequence": str,
         "imdbId": str,
         "title": str,
         "year": str,
@@ -270,7 +270,7 @@ def build_json_reviewed_title(
         ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
-        sequence=viewings[0].sequence,
+        sequence="{0}-{1}".format(review.date.isoformat(), viewings[0].sequence),
         viewings=[
             JsonViewing(
                 sequence=viewing.sequence,
