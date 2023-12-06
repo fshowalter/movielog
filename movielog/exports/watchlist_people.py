@@ -23,7 +23,7 @@ JsonWatchlistPerson = TypedDict(
     "JsonWatchlistPerson",
     {
         "name": str,
-        "slug": str,
+        "slug": Optional[str],
         "titleCount": int,
         "reviewCount": int,
         "titles": list[JsonTitle],
@@ -71,7 +71,7 @@ def export(repository_data: RepositoryData) -> None:
             watchlist_people.append(
                 JsonWatchlistPerson(
                     name=watchlist_person.name,
-                    slug=watchlist_person.slug,
+                    slug=watchlist_person.slug if reviewed_titles else None,
                     titleCount=len(watchlist_person.title_ids),
                     reviewCount=len(reviewed_titles),
                     titles=build_watchlist_person_titles(
