@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Literal, Optional, get_args
 
 import imdb
@@ -28,9 +28,11 @@ class NamePage(object):
 @dataclass
 class NameCredit(object):
     kind: CreditKind
+    sequence: int
     imdb_id: str
     name: str
     notes: Optional[str] = None
+    roles: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -41,7 +43,18 @@ class TitlePage(object):
     credits: dict[CreditKind, list[NameCredit]]
     full_title: str
     genres: set[str]
+    countries: set[str]
     sound_mix: set[str]
+
+
+def parse_roles(person: imdb.Person.Person) -> list[str]:
+    if isinstance(person.currentRole, list):
+        return [role["name"] for role in person.currentRole if role.keys()]
+
+    if person.currentRole.has_key("name"):
+        return [person.currentRole["name"]]
+
+    return []
 
 
 def build_title_credits_for_name_page(
@@ -81,19 +94,27 @@ def build_name_credits_for_title_page(
         "writer": "writers",
     }
 
-    credits = {}
+    credits: dict[CreditKind, list[NameCredit]] = {}
 
     for credit_kind, imdb_key in credit_kind_map.items():
-        credits[credit_kind] = [
-            NameCredit(
+        credits[credit_kind] = []
+
+        for index, imdb_credit in enumerate(imdb_title_page.get(imdb_key, [])):
+            if "name" not in imdb_credit.keys():
+                continue
+
+            name_credit = NameCredit(
+                sequence=index,
                 kind=credit_kind,
-                imdb_id="nm{0}".format(credit.personID),
-                name=credit["name"],
-                notes=credit.notes if credit.notes else None,
+                imdb_id="nm{0}".format(imdb_credit.personID),
+                name=imdb_credit["name"],
+                notes=imdb_credit.notes if imdb_credit.notes else None,
             )
-            for credit in imdb_title_page.get(imdb_key, [])
-            if "name" in credit.keys()
-        ]
+
+            if credit_kind == "performer":
+                name_credit.roles = parse_roles(imdb_credit)
+
+            credits[credit_kind].append(name_credit)
 
     return credits
 
@@ -113,6 +134,7 @@ def get_title_page(imdb_id: str) -> TitlePage:
         kind=imdb_movie.get("kind", "Unknown"),
         full_title=imdb_movie["long imdb title"],
         genres=set(imdb_movie.get("genres", [])),
+        countries=set(imdb_movie.get("countries", [])),
         sound_mix=set(imdb_movie.get("sound mix", [])),
         credits=build_name_credits_for_title_page(imdb_movie),
     )

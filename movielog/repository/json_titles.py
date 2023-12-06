@@ -172,25 +172,6 @@ class CreateTitleWriter(object):
 #     return json_title
 
 
-def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
-    re_match = re.search(r"(.*)\s\(", imdb_movie.get("original air date", ""))
-
-    if not re_match:
-        return "{0}-01-01".format(imdb_movie["year"])
-
-    imdb_date = re_match.group(1)
-
-    try:
-        return (
-            datetime.strptime(imdb_date, "%d %b %Y").date().isoformat()
-        )  # noqa: WPS323
-    except ValueError:
-        try:  # noqa: WPS505
-            return datetime.strptime(imdb_date, "%b %Y").date().isoformat()
-        except ValueError:
-            return "{0}-01-01".format(imdb_movie["year"])
-
-
 def parse_roles(person: imdb.Person.Person) -> list[str]:
     if isinstance(person.currentRole, list):
         return [role["name"] for role in person.currentRole if role.keys()]
@@ -549,7 +530,9 @@ def migrate() -> None:
 
 
 def serialize(json_title: JsonTitle) -> None:
-    file_path = os.path.join(FOLDER_NAME, "{0}.json".format(json_title["slug"]))
+    file_path = os.path.join(
+        FOLDER_NAME, "{0}-{1}.json".format(json_title["slug"], json_title["imdbId"][2:])
+    )
     path_tools.ensure_file_path(file_path)
 
     with open(file_path, "w") as output_file:
