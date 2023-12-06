@@ -15,6 +15,7 @@ JsonTitle = TypedDict(
         "grade": str,
         "gradeValue": int,
         "genres": list[str],
+        "yearAndImdbId": str,
     },
 )
 
@@ -48,6 +49,7 @@ def export(repository_data: RepositoryData) -> None:
                 grade=review.grade,
                 gradeValue=review.grade_value,
                 genres=title.genres,
+                yearAndImdbId=title.year_and_imdb_id,
             )
         )
 
