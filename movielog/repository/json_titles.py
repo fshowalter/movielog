@@ -80,7 +80,7 @@ def generate_sort_title(title: str, year: str) -> str:
 
 
 def generate_title_slug(title: str, year: str) -> str:
-    return "{0}-({1})".format(slugifier.slugify_title(title), year)
+    return "{0}-{1}".format(slugifier.slugify_title(title), year)
 
 
 def reset() -> None:

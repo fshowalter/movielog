@@ -19,21 +19,20 @@ from movielog.utils.logging import logger
 
 
 def get_valid_title_ids() -> set[str]:
-    title_ids = [viewing["imdbId"] for viewing in json_viewings.read_all()]
-
-    title_ids.append(
+    title_ids = [
+        *[viewing["imdbId"] for viewing in json_viewings.read_all()],
         *[
             title["imdbId"]
             for collection in json_watchlist_collections.read_all()
             for title in collection["titles"]
-        ]
-    )
+        ],
+    ]
 
     for kind in json_watchlist_people.KINDS:
         for json_watchlist_person in json_watchlist_people.read_all(kind):
-            title_ids.append(
-                *[title["imdbId"] for title in json_watchlist_person["titles"]]
-            )
+            title_ids = title_ids + [
+                title["imdbId"] for title in json_watchlist_person["titles"]
+            ]
 
     return set(title_ids)
 
@@ -149,7 +148,7 @@ def validate() -> None:
 
             validate_slug(updated_title, review_ids)
 
-            correct_file_path = json_titles.generate_file_path(json_title)
+            correct_file_path = json_titles.generate_file_path(updated_title)
 
             if file_path != correct_file_path:
                 files_to_rename.append((file_path, correct_file_path))
