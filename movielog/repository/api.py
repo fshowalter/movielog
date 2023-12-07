@@ -31,7 +31,6 @@ update_title_data = title_data_updater.update_title_data
 class Name(object):
     name: str
     imdb_id: str
-    sequence: int
 
 
 @dataclass
@@ -158,7 +157,6 @@ def titles() -> Iterable[Title]:
                 Name(
                     name=director["name"],
                     imdb_id=director["imdbId"],
-                    sequence=director["sequence"],
                 )
                 for director in json_title["directors"]
             ],
@@ -166,7 +164,6 @@ def titles() -> Iterable[Title]:
                 Name(
                     name=performer["name"],
                     imdb_id=performer["imdbId"],
-                    sequence=performer["sequence"],
                 )
                 for performer in json_title["performers"]
             ],
@@ -174,7 +171,6 @@ def titles() -> Iterable[Title]:
                 Name(
                     name=writer["name"],
                     imdb_id=writer["imdbId"],
-                    sequence=writer["sequence"],
                 )
                 for writer in json_title["writers"]
             ],

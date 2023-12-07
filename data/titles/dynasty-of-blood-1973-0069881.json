@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0151653",
-      "name": "Cheh Chang",
-      "sequence": 0
+      "name": "Cheh Chang"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0156955",
       "name": "David Chiang",
-      "sequence": 0,
       "roles": [
         "Chang Wen-hsiang"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0862479",
       "name": "Lung Ti",
-      "sequence": 1,
       "roles": [
         "Ma Hsin-yi"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0155291",
       "name": "Kuan Tai Chen",
-      "sequence": 2,
       "roles": [
         "Huang Chung"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0508380",
       "name": "Li Ching",
-      "sequence": 3,
       "roles": [
         "Mi-lan"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0862872",
       "name": "Ching Tien",
-      "sequence": 4,
       "roles": [
         "Ma Chung-hsin"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0497097",
       "name": "Danny Lee",
-      "sequence": 5,
       "roles": [
         "Rebel Chief Tseng Tieng-yang"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0266652",
       "name": "Mei Sheng Fan",
-      "sequence": 6,
       "roles": [
         "Rebel Chief Yen Chen-feng"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0583955",
       "name": "Miao Ching",
-      "sequence": 7,
       "roles": [
         "Manchu Prosecutor"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0155594",
       "name": "Lei Cheng",
-      "sequence": 8,
       "roles": [
         "Tseng Chi-jung"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0157900",
       "name": "Ching-Ho Wang",
-      "sequence": 9,
       "roles": [
         "Assistant judge"
       ]
@@ -104,7 +93,6 @@
     {
       "imdbId": "nm1296572",
       "name": "Tse Lin Yang",
-      "sequence": 10,
       "roles": [
         "Li Wen"
       ]
@@ -112,7 +100,6 @@
     {
       "imdbId": "nm1560037",
       "name": "Kuang Yu Wang",
-      "sequence": 11,
       "roles": [
         "Ma confidant A"
       ]
@@ -120,7 +107,6 @@
     {
       "imdbId": "nm1269227",
       "name": "Kang Liu",
-      "sequence": 12,
       "roles": [
         "Ma confidant B"
       ]
@@ -128,7 +114,6 @@
     {
       "imdbId": "nm0155572",
       "name": "Kang-Yeh Cheng",
-      "sequence": 13,
       "roles": [
         "Ma confidant C"
       ]
@@ -136,7 +121,6 @@
     {
       "imdbId": "nm0874664",
       "name": "Yen-Tsan Tang",
-      "sequence": 14,
       "roles": [
         "Ma confidant D"
       ]
@@ -144,7 +128,6 @@
     {
       "imdbId": "nm0150839",
       "name": "Chuan Chen",
-      "sequence": 15,
       "roles": [
         "Mountain Bandit"
       ]
@@ -152,7 +135,6 @@
     {
       "imdbId": "nm0465062",
       "name": "Tao Chiang",
-      "sequence": 16,
       "roles": [
         "Mountain Bandit"
       ]
@@ -160,7 +142,6 @@
     {
       "imdbId": "nm1095832",
       "name": "Chun Chin",
-      "sequence": 17,
       "roles": [
         "Court Official"
       ]
@@ -168,13 +149,11 @@
     {
       "imdbId": "nm3082237",
       "name": "Tien-Chu Chin",
-      "sequence": 18,
       "roles": []
     },
     {
       "imdbId": "nm0159519",
       "name": "Yun-Kin Chow",
-      "sequence": 19,
       "roles": [
         "Extra"
       ]
@@ -182,7 +161,6 @@
     {
       "imdbId": "nm4183765",
       "name": "Hsieh-Su Fung",
-      "sequence": 20,
       "roles": [
         "Extra"
       ]
@@ -190,19 +168,16 @@
     {
       "imdbId": "nm2490213",
       "name": "Ming Fung",
-      "sequence": 21,
       "roles": []
     },
     {
       "imdbId": "nm2410122",
       "name": "Chi-Chang Ho",
-      "sequence": 22,
       "roles": []
     },
     {
       "imdbId": "nm0398824",
       "name": "Hsia Hsu",
-      "sequence": 23,
       "roles": [
         "Extra"
       ]
@@ -210,13 +185,11 @@
     {
       "imdbId": "nm0398987",
       "name": "Ha Huang",
-      "sequence": 24,
       "roles": []
     },
     {
       "imdbId": "nm0399031",
       "name": "Pei-Chi Huang",
-      "sequence": 25,
       "roles": [
         "Mountain Bandit"
       ]
@@ -224,13 +197,11 @@
     {
       "imdbId": "nm3301224",
       "name": "Tsan-Hsiung Ku",
-      "sequence": 26,
       "roles": []
     },
     {
       "imdbId": "nm0497005",
       "name": "Chiu Lee",
-      "sequence": 27,
       "roles": [
         "Extra"
       ]
@@ -238,49 +209,41 @@
     {
       "imdbId": "nm0398959",
       "name": "Hui-Huang Lin",
-      "sequence": 28,
       "roles": []
     },
     {
       "imdbId": "nm0514905",
       "name": "Chia-Yung Liu",
-      "sequence": 29,
       "roles": []
     },
     {
       "imdbId": "nm0492325",
       "name": "Chiang Lo",
-      "sequence": 30,
       "roles": []
     },
     {
       "imdbId": "nm0518999",
       "name": "Jack Long",
-      "sequence": 31,
       "roles": []
     },
     {
       "imdbId": "nm0487372",
       "name": "Lao Shen",
-      "sequence": 32,
       "roles": []
     },
     {
       "imdbId": "nm1832825",
       "name": "Te-Chiang Teng",
-      "sequence": 33,
       "roles": []
     },
     {
       "imdbId": "nm1269214",
       "name": "Lin Tsai",
-      "sequence": 34,
       "roles": []
     },
     {
       "imdbId": "nm3230308",
       "name": "You-Hao Wang",
-      "sequence": 35,
       "roles": [
         "Ma's Henchman"
       ]
@@ -288,7 +251,6 @@
     {
       "imdbId": "nm0939327",
       "name": "Shu-Tong Wong",
-      "sequence": 36,
       "roles": [
         "Extra"
       ]
@@ -296,19 +258,16 @@
     {
       "imdbId": "nm0519729",
       "name": "Tino Wong",
-      "sequence": 37,
       "roles": []
     },
     {
       "imdbId": "nm4188028",
       "name": "Po-Chen Yang",
-      "sequence": 38,
       "roles": []
     },
     {
       "imdbId": "nm0950710",
       "name": "Brandy Yuen",
-      "sequence": 39,
       "roles": [
         "Extra"
       ]
@@ -316,13 +275,11 @@
     {
       "imdbId": "nm0950751",
       "name": "Shun-Yee Yuen",
-      "sequence": 40,
       "roles": []
     },
     {
       "imdbId": "nm0950759",
       "name": "Woo-Ping Yuen",
-      "sequence": 41,
       "roles": [
         "Mountain Bandit"
       ]
@@ -332,13 +289,11 @@
     {
       "imdbId": "nm0151653",
       "name": "Cheh Chang",
-      "sequence": 0,
       "notes": "(writer)"
     },
     {
       "imdbId": "nm0393250",
       "name": "Kuang Ni",
-      "sequence": 2,
       "notes": "(writer)"
     }
   ],

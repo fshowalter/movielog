@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000265",
-      "name": "Robert Altman",
-      "sequence": 0
+      "name": "Robert Altman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001731",
       "name": "Sam Shepard",
-      "sequence": 0,
       "roles": [
         "Eddie",
         "May's half-brother"
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0000107",
       "name": "Kim Basinger",
-      "sequence": 1,
       "roles": [
         "May",
         "Eddie's half-sister"
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0001765",
       "name": "Harry Dean Stanton",
-      "sequence": 2,
       "roles": [
         "Old Man"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0001642",
       "name": "Randy Quaid",
-      "sequence": 3,
       "roles": [
         "Martin"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0186896",
       "name": "Martha Crawford",
-      "sequence": 4,
       "roles": [
         "May's Mother"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0251099",
       "name": "Louise Egolf",
-      "sequence": 5,
       "roles": [
         "Eddie's Mother"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0185259",
       "name": "Sura Cox",
-      "sequence": 6,
       "roles": [
         "May",
         "Teenage"
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0804272",
       "name": "Jonathan Skinner",
-      "sequence": 7,
       "roles": [
         "Eddie",
         "Teenage"
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0751002",
       "name": "April Russell",
-      "sequence": 8,
       "roles": [
         "May",
         "Young"
@@ -100,7 +90,6 @@
     {
       "imdbId": "nm0573787",
       "name": "Deborah McNaughton",
-      "sequence": 9,
       "roles": [
         "The Countess"
       ]
@@ -108,7 +97,6 @@
     {
       "imdbId": "nm0384483",
       "name": "Lon Hill",
-      "sequence": 10,
       "roles": [
         "Mr. Valdes"
       ]
@@ -118,13 +106,11 @@
     {
       "imdbId": "nm0001731",
       "name": "Sam Shepard",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0001731",
       "name": "Sam Shepard",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

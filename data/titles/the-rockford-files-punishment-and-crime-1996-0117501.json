@@ -22,15 +22,13 @@
   "directors": [
     {
       "imdbId": "nm0153740",
-      "name": "David Chase",
-      "sequence": 0
+      "name": "David Chase"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001258",
       "name": "James Garner",
-      "sequence": 0,
       "roles": [
         "Jim Rockford"
       ]
@@ -38,7 +36,6 @@
     {
       "imdbId": "nm0002130",
       "name": "Kathryn Harrold",
-      "sequence": 1,
       "roles": [
         "Megan Dougherty Adams"
       ]
@@ -46,7 +43,6 @@
     {
       "imdbId": "nm0764134",
       "name": "Joe Santos",
-      "sequence": 2,
       "roles": [
         "Lt. Dennis Becker"
       ]
@@ -54,7 +50,6 @@
     {
       "imdbId": "nm0186505",
       "name": "Bryan Cranston",
-      "sequence": 3,
       "roles": [
         "Patrick Dougherty"
       ]
@@ -62,7 +57,6 @@
     {
       "imdbId": "nm0804625",
       "name": "Vladimir Skomarovsky",
-      "sequence": 4,
       "roles": [
         "Gennady Koblets"
       ]
@@ -70,7 +64,6 @@
     {
       "imdbId": "nm0951719",
       "name": "Ramy Zada",
-      "sequence": 5,
       "roles": [
         "Festa"
       ]
@@ -78,7 +71,6 @@
     {
       "imdbId": "nm0453006",
       "name": "Richard Kiley",
-      "sequence": 6,
       "roles": [
         "Frank Dougherty"
       ]
@@ -86,7 +78,6 @@
     {
       "imdbId": "nm0546765",
       "name": "Stuart Margolin",
-      "sequence": 7,
       "roles": [
         "Angel Martin"
       ]
@@ -94,7 +85,6 @@
     {
       "imdbId": "nm0901679",
       "name": "Ilia Volok",
-      "sequence": 8,
       "roles": [
         "Boris"
       ]
@@ -102,7 +92,6 @@
     {
       "imdbId": "nm0038192",
       "name": "Elena Arzhanik",
-      "sequence": 9,
       "roles": [
         "Ykaterina"
       ]
@@ -110,7 +99,6 @@
     {
       "imdbId": "nm0880923",
       "name": "Grace Una",
-      "sequence": 10,
       "roles": [
         "Molly"
       ]
@@ -118,7 +106,6 @@
     {
       "imdbId": "nm0930971",
       "name": "Johnny Williams",
-      "sequence": 11,
       "roles": [
         "Johnny Zeps"
       ]
@@ -126,7 +113,6 @@
     {
       "imdbId": "nm0307715",
       "name": "Jack Garner",
-      "sequence": 12,
       "roles": [
         "Captain McEnroe"
       ]
@@ -134,7 +120,6 @@
     {
       "imdbId": "nm0725709",
       "name": "Lyndsay Riddell",
-      "sequence": 13,
       "roles": [
         "Young Josie"
       ]
@@ -142,7 +127,6 @@
     {
       "imdbId": "nm0333174",
       "name": "John Christian Graas",
-      "sequence": 14,
       "roles": [
         "Daniel"
       ]
@@ -150,7 +134,6 @@
     {
       "imdbId": "nm0251209",
       "name": "Heather Ehlers",
-      "sequence": 15,
       "roles": [
         "Josie"
       ]
@@ -158,7 +141,6 @@
     {
       "imdbId": "nm6694942",
       "name": "Ruben Groove",
-      "sequence": 16,
       "roles": [
         "Vacuum Man"
       ]
@@ -166,7 +148,6 @@
     {
       "imdbId": "nm0154412",
       "name": "Lilyan Chauvin",
-      "sequence": 17,
       "roles": [
         "Ilovna Koblets"
       ]
@@ -174,7 +155,6 @@
     {
       "imdbId": "nm0800932",
       "name": "Charlene Simpson",
-      "sequence": 18,
       "roles": [
         "Poker Woman"
       ]
@@ -182,7 +162,6 @@
     {
       "imdbId": "nm0487564",
       "name": "Natalya Lapina",
-      "sequence": 19,
       "roles": [
         "Club Singer"
       ]
@@ -190,7 +169,6 @@
     {
       "imdbId": "nm0924568",
       "name": "Callan White",
-      "sequence": 20,
       "roles": [
         "Sioban"
       ]
@@ -198,7 +176,6 @@
     {
       "imdbId": "nm0315247",
       "name": "Don Gettinger",
-      "sequence": 21,
       "roles": [
         "Peter"
       ]
@@ -206,7 +183,6 @@
     {
       "imdbId": "nm0950032",
       "name": "Russell Young",
-      "sequence": 22,
       "roles": [
         "Shakeboader #1"
       ]
@@ -214,7 +190,6 @@
     {
       "imdbId": "nm0077284",
       "name": "Stephen Berra",
-      "sequence": 23,
       "roles": [
         "Shakeboader #2"
       ]
@@ -222,7 +197,6 @@
     {
       "imdbId": "nm6694943",
       "name": "Stacy Greene",
-      "sequence": 24,
       "roles": [
         "Young Megan"
       ]
@@ -230,7 +204,6 @@
     {
       "imdbId": "nm0606574",
       "name": "Grinnell Morris",
-      "sequence": 25,
       "roles": [
         "Young Patrick"
       ]
@@ -238,7 +211,6 @@
     {
       "imdbId": "nm0598569",
       "name": "Steve Monroe",
-      "sequence": 26,
       "roles": [
         "Kravitz"
       ]
@@ -246,7 +218,6 @@
     {
       "imdbId": "nm0219673",
       "name": "Scott Denny",
-      "sequence": 27,
       "roles": [
         "Tony"
       ]
@@ -256,19 +227,16 @@
     {
       "imdbId": "nm0004798",
       "name": "Stephen J. Cannell",
-      "sequence": 0,
       "notes": "(created by) (creator)"
     },
     {
       "imdbId": "nm0153740",
       "name": "David Chase",
-      "sequence": 2,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0400403",
       "name": "Roy Huggins",
-      "sequence": 6,
       "notes": "(created by) (creator)"
     }
   ]

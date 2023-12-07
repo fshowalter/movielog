@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0001243",
-      "name": "William Friedkin",
-      "sequence": 0
+      "name": "William Friedkin"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0181288",
       "name": "Joe Cortese",
-      "sequence": 0,
       "roles": [
         "Doc Burkholder"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0950200",
       "name": "Jack Youngblood",
-      "sequence": 1,
       "roles": [
         "John Sommers"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0416944",
       "name": "Steve James",
-      "sequence": 2,
       "roles": [
         "Bud Raines"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0888154",
       "name": "Deborah Van Valkenburgh",
-      "sequence": 3,
       "roles": [
         "Nikki Pappas"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0001208",
       "name": "Miguel Ferrer",
-      "sequence": 4,
       "roles": [
         "Paul Kiley"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0769154",
       "name": "Alan Scarfe",
-      "sequence": 5,
       "roles": [
         "George Bekker"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0216507",
       "name": "Brian Delate",
-      "sequence": 6,
       "roles": [
         "Co. Vincent Trask"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0282071",
       "name": "Michael Fletcher",
-      "sequence": 7,
       "roles": [
         "Maj. Van Crewe"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0600783",
       "name": "William Mooney",
-      "sequence": 8,
       "roles": [
         "Howard Curtin"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0167607",
       "name": "Alan Coates",
-      "sequence": 9,
       "roles": [
         "Bekker's Second-in-Command"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0519676",
       "name": "Christopher Loomis",
-      "sequence": 10,
       "roles": [
         "Gen. James Highsmith"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0402582",
       "name": "Neil Hunt",
-      "sequence": 11,
       "roles": [
         "Ted Jantz"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0227074",
       "name": "Tedd Dillon",
-      "sequence": 12,
       "roles": [
         "Rhodes"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0626140",
       "name": "Peter Neptune",
-      "sequence": 13,
       "roles": [
         "Reeves"
       ]
@@ -139,31 +124,26 @@
     {
       "imdbId": "nm0838401",
       "name": "William Bell Sullivan",
-      "sequence": 14,
       "roles": []
     },
     {
       "imdbId": "nm0907618",
       "name": "Chris Walker",
-      "sequence": 15,
       "roles": []
     },
     {
       "imdbId": "nm0005568",
       "name": "Russell Wong",
-      "sequence": 16,
       "roles": []
     },
     {
       "imdbId": "nm0756839",
       "name": "James Saito",
-      "sequence": 17,
       "roles": []
     },
     {
       "imdbId": "nm0903985",
       "name": "Vlasta Vrana",
-      "sequence": 18,
       "roles": [
         "Doctor"
       ]
@@ -171,7 +151,6 @@
     {
       "imdbId": "nm0639496",
       "name": "David O'Brien",
-      "sequence": 19,
       "roles": [
         "Senator Carroll"
       ]
@@ -179,7 +158,6 @@
     {
       "imdbId": "nm0292623",
       "name": "Ron Frazier",
-      "sequence": 20,
       "roles": [
         "Senator Clifford"
       ]
@@ -187,13 +165,11 @@
     {
       "imdbId": "nm0660884",
       "name": "Ron Parady",
-      "sequence": 21,
       "roles": []
     },
     {
       "imdbId": "nm0784977",
       "name": "George Seremba",
-      "sequence": 22,
       "roles": [
         "Gafsha"
       ]
@@ -201,19 +177,16 @@
     {
       "imdbId": "nm0628951",
       "name": "Abdoulaye NGom",
-      "sequence": 23,
       "roles": []
     },
     {
       "imdbId": "nm0796227",
       "name": "Seth Sibanda",
-      "sequence": 24,
       "roles": []
     },
     {
       "imdbId": "nm0949342",
       "name": "Bruce Young",
-      "sequence": 25,
       "roles": []
     }
   ],
@@ -221,37 +194,31 @@
     {
       "imdbId": "nm0677514",
       "name": "Gerald Petievich",
-      "sequence": 0,
       "notes": "(created by) (creator)"
     },
     {
       "imdbId": "nm0001243",
       "name": "William Friedkin",
-      "sequence": 1,
       "notes": "(created by) (creator)"
     },
     {
       "imdbId": "nm0911808",
       "name": "Robert Ward",
-      "sequence": 3,
       "notes": "(teleplay)"
     },
     {
       "imdbId": "nm0677514",
       "name": "Gerald Petievich",
-      "sequence": 5,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0001243",
       "name": "William Friedkin",
-      "sequence": 6,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0911808",
       "name": "Robert Ward",
-      "sequence": 7,
       "notes": "(story)"
     }
   ]

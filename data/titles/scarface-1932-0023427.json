@@ -19,20 +19,17 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     },
     {
       "imdbId": "nm0744514",
-      "name": "Richard Rosson",
-      "sequence": 1
+      "name": "Richard Rosson"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0612847",
       "name": "Paul Muni",
-      "sequence": 0,
       "roles": [
         "Tony"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0245304",
       "name": "Ann Dvorak",
-      "sequence": 1,
       "roles": [
         "Cesca"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0605904",
       "name": "Karen Morley",
-      "sequence": 2,
       "roles": [
         "Poppy"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0674019",
       "name": "Osgood Perkins",
-      "sequence": 3,
       "roles": [
         "Lovo"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0330059",
       "name": "C. Henry Gordon",
-      "sequence": 4,
       "roles": [
         "Guarino"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0706368",
       "name": "George Raft",
-      "sequence": 5,
       "roles": [
         "Rinaldo"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0055998",
       "name": "Vince Barnett",
-      "sequence": 6,
       "roles": [
         "Angelo"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
-      "sequence": 7,
       "roles": [
         "Gaffney"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0695525",
       "name": "Purnell Pratt",
-      "sequence": 8,
       "roles": [
         "Publisher"
       ]
@@ -104,7 +93,6 @@
     {
       "imdbId": "nm0551222",
       "name": "Tully Marshall",
-      "sequence": 9,
       "roles": [
         "Managing Editor"
       ]
@@ -112,7 +100,6 @@
     {
       "imdbId": "nm0657366",
       "name": "Inez Palange",
-      "sequence": 10,
       "roles": [
         "Tony's Mother"
       ]
@@ -120,7 +107,6 @@
     {
       "imdbId": "nm0561693",
       "name": "Edwin Maxwell",
-      "sequence": 11,
       "roles": [
         "Detective Chief"
       ]
@@ -130,31 +116,26 @@
     {
       "imdbId": "nm0870660",
       "name": "Armitage Trail",
-      "sequence": 0,
       "notes": "(from the book by)"
     },
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 2,
       "notes": "(screen story by)"
     },
     {
       "imdbId": "nm0589316",
       "name": "Seton I. Miller",
-      "sequence": 4,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm0536941",
       "name": "John Lee Mahin",
-      "sequence": 5,
       "notes": "(dialogue)"
     },
     {
       "imdbId": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 6,
       "notes": "(dialogue)"
     }
   ],

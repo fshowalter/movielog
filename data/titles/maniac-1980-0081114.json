@@ -21,15 +21,13 @@
   "directors": [
     {
       "imdbId": "nm0527350",
-      "name": "William Lustig",
-      "sequence": 0
+      "name": "William Lustig"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0818874",
       "name": "Joe Spinell",
-      "sequence": 0,
       "roles": [
         "Frank Zito"
       ]
@@ -37,7 +35,6 @@
     {
       "imdbId": "nm0613098",
       "name": "Caroline Munro",
-      "sequence": 1,
       "roles": [
         "Anna D'Antoni"
       ]
@@ -45,7 +42,6 @@
     {
       "imdbId": "nm0492765",
       "name": "Abigail Clayton",
-      "sequence": 2,
       "roles": [
         "Rita"
       ]
@@ -53,7 +49,6 @@
     {
       "imdbId": "nm0684908",
       "name": "Kelly Piper",
-      "sequence": 3,
       "roles": [
         "Nurse"
       ]
@@ -61,7 +56,6 @@
     {
       "imdbId": "nm0600147",
       "name": "Rita Montone",
-      "sequence": 4,
       "roles": [
         "Hooker"
       ]
@@ -69,7 +63,6 @@
     {
       "imdbId": "nm0767741",
       "name": "Tom Savini",
-      "sequence": 5,
       "roles": [
         "Disco Boy"
       ]
@@ -77,7 +70,6 @@
     {
       "imdbId": "nm0550276",
       "name": "Hyla Marrow",
-      "sequence": 6,
       "roles": [
         "Disco Girl"
       ]
@@ -85,7 +77,6 @@
     {
       "imdbId": "nm0108281",
       "name": "James L. Brewster",
-      "sequence": 7,
       "roles": [
         "Beach Boy"
       ]
@@ -93,7 +84,6 @@
     {
       "imdbId": "nm0910075",
       "name": "Linda Lee Walter",
-      "sequence": 8,
       "roles": [
         "Beach Girl"
       ]
@@ -101,7 +91,6 @@
     {
       "imdbId": "nm0263278",
       "name": "Tracie Evans",
-      "sequence": 9,
       "roles": [
         "Street Hooker"
       ]
@@ -109,7 +98,6 @@
     {
       "imdbId": "nm0593722",
       "name": "Sharon Mitchell",
-      "sequence": 10,
       "roles": [
         "Second Nurse"
       ]
@@ -117,7 +105,6 @@
     {
       "imdbId": "nm2003586",
       "name": "Carol Henry",
-      "sequence": 11,
       "roles": [
         "Deadbeat"
       ]
@@ -125,7 +112,6 @@
     {
       "imdbId": "nm0045757",
       "name": "Nelia Bacmeister",
-      "sequence": 12,
       "roles": [
         "Carmen Zito"
       ]
@@ -133,7 +119,6 @@
     {
       "imdbId": "nm0419535",
       "name": "Louis Jawitz",
-      "sequence": 13,
       "roles": [
         "Art Director"
       ]
@@ -141,7 +126,6 @@
     {
       "imdbId": "nm0816624",
       "name": "Denise Spagnuolo",
-      "sequence": 14,
       "roles": [
         "Denise"
       ]
@@ -149,7 +133,6 @@
     {
       "imdbId": "nm0816623",
       "name": "Billy Spagnuolo",
-      "sequence": 15,
       "roles": [
         "Billy"
       ]
@@ -157,7 +140,6 @@
     {
       "imdbId": "nm0166199",
       "name": "Candace Clements",
-      "sequence": 17,
       "roles": [
         "First Park Mother"
       ]
@@ -165,7 +147,6 @@
     {
       "imdbId": "nm0816625",
       "name": "Diane Spagnuolo",
-      "sequence": 18,
       "roles": [
         "Second Park Mother"
       ]
@@ -173,7 +154,6 @@
     {
       "imdbId": "nm0399899",
       "name": "Kim Hudson",
-      "sequence": 19,
       "roles": [
         "Lobby Hooker"
       ]
@@ -181,7 +161,6 @@
     {
       "imdbId": "nm0301050",
       "name": "Terry Gagnon",
-      "sequence": 20,
       "roles": [
         "Woman in Alley"
       ]
@@ -189,7 +168,6 @@
     {
       "imdbId": "nm0049935",
       "name": "Joan Baldwin",
-      "sequence": 21,
       "roles": [
         "First Model"
       ]
@@ -197,7 +175,6 @@
     {
       "imdbId": "nm0668567",
       "name": "Jeni Paz",
-      "sequence": 22,
       "roles": [
         "Second Model"
       ]
@@ -205,7 +182,6 @@
     {
       "imdbId": "nm0935598",
       "name": "Janelle Winston",
-      "sequence": 23,
       "roles": [
         "Waitress"
       ]
@@ -213,7 +189,6 @@
     {
       "imdbId": "nm0432921",
       "name": "Randy Jurgensen",
-      "sequence": 24,
       "roles": [
         "First Cop"
       ]
@@ -221,7 +196,6 @@
     {
       "imdbId": "nm0042188",
       "name": "Jimmy Aurichio",
-      "sequence": 25,
       "roles": [
         "Second Cop"
       ]
@@ -231,19 +205,16 @@
     {
       "imdbId": "nm0742186",
       "name": "C.A. Rosenberg",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0818874",
       "name": "Joe Spinell",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0818874",
       "name": "Joe Spinell",
-      "sequence": 3,
       "notes": "(story)"
     }
   ]

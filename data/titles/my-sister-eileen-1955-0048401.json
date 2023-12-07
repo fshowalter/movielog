@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0703689",
-      "name": "Richard Quine",
-      "sequence": 0
+      "name": "Richard Quine"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001463",
       "name": "Janet Leigh",
-      "sequence": 0,
       "roles": [
         "Eileen Sherwood"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000493",
       "name": "Jack Lemmon",
-      "sequence": 1,
       "roles": [
         "Robert 'Bob' Baker"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0308081",
       "name": "Betty Garrett",
-      "sequence": 2,
       "roles": [
         "Ruth Sherwood"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0002080",
       "name": "Bob Fosse",
-      "sequence": 3,
       "roles": [
         "Frank"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0441069",
       "name": "Kurt Kasznar",
-      "sequence": 4,
       "roles": [
         "'Papa' Appopolous"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0948685",
       "name": "Dick York",
-      "sequence": 5,
       "roles": [
         "Ted 'Wreck' Loomis"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0549237",
       "name": "Lucy Marlow",
-      "sequence": 6,
       "roles": [
         "Helen"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0707720",
       "name": "Tommy Rall",
-      "sequence": 7,
       "roles": [
         "Chick"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0113072",
       "name": "Barbara Brown",
-      "sequence": 8,
       "roles": [
         "Helen's Mother"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0573024",
       "name": "Horace McMahon",
-      "sequence": 9,
       "roles": [
         "Police Officer Lonigan"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0805314",
       "name": "Henry Slate",
-      "sequence": 10,
       "roles": [
         "Second Drunk"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0545301",
       "name": "Hal March",
-      "sequence": 11,
       "roles": [
         "Pete - First Drunk"
       ]
@@ -123,31 +110,26 @@
     {
       "imdbId": "nm0001175",
       "name": "Blake Edwards",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0703689",
       "name": "Richard Quine",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0276284",
       "name": "Joseph Fields",
-      "sequence": 3,
       "notes": "(play \"My Sister Eileen\")"
     },
     {
       "imdbId": "nm0158738",
       "name": "Jerome Chodorov",
-      "sequence": 4,
       "notes": "(play \"My Sister Eileen\")"
     },
     {
       "imdbId": "nm0571450",
       "name": "Ruth McKenney",
-      "sequence": 6,
       "notes": "(stories)"
     }
   ],

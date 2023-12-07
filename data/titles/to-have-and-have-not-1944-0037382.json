@@ -20,15 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
-      "sequence": 0,
       "roles": [
         "Harry 'Steve' Morgan"
       ]
@@ -36,7 +34,6 @@
     {
       "imdbId": "nm0000974",
       "name": "Walter Brennan",
-      "sequence": 1,
       "roles": [
         "Eddie"
       ]
@@ -44,7 +41,6 @@
     {
       "imdbId": "nm0000002",
       "name": "Lauren Bacall",
-      "sequence": 2,
       "roles": [
         "Marie 'Slim' Browning"
       ]
@@ -52,7 +48,6 @@
     {
       "imdbId": "nm0602834",
       "name": "Dolores Moran",
-      "sequence": 3,
       "roles": [
         "Mme. Hellene de Bursac"
       ]
@@ -60,7 +55,6 @@
     {
       "imdbId": "nm0005994",
       "name": "Hoagy Carmichael",
-      "sequence": 4,
       "roles": [
         "Cricket"
       ]
@@ -68,7 +62,6 @@
     {
       "imdbId": "nm0502766",
       "name": "Sheldon Leonard",
-      "sequence": 5,
       "roles": [
         "Lt. Coyo"
       ]
@@ -76,7 +69,6 @@
     {
       "imdbId": "nm0844346",
       "name": "Walter Szurovy",
-      "sequence": 6,
       "roles": [
         "Paul de Bursac"
       ]
@@ -84,7 +76,6 @@
     {
       "imdbId": "nm0197950",
       "name": "Marcel Dalio",
-      "sequence": 7,
       "roles": [
         "Gerard"
       ]
@@ -92,7 +83,6 @@
     {
       "imdbId": "nm0761340",
       "name": "Walter Sande",
-      "sequence": 8,
       "roles": [
         "Johnson"
       ]
@@ -100,7 +90,6 @@
     {
       "imdbId": "nm0786811",
       "name": "Dan Seymour",
-      "sequence": 9,
       "roles": [
         "Capt. M. Renard"
       ]
@@ -108,7 +97,6 @@
     {
       "imdbId": "nm0618891",
       "name": "Aldo Nadi",
-      "sequence": 10,
       "roles": [
         "Renard's Bodyguard"
       ]
@@ -118,19 +106,16 @@
     {
       "imdbId": "nm0002133",
       "name": "Ernest Hemingway",
-      "sequence": 0,
       "notes": "(novel \"To Have and Have Not\")"
     },
     {
       "imdbId": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 3,
       "notes": "(screen play)"
     }
   ],

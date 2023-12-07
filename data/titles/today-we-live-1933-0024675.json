@@ -17,20 +17,17 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     },
     {
       "imdbId": "nm0744514",
-      "name": "Richard Rosson",
-      "sequence": 1
+      "name": "Richard Rosson"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001076",
       "name": "Joan Crawford",
-      "sequence": 0,
       "roles": [
         "Diana"
       ]
@@ -38,7 +35,6 @@
     {
       "imdbId": "nm0000011",
       "name": "Gary Cooper",
-      "sequence": 1,
       "roles": [
         "Bogard"
       ]
@@ -46,7 +42,6 @@
     {
       "imdbId": "nm0001870",
       "name": "Robert Young",
-      "sequence": 2,
       "roles": [
         "Claude"
       ]
@@ -54,7 +49,6 @@
     {
       "imdbId": "nm0867144",
       "name": "Franchot Tone",
-      "sequence": 3,
       "roles": [
         "Lieutenant Ronnie Boyce-Smith"
       ]
@@ -62,7 +56,6 @@
     {
       "imdbId": "nm0439850",
       "name": "Roscoe Karns",
-      "sequence": 4,
       "roles": [
         "McGinnis"
       ]
@@ -70,7 +63,6 @@
     {
       "imdbId": "nm0167113",
       "name": "Louise Closser Hale",
-      "sequence": 5,
       "roles": [
         "Applegate"
       ]
@@ -78,7 +70,6 @@
     {
       "imdbId": "nm0516121",
       "name": "Rollo Lloyd",
-      "sequence": 6,
       "roles": [
         "Major"
       ]
@@ -86,7 +77,6 @@
     {
       "imdbId": "nm0891176",
       "name": "Hilda Vaughn",
-      "sequence": 7,
       "roles": [
         "Eleanor"
       ]
@@ -94,7 +84,6 @@
     {
       "imdbId": "nm6243470",
       "name": "Gene O'Brien",
-      "sequence": 8,
       "roles": []
     }
   ],
@@ -102,25 +91,21 @@
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 0,
       "notes": "(story \"Turn About\")"
     },
     {
       "imdbId": "nm0280223",
       "name": "Edith Fitzgerald",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0852313",
       "name": "Dwight Taylor",
-      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 5,
       "notes": "(dialogue)"
     }
   ],

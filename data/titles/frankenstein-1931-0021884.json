@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001843",
-      "name": "James Whale",
-      "sequence": 0
+      "name": "James Whale"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0166972",
       "name": "Colin Clive",
-      "sequence": 0,
       "roles": [
         "Henry Frankenstein"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0164883",
       "name": "Mae Clarke",
-      "sequence": 1,
       "roles": [
         "Elizabeth"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0092900",
       "name": "John Boles",
-      "sequence": 2,
       "roles": [
         "Victor Moritz"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
-      "sequence": 3,
       "roles": [
         "The Monster"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0888000",
       "name": "Edward Van Sloan",
-      "sequence": 4,
       "roles": [
         "Doctor Waldman"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0449694",
       "name": "Frederick Kerr",
-      "sequence": 5,
       "roles": [
         "Baron Frankenstein"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0296859",
       "name": "Dwight Frye",
-      "sequence": 6,
       "roles": [
         "Fritz"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0069373",
       "name": "Lionel Belmore",
-      "sequence": 7,
       "roles": [
         "The Burgomaster"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0365048",
       "name": "Marilyn Harris",
-      "sequence": 8,
       "roles": [
         "Little Maria"
       ]
@@ -100,37 +90,31 @@
     {
       "imdbId": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 0,
       "notes": "(based upon the composition by)"
     },
     {
       "imdbId": "nm0791217",
       "name": "Mary Shelley",
-      "sequence": 2,
       "notes": "(from the novel by) (as Mrs. Percy B. Shelley)"
     },
     {
       "imdbId": "nm0916811",
       "name": "Peggy Webling",
-      "sequence": 4,
       "notes": "(adapted from the play by)"
     },
     {
       "imdbId": "nm0287124",
       "name": "Garrett Fort",
-      "sequence": 6,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0267020",
       "name": "Francis Edward Faragoh",
-      "sequence": 7,
       "notes": "(screen play) (as Francis Edwards Faragoh)"
     },
     {
       "imdbId": "nm0770337",
       "name": "Richard Schayer",
-      "sequence": 9,
       "notes": "(scenario editor)"
     }
   ],

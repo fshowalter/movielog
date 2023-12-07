@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang",
-      "sequence": 0
+      "name": "Fritz Lang"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001229",
       "name": "Glenn Ford",
-      "sequence": 0,
       "roles": [
         "Sgt. Dave Bannion"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0002108",
       "name": "Gloria Grahame",
-      "sequence": 1,
       "roles": [
         "Debby Marsh"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0104720",
       "name": "Jocelyn Brando",
-      "sequence": 2,
       "roles": [
         "Katie Bannion"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0780038",
       "name": "Alexander Scourby",
-      "sequence": 3,
       "roles": [
         "Mike Lagana"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0001511",
       "name": "Lee Marvin",
-      "sequence": 4,
       "roles": [
         "Vince Stone"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0634282",
       "name": "Jeanette Nolan",
-      "sequence": 5,
       "roles": [
         "Bertha Duncan"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0926338",
       "name": "Peter Whitney",
-      "sequence": 6,
       "roles": [
         "Tierney"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0099071",
       "name": "Willis Bouchey",
-      "sequence": 7,
       "roles": [
         "Lt. Ted Wilks"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0123699",
       "name": "Robert Burton",
-      "sequence": 8,
       "roles": [
         "Gus Burke"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0929965",
       "name": "Adam Williams",
-      "sequence": 9,
       "roles": [
         "Larry Gordon"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0920831",
       "name": "Howard Wendell",
-      "sequence": 10,
       "roles": [
         "Commissioner Higgins"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0017108",
       "name": "Chris Alcaide",
-      "sequence": 11,
       "roles": [
         "George Rose"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm0335070",
       "name": "Michael Granger",
-      "sequence": 12,
       "roles": [
         "Hugo"
       ]
@@ -129,7 +115,6 @@
     {
       "imdbId": "nm0337802",
       "name": "Dorothy Green",
-      "sequence": 13,
       "roles": [
         "Lucy Chapman"
       ]
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0427700",
       "name": "Carolyn Jones",
-      "sequence": 14,
       "roles": [
         "Doris"
       ]
@@ -145,7 +129,6 @@
     {
       "imdbId": "nm0106959",
       "name": "Ric Roman",
-      "sequence": 15,
       "roles": [
         "Baldy"
       ]
@@ -153,7 +136,6 @@
     {
       "imdbId": "nm0786811",
       "name": "Dan Seymour",
-      "sequence": 16,
       "roles": [
         "Mr. Atkins"
       ]
@@ -161,7 +143,6 @@
     {
       "imdbId": "nm0263330",
       "name": "Edith Evanson",
-      "sequence": 17,
       "roles": [
         "Selma Parker"
       ]
@@ -171,13 +152,11 @@
     {
       "imdbId": "nm0091213",
       "name": "Sydney Boehm",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0569423",
       "name": "William P. McGivern",
-      "sequence": 2,
       "notes": "(Saturday Evening Post serial)"
     }
   ],

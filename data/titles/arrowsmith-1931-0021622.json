@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000406",
-      "name": "John Ford",
-      "sequence": 0
+      "name": "John Ford"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0172903",
       "name": "Ronald Colman",
-      "sequence": 0,
       "roles": [
         "Dr. Martin Arrowsmith"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0371040",
       "name": "Helen Hayes",
-      "sequence": 1,
       "roles": [
         "Leora Tozer Arrowsmith"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0071992",
       "name": "Richard Bennett",
-      "sequence": 2,
       "roles": [
         "Gustav Sondelius"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0030653",
       "name": "A.E. Anson",
-      "sequence": 3,
       "roles": [
         "Professor Max Gottlieb"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0111919",
       "name": "Clarence Brooks",
-      "sequence": 4,
       "roles": [
         "Dr. Oliver Marchand"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0290066",
       "name": "Alec B. Francis",
-      "sequence": 5,
       "roles": [
         "Twyford"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0454596",
       "name": "Claude King",
-      "sequence": 6,
       "roles": [
         "Dr. Tubbs"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0729991",
       "name": "Bert Roach",
-      "sequence": 7,
       "roles": [
         "Bert Tozer"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0001485",
       "name": "Myrna Loy",
-      "sequence": 8,
       "roles": [
         "Joyce Lanyon"
       ]
@@ -95,7 +85,6 @@
     {
       "imdbId": "nm0394477",
       "name": "Russell Hopton",
-      "sequence": 9,
       "roles": [
         "Terry Wickett"
       ]
@@ -103,7 +92,6 @@
     {
       "imdbId": "nm0484439",
       "name": "David Landau",
-      "sequence": 10,
       "roles": [
         "State Veterinarian"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0362815",
       "name": "Lumsden Hare",
-      "sequence": 11,
       "roles": [
         "Sir Robert Fairland - Governor"
       ]
@@ -121,13 +108,11 @@
     {
       "imdbId": "nm0507760",
       "name": "Sinclair Lewis",
-      "sequence": 0,
       "notes": "(based upon the novel by)"
     },
     {
       "imdbId": "nm0397608",
       "name": "Sidney Howard",
-      "sequence": 2,
       "notes": "(adapted for the screen by)"
     }
   ],

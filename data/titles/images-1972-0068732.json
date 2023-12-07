@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000265",
-      "name": "Robert Altman",
-      "sequence": 0
+      "name": "Robert Altman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0948772",
       "name": "Susannah York",
-      "sequence": 0,
       "roles": [
         "Cathryn"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0041281",
       "name": "Rene Auberjonois",
-      "sequence": 1,
       "roles": [
         "Hugh"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0102566",
       "name": "Marcel Bozzuffi",
-      "sequence": 2,
       "roles": [
         "Rene"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0587608",
       "name": "Hugh Millais",
-      "sequence": 3,
       "roles": [
         "Marcel"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0365518",
       "name": "Cathryn Harrison",
-      "sequence": 4,
       "roles": [
         "Susannah"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0605899",
       "name": "John Morley",
-      "sequence": 5,
       "roles": [
         "Old Man"
       ]
@@ -75,13 +68,11 @@
     {
       "imdbId": "nm0000265",
       "name": "Robert Altman",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0948772",
       "name": "Susannah York",
-      "sequence": 2,
       "notes": "(novel \"In Search of Unicorns\")"
     }
   ],

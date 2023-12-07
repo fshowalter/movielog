@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0376101",
-      "name": "David Hemmings",
-      "sequence": 0
+      "name": "David Hemmings"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000336",
       "name": "James Coburn",
-      "sequence": 0,
       "roles": [
         "Santa"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0940919",
       "name": "Edward Woodward",
-      "sequence": 1,
       "roles": [
         "Colonel Phillips"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0250215",
       "name": "Meredith Edwards",
-      "sequence": 2,
       "roles": [
         "Alf Boswell"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0848275",
       "name": "Myfanwy Talog",
-      "sequence": 3,
       "roles": [
         "Edith"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0129022",
       "name": "Fraser Cains",
-      "sequence": 4,
       "roles": [
         "Jake"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0604685",
       "name": "Geraint Morgan",
-      "sequence": 5,
       "roles": [
         "Rodney"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0910312",
       "name": "Melanie Walters",
-      "sequence": 6,
       "roles": [
         "Mrs. Evans"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0350366",
       "name": "Gweirydd Gwyndaf",
-      "sequence": 7,
       "roles": [
         "Tim",
         "Jimmy"
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0931393",
       "name": "Noel Williams",
-      "sequence": 8,
       "roles": [
         "Butler"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0253505",
       "name": "Nia Elias",
-      "sequence": 9,
       "roles": [
         "Megan"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0715899",
       "name": "Deiniol Wyn Rees",
-      "sequence": 10,
       "roles": [
         "Gwilym"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0199956",
       "name": "Heledd Daniels",
-      "sequence": 11,
       "roles": [
         "Eldora"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0196696",
       "name": "John Dafis",
-      "sequence": 12,
       "roles": [
         "P.C. Lewis"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0724277",
       "name": "Penelope Richards",
-      "sequence": 13,
       "roles": [
         "Sara Boswell"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0271256",
       "name": "Andrew Felindre",
-      "sequence": 14,
       "roles": [
         "Farmer"
       ]
@@ -149,19 +133,16 @@
     {
       "imdbId": "nm14632214",
       "name": "Angharad Jones",
-      "sequence": 0,
       "notes": "()"
     },
     {
       "imdbId": "nm14632215",
       "name": "Paul Mathews",
-      "sequence": 1,
       "notes": "()"
     },
     {
       "imdbId": "nm1181538",
       "name": "T. Llew Jones",
-      "sequence": 3,
       "notes": "(novel \"Tan ar y Comin;/Fire on the Common\")"
     }
   ]

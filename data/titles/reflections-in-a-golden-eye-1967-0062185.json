@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000072",
       "name": "Elizabeth Taylor",
-      "sequence": 0,
       "roles": [
         "Leonora Penderton"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000008",
       "name": "Marlon Brando",
-      "sequence": 1,
       "roles": [
         "Maj. Weldon Penderton"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0001417",
       "name": "Brian Keith",
-      "sequence": 2,
       "roles": [
         "Lt. Col. Morris Langdon"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0364915",
       "name": "Julie Harris",
-      "sequence": 3,
       "roles": [
         "Alison Langdon"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0203096",
       "name": "Zorro David",
-      "sequence": 4,
       "roles": [
         "Anacleto"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0593369",
       "name": "Gordon Mitchell",
-      "sequence": 5,
       "roles": [
         "Stables Sergeant"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0240805",
       "name": "Irvin Dugan",
-      "sequence": 6,
       "roles": [
         "Capt. Murray Weincheck"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0816981",
       "name": "Fay Sparks",
-      "sequence": 7,
       "roles": [
         "Susie"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0001233",
       "name": "Robert Forster",
-      "sequence": 8,
       "roles": [
         "Pvt. L.G. Williams"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0582726",
       "name": "Ed Metzger",
-      "sequence": 9,
       "roles": [
         "Pvt. Frank Brian"
       ]
@@ -107,19 +96,16 @@
     {
       "imdbId": "nm0607852",
       "name": "Chapman Mortimer",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0384283",
       "name": "Gladys Hill",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0567111",
       "name": "Carson McCullers",
-      "sequence": 3,
       "notes": "(novel)"
     }
   ],

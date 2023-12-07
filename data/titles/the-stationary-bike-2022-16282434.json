@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm10456353",
-      "name": "A.M. Walters",
-      "sequence": 0
+      "name": "A.M. Walters"
     }
   ],
   "performers": [
     {
       "imdbId": "nm5447841",
       "name": "Sonia Balcazar",
-      "sequence": 0,
       "roles": [
         "Mother"
       ]
@@ -35,98 +33,64 @@
     {
       "imdbId": "nm1954988",
       "name": "Manny Martinez Hernandez",
-      "sequence": 1,
       "roles": [
         "Richard"
       ]
     },
     {
-      "imdbId": "nm7258656",
-      "name": "Nayeli Esparza",
-      "sequence": 2,
-      "roles": [
-        "Police Officer"
-      ]
-    },
-    {
       "imdbId": "nm2670764",
       "name": "Roseny",
-      "sequence": 3,
       "roles": [
         "Trudy",
         "Crew Worker #2"
       ]
     },
     {
-      "imdbId": "nm11987185",
-      "name": "Joe Felix",
-      "sequence": 4,
-      "roles": [
-        "Construction Worker"
-      ]
-    },
-    {
-      "imdbId": "nm11684885",
-      "name": "Travis Sanders",
-      "sequence": 5,
-      "roles": [
-        "Construction Worker"
-      ]
-    },
-    {
       "imdbId": "nm13378620",
       "name": "Matthew J. Perez",
-      "sequence": 6,
       "roles": [
         "Matt",
         "Crew Worker #4"
       ]
     },
     {
-      "imdbId": "nm13567313",
-      "name": "Adrian Garcia",
-      "sequence": 7,
+      "imdbId": "nm7258656",
+      "name": "Nayeli Esparza",
       "roles": [
-        "Construction Worker"
+        "Police Officer"
       ]
     },
     {
       "imdbId": "nm11326946",
       "name": "Julian Alejandre",
-      "sequence": 8,
       "roles": [
         "Young Richard"
       ]
     },
     {
-      "imdbId": "nm11326945",
-      "name": "Shannon Passey",
-      "sequence": 9,
-      "roles": [
-        "Laura",
-        "Crew Worker #3"
-      ]
-    },
-    {
-      "imdbId": "nm13567312",
-      "name": "Nathan De Camp",
-      "sequence": 10,
+      "imdbId": "nm11684885",
+      "name": "Travis Sanders",
       "roles": [
         "Construction Worker"
       ]
     },
     {
-      "imdbId": "nm2792785",
-      "name": "Andy Zaldivar",
-      "sequence": 11,
+      "imdbId": "nm11987185",
+      "name": "Joe Felix",
       "roles": [
-        "Flyer Guy"
+        "Construction Worker"
+      ]
+    },
+    {
+      "imdbId": "nm13567313",
+      "name": "Adrian Garcia",
+      "roles": [
+        "Construction Worker"
       ]
     },
     {
       "imdbId": "nm2562961",
       "name": "Kevin Escudero",
-      "sequence": 12,
       "roles": [
         "Dr. Brady"
       ]
@@ -134,18 +98,38 @@
     {
       "imdbId": "nm7062522",
       "name": "Domingo Winstead",
-      "sequence": 13,
       "roles": [
         "Richard's Father",
         "Crew Worker #1"
       ]
     },
     {
+      "imdbId": "nm2792785",
+      "name": "Andy Zaldivar",
+      "roles": [
+        "Flyer Guy"
+      ]
+    },
+    {
+      "imdbId": "nm11326945",
+      "name": "Shannon Passey",
+      "roles": [
+        "Laura",
+        "Crew Worker #3"
+      ]
+    },
+    {
       "imdbId": "nm7047221",
       "name": "Luelle Llorens",
-      "sequence": 14,
       "roles": [
         "Nurse"
+      ]
+    },
+    {
+      "imdbId": "nm13567312",
+      "name": "Nathan De Camp",
+      "roles": [
+        "Construction Worker"
       ]
     }
   ],
@@ -153,13 +137,11 @@
     {
       "imdbId": "nm0000175",
       "name": "Stephen King",
-      "sequence": 0,
       "notes": "(based on the story by)"
     },
     {
       "imdbId": "nm10456353",
       "name": "A.M. Walters",
-      "sequence": 2,
       "notes": "(screenplay by) (as Alanna M. Walters)"
     }
   ]

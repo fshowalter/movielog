@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0001486",
-      "name": "Sidney Lumet",
-      "sequence": 0
+      "name": "Sidney Lumet"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000336",
       "name": "James Coburn",
-      "sequence": 0,
       "roles": [
         "Jeb Stuart Thorington"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0001655",
       "name": "Lynn Redgrave",
-      "sequence": 1,
       "roles": [
         "Myrtle Kane"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0393666",
       "name": "Robert Hooks",
-      "sequence": 2,
       "roles": [
         "Chicken"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0371187",
       "name": "Perry Hayes",
-      "sequence": 3,
       "roles": [
         "George"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0455175",
       "name": "Reggie King",
-      "sequence": 4,
       "roles": [
         "Rube Benedict"
       ]
@@ -65,13 +59,11 @@
     {
       "imdbId": "nm0931783",
       "name": "Tennessee Williams",
-      "sequence": 0,
       "notes": "(play \"The Seven Descents of Myrtle\")"
     },
     {
       "imdbId": "nm0000683",
       "name": "Gore Vidal",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

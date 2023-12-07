@@ -21,50 +21,41 @@
   "directors": [
     {
       "imdbId": "nm0994468",
-      "name": "David Brooks",
-      "sequence": 0
+      "name": "David Brooks"
     },
     {
       "imdbId": "nm0000343",
-      "name": "David Cronenberg",
-      "sequence": 1
+      "name": "David Cronenberg"
     },
     {
       "imdbId": "nm1000898",
-      "name": "Syd Garon",
-      "sequence": 2
+      "name": "Syd Garon"
     },
     {
       "imdbId": "nm1037263",
-      "name": "Eric Henry",
-      "sequence": 3
+      "name": "Eric Henry"
     },
     {
       "imdbId": "nm0506703",
-      "name": "Jeff Lew",
-      "sequence": 4
+      "name": "Jeff Lew"
     },
     {
       "imdbId": "nm0778108",
-      "name": "Steffen Sch\u00e4ffler",
-      "sequence": 5
+      "name": "Steffen Sch\u00e4ffler"
     },
     {
       "imdbId": "nm0800800",
-      "name": "Ola Simonsson",
-      "sequence": 6
+      "name": "Ola Simonsson"
     },
     {
       "imdbId": "nm0632312",
-      "name": "Johannes Stj\u00e4rne Nilsson",
-      "sequence": 7
+      "name": "Johannes Stj\u00e4rne Nilsson"
     }
   ],
   "performers": [
     {
       "imdbId": "nm1131943",
       "name": "Johannes Bj\u00f6rk",
-      "sequence": 0,
       "roles": [
         "Drummer"
       ]
@@ -72,7 +63,6 @@
     {
       "imdbId": "nm1132005",
       "name": "Magnus B\u00f6rjeson",
-      "sequence": 2,
       "roles": [
         "Drummer"
       ]
@@ -80,7 +70,6 @@
     {
       "imdbId": "nm0137967",
       "name": "Leslie Carlson",
-      "sequence": 3,
       "roles": [
         "The Actor"
       ]
@@ -88,7 +77,6 @@
     {
       "imdbId": "nm1028835",
       "name": "D-Styles",
-      "sequence": 4,
       "roles": [
         "Wax Fondler"
       ]
@@ -96,7 +84,6 @@
     {
       "imdbId": "nm1029039",
       "name": "Riche-Van Desuasido",
-      "sequence": 5,
       "roles": [
         "Turbo Frog"
       ]
@@ -104,7 +91,6 @@
     {
       "imdbId": "nm1029438",
       "name": "Flare",
-      "sequence": 6,
       "roles": [
         "Butchwax"
       ]
@@ -112,7 +98,6 @@
     {
       "imdbId": "nm1185048",
       "name": "Barbro Gustafson L\u00f6fgren",
-      "sequence": 7,
       "roles": [
         "The Woman"
       ]
@@ -120,7 +105,6 @@
     {
       "imdbId": "nm1132412",
       "name": "Marcus Haraldson",
-      "sequence": 8,
       "roles": [
         "Drummer"
       ]
@@ -128,7 +112,6 @@
     {
       "imdbId": "nm0001326",
       "name": "Josh Hartnett",
-      "sequence": 9,
       "roles": [
         "Gianni"
       ]
@@ -136,7 +119,6 @@
     {
       "imdbId": "nm1162194",
       "name": "Anders Jansson",
-      "sequence": 10,
       "roles": [
         "The TV-Man"
       ]
@@ -144,7 +126,6 @@
     {
       "imdbId": "nm1133743",
       "name": "Fredrik Myhr",
-      "sequence": 11,
       "roles": [
         "Drummer"
       ]
@@ -152,7 +133,6 @@
     {
       "imdbId": "nm1133009",
       "name": "Sanna Persson",
-      "sequence": 12,
       "roles": [
         "Drummer"
       ]
@@ -160,7 +140,6 @@
     {
       "imdbId": "nm0702579",
       "name": "DJ Q-Bert",
-      "sequence": 13,
       "roles": [
         "Darth Fader"
       ]
@@ -168,7 +147,6 @@
     {
       "imdbId": "nm1186443",
       "name": "Zerby Thor",
-      "sequence": 14,
       "roles": [
         "The Man"
       ]
@@ -176,7 +154,6 @@
     {
       "imdbId": "nm1133431",
       "name": "Anders Vestergard",
-      "sequence": 15,
       "roles": [
         "Drummer"
       ]
@@ -186,61 +163,51 @@
     {
       "imdbId": "nm0994468",
       "name": "David Brooks",
-      "sequence": 0,
       "notes": "(segment \"Member\")"
     },
     {
       "imdbId": "nm0000343",
       "name": "David Cronenberg",
-      "sequence": 2,
       "notes": "(segment \"Camera\")"
     },
     {
       "imdbId": "nm1037124",
       "name": "Doug Cunningham",
-      "sequence": 4,
       "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1000898",
       "name": "Syd Garon",
-      "sequence": 6,
       "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1037263",
       "name": "Eric Henry",
-      "sequence": 8,
       "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm0506703",
       "name": "Jeff Lew",
-      "sequence": 10,
       "notes": "(segment \"Killer Bean 2: The Party \")"
     },
     {
       "imdbId": "nm0778105",
       "name": "Annette Sch\u00e4ffler",
-      "sequence": 12,
       "notes": "(segment \"The Periwig-Maker \")"
     },
     {
       "imdbId": "nm0778108",
       "name": "Steffen Sch\u00e4ffler",
-      "sequence": 14,
       "notes": "(segment \"The Periwig-Maker \")"
     },
     {
       "imdbId": "nm0800800",
       "name": "Ola Simonsson",
-      "sequence": 16,
       "notes": "(segment \"Music for One Apartment and Six Drummers \")"
     },
     {
       "imdbId": "nm0632312",
       "name": "Johannes Stj\u00e4rne Nilsson",
-      "sequence": 18,
       "notes": "(segment \"Music for One Apartment and Six Drummers \")"
     }
   ],

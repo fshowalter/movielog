@@ -21,15 +21,13 @@
   "directors": [
     {
       "imdbId": "nm0359734",
-      "name": "Michael Haneke",
-      "sequence": 0
+      "name": "Michael Haneke"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0618057",
       "name": "Ulrich M\u00fche",
-      "sequence": 0,
       "roles": [
         "K."
       ]
@@ -37,7 +35,6 @@
     {
       "imdbId": "nm0521443",
       "name": "Susanne Lothar",
-      "sequence": 1,
       "roles": [
         "Frieda"
       ]
@@ -45,7 +42,6 @@
     {
       "imdbId": "nm0317385",
       "name": "Frank Giering",
-      "sequence": 2,
       "roles": [
         "Artur"
       ]
@@ -53,7 +49,6 @@
     {
       "imdbId": "nm0252191",
       "name": "Felix Eitner",
-      "sequence": 3,
       "roles": [
         "Jeremias"
       ]
@@ -61,7 +56,6 @@
     {
       "imdbId": "nm0664144",
       "name": "Nikolaus Paryla",
-      "sequence": 4,
       "roles": [
         "Vorsteher"
       ]
@@ -69,7 +63,6 @@
     {
       "imdbId": "nm0252091",
       "name": "Andr\u00e9 Eisermann",
-      "sequence": 5,
       "roles": [
         "Barnabas"
       ]
@@ -77,7 +70,6 @@
     {
       "imdbId": "nm0529287",
       "name": "D\u00f6rte Lyssewski",
-      "sequence": 6,
       "roles": [
         "Olga"
       ]
@@ -85,7 +77,6 @@
     {
       "imdbId": "nm0123984",
       "name": "Inga Busch",
-      "sequence": 7,
       "roles": [
         "Amalia"
       ]
@@ -93,7 +84,6 @@
     {
       "imdbId": "nm0777947",
       "name": "Norbert Schwientek",
-      "sequence": 8,
       "roles": [
         "B\u00fcrgel"
       ]
@@ -101,7 +91,6 @@
     {
       "imdbId": "nm0225954",
       "name": "Hans Diehl",
-      "sequence": 9,
       "roles": [
         "Erlanger"
       ]
@@ -109,7 +98,6 @@
     {
       "imdbId": "nm0511059",
       "name": "Birgit Linauer",
-      "sequence": 10,
       "roles": [
         "Pepi"
       ]
@@ -117,7 +105,6 @@
     {
       "imdbId": "nm0759705",
       "name": "Branko Samarovski",
-      "sequence": 11,
       "roles": [
         "Herrenhofwirt"
       ]
@@ -125,7 +112,6 @@
     {
       "imdbId": "nm0066759",
       "name": "Ortrud Beginnen",
-      "sequence": 12,
       "roles": [
         "Br\u00fcckenwirtin"
       ]
@@ -133,7 +119,6 @@
     {
       "imdbId": "nm0345100",
       "name": "Otto Gr\u00fcnmandl",
-      "sequence": 13,
       "roles": [
         "Br\u00fcckenwirt"
       ]
@@ -141,7 +126,6 @@
     {
       "imdbId": "nm0797898",
       "name": "Johannes Silberschneider",
-      "sequence": 14,
       "roles": [
         "Lehrer"
       ]
@@ -149,7 +133,6 @@
     {
       "imdbId": "nm0542524",
       "name": "Paulus Manker",
-      "sequence": 15,
       "roles": [
         "Momus"
       ]
@@ -157,7 +140,6 @@
     {
       "imdbId": "nm0104180",
       "name": "Martin Brambach",
-      "sequence": 16,
       "roles": [
         "Schwarzer"
       ]
@@ -165,7 +147,6 @@
     {
       "imdbId": "nm0074397",
       "name": "Wolfram Berger",
-      "sequence": 17,
       "roles": [
         "Gerst\u00e4cker"
       ]
@@ -173,7 +154,6 @@
     {
       "imdbId": "nm0089629",
       "name": "Conradin Blum",
-      "sequence": 18,
       "roles": [
         "Hans"
       ]
@@ -181,7 +161,6 @@
     {
       "imdbId": "nm0088179",
       "name": "Monica Bleibtreu",
-      "sequence": 19,
       "roles": [
         "Lehrerin"
       ]
@@ -189,25 +168,21 @@
     {
       "imdbId": "nm0442350",
       "name": "Ulrike Kaufmann",
-      "sequence": 20,
       "roles": []
     },
     {
       "imdbId": "nm0881281",
       "name": "Joachim Unmack",
-      "sequence": 21,
       "roles": []
     },
     {
       "imdbId": "nm0772160",
       "name": "Lisa Schlegel",
-      "sequence": 22,
       "roles": []
     },
     {
       "imdbId": "nm0296034",
       "name": "Hermann Fritz",
-      "sequence": 23,
       "roles": []
     }
   ],
@@ -215,13 +190,11 @@
     {
       "imdbId": "nm0434525",
       "name": "Franz Kafka",
-      "sequence": 0,
       "notes": "(novel: \"Das Schlo\u00df\")"
     },
     {
       "imdbId": "nm0359734",
       "name": "Michael Haneke",
-      "sequence": 2,
       "notes": "(adaptation)"
     }
   ]

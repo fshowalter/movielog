@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0001361",
-      "name": "Tobe Hooper",
-      "sequence": 0
+      "name": "Tobe Hooper"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000749",
       "name": "M\u00e4dchen Amick",
-      "sequence": 0,
       "roles": [
         "Amy O'Neill"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0662160",
       "name": "Corey Parker",
-      "sequence": 1,
       "roles": [
         "Eddie Sadler"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0355449",
       "name": "Daisy Hall",
-      "sequence": 2,
       "roles": [
         "Gloria Randolph"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0000388",
       "name": "R. Lee Ermey",
-      "sequence": 3,
       "roles": [
         "Lt. Raleigh Ackman"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0769791",
       "name": "Natalie Schafer",
-      "sequence": 4,
       "roles": [
         "Grandmother"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0112043",
       "name": "Jason Brooks",
-      "sequence": 5,
       "roles": [
         "Mason"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0074125",
       "name": "William Berger",
-      "sequence": 6,
       "roles": [
         "Jonas Wilson"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0291710",
       "name": "Mary Frann",
-      "sequence": 7,
       "roles": [
         "Martha Randolph"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0908914",
       "name": "Dee Wallace",
-      "sequence": 8,
       "roles": [
         "Wanda Thatcher"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0000578",
       "name": "Anthony Perkins",
-      "sequence": 9,
       "roles": [
         "Prof. Gordon Buchanan"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0394875",
       "name": "Lew Horn",
-      "sequence": 10,
       "roles": [
         "Coroner"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0292355",
       "name": "Stuart Fratkin",
-      "sequence": 11,
       "roles": [
         "Victor"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0498626",
       "name": "Dan Leegant",
-      "sequence": 12,
       "roles": [
         "Frank"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0569079",
       "name": "Jack McGee",
-      "sequence": 13,
       "roles": [
         "Landlord"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0873668",
       "name": "Ed Trotta",
-      "sequence": 14,
       "roles": [
         "Joey"
       ]
@@ -147,7 +131,6 @@
     {
       "imdbId": "nm0137483",
       "name": "David Carlile",
-      "sequence": 15,
       "roles": [
         "Matt"
       ]
@@ -155,7 +138,6 @@
     {
       "imdbId": "nm0487054",
       "name": "Felicia Lansbury",
-      "sequence": 16,
       "roles": [
         "Librarian"
       ]
@@ -163,7 +145,6 @@
     {
       "imdbId": "nm0113707",
       "name": "Henry C. Brown",
-      "sequence": 17,
       "roles": [
         "Anchorman"
       ]
@@ -171,7 +152,6 @@
     {
       "imdbId": "nm0314910",
       "name": "Ellen Gerstein",
-      "sequence": 18,
       "roles": [
         "Server"
       ]
@@ -179,7 +159,6 @@
     {
       "imdbId": "nm0345973",
       "name": "Ivan Gueron",
-      "sequence": 19,
       "roles": [
         "Romeo"
       ]
@@ -187,7 +166,6 @@
     {
       "imdbId": "nm0306240",
       "name": "Juan Garcia",
-      "sequence": 20,
       "roles": [
         "Enrique"
       ]
@@ -195,7 +173,6 @@
     {
       "imdbId": "nm0226009",
       "name": "Frank DiElsi",
-      "sequence": 21,
       "roles": [
         "City Worker"
       ]
@@ -203,7 +180,6 @@
     {
       "imdbId": "nm0672005",
       "name": "Richard Penn",
-      "sequence": 22,
       "roles": [
         "Paramedic"
       ]
@@ -211,7 +187,6 @@
     {
       "imdbId": "nm0056455",
       "name": "Xavier Barquet",
-      "sequence": 23,
       "roles": [
         "Tybolt"
       ]
@@ -219,7 +194,6 @@
     {
       "imdbId": "nm0908024",
       "name": "Matthew Walker",
-      "sequence": 24,
       "roles": [
         "Punk #2"
       ]
@@ -227,7 +201,6 @@
     {
       "imdbId": "nm0367445",
       "name": "Robert Harvey",
-      "sequence": 25,
       "roles": [
         "Janitor"
       ]
@@ -235,7 +208,6 @@
     {
       "imdbId": "nm0534563",
       "name": "Bill Madden",
-      "sequence": 26,
       "roles": [
         "Punk #1"
       ]
@@ -245,19 +217,16 @@
     {
       "imdbId": "nm0941280",
       "name": "Cornell Woolrich",
-      "sequence": 0,
       "notes": "(short story)"
     },
     {
       "imdbId": "nm0487049",
       "name": "Bruce Lansbury",
-      "sequence": 2,
       "notes": "(teleplay)"
     },
     {
       "imdbId": "nm0853010",
       "name": "Philip John Taylor",
-      "sequence": 3,
       "notes": "(teleplay)"
     }
   ]

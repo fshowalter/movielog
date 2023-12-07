@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0828720",
-      "name": "Robert Stevens",
-      "sequence": 0
+      "name": "Robert Stevens"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000857",
       "name": "John Drew Barrymore",
-      "sequence": 0,
       "roles": [
         "Francis 'Frankie' Kane"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0579820",
       "name": "Lita Milan",
-      "sequence": 1,
       "roles": [
         "Julie Cabell"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0106248",
       "name": "Robert Bray",
-      "sequence": 2,
       "roles": [
         "'Silk' Fennelli"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0000537",
       "name": "Steve McQueen",
-      "sequence": 3,
       "roles": [
         "Martin Cabell"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0525052",
       "name": "Salem Ludwig",
-      "sequence": 4,
       "roles": [
         "Moishe Moscowitz"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0035866",
       "name": "R.G. Armstrong",
-      "sequence": 5,
       "roles": [
         "Flix"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0734699",
       "name": "Douglas Rodgers",
-      "sequence": 6,
       "roles": [
         "Brother Bernard"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0649939",
       "name": "Felice Orlandi",
-      "sequence": 7,
       "roles": [
         "Bert"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0580762",
       "name": "Augusta Merighi",
-      "sequence": 8,
       "roles": [
         "Mrs. Cozzolina"
       ]
@@ -97,13 +87,11 @@
     {
       "imdbId": "nm0053587",
       "name": "Vincent Barbi",
-      "sequence": 9,
       "roles": []
     },
     {
       "imdbId": "nm0800047",
       "name": "Abe Simon",
-      "sequence": 10,
       "roles": [
         "'Fats' Crown"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0546200",
       "name": "Vitina Marcus",
-      "sequence": 11,
       "roles": [
         "Frances Kane"
       ]
@@ -121,19 +108,16 @@
     {
       "imdbId": "nm1129497",
       "name": "Richard Day",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0730356",
       "name": "Harold Robbins",
-      "sequence": 2,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0730356",
       "name": "Harold Robbins",
-      "sequence": 4,
       "notes": "(screenplay)"
     }
   ],

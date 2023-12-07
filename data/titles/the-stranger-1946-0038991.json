@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0000080",
-      "name": "Orson Welles",
-      "sequence": 0
+      "name": "Orson Welles"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000064",
       "name": "Edward G. Robinson",
-      "sequence": 0,
       "roles": [
         "Mr. Wilson"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0949835",
       "name": "Loretta Young",
-      "sequence": 1,
       "roles": [
         "Mary Longstreet"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0000080",
       "name": "Orson Welles",
-      "sequence": 2,
       "roles": [
         "Prof. Charles Rankin"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0580882",
       "name": "Philip Merivale",
-      "sequence": 3,
       "roles": [
         "Judge Adam Longstreet"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0519160",
       "name": "Richard Long",
-      "sequence": 4,
       "roles": [
         "Noah Longstreet"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0790164",
       "name": "Konstantin Shayne",
-      "sequence": 5,
       "roles": [
         "Konrad Meinike"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0126405",
       "name": "Byron Keith",
-      "sequence": 6,
       "roles": [
         "Dr. Jeffrey Lawrence"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0396633",
       "name": "Billy House",
-      "sequence": 7,
       "roles": [
         "Mr. Potter"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0921131",
       "name": "Martha Wentworth",
-      "sequence": 8,
       "roles": [
         "Sara"
       ]
@@ -101,25 +91,21 @@
     {
       "imdbId": "nm0892044",
       "name": "Anthony Veiller",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0873193",
       "name": "Victor Trivas",
-      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0242938",
       "name": "Decla Dunning",
-      "sequence": 3,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0873193",
       "name": "Victor Trivas",
-      "sequence": 5,
       "notes": "(original story)"
     }
   ],

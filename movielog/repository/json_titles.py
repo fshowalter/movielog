@@ -31,7 +31,6 @@ JsonWriter = TypedDict(
     {
         "imdbId": str,
         "name": str,
-        "sequence": int,
         "notes": Optional[str],
     },
 )
@@ -41,7 +40,6 @@ JsonPerformer = TypedDict(
     {
         "imdbId": str,
         "name": str,
-        "sequence": int,
         "roles": list[str],
     },
 )
@@ -51,7 +49,6 @@ JsonDirector = TypedDict(
     {
         "imdbId": str,
         "name": str,
-        "sequence": int,
     },
 )
 

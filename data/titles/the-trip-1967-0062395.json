@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 0
+      "name": "Roger Corman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001228",
       "name": "Peter Fonda",
-      "sequence": 0,
       "roles": [
         "Paul Groves"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0001782",
       "name": "Susan Strasberg",
-      "sequence": 1,
       "roles": [
         "Sally Groves"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0001136",
       "name": "Bruce Dern",
-      "sequence": 2,
       "roles": [
         "John"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000454",
       "name": "Dennis Hopper",
-      "sequence": 3,
       "roles": [
         "Max"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0755205",
       "name": "Salli Sachse",
-      "sequence": 4,
       "roles": [
         "Glenn"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0606371",
       "name": "Barboura Morris",
-      "sequence": 5,
       "roles": [
         "Flo"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0485800",
       "name": "Judy Lang",
-      "sequence": 6,
       "roles": [
         "Nadine"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0026035",
       "name": "Luana Anders",
-      "sequence": 7,
       "roles": [
         "Waitress"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0225398",
       "name": "Beach Dickerson",
-      "sequence": 8,
       "roles": [
         "Assailant with Shovel in Forest Fantasy"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0588241",
       "name": "Dick Miller",
-      "sequence": 9,
       "roles": [
         "Cash"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0076978",
       "name": "Caren Bernsen",
-      "sequence": 10,
       "roles": [
         "Alexandra"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0909721",
       "name": "Katherine Walsh",
-      "sequence": 11,
       "roles": [
         "Lulu"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0618870",
       "name": "Michael Nader",
-      "sequence": 12,
       "roles": [
         "Nadine's Scene Partner"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0710394",
       "name": "B\u00e1rbara Ransom",
-      "sequence": 13,
       "roles": [
         "Helena"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm0088793",
       "name": "Michael Blodgett",
-      "sequence": 14,
       "roles": [
         "Lover"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0797529",
       "name": "Tom Signorelli",
-      "sequence": 15,
       "roles": [
         "Al"
       ]
@@ -154,7 +137,6 @@
     {
       "imdbId": "nm0763454",
       "name": "Boyd Santell",
-      "sequence": 16,
       "roles": [
         "Felix"
       ]
@@ -162,7 +144,6 @@
     {
       "imdbId": "nm0387435",
       "name": "Mitzi Hoag",
-      "sequence": 17,
       "roles": [
         "Wife"
       ]
@@ -170,13 +151,11 @@
     {
       "imdbId": "nm0391935",
       "name": "Luree Holmes",
-      "sequence": 18,
       "roles": []
     },
     {
       "imdbId": "nm0278106",
       "name": "Earl Finn",
-      "sequence": 19,
       "roles": [
         "Go-Go Bongo Player"
       ]
@@ -184,7 +163,6 @@
     {
       "imdbId": "nm0037453",
       "name": "Roger Arroyo",
-      "sequence": 20,
       "roles": [
         "Dwarf in Forest Fantasy"
       ]
@@ -194,7 +172,6 @@
     {
       "imdbId": "nm0000197",
       "name": "Jack Nicholson",
-      "sequence": 0,
       "notes": "(written by)"
     }
   ]

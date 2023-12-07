@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0564970",
-      "name": "Leo McCarey",
-      "sequence": 0
+      "name": "Leo McCarey"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000026",
       "name": "Cary Grant",
-      "sequence": 0,
       "roles": [
         "Nickie Ferrante"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0000039",
       "name": "Deborah Kerr",
-      "sequence": 1,
       "roles": [
         "Terry McKay"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0219396",
       "name": "Richard Denning",
-      "sequence": 2,
       "roles": [
         "Kenneth Bradley"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0666332",
       "name": "Neva Patterson",
-      "sequence": 3,
       "roles": [
         "Lois Clark"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0626350",
       "name": "Cathleen Nesbitt",
-      "sequence": 4,
       "roles": [
         "Grandmother Janou"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0507691",
       "name": "Robert Q. Lewis",
-      "sequence": 5,
       "roles": [
         "Self - Announcer"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0915114",
       "name": "Charles Watts",
-      "sequence": 6,
       "roles": [
         "Ned Hathaway"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0093769",
       "name": "Fortunio Bonanova",
-      "sequence": 7,
       "roles": [
         "Courbet"
       ]
@@ -90,32 +81,22 @@
     {
       "imdbId": "nm0202681",
       "name": "Delmer Daves",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0564970",
       "name": "Leo McCarey",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0564970",
       "name": "Leo McCarey",
-      "sequence": 3,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0186118",
       "name": "Mildred Cram",
-      "sequence": 4,
       "notes": "(story)"
-    },
-    {
-      "imdbId": "nm0829330",
-      "name": "Donald Ogden Stewart",
-      "sequence": 6,
-      "notes": "(screenplay) (originally uncredited)"
     }
   ],
   "runtimeMinutes": 115,

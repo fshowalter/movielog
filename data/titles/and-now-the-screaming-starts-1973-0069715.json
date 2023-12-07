@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0001928",
-      "name": "Roy Ward Baker",
-      "sequence": 0
+      "name": "Roy Ward Baker"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
-      "sequence": 0,
       "roles": [
         "Dr. Pope"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0007042",
       "name": "Herbert Lom",
-      "sequence": 1,
       "roles": [
         "Henry Fengriffen"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0535861",
       "name": "Patrick Magee",
-      "sequence": 2,
       "roles": [
         "Dr. Whittle"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0000883",
       "name": "Stephanie Beacham",
-      "sequence": 3,
       "roles": [
         "Catherine Fengriffen"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0644707",
       "name": "Ian Ogilvy",
-      "sequence": 4,
       "roles": [
         "Charles Fengriffen"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0925685",
       "name": "Geoffrey Whitehead",
-      "sequence": 5,
       "roles": [
         "Woodsman",
         "Silas"
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0738212",
       "name": "Guy Rolfe",
-      "sequence": 6,
       "roles": [
         "Maitland"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0190194",
       "name": "Rosalie Crutchley",
-      "sequence": 7,
       "roles": [
         "Mrs. Luke"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0511192",
       "name": "Gillian Lind",
-      "sequence": 8,
       "roles": [
         "Aunt Edith"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0365857",
       "name": "Sally Harrison",
-      "sequence": 9,
       "roles": [
         "Sarah"
       ]
@@ -104,7 +93,6 @@
     {
       "imdbId": "nm0450739",
       "name": "Janet Key",
-      "sequence": 10,
       "roles": [
         "Bridget"
       ]
@@ -112,7 +100,6 @@
     {
       "imdbId": "nm0789070",
       "name": "John Sharp",
-      "sequence": 11,
       "roles": [
         "Henry's Friend"
       ]
@@ -120,7 +107,6 @@
     {
       "imdbId": "nm0593629",
       "name": "Norman Mitchell",
-      "sequence": 12,
       "roles": [
         "Constable"
       ]
@@ -128,7 +114,6 @@
     {
       "imdbId": "nm0483394",
       "name": "Lloyd Lamble",
-      "sequence": 13,
       "roles": [
         "Sir John Westcliff"
       ]
@@ -136,31 +121,26 @@
     {
       "imdbId": "nm0012445",
       "name": "Kay Adrian",
-      "sequence": 14,
       "roles": []
     },
     {
       "imdbId": "nm0054031",
       "name": "David Barclay",
-      "sequence": 15,
       "roles": []
     },
     {
       "imdbId": "nm0124838",
       "name": "Blake Butler",
-      "sequence": 16,
       "roles": []
     },
     {
       "imdbId": "nm0152547",
       "name": "Vic Chapman",
-      "sequence": 17,
       "roles": []
     },
     {
       "imdbId": "nm0287045",
       "name": "Frank Forsyth",
-      "sequence": 18,
       "roles": [
         "Servant"
       ]
@@ -168,49 +148,41 @@
     {
       "imdbId": "nm6732363",
       "name": "Daniel Johns",
-      "sequence": 19,
       "roles": []
     },
     {
       "imdbId": "nm0552392",
       "name": "Hilary Martyn",
-      "sequence": 20,
       "roles": []
     },
     {
       "imdbId": "nm0603013",
       "name": "Sylvester Morand",
-      "sequence": 21,
       "roles": []
     },
     {
       "imdbId": "nm0654085",
       "name": "Beth Owen",
-      "sequence": 22,
       "roles": []
     },
     {
       "imdbId": "nm0801735",
       "name": "Toni Sinclair",
-      "sequence": 23,
       "roles": []
     },
     {
       "imdbId": "nm0808131",
       "name": "Elsa Smith",
-      "sequence": 24,
       "roles": []
     },
     {
       "imdbId": "nm0821889",
       "name": "John Stamp",
-      "sequence": 25,
       "roles": []
     },
     {
       "imdbId": "nm0852741",
       "name": "Larry Taylor",
-      "sequence": 26,
       "roles": [
         "Bearded Drunk"
       ]
@@ -218,19 +190,16 @@
     {
       "imdbId": "nm0853092",
       "name": "Rocky Taylor",
-      "sequence": 27,
       "roles": []
     },
     {
       "imdbId": "nm0539431",
       "name": "Gloria Maley",
-      "sequence": 28,
       "roles": []
     },
     {
       "imdbId": "nm0004171",
       "name": "Drew Wood",
-      "sequence": 29,
       "roles": []
     }
   ],
@@ -238,13 +207,11 @@
     {
       "imdbId": "nm0551139",
       "name": "Roger Marshall",
-      "sequence": 0,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0143197",
       "name": "David Case",
-      "sequence": 2,
       "notes": "(novel \"Fengriffen\")"
     }
   ],

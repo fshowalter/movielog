@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0001843",
-      "name": "James Whale",
-      "sequence": 0
+      "name": "James Whale"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
-      "sequence": 0,
       "roles": [
         "The Monster"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0166972",
       "name": "Colin Clive",
-      "sequence": 1,
       "roles": [
         "Henry Frankenstein"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0387753",
       "name": "Valerie Hobson",
-      "sequence": 2,
       "roles": [
         "Elizabeth"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0857658",
       "name": "Ernest Thesiger",
-      "sequence": 3,
       "roles": [
         "Doctor Pretorius"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0006471",
       "name": "Elsa Lanchester",
-      "sequence": 4,
       "roles": [
         "Mary Wollstonecraft Shelley",
         "The Monster's Mate"
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0330200",
       "name": "Gavin Gordon",
-      "sequence": 5,
       "roles": [
         "Lord Byron"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0910498",
       "name": "Douglas Walton",
-      "sequence": 6,
       "roles": [
         "Percy Bysshe Shelley"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0640547",
       "name": "Una O'Connor",
-      "sequence": 7,
       "roles": [
         "Minnie"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0166974",
       "name": "E.E. Clive",
-      "sequence": 8,
       "roles": [
         "Burgomaster"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0698139",
       "name": "Lucien Prival",
-      "sequence": 9,
       "roles": [
         "Butler"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0373773",
       "name": "O.P. Heggie",
-      "sequence": 10,
       "roles": [
         "Hermit"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0296859",
       "name": "Dwight Frye",
-      "sequence": 11,
       "roles": [
         "Karl"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0055275",
       "name": "Reginald Barlow",
-      "sequence": 12,
       "roles": [
         "Hans"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0330435",
       "name": "Mary Gordon",
-      "sequence": 13,
       "roles": [
         "Hans' Wife"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm0201337",
       "name": "Anne Darling",
-      "sequence": 14,
       "roles": [
         "Shepherdess"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0082501",
       "name": "Ted Billings",
-      "sequence": 15,
       "roles": [
         "Ludwig"
       ]
@@ -156,25 +139,21 @@
     {
       "imdbId": "nm0791217",
       "name": "Mary Shelley",
-      "sequence": 0,
       "notes": "(suggested by: the original story written in 1816 by) (as Mary Wollstonecraft Shelley)"
     },
     {
       "imdbId": "nm0403398",
       "name": "William Hurlbut",
-      "sequence": 2,
       "notes": "(adapted by)"
     },
     {
       "imdbId": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 3,
       "notes": "(adapted by) (as John Balderston)"
     },
     {
       "imdbId": "nm0403398",
       "name": "William Hurlbut",
-      "sequence": 5,
       "notes": "(screenplay)"
     }
   ],

@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0001382",
-      "name": "Peter Hyams",
-      "sequence": 0
+      "name": "Peter Hyams"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000432",
       "name": "Gene Hackman",
-      "sequence": 0,
       "roles": [
         "Robert Caulfield"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000271",
       "name": "Anne Archer",
-      "sequence": 1,
       "roles": [
         "Hunnicut"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0797725",
       "name": "James Sikking",
-      "sequence": 2,
       "roles": [
         "Nelson"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0000687",
       "name": "J.T. Walsh",
-      "sequence": 3,
       "roles": [
         "Michael Tarlow"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0001826",
       "name": "M. Emmet Walsh",
-      "sequence": 4,
       "roles": [
         "Sgt. Dominick Benti"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0389623",
       "name": "Susan Hogan",
-      "sequence": 5,
       "roles": [
         "Kathryn Weller"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0000911",
       "name": "Nigel Bennett",
-      "sequence": 6,
       "roles": [
         "Jack Wootton"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0696430",
       "name": "J.A. Preston",
-      "sequence": 7,
       "roles": [
         "Martin Larner"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0807390",
       "name": "B.A. 'Smitty' Smith",
-      "sequence": 8,
       "roles": [
         "Keller"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0928066",
       "name": "Codie Lucas Wilbee",
-      "sequence": 9,
       "roles": [
         "Nicholas"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0751010",
       "name": "Barbara Russell",
-      "sequence": 10,
       "roles": [
         "Nicholas' Mother"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0390604",
       "name": "Antony Holland",
-      "sequence": 11,
       "roles": [
         "Elderly Man"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm0708602",
       "name": "Doreen Ramos",
-      "sequence": 12,
       "roles": [
         "Elderly Woman"
       ]
@@ -129,7 +115,6 @@
     {
       "imdbId": "nm0574081",
       "name": "Kevin McNulty",
-      "sequence": 13,
       "roles": [
         "James Dahlbeck"
       ]
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0722378",
       "name": "Andrew Rhodes",
-      "sequence": 14,
       "roles": [
         "Nigro"
       ]
@@ -145,7 +129,6 @@
     {
       "imdbId": "nm0441941",
       "name": "Lon Katzman",
-      "sequence": 15,
       "roles": [
         "Loughlin"
       ]
@@ -153,7 +136,6 @@
     {
       "imdbId": "nm0830222",
       "name": "Dana Still",
-      "sequence": 16,
       "roles": [
         "Bellman With Message"
       ]
@@ -161,7 +143,6 @@
     {
       "imdbId": "nm0263890",
       "name": "Lesley Ewen",
-      "sequence": 17,
       "roles": [
         "Larner's Secretary"
       ]
@@ -169,7 +150,6 @@
     {
       "imdbId": "nm0642727",
       "name": "Barney O'Sullivan",
-      "sequence": 18,
       "roles": [
         "Ticket Agent"
       ]
@@ -177,7 +157,6 @@
     {
       "imdbId": "nm0068751",
       "name": "Natino Bellantoni",
-      "sequence": 19,
       "roles": [
         "Bartender"
       ]
@@ -185,7 +164,6 @@
     {
       "imdbId": "nm0830027",
       "name": "Ted Stidder",
-      "sequence": 20,
       "roles": [
         "Conductor #1"
       ]
@@ -193,7 +171,6 @@
     {
       "imdbId": "nm0100074",
       "name": "Lindsay Bourne",
-      "sequence": 21,
       "roles": [
         "Club Car Waiter"
       ]
@@ -201,7 +178,6 @@
     {
       "imdbId": "nm0747543",
       "name": "Robert Rozen",
-      "sequence": 22,
       "roles": [
         "Dining Car Waiter"
       ]
@@ -209,7 +185,6 @@
     {
       "imdbId": "nm0564245",
       "name": "Tom McBeath",
-      "sequence": 23,
       "roles": [
         "Conductor #2"
       ]
@@ -217,7 +192,6 @@
     {
       "imdbId": "nm0192037",
       "name": "Ron Cummins",
-      "sequence": 24,
       "roles": [
         "Hotel Valet"
       ]
@@ -225,7 +199,6 @@
     {
       "imdbId": "nm0950867",
       "name": "Harris Yulin",
-      "sequence": 25,
       "roles": [
         "Leo Watts"
       ]
@@ -235,25 +208,21 @@
     {
       "imdbId": "nm0001382",
       "name": "Peter Hyams",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0271641",
       "name": "Earl Felton",
-      "sequence": 2,
       "notes": "(earlier screenplay)"
     },
     {
       "imdbId": "nm0326107",
       "name": "Martin Goldsmith",
-      "sequence": 4,
       "notes": "(earlier story)"
     },
     {
       "imdbId": "nm0502649",
       "name": "Jack Leonard",
-      "sequence": 5,
       "notes": "(earlier story)"
     }
   ],

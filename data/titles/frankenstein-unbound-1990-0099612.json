@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000339",
-      "name": "Roger Corman",
-      "sequence": 0
+      "name": "Roger Corman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000457",
       "name": "John Hurt",
-      "sequence": 0,
       "roles": [
         "Buchanan"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000471",
       "name": "Raul Julia",
-      "sequence": 1,
       "roles": [
         "Victor Frankenstein"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0003818",
       "name": "Nick Brimble",
-      "sequence": 2,
       "roles": [
         "The Monster"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0000403",
       "name": "Bridget Fonda",
-      "sequence": 3,
       "roles": [
         "Mary"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0704860",
       "name": "Catherine Rabett",
-      "sequence": 4,
       "roles": [
         "Elizabeth"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0000574",
       "name": "Jason Patric",
-      "sequence": 5,
       "roles": [
         "Lord Byron"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0404191",
       "name": "Michael Hutchence",
-      "sequence": 6,
       "roles": [
         "Percy Shelley"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0180014",
       "name": "Catherine Corman",
-      "sequence": 7,
       "roles": [
         "Justine Moritz"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0311943",
       "name": "William Geiger",
-      "sequence": 8,
       "roles": [
         "Lab Technician"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0461658",
       "name": "Mickey Knox",
-      "sequence": 9,
       "roles": [
         "General Reade"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0194267",
       "name": "Myriam Cyr",
-      "sequence": 10,
       "roles": [
         "Information Officer"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0021421",
       "name": "Cynthia Allison",
-      "sequence": 12,
       "roles": [
         "Newswoman"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm0733663",
       "name": "Isabella Rocchietta",
-      "sequence": 13,
       "roles": [
         "Dorrie"
       ]
@@ -129,7 +115,6 @@
     {
       "imdbId": "nm0144221",
       "name": "Matt Cassidy",
-      "sequence": 14,
       "roles": [
         "Boy #1"
       ]
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0084843",
       "name": "Hauck Bjorck",
-      "sequence": 15,
       "roles": [
         "Boy #2"
       ]
@@ -145,7 +129,6 @@
     {
       "imdbId": "nm0029688",
       "name": "Olga Angelo",
-      "sequence": 16,
       "roles": [
         "Girl #2"
       ]
@@ -153,7 +136,6 @@
     {
       "imdbId": "nm0178731",
       "name": "Geoffrey Copleston",
-      "sequence": 17,
       "roles": [
         "Innkeeper"
       ]
@@ -161,7 +143,6 @@
     {
       "imdbId": "nm0439570",
       "name": "John Karlsen",
-      "sequence": 18,
       "roles": [
         "Parson"
       ]
@@ -169,7 +150,6 @@
     {
       "imdbId": "nm0388342",
       "name": "Donald Hodson",
-      "sequence": 19,
       "roles": [
         "Old Man"
       ]
@@ -177,7 +157,6 @@
     {
       "imdbId": "nm0570167",
       "name": "Bruce McGuire",
-      "sequence": 20,
       "roles": [
         "Prosecutor"
       ]
@@ -185,7 +164,6 @@
     {
       "imdbId": "nm0165081",
       "name": "Grady Clarkson",
-      "sequence": 21,
       "roles": [
         "Judge"
       ]
@@ -193,7 +171,6 @@
     {
       "imdbId": "nm0628459",
       "name": "Andrew Newton",
-      "sequence": 22,
       "roles": [
         "Head Juror"
       ]
@@ -201,7 +178,6 @@
     {
       "imdbId": "nm0923001",
       "name": "Paul Weston",
-      "sequence": 23,
       "roles": [
         "Watchman"
       ]
@@ -209,7 +185,6 @@
     {
       "imdbId": "nm6752813",
       "name": "Brian Ames",
-      "sequence": 24,
       "roles": [
         "Urchin #1"
       ]
@@ -217,7 +192,6 @@
     {
       "imdbId": "nm0731766",
       "name": "Christopher Robertson",
-      "sequence": 25,
       "roles": [
         "Urchin #2"
       ]
@@ -225,7 +199,6 @@
     {
       "imdbId": "nm0324531",
       "name": "Peter Goetz",
-      "sequence": 26,
       "roles": [
         "Man #1"
       ]
@@ -233,7 +206,6 @@
     {
       "imdbId": "nm0004233",
       "name": "Nick Gillard",
-      "sequence": 27,
       "roles": [
         "Man #2",
         "Man #3"
@@ -242,7 +214,6 @@
     {
       "imdbId": "nm0253463",
       "name": "Cyrus Elias",
-      "sequence": 28,
       "roles": [
         "Werner"
       ]
@@ -252,19 +223,16 @@
     {
       "imdbId": "nm0000735",
       "name": "Brian Aldiss",
-      "sequence": 0,
       "notes": "(novel) (as Brian W. Aldiss)"
     },
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0270338",
       "name": "F.X. Feeney",
-      "sequence": 3,
       "notes": "(screenplay)"
     }
   ],

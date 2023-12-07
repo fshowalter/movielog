@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001243",
-      "name": "William Friedkin",
-      "sequence": 0
+      "name": "William Friedkin"
     }
   ],
   "performers": [
     {
       "imdbId": "nm2013326",
       "name": "The Pickle Brothers",
-      "sequence": 0,
       "roles": [
         "Themselves"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0697712",
       "name": "Ron Prince",
-      "sequence": 1,
       "roles": [
         "Baxter Pickle"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0592869",
       "name": "Michael Mislove",
-      "sequence": 2,
       "roles": [
         "Buddy Pickle"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm13676699",
       "name": "Peter Lee",
-      "sequence": 3,
       "roles": [
         "Bobo Pickle"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0037802",
       "name": "Maureen Arthur",
-      "sequence": 4,
       "roles": [
         "Miss Boom Boom"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0891550",
       "name": "Carol Veazie",
-      "sequence": 5,
       "roles": [
         "Mrs. De Witt"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0624883",
       "name": "George N. Neise",
-      "sequence": 6,
       "roles": [
         "Tweed"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0703919",
       "name": "Louis Quinn",
-      "sequence": 7,
       "roles": [
         "Falstaff"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0599656",
       "name": "Liliane Montevecchi",
-      "sequence": 8,
       "roles": [
         "The Princess"
       ]
@@ -100,25 +90,21 @@
     {
       "imdbId": "nm0142292",
       "name": "Dee Caruso",
-      "sequence": 0,
       "notes": "(created by) (creator)"
     },
     {
       "imdbId": "nm0142292",
       "name": "Dee Caruso",
-      "sequence": 2,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0306932",
       "name": "Gerald Gardner",
-      "sequence": 4,
       "notes": "(created by) (creator)"
     },
     {
       "imdbId": "nm0306932",
       "name": "Gerald Gardner",
-      "sequence": 6,
       "notes": "(written by)"
     }
   ]

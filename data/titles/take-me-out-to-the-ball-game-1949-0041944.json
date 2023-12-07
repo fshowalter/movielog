@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000923",
-      "name": "Busby Berkeley",
-      "sequence": 0
+      "name": "Busby Berkeley"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000069",
       "name": "Frank Sinatra",
-      "sequence": 0,
       "roles": [
         "Dennis Ryan"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0930565",
       "name": "Esther Williams",
-      "sequence": 1,
       "roles": [
         "K.C. Higgins"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0000037",
       "name": "Gene Kelly",
-      "sequence": 2,
       "roles": [
         "Eddie O'Brien"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0308081",
       "name": "Betty Garrett",
-      "sequence": 3,
       "roles": [
         "Shirley Delwyn"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0036427",
       "name": "Edward Arnold",
-      "sequence": 4,
       "roles": [
         "Joe Lorgan"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0613235",
       "name": "Jules Munshin",
-      "sequence": 5,
       "roles": [
         "Nat Goldberg"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0485518",
       "name": "Richard Lane",
-      "sequence": 6,
       "roles": [
         "Michael Gilhuly"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0240836",
       "name": "Tom Dugan",
-      "sequence": 7,
       "roles": [
         "Slappy Burke"
       ]
@@ -92,25 +83,21 @@
     {
       "imdbId": "nm0876223",
       "name": "Harry Tugend",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0920216",
       "name": "George Wells",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000037",
       "name": "Gene Kelly",
-      "sequence": 3,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0002045",
       "name": "Stanley Donen",
-      "sequence": 4,
       "notes": "(story)"
     }
   ],

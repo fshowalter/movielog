@@ -15,39 +15,34 @@
   "directors": [
     {
       "imdbId": "nm2409810",
-      "name": "Bizhan M. Tong",
-      "sequence": 0
+      "name": "Bizhan M. Tong"
     }
   ],
   "performers": [
     {
-      "imdbId": "nm0214860",
-      "name": "Raffaello Degruttola",
-      "sequence": 0,
-      "roles": [
-        "Monette"
-      ]
-    },
-    {
-      "imdbId": "nm3690698",
-      "name": "Kevin Leslie",
-      "sequence": 1,
-      "roles": [
-        "Hitcher"
-      ]
-    },
-    {
       "imdbId": "nm1971501",
       "name": "Simona Roman",
-      "sequence": 2,
       "roles": [
         "Barb"
       ]
     },
     {
+      "imdbId": "nm3690698",
+      "name": "Kevin Leslie",
+      "roles": [
+        "Hitcher"
+      ]
+    },
+    {
+      "imdbId": "nm0214860",
+      "name": "Raffaello Degruttola",
+      "roles": [
+        "Monette"
+      ]
+    },
+    {
       "imdbId": "nm7202104",
       "name": "Olivia Moyles",
-      "sequence": 3,
       "roles": [
         "Kelsie-Ann"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm13224284",
       "name": "Akira",
-      "sequence": 4,
       "roles": [
         "Akira"
       ]
@@ -65,13 +59,11 @@
     {
       "imdbId": "nm0000175",
       "name": "Stephen King",
-      "sequence": 0,
       "notes": "(story by)"
     },
     {
       "imdbId": "nm2409810",
       "name": "Bizhan M. Tong",
-      "sequence": 2,
       "notes": "()"
     }
   ],

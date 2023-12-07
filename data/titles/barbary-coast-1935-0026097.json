@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0394244",
       "name": "Miriam Hopkins",
-      "sequence": 0,
       "roles": [
         "Mary 'Swan' Rutledge"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000064",
       "name": "Edward G. Robinson",
-      "sequence": 1,
       "roles": [
         "Luis Chamalis"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0566948",
       "name": "Joel McCrea",
-      "sequence": 2,
       "roles": [
         "Jim Carmichael"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000974",
       "name": "Walter Brennan",
-      "sequence": 3,
       "roles": [
         "Old Atrocity"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0186600",
       "name": "Frank Craven",
-      "sequence": 4,
       "roles": [
         "Col. Marcus Aurelius Cobb"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0002046",
       "name": "Brian Donlevy",
-      "sequence": 5,
       "roles": [
         "Knuckles Jacoby"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0176971",
       "name": "Clyde Cook",
-      "sequence": 6,
       "roles": [
         "Oakie"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0002503",
       "name": "Harry Carey",
-      "sequence": 7,
       "roles": [
         "Jed Slocum"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0570471",
       "name": "Matt McHugh",
-      "sequence": 8,
       "roles": [
         "Broncho"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0576083",
       "name": "Donald Meek",
-      "sequence": 9,
       "roles": [
         "Sawbuck McTavish"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0516121",
       "name": "Rollo Lloyd",
-      "sequence": 10,
       "roles": [
         "Wigham"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0449858",
       "name": "J.M. Kerrigan",
-      "sequence": 11,
       "roles": [
         "Judge Harper"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0336919",
       "name": "Roger Gray",
-      "sequence": 12,
       "roles": [
         "Sandy Ferguson"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0941401",
       "name": "Hank Worden",
-      "sequence": 91,
       "roles": [
         "Barfly",
         "Townsman"
@@ -141,13 +126,11 @@
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 0,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0531269",
       "name": "Charles MacArthur",
-      "sequence": 1,
       "notes": "(screen play)"
     }
   ],

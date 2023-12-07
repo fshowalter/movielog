@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0838820",
-      "name": "Walter Summers",
-      "sequence": 0
+      "name": "Walter Summers"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000509",
       "name": "Bela Lugosi",
-      "sequence": 0,
       "roles": [
         "Dr. Feodor Orloff",
         "John Dearborn"
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0930776",
       "name": "Hugh Williams",
-      "sequence": 1,
       "roles": [
         "Det. Insp. Larry Holt"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0350486",
       "name": "Greta Gynt",
-      "sequence": 2,
       "roles": [
         "Diana Stuart"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0002269",
       "name": "Edmon Ryan",
-      "sequence": 3,
       "roles": [
         "Lt. Patrick O'Reilly"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0910151",
       "name": "Wilfred Walter",
-      "sequence": 4,
       "roles": [
         "Jake"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0275882",
       "name": "Alexander Field",
-      "sequence": 5,
       "roles": [
         "Fred Grogan"
       ]
@@ -75,31 +68,26 @@
     {
       "imdbId": "nm0908624",
       "name": "Edgar Wallace",
-      "sequence": 0,
       "notes": "(novel \"The Dark Eyes of London\")"
     },
     {
       "imdbId": "nm0457070",
       "name": "Patrick Kirwan",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0838820",
       "name": "Walter Summers",
-      "sequence": 3,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0034592",
       "name": "John Argyle",
-      "sequence": 4,
       "notes": "(screenplay) (as J.F. Argyle)"
     },
     {
       "imdbId": "nm0887461",
       "name": "Jan Van Lusil",
-      "sequence": 6,
       "notes": "(additional dialogue) (as Jay Van Lusil)"
     }
   ],

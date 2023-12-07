@@ -7,7 +7,10 @@
   "year": 2010,
   "releaseDate": "2010-12-09",
   "countries": [
-    "Canada"
+    "Canada",
+    "United Kingdom",
+    "United States",
+    "India"
   ],
   "genres": [
     "Comedy",
@@ -16,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0185848",
-      "name": "Eli Craig",
-      "sequence": 0
+      "name": "Eli Craig"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0479527",
       "name": "Tyler Labine",
-      "sequence": 0,
       "roles": [
         "Dale"
       ]
@@ -32,7 +33,6 @@
     {
       "imdbId": "nm0876138",
       "name": "Alan Tudyk",
-      "sequence": 1,
       "roles": [
         "Tucker"
       ]
@@ -40,7 +40,6 @@
     {
       "imdbId": "nm2197298",
       "name": "Katrina Bowden",
-      "sequence": 2,
       "roles": [
         "Allison"
       ]
@@ -48,7 +47,6 @@
     {
       "imdbId": "nm1536605",
       "name": "Jesse Moss",
-      "sequence": 3,
       "roles": [
         "Chad"
       ]
@@ -56,7 +54,6 @@
     {
       "imdbId": "nm0335073",
       "name": "Philip Granger",
-      "sequence": 4,
       "roles": [
         "Sheriff"
       ]
@@ -64,7 +61,6 @@
     {
       "imdbId": "nm1564963",
       "name": "Brandon Jay McLaren",
-      "sequence": 5,
       "roles": [
         "Jason"
       ]
@@ -72,7 +68,6 @@
     {
       "imdbId": "nm1682392",
       "name": "Christie Laing",
-      "sequence": 6,
       "roles": [
         "Naomi"
       ]
@@ -80,7 +75,6 @@
     {
       "imdbId": "nm0799706",
       "name": "Chelan Simmons",
-      "sequence": 7,
       "roles": [
         "Chloe"
       ]
@@ -88,7 +82,6 @@
     {
       "imdbId": "nm3303404",
       "name": "Travis Nelson",
-      "sequence": 8,
       "roles": [
         "Chuck"
       ]
@@ -96,7 +89,6 @@
     {
       "imdbId": "nm1604007",
       "name": "Alex Arsenault",
-      "sequence": 9,
       "roles": [
         "Todd"
       ]
@@ -104,7 +96,6 @@
     {
       "imdbId": "nm3351574",
       "name": "Adam Beauchesne",
-      "sequence": 10,
       "roles": [
         "Mitch"
       ]
@@ -112,7 +103,6 @@
     {
       "imdbId": "nm2383730",
       "name": "Joseph Allan Sutherland",
-      "sequence": 11,
       "roles": [
         "Mike"
       ]
@@ -120,7 +110,6 @@
     {
       "imdbId": "nm3900990",
       "name": "Mitchell Verigin",
-      "sequence": 12,
       "roles": [
         "College Kid #1"
       ]
@@ -128,7 +117,6 @@
     {
       "imdbId": "nm3788965",
       "name": "Angela DeCorte",
-      "sequence": 13,
       "roles": [
         "College Kid #2"
       ]
@@ -136,7 +124,6 @@
     {
       "imdbId": "nm3492975",
       "name": "Karen Reigh",
-      "sequence": 14,
       "roles": [
         "Cheryl"
       ]
@@ -144,7 +131,6 @@
     {
       "imdbId": "nm3363390",
       "name": "Tye Evans",
-      "sequence": 15,
       "roles": [
         "Dad"
       ]
@@ -152,7 +138,6 @@
     {
       "imdbId": "nm0113354",
       "name": "Dave Brown",
-      "sequence": 16,
       "roles": [
         "Clerk"
       ]
@@ -160,7 +145,6 @@
     {
       "imdbId": "nm1488988",
       "name": "Bill Baksa",
-      "sequence": 17,
       "roles": [
         "BJ Bald Hillbilly"
       ]
@@ -168,7 +152,6 @@
     {
       "imdbId": "nm3960620",
       "name": "Mark W. Strong",
-      "sequence": 18,
       "roles": [
         "Killer Hillbilly #1"
       ]
@@ -176,7 +159,6 @@
     {
       "imdbId": "nm2297334",
       "name": "Shaun Tisdale",
-      "sequence": 19,
       "roles": [
         "Killer Hillbilly #2"
       ]
@@ -184,7 +166,6 @@
     {
       "imdbId": "nm0185848",
       "name": "Eli Craig",
-      "sequence": 20,
       "roles": [
         "Cameraman"
       ]
@@ -192,7 +173,6 @@
     {
       "imdbId": "nm1032034",
       "name": "Myles Pollard",
-      "sequence": 21,
       "roles": [
         "Hillbilly Kid"
       ]
@@ -200,7 +180,6 @@
     {
       "imdbId": "nm0931652",
       "name": "Sasha Craig",
-      "sequence": 22,
       "roles": [
         "News Reporter"
       ]
@@ -208,7 +187,6 @@
     {
       "imdbId": "nm4693904",
       "name": "Weezer",
-      "sequence": 23,
       "roles": [
         "Jangers the Dog"
       ]
@@ -216,7 +194,6 @@
     {
       "imdbId": "nm4570666",
       "name": "Bryn Bass",
-      "sequence": 24,
       "roles": [
         "Bowling Kid"
       ]
@@ -224,7 +201,6 @@
     {
       "imdbId": "nm4570654",
       "name": "Conner Bass",
-      "sequence": 25,
       "roles": [
         "Bowling Kid"
       ]
@@ -232,7 +208,6 @@
     {
       "imdbId": "nm1344350",
       "name": "Lara Milliken",
-      "sequence": 26,
       "roles": [
         "Bowling Kid"
       ]
@@ -242,13 +217,11 @@
     {
       "imdbId": "nm0185848",
       "name": "Eli Craig",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm1549853",
       "name": "Morgan Jurgenson",
-      "sequence": 1,
       "notes": "(written by)"
     }
   ],

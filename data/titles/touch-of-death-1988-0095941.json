@@ -20,15 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0002086",
-      "name": "Lucio Fulci",
-      "sequence": 0
+      "name": "Lucio Fulci"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0357020",
       "name": "Brett Halsey",
-      "sequence": 0,
       "roles": [
         "Lester Parson"
       ]
@@ -36,7 +34,6 @@
     {
       "imdbId": "nm0211630",
       "name": "Ria De Simone",
-      "sequence": 1,
       "roles": [
         "Alice Shogun"
       ]
@@ -44,7 +41,6 @@
     {
       "imdbId": "nm0166986",
       "name": "Al Cliver",
-      "sequence": 2,
       "roles": [
         "Randy"
       ]
@@ -52,7 +48,6 @@
     {
       "imdbId": "nm0201822",
       "name": "Sacha Darwin",
-      "sequence": 3,
       "roles": [
         "Margie MacDonald"
       ]
@@ -60,7 +55,6 @@
     {
       "imdbId": "nm0449625",
       "name": "Zora Kerova",
-      "sequence": 4,
       "roles": [
         "Virginia Field"
       ]
@@ -68,7 +62,6 @@
     {
       "imdbId": "nm0224342",
       "name": "Marco Di Stefano",
-      "sequence": 5,
       "roles": [
         "The Tramp"
       ]
@@ -78,13 +71,11 @@
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 0,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0002086",
       "name": "Lucio Fulci",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

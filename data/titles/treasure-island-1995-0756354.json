@@ -20,15 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell",
-      "sequence": 0
+      "name": "Ken Russell"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0063158",
       "name": "Hetty Baynes",
-      "sequence": 0,
       "roles": [
         "Long Jane Silver"
       ]
@@ -36,7 +34,6 @@
     {
       "imdbId": "nm0355624",
       "name": "Gregory Hall",
-      "sequence": 1,
       "roles": [
         "Jim Hawkins"
       ]
@@ -44,7 +41,6 @@
     {
       "imdbId": "nm0255573",
       "name": "Michael Elphick",
-      "sequence": 2,
       "roles": [
         "Billy Bones"
       ]
@@ -52,7 +48,6 @@
     {
       "imdbId": "nm0041832",
       "name": "Charles Augins",
-      "sequence": 3,
       "roles": [
         "Blind Pew"
       ]
@@ -60,7 +55,6 @@
     {
       "imdbId": "nm0120172",
       "name": "Osmund Bullock",
-      "sequence": 4,
       "roles": [
         "Captain Smollett"
       ]
@@ -68,7 +62,6 @@
     {
       "imdbId": "nm4961321",
       "name": "Martin Burns",
-      "sequence": 5,
       "roles": [
         "Itchy"
       ]
@@ -76,7 +69,6 @@
     {
       "imdbId": "nm0238126",
       "name": "Jeanette Driver",
-      "sequence": 6,
       "roles": [
         "Lani"
       ]
@@ -84,7 +76,6 @@
     {
       "imdbId": "nm0329586",
       "name": "Bob Goody",
-      "sequence": 7,
       "roles": [
         "Dr. Livesey"
       ]
@@ -92,7 +83,6 @@
     {
       "imdbId": "nm0354914",
       "name": "Georgina Hale",
-      "sequence": 8,
       "roles": [
         "Mum"
       ]
@@ -100,7 +90,6 @@
     {
       "imdbId": "nm0522887",
       "name": "Barry Lowe",
-      "sequence": 9,
       "roles": [
         "Sailor"
       ]
@@ -108,7 +97,6 @@
     {
       "imdbId": "nm0863309",
       "name": "Stephen Tiller",
-      "sequence": 10,
       "roles": []
     }
   ],
@@ -116,13 +104,11 @@
     {
       "imdbId": "nm0001692",
       "name": "Ken Russell",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0829044",
       "name": "Robert Louis Stevenson",
-      "sequence": 2,
       "notes": "(novel \"Treasure Island\")"
     }
   ]

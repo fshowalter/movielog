@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000012",
       "name": "Bette Davis",
-      "sequence": 0,
       "roles": [
         "Stanley Timberlake"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0000014",
       "name": "Olivia de Havilland",
-      "sequence": 1,
       "roles": [
         "Roy Timberlake"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0107575",
       "name": "George Brent",
-      "sequence": 2,
       "roles": [
         "Craig Fleming"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0604605",
       "name": "Dennis Morgan",
-      "sequence": 3,
       "roles": [
         "Peter Kingsmill"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0002013",
       "name": "Charles Coburn",
-      "sequence": 4,
       "roles": [
         "William Fitzroy"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0186600",
       "name": "Frank Craven",
-      "sequence": 5,
       "roles": [
         "Asa Timberlake"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0000992",
       "name": "Billie Burke",
-      "sequence": 6,
       "roles": [
         "Lavinia Timberlake"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0567408",
       "name": "Hattie McDaniel",
-      "sequence": 7,
       "roles": [
         "Minerva Clay"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0665886",
       "name": "Lee Patrick",
-      "sequence": 8,
       "roles": [
         "Betty Wilmoth"
       ]
@@ -95,7 +85,6 @@
     {
       "imdbId": "nm0785863",
       "name": "Mary Servoss",
-      "sequence": 9,
       "roles": [
         "Charlotte Fitzroy"
       ]
@@ -103,7 +92,6 @@
     {
       "imdbId": "nm0026695",
       "name": "Ernest Anderson",
-      "sequence": 10,
       "roles": [
         "Parry Clay"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0203527",
       "name": "William B. Davidson",
-      "sequence": 11,
       "roles": [
         "Jim Purdy"
       ]
@@ -119,7 +106,6 @@
     {
       "imdbId": "nm0276132",
       "name": "Edward Fielding",
-      "sequence": 12,
       "roles": [
         "Dr. Buchanan"
       ]
@@ -127,7 +113,6 @@
     {
       "imdbId": "nm0357963",
       "name": "John Hamilton",
-      "sequence": 13,
       "roles": [
         "Police Inspector Millett"
       ]
@@ -135,7 +120,6 @@
     {
       "imdbId": "nm0286704",
       "name": "William Forrest",
-      "sequence": 14,
       "roles": [
         "Forest Ranger"
       ]
@@ -145,13 +129,11 @@
     {
       "imdbId": "nm0462321",
       "name": "Howard Koch",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0321872",
       "name": "Ellen Glasgow",
-      "sequence": 2,
       "notes": "(novel \"In This Our Life\")"
     }
   ],

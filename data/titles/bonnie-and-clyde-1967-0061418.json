@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0671957",
-      "name": "Arthur Penn",
-      "sequence": 0
+      "name": "Arthur Penn"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000886",
       "name": "Warren Beatty",
-      "sequence": 0,
       "roles": [
         "Clyde Barrow"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0001159",
       "name": "Faye Dunaway",
-      "sequence": 1,
       "roles": [
         "Bonnie Parker"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0689488",
       "name": "Michael J. Pollard",
-      "sequence": 2,
       "roles": [
         "C.W. Moss"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000432",
       "name": "Gene Hackman",
-      "sequence": 3,
       "roles": [
         "Buck Barrow"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0663820",
       "name": "Estelle Parsons",
-      "sequence": 4,
       "roles": [
         "Blanche"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0701500",
       "name": "Denver Pyle",
-      "sequence": 5,
       "roles": [
         "Frank Hamer"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0852305",
       "name": "Dub Taylor",
-      "sequence": 6,
       "roles": [
         "Ivan Moss"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0262748",
       "name": "Evans Evans",
-      "sequence": 7,
       "roles": [
         "Velma Davis"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0000698",
       "name": "Gene Wilder",
-      "sequence": 8,
       "roles": [
         "Eugene Grizzard"
       ]
@@ -100,13 +90,11 @@
     {
       "imdbId": "nm0628058",
       "name": "David Newman",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0000914",
       "name": "Robert Benton",
-      "sequence": 1,
       "notes": "(written by)"
     }
   ],

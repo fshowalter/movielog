@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000581",
-      "name": "Joseph L. Mankiewicz",
-      "sequence": 0
+      "name": "Joseph L. Mankiewicz"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000059",
       "name": "Laurence Olivier",
-      "sequence": 0,
       "roles": [
         "Andrew Wyke"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000323",
       "name": "Michael Caine",
-      "sequence": 1,
       "roles": [
         "Milo Tindle"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0147250",
       "name": "Alec Cawthorne",
-      "sequence": 2,
       "roles": [
         "Inspector Doppler"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0560064",
       "name": "John Matthews",
-      "sequence": 3,
       "roles": [
         "Detective Sergeant Tarrant"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0151920",
       "name": "Eve Channing",
-      "sequence": 4,
       "roles": [
         "Marguerite Wyke"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0553117",
       "name": "Teddy Martin",
-      "sequence": 5,
       "roles": [
         "Police Constable Higgs"
       ]
@@ -75,13 +68,11 @@
     {
       "imdbId": "nm0787289",
       "name": "Anthony Shaffer",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0787289",
       "name": "Anthony Shaffer",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

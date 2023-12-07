@@ -16,25 +16,21 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     },
     {
       "imdbId": "nm0943758",
-      "name": "William Wyler",
-      "sequence": 1
+      "name": "William Wyler"
     },
     {
       "imdbId": "nm0744514",
-      "name": "Richard Rosson",
-      "sequence": 2
+      "name": "Richard Rosson"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0036427",
       "name": "Edward Arnold",
-      "sequence": 0,
       "roles": [
         "Barney Glasgow"
       ]
@@ -42,7 +38,6 @@
     {
       "imdbId": "nm0566948",
       "name": "Joel McCrea",
-      "sequence": 1,
       "roles": [
         "Richard Glasgow"
       ]
@@ -50,7 +45,6 @@
     {
       "imdbId": "nm0002068",
       "name": "Frances Farmer",
-      "sequence": 2,
       "roles": [
         "Lotta Morgan",
         "Lotta Bostrom"
@@ -59,7 +53,6 @@
     {
       "imdbId": "nm0000974",
       "name": "Walter Brennan",
-      "sequence": 3,
       "roles": [
         "Swan Bostrom"
       ]
@@ -67,7 +60,6 @@
     {
       "imdbId": "nm0160130",
       "name": "Mady Christians",
-      "sequence": 4,
       "roles": [
         "Karie"
       ]
@@ -75,7 +67,6 @@
     {
       "imdbId": "nm0621770",
       "name": "Mary Nash",
-      "sequence": 5,
       "roles": [
         "Emma Louise"
       ]
@@ -83,7 +74,6 @@
     {
       "imdbId": "nm0498571",
       "name": "Andrea Leeds",
-      "sequence": 6,
       "roles": [
         "Evvie Glasgow"
       ]
@@ -91,7 +81,6 @@
     {
       "imdbId": "nm0793192",
       "name": "Frank Shields Sr.",
-      "sequence": 7,
       "roles": [
         "Tony Schwerke"
       ]
@@ -99,7 +88,6 @@
     {
       "imdbId": "nm0561693",
       "name": "Edwin Maxwell",
-      "sequence": 8,
       "roles": [
         "Sid LeMaire"
       ]
@@ -107,7 +95,6 @@
     {
       "imdbId": "nm0192258",
       "name": "Cecil Cunningham",
-      "sequence": 9,
       "roles": [
         "Josie"
       ]
@@ -115,7 +102,6 @@
     {
       "imdbId": "nm0357111",
       "name": "Charles Halton",
-      "sequence": 10,
       "roles": [
         "Mr. Hewitt"
       ]
@@ -125,19 +111,16 @@
     {
       "imdbId": "nm0272209",
       "name": "Edna Ferber",
-      "sequence": 0,
       "notes": "(based upon the famous novel by)"
     },
     {
       "imdbId": "nm0613848",
       "name": "Jane Murfin",
-      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 3,
       "notes": "(screen play)"
     }
   ],

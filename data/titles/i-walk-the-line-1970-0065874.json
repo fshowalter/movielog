@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0001239",
-      "name": "John Frankenheimer",
-      "sequence": 0
+      "name": "John Frankenheimer"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000060",
       "name": "Gregory Peck",
-      "sequence": 0,
       "roles": [
         "Sheriff Tawes"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0001839",
       "name": "Tuesday Weld",
-      "sequence": 1,
       "roles": [
         "Alma McCain"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0663820",
       "name": "Estelle Parsons",
-      "sequence": 2,
       "roles": [
         "Ellen Haney"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0576127",
       "name": "Ralph Meeker",
-      "sequence": 3,
       "roles": [
         "Carl McCain"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0152452",
       "name": "Lonny Chapman",
-      "sequence": 4,
       "roles": [
         "Bascomb"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0001164",
       "name": "Charles Durning",
-      "sequence": 5,
       "roles": [
         "Hunnicutt"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0198296",
       "name": "Jeff Dalton",
-      "sequence": 6,
       "roles": [
         "Clay McCain"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0565929",
       "name": "Freddie McCloud",
-      "sequence": 7,
       "roles": [
         "Buddy McCain"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0741455",
       "name": "Jane Rose",
-      "sequence": 8,
       "roles": [
         "Elsie"
       ]
@@ -95,7 +85,6 @@
     {
       "imdbId": "nm0262844",
       "name": "J.C. Evans",
-      "sequence": 9,
       "roles": [
         "Grandpa Tawes"
       ]
@@ -103,7 +92,6 @@
     {
       "imdbId": "nm0606763",
       "name": "Margaret A. Morris",
-      "sequence": 10,
       "roles": [
         "Sybil"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0514745",
       "name": "Bill Littleton",
-      "sequence": 11,
       "roles": [
         "Pollard"
       ]
@@ -119,7 +106,6 @@
     {
       "imdbId": "nm0946782",
       "name": "Leo Yates",
-      "sequence": 12,
       "roles": [
         "Vogel"
       ]
@@ -127,7 +113,6 @@
     {
       "imdbId": "nm0219372",
       "name": "Nora Denney",
-      "sequence": 13,
       "roles": [
         "Darlene Hunnicutt"
       ]
@@ -137,13 +122,11 @@
     {
       "imdbId": "nm0765091",
       "name": "Alvin Sargent",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0428722",
       "name": "Madison Jones",
-      "sequence": 2,
       "notes": "(novel \"An Exile\")"
     }
   ],

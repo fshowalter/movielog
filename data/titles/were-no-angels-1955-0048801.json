@@ -20,15 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0002031",
-      "name": "Michael Curtiz",
-      "sequence": 0
+      "name": "Michael Curtiz"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
-      "sequence": 0,
       "roles": [
         "Joseph"
       ]
@@ -36,7 +34,6 @@
     {
       "imdbId": "nm0712731",
       "name": "Aldo Ray",
-      "sequence": 1,
       "roles": [
         "Albert"
       ]
@@ -44,7 +41,6 @@
     {
       "imdbId": "nm0001811",
       "name": "Peter Ustinov",
-      "sequence": 2,
       "roles": [
         "Jules"
       ]
@@ -52,7 +48,6 @@
     {
       "imdbId": "nm0000910",
       "name": "Joan Bennett",
-      "sequence": 3,
       "roles": [
         "Amelie Ducotel"
       ]
@@ -60,7 +55,6 @@
     {
       "imdbId": "nm0001651",
       "name": "Basil Rathbone",
-      "sequence": 4,
       "roles": [
         "Andre Trochard"
       ]
@@ -68,7 +62,6 @@
     {
       "imdbId": "nm0001991",
       "name": "Leo G. Carroll",
-      "sequence": 5,
       "roles": [
         "Felix Ducotel"
       ]
@@ -76,7 +69,6 @@
     {
       "imdbId": "nm0046359",
       "name": "John Baer",
-      "sequence": 6,
       "roles": [
         "Paul Trochard"
       ]
@@ -84,7 +76,6 @@
     {
       "imdbId": "nm0847993",
       "name": "Gloria Talbott",
-      "sequence": 7,
       "roles": [
         "Isabelle Ducotel"
       ]
@@ -92,7 +83,6 @@
     {
       "imdbId": "nm0671942",
       "name": "Lea Penman",
-      "sequence": 8,
       "roles": [
         "Mme. Parole"
       ]
@@ -100,7 +90,6 @@
     {
       "imdbId": "nm0808774",
       "name": "John Smith",
-      "sequence": 9,
       "roles": [
         "Medical Officer Arnaud"
       ]
@@ -110,13 +99,11 @@
     {
       "imdbId": "nm0404062",
       "name": "Albert Husson",
-      "sequence": 0,
       "notes": "(play \"La cuisine des anges\")"
     },
     {
       "imdbId": "nm0532030",
       "name": "Ranald MacDougall",
-      "sequence": 2,
       "notes": "()"
     }
   ]

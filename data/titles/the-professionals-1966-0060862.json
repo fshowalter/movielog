@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0112218",
-      "name": "Richard Brooks",
-      "sequence": 0
+      "name": "Richard Brooks"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000044",
       "name": "Burt Lancaster",
-      "sequence": 0,
       "roles": [
         "Dolworth"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0001511",
       "name": "Lee Marvin",
-      "sequence": 1,
       "roles": [
         "Fardan"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0752813",
       "name": "Robert Ryan",
-      "sequence": 2,
       "roles": [
         "Ehrengard"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0834754",
       "name": "Woody Strode",
-      "sequence": 3,
       "roles": [
         "Jake"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0001588",
       "name": "Jack Palance",
-      "sequence": 4,
       "roles": [
         "Raza"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0001012",
       "name": "Claudia Cardinale",
-      "sequence": 5,
       "roles": [
         "Maria"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0000897",
       "name": "Ralph Bellamy",
-      "sequence": 6,
       "roles": [
         "Grant"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0211460",
       "name": "Joe De Santis",
-      "sequence": 7,
       "roles": [
         "Ortega"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0078413",
       "name": "Rafael Bertrand",
-      "sequence": 8,
       "roles": [
         "Fierro"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0554830",
       "name": "Jorge Mart\u00ednez de Hoyos",
-      "sequence": 9,
       "roles": [
         "Padillia"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0327050",
       "name": "Marie Gomez",
-      "sequence": 10,
       "roles": [
         "Chiquita"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0161657",
       "name": "Jos\u00e9 Ch\u00e1vez",
-      "sequence": 11,
       "roles": [
         "Revolutionary"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0739347",
       "name": "Carlos Romero",
-      "sequence": 12,
       "roles": [
         "Revolutionary"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0853299",
       "name": "Vaughn Taylor",
-      "sequence": 13,
       "roles": [
         "Banker"
       ]
@@ -140,13 +125,11 @@
     {
       "imdbId": "nm0642543",
       "name": "Frank O'Rourke",
-      "sequence": 0,
       "notes": "(novel \"A Mule for the Marquesa\")"
     },
     {
       "imdbId": "nm0112218",
       "name": "Richard Brooks",
-      "sequence": 2,
       "notes": "(written for the screen by)"
     }
   ],

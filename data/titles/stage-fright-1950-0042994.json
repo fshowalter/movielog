@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 0
+      "name": "Alfred Hitchcock"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0943837",
       "name": "Jane Wyman",
-      "sequence": 0,
       "roles": [
         "Eve Gill"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000017",
       "name": "Marlene Dietrich",
-      "sequence": 1,
       "roles": [
         "Charlotte Inwood"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0928697",
       "name": "Michael Wilding",
-      "sequence": 2,
       "roles": [
         "Ordinary Smith"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0865262",
       "name": "Richard Todd",
-      "sequence": 3,
       "roles": [
         "Jonathan Cooper"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0799237",
       "name": "Alastair Sim",
-      "sequence": 4,
       "roles": [
         "Commodore Gill"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0861345",
       "name": "Sybil Thorndike",
-      "sequence": 5,
       "roles": [
         "Mrs. Gill"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0909727",
       "name": "Kay Walsh",
-      "sequence": 6,
       "roles": [
         "Nellie Goode"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0539942",
       "name": "Miles Malleson",
-      "sequence": 7,
       "roles": [
         "Mr. Fortesque"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0532325",
       "name": "Hector MacGregor",
-      "sequence": 8,
       "roles": [
         "Freddie Williams"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0340205",
       "name": "Joyce Grenfell",
-      "sequence": 9,
       "roles": [
         "'Lovely Ducks'"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0603682",
       "name": "Andr\u00e9 Morell",
-      "sequence": 10,
       "roles": [
         "Inspector Byard"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0386877",
       "name": "Patricia Hitchcock",
-      "sequence": 11,
       "roles": [
         "Chubby Bannister"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm0075326",
       "name": "Ballard Berkeley",
-      "sequence": 12,
       "roles": [
         "Sergeant Mellish"
       ]
@@ -131,19 +117,16 @@
     {
       "imdbId": "nm0177336",
       "name": "Whitfield Cook",
-      "sequence": 0,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0720904",
       "name": "Alma Reville",
-      "sequence": 2,
       "notes": "(adaptation by)"
     },
     {
       "imdbId": "nm0421862",
       "name": "Selwyn Jepson",
-      "sequence": 4,
       "notes": "(based on the novel \"Man Running\" by)"
     }
   ],

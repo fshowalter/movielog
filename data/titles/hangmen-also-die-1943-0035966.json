@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang",
-      "sequence": 0
+      "name": "Fritz Lang"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0002046",
       "name": "Brian Donlevy",
-      "sequence": 0,
       "roles": [
         "Dr. Franticek Svoboda",
         "Karel Vanek"
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0000974",
       "name": "Walter Brennan",
-      "sequence": 1,
       "roles": [
         "Prof. Stephen Novotny"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0496819",
       "name": "Anna Lee",
-      "sequence": 2,
       "roles": [
         "Masha Novotny"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0516876",
       "name": "Gene Lockhart",
-      "sequence": 3,
       "roles": [
         "Emil Czaka"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0641454",
       "name": "Dennis O'Keefe",
-      "sequence": 4,
       "roles": [
         "Jan Horak"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0943618",
       "name": "Margaret Wycherly",
-      "sequence": 5,
       "roles": [
         "Ludmilla Novotny"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0117194",
       "name": "Nana Bryant",
-      "sequence": 6,
       "roles": [
         "Mrs. Hellie Novotny"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0746949",
       "name": "William Roy",
-      "sequence": 7,
       "roles": [
         "Beda Novotny"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0903145",
       "name": "Hans Heinrich von Twardowski",
-      "sequence": 8,
       "roles": [
         "Reinhard Heydrich"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0334603",
       "name": "Alexander Granach",
-      "sequence": 9,
       "roles": [
         "Gestapo Insp. Alois Gruber"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0783615",
       "name": "Tonio Selwart",
-      "sequence": 10,
       "roles": [
         "Chief of Gestapo Kurt Haas"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0354947",
       "name": "Jonathan Hale",
-      "sequence": 11,
       "roles": [
         "Dedic"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0822034",
       "name": "Lionel Stander",
-      "sequence": 12,
       "roles": [
         "Banya"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0655605",
       "name": "Sarah Padden",
-      "sequence": 13,
       "roles": [
         "Mrs. Georgia Dvorak"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0531705",
       "name": "Edmund MacDonald",
-      "sequence": 14,
       "roles": [
         "Dr. Pillar"
       ]
@@ -147,7 +131,6 @@
     {
       "imdbId": "nm0288304",
       "name": "Byron Foulger",
-      "sequence": 15,
       "roles": [
         "Bartos"
       ]
@@ -155,7 +138,6 @@
     {
       "imdbId": "nm0267808",
       "name": "Virginia Farmer",
-      "sequence": 16,
       "roles": [
         "Mrs. Nimitz"
       ]
@@ -163,7 +145,6 @@
     {
       "imdbId": "nm0232213",
       "name": "Ludwig Donath",
-      "sequence": 17,
       "roles": [
         "Schirmer"
       ]
@@ -171,7 +152,6 @@
     {
       "imdbId": "nm0410271",
       "name": "George Irving",
-      "sequence": 18,
       "roles": [
         "Neeval"
       ]
@@ -179,7 +159,6 @@
     {
       "imdbId": "nm0124139",
       "name": "James Bush",
-      "sequence": 19,
       "roles": [
         "Peacock"
       ]
@@ -187,7 +166,6 @@
     {
       "imdbId": "nm0294536",
       "name": "Arno Frey",
-      "sequence": 20,
       "roles": [
         "Camp Lt. Itnut"
       ]
@@ -195,7 +173,6 @@
     {
       "imdbId": "nm0789247",
       "name": "Lester Sharpe",
-      "sequence": 21,
       "roles": [
         "Rudy"
       ]
@@ -203,7 +180,6 @@
     {
       "imdbId": "nm0517425",
       "name": "Arthur Loft",
-      "sequence": 22,
       "roles": [
         "Gen. Votruba"
       ]
@@ -211,7 +187,6 @@
     {
       "imdbId": "nm0778306",
       "name": "Reinhold Sch\u00fcnzel",
-      "sequence": 23,
       "roles": [
         "Gestapo Insp. Ritter"
       ]
@@ -219,7 +194,6 @@
     {
       "imdbId": "nm0007995",
       "name": "John Abbott",
-      "sequence": 24,
       "roles": [
         "Hostage"
       ]
@@ -229,19 +203,16 @@
     {
       "imdbId": "nm0923333",
       "name": "John Wexley",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0106517",
       "name": "Bertolt Brecht",
-      "sequence": 1,
       "notes": "(adaptation and original story)"
     },
     {
       "imdbId": "nm0000485",
       "name": "Fritz Lang",
-      "sequence": 2,
       "notes": "(adaptation and original story)"
     }
   ],

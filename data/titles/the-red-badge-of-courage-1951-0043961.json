@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001559",
       "name": "Audie Murphy",
-      "sequence": 0,
       "roles": [
         "Henry Fleming - the Youth"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0560887",
       "name": "Bill Mauldin",
-      "sequence": 1,
       "roles": [
         "Tom Wilson - the Loud Soldier"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0225255",
       "name": "Douglas Dick",
-      "sequence": 2,
       "roles": [
         "The Lieutenant"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0200455",
       "name": "Royal Dano",
-      "sequence": 3,
       "roles": [
         "The Tattered Man"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0226109",
       "name": "John Dierkes",
-      "sequence": 4,
       "roles": [
         "Jim Conklin - the Tall Soldier"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0402277",
       "name": "Arthur Hunnicutt",
-      "sequence": 5,
       "roles": [
         "Bill Porter"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0243885",
       "name": "Tim Durant",
-      "sequence": 6,
       "roles": [
         "The General"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0222596",
       "name": "Andy Devine",
-      "sequence": 7,
       "roles": [
         "The Cheery Soldier"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0247691",
       "name": "Robert Easton",
-      "sequence": 8,
       "roles": [
         "Thompson"
       ]
@@ -98,19 +88,16 @@
     {
       "imdbId": "nm0186427",
       "name": "Stephen Crane",
-      "sequence": 0,
       "notes": "(novel \"The Red Badge of Courage\")"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0051649",
       "name": "Albert Band",
-      "sequence": 4,
       "notes": "(adaptation)"
     }
   ],

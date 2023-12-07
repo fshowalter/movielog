@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0001243",
-      "name": "William Friedkin",
-      "sequence": 0
+      "name": "William Friedkin"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0625522",
       "name": "Kenneth Nelson",
-      "sequence": 0,
       "roles": [
         "Michael"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0173644",
       "name": "Frederick Combs",
-      "sequence": 1,
       "roles": [
         "Donald"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0331054",
       "name": "Cliff Gorman",
-      "sequence": 2,
       "roles": [
         "Emory"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0524743",
       "name": "Laurence Luckinbill",
-      "sequence": 3,
       "roles": [
         "Hank"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0696017",
       "name": "Keith Prentice",
-      "sequence": 4,
       "roles": [
         "Larry"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0925320",
       "name": "Peter White",
-      "sequence": 5,
       "roles": [
         "Alan McCarthy"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0338260",
       "name": "Reuben Greene",
-      "sequence": 6,
       "roles": [
         "Bernard"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0479108",
       "name": "Robert La Tourneaux",
-      "sequence": 7,
       "roles": [
         "Cowboy Tex"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0294600",
       "name": "Leonard Frey",
-      "sequence": 8,
       "roles": [
         "Harold"
       ]
@@ -97,13 +87,11 @@
     {
       "imdbId": "nm0189758",
       "name": "Mart Crowley",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0189758",
       "name": "Mart Crowley",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

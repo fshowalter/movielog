@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0910199",
-      "name": "Charles Walters",
-      "sequence": 0
+      "name": "Charles Walters"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001078",
       "name": "Bing Crosby",
-      "sequence": 0,
       "roles": [
         "C. K. Dexter-Haven"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000038",
       "name": "Grace Kelly",
-      "sequence": 1,
       "roles": [
         "Tracy Lord"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0000069",
       "name": "Frank Sinatra",
-      "sequence": 2,
       "roles": [
         "Mike Connor"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0002141",
       "name": "Celeste Holm",
-      "sequence": 3,
       "roles": [
         "Liz Imbrie"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0526184",
       "name": "John Lund",
-      "sequence": 4,
       "roles": [
         "George Kittredge"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0129894",
       "name": "Louis Calhern",
-      "sequence": 5,
       "roles": [
         "Uncle Willie"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0085782",
       "name": "Sidney Blackmer",
-      "sequence": 6,
       "roles": [
         "Seth Lord"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0001918",
       "name": "Louis Armstrong",
-      "sequence": 7,
       "roles": [
         "Louis Armstrong"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0319357",
       "name": "Margalo Gillmore",
-      "sequence": 8,
       "roles": [
         "Mrs. Seth Lord"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0715565",
       "name": "Lydia Reed",
-      "sequence": 9,
       "roles": [
         "Caroline Lord"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0724110",
       "name": "Gordon Richards",
-      "sequence": 10,
       "roles": [
         "Dexter-Haven's Butler"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0308257",
       "name": "Richard Garrick",
-      "sequence": 11,
       "roles": [
         "Lords' Butler"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm1366377",
       "name": "Louis Armstrong and His Band",
-      "sequence": 12,
       "roles": [
         "Themselves"
       ]
@@ -129,7 +115,6 @@
     {
       "imdbId": "nm0355540",
       "name": "Edmond Hall",
-      "sequence": 13,
       "roles": [
         "Louis' Clarinetist"
       ]
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0949654",
       "name": "James Young",
-      "sequence": 14,
       "roles": [
         "Louis' Trombonist"
       ]
@@ -145,7 +129,6 @@
     {
       "imdbId": "nm0789601",
       "name": "Arvell Shaw",
-      "sequence": 15,
       "roles": [
         "Louis' Bassist"
       ]
@@ -153,7 +136,6 @@
     {
       "imdbId": "nm0477365",
       "name": "Billy Kyle",
-      "sequence": 16,
       "roles": [
         "Louis' Pianist"
       ]
@@ -161,7 +143,6 @@
     {
       "imdbId": "nm0214321",
       "name": "Barrett Deems",
-      "sequence": 17,
       "roles": [
         "Louis' Drummer"
       ]
@@ -171,13 +152,11 @@
     {
       "imdbId": "nm0665875",
       "name": "John Patrick",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0058129",
       "name": "Philip Barry",
-      "sequence": 2,
       "notes": "(play)"
     }
   ],

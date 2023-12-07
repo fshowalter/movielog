@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000697",
-      "name": "Billy Wilder",
-      "sequence": 0
+      "name": "Billy Wilder"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001078",
       "name": "Bing Crosby",
-      "sequence": 0,
       "roles": [
         "Virgil Smith"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000021",
       "name": "Joan Fontaine",
-      "sequence": 1,
       "roles": [
         "Johanna Augusta Franziska"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0191745",
       "name": "Roland Culver",
-      "sequence": 2,
       "roles": [
         "Baron Holenia"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0914778",
       "name": "Lucile Watson",
-      "sequence": 3,
       "roles": [
         "Princess Bitotska"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0370821",
       "name": "Richard Haydn",
-      "sequence": 4,
       "roles": [
         "Emperor Franz-Josef"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0894447",
       "name": "Harold Vermilyea",
-      "sequence": 5,
       "roles": [
         "Chamberlain"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0750079",
       "name": "Sig Ruman",
-      "sequence": 6,
       "roles": [
         "Dr. Zwieback"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0212828",
       "name": "Julia Dean",
-      "sequence": 7,
       "roles": [
         "Archduchess Stephanie"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0698138",
       "name": "Bert Prival",
-      "sequence": 8,
       "roles": [
         "Chauffeur"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0534347",
       "name": "Alma Macrorie",
-      "sequence": 9,
       "roles": [
         "Inn Proprietress"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0427361",
       "name": "Roberta Jonay",
-      "sequence": 10,
       "roles": [
         "Chambermaid"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0326378",
       "name": "John Goldsworthy",
-      "sequence": 11,
       "roles": [
         "Obersthofmeister"
       ]
@@ -123,13 +110,11 @@
     {
       "imdbId": "nm0102818",
       "name": "Charles Brackett",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0000697",
       "name": "Billy Wilder",
-      "sequence": 2,
       "notes": "(written by)"
     }
   ],

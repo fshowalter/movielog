@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000568",
-      "name": "Frank Oz",
-      "sequence": 0
+      "name": "Frank Oz"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000195",
       "name": "Bill Murray",
-      "sequence": 0,
       "roles": [
         "Bob Wiley"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0000377",
       "name": "Richard Dreyfuss",
-      "sequence": 1,
       "roles": [
         "Dr. Leo Marvin"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0353546",
       "name": "Julie Hagerty",
-      "sequence": 2,
       "roles": [
         "Fay Marvin"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0001432",
       "name": "Charlie Korsmo",
-      "sequence": 3,
       "roles": [
         "Siggy Marvin"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0002062",
       "name": "Kathryn Erbe",
-      "sequence": 4,
       "roles": [
         "Anna Marvin"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0017651",
       "name": "Tom Aldredge",
-      "sequence": 5,
       "roles": [
         "Mr. Guttman"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0932473",
       "name": "Susan Willis",
-      "sequence": 6,
       "roles": [
         "Mrs. Guttman"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0100911",
       "name": "Roger Bowen",
-      "sequence": 7,
       "roles": [
         "Phil"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0109329",
       "name": "Fran Brill",
-      "sequence": 8,
       "roles": [
         "Lily"
       ]
@@ -95,7 +85,6 @@
     {
       "imdbId": "nm0714753",
       "name": "Brian Reddy",
-      "sequence": 9,
       "roles": [
         "Carswell Fensterwald"
       ]
@@ -103,7 +92,6 @@
     {
       "imdbId": "nm0067497",
       "name": "Doris Belack",
-      "sequence": 10,
       "roles": [
         "Dr. Tomsky"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0612422",
       "name": "Melinda Mullins",
-      "sequence": 11,
       "roles": [
         "Marie Grady"
       ]
@@ -119,7 +106,6 @@
     {
       "imdbId": "nm0523219",
       "name": "Marcella Lowery",
-      "sequence": 12,
       "roles": [
         "Betty",
         "Switchboard Operator"
@@ -128,7 +114,6 @@
     {
       "imdbId": "nm0919609",
       "name": "Margot Welch",
-      "sequence": 13,
       "roles": [
         "Gwen",
         "Switchboard Operator"
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0028401",
       "name": "Barbara Andres",
-      "sequence": 14,
       "roles": [
         "Claire",
         "Dr. Marvin's Secretary"
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0878152",
       "name": "Aida Turturro",
-      "sequence": 15,
       "roles": [
         "Prostitute"
       ]
@@ -154,7 +137,6 @@
     {
       "imdbId": "nm0748785",
       "name": "Stuart Rudin",
-      "sequence": 16,
       "roles": [
         "Crazy Man in New York Street"
       ]
@@ -162,7 +144,6 @@
     {
       "imdbId": "nm0181324",
       "name": "Cortez Nance Jr.",
-      "sequence": 17,
       "roles": [
         "Lobby Doorman"
       ]
@@ -170,7 +151,6 @@
     {
       "imdbId": "nm0157937",
       "name": "Lori Tan Chinn",
-      "sequence": 18,
       "roles": [
         "Bus Driver"
       ]
@@ -178,7 +158,6 @@
     {
       "imdbId": "nm0779049",
       "name": "Dennis Scott",
-      "sequence": 19,
       "roles": [
         "Motorcycle Cop"
       ]
@@ -186,7 +165,6 @@
     {
       "imdbId": "nm0062702",
       "name": "Charles Thomas Baxter",
-      "sequence": 20,
       "roles": [
         "Nursing Home Guard"
       ]
@@ -194,7 +172,6 @@
     {
       "imdbId": "nm0496736",
       "name": "Donald J. Lee Jr.",
-      "sequence": 21,
       "roles": [
         "Nursing Home Attendant"
       ]
@@ -202,7 +179,6 @@
     {
       "imdbId": "nm0146146",
       "name": "Reg E. Cathey",
-      "sequence": 22,
       "roles": [
         "Howie",
         "Director"
@@ -211,7 +187,6 @@
     {
       "imdbId": "nm0824264",
       "name": "Tom Stechschulte",
-      "sequence": 23,
       "roles": [
         "Lennie",
         "Producer"
@@ -220,7 +195,6 @@
     {
       "imdbId": "nm0090309",
       "name": "Russell Bobbitt",
-      "sequence": 24,
       "roles": [
         "TV Crew Member"
       ]
@@ -228,7 +202,6 @@
     {
       "imdbId": "nm0266697",
       "name": "Richard Fancy",
-      "sequence": 25,
       "roles": [
         "Minister"
       ]
@@ -236,7 +209,6 @@
     {
       "imdbId": "nm0526406",
       "name": "Joan Lunden",
-      "sequence": 26,
       "roles": [
         "TV Announcer"
       ]
@@ -246,19 +218,16 @@
     {
       "imdbId": "nm0765091",
       "name": "Alvin Sargent",
-      "sequence": 0,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0957205",
       "name": "Laura Ziskin",
-      "sequence": 1,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0776114",
       "name": "Tom Schulman",
-      "sequence": 3,
       "notes": "(screenplay)"
     }
   ],

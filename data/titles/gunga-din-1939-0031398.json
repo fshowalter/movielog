@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0828419",
-      "name": "George Stevens",
-      "sequence": 0
+      "name": "George Stevens"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000026",
       "name": "Cary Grant",
-      "sequence": 0,
       "roles": [
         "Sergeant Archibald Cutter"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0572142",
       "name": "Victor McLaglen",
-      "sequence": 1,
       "roles": [
         "Sergeant MacChesney"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0001195",
       "name": "Douglas Fairbanks Jr.",
-      "sequence": 2,
       "roles": [
         "Sergeant Thomas Ballantine"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0415488",
       "name": "Sam Jaffe",
-      "sequence": 3,
       "roles": [
         "Gunga Din"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0161862",
       "name": "Eduardo Ciannelli",
-      "sequence": 4,
       "roles": [
         "Guru"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0000021",
       "name": "Joan Fontaine",
-      "sequence": 5,
       "roles": [
         "Emmy"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0002311",
       "name": "Montagu Love",
-      "sequence": 6,
       "roles": [
         "Colonel Weed"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0178509",
       "name": "Robert Coote",
-      "sequence": 7,
       "roles": [
         "Sergeant Higginbotham"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0080867",
       "name": "Abner Biberman",
-      "sequence": 8,
       "roles": [
         "Chota"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0362815",
       "name": "Lumsden Hare",
-      "sequence": 9,
       "roles": [
         "Major Mitchell"
       ]
@@ -107,31 +96,26 @@
     {
       "imdbId": "nm0768540",
       "name": "Joel Sayre",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0347451",
       "name": "Fred Guiol",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 3,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0531269",
       "name": "Charles MacArthur",
-      "sequence": 4,
       "notes": "(story)"
     },
     {
       "imdbId": "nm0456017",
       "name": "Rudyard Kipling",
-      "sequence": 6,
       "notes": "(poem \"Gunga Din\")"
     }
   ],

@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0428354",
       "name": "Jennifer Jones",
-      "sequence": 0,
       "roles": [
         "China Vald\u00e9s"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0002092",
       "name": "John Garfield",
-      "sequence": 1,
       "roles": [
         "Tony Fenner"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0000784",
       "name": "Pedro Armend\u00e1riz",
-      "sequence": 2,
       "roles": [
         "Armando Ariete"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0738042",
       "name": "Gilbert Roland",
-      "sequence": 3,
       "roles": [
         "Guillermo Montilla"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0003895",
       "name": "Ramon Novarro",
-      "sequence": 4,
       "roles": [
         "Chief"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0144082",
       "name": "Wally Cassell",
-      "sequence": 5,
       "roles": [
         "Miguel"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0020200",
       "name": "David Bond",
-      "sequence": 6,
       "roles": [
         "Ram\u00f3n S\u00e1nchez"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0702210",
       "name": "Jos\u00e9 P\u00e9rez",
-      "sequence": 7,
       "roles": [
         "Toto"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0030194",
       "name": "Morris Ankrum",
-      "sequence": 8,
       "roles": [
         "Mr. Seymour"
       ]
@@ -100,19 +90,16 @@
     {
       "imdbId": "nm0896830",
       "name": "Peter Viertel",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0843253",
       "name": "Robert Sylvester",
-      "sequence": 3,
       "notes": "(novel \"Rough Sketch\")"
     }
   ],

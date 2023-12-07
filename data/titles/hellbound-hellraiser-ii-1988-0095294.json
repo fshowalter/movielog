@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0709752",
-      "name": "Tony Randel",
-      "sequence": 0
+      "name": "Tony Randel"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0383354",
       "name": "Clare Higgins",
-      "sequence": 0,
       "roles": [
         "Julia"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0491090",
       "name": "Ashley Laurence",
-      "sequence": 1,
       "roles": [
         "Kirsty"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0186469",
       "name": "Kenneth Cranham",
-      "sequence": 2,
       "roles": [
         "Channard"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0095567",
       "name": "Imogen Boorman",
-      "sequence": 3,
       "roles": [
         "Tiffany"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0152521",
       "name": "Sean Chapman",
-      "sequence": 4,
       "roles": [
         "Frank"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0394054",
       "name": "William Hope",
-      "sequence": 5,
       "roles": [
         "Kyle"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0103208",
       "name": "Doug Bradley",
-      "sequence": 6,
       "roles": [
         "Pinhead"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0928411",
       "name": "Barbie Wilde",
-      "sequence": 7,
       "roles": [
         "Female Cenobite"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0051472",
       "name": "Simon Bamford",
-      "sequence": 8,
       "roles": [
         "Butterball"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0898544",
       "name": "Nicholas Vince",
-      "sequence": 9,
       "roles": [
         "Chatterer"
       ]
@@ -104,7 +93,6 @@
     {
       "imdbId": "nm0809483",
       "name": "Oliver Smith",
-      "sequence": 10,
       "roles": [
         "Browning"
       ]
@@ -112,7 +100,6 @@
     {
       "imdbId": "nm0532815",
       "name": "Angus MacInnes",
-      "sequence": 11,
       "roles": [
         "Ronson"
       ]
@@ -120,7 +107,6 @@
     {
       "imdbId": "nm0423573",
       "name": "Deborah Joel",
-      "sequence": 12,
       "roles": [
         "'Skinless' Julia"
       ]
@@ -128,7 +114,6 @@
     {
       "imdbId": "nm0863385",
       "name": "James Tillitt",
-      "sequence": 13,
       "roles": [
         "Officer Cortez"
       ]
@@ -136,7 +121,6 @@
     {
       "imdbId": "nm0491827",
       "name": "Bradley Lavelle",
-      "sequence": 14,
       "roles": [
         "Officer Kucich"
       ]
@@ -144,7 +128,6 @@
     {
       "imdbId": "nm0185847",
       "name": "Edwin Craig",
-      "sequence": 15,
       "roles": [
         "Wheelchair Patient"
       ]
@@ -152,7 +135,6 @@
     {
       "imdbId": "nm0871434",
       "name": "Ron Travis",
-      "sequence": 16,
       "roles": [
         "Workman 1"
       ]
@@ -160,7 +142,6 @@
     {
       "imdbId": "nm0662529",
       "name": "Oliver Parker",
-      "sequence": 17,
       "roles": [
         "Workman 2"
       ]
@@ -168,7 +149,6 @@
     {
       "imdbId": "nm0156620",
       "name": "Catherine Chevalier",
-      "sequence": 18,
       "roles": [
         "Tiffany's Mother"
       ]
@@ -176,7 +156,6 @@
     {
       "imdbId": "nm0180042",
       "name": "John Cormican",
-      "sequence": 25,
       "roles": [
         "Skinless Julia",
         "Vagrant"
@@ -187,13 +166,11 @@
     {
       "imdbId": "nm0040643",
       "name": "Peter Atkins",
-      "sequence": 0,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0000850",
       "name": "Clive Barker",
-      "sequence": 2,
       "notes": "(based on a story by)"
     }
   ],

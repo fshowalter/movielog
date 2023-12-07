@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001438",
-      "name": "Neil LaBute",
-      "sequence": 0
+      "name": "Neil LaBute"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0253035",
       "name": "Ron Eldard",
-      "sequence": 0,
       "roles": [
         "John"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0001222",
       "name": "Calista Flockhart",
-      "sequence": 1,
       "roles": [
         "Sue"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0748620",
       "name": "Paul Rudd",
-      "sequence": 2,
       "roles": [
         "Tim"
       ]
@@ -52,13 +48,11 @@
     {
       "imdbId": "nm0262381",
       "name": "Euripides",
-      "sequence": 0,
       "notes": "(plays)"
     },
     {
       "imdbId": "nm0001438",
       "name": "Neil LaBute",
-      "sequence": 2,
       "notes": "()"
     }
   ]

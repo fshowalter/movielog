@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 0
+      "name": "Alfred Hitchcock"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0052203",
       "name": "Leslie Banks",
-      "sequence": 0,
       "roles": [
         "Bob Lawrence"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0078923",
       "name": "Edna Best",
-      "sequence": 1,
       "roles": [
         "Jill Lawrence"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0000048",
       "name": "Peter Lorre",
-      "sequence": 2,
       "roles": [
         "Abbott"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0903687",
       "name": "Frank Vosper",
-      "sequence": 3,
       "roles": [
         "Ramon Levine"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0906775",
       "name": "Hugh Wakefield",
-      "sequence": 4,
       "roles": [
         "Clive"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0683345",
       "name": "Nova Pilbeam",
-      "sequence": 5,
       "roles": [
         "Betty Lawrence"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0294382",
       "name": "Pierre Fresnay",
-      "sequence": 6,
       "roles": [
         "Louis Bernard"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0643084",
       "name": "Cicely Oates",
-      "sequence": 7,
       "roles": [
         "Nurse Agnes"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0165061",
       "name": "D.A. Clarke-Smith",
-      "sequence": 8,
       "roles": [
         "Binstead"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0193633",
       "name": "George Curzon",
-      "sequence": 9,
       "roles": [
         "Gibson"
       ]
@@ -107,31 +96,26 @@
     {
       "imdbId": "nm0071657",
       "name": "Charles Bennett",
-      "sequence": 0,
       "notes": "(by)"
     },
     {
       "imdbId": "nm0943922",
       "name": "D.B. Wyndham-Lewis",
-      "sequence": 1,
       "notes": "(by) (as D.B. Wyndham Lewis)"
     },
     {
       "imdbId": "nm0339326",
       "name": "Edwin Greenwood",
-      "sequence": 3,
       "notes": "(scenario)"
     },
     {
       "imdbId": "nm0712653",
       "name": "A.R. Rawlinson",
-      "sequence": 4,
       "notes": "(scenario)"
     },
     {
       "imdbId": "nm0930539",
       "name": "Emlyn Williams",
-      "sequence": 6,
       "notes": "(additional dialogue)"
     }
   ],

@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
-      "sequence": 0,
       "roles": [
         "Frank McCloud"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0000064",
       "name": "Edward G. Robinson",
-      "sequence": 1,
       "roles": [
         "Johnny Rocco"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0000002",
       "name": "Lauren Bacall",
-      "sequence": 2,
       "roles": [
         "Nora Temple"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0000859",
       "name": "Lionel Barrymore",
-      "sequence": 3,
       "roles": [
         "James Temple"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0872456",
       "name": "Claire Trevor",
-      "sequence": 4,
       "roles": [
         "Gaye Dawn"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0327089",
       "name": "Thomas Gomez",
-      "sequence": 5,
       "roles": [
         "Richard 'Curly' Hoff"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0507252",
       "name": "Harry Lewis",
-      "sequence": 6,
       "roles": [
         "Edward 'Toots' Bass"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0734937",
       "name": "John Rodney",
-      "sequence": 7,
       "roles": [
         "Deputy Clyde Sawyer"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0492908",
       "name": "Marc Lawrence",
-      "sequence": 8,
       "roles": [
         "Ziggy"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0786811",
       "name": "Dan Seymour",
-      "sequence": 9,
       "roles": [
         "Angel Garcia"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0089524",
       "name": "Monte Blue",
-      "sequence": 10,
       "roles": [
         "Sheriff Ben Wade"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0351744",
       "name": "William Haade",
-      "sequence": 11,
       "roles": [
         "Ralph Feeney"
       ]
@@ -125,19 +112,16 @@
     {
       "imdbId": "nm0112218",
       "name": "Richard Brooks",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0027173",
       "name": "Maxwell Anderson",
-      "sequence": 3,
       "notes": "(based on the play by)"
     }
   ],

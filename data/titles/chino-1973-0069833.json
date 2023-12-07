@@ -20,20 +20,17 @@
   "directors": [
     {
       "imdbId": "nm0836328",
-      "name": "John Sturges",
-      "sequence": 0
+      "name": "John Sturges"
     },
     {
       "imdbId": "nm0171385",
-      "name": "Duilio Coletti",
-      "sequence": 1
+      "name": "Duilio Coletti"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000314",
       "name": "Charles Bronson",
-      "sequence": 0,
       "roles": [
         "Chino Valdez"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0409866",
       "name": "Jill Ireland",
-      "sequence": 1,
       "roles": [
         "Catherine"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0102566",
       "name": "Marcel Bozzuffi",
-      "sequence": 2,
       "roles": [
         "Maral"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0887701",
       "name": "Vincent Van Patten",
-      "sequence": 3,
       "roles": [
         "Jamie Wagner"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0870362",
       "name": "Fausto Tozzi",
-      "sequence": 4,
       "roles": [
         "Cruz"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0543188",
       "name": "Ettore Manni",
-      "sequence": 5,
       "roles": [
         "Sheriff"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm1113665",
       "name": "Melissa Chimenti",
-      "sequence": 6,
       "roles": [
         "Indian"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0301403",
       "name": "Corrado Gaipa",
-      "sequence": 7,
       "roles": [
         "Padre"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0631307",
       "name": "Jos\u00e9 Nieto",
-      "sequence": 8,
       "roles": [
         "Mexican"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0521224",
       "name": "Diana Lorys",
-      "sequence": 9,
       "roles": [
         "Indian"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0616389",
       "name": "Conchita Mu\u00f1oz",
-      "sequence": 10,
       "roles": [
         "Mexican"
       ]
@@ -123,13 +110,11 @@
     {
       "imdbId": "nm0389000",
       "name": "Lee Hoffman",
-      "sequence": 0,
       "notes": "(novel \"The Valdez Horses\")"
     },
     {
       "imdbId": "nm0400236",
       "name": "Clair Huffaker",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

@@ -7,7 +7,8 @@
   "year": 1982,
   "releaseDate": "1982-06-25",
   "countries": [
-    "United States"
+    "United States",
+    "Canada"
   ],
   "genres": [
     "Horror",
@@ -17,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter",
-      "sequence": 0
+      "name": "John Carpenter"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000621",
       "name": "Kurt Russell",
-      "sequence": 0,
       "roles": [
         "MacReady"
       ]
@@ -33,7 +32,6 @@
     {
       "imdbId": "nm0000979",
       "name": "Wilford Brimley",
-      "sequence": 1,
       "roles": [
         "Dr. Blair"
       ]
@@ -41,7 +39,6 @@
     {
       "imdbId": "nm0141953",
       "name": "T.K. Carter",
-      "sequence": 2,
       "roles": [
         "Nauls"
       ]
@@ -49,7 +46,6 @@
     {
       "imdbId": "nm0166359",
       "name": "David Clennon",
-      "sequence": 3,
       "roles": [
         "Palmer"
       ]
@@ -57,7 +53,6 @@
     {
       "imdbId": "nm0202966",
       "name": "Keith David",
-      "sequence": 4,
       "roles": [
         "Childs"
       ]
@@ -65,7 +60,6 @@
     {
       "imdbId": "nm0246004",
       "name": "Richard Dysart",
-      "sequence": 5,
       "roles": [
         "Dr. Copper"
       ]
@@ -73,7 +67,6 @@
     {
       "imdbId": "nm0356251",
       "name": "Charles Hallahan",
-      "sequence": 6,
       "roles": [
         "Vance Norris"
       ]
@@ -81,7 +74,6 @@
     {
       "imdbId": "nm0540595",
       "name": "Peter Maloney",
-      "sequence": 7,
       "roles": [
         "George Bennings"
       ]
@@ -89,7 +81,6 @@
     {
       "imdbId": "nm0557956",
       "name": "Richard Masur",
-      "sequence": 8,
       "roles": [
         "Clark"
       ]
@@ -97,7 +88,6 @@
     {
       "imdbId": "nm0595567",
       "name": "Donald Moffat",
-      "sequence": 9,
       "roles": [
         "Garry"
       ]
@@ -105,7 +95,6 @@
     {
       "imdbId": "nm0689177",
       "name": "Joel Polis",
-      "sequence": 10,
       "roles": [
         "Fuchs"
       ]
@@ -113,7 +102,6 @@
     {
       "imdbId": "nm0906640",
       "name": "Thomas G. Waites",
-      "sequence": 11,
       "roles": [
         "Windows"
       ]
@@ -121,7 +109,6 @@
     {
       "imdbId": "nm0919256",
       "name": "Norbert Weisser",
-      "sequence": 12,
       "roles": [
         "Norwegian"
       ]
@@ -129,7 +116,6 @@
     {
       "imdbId": "nm0290581",
       "name": "Larry Franco",
-      "sequence": 13,
       "roles": [
         "Norwegian Passenger with Rifle"
       ]
@@ -137,7 +123,6 @@
     {
       "imdbId": "nm0410429",
       "name": "Nate Irwin",
-      "sequence": 14,
       "roles": [
         "Helicopter Pilot"
       ]
@@ -145,7 +130,6 @@
     {
       "imdbId": "nm0954730",
       "name": "William Zeman",
-      "sequence": 15,
       "roles": [
         "Pilot"
       ]
@@ -155,13 +139,11 @@
     {
       "imdbId": "nm0484111",
       "name": "Bill Lancaster",
-      "sequence": 0,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm0132168",
       "name": "John W. Campbell Jr.",
-      "sequence": 2,
       "notes": "(based on the story \"Who Goes There\" by)"
     }
   ],

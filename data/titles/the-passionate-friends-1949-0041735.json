@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0000180",
-      "name": "David Lean",
-      "sequence": 0
+      "name": "David Lean"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0002897",
       "name": "Ann Todd",
-      "sequence": 0,
       "roles": [
         "Mary Justin"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0001647",
       "name": "Claude Rains",
-      "sequence": 1,
       "roles": [
         "Howard Justin"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0002145",
       "name": "Trevor Howard",
-      "sequence": 2,
       "roles": [
         "Prof. Steven Stratton"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0203606",
       "name": "Betty Ann Davies",
-      "sequence": 3,
       "roles": [
         "Joan Layton"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0212794",
       "name": "Isabel Dean",
-      "sequence": 4,
       "roles": [
         "Pat Stratton"
       ]
@@ -66,25 +60,21 @@
     {
       "imdbId": "nm0920229",
       "name": "H.G. Wells",
-      "sequence": 0,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0001907",
       "name": "Eric Ambler",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0000180",
       "name": "David Lean",
-      "sequence": 4,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0371552",
       "name": "Stanley Haynes",
-      "sequence": 5,
       "notes": "(adaptation)"
     }
   ],

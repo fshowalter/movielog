@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0259589",
-      "name": "John Erman",
-      "sequence": 0
+      "name": "John Erman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001258",
       "name": "James Garner",
-      "sequence": 0,
       "roles": [
         "Ira Moran"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0940946",
       "name": "Joanne Woodward",
-      "sequence": 1,
       "roles": [
         "Maggie Moran"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0002062",
       "name": "Kathryn Erbe",
-      "sequence": 2,
       "roles": [
         "Fiona"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0887696",
       "name": "Joyce Van Patten",
-      "sequence": 3,
       "roles": [
         "Serena"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0373012",
       "name": "Eileen Heckart",
-      "sequence": 4,
       "roles": [
         "Mabel"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0934902",
       "name": "Paul Winfield",
-      "sequence": 5,
       "roles": [
         "Daniel Otis"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0347375",
       "name": "Tim Guinee",
-      "sequence": 6,
       "roles": [
         "Jesse Moran"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0428216",
       "name": "Henry Jones",
-      "sequence": 7,
       "roles": [
         "Sam"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0512616",
       "name": "Stephi Lineburg",
-      "sequence": 8,
       "roles": [
         "Leroy"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0600717",
       "name": "Debra Mooney",
-      "sequence": 9,
       "roles": [
         "Mrs. Stuckey"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0175912",
       "name": "John Considine",
-      "sequence": 10,
       "roles": [
         "Durwood"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0364257",
       "name": "Delphi Harrington",
-      "sequence": 11,
       "roles": [
         "Sugar"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0446465",
       "name": "Jean Louisa Kelly",
-      "sequence": 12,
       "roles": [
         "Daisy"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0858104",
       "name": "Kevin Thigpen",
-      "sequence": 13,
       "roles": [
         "Lamont"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm0583579",
       "name": "Larry John Meyers",
-      "sequence": 14,
       "roles": [
         "Bodyshop Owner"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0905619",
       "name": "Don Wadsworth",
-      "sequence": 15,
       "roles": [
         "Deacon"
       ]
@@ -156,13 +139,11 @@
     {
       "imdbId": "nm0878773",
       "name": "Anne Tyler",
-      "sequence": 0,
       "notes": "(book)"
     },
     {
       "imdbId": "nm0502225",
       "name": "Robert W. Lenski",
-      "sequence": 2,
       "notes": "(teleplay)"
     }
   ]

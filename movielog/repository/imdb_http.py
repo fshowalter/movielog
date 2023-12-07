@@ -42,8 +42,8 @@ class TitlePage(object):
     kind: str
     credits: dict[CreditKind, list[NameCredit]]
     full_title: str
-    genres: set[str]
-    countries: set[str]
+    genres: list[str]
+    countries: list[str]
     sound_mix: set[str]
 
 
@@ -133,8 +133,8 @@ def get_title_page(imdb_id: str) -> TitlePage:
         production_status=imdb_movie.get("production status", None),
         kind=imdb_movie.get("kind", "Unknown"),
         full_title=imdb_movie["long imdb title"],
-        genres=set(imdb_movie.get("genres", [])),
-        countries=set(imdb_movie.get("countries", [])),
+        genres=imdb_movie.get("genres", []),
+        countries=imdb_movie.get("countries", []),
         sound_mix=set(imdb_movie.get("sound mix", [])),
         credits=build_name_credits_for_title_page(imdb_movie),
     )

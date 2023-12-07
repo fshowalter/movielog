@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 0
+      "name": "Alfred Hitchcock"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000026",
       "name": "Cary Grant",
-      "sequence": 0,
       "roles": [
         "John Robie"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000038",
       "name": "Grace Kelly",
-      "sequence": 1,
       "roles": [
         "Frances Stevens"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0484829",
       "name": "Jessie Royce Landis",
-      "sequence": 2,
       "roles": [
         "Jessie Stevens"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0002369",
       "name": "John Williams",
-      "sequence": 3,
       "roles": [
         "H.H. Hughson"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0889024",
       "name": "Charles Vanel",
-      "sequence": 4,
       "roles": [
         "Bertani"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0041270",
       "name": "Brigitte Auber",
-      "sequence": 5,
       "roles": [
         "Danielle Foussard"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0553361",
       "name": "Jean Martinelli",
-      "sequence": 6,
       "roles": [
         "Foussard"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0031708",
       "name": "Georgette Anys",
-      "sequence": 7,
       "roles": [
         "Germaine"
       ]
@@ -91,13 +82,11 @@
     {
       "imdbId": "nm0371088",
       "name": "John Michael Hayes",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0230196",
       "name": "David Dodge",
-      "sequence": 2,
       "notes": "(based on the novel by)"
     }
   ],

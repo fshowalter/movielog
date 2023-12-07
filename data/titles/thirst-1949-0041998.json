@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000005",
-      "name": "Ingmar Bergman",
-      "sequence": 0
+      "name": "Ingmar Bergman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0377397",
       "name": "Eva Henning",
-      "sequence": 0,
       "roles": [
         "Ruth"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0540311",
       "name": "Birger Malmsten",
-      "sequence": 1,
       "roles": [
         "Bertil"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0854996",
       "name": "Birgit Tengroth",
-      "sequence": 2,
       "roles": [
         "Viola"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0252475",
       "name": "Hasse Ekman",
-      "sequence": 3,
       "roles": [
         "Dr. Rosengren"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0625624",
       "name": "Mimi Nelson",
-      "sequence": 4,
       "roles": [
         "Valborg"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0252416",
       "name": "Bengt Eklund",
-      "sequence": 5,
       "roles": [
         "Raoul"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0826503",
       "name": "Gaby Stenberg",
-      "sequence": 6,
       "roles": [
         "Astrid"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0927711",
       "name": "Naima Wifstrand",
-      "sequence": 7,
       "roles": [
         "Miss Henriksson"
       ]
@@ -89,13 +80,11 @@
     {
       "imdbId": "nm0340471",
       "name": "Herbert Grevenius",
-      "sequence": 0,
       "notes": "(writer)"
     },
     {
       "imdbId": "nm0854996",
       "name": "Birgit Tengroth",
-      "sequence": 2,
       "notes": "(short stories)"
     }
   ],

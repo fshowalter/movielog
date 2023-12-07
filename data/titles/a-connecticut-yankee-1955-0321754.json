@@ -20,20 +20,17 @@
   "directors": [
     {
       "imdbId": "nm0387695",
-      "name": "Bill Hobin",
-      "sequence": 0
+      "name": "Bill Hobin"
     },
     {
       "imdbId": "nm0509501",
-      "name": "Max Liebman",
-      "sequence": 1
+      "name": "Max Liebman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000734",
       "name": "Eddie Albert",
-      "sequence": 0,
       "roles": [
         "Martin Barret"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0086268",
       "name": "Janet Blair",
-      "sequence": 1,
       "roles": [
         "Sandy"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
-      "sequence": 2,
       "roles": [
         "King Arthur"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0792810",
       "name": "Gale Sherwood",
-      "sequence": 3,
       "roles": [
         "Morgan Le Fay"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0176235",
       "name": "John Conte",
-      "sequence": 4,
       "roles": [
         "Sir Kay"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0254533",
       "name": "Leonard Elliott",
-      "sequence": 5,
       "roles": [
         "Merlin"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0512972",
       "name": "Bambi Linn",
-      "sequence": 6,
       "roles": [
         "Dancers"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0018705",
       "name": "Rod Alexander",
-      "sequence": 7,
       "roles": [
         "Dancers"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm3288257",
       "name": "Beverlee Dennis",
-      "sequence": 8,
       "roles": [
         "Switchboard Operator"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm1795270",
       "name": "Ray Drakeley",
-      "sequence": 9,
       "roles": [
         "Page"
       ]
@@ -113,25 +101,21 @@
     {
       "imdbId": "nm0381000",
       "name": "Hanna Landy",
-      "sequence": 10,
       "roles": []
     },
     {
       "imdbId": "nm0560056",
       "name": "Jessie Matthews",
-      "sequence": 11,
       "roles": []
     },
     {
       "imdbId": "nm3286877",
       "name": "Jack Thompson",
-      "sequence": 12,
       "roles": []
     },
     {
       "imdbId": "nm7252795",
       "name": "Craig Timberlake",
-      "sequence": 13,
       "roles": [
         "Page"
       ]
@@ -141,37 +125,31 @@
     {
       "imdbId": "nm0276252",
       "name": "Herbert Fields",
-      "sequence": 0,
       "notes": "(book by)"
     },
     {
       "imdbId": "nm0878494",
       "name": "Mark Twain",
-      "sequence": 2,
       "notes": "(based on the novel by)"
     },
     {
       "imdbId": "nm0294989",
       "name": "Billy Friedberg",
-      "sequence": 4,
       "notes": "(adaptation) (as William Friedberg)"
     },
     {
       "imdbId": "nm0322817",
       "name": "Will Glickman",
-      "sequence": 6,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0777129",
       "name": "Al Schwartz",
-      "sequence": 8,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0800319",
       "name": "Neil Simon",
-      "sequence": 10,
       "notes": "(adaptation)"
     }
   ]

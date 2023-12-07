@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0836328",
-      "name": "John Sturges",
-      "sequence": 0
+      "name": "John Sturges"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000075",
       "name": "Spencer Tracy",
-      "sequence": 0,
       "roles": [
         "The Old Man",
         "Narrator"
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0668626",
       "name": "Felipe Pazos",
-      "sequence": 1,
       "roles": [
         "The Boy"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0068772",
       "name": "Harry Bellaver",
-      "sequence": 2,
       "roles": [
         "The Cafe Owner"
       ]
@@ -51,13 +47,11 @@
     {
       "imdbId": "nm0002133",
       "name": "Ernest Hemingway",
-      "sequence": 0,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0896830",
       "name": "Peter Viertel",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

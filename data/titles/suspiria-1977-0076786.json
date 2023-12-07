@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000783",
-      "name": "Dario Argento",
-      "sequence": 0
+      "name": "Dario Argento"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0363888",
       "name": "Jessica Harper",
-      "sequence": 0,
       "roles": [
         "Suzy Bannion"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0143743",
       "name": "Stefania Casini",
-      "sequence": 1,
       "roles": [
         "Sara"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0117885",
       "name": "Flavio Bucci",
-      "sequence": 2,
       "roles": [
         "Daniel"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0098395",
       "name": "Miguel Bos\u00e9",
-      "sequence": 3,
       "roles": [
         "Mark"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0536298",
       "name": "Barbara Magnolfi",
-      "sequence": 4,
       "roles": [
         "Olga"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0419490",
       "name": "Susanna Javicoli",
-      "sequence": 5,
       "roles": [
         "Sonia"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0043589",
       "name": "Eva Ax\u00e9n",
-      "sequence": 6,
       "roles": [
         "Pat Hingle"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0771869",
       "name": "Rudolf Sch\u00fcndler",
-      "sequence": 7,
       "roles": [
         "Prof. Milius"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0001424",
       "name": "Udo Kier",
-      "sequence": 8,
       "roles": [
         "Dr. Frank Mandel"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0885098",
       "name": "Alida Valli",
-      "sequence": 9,
       "roles": [
         "Miss Tanner"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0000910",
       "name": "Joan Bennett",
-      "sequence": 10,
       "roles": [
         "Madame Blanc"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0395315",
       "name": "Margherita Horowitz",
-      "sequence": 11,
       "roles": [
         "Teacher"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0547079",
       "name": "Jacopo Mariani",
-      "sequence": 12,
       "roles": [
         "Albert"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0591307",
       "name": "Fulvio Mingozzi",
-      "sequence": 13,
       "roles": [
         "Taxi Driver"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm0768719",
       "name": "Franca Scagnetti",
-      "sequence": 14,
       "roles": [
         "Cook"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0769237",
       "name": "Renato Scarpa",
-      "sequence": 15,
       "roles": [
         "Prof. Verdegast"
       ]
@@ -154,7 +137,6 @@
     {
       "imdbId": "nm0778705",
       "name": "Serafina Scorceletti",
-      "sequence": 16,
       "roles": [
         "2nd Cook"
       ]
@@ -162,7 +144,6 @@
     {
       "imdbId": "nm0871003",
       "name": "Giuseppe Transocchi",
-      "sequence": 17,
       "roles": [
         "Pavlo"
       ]
@@ -170,7 +151,6 @@
     {
       "imdbId": "nm0952617",
       "name": "Renata Zamengo",
-      "sequence": 18,
       "roles": [
         "Caroline"
       ]
@@ -178,7 +158,6 @@
     {
       "imdbId": "nm0135422",
       "name": "Alessandra Capozzi",
-      "sequence": 19,
       "roles": [
         "Dancer"
       ]
@@ -186,7 +165,6 @@
     {
       "imdbId": "nm0135433",
       "name": "Salvatore Capozzi",
-      "sequence": 20,
       "roles": [
         "Dancer"
       ]
@@ -194,7 +172,6 @@
     {
       "imdbId": "nm0273963",
       "name": "Diana Ferrara",
-      "sequence": 21,
       "roles": [
         "Dancer"
       ]
@@ -202,7 +179,6 @@
     {
       "imdbId": "nm0490238",
       "name": "Cristina Latini",
-      "sequence": 22,
       "roles": [
         "Dancer"
       ]
@@ -210,7 +186,6 @@
     {
       "imdbId": "nm0707133",
       "name": "Alfredo Raino",
-      "sequence": 23,
       "roles": [
         "Dancer"
       ]
@@ -218,7 +193,6 @@
     {
       "imdbId": "nm0951502",
       "name": "Claudia Zaccari",
-      "sequence": 24,
       "roles": [
         "Dancer"
       ]
@@ -228,13 +202,11 @@
     {
       "imdbId": "nm0000783",
       "name": "Dario Argento",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0630453",
       "name": "Daria Nicolodi",
-      "sequence": 1,
       "notes": "(screenplay)"
     }
   ]

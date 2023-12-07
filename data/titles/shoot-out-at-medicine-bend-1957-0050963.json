@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0054374",
-      "name": "Richard L. Bare",
-      "sequence": 0
+      "name": "Richard L. Bare"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000068",
       "name": "Randolph Scott",
-      "sequence": 0,
       "roles": [
         "Capt. Buck Devlin"
       ]
@@ -31,7 +29,6 @@
     {
       "imdbId": "nm0185883",
       "name": "James Craig",
-      "sequence": 1,
       "roles": [
         "Ep Clark"
       ]
@@ -39,7 +36,6 @@
     {
       "imdbId": "nm0001141",
       "name": "Angie Dickinson",
-      "sequence": 2,
       "roles": [
         "Priscilla King"
       ]
@@ -47,7 +43,6 @@
     {
       "imdbId": "nm0187051",
       "name": "Dani Crayne",
-      "sequence": 3,
       "roles": [
         "Nell Garrison"
       ]
@@ -55,7 +50,6 @@
     {
       "imdbId": "nm0001258",
       "name": "James Garner",
-      "sequence": 4,
       "roles": [
         "Sgt. John Maitland"
       ]
@@ -63,7 +57,6 @@
     {
       "imdbId": "nm0428160",
       "name": "Gordon Jones",
-      "sequence": 5,
       "roles": [
         "Pvt. Wilbur Clegg"
       ]
@@ -71,7 +64,6 @@
     {
       "imdbId": "nm0054253",
       "name": "Trevor Bardette",
-      "sequence": 6,
       "roles": [
         "Sheriff Bob Massey"
       ]
@@ -79,7 +71,6 @@
     {
       "imdbId": "nm0065975",
       "name": "Don Beddoe",
-      "sequence": 7,
       "roles": [
         "Mayor Sam Pelley"
       ]
@@ -87,7 +78,6 @@
     {
       "imdbId": "nm0372271",
       "name": "Myron Healey",
-      "sequence": 8,
       "roles": [
         "Rafe Sanders"
       ]
@@ -95,7 +85,6 @@
     {
       "imdbId": "nm0017580",
       "name": "John Alderson",
-      "sequence": 9,
       "roles": [
         "Clyde Walters"
       ]
@@ -103,7 +92,6 @@
     {
       "imdbId": "nm0367543",
       "name": "Harry Harvey",
-      "sequence": 10,
       "roles": [
         "Elam King"
       ]
@@ -111,7 +99,6 @@
     {
       "imdbId": "nm0913094",
       "name": "Robert Warwick",
-      "sequence": 11,
       "roles": [
         "Brother Abraham"
       ]
@@ -121,13 +108,11 @@
     {
       "imdbId": "nm0061510",
       "name": "John Tucker Battle",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0064305",
       "name": "D.D. Beauchamp",
-      "sequence": 1,
       "notes": "(written by)"
     }
   ],

@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston",
-      "sequence": 0
+      "name": "John Huston"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
-      "sequence": 0,
       "roles": [
         "Samuel Spade"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000802",
       "name": "Mary Astor",
-      "sequence": 1,
       "roles": [
         "Brigid O'Shaughnessy"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0313438",
       "name": "Gladys George",
-      "sequence": 2,
       "roles": [
         "Iva Archer"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000048",
       "name": "Peter Lorre",
-      "sequence": 3,
       "roles": [
         "Joel Cairo"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0533692",
       "name": "Barton MacLane",
-      "sequence": 4,
       "roles": [
         "Lt. of Detectives Dundy"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0665886",
       "name": "Lee Patrick",
-      "sequence": 5,
       "roles": [
         "Effie Perine"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0002113",
       "name": "Sydney Greenstreet",
-      "sequence": 6,
       "roles": [
         "Kasper Gutman"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0000955",
       "name": "Ward Bond",
-      "sequence": 7,
       "roles": [
         "Detective Tom Polhaus"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0184578",
       "name": "Jerome Cowan",
-      "sequence": 8,
       "roles": [
         "Miles Archer"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0176879",
       "name": "Elisha Cook Jr.",
-      "sequence": 9,
       "roles": [
         "Wilmer Cook"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0121707",
       "name": "James Burke",
-      "sequence": 10,
       "roles": [
         "Luke"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0022367",
       "name": "Murray Alper",
-      "sequence": 11,
       "roles": [
         "Frank Richman"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0357963",
       "name": "John Hamilton",
-      "sequence": 12,
       "roles": [
         "Bryan"
       ]
@@ -132,13 +118,11 @@
     {
       "imdbId": "nm0001379",
       "name": "John Huston",
-      "sequence": 0,
       "notes": "(screen play by)"
     },
     {
       "imdbId": "nm0358591",
       "name": "Dashiell Hammett",
-      "sequence": 2,
       "notes": "(based upon the novel by)"
     }
   ],

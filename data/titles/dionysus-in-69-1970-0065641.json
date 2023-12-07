@@ -15,20 +15,17 @@
   "directors": [
     {
       "imdbId": "nm0000361",
-      "name": "Brian De Palma",
-      "sequence": 0
+      "name": "Brian De Palma"
     },
     {
       "imdbId": "nm0770351",
-      "name": "Richard Schechner",
-      "sequence": 1
+      "name": "Richard Schechner"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0054082",
       "name": "Remi Barclay",
-      "sequence": 0,
       "roles": [
         "John"
       ]
@@ -36,7 +33,6 @@
     {
       "imdbId": "nm0088012",
       "name": "Samuel Blazer",
-      "sequence": 1,
       "roles": [
         "Dionysus"
       ]
@@ -44,7 +40,6 @@
     {
       "imdbId": "nm0098121",
       "name": "Jason Bosseau",
-      "sequence": 2,
       "roles": [
         "Dionysus"
       ]
@@ -52,7 +47,6 @@
     {
       "imdbId": "nm0224409",
       "name": "Richard Dia",
-      "sequence": 3,
       "roles": [
         "Dionysus"
       ]
@@ -60,7 +54,6 @@
     {
       "imdbId": "nm0278073",
       "name": "William Finley",
-      "sequence": 4,
       "roles": [
         "Dionysus"
       ]
@@ -68,7 +61,6 @@
     {
       "imdbId": "nm0532851",
       "name": "Joan MacIntosh",
-      "sequence": 5,
       "roles": [
         "Dionysus"
       ]
@@ -76,7 +68,6 @@
     {
       "imdbId": "nm0562145",
       "name": "Vicki May",
-      "sequence": 6,
       "roles": [
         "Dionysus"
       ]
@@ -84,7 +75,6 @@
     {
       "imdbId": "nm0567564",
       "name": "Patrick McDermott",
-      "sequence": 7,
       "roles": [
         "Dionysus"
       ]
@@ -92,7 +82,6 @@
     {
       "imdbId": "nm0752694",
       "name": "Margaret Ryan",
-      "sequence": 8,
       "roles": [
         "Dionysus"
       ]
@@ -100,7 +89,6 @@
     {
       "imdbId": "nm0791729",
       "name": "William Shephard",
-      "sequence": 9,
       "roles": [
         "Pentheus"
       ]
@@ -108,7 +96,6 @@
     {
       "imdbId": "nm0807726",
       "name": "Ciel Smith",
-      "sequence": 10,
       "roles": [
         "Dionysus"
       ]
@@ -118,13 +105,11 @@
     {
       "imdbId": "nm0037404",
       "name": "William Arrowsmith",
-      "sequence": 0,
       "notes": "()"
     },
     {
       "imdbId": "nm0262381",
       "name": "Euripides",
-      "sequence": 2,
       "notes": "(play \"The Bacchae\")"
     }
   ],

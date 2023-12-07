@@ -15,15 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0917358",
-      "name": "Stephen Weeks",
-      "sequence": 0
+      "name": "Stephen Weeks"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
-      "sequence": 0,
       "roles": [
         "Dr. Charles Marlowe",
         "Edward Blake"
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
-      "sequence": 1,
       "roles": [
         "Frederick Utterson"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0265631",
       "name": "Mike Raven",
-      "sequence": 2,
       "roles": [
         "Enfield"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0403528",
       "name": "Richard Hurndall",
-      "sequence": 3,
       "roles": [
         "Lanyon"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0581416",
       "name": "George Merritt",
-      "sequence": 4,
       "roles": [
         "Poole"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0912915",
       "name": "Kenneth J. Warren",
-      "sequence": 5,
       "roles": [
         "Deane"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0417075",
       "name": "Susan Jameson",
-      "sequence": 6,
       "roles": [
         "Diane"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0492915",
       "name": "Marjie Lawrence",
-      "sequence": 7,
       "roles": [
         "Annie"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0216195",
       "name": "Aim\u00e9e Delamain",
-      "sequence": 8,
       "roles": [
         "Landlady"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0220735",
       "name": "Michael Des Barres",
-      "sequence": 9,
       "roles": [
         "Boy in Alley"
       ]
@@ -106,13 +95,11 @@
     {
       "imdbId": "nm0829044",
       "name": "Robert Louis Stevenson",
-      "sequence": 0,
       "notes": "(novel \"The Strange Case of Dr. Jekyll and Mr. Hyde\")"
     },
     {
       "imdbId": "nm0836988",
       "name": "Milton Subotsky",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

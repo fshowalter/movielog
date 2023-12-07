@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000265",
-      "name": "Robert Altman",
-      "sequence": 0
+      "name": "Robert Altman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0122238",
       "name": "Leo Burmester",
-      "sequence": 0,
       "roles": [
         "The doctor",
         "prisoner"
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0201719",
       "name": "Danny Darst",
-      "sequence": 1,
       "roles": [
         "Guitarist"
       ]
@@ -45,13 +42,11 @@
     {
       "imdbId": "nm0816041",
       "name": "Frank South",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0816041",
       "name": "Frank South",
-      "sequence": 2,
       "notes": "(teleplay)"
     }
   ]

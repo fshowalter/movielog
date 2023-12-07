@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+from copy import deepcopy
 
 from movielog.repository import credit_notes_validator, imdb_http, json_titles
 from movielog.utils import path_tools
@@ -10,13 +11,12 @@ from movielog.utils.logging import logger
 def update_json_title(json_title: json_titles.JsonTitle) -> None:
     imdb_title_page = imdb_http.get_title_page(json_title["imdbId"])
 
-    json_title["countries"] = list(imdb_title_page.countries)
-    json_title["genres"] = list(imdb_title_page.genres)
+    json_title["countries"] = imdb_title_page.countries
+    json_title["genres"] = imdb_title_page.genres
     json_title["directors"] = [
         json_titles.JsonDirector(
             imdbId=director.imdb_id,
             name=director.name,
-            sequence=director.sequence,
         )
         for director in imdb_title_page.credits["director"]
         if credit_notes_validator.credit_notes_are_valid_for_kind(
@@ -28,7 +28,6 @@ def update_json_title(json_title: json_titles.JsonTitle) -> None:
         json_titles.JsonPerformer(
             imdbId=performer.imdb_id,
             name=performer.name,
-            sequence=performer.sequence,
             roles=performer.roles,
         )
         for performer in imdb_title_page.credits["performer"]
@@ -40,7 +39,6 @@ def update_json_title(json_title: json_titles.JsonTitle) -> None:
         json_titles.JsonWriter(
             imdbId=writer.imdb_id,
             name=writer.name,
-            sequence=writer.sequence,
             notes=writer.notes,
         )
         for writer in imdb_title_page.credits["writer"]
@@ -80,11 +78,21 @@ def update_title_data() -> None:  # noqa: WPS210, WPS231
                 )
                 continue
 
+            logger.log(
+                "{}/{} Begin processing {}...",
+                index + 1,
+                total_count,
+                json_title["slug"],
+            )
+
+            updated_title = deepcopy(json_title)
+
             try:
-                update_json_title(json_title)
+                update_json_title(updated_title)
             except imdb_http.IMDbDataAccessError:
                 return
-            json_titles.serialize(json_title)
+            if updated_title != json_title:
+                json_titles.serialize(updated_title)
             progress_file.write("{0}\n".format(json_title["slug"]))
 
     os.remove(progress_file_path)

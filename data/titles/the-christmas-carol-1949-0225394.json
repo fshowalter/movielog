@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0682734",
-      "name": "Arthur Pierson",
-      "sequence": 0
+      "name": "Arthur Pierson"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001637",
       "name": "Vincent Price",
-      "sequence": 0,
       "roles": [
         "Narrator"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0392067",
       "name": "Taylor Holmes",
-      "sequence": 1,
       "roles": [
         "Ebeneezer Scrooge"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0926691",
       "name": "Patrick Whyte",
-      "sequence": 2,
       "roles": [
         "Bob Cratchit"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0164967",
       "name": "Robert Clarke",
-      "sequence": 3,
       "roles": [
         "Fred"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0497202",
       "name": "Earl Lee",
-      "sequence": 4,
       "roles": [
         "Ghost of Marley"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0500273",
       "name": "Nelson Leigh",
-      "sequence": 5,
       "roles": [
         "Ghost of Christmas Past"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm1200389",
       "name": "Joe Battista",
-      "sequence": 6,
       "roles": [
         "Boy Scrooge"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm1198595",
       "name": "George James",
-      "sequence": 7,
       "roles": [
         "Ghost of Christmas Present"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0502745",
       "name": "Queenie Leonard",
-      "sequence": 8,
       "roles": [
         "Mrs. Cratchit"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0589009",
       "name": "Mike Miller",
-      "sequence": 9,
       "roles": [
         "Peter Cratchit"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0450434",
       "name": "Karen Kester",
-      "sequence": 10,
       "roles": [
         "Belinda Cratchit"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0001762",
       "name": "Jill St. John",
-      "sequence": 11,
       "roles": [
         "Missie Cratchit"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0404903",
       "name": "Robert Hyatt",
-      "sequence": 12,
       "roles": [
         "Tiny Tim"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0147075",
       "name": "Constance Cavendish",
-      "sequence": 13,
       "roles": [
         "Martha"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0626555",
       "name": "Jack Nestle",
-      "sequence": 14,
       "roles": [
         "Ghost of Christmas Yet to Come"
       ]
@@ -147,7 +131,6 @@
     {
       "imdbId": "nm0561537",
       "name": "Paul Maxey",
-      "sequence": 15,
       "roles": [
         "Fat Gentleman"
       ]
@@ -155,7 +138,6 @@
     {
       "imdbId": "nm0136988",
       "name": "Leonard Carey",
-      "sequence": 16,
       "roles": [
         "Thin Gentleman"
       ]
@@ -163,7 +145,6 @@
     {
       "imdbId": "nm0397117",
       "name": "Ann Howard",
-      "sequence": 17,
       "roles": [
         "Caroline"
       ]
@@ -173,13 +154,11 @@
     {
       "imdbId": "nm0002042",
       "name": "Charles Dickens",
-      "sequence": 0,
       "notes": "(short story \"A Christmas Carol\")"
     },
     {
       "imdbId": "nm0682734",
       "name": "Arthur Pierson",
-      "sequence": 2,
       "notes": "(adaptation)"
     }
   ]

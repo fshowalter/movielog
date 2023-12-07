@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0000233",
-      "name": "Quentin Tarantino",
-      "sequence": 0
+      "name": "Quentin Tarantino"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000172",
       "name": "Harvey Keitel",
-      "sequence": 0,
       "roles": [
         "Mr. White",
         "Larry"
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0000619",
       "name": "Tim Roth",
-      "sequence": 1,
       "roles": [
         "Mr. Orange",
         "Freddy"
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0000514",
       "name": "Michael Madsen",
-      "sequence": 2,
       "roles": [
         "Mr. Blonde",
         "Vic"
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0001606",
       "name": "Chris Penn",
-      "sequence": 3,
       "roles": [
         "Nice Guy Eddie"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0000114",
       "name": "Steve Buscemi",
-      "sequence": 4,
       "roles": [
         "Mr. Pink"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0862937",
       "name": "Lawrence Tierney",
-      "sequence": 5,
       "roles": [
         "Joe Cabot"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0112207",
       "name": "Randy Brooks",
-      "sequence": 6,
       "roles": [
         "Holdaway"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0051257",
       "name": "Kirk Baltz",
-      "sequence": 7,
       "roles": [
         "Marvin Nash"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0120483",
       "name": "Edward Bunker",
-      "sequence": 8,
       "roles": [
         "Mr. Blue"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0000233",
       "name": "Quentin Tarantino",
-      "sequence": 9,
       "roles": [
         "Mr. Brown"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0877822",
       "name": "Rich Turner",
-      "sequence": 10,
       "roles": [
         "Sheriff #1"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0824741",
       "name": "David Steen",
-      "sequence": 11,
       "roles": [
         "Sheriff #2"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0181922",
       "name": "Tony Cosmo",
-      "sequence": 12,
       "roles": [
         "Sheriff #3"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0689957",
       "name": "Stevo Polyi",
-      "sequence": 13,
       "roles": [
         "Sheriff #4"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0815649",
       "name": "Michael Sottile",
-      "sequence": 14,
       "roles": [
         "Teddy"
       ]
@@ -147,7 +131,6 @@
     {
       "imdbId": "nm0751902",
       "name": "Robert Ruth",
-      "sequence": 15,
       "roles": [
         "Shot Cop"
       ]
@@ -155,7 +138,6 @@
     {
       "imdbId": "nm0004744",
       "name": "Lawrence Bender",
-      "sequence": 16,
       "roles": [
         "Young Cop",
         "Background Radio Play"
@@ -164,7 +146,6 @@
     {
       "imdbId": "nm0443344",
       "name": "Linda Kaye",
-      "sequence": 17,
       "roles": [
         "Shocked Woman"
       ]
@@ -172,7 +153,6 @@
     {
       "imdbId": "nm0148019",
       "name": "Suzanne Celeste",
-      "sequence": 18,
       "roles": [
         "Shot Woman"
       ]
@@ -182,19 +162,16 @@
     {
       "imdbId": "nm0000233",
       "name": "Quentin Tarantino",
-      "sequence": 0,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0000233",
       "name": "Quentin Tarantino",
-      "sequence": 2,
       "notes": "(background radio dialogue written by)"
     },
     {
       "imdbId": "nm0000812",
       "name": "Roger Avary",
-      "sequence": 3,
       "notes": "(background radio dialogue written by)"
     }
   ],

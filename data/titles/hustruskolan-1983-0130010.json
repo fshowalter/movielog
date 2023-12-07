@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000005",
-      "name": "Ingmar Bergman",
-      "sequence": 0
+      "name": "Ingmar Bergman"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0249735",
       "name": "Allan Edwall",
-      "sequence": 0,
       "roles": [
         "Arnolphe"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0638784",
       "name": "Lena Nyman",
-      "sequence": 1,
       "roles": [
         "Agnes"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0348965",
       "name": "Bj\u00f6rn Gustafson",
-      "sequence": 2,
       "roles": [
         "Alain"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0803603",
       "name": "Ulla Sj\u00f6blom",
-      "sequence": 3,
       "roles": [
         "Georgette"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0001745",
       "name": "Stellan Skarsg\u00e5rd",
-      "sequence": 4,
       "roles": [
         "Horace"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0702554",
       "name": "Lasse P\u00f6ysti",
-      "sequence": 5,
       "roles": [
         "Chrysalde"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0383914",
       "name": "Olle Hilding",
-      "sequence": 6,
       "roles": [
         "Oronte"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0515554",
       "name": "Oscar Ljung",
-      "sequence": 7,
       "roles": [
         "Enrique"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0252434",
       "name": "Nils Eklund",
-      "sequence": 8,
       "roles": [
         "The Attorney"
       ]
@@ -100,13 +90,11 @@
     {
       "imdbId": "nm0286905",
       "name": "Lars Forssell",
-      "sequence": 0,
       "notes": "(translation)"
     },
     {
       "imdbId": "nm0596942",
       "name": "Moli\u00e8re",
-      "sequence": 2,
       "notes": "(play \"L'\u00e9cole des femmes\")"
     }
   ]

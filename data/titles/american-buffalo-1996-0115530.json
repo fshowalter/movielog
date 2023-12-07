@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0180912",
-      "name": "Michael Corrente",
-      "sequence": 0
+      "name": "Michael Corrente"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000163",
       "name": "Dustin Hoffman",
-      "sequence": 0,
       "roles": [
         "Teach"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0001240",
       "name": "Dennis Franz",
-      "sequence": 1,
       "roles": [
         "Don"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0625735",
       "name": "Sean Nelson",
-      "sequence": 2,
       "roles": [
         "Bob"
       ]
@@ -50,13 +46,11 @@
     {
       "imdbId": "nm0000519",
       "name": "David Mamet",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0000519",
       "name": "David Mamet",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

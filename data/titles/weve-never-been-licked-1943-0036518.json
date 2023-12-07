@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0712639",
-      "name": "John Rawlins",
-      "sequence": 0
+      "name": "John Rawlins"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0703689",
       "name": "Richard Quine",
-      "sequence": 0,
       "roles": [
         "Brad Craig"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0350374",
       "name": "Anne Gwynne",
-      "sequence": 1,
       "roles": [
         "Nina Lambert"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0640930",
       "name": "Martha O'Driscoll",
-      "sequence": 2,
       "roles": [
         "Deede Dunham"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000890",
       "name": "Noah Beery Jr.",
-      "sequence": 3,
       "roles": [
         "Cyanide Jenkins"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0292433",
       "name": "William Frawley",
-      "sequence": 4,
       "roles": [
         "Traveling Salesman"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0088162",
       "name": "William Blees",
-      "sequence": 5,
       "roles": [
         "Student"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0003193",
       "name": "Harry Davenport",
-      "sequence": 6,
       "roles": [
         "Pop Lambert"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0057422",
       "name": "Edgar Barrier",
-      "sequence": 7,
       "roles": [
         "Nishikawa"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0385594",
       "name": "Samuel S. Hinds",
-      "sequence": 8,
       "roles": [
         "Colonel Jason Craig"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0603646",
       "name": "Mantan Moreland",
-      "sequence": 9,
       "roles": [
         "Willie"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0647752",
       "name": "Moroni Olsen",
-      "sequence": 10,
       "roles": [
         "Commandant"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0331750",
       "name": "Roland Got",
-      "sequence": 11,
       "roles": [
         "Matsui"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0432507",
       "name": "Allen Jung",
-      "sequence": 12,
       "roles": [
         "Kubo"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0000053",
       "name": "Robert Mitchum",
-      "sequence": 13,
       "roles": [
         "Panhandle Mitchell"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm0220784",
       "name": "Alfredo DeSa",
-      "sequence": 14,
       "roles": [
         "Fortuno Tavares"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0827647",
       "name": "Bill Stern",
-      "sequence": 15,
       "roles": [
         "Announcement"
       ]
@@ -154,7 +137,6 @@
     {
       "imdbId": "nm0701216",
       "name": "George Putnam",
-      "sequence": 16,
       "roles": [
         "Army Hour Announcer"
       ]
@@ -164,19 +146,16 @@
     {
       "imdbId": "nm0706993",
       "name": "Norman Reilly Raine",
-      "sequence": 0,
       "notes": "(story \"The Fighting Sons of Texas A. & M.\")"
     },
     {
       "imdbId": "nm0342417",
       "name": "Nick Grinde",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0706993",
       "name": "Norman Reilly Raine",
-      "sequence": 4,
       "notes": "(screenplay)"
     }
   ],

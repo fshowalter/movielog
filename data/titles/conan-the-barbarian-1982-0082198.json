@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0587518",
-      "name": "John Milius",
-      "sequence": 0
+      "name": "John Milius"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000216",
       "name": "Arnold Schwarzenegger",
-      "sequence": 0,
       "roles": [
         "Conan"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000469",
       "name": "James Earl Jones",
-      "sequence": 1,
       "roles": [
         "Thulsa Doom"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0001884",
       "name": "Max von Sydow",
-      "sequence": 2,
       "roles": [
         "King Osric"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0000922",
       "name": "Sandahl Bergman",
-      "sequence": 3,
       "roles": [
         "Valeria"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0203234",
       "name": "Ben Davidson",
-      "sequence": 4,
       "roles": [
         "Rexor"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0310430",
       "name": "Cassandra Gava",
-      "sequence": 5,
       "roles": [
         "The Witch"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0520068",
       "name": "Gerry Lopez",
-      "sequence": 6,
       "roles": [
         "Subotai"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0538683",
       "name": "Mako",
-      "sequence": 7,
       "roles": [
         "The Wizard",
         "Narrator"
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0703211",
       "name": "Val\u00e9rie Quennessen",
-      "sequence": 8,
       "roles": [
         "The Princess"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0810342",
       "name": "William Smith",
-      "sequence": 9,
       "roles": [
         "Conan's Father"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0053719",
       "name": "Luis Barboo",
-      "sequence": 10,
       "roles": [
         "Red Hair"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0173372",
       "name": "Franco Columbu",
-      "sequence": 11,
       "roles": [
         "Pictish Scout"
       ]
@@ -123,7 +110,6 @@
     {
       "imdbId": "nm0284084",
       "name": "Leslie Foldvary",
-      "sequence": 12,
       "roles": [
         "Sacrificial Snake Girl"
       ]
@@ -131,7 +117,6 @@
     {
       "imdbId": "nm0379131",
       "name": "Gary Herman",
-      "sequence": 13,
       "roles": [
         "Osric's Guard"
       ]
@@ -139,7 +124,6 @@
     {
       "imdbId": "nm0392103",
       "name": "Erik Holmey",
-      "sequence": 14,
       "roles": [
         "Turanian War Officer"
       ]
@@ -147,7 +131,6 @@
     {
       "imdbId": "nm0593052",
       "name": "Akio Mitamura",
-      "sequence": 15,
       "roles": [
         "Mongol General"
       ]
@@ -155,7 +138,6 @@
     {
       "imdbId": "nm0618920",
       "name": "Nadiuska",
-      "sequence": 16,
       "roles": [
         "Conan's Mother"
       ]
@@ -163,7 +145,6 @@
     {
       "imdbId": "nm0764450",
       "name": "Jorge Sanz",
-      "sequence": 17,
       "roles": [
         "Young Conan"
       ]
@@ -171,7 +152,6 @@
     {
       "imdbId": "nm0852488",
       "name": "Jack Taylor",
-      "sequence": 18,
       "roles": [
         "Priest"
       ]
@@ -179,7 +159,6 @@
     {
       "imdbId": "nm0861752",
       "name": "Sven-Ole Thorsen",
-      "sequence": 19,
       "roles": [
         "Thorgrim"
       ]
@@ -187,7 +166,6 @@
     {
       "imdbId": "nm0945586",
       "name": "Kiyoshi Yamazaki",
-      "sequence": 20,
       "roles": [
         "Sword Master"
       ]
@@ -197,13 +175,11 @@
     {
       "imdbId": "nm0587518",
       "name": "John Milius",
-      "sequence": 2,
       "notes": "(written by)"
     },
     {
       "imdbId": "nm0000231",
       "name": "Oliver Stone",
-      "sequence": 3,
       "notes": "(written by)"
     }
   ],

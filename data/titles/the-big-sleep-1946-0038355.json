@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks",
-      "sequence": 0
+      "name": "Howard Hawks"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
-      "sequence": 0,
       "roles": [
         "Philip Marlowe"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000002",
       "name": "Lauren Bacall",
-      "sequence": 1,
       "roles": [
         "Vivian Rutledge"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0725891",
       "name": "John Ridgely",
-      "sequence": 2,
       "roles": [
         "Eddie Mars"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0896015",
       "name": "Martha Vickers",
-      "sequence": 3,
       "roles": [
         "Carmen Sternwood"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0540416",
       "name": "Dorothy Malone",
-      "sequence": 4,
       "roles": [
         "Acme Book Shop Proprietress"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0461739",
       "name": "Peggy Knudsen",
-      "sequence": 5,
       "roles": [
         "Mona Mars"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0867538",
       "name": "Regis Toomey",
-      "sequence": 6,
       "roles": [
         "Chief Inspector Bernie Ohls"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0907289",
       "name": "Charles Waldron",
-      "sequence": 7,
       "roles": [
         "General Sternwood"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0113184",
       "name": "Charles D. Brown",
-      "sequence": 8,
       "roles": [
         "Norris"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0824496",
       "name": "Bob Steele",
-      "sequence": 9,
       "roles": [
         "Lash Canino"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0176879",
       "name": "Elisha Cook Jr.",
-      "sequence": 10,
       "roles": [
         "Harry Jones"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0382195",
       "name": "Louis Jean Heydt",
-      "sequence": 11,
       "roles": [
         "Joe Brody"
       ]
@@ -124,25 +111,21 @@
     {
       "imdbId": "nm0001203",
       "name": "William Faulkner",
-      "sequence": 0,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0102824",
       "name": "Leigh Brackett",
-      "sequence": 1,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0299154",
       "name": "Jules Furthman",
-      "sequence": 2,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm0151452",
       "name": "Raymond Chandler",
-      "sequence": 4,
       "notes": "(novel)"
     }
   ],

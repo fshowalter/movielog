@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0909825",
-      "name": "Raoul Walsh",
-      "sequence": 0
+      "name": "Raoul Walsh"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0872456",
       "name": "Claire Trevor",
-      "sequence": 0,
       "roles": [
         "Mary McCloud"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000078",
       "name": "John Wayne",
-      "sequence": 1,
       "roles": [
         "Bob Seton"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0682074",
       "name": "Walter Pidgeon",
-      "sequence": 2,
       "roles": [
         "William 'Will' Cantrell"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0001678",
       "name": "Roy Rogers",
-      "sequence": 3,
       "roles": [
         "Fletch McCloud"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0371025",
       "name": "George 'Gabby' Hayes",
-      "sequence": 4,
       "roles": [
         "Doc Grunch"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0356004",
       "name": "Porter Hall",
-      "sequence": 5,
       "roles": [
         "Angus McCloud"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0537685",
       "name": "Marjorie Main",
-      "sequence": 6,
       "roles": [
         "Mrs. Cantrell",
         "Mrs. Adams"
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0906940",
       "name": "Raymond Walburn",
-      "sequence": 7,
       "roles": [
         "Judge Buckner"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0768178",
       "name": "Joe Sawyer",
-      "sequence": 8,
       "roles": [
         "Bushropp"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0533235",
       "name": "Helen MacKellar",
-      "sequence": 9,
       "roles": [
         "Mrs. Hale"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0531759",
       "name": "J. Farrell MacDonald",
-      "sequence": 10,
       "roles": [
         "Dave"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0054253",
       "name": "Trevor Bardette",
-      "sequence": 11,
       "roles": [
         "Mr. Hale"
       ]
@@ -125,31 +112,26 @@
     {
       "imdbId": "nm0428177",
       "name": "Grover Jones",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0396754",
       "name": "Lionel Houser",
-      "sequence": 1,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0378540",
       "name": "F. Hugh Herbert",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0122446",
       "name": "W.R. Burnett",
-      "sequence": 4,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0287430",
       "name": "Jan Fortune",
-      "sequence": 6,
       "notes": "(adaptation)"
     }
   ],

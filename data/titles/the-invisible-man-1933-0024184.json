@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0001843",
-      "name": "James Whale",
-      "sequence": 0
+      "name": "James Whale"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001647",
       "name": "Claude Rains",
-      "sequence": 0,
       "roles": [
         "Dr. Jack Griffin"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm0001784",
       "name": "Gloria Stuart",
-      "sequence": 1,
       "roles": [
         "Flora Cranley"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0364203",
       "name": "William Harrigan",
-      "sequence": 2,
       "roles": [
         "Dr. Arthur Kemp"
       ]
@@ -51,7 +47,6 @@
     {
       "imdbId": "nm0871287",
       "name": "Henry Travers",
-      "sequence": 3,
       "roles": [
         "Dr. Cranley"
       ]
@@ -59,7 +54,6 @@
     {
       "imdbId": "nm0640547",
       "name": "Una O'Connor",
-      "sequence": 4,
       "roles": [
         "Jenny Hall"
       ]
@@ -67,7 +61,6 @@
     {
       "imdbId": "nm0367516",
       "name": "Forrester Harvey",
-      "sequence": 5,
       "roles": [
         "Herbert Hall"
       ]
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0378555",
       "name": "Holmes Herbert",
-      "sequence": 6,
       "roles": [
         "Chief of Police"
       ]
@@ -83,7 +75,6 @@
     {
       "imdbId": "nm0166974",
       "name": "E.E. Clive",
-      "sequence": 7,
       "roles": [
         "Constable Jaffers"
       ]
@@ -91,7 +82,6 @@
     {
       "imdbId": "nm0226502",
       "name": "Dudley Digges",
-      "sequence": 8,
       "roles": [
         "Chief Detective"
       ]
@@ -99,7 +89,6 @@
     {
       "imdbId": "nm0835913",
       "name": "Harry Stubbs",
-      "sequence": 9,
       "roles": [
         "Inspector Bird"
       ]
@@ -107,7 +96,6 @@
     {
       "imdbId": "nm0835681",
       "name": "Donald Stuart",
-      "sequence": 10,
       "roles": [
         "Inspector Lane"
       ]
@@ -115,7 +103,6 @@
     {
       "imdbId": "nm0869428",
       "name": "Merle Tottenham",
-      "sequence": 11,
       "roles": [
         "Millie"
       ]
@@ -125,13 +112,11 @@
     {
       "imdbId": "nm0920229",
       "name": "H.G. Wells",
-      "sequence": 0,
       "notes": "(novel)"
     },
     {
       "imdbId": "nm0792670",
       "name": "R.C. Sherriff",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ]

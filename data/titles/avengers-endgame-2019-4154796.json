@@ -18,20 +18,17 @@
   "directors": [
     {
       "imdbId": "nm0751577",
-      "name": "Anthony Russo",
-      "sequence": 0
+      "name": "Anthony Russo"
     },
     {
       "imdbId": "nm0751648",
-      "name": "Joe Russo",
-      "sequence": 1
+      "name": "Joe Russo"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000375",
       "name": "Robert Downey Jr.",
-      "sequence": 0,
       "roles": [
         "Tony Stark",
         "Iron Man"
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0262635",
       "name": "Chris Evans",
-      "sequence": 1,
       "roles": [
         "Steve Rogers",
         "Captain America"
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0749263",
       "name": "Mark Ruffalo",
-      "sequence": 2,
       "roles": [
         "Bruce Banner",
         "Hulk"
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm1165110",
       "name": "Chris Hemsworth",
-      "sequence": 3,
       "roles": [
         "Thor"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0424060",
       "name": "Scarlett Johansson",
-      "sequence": 4,
       "roles": [
         "Natasha Romanoff",
         "Black Widow"
@@ -75,7 +68,6 @@
     {
       "imdbId": "nm0719637",
       "name": "Jeremy Renner",
-      "sequence": 5,
       "roles": [
         "Clint Barton",
         "Hawkeye"
@@ -84,7 +76,6 @@
     {
       "imdbId": "nm0000332",
       "name": "Don Cheadle",
-      "sequence": 6,
       "roles": [
         "James Rhodes",
         "War Machine"
@@ -93,7 +84,6 @@
     {
       "imdbId": "nm0748620",
       "name": "Paul Rudd",
-      "sequence": 7,
       "roles": [
         "Scott Lang",
         "Ant-Man"
@@ -102,7 +92,6 @@
     {
       "imdbId": "nm1212722",
       "name": "Benedict Cumberbatch",
-      "sequence": 8,
       "roles": [
         "Doctor Strange"
       ]
@@ -110,7 +99,6 @@
     {
       "imdbId": "nm1569276",
       "name": "Chadwick Boseman",
-      "sequence": 9,
       "roles": [
         "T'Challa",
         "Black Panther"
@@ -119,7 +107,6 @@
     {
       "imdbId": "nm0488953",
       "name": "Brie Larson",
-      "sequence": 10,
       "roles": [
         "Carol Danvers",
         "Captain Marvel"
@@ -128,7 +115,6 @@
     {
       "imdbId": "nm4043618",
       "name": "Tom Holland",
-      "sequence": 11,
       "roles": [
         "Peter Parker",
         "Spider-Man"
@@ -137,7 +123,6 @@
     {
       "imdbId": "nm2394794",
       "name": "Karen Gillan",
-      "sequence": 12,
       "roles": [
         "Nebula"
       ]
@@ -145,7 +130,6 @@
     {
       "imdbId": "nm0757855",
       "name": "Zoe Saldana",
-      "sequence": 13,
       "roles": [
         "Gamora"
       ]
@@ -153,7 +137,6 @@
     {
       "imdbId": "nm1431940",
       "name": "Evangeline Lilly",
-      "sequence": 14,
       "roles": [
         "Hope Van Dyne",
         "Wasp"
@@ -162,7 +145,6 @@
     {
       "imdbId": "nm1935086",
       "name": "Tessa Thompson",
-      "sequence": 15,
       "roles": [
         "Valkyrie"
       ]
@@ -170,7 +152,6 @@
     {
       "imdbId": "nm0000623",
       "name": "Rene Russo",
-      "sequence": 16,
       "roles": [
         "Frigga"
       ]
@@ -178,7 +159,6 @@
     {
       "imdbId": "nm0647634",
       "name": "Elizabeth Olsen",
-      "sequence": 17,
       "roles": [
         "Wanda Maximoff",
         "Scarlet Witch"
@@ -187,7 +167,6 @@
     {
       "imdbId": "nm1107001",
       "name": "Anthony Mackie",
-      "sequence": 18,
       "roles": [
         "Sam Wilson",
         "Falcon"
@@ -196,7 +175,6 @@
     {
       "imdbId": "nm1659221",
       "name": "Sebastian Stan",
-      "sequence": 19,
       "roles": [
         "Bucky Barnes",
         "Winter Soldier"
@@ -205,7 +183,6 @@
     {
       "imdbId": "nm1089991",
       "name": "Tom Hiddleston",
-      "sequence": 20,
       "roles": [
         "Loki"
       ]
@@ -213,7 +190,6 @@
     {
       "imdbId": "nm1775091",
       "name": "Danai Gurira",
-      "sequence": 21,
       "roles": [
         "Okoye"
       ]
@@ -221,7 +197,6 @@
     {
       "imdbId": "nm0938950",
       "name": "Benedict Wong",
-      "sequence": 22,
       "roles": [
         "Wong"
       ]
@@ -229,7 +204,6 @@
     {
       "imdbId": "nm2962353",
       "name": "Pom Klementieff",
-      "sequence": 23,
       "roles": [
         "Mantis"
       ]
@@ -237,7 +211,6 @@
     {
       "imdbId": "nm1176985",
       "name": "Dave Bautista",
-      "sequence": 24,
       "roles": [
         "Drax"
       ]
@@ -245,7 +218,6 @@
     {
       "imdbId": "nm4004793",
       "name": "Letitia Wright",
-      "sequence": 25,
       "roles": [
         "Shuri"
       ]
@@ -253,7 +225,6 @@
     {
       "imdbId": "nm0805476",
       "name": "John Slattery",
-      "sequence": 26,
       "roles": [
         "Howard Stark"
       ]
@@ -261,7 +232,6 @@
     {
       "imdbId": "nm0842770",
       "name": "Tilda Swinton",
-      "sequence": 27,
       "roles": [
         "The Ancient One"
       ]
@@ -269,7 +239,6 @@
     {
       "imdbId": "nm0269463",
       "name": "Jon Favreau",
-      "sequence": 28,
       "roles": [
         "Happy Hogan"
       ]
@@ -277,7 +246,6 @@
     {
       "imdbId": "nm2017943",
       "name": "Hayley Atwell",
-      "sequence": 29,
       "roles": [
         "Peggy Carter"
       ]
@@ -285,7 +253,6 @@
     {
       "imdbId": "nm0000204",
       "name": "Natalie Portman",
-      "sequence": 30,
       "roles": [
         "Jane Foster"
       ]
@@ -293,7 +260,6 @@
     {
       "imdbId": "nm0000673",
       "name": "Marisa Tomei",
-      "sequence": 31,
       "roles": [
         "Aunt May"
       ]
@@ -301,7 +267,6 @@
     {
       "imdbId": "nm0000291",
       "name": "Angela Bassett",
-      "sequence": 33,
       "roles": [
         "Ramonda"
       ]
@@ -309,7 +274,6 @@
     {
       "imdbId": "nm0000140",
       "name": "Michael Douglas",
-      "sequence": 34,
       "roles": [
         "Hank Pym"
       ]
@@ -317,7 +281,6 @@
     {
       "imdbId": "nm0000201",
       "name": "Michelle Pfeiffer",
-      "sequence": 35,
       "roles": [
         "Janet Van Dyne"
       ]
@@ -325,7 +288,6 @@
     {
       "imdbId": "nm0000458",
       "name": "William Hurt",
-      "sequence": 36,
       "roles": [
         "Secretary of State Thaddeus Ross"
       ]
@@ -333,7 +295,6 @@
     {
       "imdbId": "nm1130627",
       "name": "Cobie Smulders",
-      "sequence": 37,
       "roles": [
         "Maria Hill"
       ]
@@ -341,7 +302,6 @@
     {
       "imdbId": "nm0348231",
       "name": "Sean Gunn",
-      "sequence": 38,
       "roles": [
         "On-Set Rocket",
         "Kraglin"
@@ -350,7 +310,6 @@
     {
       "imdbId": "nm6328300",
       "name": "Winston Duke",
-      "sequence": 39,
       "roles": [
         "M'Baku"
       ]
@@ -358,7 +317,6 @@
     {
       "imdbId": "nm0004802",
       "name": "Linda Cardellini",
-      "sequence": 40,
       "roles": [
         "Laura Barton"
       ]
@@ -366,7 +324,6 @@
     {
       "imdbId": "nm0380073",
       "name": "Maximiliano Hern\u00e1ndez",
-      "sequence": 41,
       "roles": [
         "Agent Sitwell"
       ]
@@ -374,7 +331,6 @@
     {
       "imdbId": "nm0342029",
       "name": "Frank Grillo",
-      "sequence": 42,
       "roles": [
         "Brock Rumlow"
       ]
@@ -382,7 +338,6 @@
     {
       "imdbId": "nm0760796",
       "name": "Hiroyuki Sanada",
-      "sequence": 43,
       "roles": [
         "Akihiko"
       ]
@@ -390,7 +345,6 @@
     {
       "imdbId": "nm2534167",
       "name": "Tom Vaughan-Lawlor",
-      "sequence": 44,
       "roles": [
         "Ebony Maw"
       ]
@@ -398,7 +352,6 @@
     {
       "imdbId": "nm0195439",
       "name": "James D'Arcy",
-      "sequence": 45,
       "roles": [
         "Jarvis"
       ]
@@ -406,7 +359,6 @@
     {
       "imdbId": "nm8188622",
       "name": "Jacob Batalon",
-      "sequence": 46,
       "roles": [
         "Ned"
       ]
@@ -414,7 +366,6 @@
     {
       "imdbId": "nm0000569",
       "name": "Gwyneth Paltrow",
-      "sequence": 49,
       "roles": [
         "Pepper Potts"
       ]
@@ -422,7 +373,6 @@
     {
       "imdbId": "nm0000602",
       "name": "Robert Redford",
-      "sequence": 50,
       "roles": [
         "Alexander Pierce"
       ]
@@ -430,7 +380,6 @@
     {
       "imdbId": "nm0000982",
       "name": "Josh Brolin",
-      "sequence": 51,
       "roles": [
         "Thanos"
       ]
@@ -438,7 +387,6 @@
     {
       "imdbId": "nm0695435",
       "name": "Chris Pratt",
-      "sequence": 52,
       "roles": [
         "Peter Quill",
         "Star-Lord"
@@ -447,7 +395,6 @@
     {
       "imdbId": "nm0000168",
       "name": "Samuel L. Jackson",
-      "sequence": 53,
       "roles": [
         "Nick Fury"
       ]
@@ -455,7 +402,6 @@
     {
       "imdbId": "nm9962642",
       "name": "Lexi Rabe",
-      "sequence": 54,
       "roles": [
         "Morgan Stark"
       ]
@@ -463,7 +409,6 @@
     {
       "imdbId": "nm2739851",
       "name": "Ross Marquand",
-      "sequence": 55,
       "roles": [
         "Red Skull"
       ]
@@ -471,7 +416,6 @@
     {
       "imdbId": "nm0751648",
       "name": "Joe Russo",
-      "sequence": 56,
       "roles": [
         "Grieving Man"
       ]
@@ -479,7 +423,6 @@
     {
       "imdbId": "nm3409535",
       "name": "Emma Fuhrmann",
-      "sequence": 57,
       "roles": [
         "Cassie Lang"
       ]
@@ -487,7 +430,6 @@
     {
       "imdbId": "nm4473692",
       "name": "Michael James Shaw",
-      "sequence": 58,
       "roles": [
         "Corvus Glaive"
       ]
@@ -495,7 +437,6 @@
     {
       "imdbId": "nm1024953",
       "name": "Terry Notary",
-      "sequence": 59,
       "roles": [
         "On-Set Groot",
         "Cull Obsidian"
@@ -504,7 +445,6 @@
     {
       "imdbId": "nm7337680",
       "name": "Ben Sakamoto",
-      "sequence": 61,
       "roles": [
         "Cooper Barton"
       ]
@@ -512,7 +452,6 @@
     {
       "imdbId": "nm10534954",
       "name": "Ava Russo",
-      "sequence": 62,
       "roles": [
         "Lila Barton"
       ]
@@ -520,7 +459,6 @@
     {
       "imdbId": "nm9330804",
       "name": "Cade Woodward",
-      "sequence": 63,
       "roles": [
         "Nathaniel Barton"
       ]
@@ -528,7 +466,6 @@
     {
       "imdbId": "nm0498278",
       "name": "Stan Lee",
-      "sequence": 64,
       "roles": [
         "Driver"
       ]
@@ -536,7 +473,6 @@
     {
       "imdbId": "nm1304328",
       "name": "Yvette Nicole Brown",
-      "sequence": 65,
       "roles": [
         "S.H.I.E.L.D. Agent"
       ]
@@ -544,7 +480,6 @@
     {
       "imdbId": "nm0612534",
       "name": "Callan Mulvey",
-      "sequence": 66,
       "roles": [
         "Jack Rollins"
       ]
@@ -552,7 +487,6 @@
     {
       "imdbId": "nm8159728",
       "name": "Lia Mariella Russo",
-      "sequence": 67,
       "roles": [
         "Lia"
       ]
@@ -560,7 +494,6 @@
     {
       "imdbId": "nm10645924",
       "name": "Julian Russo",
-      "sequence": 68,
       "roles": [
         "Julian"
       ]
@@ -568,7 +501,6 @@
     {
       "imdbId": "nm0666428",
       "name": "Taylor Patterson",
-      "sequence": 69,
       "roles": [
         "Taylor"
       ]
@@ -576,7 +508,6 @@
     {
       "imdbId": "nm10655586",
       "name": "Augie Rosalina",
-      "sequence": 70,
       "roles": [
         "Augie"
       ]
@@ -584,7 +515,6 @@
     {
       "imdbId": "nm0421822",
       "name": "Ken Jeong",
-      "sequence": 71,
       "roles": [
         "Security Guard"
       ]
@@ -592,7 +522,6 @@
     {
       "imdbId": "nm1339223",
       "name": "Ty Simpkins",
-      "sequence": 72,
       "roles": [
         "Harley Keener"
       ]
@@ -600,7 +529,6 @@
     {
       "imdbId": "nm6676262",
       "name": "Jackson A. Dunn",
-      "sequence": 73,
       "roles": [
         "Scott Lang"
       ]
@@ -608,7 +536,6 @@
     {
       "imdbId": "nm0601495",
       "name": "Lee Moore",
-      "sequence": 74,
       "roles": [
         "Scott Lang"
       ]
@@ -616,7 +543,6 @@
     {
       "imdbId": "nm10652243",
       "name": "Bazlo LeClair",
-      "sequence": 75,
       "roles": [
         "Scott Lang"
       ]
@@ -624,7 +550,6 @@
     {
       "imdbId": "nm10652244",
       "name": "Loen LeClair",
-      "sequence": 76,
       "roles": [
         "Scott Lang"
       ]
@@ -632,7 +557,6 @@
     {
       "imdbId": "nm0077626",
       "name": "Matthew Berry",
-      "sequence": 77,
       "roles": [
         "S.H.I.E.L.D. Agent"
       ]
@@ -640,7 +564,6 @@
     {
       "imdbId": "nm1671533",
       "name": "Joy McAvoy",
-      "sequence": 78,
       "roles": [
         "Asgardian Maiden"
       ]
@@ -648,7 +571,6 @@
     {
       "imdbId": "nm5609051",
       "name": "John Michael Morris",
-      "sequence": 79,
       "roles": [
         "Young Hank Pym"
       ]
@@ -656,7 +578,6 @@
     {
       "imdbId": "nm6355840",
       "name": "Michael A. Cook",
-      "sequence": 80,
       "roles": [
         "Male S.H.I.E.L.D. Agent"
       ]
@@ -664,7 +585,6 @@
     {
       "imdbId": "nm4230395",
       "name": "Brent McGee",
-      "sequence": 81,
       "roles": [
         "Camp Lehigh Guard"
       ]
@@ -672,7 +592,6 @@
     {
       "imdbId": "nm3169259",
       "name": "Brian Schaeffer",
-      "sequence": 82,
       "roles": [
         "Military Police"
       ]
@@ -680,7 +599,6 @@
     {
       "imdbId": "nm10648145",
       "name": "Jamie Wedel",
-      "sequence": 83,
       "roles": [
         "Drill Sergeant"
       ]
@@ -688,7 +606,6 @@
     {
       "imdbId": "nm4193560",
       "name": "Anthony G Breed",
-      "sequence": 84,
       "roles": [
         "Young Stan Lee Double"
       ]
@@ -696,7 +613,6 @@
     {
       "imdbId": "nm10679941",
       "name": "Erica Ribley",
-      "sequence": 85,
       "roles": [
         "Car Girl"
       ]
@@ -704,7 +620,6 @@
     {
       "imdbId": "nm1244650",
       "name": "Monique Ganderton",
-      "sequence": 86,
       "roles": [
         "On-Set Proxima Midnight"
       ]
@@ -712,7 +627,6 @@
     {
       "imdbId": "nm4160687",
       "name": "Jim Starlin",
-      "sequence": 87,
       "roles": [
         "Support Group Man #1"
       ]
@@ -720,7 +634,6 @@
     {
       "imdbId": "nm0681790",
       "name": "Jimmy Ray Pickens",
-      "sequence": 88,
       "roles": [
         "Support Group Man #2"
       ]
@@ -728,7 +641,6 @@
     {
       "imdbId": "nm5687987",
       "name": "Hye Jin Jang",
-      "sequence": 89,
       "roles": [
         "Japanese Girl"
       ]
@@ -736,7 +648,6 @@
     {
       "imdbId": "nm0090309",
       "name": "Russell Bobbitt",
-      "sequence": 90,
       "roles": [
         "Diner Owner"
       ]
@@ -744,7 +655,6 @@
     {
       "imdbId": "nm0510894",
       "name": "James Lin",
-      "sequence": 91,
       "roles": [
         "Diner Cook"
       ]
@@ -752,7 +662,6 @@
     {
       "imdbId": "nm5607823",
       "name": "Jack Champion",
-      "sequence": 92,
       "roles": [
         "Kid on Bike"
       ]
@@ -760,7 +669,6 @@
     {
       "imdbId": "nm1092087",
       "name": "Sam Hargrave",
-      "sequence": 93,
       "roles": [
         "New Asgard Truck Driver"
       ]
@@ -768,7 +676,6 @@
     {
       "imdbId": "nm0331112",
       "name": "Patrick Gorman",
-      "sequence": 94,
       "roles": [
         "Old Steve Rogers Double"
       ]
@@ -776,7 +683,6 @@
     {
       "imdbId": "nm1594381",
       "name": "Aaron Lazar",
-      "sequence": 95,
       "roles": [
         "Doctor Strange Double"
       ]
@@ -784,7 +690,6 @@
     {
       "imdbId": "nm1128418",
       "name": "Robert Pralgo",
-      "sequence": 96,
       "roles": [
         "Thanos Reader"
       ]
@@ -792,7 +697,6 @@
     {
       "imdbId": "nm0936300",
       "name": "Tom Wisdom",
-      "sequence": 97,
       "roles": [
         "Loki Reader"
       ]
@@ -800,7 +704,6 @@
     {
       "imdbId": "nm0692663",
       "name": "John Posey",
-      "sequence": 98,
       "roles": [
         "Alexander Pierce Reader"
       ]
@@ -808,7 +711,6 @@
     {
       "imdbId": "nm0438188",
       "name": "Ameenah Kaplan",
-      "sequence": 99,
       "roles": [
         "Gamora Reader"
       ]
@@ -816,7 +718,6 @@
     {
       "imdbId": "nm8637369",
       "name": "Olaniyan Thurmon",
-      "sequence": 100,
       "roles": [
         "Teenage Groot Reader"
       ]
@@ -824,7 +725,6 @@
     {
       "imdbId": "nm7123921",
       "name": "Jennifer Elmore",
-      "sequence": 101,
       "roles": [
         "On Set Reader #1"
       ]
@@ -832,7 +732,6 @@
     {
       "imdbId": "nm0527596",
       "name": "Mike Lutz",
-      "sequence": 102,
       "roles": [
         "On Set Reader #2"
       ]
@@ -840,7 +739,6 @@
     {
       "imdbId": "nm8811874",
       "name": "Miles Webb",
-      "sequence": 161,
       "roles": [
         "1970's Scientist",
         "Lab Worker"
@@ -851,13 +749,11 @@
     {
       "imdbId": "nm1321655",
       "name": "Christopher Markus",
-      "sequence": 0,
       "notes": "(screenplay by)"
     },
     {
       "imdbId": "nm1321656",
       "name": "Stephen McFeely",
-      "sequence": 1,
       "notes": "(screenplay by)"
     }
   ],

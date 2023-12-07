@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0021975",
-      "name": "Paul Almond",
-      "sequence": 0
+      "name": "Paul Almond"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000125",
       "name": "Sean Connery",
-      "sequence": 0,
       "roles": [
         "Macbeth"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0129807",
       "name": "Zoe Caldwell",
-      "sequence": 1,
       "roles": [
         "Lady Macbeth"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0624142",
       "name": "William Needles",
-      "sequence": 2,
       "roles": [
         "Banquo"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0284365",
       "name": "Ted Follows",
-      "sequence": 3,
       "roles": [
         "MacDuff"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0303981",
       "name": "Robin Gammell",
-      "sequence": 4,
       "roles": [
         "Malcolm"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0009943",
       "name": "Sharon Acker",
-      "sequence": 5,
       "roles": [
         "Lady MacDuff"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0067049",
       "name": "Bernard Behrens",
-      "sequence": 6,
       "roles": [
         "Lennox"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0068930",
       "name": "Ray Bellew",
-      "sequence": 7,
       "roles": [
         "Donalbain"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm5258812",
       "name": "Natalia Butko",
-      "sequence": 8,
       "roles": [
         "Second Witch"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0160452",
       "name": "Eric Christmas",
-      "sequence": 9,
       "roles": [
         "Porter"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0199325",
       "name": "Lawrence Dane",
-      "sequence": 10,
       "roles": [
         "Seyton"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0272115",
       "name": "Gillie Fenwick",
-      "sequence": 11,
       "roles": [
         "Angus"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0353246",
       "name": "Rex Hagon",
-      "sequence": 12,
       "roles": [
         "Fleance"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm1974109",
       "name": "Max Helpmann",
-      "sequence": 13,
       "roles": [
         "Ross"
       ]
@@ -138,7 +123,6 @@
     {
       "imdbId": "nm5258810",
       "name": "Jacqueline Ivings",
-      "sequence": 14,
       "roles": [
         "Third Witch"
       ]
@@ -146,7 +130,6 @@
     {
       "imdbId": "nm0560321",
       "name": "Hedley Mattingly",
-      "sequence": 15,
       "roles": [
         "Doctor"
       ]
@@ -154,7 +137,6 @@
     {
       "imdbId": "nm0593799",
       "name": "Victoria Mitchell",
-      "sequence": 16,
       "roles": [
         "First Witch",
         "Gentlewoman"
@@ -163,7 +145,6 @@
     {
       "imdbId": "nm0624113",
       "name": "Peter Needham",
-      "sequence": 17,
       "roles": [
         "First Murderer"
       ]
@@ -171,7 +152,6 @@
     {
       "imdbId": "nm0788297",
       "name": "Jay Shannon",
-      "sequence": 18,
       "roles": [
         "Second Murderer"
       ]
@@ -179,7 +159,6 @@
     {
       "imdbId": "nm0859374",
       "name": "Powys Thomas",
-      "sequence": 19,
       "roles": [
         "Duncan"
       ]
@@ -187,7 +166,6 @@
     {
       "imdbId": "nm0876443",
       "name": "Peter Tully",
-      "sequence": 20,
       "roles": [
         "MacDuff's Son"
       ]
@@ -197,13 +175,11 @@
     {
       "imdbId": "nm0000636",
       "name": "William Shakespeare",
-      "sequence": 0,
       "notes": "(play \"The Tragedy of Macbeth\")"
     },
     {
       "imdbId": "nm0021975",
       "name": "Paul Almond",
-      "sequence": 2,
       "notes": "(adaptation)"
     }
   ]

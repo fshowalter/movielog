@@ -16,15 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0001486",
-      "name": "Sidney Lumet",
-      "sequence": 0
+      "name": "Sidney Lumet"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000842",
       "name": "Martin Balsam",
-      "sequence": 0,
       "roles": [
         "Juror 1"
       ]
@@ -32,7 +30,6 @@
     {
       "imdbId": "nm0275835",
       "name": "John Fiedler",
-      "sequence": 1,
       "roles": [
         "Juror 2"
       ]
@@ -40,7 +37,6 @@
     {
       "imdbId": "nm0002011",
       "name": "Lee J. Cobb",
-      "sequence": 2,
       "roles": [
         "Juror 3"
       ]
@@ -48,7 +44,6 @@
     {
       "imdbId": "nm0550855",
       "name": "E.G. Marshall",
-      "sequence": 3,
       "roles": [
         "Juror 4"
       ]
@@ -56,7 +51,6 @@
     {
       "imdbId": "nm0001430",
       "name": "Jack Klugman",
-      "sequence": 4,
       "roles": [
         "Juror 5"
       ]
@@ -64,7 +58,6 @@
     {
       "imdbId": "nm0083081",
       "name": "Edward Binns",
-      "sequence": 5,
       "roles": [
         "Juror 6"
       ]
@@ -72,7 +65,6 @@
     {
       "imdbId": "nm0912001",
       "name": "Jack Warden",
-      "sequence": 6,
       "roles": [
         "Juror 7"
       ]
@@ -80,7 +72,6 @@
     {
       "imdbId": "nm0000020",
       "name": "Henry Fonda",
-      "sequence": 7,
       "roles": [
         "Juror 8"
       ]
@@ -88,7 +79,6 @@
     {
       "imdbId": "nm0842137",
       "name": "Joseph Sweeney",
-      "sequence": 8,
       "roles": [
         "Juror 9"
       ]
@@ -96,7 +86,6 @@
     {
       "imdbId": "nm0003225",
       "name": "Ed Begley",
-      "sequence": 9,
       "roles": [
         "Juror 10"
       ]
@@ -104,7 +93,6 @@
     {
       "imdbId": "nm0903667",
       "name": "George Voskovec",
-      "sequence": 10,
       "roles": [
         "Juror 11"
       ]
@@ -112,7 +100,6 @@
     {
       "imdbId": "nm0916434",
       "name": "Robert Webber",
-      "sequence": 11,
       "roles": [
         "Juror 12"
       ]
@@ -122,13 +109,11 @@
     {
       "imdbId": "nm0741627",
       "name": "Reginald Rose",
-      "sequence": 0,
       "notes": "(teleplay \"Twelve Angry Men\")"
     },
     {
       "imdbId": "nm0741627",
       "name": "Reginald Rose",
-      "sequence": 2,
       "notes": "(screenplay)"
     }
   ],

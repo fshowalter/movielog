@@ -17,15 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0319241",
-      "name": "John Gilling",
-      "sequence": 0
+      "name": "John Gilling"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
-      "sequence": 0,
       "roles": [
         "Dr. Robert Knox"
       ]
@@ -33,7 +31,6 @@
     {
       "imdbId": "nm0491928",
       "name": "June Laverick",
-      "sequence": 1,
       "roles": [
         "Martha Knox"
       ]
@@ -41,7 +38,6 @@
     {
       "imdbId": "nm0000587",
       "name": "Donald Pleasence",
-      "sequence": 2,
       "roles": [
         "William Hare"
       ]
@@ -49,7 +45,6 @@
     {
       "imdbId": "nm0741394",
       "name": "George Rose",
-      "sequence": 3,
       "roles": [
         "William Burke"
       ]
@@ -57,7 +52,6 @@
     {
       "imdbId": "nm0396881",
       "name": "Renee Houston",
-      "sequence": 4,
       "roles": [
         "Helen Burke"
       ]
@@ -65,7 +59,6 @@
     {
       "imdbId": "nm0909614",
       "name": "Dermot Walsh",
-      "sequence": 5,
       "roles": [
         "Dr. Geoffrey Mitchell"
       ]
@@ -73,7 +66,6 @@
     {
       "imdbId": "nm0925794",
       "name": "Billie Whitelaw",
-      "sequence": 6,
       "roles": [
         "Mary Patterson"
       ]
@@ -81,7 +73,6 @@
     {
       "imdbId": "nm0129055",
       "name": "John Cairney",
-      "sequence": 7,
       "roles": [
         "Chris Jackson"
       ]
@@ -89,7 +80,6 @@
     {
       "imdbId": "nm0371156",
       "name": "Melvyn Hayes",
-      "sequence": 8,
       "roles": [
         "Daft Jamie"
       ]
@@ -97,7 +87,6 @@
     {
       "imdbId": "nm0694187",
       "name": "June Powell",
-      "sequence": 9,
       "roles": [
         "Maggie O'Hara"
       ]
@@ -105,7 +94,6 @@
     {
       "imdbId": "nm0269026",
       "name": "Andrew Faulds",
-      "sequence": 10,
       "roles": [
         "Inspector McCulloch"
       ]
@@ -113,7 +101,6 @@
     {
       "imdbId": "nm0495365",
       "name": "Philip Leaver",
-      "sequence": 11,
       "roles": [
         "Dr. Elliott"
       ]
@@ -121,7 +108,6 @@
     {
       "imdbId": "nm0940161",
       "name": "George Woodbridge",
-      "sequence": 12,
       "roles": [
         "Dr. Ferguson"
       ]
@@ -129,7 +115,6 @@
     {
       "imdbId": "nm0337854",
       "name": "Garard Green",
-      "sequence": 13,
       "roles": [
         "Dr. Andrews"
       ]
@@ -137,7 +122,6 @@
     {
       "imdbId": "nm0134193",
       "name": "Esma Cannon",
-      "sequence": 14,
       "roles": [
         "Aggie"
       ]
@@ -145,7 +129,6 @@
     {
       "imdbId": "nm0879114",
       "name": "Geoffrey Tyrrell",
-      "sequence": 15,
       "roles": [
         "Old Davey"
       ]
@@ -153,7 +136,6 @@
     {
       "imdbId": "nm0084055",
       "name": "George Bishop",
-      "sequence": 16,
       "roles": [
         "Blind Man"
       ]
@@ -161,7 +143,6 @@
     {
       "imdbId": "nm0099472",
       "name": "Beckett Bould",
-      "sequence": 17,
       "roles": [
         "Old Angus"
       ]
@@ -169,7 +150,6 @@
     {
       "imdbId": "nm0834074",
       "name": "George Street",
-      "sequence": 18,
       "roles": [
         "Publican"
       ]
@@ -177,7 +157,6 @@
     {
       "imdbId": "nm0050163",
       "name": "Michael Balfour",
-      "sequence": 19,
       "roles": [
         "Drunken Sailor"
       ]
@@ -185,7 +164,6 @@
     {
       "imdbId": "nm0779814",
       "name": "Steven Scott",
-      "sequence": 20,
       "roles": [
         "Grave Robber"
       ]
@@ -193,7 +171,6 @@
     {
       "imdbId": "nm0209420",
       "name": "Raf De La Torre",
-      "sequence": 21,
       "roles": [
         "Grave Robber"
       ]
@@ -201,7 +178,6 @@
     {
       "imdbId": "nm0776039",
       "name": "Arnold Schulkes",
-      "sequence": 58,
       "roles": [
         "Court Recorder",
         "Court Policeman"
@@ -212,19 +188,16 @@
     {
       "imdbId": "nm0319241",
       "name": "John Gilling",
-      "sequence": 0,
       "notes": "(original story)"
     },
     {
       "imdbId": "nm0319241",
       "name": "John Gilling",
-      "sequence": 2,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0341707",
       "name": "Leon Griffiths",
-      "sequence": 3,
       "notes": "(screenplay)"
     }
   ],

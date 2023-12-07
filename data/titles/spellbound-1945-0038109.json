@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 0
+      "name": "Alfred Hitchcock"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000006",
       "name": "Ingrid Bergman",
-      "sequence": 0,
       "roles": [
         "Dr. Constance Petersen"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0000060",
       "name": "Gregory Peck",
-      "sequence": 1,
       "roles": [
         "John Ballantyne"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0155011",
       "name": "Michael Chekhov",
-      "sequence": 2,
       "roles": [
         "Dr. Alexander Brulov"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0001991",
       "name": "Leo G. Carroll",
-      "sequence": 3,
       "roles": [
         "Dr. Murchison"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0281766",
       "name": "Rhonda Fleming",
-      "sequence": 4,
       "roles": [
         "Mary Carmichael"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0256305",
       "name": "John Emery",
-      "sequence": 5,
       "roles": [
         "Dr. Fleurot"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0516093",
       "name": "Norman Lloyd",
-      "sequence": 6,
       "roles": [
         "Mr. Garmes"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0329433",
       "name": "Bill Goodwin",
-      "sequence": 7,
       "roles": [
         "House Detective"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0314065",
       "name": "Steven Geray",
-      "sequence": 8,
       "roles": [
         "Dr. Graff"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0193321",
       "name": "Donald Curtis",
-      "sequence": 9,
       "roles": [
         "Harry"
       ]
@@ -106,7 +95,6 @@
     {
       "imdbId": "nm0285922",
       "name": "Wallace Ford",
-      "sequence": 10,
       "roles": [
         "Stranger in Hotel Lobby"
       ]
@@ -114,7 +102,6 @@
     {
       "imdbId": "nm0048238",
       "name": "Art Baker",
-      "sequence": 11,
       "roles": [
         "Det. Lt. Cooley"
       ]
@@ -122,7 +109,6 @@
     {
       "imdbId": "nm0867538",
       "name": "Regis Toomey",
-      "sequence": 12,
       "roles": [
         "Det. Sgt. Gillespie"
       ]
@@ -130,7 +116,6 @@
     {
       "imdbId": "nm0367670",
       "name": "Paul Harvey",
-      "sequence": 13,
       "roles": [
         "Dr. Hanish"
       ]
@@ -140,25 +125,21 @@
     {
       "imdbId": "nm0372942",
       "name": "Ben Hecht",
-      "sequence": 0,
       "notes": "(screen play)"
     },
     {
       "imdbId": "nm1301541",
       "name": "John Palmer",
-      "sequence": 2,
       "notes": "(suggested by novel: \"The House of Dr. Edwardes\") (as Francis Bleeding)"
     },
     {
       "imdbId": "nm0761573",
       "name": "Hilary St George Saunders",
-      "sequence": 3,
       "notes": "(suggested by novel: \"The House of Dr. Edwardes\") (as Francis Bleeding)"
     },
     {
       "imdbId": "nm0534191",
       "name": "Angus MacPhail",
-      "sequence": 5,
       "notes": "(adaptation)"
     }
   ],

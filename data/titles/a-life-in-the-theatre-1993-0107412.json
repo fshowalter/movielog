@@ -19,15 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0608666",
-      "name": "Gregory Mosher",
-      "sequence": 0
+      "name": "Gregory Mosher"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000111",
       "name": "Matthew Broderick",
-      "sequence": 0,
       "roles": [
         "John"
       ]
@@ -35,7 +33,6 @@
     {
       "imdbId": "nm7286616",
       "name": "Nicole Bukky",
-      "sequence": 1,
       "roles": [
         "Mrs. Wilcox"
       ]
@@ -43,7 +40,6 @@
     {
       "imdbId": "nm0000493",
       "name": "Jack Lemmon",
-      "sequence": 2,
       "roles": [
         "Robert"
       ]
@@ -53,13 +49,11 @@
     {
       "imdbId": "nm0000519",
       "name": "David Mamet",
-      "sequence": 0,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0000519",
       "name": "David Mamet",
-      "sequence": 2,
       "notes": "(teleplay)"
     }
   ]

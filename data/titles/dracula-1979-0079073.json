@@ -20,15 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0000824",
-      "name": "John Badham",
-      "sequence": 0
+      "name": "John Badham"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0001449",
       "name": "Frank Langella",
-      "sequence": 0,
       "roles": [
         "Count Dracula"
       ]
@@ -36,7 +34,6 @@
     {
       "imdbId": "nm0000059",
       "name": "Laurence Olivier",
-      "sequence": 1,
       "roles": [
         "Prof. Abraham Van Helsing"
       ]
@@ -44,7 +41,6 @@
     {
       "imdbId": "nm0000587",
       "name": "Donald Pleasence",
-      "sequence": 2,
       "roles": [
         "Dr. Jack Seward"
       ]
@@ -52,7 +48,6 @@
     {
       "imdbId": "nm0625075",
       "name": "Kate Nelligan",
-      "sequence": 3,
       "roles": [
         "Lucy Seward"
       ]
@@ -60,7 +55,6 @@
     {
       "imdbId": "nm0263368",
       "name": "Trevor Eve",
-      "sequence": 4,
       "roles": [
         "Jonathan Harker"
       ]
@@ -68,7 +62,6 @@
     {
       "imdbId": "nm0290186",
       "name": "Jan Francis",
-      "sequence": 5,
       "roles": [
         "Mina Van Helsing"
       ]
@@ -76,7 +69,6 @@
     {
       "imdbId": "nm0245207",
       "name": "Janine Duvitski",
-      "sequence": 6,
       "roles": [
         "Annie"
       ]
@@ -84,7 +76,6 @@
     {
       "imdbId": "nm0371304",
       "name": "Tony Haygarth",
-      "sequence": 7,
       "roles": [
         "Milo Renfield"
       ]
@@ -92,7 +83,6 @@
     {
       "imdbId": "nm0877899",
       "name": "Teddy Turner",
-      "sequence": 8,
       "roles": [
         "Swales"
       ]
@@ -100,7 +90,6 @@
     {
       "imdbId": "nm0566809",
       "name": "Sylvester McCoy",
-      "sequence": 9,
       "roles": [
         "Walter"
       ]
@@ -108,7 +97,6 @@
     {
       "imdbId": "nm0397722",
       "name": "Kristine Howarth",
-      "sequence": 10,
       "roles": [
         "Mrs. Galloway"
       ]
@@ -116,7 +104,6 @@
     {
       "imdbId": "nm0067643",
       "name": "Joe Belcher",
-      "sequence": 11,
       "roles": [
         "Tom Hindley"
       ]
@@ -124,7 +111,6 @@
     {
       "imdbId": "nm0140998",
       "name": "Ted Carroll",
-      "sequence": 12,
       "roles": [
         "Scarborough Sailor"
       ]
@@ -132,7 +118,6 @@
     {
       "imdbId": "nm3480988",
       "name": "Frank Birch",
-      "sequence": 13,
       "roles": [
         "Harbormaster"
       ]
@@ -140,7 +125,6 @@
     {
       "imdbId": "nm0894666",
       "name": "Gabor Vernon",
-      "sequence": 14,
       "roles": [
         "Captain of Demeter"
       ]
@@ -148,7 +132,6 @@
     {
       "imdbId": "nm0378204",
       "name": "Frank Henson",
-      "sequence": 15,
       "roles": [
         "Demeter Sailor"
       ]
@@ -156,7 +139,6 @@
     {
       "imdbId": "nm0909279",
       "name": "Peter Wallis",
-      "sequence": 16,
       "roles": [
         "Priest"
       ]
@@ -166,25 +148,21 @@
     {
       "imdbId": "nm0725379",
       "name": "W.D. Richter",
-      "sequence": 0,
       "notes": "(screenplay)"
     },
     {
       "imdbId": "nm0213019",
       "name": "Hamilton Deane",
-      "sequence": 2,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0049721",
       "name": "John L. Balderston",
-      "sequence": 3,
       "notes": "(play)"
     },
     {
       "imdbId": "nm0831290",
       "name": "Bram Stoker",
-      "sequence": 5,
       "notes": "(novel)"
     }
   ]

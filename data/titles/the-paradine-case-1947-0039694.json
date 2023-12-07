@@ -18,15 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock",
-      "sequence": 0
+      "name": "Alfred Hitchcock"
     }
   ],
   "performers": [
     {
       "imdbId": "nm0000060",
       "name": "Gregory Peck",
-      "sequence": 0,
       "roles": [
         "Anthony Keane"
       ]
@@ -34,7 +32,6 @@
     {
       "imdbId": "nm0002897",
       "name": "Ann Todd",
-      "sequence": 1,
       "roles": [
         "Gay Keane"
       ]
@@ -42,7 +39,6 @@
     {
       "imdbId": "nm0001452",
       "name": "Charles Laughton",
-      "sequence": 2,
       "roles": [
         "Judge Lord Thomas Horfield"
       ]
@@ -50,7 +46,6 @@
     {
       "imdbId": "nm0002013",
       "name": "Charles Coburn",
-      "sequence": 3,
       "roles": [
         "Sir Simon Flaquer"
       ]
@@ -58,7 +53,6 @@
     {
       "imdbId": "nm0000856",
       "name": "Ethel Barrymore",
-      "sequence": 4,
       "roles": [
         "Lady Sophie Horfield"
       ]
@@ -66,7 +60,6 @@
     {
       "imdbId": "nm0431139",
       "name": "Louis Jourdan",
-      "sequence": 5,
       "roles": [
         "Andre Latour"
       ]
@@ -74,7 +67,6 @@
     {
       "imdbId": "nm0885098",
       "name": "Alida Valli",
-      "sequence": 6,
       "roles": [
         "Maddalena Anna Paradine"
       ]
@@ -82,7 +74,6 @@
     {
       "imdbId": "nm0001991",
       "name": "Leo G. Carroll",
-      "sequence": 7,
       "roles": [
         "Sir Joseph"
       ]
@@ -90,7 +81,6 @@
     {
       "imdbId": "nm0856583",
       "name": "Joan Tetzel",
-      "sequence": 8,
       "roles": [
         "Judy Flaquer"
       ]
@@ -98,7 +88,6 @@
     {
       "imdbId": "nm0255695",
       "name": "Isobel Elsom",
-      "sequence": 9,
       "roles": [
         "Innkeeper"
       ]
@@ -108,19 +97,16 @@
     {
       "imdbId": "nm0382562",
       "name": "Robert Hichens",
-      "sequence": 0,
       "notes": "(from the novel by)"
     },
     {
       "imdbId": "nm0720904",
       "name": "Alma Reville",
-      "sequence": 2,
       "notes": "(adaptation)"
     },
     {
       "imdbId": "nm0006388",
       "name": "David O. Selznick",
-      "sequence": 4,
       "notes": "(screen play)"
     }
   ],
