@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+from copy import deepcopy
 
 from movielog.repository import (
     credit_notes_validator,
@@ -154,7 +155,7 @@ def title_page_is_invalid_credit(
     if title_page.kind not in VALID_KINDS:
         return (True, title_page.kind)
 
-    invalid_genres = {"Adult", "Short", "Documentary"} & title_page.genres
+    invalid_genres = {"Adult", "Short", "Documentary"} & set(title_page.genres)
     if invalid_genres:
         return (True, ", ".join(invalid_genres))
 
@@ -271,13 +272,17 @@ def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
                     )
                     continue
 
+                updated_watchlist_person = deepcopy(watchlist_person)
+
                 try:
                     update_watchlist_person_titles_for_credit_kind(
-                        watchlist_person, WatchlistKindToCreditKind[kind]
+                        updated_watchlist_person, WatchlistKindToCreditKind[kind]
                     )
                 except imdb_http.IMDbDataAccessError:
                     return
-                json_watchlist_people.serialize(watchlist_person, kind)
+
+                if updated_watchlist_person != watchlist_person:
+                    json_watchlist_people.serialize(updated_watchlist_person, kind)
                 progress_file.write("{0}\n".format(watchlist_person["slug"]))
 
     for completed_progress_file_path in progress_files:

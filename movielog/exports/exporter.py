@@ -5,7 +5,6 @@ import os
 from collections.abc import Iterable
 from typing import Callable, TypeVar
 
-from movielog.exports import list_tools
 from movielog.utils.logging import logger
 
 DictType = TypeVar("DictType")
@@ -26,26 +25,6 @@ def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:
         json_file_name,
         pretty_file_size(os.path.getsize(json_file_name)),
     )
-
-
-def serialize_dicts_by_key(
-    dicts: Iterable[DictType], folder_name: str, key: Callable[[DictType], str]
-) -> None:
-    dicts_by_key = list_tools.group_list_by_key(dicts, key=key)
-
-    folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
-    os.makedirs(folder_path, exist_ok=True)
-
-    for file_name, dicts_for_file in dicts_by_key.items():
-        json_file_name = os.path.join(folder_path, "{0}.json".format(file_name))
-        with open(json_file_name, "w") as output_file:
-            output_file.write(json.dumps(dicts_for_file, default=str, indent=2))
-
-        logger.log(
-            "Wrote {} ({}).",
-            json_file_name,
-            pretty_file_size(os.path.getsize(json_file_name)),
-        )
 
 
 def serialize_dicts_to_folder(

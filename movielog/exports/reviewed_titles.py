@@ -65,7 +65,7 @@ JsonReviewedTitle = TypedDict(
         "reviewDate": str,
         "reviewYear": str,
         "viewings": list[JsonViewing],
-        "yearAndImdbId": str,
+        "releaseSequence": str,
         "more": JsonMore,
     },
 )
@@ -140,7 +140,7 @@ def build_json_more_for_watchlist_entities(
                     repository_data.titles[reviewed_id]
                     for reviewed_id in reviewed_ids_for_watchlist_entity
                 ],
-                key=lambda title: title.year_and_imdb_id,
+                key=lambda title: title.release_sequence,
             ),
             matcher=build_imdb_id_matcher(review.imdb_id),
         )
@@ -260,7 +260,7 @@ def build_json_reviewed_title(
         originalTitle=title.original_title,
         gradeValue=review.grade_value,
         runtimeMinutes=title.runtime_minutes,
-        yearAndImdbId=title.year_and_imdb_id,
+        releaseSequence=title.release_sequence,
         directorNames=[director.name for director in title.directors],
         principalCastNames=[
             performer.name

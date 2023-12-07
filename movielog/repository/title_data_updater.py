@@ -167,7 +167,7 @@ def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) ->
         updated_json_title = deepcopy(json_title)
 
         updated_json_title["title"] = dataset_title["title"]
-        updated_json_title["originalTitle"] = dataset_title["originalTitle"]
+        updated_json_title["originalTitle"] = dataset_title["original_title"]
         updated_json_title["year"] = dataset_title["year"]
         updated_json_title["sortTitle"] = json_titles.generate_sort_title(
             updated_json_title["title"], updated_json_title["year"]

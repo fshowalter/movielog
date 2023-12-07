@@ -15,7 +15,7 @@ JsonTitle = TypedDict(
         "slug": Optional[str],
         "grade": Optional[str],
         "gradeValue": Optional[int],
-        "yearAndImdbId": str,
+        "releaseSequence": str,
     },
 )
 
@@ -45,7 +45,7 @@ def build_collection_titles(
                 title=title.title,
                 sortTitle=title.sort_title,
                 year=title.year,
-                yearAndImdbId=title.year_and_imdb_id,
+                releaseSequence=title.release_sequence,
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,
                 gradeValue=review.grade_value if review else None,

@@ -10,7 +10,6 @@ from movielog.cli import (
 
 def prompt() -> None:
     options = [
-        (None, "Go back"),
         (add_director.prompt, "<cyan>Add Director</cyan>"),
         (add_performer.prompt, "<cyan>Add Performer</cyan>"),
         (add_writer.prompt, "<cyan>Add Writer</cyan>"),

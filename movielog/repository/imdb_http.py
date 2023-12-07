@@ -88,7 +88,7 @@ def build_title_credits_for_name_page(
     return credits
 
 
-def build_name_credits_for_title_page(
+def build_name_credits_for_title_page(  # noqa: WPS210, WPS231
     imdb_title_page: imdb.Movie.Movie,
 ) -> dict[CreditKind, list[NameCredit]]:
     credit_kind_map: dict[CreditKind, str] = {
@@ -123,7 +123,7 @@ def build_name_credits_for_title_page(
 
 
 def unknown_date(imdb_movie: imdb.Movie.Movie) -> str:
-    return "{0}-??-??".format(imdb_movie["year"])
+    return "{0}-??-??".format(imdb_movie.get("year", "????"))
 
 
 def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
@@ -133,24 +133,18 @@ def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
         return unknown_date(imdb_movie)
 
     imdb_date = re_match.group(1)
+    imdb_date_year = imdb_date[-4:] if imdb_date else None
 
-    if not imdb_date:
-        return unknown_date(imdb_movie)
-
-    date_country = None
-
-    if len(re_match.groups()) == 2:
-        date_country = re_match.group(2)
-
-    primary_country = next(iter(imdb_movie.get("countries", [])), None)
-
-    if date_country and date_country != primary_country:
+    if imdb_date_year != str(imdb_movie["year"]):
         return unknown_date(imdb_movie)
 
     try:
         return datetime.strptime(imdb_date, "%d %b %Y").date().isoformat()
     except ValueError:
-        return imdb_date
+        try:  # noqa: WPS505
+            return datetime.strptime(imdb_date, "%b %Y").date().isoformat()
+        except ValueError:
+            return unknown_date(imdb_movie)
 
 
 def get_name_page(imdb_id: str) -> NamePage:

@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from typing import Optional
+
 from movielog.repository import format_tools
 from movielog.repository.datasets import downloader, extractor
-from movielog.repository.datasets.dataset_name import DatasetName
-from movielog.repository.datasets.dataset_title import DatasetTitle
+from movielog.repository.datasets.dataset_name import DatasetName as _DatasetName
+from movielog.repository.datasets.dataset_title import DatasetTitle as _DatasetTitle
 from movielog.utils.logging import logger
 
 TITLE_BASICS_FILE_NAME = "title.basics.tsv.gz"
@@ -16,6 +18,9 @@ AllowList = {
     "tt0148615",  # Play Motel (1979) [X]
     "tt0070696",  # The Sinful Dwarf (1973) [X]
 }
+
+DatasetName = _DatasetName
+DatasetTitle = _DatasetTitle
 
 
 def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WPS212
@@ -82,6 +87,20 @@ def update_titles_with_principals(
     )
 
 
+def parse_imdb_rating(field: object) -> Optional[float]:
+    if not field:
+        return None
+
+    return float(str(field))
+
+
+def parse_imdb_votes(field: object) -> Optional[int]:
+    if not field:
+        return None
+
+    return int(str(field))
+
+
 def update_titles_with_ratings(
     title_ratings_file_path: str,
     titles: dict[str, DatasetTitle],
@@ -92,8 +111,8 @@ def update_titles_with_ratings(
         if not title:
             continue
 
-        title["imdb_rating"] = float(str(fields[1])) if fields[1] else None
-        title["imdb_votes"] = int(str(fields[2])) if fields[2] else None
+        title["imdb_rating"] = parse_imdb_rating(fields[1])
+        title["imdb_votes"] = parse_imdb_votes(fields[2])
         count += 1
 
     logger.log(
@@ -134,7 +153,7 @@ def extract_names(
             known_for_titles=[
                 titles[known_for_title_id]["full_title"]
                 for known_for_title_id in (fields[5] or [])
-                if known_for_title_id in titles
+                if known_for_title_id in titles.keys()
             ],
         )
 
@@ -143,7 +162,13 @@ def extract_names(
     return names
 
 
-def update_titles_with_akas(file_path: str, titles: dict[str, DatasetTitle]) -> None:
+def aka_title_is_not_for_usa_or_great_britain(field: object) -> bool:
+    return str(field) not in {"US", "GB"}
+
+
+def update_titles_with_akas(  # noqa: WPS231
+    file_path: str, titles: dict[str, DatasetTitle]
+) -> None:
     count = 0
 
     for fields in extractor.extract(file_path):
@@ -152,7 +177,7 @@ def update_titles_with_akas(file_path: str, titles: dict[str, DatasetTitle]) -> 
         if not title:
             continue
 
-        if str(fields[3]) not in {"US", "GB"}:
+        if aka_title_is_not_for_usa_or_great_britain(fields[3]):
             continue
 
         aka_title = str(fields[2])
@@ -167,7 +192,7 @@ def update_titles_with_akas(file_path: str, titles: dict[str, DatasetTitle]) -> 
     logger.log("Extracted {} {}.", format_tools.humanize_int(count), "aka titles")
 
 
-def download_and_extract() -> (
+def download_and_extract() -> (  # noqa: WPS21
     tuple[dict[str, DatasetTitle], dict[str, DatasetName]]
 ):  # noqa: WPS210
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)

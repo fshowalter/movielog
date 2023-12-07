@@ -11,7 +11,7 @@ CREATE_DDL = """
   "title" TEXT NOT NULL,
   "original_title" TEXT,
   "full_title" TEXT NOT NULL,
-  "year" INT NOT NULL,
+  "year" TEXT NOT NULL,
   "runtime_minutes" INT,
   "principal_cast" JSON,
   "aka_titles" JSON,
@@ -51,7 +51,7 @@ class Row(TypedDict):
     imdb_id: str
     title: str
     original_title: str
-    year: int
+    year: str
     full_title: str
     runtime_minutes: Optional[int]
     principal_cast: str

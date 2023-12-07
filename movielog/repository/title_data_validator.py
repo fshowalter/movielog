@@ -122,7 +122,7 @@ def rename_files_marked_for_rename(
         logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
 
 
-def validate() -> None:
+def validate() -> None:  # noqa: WPS210, WPS213
     title_ids_to_process = get_valid_title_ids()
     files_to_remove = []
     files_to_rename = []

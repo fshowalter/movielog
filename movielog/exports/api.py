@@ -14,6 +14,7 @@ from movielog.exports import (
 )
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
+from movielog.utils.logging import logger
 
 
 def build_watchlist_people() -> (
@@ -30,7 +31,9 @@ def build_watchlist_people() -> (
     return watchlist
 
 
-def export_data() -> None:
+def export_data() -> None:  # noqa: WPS213
+    logger.log("Initializing...")
+
     reviews = list_tools.list_to_dict(
         repository_api.reviews(), key=lambda review: review.imdb_id
     )
@@ -53,6 +56,8 @@ def export_data() -> None:
         ),
         metadata=repository_api.metadata(),
     )
+
+    repository_api.validate_data()
 
     viewings.export(repository_data)
     reviewed_titles.export(repository_data)

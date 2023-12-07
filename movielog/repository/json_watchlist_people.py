@@ -2,6 +2,8 @@ import json
 import re
 from typing import Iterable, Literal, TypedDict, Union, cast, get_args
 
+from slugify import slugify
+
 from movielog.repository import watchlist_serializer
 from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonTitle
 
@@ -23,6 +25,30 @@ Kind = Literal[
 ]
 
 KINDS = get_args(Kind)
+
+
+def create(watchlist: Kind, imdb_id: str, name: str) -> JsonWatchlistPerson:
+    new_person_slug = slugify(name)
+
+    existing_person = next(
+        (person for person in read_all(watchlist) if person["slug"] == new_person_slug),
+        None,
+    )
+
+    if existing_person:
+        raise ValueError(
+            'Person in "{0}" with slug "{1}" already exists.'.format(
+                watchlist, new_person_slug
+            )
+        )
+
+    json_watchlist_person = JsonWatchlistPerson(
+        imdbId=imdb_id, name=name, slug=new_person_slug, titles=[], excludedTitles=[]
+    )
+
+    serialize(json_watchlist_person, watchlist)
+
+    return json_watchlist_person
 
 
 def read_all(kind: Kind) -> Iterable[JsonWatchlistPerson]:

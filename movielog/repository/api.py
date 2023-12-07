@@ -1,8 +1,8 @@
 import datetime
 from dataclasses import dataclass
-from typing import Iterable, Optional, Sequence, Union, get_args
+from typing import Generator, Iterable, Optional, Sequence, Union, get_args
 
-from movielog.repository import (
+from movielog.repository import (  # noqa: WPS235
     json_metadata,
     json_titles,
     json_viewings,
@@ -50,10 +50,7 @@ class Title(object):
     original_title: str
     imdb_rating: Optional[float]
     imdb_votes: Optional[int]
-
-    @property
-    def year_and_imdb_id(self) -> str:
-        return "{0}{1}".format(self.year, self.imdb_id)
+    release_sequence: str
 
 
 @dataclass
@@ -119,27 +116,39 @@ class WatchlistPerson(WatchlistEntity):
     imdb_id: Union[str, list[str]]
 
 
-def watchlist_collections() -> list[WatchlistCollection]:
+def _hydrate_watchlist_collection(
+    json_watchlist_collection: json_watchlist_collections.JsonWatchlistCollection,
+) -> WatchlistCollection:
+    return WatchlistCollection(
+        name=json_watchlist_collection["name"],
+        slug=json_watchlist_collection["slug"],
+        title_ids=set(
+            [title["imdbId"] for title in json_watchlist_collection["titles"]]
+        ),
+    )
+
+
+def watchlist_collections() -> Generator[WatchlistCollection, None, None]:
     for json_watchlist_collection in json_watchlist_collections.read_all():
-        yield WatchlistCollection(
-            name=json_watchlist_collection["name"],
-            slug=json_watchlist_collection["slug"],
-            title_ids=set(
-                [title["imdbId"] for title in json_watchlist_collection["titles"]]
-            ),
-        )
+        yield _hydrate_watchlist_collection(json_watchlist_collection)
 
 
-def watchlist_people(kind: WatchlistPersonKind) -> list[WatchlistPerson]:
+def _hydrate_watchlist_person(
+    json_watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+) -> WatchlistPerson:
+    return WatchlistPerson(
+        imdb_id=json_watchlist_person["imdbId"],
+        name=json_watchlist_person["name"],
+        slug=json_watchlist_person["slug"],
+        title_ids=set([title["imdbId"] for title in json_watchlist_person["titles"]]),
+    )
+
+
+def watchlist_people(
+    kind: WatchlistPersonKind,
+) -> Generator[WatchlistPerson, None, None]:
     for json_watchlist_person in json_watchlist_people.read_all(kind):
-        yield WatchlistPerson(
-            imdb_id=json_watchlist_person["imdbId"],
-            name=json_watchlist_person["name"],
-            slug=json_watchlist_person["slug"],
-            title_ids=set(
-                [title["imdbId"] for title in json_watchlist_person["titles"]]
-            ),
-        )
+        yield _hydrate_watchlist_person(json_watchlist_person)
 
 
 def titles() -> Iterable[Title]:
@@ -155,6 +164,9 @@ def titles() -> Iterable[Title]:
             countries=json_title["countries"],
             imdb_rating=json_title["imdbRating"],
             imdb_votes=json_title["imdbVotes"],
+            release_sequence="{0}{1}".format(
+                json_title["releaseDate"], json_title["imdbId"]
+            ),
             directors=[
                 Name(
                     name=director["name"],
@@ -278,5 +290,27 @@ def create_or_update_review(
     return _hydrate_markdown_review(
         markdown_reviews.create_or_update(
             imdb_id=imdb_id, full_title=full_title, date=date, grade=grade
+        )
+    )
+
+
+def new_watchlist_collection(name: str) -> WatchlistCollection:
+    return _hydrate_watchlist_collection(json_watchlist_collections.create(name))
+
+
+def add_person_to_watchlist(
+    watchlist: WatchlistPersonKind, imdb_id: str, name: str
+) -> WatchlistPerson:
+    return _hydrate_watchlist_person(
+        json_watchlist_people.create(watchlist, imdb_id, name)
+    )
+
+
+def add_title_to_collection(
+    collection: WatchlistCollection, imdb_id: str, full_title: str
+) -> WatchlistCollection:
+    return _hydrate_watchlist_collection(
+        json_watchlist_collections.add_title(
+            collection_slug=collection.slug, imdb_id=imdb_id, full_title=full_title
         )
     )
