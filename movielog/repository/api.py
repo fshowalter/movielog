@@ -10,6 +10,7 @@ from movielog.repository import (
     json_watchlist_people,
     markdown_reviews,
     title_data_updater,
+    title_data_validator,
     watchlist_credits_updater,
 )
 from movielog.repository.datasets import api as datasets_api
@@ -24,7 +25,8 @@ WATCHLIST_PERSON_KINDS = get_args(WatchlistPersonKind)
 db = db_api.db
 
 update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
-update_title_data = title_data_updater.update_title_data
+update_title_data = title_data_updater.update_from_imdb_pages
+validate_data = title_data_validator.validate
 
 
 @dataclass
@@ -216,7 +218,7 @@ def update_datasets() -> None:
         titles=list(dataset_titles.values()), names=list(dataset_names.values())
     )
 
-    json_titles.update_for_datasets(dataset_titles=dataset_titles)
+    title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
     json_metadata.update_for_datasets(dataset_titles=list(dataset_titles.values()))
 
 

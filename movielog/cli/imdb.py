@@ -13,6 +13,10 @@ def prompt() -> None:
             repository_api.update_watchlist_credits,
             "<cyan>Update watchlist director, performer, and writer credits.</cyan>",
         ),
+        (
+            repository_api.validate_data,
+            "<cyan>Validate title data.</cyan>",
+        ),
     ]
 
     option_function = radio_list.prompt(
@@ -20,5 +24,6 @@ def prompt() -> None:
         options=options,
     )
 
-    option_function()
-    prompt()
+    if option_function:
+        option_function()
+        prompt()

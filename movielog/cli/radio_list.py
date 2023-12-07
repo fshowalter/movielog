@@ -129,7 +129,7 @@ def prompt(
     title: str,
     options: Sequence[Tuple[RadioListType, AnyFormattedText]],
     rprompt: Optional[str] = None,
-) -> RadioListType:
+) -> Optional[RadioListType]:
     control = RadioList(options_to_html(options))
 
     application: Application[None] = Application(
