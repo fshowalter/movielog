@@ -56,6 +56,7 @@ def update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
 def update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
     imdb_title_page = imdb_http.get_title_page(json_title["imdbId"])
 
+    json_title["releaseDate"] = imdb_title_page.release_date
     json_title["countries"] = imdb_title_page.countries
     json_title["genres"] = imdb_title_page.genres
     json_title["directors"] = [

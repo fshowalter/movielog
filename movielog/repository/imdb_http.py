@@ -1,4 +1,6 @@
+import re
 from dataclasses import dataclass, field
+from datetime import datetime
 from typing import Literal, Optional, get_args
 
 import imdb
@@ -45,6 +47,7 @@ class TitlePage(object):
     genres: list[str]
     countries: list[str]
     sound_mix: set[str]
+    release_date: str
 
 
 def parse_roles(person: imdb.Person.Person) -> list[str]:
@@ -119,6 +122,37 @@ def build_name_credits_for_title_page(
     return credits
 
 
+def unknown_date(imdb_movie: imdb.Movie.Movie) -> str:
+    return "{0}-??-??".format(imdb_movie["year"])
+
+
+def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
+    re_match = re.search(r"(.*)\s\((.*)\)", imdb_movie.get("original air date", ""))
+
+    if not re_match:
+        return unknown_date(imdb_movie)
+
+    imdb_date = re_match.group(1)
+
+    if not imdb_date:
+        return unknown_date(imdb_movie)
+
+    date_country = None
+
+    if len(re_match.groups()) == 2:
+        date_country = re_match.group(2)
+
+    primary_country = next(iter(imdb_movie.get("countries", [])), None)
+
+    if date_country and date_country != primary_country:
+        return unknown_date(imdb_movie)
+
+    try:
+        return datetime.strptime(imdb_date, "%d %b %Y").date().isoformat()
+    except ValueError:
+        return imdb_date
+
+
 def get_name_page(imdb_id: str) -> NamePage:
     imdb_name_page = imdb_http.get_person(imdb_id[2:])
 
@@ -137,4 +171,5 @@ def get_title_page(imdb_id: str) -> TitlePage:
         countries=imdb_movie.get("countries", []),
         sound_mix=set(imdb_movie.get("sound mix", [])),
         credits=build_name_credits_for_title_page(imdb_movie),
+        release_date=parse_release_date(imdb_movie),
     )
