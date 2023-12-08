@@ -3,7 +3,7 @@ import os
 from glob import glob
 from typing import Iterable, Optional, TypedDict, cast
 
-from movielog.repository import format_tools, slugifier
+from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
@@ -39,18 +39,6 @@ def create(imdb_id: str, date: str, full_title: str, medium: str) -> JsonViewing
     serialize(json_viewing)
 
     return json_viewing
-
-
-def deserialize_all() -> list[JsonViewing]:
-    logger.log("==== Begin reading {} from disk...", "viewings")
-    viewings = []
-
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
-        with open(file_path, "r") as json_file:
-            viewings.append(cast(JsonViewing, json.load(json_file)))
-
-    logger.log("Read {} {}.", format_tools.humanize_int(len(viewings)), "viewings")
-    return viewings
 
 
 def generate_file_path(json_viewing: JsonViewing) -> str:

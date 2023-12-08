@@ -2,7 +2,7 @@ import datetime
 import html
 import re
 from dataclasses import dataclass, field
-from typing import Callable, List, Literal, Optional, Tuple
+from typing import Callable, Literal, Optional, Tuple
 
 from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
@@ -10,6 +10,9 @@ from prompt_toolkit.validation import Validator
 
 from movielog.cli import ask, radio_list, select_title
 from movielog.repository import api as repository_api
+
+RECENT_VIEWING_DAYS = 365
+
 
 Option = Tuple[Optional[str], AnyFormattedText]
 
@@ -122,7 +125,13 @@ def ask_for_date(state: State) -> State:
         state.stage = "ask_for_title"
         return state
 
-    state.date = string_to_date(date_string)
+    viewing_date = string_to_date(date_string)
+
+    if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):  # noqa: WPS323
+        state.date = viewing_date
+        state.default_date = viewing_date
+        state.stage = "ask_for_medium"
+
     return state
 
 
@@ -154,20 +163,25 @@ def ask_for_medium(state: State) -> State:
     return state
 
 
-def build_medium_options() -> List[Option]:
-    media = repository_api.recent_media()
+def build_medium_options() -> list[Option]:
+    media = sorted(
+        set(
+            [
+                viewing.medium
+                for viewing in repository_api.viewings()
+                if (datetime.date.today() - viewing.date).days < RECENT_VIEWING_DAYS
+                and viewing.medium
+            ]
+        )
+    )
 
-    options: List[Option] = [
+    options: list[Option] = [
         (medium, "<cyan>{0}</cyan>".format(html.escape(medium))) for medium in media
     ]
 
     options.append((None, "New medium"))
 
     return options
-
-
-def new_medium() -> Optional[str]:
-    return ask.prompt("Medium name: ")
 
 
 def is_grade(text: str) -> bool:

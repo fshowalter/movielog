@@ -1,7 +1,7 @@
 import html
-from typing import Iterable, Optional, Tuple
+from typing import Iterable, Optional, Tuple, cast
 
-from prompt_toolkit.formatted_text import AnyFormattedText
+from prompt_toolkit.formatted_text import HTML, AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 
 from movielog.cli import ask, radio_list, title_searcher
@@ -28,8 +28,14 @@ def prompt(prompt_text: str = "Title: ") -> Optional[SearchResult]:
         if selected_title is None:
             continue
 
-        if confirm(("{0}?".format(result_to_html_string(selected_title)))):
+        if confirm_selected_title(selected_title):
             return selected_title
+
+
+def confirm_selected_title(selected_title: SearchResult) -> bool:
+    prompt_text = HTML("{0}?".format(result_to_html_string(selected_title)))
+
+    return confirm(cast(str, prompt_text))
 
 
 def result_to_html_string(search_result: SearchResult) -> str:

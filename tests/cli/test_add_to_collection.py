@@ -6,90 +6,88 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_to_collection
-from movielog.moviedata.core import movies_table, people_table
-from movielog.watchlist.collections import Collection
-from movielog.watchlist.movies import Movie
+from movielog.repository.api import WatchlistCollection
+from movielog.repository.datasets.dataset_title import DatasetTitle
+from movielog.repository.db import titles_table
 from tests.cli.conftest import MockInput
-from tests.cli.keys import Down, Enter, Escape
+from tests.cli.keys import Escape
+from tests.cli.prompt_utils import ConfirmType, enter_text, select_option
+
+
+def enter_title(title: str) -> list[str]:
+    return enter_text(title)
+
+
+def select_collection() -> list[str]:
+    return select_option(1)
+
+
+def select_title_search_result(confirm: ConfirmType) -> list[str]:
+    return select_option(1, confirm=confirm)
 
 
 @pytest.fixture(autouse=True)
 def seed_db() -> None:
-    people_table.reload(
+    titles_table.reload(
         [
-            people_table.Row(
-                imdb_id="nm0000397",
-                full_name="Corey Feldman",
-                known_for_title_ids="tt0087298",
-            ),
-            people_table.Row(
-                imdb_id="nm0658133",
-                full_name="Betsy Palmer",
-                known_for_title_ids="tt0080761",
-            ),
-            people_table.Row(
-                imdb_id="nm0824386",
-                full_name="Amy Steel",
-                known_for_title_ids="tt0082418",
-            ),
-            people_table.Row(
-                imdb_id="nm0050676",
-                full_name="Terry Ballard",
-                known_for_title_ids="tt0083972",
-            ),
-        ]
-    )
-
-    movies_table.reload(
-        [
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0087298",
                 title="Friday the 13th: The Final Chapter",
+                full_title="Friday the 13th: The Final Chapter (1984)",
                 original_title="Friday the 13th: The Final Chapter",
-                year=1984,
-                runtime_minutes=None,
-                principal_cast_ids="nm0000397, nm0000000",
-                votes=32,
+                year="1984",
+                aka_titles=["Friday the 13th Part 4"],
+                runtime_minutes=91,
+                principal_cast=["Corey Feldman"],
+                imdb_votes=32,
                 imdb_rating=6.4,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0089175",
                 title="Fright Night",
+                full_title="Fright Night (1985)",
                 original_title="Fright Night",
-                year=1985,
-                runtime_minutes=None,
-                principal_cast_ids="nm0001697",
-                votes=23,
+                aka_titles=[],
+                year="1985",
+                runtime_minutes=90,
+                principal_cast=["Chris Sarandon", "William Ragsdale"],
+                imdb_votes=23,
                 imdb_rating=4,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0080761",
                 title="Friday the 13th",
+                full_title="Friday the 13th (1980)",
                 original_title="Friday the 13th",
-                year=1980,
-                runtime_minutes=None,
-                principal_cast_ids="nm0658133",
-                votes=45,
+                year="1980",
+                aka_titles=[],
+                runtime_minutes=89,
+                principal_cast=["Kevin Bacon"],
+                imdb_votes=45,
                 imdb_rating=7.4,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0082418",
                 title="Friday the 13th Part 2",
+                full_title="Friday the 13th Part 2 (1981)",
                 original_title="Friday the 13th Part 2",
-                year=1981,
-                runtime_minutes=None,
-                principal_cast_ids="nm0824386",
-                votes=34,
+                aka_titles=[],
+                year="1981",
+                runtime_minutes=90,
+                principal_cast=["Amy Steel"],
+                imdb_votes=34,
                 imdb_rating=5.5,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0083972",
                 title="Friday the 13th Part III",
+                full_title="Friday the 13th Part III (1982)",
                 original_title="Friday the 13th Part 3",
-                year=1982,
-                runtime_minutes=None,
-                principal_cast_ids="nm0050676",
-                votes=33,
+                aka_titles=["Friday the 13th 3-D"],
+                year="1982",
+                runtime_minutes=87,
+                principal_cast=["Larry Zerner"],
+                imdb_votes=33,
                 imdb_rating=4.9,
             ),
         ]
@@ -97,53 +95,69 @@ def seed_db() -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_add_movie_to_collection(mocker: MockerFixture) -> tuple[Collection, MagicMock]:
-    collection = Collection(
+def mock_add_title_to_collection(
+    mocker: MockerFixture,
+) -> tuple[WatchlistCollection, MagicMock]:
+    collection = WatchlistCollection(
         name="Friday the 13th",
         slug="friday-the-13th",
-        movies=[
-            Movie(imdb_id="tt0080761", year=1980, title="Friday the 13th"),
-            Movie(imdb_id="tt0082418", year=1981, title="Friday the 13th Part 2"),
-            Movie(imdb_id="tt0083972", year=1982, title="Friday the 13th Part III"),
-        ],
+        title_ids=set(["tt0080761", "tt0082418", "tt0083972"]),
     )
 
     mocker.patch(
-        "movielog.cli.add_to_collection.movielog_api.collections",
+        "movielog.cli.add_to_collection.repository_api.watchlist_collections",
         return_value=[collection],
     )
 
     return (
         collection,
         mocker.patch(
-            "movielog.cli.add_to_collection.movielog_api.add_movie_to_collection",
+            "movielog.cli.add_to_collection.repository_api.add_title_to_collection",
             return_value=[collection],
         ),
     )
 
 
-def test_calls_add_movie_to_collection(
-    mock_input: MockInput, mock_add_movie_to_collection: tuple[Collection, MagicMock]
+def test_calls_add_title_to_collection(
+    mock_input: MockInput,
+    mock_add_title_to_collection: tuple[WatchlistCollection, MagicMock],
 ) -> None:
-    mock_input([Down, Enter, "The Final Chapter", Enter, Down, Enter, "y", Enter])
+    mock_input(
+        [
+            *select_collection(),
+            *enter_title("The Final Chapter"),
+            *select_title_search_result(confirm="y"),
+            Escape,
+            Escape,
+        ]
+    )
     add_to_collection.prompt()
 
-    collection, mock = mock_add_movie_to_collection
+    collection, mock = mock_add_title_to_collection
 
     mock.assert_called_once_with(
         collection=collection,
         imdb_id="tt0087298",
-        title="Friday the 13th: The Final Chapter",
-        year=1984,
+        full_title="Friday the 13th: The Final Chapter (1984)",
     )
 
 
-def test_does_not_call_add_movie_to_collection_if_no_selection(
-    mock_input: MockInput, mock_add_movie_to_collection: tuple[Collection, MagicMock]
+def test_does_not_call_add_title_to_collection_if_no_selection(
+    mock_input: MockInput,
+    mock_add_title_to_collection: tuple[WatchlistCollection, MagicMock],
 ) -> None:
-    mock_input([Down, Enter, Escape, Escape, Enter])
+    mock_input(
+        [
+            *select_collection(),
+            *enter_title("The Final Chapter"),
+            Escape,
+            Escape,
+            Escape,
+            Escape,
+        ]
+    )
     add_to_collection.prompt()
 
-    _collection, mock = mock_add_movie_to_collection
+    _collection, mock = mock_add_title_to_collection
 
     mock.assert_not_called()

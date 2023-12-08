@@ -1,6 +1,6 @@
 import datetime
 from dataclasses import dataclass
-from typing import Generator, Iterable, Optional, Sequence, Union, get_args
+from typing import Generator, Iterable, Optional, Union, get_args
 
 from movielog.repository import (  # noqa: WPS235
     json_metadata,
@@ -15,8 +15,6 @@ from movielog.repository import (  # noqa: WPS235
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
-
-RECENT_VIEWING_DAYS = 365
 
 WatchlistPersonKind = json_watchlist_people.Kind
 
@@ -232,26 +230,6 @@ def update_datasets() -> None:
 
     title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
     json_metadata.update_for_datasets(dataset_titles=list(dataset_titles.values()))
-
-
-def _viewing_is_recent(viewing: Viewing) -> bool:
-    return (datetime.date.today() - viewing.date).days < RECENT_VIEWING_DAYS
-
-
-def recent_media() -> Sequence[str]:
-    recent_viewings = filter(_viewing_is_recent, viewings())
-
-    return sorted(
-        set([viewing.medium for viewing in recent_viewings if viewing.medium])
-    )
-
-
-def last_viewing_date() -> Optional[datetime.date]:
-    sorted_viewings = sorted(
-        viewings(), reverse=True, key=lambda viewing: viewing.sequence
-    )
-
-    return sorted_viewings[0].date if sorted_viewings else None
 
 
 @dataclass
