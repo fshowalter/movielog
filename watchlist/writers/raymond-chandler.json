@@ -67,10 +67,7 @@
       "imdbId": "tt0077234",
       "title": "The Big Sleep (1978)"
     },
-    {
-      "imdbId": "tt7563908",
-      "title": "Aspetter\u00f2 (1978) (TV)"
-    },
+    
     {
       "imdbId": "tt0084113",
       "title": "Ich werde warten (1982) (TV)"
@@ -85,6 +82,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt7563908",
+      "title": "Aspetter\u00f2 (1978) (TV)",
+      "reason": "tv movie"
+    },
     {
       "imdbId": "tt0040049",
       "title": "\"The Philco Television Playhouse\" (1948)",

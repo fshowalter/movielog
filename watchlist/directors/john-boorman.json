@@ -3,10 +3,7 @@
   "slug": "john-boorman",
   "imdbId": "nm0000958",
   "titles": [
-    {
-      "imdbId": "tt4372024",
-      "title": "The Concrete Vision (1962) (TV)"
-    },
+    
     {
       "imdbId": "tt0059258",
       "title": "Having a Wild Weekend (1965)"
@@ -77,6 +74,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt4372024",
+      "title": "The Concrete Vision (1962) (TV)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt4366608",
       "title": "\"Southern Affairs\" (1958)",

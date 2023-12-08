@@ -79,10 +79,7 @@
       "imdbId": "tt0096029",
       "title": "Salome's Last Dance (1988)"
     },
-    {
-      "imdbId": "tt0096982",
-      "title": "A British Picture (1989) (TV)"
-    },
+    
     {
       "imdbId": "tt0097859",
       "title": "Il Mefistofele (1989) (TV)"
@@ -145,6 +142,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0096982",
+      "title": "A British Picture (1989) (TV)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt0049417",
       "title": "Knights on Bikes (1956)",

@@ -72,15 +72,16 @@
       "title": "Mortuary (2005)"
     },
     {
-      "imdbId": "tt3087848",
-      "title": "Destiny Express Redux (2009)"
-    },
-    {
       "imdbId": "tt1770672",
       "title": "Djinn (2013)"
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt3087848",
+      "title": "Destiny Express Redux (2009)",
+      "reason": "only exists in his novel, Midnight Movie"
+    },
     {
       "imdbId": "tt14908620",
       "title": "The Abyss (1959)",

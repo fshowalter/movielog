@@ -375,10 +375,7 @@
       "imdbId": "tt0074260",
       "title": "The Butterfly Ball (1977)"
     },
-    {
-      "imdbId": "tt0362824",
-      "title": "Lindsay Wagner: Another Side of Me (1977)"
-    },
+    
     {
       "imdbId": "tt0077071",
       "title": "Ringo (1978) (TV)"
@@ -441,6 +438,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0362824",
+      "title": "Lindsay Wagner: Another Side of Me (1977)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt0041037",
       "title": "\"Lights Out\" (1946)",

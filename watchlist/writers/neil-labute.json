@@ -27,10 +27,7 @@
       "imdbId": "tt0450345",
       "title": "The Wicker Man (2006)"
     },
-    {
-      "imdbId": "tt2644980",
-      "title": "Stars in Shorts (2012)"
-    },
+    
     {
       "imdbId": "tt2201221",
       "title": "Some Girl(S) (2013)"
@@ -65,6 +62,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt2644980",
+      "title": "Stars in Shorts (2012)",
+      "reason": "shorts compilation"
+    },
     {
       "imdbId": "tt0391507",
       "title": "Tumble (2000)",

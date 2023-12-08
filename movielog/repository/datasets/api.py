@@ -17,6 +17,11 @@ TITLE_AKAS_FILE_NAME = "title.akas.tsv.gz"
 AllowList = {
     "tt0148615",  # Play Motel (1979) [X]
     "tt0070696",  # The Sinful Dwarf (1973) [X]
+    "tt0174456",  # Alice in Russialand (1995) [no principal cast]
+    "tt0199716",  # A Life in the Theatre (1979) [no principal cast]
+    "tt0084568",  # The Rainmaker (1982) [no principal cast]
+    "tt6883152",  # The Devil and Father Amorth (2017) [no principal cast]
+    "tt2608220",  # The Vatican (2013) [no principal cast]
 }
 
 DatasetName = _DatasetName
@@ -152,7 +157,7 @@ def extract_names(
             full_name=str(fields[1]),
             known_for_titles=[
                 titles[known_for_title_id]["full_title"]
-                for known_for_title_id in (fields[5] or [])
+                for known_for_title_id in (fields[5] or "").split(",")
                 if known_for_title_id in titles.keys()
             ],
         )

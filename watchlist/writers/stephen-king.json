@@ -255,10 +255,7 @@
       "imdbId": "tt1648190",
       "title": "The Dark Tower (2017)"
     },
-    {
-      "imdbId": "tt2332833",
-      "title": "The Milkman (2017)"
-    },
+    
     {
       "imdbId": "tt3748172",
       "title": "Gerald's Game (2017)"
@@ -295,14 +292,8 @@
       "imdbId": "tt7349950",
       "title": "It Chapter Two (2019)"
     },
-    {
-      "imdbId": "tt7631002",
-      "title": "The Doctor's Case (2019)"
-    },
-    {
-      "imdbId": "tt7215646",
-      "title": "The Dark Tower (2020) (TV)"
-    },
+    
+    
     {
       "imdbId": "tt15528116",
       "title": "The Timekeepers of Eternity (2021)"
@@ -329,6 +320,21 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt7631002",
+      "title": "The Doctor's Case (2019)",
+      "reason": "unfinished"
+    },
+    {
+      "imdbId": "tt7215646",
+      "title": "The Dark Tower (2020) (TV)",
+      "reason": "aborted Amazon series pilot"
+    },
+    {
+      "imdbId": "tt2332833",
+      "title": "The Milkman (2017)",
+      "reason": "short"
+    },
     {
       "imdbId": "tt0079844",
       "title": "\"Salem's Lot\" (1979) (mini)",

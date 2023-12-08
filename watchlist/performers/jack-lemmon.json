@@ -179,10 +179,7 @@
       "imdbId": "tt0097142",
       "title": "Dad (1989)"
     },
-    {
-      "imdbId": "tt0255132",
-      "title": "The Earth Day Special (1990)"
-    },
+    
     {
       "imdbId": "tt0102138",
       "title": "JFK (1991)"
@@ -265,6 +262,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0255132",
+      "title": "The Earth Day Special (1990)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt0039123",
       "title": "\"Kraft Theatre\" (1947)",

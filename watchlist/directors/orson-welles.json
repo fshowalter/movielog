@@ -47,10 +47,7 @@
       "imdbId": "tt0048393",
       "title": "Confidential Report (1955)"
     },
-    {
-      "imdbId": "tt0349829",
-      "title": "Moby Dick Rehearsed (1955) (TV)"
-    },
+    
     {
       "imdbId": "tt0052311",
       "title": "Touch of Evil (1958)"
@@ -91,14 +88,8 @@
       "imdbId": "tt7350986",
       "title": "Don Quixote (1972)"
     },
-    {
-      "imdbId": "tt0173582",
-      "title": "The Orson Welles Show (1979)"
-    },
-    {
-      "imdbId": "tt0104121",
-      "title": "Don Quixote (1992)"
-    },
+    
+    
     {
       "imdbId": "tt29596750",
       "title": "Chimes at Midnight (2016)"
@@ -109,6 +100,21 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0349829",
+      "title": "Moby Dick Rehearsed (1955) (TV)",
+      "reason": "unfinished"
+    },
+    {
+      "imdbId": "tt0104121",
+      "title": "Don Quixote (1992)",
+      "reason": "unfinished"
+    },
+    {
+      "imdbId": "tt0173582",
+      "title": "The Orson Welles Show (1979)",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt7794952",
       "title": "Twelfth Night (1933)",
