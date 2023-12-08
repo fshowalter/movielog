@@ -51,7 +51,7 @@ def mock_download_dir(mocker: MockerFixture, tmp_path: Path) -> None:
 
 @pytest.fixture(autouse=True)
 def mock_exports_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
-    mocker.patch("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path)
+    mocker.patch("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path / "export")
 
 
 @pytest.fixture(autouse=True)
