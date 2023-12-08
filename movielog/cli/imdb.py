@@ -6,15 +6,15 @@ def prompt() -> None:
     options = [
         (
             repository_api.update_datasets,
-            "<cyan>Update dataset data (title, year, original title, runtime, and votes).</cyan>",
+            "Update <cyan>dataset</cyan> data (<cyan>title</cyan>, <cyan>year</cyan>, <cyan>original title</cyan>, <cyan>runtime</cyan>, and <cyan>votes</cyan>).",  # noqa: E501
         ),
         (
             repository_api.update_title_data,
-            "<cyan>Update page data (cast, genres, release date, and countries)</cyan>",
+            "Update <cyan>page</cyan> data (<cyan>cast</cyan>, <cyan>genres</cyan>, <cyan>release date</cyan>, and <cyan>countries</cyan>).",  # noqa: E501
         ),
         (
             repository_api.update_watchlist_credits,
-            "<cyan>Update titles for watchlist directors, performers, and writers.</cyan>",
+            "Update <cyan>titles</cyan> for <cyan>watchlist directors</cyan>, <cyan>performers</cyan>, and <cyan>writers</cyan>.",  # noqa: E501
         ),
         (
             repository_api.validate_data,

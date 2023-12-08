@@ -133,7 +133,7 @@ def prune_titles_with_no_principal_cast(
     removed = 0
 
     for title in list(titles.values()):
-        if not title["principal_cast"]:
+        if not title["principal_cast"] and title["imdb_id"] not in AllowList:
             del titles[title["imdb_id"]]  # noqa: WPS420
             removed += 1
 
