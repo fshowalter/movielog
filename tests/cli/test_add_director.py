@@ -13,7 +13,7 @@ from tests.cli.keys import Down, Enter, Escape
 
 
 @pytest.fixture(autouse=True)
-def mock_add_director(mocker: MockerFixture) -> MockerFixture:
+def mock_add_person_to_watchlist(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch(
         "movielog.cli.add_director.repository_api.add_person_to_watchlist"
     )
@@ -43,12 +43,12 @@ def seed_db() -> None:
 
 
 def test_calls_add_director(
-    mock_input: MockInput, mock_add_director: MagicMock
+    mock_input: MockInput, mock_add_person_to_watchlist: MagicMock
 ) -> None:
     mock_input(["Howard Hawks", Enter, Down, Enter, "y", Enter])
     add_director.prompt()
 
-    mock_add_director.assert_called_once_with(
+    mock_add_person_to_watchlist.assert_called_once_with(
         watchlist="directors",
         imdb_id="nm0001328",
         name="Howard Hawks",
@@ -56,9 +56,9 @@ def test_calls_add_director(
 
 
 def test_does_not_call_add_director_if_no_selection(
-    mock_input: MockInput, mock_add_director: MagicMock
+    mock_input: MockInput, mock_add_person_to_watchlist: MagicMock
 ) -> None:
     mock_input([Escape, Enter])
     add_director.prompt()
 
-    mock_add_director.assert_not_called()
+    mock_add_person_to_watchlist.assert_not_called()

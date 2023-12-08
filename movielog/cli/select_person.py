@@ -1,39 +1,35 @@
 import html
-from typing import Callable, List, Optional, Sequence, Tuple
+from typing import Iterable, Optional, Tuple
 
 from prompt_toolkit.formatted_text import AnyFormattedText
+from prompt_toolkit.shortcuts import confirm
 
-from movielog.cli import ask, confirm, person_searcher, radio_list
+from movielog.cli import ask, person_searcher, radio_list
 
 SearchResult = person_searcher.SearchResult
 Option = Tuple[Optional[SearchResult], AnyFormattedText]
 
 
-def prompt(
-    search_func: Callable[[str], Sequence[SearchResult]]
-) -> Optional[SearchResult]:
-    person = None
-
-    while person is None:
-        query = ask.prompt("Name: ", rprompt="Use ^ and $ to anchor")
+def prompt(prompt_text: str = "Name: ") -> Optional[SearchResult]:
+    while True:
+        query = ask.prompt(prompt_text, rprompt="Use ^ and $ to anchor")
 
         if query is None:
-            break
+            return None
 
-        search_results = search_func(query)
+        search_results = person_searcher.search_by_name(query)
+        options = build_options(search_results)
 
-        person = radio_list.prompt(
+        selected_person = radio_list.prompt(
             title='Results for "<cyan>{0}</cyan>":'.format(query),
-            options=build_options(search_results),
+            options=options,
         )
 
-    if not person:
-        return None
+        if selected_person is None:
+            continue
 
-    if confirm.prompt("<cyan>{0}</cyan>?".format(person.name)):
-        return person
-
-    return prompt(search_func)
+        if confirm(("{0}?".format(result_to_html_string(selected_person)))):
+            return selected_person
 
 
 def result_to_html_string(search_result: SearchResult) -> str:
@@ -43,11 +39,11 @@ def result_to_html_string(search_result: SearchResult) -> str:
     )
 
 
-def build_options(search_results: Sequence[SearchResult]) -> Sequence[Option]:
-    options: List[Option] = [(None, "Search again")]
+def build_options(search_results: Iterable[SearchResult]) -> list[Option]:
+    if not search_results:
+        return [(None, "Search Again")]
 
-    for search_result in search_results:
-        option = result_to_html_string(search_result)
-        options.append((search_result, option))
-
-    return options
+    return [
+        (search_result, result_to_html_string(search_result))
+        for search_result in search_results
+    ]

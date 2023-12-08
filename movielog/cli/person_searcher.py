@@ -1,3 +1,4 @@
+import json
 from dataclasses import dataclass
 
 from movielog.cli import query_formatter
@@ -27,7 +28,7 @@ def execute_search(query: str) -> list[SearchResult]:
         SearchResult(
             imdb_id=row["imdb_id"],
             name=row["full_name"],
-            known_for_titles=row["known_for_titles"],
+            known_for_titles=json.loads(row["known_for_titles"]),
         )
         for row in db.fetch_all(query)
     ]
