@@ -1,152 +1,220 @@
 {
-  "frozen": false,
   "name": "David Cronenberg",
   "slug": "david-cronenberg",
-  "imdb_id": "nm0000343",
-  "movies": [
+  "imdbId": "nm0000343",
+  "titles": [
     {
-      "title": "Stereo",
-      "year": 1969,
-      "imdb_id": "tt0065036",
-      "notes": "(Tile 3B of a CAEE Educational Mosaic)"
+      "imdbId": "tt0065036",
+      "title": "Stereo (Tile 3B of a CAEE Educational Mosaic) (1969)"
     },
     {
-      "title": "Crimes of the Future",
-      "year": 1970,
-      "imdb_id": "tt0065591",
-      "notes": ""
+      "imdbId": "tt0065591",
+      "title": "Crimes of the Future (1970)"
     },
     {
-      "title": "Shivers",
-      "year": 1975,
-      "imdb_id": "tt0073705",
-      "notes": ""
+      "imdbId": "tt0073705",
+      "title": "Shivers (1975)"
     },
     {
-      "title": "Rabid",
-      "year": 1977,
-      "imdb_id": "tt0076590",
-      "notes": ""
+      "imdbId": "tt0076590",
+      "title": "Rabid (1977)"
     },
     {
-      "title": "Fast Company",
-      "year": 1979,
-      "imdb_id": "tt0079138",
-      "notes": ""
+      "imdbId": "tt0078908",
+      "title": "The Brood (1979)"
     },
     {
-      "title": "The Brood",
-      "year": 1979,
-      "imdb_id": "tt0078908",
-      "notes": ""
+      "imdbId": "tt0079138",
+      "title": "Fast Company (1979)"
     },
     {
-      "title": "Scanners",
-      "year": 1981,
-      "imdb_id": "tt0081455",
-      "notes": ""
+      "imdbId": "tt0081455",
+      "title": "Scanners (1981)"
     },
     {
-      "title": "Videodrome",
-      "year": 1983,
-      "imdb_id": "tt0086541",
-      "notes": ""
+      "imdbId": "tt0085407",
+      "title": "The Dead Zone (1983)"
     },
     {
-      "title": "The Dead Zone",
-      "year": 1983,
-      "imdb_id": "tt0085407",
-      "notes": ""
+      "imdbId": "tt0086541",
+      "title": "Videodrome (1983)"
     },
     {
-      "title": "The Fly",
-      "year": 1986,
-      "imdb_id": "tt0091064",
-      "notes": ""
+      "imdbId": "tt0091064",
+      "title": "The Fly (1986)"
     },
     {
-      "title": "Dead Ringers",
-      "year": 1988,
-      "imdb_id": "tt0094964",
-      "notes": ""
+      "imdbId": "tt0094964",
+      "title": "Dead Ringers (1988)"
     },
     {
-      "title": "Naked Lunch",
-      "year": 1991,
-      "imdb_id": "tt0102511",
-      "notes": ""
+      "imdbId": "tt0102511",
+      "title": "Naked Lunch (1991)"
     },
     {
-      "title": "M. Butterfly",
-      "year": 1993,
-      "imdb_id": "tt0107468",
-      "notes": ""
+      "imdbId": "tt0107468",
+      "title": "M. Butterfly (1993)"
     },
     {
-      "title": "Crash",
-      "year": 1996,
-      "imdb_id": "tt0115964",
-      "notes": ""
+      "imdbId": "tt0115964",
+      "title": "Crash (1996)"
     },
     {
-      "title": "eXistenZ",
-      "year": 1999,
-      "imdb_id": "tt0120907",
-      "notes": ""
+      "imdbId": "tt0120907",
+      "title": "eXistenZ (1999)"
     },
     {
-      "title": "Short6",
-      "year": 2001,
-      "imdb_id": "tt1612776",
-      "notes": ""
+      "imdbId": "tt1612776",
+      "title": "Short6 (2001)"
     },
     {
-      "title": "Spider",
-      "year": 2002,
-      "imdb_id": "tt0278731",
-      "notes": ""
+      "imdbId": "tt0278731",
+      "title": "Spider (2002)"
     },
     {
-      "title": "A History of Violence",
-      "year": 2005,
-      "imdb_id": "tt0399146",
-      "notes": ""
+      "imdbId": "tt0399146",
+      "title": "A History of Violence (2005)"
     },
     {
-      "title": "To Each His Own Cinema",
-      "year": 2007,
-      "imdb_id": "tt0973844",
-      "notes": ""
+      "imdbId": "tt0765443",
+      "title": "Eastern Promises (2007)"
     },
     {
-      "title": "Eastern Promises",
-      "year": 2007,
-      "imdb_id": "tt0765443",
-      "notes": ""
+      "imdbId": "tt0973844",
+      "title": "To Each His Own Cinema (2007)"
     },
     {
-      "title": "A Dangerous Method",
-      "year": 2011,
-      "imdb_id": "tt1571222",
-      "notes": ""
+      "imdbId": "tt1571222",
+      "title": "A Dangerous Method (2011)"
     },
     {
-      "title": "Cosmopolis",
-      "year": 2012,
-      "imdb_id": "tt1480656",
-      "notes": ""
+      "imdbId": "tt1480656",
+      "title": "Cosmopolis (2012)"
     },
     {
-      "title": "Maps to the Stars",
-      "year": 2014,
-      "imdb_id": "tt2172584",
-      "notes": ""
+      "imdbId": "tt2172584",
+      "title": "Maps to the Stars (2014)"
     },
     {
-      "title": "Crimes of the Future",
-      "year": 2022,
-      "imdb_id": "tt14549466",
-      "notes": ""
+      "imdbId": "tt14549466",
+      "title": "Crimes of the Future (2022)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0061114",
+      "title": "Transfer (1966)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0061687",
+      "title": "From the Drain (1967)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0246383",
+      "title": "\"Programme X\" (1970)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0067273",
+      "title": "Jim Ritchie Sculptor (1971) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0249707",
+      "title": "Letter from Michelangelo (1971) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0250055",
+      "title": "Tourettes (1971) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0249479",
+      "title": "Don Valley (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0249519",
+      "title": "Fort York (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0249595",
+      "title": "In the Dirt (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0249678",
+      "title": "Lakeshore (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0249941",
+      "title": "Scarborough Bluffs (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0250117",
+      "title": "Winter Garden (1972) (TV)",
+      "reason": "Short, tv movie"
+    },
+    {
+      "imdbId": "tt0250905",
+      "title": "\"Peep Show\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0250924",
+      "title": "\"Teleplay\" (1976)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt8242172",
+      "title": "\"Canadian Reflections\" (1978)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0092357",
+      "title": "\"Friday the 13th: The Series\" (1987)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0180977",
+      "title": "\"Scales of Justice\" (1990)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0260776",
+      "title": "Camera (2000)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt21806974",
+      "title": "A History of Violence: Deleted Scene - Scene 44 (2006) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt14148306",
+      "title": "At the Suicide of the Last Jew in the World in the Last Cinema in the World (2007)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3831484",
+      "title": "The Nest (2013)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3715254",
+      "title": "Consumed (2014) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt15482624",
+      "title": "The Death of David Cronenberg (2021) (V)",
+      "reason": "Short"
     }
   ]
 }

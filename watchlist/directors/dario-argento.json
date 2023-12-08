@@ -1,128 +1,123 @@
 {
-  "frozen": false,
   "name": "Dario Argento",
   "slug": "dario-argento",
-  "imdb_id": "nm0000783",
-  "movies": [
+  "imdbId": "nm0000783",
+  "titles": [
     {
-      "title": "The Bird with the Crystal Plumage",
-      "year": 1970,
-      "imdb_id": "tt0065143",
-      "notes": ""
+      "imdbId": "tt0065143",
+      "title": "The Bird with the Crystal Plumage (1970)"
     },
     {
-      "title": "The Cat o' Nine Tails",
-      "year": 1971,
-      "imdb_id": "tt0065761",
-      "notes": ""
+      "imdbId": "tt0065761",
+      "title": "The Cat o' Nine Tails (1971)"
     },
     {
-      "title": "Four Flies on Grey Velvet",
-      "year": 1971,
-      "imdb_id": "tt0066735",
-      "notes": ""
+      "imdbId": "tt0066735",
+      "title": "Four Flies on Grey Velvet (1971)"
     },
     {
-      "title": "The Five Days",
-      "year": 1973,
-      "imdb_id": "tt0069884",
-      "notes": ""
+      "imdbId": "tt0069884",
+      "title": "The Five Days (1973)"
     },
     {
-      "title": "Deep Red",
-      "year": 1975,
-      "imdb_id": "tt0073582",
-      "notes": ""
+      "imdbId": "tt0073582",
+      "title": "Deep Red (1975)"
     },
     {
-      "title": "Suspiria",
-      "year": 1977,
-      "imdb_id": "tt0076786",
-      "notes": ""
+      "imdbId": "tt0076786",
+      "title": "Suspiria (1977)"
     },
     {
-      "title": "Inferno",
-      "year": 1980,
-      "imdb_id": "tt0080923",
-      "notes": ""
+      "imdbId": "tt0080923",
+      "title": "Inferno (1980)"
     },
     {
-      "title": "Tenebrae",
-      "year": 1982,
-      "imdb_id": "tt0084777",
-      "notes": ""
+      "imdbId": "tt0084777",
+      "title": "Tenebrae (1982)"
     },
     {
-      "title": "Phenomena",
-      "year": 1985,
-      "imdb_id": "tt0087909",
-      "notes": ""
+      "imdbId": "tt0087909",
+      "title": "Phenomena (1985)"
     },
     {
-      "title": "Opera",
-      "year": 1987,
-      "imdb_id": "tt0093677",
-      "notes": ""
+      "imdbId": "tt0093677",
+      "title": "Opera (1987)"
     },
     {
-      "title": "Two Evil Eyes",
-      "year": 1990,
-      "imdb_id": "tt0100827",
-      "notes": ""
+      "imdbId": "tt0100827",
+      "title": "Two Evil Eyes (1990)"
     },
     {
-      "title": "Trauma",
-      "year": 1993,
-      "imdb_id": "tt0104053",
-      "notes": ""
+      "imdbId": "tt0104053",
+      "title": "Trauma (1993)"
     },
     {
-      "title": "The Stendhal Syndrome",
-      "year": 1996,
-      "imdb_id": "tt0117658",
-      "notes": ""
+      "imdbId": "tt0117658",
+      "title": "The Stendhal Syndrome (1996)"
     },
     {
-      "title": "The Phantom of the Opera",
-      "year": 1998,
-      "imdb_id": "tt0119889",
-      "notes": ""
+      "imdbId": "tt0119889",
+      "title": "The Phantom of the Opera (1998)"
     },
     {
-      "title": "Sleepless",
-      "year": 2001,
-      "imdb_id": "tt0220827",
-      "notes": ""
+      "imdbId": "tt0220827",
+      "title": "Sleepless (2001)"
     },
     {
-      "title": "The Card Player",
-      "year": 2003,
-      "imdb_id": "tt0330691",
-      "notes": ""
+      "imdbId": "tt0330691",
+      "title": "The Card Player (2003)"
     },
     {
-      "title": "Mother of Tears",
-      "year": 2007,
-      "imdb_id": "tt0804507",
-      "notes": ""
+      "imdbId": "tt0430676",
+      "title": "Do You Like Hitchcock? (2005) (TV)"
     },
     {
-      "title": "Giallo",
-      "year": 2009,
-      "imdb_id": "tt1107816",
-      "notes": ""
+      "imdbId": "tt0804507",
+      "title": "Mother of Tears (2007)"
     },
     {
-      "title": "Dracula 3D",
-      "year": 2012,
-      "imdb_id": "tt1852770",
-      "notes": ""
+      "imdbId": "tt1107816",
+      "title": "Giallo (2009)"
     },
     {
-      "title": "Dark Glasses",
-      "year": 2022,
-      "imdb_id": "tt10935560",
-      "notes": ""
+      "imdbId": "tt1852770",
+      "title": "Dracula 3D (2012)"
+    },
+    {
+      "imdbId": "tt10935560",
+      "title": "Dark Glasses (2022)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt1414347",
+      "title": "\"La porta sul buio\" (1973)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt8985288",
+      "title": "\"Gli incubi di Dario Argento\" (1987)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt2243597",
+      "title": "The King of Ads (1991)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt11987418",
+      "title": "AIMA: Vicolo cieco (1999)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11987392",
+      "title": "Eridania: Zefiro (2002)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0448190",
+      "title": "\"Masters of Horror\" (2005)",
+      "reason": "tv series"
     }
   ]
 }

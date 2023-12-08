@@ -4,16 +4,13 @@
   "isort.args": ["--profile", "black"],
   "[python]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyArgs": ["--show-column-numbers"],
-  "python.linting.mypyEnabled": true,
-  "python.formatting.provider": "black",
-  "python.testing.pytestArgs": [],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "python.analysis.typeCheckingMode": "basic"
 }

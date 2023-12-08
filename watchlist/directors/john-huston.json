@@ -1,254 +1,203 @@
 {
-  "frozen": true,
   "name": "John Huston",
   "slug": "john-huston",
-  "imdb_id": "nm0001379",
-  "movies": [
+  "imdbId": "nm0001379",
+  "titles": [
     {
-      "title": "The Maltese Falcon",
-      "year": 1941,
-      "imdb_id": "tt0033870",
-      "notes": null
+      "imdbId": "tt0033870",
+      "title": "The Maltese Falcon (1941)"
     },
     {
-      "title": "In This Our Life",
-      "year": 1942,
-      "imdb_id": "tt0034890",
-      "notes": null
+      "imdbId": "tt0034428",
+      "title": "Across the Pacific (1942)"
     },
     {
-      "title": "Across the Pacific",
-      "year": 1942,
-      "imdb_id": "tt0034428",
-      "notes": null
+      "imdbId": "tt0034890",
+      "title": "In This Our Life (1942)"
     },
     {
-      "title": "The Treasure of the Sierra Madre",
-      "year": 1948,
-      "imdb_id": "tt0040897",
-      "notes": null
+      "imdbId": "tt0040506",
+      "title": "Key Largo (1948)"
     },
     {
-      "title": "On Our Merry Way",
-      "year": 1948,
-      "imdb_id": "tt0040664",
-      "notes": "(uncredited)"
+      "imdbId": "tt0040664",
+      "title": "On Our Merry Way (1948)"
     },
     {
-      "title": "Key Largo",
-      "year": 1948,
-      "imdb_id": "tt0040506",
-      "notes": null
+      "imdbId": "tt0040897",
+      "title": "The Treasure of the Sierra Madre (1948)"
     },
     {
-      "title": "We Were Strangers",
-      "year": 1949,
-      "imdb_id": "tt0042035",
-      "notes": null
+      "imdbId": "tt0042035",
+      "title": "We Were Strangers (1949)"
     },
     {
-      "title": "The Asphalt Jungle",
-      "year": 1950,
-      "imdb_id": "tt0042208",
-      "notes": null
+      "imdbId": "tt0042208",
+      "title": "The Asphalt Jungle (1950)"
     },
     {
-      "title": "The Red Badge of Courage",
-      "year": 1951,
-      "imdb_id": "tt0043961",
-      "notes": null
+      "imdbId": "tt0043265",
+      "title": "The African Queen (1951)"
     },
     {
-      "title": "The African Queen",
-      "year": 1951,
-      "imdb_id": "tt0043265",
-      "notes": null
+      "imdbId": "tt0043961",
+      "title": "The Red Badge of Courage (1951)"
     },
     {
-      "title": "Moulin Rouge",
-      "year": 1952,
-      "imdb_id": "tt0044926",
-      "notes": null
+      "imdbId": "tt0044926",
+      "title": "Moulin Rouge (1952)"
     },
     {
-      "title": "Beat the Devil",
-      "year": 1953,
-      "imdb_id": "tt0046414",
-      "notes": null
+      "imdbId": "tt0046414",
+      "title": "Beat the Devil (1953)"
     },
     {
-      "title": "Moby Dick",
-      "year": 1956,
-      "imdb_id": "tt0049513",
-      "notes": null
+      "imdbId": "tt0049513",
+      "title": "Moby Dick (1956)"
     },
     {
-      "title": "Heaven Knows, Mr. Allison",
-      "year": 1957,
-      "imdb_id": "tt0050490",
-      "notes": null
+      "imdbId": "tt0050379",
+      "title": "A Farewell to Arms (1957)"
     },
     {
-      "title": "A Farewell to Arms",
-      "year": 1957,
-      "imdb_id": "tt0050379",
-      "notes": "(uncredited)"
+      "imdbId": "tt0050490",
+      "title": "Heaven Knows, Mr. Allison (1957)"
     },
     {
-      "title": "The Barbarian and the Geisha",
-      "year": 1958,
-      "imdb_id": "tt0051398",
-      "notes": null
+      "imdbId": "tt0051398",
+      "title": "The Barbarian and the Geisha (1958)"
     },
     {
-      "title": "The Roots of Heaven",
-      "year": 1958,
-      "imdb_id": "tt0052148",
-      "notes": null
+      "imdbId": "tt0052148",
+      "title": "The Roots of Heaven (1958)"
     },
     {
-      "title": "The Unforgiven",
-      "year": 1960,
-      "imdb_id": "tt0054428",
-      "notes": null
+      "imdbId": "tt0054428",
+      "title": "The Unforgiven (1960)"
     },
     {
-      "title": "The Misfits",
-      "year": 1961,
-      "imdb_id": "tt0055184",
-      "notes": null
+      "imdbId": "tt0055184",
+      "title": "The Misfits (1961)"
     },
     {
-      "title": "Freud",
-      "year": 1962,
-      "imdb_id": "tt0055998",
-      "notes": null
+      "imdbId": "tt0055998",
+      "title": "Freud (1962)"
     },
     {
-      "title": "The List of Adrian Messenger",
-      "year": 1963,
-      "imdb_id": "tt0057254",
-      "notes": null
+      "imdbId": "tt0057254",
+      "title": "The List of Adrian Messenger (1963)"
     },
     {
-      "title": "The Night of the Iguana",
-      "year": 1964,
-      "imdb_id": "tt0058404",
-      "notes": null
+      "imdbId": "tt0058404",
+      "title": "The Night of the Iguana (1964)"
     },
     {
-      "title": "The Bible: In the Beginning...",
-      "year": 1966,
-      "imdb_id": "tt0060164",
-      "notes": null
+      "imdbId": "tt0060164",
+      "title": "The Bible: In the Beginning... (1966)"
     },
     {
-      "title": "Casino Royale",
-      "year": 1967,
-      "imdb_id": "tt0061452",
-      "notes": "(scenes at Sir James Bond's house and castle in Scotland scenes)"
+      "imdbId": "tt0061452",
+      "title": "Casino Royale (1967)"
     },
     {
-      "title": "Reflections in a Golden Eye",
-      "year": 1967,
-      "imdb_id": "tt0062185",
-      "notes": null
+      "imdbId": "tt0062185",
+      "title": "Reflections in a Golden Eye (1967)"
     },
     {
-      "title": "Sinful Davey",
-      "year": 1969,
-      "imdb_id": "tt0064988",
-      "notes": null
+      "imdbId": "tt0064988",
+      "title": "Sinful Davey (1969)"
     },
     {
-      "title": "A Walk with Love and Death",
-      "year": 1969,
-      "imdb_id": "tt0065195",
-      "notes": null
+      "imdbId": "tt0065195",
+      "title": "A Walk with Love and Death (1969)"
     },
     {
-      "title": "The Kremlin Letter",
-      "year": 1970,
-      "imdb_id": "tt0065950",
-      "notes": null
+      "imdbId": "tt0065950",
+      "title": "The Kremlin Letter (1970)"
     },
     {
-      "title": "The Last Run",
-      "year": 1971,
-      "imdb_id": "tt0067329",
-      "notes": "(uncredited)"
+      "imdbId": "tt0067329",
+      "title": "The Last Run (1971)"
     },
     {
-      "title": "Fat City",
-      "year": 1972,
-      "imdb_id": "tt0068575",
-      "notes": null
+      "imdbId": "tt0068575",
+      "title": "Fat City (1972)"
     },
     {
-      "title": "The Life and Times of Judge Roy Bean",
-      "year": 1972,
-      "imdb_id": "tt0068853",
-      "notes": null
+      "imdbId": "tt0068853",
+      "title": "The Life and Times of Judge Roy Bean (1972)"
     },
     {
-      "title": "The MacKintosh Man",
-      "year": 1973,
-      "imdb_id": "tt0070351",
-      "notes": null
+      "imdbId": "tt0070351",
+      "title": "The MacKintosh Man (1973)"
     },
     {
-      "title": "The Man Who Would Be King",
-      "year": 1975,
-      "imdb_id": "tt0073341",
-      "notes": null
+      "imdbId": "tt0073341",
+      "title": "The Man Who Would Be King (1975)"
     },
     {
-      "title": "Love and Bullets",
-      "year": 1979,
-      "imdb_id": "tt0079488",
-      "notes": "(uncredited)"
+      "imdbId": "tt0079488",
+      "title": "Love and Bullets (1979)"
     },
     {
-      "title": "Wise Blood",
-      "year": 1979,
-      "imdb_id": "tt0080140",
-      "notes": "(as Jhon Huston)"
+      "imdbId": "tt0080140",
+      "title": "Wise Blood (1979)"
     },
     {
-      "title": "Phobia",
-      "year": 1980,
-      "imdb_id": "tt0081334",
-      "notes": null
+      "imdbId": "tt0081334",
+      "title": "Phobia (1980)"
     },
     {
-      "title": "Victory",
-      "year": 1981,
-      "imdb_id": "tt0083284",
-      "notes": null
+      "imdbId": "tt0083284",
+      "title": "Victory (1981)"
     },
     {
-      "title": "Annie",
-      "year": 1982,
-      "imdb_id": "tt0083564",
-      "notes": null
+      "imdbId": "tt0083564",
+      "title": "Annie (1982)"
     },
     {
-      "title": "Under the Volcano",
-      "year": 1984,
-      "imdb_id": "tt0088322",
-      "notes": null
+      "imdbId": "tt0088322",
+      "title": "Under the Volcano (1984)"
     },
     {
-      "title": "Prizzi's Honor",
-      "year": 1985,
-      "imdb_id": "tt0089841",
-      "notes": null
+      "imdbId": "tt0089841",
+      "title": "Prizzi's Honor (1985)"
     },
     {
-      "title": "The Dead",
-      "year": 1987,
-      "imdb_id": "tt0092843",
-      "notes": null
+      "imdbId": "tt0092843",
+      "title": "The Dead (1987)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0035565",
+      "title": "Winning Your Wings (1942)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0036301",
+      "title": "Report from the Aleutians (1943)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0037404",
+      "title": "Tunisian Victory (1944)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0036630",
+      "title": "San Pietro (1945)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0074679",
+      "title": "Independence (1976)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0038687",
+      "title": "Let There Be Light (1980)",
+      "reason": "Documentary"
     }
   ]
 }

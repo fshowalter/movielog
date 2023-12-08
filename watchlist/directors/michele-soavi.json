@@ -1,50 +1,131 @@
 {
-  "frozen": false,
   "name": "Michele Soavi",
   "slug": "michele-soavi",
-  "imdb_id": "nm0811714",
-  "movies": [
+  "imdbId": "nm0811714",
+  "titles": [
     {
-      "title": "StageFright",
-      "year": 1987,
-      "imdb_id": "tt0092576",
-      "notes": ""
+      "imdbId": "tt0092576",
+      "title": "StageFright (1987)"
     },
     {
-      "title": "The Church",
-      "year": 1989,
-      "imdb_id": "tt0094860",
-      "notes": ""
+      "imdbId": "tt0094860",
+      "title": "The Church (1989)"
     },
     {
-      "title": "The Sect",
-      "year": 1991,
-      "imdb_id": "tt0100581",
-      "notes": ""
+      "imdbId": "tt0100581",
+      "title": "The Sect (1991)"
     },
     {
-      "title": "Cemetery Man",
-      "year": 1994,
-      "imdb_id": "tt0109592",
-      "notes": ""
+      "imdbId": "tt0109592",
+      "title": "Cemetery Man (1994)"
     },
     {
-      "title": "The Goodbye Kiss",
-      "year": 2006,
-      "imdb_id": "tt0325011",
-      "notes": ""
+      "imdbId": "tt0206374",
+      "title": "Ultimo 2 - La sfida (1999) (TV)"
     },
     {
-      "title": "Blood of the Losers",
-      "year": 2008,
-      "imdb_id": "tt1270685",
-      "notes": ""
+      "imdbId": "tt0276594",
+      "title": "Uno bianca (2001) (TV)"
     },
     {
-      "title": "The Legend of the Christmas Witch",
-      "year": 2018,
-      "imdb_id": "tt8539280",
-      "notes": ""
+      "imdbId": "tt0320600",
+      "title": "Il testimone (2001) (TV)"
+    },
+    {
+      "imdbId": "tt0338045",
+      "title": "Francesco (2002) (TV)"
+    },
+    {
+      "imdbId": "tt0356153",
+      "title": "Ultima pallottola (2003) (TV)"
+    },
+    {
+      "imdbId": "tt0390786",
+      "title": "Ultimo 3 - L'infiltrato (2004) (TV)"
+    },
+    {
+      "imdbId": "tt0325011",
+      "title": "The Goodbye Kiss (2006)"
+    },
+    {
+      "imdbId": "tt0465697",
+      "title": "Political Target (2006) (TV)"
+    },
+    {
+      "imdbId": "tt1010032",
+      "title": "Nassiryia - Per non dimenticare (2007) (TV)"
+    },
+    {
+      "imdbId": "tt1270685",
+      "title": "Blood of the Losers (2008)"
+    },
+    {
+      "imdbId": "tt2450898",
+      "title": "Adriano Olivetti: La forza di un sogno (2013) (TV)"
+    },
+    {
+      "imdbId": "tt3141672",
+      "title": "Ultimo 4 - L'occhio del falco (2013) (TV)"
+    },
+    {
+      "imdbId": "tt7545122",
+      "title": "Rocco Chinnici (2018) (TV)"
+    },
+    {
+      "imdbId": "tt8539280",
+      "title": "The Legend of the Christmas Witch (2018)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0088989",
+      "title": "Dario Argento's World of Horror (1985)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0242999",
+      "title": "Valley (1985) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1866379",
+      "title": "\"Anti-Drug Squad\" (2011)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt4447092",
+      "title": "\"Sfida al cielo - La narcotici 2\" (2015)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt5632472",
+      "title": "\"Questo \u00e8 il mio paese\" (2015) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt6231158",
+      "title": "\"Rocco Schiavone\" (2016)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt10034574",
+      "title": "\"While I Was Away\" (2019) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt11615090",
+      "title": "\"La guerra \u00e8 finita\" (2020) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt14255042",
+      "title": "\"M\u00e0kari\" (2021)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt7950716",
+      "title": "\"Blanca\" (2021)",
+      "reason": "tv series"
     }
   ]
 }

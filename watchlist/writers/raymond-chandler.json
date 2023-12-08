@@ -1,98 +1,195 @@
 {
-  "frozen": false,
   "name": "Raymond Chandler",
   "slug": "raymond-chandler",
-  "imdb_id": "nm0151452",
-  "movies": [
+  "imdbId": "nm0151452",
+  "titles": [
     {
-      "title": "The Falcon Takes Over",
-      "year": 1942,
-      "imdb_id": "tt0034716",
-      "notes": ""
+      "imdbId": "tt0034716",
+      "title": "The Falcon Takes Over (1942)"
     },
     {
-      "title": "Time to Kill",
-      "year": 1942,
-      "imdb_id": "tt0035443",
-      "notes": ""
+      "imdbId": "tt0035443",
+      "title": "Time to Kill (1942)"
     },
     {
-      "title": "Double Indemnity",
-      "year": 1944,
-      "imdb_id": "tt0036775",
-      "notes": ""
+      "imdbId": "tt0036599",
+      "title": "And Now Tomorrow (1944)"
     },
     {
-      "title": "And Now Tomorrow",
-      "year": 1944,
-      "imdb_id": "tt0036599",
-      "notes": ""
+      "imdbId": "tt0036775",
+      "title": "Double Indemnity (1944)"
     },
     {
-      "title": "Murder, My Sweet",
-      "year": 1944,
-      "imdb_id": "tt0037101",
-      "notes": ""
+      "imdbId": "tt0037101",
+      "title": "Murder, My Sweet (1944)"
     },
     {
-      "title": "The Unseen",
-      "year": 1945,
-      "imdb_id": "tt0038205",
-      "notes": ""
+      "imdbId": "tt0038205",
+      "title": "The Unseen (1945)"
     },
     {
-      "title": "The Blue Dahlia",
-      "year": 1946,
-      "imdb_id": "tt0038369",
-      "notes": ""
+      "imdbId": "tt0038355",
+      "title": "The Big Sleep (1946)"
     },
     {
-      "title": "The Big Sleep",
-      "year": 1946,
-      "imdb_id": "tt0038355",
-      "notes": ""
+      "imdbId": "tt0038369",
+      "title": "The Blue Dahlia (1946)"
     },
     {
-      "title": "Lady in the Lake",
-      "year": 1946,
-      "imdb_id": "tt0039545",
-      "notes": ""
+      "imdbId": "tt0039545",
+      "title": "Lady in the Lake (1946)"
     },
     {
-      "title": "The Brasher Doubloon",
-      "year": 1947,
-      "imdb_id": "tt0039217",
-      "notes": ""
+      "imdbId": "tt0039217",
+      "title": "The Brasher Doubloon (1947)"
     },
     {
-      "title": "Strangers on a Train",
-      "year": 1951,
-      "imdb_id": "tt0044079",
-      "notes": ""
+      "imdbId": "tt0044079",
+      "title": "Strangers on a Train (1951)"
     },
     {
-      "title": "Marlowe",
-      "year": 1969,
-      "imdb_id": "tt0064638",
-      "notes": ""
+      "imdbId": "tt0064638",
+      "title": "Marlowe (1969)"
     },
     {
-      "title": "The Long Goodbye",
-      "year": 1973,
-      "imdb_id": "tt0070334",
-      "notes": ""
+      "imdbId": "tt0070000",
+      "title": "Double Indemnity (1973) (TV)"
     },
     {
-      "title": "Farewell, My Lovely",
-      "year": 1975,
-      "imdb_id": "tt0072973",
-      "notes": ""
+      "imdbId": "tt0070334",
+      "title": "The Long Goodbye (1973)"
     },
     {
-      "title": "The Big Sleep",
-      "year": 1978,
-      "imdb_id": "tt0077234",
-      "notes": ""
+      "imdbId": "tt0072973",
+      "title": "Farewell, My Lovely (1975)"
+    },
+    {
+      "imdbId": "tt0077234",
+      "title": "The Big Sleep (1978)"
+    },
+    {
+      "imdbId": "tt0084113",
+      "title": "Ich werde warten (1982) (TV)"
+    },
+    {
+      "imdbId": "tt0117244",
+      "title": "Once You Meet a Stranger (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0145400",
+      "title": "Poodle Springs (1998) (TV)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0040049",
+      "title": "\"The Philco Television Playhouse\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0040051",
+      "title": "\"Studio One\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042098",
+      "title": "\"Danger\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042123",
+      "title": "\"Lux Video Theatre\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042127",
+      "title": "\"Nash Airflyte Theatre\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0042141",
+      "title": "\"Robert Montgomery Presents\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0043228",
+      "title": "\"Schlitz Playhouse\" (1951)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0350461",
+      "title": "\"TV de Vanguarda\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046587",
+      "title": "\"Climax!\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051247",
+      "title": "\"77 Sunset Strip\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052501",
+      "title": "\"Philip Marlowe\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0405597",
+      "title": "\"Storyboard\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt7563908",
+      "title": "Aspetter\u00f2 (1978) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0096677",
+      "title": "\"Philip Marlowe, Private Eye\" (1983)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0093791",
+      "title": "Morning Patrol (1987)",
+      "reason": "(excerpt)"
+    },
+    {
+      "imdbId": "tt0105994",
+      "title": "\"Fallen Angels\" (1993)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0378341",
+      "title": "Smart Philip (2003)",
+      "reason": "(character)"
+    },
+    {
+      "imdbId": "tt0955296",
+      "title": "Marlowe (2007) (TV)",
+      "reason": "(characters)"
+    },
+    {
+      "imdbId": "tt3465830",
+      "title": "\"The Long Goodbye\" (2014) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt12571424",
+      "title": "Cineficci\u00f3n Radio (2019)",
+      "reason": "podcast series"
+    },
+    {
+      "imdbId": "tt6722802",
+      "title": "Marlowe (2022)",
+      "reason": "(based on characters by) (uncredited)"
+    },
+    {
+      "imdbId": "tt0949779",
+      "title": "Trouble is My Business",
+      "reason": "abandoned"
     }
   ]
 }

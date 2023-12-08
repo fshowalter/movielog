@@ -1,404 +1,785 @@
 {
-  "frozen": true,
   "name": "James Coburn",
   "slug": "james-coburn",
-  "imdb_id": "nm0000336",
-  "movies": [
+  "imdbId": "nm0000336",
+  "titles": [
     {
-      "title": "Ride Lonesome",
-      "year": 1959,
-      "imdb_id": "tt0053220",
-      "notes": "Whit"
+      "imdbId": "tt0052794",
+      "title": "Face of a Fugitive (1959)"
     },
     {
-      "title": "Face of a Fugitive",
-      "year": 1959,
-      "imdb_id": "tt0052794",
-      "notes": "Purdy"
+      "imdbId": "tt0053220",
+      "title": "Ride Lonesome (1959)"
     },
     {
-      "title": "The Magnificent Seven",
-      "year": 1960,
-      "imdb_id": "tt0054047",
-      "notes": "Britt"
+      "imdbId": "tt0054047",
+      "title": "The Magnificent Seven (1960)"
     },
     {
-      "title": "Hell Is for Heroes",
-      "year": 1962,
-      "imdb_id": "tt0056062",
-      "notes": "Cpl. Henshaw"
+      "imdbId": "tt0056062",
+      "title": "Hell Is for Heroes (1962)"
     },
     {
-      "title": "The Great Escape",
-      "year": 1963,
-      "imdb_id": "tt0057115",
-      "notes": "Sedgwick 'Manufacturer'"
+      "imdbId": "tt0056923",
+      "title": "Charade (1963)"
     },
     {
-      "title": "Charade",
-      "year": 1963,
-      "imdb_id": "tt0056923",
-      "notes": "Tex Panthollow"
+      "imdbId": "tt0057115",
+      "title": "The Great Escape (1963)"
     },
     {
-      "title": "The Man from Galveston",
-      "year": 1963,
-      "imdb_id": "tt0057283",
-      "notes": "Boyd Palmer"
+      "imdbId": "tt0057283",
+      "title": "The Man from Galveston (1963)"
     },
     {
-      "title": "Kings of the Sun",
-      "year": 1963,
-      "imdb_id": "tt0057225",
-      "notes": "Narrator (uncredited)"
+      "imdbId": "tt0057840",
+      "title": "The Americanization of Emily (1964)"
     },
     {
-      "title": "The Americanization of Emily",
-      "year": 1964,
-      "imdb_id": "tt0057840",
-      "notes": "Lt. Commander Paul 'Bus' Cummings"
+      "imdbId": "tt0059269",
+      "title": "A High Wind in Jamaica (1965)"
     },
     {
-      "title": "Major Dundee",
-      "year": 1965,
-      "imdb_id": "tt0059418",
-      "notes": "Samuel Potts"
+      "imdbId": "tt0059410",
+      "title": "The Loved One (1965)"
     },
     {
-      "title": "A High Wind in Jamaica",
-      "year": 1965,
-      "imdb_id": "tt0059269",
-      "notes": "Zac"
+      "imdbId": "tt0059418",
+      "title": "Major Dundee (1965)"
     },
     {
-      "title": "The Loved One",
-      "year": 1965,
-      "imdb_id": "tt0059410",
-      "notes": "Immigration Officer"
+      "imdbId": "tt0059557",
+      "title": "Our Man Flint (1966)"
     },
     {
-      "title": "Our Man Flint",
-      "year": 1966,
-      "imdb_id": "tt0059557",
-      "notes": "Derek Flint"
+      "imdbId": "tt0060287",
+      "title": "Dead Heat on a Merry-Go-Round (1966)"
     },
     {
-      "title": "What Did You Do in the War, Daddy?",
-      "year": 1966,
-      "imdb_id": "tt0061176",
-      "notes": "Lt. Christian"
+      "imdbId": "tt0061176",
+      "title": "What Did You Do in the War, Daddy? (1966)"
     },
     {
-      "title": "Dead Heat on a Merry-Go-Round",
-      "year": 1966,
-      "imdb_id": "tt0060287",
-      "notes": "Eli Kotch"
+      "imdbId": "tt0061810",
+      "title": "In Like Flint (1967)"
     },
     {
-      "title": "In Like Flint",
-      "year": 1967,
-      "imdb_id": "tt0061810",
-      "notes": "Derek Flint"
+      "imdbId": "tt0062153",
+      "title": "The President's Analyst (1967)"
     },
     {
-      "title": "Waterhole #3",
-      "year": 1967,
-      "imdb_id": "tt0062477",
-      "notes": "Lewton Cole"
+      "imdbId": "tt0062477",
+      "title": "Waterhole #3 (1967)"
     },
     {
-      "title": "The President's Analyst",
-      "year": 1967,
-      "imdb_id": "tt0062153",
-      "notes": "Dr. Sidney Schaefer"
+      "imdbId": "tt0062776",
+      "title": "Candy (1968)"
     },
     {
-      "title": "Duffy",
-      "year": 1968,
-      "imdb_id": "tt0062917",
-      "notes": "Duffy"
+      "imdbId": "tt0062917",
+      "title": "Duffy (1968)"
     },
     {
-      "title": "Candy",
-      "year": 1968,
-      "imdb_id": "tt0062776",
-      "notes": "Dr. A.B. Krankeit"
+      "imdbId": "tt0064406",
+      "title": "Hard Contract (1969)"
     },
     {
-      "title": "Hard Contract",
-      "year": 1969,
-      "imdb_id": "tt0064406",
-      "notes": "John Cunningham"
+      "imdbId": "tt0064574",
+      "title": "The Last of the Mobile Hot Shots (1970)"
     },
     {
-      "title": "The Last of the Mobile Hot Shots",
-      "year": 1970,
-      "imdb_id": "tt0064574",
-      "notes": "Jeb Stuart Thorington"
+      "imdbId": "tt0067140",
+      "title": "Duck, You Sucker! (1971)"
     },
     {
-      "title": "Duck, You Sucker",
-      "year": 1971,
-      "imdb_id": "tt0067140",
-      "notes": "John H. Mallory"
+      "imdbId": "tt0068337",
+      "title": "The Carey Treatment (1972)"
     },
     {
-      "title": "The Carey Treatment",
-      "year": 1972,
-      "imdb_id": "tt0068337",
-      "notes": "Dr. Peter Carey"
+      "imdbId": "tt0068711",
+      "title": "The Honkers (1972)"
     },
     {
-      "title": "The Honkers",
-      "year": 1972,
-      "imdb_id": "tt0068711",
-      "notes": "Lew Lathrop"
+      "imdbId": "tt0069159",
+      "title": "A Reason to Live, a Reason to Die (1972)"
     },
     {
-      "title": "A Reason to Live, a Reason to Die",
-      "year": 1972,
-      "imdb_id": "tt0069159",
-      "notes": "Colonello Pembroke"
+      "imdbId": "tt0070158",
+      "title": "Harry in Your Pocket (1973)"
     },
     {
-      "title": "Pat Garrett & Billy the Kid",
-      "year": 1973,
-      "imdb_id": "tt0070518",
-      "notes": "Pat Garrett"
+      "imdbId": "tt0070291",
+      "title": "The Last of Sheila (1973)"
     },
     {
-      "title": "The Last of Sheila",
-      "year": 1973,
-      "imdb_id": "tt0070291",
-      "notes": "Clinton Green"
+      "imdbId": "tt0070518",
+      "title": "Pat Garrett & Billy the Kid (1973)"
     },
     {
-      "title": "Harry in Your Pocket",
-      "year": 1973,
-      "imdb_id": "tt0070158",
-      "notes": "Harry"
+      "imdbId": "tt0071663",
+      "title": "The Internecine Project (1974)"
     },
     {
-      "title": "The Internecine Project",
-      "year": 1974,
-      "imdb_id": "tt0071663",
-      "notes": "Professor Robert Elliot"
+      "imdbId": "tt0072705",
+      "title": "Bite the Bullet (1975)"
     },
     {
-      "title": "Bite the Bullet",
-      "year": 1975,
-      "imdb_id": "tt0072705",
-      "notes": "Luke Matthews"
+      "imdbId": "tt0073092",
+      "title": "Hard Times (1975)"
     },
     {
-      "title": "Hard Times",
-      "year": 1975,
-      "imdb_id": "tt0073092",
-      "notes": "Speed"
+      "imdbId": "tt0074776",
+      "title": "The Last Hard Men (1976)"
     },
     {
-      "title": "Sky Riders",
-      "year": 1976,
-      "imdb_id": "tt0075229",
-      "notes": "Jim McCabe"
+      "imdbId": "tt0074899",
+      "title": "Midway (1976)"
     },
     {
-      "title": "The Last Hard Men",
-      "year": 1976,
-      "imdb_id": "tt0074776",
-      "notes": "Provo"
+      "imdbId": "tt0075229",
+      "title": "Sky Riders (1976)"
     },
     {
-      "title": "Midway",
-      "year": 1976,
-      "imdb_id": "tt0074899",
-      "notes": "Capt. Vinton Maddox"
+      "imdbId": "tt0074695",
+      "title": "Cross of Iron (1977)"
     },
     {
-      "title": "Cross of Iron",
-      "year": 1977,
-      "imdb_id": "tt0074695",
-      "notes": "Unteroffizier Feldwebel (S / Sgt.) Rolf Steiner"
+      "imdbId": "tt0079153",
+      "title": "Firepower (1979)"
     },
     {
-      "title": "Firepower",
-      "year": 1979,
-      "imdb_id": "tt0079153",
-      "notes": "Jerry Fanon / Eddie"
+      "imdbId": "tt0079225",
+      "title": "Goldengirl (1979)"
     },
     {
-      "title": "The Muppet Movie",
-      "year": 1979,
-      "imdb_id": "tt0079588",
-      "notes": "El Sleezo Cafe Owner"
+      "imdbId": "tt0079588",
+      "title": "The Muppet Movie (1979)"
     },
     {
-      "title": "Goldengirl",
-      "year": 1979,
-      "imdb_id": "tt0079225",
-      "notes": "Jack Dryden"
+      "imdbId": "tt0080412",
+      "title": "The Baltimore Bullet (1980)"
     },
     {
-      "title": "The Baltimore Bullet",
-      "year": 1980,
-      "imdb_id": "tt0080412",
-      "notes": "Nick Casey"
+      "imdbId": "tt0081080",
+      "title": "Loving Couples (1980)"
     },
     {
-      "title": "Loving Couples",
-      "year": 1980,
-      "imdb_id": "tt0081080",
-      "notes": "Dr. Walter Kirby"
+      "imdbId": "tt0081192",
+      "title": "Mr. Patman (1980)"
     },
     {
-      "title": "Mr. Patman",
-      "year": 1980,
-      "imdb_id": "tt0081192",
-      "notes": "Patman"
+      "imdbId": "tt0082516",
+      "title": "High Risk (1981)"
     },
     {
-      "title": "High Risk",
-      "year": 1981,
-      "imdb_id": "tt0082516",
-      "notes": "Serrano"
+      "imdbId": "tt0082677",
+      "title": "Looker (1981)"
     },
     {
-      "title": "Looker",
-      "year": 1981,
-      "imdb_id": "tt0082677",
-      "notes": "John Reston"
+      "imdbId": "tt0085890",
+      "title": "Malibu (1983) (TV)"
     },
     {
-      "title": "Martin's Day",
-      "year": 1985,
-      "imdb_id": "tt0087685",
-      "notes": "Lt. Lardner"
+      "imdbId": "tt0233571",
+      "title": "Digital Dreams (1983) (TV)"
     },
     {
-      "title": "Death of a Soldier",
-      "year": 1986,
-      "imdb_id": "tt0092858",
-      "notes": "Maj. Patrick Dannenberg"
+      "imdbId": "tt0087174",
+      "title": "Draw! (1984) (TV)"
     },
     {
-      "title": "Train to Heaven",
-      "year": 1989,
-      "imdb_id": "tt0100830",
-      "notes": "Gregorius"
+      "imdbId": "tt0087685",
+      "title": "Martin's Day (1985)"
     },
     {
-      "title": "Young Guns II",
-      "year": 1990,
-      "imdb_id": "tt0100994",
-      "notes": "John Chisum"
+      "imdbId": "tt0090025",
+      "title": "Sins of the Father (1985) (TV)"
     },
     {
-      "title": "Hudson Hawk",
-      "year": 1991,
-      "imdb_id": "tt0102070",
-      "notes": "George Kaplan"
+      "imdbId": "tt0092858",
+      "title": "Death of a Soldier (1986)"
     },
     {
-      "title": "The Player",
-      "year": 1992,
-      "imdb_id": "tt0105151",
-      "notes": "James Coburn"
+      "imdbId": "tt0100830",
+      "title": "Train to Heaven (1989)"
     },
     {
-      "title": "The Hit List",
-      "year": 1993,
-      "imdb_id": "tt0107117",
-      "notes": "Peter Mayhew"
+      "imdbId": "tt0100994",
+      "title": "Young Guns II (1990)"
     },
     {
-      "title": "Deadfall",
-      "year": 1993,
-      "imdb_id": "tt0106684",
-      "notes": "Mike Donan / Lou Donan"
+      "imdbId": "tt0102070",
+      "title": "Hudson Hawk (1991)"
     },
     {
-      "title": "Sister Act 2: Back in the Habit",
-      "year": 1993,
-      "imdb_id": "tt0108147",
-      "notes": "Mr. Crisp"
+      "imdbId": "tt0943984",
+      "title": "Silverfox (1991) (TV)"
     },
     {
-      "title": "Maverick",
-      "year": 1994,
-      "imdb_id": "tt0110478",
-      "notes": "Commodore Duvall"
+      "imdbId": "tt0104020",
+      "title": "Crash Landing: The Rescue of Flight 232 (1992) (TV)"
     },
     {
-      "title": "The Disappearance of Kevin Johnson",
-      "year": 1996,
-      "imdb_id": "tt0116111",
-      "notes": "James Coburn"
+      "imdbId": "tt0105151",
+      "title": "The Player (1992)"
     },
     {
-      "title": "Eraser",
-      "year": 1996,
-      "imdb_id": "tt0116213",
-      "notes": "WitSec Chief Beller"
+      "imdbId": "tt0186336",
+      "title": "Mastergate (1992) (TV)"
     },
     {
-      "title": "The Nutty Professor",
-      "year": 1996,
-      "imdb_id": "tt0117218",
-      "notes": "Harlan Hartley"
+      "imdbId": "tt0403345",
+      "title": "True Facts (1992) (TV)"
     },
     {
-      "title": "Keys to Tulsa",
-      "year": 1997,
-      "imdb_id": "tt0116762",
-      "notes": "Harmon Shaw"
+      "imdbId": "tt0106684",
+      "title": "Deadfall (1993)"
     },
     {
-      "title": "Affliction",
-      "year": 1997,
-      "imdb_id": "tt0118564",
-      "notes": "Glen Whitehouse"
+      "imdbId": "tt0107117",
+      "title": "The Hit List (1993)"
     },
     {
-      "title": "Payback",
-      "year": 1999,
-      "imdb_id": "tt0120784",
-      "notes": "Justin Fairfax (uncredited)"
+      "imdbId": "tt0108147",
+      "title": "Sister Act 2: Back in the Habit (1993)"
     },
     {
-      "title": "Intrepid",
-      "year": 2000,
-      "imdb_id": "tt0183280",
-      "notes": "Captain Hal Josephson"
+      "imdbId": "tt0109941",
+      "title": "Greyhounds (1994) (TV)"
     },
     {
-      "title": "Texas Rangers",
-      "year": 2001,
-      "imdb_id": "tt0193560",
-      "notes": "Narrator (voice, uncredited)"
+      "imdbId": "tt0110478",
+      "title": "Maverick (1994)"
     },
     {
-      "title": "The Man from Elysian Fields",
-      "year": 2001,
-      "imdb_id": "tt0265307",
-      "notes": "Alcott"
+      "imdbId": "tt0110949",
+      "title": "Ray Alexander: A Taste for Justice (1994) (TV)"
     },
     {
-      "title": "Monsters, Inc.",
-      "year": 2001,
-      "imdb_id": "tt0198781",
-      "notes": "Waternoose (voice)"
+      "imdbId": "tt0129827",
+      "title": "A Christmas Reunion (1994) (TV)"
     },
     {
-      "title": "Snow Dogs",
-      "year": 2002,
-      "imdb_id": "tt0281373",
-      "notes": "Thunder Jack"
+      "imdbId": "tt0112423",
+      "title": "The Avenging Angel (1995) (TV)"
     },
     {
-      "title": "American Gun",
-      "year": 2002,
-      "imdb_id": "tt0270197",
-      "notes": "Martin Tillman"
+      "imdbId": "tt0114239",
+      "title": "Ray Alexander: A Menu for Murder (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0114397",
+      "title": "The Set Up (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0115875",
+      "title": "The Cherokee Kid (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0116111",
+      "title": "The Disappearance of Kevin Johnson (1996)"
+    },
+    {
+      "imdbId": "tt0116213",
+      "title": "Eraser (1996)"
+    },
+    {
+      "imdbId": "tt0117218",
+      "title": "The Nutty Professor (1996)"
+    },
+    {
+      "imdbId": "tt0116762",
+      "title": "Keys to Tulsa (1997)"
+    },
+    {
+      "imdbId": "tt0117661",
+      "title": "Skeletons (1997) (TV)"
+    },
+    {
+      "imdbId": "tt0118564",
+      "title": "Affliction (1997)"
+    },
+    {
+      "imdbId": "tt0120086",
+      "title": "The Second Civil War (1997) (TV)"
+    },
+    {
+      "imdbId": "tt0140751",
+      "title": "Mr. Murder (1998) (TV)"
+    },
+    {
+      "imdbId": "tt0206507",
+      "title": "Shake, Rattle and Roll: An American Love Story (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0183280",
+      "title": "Intrepid (2000)"
+    },
+    {
+      "imdbId": "tt0193732",
+      "title": "Missing Pieces (2000) (TV)"
+    },
+    {
+      "imdbId": "tt0242798",
+      "title": "Proximity (2001) (TV)"
+    },
+    {
+      "imdbId": "tt0265307",
+      "title": "The Man from Elysian Fields (2001)"
+    },
+    {
+      "imdbId": "tt0287791",
+      "title": "Walter and Henry (2001) (TV)"
+    },
+    {
+      "imdbId": "tt0270197",
+      "title": "American Gun (2002)"
+    },
+    {
+      "imdbId": "tt0281373",
+      "title": "Snow Dogs (2002)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0040051",
+      "title": "\"Studio One\" (1948)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0044259",
+      "title": "\"Death Valley Days\" (1952)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0045395",
+      "title": "\"General Electric Theater\" (1953)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046593",
+      "title": "\"The Magical World of Disney\" (1954)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047708",
+      "title": "\"Alfred Hitchcock Presents\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047720",
+      "title": "\"Cheyenne\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047750",
+      "title": "\"The Life and Legend of Wyatt Earp\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047758",
+      "title": "\"The Millionaire\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048916",
+      "title": "\"Zane Grey Theatre\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050062",
+      "title": "\"State Trooper\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050002",
+      "title": "\"The Californians\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050025",
+      "title": "\"Have Gun - Will Travel\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050035",
+      "title": "\"M Squad\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050051",
+      "title": "\"Perry Mason\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050055",
+      "title": "\"The Restless Gun\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050056",
+      "title": "\"Richard Diamond, Private Detective\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050063",
+      "title": "\"Sugarfoot\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050064",
+      "title": "\"Suspicion\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050066",
+      "title": "\"Tales of Wells Fargo\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050069",
+      "title": "\"Tombstone Territory\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050071",
+      "title": "\"Trackdown\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050073",
+      "title": "\"Wagon Train\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050077",
+      "title": "\"Whirlybirds\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051261",
+      "title": "\"Bronco\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051290",
+      "title": "\"Lawman\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051297",
+      "title": "\"Naked City\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051301",
+      "title": "\"Peter Gunn\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051308",
+      "title": "\"The Rifleman\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051309",
+      "title": "\"The Rough Riders\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051320",
+      "title": "\"The Texan\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0051327",
+      "title": "\"Wanted: Dead or Alive\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052445",
+      "title": "\"Bat Masterson\" (1958)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052449",
+      "title": "\"Black Saddle\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052451",
+      "title": "\"Bonanza\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052453",
+      "title": "\"Bourbon Street Beat\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052462",
+      "title": "\"The Deputy\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052463",
+      "title": "\"The Detectives\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052464",
+      "title": "\"The DuPont Show with June Allyson\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052478",
+      "title": "\"Johnny Ringo\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052481",
+      "title": "\"Laramie\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052493",
+      "title": "\"Men Into Space\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052504",
+      "title": "\"Rawhide\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052520",
+      "title": "\"The Twilight Zone\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052522",
+      "title": "\"The Untouchables\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0052525",
+      "title": "\"Wichita Town\" (1959)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053481",
+      "title": "\"The Aquanauts\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053491",
+      "title": "\"Checkmate\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053516",
+      "title": "\"Klondike\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053527",
+      "title": "\"Outlaws\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053534",
+      "title": "\"Route 66\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053537",
+      "title": "\"Stagecoach West\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053544",
+      "title": "\"The Tall Man\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053545",
+      "title": "\"Tate\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0171982",
+      "title": "\"The Brothers Brannagan\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054512",
+      "title": "\"Acapulco\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054526",
+      "title": "\"Cain's Hundred\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054531",
+      "title": "\"The Defenders\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054532",
+      "title": "\"The Dick Powell Theatre\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0054553",
+      "title": "\"King of Diamonds\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055698",
+      "title": "\"Ripcord\" (1961)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055666",
+      "title": "\"Combat!\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055669",
+      "title": "\"The Eleventh Hour\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055705",
+      "title": "\"Stoney Burke\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0056762",
+      "title": "\"The Greatest Show on Earth\" (1963)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0057225",
+      "title": "Kings of the Sun (1963)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0076999",
+      "title": "\"The Dain Curse\" (1978) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt6426550",
+      "title": "\"Escape\" (1980)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0081859",
+      "title": "\"The Fall Guy\" (1981)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0082573",
+      "title": "\"Jacqueline Susann's Valley of the Dolls\" (1981) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0199214",
+      "title": "\"Faerie Tale Theatre\" (1982)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0086765",
+      "title": "\"Murder, She Wrote\" (1984)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0097006",
+      "title": "Call from Space (1989)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0098763",
+      "title": "\"Captain Planet and the Planeteers\" (1990)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0103411",
+      "title": "\"The Fifth Corner\" (1992)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0103512",
+      "title": "\"Picket Fences\" (1992)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0106176",
+      "title": "\"The Wild West\" (1993) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0195576",
+      "title": "C.E.O. (1995) (VG)",
+      "reason": "video game"
+    },
+    {
+      "imdbId": "tt0115101",
+      "title": "\"Arli$$\" (1996)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0115322",
+      "title": "\"Profiler\" (1996)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0158421",
+      "title": "\"Vengeance Unlimited\" (1998)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0166935",
+      "title": "\"Stories from My Childhood\" (1998)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0120784",
+      "title": "Payback (1999)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0168355",
+      "title": "\"Noah's Ark\" (1999) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0205096",
+      "title": "The Good Doctor (2000)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0193560",
+      "title": "Texas Rangers (2001)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0198781",
+      "title": "Monsters, Inc. (2001)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0288325",
+      "title": "The Yellow Bird (2001)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6483658",
+      "title": "Monsters, Inc. Scream Team (2001) (VG)",
+      "reason": "video game"
     }
   ]
 }

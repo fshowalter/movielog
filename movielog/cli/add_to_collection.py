@@ -3,10 +3,10 @@ from __future__ import annotations
 import html
 from typing import Optional, Sequence, Tuple
 
-from movielog import api as movielog_api
-from movielog.cli import radio_list, select_movie
+from movielog.cli import radio_list, select_title
+from movielog.repository import api as repository_api
 
-Collection = movielog_api.Collection
+Collection = repository_api.WatchlistCollection
 Option = Tuple[Optional[Collection], str]
 
 
@@ -16,33 +16,33 @@ def prompt() -> None:
     if not collection:
         return
 
-    movie = select_movie.prompt(prompt_text=select_movie_prompt_text(collection))
-    if movie:
-        movielog_api.add_movie_to_collection(
+    title = select_title.prompt(prompt_text=select_movie_prompt_text(collection))
+    if title:
+        repository_api.add_title_to_collection(
             collection=collection,
-            imdb_id=movie.imdb_id,
-            title=movie.title,
-            year=movie.year,
+            imdb_id=title.imdb_id,
+            full_title=title.full_title,
         )
     prompt()
 
 
 def build_options() -> Sequence[Option]:
-    options: list[Option] = [(None, "Go back")]
-
-    for collection in movielog_api.collections():
-        option = "<cyan>{0}</cyan>".format(collection.name)
-        options.append((collection, option))
-
-    return options
+    return [
+        (collection, "<cyan>{0}</cyan>".format(collection.name))
+        for collection in repository_api.watchlist_collections()
+    ]
 
 
 def select_movie_prompt_text(collection: Collection) -> str:
     formatted_titles = []
-    for movie in collection.movies:
-        escaped_title = html.escape(movie.title)
+
+    for title in repository_api.titles():
+        if title.imdb_id not in collection.title_ids:
+            continue
+
+        escaped_title = html.escape(title.title)
         formatted_title = "<cyan>\u00B7</cyan> {0} ({1}) \n".format(
-            escaped_title, movie.year
+            escaped_title, title.year
         )
         formatted_titles.append(formatted_title)
 

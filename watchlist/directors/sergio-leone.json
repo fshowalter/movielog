@@ -1,50 +1,46 @@
 {
-  "frozen": true,
   "name": "Sergio Leone",
   "slug": "sergio-leone",
-  "imdb_id": "nm0001466",
-  "movies": [
+  "imdbId": "nm0001466",
+  "titles": [
     {
-      "title": "The Colossus of Rhodes",
-      "year": 1961,
-      "imdb_id": "tt0054756",
-      "notes": null
+      "imdbId": "tt0054756",
+      "title": "The Colossus of Rhodes (1961)"
     },
     {
-      "title": "A Fistful of Dollars",
-      "year": 1964,
-      "imdb_id": "tt0058461",
-      "notes": "(as Bob Robertson)"
+      "imdbId": "tt0056504",
+      "title": "Sodom and Gomorrah (1962)"
     },
     {
-      "title": "For a Few Dollars More",
-      "year": 1965,
-      "imdb_id": "tt0059578",
-      "notes": null
+      "imdbId": "tt0058461",
+      "title": "A Fistful of Dollars (1964)"
     },
     {
-      "title": "The Good, the Bad and the Ugly",
-      "year": 1966,
-      "imdb_id": "tt0060196",
-      "notes": null
+      "imdbId": "tt0059578",
+      "title": "For a Few Dollars More (1965)"
     },
     {
-      "title": "Once Upon a Time in the West",
-      "year": 1968,
-      "imdb_id": "tt0064116",
-      "notes": null
+      "imdbId": "tt0060196",
+      "title": "The Good, the Bad and the Ugly (1966)"
     },
     {
-      "title": "Duck, You Sucker",
-      "year": 1971,
-      "imdb_id": "tt0067140",
-      "notes": null
+      "imdbId": "tt0064116",
+      "title": "Once Upon a Time in the West (1968)"
     },
     {
-      "title": "Once Upon a Time in America",
-      "year": 1984,
-      "imdb_id": "tt0087843",
-      "notes": null
+      "imdbId": "tt0067140",
+      "title": "Duck, You Sucker! (1971)"
+    },
+    {
+      "imdbId": "tt0087843",
+      "title": "Once Upon a Time in America (1984)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt2243597",
+      "title": "The King of Ads (1991)",
+      "reason": "Documentary"
     }
   ]
 }

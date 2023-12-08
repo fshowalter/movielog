@@ -1,200 +1,143 @@
 {
-  "frozen": true,
   "name": "Akira Kurosawa",
   "slug": "akira-kurosawa",
-  "imdb_id": "nm0000041",
-  "movies": [
+  "imdbId": "nm0000041",
+  "titles": [
     {
-      "title": "Uma",
-      "year": 1941,
-      "imdb_id": "tt0034333",
-      "notes": "(some scenes, uncredited)"
+      "imdbId": "tt0036400",
+      "title": "Sanshiro Sugata (1943)"
     },
     {
-      "title": "Sanshiro Sugata",
-      "year": 1943,
-      "imdb_id": "tt0036400",
-      "notes": ""
+      "imdbId": "tt0036947",
+      "title": "The Most Beautiful (1944)"
     },
     {
-      "title": "The Most Beautiful",
-      "year": 1944,
-      "imdb_id": "tt0036947",
-      "notes": ""
+      "imdbId": "tt0038182",
+      "title": "The Men Who Tread on the Tiger's Tail (1945)"
     },
     {
-      "title": "Sanshiro Sugata, Part Two",
-      "year": 1945,
-      "imdb_id": "tt0038268",
-      "notes": ""
+      "imdbId": "tt0038268",
+      "title": "Sanshiro Sugata, Part Two (1945)"
     },
     {
-      "title": "The Men Who Tread on the Tiger's Tail",
-      "year": 1945,
-      "imdb_id": "tt0038182",
-      "notes": ""
+      "imdbId": "tt0038310",
+      "title": "Those Who Make Tomorrow (1946)"
     },
     {
-      "title": "Those Who Make Tomorrow",
-      "year": 1946,
-      "imdb_id": "tt0038310",
-      "notes": ""
+      "imdbId": "tt0039090",
+      "title": "No Regrets for Our Youth (1946)"
     },
     {
-      "title": "No Regrets for Our Youth",
-      "year": 1946,
-      "imdb_id": "tt0039090",
-      "notes": ""
+      "imdbId": "tt0039871",
+      "title": "One Wonderful Sunday (1947)"
     },
     {
-      "title": "One Wonderful Sunday",
-      "year": 1947,
-      "imdb_id": "tt0039871",
-      "notes": ""
+      "imdbId": "tt0040979",
+      "title": "Drunken Angel (1948)"
     },
     {
-      "title": "Drunken Angel",
-      "year": 1948,
-      "imdb_id": "tt0040979",
-      "notes": ""
+      "imdbId": "tt0041699",
+      "title": "Stray Dog (1949)"
     },
     {
-      "title": "The Quiet Duel",
-      "year": 1949,
-      "imdb_id": "tt0041870",
-      "notes": ""
+      "imdbId": "tt0041870",
+      "title": "The Quiet Duel (1949)"
     },
     {
-      "title": "Stray Dog",
-      "year": 1949,
-      "imdb_id": "tt0041699",
-      "notes": ""
+      "imdbId": "tt0042876",
+      "title": "Rashomon (1950)"
     },
     {
-      "title": "Scandal",
-      "year": 1950,
-      "imdb_id": "tt0042958",
-      "notes": ""
+      "imdbId": "tt0042958",
+      "title": "Scandal (1950)"
     },
     {
-      "title": "Rashomon",
-      "year": 1950,
-      "imdb_id": "tt0042876",
-      "notes": ""
+      "imdbId": "tt0043614",
+      "title": "The Idiot (1951)"
     },
     {
-      "title": "The Idiot",
-      "year": 1951,
-      "imdb_id": "tt0043614",
-      "notes": ""
+      "imdbId": "tt0044741",
+      "title": "Ikiru (1952)"
     },
     {
-      "title": "Ikiru",
-      "year": 1952,
-      "imdb_id": "tt0044741",
-      "notes": ""
+      "imdbId": "tt0047478",
+      "title": "Seven Samurai (1954)"
     },
     {
-      "title": "Seven Samurai",
-      "year": 1954,
-      "imdb_id": "tt0047478",
-      "notes": ""
+      "imdbId": "tt0048198",
+      "title": "I Live in Fear (1955)"
     },
     {
-      "title": "I Live in Fear",
-      "year": 1955,
-      "imdb_id": "tt0048198",
-      "notes": ""
+      "imdbId": "tt0050330",
+      "title": "The Lower Depths (1957)"
     },
     {
-      "title": "Throne of Blood",
-      "year": 1957,
-      "imdb_id": "tt0050613",
-      "notes": ""
+      "imdbId": "tt0050613",
+      "title": "Throne of Blood (1957)"
     },
     {
-      "title": "The Lower Depths",
-      "year": 1957,
-      "imdb_id": "tt0050330",
-      "notes": ""
+      "imdbId": "tt0051808",
+      "title": "The Hidden Fortress (1958)"
     },
     {
-      "title": "The Hidden Fortress",
-      "year": 1958,
-      "imdb_id": "tt0051808",
-      "notes": ""
+      "imdbId": "tt0054460",
+      "title": "The Bad Sleep Well (1960)"
     },
     {
-      "title": "The Bad Sleep Well",
-      "year": 1960,
-      "imdb_id": "tt0054460",
-      "notes": ""
+      "imdbId": "tt0055630",
+      "title": "Yojimbo (1961)"
     },
     {
-      "title": "Yojimbo",
-      "year": 1961,
-      "imdb_id": "tt0055630",
-      "notes": ""
+      "imdbId": "tt0056443",
+      "title": "Sanjuro (1962)"
     },
     {
-      "title": "Sanjuro",
-      "year": 1962,
-      "imdb_id": "tt0056443",
-      "notes": ""
+      "imdbId": "tt0057565",
+      "title": "High and Low (1963)"
     },
     {
-      "title": "High and Low",
-      "year": 1963,
-      "imdb_id": "tt0057565",
-      "notes": ""
+      "imdbId": "tt0058888",
+      "title": "Red Beard (1965)"
     },
     {
-      "title": "Red Beard",
-      "year": 1965,
-      "imdb_id": "tt0058888",
-      "notes": ""
+      "imdbId": "tt0065649",
+      "title": "Dodes'ka-den (1970)"
     },
     {
-      "title": "Dodes'ka-den",
-      "year": 1970,
-      "imdb_id": "tt0065649",
-      "notes": ""
+      "imdbId": "tt0071411",
+      "title": "Dersu Uzala (1975)"
     },
     {
-      "title": "Dersu Uzala",
-      "year": 1975,
-      "imdb_id": "tt0071411",
-      "notes": "(as Akira Kurosava)"
+      "imdbId": "tt0080979",
+      "title": "Kagemusha (1980)"
     },
     {
-      "title": "Kagemusha",
-      "year": 1980,
-      "imdb_id": "tt0080979",
-      "notes": ""
+      "imdbId": "tt0089881",
+      "title": "Ran (1985)"
     },
     {
-      "title": "Ran",
-      "year": 1985,
-      "imdb_id": "tt0089881",
-      "notes": ""
+      "imdbId": "tt0100998",
+      "title": "Dreams (1990)"
     },
     {
-      "title": "Dreams",
-      "year": 1990,
-      "imdb_id": "tt0100998",
-      "notes": ""
+      "imdbId": "tt0101991",
+      "title": "Rhapsody in August (1991)"
     },
     {
-      "title": "Rhapsody in August",
-      "year": 1991,
-      "imdb_id": "tt0101991",
-      "notes": ""
+      "imdbId": "tt0107474",
+      "title": "Madadayo (1993)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0066473",
+      "title": "Tora! Tora! Tora! (1970)",
+      "reason": "(uncredited) (some Japanese sequences)"
     },
     {
-      "title": "M\u00e2dadayo",
-      "year": 1993,
-      "imdb_id": "tt0107474",
-      "notes": ""
+      "imdbId": "tt4346112",
+      "title": "Song of the Horse (1970) (TV)",
+      "reason": "Documentary"
     }
   ]
 }

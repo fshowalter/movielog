@@ -1,122 +1,99 @@
 {
-  "frozen": true,
   "name": "Mike Nichols",
   "slug": "mike-nichols",
-  "imdb_id": "nm0001566",
-  "movies": [
+  "imdbId": "nm0001566",
+  "titles": [
     {
-      "title": "Who's Afraid of Virginia Woolf?",
-      "year": 1966,
-      "imdb_id": "tt0061184",
-      "notes": null
+      "imdbId": "tt0061184",
+      "title": "Who's Afraid of Virginia Woolf? (1966)"
     },
     {
-      "title": "The Graduate",
-      "year": 1967,
-      "imdb_id": "tt0061722",
-      "notes": null
+      "imdbId": "tt0061722",
+      "title": "The Graduate (1967)"
     },
     {
-      "title": "Catch-22",
-      "year": 1970,
-      "imdb_id": "tt0065528",
-      "notes": null
+      "imdbId": "tt0065528",
+      "title": "Catch-22 (1970)"
     },
     {
-      "title": "Carnal Knowledge",
-      "year": 1971,
-      "imdb_id": "tt0066892",
-      "notes": null
+      "imdbId": "tt0066892",
+      "title": "Carnal Knowledge (1971)"
     },
     {
-      "title": "The Day of the Dolphin",
-      "year": 1973,
-      "imdb_id": "tt0069946",
-      "notes": null
+      "imdbId": "tt0069946",
+      "title": "The Day of the Dolphin (1973)"
     },
     {
-      "title": "The Fortune",
-      "year": 1975,
-      "imdb_id": "tt0073008",
-      "notes": null
+      "imdbId": "tt0073008",
+      "title": "The Fortune (1975)"
     },
     {
-      "title": "Gilda Live",
-      "year": 1980,
-      "imdb_id": "tt0080790",
-      "notes": null
+      "imdbId": "tt0080790",
+      "title": "Gilda Live (1980)"
     },
     {
-      "title": "Silkwood",
-      "year": 1983,
-      "imdb_id": "tt0086312",
-      "notes": null
+      "imdbId": "tt0086312",
+      "title": "Silkwood (1983)"
     },
     {
-      "title": "Heartburn",
-      "year": 1986,
-      "imdb_id": "tt0091188",
-      "notes": null
+      "imdbId": "tt0091188",
+      "title": "Heartburn (1986)"
     },
     {
-      "title": "Biloxi Blues",
-      "year": 1988,
-      "imdb_id": "tt0094746",
-      "notes": null
+      "imdbId": "tt0094746",
+      "title": "Biloxi Blues (1988)"
     },
     {
-      "title": "Working Girl",
-      "year": 1988,
-      "imdb_id": "tt0096463",
-      "notes": null
+      "imdbId": "tt0096463",
+      "title": "Working Girl (1988)"
     },
     {
-      "title": "Postcards from the Edge",
-      "year": 1990,
-      "imdb_id": "tt0100395",
-      "notes": null
+      "imdbId": "tt0100395",
+      "title": "Postcards from the Edge (1990)"
     },
     {
-      "title": "Regarding Henry",
-      "year": 1991,
-      "imdb_id": "tt0102768",
-      "notes": null
+      "imdbId": "tt0102768",
+      "title": "Regarding Henry (1991)"
     },
     {
-      "title": "Wolf",
-      "year": 1994,
-      "imdb_id": "tt0111742",
-      "notes": null
+      "imdbId": "tt0111742",
+      "title": "Wolf (1994)"
     },
     {
-      "title": "The Birdcage",
-      "year": 1996,
-      "imdb_id": "tt0115685",
-      "notes": null
+      "imdbId": "tt0115685",
+      "title": "The Birdcage (1996)"
     },
     {
-      "title": "Primary Colors",
-      "year": 1998,
-      "imdb_id": "tt0119942",
-      "notes": null
+      "imdbId": "tt0119942",
+      "title": "Primary Colors (1998)"
     },
     {
-      "title": "What Planet Are You From?",
-      "year": 2000,
-      "imdb_id": "tt0181151",
-      "notes": "(directed by)"
+      "imdbId": "tt0181151",
+      "title": "What Planet Are You From? (2000)"
     },
     {
-      "title": "Closer",
-      "year": 2004,
-      "imdb_id": "tt0376541",
-      "notes": null
+      "imdbId": "tt0243664",
+      "title": "Wit (2001) (TV)"
     },
     {
-      "title": "Charlie Wilson's War",
-      "year": 2007,
-      "imdb_id": "tt0472062",
-      "notes": null
+      "imdbId": "tt0376541",
+      "title": "Closer (2004)"
+    },
+    {
+      "imdbId": "tt0472062",
+      "title": "Charlie Wilson's War (2007)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0183871",
+      "title": "Teach Me! (1968)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0318997",
+      "title": "\"Angels in America\" (2003) (mini)",
+      "reason": "tv mini series"
     }
   ]
 }

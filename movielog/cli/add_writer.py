@@ -1,9 +1,11 @@
-from movielog import api as movielog_api
-from movielog.cli import person_searcher, select_person
+from movielog.cli import select_person
+from movielog.repository import api as repository_api
 
 
 def prompt() -> None:
-    person = select_person.prompt(person_searcher.search_writers_by_name)
+    person = select_person.prompt()
 
     if person:
-        movielog_api.add_writer(imdb_id=person.imdb_id, name=person.name)
+        repository_api.add_person_to_watchlist(
+            watchlist="writers", imdb_id=person.imdb_id, name=person.name
+        )

@@ -1,446 +1,359 @@
 {
-  "frozen": true,
   "name": "Humphrey Bogart",
   "slug": "humphrey-bogart",
-  "imdb_id": "nm0000007",
-  "movies": [
+  "imdbId": "nm0000007",
+  "titles": [
     {
-      "title": "Up the River",
-      "year": 1930,
-      "imdb_id": "tt0021508",
-      "notes": "Steve Jordan"
+      "imdbId": "tt0020822",
+      "title": "A Devil with Women (1930)"
     },
     {
-      "title": "A Devil with Women",
-      "year": 1930,
-      "imdb_id": "tt0020822",
-      "notes": "Tom Standish"
+      "imdbId": "tt0021508",
+      "title": "Up the River (1930)"
     },
     {
-      "title": "Body and Soul",
-      "year": 1931,
-      "imdb_id": "tt0021680",
-      "notes": "Jim Watson"
+      "imdbId": "tt0021636",
+      "title": "Bad Sister (1931)"
     },
     {
-      "title": "The Bad Sister",
-      "year": 1931,
-      "imdb_id": "tt0021636",
-      "notes": "Valentine Corliss"
+      "imdbId": "tt0021680",
+      "title": "Body and Soul (1931)"
     },
     {
-      "title": "A Holy Terror",
-      "year": 1931,
-      "imdb_id": "tt0021966",
-      "notes": "Steve Nash"
+      "imdbId": "tt0021966",
+      "title": "A Holy Terror (1931)"
     },
     {
-      "title": "Love Affair",
-      "year": 1932,
-      "imdb_id": "tt0023153",
-      "notes": "Jim Leonard"
+      "imdbId": "tt0022576",
+      "title": "Women of All Nations (1931)"
     },
     {
-      "title": "Big City Blues",
-      "year": 1932,
-      "imdb_id": "tt0022676",
-      "notes": "Shep Adkins (uncredited)"
+      "imdbId": "tt0022676",
+      "title": "Big City Blues (1932)"
     },
     {
-      "title": "Three on a Match",
-      "year": 1932,
-      "imdb_id": "tt0023590",
-      "notes": "Harve"
+      "imdbId": "tt0023153",
+      "title": "Love Affair (1932)"
     },
     {
-      "title": "Midnight",
-      "year": 1934,
-      "imdb_id": "tt0025499",
-      "notes": "Gar Boni"
+      "imdbId": "tt0023590",
+      "title": "Three on a Match (1932)"
     },
     {
-      "title": "Two Against the World",
-      "year": 1936,
-      "imdb_id": "tt0028426",
-      "notes": "Sherry Scott"
+      "imdbId": "tt0025499",
+      "title": "Midnight (1934)"
     },
     {
-      "title": "The Petrified Forest",
-      "year": 1936,
-      "imdb_id": "tt0028096",
-      "notes": "Duke Mantee"
+      "imdbId": "tt0027407",
+      "title": "Bullets or Ballots (1936)"
     },
     {
-      "title": "Bullets or Ballots",
-      "year": 1936,
-      "imdb_id": "tt0027407",
-      "notes": "'Bugs' Fenner"
+      "imdbId": "tt0027445",
+      "title": "China Clipper (1936)"
     },
     {
-      "title": "China Clipper",
-      "year": 1936,
-      "imdb_id": "tt0027445",
-      "notes": "Hap Stuart"
+      "imdbId": "tt0027805",
+      "title": "Isle of Fury (1936)"
     },
     {
-      "title": "Isle of Fury",
-      "year": 1936,
-      "imdb_id": "tt0027805",
-      "notes": "Val Stevens"
+      "imdbId": "tt0028096",
+      "title": "The Petrified Forest (1936)"
     },
     {
-      "title": "Black Legion",
-      "year": 1937,
-      "imdb_id": "tt0027367",
-      "notes": "Frank Taylor"
+      "imdbId": "tt0028426",
+      "title": "Two Against the World (1936)"
     },
     {
-      "title": "The Great O'Malley",
-      "year": 1937,
-      "imdb_id": "tt0028955",
-      "notes": "John Phillips"
+      "imdbId": "tt0027367",
+      "title": "Black Legion (1937)"
     },
     {
-      "title": "Marked Woman",
-      "year": 1937,
-      "imdb_id": "tt0029217",
-      "notes": "David Graham"
+      "imdbId": "tt0028773",
+      "title": "Dead End (1937)"
     },
     {
-      "title": "San Quentin",
-      "year": 1937,
-      "imdb_id": "tt0029511",
-      "notes": "Joe 'Red' Kennedy"
+      "imdbId": "tt0028955",
+      "title": "The Great O'Malley (1937)"
     },
     {
-      "title": "Kid Galahad",
-      "year": 1937,
-      "imdb_id": "tt0029080",
-      "notes": "Turkey Morgan"
+      "imdbId": "tt0029080",
+      "title": "Kid Galahad (1937)"
     },
     {
-      "title": "Dead End",
-      "year": 1937,
-      "imdb_id": "tt0028773",
-      "notes": "'Baby Face' Martin"
+      "imdbId": "tt0029217",
+      "title": "Marked Woman (1937)"
     },
     {
-      "title": "Stand-In",
-      "year": 1937,
-      "imdb_id": "tt0029605",
-      "notes": "Quintain"
+      "imdbId": "tt0029511",
+      "title": "San Quentin (1937)"
     },
     {
-      "title": "Swing Your Lady",
-      "year": 1938,
-      "imdb_id": "tt0030820",
-      "notes": "Ed"
+      "imdbId": "tt0029605",
+      "title": "Stand-In (1937)"
     },
     {
-      "title": "Crime School",
-      "year": 1938,
-      "imdb_id": "tt0030026",
-      "notes": "Mark Braden"
+      "imdbId": "tt0029864",
+      "title": "The Amazing Dr. Clitterhouse (1938)"
     },
     {
-      "title": "Men Are Such Fools",
-      "year": 1938,
-      "imdb_id": "tt0030433",
-      "notes": "Harry Galleon"
+      "imdbId": "tt0029870",
+      "title": "Angels with Dirty Faces (1938)"
     },
     {
-      "title": "Racket Busters",
-      "year": 1938,
-      "imdb_id": "tt0030650",
-      "notes": "John Martin"
+      "imdbId": "tt0030026",
+      "title": "Crime School (1938)"
     },
     {
-      "title": "The Amazing Dr. Clitterhouse",
-      "year": 1938,
-      "imdb_id": "tt0029864",
-      "notes": "'Rocks' Valentine"
+      "imdbId": "tt0030433",
+      "title": "Men Are Such Fools (1938)"
     },
     {
-      "title": "Angels with Dirty Faces",
-      "year": 1938,
-      "imdb_id": "tt0029870",
-      "notes": "James Frazier"
+      "imdbId": "tt0030650",
+      "title": "Racket Busters (1938)"
     },
     {
-      "title": "King of the Underworld",
-      "year": 1939,
-      "imdb_id": "tt0031536",
-      "notes": "Joe Gurney"
+      "imdbId": "tt0030820",
+      "title": "Swing Your Lady (1938)"
     },
     {
-      "title": "The Oklahoma Kid",
-      "year": 1939,
-      "imdb_id": "tt0031747",
-      "notes": "Whip McCord"
+      "imdbId": "tt0031210",
+      "title": "Dark Victory (1939)"
     },
     {
-      "title": "You Can't Get Away with Murder",
-      "year": 1939,
-      "imdb_id": "tt0032153",
-      "notes": "Frank Wilson"
+      "imdbId": "tt0031536",
+      "title": "King of the Underworld (1939)"
     },
     {
-      "title": "Dark Victory",
-      "year": 1939,
-      "imdb_id": "tt0031210",
-      "notes": "Michael O'Leary"
+      "imdbId": "tt0031747",
+      "title": "The Oklahoma Kid (1939)"
     },
     {
-      "title": "The Roaring Twenties",
-      "year": 1939,
-      "imdb_id": "tt0031867",
-      "notes": "George Hally"
+      "imdbId": "tt0031851",
+      "title": "The Return of Doctor X (1939)"
     },
     {
-      "title": "The Return of Doctor X",
-      "year": 1939,
-      "imdb_id": "tt0031851",
-      "notes": "Marshall Quesne"
+      "imdbId": "tt0031867",
+      "title": "The Roaring Twenties (1939)"
     },
     {
-      "title": "Invisible Stripes",
-      "year": 1939,
-      "imdb_id": "tt0032636",
-      "notes": "Chuck Martin"
+      "imdbId": "tt0032153",
+      "title": "You Can't Get Away with Murder (1939)"
     },
     {
-      "title": "Virginia City",
-      "year": 1940,
-      "imdb_id": "tt0033226",
-      "notes": "John Murrell"
+      "imdbId": "tt0032636",
+      "title": "Invisible Stripes (1939)"
     },
     {
-      "title": "It All Came True",
-      "year": 1940,
-      "imdb_id": "tt0032643",
-      "notes": "Grasselli / Chips Maguire"
+      "imdbId": "tt0032285",
+      "title": "Brother Orchid (1940)"
     },
     {
-      "title": "Brother Orchid",
-      "year": 1940,
-      "imdb_id": "tt0032285",
-      "notes": "Jack Buck"
+      "imdbId": "tt0032643",
+      "title": "It All Came True (1940)"
     },
     {
-      "title": "They Drive by Night",
-      "year": 1940,
-      "imdb_id": "tt0033149",
-      "notes": "Paul Fabrini"
+      "imdbId": "tt0033149",
+      "title": "They Drive by Night (1940)"
     },
     {
-      "title": "High Sierra",
-      "year": 1941,
-      "imdb_id": "tt0033717",
-      "notes": "Roy Earle"
+      "imdbId": "tt0033226",
+      "title": "Virginia City (1940)"
     },
     {
-      "title": "The Wagons Roll at Night",
-      "year": 1941,
-      "imdb_id": "tt0034370",
-      "notes": "Nick Coster"
+      "imdbId": "tt0033717",
+      "title": "High Sierra (1940)"
     },
     {
-      "title": "The Maltese Falcon",
-      "year": 1941,
-      "imdb_id": "tt0033870",
-      "notes": "Samuel Spade"
+      "imdbId": "tt0033870",
+      "title": "The Maltese Falcon (1941)"
     },
     {
-      "title": "All Through the Night",
-      "year": 1942,
-      "imdb_id": "tt0034449",
-      "notes": "'Gloves' Donahue"
+      "imdbId": "tt0034370",
+      "title": "The Wagons Roll at Night (1941)"
     },
     {
-      "title": "The Big Shot",
-      "year": 1942,
-      "imdb_id": "tt0034513",
-      "notes": "Joseph 'Duke' Berne"
+      "imdbId": "tt0034428",
+      "title": "Across the Pacific (1942)"
     },
     {
-      "title": "Across the Pacific",
-      "year": 1942,
-      "imdb_id": "tt0034428",
-      "notes": "Rick Leland"
+      "imdbId": "tt0034449",
+      "title": "All Through the Night (1942)"
     },
     {
-      "title": "Casablanca",
-      "year": 1942,
-      "imdb_id": "tt0034583",
-      "notes": "Rick Blaine"
+      "imdbId": "tt0034513",
+      "title": "The Big Shot (1942)"
     },
     {
-      "title": "Action in the North Atlantic",
-      "year": 1943,
-      "imdb_id": "tt0035608",
-      "notes": "Lt. Joe Rossi"
+      "imdbId": "tt0034583",
+      "title": "Casablanca (1942)"
     },
     {
-      "title": "Sahara",
-      "year": 1943,
-      "imdb_id": "tt0036323",
-      "notes": "Sgt. Joe Gunn"
+      "imdbId": "tt0035608",
+      "title": "Action in the North Atlantic (1943)"
     },
     {
-      "title": "Passage to Marseille",
-      "year": 1944,
-      "imdb_id": "tt0037166",
-      "notes": "Jean Matrac"
+      "imdbId": "tt0036323",
+      "title": "Sahara (1943)"
     },
     {
-      "title": "To Have and Have Not",
-      "year": 1944,
-      "imdb_id": "tt0037382",
-      "notes": "Harry Morgan"
+      "imdbId": "tt0036422",
+      "title": "Thank Your Lucky Stars (1943)"
     },
     {
-      "title": "Conflict",
-      "year": 1945,
-      "imdb_id": "tt0037611",
-      "notes": "Richard Mason"
+      "imdbId": "tt0037166",
+      "title": "Passage to Marseille (1944)"
     },
     {
-      "title": "The Big Sleep",
-      "year": 1946,
-      "imdb_id": "tt0038355",
-      "notes": "Philip Marlowe"
+      "imdbId": "tt0037382",
+      "title": "To Have and Have Not (1944)"
     },
     {
-      "title": "Dead Reckoning",
-      "year": 1947,
-      "imdb_id": "tt0039305",
-      "notes": "Capt. 'Rip' Murdock"
+      "imdbId": "tt0037611",
+      "title": "Conflict (1945)"
     },
     {
-      "title": "The Two Mrs. Carrolls",
-      "year": 1947,
-      "imdb_id": "tt0039926",
-      "notes": "Geoffrey Carroll"
+      "imdbId": "tt0038355",
+      "title": "The Big Sleep (1946)"
     },
     {
-      "title": "Dark Passage",
-      "year": 1947,
-      "imdb_id": "tt0039302",
-      "notes": "Vincent Parry"
+      "imdbId": "tt0039305",
+      "title": "Dead Reckoning (1946)"
     },
     {
-      "title": "The Treasure of the Sierra Madre",
-      "year": 1948,
-      "imdb_id": "tt0040897",
-      "notes": "Fred C. Dobbs"
+      "imdbId": "tt0039302",
+      "title": "Dark Passage (1947)"
     },
     {
-      "title": "Key Largo",
-      "year": 1948,
-      "imdb_id": "tt0040506",
-      "notes": "Frank McCloud"
+      "imdbId": "tt0039926",
+      "title": "The Two Mrs. Carrolls (1947)"
     },
     {
-      "title": "Knock on Any Door",
-      "year": 1949,
-      "imdb_id": "tt0041555",
-      "notes": "Andrew Morton"
+      "imdbId": "tt0040506",
+      "title": "Key Largo (1948)"
     },
     {
-      "title": "Tokyo Joe",
-      "year": 1949,
-      "imdb_id": "tt0041967",
-      "notes": "Joseph 'Joe' Barrett"
+      "imdbId": "tt0040897",
+      "title": "The Treasure of the Sierra Madre (1948)"
     },
     {
-      "title": "Chain Lightning",
-      "year": 1950,
-      "imdb_id": "tt0042324",
-      "notes": "Lt. Col. Matthew \"Matt\" Brennan"
+      "imdbId": "tt0041555",
+      "title": "Knock on Any Door (1949)"
     },
     {
-      "title": "In a Lonely Place",
-      "year": 1950,
-      "imdb_id": "tt0042593",
-      "notes": "Dixon Steele"
+      "imdbId": "tt0041967",
+      "title": "Tokyo Joe (1949)"
     },
     {
-      "title": "The Enforcer",
-      "year": 1951,
-      "imdb_id": "tt0043503",
-      "notes": "Dist. Atty. Martin Ferguson"
+      "imdbId": "tt0042324",
+      "title": "Chain Lightning (1950)"
     },
     {
-      "title": "Sirocco",
-      "year": 1951,
-      "imdb_id": "tt0044040",
-      "notes": "Harry Smith"
+      "imdbId": "tt0042593",
+      "title": "In a Lonely Place (1950)"
     },
     {
-      "title": "The African Queen",
-      "year": 1951,
-      "imdb_id": "tt0043265",
-      "notes": "Charlie Allnutt"
+      "imdbId": "tt0043265",
+      "title": "The African Queen (1951)"
     },
     {
-      "title": "Deadline - U.S.A.",
-      "year": 1952,
-      "imdb_id": "tt0044533",
-      "notes": "Ed Hutcheson"
+      "imdbId": "tt0043503",
+      "title": "The Enforcer (1951)"
     },
     {
-      "title": "Battle Circus",
-      "year": 1953,
-      "imdb_id": "tt0045544",
-      "notes": "Maj. Jed Webbe"
+      "imdbId": "tt0044040",
+      "title": "Sirocco (1951)"
     },
     {
-      "title": "Beat the Devil",
-      "year": 1953,
-      "imdb_id": "tt0046414",
-      "notes": "Billy Dannreuther"
+      "imdbId": "tt0044533",
+      "title": "Deadline - U.S.A. (1952)"
     },
     {
-      "title": "The Caine Mutiny",
-      "year": 1954,
-      "imdb_id": "tt0046816",
-      "notes": "Lt. Cmdr. Philip Francis Queeg"
+      "imdbId": "tt0045544",
+      "title": "Battle Circus (1953)"
     },
     {
-      "title": "Sabrina",
-      "year": 1954,
-      "imdb_id": "tt0047437",
-      "notes": "Linus Larrabee"
+      "imdbId": "tt0046414",
+      "title": "Beat the Devil (1953)"
     },
     {
-      "title": "The Barefoot Contessa",
-      "year": 1954,
-      "imdb_id": "tt0046754",
-      "notes": "Harry Dawes"
+      "imdbId": "tt0046754",
+      "title": "The Barefoot Contessa (1954)"
     },
     {
-      "title": "We're No Angels",
-      "year": 1955,
-      "imdb_id": "tt0048801",
-      "notes": "Joseph"
+      "imdbId": "tt0046816",
+      "title": "The Caine Mutiny (1954)"
     },
     {
-      "title": "The Left Hand of God",
-      "year": 1955,
-      "imdb_id": "tt0048291",
-      "notes": "James 'Jim' Carmody"
+      "imdbId": "tt0047437",
+      "title": "Sabrina (1954)"
     },
     {
-      "title": "The Desperate Hours",
-      "year": 1955,
-      "imdb_id": "tt0047985",
-      "notes": "Glenn Griffin"
+      "imdbId": "tt0047985",
+      "title": "The Desperate Hours (1955)"
     },
     {
-      "title": "The Harder They Fall",
-      "year": 1956,
-      "imdb_id": "tt0049291",
-      "notes": "Eddie Willis"
+      "imdbId": "tt0048291",
+      "title": "The Left Hand of God (1955)"
+    },
+    {
+      "imdbId": "tt0048801",
+      "title": "We're No Angels (1955)"
+    },
+    {
+      "imdbId": "tt0049291",
+      "title": "The Harder They Fall (1956)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0018811",
+      "title": "The Dancing Town (1928)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0020714",
+      "title": "Broadway's Like That (1930)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0030823",
+      "title": "Swingtime in the Movies (1938)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0219795",
+      "title": "Hollywood Victory Caravan (1945)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0038773",
+      "title": "Never Say Goodbye (1946)",
+      "reason": "(uncredited) (voice)"
+    },
+    {
+      "imdbId": "tt0039053",
+      "title": "Two Guys from Milwaukee (1946)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0040089",
+      "title": "Always Together (1947)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt28751754",
+      "title": "Breakdowns of 1949 (1949)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0042116",
+      "title": "\"The Jack Benny Program\" (1950)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0046637",
+      "title": "\"Producers' Showcase\" (1954)",
+      "reason": "tv series"
     }
   ]
 }

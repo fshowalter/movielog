@@ -1,110 +1,147 @@
 {
-  "frozen": true,
   "name": "Tony Scott",
   "slug": "tony-scott",
-  "imdb_id": "nm0001716",
-  "movies": [
+  "imdbId": "nm0001716",
+  "titles": [
     {
-      "title": "Loving Memory",
-      "year": 1971,
-      "imdb_id": "tt0241687",
-      "notes": "(as Anthony Scott)"
+      "imdbId": "tt0241687",
+      "title": "Loving Memory (1971)"
     },
     {
-      "title": "The Hunger",
-      "year": 1983,
-      "imdb_id": "tt0085701",
-      "notes": null
+      "imdbId": "tt0085701",
+      "title": "The Hunger (1983)"
     },
     {
-      "title": "Top Gun",
-      "year": 1986,
-      "imdb_id": "tt0092099",
-      "notes": null
+      "imdbId": "tt0092099",
+      "title": "Top Gun (1986)"
     },
     {
-      "title": "Beverly Hills Cop II",
-      "year": 1987,
-      "imdb_id": "tt0092644",
-      "notes": null
+      "imdbId": "tt0092644",
+      "title": "Beverly Hills Cop II (1987)"
     },
     {
-      "title": "Revenge",
-      "year": 1990,
-      "imdb_id": "tt0100485",
-      "notes": null
+      "imdbId": "tt0099371",
+      "title": "Days of Thunder (1990)"
     },
     {
-      "title": "Days of Thunder",
-      "year": 1990,
-      "imdb_id": "tt0099371",
-      "notes": null
+      "imdbId": "tt0100485",
+      "title": "Revenge (1990)"
     },
     {
-      "title": "The Last Boy Scout",
-      "year": 1991,
-      "imdb_id": "tt0102266",
-      "notes": null
+      "imdbId": "tt0102266",
+      "title": "The Last Boy Scout (1991)"
     },
     {
-      "title": "True Romance",
-      "year": 1993,
-      "imdb_id": "tt0108399",
-      "notes": null
+      "imdbId": "tt0108399",
+      "title": "True Romance (1993)"
     },
     {
-      "title": "Crimson Tide",
-      "year": 1995,
-      "imdb_id": "tt0112740",
-      "notes": null
+      "imdbId": "tt0112740",
+      "title": "Crimson Tide (1995)"
     },
     {
-      "title": "The Fan",
-      "year": 1996,
-      "imdb_id": "tt0116277",
-      "notes": null
+      "imdbId": "tt0116277",
+      "title": "The Fan (1996)"
     },
     {
-      "title": "Enemy of the State",
-      "year": 1998,
-      "imdb_id": "tt0120660",
-      "notes": null
+      "imdbId": "tt0120660",
+      "title": "Enemy of the State (1998)"
     },
     {
-      "title": "Spy Game",
-      "year": 2001,
-      "imdb_id": "tt0266987",
-      "notes": null
+      "imdbId": "tt0266987",
+      "title": "Spy Game (2001)"
     },
     {
-      "title": "Man on Fire",
-      "year": 2004,
-      "imdb_id": "tt0328107",
-      "notes": null
+      "imdbId": "tt0328107",
+      "title": "Man on Fire (2004)"
     },
     {
-      "title": "Domino",
-      "year": 2005,
-      "imdb_id": "tt0421054",
-      "notes": null
+      "imdbId": "tt0421054",
+      "title": "Domino (2005)"
     },
     {
-      "title": "Deja Vu",
-      "year": 2006,
-      "imdb_id": "tt0453467",
-      "notes": null
+      "imdbId": "tt0453467",
+      "title": "Deja Vu (2006)"
     },
     {
-      "title": "The Taking of Pelham 123",
-      "year": 2009,
-      "imdb_id": "tt1111422",
-      "notes": null
+      "imdbId": "tt1111422",
+      "title": "The Taking of Pelham 123 (2009)"
     },
     {
-      "title": "Unstoppable",
-      "year": 2010,
-      "imdb_id": "tt0477080",
-      "notes": null
+      "imdbId": "tt0477080",
+      "title": "Unstoppable (2010)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0262663",
+      "title": "One of the Missing (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3952224",
+      "title": "RHM Mother's Pride Supermarket Raid 87670 (1971)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0277509",
+      "title": "\"Nouvelles d'Henry James\" (1974)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt28183529",
+      "title": "Apple: Lemmings (1985) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6696804",
+      "title": "Kenny Loggins: Danger Zone (1986)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6695492",
+      "title": "George Michael: One More Try (1988)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt2243597",
+      "title": "The King of Ads (1991)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt7734704",
+      "title": "Basic Ice Cream (1995) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0118346",
+      "title": "\"The Hunger\" (1997)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0230239",
+      "title": "Ladies & Gentlemen: The Best of George Michael (1999) (V)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0338768",
+      "title": "Beat the Devil (2002)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12958702",
+      "title": "The Hire (2003)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0432462",
+      "title": "Agent Orange (2004)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0433309",
+      "title": "\"Numb3rs\" (2005)",
+      "reason": "tv series"
     }
   ]
 }

@@ -1,302 +1,431 @@
 {
-  "frozen": true,
   "name": "James Garner",
   "slug": "james-garner",
-  "imdb_id": "nm0001258",
-  "movies": [
+  "imdbId": "nm0001258",
+  "titles": [
     {
-      "title": "Toward the Unknown",
-      "year": 1956,
-      "imdb_id": "tt0049870",
-      "notes": "Lt. Col. Joe Craven"
+      "imdbId": "tt0049264",
+      "title": "The Girl He Left Behind (1956)"
     },
     {
-      "title": "The Girl He Left Behind",
-      "year": 1956,
-      "imdb_id": "tt0049264",
-      "notes": "Preston"
+      "imdbId": "tt0049870",
+      "title": "Toward the Unknown (1956)"
     },
     {
-      "title": "Shoot-Out at Medicine Bend",
-      "year": 1957,
-      "imdb_id": "tt0050963",
-      "notes": "Sgt. John Maitland"
+      "imdbId": "tt0050933",
+      "title": "Sayonara (1957)"
     },
     {
-      "title": "Sayonara",
-      "year": 1957,
-      "imdb_id": "tt0050933",
-      "notes": "Captain Mike Bailey"
+      "imdbId": "tt0050963",
+      "title": "Shoot-Out at Medicine Bend (1957)"
     },
     {
-      "title": "Darby's Rangers",
-      "year": 1958,
-      "imdb_id": "tt0051519",
-      "notes": "Col. William Orlando Darby"
+      "imdbId": "tt0051519",
+      "title": "Darby's Rangers (1958)"
     },
     {
-      "title": "Up Periscope",
-      "year": 1959,
-      "imdb_id": "tt0053399",
-      "notes": "Lt. J.G. Kenneth M. Braden"
+      "imdbId": "tt0053399",
+      "title": "Up Periscope (1959)"
     },
     {
-      "title": "Alias Jesse James",
-      "year": 1959,
-      "imdb_id": "tt0052545",
-      "notes": "Bret Maverick (scenes deleted)"
+      "imdbId": "tt0052680",
+      "title": "Cash McCall (1960)"
     },
     {
-      "title": "Cash McCall",
-      "year": 1960,
-      "imdb_id": "tt0052680",
-      "notes": "Cash McCall"
+      "imdbId": "tt0054743",
+      "title": "The Children's Hour (1961)"
     },
     {
-      "title": "The Children's Hour",
-      "year": 1961,
-      "imdb_id": "tt0054743",
-      "notes": "Dr. Joe Cardin"
+      "imdbId": "tt0055809",
+      "title": "Boys' Night Out (1962)"
     },
     {
-      "title": "Boys' Night Out",
-      "year": 1962,
-      "imdb_id": "tt0055809",
-      "notes": "Fred Williams"
+      "imdbId": "tt0057115",
+      "title": "The Great Escape (1963)"
     },
     {
-      "title": "The Great Escape",
-      "year": 1963,
-      "imdb_id": "tt0057115",
-      "notes": "Hendley 'The Scrounger'"
+      "imdbId": "tt0057329",
+      "title": "Move Over, Darling (1963)"
     },
     {
-      "title": "The Thrill of It All",
-      "year": 1963,
-      "imdb_id": "tt0057581",
-      "notes": "Dr. Gerald Boyer"
+      "imdbId": "tt0057581",
+      "title": "The Thrill of It All (1963)"
     },
     {
-      "title": "The Wheeler Dealers",
-      "year": 1963,
-      "imdb_id": "tt0057681",
-      "notes": "Henry Tyroon"
+      "imdbId": "tt0057681",
+      "title": "The Wheeler Dealers (1963)"
     },
     {
-      "title": "Move Over, Darling",
-      "year": 1963,
-      "imdb_id": "tt0057329",
-      "notes": "Nicholas Arden"
+      "imdbId": "tt0057809",
+      "title": "36 Hours (1964)"
     },
     {
-      "title": "The Americanization of Emily",
-      "year": 1964,
-      "imdb_id": "tt0057840",
-      "notes": "Lt. Commander Charles Edward Madison"
+      "imdbId": "tt0057840",
+      "title": "The Americanization of Emily (1964)"
     },
     {
-      "title": "36 Hours",
-      "year": 1964,
-      "imdb_id": "tt0057809",
-      "notes": "Major Jefferson Pike"
+      "imdbId": "tt0058920",
+      "title": "The Art of Love (1965)"
     },
     {
-      "title": "The Art of Love",
-      "year": 1965,
-      "imdb_id": "tt0058920",
-      "notes": "Casey Barnett"
+      "imdbId": "tt0059453",
+      "title": "Mister Buddwing (1966)"
     },
     {
-      "title": "A Man Could Get Killed",
-      "year": 1966,
-      "imdb_id": "tt0060662",
-      "notes": "William Beddoes"
+      "imdbId": "tt0060355",
+      "title": "Duel at Diablo (1966)"
     },
     {
-      "title": "Duel at Diablo",
-      "year": 1966,
-      "imdb_id": "tt0060355",
-      "notes": "Jess Remsberg"
+      "imdbId": "tt0060472",
+      "title": "Grand Prix (1966)"
     },
     {
-      "title": "Mister Buddwing",
-      "year": 1966,
-      "imdb_id": "tt0059453",
-      "notes": "Mister Buddwing"
+      "imdbId": "tt0060662",
+      "title": "A Man Could Get Killed (1966)"
     },
     {
-      "title": "Grand Prix",
-      "year": 1966,
-      "imdb_id": "tt0060472",
-      "notes": "Pete Aron"
+      "imdbId": "tt0061787",
+      "title": "Hour of the Gun (1967)"
     },
     {
-      "title": "Hour of the Gun",
-      "year": 1967,
-      "imdb_id": "tt0061787",
-      "notes": "Wyatt Earp"
+      "imdbId": "tt0063098",
+      "title": "How Sweet It Is! (1968)"
     },
     {
-      "title": "How Sweet It Is!",
-      "year": 1968,
-      "imdb_id": "tt0063098",
-      "notes": "Grif Henderson"
+      "imdbId": "tt0063429",
+      "title": "The Pink Jungle (1968)"
     },
     {
-      "title": "The Pink Jungle",
-      "year": 1968,
-      "imdb_id": "tt0063429",
-      "notes": "Ben Morris"
+      "imdbId": "tt0064638",
+      "title": "Marlowe (1969)"
     },
     {
-      "title": "Support Your Local Sheriff!",
-      "year": 1969,
-      "imdb_id": "tt0065051",
-      "notes": "Jason"
+      "imdbId": "tt0065051",
+      "title": "Support Your Local Sheriff! (1969)"
     },
     {
-      "title": "Marlowe",
-      "year": 1969,
-      "imdb_id": "tt0064638",
-      "notes": "Philip Marlowe"
+      "imdbId": "tt0066050",
+      "title": "A Man Called Sledge (1970)"
     },
     {
-      "title": "A Man Called Sledge",
-      "year": 1970,
-      "imdb_id": "tt0066050",
-      "notes": "Luther Sledge"
+      "imdbId": "tt0067763",
+      "title": "Skin Game (1971)"
     },
     {
-      "title": "Support Your Local Gunfighter",
-      "year": 1971,
-      "imdb_id": "tt0067809",
-      "notes": "Latigo"
+      "imdbId": "tt0067809",
+      "title": "Support Your Local Gunfighter (1971)"
     },
     {
-      "title": "Skin Game",
-      "year": 1971,
-      "imdb_id": "tt0067763",
-      "notes": "Quincy"
+      "imdbId": "tt0069371",
+      "title": "They Only Kill Their Masters (1972)"
     },
     {
-      "title": "They Only Kill Their Masters",
-      "year": 1972,
-      "imdb_id": "tt0069371",
-      "notes": "Abel Marsh"
+      "imdbId": "tt0070481",
+      "title": "One Little Indian (1973)"
     },
     {
-      "title": "One Little Indian",
-      "year": 1973,
-      "imdb_id": "tt0070481",
-      "notes": "Keyes"
+      "imdbId": "tt0071288",
+      "title": "The Castaway Cowboy (1974)"
     },
     {
-      "title": "The Castaway Cowboy",
-      "year": 1974,
-      "imdb_id": "tt0071288",
-      "notes": "Lincoln Costain"
+      "imdbId": "tt0077985",
+      "title": "The New Maverick (1978) (TV)"
     },
     {
-      "title": "HealtH",
-      "year": 1980,
-      "imdb_id": "tt0079256",
-      "notes": "Harry Wolff"
+      "imdbId": "tt0079256",
+      "title": "HealtH (1980)"
     },
     {
-      "title": "The Fan",
-      "year": 1981,
-      "imdb_id": "tt0082362",
-      "notes": "Jake Berman"
+      "imdbId": "tt0082362",
+      "title": "The Fan (1981)"
     },
     {
-      "title": "Victor Victoria",
-      "year": 1982,
-      "imdb_id": "tt0084865",
-      "notes": "King Marchand"
+      "imdbId": "tt0084265",
+      "title": "The Long Summer of George Adams (1982) (TV)"
     },
     {
-      "title": "Tank",
-      "year": 1984,
-      "imdb_id": "tt0088224",
-      "notes": "Zack"
+      "imdbId": "tt0084865",
+      "title": "Victor/Victoria (1982)"
     },
     {
-      "title": "Murphy's Romance",
-      "year": 1985,
-      "imdb_id": "tt0089643",
-      "notes": "Murphy Jones"
+      "imdbId": "tt0087340",
+      "title": "The Glitter Dome (1984) (TV)"
     },
     {
-      "title": "Sunset",
-      "year": 1988,
-      "imdb_id": "tt0096193",
-      "notes": "Wyatt Earp"
+      "imdbId": "tt0087398",
+      "title": "Heartsounds (1984) (TV)"
     },
     {
-      "title": "The Distinguished Gentleman",
-      "year": 1992,
-      "imdb_id": "tt0104114",
-      "notes": "Jeff Johnson"
+      "imdbId": "tt0088224",
+      "title": "Tank (1984)"
     },
     {
-      "title": "Fire in the Sky",
-      "year": 1993,
-      "imdb_id": "tt0106912",
-      "notes": "Frank Watters"
+      "imdbId": "tt0089643",
+      "title": "Murphy's Romance (1985)"
     },
     {
-      "title": "Maverick",
-      "year": 1994,
-      "imdb_id": "tt0110478",
-      "notes": "Marshal Zane Cooper"
+      "imdbId": "tt0091795",
+      "title": "Promise (1986) (TV)"
     },
     {
-      "title": "My Fellow Americans",
-      "year": 1996,
-      "imdb_id": "tt0117119",
-      "notes": "President Matt Douglas"
+      "imdbId": "tt0096193",
+      "title": "Sunset (1988)"
     },
     {
-      "title": "Twilight",
-      "year": 1998,
-      "imdb_id": "tt0119594",
-      "notes": "Raymond Hope"
+      "imdbId": "tt0097939",
+      "title": "My Name Is Bill W. (1989) (TV)"
     },
     {
-      "title": "Space Cowboys",
-      "year": 2000,
-      "imdb_id": "tt0186566",
-      "notes": "Tank Sullivan"
+      "imdbId": "tt0099391",
+      "title": "Decoration Day (1990) (TV)"
     },
     {
-      "title": "Atlantis: The Lost Empire",
-      "year": 2001,
-      "imdb_id": "tt0230011",
-      "notes": "Rourke (voice)"
+      "imdbId": "tt0104114",
+      "title": "The Distinguished Gentleman (1992)"
     },
     {
-      "title": "Divine Secrets of the Ya-Ya Sisterhood",
-      "year": 2002,
-      "imdb_id": "tt0279778",
-      "notes": "Shep Walker"
+      "imdbId": "tt0106356",
+      "title": "Barbarians at the Gate (1993) (TV)"
     },
     {
-      "title": "The Notebook",
-      "year": 2004,
-      "imdb_id": "tt0332280",
-      "notes": "Duke"
+      "imdbId": "tt0106912",
+      "title": "Fire in the Sky (1993)"
     },
     {
-      "title": "The Ultimate Gift",
-      "year": 2006,
-      "imdb_id": "tt0482629",
-      "notes": "Howard 'Red' Stevens"
+      "imdbId": "tt0109335",
+      "title": "Breathing Lessons (1994) (TV)"
     },
     {
-      "title": "Battle for Terra",
-      "year": 2007,
-      "imdb_id": "tt0858486",
-      "notes": "Doron (voice)"
+      "imdbId": "tt0110478",
+      "title": "Maverick (1994)"
+    },
+    {
+      "imdbId": "tt0111008",
+      "title": "The Rockford Files: I Still Love L.A. (1994) (TV)"
+    },
+    {
+      "imdbId": "tt0114289",
+      "title": "The Rockford Files: A Blessing in Disguise (1995) (TV)"
+    },
+    {
+      "imdbId": "tt0117119",
+      "title": "My Fellow Americans (1996)"
+    },
+    {
+      "imdbId": "tt0117501",
+      "title": "The Rockford Files: Punishment and Crime (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0117502",
+      "title": "The Rockford Files: Friends and Foul Play (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0117503",
+      "title": "The Rockford Files: Godfather Knows Best (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0117504",
+      "title": "The Rockford Files: If the Frame Fits... (1996) (TV)"
+    },
+    {
+      "imdbId": "tt0118942",
+      "title": "Dead Silence (1997) (TV)"
+    },
+    {
+      "imdbId": "tt0138060",
+      "title": "The Rockford Files: Shoot-Out at the Golden Pagoda (1997) (TV)"
+    },
+    {
+      "imdbId": "tt0119594",
+      "title": "Twilight (1998)"
+    },
+    {
+      "imdbId": "tt0155833",
+      "title": "Legalese (1998) (TV)"
+    },
+    {
+      "imdbId": "tt0165543",
+      "title": "One Special Night (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0196912",
+      "title": "The Rockford Files: If It Bleeds... It Leads (1999) (TV)"
+    },
+    {
+      "imdbId": "tt0186566",
+      "title": "Space Cowboys (2000)"
+    },
+    {
+      "imdbId": "tt0249683",
+      "title": "The Last Debate (2000) (TV)"
+    },
+    {
+      "imdbId": "tt0279778",
+      "title": "Divine Secrets of the Ya-Ya Sisterhood (2002)"
+    },
+    {
+      "imdbId": "tt0290280",
+      "title": "Roughing It (2002) (TV)"
+    },
+    {
+      "imdbId": "tt0332280",
+      "title": "The Notebook (2004)"
+    },
+    {
+      "imdbId": "tt0482629",
+      "title": "The Ultimate Gift (2006)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0047720",
+      "title": "\"Cheyenne\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0047786",
+      "title": "\"Warner Brothers Presents\" (1955)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0048916",
+      "title": "\"Zane Grey Theatre\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0188323",
+      "title": "\"Conflict\" (1956)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050037",
+      "title": "\"Maverick\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0050063",
+      "title": "\"Sugarfoot\" (1957)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0053480",
+      "title": "\"Angel\" (1960)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0055708",
+      "title": "\"The Tonight Show Starring Johnny Carson\" (1962)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0062601",
+      "title": "\"Rowan & Martin's Laugh-In\" (1967)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0066690",
+      "title": "\"Nichols\" (1971)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0071042",
+      "title": "\"The Rockford Files\" (1974)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0078641",
+      "title": "\"Laugh-In\" (1977)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0078715",
+      "title": "\"Young Maverick\" (1979)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0081837",
+      "title": "\"Bret Maverick\" (1981)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0088611",
+      "title": "\"Space\" (1985) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0101140",
+      "title": "\"Man of the People\" (1991)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0108724",
+      "title": "\"Chicago Hope\" (1994)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt12174376",
+      "title": "The Maverick Choir: Amazing Grace (1994)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0112041",
+      "title": "\"Streets of Laredo\" (1995) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0206507",
+      "title": "Shake, Rattle and Roll: An American Love Story (1999) (TV)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0221751",
+      "title": "\"God, the Devil and Bob\" (2000)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0230011",
+      "title": "Atlantis: The Lost Empire (2001)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0297560",
+      "title": "\"First Monday\" (2002)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0312081",
+      "title": "\"8 Simple Rules\" (2002)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0378230",
+      "title": "The Land Before Time X: The Great Longneck Migration (2003) (V)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt0428210",
+      "title": "Al Roach: Private Insectigator (2004)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0858486",
+      "title": "Battle for Terra (2007)",
+      "reason": "(voice)"
+    },
+    {
+      "imdbId": "tt1110211",
+      "title": "First Night (2007)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1696202",
+      "title": "DC Showcase Original Shorts Collection (2010) (V)",
+      "reason": "(segment \"The Return of Black Adam\") (voice)"
+    },
+    {
+      "imdbId": "tt1701223",
+      "title": "Superman/Shazam!: The Return of Black Adam (2010) (V)",
+      "reason": "Short"
     }
   ]
 }

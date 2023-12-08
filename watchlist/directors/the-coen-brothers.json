@@ -1,134 +1,108 @@
 {
-  "frozen": false,
   "name": "The Coen Brothers",
   "slug": "the-coen-brothers",
-  "imdb_id": "nm0001054",
-  "movies": [
+  "imdbId": [
+    "nm0001054",
+    "nm0001053"
+  ],
+  "titles": [
     {
-      "title": "Blood Simple",
-      "year": 1984,
-      "imdb_id": "tt0086979",
-      "notes": ""
+      "imdbId": "tt0086979",
+      "title": "Blood Simple (1984)"
     },
     {
-      "title": "Raising Arizona",
-      "year": 1987,
-      "imdb_id": "tt0093822",
-      "notes": ""
+      "imdbId": "tt0093822",
+      "title": "Raising Arizona (1987)"
     },
     {
-      "title": "Miller's Crossing",
-      "year": 1990,
-      "imdb_id": "tt0100150",
-      "notes": ""
+      "imdbId": "tt0100150",
+      "title": "Miller's Crossing (1990)"
     },
     {
-      "title": "Barton Fink",
-      "year": 1991,
-      "imdb_id": "tt0101410",
-      "notes": ""
+      "imdbId": "tt0101410",
+      "title": "Barton Fink (1991)"
     },
     {
-      "title": "The Hudsucker Proxy",
-      "year": 1994,
-      "imdb_id": "tt0110074",
-      "notes": ""
+      "imdbId": "tt0110074",
+      "title": "The Hudsucker Proxy (1994)"
     },
     {
-      "title": "Fargo",
-      "year": 1996,
-      "imdb_id": "tt0116282",
-      "notes": ""
+      "imdbId": "tt0116282",
+      "title": "Fargo (1996)"
     },
     {
-      "title": "The Big Lebowski",
-      "year": 1998,
-      "imdb_id": "tt0118715",
-      "notes": ""
+      "imdbId": "tt0118715",
+      "title": "The Big Lebowski (1998)"
     },
     {
-      "title": "O Brother, Where Art Thou?",
-      "year": 2000,
-      "imdb_id": "tt0190590",
-      "notes": ""
+      "imdbId": "tt0190590",
+      "title": "O Brother, Where Art Thou? (2000)"
     },
     {
-      "title": "The Man Who Wasn't There",
-      "year": 2001,
-      "imdb_id": "tt0243133",
-      "notes": ""
+      "imdbId": "tt0138524",
+      "title": "Intolerable Cruelty (2003)"
     },
     {
-      "title": "Intolerable Cruelty",
-      "year": 2003,
-      "imdb_id": "tt0138524",
-      "notes": ""
+      "imdbId": "tt0335245",
+      "title": "The Ladykillers (2004)"
     },
     {
-      "title": "The Ladykillers",
-      "year": 2004,
-      "imdb_id": "tt0335245",
-      "notes": ""
+      "imdbId": "tt0401711",
+      "title": "Paris, je t'aime (2006)"
     },
     {
-      "title": "Paris, je t'aime",
-      "year": 2006,
-      "imdb_id": "tt0401711",
-      "notes": ""
+      "imdbId": "tt0477348",
+      "title": "No Country for Old Men (2007)"
     },
     {
-      "title": "No Country for Old Men",
-      "year": 2007,
-      "imdb_id": "tt0477348",
-      "notes": ""
+      "imdbId": "tt0973844",
+      "title": "To Each His Own Cinema (2007)"
     },
     {
-      "title": "To Each His Own Cinema",
-      "year": 2007,
-      "imdb_id": "tt0973844",
-      "notes": ""
+      "imdbId": "tt0887883",
+      "title": "Burn After Reading (2008)"
     },
     {
-      "title": "Burn After Reading",
-      "year": 2008,
-      "imdb_id": "tt0887883",
-      "notes": ""
+      "imdbId": "tt1019452",
+      "title": "A Serious Man (2009)"
     },
     {
-      "title": "A Serious Man",
-      "year": 2009,
-      "imdb_id": "tt1019452",
-      "notes": ""
+      "imdbId": "tt1403865",
+      "title": "True Grit (2010)"
     },
     {
-      "title": "True Grit",
-      "year": 2010,
-      "imdb_id": "tt1403865",
-      "notes": ""
+      "imdbId": "tt2042568",
+      "title": "Inside Llewyn Davis (2013)"
     },
     {
-      "title": "Inside Llewyn Davis",
-      "year": 2013,
-      "imdb_id": "tt2042568",
-      "notes": ""
+      "imdbId": "tt0475290",
+      "title": "Hail, Caesar! (2016)"
     },
     {
-      "title": "Hail, Caesar!",
-      "year": 2016,
-      "imdb_id": "tt0475290",
-      "notes": ""
+      "imdbId": "tt6412452",
+      "title": "The Ballad of Buster Scruggs (2018)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt6261510",
+      "title": "Zeimers in Zambezi (1970)",
+      "reason": "Short"
     },
     {
-      "title": "The Ballad of Buster Scruggs",
-      "year": 2018,
-      "imdb_id": "tt6412452",
-      "notes": ""
+      "imdbId": "tt6261532",
+      "title": "Lumberjacks at Play (1971)",
+      "reason": "Short"
     },
     {
-      "title": "The Tragedy of Macbeth",
-      "year": 2021,
-      "imdb_id": "tt10095582",
-      "notes": ""
+      "imdbId": "tt8796784",
+      "title": "Parisienne People by Joel & Ethan Coen (2003) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt5747464",
+      "title": "World Cinema (2007)",
+      "reason": "Short"
     }
   ]
 }

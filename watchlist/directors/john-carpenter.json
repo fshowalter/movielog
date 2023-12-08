@@ -1,116 +1,153 @@
 {
-  "frozen": false,
   "name": "John Carpenter",
   "slug": "john-carpenter",
-  "imdb_id": "nm0000118",
-  "movies": [
+  "imdbId": "nm0000118",
+  "titles": [
     {
-      "title": "Dark Star",
-      "year": 1974,
-      "imdb_id": "tt0069945",
-      "notes": ""
+      "imdbId": "tt0069945",
+      "title": "Dark Star (1974)"
     },
     {
-      "title": "Assault on Precinct 13",
-      "year": 1976,
-      "imdb_id": "tt0074156",
-      "notes": ""
+      "imdbId": "tt0074156",
+      "title": "Assault on Precinct 13 (1976)"
     },
     {
-      "title": "Halloween",
-      "year": 1978,
-      "imdb_id": "tt0077651",
-      "notes": ""
+      "imdbId": "tt0077651",
+      "title": "Halloween (1978)"
     },
     {
-      "title": "The Fog",
-      "year": 1980,
-      "imdb_id": "tt0080749",
-      "notes": ""
+      "imdbId": "tt0078295",
+      "title": "Someone's Watching Me! (1978) (TV)"
     },
     {
-      "title": "Escape from New York",
-      "year": 1981,
-      "imdb_id": "tt0082340",
-      "notes": ""
+      "imdbId": "tt0079103",
+      "title": "Elvis (1979) (TV)"
     },
     {
-      "title": "The Thing",
-      "year": 1982,
-      "imdb_id": "tt0084787",
-      "notes": ""
+      "imdbId": "tt0080749",
+      "title": "The Fog (1980)"
     },
     {
-      "title": "Christine",
-      "year": 1983,
-      "imdb_id": "tt0085333",
-      "notes": ""
+      "imdbId": "tt0082340",
+      "title": "Escape from New York (1981)"
     },
     {
-      "title": "Starman",
-      "year": 1984,
-      "imdb_id": "tt0088172",
-      "notes": ""
+      "imdbId": "tt0084787",
+      "title": "The Thing (1982)"
     },
     {
-      "title": "Big Trouble in Little China",
-      "year": 1986,
-      "imdb_id": "tt0090728",
-      "notes": ""
+      "imdbId": "tt0085333",
+      "title": "Christine (1983)"
     },
     {
-      "title": "Prince of Darkness",
-      "year": 1987,
-      "imdb_id": "tt0093777",
-      "notes": ""
+      "imdbId": "tt0088172",
+      "title": "Starman (1984)"
     },
     {
-      "title": "They Live",
-      "year": 1988,
-      "imdb_id": "tt0096256",
-      "notes": ""
+      "imdbId": "tt0090728",
+      "title": "Big Trouble in Little China (1986)"
     },
     {
-      "title": "Memoirs of an Invisible Man",
-      "year": 1992,
-      "imdb_id": "tt0104850",
-      "notes": ""
+      "imdbId": "tt0093777",
+      "title": "Prince of Darkness (1987)"
     },
     {
-      "title": "In the Mouth of Madness",
-      "year": 1994,
-      "imdb_id": "tt0113409",
-      "notes": ""
+      "imdbId": "tt0096256",
+      "title": "They Live (1988)"
     },
     {
-      "title": "Village of the Damned",
-      "year": 1995,
-      "imdb_id": "tt0114852",
-      "notes": ""
+      "imdbId": "tt0104850",
+      "title": "Memoirs of an Invisible Man (1992)"
     },
     {
-      "title": "Escape from L.A.",
-      "year": 1996,
-      "imdb_id": "tt0116225",
-      "notes": ""
+      "imdbId": "tt0106449",
+      "title": "Body Bags (1993) (TV)"
     },
     {
-      "title": "Vampires",
-      "year": 1998,
-      "imdb_id": "tt0120877",
-      "notes": ""
+      "imdbId": "tt0113409",
+      "title": "In the Mouth of Madness (1994)"
     },
     {
-      "title": "Ghosts of Mars",
-      "year": 2001,
-      "imdb_id": "tt0228333",
-      "notes": ""
+      "imdbId": "tt0114852",
+      "title": "Village of the Damned (1995)"
     },
     {
-      "title": "The Ward",
-      "year": 2010,
-      "imdb_id": "tt1369706",
-      "notes": ""
+      "imdbId": "tt0116225",
+      "title": "Escape from L.A. (1996)"
+    },
+    {
+      "imdbId": "tt0120877",
+      "title": "Vampires (1998)"
+    },
+    {
+      "imdbId": "tt0228333",
+      "title": "Ghosts of Mars (2001)"
+    },
+    {
+      "imdbId": "tt1369706",
+      "title": "The Ward (2010)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0056410",
+      "title": "Revenge of the Colossal Beasts (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0121801",
+      "title": "Terror from Space (1963)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0064383",
+      "title": "Gorgo Versus Godzilla (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0064384",
+      "title": "Gorgon, the Space Monster (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0121760",
+      "title": "Sorceror from Outer Space (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0121857",
+      "title": "Warrior and the Demon (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6393786",
+      "title": "Captain Voyeur (1969)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0448190",
+      "title": "\"Masters of Horror\" (2005)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt5644778",
+      "title": "John Carpenter: Distant Dream (2016)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt5726168",
+      "title": "John Carpenter: Escape from New York (2016)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt7375082",
+      "title": "John Carpenter: Christine (2017)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt29120536",
+      "title": "\"John Carpenter's Suburban Screams\" (2023) (mini)",
+      "reason": "tv mini series"
     }
   ]
 }

@@ -1,168 +1,114 @@
 {
   "name": "James Bond",
   "slug": "james-bond",
-  "movies": [
+  "titles": [
     {
-      "title": "Dr. No",
-      "year": 1962,
-      "imdb_id": "tt0055928",
-      "notes": null
+      "imdbId": "tt0055928",
+      "title": "Dr. No (1962)"
     },
     {
-      "title": "From Russia with Love",
-      "year": 1963,
-      "imdb_id": "tt0057076",
-      "notes": null
+      "imdbId": "tt0057076",
+      "title": "From Russia with Love (1963)"
     },
     {
-      "title": "Goldfinger",
-      "year": 1964,
-      "imdb_id": "tt0058150",
-      "notes": null
+      "imdbId": "tt0058150",
+      "title": "Goldfinger (1964)"
     },
     {
-      "title": "Thunderball",
-      "year": 1965,
-      "imdb_id": "tt0059800",
-      "notes": null
+      "imdbId": "tt0059800",
+      "title": "Thunderball (1965)"
     },
     {
-      "title": "You Only Live Twice",
-      "year": 1967,
-      "imdb_id": "tt0062512",
-      "notes": null
+      "imdbId": "tt0062512",
+      "title": "You Only Live Twice (1967)"
     },
     {
-      "title": "Casino Royale",
-      "year": 1967,
-      "imdb_id": "tt0061452",
-      "notes": null
+      "imdbId": "tt0061452",
+      "title": "Casino Royale (1967)"
     },
     {
-      "title": "On Her Majesty's Secret Service",
-      "year": 1969,
-      "imdb_id": "tt0064757",
-      "notes": null
+      "imdbId": "tt0064757",
+      "title": "On Her Majesty's Secret Service (1969)"
     },
     {
-      "title": "Diamonds Are Forever",
-      "year": 1971,
-      "imdb_id": "tt0066995",
-      "notes": null
+      "imdbId": "tt0066995",
+      "title": "Diamonds Are Forever (1971)"
     },
     {
-      "title": "Live and Let Die",
-      "year": 1973,
-      "imdb_id": "tt0070328",
-      "notes": null
+      "imdbId": "tt0070328",
+      "title": "Live and Let Die (1973)"
     },
     {
-      "title": "The Man with the Golden Gun",
-      "year": 1974,
-      "imdb_id": "tt0071807",
-      "notes": null
+      "imdbId": "tt0071807",
+      "title": "The Man with the Golden Gun (1974)"
     },
     {
-      "title": "The Spy Who Loved Me",
-      "year": 1977,
-      "imdb_id": "tt0076752",
-      "notes": null
+      "imdbId": "tt0076752",
+      "title": "The Spy Who Loved Me (1977)"
     },
     {
-      "title": "Moonraker",
-      "year": 1979,
-      "imdb_id": "tt0079574",
-      "notes": null
+      "imdbId": "tt0079574",
+      "title": "Moonraker (1979)"
     },
     {
-      "title": "For Your Eyes Only",
-      "year": 1981,
-      "imdb_id": "tt0082398",
-      "notes": null
+      "imdbId": "tt0082398",
+      "title": "For Your Eyes Only (1981)"
     },
     {
-      "title": "Octopussy",
-      "year": 1983,
-      "imdb_id": "tt0086034",
-      "notes": null
+      "imdbId": "tt0086034",
+      "title": "Octopussy (1983)"
     },
     {
-      "title": "Never Say Never Again",
-      "year": 1983,
-      "imdb_id": "tt0086006",
-      "notes": null
+      "imdbId": "tt0086006",
+      "title": "Never Say Never Again (1983)"
     },
     {
-      "title": "A View to a Kill",
-      "year": 1985,
-      "imdb_id": "tt0090264",
-      "notes": null
+      "imdbId": "tt0090264",
+      "title": "A View to a Kill (1985)"
     },
     {
-      "title": "The Living Daylights",
-      "year": 1987,
-      "imdb_id": "tt0093428",
-      "notes": null
+      "imdbId": "tt0093428",
+      "title": "The Living Daylights (1987)"
     },
     {
-      "title": "Licence to Kill",
-      "year": 1989,
-      "imdb_id": "tt0097742",
-      "notes": null
+      "imdbId": "tt0097742",
+      "title": "Licence to Kill (1989)"
     },
     {
-      "title": "GoldenEye",
-      "year": 1995,
-      "imdb_id": "tt0113189",
-      "notes": null
+      "imdbId": "tt0113189",
+      "title": "GoldenEye (1995)"
     },
     {
-      "title": "Tomorrow Never Dies",
-      "year": 1997,
-      "imdb_id": "tt0120347",
-      "notes": null
+      "imdbId": "tt0120347",
+      "title": "Tomorrow Never Dies (1997)"
     },
     {
-      "title": "The World Is Not Enough",
-      "year": 1999,
-      "imdb_id": "tt0143145",
-      "notes": null
+      "imdbId": "tt0143145",
+      "title": "The World Is Not Enough (1999)"
     },
     {
-      "title": "Die Another Day",
-      "year": 2002,
-      "imdb_id": "tt0246460",
-      "notes": null
+      "imdbId": "tt0246460",
+      "title": "Die Another Day (2002)"
     },
     {
-      "title": "Casino Royale",
-      "year": 2006,
-      "imdb_id": "tt0381061",
-      "notes": null
+      "imdbId": "tt0381061",
+      "title": "Casino Royale (2006)"
     },
     {
-      "title": "Quantum of Solace",
-      "year": 2008,
-      "imdb_id": "tt0830515",
-      "notes": null
+      "imdbId": "tt0830515",
+      "title": "Quantum of Solace (2008)"
     },
     {
-      "title": "Skyfall",
-      "year": 2012,
-      "imdb_id": "tt1074638",
-      "notes": null
+      "imdbId": "tt1074638",
+      "title": "Skyfall (2012)"
     },
     {
-      "title": "Spectre",
-      "year": 2015,
-      "imdb_id": "tt2379713",
-      "notes": null
+      "imdbId": "tt2379713",
+      "title": "Spectre (2015)"
     },
     {
-      "title": "No Time to Die",
-      "year": 2021,
-      "imdb_id": "tt2382320",
-      "notes": null
+      "imdbId": "tt2382320",
+      "title": "No Time to Die (2021)"
     }
   ]
 }

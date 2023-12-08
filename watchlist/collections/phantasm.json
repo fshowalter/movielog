@@ -1,31 +1,26 @@
 {
   "name": "Phantasm",
   "slug": "phantasm",
-  "movies": [
+  "titles": [
     {
-      "title": "Phantasm",
-      "year": 1979,
-      "imdb_id": "tt0079714"
+      "imdbId": "tt0079714",
+      "title": "Phantasm (1979)"
     },
     {
-      "title": "Phantasm II",
-      "year": 1988,
-      "imdb_id": "tt0095863"
+      "imdbId": "tt0095863",
+      "title": "Phantasm II (1988)"
     },
     {
-      "title": "Phantasm III: Lord of the Dead",
-      "year": 1994,
-      "imdb_id": "tt0110823"
+      "imdbId": "tt0110823",
+      "title": "Phantasm III: Lord of the Dead (1994)"
     },
     {
-      "title": "Phantasm IV: Oblivion",
-      "year": 1998,
-      "imdb_id": "tt0138703"
+      "imdbId": "tt0138703",
+      "title": "Phantasm IV: Oblivion (1998)"
     },
     {
-      "title": "Phantasm: Ravager",
-      "year": 2016,
-      "imdb_id": "tt3627704"
+      "imdbId": "tt3627704",
+      "title": "Phantasm: Ravager (2016)"
     }
   ]
 }

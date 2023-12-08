@@ -1,170 +1,321 @@
 {
-  "frozen": false,
   "name": "Martin Scorsese",
   "slug": "martin-scorsese",
-  "imdb_id": "nm0000217",
-  "movies": [
+  "imdbId": "nm0000217",
+  "titles": [
     {
-      "title": "Who's That Knocking at My Door",
-      "year": 1967,
-      "imdb_id": "tt0063803",
-      "notes": ""
+      "imdbId": "tt0063803",
+      "title": "Who's That Knocking at My Door (1967)"
     },
     {
-      "title": "The Honeymoon Killers",
-      "year": 1970,
-      "imdb_id": "tt0064437",
-      "notes": ""
+      "imdbId": "tt0068309",
+      "title": "Boxcar Bertha (1972)"
     },
     {
-      "title": "Boxcar Bertha",
-      "year": 1972,
-      "imdb_id": "tt0068309",
-      "notes": ""
+      "imdbId": "tt0070379",
+      "title": "Mean Streets (1973)"
     },
     {
-      "title": "Mean Streets",
-      "year": 1973,
-      "imdb_id": "tt0070379",
-      "notes": ""
+      "imdbId": "tt0071115",
+      "title": "Alice Doesn't Live Here Anymore (1974)"
     },
     {
-      "title": "Alice Doesn't Live Here Anymore",
-      "year": 1974,
-      "imdb_id": "tt0071115",
-      "notes": ""
+      "imdbId": "tt0075314",
+      "title": "Taxi Driver (1976)"
     },
     {
-      "title": "Taxi Driver",
-      "year": 1976,
-      "imdb_id": "tt0075314",
-      "notes": ""
+      "imdbId": "tt0076451",
+      "title": "New York, New York (1977)"
     },
     {
-      "title": "New York, New York",
-      "year": 1977,
-      "imdb_id": "tt0076451",
-      "notes": ""
+      "imdbId": "tt0081398",
+      "title": "Raging Bull (1980)"
     },
     {
-      "title": "Raging Bull",
-      "year": 1980,
-      "imdb_id": "tt0081398",
-      "notes": ""
+      "imdbId": "tt0085794",
+      "title": "The King of Comedy (1982)"
     },
     {
-      "title": "The King of Comedy",
-      "year": 1982,
-      "imdb_id": "tt0085794",
-      "notes": ""
+      "imdbId": "tt0088680",
+      "title": "After Hours (1985)"
     },
     {
-      "title": "After Hours",
-      "year": 1985,
-      "imdb_id": "tt0088680",
-      "notes": ""
+      "imdbId": "tt0090863",
+      "title": "The Color of Money (1986)"
     },
     {
-      "title": "The Color of Money",
-      "year": 1986,
-      "imdb_id": "tt0090863",
-      "notes": ""
+      "imdbId": "tt0095497",
+      "title": "The Last Temptation of Christ (1988)"
     },
     {
-      "title": "The Last Temptation of Christ",
-      "year": 1988,
-      "imdb_id": "tt0095497",
-      "notes": ""
+      "imdbId": "tt0097965",
+      "title": "New York Stories (1989)"
     },
     {
-      "title": "New York Stories",
-      "year": 1989,
-      "imdb_id": "tt0097965",
-      "notes": ""
+      "imdbId": "tt0099685",
+      "title": "Goodfellas (1990)"
     },
     {
-      "title": "Goodfellas",
-      "year": 1990,
-      "imdb_id": "tt0099685",
-      "notes": ""
+      "imdbId": "tt0101540",
+      "title": "Cape Fear (1991)"
     },
     {
-      "title": "Cape Fear",
-      "year": 1991,
-      "imdb_id": "tt0101540",
-      "notes": ""
+      "imdbId": "tt0106226",
+      "title": "The Age of Innocence (1993)"
     },
     {
-      "title": "The Age of Innocence",
-      "year": 1993,
-      "imdb_id": "tt0106226",
-      "notes": ""
+      "imdbId": "tt0112641",
+      "title": "Casino (1995)"
     },
     {
-      "title": "Casino",
-      "year": 1995,
-      "imdb_id": "tt0112641",
-      "notes": ""
+      "imdbId": "tt0167988",
+      "title": "Michael Jackson: Video Greatest Hits - HIStory (1995) (V)"
     },
     {
-      "title": "Kundun",
-      "year": 1997,
-      "imdb_id": "tt0119485",
-      "notes": ""
+      "imdbId": "tt0119485",
+      "title": "Kundun (1997)"
     },
     {
-      "title": "Bringing Out the Dead",
-      "year": 1999,
-      "imdb_id": "tt0163988",
-      "notes": ""
+      "imdbId": "tt0163988",
+      "title": "Bringing Out the Dead (1999)"
     },
     {
-      "title": "Gangs of New York",
-      "year": 2002,
-      "imdb_id": "tt0217505",
-      "notes": ""
+      "imdbId": "tt0217505",
+      "title": "Gangs of New York (2002)"
     },
     {
-      "title": "The Aviator",
-      "year": 2004,
-      "imdb_id": "tt0338751",
-      "notes": ""
+      "imdbId": "tt0338751",
+      "title": "The Aviator (2004)"
     },
     {
-      "title": "The Departed",
-      "year": 2006,
-      "imdb_id": "tt0407887",
-      "notes": ""
+      "imdbId": "tt0407887",
+      "title": "The Departed (2006)"
     },
     {
-      "title": "Shutter Island",
-      "year": 2010,
-      "imdb_id": "tt1130884",
-      "notes": ""
+      "imdbId": "tt1130884",
+      "title": "Shutter Island (2010)"
     },
     {
-      "title": "Hugo",
-      "year": 2011,
-      "imdb_id": "tt0970179",
-      "notes": ""
+      "imdbId": "tt0970179",
+      "title": "Hugo (2011)"
     },
     {
-      "title": "The Wolf of Wall Street",
-      "year": 2013,
-      "imdb_id": "tt0993846",
-      "notes": ""
+      "imdbId": "tt0993846",
+      "title": "The Wolf of Wall Street (2013)"
     },
     {
-      "title": "Silence",
-      "year": 2016,
-      "imdb_id": "tt0490215",
-      "notes": ""
+      "imdbId": "tt0490215",
+      "title": "Silence (2016)"
     },
     {
-      "title": "The Irishman",
-      "year": 2019,
-      "imdb_id": "tt1302006",
-      "notes": ""
+      "imdbId": "tt1302006",
+      "title": "The Irishman (2019)"
+    },
+    {
+      "imdbId": "tt5537002",
+      "title": "Killers of the Flower Moon (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0053416",
+      "title": "Vesuvius VI (1959)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0057680",
+      "title": "What's a Nice Girl Like You Doing in a Place Like This? (1963)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0058242",
+      "title": "It's Not Just You, Murray! (1964)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3413658",
+      "title": "New York City... Melting Point (1966)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0061402",
+      "title": "The Big Shave (1967)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0066416",
+      "title": "Street Scenes (1970)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0071680",
+      "title": "Italianamerican (1974)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0199184",
+      "title": "\"Arena\" (1975)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0077157",
+      "title": "American Boy: A Profile of Steven Prince (1978)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0077838",
+      "title": "The Last Waltz (1978)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0088478",
+      "title": "\"Amazing Stories\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0364151",
+      "title": "\"American Masters\" (1985)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0124288",
+      "title": "Michael Jackson: Bad (1987)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0374003",
+      "title": "The Last Temptation of Christ: On Location in Morocco (1988) (V)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt21919416",
+      "title": "Robbie Robertson: Somewhere Down the Crazy River (1988)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0100086",
+      "title": "Made in Milan (1990)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt2243597",
+      "title": "The King of Ads (1991)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt10198576",
+      "title": "\"Century of Cinema\" (1995)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0173772",
+      "title": "My Voyage to Italy (1999)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0298810",
+      "title": "The Concert for New York City (2001)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt2061828",
+      "title": "The Neighborhood (2001)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0287198",
+      "title": "\"The Blues\" (2003) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0768131",
+      "title": "Michael Jackson: Number Ones (2003) (V)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0397507",
+      "title": "Lady by the Sea: The Statue of Liberty (2004) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1151319",
+      "title": "The Key to Reserva (2007)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0893382",
+      "title": "Shine a Light (2008)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0808245",
+      "title": "A Letter to Elia (2010)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0979432",
+      "title": "\"Boardwalk Empire\" (2010)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt13515268",
+      "title": "Bleu de Chanel (2010)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1734477",
+      "title": "Public Speaking (2010)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1113829",
+      "title": "George Harrison: Living in the Material World (2011)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt15307168",
+      "title": "Street of Dreams (2013) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt10908058",
+      "title": "The King of Comedy: Deleted and Extended Scenes (2014) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3510820",
+      "title": "The 50 Year Argument (2014)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt4016250",
+      "title": "The Audition (2015)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt3186130",
+      "title": "\"Vinyl\" (2016)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt9577852",
+      "title": "Rolling Thunder Revue (2019)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt13660958",
+      "title": "\"Pretend It's a City\" (2021) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt29544805",
+      "title": "Rolling Thunder Revue: Additional Performances (2021)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12667838",
+      "title": "Personality Crisis: One Night Only (2022)",
+      "reason": "Documentary"
     }
   ]
 }

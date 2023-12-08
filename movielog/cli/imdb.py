@@ -1,14 +1,24 @@
-from movielog import api as movielog_api
-from movielog.cli import confirm, radio_list
+from movielog.cli import radio_list
+from movielog.repository import api as repository_api
 
 
 def prompt() -> None:
     options = [
-        (None, "Go back"),
-        (update_titles_and_people, "<cyan>Update titles and people</cyan>"),
         (
-            update_watchlist_person_credits,
-            "<cyan>Update watchlist person credits</cyan>",
+            repository_api.update_datasets,
+            "Update <cyan>dataset</cyan> data (<cyan>title</cyan>, <cyan>year</cyan>, <cyan>original title</cyan>, <cyan>runtime</cyan>, and <cyan>votes</cyan>).",  # noqa: E501
+        ),
+        (
+            repository_api.update_title_data,
+            "Update <cyan>page</cyan> data (<cyan>cast</cyan>, <cyan>genres</cyan>, <cyan>release date</cyan>, and <cyan>countries</cyan>).",  # noqa: E501
+        ),
+        (
+            repository_api.update_watchlist_credits,
+            "Update <cyan>titles</cyan> for <cyan>watchlist directors</cyan>, <cyan>performers</cyan>, and <cyan>writers</cyan>.",  # noqa: E501
+        ),
+        (
+            repository_api.validate_data,
+            "<cyan>Validate title data.</cyan>",
         ),
     ]
 
@@ -20,16 +30,3 @@ def prompt() -> None:
     if option_function:
         option_function()
         prompt()
-
-
-def update_titles_and_people() -> None:
-    if confirm.prompt("<cyan>Download and update IMDb titles and people?</cyan>"):
-        movielog_api.refresh_core_data()
-
-
-def update_watchlist_person_credits() -> None:
-    prompt_text = (
-        "<cyan>This will update any non-frozen credits from the IMDb. Continue?</cyan>"
-    )
-    if confirm.prompt(prompt_text):
-        movielog_api.refresh_credits()

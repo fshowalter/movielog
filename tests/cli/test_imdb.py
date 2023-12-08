@@ -9,46 +9,56 @@ from tests.cli.keys import Down, Enter, Escape
 
 
 @pytest.fixture(autouse=True)
-def mock_refresh_core_data(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.movielog_api.refresh_core_data")
+def mock_update_datasets(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.imdb.repository_api.update_datasets")
 
 
 @pytest.fixture(autouse=True)
-def mock_refresh_credits(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.imdb.movielog_api.refresh_credits")
+def mock_update_title_data(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.imdb.repository_api.update_title_data")
 
 
-def test_calls_refresh_core_data(
-    mock_input: MockInput, mock_refresh_core_data: MagicMock
+@pytest.fixture(autouse=True)
+def mock_update_watchlist_credits(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.imdb.repository_api.update_watchlist_credits")
+
+
+@pytest.fixture(autouse=True)
+def mock_validate_data(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.imdb.repository_api.validate_data")
+
+
+def test_calls_update_daasets(
+    mock_input: MockInput, mock_update_datasets: MagicMock
 ) -> None:
-    mock_input([Down, Enter, "y", Enter, Escape])
+    mock_input([Enter, Escape, Escape])
     imdb.prompt()
 
-    mock_refresh_core_data.assert_called_once()
+    mock_update_datasets.assert_called_once()
 
 
-def test_can_confirm_refresh_core_data(
-    mock_input: MockInput, mock_refresh_core_data: MagicMock
+def test_calls_mock_update_title_data(
+    mock_input: MockInput, mock_update_title_data: MagicMock
 ) -> None:
-    mock_input([Down, Enter, "n", Enter, Escape])
+    mock_input([Down, Enter, Escape, Escape])
     imdb.prompt()
 
-    mock_refresh_core_data.assert_not_called()
+    mock_update_title_data.assert_called_once()
 
 
-def test_calls_refresh_credits(
-    mock_input: MockInput, mock_refresh_credits: MagicMock
+def test_calls_update_watchlist_credits(
+    mock_input: MockInput, mock_update_watchlist_credits: MagicMock
 ) -> None:
-    mock_input([Down, Down, Enter, "y", Enter, Escape])
+    mock_input([Down, Down, Enter, Escape, Escape])
     imdb.prompt()
 
-    mock_refresh_credits.assert_called_once()
+    mock_update_watchlist_credits.assert_called_once()
 
 
-def test_can_confirm_refresh_credits(
-    mock_input: MockInput, mock_refresh_credits: MagicMock
+def test_calls_validate_data(
+    mock_input: MockInput, mock_validate_data: MagicMock
 ) -> None:
-    mock_input([Down, Down, Enter, "n", Enter, Escape])
+    mock_input([Down, Down, Down, Enter, Escape, Escape])
     imdb.prompt()
 
-    mock_refresh_credits.assert_not_called()
+    mock_validate_data.assert_called_once()

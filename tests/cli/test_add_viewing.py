@@ -1,98 +1,99 @@
 from datetime import date
+from typing import Literal, Optional
 from unittest.mock import MagicMock
 
 import pytest
+from freezegun import freeze_time
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_viewing
-from movielog.moviedata.core import movies_table, people_table
+from movielog.repository.datasets.dataset_title import DatasetTitle
+from movielog.repository.db import titles_table
 from tests.cli.conftest import MockInput
-from tests.cli.keys import Backspace, Down, End, Enter, Escape
+from tests.cli.keys import Backspace, End, Enter, Escape
+from tests.cli.prompt_utils import ConfirmType, enter_text, select_option
 
 
 @pytest.fixture(autouse=True)
 def mock_add_viewing(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch("movielog.cli.add_viewing.movielog_api.add_viewing")
+    return mocker.patch("movielog.cli.add_viewing.repository_api.create_viewing")
 
 
 @pytest.fixture(autouse=True)
-def stub_media(mocker: MockerFixture) -> None:
-    venues = [
-        "Criterion Channel",
-        "Watch TCM",
-        "Blu-ray",
-    ]
-
-    mocker.patch(
-        "movielog.cli.add_viewing.movielog_api.recent_media", return_value=venues
+def mock_create_or_update_review(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch(
+        "movielog.cli.add_viewing.repository_api.create_or_update_review"
     )
 
 
 @pytest.fixture(autouse=True)
 def seed_db() -> None:
-    people_table.reload(
+    titles_table.reload(
         [
-            people_table.Row(
-                imdb_id="nm0001088",
-                full_name="Peter Cushing",
-                known_for_title_ids="tt0051554,tt0050280",
-            ),
-            people_table.Row(
-                imdb_id="nm0000078",
-                full_name="John Wayne",
-                known_for_title_ids="tt0053221",
-            ),
-            people_table.Row(
-                imdb_id="nm0001509",
-                full_name="Dean Martin",
-                known_for_title_ids="tt0053221",
-            ),
-            people_table.Row(
-                imdb_id="nm0625699",
-                full_name="Ricky Nelson",
-                known_for_title_ids="tt0053221",
-            ),
-        ]
-    )
-
-    movies_table.reload(
-        [
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0051554",
                 title="Horror of Dracula",
+                full_title="Horror of Dracula (1958)",
+                aka_titles=[],
                 original_title="Dracula",
-                year=1958,
-                runtime_minutes=None,
-                principal_cast_ids="nm0001088",
-                votes=23,
+                year="1958",
+                runtime_minutes=97,
+                principal_cast=["Peter Cushing", "Christopher Lee"],
+                imdb_votes=23,
                 imdb_rating=4.5,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0053221",
                 title="Rio Bravo",
-                original_title=None,
-                year=1959,
-                runtime_minutes=None,
-                principal_cast_ids="nm0000078,nm0001509,nm0625699",
-                votes=32,
+                full_title="Rio Bravo (1959)",
+                original_title="Rio Bravo",
+                aka_titles=["Howard Hawks' Rio Bravo"],
+                year="1959",
+                runtime_minutes=121,
+                principal_cast=["John Wayne", "Dean Martin", "Ricky Nelson"],
+                imdb_votes=32,
                 imdb_rating=7.8,
             ),
-            movies_table.Row(
+            DatasetTitle(
                 imdb_id="tt0050280",
                 title="Curse of Frankenstein",
-                original_title=None,
-                year=1957,
-                runtime_minutes=None,
-                principal_cast_ids="nm0001088",
-                votes=16,
+                full_title="Curse of Frankenstein (1957)",
+                aka_titles=[],
+                original_title="Curse of Frankenstein",
+                year="1957",
+                runtime_minutes=98,
+                principal_cast=["Peter Cushing", "Christopher Lee"],
+                imdb_votes=16,
                 imdb_rating=5.8,
             ),
         ]
     )
 
 
-CLEAR_DEFAULT_DATE = "".join(
-    [
+def enter_title(title: str) -> list[str]:
+    return enter_text(title)
+
+
+def select_title_search_result(confirm: ConfirmType) -> list[str]:
+    return select_option(1, confirm=confirm)
+
+
+def select_medium() -> list[str]:
+    return select_option(2)
+
+
+def enter_grade(grade: str) -> list[str]:
+    return enter_text(grade)
+
+
+def add_another_viewing(confirm: ConfirmType) -> list[str]:
+    return [confirm]
+
+
+def enter_viewing_date(
+    date: str, confirm: Optional[Literal[ConfirmType]] = None
+) -> list[str]:
+    input_stream = [
         Backspace,
         Backspace,
         Backspace,
@@ -103,28 +104,29 @@ CLEAR_DEFAULT_DATE = "".join(
         Backspace,
         Backspace,
         Backspace,
+        *enter_text(date),
     ]
-)
+
+    if confirm:
+        input_stream.append(confirm)
+
+    return input_stream
 
 
-def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+@freeze_time("2012-12-01")
+def test_calls_add_viewing_and_create_or_update_review(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
+) -> None:
     mock_input(
         [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "yA+",
-            Enter,
-            "y",
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_medium(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
         ]
     )
 
@@ -132,300 +134,192 @@ def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -
 
     mock_add_viewing.assert_called_once_with(
         imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        year=1959,
+        full_title="Rio Bravo (1959)",
+        medium="TCM HD",
+        date=date(2012, 3, 12),
+    )
+
+    mock_create_or_update_review.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
         grade="A+",
-        viewing_date=date(2016, 3, 12),
+        date=date(2012, 3, 12),
     )
 
 
-def test_can_confirm_movie(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+@freeze_time("2012-12-01")
+def test_can_confirm_title(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
+) -> None:
     mock_input(
         [
-            "Horror of Dracula",
-            Enter,
-            Down,
-            Enter,
-            "n",
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "yA+",
-            Enter,
-            "y",
+            *enter_title("Horror of Dracula"),
+            *select_title_search_result("n"),
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_medium(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
         ]
     )
     add_viewing.prompt()
 
     mock_add_viewing.assert_called_once_with(
         imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        year=1959,
+        full_title="Rio Bravo (1959)",
+        medium="TCM HD",
+        date=date(2012, 3, 12),
+    )
+
+    mock_create_or_update_review.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
         grade="A+",
-        viewing_date=date(2016, 3, 12),
+        date=date(2012, 3, 12),
     )
 
 
-def test_does_not_call_add_review_if_no_movie(
-    mock_input: MockInput, mock_add_viewing: MagicMock
+def test_does_not_call_add_viewing_or_create_or_update_review_if_no_title(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
 ) -> None:
     mock_input([Escape])
     add_viewing.prompt()
 
     mock_add_viewing.assert_not_called()
+    mock_create_or_update_review.assert_not_called()
 
 
-def test_does_not_call_add_review_if_no_date(
-    mock_input: MockInput, mock_add_viewing: MagicMock
+def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
 ) -> None:
-    mock_input(["Rio Bravo", Enter, Down, Enter, "y", Escape, Escape])
+    mock_input(
+        [
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            Escape,
+            Escape,
+            Escape,
+        ]
+    )
     add_viewing.prompt()
 
     mock_add_viewing.assert_not_called()
+    mock_create_or_update_review.assert_not_called()
 
 
-def test_can_add_viewing_with_no_grade(
-    mock_input: MockInput, mock_add_viewing: MagicMock
-) -> None:
-    mock_input(
-        [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "y",
-            Enter,
-            Enter,
-        ]
-    )
-    add_viewing.prompt()
-
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        year=1959,
-        grade=None,
-        viewing_date=date(2016, 3, 12),
-    )
-
-
-def test_can_confirm_grade(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
-    mock_input(
-        [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "yB+",
-            Enter,
-            "n",
-            "A+",
-            Enter,
-            "y",
-        ]
-    )
-    add_viewing.prompt()
-
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        viewing_date=date(2016, 3, 12),
-        year=1959,
-        grade="A+",
-    )
-
-
+@freeze_time("2012-12-01")
 def test_guards_against_bad_dates(
-    mock_input: MockInput, mock_add_viewing: MagicMock
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
 ) -> None:
     mock_input(
         [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-3-32",
-            Enter,
-            Backspace,
-            "1",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "yA+",
-            Enter,
-            "y",
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-32"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_medium(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
         ]
     )
     add_viewing.prompt()
 
     mock_add_viewing.assert_called_once_with(
         imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        viewing_date=date(2016, 3, 31),
-        year=1959,
+        full_title="Rio Bravo (1959)",
+        medium="TCM HD",
+        date=date(2012, 3, 12),
+    )
+
+    mock_create_or_update_review.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
         grade="A+",
+        date=date(2012, 3, 12),
     )
 
 
-def test_can_confirm_date(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+@freeze_time("2012-12-01")
+def test_can_confirm_date(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
+) -> None:
     mock_input(
         [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-3-13",
-            Enter,
-            "n",
-            CLEAR_DEFAULT_DATE,
-            "2016-3-12",
-            Enter,
-            "y",
-            Down,
-            Down,
-            Enter,
-            "yA+",
-            Enter,
-            "y",
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-13", confirm="n"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_medium(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
         ]
     )
     add_viewing.prompt()
 
     mock_add_viewing.assert_called_once_with(
         imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="Blu-ray",
-        year=1959,
+        full_title="Rio Bravo (1959)",
+        medium="TCM HD",
+        date=date(2012, 3, 12),
+    )
+
+    mock_create_or_update_review.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
         grade="A+",
-        viewing_date=date(2016, 3, 12),
+        date=date(2012, 3, 12),
     )
 
 
-def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+@freeze_time("2012-12-01")
+def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
             End,
             Enter,
-            "4k UHD Blu-ray",
-            Enter,
-            "yA+",
-            Enter,
-            "y",
+            *enter_text("4k UHD Blu-ray"),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
         ]
     )
     add_viewing.prompt()
 
     mock_add_viewing.assert_called_once_with(
         imdb_id="tt0053221",
-        title="Rio Bravo",
+        full_title="Rio Bravo (1959)",
         medium="4k UHD Blu-ray",
-        year=1959,
-        grade="A+",
-        viewing_date=date(2016, 3, 12),
+        date=date(2012, 3, 12),
     )
 
 
-def test_can_confirm_new_venue(
-    mock_input: MockInput, mock_add_viewing: MagicMock
+@freeze_time("2012-12-01")
+def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
+    mock_input: MockInput,
+    mock_add_viewing: MagicMock,
+    mock_create_or_update_review: MagicMock,
 ) -> None:
     mock_input(
         [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            End,
-            Enter,
-            "2k UHD Blu-ray",
-            Enter,
-            "n",
-            End,
-            Enter,
-            "4k UHD Blu-ray",
-            Enter,
-            "yA+",
-            Enter,
-            "y",
-        ]
-    )
-    add_viewing.prompt()
-
-    mock_add_viewing.assert_called_once_with(
-        imdb_id="tt0053221",
-        title="Rio Bravo",
-        medium="4k UHD Blu-ray",
-        year=1959,
-        grade="A+",
-        viewing_date=date(2016, 3, 12),
-    )
-
-
-def test_does_not_call_add_review_if_no_venue(
-    mock_input: MockInput, mock_add_viewing: MagicMock
-) -> None:
-    mock_input(
-        [
-            "Rio Bravo",
-            Enter,
-            Down,
-            Enter,
-            "y",
-            CLEAR_DEFAULT_DATE,
-            "2016-03-12",
-            Enter,
-            "y",
-            End,
-            Enter,
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            Escape,
+            Escape,
+            Escape,
             Escape,
             Escape,
         ]
@@ -433,3 +327,4 @@ def test_does_not_call_add_review_if_no_venue(
     add_viewing.prompt()
 
     mock_add_viewing.assert_not_called()
+    mock_create_or_update_review.assert_not_called()

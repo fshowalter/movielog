@@ -1,110 +1,117 @@
 {
-  "frozen": true,
   "name": "George A. Romero",
   "slug": "george-a-romero",
-  "imdb_id": "nm0001681",
-  "movies": [
+  "imdbId": "nm0001681",
+  "titles": [
     {
-      "title": "Night of the Living Dead",
-      "year": 1968,
-      "imdb_id": "tt0063350",
-      "notes": null
+      "imdbId": "tt0063350",
+      "title": "Night of the Living Dead (1968)"
     },
     {
-      "title": "There's Always Vanilla",
-      "year": 1971,
-      "imdb_id": "tt0166843",
-      "notes": null
+      "imdbId": "tt0166843",
+      "title": "There's Always Vanilla (1971)"
     },
     {
-      "title": "Season of the Witch",
-      "year": 1972,
-      "imdb_id": "tt0069239",
-      "notes": null
+      "imdbId": "tt0069239",
+      "title": "Season of the Witch (1972)"
     },
     {
-      "title": "The Crazies",
-      "year": 1973,
-      "imdb_id": "tt0069895",
-      "notes": null
+      "imdbId": "tt0069895",
+      "title": "The Crazies (1973)"
     },
     {
-      "title": "The Amusement Park",
-      "year": 1973,
-      "imdb_id": "tt9270362",
-      "notes": null
+      "imdbId": "tt9270362",
+      "title": "The Amusement Park (1975)"
     },
     {
-      "title": "Martin",
-      "year": 1977,
-      "imdb_id": "tt0077914",
-      "notes": null
+      "imdbId": "tt0077914",
+      "title": "Martin (1977)"
     },
     {
-      "title": "Dawn of the Dead",
-      "year": 1978,
-      "imdb_id": "tt0077402",
-      "notes": null
+      "imdbId": "tt0077402",
+      "title": "Dawn of the Dead (1978)"
     },
     {
-      "title": "Knightriders",
-      "year": 1981,
-      "imdb_id": "tt0082622",
-      "notes": null
+      "imdbId": "tt0082622",
+      "title": "Knightriders (1981)"
     },
     {
-      "title": "Creepshow",
-      "year": 1982,
-      "imdb_id": "tt0083767",
-      "notes": null
+      "imdbId": "tt0083767",
+      "title": "Creepshow (1982)"
     },
     {
-      "title": "Day of the Dead",
-      "year": 1985,
-      "imdb_id": "tt0088993",
-      "notes": null
+      "imdbId": "tt0088993",
+      "title": "Day of the Dead (1985)"
     },
     {
-      "title": "Monkey Shines",
-      "year": 1988,
-      "imdb_id": "tt0095652",
-      "notes": null
+      "imdbId": "tt0095652",
+      "title": "Monkey Shines (1988)"
     },
     {
-      "title": "Two Evil Eyes",
-      "year": 1990,
-      "imdb_id": "tt0100827",
-      "notes": "(segment \"The Facts in the Case of Mr. Valdemar\", as George Romero)"
+      "imdbId": "tt0100827",
+      "title": "Two Evil Eyes (1990)"
     },
     {
-      "title": "The Dark Half",
-      "year": 1993,
-      "imdb_id": "tt0106664",
-      "notes": null
+      "imdbId": "tt0106664",
+      "title": "The Dark Half (1993)"
     },
     {
-      "title": "Bruiser",
-      "year": 2000,
-      "imdb_id": "tt0212830",
-      "notes": null
+      "imdbId": "tt0212830",
+      "title": "Bruiser (2000)"
     },
     {
-      "title": "Land of the Dead",
-      "year": 2005,
-      "imdb_id": "tt0418819",
-      "notes": null
+      "imdbId": "tt0418819",
+      "title": "Land of the Dead (2005)"
     },
     {
-      "title": "Diary of the Dead",
-      "year": 2007,
-      "imdb_id": "tt0848557",
-      "notes": null
+      "imdbId": "tt0848557",
+      "title": "Diary of the Dead (2007)"
     },
     {
-      "title": "Survival of the Dead",
-      "year": 2009,
-      "imdb_id": "tt1134854",
-      "notes": null
+      "imdbId": "tt1134854",
+      "title": "Survival of the Dead (2009)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt2259898",
+      "title": "Expostulations (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0364903",
+      "title": "\"The Winners\" (1973)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0362919",
+      "title": "O.J. Simpson: Juice on the Loose (1974) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt4323110",
+      "title": "Magic at the Roxy (1976)",
+      "reason": "tv special"
+    },
+    {
+      "imdbId": "tt19513784",
+      "title": "Resident Evil 2 Commercial (1998)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11307070",
+      "title": "The Misfits: Scream! (1999)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0450827",
+      "title": "A Christmas Tale (2005) (TV)",
+      "reason": "didn't direct"
+    },
+    {
+      "imdbId": "tt12898268",
+      "title": "Iron City Asskickers (2021)",
+      "reason": "Short"
     }
   ]
 }

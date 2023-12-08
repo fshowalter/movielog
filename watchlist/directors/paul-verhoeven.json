@@ -1,110 +1,151 @@
 {
-  "frozen": false,
   "name": "Paul Verhoeven",
   "slug": "paul-verhoeven",
-  "imdb_id": "nm0000682",
-  "movies": [
+  "imdbId": "nm0000682",
+  "titles": [
     {
-      "title": "Any Special Way",
-      "year": 1971,
-      "imdb_id": "tt0067963",
-      "notes": ""
+      "imdbId": "tt0067963",
+      "title": "Any Special Way (1971)"
     },
     {
-      "title": "Turkish Delight",
-      "year": 1973,
-      "imdb_id": "tt0070842",
-      "notes": ""
+      "imdbId": "tt0070842",
+      "title": "Turkish Delight (1973)"
     },
     {
-      "title": "Katie Tippel",
-      "year": 1975,
-      "imdb_id": "tt0073233",
-      "notes": ""
+      "imdbId": "tt0073233",
+      "title": "Katie Tippel (1975)"
     },
     {
-      "title": "Soldier of Orange",
-      "year": 1977,
-      "imdb_id": "tt0076734",
-      "notes": ""
+      "imdbId": "tt0076734",
+      "title": "Soldier of Orange (1977)"
     },
     {
-      "title": "Spetters",
-      "year": 1980,
-      "imdb_id": "tt0081547",
-      "notes": ""
+      "imdbId": "tt0081547",
+      "title": "Spetters (1980)"
     },
     {
-      "title": "The 4th Man",
-      "year": 1983,
-      "imdb_id": "tt0086543",
-      "notes": ""
+      "imdbId": "tt0080105",
+      "title": "Voorbij, voorbij (1981) (TV)"
     },
     {
-      "title": "Flesh+Blood",
-      "year": 1985,
-      "imdb_id": "tt0089153",
-      "notes": ""
+      "imdbId": "tt0086543",
+      "title": "The 4th Man (1983)"
     },
     {
-      "title": "RoboCop",
-      "year": 1987,
-      "imdb_id": "tt0093870",
-      "notes": ""
+      "imdbId": "tt0089153",
+      "title": "Flesh+Blood (1985)"
     },
     {
-      "title": "Total Recall",
-      "year": 1990,
-      "imdb_id": "tt0100802",
-      "notes": ""
+      "imdbId": "tt0093870",
+      "title": "RoboCop (1987)"
     },
     {
-      "title": "Basic Instinct",
-      "year": 1992,
-      "imdb_id": "tt0103772",
-      "notes": ""
+      "imdbId": "tt0100802",
+      "title": "Total Recall (1990)"
     },
     {
-      "title": "Showgirls",
-      "year": 1995,
-      "imdb_id": "tt0114436",
-      "notes": ""
+      "imdbId": "tt0103772",
+      "title": "Basic Instinct (1992)"
     },
     {
-      "title": "Starship Troopers",
-      "year": 1997,
-      "imdb_id": "tt0120201",
-      "notes": ""
+      "imdbId": "tt0114436",
+      "title": "Showgirls (1995)"
     },
     {
-      "title": "Hollow Man",
-      "year": 2000,
-      "imdb_id": "tt0164052",
-      "notes": ""
+      "imdbId": "tt0120201",
+      "title": "Starship Troopers (1997)"
     },
     {
-      "title": "Black Book",
-      "year": 2006,
-      "imdb_id": "tt0389557",
-      "notes": ""
+      "imdbId": "tt0164052",
+      "title": "Hollow Man (2000)"
     },
     {
-      "title": "Tricked",
-      "year": 2012,
-      "imdb_id": "tt2171875",
-      "notes": ""
+      "imdbId": "tt0389557",
+      "title": "Black Book (2006)"
     },
     {
-      "title": "Elle",
-      "year": 2016,
-      "imdb_id": "tt3716530",
-      "notes": ""
+      "imdbId": "tt2171875",
+      "title": "Tricked (2012)"
     },
     {
-      "title": "Benedetta",
-      "year": 2021,
-      "imdb_id": "tt6823148",
-      "notes": ""
+      "imdbId": "tt3716530",
+      "title": "Elle (2016)"
+    },
+    {
+      "imdbId": "tt6823148",
+      "title": "Benedetta (2021)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt6190192",
+      "title": "Kopjes koffie (1959)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0053887",
+      "title": "E\u00e9n hagedis teveel (1960)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0055228",
+      "title": "Nothing Special (1961)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0056182",
+      "title": "The Hitchhikers (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0057056",
+      "title": "Feest! (1963)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0059366",
+      "title": "The Royal Dutch Marine Corps (1965)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0063897",
+      "title": "\"Floris\" (1969)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0063448",
+      "title": "Portret van Anton Adriaan Mussert (1970) (TV)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0066582",
+      "title": "The Wrestler (1971)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt1016144",
+      "title": "\"Voor koningin en vaderland\" (1979) (mini)",
+      "reason": "tv mini series"
+    },
+    {
+      "imdbId": "tt0085031",
+      "title": "\"The Hitchhiker\" (1983)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt18562108",
+      "title": "Starship Troopers: Deleted Scenes (1998) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt19878578",
+      "title": "Robocop: Deleted Scenes (2014) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt12304330",
+      "title": "\"Bel Ami\" (2022) (mini)",
+      "reason": "tv mini series"
     }
   ]
 }

@@ -1,146 +1,245 @@
 {
-  "frozen": false,
   "name": "Abel Ferrara",
   "slug": "abel-ferrara",
-  "imdb_id": "nm0001206",
-  "movies": [
+  "imdbId": "nm0001206",
+  "titles": [
     {
-      "title": "The Driller Killer",
-      "year": 1979,
-      "imdb_id": "tt0079082",
-      "notes": ""
+      "imdbId": "tt0079082",
+      "title": "The Driller Killer (1979)"
     },
     {
-      "title": "Ms .45",
-      "year": 1981,
-      "imdb_id": "tt0082776",
-      "notes": ""
+      "imdbId": "tt0082776",
+      "title": "Ms .45 (1981)"
     },
     {
-      "title": "Fear City",
-      "year": 1984,
-      "imdb_id": "tt0087247",
-      "notes": ""
+      "imdbId": "tt0087247",
+      "title": "Fear City (1984)"
     },
     {
-      "title": "China Girl",
-      "year": 1987,
-      "imdb_id": "tt0092751",
-      "notes": ""
+      "imdbId": "tt0092751",
+      "title": "China Girl (1987)"
     },
     {
-      "title": "Cat Chaser",
-      "year": 1989,
-      "imdb_id": "tt0097028",
-      "notes": ""
+      "imdbId": "tt0097028",
+      "title": "Cat Chaser (1989)"
     },
     {
-      "title": "King of New York",
-      "year": 1990,
-      "imdb_id": "tt0099939",
-      "notes": ""
+      "imdbId": "tt0099939",
+      "title": "King of New York (1990)"
     },
     {
-      "title": "Bad Lieutenant",
-      "year": 1992,
-      "imdb_id": "tt0103759",
-      "notes": ""
+      "imdbId": "tt0103759",
+      "title": "Bad Lieutenant (1992)"
     },
     {
-      "title": "Body Snatchers",
-      "year": 1993,
-      "imdb_id": "tt0106452",
-      "notes": ""
+      "imdbId": "tt0106452",
+      "title": "Body Snatchers (1993)"
     },
     {
-      "title": "Dangerous Game",
-      "year": 1993,
-      "imdb_id": "tt0106660",
-      "notes": ""
+      "imdbId": "tt0106660",
+      "title": "Dangerous Game (1993)"
     },
     {
-      "title": "The Addiction",
-      "year": 1995,
-      "imdb_id": "tt0112288",
-      "notes": ""
+      "imdbId": "tt0112288",
+      "title": "The Addiction (1995)"
     },
     {
-      "title": "The Funeral",
-      "year": 1996,
-      "imdb_id": "tt0116378",
-      "notes": ""
+      "imdbId": "tt0116378",
+      "title": "The Funeral (1996)"
     },
     {
-      "title": "The Blackout",
-      "year": 1997,
-      "imdb_id": "tt0118734",
-      "notes": ""
+      "imdbId": "tt0118734",
+      "title": "The Blackout (1997)"
     },
     {
-      "title": "New Rose Hotel",
-      "year": 1998,
-      "imdb_id": "tt0133122",
-      "notes": ""
+      "imdbId": "tt0120240",
+      "title": "SUBWAYStories: Tales from the Underground (1997) (TV)"
     },
     {
-      "title": "'R Xmas",
-      "year": 2001,
-      "imdb_id": "tt0217978",
-      "notes": ""
+      "imdbId": "tt0133122",
+      "title": "New Rose Hotel (1998)"
     },
     {
-      "title": "Mary",
-      "year": 2005,
-      "imdb_id": "tt0425236",
-      "notes": ""
+      "imdbId": "tt0217978",
+      "title": "'R Xmas (2001)"
     },
     {
-      "title": "Go Go Tales",
-      "year": 2007,
-      "imdb_id": "tt0393329",
-      "notes": ""
+      "imdbId": "tt0425236",
+      "title": "Mary (2005)"
     },
     {
-      "title": "4:44 Last Day on Earth",
-      "year": 2011,
-      "imdb_id": "tt1707391",
-      "notes": ""
+      "imdbId": "tt0393329",
+      "title": "Go Go Tales (2007)"
     },
     {
-      "title": "Welcome to New York",
-      "year": 2014,
-      "imdb_id": "tt2758890",
-      "notes": ""
+      "imdbId": "tt1707391",
+      "title": "4:44 Last Day on Earth (2011)"
     },
     {
-      "title": "Pasolini",
-      "year": 2014,
-      "imdb_id": "tt3125652",
-      "notes": ""
+      "imdbId": "tt2758890",
+      "title": "Welcome to New York (2014)"
     },
     {
-      "title": "Tommaso",
-      "year": 2019,
-      "imdb_id": "tt9482230",
-      "notes": ""
+      "imdbId": "tt3125652",
+      "title": "Pasolini (2014)"
     },
     {
-      "title": "Siberia",
-      "year": 2019,
-      "imdb_id": "tt4687856",
-      "notes": ""
+      "imdbId": "tt4687856",
+      "title": "Siberia (2019)"
     },
     {
-      "title": "Zeros and Ones",
-      "year": 2021,
-      "imdb_id": "tt13432484",
-      "notes": ""
+      "imdbId": "tt9482230",
+      "title": "Tommaso (2019)"
     },
     {
-      "title": "Padre Pio",
-      "year": 2022,
-      "imdb_id": "tt18272884",
-      "notes": ""
+      "imdbId": "tt13432484",
+      "title": "Zeros and Ones (2021)"
+    },
+    {
+      "imdbId": "tt18272884",
+      "title": "Padre Pio (2022)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0428883",
+      "title": "Nicky's Film (1971)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0326573",
+      "title": "The Hold Up (1972)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0326537",
+      "title": "Could This Be Love (1973)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0076459",
+      "title": "9 Lives of a Wet Pussy (1976)",
+      "reason": "Adult"
+    },
+    {
+      "imdbId": "tt0194198",
+      "title": "Not Guilty: For Keith Richards (1977)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt0086759",
+      "title": "\"Miami Vice\" (1984)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0090410",
+      "title": "\"Crime Story\" (1986)",
+      "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0091121",
+      "title": "The Gladiator (1986) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt1380804",
+      "title": "The Loner (1988) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt20235206",
+      "title": "Schoolly D: King of New York (1990)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957570",
+      "title": "Schoolly D: Nigger Entertainment (1995)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt0134407",
+      "title": "Myl\u00e8ne Farmer: California (1996)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957472",
+      "title": "The Phoids: Iowa (1998)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957444",
+      "title": "Ben Folds Five: Don't Change Your Plans (1999)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957496",
+      "title": "Abenaa: Rain (2003)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957514",
+      "title": "Dead Combo: You Don't Look So Good (2003)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt6957536",
+      "title": "Kyrsten: Move with Me (2004)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt1134665",
+      "title": "Chelsea on the Rocks (2008)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1489223",
+      "title": "Napoli, Napoli, Napoli (2009)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt1421374",
+      "title": "Mulberry St. (2010)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt2073510",
+      "title": "42 One Dream Rush (2010)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt4195618",
+      "title": "No Saints (2012) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt6802918",
+      "title": "Alive in France (2017)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt7380726",
+      "title": "Piazza Vittorio (2017)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt7389770",
+      "title": "Hans (2017)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt11324092",
+      "title": "Talking with the Vampires (2018)",
+      "reason": "Documentary, Short"
+    },
+    {
+      "imdbId": "tt9886934",
+      "title": "The Projectionist (2019)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt12789194",
+      "title": "Sportin' Life (2020)",
+      "reason": "Documentary"
     }
   ]
 }

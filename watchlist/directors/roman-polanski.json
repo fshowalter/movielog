@@ -1,146 +1,189 @@
 {
-  "frozen": false,
   "name": "Roman Polanski",
   "slug": "roman-polanski",
-  "imdb_id": "nm0000591",
-  "movies": [
+  "imdbId": "nm0000591",
+  "titles": [
     {
-      "title": "Knife in the Water",
-      "year": 1962,
-      "imdb_id": "tt0056291",
-      "notes": ""
+      "imdbId": "tt0056291",
+      "title": "Knife in the Water (1962)"
     },
     {
-      "title": "Repulsion",
-      "year": 1965,
-      "imdb_id": "tt0059646",
-      "notes": ""
+      "imdbId": "tt0058480",
+      "title": "The World's Most Beautiful Swindlers (1964)"
     },
     {
-      "title": "Cul-de-sac",
-      "year": 1966,
-      "imdb_id": "tt0060268",
-      "notes": ""
+      "imdbId": "tt0059646",
+      "title": "Repulsion (1965)"
     },
     {
-      "title": "The Fearless Vampire Killers",
-      "year": 1967,
-      "imdb_id": "tt0061655",
-      "notes": ""
+      "imdbId": "tt0060268",
+      "title": "Cul-de-sac (1966)"
     },
     {
-      "title": "Rosemary's Baby",
-      "year": 1968,
-      "imdb_id": "tt0063522",
-      "notes": ""
+      "imdbId": "tt0061655",
+      "title": "The Fearless Vampire Killers (1967)"
     },
     {
-      "title": "Macbeth",
-      "year": 1971,
-      "imdb_id": "tt0067372",
-      "notes": ""
+      "imdbId": "tt0063522",
+      "title": "Rosemary's Baby (1968)"
     },
     {
-      "title": "What?",
-      "year": 1972,
-      "imdb_id": "tt0070913",
-      "notes": ""
+      "imdbId": "tt0067372",
+      "title": "Macbeth (1971)"
     },
     {
-      "title": "Chinatown",
-      "year": 1974,
-      "imdb_id": "tt0071315",
-      "notes": ""
+      "imdbId": "tt0070913",
+      "title": "What? (1972)"
     },
     {
-      "title": "The Tenant",
-      "year": 1976,
-      "imdb_id": "tt0074811",
-      "notes": ""
+      "imdbId": "tt0071315",
+      "title": "Chinatown (1974)"
     },
     {
-      "title": "Tess",
-      "year": 1979,
-      "imdb_id": "tt0080009",
-      "notes": ""
+      "imdbId": "tt0074811",
+      "title": "The Tenant (1976)"
     },
     {
-      "title": "Pirates",
-      "year": 1986,
-      "imdb_id": "tt0091757",
-      "notes": ""
+      "imdbId": "tt0080009",
+      "title": "Tess (1979)"
     },
     {
-      "title": "Frantic",
-      "year": 1988,
-      "imdb_id": "tt0095174",
-      "notes": ""
+      "imdbId": "tt0091757",
+      "title": "Pirates (1986)"
     },
     {
-      "title": "Bitter Moon",
-      "year": 1992,
-      "imdb_id": "tt0104779",
-      "notes": ""
+      "imdbId": "tt0095174",
+      "title": "Frantic (1988)"
     },
     {
-      "title": "Death and the Maiden",
-      "year": 1994,
-      "imdb_id": "tt0109579",
-      "notes": ""
+      "imdbId": "tt0104779",
+      "title": "Bitter Moon (1992)"
     },
     {
-      "title": "The Ninth Gate",
-      "year": 1999,
-      "imdb_id": "tt0142688",
-      "notes": ""
+      "imdbId": "tt0109579",
+      "title": "Death and the Maiden (1994)"
     },
     {
-      "title": "The Pianist",
-      "year": 2002,
-      "imdb_id": "tt0253474",
-      "notes": ""
+      "imdbId": "tt0142688",
+      "title": "The Ninth Gate (1999)"
     },
     {
-      "title": "Oliver Twist",
-      "year": 2005,
-      "imdb_id": "tt0380599",
-      "notes": ""
+      "imdbId": "tt0253474",
+      "title": "The Pianist (2002)"
     },
     {
-      "title": "To Each His Own Cinema",
-      "year": 2007,
-      "imdb_id": "tt0973844",
-      "notes": ""
+      "imdbId": "tt0380599",
+      "title": "Oliver Twist (2005)"
     },
     {
-      "title": "The Ghost Writer",
-      "year": 2010,
-      "imdb_id": "tt1139328",
-      "notes": ""
+      "imdbId": "tt0973844",
+      "title": "To Each His Own Cinema (2007)"
     },
     {
-      "title": "Carnage",
-      "year": 2011,
-      "imdb_id": "tt1692486",
-      "notes": ""
+      "imdbId": "tt1139328",
+      "title": "The Ghost Writer (2010)"
     },
     {
-      "title": "Venus in Fur",
-      "year": 2013,
-      "imdb_id": "tt2406252",
-      "notes": ""
+      "imdbId": "tt1692486",
+      "title": "Carnage (2011)"
     },
     {
-      "title": "Based on a True Story",
-      "year": 2017,
-      "imdb_id": "tt5893264",
-      "notes": ""
+      "imdbId": "tt2406252",
+      "title": "Venus in Fur (2013)"
     },
     {
-      "title": "An Officer and a Spy",
-      "year": 2019,
-      "imdb_id": "tt2398149",
-      "notes": ""
+      "imdbId": "tt5893264",
+      "title": "Based on a True Story (2017)"
+    },
+    {
+      "imdbId": "tt2398149",
+      "title": "An Officer and a Spy (2019)"
+    },
+    {
+      "imdbId": "tt14549270",
+      "title": "The Palace (2023)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0048567",
+      "title": "Rower (1955)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050725",
+      "title": "Murder (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0050914",
+      "title": "Break Up the Dance (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0051144",
+      "title": "Teeth Smile (1957)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0051566",
+      "title": "Two Men and a Wardrobe (1958)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0052838",
+      "title": "When Angels Fall (1959)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0054946",
+      "title": "The Fat and the Lean (1961)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0056521",
+      "title": "Mammals (1962)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt0068178",
+      "title": "Weekend of a Champion (1972)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt0052987",
+      "title": "The Lamp (1988)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2243597",
+      "title": "The King of Ads (1991)",
+      "reason": "Documentary"
+    },
+    {
+      "imdbId": "tt12753190",
+      "title": "Roman Polanski's Vanity Fair Commercial (1993)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt7035498",
+      "title": "Vasco Rossi: Gli Angeli (1996)",
+      "reason": "music video"
+    },
+    {
+      "imdbId": "tt8796902",
+      "title": "Parisienne People by Roman Polanski (1999) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2167988",
+      "title": "Greed, a New Fragrance by Francesco Vezzoli (2009) (V)",
+      "reason": "Short"
+    },
+    {
+      "imdbId": "tt2167404",
+      "title": "A Therapy (2012)",
+      "reason": "Short"
     }
   ]
 }

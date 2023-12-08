@@ -1,194 +1,215 @@
 {
-  "frozen": true,
   "name": "Fritz Lang",
   "slug": "fritz-lang",
-  "imdb_id": "nm0000485",
-  "movies": [
+  "imdbId": "nm0000485",
+  "titles": [
     {
-      "title": "M",
-      "year": 1931,
-      "imdb_id": "tt0022100",
-      "notes": null
+      "imdbId": "tt0022100",
+      "title": "M (1931)"
     },
     {
-      "title": "The Testament of Dr. Mabuse",
-      "year": 1933,
-      "imdb_id": "tt0023563",
-      "notes": null
+      "imdbId": "tt0023563",
+      "title": "The Testament of Dr. Mabuse (1933)"
     },
     {
-      "title": "Liliom",
-      "year": 1934,
-      "imdb_id": "tt0025397",
-      "notes": null
+      "imdbId": "tt0025397",
+      "title": "Liliom (1934)"
     },
     {
-      "title": "Fury",
-      "year": 1936,
-      "imdb_id": "tt0027652",
-      "notes": null
+      "imdbId": "tt0027652",
+      "title": "Fury (1936)"
     },
     {
-      "title": "You Only Live Once",
-      "year": 1937,
-      "imdb_id": "tt0029808",
-      "notes": null
+      "imdbId": "tt0029808",
+      "title": "You Only Live Once (1937)"
     },
     {
-      "title": "You and Me",
-      "year": 1938,
-      "imdb_id": "tt0030996",
-      "notes": null
+      "imdbId": "tt0030996",
+      "title": "You and Me (1938)"
     },
     {
-      "title": "The Return of Frank James",
-      "year": 1940,
-      "imdb_id": "tt0032983",
-      "notes": null
+      "imdbId": "tt0032983",
+      "title": "The Return of Frank James (1940)"
     },
     {
-      "title": "Western Union",
-      "year": 1941,
-      "imdb_id": "tt0034384",
-      "notes": null
+      "imdbId": "tt0033873",
+      "title": "Man Hunt (1941)"
     },
     {
-      "title": "Man Hunt",
-      "year": 1941,
-      "imdb_id": "tt0033873",
-      "notes": null
+      "imdbId": "tt0034384",
+      "title": "Western Union (1941)"
     },
     {
-      "title": "Confirm or Deny",
-      "year": 1941,
-      "imdb_id": "tt0033486",
-      "notes": "(uncredited)"
+      "imdbId": "tt0035966",
+      "title": "Hangmen Also Die! (1943)"
     },
     {
-      "title": "Moontide",
-      "year": 1942,
-      "imdb_id": "tt0035082",
-      "notes": "(uncredited)"
+      "imdbId": "tt0037075",
+      "title": "Ministry of Fear (1944)"
     },
     {
-      "title": "Hangmen Also Die!",
-      "year": 1943,
-      "imdb_id": "tt0035966",
-      "notes": null
+      "imdbId": "tt0037469",
+      "title": "The Woman in the Window (1944)"
     },
     {
-      "title": "Ministry of Fear",
-      "year": 1944,
-      "imdb_id": "tt0037075",
-      "notes": null
+      "imdbId": "tt0038057",
+      "title": "Scarlet Street (1945)"
     },
     {
-      "title": "The Woman in the Window",
-      "year": 1944,
-      "imdb_id": "tt0037469",
-      "notes": null
+      "imdbId": "tt0038417",
+      "title": "Cloak and Dagger (1946)"
     },
     {
-      "title": "Scarlet Street",
-      "year": 1945,
-      "imdb_id": "tt0038057",
-      "notes": null
+      "imdbId": "tt0040766",
+      "title": "Secret Beyond the Door... (1947)"
     },
     {
-      "title": "Cloak and Dagger",
-      "year": 1946,
-      "imdb_id": "tt0038417",
-      "notes": null
+      "imdbId": "tt0042195",
+      "title": "American Guerrilla in the Philippines (1950)"
     },
     {
-      "title": "Secret Beyond the Door...",
-      "year": 1947,
-      "imdb_id": "tt0040766",
-      "notes": null
+      "imdbId": "tt0042579",
+      "title": "House by the River (1950)"
     },
     {
-      "title": "House by the River",
-      "year": 1950,
-      "imdb_id": "tt0042579",
-      "notes": null
+      "imdbId": "tt0044502",
+      "title": "Clash by Night (1952)"
     },
     {
-      "title": "American Guerrilla in the Philippines",
-      "year": 1950,
-      "imdb_id": "tt0042195",
-      "notes": null
+      "imdbId": "tt0045070",
+      "title": "Rancho Notorious (1952)"
     },
     {
-      "title": "Rancho Notorious",
-      "year": 1952,
-      "imdb_id": "tt0045070",
-      "notes": null
+      "imdbId": "tt0045555",
+      "title": "The Big Heat (1953)"
     },
     {
-      "title": "Clash by Night",
-      "year": 1952,
-      "imdb_id": "tt0044502",
-      "notes": null
+      "imdbId": "tt0045564",
+      "title": "The Blue Gardenia (1953)"
     },
     {
-      "title": "The Blue Gardenia",
-      "year": 1953,
-      "imdb_id": "tt0045564",
-      "notes": null
+      "imdbId": "tt0047101",
+      "title": "Human Desire (1954)"
     },
     {
-      "title": "The Big Heat",
-      "year": 1953,
-      "imdb_id": "tt0045555",
-      "notes": null
+      "imdbId": "tt0048387",
+      "title": "Moonfleet (1955)"
     },
     {
-      "title": "Human Desire",
-      "year": 1954,
-      "imdb_id": "tt0047101",
-      "notes": null
+      "imdbId": "tt0049006",
+      "title": "Beyond a Reasonable Doubt (1956)"
     },
     {
-      "title": "Moonfleet",
-      "year": 1955,
-      "imdb_id": "tt0048387",
-      "notes": null
+      "imdbId": "tt0049949",
+      "title": "While the City Sleeps (1956)"
     },
     {
-      "title": "While the City Sleeps",
-      "year": 1956,
-      "imdb_id": "tt0049949",
-      "notes": null
+      "imdbId": "tt0052295",
+      "title": "The Tiger of Eschnapur (1959)"
     },
     {
-      "title": "Beyond a Reasonable Doubt",
-      "year": 1956,
-      "imdb_id": "tt0049006",
-      "notes": null
+      "imdbId": "tt0052924",
+      "title": "The Indian Tomb (1959)"
     },
     {
-      "title": "Tiger of Bengal",
-      "year": 1959,
-      "imdb_id": "tt0052295",
-      "notes": null
+      "imdbId": "tt0052949",
+      "title": "Journey to the Lost City (1960)"
     },
     {
-      "title": "The Indian Tomb",
-      "year": 1959,
-      "imdb_id": "tt0052924",
-      "notes": null
+      "imdbId": "tt0054371",
+      "title": "The 1,000 Eyes of Dr. Mabuse (1960)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0010203",
+      "title": "The Halfbreed (1919)",
+      "reason": "silent"
     },
     {
-      "title": "The 1,000 Eyes of Dr. Mabuse",
-      "year": 1960,
-      "imdb_id": "tt0054371",
-      "notes": null
+      "imdbId": "tt0010208",
+      "title": "Harakiri (1919)",
+      "reason": "silent"
     },
     {
-      "title": "Journey to the Lost City",
-      "year": 1960,
-      "imdb_id": "tt0052949",
-      "notes": null
+      "imdbId": "tt0010248",
+      "title": "Der Herr der Liebe (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0010726",
+      "title": "The Spiders - Episode 1: The Golden Sea (1919)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011723",
+      "title": "The Spiders - Episode 2: The Diamond Ship (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0011837",
+      "title": "The Wandering Image (1920)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012494",
+      "title": "Destiny (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0012806",
+      "title": "Four Around the Woman (1921)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0013086",
+      "title": "Dr. Mabuse, the Gambler (1922)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015174",
+      "title": "Die Nibelungen: Kriemhild's Revenge (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0015175",
+      "title": "Die Nibelungen: Siegfried (1924)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0017136",
+      "title": "Metropolis (1927)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019415",
+      "title": "Spies (1928)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0019901",
+      "title": "Woman in the Moon (1929)",
+      "reason": "silent"
+    },
+    {
+      "imdbId": "tt0033486",
+      "title": "Confirm or Deny (1941)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt0035082",
+      "title": "Moontide (1942)",
+      "reason": "(uncredited)"
+    },
+    {
+      "imdbId": "tt9098914",
+      "title": "Die 1000 Glotzb\u00f6bbel vom Dr. Mabuse (2018)",
+      "reason": "dubbed footage"
+    },
+    {
+      "imdbId": "tt27129263",
+      "title": "Metropolis Retrofit (2023)",
+      "reason": "archive footage"
     }
   ]
 }

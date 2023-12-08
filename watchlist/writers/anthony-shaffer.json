@@ -1,80 +1,63 @@
 {
-  "frozen": false,
   "name": "Anthony Shaffer",
   "slug": "anthony-shaffer",
-  "imdb_id": "nm0787289",
-  "movies": [
+  "imdbId": "nm0787289",
+  "titles": [
     {
-      "title": "Cry of the Penguins",
-      "year": 1971,
-      "imdb_id": "tt0066961",
-      "notes": ""
+      "imdbId": "tt0066961",
+      "title": "Cry of the Penguins (1971)"
     },
     {
-      "title": "Frenzy",
-      "year": 1972,
-      "imdb_id": "tt0068611",
-      "notes": ""
+      "imdbId": "tt0068611",
+      "title": "Frenzy (1972)"
     },
     {
-      "title": "Sleuth",
-      "year": 1972,
-      "imdb_id": "tt0069281",
-      "notes": ""
+      "imdbId": "tt0069281",
+      "title": "Sleuth (1972)"
     },
     {
-      "title": "The Wicker Man",
-      "year": 1973,
-      "imdb_id": "tt0070917",
-      "notes": ""
+      "imdbId": "tt0070917",
+      "title": "The Wicker Man (1973)"
     },
     {
-      "title": "Murder on the Orient Express",
-      "year": 1974,
-      "imdb_id": "tt0071877",
-      "notes": ""
+      "imdbId": "tt0077413",
+      "title": "Death on the Nile (1978)"
     },
     {
-      "title": "Death on the Nile",
-      "year": 1978,
-      "imdb_id": "tt0077413",
-      "notes": ""
+      "imdbId": "tt0081975",
+      "title": "Absolution (1978)"
     },
     {
-      "title": "Absolution",
-      "year": 1978,
-      "imdb_id": "tt0081975",
-      "notes": ""
+      "imdbId": "tt0083908",
+      "title": "Evil Under the Sun (1982)"
     },
     {
-      "title": "Evil Under the Sun",
-      "year": 1982,
-      "imdb_id": "tt0083908",
-      "notes": ""
+      "imdbId": "tt0094669",
+      "title": "Appointment with Death (1988)"
     },
     {
-      "title": "Appointment with Death",
-      "year": 1988,
-      "imdb_id": "tt0094669",
-      "notes": ""
+      "imdbId": "tt0108185",
+      "title": "Sommersby (1993)"
     },
     {
-      "title": "Sommersby",
-      "year": 1993,
-      "imdb_id": "tt0108185",
-      "notes": ""
+      "imdbId": "tt0450345",
+      "title": "The Wicker Man (2006)"
     },
     {
-      "title": "The Wicker Man",
-      "year": 2006,
-      "imdb_id": "tt0450345",
-      "notes": ""
+      "imdbId": "tt0857265",
+      "title": "Sleuth (2007)"
+    }
+  ],
+  "excludedTitles": [
+    {
+      "imdbId": "tt0071877",
+      "title": "Murder on the Orient Express (1974)",
+      "reason": "() (uncredited)"
     },
     {
-      "title": "Sleuth",
-      "year": 2007,
-      "imdb_id": "tt0857265",
-      "notes": ""
+      "imdbId": "tt15516212",
+      "title": "\"Tiktiki\" (2022)",
+      "reason": "tv series"
     }
   ]
 }
