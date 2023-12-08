@@ -246,7 +246,7 @@ WatchlistKindToCreditKind: dict[json_watchlist_people.Kind, imdb_http.CreditKind
 
 def get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
     progress_file_path = os.path.join(
-        watchlist_serializer.FOLDER_PATH, kind, ".progress"
+        watchlist_serializer.FOLDER_NAME, kind, ".progress"
     )
     path_tools.ensure_file_path(progress_file_path)
 

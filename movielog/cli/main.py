@@ -10,12 +10,10 @@ def prompt() -> None:
         (manage_watchlist.prompt, "<cyan>Manage Watchlist</cyan>"),
         (imdb.prompt, "<cyan>IMDb</cyan>"),
         (exports_api.export_data, "<cyan>Export Data</cyan>"),
-        (None, "Exit"),
     ]
 
     option_function = radio_list.prompt(
-        title="Movie DB options:",
-        options=options,
+        title="Movie DB options:", options=options, rprompt="ESC to exit"
     )
     if option_function:
         option_function()

@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import os
 import sqlite3
-from typing import Any, Callable, Dict, Generator, List, Tuple
+from pathlib import Path
+from typing import Any, Callable, Generator, Tuple
 from unittest.mock import MagicMock
 
 import pytest
@@ -40,7 +41,7 @@ def mock_cinemagoer_imdb_http_get_movie(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def mock_download_dir(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_download_dir(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
         "movielog.repository.datasets.downloader.DOWNLOAD_DIR",
         os.path.join(tmp_path, original_download_dir),
@@ -48,23 +49,23 @@ def mock_download_dir(mocker: MockerFixture, tmp_path: str) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_exports_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_exports_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
-def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch("movielog.repository.markdown_reviews.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
-def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch("movielog.repository.json_viewings.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
 def mock_watchlist_collections_folder_name(
-    mocker: MockerFixture, tmp_path: str
+    mocker: MockerFixture, tmp_path: Path
 ) -> None:
     mocker.patch(
         "movielog.repository.json_watchlist_collections.FOLDER_NAME",
@@ -73,34 +74,18 @@ def mock_watchlist_collections_folder_name(
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_directors_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
+def mock_watchlist_serializer_folder_name(
+    mocker: MockerFixture, tmp_path: Path
+) -> None:
     mocker.patch(
-        "movielog.watchlist.directors.Director.folder_name",
+        "movielog.repository.watchlist_serializer.FOLDER_NAME",
         os.path.join(tmp_path, "directors"),
     )
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_writers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch(
-        "movielog.watchlist.writers.Writer.folder_name",
-        os.path.join(tmp_path, "writers"),
-    )
-
-
-@pytest.fixture(autouse=True)
-def mock_watchlist_performers_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch(
-        "movielog.watchlist.performers.Performer.folder_name",
-        os.path.join(tmp_path, "performers"),
-    )
-
-
-@pytest.fixture(autouse=True)
-def mock_moviedata_extended_serializer_folder_name(
-    mocker: MockerFixture, tmp_path: str
-) -> None:
-    mocker.patch("movielog.moviedata.extended.movies.FOLDER_NAME", tmp_path)
+def mock_titles_data_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
+    mocker.patch("movielog.repository.json_titles.FOLDER_NAME", tmp_path)
 
 
 def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:
@@ -110,7 +95,7 @@ def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]
     return row_dict
 
 
-QueryResult = List[Dict[str, Any]]
+QueryResult = list[dict[str, Any]]
 
 
 @pytest.fixture
