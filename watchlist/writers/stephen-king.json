@@ -255,7 +255,6 @@
       "imdbId": "tt1648190",
       "title": "The Dark Tower (2017)"
     },
-    
     {
       "imdbId": "tt3748172",
       "title": "Gerald's Game (2017)"
@@ -292,8 +291,6 @@
       "imdbId": "tt7349950",
       "title": "It Chapter Two (2019)"
     },
-    
-    
     {
       "imdbId": "tt15528116",
       "title": "The Timekeepers of Eternity (2021)"
@@ -320,26 +317,6 @@
     }
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt2875902",
-      "title": "Apt Pupil",
-      "reason": "abandoned"
-    },
-    {
-      "imdbId": "tt7631002",
-      "title": "The Doctor's Case (2019)",
-      "reason": "unfinished"
-    },
-    {
-      "imdbId": "tt7215646",
-      "title": "The Dark Tower (2020) (TV)",
-      "reason": "aborted Amazon series pilot"
-    },
-    {
-      "imdbId": "tt2332833",
-      "title": "The Milkman (2017)",
-      "reason": "short"
-    },
     {
       "imdbId": "tt0079844",
       "title": "\"Salem's Lot\" (1979) (mini)",
@@ -1136,6 +1113,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt2332833",
+      "title": "The Milkman (2017)",
+      "reason": "short"
+    },
+    {
       "imdbId": "tt4354880",
       "title": "\"Mr. Mercedes\" (2017)",
       "reason": "tv series"
@@ -1406,6 +1388,11 @@
       "reason": "Short"
     },
     {
+      "imdbId": "tt7631002",
+      "title": "The Doctor's Case (2019)",
+      "reason": "unfinished"
+    },
+    {
       "imdbId": "tt8559862",
       "title": "All That You Love Will Be Carried Away (2019)",
       "reason": "Short"
@@ -1494,6 +1481,11 @@
       "imdbId": "tt6849784",
       "title": "One for the Road (2020)",
       "reason": "Short"
+    },
+    {
+      "imdbId": "tt7215646",
+      "title": "The Dark Tower (2020) (TV)",
+      "reason": "aborted Amazon series pilot"
     },
     {
       "imdbId": "tt8510458",
@@ -1639,6 +1631,11 @@
       "imdbId": "tt29392906",
       "title": "The Colorado Kid: A Hard Case Crime Novel (2025) (V)",
       "reason": "audiobook"
+    },
+    {
+      "imdbId": "tt2875902",
+      "title": "Apt Pupil",
+      "reason": "abandoned"
     }
   ]
 }

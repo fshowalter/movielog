@@ -8,10 +8,9 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog import db
-from movielog.moviedata.core import downloader
-from movielog.moviedata.extended import movies
-from movielog.watchlist import filmography
+from movielog.repository import imdb_http
+from movielog.repository.datasets import downloader
+from movielog.repository.db import db
 
 TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
 
@@ -31,36 +30,36 @@ original_download_dir = downloader.DOWNLOAD_DIR
 
 
 @pytest.fixture(autouse=True)
-def mock_filmography_imdb_http(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch.object(filmography.imdb_http, "get_person")
+def mock_cinemagoer_imdb_http_get_person(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch.object(imdb_http.imdb_http, "get_person")
 
 
 @pytest.fixture(autouse=True)
-def mock_moviedata_extended_movies_imdb_http(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch.object(movies.imdb_http, "get_movie")
+def mock_cinemagoer_imdb_http_get_movie(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch.object(imdb_http.imdb_http, "get_movie")
 
 
 @pytest.fixture(autouse=True)
 def mock_download_dir(mocker: MockerFixture, tmp_path: str) -> None:
     mocker.patch(
-        "movielog.moviedata.core.downloader.DOWNLOAD_DIR",
+        "movielog.repository.datasets.downloader.DOWNLOAD_DIR",
         os.path.join(tmp_path, original_download_dir),
     )
 
 
 @pytest.fixture(autouse=True)
 def mock_exports_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.utils.export_tools.EXPORT_FOLDER_NAME", tmp_path)
+    mocker.patch("movielog.exports.exporter.EXPORT_FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
 def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.reviews.serializer.FOLDER_NAME", tmp_path)
+    mocker.patch("movielog.repository.markdown_reviews.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
 def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: str) -> None:
-    mocker.patch("movielog.viewings.serializer.FOLDER_NAME", tmp_path)
+    mocker.patch("movielog.repository.json_viewings.FOLDER_NAME", tmp_path)
 
 
 @pytest.fixture(autouse=True)
@@ -68,7 +67,7 @@ def mock_watchlist_collections_folder_name(
     mocker: MockerFixture, tmp_path: str
 ) -> None:
     mocker.patch(
-        "movielog.watchlist.collections.Collection.folder_name",
+        "movielog.repository.json_watchlist_collections.FOLDER_NAME",
         os.path.join(tmp_path, "collections"),
     )
 

@@ -67,7 +67,6 @@
       "imdbId": "tt0077234",
       "title": "The Big Sleep (1978)"
     },
-    
     {
       "imdbId": "tt0084113",
       "title": "Ich werde warten (1982) (TV)"
@@ -82,16 +81,6 @@
     }
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt0949779",
-      "title": "Trouble is My Business",
-      "reason": "abandoned"
-    },
-    {
-      "imdbId": "tt7563908",
-      "title": "Aspetter\u00f2 (1978) (TV)",
-      "reason": "tv movie"
-    },
     {
       "imdbId": "tt0040049",
       "title": "\"The Philco Television Playhouse\" (1948)",
@@ -153,6 +142,11 @@
       "reason": "tv series"
     },
     {
+      "imdbId": "tt7563908",
+      "title": "Aspetter\u00f2 (1978) (TV)",
+      "reason": "tv movie"
+    },
+    {
       "imdbId": "tt0096677",
       "title": "\"Philip Marlowe, Private Eye\" (1983)",
       "reason": "tv series"
@@ -191,6 +185,11 @@
       "imdbId": "tt6722802",
       "title": "Marlowe (2022)",
       "reason": "(based on characters by) (uncredited)"
+    },
+    {
+      "imdbId": "tt0949779",
+      "title": "Trouble is My Business",
+      "reason": "abandoned"
     }
   ]
 }

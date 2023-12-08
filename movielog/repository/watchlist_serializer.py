@@ -9,9 +9,7 @@ from typing import Iterable, TypedDict
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
-WATCHLIST_FOLDER_NAME = "watchlist"
-
-FOLDER_PATH = "watchlist"
+FOLDER_NAME = "watchlist"
 
 WatchlistEntity = TypedDict(
     "WatchlistEntity",
@@ -26,7 +24,7 @@ def serialize(
     folder_name: str,
 ) -> str:
     file_path = os.path.join(
-        FOLDER_PATH,
+        FOLDER_NAME,
         folder_name,
         "{0}.json".format(watchlist_entity["slug"]),
     )
@@ -42,6 +40,6 @@ def serialize(
 
 
 def read_all(folder_name: str) -> Iterable[io.TextIOWrapper]:
-    for file_path in glob(os.path.join(WATCHLIST_FOLDER_NAME, folder_name, "*.json")):
+    for file_path in glob(os.path.join(FOLDER_NAME, folder_name, "*.json")):
         with open(file_path, "r") as json_file:
             yield json_file

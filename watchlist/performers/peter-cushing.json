@@ -27,7 +27,6 @@
       "imdbId": "tt0044926",
       "title": "Moulin Rouge (1952)"
     },
-    
     {
       "imdbId": "tt0046786",
       "title": "The Black Knight (1954)"
@@ -383,11 +382,6 @@
   ],
   "excludedTitles": [
     {
-      "imdbId": "tt0337115",
-      "title": "Rookery Nook (1953) (TV)",
-      "reason":"tv movie"
-    },
-    {
       "imdbId": "tt0032612",
       "title": "The Howards of Virginia (1940)",
       "reason": "(uncredited)"
@@ -470,6 +464,11 @@
     {
       "imdbId": "tt0336917",
       "title": "The Noble Spaniard (1953) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0337115",
+      "title": "Rookery Nook (1953) (TV)",
       "reason": "tv movie"
     },
     {

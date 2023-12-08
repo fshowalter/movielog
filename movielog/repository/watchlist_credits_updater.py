@@ -228,6 +228,14 @@ def update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
             title_page=title_page, watchlist_person=watchlist_person
         )
 
+    watchlist_person["titles"] = sorted(
+        watchlist_person["titles"], key=json_watchlist_people.title_sort_key
+    )
+
+    watchlist_person["excludedTitles"] = sorted(
+        watchlist_person["excludedTitles"], key=json_watchlist_people.title_sort_key
+    )
+
 
 WatchlistKindToCreditKind: dict[json_watchlist_people.Kind, imdb_http.CreditKind] = {
     "directors": "director",
