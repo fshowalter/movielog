@@ -169,7 +169,7 @@ def title_ids_for_credit_team(
         for viewing_group in viewings_for_team_members
     ]
 
-    return set.intersection(*map(set, title_ids_for_team_member_viewing_groups))  # type: ignore
+    return set.intersection(*map(set, title_ids_for_team_member_viewing_groups))
 
 
 def apply_credit_teams(
