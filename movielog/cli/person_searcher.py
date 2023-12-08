@@ -11,33 +11,11 @@ class SearchResult(object):
     known_for_titles: list[str]
 
 
-def search_directors_by_name(name: str, limit: int = 10) -> list[SearchResult]:
+def search_by_name(name: str, limit: int = 10) -> list[SearchResult]:
     query = query_formatter.add_wildcards(name)
 
     full_query = """
-        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
-        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-    """
-
-    return execute_search(full_query.format(query, limit))
-
-
-def search_performers_by_name(name: str, limit: int = 10) -> list[SearchResult]:
-    query = query_formatter.add_wildcards(name)
-
-    full_query = """
-        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
-        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-    """
-
-    return execute_search(full_query.format(query, limit))
-
-
-def search_writers_by_name(name: str, limit: int = 10) -> list[SearchResult]:
-    query = query_formatter.add_wildcards(name)
-
-    full_query = """
-        SELECT distinct(people.imdb_id), full_name, known_for_title_ids FROM people
+        SELECT distinct imdb_id, full_name, known_for_titles FROM names
         WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
     """
 

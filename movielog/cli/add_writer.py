@@ -3,7 +3,7 @@ from movielog.repository import api as repository_api
 
 
 def prompt() -> None:
-    person = select_person.prompt(person_searcher.search_writers_by_name)
+    person = select_person.prompt(person_searcher.search_by_name)
 
     if person:
         repository_api.add_person_to_watchlist(
