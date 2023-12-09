@@ -68,16 +68,6 @@ def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_collections_folder_name(
-    mocker: MockerFixture, tmp_path: Path
-) -> None:
-    mocker.patch(
-        "movielog.repository.json_watchlist_collections.FOLDER_NAME",
-        os.path.join(tmp_path, "collections"),
-    )
-
-
-@pytest.fixture(autouse=True)
 def mock_watchlist_serializer_folder_name(
     mocker: MockerFixture, tmp_path: Path
 ) -> None:

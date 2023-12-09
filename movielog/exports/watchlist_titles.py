@@ -75,6 +75,9 @@ def export(repository_data: RepositoryData) -> None:
         )
 
     exporter.serialize_dicts(
-        watchlist_titles,
+        sorted(
+            watchlist_titles,
+            key=lambda watchlist_title: watchlist_title["releaseSequence"],
+        ),
         "watchlist-titles",
     )

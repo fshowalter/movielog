@@ -52,7 +52,7 @@ def build_collection_titles(
             )
         )
 
-    return titles
+    return sorted(titles, key=lambda json_title: json_title["releaseSequence"])
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -78,6 +78,9 @@ def export(repository_data: RepositoryData) -> None:
         )
 
     exporter.serialize_dicts(
-        watchlist_collections,
+        sorted(
+            watchlist_collections,
+            key=lambda watchlist_collection: watchlist_collection["name"],
+        ),
         "watchlist-collections",
     )

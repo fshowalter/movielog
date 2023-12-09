@@ -24,3 +24,31 @@ def test_exports_viewings(tmp_path: Path, snapshot_json: SnapshotAssertion) -> N
         file_content = json.load(output_file)
 
     assert file_content == snapshot_json
+
+
+def test_exports_watchlist_titles(
+    tmp_path: Path, snapshot_json: SnapshotAssertion
+) -> None:
+    exports_api.export_data()
+
+    with open(
+        os.path.join(tmp_path / "export", "watchlist-titles.json"),
+        "r",
+    ) as output_file:
+        file_content = json.load(output_file)
+
+    assert file_content == snapshot_json
+
+
+def test_exports_watchlist_collections(
+    tmp_path: Path, snapshot_json: SnapshotAssertion
+) -> None:
+    exports_api.export_data()
+
+    with open(
+        os.path.join(tmp_path / "export", "watchlist-collections.json"),
+        "r",
+    ) as output_file:
+        file_content = json.load(output_file)
+
+    assert file_content == snapshot_json
