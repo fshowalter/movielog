@@ -194,7 +194,7 @@ def _hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
         imdb_id=json_viewing["imdbId"],
         sequence=json_viewing["sequence"],
         medium=json_viewing["medium"],
-        venue=json_viewing["medium"],
+        venue=json_viewing["venue"],
         date=datetime.date.fromisoformat(json_viewing["date"]),
         medium_notes=json_viewing["mediumNotes"],
     )
