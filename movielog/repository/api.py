@@ -250,7 +250,8 @@ def create_viewing(
     imdb_id: str,
     full_title: str,
     date: datetime.date,
-    medium: str,
+    medium: Optional[str],
+    venue: Optional[str],
 ) -> Viewing:
     return _hydrate_json_viewing(
         json_viewings.create(
@@ -258,6 +259,7 @@ def create_viewing(
             full_title=full_title,
             date=date.isoformat(),
             medium=medium,
+            venue=venue,
         )
     )
 

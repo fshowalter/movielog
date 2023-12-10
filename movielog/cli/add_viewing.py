@@ -8,7 +8,7 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog.cli import ask, radio_list, select_title
+from movielog.cli import ask, ask_medium_or_venue, radio_list, select_title
 from movielog.repository import api as repository_api
 
 Option = Tuple[Optional[str], AnyFormattedText]
@@ -16,7 +16,9 @@ Option = Tuple[Optional[str], AnyFormattedText]
 Stages = Literal[
     "ask_for_title",
     "ask_for_date",
+    "ask_if_medium_or_venue",
     "ask_for_medium",
+    "ask_for_venue",
     "ask_for_grade",
     "persist_viewing",
     "end",
@@ -40,7 +42,9 @@ def prompt() -> None:
     state_machine: dict[Stages, Callable[[State], State]] = {
         "ask_for_title": ask_for_title,
         "ask_for_date": ask_for_date,
+        "ask_if_medium_or_venue": ask_if_medium_or_venue,
         "ask_for_medium": ask_for_medium,
+        "ask_for_venue": ask_for_venue,
         "ask_for_grade": ask_for_grade,
         "persist_viewing": persist_viewing,
     }
@@ -52,7 +56,7 @@ def prompt() -> None:
 def persist_viewing(state: State) -> State:
     assert state.title
     assert state.date
-    assert state.medium
+    assert state.medium or state.venue
     assert state.grade
 
     repository_api.create_viewing(
@@ -60,6 +64,7 @@ def persist_viewing(state: State) -> State:
         full_title=state.title.full_title,
         date=state.date,
         medium=state.medium,
+        venue=state.venue,
     )
 
     repository_api.create_or_update_review(
@@ -127,7 +132,7 @@ def ask_for_date(state: State) -> State:
     if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):  # noqa: WPS323
         state.date = viewing_date
         state.default_date = viewing_date
-        state.stage = "ask_for_medium"
+        state.stage = "ask_if_medium_or_venue"
 
     return state
 
@@ -151,10 +156,38 @@ def ask_for_medium(state: State) -> State:
             break
 
     if not selected_medium:
-        state.stage = "ask_for_date"
+        state.stage = "ask_if_medium_or_venue"
         return state
 
     state.medium = selected_medium
+    state.stage = "ask_for_grade"
+
+    return state
+
+
+def ask_for_venue(state: State) -> State:
+    state.venue = None
+
+    options = build_venue_options()
+
+    selected_venue = None
+
+    while selected_venue is None:
+        selected_venue = radio_list.prompt(
+            title="Select venue:",
+            options=options,
+        )
+
+        selected_venue = selected_venue or ask.prompt("Venue: ")
+
+        if selected_venue is None:
+            break
+
+    if not selected_venue:
+        state.stage = "ask_if_medium_or_venue"
+        return state
+
+    state.venue = selected_venue
     state.stage = "ask_for_grade"
 
     return state
@@ -182,6 +215,26 @@ def build_medium_options() -> list[Option]:
     ]
 
     options.append((None, "New medium"))
+
+    return options
+
+
+def build_venue_options() -> list[Option]:
+    venues: set[str] = set()
+
+    for viewing in sorted_viewings():
+        if len(venues) == 2:
+            break
+
+        if viewing.venue:
+            venues.add(viewing.venue)
+
+    options: list[Option] = [
+        (medium, "<cyan>{0}</cyan>".format(html.escape(medium)))
+        for medium in sorted(venues)
+    ]
+
+    options.append((None, "New venue"))
 
     return options
 
@@ -218,10 +271,28 @@ def ask_for_grade(state: State) -> State:
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 
     if not review_grade:
-        state.stage = "ask_for_medium"
+        state.stage = "ask_if_medium_or_venue"
         state.grade = None
         return state
 
     state.grade = review_grade
     state.stage = "persist_viewing"
+    return state
+
+
+def ask_if_medium_or_venue(state: State) -> State:
+    state.venue = None
+    state.medium = None
+
+    medium_or_venue = ask_medium_or_venue.ask_medium_or_venue()
+
+    if medium_or_venue == "m":
+        state.stage = "ask_for_medium"
+        return state
+
+    if medium_or_venue == "v":
+        state.stage = "ask_for_venue"
+        return state
+
+    state.stage = "ask_for_date"
     return state

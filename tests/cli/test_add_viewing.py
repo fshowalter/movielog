@@ -6,6 +6,7 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_viewing
+from movielog.cli.ask_medium_or_venue import ReturnResult as MediumOrVenueReturnResult
 from movielog.repository.datasets.dataset_title import DatasetTitle
 from movielog.repository.db import titles_table
 from tests.cli.conftest import MockInput
@@ -77,8 +78,16 @@ def select_title_search_result(confirm: ConfirmType) -> list[str]:
     return select_option(1, confirm=confirm)
 
 
+def select_if_medium_or_venue(medium_or_venue: MediumOrVenueReturnResult) -> list[str]:
+    return [medium_or_venue]
+
+
 def select_medium() -> list[str]:
     return select_option(2)
+
+
+def select_venue() -> list[str]:
+    return select_option(1)
 
 
 def enter_grade(grade: str) -> list[str]:
@@ -122,6 +131,7 @@ def test_calls_add_viewing_and_create_or_update_review(
             *enter_title("Rio Bravo"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("m"),
             *select_medium(),
             *enter_grade("A+"),
             *add_another_viewing("n"),
@@ -134,6 +144,7 @@ def test_calls_add_viewing_and_create_or_update_review(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        venue=None,
         date=date(2012, 3, 12),
     )
 
@@ -157,6 +168,7 @@ def test_can_confirm_title(
             *enter_title("Rio Bravo"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("m"),
             *select_medium(),
             *enter_grade("A+"),
             *add_another_viewing("n"),
@@ -168,6 +180,7 @@ def test_can_confirm_title(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        venue=None,
         date=date(2012, 3, 12),
     )
 
@@ -222,6 +235,7 @@ def test_guards_against_bad_dates(
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-32"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("m"),
             *select_medium(),
             *enter_grade("A+"),
             *add_another_viewing("n"),
@@ -233,6 +247,7 @@ def test_guards_against_bad_dates(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        venue=None,
         date=date(2012, 3, 12),
     )
 
@@ -255,6 +270,7 @@ def test_can_confirm_date(
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-13", confirm="n"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("m"),
             *select_medium(),
             *enter_grade("A+"),
             *add_another_viewing("n"),
@@ -266,6 +282,7 @@ def test_can_confirm_date(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        venue=None,
         date=date(2012, 3, 12),
     )
 
@@ -283,6 +300,7 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
             *enter_title("Rio Bravo"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("m"),
             End,
             Enter,
             *enter_text("4k UHD Blu-ray"),
@@ -296,6 +314,57 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="4k UHD Blu-ray",
+        venue=None,
+        date=date(2012, 3, 12),
+    )
+
+
+def test_can_create_with_venue(
+    mock_input: MockInput, mock_add_viewing: MagicMock
+) -> None:
+    mock_input(
+        [
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("v"),
+            *select_venue(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
+        ]
+    )
+    add_viewing.prompt()
+
+    mock_add_viewing.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
+        medium=None,
+        venue="AMC Tysons Corner 16",
+        date=date(2012, 3, 12),
+    )
+
+
+def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+    mock_input(
+        [
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("v"),
+            End,
+            Enter,
+            *enter_text("Alamo Drafthouse"),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
+        ]
+    )
+    add_viewing.prompt()
+
+    mock_add_viewing.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
+        medium=None,
+        venue="Alamo Drafthouse",
         date=date(2012, 3, 12),
     )
 
@@ -310,6 +379,7 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
             *enter_title("Rio Bravo"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
+            Escape,
             Escape,
             Escape,
             Escape,
