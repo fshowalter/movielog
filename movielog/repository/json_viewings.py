@@ -24,14 +24,22 @@ JsonViewing = TypedDict(
 )
 
 
-def create(imdb_id: str, date: str, full_title: str, medium: str) -> JsonViewing:
+def create(
+    imdb_id: str,
+    date: str,
+    full_title: str,
+    medium: Optional[str],
+    venue: Optional[str],
+) -> JsonViewing:
+    assert medium or venue
+
     json_viewing = JsonViewing(
         sequence=next_sequence(),
         imdbId=imdb_id,
         date=date,
         slug=slugifier.slugify_title(full_title),
         medium=medium,
-        venue=None,
+        venue=venue,
         venueNotes=None,
         mediumNotes=None,
     )
