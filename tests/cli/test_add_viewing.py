@@ -3,7 +3,6 @@ from typing import Literal, Optional
 from unittest.mock import MagicMock
 
 import pytest
-from freezegun import freeze_time
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_viewing
@@ -113,7 +112,6 @@ def enter_viewing_date(
     return input_stream
 
 
-@freeze_time("2012-12-01")
 def test_calls_add_viewing_and_create_or_update_review(
     mock_input: MockInput,
     mock_add_viewing: MagicMock,
@@ -147,7 +145,6 @@ def test_calls_add_viewing_and_create_or_update_review(
     )
 
 
-@freeze_time("2012-12-01")
 def test_can_confirm_title(
     mock_input: MockInput,
     mock_add_viewing: MagicMock,
@@ -214,7 +211,6 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
     mock_create_or_update_review.assert_not_called()
 
 
-@freeze_time("2012-12-01")
 def test_guards_against_bad_dates(
     mock_input: MockInput,
     mock_add_viewing: MagicMock,
@@ -248,7 +244,6 @@ def test_guards_against_bad_dates(
     )
 
 
-@freeze_time("2012-12-01")
 def test_can_confirm_date(
     mock_input: MockInput,
     mock_add_viewing: MagicMock,
@@ -282,7 +277,6 @@ def test_can_confirm_date(
     )
 
 
-@freeze_time("2012-12-01")
 def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
@@ -306,7 +300,6 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
     )
 
 
-@freeze_time("2012-12-01")
 def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
     mock_input: MockInput,
     mock_add_viewing: MagicMock,

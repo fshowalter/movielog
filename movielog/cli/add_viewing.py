@@ -11,9 +11,6 @@ from prompt_toolkit.validation import Validator
 from movielog.cli import ask, radio_list, select_title
 from movielog.repository import api as repository_api
 
-RECENT_VIEWING_DAYS = 365
-
-
 Option = Tuple[Optional[str], AnyFormattedText]
 
 Stages = Literal[
@@ -163,20 +160,25 @@ def ask_for_medium(state: State) -> State:
     return state
 
 
-def build_medium_options() -> list[Option]:
-    media = sorted(
-        set(
-            [
-                viewing.medium
-                for viewing in repository_api.viewings()
-                if (datetime.date.today() - viewing.date).days < RECENT_VIEWING_DAYS
-                and viewing.medium
-            ]
-        )
+def sorted_viewings() -> list[repository_api.Viewing]:
+    return sorted(
+        repository_api.viewings(), key=lambda viewing: viewing.sequence, reverse=True
     )
 
+
+def build_medium_options() -> list[Option]:
+    media: set[str] = set()
+
+    for viewing in sorted_viewings():
+        if len(media) == 10:
+            break
+
+        if viewing.medium:
+            media.add(viewing.medium)
+
     options: list[Option] = [
-        (medium, "<cyan>{0}</cyan>".format(html.escape(medium))) for medium in media
+        (medium, "<cyan>{0}</cyan>".format(html.escape(medium)))
+        for medium in sorted(media)
     ]
 
     options.append((None, "New medium"))
