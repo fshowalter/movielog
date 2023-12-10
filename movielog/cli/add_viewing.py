@@ -271,7 +271,7 @@ def ask_for_grade(state: State) -> State:
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 
     if not review_grade:
-        state.stage = "ask_for_medium"
+        state.stage = "ask_if_medium_or_venue"
         state.grade = None
         return state
 

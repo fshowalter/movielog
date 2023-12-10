@@ -86,6 +86,10 @@ def select_medium() -> list[str]:
     return select_option(2)
 
 
+def select_venue() -> list[str]:
+    return select_option(1)
+
+
 def enter_grade(grade: str) -> list[str]:
     return enter_text(grade)
 
@@ -311,6 +315,56 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
         full_title="Rio Bravo (1959)",
         medium="4k UHD Blu-ray",
         venue=None,
+        date=date(2012, 3, 12),
+    )
+
+
+def test_can_create_with_venue(
+    mock_input: MockInput, mock_add_viewing: MagicMock
+) -> None:
+    mock_input(
+        [
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("v"),
+            *select_venue(),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
+        ]
+    )
+    add_viewing.prompt()
+
+    mock_add_viewing.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
+        medium=None,
+        venue="AMC Tysons Corner 16",
+        date=date(2012, 3, 12),
+    )
+
+
+def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
+    mock_input(
+        [
+            *enter_title("Rio Bravo"),
+            *select_title_search_result("y"),
+            *enter_viewing_date("2012-03-12", confirm="y"),
+            *select_if_medium_or_venue("v"),
+            End,
+            Enter,
+            *enter_text("Alamo Drafthouse"),
+            *enter_grade("A+"),
+            *add_another_viewing("n"),
+        ]
+    )
+    add_viewing.prompt()
+
+    mock_add_viewing.assert_called_once_with(
+        imdb_id="tt0053221",
+        full_title="Rio Bravo (1959)",
+        medium=None,
+        venue="Alamo Drafthouse",
         date=date(2012, 3, 12),
     )
 
