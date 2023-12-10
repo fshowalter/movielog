@@ -34,6 +34,8 @@ def build_watchlist_people() -> (
 def export_data() -> None:  # noqa: WPS213
     logger.log("Initializing...")
 
+    repository_api.validate_data()
+
     reviews = list_tools.list_to_dict(
         repository_api.reviews(), key=lambda review: review.imdb_id
     )
@@ -56,8 +58,6 @@ def export_data() -> None:  # noqa: WPS213
         ),
         metadata=repository_api.metadata(),
     )
-
-    repository_api.validate_data()
 
     viewings.export(repository_data)
     reviewed_titles.export(repository_data)
