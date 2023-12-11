@@ -1,8 +1,9 @@
 ---
-date: 2021-12-11
+date: 2023-12-09
 imdb_id: tt0093974
-grade: C-
+grade: C
 slug: silent-night-deadly-night-part-2-1987
+title: Silent Night, Deadly Night Part 2 (1987)
 ---
 
 In a psychiatric hospital several years after <span data-imdb-id="tt0088117">the first film</span>, Ricky, the younger brother of the first film’s killer, recounts the events leading to his incarceration. He begins by re-telling the first movie. I knew going in that this entry recycled a ton of footage. Maybe this lessened the sense of feeling cheated. Regardless, I enjoyed this highlight reel of the first film’s sleazy bits.

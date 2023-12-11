@@ -1,5 +1,5 @@
 ---
-date: 2020-12-11
+date: 2023-12-09
 imdb_id: tt0081793
 title: Christmas Evil (1980)
 grade: B+

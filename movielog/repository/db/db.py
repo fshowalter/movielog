@@ -47,7 +47,7 @@ def add_index(table_name: str, column: str) -> None:
 
 
 def validate_row_count(table_name: str, expected: int) -> None:
-    actual = fetch_one("select count(*) from {0}".format(table_name))
+    actual = fetch_one("select count(*) as count from {0}".format(table_name))["count"]
     assert expected == actual  # noqa: S101
     logger.log(
         "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
@@ -84,9 +84,10 @@ def execute_many(ddl: str, parameter_seq: Sequence[Mapping[str, Any]]) -> None:
             connection.executemany(ddl, parameter_seq)
 
 
-def fetch_one(query: str) -> Any:
+def fetch_one(query: str, row_factory: RowFactory = sqlite3.Row) -> Any:
     with connect() as connection:
-        return connection.execute(query).fetchone()[0]
+        connection.row_factory = row_factory
+        return connection.execute(query).fetchone()
 
 
 def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
