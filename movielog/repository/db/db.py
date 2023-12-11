@@ -47,7 +47,7 @@ def add_index(table_name: str, column: str) -> None:
 
 
 def validate_row_count(table_name: str, expected: int) -> None:
-    actual = fetch_one("select count(*) from {0}".format(table_name))["count"]
+    actual = fetch_one("select count(*) as count from {0}".format(table_name))["count"]
     assert expected == actual  # noqa: S101
     logger.log(
         "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
