@@ -1,5 +1,5 @@
 ---
-date: 2023-12-09
+date: 2021-12-11
 imdb_id: tt0093974
 grade: C
 slug: silent-night-deadly-night-part-2-1987
