@@ -59,6 +59,7 @@ class Viewing(object):
     medium: Optional[str]
     venue: Optional[str]
     medium_notes: Optional[str]
+    venue_notes: Optional[str]
 
 
 @dataclass
@@ -197,6 +198,7 @@ def _hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
         venue=json_viewing["venue"],
         date=datetime.date.fromisoformat(json_viewing["date"]),
         medium_notes=json_viewing["mediumNotes"],
+        venue_notes=json_viewing["venueNotes"],
     )
 
 

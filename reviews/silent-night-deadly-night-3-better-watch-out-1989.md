@@ -6,7 +6,11 @@ grade: F
 date: 2023-12-13
 ---
 
-The original <span data-imdb-id="tt0088117">_Silent Night, Deadly Night_</span>, a low-budget exploitation horror, triggered outrage and protests. The <span data-imdb-id="tt0093974">second film</span> veered into camp and proved notorious as well, perceived as a cash-grab recycling large amounts of the first film‘s footage. This third entry in the Santa-slasher series loses the Santa costume but gains name recognition with director Monte Hellman and stars Bill Moseley and Robert Culp. The result? A head-scratching mess devoid of thrills, camp or otherwise.
+The original <span data-imdb-id="tt0088117">_Silent Night, Deadly Night_</span>, a low-budget exploitation horror, triggered outrage and protests. The <span data-imdb-id="tt0093974">second film</span> veered into camp and proved notorious as well, perceived as a cash-grab recycling large amounts of the first film‘s footage.
+
+This third entry in the Santa-slasher series loses the Santa costume but gains name recognition with director Monte Hellman and stars Bill Moseley and Robert Culp. The result? A head-scratching mess devoid of thrills, camp or otherwise.
+
+<!-- end -->
 
 The story, set after the events of part two, sees Ricky survive his apparent death thanks to some improbable surgery. He now lies comatose in a California hospital where smarmy doctor Newbury tries to leverage blind young Laura’s psychic ability to infiltrate Ricky’s slumbering conscious.
 

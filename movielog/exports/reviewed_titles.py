@@ -11,6 +11,7 @@ JsonViewing = TypedDict(
     {
         "date": str,
         "venue": Optional[str],
+        "venueNotes": Optional[str],
         "medium": Optional[str],
         "mediumNotes": Optional[str],
         "sequence": int,
@@ -277,6 +278,7 @@ def build_json_reviewed_title(
                 mediumNotes=viewing.medium_notes,
                 date=viewing.date.isoformat(),
                 venue=viewing.venue,
+                venueNotes=viewing.venue_notes,
             )
             for viewing in viewings
         ],
