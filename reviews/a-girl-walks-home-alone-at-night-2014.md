@@ -1,9 +1,9 @@
 ---
 sequence: 33
-date: 2015-03-06
+date: 2015-02-25
 imdb_id: tt2326554
 title: A Girl Walks Home Alone at Night (2014)
-grade: A-
+grade: B+
 slug: a-girl-walks-home-alone-at-night-2014
 ---
 
