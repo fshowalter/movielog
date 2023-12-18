@@ -1,6 +1,6 @@
 ---
 sequence: 97
-date: 2017-06-26
+date: 2012-02-25
 imdb_id: tt0024124
 title: His Private Secretary (1933)
 grade: D+
@@ -15,4 +15,4 @@ The film's first half sees Wallace pursue Marion. The two marry, which causes a 
 
 Marion goes to the elder Wallace to smooth things over, but a mix-up lands her hired as his secretary.
 
-The early scenes with John Wayne as a drunken playboy checking out women's ankles in his rearview mirror had me laughing. They're almost enough to recommend the film. But the lack of chemistry between Wayne and Knapp, and the awkward third-act plotting, reserve _His Private Secretary_ for Wayne die-hards only.
+The early scenes with John Wayne as a drunken playboy checking out women's ankles in his rear-view mirror had me laughing. They're almost enough to recommend the film. But the lack of chemistry between Wayne and Knapp, and the awkward third-act plotting, reserve _His Private Secretary_ for Wayne die-hards only.
