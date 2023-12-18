@@ -1,6 +1,6 @@
 ---
 sequence: 42
-date: 2015-07-15
+date: 2015-07-11
 imdb_id: tt0056062
 title: Hell Is for Heroes (1962)
 grade: B
