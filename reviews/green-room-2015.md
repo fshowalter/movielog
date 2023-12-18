@@ -1,6 +1,6 @@
 ---
 sequence: 75
-date: 2017-01-23
+date: 2017-01-14
 imdb_id: tt4062536
 title: Green Room (2015)
 grade: A
@@ -11,7 +11,7 @@ Watching _Green Room_, I caught myself holding my breath. It's that kind of movi
 
 The story concerns a college-aged punk rock band who accept a gig at an out-of-the-way club in the Pacific Northwest. I'll reveal no more, lest I spoil how writer/director Jeremy Saulnier ratchets up the tension by raising the stakes with each plot twist. Suffice it to say, things get very bad, very fast for the young band.
 
-_Green Room_ is Saulnier's third film. His debut, _Murder Party (2007)_, was a flawed but entertaining black comedy. His follow-up, _Blue Ruin (2013)_, was a near-perfect revenge thriller. With _Green Room_, he delivers one of the more intense horror films I've seen.
+_Green Room_ is Saulnier's third film. His debut, <span data-imdb-id="tt0878695">_Murder Party_</span>, was a flawed but entertaining black comedy. His follow-up, <span data-imdb-id="tt2359024">_Blue Ruin_</span>, was a near-perfect revenge thriller. With _Green Room_, he delivers one of the more intense horror films I've seen.
 
 From the moment the band turns into the club's parking lot, we feel uneasy. A palpable sense of menace hangs in the air. It grows as the kids make their way inside the club. By the time they take the stage, it's overwhelming.
 
@@ -25,4 +25,4 @@ That's because Saulnier makes sure we care about his characters. Good effects su
 
 You may have noticed that I have not mentioned the cast. They're all convincing and engaging, but discussing specific performances, or even the casting itself would invite spoilers. That said, I'll make one exception since the film's promotional artwork includes him.
 
-How I envy the festival audiences who went in knowing little more than the film's title and director. Patrick Stewart's reveal as a neo-Nazi gang leader must have been a terrific surprise. He's an unconventional choice, but he pulls off the part. Granted, he's not as scary as say, Ben Kingsley in _Sexy Beast (2000)_ or Stacy Keach in _American History X (1998)_, but maybe that's a good thing. _Green Room_ is intense enough.
+How I envy the festival audiences who went in knowing little more than the film's title and director. Patrick Stewart's reveal as a neo-Nazi gang leader must have been a terrific surprise. He's an unconventional choice, but he pulls off the part. Granted, he's not as scary as say, Ben Kingsley in <span data-imdb-id="tt0203119">_Sexy Beast_</span> or Stacy Keach in <span data-imdb-id="tt0120586">_American History X_</span>, but maybe that's a good thing. _Green Room_ is intense enough.
