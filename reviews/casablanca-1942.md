@@ -9,7 +9,7 @@ slug: casablanca-1942
 
 By the time I watched _Casablanca_, I already knew every line of dialogue.
 
-During my senior year of high school, I worked at Suncoast Video. It wasn't a rental store, but one that sold VHS and Laserdisc movies.
+During my senior year of high school, I worked at Suncoast, a non-rental video store that sold VHS and Laserdisc movies.
 
 On monitors mounted throughout the store we'd show whatever clamshelled, family-friendly title corporate was pushing--think <span data-imdb-id="tt0106965">_Free Willy_</span>.
 
@@ -17,11 +17,11 @@ During the holiday season, corporate would ship washing-machine-sized boxes of p
 
 While we worked, we'd put on a movie. The monitors would be off, but we'd listen. _Casablanca_ proved an employee favorite on those long nights. Though I'd never seen it, I loved the crackling dialogue. Lines like: "It would take a miracle to get you out of Casablanca and the Germans have outlawed miracles."
 
-The story takes place during World War II. Casablanca, an unoccupied French colony, has become a purgatory for European refugees looking to escape to America. We meet Rick, an American expatriate played by Humphrey Bogart. He runs the most popular cafe in town. As Louis, the venal Prefect of Police played by Claude Rains, says, "Everybody comes to Rick's."
+The story takes place during World War II. Casablanca, an unoccupied French colony, has become a purgatory for European refugees looking to escape to America. We meet Rick, an American expatriate played by Humphrey Bogart. He runs the most popular café in town. As Louis, the venal Prefect of Police played by Claude Rains, says, "Everybody comes to Rick's."
 
-At Rick's they're entertained by Sam, a piano playing singer played by Dooley Wilson. Aside from Sam and the cafe, Rick maintains a cool detachment from everything and everyone. That changes once long-lost flame Ilsa (played by Ingrid Bergman) walks in on the arm of Victor Lazlo, a resistance leader wanted by the Germans.
+At Rick's they're entertained by Sam, a piano playing singer played by Dooley Wilson. Aside from Sam and the café, Rick maintains a cool detachment from everything and everyone. That changes once long-lost flame Ilsa (played by Ingrid Bergman) walks in on the arm of Victor Laszlo, a resistance leader wanted by the Germans.
 
-Seeing Ilsa shakes Rick from his isolationist stance, and soon he's abetting the local resistance. The Germans retaliate by insisting Louis shut down the cafe. Amid the chaos of the police chasing everyone out, Rick demands an explanation:
+Seeing Ilsa shakes Rick from his isolationist stance, and soon he's abetting the local resistance. The Germans retaliate by insisting Louis shut down the café. Amid the chaos of the police chasing everyone out, Rick demands an explanation:
 
 > LOUIS
 > I'm shocked, SHOCKED, to find gambling going on here!
@@ -36,7 +36,7 @@ Seeing Ilsa shakes Rick from his isolationist stance, and soon he's abetting the
 
 That's not just funny, it's Billy Wilder funny.
 
-But the film pivots with ease. Grounded in relatable emotions, the melodrama packs a punch. Consider how Rick spits venom at Ilsa, saying: "Well, I guess neither one of our stories is very funny. Tell me, who was it you left me for? Was it Lazlo, or were there others in between or… aren't you the kind that tells?"
+But the film pivots with ease. Grounded in relatable emotions, the melodrama packs a punch. Consider how Rick spits venom at Ilsa, saying: "Well, I guess neither one of our stories is very funny. Tell me, who was it you left me for? Was it Laszlo, or were there others in between or… aren't you the kind that tells?"
 
 No weepy speeches, just relatable emotion setup by an earlier scene between a drunken Rick and Sam:
 
