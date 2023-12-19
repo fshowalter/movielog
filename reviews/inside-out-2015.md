@@ -1,6 +1,6 @@
 ---
 sequence: 41
-date: 2015-07-11
+date: 2015-06-22
 imdb_id: tt2096673
 title: Inside Out (2015)
 grade: C
@@ -15,7 +15,7 @@ Early on, Joy dominates. Disgust, Fear, and Anger provide comic relief. Riley gr
 
 It’s an efficient opening act with one misstep. Sadness is frustrating. Her actions feel plot-driven and, compared to Joy, her character arc is shallow.
 
-The plot kicks in when Riley, now age 11, finds herself uprooted by a move to San Fransisco. At first, Joy coaxes Riley to remain positive. But a dilapidated house, frazzled parents, a new school, and a moving van that seems to circumnavigate the globe en-route to San Francisco, take their toll.
+The plot kicks in when Riley, now age 11, finds herself uprooted by a move to San Francisco. At first, Joy coaxes Riley to remain positive. But a dilapidated house, frazzled parents, a new school, and a moving van that seems to circumnavigate the globe en-route to San Francisco, take their toll.
 
 Things get even worse when Joy and Sadness find themselves stranded far from Headquarters. This renders Riley unable to feel either of their respective emotions.
 
@@ -45,4 +45,4 @@ This was a chance to show Riley adjusting to the move, but at a cost. Maybe part
 
 _Inside Out_ drives home the message that growing up means accepting sadness as a part of life, yet it can’t apply that lesson to its own ending.
 
-[^1]: Saddest Disney scene I can remember. Seriously, Bambi’s mom has nothing on this.
+[^1]: Saddest Disney scene I can remember. Bambi’s mom has nothing on this.
