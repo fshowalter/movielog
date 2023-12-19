@@ -1,9 +1,9 @@
 ---
 sequence: 13
-date: 2014-12-25
+date: 2014-12-18
 imdb_id: tt0816692
 title: Interstellar (2014)
-grade: C
+grade: D+
 slug: interstellar-2014
 ---
 
@@ -17,7 +17,7 @@ A series of gravitational anomalies lead him to the remnants of NASA. NASA has a
 
 Cooper agrees, even though the journey’s length means he’ll miss years of his children’s lives. If he makes it back at all.
 
-The flight goes smoothly and the crew pass through the wormhole in a sequence that begs favorable comparisons with _2001: A Space Odyssey (1968)_. On the other side they assess their situation. They count three potential worlds, but the closest and most promising orbits the outskirts of a black hole. This creates a warping effect with time. An hour spent on the planet equates to seven years back on Earth.
+The flight goes smoothly and the crew pass through the wormhole in a sequence that begs favorable comparisons with <span data-imdb-id="tt0062622">_2001: A Space Odyssey_</span>. On the other side they assess their situation. They count three potential worlds, but the closest and most promising orbits the outskirts of a black hole. This creates a warping effect with time. An hour spent on the planet equates to seven years back on Earth.
 
 They agree to be quick. Cooper pilots a shuttle craft to the planet’s surface. Of course, there are complications. They return just over three hours later, and learn twenty-three years have passed on Earth. Cooper checks his video mail. He sees his son graduate high school, meet a girl, and get married. He sees the birth and death of his grandson. Finally, he sees his son, now a man older than himself, say goodbye, resigned that Cooper is never coming back. Cooper has missed it all. It flattens him and us. Never has a movie conveyed the isolation of space travel like this.
 
