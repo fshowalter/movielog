@@ -1,13 +1,13 @@
 ---
 sequence: 37
-date: 2015-04-11
+date: 2015-03-26
 imdb_id: tt3235888
 title: It Follows (2014)
 grade: D
 slug: it-follows-2014
 ---
 
-_It Follows_ is the perfect white-bread horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills.
+_It Follows_ is the perfect horror film for folks who dismiss the genre as a step or two above pornography. It's well-produced, self-aware, and devoid of any disturbing scares or gratuitous thrills.
 
 The story opens at dusk. A girl half-dressed (but not nude) in high heels flees her suburban home. She runs into the street. Her wide eyes darting back over her shoulder. She pauses, then runs back toward her house. Her father steps outside and asks if she's okay. She says she is as she runs back inside. A moment later, she's back out. She gets into her car, backs out of the driveway, and speeds off into the darkness.
 
