@@ -1,5 +1,4 @@
 ---
-sequence: 80
 date: 2017-02-12
 imdb_id: tt0075820
 title: Cathy's Curse (1977)

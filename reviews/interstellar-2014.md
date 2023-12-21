@@ -1,5 +1,4 @@
 ---
-sequence: 13
 date: 2014-12-18
 imdb_id: tt0816692
 title: Interstellar (2014)

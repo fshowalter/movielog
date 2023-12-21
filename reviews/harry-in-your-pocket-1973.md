@@ -1,5 +1,4 @@
 ---
-sequence: 99
 date: 2017-07-10
 imdb_id: tt0070158
 title: Harry in Your Pocket (1973)
@@ -19,6 +18,6 @@ To that end, Coburn's Harry proves an enigma. We learn little about him yet he r
 
 The trouble is, the film isn't about Harry, it's about Ray and Sandy, the young stalls who join Harry's gang. Thanks to Trish Van Devere's performance, I could buy Sandy as a detached thrill seeker, but Michael Sarrazin's performance as Ray left me impatient.
 
-Devoid of any edge, Sarrazin plays Ray as a generic nice guy who'd prefer a 9-to-5 job and a house in the suburbs. When Ray's alone on screen, the film drags. 
+Devoid of any edge, Sarrazin plays Ray as a generic nice guy who'd prefer a 9-to-5 job and a house in the suburbs. When Ray's alone on screen, the film drags.
 
 Still, I liked the movie. Chalk it up to Coburn. He's so interesting to watch, he makes mediocre movies good, and good movies great. _Harry in Your Pocket_ is closer to mediocre, but Coburn makes it worthwhile.
