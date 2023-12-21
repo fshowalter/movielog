@@ -1,5 +1,4 @@
 ---
-sequence: 37
 date: 2015-03-26
 imdb_id: tt3235888
 title: It Follows (2014)

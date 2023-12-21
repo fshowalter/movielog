@@ -1,5 +1,4 @@
 ---
-sequence: 50
 date: 2015-08-13
 imdb_id: tt0069715
 title: And Now the Screaming Starts! (1973)

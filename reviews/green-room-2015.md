@@ -1,5 +1,4 @@
 ---
-sequence: 75
 date: 2017-01-14
 imdb_id: tt4062536
 title: Green Room (2015)

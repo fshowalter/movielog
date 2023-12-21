@@ -1,8 +1,7 @@
 ---
-sequence: 79
-date: 2017-02-20
+date: 2017-02-09
 imdb_id: tt4425200
-title: 'John Wick: Chapter 2 (2017)'
+title: "John Wick: Chapter 2 (2017)"
 grade: B+
 slug: john-wick-chapter-2-2017
 ---

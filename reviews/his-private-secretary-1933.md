@@ -1,5 +1,4 @@
 ---
-sequence: 97
 date: 2012-02-25
 imdb_id: tt0024124
 title: His Private Secretary (1933)

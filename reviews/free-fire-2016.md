@@ -1,5 +1,4 @@
 ---
-sequence: 90
 date: 2017-04-25
 imdb_id: tt4158096
 title: Free Fire (2016)

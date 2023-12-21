@@ -1,5 +1,4 @@
 ---
-sequence: 94
 date: 2016-02-28
 imdb_id: tt0034583
 title: Casablanca (1942)

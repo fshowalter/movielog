@@ -1,5 +1,4 @@
 ---
-sequence: 41
 date: 2015-06-22
 imdb_id: tt2096673
 title: Inside Out (2015)
