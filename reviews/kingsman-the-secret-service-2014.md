@@ -1,8 +1,7 @@
 ---
-sequence: 30
-date: 2015-02-23
+date: 2015-02-12
 imdb_id: tt2802144
-title: 'Kingsman: The Secret Service (2014)'
+title: "Kingsman: The Secret Service (2014)"
 grade: C+
 slug: kingsman-the-secret-service-2014
 ---
@@ -13,7 +12,7 @@ Eggsy lives with his mother and infant sister in one of London’s ailing housin
 
 When a rare moment of defiance lands Eggsy in jail, Eggsy calls a mysterious number his mother gave him should he ever find himself in trouble. Shortly thereafter, Eggsy walks out of jail a free man. Outside the police station, Eggsy meets Harry Hart.
 
-Harry, played by Colin Firth, is a dapper gentleman cut from the David Niven cloth. The two go for a pint. Harry tells Eggsy that Eggsy’s father was a Kingsman, a member of an elite group of gentleman super-spies. He died saving Harry’s life. Eggsy is incredulous until he sees Harry take down a group of young thugs using nothing but an umbrella. Before he leaves, Harry offers Eggsy a chance to try out for the Kingsmen.
+Harry, played by Colin Firth, is a dapper gentleman cut from the David Niven cloth. The two go for a pint. Harry tells Eggsy that Eggsy’s father was a Kingsman, a member of an elite group of gentleman super-spies. He died saving Harry’s life. Eggsy is incredulous until he sees Harry take down a group of young thugs using nothing but an umbrella. Before he leaves, Harry offers Eggsy a chance to try out for Kingsman.
 
 And so Eggsy goes to spy-school. In keeping with the dapper gentleman theme, spy-school is more like boarding school than boot camp. When they're not practicing with sniper rifles or parachuting out of planes, the fresh-faced recruits wear uniforms resembling flannel suit pajamas.
 
@@ -27,6 +26,6 @@ Sure, it's silly, but the juxtaposition of the mild mannered Firth and the comic
 
 But casting Firth is not without its downsides. With someone like Clive Owen, the film could have gone with a more serious and cynical tone. The script flirts with having something to say about elitism and class hierarchy, but it’s lost amid the silliness.
 
-As I said earlier, the film is full of superfluous bits. There are characters with no payoff. Roxy, another Kingsmen recruit seems to exist only to make Eggsy seem nicer than the other male recruits. She's an afterthought by the time we reach the finale. And then there are the plot holes. Like how an ultra secret organization allows most of its recruiting class to walk away after failing to make the cut. Or how an intelligence organization like the Kingsmen doesn’t have its own satellites. This is sloppy storytelling, but one is hard-pressed to care given the film’s relentless spectacle.
+As I said earlier, the film is full of superfluous bits. There are characters with no payoff. Roxy, another Kingsman recruit seems to exist only to make Eggsy seem nicer than the other male recruits. She's an afterthought by the time we reach the finale. And then there are the plot holes. Like how an ultra secret organization allows most of its recruiting class to walk away after failing to make the cut. Or how an intelligence organization like Kingsman doesn’t have its own satellites. This is sloppy storytelling, but one is hard-pressed to care given the film’s relentless spectacle.
 
 In the end, _Kingsman: The Secret Service_ is little more than an adolescent male super-spy fantasy. That said, it’s not bad. It's a throwback to the days when James Bond seemed to relish his job and the films favored adventure over angst. It may not be a great film, but it sure is entertaining.
