@@ -1,6 +1,5 @@
 ---
-sequence: 20
-date: 2015-01-14
+date: 2015-01-03
 imdb_id: tt2692904
 title: Locke (2013)
 grade: B
@@ -23,6 +22,6 @@ And so it is with a deliberate logic that he approaches his current situation. H
 
 The film doles out this information in small bits as it unfolds. Each nugget raises the emotional stakes and increases the story’s tension. In time, Ivan loses his job, his family and his home. He accepts these events with a calm detachment. These are the consequences of his actions. He compartmentalizes them. He holds to his logic. He must be there for his child. Early on, when Bethan asks if he loves her, Ivan replies "How can I? I don't know you." His tone is not cruel. It is the voice of a man trying to convince her of a truth he needs to believe.
 
-Watching Ivan’s world unravel is a compelling journey. Tom Hardy holds our attention from the very first scene. We want to learn more about his character. Through his eyes and inflection, Hardy conveys a character struggling to contain a sea of emotions. Setting the entire film in Ivan’s car doesn’t feel like a stunt, it feels natural. It adds to the claustrophobic sense of desperation that the film cultivates. By the end, we’re hanging on every word.
+Watching Ivan’s world unravel is a compelling journey. Tom Hardy holds our attention from the opening scene. We want to learn more about his character. Through his eyes and inflection, Hardy conveys a character struggling to contain a sea of emotions. Setting the entire film in Ivan’s car doesn’t feel like a stunt, it feels natural. It adds to the claustrophobic sense of desperation that the film cultivates. By the end, we’re hanging on every word.
 
 But about that end. Just as abruptly as it began, the film is over. Ivan's world has changed and he heads off to what will be, for him, a new life. I didn't like this ending, but I'm not sure how I would change it. It felt anti-climatic. Not enough to ruin the film, but enough that it left me wanting. But perhaps that's the point. Just like Ivan, we’re left with an odd sense of detachment.
