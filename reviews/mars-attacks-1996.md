@@ -1,6 +1,6 @@
 ---
 sequence: 61
-date: 2016-10-10
+date: 2016-09-22
 imdb_id: tt0116996
 title: Mars Attacks! (1996)
 grade: C-
@@ -11,9 +11,9 @@ _Mars Attacks!_ could have been awful but settles for mediocre.
 
 The film jumps between several storylines as aliens from Mars attack Earth. We follow the President and his staff, a pair of television personalities, a family in rural Kansas, a sleazy Las Vegas developer, and a washed up heavyweight boxer. Jack Nicholson leads an all-star cast as both the President and the Vegas developer.
 
-The studio advertised the film as spoofing 1950s science-fiction pictures, but it doesn’t play that way. Among the cast, it's telling that amateur actor and former NFL fullback Jim Brown seems the most comfortable. He plays the boxer reduced to dressing as a pharaoh for an Egyptian-themed casino. When the Martians attack, Brown heads out to reunite with his ex-wife (Pam Grier) and kids. He gets some help from Tom Jones, who plays himself. There’s a wonderful scene where Brown asks Jones, “Do you know how to fly a plane?” to which Jones replies, “Of course! You got one?”
+The studio advertised the film as spoofing 1950s science-fiction pictures, but it doesn’t play that way. Among the cast, it's telling that former NFL fullback Jim Brown seems the most comfortable. He plays the boxer reduced to dressing as a pharaoh for an Egyptian-themed casino. When the Martians attack, Brown heads out to reunite with his ex-wife (Pam Grier) and kids. He gets some help from Tom Jones, who plays himself. There’s a wonderful scene where Brown asks Jones, “Do you know how to fly a plane?” to which Jones replies, “Of course! You got one?”
 
-This sort of goofball casting matches the goofy sci-fi premise.  Brown and Jones both seem aware of their shortcomings as actors, and their stiff performances are genuine and entertaining.
+This sort of goofball casting matches the goofy sci-fi premise. Brown and Jones both seem aware of their shortcomings as actors, and their stiff performances are genuine and entertaining.
 
 It’s a glimpse of the movie I suspect director Tim Burton wanted to make. He seems less interested in spoofing the genre than recreating it.
 
