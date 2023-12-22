@@ -1,5 +1,4 @@
 ---
-sequence: 61
 date: 2016-09-22
 imdb_id: tt0116996
 title: Mars Attacks! (1996)
