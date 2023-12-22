@@ -1,5 +1,5 @@
 ---
-date: 2016-11-21
+date: 2016-11-09
 imdb_id: tt0024516
 title: Sagebrush Trail (1933)
 grade: C-
