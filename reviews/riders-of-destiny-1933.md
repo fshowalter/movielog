@@ -1,6 +1,5 @@
 ---
-sequence: 60
-date: 2016-10-03
+date: 2016-09-17
 imdb_id: tt0024500
 title: Riders of Destiny (1933)
 grade: D
