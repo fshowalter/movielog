@@ -1,13 +1,12 @@
 ---
-sequence: 3
-date: 2014-08-11
+date: 2014-08-09
 imdb_id: tt0060865
 title: Psycho-Circus (1966)
 grade: C
 slug: psycho-circus-1966
 ---
 
-_Circus of Fear_ plays like two films stitched together. One great, one mediocre.
+_Psycho-Circus_ plays like two films stitched together. One great, one mediocre.
 
 It opens with an armored car rumbling down a London street. Cut to a man aboard a boat approaching the Tower Bridge. He raises his arm to check the time. Zoom in on his wristwatch. It’s just after dawn.
 
@@ -29,6 +28,6 @@ The setting shifts to the winter home of the Barberini circus. The pacing slows.
 
 From here, the movie devolves into an unremarkable whodunit. An unseen, knife-throwing assailant picks off potential suspects. There are lots of red herrings and at least one plot twist you’ll see coming.
 
-It’s not a bad movie, but _Circus of Fear_ squanders the talent involved. Director John Moxey can build atmosphere (as the opening heist shows) but the convoluted plot gives him few opportunities. Christopher Lee spends much of his limited screen time wearing a ridiculous hood. And Klaus Kinski's post-heist role sees him reduced to lurking about in the shadows.
+It’s not a bad movie, but _Psycho-Circus_ squanders the talent involved. Director John Moxey can build atmosphere (as the opening heist shows) but the convoluted plot gives him few opportunities. Christopher Lee spends much of his limited screen time wearing a ridiculous hood. And Klaus Kinski's post-heist role sees him reduced to lurking about in the shadows.
 
 It’s frustrating. We may learn the killer’s identity, but the real mystery lies in what the principals could have done with better material.
