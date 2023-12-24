@@ -1,6 +1,5 @@
 ---
-sequence: 70
-date: 2016-12-19
+date: 2016-12-02
 imdb_id: tt0067800
 title: Straw Dogs (1971)
 grade: A+
@@ -29,7 +28,7 @@ Finally, as Amy and Charlie lay entwined, Peckinpah goes for the jugular. One of
 
 Controversial? Absolutely. Gratuitous? No. The scene is horrifying but necessary. It drives an unspoken wedge between David and Amy, setting up the rest of the story.
 
-The finale sees Charlie and gang laying siege to David and Amy's house. It's a familiar scene in horror films; the men could just as easily be zombies or other monsters, and Peckinpah uses lots of low-angle shots and foggy backlighting. But the real horror isn't what's trying to get in, it's what's coming out between David and Amy.
+The finale sees Charlie and gang laying siege to David and Amy's house. It's a familiar scene in horror films; the men could just as easily be zombies or other monsters, and Peckinpah uses lots of low-angle shots and foggy back lights. But the real horror isn't what's trying to get in, it's what's coming out between David and Amy.
 
 A series of plot-driven coincidences have led to David sheltering a mentally challenged man in the couple's attic. The mob outside believes this man murdered a local girl earlier that evening. When the attacks start, Amy urges David to acquiesce to the mob's demands and turn the man over, but David refuses. Bitter that David will stand up for a stranger but not her, Amy refuses to help. This proves the turning point in their relationship. Later, when Amy's in trouble, she yells for Charlie.
 

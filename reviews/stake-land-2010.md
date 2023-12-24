@@ -1,5 +1,4 @@
 ---
-sequence: 1
 date: 2014-06-21
 imdb_id: tt1464580
 title: Stake Land (2010)
