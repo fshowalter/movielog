@@ -1,5 +1,5 @@
 ---
-date: 2015-08-29
+date: 2015-08-15
 imdb_id: tt0076704
 title: Shock Waves (1977)
 grade: D+
