@@ -1,5 +1,4 @@
 ---
-sequence: 44
 date: 2015-08-29
 imdb_id: tt0076704
 title: Shock Waves (1977)
@@ -7,7 +6,7 @@ grade: D+
 slug: shock-waves-1977
 ---
 
-The four survivors planned to hole up in the abandoned hotel’s vault-like refrigerator. It was a good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare into the refrigerator. That’s where _Shock Waves_ lost me.
+The four survivors hole up in the abandoned hotel’s vault-like refrigerator. A good plan, considering the squad of undead, water-breathing Nazi storm troopers lurking outside. Then one survivor gets claustrophobic and fires a signal flare inside the refrigerator. That’s where _Shock Waves_ lost me.
 
 The film had potential. Early on, John Carradine captains a small sight-seeing boat. On board are his mate, the chef, and four tourists. Carradine holds our interest while the script forces a series of contrived events to strand the boat on a remote island. The most ridiculous of which sees him throw the ship’s navigation system overboard.
 
