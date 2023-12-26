@@ -1,6 +1,5 @@
 ---
-sequence: 31
-date: 2015-02-26
+date: 2015-02-14
 imdb_id: tt0039581
 title: The Long Night (1947)
 grade: D+
