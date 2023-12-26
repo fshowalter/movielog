@@ -1,6 +1,5 @@
 ---
-sequence: 5
-date: 2014-09-14
+date: 2013-03-01
 imdb_id: tt0034540
 title: The Boogie Man Will Get You (1942)
 grade: D+
