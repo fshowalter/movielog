@@ -1,6 +1,6 @@
 ---
 sequence: 63
-date: 2016-10-24
+date: 2016-10-01
 imdb_id: tt0086113
 title: The Pit (1981)
 grade: C+
