@@ -1,6 +1,5 @@
 ---
-sequence: 11
-date: 2014-12-06
+date: 2014-12-03
 imdb_id: tt1951265
 title: "The Hunger Games: Mockingjay - Part 1 (2014)"
 grade: F
@@ -25,6 +24,6 @@ A movie doesn’t need explosive action or labyrinthine plot to succeed, but it 
 
 Jennifer Lawrence is a talented actress capable of commanding our attention on screen, but one wouldn’t know it from watching her here. Between the ill-fitting jumpsuit and pale makeup, she looks every bit as listless as the script. Her supporting cast includes Philip Seymour Hoffman and Julianne Moore. Both avoid rolling their eyes at the dialogue, a feat I consider award-worthy.
 
-In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. Fans of the series should skip straight to the real finale in _The Hunger Games: Mockingjay - Part 2 (2015)_.
+In the end, _The Hunger Games: Mockingjay - Part 1_ is a non-movie. Fans of the series should skip straight to the real finale in <psan data-imdb-id="tt1951266">_The Hunger Games: Mockingjay - Part 2_</span>.
 
 [^1]: Courtesy of William Strunk Jr’s classic style guide, _The Elements of Style_.
