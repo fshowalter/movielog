@@ -1,6 +1,5 @@
 ---
-sequence: 39
-date: 2015-06-13
+date: 2015-06-06
 imdb_id: tt0053719
 title: The City of the Dead (1960)
 grade: B
@@ -41,10 +40,7 @@ Indeed, Lee's performance, like the film, is an overlooked gem. While critics la
 
 To that end, one could say _The City of the Dead_ was ahead of its time. That elements like the filling station attendant attempting to warn the unsuspecting strangers, or the red-herring protagonist, have been copied by so many other films they're now regarded as tropes. But I’ll leave the academia to others. Suffice it to say the film _works_.
 
-[^1]: A likely inspiration for the witch burning skit in _Monty Python and the Holy Grail (1975)_.
-
-[^2]: According to [the article on Wikipedia](http://en.wikipedia.org/wiki/The_City_of_the_Dead_(film)), producer Milton Subotsky added the character of Bill when he rewrote George Baxt’s script.
-
+[^1]: A possible inspiration for the witch burning skit in <span data-imdb-id="tt0071853">_Monty Python and the Holy Grail_</span>?
+[^2]: According to [the article on Wikipedia](<http://en.wikipedia.org/wiki/The_City_of_the_Dead_(film)>), producer Milton Subotsky added the character of Bill when he rewrote George Baxt’s script.
 [^3]: Then called Vulcan Pictures.
-
-[^4]: Hammer wouldn’t produce a contemporary satanic-themed horror film until _To the Devil a Daughter (1976)_, their final film. Meanwhile, films like _Rosemary’s Baby (1968)_ and _The Exorcist (1973)_ made millions at the box office.
+[^4]: Hammer wouldn’t produce a contemporary satanic-themed horror film until <span data-imdb-id="tt0075334">_To the Devil a Daughter_</span>, their final film. Meanwhile, films like <span data-imdb-id="tt0063522">_Rosemary’s Baby_</span> and <span data-imdb-id="tt0070047">_The Exorcist_</span> made millions at the box office.
