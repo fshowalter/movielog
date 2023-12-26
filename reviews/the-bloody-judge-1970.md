@@ -1,6 +1,5 @@
 ---
-sequence: 2
-date: 2014-08-03
+date: 2014-08-02
 imdb_id: tt0064727
 title: The Bloody Judge (1970)
 grade: D
