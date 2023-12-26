@@ -1,6 +1,5 @@
 ---
-sequence: 87
-date: 2017-04-17
+date: 2017-04-08
 imdb_id: tt0038937
 title: Shock (1946)
 grade: D+
