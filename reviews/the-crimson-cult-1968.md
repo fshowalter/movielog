@@ -1,6 +1,5 @@
 ---
-sequence: 28
-date: 2015-02-09
+date: 2015-01-31
 imdb_id: tt0062833
 title: The Crimson Cult (1968)
 grade: D+
