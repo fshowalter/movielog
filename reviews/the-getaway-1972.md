@@ -1,6 +1,5 @@
 ---
-sequence: 69
-date: 2016-12-05
+date: 2016-11-27
 imdb_id: tt0068638
 title: The Getaway (1972)
 grade: B+
