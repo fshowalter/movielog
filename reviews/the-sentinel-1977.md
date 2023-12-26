@@ -1,6 +1,5 @@
 ---
-sequence: 66
-date: 2016-11-14
+date: 2016-10-29
 imdb_id: tt0076683
 title: The Sentinel (1977)
 grade: C+
@@ -11,7 +10,7 @@ Chris Sarandon saves _The Sentinel_ from its own excess.
 
 The film stars Cristina Raines as a fashion model who moves into a fantastic apartment in a converted Brooklyn brownstone. A series of strange encounters with her eccentric neighbors leaves her paranoid and on edge. Her boyfriend, a hot-shot defense attorney played by Sarandon, investigates and uncovers a horrific conspiracy involving the Catholic Church and a gateway to Hell.
 
-The setup invites comparisons to _Rosemary’s Baby (1968)_. But unlike that film, which was about women's reproductive rights, _The Sentinel_ isn't about anything. It's an exploitation picture offering a smorgasbord of gore, nudity, lesbianism, human deformities, and female masturbation. I don't mind these things. I object to the film’s middling execution.
+The setup invites comparisons to <span data-imdb-id="tt0063522">_Rosemary’s Baby_</span>. But unlike that film, which was about women's reproductive rights, _The Sentinel_ isn't about anything. It's an exploitation picture offering a smörgåsbord of gore, nudity, lesbianism, human deformities, and female masturbation. I don't mind these things. I object to the film’s middling execution.
 
 Movie fans will enjoy spotting the once and future stars peppering the cast. José Ferrer as an unnamed robed figure. Ava Gardner as a charming real estate agent. Burgess Meredith as a creepy neighbor. Eli Wallach as a cagey detective. Christopher Walken as Wallach’s grinning partner. Jeff Goldblum as a fashion photographer. Beverly D’Angelo as a mute exhibitionist. An unrecognizable John Carradine as an aging priest.
 
