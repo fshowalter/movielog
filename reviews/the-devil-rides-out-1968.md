@@ -1,6 +1,6 @@
 ---
 sequence: 24
-date: 2015-01-29
+date: 2015-01-17
 imdb_id: tt0062885
 title: The Devil Rides Out (1968)
 grade: B
