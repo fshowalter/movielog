@@ -1,6 +1,5 @@
 ---
-sequence: 98
-date: 2017-07-03
+date: 2012-07-06
 imdb_id: tt0025878
 title: The Thin Man (1934)
 grade: B+
