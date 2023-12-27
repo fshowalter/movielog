@@ -1,13 +1,12 @@
 ---
-sequence: 27
-date: 2015-02-06
+date: 2015-01-31
 imdb_id: tt2561546
 title: The Town That Dreaded Sundown (2014)
 grade: C+
 slug: the-town-that-dreaded-sundown-2014
 ---
 
-_The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for the original film, _The Town That Dreaded Sundown (1976)_, which screens every Halloween somewhere in Texarkana.
+_The Town That Dreaded Sundown_ starts with a prologue recounting a series of unsolved murders that occurred in Texarkana in 1946. It talks about how those killings formed the basis for <span data-imdb-id="tt0075342">the original film</span>, which screens every Halloween somewhere in Texarkana.
 
 The film opens on one of those screenings. It's a drive-in. The camera pans down to a teen couple sitting on the hood of a car. He seems into the film, but she looks uneasy. She says it’s not her kind of movie. He asks her if she wants to go. She does, and they head out. As they leave, the camera picks up a preacher imploring the patrons to remember that people really died back in 1946.
 
@@ -15,7 +14,7 @@ The couple head out for a quiet, deserted area where they can be alone. He makes
 
 Soon they're parked. They start kissing, but the girl spots a man in the nearby woods. He's dressed just like the killer from the movie. But this is no prank. The man breaks the car's window with the butt of a revolver. He orders them out of the car at gunpoint, then forces the girl to turn around while he stabs the boy to death.
 
-And we're off and running. By genre definitions, the film is a slasher, but I'm always hesitant to use that term. For many people, that equates to the _Friday the 13th_ and _Halloween_ series of films, which were, for the most part, more monster and survival-horror films than slasher. _The Town That Dreaded Sundown_ is more of a violent mystery. Victims are stalked and murdered in a brutal but stylish manner and we work along with the protagonist to deduce the killer's identity from a number of suspects. To that end, _The Town That Dreaded Sundown_ may be the first rural giallo.
+And we're off and running. By genre definitions, the film is a slasher, but I'm always hesitant to use that term. For many people, that equates to the <span data-imdb-id="tt0080761">_Friday the 13th_</span> and <span data-imdb-id="tt0077651">_Halloween_</span> series of films, which were, for the most part, more monster and survival-horror films than slasher. _The Town That Dreaded Sundown_ is more of a violent mystery. Victims are stalked and murdered in a brutal but stylish manner and we work along with the protagonist to deduce the killer's identity from a number of suspects. To that end, _The Town That Dreaded Sundown_ may be the first rural giallo.
 
 There's a lot to like. The supporting cast includes Edward Herrmann as the aforementioned preacher, and Gary Cole as a sheriff’s deputy.
 
