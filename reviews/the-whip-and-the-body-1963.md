@@ -1,13 +1,12 @@
 ---
-sequence: 47
-date: 2015-09-19
+date: 2015-08-29
 imdb_id: tt0057078
 title: The Whip and the Body (1963)
 grade: C+
 slug: the-whip-and-the-body-1963
 ---
 
-Any film starring Christopher Lee as a ghost whipping a half-nude woman as she moans in ecstasy can’t be all bad.
+Any film starring Christopher Lee as a ghost, whipping a half-nude woman as she moans in ecstasy can’t be all bad.
 
 _The Whip and The Body_ opens with Lee on horseback approaching a large ocean front castle. He plays Kurt, a young nobleman returning to his ancestral castle after some time away.
 
