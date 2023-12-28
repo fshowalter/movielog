@@ -1,6 +1,5 @@
 ---
-sequence: 29
-date: 2015-02-14
+date: 2015-02-07
 imdb_id: tt0043131
 title: Where Danger Lives (1950)
 grade: F
@@ -11,7 +10,7 @@ I usually warn folks when I’m going to spoil plot points, but in the case of _
 
 The film opens with doctor Jeff Cameron treating a little girl. Jeff is telling her a story about elephants. Robert Mitchum plays Jeff. He’s miscast in a part that would better suit Henry Fonda, but that’s the least of the film’s problems.
 
-After finishing with the little girl, Jeff clocks out, eager for  his date with Julie, a nice nurse who works at the hospital. But Jeff has to cancel after he's called to assist with a new patient.
+After finishing with the little girl, Jeff clocks out, eager for his date with Julie, a nice nurse who works at the hospital. But Jeff has to cancel after he's called to assist with a new patient.
 
 The patient is Margo, a not-so-wholesome girl who’d just attempted suicide. Jeff treats Margo, then the two start dating. He falls hard. Faith Domergue plays Margo. Like Mitchum, she’s miscast. But unlike Mitchum, it’s hard to overlook just how wrong she is for the role. To be fair, it’s a hard part to play.
 Margo has to do more than seduce Jeff, she has to seduce the entire audience. We have to buy Jeff overlooking a myriad of red flags and throwing his life away for a woman he just met.
