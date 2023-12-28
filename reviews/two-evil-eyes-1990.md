@@ -1,6 +1,5 @@
 ---
-sequence: 45
-date: 2015-09-05
+date: 2015-08-08
 imdb_id: tt0100827
 title: Two Evil Eyes (1990)
 grade: C+
@@ -17,9 +16,9 @@ All goes according to plan until Valdemar dies while under hypnosis. Trapped in 
 
 Soon, Valdemar’s frozen corpse is stalking the two conspirators, shambling around calling Jessica’s name. He does this without moving his mouth, which was a problem for me, but I’ll get to that later.
 
-Romero’s segment has a made-for-TV feel. I can’t identify the exact cause. Perhaps it’s the under-written characters, or the under-furnished sets. Or the flat lighting. Maybe it’s the stiff performances. Or the EC Comics style twist ending. Whatever the reason, Romero’s film could pass for a lost episode of _Tales From the Crypt_.
+With its EC Comics style twist ending, Romero's effort could pass for a discarded segment from <span data-imdb-id="tt0083767">_Creepshow_</span>. One not written by Stephen King, as evidence by the under-written characters. The under-furnished sets and flat lighting lend a made-for-TV feel. It could pass for an episode of _Tales From the Crypt_.
 
-That’s not necessarily a bad thing. I loved that show. But, fair or not, one expects more from a feature film.
+That’s not necessarily a bad thing. I loved that show. But one expects more from a feature film.
 
 Astute viewers will notice a problem with Ramy Zada as Dr. Hoffman. The script tells us he and Jessica were lovers before she married Valdemar, back when she worked as a stewardess. But Zada’s thirteen years younger than Barbeau. Assuming Barbeau was in her early twenties during their affair, that puts Zada at ten years old.
 
