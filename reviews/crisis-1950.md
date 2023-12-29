@@ -2,7 +2,7 @@
 date: 2012-01-14
 imdb_id: tt0042352
 title: Crisis (1950)
-rating: C-
+grade: C-
 slug: crisis-1950
 ---
 
