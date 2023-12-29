@@ -1,6 +1,6 @@
 ---
 date: 2012-01-12
-imdb_id:
+imdb_id: tt0037549
 title: The Body Snatcher (1945)
 grade: D+
 slug: the-body-snatcher-1945
