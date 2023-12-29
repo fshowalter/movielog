@@ -3,7 +3,7 @@ date: 2012-01-14
 imdb_id: tt0042352
 title: Crisis (1950)
 rating: C-
-sllug: crisis-1950
+slug: crisis-1950
 ---
 
 Cary Grant plays a brain surgeon vacationing with his wife in an unnamed South American country where he's abducted and forced to operate on a dictator, played by José Ferrer.
