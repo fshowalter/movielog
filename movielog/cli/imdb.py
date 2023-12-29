@@ -14,7 +14,7 @@ def prompt() -> None:
         ),
         (
             repository_api.update_watchlist_credits,
-            "Update <cyan>titles</cyan> for <cyan>watchlist directors</cyan>, <cyan>performers</cyan>, and <cyan>writers</cyan>.",  # noqa: E501
+            "Update <cyan>watchlist titles</cyan> for <cyan>directors</cyan>, <cyan>performers</cyan>, and <cyan>writers</cyan>.",  # noqa: E501
         ),
         (
             repository_api.validate_data,
