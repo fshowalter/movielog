@@ -8,6 +8,7 @@
       "enabled": true,
       "schedule": ["at any time"]
     },
-    "assignees": ["fshowalter"]
+    "assignees": ["fshowalter"],
+    "configMigration": true
   }
   
