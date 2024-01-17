@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-python@v5
 
       - name: cache python environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -44,7 +44,7 @@ jobs:
         uses: actions/setup-python@v5
 
       - name: cache python environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -67,7 +67,7 @@ jobs:
         uses: actions/setup-python@v5
 
       - name: cache python environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
@@ -95,7 +95,7 @@ jobs:
         uses: actions/setup-python@v5
 
       - name: cache python environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-2${{ hashFiles('requirements.txt') }}
