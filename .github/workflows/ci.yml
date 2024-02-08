@@ -116,7 +116,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
       - name: Vale
-        uses: errata-ai/vale-action@v2.0.1
+        uses: errata-ai/vale-action@v2.1.0
         with:
           # Optional
           files: reviews
