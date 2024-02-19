@@ -6,22 +6,26 @@ grade: C
 date: 2024-02-11
 ---
 
-Summarizing this one will prove challenging, here goes: In Warlord Era China, five demons posess a general and a cook to impregnate five women to give birth to demon babies who will bring about the end of the world.
+In Warlord Era China, two chefs and a rogue monk fight to stop the birth of five demon babies who will bring about the apocalypse.
 
-That synopsis gives little sense of the film's nature. After a voiceover plologue explaining the demons' legend over footage of blood-soaked claws and fangs floating in a womb, the film abaondons the horror genre in favor of a rom-com.
+That synopsis gives little sense of the film’s nature. After a voiceover prologue explains the demons’ legend over footage of blood-soaked claws and fangs floating in a womb, the film abandons the horror genre in favor of a rom-com.
 
-We meet our protagonist Day-Six, who, with his buddy/sidekick Ben, work as chefs for General Hsu. Their introduction sees them vollying a head of lettuce back and forth across the kitchen, superhuman soccer-style. We soon learn Day-Six harbors a crush on Little-Fish, an attendent to Hsu's five wives. Day-Six stammers and sweats around Little-Fish, but romance blooms.
+We meet our protagonist Day-Six, who, with his buddy/sidekick Ben, work as chefs for General Hsu. Their introduction sees them volleying a head of lettuce back and forth across the kitchen, superhuman soccer-style. We soon learn Day-Six harbors a crush on Little-Fish, an attendant to Hsu’s five wives. Day-Six stammers and sweats around Little-Fish, but romance blooms.
 
-Parallel to this, the film proffers a melodramatic side-plot involving the five wives, who scheme and plot against one-another and even Hsu himself. This leads to one ending up dead, with Day-Six discovering the corpse.
+Parallel to this, the film proffers a melodramatic side-plot involving the five wives. They scheme and plot against one-another and even Hsu himself, leading to one ending up dead, with Day-Six discovering the corpse.
 
-Upon burying said corpse, the supernatural elements return, with the corpse coming back to life as a hopping vampire, to Day-Six and Y's horror. They're rescued by Chin Hai, a monk who sleeps in the local crypt to ensure the dead stay dead.
+Upon burying said corpse, the supernatural elements return, with the corpse coming back to life as a hopping vampire, to Day-Six and Ben’s horror. They’re rescued by Chin Hai, a monk who sleeps in the local crypt to ensure the dead stay dead.
 
-Anthony Wong plays Chin Hai with a charismatic panache remiscent of Errol Flynn and James Coburn. When he quiets the dead by stuffing tofu into their mounts, Day-Six and Ben are confused. "Ghosts love tofu," says Wong, as though it were common knowledge.
+Anthony Wong—sporting impossible facial hair—plays Chin Hai with a charismatic panache reminiscent of Errol Flynn and James Coburn. When he quiets the dead by stuffing tofu into their mounts, Day-Six and Ben are confused. “Ghosts love tofu,” says Wong, as though it were common knowledge.
 
-From here, the film begins living up to its title, as Hsu's wives all find themselves pregnant with their bellies swelling to monsterous size within days. Said bellies then open lengthwise, revealing monsterous teeth that devour pets, then livestock, then members of Hsu's staff, as the film goes full bonkers. Think the Alien chest-buster by way of Frank hennelotter. Tentacles shoot out, ensnaring victims and pulling them into the gaping vagina-detataesque jaws. Copious blood sprays everywhere, gruesome remains lay strewn about.
+From here, the film lives up to its title, as Hsu’s wives find themselves pregnant with their bellies swelling to monstrous size within days. Said bellies then open lengthwise, revealing pointed teeth that devour pets, then livestock, then members of Hsu’s staff, as the film goes full bonkers.
 
-Day-Six and Y summon Chin Hai for help, setting the stage for a memorable showdown where the three attempt to kill the wvies before they can birth their demon spawn. In one sequence Day-Six and Y creep up on one wife as she births a sac-covered fetus like a projectile, which Day-Six kicks over to Ben who volleys it back to Day-Six, recreating their introductory scene as Ben yells for Day-Six to "Kick it back in!"
+The practical effects charm. Think the Alien chest-buster by way of Frank Henenlotter. Tentacles shoot out, ensnaring victims and pulling them into the gaping vagina-dentataesque jaws. Copious blood sprays everywhere, gruesome remains litter the sets.
 
-Great stuff, but it takes far too long to arrive. Its fifty minutes into the eight-five-minute runtime before the film makes the hard turn into gonzo horror. While I appreciate how writer-director Kant Leung calls back to the rom-com elements in the third act, such as the aforementioned soccor sequence, the pay-off isn't worth the time investment.
+The cinematography evokes Sam Raimi’s Evil Dead, with crash-zooms, back lights and jerky camera pans.
 
-Still, I applaud the ambition. Leung's reach exceeded his grasp, but his attempt at tying everything together gives the film an added resonance that may reward repeat viewings.
+Day-Six and Ben summon Chin Hai for help and the three struggle to kill the wives before they can birth their demon spawn. In one sequence, Day-Six and Ben creep up on one wife as she births a sac-covered fetus like a projectile. Day-Six kicks it over to Ben who volleys it back to Day-Six, recreating their introductory scene as Ben yells for Day-Six to, “Kick it back in!”
+
+Great stuff, but it takes too long to arrive. It’s fifty minutes into the eight-five-minute runtime before the film makes the hard turn into gonzo horror. While I appreciate how writer-director Kant Leung calls back to the rom-com elements in the third act, such as the aforementioned soccer sequence, the pay-off isn’t worth the time investment. The rom-com and melodramatic elements are passable at best, and unlike the third act, can’t stand on their own.
+
+Still, I applaud the ambition. Leung’s reach exceeded his grasp, but his attempt at tying everything together gives the film an added resonance that may reward repeat viewings.
