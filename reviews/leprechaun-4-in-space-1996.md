@@ -14,11 +14,11 @@ While I appreciate the franchise’s allergy to continuity, this fourth entry fe
 
 That said, I don’t think it’s that clever. The convoluted plot hints at a preexisting script punched-up to include the titular leprechaun. Despite wearing his trademark green suit and buckle hat, no one recognizes him as a leprechaun. Instead, he’s referred to as “alien”, “beast”, or “monster”.
 
-And that proves the film’s undoing. The third film landed on a winning formula: someone steals a piece of the leprechaun’s treasure to gain wishes, which the leprechaun twists in horrible ways as he attempts to reclaim his gold.
+And that proves the film’s undoing. <span data-imdb-id="tt0113636">The third film</span> landed on a winning formula: someone steals a piece of the leprechaun’s treasure to gain wishes, which the leprechaun twists in horrible ways as he attempts to reclaim his gold.
 
 In this entry, the leprechaun’s nature proves tangential to the plot. He’s a generic monster. Warwick Davis tries to energize the one-dimensional role, but too many of his scenes see him either stalking other cast members or verbalizing exposition-heavy motivation.
 
-During the few scenes written for him, he shines. A laugh-out-loud satirization of Alien’s chest-buster sequence proves the highlight, with Davis emerging like a kidney-stone while a bugle call blares on the soundtrack. Another memorable sequence involves him offing a character by pancaking their face. But these scenes prove few and far between.
+During the few scenes written for him, he shines. A laugh-out-loud satirization of <span data-imdb-id="tt0078748">_Alien_</span>’s chest-buster sequence proves the highlight, with Davis emerging like a kidney-stone while a bugle call blares on the soundtrack. Another memorable sequence involves him offing a character by pancaking their face. But these scenes prove few and far between.
 
 Instead, the film proffers scene after scene of characters rushing from one place to another. Some judicious editing could have saved some budget which could have gone toward the optical effects.
 
