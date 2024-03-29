@@ -26,7 +26,7 @@ yaml.add_representer(type(None), represent_none)
 
 
 @dataclass(kw_only=True)
-class MarkdownReview(object):
+class MarkdownReview:
     yaml: ReviewYaml
     review_content: Optional[str] = None
 

@@ -6,7 +6,7 @@ from movielog.repository.db import db
 
 
 @dataclass
-class SearchResult(object):
+class SearchResult:
     imdb_id: str
     name: str
     known_for_titles: list[str]

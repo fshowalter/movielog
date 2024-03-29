@@ -26,7 +26,7 @@ Stages = Literal[
 
 
 @dataclass(kw_only=True)
-class State(object):
+class State:
     stage: Stages = "ask_for_title"
     title: Optional[select_title.SearchResult] = None
     date: Optional[datetime.date] = None

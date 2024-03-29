@@ -16,19 +16,19 @@ IMDbDataAccessError = imdb.IMDbDataAccessError
 
 
 @dataclass
-class TitleCredit(object):
+class TitleCredit:
     kind: CreditKind
     imdb_id: str
     full_title: str
 
 
 @dataclass
-class NamePage(object):
+class NamePage:
     credits: dict[CreditKind, list[TitleCredit]]
 
 
 @dataclass
-class NameCredit(object):
+class NameCredit:
     kind: CreditKind
     sequence: int
     imdb_id: str
@@ -38,7 +38,7 @@ class NameCredit(object):
 
 
 @dataclass
-class TitlePage(object):
+class TitlePage:
     imdb_id: str
     production_status: Optional[str]
     kind: str

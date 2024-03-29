@@ -4,7 +4,7 @@ from movielog.repository import api as repository_api
 
 
 @dataclass
-class RepositoryData(object):
+class RepositoryData:
     viewings: list[repository_api.Viewing]
     titles: dict[str, repository_api.Title]
     reviews: dict[str, repository_api.Review]
