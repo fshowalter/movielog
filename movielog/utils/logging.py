@@ -21,7 +21,7 @@ logger_handlers = [
 _base_logger.configure(handlers=logger_handlers)
 
 
-class ExtendedLogger(object):
+class ExtendedLogger:
     def __init__(self, _logger: "Logger"):
         self.logger = _logger
 

@@ -28,13 +28,13 @@ validate_data = title_data_validator.validate
 
 
 @dataclass
-class Name(object):
+class Name:
     name: str
     imdb_id: str
 
 
 @dataclass
-class Title(object):
+class Title:
     imdb_id: str
     title: str
     sort_title: str
@@ -52,7 +52,7 @@ class Title(object):
 
 
 @dataclass
-class Viewing(object):
+class Viewing:
     imdb_id: str
     sequence: int
     date: datetime.date
@@ -63,7 +63,7 @@ class Viewing(object):
 
 
 @dataclass
-class Review(object):
+class Review:
     imdb_id: str
     slug: str
     grade: str
@@ -99,7 +99,7 @@ class Review(object):
 
 
 @dataclass
-class WatchlistEntity(object):
+class WatchlistEntity:
     name: str
     slug: str
     title_ids: set[str]
@@ -235,7 +235,7 @@ def update_datasets() -> None:
 
 
 @dataclass
-class Metadata(object):
+class Metadata:
     average_imdb_votes: float
     average_imdb_rating: float
 

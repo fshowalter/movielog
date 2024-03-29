@@ -8,7 +8,7 @@ from movielog.repository import api as repository_api
 
 
 @dataclass
-class SearchResult(object):
+class SearchResult:
     imdb_id: str
     full_title: str
     principal_cast_names: list[str]

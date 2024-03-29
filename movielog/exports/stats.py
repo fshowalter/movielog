@@ -130,7 +130,7 @@ def build_json_grade_distributions(
 
 
 @dataclass
-class MostWatchedPersonGroup(object):
+class MostWatchedPersonGroup:
     name: str = ""
     viewings: list[repository_api.Viewing] = field(default_factory=list)
 
