@@ -6,22 +6,22 @@ grade: D
 date: 2024-02-23
 ---
 
-And so it comes to this. After an improbable ten-year run spanning six films whose lone through line was Warwick Davis as the titular Leprechaun, the franchise concludes with its worst entry.
+And so it comes to this. The improbable ten-year, six-film franchise ends with its worst entry.
 
-<!-- end -->
+An animated introduction proffers an origin story for the leprechaun. Perhaps the filmmakers thought this overdue, but it foreshadows their misunderstanding of the series. The franchise’s only through-line was Warwick Davis as the titular creature. One doesn’t watch a Leprechaun film for continuity.
 
-An animated introduction proffers an origin story for the leprechaun. Perhaps the filmmaksers thought this overdue, but it foreshadows their misunderstading of the franchise. One doesn't watch a Leprechaun film for continutity.
+Recycling the prior film’s setting, we’re once again in south-central Los Angeles. A local group of young adults discovers the Leprechaun’s treasure chest, leading to his resurrection as he seeks to reclaim it.
 
-Recycling the prior film's setting, we're once again in south-central Los Angeles, where a group of twenty-somethings discover the Leprechaun's treasure chest, leading to his resurrection as he seeks to reclaim it.
+Fair enough, but it takes an interminable near thirty minutes to get the leprechaun up and killing. Instead, we meet a bad-boy drug dealer with a heart-of-gold, his ex-girlfriend, her best-friend, their stoner side-kick, and another bad-boy drug dealer with a heart of not gold.
 
-A fine-enough setup, but it takes an interminible near thirty minutes to get the leprechaun up and killing. Instead, we endure over-emoted melodrama involving a bad-boy drug dealer with a heart-of-gold, his ex-girlfriend, her best-friend, their stoner side-kick, and another bad-boy drug dealer with a heart of not gold.
+Bad bad-boy drug dealer chafes against good bad-boy drug dealer encroaching on his turf. But good bad-boy drug dealer is only dealing to repay his ex-girlfriend, who dreams of going to college. The performers deliver this melodrama with the over-emoted gravitas of a prime-time medical drama. It could be laughable, instead, it’s just tedious.
 
-Compounding matters, once Davis beings his murder spree, the kills disappoint. The cartoonish, over-the-top deaths that highlighted prior entries are out, in favor of simple stabbings. At least they're graphic. At one point the Leprechaun loses an eye in a mess of green blood and gore.
+Compounding matters, once Davis begins his murder spree, the kills disappoint. The cartoonish, over-the-top deaths that highlighted prior entries are out in favor of simple stabbings. At least they’re graphic. At one point, the leprechaun loses an eye in a mess of green blood and gore.
 
-The film proffers some humor via a gag where the stoned Leprechaun attempts to find a snack, and another sequence where he tries to woo a girl over the phone by hinting at his physical endowment, but these bits fall flat.
+But most of the film sees the leprechaun as a generic monster. Reminiscent of part four, which also grafted the leprechaun onto an unrelated story, the notion of perverse wishes is gone. But unlike part four, this entry fumbles its attempts at humor.
 
-The lone successful gag involves the leprechaun stealing a police car only to discover he can't reach the peddles and leveraging a severed limb to solve the problem.
+One scene sees the stoned leprechaun attempts to find a snack and winding up trapped in the refrigerator. Another sequence sees Davis try to woo a girl over the phone by hinting at his physical endowment. These bits fall flat because they play too broad. Any small person could get trapped in a refrigerator or brag on their anatomy.
 
-But for most of the film, the Leprechaun proves interchangable with any generic monster. The notion of perverese wishes is gone, and, unlike part four, which also grafted the Leprechaun onto an unrelated story, Davis doesn't even speak in rhymes.
+The franchise’s best humor comes from the leprechaun’s outrageous behavior, as illustrated by the film’s lone successful gag. Davis steals a police car, only to discover he can’t reach the peddles. His matter-of-fact solution involving a severed limb made me chuckle aloud.
 
-Davis seems to sense the impending end. He looks tired in most of his scenes, perhaps due to the meager budget's compressed shooting schedule, or perhaps due to disappointment with the material. Regardless, I don't blame him. He, and the franchise, deserved better.
+For his part, Davis seems to sense the impending end. He looks tired in most of his scenes. Perhaps the meager budget necessitated a grueling shooting schedule, but I suspect disappointment with the material. Regardless, I don’t blame him. He, and the franchise, deserved better.
