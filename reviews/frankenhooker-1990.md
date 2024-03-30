@@ -1,11 +1,12 @@
 ---
-date: 2023-09-19
+date: 2024-02-29
 imdb_id: tt0099611
 grade: B-
 slug: frankenhooker-1990
+title: Frankenhooker (1990)
 ---
 
-Don't let the title fool you. Director and co-writer Frank Henenlotter's story of a man's misguided attempt to reanimate his deceased fiancée by attaching her severed head to a sex worker's body sports a surprising streak of feminist and trans-positive satire beneath its gory black comedy. **Spoilers follow.**
+Don't let the title fool you. Director and co-writer Frank Henenlotter's story of a man's misguided attempt to reanimate his deceased fiancée by attaching her severed head to a sex worker's body sports a surprising streak of feminist and trans-positive satire beneath its gory black comedy. **Spoilers follow**.
 
 <!-- end -->
 

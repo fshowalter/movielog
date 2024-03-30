@@ -6,7 +6,7 @@ grade: D+
 slug: the-entity-1982
 ---
 
-On the surface, _The Entity_ tells the story of single mom Barbara Hershey who finds herself under repeated, violent sexual assault from an unseen force.
+_The Entity_ tells the story of single mom Barbara Hershey who finds herself under repeated, violent sexual assault from an unseen force.
 
 <!-- end -->
 
@@ -24,7 +24,7 @@ To reinforce this, director Sidney Furie leans on two-shots and closeups. These,
 
 This subtext and formal rigor, along with Hershey’s fearless performance, almost overcome the dismal third act. It’s as though screenwriter Frank De Felitta—who adapted his own novel—grafted on the end of a B-level sci-fi feature. We get a big set piece featuring a cheap optical effect involving a giant ice block followed by a non-ending coda.
 
-Abandoning the first two acts’ intimate, character-driven approach opens the door for critics to paint the film as misogynistic exploitation reveling in Hershey’s graphic sexual assaults. I don’t agree—Hershey’s raw intensity renders these scenes grueling, not thrilling—but its devolution leaves the audience doubting the prior acts’ sincerity.
+Abandoning the first two acts’ intimate, character-driven approach opens the door for critics to paint the film as misogynistic exploitation reveling in Hershey’s graphic sexual assaults. I don’t agree--Hershey’s raw intensity renders these scenes grueling, not titillating--but the stylistic devolution leaves the audience doubting the prior acts’ sincerity.
 
 According to Daniel Kremer, author of _Sidney J. Furie: Life and Film_, Furie regretted the ending [^1]. Hershey called it contrived [^2]. Even editor Frank Urioste disliked it [^3].
 
