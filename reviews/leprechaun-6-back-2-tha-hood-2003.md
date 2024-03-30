@@ -8,9 +8,11 @@ date: 2024-02-23
 
 And so it comes to this. The improbable ten-year, six-film franchise ends with its worst entry.
 
-An animated introduction proffers an origin story for the leprechaun. Perhaps the filmmakers thought this overdue, but it foreshadows their misunderstanding of the series. The franchise’s only through-line was Warwick Davis as the titular creature. One doesn’t watch a Leprechaun film for continuity.
+<!-- end -->
 
-Recycling the prior film’s setting, we’re once again in south-central Los Angeles. A local group of young adults discovers the Leprechaun’s treasure chest, leading to his resurrection as he seeks to reclaim it.
+An animated introduction proffers an origin story for the leprechaun. Perhaps the filmmakers thought this overdue, but it foreshadows their misunderstanding of the series. The franchise’s only through-line was Warwick Davis as the titular creature. One doesn’t watch a _Leprechaun_ film for continuity.
+
+Recycling <span data-imdb-id="tt0209095">the prior film</span>’s setting, we’re once again in south-central Los Angeles. A local group of young adults discovers the Leprechaun’s treasure chest, leading to his resurrection as he seeks to reclaim it.
 
 Fair enough, but it takes an interminable near thirty minutes to get the leprechaun up and killing. Instead, we meet a bad-boy drug dealer with a heart-of-gold, his ex-girlfriend, her best-friend, their stoner side-kick, and another bad-boy drug dealer with a heart of not gold.
 
@@ -18,7 +20,7 @@ Bad bad-boy drug dealer chafes against good bad-boy drug dealer encroaching on h
 
 Compounding matters, once Davis begins his murder spree, the kills disappoint. The cartoonish, over-the-top deaths that highlighted prior entries are out in favor of simple stabbings. At least they’re graphic. At one point, the leprechaun loses an eye in a mess of green blood and gore.
 
-But most of the film sees the leprechaun as a generic monster. Reminiscent of part four, which also grafted the leprechaun onto an unrelated story, the notion of perverse wishes is gone. But unlike part four, this entry fumbles its attempts at humor.
+But most of the film sees the leprechaun as a generic monster. Reminiscent of part four, which also grafted the leprechaun onto an unrelated story, the notion of perverse wishes is gone. But unlike <span data-imdb-id="tt0116861">part four</span>, this entry fumbles its attempts at humor.
 
 One scene sees the stoned leprechaun attempts to find a snack and winding up trapped in the refrigerator. Another sequence sees Davis try to woo a girl over the phone by hinting at his physical endowment. These bits fall flat because they play too broad. Any small person could get trapped in a refrigerator or brag on their anatomy.
 
