@@ -2,7 +2,7 @@
 date: 2023-04-03
 imdb_id: tt0075614
 grade: D
-slug: murder-to-the-tune-of-the-seven-black-notes-1977
+slug: the-psychic-1977
 ---
 
 Jennifer O'Neill plays an American married to a wealthy Italian businessman. A psychic vision leads her to discover a year-old murder victim in her husband's shuttered family villa and she resolves to uncover the killer.
