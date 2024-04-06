@@ -94,8 +94,10 @@ def serialize(json_title: JsonTitle) -> None:
     file_path = generate_file_path(json_title)
     path_tools.ensure_file_path(file_path)
 
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps(json_title, default=str, indent=2))
+    with open(file_path, "w", encoding="utf8") as output_file:
+        output_file.write(
+            json.dumps(json_title, default=str, indent=2, ensure_ascii=False)
+        )
 
     logger.log(
         "Wrote {}.",
