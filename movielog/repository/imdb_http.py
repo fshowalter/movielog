@@ -1,9 +1,9 @@
-import re
 from dataclasses import dataclass, field
-from datetime import datetime
 from typing import Literal, Optional, get_args
 
 import imdb
+
+from movielog.repository.imdb_http_release_date import get_release_date
 
 imdb_http = imdb.Cinemagoer(reraiseExceptions=True)
 
@@ -122,31 +122,6 @@ def build_name_credits_for_title_page(  # noqa: WPS210, WPS231
     return credits
 
 
-def unknown_date(imdb_movie: imdb.Movie.Movie) -> str:
-    return "{0}-??-??".format(imdb_movie.get("year", "????"))
-
-
-def parse_release_date(imdb_movie: imdb.Movie.Movie) -> str:
-    re_match = re.search(r"(.*)\s\((.*)\)", imdb_movie.get("original air date", ""))
-
-    if not re_match:
-        return unknown_date(imdb_movie)
-
-    imdb_date = re_match.group(1)
-    imdb_date_year = imdb_date[-4:] if imdb_date else None
-
-    if imdb_date_year != str(imdb_movie["year"]):
-        return unknown_date(imdb_movie)
-
-    try:
-        return datetime.strptime(imdb_date, "%d %b %Y").date().isoformat()
-    except ValueError:
-        try:  # noqa: WPS505
-            return datetime.strptime(imdb_date, "%b %Y").date().isoformat()
-        except ValueError:
-            return unknown_date(imdb_movie)
-
-
 def get_name_page(imdb_id: str) -> NamePage:
     imdb_name_page = imdb_http.get_person(imdb_id[2:])
 
@@ -154,7 +129,7 @@ def get_name_page(imdb_id: str) -> NamePage:
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
-    imdb_movie = imdb_http.get_movie(imdb_id[2:])
+    imdb_movie = imdb_http.get_movie(imdb_id[2:], info=("main"))
 
     return TitlePage(
         imdb_id="tt{0}".format(imdb_movie.movieID),
@@ -165,5 +140,5 @@ def get_title_page(imdb_id: str) -> TitlePage:
         countries=imdb_movie.get("countries", []),
         sound_mix=set(imdb_movie.get("sound mix", [])),
         credits=build_name_credits_for_title_page(imdb_movie),
-        release_date=parse_release_date(imdb_movie),
+        release_date=get_release_date(imdb_id, imdb_movie.get("year")),
     )
