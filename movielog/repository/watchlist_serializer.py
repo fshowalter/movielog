@@ -31,8 +31,10 @@ def serialize(
 
     path_tools.ensure_file_path(file_path)
 
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps(watchlist_entity, default=str, indent=2))
+    with open(file_path, "w", encoding="utf8") as output_file:
+        output_file.write(
+            json.dumps(watchlist_entity, default=str, indent=2, ensure_ascii=False)
+        )
 
     logger.log("Wrote {}", file_path)
 
