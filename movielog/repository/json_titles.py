@@ -5,13 +5,10 @@ import os
 from glob import glob
 from typing import Iterable, Optional, TypedDict, cast
 
-import imdb
-
 from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
-imdb_http = imdb.IMDb(reraiseExceptions=True)
 FOLDER_NAME = os.path.join("data", "titles")
 
 

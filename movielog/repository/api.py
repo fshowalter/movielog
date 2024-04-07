@@ -9,6 +9,7 @@ from movielog.repository import (  # noqa: WPS235
     json_watchlist_collections,
     json_watchlist_people,
     markdown_reviews,
+    name_data_validator,
     title_data_updater,
     title_data_validator,
     watchlist_credits_updater,
@@ -24,7 +25,6 @@ db = db_api.db
 
 update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
-validate_data = title_data_validator.validate
 
 
 @dataclass
@@ -125,6 +125,11 @@ def _hydrate_watchlist_collection(
             [title["imdbId"] for title in json_watchlist_collection["titles"]]
         ),
     )
+
+
+def validate_data() -> None:
+    title_data_validator.validate()
+    name_data_validator.validate()
 
 
 def watchlist_collections() -> Generator[WatchlistCollection, None, None]:

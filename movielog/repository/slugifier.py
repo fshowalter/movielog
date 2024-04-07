@@ -6,3 +6,10 @@ def slugify_title(title: str) -> str:
         title,
         replacements=[("'", ""), ("&", "and"), ("(", ""), (")", "")],
     )
+
+
+def slugify_name(name: str) -> str:
+    return slugify(
+        name,
+        replacements=[("'", ""), ("&", "and"), ("(", ""), (")", "")],
+    )
