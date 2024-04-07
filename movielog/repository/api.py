@@ -4,6 +4,7 @@ from typing import Generator, Iterable, Optional, Union, get_args
 
 from movielog.repository import (  # noqa: WPS235
     json_metadata,
+    json_names,
     json_titles,
     json_viewings,
     json_watchlist_collections,
@@ -28,7 +29,7 @@ update_title_data = title_data_updater.update_from_imdb_pages
 
 
 @dataclass
-class Name:
+class CreditName:
     name: str
     imdb_id: str
 
@@ -42,9 +43,9 @@ class Title:
     genres: list[str]
     runtime_minutes: int
     countries: list[str]
-    directors: list[Name]
-    performers: list[Name]
-    writers: list[Name]
+    directors: list[CreditName]
+    performers: list[CreditName]
+    writers: list[CreditName]
     original_title: str
     imdb_rating: Optional[float]
     imdb_votes: Optional[int]
@@ -60,6 +61,13 @@ class Viewing:
     venue: Optional[str]
     medium_notes: Optional[str]
     venue_notes: Optional[str]
+
+
+@dataclass
+class Name:
+    imdb_id: str | list[str]
+    name: str
+    slug: str
 
 
 @dataclass
@@ -148,6 +156,13 @@ def _hydrate_watchlist_person(
     )
 
 
+def names() -> Iterable[Name]:
+    for json_name in json_names.read_all():
+        yield Name(
+            imdb_id=json_name["imdbId"], name=json_name["name"], slug=json_name["slug"]
+        )
+
+
 def watchlist_people(
     kind: WatchlistPersonKind,
 ) -> Generator[WatchlistPerson, None, None]:
@@ -172,21 +187,21 @@ def titles() -> Iterable[Title]:
                 json_title["releaseDate"], json_title["imdbId"]
             ),
             directors=[
-                Name(
+                CreditName(
                     name=director["name"],
                     imdb_id=director["imdbId"],
                 )
                 for director in json_title["directors"]
             ],
             performers=[
-                Name(
+                CreditName(
                     name=performer["name"],
                     imdb_id=performer["imdbId"],
                 )
                 for performer in json_title["performers"]
             ],
             writers=[
-                Name(
+                CreditName(
                     name=writer["name"],
                     imdb_id=writer["imdbId"],
                 )
