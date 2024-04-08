@@ -2,6 +2,7 @@ from typing import Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
+from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
 JsonTitle = TypedDict(
@@ -109,27 +110,40 @@ def intialize_cast_and_crew_by_imdb_id(
     return cast_and_crew_by_imdb_id
 
 
-def add_review_credits(  # noqa: WPS210
+def check_title_for_names(
+    title: repository_api.Title,
+    cast_and_crew_by_imdb_id: CastAndCrewByImdbId,
+) -> None:
+    director_ids = frozenset((director.imdb_id for director in title.directors))
+
+    performer_ids = frozenset((performer.imdb_id for performer in title.performers))
+
+    writer_ids = frozenset((writer.imdb_id for writer in title.writers))
+
+    for name_key, name_value in cast_and_crew_by_imdb_id.items():
+        if name_key & director_ids:
+            name_value["director_title_ids"].add(title.imdb_id)
+        if name_key & performer_ids:
+            name_value["performer_title_ids"].add(title.imdb_id)
+        if name_key & writer_ids:
+            name_value["writer_title_ids"].add(title.imdb_id)
+
+
+def add_watchlist_credits(  # noqa: WPS210
+    cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
+) -> None:
+    for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
+        for watchlist_person in repository_data.watchlist_people[watchlist_person_kind]:
+            for title_id in watchlist_person.title_ids:
+                title = repository_data.titles[title_id]
+                check_title_for_names(title, cast_and_crew_by_imdb_id)
+
+
+def add_review_credits(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for reviewed_title in repository_data.reviewed_titles:
-        director_ids = frozenset(
-            (director.imdb_id for director in reviewed_title.directors)
-        )
-
-        performer_ids = frozenset(
-            (performer.imdb_id for performer in reviewed_title.performers)
-        )
-
-        writer_ids = frozenset((writer.imdb_id for writer in reviewed_title.writers))
-
-        for name_key, name_value in cast_and_crew_by_imdb_id.items():
-            if name_key & director_ids:
-                name_value["director_title_ids"].add(reviewed_title.imdb_id)
-            if name_key & performer_ids:
-                name_value["performer_title_ids"].add(reviewed_title.imdb_id)
-            if name_key & writer_ids:
-                name_value["writer_title_ids"].add(reviewed_title.imdb_id)
+        check_title_for_names(reviewed_title, cast_and_crew_by_imdb_id)
 
 
 def build_json_title(title_id: str, repository_data: RepositoryData) -> JsonTitle:
@@ -168,16 +182,25 @@ def populate_title_data(
             name_value["director"]["titles"].append(
                 build_json_title(director_title_id, repository_data)
             )
+        name_value["director"]["titles"].sort(
+            key=lambda title: title["releaseSequence"]
+        )
 
         for performer_title_id in name_value["performer_title_ids"]:
             name_value["performer"]["titles"].append(
                 build_json_title(performer_title_id, repository_data)
             )
 
+        name_value["performer"]["titles"].sort(
+            key=lambda title: title["releaseSequence"]
+        )
+
         for writer_title_id in name_value["writer_title_ids"]:
             name_value["writer"]["titles"].append(
                 build_json_title(writer_title_id, repository_data)
             )
+
+        name_value["writer"]["titles"].sort(key=lambda title: title["releaseSequence"])
 
 
 def populate_counts(
@@ -221,7 +244,7 @@ def build_cast_and_crew(
 ) -> list[JsonNameFinal]:
     cast_and_crew_by_imdb_id = intialize_cast_and_crew_by_imdb_id(repository_data)
 
-    populate_watchlist_data(cast_and_crew_by_imdb_id, repository_data)
+    add_watchlist_credits(cast_and_crew_by_imdb_id, repository_data)
     add_review_credits(cast_and_crew_by_imdb_id, repository_data)
     populate_title_data(cast_and_crew_by_imdb_id, repository_data)
     populate_counts(cast_and_crew_by_imdb_id, repository_data)
@@ -238,7 +261,7 @@ def export(repository_data: RepositoryData) -> None:
     cast_and_crew = build_cast_and_crew(repository_data=repository_data)
 
     exporter.serialize_dicts_to_folder(
-        cast_and_crew,
+        sorted(cast_and_crew, key=lambda name: name["slug"]),
         "cast-and-crew",
         filename_key=lambda name: name["slug"],
     )

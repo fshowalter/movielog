@@ -135,7 +135,7 @@ class MostWatchedPersonGroup:
     viewings: list[repository_api.Viewing] = field(default_factory=list)
 
 
-NameImdbId = Union[str, tuple[str, ...]]
+NameImdbId = str | list[str]
 
 
 def group_viewings_by_name(
@@ -188,8 +188,8 @@ def apply_credit_teams(
                 if viewing_for_person.imdb_id not in team_title_ids
             ]
 
-        viewings_by_name[team_ids].name = team_name
-        viewings_by_name[team_ids].viewings = [
+        viewings_by_name[list(team_ids)].name = team_name
+        viewings_by_name[list(team_ids)].viewings = [
             team_viewing
             for team_viewing in viewings_cache
             if team_viewing.imdb_id in team_title_ids
