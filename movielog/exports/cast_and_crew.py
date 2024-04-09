@@ -168,9 +168,11 @@ def build_json_title(title_id: str, repository_data: RepositoryData) -> JsonTitl
         gradeValue=review.grade_value if review else None,
         releaseSequence=title.release_sequence,
         reviewDate=review.date.isoformat() if review else None,
-        viewingSequence="{0}-{1}".format(review.date.isoformat(), viewings[0].sequence)
-        if viewings and review
-        else None,
+        viewingSequence=(
+            "{0}-{1}".format(review.date.isoformat(), viewings[0].sequence)
+            if viewings and review
+            else None
+        ),
     )
 
 
@@ -239,6 +241,14 @@ def remove_intermediate_keys(intermediate_name: JsonNameIntermediate) -> JsonNam
     )
 
 
+def name_has_reviews(name: JsonNameIntermediate) -> bool:
+    for credits in (name["director"], name["performer"], name["writer"]):
+        if credits["reviewCount"] > 4:
+            return True
+
+    return False
+
+
 def build_cast_and_crew(
     repository_data: RepositoryData,
 ) -> list[JsonNameFinal]:
@@ -252,6 +262,7 @@ def build_cast_and_crew(
     return [
         remove_intermediate_keys(name_value)
         for (_imdb_id, name_value) in cast_and_crew_by_imdb_id.items()
+        if name_has_reviews(name_value)
     ]
 
 
