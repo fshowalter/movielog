@@ -243,7 +243,7 @@ def remove_intermediate_keys(intermediate_name: JsonNameIntermediate) -> JsonNam
 
 def name_has_reviews(name: JsonNameIntermediate) -> bool:
     for credits in (name["director"], name["performer"], name["writer"]):
-        if credits["reviewCount"] > 4:
+        if credits["reviewCount"] > 0:
             return True
 
     return False
