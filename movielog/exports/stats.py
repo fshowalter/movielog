@@ -1,7 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass, field
 from types import MappingProxyType
-from typing import Callable, Iterable, Optional, TypedDict, TypeVar, Union
+from typing import Callable, Iterable, Optional, TypedDict, TypeVar
 
 from movielog.exports import exporter, list_tools
 from movielog.exports.repository_data import RepositoryData
@@ -10,8 +10,8 @@ from movielog.utils.logging import logger
 
 CREDIT_TEAMS = MappingProxyType(
     {
-        ("nm0751577", "nm0751648"): "The Russo Brothers",
-        ("nm0001053", "nm0001054"): "The Coen Brothers",
+        frozenset(("nm0751577", "nm0751648")): "The Russo Brothers",
+        frozenset(("nm0001053", "nm0001054")): "The Coen Brothers",
     }
 )
 
@@ -135,65 +135,43 @@ class MostWatchedPersonGroup:
     viewings: list[repository_api.Viewing] = field(default_factory=list)
 
 
-NameImdbId = Union[str, tuple[str, ...]]
+NameImdbId = frozenset[str]
 
 
-def group_viewings_by_name(
-    viewings: list[repository_api.Viewing],
-    names: list[repository_api.Name],
-) -> dict[NameImdbId, MostWatchedPersonGroup]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
-        MostWatchedPersonGroup
-    )
-
-    for viewing in viewings:
-        for name in names:
-            viewings_by_name[name.imdb_id].name = name.name
-            viewings_by_name[name.imdb_id].viewings.append(viewing)
-
-    apply_credit_teams(viewings_by_name=viewings_by_name)
-
-    return viewings_by_name
-
-
-def title_ids_for_credit_team(
+def remove_viewing_for_credit_team_members(
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
-    credit_team_ids: tuple[str, ...],
-) -> set[str]:
-    viewings_for_team_members = [
-        viewings_by_name[team_id].viewings for team_id in credit_team_ids
-    ]
-
-    title_ids_for_team_member_viewing_groups = [
-        list(map(lambda viewing: viewing.imdb_id, viewing_group))
-        for viewing_group in viewings_for_team_members
-    ]
-
-    return set.intersection(*map(set, title_ids_for_team_member_viewing_groups))
-
-
-def apply_credit_teams(
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
+    viewing: repository_api.Viewing,
+    team_ids: frozenset[str],
 ) -> None:
-    for team_ids, team_name in CREDIT_TEAMS.items():
-        team_title_ids = title_ids_for_credit_team(
-            viewings_by_name=viewings_by_name, credit_team_ids=team_ids
-        )
-        viewings_cache = []
-        for team_member_id in team_ids:
-            viewings_cache = viewings_by_name[team_member_id].viewings
-            viewings_by_name[team_member_id].viewings = [
-                viewing_for_person
-                for viewing_for_person in viewings_by_name[team_member_id].viewings
-                if viewing_for_person.imdb_id not in team_title_ids
-            ]
-
-        viewings_by_name[team_ids].name = team_name
-        viewings_by_name[team_ids].viewings = [
-            team_viewing
-            for team_viewing in viewings_cache
-            if team_viewing.imdb_id in team_title_ids
+    for team_member_id in team_ids:
+        key = frozenset((team_member_id,))
+        viewings_by_name[key].viewings = [  # noqa: WPS204
+            existing_viewing
+            for existing_viewing in viewings_by_name[key].viewings
+            if existing_viewing.sequence != viewing.sequence
         ]
+
+
+def apply_credit_teams_for_viewing(
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
+    viewing: repository_api.Viewing,
+    credit_names: list[repository_api.CreditName],
+) -> None:
+
+    for team_ids, team_name in CREDIT_TEAMS.items():
+        credit_name_ids = set([name.imdb_id for name in credit_names])
+
+        if team_ids & credit_name_ids:
+            viewings_by_name[team_ids].viewings.append(viewing)
+            viewings_by_name[team_ids].name = team_name
+            remove_viewing_for_credit_team_members(
+                viewings_by_name=viewings_by_name, viewing=viewing, team_ids=team_ids
+            )
+
+        for member_id in team_ids:
+            key = frozenset((member_id,))
+            if key & credit_name_ids:
+                viewings_by_name[key].viewings.append(viewing)
 
 
 def build_most_watched_performers(
@@ -205,11 +183,17 @@ def build_most_watched_performers(
     )
 
     for viewing in viewings:
-        for performer in repository_data.titles[viewing.imdb_id].performers:
-            viewings_by_name[performer.imdb_id].name = performer.name
-            viewings_by_name[performer.imdb_id].viewings.append(viewing)
+        performers = repository_data.titles[viewing.imdb_id].performers  # noqa: WPS204
+        for performer in performers:
+            key = frozenset((performer.imdb_id,))
+            viewings_by_name[key].name = performer.name
+            viewings_by_name[key].viewings.append(viewing)
 
-    apply_credit_teams(viewings_by_name=viewings_by_name)
+        apply_credit_teams_for_viewing(
+            viewings_by_name=viewings_by_name,
+            viewing=viewing,
+            credit_names=repository_data.titles[viewing.imdb_id].performers,
+        )
 
     return build_most_watched_person_list(
         watchlist_kind="performers",
@@ -228,10 +212,15 @@ def build_most_watched_writers(
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
-            viewings_by_name[writer.imdb_id].name = writer.name
-            viewings_by_name[writer.imdb_id].viewings.append(viewing)
+            key = frozenset((writer.imdb_id,))
+            viewings_by_name[key].name = writer.name
+            viewings_by_name[key].viewings.append(viewing)
 
-    apply_credit_teams(viewings_by_name=viewings_by_name)
+        apply_credit_teams_for_viewing(
+            viewings_by_name=viewings_by_name,
+            viewing=viewing,
+            credit_names=repository_data.titles[viewing.imdb_id].writers,
+        )
 
     return build_most_watched_person_list(
         watchlist_kind="writers",
@@ -258,15 +247,12 @@ def build_json_most_watched_person_viewing(
 
 
 def watchlist_person_matches_indexed_imdb_id(
-    person_imdb_id: Union[str, list[str]], indexed_imdb_id: NameImdbId
+    person_imdb_id: str | list[str], indexed_imdb_id: NameImdbId
 ) -> bool:
-    if isinstance(person_imdb_id, str) and isinstance(indexed_imdb_id, str):
-        return person_imdb_id == indexed_imdb_id
+    if isinstance(person_imdb_id, list):
+        return frozenset(person_imdb_id) == indexed_imdb_id
 
-    if isinstance(person_imdb_id, list) and isinstance(indexed_imdb_id, tuple):
-        return set(person_imdb_id) == set(indexed_imdb_id)
-
-    return False
+    return frozenset((person_imdb_id,)) == indexed_imdb_id
 
 
 def build_most_watched_directors(
@@ -279,10 +265,15 @@ def build_most_watched_directors(
 
     for viewing in viewings:
         for director in repository_data.titles[viewing.imdb_id].directors:
-            viewings_by_name[director.imdb_id].name = director.name
-            viewings_by_name[director.imdb_id].viewings.append(viewing)
+            key = frozenset((director.imdb_id,))
+            viewings_by_name[key].name = director.name
+            viewings_by_name[key].viewings.append(viewing)
 
-    apply_credit_teams(viewings_by_name=viewings_by_name)
+        apply_credit_teams_for_viewing(
+            viewings_by_name=viewings_by_name,
+            viewing=viewing,
+            credit_names=repository_data.titles[viewing.imdb_id].directors,
+        )
 
     return build_most_watched_person_list(
         watchlist_kind="directors",
@@ -438,7 +429,7 @@ def build_json_year_stats(
             viewings=viewings,
             repository_data=repository_data,
         ),
-        mostWatchedWriters=build_most_watched_directors(
+        mostWatchedWriters=build_most_watched_writers(
             viewings=viewings,
             repository_data=repository_data,
         ),
@@ -481,7 +472,7 @@ def build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSta
             viewings=repository_data.viewings,
             repository_data=repository_data,
         ),
-        mostWatchedWriters=build_most_watched_directors(
+        mostWatchedWriters=build_most_watched_writers(
             viewings=repository_data.viewings,
             repository_data=repository_data,
         ),

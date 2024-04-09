@@ -14,3 +14,4 @@ class RepositoryData:
     ]
     watchlist_collections: list[repository_api.WatchlistCollection]
     metadata: repository_api.Metadata
+    names: list[repository_api.Name]

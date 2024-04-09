@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from movielog.exports import (
+    cast_and_crew,
     list_tools,
     overrated_disappointments,
     reviewed_titles,
@@ -57,6 +58,7 @@ def export_data() -> None:  # noqa: WPS213
             key=lambda collection: collection.slug,
         ),
         metadata=repository_api.metadata(),
+        names=list(repository_api.names()),
     )
 
     viewings.export(repository_data)
@@ -68,3 +70,4 @@ def export_data() -> None:  # noqa: WPS213
     watchlist_people.export(repository_data)
     stats.export(repository_data)
     watchlist_progress.export(repository_data)
+    cast_and_crew.export(repository_data)
