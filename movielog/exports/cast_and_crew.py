@@ -1,4 +1,4 @@
-from typing import Optional, TypedDict
+from typing import Literal, Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -53,6 +53,7 @@ JsonNameFinal = TypedDict(
         "director": JsonCredits,
         "performer": JsonCredits,
         "writer": JsonCredits,
+        "mostCreditedAs": Literal["director", "performer", "writer"],
     },
 )
 
@@ -231,13 +232,36 @@ def populate_counts(
         )
 
 
-def remove_intermediate_keys(intermediate_name: JsonNameIntermediate) -> JsonNameFinal:
+def transform_to_final(intermediate_name: JsonNameIntermediate) -> JsonNameFinal:
+    most_credited_as: Optional[Literal["director", "performer", "writer"]] = None
+
+    director_titles = (
+        intermediate_name["director"]["reviewCount"]
+        + intermediate_name["director"]["watchlistCount"]
+    )
+    performer_titles = (
+        intermediate_name["performer"]["reviewCount"]
+        + intermediate_name["performer"]["watchlistCount"]
+    )
+    writer_titles = (
+        intermediate_name["writer"]["reviewCount"]
+        + intermediate_name["writer"]["watchlistCount"]
+    )
+
+    if (director_titles >= performer_titles) and (director_titles >= writer_titles):
+        most_credited_as = "director"
+    elif (performer_titles >= director_titles) and (performer_titles >= writer_titles):
+        most_credited_as = "performer"
+    else:
+        most_credited_as = "writer"
+
     return JsonNameFinal(
         name=intermediate_name["name"],
         slug=intermediate_name["slug"],
         director=intermediate_name["director"],
         writer=intermediate_name["writer"],
         performer=intermediate_name["performer"],
+        mostCreditedAs=most_credited_as,
     )
 
 
@@ -260,7 +284,7 @@ def build_cast_and_crew(
     populate_counts(cast_and_crew_by_imdb_id, repository_data)
 
     return [
-        remove_intermediate_keys(name_value)
+        transform_to_final(name_value)
         for (_imdb_id, name_value) in cast_and_crew_by_imdb_id.items()
         if name_has_reviews(name_value)
     ]
