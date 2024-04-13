@@ -42,6 +42,7 @@ JsonNameIntermediate = TypedDict(
         "performer_title_ids": set[str],
         "writer": JsonCredits,
         "writer_title_ids": set[str],
+        "most_credited_as": Optional[Literal["director", "performer", "writer"]],
     },
 )
 
@@ -106,6 +107,7 @@ def intialize_cast_and_crew_by_imdb_id(
             director_title_ids=set(),
             writer_title_ids=set(),
             performer_title_ids=set(),
+            most_credited_as=None,
         )
 
     return cast_and_crew_by_imdb_id
@@ -135,6 +137,13 @@ def add_watchlist_credits(  # noqa: WPS210
 ) -> None:
     for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
         for watchlist_person in repository_data.watchlist_people[watchlist_person_kind]:
+            if isinstance(watchlist_person.imdb_id, list):
+                key = frozenset(watchlist_person.imdb_id)
+            else:
+                key = frozenset((watchlist_person.imdb_id,))
+            cast_and_crew_by_imdb_id[key]["most_credited_as"] = watchlist_person_kind[
+                :-1
+            ]
             for title_id in watchlist_person.title_ids:
                 title = repository_data.titles[title_id]
                 check_title_for_names(title, cast_and_crew_by_imdb_id)
@@ -232,21 +241,18 @@ def populate_counts(
         )
 
 
-def transform_to_final(intermediate_name: JsonNameIntermediate) -> JsonNameFinal:
+def determine_most_credited_as(
+    name: JsonNameIntermediate,
+) -> Literal["director", "performer", "writer"]:
     most_credited_as: Optional[Literal["director", "performer", "writer"]] = None
 
     director_titles = (
-        intermediate_name["director"]["reviewCount"]
-        + intermediate_name["director"]["watchlistCount"]
+        name["director"]["reviewCount"] + name["director"]["watchlistCount"]
     )
     performer_titles = (
-        intermediate_name["performer"]["reviewCount"]
-        + intermediate_name["performer"]["watchlistCount"]
+        name["performer"]["reviewCount"] + name["performer"]["watchlistCount"]
     )
-    writer_titles = (
-        intermediate_name["writer"]["reviewCount"]
-        + intermediate_name["writer"]["watchlistCount"]
-    )
+    writer_titles = name["writer"]["reviewCount"] + name["writer"]["watchlistCount"]
 
     if (director_titles >= performer_titles) and (director_titles >= writer_titles):
         most_credited_as = "director"
@@ -255,13 +261,19 @@ def transform_to_final(intermediate_name: JsonNameIntermediate) -> JsonNameFinal
     else:
         most_credited_as = "writer"
 
+    return most_credited_as
+
+
+def transform_to_final(intermediate_name: JsonNameIntermediate) -> JsonNameFinal:
+
     return JsonNameFinal(
         name=intermediate_name["name"],
         slug=intermediate_name["slug"],
         director=intermediate_name["director"],
         writer=intermediate_name["writer"],
         performer=intermediate_name["performer"],
-        mostCreditedAs=most_credited_as,
+        mostCreditedAs=intermediate_name["most_credited_as"]
+        or determine_most_credited_as(intermediate_name),
     )
 
 
