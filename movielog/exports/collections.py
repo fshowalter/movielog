@@ -32,7 +32,7 @@ JsonCollection = TypedDict(
 
 
 def build_collection_titles(
-    collection: repository_api.WatchlistCollection, repository_data: RepositoryData
+    collection: repository_api.Collection, repository_data: RepositoryData
 ) -> list[JsonTitle]:
     titles = []
     for title_id in collection.title_ids:

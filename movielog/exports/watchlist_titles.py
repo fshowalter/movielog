@@ -1,5 +1,5 @@
 from collections import defaultdict
-from typing import Literal, Optional, TypedDict
+from typing import Literal, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -13,9 +13,6 @@ JsonTitle = TypedDict(
         "title": str,
         "year": str,
         "sortTitle": str,
-        "slug": Optional[str],
-        "grade": Optional[str],
-        "gradeValue": Optional[int],
         "releaseSequence": str,
         "directorNames": list[str],
         "performerNames": list[str],
@@ -24,16 +21,20 @@ JsonTitle = TypedDict(
     },
 )
 
-WachlistIndex = dict[
-    str, dict[Literal[repository_api.WatchlistPersonKind, "collections"], list[str]]
-]
+WatchlistIndexKey = Literal[repository_api.WatchlistPersonKind, "collections"]
+
+WachlistIndex = dict[str, dict[WatchlistIndexKey, list[str]]]
 
 
 def append_name_if_not_reviewed(
-    name: str, title_id: str, collection: list[str], repository_data: RepositoryData
+    name: str,
+    title_id: str,
+    index: WachlistIndex,
+    key: WatchlistIndexKey,
+    repository_data: RepositoryData,
 ) -> None:
     if title_id not in repository_data.reviews.keys():
-        collection.append(name)
+        index[title_id][key].append(name)
 
 
 def build_watchlist_index(  # noqa: WPS210
@@ -41,22 +42,24 @@ def build_watchlist_index(  # noqa: WPS210
 ) -> WachlistIndex:
     watchlist_index: WachlistIndex = defaultdict(lambda: defaultdict(list))
 
-    for collection in repository_data.watchlist_collections:
+    for collection in repository_data.collections:
         for collection_title_id in collection.title_ids:
             append_name_if_not_reviewed(
                 name=collection.name,
                 title_id=collection_title_id,
-                collection=watchlist_index[collection_title_id]["collections"],
+                key="collections",
+                index=watchlist_index,
                 repository_data=repository_data,
             )
 
     for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
-        for watchlist_person in repository_data.watchlist_people[watchlist_key]:
+        for watchlist_person in repository_data.watchlist[watchlist_key]:
             for title_id in watchlist_person.title_ids:
                 append_name_if_not_reviewed(
                     name=watchlist_person.name,
                     title_id=title_id,
-                    collection=watchlist_index[title_id][watchlist_key],
+                    index=watchlist_index,
+                    key=watchlist_key,
                     repository_data=repository_data,
                 )
 
@@ -72,7 +75,6 @@ def export(repository_data: RepositoryData) -> None:
 
     for watchlist_title_id in watchlist_title_index.keys():
         title = repository_data.titles[watchlist_title_id]
-        review = repository_data.reviews.get(watchlist_title_id, None)
 
         watchlist_titles.append(
             JsonTitle(
@@ -81,9 +83,6 @@ def export(repository_data: RepositoryData) -> None:
                 year=title.year,
                 sortTitle=title.sort_title,
                 releaseSequence=title.release_sequence,
-                slug=review.slug if review else None,
-                grade=review.grade if review else None,
-                gradeValue=review.grade_value if review else None,
                 directorNames=watchlist_title_index[title.imdb_id]["directors"],
                 performerNames=watchlist_title_index[title.imdb_id]["performers"],
                 writerNames=watchlist_title_index[title.imdb_id]["writers"],

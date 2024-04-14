@@ -1,6 +1,6 @@
 import datetime
 from dataclasses import dataclass
-from typing import Generator, Iterable, Optional, Union, get_args
+from typing import Generator, Iterable, Optional, get_args
 
 from movielog.repository import (  # noqa: WPS235
     cast_and_crew_validator,
@@ -64,13 +64,6 @@ class Viewing:
 
 
 @dataclass
-class Name:
-    imdb_id: str | list[str]
-    name: str
-    slug: str
-
-
-@dataclass
 class Review:
     imdb_id: str
     slug: str
@@ -114,6 +107,13 @@ class WatchlistEntity:
 
 
 @dataclass
+class CastAndCrewMember:
+    imdb_id: frozenset[str]
+    name: str
+    slug: str
+
+
+@dataclass
 class Collection:
     name: str
     slug: str
@@ -123,7 +123,7 @@ class Collection:
 
 @dataclass
 class WatchlistPerson(WatchlistEntity):
-    imdb_id: Union[str, list[str]]
+    imdb_id: frozenset[str]
 
 
 def _hydrate_collection(
@@ -149,19 +149,37 @@ def collections() -> Generator[Collection, None, None]:
 def _hydrate_watchlist_person(
     json_watchlist_person: json_watchlist_people.JsonWatchlistPerson,
 ) -> WatchlistPerson:
+    if isinstance(json_watchlist_person["imdbId"], list):
+        imdb_id = frozenset(json_watchlist_person["imdbId"])
+    else:
+        imdb_id = frozenset((json_watchlist_person["imdbId"],))
+
     return WatchlistPerson(
-        imdb_id=json_watchlist_person["imdbId"],
+        imdb_id=imdb_id,
         name=json_watchlist_person["name"],
         slug=json_watchlist_person["slug"],
         title_ids=set([title["imdbId"] for title in json_watchlist_person["titles"]]),
     )
 
 
-def names() -> Iterable[Name]:
-    for json_name in json_cast_and_crew.read_all():
-        yield Name(
-            imdb_id=json_name["imdbId"], name=json_name["name"], slug=json_name["slug"]
-        )
+def _hydrate_cast_and_crew_member(
+    json_cast_and_crew_member: json_cast_and_crew.JsonCastAndCrewMember,
+) -> CastAndCrewMember:
+    if isinstance(json_cast_and_crew_member["imdbId"], list):
+        imdb_id = frozenset(json_cast_and_crew_member["imdbId"])
+    else:
+        imdb_id = frozenset((json_cast_and_crew_member["imdbId"],))
+
+    return CastAndCrewMember(
+        imdb_id=imdb_id,
+        name=json_cast_and_crew_member["name"],
+        slug=json_cast_and_crew_member["slug"],
+    )
+
+
+def cast_and_crew() -> Iterable[CastAndCrewMember]:
+    for json_cast_and_crew_memenber in json_cast_and_crew.read_all():
+        yield _hydrate_cast_and_crew_member(json_cast_and_crew_memenber)
 
 
 def watchlist_people(

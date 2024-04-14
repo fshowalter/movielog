@@ -14,4 +14,4 @@ class RepositoryData:
     ]
     collections: list[repository_api.Collection]
     metadata: repository_api.Metadata
-    names: list[repository_api.Name]
+    cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]

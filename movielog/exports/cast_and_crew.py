@@ -37,7 +37,6 @@ CastAndCrewMember = TypedDict(
         "review_count": int,
         "total_count": int,
         "credited_titles": CreditedTitles,
-        "most_credited_as": Optional[CreditType],
     },
 )
 
@@ -62,20 +61,14 @@ def intialize_cast_and_crew_by_imdb_id(
 ) -> CastAndCrewByImdbId:
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId = {}
 
-    for name in repository_data.names:
-        if isinstance(name.imdb_id, list):
-            key = frozenset(name.imdb_id)
-        else:
-            key = frozenset((name.imdb_id,))
-
-        cast_and_crew_by_imdb_id[key] = CastAndCrewMember(
-            name=name.name,
-            slug=name.slug,
+    for _id, member in repository_data.cast_and_crew.items():
+        cast_and_crew_by_imdb_id[member.imdb_id] = CastAndCrewMember(
+            name=member.name,
+            slug=member.slug,
             titles=[],
             review_count=0,
             total_count=0,
             credited_titles=defaultdict(set),
-            most_credited_as=None,
         )
 
     return cast_and_crew_by_imdb_id
@@ -104,14 +97,7 @@ def add_watchlist_credits(  # noqa: WPS210
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
-        for watchlist_person in repository_data.watchlist_people[watchlist_person_kind]:
-            if isinstance(watchlist_person.imdb_id, list):
-                key = frozenset(watchlist_person.imdb_id)
-            else:
-                key = frozenset((watchlist_person.imdb_id,))
-            cast_and_crew_by_imdb_id[key]["most_credited_as"] = watchlist_person_kind[
-                :-1
-            ]
+        for watchlist_person in repository_data.watchlist[watchlist_person_kind]:
             for title_id in watchlist_person.title_ids:
                 title = repository_data.titles[title_id]
                 check_title_for_names(title, cast_and_crew_by_imdb_id)
