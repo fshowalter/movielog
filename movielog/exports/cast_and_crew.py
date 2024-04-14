@@ -1,9 +1,12 @@
+from collections import defaultdict
 from typing import Literal, Optional, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
+
+CreditType = Literal["director", "performer", "writer"]
 
 JsonTitle = TypedDict(
     "JsonTitle",
@@ -18,73 +21,40 @@ JsonTitle = TypedDict(
         "releaseSequence": str,
         "reviewDate": Optional[str],
         "viewingSequence": Optional[str],
+        "creditedAs": list[CreditType],
     },
 )
 
-JsonCredits = TypedDict(
-    "JsonCredits",
+CreditedTitles = dict[str, set[CreditType]]
+
+
+CastAndCrewMember = TypedDict(
+    "CastAndCrewMember",
     {
+        "slug": str,
+        "name": str,
+        "titles": list[JsonTitle],
+        "review_count": int,
+        "total_count": int,
+        "credited_titles": CreditedTitles,
+        "most_credited_as": Optional[CreditType],
+    },
+)
+
+JsonCastAndCrewMember = TypedDict(
+    "JsonCastAndCrewMember",
+    {
+        "slug": str,
+        "name": str,
         "titles": list[JsonTitle],
         "reviewCount": int,
-        "watchlistCount": int,
+        "totalCount": int,
+        "creditedAs": list[CreditType],
     },
 )
 
 
-JsonNameIntermediate = TypedDict(
-    "JsonNameIntermediate",
-    {
-        "slug": str,
-        "name": str,
-        "director": JsonCredits,
-        "director_title_ids": set[str],
-        "performer": JsonCredits,
-        "performer_title_ids": set[str],
-        "writer": JsonCredits,
-        "writer_title_ids": set[str],
-        "most_credited_as": Optional[Literal["director", "performer", "writer"]],
-    },
-)
-
-JsonNameFinal = TypedDict(
-    "JsonNameFinal",
-    {
-        "slug": str,
-        "name": str,
-        "director": JsonCredits,
-        "performer": JsonCredits,
-        "writer": JsonCredits,
-        "mostCreditedAs": Literal["director", "performer", "writer"],
-    },
-)
-
-
-CastAndCrewByImdbId = dict[frozenset[str], JsonNameIntermediate]
-
-
-def populate_watchlist_data(
-    cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
-) -> None:
-    for director in repository_data.watchlist_people["directors"]:
-        if isinstance(director.imdb_id, list):
-            key = frozenset(director.imdb_id)
-        else:
-            key = frozenset((director.imdb_id,))
-        cast_and_crew_by_imdb_id[key]["director_title_ids"].update(director.title_ids)
-
-    for performer in repository_data.watchlist_people["performers"]:
-        if isinstance(performer.imdb_id, list):
-            key = frozenset(performer.imdb_id)
-        else:
-            key = frozenset((performer.imdb_id,))
-        cast_and_crew_by_imdb_id[key]["performer_title_ids"].update(performer.title_ids)
-
-    for writer in repository_data.watchlist_people["writers"]:
-        if isinstance(writer.imdb_id, list):
-            key = frozenset(writer.imdb_id)
-        else:
-            key = frozenset((writer.imdb_id,))
-        cast_and_crew_by_imdb_id[key]["writer_title_ids"].update(writer.title_ids)
+CastAndCrewByImdbId = dict[frozenset[str], CastAndCrewMember]
 
 
 def intialize_cast_and_crew_by_imdb_id(
@@ -98,15 +68,13 @@ def intialize_cast_and_crew_by_imdb_id(
         else:
             key = frozenset((name.imdb_id,))
 
-        cast_and_crew_by_imdb_id[key] = JsonNameIntermediate(
+        cast_and_crew_by_imdb_id[key] = CastAndCrewMember(
             name=name.name,
             slug=name.slug,
-            director=JsonCredits(titles=[], reviewCount=0, watchlistCount=0),
-            writer=JsonCredits(titles=[], reviewCount=0, watchlistCount=0),
-            performer=JsonCredits(titles=[], reviewCount=0, watchlistCount=0),
-            director_title_ids=set(),
-            writer_title_ids=set(),
-            performer_title_ids=set(),
+            titles=[],
+            review_count=0,
+            total_count=0,
+            credited_titles=defaultdict(set),
             most_credited_as=None,
         )
 
@@ -124,12 +92,12 @@ def check_title_for_names(
     writer_ids = frozenset((writer.imdb_id for writer in title.writers))
 
     for name_key, name_value in cast_and_crew_by_imdb_id.items():
-        if name_key & director_ids:
-            name_value["director_title_ids"].add(title.imdb_id)
-        if name_key & performer_ids:
-            name_value["performer_title_ids"].add(title.imdb_id)
         if name_key & writer_ids:
-            name_value["writer_title_ids"].add(title.imdb_id)
+            name_value["credited_titles"][title.imdb_id].add("writer")
+        if name_key & director_ids:
+            name_value["credited_titles"][title.imdb_id].add("director")
+        if name_key & performer_ids:
+            name_value["credited_titles"][title.imdb_id].add("performer")
 
 
 def add_watchlist_credits(  # noqa: WPS210
@@ -156,7 +124,9 @@ def add_review_credits(
         check_title_for_names(reviewed_title, cast_and_crew_by_imdb_id)
 
 
-def build_json_title(title_id: str, repository_data: RepositoryData) -> JsonTitle:
+def build_json_title(
+    title_id: str, credited_as: set[CreditType], repository_data: RepositoryData
+) -> JsonTitle:
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
     viewings = sorted(
@@ -169,6 +139,7 @@ def build_json_title(title_id: str, repository_data: RepositoryData) -> JsonTitl
     )
 
     return JsonTitle(
+        creditedAs=list(credited_as),
         imdbId=title.imdb_id,
         title=title.title,
         year=title.year,
@@ -190,104 +161,56 @@ def populate_title_data(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for _name_key, name_value in cast_and_crew_by_imdb_id.items():
-        for director_title_id in name_value["director_title_ids"]:
-            name_value["director"]["titles"].append(
-                build_json_title(director_title_id, repository_data)
-            )
-        name_value["director"]["titles"].sort(
-            key=lambda title: title["releaseSequence"]
-        )
-
-        for performer_title_id in name_value["performer_title_ids"]:
-            name_value["performer"]["titles"].append(
-                build_json_title(performer_title_id, repository_data)
+        for title_id, credited_as in name_value["credited_titles"].items():
+            name_value["titles"].append(
+                build_json_title(title_id, credited_as, repository_data)
             )
 
-        name_value["performer"]["titles"].sort(
-            key=lambda title: title["releaseSequence"]
-        )
-
-        for writer_title_id in name_value["writer_title_ids"]:
-            name_value["writer"]["titles"].append(
-                build_json_title(writer_title_id, repository_data)
-            )
-
-        name_value["writer"]["titles"].sort(key=lambda title: title["releaseSequence"])
+        name_value["titles"].sort(key=lambda title: title["releaseSequence"])
 
 
 def populate_counts(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for _name_key, name_value in cast_and_crew_by_imdb_id.items():
-        name_value["director"]["reviewCount"] = len(
-            repository_data.reviews.keys() & name_value["director_title_ids"]
+        name_value["review_count"] = len(
+            repository_data.reviews.keys() & name_value["credited_titles"].keys()
         )
-        name_value["director"]["watchlistCount"] = len(
-            name_value["director_title_ids"] - repository_data.reviews.keys()
-        )
-
-        name_value["performer"]["reviewCount"] = len(
-            repository_data.reviews.keys() & name_value["performer_title_ids"]
-        )
-        name_value["performer"]["watchlistCount"] = len(
-            name_value["performer_title_ids"] - repository_data.reviews.keys()
-        )
-
-        name_value["writer"]["reviewCount"] = len(
-            repository_data.reviews.keys() & name_value["writer_title_ids"]
-        )
-        name_value["writer"]["watchlistCount"] = len(
-            name_value["writer_title_ids"] - repository_data.reviews.keys()
-        )
+        name_value["total_count"] = len(name_value["credited_titles"].keys())
 
 
-def determine_most_credited_as(
-    name: JsonNameIntermediate,
-) -> Literal["director", "performer", "writer"]:
-    most_credited_as: Optional[Literal["director", "performer", "writer"]] = None
+def determine_credited_as(
+    name: CastAndCrewMember,
+) -> list[CreditType]:
+    credited_as: set[CreditType] = set()
 
-    director_titles = (
-        name["director"]["reviewCount"] + name["director"]["watchlistCount"]
-    )
-    performer_titles = (
-        name["performer"]["reviewCount"] + name["performer"]["watchlistCount"]
-    )
-    writer_titles = name["writer"]["reviewCount"] + name["writer"]["watchlistCount"]
+    for _title_id, title_credited_as in name["credited_titles"].items():
+        credited_as.update(title_credited_as)
 
-    if (director_titles >= performer_titles) and (director_titles >= writer_titles):
-        most_credited_as = "director"
-    elif (performer_titles >= director_titles) and (performer_titles >= writer_titles):
-        most_credited_as = "performer"
-    else:
-        most_credited_as = "writer"
-
-    return most_credited_as
+    return list(credited_as)
 
 
-def transform_to_final(intermediate_name: JsonNameIntermediate) -> JsonNameFinal:
+def transform_to_final(
+    cast_and_crew_member: CastAndCrewMember,
+) -> JsonCastAndCrewMember:
 
-    return JsonNameFinal(
-        name=intermediate_name["name"],
-        slug=intermediate_name["slug"],
-        director=intermediate_name["director"],
-        writer=intermediate_name["writer"],
-        performer=intermediate_name["performer"],
-        mostCreditedAs=intermediate_name["most_credited_as"]
-        or determine_most_credited_as(intermediate_name),
+    return JsonCastAndCrewMember(
+        name=cast_and_crew_member["name"],
+        slug=cast_and_crew_member["slug"],
+        titles=cast_and_crew_member["titles"],
+        reviewCount=cast_and_crew_member["review_count"],
+        totalCount=cast_and_crew_member["total_count"],
+        creditedAs=determine_credited_as(cast_and_crew_member),
     )
 
 
-def name_has_reviews(name: JsonNameIntermediate) -> bool:
-    for credits in (name["director"], name["performer"], name["writer"]):
-        if credits["reviewCount"] > 0:
-            return True
-
-    return False
+def name_has_reviews(name: CastAndCrewMember) -> bool:
+    return name["review_count"] > 0
 
 
 def build_cast_and_crew(
     repository_data: RepositoryData,
-) -> list[JsonNameFinal]:
+) -> list[JsonCastAndCrewMember]:
     cast_and_crew_by_imdb_id = intialize_cast_and_crew_by_imdb_id(repository_data)
 
     add_watchlist_credits(cast_and_crew_by_imdb_id, repository_data)
