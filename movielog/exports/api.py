@@ -2,14 +2,13 @@ from __future__ import annotations
 
 from movielog.exports import (
     cast_and_crew,
+    collections,
     list_tools,
     overrated_disappointments,
     reviewed_titles,
     stats,
     underseen_gems,
     viewings,
-    watchlist_collections,
-    watchlist_people,
     watchlist_progress,
     watchlist_titles,
 )
@@ -66,8 +65,7 @@ def export_data() -> None:  # noqa: WPS213
     overrated_disappointments.export(repository_data)
     underseen_gems.export(repository_data)
     watchlist_titles.export(repository_data)
-    watchlist_collections.export(repository_data)
-    watchlist_people.export(repository_data)
+    collections.export(repository_data)
     stats.export(repository_data)
     watchlist_progress.export(repository_data)
     cast_and_crew.export(repository_data)

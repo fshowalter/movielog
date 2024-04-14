@@ -56,18 +56,18 @@ def build_collection_titles(
 
 
 def export(repository_data: RepositoryData) -> None:
-    logger.log("==== Begin exporting {}...", "watchlist-collections")
+    logger.log("==== Begin exporting {}...", "collections")
 
-    watchlist_collections = []
+    json_collections = []
 
-    for collection in repository_data.watchlist_collections:
+    for collection in repository_data.collections:
         reviewed_titles = [
             review
             for review in repository_data.reviews.values()
             if review.imdb_id in collection.title_ids
         ]
 
-        watchlist_collections.append(
+        json_collections.append(
             JsonCollection(
                 name=collection.name,
                 slug=collection.slug if reviewed_titles else None,
@@ -79,8 +79,8 @@ def export(repository_data: RepositoryData) -> None:
 
     exporter.serialize_dicts(
         sorted(
-            watchlist_collections,
-            key=lambda watchlist_collection: watchlist_collection["name"],
+            json_collections,
+            key=lambda json_collection: json_collection["name"],
         ),
-        "watchlist-collections",
+        "collections",
     )

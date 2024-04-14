@@ -179,15 +179,43 @@ def populate_counts(
         name_value["total_count"] = len(name_value["credited_titles"].keys())
 
 
+def sort_value_for_credit_count(credit_count_item: tuple[str, int]) -> tuple[int, int]:
+    credit_order_map = {
+        "writer": 3,
+        "director": 2,
+        "performer": 1,
+    }
+
+    return (credit_count_item[1], credit_order_map[credit_count_item[0]])
+
+
+def calculate_credit_counts(name: CastAndCrewMember) -> dict[CreditType, int]:
+    credited_as_counts: dict[CreditType, int] = defaultdict(int)
+
+    for _title_id, title_credited_as in name["credited_titles"].items():
+        for credit in title_credited_as:
+            credited_as_counts[credit] += 1
+
+    return credited_as_counts
+
+
 def determine_credited_as(
     name: CastAndCrewMember,
 ) -> list[CreditType]:
-    credited_as: set[CreditType] = set()
+    credited_as_counts = calculate_credit_counts(name)
 
-    for _title_id, title_credited_as in name["credited_titles"].items():
-        credited_as.update(title_credited_as)
+    credited_as: list[CreditType] = []
 
-    return list(credited_as)
+    sorted_credits = sorted(
+        credited_as_counts.items(),
+        key=sort_value_for_credit_count,
+        reverse=True,
+    )
+
+    for credit_kind, _count in sorted_credits:
+        credited_as.append(credit_kind)
+
+    return credited_as
 
 
 def transform_to_final(

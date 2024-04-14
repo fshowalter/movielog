@@ -189,7 +189,7 @@ def watchlist_people_for_title(
 ) -> list[repository_api.WatchlistPerson]:
     return [
         watchlist_person
-        for watchlist_person in repository_data.watchlist_people[kind]
+        for watchlist_person in repository_data.watchlist[kind]
         if title.imdb_id in watchlist_person.title_ids
     ]
 
@@ -225,7 +225,7 @@ def build_json_more(
             review=review,
             watchlist_entities=[
                 collection
-                for collection in repository_data.watchlist_collections
+                for collection in repository_data.collections
                 if title.imdb_id in collection.title_ids
             ],
             repository_data=repository_data,

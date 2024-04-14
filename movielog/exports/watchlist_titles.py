@@ -29,6 +29,13 @@ WachlistIndex = dict[
 ]
 
 
+def append_name_if_not_reviewed(
+    name: str, title_id: str, collection: list[str], repository_data: RepositoryData
+) -> None:
+    if title_id not in repository_data.reviews.keys():
+        collection.append(name)
+
+
 def build_watchlist_index(  # noqa: WPS210
     repository_data: RepositoryData,
 ) -> WachlistIndex:
@@ -36,12 +43,22 @@ def build_watchlist_index(  # noqa: WPS210
 
     for collection in repository_data.watchlist_collections:
         for collection_title_id in collection.title_ids:
-            watchlist_index[collection_title_id]["collections"].append(collection.name)
+            append_name_if_not_reviewed(
+                name=collection.name,
+                title_id=collection_title_id,
+                collection=watchlist_index[collection_title_id]["collections"],
+                repository_data=repository_data,
+            )
 
     for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
         for watchlist_person in repository_data.watchlist_people[watchlist_key]:
             for title_id in watchlist_person.title_ids:
-                watchlist_index[title_id][watchlist_key].append(watchlist_person.name)
+                append_name_if_not_reviewed(
+                    name=watchlist_person.name,
+                    title_id=title_id,
+                    collection=watchlist_index[title_id][watchlist_key],
+                    repository_data=repository_data,
+                )
 
     return watchlist_index
 

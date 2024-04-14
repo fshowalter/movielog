@@ -8,9 +8,9 @@ from pathlib import Path
 from typing import cast
 
 from movielog.repository import (
+    json_collections,
     json_titles,
     json_viewings,
-    json_watchlist_collections,
     json_watchlist_people,
     markdown_reviews,
     title_data_updater,
@@ -23,7 +23,7 @@ def get_valid_title_ids() -> set[str]:
         *[viewing["imdbId"] for viewing in json_viewings.read_all()],
         *[
             title["imdbId"]
-            for collection in json_watchlist_collections.read_all()
+            for collection in json_collections.read_all()
             for title in collection["titles"]
         ],
     ]

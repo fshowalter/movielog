@@ -6,7 +6,7 @@ from typing import Optional, Sequence, Tuple
 from movielog.cli import radio_list, select_title
 from movielog.repository import api as repository_api
 
-Collection = repository_api.WatchlistCollection
+Collection = repository_api.Collection
 Option = Tuple[Optional[Collection], str]
 
 
@@ -29,7 +29,7 @@ def prompt() -> None:
 def build_options() -> Sequence[Option]:
     return [
         (collection, "<cyan>{0}</cyan>".format(collection.name))
-        for collection in repository_api.watchlist_collections()
+        for collection in repository_api.collections()
     ]
 
 

@@ -3,14 +3,14 @@ from dataclasses import dataclass
 from typing import Generator, Iterable, Optional, Union, get_args
 
 from movielog.repository import (  # noqa: WPS235
+    cast_and_crew_validator,
+    json_cast_and_crew,
+    json_collections,
     json_metadata,
-    json_names,
     json_titles,
     json_viewings,
-    json_watchlist_collections,
     json_watchlist_people,
     markdown_reviews,
-    name_data_validator,
     title_data_updater,
     title_data_validator,
     watchlist_credits_updater,
@@ -114,7 +114,10 @@ class WatchlistEntity:
 
 
 @dataclass
-class WatchlistCollection(WatchlistEntity):
+class Collection:
+    name: str
+    slug: str
+    title_ids: set[str]
     description: Optional[str] = None
 
 
@@ -123,26 +126,24 @@ class WatchlistPerson(WatchlistEntity):
     imdb_id: Union[str, list[str]]
 
 
-def _hydrate_watchlist_collection(
-    json_watchlist_collection: json_watchlist_collections.JsonWatchlistCollection,
-) -> WatchlistCollection:
-    return WatchlistCollection(
-        name=json_watchlist_collection["name"],
-        slug=json_watchlist_collection["slug"],
-        title_ids=set(
-            [title["imdbId"] for title in json_watchlist_collection["titles"]]
-        ),
+def _hydrate_collection(
+    json_collection: json_collections.JsonCollection,
+) -> Collection:
+    return Collection(
+        name=json_collection["name"],
+        slug=json_collection["slug"],
+        title_ids=set([title["imdbId"] for title in json_collection["titles"]]),
     )
 
 
 def validate_data() -> None:
     title_data_validator.validate()
-    name_data_validator.validate()
+    cast_and_crew_validator.validate()
 
 
-def watchlist_collections() -> Generator[WatchlistCollection, None, None]:
-    for json_watchlist_collection in json_watchlist_collections.read_all():
-        yield _hydrate_watchlist_collection(json_watchlist_collection)
+def collections() -> Generator[Collection, None, None]:
+    for json_collection in json_collections.read_all():
+        yield _hydrate_collection(json_collection)
 
 
 def _hydrate_watchlist_person(
@@ -157,7 +158,7 @@ def _hydrate_watchlist_person(
 
 
 def names() -> Iterable[Name]:
-    for json_name in json_names.read_all():
+    for json_name in json_cast_and_crew.read_all():
         yield Name(
             imdb_id=json_name["imdbId"], name=json_name["name"], slug=json_name["slug"]
         )
@@ -296,8 +297,8 @@ def create_or_update_review(
     )
 
 
-def new_watchlist_collection(name: str) -> WatchlistCollection:
-    return _hydrate_watchlist_collection(json_watchlist_collections.create(name))
+def new_collection(name: str) -> Collection:
+    return _hydrate_collection(json_collections.create(name))
 
 
 def add_person_to_watchlist(
@@ -309,10 +310,10 @@ def add_person_to_watchlist(
 
 
 def add_title_to_collection(
-    collection: WatchlistCollection, imdb_id: str, full_title: str
-) -> WatchlistCollection:
-    return _hydrate_watchlist_collection(
-        json_watchlist_collections.add_title(
+    collection: Collection, imdb_id: str, full_title: str
+) -> Collection:
+    return _hydrate_collection(
+        json_collections.add_title(
             collection_slug=collection.slug, imdb_id=imdb_id, full_title=full_title
         )
     )

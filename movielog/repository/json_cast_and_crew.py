@@ -9,11 +9,11 @@ from movielog.repository import slugifier
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
-FOLDER_NAME = os.path.join("data", "names")
+FOLDER_NAME = "cast-and-crew"
 
 
-JsonName = TypedDict(
-    "JsonName",
+JsonCastAndCrewMember = TypedDict(
+    "JsonCastAndCrewMember",
     {
         "imdbId": str | list[str],
         "name": str,
@@ -26,7 +26,7 @@ def generate_name_slug(name: str) -> str:
     return slugifier.slugify_name(name)
 
 
-def generate_file_path(json_name: JsonName) -> str:
+def generate_file_path(json_name: JsonCastAndCrewMember) -> str:
     if not json_name["slug"]:
         json_name["slug"] = generate_name_slug(json_name["name"])
 
@@ -34,7 +34,7 @@ def generate_file_path(json_name: JsonName) -> str:
     return os.path.join(FOLDER_NAME, file_name)
 
 
-def serialize(json_name: JsonName) -> None:
+def serialize(json_name: JsonCastAndCrewMember) -> None:
     file_path = generate_file_path(json_name)
     path_tools.ensure_file_path(file_path)
 
@@ -49,7 +49,7 @@ def serialize(json_name: JsonName) -> None:
     )
 
 
-def read_all() -> Iterable[JsonName]:
+def read_all() -> Iterable[JsonCastAndCrewMember]:
     for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
         with open(file_path, "r") as json_file:
-            yield (cast(JsonName, json.load(json_file)))
+            yield (cast(JsonCastAndCrewMember, json.load(json_file)))
