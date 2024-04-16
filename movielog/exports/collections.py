@@ -23,10 +23,11 @@ JsonCollection = TypedDict(
     "JsonCollection",
     {
         "name": str,
-        "slug": Optional[str],
+        "slug": str,
         "titleCount": int,
         "reviewCount": int,
         "titles": list[JsonTitle],
+        "description": Optional[str],
     },
 )
 
@@ -70,17 +71,19 @@ def export(repository_data: RepositoryData) -> None:
         json_collections.append(
             JsonCollection(
                 name=collection.name,
-                slug=collection.slug if reviewed_titles else None,
+                slug=collection.slug,
                 titleCount=len(collection.title_ids),
                 reviewCount=len(reviewed_titles),
                 titles=build_collection_titles(collection, repository_data),
+                description=collection.description,
             )
         )
 
-    exporter.serialize_dicts(
+    exporter.serialize_dicts_to_folder(
         sorted(
             json_collections,
             key=lambda json_collection: json_collection["name"],
         ),
         "collections",
+        filename_key=lambda col: col["slug"],
     )

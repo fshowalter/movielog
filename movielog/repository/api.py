@@ -118,7 +118,7 @@ class Collection:
     name: str
     slug: str
     title_ids: set[str]
-    description: Optional[str] = None
+    description: Optional[str]
 
 
 @dataclass
@@ -133,6 +133,9 @@ def _hydrate_collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
         title_ids=set([title["imdbId"] for title in json_collection["titles"]]),
+        description=(
+            json_collection["description"] if "description" in json_collection else None
+        ),
     )
 
 

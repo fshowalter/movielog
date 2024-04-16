@@ -1,7 +1,7 @@
 import json
 import os
 from glob import glob
-from typing import Iterable, TypedDict, cast
+from typing import Iterable, Optional, TypedDict, cast
 
 from movielog.repository import slugifier
 from movielog.repository.json_watchlist_titles import JsonTitle
@@ -16,6 +16,7 @@ JsonCollection = TypedDict(
         "name": str,
         "slug": str,
         "titles": list[JsonTitle],
+        "description": Optional[str],
     },
 )
 
@@ -37,7 +38,9 @@ def create(name: str) -> JsonCollection:
             'Collection with slug "{0}" already exists.'.format(new_collection_slug)
         )
 
-    json_collection = JsonCollection(name=name, slug=new_collection_slug, titles=[])
+    json_collection = JsonCollection(
+        name=name, slug=new_collection_slug, titles=[], description=None
+    )
     serialize(json_collection)
     return json_collection
 
