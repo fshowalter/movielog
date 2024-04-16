@@ -71,6 +71,9 @@ def build_progress_details(
             repository_data.reviews.keys()
         )
 
+        if len(review_ids) == len(watchlist_entity.title_ids):
+            continue
+
         entity_progress.append(
             JsonProgressDetail(
                 name=watchlist_entity.name,
@@ -92,6 +95,7 @@ def watchlist_entity_stats(
             title_id
             for watchlist_entity in watchlist_entities
             for title_id in watchlist_entity.title_ids
+            if watchlist_entity.title_ids.difference(repository_data.reviews.keys())
         ]
     )
 
@@ -155,6 +159,4 @@ def export(repository_data: RepositoryData) -> None:  # noqa: WPS210
         ),
     )
 
-    exporter.serialize_dicts_to_folder(
-        [watchlist_progress], "watchlist-progress", lambda _dict: "watchlist-progress"
-    )
+    exporter.serialize_dicts([watchlist_progress], "watchlist-progress")
