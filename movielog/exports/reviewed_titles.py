@@ -30,6 +30,11 @@ JsonMoreTitle = TypedDict(
     },
 )
 
+MoreEntity = TypedDict(
+    "MoreEntity",
+    {"name": str, "slug": str, "title_ids": set[str]},
+)
+
 JsonMoreEntity = TypedDict(
     "JsonMoreEntity",
     {"name": str, "slug": str, "titles": list[JsonMoreTitle]},
@@ -59,7 +64,7 @@ JsonReviewedTitle = TypedDict(
         "countries": list[str],
         "genres": list[str],
         "sortTitle": str,
-        "originalTitle": str,
+        "originalTitle": Optional[str],
         "gradeValue": Optional[int],
         "runtimeMinutes": int,
         "directorNames": list[str],
@@ -124,12 +129,6 @@ def build_imdb_id_matcher(
     id_to_match: str,
 ) -> Callable[[Union[repository_api.Title, repository_api.Review]], bool]:
     return lambda item_with_imdb_id: item_with_imdb_id.imdb_id == id_to_match
-
-
-MoreEntity = TypedDict(
-    "MoreEntity",
-    {"name": str, "slug": str, "title_ids": set[str]},
-)
 
 
 def build_json_more_for_entities(
@@ -307,6 +306,10 @@ def build_json_reviewed_title(
         reverse=True,
     )
 
+    original_title = (
+        None if title.original_title == title.title else title.original_title
+    )
+
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
         title=title.title,
@@ -316,7 +319,7 @@ def build_json_reviewed_title(
         countries=title.countries,
         genres=title.genres,
         sortTitle=title.sort_title,
-        originalTitle=title.original_title,
+        originalTitle=original_title,
         gradeValue=review.grade_value,
         runtimeMinutes=title.runtime_minutes,
         releaseSequence=title.release_sequence,
