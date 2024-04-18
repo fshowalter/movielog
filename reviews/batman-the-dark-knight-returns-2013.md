@@ -1,6 +1,6 @@
 ---
 date: 2023-09-14
-imdb_id: tt11060882
+imdb_id: tt2166834
 grade: B
 slug: batman-the-dark-knight-returns-2013
 ---
