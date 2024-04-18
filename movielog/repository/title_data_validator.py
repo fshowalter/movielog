@@ -98,8 +98,6 @@ def add_new_titles(new_title_ids: set[str]) -> None:
             directors=[],
             performers=[],
             writers=[],
-            imdbRating=None,
-            imdbVotes=None,
         )
 
         title_data_updater.update_title(new_title)
@@ -161,7 +159,9 @@ def validate() -> None:  # noqa: WPS210, WPS213
 
             if json_title != updated_title:
                 json_file.seek(0)
-                json_file.write(json.dumps(updated_title, default=str, indent=2))
+                json_file.write(
+                    json.dumps(updated_title, default=str, indent=2, ensure_ascii=False)
+                )
                 json_file.truncate()
                 logger.log(
                     "Wrote {}.",
