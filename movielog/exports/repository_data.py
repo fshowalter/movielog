@@ -13,5 +13,5 @@ class RepositoryData:
         repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
     ]
     collections: list[repository_api.Collection]
-    metadata: repository_api.Metadata
+    imdb_ratings: repository_api.ImdbRatings
     cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]

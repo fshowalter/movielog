@@ -29,6 +29,7 @@ JsonMoreTitle = TypedDict(
         "grade": str,
         "year": str,
         "slug": str,
+        "genres": list[str],
     },
 )
 
@@ -73,6 +74,7 @@ JsonReviewedTitle = TypedDict(
         "runtimeMinutes": int,
         "directorNames": list[str],
         "principalCastNames": list[str],
+        "writerNames": list[str],
         "reviewDate": str,
         "reviewYear": str,
         "viewings": list[JsonViewing],
@@ -100,6 +102,7 @@ def build_json_more_title(
         year=title.year,
         slug=review.slug,
         grade=review.grade,
+        genres=title.genres,
     )
 
 
@@ -293,6 +296,7 @@ def build_json_reviewed_title(
         runtimeMinutes=title.runtime_minutes,
         releaseSequence=title.release_sequence,
         directorNames=[director.name for director in title.directors],
+        writerNames=list(set(writer.name for writer in title.writers)),
         principalCastNames=[
             performer.name
             for index, performer in enumerate(title.performers)
@@ -374,9 +378,10 @@ def build_credit_index(
 
     add_review_credits(credit_index, repository_data)
 
-    for name_key, title_ids in credit_index.items():
-        if len(title_ids) < 5:
-            del credit_index[name_key]
+    for credit_type, name_index in list(credit_index.items()):
+        for name_key, title_ids in list(name_index.items()):
+            if len(title_ids) < 5:
+                del credit_index[credit_type][name_key]
 
     return credit_index
 

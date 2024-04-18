@@ -23,16 +23,16 @@ JsonTitle = TypedDict(
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "underseen-gems")
 
-    imdb_underseen_reviewed_titles = [
-        title
-        for title in repository_data.reviewed_titles
-        if title.imdb_votes
-        and title.imdb_votes < repository_data.metadata.average_imdb_votes
+    imdb_underseen_reviewed_title_ids = [
+        title.imdb_id
+        for title in repository_data.imdb_ratings.titles
+        if title.votes and title.votes < repository_data.imdb_ratings.average_imdb_votes
     ]
 
     underseen_gems = []
 
-    for title in imdb_underseen_reviewed_titles:
+    for imdb_id in imdb_underseen_reviewed_title_ids:
+        title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
 
         if not review.grade_value or review.grade_value < 8:

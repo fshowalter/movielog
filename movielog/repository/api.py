@@ -4,9 +4,11 @@ from typing import Generator, Iterable, Optional, get_args
 
 from movielog.repository import (  # noqa: WPS235
     cast_and_crew_validator,
+    imdb_ratings_data_updater,
+    imdb_ratings_data_validator,
     json_cast_and_crew,
     json_collections,
-    json_metadata,
+    json_imdb_ratings,
     json_titles,
     json_viewings,
     json_watchlist_people,
@@ -47,8 +49,6 @@ class Title:
     performers: list[CreditName]
     writers: list[CreditName]
     original_title: str
-    imdb_rating: Optional[float]
-    imdb_votes: Optional[int]
     release_sequence: str
 
 
@@ -142,6 +142,7 @@ def _hydrate_collection(
 def validate_data() -> None:
     title_data_validator.validate()
     cast_and_crew_validator.validate()
+    imdb_ratings_data_validator.validate()
 
 
 def collections() -> Generator[Collection, None, None]:
@@ -203,8 +204,6 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            imdb_rating=json_title["imdbRating"],
-            imdb_votes=json_title["imdbVotes"],
             release_sequence="{0}{1}".format(
                 json_title["releaseDate"], json_title["imdbId"]
             ),
@@ -273,20 +272,41 @@ def update_datasets() -> None:
     )
 
     title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
-    json_metadata.update_for_datasets(dataset_titles=list(dataset_titles.values()))
+    imdb_ratings_data_updater.update_for_datasets(
+        dataset_titles=list(dataset_titles.values())
+    )
 
 
 @dataclass
-class Metadata:
+class TitleImdbRating:
+    imdb_id: str
+    votes: Optional[int]
+    rating: Optional[float]
+
+
+@dataclass
+class ImdbRatings:
     average_imdb_votes: float
     average_imdb_rating: float
+    titles: list[TitleImdbRating]
 
 
-def metadata() -> Metadata:
-    json_metadata_info = json_metadata.deserialize()
-    return Metadata(
-        average_imdb_rating=json_metadata_info["averageImdbRating"],
-        average_imdb_votes=json_metadata_info["averageImdbVotes"],
+def imdb_ratings() -> ImdbRatings:
+    json_ratings = json_imdb_ratings.deserialize()
+
+    title_ratings = []
+
+    for imdb_id, rating in json_ratings["titles"].items():
+        title_ratings.append(
+            TitleImdbRating(
+                imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"]
+            )
+        )
+
+    return ImdbRatings(
+        average_imdb_rating=json_ratings["averageImdbRating"],
+        average_imdb_votes=json_ratings["averageImdbVotes"],
+        titles=title_ratings,
     )
 
 

@@ -62,7 +62,7 @@ def export_data() -> None:  # noqa: WPS213
             repository_api.collections(),
             key=lambda collection: collection.slug,
         ),
-        metadata=repository_api.metadata(),
+        imdb_ratings=repository_api.imdb_ratings(),
         cast_and_crew=cast_and_crew_by_imdb_id,
     )
 

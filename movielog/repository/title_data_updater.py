@@ -17,8 +17,6 @@ TitleQueryResult = TypedDict(
         "original_title": str,
         "year": int,
         "runtime_minutes": Optional[int],
-        "imdb_rating": float,
-        "imdb_votes": int,
     },
 )
 
@@ -30,8 +28,6 @@ def update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
         , original_title
         , year
         , runtime_minutes
-        , imdb_rating
-        , imdb_votes
         FROM titles
         WHERE imdb_id = "{0}";
     """
@@ -49,8 +45,6 @@ def update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
         json_title["title"], json_title["year"]
     )
     json_title["runtimeMinutes"] = title_row["runtime_minutes"] or 0
-    json_title["imdbRating"] = title_row["imdb_rating"]
-    json_title["imdbVotes"] = title_row["imdb_votes"]
 
 
 def update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
@@ -173,8 +167,6 @@ def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) ->
             updated_json_title["title"], updated_json_title["year"]
         )
         updated_json_title["runtimeMinutes"] = dataset_title["runtime_minutes"] or 0
-        updated_json_title["imdbRating"] = dataset_title["imdb_rating"]
-        updated_json_title["imdbVotes"] = dataset_title["imdb_votes"]
 
         if updated_json_title != json_title:
             json_titles.serialize(updated_json_title)
