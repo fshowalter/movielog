@@ -1,6 +1,7 @@
 ---
-date: 2020-10-31
+date: 2024-04-13
 imdb_id: tt6998518
+title: Mandy (2018)
 grade: A+
 slug: mandy-2018
 ---
