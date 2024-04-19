@@ -10,6 +10,8 @@ from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
+FrozenTitles = set("tt2166834")
+
 TitleQueryResult = TypedDict(
     "TitleQueryResult",
     {
@@ -21,7 +23,7 @@ TitleQueryResult = TypedDict(
 )
 
 
-def update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
+def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
     query = """
         SELECT
             title
@@ -47,7 +49,7 @@ def update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
     json_title["runtimeMinutes"] = title_row["runtime_minutes"] or 0
 
 
-def update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
+def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
     imdb_title_page = imdb_http.get_title_page(json_title["imdbId"])
 
     json_title["releaseDate"] = imdb_title_page.release_date
@@ -88,7 +90,7 @@ def update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) ->
     ]
 
 
-def get_progress_file_path() -> str:
+def _get_progress_file_path() -> str:
     progress_file_path = os.path.join(json_titles.FOLDER_NAME, ".progress")
     path_tools.ensure_file_path(progress_file_path)
 
@@ -97,7 +99,7 @@ def get_progress_file_path() -> str:
 
 def update_from_imdb_pages() -> None:  # noqa: WPS210, WPS231
     processed_slugs = []
-    progress_file_path = get_progress_file_path()
+    progress_file_path = _get_progress_file_path()
 
     with open(
         progress_file_path, "r+" if os.path.exists(progress_file_path) else "w+"
@@ -125,10 +127,13 @@ def update_from_imdb_pages() -> None:  # noqa: WPS210, WPS231
                 json_title["slug"],
             )
 
+            if json_title["imdbId"] in FrozenTitles:
+                continue
+
             updated_title = deepcopy(json_title)
 
             try:
-                update_json_title_with_title_page_data(updated_title)
+                _update_json_title_with_title_page_data(updated_title)
             except imdb_http.IMDbDataAccessError:
                 return
             if updated_title != json_title:
@@ -139,9 +144,12 @@ def update_from_imdb_pages() -> None:  # noqa: WPS210, WPS231
 
 
 def update_title(json_title: json_titles.JsonTitle) -> None:
+    if json_title["imdbId"] in FrozenTitles:
+        return
+
     updated_json_title = deepcopy(json_title)
-    update_json_title_with_db_data(updated_json_title)
-    update_json_title_with_title_page_data(updated_json_title)
+    _update_json_title_with_db_data(updated_json_title)
+    _update_json_title_with_title_page_data(updated_json_title)
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
@@ -149,6 +157,9 @@ def update_title(json_title: json_titles.JsonTitle) -> None:
 
 def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) -> None:
     for json_title in json_titles.read_all():
+        if json_title["imdbId"] in FrozenTitles:
+            continue
+
         dataset_title = dataset_titles.get(json_title["imdbId"], None)
         if not dataset_title:
             logger.log(
