@@ -12,6 +12,12 @@ from movielog.utils.logging import logger
 
 FrozenTitles = set("tt2166834")
 
+ValidTitles = {
+    "tt0064727": "The Bloody Judge",
+    "tt0065036": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
+    "tt0094762": "Blood Delirium",
+}
+
 TitleQueryResult = TypedDict(
     "TitleQueryResult",
     {
@@ -171,7 +177,9 @@ def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) ->
 
         updated_json_title = deepcopy(json_title)
 
-        updated_json_title["title"] = dataset_title["title"]
+        if json_title["imdbId"] not in ValidTitles:
+            updated_json_title["title"] = dataset_title["title"]
+
         updated_json_title["originalTitle"] = dataset_title["original_title"]
         updated_json_title["year"] = dataset_title["year"]
         updated_json_title["sortTitle"] = json_titles.generate_sort_title(

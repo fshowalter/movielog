@@ -17,6 +17,12 @@ from movielog.repository import (
 )
 from movielog.utils.logging import logger
 
+ValidTitles = {
+    "tt0064727": "The Bloody Judge",
+    "tt0065036": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
+    "tt0094762": "Blood Delirium",
+}
+
 
 def get_valid_title_ids() -> set[str]:
     title_ids = [
