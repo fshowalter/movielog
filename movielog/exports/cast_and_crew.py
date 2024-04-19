@@ -125,7 +125,7 @@ def build_json_title(
     )
 
     return JsonTitle(
-        creditedAs=list(credited_as),
+        creditedAs=sorted(list(credited_as)),
         imdbId=title.imdb_id,
         title=title.title,
         year=title.year,
