@@ -106,7 +106,7 @@ def mock_add_title_to_collection(
     )
 
     mocker.patch(
-        "movielog.cli.add_to_collection.repository_api.watchlist_collections",
+        "movielog.cli.add_to_collection.repository_api.collections",
         return_value=[collection],
     )
 
