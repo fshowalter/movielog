@@ -27,7 +27,7 @@ def get_watchlist_people() -> list[json_watchlist_people.JsonWatchlistPerson]:
     return watchlist_people
 
 
-def validate_slug(json_name: json_cast_and_crew.JsonName) -> None:
+def validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
     correct_slug = json_cast_and_crew.generate_name_slug(json_name["name"])
 
     existing_slug = json_name["slug"]
