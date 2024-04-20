@@ -24,6 +24,11 @@ def mock_manage_watchlist(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
+def mock_manage_collections(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.cli.main.manage_collections.prompt")
+
+
+@pytest.fixture(autouse=True)
 def mock_export_data(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.cli.main.exports_api.export_data")
 
@@ -36,7 +41,7 @@ def test_calls_add_viewing(mock_input: MockInput, mock_add_viewing: MagicMock) -
 
 
 def test_calls_imdb(mock_input: MockInput, mock_imdb: MagicMock) -> None:
-    mock_input([Down, Down, Enter, Escape, Escape])
+    mock_input([Down, Down, Down, Enter, Escape, Escape])
     main.prompt()
 
     mock_imdb.assert_called_once()
@@ -49,6 +54,15 @@ def test_calls_manage_watchlist(
     main.prompt()
 
     mock_manage_watchlist.assert_called_once()
+
+
+def test_calls_manage_collections(
+    mock_input: MockInput, mock_manage_collections: MagicMock
+) -> None:
+    mock_input([Down, Down, Enter, Escape, Escape])
+    main.prompt()
+
+    mock_manage_collections.assert_called_once()
 
 
 def test_calls_export_data(
