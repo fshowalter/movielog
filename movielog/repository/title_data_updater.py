@@ -41,7 +41,8 @@ def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
     """
 
     title_row = cast(
-        TitleQueryResult, db_api.db.fetch_one(query.format(json_title["imdbId"]))
+        TitleQueryResult,
+        db_api.db.fetch_one(query.format(json_title["imdbId"])),  # noqa: WPS204
     )
 
     assert title_row
@@ -161,7 +162,9 @@ def update_title(json_title: json_titles.JsonTitle) -> None:
         json_titles.serialize(updated_json_title)
 
 
-def update_for_datasets(dataset_titles: dict[str, datasets_api.DatasetTitle]) -> None:
+def update_for_datasets(  # noqa: WPS231
+    dataset_titles: dict[str, datasets_api.DatasetTitle]
+) -> None:
     for json_title in json_titles.read_all():
         if json_title["imdbId"] in FrozenTitles:
             continue

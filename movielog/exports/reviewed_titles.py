@@ -160,7 +160,7 @@ def build_json_more_reviews(
     ]
 
 
-def build_json_more_cast_and_crew(
+def build_json_more_cast_and_crew(  # noqa: WPS210 WPS231
     review: repository_api.Review,
     credit_index: CreditIndex,
     repository_data: RepositoryData,
@@ -381,7 +381,7 @@ def build_credit_index(
     for credit_type, name_index in list(credit_index.items()):
         for name_key, title_ids in list(name_index.items()):
             if len(title_ids) < 5:
-                del credit_index[credit_type][name_key]
+                credit_index[credit_type].pop(name_key)
 
     return credit_index
 

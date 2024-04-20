@@ -17,7 +17,7 @@ TitleQueryResult = TypedDict(
 )
 
 
-def update_with_db_data(imdb_ids: list[str]) -> None:
+def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
     ratings = json_imdb_ratings.deserialize()
 
     query = """
@@ -49,7 +49,9 @@ def update_with_db_data(imdb_ids: list[str]) -> None:
     json_imdb_ratings.serialize(ratings)
 
 
-def update_for_datasets(dataset_titles: list[datasets_api.DatasetTitle]) -> None:
+def update_for_datasets(  # noqa: WPS210
+    dataset_titles: list[datasets_api.DatasetTitle],
+) -> None:
     average_imdb_rating = mean(
         title["imdb_rating"] for title in dataset_titles if title["imdb_rating"]
     )
