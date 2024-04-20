@@ -214,7 +214,8 @@ def build_most_watched_writers(
         for writer in repository_data.titles[viewing.imdb_id].writers:
             key = frozenset((writer.imdb_id,))
             viewings_by_name[key].name = writer.name
-            viewings_by_name[key].viewings.append(viewing)
+            if viewing not in viewings_by_name[key].viewings:
+                viewings_by_name[key].viewings.append(viewing)
 
         apply_credit_teams_for_viewing(
             viewings_by_name=viewings_by_name,
