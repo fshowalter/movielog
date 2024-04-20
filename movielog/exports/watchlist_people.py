@@ -61,7 +61,7 @@ def export(repository_data: RepositoryData) -> None:
 
         watchlist_people = []
 
-        for watchlist_person in repository_data.watchlist_people[kind]:
+        for watchlist_person in repository_data.watchlist[kind]:
             reviewed_titles = [
                 review
                 for review in repository_data.reviews.values()

@@ -247,12 +247,9 @@ def build_json_most_watched_person_viewing(
 
 
 def watchlist_person_matches_indexed_imdb_id(
-    person_imdb_id: str | list[str], indexed_imdb_id: NameImdbId
+    person_imdb_id: frozenset[str], indexed_imdb_id: NameImdbId
 ) -> bool:
-    if isinstance(person_imdb_id, list):
-        return frozenset(person_imdb_id) == indexed_imdb_id
-
-    return frozenset((person_imdb_id,)) == indexed_imdb_id
+    return frozenset(person_imdb_id) == indexed_imdb_id
 
 
 def build_most_watched_directors(
@@ -296,7 +293,7 @@ def build_most_watched_person_list(
         watchlist_person = next(
             (
                 watchlist_person
-                for watchlist_person in repository_data.watchlist_people[watchlist_kind]
+                for watchlist_person in repository_data.watchlist[watchlist_kind]
                 if watchlist_person_matches_indexed_imdb_id(
                     person_imdb_id=watchlist_person.imdb_id,
                     indexed_imdb_id=indexed_imdb_id,
@@ -483,13 +480,13 @@ def extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     watchlist_title_ids = set(
         [
             title_id
-            for collection in repository_data.watchlist_collections
+            for collection in repository_data.collections
             for title_id in collection.title_ids
         ]
     )
 
     for person_kind in repository_api.WATCHLIST_PERSON_KINDS:
-        for watchlist_person in repository_data.watchlist_people[person_kind]:
+        for watchlist_person in repository_data.watchlist[person_kind]:
             for title_id in watchlist_person.title_ids:
                 watchlist_title_ids.add(title_id)
 
@@ -515,9 +512,7 @@ def export(repository_data: RepositoryData) -> None:
 
     all_time_stats = build_all_time_json_stats(repository_data=repository_data)
 
-    exporter.serialize_dicts_to_folder(
-        [all_time_stats], "all-time-stats", lambda _dict: "all-time-stats"
-    )
+    exporter.serialize_dicts([all_time_stats], "all-time-stats")
 
     viewings_by_year = list_tools.group_list_by_key(
         repository_data.viewings,

@@ -23,17 +23,18 @@ JsonTitle = TypedDict(
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "overrated-disappointments")
 
-    imdb_high_rated_reviewed_titles = [
-        title
-        for title in repository_data.reviewed_titles
-        if (title.imdb_rating and title.imdb_votes)
-        and title.imdb_rating > repository_data.metadata.average_imdb_rating
-        and title.imdb_votes > repository_data.metadata.average_imdb_votes
+    imdb_high_rated_reviewed_title_ids = [
+        title.imdb_id
+        for title in repository_data.imdb_ratings.titles
+        if (title.rating and title.votes)
+        and title.rating > repository_data.imdb_ratings.average_imdb_rating
+        and title.votes > repository_data.imdb_ratings.average_imdb_votes
     ]
 
     overrated_disappointments = []
 
-    for title in imdb_high_rated_reviewed_titles:
+    for imdb_id in imdb_high_rated_reviewed_title_ids:
+        title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
 
         if not review.grade_value or review.grade_value > 4:

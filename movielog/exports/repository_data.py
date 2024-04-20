@@ -9,9 +9,9 @@ class RepositoryData:
     titles: dict[str, repository_api.Title]
     reviews: dict[str, repository_api.Review]
     reviewed_titles: list[repository_api.Title]
-    watchlist_people: dict[
+    watchlist: dict[
         repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
     ]
-    watchlist_collections: list[repository_api.WatchlistCollection]
-    metadata: repository_api.Metadata
-    names: list[repository_api.Name]
+    collections: list[repository_api.Collection]
+    imdb_ratings: repository_api.ImdbRatings
+    cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]

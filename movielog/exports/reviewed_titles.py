@@ -1,10 +1,13 @@
+from collections import defaultdict
 from itertools import count
-from typing import Callable, Optional, Sequence, TypedDict, TypeVar, Union
+from typing import Callable, Literal, Optional, TypedDict, TypeVar, Union
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
+
+CreditKind = Literal["director", "writer", "performer"]
 
 JsonViewing = TypedDict(
     "JsonViewing",
@@ -26,23 +29,31 @@ JsonMoreTitle = TypedDict(
         "grade": str,
         "year": str,
         "slug": str,
+        "genres": list[str],
     },
 )
 
-JsonMoreEntity = TypedDict(
-    "JsonMoreEntity",
+JsonMoreCollection = TypedDict(
+    "JsonMoreCollection",
     {"name": str, "slug": str, "titles": list[JsonMoreTitle]},
 )
 
+JsonMoreCastAndCrewMember = TypedDict(
+    "JsonMoreCastAndCrewMember",
+    {
+        "name": str,
+        "slug": str,
+        "creditKind": CreditKind,
+        "titles": list[JsonMoreTitle],
+    },
+)
 
 JsonMore = TypedDict(
     "JsonMore",
     {
-        "directedBy": list[JsonMoreEntity],
-        "withPerformer": list[JsonMoreEntity],
-        "writtenBy": list[JsonMoreEntity],
+        "castAndCrew": list[JsonMoreCastAndCrewMember],
         "reviews": list[JsonMoreTitle],
-        "inCollection": list[JsonMoreEntity],
+        "collections": list[JsonMoreCollection],
     },
 )
 
@@ -58,11 +69,12 @@ JsonReviewedTitle = TypedDict(
         "countries": list[str],
         "genres": list[str],
         "sortTitle": str,
-        "originalTitle": str,
+        "originalTitle": Optional[str],
         "gradeValue": Optional[int],
         "runtimeMinutes": int,
         "directorNames": list[str],
         "principalCastNames": list[str],
+        "writerNames": list[str],
         "reviewDate": str,
         "reviewYear": str,
         "viewings": list[JsonViewing],
@@ -70,6 +82,10 @@ JsonReviewedTitle = TypedDict(
         "more": JsonMore,
     },
 )
+
+TitleIdsByName = dict[frozenset[str], set[str]]
+CreditIndex = dict[CreditKind, TitleIdsByName]
+CollectionIndex = dict[str, set[str]]
 
 
 def build_json_more_title(
@@ -86,6 +102,7 @@ def build_json_more_title(
         year=title.year,
         slug=review.slug,
         grade=review.grade,
+        genres=title.genres,
     )
 
 
@@ -122,45 +139,6 @@ def build_imdb_id_matcher(
     return lambda item_with_imdb_id: item_with_imdb_id.imdb_id == id_to_match
 
 
-def build_json_more_for_watchlist_entities(
-    review: repository_api.Review,
-    watchlist_entities: Sequence[repository_api.WatchlistEntity],
-    repository_data: RepositoryData,
-) -> list[JsonMoreEntity]:
-    more_entries = []
-    for watchlist_entity in watchlist_entities:
-        reviewed_ids_for_watchlist_entity = (
-            repository_data.reviews.keys() & watchlist_entity.title_ids
-        )
-        if len(reviewed_ids_for_watchlist_entity) < 5:
-            continue
-
-        sliced_titles = slice_list(
-            source_list=sorted(
-                [
-                    repository_data.titles[reviewed_id]
-                    for reviewed_id in reviewed_ids_for_watchlist_entity
-                ],
-                key=lambda title: title.release_sequence,
-            ),
-            matcher=build_imdb_id_matcher(review.imdb_id),
-        )
-
-        more_entries.append(
-            JsonMoreEntity(
-                name=watchlist_entity.name,
-                slug=watchlist_entity.slug,
-                titles=[
-                    build_json_more_title(title=title, repository_data=repository_data)
-                    for title in sliced_titles
-                    if title.imdb_id != review.imdb_id
-                ],
-            )
-        )
-
-    return more_entries
-
-
 def build_json_more_reviews(
     review: repository_api.Review,
     repository_data: RepositoryData,
@@ -182,52 +160,101 @@ def build_json_more_reviews(
     ]
 
 
-def watchlist_people_for_title(
-    title: repository_api.Title,
-    kind: repository_api.WatchlistPersonKind,
+def build_json_more_cast_and_crew(  # noqa: WPS210 WPS231
+    review: repository_api.Review,
+    credit_index: CreditIndex,
     repository_data: RepositoryData,
-) -> list[repository_api.WatchlistPerson]:
+) -> list[JsonMoreCastAndCrewMember]:
+    cast_and_crew: dict[frozenset[str], JsonMoreCastAndCrewMember] = {}
+
+    for credit_kind, indexed_names in credit_index.items():
+        for member_id, member_titles in indexed_names.items():
+            if review.imdb_id not in member_titles:
+                continue
+
+            if member_id in cast_and_crew:
+                continue
+
+            cast_and_crew_member = repository_data.cast_and_crew[member_id]
+
+            sliced_titles = slice_list(
+                source_list=sorted(
+                    [repository_data.titles[title_id] for title_id in member_titles],
+                    key=lambda title: title.release_sequence,
+                ),
+                matcher=build_imdb_id_matcher(review.imdb_id),
+            )
+
+            cast_and_crew[member_id] = JsonMoreCastAndCrewMember(
+                name=cast_and_crew_member.name,
+                slug=cast_and_crew_member.slug,
+                creditKind=credit_kind,
+                titles=[
+                    build_json_more_title(title=title, repository_data=repository_data)
+                    for title in sliced_titles
+                    if title.imdb_id != review.imdb_id
+                ],
+            )
+
     return [
-        watchlist_person
-        for watchlist_person in repository_data.watchlist_people[kind]
-        if title.imdb_id in watchlist_person.title_ids
+        cast_and_crew_member
+        for _member_id, cast_and_crew_member in cast_and_crew.items()
     ]
 
 
+def build_json_more_collections(
+    review: repository_api.Review,
+    collection_index: CollectionIndex,
+    repository_data: RepositoryData,
+) -> list[JsonMoreCollection]:
+    more_collections = []
+
+    for collection_slug, collection_title_ids in collection_index.items():
+        if review.imdb_id not in collection_title_ids:
+            continue
+
+        sliced_titles = slice_list(
+            source_list=sorted(
+                [repository_data.titles[title_id] for title_id in collection_title_ids],
+                key=lambda title: title.release_sequence,
+            ),
+            matcher=build_imdb_id_matcher(review.imdb_id),
+        )
+
+        collection = next(
+            collection
+            for collection in repository_data.collections
+            if collection.slug == collection_slug
+        )
+
+        more_collections.append(
+            JsonMoreCollection(
+                name=collection.name,
+                slug=collection.slug,
+                titles=[
+                    build_json_more_title(title=title, repository_data=repository_data)
+                    for title in sliced_titles
+                    if title.imdb_id != review.imdb_id
+                ],
+            )
+        )
+
+    return more_collections
+
+
 def build_json_more(
-    title: repository_api.Title,
     review: repository_api.Review,
     repository_data: RepositoryData,
+    credit_index: CreditIndex,
+    collection_index: CollectionIndex,
 ) -> JsonMore:
     return JsonMore(
-        directedBy=build_json_more_for_watchlist_entities(
-            review=review,
-            watchlist_entities=watchlist_people_for_title(
-                title=title, kind="directors", repository_data=repository_data
-            ),
-            repository_data=repository_data,
+        castAndCrew=build_json_more_cast_and_crew(
+            review=review, credit_index=credit_index, repository_data=repository_data
         ),
-        withPerformer=build_json_more_for_watchlist_entities(
+        collections=build_json_more_collections(
             review=review,
-            watchlist_entities=watchlist_people_for_title(
-                title=title, kind="performers", repository_data=repository_data
-            ),
-            repository_data=repository_data,
-        ),
-        writtenBy=build_json_more_for_watchlist_entities(
-            review=review,
-            watchlist_entities=watchlist_people_for_title(
-                title=title, kind="writers", repository_data=repository_data
-            ),
-            repository_data=repository_data,
-        ),
-        inCollection=build_json_more_for_watchlist_entities(
-            review=review,
-            watchlist_entities=[
-                collection
-                for collection in repository_data.watchlist_collections
-                if title.imdb_id in collection.title_ids
-            ],
+            collection_index=collection_index,
             repository_data=repository_data,
         ),
         reviews=build_json_more_reviews(review=review, repository_data=repository_data),
@@ -237,6 +264,8 @@ def build_json_more(
 def build_json_reviewed_title(
     review: repository_api.Review,
     repository_data: RepositoryData,
+    credit_index: CreditIndex,
+    collection_index: CollectionIndex,
 ) -> JsonReviewedTitle:
     title = repository_data.titles[review.imdb_id]
     viewings = sorted(
@@ -249,6 +278,10 @@ def build_json_reviewed_title(
         reverse=True,
     )
 
+    original_title = (
+        None if title.original_title == title.title else title.original_title
+    )
+
     return JsonReviewedTitle(
         imdbId=title.imdb_id,
         title=title.title,
@@ -258,11 +291,12 @@ def build_json_reviewed_title(
         countries=title.countries,
         genres=title.genres,
         sortTitle=title.sort_title,
-        originalTitle=title.original_title,
+        originalTitle=original_title,
         gradeValue=review.grade_value,
         runtimeMinutes=title.runtime_minutes,
         releaseSequence=title.release_sequence,
         directorNames=[director.name for director in title.directors],
+        writerNames=list(set(writer.name for writer in title.writers)),
         principalCastNames=[
             performer.name
             for index, performer in enumerate(title.performers)
@@ -283,16 +317,88 @@ def build_json_reviewed_title(
             for viewing in viewings
         ],
         more=build_json_more(
-            title=title, review=review, repository_data=repository_data
+            review=review,
+            repository_data=repository_data,
+            credit_index=credit_index,
+            collection_index=collection_index,
         ),
     )
+
+
+def check_title_for_names(
+    title: repository_api.Title,
+    credit_index: CreditIndex,
+    repository_data: RepositoryData,
+) -> None:
+    director_ids = frozenset((director.imdb_id for director in title.directors))
+
+    performer_ids = frozenset((performer.imdb_id for performer in title.performers))
+
+    writer_ids = frozenset((writer.imdb_id for writer in title.writers))
+
+    for name_key, _name_value in repository_data.cast_and_crew.items():
+        if name_key & writer_ids:
+            credit_index["writer"][name_key].add(title.imdb_id)
+        if name_key & director_ids:
+            credit_index["director"][name_key].add(title.imdb_id)
+        if name_key & performer_ids:
+            credit_index["performer"][name_key].add(title.imdb_id)
+
+
+def add_review_credits(
+    credit_index: CreditIndex, repository_data: RepositoryData
+) -> None:
+    for reviewed_title in repository_data.reviewed_titles:
+        check_title_for_names(reviewed_title, credit_index, repository_data)
+
+
+def build_collection_index(repository_data: RepositoryData) -> CollectionIndex:
+    collection_index = defaultdict(set)
+
+    for collection in repository_data.collections:
+        reviewed_collection_titles = (
+            repository_data.reviews.keys() & collection.title_ids
+        )
+        if len(reviewed_collection_titles) < 5:
+            continue
+
+        collection_index[collection.slug] = reviewed_collection_titles
+
+    return collection_index
+
+
+def build_credit_index(
+    repository_data: RepositoryData,
+) -> CreditIndex:
+    credit_index: CreditIndex = {
+        "director": defaultdict(set),
+        "writer": defaultdict(set),
+        "performer": defaultdict(set),
+    }
+
+    add_review_credits(credit_index, repository_data)
+
+    for credit_type, name_index in list(credit_index.items()):
+        for name_key, title_ids in list(name_index.items()):
+            if len(title_ids) < 5:
+                credit_index[credit_type].pop(name_key)
+
+    return credit_index
 
 
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "reviewed-titles")
 
+    credit_index = build_credit_index(repository_data=repository_data)
+    collection_index = build_collection_index(repository_data=repository_data)
+
     json_reviewed_titles = [
-        build_json_reviewed_title(review=review, repository_data=repository_data)
+        build_json_reviewed_title(
+            review=review,
+            repository_data=repository_data,
+            credit_index=credit_index,
+            collection_index=collection_index,
+        )
         for review in repository_data.reviews.values()
     ]
 

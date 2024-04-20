@@ -8,14 +8,20 @@ from pathlib import Path
 from typing import cast
 
 from movielog.repository import (
+    json_collections,
     json_titles,
     json_viewings,
-    json_watchlist_collections,
     json_watchlist_people,
     markdown_reviews,
     title_data_updater,
 )
 from movielog.utils.logging import logger
+
+ValidTitles = {
+    "tt0064727": "The Bloody Judge",
+    "tt0065036": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
+    "tt0094762": "Blood Delirium",
+}
 
 
 def get_valid_title_ids() -> set[str]:
@@ -23,7 +29,7 @@ def get_valid_title_ids() -> set[str]:
         *[viewing["imdbId"] for viewing in json_viewings.read_all()],
         *[
             title["imdbId"]
-            for collection in json_watchlist_collections.read_all()
+            for collection in json_collections.read_all()
             for title in collection["titles"]
         ],
     ]
@@ -98,8 +104,6 @@ def add_new_titles(new_title_ids: set[str]) -> None:
             directors=[],
             performers=[],
             writers=[],
-            imdbRating=None,
-            imdbVotes=None,
         )
 
         title_data_updater.update_title(new_title)
@@ -161,7 +165,9 @@ def validate() -> None:  # noqa: WPS210, WPS213
 
             if json_title != updated_title:
                 json_file.seek(0)
-                json_file.write(json.dumps(updated_title, default=str, indent=2))
+                json_file.write(
+                    json.dumps(updated_title, default=str, indent=2, ensure_ascii=False)
+                )
                 json_file.truncate()
                 logger.log(
                     "Wrote {}.",

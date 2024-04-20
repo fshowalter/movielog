@@ -6,7 +6,7 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_to_collection
-from movielog.repository.api import WatchlistCollection
+from movielog.repository.api import Collection
 from movielog.repository.datasets.dataset_title import DatasetTitle
 from movielog.repository.db import titles_table
 from tests.cli.conftest import MockInput
@@ -97,15 +97,16 @@ def seed_db() -> None:
 @pytest.fixture(autouse=True)
 def mock_add_title_to_collection(
     mocker: MockerFixture,
-) -> tuple[WatchlistCollection, MagicMock]:
-    collection = WatchlistCollection(
+) -> tuple[Collection, MagicMock]:
+    collection = Collection(
         name="Friday the 13th",
         slug="friday-the-13th",
         title_ids=set(["tt0080761", "tt0082418", "tt0083972"]),
+        description="The Friday the 13th franchise.",
     )
 
     mocker.patch(
-        "movielog.cli.add_to_collection.repository_api.watchlist_collections",
+        "movielog.cli.add_to_collection.repository_api.collections",
         return_value=[collection],
     )
 
@@ -120,7 +121,7 @@ def mock_add_title_to_collection(
 
 def test_calls_add_title_to_collection(
     mock_input: MockInput,
-    mock_add_title_to_collection: tuple[WatchlistCollection, MagicMock],
+    mock_add_title_to_collection: tuple[Collection, MagicMock],
 ) -> None:
     mock_input(
         [
@@ -144,7 +145,7 @@ def test_calls_add_title_to_collection(
 
 def test_does_not_call_add_title_to_collection_if_no_selection(
     mock_input: MockInput,
-    mock_add_title_to_collection: tuple[WatchlistCollection, MagicMock],
+    mock_add_title_to_collection: tuple[Collection, MagicMock],
 ) -> None:
     mock_input(
         [

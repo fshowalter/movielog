@@ -1,5 +1,5 @@
 ---
-date: 2012-06-14
+date: 2024-04-10
 imdb_id: tt0081318
 title: City of the Living Dead (1980)
 grade: B+

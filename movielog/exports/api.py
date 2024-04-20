@@ -2,14 +2,13 @@ from __future__ import annotations
 
 from movielog.exports import (
     cast_and_crew,
+    collections,
     list_tools,
     overrated_disappointments,
     reviewed_titles,
     stats,
     underseen_gems,
     viewings,
-    watchlist_collections,
-    watchlist_people,
     watchlist_progress,
     watchlist_titles,
 )
@@ -17,10 +16,12 @@ from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
+Watchlist = dict[
+    repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
+]
 
-def build_watchlist_people() -> (
-    dict[repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]]
-):
+
+def build_watchlist() -> Watchlist:
     watchlist = {}
 
     for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
@@ -45,6 +46,10 @@ def export_data() -> None:  # noqa: WPS213
         repository_api.titles(), key=lambda title: title.imdb_id
     )
 
+    cast_and_crew_by_imdb_id = list_tools.list_to_dict(
+        repository_api.cast_and_crew(), key=lambda member: member.imdb_id
+    )
+
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(), key=lambda viewing: viewing.sequence
@@ -52,13 +57,13 @@ def export_data() -> None:  # noqa: WPS213
         titles=titles,
         reviews=reviews,
         reviewed_titles=[titles[review_id] for review_id in reviews.keys()],
-        watchlist_people=build_watchlist_people(),
-        watchlist_collections=sorted(
-            repository_api.watchlist_collections(),
+        watchlist=build_watchlist(),
+        collections=sorted(
+            repository_api.collections(),
             key=lambda collection: collection.slug,
         ),
-        metadata=repository_api.metadata(),
-        names=list(repository_api.names()),
+        imdb_ratings=repository_api.imdb_ratings(),
+        cast_and_crew=cast_and_crew_by_imdb_id,
     )
 
     viewings.export(repository_data)
@@ -66,8 +71,7 @@ def export_data() -> None:  # noqa: WPS213
     overrated_disappointments.export(repository_data)
     underseen_gems.export(repository_data)
     watchlist_titles.export(repository_data)
-    watchlist_collections.export(repository_data)
-    watchlist_people.export(repository_data)
+    collections.export(repository_data)
     stats.export(repository_data)
     watchlist_progress.export(repository_data)
     cast_and_crew.export(repository_data)
