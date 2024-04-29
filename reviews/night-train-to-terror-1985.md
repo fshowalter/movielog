@@ -1,7 +1,7 @@
 ---
-date: 2024-01-04
+date: 2024-04-27
 imdb_id: tt0087798
-grade: C-
+grade: C
 slug: night-train-to-terror-1985
 title: Night Train to Terror (1985)
 ---

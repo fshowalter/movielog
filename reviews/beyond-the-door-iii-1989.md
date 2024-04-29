@@ -1,5 +1,5 @@
 ---
-date: 2021-10-30
+date: 2024-04-27
 imdb_id: tt0096920
 title: Beyond the Door III (1989)
 grade: B-
