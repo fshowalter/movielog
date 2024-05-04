@@ -8,6 +8,8 @@ date: 2024-04-24
 
 _Human Lanterns_ may not be a great martial arts movie or a great horror movie, but it proves an intriguing bridge for Shaw Brothers productions. A transitional piece between the straightforward kung-fu actioners like <span data-imdb-id="tt0077559">_The Five Deadly Venoms_</span> that launched the studio to worldwide recognition, and the more overt horrors like <span data-imdb-id="tt0085951">_The Boxer’s Omen_</span> that saw the studio trying to adjust to changing audience tastes.
 
+<!-- end -->
+
 The plot concerns two kung-fu masters, Lung Shu Ai, played by Tony Liu, and Tan Fu, played by Kuan Tai Chen. Both men lord over Phoenix town with their immense wealth and combat prowess. Desperate to one-up his rival, Lung Shu Ai determines to win the annual lantern festival and seeks out a reclusive artisan. Said artisan, named Chao Chun-Fang, turns out to be a man Lung Shu Ai defeated in a duel years prior. Still, Chun-Fang agrees to the commission and sets about crafting a macabre set of lanterns from unusual sources.
 
 Based on the film’s title, you can guess where it’s going. There’s a near-Shakespearean quality of Chun-Fang’s machinations. He disappears victims, leading Lung Shu Ai and Tan Fu to suspect one another, and the local constable to suspect both men. When Chun-Fang stalks his prey, the film takes on slasher overtones, with Chun-Fang dressed in kind of a Michael Myers-meets-Bigfoot getup that would look ridiculous if not for Chun-Fang’s primate-style movements that render the whole disturbing.
