@@ -22,7 +22,7 @@ This adaptation also shoehorns in a lot of cruft. Cooper’s a vegetarian who ha
 
 Speaking of New York, that setting became a budget casualty. Instead, the film unfolds in an unnamed city that looks a lot like Los Angeles[^2].
 
-Despite these unfortunate changes, Cooper and Jones could have salvaged the film. Cooper carries the film with ease, bringing a star-level charisma that helps gloss over his underwritten part. As does Jones, whose near-silent performance as a quiet, suit-clad commuter exuding coiled rage and menace shines as the film’s highlight. But the CGI effects prove too much. The ample blood and gore in Jones’ deadpan murders look animated, pulling you out of the scene, and robbing it of any visceral thrills. Worst of all, it looks cheap, like an afterthought instead of a focus.
+Despite these unfortunate changes, Cooper and Jones could have salvaged the film. Cooper's star-level charisma glosses over his underwritten part. Jones' near-silent performance as a quiet, suit-clad commuter exuding coiled rage and menace shines as the film’s highlight. But the CGI effects prove too much. The ample blood and gore in Jones’ deadpan murders look animated, pulling you out of the scene, and robbing it of any visceral thrills. Worst of all, it looks cheap, like an afterthought instead of a focus.
 
 A frustrating endeavor. The changes to the source material reek of studio notes. The CGI and transplanted setting, of budget restrictions. It needn’t have been this way. The principals could have pivoted to an original story. One that afforded the supporting cast better written parts. One with fewer sets to free up budget for practical effects. And one with an ending that felt earned instead of just shocking.
 
