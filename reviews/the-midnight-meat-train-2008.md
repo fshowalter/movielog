@@ -10,9 +10,9 @@ Sometimes, frustrating films are worse than bad ones. Such is the case with _The
 
 <!-- end -->
 
-Now, I'm not saying the film is a disaster. The studio dumping it into second run theaters[^1] had more to do with studio politics than the film’s quality.
+Despite the studio dumping it straight to second run theaters[^1], it's not a disaster. This move had more to do with studio politics than the film’s quality.
 
-Indeed, there’s a lot to like. Bradley Cooper plays a photographer obsessed with capturing the city’s underbelly. A late-night shoot puts him on the trail of a serial killer--played by Vinnie Jones--who pulverizes late night train riders with a slaughterhouse meat tenderizer. Director Ryuhei Kitamura tinges the train sequences with a fluorescent-blue hue that matches Jones’s icy demeanor, providing an amusing contrast to the stylized, over-the-top violence that includes an eyeball popping out of its socket and hurtling toward the camera.
+Indeed, there’s a lot to like. Bradley Cooper plays a photographer obsessed with capturing the city’s underbelly. A late-night shoot puts him on the trail of a serial killer--played by Vinnie Jones--who pulverizes subway riders with a slaughterhouse meat tenderizer. Director Ryuhei Kitamura tinges the train sequences with a fluorescent-blue hue that matches Jones’s icy demeanor, providing an amusing contrast to the stylized, over-the-top violence that includes an eyeball popping out of its socket and hurtling toward the camera.
 
 But, despite Barker’s involvement, the script makes the same mistake as other failed Barker adaptations, such as <span data-imdb-id="tt0091829">_Rawhead Rex_</span>: it loses the subtext. In Barker’s story, the protagonist was a bored office worker who’d grown disillusioned with New York City. The narrative cut between this officer worker and the serial killer, painting both men as menial laborors in service of an inhuman entity. Barker’s transgressive genius emerges via a streak of black humor, suggesting the killer’s work is more rewarding. He works with his hands and provides a needed service. He murders, but so does a slaughterhouse. The story’s resonance comes from Barker’s implicit analogy, painting corporate America as a slaughterhouse of the soul feeding the inhuman shareholders.
 
