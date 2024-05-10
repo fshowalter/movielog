@@ -18,10 +18,9 @@ Filmed as _Amok Train_, the producers re-titled it on release to capitalize on t
 
 Despite featuring an American cast and director, this was an Italian production. Shot in Serbia, director Jeff Kwitny maximizes the old-world locales, crafting an ominous atmosphere full of dark swamps, dense forests, and desolate-yet-beautiful countrysides.
 
-The plot veers between surreal and absurd. The possessed train beheads one victim, disembowels and bisects another, and immolates a third. But the evil forces’ powers don’t stop there. They manipulate a mail post into impaling another victim, and--in a sequence sure to elicit guffaws at home and roars in the theater,
---they cause the train to jump its tracks and tear across a swamp to plow into two victims before returning to the tracks like nothing happened.
+The plot veers between surreal and absurd. The possessed train beheads one victim, disembowels and bisects another, and immolates a third. But the evil forces’ powers don’t stop there. They manipulate a mail post into impaling another victim, and--in a sequence sure to elicit guffaws at home and roars in the theater--they cause the train to jump its tracks and tear across a swamp to plow into two victims before returning to the tracks like nothing happened.
 
-Indeed, between the exotic locations and gonzo plotting, it feels every bit the Italian horror. But the American performers, non-dubbed soundtrack, and surprising production values evaluate it beyond the genre’s usual limitations. 
+Indeed, between the exotic locations and gonzo plotting, it feels every bit the Italian horror. But the American performers, non-dubbed soundtrack, and surprising production values evaluate it beyond the genre’s usual limitations.
 
 Somehow, the production got access to a real locomotive and a helicopter, facilitating aerial shots of the train barrelling down the countryside as the students climb between cars to reach the engine. It's the sort of spectacle reserved for higher-budget action pictures.
 
