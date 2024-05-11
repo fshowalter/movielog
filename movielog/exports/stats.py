@@ -294,7 +294,7 @@ def build_most_watched_person_list(
         watchlist_person = next(
             (
                 watchlist_person
-                for watchlist_person in repository_data.watchlist[watchlist_kind]
+                for watchlist_person in repository_data.watchlist_people[watchlist_kind]
                 if watchlist_person_matches_indexed_imdb_id(
                     person_imdb_id=watchlist_person.imdb_id,
                     indexed_imdb_id=indexed_imdb_id,
@@ -487,7 +487,7 @@ def extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     )
 
     for person_kind in repository_api.WATCHLIST_PERSON_KINDS:
-        for watchlist_person in repository_data.watchlist[person_kind]:
+        for watchlist_person in repository_data.watchlist_people[person_kind]:
             for title_id in watchlist_person.title_ids:
                 watchlist_title_ids.add(title_id)
 

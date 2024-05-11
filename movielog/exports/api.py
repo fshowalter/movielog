@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from collections import defaultdict
+
 from movielog.exports import (
     cast_and_crew,
     collections,
@@ -12,16 +14,17 @@ from movielog.exports import (
     watchlist_progress,
     watchlist_titles,
 )
-from movielog.exports.repository_data import RepositoryData
+from movielog.exports.repository_data import (
+    RepositoryData,
+    WachlistTitles,
+    WatchlistPeople,
+    WatchlistTitlesKey,
+)
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
-Watchlist = dict[
-    repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
-]
 
-
-def build_watchlist() -> Watchlist:
+def _build_watchlist_people() -> WatchlistPeople:
     watchlist = {}
 
     for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
@@ -31,6 +34,47 @@ def build_watchlist() -> Watchlist:
         )
 
     return watchlist
+
+
+def _append_name_if_not_reviewed(
+    name: str,
+    title_id: str,
+    index: WachlistTitles,
+    key: WatchlistTitlesKey,
+    reviews: dict[str, repository_api.Review],
+) -> None:
+    if title_id not in reviews.keys():
+        index[title_id][key].append(name)
+
+
+def _build_watchlist_titles(  # noqa: WPS210
+    watchlist_people: WatchlistPeople,
+    reviews: dict[str, repository_api.Review],
+) -> WachlistTitles:
+    watchlist_title_index: WachlistTitles = defaultdict(lambda: defaultdict(list))
+
+    for collection in repository_api.collections():
+        for collection_title_id in collection.title_ids:
+            _append_name_if_not_reviewed(
+                name=collection.name,
+                title_id=collection_title_id,
+                key="collections",
+                index=watchlist_title_index,
+                reviews=reviews,
+            )
+
+    for watchlist_key in repository_api.WATCHLIST_PERSON_KINDS:
+        for watchlist_person in watchlist_people[watchlist_key]:
+            for title_id in watchlist_person.title_ids:
+                _append_name_if_not_reviewed(
+                    name=watchlist_person.name,
+                    title_id=title_id,
+                    index=watchlist_title_index,
+                    key=watchlist_key,
+                    reviews=reviews,
+                )
+
+    return watchlist_title_index
 
 
 def export_data() -> None:  # noqa: WPS213
@@ -50,6 +94,8 @@ def export_data() -> None:  # noqa: WPS213
         repository_api.cast_and_crew(), key=lambda member: member.imdb_id
     )
 
+    watchlist_people = _build_watchlist_people()
+
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(), key=lambda viewing: viewing.sequence
@@ -57,7 +103,8 @@ def export_data() -> None:  # noqa: WPS213
         titles=titles,
         reviews=reviews,
         reviewed_titles=[titles[review_id] for review_id in reviews.keys()],
-        watchlist=build_watchlist(),
+        watchlist_people=watchlist_people,
+        watchlist_titles=_build_watchlist_titles(watchlist_people, reviews),
         collections=sorted(
             repository_api.collections(),
             key=lambda collection: collection.slug,
