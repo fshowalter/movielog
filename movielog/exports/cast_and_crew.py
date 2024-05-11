@@ -22,6 +22,10 @@ JsonTitle = TypedDict(
         "reviewDate": Optional[str],
         "viewingSequence": Optional[str],
         "creditedAs": list[CreditType],
+        "watchlistDirectorNames": list[str],
+        "watchlistPerformerNames": list[str],
+        "watchlistWriterNames": list[str],
+        "collectionNames": list[str],
     },
 )
 
@@ -97,7 +101,7 @@ def add_watchlist_credits(  # noqa: WPS210
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
-        for watchlist_person in repository_data.watchlist[watchlist_person_kind]:
+        for watchlist_person in repository_data.watchlist_people[watchlist_person_kind]:
             for title_id in watchlist_person.title_ids:
                 title = repository_data.titles[title_id]
                 check_title_for_names(title, cast_and_crew_by_imdb_id)
@@ -140,6 +144,26 @@ def build_json_title(
             if viewings and review
             else None
         ),
+        watchlistDirectorNames=[
+            name
+            for name in repository_data.watchlist_titles[title_id]["directors"]
+            if not review
+        ],
+        watchlistPerformerNames=[
+            name
+            for name in repository_data.watchlist_titles[title_id]["performers"]
+            if not review
+        ],
+        watchlistWriterNames=[
+            name
+            for name in repository_data.watchlist_titles[title_id]["writers"]
+            if not review
+        ],
+        collectionNames=[
+            name
+            for name in repository_data.watchlist_titles[title_id]["collections"]
+            if not review
+        ],
     )
 
 
