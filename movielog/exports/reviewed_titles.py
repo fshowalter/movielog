@@ -335,7 +335,7 @@ def _build_json_reviewed_title(
         runtimeMinutes=title.runtime_minutes,
         releaseSequence=title.release_sequence,
         directorNames=[director.name for director in title.directors],
-        writerNames=list(set(writer.name for writer in title.writers)),
+        writerNames=list(dict.fromkeys(writer.name for writer in title.writers)),
         principalCastNames=[
             performer.name
             for index, performer in enumerate(title.performers)
