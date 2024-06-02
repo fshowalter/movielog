@@ -87,4 +87,4 @@ Instead, the story sees Carey’s pathological skills aid him in discovering a k
 
 Jennifer O’Neill’s character proves another casualty of this forced plotting. She charms from the outset, endearing herself to us and showing us what Carey sees in her from her first scenes. But then she disappears. You could cut her out of the film with no impact to the story. Granted, I prefer her disappearing than being forced into a third-act damsel-in-distress role, but a better script would have done more with her character.
 
-Still, the first two acts shine. Coburn tool around in his wood-paneled station wagon, pushes his nose into powerful people’s business, and intimidates confessions out of their snobbish teenage daughters. The more people tell him to stop, the deeper he digs. Vintage Marlowe.
+Still, the first two acts shine. Coburn tools around in his wood-paneled station wagon, pushes his nose into powerful people’s business, and intimidates confessions out of their snobbish teenage daughters. The more people tell him to stop, the deeper he digs. Vintage Marlowe.
