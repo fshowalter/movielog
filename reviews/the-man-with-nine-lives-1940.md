@@ -33,7 +33,8 @@ Now, the groundwork laid, the film posits its moral dilemma: Should Karloff turn
 Now, what are the chances Karloff can recreate his solution? On the first try? Below 50%. But given three tries, a reasonable sense of recall, and the opportunity to learn from his mistakes, I give Karloff an 80% chance in total.
 
 Those are compelling odds. A better movie would have exploited this quandary to craft a riveting thriller.
-But this film can't decide what it wants to be. We got lots of shady shots of Karloff mixing vials of bubbling and smoking liquids, as though the cinematographer thought he was shooting a gothic horror. The rustic underground laboratory setting could double as a villain's mine hideout in a western. And the script has shifted to a medical drama about a pragmatic doctor making a choice between two evils.
+
+But this film can't decide what it wants to be. We got lots of shadow-filled shots of Karloff mixing vials of bubbling and smoking liquids, as though the cinematographer thought he was shooting a gothic horror. The rustic underground laboratory setting could double as a villain's "old mine hideout" in a Poverty Row western. And the script has shifted to a medical drama about a pragmatic doctor choosing between two evils.
 
 For his part, Karloff delivers the right amount of nuance. Allowing his character's justified frustration and anger to surface but never tipping into megalomania. He's the only three-dimensional character in the picture.
 
