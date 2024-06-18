@@ -10,7 +10,7 @@ I watched _Lucifer’s Women_ after seeing the trailer during Alamo Drafthouse�
 
 <!-- end -->
 
-The plot concerns an academic, played by Larry Hankin, who’s possessed by the reincarnated spirit of Svengali and tasked by his publisher with seducing a young exotic dancer named Trilby. Said publisher wants to sacrifice Trilby as part of a Satanic ritual to prolong his and Svengali’s existence on Earth.
+The plot concerns an academic, played by Larry Hankin, who’s possessed by the reincarnated spirit of Svengali and tasked by his publisher with seducing a young exotic dancer named Trilby. Said publisher wants to sacrifice Trilby as part of a satanic ritual to prolong his and Svengali’s existence on Earth.
 
 This sure sounds like a satanic shocker, but it accounts for maybe twenty minutes of the film’s runtime.
 
