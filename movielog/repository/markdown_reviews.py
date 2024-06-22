@@ -18,7 +18,7 @@ FOLDER_NAME = "reviews"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
 
-def represent_none(self: Any, _: Any) -> Any:
+def _represent_none(self: Any, _: Any) -> Any:
     return self.represent_scalar("tag:yaml.org,2002:null", "")
 
 
@@ -70,7 +70,7 @@ def create_or_update(
             )
         )
 
-    serialize(markdown_review)
+    _serialize(markdown_review)
 
     return markdown_review
 
@@ -85,7 +85,7 @@ def read_all() -> Iterable[MarkdownReview]:
             )
 
 
-def generate_file_path(markdown_review: MarkdownReview) -> str:
+def _generate_file_path(markdown_review: MarkdownReview) -> str:
     file_path = os.path.join(FOLDER_NAME, "{0}.md".format(markdown_review.yaml["slug"]))
 
     path_tools.ensure_file_path(file_path)
@@ -93,10 +93,10 @@ def generate_file_path(markdown_review: MarkdownReview) -> str:
     return file_path
 
 
-def serialize(markdown_review: MarkdownReview) -> str:
-    yaml.add_representer(type(None), represent_none)
+def _serialize(markdown_review: MarkdownReview) -> str:
+    yaml.add_representer(type(None), _represent_none)
 
-    file_path = generate_file_path(markdown_review)
+    file_path = _generate_file_path(markdown_review)
 
     stripped_content = str(markdown_review.review_content or "").strip()
 

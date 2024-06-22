@@ -1,8 +1,7 @@
-import json
 import os
 import re
 from glob import glob
-from typing import Iterable, Optional, TypedDict, cast
+from typing import Any, Iterable, Optional, TypedDict, cast
 
 import yaml
 
@@ -15,7 +14,7 @@ FOLDER_NAME = "viewings"
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
 MarkdownViewing = TypedDict(
-    "JsonViewing",
+    "MarkdownViewing",
     {
         "sequence": int,
         "date": str,
@@ -29,6 +28,10 @@ MarkdownViewing = TypedDict(
 )
 
 
+def _represent_none(self: Any, _: Any) -> Any:
+    return self.represent_scalar("tag:yaml.org,2002:null", "null")
+
+
 def create(  # noqa: WPS211
     imdb_id: str,
     date: str,
@@ -36,11 +39,11 @@ def create(  # noqa: WPS211
     medium: Optional[str],
     venue: Optional[str],
     medium_notes: Optional[str],
-) -> JsonViewing:
+) -> MarkdownViewing:
     assert medium or venue
 
-    json_viewing = MarkdownViewing(
-        sequence=next_sequence(),
+    markdown_viewing = MarkdownViewing(
+        sequence=_next_sequence(),
         imdbId=imdb_id,
         date=date,
         slug=slugifier.slugify_title(full_title),
@@ -50,26 +53,39 @@ def create(  # noqa: WPS211
         mediumNotes=medium_notes,
     )
 
-    serialize(json_viewing)
+    _serialize(markdown_viewing)
 
-    return json_viewing
+    return markdown_viewing
 
 
-def generate_file_path(json_viewing: MarkdownViewing) -> str:
-    file_name = "{0:04d}-{1}".format(json_viewing["sequence"], json_viewing["slug"])
+def _generate_file_path(markdown_viewing: MarkdownViewing) -> str:
+    file_name = "{0:04d}-{1}".format(
+        markdown_viewing["sequence"], markdown_viewing["slug"]
+    )
 
-    file_path = os.path.join(FOLDER_NAME, "{0}.json".format(file_name))
+    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
 
     path_tools.ensure_file_path(file_path)
 
     return file_path
 
 
-def serialize(json_viewing: MarkdownViewing) -> str:
-    file_path = generate_file_path(json_viewing)
+def _serialize(markdown_viewing: MarkdownViewing) -> str:
+    yaml.add_representer(type(None), _represent_none)
 
-    with open(file_path, "w") as output_file:
-        output_file.write(json.dumps(json_viewing, indent=2, default=str))
+    file_path = _generate_file_path(markdown_viewing)
+
+    with open(file_path, "w") as markdown_file:
+        markdown_file.write("---\n")
+        yaml.dump(
+            markdown_viewing,
+            encoding="utf-8",
+            allow_unicode=True,
+            default_flow_style=False,
+            sort_keys=False,
+            stream=markdown_file,
+        )
+        markdown_file.write("---\n\n")
 
     logger.log("Wrote {}.", file_path)
 
@@ -88,7 +104,7 @@ class SequenceError(Exception):
         self.message = message
 
 
-def next_sequence() -> int:
+def _next_sequence() -> int:
     existing_instances = sorted(read_all(), key=lambda viewing: viewing["sequence"])
     next_sequence_number = len(existing_instances) + 1
     last_instance: Optional[MarkdownViewing] = None

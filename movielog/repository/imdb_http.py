@@ -50,7 +50,7 @@ class TitlePage:
     release_date: str
 
 
-def parse_roles(person: imdb.Person.Person) -> list[str]:
+def _parse_roles(person: imdb.Person.Person) -> list[str]:
     if isinstance(person.currentRole, list):
         return [role["name"] for role in person.currentRole if role.keys()]
 
@@ -60,7 +60,7 @@ def parse_roles(person: imdb.Person.Person) -> list[str]:
     return []
 
 
-def build_title_credits_for_name_page(
+def _build_title_credits_for_name_page(
     imdb_name_page: imdb.Person.Person,
 ) -> dict[CreditKind, list[TitleCredit]]:
     credits = {}
@@ -88,7 +88,7 @@ def build_title_credits_for_name_page(
     return credits
 
 
-def build_name_credits_for_title_page(  # noqa: WPS210, WPS231
+def _build_name_credits_for_title_page(  # noqa: WPS210, WPS231
     imdb_title_page: imdb.Movie.Movie,
 ) -> dict[CreditKind, list[NameCredit]]:
     credit_kind_map: dict[CreditKind, str] = {
@@ -115,7 +115,7 @@ def build_name_credits_for_title_page(  # noqa: WPS210, WPS231
             )
 
             if credit_kind == "performer":
-                name_credit.roles = parse_roles(imdb_credit)
+                name_credit.roles = _parse_roles(imdb_credit)
 
             credits[credit_kind].append(name_credit)
 
@@ -125,7 +125,7 @@ def build_name_credits_for_title_page(  # noqa: WPS210, WPS231
 def get_name_page(imdb_id: str) -> NamePage:
     imdb_name_page = imdb_http.get_person(imdb_id[2:])
 
-    return NamePage(credits=build_title_credits_for_name_page(imdb_name_page))
+    return NamePage(credits=_build_title_credits_for_name_page(imdb_name_page))
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
@@ -139,6 +139,6 @@ def get_title_page(imdb_id: str) -> TitlePage:
         genres=imdb_movie.get("genres", []),
         countries=imdb_movie.get("countries", []),
         sound_mix=set(imdb_movie.get("sound mix", [])),
-        credits=build_name_credits_for_title_page(imdb_movie),
+        credits=_build_name_credits_for_title_page(imdb_movie),
         release_date=get_release_date(imdb_id, imdb_movie.get("year")),
     )

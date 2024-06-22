@@ -56,11 +56,11 @@ PageData = TypedDict(
 )
 
 
-def unknown_date(release_year: str) -> str:
+def _unknown_date(release_year: str) -> str:
     return "{0}-??-??".format(release_year or "????")
 
 
-def get_release_date_page_data(imdb_id: str) -> PageData:
+def _get_release_date_page_data(imdb_id: str) -> PageData:
     session = requests.Session()
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
 
@@ -88,7 +88,7 @@ def get_release_date_page_data(imdb_id: str) -> PageData:
     return cast(PageData, json.loads(str(script_tag.string)))
 
 
-def parse_first_release_date(page_data: PageData) -> Optional[str]:
+def _parse_first_release_date(page_data: PageData) -> Optional[str]:
     releases = next(
         (
             category
@@ -113,12 +113,12 @@ def parse_first_release_date(page_data: PageData) -> Optional[str]:
 
 
 def get_release_date(imdb_id: str, release_year: str) -> str:
-    page_data = get_release_date_page_data(imdb_id=imdb_id)
+    page_data = _get_release_date_page_data(imdb_id=imdb_id)
 
-    first_release_date = parse_first_release_date(page_data=page_data)
+    first_release_date = _parse_first_release_date(page_data=page_data)
 
     if not first_release_date:
-        return unknown_date(release_year)
+        return _unknown_date(release_year)
 
     try:
         return datetime.strptime(first_release_date, "%B %d, %Y").date().isoformat()
@@ -126,4 +126,4 @@ def get_release_date(imdb_id: str, release_year: str) -> str:
         try:  # noqa: WPS505
             return datetime.strptime(first_release_date, "%B %Y").date().isoformat()
         except ValueError:
-            return unknown_date(release_year)
+            return _unknown_date(release_year)

@@ -41,6 +41,8 @@ def convert_viewings_to_yaml() -> None:
                 markdown_file.write("---\n\n")
                 markdown_file.write(viewing_notes_content)
 
+        os.remove(file_path)
+
 
 if __name__ == "__main__":
     convert_viewings_to_yaml()
