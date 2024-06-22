@@ -22,20 +22,20 @@ JsonCastAndCrewMember = TypedDict(
 )
 
 
-def _generate_name_slug(name: str) -> str:
+def generate_name_slug(name: str) -> str:
     return slugifier.slugify_name(name)
 
 
-def _generate_file_path(json_name: JsonCastAndCrewMember) -> str:
+def generate_file_path(json_name: JsonCastAndCrewMember) -> str:
     if not json_name["slug"]:
-        json_name["slug"] = _generate_name_slug(json_name["name"])
+        json_name["slug"] = generate_name_slug(json_name["name"])
 
     file_name = "{0}.json".format(json_name["slug"])
     return os.path.join(FOLDER_NAME, file_name)
 
 
 def serialize(json_name: JsonCastAndCrewMember) -> None:
-    file_path = _generate_file_path(json_name)
+    file_path = generate_file_path(json_name)
     path_tools.ensure_file_path(file_path)
 
     with open(file_path, "w", encoding="utf8") as output_file:
