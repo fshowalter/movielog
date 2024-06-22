@@ -10,9 +10,9 @@ from typing import cast
 from movielog.repository import (
     json_collections,
     json_titles,
-    json_viewings,
     json_watchlist_people,
     markdown_reviews,
+    markdown_viewings,
     title_data_updater,
 )
 from movielog.utils.logging import logger
@@ -24,9 +24,9 @@ ValidTitles = {
 }
 
 
-def get_valid_title_ids() -> set[str]:
+def _get_valid_title_ids() -> set[str]:
     title_ids = [
-        *[viewing["imdbId"] for viewing in json_viewings.read_all()],
+        *[viewing["imdbId"] for viewing in markdown_viewings.read_all()],
         *[
             title["imdbId"]
             for collection in json_collections.read_all()
@@ -127,7 +127,7 @@ def rename_files_marked_for_rename(
 
 
 def validate() -> None:  # noqa: WPS210, WPS213
-    title_ids_to_process = get_valid_title_ids()
+    title_ids_to_process = _get_valid_title_ids()
     files_to_remove = []
     files_to_rename = []
 

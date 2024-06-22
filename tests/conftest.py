@@ -9,7 +9,7 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog.repository import imdb_http, json_viewings
+from movielog.repository import imdb_http, markdown_viewings
 from movielog.repository.datasets import downloader
 from movielog.repository.db import db
 
@@ -28,7 +28,7 @@ def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
 
 
 original_download_dir = downloader.DOWNLOAD_DIR
-original_viewings_dir = json_viewings.FOLDER_NAME
+original_viewings_dir = markdown_viewings.FOLDER_NAME
 
 
 @pytest.fixture(autouse=True)
@@ -62,7 +62,7 @@ def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 @pytest.fixture(autouse=True)
 def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
-        "movielog.repository.json_viewings.FOLDER_NAME",
+        "movielog.repository.markdown_viewings.FOLDER_NAME",
         tmp_path / original_viewings_dir,
     )
 

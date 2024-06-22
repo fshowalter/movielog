@@ -20,7 +20,7 @@ VALID_KINDS = (
 )
 
 
-def add_title_page_to_watchlist_person_excluded_titles(
+def _add_title_page_to_watchlist_person_excluded_titles(
     title_page: imdb_http.TitlePage,
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     reason: str,
@@ -39,7 +39,7 @@ def add_title_page_to_watchlist_person_excluded_titles(
     )
 
 
-def add_title_page_to_watchlist_person_titles(
+def _add_title_page_to_watchlist_person_titles(
     title_page: imdb_http.TitlePage,
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
 ) -> None:
@@ -57,7 +57,7 @@ def add_title_page_to_watchlist_person_titles(
     )
 
 
-def all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
+def _all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
     title_page: imdb_http.TitlePage,
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
@@ -95,7 +95,7 @@ def all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
     )
 
 
-def get_title_ids_from_name_pages_for_credit_kind(
+def _get_title_ids_from_name_pages_for_credit_kind(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
 ) -> set[str]:
@@ -111,7 +111,7 @@ def get_title_ids_from_name_pages_for_credit_kind(
     return set.intersection(*filmographies)
 
 
-def remove_watchlist_person_titles_not_in_given_title_ids(
+def _remove_watchlist_person_titles_not_in_given_title_ids(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     credit_title_ids: set[str],
 ) -> None:
@@ -133,7 +133,7 @@ def remove_watchlist_person_titles_not_in_given_title_ids(
             )
 
 
-def filter_existing_titles_for_watchlist_person(
+def _filter_existing_titles_for_watchlist_person(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     credit_title_ids: set[str],
 ) -> set[str]:
@@ -149,7 +149,7 @@ def filter_existing_titles_for_watchlist_person(
     )
 
 
-def title_page_is_invalid_credit(
+def _title_page_is_invalid_credit(
     title_page: imdb_http.TitlePage,
 ) -> tuple[bool, str]:
     if title_page.kind not in VALID_KINDS:
@@ -165,19 +165,19 @@ def title_page_is_invalid_credit(
     return (False, "None")
 
 
-def update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
+def _update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
 ) -> None:
-    credit_title_ids = get_title_ids_from_name_pages_for_credit_kind(
+    credit_title_ids = _get_title_ids_from_name_pages_for_credit_kind(
         watchlist_person=watchlist_person, kind=kind
     )
 
-    remove_watchlist_person_titles_not_in_given_title_ids(
+    _remove_watchlist_person_titles_not_in_given_title_ids(
         watchlist_person=watchlist_person, credit_title_ids=credit_title_ids
     )
 
-    new_credit_title_ids = filter_existing_titles_for_watchlist_person(
+    new_credit_title_ids = _filter_existing_titles_for_watchlist_person(
         watchlist_person=watchlist_person, credit_title_ids=credit_title_ids
     )
 
@@ -200,10 +200,10 @@ def update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
             )
             continue
 
-        title_page_is_invalid, reason = title_page_is_invalid_credit(title_page)
+        title_page_is_invalid, reason = _title_page_is_invalid_credit(title_page)
 
         if title_page_is_invalid:
-            add_title_page_to_watchlist_person_excluded_titles(
+            _add_title_page_to_watchlist_person_excluded_titles(
                 title_page=title_page,
                 watchlist_person=watchlist_person,
                 reason=reason,
@@ -213,18 +213,18 @@ def update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
         (
             all_credits_are_invalid,
             reason,
-        ) = all_credits_on_title_page_are_invalid_for_watchlist_person(
+        ) = _all_credits_on_title_page_are_invalid_for_watchlist_person(
             title_page=title_page, watchlist_person=watchlist_person, kind=kind
         )
         if all_credits_are_invalid:
-            add_title_page_to_watchlist_person_excluded_titles(
+            _add_title_page_to_watchlist_person_excluded_titles(
                 title_page=title_page,
                 watchlist_person=watchlist_person,
                 reason=reason,
             )
             continue
 
-        add_title_page_to_watchlist_person_titles(
+        _add_title_page_to_watchlist_person_titles(
             title_page=title_page, watchlist_person=watchlist_person
         )
 
@@ -244,7 +244,7 @@ WatchlistKindToCreditKind: dict[json_watchlist_people.Kind, imdb_http.CreditKind
 }
 
 
-def get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
+def _get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
     progress_file_path = os.path.join(
         watchlist_serializer.FOLDER_NAME, kind, ".progress"
     )
@@ -258,7 +258,7 @@ def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
 
-        progress_file_path = get_progress_file_path(kind)
+        progress_file_path = _get_progress_file_path(kind)
         progress_files.append(progress_file_path)
 
         with open(
@@ -283,7 +283,7 @@ def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
                 updated_watchlist_person = deepcopy(watchlist_person)
 
                 try:
-                    update_watchlist_person_titles_for_credit_kind(
+                    _update_watchlist_person_titles_for_credit_kind(
                         updated_watchlist_person, WatchlistKindToCreditKind[kind]
                     )
                 except imdb_http.IMDbDataAccessError:

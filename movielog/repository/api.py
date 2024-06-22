@@ -10,9 +10,9 @@ from movielog.repository import (  # noqa: WPS235
     json_collections,
     json_imdb_ratings,
     json_titles,
-    json_viewings,
     json_watchlist_people,
     markdown_reviews,
+    markdown_viewings,
     title_data_updater,
     title_data_validator,
     watchlist_credits_updater,
@@ -231,7 +231,9 @@ def titles() -> Iterable[Title]:
         )
 
 
-def _hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
+def _hydrate_markdown_viewing(
+    json_viewing: markdown_viewings.MarkdownViewing,
+) -> Viewing:
     return Viewing(
         imdb_id=json_viewing["imdbId"],
         sequence=json_viewing["sequence"],
@@ -244,8 +246,8 @@ def _hydrate_json_viewing(json_viewing: json_viewings.JsonViewing) -> Viewing:
 
 
 def viewings() -> Iterable[Viewing]:
-    for json_viewing in json_viewings.read_all():
-        yield _hydrate_json_viewing(json_viewing)
+    for markdown_viewing in markdown_viewings.read_all():
+        yield _hydrate_markdown_viewing(markdown_viewing)
 
 
 def _hydrate_markdown_review(
@@ -318,8 +320,8 @@ def create_viewing(  # noqa: WPS211
     venue: Optional[str],
     medium_notes: Optional[str],
 ) -> Viewing:
-    return _hydrate_json_viewing(
-        json_viewings.create(
+    return _hydrate_markdown_viewing(
+        markdown_viewings.create(
             imdb_id=imdb_id,
             full_title=full_title,
             date=date.isoformat(),

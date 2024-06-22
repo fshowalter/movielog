@@ -22,7 +22,7 @@ JsonCollection = TypedDict(
 
 
 def create(name: str) -> JsonCollection:
-    new_collection_slug = generate_collection_slug(name)
+    new_collection_slug = _generate_collection_slug(name)
 
     existing_collection = next(
         (
@@ -65,20 +65,20 @@ def read_all() -> Iterable[JsonCollection]:
             yield (cast(JsonCollection, json.load(json_file)))
 
 
-def generate_collection_slug(name: str) -> str:
+def _generate_collection_slug(name: str) -> str:
     return slugifier.slugify_name(name)
 
 
-def generate_file_path(json_collection: JsonCollection) -> str:
+def _generate_file_path(json_collection: JsonCollection) -> str:
     if not json_collection["slug"]:
-        json_collection["slug"] = generate_collection_slug(json_collection["name"])
+        json_collection["slug"] = _generate_collection_slug(json_collection["name"])
 
     file_name = "{0}.json".format(json_collection["slug"])
     return os.path.join(FOLDER_NAME, file_name)
 
 
 def serialize(json_name: JsonCollection) -> None:
-    file_path = generate_file_path(json_name)
+    file_path = _generate_file_path(json_name)
     path_tools.ensure_file_path(file_path)
 
     with open(file_path, "w", encoding="utf8") as output_file:

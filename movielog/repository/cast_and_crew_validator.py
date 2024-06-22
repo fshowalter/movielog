@@ -14,7 +14,7 @@ from movielog.repository import (
 from movielog.utils.logging import logger
 
 
-def get_watchlist_people() -> list[json_watchlist_people.JsonWatchlistPerson]:
+def _get_watchlist_people() -> list[json_watchlist_people.JsonWatchlistPerson]:
     name_slugs: set[str] = set()
     watchlist_people: list[json_watchlist_people.JsonWatchlistPerson] = []
 
@@ -27,7 +27,7 @@ def get_watchlist_people() -> list[json_watchlist_people.JsonWatchlistPerson]:
     return watchlist_people
 
 
-def validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
+def _validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
     correct_slug = json_cast_and_crew.generate_name_slug(json_name["name"])
 
     existing_slug = json_name["slug"]
@@ -45,11 +45,11 @@ def validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
     )
 
 
-def get_review_ids() -> set[str]:
+def _get_review_ids() -> set[str]:
     return set([review.yaml["imdb_id"] for review in markdown_reviews.read_all()])
 
 
-def add_new_cast_and_crew(
+def _add_new_cast_and_crew(
     watchlist_people: list[json_watchlist_people.JsonWatchlistPerson],
 ) -> None:
     for index, watchlist_person in enumerate(watchlist_people):
@@ -69,7 +69,7 @@ def add_new_cast_and_crew(
         json_cast_and_crew.serialize(new_member)
 
 
-def rename_files_marked_for_rename(
+def _rename_files_marked_for_rename(
     files_marked_for_rename: list[tuple[str, str]]
 ) -> None:
     for old_file_path, new_file_path in files_marked_for_rename:
@@ -78,7 +78,7 @@ def rename_files_marked_for_rename(
 
 
 def validate() -> None:  # noqa: WPS210, WPS213
-    watchlist_people = get_watchlist_people()
+    watchlist_people = _get_watchlist_people()
     files_to_rename = []
 
     for file_path in glob(os.path.join(json_cast_and_crew.FOLDER_NAME, "*.json")):
@@ -89,7 +89,7 @@ def validate() -> None:  # noqa: WPS210, WPS213
 
             updated_name = deepcopy(json_name)
 
-            validate_slug(updated_name)
+            _validate_slug(updated_name)
 
             correct_file_path = json_cast_and_crew.generate_file_path(updated_name)
 
@@ -108,6 +108,6 @@ def validate() -> None:  # noqa: WPS210, WPS213
                 if watchlist_person["imdbId"] != json_name["imdbId"]
             ]
 
-    rename_files_marked_for_rename(files_to_rename)
+    _rename_files_marked_for_rename(files_to_rename)
 
-    add_new_cast_and_crew(watchlist_people)
+    _add_new_cast_and_crew(watchlist_people)
