@@ -1,14 +1,13 @@
 ---
 sequence: 1571
 imdbId: tt0082334
-date: '2024-02-18'
+date: "2024-02-18"
 slug: the-entity-1982
 medium: Blu-ray
 venue: null
 venueNotes: null
 mediumNotes: Shout Factory, 2019
 ---
-
 
 Commentary watch. Daniel Kremer (author of _Sidney J. Furie: Life and Films_) offers less a running analysis and more of a Sidney Furie appreciation audio essay.
 
