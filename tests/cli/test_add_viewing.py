@@ -90,11 +90,19 @@ def select_venue() -> list[str]:
     return select_option(1)
 
 
+def enter_medium_notes(notes: str) -> list[str]:
+    return enter_text(notes)
+
+
 def enter_grade(grade: str) -> list[str]:
     return enter_text(grade)
 
 
 def add_another_viewing(confirm: ConfirmType) -> list[str]:
+    return [confirm]
+
+
+def enter_if_review(confirm: ConfirmType) -> list[str]:
     return [confirm]
 
 
@@ -133,6 +141,8 @@ def test_calls_add_viewing_and_create_or_update_review(
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
             *select_medium(),
+            *enter_medium_notes("Warner Bros., 2012"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -144,6 +154,7 @@ def test_calls_add_viewing_and_create_or_update_review(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        medium_notes="Warner Bros., 2012",
         venue=None,
         date=date(2012, 3, 12),
     )
@@ -170,6 +181,8 @@ def test_can_confirm_title(
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
             *select_medium(),
+            *enter_medium_notes("Warner Bros., 2017"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -180,6 +193,7 @@ def test_can_confirm_title(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        medium_notes="Warner Bros., 2017",
         venue=None,
         date=date(2012, 3, 12),
     )
@@ -237,6 +251,8 @@ def test_guards_against_bad_dates(
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
             *select_medium(),
+            *enter_medium_notes("Warner Bros., 2012"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -247,6 +263,7 @@ def test_guards_against_bad_dates(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        medium_notes="Warner Bros., 2012",
         venue=None,
         date=date(2012, 3, 12),
     )
@@ -272,6 +289,8 @@ def test_can_confirm_date(
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
             *select_medium(),
+            *enter_medium_notes("Warner Bros., 2012"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -282,6 +301,7 @@ def test_can_confirm_date(
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="TCM HD",
+        medium_notes="Warner Bros., 2012",
         venue=None,
         date=date(2012, 3, 12),
     )
@@ -304,6 +324,8 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
             End,
             Enter,
             *enter_text("4k UHD Blu-ray"),
+            *enter_medium_notes("Warner Bros., 2023"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -314,6 +336,7 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
         imdb_id="tt0053221",
         full_title="Rio Bravo (1959)",
         medium="4k UHD Blu-ray",
+        medium_notes="Warner Bros., 2023",
         venue=None,
         date=date(2012, 3, 12),
     )
@@ -329,6 +352,7 @@ def test_can_create_with_venue(
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("v"),
             *select_venue(),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -341,6 +365,7 @@ def test_can_create_with_venue(
         medium=None,
         venue="AMC Tysons Corner 16",
         date=date(2012, 3, 12),
+        medium_notes=None,
     )
 
 
@@ -354,6 +379,7 @@ def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -
             End,
             Enter,
             *enter_text("Alamo Drafthouse"),
+            *enter_if_review("y"),
             *enter_grade("A+"),
             *add_another_viewing("n"),
         ]
@@ -366,6 +392,7 @@ def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -
         medium=None,
         venue="Alamo Drafthouse",
         date=date(2012, 3, 12),
+        medium_notes=None,
     )
 
 

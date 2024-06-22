@@ -8,7 +8,7 @@ from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 from prompt_toolkit.validation import Validator
 
-from movielog.cli import ask, ask_medium_or_venue, radio_list, select_title
+from movielog.cli import ask, ask_medium_or_venue, ask_review, radio_list, select_title
 from movielog.repository import api as repository_api
 
 Option = Tuple[Optional[str], AnyFormattedText]
@@ -18,7 +18,9 @@ Stages = Literal[
     "ask_for_date",
     "ask_if_medium_or_venue",
     "ask_for_medium",
+    "ask_for_medium_notes",
     "ask_for_venue",
+    "ask_create_review",
     "ask_for_grade",
     "persist_viewing",
     "end",
@@ -31,9 +33,11 @@ class State:
     title: Optional[select_title.SearchResult] = None
     date: Optional[datetime.date] = None
     medium: Optional[str] = None
+    medium_notes: Optional[str] = None
     venue: Optional[str] = None
     grade: Optional[str] = None
     default_date: datetime.date = field(default_factory=datetime.date.today)
+    existing_review: Optional[repository_api.Review] = None
 
 
 def prompt() -> None:
@@ -44,8 +48,10 @@ def prompt() -> None:
         "ask_for_date": ask_for_date,
         "ask_if_medium_or_venue": ask_if_medium_or_venue,
         "ask_for_medium": ask_for_medium,
+        "ask_for_medium_notes": ask_for_medium_notes,
         "ask_for_venue": ask_for_venue,
         "ask_for_grade": ask_for_grade,
+        "ask_create_review": ask_create_review,
         "persist_viewing": persist_viewing,
     }
 
@@ -57,7 +63,6 @@ def persist_viewing(state: State) -> State:
     assert state.title
     assert state.date
     assert state.medium or state.venue
-    assert state.grade
 
     repository_api.create_viewing(
         imdb_id=state.title.imdb_id,
@@ -65,14 +70,16 @@ def persist_viewing(state: State) -> State:
         date=state.date,
         medium=state.medium,
         venue=state.venue,
+        medium_notes=state.medium_notes,
     )
 
-    repository_api.create_or_update_review(
-        imdb_id=state.title.imdb_id,
-        full_title=state.title.full_title,
-        date=state.date,
-        grade=state.grade,
-    )
+    if state.grade:
+        repository_api.create_or_update_review(
+            imdb_id=state.title.imdb_id,
+            full_title=state.title.full_title,
+            date=state.date,
+            grade=state.grade,
+        )
 
     if confirm("Add another viewing?"):
         state.stage = "ask_for_title"
@@ -160,7 +167,7 @@ def ask_for_medium(state: State) -> State:
         return state
 
     state.medium = selected_medium
-    state.stage = "ask_for_grade"
+    state.stage = "ask_for_medium_notes"
 
     return state
 
@@ -188,7 +195,7 @@ def ask_for_venue(state: State) -> State:
         return state
 
     state.venue = selected_venue
-    state.stage = "ask_for_grade"
+    state.stage = "ask_create_review"
 
     return state
 
@@ -246,6 +253,57 @@ def is_grade(text: str) -> bool:
     return bool(re.match("[a-d|A-D|f|F][+|-]?", text))
 
 
+def ask_for_medium_notes(state: State) -> State:
+    state.medium_notes = None
+
+    state.medium_notes = ask.prompt("Medium Notes: ")
+
+    if state.medium_notes:
+        state.stage = "ask_create_review"
+    else:
+        state.stage = "ask_for_medium"
+
+    return state
+
+
+def ask_create_review(state: State) -> State:  # noqa: WPS212
+    assert state.title
+
+    state.existing_review = next(
+        (
+            review
+            for review in repository_api.reviews()
+            if review.imdb_id == state.title.imdb_id
+        ),
+        None,
+    )
+
+    if state.existing_review:
+        state.stage = "ask_for_grade"
+        return state
+
+    create_review = ask_review.ask_review()
+
+    if create_review == "y":
+        state.stage = "ask_for_grade"
+        return state
+
+    if create_review == "n":
+        state.stage = "persist_viewing"
+        return state
+
+    if state.medium_notes:
+        state.stage = "ask_for_medium_notes"
+        return state
+
+    if state.medium:
+        state.stage = "ask_for_medium"
+        return state
+
+    state.stage = "ask_for_venue"
+    return state
+
+
 def ask_for_grade(state: State) -> State:
     state.grade = None
 
@@ -255,18 +313,7 @@ def ask_for_grade(state: State) -> State:
         move_cursor_to_end=True,
     )
 
-    assert state.title
-
-    existing_review = next(
-        (
-            review
-            for review in repository_api.reviews()
-            if review.imdb_id == state.title.imdb_id
-        ),
-        None,
-    )
-
-    default_grade = existing_review.grade if existing_review else ""
+    default_grade = state.existing_review.grade if state.existing_review else ""
 
     review_grade = ask.prompt("Grade: ", validator=validator, default=default_grade)
 

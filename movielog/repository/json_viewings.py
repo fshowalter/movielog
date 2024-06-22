@@ -24,12 +24,13 @@ JsonViewing = TypedDict(
 )
 
 
-def create(
+def create(  # noqa: WPS211
     imdb_id: str,
     date: str,
     full_title: str,
     medium: Optional[str],
     venue: Optional[str],
+    medium_notes: Optional[str],
 ) -> JsonViewing:
     assert medium or venue
 
@@ -41,7 +42,7 @@ def create(
         medium=medium,
         venue=venue,
         venueNotes=None,
-        mediumNotes=None,
+        mediumNotes=medium_notes,
     )
 
     serialize(json_viewing)
