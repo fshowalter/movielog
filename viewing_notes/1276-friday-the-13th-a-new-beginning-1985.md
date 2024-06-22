@@ -1,5 +1,5 @@
 ---
-  sequence": 1276
+  sequence: 1276
   date": 2022-05-12
   imdbId": "tt0089173"
   slug": "friday-the-13th-a-new-beginning-1985"
