@@ -62,7 +62,7 @@ def mock_reviews_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 @pytest.fixture(autouse=True)
 def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
-        "movielog.repository.json_viewings.FOLDER_NAME",
+        "movielog.repository.markdown_viewings.FOLDER_NAME",
         tmp_path / original_viewings_dir,
     )
 

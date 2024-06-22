@@ -30,12 +30,12 @@ def copy_viewings_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
     dirname = os.path.dirname(__file__)
     os.makedirs(tmp_path / "viewings")
 
-    for file_path in glob(os.path.join(dirname, "__testdata__", "viewings", "*.json")):
+    for file_path in glob(os.path.join(dirname, "__testdata__", "viewings", "*.md")):
         target_path = tmp_path / "viewings" / Path(file_path).name
         copyfile(file_path, target_path)
 
     mocker.patch(
-        "movielog.repository.json_viewings.FOLDER_NAME",
+        "movielog.repository.markdown_viewings.FOLDER_NAME",
         tmp_path / "viewings",
     )
 
