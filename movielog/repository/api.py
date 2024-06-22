@@ -310,12 +310,13 @@ def imdb_ratings() -> ImdbRatings:
     )
 
 
-def create_viewing(
+def create_viewing(  # noqa: WPS211
     imdb_id: str,
     full_title: str,
     date: datetime.date,
     medium: Optional[str],
     venue: Optional[str],
+    medium_notes: Optional[str],
 ) -> Viewing:
     return _hydrate_json_viewing(
         json_viewings.create(
@@ -324,6 +325,7 @@ def create_viewing(
             date=date.isoformat(),
             medium=medium,
             venue=venue,
+            medium_notes=medium_notes,
         )
     )
 
