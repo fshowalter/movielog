@@ -6,7 +6,7 @@ grade: C+
 date: 2024-06-18
 ---
 
-In _Two for the Seesaw_, Robert Mitchum plays a middle-aged, midwestern lawyer who flees his cushy job and pampered lifestyle for New York City after his wife of twelve years asks for a divorce. There, he meets a late-twenty-something dancer played by Shirley MacLaine. A romance blooms. **Spoilers follow**.
+In _Two for the Seesaw_, Robert Mitchum plays a middle-aged, midwestern lawyer who--after his wife of twelve years asks for a divorce--flees his cushy job and pampered lifestyle for New York City. There, he meets a late-twenty-something dancer played by Shirley MacLaine. A romance blooms. **Spoilers follow**.
 
 <!-- end -->
 
