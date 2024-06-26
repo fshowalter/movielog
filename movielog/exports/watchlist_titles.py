@@ -16,6 +16,7 @@ JsonTitle = TypedDict(
         "performerNames": list[str],
         "writerNames": list[str],
         "collectionNames": list[str],
+        "viewed": bool,
     },
 )
 
@@ -24,6 +25,8 @@ def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "watchlist-titles")
 
     watchlist_titles = []
+
+    viewing_imdb_ids = set(viewing.imdb_id for viewing in repository_data.viewings)
 
     for watchlist_title_id in repository_data.watchlist_titles.keys():
         title = repository_data.titles[watchlist_title_id]
@@ -45,6 +48,7 @@ def export(repository_data: RepositoryData) -> None:
                 collectionNames=repository_data.watchlist_titles[title.imdb_id][
                     "collections"
                 ],
+                viewed=title.imdb_id in viewing_imdb_ids,
             )
         )
 
