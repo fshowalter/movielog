@@ -1,6 +1,6 @@
 ---
 sequence: 1277
-date: '2022-05-29'
+date: 2022-05-29
 imdbId: tt0119081
 slug: event-horizon-1997
 venue: Prince Charles Cinema
@@ -8,7 +8,6 @@ venueNotes: null
 medium: 35mm
 mediumNotes: null
 ---
-
 
 After two years of pandemic avoidance, I returned to the cinema. The Prince Charles welcomed me back with a red carpet.
 

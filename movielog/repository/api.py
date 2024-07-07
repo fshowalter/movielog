@@ -232,16 +232,16 @@ def titles() -> Iterable[Title]:
 
 
 def _hydrate_markdown_viewing(
-    json_viewing: markdown_viewings.MarkdownViewing,
+    markdown_viewing: markdown_viewings.MarkdownViewing,
 ) -> Viewing:
     return Viewing(
-        imdb_id=json_viewing["imdbId"],
-        sequence=json_viewing["sequence"],
-        medium=json_viewing["medium"],
-        venue=json_viewing["venue"],
-        date=datetime.date.fromisoformat(json_viewing["date"]),
-        medium_notes=json_viewing["mediumNotes"],
-        venue_notes=json_viewing["venueNotes"],
+        imdb_id=markdown_viewing["imdbId"],
+        sequence=markdown_viewing["sequence"],
+        medium=markdown_viewing["medium"],
+        venue=markdown_viewing["venue"],
+        date=markdown_viewing["date"],
+        medium_notes=markdown_viewing["mediumNotes"],
+        venue_notes=markdown_viewing["venueNotes"],
     )
 
 
@@ -324,7 +324,7 @@ def create_viewing(  # noqa: WPS211
         markdown_viewings.create(
             imdb_id=imdb_id,
             full_title=full_title,
-            date=date.isoformat(),
+            date=date,
             medium=medium,
             venue=venue,
             medium_notes=medium_notes,

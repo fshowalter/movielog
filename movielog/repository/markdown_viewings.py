@@ -1,3 +1,4 @@
+import datetime
 import os
 import re
 from glob import glob
@@ -17,7 +18,7 @@ MarkdownViewing = TypedDict(
     "MarkdownViewing",
     {
         "sequence": int,
-        "date": str,
+        "date": datetime.date,
         "imdbId": str,
         "slug": str,
         "venue": Optional[str],
@@ -34,7 +35,7 @@ def _represent_none(self: Any, _: Any) -> Any:
 
 def create(  # noqa: WPS211
     imdb_id: str,
-    date: str,
+    date: datetime.date,
     full_title: str,
     medium: Optional[str],
     venue: Optional[str],
