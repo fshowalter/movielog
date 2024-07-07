@@ -1,6 +1,6 @@
 ---
 sequence: 1211
-date: "2021-12-16"
+date: 2021-12-16
 imdbId: tt0116671
 slug: jack-frost-1997
 venue: null

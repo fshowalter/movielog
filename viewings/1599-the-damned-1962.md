@@ -1,7 +1,7 @@
 ---
 sequence: 1599
 imdbId: tt0056576
-date: "2024-06-15"
+date: 2024-06-15
 slug: the-damned-1962
 medium: Blu-ray
 venue: null

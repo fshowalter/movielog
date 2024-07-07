@@ -1,7 +1,7 @@
 ---
 sequence: 1571
 imdbId: tt0082334
-date: "2024-02-18"
+date: 2024-02-18
 slug: the-entity-1982
 medium: Blu-ray
 venue: null
