@@ -12,6 +12,21 @@ DictType = TypeVar("DictType")
 EXPORT_FOLDER_NAME = "export"
 
 
+def serialize_dict(dict_to_export: DictType, file_name: str) -> None:
+    folder_path = os.path.join(EXPORT_FOLDER_NAME)
+    os.makedirs(folder_path, exist_ok=True)
+
+    json_file_name = os.path.join(folder_path, "{0}.json".format(file_name))
+    with open(json_file_name, "w") as output_file:
+        output_file.write(json.dumps(dict_to_export, default=str, indent=2))
+
+    logger.log(
+        "Wrote {} ({}).",
+        json_file_name,
+        pretty_file_size(os.path.getsize(json_file_name)),
+    )
+
+
 def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:
     folder_path = os.path.join(EXPORT_FOLDER_NAME)
     os.makedirs(folder_path, exist_ok=True)

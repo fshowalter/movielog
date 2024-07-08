@@ -513,7 +513,7 @@ def export(repository_data: RepositoryData) -> None:
 
     all_time_stats = build_all_time_json_stats(repository_data=repository_data)
 
-    exporter.serialize_dicts([all_time_stats], "all-time-stats")
+    exporter.serialize_dict(all_time_stats, "all-time-stats")
 
     viewings_by_year = list_tools.group_list_by_key(
         repository_data.viewings,
