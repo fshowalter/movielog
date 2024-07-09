@@ -159,4 +159,4 @@ def export(repository_data: RepositoryData) -> None:  # noqa: WPS210
         ),
     )
 
-    exporter.serialize_dicts([watchlist_progress], "watchlist-progress")
+    exporter.serialize_dict(watchlist_progress, "watchlist-progress")
