@@ -258,7 +258,7 @@ def ask_for_medium_notes(state: State) -> State:
 
     state.medium_notes = ask.prompt("Medium Notes: ")
 
-    if state.medium_notes:
+    if state.medium_notes is not None:
         state.stage = "ask_create_review"
     else:
         state.stage = "ask_for_medium"
