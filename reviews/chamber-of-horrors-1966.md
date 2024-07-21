@@ -6,7 +6,7 @@ grade: D+
 date: 2024-06-23
 ---
 
-Warner Bros. shot _Chamber of Horrors_ as a television movie, intended as a series pilot. When the network deemed the finished product too violent for television, the studio added some gimmicks and released it as a theatrical feature[^1]. The result looks good but underwhelms.
+Warner Bros. shot _Chamber of Horrors_ as a television movie, intended as a series pilot. When the network deemed the finished product too violent for television, the studio added some gimmicks and released it as a theatrical feature.[^1] The result looks good but underwhelms.
 
 <!-- end -->
 
