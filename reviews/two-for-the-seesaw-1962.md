@@ -24,7 +24,7 @@ Lemmon would have shined in this role. So would a younger Henry Fonda. I was sur
 
 Unlike Mitchum, MacLaine convinces. She tempers her character’s free spirit energy with hard earned street-sense, pivoting from unglamorous to alluring, flashing her large eyes and conveying an infectious sense of warmth and generosity. And she has solid chemistry with Mitchum. You may struggle to understand what her character would see in his character, but you can understand what Shirley MacLaine would see in Robert Mitchum.
 
-And Mitchum's miscasting lends the ending an unexpected resonance. While the script attempts to restore the social norms, Mitchum's innate nature betrays any sense of hope. What's supposed to seem bittersweet--Mitchum returning to a fresh start with his ex-wife--takes on nihilistic undertones thanks to his detachment. We can't see it working out with his ex-wife any more than it could with MacLaine's character. He's trapped and knows it.
+And yet, Mitchum's miscasting lends the ending an unexpected resonance. While the script attempts to restore the social norms, Mitchum's innate nature betrays any sense of hope. What's supposed to seem bittersweet--Mitchum returning to a fresh start with his ex-wife--takes on nihilistic undertones thanks to his detachment. We can't see it working out with his ex-wife any more than it could with MacLaine's character. He's trapped and knows it.
 
 This reframes MacLaine's character's ending. Without buying that Mitchum has changed, we can't believe MacLaine has either. She's doomed to repeat her cycle of falling for broken men who abuse her selfless generosity.
 
