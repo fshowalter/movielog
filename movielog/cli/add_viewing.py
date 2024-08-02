@@ -56,7 +56,7 @@ def prompt() -> None:
     }
 
     while state.stage != "end":
-        state_machine[state.stage](state)
+        state = state_machine[state.stage](state)
 
 
 def persist_viewing(state: State) -> State:
@@ -82,7 +82,7 @@ def persist_viewing(state: State) -> State:
         )
 
     if confirm("Add another viewing?"):
-        state.stage = "ask_for_title"
+        state = State()
     else:
         state.stage = "end"
 
