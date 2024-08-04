@@ -1,7 +1,0 @@
-extends: existence
-message: "Remove '%s'."
-ignorecase: true
-level: warning
-scope: paragraph
-tokens:
-  - very
