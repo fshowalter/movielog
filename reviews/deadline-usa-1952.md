@@ -40,7 +40,7 @@ And topping it off, Ethel Barrymore plays the paper’s founder’s widow and su
 
 Yes, the plot gets more contrived. Hired goons posing as police officers infiltrate the paper and shoot a witness who dies atop the printing press. Bogart makes an impassioned courtroom speech. When an attorney interrupts, saying it’s an irregular procedure, Bogart barks, "So is the murder of a newspaper!" The deus ex machina ending sees a character show up at the paper instead of the police because, "I do not know police. I know newspaper."
 
-And yes, it posits a reductive, idealized version of the free press, where editorial integrity trumps commercial concerns or personal politics. The script tries to gloss over this, with Bogart saying, "A newspaper has no political party. We support men for office-Some good, some bad." But framing the paper as incorruptible ignores the human fallibility of the men and women who run it.
+And yes, it posits a reductive, idealized version of the free press, where editorial integrity trumps commercial concerns or personal politics. The script tries to gloss over this, with Bogart saying, "A newspaper has no political party. We support men for office--Some good, some bad." But framing the paper as incorruptible ignores the human fallibility of the men and women who run it.
 
 But the film moves so fast we haven’t time to consider such inconsistencies. Clocking in under ninety minutes, it never idles. When the end title appears, it’s almost surprising in its abruptness. But upon reflection, it’s the best ending the film could deliver. Anything more would have halted the momentum, leaving the film to crumble under its populist pretension.
 
