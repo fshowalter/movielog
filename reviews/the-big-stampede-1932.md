@@ -2,7 +2,7 @@
 date: 2021-11-28
 imdb_id: tt0022681
 title: The Big Stampede (1932)
-grade: D
+grade: D-
 slug: the-big-stampede-1932
 ---
 
