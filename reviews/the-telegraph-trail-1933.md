@@ -2,7 +2,7 @@
 date: 2024-08-05
 imdb_id: tt0024647
 title: The Telegraph Trail (1933)
-grade: D
+grade: D-
 slug: the-telegraph-trail-1933
 ---
 
