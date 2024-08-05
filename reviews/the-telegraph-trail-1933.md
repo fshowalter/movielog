@@ -1,19 +1,27 @@
 ---
-date: 2017-01-17
+date: 2024-08-05
 imdb_id: tt0024647
 title: The Telegraph Trail (1933)
 grade: D
 slug: the-telegraph-trail-1933
 ---
 
-Young John Wayne gets his best supporting cast in years, but the resulting picture still stinks.
+Despite backing a young John Wayne with his best supporting cast in years, _The Telegraph Trail_ still stinks.
 
-_The Telegraph Trail_ was the fourth production, following <span data-imdb-id="tt0022681">_The Big Stampede_</span>, under a six-picture contract Wayne signed with Warner Bros. It recycles footage from Ken Maynard's _The Red Raiders_.
+<!-- end -->
 
-When Warner Bros. acquired First National Pictures a few years prior, they inherited the rights to several popular silent westerns starring Maynard. These were A-list productions showcasing Maynard's impressive stunt work.
+Wayne plays cavalry scout John Trent. When his comrade and good pal Jonesy is killed to prevent completion of a telegraph line, Trent and his sidekick buddy Tippy, played by Frank McHugh, set out to apprehend the culprits.
 
-Warner Bros. figured they could save money by reusing the Maynard action footage in new pictures. They just needed an actor who matched Maynard's build. Enter Wayne.
+The rote script sees them confront hostile natives incited by a corrupt trader played by Albert J. Smith. There’s also the obligatory love interest for Wayne, played by Alice Keller.
 
-This picture sees Wayne play calvary scout John Trent. When his comrade and good pal Jonesy is killed to prevent completion of a telegraph line, Trent and his buddy Tippy (Frank McHugh) set out to apprehend the culprits. Along the way, they encounter hostile natives incited by corrupt trader Gus Lynch (Albert J. Smith). There's also the obligatory love interest for Wayne, played by Alice Keller.
+This was part of a six-picture contract John Wayne signed in 1932 to remake some silent Ken Maynard westerns while recycling Maynard's impressive stunt footage. See my review of <span data-imdb-id="tt0022681">_The Big Stampede_</span> for details. This one recycles footage from Maynard's _The Red Raiders_.
 
-Wayne's prior pictures for Warner Bros. saddled him with subpar supporting casts, but this time he gets McHugh, a great character actor, and Smith, a great heavy. But the lackluster result proves Wayne still had lots to learn. It doesn't help that he and Keller have minimal chemistry, or that the finale drags on far too long and reuses the same recycled footage multiple times. Later in his career, Wayne could have carried the film, but at this point, he struggles to hold his own.
+Wayne’s prior pictures under this contract saddled him with subpar supporting casts, but this time he gets McHugh, a talented character actor, and Smith, a great heavy in that he seems comfortable in front of the camera and can hold his own opposite Wayne.
+
+McHugh, meanwhile, provides the comic relief, offering his trademark laugh and an amusing running gag during the finale where, between shots, he takes a pull on a moonshine jug, sees double, and thinks he's taken down two or four assailants with a single shot.
+
+But that tent-pole set-piece—a massive gunfight that sees the pioneers circling the wagons and Wayne racing to wire the cavalry—drags, showing the same recycled footage multiple times. Even worse, the footage doesn't match the film's comic-adventure tone. We see pioneers take bullets, fall down in agony, wagons aflame, and folks scurrying in panic as the injured lie writhing on the ground. Meanwhile, Wayne returns and takes time to change his shirt before rejoining the fighting.
+
+Speaking of Wayne, he doesn't help. He has minimal chemistry with Keller and often over-emotes in his delivery. Compared to McHugh’s relaxed performance, Wayne looks every bit the amateur he was at that point in his career.
+
+All of which relegates _The Telegraph Trail_ to those few interested in seeing John Wayne before he was _John Wayne_. Others should consider one of The Duke's later efforts.
