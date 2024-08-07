@@ -14,9 +14,9 @@ As Wayne sets about asking questions and ruffling feathers in the small town, th
 
 Wayne’s character has edge too, saying early, “I never feel sorry for anything that happens to a woman,” which wins him the support of the stage-driver, played by Gabby Hayes, who becomes his semi-sidekick. But Wayne’s ample charisma and the script’s limiting his misogyny to the above line and his refusal to work for a woman keep his character likable.
 
-The production marked a milestone for Wayne. In _John Wayne: The Life and Legend_, Scott Eyman quotes Wayne saying the film “was the first picture in which I found the story and made a deal with a studio for its development. I worked at half price at RKO in order to have complete control, regardless of whose names appeared on the titles.”
+The production marked a milestone for Wayne. In _John Wayne: The Life and Legend_, Scott Eyman quotes Wayne saying the film “was the first picture in which I found the story and made a deal with a studio for its development. I worked at half price at RKO in order to have complete control, regardless of whose names appeared on the titles.” In _John Wayne: American_, Randy Roberts and James S. Olson counter, "Actually, Duke was paid $6,250 a week for his work--his standard RKO salary--but he undoubtedly did play a part in development."
 
-Said control manifests in a supporting cast stacked with Wayne’s friends and former co-stars in supporting roles. Besides Gabby Hayes, Ward Bond plays the judge, and Paul Fix plays a corrupt deputy.
+Regardless, Wayne's influence manifests in a supporting cast stacked with Wayne’s friends and former co-stars. Besides Gabby Hayes, Ward Bond plays the judge, and Paul Fix plays a corrupt deputy.
 
 Fix also co-wrote the script, which proffers several choice lines--a hallmark of any good hard-boiled detective story. An early one, at the stage office, has the stage manager warning Wayne that Hayes is a “grumpy old cuss.” Replies Wayne, “I like grumpy old cusses—Hope to live long enough to be one.” Or later, after Wayne has pistol-whipped a drunken would-be assassin and a prissy old lady wails, “I saw you! I saw you strike that poor man!” And Wayne replies, “Yes, ma’am. Just as hard as I could.”
 
