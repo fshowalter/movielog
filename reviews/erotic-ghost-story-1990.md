@@ -24,4 +24,4 @@ This tracks, as _Erotic Ghost Story_ was a Category III picture, restricted to v
 
 But compared to those films, _Erotic Ghost Story_ disappoints. _The Witches of Eastwick_ does a better job with the same plot, and the aforementioned films do a better job exploiting Category III’s freedom to push genre boundaries. That said, the film spawned two sequels and launched a wave of fantasy-erotica including cult-favorite <span data-imdb-id="tt0105287">_Sex and Zen_</span>, so it found a market.
 
-Maybe Ngai Choi Lam’s entire aspiration was to bring late-night-cable fare to Hong Kong audiences. To that end, he has succeeded, as the best I can say about _Erotic Ghost Story_ is, given the choice between it and some random late-night-cable fare, at least the horror scenes in _Erotic Ghost Story_ offer some variety.
+Maybe Ngai Choi Lam’s entire aspiration was to bring late-night-cable fare to Hong Kong audiences. To that end, he has succeeded, as the best I can say about _Erotic Ghost Story_ is, given the choice between it and some random late-night-cable entry, at least the horror scenes in _Erotic Ghost Story_ offer some variety.
