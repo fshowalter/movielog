@@ -1,0 +1,12 @@
+---
+sequence: 1624
+imdbId: tt0108399
+date: 2024-08-15
+slug: true-romance-1993
+medium: 4k UHD Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: Arrow, 2022
+---
+
+Theatrical cut.
