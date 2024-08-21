@@ -14,7 +14,9 @@ Visually, I’d lumped it in with <span data-imdb-id="">_Them!_</span> and <span
 
 I also remembered it as a Vincent Price picture about a mad scientist who turns into a monster. Except Price isn’t the mad scientist, or even the star. He’s a third-billed audience surrogate. And the scientist, played by David Hedison, isn't mad and doesn’t turn into a monster per se, but suffers a horrific accident.
 
-The film opens with Hedison’s wife, played by Patricia Owens, fleeing the apparent murder of her husband, having crushed him via an industrial press. Much of the film unfolds in flashback, with Owens relating to Price (who plays Hedison’s brother) how she came into the situation. Hedison had discovered the ability to teleport matter. The script does an admirable job bridging the gap between science and fiction, with Hedison explaining via an apt analogy for 1950s audiences: “Take television. What happens? A stream of electrons--sound and picture impulses--are transmitted through the air. The TV camera is the disintegrator. Your set unscrambles or integrates the electrons back into pictures and sound.”
+The film opens with Hedison’s wife, played by Patricia Owens, having crushed Hedison via an industrial press. Much of the film unfolds in flashback, with Owens relating to Price (who plays Hedison’s brother) how she came into the situation.
+
+Hedison had discovered the ability to teleport matter. The script does an admirable job bridging the gap between science and fiction, with Hedison explaining via an apt analogy for 1950s audiences: “Take television. What happens? A stream of electrons--sound and picture impulses--are transmitted through the air. The TV camera is the disintegrator. Your set unscrambles or integrates the electrons back into pictures and sound.”
 
 When Owens replies that it’s impossible, Hedison scoffs. “Fifty years ago, if my father were told he could sit in Montreal and watch a World Series in New York as it happened, he’d say it was impossible.”
 
