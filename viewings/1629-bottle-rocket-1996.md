@@ -1,0 +1,11 @@
+---
+sequence: 1629
+imdbId: tt0115734
+date: 2024-08-19
+slug: bottle-rocket-1996
+medium: Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: Criterion, 2008
+---
+
