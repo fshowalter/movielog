@@ -168,11 +168,6 @@ def apply_credit_teams_for_viewing(
                 viewings_by_name=viewings_by_name, viewing=viewing, team_ids=team_ids
             )
 
-        for member_id in team_ids:
-            key = frozenset((member_id,))
-            if key & credit_name_ids:
-                viewings_by_name[key].viewings.append(viewing)
-
 
 def build_most_watched_performers(
     viewings: list[repository_api.Viewing],
