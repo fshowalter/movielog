@@ -8,6 +8,8 @@ slug: riders-of-destiny-1933
 
 _Riders of Destiny_ is not a good movie, but it is an important one.
 
+<!-- end -->
+
 It opens with John Wayne on horseback, strumming a guitar and singing a solemn ballad. The voice isn't Wayne's, and it's clear he won't win any lip-sync awards. After his introduction, Wayne evades some bad guys in a scene that tries for slapstick but fails. Soon, he’s embroiled in a water-rights dispute between some ranchers and a shady businessman. Suffering from laughable dialogue and stilted pacing, the film works best when it cuts to the action.
 
 Overseen by Yakima Canutt, the stunts pack a raw, visceral energy. One, a horse and rider diving off a cliff into a lake, proved so impressive, the studio recycled it for later productions.

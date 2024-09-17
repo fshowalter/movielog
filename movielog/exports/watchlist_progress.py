@@ -128,7 +128,7 @@ def export(repository_data: RepositoryData) -> None:  # noqa: WPS210
         repository_data.watchlist_people["performers"], repository_data
     )
     writer_total, writer_reviewed = watchlist_entity_stats(
-        repository_data.watchlist_people["performers"], repository_data
+        repository_data.watchlist_people["writers"], repository_data
     )
     collection_total, collection_reviewed = watchlist_entity_stats(
         repository_data.collections, repository_data

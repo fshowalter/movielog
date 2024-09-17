@@ -8,6 +8,8 @@ slug: his-private-secretary-1933
 
 Foreshadowing a career playing characters with great names, John Wayne plays a wealthy socialite named Dick Wallace.
 
+<!-- end -->
+
 After chewing him out for being a drunken womanizer, Wallace's father puts him to work collecting a debt owed by a minister. Wallace falls for the minister's daughter, Marion, played by top-billed Evelyn Knapp.
 
 The film's first half sees Wallace pursue Marion. The two marry, which causes a rift between Wallace and his father, who views Marion as a gold digger despite never meeting her.
