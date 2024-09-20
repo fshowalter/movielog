@@ -8,6 +8,8 @@ slug: two-evil-eyes-1990
 
 Skip the first half of _Two Evil Eyes_. Or at least watch the second half first.
 
+<!-- end -->
+
 The film comprises two hour-long segments based on the works of Edgar Allen Poe. The first, directed by George Romero, adapts _The Facts in the Case of M. Valdemar_. The second, directed by Dario Argento, loosely adapts _The Black Cat_.
 
 _The Facts in the Case of M. Valdemar_ stars Adrienne Barbeau as Jessica, a woman embezzling her elderly husband’s fortune. Her former lover, Dr. Hoffman, hypnotizes the ailing Ernest Valdemar under the guise of easing his pain. Hoffman then orders the hypnotized Valdemar to sign his assets over to Jessica, who liquidates them.
