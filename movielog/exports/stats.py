@@ -15,6 +15,8 @@ CREDIT_TEAMS = MappingProxyType(
     }
 )
 
+EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
+
 JsonMostWatchedPersonViewing = TypedDict(
     "JsonMostWatchedPersonViewing",
     {
@@ -207,6 +209,8 @@ def build_most_watched_writers(
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
+            if writer.imdb_id in EXCLUSIONS:
+                continue
             key = frozenset((writer.imdb_id,))
             viewings_by_name[key].name = writer.name
             if viewing not in viewings_by_name[key].viewings:
