@@ -7,7 +7,8 @@
   "year": "1982",
   "releaseDate": "1982-01-25",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States"
   ],
   "genres": [
     "Crime",
@@ -88,7 +89,7 @@
       "imdbId": "nm0001671",
       "name": "Diana Rigg",
       "roles": [
-        "Arlena Stuart Marshall"
+        "Arlena Marshall"
       ]
     },
     {
@@ -150,9 +151,14 @@
   ],
   "writers": [
     {
+      "imdbId": "nm0002005",
+      "name": "Agatha Christie",
+      "notes": "(novel)"
+    },
+    {
       "imdbId": "nm0787289",
       "name": "Anthony Shaffer",
-      "notes": "(screenplay)"
+      "notes": "(screenplay by)"
     }
   ],
   "runtimeMinutes": 117
