@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 
 from movielog.exports import (
+    best_of_the_best,
     cast_and_crew,
     collections,
     list_tools,
@@ -122,3 +123,4 @@ def export_data() -> None:  # noqa: WPS213
     stats.export(repository_data)
     watchlist_progress.export(repository_data)
     cast_and_crew.export(repository_data)
+    best_of_the_best.export(repository_data)
