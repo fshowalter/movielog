@@ -298,6 +298,7 @@ def build_most_watched_person_list(
                     person_imdb_id=watchlist_person.imdb_id,
                     indexed_imdb_id=indexed_imdb_id,
                 )
+                and (repository_data.reviews.keys() & watchlist_person.title_ids)
             ),
             None,
         )
