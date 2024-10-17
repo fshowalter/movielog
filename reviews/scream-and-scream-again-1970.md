@@ -8,6 +8,8 @@ date: 2024-10-16
 
 For the first fifteen minutes, I was lost.
 
+<!-- end -->
+
 _Scream and Scream Again_ cuts between three disconnected plot threads with no context or through-line. It’s not a bad thing. I found it a refreshing change that forced my attention. A warning though, these threads hold many surprises. Revealing them may spoil some of the film’s fun.
 
 As the credits roll, we see a man jogging through a park in 1970s London. He collapses, clutching his chest, and wakes up in a hospital bed. A nurse attends him but refuses to answer any of his questions. The nurse leaves and the man screams in horror as he realizes one of his legs has been amputated.
