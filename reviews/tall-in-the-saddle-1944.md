@@ -6,9 +6,9 @@ grade: B-
 date: 2024-08-06
 ---
 
-_Tall in the Saddle_ proffers a novel amalgam of the hard-boiled detective story and western. John Wayne plays a ranch hand who arrives in a small frontier town for a job only to find a corrupt sheriff, a shady judge, and his boss murdered a week prior.
+_Tall in the Saddle_ proffers a novel amalgam of the hard-boiled detective story and western.
 
-<!-- end -->
+John Wayne plays a ranch hand who arrives in a small frontier town for a job only to find a corrupt sheriff, a shady judge, and his boss murdered a week prior.
 
 As Wayne sets about asking questions and ruffling feathers in the small town, the script proffers multiple red herrings. Ella Raines plays the femme fatale, a fiery ranch owner who sets her sights on Wayne. She’s good in the part, clad in skin-tight jeans and wielding a pistol, her sultry eyes sending mixed signals fury and desire.
 

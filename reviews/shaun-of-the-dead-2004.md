@@ -6,9 +6,9 @@ grade: B
 date: 2024-10-17
 ---
 
-When I first saw _Shaun of the Dead_ twenty years ago, I thought it a great movie. I remember walking out that screening and seeing posters for the twentieth anniversary re-release of <span data-imdb-id="tt0087332">_Ghostbusters_</span> and struggling to believe it was that old. Watching _Shaun of the Dead_ twenty years later, I still enjoy it, but rank it as good, not great. Were its flaws always there, or have my tastes changed?
+When I first saw _Shaun of the Dead_ twenty years ago, I thought it a great movie.
 
-<!-- end -->
+I remember walking out that screening and seeing posters for the twentieth anniversary re-release of <span data-imdb-id="tt0087332">_Ghostbusters_</span> and struggling to believe it was that old. Watching _Shaun of the Dead_ twenty years later, I still enjoy it, but rank it as good, not great. Were its flaws always there, or have my tastes changed?
 
 I suspect a combination of both. The plot concerns the titular Shaun, played by Simon Pegg, a twenty-nine-year-old stuck in an arrested adolescence. He still lives with his equally stunted best friend Ed, played by Nick Frost, and is content with his life, working his high-school job and spending his evenings drinking in the local pub. His girlfriend, Liz, tired of waiting for him to grow up, dumps him. Shocked by this change to the status quo, Shaun resolves to sort out his life and win Liz back, but finds his efforts complicated by a zombie apocalypse.
 
