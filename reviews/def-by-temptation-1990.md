@@ -12,7 +12,7 @@ After a decade devoid of black horror, twenty-one-year-old writer-director-star 
 
 The plot concerns a succubus, played by Cynthia Bond, preying on black men in New York City.
 
-Bond III plays Joel, a young man raised by his grandmother after his minister father and mother were killed in a car accident. Joel sits poised to follow his father's footsteps into the ministry, but a crisis of faith sends him to New York City where he reunites with his childhood friend K, played by Kadeem Hardison, who earlier abandoned evangelical school for an acting career in the big city.
+Bond III plays Joel, a young man raised by his grandmother after his minister father and mother were killed in a car accident. Joel sits poised to follow his father's footsteps into the ministry, but a crisis of faith sends him to New York City where he reunites with his childhood friend K, played by Kadeem Hardison.
 
 The succubus soon sets her sights on Joel, leaving K and bar-rat Dougy to battle her unholy powers for Joel’s soul.
 
@@ -22,13 +22,9 @@ That’s not dialogue, it’s voice-over narration.
 
 Other scenes, particularly the ones between Hardison and Bond III, shine with a more naturalistic rhythm, leading one to wonder if they weren’t improvised. Indeed, Hardison shines throughout, flashing a breakout charisma that leaves you wondering why he didn’t enjoy a bigger career in movies.
 
-Bond III also handles the horror sequences with aplomb, showcasing his contemporary influences. He lifts the creature design and green-and-red gel lights from <span data-imdb-id="tt0092147">_Vamp_</span>.
+Bond III also handles the horror sequences with aplomb, showcasing his contemporary influences. He lifts the creature design and green-and-red gel lights from <span data-imdb-id="tt0092147">_Vamp_</span>. A dream sequence, featuring the bar full of the succubus’s mangled victims, could fit within an Italian horror. And in a standout sequence, Bond III one-ups an iconic scene from <span data-imdb-id="tt0086541">_Videodrome_</span>, having a television devour a character, then, in a bit lifted from <span data-imdb-id="tt0087800">_A Nightmare on Elm Street_</span>, the television burps out a mess of blood and entrails and we see the victim’s head pressing against the screen from the inside, stretching the now-pliable glass trying to escape. Great stuff.
 
-A dream sequence, featuring the bar full of the succubus’s mangled victims, could fit within an Italian horror.
-
-And in a standout sequence, Bond III one-ups an iconic scene from <span data-imdb-id="tt0086541">_Videodrome_</span>, having a television devour a character, then, in a bit lifted from <span data-imdb-id="tt0087800">_A Nightmare on Elm Street_</span>, has the television burp out a mess of blood and entrails, and we see the victim’s head pressing against the screen from the inside, stretching the now-pliable glass, in a vain attempt at escape. Great stuff.
-
-But Bond III seems out of his depth with the film’s themes. The focus on black sexuality invites unfair comparisons to Bill Gunn’s <span data-imdb-id="tt0068619">_Ganja and Hess_</span>. But Bond III’s script feels shallow compared to Gunn’s open-ended exploration of existential angst and guilt. It doesn’t help that Bond III muddles matters by having the succubus prey exclusively on womanizers before pivoting to Joel.
+But Bond III seems out of his depth with the film’s themes. The focus on black sexuality invites comparisons to Bill Gunn’s <span data-imdb-id="tt0068619">_Ganja and Hess_</span>, but Bond III’s script feels shallow compared to Gunn’s open-ended exploration of existential angst and guilt. It doesn’t help that Bond III muddles matters by having the succubus prey exclusively on womanizers before pivoting to Joel.
 
 Consider the sequence where the succubus notices a man remove his wedding ring before entering the bar. She lures him back to her place. The next morning, he notices the large bruises and scars she’s left on him.
 
