@@ -1,0 +1,11 @@
+---
+sequence: 1659
+imdbId: tt0064747
+date: 2024-10-23
+slug: the-oblong-box-1969
+medium: Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: Kino Lorber, 2022
+---
+
