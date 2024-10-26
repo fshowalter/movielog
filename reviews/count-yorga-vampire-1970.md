@@ -94,4 +94,6 @@ All owe a debt to Bob Kelljan’s sometimes ingenious take on Bram Stoker’s st
 
 "Why not?” says Jim, with a tone-perfect mix of desperation and bemusement.
 
-Could a lesser-known movie that's near equal parts cheesy and brilliant be as significant as I'm proposing? Why not, indeed.
+And so, dear reader, if you’ve made it this far, I can imagine your skepticism. Part of me shares it. Could _Count Yorga, Vampire_, a lesser-known movie that’s near equal parts unintentional comedy and inspired horror really this significant? In the end, I come back to Jim’s line: Why not?
+
+Why not, indeed.
