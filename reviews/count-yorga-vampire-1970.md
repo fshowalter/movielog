@@ -80,11 +80,11 @@ Twenty-seven years after that, Hammer Film Productions released <span data-imdb-
 
 Enter Bob Kelljan's _Count Yorga, Vampire_, which transplanted Dracula into modern times. He retained the classic look, including the cape and pendant, but the stalwart Van Helsing was now a hesitant academic trained in modern medicine, the setting wasn’t London but Los Angeles, and the gore wasn’t eye-popping red, but nauseating rust.
 
-Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</sapn>, which also transported the Dracula character to modern Los Angeles.
+Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</sapn>, which also transported the Dracula character to modern Los Angeles. That same year, Hammer released <span data-imdb-id="tt0068505">_Dracula A.D. 1972_</span> which saw Dracula resurected in contemporary London.
 
 Three years after that, Stephen King published _‘Salem’s Lot_, which transplanted Dracula into a small town in Maine, added a child protagonist, and cribbed Hammer’s third act twist.
 
-Ten years after _‘Salem’s Lot_, Tom Holland directed <span data-imdb-id="tt0089175">_Fright Night_</span>, which transplanted Dracula into the suburbs, added a teen protagonist, and replaced Van Helsing with an actor who’d played Van Helsing in the movies.
+Ten years after _‘Salem’s Lot_, Tom Holland wrote and directed <span data-imdb-id="tt0089175">_Fright Night_</span>, which transplanted Dracula into the suburbs, ditched the cape and pendent, added a teen protagonist, amped the antagonist's dark humor, and replaced Van Helsing with an actor who’d played Van Helsing in the movies.
 
 Viewed in this broader context, _Count Yorga, Vampire_ proves the bridge between the period Draculas and the modern incarnations. Everything that came after built upon its idea of transplanting Dracula into a modern setting. Some, like _Blacula_, had their Dracula “wake up” in modern times, and others, as in 1979’s <span data-imdb-id="tt0079489">_Love at First Bite_</span>, played the fish-out-of-water scenario for laughs.
 
