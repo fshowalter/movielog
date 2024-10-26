@@ -80,7 +80,7 @@ Twenty-seven years after that, Hammer Film Productions released <span data-imdb-
 
 Enter Bob Kelljan's _Count Yorga, Vampire_, which transplanted Dracula into modern times. He retained the classic look, including the cape and pendant, but the stalwart Van Helsing was now a hesitant academic trained in modern medicine, the setting wasn’t London but Los Angeles, and the gore wasn’t eye-popping red, but nauseating rust.
 
-Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</sapn>, which also transported the Dracula character to modern Los Angeles. That same year, Hammer released <span data-imdb-id="tt0068505">_Dracula A.D. 1972_</span> which saw Dracula resurected in contemporary London.
+Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</sapn>, which also transported the Dracula character to modern Los Angeles. That same year, Hammer released <span data-imdb-id="tt0068505">_Dracula A.D. 1972_</span> which saw Dracula resurrected in contemporary London.
 
 Three years after that, Stephen King published _‘Salem’s Lot_, which transplanted Dracula into a small town in Maine, added a child protagonist, and cribbed Hammer’s third act twist.
 
