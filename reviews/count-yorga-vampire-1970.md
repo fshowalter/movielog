@@ -72,7 +72,7 @@ Contrast his performance with the likes of Bela Lugosi and Christopher Lee. When
 
 Kelljan never lets this tip into comedy, however, and also keeps the rest of his cast reined in, eschewing theatrical dramatics for more muted performances.
 
-Vampire movie fans may also appreciate the film's contribution to pop culture. Astute readers will recognize the film’s story as a pared-down retelling of Dracula. Indeed, _Count Yorga, Vampire_ plays an important role evolving the Dracula mythos. Consider:
+Vampire fans and genre scholars may also appreciate the film's contribution to pop culture. Astute readers will recognize the film’s story as a pared-down retelling of _Dracula_. Indeed, _Count Yorga, Vampire_ plays an important role evolving the Dracula mythos. Consider:
 
 Bram Stoker wrote _Dracula_ in 1897. Thirty-four years later, Todd Browning directed <span data-imdb-id="tt0021814">Universal's _Dracula_</span>, starring Bela Lugosi, which pared down the story and gave us the iconic “Dracula” look: cape, pendant, widows peak.
 
@@ -94,6 +94,6 @@ All owe a debt to Bob Kelljan’s sometimes ingenious take on Bram Stoker’s st
 
 "Why not?” says Jim, with a tone-perfect mix of desperation and bemusement.
 
-And so, dear reader, if you’ve made it this far, I can imagine your skepticism. Part of me shares it. Could _Count Yorga, Vampire_, a lesser-known movie that’s near equal parts unintentional comedy and inspired horror really this significant? In the end, I come back to Jim’s line: Why not?
+And so, dear reader, if you’ve made it this far, I can imagine your skepticism. Part of me shares it. Could _Count Yorga, Vampire_, a lesser-known movie that’s near equal parts unintentional comedy and inspired horror really be this significant? In the end, I come back to Jim’s line: Why not?
 
 Why not, indeed.
