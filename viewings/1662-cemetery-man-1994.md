@@ -1,0 +1,11 @@
+---
+sequence: 1662
+imdbId: tt0109592
+date: 2024-10-26
+slug: cemetery-man-1994
+medium: 4k UHD Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: Severin Films, 2023
+---
+
