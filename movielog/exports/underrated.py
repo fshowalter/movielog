@@ -21,26 +21,25 @@ JsonTitle = TypedDict(
 
 
 def export(repository_data: RepositoryData) -> None:
-    logger.log("==== Begin exporting {}...", "overrated-disappointments")
+    logger.log("==== Begin exporting {}...", "underrated")
 
-    imdb_high_rated_reviewed_title_ids = [
+    imdb_low_rated_reviewed_title_ids = [
         title.imdb_id
         for title in repository_data.imdb_ratings.titles
         if (title.rating and title.votes)
-        and title.rating > repository_data.imdb_ratings.average_imdb_rating
-        and title.votes > repository_data.imdb_ratings.average_imdb_votes
+        and title.rating < repository_data.imdb_ratings.average_imdb_rating
     ]
 
-    overrated_disappointments = []
+    underrated_surprises = []
 
-    for imdb_id in imdb_high_rated_reviewed_title_ids:
+    for imdb_id in imdb_low_rated_reviewed_title_ids:
         title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
 
-        if not review.grade_value or review.grade_value > 4:
+        if not review.grade_value or review.grade_value < 8:
             continue
 
-        overrated_disappointments.append(
+        underrated_surprises.append(
             JsonTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
@@ -56,11 +55,11 @@ def export(repository_data: RepositoryData) -> None:
 
     exporter.serialize_dicts(
         sorted(
-            overrated_disappointments,
+            underrated_surprises,
             key=lambda disappointment: "{0}{1}".format(
                 disappointment["year"], disappointment["imdbId"]
             ),
             reverse=True,
         ),
-        "overrated-disappointments",
+        "underrated",
     )

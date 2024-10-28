@@ -6,10 +6,11 @@ from movielog.exports import (
     cast_and_crew,
     collections,
     list_tools,
-    overrated_disappointments,
+    overrated,
     reviewed_titles,
     stats,
-    underseen_gems,
+    underrated,
+    underseen,
     viewings,
     watchlist_progress,
     watchlist_titles,
@@ -115,8 +116,9 @@ def export_data() -> None:  # noqa: WPS213
 
     viewings.export(repository_data)
     reviewed_titles.export(repository_data)
-    overrated_disappointments.export(repository_data)
-    underseen_gems.export(repository_data)
+    underrated.export(repository_data)
+    overrated.export(repository_data)
+    underseen.export(repository_data)
     watchlist_titles.export(repository_data)
     collections.export(repository_data)
     stats.export(repository_data)

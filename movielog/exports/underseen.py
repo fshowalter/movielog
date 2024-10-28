@@ -21,7 +21,7 @@ JsonTitle = TypedDict(
 
 
 def export(repository_data: RepositoryData) -> None:
-    logger.log("==== Begin exporting {}...", "underseen-gems")
+    logger.log("==== Begin exporting {}...", "underseen")
 
     imdb_underseen_reviewed_title_ids = [
         title.imdb_id
@@ -58,5 +58,5 @@ def export(repository_data: RepositoryData) -> None:
             key=lambda gem: "{0}{1}".format(gem["year"], gem["imdbId"]),
             reverse=True,
         ),
-        "underseen-gems",
+        "underseen",
     )
