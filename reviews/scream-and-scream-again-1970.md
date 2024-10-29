@@ -30,9 +30,11 @@ Director Gordon Hessler seems to grasp this dichotomy as he often uses a hand-he
 
 Still, as I said, folks expecting a film led by the three top-billed stars will be disappointed. As will folks hoping for a gothic horror. The setting and Hessler’s style are decidedly contemporary. But fans of British horror should enjoy it, even if they’ve been lukewarm to Amicus’s other efforts. It’s an underrated gem.
 
-## A Bit of Speculation
+---
 
-After watching the film I had a thought: were it made by Hammer instead of Amicus a few script tweaks to _Scream and Scream Again_ could have rebooted one of Hammer’s iconic franchises. To discuss further, I’ll need to reveal the film’s finale.
+## And Now, a Bit of Speculation
+
+Were it made by Hammer instead of Amicus, a few script tweaks to _Scream and Scream Again_ could have rebooted one of Hammer’s iconic franchises. To discuss further, I’ll need to reveal the film’s finale.
 
 **Last spoiler warning.**
 
@@ -40,23 +42,29 @@ Still here? Okay, in the finale, we learn Vincent Price has been building “com
 
 Does this plot sound familiar? In 1970, Hammer released <span data-imdb-id="tt0065851">_The Horror of Frankenstein_</span>, hoping to reboot the franchise without star Peter Cushing. It flopped and Cushing was back four years later in <span data-imdb-id="tt0071519">_Frankenstein and the Monster from Hell_</span>.
 
-But what if, instead, Hammer had made this movie, with one slight change? What if they cut Cushing’s cameo scene and left his name off the marquee? Then, at the film’s end, after Lee shows up to save the day and vanquish Price (revealing himself as a composite in the process) we cut back to the unnamed fascist state. The camera follows an officer down a hallway into a laboratory similar to Price’s. Standing with his back to us, a man wearing a lab coat works over a table.
+But what if, instead, Hammer had made this movie, with one slight change? What if they cut Cushing’s cameo scene and left his name off the marquee? Then, at the film’s end, after Lee shows up to save the day and vanquish Price (revealing himself as a composite in the process) we cut back to the unnamed fascist state. The camera follows an officer down a hallway into a laboratory similar to Price’s. Standing with his back to us, a man wearing a lab coat works over a table:
 
-“Browning has been terminated,” says the officer with an Eastern European accent.
-
-The man grunts but keeps working, his back still to us.
-
-“Konratz too,” says the officer.
-
-The man in the lab coat offers no response.
-
-The officer adds, hesitantly, “It was him.”
-
-The man in the lab coat stops and turns, revealing himself as Cushing.
-
-“What shall we do, Herr Frankenstein?” the officer asks.
-
-Cushing cracks an evil smile. Cut to credits.
+> OFFICER (with an Eastern European accent):<br>
+> Browning has been terminated.
+>
+> The man in the lab coat grunts but keeps working, his back still to us.
+>
+> OFFICER:<br>
+> Konratz too.
+>
+> The man in the lab coat offers no response.
+>
+> OFICER (hesitantly):<br>
+> It was him.
+>
+> The man in the lab coat stops and turns, revealing himself as Cushing.
+>
+> OFFICER:<br>
+> What shall we do, Herr Frankenstein?
+>
+> CLOSE UP on Cushing, who cracks an evil smile.
+>
+> Cut to credits.
 
 Wouldn’t that be something? Reinventing the Frankenstein franchise as a contemporary paranoid thriller, with Cushing and Lee once again opposite one-another. Later entries could focus on either star, as they fleshed out the world and explored contemporary Cold War fears.
 
