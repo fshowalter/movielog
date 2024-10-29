@@ -28,7 +28,7 @@ Miriam takes Moebius back to her home to convalesce. He seems to recognize the p
 
 How did we get from a 1970s Rolling Stones-loving Manson figure to this? According to Alan Jones in _Profondo Argento_, the film began as _Catacombs_, a script by screenwriter Gianni Romoli for financiers Mario and Vittorio Cecchi Gori. Producer Dario Argento wrote the opening sequence, while director Michele Soavi transplanted sequences from his unproduced script, _The Well_. This explains the film’s disjointed nature.
 
-Consider the opening. Soavi coaxes a riveting performance out of Arana and establishes a nihilistic atmosphere that would make Lucio Fulci proud. Granted, Argento wrote it, but it’s Soavi’s execution that shines despite Argento’s insistence on the awkward Rolling Stones connection. Jones quotes Romoli saying, "Argento is still very attached to that period. Both Michele and I let him get on with it."
+Soavi makes the best of it. Consider the opening. Soavi coaxes a riveting performance out of Arana and establishes a nihilistic atmosphere that would make Lucio Fulci proud. Granted, Argento wrote it, but it’s Soavi’s execution that shines despite Argento’s insistence on the awkward Rolling Stones connection. Jones quotes Romoli saying, "Argento is still very attached to that period. Both Michele and I let him get on with it."
 
 Unfortunately, the entire sequence is superfluous. I suspect Romoli crafted the subsequent sequence in Frankfurt to bridge Argento’s opening into his existing script. It too proves superfluous, and its impact’s further lessened by the exposition dump the script proffers via television newscast that tells us everything we’ve already inferred.
 
@@ -40,7 +40,7 @@ For their part, the cast does their best. Lom shines, convincing as the ailing M
 
 Kelly Curtis doesn’t fare as well. At first, I thought her miscast, intending to evoke her younger sister Jamie Lee Curtis, but, at thirty-five Kelly seemed a decade too old to play a teacher a year or two out of grad school, still living like a college student, with her house in disarray and her fridge a mess of rotting leftovers.
 
-But later, the film seems to indicate she should be thirty-five and worried she was too old to bear children. Likely this was a casualty of the script grafting process, but the resulting dissonance renders her character off-putting. Seeing a near-middle-age woman live this feels wrong, even if we can’t put our finger on why.
+But later, the film seems to indicate she should be thirty-five and worried she was too old to bear children. Likely this was a casualty of the script grafting process, but the resulting dissonance renders her character off-putting. Seeing a near-middle-age woman live like this feels wrong, even if we can’t put our finger on why.
 
 Still, despite the disjointed storytelling, _The Sect_ is worth a watch for fans of the creators, who can enjoy a fun game of "spot the influence". For example, the water scenes evoke Argento’s <span data-imdb-id="tt0080923">_Inferno_</span>, while the bird motif echoes Soavi’s <span data-imdb-id="tt0092576">_StageFright_</span>.
 
