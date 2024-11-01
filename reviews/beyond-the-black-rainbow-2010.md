@@ -8,11 +8,11 @@ date: 2024-10-31
 
 The debut feature from <span data-imdb-id="tt6998518">_Mandy_</span> writer-director Panos Cosmatos crafts an immersive world overflowing with ominous atmosphere, but its threadbare narrative kept me at arm's length.
 
-Set in 1983, the story concerns the mysterious Arboria institute, a research facility promising “a happier you” through a blend of science and spirituality. Michael Rogers plays Dr. Nyle, a strangely detached man who runs the institute.
+Set in 1983, the story concerns the mysterious Arboria institute, a research facility promising “a happier you” through a blend of science and spirituality, run by Dr. Nyle.
 
-Dr. Nyle’s sole pleasure comes from tormenting a young woman named Elena, who he keeps prisoner within the institute. She displays psychic powers, which Nyle suppresses with a glowing pyramid-shaped device.
+Dr. Nyle seemd coldly detached from his own life, with his sole pleasure being tormenting a young woman named Elena, who he keeps prisoner deep within the institute. Elena displays psychic powers, which Nyle suppresses with a glowing pyramid-shaped device.
 
-As Nyle’s obsession tips into madness, Elena must navigate the institute's horrors to find her way to freedom.
+As Nyle’s obsession with Elena tips into madness, Elena must navigate the institute's horrors to find her way to freedom.
 
 Viewers coming to this from _Mandy_ should feel right at home. After an opening infomercial for Arboria where its founder extols the institute's wonders with a twinkle of clinical mania that would feel at home in David Cronenberg's earliest works, Cosmatos settles into his familiar visual style. The prominent use of red gels, the droning synth score, the whispered and sometimes distorted dialogue, vaguely esoteric artifacts, leather-clad assassins... they’re all here. The finale even includes a scene where a car’s driver looks over at a hallucinated passenger.
 
