@@ -6,7 +6,7 @@ grade: D+
 date: 2024-10-31
 ---
 
-Like his sophomore effort, <span data-imdb-id="tt6998518">_Mandy_</span>, writer-director Panos Cosmatos's debut feature crafts an immersive world overflowing with ominous atmosphere, but its threadbare narrative kept me at arm's length.
+The debut feature from <span data-imdb-id="tt6998518">_Mandy_</span> writer-director Panos Cosmatos crafts an immersive world overflowing with ominous atmosphere, but its threadbare narrative kept me at arm's length.
 
 Set in 1983, the story concerns the mysterious Arboria institute, a research facility promising “a happier you” through a blend of science and spirituality. Michael Rogers plays Dr. Nyle, a strangely detached man who runs the institute.
 
