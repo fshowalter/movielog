@@ -199,10 +199,7 @@
       "imdbId": "tt0065642",
       "title": "Dirty Dingus Magee (1970)"
     },
-    {
-      "imdbId": "tt0075876",
-      "title": "Contract on Cherry Street (1977) (TV)"
-    },
+
     {
       "imdbId": "tt0080738",
       "title": "The First Deadly Sin (1980)"
@@ -210,11 +207,8 @@
     {
       "imdbId": "tt0087032",
       "title": "Cannonball Run II (1984)"
-    },
-    {
-      "imdbId": "tt0115034",
-      "title": "Young at Heart (1995) (TV)"
     }
+    
   ],
   "excludedTitles": [
     {
@@ -326,6 +320,16 @@
       "imdbId": "tt27692488",
       "title": "Frank Sinatra & Antonio Carlos Jobim: Fly Me to the Moon (1994)",
       "reason": "music video"
+    },
+    {
+      "imdbId": "tt0115034",
+      "title": "Young at Heart (1995) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0075876",
+      "title": "Contract on Cherry Street (1977) (TV)",
+      "reason": "tv movie"
     }
   ]
 }

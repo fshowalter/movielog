@@ -127,10 +127,7 @@
       "imdbId": "tt0065377",
       "title": "Airport (1970)"
     },
-    {
-      "imdbId": "tt0262030",
-      "title": "Swing Out, Sweet Land (1970) (TV)"
-    },
+
     {
       "imdbId": "tt0068022",
       "title": "Something Big (1971)"
@@ -150,11 +147,8 @@
     {
       "imdbId": "tt0087032",
       "title": "Cannonball Run II (1984)"
-    },
-    {
-      "imdbId": "tt0089246",
-      "title": "Half Nelson (1985) (TV)"
     }
+    
   ],
   "excludedTitles": [
     {
@@ -306,6 +300,16 @@
       "imdbId": "tt0088530",
       "title": "\"Half Nelson\" (1985)",
       "reason": "tv series"
+    },
+    {
+      "imdbId": "tt0262030",
+      "title": "Swing Out, Sweet Land (1970) (TV)",
+      "reason": "tv movie"
+    },
+    {
+      "imdbId": "tt0089246",
+      "title": "Half Nelson (1985) (TV)",
+      "reason":"tv movie"
     }
   ]
 }
