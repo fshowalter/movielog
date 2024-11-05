@@ -1,0 +1,11 @@
+---
+sequence: 1672
+imdbId: tt0372784
+date: 2024-11-04
+slug: batman-begins-2005
+medium: 4k UHD Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: Warner Bros., 2017
+---
+
