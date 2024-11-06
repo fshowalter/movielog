@@ -18,7 +18,7 @@ Guan trains the workers, leading to a grand showdown with the rival mill’s top
 
 A lesser film would end here, but not _Disciples of Shaolin_. Instead, the film explores what happens after the big victory. Guan gets promoted to foreman. The big boss hires a sex worker, Chu, to keep Guan happy and the wholesome young woman is forgotten. Guan also starts drinking.
 
-From here, the film could have retread similar ground to Chang’s earlier film, _The Boxer from Shantung_, and followed Guan’s ruthless climb to the top, but again, _Disciples of Shaolin_ surprises.
+From here, the film could have retread similar ground to Chang’s earlier film, <span data-imdb-id="tt0068310">_The Boxer from Shantung_</span>, and followed Guan’s ruthless climb to the top, but again, _Disciples of Shaolin_ surprises.
 
 A genuine romance blooms between Guan and Chu, effectively communicated with a single scene where they flirt, laugh, and chase each other before Guan leaves. As she closes the door behind him, Chu catches herself still smiling and realizes she has developed real feelings.
 
@@ -32,6 +32,6 @@ As Guan, twenty-one-year-old Fu evokes Bruce Lee’s swagger and foreshadows Jac
 
 Second-billed Kuan-Chun Chi plays another fighter from Fu’s village. It’s a stoic, one-note role, but Chi delivers in the part.
 
-Visually, Chang does a solid job with the fight scenes, showcasing the actors in space and keeping the camera moving with the action. But the film’s visual highlight comes in the climactic battle, when Chang shifts to a near-sepia black-and-white. It’s an inspired choice that gives the battle an epic quality and heightens the verisimilitude, as the blood effects transform from technicolor red to shimmering black. In contrasting an earlier sequence, it ties the film together in an unexpected manner.
+Visually, Chang does a solid job with the fight scenes, showcasing the actors in space and keeping the camera moving with the action. But the film’s visual highlight comes in the climactic battle, when Chang shifts to a near-sepia black-and-white. It’s an inspired choice that gives the battle an epic quality and heightens the verisimilitude, as the blood effects transform from technicolor red to shimmering black. Even better, in contrasting an earlier sequence, the black-and-white transition ties the film together in an unexpected manner.
 
 This stylistic flourish proves yet another surprise in a film teeming with them. Provided viewers can get past the bloated credits and early attempts at semi-slapstick comedy, _Disciples of Shaolin_ should prove rewarding to kung fu fans.
