@@ -20,7 +20,7 @@ A lesser film would end here, but not _Disciples of Shaolin_. Instead, the film 
 
 From here, the film could have retread similar ground to Chang’s earlier film, <span data-imdb-id="tt0068310">_The Boxer from Shantung_</span>, and followed Guan’s ruthless climb to the top, but again, _Disciples of Shaolin_ surprises.
 
-A genuine romance blooms between Guan and Chu, effectively communicated with a single scene where they flirt, laugh, and chase each other before Guan leaves. As she closes the door behind him, Chu catches herself still smiling and realizes she has developed real feelings.
+A genuine romance blooms between Guan and Chu, effectively communicated with a single scene where they flirt, laugh, and chase each other before Guan leaves. As she closes the door behind him, Chu catches herself still smiling and realizes she has developed true feelings.
 
 In a refreshing twist, Chu doesn't morph into a damsel in distress. She doesn't figure into the remaining plot at all, but her romance with Guan lends nuance to both their characters and ups the emotional stakes. In the finale, a double-cross leads to a wound, rendering Guan vulnerable, culminating in another climactic fight as Guan seeks to vanquish the rival mill.
 
