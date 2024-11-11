@@ -6,9 +6,9 @@ grade: D
 date: 2024-11-10
 ---
 
-Elmer Bernstein fans should love this. Steve McQueen and Lee Remick fans, maybe not so much.
+Elmer Bernstein fans should love this. Steve McQueen fans, maybe not so much.
 
-The film opens with Remick bussing across Texas with her six-year-old daughter. They’re on their way to meet her husband, the child’s father, played by McQueen. He’s been in prison on account of him stabbing someone during a drunken brawl in one of the honky-tonks he played as the frontman for his guitar band. Promising to go to night school and learn a trade, he’s made parole. But he soon joins another band and is back playing those same honky-tonks. After reuniting with his family, McQueen tries to do right by them, but is soon brawling and pulling knives, putting him on course for another prison stint.
+The film opens with Lee Remick bussing across Texas with her six-year-old daughter. They’re on their way to meet her husband, the child’s father, played by McQueen. He’s been in prison on account of him stabbing someone during a drunken brawl in one of the honky-tonks he played as the frontman for his guitar band. Promising to go to night school and learn a trade, he’s made parole. But he soon joins another band and is back playing those same honky-tonks. After reuniting with his family, McQueen tries to do right by them, but is soon brawling and pulling knives, putting him on course for another prison stint.
 
 The best way I can think to describe the film is to imagine asking a teenage boy in 1965 small-town Texas to write a story about a teenager in the vein of Tennessee Williams or Carson McCullers, then cast thirty-five-year-old Steve McQueen as the teen, and get Academy Award-winning Ernest Laszlo to shoot it, and Elmer Bernstein to score it. A-list talent in service of immature material.
 
