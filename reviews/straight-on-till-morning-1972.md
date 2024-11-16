@@ -12,11 +12,11 @@ In 1971, Hammer was trying to capture a new generation of movie-goers. Though th
 
 For _Straight on Till Morning_, they recruited new stars, a new screenwriter in John Peacock, and a new director in Peter Collinson, who’d previously helmed <span data-imbd-id="tt0064505">_The Italian Job_</span>.
 
-While Hammer’s prior “woman-in-danger” pictures had been Hitchcockian-style thrillers, this plays more like a dark fairytale, an aspect emphasized by Brenda’s voice-over narration of the children’s stories she writes.
+While Hammer’s prior “woman-in-danger” pictures had been Hitchcockian-style thrillers, this plays more like a dark fairytale, an aspect emphasized by our lead's voice-over narration of the children’s stories she writes.
 
 The problem is, like a fairy tale, the characters feel manufactured.
 
-The plot follows a young woman named Brenda, played by Rita Tushingham, who, after learning she’s pregnant, moves from Liverpool to London. Seeking a father for her baby, she sets her eyes on androgynous pretty-boy Peter, played by Shane Briant, who, unbeknownst to her, is a serial killer.
+The plot follows Brenda, played by Rita Tushingham, a young woman who, after learning she’s pregnant, moves from Liverpool to London. Seeking a father for her baby, she sets her eyes on androgynous pretty-boy Peter, played by Shane Briant, who, unbeknownst to her, is a serial killer.
 
 Brenda is a woman-child. She’s self-centered, talks too loud, and proves oblivious to other people’s feelings. Consider the painfully awkward scene with her at a party trying to chat up a coworker. She keeps engaging, loudly asking questions despite his curt one-word replies and incessant ogling of her roommate. Normal behavior for a child, but grating in a twenty-something woman.
 
