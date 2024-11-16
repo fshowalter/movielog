@@ -6,5 +6,5 @@ slug: the-conspiracy-of-torture-1969
 venue: null
 venueNotes: null
 medium: Blu-ray
-mediumNotes: 2019 | 88 Films
+mediumNotes: 88 Films, 2019
 ---
