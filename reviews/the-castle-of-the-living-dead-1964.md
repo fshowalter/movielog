@@ -6,7 +6,7 @@ grade: D
 date: 2024-11-09
 ---
 
-Despite featuring ample atmosphere and solid turns by Christopher Lee and Donald Sutherland, _The Castle of the Living Dead_ lacks a crucial ingredient.
+Despite featuring ample atmosphere and solid turns by Christopher Lee and Donald Sutherland, _The Castle of the Living Dead_ fails to chill.
 
 The story unfolds in post-Napoleonic Wars France. A travelling theatre troupe accepts an invitation to perform for a local nobleman. On the road to his castle, they find the woods completely silent, and spy a stuffed bird perched on a branch. They think it a joke, but an old witch emerges from the forest speaking in rhymes urging them to beware the castle, foretelling that some will live, some will die.
 
