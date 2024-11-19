@@ -40,7 +40,7 @@ In the documentary, "The Saw is Family: Making _Leatherface_," we learn from pro
 
 After getting turned down by the likes of Peter Jackson and Tom Savini, Engelman hired Jeff Burr, who’d just helmed <span data-imdb-id="tt0098385">_Stepfather II: Make Room for Daddy_</span>. Burr, a fan of the original film, proposed shooting in Texas on 16mm film just like the original, but was blocked by Engelman who had already built the sets in California.
 
-For the casting, Burr seems responsible for hiring Foree, while Engelman, seemingly divorced from his own movie, says Hodge made a great scream queen because, "You don’t want someone to get on your nerves."
+For the casting, Burr seems responsible for hiring Foree, while Engelman, seemingly oblivious to his own movie, says Hodge made a great scream queen because, "You don’t want someone to get on your nerves."
 
 Another red flag emerged when Engelman and Gunnar Hansen couldn’t agree on a deal and the role of Leatherface went to R.A. Mihailoff. While physically imposing, Mihailoff lacks Hansen’s manic intensity, rendering his Leatherface more sullen. As Burr says, he’s a teenager here instead of a child like the prior films.
 
