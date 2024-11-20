@@ -5,15 +5,13 @@ grade: B-
 slug: having-a-wild-weekend-1965
 ---
 
-Director John Boorman's feature debut sees Dave Clark and his band playing stuntmen working on a London-based ad-campaign. Clark and the spokesmodel, played by Barbara Ferris, ditch the production for a road trip to an island in south England with the ad company in close pursuit. **Spoilers follow**.
+Director John Boorman's feature debut sees Dave Clark and his band playing stuntmen working on a London-based ad-campaign. Clark and the spokesmodel, played by Barbara Ferris, ditch the production for a road trip to an island in South England with the ad company in close pursuit. **Spoilers follow**.
 
-<!-- end -->
-
-This film surprised me. I went in expecting a knock off of <span data-imdb-id="">_A Hard Day's Night_</span>, and the opening did little to assuage my concerns. As the theme song plays, we watch the band wake up—they all share a bedroom, of course—and prepare for work. This musical sequence involves trampolines, rope climbing, messy meal preparation and other tropes designed to paint the group as kooky and fun.
+This film surprised me. The Dave Clark Five were an English rock and roll band with a string of Top 40 singles in the early Sixties. Given that, I went in expecting a knock-off of <span data-imdb-id="">_A Hard Day's Night_</span>, and the opening did little to assuage my concerns. As the theme song plays, we watch the band wake up—they all share a bedroom, of course—and prepare for work. This musical sequence involves trampolines, rope climbing, messy meal preparation and other tropes designed to paint the group as kooky and fun.
 
 But these gimmicks fade to the background as the film unfolds and Clark and Ferris begin their journey.
 
-First, a bit about the campaign. It's for the meat industry and Ferris's picture looms all over London with the slogan: “Meat for go”. The commercial they're shooting involves Ferris, Clark and the rest of the band sporting domino masks and black and white stripes and stealing slabs of beef from a London meat market. Yup, they're meat burglars[^1]. The inspired absurdity made me chuckle.
+First, a bit about the campaign. It's for the meat industry and Ferris's picture looms all over London with the slogan: “Meat for go”. The commercial they're shooting involves Ferris, Clark and the rest of the band sporting domino masks and black and white stripes and stealing slabs of beef from a London meat market. Yup, they're meat burglars, predating the Hamburglar from McDonald's by several years. The inspired absurdity made me chuckle.
 
 Back to Clark and Ferris. First, they tool around London in a stolen Jaguar. The high-contrast black and white photography stresses the city's grime and intensity and feels like a precursor to famed photographer Anton Corbijn's trademark style.
 
@@ -33,7 +31,7 @@ At their home, Guy and Nan reveal their dysfunction. Nan vamps on Clark while Gu
 
 Soon, the rest of the band arrives, and they join Guy and Nan in attending a masquerade party. The group has fun until police and press arrive, looking for Clark and Ferris, tipped off by the advertising agency that's been trailing them.
 
-A madcap chase ensues, with Clark and Ferris fleeing to the rural coast. There, they encounter a farm owner with plans to turn his property into an American Old-West-style ranch. Again, Ferris seems enraptured, and again, Clark wants nothing to do with it.
+A madcap chase ensues, with Clark and Ferris fleeing to the rural coast. There, they encounter a farm owner with plans to turn his property into an American Old West-style ranch. Again, Ferris seems enraptured, and again, Clark wants nothing to do with it.
 
 She can't understand his hurry to reach the island. “Why do you want to get there?” she asks. “Why can't you enjoy the journey?”
 
@@ -41,19 +39,19 @@ She can't understand his hurry to reach the island. “Why do you want to get th
 
 With this exchange, the film clicked. Ferris and Clark are young lovers, and their encounters—the beatniks, the old married couple, the cheap entertainers—represent possible futures. Each stands within their grasp, and Ferris seems eager to settle, but Clark has his eye on something grander, a destiny of his own making.
 
-With this in mind, the film's recurring motif of cold, beginning with the breakfast scene's frozen milk and reiterated in almost every scene where we can see the performers' breath, to the snow piles along the rural roads, along with the perpetual grey skies and bare trees, reinforces a sense of fatalism. Clark's refusal to accept these destinies points to his resolve to escape this world, and we feel his quiet disappointment upon realizing Ferris can't or won't dream bigger.
+With this in mind, the film's recurring motif of cold, which begins with the breakfast scene's frozen milk and is reiterated in almost every scene where we can see the performers' breath, to the snow piles along the rural roads, along with the perpetual grey skies and bare trees, reinforces a sense of fatalism. Clark's refusal to accept these destinies points to his resolve to escape this world, and we feel his quiet disappointment upon realizing Ferris can't or won't dream bigger.
 
 The film builds to an unexpected downbeat ending that I won't spoil, except to say that it cements the film as a rebuke to _A Hard Day's Night_'s fanciful view of fame. The closing shot, from Clark's POV, restores the high contrast of the earlier London scenes, but now he's on the outside, fleeing the hungry mob who've already forgotten him.
 
-What a discovery. I expected a goofy camp picture and came away impressed by the film's existential undercurrent. Clark surprises with his confident screen presence and minimalist performance, and Boorman proffers terrific location photography and a measured tone that disguises a deeper film as a pop group vehicle.
+What a discovery. I expected a goofy camp picture and came away impressed by the film's existential undercurrent. Clark surprises with his confident screen presence and minimalist performance, and Boorman proffers terrific location photography and a measured tone that disguises a deeper film that has more in common with the British New Wave than a pop group vehicle. The soundtrack even proves incidental, with only four of the album's twelve tracks appearing in the picture. The theme song, "Catch Us If You Can," is catchy, if forgettable.
 
 ---
 
-After watching the film, I began reading Boorman’s autobiography, _Adventures of a Suburban Boy_.[^2] He came up through television, directing stylish documentaries for BBC Bristol. One film covered an articulate beatnik teen, which inspired this film’s hippy encounter. Another production, shot in Glastonbury, uncovered its “Rabelaisian underbelly” which inspired this film's Guy and Nan characters.
+After watching the film, I began reading Boorman’s autobiography, _Adventures of a Suburban Boy_. He came up through television, directing stylish documentaries for BBC Bristol. One film covered an articulate beatnik teen, which inspired this film’s hippy encounter. Another production, shot in Glastonbury, uncovered its “Rabelaisian underbelly” which inspired this film's Guy and Nan characters. The milk slogan came from an advertising campaign featuring a sprightly girl, Zoe Newton. "Drinka pinta milka day" became "Meat for Go."
 
 Interesting, but the behind-the-scenes drama proved more surprising.
 
-When Boorman and screenwriter Peter Nichols first met Clark, they were “immediately depressed by his large, expressionless features and his flat, lugubrious voice.” What I saw as a confident, minimalist performance from Clark owed more to Boorman, who, having trouble getting Clark to perform, cut his dialogue to the bare minimum and had him play silent and taciturn. Boorman turned his attention to Farris, which Clark resented. Farris, in turn, was insecure about her appearance.
+When Boorman and screenwriter Peter Nichols first met Clark, they were “immediately depressed by his large, expressionless features and his flat, lugubrious voice.” What I saw as a confident, minimalist performance from Clark owed more to Boorman, who, having trouble getting Clark to perform, cut his dialogue to the bare minimum and had him play silent and taciturn. Boorman turned his attention to Ferris, which Clark resented. Ferris, in turn, was insecure about her appearance.
 
 Tensions boiled over when Clark insulted the costume designer and received a sock in the jaw from her husband, one of Boorman’s few trusted confidants. Clark took three days to recover.
 
@@ -62,6 +60,3 @@ Nichols and Boorman wrote the script in three weeks. Four months from the day th
 Perhaps the troubled production colors Boorman's perspective. Yes, it has a hollow center, but that’s the entire point. The celebrities, the beatniks, the libertines, the businessmen, they’re all hollow. In applying his documentary lens, Boorman has betrayed the truth behind the façade. For the film to proffer anything else would feel disingenuous.
 
 Pauline Kael also saw something, as she praised it in _The New Yorker_, upping Boorman’s Hollywood credibility. Indeed, it may not be a great film, Mr. Boorman, but it is a good one.
-
-[^1]: Predating the Hamburglar from McDonald's by several years. According to Boorman, "At the time there was an advertising campaign for milk featuring a sprightly girl, Zoe Newton--'Drinka pinta milka day'--and we invented a variation on that. 'Meat for Go' was our slogan." (_Adventures of a Suburban Boy_, 113-114)
-[^2]: John Boorman, _Adventures of a Suburban Boy_, (New York: Farrar, Straus and Giroux, 2003), Kindle.
