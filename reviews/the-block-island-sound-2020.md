@@ -10,7 +10,7 @@ Chris Sheffield plays Harry, an aimless young man living in the isolated communi
 
 <!-- end -->
 
-I wanted to like this more. Early on, directors Kevin and Matthew McManus use the island location, desolate sea, and dark photography to generate a Lovecraftian sense of isolation and insignificance. The cast proves strong. I loved Jim Cummings as Harry’s conspiracy-minded friend, but Neville Archambault’s turn as Harry stands out. The scene where he growls “Girl!” chills. His delivery—imbued with a subtle dissonance—evokes the stuff of nightmares.
+I wanted to like this more. Early on, directors Kevin and Matthew McManus use the island location, desolate sea, and dark photography to generate a Lovecraftian sense of isolation and insignificance. The cast proves strong. I loved Jim Cummings as Harry’s conspiracy-minded friend, but Neville Archambault’s turn as Tom stands out. The scene where he growls “Girl!” chills. His delivery—imbued with a subtle dissonance—evokes the stuff of nightmares.
 
 But I never felt invested in Harry. He’s myopic and immature. His insistence on withholding information harkens to the slasher victim running up the stairs instead of out of the house. As the narrative stakes ramp up, the emotional stakes lag. I don’t fault Sheffield, who convinces in the part. His character just can’t carry the story.
 
