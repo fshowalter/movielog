@@ -80,6 +80,7 @@ JsonAllTimeStats = TypedDict(
         "mostWatchedDirectors": list[JsonMostWatchedPerson],
         "mostWatchedWriters": list[JsonMostWatchedPerson],
         "mostWatchedPerformers": list[JsonMostWatchedPerson],
+        "venueDistribution": list[JsonDistribution],
     },
 )
 
@@ -96,13 +97,14 @@ JsonYearStats = TypedDict(
         "mostWatchedDirectors": list[JsonMostWatchedPerson],
         "mostWatchedWriters": list[JsonMostWatchedPerson],
         "mostWatchedPerformers": list[JsonMostWatchedPerson],
+        "venueDistribution": list[JsonDistribution],
     },
 )
 
 ListType = TypeVar("ListType")
 
 
-def build_json_distributions(
+def _build_json_distributions(
     distribution_items: Iterable[ListType], key: Callable[[ListType], str]
 ) -> list[JsonDistribution]:
     distribution = list_tools.group_list_by_key(distribution_items, key)
@@ -113,7 +115,7 @@ def build_json_distributions(
     ]
 
 
-def build_json_grade_distributions(
+def _build_json_grade_distributions(
     reviews: Iterable[repository_api.Review],
 ) -> list[JsonGradeDistribution]:
     distribution = defaultdict(list)
@@ -140,7 +142,7 @@ class MostWatchedPersonGroup:
 NameImdbId = frozenset[str]
 
 
-def remove_viewing_for_credit_team_members(
+def _remove_viewing_for_credit_team_members(
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     viewing: repository_api.Viewing,
     team_ids: frozenset[str],
@@ -154,7 +156,7 @@ def remove_viewing_for_credit_team_members(
         ]
 
 
-def apply_credit_teams_for_viewing(
+def _apply_credit_teams_for_viewing(
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     viewing: repository_api.Viewing,
     credit_names: list[repository_api.CreditName],
@@ -166,12 +168,12 @@ def apply_credit_teams_for_viewing(
         if team_ids & credit_name_ids:
             viewings_by_name[team_ids].viewings.append(viewing)
             viewings_by_name[team_ids].name = team_name
-            remove_viewing_for_credit_team_members(
+            _remove_viewing_for_credit_team_members(
                 viewings_by_name=viewings_by_name, viewing=viewing, team_ids=team_ids
             )
 
 
-def build_most_watched_performers(
+def _build_most_watched_performers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
@@ -186,20 +188,20 @@ def build_most_watched_performers(
             viewings_by_name[key].name = performer.name
             viewings_by_name[key].viewings.append(viewing)
 
-        apply_credit_teams_for_viewing(
+        _apply_credit_teams_for_viewing(
             viewings_by_name=viewings_by_name,
             viewing=viewing,
             credit_names=repository_data.titles[viewing.imdb_id].performers,
         )
 
-    return build_most_watched_person_list(
+    return _build_most_watched_person_list(
         watchlist_kind="performers",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
 
 
-def build_most_watched_writers(
+def _build_most_watched_writers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
@@ -216,20 +218,20 @@ def build_most_watched_writers(
             if viewing not in viewings_by_name[key].viewings:
                 viewings_by_name[key].viewings.append(viewing)
 
-        apply_credit_teams_for_viewing(
+        _apply_credit_teams_for_viewing(
             viewings_by_name=viewings_by_name,
             viewing=viewing,
             credit_names=repository_data.titles[viewing.imdb_id].writers,
         )
 
-    return build_most_watched_person_list(
+    return _build_most_watched_person_list(
         watchlist_kind="writers",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
 
 
-def build_json_most_watched_person_viewing(
+def _build_json_most_watched_person_viewing(
     viewing: repository_api.Viewing, repository_data: RepositoryData
 ) -> JsonMostWatchedPersonViewing:
     title = repository_data.titles[viewing.imdb_id]
@@ -246,13 +248,13 @@ def build_json_most_watched_person_viewing(
     )
 
 
-def watchlist_person_matches_indexed_imdb_id(
+def _watchlist_person_matches_indexed_imdb_id(
     person_imdb_id: frozenset[str], indexed_imdb_id: NameImdbId
 ) -> bool:
     return frozenset(person_imdb_id) == indexed_imdb_id
 
 
-def build_most_watched_directors(
+def _build_most_watched_directors(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
@@ -266,20 +268,20 @@ def build_most_watched_directors(
             viewings_by_name[key].name = director.name
             viewings_by_name[key].viewings.append(viewing)
 
-        apply_credit_teams_for_viewing(
+        _apply_credit_teams_for_viewing(
             viewings_by_name=viewings_by_name,
             viewing=viewing,
             credit_names=repository_data.titles[viewing.imdb_id].directors,
         )
 
-    return build_most_watched_person_list(
+    return _build_most_watched_person_list(
         watchlist_kind="directors",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
 
 
-def build_most_watched_person_list(
+def _build_most_watched_person_list(
     watchlist_kind: repository_api.WatchlistPersonKind,
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     repository_data: RepositoryData,
@@ -294,7 +296,7 @@ def build_most_watched_person_list(
             (
                 watchlist_person
                 for watchlist_person in repository_data.watchlist_people[watchlist_kind]
-                if watchlist_person_matches_indexed_imdb_id(
+                if _watchlist_person_matches_indexed_imdb_id(
                     person_imdb_id=watchlist_person.imdb_id,
                     indexed_imdb_id=indexed_imdb_id,
                 )
@@ -309,7 +311,7 @@ def build_most_watched_person_list(
                 count=len(most_watched_person_group.viewings),
                 slug=watchlist_person.slug if watchlist_person else None,
                 viewings=[
-                    build_json_most_watched_person_viewing(
+                    _build_json_most_watched_person_viewing(
                         viewing=viewing, repository_data=repository_data
                     )
                     for viewing in most_watched_person_group.viewings
@@ -324,7 +326,7 @@ def build_most_watched_person_list(
     )[:10]
 
 
-def build_most_watched_title(
+def _build_most_watched_title(
     imdb_id: str, count: int, repository_data: RepositoryData
 ) -> JsonMostWatchedTitle:
     title = repository_data.titles[imdb_id]
@@ -340,7 +342,7 @@ def build_most_watched_title(
     )
 
 
-def build_most_watched_titles(
+def _build_most_watched_titles(
     viewings: list[repository_api.Viewing], repository_data: RepositoryData
 ) -> list[JsonMostWatchedTitle]:
     viewings_by_title = list_tools.group_list_by_key(
@@ -354,7 +356,7 @@ def build_most_watched_titles(
             continue
 
         most_watched_titles.append(
-            build_most_watched_title(
+            _build_most_watched_title(
                 imdb_id=imdb_id,
                 count=len(viewings_for_title),
                 repository_data=repository_data,
@@ -368,31 +370,40 @@ def build_most_watched_titles(
     )[:10]
 
 
-def build_grade_distribution(
+def _build_grade_distribution(
     reviews: Iterable[repository_api.Review],
 ) -> list[JsonDistribution]:
-    return build_json_distributions(reviews, lambda review: review.grade)
+    return _build_json_distributions(reviews, lambda review: review.grade)
 
 
-def build_media_distribution(
+def _build_venue_distribution(
     viewings: list[repository_api.Viewing],
 ) -> list[JsonDistribution]:
-    return build_json_distributions(
+    return _build_json_distributions(
+        [viewing for viewing in viewings if viewing.venue],
+        lambda viewing: str(viewing.venue),
+    )
+
+
+def _build_media_distribution(
+    viewings: list[repository_api.Viewing],
+) -> list[JsonDistribution]:
+    return _build_json_distributions(
         [viewing for viewing in viewings if viewing.medium],
         lambda viewing: str(viewing.medium),
     )
 
 
-def build_decade_distribution(
+def _build_decade_distribution(
     titles: list[repository_api.Title],
 ) -> list[JsonDistribution]:
     return sorted(
-        build_json_distributions(titles, lambda title: "{0}0s".format(title.year[:3])),
+        _build_json_distributions(titles, lambda title: "{0}0s".format(title.year[:3])),
         key=lambda distribution: distribution["name"],
     )
 
 
-def build_json_year_stats(
+def _build_json_year_stats(
     year: str,
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
@@ -403,7 +414,7 @@ def build_json_year_stats(
 
     return JsonYearStats(
         year=year,
-        newTitleCount=new_title_count(
+        newTitleCount=_new_title_count(
             year=year,
             unique_title_ids_for_year=unique_title_ids,
             repository_data=repository_data,
@@ -411,31 +422,36 @@ def build_json_year_stats(
         viewingCount=len(viewings),
         titleCount=len(unique_title_ids),
         mediaDistribution=sorted(
-            build_media_distribution(viewings),
+            _build_media_distribution(viewings),
             key=lambda distribution: distribution["count"],
             reverse=True,
         )[:10],
-        decadeDistribution=build_decade_distribution(titles),
-        mostWatchedTitles=build_most_watched_titles(
+        venueDistribution=sorted(
+            _build_venue_distribution(viewings),
+            key=lambda distribution: distribution["count"],
+            reverse=True,
+        )[:10],
+        decadeDistribution=_build_decade_distribution(titles),
+        mostWatchedTitles=_build_most_watched_titles(
             viewings=viewings, repository_data=repository_data
         ),
-        mostWatchedDirectors=build_most_watched_directors(
+        mostWatchedDirectors=_build_most_watched_directors(
             viewings=viewings,
             repository_data=repository_data,
         ),
-        mostWatchedPerformers=build_most_watched_performers(
+        mostWatchedPerformers=_build_most_watched_performers(
             viewings=viewings,
             repository_data=repository_data,
         ),
-        mostWatchedWriters=build_most_watched_writers(
+        mostWatchedWriters=_build_most_watched_writers(
             viewings=viewings,
             repository_data=repository_data,
         ),
     )
 
 
-def build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeStats:
-    watchlist_title_ids = extract_watchlist_title_ids(repository_data=repository_data)
+def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeStats:
+    watchlist_title_ids = _extract_watchlist_title_ids(repository_data=repository_data)
 
     titles = [
         repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings
@@ -450,34 +466,39 @@ def build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSta
         titleCount=len(unique_title_ids),
         reviewCount=len(repository_data.reviews),
         watchlistTitlesReviewedCount=len(review_ids_from_watchlist),
-        gradeDistribution=build_json_grade_distributions(
+        gradeDistribution=_build_json_grade_distributions(
             repository_data.reviews.values()
         ),
         mediaDistribution=sorted(
-            build_media_distribution(repository_data.viewings),
+            _build_media_distribution(repository_data.viewings),
             key=lambda distribution: distribution["count"],
             reverse=True,
         )[:10],
-        decadeDistribution=build_decade_distribution(titles),
-        mostWatchedTitles=build_most_watched_titles(
+        venueDistribution=sorted(
+            _build_venue_distribution(repository_data.viewings),
+            key=lambda distribution: distribution["count"],
+            reverse=True,
+        )[:10],
+        decadeDistribution=_build_decade_distribution(titles),
+        mostWatchedTitles=_build_most_watched_titles(
             viewings=repository_data.viewings, repository_data=repository_data
         ),
-        mostWatchedDirectors=build_most_watched_directors(
+        mostWatchedDirectors=_build_most_watched_directors(
             viewings=repository_data.viewings,
             repository_data=repository_data,
         ),
-        mostWatchedPerformers=build_most_watched_performers(
+        mostWatchedPerformers=_build_most_watched_performers(
             viewings=repository_data.viewings,
             repository_data=repository_data,
         ),
-        mostWatchedWriters=build_most_watched_writers(
+        mostWatchedWriters=_build_most_watched_writers(
             viewings=repository_data.viewings,
             repository_data=repository_data,
         ),
     )
 
 
-def extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
+def _extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     watchlist_title_ids = set(
         [
             title_id
@@ -494,7 +515,7 @@ def extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     return watchlist_title_ids
 
 
-def new_title_count(
+def _new_title_count(
     year: str, unique_title_ids_for_year: set[str], repository_data: RepositoryData
 ) -> int:
     older_title_ids = set(
@@ -511,7 +532,7 @@ def new_title_count(
 def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "stats")
 
-    all_time_stats = build_all_time_json_stats(repository_data=repository_data)
+    all_time_stats = _build_all_time_json_stats(repository_data=repository_data)
 
     exporter.serialize_dict(all_time_stats, "all-time-stats")
 
@@ -524,7 +545,7 @@ def export(repository_data: RepositoryData) -> None:
 
     for year, viewings_for_year in viewings_by_year.items():
         year_stats.append(
-            build_json_year_stats(
+            _build_json_year_stats(
                 year=year,
                 viewings=viewings_for_year,
                 repository_data=repository_data,
