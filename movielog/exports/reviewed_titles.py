@@ -343,7 +343,9 @@ def _build_json_reviewed_title(
         ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
-        sequence="{0}-{1}".format(review.date.isoformat(), viewings[0].sequence),
+        sequence="{0}-{1}".format(
+            review.date.isoformat(), viewings[0].sequence if viewings else ""
+        ),
         viewings=[
             _JsonViewing(
                 sequence=viewing.sequence,
