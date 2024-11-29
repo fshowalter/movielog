@@ -32,6 +32,7 @@ def _get_valid_title_ids() -> set[str]:
             for collection in json_collections.read_all()
             for title in collection["titles"]
         ],
+        *get_review_ids(),
     ]
 
     for kind in json_watchlist_people.KINDS:
