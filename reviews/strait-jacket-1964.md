@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0058620
 title: Straight Jacket (1964)
-slug: straight-jacket-1964
+slug: strait-jacket-1964
 grade: C-
 date: 2008-02-01
 ---
