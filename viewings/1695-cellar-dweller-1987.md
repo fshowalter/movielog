@@ -1,0 +1,11 @@
+---
+sequence: 1695
+imdbId: tt0094850
+date: 2024-11-29
+slug: cellar-dweller-1987
+medium: Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: '_Enter the Video Store: Empire of Screams_, Arrow, 2023'
+---
+
