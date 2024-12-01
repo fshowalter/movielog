@@ -7,15 +7,17 @@ grade: F
 
 Humphrey Bogart plays a wrestling promoter who takes his flagging show to the Ozarks, where he arranges a match between his star and a she-hulk blacksmith. Complications arise when the would-be grapplers fall in love.
 
-<!-- end -->
+On the plus side, Bogart's not playing a heavy.
 
-On the plus side, Bogart's not playing a heavy. This concludes the plus side.
+This concludes the plus side.
 
-Though top-billed, Bogart amounts to a supporting player. The film plays as a romantic comedy led by Bogart's wrestler, played by Nate Pendleton, and the blacksmith, played by Louise Fazenda, interspersed with assorted “Hollywood Hillbilly” musical numbers led by Penny Singleton. Think lots of banjos, fiddles, bonnets, and suspenders.
+Though top-billed, Bogart amounts to a supporting player. The film plays as a romantic comedy between Nate Pendleton as Bogart's wrestler and Louise Fazenda as the blacksmith.
 
-Speaking of Singleton, she plays Bogart's would-be love interest. She and Bogart have no chemistry. Indeed, Bogart seems to sense he's in a turkey. Perhaps the scene where Fazenda wrestles him into crying “Hootie Owl” gave it away. That scene aside, much of the proffered comedy comes from Pendleton's simpleton wrestler.
+In between their scenes, we get assorted “Hollywood Hillbilly” musical numbers led by Penny Singleton. Warners was trying to replicate the success of Paramount's <span data-imdb-id="tt0029264">_Mountain Music_</span>. Think lots of banjos, fiddles, bonnets, and suspenders.
 
-To-wit, Bogart and his entourage talk code by spelling out words they don't want Pendleton to hear, as one would talk around a toddler. To which Pendleton replies, “Aw, talk United States, will ya?”
+Bogart knew the project was a turkey. Perhaps the scene where Fazenda wrestles him into crying “Hootie Owl” gave it away. Regardless, according to A.M. Sperber and Eric Lax in _Bogart_, he initially refused to do the film. Warners convinced him with a raise, bumping his salary to $1,000 a week. Bogart needed the money and swallowed his pride.
+
+Much of the proffered comedy comes from Pendleton's simpleton wrestler. Bogart and his entourage spell out words they don't want Pendleton to hear, as one would talk around a toddler. To which Pendleton replies, “Aw, talk United States, will ya?”
 
 Pendleton's performance exudes the charisma of a boulder and proves as much fun to watch. Another example of the film's humor comes when Pendleton introduces himself to Fazenda.
 
