@@ -9,9 +9,9 @@ Paul, a teenage prodigy in robotics and artificial intelligence, reanimates his 
 
 It works, but now she’s a zombie, incapable of speech and exhibiting a robot’s herky-jerky movement. Things escalate when Sam uses her newfound robot strength to extract gruesome vengeance on her father and other neighbors.
 
-In a 2021 interview, screenwriter Bruce Joel Rubin revealed he intended to pass on adapting Diana Henstell’s novel _Friend_ because he hated the book. He changed his mind after meditating and hearing his yoga mentor’s voice say, "There’s more integrity in providing for your family than in turning down jobs." His original draft (also titled _Friend_) played as a macabre love story[^1].
+In a 2021 interview included on the Shout Factory Blu-ray, screenwriter Bruce Joel Rubin revealed he intended to pass on adapting Diana Henstell’s novel _Friend_ because he hated the book. He changed his mind after meditating and hearing his yoga mentor’s voice say, "There’s more integrity in providing for your family than in turning down jobs." His original draft (also titled _Friend_) played as a macabre love story.
 
-But the initial test screening convinced the studio the film needed more violence. Something he and director Wes Craven were happy to contribute. Reshoots added scenes of escalating brutality. Rubin remembers audiences hooting and cheering during a follow-up screening, but now studio execs felt it was _too_ violent and demanded cuts. "For every second we lose," Rubin remembers Craven saying, "that’s a million at the box office."[^1]
+But the initial test screening convinced the studio the film needed more violence. Something he and director Wes Craven were happy to contribute. Reshoots added scenes of escalating brutality. Rubin remembers audiences hooting and cheering during a follow-up screening, but now studio execs felt it was _too_ violent and demanded cuts. "For every second we lose," Rubin remembers Craven saying, "that’s a million at the box office."
 
 Craven proved prescient. The resulting film underwhelms. The first half plays like a PG-rated teen romance. Paul, with his robot sidekick BB, displays an advanced maturity befitting a gifted intellect. But upon encountering Sam, he’s flustered, stammers, and feels every bit a fifteen-year-old boy.
 
