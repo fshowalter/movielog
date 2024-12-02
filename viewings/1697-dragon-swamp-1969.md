@@ -1,0 +1,11 @@
+---
+sequence: 1697
+imdbId: tt0064258
+date: 2024-12-01
+slug: dragon-swamp-1969
+medium: Blu-ray
+venue: null
+venueNotes: null
+mediumNotes: '_Shaw Brothers Classics: Volume One_, Shout Factory, 2023'
+---
+
