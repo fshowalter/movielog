@@ -1,8 +1,8 @@
 ---
-date: 2009-02-12
+date: 2007-08-19
 imdb_id: tt0036323
 title: Sahara (1943)
-grade: C-
+grade: C+
 slug: sahara-1943
 ---
 
