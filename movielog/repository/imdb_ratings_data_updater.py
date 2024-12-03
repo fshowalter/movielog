@@ -44,8 +44,6 @@ def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
             votes=row["imdb_votes"], rating=row["imdb_rating"]
         )
 
-    print(titles)
-
     ratings["titles"] = titles
 
     json_imdb_ratings.serialize(ratings)

@@ -17,5 +17,4 @@ def validate() -> None:  # noqa: WPS210, WPS213
     ratings = json_imdb_ratings.deserialize()
 
     if review_ids.difference(ratings["titles"].keys()):
-        print(review_ids.difference(ratings["titles"].keys()))
         imdb_ratings_data_updater.update_with_db_data(list(review_ids))
