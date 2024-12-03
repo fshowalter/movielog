@@ -1,7 +1,7 @@
 ---
 date: 2009-03-06
 imdb_id: tt0062708
-grade: D+
+grade: D-
 slug: bandolero-1968
 ---
 
