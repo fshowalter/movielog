@@ -22,6 +22,7 @@ AllowList = {
     "tt0084568",  # The Rainmaker (1982) [no principal cast]
     "tt6883152",  # The Devil and Father Amorth (2017) [no principal cast]
     "tt2608220",  # The Vatican (2013) [no principal cast]
+    "tt0839995",  # Superman II: The Richard Donner Cut [no principal cast -- all "archive footage"]
 }
 
 DatasetName = _DatasetName

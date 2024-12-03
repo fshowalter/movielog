@@ -44,6 +44,8 @@ def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
             votes=row["imdb_votes"], rating=row["imdb_rating"]
         )
 
+    print(titles)
+
     ratings["titles"] = titles
 
     json_imdb_ratings.serialize(ratings)
@@ -52,12 +54,16 @@ def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
 def update_for_datasets(  # noqa: WPS210
     dataset_titles: list[datasets_api.DatasetTitle],
 ) -> None:
-    average_imdb_rating = mean(
-        title["imdb_rating"] for title in dataset_titles if title["imdb_rating"]
-    )
-
     average_imdb_votes = mean(
         title["imdb_votes"] for title in dataset_titles if title["imdb_votes"]
+    )
+
+    average_imdb_rating = mean(
+        title["imdb_rating"]
+        for title in dataset_titles
+        if title["imdb_rating"]
+        and title["imdb_votes"]
+        and title["imdb_votes"] >= average_imdb_votes
     )
 
     reviewed_title_ids = set(
