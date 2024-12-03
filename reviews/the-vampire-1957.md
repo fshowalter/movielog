@@ -1,7 +1,7 @@
 ---
 date: 2008-01-06
 imdb_id: tt0051150
-grade: F+
+grade: F
 slug: the-vampire-1957
 ---
 
