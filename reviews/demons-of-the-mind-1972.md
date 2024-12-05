@@ -18,7 +18,7 @@ If that synopsis seems disjointed, then I have conveyed a sense of the viewing e
 
 Instead, we get a sweaty-faced Briant, desperate to see Elizabeth, stabbing his aunt repeatedly in the throat with a ring full of keys. Covered in gore, Briant stands up, bug-eyed, and searches the keys for the one to Elizabeth’s room. Then—inexplicably—he throws the keys away. I laughed aloud at the inanity. Briant then attempts to break down Elizabeth’s door. He runs forward, hits the door, and drops to the floor as the door swings open. More cackles. How can the film expect us to take it seriously?
 
-Compounding matters, Hardy seems to sulk his way through the picture, rattling off his lines in a drudging tone as though eager to speed through each take. To be fair, it’s a talky script full of atrocious dialogue, but Hardy's delivery shows how much Hammer benefitted from Peter Cushing and Christopher Lee, who would have delivered the lines with the same professional rigor as they would Shakespeare.
+Compounding matters, Hardy seems to sulk his way through the picture, rattling off his lines in a drudging tone as though eager to speed through each take. To be fair, it’s a talky script full of atrocious dialogue, but Hardy's delivery shows how much Hammer benefited from Peter Cushing and Christopher Lee, who would have delivered the lines with the same professional rigor as they would Shakespeare.
 
 Indeed, in contrast to Hardy, Magee seems committed to his part, and does more than just recite his lines. He reacts to the other performers and leverages body language and pauses to imbue gravitas. His limited role can't save the picture, however, and his abrupt exit provides another moment of unintended comedy.
 
