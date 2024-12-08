@@ -5,12 +5,12 @@ grade: B-
 slug: the-amazing-dr-clitterhouse-1938
 ---
 
-A doctor (Edward G. Robinson) joins a gang of criminals in order to study the physiological effects of crime and tangles with a hood (Humphrey Bogart) over a woman (Claire Trevor).
+_The Amazing Dr. Clitterhouse<_ features Edward G. Robinson as the titular doctor, a society physician secretly investigating criminal behavior by committing jewel heists then collecting data about his physical state of being, such as blood pressure and heart rate, with plans to publish his results for the good of mankind.
 
-Despite its 70’s-porn sounding title, _The Amazing Dr. Clitterhouse_ is a pretty good movie. The script by John Huston and John Wexley is clever and crackles with great dialog, the direction is tight, and the performances are all top-notch.
+When the good doctor finds that he needs a larger sample group, he assumes the identity of "The Professor" and hooks up with a fence, Jo, played by Claire Trevor. He quickly assumes control of her gang of thieves, much to the chagrin of former leader, and all-around tough guy 'Rocks' Valentine, played by Humphrey Bogart.
 
-Edward G. Robinson does a great job in the lead, pulling off a slow, deliberate descent into madness that’s refreshingly subtle. In an era where so many stage adaptations feature copious over-emoting, Robinson is remarkably restrained.
+Soon, the doctor finds himself in deeper and deeper as Rocks tries to reassert control of the gang and the doctor struggles to keep his dual identities a secret.
 
-Opposite Robinson, Claire Trevor is solid, in a role that, admittedly, doesn’t give her a whole lot to do, as is Humphrey Bogart, who manages to infuse his one-dimensional character with genuine menace. Interestingly, these three leads would reunite with John Huston for <span data-imdb-id="tt0040506">_Key Largo_</span> ten years later.
+Ostensibly, the filmmakers play the story as a straight Warner gangster picture, playing to the strengths of stars Robinson and Bogart, but beneath the surface, screenwriters John Wexley and John Huston craft a nice black comedy with Robinson as mad scientist.
 
-Running only 87 minutes, the film moves at a brisk pace, mostly at the expense of Trevor and Bogart’s characters, but what they lose in characterization they make up for with sheer charisma.
+Though most of Warners' attempts to mix the gangster genre wound up as disasters (see <span data-imdb-id="tt0031851">_The Return of Dr. X_</span>) this one works. While _The Amazing Dr. Clitterhouse_ certainly suffers from a rather unfortunate title, the crackling dialog (likely the work of Huston) and fast-paced direction make it an enjoyable ride.
