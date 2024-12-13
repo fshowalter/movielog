@@ -154,7 +154,8 @@ def _build_json_more_reviews(
 ) -> list[_JsonMoreTitle]:
     sliced_titles = _slice_list(
         source_list=sorted(
-            repository_data.reviewed_titles, key=lambda title: title.sort_title
+            repository_data.reviewed_titles,
+            key=lambda title: title.sort_title.casefold(),
         ),
         matcher=_build_imdb_id_matcher(review.imdb_id),
     )
