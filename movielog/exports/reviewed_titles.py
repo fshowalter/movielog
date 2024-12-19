@@ -2,6 +2,8 @@ from collections import defaultdict
 from itertools import count
 from typing import Callable, Literal, Optional, TypedDict, TypeVar, Union
 
+from unidecode import unidecode
+
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
@@ -155,7 +157,7 @@ def _build_json_more_reviews(
     sliced_titles = _slice_list(
         source_list=sorted(
             repository_data.reviewed_titles,
-            key=lambda title: title.sort_title.casefold(),
+            key=lambda title: unidecode(title.sort_title.casefold()),
         ),
         matcher=_build_imdb_id_matcher(review.imdb_id),
     )
