@@ -117,7 +117,7 @@ def _remove_watchlist_person_titles_not_in_given_title_ids(
 ) -> None:
     for title_kind in ("titles", "excludedTitles"):
         existing_title_ids = set(
-            [title["imdbId"] for title in watchlist_person[title_kind]]  # type:ignore
+            [title["imdbId"] for title in watchlist_person[title_kind]]
         )
 
         missing_titles = (
