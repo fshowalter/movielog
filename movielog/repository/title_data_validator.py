@@ -44,6 +44,27 @@ def _get_valid_title_ids() -> set[str]:
     return set(title_ids)
 
 
+def validate_sort_title(json_title: json_titles.JsonTitle) -> None:
+    correct_sort_title = json_titles.generate_sort_title(
+        json_title["title"], json_title["year"]
+    )
+
+    existing_sort_title = json_title["sortTitle"]
+
+    if existing_sort_title == correct_sort_title:
+        return
+
+    json_title["sortTitle"] = correct_sort_title
+    logger.log(
+        "{} ({}) [{}]: sortTitle was {} corrected to {}.",
+        json_title["title"],
+        json_title["year"],
+        json_title["imdbId"],
+        existing_sort_title,
+        json_title["sortTitle"],
+    )
+
+
 def validate_slug(json_title: json_titles.JsonTitle, review_ids: set[str]) -> None:
     correct_slug = json_titles.generate_title_slug(
         json_title["title"], json_title["year"]
@@ -152,6 +173,7 @@ def validate() -> None:  # noqa: WPS210, WPS213
             updated_title = deepcopy(json_title)
 
             validate_slug(updated_title, review_ids)
+            validate_sort_title(updated_title)
 
             correct_file_path = json_titles.generate_file_path(updated_title)
 
