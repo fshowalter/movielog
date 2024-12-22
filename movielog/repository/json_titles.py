@@ -59,16 +59,15 @@ JsonTitle = TypedDict(
 
 
 def generate_sort_title(title: str, year: str) -> str:
-    title_with_year = "{0} ({1})".format(title, year)
-    title_lower = title_with_year.lower()
-    title_words = title_with_year.split(" ")
-    lower_words = title_lower.split(" ")
+    sort_title = title.lower()
+    title_words = sort_title.split(" ")
+    lower_words = sort_title.split(" ")
     articles = set(["a", "an", "the"])
 
     if (len(title_words) > 1) and (lower_words[0] in articles):
-        return "{0}".format(" ".join(title_words[1 : len(title_words)]))
+        sort_title = " ".join(title_words[1 : len(title_words)])
 
-    return title_with_year
+    return generate_title_slug(sort_title, year)
 
 
 def generate_title_slug(title: str, year: str) -> str:
