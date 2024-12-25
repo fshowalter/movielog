@@ -21,4 +21,4 @@ Perhaps this is because of Capra’s decision to allow Mr. Potter to avoid any e
 
 If _It’s a Wonderful Life_ has a flaw, it’s in the young George Bailey character. In addition to having no resemblance to James Stewart, Bobby Anderson over-emotes terribly, especially in his scene opposite Lionel Barrymore. Thankfully, his is a small part, and thus a small blemish on an otherwise flawless film.
 
-_It’s a Wonderful Life_ has endured for over 60 years for good reason; it’s the reare film that manages to be touching without feeling trite.
+_It’s a Wonderful Life_ has endured for over 60 years for good reason; it’s the rare film that manages to be touching without feeling trite.
