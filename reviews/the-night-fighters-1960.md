@@ -1,7 +1,7 @@
 ---
 date: 2012-04-25
 imdb_id: tt0054120
-grade: D+
+grade: D-
 slug: the-night-fighters-1960
 ---
 
