@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime
 import re
 import sqlite3
 from contextlib import contextmanager
@@ -68,12 +69,16 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
             continue
 
         imdb_id = match.group()
+
+        if imdb_id == "tt0081529":
+            imdb_id = "tt0076729"
+
         title = reviews[imdb_id].title()
 
         repository_api.create_viewing(
             imdb_id=imdb_id,
             full_title="{0} ({1})".format(title.title, title.year),
-            date=viewing_date,
+            date=datetime.datetime.strptime(viewing_date, "%Y-%m-%d").date(),
             medium=None,
             venue=None,
             medium_notes=None,
@@ -101,6 +106,7 @@ def get_post_ids() -> list[Any]:
         WHERE post_type = 'post'
         AND post_parent = 0
         AND post_status = 'publish'
+        ORDER BY id
     """
 
     return fetch_all(query)
