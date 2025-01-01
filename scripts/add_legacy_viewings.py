@@ -51,16 +51,16 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
     for post_id_row in get_post_ids():
         imdb_url = None
-        viewing_date = None
+        viewing_dates = []
         imdb_id = None
 
         for post_meta_row in get_post_meta_for_id(post_id_row["ID"]):
             if post_meta_row["meta_key"] == "Date Viewed":
-                viewing_date = post_meta_row["meta_value"]
+                viewing_dates.append(post_meta_row["meta_value"])
             if post_meta_row["meta_key"] == "IMDB":
                 imdb_url = post_meta_row["meta_value"]
 
-        if imdb_url is None or viewing_date is None:
+        if imdb_url is None or len(viewing_dates) == 0:
             continue
 
         match = re.search(r"tt\d+", imdb_url)
@@ -78,14 +78,15 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
         title = reviews[imdb_id].title()
 
-        repository_api.create_viewing(
-            imdb_id=imdb_id,
-            full_title="{0} ({1})".format(title.title, title.year),
-            date=datetime.datetime.strptime(viewing_date, "%Y-%m-%d").date(),
-            medium=None,
-            venue=None,
-            medium_notes=None,
-        )
+        for viewing_date in viewing_dates:
+            repository_api.create_viewing(
+                imdb_id=imdb_id,
+                full_title="{0} ({1})".format(title.title, title.year),
+                date=datetime.datetime.strptime(viewing_date, "%Y-%m-%d").date(),
+                medium=None,
+                venue=None,
+                medium_notes=None,
+            )
 
 
 def get_post_meta_for_id(id: str) -> Any:
@@ -109,7 +110,7 @@ def get_post_ids() -> list[Any]:
         WHERE post_type = 'post'
         AND post_parent = 0
         AND post_status = 'publish'
-        ORDER BY id
+        ORDER BY post_date
     """
 
     return fetch_all(query)
