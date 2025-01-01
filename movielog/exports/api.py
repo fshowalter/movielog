@@ -5,7 +5,6 @@ from collections import defaultdict
 from movielog.exports import (
     cast_and_crew,
     collections,
-    list_tools,
     overrated,
     reviewed_titles,
     stats,
@@ -22,6 +21,7 @@ from movielog.exports.repository_data import (
     WatchlistTitlesKey,
 )
 from movielog.repository import api as repository_api
+from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
 

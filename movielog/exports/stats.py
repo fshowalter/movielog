@@ -3,9 +3,10 @@ from dataclasses import dataclass, field
 from types import MappingProxyType
 from typing import Callable, Iterable, Optional, TypedDict, TypeVar
 
-from movielog.exports import exporter, list_tools
+from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
+from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
 CREDIT_TEAMS = MappingProxyType(

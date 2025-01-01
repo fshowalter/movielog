@@ -7,7 +7,7 @@ from typing import Any, Iterable, Optional, TypedDict, cast
 import yaml
 
 from movielog.repository import slugifier
-from movielog.utils import path_tools
+from movielog.utils import list_tools, path_tools
 from movielog.utils.logging import logger
 
 FOLDER_NAME = "viewings"
@@ -44,7 +44,7 @@ def create(  # noqa: WPS211
     assert medium or venue
 
     markdown_viewing = MarkdownViewing(
-        sequence=_next_sequence(),
+        sequence=_next_sequence_for_date(date),
         imdbId=imdb_id,
         date=date,
         slug=slugifier.slugify_title(full_title),
@@ -60,8 +60,8 @@ def create(  # noqa: WPS211
 
 
 def _generate_file_path(markdown_viewing: MarkdownViewing) -> str:
-    file_name = "{0:04d}-{1}".format(
-        markdown_viewing["sequence"], markdown_viewing["slug"]
+    file_name = "{0}-{1:02d}-{2}".format(
+        markdown_viewing["date"], markdown_viewing["sequence"], markdown_viewing["slug"]
     )
 
     file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
@@ -100,26 +100,16 @@ def read_all() -> Iterable[MarkdownViewing]:
             yield cast(MarkdownViewing, yaml.safe_load(frontmatter))
 
 
-class SequenceError(Exception):
-    def __init__(self, message: str) -> None:
-        self.message = message
+def _next_sequence_for_date(date: datetime.date) -> int:
+    existing_instances = sorted(
+        read_all(), key=lambda viewing: _generate_file_path(viewing)
+    )
 
+    grouped_viewings = list_tools.group_list_by_key(
+        existing_instances, lambda viewing: viewing["date"]
+    )
 
-def _next_sequence() -> int:
-    existing_instances = sorted(read_all(), key=lambda viewing: viewing["sequence"])
-    next_sequence_number = len(existing_instances) + 1
-    last_instance: Optional[MarkdownViewing] = None
+    if date not in grouped_viewings.keys():
+        return 1
 
-    if next_sequence_number > 1:
-        last_instance = existing_instances[-1]
-
-    if last_instance and (last_instance["sequence"] != (next_sequence_number - 1)):
-        raise SequenceError(
-            "Last item {0} has sequence {1} but next sequence is {2}".format(
-                existing_instances[-1:],
-                last_instance["sequence"],
-                next_sequence_number,
-            ),
-        )
-
-    return next_sequence_number
+    return len(grouped_viewings[date]) + 1
