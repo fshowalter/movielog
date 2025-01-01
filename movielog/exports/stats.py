@@ -3,9 +3,10 @@ from dataclasses import dataclass, field
 from types import MappingProxyType
 from typing import Callable, Iterable, Optional, TypedDict, TypeVar
 
-from movielog.exports import exporter, list_tools
+from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
+from movielog.utils import list_tools
 from movielog.utils.logging import logger
 
 CREDIT_TEAMS = MappingProxyType(
@@ -232,13 +233,13 @@ def _build_most_watched_writers(
 
 
 def _build_json_most_watched_person_viewing(
-    viewing: repository_api.Viewing, repository_data: RepositoryData
+    viewing: repository_api.Viewing, sequence: int, repository_data: RepositoryData
 ) -> JsonMostWatchedPersonViewing:
     title = repository_data.titles[viewing.imdb_id]
     review = repository_data.reviews.get(title.imdb_id, None)
 
     return JsonMostWatchedPersonViewing(
-        sequence=viewing.sequence,
+        sequence=sequence,
         date=viewing.date.isoformat(),
         slug=review.slug if review else None,
         title=title.title,
@@ -281,7 +282,7 @@ def _build_most_watched_directors(
     )
 
 
-def _build_most_watched_person_list(
+def _build_most_watched_person_list(  # noqa: WPS210
     watchlist_kind: repository_api.WatchlistPersonKind,
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     repository_data: RepositoryData,
@@ -312,9 +313,11 @@ def _build_most_watched_person_list(
                 slug=watchlist_person.slug if watchlist_person else None,
                 viewings=[
                     _build_json_most_watched_person_viewing(
-                        viewing=viewing, repository_data=repository_data
+                        viewing=viewing,
+                        sequence=index + 1,
+                        repository_data=repository_data,
                     )
-                    for viewing in most_watched_person_group.viewings
+                    for index, viewing in enumerate(most_watched_person_group.viewings)
                 ],
             )
         )

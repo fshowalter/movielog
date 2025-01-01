@@ -24,13 +24,13 @@ JsonViewing = TypedDict(
 
 
 def build_json_viewing(
-    viewing: repository_api.Viewing, repository_data: RepositoryData
+    viewing: repository_api.Viewing, sequence: int, repository_data: RepositoryData
 ) -> JsonViewing:
     title = repository_data.titles[viewing.imdb_id]
     review = repository_data.reviews.get(viewing.imdb_id, None)
 
     return JsonViewing(
-        sequence=viewing.sequence,
+        sequence=sequence,
         viewingYear=str(viewing.date.year),
         viewingDate=viewing.date.isoformat(),
         title=title.title,
@@ -48,8 +48,10 @@ def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "viewings")
 
     json_viewings = [
-        build_json_viewing(viewing=viewing, repository_data=repository_data)
-        for viewing in repository_data.viewings
+        build_json_viewing(
+            viewing=viewing, sequence=index + 1, repository_data=repository_data
+        )
+        for index, viewing in enumerate(repository_data.viewings)
     ]
 
     exporter.serialize_dicts(
