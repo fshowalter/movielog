@@ -70,7 +70,10 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
         imdb_id = match.group()
 
-        if imdb_id == "tt0081529":
+        if imdb_id == "tt0815241":  # Religulous
+            continue
+
+        if imdb_id == "tt0081529":  # Smokey and the Bandit 2
             imdb_id = "tt0076729"
 
         title = reviews[imdb_id].title()
