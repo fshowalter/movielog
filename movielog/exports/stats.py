@@ -282,7 +282,7 @@ def _build_most_watched_directors(
     )
 
 
-def _build_most_watched_person_list(
+def _build_most_watched_person_list(  # noqa: WPS210
     watchlist_kind: repository_api.WatchlistPersonKind,
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     repository_data: RepositoryData,
