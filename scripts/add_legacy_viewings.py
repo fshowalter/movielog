@@ -73,6 +73,9 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         if imdb_id == "tt0815241":  # Religulous
             continue
 
+        if imdb_id == "tt0036621":  # Adventure malgache
+            continue
+
         if imdb_id == "tt0081529":  # Smokey and the Bandit 2
             imdb_id = "tt0076729"
 
