@@ -99,7 +99,8 @@ def export_data() -> None:  # noqa: WPS213
 
     repository_data = RepositoryData(
         viewings=sorted(
-            repository_api.viewings(), key=lambda viewing: viewing.sequence
+            repository_api.viewings(),
+            key=lambda viewing: "{0}{1}".format(viewing.date, viewing.sequence),
         ),
         titles=titles,
         reviews=reviews,

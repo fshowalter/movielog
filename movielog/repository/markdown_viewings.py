@@ -102,7 +102,8 @@ def read_all() -> Iterable[MarkdownViewing]:
 
 def _next_sequence_for_date(date: datetime.date) -> int:
     existing_instances = sorted(
-        read_all(), key=lambda viewing: _generate_file_path(viewing)
+        read_all(),
+        key=lambda viewing: "{0}-{1}".format(viewing["date"], viewing["sequence"]),
     )
 
     grouped_viewings = list_tools.group_list_by_key(
