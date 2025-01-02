@@ -1,6 +1,6 @@
 ---
 slug: soldier-in-the-rain-1963
-date: 2014-06-14
+date: 2012-06-14
 grade: B
 imdb_id: tt0057517
 ---

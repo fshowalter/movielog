@@ -1,5 +1,5 @@
 ---
-date: 2007-10-10
+date: 2008-10-10
 imdb_id: tt0114194
 grade: D+
 slug: the-prophecy-1995

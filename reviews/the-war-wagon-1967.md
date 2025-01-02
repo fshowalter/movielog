@@ -1,5 +1,5 @@
 ---
-date: 2008-02-21
+date: 2008-02-05
 imdb_id: tt0062472
 grade: B-
 slug: the-war-wagon-1967

@@ -1,5 +1,5 @@
 ---
-date: 2008-05-26
+date: 2008-12-14
 imdb_id: tt0086425
 grade: C-
 slug: terms-of-endearment-1983
