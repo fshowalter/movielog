@@ -71,7 +71,7 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
             if post_meta_row["meta_key"] == "Grade":
                 grade = post_meta_row["meta_value"]
 
-        title = reviews[review_row["post_name"]].title()
+        title = reviews[slug].title()
 
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
