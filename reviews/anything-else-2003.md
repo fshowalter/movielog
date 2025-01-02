@@ -7,7 +7,7 @@ date: 2003-09-27
 
 A young writer, struggling with various dysfunctional relationships in his life, receives advice from an eccentric mentor.
 
-_Anything Else_ is a great movie. Like <span data-imdb-id="">_Swingers_</span>, it's really a romantic comedy for guys, and as such is a rarity. Movies like this tend not to do well because studios aren't sure how to market them. Let me make it easy for them: this is a movie about _that_ girl. The girl that walks all over you, and you let her because you can't say no. This is a movie any guy can relate to.
+_Anything Else_ is a great movie. Like <span data-imdb-id="tt0117802">_Swingers_</span>, it's really a romantic comedy for guys, and as such is a rarity. Movies like this tend not to do well because studios aren't sure how to market them. Let me make it easy for them: this is a movie about _that_ girl. The girl that walks all over you, and you let her because you can't say no. This is a movie any guy can relate to.
 
 And what a movie it is. The script is great, with believable dialog and perfect characterization. Director Woody Allen wisely regulates his own character to supporting status, while playing him in an over-the-top manner that's almost a caricature of himself. The result is that he manges to take the "Woody Allen" character, and make it funny and relevant again.
 
