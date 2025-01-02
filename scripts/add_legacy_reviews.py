@@ -63,8 +63,11 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
                     last_word, slug.replace("-{0}-".format(last_word), "-")
                 )
 
-        if slug not in reviews.keys():
+        if slug in reviews.keys():
             continue
+
+        logger.log(slug)
+        continue
 
         for post_meta_row in get_post_meta_for_id(review_row["ID"]):
             for key in post_meta_row.keys():
