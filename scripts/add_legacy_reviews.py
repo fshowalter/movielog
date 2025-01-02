@@ -51,7 +51,6 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
 
     for review_row in get_review_rows():
         viewing_dates = []
-        grade = None
         slug = review_row["post_name"]
 
         match = re.search(r".*-(.*)-\d{4}", slug)
@@ -64,12 +63,13 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
                     last_word, slug.replace("-{0}-".format(last_word), "-")
                 )
 
+        if slug not in reviews.keys():
+            continue
+
         for post_meta_row in get_post_meta_for_id(review_row["ID"]):
 
             if post_meta_row["meta_key"] == "Date Viewed":
                 viewing_dates.append(post_meta_row["meta_value"])
-            if post_meta_row["meta_key"] == "Grade":
-                grade = post_meta_row["meta_value"]
 
         title = reviews[slug].title()
 
@@ -81,17 +81,6 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
                 medium=None,
                 venue=None,
                 medium_notes=None,
-            )
-
-        if slug not in reviews.keys():
-            if grade is None:
-                raise slug
-
-            repository_api.create_or_update_review(
-                imdb_id=title.imdb_id,
-                full_title="{0} ({1})".format(title.title, title.year),
-                date=datetime.datetime.strptime(viewing_dates[-1], "%Y-%m-%d").date(),
-                grade=grade,
             )
 
 
