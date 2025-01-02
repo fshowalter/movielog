@@ -1,5 +1,5 @@
 ---
-date: 2009-01-19
+date: 2008-08-19
 imdb_id: tt0034622
 grade: D+
 slug: crossroads-1942
