@@ -1,5 +1,5 @@
 ---
-date: 2008-02-02
+date: 2008-02-03
 imdb_id: tt0044925
 grade: F
 slug: vampire-over-london-1952

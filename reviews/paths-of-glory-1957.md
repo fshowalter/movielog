@@ -1,5 +1,5 @@
 ---
-date: 2008-11-27
+date: 2008-09-09
 grade: B+
 imdb_id: tt0050825
 slug: paths-of-glory-1957

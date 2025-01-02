@@ -1,5 +1,5 @@
 ---
-date: 2009-02-24
+date: 2009-02-04
 imdb_id: tt0936501
 title: Taken (2008)
 grade: B-

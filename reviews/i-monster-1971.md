@@ -1,7 +1,6 @@
 ---
-date: 2015-09-18
+date: 2015-08-11
 imdb_id: tt0068727
-title: I, Monster (1971)
 grade: D+
 slug: i-monster-1971
 ---

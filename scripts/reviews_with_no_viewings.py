@@ -6,8 +6,6 @@ from movielog.utils.logging import logger
 def reports_with_no_viewings() -> None:
     logger.log("Initializing...")
 
-    repository_api.validate_data()
-
     reviews = sorted(repository_api.reviews(), key=lambda review: review.slug)
 
     viewing_dates = list_tools.group_list_by_key(

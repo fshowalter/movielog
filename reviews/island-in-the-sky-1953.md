@@ -1,5 +1,5 @@
 ---
-date: 2007-09-19
+date: 2007-09-18
 imdb_id: tt0045919
 grade: C+
 slug: island-in-the-sky-1953

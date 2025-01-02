@@ -1,7 +1,6 @@
 ---
-date: 2017-07-10
+date: 2017-07-07
 imdb_id: tt0070158
-title: Harry in Your Pocket (1973)
 grade: C+
 slug: harry-in-your-pocket-1973
 ---

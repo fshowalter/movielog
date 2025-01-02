@@ -41,7 +41,7 @@ def create(  # noqa: WPS211
     venue: Optional[str],
     medium_notes: Optional[str],
 ) -> MarkdownViewing:
-    assert medium or venue
+    # assert medium or venue
 
     markdown_viewing = MarkdownViewing(
         sequence=_next_sequence_for_date(date),

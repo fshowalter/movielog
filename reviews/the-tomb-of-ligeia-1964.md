@@ -1,5 +1,5 @@
 ---
-date: 2008-08-13
+date: 2007-08-13
 imdb_id: tt0059821
 grade: D+
 slug: the-tomb-of-ligeia-1964
