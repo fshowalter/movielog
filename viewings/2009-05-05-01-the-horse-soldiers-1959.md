@@ -1,8 +1,8 @@
 ---
 sequence: 1
-imdbId: tt1197628
-date: 2009-04-23
-slug: observe-and-report-2009
+imdbId: tt0052902
+date: 2009-05-05
+slug: the-horse-soldiers-1959
 medium: null
 venue: null
 venueNotes: null
