@@ -67,17 +67,20 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
             continue
 
         for post_meta_row in get_post_meta_for_id(review_row["ID"]):
-
+            for key in post_meta_row.keys():
+                "{0}:{1}".format(key, post_meta_row[key])
             if post_meta_row["meta_key"] == "Date Viewed":
                 viewing_dates.append(post_meta_row["meta_value"])
 
         title = reviews[slug].title()
 
+        logger.log(viewing_dates[-1])
+
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
                 imdb_id=title.imdb_id,
                 full_title="{0} ({1})".format(title.title, title.year),
-                date=datetime.datetime.strptime(viewing_date, "%Y-%m-%d").date(),
+                date=datetime.datetime.fromisoformat(viewing_date).date(),
                 medium=None,
                 venue=None,
                 medium_notes=None,
@@ -88,7 +91,7 @@ def get_post_meta_for_id(id: str) -> Any:
     query = """
         SELECT
         *
-        FROM wp_fmlpostmeta
+        FROM wp_postmeta
         WHERE post_id = {0}
     """
 
