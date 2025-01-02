@@ -123,7 +123,7 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
 
         create_review(
             slug=slug,
-            date=viewing_dates[-1],
+            date=datetime.datetime.fromisoformat(viewing_dates[-1]).date(),
             review_content=review_row["post_content"],
             grade=grade,
         )
