@@ -26,6 +26,10 @@ RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
 SLUG_MAP = types.MappingProxyType(
     {
         "sydney-1996": "hard-eight-1996",
+        "curse-of-the-crimson-altar-1968": "the-crimson-cult-1968",
+        "dracula-1958": "horror-of-dracula-1958",
+        "crash-1996i": "crash-1996",
+        "blowup-1966": "blow-up-1966",
     }
 )
 
@@ -72,10 +76,17 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
         slug = post_id_row["post_name"]
 
-        match = re.search(r"the-(\d{4})$", slug)
+        match_the = re.search(r"-the-(\d{4})$", slug)
 
-        if match:
-            slug = "the-{0}".format(re.sub(r"the-(\d{4})$", match.groups()[0], slug))
+        if match_the:
+            slug = "the-{0}".format(
+                re.sub(r"the-(\d{4})$", match_the.groups()[0], slug)
+            )
+
+        match_a = re.search(r"-a-(\d{4})$", slug)
+
+        if match_a:
+            slug = "a-{0}".format(re.sub(r"a-(\d{4})$", match_a.groups()[0], slug))
 
         if slug in SLUG_MAP.keys():
             slug = SLUG_MAP[slug]
