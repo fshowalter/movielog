@@ -23,7 +23,13 @@ DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
 RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
 
 SLUG_MAP = types.MappingProxyType(
-    {"matrix-reloaded-the-2003": "the-matrix-reloaded-2003"}
+    {
+        "matrix-reloaded-the-2003": "the-matrix-reloaded-2003",
+        "sydney-1996": "hard-eight-1996",
+        "rat-pack-the-1998": "the-rat-pack-1998",
+        "shootist-the-1976": "the-shootist-1976",
+        "man-who-cried-the-2000": "the-man-who-cried-2000",
+    }
 )
 
 
