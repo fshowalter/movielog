@@ -25,12 +25,16 @@ RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
 
 SLUG_MAP = types.MappingProxyType(
     {
-        "sydney-1996": "hard-eight-1996",
-        "curse-of-the-crimson-altar-1968": "the-crimson-cult-1968",
-        "dracula-1958": "horror-of-dracula-1958",
-        "crash-1996i": "crash-1996",
         "blowup-1966": "blow-up-1966",
-        "christmas-vacation-1989": "national-lampoons-christmas-vacation-1989   ",
+        "bowling-for-columbine-2002": None,
+        "christmas-vacation-1989": "national-lampoons-christmas-vacation-1989",
+        "crash-1996i": "crash-1996",
+        "curse-of-the-crimson-altar-1968": "the-crimson-cult-1968",
+        "devils-playground-2002": None,
+        "dracula-1958": "horror-of-dracula-1958",
+        "sydney-1996": "hard-eight-1996",
+        "the-era-of-vampire-2002": "vampire-hunters-2003",
+        "vampira-1974": "old-dracula-1974",
     }
 )
 
@@ -91,6 +95,10 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
         if slug in SLUG_MAP.keys():
             slug = SLUG_MAP[slug]
+
+        if slug is None:
+            logger.log("Skipping {0}...", post_id_row["post_name"])
+            continue
 
         title = reviews[slug].title()
 
