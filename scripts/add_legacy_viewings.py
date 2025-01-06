@@ -30,6 +30,7 @@ SLUG_MAP = types.MappingProxyType(
         "dracula-1958": "horror-of-dracula-1958",
         "crash-1996i": "crash-1996",
         "blowup-1966": "blow-up-1966",
+        "christmas-vacation-1989": "national-lampoons-christmas-vacation-1989",
     }
 )
 
