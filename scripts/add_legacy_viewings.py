@@ -75,8 +75,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         match = re.search(r"the-(\d{4})$", slug)
 
         if match:
-            slug = "the-{0}".format(slug.replace(r"the-(\d{4})$", match.groups()[0]))
-            raise slug
+            slug = "the-{0}".format(re.sub(r"the-(\d{4})$", match.groups()[0], slug))
 
         if slug in SLUG_MAP.keys():
             slug = SLUG_MAP[slug]
