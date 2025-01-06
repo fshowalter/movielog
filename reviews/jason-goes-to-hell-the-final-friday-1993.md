@@ -1,9 +1,8 @@
 ---
 date: 2021-09-17
 imdb_id: tt0107254
-title: 'Jason Goes to Hell: The Final Friday (1993)'
 grade: C-
-slug: jason-goes-to-hell-the-final-friday-1993
+slug: jason-goes-to-hell-1993
 ---
 
 A bad _Friday the 13th_ film, but not a bad possession film. This entry makes no effort to pick up where <span data-imdb-id="tt0097388">part eight</span> left off, instead Jason opens the film alive and chopping. But government agents are waiting and, in a hyperbolic sequence, blow him to pieces.

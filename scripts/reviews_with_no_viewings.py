@@ -22,6 +22,9 @@ def reports_with_no_viewings() -> None:
         if review.imdb_id not in viewing_imdb_ids:
             logger.log(review.slug)
 
+        if review.slug != review.title().slug:
+            logger.log(review.slug)
+
 
 if __name__ == "__main__":
     reports_with_no_viewings()
