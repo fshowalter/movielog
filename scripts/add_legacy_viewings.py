@@ -103,7 +103,6 @@ def get_post_ids() -> list[Any]:
         *
         FROM wp_posts
         JOIN wp_post2cat ON wp_post2cat.post_id = wp_posts.ID
-        join wp_postmeta on wp_postmeta.post_id = wp_posts.ID
         WHERE wp_post2cat.category_id = '13'
         AND post_status = 'publish'
         ORDER BY post_date;
