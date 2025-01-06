@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import datetime
-import re
 import sqlite3
+import types
 from contextlib import contextmanager
 from os import path
 from typing import Any, Callable, Dict, Generator, Tuple
@@ -21,6 +21,10 @@ Row = sqlite3.Row
 DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
 DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
 RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+
+SLUG_MAP = types.MappingProxyType(
+    {"matrix-reloaded-the-2003": "the-matrix-reloaded-2003"}
+)
 
 
 @contextmanager
@@ -46,44 +50,33 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
     logger.log("Initializing...")
 
     reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.imdb_id
+        repository_api.reviews(), key=lambda review: review.slug
     )
 
     for post_id_row in get_post_ids():
-        imdb_url = None
         viewing_dates = []
-        imdb_id = None
 
         for post_meta_row in get_post_meta_for_id(post_id_row["ID"]):
             if post_meta_row["meta_key"] == "Date Viewed":
                 viewing_dates.append(post_meta_row["meta_value"])
-            if post_meta_row["meta_key"] == "IMDB":
-                imdb_url = post_meta_row["meta_value"]
 
-        if imdb_url is None or len(viewing_dates) == 0:
-            continue
+        if len(viewing_dates) == 0:
+            raise Exception(
+                "No viewings for {0} [{1}]".format(
+                    post_id_row["post_name"], post_id_row["ID"]
+                )
+            )
 
-        match = re.search(r"tt\d+", imdb_url)
+        slug = post_id_row["post_name"]
 
-        if not match:
-            continue
+        if slug in SLUG_MAP.keys():
+            slug = SLUG_MAP[slug]
 
-        imdb_id = match.group()
-
-        if imdb_id == "tt0815241":  # Religulous
-            continue
-
-        if imdb_id == "tt0036621":  # Adventure malgache
-            continue
-
-        if imdb_id == "tt0081529":  # Smokey and the Bandit 2
-            imdb_id = "tt0076729"
-
-        title = reviews[imdb_id].title()
+        title = reviews[slug].title()
 
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
-                imdb_id=imdb_id,
+                imdb_id=title.imdb_id,
                 full_title="{0} ({1})".format(title.title, title.year),
                 date=datetime.datetime.strptime(viewing_date, "%Y-%m-%d").date(),
                 medium=None,
@@ -96,7 +89,7 @@ def get_post_meta_for_id(id: str) -> Any:
     query = """
         SELECT
         *
-        FROM wp_fmlpostmeta
+        FROM wp_postmeta
         WHERE post_id = {0}
     """
 
@@ -107,13 +100,13 @@ def get_post_ids() -> list[Any]:
 
     query = """
         SELECT
-        post_title
-        , id
-        FROM wp_fmlposts
-        WHERE post_type = 'post'
-        AND post_parent = 0
+        *
+        FROM wp_posts
+        JOIN wp_post2cat ON wp_post2cat.post_id = wp_posts.ID
+        join wp_postmeta on wp_postmeta.post_id = wp_posts.ID
+        WHERE wp_post2cat.category_id = '13'
         AND post_status = 'publish'
-        ORDER BY post_date
+        ORDER BY post_date;
     """
 
     return fetch_all(query)
