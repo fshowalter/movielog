@@ -25,15 +25,23 @@ RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
 
 SLUG_MAP = types.MappingProxyType(
     {
+        "anchorman-2004": "anchorman-the-legend-of-ron-burgundy-2004",
         "blowup-1966": "blow-up-1966",
         "bowling-for-columbine-2002": None,
         "christmas-vacation-1989": "national-lampoons-christmas-vacation-1989",
         "crash-1996i": "crash-1996",
         "curse-of-the-crimson-altar-1968": "the-crimson-cult-1968",
         "devils-playground-2002": None,
+        "dogtown-and-z-boys-2001": None,
         "dracula-1958": "horror-of-dracula-1958",
+        "harold-kumar-go-to-white-castle-2004": "harold-and-kumar-go-to-white-castle-2004",
+        "matthew-hopkins-witchfinder-general-1968": "witchfinder-general-1968",
+        "sha-ren-zhe-tang-zhan-1993": "the-assassin-1993",
         "sydney-1996": "hard-eight-1996",
+        "taste-of-fear-1961": "scream-of-fear-1961",
         "the-era-of-vampire-2002": "vampire-hunters-2003",
+        "the-seven-brothers-meet-dracula-1979": "the-legend-of-the-7-golden-vampires-1974",
+        "the-stranglers-of-bombay-1960": "the-stranglers-of-bombay-1959",
         "vampira-1974": "old-dracula-1974",
     }
 )
