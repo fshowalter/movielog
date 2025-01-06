@@ -2,7 +2,7 @@
 date: 2009-03-16
 imdb_id: tt0070446
 grade: D-
-slug: nightmare-honeymoon-1973
+slug: nightmare-honeymoon-1974
 ---
 
 _Nightmare Honeymoon_ takes a simple, but well-done, revenge premise and botches it all to hell.

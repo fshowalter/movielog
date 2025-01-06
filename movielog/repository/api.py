@@ -50,6 +50,7 @@ class Title:
     writers: list[CreditName]
     original_title: str
     release_sequence: str
+    slug: str
 
 
 @dataclass
@@ -197,6 +198,7 @@ def titles() -> Iterable[Title]:
     for json_title in json_titles.read_all():
         yield Title(
             imdb_id=json_title["imdbId"],
+            slug=json_title["slug"],
             title=json_title["title"],
             sort_title=json_title["sortTitle"],
             year=str(json_title["year"]),

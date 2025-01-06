@@ -547,13 +547,14 @@ def export(repository_data: RepositoryData) -> None:
     year_stats = []
 
     for year, viewings_for_year in viewings_by_year.items():
-        year_stats.append(
-            _build_json_year_stats(
-                year=year,
-                viewings=viewings_for_year,
-                repository_data=repository_data,
+        if year > "2011":
+            year_stats.append(
+                _build_json_year_stats(
+                    year=year,
+                    viewings=viewings_for_year,
+                    repository_data=repository_data,
+                )
             )
-        )
 
     exporter.serialize_dicts_to_folder(
         year_stats,
