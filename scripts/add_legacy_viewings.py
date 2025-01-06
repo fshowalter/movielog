@@ -78,7 +78,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
             repository_api.create_viewing(
                 imdb_id=title.imdb_id,
                 full_title="{0} ({1})".format(title.title, title.year),
-                date=datetime.datetime.fromisoformat(viewing_dates[-1]).date(),
+                date=datetime.datetime.fromisoformat(viewing_date).date(),
                 medium=None,
                 venue=None,
                 medium_notes=None,
