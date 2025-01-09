@@ -9,3 +9,4 @@ medium: Blu-ray
 mediumNotes: Powerhouse Films, 2018
 ---
 
+Original version @ 1.75:1 aspect ratio.

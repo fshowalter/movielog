@@ -9,3 +9,4 @@ medium: Watch TCM
 mediumNotes: null
 ---
 
+The Watch TCM stream looks like a standard definition upconvert.
