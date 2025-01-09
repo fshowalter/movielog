@@ -9,3 +9,4 @@ medium: 4k UHD Blu-ray
 mediumNotes: Vinegar Syndrome, 2022
 ---
 
+Original "uncut festival version."

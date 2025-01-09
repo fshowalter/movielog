@@ -9,3 +9,4 @@ medium: Watch TCM
 mediumNotes: null
 ---
 
+The Watch TCM print lacks the synthesized score dubbed onto most distributions.
