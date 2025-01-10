@@ -2,7 +2,7 @@
 date: 2022-09-13
 imdb_id: tt0033717
 grade: B-
-slug: high-sierra-1940
+slug: high-sierra-1941
 ---
 
 Humphrey Bogart plays Roy Earle, a career thief sprung from prison by an aging gangster for a jewel robbery at a resort hotel in the Sierra Nevada mountains. The job goes south and Earle ends up on the run with a jaded dance hall girl, played by Ida Lupino. **Spoilers follow.**
