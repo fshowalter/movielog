@@ -3,11 +3,12 @@ imdb_id: tt0058991
 slug: the-brigand-of-kandahar-1965
 grade: D-
 date: 2025-01-10
+synopsis: After being jailed on racially motivated charges, British Indian Army officer Ronald Lewis escapes and joins a brigand group led by Oliver Reed but struggles with their savagery.
 ---
 
 Despite a game performance from Oliver Reed, _The Brigand of Kandahar_ is a wildly uneven and ultimately disappointing adventure film from Hammer Film Productions.
 
-Set in 1850, on the North-West Frontier of India, the story sees Ronald Lewis play Lieutenant Case, a British Indian Army officer. Upon returning from a reconnaissance mission, he’s jailed on trumped-up, racially motivated charges. He escapes and joins a brigand group led by Eli Khan, played by Reed.
+Set in 1850, on the North-West Frontier of India, the story sees Ronald Lewis play a British Indian Army officer who's jailed on racially motivated charges. He escapes and joins a brigand group led by Reed but struggles with their savagery.
 
 Like all the performers playing Middle-Eastern characters, Lewis and Reed sport brown-face makeup. While unfortunate, this was commonplace at the time, and the performances eschew any derogatory stereotypes or accents.
 
