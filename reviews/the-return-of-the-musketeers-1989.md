@@ -6,7 +6,7 @@ grade: D
 date: 2025-01-11
 ---
 
-_The Return of the Musketeers_ takes place twenty years after the series' last film, <span data-imdb-id="">_The Four Musketeers: Milady's Revenge_</span>.[^1] Michael York's D'Artagnan reunites the group to once again battle France's enemies, though this time the group finds themselves on opposing sides before uniting to battle Milady de Winter's daughter, played by Kim Cattrall, and her father, the notorious Rochefort, played by Christopher Lee.
+_The Return of the Musketeers_ takes place twenty years after the series' last film, <span data-imdb-id="tt0073012">_The Four Musketeers: Milady's Revenge_</span>.[^1] Michael York's D'Artagnan reunites the group to once again battle France's enemies, though this time the group finds themselves on opposing sides before uniting to battle Milady de Winter's daughter, played by Kim Cattrall, and her father, the notorious Rochefort, played by Christopher Lee.
 
 Shot in Toledo, Spain, the production values shine. From the costumes to the authentic locations, the film creates an immersive world that proves its strongest suit. Unfortunately, it's wasted on a story that struggles to recapture the whimsical adventure tone of its predecessors.
 
