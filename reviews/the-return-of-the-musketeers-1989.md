@@ -1,9 +1,9 @@
 ---
 imdb_id: tt0098194
-title: The Return of the Musketeers (1989)
 slug: the-return-of-the-musketeers-1989
 grade: D
 date: 2025-01-11
+synopsis: Twenty years after their last adventure, D'Artagnan reunites the Musketeers to battle France's enemies, though the aging heroes initially find themselves on opposing sides.
 ---
 
 _The Return of the Musketeers_ takes place twenty years after the series' last film, <span data-imdb-id="tt0073012">_The Four Musketeers: Milady's Revenge_</span>.[^1] Michael York's D'Artagnan reunites the group to once again battle France's enemies, though this time the group finds themselves on opposing sides before uniting to battle Milady de Winter's daughter, played by Kim Cattrall, and her father, the notorious Rochefort, played by Christopher Lee.
