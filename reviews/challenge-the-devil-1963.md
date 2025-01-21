@@ -3,6 +3,7 @@ imdb_id: tt0276499
 slug: challenge-the-devil-1963
 grade: F
 date: 2025-01-14
+synopsis: A group of wayward young adults wander into a castle where an elderly man promises them riches if they can find his dead wife.
 ---
 
 A relatively obscure and insignificant Italian gothic horror, _Challenge the Devil_ may nonetheless attract viewers curious to see Christopher Lee as the titular Devil. Those viewers should beware: his dubbed part amounts to a few minutes of non-devilish screen time buried halfway into the film.
