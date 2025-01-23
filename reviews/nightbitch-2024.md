@@ -28,6 +28,6 @@ I'm not sure what Heller was trying to convey with the scene. The grad-school gr
 
 This notion of abandoned threads carries through the entire film. Relatively early, in the film's most memorable sequence, Adams notices a large cyst on her tailbone. She takes a long needle, applies a flame to sterilize it, then punctures the bump. A goopy white fluid oozes out as Adams pushes her thumb and forefinger inside the protuberance and pulls forth a short lock of tail hair. It's a gag-inducing visual that would fit a Cronenberg film, but like the dinner scene, it's never addressed, and the film never again ventures into such goopy territory.
 
-It's like these scenes were remnants of prior drafts, scenes whose payoffs fell victim to rewrites and revisions, perhaps because of studio notes. This disjointed nature extends to the finale. The closing image has the family together and happy, selling the very illusion Adams opens the film railing against, leaving the viewer to wonder: What was the point?
+It's like these scenes were remnants of prior drafts, scenes whose payoffs fell victim to rewrites and revisions, perhaps casualties of studio notes. This disjointed nature extends to the finale. The closing image has the family together and happy, selling the very illusion Adams opens the film railing against, leaving the viewer to wonder: What was the point?
 
 [^1]: Played by Scoot McNairy, who might as well be playing his character from the <span data-imdb-id="tt27534307">_Speak No Evil_</span> remake, also released in 2024.
