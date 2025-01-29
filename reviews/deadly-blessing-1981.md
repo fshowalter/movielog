@@ -8,8 +8,6 @@ slug: deadly-blessing-1981
 
 After directing gritty indie-horrors <span data-imdb-id="tt0068833">_The Last House on the Left_</span> and <span data-imdb-id="tt0077681">_The Hills Have Eyes_</span>, Wes Craven landed a job directing a TV movie called <span data-imdb-id="tt0078330">_Summer of Fear_</span>. The result proved popular enough to secure a theatrical run in Europe and lead to this entry, his first studio theatrical production. A rural giallo starring Ernest Borgnine and featuring an early performance from Sharon Stone. Fair warning, spoilers follow.
 
-<!-- end -->
-
 The story concerns a young newlywed couple in rural California. They live adjacent to a Hittite clan, an Amish-like group led by Ernest Borgnine. Their other neighbors are a single mother and her daughter. The Hittites harass said daughter accusing her of being an Incubus demon. Astute viewers will have spotted the film's twist.
 
 But back to the newlyweds. The man is Borgnine's son, a now ostracized former Hittite. In the film's opening scenes, an unseen killer stages a tractor accident, killing him. The fresh widow invites her college friends to stay. Sharon Stone, in her first major role, plays one of said friends.
