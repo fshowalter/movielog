@@ -1,0 +1,151 @@
+[project]
+name = "movielog"
+version = "1.0.0"
+description = "Console application for managing my movielog, including reviews, viewings, and my watchlist."
+readme = "README.md"
+requires-python = "==3.13.2"
+dependencies = [
+  "beautifulsoup4>=4.13.3",
+  "cinemagoer==2023.5.1",
+  "loguru==0.7.3",
+  "prompt-toolkit==3.0.50",
+  "python-slugify==8.0.4",
+  "pyyaml==6.0.2",
+  "requests==2.32.3",
+]
+
+[tool.uv]
+required-version = "==0.5.30"
+package = true
+
+[project.scripts]
+movielog = "movielog.cli.main:prompt"
+
+[dependency-groups]
+dev = [
+  "mypy==1.15.0",
+  "pytest-cov==6.0.0",
+  "pytest-mock==3.14.0",
+  "pytest-randomly==3.16.0",
+  "pytest==8.3.4",
+  "ruff==0.9.6",
+  "syrupy==4.8.1",
+  "types-beautifulsoup4==4.12.0.20241020",
+  "types-mock==5.1.0.20240425",
+  "types-python-slugify==8.0.2.20240310",
+  "types-pyyaml==6.0.12.20241230",
+  "types-requests==2.32.0.20241016",
+  "types-toml==0.10.8.20240310",
+  "wemake-python-styleguide==1.0.0",
+]
+
+[tool.ruff]
+# Ruff config: https://docs.astral.sh/ruff/settings
+target-version = "py313"
+line-length = 100
+extend-exclude = [
+  # Intentionally bad code:
+  "tests/**/__snapshots__/**",
+  "tests/fixtures/**",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+docstring-code-format = false
+
+[tool.ruff.lint]
+select = [
+  "A",    # flake8-builtins
+  "B",    # flake8-bugbear
+  "C4",   # flake8-comprehensions
+  "C90",  # maccabe
+  "COM",  # flake8-commas
+  "E",    # pycodestyle
+  "ERA",  # flake8-eradicate
+  "EXE",  # flake8-executable
+  "F",    # pyflakes
+  "FBT",  # flake8-boolean-trap
+  "FLY",  # pyflint
+  "FURB", # refurb
+  "G",    # flake8-logging-format
+  "I",    # isort
+  "ICN",  # flake8-import-conventions
+  "ISC",  # flake8-implicit-str-concat
+  "LOG",  # flake8-logging
+  "N",    # pep8-naming
+  "PERF", # perflint
+  "PIE",  # flake8-pie
+  "PL",   # pylint
+  "PT",   # flake8-pytest-style
+  "PTH",  # flake8-use-pathlib
+  "Q",    # flake8-quotes
+  "RET",  # flake8-return
+  "RSE",  # flake8-raise
+  "RUF",  # ruff
+  "S",    # flake8-bandit
+  "SIM",  # flake8-simpify
+  "SLF",  # flake8-self
+  "SLOT", # flake8-slots
+  "T100", # flake8-debugger
+  "TRY",  # tryceratops
+  "UP",   # pyupgrade
+  "W",    # pycodestyle
+  "YTT",  # flake8-2020
+]
+ignore = [
+  "A005",   # allow to shadow stdlib and builtin module names
+  "COM812", # trailing comma, conflicts with `ruff format`
+  # Different doc rules that we don't really care about:
+  "D100",
+  "D104",
+  "D106",
+  "D203",
+  "D212",
+  "D401",
+  "D404",
+  "D405",
+  "ISC001",  # implicit string concat conflicts with `ruff format`
+  "ISC003",  # prefer explicit string concat over implicit concat
+  "PLR09",   # we have our own complexity rules
+  "PLR2004", # do not report magic numbers
+  "PLR6301", # do not require classmethod / staticmethod when self not used
+  "TRY003",  # long exception messages from `tryceratops`
+  "S101",    # asserts
+]
+external = ["WPS"]
+
+# Plugin configs:
+flake8-import-conventions.banned-from = ["ast"]
+flake8-quotes.inline-quotes = "double"
+mccabe.max-complexity = 6
+pydocstyle.convention = "google"
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+mypy_path = "booklog/stubs"
+
+[tool.pytest.ini_options]
+# py.test configuration: http://doc.pytest.org/en/latest/customize.html
+norecursedirs = [
+  "tests/fixtures",
+  "*.egg",
+  ".eggs",
+  "dist",
+  "build",
+  "docs",
+  ".tox",
+  ".git",
+  "__pycache__",
+  ".venv",
+  ".direnv",
+]
+junit_family = "xunit1"
+
+addopts = "--strict-markers --cov=. --cov-branch --cov-report html -s --show-capture stdout"
+
+[tool.coverage.run]
+omit = ["**/__init__.py", ".venv/**"]
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover", "if TYPE_CHECKING:"]
