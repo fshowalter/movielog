@@ -1,16 +1,11 @@
 from __future__ import annotations
 
 import json
-import os
 from copy import deepcopy
-from glob import glob
+from pathlib import Path
 from typing import cast
 
-from movielog.repository import (
-    json_cast_and_crew,
-    json_watchlist_people,
-    markdown_reviews,
-)
+from movielog.repository import json_cast_and_crew, json_watchlist_people
 from movielog.utils.logging import logger
 
 
@@ -45,10 +40,6 @@ def _validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
     )
 
 
-def _get_review_ids() -> set[str]:
-    return set([review.yaml["imdb_id"] for review in markdown_reviews.read_all()])
-
-
 def _add_new_cast_and_crew(
     watchlist_people: list[json_watchlist_people.JsonWatchlistPerson],
 ) -> None:
@@ -69,19 +60,23 @@ def _add_new_cast_and_crew(
         json_cast_and_crew.serialize(new_member)
 
 
-def _rename_files_marked_for_rename(files_marked_for_rename: list[tuple[str, str]]) -> None:
+def _rename_files_marked_for_rename(
+    files_marked_for_rename: list[tuple[Path, Path]]
+) -> None:
     for old_file_path, new_file_path in files_marked_for_rename:
-        os.rename(old_file_path, new_file_path)
+        Path.rename(old_file_path, new_file_path)
         logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
 
 
-def validate() -> None:  # noqa: WPS210, WPS213
+def validate() -> None:
     watchlist_people = _get_watchlist_people()
     files_to_rename = []
 
-    for file_path in glob(os.path.join(json_cast_and_crew.FOLDER_NAME, "*.json")):
-        with open(file_path, "r+") as json_file:
-            json_name = cast(json_cast_and_crew.JsonCastAndCrewMember, json.load(json_file))
+    for file_path in Path(json_cast_and_crew.FOLDER_NAME).glob("*.json"):
+        with Path.open(file_path, "r+") as json_file:
+            json_name = cast(
+                json_cast_and_crew.JsonCastAndCrewMember, json.load(json_file)
+            )
 
             updated_name = deepcopy(json_name)
 

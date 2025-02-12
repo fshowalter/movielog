@@ -1,6 +1,7 @@
 import json
 import re
 from collections.abc import Iterable
+from pathlib import Path
 from typing import Literal, TypedDict, cast, get_args
 
 from slugify import slugify
@@ -35,7 +36,9 @@ def create(watchlist: Kind, imdb_id: str, name: str) -> JsonWatchlistPerson:
     )
 
     if existing_person:
-        raise ValueError(f'Person in "{watchlist}" with slug "{new_person_slug}" already exists.')
+        raise ValueError(
+            f'Person in "{watchlist}" with slug "{new_person_slug}" already exists.'
+        )
 
     json_watchlist_person = JsonWatchlistPerson(
         imdbId=imdb_id, name=name, slug=new_person_slug, titles=[], excludedTitles=[]
@@ -57,15 +60,15 @@ def title_sort_key(title: JsonTitle | JsonExcludedTitle) -> str:
     year = re.search(year_sort_regex, title["title"])
 
     if year:
-        return "{0}-{1}".format(year.group(0), title["imdbId"])
+        return "{}-{}".format(year.group(0), title["imdbId"])
 
-    return "(????)-{0}".format(title["imdbId"])
+    return "(????)-{}".format(title["imdbId"])
 
 
 def serialize(
     watchlist_person: JsonWatchlistPerson,
     kind: Kind,
-) -> str:
+) -> Path:
     watchlist_person["titles"] = sorted(watchlist_person["titles"], key=title_sort_key)
     watchlist_person["excludedTitles"] = sorted(
         watchlist_person["excludedTitles"], key=title_sort_key

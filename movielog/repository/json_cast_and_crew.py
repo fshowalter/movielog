@@ -1,9 +1,8 @@
 from __future__ import annotations
 
 import json
-import os
 from collections.abc import Iterable
-from glob import glob
+from pathlib import Path
 from typing import TypedDict, cast
 
 from movielog.repository import slugifier
@@ -23,20 +22,22 @@ def generate_name_slug(name: str) -> str:
     return slugifier.slugify_name(name)
 
 
-def generate_file_path(json_name: JsonCastAndCrewMember) -> str:
+def generate_file_path(json_name: JsonCastAndCrewMember) -> Path:
     if not json_name["slug"]:
         json_name["slug"] = generate_name_slug(json_name["name"])
 
-    file_name = "{0}.json".format(json_name["slug"])
-    return os.path.join(FOLDER_NAME, file_name)
+    file_name = "{}.json".format(json_name["slug"])
+    return Path(FOLDER_NAME) / file_name
 
 
 def serialize(json_name: JsonCastAndCrewMember) -> None:
     file_path = generate_file_path(json_name)
     path_tools.ensure_file_path(file_path)
 
-    with open(file_path, "w", encoding="utf8") as output_file:
-        output_file.write(json.dumps(json_name, default=str, indent=2, ensure_ascii=False))
+    with Path.open(file_path, "w", encoding="utf8") as output_file:
+        output_file.write(
+            json.dumps(json_name, default=str, indent=2, ensure_ascii=False)
+        )
 
     logger.log(
         "Wrote {}.",
@@ -45,6 +46,6 @@ def serialize(json_name: JsonCastAndCrewMember) -> None:
 
 
 def read_all() -> Iterable[JsonCastAndCrewMember]:
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.json")):
-        with open(file_path) as json_file:
+    for file_path in Path(FOLDER_NAME).glob("*.json"):
+        with Path.open(file_path) as json_file:
             yield (cast(JsonCastAndCrewMember, json.load(json_file)))

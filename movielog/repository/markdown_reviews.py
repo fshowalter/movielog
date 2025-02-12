@@ -1,11 +1,10 @@
 from __future__ import annotations
 
 import datetime
-import os
 import re
 from collections.abc import Iterable
 from dataclasses import dataclass
-from glob import glob
+from pathlib import Path
 from typing import Any, TypedDict, cast
 
 import yaml
@@ -73,8 +72,8 @@ def create_or_update(
 
 
 def read_all() -> Iterable[MarkdownReview]:
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.md")):
-        with open(file_path) as review_file:
+    for file_path in Path(FOLDER_NAME).glob("*.md"):
+        with Path.open(file_path) as review_file:
             _, frontmatter, review_content = FM_REGEX.split(review_file.read(), 2)
             yield MarkdownReview(
                 yaml=cast(ReviewYaml, yaml.safe_load(frontmatter)),
@@ -82,22 +81,22 @@ def read_all() -> Iterable[MarkdownReview]:
             )
 
 
-def _generate_file_path(markdown_review: MarkdownReview) -> str:
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(markdown_review.yaml["slug"]))
+def _generate_file_path(markdown_review: MarkdownReview) -> Path:
+    file_path = Path(FOLDER_NAME) / "{}.md".format(markdown_review.yaml["slug"])
 
     path_tools.ensure_file_path(file_path)
 
     return file_path
 
 
-def _serialize(markdown_review: MarkdownReview) -> str:
+def _serialize(markdown_review: MarkdownReview) -> Path:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(markdown_review)
 
     stripped_content = str(markdown_review.review_content or "").strip()
 
-    with open(file_path, "w") as output_file:
+    with Path.open(file_path, "w") as output_file:
         output_file.write("---\n")
         yaml.dump(
             markdown_review.yaml,

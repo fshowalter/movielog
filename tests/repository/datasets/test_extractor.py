@@ -12,7 +12,7 @@ def test_file(gzip_file: MagicMock) -> Any:
     return gzip_file(Path(__file__).parent / "extractor_test_data.tsv")
 
 
-def test_extractor_skips_incomplete_rows(test_file: str) -> None:
+def test_extractor_skips_incomplete_rows(test_file: Path) -> None:
     expected = [
         [
             "tt0053221",

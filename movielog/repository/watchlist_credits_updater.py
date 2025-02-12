@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import os
 from copy import deepcopy
+from pathlib import Path
 
 from movielog.repository import (
     credit_notes_validator,
@@ -57,7 +57,7 @@ def _add_title_page_to_watchlist_person_titles(
     )
 
 
-def _all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
+def _all_credits_on_title_page_are_invalid_for_watchlist_person(
     title_page: imdb_http.TitlePage,
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
@@ -72,7 +72,9 @@ def _all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
     invalid_credits = []
 
     for credit in credits_for_person:
-        valid, _reason = credit_notes_validator.credit_notes_are_valid_for_kind(credit.notes, kind)
+        valid, _reason = credit_notes_validator.credit_notes_are_valid_for_kind(
+            credit.notes, kind
+        )
         if valid:
             valid_credits.append(credit)
         else:
@@ -84,7 +86,11 @@ def _all_credits_on_title_page_are_invalid_for_watchlist_person(  # noqa: WPS210
     return (
         True,
         " / ".join(
-            [invalid_credit.notes for invalid_credit in invalid_credits if invalid_credit.notes]
+            [
+                invalid_credit.notes
+                for invalid_credit in invalid_credits
+                if invalid_credit.notes
+            ]
         ),
     )
 
@@ -95,12 +101,12 @@ def _get_title_ids_from_name_pages_for_credit_kind(
 ) -> set[str]:
     if isinstance(watchlist_person["imdbId"], str):
         name_page = imdb_http.get_name_page(watchlist_person["imdbId"])
-        return set([credit.imdb_id for credit in name_page.credits[kind]])
+        return {credit.imdb_id for credit in name_page.credits[kind]}
 
     filmographies: list[set[str]] = []
     for imdb_id in watchlist_person["imdbId"]:
         name_page = imdb_http.get_name_page(imdb_id)
-        filmographies.append(set(credit.imdb_id for credit in name_page.credits[kind]))
+        filmographies.append({credit.imdb_id for credit in name_page.credits[kind]})
 
     return set.intersection(*filmographies)
 
@@ -110,7 +116,7 @@ def _remove_watchlist_person_titles_not_in_given_title_ids(
     credit_title_ids: set[str],
 ) -> None:
     for title_kind in ("titles", "excludedTitles"):
-        existing_title_ids = set([title["imdbId"] for title in watchlist_person[title_kind]])
+        existing_title_ids = {title["imdbId"] for title in watchlist_person[title_kind]}
 
         missing_titles = (
             title
@@ -120,7 +126,9 @@ def _remove_watchlist_person_titles_not_in_given_title_ids(
 
         for missing_title in missing_titles:
             watchlist_person[title_kind].remove(missing_title)  # type:ignore
-            logger.log("Missing title {} removed from {}.", missing_title["title"], title_kind)
+            logger.log(
+                "Missing title {} removed from {}.", missing_title["title"], title_kind
+            )
 
 
 def _filter_existing_titles_for_watchlist_person(
@@ -128,12 +136,15 @@ def _filter_existing_titles_for_watchlist_person(
     credit_title_ids: set[str],
 ) -> set[str]:
     existing_excluded_title_ids = [
-        excluded_title["imdbId"] for excluded_title in watchlist_person["excludedTitles"]
+        excluded_title["imdbId"]
+        for excluded_title in watchlist_person["excludedTitles"]
     ]
 
     existing_title_ids = [title["imdbId"] for title in watchlist_person["titles"]]
 
-    return credit_title_ids.difference(existing_excluded_title_ids).difference(existing_title_ids)
+    return credit_title_ids.difference(existing_excluded_title_ids).difference(
+        existing_title_ids
+    )
 
 
 def _title_page_is_invalid_credit(
@@ -152,7 +163,7 @@ def _title_page_is_invalid_credit(
     return (False, "None")
 
 
-def _update_watchlist_person_titles_for_credit_kind(  # noqa: WPS210, WPS231
+def _update_watchlist_person_titles_for_credit_kind(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: imdb_http.CreditKind,
 ) -> None:
@@ -231,23 +242,24 @@ WatchlistKindToCreditKind: dict[json_watchlist_people.Kind, imdb_http.CreditKind
 }
 
 
-def _get_progress_file_path(kind: json_watchlist_people.Kind) -> str:
-    progress_file_path = os.path.join(watchlist_serializer.FOLDER_NAME, kind, ".progress")
+def _get_progress_file_path(kind: json_watchlist_people.Kind) -> Path:
+    progress_file_path = Path(watchlist_serializer.FOLDER_NAME) / kind / ".progress"
+
     path_tools.ensure_file_path(progress_file_path)
 
     return progress_file_path
 
 
-def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
-    progress_files: list[str] = []
+def update_watchlist_credits() -> None:  # noqa: C901
+    progress_files: list[Path] = []
     for kind in json_watchlist_people.KINDS:
         processed_slugs = []
 
         progress_file_path = _get_progress_file_path(kind)
         progress_files.append(progress_file_path)
 
-        with open(
-            progress_file_path, "r+" if os.path.exists(progress_file_path) else "w+"
+        with Path.open(
+            progress_file_path, "r+" if progress_file_path.exists() else "w+"
         ) as progress_file:
             progress_file.seek(0)
             processed_slugs = progress_file.read().splitlines()
@@ -276,7 +288,7 @@ def update_watchlist_credits() -> None:  # noqa: WPS210, WPS231
 
                 if updated_watchlist_person != watchlist_person:
                     json_watchlist_people.serialize(updated_watchlist_person, kind)
-                progress_file.write("{0}\n".format(watchlist_person["slug"]))
+                progress_file.write("{}\n".format(watchlist_person["slug"]))
 
     for completed_progress_file_path in progress_files:
-        os.remove(completed_progress_file_path)
+        Path.unlink(completed_progress_file_path)
