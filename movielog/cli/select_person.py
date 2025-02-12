@@ -33,7 +33,7 @@ def prompt(prompt_text: str = "Name: ") -> SearchResult | None:
 
 
 def result_to_html_string(search_result: SearchResult) -> str:
-    return "<cyan>{0}</cyan> ({1})".format(
+    return "<cyan>{}</cyan> ({})".format(
         html.escape(search_result.name),
         ", ".join(html.escape(title) for title in search_result.known_for_titles),
     )
@@ -44,5 +44,6 @@ def build_options(search_results: Iterable[SearchResult]) -> list[Option]:
         return [(None, "Search Again")]
 
     return [
-        (search_result, result_to_html_string(search_result)) for search_result in search_results
+        (search_result, result_to_html_string(search_result))
+        for search_result in search_results
     ]

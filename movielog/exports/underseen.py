@@ -52,7 +52,7 @@ def export(repository_data: RepositoryData) -> None:
     exporter.serialize_dicts(
         sorted(
             underseen_gems,
-            key=lambda gem: "{0}{1}".format(gem["year"], gem["imdbId"]),
+            key=lambda gem: "{}{}".format(gem["year"], gem["imdbId"]),
             reverse=True,
         ),
         "underseen",

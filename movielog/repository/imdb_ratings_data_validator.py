@@ -8,10 +8,10 @@ from movielog.repository import (
 
 
 def _get_review_ids() -> set[str]:
-    return set([review.yaml["imdb_id"] for review in markdown_reviews.read_all()])
+    return {review.yaml["imdb_id"] for review in markdown_reviews.read_all()}
 
 
-def validate() -> None:  # noqa: WPS210, WPS213
+def validate() -> None:
     review_ids = _get_review_ids()
 
     ratings = json_imdb_ratings.deserialize()

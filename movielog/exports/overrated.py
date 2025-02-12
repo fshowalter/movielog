@@ -53,7 +53,7 @@ def export(repository_data: RepositoryData) -> None:
     exporter.serialize_dicts(
         sorted(
             overrated_disappointments,
-            key=lambda disappointment: "{0}{1}".format(
+            key=lambda disappointment: "{}{}".format(
                 disappointment["year"], disappointment["imdbId"]
             ),
             reverse=True,

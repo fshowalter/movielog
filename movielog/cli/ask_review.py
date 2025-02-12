@@ -16,22 +16,22 @@ def ask_review(
 
     @bindings.add("y")
     @bindings.add("Y")
-    def yes(event: KeyPressEvent) -> None:  # noqa: WPS430
+    def yes(event: KeyPressEvent) -> None:
         session.default_buffer.text = "y"
         event.app.exit(result="y")
 
     @bindings.add("n")
     @bindings.add("N")
-    def no_review(event: KeyPressEvent) -> None:  # noqa: WPS430
+    def no_review(event: KeyPressEvent) -> None:
         session.default_buffer.text = "n"
         event.app.exit(result="n")
 
     @bindings.add(Keys.Escape)
-    def _exit(event: KeyPressEvent) -> None:  # noqa: WPS430
+    def _exit(event: KeyPressEvent) -> None:
         event.app.exit(result=None)
 
     @bindings.add(Keys.Any)
-    def _(event: KeyPressEvent) -> None:  # noqa: WPS430
+    def _(event: KeyPressEvent) -> None:
         """
         Disallow inserting other text.
         """

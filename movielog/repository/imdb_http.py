@@ -63,7 +63,7 @@ def _parse_roles(person: imdb.Person.Person) -> list[str]:
 def _build_title_credits_for_name_page(
     imdb_name_page: imdb.Person.Person,
 ) -> dict[CreditKind, list[TitleCredit]]:
-    credits = {}
+    name_credits = {}
 
     filmography = imdb_name_page["filmography"]
 
@@ -76,7 +76,7 @@ def _build_title_credits_for_name_page(
     )
 
     for kind in CREDIT_KINDS:
-        credits[kind] = [
+        name_credits[kind] = [
             TitleCredit(
                 kind=kind,
                 imdb_id=f"tt{credit.movieID}",
@@ -85,10 +85,10 @@ def _build_title_credits_for_name_page(
             for credit in imdb_name_page["filmography"].get(kind, [])
         ]
 
-    return credits
+    return name_credits
 
 
-def _build_name_credits_for_title_page(  # noqa: WPS210, WPS231
+def _build_name_credits_for_title_page(
     imdb_title_page: imdb.Movie.Movie,
 ) -> dict[CreditKind, list[NameCredit]]:
     credit_kind_map: dict[CreditKind, str] = {
@@ -97,13 +97,13 @@ def _build_name_credits_for_title_page(  # noqa: WPS210, WPS231
         "writer": "writers",
     }
 
-    credits: dict[CreditKind, list[NameCredit]] = {}
+    name_credits: dict[CreditKind, list[NameCredit]] = {}
 
     for credit_kind, imdb_key in credit_kind_map.items():
-        credits[credit_kind] = []
+        name_credits[credit_kind] = []
 
         for index, imdb_credit in enumerate(imdb_title_page.get(imdb_key, [])):
-            if "name" not in imdb_credit.keys():
+            if "name" not in imdb_credit:
                 continue
 
             name_credit = NameCredit(
@@ -117,9 +117,9 @@ def _build_name_credits_for_title_page(  # noqa: WPS210, WPS231
             if credit_kind == "performer":
                 name_credit.roles = _parse_roles(imdb_credit)
 
-            credits[credit_kind].append(name_credit)
+            name_credits[credit_kind].append(name_credit)
 
-    return credits
+    return name_credits
 
 
 def get_name_page(imdb_id: str) -> NamePage:

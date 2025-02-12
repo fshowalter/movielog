@@ -40,9 +40,11 @@ def confirm_selected_title(selected_title: SearchResult) -> bool:
 
 
 def result_to_html_string(search_result: SearchResult) -> str:
-    return "<cyan>{0}</cyan> ({1})".format(
+    return "<cyan>{}</cyan> ({})".format(
         html.escape(search_result.full_title),
-        ", ".join(html.escape(principal) for principal in search_result.principal_cast_names),
+        ", ".join(
+            html.escape(principal) for principal in search_result.principal_cast_names
+        ),
     )
 
 
@@ -51,5 +53,6 @@ def build_options(search_results: Iterable[SearchResult]) -> list[Option]:
         return [(None, "Search Again")]
 
     return [
-        (search_result, result_to_html_string(search_result)) for search_result in search_results
+        (search_result, result_to_html_string(search_result))
+        for search_result in search_results
     ]

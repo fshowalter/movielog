@@ -133,7 +133,7 @@ def _remove_viewing_for_credit_team_members(
 ) -> None:
     for team_member_id in team_ids:
         key = frozenset((team_member_id,))
-        viewings_by_name[key].viewings = [  # noqa: WPS204
+        viewings_by_name[key].viewings = [
             existing_viewing
             for existing_viewing in viewings_by_name[key].viewings
             if existing_viewing.sequence != viewing.sequence
@@ -146,7 +146,7 @@ def _apply_credit_teams_for_viewing(
     credit_names: list[repository_api.CreditName],
 ) -> None:
     for team_ids, team_name in CREDIT_TEAMS.items():
-        credit_name_ids = set([name.imdb_id for name in credit_names])
+        credit_name_ids = {name.imdb_id for name in credit_names}
 
         if team_ids & credit_name_ids:
             viewings_by_name[team_ids].viewings.append(viewing)
@@ -160,10 +160,12 @@ def _build_most_watched_performers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
+        MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
-        performers = repository_data.titles[viewing.imdb_id].performers  # noqa: WPS204
+        performers = repository_data.titles[viewing.imdb_id].performers
         for performer in performers:
             key = frozenset((performer.imdb_id,))
             viewings_by_name[key].name = performer.name
@@ -186,7 +188,9 @@ def _build_most_watched_writers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
+        MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
@@ -237,7 +241,9 @@ def _build_most_watched_directors(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
+        MostWatchedPersonGroup
+    )
 
     for viewing in viewings:
         for director in repository_data.titles[viewing.imdb_id].directors:
@@ -258,7 +264,7 @@ def _build_most_watched_directors(
     )
 
 
-def _build_most_watched_person_list(  # noqa: WPS210
+def _build_most_watched_person_list(
     watchlist_kind: repository_api.WatchlistPersonKind,
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     repository_data: RepositoryData,
@@ -324,7 +330,9 @@ def _build_most_watched_title(
 def _build_most_watched_titles(
     viewings: list[repository_api.Viewing], repository_data: RepositoryData
 ) -> list[JsonMostWatchedTitle]:
-    viewings_by_title = list_tools.group_list_by_key(viewings, key=lambda viewing: viewing.imdb_id)
+    viewings_by_title = list_tools.group_list_by_key(
+        viewings, key=lambda viewing: viewing.imdb_id
+    )
 
     most_watched_titles = []
 
@@ -387,7 +395,7 @@ def _build_json_year_stats(
 ) -> JsonYearStats:
     titles = [repository_data.titles[viewing.imdb_id] for viewing in viewings]
 
-    unique_title_ids = set([title.imdb_id for title in titles])
+    unique_title_ids = {title.imdb_id for title in titles}
 
     return JsonYearStats(
         year=year,
@@ -430,9 +438,11 @@ def _build_json_year_stats(
 def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeStats:
     watchlist_title_ids = _extract_watchlist_title_ids(repository_data=repository_data)
 
-    titles = [repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings]
+    titles = [
+        repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings
+    ]
 
-    unique_title_ids = set([title.imdb_id for title in titles])
+    unique_title_ids = {title.imdb_id for title in titles}
 
     review_ids_from_watchlist = repository_data.reviews.keys() & watchlist_title_ids
 
@@ -441,7 +451,9 @@ def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSt
         titleCount=len(unique_title_ids),
         reviewCount=len(repository_data.reviews),
         watchlistTitlesReviewedCount=len(review_ids_from_watchlist),
-        gradeDistribution=_build_json_grade_distributions(repository_data.reviews.values()),
+        gradeDistribution=_build_json_grade_distributions(
+            repository_data.reviews.values()
+        ),
         mediaDistribution=sorted(
             _build_media_distribution(repository_data.viewings),
             key=lambda distribution: distribution["count"],
@@ -472,13 +484,11 @@ def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSt
 
 
 def _extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
-    watchlist_title_ids = set(
-        [
-            title_id
-            for collection in repository_data.collections
-            for title_id in collection.title_ids
-        ]
-    )
+    watchlist_title_ids = {
+        title_id
+        for collection in repository_data.collections
+        for title_id in collection.title_ids
+    }
 
     for person_kind in repository_api.WATCHLIST_PERSON_KINDS:
         for watchlist_person in repository_data.watchlist_people[person_kind]:
@@ -491,9 +501,11 @@ def _extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
 def _new_title_count(
     year: str, unique_title_ids_for_year: set[str], repository_data: RepositoryData
 ) -> int:
-    older_title_ids = set(
-        [viewing.imdb_id for viewing in repository_data.viewings if str(viewing.date.year) < year]
-    )
+    older_title_ids = {
+        viewing.imdb_id
+        for viewing in repository_data.viewings
+        if str(viewing.date.year) < year
+    }
 
     return len(unique_title_ids_for_year.difference(older_title_ids))
 

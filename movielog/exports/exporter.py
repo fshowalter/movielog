@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import json
-import os
 from collections.abc import Callable, Iterable
+from pathlib import Path
 from typing import TypeVar
 
 from movielog.utils.logging import logger
@@ -13,32 +13,32 @@ EXPORT_FOLDER_NAME = "export"
 
 
 def serialize_dict(dict_to_export: DictType, file_name: str) -> None:
-    folder_path = os.path.join(EXPORT_FOLDER_NAME)
-    os.makedirs(folder_path, exist_ok=True)
+    folder_path = Path(EXPORT_FOLDER_NAME)
+    folder_path.mkdir(exist_ok=True, parents=True)
 
-    json_file_name = os.path.join(folder_path, f"{file_name}.json")
-    with open(json_file_name, "w") as output_file:
+    json_file_name = folder_path / f"{file_name}.json"
+    with Path.open(json_file_name, "w") as output_file:
         output_file.write(json.dumps(dict_to_export, default=str, indent=2))
 
     logger.log(
         "Wrote {} ({}).",
         json_file_name,
-        pretty_file_size(os.path.getsize(json_file_name)),
+        pretty_file_size(json_file_name.stat().st_size),
     )
 
 
 def serialize_dicts(dicts: Iterable[DictType], file_name: str) -> None:
-    folder_path = os.path.join(EXPORT_FOLDER_NAME)
-    os.makedirs(folder_path, exist_ok=True)
+    folder_path = Path(EXPORT_FOLDER_NAME)
+    folder_path.mkdir(exist_ok=True, parents=True)
 
-    json_file_name = os.path.join(folder_path, f"{file_name}.json")
-    with open(json_file_name, "w") as output_file:
+    json_file_name = folder_path / f"{file_name}.json"
+    with Path.open(json_file_name, "w") as output_file:
         output_file.write(json.dumps(dicts, default=str, indent=2))
 
     logger.log(
         "Wrote {} ({}).",
         json_file_name,
-        pretty_file_size(os.path.getsize(json_file_name)),
+        pretty_file_size(json_file_name.stat().st_size),
     )
 
 
@@ -47,23 +47,23 @@ def serialize_dicts_to_folder(
     folder_name: str,
     filename_key: Callable[[DictType], str],
 ) -> None:
-    folder_path = os.path.join(EXPORT_FOLDER_NAME, folder_name)
-    os.makedirs(folder_path, exist_ok=True)
+    folder_path = Path(EXPORT_FOLDER_NAME) / folder_name
+    folder_path.mkdir(exist_ok=True, parents=True)
 
     for dict_to_serialize in dicts:
-        file_name = os.path.join(folder_path, f"{filename_key(dict_to_serialize)}.json")
-        with open(file_name, "w") as output_file:
+        file_name = folder_path / f"{filename_key(dict_to_serialize)}.json"
+        with Path.open(file_name, "w") as output_file:
             output_file.write(json.dumps(dict_to_serialize, default=str, indent=2))
         logger.log(
             "Wrote {} ({}).",
             file_name,
-            pretty_file_size(os.path.getsize(file_name)),
+            pretty_file_size(file_name.stat().st_size),
         )
 
 
 def pretty_file_size(num: float, suffix: str = "B") -> str:
     for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
-        if abs(num) < 1024.0:  # noqa: WPS459
+        if abs(num) < 1024.0:
             return f"{num:.1f}{unit}{suffix}"
         num /= 1024.0
-    return "{0:.1f}{1}{2}".format(num, "Yi", suffix)
+    return "{:.1f}{}{}".format(num, "Yi", suffix)

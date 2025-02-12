@@ -46,7 +46,7 @@ class PageData(TypedDict):
 
 
 def _unknown_date(release_year: str) -> str:
-    return "{0}-??-??".format(release_year or "????")
+    return "{}-??-??".format(release_year or "????")
 
 
 def _get_release_date_page_data(imdb_id: str) -> PageData:
@@ -112,7 +112,7 @@ def get_release_date(imdb_id: str, release_year: str) -> str:
     try:
         return datetime.strptime(first_release_date, "%B %d, %Y").date().isoformat()
     except ValueError:
-        try:  # noqa: WPS505
+        try:
             return datetime.strptime(first_release_date, "%B %Y").date().isoformat()
         except ValueError:
             return _unknown_date(release_year)

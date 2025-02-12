@@ -56,7 +56,7 @@ def intialize_cast_and_crew_by_imdb_id(
 ) -> CastAndCrewByImdbId:
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId = {}
 
-    for _id, member in repository_data.cast_and_crew.items():
+    for member in repository_data.cast_and_crew.values():
         cast_and_crew_by_imdb_id[member.imdb_id] = CastAndCrewMember(
             name=member.name,
             slug=member.slug,
@@ -88,7 +88,7 @@ def check_title_for_names(
             name_value["credited_titles"][title.imdb_id].add("performer")
 
 
-def add_watchlist_credits(  # noqa: WPS210
+def add_watchlist_credits(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
     for watchlist_person_kind in repository_api.WATCHLIST_PERSON_KINDS:
@@ -111,12 +111,16 @@ def build_json_title(
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
     viewings = sorted(
-        (viewing for viewing in repository_data.viewings if viewing.imdb_id == title_id),
+        (
+            viewing
+            for viewing in repository_data.viewings
+            if viewing.imdb_id == title_id
+        ),
         key=lambda title_viewing: title_viewing.sequence,
     )
 
     return JsonTitle(
-        creditedAs=sorted(list(credited_as)),
+        creditedAs=sorted(credited_as),
         imdbId=title.imdb_id,
         title=title.title,
         year=title.year,
@@ -127,19 +131,29 @@ def build_json_title(
         releaseSequence=title.release_sequence,
         reviewDate=review.date.isoformat() if review else None,
         viewingSequence=(
-            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
+            f"{review.date.isoformat()}-{viewings[0].sequence}"
+            if viewings and review
+            else None
         ),
         watchlistDirectorNames=[
-            name for name in repository_data.watchlist_titles[title_id]["directors"] if not review
+            name
+            for name in repository_data.watchlist_titles[title_id]["directors"]
+            if not review
         ],
         watchlistPerformerNames=[
-            name for name in repository_data.watchlist_titles[title_id]["performers"] if not review
+            name
+            for name in repository_data.watchlist_titles[title_id]["performers"]
+            if not review
         ],
         watchlistWriterNames=[
-            name for name in repository_data.watchlist_titles[title_id]["writers"] if not review
+            name
+            for name in repository_data.watchlist_titles[title_id]["writers"]
+            if not review
         ],
         collectionNames=[
-            name for name in repository_data.watchlist_titles[title_id]["collections"] if not review
+            name
+            for name in repository_data.watchlist_titles[title_id]["collections"]
+            if not review
         ],
     )
 
@@ -147,9 +161,11 @@ def build_json_title(
 def populate_title_data(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
-    for _name_key, name_value in cast_and_crew_by_imdb_id.items():
+    for name_value in cast_and_crew_by_imdb_id.values():
         for title_id, credited_as in name_value["credited_titles"].items():
-            name_value["titles"].append(build_json_title(title_id, credited_as, repository_data))
+            name_value["titles"].append(
+                build_json_title(title_id, credited_as, repository_data)
+            )
 
         name_value["titles"].sort(key=lambda title: title["releaseSequence"])
 
@@ -157,7 +173,7 @@ def populate_title_data(
 def populate_counts(
     cast_and_crew_by_imdb_id: CastAndCrewByImdbId, repository_data: RepositoryData
 ) -> None:
-    for _name_key, name_value in cast_and_crew_by_imdb_id.items():
+    for name_value in cast_and_crew_by_imdb_id.values():
         name_value["review_count"] = len(
             repository_data.reviews.keys() & name_value["credited_titles"].keys()
         )
@@ -177,7 +193,7 @@ def sort_value_for_credit_count(credit_count_item: tuple[str, int]) -> tuple[int
 def calculate_credit_counts(name: CastAndCrewMember) -> dict[CreditType, int]:
     credited_as_counts: dict[CreditType, int] = defaultdict(int)
 
-    for _title_id, title_credited_as in name["credited_titles"].items():
+    for title_credited_as in name["credited_titles"].values():
         for credit in title_credited_as:
             credited_as_counts[credit] += 1
 

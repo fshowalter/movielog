@@ -3,7 +3,7 @@ from __future__ import annotations
 import sqlite3
 from collections.abc import Callable, Generator, Mapping, Sequence
 from contextlib import contextmanager
-from os import path
+from pathlib import Path
 from typing import Any
 
 from movielog.repository import format_tools
@@ -16,7 +16,7 @@ Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
-DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
+DB_PATH = Path(DB_DIR) / DB_FILE_NAME
 DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
 RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
@@ -50,11 +50,17 @@ def add_index(table_name: str, column: str) -> None:
 def validate_row_count(table_name: str, expected: int) -> None:
     actual = fetch_one(f"select count(*) as count from {table_name}")["count"]
     assert expected == actual
-    logger.log("Table {} contains {} rows.", table_name, format_tools.humanize_int(actual))
+    logger.log(
+        "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
+    )
 
 
-def insert_into_table(table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]) -> None:
-    logger.log("Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name)
+def insert_into_table(
+    table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]
+) -> None:
+    logger.log(
+        "Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name
+    )
     execute_many(insert_ddl, rows)
 
 
@@ -74,9 +80,8 @@ def execute_script(ddl: str) -> None:
 
 
 def execute_many(ddl: str, parameter_seq: Sequence[Mapping[str, Any]]) -> None:
-    with connect() as connection:
-        with transaction(connection):
-            connection.executemany(ddl, parameter_seq)
+    with connect() as connection, transaction(connection):
+        connection.executemany(ddl, parameter_seq)
 
 
 def fetch_one(query: str, row_factory: RowFactory = sqlite3.Row) -> Any:

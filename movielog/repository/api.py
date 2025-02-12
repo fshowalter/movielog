@@ -3,7 +3,7 @@ from collections.abc import Generator, Iterable
 from dataclasses import dataclass
 from typing import get_args
 
-from movielog.repository import (  # noqa: WPS235
+from movielog.repository import (
     cast_and_crew_validator,
     imdb_ratings_data_updater,
     imdb_ratings_data_validator,
@@ -134,8 +134,8 @@ def _hydrate_collection(
     return Collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
-        title_ids=set([title["imdbId"] for title in json_collection["titles"]]),
-        description=(json_collection["description"] if "description" in json_collection else None),
+        title_ids={title["imdbId"] for title in json_collection["titles"]},
+        description=json_collection.get("description", None),
     )
 
 
@@ -162,7 +162,7 @@ def _hydrate_watchlist_person(
         imdb_id=imdb_id,
         name=json_watchlist_person["name"],
         slug=json_watchlist_person["slug"],
-        title_ids=set([title["imdbId"] for title in json_watchlist_person["titles"]]),
+        title_ids={title["imdbId"] for title in json_watchlist_person["titles"]},
     )
 
 
@@ -205,7 +205,9 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            release_sequence="{0}{1}".format(json_title["releaseDate"], json_title["imdbId"]),
+            release_sequence="{}{}".format(
+                json_title["releaseDate"], json_title["imdbId"]
+            ),
             directors=[
                 CreditName(
                     name=director["name"],
@@ -273,7 +275,9 @@ def update_datasets() -> None:
     )
 
     title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
-    imdb_ratings_data_updater.update_for_datasets(dataset_titles=list(dataset_titles.values()))
+    imdb_ratings_data_updater.update_for_datasets(
+        dataset_titles=list(dataset_titles.values())
+    )
 
 
 @dataclass
@@ -297,7 +301,9 @@ def imdb_ratings() -> ImdbRatings:
 
     for imdb_id, rating in json_ratings["titles"].items():
         title_ratings.append(
-            TitleImdbRating(imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"])
+            TitleImdbRating(
+                imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"]
+            )
         )
 
     return ImdbRatings(
@@ -307,7 +313,7 @@ def imdb_ratings() -> ImdbRatings:
     )
 
 
-def create_viewing(  # noqa: WPS211
+def create_viewing(
     imdb_id: str,
     full_title: str,
     date: datetime.date,
@@ -344,10 +350,14 @@ def new_collection(name: str) -> Collection:
 def add_person_to_watchlist(
     watchlist: WatchlistPersonKind, imdb_id: str, name: str
 ) -> WatchlistPerson:
-    return _hydrate_watchlist_person(json_watchlist_people.create(watchlist, imdb_id, name))
+    return _hydrate_watchlist_person(
+        json_watchlist_people.create(watchlist, imdb_id, name)
+    )
 
 
-def add_title_to_collection(collection: Collection, imdb_id: str, full_title: str) -> Collection:
+def add_title_to_collection(
+    collection: Collection, imdb_id: str, full_title: str
+) -> Collection:
     return _hydrate_collection(
         json_collections.add_title(
             collection_slug=collection.slug, imdb_id=imdb_id, full_title=full_title

@@ -48,7 +48,7 @@ def _append_name_if_not_reviewed(
         index[title_id][key].append(name)
 
 
-def _build_watchlist_titles(  # noqa: WPS210
+def _build_watchlist_titles(
     watchlist_people: WatchlistPeople,
     reviews: dict[str, repository_api.Review],
 ) -> WachlistTitles:
@@ -78,14 +78,18 @@ def _build_watchlist_titles(  # noqa: WPS210
     return watchlist_title_index
 
 
-def export_data() -> None:  # noqa: WPS213
+def export_data() -> None:
     logger.log("Initializing...")
 
     repository_api.validate_data()
 
-    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.imdb_id)
+    reviews = list_tools.list_to_dict(
+        repository_api.reviews(), key=lambda review: review.imdb_id
+    )
 
-    titles = list_tools.list_to_dict(repository_api.titles(), key=lambda title: title.imdb_id)
+    titles = list_tools.list_to_dict(
+        repository_api.titles(), key=lambda title: title.imdb_id
+    )
 
     cast_and_crew_by_imdb_id = list_tools.list_to_dict(
         repository_api.cast_and_crew(), key=lambda member: member.imdb_id
@@ -100,7 +104,7 @@ def export_data() -> None:  # noqa: WPS213
         ),
         titles=titles,
         reviews=reviews,
-        reviewed_titles=[titles[review_id] for review_id in reviews.keys()],
+        reviewed_titles=[titles[review_id] for review_id in reviews],
         watchlist_people=watchlist_people,
         watchlist_titles=_build_watchlist_titles(watchlist_people, reviews),
         collections=sorted(

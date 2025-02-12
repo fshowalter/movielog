@@ -128,7 +128,7 @@ def ask_for_date(state: State) -> State:
         "Date: ",
         rprompt="YYYY-MM-DD format.",
         validator=validator,
-        default=state.default_date.strftime("%Y-%m-%d"),  # noqa: WPS323
+        default=state.default_date.strftime("%Y-%m-%d"),
     )
 
     if not date_string:
@@ -137,7 +137,7 @@ def ask_for_date(state: State) -> State:
 
     viewing_date = string_to_date(date_string)
 
-    if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):  # noqa: WPS323
+    if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):
         state.date = viewing_date
         state.default_date = viewing_date
         state.stage = "ask_if_medium_or_venue"
@@ -263,7 +263,7 @@ def ask_for_medium_notes(state: State) -> State:
     return state
 
 
-def ask_create_review(state: State) -> State:  # noqa: WPS212
+def ask_create_review(state: State) -> State:
     assert state.title
 
     state.existing_review = next(

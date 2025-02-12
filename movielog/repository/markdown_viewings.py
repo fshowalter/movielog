@@ -30,7 +30,7 @@ def _represent_none(self: Any, _: Any) -> Any:
     return self.represent_scalar("tag:yaml.org,2002:null", "null")
 
 
-def create(  # noqa PLR0913
+def create(
     imdb_id: str,
     date: datetime.date,
     full_title: str,

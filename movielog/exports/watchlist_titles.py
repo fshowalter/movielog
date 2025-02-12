@@ -23,9 +23,9 @@ def export(repository_data: RepositoryData) -> None:
 
     watchlist_titles = []
 
-    viewing_imdb_ids = set(viewing.imdb_id for viewing in repository_data.viewings)
+    viewing_imdb_ids = {viewing.imdb_id for viewing in repository_data.viewings}
 
-    for watchlist_title_id in repository_data.watchlist_titles.keys():
+    for watchlist_title_id in repository_data.watchlist_titles:
         title = repository_data.titles[watchlist_title_id]
 
         watchlist_titles.append(
@@ -35,10 +35,16 @@ def export(repository_data: RepositoryData) -> None:
                 year=title.year,
                 sortTitle=title.sort_title,
                 releaseSequence=title.release_sequence,
-                directorNames=repository_data.watchlist_titles[title.imdb_id]["directors"],
-                performerNames=repository_data.watchlist_titles[title.imdb_id]["performers"],
+                directorNames=repository_data.watchlist_titles[title.imdb_id][
+                    "directors"
+                ],
+                performerNames=repository_data.watchlist_titles[title.imdb_id][
+                    "performers"
+                ],
                 writerNames=repository_data.watchlist_titles[title.imdb_id]["writers"],
-                collectionNames=repository_data.watchlist_titles[title.imdb_id]["collections"],
+                collectionNames=repository_data.watchlist_titles[title.imdb_id][
+                    "collections"
+                ],
                 viewed=title.imdb_id in viewing_imdb_ids,
             )
         )

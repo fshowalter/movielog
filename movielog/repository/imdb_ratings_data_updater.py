@@ -14,7 +14,7 @@ class TitleQueryResult(TypedDict):
     imdb_votes: int
 
 
-def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
+def update_with_db_data(imdb_ids: list[str]) -> None:
     ratings = json_imdb_ratings.deserialize()
 
     query = """
@@ -46,7 +46,7 @@ def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
     json_imdb_ratings.serialize(ratings)
 
 
-def update_for_datasets(  # noqa: WPS210
+def update_for_datasets(
     dataset_titles: list[datasets_api.DatasetTitle],
 ) -> None:
     average_imdb_votes = mean(
@@ -61,7 +61,9 @@ def update_for_datasets(  # noqa: WPS210
         and title["imdb_votes"] >= average_imdb_votes
     )
 
-    reviewed_title_ids = set(review.yaml["imdb_id"] for review in markdown_reviews.read_all())
+    reviewed_title_ids = {
+        review.yaml["imdb_id"] for review in markdown_reviews.read_all()
+    }
 
     titles = {}
 
