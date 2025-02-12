@@ -68,8 +68,8 @@ jobs:
       - name: "Set up Python"
         uses: actions/setup-python@v5
 
-      - name: uv run flake8 --select=WPS booklog tests
-        run: uv run flake8 --select=WPS boolog tests
+      - name: uv run flake8 --select=WPS movielog tests
+        run: uv run flake8 --select=WPS movielog tests
 
   mypy:
     runs-on: ubuntu-latest
@@ -86,8 +86,8 @@ jobs:
       - name: "Set up Python"
         uses: actions/setup-python@v5
 
-      - name: uv run mypy booklog tests
-        run: uv run mypy booklog tests
+      - name: uv run mypy movielog tests
+        run: uv run mypy movielog tests
 
   pytest:
     runs-on: ubuntu-latest
