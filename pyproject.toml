@@ -122,7 +122,6 @@ pylint.max-args = 6
 [tool.mypy]
 python_version = "3.13"
 strict = true
-mypy_path = "booklog/stubs"
 
 [[tool.mypy.overrides]]
 module = "imdb.*"
