@@ -36,7 +36,6 @@ dev = [
   "types-pyyaml==6.0.12.20241230",
   "types-requests==2.32.0.20241016",
   "types-toml==0.10.8.20240310",
-  "wemake-python-styleguide==1.0.0",
 ]
 
 [tool.ruff]
@@ -106,13 +105,11 @@ ignore = [
   "D405",
   "ISC001",  # implicit string concat conflicts with `ruff format`
   "ISC003",  # prefer explicit string concat over implicit concat
-  "PLR09",   # we have our own complexity rules
   "PLR2004", # do not report magic numbers
   "PLR6301", # do not require classmethod / staticmethod when self not used
   "TRY003",  # long exception messages from `tryceratops`
   "S101",    # asserts
 ]
-external = ["WPS"]
 
 # Plugin configs:
 flake8-import-conventions.banned-from = ["ast"]

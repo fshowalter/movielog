@@ -9,7 +9,7 @@ from loguru import logger as _base_logger
 if TYPE_CHECKING:
     import loguru
 
-T = TypeVar("T")  # noqa: WPS111
+T = TypeVar("T")
 Function = Callable[..., T]
 
 logger_handlers: Sequence[loguru.HandlerConfig] = [

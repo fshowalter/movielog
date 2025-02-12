@@ -29,7 +29,7 @@ DatasetName = _DatasetName
 DatasetTitle = _DatasetTitle
 
 
-def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WPS212
+def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:
     if fields[1] not in {"movie", "video", "tvMovie"}:
         return False
     if fields[4] == "1":  # adult
@@ -135,7 +135,7 @@ def prune_titles_with_no_principal_cast(
 
     for title in list(titles.values()):
         if not title["principal_cast"] and title["imdb_id"] not in AllowList:
-            del titles[title["imdb_id"]]  # noqa: WPS420
+            del titles[title["imdb_id"]]
             removed += 1
 
     logger.log(
@@ -172,9 +172,7 @@ def aka_title_is_not_for_usa_or_great_britain(field: object) -> bool:
     return str(field) not in {"US", "GB"}
 
 
-def update_titles_with_akas(  # noqa: WPS231
-    file_path: Path, titles: dict[str, DatasetTitle]
-) -> None:
+def update_titles_with_akas(file_path: Path, titles: dict[str, DatasetTitle]) -> None:
     count = 0
 
     for fields in extractor.extract(file_path):
@@ -198,9 +196,7 @@ def update_titles_with_akas(  # noqa: WPS231
     logger.log("Extracted {} {}.", format_tools.humanize_int(count), "aka titles")
 
 
-def download_and_extract() -> (  # noqa: WPS21
-    tuple[dict[str, DatasetTitle], dict[str, DatasetName]]
-):  # noqa: WPS210
+def download_and_extract() -> tuple[dict[str, DatasetTitle], dict[str, DatasetName]]:
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)
     title_principals_file_path = downloader.download(TITLE_PRINCIPALS_FILE_NAME)
     title_ratings_file_path = downloader.download(TITLE_RATINGS_FILE_NAME)

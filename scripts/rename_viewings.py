@@ -1,5 +1,5 @@
 import datetime
-import os
+from pathlib import Path
 from typing import Any, TypedDict
 
 import yaml
@@ -35,30 +35,30 @@ def rename_viewings() -> None:
         existing_instances, lambda viewing: viewing["date"]
     )
 
-    for _, viewings in grouped_viewings.items():
+    for viewings in grouped_viewings.values():
         for index, viewing in enumerate(viewings):
             viewing["sequence"] = index + 1
             _serialize(viewing)
 
 
-def _generate_file_path(markdown_viewing: MarkdownViewing) -> str:
-    file_name = "{0}-{1:02d}-{2}".format(
+def _generate_file_path(markdown_viewing: MarkdownViewing) -> Path:
+    file_name = "{}-{:02d}-{}".format(
         markdown_viewing["date"], markdown_viewing["sequence"], markdown_viewing["slug"]
     )
 
-    file_path = os.path.join(FOLDER_NAME, f"{file_name}.md")
+    file_path = Path(FOLDER_NAME) / f"{file_name}.md"
 
     path_tools.ensure_file_path(file_path)
 
     return file_path
 
 
-def _serialize(markdown_viewing: MarkdownViewing) -> str:
+def _serialize(markdown_viewing: MarkdownViewing) -> Path:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(markdown_viewing)
 
-    with open(file_path, "w") as markdown_file:
+    with Path.open(file_path, "w") as markdown_file:
         markdown_file.write("---\n")
         yaml.dump(
             markdown_viewing,

@@ -39,7 +39,7 @@ def get_last_modified_date(url: str) -> datetime:
         last_modified_header = response.info().get("Last-Modified")
         last_modified_date = datetime.strptime(
             last_modified_header,
-            "%a, %d %b %Y %H:%M:%S %Z",  # noqa: WPS323
+            "%a, %d %b %Y %H:%M:%S %Z",
         )
     logger.log(
         "Remote file {} last updated {}.", url.split("/")[-1], last_modified_date
@@ -48,9 +48,7 @@ def get_last_modified_date(url: str) -> datetime:
 
 
 def ensure_download_path(last_modified_date: datetime) -> Path:
-    download_path = Path(DOWNLOAD_DIR) / last_modified_date.strftime(
-        "%Y-%m-%d"
-    )  # noqa: WPS323
+    download_path = Path(DOWNLOAD_DIR) / last_modified_date.strftime("%Y-%m-%d")
 
     if download_path.exists():
         logger.log("Directory {} already exists.", download_path)

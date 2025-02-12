@@ -20,7 +20,7 @@ def request_mock(mocker: MockerFixture) -> MagicMock:
         "movielog.repository.datasets.downloader.request.urlopen"
     )
 
-    magic_method_mock = url_open_mock.return_value.__enter__  # noqa: WPS609
+    magic_method_mock = url_open_mock.return_value.__enter__
 
     magic_method_mock.return_value.info.return_value = {
         "Last-Modified": "Sat, 04 Apr 2020 12:00:00 GMT"
@@ -48,7 +48,7 @@ def test_skips_download_if_file_already_exists(subprocess_mock: MagicMock) -> No
     folder_path = Path(downloader.DOWNLOAD_DIR) / "2020-04-04"
     folder_path.mkdir(parents=True)
     expected = folder_path / "test.tsv.gz"
-    Path.open(expected, "a").close()  # noqa: WPS515
+    Path.open(expected, "a").close()
 
     assert downloader.download("test.tsv.gz") == expected
     subprocess_mock.assert_not_called()
