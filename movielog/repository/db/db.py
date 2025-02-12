@@ -16,7 +16,7 @@ Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
-DB_PATH = Path(DB_DIR) / DB_FILE_NAME
+DB_PATH = str(Path(DB_DIR) / DB_FILE_NAME)
 DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
 RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
