@@ -64,7 +64,7 @@ def test_calls_curl_with_the_correct_args(subprocess_mock: MagicMock) -> None:
         "--fail",
         "--progress-bar",
         "-o",
-        expected_out,
+        str(expected_out),
         expected_in,
     ]
     assert downloader.download("test.tsv.gz") == expected_out

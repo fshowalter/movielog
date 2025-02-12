@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import os
 import sqlite3
 from collections.abc import Callable, Generator
 from pathlib import Path
@@ -69,10 +68,12 @@ def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_serializer_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
+def mock_watchlist_serializer_folder_name(
+    mocker: MockerFixture, tmp_path: Path
+) -> None:
     mocker.patch(
         "movielog.repository.watchlist_serializer.FOLDER_NAME",
-        os.path.join(tmp_path, "directors"),
+        Path(tmp_path) / "directors",
     )
 
 
