@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Optional
+from pathlib import Path
 
 from movielog.repository import format_tools
 from movielog.repository.datasets import downloader, extractor
@@ -29,7 +29,7 @@ DatasetName = _DatasetName
 DatasetTitle = _DatasetTitle
 
 
-def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WPS212
+def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:
     if fields[1] not in {"movie", "video", "tvMovie"}:
         return False
     if fields[4] == "1":  # adult
@@ -42,7 +42,7 @@ def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WP
     return "Documentary" not in (fields[8] or "")
 
 
-def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
+def extract_titles(title_basics_file_path: Path) -> dict[str, DatasetTitle]:
     titles: dict[str, DatasetTitle] = {}
 
     for fields in extractor.extract(title_basics_file_path):
@@ -54,7 +54,7 @@ def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
                 imdb_id=str(fields[0]),
                 title=title,
                 original_title=str(fields[3]),
-                full_title="{0} ({1})".format(title, year),
+                full_title=f"{title} ({year})",
                 year=year,
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast=[],
@@ -69,7 +69,7 @@ def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
 
 
 def update_titles_with_principals(
-    title_principals_file_path: str,
+    title_principals_file_path: Path,
     titles: dict[str, DatasetTitle],
     names: dict[str, DatasetName],
 ) -> None:
@@ -93,14 +93,14 @@ def update_titles_with_principals(
     )
 
 
-def parse_imdb_rating(field: object) -> Optional[float]:
+def parse_imdb_rating(field: object) -> float | None:
     if not field:
         return None
 
     return float(str(field))
 
 
-def parse_imdb_votes(field: object) -> Optional[int]:
+def parse_imdb_votes(field: object) -> int | None:
     if not field:
         return None
 
@@ -108,7 +108,7 @@ def parse_imdb_votes(field: object) -> Optional[int]:
 
 
 def update_titles_with_ratings(
-    title_ratings_file_path: str,
+    title_ratings_file_path: Path,
     titles: dict[str, DatasetTitle],
 ) -> None:
     count = 0
@@ -135,7 +135,7 @@ def prune_titles_with_no_principal_cast(
 
     for title in list(titles.values()):
         if not title["principal_cast"] and title["imdb_id"] not in AllowList:
-            del titles[title["imdb_id"]]  # noqa: WPS420
+            del titles[title["imdb_id"]]
             removed += 1
 
     logger.log(
@@ -147,7 +147,7 @@ def prune_titles_with_no_principal_cast(
 
 
 def extract_names(
-    file_path: str, titles: dict[str, DatasetTitle]
+    file_path: Path, titles: dict[str, DatasetTitle]
 ) -> dict[str, DatasetName]:
     names: dict[str, DatasetName] = {}
 
@@ -159,7 +159,7 @@ def extract_names(
             known_for_titles=[
                 titles[known_for_title_id]["full_title"]
                 for known_for_title_id in (fields[5] or "").split(",")
-                if known_for_title_id in titles.keys()
+                if known_for_title_id in titles
             ],
         )
 
@@ -172,9 +172,7 @@ def aka_title_is_not_for_usa_or_great_britain(field: object) -> bool:
     return str(field) not in {"US", "GB"}
 
 
-def update_titles_with_akas(  # noqa: WPS231
-    file_path: str, titles: dict[str, DatasetTitle]
-) -> None:
+def update_titles_with_akas(file_path: Path, titles: dict[str, DatasetTitle]) -> None:
     count = 0
 
     for fields in extractor.extract(file_path):
@@ -198,9 +196,7 @@ def update_titles_with_akas(  # noqa: WPS231
     logger.log("Extracted {} {}.", format_tools.humanize_int(count), "aka titles")
 
 
-def download_and_extract() -> (  # noqa: WPS21
-    tuple[dict[str, DatasetTitle], dict[str, DatasetName]]
-):  # noqa: WPS210
+def download_and_extract() -> tuple[dict[str, DatasetTitle], dict[str, DatasetName]]:
     title_basics_file_path = downloader.download(TITLE_BASICS_FILE_NAME)
     title_principals_file_path = downloader.download(TITLE_PRINCIPALS_FILE_NAME)
     title_ratings_file_path = downloader.download(TITLE_RATINGS_FILE_NAME)

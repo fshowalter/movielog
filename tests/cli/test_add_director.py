@@ -14,9 +14,7 @@ from tests.cli.keys import Down, Enter, Escape
 
 @pytest.fixture(autouse=True)
 def mock_add_person_to_watchlist(mocker: MockerFixture) -> MockerFixture:
-    return mocker.patch(
-        "movielog.cli.add_director.repository_api.add_person_to_watchlist"
-    )
+    return mocker.patch("movielog.cli.add_director.repository_api.add_person_to_watchlist")
 
 
 @pytest.fixture(autouse=True)
@@ -42,9 +40,7 @@ def seed_db() -> None:
     )
 
 
-def test_calls_add_director(
-    mock_input: MockInput, mock_add_person_to_watchlist: MagicMock
-) -> None:
+def test_calls_add_director(mock_input: MockInput, mock_add_person_to_watchlist: MagicMock) -> None:
     mock_input(["Howard Hawks", Enter, Down, Enter, "y", Enter])
     add_director.prompt()
 

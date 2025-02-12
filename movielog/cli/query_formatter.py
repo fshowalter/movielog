@@ -9,4 +9,4 @@ def add_wildcards(query: str) -> str:
         query = query[:-1]
         end_wildcard = ""
 
-    return "{0}{1}{2}".format(start_wildcard, query, end_wildcard)
+    return f"{start_wildcard}{query}{end_wildcard}"

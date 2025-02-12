@@ -14,9 +14,7 @@ from tests.cli.keys import Down, Enter, Escape
 
 @pytest.fixture(autouse=True)
 def mock_add_person_to_watchlist(mocker: MockerFixture) -> MockerFixture:
-    return mocker.patch(
-        "movielog.cli.add_director.repository_api.add_person_to_watchlist"
-    )
+    return mocker.patch("movielog.cli.add_director.repository_api.add_person_to_watchlist")
 
 
 @pytest.fixture(autouse=True)

@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-import os
 from copy import deepcopy
-from typing import Optional, TypedDict, cast
+from pathlib import Path
+from typing import TypedDict, cast
 
 from movielog.repository import credit_notes_validator, imdb_http, json_titles
 from movielog.repository.datasets import api as datasets_api
@@ -18,15 +18,12 @@ ValidTitles = {
     "tt0094762": "Blood Delirium",
 }
 
-TitleQueryResult = TypedDict(
-    "TitleQueryResult",
-    {
-        "title": str,
-        "original_title": str,
-        "year": int,
-        "runtime_minutes": Optional[int],
-    },
-)
+
+class TitleQueryResult(TypedDict):
+    title: str
+    original_title: str
+    year: int
+    runtime_minutes: int | None
 
 
 def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
@@ -42,7 +39,7 @@ def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
 
     title_row = cast(
         TitleQueryResult,
-        db_api.db.fetch_one(query.format(json_title["imdbId"])),  # noqa: WPS204
+        db_api.db.fetch_one(query.format(json_title["imdbId"])),
     )
 
     assert title_row
@@ -97,19 +94,19 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
     ]
 
 
-def _get_progress_file_path() -> str:
-    progress_file_path = os.path.join(json_titles.FOLDER_NAME, ".progress")
+def _get_progress_file_path() -> Path:
+    progress_file_path = Path(json_titles.FOLDER_NAME) / ".progress"
     path_tools.ensure_file_path(progress_file_path)
 
     return progress_file_path
 
 
-def update_from_imdb_pages() -> None:  # noqa: WPS210, WPS231
+def update_from_imdb_pages() -> None:
     processed_slugs = []
     progress_file_path = _get_progress_file_path()
 
-    with open(
-        progress_file_path, "r+" if os.path.exists(progress_file_path) else "w+"
+    with Path.open(
+        progress_file_path, "r+" if progress_file_path.exists() else "w+"
     ) as progress_file:
         progress_file.seek(0)
         processed_slugs = progress_file.read().splitlines()
@@ -145,9 +142,9 @@ def update_from_imdb_pages() -> None:  # noqa: WPS210, WPS231
                 return
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
-            progress_file.write("{0}\n".format(json_title["slug"]))
+            progress_file.write("{}\n".format(json_title["slug"]))
 
-    os.remove(progress_file_path)
+    Path.unlink(progress_file_path)
 
 
 def update_title(json_title: json_titles.JsonTitle) -> None:
@@ -162,8 +159,8 @@ def update_title(json_title: json_titles.JsonTitle) -> None:
         json_titles.serialize(updated_json_title)
 
 
-def update_for_datasets(  # noqa: WPS231
-    dataset_titles: dict[str, datasets_api.DatasetTitle]
+def update_for_datasets(
+    dataset_titles: dict[str, datasets_api.DatasetTitle],
 ) -> None:
     for json_title in json_titles.read_all():
         if json_title["imdbId"] in FrozenTitles:

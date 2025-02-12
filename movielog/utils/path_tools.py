@@ -1,8 +1,8 @@
-import os
+from pathlib import Path
 
 
-def ensure_file_path(file_path: str) -> str:
-    if not os.path.exists(os.path.dirname(file_path)):
-        os.makedirs(os.path.dirname(file_path))
+def ensure_file_path(file_path: Path) -> Path:
+    if not file_path.parent.exists():
+        file_path.mkdir(parents=True)
 
     return file_path

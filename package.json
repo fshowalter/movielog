@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "prettier": "3.5.0",
+    "prettier-plugin-toml": "2.0.1"
+  },
+  "scripts": {
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "engines": {
+    "node": "22.14.0",
+    "npm": "11.1.0"
+  }
+}

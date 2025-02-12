@@ -101,7 +101,7 @@ def mock_add_title_to_collection(
     collection = Collection(
         name="Friday the 13th",
         slug="friday-the-13th",
-        title_ids=set(["tt0080761", "tt0082418", "tt0083972"]),
+        title_ids={"tt0080761", "tt0082418", "tt0083972"},
         description="The Friday the 13th franchise.",
     )
 

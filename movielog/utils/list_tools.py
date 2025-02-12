@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from collections.abc import Iterable
-from typing import Callable, TypeVar
+from collections.abc import Callable, Iterable
+from typing import TypeVar
 
 ListType = TypeVar("ListType")
 KeyType = TypeVar("KeyType")

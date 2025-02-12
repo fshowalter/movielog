@@ -13,9 +13,7 @@ def mock_new_collection(mocker: MockerFixture) -> MagicMock:
     return mocker.patch("movielog.cli.new_collection.repository_api.new_collection")
 
 
-def test_calls_add_collection(
-    mock_input: MockInput, mock_new_collection: MagicMock
-) -> None:
+def test_calls_add_collection(mock_input: MockInput, mock_new_collection: MagicMock) -> None:
     mock_input(["Halloween", Enter, "y"])
     new_collection.prompt()
 
@@ -31,9 +29,7 @@ def test_does_not_call_add_viewing_if_no_movie(
     mock_new_collection.assert_not_called()
 
 
-def test_can_confirm_collection_name(
-    mock_input: MockInput, mock_new_collection: MagicMock
-) -> None:
+def test_can_confirm_collection_name(mock_input: MockInput, mock_new_collection: MagicMock) -> None:
     mock_input(["Halloween", Enter, "n"])
     new_collection.prompt()
 

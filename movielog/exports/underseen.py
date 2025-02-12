@@ -4,20 +4,17 @@ from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.utils.logging import logger
 
-JsonTitle = TypedDict(
-    "JsonTitle",
-    {
-        "imdbId": str,
-        "title": str,
-        "year": str,
-        "sortTitle": str,
-        "slug": str,
-        "grade": str,
-        "gradeValue": int,
-        "genres": list[str],
-        "releaseSequence": str,
-    },
-)
+
+class JsonTitle(TypedDict):
+    imdbId: str
+    title: str
+    year: str
+    sortTitle: str
+    slug: str
+    grade: str
+    gradeValue: int
+    genres: list[str]
+    releaseSequence: str
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -55,7 +52,7 @@ def export(repository_data: RepositoryData) -> None:
     exporter.serialize_dicts(
         sorted(
             underseen_gems,
-            key=lambda gem: "{0}{1}".format(gem["year"], gem["imdbId"]),
+            key=lambda gem: "{}{}".format(gem["year"], gem["imdbId"]),
             reverse=True,
         ),
         "underseen",

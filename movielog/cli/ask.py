@@ -1,4 +1,4 @@
-from typing import Optional, cast
+from typing import cast
 
 from prompt_toolkit import key_binding
 from prompt_toolkit import prompt as toolkit_prompt
@@ -8,10 +8,10 @@ from prompt_toolkit.validation import Validator
 
 def prompt(
     message: str,
-    rprompt: Optional[str] = None,
-    validator: Optional[Validator] = None,
+    rprompt: str | None = None,
+    validator: Validator | None = None,
     default: str = "",
-) -> Optional[str]:
+) -> str | None:
     bindings = key_binding.KeyBindings()
 
     bindings.add("escape", eager=True)(handle_escape)
@@ -19,10 +19,10 @@ def prompt(
     right_side_prompt = "ESC to go back"
 
     if rprompt:
-        right_side_prompt = "{0} | {1}".format(right_side_prompt, rprompt)
+        right_side_prompt = f"{right_side_prompt} | {rprompt}"
 
     return cast(
-        Optional[str],
+        str | None,
         toolkit_prompt(
             HTML(message),
             key_bindings=bindings,

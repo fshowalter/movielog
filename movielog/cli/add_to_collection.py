@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 import html
-from typing import Optional, Sequence, Tuple
+from collections.abc import Sequence
 
 from movielog.cli import radio_list, select_title
 from movielog.repository import api as repository_api
 
 Collection = repository_api.Collection
-Option = Tuple[Optional[Collection], str]
+Option = tuple[Collection | None, str]
 
 
 def prompt() -> None:
@@ -28,7 +28,7 @@ def prompt() -> None:
 
 def build_options() -> Sequence[Option]:
     return [
-        (collection, "<cyan>{0}</cyan>".format(collection.name))
+        (collection, f"<cyan>{collection.name}</cyan>")
         for collection in repository_api.collections()
     ]
 
@@ -41,11 +41,9 @@ def select_movie_prompt_text(collection: Collection) -> str:
             continue
 
         escaped_title = html.escape(title.title)
-        formatted_title = "<cyan>\u00B7</cyan> {0} ({1}) \n".format(
-            escaped_title, title.year
-        )
+        formatted_title = f"<cyan>\u00b7</cyan> {escaped_title} ({title.year}) \n"
         formatted_titles.append(formatted_title)
 
-    return "<cyan>{0}</cyan> titles:\n{1}\nNew Title: ".format(
+    return "<cyan>{}</cyan> titles:\n{}\nNew Title: ".format(
         len(formatted_titles), "".join(formatted_titles)
     )

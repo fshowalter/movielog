@@ -1,8 +1,8 @@
 import datetime
-import os
 import re
-from glob import glob
-from typing import Any, Iterable, Optional, TypedDict, cast
+from collections.abc import Iterable
+from pathlib import Path
+from typing import Any, TypedDict, cast
 
 import yaml
 
@@ -14,32 +14,29 @@ FOLDER_NAME = "viewings"
 
 FM_REGEX = re.compile(r"^-{3,}\s*$", re.MULTILINE)
 
-MarkdownViewing = TypedDict(
-    "MarkdownViewing",
-    {
-        "sequence": int,
-        "date": datetime.date,
-        "imdbId": str,
-        "slug": str,
-        "venue": Optional[str],
-        "medium": Optional[str],
-        "venueNotes": Optional[str],
-        "mediumNotes": Optional[str],
-    },
-)
+
+class MarkdownViewing(TypedDict):
+    sequence: int
+    date: datetime.date
+    imdbId: str
+    slug: str
+    venue: str | None
+    medium: str | None
+    venueNotes: str | None
+    mediumNotes: str | None
 
 
 def _represent_none(self: Any, _: Any) -> Any:
     return self.represent_scalar("tag:yaml.org,2002:null", "null")
 
 
-def create(  # noqa: WPS211
+def create(
     imdb_id: str,
     date: datetime.date,
     full_title: str,
-    medium: Optional[str],
-    venue: Optional[str],
-    medium_notes: Optional[str],
+    medium: str | None,
+    venue: str | None,
+    medium_notes: str | None,
 ) -> MarkdownViewing:
     # assert medium or venue
 
@@ -59,24 +56,24 @@ def create(  # noqa: WPS211
     return markdown_viewing
 
 
-def _generate_file_path(markdown_viewing: MarkdownViewing) -> str:
-    file_name = "{0}-{1:02d}-{2}".format(
+def _generate_file_path(markdown_viewing: MarkdownViewing) -> Path:
+    file_name = "{}-{:02d}-{}".format(
         markdown_viewing["date"], markdown_viewing["sequence"], markdown_viewing["slug"]
     )
 
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
+    file_path = Path(FOLDER_NAME) / f"{file_name}.md"
 
     path_tools.ensure_file_path(file_path)
 
     return file_path
 
 
-def _serialize(markdown_viewing: MarkdownViewing) -> str:
+def _serialize(markdown_viewing: MarkdownViewing) -> Path:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(markdown_viewing)
 
-    with open(file_path, "w") as markdown_file:
+    with Path.open(file_path, "w") as markdown_file:
         markdown_file.write("---\n")
         yaml.dump(
             markdown_viewing,
@@ -94,8 +91,8 @@ def _serialize(markdown_viewing: MarkdownViewing) -> str:
 
 
 def read_all() -> Iterable[MarkdownViewing]:
-    for file_path in glob(os.path.join(FOLDER_NAME, "*.md")):
-        with open(file_path, "r") as viewing_file:
+    for file_path in Path(FOLDER_NAME).glob("*.md"):
+        with Path.open(file_path) as viewing_file:
             _, frontmatter, _notes = FM_REGEX.split(viewing_file.read(), 2)
             yield cast(MarkdownViewing, yaml.safe_load(frontmatter))
 
@@ -103,14 +100,14 @@ def read_all() -> Iterable[MarkdownViewing]:
 def _next_sequence_for_date(date: datetime.date) -> int:
     existing_instances = sorted(
         read_all(),
-        key=lambda viewing: "{0}-{1}".format(viewing["date"], viewing["sequence"]),
+        key=lambda viewing: "{}-{}".format(viewing["date"], viewing["sequence"]),
     )
 
     grouped_viewings = list_tools.group_list_by_key(
         existing_instances, lambda viewing: viewing["date"]
     )
 
-    if date not in grouped_viewings.keys():
+    if date not in grouped_viewings:
         return 1
 
     return len(grouped_viewings[date]) + 1

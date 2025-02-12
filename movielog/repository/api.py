@@ -1,8 +1,9 @@
 import datetime
+from collections.abc import Generator, Iterable
 from dataclasses import dataclass
-from typing import Generator, Iterable, Optional, get_args
+from typing import get_args
 
-from movielog.repository import (  # noqa: WPS235
+from movielog.repository import (
     cast_and_crew_validator,
     imdb_ratings_data_updater,
     imdb_ratings_data_validator,
@@ -58,10 +59,10 @@ class Viewing:
     imdb_id: str
     sequence: int
     date: datetime.date
-    medium: Optional[str]
-    venue: Optional[str]
-    medium_notes: Optional[str]
-    venue_notes: Optional[str]
+    medium: str | None
+    venue: str | None
+    medium_notes: str | None
+    venue_notes: str | None
 
 
 @dataclass
@@ -95,7 +96,7 @@ class Review:
 
         return grade_value
 
-    def title(self, cache: Optional[list[Title]] = None) -> Title:
+    def title(self, cache: list[Title] | None = None) -> Title:
         title_iterable = cache or titles()
         return next(title for title in title_iterable if title.imdb_id == self.imdb_id)
 
@@ -119,7 +120,7 @@ class Collection:
     name: str
     slug: str
     title_ids: set[str]
-    description: Optional[str]
+    description: str | None
 
 
 @dataclass
@@ -133,10 +134,8 @@ def _hydrate_collection(
     return Collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
-        title_ids=set([title["imdbId"] for title in json_collection["titles"]]),
-        description=(
-            json_collection["description"] if "description" in json_collection else None
-        ),
+        title_ids={title["imdbId"] for title in json_collection["titles"]},
+        description=json_collection.get("description", None),
     )
 
 
@@ -146,7 +145,7 @@ def validate_data() -> None:
     imdb_ratings_data_validator.validate()
 
 
-def collections() -> Generator[Collection, None, None]:
+def collections() -> Generator[Collection]:
     for json_collection in json_collections.read_all():
         yield _hydrate_collection(json_collection)
 
@@ -163,7 +162,7 @@ def _hydrate_watchlist_person(
         imdb_id=imdb_id,
         name=json_watchlist_person["name"],
         slug=json_watchlist_person["slug"],
-        title_ids=set([title["imdbId"] for title in json_watchlist_person["titles"]]),
+        title_ids={title["imdbId"] for title in json_watchlist_person["titles"]},
     )
 
 
@@ -189,7 +188,7 @@ def cast_and_crew() -> Iterable[CastAndCrewMember]:
 
 def watchlist_people(
     kind: WatchlistPersonKind,
-) -> Generator[WatchlistPerson, None, None]:
+) -> Generator[WatchlistPerson]:
     for json_watchlist_person in json_watchlist_people.read_all(kind):
         yield _hydrate_watchlist_person(json_watchlist_person)
 
@@ -206,7 +205,7 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            release_sequence="{0}{1}".format(
+            release_sequence="{}{}".format(
                 json_title["releaseDate"], json_title["imdbId"]
             ),
             directors=[
@@ -284,8 +283,8 @@ def update_datasets() -> None:
 @dataclass
 class TitleImdbRating:
     imdb_id: str
-    votes: Optional[int]
-    rating: Optional[float]
+    votes: int | None
+    rating: float | None
 
 
 @dataclass
@@ -314,13 +313,13 @@ def imdb_ratings() -> ImdbRatings:
     )
 
 
-def create_viewing(  # noqa: WPS211
+def create_viewing(
     imdb_id: str,
     full_title: str,
     date: datetime.date,
-    medium: Optional[str],
-    venue: Optional[str],
-    medium_notes: Optional[str],
+    medium: str | None,
+    venue: str | None,
+    medium_notes: str | None,
 ) -> Viewing:
     return _hydrate_markdown_viewing(
         markdown_viewings.create(

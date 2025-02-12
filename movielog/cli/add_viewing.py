@@ -1,8 +1,9 @@
 import datetime
 import html
 import re
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Callable, Literal, Optional, Tuple
+from typing import Literal
 
 from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
@@ -11,7 +12,7 @@ from prompt_toolkit.validation import Validator
 from movielog.cli import ask, ask_medium_or_venue, ask_review, radio_list, select_title
 from movielog.repository import api as repository_api
 
-Option = Tuple[Optional[str], AnyFormattedText]
+Option = tuple[str | None, AnyFormattedText]
 
 Stages = Literal[
     "ask_for_title",
@@ -30,14 +31,14 @@ Stages = Literal[
 @dataclass(kw_only=True)
 class State:
     stage: Stages = "ask_for_title"
-    title: Optional[select_title.SearchResult] = None
-    date: Optional[datetime.date] = None
-    medium: Optional[str] = None
-    medium_notes: Optional[str] = None
-    venue: Optional[str] = None
-    grade: Optional[str] = None
+    title: select_title.SearchResult | None = None
+    date: datetime.date | None = None
+    medium: str | None = None
+    medium_notes: str | None = None
+    venue: str | None = None
+    grade: str | None = None
     default_date: datetime.date = field(default_factory=datetime.date.today)
-    existing_review: Optional[repository_api.Review] = None
+    existing_review: repository_api.Review | None = None
 
 
 def prompt() -> None:
@@ -127,7 +128,7 @@ def ask_for_date(state: State) -> State:
         "Date: ",
         rprompt="YYYY-MM-DD format.",
         validator=validator,
-        default=state.default_date.strftime("%Y-%m-%d"),  # noqa: WPS323
+        default=state.default_date.strftime("%Y-%m-%d"),
     )
 
     if not date_string:
@@ -136,7 +137,7 @@ def ask_for_date(state: State) -> State:
 
     viewing_date = string_to_date(date_string)
 
-    if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):  # noqa: WPS323
+    if confirm(viewing_date.strftime("%A, %B, %-d, %Y?")):
         state.date = viewing_date
         state.default_date = viewing_date
         state.stage = "ask_if_medium_or_venue"
@@ -201,9 +202,7 @@ def ask_for_venue(state: State) -> State:
 
 
 def sorted_viewings() -> list[repository_api.Viewing]:
-    return sorted(
-        repository_api.viewings(), key=lambda viewing: viewing.sequence, reverse=True
-    )
+    return sorted(repository_api.viewings(), key=lambda viewing: viewing.sequence, reverse=True)
 
 
 def build_medium_options() -> list[Option]:
@@ -217,8 +216,7 @@ def build_medium_options() -> list[Option]:
             media.add(viewing.medium)
 
     options: list[Option] = [
-        (medium, "<cyan>{0}</cyan>".format(html.escape(medium)))
-        for medium in sorted(media)
+        (medium, f"<cyan>{html.escape(medium)}</cyan>") for medium in sorted(media)
     ]
 
     options.append((None, "New medium"))
@@ -237,8 +235,7 @@ def build_venue_options() -> list[Option]:
             venues.add(viewing.venue)
 
     options: list[Option] = [
-        (medium, "<cyan>{0}</cyan>".format(html.escape(medium)))
-        for medium in sorted(venues)
+        (medium, f"<cyan>{html.escape(medium)}</cyan>") for medium in sorted(venues)
     ]
 
     options.append((None, "New venue"))
@@ -266,15 +263,11 @@ def ask_for_medium_notes(state: State) -> State:
     return state
 
 
-def ask_create_review(state: State) -> State:  # noqa: WPS212
+def ask_create_review(state: State) -> State:
     assert state.title
 
     state.existing_review = next(
-        (
-            review
-            for review in repository_api.reviews()
-            if review.imdb_id == state.title.imdb_id
-        ),
+        (review for review in repository_api.reviews() if review.imdb_id == state.title.imdb_id),
         None,
     )
 

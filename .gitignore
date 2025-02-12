@@ -132,3 +132,8 @@ dmypy.json
 export/
 .DS_Store
 .direnv
+
+# ruff
+.ruff_cache/
+
+node_modules/

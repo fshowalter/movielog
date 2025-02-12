@@ -4,9 +4,10 @@ import datetime
 import re
 import sqlite3
 import types
+from collections.abc import Callable, Generator
 from contextlib import contextmanager
-from os import path
-from typing import Any, Callable, Dict, Generator, Tuple
+from pathlib import Path
+from typing import Any
 
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
@@ -19,9 +20,9 @@ Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
-DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
-DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
-RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+DB_PATH = Path(DB_DIR) / DB_FILE_NAME
+DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
 SLUG_MAP = types.MappingProxyType(
     {
@@ -48,7 +49,7 @@ SLUG_MAP = types.MappingProxyType(
 
 
 @contextmanager
-def connect() -> Generator[Connection, None, None]:
+def connect() -> Generator[Connection]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     yield connection
     connection.close()
@@ -66,7 +67,7 @@ def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
         return connection.execute(query).fetchall()
 
 
-def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
+def add_legacy_viewings() -> None:  # noqa: C901
     logger.log("Initializing...")
 
     reviews = list_tools.list_to_dict(
@@ -74,15 +75,15 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
     )
 
     for post_id_row in get_post_ids():
-        viewing_dates = []
-
-        for post_meta_row in get_post_meta_for_id(post_id_row["ID"]):
-            if post_meta_row["meta_key"] == "Date Viewed":
-                viewing_dates.append(post_meta_row["meta_value"])
+        viewing_dates = [
+            post_meta_row
+            for post_meta_row in get_post_meta_for_id(post_id_row["ID"])
+            if post_meta_row["meta_key"] == "Date Viewed"
+        ]
 
         if len(viewing_dates) == 0:
-            raise Exception(
-                "No viewings for {0} [{1}]".format(
+            raise Exception(  # noqa: TRY002
+                "No viewings for {} [{}]".format(
                     post_id_row["post_name"], post_id_row["ID"]
                 )
             )
@@ -92,16 +93,14 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         match_the = re.search(r"-the-(\d{4})$", slug)
 
         if match_the:
-            slug = "the-{0}".format(
-                re.sub(r"the-(\d{4})$", match_the.groups()[0], slug)
-            )
+            slug = "the-{}".format(re.sub(r"the-(\d{4})$", match_the.groups()[0], slug))
 
         match_a = re.search(r"-a-(\d{4})$", slug)
 
         if match_a:
-            slug = "a-{0}".format(re.sub(r"a-(\d{4})$", match_a.groups()[0], slug))
+            slug = "a-{}".format(re.sub(r"a-(\d{4})$", match_a.groups()[0], slug))
 
-        if slug in SLUG_MAP.keys():
+        if slug in SLUG_MAP:
             slug = SLUG_MAP[slug]
 
         if slug is None:
@@ -113,7 +112,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
                 imdb_id=title.imdb_id,
-                full_title="{0} ({1})".format(title.title, title.year),
+                full_title=f"{title.title} ({title.year})",
                 date=datetime.datetime.fromisoformat(viewing_date).date(),
                 medium=None,
                 venue=None,
@@ -121,7 +120,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
             )
 
 
-def get_post_meta_for_id(id: str) -> Any:
+def get_post_meta_for_id(post_id: str) -> Any:
     query = """
         SELECT
         *
@@ -129,11 +128,10 @@ def get_post_meta_for_id(id: str) -> Any:
         WHERE post_id = {0}
     """
 
-    return fetch_all(query.format(id))
+    return fetch_all(query.format(post_id))
 
 
 def get_post_ids() -> list[Any]:
-
     query = """
         SELECT
         *

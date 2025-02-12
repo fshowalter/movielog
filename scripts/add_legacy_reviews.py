@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 import datetime
-import os
 import re
 import sqlite3
+from collections.abc import Callable, Generator
 from contextlib import contextmanager
-from typing import Any, Callable, Dict, Generator, Tuple
+from pathlib import Path
+from typing import Any
 
 import yaml
 
@@ -21,9 +22,9 @@ Connection = sqlite3.Connection
 Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
-DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
-DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
-RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+DB_PATH = Path(DB_DIR) / DB_FILE_NAME
+DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
 
 def _represent_none(self: Any, _: Any) -> Any:
@@ -31,7 +32,7 @@ def _represent_none(self: Any, _: Any) -> Any:
 
 
 @contextmanager
-def connect() -> Generator[Connection, None, None]:
+def connect() -> Generator[Connection]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     yield connection
     connection.close()
@@ -49,8 +50,8 @@ def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
         return connection.execute(query).fetchall()
 
 
-def _generate_file_path(slug: str) -> str:
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(slug))
+def _generate_file_path(slug: str) -> Path:
+    file_path = Path(FOLDER_NAME) / f"{slug}.md"
 
     path_tools.ensure_file_path(file_path)
 
@@ -59,14 +60,14 @@ def _generate_file_path(slug: str) -> str:
 
 def create_review(
     slug: str, date: datetime.date, review_content: str, grade: str
-) -> str:
+) -> Path:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(slug)
 
     stripped_content = str(review_content or "").strip()
 
-    with open(file_path, "w") as output_file:
+    with Path.open(file_path, "w") as output_file:
         output_file.write("---\n")
         yaml.dump(
             {
@@ -89,7 +90,7 @@ def create_review(
     return file_path
 
 
-def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
+def add_legacy_reviews() -> None:  # noqa: C901
     logger.log("Initializing...")
 
     reviews = list_tools.list_to_dict(
@@ -106,16 +107,15 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
             last_word = match.groups()[0]
 
             if last_word in ["the", "a"]:
-                slug = "{0}-{1}".format(
-                    last_word, slug.replace("-{0}-".format(last_word), "-")
-                )
+                stripped_article = slug.replace(f"-{last_word}-", "-")
+                slug = f"{last_word}-{stripped_article}"
 
-        if slug in reviews.keys():
+        if slug in reviews:
             continue
 
         for post_meta_row in get_post_meta_for_id(review_row["ID"]):
-            for key in post_meta_row.keys():
-                "{0}:{1}".format(key, post_meta_row[key])
+            for key in post_meta_row:
+                f"{key}:{post_meta_row[key]}"
             if post_meta_row["meta_key"] == "Date Viewed":
                 viewing_dates.append(post_meta_row["meta_value"])
             if post_meta_row["meta_key"] == "Grade":
@@ -128,18 +128,8 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
             grade=grade,
         )
 
-        # for viewing_date in viewing_dates:
-        #     repository_api.create_viewing(
-        #         imdb_id=title.imdb_id,
-        #         full_title="{0} ({1})".format(title.title, title.year),
-        #         date=datetime.datetime.fromisoformat(viewing_date).date(),
-        #         medium=None,
-        #         venue=None,
-        #         medium_notes=None,
-        #     )
 
-
-def get_post_meta_for_id(id: str) -> Any:
+def get_post_meta_for_id(post_id: str) -> Any:
     query = """
         SELECT
         *
@@ -147,11 +137,10 @@ def get_post_meta_for_id(id: str) -> Any:
         WHERE post_id = {0}
     """
 
-    return fetch_all(query.format(id))
+    return fetch_all(query.format(post_id))
 
 
 def get_review_rows() -> list[Any]:
-
     query = """
         SELECT
         post_title

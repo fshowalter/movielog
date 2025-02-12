@@ -1,35 +1,29 @@
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
-JsonTitle = TypedDict(
-    "JsonTitle",
-    {
-        "imdbId": str,
-        "title": str,
-        "sortTitle": str,
-        "year": str,
-        "slug": Optional[str],
-        "grade": Optional[str],
-        "gradeValue": Optional[int],
-        "releaseSequence": str,
-    },
-)
 
-JsonCollection = TypedDict(
-    "JsonCollection",
-    {
-        "name": str,
-        "slug": str,
-        "titleCount": int,
-        "reviewCount": int,
-        "titles": list[JsonTitle],
-        "description": Optional[str],
-    },
-)
+class JsonTitle(TypedDict):
+    imdbId: str
+    title: str
+    sortTitle: str
+    year: str
+    slug: str | None
+    grade: str | None
+    gradeValue: int | None
+    releaseSequence: str
+
+
+class JsonCollection(TypedDict):
+    name: str
+    slug: str
+    titleCount: int
+    reviewCount: int
+    titles: list[JsonTitle]
+    description: str | None
 
 
 def build_collection_titles(

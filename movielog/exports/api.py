@@ -44,11 +44,11 @@ def _append_name_if_not_reviewed(
     key: WatchlistTitlesKey,
     reviews: dict[str, repository_api.Review],
 ) -> None:
-    if title_id not in reviews.keys():
+    if title_id not in reviews:
         index[title_id][key].append(name)
 
 
-def _build_watchlist_titles(  # noqa: WPS210
+def _build_watchlist_titles(
     watchlist_people: WatchlistPeople,
     reviews: dict[str, repository_api.Review],
 ) -> WachlistTitles:
@@ -78,7 +78,7 @@ def _build_watchlist_titles(  # noqa: WPS210
     return watchlist_title_index
 
 
-def export_data() -> None:  # noqa: WPS213
+def export_data() -> None:
     logger.log("Initializing...")
 
     repository_api.validate_data()
@@ -100,11 +100,11 @@ def export_data() -> None:  # noqa: WPS213
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(),
-            key=lambda viewing: "{0}{1}".format(viewing.date, viewing.sequence),
+            key=lambda viewing: f"{viewing.date}{viewing.sequence}",
         ),
         titles=titles,
         reviews=reviews,
-        reviewed_titles=[titles[review_id] for review_id in reviews.keys()],
+        reviewed_titles=[titles[review_id] for review_id in reviews],
         watchlist_people=watchlist_people,
         watchlist_titles=_build_watchlist_titles(watchlist_people, reviews),
         collections=sorted(

@@ -1,20 +1,21 @@
 import gzip
-from typing import Generator, Optional, Sequence
+from collections.abc import Generator, Sequence
+from pathlib import Path
 
 from movielog.utils.logging import logger
 
-DatasetFields = list[Optional[str]]
+DatasetFields = list[str | None]
 
 
 def extract(
-    file_path: str,
-) -> Generator[DatasetFields, None, None]:  # noqa: TAE002
+    file_path: Path,
+) -> Generator[DatasetFields]:
     logger.log("Begin extracting from {}...", file_path)
 
     with gzip.open(filename=file_path, mode="rt", encoding="utf-8") as gz_file:
         headers_length = len(gz_file.readline().strip().split("\t"))
         for line in gz_file:
-            fields: Sequence[Optional[str]] = line.strip().split("\t")
+            fields: Sequence[str | None] = line.strip().split("\t")
             if len(fields) != headers_length:
                 continue
 
@@ -22,7 +23,7 @@ def extract(
 
 
 def parse_fields(
-    fields: Sequence[Optional[str]],
+    fields: Sequence[str | None],
 ) -> DatasetFields:
     parsed_fields: DatasetFields = []
 

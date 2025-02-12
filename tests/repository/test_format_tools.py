@@ -3,15 +3,13 @@ import pytest
 from movielog.repository import format_tools
 
 
-@pytest.mark.parametrize("test_input, expected", [(1000, "1,000"), (100, "100")])
-def test_humanize_int_adds_comma_when_appropriate(
-    test_input: int, expected: str
-) -> None:
+@pytest.mark.parametrize(("test_input", "expected"), [(1000, "1,000"), (100, "100")])
+def test_humanize_int_adds_comma_when_appropriate(test_input: int, expected: str) -> None:
     assert format_tools.humanize_int(test_input) == expected
 
 
 @pytest.mark.parametrize(
-    "test_input, expected",
+    ("test_input", "expected"),
     [
         (1.678, "1.7B"),
         (106, "106.0B"),
@@ -25,7 +23,5 @@ def test_humanize_int_adds_comma_when_appropriate(
         (325877892548668857899255685872.0, "269559.9YiB"),
     ],
 )
-def test_pretty_file_size_returns_humanized_sizes(
-    test_input: float, expected: str
-) -> None:
+def test_pretty_file_size_returns_humanized_sizes(test_input: float, expected: str) -> None:
     assert format_tools.pretty_file_size(test_input) == expected

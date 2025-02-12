@@ -1,6 +1,7 @@
 from collections import defaultdict
+from collections.abc import Callable
 from itertools import count
-from typing import Callable, Literal, Optional, TypedDict, TypeVar, Union
+from typing import Literal, TypedDict, TypeVar
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -9,88 +10,75 @@ from movielog.utils.logging import logger
 
 _CreditKind = Literal["director", "writer", "performer"]
 
-_JsonViewing = TypedDict(
-    "_JsonViewing",
-    {
-        "date": str,
-        "venue": Optional[str],
-        "venueNotes": Optional[str],
-        "medium": Optional[str],
-        "mediumNotes": Optional[str],
-        "sequence": int,
-    },
-)
 
-_JsonMoreTitle = TypedDict(
-    "_JsonMoreTitle",
-    {
-        "imdbId": str,
-        "title": str,
-        "grade": str,
-        "year": str,
-        "slug": str,
-        "genres": list[str],
-    },
-)
-
-_JsonMoreCollection = TypedDict(
-    "_JsonMoreCollection",
-    {"name": str, "slug": str, "titles": list[_JsonMoreTitle]},
-)
-
-_JsonMoreCastAndCrewMember = TypedDict(
-    "_JsonMoreCastAndCrewMember",
-    {
-        "name": str,
-        "slug": str,
-        "creditKind": _CreditKind,
-        "titles": list[_JsonMoreTitle],
-    },
-)
-
-_JsonCastAndCrewMember = TypedDict(
-    "_JsonCastAndCrewMember",
-    {"name": str, "slug": str, "creditedAs": list[_CreditKind]},
-)
-
-_JsonCollection = TypedDict(
-    "_JsonCollection",
-    {
-        "name": str,
-        "slug": str,
-    },
-)
+class _JsonViewing(TypedDict):
+    date: str
+    venue: str | None
+    venueNotes: str | None
+    medium: str | None
+    mediumNotes: str | None
+    sequence: int
 
 
-_JsonReviewedTitle = TypedDict(
-    "_JsonReviewedTitle",
-    {
-        "sequence": str,
-        "imdbId": str,
-        "title": str,
-        "year": str,
-        "slug": str,
-        "grade": str,
-        "countries": list[str],
-        "genres": list[str],
-        "sortTitle": str,
-        "originalTitle": Optional[str],
-        "gradeValue": Optional[int],
-        "runtimeMinutes": int,
-        "directorNames": list[str],
-        "principalCastNames": list[str],
-        "writerNames": list[str],
-        "reviewDate": str,
-        "reviewYear": str,
-        "viewings": list[_JsonViewing],
-        "releaseSequence": str,
-        "castAndCrew": list[_JsonCastAndCrewMember],
-        "collections": list[_JsonCollection],
-        "moreCastAndCrew": list[_JsonMoreCastAndCrewMember],
-        "moreReviews": list[_JsonMoreTitle],
-        "moreCollections": list[_JsonMoreCollection],
-    },
-)
+class _JsonMoreTitle(TypedDict):
+    imdbId: str
+    title: str
+    grade: str
+    year: str
+    slug: str
+    genres: list[str]
+
+
+class _JsonMoreCollection(TypedDict):
+    name: str
+    slug: str
+    titles: list[_JsonMoreTitle]
+
+
+class _JsonMoreCastAndCrewMember(TypedDict):
+    name: str
+    slug: str
+    creditKind: _CreditKind
+    titles: list[_JsonMoreTitle]
+
+
+class _JsonCastAndCrewMember(TypedDict):
+    name: str
+    slug: str
+    creditedAs: list[_CreditKind]
+
+
+class _JsonCollection(TypedDict):
+    name: str
+    slug: str
+
+
+class _JsonReviewedTitle(TypedDict):
+    sequence: str
+    imdbId: str
+    title: str
+    year: str
+    slug: str
+    grade: str
+    countries: list[str]
+    genres: list[str]
+    sortTitle: str
+    originalTitle: str | None
+    gradeValue: int | None
+    runtimeMinutes: int
+    directorNames: list[str]
+    principalCastNames: list[str]
+    writerNames: list[str]
+    reviewDate: str
+    reviewYear: str
+    viewings: list[_JsonViewing]
+    releaseSequence: str
+    castAndCrew: list[_JsonCastAndCrewMember]
+    collections: list[_JsonCollection]
+    moreCastAndCrew: list[_JsonMoreCastAndCrewMember]
+    moreReviews: list[_JsonMoreTitle]
+    moreCollections: list[_JsonMoreCollection]
+
 
 _TitleIdsByNameId = dict[frozenset[str], set[str]]
 _CreditIndex = dict[_CreditKind, _TitleIdsByNameId]
@@ -118,7 +106,7 @@ def _build_json_more_title(
 _ListType = TypeVar("_ListType")
 
 
-def _slice_list(  # noqa: WPS210
+def _slice_list(
     source_list: list[_ListType],
     matcher: Callable[[_ListType], bool],
 ) -> list[_ListType]:
@@ -144,7 +132,7 @@ def _slice_list(  # noqa: WPS210
 
 def _build_imdb_id_matcher(
     id_to_match: str,
-) -> Callable[[Union[repository_api.Title, repository_api.Review]], bool]:
+) -> Callable[[repository_api.Title | repository_api.Review], bool]:
     return lambda item_with_imdb_id: item_with_imdb_id.imdb_id == id_to_match
 
 
@@ -170,7 +158,7 @@ def _build_json_more_reviews(
     ]
 
 
-def _build_json_more_cast_and_crew(  # noqa: WPS210 WPS231
+def _build_json_more_cast_and_crew(
     review: repository_api.Review,
     credit_index: _CreditIndex,
     repository_data: RepositoryData,
@@ -279,7 +267,7 @@ def _build_json_collections(
     return json_collections
 
 
-def _build_json_cast_and_crew(  # noqa: WPS210
+def _build_json_cast_and_crew(
     review: repository_api.Review,
     repository_data: RepositoryData,
     credit_index: _CreditIndex,
@@ -344,7 +332,7 @@ def _build_json_reviewed_title(
         ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
-        sequence="{0}-{1}".format(
+        sequence="{}-{}".format(
             review.date.isoformat(), viewings[0].sequence if viewings else ""
         ),
         viewings=[
@@ -385,13 +373,13 @@ def _check_title_for_names(
     credit_index: _CreditIndex,
     repository_data: RepositoryData,
 ) -> None:
-    director_ids = frozenset((director.imdb_id for director in title.directors))
+    director_ids = frozenset(director.imdb_id for director in title.directors)
 
-    performer_ids = frozenset((performer.imdb_id for performer in title.performers))
+    performer_ids = frozenset(performer.imdb_id for performer in title.performers)
 
-    writer_ids = frozenset((writer.imdb_id for writer in title.writers))
+    writer_ids = frozenset(writer.imdb_id for writer in title.writers)
 
-    for name_key, _name_value in repository_data.cast_and_crew.items():
+    for name_key in repository_data.cast_and_crew:
         if name_key & writer_ids:
             credit_index["writer"][name_key].add(title.imdb_id)
         if name_key & director_ids:

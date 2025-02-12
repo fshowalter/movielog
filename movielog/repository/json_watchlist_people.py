@@ -1,22 +1,22 @@
 import json
 import re
-from typing import Iterable, Literal, TypedDict, Union, cast, get_args
+from collections.abc import Iterable
+from pathlib import Path
+from typing import Literal, TypedDict, cast, get_args
 
 from slugify import slugify
 
 from movielog.repository import watchlist_serializer
 from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonTitle
 
-JsonWatchlistPerson = TypedDict(
-    "JsonWatchlistPerson",
-    {
-        "name": str,
-        "slug": str,
-        "imdbId": Union[str, list[str]],
-        "titles": list[JsonTitle],
-        "excludedTitles": list[JsonExcludedTitle],
-    },
-)
+
+class JsonWatchlistPerson(TypedDict):
+    name: str
+    slug: str
+    imdbId: str | list[str]
+    titles: list[JsonTitle]
+    excludedTitles: list[JsonExcludedTitle]
+
 
 Kind = Literal[
     "directors",
@@ -37,9 +37,7 @@ def create(watchlist: Kind, imdb_id: str, name: str) -> JsonWatchlistPerson:
 
     if existing_person:
         raise ValueError(
-            'Person in "{0}" with slug "{1}" already exists.'.format(
-                watchlist, new_person_slug
-            )
+            f'Person in "{watchlist}" with slug "{new_person_slug}" already exists.'
         )
 
     json_watchlist_person = JsonWatchlistPerson(
@@ -56,21 +54,21 @@ def read_all(kind: Kind) -> Iterable[JsonWatchlistPerson]:
         yield (cast(JsonWatchlistPerson, json.load(json_file)))
 
 
-def title_sort_key(title: Union[JsonTitle, JsonExcludedTitle]) -> str:
+def title_sort_key(title: JsonTitle | JsonExcludedTitle) -> str:
     year_sort_regex = r"\(\d*\)"
 
     year = re.search(year_sort_regex, title["title"])
 
     if year:
-        return "{0}-{1}".format(year.group(0), title["imdbId"])
+        return "{}-{}".format(year.group(0), title["imdbId"])
 
-    return "(????)-{0}".format(title["imdbId"])
+    return "(????)-{}".format(title["imdbId"])
 
 
 def serialize(
     watchlist_person: JsonWatchlistPerson,
     kind: Kind,
-) -> str:
+) -> Path:
     watchlist_person["titles"] = sorted(watchlist_person["titles"], key=title_sort_key)
     watchlist_person["excludedTitles"] = sorted(
         watchlist_person["excludedTitles"], key=title_sort_key

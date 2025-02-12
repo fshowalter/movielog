@@ -1,5 +1,5 @@
 import html
-from typing import Iterable, Optional, Tuple
+from collections.abc import Iterable
 
 from prompt_toolkit.formatted_text import AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
@@ -7,10 +7,10 @@ from prompt_toolkit.shortcuts import confirm
 from movielog.cli import ask, person_searcher, radio_list
 
 SearchResult = person_searcher.SearchResult
-Option = Tuple[Optional[SearchResult], AnyFormattedText]
+Option = tuple[SearchResult | None, AnyFormattedText]
 
 
-def prompt(prompt_text: str = "Name: ") -> Optional[SearchResult]:
+def prompt(prompt_text: str = "Name: ") -> SearchResult | None:
     while True:
         query = ask.prompt(prompt_text, rprompt="Use ^ and $ to anchor")
 
@@ -21,19 +21,19 @@ def prompt(prompt_text: str = "Name: ") -> Optional[SearchResult]:
         options = build_options(search_results)
 
         selected_person = radio_list.prompt(
-            title='Results for "<cyan>{0}</cyan>":'.format(query),
+            title=f'Results for "<cyan>{query}</cyan>":',
             options=options,
         )
 
         if selected_person is None:
             continue
 
-        if confirm(("{0}?".format(result_to_html_string(selected_person)))):
+        if confirm(f"{result_to_html_string(selected_person)}?"):
             return selected_person
 
 
 def result_to_html_string(search_result: SearchResult) -> str:
-    return "<cyan>{0}</cyan> ({1})".format(
+    return "<cyan>{}</cyan> ({})".format(
         html.escape(search_result.name),
         ", ".join(html.escape(title) for title in search_result.known_for_titles),
     )

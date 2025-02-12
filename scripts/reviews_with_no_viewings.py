@@ -13,7 +13,7 @@ def reports_with_no_viewings() -> None:
     )
 
     for review in reviews:
-        if review.date not in viewing_dates.keys():
+        if review.date not in viewing_dates:
             logger.log(review.slug)
             continue
 

@@ -4,21 +4,18 @@ from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.utils.logging import logger
 
-JsonTitle = TypedDict(
-    "JsonTitle",
-    {
-        "imdbId": str,
-        "title": str,
-        "year": str,
-        "sortTitle": str,
-        "releaseSequence": str,
-        "directorNames": list[str],
-        "performerNames": list[str],
-        "writerNames": list[str],
-        "collectionNames": list[str],
-        "viewed": bool,
-    },
-)
+
+class JsonTitle(TypedDict):
+    imdbId: str
+    title: str
+    year: str
+    sortTitle: str
+    releaseSequence: str
+    directorNames: list[str]
+    performerNames: list[str]
+    writerNames: list[str]
+    collectionNames: list[str]
+    viewed: bool
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -26,9 +23,9 @@ def export(repository_data: RepositoryData) -> None:
 
     watchlist_titles = []
 
-    viewing_imdb_ids = set(viewing.imdb_id for viewing in repository_data.viewings)
+    viewing_imdb_ids = {viewing.imdb_id for viewing in repository_data.viewings}
 
-    for watchlist_title_id in repository_data.watchlist_titles.keys():
+    for watchlist_title_id in repository_data.watchlist_titles:
         title = repository_data.titles[watchlist_title_id]
 
         watchlist_titles.append(
