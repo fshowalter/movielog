@@ -1,5 +1,6 @@
 import gzip
 from collections.abc import Generator, Sequence
+from pathlib import Path
 
 from movielog.utils.logging import logger
 
@@ -7,7 +8,7 @@ DatasetFields = list[str | None]
 
 
 def extract(
-    file_path: str,
+    file_path: Path,
 ) -> Generator[DatasetFields]:
     logger.log("Begin extracting from {}...", file_path)
 

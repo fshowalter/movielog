@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import os
 from collections.abc import Callable, Generator, Sequence
-from glob import glob
 from pathlib import Path
 from shutil import copyfile
 
@@ -39,7 +37,7 @@ def copy_viewings_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
     )
 
 
-@pytest.fixture(autouse=True, scope="function")
+@pytest.fixture(autouse=True)
 def copy_titles_testdata(mocker: MockerFixture, tmp_path: Path) -> None:
     dirname = Path(__file__).parent
     Path(tmp_path / "titles").mkdir(parents=True)

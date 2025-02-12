@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 from movielog.repository import format_tools
 from movielog.repository.datasets import downloader, extractor
 from movielog.repository.datasets.dataset_name import DatasetName as _DatasetName
@@ -40,7 +42,7 @@ def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:  # noqa: WP
     return "Documentary" not in (fields[8] or "")
 
 
-def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
+def extract_titles(title_basics_file_path: Path) -> dict[str, DatasetTitle]:
     titles: dict[str, DatasetTitle] = {}
 
     for fields in extractor.extract(title_basics_file_path):
@@ -67,7 +69,7 @@ def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
 
 
 def update_titles_with_principals(
-    title_principals_file_path: str,
+    title_principals_file_path: Path,
     titles: dict[str, DatasetTitle],
     names: dict[str, DatasetName],
 ) -> None:
@@ -106,7 +108,7 @@ def parse_imdb_votes(field: object) -> int | None:
 
 
 def update_titles_with_ratings(
-    title_ratings_file_path: str,
+    title_ratings_file_path: Path,
     titles: dict[str, DatasetTitle],
 ) -> None:
     count = 0
@@ -144,7 +146,9 @@ def prune_titles_with_no_principal_cast(
     )
 
 
-def extract_names(file_path: str, titles: dict[str, DatasetTitle]) -> dict[str, DatasetName]:
+def extract_names(
+    file_path: Path, titles: dict[str, DatasetTitle]
+) -> dict[str, DatasetName]:
     names: dict[str, DatasetName] = {}
 
     for fields in extractor.extract(file_path):
@@ -169,7 +173,7 @@ def aka_title_is_not_for_usa_or_great_britain(field: object) -> bool:
 
 
 def update_titles_with_akas(  # noqa: WPS231
-    file_path: str, titles: dict[str, DatasetTitle]
+    file_path: Path, titles: dict[str, DatasetTitle]
 ) -> None:
     count = 0
 
