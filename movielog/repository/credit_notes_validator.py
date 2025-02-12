@@ -1,5 +1,4 @@
 import re
-from typing import Optional
 
 from movielog.repository import imdb_http
 
@@ -31,21 +30,21 @@ INVALID_DIRECTOR_NOTES = ("scenes delted", "uncredited")
 INVALID_PERRFORMER_NOTES = ("uncredited", "scenes deleted", "voice", "archiveFootage")
 
 
-def _validate_director_credit_notes(notes: str) -> tuple[bool, Optional[str]]:
+def _validate_director_credit_notes(notes: str) -> tuple[bool, str | None]:
     if any(invalid_note in notes for invalid_note in INVALID_DIRECTOR_NOTES):
         return (False, notes)
 
     return (True, None)
 
 
-def _validate_performer_credit_notes(notes: str) -> tuple[bool, Optional[str]]:
+def _validate_performer_credit_notes(notes: str) -> tuple[bool, str | None]:
     if any(invalid_note in notes for invalid_note in INVALID_PERRFORMER_NOTES):
         return (False, notes)
 
     return (True, None)
 
 
-def _validate_writer_credit_notes(notes: str) -> tuple[bool, Optional[str]]:
+def _validate_writer_credit_notes(notes: str) -> tuple[bool, str | None]:
     if any(invalid_note in notes for invalid_note in INVALID_WRITER_NOTES):
         return (False, notes)
 
@@ -59,8 +58,8 @@ def _validate_writer_credit_notes(notes: str) -> tuple[bool, Optional[str]]:
 
 
 def credit_notes_are_valid_for_kind(
-    notes: Optional[str], kind: imdb_http.CreditKind
-) -> tuple[bool, Optional[str]]:
+    notes: str | None, kind: imdb_http.CreditKind
+) -> tuple[bool, str | None]:
     if not notes:
         return (True, None)
 

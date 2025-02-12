@@ -1,4 +1,5 @@
-from typing import Optional, Protocol, Sequence, TypedDict
+from collections.abc import Sequence
+from typing import Protocol, TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
@@ -12,35 +13,28 @@ class WatchlistEntity(Protocol):
     title_ids: set[str]
 
 
-JsonProgressDetail = TypedDict(
-    "JsonProgressDetail",
-    {
-        "name": str,
-        "titleCount": int,
-        "reviewCount": int,
-        "slug": Optional[str],
-    },
-)
+class JsonProgressDetail(TypedDict):
+    name: str
+    titleCount: int
+    reviewCount: int
+    slug: str | None
 
-JsonWatchlistProgress = TypedDict(
-    "JsonWatchlistProgress",
-    {
-        "reviewed": int,
-        "total": int,
-        "directorTotal": int,
-        "directorReviewed": int,
-        "directorDetails": list[JsonProgressDetail],
-        "writerTotal": int,
-        "writerReviewed": int,
-        "writerDetails": list[JsonProgressDetail],
-        "performerTotal": int,
-        "performerReviewed": int,
-        "performerDetails": list[JsonProgressDetail],
-        "collectionTotal": int,
-        "collectionReviewed": int,
-        "collectionDetails": list[JsonProgressDetail],
-    },
-)
+
+class JsonWatchlistProgress(TypedDict):
+    reviewed: int
+    total: int
+    directorTotal: int
+    directorReviewed: int
+    directorDetails: list[JsonProgressDetail]
+    writerTotal: int
+    writerReviewed: int
+    writerDetails: list[JsonProgressDetail]
+    performerTotal: int
+    performerReviewed: int
+    performerDetails: list[JsonProgressDetail]
+    collectionTotal: int
+    collectionReviewed: int
+    collectionDetails: list[JsonProgressDetail]
 
 
 def combined_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
@@ -67,9 +61,7 @@ def build_progress_details(
     entity_progress = []
 
     for watchlist_entity in watchlist_entities:
-        review_ids = watchlist_entity.title_ids.intersection(
-            repository_data.reviews.keys()
-        )
+        review_ids = watchlist_entity.title_ids.intersection(repository_data.reviews.keys())
 
         if len(review_ids) == len(watchlist_entity.title_ids):
             continue
@@ -99,9 +91,7 @@ def watchlist_entity_stats(
         ]
     )
 
-    reviewed_title_ids = watchlist_entity_title_ids.intersection(
-        repository_data.reviews.keys()
-    )
+    reviewed_title_ids = watchlist_entity_title_ids.intersection(repository_data.reviews.keys())
 
     return (len(watchlist_entity_title_ids), len(reviewed_title_ids))
 
@@ -109,9 +99,7 @@ def watchlist_entity_stats(
 def overall_watchlist_stats(repository_data: RepositoryData) -> tuple[int, int]:
     watchlist_title_ids = combined_watchlist_title_ids(repository_data)
 
-    reviewed_title_ids = watchlist_title_ids.intersection(
-        repository_data.reviews.keys()
-    )
+    reviewed_title_ids = watchlist_title_ids.intersection(repository_data.reviews.keys())
 
     return (len(watchlist_title_ids), len(reviewed_title_ids))
 
@@ -154,9 +142,7 @@ def export(repository_data: RepositoryData) -> None:  # noqa: WPS210
         ),
         collectionTotal=collection_total,
         collectionReviewed=collection_reviewed,
-        collectionDetails=build_progress_details(
-            repository_data.collections, repository_data
-        ),
+        collectionDetails=build_progress_details(repository_data.collections, repository_data),
     )
 
     exporter.serialize_dict(watchlist_progress, "watchlist-progress")

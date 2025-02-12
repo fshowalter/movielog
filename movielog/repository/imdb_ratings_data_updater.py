@@ -1,20 +1,17 @@
 from __future__ import annotations
 
 from statistics import mean
-from typing import Optional, TypedDict, cast
+from typing import TypedDict, cast
 
 from movielog.repository import json_imdb_ratings, markdown_reviews
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 
-TitleQueryResult = TypedDict(
-    "TitleQueryResult",
-    {
-        "imdb_id": str,
-        "imdb_rating": Optional[float],
-        "imdb_votes": int,
-    },
-)
+
+class TitleQueryResult(TypedDict):
+    imdb_id: str
+    imdb_rating: float | None
+    imdb_votes: int
 
 
 def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
@@ -29,7 +26,7 @@ def update_with_db_data(imdb_ids: list[str]) -> None:  # noqa: WPS210
         WHERE imdb_id in ({0});
     """
 
-    quoted_ids = ['"{0}"'.format(imdb_id) for imdb_id in imdb_ids]
+    quoted_ids = [f'"{imdb_id}"' for imdb_id in imdb_ids]
 
     title_rows = cast(
         list[TitleQueryResult], db_api.db.fetch_all(query.format(",".join(quoted_ids)))
@@ -64,9 +61,7 @@ def update_for_datasets(  # noqa: WPS210
         and title["imdb_votes"] >= average_imdb_votes
     )
 
-    reviewed_title_ids = set(
-        review.yaml["imdb_id"] for review in markdown_reviews.read_all()
-    )
+    reviewed_title_ids = set(review.yaml["imdb_id"] for review in markdown_reviews.read_all())
 
     titles = {}
 

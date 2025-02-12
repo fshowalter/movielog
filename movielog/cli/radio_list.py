@@ -1,4 +1,5 @@
-from typing import Generic, Optional, Sequence, Tuple, TypeVar, cast
+from collections.abc import Sequence
+from typing import Generic, TypeVar, cast
 
 from prompt_toolkit.application import Application
 from prompt_toolkit.formatted_text import (  # noqa: WPS347
@@ -37,9 +38,7 @@ class RadioList(Generic[RadioListType]):  # noqa: WPS214
     selected_style = "class:radio-selected"
     checked_style = "class:radio-checked"
 
-    def __init__(
-        self, options: Sequence[Tuple[RadioListType, AnyFormattedText]]
-    ) -> None:
+    def __init__(self, options: Sequence[tuple[RadioListType, AnyFormattedText]]) -> None:
         self.options = options
         self.current_option: RadioListType = options[0][0]
         self._selected_index = 0
@@ -77,7 +76,7 @@ class RadioList(Generic[RadioListType]):  # noqa: WPS214
 
             style = ""
             if selected:
-                style = "{0} {1}".format(style, self.selected_style)
+                style = f"{style} {self.selected_style}"
 
             output_result.append((style, self.open_character))
 
@@ -127,9 +126,9 @@ class RadioList(Generic[RadioListType]):  # noqa: WPS214
 
 def prompt(
     title: str,
-    options: Sequence[Tuple[RadioListType, AnyFormattedText]],
-    rprompt: Optional[str] = None,
-) -> Optional[RadioListType]:
+    options: Sequence[tuple[RadioListType, AnyFormattedText]],
+    rprompt: str | None = None,
+) -> RadioListType | None:
     control = RadioList(options_to_html(options))
 
     application: Application[None] = Application(
@@ -163,9 +162,9 @@ def prompt(
 
 
 def options_to_html(
-    options: Sequence[Tuple[RadioListType, AnyFormattedText]],
-) -> Sequence[Tuple[RadioListType, AnyFormattedText]]:
-    formatted_options: list[Tuple[RadioListType, AnyFormattedText]] = []
+    options: Sequence[tuple[RadioListType, AnyFormattedText]],
+) -> Sequence[tuple[RadioListType, AnyFormattedText]]:
+    formatted_options: list[tuple[RadioListType, AnyFormattedText]] = []
 
     for option in options:
         option_text = HTML(cast(str, option[1]))

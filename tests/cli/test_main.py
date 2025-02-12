@@ -47,9 +47,7 @@ def test_calls_imdb(mock_input: MockInput, mock_imdb: MagicMock) -> None:
     mock_imdb.assert_called_once()
 
 
-def test_calls_manage_watchlist(
-    mock_input: MockInput, mock_manage_watchlist: MagicMock
-) -> None:
+def test_calls_manage_watchlist(mock_input: MockInput, mock_manage_watchlist: MagicMock) -> None:
     mock_input([Down, Enter, Escape, Escape])
     main.prompt()
 

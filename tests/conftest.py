@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import os
 import sqlite3
+from collections.abc import Callable, Generator
 from pathlib import Path
-from typing import Any, Callable, Generator, Tuple
+from typing import Any
 from unittest.mock import MagicMock
 
 import pytest
@@ -17,7 +18,7 @@ TEST_DB_PATH = "file:test_db?mode=memory&cache=shared"
 
 
 @pytest.fixture(autouse=True)
-def set_sqlite3_to_use_in_memory_db() -> Generator[None, None, None]:
+def set_sqlite3_to_use_in_memory_db() -> Generator[None]:
     """Hold an open connection for the length of a test to persist the
     in-memory db."""
     db.DB_PATH = TEST_DB_PATH
@@ -68,9 +69,7 @@ def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_serializer_folder_name(
-    mocker: MockerFixture, tmp_path: Path
-) -> None:
+def mock_watchlist_serializer_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
         "movielog.repository.watchlist_serializer.FOLDER_NAME",
         os.path.join(tmp_path, "directors"),
@@ -82,7 +81,7 @@ def mock_titles_data_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch("movielog.repository.json_titles.FOLDER_NAME", tmp_path)
 
 
-def dict_factory(cursor: sqlite3.Cursor, row: Tuple[Any, ...]) -> dict[str, Any]:
+def dict_factory(cursor: sqlite3.Cursor, row: tuple[Any, ...]) -> dict[str, Any]:
     row_dict = {}
     for index, column in enumerate(cursor.description):
         row_dict[column[0]] = row[index]

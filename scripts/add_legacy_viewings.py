@@ -4,9 +4,10 @@ import datetime
 import re
 import sqlite3
 import types
+from collections.abc import Callable, Generator
 from contextlib import contextmanager
 from os import path
-from typing import Any, Callable, Dict, Generator, Tuple
+from typing import Any
 
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
@@ -20,8 +21,8 @@ Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
 DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
-DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
-RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
 SLUG_MAP = types.MappingProxyType(
     {
@@ -48,7 +49,7 @@ SLUG_MAP = types.MappingProxyType(
 
 
 @contextmanager
-def connect() -> Generator[Connection, None, None]:
+def connect() -> Generator[Connection]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     yield connection
     connection.close()
@@ -69,9 +70,7 @@ def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
 def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
     logger.log("Initializing...")
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.slug
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.slug)
 
     for post_id_row in get_post_ids():
         viewing_dates = []
@@ -82,9 +81,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
 
         if len(viewing_dates) == 0:
             raise Exception(
-                "No viewings for {0} [{1}]".format(
-                    post_id_row["post_name"], post_id_row["ID"]
-                )
+                "No viewings for {0} [{1}]".format(post_id_row["post_name"], post_id_row["ID"])
             )
 
         slug = post_id_row["post_name"]
@@ -92,9 +89,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         match_the = re.search(r"-the-(\d{4})$", slug)
 
         if match_the:
-            slug = "the-{0}".format(
-                re.sub(r"the-(\d{4})$", match_the.groups()[0], slug)
-            )
+            slug = "the-{0}".format(re.sub(r"the-(\d{4})$", match_the.groups()[0], slug))
 
         match_a = re.search(r"-a-(\d{4})$", slug)
 
@@ -113,7 +108,7 @@ def add_legacy_viewings() -> None:  # noqa: WPS210, WPS231
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
                 imdb_id=title.imdb_id,
-                full_title="{0} ({1})".format(title.title, title.year),
+                full_title=f"{title.title} ({title.year})",
                 date=datetime.datetime.fromisoformat(viewing_date).date(),
                 medium=None,
                 venue=None,
@@ -133,7 +128,6 @@ def get_post_meta_for_id(id: str) -> Any:
 
 
 def get_post_ids() -> list[Any]:
-
     query = """
         SELECT
         *

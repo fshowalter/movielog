@@ -7,9 +7,7 @@ WatchlistTitlesKey = Literal[repository_api.WatchlistPersonKind, "collections"]
 
 WachlistTitles = dict[str, dict[WatchlistTitlesKey, list[str]]]
 
-WatchlistPeople = dict[
-    repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]
-]
+WatchlistPeople = dict[repository_api.WatchlistPersonKind, list[repository_api.WatchlistPerson]]
 
 
 @dataclass

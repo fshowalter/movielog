@@ -1,6 +1,6 @@
 import json
 from datetime import datetime
-from typing import Optional, TypedDict, cast
+from typing import TypedDict, cast
 
 import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
@@ -8,52 +8,41 @@ from requests.adapters import HTTPAdapter, Retry
 
 TIMEOUT = 30
 
-TextType = TypedDict(
-    "TextType",
-    {
-        "text": str,
-        "subText": str,
-    },
-)
 
-ContentCategorySectionItem = TypedDict(
-    "ContentCategorySectionItem",
-    {
-        "id": str,
-        "rowTitle": str,
-        "listContent": list[TextType],
-    },
-)
-
-ContentCategorySection = TypedDict(
-    "ContentCategorySection", {"items": list[ContentCategorySectionItem]}
-)
-
-ContentCategory = TypedDict(
-    "ContentCategory", {"id": str, "section": ContentCategorySection}
-)
-
-ContentData = TypedDict(
-    "ContentData",
-    {
-        "categories": list[ContentCategory],
-    },
-)
+class TextType(TypedDict):
+    text: str
+    subText: str
 
 
-PageProps = TypedDict(
-    "PageProps",
-    {
-        "contentData": ContentData,
-    },
-)
+class ContentCategorySectionItem(TypedDict):
+    id: str
+    rowTitle: str
+    listContent: list[TextType]
 
-Props = TypedDict("Props", {"pageProps": PageProps})
 
-PageData = TypedDict(
-    "PageData",
-    {"props": Props},
-)
+class ContentCategorySection(TypedDict):
+    items: list[ContentCategorySectionItem]
+
+
+class ContentCategory(TypedDict):
+    id: str
+    section: ContentCategorySection
+
+
+class ContentData(TypedDict):
+    categories: list[ContentCategory]
+
+
+class PageProps(TypedDict):
+    contentData: ContentData
+
+
+class Props(TypedDict):
+    pageProps: PageProps
+
+
+class PageData(TypedDict):
+    props: Props
 
 
 def _unknown_date(release_year: str) -> str:
@@ -67,7 +56,7 @@ def _get_release_date_page_data(imdb_id: str) -> PageData:
     session.mount("https://", HTTPAdapter(max_retries=retries))
 
     page = session.get(
-        "https://www.imdb.com/title/{0}/releaseinfo".format(imdb_id),
+        f"https://www.imdb.com/title/{imdb_id}/releaseinfo",
         headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",  # noqa: E501
             "Accept-Language": "en-US,en;q=0.5",
@@ -88,7 +77,7 @@ def _get_release_date_page_data(imdb_id: str) -> PageData:
     return cast(PageData, json.loads(str(script_tag.string)))
 
 
-def _parse_first_release_date(page_data: PageData) -> Optional[str]:
+def _parse_first_release_date(page_data: PageData) -> str | None:
     releases = next(
         (
             category

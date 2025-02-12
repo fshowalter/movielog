@@ -1,4 +1,4 @@
-from typing import Literal, Optional
+from typing import Literal
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.formatted_text import HTML, merge_formatted_text
@@ -11,7 +11,7 @@ ReturnResult = Literal["v", "m"]
 def ask_medium_or_venue(
     message: str = "Seen at a <cyan>(v)</cyan>enue or via a <cyan>(m)</cyan>edium?",
     suffix: str = " (v/m) ",
-) -> Optional[ReturnResult]:
+) -> ReturnResult | None:
     bindings = KeyBindings()
 
     @bindings.add("m")
@@ -37,7 +37,5 @@ def ask_medium_or_venue(
         """
 
     complete_message = merge_formatted_text([HTML(message), suffix])
-    session: PromptSession[ReturnResult] = PromptSession(
-        complete_message, key_bindings=bindings
-    )
+    session: PromptSession[ReturnResult] = PromptSession(complete_message, key_bindings=bindings)
     return session.prompt()

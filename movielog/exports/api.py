@@ -44,7 +44,7 @@ def _append_name_if_not_reviewed(
     key: WatchlistTitlesKey,
     reviews: dict[str, repository_api.Review],
 ) -> None:
-    if title_id not in reviews.keys():
+    if title_id not in reviews:
         index[title_id][key].append(name)
 
 
@@ -83,13 +83,9 @@ def export_data() -> None:  # noqa: WPS213
 
     repository_api.validate_data()
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.imdb_id
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.imdb_id)
 
-    titles = list_tools.list_to_dict(
-        repository_api.titles(), key=lambda title: title.imdb_id
-    )
+    titles = list_tools.list_to_dict(repository_api.titles(), key=lambda title: title.imdb_id)
 
     cast_and_crew_by_imdb_id = list_tools.list_to_dict(
         repository_api.cast_and_crew(), key=lambda member: member.imdb_id
@@ -100,7 +96,7 @@ def export_data() -> None:  # noqa: WPS213
     repository_data = RepositoryData(
         viewings=sorted(
             repository_api.viewings(),
-            key=lambda viewing: "{0}{1}".format(viewing.date, viewing.sequence),
+            key=lambda viewing: f"{viewing.date}{viewing.sequence}",
         ),
         titles=titles,
         reviews=reviews,

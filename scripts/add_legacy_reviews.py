@@ -4,8 +4,9 @@ import datetime
 import os
 import re
 import sqlite3
+from collections.abc import Callable, Generator
 from contextlib import contextmanager
-from typing import Any, Callable, Dict, Generator, Tuple
+from typing import Any
 
 import yaml
 
@@ -22,8 +23,8 @@ Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
 DB_PATH = os.path.join(DB_DIR, DB_FILE_NAME)
-DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
-RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
 
 def _represent_none(self: Any, _: Any) -> Any:
@@ -31,7 +32,7 @@ def _represent_none(self: Any, _: Any) -> Any:
 
 
 @contextmanager
-def connect() -> Generator[Connection, None, None]:
+def connect() -> Generator[Connection]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     yield connection
     connection.close()
@@ -50,16 +51,14 @@ def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
 
 
 def _generate_file_path(slug: str) -> str:
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(slug))
+    file_path = os.path.join(FOLDER_NAME, f"{slug}.md")
 
     path_tools.ensure_file_path(file_path)
 
     return file_path
 
 
-def create_review(
-    slug: str, date: datetime.date, review_content: str, grade: str
-) -> str:
+def create_review(slug: str, date: datetime.date, review_content: str, grade: str) -> str:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(slug)
@@ -92,9 +91,7 @@ def create_review(
 def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
     logger.log("Initializing...")
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.slug
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.slug)
 
     for review_row in get_review_rows():
         viewing_dates = []
@@ -106,16 +103,14 @@ def add_legacy_reviews() -> None:  # noqa: WPS210, WPS231
             last_word = match.groups()[0]
 
             if last_word in ["the", "a"]:
-                slug = "{0}-{1}".format(
-                    last_word, slug.replace("-{0}-".format(last_word), "-")
-                )
+                slug = "{0}-{1}".format(last_word, slug.replace(f"-{last_word}-", "-"))
 
         if slug in reviews.keys():
             continue
 
         for post_meta_row in get_post_meta_for_id(review_row["ID"]):
             for key in post_meta_row.keys():
-                "{0}:{1}".format(key, post_meta_row[key])
+                f"{key}:{post_meta_row[key]}"
             if post_meta_row["meta_key"] == "Date Viewed":
                 viewing_dates.append(post_meta_row["meta_value"])
             if post_meta_row["meta_key"] == "Grade":
@@ -151,7 +146,6 @@ def get_post_meta_for_id(id: str) -> Any:
 
 
 def get_review_rows() -> list[Any]:
-
     query = """
         SELECT
         post_title

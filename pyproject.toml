@@ -125,6 +125,10 @@ python_version = "3.13"
 strict = true
 mypy_path = "booklog/stubs"
 
+[[tool.mypy.overrides]]
+module = "imdb.*"
+ignore_missing_imports = true
+
 [tool.pytest.ini_options]
 # py.test configuration: http://doc.pytest.org/en/latest/customize.html
 norecursedirs = [
@@ -142,10 +146,13 @@ norecursedirs = [
 ]
 junit_family = "xunit1"
 
-addopts = "--strict-markers --cov=. --cov-branch --cov-report html -s --show-capture stdout"
+addopts = "--strict-markers --cov=. --cov-branch --cov-report html" # -s --show-capture stdout"
 
 [tool.coverage.run]
 omit = ["**/__init__.py", ".venv/**"]
 
 [tool.coverage.report]
 exclude_lines = ["pragma: no cover", "if TYPE_CHECKING:"]
+
+[tool.setuptools]
+packages = ["movielog", "movielog.cli"]

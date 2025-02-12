@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 from typing import Any
 from unittest.mock import MagicMock
 
@@ -9,7 +9,7 @@ from movielog.repository.datasets import extractor
 
 @pytest.fixture(autouse=True)
 def test_file(gzip_file: MagicMock) -> Any:
-    return gzip_file(os.path.join(os.path.dirname(__file__), "extractor_test_data.tsv"))
+    return gzip_file(Path(__file__).parent / "extractor_test_data.tsv")
 
 
 def test_extractor_skips_incomplete_rows(test_file: str) -> None:

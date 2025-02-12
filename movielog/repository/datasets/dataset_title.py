@@ -1,4 +1,4 @@
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 
 class DatasetTitle(TypedDict):
@@ -7,8 +7,8 @@ class DatasetTitle(TypedDict):
     original_title: str
     year: str
     full_title: str
-    runtime_minutes: Optional[int]
+    runtime_minutes: int | None
     principal_cast: list[str]
     aka_titles: list[str]
-    imdb_votes: Optional[int]
-    imdb_rating: Optional[float]
+    imdb_votes: int | None
+    imdb_rating: float | None

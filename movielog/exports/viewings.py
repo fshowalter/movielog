@@ -1,26 +1,23 @@
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 from movielog.exports import exporter
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
-JsonViewing = TypedDict(
-    "JsonViewing",
-    {
-        "sequence": int,
-        "viewingYear": str,
-        "viewingDate": str,
-        "title": str,
-        "sortTitle": str,
-        "releaseSequence": str,
-        "medium": Optional[str],
-        "venue": Optional[str],
-        "year": str,
-        "slug": Optional[str],
-        "genres": list[str],
-    },
-)
+
+class JsonViewing(TypedDict):
+    sequence: int
+    viewingYear: str
+    viewingDate: str
+    title: str
+    sortTitle: str
+    releaseSequence: str
+    medium: str | None
+    venue: str | None
+    year: str
+    slug: str | None
+    genres: list[str]
 
 
 def build_json_viewing(
@@ -48,9 +45,7 @@ def export(repository_data: RepositoryData) -> None:
     logger.log("==== Begin exporting {}...", "viewings")
 
     json_viewings = [
-        build_json_viewing(
-            viewing=viewing, sequence=index + 1, repository_data=repository_data
-        )
+        build_json_viewing(viewing=viewing, sequence=index + 1, repository_data=repository_data)
         for index, viewing in enumerate(repository_data.viewings)
     ]
 

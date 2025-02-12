@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from copy import deepcopy
-from typing import Optional, TypedDict, cast
+from typing import TypedDict, cast
 
 from movielog.repository import credit_notes_validator, imdb_http, json_titles
 from movielog.repository.datasets import api as datasets_api
@@ -18,15 +18,12 @@ ValidTitles = {
     "tt0094762": "Blood Delirium",
 }
 
-TitleQueryResult = TypedDict(
-    "TitleQueryResult",
-    {
-        "title": str,
-        "original_title": str,
-        "year": int,
-        "runtime_minutes": Optional[int],
-    },
-)
+
+class TitleQueryResult(TypedDict):
+    title: str
+    original_title: str
+    year: int
+    runtime_minutes: int | None
 
 
 def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
@@ -68,9 +65,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             name=director.name,
         )
         for director in imdb_title_page.credits["director"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            director.notes, "director"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(director.notes, "director")[0]
     ]
 
     json_title["performers"] = [
@@ -80,9 +75,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             roles=performer.roles,
         )
         for performer in imdb_title_page.credits["performer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            performer.notes, "performer"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(performer.notes, "performer")[0]
     ]
     json_title["writers"] = [
         json_titles.JsonWriter(
@@ -91,9 +84,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             notes=writer.notes,
         )
         for writer in imdb_title_page.credits["writer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            writer.notes, "writer"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(writer.notes, "writer")[0]
     ]
 
 
@@ -163,7 +154,7 @@ def update_title(json_title: json_titles.JsonTitle) -> None:
 
 
 def update_for_datasets(  # noqa: WPS231
-    dataset_titles: dict[str, datasets_api.DatasetTitle]
+    dataset_titles: dict[str, datasets_api.DatasetTitle],
 ) -> None:
     for json_title in json_titles.read_all():
         if json_title["imdbId"] in FrozenTitles:

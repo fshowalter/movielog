@@ -1,4 +1,4 @@
-from typing import Sequence, Tuple
+from collections.abc import Sequence
 
 import pytest
 from prompt_toolkit.formatted_text import AnyFormattedText
@@ -8,7 +8,7 @@ from movielog.cli import radio_list
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Down, End, Enter, Home, Up
 
-Options = Sequence[Tuple[int, AnyFormattedText]]
+Options = Sequence[tuple[int, AnyFormattedText]]
 
 
 @pytest.fixture

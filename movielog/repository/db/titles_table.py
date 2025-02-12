@@ -1,5 +1,5 @@
 import json
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 from movielog.repository.datasets.dataset_title import DatasetTitle
 from movielog.repository.db import db
@@ -53,11 +53,11 @@ class Row(TypedDict):
     original_title: str
     year: str
     full_title: str
-    runtime_minutes: Optional[int]
+    runtime_minutes: int | None
     principal_cast: str
     aka_titles: str
-    imdb_votes: Optional[int]
-    imdb_rating: Optional[float]
+    imdb_votes: int | None
+    imdb_rating: float | None
 
 
 def reload(titles: list[DatasetTitle]) -> None:

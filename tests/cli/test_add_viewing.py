@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Literal, Optional
+from typing import Literal
 from unittest.mock import MagicMock
 
 import pytest
@@ -21,9 +21,7 @@ def mock_add_viewing(mocker: MockerFixture) -> MagicMock:
 
 @pytest.fixture(autouse=True)
 def mock_create_or_update_review(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch(
-        "movielog.cli.add_viewing.repository_api.create_or_update_review"
-    )
+    return mocker.patch("movielog.cli.add_viewing.repository_api.create_or_update_review")
 
 
 @pytest.fixture(autouse=True)
@@ -106,9 +104,7 @@ def enter_if_review(confirm: ConfirmType) -> list[str]:
     return [confirm]
 
 
-def enter_viewing_date(
-    date: str, confirm: Optional[Literal[ConfirmType]] = None
-) -> list[str]:
+def enter_viewing_date(date: str, confirm: Literal[ConfirmType] | None = None) -> list[str]:
     input_stream = [
         Backspace,
         Backspace,
@@ -342,9 +338,7 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
     )
 
 
-def test_can_create_with_venue(
-    mock_input: MockInput, mock_add_viewing: MagicMock
-) -> None:
+def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
             *enter_title("Rio Bravo"),

@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 import sqlite3
+from collections.abc import Callable, Generator, Mapping, Sequence
 from contextlib import contextmanager
 from os import path
-from typing import Any, Callable, Dict, Generator, Mapping, Sequence, Tuple
+from typing import Any
 
 from movielog.repository import format_tools
 from movielog.utils.logging import logger
@@ -16,19 +17,19 @@ Cursor = sqlite3.Cursor
 Row = sqlite3.Row
 
 DB_PATH = path.join(DB_DIR, DB_FILE_NAME)
-DbConnectionOpts: Dict[str, Any] = {"isolation_level": None}
-RowFactory = Callable[[sqlite3.Cursor, Tuple[Any, ...]], Any]
+DbConnectionOpts: dict[str, Any] = {"isolation_level": None}
+RowFactory = Callable[[sqlite3.Cursor, tuple[Any, ...]], Any]
 
 
 @contextmanager
-def connect() -> Generator[Connection, None, None]:
+def connect() -> Generator[Connection]:
     connection = sqlite3.connect(DB_PATH, **DbConnectionOpts)
     yield connection
     connection.close()
 
 
 @contextmanager
-def transaction(connection: Connection) -> Generator[None, None, None]:
+def transaction(connection: Connection) -> Generator[None]:
     connection.execute("PRAGMA journal_mode = WAL;")
     connection.execute("BEGIN TRANSACTION;")
     yield
@@ -47,19 +48,13 @@ def add_index(table_name: str, column: str) -> None:
 
 
 def validate_row_count(table_name: str, expected: int) -> None:
-    actual = fetch_one("select count(*) as count from {0}".format(table_name))["count"]
-    assert expected == actual  # noqa: S101
-    logger.log(
-        "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
-    )
+    actual = fetch_one(f"select count(*) as count from {table_name}")["count"]
+    assert expected == actual
+    logger.log("Table {} contains {} rows.", table_name, format_tools.humanize_int(actual))
 
 
-def insert_into_table(
-    table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]
-) -> None:
-    logger.log(
-        "Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name
-    )
+def insert_into_table(table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]) -> None:
+    logger.log("Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name)
     execute_many(insert_ddl, rows)
 
 

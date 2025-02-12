@@ -1,6 +1,7 @@
 import datetime
+from collections.abc import Generator, Iterable
 from dataclasses import dataclass
-from typing import Generator, Iterable, Optional, get_args
+from typing import get_args
 
 from movielog.repository import (  # noqa: WPS235
     cast_and_crew_validator,
@@ -58,10 +59,10 @@ class Viewing:
     imdb_id: str
     sequence: int
     date: datetime.date
-    medium: Optional[str]
-    venue: Optional[str]
-    medium_notes: Optional[str]
-    venue_notes: Optional[str]
+    medium: str | None
+    venue: str | None
+    medium_notes: str | None
+    venue_notes: str | None
 
 
 @dataclass
@@ -95,7 +96,7 @@ class Review:
 
         return grade_value
 
-    def title(self, cache: Optional[list[Title]] = None) -> Title:
+    def title(self, cache: list[Title] | None = None) -> Title:
         title_iterable = cache or titles()
         return next(title for title in title_iterable if title.imdb_id == self.imdb_id)
 
@@ -119,7 +120,7 @@ class Collection:
     name: str
     slug: str
     title_ids: set[str]
-    description: Optional[str]
+    description: str | None
 
 
 @dataclass
@@ -134,9 +135,7 @@ def _hydrate_collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
         title_ids=set([title["imdbId"] for title in json_collection["titles"]]),
-        description=(
-            json_collection["description"] if "description" in json_collection else None
-        ),
+        description=(json_collection["description"] if "description" in json_collection else None),
     )
 
 
@@ -146,7 +145,7 @@ def validate_data() -> None:
     imdb_ratings_data_validator.validate()
 
 
-def collections() -> Generator[Collection, None, None]:
+def collections() -> Generator[Collection]:
     for json_collection in json_collections.read_all():
         yield _hydrate_collection(json_collection)
 
@@ -189,7 +188,7 @@ def cast_and_crew() -> Iterable[CastAndCrewMember]:
 
 def watchlist_people(
     kind: WatchlistPersonKind,
-) -> Generator[WatchlistPerson, None, None]:
+) -> Generator[WatchlistPerson]:
     for json_watchlist_person in json_watchlist_people.read_all(kind):
         yield _hydrate_watchlist_person(json_watchlist_person)
 
@@ -206,9 +205,7 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            release_sequence="{0}{1}".format(
-                json_title["releaseDate"], json_title["imdbId"]
-            ),
+            release_sequence="{0}{1}".format(json_title["releaseDate"], json_title["imdbId"]),
             directors=[
                 CreditName(
                     name=director["name"],
@@ -276,16 +273,14 @@ def update_datasets() -> None:
     )
 
     title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
-    imdb_ratings_data_updater.update_for_datasets(
-        dataset_titles=list(dataset_titles.values())
-    )
+    imdb_ratings_data_updater.update_for_datasets(dataset_titles=list(dataset_titles.values()))
 
 
 @dataclass
 class TitleImdbRating:
     imdb_id: str
-    votes: Optional[int]
-    rating: Optional[float]
+    votes: int | None
+    rating: float | None
 
 
 @dataclass
@@ -302,9 +297,7 @@ def imdb_ratings() -> ImdbRatings:
 
     for imdb_id, rating in json_ratings["titles"].items():
         title_ratings.append(
-            TitleImdbRating(
-                imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"]
-            )
+            TitleImdbRating(imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"])
         )
 
     return ImdbRatings(
@@ -318,9 +311,9 @@ def create_viewing(  # noqa: WPS211
     imdb_id: str,
     full_title: str,
     date: datetime.date,
-    medium: Optional[str],
-    venue: Optional[str],
-    medium_notes: Optional[str],
+    medium: str | None,
+    venue: str | None,
+    medium_notes: str | None,
 ) -> Viewing:
     return _hydrate_markdown_viewing(
         markdown_viewings.create(
@@ -351,14 +344,10 @@ def new_collection(name: str) -> Collection:
 def add_person_to_watchlist(
     watchlist: WatchlistPersonKind, imdb_id: str, name: str
 ) -> WatchlistPerson:
-    return _hydrate_watchlist_person(
-        json_watchlist_people.create(watchlist, imdb_id, name)
-    )
+    return _hydrate_watchlist_person(json_watchlist_people.create(watchlist, imdb_id, name))
 
 
-def add_title_to_collection(
-    collection: Collection, imdb_id: str, full_title: str
-) -> Collection:
+def add_title_to_collection(collection: Collection, imdb_id: str, full_title: str) -> Collection:
     return _hydrate_collection(
         json_collections.add_title(
             collection_slug=collection.slug, imdb_id=imdb_id, full_title=full_title

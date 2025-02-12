@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from typing import Optional
-
 from movielog.repository import format_tools
 from movielog.repository.datasets import downloader, extractor
 from movielog.repository.datasets.dataset_name import DatasetName as _DatasetName
@@ -54,7 +52,7 @@ def extract_titles(title_basics_file_path: str) -> dict[str, DatasetTitle]:
                 imdb_id=str(fields[0]),
                 title=title,
                 original_title=str(fields[3]),
-                full_title="{0} ({1})".format(title, year),
+                full_title=f"{title} ({year})",
                 year=year,
                 runtime_minutes=int(str(fields[7])) if fields[7] else None,
                 principal_cast=[],
@@ -93,14 +91,14 @@ def update_titles_with_principals(
     )
 
 
-def parse_imdb_rating(field: object) -> Optional[float]:
+def parse_imdb_rating(field: object) -> float | None:
     if not field:
         return None
 
     return float(str(field))
 
 
-def parse_imdb_votes(field: object) -> Optional[int]:
+def parse_imdb_votes(field: object) -> int | None:
     if not field:
         return None
 
@@ -146,9 +144,7 @@ def prune_titles_with_no_principal_cast(
     )
 
 
-def extract_names(
-    file_path: str, titles: dict[str, DatasetTitle]
-) -> dict[str, DatasetName]:
+def extract_names(file_path: str, titles: dict[str, DatasetTitle]) -> dict[str, DatasetName]:
     names: dict[str, DatasetName] = {}
 
     for fields in extractor.extract(file_path):
@@ -159,7 +155,7 @@ def extract_names(
             known_for_titles=[
                 titles[known_for_title_id]["full_title"]
                 for known_for_title_id in (fields[5] or "").split(",")
-                if known_for_title_id in titles.keys()
+                if known_for_title_id in titles
             ],
         )
 

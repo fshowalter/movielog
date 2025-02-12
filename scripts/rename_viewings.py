@@ -1,6 +1,6 @@
 import datetime
 import os
-from typing import Any, Optional, TypedDict
+from typing import Any, TypedDict
 
 import yaml
 
@@ -11,19 +11,15 @@ from movielog.utils.logging import logger
 FOLDER_NAME = "viewings-new"
 
 
-MarkdownViewing = TypedDict(
-    "MarkdownViewing",
-    {
-        "sequence": int,
-        "date": datetime.date,
-        "imdbId": str,
-        "slug": str,
-        "venue": Optional[str],
-        "medium": Optional[str],
-        "venueNotes": Optional[str],
-        "mediumNotes": Optional[str],
-    },
-)
+class MarkdownViewing(TypedDict):
+    sequence: int
+    date: datetime.date
+    imdbId: str
+    slug: str
+    venue: str | None
+    medium: str | None
+    venueNotes: str | None
+    mediumNotes: str | None
 
 
 def _represent_none(self: Any, _: Any) -> Any:
@@ -50,7 +46,7 @@ def _generate_file_path(markdown_viewing: MarkdownViewing) -> str:
         markdown_viewing["date"], markdown_viewing["sequence"], markdown_viewing["slug"]
     )
 
-    file_path = os.path.join(FOLDER_NAME, "{0}.md".format(file_name))
+    file_path = os.path.join(FOLDER_NAME, f"{file_name}.md")
 
     path_tools.ensure_file_path(file_path)
 
