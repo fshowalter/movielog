@@ -24,7 +24,7 @@
   "performers": [
     {
       "imdbId": "nm0156955",
-      "name": "David Da-Wei Chiang",
+      "name": "David Chiang",
       "roles": [
         "Kuan Hsiao Lou"
       ]
@@ -52,7 +52,7 @@
     },
     {
       "imdbId": "nm0473314",
-      "name": "Feng Ku",
+      "name": "Ku Feng",
       "roles": [
         "Feng Kai-shan"
       ]
@@ -108,7 +108,7 @@
     },
     {
       "imdbId": "nm1268847",
-      "name": "Liu Hung",
+      "name": "Hung Liu",
       "roles": [
         "Feng's Advisor"
       ]
@@ -143,21 +143,6 @@
       ]
     },
     {
-      "imdbId": "nm0150839",
-      "name": "Chuan Chen",
-      "roles": [
-        "Hu's Bodyguard"
-      ]
-    },
-    {
-      "imdbId": "nm0155291",
-      "name": "Kuan Tai Chen",
-      "roles": [
-        "Feng's Door Guard",
-        "Hu's Bodyguard"
-      ]
-    },
-    {
       "imdbId": "nm0155572",
       "name": "Kang-Yeh Cheng",
       "roles": [
@@ -165,41 +150,43 @@
       ]
     },
     {
-      "imdbId": "nm1794908",
-      "name": "Yi-Hsiung Chi",
-      "roles": []
+      "imdbId": "nm0150839",
+      "name": "Chen Chuan",
+      "roles": [
+        "Hu's Bodyguard"
+      ]
     },
     {
       "imdbId": "nm0025546",
-      "name": "Hark-On Fung",
+      "name": "Fung Hak-On",
       "roles": [
         "Jin's Thug"
       ]
     },
     {
       "imdbId": "nm4183765",
-      "name": "Hsieh-Su Fung",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0378420",
-      "name": "Li-Jen Ho",
+      "name": "Fung Hap-So",
       "roles": []
     },
     {
       "imdbId": "nm0398824",
-      "name": "Hsia Hsu",
+      "name": "Hsu Hsia",
       "roles": [
         "Jin's Thug"
       ]
     },
     {
-      "imdbId": "nm0399031",
-      "name": "Pei-Chi Huang",
+      "imdbId": "nm0155291",
+      "name": "Chen Kuan-Tai",
       "roles": [
-        "Hu's Bodyguard",
-        "Feng's Thug"
+        "Feng's Door Guard",
+        "Hu's Bodyguard"
       ]
+    },
+    {
+      "imdbId": "nm0378420",
+      "name": "Ho Li-Jen",
+      "roles": []
     },
     {
       "imdbId": "nm1796567",
@@ -212,11 +199,10 @@
       "roles": []
     },
     {
-      "imdbId": "nm1796608",
-      "name": "Wai Lo",
+      "imdbId": "nm2389603",
+      "name": "Wong Mei",
       "roles": [
-        "Hu's Bodyguard",
-        "Feng's Thug"
+        "Hu's Bodyguard"
       ]
     },
     {
@@ -230,6 +216,11 @@
       "roles": [
         "Jin's Thug"
       ]
+    },
+    {
+      "imdbId": "nm1794908",
+      "name": "Chik Ngai-Hung",
+      "roles": []
     },
     {
       "imdbId": "nm0656647",
@@ -250,6 +241,14 @@
       "name": "Chia Wen Pao",
       "roles": [
         "Jin's Thug"
+      ]
+    },
+    {
+      "imdbId": "nm0399031",
+      "name": "Huang Pei-Chi",
+      "roles": [
+        "Hu's Bodyguard",
+        "Feng's Thug"
       ]
     },
     {
@@ -275,6 +274,14 @@
       ]
     },
     {
+      "imdbId": "nm1796608",
+      "name": "Lo Wai",
+      "roles": [
+        "Hu's Bodyguard",
+        "Feng's Thug"
+      ]
+    },
+    {
       "imdbId": "nm1563933",
       "name": "Ching Wang",
       "roles": [
@@ -291,17 +298,18 @@
       ]
     },
     {
-      "imdbId": "nm2389603",
-      "name": "Mei Wong",
-      "roles": [
-        "Hu's Bodyguard"
-      ]
-    },
-    {
       "imdbId": "nm0939327",
       "name": "Shu-Tong Wong",
       "roles": [
         "Feng's Thug"
+      ]
+    },
+    {
+      "imdbId": "nm0950759",
+      "name": "Yuen Woo-Ping",
+      "roles": [
+        "Feng's Door Guard",
+        "Jin's Thug"
       ]
     },
     {
@@ -337,14 +345,6 @@
       "roles": [
         "Jin's Thug"
       ]
-    },
-    {
-      "imdbId": "nm0950759",
-      "name": "Woo-Ping Yuen",
-      "roles": [
-        "Feng's Door Guard",
-        "Jin's Thug"
-      ]
     }
   ],
   "writers": [
@@ -359,5 +359,5 @@
       "notes": "()"
     }
   ],
-  "runtimeMinutes": 121
+  "runtimeMinutes": 102
 }
