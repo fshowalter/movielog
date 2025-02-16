@@ -26,9 +26,16 @@
   "performers": [
     {
       "imdbId": "nm0156955",
-      "name": "David Da-Wei Chiang",
+      "name": "David Chiang",
       "roles": [
         "'The Beau' Yen Ching"
+      ]
+    },
+    {
+      "imdbId": "nm1507745",
+      "name": "Dik-Hak Chan",
+      "roles": [
+        "Guard"
       ]
     },
     {
@@ -46,31 +53,10 @@
       ]
     },
     {
-      "imdbId": "nm0150839",
-      "name": "Chuan Chen",
-      "roles": [
-        "Wan Tien-tso"
-      ]
-    },
-    {
       "imdbId": "nm2384460",
       "name": "Feng-Chen Chen",
       "roles": [
         "General Shih Pao"
-      ]
-    },
-    {
-      "imdbId": "nm0155291",
-      "name": "Kuan Tai Chen",
-      "roles": [
-        "'Tattooed Dragon' Shih Chen"
-      ]
-    },
-    {
-      "imdbId": "nm1507745",
-      "name": "Ti-Ko Chen",
-      "roles": [
-        "Guard"
       ]
     },
     {
@@ -107,6 +93,13 @@
       ]
     },
     {
+      "imdbId": "nm0150839",
+      "name": "Chen Chuan",
+      "roles": [
+        "Wan Tien-tso"
+      ]
+    },
+    {
       "imdbId": "nm0157971",
       "name": "Paul Chun",
       "roles": [
@@ -121,11 +114,16 @@
       ]
     },
     {
-      "imdbId": "nm0266652",
-      "name": "Mei Sheng Fan",
+      "imdbId": "nm0473314",
+      "name": "Ku Feng",
       "roles": [
-        "'Black Whirlwind' Li Kuei"
+        "'Welcome Rain' Sung Chiang"
       ]
+    },
+    {
+      "imdbId": "nm0398987",
+      "name": "Huang Ha",
+      "roles": []
     },
     {
       "imdbId": "nm0387340",
@@ -147,9 +145,11 @@
       "roles": []
     },
     {
-      "imdbId": "nm0398987",
-      "name": "Ha Huang",
-      "roles": []
+      "imdbId": "nm0398944",
+      "name": "Yueh Hua",
+      "roles": [
+        "'Leopard Head' Lin Chung"
+      ]
     },
     {
       "imdbId": "nm2375628",
@@ -157,10 +157,10 @@
       "roles": []
     },
     {
-      "imdbId": "nm0473314",
-      "name": "Feng Ku",
+      "imdbId": "nm0155291",
+      "name": "Chen Kuan-Tai",
       "roles": [
-        "'Welcome Rain' Sung Chiang"
+        "'Tattooed Dragon' Shih Chen"
       ]
     },
     {
@@ -227,10 +227,10 @@
       ]
     },
     {
-      "imdbId": "nm1796608",
-      "name": "Wai Lo",
+      "imdbId": "nm0266652",
+      "name": "Fan Mei-Sheng",
       "roles": [
-        "Beautiful Beard Chu Kung"
+        "'Black Whirlwind' Li Kuei"
       ]
     },
     {
@@ -286,6 +286,13 @@
       "imdbId": "nm2387260",
       "name": "Tsai-Pao Tung",
       "roles": []
+    },
+    {
+      "imdbId": "nm1796608",
+      "name": "Lo Wai",
+      "roles": [
+        "Beautiful Beard Chu Kung"
+      ]
     },
     {
       "imdbId": "nm0910869",
@@ -350,13 +357,6 @@
       "roles": [
         "Lady Sun Erh-niang"
       ]
-    },
-    {
-      "imdbId": "nm0398944",
-      "name": "Hua Yueh",
-      "roles": [
-        "'Leopard Head' Lin Chung"
-      ]
     }
   ],
   "writers": [
@@ -381,5 +381,5 @@
       "notes": "(based on story by)"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 106
 }

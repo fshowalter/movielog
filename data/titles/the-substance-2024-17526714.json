@@ -13,7 +13,8 @@
   ],
   "genres": [
     "Drama",
-    "Horror"
+    "Horror",
+    "Sci-Fi"
   ],
   "directors": [
     {
@@ -23,17 +24,17 @@
   ],
   "performers": [
     {
+      "imdbId": "nm0000193",
+      "name": "Demi Moore",
+      "roles": [
+        "Elisabeth"
+      ]
+    },
+    {
       "imdbId": "nm4960279",
       "name": "Margaret Qualley",
       "roles": [
         "Sue"
-      ]
-    },
-    {
-      "imdbId": "nm0000193",
-      "name": "Demi Moore",
-      "roles": [
-        "Elisabeth Sparkle"
       ]
     },
     {
@@ -44,45 +45,10 @@
       ]
     },
     {
-      "imdbId": "nm7155855",
-      "name": "Hugo Diego Garcia",
+      "imdbId": "nm1499282",
+      "name": "Edward Hamilton-Clark",
       "roles": [
-        "Diego"
-      ]
-    },
-    {
-      "imdbId": "nm10503422",
-      "name": "Alexandra Papoulias Barton",
-      "roles": [
-        "Encourager"
-      ]
-    },
-    {
-      "imdbId": "nm4623597",
-      "name": "Oscar Lesage",
-      "roles": [
-        "Troy"
-      ]
-    },
-    {
-      "imdbId": "nm1692732",
-      "name": "Joseph Balderrama",
-      "roles": [
-        "Craig Silver"
-      ]
-    },
-    {
-      "imdbId": "nm15532538",
-      "name": "Robin Greer",
-      "roles": [
-        "The nurse"
-      ]
-    },
-    {
-      "imdbId": "nm1073029",
-      "name": "Tiffany Hofstetter",
-      "roles": [
-        "The Stylist"
+        "Fred"
       ]
     },
     {
@@ -93,31 +59,88 @@
       ]
     },
     {
-      "imdbId": "nm0173003",
-      "name": "Vincent Colombe",
+      "imdbId": "nm4623597",
+      "name": "Oscar Lesage",
       "roles": [
-        "Suit"
+        "Troy"
+      ]
+    },
+    {
+      "imdbId": "nm0259027",
+      "name": "Christian Erickson",
+      "roles": [
+        "Man at Diner"
+      ]
+    },
+    {
+      "imdbId": "nm15532538",
+      "name": "Robin Greer",
+      "roles": [
+        "Male Nurse"
+      ]
+    },
+    {
+      "imdbId": "nm1791004",
+      "name": "Tom Morton",
+      "roles": [
+        "Doctor"
+      ]
+    },
+    {
+      "imdbId": "nm7155855",
+      "name": "Hugo Diego Garcia",
+      "roles": [
+        "Diego - Boyfriend"
+      ]
+    },
+    {
+      "imdbId": "nm6339897",
+      "name": "Daniel Knight",
+      "roles": [
+        "Casting Director"
+      ]
+    },
+    {
+      "imdbId": "nm6367789",
+      "name": "Jonathon Carley",
+      "roles": [
+        "Assistant Casting Director"
       ]
     },
     {
       "imdbId": "nm13858868",
       "name": "Jiselle Henderkott",
       "roles": [
-        "Girl"
+        "Girl Auditioning",
+        "Dancer - New Year's Eve Show"
       ]
     },
     {
-      "imdbId": "nm6354959",
-      "name": "Oscar Salem",
+      "imdbId": "nm1655484",
+      "name": "Akil Wingate",
       "roles": [
-        "2nd Assistant Director - Pump It Up Show"
+        "TV Host"
       ]
     },
     {
-      "imdbId": "nm0311434",
-      "name": "Matthew Géczy",
+      "imdbId": "nm8727559",
+      "name": "Billy Bentley",
       "roles": [
-        "Bob Haswell"
+        "Man in Suit #1 - Harvey's Office"
+      ]
+    },
+    {
+      "imdbId": "nm0173003",
+      "name": "Vincent Colombe",
+      "roles": [
+        "Man in Suit #2"
+      ]
+    },
+    {
+      "imdbId": "nm3261239",
+      "name": "Lennard Ridsdale",
+      "roles": [
+        "Man in Suit #3"
       ]
     },
     {
@@ -128,55 +151,10 @@
       ]
     },
     {
-      "imdbId": "nm0259027",
-      "name": "Christian Erickson",
-      "roles": []
-    },
-    {
-      "imdbId": "nm1791004",
-      "name": "Tom Morton",
+      "imdbId": "nm6354959",
+      "name": "Oscar Salem",
       "roles": [
-        "The Doctor"
-      ]
-    },
-    {
-      "imdbId": "nm12520550",
-      "name": "Gregory Defleur",
-      "roles": [
-        "Happy Birthday Person"
-      ]
-    },
-    {
-      "imdbId": "nm1273868",
-      "name": "Philip Schurer",
-      "roles": [
-        "Mr. Scream"
-      ]
-    },
-    {
-      "imdbId": "nm1176415",
-      "name": "Olivier Raynal",
-      "roles": [
-        "Alan"
-      ]
-    },
-    {
-      "imdbId": "nm13255552",
-      "name": "Louise Greggory",
-      "roles": [
-        "Restaurant Waitress"
-      ]
-    },
-    {
-      "imdbId": "nm2920051",
-      "name": "Nathan Rippy",
-      "roles": []
-    },
-    {
-      "imdbId": "nm1655484",
-      "name": "Akil Wingate",
-      "roles": [
-        "Talk Show Host"
+        "2nd Assistant Director - Pump It Up Show"
       ]
     },
     {
@@ -187,71 +165,634 @@
       ]
     },
     {
-      "imdbId": "nm6339897",
-      "name": "Daniel Knight",
-      "roles": [
-        "The Casting Director"
-      ]
-    },
-    {
-      "imdbId": "nm8727559",
-      "name": "Billy Bentley",
-      "roles": [
-        "Suit"
-      ]
-    },
-    {
-      "imdbId": "nm14101606",
-      "name": "Lucie Laffin",
-      "roles": [
-        "Une Femme"
-      ]
-    },
-    {
       "imdbId": "nm5938562",
       "name": "Matthew Luret",
-      "roles": []
+      "roles": [
+        "Floor Runner"
+      ]
+    },
+    {
+      "imdbId": "nm2002983",
+      "name": "Jana Bittnerová",
+      "roles": [
+        "Maria"
+      ]
+    },
+    {
+      "imdbId": "nm1176415",
+      "name": "Olivier Raynal",
+      "roles": [
+        "Alan - 2nd Agent"
+      ]
+    },
+    {
+      "imdbId": "nm1073029",
+      "name": "Tiffany Hofstetter",
+      "roles": [
+        "Stylist"
+      ]
+    },
+    {
+      "imdbId": "nm0747379",
+      "name": "Nicolas Royer",
+      "roles": [
+        "Guy in the Elevator"
+      ]
+    },
+    {
+      "imdbId": "nm2920051",
+      "name": "Nathan Rippy",
+      "roles": [
+        "Assistant Director - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm15386570",
+      "name": "Manon Arizmendi",
+      "roles": [
+        "Little Girl - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm5878424",
+      "name": "Virginie Kotlinski",
+      "roles": [
+        "Mother - New Year's Eve Show"
+      ]
     },
     {
       "imdbId": "nm0318824",
       "name": "Brett Gillen",
       "roles": [
-        "The Lighting Designer"
+        "Director of Photography - New Year's Eve Show"
       ]
     },
     {
-      "imdbId": "nm13698378",
-      "name": "Namory Bakayoko",
+      "imdbId": "nm4713686",
+      "name": "Charlotte Marquardt",
       "roles": [
-        "Silhouette"
+        "Screaming Woman"
       ]
     },
     {
-      "imdbId": "nm10377676",
-      "name": "Pauline Sagetat",
+      "imdbId": "nm11125380",
+      "name": "Léa Hengl",
       "roles": [
-        "Danseuse Music-Hall"
+        "Screaming Woman"
       ]
     },
     {
-      "imdbId": "nm9775915",
-      "name": "Axel Baille",
+      "imdbId": "nm9394970",
+      "name": "Ganne Raymond",
       "roles": [
-        "The Photographer"
+        "Screaming Woman"
+      ]
+    },
+    {
+      "imdbId": "nm13977887",
+      "name": "Claire Lemaire",
+      "roles": [
+        "Screaming Woman"
+      ]
+    },
+    {
+      "imdbId": "nm12059135",
+      "name": "Lila Boughoufala",
+      "roles": [
+        "Screaming Woman"
       ]
     },
     {
       "imdbId": "nm13009138",
       "name": "Aurélien Lorgnier",
       "roles": [
-        "Spectator"
+        "Screaming Man"
       ]
     },
     {
-      "imdbId": "nm6367789",
-      "name": "Jonathon Carley",
+      "imdbId": "nm4562764",
+      "name": "Ivan Sellier",
       "roles": [
-        "Assisting Casting Director"
+        "Screaming Man"
+      ]
+    },
+    {
+      "imdbId": "nm1273868",
+      "name": "Philip Schurer",
+      "roles": [
+        "Screaming Man"
+      ]
+    },
+    {
+      "imdbId": "nm16578406",
+      "name": "Christian Bourmier",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm16578407",
+      "name": "Martin Graham",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm0096102",
+      "name": "Christian Bordeleau",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm0357552",
+      "name": "Patrick Hamel",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm10781786",
+      "name": "Didier Dhondt",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm2238146",
+      "name": "Jacques-Yves Dorges",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm5041080",
+      "name": "Jean-Claude Matthey",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm16578404",
+      "name": "Olivier Jarcin",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm10014808",
+      "name": "Jean-Luc Magneron",
+      "roles": [
+        "Shareholder"
+      ]
+    },
+    {
+      "imdbId": "nm9247484",
+      "name": "Charlotte Murray",
+      "roles": [
+        "Allison - Diner Waitress"
+      ]
+    },
+    {
+      "imdbId": "nm5251969",
+      "name": "Aaron Kahn",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm0036689",
+      "name": "Gabriela Arnon",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm16578652",
+      "name": "Nancy Josephson Lahoussine",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm12889641",
+      "name": "Andrew Eldridge",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm7037198",
+      "name": "Denise Powers",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm1471481",
+      "name": "Bryan Jones",
+      "roles": [
+        "Greeting Person"
+      ]
+    },
+    {
+      "imdbId": "nm13187072",
+      "name": "Adam Carage",
+      "roles": [
+        "Happy Birthday Person"
+      ]
+    },
+    {
+      "imdbId": "nm8140310",
+      "name": "Maria McClurg",
+      "roles": [
+        "Happy Birthday Person"
+      ]
+    },
+    {
+      "imdbId": "nm3536350",
+      "name": "Andrew Desmond",
+      "roles": [
+        "Happy Birthday Person"
+      ]
+    },
+    {
+      "imdbId": "nm16578645",
+      "name": "Rebecca Lafont",
+      "roles": [
+        "Happy Birthday Person"
+      ]
+    },
+    {
+      "imdbId": "nm6853404",
+      "name": "Laura Puech",
+      "roles": [
+        "Isabella"
+      ]
+    },
+    {
+      "imdbId": "nm8633103",
+      "name": "Ryan Chidester",
+      "roles": [
+        "Stagehand"
+      ]
+    },
+    {
+      "imdbId": "nm16578648",
+      "name": "Cécile Vogt",
+      "roles": [
+        "Elisabeth",
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm1517633",
+      "name": "Yannick Guérin",
+      "roles": [
+        "Clumsy Burger Guy - Wal of Fame"
+      ]
+    },
+    {
+      "imdbId": "nm1233491",
+      "name": "Jean Miel",
+      "roles": [
+        "Worker - Walk of Fame"
+      ]
+    },
+    {
+      "imdbId": "nm13201047",
+      "name": "Paul Descoings",
+      "roles": [
+        "Worker - Walk of Fame"
+      ]
+    },
+    {
+      "imdbId": "nm13026281",
+      "name": "Benoit Lévêque",
+      "roles": [
+        "Worker - Walk of Fame"
+      ]
+    },
+    {
+      "imdbId": "nm16578651",
+      "name": "Arthur Molinet",
+      "roles": [
+        "Cocktail Bartender"
+      ]
+    },
+    {
+      "imdbId": "nm10681695",
+      "name": "Manon Sachot",
+      "roles": [
+        "Cocktail Lounge Couple"
+      ]
+    },
+    {
+      "imdbId": "nm16578649",
+      "name": "Bastien Jorelle",
+      "roles": [
+        "Cocktail Lounge Couple"
+      ]
+    },
+    {
+      "imdbId": "nm16578650",
+      "name": "Kelly Hoarau",
+      "roles": [
+        "Female Assistant - Towel"
+      ]
+    },
+    {
+      "imdbId": "nm16578646",
+      "name": "Michel Juskiewicz",
+      "roles": [
+        "George - Harvey's Friend"
+      ]
+    },
+    {
+      "imdbId": "nm13255552",
+      "name": "Louise Greggory",
+      "roles": [
+        "Restaurant Waitress"
+      ]
+    },
+    {
+      "imdbId": "nm6542855",
+      "name": "Christophe Sartirano",
+      "roles": [
+        "Guy Looking at Sue"
+      ]
+    },
+    {
+      "imdbId": "nm9078088",
+      "name": "Florent Torres",
+      "roles": [
+        "Guy Looking at Sue"
+      ]
+    },
+    {
+      "imdbId": "nm10503422",
+      "name": "Alexandra Papoulias Barton",
+      "roles": [
+        "Encouragement Woman"
+      ]
+    },
+    {
+      "imdbId": "nm12453222",
+      "name": "Romain Caldeira",
+      "roles": [
+        "Billboard Technician"
+      ]
+    },
+    {
+      "imdbId": "nm4232514",
+      "name": "Thomas Barthelemy",
+      "roles": [
+        "Billboard Technician"
+      ]
+    },
+    {
+      "imdbId": "nm9775915",
+      "name": "Axel Baille",
+      "roles": [
+        "Photographer"
+      ]
+    },
+    {
+      "imdbId": "nm4980658",
+      "name": "Audjyan Alcyde",
+      "roles": [
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm7229578",
+      "name": "Jonathan Jenvrin",
+      "roles": [
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm16578874",
+      "name": "Mimi Maury",
+      "roles": [
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm13426347",
+      "name": "Amelye Solange",
+      "roles": [
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm16455021",
+      "name": "Kévin Table",
+      "roles": [
+        "Pump It Up Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm0091319",
+      "name": "Laura Boera",
+      "roles": [
+        "Sparkle Your Life Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm4580414",
+      "name": "Cissy Duc",
+      "roles": [
+        "Sparkle Your Life Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm3127639",
+      "name": "Sophie Mercier",
+      "roles": [
+        "Sparkle Your Life Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm6213500",
+      "name": "Marie Valton",
+      "roles": [
+        "Sparkle Your Life Show Dancer"
+      ]
+    },
+    {
+      "imdbId": "nm16578871",
+      "name": "Katrina Budzynski",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16578873",
+      "name": "Alicia Maury",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16578875",
+      "name": "Megane Adamik",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16578872",
+      "name": "Annalisa Pagnotta",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16578870",
+      "name": "Maelle Dantigny",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm3854703",
+      "name": "Aleksandra Fontaine Kedzierska",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm10377676",
+      "name": "Pauline Sagetat",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579630",
+      "name": "Agustina Fitzsimons",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579635",
+      "name": "Elena Shcheglova",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579625",
+      "name": "Eve Marchant",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm1940918",
+      "name": "Lola Donati",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579631",
+      "name": "Kate Matthews",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579628",
+      "name": "Ophélie Jonard",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579632",
+      "name": "Pauline Richard",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm9720846",
+      "name": "Laureen Cappelliez",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm4428577",
+      "name": "Daria Panchenko",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm9534492",
+      "name": "Delphine Beaulieu",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579634",
+      "name": "Victoria Brun",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16489209",
+      "name": "Cara Chapman",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579629",
+      "name": "Katharine Matthews",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579624",
+      "name": "Alexandra Faget",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579626",
+      "name": "Clémence Juville",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579627",
+      "name": "Margot L'Entete",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm16579633",
+      "name": "Hillary Sukhonos",
+      "roles": [
+        "Dancer - New Year's Eve Show"
+      ]
+    },
+    {
+      "imdbId": "nm10968687",
+      "name": "Magalie Combes",
+      "roles": [
+        "Dancer"
       ]
     }
   ],
@@ -259,7 +800,7 @@
     {
       "imdbId": "nm0267287",
       "name": "Coralie Fargeat",
-      "notes": "(screenplay by)"
+      "notes": "(written by)"
     }
   ]
 }

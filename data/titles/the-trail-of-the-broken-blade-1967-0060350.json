@@ -10,9 +10,10 @@
     "Hong Kong"
   ],
   "genres": [
-    "Musical",
+    "Action",
     "Drama",
-    "Action"
+    "Musical",
+    "Romance"
   ],
   "directors": [
     {
@@ -86,7 +87,7 @@
     },
     {
       "imdbId": "nm0266652",
-      "name": "Mei Sheng Fan",
+      "name": "Fan Mei-Sheng",
       "roles": [
         "Hu-tzu"
       ]
@@ -98,7 +99,7 @@
     },
     {
       "imdbId": "nm0849280",
-      "name": "Ti Tang",
+      "name": "Tang Ti",
       "roles": []
     },
     {
@@ -122,8 +123,18 @@
       "roles": []
     },
     {
+      "imdbId": "nm0849271",
+      "name": "Tang Chia",
+      "roles": []
+    },
+    {
+      "imdbId": "nm0514905",
+      "name": "Liu Chia-Yung",
+      "roles": []
+    },
+    {
       "imdbId": "nm0150839",
-      "name": "Chuan Chen",
+      "name": "Chen Chuan",
       "roles": []
     },
     {
@@ -132,23 +143,13 @@
       "roles": []
     },
     {
-      "imdbId": "nm0378420",
-      "name": "Li-Jen Ho",
+      "imdbId": "nm0398987",
+      "name": "Huang Ha",
       "roles": []
     },
     {
       "imdbId": "nm0398824",
-      "name": "Hsia Hsu",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0398987",
-      "name": "Ha Huang",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0399031",
-      "name": "Pei-Chi Huang",
+      "name": "Hsu Hsia",
       "roles": []
     },
     {
@@ -157,23 +158,18 @@
       "roles": []
     },
     {
+      "imdbId": "nm0378420",
+      "name": "Ho Li-Jen",
+      "roles": []
+    },
+    {
       "imdbId": "nm0514906",
       "name": "Chia-Liang Liu",
       "roles": []
     },
     {
-      "imdbId": "nm0514905",
-      "name": "Chia-Yung Liu",
-      "roles": []
-    },
-    {
-      "imdbId": "nm1796608",
-      "name": "Wai Lo",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0849271",
-      "name": "Chia Tang",
+      "imdbId": "nm0399031",
+      "name": "Huang Pei-Chi",
       "roles": []
     },
     {
@@ -187,11 +183,21 @@
       "roles": []
     },
     {
+      "imdbId": "nm1796608",
+      "name": "Lo Wai",
+      "roles": []
+    },
+    {
       "imdbId": "nm1560037",
       "name": "Kuang Yu Wang",
       "roles": [
         "Tu Hu"
       ]
+    },
+    {
+      "imdbId": "nm0950759",
+      "name": "Yuen Woo-Ping",
+      "roles": []
     },
     {
       "imdbId": "nm2403022",
@@ -206,11 +212,6 @@
     {
       "imdbId": "nm0950751",
       "name": "Shun-Yee Yuen",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0950759",
-      "name": "Woo-Ping Yuen",
       "roles": []
     }
   ],
