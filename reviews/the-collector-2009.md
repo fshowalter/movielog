@@ -1,6 +1,5 @@
 ---
 imdb_id: tt0844479
-title: The Collector (2009)
 slug: the-collector-2009
 grade: B-
 date: 2025-02-06
