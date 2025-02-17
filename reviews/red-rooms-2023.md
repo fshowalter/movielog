@@ -1,6 +1,5 @@
 ---
 imdb_id: tt22207786
-title: Red Rooms (2023)
 slug: red-rooms-2023
 grade: C-
 date: 2025-02-06
