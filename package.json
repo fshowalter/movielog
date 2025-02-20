@@ -2,7 +2,7 @@
   "type": "module",
   "devDependencies": {
     "prettier": "3.5.1",
-    "prettier-plugin-toml": "2.0.1"
+    "prettier-plugin-toml": "2.0.2"
   },
   "scripts": {
     "format": "prettier . --check",
