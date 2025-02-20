@@ -22,4 +22,6 @@ The action thrills. Director Yuen Chor frames the fights in crowded wide shots t
 
 But the sequences connecting these moments of bonkers insanity range from tedious to frustrating. No one acts according to any character-based motivation, just the whims of the plot. The exposition-laden dialogue exists to allow off-screen characters to overhear out-of-context snippets and jump to conclusions. This leads to the idiot plot mechanics where characters could easily defuse misunderstandings with a few words, but can't because the plot won't permit it. Consider the big finale where one character, after being accused of murder, simply says "I didn’t do it," rather than explain how she came to be at the scene and how her innocence could be proven.
 
+Compounding matters, the English dubbing for several characters is atrocious, marked by hard P's and a slight echo that suggests some parts were recorded in a different studio.
+
 These shortcomings overshadow what's otherwise a fun spectacle of a film, making for a wildly uneven viewing experience. Shaw Brothers fans will want to give it a watch, but others should opt for one of the studio's more balanced efforts.
