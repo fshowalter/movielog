@@ -16,7 +16,7 @@ These types of stories always fail to suspend my disbelief. Not the resurrection
 
 The next segment adapts Bloch's 1950 story, "The Weird Tailor," previously adapted for the Boris Karloff hosted television series, _Thriller_. We meet Bruno, a former tailor. Broke and facing eviction, Bruno finds salvation in a mysterious gentleman named Smith. Played by Peter Cushing, Smith offers an extraordinary sum for Bruno to make a suit for Smith’s son. Smith insists Bruno must work according to Smith’s precise specifications. These include such oddities as only working on the suit during the late night and early morning hours. Bruno agrees to Smith’s demands and, a few nights later, arrives on Smith’s doorstep with the suit. To Bruno’s horror, Smith reveals he has no money to pay. This will prove to be Smith’s smallest surprise.
 
-In what will become a running theme, the special effects are the story’s undoing. Cushing brings his usual gravitas, and the story’s mystery held my attention, but the finale relies on another effect I couldn’t swallow.
+In what will become a running theme, the special effects are the story’s undoing. Cushing, who had lost his beloved wife the year prior, brings a convincing gravitas and the story’s mystery held my attention, but the finale relies on another effect I couldn’t swallow.
 
 The third entry adapts Bloch's 1952 story, "Lucy Comes to Stay." It concerns a young woman named Barbara, played by Charlotte Rampling. Barbara is fresh from psychiatric care and under the careful watch of her brother and a nurse. Soon, Barbara’s mischievous friend Lucy shows up. Lucy urges Barbara not to take her medication. Not good for Barbara’s brother and nurse.
 
