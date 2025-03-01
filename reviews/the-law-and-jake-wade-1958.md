@@ -1,16 +1,41 @@
 ---
-date: 2008-12-08
+date: 2025-02-28
 imdb_id: tt0051848
-grade: C
+grade: C+
 slug: the-law-and-jake-wade-1958
 ---
 
-An outlaw (Richard Widmark) forces his former partner (Robert Taylor) to lead him and his gang to a stash of buried money.
+_The Law and Jake Wade_ is a western from director John Sturges. Made between _Gunfight at the O.K. Corral_ and _Last Train from Gun Hill_, this middling effort fails to rival the films that book-end it.
 
-_The Law and Jake Wade_ is a mostly solid western that's something of an amalgam of two of director John Sturges' earlier films, <span data-imdb-id="tt0047849">_Bad Day at Black Rock_</span> and <span data-imdb-id="tt0045737">_Escape from Fort Bravo_</span>. Unfortunately, it's not as good as either.
+The story opens with Robert Taylor riding into town and busting Richard Widmark out of jail, where he'd been awaiting a hangman's noose. We learn the pair were outlaw partners years prior, and that Widmark once saved Taylor from a similar fate. 
 
-Things start well enough. Richard Widmark steals the film as a deliciously cold-hearted bad guy, and Robert Taylor works a poor man's Randolph Scott. Patricia Owens is also fine in a shallow part as Taylor's fiancée. Soon, we meet Widmark's gang, bringing Henry Silva, Robert Middleton and DeForest Kelley into the mix as the film hits its stride as a dark drama about loyalty, honesty, and redemption.
+Long estranged after a botched bank robbery, Taylor considers his debt repaid and returns home, where we learn he's now a U.S. Marshal with a fiancée played by Patricia Owens.
 
-Unfortunately, this vibe is short-lived, as the film veers into B-western territory with an uninspired Indian attack. Not only is the sequence unnecessary, it's not even well done. The Indians seem more like zombies that only come out at night and overwhelm their foes, not through cunning or tactics, but rather through sheer numbers. It all culminates in Widmark once again being uncannily one-step ahead of Taylor, a plot device stretched to incredulity at this point.
+Widmark and his gang show up and kidnap Owens, forcing Taylor to lead them to a stash of buried cash.
 
-Granted, there are some good lines, and the cinematography by Robert Surtees is a treat, as is Widmark's performance, but ultimately, _The Law and Jake Wade_ can't shake its B-grade aspirations to realize its own potential.
+The film hinges on the Widmark-Taylor dynamic and, for his part, Widmark shines. He sports a perpetual half-smirk playing a deliciously cold-hearted villain who seems to relish being an evil son of a bitch. As Widmark would later say, "bad picture, good part."[^1]
+
+Opposite him, Taylor disappoints. While he turns in a surprisingly physical performance highlighted by a shot where he dismounts a horse with his hands tied behind his back, his acting feels too stiff—particularly his scenes with Owens. He’s not so much bad as miscast. He’d make a great hard-boiled detective, but you sense this role needed a younger Randolph Scott.[^2] 
+
+Fortunately, the supporting cast compensates. Widmark’s gang includes Henry Silva, DeForest Kelley, and Robert Middleton. Silva steals his scenes as a psychotic gunslinger with a chilling charm. In a performance that should amuse Star Trek fans, Kelley proves equally unhinged. Finally, Middleton brings a gravitas that bridges Taylor’s stiffness and Widmark’s outrageousness.
+
+The script by William Bowers features some crackling dialogue. In my favorite bit, Taylor asks Widmark, “If things had worked out differently, were you gonna give me a gun, or shoot me in the back?”
+
+After a beat, Widmark replies, “I was gonna give you a gun.”
+
+Taylor nods, takes a pistol, and throws it down the street. “There’s your gun,” he says.
+
+“I was gonna hand you yours,” Widmark says.
+
+“Well, you like me better than I like you,” says Taylor.
+
+But Bowers struggles with structure. After Widmark’s gang kidnaps Owens to force Taylor to lead them to the buried loot, the film settles into a tense, dark meditation on justice, loyalty, and redemption. Everything builds to a nighttime Comanche attack that should be the film’s climax but only ends the second act. Rather than bring the narrative to a head, it abandons the film's themes and only serves to prune the supporting cast, rendering both it and the finale that follows contrived and underwhelming.
+
+Sturges compensates for the script's flaws and Taylor's limits as best he can. He leverages the High Sierra locations and frames the mountains looming large in most shots, providing majestic vistas that dwarf the characters and lend an illusion of epic depth. For the Comanche raid, he tries to distract from the thematic and tonal shift by having the arrows and spears fly straight toward the cameras.
+
+For the final showdown between Taylor and Widmark, Sturges leans into Taylor's physicality, having the pair creep around an abandoned ghost town, guns drawn, in what’s essentially a high-stakes game of hide and seek. In a memorable shot, Sturges has a character enter a building through a window, creep through the darkened interior, and open the front door, revealing the ever-present Sierras and the bright sunlight.
+
+But the combination of uneven structure and Taylor’s stiff performance keeps _The Law and Jake Wade_ from greatness. It’s a solid picture buoyed by the location photography and dialogue. Folks would be better served with the uniformly strong performances of _Gunfight at the O.K. Corral_ or the probing psychological depth of _Last Train from Gun Hill_ before seeking out this lesser effort.
+
+[^1]: Glenn Lovell, _Escape Artist: The Life and Films of John Sturges_ (Madison: University of Wisconsin Press, 2008), Kindle Edition, loc. 1897.
+[^2]: Indeed, western fans may find themselves reminded of Sam Peckinpah's thematically similar, but all-around superior _Ride the High Country_, which starred Scott.
