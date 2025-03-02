@@ -5,7 +5,7 @@ grade: C+
 slug: the-law-and-jake-wade-1958
 ---
 
-_The Law and Jake Wade_ is a western from director John Sturges. Made between _Gunfight at the O.K. Corral_ and _Last Train from Gun Hill_, this middling effort fails to rival the films that book-end it.
+_The Law and Jake Wade_ is a western from director John Sturges. Made between <span data-imdb-id="tt0050468">_Gunfight at the O.K. Corral_</span> and <span data-imdb-id="tt0052993">_Last Train from Gun Hill_</span>, this middling effort fails to rival the films that book-end it.
 
 The story opens with Robert Taylor riding into town and busting Richard Widmark out of jail, where he'd been awaiting a hangman's noose. We learn the pair were outlaw partners years prior, and that Widmark once saved Taylor from a similar fate. 
 
@@ -17,7 +17,7 @@ The film hinges on the Widmark-Taylor dynamic and, for his part, Widmark shines.
 
 Opposite him, Taylor disappoints. While he turns in a surprisingly physical performance highlighted by a shot where he dismounts a horse with his hands tied behind his back, his acting feels too stiff—particularly his scenes with Owens. He’s not so much bad as miscast. He’d make a great hard-boiled detective, but you sense this role needed a younger Randolph Scott.[^2] 
 
-Fortunately, the supporting cast compensates. Widmark’s gang includes Henry Silva, DeForest Kelley, and Robert Middleton. Silva steals his scenes as a psychotic gunslinger with a chilling charm. In a performance that should amuse Star Trek fans, Kelley proves equally unhinged. Finally, Middleton brings a gravitas that bridges Taylor’s stiffness and Widmark’s outrageousness.
+Fortunately, the supporting cast compensates. Widmark’s gang includes Henry Silva, DeForest Kelley, and Robert Middleton. Silva steals his scenes as a psychotic gunslinger with a chilling charm. In a performance that should amuse _Star Trek_ fans, Kelley proves equally unhinged. Finally, Middleton brings a gravitas that bridges Taylor’s stiffness and Widmark’s outrageousness.
 
 The script by William Bowers features some crackling dialogue. In my favorite bit, Taylor asks Widmark, “If things had worked out differently, were you gonna give me a gun, or shoot me in the back?”
 
@@ -35,7 +35,7 @@ Sturges compensates for the script's flaws and Taylor's limits as best he can. H
 
 For the final showdown between Taylor and Widmark, Sturges leans into Taylor's physicality, having the pair creep around an abandoned ghost town, guns drawn, in what’s essentially a high-stakes game of hide and seek. In a memorable shot, Sturges has a character enter a building through a window, creep through the darkened interior, and open the front door, revealing the ever-present Sierras and the bright sunlight.
 
-But the combination of uneven structure and Taylor’s stiff performance keeps _The Law and Jake Wade_ from greatness. It’s a solid picture buoyed by the location photography and dialogue. Folks would be better served with the uniformly strong performances of _Gunfight at the O.K. Corral_ or the probing psychological depth of _Last Train from Gun Hill_ before seeking out this lesser effort.
+But the combination of uneven structure and Taylor’s stiff performance keeps _The Law and Jake Wade_ from greatness. It’s a solid picture buoyed by the location photography and dialogue, but folks would be better served with the uniformly strong performances of _Gunfight at the O.K. Corral_ or the probing psychological depth of _Last Train from Gun Hill_ before seeking out this lesser effort.
 
 [^1]: Glenn Lovell, _Escape Artist: The Life and Films of John Sturges_ (Madison: University of Wisconsin Press, 2008), Kindle Edition, loc. 1897.
 [^2]: Indeed, western fans may find themselves reminded of Sam Peckinpah's thematically similar, but all-around superior _Ride the High Country_, which starred Scott.
