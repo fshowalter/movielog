@@ -3,6 +3,7 @@ date: 2025-02-28
 imdb_id: tt0051848
 grade: C+
 slug: the-law-and-jake-wade-1958
+synopsis: U.S. Marshal Robert Taylor's outlaw past catches up with him when former partner Richard Widmark forces him to lead the way to a stash of buried cash.
 ---
 
 _The Law and Jake Wade_ is a western from director John Sturges. Made between <span data-imdb-id="tt0050468">_Gunfight at the O.K. Corral_</span> and <span data-imdb-id="tt0052993">_Last Train from Gun Hill_</span>, this middling effort fails to rival the films that book-end it.
