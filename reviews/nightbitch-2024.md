@@ -6,7 +6,7 @@ date: 2025-01-18
 synopsis: Unnamed former artist Amy Adams grapples with maternal isolation after becoming a full-time mom, leading to her nocturnal transformation into a dog.
 ---
 
-I haven't read Rachel Yoder's 2021 source novel, but I suspect--given most of the film is just Amy Adams and her toddler son--the book contains a lot of internal monologue. Such prose is always a challenge for the screen, though films like <span data-imdb-id="tt0144084">_American Psycho_</span> and <span data-imdb-id="tt0137523">_Fight Club_</span> show it can be done successfully. Nightbitch is not one of those films.
+I haven't read Rachel Yoder's 2021 source novel, but I suspect--given most of the film is just Amy Adams and her toddler son--the book contains a lot of internal monologue. Such prose is always a challenge for the screen, though films like <span data-imdb-id="tt0144084">_American Psycho_</span> and <span data-imdb-id="tt0137523">_Fight Club_</span> show it can be done successfully. _Nightbitch_ is not one of those films.
 
 The plot sees Adams play an unnamed former artist turned full-time mom to her toddler son. Her husband[^1] travels often for work, rendering Adams effectively a single mom. An early scene in a grocery store sets the film's tone, with Adams bumping into a former coworker who says something to the effect of, "You must love being home with your son."
 
