@@ -229,7 +229,7 @@ dev = [
     { name = "ruff", specifier = "==0.9.9" },
     { name = "syrupy", specifier = "==4.8.2" },
     { name = "types-beautifulsoup4", specifier = "==4.12.0.20250204" },
-    { name = "types-mock", specifier = "==5.1.0.20240425" },
+    { name = "types-mock", specifier = "==5.2.0.20250306" },
     { name = "types-python-slugify", specifier = "==8.0.2.20240310" },
     { name = "types-pyyaml", specifier = "==6.0.12.20241230" },
     { name = "types-requests", specifier = "==2.32.0.20250306" },
@@ -489,11 +489,11 @@ wheels = [
 
 [[package]]
 name = "types-mock"
-version = "5.1.0.20240425"
+version = "5.2.0.20250306"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/36/40/1ed5b983c97161ad1605de42932143bcb24f5e435cc660de4487f78f6a4c/types-mock-5.1.0.20240425.tar.gz", hash = "sha256:5281a645d72e827d70043e3cc144fe33b1c003db084f789dc203aa90e812a5a4", size = 6441 }
+sdist = { url = "https://files.pythonhosted.org/packages/c1/c8/ca74c1c9c55123eb69e0ec200295f6aedf704572a0be5ff03fe847628f5c/types_mock-5.2.0.20250306.tar.gz", hash = "sha256:15882cb5cf9980587a7607e31890801223801d7997f559686805ce09b6536087", size = 11357 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/6d/7710612643616654ca0094234bce0f0448f4aa9d6f3057e4681143f73e73/types_mock-5.1.0.20240425-py3-none-any.whl", hash = "sha256:d586a01d39ad919d3ddcd73de6cde73ca7f3c69707219f722d1b8d7733641ad7", size = 5714 },
+    { url = "https://files.pythonhosted.org/packages/21/58/b1f71732279ed35c3e07309d9e0c9eec7716ccebe7b4d047a04a2aea9a38/types_mock-5.2.0.20250306-py3-none-any.whl", hash = "sha256:eb69fec98b8de26be1d7121623d05a2f117d1ea2e01dd30c123d07d204a15c95", size = 10570 },
 ]
 
 [[package]]
