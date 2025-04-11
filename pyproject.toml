@@ -144,7 +144,7 @@ norecursedirs = [
 ]
 junit_family = "xunit1"
 
-addopts = "--strict-markers --cov=. --cov-branch --cov-report html" # -s --show-capture stdout"
+addopts = "--strict-markers --cov=. --cov-branch --cov-report html"
 
 [tool.coverage.run]
 omit = ["**/__init__.py", ".venv/**"]
