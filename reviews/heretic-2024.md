@@ -4,6 +4,7 @@ title: Heretic (2024)
 slug: heretic-2024
 grade: D+
 date: 2025-03-14
+synopsis: Aging recluse Hugh Grant tests the faith of two young Mormon missionaries, with dire consequences.
 ---
 
 There's a moment early in _Heretic_ where Hugh Grant's character, an aging recluse living in what appears to be a museum of shadows, leans forward in his armchair and begins to speak about faith. The camera catches him just so--half his face illuminated, the other half swallowed by darkness--and for a brief, electric moment, we glimpse what this film could have been. Grant, deploying the same romantic comedy mannerisms that made him a star (the stammer, the sheepish grin, the over-the-glasses glance), transforms them into something sinister. It's a masterclass in how to subvert an actor's established persona, reminiscent of Henry Fonda's against-type turn in <span data-imdb-id="tt0064116">_Once Upon a Time in the West_</span>.
