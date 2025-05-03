@@ -1,9 +1,9 @@
 ---
 imdb_id: tt0060358
-title: Dutchman (1966)
 slug: dutchman-1966
 grade: D+
 date: 2025-05-02
+synopsis: In a sweltering Bronx subway car, a seductive white woman systematically unravels a young black man through flirtation and racial provocation.
 ---
 
 _Dutchman_ is a film that writhes with tension but never quite breaks free of its stage origins. Adapted from Amiri Baraka's provocative play, this 55-minute psychological thriller unfolds entirely within the confines of a sweltering New York subway car, where a chance encounter between a young black man and a seductive white woman becomes an unsettling dance of desire, power, and racial politics.
