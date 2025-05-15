@@ -3,7 +3,7 @@ imdb_id: tt0089153
 slug: flesh-blood-1985
 grade: C+
 date: 2025-05-10
-synopsis: After being betrayed by their noble employer, medieval mercenary Rutger Hauer kidnaps a virginal princess (Jennifer Jason Leigh), whose growing attraction to her captor complicates a violent power struggle in plague-ravaged Italy.
+synopsis: After being betrayed by his noble employer, medieval mercenary Rutger Hauer kidnaps a virginal princess (Jennifer Jason Leigh), whose growing attraction to her captor complicates a violent power struggle in plague-ravaged Italy.
 ---
 
 There's a moment early in Paul Verhoeven's _Flesh+Blood_ when a mercenary captain, having just helped storm a castle, accidentally skewers a nun. The scene crystallizes everything Verhoeven wants to say about medieval Europe--it's brutal, it's absurd, and God's representatives are just as likely to catch a sword in the gut as anyone else. If only the rest of the film maintained this savage clarity of purpose.
