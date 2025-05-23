@@ -6,9 +6,9 @@ date: 2025-05-20
 synopsis: Hitman Dennis Hopper goes rogue when he kidnaps target Jodie Foster instead of killing her, putting them both in the mob's crosshairs'.
 ---
 
-Here is a film that occupies that peculiar place in cinema history where the collision between artistic ambition and studio interference creates something that is simultaneously unwatchable and oddly compelling. _Catchfire_ bears the telltale scars of a project that began with vision and ended in chaos, its director disowning the final product, resulting in the infamous "Alan Smithee" credit.
+Here is a film that occupies that peculiar place in cinema history where the collision between artistic ambition and studio interference creates something that is simultaneously unwatchable and oddly compelling. Dennis Hopper's _Catchfire_ bears the telltale scars of a project that began with vision and ended with Hopper disowning the final product, resulting in the infamous "Alan Smithee" credit.
 
-The story itself reads like a fever dream: Dennis Hopper plays Milo, a hitman tasked by the mob to eliminate Anne (Jodie Foster), a witness to an execution. But rather than complete his assignment, Milo becomes obsessed with his target, kidnapping her instead. What follows is part Stockholm syndrome thriller, part romantic fantasy, part incoherent fever dream.
+The story itself reads like a fever dream: Hopper plays Milo, a hitman tasked by the mob to eliminate Anne (Jodie Foster), a witness to an execution. But rather than complete his assignment, Milo becomes obsessed with his target, kidnapping her instead. What follows is part Stockholm syndrome thriller, part romantic fantasy, part incoherent fever dream.
 
 On paper, the cast reads like a cinephile's wish list. Besides Foster, appearing just a year before her career-defining performance in <span data-imdb-id="tt0102926">_The Silence of the Lambs_</span>, we get Joe Pesci (uncredited despite a sizable part) as the mob captain, Vincent Price as his aging boss, John Turturro as a weaselly mob henchman, Dean Stockwell as a smarmy lawyer, Fred Ward as a federal agent, and even Bob Dylan wielding a chainsaw as an artist. 
 
