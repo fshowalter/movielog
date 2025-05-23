@@ -3,7 +3,7 @@ date: 2025-05-22
 imdb_id: tt0107254
 grade: C
 slug: jason-goes-to-hell-the-final-friday-1993
-synopsis: Supernatural killer Jason Voorhees jumps from body to body, hunting down the last of his bloodline so he can be reborn.
+synopsis: Supernatural serial killer Jason Voorhees jumps from body to body, hunting down the last of his bloodline so he can be reborn.
 ---
 
 When is a _Friday the 13th_ movie not a _Friday the 13th_ movie? _Jason Goes to Hell: The Final Friday_ answers that question--though whether that's an artistic choice or a legal necessity (given New Line Cinema's inability to use the _Friday the 13th_ title) remains debatable.

@@ -3,7 +3,7 @@ imdb_id: tt0096875
 slug: catchfire-1990
 grade: C
 date: 2025-05-20
-synopsis: Hitman Dennis Hopper goes rogue when he kidnaps target Jodie Foster instead of killing her, putting them both in the mob's crosshairs'.
+synopsis: Hitman Dennis Hopper goes rogue when he kidnaps target Jodie Foster instead of killing her, putting them both in the mob's crosshairs.
 ---
 
 Here is a film that occupies that peculiar place in cinema history where the collision between artistic ambition and studio interference creates something that is simultaneously unwatchable and oddly compelling. Dennis Hopper's _Catchfire_ bears the telltale scars of a project that began with vision and ended with Hopper disowning the final product, resulting in the infamous "Alan Smithee" credit.
