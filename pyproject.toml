@@ -25,7 +25,7 @@ movielog = "movielog.cli.main:prompt"
 dev = [
   "mypy==1.15.0",
   "pytest-cov==6.1.1",
-  "pytest-mock==3.14.0",
+  "pytest-mock==3.14.1",
   "pytest-randomly==3.16.0",
   "pytest==8.3.5",
   "ruff==0.11.11",
