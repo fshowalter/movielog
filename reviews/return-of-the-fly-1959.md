@@ -18,7 +18,7 @@ When Price exits the narrative, Brett Halsey and David Frankham step in admirabl
 
 Then the fly-headed monster appears, and whatever potential existed evaporates. Writer-director Edward Bernds commits the cardinal sin of horror filmmaking: he shows too much, too soon, under lighting too bright. The original film kept its monster hidden until the climax, and even then used it sparingly. Here, the full fly costume is paraded around in harsh light that reveals every seam and imperfection, transforming what should be a tragic figure into a Saturday matinee boogeyman.
 
-From here, the screenplay deteriorates into nonsense. Police officers fire their weapons at unidentified targets. The fly-monster appears in impossible locations without explanation. A gunshot inside a house is somehow heard by an officer down the street. By the time Price returns for the finale--only to be immediately incapacitated by a bullet wound--the film has abandoned logic entirely.
+From this point, the screenplay deteriorates into nonsense. Police officers fire their weapons at unidentified targets. The fly-monster appears in impossible locations without explanation. A gunshot inside a house is somehow heard by an officer down the street. By the time Price returns for the finale--only to be immediately incapacitated by a bullet wound--the film has abandoned logic entirely.
 
 Budget constraints are painfully evident throughout. The original's color photography gives way to cheaper black-and-white. While Bernds attempts to use shadows effectively in the third act, he can't hide the cramped sets and flimsy props. When Price enters the laboratory, the door bumps against what's supposed to be heavy machinery, causing it to wobble like the cardboard it clearly is.
 
