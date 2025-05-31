@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0053219
 slug: return-of-the-fly-1959
-grade: D+
+grade: D
 date: 2025-05-28
 synopsis: The son of the original film's protagonist takes up his father's work, only to fall victim to a similar fate.
 ---
