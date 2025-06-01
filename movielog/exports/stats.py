@@ -160,9 +160,7 @@ def _build_most_watched_performers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
-        MostWatchedPersonGroup
-    )
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
 
     for viewing in viewings:
         performers = repository_data.titles[viewing.imdb_id].performers
@@ -178,7 +176,6 @@ def _build_most_watched_performers(
         )
 
     return _build_most_watched_person_list(
-        watchlist_kind="performers",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
@@ -188,9 +185,7 @@ def _build_most_watched_writers(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
-        MostWatchedPersonGroup
-    )
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
 
     for viewing in viewings:
         for writer in repository_data.titles[viewing.imdb_id].writers:
@@ -208,7 +203,6 @@ def _build_most_watched_writers(
         )
 
     return _build_most_watched_person_list(
-        watchlist_kind="writers",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
@@ -231,19 +225,11 @@ def _build_json_most_watched_person_viewing(
     )
 
 
-def _watchlist_person_matches_indexed_imdb_id(
-    person_imdb_id: frozenset[str], indexed_imdb_id: NameImdbId
-) -> bool:
-    return frozenset(person_imdb_id) == indexed_imdb_id
-
-
 def _build_most_watched_directors(
     viewings: list[repository_api.Viewing],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
-    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(
-        MostWatchedPersonGroup
-    )
+    viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup] = defaultdict(MostWatchedPersonGroup)
 
     for viewing in viewings:
         for director in repository_data.titles[viewing.imdb_id].directors:
@@ -258,14 +244,12 @@ def _build_most_watched_directors(
         )
 
     return _build_most_watched_person_list(
-        watchlist_kind="directors",
         viewings_by_name=viewings_by_name,
         repository_data=repository_data,
     )
 
 
 def _build_most_watched_person_list(
-    watchlist_kind: repository_api.WatchlistPersonKind,
     viewings_by_name: dict[NameImdbId, MostWatchedPersonGroup],
     repository_data: RepositoryData,
 ) -> list[JsonMostWatchedPerson]:
@@ -275,24 +259,13 @@ def _build_most_watched_person_list(
         if len(most_watched_person_group.viewings) < 2:
             continue
 
-        watchlist_person = next(
-            (
-                watchlist_person
-                for watchlist_person in repository_data.watchlist_people[watchlist_kind]
-                if _watchlist_person_matches_indexed_imdb_id(
-                    person_imdb_id=watchlist_person.imdb_id,
-                    indexed_imdb_id=indexed_imdb_id,
-                )
-                and (repository_data.reviews.keys() & watchlist_person.title_ids)
-            ),
-            None,
-        )
+        cast_and_crew_member = repository_data.cast_and_crew.get(indexed_imdb_id)
 
         most_watched_person_list.append(
             JsonMostWatchedPerson(
                 name=most_watched_person_group.name,
                 count=len(most_watched_person_group.viewings),
-                slug=watchlist_person.slug if watchlist_person else None,
+                slug=cast_and_crew_member.slug if cast_and_crew_member else None,
                 viewings=[
                     _build_json_most_watched_person_viewing(
                         viewing=viewing,
@@ -330,9 +303,7 @@ def _build_most_watched_title(
 def _build_most_watched_titles(
     viewings: list[repository_api.Viewing], repository_data: RepositoryData
 ) -> list[JsonMostWatchedTitle]:
-    viewings_by_title = list_tools.group_list_by_key(
-        viewings, key=lambda viewing: viewing.imdb_id
-    )
+    viewings_by_title = list_tools.group_list_by_key(viewings, key=lambda viewing: viewing.imdb_id)
 
     most_watched_titles = []
 
@@ -352,7 +323,7 @@ def _build_most_watched_titles(
         most_watched_titles,
         key=lambda most_watched_title: most_watched_title["count"],
         reverse=True,
-    )[:10]
+    )[:12]
 
 
 def _build_grade_distribution(
@@ -438,9 +409,7 @@ def _build_json_year_stats(
 def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeStats:
     watchlist_title_ids = _extract_watchlist_title_ids(repository_data=repository_data)
 
-    titles = [
-        repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings
-    ]
+    titles = [repository_data.titles[viewing.imdb_id] for viewing in repository_data.viewings]
 
     unique_title_ids = {title.imdb_id for title in titles}
 
@@ -451,9 +420,7 @@ def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSt
         titleCount=len(unique_title_ids),
         reviewCount=len(repository_data.reviews),
         watchlistTitlesReviewedCount=len(review_ids_from_watchlist),
-        gradeDistribution=_build_json_grade_distributions(
-            repository_data.reviews.values()
-        ),
+        gradeDistribution=_build_json_grade_distributions(repository_data.reviews.values()),
         mediaDistribution=sorted(
             _build_media_distribution(repository_data.viewings),
             key=lambda distribution: distribution["count"],
@@ -485,9 +452,7 @@ def _build_all_time_json_stats(repository_data: RepositoryData) -> JsonAllTimeSt
 
 def _extract_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     watchlist_title_ids = {
-        title_id
-        for collection in repository_data.collections
-        for title_id in collection.title_ids
+        title_id for collection in repository_data.collections for title_id in collection.title_ids
     }
 
     for person_kind in repository_api.WATCHLIST_PERSON_KINDS:
@@ -502,9 +467,7 @@ def _new_title_count(
     year: str, unique_title_ids_for_year: set[str], repository_data: RepositoryData
 ) -> int:
     older_title_ids = {
-        viewing.imdb_id
-        for viewing in repository_data.viewings
-        if str(viewing.date.year) < year
+        viewing.imdb_id for viewing in repository_data.viewings if str(viewing.date.year) < year
     }
 
     return len(unique_title_ids_for_year.difference(older_title_ids))
