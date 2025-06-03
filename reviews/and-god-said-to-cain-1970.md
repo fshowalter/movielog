@@ -1,9 +1,10 @@
 ---
 imdb_id: tt0064273
-title: And God Said to Cain... (1970)
 slug: and-god-said-to-cain-1970
 grade: C+
 date: 2025-05-31
+synopsis: After ten years in a prison camp, former Union soldier Klaus Kinski sets out for revenge on the friends that betrayed and framed him.
+
 ---
 
 There's something to be said for a director who understands that atmosphere can carry a film where plot cannot. Antonio Margheriti's _And God Said to Cain_ arrives with the threadbare revenge premise we've seen countless times before, yet Margheriti transforms this familiar material into something approaching the sublime through sheer visual audacity.
