@@ -1,16 +1,25 @@
 ---
-date: 2008-09-21
+date: 2025-06-05
 grade: A-
 imdb_id: tt0054135
 slug: oceans-eleven-1960
+synopsis: Frank Sinatra reunites his old Army unit, including Dean Martin and Sammy Davis Jr., to pull off a New Year's Eve robbery of five Las Vegas casinos simultaneously.
 ---
 
-A group of ex-paratroopers (Frank Sinatra, Dean Martin, Sammy Davis Jr., and Peter Lawford) set out to rob five Las Vegas casinos on New Years Eve.
+An early gag in _Ocean’s Eleven_ sees Frank Sinatra making prank calls to an underworld operator. This clues you in that the film isn’t really going to be about a heist at all. Instead, Lewis Milestone’s 1960 film serves as the definitive Rat Pack artifact. This isn’t so much a movie as an opportunity to spend two hours in the company of Frank Sinatra, Dean Martin, Sammy Davis Jr., and friends as they execute a casino caper with the same effortless charm they brought to their legendary stage shows
 
-_Ocean's Eleven_ is a genre of film unto itself. Though it's structured like one, it's not a heist film. Though Dean Martin and Sammy Davis Jr. both sing songs, it's not a musical. Though it's got some laughs, it's not a comedy. Though it's got some thrills, it's not a thriller. No, _Ocean's Eleven_ is none of these really, it's simply a performance.
+Sinatra plays Danny Ocean, a former paratrooper who reunites his old Army unit to pull off an audacious New Year's Eve robbery of five Las Vegas casinos simultaneously. The plot is merely a clothesline on which to hang the considerable charisma of its ensemble. This is a "hangout movie" in its purest form--one where the pleasure comes not from narrative tension but from watching these magnetic personalities interact.
 
-It's Frank Sinatra, Dean Martin, and Sammy Davis Jr. at their best, playing off each other and oozing an easy cool that makes it look effortless. It's decades of performances on stage, on screen, and on record distilled into a two hour show. It's the showpiece of the Rat Pack's impact on the pop-culture lexicon. It's a time capsule. It's charisma personified.
+The cast is absurdly talented. Sinatra essentially plays an idealized version of himself--the beloved ringleader who commands loyalty through charm rather than fear. Dean Martin, fresh from his excellent turn in Howard Hawks' _Rio Bravo_, steals every scene he's in, particularly during Peter Lawford's telephone conversation where Martin's reactions provide some of the film's best laughs. Sammy Davis Jr. contributes the catchy "Eee-oh-eleven" theme song, while Henry Silva, Joey Bishop, and Richard Conte round out Ocean's crew.
 
-Granted, if you're not a fan of Sinatra and company, the film has little going for it. The story's paper thin and more than a little outlandish. The plot moves a long at a breezy pace, and the ending could be considered something of a letdown. But again, this is a performance, and when viewed in this light, those negatives become positives that suit the group's persona perfectly.
+Angie Dickinson (also from _Rio Bravo_) makes the most of her role as Sinatra's estranged wife. When a venomous former flame tries to rat Sinatra out, Dickinson delivers one of the script's sharpest lines: "That's funny, I was taught that creatures like you always rattled before they struck." 
 
-After this film's success, the cast would go on to make several more films together, but it's this film that comes to mind when you think of the Rat Pack, and for good reason.
+Cesar Romero rounds out the ensemble as Duke Santos, a former gangster who provides Sinatra's crew with their chief antagonist. His booming delivery and towering height ensure he's the rare performer that can stand opposite Sinatra and company without wilting. Even the cameos are first-rate--watch for Shirley MacLaine in a brief appearance the same year she made _The Apartment_.
+
+The film also serves as an invaluable time capsule of Las Vegas before it became a corporate theme park. Shot on location, with Sinatra, Martin and Davis performing nightly at the Sands before filming in the early morning hours, the movie has an authenticity that no studio set could replicate. Their stage camaraderie carries over seamlessly to the screen, creating a lived-in chemistry that's impossible to fake. 
+
+Ironically, the success of _Ocean's Eleven_ may have ultimately harmed Sinatra's film career. Consider the scene where Sinatra confronts a former flame. With those famous blue eyes fixed in an icy stare, he delivers a coldly cynical monologue: "I picked you up at the Biltmore Bar because I thought you were attractive and I had nothing better to do... nobody twisted your arm, or made you any promises." It's a scene that could have alienated the audience but Sinatra's delivery holds us rapt and reminds us that he's capable of great dramatic performances.
+
+But this film's success convinced him movies could be fast and easy, leading to several lesser Rat Pack vehicles. With the exception of _The Manchurian Candidate_ in 1962, Sinatra would never again push himself as an actor, preferring directors he could control rather than those who might demand multiple takes or rehearsals. 
+
+That said, _Ocean's Eleven_ works beautifully as both entertainment and artifact. It's a movie that invites you to pull up a chair and enjoy the company of some supremely talented people having a good time. It gives us something movies rarely manage--the feeling of being in the right place at the right time with exactly the right people. Sometimes that's enough. Sometimes it's everything.
