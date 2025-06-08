@@ -111,9 +111,7 @@ def _slice_list(
     matcher: Callable[[_ListType], bool],
 ) -> list[_ListType]:
     midpoint = next(
-        index
-        for index, collection_item in zip(count(), source_list)
-        if matcher(collection_item)
+        index for index, collection_item in zip(count(), source_list) if matcher(collection_item)
     )
 
     start_index = midpoint - 2
@@ -194,10 +192,7 @@ def _build_json_more_cast_and_crew(
                 ],
             )
 
-    return [
-        cast_and_crew_member
-        for _member_id, cast_and_crew_member in cast_and_crew.items()
-    ]
+    return [cast_and_crew_member for _member_id, cast_and_crew_member in cast_and_crew.items()]
 
 
 def _build_json_more_collections(
@@ -297,18 +292,12 @@ def _build_json_reviewed_title(
 ) -> _JsonReviewedTitle:
     title = repository_data.titles[review.imdb_id]
     viewings = sorted(
-        [
-            viewing
-            for viewing in repository_data.viewings
-            if viewing.imdb_id == title.imdb_id
-        ],
-        key=lambda viewing: viewing.sequence,
+        [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
+        key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
         reverse=True,
     )
 
-    original_title = (
-        None if title.original_title == title.title else title.original_title
-    )
+    original_title = None if title.original_title == title.title else title.original_title
 
     return _JsonReviewedTitle(
         imdbId=title.imdb_id,
@@ -326,15 +315,11 @@ def _build_json_reviewed_title(
         directorNames=[director.name for director in title.directors],
         writerNames=list(dict.fromkeys(writer.name for writer in title.writers)),
         principalCastNames=[
-            performer.name
-            for index, performer in enumerate(title.performers)
-            if index < 4
+            performer.name for index, performer in enumerate(title.performers) if index < 4
         ],
         reviewDate=review.date.isoformat(),
         reviewYear=str(review.date.year),
-        sequence="{}-{}".format(
-            review.date.isoformat(), viewings[0].sequence if viewings else ""
-        ),
+        sequence="{}-{}".format(review.date.isoformat(), viewings[0].sequence if viewings else ""),
         viewings=[
             _JsonViewing(
                 sequence=viewing.sequence,
@@ -362,9 +347,7 @@ def _build_json_reviewed_title(
             collection_index=collection_index,
             repository_data=repository_data,
         ),
-        moreReviews=_build_json_more_reviews(
-            review=review, repository_data=repository_data
-        ),
+        moreReviews=_build_json_more_reviews(review=review, repository_data=repository_data),
     )
 
 
@@ -388,9 +371,7 @@ def _check_title_for_names(
             credit_index["performer"][name_key].add(title.imdb_id)
 
 
-def _add_review_credits(
-    credit_index: _CreditIndex, repository_data: RepositoryData
-) -> None:
+def _add_review_credits(credit_index: _CreditIndex, repository_data: RepositoryData) -> None:
     for reviewed_title in repository_data.reviewed_titles:
         _check_title_for_names(reviewed_title, credit_index, repository_data)
 
@@ -399,9 +380,7 @@ def _build_collection_index(repository_data: RepositoryData) -> _CollectionIndex
     collection_index = defaultdict(set)
 
     for collection in repository_data.collections:
-        reviewed_collection_titles = (
-            repository_data.reviews.keys() & collection.title_ids
-        )
+        reviewed_collection_titles = repository_data.reviews.keys() & collection.title_ids
         collection_index[collection.slug] = reviewed_collection_titles
 
     return collection_index
