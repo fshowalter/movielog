@@ -3,7 +3,7 @@ date: 2025-06-09
 imdb_id: tt0061074
 grade: C+
 slug: massacre-time-1966
-synopsis: Prospector Franco Nero returns home to find his brother George Hilton has descended into alcoholism and the town trembles under the boot of a land baron and his psychopathic son.
+synopsis: Prospector Franco Nero returns home to find his brother George Hilton has descended into alcoholism and the town trembling under the boot of a land baron and his psychopathic son.
 
 ---
 
