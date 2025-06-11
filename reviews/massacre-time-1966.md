@@ -3,7 +3,7 @@ date: 2025-06-09
 imdb_id: tt0061074
 grade: C+
 slug: massacre-time-1966
-synopsis: Prospector Franco Nero returns home to find his brother George Hilton has descended into alcoholism and the town trembles under the boot of a land baron and his psychopathic son.
+synopsis: Prospector Franco Nero returns home to find his brother George Hilton a lush and his hometown cowering under the boot of a land baron and his psychopathic son.
 
 ---
 
@@ -11,7 +11,7 @@ Lucio Fulci's _Massacre Time_ opens with a mounted hunting party pursuing a flee
 
 But the somersault pulled me right out. More on that later.
 
-The film stars Franco Nero as Tom, a prospector summoned home by cryptic correspondence, only to discover his brother Jeff, played by George Hilton, has descended into alcoholism and sold their family ranch. The town trembles under the boot of land baron Scott and his psychopathic son Junior, played with unsettling intensity by Nino Castelnuovo. It's familiar territory, but Fulci and his screenwriters have something more ambitious in mind than a simple revenge tale.
+The film stars Franco Nero as Tom, a prospector summoned home by cryptic correspondence, only to discover his brother Jeff, played by George Hilton, has become a lush and sold their family ranch. The town cowers under the boot of land baron Scott and his psychopathic son Junior, played with unsettling intensity by Nino Castelnuovo. It's familiar territory, but Fulci and his screenwriters have something more ambitious in mind than a simple revenge tale.
 
 What makes _Massacre Time_ compelling is how it subverts our expectations of the Western hero. Nero begins channeling Clint Eastwood's "Man with No Name" archetype, but when he marches into Scott's ranch for what should be a climactic showdown, he gets thoroughly beaten. It's a bold narrative choice that transforms the film from a power fantasy into something more psychologically complex. By the third act, Nero's performance has shifted toward Bill Holden's weathered everyman quality, creating space for Hilton to emerge as the film's true physical and charismatic force.
 
