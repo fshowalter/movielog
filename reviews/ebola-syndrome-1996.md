@@ -3,7 +3,7 @@ imdb_id: tt0116163
 slug: ebola-syndrome-1996
 grade: B-
 date: 2025-06-12
-synopsis: Anthony Wong plays a murderous fugitive working illegally in South Africa, who contracts Ebola and becomes a living super-spreader.
+synopsis: Anthony Wong plays a murderous fugitive working illegally in South Africa who contracts Ebola and becomes a living super-spreader.
 ---
 
 There are films that test the boundaries of good taste, and then there is Herman Yau's _Ebola Syndrome_, a Category III Hong Kong shocker that doesn't merely cross those boundaries--it obliterates them with the subtlety of a sledgehammer to the skull. This is exploitation cinema in its purest, most uncompromising form, a film so deliberately offensive that it achieves a kind of perverse integrity.
