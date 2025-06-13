@@ -3,7 +3,7 @@ name = "movielog"
 version = "1.0.0"
 description = "Console application for managing my movielog, including reviews, viewings, and my watchlist."
 readme = "README.md"
-requires-python = "==3.13.4"
+requires-python = "==3.13.5"
 dependencies = [
   "beautifulsoup4==4.13.4",
   "cinemagoer==2023.5.1",
