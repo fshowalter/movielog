@@ -1,5 +1,5 @@
 from collections.abc import Sequence
-from typing import Generic, TypeVar, cast
+from typing import cast
 
 from prompt_toolkit.application import Application
 from prompt_toolkit.formatted_text import (
@@ -11,21 +11,13 @@ from prompt_toolkit.formatted_text import (
 from prompt_toolkit.key_binding.key_bindings import KeyBindings
 from prompt_toolkit.key_binding.key_processor import KeyPressEvent
 from prompt_toolkit.layout import Layout
-from prompt_toolkit.layout.containers import (
-    Container,
-    Float,
-    FloatContainer,
-    HSplit,
-    Window,
-)
+from prompt_toolkit.layout.containers import Container, Float, FloatContainer, HSplit, Window
 from prompt_toolkit.layout.controls import FormattedTextControl
 from prompt_toolkit.layout.margins import ScrollbarMargin
 from prompt_toolkit.widgets import Label
 
-RadioListType = TypeVar("RadioListType")
 
-
-class RadioList(Generic[RadioListType]):
+class RadioList[T]:
     """
     List of radio buttons. Only one can be checked at the same time.
     :param values: List of (value, label) tuples.
@@ -38,9 +30,9 @@ class RadioList(Generic[RadioListType]):
     selected_style = "class:radio-selected"
     checked_style = "class:radio-checked"
 
-    def __init__(self, options: Sequence[tuple[RadioListType, AnyFormattedText]]) -> None:
+    def __init__(self, options: Sequence[tuple[T, AnyFormattedText]]) -> None:
         self.options = options
-        self.current_option: RadioListType = options[0][0]
+        self.current_option: T = options[0][0]
         self._selected_index = 0
 
         # Key bindings.
@@ -124,11 +116,11 @@ class RadioList(Generic[RadioListType]):
         event.app.exit(result=None)
 
 
-def prompt(
+def prompt[T](
     title: str,
-    options: Sequence[tuple[RadioListType, AnyFormattedText]],
+    options: Sequence[tuple[T, AnyFormattedText]],
     rprompt: str | None = None,
-) -> RadioListType | None:
+) -> T | None:
     control = RadioList(options_to_html(options))
 
     application: Application[None] = Application(
@@ -158,13 +150,13 @@ def prompt(
         full_screen=False,
     )
 
-    return cast(RadioListType, application.run())
+    return cast(T, application.run())
 
 
-def options_to_html(
-    options: Sequence[tuple[RadioListType, AnyFormattedText]],
-) -> Sequence[tuple[RadioListType, AnyFormattedText]]:
-    formatted_options: list[tuple[RadioListType, AnyFormattedText]] = []
+def options_to_html[T](
+    options: Sequence[tuple[T, AnyFormattedText]],
+) -> Sequence[tuple[T, AnyFormattedText]]:
+    formatted_options: list[tuple[T, AnyFormattedText]] = []
 
     for option in options:
         option_text = HTML(cast(str, option[1]))
