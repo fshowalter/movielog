@@ -3,10 +3,7 @@ date: 2025-03-22
 imdb_id: tt0053221
 grade: A+
 slug: rio-bravo-1959
-synopsis: Texas sheriff John Wayne holds a powerful cattle baron's no-good brother
-  for murder with only drunken deputy Dean Martin and cantankerous jailer Walter Brennan
-  for support.
-title: Rio Bravo (1959)
+synopsis: Texas sheriff John Wayne holds a powerful cattle baron's no-good brother for murder with only drunken deputy Dean Martin and cantankerous jailer Walter Brennan for support.
 ---
 
 My favorite movie stars John Wayne as John T. Chance, a Texas sheriff struggling to hold powerful land baron Nathan Burdett's no-good brother Joe for murder. Nathan has an army of cutthroat mercenaries. Wayne has Dude, a drunken deputy played by Dean Martin, Stumpy, a crippled curmudgeon played by Walter Brennan, Colorado, a young gunslinger played by Ricky Nelson, and Feathers, a showgirl turned gambler played by Angie Dickinson.
