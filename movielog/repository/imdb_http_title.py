@@ -1,35 +1,22 @@
 import json
 from dataclasses import dataclass, field
-from typing import Literal, get_args
+from typing import Any, Literal, get_args
 
-import imdb
 import pycountry
 import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
 from requests.adapters import HTTPAdapter, Retry
 
 from movielog.repository.imdb_http_release_date import get_release_date
+from movielog.utils.get_nested_value import get_nested_value
 
-imdb_http = imdb.Cinemagoer(reraiseExceptions=True)
-
+type UntypedJson = dict[Any, Any]
 
 TIMEOUT = 30
 
 CreditKind = Literal["director", "writer", "performer"]
 
 CREDIT_KINDS = get_args(CreditKind)
-
-
-@dataclass
-class TitleCredit:
-    kind: CreditKind
-    imdb_id: str
-    full_title: str
-
-
-@dataclass
-class NamePage:
-    credits: dict[CreditKind, list[TitleCredit]]
 
 
 @dataclass
@@ -55,36 +42,8 @@ class TitlePage:
     release_date: str
 
 
-def _build_title_credits_for_name_page(
-    imdb_name_page: imdb.Person.Person,
-) -> dict[CreditKind, list[TitleCredit]]:
-    name_credits = {}
-
-    filmography = imdb_name_page["filmography"]
-
-    filmography["performer"] = filmography.pop(
-        "actor",
-        [],
-    ) + filmography.pop(
-        "actress",
-        [],
-    )
-
-    for kind in CREDIT_KINDS:
-        name_credits[kind] = [
-            TitleCredit(
-                kind=kind,
-                imdb_id=f"tt{credit.movieID}",
-                full_title=credit["long imdb title"],
-            )
-            for credit in imdb_name_page["filmography"].get(kind, [])
-        ]
-
-    return name_credits
-
-
 def _build_name_credits_for_title_page(
-    page_data: dict,
+    page_data: UntypedJson,
 ) -> dict[CreditKind, list[NameCredit]]:
     credit_kind_map: dict[CreditKind, str] = {
         "director": "director",
@@ -124,25 +83,8 @@ def _build_name_credits_for_title_page(
     return name_credits
 
 
-def get_nested_value(dict_obj, keys, default=None):
-    """Safely get nested dictionary values."""
-    current = dict_obj
-    for key in keys:
-        if isinstance(current, dict):
-            current = current.get(key, default)
-        else:
-            return default
-    return current
-
-
-def get_name_page(imdb_id: str) -> NamePage:
-    imdb_name_page = imdb_http.get_person(imdb_id[2:])
-
-    return NamePage(credits=_build_title_credits_for_name_page(imdb_name_page))
-
-
-def parse_production_status(page_data: dict) -> str | None:
-    return get_nested_value(
+def _parse_production_status(page_data: UntypedJson) -> str | None:
+    status = get_nested_value(
         page_data,
         [
             "props",
@@ -155,34 +97,42 @@ def parse_production_status(page_data: dict) -> str | None:
         None,
     )
 
+    assert isinstance(status, str | None)
 
-def parse_title(page_data: dict) -> str:
+    return status
+
+
+def _parse_title(page_data: UntypedJson) -> str:
     title = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "titleText", "text"], None
     )
 
-    assert title
+    assert isinstance(title, str)
 
     return title
 
 
-def parse_year(page_data: dict) -> str:
+def _parse_year(page_data: UntypedJson) -> int:
     year = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "releaseYear", "year"], None
     )
 
-    assert year
+    assert isinstance(year, int)
 
     return year
 
 
-def parse_kind(page_data: dict) -> str:
-    return get_nested_value(
+def _parse_kind(page_data: UntypedJson) -> str:
+    kind = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "titleType", "id"], "Unknown"
     )
 
+    assert isinstance(kind, str)
 
-def parse_genres(page_data: dict) -> list[str]:
+    return kind
+
+
+def _parse_genres(page_data: UntypedJson) -> list[str]:
     genres = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "genres", "genres"], []
     )
@@ -190,7 +140,7 @@ def parse_genres(page_data: dict) -> list[str]:
     return [genre["text"] for genre in genres]
 
 
-def parse_countries(page_data: dict) -> list[str]:
+def _parse_countries(page_data: UntypedJson) -> list[str]:
     countries = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "countriesOfOrigin", "countries"], []
     )
@@ -198,14 +148,14 @@ def parse_countries(page_data: dict) -> list[str]:
     return [pycountry.countries.get(alpha_2=country["id"]).name for country in countries]
 
 
-def parse_sound_mix(page_data: dict) -> set[str]:
+def _parse_sound_mix(page_data: UntypedJson) -> set[str]:
     sound_mixes = get_nested_value(
         page_data,
         ["props", "pageProps", "mainColumnData", "technicalSpecifications", "soundMixes", "item"],
         [],
     )
 
-    return [mix["text"] for mix in sound_mixes]
+    return {mix["text"] for mix in sound_mixes}
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
@@ -239,12 +189,12 @@ def get_title_page(imdb_id: str) -> TitlePage:
 
     return TitlePage(
         imdb_id=imdb_id,
-        production_status=parse_production_status(page_data),
-        kind=parse_kind(page_data),
-        full_title=parse_title(page_data),
-        genres=parse_genres(page_data),
-        countries=parse_countries(page_data),
-        sound_mix=parse_sound_mix(page_data),
+        production_status=_parse_production_status(page_data),
+        kind=_parse_kind(page_data),
+        full_title=_parse_title(page_data),
+        genres=_parse_genres(page_data),
+        countries=_parse_countries(page_data),
+        sound_mix=_parse_sound_mix(page_data),
         credits=_build_name_credits_for_title_page(page_data),
-        release_date=get_release_date(imdb_id, parse_year(page_data)),
+        release_date=get_release_date(imdb_id, _parse_year(page_data)),
     )

@@ -4,7 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import credit_notes_validator, imdb_http, imdb_http_title, json_titles
+from movielog.repository import credit_notes_validator, imdb_http_title, json_titles
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
@@ -130,10 +130,8 @@ def update_from_imdb_pages() -> None:
 
             updated_title = deepcopy(json_title)
 
-            try:
-                _update_json_title_with_title_page_data(updated_title)
-            except imdb_http.IMDbDataAccessError:
-                return
+            _update_json_title_with_title_page_data(updated_title)
+
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
             progress_file.write("{}\n".format(json_title["slug"]))

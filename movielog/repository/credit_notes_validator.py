@@ -1,6 +1,6 @@
 import re
 
-from movielog.repository import imdb_http
+from movielog.repository import imdb_http_title
 
 INVALID_WRITER_NOTES = (
     "uncredited",
@@ -58,7 +58,7 @@ def _validate_writer_credit_notes(notes: str) -> tuple[bool, str | None]:
 
 
 def credit_notes_are_valid_for_kind(
-    notes: str | None, kind: imdb_http.CreditKind
+    notes: str | None, kind: imdb_http_title.CreditKind
 ) -> tuple[bool, str | None]:
     if not notes:
         return (True, None)
