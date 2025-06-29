@@ -96,6 +96,7 @@ def _get_title_ids_from_name_pages_for_credit_kind(
 ) -> set[str]:
     if isinstance(watchlist_person["imdbId"], str):
         name_page = imdb_http_person.get_name_page(watchlist_person["imdbId"])
+        print(name_page)
         return {credit.imdb_id for credit in name_page.credits[kind]}
 
     filmographies: list[set[str]] = []

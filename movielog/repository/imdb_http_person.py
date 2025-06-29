@@ -39,25 +39,35 @@ def _build_title_credits_for_name_page(
         "writer": ["writer"],
     }
 
-    name_credits = {}
+    name_credits: dict[CreditKind, list[TitleCredit]] = {}
 
     for kind in CREDIT_KINDS:
-        edges = [
-            get_nested_value(imdb_credits, [""], [])
-            for imdb_credits in get_nested_value(
-                page_data, ["props", "pageProps", "mainColumnData", "releasedPrimaryCredits"]
-            )
-            if imdb_credits["category"]["id"] in credit_kind_map[kind]
-        ]
+        credit_keys = credit_kind_map[kind]
+        name_credits[kind] = []
 
-        name_credits[kind] = [
-            TitleCredit(
-                kind=kind,
-                imdb_id=get_nested_value(edge, ["node", "title", "id"]),
-                full_title=get_nested_value(edge, ["node", "title", "titleText", "text"]),
+        for credit_key in credit_keys:
+            edges: list[Any] = next(
+                (
+                    get_nested_value(imdb_credits, ["credits", "edges"], [])
+                    for imdb_credits in get_nested_value(
+                        page_data,
+                        ["props", "pageProps", "mainColumnData", "releasedPrimaryCredits"],
+                    )
+                    if imdb_credits["category"]["id"] == credit_key
+                ),
+                [],
             )
-            for edge in edges
-        ]
+
+            title_credits = [
+                TitleCredit(
+                    kind=kind,
+                    imdb_id=get_nested_value(edge, ["node", "title", "id"]),
+                    full_title=get_nested_value(edge, ["node", "title", "titleText", "text"]),
+                )
+                for edge in edges
+            ]
+
+            name_credits[kind].extend(title_credit for title_credit in title_credits)
 
     return name_credits
 
