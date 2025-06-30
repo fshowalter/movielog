@@ -20,10 +20,6 @@
       "title": "Key Largo (1948)"
     },
     {
-      "imdbId": "tt0040664",
-      "title": "On Our Merry Way (1948)"
-    },
-    {
       "imdbId": "tt0040897",
       "title": "The Treasure of the Sierra Madre (1948)"
     },
@@ -54,10 +50,6 @@
     {
       "imdbId": "tt0049513",
       "title": "Moby Dick (1956)"
-    },
-    {
-      "imdbId": "tt0050379",
-      "title": "A Farewell to Arms (1957)"
     },
     {
       "imdbId": "tt0050490",
@@ -93,7 +85,7 @@
     },
     {
       "imdbId": "tt0060164",
-      "title": "The Bible: In the Beginning... (1966)"
+      "title": "The Bible in the Beginning... (1966)"
     },
     {
       "imdbId": "tt0061452",
@@ -116,10 +108,6 @@
       "title": "The Kremlin Letter (1970)"
     },
     {
-      "imdbId": "tt0067329",
-      "title": "The Last Run (1971)"
-    },
-    {
       "imdbId": "tt0068575",
       "title": "Fat City (1972)"
     },
@@ -134,10 +122,6 @@
     {
       "imdbId": "tt0073341",
       "title": "The Man Who Would Be King (1975)"
-    },
-    {
-      "imdbId": "tt0079488",
-      "title": "Love and Bullets (1979)"
     },
     {
       "imdbId": "tt0080140",
@@ -168,36 +152,5 @@
       "title": "The Dead (1987)"
     }
   ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt0035565",
-      "title": "Winning Your Wings (1942)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0036301",
-      "title": "Report from the Aleutians (1943)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0037404",
-      "title": "Tunisian Victory (1944)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0036630",
-      "title": "San Pietro (1945)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt0074679",
-      "title": "Independence (1976)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0038687",
-      "title": "Let There Be Light (1980)",
-      "reason": "Documentary"
-    }
-  ]
+  "excludedTitles": []
 }

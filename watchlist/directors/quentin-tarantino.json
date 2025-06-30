@@ -4,6 +4,10 @@
   "imdbId": "nm0000233",
   "titles": [
     {
+      "imdbId": "tt0359715",
+      "title": "My Best Friend's Birthday (1987)"
+    },
+    {
       "imdbId": "tt0105236",
       "title": "Reservoir Dogs (1992)"
     },
@@ -57,49 +61,8 @@
     },
     {
       "imdbId": "tt7131622",
-      "title": "Once Upon a Time in Hollywood (2019)"
+      "title": "Once Upon a Time... in Hollywood (2019)"
     }
   ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt1959459",
-      "title": "Love Birds in Bondage (1983)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0359715",
-      "title": "My Best Friend's Birthday (1987)",
-      "reason": "abandoned"
-    },
-    {
-      "imdbId": "tt6493238",
-      "title": "Reservoir Dogs (1991) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt10763164",
-      "title": "Reservoir Dogs: Deleted Scenes (1992) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0108757",
-      "title": "\"ER\" (1994)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0247082",
-      "title": "\"CSI: Crime Scene Investigation\" (2000)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0320037",
-      "title": "\"Jimmy Kimmel Live!\" (2003)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt30425533",
-      "title": "\"The Hateful Eight - Extended Version\" (2019)",
-      "reason": "tv series"
-    }
-  ]
+  "excludedTitles": []
 }

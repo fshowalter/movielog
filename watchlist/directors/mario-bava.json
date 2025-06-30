@@ -4,26 +4,6 @@
   "imdbId": "nm0000878",
   "titles": [
     {
-      "imdbId": "tt0049429",
-      "title": "Lust of the Vampire (1957)"
-    },
-    {
-      "imdbId": "tt0051951",
-      "title": "The Day the Sky Exploded (1958)"
-    },
-    {
-      "imdbId": "tt0052604",
-      "title": "The Giant of Marathon (1959)"
-    },
-    {
-      "imdbId": "tt0052667",
-      "title": "Caltiki, the Immortal Monster (1959)"
-    },
-    {
-      "imdbId": "tt0052782",
-      "title": "Hercules Unchained (1959)"
-    },
-    {
       "imdbId": "tt0053800",
       "title": "Esther and the King (1960)"
     },
@@ -76,10 +56,6 @@
       "title": "Kill, Baby... Kill! (1966)"
     },
     {
-      "imdbId": "tt0060901",
-      "title": "Savage Gringo (1966)"
-    },
-    {
       "imdbId": "tt0061014",
       "title": "Dr. Goldfoot and the Girl Bombs (1966)"
     },
@@ -117,7 +93,7 @@
     },
     {
       "imdbId": "tt0071275",
-      "title": "Rabid Dogs (1974)"
+      "title": "Kidnapped (1974)"
     },
     {
       "imdbId": "tt3420392",
@@ -128,46 +104,5 @@
       "title": "Shock (1977)"
     }
   ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt0038809",
-      "title": "L'orecchio (1946)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0039151",
-      "title": "Anfiteatro Flavio (1947)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt0039560",
-      "title": "Legenda Sinfonica (1947)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt0039798",
-      "title": "Santa notte (1947)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt0042014",
-      "title": "Variazioni sinfoniche (1949)",
-      "reason": "Documentary, Short"
-    },
-    {
-      "imdbId": "tt5887260",
-      "title": "Capriccio musicale (1950)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0064750",
-      "title": "\"Odissea\" (1968) (mini)",
-      "reason": "tv mini series"
-    },
-    {
-      "imdbId": "tt2786254",
-      "title": "\"I giochi del diavolo\" (1981) (mini)",
-      "reason": "tv mini series"
-    }
-  ]
+  "excludedTitles": []
 }

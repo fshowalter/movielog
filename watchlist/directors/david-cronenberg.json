@@ -5,11 +5,35 @@
   "titles": [
     {
       "imdbId": "tt0065036",
-      "title": "Stereo (Tile 3B of a CAEE Educational Mosaic) (1969)"
+      "title": "Stereo (1969)"
     },
     {
       "imdbId": "tt0065591",
       "title": "Crimes of the Future (1970)"
+    },
+    {
+      "imdbId": "tt0249479",
+      "title": "Don Valley (1972) (TV)"
+    },
+    {
+      "imdbId": "tt0249519",
+      "title": "Fort York (1972) (TV)"
+    },
+    {
+      "imdbId": "tt0249595",
+      "title": "In the Dirt (1972) (TV)"
+    },
+    {
+      "imdbId": "tt0249678",
+      "title": "Lakeshore (1972) (TV)"
+    },
+    {
+      "imdbId": "tt0249941",
+      "title": "Scarborough Bluffs (1972) (TV)"
+    },
+    {
+      "imdbId": "tt0250117",
+      "title": "Winter Garden (1972) (TV)"
     },
     {
       "imdbId": "tt0073705",
@@ -104,121 +128,5 @@
       "title": "The Shrouds (2024)"
     }
   ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt0061114",
-      "title": "Transfer (1966)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0061687",
-      "title": "From the Drain (1967)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0246383",
-      "title": "\"Programme X\" (1970)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0067273",
-      "title": "Jim Ritchie Sculptor (1971) (TV)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0249707",
-      "title": "Letter from Michelangelo (1971) (TV)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0250055",
-      "title": "Tourettes (1971) (TV)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0249479",
-      "title": "Don Valley (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0249519",
-      "title": "Fort York (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0249595",
-      "title": "In the Dirt (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0249678",
-      "title": "Lakeshore (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0249941",
-      "title": "Scarborough Bluffs (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0250117",
-      "title": "Winter Garden (1972) (TV)",
-      "reason": "Short, tv movie"
-    },
-    {
-      "imdbId": "tt0250905",
-      "title": "\"Peep Show\" (1975)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0250924",
-      "title": "\"Teleplay\" (1976)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt8242172",
-      "title": "\"Canadian Reflections\" (1978)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0092357",
-      "title": "\"Friday the 13th: The Series\" (1987)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0180977",
-      "title": "\"Scales of Justice\" (1990)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0260776",
-      "title": "Camera (2000)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt21806974",
-      "title": "A History of Violence: Deleted Scene - Scene 44 (2006) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt14148306",
-      "title": "At the Suicide of the Last Jew in the World in the Last Cinema in the World (2007)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt3831484",
-      "title": "The Nest (2013)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt3715254",
-      "title": "Consumed (2014) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt15482624",
-      "title": "The Death of David Cronenberg (2021) (V)",
-      "reason": "Short"
-    }
-  ]
+  "excludedTitles": []
 }
