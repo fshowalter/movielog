@@ -24,10 +24,6 @@
       "title": "Gold of the Seven Saints (1961)"
     },
     {
-      "imdbId": "tt0055718",
-      "title": "13 West Street (1962)"
-    },
-    {
       "imdbId": "tt0056059",
       "title": "Hatari! (1962)"
     },
@@ -49,6 +45,11 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0055718",
+      "title": "13 West Street (1962)",
+      "reason": "not screenwriter"
+    },
     {
       "imdbId": "tt4160192",
       "title": "The Empire Strikes Back Uncut: Director's Cut (2014) (V)",

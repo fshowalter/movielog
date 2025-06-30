@@ -11,8 +11,6 @@ from movielog.repository.imdb_http_person import (
 )
 from movielog.utils.get_nested_value import get_nested_value
 
-TIMEOUT = 30
-
 
 def _edge_title_is_not_uncredtied(edge: UntypedJson) -> bool:
     attributes: list[UntypedJson] = get_nested_value(edge, ["node", "attributes"]) or []

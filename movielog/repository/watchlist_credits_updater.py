@@ -5,6 +5,7 @@ from pathlib import Path
 
 from movielog.repository import (
     imdb_http_director,
+    imdb_http_performer,
     imdb_http_writer,
     json_watchlist_people,
     watchlist_serializer,
@@ -37,22 +38,20 @@ def _get_title_credits_from_name_pages_for_credit_kind(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
     kind: CreditKind,
 ) -> set[TitleCredit]:
+    method_map = {
+        "director": imdb_http_director.get_director,
+        "writer": imdb_http_writer.get_writer,
+        "performer": imdb_http_performer.get_performer,
+    }
+
     if isinstance(watchlist_person["imdbId"], str):
-        if kind == "director":
-            director = imdb_http_director.get_director(watchlist_person["imdbId"])
-            return set(director.credits)
-        if kind == "writer":
-            writer = imdb_http_writer.get_writer(watchlist_person["imdbId"])
-            return set(writer.credits)
+        person = method_map[kind](watchlist_person["imdbId"])
+        return set(person.credits)
 
     filmographies: list[set[TitleCredit]] = []
     for imdb_id in watchlist_person["imdbId"]:
-        if kind == "director":
-            director = imdb_http_director.get_director(imdb_id)
-            filmographies.append(set(director.credits))
-        elif kind == "writer":
-            writer = imdb_http_writer.get_writer(imdb_id)
-            filmographies.append(set(writer.credits))
+        person = method_map[kind](imdb_id)
+        filmographies.append(set(person.credits))
 
     return set.intersection(*filmographies)
 
