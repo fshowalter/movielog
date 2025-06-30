@@ -13,6 +13,10 @@ def prompt() -> None:
             "Update <cyan>page</cyan> data (<cyan>cast</cyan>, <cyan>genres</cyan>, <cyan>release date</cyan>, and <cyan>countries</cyan>).",  # noqa: E501
         ),
         (
+            repository_api.update_watchlist_credits,
+            "Update <cyan>watchlist titles</cyan> for <cyan>directors</cyan>, <cyan>performers</cyan>, and <cyan>writers</cyan>.",  # noqa: E501
+        ),
+        (
             repository_api.validate_data,
             "<cyan>Validate title data.</cyan>",
         ),
