@@ -6,7 +6,6 @@ readme = "README.md"
 requires-python = "==3.13.5"
 dependencies = [
   "beautifulsoup4==4.13.4",
-  "cinemagoer",
   "loguru==0.7.3",
   "prompt-toolkit==3.0.51",
   "pycountry>=24.6.1",
@@ -18,9 +17,6 @@ dependencies = [
 [tool.uv]
 required-version = ">=0.5.31"
 package = true
-
-[tool.uv.sources]
-cinemagoer = { git = "https://github.com/cinemagoer/cinemagoer" }
 
 [project.scripts]
 movielog = "movielog.cli.main:prompt"
