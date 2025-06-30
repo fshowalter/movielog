@@ -21,7 +21,7 @@ class TitleCredit:
 
 
 @dataclass
-class PersonPage:
+class ImdbPerson:
     imdb_id: str
     credits: list[TitleCredit]
 

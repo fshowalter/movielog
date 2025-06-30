@@ -3,7 +3,12 @@ from __future__ import annotations
 from copy import deepcopy
 from pathlib import Path
 
-from movielog.repository import imdb_http_director, json_watchlist_people, watchlist_serializer
+from movielog.repository import (
+    imdb_http_director,
+    imdb_http_writer,
+    json_watchlist_people,
+    watchlist_serializer,
+)
 from movielog.repository.imdb_http_person import CreditKind, TitleCredit
 from movielog.repository.json_watchlist_titles import JsonTitle
 from movielog.utils import path_tools
@@ -34,14 +39,20 @@ def _get_title_credits_from_name_pages_for_credit_kind(
 ) -> set[TitleCredit]:
     if isinstance(watchlist_person["imdbId"], str):
         if kind == "director":
-            person_page = imdb_http_director.get_director_page(watchlist_person["imdbId"])
-            return set(person_page.credits)
+            director = imdb_http_director.get_director(watchlist_person["imdbId"])
+            return set(director.credits)
+        if kind == "writer":
+            writer = imdb_http_writer.get_writer(watchlist_person["imdbId"])
+            return set(writer.credits)
 
     filmographies: list[set[TitleCredit]] = []
     for imdb_id in watchlist_person["imdbId"]:
         if kind == "director":
-            person_page = imdb_http_director.get_director_page(imdb_id)
-            filmographies.append(set(person_page.credits))
+            director = imdb_http_director.get_director(imdb_id)
+            filmographies.append(set(director.credits))
+        elif kind == "writer":
+            writer = imdb_http_writer.get_writer(imdb_id)
+            filmographies.append(set(writer.credits))
 
     return set.intersection(*filmographies)
 

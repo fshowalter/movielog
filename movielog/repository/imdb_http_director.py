@@ -1,7 +1,7 @@
 import requests
 
 from movielog.repository.imdb_http_person import (
-    PersonPage,
+    ImdbPerson,
     UntypedJson,
     call_graphql,
     create_session,
@@ -24,12 +24,12 @@ def _edge_is_valid_title_for_director(edge: UntypedJson) -> bool:
     return edge_is_valid_title(edge) & _edge_title_is_not_uncredtied(edge)
 
 
-def _build_director_page(
+def _build_director(
     imdb_id: str,
     session: requests.Session,
     credits_data: UntypedJson,
-) -> PersonPage:
-    director_page = PersonPage(imdb_id=imdb_id, credits=[])
+) -> ImdbPerson:
+    director = ImdbPerson(imdb_id=imdb_id, credits=[])
 
     paginated_credits: UntypedJson = next(
         (
@@ -43,7 +43,7 @@ def _build_director_page(
         {},
     )
 
-    director_page.credits.extend(
+    director.credits.extend(
         title_credit_for_edge(edge=edge)
         for edge in get_nested_value(paginated_credits, ["edges"], [])
         if _edge_is_valid_title_for_director(edge)
@@ -71,7 +71,7 @@ def _build_director_page(
             extensions=query_extensions,
         )
 
-        director_page.credits.extend(
+        director.credits.extend(
             title_credit_for_edge(edge=next_page_edge)
             for next_page_edge in get_nested_value(
                 next_page_data, ["data", "name", "director_credits", "edges"], []
@@ -79,12 +79,12 @@ def _build_director_page(
             if _edge_is_valid_title_for_director(next_page_edge)
         )
 
-    return director_page
+    return director
 
 
-def get_director_page(imdb_id: str) -> PersonPage:
+def get_director(imdb_id: str) -> ImdbPerson:
     session = create_session()
 
     credits_data = get_credits(session=session, imdb_id=imdb_id)
 
-    return _build_director_page(imdb_id=imdb_id, session=session, credits_data=credits_data)
+    return _build_director(imdb_id=imdb_id, session=session, credits_data=credits_data)
