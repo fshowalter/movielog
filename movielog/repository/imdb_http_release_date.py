@@ -45,8 +45,8 @@ class PageData(TypedDict):
     props: Props
 
 
-def _unknown_date(release_year: str) -> str:
-    return "{}-??-??".format(release_year or "????")
+def _unknown_date(release_year: int) -> str:
+    return "{}-??-??".format(str(release_year) or "????")
 
 
 def _get_release_date_page_data(imdb_id: str) -> PageData:
@@ -101,7 +101,7 @@ def _parse_first_release_date(page_data: PageData) -> str | None:
     return release_date["listContent"][0]["text"]
 
 
-def get_release_date(imdb_id: str, release_year: str) -> str:
+def get_release_date(imdb_id: str, release_year: int) -> str:
     page_data = _get_release_date_page_data(imdb_id=imdb_id)
 
     first_release_date = _parse_first_release_date(page_data=page_data)

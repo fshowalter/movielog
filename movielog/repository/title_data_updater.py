@@ -4,7 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import credit_notes_validator, imdb_http, json_titles
+from movielog.repository import credit_notes_validator, imdb_http_title, json_titles
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
@@ -54,7 +54,7 @@ def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
 
 
 def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
-    imdb_title_page = imdb_http.get_title_page(json_title["imdbId"])
+    imdb_title_page = imdb_http_title.get_title_page(json_title["imdbId"])
 
     json_title["releaseDate"] = imdb_title_page.release_date
     json_title["countries"] = imdb_title_page.countries
@@ -65,9 +65,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             name=director.name,
         )
         for director in imdb_title_page.credits["director"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            director.notes, "director"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(director.notes, "director")[0]
     ]
 
     json_title["performers"] = [
@@ -77,9 +75,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             roles=performer.roles,
         )
         for performer in imdb_title_page.credits["performer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            performer.notes, "performer"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(performer.notes, "performer")[0]
     ]
     json_title["writers"] = [
         json_titles.JsonWriter(
@@ -88,9 +84,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             notes=writer.notes,
         )
         for writer in imdb_title_page.credits["writer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(
-            writer.notes, "writer"
-        )[0]
+        if credit_notes_validator.credit_notes_are_valid_for_kind(writer.notes, "writer")[0]
     ]
 
 
@@ -136,10 +130,8 @@ def update_from_imdb_pages() -> None:
 
             updated_title = deepcopy(json_title)
 
-            try:
-                _update_json_title_with_title_page_data(updated_title)
-            except imdb_http.IMDbDataAccessError:
-                return
+            _update_json_title_with_title_page_data(updated_title)
+
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
             progress_file.write("{}\n".format(json_title["slug"]))

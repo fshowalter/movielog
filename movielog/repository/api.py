@@ -16,7 +16,6 @@ from movielog.repository import (
     markdown_viewings,
     title_data_updater,
     title_data_validator,
-    watchlist_credits_updater,
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
@@ -27,7 +26,6 @@ WATCHLIST_PERSON_KINDS = get_args(WatchlistPersonKind)
 
 db = db_api.db
 
-update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
 
 
@@ -205,9 +203,7 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            release_sequence="{}{}".format(
-                json_title["releaseDate"], json_title["imdbId"]
-            ),
+            release_sequence="{}{}".format(json_title["releaseDate"], json_title["imdbId"]),
             directors=[
                 CreditName(
                     name=director["name"],
@@ -275,9 +271,7 @@ def update_datasets() -> None:
     )
 
     title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
-    imdb_ratings_data_updater.update_for_datasets(
-        dataset_titles=list(dataset_titles.values())
-    )
+    imdb_ratings_data_updater.update_for_datasets(dataset_titles=list(dataset_titles.values()))
 
 
 @dataclass
@@ -301,9 +295,7 @@ def imdb_ratings() -> ImdbRatings:
 
     for imdb_id, rating in json_ratings["titles"].items():
         title_ratings.append(
-            TitleImdbRating(
-                imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"]
-            )
+            TitleImdbRating(imdb_id=imdb_id, votes=rating["votes"], rating=rating["rating"])
         )
 
     return ImdbRatings(
@@ -350,14 +342,10 @@ def new_collection(name: str) -> Collection:
 def add_person_to_watchlist(
     watchlist: WatchlistPersonKind, imdb_id: str, name: str
 ) -> WatchlistPerson:
-    return _hydrate_watchlist_person(
-        json_watchlist_people.create(watchlist, imdb_id, name)
-    )
+    return _hydrate_watchlist_person(json_watchlist_people.create(watchlist, imdb_id, name))
 
 
-def add_title_to_collection(
-    collection: Collection, imdb_id: str, full_title: str
-) -> Collection:
+def add_title_to_collection(collection: Collection, imdb_id: str, full_title: str) -> Collection:
     return _hydrate_collection(
         json_collections.add_title(
             collection_slug=collection.slug, imdb_id=imdb_id, full_title=full_title
