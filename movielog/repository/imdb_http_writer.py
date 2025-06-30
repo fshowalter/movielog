@@ -14,6 +14,12 @@ from movielog.utils.get_nested_value import get_nested_value
 TIMEOUT = 30
 
 
+def _edge_title_job_is_valid(edge: UntypedJson) -> bool:
+    jobs: list[UntypedJson] = get_nested_value(edge, ["node", "jobs"]) or []
+
+    return all("original material" not in job.get("text", "").lower() for job in jobs)
+
+
 def _edge_title_is_not_uncredtied(edge: UntypedJson) -> bool:
     attributes: list[UntypedJson] = get_nested_value(edge, ["node", "attributes"]) or []
 
@@ -21,7 +27,11 @@ def _edge_title_is_not_uncredtied(edge: UntypedJson) -> bool:
 
 
 def _edge_is_valid_title_for_writer(edge: UntypedJson) -> bool:
-    return edge_is_valid_title(edge) & _edge_title_is_not_uncredtied(edge)
+    return (
+        edge_is_valid_title(edge)
+        & _edge_title_is_not_uncredtied(edge)
+        & _edge_title_job_is_valid(edge)
+    )
 
 
 def _build_writer(
