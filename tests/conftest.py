@@ -9,7 +9,7 @@ from unittest.mock import MagicMock
 import pytest
 from pytest_mock import MockerFixture
 
-from movielog.repository import imdb_http, markdown_viewings
+from movielog.repository import markdown_viewings
 from movielog.repository.datasets import downloader
 from movielog.repository.db import db
 
@@ -32,13 +32,8 @@ original_viewings_dir = markdown_viewings.FOLDER_NAME
 
 
 @pytest.fixture(autouse=True)
-def mock_cinemagoer_imdb_http_get_person(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch.object(imdb_http.imdb_http, "get_person")
-
-
-@pytest.fixture(autouse=True)
-def mock_cinemagoer_imdb_http_get_movie(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch.object(imdb_http.imdb_http, "get_movie")
+def mock_imdb_http_get_title(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.repository.imdb_http_title.get_title_page")
 
 
 @pytest.fixture(autouse=True)
@@ -68,9 +63,7 @@ def mock_viewings_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
 
 
 @pytest.fixture(autouse=True)
-def mock_watchlist_serializer_folder_name(
-    mocker: MockerFixture, tmp_path: Path
-) -> None:
+def mock_watchlist_serializer_folder_name(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
         "movielog.repository.watchlist_serializer.FOLDER_NAME",
         Path(tmp_path) / "directors",
