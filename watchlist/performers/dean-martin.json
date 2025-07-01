@@ -127,7 +127,10 @@
       "imdbId": "tt0065377",
       "title": "Airport (1970)"
     },
-
+    {
+      "imdbId": "tt0262030",
+      "title": "Swing Out, Sweet Land (1970) (TV)"
+    },
     {
       "imdbId": "tt0068022",
       "title": "Something Big (1971)"
@@ -147,15 +150,13 @@
     {
       "imdbId": "tt0087032",
       "title": "Cannonball Run II (1984)"
+    },
+    {
+      "imdbId": "tt0089246",
+      "title": "Half Nelson (1985) (TV)"
     }
-    
   ],
   "excludedTitles": [
-    {
-      "imdbId": "tt0362651",
-      "title": "Film Vodvil: Art Mooney and Orchestra (1946)",
-      "reason": "Short"
-    },
     {
       "imdbId": "tt0041673",
       "title": "My Friend Irma (1949)",
@@ -192,16 +193,6 @@
       "reason": "Martin and Lewis"
     },
     {
-      "imdbId": "tt0045094",
-      "title": "Road to Bali (1952)",
-      "reason": "(uncredited)"
-    },
-    {
-      "imdbId": "tt0045410",
-      "title": "\"The Danny Thomas Show\" (1953)",
-      "reason": "tv series"
-    },
-    {
       "imdbId": "tt0045589",
       "title": "The Caddy (1953)",
       "reason": "Martin and Lewis"
@@ -227,11 +218,6 @@
       "reason": "Martin and Lewis"
     },
     {
-      "imdbId": "tt0047763",
-      "title": "\"The Phil Silvers Show\" (1955)",
-      "reason": "tv series"
-    },
-    {
       "imdbId": "tt0047840",
       "title": "Artists and Models (1955)",
       "reason": "Martin and Lewis"
@@ -250,66 +236,6 @@
       "imdbId": "tt0049593",
       "title": "Pardners (1956)",
       "reason": "Martin and Lewis"
-    },
-    {
-      "imdbId": "tt0052504",
-      "title": "\"Rawhide\" (1959)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0055686",
-      "title": "\"The Lucy Show\" (1962)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0056417",
-      "title": "The Road to Hong Kong (1962)",
-      "reason": "(uncredited)"
-    },
-    {
-      "imdbId": "tt0217055",
-      "title": "Something's Got to Give (1962)",
-      "reason": "abandoned"
-    },
-    {
-      "imdbId": "tt0056940",
-      "title": "Come Blow Your Horn (1963)",
-      "reason": "(uncredited)"
-    },
-    {
-      "imdbId": "tt0060169",
-      "title": "Birds Do It (1966)",
-      "reason": "(uncredited)"
-    },
-    {
-      "imdbId": "tt0073972",
-      "title": "\"Charlie's Angels\" (1976)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0077093",
-      "title": "\"Vega$\" (1978)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt29338300",
-      "title": "Dean Martin: Since I Met You Baby (1983)",
-      "reason": "music video"
-    },
-    {
-      "imdbId": "tt0088530",
-      "title": "\"Half Nelson\" (1985)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0262030",
-      "title": "Swing Out, Sweet Land (1970) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0089246",
-      "title": "Half Nelson (1985) (TV)",
-      "reason":"tv movie"
     }
   ]
 }

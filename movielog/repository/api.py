@@ -16,6 +16,7 @@ from movielog.repository import (
     markdown_viewings,
     title_data_updater,
     title_data_validator,
+    watchlist_credits_updater,
 )
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
@@ -26,6 +27,7 @@ WATCHLIST_PERSON_KINDS = get_args(WatchlistPersonKind)
 
 db = db_api.db
 
+update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
 
 

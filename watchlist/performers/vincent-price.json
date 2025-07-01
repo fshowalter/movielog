@@ -76,10 +76,6 @@
       "title": "Moss Rose (1947)"
     },
     {
-      "imdbId": "tt0039391",
-      "title": "Forever Amber (1947)"
-    },
-    {
       "imdbId": "tt0039581",
       "title": "The Long Night (1947)"
     },
@@ -107,7 +103,6 @@
       "imdbId": "tt0041207",
       "title": "The Bribe (1949)"
     },
-    
     {
       "imdbId": "tt0041479",
       "title": "Curtain Call at Cactus Creek (1950)"
@@ -164,7 +159,6 @@
       "imdbId": "tt0051016",
       "title": "The Story of Mankind (1957)"
     },
-    
     {
       "imdbId": "tt0051622",
       "title": "The Fly (1958)"
@@ -193,7 +187,10 @@
       "imdbId": "tt0053925",
       "title": "House of Usher (1960)"
     },
-    
+    {
+      "imdbId": "tt0217090",
+      "title": "Family Classics: The Three Musketeers (1960) (TV)"
+    },
     {
       "imdbId": "tt0054937",
       "title": "Rage of the Buccaneers (1961)"
@@ -210,7 +207,10 @@
       "imdbId": "tt0055304",
       "title": "The Pit and the Pendulum (1961)"
     },
-    
+    {
+      "imdbId": "tt2009474",
+      "title": "Famous Ghost Stories (1961) (TV)"
+    },
     {
       "imdbId": "tt0055864",
       "title": "Confessions of an Opium Eater (1962)"
@@ -271,12 +271,14 @@
       "imdbId": "tt0059895",
       "title": "City in the Sea (1965)"
     },
-
     {
       "imdbId": "tt0061014",
       "title": "Dr. Goldfoot and the Girl Bombs (1966)"
     },
-
+    {
+      "imdbId": "tt1391464",
+      "title": "Clown Alley (1966) (TV)"
+    },
     {
       "imdbId": "tt0061451",
       "title": "House of 1,000 Dolls (1967)"
@@ -313,12 +315,18 @@
       "imdbId": "tt0229371",
       "title": "An Evening of Edgar Allan Poe (1970)"
     },
-   
+    {
+      "imdbId": "tt0301143",
+      "title": "Cucumber Castle (1970) (TV)"
+    },
     {
       "imdbId": "tt0066740",
       "title": "The Abominable Dr. Phibes (1971)"
     },
-    
+    {
+      "imdbId": "tt0067974",
+      "title": "What's a Nice Girl Like You...? (1971) (TV)"
+    },
     {
       "imdbId": "tt0068503",
       "title": "Dr. Phibes Rises Again (1972)"
@@ -335,7 +343,14 @@
       "imdbId": "tt0071790",
       "title": "Madhouse (1974)"
     },
-    
+    {
+      "imdbId": "tt0284316",
+      "title": "Mooch (1974) (TV)"
+    },
+    {
+      "imdbId": "tt0072624",
+      "title": "Alice Cooper: The Nightmare (1975) (TV)"
+    },
     {
       "imdbId": "tt0073213",
       "title": "Journey Into Fear (1975)"
@@ -344,7 +359,10 @@
       "imdbId": "tt0074260",
       "title": "The Butterfly Ball (1977)"
     },
-    
+    {
+      "imdbId": "tt0077071",
+      "title": "Ringo (1978) (TV)"
+    },
     {
       "imdbId": "tt0079858",
       "title": "Scavenger Hunt (1979)"
@@ -354,20 +372,25 @@
       "title": "The Monster Club (1981)"
     },
     {
-      "imdbId": "tt0082121",
-      "title": "Bustin' Loose (1981)"
-    },
-    {
       "imdbId": "tt0085693",
       "title": "House of the Long Shadows (1983)"
     },
-    
-
+    {
+      "imdbId": "tt0184871",
+      "title": "Ruddigore (1983) (TV)"
+    },
+    {
+      "imdbId": "tt0249567",
+      "title": "Hansel and Gretel (1983) (TV)"
+    },
     {
       "imdbId": "tt0086981",
       "title": "Bloodbath at the House of Death (1984)"
     },
-
+    {
+      "imdbId": "tt0091016",
+      "title": "Escapes (1986) (V)"
+    },
     {
       "imdbId": "tt0091671",
       "title": "From a Whisper to a Scream (1987)"
@@ -387,599 +410,11 @@
     {
       "imdbId": "tt0099487",
       "title": "Edward Scissorhands (1990)"
-    }
-    
-  ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt0041037",
-      "title": "\"Lights Out\" (1946)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0040068",
-      "title": "Abbott and Costello Meet Frankenstein (1948)",
-      "reason": "(uncredited) (voice)"
-    },
-    {
-      "imdbId": "tt0041023",
-      "title": "\"Fireside Theatre\" (1949)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt12479588",
-      "title": "\"The Croupier\" (1949) (mini)",
-      "reason": "tv mini series"
-    },
-    {
-      "imdbId": "tt0042116",
-      "title": "\"The Jack Benny Program\" (1950)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0042123",
-      "title": "\"Lux Video Theatre\" (1950)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0042138",
-      "title": "\"Pulitzer Prize Playhouse\" (1950)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0042141",
-      "title": "\"Robert Montgomery Presents\" (1950)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0043224",
-      "title": "\"The Red Skelton Hour\" (1951)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0043228",
-      "title": "\"Schlitz Playhouse\" (1951)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0324840",
-      "title": "\"Gruen Guild Theater\" (1951)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0379096",
-      "title": "\"Chesterfield Presents\" (1952)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0045395",
-      "title": "\"General Electric Theater\" (1953)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0045433",
-      "title": "\"The Philip Morris Playhouse\" (1953)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0045441",
-      "title": "\"Summer Theatre\" (1953)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0045449",
-      "title": "\"The United States Steel Hour\" (1953)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0381727",
-      "title": "\"The Plymouth Playhouse\" (1953)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0046587",
-      "title": "\"Climax!\" (1954)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0046604",
-      "title": "\"The George Gobel Show\" (1954)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0046643",
-      "title": "\"Shower of Stars\" (1954)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0046648",
-      "title": "\"Studio 57\" (1954)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0046834",
-      "title": "Casanova's Big Night (1954)",
-      "reason": "(uncredited)"
-    },
-    {
-      "imdbId": "tt0048663",
-      "title": "Born in Freedom: The Story of Colonel Drake (1954)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt1982867",
-      "title": "The Orange Coast College Story (1954)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0047707",
-      "title": "\"The Alcoa Hour\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047708",
-      "title": "\"Alfred Hitchcock Presents\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047724",
-      "title": "\"Crossroads\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047730",
-      "title": "\"The Eddie Cantor Comedy Theater\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047745",
-      "title": "\"Jane Wyman Presents the Fireside Theatre\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047756",
-      "title": "\"Matinee Theatre\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047767",
-      "title": "\"Science Fiction Theatre\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0047780",
-      "title": "\"TV Reader's Digest\" (1955)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0048893",
-      "title": "\"Playhouse 90\" (1956)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0049909",
-      "title": "The Vagabond King (1956)",
-      "reason": "(uncredited) (voice)"
-    },
-    {
-      "imdbId": "tt0050025",
-      "title": "\"Have Gun - Will Travel\" (1957)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt12453326",
-      "title": "Chesscetera (1957)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt10525134",
-      "title": "\"Campy's Corner\" (1958)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0052440",
-      "title": "\"Adventures in Paradise\" (1959)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0052506",
-      "title": "\"Riverboat\" (1959)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0052511",
-      "title": "\"Startime\" (1959)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0053539",
-      "title": "\"The Chevy Mystery Show\" (1960)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0360247",
-      "title": "\"The Best of the Post\" (1960)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt7611730",
-      "title": "\"Expedition!\" (1960)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0056748",
-      "title": "\"The Danny Kaye Show\" (1963)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0057742",
-      "title": "\"Daniel Boone\" (1964)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0057765",
-      "title": "\"The Man from U.N.C.L.E.\" (1964)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0057798",
-      "title": "\"Voyage to the Bottom of the Sea\" (1964)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt17634020",
-      "title": "Tombstone's Historama (1964)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0058800",
-      "title": "\"F Troop\" (1965)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0058805",
-      "title": "\"Get Smart\" (1965)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0165593",
-      "title": "\"BBC Play of the Month\" (1965)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0059968",
-      "title": "\"Batman\" (1966)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0061240",
-      "title": "\"The Carol Burnett Show\" (1967)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0062601",
-      "title": "\"Rowan & Martin's Laugh-In\" (1967)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0062567",
-      "title": "\"The Good Guys\" (1968)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0062570",
-      "title": "\"Here's Lucy\" (1968)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0062589",
-      "title": "\"Mod Squad\" (1968)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0063715",
-      "title": "Spirits of the Dead (1968)",
-      "reason": "(uncredited) (voice)"
-    },
-    {
-      "imdbId": "tt0063878",
-      "title": "\"The Brady Bunch\" (1969)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0063925",
-      "title": "\"Love, American Style\" (1969)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0065327",
-      "title": "\"Night Gallery\" (1969)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt2006687",
-      "title": "World Wide Adventures: Annabel Lee (1969)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0066644",
-      "title": "\"Curiosity Shop\" (1971)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0066662",
-      "title": "\"Chevrolet Presents the Golddiggers\" (1971)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0066670",
-      "title": "\"The Hilarious House of Frightenstein\" (1971)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0066673",
-      "title": "\"The Jimmy Stewart Show\" (1971)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0071416",
-      "title": "The Devil's Triangle (1971)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt0249577",
-      "title": "Here Comes Peter Cottontail (1971) (TV)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt1466074",
-      "title": "\"Columbo\" (1971)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0069633",
-      "title": "\"The Snoop Sisters\" (1972)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0072496",
-      "title": "\"Ellery Queen\" (1975)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0073985",
-      "title": "\"Donny and Marie\" (1975)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0075419",
-      "title": "Alice Cooper: Welcome to My Nightmare (Concert Feature) (1975)",
-      "reason": "Documentary"
-    },
-    {
-      "imdbId": "tt4773444",
-      "title": "\"Consumer Survival Kit\" (1975)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0073965",
-      "title": "\"The Bionic Woman\" (1976)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0075485",
-      "title": "\"The Brady Bunch Variety Hour\" (1976)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt2388808",
-      "title": "\"Standing Room Only\" (1976)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0075529",
-      "title": "\"The Love Boat\" (1977)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0362824",
-      "title": "Lindsay Wagner: Another Side of Me (1977)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt2730240",
-      "title": "L\u00e9gendes du Qu\u00e9bec (1977)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0078327",
-      "title": "The Strange Case of Alice Cooper (1979) (TV)",
-      "reason": "music video"
-    },
-    {
-      "imdbId": "tt0078702",
-      "title": "\"Time Express\" (1979)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0078704",
-      "title": "\"Trapper John, M.D.\" (1979)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0087925",
-      "title": "I Go Pogo (1980)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt1475429",
-      "title": "The Sorcerer's Apprentice (1980)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt8263566",
-      "title": "Chris and the Magical Drip (1981) (TV)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt0083975",
-      "title": "Fun with Mr. Future (1982)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0084868",
-      "title": "Vincent (1982)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0199214",
-      "title": "\"Faerie Tale Theatre\" (1982)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0088263",
-      "title": "Michael Jackson: Thriller (1983)",
-      "reason": "music video"
-    },
-    {
-      "imdbId": "tt0088628",
-      "title": "\"The 13 Ghosts of Scooby-Doo\" (1985)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt3579746",
-      "title": "Simon & Schuster Communications (1985) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt5090166",
-      "title": "\"The Greatest Adventure: Stories from the Bible\" (1985)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0090398",
-      "title": "\"Blacke's Magic\" (1986)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0091149",
-      "title": "The Great Mouse Detective (1986)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt0300143",
-      "title": "The Little Troll Prince (1987) (TV)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt0302848",
-      "title": "The Nativity (1987) (V)",
-      "reason": "Short"
-    },
-    {
-      "imdbId": "tt0378792",
-      "title": "Sparky's Magic Piano (1987) (V)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt4792484",
-      "title": "\"Read, Write and Draw\" (1987)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt12373420",
-      "title": "Ghost Ship (1988) (TV)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt0098929",
-      "title": "\"Tiny Toon Adventures\" (1990)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0112389",
-      "title": "The Thief and the Cobbler (1993)",
-      "reason": "(voice)"
-    },
-    {
-      "imdbId": "tt29732758",
-      "title": "Synthwave Horror: House on Haunted Hill (2023)",
-      "reason": "archive footage"
     },
     {
       "imdbId": "tt0104400",
-      "title": "The Heart of Justice (1992) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0067974",
-      "title": "What's a Nice Girl Like You...? (1971) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0225394",
-      "title": "The Christmas Carol (1949) (TV)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt0120937",
-      "title": "Collector's Item: The Left Fist of David (1957) (TV)",
-      "reason": "tv pilot"
-    },
-    {
-      "imdbId": "tt0217090",
-      "title": "Family Classics: The Three Musketeers (1960) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt2009474",
-      "title": "Famous Ghost Stories (1961) (TV)",
-      "reason": "tv pilot"
-    },
-    {
-      "imdbId": "tt1391464",
-      "title": "Clown Alley (1966) (TV)",
-      "reason": "tv series"
-    },
-    {
-      "imdbId": "tt0309072",
-      "title": "The Wild Weird World of Dr. Goldfoot (1965) (TV)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt0077071",
-      "title": "Ringo (1978) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0284316",
-      "title": "Mooch (1974) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0072624",
-      "title": "Alice Cooper: The Nightmare (1975) (TV)",
-      "reason": "tv special"
-    },
-    {
-      "imdbId": "tt0301143",
-      "title": "Cucumber Castle (1970) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0184871",
-      "title": "Ruddigore (1983) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0091016",
-      "title": "Escapes (1986) (TV)",
-      "reason": "tv movie"
-    },
-    {
-      "imdbId": "tt0249567",
-      "title": "Hansel and Gretel (1983) (TV)",
-      "reason": "tv special"
+      "title": "The Heart of Justice (1992) (TV)"
     }
-  ]
+  ],
+  "excludedTitles": []
 }

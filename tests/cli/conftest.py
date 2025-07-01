@@ -16,7 +16,7 @@ MockInput = Callable[[Sequence[str]], None]
 def mock_input() -> Generator[MockInput]:
     with create_pipe_input() as pipe_input, create_app_session(input=pipe_input):
 
-        def factory(input_sequence: Sequence[str]) -> None:  # noqa: WPS 430
+        def factory(input_sequence: Sequence[str]) -> None:
             pipe_input.send_text("".join(input_sequence))
 
         yield factory
