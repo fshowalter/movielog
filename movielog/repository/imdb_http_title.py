@@ -32,13 +32,10 @@ class NameCredit:
 @dataclass
 class TitlePage:
     imdb_id: str
-    production_status: str | None
-    kind: str
     credits: dict[CreditKind, list[NameCredit]]
     full_title: str
     genres: list[str]
     countries: list[str]
-    sound_mix: set[str]
     release_date: str
 
 
@@ -83,25 +80,6 @@ def _build_name_credits_for_title_page(
     return name_credits
 
 
-def _parse_production_status(page_data: UntypedJson) -> str | None:
-    status = get_nested_value(
-        page_data,
-        [
-            "props",
-            "pageProps",
-            "mainColumnData",
-            "productionStatus",
-            "currentProductionStage",
-            "id",
-        ],
-        None,
-    )
-
-    assert isinstance(status, str | None)
-
-    return status
-
-
 def _parse_title(page_data: UntypedJson) -> str:
     title = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "titleText", "text"], None
@@ -122,16 +100,6 @@ def _parse_year(page_data: UntypedJson) -> int:
     return year
 
 
-def _parse_kind(page_data: UntypedJson) -> str:
-    kind = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "titleType", "id"], "Unknown"
-    )
-
-    assert isinstance(kind, str)
-
-    return kind
-
-
 def _parse_genres(page_data: UntypedJson) -> list[str]:
     genres = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "genres", "genres"], []
@@ -146,16 +114,6 @@ def _parse_countries(page_data: UntypedJson) -> list[str]:
     )
 
     return [pycountry.countries.get(alpha_2=country["id"]).name for country in countries]
-
-
-def _parse_sound_mix(page_data: UntypedJson) -> set[str]:
-    sound_mixes = get_nested_value(
-        page_data,
-        ["props", "pageProps", "mainColumnData", "technicalSpecifications", "soundMixes", "item"],
-        [],
-    )
-
-    return {mix["text"] for mix in sound_mixes}
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
@@ -189,12 +147,9 @@ def get_title_page(imdb_id: str) -> TitlePage:
 
     return TitlePage(
         imdb_id=imdb_id,
-        production_status=_parse_production_status(page_data),
-        kind=_parse_kind(page_data),
         full_title=_parse_title(page_data),
         genres=_parse_genres(page_data),
         countries=_parse_countries(page_data),
-        sound_mix=_parse_sound_mix(page_data),
         credits=_build_name_credits_for_title_page(page_data),
         release_date=get_release_date(imdb_id, _parse_year(page_data)),
     )
