@@ -4,10 +4,6 @@
   "imdbId": "nm0000958",
   "titles": [
     {
-      "imdbId": "tt4372024",
-      "title": "The Concrete Vision (1962) (TV)"
-    },
-    {
       "imdbId": "tt0059258",
       "title": "Having a Wild Weekend (1965)"
     },
@@ -76,5 +72,11 @@
       "title": "Queen & Country (2014)"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt4372024",
+      "title": "The Concrete Vision (1962) (TV)",
+      "reason": "documentary"
+    }
+  ]
 }
