@@ -65,6 +65,12 @@ def _edge_title_release_year_is_not_1927_or_later(edge: UntypedJson) -> bool:
     return title_year >= 1927
 
 
+def _edge_title_is_at_least_40_minutes(edge: UntypedJson) -> bool:
+    runtime_in_seconds: int = get_nested_value(edge, ["node", "title", "runtime", "seconds"], 0)
+
+    return runtime_in_seconds >= 2400
+
+
 def _edge_title_has_no_invalid_genres(edge: UntypedJson) -> bool:
     genres = (
         get_nested_value(genre, ["genre", "text"])
@@ -80,6 +86,7 @@ def edge_is_valid_title(edge: UntypedJson) -> bool:
         & _edge_title_is_valid_type(edge)
         & _edge_title_has_no_invalid_genres(edge)
         & _edge_title_release_year_is_not_1927_or_later(edge)
+        & _edge_title_is_at_least_40_minutes(edge)
     )
 
 

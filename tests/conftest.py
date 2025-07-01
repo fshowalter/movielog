@@ -37,6 +37,21 @@ def mock_imdb_http_get_title(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
+def mock_imdb_http_get_director(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.repository.imdb_http_director.get_director")
+
+
+@pytest.fixture(autouse=True)
+def mock_imdb_http_get_performer(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.repository.imdb_http_performer.get_performer")
+
+
+@pytest.fixture(autouse=True)
+def mock_imdb_http_get_writer(mocker: MockerFixture) -> MagicMock:
+    return mocker.patch("movielog.repository.imdb_http_writer.get_writer")
+
+
+@pytest.fixture(autouse=True)
 def mock_download_dir(mocker: MockerFixture, tmp_path: Path) -> None:
     mocker.patch(
         "movielog.repository.datasets.downloader.DOWNLOAD_DIR",
