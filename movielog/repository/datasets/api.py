@@ -17,11 +17,6 @@ TITLE_AKAS_FILE_NAME = "title.akas.tsv.gz"
 AllowList = {
     "tt0148615",  # Play Motel (1979) [X]
     "tt0070696",  # The Sinful Dwarf (1973) [X]
-    "tt0174456",  # Alice in Russialand (1995) [no principal cast]
-    "tt0199716",  # A Life in the Theatre (1979) [no principal cast]
-    "tt0084568",  # The Rainmaker (1982) [no principal cast]
-    "tt6883152",  # The Devil and Father Amorth (2017) [no principal cast]
-    "tt2608220",  # The Vatican (2013) [no principal cast]
     "tt0839995",  # Superman II: The Richard Donner Cut [no principal cast -- all "archive footage"]
 }
 
@@ -37,6 +32,8 @@ def title_fields_are_valid(fields: extractor.DatasetFields) -> bool:
     if fields[5] is None:  # no year
         return False
     if fields[7] is None:  # no runtime
+        return False
+    if int(fields[7]) < 40:  # less than 40 minutes
         return False
 
     return "Documentary" not in (fields[8] or "")
@@ -56,7 +53,7 @@ def extract_titles(title_basics_file_path: Path) -> dict[str, DatasetTitle]:
                 original_title=str(fields[3]),
                 full_title=f"{title} ({year})",
                 year=year,
-                runtime_minutes=int(str(fields[7])) if fields[7] else None,
+                runtime_minutes=int(str(fields[7])),
                 principal_cast=[],
                 aka_titles=[],
                 imdb_votes=None,
@@ -146,9 +143,7 @@ def prune_titles_with_no_principal_cast(
     )
 
 
-def extract_names(
-    file_path: Path, titles: dict[str, DatasetTitle]
-) -> dict[str, DatasetName]:
+def extract_names(file_path: Path, titles: dict[str, DatasetTitle]) -> dict[str, DatasetName]:
     names: dict[str, DatasetName] = {}
 
     for fields in extractor.extract(file_path):
