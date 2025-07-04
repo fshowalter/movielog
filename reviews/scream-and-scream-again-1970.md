@@ -1,34 +1,30 @@
 ---
 imdb_id: tt0064949
-title: Scream and Scream Again (1970)
 slug: scream-and-scream-again-1970
 grade: B-
-date: 2024-10-16
+date: 2025-07-04
+synopsis: A detective investigating a string of vampire-like murders uncovers a far-reaching conspiracy involving mysterious surgeon Vincent Price and shadowy government official Christopher Lee.
 ---
 
-For the first fifteen minutes, I was lost.
+Here's a curious entry: a British horror that spends most of its time pretending to be a police procedural, throws in some Cold War paranoia, and features three of horror's greatest stars in what amounts to extended cameos. The remarkable thing about _Scream and Scream Again_ is not that it works despite these eccentricities, but that it works because of them.
 
-<!-- end -->
+The film opens juggling three disparate storylines. We have a jogger who wakes up in a hospital to discover his leg has been amputated (and the nightmare is just beginning). We have a fascist state where an intelligence officer named Konratz dispatches his superiors with a Vulcan death grip. And we have London police investigating a series of murders where young women are found drained of blood.
 
-_Scream and Scream Again_ cuts between three disconnected plot threads with no context or through-line. It’s not a bad thing. I found it a refreshing change that forced my attention. A warning though, these threads hold many surprises. Revealing them may spoil some of the film’s fun.
+For the first fifteen minutes, I was lost. This is intentional, and it's the film's greatest strength. By refusing to provide easy connections or comfortable exposition, director Gordon Hessler forces us to pay attention in a way that conventional horror films rarely demand.
 
-As the credits roll, we see a man jogging through a park in 1970s London. He collapses, clutching his chest, and wakes up in a hospital bed. A nurse attends him but refuses to answer any of his questions. The nurse leaves and the man screams in horror as he realizes one of his legs has been amputated.
+The police procedural, which dominates the screen time, is surprisingly effective. Alfred Marks plays Detective Superintendent Bellaver with such matter-of-fact competence that when he casually dislodges a superhuman killer from a cliff face with a well-thrown rock, his deadpan "Right, get 'em" elicited a surprising guffaw. The eighteen minute chase that precedes this moment holds its own as one of the better action sequences of the period, thanks to the shots from the driver’s POV, putting us in the car weaving in and out of traffic, with each bend or turn potentially masking an oncoming car. 
 
-Cut to another thread involving an intelligence officer named Konratz returning to his unnamed Eastern-European country. The large military presence and proliferation of black and red symbols indicate a fascist regime. Konratz receives a reprimand from his superior, after which Konratz steps behind his superior, places his hand on the man’s shoulder, Vulcan nerve pinch-style, and kills him.
+And about those famous names on the marquee: Vincent Price, Christopher Lee, and Peter Cushing barely register as an ensemble. Amicus producer Milton Stubosky negotiated Vincent Price down from his standard rate of $75,000 to $40,000, and used the savings to book three days of Lee's time, and one day of Cushing's.[^1]
 
-Cut to the third thread. In London, Detective Superintendent Bellaver investigates the rape and murder of a young woman found drained of blood. Accompanied by a young forensic pathologist named Sorel, Bellaver visits the woman’s employer, a cancer researcher.
+Thus, Cushing appears in a single scene, while Lee appears in a mere handful. Only Price gets substantial screen time, and he's clearly lost but enjoying himself as a scientist whose experiments in human enhancement have gotten rather out of hand. As Lee later revealed, neither he nor Price understood the script.[^2]
 
-These disparate plots don’t converge until the film’s final fifteen minutes, which proffers a resolution that still leaves several unanswered questions. Cramming three movies worth of plot into ninety-five minutes means there will be casualties. This will rub some folks the wrong way, but I liked the ambiguity. It provides the film a resonance, allowing you to conjure theories and see if they fit.
+Indeed, the film walks a tonal tightrope between serious thriller and high camp. When the three plot threads finally converge in the last fifteen minutes, the explanation is completely preposterous--but it's grounded in recognizable anxieties about political power, scientific arrogance, and the mythology of the perfect Soviet superman. 
 
-If you’re aware of the film, you might be surprised that I’ve yet to mention its three top-billed stars: Vincent Price, Christopher Lee, and Peter Cushing. That’s because they don’t factor much. Like the script’s structure, this isn’t a bad thing, but folks expecting them to lead the film will be disappointed to discover Cushing’s role amounts to a single-scene cameo (where his would-be Eastern European accent comes and goes) and Lee and Price play supporting roles and only share a single scene. Price’s role proves the only one of consequence, and thus his fans will be the least disappointed as he delivers his usual turn and gets the most screen time of the three.
+Though he takes bottom-line billing to the horror icons, Michael Gothard deserves special mention as the "Vampire Killer." He brings a combination of charm and menace that makes him genuinely unsettling. When he scales that cliff at inhuman speed, Gothard sells the moment not through special effects but through the conviction of his performance.
 
-The bulk of the film comprises a police-procedural as Bellaver and Sorel track the so-called “Vampire Killer,” who’s played with a convincing combination of charm and menace by Michael Gothard. A honeypot trap in a London disco snares him, leading to an effective car chase capped with a memorable finale that sees the killer scaling an almost sheer cliff at superhuman speed. The police stand stupefied until Bellaver picks up a rock and throws it, dislodging the perpetrator and sending him tumbling to the ground, after which Bellaver says matter-of-factly, “Right, get ‘em.” Indeed, Bellaver is so competent and Alfred Marks is so entertaining in the role, I wish they would have spun his character into a franchise.
+The film's greatest weakness is also its greatest strength: it leaves many questions unanswered. Some viewers will find this frustrating, but I found it refreshing. In an era when horror films often over-explain their mysteries, _Scream and Scream Again_ trusts us to fill in the blanks and draw our own conclusions. 
 
-This scene also proves crucial to maintaining the film’s tightwire tone straddling serious paranoid thriller and high concept camp. When the plot threads finally coalesce, the finale proves preposterous on the slightest introspection. But beneath its absurdity, it’s grounded in a conceivable world of political power plays, careerist aspirations, and intellectual arrogance. Viewed through that lens, the fantastical elements take on a satirical quality lampooning the mythical Soviet superman.
-
-Director Gordon Hessler seems to grasp this dichotomy as he often uses a hand-held, documentary-like approach to the procedural elements, further grounding them in a gritty realism. The car chase through suburban London thrills thanks to the shots from the driver’s POV, putting us in the car with the pursuers as they weave in and out of traffic, with each bend or turn potentially masking an oncoming car.
-
-Still, as I said, folks expecting a film led by the three top-billed stars will be disappointed. As will folks hoping for a gothic horror. The setting and Hessler’s style are decidedly contemporary. But fans of British horror should enjoy it, even if they’ve been lukewarm to Amicus’s other efforts. It’s an underrated gem.
+That ambiguity only amplifies its paranoid undertones. This is not the gothic Hammer horror that fans of the three stars might expect. It's contemporary, gritty, and surprisingly thoughtful about the intersection of science, politics, and human nature. It's the kind of film that gets better the more you think about it, which is more than can be said for most horror movies of any era.
 
 ---
 
@@ -54,7 +50,7 @@ But what if, instead, Hammer had made this movie, with one slight change? What i
 >
 > The man in the lab coat offers no response.
 >
-> OFICER (hesitantly):<br>
+> OFFICER (hesitantly):<br>
 > It was him.
 >
 > The man in the lab coat stops and turns, revealing himself as Cushing.
@@ -69,3 +65,6 @@ But what if, instead, Hammer had made this movie, with one slight change? What i
 Wouldn’t that be something? Reinventing the Frankenstein franchise as a contemporary paranoid thriller, with Cushing and Lee once again opposite one-another. Later entries could focus on either star, as they fleshed out the world and explored contemporary Cold War fears.
 
 Sadly, Hammer was too late to abandon its period horrors. Their late-to-the-party attempt at contemporary horror, <span data-imdb-id="tt0075334">_To the Devil a Daughter_</span>, made in the wake of <span data-imdb-id="tt0063522">_Rosemary’s Baby_</span>’s commercial success, was their last theatrical feature. Maybe pivoting earlier with a movie like this one might have saved them. Alas, we’ll never know.
+
+[^1]: Tim Lucas, audio commentary, _Scream and Scream Again_, Kino Lorber, 2019.
+[^2]: Lucas, audio commentary.
