@@ -8,7 +8,7 @@ synopsis: A detective investigating a string of vampire-like murders uncovers a 
 
 Here's a curious entry: a British horror that spends most of its time pretending to be a police procedural, throws in some Cold War paranoia, and features three of horror's greatest stars in what amounts to extended cameos. The remarkable thing about _Scream and Scream Again_ is not that it works despite these eccentricities, but that it works because of them.
 
-The film opens juggling three disparate storylines. We have a jogger who wakes up in a hospital to discover his leg has been amputated (and the nightmare is just beginning). We have a fascist state where an intelligence officer named Konratz dispatches his superiors with a Vulcan death grip. And we have London police investigating a series of murders where young women are found drained of blood.
+The film opens juggling three disparate storylines. We have a jogger who wakes up in a hospital to discover his leg has been amputated (and the nightmare is just beginning). We have a fascist state where an intelligence officer named Konratz dispatches his superiors with a Vulcan death grip. And we have police (but not Scotland Yard) investigating a series of murders where young women are found drained of blood.
 
 For the first fifteen minutes, I was lost. This is intentional, and it's the film's greatest strength. By refusing to provide easy connections or comfortable exposition, director Gordon Hessler forces us to pay attention in a way that conventional horror films rarely demand.
 
