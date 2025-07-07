@@ -7,16 +7,17 @@ synopsis: In this Three Mesquiteers entry, John Wayne fakes his death to go unde
 
 ---
 
-_Pals of the Saddle_ marks a crossroads. John Wayne steps into the _Three Mesquiteers_ series, less than a year before <span data-imdb-id="tt0031971">_Stagecoach_</span> would make him a star. The film itself? Caught between dusty horse opera and the modern world's anxieties about war.
+John Wayne saddles up for his first ride as Stony Brooke in Republic's _Three Mesquiteers_ series, and the Duke already towers over this B-western like a man among boys. Too bad he's stuck with such lousy company.
 
-The plot finds Wayne's Stony Brooke framed for murder by a mysterious woman played by Doreen McKay, leading him to stage his own death and go undercover to expose a conspiracy involving poison gas shipments. It's a decidedly modern concern wrapped in Western trappings. This strange alchemy doesn't quite produce gold, but it offers something more interesting than the typical B-Western fare.
+This isn't your typical oater. Sure, there are horses and six-shooters, but Wayne's framed for murder and goes undercover to bust a poison gas smuggling ring violating the Neutrality Act. World War II looms over the prairie, making this contemporary western feel surprisingly urgent.
 
-Wayne, stepping into the role previously inhabited by Robert Livingston, elevates every scene he's in. Even in this modest programmer, there's something magnetic about his performance. He moves with that unmistakable swagger, ducking through doorways, and delivers his dialogue with his trademark laconic drawl. When he adopts the disguise of a crusty prospector (complete with unconvincing black beard stubble), we glimpse the playful side that would serve him well in later, better films. 
+The plot clicks along nicely when Wayne's flying solo. He fakes his death, dons unconvincing black whiskers, and poses as a crotchety miner straight out of the Gabby Hayes playbook. The disguise wouldn't fool a nearsighted sheriff, but Wayne sells it with that trademark swagger.
 
-The other two Mesquiteers? Dead weight. Ray "Crash" Corrigan bumbles through scenes with maddening incompetence. Max Terhune rides with a ventriloquist dummy--yes, a dummy--and the gimmick wears thin fast. Director George Sherman knows it, keeping Wayne front and center while the others vanish for long stretches.
+Then his partners show up and the movie stumbles. Max Terhune rides with a ventriloquist dummy--need I say more? Ray "Crash" Corrigan proves so inept he can't figure out how to shoot a lock off a door despite packing heat. 
 
-This improves the film but exposes the franchise's fundamental flaw. Why burden Wayne with partners when he can carry the story alone?
+The script wisely sidelines the dead weight for long stretches, essentially giving Wayne his own picture. It's a smart move that hints at an even better film lurking beneath--one that ditches the Mesquiteers entirely and lets Wayne carry the load.
 
-Still, _Pals of the Saddle_ has its moments. The burning stage finale delivers genuine thrills. The poison gas subplot, however clumsy, gives the proceedings weight that cattle rustling never could. It's a B-Western trying to find relevance in a changing world.
+When the climax arrives, the formula kicks in: Wayne gets captured, the bumbling partners stage a rescue. It's backwards storytelling. Better to put leading lady Doreen McKay in peril and let Wayne save the day. At least the flaming stagecoach finale delivers genuine thrills.
 
-The film matters more for what it represents than what it achieves. It's a stepping stone in Wayne's journey, a genre grappling with contemporary fears, a franchise entry that accidentally proves less is more. For Wayne completists, it's essential. For everyone else, it's a mildly diverting hour elevated by a star-in-the-making doing his best with second-rate material.
+Wayne elevates every scene he's in. Less than a year before <span data-imdb-id="tt0031971">_Stagecoach_</span> would make him a star, he's already commanding the screen with that easy confidence. He ducks through doorways, fills up the frame, and makes you forget you're watching a quickie Republic programmer.
+
