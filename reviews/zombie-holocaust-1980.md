@@ -22,4 +22,4 @@ McCulloch does his best with thin material. When he dispatches a zombie with an 
 
 The film's fatal flaw? It wants to cash in on <span data-imdb-id="tt0078935">_Cannibal Holocaust_</span> and _Zombie_ but dilutes both formulas. Making cannibals into unwitting pawns neuters their primal threat. Reducing zombies to brain transplant victims strips away supernatural menace.
 
-Still, _Zombie Holocaust_ offers enough splatter to satisfy gorehounds prowling video store shelves. But a better movie would have pitted cannibals against tourists-turned-zombies. Call it "Cannibals vs. Zombies." At least that promises truth in advertising.
+Still, _Zombie Holocaust_ offers enough splatter to satisfy less discriminating gorehounds. But a better movie would have pitted cannibals against tourists-turned-zombies. They could call it "Cannibals vs. Zombies." At least that promises truth in advertising.
