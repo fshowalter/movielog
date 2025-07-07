@@ -11,4 +11,6 @@ mediumNotes: Kino Lorber, 2019
 
 USA cut. Inferior to the UK verison, it omits Bellaver's rock toss, and Lee's final line to Price.
 
-Tim Lucas's commentary offers comprehensive insights delivered in a warm, conversational tone. Early on he points out how director Gordon Hessler, born in Germany but raised in England, brings a German cinematic influence to the picture, highlighted by an early mirror shot of a character shaving and the brassy jazz score that would be at home in an Edgar Wallace thriller. Lucas goes on to explain how the film was titled _Die lebenden Leichen des Dr. Mabuse_ in Germany, and--in an unexpected bit of trivia--that one of the film's biggest fans was director Fritz Lang himself, who brought the Mabuse character to the screen in three films.
+Tim Lucas delivers a comprehensive commentary in his signature warm, conversational style. He reveals fascinating connections, like how director Gordon Hessler--born in Germany but raised in England--brings subtle German cinematic influences to the film. Lucas points to an early mirror shot of a character shaving and the brassy jazz score that wouldn't be out of place in an Edgar Wallace thriller.
+
+Even more intriguing: the film was titled _Die lebenden Leichen des Dr. Mabuse_ in Germany, and one of its biggest admirers was Fritz Lang himself--the director who brought the Mabuse character to the screen in three films
