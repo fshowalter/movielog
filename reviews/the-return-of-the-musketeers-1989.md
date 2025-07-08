@@ -2,27 +2,20 @@
 imdb_id: tt0098194
 slug: the-return-of-the-musketeers-1989
 grade: D
-date: 2025-01-11
-synopsis: Twenty years after their last adventure, D'Artagnan reunites the Musketeers to battle France's enemies, though the aging heroes initially find themselves on opposing sides.
+date: 2025-07-07
+synopsis: Twenty years after their last adventure, D'Artagnan reunites the Musketeers to battle France's enemies.
 ---
 
-_The Return of the Musketeers_ takes place twenty years after the series' last film, <span data-imdb-id="tt0073012">_The Four Musketeers: Milady's Revenge_</span>.[^1] Michael York's D'Artagnan reunites the group to once again battle France's enemies, though this time the group finds themselves on opposing sides before uniting to battle Milady de Winter's daughter, played by Kim Cattrall, and her father, the notorious Rochefort, played by Christopher Lee.
+Twenty years have passed since we last saw D'Artagnan and company. Michael York rounds up the old gang to face a new threat: Milady de Winter's vengeful daughter, played by Kim Cattrall, and the eternal villain Rochefort, played once again by Christopher Lee. The setup promises swashbuckling fun. The execution stumbles badly.
 
-Shot in Toledo, Spain, the production values shine. From the costumes to the authentic locations, the film creates an immersive world that proves its strongest suit. Unfortunately, it's wasted on a story that struggles to recapture the whimsical adventure tone of its predecessors.
+The film looks magnificent. Shot in Toledo, Spain, with lavish costumes and authentic locations, it creates an immersive world. But style can't save a story that's forgotten what made the original films sparkle.
 
-The humor is hit or miss. An early conversation sees the scheming Cardinal Mazarin inform Queen Anne that Oliver Cromwell is set to hang King Charles in England. "Isn't that my brother-in-law?" she asks.
+The humor lurches between clever and clumsy. When Queen Anne learns the English plan to execute King Charles, she's shocked they'd kill their own monarch. "The English," deadpans Cardinal Mazarin, "will permit anything except cruelty to horses or a rise in the price of beer." Perfect. But then we get D'Artagnan perched in a tree like Wile E. Coyote, only to have the tree tip over as he prepares to leap. Painful.
 
-"Eh--your son's uncle," replies Mazarin.
+The physical comedy feels desperate when performed by actors pushing sixty. York gamely tries, but Richard Chamberlain barely appears, and Oliver Reed's health problems require creative camera angles to keep him seated. Even Christopher Lee, once so commanding, looks exhausted.
 
-Anne is astonished the English would permit their king to be executed. "The English," replies Mazarin, "will permit anything except cruelty to horses or a rise in the price of beer."
+The cast's lethargy stems from more than age. Roy Kinnear, who played Planchet, died after falling from a horse during production. Body doubles completed his scenes, creating awkward moments where he speaks off-camera or appears as a distant figure. As Lee wrote, "Roy's death spread such a pall of misery that it was surprising the film was ever finished and, in truth, the world would have lost nothing if it hadn't been."[^1]
 
-This sort of deadpan humor works well, but too often the film resorts to cartoon antics. Another early scene has D'Artagnan perched in a tree, ready to leap onto a passing stage coach à la Wile E. Coyote. Sure enough, as the stage approaches, and D'Artagnan prepares to leap, the tree tips over.
+That harsh assessment rings true. Getting the gang back together to adapt Dumas's _Twenty Years After_ seemed inspired. Instead, it proves that some magic can't be recaptured. The musketeers have aged out of their own adventure.
 
-These physical comedy failures are made more awkward by the principals' advancing age. While Michael York seems game as ever, Richard Chamberlain's role amounts to a cameo, and Oliver Reed's health issues necessitated finding creative ways to have him sit for many of his scenes or otherwise be doubled. Even the stalwart Christopher Lee looks tired--a pale shadow of his villainous turn in the prior entry.
-
-That said, age likely wasn't the only reason for the cast's torpor. Roy Kinnear, who played Planchet, fell off a horse and died of complications in the hospital during production. Body and voice doubles completed his scenes, leading to several awkward shots where he's speaking off-camera or shot from afar, or otherwise has his face hidden. Wrote Lee, "Roy's death spread such a pall of misery that it was surprising the film was ever finished and, in truth, the world would have lost nothing if it hadn't been."[^2]
-
-Indeed, while getting the gang back together to adapt Dumas's _Twenty Years After_ may have seemed like a great idea, the result betrays the realities of aging. Instead of recapturing the prior films' magic, it proves you're only young once.
-
-[^1]: I know this because the film repeats it half a dozen times in the first twenty minutes. Perhaps screenwriter George MacDonald Fraser feared folks would assume the gap was the real-life fifteen years? If so, would that have been so bad?
-[^2]: Christopher Lee, _Tall Dark and Gruesome_ (Midnight Marquee Press, 2009), 265.
+[^1]: Christopher Lee, _Tall Dark and Gruesome_ (Midnight Marquee Press, 2009), 265.
