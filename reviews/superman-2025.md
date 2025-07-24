@@ -22,12 +22,12 @@ Even smarter: Lois Lane isn't a damsel. Not once does Superman rescue her. Rache
 
 But about that plot: it's pure nonsense. Another Lex Luthor real estate scheme lifted wholesale from Richard Donner's playbook complete with a more dignified Otis and a less dignified Miss Teschmacher.
 
-Gunn peppers his script with trademark humor--witty asides that mostly land. But he drowns his characters in exposition, making them lecture the audience about things we already know. When Luthor's muscle literally announces "I've sacrificed my own humanity to help get rid of it," you feel the screenplay's gears grinding.
+Gunn peppers his script with trademark humor--witty asides that mostly land. But he drowns his characters in exposition, making them lecture the audience about things we already know. When Luthor's muscle literally announces "I've sacrificed my own humanity to help get rid of [Superman]," you feel the screenplay's gears grinding.
 
 Which brings us to the film's fatal flaw: Nicholas Hoult's Lex Luthor. The best screen Luthor yet, but that's damning with faint praise. Luthor should be Batman gone wrong—a calculating genius who could conquer the world if not for his own ego. Think Kaiser Söze in a power suit. Instead, Hoult plays him too animated, too emotional. I couldn't shake the notion that the British Hoult based his performance on Tom Cruise--all manic energy and grins. 
 
-To be more specific, with his shaved head, Hoult evokes Cruise's Les Grossman from _Tropic Thunder_. Though, one suspects Superman would have more trouble with Cruise's Grossman than Hoult's Luthor, as Grossman was scary, while Hoult's Luthor is just angry.
+To be more specific, with his shaved head, Hoult evokes Cruise's Les Grossman from _Tropic Thunder_. Though, one suspects Superman would have more trouble with Cruise's Grossman than Hoult's Luthor.
 
-But here's the thing: none of that matters. _Superman_ works because it understands the character isn't about the powers--it's about the hope. He's not looking down on us. He's looking up, _with us_, to who we could become.
+But here's the thing: none of that matters. _Superman_ works because it understands the character isn't about the powers--it's about the hope. He's not looking down on us. He's looking up, _with us_, to who we could become and trying to lead by example. In this age of cynics he's a genuine optimist.
 
 Punk rock indeed.
