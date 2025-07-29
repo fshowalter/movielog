@@ -15,6 +15,8 @@ class JsonTitle(TypedDict):
     gradeValue: int
     genres: list[str]
     releaseSequence: str
+    reviewDate: str
+    reviewSequence: str
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -32,6 +34,11 @@ def export(repository_data: RepositoryData) -> None:
     for imdb_id in imdb_high_rated_reviewed_title_ids:
         title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
+        viewings = sorted(
+            [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
+            key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
+            reverse=True,
+        )
 
         if not review.grade_value or review.grade_value > 4:
             continue
@@ -47,6 +54,10 @@ def export(repository_data: RepositoryData) -> None:
                 gradeValue=review.grade_value,
                 genres=title.genres,
                 releaseSequence=title.release_sequence,
+                reviewDate=review.date.isoformat(),
+                reviewSequence="{}-{}".format(
+                    review.date.isoformat(), viewings[0].sequence if viewings else ""
+                ),
             )
         )
 
