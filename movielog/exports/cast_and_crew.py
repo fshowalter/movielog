@@ -18,8 +18,8 @@ class JsonTitle(TypedDict):
     grade: str | None
     gradeValue: int | None
     releaseSequence: str
+    reviewSequence: str | None
     reviewDate: str | None
-    viewingSequence: str | None
     creditedAs: list[CreditType]
     watchlistDirectorNames: list[str]
     watchlistPerformerNames: list[str]
@@ -111,11 +111,7 @@ def build_json_title(
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
     viewings = sorted(
-        (
-            viewing
-            for viewing in repository_data.viewings
-            if viewing.imdb_id == title_id
-        ),
+        (viewing for viewing in repository_data.viewings if viewing.imdb_id == title_id),
         key=lambda title_viewing: title_viewing.sequence,
     )
 
@@ -130,30 +126,20 @@ def build_json_title(
         gradeValue=review.grade_value if review else None,
         releaseSequence=title.release_sequence,
         reviewDate=review.date.isoformat() if review else None,
-        viewingSequence=(
-            f"{review.date.isoformat()}-{viewings[0].sequence}"
-            if viewings and review
-            else None
+        reviewSequence=(
+            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
         ),
         watchlistDirectorNames=[
-            name
-            for name in repository_data.watchlist_titles[title_id]["directors"]
-            if not review
+            name for name in repository_data.watchlist_titles[title_id]["directors"] if not review
         ],
         watchlistPerformerNames=[
-            name
-            for name in repository_data.watchlist_titles[title_id]["performers"]
-            if not review
+            name for name in repository_data.watchlist_titles[title_id]["performers"] if not review
         ],
         watchlistWriterNames=[
-            name
-            for name in repository_data.watchlist_titles[title_id]["writers"]
-            if not review
+            name for name in repository_data.watchlist_titles[title_id]["writers"] if not review
         ],
         collectionNames=[
-            name
-            for name in repository_data.watchlist_titles[title_id]["collections"]
-            if not review
+            name for name in repository_data.watchlist_titles[title_id]["collections"] if not review
         ],
     )
 
@@ -163,9 +149,7 @@ def populate_title_data(
 ) -> None:
     for name_value in cast_and_crew_by_imdb_id.values():
         for title_id, credited_as in name_value["credited_titles"].items():
-            name_value["titles"].append(
-                build_json_title(title_id, credited_as, repository_data)
-            )
+            name_value["titles"].append(build_json_title(title_id, credited_as, repository_data))
 
         name_value["titles"].sort(key=lambda title: title["releaseSequence"])
 
