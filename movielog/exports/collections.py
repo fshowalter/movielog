@@ -15,6 +15,8 @@ class JsonTitle(TypedDict):
     grade: str | None
     gradeValue: int | None
     releaseSequence: str
+    reviewSequence: str | None
+    reviewDate: str | None
 
 
 class JsonCollection(TypedDict):
@@ -33,6 +35,10 @@ def build_collection_titles(
     for title_id in collection.title_ids:
         title = repository_data.titles[title_id]
         review = repository_data.reviews.get(title_id, None)
+        viewings = sorted(
+            (viewing for viewing in repository_data.viewings if viewing.imdb_id == title_id),
+            key=lambda title_viewing: title_viewing.sequence,
+        )
 
         titles.append(
             JsonTitle(
@@ -44,6 +50,12 @@ def build_collection_titles(
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,
                 gradeValue=review.grade_value if review else None,
+                reviewDate=review.date.isoformat() if review else None,
+                reviewSequence=(
+                    f"{review.date.isoformat()}-{viewings[0].sequence}"
+                    if viewings and review
+                    else None
+                ),
             )
         )
 
