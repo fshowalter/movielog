@@ -10,7 +10,7 @@ class JsonTitle(TypedDict):
     imdbId: str
     title: str
     sortTitle: str
-    year: str
+    releaseYear: str
     slug: str | None
     grade: str | None
     gradeValue: int | None
@@ -45,7 +45,7 @@ def build_collection_titles(
                 imdbId=title_id,
                 title=title.title,
                 sortTitle=title.sort_title,
-                year=title.year,
+                releaseYear=title.release_year,
                 releaseSequence=title.release_sequence,
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,

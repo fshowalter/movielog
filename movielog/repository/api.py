@@ -42,7 +42,7 @@ class Title:
     imdb_id: str
     title: str
     sort_title: str
-    year: str
+    release_year: str
     genres: list[str]
     runtime_minutes: int
     countries: list[str]
@@ -200,7 +200,7 @@ def titles() -> Iterable[Title]:
             slug=json_title["slug"],
             title=json_title["title"],
             sort_title=json_title["sortTitle"],
-            year=str(json_title["year"]),
+            release_year=str(json_title["year"]),
             genres=json_title["genres"],
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],

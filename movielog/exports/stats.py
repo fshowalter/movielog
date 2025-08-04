@@ -25,7 +25,7 @@ class JsonMostWatchedPersonViewing(TypedDict):
     date: str
     medium: str | None
     title: str
-    year: str
+    releaseYear: str
     venue: str | None
     slug: str | None
 
@@ -40,7 +40,7 @@ class JsonMostWatchedPerson(TypedDict):
 class JsonMostWatchedTitle(TypedDict):
     imdbId: str
     title: str
-    year: str
+    releaseYear: str
     count: int
     slug: str | None
 
@@ -221,7 +221,7 @@ def _build_json_most_watched_person_viewing(
         title=title.title,
         medium=viewing.medium,
         venue=viewing.venue,
-        year=title.year,
+        releaseYear=title.release_year,
     )
 
 
@@ -294,7 +294,7 @@ def _build_most_watched_title(
     return JsonMostWatchedTitle(
         title=title.title,
         imdbId=title.imdb_id,
-        year=title.year,
+        releaseYear=title.release_year,
         count=count,
         slug=review.slug if review else None,
     )
@@ -354,7 +354,7 @@ def _build_decade_distribution(
     titles: list[repository_api.Title],
 ) -> list[JsonDistribution]:
     return sorted(
-        _build_json_distributions(titles, lambda title: f"{title.year[:3]}0s"),
+        _build_json_distributions(titles, lambda title: f"{title.release_year[:3]}0s"),
         key=lambda distribution: distribution["name"],
     )
 
