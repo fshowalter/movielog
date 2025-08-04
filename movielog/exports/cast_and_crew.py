@@ -12,7 +12,7 @@ CreditType = Literal["director", "performer", "writer"]
 class JsonTitle(TypedDict):
     imdbId: str
     title: str
-    year: str
+    releaseYear: str
     sortTitle: str
     slug: str | None
     grade: str | None
@@ -119,7 +119,7 @@ def build_json_title(
         creditedAs=sorted(credited_as),
         imdbId=title.imdb_id,
         title=title.title,
-        year=title.year,
+        releaseYear=title.release_year,
         slug=review.slug if review else None,
         grade=review.grade if review else None,
         sortTitle=title.sort_title,

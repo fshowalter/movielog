@@ -112,12 +112,20 @@ ignore = [
   "S608",    # SQL injection
 ]
 
-# Plugin configs:
-flake8-import-conventions.banned-from = ["ast"]
-flake8-quotes.inline-quotes = "double"
-mccabe.max-complexity = 6
-pydocstyle.convention = "google"
-pylint.max-args = 6
+[tool.ruff.lint.flake8-import-conventions]
+banned-from = ["ast"]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 6
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.pylint]
+max-args = 6
 
 [tool.mypy]
 python_version = "3.13"

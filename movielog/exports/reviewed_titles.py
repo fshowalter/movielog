@@ -24,7 +24,7 @@ class _JsonMoreTitle(TypedDict):
     imdbId: str
     title: str
     grade: str
-    year: str
+    releaseYear: str
     slug: str
     genres: list[str]
 
@@ -57,7 +57,7 @@ class _JsonReviewedTitle(TypedDict):
     sequence: str
     imdbId: str
     title: str
-    year: str
+    releaseYear: str
     slug: str
     grade: str
     countries: list[str]
@@ -96,7 +96,7 @@ def _build_json_more_title(
     return _JsonMoreTitle(
         title=title.title,
         imdbId=title.imdb_id,
-        year=title.year,
+        releaseYear=title.release_year,
         slug=review.slug,
         grade=review.grade,
         genres=title.genres,
@@ -302,7 +302,7 @@ def _build_json_reviewed_title(
     return _JsonReviewedTitle(
         imdbId=title.imdb_id,
         title=title.title,
-        year=title.year,
+        releaseYear=title.release_year,
         slug=review.slug,
         grade=review.grade,
         countries=title.countries,

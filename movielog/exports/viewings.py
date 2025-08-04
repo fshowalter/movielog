@@ -15,7 +15,7 @@ class JsonViewing(TypedDict):
     releaseSequence: str
     medium: str | None
     venue: str | None
-    year: str
+    releaseYear: str
     slug: str | None
     genres: list[str]
 
@@ -34,7 +34,7 @@ def build_json_viewing(
         sortTitle=title.sort_title,
         medium=viewing.medium,
         venue=viewing.venue,
-        year=title.year,
+        releaseYear=title.release_year,
         slug=review.slug if review else None,
         genres=title.genres,
         releaseSequence=title.release_sequence,

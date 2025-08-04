@@ -112,7 +112,7 @@ def add_legacy_viewings() -> None:  # noqa: C901
         for viewing_date in viewing_dates:
             repository_api.create_viewing(
                 imdb_id=title.imdb_id,
-                full_title=f"{title.title} ({title.year})",
+                full_title=f"{title.title} ({title.release_year})",
                 date=datetime.datetime.fromisoformat(viewing_date).date(),
                 medium=None,
                 venue=None,

@@ -8,7 +8,7 @@ from movielog.utils.logging import logger
 class JsonTitle(TypedDict):
     imdbId: str
     title: str
-    year: str
+    releaseYear: str
     sortTitle: str
     reviewDate: str
     slug: str
@@ -47,7 +47,7 @@ def export(repository_data: RepositoryData) -> None:
             JsonTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
-                year=title.year,
+                releaseYear=title.release_year,
                 sortTitle=title.sort_title,
                 slug=review.slug,
                 grade=review.grade,
@@ -64,7 +64,7 @@ def export(repository_data: RepositoryData) -> None:
     exporter.serialize_dicts(
         sorted(
             underseen_gems,
-            key=lambda gem: "{}{}".format(gem["year"], gem["imdbId"]),
+            key=lambda gem: "{}{}".format(gem["releaseYear"], gem["imdbId"]),
             reverse=True,
         ),
         "underseen",

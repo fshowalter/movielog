@@ -41,7 +41,7 @@ def select_movie_prompt_text(collection: Collection) -> str:
             continue
 
         escaped_title = html.escape(title.title)
-        formatted_title = f"<cyan>\u00b7</cyan> {escaped_title} ({title.year}) \n"
+        formatted_title = f"<cyan>\u00b7</cyan> {escaped_title} ({title.release_year}) \n"
         formatted_titles.append(formatted_title)
 
     return "<cyan>{}</cyan> titles:\n{}\nNew Title: ".format(

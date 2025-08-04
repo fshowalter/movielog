@@ -8,7 +8,7 @@ from movielog.utils.logging import logger
 class JsonTitle(TypedDict):
     imdbId: str
     title: str
-    year: str
+    releaseYear: str
     sortTitle: str
     releaseSequence: str
     directorNames: list[str]
@@ -32,7 +32,7 @@ def export(repository_data: RepositoryData) -> None:
             JsonTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
-                year=title.year,
+                releaseYear=title.release_year,
                 sortTitle=title.sort_title,
                 releaseSequence=title.release_sequence,
                 directorNames=repository_data.watchlist_titles[title.imdb_id][
