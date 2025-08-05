@@ -6,6 +6,7 @@ from movielog.exports.json_collection import JsonCollection
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
+from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -95,11 +96,6 @@ def build_json_title(
 ) -> JsonCastAndCrewTitle:
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
-    viewings = sorted(
-        (viewing for viewing in repository_data.viewings if viewing.imdb_id == title_id),
-        key=lambda title_viewing: title_viewing.sequence,
-    )
-
     return JsonCastAndCrewTitle(
         # JsonTitle fields
         imdbId=title.imdb_id,
@@ -113,9 +109,7 @@ def build_json_title(
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
         reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=(
-            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
-        ),
+        reviewSequence=calculate_review_sequence(title_id, review, repository_data),
         # JsonCastAndCrewTitle specific fields
         creditedAs=sorted(credited_as),
         watchlistDirectorNames=[

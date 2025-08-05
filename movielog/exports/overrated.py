@@ -1,6 +1,7 @@
 from movielog.exports import exporter
 from movielog.exports.json_reviewed_title import JsonReviewedTitle
 from movielog.exports.repository_data import RepositoryData
+from movielog.exports.utils import calculate_review_sequence
 from movielog.utils.logging import logger
 
 
@@ -19,12 +20,6 @@ def export(repository_data: RepositoryData) -> None:
     for imdb_id in imdb_high_rated_reviewed_title_ids:
         title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
-        viewings = sorted(
-            [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
-            key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
-            reverse=True,
-        )
-
         if not review.grade_value or review.grade_value > 4:
             continue
 
@@ -40,9 +35,7 @@ def export(repository_data: RepositoryData) -> None:
                 genres=title.genres,
                 releaseSequence=title.release_sequence,
                 reviewDate=review.date.isoformat(),
-                reviewSequence="{}-{}".format(
-                    review.date.isoformat(), viewings[0].sequence if viewings else ""
-                ),
+                reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
             )
         )
 

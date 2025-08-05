@@ -8,6 +8,7 @@ from movielog.exports import exporter
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
+from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
@@ -196,12 +197,6 @@ def _build_json_most_watched_person_viewing(
     title = repository_data.titles[viewing.imdb_id]
     review = repository_data.reviews.get(title.imdb_id, None)
 
-    viewings = sorted(
-        [v for v in repository_data.viewings if v.imdb_id == title.imdb_id],
-        key=lambda v: f"{v.date.isoformat()}-{v.sequence}",
-        reverse=True,
-    )
-
     return JsonViewedTitle(
         # JsonTitle fields
         imdbId=title.imdb_id,
@@ -215,9 +210,7 @@ def _build_json_most_watched_person_viewing(
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
         reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=(
-            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
-        ),
+        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         # JsonViewedTitle fields
         viewingDate=viewing.date.isoformat(),
         viewingSequence=sequence,
@@ -292,12 +285,6 @@ def _build_most_watched_title(
 
     review = repository_data.reviews.get(imdb_id, None)
 
-    viewings = sorted(
-        [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
-        key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
-        reverse=True,
-    )
-
     return JsonMostWatchedTitle(
         # JsonTitle fields
         imdbId=title.imdb_id,
@@ -311,9 +298,7 @@ def _build_most_watched_title(
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
         reviewDate=review.date.isoformat() if review else None,
-        reviewSequence=(
-            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
-        ),
+        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         # JsonMostWatchedTitle specific field
         count=count,
     )
