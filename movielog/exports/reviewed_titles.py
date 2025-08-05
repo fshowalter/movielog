@@ -7,6 +7,7 @@ from movielog.exports import exporter
 from movielog.exports.json_reviewed_title import JsonReviewedTitle
 from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
+from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -78,7 +79,7 @@ def _build_json_more_title(
         grade=review.grade,
         gradeValue=review.grade_value,
         reviewDate=review.date.isoformat(),
-        reviewSequence=review.date.isoformat(),
+        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         genres=title.genres,
         sortTitle=title.sort_title,
         releaseSequence=title.release_sequence,
@@ -289,9 +290,7 @@ def _build_json_reviewed_title(
         grade=review.grade,
         gradeValue=review.grade_value,
         reviewDate=review.date.isoformat(),
-        reviewSequence="{}-{}".format(
-            review.date.isoformat(), viewings[0].sequence if viewings else ""
-        ),
+        reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         sortTitle=title.sort_title,
         releaseSequence=title.release_sequence,
         genres=title.genres,
@@ -317,7 +316,7 @@ def _build_json_reviewed_title(
                 grade=review.grade,
                 gradeValue=review.grade_value,
                 reviewDate=review.date.isoformat(),
-                reviewSequence=review.date.isoformat(),
+                reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
                 # JsonViewedTitle specific fields
                 viewingDate=viewing.date.isoformat(),
                 viewingSequence=viewing.sequence,
