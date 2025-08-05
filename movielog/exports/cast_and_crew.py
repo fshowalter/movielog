@@ -2,6 +2,9 @@ from collections import defaultdict
 from typing import Literal, TypedDict
 
 from movielog.exports import exporter
+from movielog.exports.json_collection import JsonCollection
+from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
+from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
@@ -9,22 +12,8 @@ from movielog.utils.logging import logger
 CreditType = Literal["director", "performer", "writer"]
 
 
-class JsonTitle(TypedDict):
-    imdbId: str
-    title: str
-    releaseYear: str
-    sortTitle: str
-    slug: str | None
-    grade: str | None
-    gradeValue: int | None
-    releaseSequence: str
-    reviewSequence: str | None
-    reviewDate: str | None
-    creditedAs: list[CreditType]
-    watchlistDirectorNames: list[str]
-    watchlistPerformerNames: list[str]
-    watchlistWriterNames: list[str]
-    collectionNames: list[str]
+class JsonCastAndCrewTitle(JsonMaybeReviewedTitle, JsonWatchlistFields):
+    creditedAs: list[CreditType]  # noqa: N815
 
 
 CreditedTitles = dict[str, set[CreditType]]
@@ -33,19 +22,15 @@ CreditedTitles = dict[str, set[CreditType]]
 class CastAndCrewMember(TypedDict):
     slug: str
     name: str
-    titles: list[JsonTitle]
+    titles: list[JsonCastAndCrewTitle]
     review_count: int
     total_count: int
     credited_titles: CreditedTitles
 
 
-class JsonCastAndCrewMember(TypedDict):
-    slug: str
-    name: str
-    titles: list[JsonTitle]
-    reviewCount: int
-    totalCount: int
-    creditedAs: list[CreditType]
+class JsonCastAndCrewMember(JsonCollection):
+    titles: list[JsonCastAndCrewTitle]
+    creditedAs: list[CreditType]  # noqa: N815
 
 
 CastAndCrewByImdbId = dict[frozenset[str], CastAndCrewMember]
@@ -107,7 +92,7 @@ def add_review_credits(
 
 def build_json_title(
     title_id: str, credited_as: set[CreditType], repository_data: RepositoryData
-) -> JsonTitle:
+) -> JsonCastAndCrewTitle:
     title = repository_data.titles[title_id]
     review = repository_data.reviews.get(title_id, None)
     viewings = sorted(
@@ -115,20 +100,24 @@ def build_json_title(
         key=lambda title_viewing: title_viewing.sequence,
     )
 
-    return JsonTitle(
-        creditedAs=sorted(credited_as),
+    return JsonCastAndCrewTitle(
+        # JsonTitle fields
         imdbId=title.imdb_id,
         title=title.title,
         releaseYear=title.release_year,
+        sortTitle=title.sort_title,
+        releaseSequence=title.release_sequence,
+        genres=title.genres,
+        # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,
         grade=review.grade if review else None,
-        sortTitle=title.sort_title,
         gradeValue=review.grade_value if review else None,
-        releaseSequence=title.release_sequence,
         reviewDate=review.date.isoformat() if review else None,
         reviewSequence=(
             f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
         ),
+        # JsonCastAndCrewTitle specific fields
+        creditedAs=sorted(credited_as),
         watchlistDirectorNames=[
             name for name in repository_data.watchlist_titles[title_id]["directors"] if not review
         ],
@@ -138,7 +127,7 @@ def build_json_title(
         watchlistWriterNames=[
             name for name in repository_data.watchlist_titles[title_id]["writers"] if not review
         ],
-        collectionNames=[
+        watchlistCollectionNames=[
             name for name in repository_data.watchlist_titles[title_id]["collections"] if not review
         ],
     )
@@ -203,16 +192,44 @@ def determine_credited_as(
     return credited_as
 
 
+def build_description(credited_as: list[CreditType], review_count: int, total_count: int) -> str:
+    """Build description following the pattern from the Node.js deck function."""
+    # Format the credited_as list - Python doesn't have Intl.ListFormat, so we'll replicate it
+    if len(credited_as) == 1:
+        credit_string: str = credited_as[0]
+    elif len(credited_as) == 2:
+        credit_string = f"{credited_as[0]} and {credited_as[1]}"
+    else:
+        credit_string = ", ".join(credited_as[:-1]) + f", and {credited_as[-1]}"
+
+    # Capitalize first letter
+    credit_list = credit_string[0].upper() + credit_string[1:]
+
+    # Calculate watchlist count
+    watchlist_count = total_count - review_count
+    watchlist_title_count = "" if watchlist_count == 0 else f" and {watchlist_count} watchlist"
+
+    # Determine singular/plural for "title(s)"
+    titles = "title" if review_count == 1 and watchlist_count < 2 else "titles"
+
+    return f"{credit_list} with {review_count} reviewed{watchlist_title_count} {titles}."
+
+
 def transform_to_final(
     cast_and_crew_member: CastAndCrewMember,
 ) -> JsonCastAndCrewMember:
+    credited_as = determine_credited_as(cast_and_crew_member)
+
     return JsonCastAndCrewMember(
         name=cast_and_crew_member["name"],
         slug=cast_and_crew_member["slug"],
-        titles=cast_and_crew_member["titles"],
+        titleCount=cast_and_crew_member["total_count"],
         reviewCount=cast_and_crew_member["review_count"],
-        totalCount=cast_and_crew_member["total_count"],
-        creditedAs=determine_credited_as(cast_and_crew_member),
+        titles=cast_and_crew_member["titles"],
+        description=build_description(
+            credited_as, cast_and_crew_member["review_count"], cast_and_crew_member["total_count"]
+        ),
+        creditedAs=credited_as,
     )
 
 
