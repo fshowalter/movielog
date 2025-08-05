@@ -247,7 +247,7 @@ def is_grade(text: str) -> bool:
     if not text:
         return True
 
-    return bool(re.match("[a-d|A-D|f|F][+|-]?", text))
+    return bool(re.match(r"[a-dA-DfF][+\-]?", text))
 
 
 def ask_for_medium_notes(state: State) -> State:
