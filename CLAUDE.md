@@ -166,7 +166,7 @@ export_data()
    uv run ruff format --check .
    uv run mypy .
    uv run pytest
-   npm run prettier:check  # or the appropriate prettier command
+   npm run format  # checks prettier formatting
    ```
 
 3. **Fix any issues** found by the checks before proceeding with the PR
