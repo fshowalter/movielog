@@ -1,36 +1,20 @@
-from typing import TypedDict
-
 from movielog.exports import exporter
+from movielog.exports.json_collection import JsonCollection
+from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
 
-class JsonTitle(TypedDict):
-    imdbId: str
-    title: str
-    sortTitle: str
-    releaseYear: str
-    slug: str | None
-    grade: str | None
-    gradeValue: int | None
-    releaseSequence: str
-    reviewSequence: str | None
-    reviewDate: str | None
+class JsonCollectionDetails(JsonCollection):
+    """A collection with its titles."""
 
-
-class JsonCollection(TypedDict):
-    name: str
-    slug: str
-    titleCount: int
-    reviewCount: int
-    titles: list[JsonTitle]
-    description: str | None
+    titles: list[JsonMaybeReviewedTitle]
 
 
 def build_collection_titles(
     collection: repository_api.Collection, repository_data: RepositoryData
-) -> list[JsonTitle]:
+) -> list[JsonMaybeReviewedTitle]:
     titles = []
     for title_id in collection.title_ids:
         title = repository_data.titles[title_id]
@@ -41,12 +25,13 @@ def build_collection_titles(
         )
 
         titles.append(
-            JsonTitle(
+            JsonMaybeReviewedTitle(
                 imdbId=title_id,
                 title=title.title,
                 sortTitle=title.sort_title,
                 releaseYear=title.release_year,
                 releaseSequence=title.release_sequence,
+                genres=title.genres,
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,
                 gradeValue=review.grade_value if review else None,
@@ -75,7 +60,7 @@ def export(repository_data: RepositoryData) -> None:
         ]
 
         json_collections.append(
-            JsonCollection(
+            JsonCollectionDetails(
                 name=collection.name,
                 slug=collection.slug,
                 titleCount=len(collection.title_ids),

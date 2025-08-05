@@ -5,6 +5,8 @@ from types import MappingProxyType
 from typing import TypedDict, TypeVar
 
 from movielog.exports import exporter
+from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
+from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
@@ -20,29 +22,15 @@ CREDIT_TEAMS = MappingProxyType(
 EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 
 
-class JsonMostWatchedPersonViewing(TypedDict):
-    sequence: int
-    date: str
-    medium: str | None
-    title: str
-    releaseYear: str
-    venue: str | None
-    slug: str | None
-
-
 class JsonMostWatchedPerson(TypedDict):
     name: str
     count: int
     slug: str | None
-    viewings: list[JsonMostWatchedPersonViewing]
+    viewings: list[JsonViewedTitle]
 
 
-class JsonMostWatchedTitle(TypedDict):
-    imdbId: str
-    title: str
-    releaseYear: str
+class JsonMostWatchedTitle(JsonMaybeReviewedTitle):
     count: int
-    slug: str | None
 
 
 class JsonDistribution(TypedDict):
@@ -50,39 +38,33 @@ class JsonDistribution(TypedDict):
     count: int
 
 
-class JsonGradeDistribution(TypedDict):
-    name: str
-    count: int
+class JsonGradeDistribution(JsonDistribution):
     sortValue: int
 
 
-class JsonAllTimeStats(TypedDict):
+class JsonStats(TypedDict):
+    """Base statistics fields common to all time periods."""
+
     viewingCount: int
     titleCount: int
+    decadeDistribution: list[JsonDistribution]
+    mediaDistribution: list[JsonDistribution]
+    mostWatchedTitles: list[JsonMostWatchedTitle]
+    mostWatchedDirectors: list[JsonMostWatchedPerson]
+    mostWatchedWriters: list[JsonMostWatchedPerson]
+    mostWatchedPerformers: list[JsonMostWatchedPerson]
+    venueDistribution: list[JsonDistribution]
+
+
+class JsonAllTimeStats(JsonStats):
     reviewCount: int
     watchlistTitlesReviewedCount: int
     gradeDistribution: list[JsonGradeDistribution]
-    decadeDistribution: list[JsonDistribution]
-    mediaDistribution: list[JsonDistribution]
-    mostWatchedTitles: list[JsonMostWatchedTitle]
-    mostWatchedDirectors: list[JsonMostWatchedPerson]
-    mostWatchedWriters: list[JsonMostWatchedPerson]
-    mostWatchedPerformers: list[JsonMostWatchedPerson]
-    venueDistribution: list[JsonDistribution]
 
 
-class JsonYearStats(TypedDict):
+class JsonYearStats(JsonStats):
     year: str
-    viewingCount: int
-    titleCount: int
     newTitleCount: int
-    decadeDistribution: list[JsonDistribution]
-    mediaDistribution: list[JsonDistribution]
-    mostWatchedTitles: list[JsonMostWatchedTitle]
-    mostWatchedDirectors: list[JsonMostWatchedPerson]
-    mostWatchedWriters: list[JsonMostWatchedPerson]
-    mostWatchedPerformers: list[JsonMostWatchedPerson]
-    venueDistribution: list[JsonDistribution]
 
 
 ListType = TypeVar("ListType")
@@ -210,18 +192,37 @@ def _build_most_watched_writers(
 
 def _build_json_most_watched_person_viewing(
     viewing: repository_api.Viewing, sequence: int, repository_data: RepositoryData
-) -> JsonMostWatchedPersonViewing:
+) -> JsonViewedTitle:
     title = repository_data.titles[viewing.imdb_id]
     review = repository_data.reviews.get(title.imdb_id, None)
 
-    return JsonMostWatchedPersonViewing(
-        sequence=sequence,
-        date=viewing.date.isoformat(),
-        slug=review.slug if review else None,
+    viewings = sorted(
+        [v for v in repository_data.viewings if v.imdb_id == title.imdb_id],
+        key=lambda v: f"{v.date.isoformat()}-{v.sequence}",
+        reverse=True,
+    )
+
+    return JsonViewedTitle(
+        # JsonTitle fields
+        imdbId=title.imdb_id,
         title=title.title,
+        releaseYear=title.release_year,
+        sortTitle=title.sort_title,
+        releaseSequence=title.release_sequence,
+        genres=title.genres,
+        # JsonMaybeReviewedTitle fields
+        slug=review.slug if review else None,
+        grade=review.grade if review else None,
+        gradeValue=review.grade_value if review else None,
+        reviewDate=review.date.isoformat() if review else None,
+        reviewSequence=(
+            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
+        ),
+        # JsonViewedTitle fields
+        viewingDate=viewing.date.isoformat(),
+        viewingSequence=sequence,
         medium=viewing.medium,
         venue=viewing.venue,
-        releaseYear=title.release_year,
     )
 
 
@@ -291,12 +292,30 @@ def _build_most_watched_title(
 
     review = repository_data.reviews.get(imdb_id, None)
 
+    viewings = sorted(
+        [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
+        key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
+        reverse=True,
+    )
+
     return JsonMostWatchedTitle(
-        title=title.title,
+        # JsonTitle fields
         imdbId=title.imdb_id,
+        title=title.title,
         releaseYear=title.release_year,
-        count=count,
+        sortTitle=title.sort_title,
+        releaseSequence=title.release_sequence,
+        genres=title.genres,
+        # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,
+        grade=review.grade if review else None,
+        gradeValue=review.grade_value if review else None,
+        reviewDate=review.date.isoformat() if review else None,
+        reviewSequence=(
+            f"{review.date.isoformat()}-{viewings[0].sequence}" if viewings and review else None
+        ),
+        # JsonMostWatchedTitle specific field
+        count=count,
     )
 
 

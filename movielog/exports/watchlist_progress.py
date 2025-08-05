@@ -39,9 +39,7 @@ class JsonWatchlistProgress(TypedDict):
 
 def combined_watchlist_title_ids(repository_data: RepositoryData) -> set[str]:
     watchlist_title_ids = {
-        title_id
-        for collection in repository_data.collections
-        for title_id in collection.title_ids
+        title_id for collection in repository_data.collections for title_id in collection.title_ids
     }
 
     for person_kind in repository_api.WATCHLIST_PERSON_KINDS:
@@ -59,9 +57,7 @@ def build_progress_details(
     entity_progress = []
 
     for watchlist_entity in watchlist_entities:
-        review_ids = watchlist_entity.title_ids.intersection(
-            repository_data.reviews.keys()
-        )
+        review_ids = watchlist_entity.title_ids.intersection(repository_data.reviews.keys())
 
         if len(review_ids) == len(watchlist_entity.title_ids):
             continue
@@ -89,9 +85,7 @@ def watchlist_entity_stats(
         if watchlist_entity.title_ids.difference(repository_data.reviews.keys())
     }
 
-    reviewed_title_ids = watchlist_entity_title_ids.intersection(
-        repository_data.reviews.keys()
-    )
+    reviewed_title_ids = watchlist_entity_title_ids.intersection(repository_data.reviews.keys())
 
     return (len(watchlist_entity_title_ids), len(reviewed_title_ids))
 
@@ -99,9 +93,7 @@ def watchlist_entity_stats(
 def overall_watchlist_stats(repository_data: RepositoryData) -> tuple[int, int]:
     watchlist_title_ids = combined_watchlist_title_ids(repository_data)
 
-    reviewed_title_ids = watchlist_title_ids.intersection(
-        repository_data.reviews.keys()
-    )
+    reviewed_title_ids = watchlist_title_ids.intersection(repository_data.reviews.keys())
 
     return (len(watchlist_title_ids), len(reviewed_title_ids))
 
@@ -144,9 +136,7 @@ def export(repository_data: RepositoryData) -> None:
         ),
         collectionTotal=collection_total,
         collectionReviewed=collection_reviewed,
-        collectionDetails=build_progress_details(
-            repository_data.collections, repository_data
-        ),
+        collectionDetails=build_progress_details(repository_data.collections, repository_data),
     )
 
     exporter.serialize_dict(watchlist_progress, "watchlist-progress")

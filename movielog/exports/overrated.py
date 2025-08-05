@@ -1,22 +1,7 @@
-from typing import TypedDict
-
 from movielog.exports import exporter
+from movielog.exports.json_reviewed_title import JsonReviewedTitle
 from movielog.exports.repository_data import RepositoryData
 from movielog.utils.logging import logger
-
-
-class JsonTitle(TypedDict):
-    imdbId: str
-    title: str
-    releaseYear: str
-    sortTitle: str
-    slug: str
-    grade: str
-    gradeValue: int
-    genres: list[str]
-    releaseSequence: str
-    reviewDate: str
-    reviewSequence: str
 
 
 def export(repository_data: RepositoryData) -> None:
@@ -44,7 +29,7 @@ def export(repository_data: RepositoryData) -> None:
             continue
 
         overrated_disappointments.append(
-            JsonTitle(
+            JsonReviewedTitle(
                 imdbId=title.imdb_id,
                 title=title.title,
                 releaseYear=title.release_year,

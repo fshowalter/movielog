@@ -4,6 +4,8 @@ from itertools import count
 from typing import Literal, TypedDict, TypeVar
 
 from movielog.exports import exporter
+from movielog.exports.json_reviewed_title import JsonReviewedTitle
+from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
@@ -11,35 +13,22 @@ from movielog.utils.logging import logger
 _CreditKind = Literal["director", "writer", "performer"]
 
 
-class _JsonViewing(TypedDict):
-    date: str
-    venue: str | None
-    venueNotes: str | None
-    medium: str | None
-    mediumNotes: str | None
-    sequence: int
-
-
-class _JsonMoreTitle(TypedDict):
-    imdbId: str
-    title: str
-    grade: str
-    releaseYear: str
-    slug: str
-    genres: list[str]
+class _JsonViewing(JsonViewedTitle):
+    venueNotes: str | None  # noqa: N815
+    mediumNotes: str | None  # noqa: N815
 
 
 class _JsonMoreCollection(TypedDict):
     name: str
     slug: str
-    titles: list[_JsonMoreTitle]
+    titles: list[JsonReviewedTitle]
 
 
 class _JsonMoreCastAndCrewMember(TypedDict):
     name: str
     slug: str
     creditKind: _CreditKind
-    titles: list[_JsonMoreTitle]
+    titles: list[JsonReviewedTitle]
 
 
 class _JsonCastAndCrewMember(TypedDict):
@@ -48,36 +37,24 @@ class _JsonCastAndCrewMember(TypedDict):
     creditedAs: list[_CreditKind]
 
 
-class _JsonCollection(TypedDict):
+class _JsonCollectionReference(TypedDict):
     name: str
     slug: str
 
 
-class _JsonReviewedTitle(TypedDict):
-    sequence: str
-    imdbId: str
-    title: str
-    releaseYear: str
-    slug: str
-    grade: str
+class _JsonFullReviewedTitle(JsonReviewedTitle):
     countries: list[str]
-    genres: list[str]
-    sortTitle: str
-    originalTitle: str | None
-    gradeValue: int | None
-    runtimeMinutes: int
-    directorNames: list[str]
-    principalCastNames: list[str]
-    writerNames: list[str]
-    reviewDate: str
-    reviewYear: str
+    originalTitle: str | None  # noqa: N815
+    runtimeMinutes: int  # noqa: N815
+    directorNames: list[str]  # noqa: N815
+    principalCastNames: list[str]  # noqa: N815
+    writerNames: list[str]  # noqa: N815
     viewings: list[_JsonViewing]
-    releaseSequence: str
-    castAndCrew: list[_JsonCastAndCrewMember]
-    collections: list[_JsonCollection]
-    moreCastAndCrew: list[_JsonMoreCastAndCrewMember]
-    moreReviews: list[_JsonMoreTitle]
-    moreCollections: list[_JsonMoreCollection]
+    castAndCrew: list[_JsonCastAndCrewMember]  # noqa: N815
+    collections: list[_JsonCollectionReference]
+    moreCastAndCrew: list[_JsonMoreCastAndCrewMember]  # noqa: N815
+    moreReviews: list[JsonReviewedTitle]  # noqa: N815
+    moreCollections: list[_JsonMoreCollection]  # noqa: N815
 
 
 _TitleIdsByNameId = dict[frozenset[str], set[str]]
@@ -88,18 +65,23 @@ _CollectionIndex = dict[str, set[str]]
 def _build_json_more_title(
     title: repository_api.Title,
     repository_data: RepositoryData,
-) -> _JsonMoreTitle:
+) -> JsonReviewedTitle:
     review = repository_data.reviews[title.imdb_id]
 
     assert review
 
-    return _JsonMoreTitle(
+    return JsonReviewedTitle(
         title=title.title,
         imdbId=title.imdb_id,
         releaseYear=title.release_year,
         slug=review.slug,
         grade=review.grade,
+        gradeValue=review.grade_value,
+        reviewDate=review.date.isoformat(),
+        reviewSequence=review.date.isoformat(),
         genres=title.genres,
+        sortTitle=title.sort_title,
+        releaseSequence=title.release_sequence,
     )
 
 
@@ -137,7 +119,7 @@ def _build_imdb_id_matcher(
 def _build_json_more_reviews(
     review: repository_api.Review,
     repository_data: RepositoryData,
-) -> list[_JsonMoreTitle]:
+) -> list[JsonReviewedTitle]:
     sliced_titles = _slice_list(
         source_list=sorted(
             repository_data.reviewed_titles,
@@ -239,7 +221,7 @@ def _build_json_collections(
     review: repository_api.Review,
     collection_index: _CollectionIndex,
     repository_data: RepositoryData,
-) -> list[_JsonCollection]:
+) -> list[_JsonCollectionReference]:
     json_collections = []
 
     for collection_slug, collection_title_ids in collection_index.items():
@@ -253,7 +235,7 @@ def _build_json_collections(
         )
 
         json_collections.append(
-            _JsonCollection(
+            _JsonCollectionReference(
                 name=collection.name,
                 slug=collection.slug,
             )
@@ -289,7 +271,7 @@ def _build_json_reviewed_title(
     repository_data: RepositoryData,
     credit_index: _CreditIndex,
     collection_index: _CollectionIndex,
-) -> _JsonReviewedTitle:
+) -> _JsonFullReviewedTitle:
     title = repository_data.titles[review.imdb_id]
     viewings = sorted(
         [viewing for viewing in repository_data.viewings if viewing.imdb_id == title.imdb_id],
@@ -299,35 +281,51 @@ def _build_json_reviewed_title(
 
     original_title = None if title.original_title == title.title else title.original_title
 
-    return _JsonReviewedTitle(
+    return _JsonFullReviewedTitle(
         imdbId=title.imdb_id,
         title=title.title,
         releaseYear=title.release_year,
         slug=review.slug,
         grade=review.grade,
-        countries=title.countries,
-        genres=title.genres,
-        sortTitle=title.sort_title,
-        originalTitle=original_title,
         gradeValue=review.grade_value,
-        runtimeMinutes=title.runtime_minutes,
+        reviewDate=review.date.isoformat(),
+        reviewSequence="{}-{}".format(
+            review.date.isoformat(), viewings[0].sequence if viewings else ""
+        ),
+        sortTitle=title.sort_title,
         releaseSequence=title.release_sequence,
+        genres=title.genres,
+        countries=title.countries,
+        originalTitle=original_title,
+        runtimeMinutes=title.runtime_minutes,
         directorNames=[director.name for director in title.directors],
         writerNames=list(dict.fromkeys(writer.name for writer in title.writers)),
         principalCastNames=[
             performer.name for index, performer in enumerate(title.performers) if index < 4
         ],
-        reviewDate=review.date.isoformat(),
-        reviewYear=str(review.date.year),
-        sequence="{}-{}".format(review.date.isoformat(), viewings[0].sequence if viewings else ""),
         viewings=[
             _JsonViewing(
-                sequence=viewing.sequence,
+                # Base JsonViewedTitle fields
+                imdbId=title.imdb_id,
+                title=title.title,
+                releaseYear=title.release_year,
+                sortTitle=title.sort_title,
+                releaseSequence=title.release_sequence,
+                genres=title.genres,
+                # JsonMaybeReviewedTitle fields
+                slug=review.slug,
+                grade=review.grade,
+                gradeValue=review.grade_value,
+                reviewDate=review.date.isoformat(),
+                reviewSequence=review.date.isoformat(),
+                # JsonViewedTitle specific fields
+                viewingDate=viewing.date.isoformat(),
+                viewingSequence=viewing.sequence,
                 medium=viewing.medium,
-                mediumNotes=viewing.medium_notes,
-                date=viewing.date.isoformat(),
                 venue=viewing.venue,
+                # Additional fields specific to _JsonViewing
                 venueNotes=viewing.venue_notes,
+                mediumNotes=viewing.medium_notes,
             )
             for viewing in viewings
         ],

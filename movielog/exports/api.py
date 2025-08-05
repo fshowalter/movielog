@@ -83,13 +83,9 @@ def export_data() -> None:
 
     repository_api.validate_data()
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.imdb_id
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.imdb_id)
 
-    titles = list_tools.list_to_dict(
-        repository_api.titles(), key=lambda title: title.imdb_id
-    )
+    titles = list_tools.list_to_dict(repository_api.titles(), key=lambda title: title.imdb_id)
 
     cast_and_crew_by_imdb_id = list_tools.list_to_dict(
         repository_api.cast_and_crew(), key=lambda member: member.imdb_id
