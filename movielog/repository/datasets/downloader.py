@@ -41,9 +41,7 @@ def get_last_modified_date(url: str) -> datetime:
             last_modified_header,
             "%a, %d %b %Y %H:%M:%S %Z",
         )
-    logger.log(
-        "Remote file {} last updated {}.", url.split("/")[-1], last_modified_date
-    )
+    logger.log("Remote file {} last updated {}.", url.split("/")[-1], last_modified_date)
     return last_modified_date
 
 

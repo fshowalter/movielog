@@ -8,4 +8,4 @@ class JsonCollection(TypedDict):
     slug: str
     titleCount: int
     reviewCount: int
-    description: str | None
+    description: str

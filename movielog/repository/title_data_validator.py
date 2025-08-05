@@ -35,17 +35,13 @@ def _get_valid_title_ids() -> set[str]:
 
     for kind in json_watchlist_people.KINDS:
         for json_watchlist_person in json_watchlist_people.read_all(kind):
-            title_ids = title_ids + [
-                title["imdbId"] for title in json_watchlist_person["titles"]
-            ]
+            title_ids = title_ids + [title["imdbId"] for title in json_watchlist_person["titles"]]
 
     return set(title_ids)
 
 
 def validate_sort_title(json_title: json_titles.JsonTitle) -> None:
-    correct_sort_title = json_titles.generate_sort_title(
-        json_title["title"], json_title["year"]
-    )
+    correct_sort_title = json_titles.generate_sort_title(json_title["title"], json_title["year"])
 
     existing_sort_title = json_title["sortTitle"]
 
@@ -64,9 +60,7 @@ def validate_sort_title(json_title: json_titles.JsonTitle) -> None:
 
 
 def validate_slug(json_title: json_titles.JsonTitle, review_ids: set[str]) -> None:
-    correct_slug = json_titles.generate_title_slug(
-        json_title["title"], json_title["year"]
-    )
+    correct_slug = json_titles.generate_title_slug(json_title["title"], json_title["year"])
 
     existing_slug = json_title["slug"]
 
@@ -138,9 +132,7 @@ def removed_files_marked_for_removal(files_marked_for_removal: list[Path]) -> No
         )
 
 
-def rename_files_marked_for_rename(
-    files_marked_for_rename: list[tuple[Path, Path]]
-) -> None:
+def rename_files_marked_for_rename(files_marked_for_rename: list[tuple[Path, Path]]) -> None:
     for old_file_path, new_file_path in files_marked_for_rename:
         Path.rename(old_file_path, new_file_path)
         logger.log("{0} renamed to {1}.", old_file_path, new_file_path)

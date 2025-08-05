@@ -58,9 +58,7 @@ def _generate_file_path(slug: str) -> Path:
     return file_path
 
 
-def create_review(
-    slug: str, date: datetime.date, review_content: str, grade: str
-) -> Path:
+def create_review(slug: str, date: datetime.date, review_content: str, grade: str) -> Path:
     yaml.add_representer(type(None), _represent_none)
 
     file_path = _generate_file_path(slug)
@@ -93,9 +91,7 @@ def create_review(
 def add_legacy_reviews() -> None:  # noqa: C901
     logger.log("Initializing...")
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.slug
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.slug)
 
     for review_row in get_review_rows():
         viewing_dates = []

@@ -70,9 +70,7 @@ def fetch_all(query: str, row_factory: RowFactory = sqlite3.Row) -> list[Any]:
 def add_legacy_viewings() -> None:  # noqa: C901
     logger.log("Initializing...")
 
-    reviews = list_tools.list_to_dict(
-        repository_api.reviews(), key=lambda review: review.slug
-    )
+    reviews = list_tools.list_to_dict(repository_api.reviews(), key=lambda review: review.slug)
 
     for post_id_row in get_post_ids():
         viewing_dates = [
@@ -83,9 +81,7 @@ def add_legacy_viewings() -> None:  # noqa: C901
 
         if len(viewing_dates) == 0:
             raise Exception(  # noqa: TRY002
-                "No viewings for {} [{}]".format(
-                    post_id_row["post_name"], post_id_row["ID"]
-                )
+                "No viewings for {} [{}]".format(post_id_row["post_name"], post_id_row["ID"])
             )
 
         slug = post_id_row["post_name"]

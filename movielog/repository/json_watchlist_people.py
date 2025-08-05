@@ -36,9 +36,7 @@ def create(watchlist: Kind, imdb_id: str, name: str) -> JsonWatchlistPerson:
     )
 
     if existing_person:
-        raise ValueError(
-            f'Person in "{watchlist}" with slug "{new_person_slug}" already exists.'
-        )
+        raise ValueError(f'Person in "{watchlist}" with slug "{new_person_slug}" already exists.')
 
     json_watchlist_person = JsonWatchlistPerson(
         imdbId=imdb_id, name=name, slug=new_person_slug, titles=[], excludedTitles=[]

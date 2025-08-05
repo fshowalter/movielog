@@ -20,16 +20,12 @@ def serialize(
     watchlist_entity: WatchlistEntity,
     folder_name: str,
 ) -> Path:
-    file_path = (
-        Path(FOLDER_NAME) / folder_name / "{}.json".format(watchlist_entity["slug"])
-    )
+    file_path = Path(FOLDER_NAME) / folder_name / "{}.json".format(watchlist_entity["slug"])
 
     path_tools.ensure_file_path(file_path)
 
     with Path.open(file_path, "w", encoding="utf8") as output_file:
-        output_file.write(
-            json.dumps(watchlist_entity, default=str, indent=2, ensure_ascii=False)
-        )
+        output_file.write(json.dumps(watchlist_entity, default=str, indent=2, ensure_ascii=False))
 
     logger.log("Wrote {}", file_path)
 
