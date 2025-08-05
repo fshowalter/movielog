@@ -1,6 +1,5 @@
 from collections import defaultdict
 from collections.abc import Callable
-from itertools import count
 from typing import Literal, TypedDict, TypeVar
 
 from movielog.exports import exporter
@@ -93,22 +92,30 @@ def _slice_list(
     source_list: list[_ListType],
     matcher: Callable[[_ListType], bool],
 ) -> list[_ListType]:
-    midpoint = next(
-        index for index, collection_item in zip(count(), source_list) if matcher(collection_item)
-    )
+    """Get a 5-item window around the first matching item, with wraparound.
 
-    start_index = midpoint - 2
-    end_index = midpoint + 3
+    Returns 2 items before, the matched item, and 2 items after.
+    Raises ValueError if no match is found.
+    """
+    # Find the index of the first matching item
+    try:
+        midpoint = next(index for index, item in enumerate(source_list) if matcher(item))
+    except StopIteration as e:
+        # No matching item found - this indicates inconsistent data
+        raise ValueError("No matching item found in list") from e
 
-    if start_index >= 0 and end_index < len(source_list):
-        return source_list[start_index:end_index]
+    # If list has 5 or fewer items, return all of them
+    if len(source_list) <= 5:
+        return source_list
 
-    if start_index < 0:
-        start_index += len(source_list)
-    if end_index >= len(source_list):
-        end_index -= len(source_list)
+    # Calculate the slice indices
+    result = []
+    for offset in range(-2, 3):  # -2, -1, 0, 1, 2
+        # Use modulo to handle wraparound
+        index = (midpoint + offset) % len(source_list)
+        result.append(source_list[index])
 
-    return source_list[start_index:] + source_list[:end_index]
+    return result
 
 
 def _build_imdb_id_matcher(
