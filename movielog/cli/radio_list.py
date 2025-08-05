@@ -32,7 +32,7 @@ class RadioList[T]:
 
     def __init__(self, options: Sequence[tuple[T, AnyFormattedText]]) -> None:
         self.options = options
-        self.current_option: T = options[0][0]
+        self.current_value: T | None = None
         self._selected_index = 0
 
         # Key bindings.
