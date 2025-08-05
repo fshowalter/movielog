@@ -120,7 +120,7 @@ class Collection:
     name: str
     slug: str
     title_ids: set[str]
-    description: str | None
+    description: str
 
 
 @dataclass
@@ -135,7 +135,7 @@ def _hydrate_collection(
         name=json_collection["name"],
         slug=json_collection["slug"],
         title_ids={title["imdbId"] for title in json_collection["titles"]},
-        description=json_collection.get("description", None),
+        description=json_collection["description"],
     )
 
 
@@ -337,8 +337,8 @@ def create_or_update_review(
     )
 
 
-def new_collection(name: str) -> Collection:
-    return _hydrate_collection(json_collections.create(name))
+def new_collection(name: str, description: str) -> Collection:
+    return _hydrate_collection(json_collections.create(name, description))
 
 
 def add_person_to_watchlist(

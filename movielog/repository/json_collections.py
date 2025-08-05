@@ -15,28 +15,22 @@ class JsonCollection(TypedDict):
     name: str
     slug: str
     titles: list[JsonTitle]
-    description: str | None
+    description: str
 
 
-def create(name: str) -> JsonCollection:
+def create(name: str, description: str) -> JsonCollection:
     new_collection_slug = _generate_collection_slug(name)
 
     existing_collection = next(
-        (
-            collection
-            for collection in read_all()
-            if collection["slug"] == new_collection_slug
-        ),
+        (collection for collection in read_all() if collection["slug"] == new_collection_slug),
         None,
     )
 
     if existing_collection:
-        raise ValueError(
-            f'Collection with slug "{new_collection_slug}" already exists.'
-        )
+        raise ValueError(f'Collection with slug "{new_collection_slug}" already exists.')
 
     json_collection = JsonCollection(
-        name=name, slug=new_collection_slug, titles=[], description=None
+        name=name, slug=new_collection_slug, titles=[], description=description
     )
     serialize(json_collection)
     return json_collection
@@ -79,9 +73,7 @@ def serialize(json_name: JsonCollection) -> None:
     path_tools.ensure_file_path(file_path)
 
     with Path.open(file_path, "w", encoding="utf8") as output_file:
-        output_file.write(
-            json.dumps(json_name, default=str, indent=2, ensure_ascii=False)
-        )
+        output_file.write(json.dumps(json_name, default=str, indent=2, ensure_ascii=False))
 
     logger.log(
         "Wrote {}.",

@@ -14,10 +14,10 @@ def mock_new_collection(mocker: MockerFixture) -> MagicMock:
 
 
 def test_calls_add_collection(mock_input: MockInput, mock_new_collection: MagicMock) -> None:
-    mock_input(["Halloween", Enter, "y"])
+    mock_input(["Halloween", Enter, "y", "A horror movie franchise", Enter])
     new_collection.prompt()
 
-    mock_new_collection.assert_called_once_with("Halloween")
+    mock_new_collection.assert_called_once_with("Halloween", "A horror movie franchise")
 
 
 def test_does_not_call_add_viewing_if_no_movie(
