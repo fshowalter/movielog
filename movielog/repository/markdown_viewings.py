@@ -38,7 +38,7 @@ def create(
     venue: str | None,
     medium_notes: str | None,
 ) -> MarkdownViewing:
-    # assert medium or venue
+    assert medium or venue
 
     markdown_viewing = MarkdownViewing(
         sequence=_next_sequence_for_date(date),
