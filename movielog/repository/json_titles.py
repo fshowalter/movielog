@@ -63,9 +63,7 @@ def generate_title_slug(title: str, year: str) -> str:
 
 def generate_file_path(json_title: JsonTitle) -> Path:
     if not json_title["slug"]:
-        json_title["slug"] = generate_title_slug(
-            json_title["title"], json_title["year"]
-        )
+        json_title["slug"] = generate_title_slug(json_title["title"], json_title["year"])
 
     file_name = "{}-{}.json".format(json_title["slug"], json_title["imdbId"][2:])
     return Path(FOLDER_NAME) / file_name
@@ -76,9 +74,7 @@ def serialize(json_title: JsonTitle) -> None:
     path_tools.ensure_file_path(file_path)
 
     with Path.open(file_path, "w", encoding="utf8") as output_file:
-        output_file.write(
-            json.dumps(json_title, default=str, indent=2, ensure_ascii=False)
-        )
+        output_file.write(json.dumps(json_title, default=str, indent=2, ensure_ascii=False))
 
     logger.log(
         "Wrote {}.",

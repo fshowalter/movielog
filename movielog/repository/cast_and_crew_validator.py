@@ -60,9 +60,7 @@ def _add_new_cast_and_crew(
         json_cast_and_crew.serialize(new_member)
 
 
-def _rename_files_marked_for_rename(
-    files_marked_for_rename: list[tuple[Path, Path]]
-) -> None:
+def _rename_files_marked_for_rename(files_marked_for_rename: list[tuple[Path, Path]]) -> None:
     for old_file_path, new_file_path in files_marked_for_rename:
         Path.rename(old_file_path, new_file_path)
         logger.log("{0} renamed to {1}.", old_file_path, new_file_path)
@@ -74,9 +72,7 @@ def validate() -> None:
 
     for file_path in Path(json_cast_and_crew.FOLDER_NAME).glob("*.json"):
         with Path.open(file_path, "r+") as json_file:
-            json_name = cast(
-                json_cast_and_crew.JsonCastAndCrewMember, json.load(json_file)
-            )
+            json_name = cast(json_cast_and_crew.JsonCastAndCrewMember, json.load(json_file))
 
             updated_name = deepcopy(json_name)
 

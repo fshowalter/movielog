@@ -61,9 +61,7 @@ def update_for_datasets(
         and title["imdb_votes"] >= average_imdb_votes
     )
 
-    reviewed_title_ids = {
-        review.yaml["imdb_id"] for review in markdown_reviews.read_all()
-    }
+    reviewed_title_ids = {review.yaml["imdb_id"] for review in markdown_reviews.read_all()}
 
     titles = {}
 

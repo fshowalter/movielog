@@ -9,16 +9,12 @@ from movielog.repository.datasets import downloader
 
 @pytest.fixture(autouse=True)
 def subprocess_mock(mocker: MockerFixture) -> MagicMock:
-    return mocker.patch(
-        "movielog.repository.datasets.downloader.subprocess.check_output"
-    )
+    return mocker.patch("movielog.repository.datasets.downloader.subprocess.check_output")
 
 
 @pytest.fixture(autouse=True)
 def request_mock(mocker: MockerFixture) -> MagicMock:
-    url_open_mock = mocker.patch(
-        "movielog.repository.datasets.downloader.request.urlopen"
-    )
+    url_open_mock = mocker.patch("movielog.repository.datasets.downloader.request.urlopen")
 
     magic_method_mock = url_open_mock.return_value.__enter__
 

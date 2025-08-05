@@ -50,17 +50,11 @@ def add_index(table_name: str, column: str) -> None:
 def validate_row_count(table_name: str, expected: int) -> None:
     actual = fetch_one(f"select count(*) as count from {table_name}")["count"]
     assert expected == actual
-    logger.log(
-        "Table {} contains {} rows.", table_name, format_tools.humanize_int(actual)
-    )
+    logger.log("Table {} contains {} rows.", table_name, format_tools.humanize_int(actual))
 
 
-def insert_into_table(
-    table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]
-) -> None:
-    logger.log(
-        "Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name
-    )
+def insert_into_table(table_name: str, insert_ddl: str, rows: Sequence[Mapping[str, Any]]) -> None:
+    logger.log("Inserting {} rows into {}...", format_tools.humanize_int(len(rows)), table_name)
     execute_many(insert_ddl, rows)
 
 

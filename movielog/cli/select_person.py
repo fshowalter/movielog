@@ -44,6 +44,5 @@ def build_options(search_results: Iterable[SearchResult]) -> list[Option]:
         return [(None, "Search Again")]
 
     return [
-        (search_result, result_to_html_string(search_result))
-        for search_result in search_results
+        (search_result, result_to_html_string(search_result)) for search_result in search_results
     ]
