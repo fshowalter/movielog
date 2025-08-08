@@ -13,4 +13,4 @@ Although the movie runs a brief 78 minutes, you'll find yourself reaching for th
 
 Seriously, this movie is bad. Even putting aside the horrible dubbing (which isn't mixed and sounds like a voice-over), the story is edited together at such a ridiculous pace that it seems you're watching a trailer for a real movie.
 
-Even the fight scenes are bad, as their only point of note is their excessive (and often cheesy) brutality. Limbs and heads are chopped off as a matter of course, but there's no elegance in the choreography and, as a result, the film seems more reminiscent of a an 80s slasher picture than a martial arts movie.
+Even the fight scenes are bad, as their only point of note is their excessive (and often cheesy) brutality. Limbs and heads are chopped off as a matter of course, but there's no elegance in the choreography and, as a result, the film seems more reminiscent of an 80s slasher picture than a martial arts movie.
