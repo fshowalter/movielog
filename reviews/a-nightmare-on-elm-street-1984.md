@@ -6,7 +6,7 @@ grade: B
 slug: a-nightmare-on-elm-street-1984
 ---
 
-Nightmares plague a group of suburban teens. A common figure haunts their dreams. He wears a tattered fedora hat and striped sweater. Burn marks cover his face and he has razor blades for finger nails.
+Nightmares plague a group of suburban teens. A common figure haunts their dreams. He wears a tattered fedora hat and striped sweater. Burn marks cover his face and he has razor blades for fingernails.
 
 <!-- end -->
 
