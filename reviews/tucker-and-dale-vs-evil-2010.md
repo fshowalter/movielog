@@ -17,7 +17,7 @@ Meanwhile, Tucker and Dale are in a rom-com. Dale attempts a meet-cute with Alli
 
 Labine, his heavyset face covered in perpetual grime and framed with a mangy beard and sweat plastered hair, convinces as a hillbilly. But his innate charisma, evidenced through his gentle nature and temperament, also shines through, making Allison's attraction plausible. Bowden charms as well, making for a compelling romance.
 
-Director and co-writer Eli Craig plays these two movies out in parallel, mining the inherit dissonance for comedy. Neither group can see beyond their own genre. When confronted with the mounting dead bodies, all Tucker can guess is the kids are “part of some suicide cult.”
+Director and co-writer Eli Craig plays these two movies out in parallel, mining the inherent dissonance for comedy. Neither group can see beyond their own genre. When confronted with the mounting dead bodies, all Tucker can guess is the kids are “part of some suicide cult.”
 
 Despite the farcical premise, only the death scenes prove over-the-top. They offer the film's funniest moments.
 
@@ -35,7 +35,7 @@ This genre weaving reaches an apex when Dale, seeing beyond his genre but remain
 
 Beyond it's comical nature, the line offers surprising resonance. It hints at an unexplored theme of social prejudice. In Dale's rom-com movie, he and Allison can't be together because they're from different worlds, and the coeds' reactions are born of elitism.
 
-Meanwhile, in the coeds' slasher film, one coed's inherit hatred of hillbillies drives his prejudiced view of Tucker and Dale. When other characters want to seek help, he convinces them to act themselves.
+Meanwhile, in the coeds' slasher film, one coed's inherent hatred of hillbillies drives his prejudiced view of Tucker and Dale. When other characters want to seek help, he convinces them to act themselves.
 
 Having said coed sport a popped collar and ooze aggression and entitlement renders his character one-dimensional. As a convenient genre trope to advance the plot, that's fine, but the straw man characterization mutes any social commentary.
 
@@ -45,6 +45,6 @@ It's a rehash of the film's running mistaken identity theme. One gag involves Da
 
 Another gag has burly Dale besting the maniac, not by violence, but by trivial knowledge.
 
-Such bits prove more cute than clever. Disappointing, but they demonstrate the difficulty inherit in the comedic horror genre. With everyone playing broad, including the antagonist, the film has become a one-joke movie. Thanks to Labine's charismatic performance, said joke still elicits chuckles.
+Such bits prove more cute than clever. Disappointing, but they demonstrate the difficulty inherent in the comedic horror genre. With everyone playing broad, including the antagonist, the film has become a one-joke movie. Thanks to Labine's charismatic performance, said joke still elicits chuckles.
 
 Despite this underwhelming finale, the film works. It elicited some of heartiest and most improbable laughs I've encountered and the romance charmed. Recommended, provided you're not put off by the over-the-top death scenes.
