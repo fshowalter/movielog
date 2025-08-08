@@ -13,7 +13,7 @@ It's a tricky premise, and one that could easily descend into over-the-top camp,
 
 Sheen's performance as a creepy neighbor with a thing for young girls ranks as one of the best villains ever. It's completely believable and menacing, but never over-the-top. His scenes with Foster are the film's best and also the most unnerving.
 
-For her part, Jodie Foster pulls off a complex and difficult role with ease. She's believable from the start and, at times, acts the most adult, of all the characters. Yet, despite that, she manages to convey the vulnerability and uncertainty inherit in her character's age. It's a tricky balance, but you never get the sense Foster is forcing it.
+For her part, Jodie Foster pulls off a complex and difficult role with ease. She's believable from the start and, at times, acts the most adult, of all the characters. Yet, despite that, she manages to convey the vulnerability and uncertainty inherent in her character's age. It's a tricky balance, but you never get the sense Foster is forcing it.
 
 Indeed, about the only misstep the film makes is the use of some distinctly 70's disco-funk music early on in the soundtrack. While it's likely Gessner was using it to set up a contrast with the darker, eerier music in the later acts, it only serves to date the film. It's a small blemish, but a blemish nonetheless.
 
