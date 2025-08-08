@@ -20,7 +20,7 @@ The soundproof camera enclosures also proved intimidating. Said Brook:
 
 > two ominous, tank-like objects were focused on me. Faces peered at me from the darkness inside these caverns. I caught the reflection of camera-lenses in the plate-glass windows that form the front walls of the tanks. Cameras were grinding, but the sound of their mechanisms had been silenced.[^2]
 
-Said enclosures prevented any camera movement. Thanks to the microphone-induced hesitancy, the actors feel as stiff as the camera work. This inherit stiffness prevents any emotional stakes.
+Said enclosures prevented any camera movement. Thanks to the microphone-induced hesitancy, the actors feel as stiff as the camera work. This inherent stiffness prevents any emotional stakes.
 
 It’s been written that Powell “planned to go into hiding” after hearing his voice test,[^3] but he’d later realize how critical sound was to his career. When asked if talkies had “hurried” his career, he replied:
 
