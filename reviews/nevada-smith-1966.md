@@ -5,7 +5,7 @@ grade: C+
 slug: nevada-smith-1966
 ---
 
-_Nevada Smith_ sees Steve McQueen play a a naive half-Indian who grows into a hardened killer as he searches for his parents’ murderers.
+_Nevada Smith_ sees Steve McQueen play a naive half-Indian who grows into a hardened killer as he searches for his parents' murderers.
 
 The film is really three movies, each representing one of the killers McQueen tracks down.
 
