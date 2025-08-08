@@ -16,7 +16,7 @@ But the film stumbles with Luise Rainer's introduction as French diva Anna Held.
 
 Things go downhill from here.
 
-The film proffers recreations of Ziegfeld's stage productions. We get Buddy Doyle as Eddie Cantor doing his blackface routine, and A.A. Trimble as the just-deceased Will Rogers. But as Ziegfeld pivots to spectacle over personality, the recreations struggle to translate the experience. The grandiose stage productions convey a sense of the scale but lack the awe inherit in witnessing them live.
+The film proffers recreations of Ziegfeld's stage productions. We get Buddy Doyle as Eddie Cantor doing his blackface routine, and A.A. Trimble as the just-deceased Will Rogers. But as Ziegfeld pivots to spectacle over personality, the recreations struggle to translate the experience. The grandiose stage productions convey a sense of the scale but lack the awe inherent in witnessing them live.
 
 Even Fannie Brice, who plays herself, struggles. She performs her stage routine, but the screen's intimacy reduces it to emotive mugging.
 
