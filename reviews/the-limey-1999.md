@@ -11,4 +11,4 @@ Lets get this out of the way right off: Terence Stamp is a freakin' _tour-de-for
 
 That said, the movie is great. The montage editing style employed by director Steven Soderbergh, while initially somewhat confusing, serves the story well by keeping the viewer off balance and adding another layer to an already nuanced movie. The casting of Peter Fonda was a stroke of genius, as it elevates _The Limey_ beyond the revenge genre into social commentary.
 
-The only real flaw to the movie is it's own simplicity. It never tries to be anything more than the simple story it is, but after watching it, you might find yourself wishing Soderbergh had tried something more epic.
+The only real flaw to the movie is its own simplicity. It never tries to be anything more than the simple story it is, but after watching it, you might find yourself wishing Soderbergh had tried something more epic.
