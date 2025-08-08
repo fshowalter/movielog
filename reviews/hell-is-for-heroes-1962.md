@@ -22,7 +22,7 @@ To this end, _Hell Is for Heroes_ looks like a B-movie. The sweltering northern 
 
 But McQueen’s performance transcends the shoddy production. He doesn’t say much. Instead, he uses his eyes and body language to show us Reese’s feelings. It’s a riveting turn that’s equal parts cold detachment and tumultuous emotion. Watching the film, one is hard pressed to disagree with McQueen’s insistence that the script focus on him. He carries the film.
 
-The only performer who comes close to matching McQueen is James Coburn. Coburn plays Henshaw, a habitual tinkerer struggling with the destruction inherit in war. His defining scene sees him manning a flame-thrower, fighting back manic laughter as he incinerates a group of trapped German soldiers. It’s a haunting visage that foreshadows the star Coburn would later become.
+The only performer who comes close to matching McQueen is James Coburn. Coburn plays Henshaw, a habitual tinkerer struggling with the destruction inherent in war. His defining scene sees him manning a flame-thrower, fighting back manic laughter as he incinerates a group of trapped German soldiers. It's a haunting visage that foreshadows the star Coburn would later become.
 
 Granted, not all the performances are winners. Nick Adams overplays his part as a Polish refugee. His scenes bleed into melodrama. And Bob Newhart looks lost doing a variation of his standup shtick. But the film overcomes these stumbles to finish strong.
 
