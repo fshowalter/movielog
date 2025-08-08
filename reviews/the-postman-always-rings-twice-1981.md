@@ -28,7 +28,7 @@ The same applies, albeit to a lesser extent, to Mamet’s adaptation of the cour
 
 Further, Mamet removes the relationship between Katz and the District Attorney. In the book, the two wager a hundred bucks on the case over dinner. While one could regard this as a minor detail, it reinforces the book’s cynical view of elitism. Mamet also has Katz pocket the insurance money, unlike the book which sees Cora refuse, another change that diminishes her agency.
 
-Like the Turner version, Mamet tries to streamline the third act. As mentioned, he restores Frank’s fling while Cora’s away, continuing the cat motif, but condenses the blackmail sequence. In another surprising change, he reveals Cora’s pregnancy far earlier than in the novel. I suspect this was a bid to soften Frank’s character and engender some emotional stakes, but again, it diminishes the inherit cynicism.
+Like the Turner version, Mamet tries to streamline the third act. As mentioned, he restores Frank’s fling while Cora’s away, continuing the cat motif, but condenses the blackmail sequence. In another surprising change, he reveals Cora’s pregnancy far earlier than in the novel. I suspect this was a bid to soften Frank’s character and engender some emotional stakes, but again, it diminishes the inherent cynicism.
 
 So which version is better? Both disappoint. Rafelson’s version offers more verisimilitude and hews closer to the novel, but plays like an erotic thriller that's neither thrilling nor erotic. Turner’s version sports a Hollywood sheen that reduces the story to a contrived melodramatic romance, but has the best singular performance in Hume Cronyn’s Katz. That performance, combined with the shorter running time, gives the Turner version the edge.
 
