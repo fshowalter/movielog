@@ -15,4 +15,4 @@ Leads Shia LaBeouf and Michelle Monaghan do their best to distract from the ludi
 
 For his part, director D.J. Caruso handles the action well, giving the film a slick, glossy look that helps distract from the story, but again, it's just not enough.
 
-_Eagle Eye_ began as an idea from Steven Spielberg, who served as executive producer, so it's easy to see why nobody had the guts to point out its inherit flaws. Instead, no less that four credited screenwriters attempted to string together what likely began as a series of scenes into something resembling a believable story. That they failed is no surprise. That Spielberg is so far removed from plausible storytelling is.
+_Eagle Eye_ began as an idea from Steven Spielberg, who served as executive producer, so it's easy to see why nobody had the guts to point out its inherent flaws. Instead, no less that four credited screenwriters attempted to string together what likely began as a series of scenes into something resembling a believable story. That they failed is no surprise. That Spielberg is so far removed from plausible storytelling is.
