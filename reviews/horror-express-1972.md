@@ -22,4 +22,4 @@ The production values also shine. The Spanish exteriors lend an old-world sheen,
 
 Capping it off, Telly Savalas shows up in late in the proceedings playing a Russian Cossack. He doesn’t even try to affect a Russian accent and plays his part with a cocky arrogance that can’t help but charm. It’s a welcome dose of ridiculousness just as the film was dragging and provides a third lead capable of carrying the film when Lee and Cushing are off screen.
 
-Given the cast and production, _Horror Express_ should have been great. Embracing the premise’s inherit paranoia would have gone a long way. But for fans of Lee and Cushing’s Hammer Horror fare, this should prove a pleasing enough diversion, on par with the studio's later output. Not worth seeking out, but worth a look should the opportunity arise.
+Given the cast and production, _Horror Express_ should have been great. Embracing the premise’s inherent paranoia would have gone a long way. But for fans of Lee and Cushing’s Hammer Horror fare, this should prove a pleasing enough diversion, on par with the studio's later output. Not worth seeking out, but worth a look should the opportunity arise.
