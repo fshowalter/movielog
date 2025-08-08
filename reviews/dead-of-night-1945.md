@@ -5,7 +5,7 @@ grade: C-
 slug: dead-of-night-1945
 ---
 
-_Dead of Night_ opens with an architect arriving at an isolated country cottage for some consulting work. Upon entering, he’s confronted with an overwhelming sense of déjà vu. Though he's never met them, he recognizes the guests from a reoccurring dream. One guest, a psychiatrist, proves skeptical, prompting the others to share own tales of the unexplained.
+_Dead of Night_ opens with an architect arriving at an isolated country cottage for some consulting work. Upon entering, he's confronted with an overwhelming sense of déjà vu. Though he's never met them, he recognizes the guests from a recurring dream. One guest, a psychiatrist, proves skeptical, prompting the others to share own tales of the unexplained.
 
 <!-- end -->
 
