@@ -7,7 +7,7 @@ date: 2004-02-28
 
 After his father's death, a fast talking salesman discovers the Autistic brother he never knew he had.
 
-_Rain Man_ suffers from an interesting dilemma: it doesn't age particularly well due to it's own success.
+_Rain Man_ suffers from an interesting dilemma: it doesn't age particularly well due to its own success.
 
 When _Rain Man_ was released in 1988 Autism was a relatively unknown disorder, but that quickly changed as a result of the movie's success. Almost overnight, every magazine was writing about Autism, and numerous segments were airing on nightly news programs. Since then there have been countless more articles and specials many featuring clips of Dustin Hoffman's _Rain Man_ performance. The end result is that the amount time _Rain Man_ spends introducing the viewer to Autism seems redundant now that the disorder is so widely known.
 
