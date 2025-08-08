@@ -22,7 +22,7 @@ Here's the thing about _His Kind of Woman_: it gets more absurd as it goes along
 
 The production history explains everything. John Farrow directed the original version, but Hughes sat on it for six months. When he finally watched it, he brought in new writers and director Richard Fleischer to completely rework the climax. What was once a simple scuffle on a yacht became an elaborate chase sequence complete with torture scenes and a sinking rowboat. Hughes even recast Ferraro twice—first replacing Howard Petrie with Robert J. Wilke, then Wilke with Raymond Burr. The whole mess took over a year to complete.[^1]
 
-This should have been a disaster. Instead, it's a happy accident. Neither the somber noir it starts as nor the absurd adventure it becomes would have been remarkable on their own.  Together, they make a truly distinctive film that grows on you with each viewing.
+This should have been a disaster. Instead, it's a happy accident. Neither the somber noir it starts as nor the absurd adventure it becomes would have been remarkable on their own. Together, they make a truly distinctive film that grows on you with each viewing.
 
 The production values are surprisingly strong. You'd never guess this was shot entirely on soundstages, complete with a man-made beach. The RKO craftsmen knew their business and Hughes splurged to build out an entire yacht and deepen the cement water tank at RKO studios for his new ending.[^2]
 
