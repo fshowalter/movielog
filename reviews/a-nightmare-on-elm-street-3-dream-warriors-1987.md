@@ -3,7 +3,7 @@ slug: a-nightmare-on-elm-street-3-dream-warriors-1987
 date: 2025-03-01
 imdb_id: tt0093629
 grade: B-
-synopsis:  Six years after the original film, Nancy Thompson returns to help the last of the Elm Street children--now teenagers confined to a psychiatric hospital--battle Freddy Krueger.
+synopsis: Six years after the original film, Nancy Thompson returns to help the last of the Elm Street children--now teenagers confined to a psychiatric hospital--battle Freddy Krueger.
 ---
 
 Set six years after the original film, _A Nightmare on Elm Street 3: Dream Warriors_ finds Freddy Krueger stalking the last of the Elm Street children, now teenagers confined to a psychiatric hospital. Their doctor, played by Craig Wasson, dismisses their shared nightmares as group delusion. But his new intern Nancy Thompson (Heather Langenkamp, returning from the original) knows better: Freddy is real, and dying in their dreams means death in reality. When one of the teens faces sedation and isolation, Nancy leads the others into the dream world for a final confrontation while Wasson races to find and consecrate Freddy's remains.
