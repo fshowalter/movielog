@@ -33,7 +33,7 @@ These tonal shifts between absurdist humor and teen angst melodrama prove frustr
 
 Thus I'm unsure of the film's intended audience. While the practical effects and puppets charm, they'll seem too childish for teens, and preteens will struggle to identify with Connelly's teenage heroine or idolize popstar Bowie.
 
-Its theme of the terror inherit in the transition to young adulthood escaped my preteen self when I saw it on a rainy day during a beach vacation. But I walked out of the theater a fan.
+Its theme of the terror inherent in the transition to young adulthood escaped my preteen self when I saw it on a rainy day during a beach vacation. But I walked out of the theater a fan.
 
 Bowie's performance, the catchy songs, Henson's creations, and the finale inspired by M. C. Escher's _Relativity_ all helped.
 
