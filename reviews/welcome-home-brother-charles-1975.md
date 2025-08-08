@@ -31,7 +31,7 @@ Charles makes his way through the racist cop and prosecutor before the police ca
 
 A fascinating watch. Fanaka's documentary-like focus on the depressed community in the first two acts delivers such an immersive experience that the third act pivot into exploitation horror shocks.
 
-Drawing such a clear delineation between realism and fantasy prevents the exploitative elements from diminishing the first two acts' authenticity. It also provides a novel way for Fanaka to confront fears of interracial sex and stereotypes of black male sexuality. By depicting these fears heightened to ludicrous levels, he points out their inherit inanity.
+Drawing such a clear delineation between realism and fantasy prevents the exploitative elements from diminishing the first two acts' authenticity. It also provides a novel way for Fanaka to confront fears of interracial sex and stereotypes of black male sexuality. By depicting these fears heightened to ludicrous levels, he points out their inherent inanity.
 
 Granted, the over-the-top nature pushes it beyond horror and into satire, but Fanaka's take isn't far removed from Bram Stoker using Dracula as an allegory for transgressive sexuality and Jewish immigration fears. Except Fanaka empathizes with his monster and uses the first two acts to—if not justify—at least contextualize his actions.
 
