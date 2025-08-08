@@ -8,7 +8,7 @@ slug: blacula-1972
 Free after centuries of imprisonment, an African prince (William Marshall) bitten by Dracula seeks
 the reincarnation of his lost love in 1972 Los Angeles.
 
-_Blacula_ is an oft overlooked but significant entry in the Dracula mythos as it marks the first film instance of the now commmon plot point where the female lead is Dracula's reincarnated lost love. Subsequent films ran with this, notably <span data-imdb-id="tt0070003">_Dan Curtis' Dracula_</span>, <span data-imdb-id="tt0079489">_Love at First Bite_</span>, and <span data-imdb-id="tt0103874">_Bram Stoker's Dracula_</span>, but, _I think_, _Blacula_ did it first.
+_Blacula_ is an oft overlooked but significant entry in the Dracula mythos as it marks the first film instance of the now common plot point where the female lead is Dracula's reincarnated lost love. Subsequent films ran with this, notably <span data-imdb-id="tt0070003">_Dan Curtis' Dracula_</span>, <span data-imdb-id="tt0079489">_Love at First Bite_</span>, and <span data-imdb-id="tt0103874">_Bram Stoker's Dracula_</span>, but, _I think_, _Blacula_ did it first.
 
 Cultural milestone aside, the film entertains. Sure, the budget is clearly non-existent, and most of the performances are stilted at best; but how can you dislike _Blacula_? The title is a stroke of marketing genius, and William Marshall is a lot of fun in the titular role, even if it's never made clear just why his sideburns go crazy whenever he shows his fangs. If the film were just a little more intense, it might have been something special.
 
