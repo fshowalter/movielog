@@ -7,11 +7,11 @@ date: 2003-09-20
 
 A centuries old vampire wakes up, becomes a rock star, and, in the process, awakens the most powerful and destructive vampire of all.
 
-I'm not going to judge this movie based on the books. I believe movies and books are different mediums and one should not be judged against another. Sure, I liked the books, but I'm willing to judge this movie on it's own merits, no matter how much it deviates from the source material.
+I'm not going to judge this movie based on the books. I believe movies and books are different mediums and one should not be judged against another. Sure, I liked the books, but I'm willing to judge this movie on its own merits, no matter how much it deviates from the source material.
 
 Those who feel differently will want to stop reading now and just steer clear of this movie, as just about everything except the premise has been thrown out in this adaptation of Anne Rice's third novel.
 
-Okay now, for those of you open-minded enough to judge this movie, not by it's adherence to the book upon which it was based, but rather on it's own merits I say this: This is a bad movie.
+Okay now, for those of you open-minded enough to judge this movie, not by its adherence to the book upon which it was based, but rather on its own merits I say this: This is a bad movie.
 
 Seriously. It's god-awful.
 
