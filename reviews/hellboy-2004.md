@@ -7,7 +7,7 @@ date: 2004-04-03
 
 A demon (Ron Perlman), raised by a secret US agency, battles a resurrected sorcerer (Karel Roden) and tries to win his true love (Selma Blair).
 
-_Hellboy_ is a great example of a comic book adaptation hindered by the limitations of it's own source material.
+_Hellboy_ is a great example of a comic book adaptation hindered by the limitations of its own source material.
 
 Ron Perlman is great in the title role, and is the highlight of the movie. His interactions with the other characters are what give _Hellboy_ its flavor. Unfortunately this also leads into the movie's biggest flaw--the villain in _Hellboy_ is a great disappointment.
 
