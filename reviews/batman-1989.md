@@ -9,7 +9,7 @@ Jack Nicholson plays a mobster who falls into a chemical vat and emerges with wh
 
 <!-- end -->
 
-I remember seeing director Tim Burton’s film in theaters opening weekend. I was young enough to clap with the crowd in glee at scenes like Batman’s plane breaking the clouds to hang mid-air against the full moon and form a bat symbol. But my adolescent self also appreciated the adult tones inherit in a story built around corruption and mass murder. I thought it miles removed from Adam West’s 1966 television show—which still played in afternoon reruns.
+I remember seeing director Tim Burton’s film in theaters opening weekend. I was young enough to clap with the crowd in glee at scenes like Batman’s plane breaking the clouds to hang mid-air against the full moon and form a bat symbol. But my adolescent self also appreciated the adult tones inherent in a story built around corruption and mass murder. I thought it miles removed from Adam West’s 1966 television show—which still played in afternoon reruns.
 
 Burton’s Batman was dark and brooding and cool, like he was in the comics. The world went Bat-crazy that summer; me included. I remember thinking it the greatest movie ever made.
 
