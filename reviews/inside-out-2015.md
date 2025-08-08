@@ -24,7 +24,7 @@ Meanwhile, Riley, unable to feel anything but anger, fear and disgust, begins la
 
 As Joy’s desperation to reach Headquarters grows, she and Sadness induce a nightmare involving a giant clown. It’s a sequence that will give a fair number of viewers nightmares of their own.
 
-Soon after, the film offers a scene of unexpected depth. Joy and Bing Bong find themselves in a desolate dumping-ground where memories dissolve into dust. We see images of young Riley laughing and playing with Bing Bong. As these memories dissolve and blow away, Bing Bong himself fades from existence. He accepts his fate with a quiet dignity that belies his goofy exterior. It’s a poignant moment that forces older viewers to acknowledge the loss of innocence inherit in growing up[^1].
+Soon after, the film offers a scene of unexpected depth. Joy and Bing Bong find themselves in a desolate dumping-ground where memories dissolve into dust. We see images of young Riley laughing and playing with Bing Bong. As these memories dissolve and blow away, Bing Bong himself fades from existence. He accepts his fate with a quiet dignity that belies his goofy exterior. It's a poignant moment that forces older viewers to acknowledge the loss of innocence inherent in growing up[^1].
 
 It’s this willingness to tackle complex themes without patronizing the audience that makes _Inside Out_ an impressive film. Odds are, you’ll think it a wonderful movie. I did.
 
