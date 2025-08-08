@@ -5,7 +5,7 @@ grade: C
 date: 2004-07-25
 ---
 
-At 48 minutes, it's hard to classify _Blood: The Last Vampire_ as a movie. Indeed, it feels like the middle chapter of a trilogy and doesn't really stand on it's own in a narrative sense.
+At 48 minutes, it's hard to classify _Blood: The Last Vampire_ as a movie. Indeed, it feels like the middle chapter of a trilogy and doesn't really stand on its own in a narrative sense.
 
 The opening sequence sets the tone for the film, where a mysterious woman assassinates a mysterious monster on a subway train and meets with two mysterious government agents. The only problem is that none of the mystery in the movie is ever explained, and the audience is left scratching their heads if they try and look beyond the top-notch animation and non-stop action.
 
