@@ -13,4 +13,4 @@ The performance are all first rate. Crispen Glover's does tend veer a little ove
 
 Director Tim Hunter does a great job creating a real-world atmosphere, and manages to keep the film from dating itself. The lack of cell phones is about the only way you'd know it wasn't set in present day.
 
-_River's Edge_'s only real problems are it's length (it's about 15-20 minutes too long), and it's lack of story. The movie seems more intent on exploring it's character's reactions, rather than trying to unify those reactions with a central thread or theme. This isn't to say there isn't a central theme, only that it's often sacrificed for the sake of exploration, resulting in a looser narrative.
+_River's Edge_'s only real problems are its length (it's about 15-20 minutes too long), and its lack of story. The movie seems more intent on exploring its character's reactions, rather than trying to unify those reactions with a central thread or theme. This isn't to say there isn't a central theme, only that it's often sacrificed for the sake of exploration, resulting in a looser narrative.

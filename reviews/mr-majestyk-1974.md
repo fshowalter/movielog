@@ -11,4 +11,4 @@ _Mr. Majestyk_ is one of Charles Bronson's best vehicles. In it, he plays a quie
 
 Some of the credit has to go to Elmore Leonard's script, which offers some originality while at the same time indulging our desire to root for an underdog; but the rest of the credit goes to Bronson. This movie, along with <span data-imdb-id="tt0071402">_Death Wish_</span>, cemented his image as a tough loner willing to take the law into his own hands. His iron countenance and strong screen presence were enhanced by an undeniable sense of authenticity which quickly propelled him to screen legend.
 
-_Mr. Majestyk_'s got it's flaws, sure. It runs maybe 10 minutes too long, and Al Lettieri's performance is a bit too over-the-top, but these are minor issues. Watch _Mr. Majestyk_ for Bronson and you won't be disappointed.
+_Mr. Majestyk_'s got its flaws, sure. It runs maybe 10 minutes too long, and Al Lettieri's performance is a bit too over-the-top, but these are minor issues. Watch _Mr. Majestyk_ for Bronson and you won't be disappointed.

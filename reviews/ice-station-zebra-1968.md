@@ -17,4 +17,4 @@ The weather station, up to this point just a McGuffin, takes center stage as the
 
 Well, there's a little spy drama, and a standoff with some Soviets, but none of this is particularly engaging. Worst of all, the film's effects budget seems to be spent, as the Polar scenes look very stagy, with the actors' faces not even flushed in the supposed sub-zero temperatures.
 
-_Ice Station Zebra_, could have, and should have been better, but, as is, you'd be better served turning it off at the two-hour mark. An anti-climatic ending, sure, but better then the last half hour's meandering mess.
+_Ice Station Zebra_, could have, and should have been better, but, as is, you'd be better served turning it off at the two-hour mark. An anti-climatic ending, sure, but better than the last half hour's meandering mess.

@@ -11,7 +11,7 @@ _All About Eve_ is a near-perfect story of fame, and the ambition it takes to ac
 
 Bette Davis gives a fearless performance as an aging actress refusing to acknowledge the bitter truth that her best days are behind her. Though it mirrored Davis’ career at the time, the role isn’t a flattering one, but Davis gives it her all, fleshing out Margo Channing into a talented, but nonetheless flawed, human being that you come to care about despite her rants and tantrums. No small feat.
 
-Second only to Davis though, is George Sanders, whose Oscar winning performance as an insidious theater critic almost steals the film. His charming façade disguises a cold, ruthless man who sees himself as a step above everyone around him. While the role is perhaps a manifestation of Mankiewicz’s disdain for critics, in Sanders' hands it comes through as an altogether believable and three-dimensional character.
+Second only to Davis, though, is George Sanders, whose Oscar winning performance as an insidious theater critic almost steals the film. His charming façade disguises a cold, ruthless man who sees himself as a step above everyone around him. While the role is perhaps a manifestation of Mankiewicz’s disdain for critics, in Sanders' hands it comes through as an altogether believable and three-dimensional character.
 
 Anne Baxter is also impressive in the titular role of Eve Harrington. It’s essentially a dual role, either of which could be overplayed, but Baxter pulls it off well.
 
