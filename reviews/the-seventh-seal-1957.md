@@ -10,4 +10,4 @@ The movie where the knight plays chess with Death. Time has rendered the once ic
 
 <!-- end -->
 
-First, this is no surrealist tale. The knight playing chess with death amounts to minutes of screen time. Bergman he leverages this abstraction along with the period setting to explore taboo themes of God's existence and the meaning of life. The ending proves both hopeful and bleak, mirroring Bergman's struggle with faith. Time may have softened the film's impact, but it still packs a punch.
+First, this is no surrealist tale. The knight playing chess with death amounts to minutes of screen time. Bergman leverages this abstraction along with the period setting to explore taboo themes of God's existence and the meaning of life. The ending proves both hopeful and bleak, mirroring Bergman's struggle with faith. Time may have softened the film's impact, but it still packs a punch.

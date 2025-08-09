@@ -10,13 +10,13 @@ Simone Signoret plays Nicole, a boarding school teacher carrying on an affair wi
 
 <!-- end -->
 
-The plot plays out Hitchcock style. The two women travel to Nicoles's home town, knowing Michel will follow. When he does, they drug and kill him. Then they must sneak the body back to the boarding school where it they stage it as an accident by dumping it in the pool.
+The plot plays out Hitchcock style. The two women travel to Nicole's home town, knowing Michel will follow. When he does, they drug and kill him. Then they must sneak the body back to the boarding school where they stage it as an accident by dumping it in the pool.
 
 Operating with an icy detachment, Nicole proves the mastermind. Christina abets with a growing reluctance.
 
 Things get complicated when the body vanishes and Christina crumbles under the guilt. Soon a retired detective—best described as a French Columbo—inserts himself into their lives.
 
-It builds to a gothic horror finale that sees Christina creeping along shadowy corridors in pursuit of a phantom-like presence, culminating it a memorable bathtub scene.
+It builds to a gothic horror finale that sees Christina creeping along shadowy corridors in pursuit of a phantom-like presence, culminating in a memorable bathtub scene.
 
 But by this point, I had lost sympathy for Christina. Her character exhausted my patience. Lacking any agency, her performance comprises lots of whines and sighs. When she takes initiative in the finale and pursues the shadowy figure, it feels uncharacteristic and forced.
 

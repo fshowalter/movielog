@@ -10,7 +10,7 @@ A fascinating entry from writer/director Michael Haneke. Like his prior film, <s
 
 <!-- end -->
 
-The title proves apt. In an early scene, a character complains they can't enter an apartment building because the access code has changed. Haneke runs with this metaphor, examining the barriers to understanding and communication in our multi-cultural society. He presents no heroes or villains, or pat answers. Early on, we see a young west African man detained by police. Our sympathies go with him, but later, we see him exert emotional abuse on a date. Was it intentional, or a miscommunication? Haneke offers no clarity. Rather, he doubles-down on film's simulacrum, proffering scenes then revealing them as a movie-within-the-movie. He invites us to ask ourselves: does that make these scenes any less real?
+The title proves apt. In an early scene, a character complains they can't enter an apartment building because the access code has changed. Haneke runs with this metaphor, examining the barriers to understanding and communication in our multicultural society. He presents no heroes or villains, or pat answers. Early on, we see a young west African man detained by police. Our sympathies go with him, but later, we see him exert emotional abuse on a date. Was it intentional, or a miscommunication? Haneke offers no clarity. Rather, he doubles-down on film's simulacrum, proffering scenes then revealing them as a movie-within-the-movie. He invites us to ask ourselves: does that make these scenes any less real?
 
 The film's technical merits astound. Haneke films each segment in a single take, enhancing the voyeuristic experience.
 

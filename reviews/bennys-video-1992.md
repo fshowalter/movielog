@@ -6,7 +6,7 @@ grade: A-
 slug: bennys-video-1992
 ---
 
-Labeling director Michael Haneke's sophomore effort "shocking" or "chilling" feels reductive. Haneke's story of a young teen with an obsessive penchant for violent video proffers a detached--but not dispassionate--look into an abyss.
+Labeling director Michael Haneke's sophomore effort "shocking" or "chilling" feels reductive. Haneke's story of a young teen with an obsessive penchant for violent video proffers a detached—but not dispassionate—look into an abyss.
 
 <!-- end -->
 
