@@ -11,4 +11,4 @@ You Kill Me is an eccentric comedy-noir in the vein of Fargo that never quite ma
 
 The performances are excellent all-round. Some might complain about the plausibility of the chemistry between Kingsley and Leoni, and if you're sensitive to that sort of thing you might have an issue, but you'd be hard pressed to find anything wrong with the always excellent Dennis Farina and Philip Baker Hall.
 
-The only weakness in the movie is the script, which never seems to find the right balance between comedy and drama. Instead of being a great black comedy or a great drama it's merely okay, but with the calibur of talent in front of the camera, that's a let down.
+The only weakness in the movie is the script, which never seems to find the right balance between comedy and drama. Instead of being a great black comedy or a great drama it's merely okay, but with the caliber of talent in front of the camera, that's a let down.
