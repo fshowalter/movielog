@@ -9,7 +9,7 @@ Two down on their luck brothers (Nathan Lane and Lee Evans) encounter an ingenio
 
 _Mousehunt_, while a DreamWorks SKG picture, owes much of its inspiration to the Looney Tunes cartoons produced by Warner Brothers some fifty years ago. Like those cartoons, the movie is wildly inventive with its physical comedy, but unlike those cartoons, _Mousehunt_ tries to take itself seriously.
 
-And that’s where it falters. I’m still not sure who you’re supposed to root for in _Mousehunt_, the brothers or the mouse. In Home Alone (1990), another film reminiscent of the Road Runner and Coyote cartoons, the sides are laid out in black and white, allowing the audience to sit back and enjoy the physical comedy, but here its not so easy.
+And that’s where it falters. I’m still not sure who you’re supposed to root for in _Mousehunt_, the brothers or the mouse. In Home Alone (1990), another film reminiscent of the Road Runner and Coyote cartoons, the sides are laid out in black and white, allowing the audience to sit back and enjoy the physical comedy, but here it's not so easy.
 
 The Road Runner and Coyote cartoons never opened with a funeral, and even though the one in _Mousehunt_ is played for laughs it still doesn’t work. Director Gore Verbinski tries to jump between cartoon and black comedy and the result is a film that can’t find its identity.
 

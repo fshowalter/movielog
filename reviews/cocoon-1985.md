@@ -13,4 +13,4 @@ The performers, both young and old, are excellent, with Hume Cronyn and Brian De
 
 _Cocoon_ does have a few missteps though. The special effects don’t age very well at all, especially the now almost-laughable shriveled alien, and the big climax feels forced, as if the filmmakers didn’t believe the audience would accept a quieter, more meditative ending.
 
-Still, it's descent little movie that will, I suspect, resonate more as my own years tick by.
+Still, it's a decent little movie that will, I suspect, resonate more as my own years tick by.
