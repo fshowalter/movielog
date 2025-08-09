@@ -13,4 +13,4 @@ Shot in black and white, _Manhattan_ looks great. Director Woody Allen takes ful
 
 Performance-wise, Allen plays his usual neurotic self--which works fine here--and Diane Keaton is great as the emotionally chaotic intellectual who Allen falls for in-spite of himself. Perhaps even more impressive though is Mariel Hemingway's performance, which has just the right amount of charm, naivete, and emotional honesty to make it both believable and moving.
 
-_Manhattan_ though, is a product of it's time and 25 years later, the dynamics of relationships have changed, a fact Allen explored in his recent movie <span data-imdb-id="tt0313792">_Anything Else_</span>. As a result, some of _Manhattan_ feels dated, which somewhat diminishes the relevance of it's insights.
+_Manhattan_ though, is a product of its time and 25 years later, the dynamics of relationships have changed, a fact Allen explored in his recent movie <span data-imdb-id="tt0313792">_Anything Else_</span>. As a result, some of _Manhattan_ feels dated, which somewhat diminishes the relevance of its insights.
