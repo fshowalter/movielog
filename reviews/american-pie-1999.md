@@ -5,7 +5,7 @@ grade: C+
 slug: american-pie-1999
 ---
 
-Four high school seniors make a pact to loose their virginity by prom night.
+Four high school seniors make a pact to lose their virginity by prom night.
 
 _American Pie_ is an above average teen sex comedy thanks largely due to a likable cast and an honest script.
 
