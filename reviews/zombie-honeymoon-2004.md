@@ -7,7 +7,7 @@ slug: zombie-honeymoon-2004
 
 A newlywed couple enjoys a honeymoon at the beach, but after one is attacked by a mysterious man things begin to take a turn for the worse.
 
-_Zombie Honeymoon_ starts off much as you'd expect from a film titled "Zombie Honeymoon." It's over-the-top, zany and a bit cartoonish, but once the horror elements kick in, the film takes a sharp turn, changes gears, and evolves into a serious mediation on what it means to love someone and the lengths you'll go to for that special person. Yes, this with a title like "Zombie Honeymoon."
+_Zombie Honeymoon_ starts off much as you'd expect from a film titled "Zombie Honeymoon." It's over-the-top, zany and a bit cartoonish, but once the horror elements kick in, the film takes a sharp turn, changes gears, and evolves into a serious meditation on what it means to love someone and the lengths you'll go to for that special person. Yes, this with a title like "Zombie Honeymoon."
 
 While this tonal shift may be off-putting for those expecting a more tongue-in-cheek, <span data-imdb-id="tt0365748">_Shaun of the Dead_</span> approach, those that go with it will find themselves rewarded with a solid, serious little drama. Writer/director David Gebroe crafts an extreme example of a destructive relationship, focusing on the fine line between loving someone and being an enabler, only here, he's substituted zombies for addiction.
 

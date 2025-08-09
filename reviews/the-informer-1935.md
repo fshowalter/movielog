@@ -9,7 +9,7 @@ A slow-witted Irishman (Victor McLaglen) sees his world crumble around him after
 
 _The Informer_ is an uneven, moody melodrama from director John Ford.
 
-The film starts off pretty shaky. Victor McLaglen, a regular of Ford’s, is good in the lead, but the female supporting cast’s tendency to overact can be grating. Fortunately, the film settles down and finds its stride as mediation on guilt and loyalty.
+The film starts off pretty shaky. Victor McLaglen, a regular of Ford’s, is good in the lead, but the female supporting cast’s tendency to overact can be grating. Fortunately, the film settles down and finds its stride as meditation on guilt and loyalty.
 
 And once it clicks, _The Informer_ proves potent, as McLaglen’s character’s slow, painful descent into a hell of his own making is relentlessly compelling.
 

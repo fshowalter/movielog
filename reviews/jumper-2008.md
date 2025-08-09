@@ -9,7 +9,7 @@ _Jumper_ is a frustrating movie.
 
 It’s beautifully shot, with an intriguing premise, and a great performance from Samuel L. Jackson. Unfortunately, it’s also got some cringe worthy dialog and distractingly large plot holes.
 
-The plot concerns a young man, played by Hayden Christensen, with the ability to teleport, who finds himself at war with a secret sect lead by a mysterious man played by Samuel L. Jackson.
+The plot concerns a young man, played by Hayden Christensen, with the ability to teleport, who finds himself at war with a secret sect led by a mysterious man played by Samuel L. Jackson.
 
 The film looks great, featuring some terrific location photography, but the plot is a hodgepodge of underdeveloped elements.
 

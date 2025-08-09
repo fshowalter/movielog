@@ -6,7 +6,7 @@ grade: C-
 slug: she-couldnt-say-no-1953
 ---
 
-Had it dared to be as provocative as it's title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down.
+Had it dared to be as provocative as its title, _She Couldn't Say No_ might have been something special. As is, it’s not a bad film, but it is something of a let-down.
 
 The story follows an oil heiress named Corby Lane, played by Jean Simmons. Corby travels to the small town of Progress in rural Arkansas. Once there, she begins anonymously doling out large sums of money to the townsfolk.
 

@@ -6,7 +6,7 @@ grade: D+
 slug: king-of-the-underworld-1939
 ---
 
-Kay Francis plays a doctor in danger of losing her license after her fellow doctor husband dies during a police raid where it’s discovered he’s been aiding a criminal gang lead by Humphrey Bogart and getting well paid for it.
+Kay Francis plays a doctor in danger of losing her license after her fellow doctor husband dies during a police raid where it's discovered he's been aiding a criminal gang led by Humphrey Bogart and getting well paid for it.
 
 <!-- end -->
 

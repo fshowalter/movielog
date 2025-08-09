@@ -22,7 +22,7 @@ Somehow this coincides with them investing all their money in Powell's company. 
 
 This proves providential enough to convince Powell, though he compartmentalizes his growing faith. A plot-convenient health-scare lands Powell in a convalescent hospital where the doctor informs him he must have “no mental conflict”.
 
-Powell receives word from Gleason that the rest of the gang are running a Saint Dismas charity as a racket, skimming from the top. Powell returns to New York to convince the gang to go straight, parading out a kid with a leg brace to show the charity's good work. The gang--now lead by Lansbury--laugh him out the door.
+Powell receives word from Gleason that the rest of the gang are running a Saint Dismas charity as a racket, skimming from the top. Powell returns to New York to convince the gang to go straight, parading out a kid with a leg brace to show the charity's good work. The gang--now led by Lansbury--laugh him out the door.
 
 Despondent, Powell walks to the local church, kneels before the statue of Dismas, and, with tears streaming down his face, prays. This convinces the old gang, who replace the skimmed money.
 

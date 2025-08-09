@@ -11,7 +11,7 @@ _The Cooler_, in different hands, could have been a slapstick comedy exploiting 
 
 Thankfully, the film is nothing like this.
 
-That's not to say the film is devoid of humor. It's actually quite funny at times, but it's a humor tinged with sadness. The script by director Wayne Kramer and Frank Hannah is a thoughtful mediation on life, love, and change.
+That's not to say the film is devoid of humor. It's actually quite funny at times, but it's a humor tinged with sadness. The script by director Wayne Kramer and Frank Hannah is a thoughtful meditation on life, love, and change.
 
 Particularly change, as on one level the film works as a commentary on Vegas itself and the change from the old guard, gambling-based view to the new corporate mega-resorts that dominate the strip.
 
