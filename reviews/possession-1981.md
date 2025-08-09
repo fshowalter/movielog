@@ -25,4 +25,4 @@ As the bodies pile up, the film catches up to Neill and Adjani's performances. N
 
 And I haven't mentioned Anna's doppelgänger or the scene where Anna—oozing blood and slime from every orifice—miscarries the tentacle monster's offspring in a deserted subway corridor.
 
-What is Żuławski saying? Between the talk of God and reoccurring shots of the Berlin Wall, _Possession_ remains a mystery. One that sticks with me for days. Is it the mix of nihilism and the supernatural? Perhaps. Regardless, though I may not know why it resonates, I can't deny that it does.
+What is Żuławski saying? Between the talk of God and recurring shots of the Berlin Wall, _Possession_ remains a mystery. One that sticks with me for days. Is it the mix of nihilism and the supernatural? Perhaps. Regardless, though I may not know why it resonates, I can't deny that it does.
