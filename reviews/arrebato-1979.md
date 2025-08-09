@@ -16,6 +16,6 @@ As present-day José listens to Pedro's tapes and fights with his live-in girlfr
 
 Despite the confusing plot, the film engenders a palpable sense of tension and dread. The performances convince and the obtuse presentation adds to the sense that the film is proffering a mystery for us to solve.
 
-But unlike similar enigmas from the likes of David Lynch, _Arrebato_ didn't resonate. The finale left me underwhelmed. In hindsight, I suspect writer/director Iván Zulueta was trying to make a film about drug abuse. The “rapture” and “withdrawal” metaphors work. As do the time travel and childhood nostalgia allegories. But the focus on cinema and the images presented escapes me.
+But unlike similar enigmas from the likes of David Lynch, _Arrebato_ didn't resonate. The finale left me underwhelmed. In hindsight, I suspect writer/director Iván Zulueta was trying to make a film about drug abuse. The "rapture" and "withdrawal" metaphors work. As do the time travel and childhood nostalgia allegories. But the focus on cinema and the images presented escape me.
 
 Still, I enjoyed the journey. I'd love to see this get a boutique Blu-ray release, if only to hear smarter folks than I discuss this ambitious work.
