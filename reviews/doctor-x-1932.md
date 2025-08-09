@@ -11,4 +11,4 @@ _Doctor X_ has a couple of big problems: Fay Wray and Lionel Atwill are the only
 
 Though _Doctor X_ only runs 76 minutes, it feels almost half an hour longer.
 
-Yet, despite of all these problems, _Doctor X_'s great sets, and excellent early use of 2-color Technicolor will make it attractive to some.
+Yet, despite all these problems, _Doctor X_'s great sets, and excellent early use of 2-color Technicolor will make it attractive to some.
