@@ -9,7 +9,7 @@ Based on the true story of the Allied forces' failed attempt to capture several 
 
 Unfortunately, at just shy of 3 hours in length, it's easily a half-hour too long, and that last 30 minutes drags for an eternity.
 
-There's a lot of good here. The all-star cast hits (Sean Connery, Michael Caine, and James Caan) more often then it misses (Gene Hackman and Ryan O'Neal) and even knocks one clear out of the park (Robert Redford). The production is fantastic, with great location scenery and authentic vehicles and equipment, and the battle scenes are tense, pulse-pounding thrillers.
+There's a lot of good here. The all-star cast hits (Sean Connery, Michael Caine, and James Caan) more often than it misses (Gene Hackman and Ryan O'Neal) and even knocks one clear out of the park (Robert Redford). The production is fantastic, with great location scenery and authentic vehicles and equipment, and the battle scenes are tense, pulse-pounding thrillers.
 
 But then there's that last 30 minutes.
 
