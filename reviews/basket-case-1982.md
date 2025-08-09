@@ -10,7 +10,7 @@ slug: basket-case-1982
 
 <!-- end -->
 
-An exploitation film in the Herschell Gordon Lewis vain, _Basket Case_ proffers copious amounts of blood and gore, heightened performances, and dark comedy. I wanted to like it more.
+An exploitation film in the Herschell Gordon Lewis vein, _Basket Case_ proffers copious amounts of blood and gore, heightened performances, and dark comedy. I wanted to like it more.
 
 I loved the New York City locations. Duane walks along 42nd Street, past the Grindhouse theaters playing Kung Fu and porn flicks to settle in a flophouse hotel that feels so seedy you can almost smell the urine. When possible, Henenlotter stages interior shots to feature a window showcasing the cityscape.
 
