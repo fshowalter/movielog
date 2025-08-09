@@ -14,7 +14,7 @@ After <a href="https://www.franksbooklog.com/reviews/casino-royale-by-ian-flemin
 
 The book more-or-less starts with Bond arriving at the casino on orders from MI6. The film introduces a whole backstory that sees Bond himself discover Le Chiffre. It doesn't arrive at the titular casino until the half-way point. On the plus side, this provides several entertaining set-pieces, including an early parkour chase that announces this Bond as an action hero. On the down side, it stretches the film past two hours.
 
-Now that we're at the casino, the film fumbles one of the novel's best beats by turning Felix Lighter's introduction into a big reveal. That said, I loved the change from baccarat to poker, and the assassination attempt from shooting to poisoning. Both plausible changes.
+Now that we're at the casino, the film fumbles one of the novel's best beats by turning Felix Leiter's introduction into a big reveal. That said, I loved the change from baccarat to poker, and the assassination attempt from shooting to poisoning. Both plausible changes.
 
 Less plausible changes include the probability-focused Le Chiffre shorting an aerospace manufacturer as part of a complicated bomb plot. Or using Vesper as a roadblock instead of spikes. Or why the winnings had to be deposited and withdrawn. Or why Le Chiffre would implicate Mathis.
 

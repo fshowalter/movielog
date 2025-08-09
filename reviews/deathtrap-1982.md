@@ -17,7 +17,7 @@ That's the movie. It's told us what's coming and yet we're still surprised.
 
 The trick works because of the film's delightful dialog. The script proves self-aware, as evidenced by Caine's early comment on his trip out of New York City:
 
-> Do you know what happened to me tonight? I passed out in the train, and i came to in the terminus at Montauk! End of the line! Bloody symbolic.
+> Do you know what happened to me tonight? I passed out in the train, and I came to in the terminus at Montauk! End of the line! Bloody symbolic.
 
 These call-outs build credibility, allowing the film to afford Caine cynical quips like “Nothing recedes like success,” without feeling pretentious.
 
