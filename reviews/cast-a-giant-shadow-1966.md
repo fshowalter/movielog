@@ -9,7 +9,7 @@ A semi-fictionalized account of Col. David "Mickey" Marcus's (Kirk Douglas) effo
 
 _Cast a Giant Shadow_ starts out well enough. You know it's playing fast and loose in the accuracy department, but with a cast that includes Kirk Douglas, John Wayne, Angie Dickinson, and Yul Brynner, who cares?
 
-Sure, the awkward flashbacks make for a clunky narrative, and some of the dialog is cringe worthy, but Douglas and company make due, at least for the first hour. Then Senta Berger goes completely over the top and takes the entire film with her.
+Sure, the awkward flashbacks make for a clunky narrative, and some of the dialog is cringe worthy, but Douglas and company make do, at least for the first hour. Then Senta Berger goes completely over the top and takes the entire film with her.
 
 The scene, where her tough-as-nails on the outside but wounded on the inside character, can't start a truck and drive it twenty yards forward is overwrought melodrama at its worst. Not only is it unbelievable, it's just plain ridiculous, and only serves to drain any audience sympathy from her character. A breakdown like hers only works in a serious drama, not an adventure film, and suddenly asking the audience to accept it doesn't mesh with the film's tone up to that point.
 
