@@ -9,7 +9,7 @@ Vampirism spreads amongst a criminal crew during the after-hours robbery of a sm
 
 One of Quentin Tarantino's trademarks is a POV shot from the inside of a trunk. In _From Dusk Till Dawn 2: Texas Blood Money_, director Scott Spiegel gives us POV shots from the inside of just about everything.
 
-And that's the movie in a nutshell. It takes the little things that original <span data-imdb-id="tt0116367">_From Dusk Till Dawn_</span> creators Tarantino and Robert Rodriguez used as stylish touches and runs them into the ground. Whether it's the aforemetioned POV shots, or the surf rock soundtrack, or the stylized violence, the movie plays like a spoof of Tarantino and Rodriguez's styles.
+And that's the movie in a nutshell. It takes the little things that original <span data-imdb-id="tt0116367">_From Dusk Till Dawn_</span> creators Tarantino and Robert Rodriguez used as stylish touches and runs them into the ground. Whether it's the aforementioned POV shots, or the surf rock soundtrack, or the stylized violence, the movie plays like a spoof of Tarantino and Rodriguez's styles.
 
 And that's not necessarily a bad thing. Robert Patrick's surprisingly solid in the lead, (so much so that Tarantino would do well to consider him for a future role) and the script has more than a few funny moments.
 
