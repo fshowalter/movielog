@@ -9,7 +9,7 @@ Barbara Stanwyck plays a young woman who leaves her Chicago finishing school for
 
 <!-- end -->
 
-This one left me with a lot of questions. An opening scene features Stanwyck's character as a child dining with her father. He imparts in a solemn but loving tone, “This whole thing called life is just a grand adventure. The trick is to act in it and look out at the same time. And remember, as you go through life, no matter what happens, good or bad, its' just so much velvet.”
+This one left me with a lot of questions. An opening scene features Stanwyck's character as a child dining with her father. He imparts in a solemn but loving tone, “This whole thing called life is just a grand adventure. The trick is to act in it and look out at the same time. And remember, as you go through life, no matter what happens, good or bad, it's just so much velvet."
 
 When Stanwyck arrives for her teaching job, she boards with an immigrant family of farmers, the father played by Alan Hale. The film shows some panache here, with an early dinner scene illustrating how crude the farmers seem to Stanwyck by proffering POV shots of food going into Hale's mouth.
 
