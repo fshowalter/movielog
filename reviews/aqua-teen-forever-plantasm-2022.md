@@ -41,4 +41,4 @@ Like the original series, the absurdist humor hits-and-misses. The longer runnin
 
 “Big-time!” says Err.
 
-Series fans should enjoy it, but it won’t make any new converts. Indeed, it’s telling that a gag that would have eliminated the entire third act elicited big laughs, hinting that perhaps—even and only seventy-six minutes—this entry runs too long.
+Series fans should enjoy it, but it won’t make any new converts. Indeed, it's telling that a gag that would have eliminated the entire third act elicited big laughs, hinting that perhaps—even at only seventy-six minutes—this entry runs too long.
