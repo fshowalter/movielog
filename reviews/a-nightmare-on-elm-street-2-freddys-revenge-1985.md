@@ -41,6 +41,6 @@ Sholder also bears responsibility for casting Mark Patton as Jesse and crafting 
 
 The sequel's lone bright spot lies in the Freddy makeup, which shines, as illustrated by an early sequence between Freddy and Jesse. "You've got the body," Freddy says to Jesse as he removes his hat and peels the skin off the top of his skull, "and I've got the brain." A clever way of explaining possession that proves to be the film's singular memorable sequence.
 
-Fortunately, both Shaye and Shoulder would course correct. Shaye would pivot back to Craven’s original premise with the franchise’s <span data-imdb-id="tt0093629">third installment</span>, and Sholder would next direct <span data-imdb-id="tt0093185">_The Hidden_</span>.
+Fortunately, both Shaye and Sholder would course correct. Shaye would pivot back to Craven’s original premise with the franchise’s <span data-imdb-id="tt0093629">third installment</span>, and Sholder would next direct <span data-imdb-id="tt0093185">_The Hidden_</span>.
 
 [^1]: _Heroes and Villains_, _A Nightmare on Elm Street Collection_, Warner Bros., 2013

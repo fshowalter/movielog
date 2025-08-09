@@ -6,4 +6,4 @@ grade: C+
 slug: avengers-age-of-ultron-2015
 ---
 
-With the _Infinity Saga_ done, it’s easier to forgive this entry for what it is: a plot-heavy middle chapter in a larger story that regulates the Ultron character to a McGuffin.
+With the _Infinity Saga_ done, it's easier to forgive this entry for what it is: a plot-heavy middle chapter in a larger story that relegates the Ultron character to a McGuffin.
