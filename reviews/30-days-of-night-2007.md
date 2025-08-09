@@ -17,7 +17,7 @@ Unfortunately, _30 Days of Night_ is far from perfect. For starters, despite the
 
 And speaking of those vampires. Director Slade’s insistence that they stalk around roaring like something out of Jurassic Park gets old very quick.
 
-Next, there’s Josh Hartnett. At 29 he’s hardly believable as the sheriff of a remote Alaskan town. While the rest of the cast looks just like what’d you’d expect to find in a town plunged into darkness for thirty straight days a year, Hartnett is too young and too soft.
+Next, there's Josh Hartnett. At 29 he's hardly believable as the sheriff of a remote Alaskan town. While the rest of the cast looks just like what you'd expect to find in a town plunged into darkness for thirty straight days a year, Hartnett is too young and too soft.
 
 Finally, there’s the script by Steve Niles, Stuart Beattie and Brian Nelson. While the premise is dynamite, the execution leaves much to be desired. It’s packed full of expositionary dialog, and more than a few trite moments (the Alzheimer father, the asthma).
 

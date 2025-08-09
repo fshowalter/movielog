@@ -13,4 +13,4 @@ There are two big problems with _Air Force_. The first is that the cast is too h
 
 The second problem lies with the film’s first half. It’s very talky. For a war picture, the first hour is very slow. Things pick up quickly in the second half, but a stronger opening would go a long way.
 
-Despite these problems, Howard Hawks still turns in a descent movie. The finale delivers, and Hawks’s innate feel for the camaraderie amongst men serves him well.
+Despite these problems, Howard Hawks still turns in a decent movie. The finale delivers, and Hawks’s innate feel for the camaraderie amongst men serves him well.

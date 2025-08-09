@@ -7,7 +7,7 @@ slug: 4-for-texas-1963
 
 Two men (Frank Sinatra and Dean Martin) fight over a chunk of stolen money and a riverboat casino in 1870's Galveston.
 
-4 for Texas, despite it's numerical title, isn't really a Rat Pack film like <span data-imdb-id="tt0054135">_Ocean's Eleven_</span>, <span data-imdb-id="tt0056470">_Sergeants 3_</span> or <span data-imdb-id="tt0058529">_Robin and the 7 Hoods_</span>, as only Frank Sinatra and Dean Martin are present.
+4 for Texas, despite its numerical title, isn't really a Rat Pack film like <span data-imdb-id="tt0054135">_Ocean's Eleven_</span>, <span data-imdb-id="tt0056470">_Sergeants 3_</span> or <span data-imdb-id="tt0058529">_Robin and the 7 Hoods_</span>, as only Frank Sinatra and Dean Martin are present.
 
 Though it often gets a bad rep, the film's not the disaster many make it out to be. While it's not a laugh riot, Sinatra, and especially Martin are strong enough to carry the two hour running time. Further, it's the only western where Sinatra works, unlike the aforementioned _Sergeants 3_, or the train wreck that was <span data-imdb-id="tt0065642">_Dirty Dingus Magee_</span>, mostly because this film isn't a really a western at all, but more of a loose costume-comedy.
 

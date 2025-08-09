@@ -5,7 +5,7 @@ grade: C-
 date: 2004-07-09
 ---
 
-fter his bachelor party, a man (Jason Lee) wakes up next to a woman (Julia Stiles) who turns out to be the cousin of his fiance (Selma Blair).
+After his bachelor party, a man (Jason Lee) wakes up next to a woman (Julia Stiles) who turns out to be the cousin of his fiance (Selma Blair).
 
 _A Guy Thing_ is a wildly uneven comedy carried along by Jason Lee's considerable charisma. Sure, there are scenes that will have you laughing out loud, but there are also stretches of uncomfortably bad comedy that will have you itching for the fast-forward button; that Lee makes the whole thing watchable is a true testament to his charisma as a performer.
 

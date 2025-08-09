@@ -13,6 +13,6 @@ Lead Edward Norton does a great job, especially during the film's first half, th
 
 Brooks, whose character walked a similar road to Norton's early in life, shows hints of the same anger and frustration that plague Norton's character in the beginning of the film. This is important because it makes the subtle point that the anger and frustration doesn't just disappear, and that Brooks' character has simply found a way to channel it to more positive ends.
 
-Unfortunately, in the film's second half, Norton's character seems completely serene, and while this does make for a flashier performance, it also makes for an awkward transition negates one of the film's subtler insights.
+Unfortunately, in the film's second half, Norton's character seems completely serene, and while this does make for a flashier performance, it also makes for an awkward transition that negates one of the film's subtler insights.
 
 Interestingly, according to the IMDb, Norton edited the film himself over director Tony Kaye's objections. Kaye tried, unsuccessfully, to get his name removed from the film and when that failed, sued the studio for $270 million dollars.
