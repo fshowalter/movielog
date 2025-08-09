@@ -33,7 +33,7 @@ Craig avoids contrived setups, surprising us with each sudden bit of accidental 
 
 This genre weaving reaches an apex when Dale, seeing beyond his genre but remaining within it, tells Allison, “I should have known that if a guy like me talked to a girl like you, somebody'd end up dead.”
 
-Beyond it's comical nature, the line offers surprising resonance. It hints at an unexplored theme of social prejudice. In Dale's rom-com movie, he and Allison can't be together because they're from different worlds, and the coeds' reactions are born of elitism.
+Beyond its comical nature, the line offers surprising resonance. It hints at an unexplored theme of social prejudice. In Dale's rom-com movie, he and Allison can't be together because they're from different worlds, and the coeds' reactions are born of elitism.
 
 Meanwhile, in the coeds' slasher film, one coed's inherent hatred of hillbillies drives his prejudiced view of Tucker and Dale. When other characters want to seek help, he convinces them to act themselves.
 

@@ -13,7 +13,7 @@ Cagney proves the black sheep of his family. His father and brother have big dre
 
 The land rush sequence proves a grand spectacle with a screen full of speeding wagons and horses racing for the future. Cagney's brother and father lead the pack, but when they arrive at their desired spot, they find Bogart and gang already there—"sooners” who cheated. Rather than file a complaint and risk losing, Cagney's father settles with Bogart, who demands casino and saloon rights in the new town.
 
-Fast-forward and the town of Tulsa booms. Bogart has ascended to vice-lord. His casinos and saloons are teaming, but the accompanying drunken violence has the town in disarray.
+Fast-forward and the town of Tulsa booms. Bogart has ascended to vice-lord. His casinos and saloons are teeming, but the accompanying drunken violence has the town in disarray.
 
 The town turns to Cagney's father for help, but Bogart has him framed for murder and jailed. When Cagney gets word, he rides into town and attempts a jailbreak, but his father refuses, confident a trial will confirm his innocence. Frustrated, Cagney leaves.
 
