@@ -10,7 +10,7 @@ Jason's back, and he's brought meta-humor.
 
 <!-- end -->
 
-Ignoring the <span data-imdb-id="tt0089173">prior film</span>'s events, this entry opens with Tommy Jarvis and buddy[^1] en route to Crystal Lake, where they plans to dig up and incinerate Jason's corpse. Tommy's also brought Jason’s hockey mask, a plot hole best ignored.
+Ignoring the <span data-imdb-id="tt0089173">prior film</span>'s events, this entry opens with Tommy Jarvis and buddy[^1] en route to Crystal Lake, where they plan to dig up and incinerate Jason's corpse. Tommy's also brought Jason’s hockey mask, a plot hole best ignored.
 
 Tommy and his friend dig up the corpse, but a lightning strike reanimates the maggot-filled carcass. Undead Jason makes short work of Tommy's pal, but Tommy escapes to warn the local sheriff. Of course, the sheriff doesn't believe Tommy and runs him out of town.
 

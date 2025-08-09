@@ -6,7 +6,7 @@ grade: C-
 slug: halloween-2007
 ---
 
-In an aging house with peeling pain and broken shutters, in the part of town where rusted cars on cinder blocks occupy driveways and chain ink fences replace white pickets, a monster has grown. Young Michael Myers, aged ten, has developed a taste for violence. Starting with rats, progressing to dogs, and today, Halloween, he will graduate to people.
+In an aging house with peeling paint and broken shutters, in the part of town where rusted cars on cinder blocks occupy driveways and chain link fences replace white pickets, a monster has grown. Young Michael Myers, aged ten, has developed a taste for violence. Starting with rats, progressing to dogs, and today, Halloween, he will graduate to people.
 
 <!-- end -->
 

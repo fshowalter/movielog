@@ -16,4 +16,4 @@ The execution hinges on the cast, and they deliver. Judith Chapman convinces in 
 
 This quirky sense of humor makes the film. At one point when discussing an inheritance, the script mentions the Gift Tax. I loved that oddball attention to detail. It balances the incestuous undercurrent pervading the story. And said undercurrent keeps the film from veering into total camp. It's a tonal tightrope Grissmer walks with apparent ease.
 
-A shame this and _Blood Rage_ were his only films. Both demonstrate a deft ability to take a doppelgänger premise to ludicrous extremes. I wonder what he thought of <spand data-imdb-id="tt0094964">_Dead Ringers_</span>.
+A shame this and _Blood Rage_ were his only films. Both demonstrate a deft ability to take a doppelgänger premise to ludicrous extremes. I wonder what he thought of <span data-imdb-id="tt0094964">_Dead Ringers_</span>.

@@ -7,7 +7,7 @@ slug: the-masque-of-the-red-death-1964
 
 A prince (Vincent Price) revels in debauchery while a plague ravages the surrounding countryside.
 
-_The Masque of the Red Death_ stands out among director Roger Corman’s Edgar Allen Poe adaptations, and for good reason.
+_The Masque of the Red Death_ stands out among director Roger Corman’s Edgar Allan Poe adaptations, and for good reason.
 
 The script by Charles Beaumont and R. Wright Campbell is significantly darker, and less pulpy than Richard Matheson’s adaptations. They craft a truly evil character in Prince Prospero; a man so drunk with ego and power, he’s completely devoid of any compassion or morality. For his part, Vincent Price avoids the camp and plays Prospero straight, every line dripping with condescension, and in doing so makes the movie.
 

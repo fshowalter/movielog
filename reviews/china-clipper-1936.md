@@ -15,9 +15,9 @@ Consider this line when O'Brien quits his steady office job saying, “When a ma
 
 O'Brien spouts this kind of pro-aviation propaganda the entire film. In a later scene that made me chuckle, a federal inspector stands poised to shut down O'Brien and company on the eve of a landmark test flight. O'Brien makes a fiery argument and the inspector says, “You fellas make some pretty speeches. You appeal to my better nature. I'm not one to stop the wheels of progress. I'll give you a break this time.”
 
-The film proceeds in this manor. O'Brien and company take a step forward, suffer a setback, regroup and progress again. As the setbacks pile up, O'Brien grows callous and disconnected from his people. I found it hard to sympathize with his character.
+The film proceeds in this manner. O'Brien and company take a step forward, suffer a setback, regroup and progress again. As the setbacks pile up, O'Brien grows callous and disconnected from his people. I found it hard to sympathize with his character.
 
-O'Brien's robotic delivery doesn't help. He conveys the myopic obsession necessary to persevere, but not the inherit passion. The result renders his character more obstinate than noble. And the script proffers no scenes showing O'Brien's love of flying. As a result, he seems more enamoured with owning an airline than being airborne.
+O'Brien's robotic delivery doesn't help. He conveys the myopic obsession necessary to persevere, but not the inherit passion. The result renders his character more obstinate than noble. And the script proffers no scenes showing O'Brien's love of flying. As a result, he seems more enamored with owning an airline than being airborne.
 
 The supporting cast fare better. Beverly Roberts turns in a Hawksian performance early as O'Brien's wife, leaving him rather than put up with his egomaniacal behavior. Ross Alexander shines as O'Brien's World War I fighter-pilot buddy, injecting a much-needed dose of color next to O'Brien's monotone. Humphrey Bogart plays another of O'Brien's war buddies, but disappears for a chunk of the film after O'Brien's tyrannical behavior drives him away.
 

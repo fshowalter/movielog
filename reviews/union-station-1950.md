@@ -7,7 +7,7 @@ slug: union-station-1950
 
 A Union Station cop (William Holden) tracks kidnappers using his station for a ransom drop-off.
 
-_Union Station_ is a solid, if unremarkable, thriller featuring a re-teaming of <span data-imdb-id="tt0043014">_Sunset Boulevard_</a> stars William Holden and Nancy Olson.
+_Union Station_ is a solid, if unremarkable, thriller featuring a re-teaming of <span data-imdb-id="tt0043014">_Sunset Boulevard_</span> stars William Holden and Nancy Olson.
 
 Holden is good, albeit a bit miscast in a role that would have been perfect for Robert Mitchum. While Holden handles the part well, he lacks Mitchum’s haunted eyes and rugged demeanor, traits that would fit the part of a 24/7 cop. Still, Holden works with what he has, and makes the best of it, and while he does feel a bit “off” initially, by the time the credits roll such minor quibbles are long forgotten.
 

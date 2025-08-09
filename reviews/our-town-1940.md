@@ -11,7 +11,7 @@ An adaptation of Thornton Wilder’s play chronicling turn-of-the-century life i
 
 It opens with Holden and Scott as teens. Holden’s life revolves around baseball, but he soon discovers girls and, in turn, Scott, who frets about whether she’s pretty. Fast-forward three years for the second act featuring Holden and Scott’s wedding. Then the third act jumps forward nine more years as they prepare for a child.
 
-The screen adaptation delivers mixed results. The “stage manager” role translates well enough into an omniscient narrator who breaks the fourth wall to address the audience. Provided you can contextualize the early casual racism of “Polish town” where the “immigrants and Catholics” live, one could draw a through line from his folksy demeanor to the narrators of such Stephen King novels as _[`Salem’s Lot](https://www.franksbooklog.com/reviews/salems-lot-by-stephen-king/)_ and _Cujo_.
+The screen adaptation delivers mixed results. The “stage manager” role translates well enough into an omniscient narrator who breaks the fourth wall to address the audience. Provided you can contextualize the early casual racism of “Polish town” where the “immigrants and Catholics” live, one could draw a through line from his folksy demeanor to the narrators of such Stephen King novels as _['Salem's Lot](https://www.franksbooklog.com/reviews/salems-lot-by-stephen-king/)_ and _Cujo_.
 
 But the adaptation breaks down when the narrator polls the audience for questions. The ensuing faux dialogue betrays the material’s stage origin. Things get worse when the third act devolves into an extended monologue by Scott.
 
