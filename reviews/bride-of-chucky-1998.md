@@ -6,7 +6,7 @@ grade: C-
 slug: bride-of-chucky-1998
 ---
 
-A post-<span data-imdb-id="tt0117571">_Scream_</a> reboot that turns up the meta-humor and turns down the horror.
+A post-<span data-imdb-id="tt0117571">_Scream_</span> reboot that turns up the meta-humor and turns down the horror.
 
 <!-- end -->
 

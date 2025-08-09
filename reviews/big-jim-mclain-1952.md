@@ -5,7 +5,7 @@ grade: C
 slug: big-jim-mclain-1952
 ---
 
-John Wayne's first production under his Wayne-Fellows Productions company (later renamed Batjac) sees him playing a House UnAmerican Activities investigator ferreting out communists and romancing a war-widow played by Nancy Olson in Hawaii.
+John Wayne's first production under his Wayne-Fellows Productions company (later renamed Batjac) sees him playing a House Un-American Activities investigator ferreting out communists and romancing a war-widow played by Nancy Olson in Hawaii.
 
 <!-- end -->
 
