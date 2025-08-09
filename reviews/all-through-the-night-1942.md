@@ -7,7 +7,7 @@ slug: all-through-the-night-1942
 
 While investigating the death of his favorite cheesecake baker, Runyonesque gambler Gloves Donahue (Humphrey Bogart) stumbles onto a secret cell of Nazis planning sabotage in New York.
 
-_All Through The Night_ may be flawed, but with its fun script, and great performance by Humphrey Bogart, you'll easily overlook it's shortcomings.
+_All Through The Night_ may be flawed, but with its fun script, and great performance by Humphrey Bogart, you'll easily overlook its shortcomings.
 
 The script is littered with fast action and fast dialog, but never takes itself too seriously. There's plenty of comedy (that's actually funny), but also a real sense of tension that's crucial to any action picture. Also, with the exception of a slight hiccup during the second act, the script moves like gangbusters, which is important since any slow moments could give the viewer a chance to realize how silly it all is.
 

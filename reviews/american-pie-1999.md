@@ -7,7 +7,7 @@ slug: american-pie-1999
 
 Four high school seniors make a pact to lose their virginity by prom night.
 
-_American Pie_ is an above average teen sex comedy thanks largely due to a likable cast and an honest script.
+_American Pie_ is an above average teen sex comedy thanks largely to a likable cast and an honest script.
 
 Jason Biggs is great as the de-facto lead. He’s the loveable everyman the audience can root for and brings just the right amount of charm and naiveté to the role.
 
