@@ -17,7 +17,7 @@ But I'm getting ahead of myself. The film's first-half shines, with improbable s
 
 Said cast includes the star, played by Raquel Welch, her manager/husband played by Ian McShane, the agent, played by Dyan Cannon, the director, played by James Mason, and finally, the writer, played by Richard Benjamin and his heiress wife, played by Joan Hackett.
 
-All convince in their parts, but Coburn shines as the megalomaniacal producer, Clinton. One guest describes him as “That guy on the corner who winds up his little mechanical men, and they run crazily around.” Sporting a toothy grin and teaming with energy, he's an impatient audience personified. When one guest vocalizes his inner monologue as exposition, Clinton quips, “Do you move your lips when you read?”
+All convince in their parts, but Coburn shines as the megalomaniacal producer, Clinton. One guest describes him as “That guy on the corner who winds up his little mechanical men, and they run crazily around.” Sporting a toothy grin and teeming with energy, he's an impatient audience personified. When one guest vocalizes his inner monologue as exposition, Clinton quips, “Do you move your lips when you read?”
 
 As the film unfolds, Clinton's games send the characters scurrying down dark cobblestone streets, creeping through a deserted monastery, and prowling a creaky hotel. Perkins and Sondheim continue their pattern of calling out tropes, having McShane, upon entering one such setting, remark, “It's all rather like a Hammer film, isn't it?”
 

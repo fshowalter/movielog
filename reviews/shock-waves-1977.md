@@ -12,7 +12,7 @@ The film had potential. Early on, John Carradine captains a small sight-seeing b
 
 At least the island locations look great. The characters trudge through overgrown marshes and watery bogs to discover a crumbling hotel. The filmmakers struck gold here, shooting in an abandoned Biltmore. Its decrepit luxury oozes atmosphere.
 
-But the script’s inanity is taxing. Moving through the hotel, the group discovers an aquarium teaming with exotic fish. Yet, moments later, they seem surprised to find the hotel occupied.
+But the script’s inanity is taxing. Moving through the hotel, the group discovers an aquarium teeming with exotic fish. Yet, moments later, they seem surprised to find the hotel occupied.
 
 Peter Cushing plays the hotel’s lone resident, a morose Nazi living in self-imposed exile. He warns the group to leave the island, even telling them where they can find a boat. Do they listen? Of course not.
 

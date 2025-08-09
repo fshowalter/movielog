@@ -11,7 +11,7 @@ Until a 1948 Supreme Court ruling, the five major Hollywood studios controlled t
 
 The story opens with a montage of newspaper headlines. Jack Dempsey wins the world heavyweight title. Prohibition passes. Women's suffrage passes. Then, a smaller article. The New York City schools reopen after summer vacation.
 
-Cut to Public School 64. The camera pans back to reveal a schoolyard teaming with children. Hundreds of them. Were they not twirling about, playing on slides and swings, it would pass for a prison yard. Here, we meet three pre-teen girls.
+Cut to Public School 64. The camera pans back to reveal a schoolyard teeming with children. Hundreds of them. Were they not twirling about, playing on slides and swings, it would pass for a prison yard. Here, we meet three pre-teen girls.
 
 Exhibitionist Mary doesn't mind her bloomers showing while she's playing on the swing or the attention it garners from the boys. Much to the chagrin of class-beauty Vivian. When Mary skips class to smoke cigarettes with some boys, Vivian wants to tell on her. Studious Ruth dissuades her.
 
