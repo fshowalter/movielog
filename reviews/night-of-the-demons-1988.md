@@ -28,7 +28,7 @@ The other three characters, Helen, Max, and Frannie, lack motivation or personal
 
 And we get a lot of exposition, much masquerading as dialogue. “For centuries the Indian tribes that lived around here would never set foot on this side of the underground creek,” says one character during such a scene. “Even way back then they claimed this land was unclean.”
 
-Then later, during the climax, our final girl says, "Tonight is a special night of evil when all things unclean are free to roam among us. If we can just hold out in here 'til dawn, then I think we’ll be alright." Again, it’s not her talking to another character, but the writer explaining the movie to us. Such is the exposition that we get one teen exclaiming, "Thank heaven for water pipes," as he climbs back into the house.
+Then later, during the climax, our final girl says, "Tonight is a special night of evil when all things unclean are free to roam among us. If we can just hold out in here 'til dawn, then I think we'll be all right." Again, it’s not her talking to another character, but the writer explaining the movie to us. Such is the exposition that we get one teen exclaiming, "Thank heaven for water pipes," as he climbs back into the house.
 
 Lazy writing like this robs the film of any authority and chaotic tension.
 

@@ -13,7 +13,7 @@ The three principal actors give career-defining performances. James Stewart _is_
 
 Opposite him, there’s Lionel Barrymore, turning in one of the finest villains ever captured on film. His Mr. Potter is an angry, bitter man out to ruin George Bailey simply because he can’t understand him, and therefore fears him. Despite having relatively few scenes, Barrymore still evokes a powerful presence, embodying all the prejudice, hate, and fear of the world in a single, identifiable, character.
 
-Finally there’s Henry Travers, whose oft-imitated, matter-of-fact, performance as Clarence, the second-class Angel, provides some of the film’s funniest, and darkest, moments.
+Finally, there's Henry Travers, whose oft-imitated, matter-of-fact, performance as Clarence, the second-class Angel, provides some of the film’s funniest, and darkest, moments.
 
 Those three provide the rock-solid foundation for director Frank Capra to spin his tale of one man’s reluctant struggle for good against a seemingly overwhelming tide of evil. His script, along with Frances Goodrich and Albert Hackett, hits all the right notes as it builds to a gut-wrenching finale that, against all odds, manages to avoid feeling cheesy.
 

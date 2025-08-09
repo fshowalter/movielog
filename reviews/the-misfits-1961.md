@@ -15,6 +15,6 @@ First, as the movie was filmed, screenwriter Arthur Miller was constantly rewrit
 
 Then there’s Clark Gable, who gives one of the finest performances of his career. Frustrated by Monroe’s delays in getting to the set due to her continued slide in alcoholism and prescription drug abuse, he insisted on doing his own stunts to keep himself occupied. While this added a degree of realism it also may have helped led to the heart attack that killed him two weeks after filming ended.
 
-Finally there’s the director, John Huston. He gambled and drank throughout production and even fell asleep on set.
+Finally, there's the director, John Huston. He gambled and drank throughout production and even fell asleep on set.
 
 Given all this, it’s amazing the movie even got made. But maybe, just maybe, all these distractions from making a movie allowed Miller and Huston to make something more: a public look at screen legend’s private nightmare.
