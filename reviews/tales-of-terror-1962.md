@@ -11,6 +11,6 @@ The first segment, "Morella", plays out much like an abbreviated <span data-imdb
 
 The second segment, "The Black Cat" is the best of the three. Playing on its title, this segment is a deliciously campy black comedy highlighted by the great chemistry between stars Vincent Price and Peter Lorre. Their wine tasting competition, particularly Price’s face as he tastes, is the highlight of the entire film.
 
-The final segment, "The Facts in the Case of M. Valdemar", seems full of potential, but doesn’t really go anywhere. Basil Rathbone is wasted in a one-dimensional role, and Vincent Price has little to do but lay in bed. This is the longest segment of the three, and easily the weakest. A missed opportunity all around.
+The final segment, "The Facts in the Case of M. Valdemar", seems full of potential, but doesn't really go anywhere. Basil Rathbone is wasted in a one-dimensional role, and Vincent Price has little to do but lie in bed. This is the longest segment of the three, and easily the weakest. A missed opportunity all around.
 
 All and all, worth watching for "The Black Cat," just don’t hang around for "M. Valdemar".

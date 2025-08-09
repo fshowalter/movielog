@@ -11,4 +11,4 @@ _Mallrats_ is writer-director Kevin Smith's much maligned follow-up to <span dat
 
 _Mallrats_ has a real sense of heart. Smith treats all of his characters with a sense of care and even makes the "villain" of the story fun. Along the way Smith manages to pay homage to everything from the Superman and Batman films to the early 80s teen sex comedies. It's clear Smith was quite fond of the material and thus all the bigger a tragedy that Universal handled it so poorly.
 
-The performances, particularly those by Jason Lee and Jason Mewes, are larger than life but still manage to keep the film grounded in human emotions. Even Stan Lee, who's role is somewhere between small part and cameo, gets in on the fun.
+The performances, particularly those by Jason Lee and Jason Mewes, are larger than life but still manage to keep the film grounded in human emotions. Even Stan Lee, whose role is somewhere between small part and cameo, gets in on the fun.
