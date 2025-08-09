@@ -10,7 +10,7 @@ John Travolta plays a Foley engineer recording wind sounds for a low budget horr
 
 <!-- end -->
 
-Writer/director Brian De Palma steals the concept (and title) from Michelangelo Antonioni's <span data-imdb-id="tt0060176">_Blow-Up_</span>. He shifts the location from 1960s London to 1980s Philadelphia, and the medium from film to audio tape. This provides the scaffolding upon which he constructs a terrific paranoid thriller, lead by standout performances from Travolta and Lithgow.
+Writer/director Brian De Palma steals the concept (and title) from Michelangelo Antonioni's <span data-imdb-id="tt0060176">_Blow-Up_</span>. He shifts the location from 1960s London to 1980s Philadelphia, and the medium from film to audio tape. This provides the scaffolding upon which he constructs a terrific paranoid thriller, led by standout performances from Travolta and Lithgow.
 
 Travolta wins us over early with his ample charisma. His journey from detached bystander to invested participant mirrors our interest in the film. Opposite him, Nancy Allen plays a ditzy version of her character in <span data-imdb-id="tt0080661">_Dressed to Kill_</span>. This proves the film's weakest link. The incidental dialog between her and Travolta strains the ear as much as her behavior in the film's third act strains credibility.
 

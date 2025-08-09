@@ -12,6 +12,6 @@ Kurtis Spieler, an employee at cult distribution company Vinegar Syndrome, disco
 
 The resulting film concerns a New York City man who, after thugs murder his pregnant wife, seeks vengeance as a masked ninja. His trail leads him to a mutated gangster dubbed the Plutonium Killer.
 
-The blatant continuity gaps lead to many guffaws, but this never reaches the bonkers level of insanity I wanted. The ninety-three minute running time feels indulgent. Whenever the titular ninja is offscreen, the film crawls. Even when he’s present, the fight scenes devolve into repetitive action instead of building in intensity. Cutting fifteen to twenty minutes would help. Coherent continuity is not always a virtue.
+The blatant continuity gaps led to many guffaws, but this never reaches the bonkers level of insanity I wanted. The ninety-three minute running time feels indulgent. Whenever the titular ninja is offscreen, the film crawls. Even when he’s present, the fight scenes devolve into repetitive action instead of building in intensity. Cutting fifteen to twenty minutes would help. Coherent continuity is not always a virtue.
 
 That said, I look forward to exploring the release’s myriad extras. I suspect the film’s origin story may prove more compelling than the final product.

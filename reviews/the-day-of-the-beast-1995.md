@@ -10,7 +10,7 @@ During the opening credits of _The Day of the Beast_, a Catholic priest, having 
 
 This is the kind of film where such a scene makes perfect sense. Our protagonist, you see, is a theologian who has decoded a Biblical message revealing the Antichrist will be born in Madrid on Christmas Day—which happens to be tomorrow. His solution? Commit as many evil acts as possible to gain Satan's attention and trust, thereby learning the exact location of the unholy birth so he can prevent it. It's the kind of premise that could only work as either deadly serious horror or pitch-black comedy. Director Álex de la Iglesia wisely opts for the latter.
 
-The film announces its intentions in a pre-credits sequence where our hero confides his discovery to an elder priest. As they rise to leave, scattered papers lead to a perfectly timed death-by-crucifix that would feel at home in a Wile E. Coyote cartoon. If you're not laughing here, this probably isn't your movie. If you are, buckle up for what follows.
+The film announces its intentions in a pre-credits sequence where our hero confides his discovery to an elder priest. As they rise to leave, scattered papers led to a perfectly timed death-by-crucifix that would feel at home in a Wile E. Coyote cartoon. If you're not laughing here, this probably isn't your movie. If you are, buckle up for what follows.
 
 Álex Angulo delivers a masterful performance as the priest. His deadpan earnestness sells even the most outrageous moments, bringing a conviction to the role that grounds the surrounding chaos. When he commits evil acts, his face carries the determined concentration of someone working through a particularly challenging crossword puzzle.
 

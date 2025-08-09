@@ -10,4 +10,4 @@ slug: dark-star-1974
 
 <!-- end -->
 
-The plot concerns the crew of the titular ship, twenty years into a mission to find and destroy unstable planets that threaten interstellar expansion. But it's really a hangout movie. The crew deal with their aforementioned pet, each other, and obstinate bombs. The film culminates in a series of mishaps that lead to an inane ending that somehow resonates. It made me smirk more than laugh, but sometimes that's enough.
+The plot concerns the crew of the titular ship, twenty years into a mission to find and destroy unstable planets that threaten interstellar expansion. But it's really a hangout movie. The crew deal with their aforementioned pet, each other, and obstinate bombs. The film culminates in a series of mishaps that led to an inane ending that somehow resonates. It made me smirk more than laugh, but sometimes that's enough.

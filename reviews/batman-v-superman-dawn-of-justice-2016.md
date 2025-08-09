@@ -44,7 +44,7 @@ Along the way, we meet Wonder Woman, who the _Ultimate Edition_ regulates to a s
 
 But even with the extra half-hour, the film feels too short. I can’t imagine someone following the story without having read the comics.
 
-How else to recognize the small, but important bits of characterization? Like how Joker’s murdering Robin lead to this film’s more brutal Batman. Or bigger bits, like uber-villain Darkseid’s Omega sigil in Bruce’s apocalyptic vision and how Luthor’s ramblings in the finale reference Darkseid’s Mother Box technology. Reading between the lines, Luthor was little more than Renfield to Darkseid’s Dracula.
+How else to recognize the small, but important bits of characterization? Like how Joker's murdering Robin led to this film's more brutal Batman. Or bigger bits, like uber-villain Darkseid’s Omega sigil in Bruce’s apocalyptic vision and how Luthor’s ramblings in the finale reference Darkseid’s Mother Box technology. Reading between the lines, Luthor was little more than Renfield to Darkseid’s Dracula.
 
 But relying on the viewer’s prior exposure to the characters invites preconceived notions of who these characters should be. And I can’t imagine anyone familiar with the Superman mythos getting behind this version of Luthor.
 
