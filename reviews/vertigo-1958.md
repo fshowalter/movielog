@@ -7,7 +7,7 @@ slug: vertigo-1958
 
 In director Alfred Hitchock's seminal mystery, James Stewart plays John "Scottie" Ferguson, a former San Francisco detective who left the force feeling that his latent acrophobia played a part in the death of a fellow officer.
 
-An old acquaintance asks Scottie to shadow his heiress wife Madeline (Kim Novak), whose shipping company he runs, explaining that she believes herself to be posessed and that he fears she may be suicidal.
+An old acquaintance asks Scottie to shadow his heiress wife Madeline (Kim Novak), whose shipping company he runs, explaining that she believes herself to be possessed and that he fears she may be suicidal.
 
 Scottie refuses at first, but changes his mind once he gets a look at the blonde beauty.
 
