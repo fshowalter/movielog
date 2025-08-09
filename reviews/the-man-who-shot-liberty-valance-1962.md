@@ -7,7 +7,7 @@ slug: the-man-who-shot-liberty-valance-1962
 
 An idealistic tenderfoot lawyer confronts the fiercest outlaw in a small western town.
 
-_The Man Who Shot Liberty Valance_ is a masterpiece. John Ford works like a master conductor leading an orchestra of stars –including Jimmy Stewart, John Wayne, and Lee Marvin– through a marvelous script, and yet still manages to make a movie greater than the sum of it's parts.
+_The Man Who Shot Liberty Valance_ is a masterpiece. John Ford works like a master conductor leading an orchestra of stars –including Jimmy Stewart, John Wayne, and Lee Marvin– through a marvelous script, and yet still manages to make a movie greater than the sum of its parts.
 
 The script is outstanding. Working on one level as a classic western--noble underdog Jimmy Stewart up against mean outlaw Lee Marvin--it also works as a deconstruction of the western mythology and the inevitable end of the 'might makes right' mentality that pervaded frontier towns.
 

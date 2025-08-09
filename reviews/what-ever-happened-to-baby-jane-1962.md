@@ -11,7 +11,7 @@ _What Ever Happened to Baby Jane?_ begins as a camp-fest, with Bette Davis in pa
 
 It’s difficult now to appreciate the stunt casting of Davis and Joan Crawford, but at the time, their feud was widely known amongst audiences. Casting them opposite each other was viewed as the catfight of the century.
 
-For what its worth, Davis won. She goes all out, abandoning any reservations and throwing herself into a decidedly unglamorous role with memorable results. Crawford comes off as much more timid and reserved, in a role that’s frustrating until the payoff at the film’s conclusion.
+For what it's worth, Davis won. She goes all out, abandoning any reservations and throwing herself into a decidedly unglamorous role with memorable results. Crawford comes off as much more timid and reserved, in a role that’s frustrating until the payoff at the film’s conclusion.
 
 _What Ever Happened to Baby Jane?_ also features some great cinematography from Ernest Haller. The gothic black and white tones complement the claustrophobic sets well.
 

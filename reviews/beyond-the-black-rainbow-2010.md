@@ -22,7 +22,7 @@ But for all the visual and thematic similarities, _Beyond the Black Rainbow_ lac
 
 Instead, Cosmatos centers the story on Nyle’s descent into madness. Michael Rogers shines in the part, delivering a performance reminiscent of Christian Bale’s Patrick Bateman in <span data-imdb-id="tt0144084">_American Psycho_</span>, albeit more subdued. He’s a monster masquerading as a man who drops his disguise as the movie unwinds.
 
-But its not enough, as Cosmatos seems determined to avoid any semblance of action. This choice renders the film surprisingly inert. While it contains a story, we’re not invested in its outcome, and, devoid of momentum, the film borders on tedious.
+But it's not enough, as Cosmatos seems determined to avoid any semblance of action. This choice renders the film surprisingly inert. While it contains a story, we’re not invested in its outcome, and, devoid of momentum, the film borders on tedious.
 
 That said, part of me appreciates how Cosmatos sticks to his guns. The final showdown between Elena and Nyle proves more confrontational than challenging to an audience expecting a set piece. Cosmatos even has Elena smirk at the abrupt conclusion.
 
