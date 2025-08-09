@@ -43,4 +43,4 @@ The other audience is folks who were college-age residents of Austin during the 
 
 Others should steer clear.
 
-Hooper made _Eggshells_ hoping attempting to break into the film industry. It announces him as a visual craftsman capable of marrying realistic and formal extremes, but didn't find an audience. Good thing, as it forced Hooper to think with a commercial lens. Looking around, he saw tons of drive-in cinemas hungry for content. Perhaps a horror movie?
+Hooper made _Eggshells_ hoping to break into the film industry. It announces him as a visual craftsman capable of marrying realistic and formal extremes, but didn't find an audience. Good thing, as it forced Hooper to think with a commercial lens. Looking around, he saw tons of drive-in cinemas hungry for content. Perhaps a horror movie?

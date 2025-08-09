@@ -5,7 +5,7 @@ grade: D
 slug: fashions-of-1934-1934
 ---
 
-William Powell plays a conman who recruits an artist played by Betty Davis into a fashion piracy scheme that takes them from New York to Paris.
+William Powell plays a conman who recruits an artist played by Bette Davis into a fashion piracy scheme that takes them from New York to Paris.
 
 <!-- end -->
 
