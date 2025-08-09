@@ -9,7 +9,7 @@ Unbeknownst to each other, a Polish agent (William Powell) and a Russian spy (Lu
 
 _The Emperor's Candlesticks_ is a tepid, convoluted melodrama that's wrong on just about every level.
 
-For starters, there's the casting. You've got William Powell playing a Polish agent with no trace of an accent, opposite Luise Rainer, playing a Russian agent, with a very noticable German accent. Not to mention the very American Robert Young playing a Russian Duke, again with no trace of accent, and the Wizard of Oz himself, Frank Morgan as his handler. Confused yet?
+For starters, there's the casting. You've got William Powell playing a Polish agent with no trace of an accent, opposite Luise Rainer, playing a Russian agent, with a very noticeable German accent. Not to mention the very American Robert Young playing a Russian Duke, again with no trace of accent, and the Wizard of Oz himself, Frank Morgan as his handler. Confused yet?
 
 The mismatched casting doesn't help the convoluted plot, which involves a group of Polish Nationalists kidnapping Young and sending Powell to Russia to deliver a ransom note, with Rainer following. With no-ones accent matching their nationality, it quickly becomes hard to follow exactly who's working for who and why, but, then again, the script doesn't give you a lot of reasons to care.
 
