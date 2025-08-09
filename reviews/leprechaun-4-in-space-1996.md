@@ -22,7 +22,7 @@ During the few scenes written for him, he shines. A laugh-out-loud satirization 
 
 Instead, the film proffers scene after scene of characters rushing from one place to another. Some judicious editing could have saved some budget which could have gone toward the optical effects.
 
-While the practical effects entertain, the optical effects, even for 1996, look amateurish. Consider the third act sequence where the leprechaun grows to giant size. As a throwback to the giant-creature sci-fi movies of the 1950s, I like the idea, but the effects here pale next to those forty-year-old films. The giant crabs in Roger Corman’s <span data-imdb-id="tt0050147">_Attack of the Crab Monsters_</s> look cheesy. This looks cheap.
+While the practical effects entertain, the optical effects, even for 1996, look amateurish. Consider the third act sequence where the leprechaun grows to giant size. As a throwback to the giant-creature sci-fi movies of the 1950s, I like the idea, but the effects here pale next to those forty-year-old films. The giant crabs in Roger Corman's <span data-imdb-id="tt0050147">_Attack of the Crab Monsters_</span> look cheesy. This looks cheap.
 
 Still, if you’ve made it this far into the franchise, _Leprechaun 4_ won’t prove a total wash. When the film works, like the aforementioned death scenes, it shines. As does Guy Siner’s all-in mad scientist performance which veers between Dr. Strangelove and Sergeant Schultz.
 

@@ -13,7 +13,7 @@ Less horror and more whodunit, the charming cast and atmospheric locations almos
 
 A good whodunit keeps us guessing as it doles out clues in a fair but prudent manner. The script for _April Fool's Day_ drops so many obvious hints to the killer's identity early we spend the film waiting for the characters to deduce what we already know.
 
-Imagine a magician disappearing their assistant, then spending eighty minutes insisting said assistant has vanished before they reappear. We've seen the trick and how it ends.
+Imagine a magician disappearing their assistant, then spending eighty minutes insisting the assistant has vanished before they reappear. We've seen the trick and how it ends.
 
 To be fair, the cast makes those eighty minutes pleasant. Tom Wilson proves a standout as a popped collar “bro” who proves his own biggest fan, but the entire young cast surprises. I found them the most engaging group of victims since <span data-imdb-id="tt0087298">_Friday the 13th: The Final Chapter_</span>.
 

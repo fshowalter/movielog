@@ -7,7 +7,7 @@ slug: let-the-right-one-in-2008
 
 With the exception of one gratuitous CGI shot, _Let the Right One In_ is perfect.
 
-Written by John Ajvide Lindqvist, from his novel, this swedish language film follows an isolated young boy who develops an odd friendship and budding romance with his new neighbor, only to discover that she's a vampire.
+Written by John Ajvide Lindqvist, from his novel, this Swedish language film follows an isolated young boy who develops an odd friendship and budding romance with his new neighbor, only to discover that she's a vampire.
 
 It's a blend of dark fantasy, horror, and coming of age drama that doesn't pull any punches. It's bloody, violent, disturbing, funny, insightful, and emotionally resonant in a way you'd never think possible. Those familiar with the novels of Richard Laymon will feel right at home, and the rest are in for a treat. Lindqvist tells his story with no compromises toward Hollywood morality or convention and the result is a story that feels relentlessly original.
 
