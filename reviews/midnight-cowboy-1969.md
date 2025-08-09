@@ -13,6 +13,6 @@ Director John Schlesinger does a great job painting New York as a cold, harsh, u
 
 And as for Voight and Hoffman, they both give amazing performances, generating a believable chemistry and completely disappearing into their respective characters.
 
-Unfortunately, despite being risqué enough to garner an X rating upon its release for it's frank references to homosexuality and prostitution, _Midnight Cowboy_ isn't quite honest enough. It resorts to dreamy ballads and an incredulous Andy Warhol party to advance the plot, all of which feel out of place in what is otherwise an uncompromising story of two of society's cast-off's finding each other and struggling to survive.
+Unfortunately, despite being risqué enough to garner an X rating upon its release for its frank references to homosexuality and prostitution, _Midnight Cowboy_ isn't quite honest enough. It resorts to dreamy ballads and an incredulous Andy Warhol party to advance the plot, all of which feel out of place in what is otherwise an uncompromising story of two of society's cast-off's finding each other and struggling to survive.
 
 As a groundbreaking piece of cinema, _Midnight Cowboy_ deserves the accolades showered upon it, but it would be later films that would actually realize the potential glimpsed here.
