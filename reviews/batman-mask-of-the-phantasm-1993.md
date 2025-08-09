@@ -5,7 +5,7 @@ grade: B
 slug: batman-mask-of-the-phantasm-1993
 ---
 
-Kevin Conroy voices Batman in this animated feature that sees the Dark Knight investigate a masked assailant murdering members of Gotham's underworld, while Bruce Wayne grapples with the reemergence of a old flame voiced by Dana Delany.
+Kevin Conroy voices Batman in this animated feature that sees the Dark Knight investigate a masked assailant murdering members of Gotham's underworld, while Bruce Wayne grapples with the reemergence of an old flame voiced by Dana Delany.
 
 <!-- end -->
 

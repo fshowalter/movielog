@@ -10,7 +10,7 @@ A satirized <span data-imdb-id="tt0062430">_Valley of the Dolls_</span>. The sto
 
 <!-- end -->
 
-Director Russ Meyer threads a fine tonal seam between detached camp and earnest embarrassment. The result plays as a cautionary fable that proves ridiculous yet compelling. John Lazar's performance as a charismatic, Shakespear-quoting music mogul stands out.
+Director Russ Meyer threads a fine tonal seam between detached camp and earnest embarrassment. The result plays as a cautionary fable that proves ridiculous yet compelling. John Lazar's performance as a charismatic, Shakespeare-quoting music mogul stands out.
 
 The same measured tone applies to the violence. It's bloody and gruesome, yet never mean-spirited or off-putting.
 

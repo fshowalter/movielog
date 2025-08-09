@@ -6,7 +6,7 @@ grade: C
 slug: saint-maud-2019
 ---
 
-I wanted to like this more. In an English seaside town, Maud, a pious young nurse, arrives to care for a dying former dancer. Maud's charge ridicules her religious sincerity, but Maude remains resolute, determined to save the woman's soul. The film explores the psychological horrors of a slow death and dissociative obsession. Spoilers follow.
+I wanted to like this more. In an English seaside town, Maud, a pious young nurse, arrives to care for a dying former dancer. Maud's charge ridicules her religious sincerity, but Maud remains resolute, determined to save the woman's soul. The film explores the psychological horrors of a slow death and dissociative obsession. Spoilers follow.
 
 <!-- end -->
 

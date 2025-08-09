@@ -15,4 +15,4 @@ The script by Norman Reilly Raine and Seton I. Miller starts with a bang and nev
 
 For his part, director Michael Curtiz delivers one timeless set pieces after another, including the oft-imitated fencing sequence between Flynn and Rathbone at the film’s finale, as well as the classic archery competition.
 
-Finally, with the exception of a few day-for-night shots that don’t really work, the Technicolor photography is amazing. Colors seems so vivid, whether it be the green of Flynn’s costume or the blue of de Havilland's, that the film almost seems _painted_ onto the screen.
+Finally, with the exception of a few day-for-night shots that don’t really work, the Technicolor photography is amazing. Colors seem so vivid, whether it be the green of Flynn’s costume or the blue of de Havilland's, that the film almost seems _painted_ onto the screen.

@@ -23,7 +23,7 @@ Soon, she's wished the brother away and Bowie appears sporting a teased wig, gen
 
 Connelly demands her brother's return. Bowie agrees, provided she claims him at his castle. To reach the castle, she must navigate a vast maze—the titular Labyrinth.
 
-Along the way Connelly recruits some puppet allies: a gentle giant named Luto who resembles furry ogre and can talk to rocks, a conniving Gnome named Hoggle with a penchant for plastic jewelry, and Didymus, an terrier knight who's trusty steed is a sheep dog bearing an uncanny resemblance to Connelly's. All save the sheep dog are puppet creations of Henson and, like Henson's Muppets, feel like actual characters with personalities, nuance, and feelings.
+Along the way Connelly recruits some puppet allies: a gentle giant named Luto who resembles a furry ogre and can talk to rocks, a conniving Gnome named Hoggle with a penchant for plastic jewelry, and Didymus, an terrier knight who's trusty steed is a sheep dog bearing an uncanny resemblance to Connelly's. All save the sheep dog are puppet creations of Henson and, like Henson's Muppets, feel like actual characters with personalities, nuance, and feelings.
 
 As she progresses toward the castle, Connelly encounters numerous obstacles infused with screenwriter Terry Jones's absurdist humor, including a talking hat, a pair of bickering anthropomorphic door knockers, and a tribe of creatures with removable heads. Funny enough, but I couldn't shake the sense of watching a toned-down version of a darker story.
 
