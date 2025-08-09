@@ -11,6 +11,6 @@ _Quantum of Solace_ isn't so much a stand-alone story as an epilogue for the pre
 
 It's a shame too, as Daniel Craig once again delivers a fine performance as the legendary super-spy, and Judi Dench finally seems to be settling into her role as Bond's boss, M. The rest of the cast is workable, though less engaging, and the location photography is top-notch.
 
-Thankfully, this entry doesn't suffer from the overlength that plagued it's predecessor, but director Marc Forster's insistence on jump-cutting every action sequence robs the bigger set pieces of much of their visceral thrill. There's a car chase early that feels much more like an extended crash, and an aerial chase later that will leave you wondering who's who.
+Thankfully, this entry doesn't suffer from the overlength that plagued its predecessor, but director Marc Forster's insistence on jump-cutting every action sequence robs the bigger set pieces of much of their visceral thrill. There's a car chase early that feels much more like an extended crash, and an aerial chase later that will leave you wondering who's who.
 
 Perhaps Forster felt he had to copy the jitter-happy Bourne franchise, or perhaps he was just trying to distract us from the script's lack of characterization, but either way the result is a film devoid of any emotional impact--fine to sit through, but easily forgotten.

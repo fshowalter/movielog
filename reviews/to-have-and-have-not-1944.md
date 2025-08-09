@@ -9,7 +9,7 @@ In Martinique during World War II, a fishing boat captain (Humphrey Bogart) relu
 
 _To Have and Have Not_ was director Howard Hawks’ answer to Casablanca and while Hawks never quite equals Michael Curtiz’s classic, he does deliver a very good picture thanks in large part to Lauren Bacall.
 
-Making her film debut at only 19 years of age, Bacall exudes the confidence and charm of a veteran actress, easily matching star Humphrey Bogart’s considerable screen presence. The chemistry between the two makes the film, and the sparks flying on screen didn’t stop when the camera’s stopped rolling, as Bogart married Bacall in 1945.
+Making her film debut at only 19 years of age, Bacall exudes the confidence and charm of a veteran actress, easily matching star Humphrey Bogart’s considerable screen presence. The chemistry between the two makes the film, and the sparks flying on screen didn’t stop when the cameras stopped rolling, as Bogart married Bacall in 1945.
 
 Bacall’s great chemistry didn’t stop there though. Her scenes with Dolores Moran (who found her role reduced in favor of Bacall’s) are dynamite, especially the subtle gag when Bogart asks her to fan some fumes away. Despite her relative inexperience, Bacall refuses to allow anyone to overshadow her, yet she goes about it in such a subtle, seductive way, that you can’t help but admire her.
 
