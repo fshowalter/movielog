@@ -11,4 +11,4 @@ The plot sees Will Ferrell play Ron Burgundy, the top-rated local news anchor in
 
 All the performances, especially cameos, are great, and director Adam McKay shows some real flair during the opening sequence that goes along way toward establishing the film's easy-going tone.
 
-It's that same tone that's perhaps the movie's only weakness. It's pure bubble-gum with no real substance. Sure, it's entertaining, but it doesn't stay with you the way a truely great movie does.
+It's that same tone that's perhaps the movie's only weakness. It's pure bubble-gum with no real substance. Sure, it's entertaining, but it doesn't stay with you the way a truly great movie does.
