@@ -14,10 +14,10 @@ Marilyn Chambers plays Rose, a young woman afflicted with severe burns following
 
 Unlike the single-location, male-lead _Shivers_, we're treated to more locations, bigger stunts--including an impressive car crash--and a female lead with genuine agency.
 
-But Cronenberg exhausts his story two-thirds into the running-time. The pattern of Rose feeding on someone and them later turning into a rabid zombie grows tiresome. Cronenberg tries to focus to the government's response to the outbreak, but that proves a narrative dead end as well.
+But Cronenberg exhausts his story two-thirds into the running-time. The pattern of Rose feeding on someone and them later turning into a rabid zombie grows tiresome. Cronenberg tries to focus on the government's response to the outbreak, but that proves a narrative dead end as well.
 
 The casting also disappoints. Chambers is fine as Rose. As is the always-solid Joe Silver in a supporting role, but second-billed Frank Moore modulates between flat and emotive, with no middle ground. Perhaps the Blu-ray special features will shed some light on that performance.
 
-There's also the blatant gaff of showing the cameraman during a late car scene with Moore.
+There's also the blatant gaffe of showing the cameraman during a late car scene with Moore.
 
 Despite these flaws, I enjoyed _Rabid_. Cronenberg seems up to the larger production, and on repeat viewings I suspect Chambers' agency will edge out its narratively superior predecessor.

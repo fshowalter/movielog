@@ -20,7 +20,7 @@ The striking visual left me wondering: Was I being too harsh? Was I dismissing V
 
 The classic mirror scene dispelled any doubt. Villarías arrives with a goofy smile on his face, miles away from Lugosi's vulpine grin. The climax between Villarías and Eduardo Arozamena's Van Helsing devolves into a contest of “Whose eyes can bug out more?”
 
-The editing doesn't help. Despite working from the same script, the Spanish production runs thirty minutes longer. The drawn-out pace drags down the second act, rendering taunt scenes in the English production tedious here.
+The editing doesn't help. Despite working from the same script, the Spanish production runs thirty minutes longer. The drawn-out pace drags down the second act, rendering taut scenes in the English production tedious here.
 
 The cast also proves lacking. Though I preferred Lupita Tovar's performance in the Mina role to Helen Chandler's and enjoyed Pablo Álvarez Rubio's take on Renfield, Villarías and Arozamena felt like pale imitations of Lugosi and Edward Van Sloan.
 

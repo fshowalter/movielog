@@ -17,11 +17,11 @@ Fast forward twenty years to present day. Susan has settled into married life. S
 
 Susan and Oliver return home, but their live-in housekeeper, played by LaWanda Page, senses something's amiss and tries to warn Oliver the next morning. When he dismisses her concerns, she threatens to quit. Oliver convinces her to stay until he returns from a business trip, then heads out the door. Frustrated, Page marches upstairs to check on Susan, muttering, “There's some strange shit goin' on in this house.”
 
-LaPage then walks in on Susan, who's glowing green, mid-transformation. Cue some comical strings on the soundtrack and over-cranked footage of LaPage running out of the house, trying to catch Oliver.
+LaWanda Page then walks in on Susan, who's glowing green, mid-transformation. Cue some comical strings on the soundtrack and over-cranked footage of Page running out of the house, trying to catch Oliver.
 
 She fails, returns to the house and pours herself a “drink of the good stuff,” J&B, of course. With a shaking hand, she raises the glass to her lips, saying, “I ain't been this nervous since I've been black.”
 
-She creeps back upstairs and sees Susan further changed. More comedic music and over-cranked footage as LaPage flees out the front door, bags packed, running down the street.
+She creeps back upstairs and sees Susan further changed. More comedic music and over-cranked footage as Page flees out the front door, bags packed, running down the street.
 
 This sequence elicited a big laugh and proved the film's highlight.
 

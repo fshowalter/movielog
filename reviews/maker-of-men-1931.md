@@ -16,4 +16,4 @@ Then, during the last game of his father's contract, Bob shows up playing for th
 
 First, _Maker of Men_ strains credibility expecting us to believe slender Richard Cromwell could manhandle John Wayne. But I'll pass that. The vague emotional stakes, however, I can't forgive.
 
-They render the viewing experience a chore. Were we meant to condemn the father's stern behavior? Maybe, yet the finale proves him right. Were we meant to embrace Bud's story of redemption? Perhaps, but at the expense of his father's career? A deeper film might explore these issues. But with its stilted dialogue and emotive performances, _Maker of Men_ is not that film.
+They render the viewing experience a chore. Were we meant to condemn the father's stern behavior? Maybe, yet the finale proves him right. Were we meant to embrace Bob's story of redemption? Perhaps, but at the expense of his father's career? A deeper film might explore these issues. But with its stilted dialogue and emotive performances, _Maker of Men_ is not that film.

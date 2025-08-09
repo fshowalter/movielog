@@ -10,7 +10,7 @@ Hal Skelly plays Hap, a well-named vaudeville bicycle-clown eking out a meager l
 
 <!-- end -->
 
-Gardoni convinces Hap to team-up, abandon his hokum act, and put on a high-brow show. The show bombs. With the pair broke, Gardoni vanishes and Hap gets a job at the local diner where he develops a crush on a waitress named Marie played by Fay Wray.
+Gardoni convinces Hap to team up, abandon his hokum act, and put on a high-brow show. The show bombs. With the pair broke, Gardoni vanishes and Hap gets a job at the local diner where he develops a crush on a waitress named Marie played by Fay Wray.
 
 Time passes. Having abandoned his high-brow intentions to great financial success, Gardoni returns. He takes a liking to Marie and convinces Hap to re-team, this time giving the people the hokum they demand. The new act proves a hit and Marie marries Gardoni.
 

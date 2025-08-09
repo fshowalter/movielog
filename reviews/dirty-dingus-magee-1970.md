@@ -7,7 +7,7 @@ slug: dirty-dingus-magee-1970
 
 An outlaw (Frank Sinatra) and a sheriff (George Kennedy) tangle over a strongbox, Indians, and a schoolteacher.
 
-_Dirty Dingus Magee_ is a would-be slapstick western in the vein of director Burt Kennedy's earlier success, <span data-imdb-id="tt0065642">_Support Your Local Sheriff_</span> that unfortunately, never works.
+_Dirty Dingus Magee_ is a would-be slapstick western in the vein of director Burt Kennedy's earlier success, <span data-imdb-id="tt0065051">_Support Your Local Sheriff_</span> that unfortunately, never works.
 
 For starters, the film is more bawdy cartoon then comedy, as most of its gags seem to rely on their (at the time) outlandishness for laughs. Viewed today, the film just feels flat and lazy, with lead Frank Sinatra sleepwalking though a ridiculous script. Costar George Kennedy does what he can, but he's no leading man, and it isn't until Jack Elam shows up near the film's finale that the film gets its first real laughs.
 

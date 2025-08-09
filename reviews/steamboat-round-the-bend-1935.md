@@ -20,6 +20,6 @@ These overwrought narrative stakes aren’t necessary and drag down an otherwise
 
 The location photography still shines however, and the big race, with Rogers’s boat bellowing flame as it roars down river, remains an impressive sight.
 
-Less impressive is Sephin Fetchit’s character, a racist caricature. His scenes proved hard to stomach, though he gets the film’s funniest line, when, after the crew has dragged a lassoed man aboard the moving steamboat, he mutters almost matter-of-fact under his breath, "Lucky he didn’t bump his head on that boat."
+Less impressive is Stepin Fetchit's character, a racist caricature. His scenes proved hard to stomach, though he gets the film’s funniest line, when, after the crew has dragged a lassoed man aboard the moving steamboat, he mutters almost matter-of-fact under his breath, "Lucky he didn’t bump his head on that boat."
 
 [^1]: Peter Bogdanovich. _John Ford_ (University of California Press, 1967), 57.

@@ -28,4 +28,4 @@ Subtlety and realism are not the film's strong points. Ditto original characters
 
 At only eighty-one minutes, at least it's short.
 
-An aside: Watch TCM's high-def stream betrayed a fly in the apartment scenes. I'd like to think director Lloyd Bacon kept those shots for realism, but I suspect he lacked the time and budget for retakes, or worse, didn't notice.
+An aside: Watching TCM's high-def stream betrayed a fly in the apartment scenes. I'd like to think director Lloyd Bacon kept those shots for realism, but I suspect he lacked the time and budget for retakes, or worse, didn't notice.
