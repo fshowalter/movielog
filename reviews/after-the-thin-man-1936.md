@@ -5,7 +5,7 @@ grade: B-
 date: 2004-07-30
 ---
 
-Urbane Nick and Nora Charles (Willem Powell and Myrna Loy) return home to San Francisco and investigate a missing husband.
+Urbane Nick and Nora Charles (William Powell and Myrna Loy) return home to San Francisco and investigate a missing husband.
 
 _After the Thin Man_ is an enjoyable enough sequel to the superb <span data-imdb-id="tt0025878">_Thin Man_</span>, which aims to correct the first film's biggest flaw: the lack of likable characters outside of Powell and Loy.
 

@@ -17,4 +17,4 @@ Despite taking third billing behind Sinatra and Grayson, this is Kelly's film an
 
 As for top-billed Sinatra, he's fine, but the squeaky-clean naive personality MGM crafted for him in these early musicals doesn't play to his strengths as an actor. As a result, his innate cool and charm really doesn't show through.
 
-Finally, at nearly two and half hours, _Anchors Aweigh_ is far too long. There are some great moments here, to be sure, but there's also a lot of filler. Sinatra and Kelly make a great pair, but the trite script and really annoying kid make the fast-forward button a must for repeat viewings.
+Finally, at nearly two and a half hours, _Anchors Aweigh_ is far too long. There are some great moments here, to be sure, but there's also a lot of filler. Sinatra and Kelly make a great pair, but the trite script and really annoying kid make the fast-forward button a must for repeat viewings.

@@ -11,4 +11,4 @@ _20,000 Leagues Under the Sea_ is a mixed bag. James Mason and Paul Lukas are gr
 
 The special effects are great, even by today's standards, although the movie is prone to dwelling on some of the underwater shots which, while they may have been eye popping in 1954, don't pack the same punch today.
 
-_20,000 Leagues Under the Sea_ is best when it focuses on the interactions between Mason and Lukas. Despite being a Disney film, the character of Nemo remains a sympathetic antagonist and its left to the viewer to decide who, if anyone, is the true villain.
+_20,000 Leagues Under the Sea_ is best when it focuses on the interactions between Mason and Lukas. Despite being a Disney film, the character of Nemo remains a sympathetic antagonist and it's left to the viewer to decide who, if anyone, is the true villain.
