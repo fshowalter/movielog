@@ -9,7 +9,7 @@ slug: die-hard-1988
 
 <!-- end -->
 
-The plot--NYC cop Willis finds himself in the wrong place at the right time to foil a group of armed assailants in a Los Angeles high-rise--birthed the “fly-in-the-ointment” genre. <span data-span-imdb-id="tt0105690">_Under Siege_</span>, <span data-imdb-id="tt0118571">_Air Force One_</span>, <span data-imdb-id="tt0106582">_Cliffhanger_</span>, and countless others copied the formula with varying success.
+The plot--NYC cop Willis finds himself in the wrong place at the right time to foil a group of armed assailants in a Los Angeles high-rise--birthed the "fly-in-the-ointment" genre. <span data-imdb-id="tt0105690">_Under Siege_</span>, <span data-imdb-id="tt0118571">_Air Force One_</span>, <span data-imdb-id="tt0106582">_Cliffhanger_</span>, and countless others copied the formula with varying success.
 
 Alan Rickman's performance birthed the “suave European villain” trope that dominates action films to this day. One could argue a through-line between his icy yet charismatic turn here and Anthony Hopkins’s award-winning portrayal of Hannibal Lecter in <span data-imdb-id="tt0102926">_The Silence of the Lambs_</span>.
 
