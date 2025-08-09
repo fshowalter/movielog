@@ -74,7 +74,7 @@ Kelljan never lets this tip into comedy, however, and also keeps the rest of his
 
 Vampire fans and genre scholars may also appreciate the film's contribution to pop culture. Astute readers will recognize the film’s story as a pared-down retelling of _Dracula_. Indeed, _Count Yorga, Vampire_ plays an important role evolving the Dracula mythos. Consider:
 
-Bram Stoker wrote _Dracula_ in 1897. Thirty-four years later, Todd Browning directed <span data-imdb-id="tt0021814">Universal's _Dracula_</span>, starring Bela Lugosi, which pared down the story and gave us the iconic “Dracula” look: cape, pendant, widows peak.
+Bram Stoker wrote _Dracula_ in 1897. Thirty-four years later, Todd Browning directed <span data-imdb-id="tt0021814">Universal's _Dracula_</span>, starring Bela Lugosi, which pared down the story and gave us the iconic "Dracula" look: cape, pendant, widow's peak.
 
 Twenty-seven years after that, Hammer Film Productions released <span data-imdb-id="tt0051554">their version of _Dracula_</span>, which further pared down the story, added buckets of Technicolor blood, and transformed the Van Helsing character into an action hero. For the next twelve years, Hammer repeated the basic formula, upping the gore and nudity as the censors would allow, but never really innovating.
 
