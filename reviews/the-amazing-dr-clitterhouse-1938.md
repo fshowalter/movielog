@@ -5,7 +5,7 @@ grade: B-
 slug: the-amazing-dr-clitterhouse-1938
 ---
 
-_The Amazing Dr. Clitterhouse<_ features Edward G. Robinson as the titular doctor, a society physician secretly investigating criminal behavior by committing jewel heists then collecting data about his physical state of being, such as blood pressure and heart rate, with plans to publish his results for the good of mankind.
+_The Amazing Dr. Clitterhouse_ features Edward G. Robinson as the titular doctor, a society physician secretly investigating criminal behavior by committing jewel heists then collecting data about his physical state of being, such as blood pressure and heart rate, with plans to publish his results for the good of mankind.
 
 When the good doctor finds that he needs a larger sample group, he assumes the identity of "The Professor" and hooks up with a fence, Jo, played by Claire Trevor. He quickly assumes control of her gang of thieves, much to the chagrin of former leader, and all-around tough guy 'Rocks' Valentine, played by Humphrey Bogart.
 

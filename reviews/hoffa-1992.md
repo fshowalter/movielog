@@ -15,4 +15,4 @@ _Hoffa_'s filled with prime spots for these moments, whether it be the confronta
 
 Some of this is due to the score by David Newman, which feels flat and generic, but responsibility ultimately falls on the director and Newman's never scored a film by either Scorsese or Mann.
 
-Again, score aside, all this isn't to say that _Hoffa_'s a bad film; just that's could have been great a great one, and, unfortunately, that's what stays with you.
+Again, score aside, all this isn't to say that _Hoffa_'s a bad film; just that it could have been a great one, and, unfortunately, that's what stays with you.
