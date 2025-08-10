@@ -7,7 +7,7 @@ slug: the-war-lover-1962
 
 The pilot (Steve McQueen) and co-pilot (Robert Wagner) of a bomber plane clash over the war and a woman (Shirley Anne Field) in World War II England.
 
-_The War Lover_ doesn’t start well. The military action sequences aren't well done, splicing in grainy footage that doesn't mesh with the otherwise crisp black and white photography, and lacking any real "wow" factor. That, combined with stilted dialog might have you reconsidering your investment, but if you hang in there, you'll be rewarded by a terrific performance from lead Steve McQueen.
+_The War Lover_ doesn’t start well. The military action sequences aren't well-done, splicing in grainy footage that doesn't mesh with the otherwise crisp black and white photography, and lacking any real "wow" factor. That, combined with stilted dialog might have you reconsidering your investment, but if you hang in there, you'll be rewarded by a terrific performance from lead Steve McQueen.
 
 McQueen is the only thing going for the film. His co-stars, Robert Wagner and Shirley Anne Field, look like they're sleepwalking next to McQueen's arresting turn, especially Field, whose monotone inflection and stoic expression render her utterly ineffective.
 

@@ -14,7 +14,7 @@ Is unintentional parody possible? Director Nico Mastorakis offers no indication 
 
 The plot concerns a young couple played by Behling and Jane Lyle who arrive on the Greek island of Mykonos and embark on a thrill-kill spree. That's it. No pretense of a deeper purpose or meaning. Just shock for shock's sake.
 
-And yet, it's well done. Mastorakis leverages the photogenic locales and enlivens the over-the-top violence with inventive camerawork. Consider the nocturnal chase through the city's labyrinthine alleys. Mastorakis heightens the sense of panic with a fish-eye lens and several low-angles shots from the victim's point-of-view.
+And yet, it's well-done. Mastorakis leverages the photogenic locales and enlivens the over-the-top violence with inventive camerawork. Consider the nocturnal chase through the city's labyrinthine alleys. Mastorakis heightens the sense of panic with a fish-eye lens and several low-angles shots from the victim's point-of-view.
 
 The assured photography contrasts the uneven performances. The supporting players are either wooden or over-the-top, but Behling and Lyle play their parts so straight they verge on camp. As a parody, the performances are inspired. Behling's delivery alone is priceless.
 
