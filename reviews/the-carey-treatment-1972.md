@@ -63,7 +63,7 @@ Take the scene between Carey and the hospital chief’s new young wife. She trie
 >
 > Carey: Oh, well, if you say so.
 >
-> Mrs. Randall: Alright, doctor, get to the point.
+> Mrs. Randall: All right, doctor, get to the point.
 
 Their dialog crackles, closing with this exchange.
 
