@@ -15,4 +15,4 @@ All the players benefit from the great script by Marguerite Roberts. While Taylo
 
 Topping it all off are flashes of great direction from Robert Z. Leonard, the best of which comes during the film's fireworks-laden finale.
 
-All this adds up to a very good film. Sure, it's got its flaws, but given the good performances, great dialog, and solid direction, those flaws are easy to overlook. Indeed, if you're a fan of the film-noir genre, _The Bribe_ may very well be one of the best films you've never seen.
+All this adds up to a very good film. Sure, it has its flaws, but given the good performances, great dialog, and solid direction, those flaws are easy to overlook. Indeed, if you're a fan of the film-noir genre, _The Bribe_ may very well be one of the best films you've never seen.

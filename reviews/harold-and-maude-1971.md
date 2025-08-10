@@ -15,4 +15,4 @@ These are two deeply disturbed characters. Ruth Gordon's character is a free spi
 
 In the end, it seems that Higgins and director Hal Ashby became so enamored with the outrageous nature of the material that they became blinded to the fact that the film has nothing original to say. We get it, rebel against authority. James Dean and Brando already covered that territory. Granted, they didn't do it in quite the same eccentric, quirky, and darkly humorous manner, but they did it nonetheless.
 
-Thus, _Harold and Maude_ is a difficult film to recommend. On the one hand, it does look great, with impeccably composed scenes, and it's got a delicious streak of black humor running through it, but ultimately, you're better off watching a Wes Anderson film.
+Thus, _Harold and Maude_ is a difficult film to recommend. On the one hand, it does look great, with impeccably composed scenes, and it has a delicious streak of black humor running through it, but ultimately, you're better off watching a Wes Anderson film.

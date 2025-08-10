@@ -5,9 +5,9 @@ grade: D+
 slug: transporter-3-2008
 ---
 
-Underground courrier Frank Martin (Jason Statham) finds himself forced into service transporting a Ukrainian girl (Natalya Rudakova) for a mysterious organization.
+Underground courier Frank Martin (Jason Statham) finds himself forced into service transporting a Ukrainian girl (Natalya Rudakova) for a mysterious organization.
 
-_Transporter 3_ plays like an overlong and poorly edited commercial for Audi motors. Granted, it's got a few things going for it: the nice European locales and a couple of fun performances from Jason Statham as the titualar character and François Berléand as his police inspector sidekick, but that's about it.
+_Transporter 3_ plays like an overlong and poorly edited commercial for Audi motors. Granted, it has a few things going for it: the nice European locales and a couple of fun performances from Jason Statham as the titular character and François Berléand as his police inspector sidekick, but that's about it.
 
 It honestly seems that director Olivier Megaton, despite his kick-ass last name, can't hold a shot for more than a handful of seconds. Thus the great action, be it the car chases, the martial arts fight scenes, or the big stunts toward the film's finale, all feel disorienting and confusing. There's never a "wow" moment because nothing's on the screen long enough to register.
 
