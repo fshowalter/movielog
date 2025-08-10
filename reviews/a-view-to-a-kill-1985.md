@@ -7,7 +7,7 @@ slug: a-view-to-a-kill-1985
 
 British super agent James Bond (Roger Moore) investigates an industrialist (Christopher Walken) with a sinister plan for California's Silicon Valley.
 
-_A View to a Kill_, the fourteenth film in the long-running James Bond franchise, marked the sixth and final appearance of star Roger Moore as Bond. Unfortunately, he goes out on low point.
+_A View to a Kill_, the fourteenth film in the long-running James Bond franchise, marked the sixth and final appearance of star Roger Moore as Bond. Unfortunately, he goes out on a low point.
 
 Borrowing its plot from earlier entry <span data-imdb-id="tt0058150">_Goldfinger_</span>, this installment sees a fifty-seven-year-old Moore sleepwalking through the various set pieces which themselves are derivative of previous Bond pictures. Compounding things, Moore has next to no charisma with female leads Tanya Roberts and Grace Jones, and villain Christopher Walken is remarkably subdued in what could have been a tour-de-force performance given his manic energy.
 
