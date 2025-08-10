@@ -6,7 +6,7 @@ slug: oceans-eleven-1960
 synopsis: Frank Sinatra reunites his old Army unit, including Dean Martin and Sammy Davis Jr., to pull off a New Year's Eve robbery of five Las Vegas casinos simultaneously.
 ---
 
-An early gag in _Ocean’s Eleven_ sees Frank Sinatra making prank calls to an underworld operator. This clues you in that the film isn’t really going to be about a heist at all. Instead, Lewis Milestone’s 1960 film serves as the definitive Rat Pack artifact. This isn’t so much a movie as an opportunity to spend two hours in the company of Frank Sinatra, Dean Martin, Sammy Davis Jr., and friends as they execute a casino caper with the same effortless charm they brought to their legendary stage shows
+An early gag in _Ocean’s Eleven_ sees Frank Sinatra making prank calls to an underworld operator. This clues you in that the film isn’t really going to be about a heist at all. Instead, Lewis Milestone’s 1960 film serves as the definitive Rat Pack artifact. This isn’t so much a movie as an opportunity to spend two hours in the company of Frank Sinatra, Dean Martin, Sammy Davis Jr., and friends as they execute a casino caper with the same effortless charm they brought to their legendary stage shows.
 
 Sinatra plays Danny Ocean, a former paratrooper who reunites his old Army unit to pull off an audacious New Year's Eve robbery of five Las Vegas casinos simultaneously. The plot is merely a clothesline on which to hang the considerable charisma of its ensemble. This is a "hangout movie" in its purest form--one where the pleasure comes not from narrative tension but from watching these magnetic personalities interact.
 
