@@ -9,7 +9,7 @@ A young woman (Janet Leigh), on the run after stealing a large sum of money from
 
 _Psycho_, for better or worse, ushered in the modern horror film. The monster wasn't easily dismissed as supernatural, easily recognized as Karloff in make-up or Lugosi in a cape; no, in _Psycho_ the monster was the quiet boy next door, who never harmed a fly.
 
-Anthony Perkins is terrific, managing to be both boyishly charming and sinister at the same time. His performance ranks as one of the screen's best villains, and set the standard for many knock-off's to come.
+Anthony Perkins is terrific, managing to be both boyishly charming and sinister at the same time. His performance ranks as one of the screen's best villains, and set the standard for many knock-offs to come.
 
 Putting aside the famous shower sequence, which still holds up nearly 50 years later thanks to some great editing and sound effects, _Psycho_ remains a gripping thriller that works largely because it's so well put together.
 

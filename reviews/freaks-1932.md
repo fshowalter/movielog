@@ -10,4 +10,4 @@ Though shot with actual carnival performers, Freaks features no carnival perform
 
 <!-- end -->
 
-Midway through, the film presents a title card signalling a tonal shift. What seemed welcoming becomes ominous. The performers band together to exact revenge in an underplayed sequence full of dread. I loved everything until the coda's final reveal, which felt incongruous with the film's verisimilitude.
+Midway through, the film presents a title card signaling a tonal shift. What seemed welcoming becomes ominous. The performers band together to exact revenge in an underplayed sequence full of dread. I loved everything until the coda's final reveal, which felt incongruous with the film's verisimilitude.

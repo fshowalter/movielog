@@ -15,4 +15,4 @@ The special effects are gruesomely inventive. We see one character defibrillatin
 
 Yet, the movie isn’t just about the monster. There’s a very Hawks-ian feel to the characters and their fragile camaraderie, that, along with the desolate location photography and weathered set design, earns our buy-in right away.
 
-While there’s no way of knowing how Hawks would have reacted to the amped up gore, he certainly would have appreciated the Carpenter’s unsentimental approach to capturing the men’s working lives and relationships with one-another, as well as the honest ending.
+While there's no way of knowing how Hawks would have reacted to the amped up gore, he certainly would have appreciated Carpenter's unsentimental approach to capturing the men's working lives and relationships with one-another, as well as the honest ending.
