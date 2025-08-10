@@ -22,6 +22,6 @@ The dialog crackles. Before we even see Hunsecker, we hear him on the phone tell
 
 But all this brilliance serves a tired melodramatic plot.
 
-Hunsecker’s sister wants to marry a jazz musician. He won’t allow it and recruits Sidney to break up the couple. Sydney plants a smear item about the musician. This works, but Hunsecker isn’t satisfied. He offers Sidney a deal he can’t refuse to destroy the musician. This, of course, causes a rift between Hunsecker and his sister, with Sidney as collateral damage.
+Hunsecker's sister wants to marry a jazz musician. He won't allow it and recruits Sidney to break up the couple. Sidney plants a smear item about the musician. This works, but Hunsecker isn't satisfied. He offers Sidney a deal he can't refuse to destroy the musician. This, of course, causes a rift between Hunsecker and his sister, with Sidney as collateral damage.
 
 It reads better than it plays, with the doe-eyed sister ever suffering while her self-righteous boyfriend can’t see past his own ego. The pat ending betrays the cynical veneer and feels unsatisfying. People like Hunsecker and Sidney don’t get what’s coming to them. They get what they want. But it’s never enough.
