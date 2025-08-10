@@ -5,7 +5,7 @@ grade: D+
 date: 2003-12-09
 ---
 
-A young man murders his much older, and much wealthier, wife, gets away with it, and runs into trouble when he tries it again his new wife.
+A young man murders his much older, and much wealthier, wife, gets away with it, and runs into trouble when he tries it again with his new wife.
 
 _Cast a Dark Shadow_ is really a poor-man's Hitchcock and it's a shame. The cast is good, and with a little reworking the script could be top-notch; but we've got to work with what we have.
 
