@@ -11,7 +11,7 @@ _The Pride and the Passion_ is spectacularly produced epic featuring hundreds of
 
 That said, the film also suffers from some of the worst miscasting in history. Cary Grant’s last period piece was 1940’s <span data-imdb-id="tt0032612">_The Howards of Virginia_</span>, after which he wisely swore off the genre. Admittedly, he acquits himself far better here, but he’s still ill suited for costume dramas and it shows. Even worse is Frank Sinatra, who’s just ridiculous as a Spanish guerrilla. At least Sophia Loren is passable as object of both men's desires.
 
-Compounding the miscasting is the length. 132 minutes is a long time to endure Sinatra's Spanish-by-way-of-Hoboken accent and after awhile the sheer spectacle, easily the film’s strongest suit, begins to wear thin.
+Compounding the miscasting is the length. 132 minutes is a long time to endure Sinatra's Spanish-by-way-of-Hoboken accent and after a while the sheer spectacle, easily the film's strongest suit, begins to wear thin.
 
 Still, this is a movie worth seeing, if only once, because when the film does work, such as the sequence involving an attempt to float the cannon over a river, it’s truly awesome. Who’d have thought they would be a film that falters most whenever Cary Grant or Frank Sinatra is _on_ the screen?
 
