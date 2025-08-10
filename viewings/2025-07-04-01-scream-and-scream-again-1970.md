@@ -9,7 +9,7 @@ venueNotes: null
 mediumNotes: Kino Lorber, 2019
 ---
 
-USA cut. Inferior to the UK verison, it omits Bellaver's rock toss, and Lee's final line to Price.
+USA cut. Inferior to the UK version, it omits Bellaver's rock toss, and Lee's final line to Price.
 
 Tim Lucas delivers a comprehensive commentary in his signature warm, conversational style. He reveals fascinating connections, like how director Gordon Hessler--born in Germany but raised in England--brings subtle German cinematic influences to the film. Lucas points to an early mirror shot of a character shaving and the brassy jazz score that wouldn't be out of place in an Edgar Wallace thriller.
 

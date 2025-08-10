@@ -6,6 +6,6 @@ slug: the-return-of-the-musketeers-1989
 medium: Blu-ray
 venue: null
 venueNotes: null
-mediumNotes: Kino Lober, 2020
+mediumNotes: Kino Lorber, 2020
 ---
 
