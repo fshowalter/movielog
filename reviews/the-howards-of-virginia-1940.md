@@ -5,7 +5,7 @@ grade: D-
 slug: the-howards-of-virginia-1940
 ---
 
-Politics and social stature divide a Virginia couple (Cary Grant and Martha Scott) as events led to the Revolutionary War.
+Politics and social stature divide a Virginia couple (Cary Grant and Martha Scott) as events lead to the Revolutionary War.
 
 _The Howards of Virginia_ is a seldom seen Cary Grant film and there’s a reason: it’s not very good.
 
