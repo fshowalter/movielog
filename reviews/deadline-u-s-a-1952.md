@@ -51,4 +51,4 @@ It’s a turning point for Bogart too. It marks his last great leading man role.
 
 Thus, the film ranks as a must-see for Bogart fans. But Howard Hawks fans will appreciate the "professionals at work" style, and everyone should enjoy the crackling dialog and charismatic performances, making for an easy recommendation.
 
-If you’re still on the fence, consider this early line from Bogart when one of his lieutenants asks with disbelif if the paper’s going to be sold. "The heirs and the lawyers are up in the dome right now, waiting to explain the nature of their crime with facts, figures, and falsehoods," Bogart says, then pauses a beat--thinking to himself--and adds with a wry grin: "One more 'f' and they won’t be drafted."
+If you're still on the fence, consider this early line from Bogart when one of his lieutenants asks with disbelief if the paper's going to be sold. "The heirs and the lawyers are up in the dome right now, waiting to explain the nature of their crime with facts, figures, and falsehoods," Bogart says, then pauses a beat--thinking to himself--and adds with a wry grin: "One more 'f' and they won’t be drafted."

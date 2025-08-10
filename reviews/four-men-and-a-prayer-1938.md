@@ -15,4 +15,4 @@ Top-billed Loretta Young is as good as she can be in a ridiculous part. The scri
 
 Director John Ford does his best to gloss-over the script’s convoluted, and often forced, plot. Though some of the dialog is rather stale, Ford compensates by speeding up the delivery, thus giving the audience very little time to think. While this does make things a bit confusing at times, it beats boring any day, and the combination of Niven and Sanders more than compensates.
 
-The film’s big weakness however, is the lack of a big villain. John Carradine has a memorable turn as a vicious general, but there’s no real central antagonist, which leads to a somewhat anti-climatic third act. Not a total-let down, but definitely a missed opportunity to make _Four Men and a Prayer_ a bit more memorable.
+The film’s big weakness however, is the lack of a big villain. John Carradine has a memorable turn as a vicious general, but there’s no real central antagonist, which leads to a somewhat anticlimactic third act. Not a total-let down, but definitely a missed opportunity to make _Four Men and a Prayer_ a bit more memorable.
