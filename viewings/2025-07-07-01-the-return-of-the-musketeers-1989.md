@@ -6,7 +6,7 @@ slug: the-return-of-the-musketeers-1989
 medium: Blu-ray
 venue: null
 venueNotes: null
-mediumNotes: Kino Lober, 2020
+mediumNotes: Kino Lorber, 2020
 ---
 
 Self-proclaimed "Richard Lester enthusiast" Peter Tonguette's commentary is long on hero worship, short on insight. We get complete plot summaries of <span data-imdb-id="tt0081573">_Superman II_</span> and <span data-imdb-id="tt0086393">_Superman III_</span>. We learn nothing about Oliver Reed's health problems during filming.
