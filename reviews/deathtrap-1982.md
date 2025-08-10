@@ -35,6 +35,6 @@ The film's genius lies in its tonal tightrope between cynical satire and exploit
 
 ...
 
-Okay, so the film ends as predicted. We cut to the theatre the film opened in, as the finale unfolds as a play on stage. We see the enigmatic Swedish psychic survive and learn she has passed off the play as her own. The film closes with her receiving the crowd's adulation. Cynical perhaps, but not befitting the promised “ironic and astonishing resolution.”
+Okay, so the film ends as predicted. We cut to the theater the film opened in, as the finale unfolds as a play on stage. We see the enigmatic Swedish psychic survive and learn she has passed off the play as her own. The film closes with her receiving the crowd's adulation. Cynical perhaps, but not befitting the promised “ironic and astonishing resolution.”
 
 Now, imagine if the film had kept the stage ending, with the psychic surviving and discovering the play, planning to make it her own. Not that different from the Broadway ending, mind you. But then we pull back from the stage and see Caine's character, having survived and claimed the play as his own. But now the ironic twist. The audience is silent. No applause, just murmurings about the strange Swedish psychic character, artificial dialogue, and hammy performances. With his fifth straight flop, Caine stands ruined. All the death was for nothing. And worst of all, he realizes he's incapable of recognizing good work anymore. Ironic and astonishing indeed.

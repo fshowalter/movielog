@@ -3,7 +3,7 @@ date: 2025-07-01
 imdb_id: tt0043643
 grade: A-
 slug: his-kind-of-woman-1951
-synopsis: Gambler Robert Mitchum is coerced into travelling to a Mexican resort where he flirts with singer Jane Russell and befriends actor Vincent Price only to discover he's part of deported gangster Raymond Burr's deadly plot to reenter the United States.
+synopsis: Gambler Robert Mitchum is coerced into traveling to a Mexican resort where he flirts with singer Jane Russell and befriends actor Vincent Price only to discover he's part of deported gangster Raymond Burr's deadly plot to reenter the United States.
 ---
 
 There are movies that know exactly what they want to be from the first frame, and then's _His Kind of Woman_, a movie that stumbles into greatness by accident. This 1951 noir begins as a moody, low-key thriller in the Raymond Chandler tradition but gradually transforms into a wonderfully absurd adventure that manages to be both ridiculous and irresistible.

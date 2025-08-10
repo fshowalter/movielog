@@ -8,13 +8,13 @@ date: 2024-11-09
 
 Despite featuring ample atmosphere and solid turns by Christopher Lee and Donald Sutherland, _The Castle of the Living Dead_ fails to chill.
 
-The story unfolds in post-Napoleonic Wars France. A travelling theatre troupe accepts an invitation to perform for a local nobleman. On the road to his castle, they find the woods completely silent, and spy a stuffed bird perched on a branch. They think it a joke, but an old witch emerges from the forest speaking in rhymes urging them to beware the castle, foretelling that some will live, some will die.
+The story unfolds in post-Napoleonic Wars France. A traveling theater troupe accepts an invitation to perform for a local nobleman. On the road to his castle, they find the woods completely silent, and spy a stuffed bird perched on a branch. They think it a joke, but an old witch emerges from the forest speaking in rhymes urging them to beware the castle, foretelling that some will live, some will die.
 
 They continue, of course, and meet the nobleman, the enigmatic Count Drago, played by Christopher Lee. Taxidermy specimens abound in Drago’s castle, and the troupe soon discovers to their horror that Drago has concocted a formula that can kill and instantly embalm any living creature--including humans--and that Drago wants them as specimens. As the witch’s prophecy unfolds, the troupe find themselves fighting for their lives.
 
 The Italian-French production leveraged the Orsini-Odescalchi castle and Bomarzo sculpture garden in Lazio, Italy, which provide an immersive gothic atmosphere of looming castles, monstrous statues, and wooded isolation.
 
-Trouble is, writer-director Warren Kiefer fails to inject any actual scares. It’s as though he got distracted by the story’s quirks and influences--from the witch speaking in rhymes to the theatre troupe’s performance, to the obvious <span data-imdb-id="tt0054215">_Psycho_</span> and _The Most Dangerous Game_ references--that he forgot the basics. Instead, he devotes pages to his characters talking about how frightened they are, and assumes the audience will be frightened for them.
+Trouble is, writer-director Warren Kiefer fails to inject any actual scares. It’s as though he got distracted by the story’s quirks and influences--from the witch speaking in rhymes to the theater troupe’s performance, to the obvious <span data-imdb-id="tt0054215">_Psycho_</span> and _The Most Dangerous Game_ references--that he forgot the basics. Instead, he devotes pages to his characters talking about how frightened they are, and assumes the audience will be frightened for them.
 
 Unfortunately, we can’t connect with the characters because they don’t behave in any relatable manner. Kiefer’s female lead, Laura, alternates between a strong-willed lead and agency-less damsel-in-distress, often in the same scene.
 
