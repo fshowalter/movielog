@@ -6,6 +6,6 @@ slug: the-french-connection-1971
 medium: Blu-ray
 venue: null
 venueNotes: null
-mediumNotes: '20th Century Fox, 2012 '
+mediumNotes: '20th Century Fox, 2012'
 ---
 
