@@ -10,7 +10,7 @@ Hmm... How to offer a sense of _Trouble Every Day_ without spoiling it? I spent 
 
 <!-- end -->
 
-I admired what the film saying, its commitment to horror, and how it went about it, but it's only a third of a movie. With no beginning or end, the film offers no narrative journey. In struggling to sustain its hundred-minute running time, the film dangles bits of plot that go nowhere.
+I admired what the film was saying, its commitment to horror, and how it went about it, but it's only a third of a movie. With no beginning or end, the film offers no narrative journey. In struggling to sustain its hundred-minute running time, the film dangles bits of plot that go nowhere.
 
 For some, the visceral nature and heightened imagery will compensate. Part of me wants to rate this film higher for its sheer willingness to push the envelope and _go there_. But I must be honest that it left me underwhelmed. Perhaps a future viewing will prove kinder. Maybe a boutique home video release with a director commentary will proffer new insights.
 
