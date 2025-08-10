@@ -5,7 +5,7 @@ grade: B+
 slug: from-beyond-1986
 ---
 
-In the attic of a creaking New England mansion, two scientists create the resonator, a device capable of bridging the barrier to a parallel dimension. But the denizens of said dimension claim one of the scientist for their own via a gruesome murder. Jeffrey Combs plays the surviving scientist whose mental scars land him in an institution. Barbara Crampton plays a psychiatrist who springs Combs to help her recreate the experiment. Disaster ensues.
+In the attic of a creaking New England mansion, two scientists create the resonator, a device capable of bridging the barrier to a parallel dimension. But the denizens of said dimension claim one of the scientists for their own via a gruesome murder. Jeffrey Combs plays the surviving scientist whose mental scars land him in an institution. Barbara Crampton plays a psychiatrist who springs Combs to help her recreate the experiment. Disaster ensues.
 
 <!-- end -->
 

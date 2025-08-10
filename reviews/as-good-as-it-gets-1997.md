@@ -7,7 +7,7 @@ date: 2004-02-26
 
 An obsessive-compulsive author forms unlikely relationships with a waitress and a gay painter.
 
-_As Good As It Gets_ is an easy, almost old fashioned, movie that's carried largely by the charisma of it's talented cast... at least on the surface.
+_As Good As It Gets_ is an easy, almost old fashioned, movie that's carried largely by the charisma of its talented cast... at least on the surface.
 
 The script by Mark Andrus and director James L. Brooks is interesting. On one hand, it's a fairy tale love-story about one man overcoming the obstacles to his own happiness, but on the other hand it's a story of a kind, trusting painter who is savagely beaten and alienated by his parents, and a homophobic curmudgeon who ends up with a waitress half his age that was precluded from any chance at romance by a sick child. The fact that the curmudgeon ends up helping them both doesn't change the rather subtle message that life is not fair and that suffering is all too common.
 

@@ -5,7 +5,7 @@ grade: C-
 slug: sabotage-1936
 ---
 
-A London woman (Sylvia Sidney) discovers that her husband (Oskar Homolka) is part of ring of saboteurs.
+A London woman (Sylvia Sidney) discovers that her husband (Oskar Homolka) is part of a ring of saboteurs.
 
 _Sabotage_ (_The Woman Alone_ in the US) is an interesting, if flawed, and somewhat controversial thriller from director Alfred Hitchcock.
 
