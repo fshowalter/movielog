@@ -11,4 +11,4 @@ _A Study in Terror_ isn't bad as far as Sherlock Holmes pictures go. John Nevill
 
 Director James Hill does a good job with the Victorian atmosphere, and handles the few action scenes deftly. The more suspenseful scenes involving Jack the Ripper may seem tired by today's standards, but they get the job done.
 
-The mixing of Sherlock Holmes and Jack the Ripper is a natural one, and the script produces a mystery that is sufficiently complex to keep the viewer interested without seeming convenient or forced. Some of the characterizations are a little thin, but for the most part the script is solid; leading to a respectable--but not spectacular--movie
+The mixing of Sherlock Holmes and Jack the Ripper is a natural one, and the script produces a mystery that is sufficiently complex to keep the viewer interested without seeming convenient or forced. Some of the characterizations are a little thin, but for the most part the script is solid; leading to a respectable--but not spectacular--movie.

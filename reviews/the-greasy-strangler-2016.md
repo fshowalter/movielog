@@ -10,4 +10,4 @@ How to describe _The Greasy Strangler_? It's part father-son relationship drama,
 
 <!-- end -->
 
-I loved it. I loved how hard it leans into the uncomfortable. A prolonged sequence involving international tourists and the word "potato" brought tears of laughter. The multiple scenes involving male genitalia elicited guffaws. This film pushes through funny, through grotesque, through annoying, and into an absurdity that mixes Monty Python with David Cronenberg. You've been warned... and encouraged
+I loved it. I loved how hard it leans into the uncomfortable. A prolonged sequence involving international tourists and the word "potato" brought tears of laughter. The multiple scenes involving male genitalia elicited guffaws. This film pushes through funny, through grotesque, through annoying, and into an absurdity that mixes Monty Python with David Cronenberg. You've been warned... and encouraged.
