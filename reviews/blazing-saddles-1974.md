@@ -7,7 +7,7 @@ date: 2003-12-10
 
 A corrupt Attorney General appoints a black sheriff to a small town in an effort to drive the residents away.
 
-_Blazing Saddles_ is perhaps Mel Brooks's finest movie. Brooks, who directed, co-wrote, and starred, delivers a movie that is simultaneously both a wild satire and a homage to the Western genre. Additionally, _Blazing Saddles_ takes the satire angle one step further by poking fun at the Hollywood system itself with it's inspired ending.
+_Blazing Saddles_ is perhaps Mel Brooks's finest movie. Brooks, who directed, co-wrote, and starred, delivers a movie that is simultaneously both a wild satire and a homage to the Western genre. Additionally, _Blazing Saddles_ takes the satire angle one step further by poking fun at the Hollywood system itself with its inspired ending.
 
 Brooks the director really steps up here. _Blazing Saddles_ feels like a Western, and while a large part of the credit for this goes to the production designer, Brooks also deserves credit for using the same wide shots and dramatic close-ups that the genre is known for, thereby allowing the film to work as a homage in addition to a satire.
 
