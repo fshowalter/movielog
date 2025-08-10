@@ -5,7 +5,7 @@ grade: B+
 slug: people-will-talk-1951
 ---
 
-_People Will Talk_ is an extremely well done comedy drama highlighted by a sparkling cast and a smart script.
+_People Will Talk_ is an extremely well-done comedy drama highlighted by a sparkling cast and a smart script.
 
 The plot sees Cary Grant play a popular doctor with a mysterious past who meets a woman, played by Jeanne Crain, pregnant out of wedlock.
 

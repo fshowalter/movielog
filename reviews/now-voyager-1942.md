@@ -15,6 +15,6 @@ For her part, Davis is amazing, playing what's almost a dual role, yet she makes
 
 Opposite her, Paul Henreid takes a little getting used to but once he settles in he's great, and very believable as a man torn between his love for Davis and his sense of morality and honor.
 
-Finally, there's Gladys Cooper who was nominated along with Davis for an Oscar for her role as Davis's character's domineering mother. She plays a bitch, but does it well, conveying a deep seeded fear and hurt behind her character's vitriol.
+Finally, there's Gladys Cooper who was nominated along with Davis for an Oscar for her role as Davis's character's domineering mother. She plays a bitch, but does it well, conveying a deep-seated fear and hurt behind her character's vitriol.
 
-Granted, _Now, Voyager_ is basically one long soap opera (and one that does drag a bit toward the third act) but it's tremendously well done, pushing all the right buttons but never being obvious about it, right down to the bittersweet finale that fits just right. It may be popcorn drama, but it's entertaining nonetheless.
+Granted, _Now, Voyager_ is basically one long soap opera (and one that does drag a bit toward the third act) but it's tremendously well-done, pushing all the right buttons but never being obvious about it, right down to the bittersweet finale that fits just right. It may be popcorn drama, but it's entertaining nonetheless.

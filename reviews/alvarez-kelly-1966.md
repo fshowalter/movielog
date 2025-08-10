@@ -15,4 +15,4 @@ As for Holden, he looks tired. He was drinking heavily during the shoot and it s
 
 Overlong and full of plot holes, Franklin Coen's screenplay has the makings of something great, but needed at least two or three more rewrites before it was ready for production. An oft-told story even has Holden, hung over and frustrated with an unruly horse, attempting to cram the script up its ass saying, "That's where it belongs!"
 
-Now granted, _Alvarez Kelly_ isn't great, but it's not horse's ass bad either. The finale is well done, and liberal use of the fast-forward button to get you there can easily make this one passable.
+Now granted, _Alvarez Kelly_ isn't great, but it's not horse's ass bad either. The finale is well-done, and liberal use of the fast-forward button to get you there can easily make this one passable.

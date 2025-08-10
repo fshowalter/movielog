@@ -5,11 +5,11 @@ grade: B+
 slug: the-caine-mutiny-1954
 ---
 
-_The Caine Mutiny_ is an extremely well done drama featuring a terrific performance from Humphrey Bogart.
+_The Caine Mutiny_ is an extremely well-done drama featuring a terrific performance from Humphrey Bogart.
 
 The plot sees the first officer of a Navy minesweeper facing a court-martial after relieving his possibly mentally ill captain, played by Bogart, of command during a typhoon.
 
-Bogart really shows his range as an actor, playing against type as the compulsive, paranoid, Captain Queeg. From the speech patters, to the darting eyes, and nervous habits, Bogart creates the foundation that scores of actors would build on in years to come. It’s an absolutely convincing performance that never feels forced or showy, and goes a long way toward making _The Caine Mutiny_ such a good film.
+Bogart really shows his range as an actor, playing against type as the compulsive, paranoid, Captain Queeg. From the speech patterns, to the darting eyes, and nervous habits, Bogart creates the foundation that scores of actors would build on in years to come. It’s an absolutely convincing performance that never feels forced or showy, and goes a long way toward making _The Caine Mutiny_ such a good film.
 
 Backing up Bogart is a stellar supporting cast highlighted by Fred MacMurray and José Ferrer. MacMurray, despite relatively little screen time, turns in a particularly nuanced performance that plays in perfect counterpoint to Bogart’s, while Ferrer resists the urge to overact in what could be a showy role and instead effectively punches home the movie’s very sober message.
 

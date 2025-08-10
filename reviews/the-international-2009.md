@@ -11,4 +11,4 @@ _The International_ is a muddled thriller that never finds its voice. Watching t
 
 Stars Clive Owen and Naomi Watts are fine enough, but the script frequently has them talking to the audience as opposed to each other, cramming tons and tons of expositionary dialog into their exchanges. Indeed, much of the dialog sounds "off," like it's being read rather than said.
 
-In the middle of all this there's a rather well done set piece involving the Guggenheim Museum in New York that echoes the polished thrillers of Alfred Hitchcock. If the whole film were as good as this one sequence, it'd be something special, but sadly, it's remarkably average, so much so that without the charisma of Owen and Watts, it would feel like a mild burn.
+In the middle of all this there's a rather well-done set piece involving the Guggenheim Museum in New York that echoes the polished thrillers of Alfred Hitchcock. If the whole film were as good as this one sequence, it'd be something special, but sadly, it's remarkably average, so much so that without the charisma of Owen and Watts, it would feel like a mild burn.

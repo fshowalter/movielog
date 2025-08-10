@@ -13,6 +13,6 @@ Frank Sinatra acts his heart out as the lead, Frankie Machine, a recovering hero
 
 This inauthenticity extends to the entire cast, with Kim Novak faring the best, though looking far too immaculate to be believable as the love interest of two addicts. Worst of all is Eleanor Parker, whose ham-fisted emoting nearly brings down the entire picture. Indeed, her turn goes beyond an impression and straight into caricature.
 
-Finally, there's the jazz score, which, while well done, doesn't work. Though it was a novel idea, it only serves to date the film and distract the viewer from the action on screen.
+Finally, there's the jazz score, which, while well-done, doesn't work. Though it was a novel idea, it only serves to date the film and distract the viewer from the action on screen.
 
 When it was released in 1955, _The Man with the Golden Arm_ was the first major film to deal with addiction since the adoption of the Hayes Code. Being first meant there was nothing in the way of comparison, but in the decades since, countless films have done a better job exploring addiction and heroin addiction in particular, such as Danny Boyle's breakthrough <span data-imdb-id="tt0117951">_Trainspotting_</span>, which tells a similar story in a grittier, more authentic manner, resulting in a more satisfying experience.

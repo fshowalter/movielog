@@ -7,7 +7,7 @@ slug: thirty-seconds-over-tokyo-1944
 
 Synopsis: After the attack on Pearl Harbor, a young pilot (Van Johnson) volunteers for a General's (Spencer Tracy) secret mission to bomb Japan.
 
-_Thirty Seconds Over Tokyo_ is best during the actual thirty seconds over Tokyo. The bombing run is well done, with great effects and interspersed government footage. You feel the tension, and eventual relief, just as if you were on board the plane with Van Johnson and crew.
+_Thirty Seconds Over Tokyo_ is best during the actual thirty seconds over Tokyo. The bombing run is well-done, with great effects and interspersed government footage. You feel the tension, and eventual relief, just as if you were on board the plane with Van Johnson and crew.
 
 The hour and change leading up to this point are decent as well, with Van Johnson doing a nice job carrying the film, with good supporting turns by Spencer Tracy and Robert Mitchum.
 

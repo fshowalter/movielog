@@ -7,7 +7,7 @@ slug: laura-1944
 
 A detective (Dana Andrews) grows increasingly obsessed with the woman (Gene Tierney) whose murder he’s investigating.
 
-_Laura_ is an extremely well done murder mystery. From the performances to the direction to the cinematography, this is a good story told about as well as possible.
+_Laura_ is an extremely well-done murder mystery. From the performances to the direction to the cinematography, this is a good story told about as well as possible.
 
 Producer-director Otto Preminger fought to cast Clifton Webb in the crucial role of Waldo Lydecker, but his perseverance paid off. Webb landed an Oscar nomination for his fantastic performance in a difficult role.
 
