@@ -11,11 +11,11 @@ Watch it with the commentary.
 
 Director Tobe Hooper's debut feature proffers a cavalcade of trick shots interrupted by stretches of scenes of pretentious dialogue and navel-gazing, but proves opaque without Hooper's helping hand on the commentary track.
 
-The film opens with a woman riding in the bed of a pickup truck travelling into downtown Austin, Texas. Hooper tells us in the commentary that her parents are driving her to college, a detail we couldn't hope to glean.
+The film opens with a woman riding in the bed of a pickup truck traveling into downtown Austin, Texas. Hooper tells us in the commentary that her parents are driving her to college, a detail we couldn't hope to glean.
 
 As they arrive at the University of Texas at Austin, we witness a large Vietnam War protest. This establishes the film's anti-war theme and realistic style. Hooper filmed a real protest, but lingers on intimate details. A girl sits on a bench popping a pimple on her forearm. The protestors shake hands with the smiling police officers monitoring the demonstration.
 
-Hooper also pans up to the Main building clock-tower—the site of Charles Whitman's mass shooting three years prior—an odd inclusion given Hooper comments how he excised a“travelling prophet” side-plot because it was “too heavy.” But Hooper also comments in a solemn tone that he was on campus during the massacre.
+Hooper also pans up to the Main building clock-tower—the site of Charles Whitman's mass shooting three years prior—an odd inclusion given Hooper comments how he excised a“traveling prophet” side-plot because it was “too heavy.” But Hooper also comments in a solemn tone that he was on campus during the massacre.
 
 Next we get the first example of one of Hooper's formal trick shots. A paper airplane takes off from the ground, flies through the air and impacts a house, exploding in a fireball and crumbling to smouldering ashes. An on-the-nose allegory to the students' protection from the Vietnam draft.
 

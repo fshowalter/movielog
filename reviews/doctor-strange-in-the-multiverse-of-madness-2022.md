@@ -6,7 +6,7 @@ grade: B-
 slug: doctor-strange-in-the-multiverse-of-madness-2022
 ---
 
-Sam Raimi returns to the superhero genre. Doctor Strange must protect a teenage girl capable of travelling between universes. **Minor spoilers follow.**
+Sam Raimi returns to the superhero genre. Doctor Strange must protect a teenage girl capable of traveling between universes. **Minor spoilers follow.**
 
 <!-- end -->
 

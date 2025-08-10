@@ -11,6 +11,6 @@ _Intolerable Cruelty_ is a devilishly clever comedy from the Coen brothers. Buck
 
 George Clooney delivers his usual charming self, Catherine Zeta-Jones is perfectly cast opposite him, and the supporting cast, while not as featured as a typical Coen brothers film, is still top-notch.
 
-The script moves along well, but can be off putting for those not warmed to the Coen brothers brand of humour.
+The script moves along well, but can be off putting for those not warmed to the Coen brothers brand of humor.
 
 The direction is fantastic. In essence, the Coen brothers have taken a mainstream romantic comedy and added their own unique twist, resulting in a refreshing change of pace.

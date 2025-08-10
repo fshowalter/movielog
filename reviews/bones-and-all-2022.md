@@ -23,7 +23,7 @@ A terrific hook. Maren's cannibalism as a metaphor for homosexuality. Revealing 
 
 Or so I thought.
 
-Fast-forward and Maren's on her own, travelling cross-country by bus, searching for her mother. At a stop in exurban Maryland, she encounters Sully, played by Mark Rylance, in a performance that echoes Harry Dean Stanton and would feel at home in a David Lynch film. Brimming with vague menace, Sully tells Maren he could smell her from half a mile away, and invites her back to a house to eat. “Don't worry, Maren—I'm ok. I got rules. Number one is never eat an eater,” he says. Sully continues, explaining how eating human flesh isn't a choice, but a need that will grow in her as she ages. This recasts her from cannibal to ghoul and strengthens the homosexuality metaphor, even as Sully's leering glances call it into doubt.
+Fast-forward and Maren's on her own, traveling cross-country by bus, searching for her mother. At a stop in exurban Maryland, she encounters Sully, played by Mark Rylance, in a performance that echoes Harry Dean Stanton and would feel at home in a David Lynch film. Brimming with vague menace, Sully tells Maren he could smell her from half a mile away, and invites her back to a house to eat. “Don't worry, Maren—I'm ok. I got rules. Number one is never eat an eater,” he says. Sully continues, explaining how eating human flesh isn't a choice, but a need that will grow in her as she ages. This recasts her from cannibal to ghoul and strengthens the homosexuality metaphor, even as Sully's leering glances call it into doubt.
 
 Indeed, the homosexuality metaphor disappears in favor of one analogizing he need for human flesh with drug addiction. Maren flees Sully meets another teen ghoul named Lee, played by Chalamet, who looks the part of a junkie, with jaded eyes and an emaciated build, accentuated by undersized shirts and oversized pants held up by a knotted rope.
 
@@ -33,7 +33,7 @@ But no. Maren and Lee road trip across the Rust Belt and Appalachian areas, livi
 
 During their travels, Maren and Lee encounter another pair of ghouls, two men, also brimming with menace. Michael Stuhlbarg relates the tale of how they met, and we learn the other man, played by David Gordon Green, isn't a ghoul. He just likes to watch. A tourist.
 
-An intriguing diversion that left me eager to explore the film's world. Maren and Lee travelling the country, meeting ghouls of all kinds--a Lynchian tour of the monsters among us.
+An intriguing diversion that left me eager to explore the film's world. Maren and Lee traveling the country, meeting ghouls of all kinds--a Lynchian tour of the monsters among us.
 
 But again, no.
 

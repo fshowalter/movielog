@@ -17,7 +17,7 @@ The film opens with a mob dinner. Dominic West plays Billy, a mobster chaffing a
 
 This sort of over-the-top violence strikes the perfect tone, but the film goes too far, having Stevenson hook his knees into the chandelier and spin upside down, spraying bullets into the mob goons. Wrong for the Punisher, but one wonders if it didn't inspire the creators behind <span data-imdb-id="tt1431045">_Deadpool_</span>.
 
-Anyway, the film soon rights itself with the single best Punisher moment on film to date. A gang of Irish parkour enthusiasts “on a constant meth high” acting as couriers for Billy are travelling across the city via rooftops. As a member somersaults over an alley gap, a rocket-propelled grenade enters the frame from below, streaks up, and pulverizes the gang member, reducing him to gory bits of splatter. Cut to the Punisher, lowering the RPG and stepping forward.
+Anyway, the film soon rights itself with the single best Punisher moment on film to date. A gang of Irish parkour enthusiasts “on a constant meth high” acting as couriers for Billy are traveling across the city via rooftops. As a member somersaults over an alley gap, a rocket-propelled grenade enters the frame from below, streaks up, and pulverizes the gang member, reducing him to gory bits of splatter. Cut to the Punisher, lowering the RPG and stepping forward.
 
 More than any scene before or since, this bit of laugh-out-loud brutal inanity recreates the dark comedy tone present in writer Garth Ennis's “Welcome Back, Frank” story line in the comics.
 
