@@ -33,7 +33,7 @@ So we're left with a horror film that isn't scary, makes no internal sense, and 
 
 In another 1997 interview, Sholder confesses he and the studio didn't realize Freddy was the franchise, saying:
 
-> Look at Jason the movie's not about Jason. Nobody gives a shit about Jason really, he's just a thing that pops up with a spear and it's... does the kid get--you know--impaled with a spear or get their head chopped off or--you know--how do they end up?[^1]
+> Look at Jason the movie's not about Jason. Nobody gives a shit about Jason really, he's just a thing that pops up with a spear and it's... does the kid get--you know--impaled with a spear or get their heads chopped off or--you know--how do they end up?[^1]
 
 Considering <span data-imdb-id="tt0085636">_Halloween III_</span>'s attempt to move on from Michael Myers just a few years prior had killed that franchise, this attitude surprises. In 1997, Sholder was just then connecting Jason, Freddy, and Michael Myers to the Universal monsters of the 1930s and 1940s, and realizing the slasher killers of the '80s were that generation's monsters. In that light, of course, they matter.
 

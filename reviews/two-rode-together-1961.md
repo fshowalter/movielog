@@ -13,6 +13,6 @@ Despite not really fitting the role, James Stewart is good as the lead. His inna
 
 Opposite Stewart, Richard Widmark does a solid job. Much like Stewart, Widmark doesn’t really fit his role, but compensates by turning in an edgier performance. Of the two, Widmark seems much more dangerous, and, while this doesn’t really suit the character, it does make him more compelling.
 
-The script by Frank S. Nugent does a good job transitioning from a somewhat light-hearted tone to a much more serious one as the story progresses, but runs out of steam well before the film’s end, resulting is an anti-climatic third act.
+The script by Frank S. Nugent does a good job transitioning from a somewhat light-hearted tone to a much more serious one as the story progresses, but runs out of steam well before the film’s end, resulting is an anticlimactic third act.
 
 For his part, director John Ford turns in a well-photographed picture, and tries to make the most out of Nugent’s script, though it’s clear his heart wasn't in it. He’d already made this movie five years earlier.

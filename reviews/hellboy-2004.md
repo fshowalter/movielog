@@ -13,4 +13,4 @@ Ron Perlman is great in the title role, and is the highlight of the movie. His i
 
 Compared to all the other colorful characters, Karel Roden's Rasputin is utterly forgettable. While his henchman Kroenen is much more visually striking, the adherence to the source material regulates him to a background role. This is a real shame since the heroes are all so wonderfully characterized.
 
-That said, _Hellboy_ still has a lot going for it. The sets and effects are all amazing, and the performances from the supporting cast (with the exception of Roden, who's problems may actually stem from the script) are all top-notch.
+That said, _Hellboy_ still has a lot going for it. The sets and effects are all amazing, and the performances from the supporting cast (with the exception of Roden, whose problems may actually stem from the script) are all top-notch.
