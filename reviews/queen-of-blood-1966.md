@@ -7,7 +7,7 @@ date: 2003-07-11
 
 _Queen Of Blood_ is a bad movie.
 
-In all honesty the only thing that kept my finger off the fast-forward was the hope that it would somehow get better. After all, it's got a good premise:
+In all honesty the only thing that kept my finger off the fast-forward was the hope that it would somehow get better. After all, it has a good premise:
 
 An alien spaceship crashes on Mars and a team of astronauts are sent out to investigate. The team finds an alien specimen and proceeds take it back to earth, but while en-route they are killed one-by-one by their new passenger.
 
@@ -15,6 +15,6 @@ But wait-doesn't this sound a little familiar? Despite its poor quality, this fi
 
 But unlike those movies, this one is bad. It's slow, stiffly acted, and underproduced.
 
-And yet it's littered with surprising bits of logic in it's dealings with space travel.. and did I mention it's got John Saxon, Dennis Hopper and a 74 year old Basil Rathbone?
+And yet it's littered with surprising bits of logic in its dealings with space travel.. and did I mention it has John Saxon, Dennis Hopper and a 74 year old Basil Rathbone?
 
 So frustrating. Like most Corman shlock this is a mixed bag that hints at greater things but leaves you feeling burned.

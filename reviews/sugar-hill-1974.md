@@ -9,7 +9,7 @@ After gangsters murder her boyfriend, a woman recruits an army of zombies in her
 
 _Sugar Hill_ is a travesty. Instead of delivering what should have been a sure-fire classic, writer Tim Kelly and director Paul Maslansky turn in a barely passable horror film lacking any real fun.
 
-The premise is so brilliant it's scary. It's like somebody was watching Jack Hill's <span data-imdb-id="tt0069897">_Coffy_</span> and thought, "Hmmn... yeah it's got Pam Grier going on a rampage beating up pimps, The Man, crazy white bitches and Sid Haig, but what it really needs is zombies!"
+The premise is so brilliant it's scary. It's like somebody was watching Jack Hill's <span data-imdb-id="tt0069897">_Coffy_</span> and thought, "Hmmn... yeah it has Pam Grier going on a rampage beating up pimps, The Man, crazy white bitches and Sid Haig, but what it really needs is zombies!"
 
 And that someone was right.
 
