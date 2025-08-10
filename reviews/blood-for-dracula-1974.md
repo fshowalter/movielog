@@ -7,7 +7,7 @@ slug: blood-for-dracula-1974
 
 _Blood for Dracula_ (_Andy Warhol's Dracula_ in the US) is an aimless mess.
 
-Despite the US title, Andy Warhol had nothing to do with the film, which is the brainchild of writer-director Paul Morrissey, who shot it immediately after the superior <data data-imdb-id="tt0071508">_Flesh for Frankenstein_</span> using the same cast and crew.
+Despite the US title, Andy Warhol had nothing to do with the film, which is the brainchild of writer-director Paul Morrissey, who shot it immediately after the superior <span data-imdb-id="tt0071508">_Flesh for Frankenstein_</span> using the same cast and crew.
 
 Working from a script with no ending, Morrissey forgoes any kind of real story or theme in favor of over-the-top sex and gore, allowing his cast to improvise along the way. While there are moments when this works, they're too few and far between.
 

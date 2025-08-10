@@ -12,7 +12,7 @@ It opens with Fred, a jazz saxophone player, played by Bill Pullman, and his wif
 
 Cinematographer Peter Deming films the shadowy interiors with low contrast, resulting in a hazy grain that gives these scenes an ethereal sheen. Fred and Renee speak in hushed whispers and disappear into darkness while the soundtrack emits dissonant whirrs and drones, bringing a palpable sense of dread to every scene.
 
-This atmosphere culminates in a party sequence where Fred spies a mysterious man played by Robert Blake, who approaches Fred and offers a knowing grin. Contrasting the grin, Blake's eyebrowless pale face, red lips, black hair, and window's peak exude a sinister, surreal menace as he asks, "We've met before, haven't we?"
+This atmosphere culminates in a party sequence where Fred spies a mysterious man played by Robert Blake, who approaches Fred and offers a knowing grin. Contrasting the grin, Blake's eyebrowless pale face, red lips, black hair, and widow's peak exude a sinister, surreal menace as he asks, "We've met before, haven't we?"
 
 Soon after, the film abruptly shifts into mystery noir, bringing in a somewhat new cast. We meet a young mechanic named Pete, played by Balthazar Getty, favored by a gangster named Mr. Eddy, played by Robert Loggia. Like Blake's mystery man, Loggia's Mr. Eddy exudes a sinister menace, but his is more traditional--a coiled rage, though their early scenes in the garage where Pete works prove some of the film's brightest, the sunshine a stark contrast to the previous dark interiors.
 

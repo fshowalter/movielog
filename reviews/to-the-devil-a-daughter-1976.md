@@ -26,7 +26,7 @@ And it’s when you compare this film to those, that one realizes how far Hammer
 
 This was a studio that, nineteen years prior, had revived the horror genre by injecting a liberal dose of gore and sex into the monster movie. The resulting films were edgy and fresh.
 
-But time passed. Those kids who flocked theaters for Hammer’s earlier films now had kids of their own. To this new generation, Hammer’s period monster movies were passé. They were your _parent’s_ horror movies. Even this wave of satanic themed films was on it’s nadir. Two years later <span data-imdb-id="tt0077651">_Halloween_</span> would usher in the slasher genre that would dominate horror for the next decade.
+But time passed. Those kids who flocked theaters for Hammer's earlier films now had kids of their own. To this new generation, Hammer's period monster movies were passé. They were your _parent's_ horror movies. Even this wave of satanic themed films was on its nadir. Two years later <span data-imdb-id="tt0077651">_Halloween_</span> would usher in the slasher genre that would dominate horror for the next decade.
 
 By the time Hammer woke up and tried to tap into the mainstream horror pulse, it lacked the resources to pull off a competent film. Christopher Lee does his best, but Richard Widmark looks tired and annoyed. He’s just cashing a paycheck.
 
