@@ -22,4 +22,4 @@ But about that ball. Those with squeamish stomachs may find it rough. As a speci
 
 That ball pushed my younger self over the edge. Nightmares plagued me for weeks. So much of the film, from the stark white mortuary interiors to Scrimm himself, looks unsettling. It sounds unsettling too, with an ominous, disconcerting score that adds to the film’s impact.
 
-Watching it now, scenes tug at memories of a more brutal experience. One that carved itself into my malleable psyche and sewed the seeds of my predilection for nihilistic, nightmarish horror.
+Watching it now, scenes tug at memories of a more brutal experience. One that carved itself into my malleable psyche and sowed the seeds of my predilection for nihilistic, nightmarish horror.

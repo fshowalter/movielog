@@ -5,7 +5,7 @@ grade: B
 slug: gran-torino-2008
 ---
 
-A grizzled Korea War veteran (Clint Eastwood) takes a shine to his neighbor, a young Hmong teenager who tried to steal his car, a 1972 Gran Torino.
+A grizzled Korean War veteran (Clint Eastwood) takes a shine to his neighbor, a young Hmong teenager who tried to steal his car, a 1972 Gran Torino.
 
 _Gran Torino_ is an entertaining drama featuring a tour-de-force performance from director-star Clint Eastwood that almost overcomes the problematic ending. Almost.
 

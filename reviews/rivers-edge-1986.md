@@ -9,7 +9,7 @@ A teen inexplicably kills his girlfriend and provokes strange reactions from his
 
 _River's Edge_ is almost the anti-teen movie. There are no happy endings or neat plot resolutions. Instead we get an honest look at dysfunctional families and disenchanted youth. While this does make for great social commentary, it's less than satisfying as a movie.
 
-The performance are all first rate. Crispen Glover's does tend veer a little over-the-top, but you buy it. Dennis Hopper may have been filming _River's Edge_ concurrently with <span data-imdb-id="tt0090756">_Blue Velvet_</span>, as he gives almost identical performances, but you buy him too.
+The performances are all first rate. Crispin Glover's does tend to veer a little over-the-top, but you buy it. Dennis Hopper may have been filming _River's Edge_ concurrently with <span data-imdb-id="tt0090756">_Blue Velvet_</span>, as he gives almost identical performances, but you buy him too.
 
 Director Tim Hunter does a great job creating a real-world atmosphere, and manages to keep the film from dating itself. The lack of cell phones is about the only way you'd know it wasn't set in present day.
 

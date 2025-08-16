@@ -6,7 +6,7 @@ grade: F
 slug: hocus-pocus-1993
 ---
 
-On Halloween night in Salem, Massachusetts, a transplanted L.A. teen inadvertently resurrects three witches, played by Midler, Parker, and Najimy. With a single night to live, they attempt to steal the town's children's life to extend their existence.
+On Halloween night in Salem, Massachusetts, a transplanted L.A. teen inadvertently resurrects three witches, played by Midler, Parker, and Najimy. With a single night to live, they attempt to steal the town's children's lives to extend their existence.
 
 <!-- end -->
 

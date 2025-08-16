@@ -9,7 +9,7 @@ A doctor’s evil twin comes back from the dead as a vampire to exact revenge.
 
 _Dead Men Walk_ isn’t a good movie by any stretch, but it’s not a complete loss either.
 
-George Zucco almost works in the duel role of heroic doctor and evil vampire. His vampire is the superior effort, though some better makeup would have no doubt helped. His doctor is considerably weaker, echoing a poor man’s Edward Van Sloan minus the accent.
+George Zucco almost works in the dual role of heroic doctor and evil vampire. His vampire is the superior effort, though some better makeup would have no doubt helped. His doctor is considerably weaker, echoing a poor man’s Edward Van Sloan minus the accent.
 
 Surrounding Zucco is a mostly forgettable supporting cast with the exception of Dwight Frye who basically reprises his Renfield character as Zolarr.
 

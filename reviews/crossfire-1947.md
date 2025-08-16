@@ -7,7 +7,7 @@ slug: crossfire-1947
 
 A soldier (Robert Mitchum) helps a detective (Robert Young) investigate a murder that points to a soldier (Robert Ryan).
 
-_Crossfire_ is a taunt film-noir from director Edward Dmytryk featuring a breakout performance from Robert Ryan.
+_Crossfire_ is a taut film-noir from director Edward Dmytryk featuring a breakout performance from Robert Ryan.
 
 Much as he did in his earlier film, <span data-imdb-id="tt0037101">_Murder, My Sweet_</span>, Dmytryk does a great job using light and shadow to create atmosphere. The story is essentially just a pulp detective story with a twist, but Dmytryk's direction and Ryan's chilling performance elevate it something more.
 

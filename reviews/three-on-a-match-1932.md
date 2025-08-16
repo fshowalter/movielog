@@ -41,7 +41,7 @@ Meanwhile, Vivian continues her fall from grace. Michael harbors a gambling prob
 
 One of Michael's creditors, a mobster named Ace, played by Edward Arnold, gets wind of the plot and muscles his way in via his henchman, played by Humphrey Bogart.
 
-Though still regulated to a heavy, Bogart's dialog proves more articulate than usual. When the kid says, “You mustn't hurt my mama,” Bogart replies, “Okay, I'll bear that in mind,” with a menacing glare.
+Though still relegated to a heavy, Bogart's dialogue proves more articulate than usual. When the kid says, “You mustn't hurt my mama,” Bogart replies, “Okay, I'll bear that in mind,” with a menacing glare.
 
 Anyway, the ransom plan falls apart. With the heat closing in, Bogart leans on Michael to off the kid. Vivian, in a moment of lucidity during her withdrawal haze, saves her son in a startling (and over the top) fashion.
 

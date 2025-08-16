@@ -13,7 +13,7 @@ Cary Grant works well in the lead, as his indelible charisma makes him believabl
 
 Ethel Barrymore won a well-deserved Oscar for her restrained performance as Grant’s character’s mother. In a part that could--especially toward the end--veer into theatrics, Barrymore instead instills the character with a quiet dignity.
 
-The script packed with authentic feeling dialog, and does a great job of subtly transforming Grant’s character, delivering a solid emotional punch at the end once the transformation is complete.
+The script packed with authentic feeling dialogue, and does a great job of subtly transforming Grant’s character, delivering a solid emotional punch at the end once the transformation is complete.
 
 Director Clifford Odets does a good job establishing a gloomy atmosphere, but offers little more visually. The 113-minute running time feels a little excessive, especially towards the film’s middle, and the voice over narration at the film’s opening is totally unnecessary.
 

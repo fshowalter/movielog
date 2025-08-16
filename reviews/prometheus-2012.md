@@ -7,7 +7,7 @@ grade: B
 
 Director Ridley Scott’s return to the _Alien_ universe is a philosophical sci-fi horror.
 
-In the late 21st century, archeologist Rapace discovers a series of identical star charts amongst the ruins of several disparate ancient civilizations. Viewing this as an invitation from humanity’s forerunners, the elderly chair of the massive Weyland corporation funds an expedition to follow the charts deep into space to an earth-sized moon orbiting a massive planet. The crew travel in stasis, watched over by David, an android played by Fassbender who passes the time watching the dreams of the various crew-members and <span data-imdb-id="tt0056172">_Lawrence of Arabia_</span>.
+In the late 21st century, archeologist Rapace discovers a series of identical star charts amongst the ruins of several disparate ancient civilizations. Viewing this as an invitation from humanity’s forerunners, the elderly chair of the massive Weyland corporation funds an expedition to follow the charts deep into space to an Earth-sized moon orbiting a massive planet. The crew travel in stasis, watched over by David, an android played by Fassbender who passes the time watching the dreams of the various crew-members and <span data-imdb-id="tt0056172">_Lawrence of Arabia_</span>.
 
 Upon landing, the crew discover the remains of what appears to be an ancient alien species with DNA that matches humans. Things go downhill fast, though, and the search for knowledge quickly devolves into a struggle for survival, as the Weyland corporation’s hidden motives and the true nature of the alien species become clear.
 

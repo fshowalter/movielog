@@ -22,7 +22,7 @@ Meanwhile, Professor George’s wife Emily is snapping photos of the crypt exter
 
 Cut back to New York. Despite the title, Manhattan doesn’t feature aside from some nondescript establishing shots and generic park settings. There’s also no baby.
 
-In what should be another red flag, we meet Susie’s brother Tommy, played by Giovanni Frezza, who also played the dreaded Bob in Fulci’s <span data-imdb-id="tt0082966">_The House by the Cemetery_<span>. Fortunately, he’s far less annoying this time around, though one still wonders what possessed Fulci to cast him, let alone twice.
+In what should be another red flag, we meet Susie’s brother Tommy, played by Giovanni Frezza, who also played the dreaded Bob in Fulci’s <span data-imdb-id="tt0082966">_The House by the Cemetery_</span>. Fortunately, he’s far less annoying this time around, though one still wonders what possessed Fulci to cast him, let alone twice.
 
 From here, the script meanders. Through some exposition, we learn of an evil spirit who might have possessed Susie via the amulet. It’s never clear what the spirit wants, as neither the parents nor Susie appear in much danger.
 

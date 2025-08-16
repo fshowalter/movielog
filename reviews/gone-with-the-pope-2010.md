@@ -6,7 +6,7 @@ grade: C+
 slug: gone-with-the-pope-2010
 ---
 
-How do you review this? A film shot in 1976 but not released until 2010, when editor Bob Murawski assembled the rediscovered footage. A film laden with casual racism but also featuring a resonant soliloquy bemoaning the Catholic Church’s culpability in turning a blind-eye to the world’s problems. A film written and directed by a nightclub crooner, yet shot on-location in Los Angeles, Palm Springs, Las Vegas, and Rome. Bear with me.
+How do you review this? A film shot in 1976 but not released until 2010, when editor Bob Murawski assembled the rediscovered footage. A film laden with casual racism but also featuring a resonant soliloquy bemoaning the Catholic Church's culpability in turning a blind eye to the world's problems. A film written and directed by a nightclub crooner, yet shot on-location in Los Angeles, Palm Springs, Las Vegas, and Rome. Bear with me.
 
 <!-- end -->
 

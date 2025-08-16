@@ -20,7 +20,7 @@ Despite featuring an American cast and director, this was an Italian production.
 
 The plot veers between surreal and absurd. The possessed train beheads one victim, disembowels and bisects another, and immolates a third. But the evil forces’ powers don’t stop there. They manipulate a mail post into impaling another victim, and--in a sequence sure to elicit guffaws at home and roars in the theater--they cause the train to jump its tracks and tear across a swamp to plow into two victims before returning to the tracks like nothing happened.
 
-Indeed, between the exotic locations and gonzo plotting, it feels every bit the Italian horror. But the American performers, non-dubbed soundtrack, and surprising production values evaluate it beyond the genre’s usual limitations.
+Indeed, between the exotic locations and gonzo plotting, it feels every bit the Italian horror. But the American performers, non-dubbed soundtrack, and surprising production values elevate it beyond the genre's usual limitations.
 
 Somehow, the production got access to a real locomotive and a helicopter, facilitating aerial shots of the train barrelling down the countryside as the students climb between cars to reach the engine. It's the sort of spectacle reserved for higher-budget action pictures.
 
@@ -30,8 +30,8 @@ And Bo Svenson shines, channeling Sean Bean as the sinister Andromolek in a perf
 
 These strengths more than overcome the kids’ acting, which veers closer to collegiate theatrics than convincing performances. The stilted dialog doesn’t help. Consider the scene where Andromolek gifts each student with a souvenir. One girl recognizes it as Beverly’s birthmark. Andromolek says it’s the sign of the pagan virgin, to which one kid snickers while looking at Beverly, “There’s only one virgin I know of.”
 
-Lines like this fall flat, as the kids look closer to thirty than thirteen. They're also not in a 1940s gangster movie, despite when a train passenger explains in perfect--albeit acccented--English, that three people dying in separate, suspicious accidents means something's wrong, one kid replies, "I mean, you try and pull this gypsy double talk on me."
+Lines like this fall flat, as the kids look closer to thirty than thirteen. They're also not in a 1940s gangster movie, despite when a train passenger explains in perfect--albeit accented--English, that three people dying in separate, suspicious accidents means something's wrong, one kid replies, "I mean, you try and pull this gypsy double talk on me."
 
-A script polish would have helped, and yet, the such awkward lines seem fitting, as a typical Italian horror’s dubbed soundtrack would always include some tin-eared dialog mangled in translation that elicits laughter.
+A script polish would have helped, and yet, such awkward lines seem fitting, as a typical Italian horror's dubbed soundtrack would always include some tin-eared dialog mangled in translation that elicits laughter.
 
 The resulting rollercoaster ride isn’t for everyone. It careens between schlock and inspired dread—sometimes in the same scene—but for fans of campy, over-the-top horror, _Beyond the Door III_ is a must-see.

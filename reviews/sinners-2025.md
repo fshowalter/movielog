@@ -14,9 +14,9 @@ The film's first half plays like a crime drama, following the brothers as they n
 
 Then an Irish vampire shows up, and everything goes sideways.
 
-Lesser filmmakers might have fumbled this sharp genre turn, but Coogler uses it to deepen his themes rather than abandon them. The vampire becomes both literal monster and metaphor for colonialism and exploitation--at one point casually mentioning how the Romans forced their religion on his people. It's a loaded line in a film already grappling with questions of who preys on whom. Even our protagonist brothers aren't innocent, profiting from their own community while trying to serve it.
+Lesser filmmakers might have fumbled this sharp genre turn, but Coogler uses it to deepen his themes rather than abandon them. The vampire becomes both literal monster and metaphor for colonialism and exploitation—at one point casually mentioning how the Romans forced their religion on his people. It's a loaded line in a film already grappling with questions of who preys on whom. Even our protagonist brothers aren't innocent, profiting from their own community while trying to serve it.
 
-Technically, the film is a feast. The cinematography shifts from sun-bleached vistas punctuated by the brothers' Technicolor hats to grainy, grindhouse-inspired footage once the vampires appear. The soundtrack follows suit, transitioning from Delta Blues to Fabio Frizzi-style prog horror. These aren't just stylistic flourishes--they're the vocabulary Coogler uses to tell his story.
+Technically, the film is a feast. The cinematography shifts from sun-bleached vistas punctuated by the brothers' Technicolor hats to grainy, grindhouse-inspired footage once the vampires appear. The soundtrack follows suit, transitioning from Delta Blues to Fabio Frizzi-style prog horror. These aren't just stylistic flourishes—they're the vocabulary Coogler uses to tell his story.
 
 At over two hours with multiple endings, _Sinners_ occasionally feels like a film unsure how to wrap itself up. There are other minor quibbles: a vampire who's survived millennia proves surprisingly easy to outwit, and a cameo by blues legend Buddy Guy in the epilogue, while well-intentioned, falls flat.
 

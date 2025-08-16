@@ -11,7 +11,7 @@ Kevin Conroy voices Batman in this animated feature that sees the Dark Knight in
 
 Filmed at the end of the animated series' first sixty-five episode order, the film plays like an extended episode, albeit one intended to air in prime-time versus Saturday mornings. While still suitable for older kids, the film features several off-screen murders, alcohol consumption, and implied sex.
 
-The animation retains the series' Max Fleischer _Superman_ inspired art-direction, evident in the opening credits crawl through the art déco Gotham City, the minimalist character designs, and abundant use of light and shadow. It also borrows from Tim Burton's <span data-imdb-id="tt0096895">_Batman_</span> (which itself borrowed from Fleischer's _Superman_), aping that film's Batcave design.
+The animation retains the series' Max Fleischer _Superman_ inspired art direction, evident in the opening credits crawl through the art déco Gotham City, the minimalist character designs, and abundant use of light and shadow. It also borrows from Tim Burton's <span data-imdb-id="tt0096895">_Batman_</span> (which itself borrowed from Fleischer's _Superman_), aping that film's Batcave design.
 
 The voice-acting shines. Conroy, just a year into a multi-decade run as Batman, conveys ample menace as Batman and affable charm as Bruce Wayne. In the film's defining moment, he pleads with his deceased parents, begging to be excused from his promise to avenge their deaths. “I didn't count on being happy,” he says with a gravitas that transcends the animated format.
 
@@ -35,7 +35,7 @@ Cut to Bruce. He doesn't run. He settles into a combat stance, possessed by an e
 
 The second comes later, when Bruce first dons the Batman garb. We see him in silhouette as he dons the cowl and turns to Alfred, whose eyes widen. Cut back to Bruce, whose now all-white eyes narrow just as they did in the earlier scene. “My God,” says Alfred, stepping back, as Bruce—having found himself as Batman—stalks past him.
 
-But for all its strengths, the film is not without its flaws. We get a scene where Bruce's analyzing some evidence on the computer in the Batcave. He's dressed in civilian clothes, and, as he talks to Alfred, he smiles and smirks. It's a subtle misstep that wouldn't happen later in the character's animated journey, but it reminds us that—despite having sixty-plus episodes under their belt—the animated Batman character was still developing.
+But for all its strengths, the film is not without its flaws. We get a scene where Bruce is analyzing some evidence on the computer in the Batcave. He's dressed in civilian clothes, and, as he talks to Alfred, he smiles and smirks. It's a subtle misstep that wouldn't happen later in the character's animated journey, but it reminds us that—despite having sixty-plus episodes under their belt—the animated Batman character was still developing.
 
 Another misstep comes with the central mystery. Though he's referred to as “the world's greatest detective” and we see him collecting forensic evidence, the Joker proves the superior sleuth, sussing out the mystery assailant's identity first, while Batman's investigative efforts amount to recognizing folks in a picture.
 

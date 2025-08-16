@@ -11,7 +11,7 @@ _License to Kill_, the sixteenth--and final for star Timothy Dalton--entry in th
 
 Unfortunately, audiences weren't ready for it. Still used to the loveable rogue persona and soft comedy of the Roger Moore era, Dalton's performance was a sharp turn that left many filmgoers cold. It's a shame as he really comes into his own here; giving a take on Bond that fits him well.
 
-That said, the film does have its flaws. Like the prior installment, <soab data-imdb-id="tt0093428">_The Living Daylights_</span>, this one goes on too long and fails to maintain a steady stream of tension. Further, for a film that tries to be gritty and realistic, the climactic sequence involving a tanker truck is just plain ridiculous. Though the film may try to break out of the established Bond formula, old habits die hard.
+That said, the film does have its flaws. Like the prior installment, <span data-imdb-id="tt0093428">_The Living Daylights_</span>, this one goes on too long and fails to maintain a steady stream of tension. Further, for a film that tries to be gritty and realistic, the climactic sequence involving a tanker truck is just plain ridiculous. Though the film may try to break out of the established Bond formula, old habits die hard.
 
 Thus, _License to Kill_ is something of a tricky recommendation. Fans of the newer films will find this a good transition to the campier fare of Roger Moore and Sean Connery, but the fact remains that this _type_ of Bond has now been done better by Craig.
 

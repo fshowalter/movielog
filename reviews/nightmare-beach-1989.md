@@ -31,7 +31,7 @@ But I digress.
 
 The killer's behavior isn't the only head-scratcher. One of the myriad side plots concerns a pair of thieves preying on the breakers. One performs an attention-grabbing prank, like playing dead in the pool. When everyone rushes to see the prankster, his accomplice disappears with any untended cash. At one point, the prankster poses as a shark. Swimmers scream and run ashore. A local cop urges everyone back, then opens fire with his pistol into the water. The inanity had me roaring.
 
-And lest I forget our protagonists. Skip is a college football quarterback who just lost the Orange Bowl for his team. Gail, a local bartender. Both deliver their lines dead flat, as though someone were feeding them the script via an earpiece and they were just repeating the words with no sense of context or emphasis.
+And lest I forget our protagonists. Skip is a college football quarterback who just lost the Orange Bowl for his team. Gail is a local bartender. Both deliver their lines dead flat, as though someone were feeding them the script via an earpiece and they were just repeating the words with no sense of context or emphasis.
 
 The supporting players fare better. John Saxon plays the local police chief. Unlike his usual cop roles, this time he wears a uniform. Lance LeGault plays the local reverend with his typical gravitas. And Michael Parks plays the local coroner with a drinking problem that's not intended as comedy but plays as such. But the standout supporting player award goes to “Gator Guy,” a drunken University of Florida fan who pops up screaming “Gators!” at various times. Love that guy.
 

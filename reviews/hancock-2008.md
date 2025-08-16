@@ -5,7 +5,7 @@ grade: D+
 slug: hancock-2008
 ---
 
-An alcoholic super-hero (Will Smith) finds himself attracted to the wife (Charlize Theron) of the public relations professional (Jason Batemen) who's trying to improve his image.
+An alcoholic super-hero (Will Smith) finds himself attracted to the wife (Charlize Theron) of the public relations professional (Jason Bateman) who's trying to improve his image.
 
 _Hancock_ is a mess. It's not quite the train-wreck that was <span data-imdb-id="tt0367882">_Indiana Jones and the Kingdom of the Crystal Skull_</span>, but it's pretty damn close. Though only two writers are credited, watching the film you get the feeling that dozens more must have sliced and diced their way through the script during the years it floundered in "development hell" before Sony finally got it into production. Really, the performers never had a chance.
 

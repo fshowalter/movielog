@@ -5,7 +5,7 @@ grade: C-
 slug: a-view-to-a-kill-1985
 ---
 
-British super agent James Bond (Roger Moore) investigates an industrialist (Christopher Walken) with a sinister plan for California's Silicon Valley.
+British super-agent James Bond (Roger Moore) investigates an industrialist (Christopher Walken) with a sinister plan for California's Silicon Valley.
 
 _A View to a Kill_, the fourteenth film in the long-running James Bond franchise, marked the sixth and final appearance of star Roger Moore as Bond. Unfortunately, he goes out on a low point.
 

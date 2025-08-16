@@ -6,4 +6,4 @@ grade: D
 slug: x-men-origins-wolverine-2009
 ---
 
-**Anemic prequel detailing Wolverine's origin.** Reeks of studio interference down to the awkward title. The nonsensical script feels like a Frankenstein amalgam of various drafts stitched together to meet a deadline. The plot-hole leaden result sacrifices gravitas for mass-market appeal, wasting the charismatic cast and stand-out photography.
+**Anemic prequel detailing Wolverine's origin.** Reeks of studio interference down to the awkward title. The nonsensical script feels like a Frankenstein amalgam of various drafts stitched together to meet a deadline. The plot-hole laden result sacrifices gravitas for mass-market appeal, wasting the charismatic cast and stand-out photography.

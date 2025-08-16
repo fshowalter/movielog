@@ -14,7 +14,7 @@ That description conjured visions of a touring band, mixed up with the drug trad
 
 As the film opens, the band yearns to go straight. But of course they have to do “one last job.” And of course, the cops show up at the airport during said “last job.” The plane crew panics and drops the drugs on the beach near the band's house. But when the band goes to retrieve them, the drugs are missing. We get lots of twilight shots of the band searching the dunes on horseback, interspersed with them jamming at their beach house.
 
-Of course, the mob wants their drugs or their money, and they send a heavy to spy on the band from a boat anchored off shore. More jam sessions and horseback shots. A weird scene involving baby powder. Then Andy Warhol turns up (playing himself) and solves the mystery. Roll credits.
+Of course, the mob wants their drugs or their money, and they send a heavy to spy on the band from a boat anchored offshore. More jam sessions and horseback shots. A weird scene involving baby powder. Then Andy Warhol turns up (playing himself) and solves the mystery. Roll credits.
 
 It's a hang-out movie with musical interludes masquerading as a crime thriller. I haven't mentioned the star, Jack Palance, who plays the band's manager. He proves inconsequential to the plot, and solos most of his scenes, leading me to believe they only had him for a few days and lacked a shooting script. That said, he's professional and delivers an entertaining Palance tough-guy performance.
 

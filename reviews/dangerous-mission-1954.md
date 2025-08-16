@@ -6,7 +6,7 @@ grade: D
 slug: dangerous-mission-1954
 ---
 
-This story of a hit-man pursuing a murder witness hiding out in Glacier National Park is not good, but may appeal to Vincent Price fans. To explain why, I must venture into **spoiler territory.**
+This story of a hitman pursuing a murder witness hiding out in Glacier National Park is not good, but may appeal to Vincent Price fans. To explain why, I must venture into **spoiler territory.**
 
 <!-- end -->
 

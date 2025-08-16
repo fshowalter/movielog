@@ -10,9 +10,9 @@ Will Rogers plays a medicine man turned steamboat operator racing to New Orleans
 
 <!-- end -->
 
-John Ford directs this well-produced entry that veers between farce and melodrama. Rogers opens peddling moonshine masquerading as a Pocahontas elixir. He keeps this huckster angle throughout the film, though his ample charisma and folksy demeanor keeps his character likeable.
+John Ford directs this well-produced entry that veers between farce and melodrama. Rogers opens peddling moonshine masquerading as a Pocahontas elixir. He keeps this huckster angle throughout the film, though his ample charisma and folksy demeanor keep his character likeable.
 
-Rogers comes into a steamboat, and early on wagers his boat against a more established boat in an upcoming race. Winner takes both boats. I thought I was in for a light comedy, with Rogers leading a rag-tag group of misfits to an improbable victory. But then the film shifts and we learn Rogers’s beloved nephew has killed a man. Rogers convinces his nephew to turn himself in, but a prejudiced judge sentences him to death in New Orleans. But, as plot would have it, a missing witness can prove the nephew’s innocence. Rogers just has to find him. And wouldn’t you know? The boat race finishes in New Orleans.
+Rogers comes into a steamboat, and early on wagers his boat against a more established boat in an upcoming race. Winner takes both boats. I thought I was in for a light comedy, with Rogers leading a ragtag group of misfits to an improbable victory. But then the film shifts and we learn Rogers’s beloved nephew has killed a man. Rogers convinces his nephew to turn himself in, but a prejudiced judge sentences him to death in New Orleans. But, as plot would have it, a missing witness can prove the nephew’s innocence. Rogers just has to find him. And wouldn’t you know? The boat race finishes in New Orleans.
 
 These overwrought narrative stakes aren’t necessary and drag down an otherwise entertaining comedy-adventure. Said Ford[^1]:
 

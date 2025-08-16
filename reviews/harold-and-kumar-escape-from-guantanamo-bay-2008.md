@@ -11,7 +11,7 @@ _Harold & Kumar Escape from Guantanamo Bay_ is the sequel to 2004’s <span data
 
 Ordinarily that wouldn’t be a problem, but the four years have aged leads John Cho and Kal Penn, and it’s a little odd to hear them constantly referred to as “kids” when Penn’s over thirty and Cho’s closer to forty.
 
-That said, the real problem with the sequel is that it’s too ambitious for its own good. A great deal of the original’s charm lied in the fact that was so _unambitious_. The whole film revolved around two guys' quest for sliders. It was unpretentious and relatable.
+That said, the real problem with the sequel is that it’s too ambitious for its own good. A great deal of the original's charm lay in the fact that was so _unambitious_. The whole film revolved around two guys' quest for sliders. It was unpretentious and relatable.
 
 The sequel, however, tries to one-up the original by sending the titular duo on a cross-country adventure with government hot on their trail. This isn’t to say it’s not funny, just that it lacks the original's slacker charm.
 

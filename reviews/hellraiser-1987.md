@@ -6,7 +6,7 @@ grade: A
 slug: hellraiser-1987
 ---
 
-**Clive Barker's debut feature.** Frustrated with her effete husband and sedate lifestyle, a woman schemes to aide a former lover on the run from sadomasochistic creatures from another dimension summoned by a magical puzzle box. As one such creature says, "We have such sights to show you!"
+**Clive Barker's debut feature.** Frustrated with her effete husband and sedate lifestyle, a woman schemes to aid a former lover on the run from sadomasochistic creatures from another dimension summoned by a magical puzzle box. As one such creature says, "We have such sights to show you!"
 
 <!-- end -->
 

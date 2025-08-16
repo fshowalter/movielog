@@ -9,7 +9,7 @@ Hitchcock's utterly engrossing thriller puts us in a sweltering apartment with S
 
 Soon, we're _trapped_ in the apartment with Stewart, as his beautiful girlfriend, played by Grace Kelly, finds herself in mortal danger in the neighbor's apartment and all we can do is watch, because Stewart, like us, is just an audience, at least until the murder looks out his window, and out of the movie, and sees us.
 
-_Rear Window_ is a great example of a master director at the top of his game. Director Alfred Hitchcock takes a dynamite premise and exploits it to its full potential, delivering both a taunt thriller and a subtle expose of our voyeuristic society.
+_Rear Window_ is a great example of a master director at the top of his game. Director Alfred Hitchcock takes a dynamite premise and exploits it to its full potential, delivering both a taut thriller and a subtle expose of our voyeuristic society.
 
 Stewart and Kelly seem to ooze charm and effortlessly pull you into the story, and Thelma Ritter, who plays Stewart's nurse, gets some of the script's best lines. The result is a movie that you can keep coming back to, time and again.
 

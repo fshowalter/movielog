@@ -13,7 +13,7 @@ I remember seeing director Tim Burton’s film in theaters opening weekend. I wa
 
 Burton’s Batman was dark and brooding and cool, like he was in the comics. The world went Bat-crazy that summer; me included. I remember thinking it the greatest movie ever made.
 
-Years and sequels came, diminishing the original film’s shine. Joel Schumacher replaced Burton and ran the franchise into the ground. By the time George Clooney pulled out his Bat credit-card, I’d dismissed the whole franchise as campy and “not the real Batman.”
+Years and sequels came, diminishing the original film’s shine. Joel Schumacher replaced Burton and ran the franchise into the ground. By the time George Clooney pulled out his Bat credit card, I’d dismissed the whole franchise as campy and “not the real Batman.”
 
 More years passed and Chris Nolan brought us <span data-imdb-id="tt0468569">_The Dark Knight_</span>. This film also told a Batman and Joker story but ground it in a recognizable Gotham, and used the characters as archetypes to explore bigger themes of order, chaos, trust, identity and truth. Burton’s hyper-stylized film looked childish in comparison.
 

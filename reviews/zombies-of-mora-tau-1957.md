@@ -7,7 +7,7 @@ slug: zombies-of-mora-tau-1957
 
 A group of treasure hunters brave zombie sailors in their attempts to retrieve a chest of diamonds sunk off the coast of Africa.
 
-_Zombies of Mora Tau_ is a well-photographed zombie picture brought down by a script populated with inane and annoying characters. Seriously, by third act you’ll be rooting for the zombies -anything to kill off these hopelessly stupid people.
+_Zombies of Mora Tau_ is a well-photographed zombie picture brought down by a script populated with inane and annoying characters. Seriously, by the third act you'll be rooting for the zombies—anything to kill off these hopelessly stupid people.
 
 How stupid can they be, you ask? Well, first there’s the women who, when a zombie shuffles in, stand still and scream continuously, rather than running away. Also, note that these same women will then disbelieve the existence of the very zombie they just saw.
 

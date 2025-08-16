@@ -11,7 +11,7 @@ The story has Cary Grant and Myrna Loy, tired of their cramped New York City apa
 
 For a premise ripe for cheap, physical comedy, the script by Norman Panama and Melvin Frank shows remarkable restraint. Cary Grant doesn’t get conked on the head by long pipes, Myrna Loy doesn’t fall into foundation holes; instead the humor is derived from Grant’s increasing exasperation at reconciling his dreams with his wallet. This is a timeless and relatable situation, which explains why the film holds up so well to repeat viewings.
 
-Further helping matters is Myrna Loy, who’s charming, restrained, and believable performance is a joy to watch. She never goes over the top, as was all too common for actresses of the era, and her performance during the “just a few pieces of flagstone” scene is an excellent example of how to be funny without being hysterical. Loy _charms_ the audience, which wins them over and helps them sympathize with Grant’s character’s desire to do as much as he can for her and his family.
+Further helping matters is Myrna Loy, whose charming, restrained, and believable performance is a joy to watch. She never goes over the top, as was all too common for actresses of the era, and her performance during the “just a few pieces of flagstone” scene is an excellent example of how to be funny without being hysterical. Loy _charms_ the audience, which wins them over and helps them sympathize with Grant’s character’s desire to do as much as he can for her and his family.
 
 As for Grant, he does his version of the everyman, which is to say the man every man would like to be, with perfect comedic timing and subtle charm. It’s a testament to his innate charisma that we feel invested in his dream, instead of thinking him a fool for it.
 

@@ -13,7 +13,7 @@ The script shouldn't work. Screenwriters Raymond Chandler and Billy Wilder didn'
 
 The cast shouldn't work. Wilder had a tough time finding a leading man, with many actors turning him down before he finally convinced Fred MacMurray to take the part, yet MacMurray seems tailor made for the role of Walter Neff, a sleazier shadow of Chandler's more famous creation: Philip Marlowe.
 
-Barbara Stanwyck should look ridiculous in her blonde wig, yet it only serves to make her character seem both artificial and confident at the same time, and efficient bit of characterization.
+Barbara Stanwyck should look ridiculous in her blonde wig, yet it only serves to make her character seem both artificial and confident at the same time, an efficient bit of characterization.
 
 The direction shouldn't work. Wilder only had two Hollywood credits under his belt at this point: a light comedy in <span data-imdb-id="tt0035019">_The Major and the Minor_</span>, and a war thriller in <span data-imdb-id="tt0035884">_Five Graves to Cairo_</span>, yet he turns in what would become one of the cornerstones of the film-noir genre with knockout photography from John Seitz, and a great score from Miklós Rózsa.
 

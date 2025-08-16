@@ -14,13 +14,13 @@ To proffer a sense of the film's inanity, allow me to summarize the plot. As men
 
 After a musical number that sees passers-by singing as Stewart walks to C.J.'s factory headquarters, he meets Molly, played by Paulette Goddard. Molly's mother, Mom McCorkle, owns the boardinghouse across the alley from C.J.'s factory.
 
-Stewart takes an interest in Molly because the script requires it, with Molly unaware Stewart is C.J.'s nephew. This proves crucial as C.J. hates music and Mom McCorkle's also houses Horace Height and his band, whose rooftop rehearsals drive C.J. crazy.
+Stewart takes an interest in Molly because the script requires it, with Molly unaware Stewart is C.J.'s nephew. This proves crucial as C.J. hates music and Mom McCorkle also houses Horace Height and his band, whose rooftop rehearsals drive C.J. crazy.
 
 C.J. calls the police to shut down the music, leading to a standoff. Stewart chucks a tomato meant for one of C.J.'s bullying lackeys but hits C.J. instead. This gets Stewart a free room from Mom McCorkle. He meets Horace and the band and joins an impromptu jam on his harmonica.
 
-But Stewart's soon arrested for the tomato toss. At his trial, the judge dismisses the case, but Stewart has to sneak out when C.J. bursts in to avoid his uncle seeing him. Stewart sneaks away, right into the paddy wagon, which takes him to jail. He spends his cell-time singing with his cellmates. Yes, Jimmy Stewart sings. Cited for contempt, C.J. joins him in jail and the sing-a-longs.
+But Stewart's soon arrested for the tomato toss. At his trial, the judge dismisses the case, but Stewart has to sneak out when C.J. bursts in to avoid his uncle seeing him. Stewart sneaks away, right into the paddy wagon, which takes him to jail. He spends his cell-time singing with his cellmates. Yes, Jimmy Stewart sings. Cited for contempt, C.J. joins him in jail and the sing-alongs.
 
-Horace and the band hock their instruments to post Stewart's bail, springing him from jail. When C.J. gets out, he's too hoarse from the jail sing-a-longs to host his nationwide radio program and has Stewart go on in his stead. This leads to Horace discovering Stewart's relation to C.J., but Stewart squares things by getting the band's instruments out of hock. Meanwhile, Molly daydreams a medieval fantasy that sees her as a princess throwing flowers from a castle balcony with a dubbed Stewart serenading her.
+Horace and the band hock their instruments to post Stewart's bail, springing him from jail. When C.J. gets out, he's too hoarse from the jail sing-alongs to host his nationwide radio program and has Stewart go on in his stead. This leads to Horace discovering Stewart's relation to C.J., but Stewart squares things by getting the band's instruments out of hock. Meanwhile, Molly daydreams a medieval fantasy that sees her as a princess throwing flowers from a castle balcony with a dubbed Stewart serenading her.
 
 Stewart and Horace then cook up a plan to gaslight C.J.. It works. Convinced he's going crazy, C.J. travels to Canada to relax. Stewart gets Horace and the band on the radio show, providing a big break. But Molly—who just now learns Stewart is C.J.'s nephew—storms to the microphone and announces a one-thousand dollar giveaway during every future show.
 

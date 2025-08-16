@@ -13,7 +13,7 @@ The film works largely because the monsters play it straight. While Glenn Strang
 
 Surprisingly, _Abbott and Costello Meet Frankenstein_ marked only the second, and final, time that Bela Lugosi would play Dracula. While his performance here certainly lacks the edge of the 1931 original, Lugosi is still a joy to watch and does a good job of moving the story along.
 
-For his part, Lon Chaney Jr. gives perhaps his finest interpretation of Larry Talbot, a.k.a. the Wolf Man. Here he’s a desperate, haunted man. A far cry from the lusty heir he played in the original <span data-imdb-id="tt0034398">_Wolf Man_</span>. Chaney’s wide eyes a long face suit this interpretation better, and his morose performance provides the perfect foil for Costello’s comedy.
+For his part, Lon Chaney Jr. gives perhaps his finest interpretation of Larry Talbot, a.k.a. the Wolf Man. Here he’s a desperate, haunted man. A far cry from the lusty heir he played in the original <span data-imdb-id="tt0034398">_Wolf Man_</span>. Chaney's wide eyes and long face suit this interpretation better, and his morose performance provides the perfect foil for Costello’s comedy.
 
 But about that comedy. Costello’s shtick doesn’t age well. The physical gags get old and many of the one-liners are dated. That’s not to say the movie isn’t funny, just that I remember it being a lot funnier.
 

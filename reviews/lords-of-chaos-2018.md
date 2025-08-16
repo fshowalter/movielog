@@ -20,6 +20,6 @@ Euronymous continues spinning the Black Metal mythology, mixing Satanism, Odinis
 
 The film held me rapt. Even the voice-over narration works, propelling the story along in a manner reminiscent of <span data-imdb-id="tt0099685">_Goodfellas_</span>. Nobody affects a Norwegian accent, but Culkin and Cohen convince in their parts.
 
-It works on multiple levels. It's a harrowing, cautionary tale of dangers of fame-at-all costs. It's the story of one man stoking and exploiting a marginalized group's rage and insecurities.
+It works on multiple levels. It's a harrowing, cautionary tale of the dangers of fame-at-all-costs. It's the story of one man stoking and exploiting a marginalized group's rage and insecurities.
 
 It's brilliant. I just wish it hadn't nicked <span data-imdb-id="tt0493464">_Wanted_</span>'s closing line.

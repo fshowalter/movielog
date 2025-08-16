@@ -16,7 +16,7 @@ Or, you could say it takes a cue from <span data-imdb-id="tt0468569">_The Dark K
 
 Or, you could say it takes a cue from _Mad Men_ and outfits everyone in retro-trendy clothes and lends otherwise boring sets an art déco flair.
 
-But, for me, it works because of a single scene. During the Cuban Missile Crisis, a group of young mutants--some still teenagers--have just saved the world from nuclear war. The U.S. and Soviet naval fleets--moments ago ready to wipe each other from the face of the earth--recognize these mutants pose a larger threat and agree to unleash a barrage of missiles. Lensherr, a holocaust survivor who'd witnessed the murder of his mother at the hands of Nazis, steps forward and halts the barrage mid-air. His gaze hardens as turns the artillery back toward the fleets.
+But, for me, it works because of a single scene. During the Cuban Missile Crisis, a group of young mutants—some still teenagers—have just saved the world from nuclear war. The U.S. and Soviet naval fleets—moments ago ready to wipe each other from the face of the earth—recognize these mutants pose a larger threat and agree to unleash a barrage of missiles. Lensherr, a holocaust survivor who'd witnessed the murder of his mother at the hands of Nazis, steps forward and halts the barrage mid-air. His gaze hardens as he turns the artillery back toward the fleets.
 
 Xavier, realizing Lensherr's intentions, pleads with him: “That's enough, Erik! There are hundreds of people aboard those ships. Innocent people just following orders!”
 

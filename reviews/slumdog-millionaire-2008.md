@@ -13,7 +13,7 @@ That said, thematically, _Slumdog Millionaire_ is farther from _Trainspotting_ t
 
 Fortunately, Boyle's relentless energy and kinetic style do a good job of glossing over that fact, making the film feel much more substantial than it really is. But the good performances, brilliant editing, and pulsating soundtrack can't cover up the film's crucial failure.
 
-The story revolves around Jamal and his love for Latika, a girl he meets when he's just a boy. Before he can reach adolescence, they're separated, and he spends the rest of his life searching for her, only to lose her yet again after one night once he does find her. From that point on, his whole life revolves around this girl, who he feel's he's meant to be with, but we, the audience, can't understand why. She may have charmed Jamal, but she never charms _us_. In fact, we never find out anything about her, and so she remains just a pretty face.
+The story revolves around Jamal and his love for Latika, a girl he meets when he's just a boy. Before he can reach adolescence, they're separated, and he spends the rest of his life searching for her, only to lose her yet again after one night once he does find her. From that point on, his whole life revolves around this girl, who he feels he's meant to be with, but we, the audience, can't understand why. She may have charmed Jamal, but she never charms _us_. In fact, we never find out anything about her, and so she remains just a pretty face.
 
 And thus, we reach the film's biggest conceit. That Latika is still the girl Jamal remembers from his youth. That they're meant to be together despite knowing practically nothing about each other. That it's not only okay, but even profitable, to live your life solely in pursuit of a single woman you don't know.
 

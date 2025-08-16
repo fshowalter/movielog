@@ -16,4 +16,3 @@ For his part, José Ferrer embodies Toulouse-Lautrec character completely. While
 Supporting Ferrer is a solid cast that bears note for Hammer Film fans, who will want to watch for appearances by both Peter Cushing and an uncredited Christopher Lee, years before their Hammer fame.
 
 Ultimately, though, _Moulin Rouge_ suffers from the times in which it was made. Shackled by 1950s sensibilities, the film feels restrained and watered down and, in that sense, ages poorly. Huston was a larger than life character and likely identified, on some level, with Toulouse-Lautrec, and a more honest examination of the artist’s passions and vices could have elevated this to something special.
-.

@@ -25,7 +25,7 @@ Or so I thought.
 
 Fast-forward and Maren's on her own, traveling cross-country by bus, searching for her mother. At a stop in exurban Maryland, she encounters Sully, played by Mark Rylance, in a performance that echoes Harry Dean Stanton and would feel at home in a David Lynch film. Brimming with vague menace, Sully tells Maren he could smell her from half a mile away, and invites her back to a house to eat. “Don't worry, Maren—I'm ok. I got rules. Number one is never eat an eater,” he says. Sully continues, explaining how eating human flesh isn't a choice, but a need that will grow in her as she ages. This recasts her from cannibal to ghoul and strengthens the homosexuality metaphor, even as Sully's leering glances call it into doubt.
 
-Indeed, the homosexuality metaphor disappears in favor of one analogizing he need for human flesh with drug addiction. Maren flees Sully meets another teen ghoul named Lee, played by Chalamet, who looks the part of a junkie, with jaded eyes and an emaciated build, accentuated by undersized shirts and oversized pants held up by a knotted rope.
+Indeed, the homosexuality metaphor disappears in favor of one analogizing the need for human flesh with drug addiction. Maren flees Sully and meets another teen ghoul named Lee, played by Chalamet, who looks the part of a junkie, with jaded eyes and an emaciated build, accentuated by undersized shirts and oversized pants held up by a knotted rope.
 
 Tying back to the homosexuality metaphor, Lee's pattern of preying on gay men alludes to the AIDS epidemic. Combined with the 1980s setting, I wondered if the film wasn't intending to weave the metaphor through the era: the War on Drugs, AIDS, perhaps the rampant “Greed is good” capitalism?
 
@@ -47,7 +47,7 @@ But why such a trite ending? Consider how ripe with promise the film began, how 
 
 So frustrating, given the film's inspired take on the ghoul monster, and how the performers rose to the material.
 
-As Maren, Taylor Russell manages the near-impossible task of engendering sympathy for a ghoul. She's convincing in every moment, save two. The first comes in a scene with her maternal grandmother, played by Jessica Harper. Russel's delivery here seems awkward and forced, as though director Luca Guadagnino asked her to improvise and she was uncomfortable. The scene demands she play nervous, but her delivery resembles a nervous performer. This, and a later scene with Chalamet when she tries to comfort him after he reveals the truth of his past, mar an otherwise impressive performance.
+As Maren, Taylor Russell manages the near-impossible task of engendering sympathy for a ghoul. She's convincing in every moment, save two. The first comes in a scene with her maternal grandmother, played by Jessica Harper. Russell's delivery here seems awkward and forced, as though director Luca Guadagnino asked her to improvise and she was uncomfortable. The scene demands she play nervous, but her delivery resembles a nervous performer. This, and a later scene with Chalamet when she tries to comfort him after he reveals the truth of his past, mar an otherwise impressive performance.
 
 Chalamet, for his part, never stumbles. Every action, line, and gesture feels authentic. It's an unflattering, unglamorous role, but he disappears into it.
 

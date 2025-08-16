@@ -13,4 +13,4 @@ The first half of the film is an over-the-top delight. Sandler's Zohan is a supe
 
 But then, at about the halfway point, the film loses all of its originality and falls into a tired rut of a plot involving a forbidden romance and big business trying to force out ethnic minorities. Not only does this suck all the fun out of the film, but it also pads the running time to nearly two hours, a length its premise can't support. With three credited screenwriters, including Sandler, Robert Smigel, and Judd Apatow it's hard to determine just who's responsible for this misstep, but the result is a film that ultimately leaves you feeling slightly burned if you watch it all the way through.
 
-That said, _You Don't Mess with the Zohan_ should make for an entertaining enough ride, provided you've got access to remote with a fast-forward button.
+That said, _You Don't Mess with the Zohan_ should make for an entertaining enough ride, provided you've got access to a remote with a fast-forward button.

@@ -11,4 +11,4 @@ _Bell Book and Candle_ has all the ingredients to make a great movie. There’s 
 
 The script, based on a play, simply isn’t very funny. Another director may have gotten more out of it (Billy Wilder would have been perfect), but we’ll never know. Director Richard Quine does a competent, but unremarkable job.
 
-If not for the sheer charisma of principal cast, _Bell Book and Candle_ would be a chore to sit through but, like true stars, Stewart, Novak, and Lemon carry the picture.
+If not for the sheer charisma of the principal cast, _Bell Book and Candle_ would be a chore to sit through, but, like true stars, Stewart, Novak, and Lemon carry the picture.

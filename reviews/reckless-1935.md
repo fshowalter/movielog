@@ -15,4 +15,4 @@ According to the IMDb, the film was scripted and shot as a straight drama, and o
 
 Despite the intrusive musical numbers, all three leads, Harlow, Powell, and Tone, perform well, with Harlow giving a charismatic performance despite being reluctant to take the part due to the script's similarities to her second marriage, and Tone turning in a surprisingly nuanced performance that's lost amid the film's would-be spectacle.
 
-Maybe someday the original, post musical, cut will turn up in some Hollywood vault, but until then you'll have to make do with the fast-forward button.
+Maybe someday the original, pre-musical, cut will turn up in some Hollywood vault, but until then you'll have to make do with the fast-forward button.

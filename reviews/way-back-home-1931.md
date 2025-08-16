@@ -16,9 +16,9 @@ Davis is fine, if unremarkable in a role that proved important to her career. Sa
 
 > This was the first picture in which I was well photographed—and more important—was not a sister. I was someone’s girl, and you did understand why he wanted to kiss me at the fade-out.[^1]
 
-She’s only as good as the material, and Warner Brothers developed the picture as a star-vehicle for Lord. He’d be a fine character actor ala Gabby Hayes or Walter Brennan, but lacks the presence to carry the picture. His folksy shtick proves easier to swallow in smaller doses.
+She's only as good as the material, and Warner Brothers developed the picture as a star vehicle for Lord. He’d be a fine character actor ala Gabby Hayes or Walter Brennan, but lacks the presence to carry the picture. His folksy shtick proves easier to swallow in smaller doses.
 
-Given its importance in her career, _Way Back Home_ may interest Bette Davis fans as a curiosity. I found the film well-produced--with plenty of extras, convincing sets, and nice location photography--but underwhelming. The singing numbers, meant to inspire, felt tedious, padding the running time.
+Given its importance in her career, _Way Back Home_ may interest Bette Davis fans as a curiosity. I found the film well-produced—with plenty of extras, convincing sets, and nice location photography—but underwhelming. The singing numbers, meant to inspire, felt tedious, padding the running time.
 
 An improbable high-speed buggy chase offered the lone highlight. No special effects. Notice the skidding turns. Those buggies were moving. Just disregard the editing gaffe when a passenger jumps and lands on the buggy’s opposite side.
 

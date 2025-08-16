@@ -11,9 +11,9 @@ _Saboteur_ is a solid thriller from director Alfred Hitchcock featuring a suppor
 
 Otto Kruger is fantastic as the suave, but decidedly cold, villain. Despite relatively limited screen time, he makes a strong impression as a ruthless, calculating, yet still three-dimensional antagonist.
 
-Similarly, Vaughan Glaser makes the most of his small role as Priscilla Lane’s character’s blind uncle, by bringing a genuine warmth to the part and finding a way to make his character’s otherwise trite dialog, somehow work.
+Similarly, Vaughan Glaser makes the most of his small role as Priscilla Lane’s character’s blind uncle, by bringing a genuine warmth to the part and finding a way to make his character's otherwise trite dialogue somehow work.
 
-_Saboteur_ could almost be called North by Northeast, such are the similarities between it and Hitchcock’s’ later masterpiece <span data-imdb-id="tt0053125">_North by Northwest_</span>. Both involve a cross-country flight by the protagonist, both involve a suave spy villain, and conclude atop famous landmarks. The biggest difference in terms of quality between the two films lies in the leads.
+_Saboteur_ could almost be called North by Northeast, such are the similarities between it and Hitchcock's later masterpiece <span data-imdb-id="tt0053125">_North by Northwest_</span>. Both involve a cross-country flight by the protagonist, both involve a suave spy villain, and conclude atop famous landmarks. The biggest difference in terms of quality between the two films lies in the leads.
 
 While Robert Cummings and Priscilla Lane are both fine, they’re no Cary Grant and Eve Marie Saint. Each comes across a little wooden at times, and so it’s no surprise that, according to the IMDB, director Alfred Hitchcock originally wanted Gary Cooper or Joel McCrea for Cummings’ part, and Margaret Sullavan or Barbara Stanwyck for Lane’s. A McCrea/Stanwyck pairing might have elevated _Saboteur_ to perfection, but we’ll never know.
 

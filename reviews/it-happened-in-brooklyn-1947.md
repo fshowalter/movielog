@@ -5,7 +5,7 @@ grade: F
 slug: it-happened-in-brooklyn-1947
 ---
 
-Aside from the curiosity of seeing an early teaming of future Rat Packer's Frank Sinatra and Peter Lawford, there's little reason to watch _It Happened in Brooklyn_.
+Aside from the curiosity of seeing an early teaming of future Rat Packers Frank Sinatra and Peter Lawford, there's little reason to watch _It Happened in Brooklyn_.
 
 The plot sees ex-GI Sinatra, English heir Lawford, a janitor played by Jimmy Durante, and a schoolteacher played by Kathryn Grayson work to get a young boy a music scholarship.
 

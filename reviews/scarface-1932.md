@@ -14,4 +14,4 @@ You know the story beats. The <span data-imdb="tt0086250">remake</span> retains 
 
 Sure, the comedy bits involving Vince Barnett as Muni's dim-witted secretary fall flat. And Ann Dvorak's wide-eyed emoting pales next to Muni's ice-cold mania. But I can forgive these missteps.
 
-I'm less forgiving of the Universal Studios Blu-ray transfer. Perhaps its inherent in the source, but many scenes exhibit a soft focus blur that resembles an upscale. Disappointing.
+I'm less forgiving of the Universal Studios Blu-ray transfer. Perhaps it's inherent in the source, but many scenes exhibit a soft focus blur that resembles an upscale. Disappointing.

@@ -5,7 +5,7 @@ grade: A-
 slug: airplane-1980
 ---
 
-A spoof of the popular commercial aviation disaster movies of the 70's.
+A spoof of the popular commercial aviation disaster movies of the '70s.
 
 _Airplane_ is the gold standard of the spoof film genre. It revels in its own silliness, throwing out gags with reckless abandon. Sure, some of the jokes fall flat, but it hits far more often than it misses, and knocks more than its fair share right out of the park.
 

@@ -6,4 +6,4 @@ grade: B-
 slug: when-harry-met-sally-1989
 ---
 
-The snappy dialog, Meg Ryan's charming performance, and the terrific New York City location photography make for a pleasant watch.
+The snappy dialogue, Meg Ryan's charming performance, and the terrific New York City location photography make for a pleasant watch.

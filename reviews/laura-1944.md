@@ -13,8 +13,8 @@ Producer-director Otto Preminger fought to cast Clifton Webb in the crucial role
 
 And the rest of the cast is almost just as good. Gene Tierney is charming in the titular role, Dana Andrews is solid as the cynical detective, and Vincent Price proves his range playing a broke socialite.
 
-Though it’s really a detective story, Laura is often referred to as a film noir, thanks to the great black and white cinematography from Joseph LaShelle and an uncredited Lucien Ballard.
+Though it's really a detective story, _Laura_ is often referred to as a film noir, thanks to the great black and white cinematography from Joseph LaShelle and an uncredited Lucien Ballard.
 
 In addition to fighting for Lydecker, Preminger moves the story along at a brisk pace, keeping the running time to a brief 88 minutes. It’s Preminger’s tight direction that ties the individual elements together to create an engrossing mystery that holds your attention from the opening frames.
 
-Granted, the story has holes, and Gene Tierney probably isn’t as enigmatic as she needs to be, but Preminger more than glosses over these shortcomings to make Laura worth seeking out.
+Granted, the story has holes, and Gene Tierney probably isn’t as enigmatic as she needs to be, but Preminger more than glosses over these shortcomings to make _Laura_ worth seeking out.

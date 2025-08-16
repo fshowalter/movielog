@@ -9,7 +9,7 @@ Three friends approaching the end of their senior year of high school get into v
 
 _Superbad_ is a rare beast: a teen sex comedy that’s really good.
 
-This is due in large part to a script that keeps the gross-out humor to a minimum and shapes believable characters, all the while firing off enough laughs that you’ll have to see it twice to hear all the dialog.
+This is due in large part to a script that keeps the gross-out humor to a minimum and shapes believable characters, all the while firing off enough laughs that you'll have to see it twice to hear all the dialogue.
 
 The performances are all believable and entertaining, and it’s refreshing to see actors that don’t appear to be in their early thirties posing as teens.
 

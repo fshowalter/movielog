@@ -31,7 +31,7 @@ Fast-forward twenty-six years, and Donner’s original vision, or at least somet
 
 While it still suffers from tonal imbalances and a muddled script, Donner’s version proves superior to Lester's in both reach and grasp.
 
-Lester’s version emphasises pratfalls and comedy and lacks any sense of a bigger arc. But Donner’s version, viewed together with part one as a single origin story, proffers a mythic tale of a God growing amongst mortals, striving to live up to his father’s ideals, and struggling with the sacrifices those ideals entail. Lester’s version feels more like a Superman story than a story _about_ Superman.
+Lester's version emphasizes pratfalls and comedy and lacks any sense of a bigger arc. But Donner’s version, viewed together with part one as a single origin story, proffers a mythic tale of a God growing amongst mortals, striving to live up to his father’s ideals, and struggling with the sacrifices those ideals entail. Lester’s version feels more like a Superman story than a story _about_ Superman.
 
 This proves evident in the details. Donner’s version has Superman free Zod and his cohorts by diverting the missile at the end of part one. Lester’s version has Zod and company freed by terrorists. Donner’s version sees Lois deduce Superman’s identity and trick him into revealing it. Lester’s version has Clark give himself away through bumbling ineptitude.
 

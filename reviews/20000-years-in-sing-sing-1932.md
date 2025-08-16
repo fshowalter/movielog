@@ -9,7 +9,7 @@ Spencer Tracy plays a smart but arrogant young convict entering New York's Sing 
 
 Lewis Lawes, then warden of Sing Sing, wrote the source novel, which explains Arthur Byron's cigar-chomping warden's boy scout characterization. In an early scene, one of Tracy's entourage—played with an easy sleaze by Louis Calhern—attempts to bribe the warden with five thousand dollars in bonds. As Calhern explains how there's "bales more where that came from," the warden grins and sets the bonds alight with his desktop cigar lighter.
 
-When Calhern balks at the refusal to play ball, the warden lays into him, saying Tracy will get no special treatment. "People on the outside are supposed to be created free and equal but they aren't," he says. "In here, they are." Suspect logic aside, the dialog crackles.
+When Calhern balks at the refusal to play ball, the warden lays into him, saying Tracy will get no special treatment. "People on the outside are supposed to be created free and equal but they aren't," he says. "In here, they are." Suspect logic aside, the dialogue crackles.
 
 And it gets better. When the warden tries his moral reasoning with Tracy, it falls flat, with Tracy retorting, "Save that for Sunday warden, and let me pass the plate." Good stuff.
 

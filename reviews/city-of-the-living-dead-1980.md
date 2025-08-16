@@ -22,7 +22,7 @@ This lends the film a nihilistic tone that carries over from Fulci’s prior fil
 
 The good people here come via engaging performances from Christopher George and Catriona MacColl. As a smooth-talking reporter, George reminded me of George Segal. One could imagine George’s character as a brother of Segal’s character in <span data-imdb-id="tt0071269">_California Split_</span>.
 
-Opposite George, MacColl, with her London accent, exudes a posh charm that never veers into haughtiness. As he was with Jennifer O’Neill in <span data-imdb-id="tt0075614">_The Psychic_</span>, Fulci seems enamoured with MacColl’s eyes, offering several close ups and shots of her gazing up at the camera.
+Opposite George, MacColl, with her London accent, exudes a posh charm that never veers into haughtiness. As he was with Jennifer O'Neill in <span data-imdb-id="tt0075614">_The Psychic_</span>, Fulci seems enamored with MacColl's eyes, offering several close-ups and shots of her gazing up at the camera.
 
 These likable characters differentiate this film from Fulci’s later efforts, such as <span data-imdb-id="tt0084719">_The New York Ripper_</span>. In _The New York Ripper_, the protagonists are corrupt and stew in a sordid hell. _City of the Living Dead_’s protagonists are likable, and Dunwich isn’t a New York sleaze pit.
 
@@ -30,4 +30,4 @@ But lest you worry Fulci had lost his edge, fear not. His biting cynicism remain
 
 Think of _City of the Living Dead_ as nihilism seasoned with cynicism instead of vice versa.
 
-The film’s biggest weakness is its ending. While consistent with the overall tone, it startles with its abruptness. As though the script called for a disingenuous, happier ending that Fulci abandoned but lacked funding to replace. The result may have emboldened him, however, as—in retrospect—this entry feels like warmup for his nihilistic masterpiece, _The Beyond_.
+The film's biggest weakness is its ending. While consistent with the overall tone, it startles with its abruptness. As though the script called for a disingenuous, happier ending that Fulci abandoned but lacked funding to replace. The result may have emboldened him, however, as—in retrospect—this entry feels like a warm-up for his nihilistic masterpiece, _The Beyond_.

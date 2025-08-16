@@ -5,7 +5,7 @@ grade: D+
 slug: billion-dollar-brain-1967
 ---
 
-British spy Harry Palmer (Michael Caine) uncovers a Texas tycoon's plot to incite a coup in Communist country.
+British spy Harry Palmer (Michael Caine) uncovers a Texas tycoon's plot to incite a coup in a Communist country.
 
 _Billion Dollar Brain_ is the third in a series of films chronicling the exploits of British spy Harry Palmer, and you'd best have seen one of the earlier ones because there's nothing in the way of introduction or characterization for Michael Caine's character this time around.
 

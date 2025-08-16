@@ -9,7 +9,7 @@ The tragic story of Joy Division front man Ian Curtis (Sam Riley).
 
 _Control_ is a beautifully shot and well-acted bio-pic that’s remarkably well crafted by first time director Anton Corbijn.
 
-Corbijn shows a lot of maturity in his first effort, particularly in his shot composition. While many first time directors are given over to utilizing multiple establishing shots, especially for a period film, Corbijn is the model of efficiency, allowing his characters to set the period rather than extraneous props, and framing many of his scenes is such a way as to combine the traditional establishing shot with the scene itself.
+Corbijn shows a lot of maturity in his first effort, particularly in his shot composition. While many first time directors are given over to utilizing multiple establishing shots, especially for a period film, Corbijn is the model of efficiency, allowing his characters to set the period rather than extraneous props, and framing many of his scenes in such a way as to combine the traditional establishing shot with the scene itself.
 
 A great example of this are the many shots right outside Curtis’s house, which shows the vast countryside dwarfing the small town of Macclesfield. Despite the limited screen time, these shots speak volumes and are but one example of Corbijn’s excellent visual sense. Another is one of his closing shots showing the remaining members of Joy Division seated dumbfounded around a booth. Gillian Gilbert enters from the left and comforts Stephen Morris as the camera pauses, a silent nod to the band that would emerge from the tragedy: New Order.
 

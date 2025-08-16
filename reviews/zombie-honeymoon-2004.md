@@ -13,6 +13,6 @@ While this tonal shift may be off-putting for those expecting a more tongue-in-c
 
 And it's a brilliant twist as, unlike the usual vampire-addiction metaphor, as it makes the afflicted party simultaneously more sympathetic and repulsive as they slowly devolve into a shambling corpse driven to feed on living flesh.
 
-Unfortunately, the film's biggest weakness lies in its budget. While the special effects are fine (and very gory), the digital video production feels cheap and shoddy. Gebroe makes the most of his medium, but it can't substitute for film. Further, while his lead Tracy Coogan does a fine job, the rest of the cast is no where near as solid, ranging from passable to totally forgettable—likely, more fallout from the non-existent budget.
+Unfortunately, the film's biggest weakness lies in its budget. While the special effects are fine (and very gory), the digital video production feels cheap and shoddy. Gebroe makes the most of his medium, but it can't substitute for film. Further, while his lead Tracy Coogan does a fine job, the rest of the cast is nowhere near as solid, ranging from passable to totally forgettable—likely, more fallout from the nonexistent budget.
 
 But, taken for what it is, _Zombie Honeymoon_ represents an impressive effort. It never quite overcomes its budget, but it does manage to distract you from it for long stretches of time.

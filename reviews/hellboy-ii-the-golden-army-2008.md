@@ -5,7 +5,7 @@ grade: B
 slug: hellboy-ii-the-golden-army-2008
 ---
 
-Hellboy (Ron Perlman) and his friends find themselves as humanity's last hope when an Elvin prince returns from exile to declare war upon humanity using an ancient, unstoppable, mechanical army.
+Hellboy (Ron Perlman) and his friends find themselves as humanity's last hope when an Elven prince returns from exile to declare war upon humanity using an ancient, unstoppable, mechanical army.
 
 _Hellboy II: The Golden Army_ is an improvement upon the original <span data-imdb-id="tt0167190">_Hellboy_</span>, but still suffers from many of the original's flaws.
 
@@ -17,6 +17,6 @@ Director Guillermo del Toro also cranks up the special effects for this installm
 
 But the film isn't without its missteps. Much like the first film, this installment lacks a great antagonist. Luke Goss is passable as a pissed off elf, but Hellboy's still lacking a Darth Vader to his Luke Skywalker, and thus, the film drags whenever Perlman's not on the screen, because the plot's just not that compelling.
 
-Finally, there's the odd, and jarring inclusion of non-sourced popular music on the soundtrack. As always, this only serves to date the film and adds nothing to atmosphere of the scene. For a director as talented as del Toro to make this kind of a gaff is surprising.
+Finally, there's the odd, and jarring inclusion of non-sourced popular music on the soundtrack. As always, this only serves to date the film and adds nothing to atmosphere of the scene. For a director as talented as del Toro to make this kind of a gaffe is surprising.
 
 That said, fans of the original should find _Hellboy II: The Golden Army_ an enjoyable ride, which bodes well for the franchise's next installment.

@@ -11,4 +11,4 @@ _Tower of London_ is a rather decent remake of the 1939 film of the same name. W
 
 Vincent Price is good as Richard of Gloucester, especially in the first half where he’s wonderfully wicked before descending into complete madness. Indeed, the first half of his performance foreshadows his turn in the great <span data-imdb-id="tt0063285">_Witchfinder General_</span>.
 
-Unfortunately, as the film progresses Price’s character gradually loses his edge as he slides from wicked to crazy. However, the film's brief 79 minute running time prevents it from wearing out its welcome and somewhat mitigates the weaker third act.
+Unfortunately, as the film progresses Price’s character gradually loses his edge as he slides from wicked to crazy. However, the film's brief 79-minute running time prevents it from wearing out its welcome and somewhat mitigates the weaker third act.

@@ -6,7 +6,7 @@ slug: his-kind-of-woman-1951
 synopsis: Gambler Robert Mitchum is coerced into traveling to a Mexican resort where he flirts with singer Jane Russell and befriends actor Vincent Price only to discover he's part of deported gangster Raymond Burr's deadly plot to reenter the United States.
 ---
 
-There are movies that know exactly what they want to be from the first frame, and then's _His Kind of Woman_, a movie that stumbles into greatness by accident. This 1951 noir begins as a moody, low-key thriller in the Raymond Chandler tradition but gradually transforms into a wonderfully absurd adventure that manages to be both ridiculous and irresistible.
+There are movies that know exactly what they want to be from the first frame, and then there's _His Kind of Woman_, a movie that stumbles into greatness by accident. This 1951 noir begins as a moody, low-key thriller in the Raymond Chandler tradition but gradually transforms into a wonderfully absurd adventure that manages to be both ridiculous and irresistible.
 
 Robert Mitchum plays Dan Milner, a down-on-his-luck gambler lured to a Baja resort by mysterious underworld figures. He's supposed to be cannon fodder for deported gangster Nick Ferraro, who wants to steal his identity and slip back into the States. But Milner doesn't know this yet. While he waits, he trades wisecracks with lounge singer Lenore Brent, played by Jane Russell, and befriends ham actor Mark Cardigan, played by Vincent Price.
 

@@ -11,4 +11,4 @@ _Bad Boys_ isn’t your typical 80s teen film. Instead, it tries hard to be an i
 
 Unfortunately, and perhaps because of its age, the film never feels truly authentic. Scenes like the rape of one of the smaller inmates don’t add any sense of realism, but instead scream, “Hey, look how hardcore this movie is!” This is a shame because most of the performances, especially Penn’s and Esai Morales’s _do_ feel authentic. Maybe in 1983 this had more punch, but in today’s world, after films like Kids, Bad Boys looks tame in comparison.
 
-Still, the film does tell it’s story well, and tries its best not to pull any punches, even if I can’t help but feel that it’s doing exactly that.
+Still, the film does tell its story well, and tries its best not to pull any punches, even if I can’t help but feel that it’s doing exactly that.

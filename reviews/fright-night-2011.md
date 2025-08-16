@@ -21,6 +21,6 @@ And then there's the Peter Vincent character. Whereas the original film gave Rod
 
 Lastly, there's Charley. In the original he was the boy who cried wolf, but this time around it's Charley's estranged friend Ed who's crying vampire and Charlie's one of the non-believers. While the setup that Charley's trying to distance himself from the geeky Ed in order to be more popular is interesting, it doesn't go anywhere and only serves to make Charley an unsympathetic character. At least Anton Yelchin is convincing in the part.
 
-A quick aside: after Ed tries and fails to convince Charley that Jerry is a vampire, we learn that he had footage of an invisible Jerry getting out of his car (vampire's don't cast a reflection and thus can't be filmed) that he could have just shown Charley or at least uploaded to the internet.
+A quick aside: after Ed tries and fails to convince Charley that Jerry is a vampire, we learn that he had footage of an invisible Jerry getting out of his car (vampires don't cast a reflection and thus can't be filmed) that he could have just shown Charley or at least uploaded to the internet.
 
 Yet, despite all these shortcomings, this new _Fright Night_ does have some good scares to offer, and Tennant's early scenes are a hoot. As a remake it doesn't so much tarnish the legacy of the original as much as it fails to live up to it.

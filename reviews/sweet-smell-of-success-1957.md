@@ -18,7 +18,7 @@ Curtis convinces as Sidney. His pretty face, quick wit, and ample charm serving 
 
 Opposite Curtis, Lancaster towers as Hunsecker. Filmed from low angles, he looms with broad shoulders and a jaw always tensed, like a volcano ready to erupt. His glasses add to this illusion. His unfocused eyes seeing through everyone.
 
-The dialog crackles. Before we even see Hunsecker, we hear him on the phone telling Sidney, “You’re dead, son. Get yourself buried,” before hanging up. Later, when Sidney’s seeking to sooth Hunsecker about a plan, he says, “The cat’s in the bag and the bag’s in the river.”
+The dialogue crackles. Before we even see Hunsecker, we hear him on the phone telling Sidney, “You’re dead, son. Get yourself buried,” before hanging up. Later, when Sidney's seeking to soothe Hunsecker about a plan, he says, “The cat’s in the bag and the bag’s in the river.”
 
 But all this brilliance serves a tired melodramatic plot.
 

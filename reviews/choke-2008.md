@@ -5,7 +5,7 @@ grade: C+
 slug: choke-2008
 ---
 
-In order to keep his delusional mother (Anjelica Huston) in a high priced hospital, a sex-addicted Colonial theme park worker (Sam Rockwell) stages choking accidents in restaurants to prey on the sympathy of strangers.
+In order to keep his delusional mother (Anjelica Huston) in a high-priced hospital, a sex-addicted Colonial theme park worker (Sam Rockwell) stages choking accidents in restaurants to prey on the sympathy of strangers.
 
 _Choke_ is a near-literal adaptation of Chuck Palahniuk's novel by writer-director Clark Gregg. While the result may not be as good as <span data-imdb-id="tt0137523">_Fight Club_</span>, adapted from Palahniuk's first novel, this is more a limit of the budget and the source material, rather than the talent involved.
 

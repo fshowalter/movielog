@@ -5,7 +5,7 @@ grade: C+
 slug: were-no-angels-1955
 ---
 
-On turn of the century Devil’s Island, three escaped convicts (Humphrey Bogart, Peter Ustinov, and Aldo Ray) end up aiding a shopkeeper they initially intended to rob.
+On turn-of-the-century Devil's Island, three escaped convicts (Humphrey Bogart, Peter Ustinov, and Aldo Ray) end up aiding a shopkeeper they initially intended to rob.
 
 _We’re No Angels_ is a lavishly produced, and particularly wicked, black comedy. Director Michael Curtiz manages the tricky feat of making Bogart and his accomplices seem both threatening and likable, thus allowing the audience to laugh at some pretty dark material.
 

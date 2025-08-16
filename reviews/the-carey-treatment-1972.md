@@ -9,7 +9,7 @@ James Coburn plays Dr. Peter Carey, a pathologist who arrives in Boston for a jo
 
 <!-- end -->
 
-Coburn would have made a great Philip Marlowe. His character has all the traits: tough, inquisitive, insubordinate, and incorruptible. He’s even from California. He’s not Marlowe, of course, but the script proffers some worthy dialog. Consider this exchange between Carey and the police captain Pearson, played by Pat Hingle:
+Coburn would have made a great Philip Marlowe. His character has all the traits: tough, inquisitive, insubordinate, and incorruptible. He's even from California. He's not Marlowe, of course, but the script proffers some worthy dialogue. Consider this exchange between Carey and the police captain Pearson, played by Pat Hingle:
 
 > Carey: And that's all you need?
 >
@@ -65,7 +65,7 @@ Take the scene between Carey and the hospital chief’s new young wife. She trie
 >
 > Mrs. Randall: All right, doctor, get to the point.
 
-Their dialog crackles, closing with this exchange.
+Their dialogue crackles, closing with this exchange.
 
 > Mrs. Randall: I don't swipe lipsticks from the five and dime anymore. I sit in a family pew. I belong to the flower society. And I very seldom say shit in company.
 >

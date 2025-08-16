@@ -15,4 +15,4 @@ Of course, it doesn’t hurt that the supporting players are so good. Broderick 
 
 Amazingly though, Holden is the weak link here, as he’s somewhat miscast. Holden is inherently too tough and too cynical to inhabit his character, which would have been perfect for a younger James Stewart. Fortunately, Holden is so good you don’t realize this until the film’s long over.
 
-_Born Yesterday_ is something of a magic trick. The film opens grounded in a very real-world cynicism, then gradually morphs into a fantasy, with the ending being downright outlandish. That said, director George Cukor makes the change with remarkable subtly, so that, again, you don’t realize it until long after the film’s over.
+_Born Yesterday_ is something of a magic trick. The film opens grounded in a very real-world cynicism, then gradually morphs into a fantasy, with the ending being downright outlandish. That said, director George Cukor makes the change with remarkable subtlety, so that, again, you don't realize it until long after the film's over.

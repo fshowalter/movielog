@@ -16,4 +16,4 @@ I loved Jackie Earle Haley as Rorschach, our nominal protagonist. His fearless p
 
 Ditto Jeffrey Dean Morgan’s turn as The Comedian, a hyper-violent brute of a man drowning in his own regrets but hiding behind a veil of cynicism.
 
-It’s funny. Today’s darker superhero blockbusters wouldn’t exist without _Watchmen_’s source material, yet it took said blockbusters to convince the studios and audience for _Watchmen_ existed. Thus the film adaptation lacks the same revolutionary impact. But it still packs a punch.
+It’s funny. Today's darker superhero blockbusters wouldn't exist without _Watchmen_'s source material, yet it took said blockbusters to convince the studios an audience for _Watchmen_ existed. Thus the film adaptation lacks the same revolutionary impact. But it still packs a punch.

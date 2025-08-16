@@ -10,6 +10,6 @@ _Jewel Robbery_ proves memorable thanks to William Powell's introduction. He pla
 
 <!-- end -->
 
-The robbery ignites a romance between Powell and Francis and the pair spend the rest of the film exchanging snappy dialog as he tries to woo her and she plays hard to get. Both pack ample charm, but Francis has this annoying habit of delivering her lines while looking toward the camera. A distracting affectation.
+The robbery ignites a romance between Powell and Francis and the pair spend the rest of the film exchanging snappy dialogue as he tries to woo her and she plays hard to get. Both pack ample charm, but Francis has this annoying habit of delivering her lines while looking toward the camera. A distracting affectation.
 
 Powell shines as the gentleman bandit. He oozes urbane charm and handles the witty innuendo with aplomb. When Francis, looking into his vault, asks him to “Show me your jewels, will you?” his timing is perfect.

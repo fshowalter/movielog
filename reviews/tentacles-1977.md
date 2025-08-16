@@ -16,7 +16,7 @@ The underwater photography avoids the cheap studio tank look. When the octopus a
 
 But Shelley Winters proves problematic as Huston's sister. She's entitled and helpless, and spends much of the film in an inexplicably oversized sombrero. Her character never faces danger. Waste of Winters. 
 
-The film's Italian roots show through extensive off-screen dialogue, designed for easy dubbing. Technical goofs pile up--swimmers keep sneakers on underwater, characters juggle walkie-talkies while sailing--but you forgive them because the suspense holds.
+The film's Italian roots show through extensive off-screen dialogue, designed for easy dubbing. Technical goofs pile up—swimmers keep sneakers on underwater, characters juggle walkie-talkies while sailing—but you forgive them because the suspense holds.
 
 Until it doesn't.
 

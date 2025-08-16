@@ -7,7 +7,7 @@ slug: eaten-alive-1976
 
 A deranged motel owner kills people and feeds their bodies to his pet crocodile.
 
-_Eaten Alive_ is director Tobe Hooper’s disappointing follow up to his breakout film, <span data-imdb-id="tt0072271">_The Texas Chain Saw Massacre_</span>. While the deep-south rural horror theme remains, just about everything else that made _The Texas Chain Saw Massacre_ so good is missing from _Eaten Alive_.
+_Eaten Alive_ is director Tobe Hooper's disappointing follow-up to his breakout film, <span data-imdb-id="tt0072271">_The Texas Chain Saw Massacre_</span>. While the deep-south rural horror theme remains, just about everything else that made _The Texas Chain Saw Massacre_ so good is missing from _Eaten Alive_.
 
 First, there are the characters, all of which are paper-thin. The lead villain, played by Neville Brand, lacks anything resembling a back-story and it’s hard to believe he could have survived so long near a town, especially given that he’s not above offing the locals.
 

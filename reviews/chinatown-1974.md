@@ -11,7 +11,7 @@ _Chinatown_ is one of the best-written films of all time. Screenwriter Robert To
 
 A good script is only part of the puzzle, but _Chinatown_ brings the complete package. Polanski handles the period setting with flair, luring you in, then breaking with expectations in such scenes as his famous cameo as the knife-wielding assailant who maims Jack Nicholson.
 
-Finally, there are the performers. Nicholson inhabits J.J. Gittes, a detective cut from the same cloth as Chandler's Marlow, albeit one with a little less scruples, and thus, a bit more cash in his pocket. Still, he's got a code of ethics he can't bend which drags him deeper and deeper into the story's mystery.
+Finally, there are the performers. Nicholson inhabits J.J. Gittes, a detective cut from the same cloth as Chandler's Marlowe, albeit one with a little fewer scruples, and thus, a bit more cash in his pocket. Still, he's got a code of ethics he can't bend which drags him deeper and deeper into the story's mystery.
 
 Opposite Nicholson, Faye Dunaway is perfect as the enigmatic Evelyn Mulwray. Beautiful and fragile, her fine clothes and measured appearance hide some deep scars, and Dunaway is able to convey all of this in a matter of moments, through her eyes, inflection and body language.
 

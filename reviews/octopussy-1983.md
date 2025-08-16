@@ -14,4 +14,4 @@ Cast-wise, star Roger Moore is still fine, if getting a bit long in the tooth. S
 
 The script is little more than a stitched together array of set pieces, some of which work better than others, though none stands out. The movie tries to distract you by perpetually trying to one-up itself in the action department, but all it really succeeds in doing is tossing any semblance of believability out the window.
 
-Yet, as bad as Octopussy is, it's still a hair better than <span data-imdb-id="tt0079574">_Moonraker_</span>, but only just, which makes this one necessary for Bond enthusiasts only.
+Yet, as bad as _Octopussy_ is, it's still a hair better than <span data-imdb-id="tt0079574">_Moonraker_</span>, but only just, which makes this one necessary for Bond enthusiasts only.

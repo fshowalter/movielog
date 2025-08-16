@@ -7,7 +7,7 @@ slug: an-american-werewolf-in-london-1981
 
 While on a hiking tour of England, an American (David Naughton) survives a near-fatal assault, only to discover he may be a werewolf.
 
-Until the plot takes over in the third act, _An American Werewolf In London_ manages a perfect blend of black-comedy and horror. From the atmosphere drenched opening through David Naughton’s classic transformation sequence, writer-director John Landis seemingly can do no wrong.
+Until the plot takes over in the third act, _An American Werewolf In London_ manages a perfect blend of black comedy and horror. From the atmosphere-drenched opening through David Naughton’s classic transformation sequence, writer-director John Landis seemingly can do no wrong.
 
 But then, inexplicably, the movie shifts. Landis had been so good about grounding the movie through David Naughton's eyes, but suddenly he has Naughton acting ridiculous, and running from those who would help him. This, in turn, breaks the audience's connection with the character and the movie.
 

@@ -27,7 +27,7 @@ It's not that I found the rape sequences unnecessary. They add a visceral edge w
 
 This surprises, given how much better the monsters look in later scenes, where shadows and copious mucus hide the seams and offer a more organic appearance. Then you learn producer Roger Corman added the rape scenes during post-production, filmed by Jim Murakami[^1], likely without creature designer Rob Bottin's input or even awareness.
 
-But back to the movie. Hank decides Johnny is behind the dog deaths and picks a fight during a town dance. When Jim intervenes on Johnny's behalf, Hank and his gang setout the following night under cover of darkness to torch Johnny's isolated riverside cabin.
+But back to the movie. Hank decides Johnny is behind the dog deaths and picks a fight during a town dance. When Jim intervenes on Johnny's behalf, Hank and his gang set out the following night under cover of darkness to torch Johnny's isolated riverside cabin.
 
 The men coast up and toss a Molotov cocktail. Another giant explosion. Debris rain down and what's left of the cabin burns. Hank and his crew flee, while Johnny finds himself attacked by the creatures as he tries to extinguish the flames.
 

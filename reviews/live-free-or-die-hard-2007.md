@@ -7,7 +7,7 @@ slug: live-free-or-die-hard-2007
 
 Indestructible police detective John McClain saves the world from cyber-terrorists.
 
-Short of Bruce Willis not returning, _Live Free or Die Hard_, the fourth entry in the series, couldn’t be more removed from its predecessors. The original theme of an everyman forced into an impossible situation is gone, replaced here by a superman who seems compelled to seek out danger. Ditto the previous entries relentless attempts to ground their action in some semblance of reality. In the original, when Willis is on the roof ready to jump off with only a fire hose wrapped around his waist, you don’t think it’s ridiculous, you think it’s _suicidal_.
+Short of Bruce Willis not returning, _Live Free or Die Hard_, the fourth entry in the series, couldn’t be more removed from its predecessors. The original theme of an everyman forced into an impossible situation is gone, replaced here by a superman who seems compelled to seek out danger. Ditto the previous entries' relentless attempts to ground their action in some semblance of reality. In the original, when Willis is on the roof ready to jump off with only a fire hose wrapped around his waist, you don’t think it’s ridiculous, you think it’s _suicidal_.
 
 And that’s the difference. The script for _Live Free or Die Hard_ doesn’t bother to try and get you invested in Willis’s character. It’s banking on the familiar name from the previous films and does away with any characterization or emotional arc, thus turning what had been a great character into a one-dimensional superman.
 

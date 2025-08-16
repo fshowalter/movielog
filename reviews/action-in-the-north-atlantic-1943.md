@@ -17,4 +17,4 @@ The special effects are spectacular, especially the opening submarine attack. Se
 
 As for Bogart, he does a great job in his first post-Casablanca role. Further, while he may have top billing, he doesn’t have to carry the show. Unlike many war pictures, _Action in the North Atlantic_ does a good job fleshing out the supporting cast members and giving each a moment to shine, and as a result, the film feels more like an ensemble picture rather than a one-man army.
 
-Granted, the film does drag a bit toward the middle, when the crew makes shore, but fortunately, this bit is short lived, and they’re soon back at sea as the action and tension begin to mount leading to a classic finale that would inspire such films as <span data-imdb-id="tt0050356">_The Enemy Below_</span>.
+Granted, the film does drag a bit toward the middle, when the crew makes shore, but fortunately, this bit is short-lived, and they’re soon back at sea as the action and tension begin to mount leading to a classic finale that would inspire such films as <span data-imdb-id="tt0050356">_The Enemy Below_</span>.

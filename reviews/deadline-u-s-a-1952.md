@@ -9,7 +9,7 @@ A throwback to the social-justice pictures Warner Brothers churned out in the 30
 
 <!-- end -->
 
-Consider our introduction to the newsroom. Director Richard Brooks, who’d later direct <span data-imdb-id="tt0061809">_In Cold Blood_</span>, has the camera pan across an open, smoke filled floor. A cacophony of typewriter clicks and conversations reverberates. Despite the room’s considerable size, it feels cramped as we pan over scores of men at small desks pounding out stories. Groups huddle around editors’ desks, discussing assignments. Copy boys rush back and forth as cries of "Boy" ring out. The energy of the room crackles. We feel the room’s pulse.
+Consider our introduction to the newsroom. Director Richard Brooks, who’d later direct <span data-imdb-id="tt0061809">_In Cold Blood_</span>, has the camera pan across an open, smoke-filled floor. A cacophony of typewriter clicks and conversations reverberates. Despite the room’s considerable size, it feels cramped as we pan over scores of men at small desks pounding out stories. Groups huddle around editors’ desks, discussing assignments. Copy boys rush back and forth as cries of "Boy" ring out. The energy of the room crackles. We feel the room’s pulse.
 
 Next we meet Bogart, reviewing a story with his editors about credit controls and inflation. He asks, "What does this tax program mean to the average man and woman? Not billions, that’s an impossible figure. Here, break it down. What’ll it cost the housewife for groceries? How much more for a car? A radio? Fifty bucks? A hundred? How much?"
 
@@ -17,7 +17,7 @@ Then another reporter asks about a story involving a dead nude woman. The report
 
 These two exchanges prove a master class in screenwriting efficiency. They show us everything about Bogart’s style and competence as an editor. A beat later and the script places him in a familiar position when a young reporter asks to stay on a story seeking to expose a Caponeesque gangster. The reporter thinks he can prove the gangster guilty. Bogart cautions, "It’s not our job to prove he’s guilty. We’re not detectives, and we’re not in the crusading business."
 
-Of course, a few scenes later, Bogart gets into the crusading business, but tinging his character with cynicism makes him a reluctant hero and marries this role to the iconic Bogart persona dating back to his performance in Casablanca.
+Of course, a few scenes later, Bogart gets into the crusading business, but tinging his character with cynicism makes him a reluctant hero and marries this role to the iconic Bogart persona dating back to his performance in _Casablanca_.
 
 The second act comprises a "man on a mission" movie with Bogart mobilizing the paper’s resources against the gangster, and a Hawskian "professionals at work" picture as his various reporters execute. The script's contrived machinations see Bogart send his sports writer to sweat a potential murder witness. Laughable, but the stacked supporting cast packs enough charisma to whitewash such concerns.
 

@@ -21,6 +21,6 @@ Throughout, writer-director Don Coscarelli weaves in excised material from the o
 
 Coscarelli proffers more storytelling sleight-of-hand with the Tall Man's origin and how he addresses the prior film's cliffhanger ending. With both, he offers more information while maintaining the mystery. The origin story, in particular, shines as an example of how to enrich a character without diminishing its mystique.
 
-Everything culminates with Reggie arriving in the desert to rescue Mike. And just as you've adjusted to the film's tonal shift away from 80s action, Reggie pops the Hemicuda's trunk to retrieve his four barrel shotgun before donning his ice cream man outfit and heading into battle. Notice the chainsaw in the trunk—a nod to the film's tonal inspiration?
+Everything culminates with Reggie arriving in the desert to rescue Mike. And just as you've adjusted to the film's tonal shift away from 80s action, Reggie pops the Hemicuda's trunk to retrieve his four-barrel shotgun before donning his ice cream man outfit and heading into battle. Notice the chainsaw in the trunk—a nod to the film's tonal inspiration?
 
 Despite the welcome return to form, this entry feels like a middle chapter. It offers little standalone narrative. Instead, it advances a bigger plot from part three's cliffhanger revelation to an expected <span data-imdb-id="tt3627704">part five</span>'s resolution. Though I doubt Coscarelli imagined said resolution would take eighteen years to realize.

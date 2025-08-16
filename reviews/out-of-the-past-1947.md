@@ -9,9 +9,9 @@ A small-town gas station owner (Robert Mitchum) finds his past has caught up wit
 
 _Out of the Past_ is an extremely well written film noir, highlighted by great performances from Robert Mitchum and Kirk Douglas.
 
-Sporting some of the best dialog this side of Raymond Chandler, _Out of the Past_ crackles with every line. The screenplay by Daniel Mainwaring, from his novel “Build My Gallows High” is twisted and refreshingly respectful of the viewer’s intelligence as it darts through its labyrinthine plot. Characters converse in the same shorthand manner that David Mamet echoes so well today, not so much talking as verbally sparring in an almost poetic manner.
+Sporting some of the best dialogue this side of Raymond Chandler, _Out of the Past_ crackles with every line. The screenplay by Daniel Mainwaring, from his novel “Build My Gallows High” is twisted and refreshingly respectful of the viewer’s intelligence as it darts through its labyrinthine plot. Characters converse in the same shorthand manner that David Mamet echoes so well today, not so much talking as verbally sparring in an almost poetic manner.
 
-Mitchum is great as the reluctant hero. Tough enough to be believable, but able to convey a wide range of emotions in a single glance, Mitchum is tailor made for the film-noir genre. It’s a real shame he wouldn’t play Chandler’s Philip Marlow until 28 years after this film, as he’d of been perfect in the role.
+Mitchum is great as the reluctant hero. Tough enough to be believable, but able to convey a wide range of emotions in a single glance, Mitchum is tailor-made for the film-noir genre. It’s a real shame he wouldn’t play Chandler's Philip Marlowe until 28 years after this film, as he'd have been perfect in the role.
 
 Opposite Mitchum, Kirk Douglas is exquisite as a gambler who hates to lose. Douglas, in only his second film, already commands a huge presence and seems like a veteran. Despite being physically smaller than the imposing Mitchum, Douglas nonetheless seems just as large on screen.
 

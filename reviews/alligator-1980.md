@@ -14,4 +14,4 @@ Buoyed by Forster's engaging performance, the film mixes pulp horror and wry hum
 
 As the film unfolds, the monster emerges from the sewers and the shadows. These daylight scenes betray the animatronic and forced-perspective creature effects. And Chicago looks a lot like Los Angeles. Disappointing, but this twist also brings in Henry Silva as a smarmy big game hunter. His performance proves fun, and he seems to relish the character's pulp nature.
 
-What a delightful discovery. It raised my appreciation for everyone involved. The 4k transfer from Scream Factory looks great, though I wish we'd gotten a surround mix, as the sewer sequences scream for a more immersive soundscape.
+What a delightful discovery. It raised my appreciation for everyone involved. The 4K transfer from Scream Factory looks great, though I wish we'd gotten a surround mix, as the sewer sequences scream for a more immersive soundscape.

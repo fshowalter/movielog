@@ -10,7 +10,7 @@ Three friends become stranded on a chairlift in the freezing night at a deserted
 
 <!-- end -->
 
-Let me say upfront, if you ski or snowboard, add a star. I hate the cold so have no interest in winter sports, which keep’s the film’s premise at arm’s length. Further, if you have a pet, maybe add half-a-star, as the film features an emotional crescendo involving a character realizing—should they die—no one will know to feed their pet. I’ve never owned a pet, so again, at arm’s length.
+Let me say upfront, if you ski or snowboard, add a star. I hate the cold so have no interest in winter sports, which keeps the film's premise at arm's length. Further, if you have a pet, maybe add half-a-star, as the film features an emotional crescendo involving a character realizing—should they die—no one will know to feed their pet. I’ve never owned a pet, so again, at arm’s length.
 
 While I may have struggled to connect with the movie, I bought all the performances. This proves crucial as the film takes its time to introduce the leads and their interpersonal dynamics. We watch them banter, finagle a discount lift pass, and enjoy time on the slopes. Then an unfortunate but plausible set of circumstances strands them as the resort shuts downs.
 

@@ -5,7 +5,7 @@ grade: A-
 slug: headhunters-2011
 ---
 
-An elite corporate head hunter finances his lavish lifestyle by stealing art from his prospects. This setup serves as a fulcrum for a clockwork plot. To reveal anymore would spoil the film's myriad surprises.
+An elite corporate headhunter finances his lavish lifestyle by stealing art from his prospects. This setup serves as a fulcrum for a clockwork plot. To reveal anymore would spoil the film's myriad surprises.
 
 <!-- end -->
 

@@ -40,7 +40,7 @@ Here the film falters. This third segment, edited from <span data-imdb-id="tt008
 
 Robert Bristol shines as the ageless Nazi, and the film proffers more gory claymation effects, but the longer running time can't sustain the manic energy present in the prior segments.
 
-This despite packing a half-dozen unrelated plot threads. We have the aforementioned Claire, a devout Catholic surgeon who's the "chosen one" to defeat Bristol. Her improbable husband, played by Richard Moll, a militant atheist author who's bestselling new book is titled "God is Dead," and a rogue monk who may or may not have survived an encounter with Bristol but seems none the wiser for it.
+This despite packing a half-dozen unrelated plot threads. We have the aforementioned Claire, a devout Catholic surgeon who's the "chosen one" to defeat Bristol. Her improbable husband, played by Richard Moll, a militant atheist author whose bestselling new book is titled "God is Dead," and a rogue monk who may or may not have survived an encounter with Bristol but seems none the wiser for it.
 
 The antagonist dynamic between Mitchell and Bristol proves the strongest. It could have sustained an A-list production. Imagine Brian De Palma making that movie instead of <span data-imdb-id="tt0077588">_The Fury_</span> with Walter Matthau in Mitchell's part and David Bowie in Bristol's. As-is, dropping the other threads would have made a fine extended trailer for an AIP-style picture ala <span data-imdb-id="tt0066952">_Count Yorga, Vampire_</span>.
 

@@ -11,9 +11,9 @@ An eight-episode, star-studded portmanteau comprising comedic, dramatic, and doc
 
 The introductory episode, set aboard a train, features William Powell as a bespectacled professor. He sits reading. James Whitmore sits down next to him and, oblivious to Powell’s reading, insists on striking up a conversation. Less interested in what Powell has to say, than in hearing himself talk, Whitmore pontificates on America’s greatness.
 
-“Which America?” Powell replies, giving up on his book. Whitmore sits puzzled. Powell elaborates, rattling off the various Americas: the political America, the historical America, the America of the world community, and the American personality. One might hope the rest of the film would explore these themes, perhaps contrasting them via a through-line character, but alas.
+“Which America?” Powell replies, giving up on his book. Whitmore sits, puzzled. Powell elaborates, rattling off the various Americas: the political America, the historical America, the America of the world community, and the American personality. One might hope the rest of the film would explore these themes, perhaps contrasting them via a through-line character, but alas.
 
-Anyway, dazed, Whitmore wanders off to eat lunch. His sits down opposite an older lady who gazes out the window and muses how she’s proud to be part of this America. “Lady, which America?” he asks and the episode ends.
+Anyway, dazed, Whitmore wanders off to eat lunch. He sits down opposite an older lady who gazes out the window and muses how she’s proud to be part of this America. “Lady, which America?” he asks and the episode ends.
 
 Episode two takes place in Boston. Ethel Barrymore plays a widowed mother who lives alone on a deserted block. One morning she reads in the paper that the latest census is complete. Concerned, she takes the bus downtown and asks to see the paper’s editor. The census can’t be complete, she says, because she wasn’t counted.
 

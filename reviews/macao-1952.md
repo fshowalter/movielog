@@ -11,7 +11,7 @@ _Macao_ shouldn't be this good. According to the IMDb, producer Howard Hughes fi
 
 Yet, despite all this behind-the-scenes drama, the film is a tight, entertaining, little film-noir adventure that maximizes the charms of its two leads, Mitchum and Jane Russell.
 
-Mitchum plays the cool, mysterious leading man to perfection, strolling through the film almost like man who knows he's in a movie. He's so much fun to watch because he's so easy to root for. His confidence is contagious. Opposite him, Jane Russell does a fantastic job as a sultry lounge singer, and the chemistry between her and Mitchum is palatable.
+Mitchum plays the cool, mysterious leading man to perfection, strolling through the film almost like a man who knows he's in a movie. He's so much fun to watch because he's so easy to root for. His confidence is contagious. Opposite him, Jane Russell does a fantastic job as a sultry lounge singer, and the chemistry between her and Mitchum is palpable.
 
 _Macao_ works by taking a solid noir story, setting it in an exotic and colorful locale, then playing up the action sequences as if it were an adventure film. It's an interesting formula that works because there's always something propelling the plot along, whether it's Mitchum and Russell's charisma or the action sequences. And to top it off, it's all over in 81 minutes so it never wears out its welcome.
 

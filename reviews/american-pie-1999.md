@@ -9,7 +9,7 @@ Four high school seniors make a pact to lose their virginity by prom night.
 
 _American Pie_ is an above average teen sex comedy thanks largely to a likable cast and an honest script.
 
-Jason Biggs is great as the de-facto lead. He’s the loveable everyman the audience can root for and brings just the right amount of charm and naiveté to the role.
+Jason Biggs is great as the de facto lead. He’s the loveable everyman the audience can root for and brings just the right amount of charm and naiveté to the role.
 
 Other standouts on the cast include Eddie Kaye Thomas as the enigmatic Finch, whose closing scenes with Jennifer Coolidge are one of the film’s highlights, Sean William Scott as the arrogant doofus Stifler, and Alyson Hannigan as a precocious flute player.
 

@@ -8,7 +8,7 @@ date: 2024-11-11
 
 As Robert Evans said in _The Kid Stays in the Picture_, "_Assault on a Queen_ was a B-picture inflated to A status only because it had Sinatra."
 
-Set in the Bahamas, the story sees Sinatra as an ex-submarine officer who joins up with a treasure hunting operation financed by Italian bombshell Virna Lisi. They discover a sunken U-Boat and scheme to raise it, restore it, then use it to rob the Queen Mary cruise ship.
+Set in the Bahamas, the story sees Sinatra as an ex-submarine officer who joins up with a treasure-hunting operation financed by Italian bombshell Virna Lisi. They discover a sunken U-Boat and scheme to raise it, restore it, then use it to rob the Queen Mary cruise ship.
 
 By this point, Sinatra’s best pictures were behind him. He’d always hated rehearsals and wanted the productions completed as fast as possible, but strong directors could corral him. Folks like Otto Preminger, John Frankenheimer, and Fred Zinnemann earned Sinatra’s respect and coaxed out his finest performances. Unfortunately, Sinatra proved reluctant to work with such directors later in his career, instead preferring ones he could trust to do the job fast.
 

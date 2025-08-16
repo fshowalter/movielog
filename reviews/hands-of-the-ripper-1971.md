@@ -20,7 +20,7 @@ Unfortunately, the screenplay fails to match the director's resourcefulness. Por
 
 The plot also stumbles repeatedly over contrivances and holes. Anna's implausible tardiness to dinner, a murdered royal advisor generating no investigation, and other narrative shortcuts betray lazy screenwriting.
 
-Most egregious is the literal interpretation of the title, where Anna's hands physically transform during her possession states. These grotesque appendages, scarred by syphilis, shift the film from psychological thriller into unintentional comedy. Contemporary viewers familiar with the "man-hands" episode of _Seinfeld_, may struggle to avoid guffawing.
+Most egregious is the literal interpretation of the title, where Anna's hands physically transform during her possession states. These grotesque appendages, scarred by syphilis, shift the film from psychological thriller into unintentional comedy. Contemporary viewers familiar with the "man-hands" episode of _Seinfeld_ may struggle to avoid guffawing.
 
 By the time the finale arrives, Sasdy's reach finally exceeds his grasp. Set on a soundstage masquerading as St. Paul's Cathedral, the sequence relies on obvious matte paintings and still photographs that strain credibility. When a character grips a railing that exists only in the painted background, the already brittle becomes laughable. The climactic fall, achieved with what is clearly a doll on a string, undermines what should have been the film's most dramatic moment.
 

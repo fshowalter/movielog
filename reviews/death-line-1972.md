@@ -7,7 +7,7 @@ slug: death-line-1972
 
 In London, after a prominent civil servant goes missing, a police inspector (Donald Pleasence) investigates a series of disappearances caused by the cannibalistic descendents of a group of cave-in survivors.
 
-Pleasence is a lot of fun, and the cinematography and production values are far first-rate, but _Death Line_ (_Raw Meat_ in the USA) makes the fatal mistake of taking itself far too seriously. Instead of being a simple monster movie, director Gary Sherman tries to elevate the film to serious drama, spending an inordinate amount of time following his grunting, howling cannibal as he mopes around following the loss of his only companion. It's a noble idea, but the film's tone up to this point doesn't support it.
+Pleasence is a lot of fun, and the cinematography and production values are first-rate, but _Death Line_ (_Raw Meat_ in the USA) makes the fatal mistake of taking itself far too seriously. Instead of being a simple monster movie, director Gary Sherman tries to elevate the film to serious drama, spending an inordinate amount of time following his grunting, howling cannibal as he mopes around following the loss of his only companion. It's a noble idea, but the film's tone up to this point doesn't support it.
 
 Neither do the special effects. Hugh Armstrong does a good job with his movements and posture, but his eyes are far too lucid and penetrating to pass for the feral, devolved man he's trying to depict.
 

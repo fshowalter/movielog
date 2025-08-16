@@ -19,7 +19,7 @@ Along the way, Reggie stops in a deserted town decimated by the Tall Man, where 
 
 But the bandits meet their match in Tim, a grade-school kid orphaned by the Tall Man. Tim's rigged his house up with a series of booby traps—think <span data-imdb-id="tt0099785">_Home Alone_</span> but lethal, and proves quick on the draw with his dead father's pistol and—in a glorious moment of unexpected violence—a tomahawk.
 
-Tim and Reggie track the Tall Man to an abandoned mausoleum. There they meet Rocky, a crew cut sporting, combat boot wearing woman, armed with a no-nonsense attitude and nunchaku. Reggie takes a prurient interest, but Rocky's having none of it. She holds her own in fights and doesn't devolve into a damsel in distress. Amazing.
+Tim and Reggie track the Tall Man to an abandoned mausoleum. There they meet Rocky, a crew-cut-sporting, combat-boot-wearing woman, armed with a no-nonsense attitude and nunchaku. Reggie takes a prurient interest, but Rocky's having none of it. She holds her own in fights and doesn't devolve into a damsel in distress. Amazing.
 
 This unlikely trio soon rescues Mike, only to find themselves under siege from the Tall Man and the reanimated bandits in “the largest Gothic mausoleum in the western US."
 

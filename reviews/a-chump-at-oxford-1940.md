@@ -13,4 +13,4 @@ I appreciate the skill inherent in Laurel and Hardy's routines. In this film, St
 
 Maybe it’s how the humor flows from the characters' myopic self-focus, a trait that irks me. Or maybe growing up on '80s comedies broke my sense of humor. Whatever the reason, the pair's comedy doesn’t work for me.
 
-That said, I enjoyed the last few minutes when Stan--playing against type as a polished nobleman--berates Ollie telling him, “Get your chin up!” a pause, then “Both of them!” **That** made me chuckle.
+That said, I enjoyed the last few minutes when Stan--playing against type as a polished nobleman--berates Ollie, telling him, "Get your chin up!" a pause, then "Both of them!" **That** made me chuckle.

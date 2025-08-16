@@ -6,7 +6,7 @@ grade: B-
 slug: race-with-the-devil-1975
 ---
 
-Peter Fonda and Warren Oates play two buddies setting out from San Antonio with their wives in an RV. They're headed for a much-needed ski vacation in Aspen. They pull off the highway to a secluded riverbed to camp. The bucolic central Texas landscape features as the guys ride their dirt bikes while the wives chat. Fonda and Oates display the familiarity, banter, and semi-sibling rivalry that speaks silent volumes to their character's long-standing friendship. Then later that night, they chance upon a gathering across the ravine they shouldn't have seen.
+Peter Fonda and Warren Oates play two buddies setting out from San Antonio with their wives in an RV. They're headed for a much-needed ski vacation in Aspen. They pull off the highway to a secluded riverbed to camp. The bucolic central Texas landscape features as the guys ride their dirt bikes while the wives chat. Fonda and Oates display the familiarity, banter, and semi-sibling rivalry that speaks silent volumes to their characters' long-standing friendship. Then later that night, they chance upon a gathering across the ravine they shouldn't have seen.
 
 <!-- end -->
 

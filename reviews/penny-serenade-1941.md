@@ -16,7 +16,7 @@ Fast forward and the two are dating. Eating beachside, the visage of Grant, clad
 
 At first, I found Grant's attraction to Dunne hard to swallow. She's seven years his senior. But Grant plays a character who thinks nothing of taking advances on his salary or pouncing on a job in another country without consulting Dunne. He's a man-child. Thus, his attraction to the more mature Dunne makes sense.
 
-Back to the story, Grant and Dunne marry and the aforementioned job sees the now pregnant Dunne join Grant in Japan. An earthquake strikes. With Dunne inside, the couple's house shakes itself apart. Debris fall on the aforementioned fortune predicting a baby. Each spurt accompanied by an ominous orchestra horn swell.
+Back to the story, Grant and Dunne marry and the aforementioned job sees the now pregnant Dunne join Grant in Japan. An earthquake strikes. With Dunne inside, the couple's house shakes itself apart. Debris falls on the aforementioned fortune predicting a baby. Each spurt accompanied by an ominous orchestra horn swell.
 
 Dunne survives but loses the baby and her ability to bear future children. As she convalesces, a nurse parks a cot of newborns outside her door.
 
@@ -24,7 +24,7 @@ Dunne and Grant move back stateside. He's quit his salaried job to resurrect a s
 
 The couple alight on adoption, thinking they can “Just walk in and help yourself to what you want. There's no guesswork!” Reality comes as a blow. The adoption ward matron points out, “Real parents, wait almost a year.” But no sooner have Grant and Dunne resigned themselves, then the matron calls with news of a child. Another couple should have first choice, “But somehow, I feel she's exactly the child for you.”
 
-Grant pouts--he wanted a boy--but they return home that evening with a newborn girl. Now the film attempts screwball comedy, with Grant unable to work light switches or an alarm now that he's a father. Later that night, with the baby crying. Grant, clean shaven with perfect hair, stands helpless, ordering Dunne to “Do something!”
+Grant pouts--he wanted a boy--but they return home that evening with a newborn girl. Now the film attempts screwball comedy, with Grant unable to work light switches or an alarm now that he's a father. Later that night, with the baby crying, Grant, clean shaven with perfect hair, stands helpless, ordering Dunne to “Do something!”
 
 Next, it's Dunne's turn to flounder when she attempts to bathe the baby in front of the paper staff. She's terrified of hurting the child, a point hammered home by one of the staff cracking peanuts in the background.
 

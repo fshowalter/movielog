@@ -10,6 +10,6 @@ slug: x2-x-men-united-2003
 
 <!-- end -->
 
-Clocking in a half-an-hour longer than its predecessor, I noticed the extra runtime. Ian McKellan, my favorite part of the first film, takes a backseat to this film's chief adversary, played by Brian Cox. Cox's character, though entertaining, proves disposable. And while I applauded the first film's ability to introduce several characters and juggle several plot lines, this entry lacks that deft touch. It leaves multiple plot threads unresolved, introduces some convenient happenstances, and reduces Cumming's character to little more than a plot device.
+Clocking in a half-hour longer than its predecessor, I noticed the extra runtime. Ian McKellan, my favorite part of the first film, takes a backseat to this film's chief adversary, played by Brian Cox. Cox's character, though entertaining, proves disposable. And while I applauded the first film's ability to introduce several characters and juggle several plot lines, this entry lacks that deft touch. It leaves multiple plot threads unresolved, introduces some convenient happenstances, and reduces Cumming's character to little more than a plot device.
 
 It's not a bad movie, just one that compares to "middle-chapter" Marvel movies like <span data-imdb-id="tt2395427">_Avengers: Age of Ultron_</span>. Unfortunately, the planned third chapter never materialized. Instead, we got <span data-imdb-id="">_X-Men: The Last Stand_</span>.

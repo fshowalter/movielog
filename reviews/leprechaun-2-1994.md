@@ -18,7 +18,7 @@ That last one sees the unfortunate victim thinking he’s kissing a topless (via
 
 The Los Angeles locale also proves superior to the first film’s rural setting. While we only get brief exterior shots, several scenes take place in a dive bar that feels authentic and relatable, right down to the bathroom graffiti.
 
-Granted, this entry has its downsides. The script renders Durkin pouty and unlikable. Early on, when our ostensible hero, played by Charlie Heath, has to cover for his alcoholic uncle and drive a “Haunted Los Angeles” tour instead of taking Durkin to the go-kart part, she tries to sabotage the tour. For his part, Heath also underwhelms by not standing up to Durkin’s petulant behavior. This combination makes it hard to invest in their plights.
+Granted, this entry has its downsides. The script renders Durkin pouty and unlikable. Early on, when our ostensible hero, played by Charlie Heath, has to cover for his alcoholic uncle and drive a "Haunted Los Angeles" tour instead of taking Durkin to the go-kart park, she tries to sabotage the tour. For his part, Heath also underwhelms by not standing up to Durkin’s petulant behavior. This combination makes it hard to invest in their plights.
 
 But the film compensates with surprising production design. Aside from the aforementioned dive bar, the film milks a lot of mileage out of the Leprechaun’s underground lair. The earthen walls, buried skeletons, and labyrinthine nature, lend the film a dark-fantasy tone.
 

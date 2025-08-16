@@ -50,7 +50,7 @@ Adding insult to injury, many of the hardest scenes to shoot—the gory, practic
 
 You see, Engelman and studio New Line weren’t looking to make a movie, but a franchise, one to replace the _Nightmare on Elm Street_ series. Viewed in that light, it all makes sense.
 
-Remember the trailer Engelman shot before he'd hired a director? It’s a tongue-in-cheek affair, with Leatherface looking out over a lake. As some serious-sounding voice over narration intones that "Legends live forever," a Lady in the Lake style hand emerges from the water holding a cartoonishly large chainsaw. She lofts it into the air and Leatherface catches it, and a He-Man style bolt of lighting crackles out as man-and-machine are reunited before he turns and faces the camera, saw roaring.
+Remember the trailer Engelman shot before he'd hired a director? It’s a tongue-in-cheek affair, with Leatherface looking out over a lake. As some serious-sounding voice over narration intones that "Legends live forever," a Lady in the Lake style hand emerges from the water holding a cartoonishly large chainsaw. She lofts it into the air and Leatherface catches it, and a He-Man style bolt of lightning crackles out as man-and-machine are reunited before he turns and faces the camera, saw roaring.
 
 It’s an amusing sequence, but an awful teaser for the movie. Consider: it alienated fans worried this new entry would hew more towards part two’s camp, while fans who went in expecting more of the trailer's flippant humor would come away disappointed.
 

@@ -31,7 +31,7 @@ That’s a lot of plot. The labyrinthine twists of agents, double agents, and tr
 
 Take Valdar’s big reveal that he is Strendler. If Valdar was a British agent, he would have told the British about Helene, making the ruse involving the fake German agent unnecessary. But, if Valdar didn’t tell the British about Helene, how did they know her handler‘s code phrases? This film even acknowledges this bit of inanity at the end with the British Intelligence lead saying, “We almost overplayed our parts trying to be too clever.” Indeed.
 
-And how did Valdar gain so much guarded information? His espionage consists of little-more than eavesdropping outside thin doors or open windows.
+And how did Valdar gain so much guarded information? His espionage consists of little more than eavesdropping outside thin doors or open windows.
 
 Worst of all, _British Intelligence_ drags. The film betrays its origins as a 1918 stage play, with characters verbalizing every thought and emotion, necessitating reams of dialogue delivered in static two-shots.
 

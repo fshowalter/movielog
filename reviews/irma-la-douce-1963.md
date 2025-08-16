@@ -7,7 +7,7 @@ slug: irma-la-douce-1963
 
 After four consecutive perfect--or near-perfect--films (<span data-imdb-id="tt0051201">_Witness for the Prosecution_</span>, <span data-imdb-id="tt0053291">_Some Like It Hot_</span>, <span data-imdb-id="tt0053604">_The Apartment_</span>, and <span data-imdb-id="tt0055256">_One, Two, Three_</span>), writer-director Billy Wilder finally stumbles with _Irma la Douce_, an overlong and cartoonish comedy drama.
 
-The story, set in Paris, sees Jack Lemmon play an ex-policeman who falls for a prostitute, played by Shirley MacLaine, and inadvertently become her pimp, but he doesn't want her to have any clients.
+The story, set in Paris, sees Jack Lemmon play an ex-policeman who falls for a prostitute, played by Shirley MacLaine, and inadvertently becomes her pimp, but he doesn't want her to have any clients.
 
 The problems start early. Wilder, adapting from a successful musical, keeps the story in Paris (at the cost of over a quarter million dollars in set construction) but casts Americans in the leads—except they're playing Parisians. Putting aside the nagging question of why everyone but Jack Lemmon and Shirley MacLaine has an accent, the first act is rather dull, taking a long time to setup the film's premise involving Lemmon becoming MacLaine's pimp.
 

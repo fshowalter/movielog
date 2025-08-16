@@ -13,6 +13,6 @@ Making her film debut at only 19 years of age, Bacall exudes the confidence and 
 
 Bacall’s great chemistry didn’t stop there though. Her scenes with Dolores Moran (who found her role reduced in favor of Bacall’s) are dynamite, especially the subtle gag when Bogart asks her to fan some fumes away. Despite her relative inexperience, Bacall refuses to allow anyone to overshadow her, yet she goes about it in such a subtle, seductive way, that you can’t help but admire her.
 
-_To Have and Have Not_ is considerably weaker when Bacall's off screen, as the rest of the cast is somewhat lacking, especially compared to Casablanca. Dan Seymour has neither the intensity of Conrad Veidt nor the presence of Sydney Greenstreet, and thus makes a sub par villain, while Walter Brennan's character seems to exist solely as a plot device.
+_To Have and Have Not_ is considerably weaker when Bacall's off screen, as the rest of the cast is somewhat lacking, especially compared to Casablanca. Dan Seymour has neither the intensity of Conrad Veidt nor the presence of Sydney Greenstreet, and thus makes a subpar villain, while Walter Brennan's character seems to exist solely as a plot device.
 
-Finally, while script by Jules Furthman and William Faulkner does a good job maximizing the Bogart-Bacall romance, the abrupt ending will no doubt leave some scratching their heads.
+Finally, while the script by Jules Furthman and William Faulkner does a good job maximizing the Bogart-Bacall romance, the abrupt ending will no doubt leave some scratching their heads.

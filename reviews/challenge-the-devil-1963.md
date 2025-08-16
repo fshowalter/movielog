@@ -8,7 +8,7 @@ synopsis: A group of wayward young adults wander into a castle where an elderly 
 
 A relatively obscure and insignificant Italian gothic horror, _Challenge the Devil_ may nonetheless attract viewers curious to see Christopher Lee as the titular Devil. Those viewers should beware: his dubbed part amounts to a few minutes of non-devilish screen time buried halfway into the film.
 
-The plot sees a group of rampaging young adults wander into a castle where they encounter Lee made up with white hair and mustache to pass for an elderly man. He tells them he’s haunted by his dead wife and if the group can find her so he can give her a proper burial he’ll give them all the riches of the castle. Short on cash and thinking Lee mad, the group agrees and sets out to search the castle.
+The plot sees a group of rampaging young adults wander into a castle where they encounter Lee, made up with white hair and mustache to pass for an elderly man. He tells them he's haunted by his dead wife and if the group can find her so he can give her a proper burial, he'll give them all the riches of the castle. Short on cash and thinking Lee mad, the group agrees and sets out to search the castle.
 
 After a few minutes of wandering the halls, the group finds itself lost. We get innumerable scenes of them wandering through empty rooms or up endless winding staircases, interspersed with sequences where they're tormented by under-produced special effects such as fake spider webs and a googly-eyed spider.
 

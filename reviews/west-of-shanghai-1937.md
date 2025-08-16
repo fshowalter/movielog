@@ -17,4 +17,4 @@ If all this seems a little convoluted, don't worry, soon Fang shows up, takes ev
 
 Boris Karloff plays Fang as an unabashed egomaniac, and it's a joy to watch. His rapid-fire broken English is snappy and entertaining, and he plays off the otherwise tepid support cast very well.
 
-The film's biggest misstep is waiting twenty minutes to get him on screen. While the film does a great job attending to the little details early on, like the smokey dining car where Creed and the Galt's first meet, these touches can't overcome the stilted delivery that plagues the first half. Once Karloff shows up however, all is forgiven, which is what makes _West of Shanghai_ worth a look.
+The film's biggest misstep is waiting twenty minutes to get him on screen. While the film does a great job attending to the little details early on, like the smoky dining car where Creed and the Galts first meet, these touches can't overcome the stilted delivery that plagues the first half. Once Karloff shows up however, all is forgiven, which is what makes _West of Shanghai_ worth a look.

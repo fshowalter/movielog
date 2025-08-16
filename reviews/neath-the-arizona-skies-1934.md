@@ -5,7 +5,7 @@ grade: D
 slug: neath-the-arizona-skies-1934
 ---
 
-A cowboy (John Wayne) protects a little half-Indian girl from crooks eyeing to ransom her for a portion of the oil lease she's inherited.
+A cowboy (John Wayne) protects a little half-Indian girl from crooks aiming to ransom her for a portion of the oil lease she's inherited.
 
 _'Neath the Arizona Skies_ does not start well. Finding a good child actor is, admittedly, very hard. Big-budget productions utilize nationwide casting calls and audition hundreds of performers. The filmmakers here, apparently, went the economy route and just picked the first kid they could find.
 

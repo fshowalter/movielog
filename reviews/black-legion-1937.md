@@ -9,7 +9,7 @@ Humphrey Bogart plays Frank Taylor, a senior machinist and family man who loses 
 
 <!-- end -->
 
-The Legion run Frank's co-worker out of town in a fiery set piece and Frank ascends to foreman. He buys a new car for himself, a vacuum cleaner for his wife, and a Louisville Slugger for his boy. Life is good until Frank's Legion-mandated recruiting distracts him at work and he's demoted in favor of his neighbor. Again, the Legion intervenes.
+The Legion runs Frank's co-worker out of town in a fiery set piece and Frank ascends to foreman. He buys a new car for himself, a vacuum cleaner for his wife, and a Louisville Slugger for his boy. Life is good until Frank's Legion-mandated recruiting distracts him at work and he's demoted in favor of his neighbor. Again, the Legion intervenes.
 
 The secrecy and violence wear on Frank. He drinks to excess. His family leaves him. He takes up with a local floozy.
 

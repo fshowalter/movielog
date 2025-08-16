@@ -43,11 +43,11 @@ Frank rises to his full height, towering over the widow. He grabs the pistol's b
 
 “He took you out to the range,” he continues. “He showed you what to do. This is where you do it. Squeeze. Don't pull.”
 
-It's an effective scene and proof Stevenson can play the quiet emotional beats as well as the big physical ones. But it's hard to buy the gravitas the scene is selling when just a few minutes prior the film was blowing up meth addled parkour gangsters with RPGs.
+It's an effective scene and proof Stevenson can play the quiet emotional beats as well as the big physical ones. But it's hard to buy the gravitas the scene is selling when just a few minutes prior the film was blowing up meth-addled parkour gangsters with RPGs.
 
 Worse still, the film doubles down on this angle, with the Punisher moping around and only getting involved after Jigsaw targets the widow and her daughter.
 
-Indeed, Jigsaw becomes the film's focus. He and his henchmen go to the city mental hospital and free Jigsaw's cannibalistic brother Jim. A redundant character, Jim's a violent mental simpleton who exists to spoon feed exposition to the audience and engage in the action that should have been Jigsaw's. There's also a side-plot involving the undercover agent's former partner. All detract from the Punisher and how he's not punishing.
+Indeed, Jigsaw becomes the film's focus. He and his henchmen go to the city mental hospital and free Jigsaw's cannibalistic brother Jim. A redundant character, Jim's a violent mental simpleton who exists to spoon-feed exposition to the audience and engage in the action that should have been Jigsaw's. There's also a side-plot involving the undercover agent's former partner. All detract from the Punisher and how he's not punishing.
 
 Why is it so hard? Have a cast of over-the-top mobsters doing despicable things. Set the Punisher loose for ninety minutes of over-the-top violence as he punishes them in excessive but creative ways. Imagine Batman, but lethal. Why must the writers wallow in angst or shift focus from the Punisher?
 

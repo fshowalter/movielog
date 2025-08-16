@@ -13,7 +13,7 @@ A pleasant diversion from the usual Lone Star formula sees George “Gabby” Ha
 
 For his part, Wayne is fine, though still stiff. As usual, the film saddles him with a flat romantic lead. This time in Alberta Vaughn.
 
-That said, the most memorable thing about _Randy Ride Alone_ remains the galling miniature shot and director Harry L. Fraser’s’ decision to keep cutting to it. There’s low-budget, and then there’s cheap.
+That said, the most memorable thing about _Randy Rides Alone_ remains the galling miniature shot and director Harry L. Fraser's decision to keep cutting to it. There’s low-budget, and then there’s cheap.
 
 Low-budget can be an asset. It makes Yakima Canutt’s stunts even more thrilling when you realize the budget doesn’t allow for safety nets or wires. Consider the scene where—doubling for Wayne—Canutt jumps from his horse while crossing a bridge to evade pursuers. That’s low budget, but real.
 

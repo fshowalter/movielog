@@ -9,7 +9,7 @@ A one-armed stranger (Spencer Tracy) gets off a train in a dusty town and starts
 
 _Bad Day at Black Rock_ is a great blend of the western, mystery, and film noir genres executed by a top-notch cast.
 
-Spencer Tracy is great as the lead. Physically smaller than either Rob Ryan or Lee Marvin, Tracy looks the underdog, yet his quiet presence and steel gaze betray hints of a much stronger man inside. His measured performance simultaneously wins over the audience and elevates the story’s tension.
+Spencer Tracy is great as the lead. Physically smaller than either Robert Ryan or Lee Marvin, Tracy looks the underdog, yet his quiet presence and steel gaze betray hints of a much stronger man inside. His measured performance simultaneously wins over the audience and elevates the story's tension.
 
 Opposite Tracy, Robert Ryan does a great job as the mysterious town’s de-facto leader. He’s simultaneously charming and menacing, though never too much of either.
 

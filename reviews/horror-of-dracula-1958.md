@@ -20,7 +20,7 @@ Before she can consummate the act, Van Helsing (Peter Cushing) bursts into frame
 
 It's a crackerjack scene that works just as well today as it did half a century ago. The practical effects still thrill and Cushing's performance electrifies.
 
-The third great scene is the finale. Arthur and Van Helsing have chased Dracula back to his castle. Dawn is fast approaching. Van Helsing catches the Count before he can disappear down a secret passage. The two grapple. Dracula looks to have the upper hand. In a flash of inspiration, Van Helsing vaults atop a long table, runs the length, and launches himself toward the wall. He hits the wall high and pulls down the tapestry curtains, letting in the morning sun. Dracula tries to flee, but Van Helsing fashions a make-shift crucifix out of candle holders and pins Dracula in place.
+The third great scene is the finale. Arthur and Van Helsing have chased Dracula back to his castle. Dawn is fast approaching. Van Helsing catches the Count before he can disappear down a secret passage. The two grapple. Dracula looks to have the upper hand. In a flash of inspiration, Van Helsing vaults atop a long table, runs the length, and launches himself toward the wall. He hits the wall high and pulls down the tapestry curtains, letting in the morning sun. Dracula tries to flee, but Van Helsing fashions a makeshift crucifix out of candle holders and pins Dracula in place.
 
 These swashbuckling acrobatics cement Van Helsing as the heroic foil to the villainous Dracula. Cushing's Van Helsing isn't just a wise man with a strong will, he's a man of action. The iconic monster hunter out to rid the world of supernatural evil.
 

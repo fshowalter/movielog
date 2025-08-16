@@ -19,7 +19,7 @@ Given Stanwyck now has a son in diapers she‘s nicknamed “So Big,” we know 
 
 More time passes. So Big is now a toddler and Stanwyck has gained some pancake wrinkles. Her husband dies, and she‘s left to manage the farm herself.
 
-The “And remember, as you go through life, no matter what happens, good or bad, its' just so much velvet,” quote from her father appears on a title card marking time's passage.
+The "And remember, as you go through life, no matter what happens, good or bad, it's just so much velvet," quote from her father appears on a title card marking time's passage.
 
 Stanwyck disappears and the story shifts to her now adult son, played by Hardie Albright. Things stall for a bit, as Albright lacks Stanwyck's charisma, but Bette Davis's arrival provides the film's biggest surprise.
 

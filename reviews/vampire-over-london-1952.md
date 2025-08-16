@@ -7,7 +7,7 @@ slug: vampire-over-london-1952
 
 One of the worst movies I've ever seen.
 
-The plot sees Old Mother Riley foil a mad scientist--played by Bela Lugosi--and his android.
+The plot sees Old Mother Riley foil a mad scientist—played by Bela Lugosi—and his android.
 
 _Mother Riley Meets the Vampire_ was the last in a string of movies featuring the titular character, Old Mother Riley, played by Arthur Lucan.
 
