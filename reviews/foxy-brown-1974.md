@@ -15,4 +15,4 @@ Compounding matters, the revenge aspect never really feels as edgy. The original
 
 This time, Grier's got a whole gang to help her, which takes away much of the visceral thrill and empathy. Sure, we've all wanted to clean up the streets, but how many of us have our own gangs to back us up? This reaches a sad anti-climax where Grier corners one of her chief tormentors, only to have _someone else_ castrate him. What the hell?
 
-You might think it's not fair to compare the two films, but considering many of the scenarios, from the prostitution ring to the angry lesbians, are virtual copies from the earlier film, the comparisons are valid. Indeed, there's no real reason to watch _Foxy Brown_, considering that _Coffy_ is basically the same film done much, much, better.
+You might think it's not fair to compare the two films, but considering many of the scenarios, from the prostitution ring to the angry lesbians, are virtual copies from the earlier film, the comparisons are valid. Indeed, there's no real reason to watch _Foxy Brown_, considering that _Coffy_ is basically the same film done much, much better.

@@ -15,7 +15,7 @@ The film opens with a woman riding in the bed of a pickup truck traveling into d
 
 As they arrive at the University of Texas at Austin, we witness a large Vietnam War protest. This establishes the film's anti-war theme and realistic style. Hooper filmed a real protest, but lingers on intimate details. A girl sits on a bench popping a pimple on her forearm. The protestors shake hands with the smiling police officers monitoring the demonstration.
 
-Hooper also pans up to the Main building clock-tower—the site of Charles Whitman's mass shooting three years prior—an odd inclusion given Hooper comments how he excised a“traveling prophet” side-plot because it was “too heavy.” But Hooper also comments in a solemn tone that he was on campus during the massacre.
+Hooper also pans up to the Main building clock tower—the site of Charles Whitman's mass shooting three years prior—an odd inclusion given Hooper comments how he excised a "traveling prophet" side-plot because it was “too heavy.” But Hooper also comments in a solemn tone that he was on campus during the massacre.
 
 Next we get the first example of one of Hooper's formal trick shots. A paper airplane takes off from the ground, flies through the air and impacts a house, exploding in a fireball and crumbling to smouldering ashes. An on-the-nose allegory to the students' protection from the Vietnam draft.
 
@@ -37,7 +37,7 @@ The film meanders to a double finale. One couple marries in an outdoor ceremony,
 
 This interesting but flawed combination of cinéma vérité and near surrealism has a limited audience.
 
-Most obvious, are Hooper superfans. Besides the aforementioned shot mirroring Leatherface's introduction, Hooper also frames a shot reminiscent of the famous dead armadillo shot in _The Texas Chain Saw Massacre_, this time with an anthill in place of the armadillo. Seeing these and other early examples of styles and techniques he'd employ in later films should interest those serious fans. But, like I said, watch it with the commentary.
+Most obvious are Hooper superfans. Besides the aforementioned shot mirroring Leatherface's introduction, Hooper also frames a shot reminiscent of the famous dead armadillo shot in _The Texas Chain Saw Massacre_, this time with an anthill in place of the armadillo. Seeing these and other early examples of styles and techniques he'd employ in later films should interest those serious fans. But, like I said, watch it with the commentary.
 
 The other audience is folks who were college-age residents of Austin during the late sixties. As a time-capsule, the film shines. Though alien to modern audiences, the ample location photography and realistic style should prove an emotional rollercoaster for audiences who lived through it.
 

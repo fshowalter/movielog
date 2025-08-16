@@ -7,7 +7,7 @@ slug: madhouse-1974
 
 After suffering a nervous breakdown, an actor (Vincent Price) reluctantly revives his Dr. Death character at the urging of his screenwriter friend (Peter Cushing) and producer (Robert Quarry).
 
-_Madhouse_ is a campy horror in the vein of Price’s earlier <span data-imdb-id="tt0066740">_The Abominable Dr. Phibes_</span> and <span data-imdb-id="tt0070791">_Theater of Blood_</span>. Unfortunately, _Madhouse_ has neither the stylish design of the former, nor the over-the-top absurdity of the later, and, as a result, is disappointing, especially given the cast.
+_Madhouse_ is a campy horror in the vein of Price’s earlier <span data-imdb-id="tt0066740">_The Abominable Dr. Phibes_</span> and <span data-imdb-id="tt0070791">_Theater of Blood_</span>. Unfortunately, _Madhouse_ has neither the stylish design of the former, nor the over-the-top absurdity of the latter, and, as a result, is disappointing, especially given the cast.
 
 Vincent Price is fine as the lead, though the script by Ken Levison and Greg Morrison does little to tailor the role. A few more asides and in-jokes (aside from the clips of Price’s earlier American International pictures) would have gone a long way.
 

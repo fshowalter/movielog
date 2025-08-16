@@ -11,7 +11,7 @@ _When Willie Comes Marching Home_ is something of an oddity for director John Fo
 
 Lead Dan Dailey is fine, if a bit unendearing as something of a lug-head. The rest of the cast is also passable, with the only standout being Corinne Calvet in a small, but memorable role as the leader of a French Resistance movement.
 
-For his part, Ford seems much more comfortable with the action elements then with the comedy, bringing a real sense of drama to the film’s later proceedings.
+For his part, Ford seems much more comfortable with the action elements than with the comedy, bringing a real sense of drama to the film’s later proceedings.
 
 The film's biggest problem is that the script by Richard Sale just isn't that funny. Full of recurring gags, it thankfully avoids "screwball" humor and, to some extent, physical comedy, but lacks the finesse that a great writer like Billy Wilder would bring to the material. But in Sale’s defense, he doesn’t wear out his welcome, wrapping things up in a brief 82 minutes.
 

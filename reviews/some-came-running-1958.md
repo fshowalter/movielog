@@ -17,4 +17,4 @@ But in the end, it’s Dean Martin who really steals the show. His performance a
 
 Director Vincente Minnelli gives the film a very polished look, and his excellent use of light and color make the film a visual treat.
 
-If _Some Came Running_ has a flaw it’s that its 137-minute length is feels wrong. A longer running time could have fleshed out Shirley MacLaine's character a bit more, and a shorter one would have moved the story along better. Either choice would have turned this good film into a great one.
+If _Some Came Running_ has a flaw it's that its 137-minute length feels wrong. A longer running time could have fleshed out Shirley MacLaine's character a bit more, and a shorter one would have moved the story along better. Either choice would have turned this good film into a great one.

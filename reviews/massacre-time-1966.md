@@ -25,7 +25,7 @@ The film's visual peak comes in a masterful shot that frames the two brothers th
 
 Then comes the somersault.
 
-During the climactic ranch raid, Nero rides a wagon down a ramp, guns blazing toward goons behind an overturned table. The wagon strikes. Fulci cuts to a low-angle shot of Nero somersaulting through the air with the grace of an Olympic gymnast and the plausibility of an 80's Cannon ninja picture.
+During the climactic ranch raid, Nero rides a wagon down a ramp, guns blazing toward goons behind an overturned table. The wagon strikes. Fulci cuts to a low-angle shot of Nero somersaulting through the air with the grace of an Olympic gymnast and the plausibility of an 80s Cannon ninja picture.
 
 I laughed out loud. Not with the film, but at it.
 

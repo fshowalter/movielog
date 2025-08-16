@@ -45,7 +45,7 @@ Instead, Gens proffers scene after scene of Yasmine enduring brutal beatings bef
 
 This added violence also begs the question: what is Gens saying? Is the added violence a commentary on the earlier riots in Paris? On news reports, we hear the victorious candidate promising to crack down on crime. Are the literal Nazis meant to compare or contrast the political right? I’m not sure, but I’ll assume the less reductive interpretation and consider it a warning that we haven’t exterminated such horrors, just driven them to the fringes.
 
-But this interpretation carries its own set of problems, as the youngsters open the film having committed armed robbery, yet when the situation turns grave, they react like children, wanting to go home. Is Gens chastising his characters for their immaturity or empathising with their plight as disenfranchised French Muslims? Again, I’m not sure, but I struggled to achieve any emotional connection with the characters.
+But this interpretation carries its own set of problems, as the youngsters open the film having committed armed robbery, yet when the situation turns grave, they react like children, wanting to go home. Is Gens chastising his characters for their immaturity or empathizing with their plight as disenfranchised French Muslims? Again, I’m not sure, but I struggled to achieve any emotional connection with the characters.
 
 And what about the pregnancy? Is it symbolic or just a cheap way to heighten the violence? The Nazi patriarch wants Yasmine to join his “family” to bear more children, as one of their other abductees has only birthed deformed offspring they treat as monsters. He mutters about her blood not being “pure,” but that proves the extent of the social commentary.
 

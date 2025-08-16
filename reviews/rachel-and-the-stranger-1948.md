@@ -18,13 +18,13 @@ David proves distant, allowing Rachel the bed while he sleeps on the floor in an
 
 Davey, however, proves downright cruel. When Rachel tells him his father brought her there to school and mother him, Davey spits back, “The devil it was! You're a bond slave, is all!”
 
-Things change when Jim, a family friend played by Robert Mitchum, arrives. He was a one time suitor of Susan, and it surprised both him and David when she chose David over him. Jim plans to settle down and takes an instant interest in Rachel.
+Things change when Jim, a family friend played by Robert Mitchum, arrives. He was a one-time suitor of Susan, and it surprised both him and David when she chose David over him. Jim plans to settle down and takes an instant interest in Rachel.
 
 Jim showers attention on Rachel. David gets jealous. Competition flares, culminating in a fist-fight that leads to Rachel storming out to return to the stockade. The men pursue but a plot-convenient Indian attack interrupts the melodrama.
 
 Young and Holden convince as pioneers, and Mitchum shines as a laconic woodsman. But this is not a good movie. It treats us like simpletons.
 
-Consider when, after arriving in the cabin, Rachel is clearing the table. David and Davey are talking. Davey says he won't be getting any music lessons. Rachel pauses. Cut to a drawn-out close-up of Rachel. She gazes off screen, opens her mouth, then closes it and looks down at Davey. Davey glares back, daring her to talk. She doesn't and walks away. It's a ten second scene that should have played out in an instant, but the film thinks us incapable of grasping subtlety.
+Consider when, after arriving in the cabin, Rachel is clearing the table. David and Davey are talking. Davey says he won't be getting any music lessons. Rachel pauses. Cut to a drawn-out close-up of Rachel. She gazes off screen, opens her mouth, then closes it and looks down at Davey. Davey glares back, daring her to talk. She doesn't and walks away. It's a ten-second scene that should have played out in an instant, but the film thinks us incapable of grasping subtlety.
 
 The script proves clumsy too. Consider the scene where David and Davey are out chopping wood. They hear a turkey call. Davey whines about wanting to take a shot at the bird. David grabs Davey and dives to the ground. The turkey call is a Shawnee signal, he says. Of course, it's just Jim, but when he steps out of the trees to greet David, he recounts signs of Shawnee up north. The script hasn't mentioned native Americans up to this point. Now, it mentions Shawnee four times in two minutes, only to forget them again until the finale. This scene, like the Indian attack itself, feels forced. The Shawnee exist as a convenient plot device to reunite David and Jim.
 

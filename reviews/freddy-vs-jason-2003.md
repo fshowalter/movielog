@@ -5,7 +5,7 @@ grade: D
 slug: freddy-vs-jason-2003
 ---
 
-Following the events of <span data-imdb-id="tt0101917">_Freddy’s Dead: The Final Nightmare_</span>, Freddy Krueger languishes in hell, forgotten by the children of Springwood. To rekindle their fear, Freddy resurrects Jason Voorhees and unleashes him on Springwood. As the bodies pile up, the town’s older residents fear Freddy has returned. This fear feeds Freddy, returning him to full strength, but he finds reigning in Jason a challenge, leading to a battle of the monsters.
+Following the events of <span data-imdb-id="tt0101917">_Freddy’s Dead: The Final Nightmare_</span>, Freddy Krueger languishes in hell, forgotten by the children of Springwood. To rekindle their fear, Freddy resurrects Jason Voorhees and unleashes him on Springwood. As the bodies pile up, the town’s older residents fear Freddy has returned. This fear feeds Freddy, returning him to full strength, but he finds reining in Jason a challenge, leading to a battle of the monsters.
 
 <!-- end -->
 

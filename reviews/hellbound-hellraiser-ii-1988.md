@@ -10,7 +10,7 @@ The big-bad dangles from an extradimensional entity's unending tree-trunk-sized 
 
 <!-- end -->
 
-Set just after the events of <span data-imdb-id="tt0093177">_Hellraiser_</span>, our protagonist, played by Ashley Laurence, wakes up in a sanatorium. She's under the care a psychiatrist played by Kenneth Cranham. Unbeknownst to Laurence, Cranham has an interest in Hell and a collection of puzzle boxes to access it. Soon Ashley's venturing there to rescue her father. She faces opposition from her wicked stepmother turned Queen of Hell and Cranham who's become... something else.
+Set just after the events of <span data-imdb-id="tt0093177">_Hellraiser_</span>, our protagonist, played by Ashley Laurence, wakes up in a sanatorium. She's under the care of a psychiatrist played by Kenneth Cranham. Unbeknownst to Laurence, Cranham has an interest in Hell and a collection of puzzle boxes to access it. Soon Ashley's venturing there to rescue her father. She faces opposition from her wicked stepmother turned Queen of Hell and Cranham who's become... something else.
 
 I enjoyed the performances, particularly Cranham's turn in a prototype of David Cronenberg's role in Clive Barker's next picture, <span data-imdb-id="tt0100260">_Nightbreed_</span>. Clare Higgins plays stepmother Julia with relish, and Doug Bradley still chills as Pinhead.
 

@@ -7,7 +7,7 @@ slug: kiss-them-for-me-1957
 
 During World War II, a navy pilot (Cary Grant) woos a ship-builder’s fiancé while on leave with his buddies in San Francisco.
 
-_Kiss Them for Me_ should never have been made. Star Cary Grant fought for it, as he wanted to bring an ongoing problems for veterans (what we know today as Post-Traumatic Stress Disorder) to the public’s attention, but the compromises required by the studio all but bury this aspect and reduce the film to little more than a romantic comedy, and a bad one at that.
+_Kiss Them for Me_ should never have been made. Star Cary Grant fought for it, as he wanted to bring an ongoing problem for veterans (what we know today as Post-Traumatic Stress Disorder) to the public’s attention, but the compromises required by the studio all but bury this aspect and reduce the film to little more than a romantic comedy, and a bad one at that.
 
 This is a movie unable to find its tone, a problem apparent in the opening sequence where the pilots are en-route to San Francisco. One of them elects to get some sleep, and while the others banter through some light-hearted comedy, the sleeping pilot cries out in terror, caught up in a recurring nightmare in which he's about to be shot down.
 

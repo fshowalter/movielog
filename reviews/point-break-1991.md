@@ -12,6 +12,6 @@ Keanu Reeves plays Johnny Utah, an FBI agent fresh out of Quantico assigned to t
 
 Swayze is great. The role doesn’t require a great emotional range, but that doesn’t make it easy. Swayze’s got to win the audience as well as Reeves’s character and he does. He looks the part and seems comfortable and sure of his performance. It’s a shame he and director Kathryn Bigelow didn’t form a partnership, as she proves the first director to exploit his potential as a presence beyond a physical talent.
 
-The rest of the movie delivers good goofy fun. Bigelow walks the tightrope of testosterone-fueled extreme sports action and cartoonish parody with precision. The now iconic scene of Reeves firing his gun into the air in frustration elicited a smile with all its homo-erotic undertones, as did Busey’s perpetual near-mania.
+The rest of the movie delivers good goofy fun. Bigelow walks the tightrope of testosterone-fueled extreme sports action and cartoonish parody with precision. The now iconic scene of Reeves firing his gun into the air in frustration elicited a smile with all its homoerotic undertones, as did Busey’s perpetual near-mania.
 
 My only nits lie with the bank-robbery scenes, which evoke the superior <span data-imdb-id="tt0113277">_Heat_</span>, and with Reeves’s performance, which never quite convinces as an Ohio-born FBI agent. But I struggle with whom I would have cast in his place.

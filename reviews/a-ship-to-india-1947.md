@@ -10,7 +10,7 @@ The opening shot of a freighter sailing into port under lightning-streaked skies
 
 <!-- end -->
 
-After an awkward framing device, we get to the meat of the story. Set on a salvage boat working just off the coast, Birger Malmsten plays Johannes, the hunchback son of the tyrannical Captain Blom, played by Holger Löwenadler. Blom plans to leave his family and run off with his mistress Sally, who he's brought to live on the ship much to the dismay of his long-suffering wife, Alice. Soon a triangle forms between the naive Johannes, the hard-hearted Sally, and Blom.
+After an awkward framing device, we get to the meat of the story. Set on a salvage boat working just off the coast, Birger Malmsten plays Johannes, the hunchback son of the tyrannical Captain Blom, played by Holger Löwenadler. Blom plans to leave his family and run off with his mistress Sally, whom he's brought to live on the ship much to the dismay of his long-suffering wife, Alice. Soon a triangle forms between the naive Johannes, the hard-hearted Sally, and Blom.
 
 I loved Löwenadler's performance, which reminded me of an older John Huston. His arc resonated the strongest, but the script focuses on Johannes. This forces an ill-conceived wrap-around story. I can appreciate how director Ingmar Bergman sought to depict the far-reaching effects of a malevolent father, but he fumbles the execution.
 

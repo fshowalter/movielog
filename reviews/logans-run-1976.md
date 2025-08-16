@@ -5,7 +5,7 @@ grade: C-
 date: 2003-12-04
 ---
 
-In the future, a man begins to question the values behind the Utopian society his lives in; where life ends at 30.
+In the future, a man begins to question the values behind the Utopian society he lives in; where life ends at 30.
 
 _Logan's Run_ is a bit too ambitious for its own good. The film aspires to great heights, but is brought down by some poor special effects and an inability to transcend its own time.
 

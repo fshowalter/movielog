@@ -13,4 +13,4 @@ And it’s easy to see why. This is a “screwball” comedy where all the chara
 
 Granted, the physical comedy is well-done, and Hawks keeps things rolling at a breakneck speed, but the film rests on characters you don’t care about, don’t want to spend time with, and ultimately don’t like. No amount of gags can overcome that.
 
-If you’re big on “screwball” comedies, _Bringing Up Baby_ might be right up your alley, but others would do well follow the crowds and critics of 1938 and avoid this one.
+If you're big on "screwball" comedies, _Bringing Up Baby_ might be right up your alley, but others would do well to follow the crowds and critics of 1938 and avoid this one.

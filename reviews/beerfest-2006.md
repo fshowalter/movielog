@@ -13,4 +13,4 @@ Chock full of high school and college humor, the film makes little attempt to pa
 
 Indeed, it's this underlying vibe that makes the film hold up so well to repeat viewings. It's a male fantasy—hanging out with your buddies, drinking beer, horsing around—and for 110 minutes, you live it while watching the film. You like these guys, and want to hang out with them and be part of the gang, and it's not so much a strength of the script as it is a reflection of the chemistry of the performers.
 
-That said, the _Beerfest_ will undoubtedly play better to men than women, and thirty something or older men in particular, as this movie is essentially an escapist fantasy from everyday family life. Thus, those outside this particular demographic may want to skip it, but for the rest, it's a must see.
+That said, _Beerfest_ will undoubtedly play better to men than women, and thirty-something or older men in particular, as this movie is essentially an escapist fantasy from everyday family life. Thus, those outside this particular demographic may want to skip it, but for the rest, it's a must see.

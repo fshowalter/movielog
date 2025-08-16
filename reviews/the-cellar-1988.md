@@ -32,11 +32,11 @@ Dad also verbalizes his train of thought and soon becomes monster food. The kid 
 
 This scene overflowed with promise. A kid trapped in the middle of nowhere with a monster in the cellar. Despite all the annoying setup, I was intrigued.
 
-But the film cuts to present day--1988. We meet Willy, a precocious pre-teen at his Chicago school where they inexplicably allow dogs. One scene later, he’s in Texas where we realize his father and stepmother have purchased the house from the film’s opening.
+But the film cuts to present day—1988. We meet Willy, a precocious pre-teen at his Chicago school where they inexplicably allow dogs. One scene later, he’s in Texas where we realize his father and stepmother have purchased the house from the film’s opening.
 
 Incidentally, that house must be the most soundproof structure ever created. Despite being located in the middle of nowhere, with nothing but desert and mountains as far as the eye can see, the residents can’t hear monsters roaring in their cellar, men screaming for their lives outside windows, or gunshots fired in other rooms. And yet, a single crow caw outside proves deafening, so maybe sound works differently in Texas.
 
-Anyway, Willy soon susses out that there’s a monster in the cellar but his dad doesn’t believe him. Dad also won’t go into the cellar--again, idiot plot--so Willy ventures in one night with a flame thrower and sets up some <span data-imdb-id="tt0099785">_Home Alone_</span>-style booby-traps.
+Anyway, Willy soon susses out that there’s a monster in the cellar but his dad doesn’t believe him. Dad also won't go into the cellar—again, idiot plot—so Willy ventures in one night with a flame thrower and sets up some <span data-imdb-id="tt0099785">_Home Alone_</span>-style booby-traps.
 
 The film is ostensibly based on the short story "The Thing in the Cellar" by David Henry Keller. But said story only comprises a single scene, coming after Willy's booby traps prove ineffective, where Willy’s dad nails the cellar door _open_ then locks Willy and his infant sister in the room.
 

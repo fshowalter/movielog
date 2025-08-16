@@ -9,7 +9,7 @@ Five years after the events of <span data-imdb-id="tt10665338">_Halloween Kills_
 
 <!-- end -->
 
-An interesting, albeit flawed, franchise entry. It tries something new, more in line with director David Gordon Green's comfort zone of portraying young people struggling in a depressed small southern town, as seen in his debut, <span data-imdb-id="tt0262432">_George Washington_</span>. But it remains shackled to the Halloween franchise and must shoehorn in the inevitable confrontation between Michael and Laurie, despite regulating Michael to a tertiary character.
+An interesting, albeit flawed, franchise entry. It tries something new, more in line with director David Gordon Green's comfort zone of portraying young people struggling in a depressed small southern town, as seen in his debut, <span data-imdb-id="tt0262432">_George Washington_</span>. But it remains shackled to the Halloween franchise and must shoehorn in the inevitable confrontation between Michael and Laurie, despite relegating Michael to a tertiary character.
 
 It also makes a crucial misstep in compressing Corey's story. Better to introduce him in the first film, and endear him to the audience. Then, in the second film, shock us with his misfortune and the town's wrath, leading us to view him as tragic at this film's start. This would render his descent into darkness more haunting and it would help sell Allyson falling for him. As is, he fails to endear himself before his misfortune, and afterwards comes across as self-absorbed and petulant. He wanders into traffic, bumps into everything, and storms off at the slightest conflict.
 

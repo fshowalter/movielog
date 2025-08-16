@@ -12,7 +12,7 @@ slug: ride-lonesome-1959
 
 Coburn holds his own in a stacked cast. His physical build--lanky with impossibly long forearms--conveys a slight sense of unease that befits his part.
 
-But this is Scott’s movie, and I loved him. His gray temples and worn face betray his sixty years. A grandpa bounty hunter. A grandpa that has craps tougher than you. Never uncomfortable, even as the sweat trickles down his temples. Lean but made of steel.
+But this is Scott’s movie, and I loved him. His gray temples and worn face betray his sixty years. A grandpa bounty hunter. A grandpa that takes craps tougher than you. Never uncomfortable, even as the sweat trickles down his temples. Lean but made of steel.
 
 Director Budd Boetticher photographs the action in a brutal landscape of rocks and near-desert contrasted with breathtaking mountain backgrounds. No hint of soundstage ease, the cast looks hot and uncomfortable.
 

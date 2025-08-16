@@ -9,7 +9,7 @@ An aging former lawman (Randolph Scott) agrees to help his old partner (Joel McC
 
 _Ride the High Country_, while not his first film, served as something of a debut for director Sam Peckinpah, representing his first visit to the revisionist western genre that would later become so closely associated with him.
 
-And what a visit it is. Peckinpah takes two lesser-known mainstays of the traditional western and elevates them to genre icons. Scott and McCrea are absolutely perfect as a pair of aging former lawman; now well past their prime and simply trying to find their place in a world that’s passing them by. Through them, Peckinpah shows us a harsh, brutal west that’s light years removed from traditional genre setting. This loss of innocence perfectly mirrors the era in which the film was made, as the more sedate fifties were giving way to the tumultuous sixties.
+And what a visit it is. Peckinpah takes two lesser-known mainstays of the traditional western and elevates them to genre icons. Scott and McCrea are absolutely perfect as a pair of aging former lawmen, now well past their prime and simply trying to find their place in a world that’s passing them by. Through them, Peckinpah shows us a harsh, brutal west that’s light years removed from traditional genre setting. This loss of innocence perfectly mirrors the era in which the film was made, as the more sedate fifties were giving way to the tumultuous sixties.
 
 For their part, Scott and McCrea rise to the material, each giving the performance of their career. Scott himself would retire after this film, saying that _Ride the High Country_ was his best performance and that he wanted to go out on top.
 

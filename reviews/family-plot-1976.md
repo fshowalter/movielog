@@ -13,4 +13,4 @@ While the film does have a few things going for it--Barbara Harris looks amazing
 
 Even the sporadic Hitchcock touches, like the scene to introduce Karen Black's character, aren't enough to overcome the general tediousness. This is a two-hour film told in a very deliberate fashion, but the story isn't intriguing or amusing enough to warrant this level of detail.
 
-Granted, all this is assuming you're holding the film to the standards Hitchcock established with his fifty plus previous film. If it weren't his name on the credits, _Family Plot_ might be regarded simply as an uneven comedy thriller with flashes of inspiration and a great performance from William Devane. But with Hitchcock, you can't help but expect more.
+Granted, all this is assuming you're holding the film to the standards Hitchcock established with his fifty-plus previous films. If it weren't his name on the credits, _Family Plot_ might be regarded simply as an uneven comedy thriller with flashes of inspiration and a great performance from William Devane. But with Hitchcock, you can't help but expect more.

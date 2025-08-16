@@ -11,4 +11,4 @@ _Jamaica Inn_ is an interesting Hitchcock film, mainly because it doesn’t _fee
 
 The performances are fine all round--with Charles Laughton in particular chewing the scenery in his usual entertaining manner--but without a consistent theme behind them, they can sometimes seem off. Maureen O’Hara is perhaps the biggest victim of this, as she’s a refined damsel in her early scenes where the movie is veering to horror and echoing, of all things, <span data-imdb-id="tt0021814">_Dracula_</span>, but fifteen minutes later the same refined damsel is shrewdly cutting a man from a makeshift gallows.
 
-Still, even with its flaws, _Jamaica Inn_ is an entertaining film, though I can’t help wonder what Hitchcock would have done with the material had he made the film later in his career.
+Still, even with its flaws, _Jamaica Inn_ is an entertaining film, though I can't help but wonder what Hitchcock would have done with the material had he made the film later in his career.

@@ -12,7 +12,7 @@ Stanley Kubrick’s sophomore feature tells the story of a boxer who falls for h
 
 Jamie Smith plays the boxer, named Davey Gordon. The film opens with him smoking and pacing in New York City’s Penn Station. In what will become an unfortunate theme, we get voiceover narration.
 
-A quick note about the production: After struggling to make the sound work early, Kubrick fired his soundman and opted to add all the dialog and sound effects in post-production. This begs the question: was all the voiceover narration present in the original script, or did Kubrick add it as a workaround?
+A quick note about the production: After struggling to make the sound work early, Kubrick fired his soundman and opted to add all the dialogue and sound effects in post-production. This begs the question: was all the voiceover narration present in the original script, or did Kubrick add it as a workaround?
 
 Anyway, Davey's narration leads to a flashback, framing the film.
 
@@ -20,17 +20,17 @@ We learn Davey’s an aging boxer about to fight in a make-or-break bout against
 
 Waiting to pick up Gloria, we meet her boss, played by Frank Silvera. His smarmy tone alerts us to his shady nature, and when it’s revealed he owns a taxi-dance hall in Times Square, we buy it.
 
-Meanwhile, on the way to his bout, Davey reads a letter from his uncle. More voice-over narration, this time cringe-worthy in its artifice. Davey loses the bout and resolves to move back home to Seattle.
+Meanwhile, on the way to his bout, Davey reads a letter from his uncle. More voiceover narration, this time cringe-worthy in its artifice. Davey loses the bout and resolves to move back home to Seattle.
 
 Later that night, screams rouse Davey from sleep. Through the window, he sees a man assaulting Gloria in her apartment. We recognize the man as her boss. Davey rushes over, going upstairs and over the roof as it’s the fastest route. Gloria’s boss flees, but not before getting a look at Davey and recognizing him.
 
-Davey stays with Gloria, standing guard. The next morning, she tells Davey how she came to the city and her job as a taxi dancer. More voice-over narration over a semi-flashback within a flashback. The pair spend the day together. Romance blooms. Gloria agrees to leave town with Davey, but her boss has other ideas.
+Davey stays with Gloria, standing guard. The next morning, she tells Davey how she came to the city and her job as a taxi dancer. More voiceover narration over a semi-flashback within a flashback. The pair spend the day together. Romance blooms. Gloria agrees to leave town with Davey, but her boss has other ideas.
 
 It’s a decent-enough setup marred by the execution. Smith looks the part of a boxer, and acquits himself well in the fight sequence, which Kubrick imbues with a visceral fury, highlighted by a sequence where he cuts between a close shot, wider shots, and then a POV shot, as Davey takes a blow to the face and the camera pans up at the bright lights as he collapses on the mat.
 
-But Smith struggles with the voiceover. He lacks the charisma to carry such large swaths of dialog. Worse still, I’m not convinced the narration is even necessary. Kubrick shows us everything we need to know.
+But Smith struggles with the voiceover. He lacks the charisma to carry such large swaths of dialogue. Worse still, I’m not convinced the narration is even necessary. Kubrick shows us everything we need to know.
 
-As Gloria, Chase fares better. She’s all cheekbones and nails early. Allure tinged with a vulpine hint of danger. She handles her voice-over narration with comparable ease—except it’s not her. Chase wasn’t available to record her lines, so radio actress Peggy Lobbin voiced the role.
+As Gloria, Chase fares better. She’s all cheekbones and nails early. Allure tinged with a vulpine hint of danger. She handles her voiceover narration with comparable ease—except it’s not her. Chase wasn’t available to record her lines, so radio actress Peggy Lobbin voiced the role.
 
 Regardless, it’s Kubrick’s visual talents that elevate the picture. Shooting on location, Kubrick casts New York as a labyrinth of dead-end alleys, bustling streets, and cramped apartments. He leverages Times Square’s garish marquees and window displays to establish the seamy atmosphere. For the finale’s big chase sequence, he first leverages the wide but desolate back alleys of Hell’s Hundred Acres to convey a sense of futility, framing Smith as a tiny ant caught in a monstrous maze. Then, when Smith ascends a series of fire ladders to reach the rooftops, he frames him in a Hitchcockian wide shot, still an ant scurrying atop a vast roofscape, with the Manhattan Bridge looming in the hazy distance.
 

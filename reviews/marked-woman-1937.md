@@ -7,7 +7,7 @@ slug: marked-woman-1937
 
 In her first film following her failed lawsuit to escape her contract, Bette Davis stars in a plot ripped from contemporary headlines.
 
-Davis sued based on the type roles Warners was assigning her. Her prior film, <span data-imdb-id="tt0028219">_Satan Met a Lady_</span>, proved a tipping point. Said Davis in her autobiography, _The Lonely Life_:
+Davis sued based on the type of roles Warners was assigning her. Her prior film, <span data-imdb-id="tt0028219">_Satan Met a Lady_</span>, proved a tipping point. Said Davis in her autobiography, _The Lonely Life_:
 
 > I was so distressed by the whole tone of the script and the vapidity of my part that I marched up to Mr. Warner’s office and demanded that I be given work that was commensurate with my proven ability. I was promised wonderful things if only I would do this film. On its completion, my next assignment was the part of a female lumberjack in God’s Country and the Woman, a script so undistinguished and a part so stupid that I flatly refused to play it.
 

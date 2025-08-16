@@ -15,6 +15,6 @@ Winstone is great as the titular character. Essentially pulling off a dual role 
 
 Unfortunately, _Beowulf_ has two things working against it. The first is the lack of any strong emotional underpinning. Screenwriters Neil Gaiman and Roger Avary reworked the epic poem to infuse stronger thematic elements, but, in Zemeckis’s hands, these themes take a back seat to the film’s thrill-ride visuals; which is a shame, as it’s precisely what separates a really good film from a great one.
 
-The second thing working against the Zemeckis’s film is time. _Beowulf_ won’t age well. While it represents the pinnacle of animation today, in twenty years it will look positively dated, and many of the “gee-wiz” moments that make up the meat of the film will lose their luster.
+The second thing working against Zemeckis's film is time. _Beowulf_ won't age well. While it represents the pinnacle of animation today, in twenty years it will look positively dated, and many of the "gee-whiz" moments that make up the meat of the film will lose their luster.
 
 Still, for now, _Beowulf_ is a film that has to be seen (in 3-D) to be believed. While it may not be perfect, it’s a hell of a ride.

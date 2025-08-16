@@ -7,7 +7,7 @@ slug: deep-red-1975
 
 After witnessing a murder, a pianist teams with a reporter to find the killer.
 
-_Deep Red_ (_Profondo rosso_) is a taunt, well-photographed thriller.
+_Deep Red_ (_Profondo rosso_) is a taut, well-photographed thriller.
 
 Director Dario Argento’s sharp compositions are highlighted by his wonderful use of color, creating a truly signature look. Further, his innovative use of the camera elevates this film above the genre standard.
 

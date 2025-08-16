@@ -5,7 +5,7 @@ grade: C-
 slug: escape-to-witch-mountain-1975
 ---
 
-Two young orphans (Kim Richards and Ike Eisenmann) with mysterious powers find themselves on the run from a power hungry millionaire (Ray Milland) and his assistant (Donald Pleasence).
+Two young orphans (Kim Richards and Ike Eisenmann) with mysterious powers find themselves on the run from a power-hungry millionaire (Ray Milland) and his assistant (Donald Pleasence).
 
 _Escape to Witch Mountain_ is an entertaining, if dated, children's adventure film that works thanks in large part to its strong cast.
 

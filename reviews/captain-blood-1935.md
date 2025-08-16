@@ -11,4 +11,4 @@ _Captain Blood_ seems more like a warm-up for Errol Flynn and director Michael C
 
 The script crams a lot of story into 119 minutes, although the action doesn't really get going until the halfway mark. The story of _Captain Blood_ is an epic one, but the production values here simply don't rise to that level.
 
-The cast is altogether excellent, although later Curtiz collaborator Claude Raines would have been a welcome addition. Also, Basil Rathbone's scandalous French pirate Levasseur clearly deserves more screen time, as he's the only other actor who can come close to Flynn in terms of screen presence.
+The cast is altogether excellent, although later Curtiz collaborator Claude Rains would have been a welcome addition. Also, Basil Rathbone's scandalous French pirate Levasseur clearly deserves more screen time, as he's the only other actor who can come close to Flynn in terms of screen presence.

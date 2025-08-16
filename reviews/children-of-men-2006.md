@@ -6,7 +6,7 @@ grade: B+
 slug: children-of-men-2006
 ---
 
-In a dystopian near-future where the last child was born over eighteen years ago, society crumbles. Global refugees flock to London, one of the few functioning cities. Hoping for sanctuary, they find interment camps. Militant groups demanding better refugee treatment execute bombings and clash with government forces. Clive Owen plays a bureaucrat swept into the conflict via his estranged ex wife.
+In a dystopian near-future where the last child was born over eighteen years ago, society crumbles. Global refugees flock to London, one of the few functioning cities. Hoping for sanctuary, they find interment camps. Militant groups demanding better refugee treatment execute bombings and clash with government forces. Clive Owen plays a bureaucrat swept into the conflict via his estranged ex-wife.
 
 <!-- end -->
 

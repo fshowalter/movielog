@@ -5,7 +5,7 @@ grade: C-
 slug: private-detective-62-1933
 ---
 
-William Powell plays an American agent operating in Paris. An exfiltration mission goes awry, resulting in his apprehension and deportation. But just as his ship reaches New York harbor, the captain receives word to return Powell to France. Powell jumps ship and swims ashore. Disavowed by the government and unable to find work, he finagles his way into a private investigator job, only to fall for a gambler played by Margaret Lindsay, who's targeted for a frame up job by a crooked casino operator.
+William Powell plays an American agent operating in Paris. An exfiltration mission goes awry, resulting in his apprehension and deportation. But just as his ship reaches New York harbor, the captain receives word to return Powell to France. Powell jumps ship and swims ashore. Disavowed by the government and unable to find work, he finagles his way into a private investigator job, only to fall for a gambler played by Margaret Lindsay, who's targeted for a frame-up job by a crooked casino operator.
 
 <!-- end -->
 

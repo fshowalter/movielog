@@ -5,7 +5,7 @@ grade: C+
 slug: manhunter-1986
 ---
 
-A burned out federal agent (William Petersen) specializing in serial killers seeks the aid of his previous target, Hannibal Lecktor (Brian Cox), in capturing a new killer who appears select his targets at random.
+A burned out federal agent (William Petersen) specializing in serial killers seeks the aid of his previous target, Hannibal Lecktor (Brian Cox), in capturing a new killer who appears to select his targets at random.
 
 Manhunter was made too early in writer-director Michael Mann's career. It would be almost a decade before he hit his stride with his magnum opus, <span data-imdb-id="tt0113277">_Heat_</span>, though the stylistic seeds of that cops and robbers epic are visible here. The problem is that it's too uneven.
 

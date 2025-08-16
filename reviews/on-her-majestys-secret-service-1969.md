@@ -15,4 +15,4 @@ Continuity problems aside, the adherence to the novel makes this the most adult 
 
 As for Lazenby, he's okay, but at only 29-years old, just a bit too young. Opposite Lazenby, Diana Rigg is great as his love interest, though Telly Savalas doesn't quite work as Blofeld. Savalas straddles the line between menacing gangster and comic-book super-villain, and as a result comes off flat. He's the right actor, but director Peter Hunt should have shaped his performance more toward straight gangster.
 
-That said, _On Her Majesty's Secret_ service is still an easy film to recommend. While some fans will undoubtedly miss the comic-book adventure, the film's adult approach to its story more than makes up for it.
+That said, _On Her Majesty's Secret Service_ is still an easy film to recommend. While some fans will undoubtedly miss the comic-book adventure, the film's adult approach to its story more than makes up for it.

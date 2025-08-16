@@ -13,6 +13,6 @@ The movie plays and feels like a sitcom, albeit an all-star one, with family man
 
 This sitcom format shouldn't be too much of a surprise though, given director Jack Donohue's television background, but it's nonetheless an ill fit for Sinatra and Martin. Given free reign, the two could stretch the script's 20 minutes worth of material to three times that (throw in Sammy Davis Jr. and they could do an hour and a half,) but they're shackled by the clichéd plot.
 
-Neither one excel's at the "family man" role, and to compound maters, the film's later half minimizes Sinatra and Martin's time onscreen together, thus robbing the audience of their great chemistry.
+Neither one excels at the "family man" role, and to compound maters, the film's later half minimizes Sinatra and Martin's time onscreen together, thus robbing the audience of their great chemistry.
 
 It's not all bad, though. Martin does get some good scenes early on, and Cesar Romero's a hoot as a Mexican jack-of-all-trades, but it's not enough to overcome the oceans of down time between chuckles.

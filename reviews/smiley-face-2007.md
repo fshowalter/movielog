@@ -5,9 +5,9 @@ grade: C+
 slug: smiley-face-2007
 ---
 
-Anna Farris plays an actress who unwittingly eats an entire plate of pot cupcakes, then finds herself at the center of several misadventures.
+Anna Faris plays an actress who unwittingly eats an entire plate of pot cupcakes, then finds herself at the center of several misadventures.
 
-Director Gregg Araki’s film is refreshingly funny, and features an award worthy performance from Faris. While it may not have broken box office records, it deserved a theatrical run. A small run in college towns could have built a strong cult following.
+Director Gregg Araki's film is refreshingly funny, and features an award-worthy performance from Faris. While it may not have broken box office records, it deserved a theatrical run. A small run in college towns could have built a strong cult following.
 
 Dylan Haggerty’s script is a mix of stoner humor, screwball comedy, and genuine inspiration; a tone he establishes perfectly in the film’s opening scene. Further, at only 88 minutes Smiley Face acknowledges it’s more or less a one-joke movie, and doesn’t wear out its welcome.
 

@@ -9,7 +9,7 @@ After marrying a rich widower (Laurence Olivier), a timid young woman (Joan Font
 
 _Rebecca_ is a solid atmospheric thriller from director Alfred Hitchcock.
 
-The cast ranges from very good to excellent. Joan Fontaine is very believable as a meek young woman feeling insecure after vaulting into society life, Laurence Olivier is great Fontaine’s character’s charming but enigmatic husband, Judith Anderson is suitably stern and menacing as their housekeeper, and George Sanders is deliciously sleazy as the titular character’s “favorite cousin.”
+The cast ranges from very good to excellent. Joan Fontaine is very believable as a meek young woman feeling insecure after vaulting into society life, Laurence Olivier is great as Fontaine's character's charming but enigmatic husband, Judith Anderson is suitably stern and menacing as their housekeeper, and George Sanders is deliciously sleazy as the titular character’s “favorite cousin.”
 
 _Rebecca_ works largely on atmosphere, and the ever-increasing claustrophobic sense of dread Hitchcock is able to generate. He’s near perfect, only slipping once, during the memorable scene in Rebecca’s bedroom, where he overplays Joan Fontaine’s character’s timidity to the point where she loses the audience’s sympathy. Enough is enough girl, it’s only a bedroom. Stand up for yourself. Fortunately, Hitchcock rights himself quickly by having Fontaine’s character do just that as the movie shifts from atmospheric chiller to mystery.
 

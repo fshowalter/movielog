@@ -11,9 +11,9 @@ _Rosemary's Baby_ is a well-plotted, atmospheric, paranoid thriller with a great
 
 Mia Farrow's great as the titular Rosemary maintaining the audience's sympathy throughout and never going over the top in a role that's fraught with tricky scenes. Her performance is even more impressive when you consider that during filming her then-husband Frank Sinatra served her with divorce papers.
 
-Opposite her John Cassavetes is perfect as her ambitious husband. In a case of art imitating life, Farrow and Cassavetes marriage dissolves in the film because of his rise to fame, just as Farrow and Sinatra's dissolved in real life because of hers.
+Opposite her John Cassavetes is perfect as her ambitious husband. In a case of art imitating life, Farrow and Cassavetes' marriage dissolves in the film because of his rise to fame, just as Farrow and Sinatra's dissolved in real life because of hers.
 
-Ruth Gordon won an Oscar for her role as Farrow and Cassavetes nosey neighbor, and Sidney Blackmer's every bit as good as her husband.
+Ruth Gordon won an Oscar for her role as Farrow and Cassavetes' nosy neighbor, and Sidney Blackmer's every bit as good as her husband.
 
 Director Roman Polanski echoes his earlier film, <span data-imdb-id="tt0059646">_Repulsion_</span>, in creating a claustrophobic atmosphere of dread based around apartment living, and manages to maintain both the atmosphere and the tension through most of the film's 136-minute running time. Indeed, it's not until the final five minutes that the film really stumbles.
 

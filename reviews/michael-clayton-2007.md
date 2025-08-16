@@ -13,4 +13,4 @@ This isn’t a John Grisham adaptation. There are no last minute plot-twists, or
 
 While Clooney is good in the lead, something about him just doesn’t feel right. Maybe he’s too nice, or too well groomed, but I couldn’t help feeling that this character should look harder, more worn around the edges. It’s a nagging feeling, but not a deal-breaker.
 
-The deal-breaker is that I’m not sure how well _Michael Clayton_ will hold up to repeat viewings. The dialog, plot and performances are all very conservative. So much so, that I don’t know what’s left to savor the second time around. Time will tell on this front, but I suspect the years will be either very kind or very harsh to writer-director Tony Gilroy’s film.
+The deal-breaker is that I’m not sure how well _Michael Clayton_ will hold up to repeat viewings. The dialogue, plot and performances are all very conservative. So much so, that I don’t know what’s left to savor the second time around. Time will tell on this front, but I suspect the years will be either very kind or very harsh to writer-director Tony Gilroy’s film.

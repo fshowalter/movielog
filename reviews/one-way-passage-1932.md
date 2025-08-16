@@ -13,7 +13,7 @@ Warren Hymer plays Powell's captor, the kind of square-jawed lawman who orders b
 
 Francis also harbors a secret: she's dying of an unnamed terminal disease. The kind you only get in movies where she's fine until a shock renders her unconscious and the doctor insists she has “no further excitement.” But Francis wants excitement and determines to cram as much living as possible into her remaining days.
 
-The film balances this sombre melodrama with comic subplots involving Frank McHugh as a drunken pickpocket and Aline MacMahon as a con woman posing as a European countess. Both shine in their supporting roles, able to carry their solo scenes with ease. MacMahon even gets the best line in the film. After feigning interest in Hymer to aid Powell, she finds herself falling for him. She comes clean with the line, “I've been a long way and left a wide trail,” and Hymer's reaction made me smile.
+The film balances this somber melodrama with comic subplots involving Frank McHugh as a drunken pickpocket and Aline MacMahon as a con woman posing as a European countess. Both shine in their supporting roles, able to carry their solo scenes with ease. MacMahon even gets the best line in the film. After feigning interest in Hymer to aid Powell, she finds herself falling for him. She comes clean with the line, “I've been a long way and left a wide trail,” and Hymer's reaction made me smile.
 
 This was the last of six films Powell and Francis made together, and their easy chemistry convinces. We grow to love their characters and share their sense of urgency.
 

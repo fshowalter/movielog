@@ -9,7 +9,7 @@ _Isle of the Dead_ is an above average thriller thanks in large part to a great 
 
 Set during the first Balkan War, Karloff plays a Greek general who finds himself quarantined on an island and at war with a plague that may, or may not, be caused by a demon.
 
-Karloff shines as a disciplined general who’s spent his spent his entire life waging and winning wars, and now, faced with an enemy he can’t shoot or stab, he’s lost. The script by Ardel Wray does a wonderful job of crafting the character as a believable, relatable, man, and Karloff conveys volumes in a single world-weary glance. As the film unfolds, you go from fearing, to respecting, and eventually pitying, Karloff’s character; no small feat for a performer, but one Karloff pulls off with ease.
+Karloff shines as a disciplined general who's spent his entire life waging and winning wars, and now, faced with an enemy he can’t shoot or stab, he’s lost. The script by Ardel Wray does a wonderful job of crafting the character as a believable, relatable, man, and Karloff conveys volumes in a single world-weary glance. As the film unfolds, you go from fearing, to respecting, and eventually pitying, Karloff’s character; no small feat for a performer, but one Karloff pulls off with ease.
 
 _Isle of the Dead_ isn’t without its problems, however. Ellen Drew’s character is far too headstrong given the era and her position, a problem compounded by Drew’s lack of charisma compared to Karloff. When they’re at odds, you find yourself rooting for Karloff, which is not the script’s intention.
 

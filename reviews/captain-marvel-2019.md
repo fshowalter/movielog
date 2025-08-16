@@ -10,7 +10,7 @@ slug: captain-marvel-2019
 
 <!-- end -->
 
-After another forgettable set-piece, the film finds its feet. Larson crash-lands in 1990’s Los Angeles and teams up with Samuel L. Jackson who's reprising his role as super-spy Nick Fury. The Larson-Jackson pairing proves inspired. Their scenes together provide the film's best moments.
+After another forgettable set-piece, the film finds its feet. Larson crash-lands in 1990s Los Angeles and teams up with Samuel L. Jackson who's reprising his role as super-spy Nick Fury. The Larson-Jackson pairing proves inspired. Their scenes together provide the film's best moments.
 
 But about those rough edges. Like skips on a record, their incongruity pulled me out of the narrative. We have a scene where Annette Bening, blue blood trickling from her temples, struggles to pull a ray gun from her bomber jacket to “blast the core.” Ugh.
 

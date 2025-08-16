@@ -18,7 +18,7 @@ Cousin Gibboney is a fast-talking piece of work. When Bud says he's paying eight
 
 Gibboney introduces Bud to a couple of chorus girls, including Vida, played by Joan Blondell. Vida and Bud make googly eyes. Gibboney invites the girls to a party in Bud's suite later that evening.
 
-With Bud's money, Gibboney acquires some black-market booze. Assorted partiers arrive. Bud and Vida flirt, ignoring the crowd and the hooch. Credit the film for accuracy here, as the crowd goes from jubilant antics to a drunken stupor as the night wears on. As the guest leave, there's a drunken fight between two men, one played by Bogart. The lights go out. When they come back on, one guest lies dead. The remaining partygoers flee, including Vida.
+With Bud's money, Gibboney acquires some black-market booze. Assorted partiers arrive. Bud and Vida flirt, ignoring the crowd and the hooch. Credit the film for accuracy here, as the crowd goes from jubilant antics to a drunken stupor as the night wears on. As the guests leave, there's a drunken fight between two men, one played by Bogart. The lights go out. When they come back on, one guest lies dead. The remaining partygoers flee, including Vida.
 
 The police figure Bud for the murder and issue a warrant for his arrest. Alone and short on funds, Bud reunites with Vida in a speakeasy. He uses the last of his money to gamble, hoping to win enough to secure a future with Vida. Bud wins back his losses and then some, but of course, he doesn't quit while he's ahead. Bud loses everything. Then the police pounce.
 

@@ -14,7 +14,7 @@ You must commit to this one. It opens as one film, but ends as another. Without 
 
 Enrico, whose look can best be described as “sleazy magician”, sports a short boxed beard and wears track suits unzipped to the navel. He carries on an affair with one of his students and has a love-nest apartment with the bedroom covered in dorm-room-style pin-ups.
 
-He looks guilty early, having dropped a pen at the murder site. It seems the film will play out with him and Elizabeth ferreting out the killer from among the many suspects--including his wife.
+He looks guilty early, having dropped a pen at the murder site. It seems the film will play out with him and Elizabeth ferreting out the killer from among the many suspects—including his wife.
 
 Unoriginal, but I could have gotten behind it.
 

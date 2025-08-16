@@ -20,7 +20,7 @@ Jay and Hugh go to the movies[^1], but leave when Hugh catches sight of a woman 
 
 Later that night, Jay has sex with Hugh in the backseat of his car. It's their first time together. Afterwards, Jay lies in the backseat talking to Hugh while he fumbles around in the trunk. He finds what he's looking for and climbs back into the car behind her. Hugh cuts Jay off mid-sentence by covering her mouth with a rag. Jay struggles, but soon passes out.
 
-Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage. Hugh paces behind her, his eyes darting around. "You're not going to believe me," he begins, "but I need to you to remember what I'm saying."
+Jay wakes up tied to a wheelchair in a desolate, graffiti-covered parking garage. Hugh paces behind her, his eyes darting around. "You're not going to believe me," he begins, "but I need you to remember what I'm saying."
 
 Hugh tells Jay something is now following her. It doesn't run, but it's always walking in a straight line towards her. If it touches her, she's dead. It can look like anyone. Someone she knows or a complete stranger. It's a curse. Someone gave it to him, and now, by having sex with her, he's given it to her. If the thing gets her, it goes after him again, then right down the line to wherever it started. The best thing she can do now, he says, is to have sex with someone else and pass on the curse.
 

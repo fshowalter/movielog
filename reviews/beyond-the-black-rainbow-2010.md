@@ -10,7 +10,7 @@ The debut feature from <span data-imdb-id="tt6998518">_Mandy_</span> writer-dire
 
 Set in 1983, the story concerns the mysterious Arboria institute, a research facility promising “a happier you” through a blend of science and spirituality.
 
-The institute is run Dr. Nyle, a man who seems coldly detached from his own life. His sole pleasure comes from tormenting a young woman named Elena, who he keeps prisoner deep within the institute. Elena displays psychic powers, which Nyle suppresses with a glowing pyramid-shaped device.
+The institute is run by Dr. Nyle, a man who seems coldly detached from his own life. His sole pleasure comes from tormenting a young woman named Elena, who he keeps prisoner deep within the institute. Elena displays psychic powers, which Nyle suppresses with a glowing pyramid-shaped device.
 
 As Nyle’s obsession with Elena tips into madness, Elena must navigate the institute's horrors to find her way to freedom.
 

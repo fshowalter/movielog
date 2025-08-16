@@ -23,7 +23,7 @@ Schnee also punts on resolving the film's love triangle, opting for a reductive 
 
 Director John Sturges handles the material with workmanlike efficiency. The backlot locations give the film an artificial veneer it never shakes, but Sturges imbues the lone boxing sequence with reasonable verisimilitude. He'd later refer to the film as a “mild, nothing picture,”[^2] which sells it short. True, it doesn't hold up to Sturges's best films (which were all yet to come in 1950), but it's not wholly without merit.
 
-It's a film about a boxer, but not about boxing. True, boxing fans will be disappointed the film only features a single bout, and fans of Allyson and Powell will be disappointed to find they aren’t a couple and take a backseat--story wise--to Montalban. But Montalban fans should enjoy his rich performance.
+It's a film about a boxer, but not about boxing. True, boxing fans will be disappointed the film only features a single bout, and fans of Allyson and Powell will be disappointed to find they aren’t a couple and take a backseat--story-wise--to Montalban. But Montalban fans should enjoy his rich performance.
 
 [^1]: Glenn Lovell, _Escape Artist: The Life and Films of John Sturges_ (Madison: University of Wisconsin Press, 2008), Kindle Edition, loc. 677.
 [^2]: Lovell, _Escape Artist_, loc. 677.

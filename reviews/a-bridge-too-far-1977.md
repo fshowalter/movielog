@@ -13,7 +13,7 @@ There's a lot of good here. The all-star cast hits (Sean Connery, Michael Caine,
 
 But then there's that last 30 minutes.
 
-You see, for the first two hours or so, the film is essentially a docu-drama style look at Operation Market Garden, from its initial planning stages to its execution and failure. Small dramatic arcs, like short stories, interrupt the proceedings from time to time, such as James Caan's rescuing an injured friend, but for the most part we're a dispassionate observer. Yet, in the final quarter, the filmmakers attempt to ground the story through the eyes of a doctor, played by Laurence Olivier and a woman, played by Liv Ullmann, who are manning a makeshift hospital.
+You see, for the first two hours or so, the film is essentially a docu-drama style look at Operation Market Garden, from its initial planning stages to its execution and failure. Small dramatic arcs, like short stories, interrupt the proceedings from time to time, such as James Caan's rescuing an injured friend, but for the most part we're a dispassionate observer. Yet, in the final quarter, the filmmakers attempt to ground the story through the eyes of a doctor, played by Laurence Olivier, and a woman, played by Liv Ullmann, who are manning a makeshift hospital.
 
 The thing is, it doesn't work.
 

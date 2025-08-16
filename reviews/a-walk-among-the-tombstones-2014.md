@@ -17,7 +17,7 @@ Scudder acquires a plucky, street-smart homeless boy named TJ as a sidekick. TJ 
 
 The film's contempt for its audience's intelligence is galling. At one point, Scudder discovers some hackneyed romance fiction. He reads it aloud even though he's alone and the camera is on the page.
 
-Spoon-feeding plot-points like this causes the film to drag. Consider the opening flashback sequence. Scudder sits in a car with his partner, who's bemoaning Scudder's drinking, saying he worries he can't count on Scudder to have his back. Scudder gets out of the car and walks into a bar. It's morning. He grabs a paper and sits down. Without a word, the bartender brings Scudder a coffee and two shots of whiskey.
+Spoon-feeding plot points like this causes the film to drag. Consider the opening flashback sequence. Scudder sits in a car with his partner, who's bemoaning Scudder's drinking, saying he worries he can't count on Scudder to have his back. Scudder gets out of the car and walks into a bar. It's morning. He grabs a paper and sits down. Without a word, the bartender brings Scudder a coffee and two shots of whiskey.
 
 Why not open with Scudder entering the bar? The morning light and wordless exchange tell us everything. And the partner? We never see him again.
 

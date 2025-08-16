@@ -17,7 +17,7 @@ Lugosi lurks around a cobwebbed castle, preys on Allan, lurks around some more. 
 
 Then, at the fifty-minute mark, the film discards all the gothic horror elements in favor of a locked room mystery plot resolution involving hypnosis. The twist may surprise on first watch, but subsequent viewings reveal gaping plot holes. Consider the aforementioned transformation scene, or the shots of Lugosi stalking around the castle, or Lugosi's attacks on Allan. None of it makes sense.
 
-The film appears to be a remake of Todd Browning's 1927 silent film, <span data-imdb-id="tt0018097">_London After Midnight_</span>. That film is lost but the shooting script describes a similar plot. Thus Browning, who also helmed _Dracula_, should have been comfortable with the material. Yet he has Barrymore ham it up and regulates Lugosi to a prop.
+The film appears to be a remake of Todd Browning's 1927 silent film, <span data-imdb-id="tt0018097">_London After Midnight_</span>. That film is lost but the shooting script describes a similar plot. Thus Browning, who also helmed _Dracula_, should have been comfortable with the material. Yet he has Barrymore ham it up and relegates Lugosi to a prop.
 
 What happened?
 

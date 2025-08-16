@@ -12,7 +12,7 @@ The title comes from a French children's song. As an indication of the tone Nyho
 
 The plot follows Tobias and Elin, a couple who open the film enduring a terrible tragedy. Fast-forward three years and they’ve grown cold to each other, communicating only in verbal snipes. A camping vacation in the countryside turns into a nightmare when three near-fantastical characters emerge from the woods and trap them in a time loop ending in humiliation and murder.
 
-At first, Tobias learns from past loops and leverages this knowledge to get ahead of his assailants, only to find his efforts futile. Nyholm avoids the obvious trope of having Tobias literally enact the stages of grief, and the time-loop's cyclical nature effectively mirrors a spiraling depression as Tobias's efforts to escape all led to the same fate, creating an escalating sense of hopelessness.
+At first, Tobias learns from past loops and leverages this knowledge to get ahead of his assailants, only to find his efforts futile. Nyholm avoids the obvious trope of having Tobias literally enact the stages of grief, and the time-loop's cyclical nature effectively mirrors a spiraling depression as Tobias's efforts to escape all lead to the same fate, creating an escalating sense of hopelessness.
 
 But here’s where the film’s concept unravels. With Tobias being the only one experiencing the loop, Elin gets relegated to an obstacle. Nyholm addresses this too late by having Elin experience her own loop several cycles in, devoid of Tobias. This breaks the narrative’s iterative nature and renders the ending moot. If they’re both in independent loops, how can they escape?
 

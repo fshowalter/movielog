@@ -6,9 +6,9 @@ grade: B
 date: 2024-11-04
 ---
 
-After driving their Batman franchise into the ground with 1997’s bloated and campy, <span data-imdb-id="tt0118688">_Batman and Robin_</span>, Warner sought to reboot the series.
+After driving their Batman franchise into the ground with 1997's bloated and campy <span data-imdb-id="tt0118688">_Batman and Robin_</span>, Warner sought to reboot the series.
 
-Enter _Batman Begins_, directed by Christopher Nolan, and written by Nolan and David Goyer. Instead of silly camp, Nolan sought to ground his Batman in realism, rationalizing every element of the costume and gadgets.
+Enter _Batman Begins_, directed by Christopher Nolan and written by Nolan and David Goyer. Instead of silly camp, Nolan sought to ground his Batman in realism, rationalizing every element of the costume and gadgets.
 
 While this verisimilitude proved a refreshing change, it clashed with the script’s fantastical story which sees Christian Bale play Bruce Wayne, a billionaire orphaned as a child after seeing his parents murdered by a jittery mugger. Bruce grows up seeking vengeance only to find it denied, then loses himself for seven years in East Asia. A mysterious man named Ducard, played by Liam Neeson, approaches Wayne in a Bhutan prison with an invitation to join the League of Shadows, a shadowy cabal fighting injustice.
 

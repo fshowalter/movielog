@@ -11,7 +11,7 @@ _Captain Clegg_ (_Night Creatures_ in the USA) is a well-done historical mystery
 
 Granted, the script by Hammer producer Anthony Hinds (credited to his pseudonym John Elder) operates on a plot that would be right at home in an episode of Scooby-Doo, but it also crafts a very entertaining anti-hero in Peter Cushing’s Reverend Doctor Blyss. Rather than paint the characters in black and white, Hinds uses shades of gray, and the film is better for it.
 
-Patrick Allen, who does a good job as the staunch officer sent to investigate a report of smuggling, holds his own very well opposite Cushing. No small feat. Further, he plays the role in an intelligent fashion, his character knows full well something is amiss in the town, but the years of military service temper any extreme emotions. That Allen is able to convey all this despite relatively little dialog is a testament to the strength of his performance.
+Patrick Allen, who does a good job as the staunch officer sent to investigate a report of smuggling, holds his own very well opposite Cushing. No small feat. Further, he plays the role in an intelligent fashion, his character knows full well something is amiss in the town, but the years of military service temper any extreme emotions. That Allen is able to convey all this despite relatively little dialogue is a testament to the strength of his performance.
 
 Supporting Cushing and Allen are some fine performers including Oliver Reed who brings his usual intensity to what could have been a throwaway role, and Michael Ripper and Milton Reid whose performances are atmosphere unto themselves.
 

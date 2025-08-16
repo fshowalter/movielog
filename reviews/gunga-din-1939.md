@@ -11,4 +11,4 @@ It starts with a classic opening credit sequence and closes with a knock-out act
 
 The story sees Cary Grant, Victor McLaglen, and Douglas Fairbanks Jr. as British troops battling a Thuggee cult with the help of a native water carrier.
 
-Granted, the score can be overpowering, with musical ques inserted where silence would have much better served the atmosphere, and the script does drag a bit towards the middle. While neither of these are deal-breakers, I can't help but wonder if Howard Hawks--who was scheduled to direct the movie before being fired--would have made the same mistakes.
+Granted, the score can be overpowering, with musical cues inserted where silence would have much better served the atmosphere, and the script does drag a bit towards the middle. While neither of these are deal-breakers, I can't help but wonder if Howard Hawks--who was scheduled to direct the movie before being fired--would have made the same mistakes.

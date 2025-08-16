@@ -5,7 +5,7 @@ grade: C
 slug: walk-dont-run-1966
 ---
 
-A business man (Cary Grant) rooms with an athlete (Jim Hutton) and a young woman (Samantha Eggar) during the 1964 Tokyo Olympics.
+A businessman (Cary Grant) rooms with an athlete (Jim Hutton) and a young woman (Samantha Eggar) during the 1964 Tokyo Olympics.
 
 _Walk Don't Run_ is an amiable movie, but notable only as Cary Grant's final film. Jim Hutton echoes a young James Stewart, and Samantha Eggar, while not totally charming, is pleasing enough; but this movie is very much a victory lap for Grant who, even at 62, had more charm and presence than most any actor to ever live.
 

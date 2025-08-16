@@ -31,7 +31,7 @@ When Jimmy learns Auntie needs money to avoid foreclosure on the home, he enters
 
 In presenting Sammy Stein as Cobra, the film exposes its biggest weakness. Fairbanks Jr. doesn't convince as a champion boxer. His features are too slight, his nose unmarred by a boxer's mileage. In contrast, Stein, with his jutting jaw, blunted nose, and drooping brow, looks plucked from the local underground bare-knuckle circuit. This could be a deal-breaker, but Fairbanks Jr. compensates by convincing as a cynical, desperate fugitive.
 
-John Wayne plays one of the other boxers challenging Cobra. In an intriguing turn, his character is scared. His performance proves unique in Wayne's oeuvre, delivering a steady stream of dialog while pacing and fidgeting. He's stiff, but it's fascinating to see him acting instead of performing.
+John Wayne plays one of the other boxers challenging Cobra. In an intriguing turn, his character is scared. His performance proves unique in Wayne's oeuvre, delivering a steady stream of dialogue while pacing and fidgeting. He's stiff, but it's fascinating to see him acting instead of performing.
 
 Anyway, you can imagine how the fight goes but two moments surprised.
 

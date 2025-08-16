@@ -12,7 +12,7 @@ Those scenes come early. John Wayne plays a fugitive named John (of course) stow
 
 We see John underwater, breathing through a reed. It's not a special effect. I'm not sure how they shot these scenes, but that's Wayne underwater, breathing through a stick in what looks like a lake.
 
-After eluding the lawmen, who believe him dead, John surfaces and encounters a gunslinger. The gunslinger, recognizing a fellow desperado, introduces himself as Jones and invites John to join an outlaw gang. John accepts and he and Jones become fast-friends and rivals for the local shopgirl, Sally.
+After eluding the lawmen, who believe him dead, John surfaces and encounters a gunslinger. The gunslinger, recognizing a fellow desperado, introduces himself as Jones and invites John to join an outlaw gang. John accepts and he and Jones become fast friends and rivals for the local shopgirl, Sally.
 
 Of course, John's not really a bad guy. He passes notes to Sally warning her of the gang's intentions. And of course, it was Jones who committed the crime pinned on John. And of course, John doesn't discover this until the second act's end. But you know what? I didn't mind.
 

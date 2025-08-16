@@ -13,4 +13,4 @@ And that’s where it falters. I’m still not sure who you’re supposed to roo
 
 The Road Runner and Coyote cartoons never opened with a funeral, and even though the one in _Mousehunt_ is played for laughs it still doesn’t work. Director Gore Verbinski tries to jump between cartoon and black comedy and the result is a film that can’t find its identity.
 
-While the abundant and obvious CGI don’t help these problems, Christopher Walken’s all to brief cameo does. If you’re a big Walken fan, the movie’s worth watching just for him. His scenes are easily the best in the entire movie.
+While the abundant and obvious CGI don’t help these problems, Christopher Walken's all too brief cameo does. If you’re a big Walken fan, the movie’s worth watching just for him. His scenes are easily the best in the entire movie.

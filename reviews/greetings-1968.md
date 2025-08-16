@@ -10,4 +10,4 @@ slug: greetings-1968
 
 <!-- end -->
 
-I loved the guerilla-style New York City photography. And I appreciated the natural performances and De Palma's plain presentation. But I struggled to connect with the film's humor. It talks in shorthand to a 1968 audience, and I lack the social context and awareness to appreciate the nuance.
+I loved the guerrilla-style New York City photography. And I appreciated the natural performances and De Palma's plain presentation. But I struggled to connect with the film's humor. It talks in shorthand to a 1968 audience, and I lack the social context and awareness to appreciate the nuance.

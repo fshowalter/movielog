@@ -7,4 +7,4 @@ slug: paradise-canyon-1935
 
 A cowboy G-Man (John Wayne) follows a medicine show to counterfeiters.
 
-_Paradise Canyon_ is a mixed bag. John Wayne stumbles over his lines and never seems entirely comfortable in his role, thus somewhat muting his considerable charisma, but compensating for this are some great stunts and good fight scenes that really help propel the movie along, especially given it’s quick 55 minute running time.
+_Paradise Canyon_ is a mixed bag. John Wayne stumbles over his lines and never seems entirely comfortable in his role, thus somewhat muting his considerable charisma, but compensating for this are some great stunts and good fight scenes that really help propel the movie along, especially given its quick 55-minute running time.

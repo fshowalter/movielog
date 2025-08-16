@@ -10,7 +10,7 @@ I wanted to give this one five stars. I saw it in theaters during its original r
 
 <!-- end -->
 
-Chevy Chase plays Clark Griswold, an every-man attempting to host the perfect family Christmas, with disastrous results.
+Chevy Chase plays Clark Griswold, an everyman attempting to host the perfect family Christmas, with disastrous results.
 
 John Hughes’s script strings together multiple skits, some riotous, some schmaltzy. I love how he focuses on the family dynamics and sidesteps any religious notions, even having the senile aunt recite “The Pledge of Allegiance” instead of grace.
 

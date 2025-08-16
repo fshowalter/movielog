@@ -21,7 +21,7 @@ The four victims travel to the kung fu master’s teacher, where they learn to o
 
 A by-the-numbers revenge picture highlighted by the surprising violence and acrobatic choreography. The opening litany of dismemberment and bone-shattering violence promises an over-the-top spectacle, but many of the second act battles end with the villains retreating. When it arrives, the finale doesn’t pack the first act’s level of shock.
 
-The battles themselves almost compensate. The choreography dazzles, with each of the principals a skilled acrobat. Sun Chien and Chiang Sheng , in particular, shine during several synchronized sequences involving giant metal rings.
+The battles themselves almost compensate. The choreography dazzles, with each of the principals a skilled acrobat. Sun Chien and Chiang Sheng, in particular, shine during several synchronized sequences involving giant metal rings.
 
 But while impressive, these sequences often run too long, repeating movements multiple times with little effect, save padding the running time.
 

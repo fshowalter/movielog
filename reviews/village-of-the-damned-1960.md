@@ -7,7 +7,7 @@ date: 2003-10-12
 
 A group of alien children born with hypnotic powers share a collective conscience and terrorize a small English village.
 
-With a running time of only 77 minutes, _Village of the Damned_ is a textbook example of efficient storytelling. Every scene has a purpose, rather it be fleshing out the story, advancing the plot, or developing a character, and while the movie does rely on exposition for some of its trickier plot points, the movie is primarily visual.
+With a running time of only 77 minutes, _Village of the Damned_ is a textbook example of efficient storytelling. Every scene has a purpose, whether it be fleshing out the story, advancing the plot, or developing a character, and while the movie does rely on exposition for some of its trickier plot points, the movie is primarily visual.
 
 The cast is terrific. George Sanders seems effortlessly charismatic as the believably flawed scientist lead. The child actors, possibly the most important part of the film, are excellent, particularly Martin Stephens, whose performance is the perfect blend of both child and monster.
 

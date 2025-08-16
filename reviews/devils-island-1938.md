@@ -13,4 +13,4 @@ Karloff, renowned for his more sinister roles, plays the hero here and pulls it 
 
 Opposite Karloff, James Stephenson turns in a satisfyingly low-key performance as an amoral warden.
 
-While the script is a mostly by-the-numbers affair with a social commentary slant, the film’s brief 62 minute running time keeps it from wearing out its welcome. While it’s certainly shallow, it’s also not that bad and fans of Karloff will certainly enjoy it.
+While the script is a mostly by-the-numbers affair with a social commentary slant, the film's brief 62-minute running time keeps it from wearing out its welcome. While it’s certainly shallow, it’s also not that bad and fans of Karloff will certainly enjoy it.

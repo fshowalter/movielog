@@ -15,4 +15,4 @@ Further, aside from the obvious Vietnam references, there isn’t much to explic
 
 Granted, _First Blood_ does get more and more ridiculous as it goes on, but director Ted Kotcheff maintains the suspension of disbelief throughout the 94-minute running time, and the emotional finale is surprisingly poignant, and far superior to the discarded ending where Stallone’s character commits suicide.
 
-Indeed, the film’s biggest misstep occurs during its final moments, when the laughable awful theme song begins playing. Not only is it jarring and horribly dated, but it undercuts much of the film’s emotional impact.
+Indeed, the film’s biggest misstep occurs during its final moments, when the laughably awful theme song begins playing. Not only is it jarring and horribly dated, but it undercuts much of the film’s emotional impact.

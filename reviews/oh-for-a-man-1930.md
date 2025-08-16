@@ -6,7 +6,7 @@ grade: F
 slug: oh-for-a-man-1930
 ---
 
-Opera diva Jeanette MacDonald runs roughshod over everyone in her life only to fall for cat-burglar Reginald Denny, who she meets when he burgles her bedroom. Denny, of course, has aspirations of a singing career himself.
+Opera diva Jeanette MacDonald runs roughshod over everyone in her life only to fall for cat-burglar Reginald Denny, whom she meets when he burgles her bedroom. Denny, of course, has aspirations of a singing career himself.
 
 <!-- end -->
 

@@ -13,4 +13,4 @@ And that's the movie in a nutshell. It takes the little things that original <sp
 
 And that's not necessarily a bad thing. Robert Patrick's surprisingly solid in the lead, (so much so that Tarantino would do well to consider him for a future role) and the script has more than a few funny moments.
 
-It's the last twenty minutes or so, when the movie's reduced to a big shoot-out, that drag the movie down. Twenty minutes of aping Rodriguez's visual style plays like one long, unfunny joke that leaves you itching for the fast-forward button.
+It's the last twenty minutes or so, when the movie's reduced to a big shootout, that drag the movie down. Twenty minutes of aping Rodriguez's visual style plays like one long, unfunny joke that leaves you itching for the fast-forward button.

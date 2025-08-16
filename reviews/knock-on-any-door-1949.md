@@ -15,6 +15,6 @@ Unfortunately, like most pre-<span data-imdb-id="tt0061722">_Graduate_</span> fi
 
 What’s left comes across as preachy and disingenuous. The contrived plotting and heavy-handed approach don't help. From the opening zooming closeup of a policeman blowing a whistle, to Bogart's closing oratory directly to the camera, this is an in-your-face film, and that's a large part of what sinks it.
 
-Buried in all the heavy-handed messaging is a solid performance by Humphrey Bogart, who manages the impossible task of pulling off the film’s big finale speech. Like so much of the film’s dialog, Bogart’s monologue feels trite and self satsifying on paper, but Bogart pulls it off; a testament to his strength as an actor.
+Buried in all the heavy-handed messaging is a solid performance by Humphrey Bogart, who manages the impossible task of pulling off the film’s big finale speech. Like so much of the film's dialogue, Bogart's monologue feels trite and self-satisfying on paper, but Bogart pulls it off; a testament to his strength as an actor.
 
-For his part, lead John Derek does the best he can with the material. While he certainly looks the part, he overacts badly in almost every scene. That said, with the script’s poor dialog, if Derek had really overdone it, _Knock on Any Door_ would actually work as a satire.
+For his part, lead John Derek does the best he can with the material. While he certainly looks the part, he overacts badly in almost every scene. That said, with the script's poor dialogue, if Derek had really overdone it, _Knock on Any Door_ would actually work as a satire.

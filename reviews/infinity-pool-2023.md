@@ -39,4 +39,4 @@ But after these escalations, the film stumbles. Some forced-plotting sees James 
 
 Like Bill Gunn, who’s <span data-imdb-id="tt0174244">_Stop!_</span> saw a writer in a tropical locale suffering from privileged malaise venture into bacchanalian waters, Cronenberg’s effort feels earnest but unresolved. As though he hoped in making the picture, his feelings would coalesce, but like his protagonist, found himself lost and unsure where to go next.
 
-Still, the film still haunts. Not its message, but its potential. Like <span data-imdb-id="tt1029234">_Martyrs_</span>, it could have challenged our fundamental notions and left us forever altered by the viewing experience. Alas, it falls short.
+Still, the film haunts. Not its message, but its potential. Like <span data-imdb-id="tt1029234">_Martyrs_</span>, it could have challenged our fundamental notions and left us forever altered by the viewing experience. Alas, it falls short.

@@ -13,6 +13,6 @@ Val Kilmer tries very hard, but I never quite bought him in the lead. He brings 
 
 The supporting cast around Kilmer is a knockout. Ed O’Neill and William H. Macy in particular shine in what are really extended cameos, as do supporting players Derek Luke and Tia Texada.
 
-The script by writer/director David Mamet crackles with great dialog made up of shoptalk and fragments. While some of the lines don’t work (“You don’t wanna go to the desert.”), this may have more to do with the delivery than the line itself. The underlying story has some holes, but the way Mamet presents it, trusting the audience to put the pieces together, is very rewarding.
+The script by writer/director David Mamet crackles with great dialogue made up of shoptalk and fragments. While some of the lines don’t work (“You don’t wanna go to the desert.”), this may have more to do with the delivery than the line itself. The underlying story has some holes, but the way Mamet presents it, trusting the audience to put the pieces together, is very rewarding.
 
 It’s not perfect, but intelligent action/thrillers are a rare breed.

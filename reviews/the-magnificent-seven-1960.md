@@ -61,12 +61,12 @@ But Buchholz proves persistent and soon joins the group en route to the village.
 
 It’s the sort of sentimental melodrama Hawks always excised from his pictures. Sure, the villagers feel a little sappy begging for help, but as the lead villager, Jorge Martínez de Hoyos’ baggy eyes convey a sense of resolve beneath his pleading.
 
-But Buchholz’s performance feels spliced from a different movie—an Actors Studio melodrama where he must convey the turmoil and frustration of growing up as a peasant farmer in every word and gesture. His delivers what feels like more dialogue than the other six combined. Much of it angst ridden or sulky. It doesn’t gel with the rest of the cast’s quiet meditation on the shrinking west and life as a hired gun.
+But Buchholz’s performance feels spliced from a different movie—an Actors Studio melodrama where he must convey the turmoil and frustration of growing up as a peasant farmer in every word and gesture. He delivers what feels like more dialogue than the other six combined. Much of it angst ridden or sulky. It doesn’t gel with the rest of the cast’s quiet meditation on the shrinking west and life as a hired gun.
 
 None are here for justice, just money and the chance to prove himself against uneven odds. There’s a thematic through-line to Sam Peckinpah’s <span data-imdb-id="tt0065214">_The Wild Bunch_</span> which dealt in similar themes of loyalty amid changing times, but grounded in a grittier reality, with Angel substituting for Buchholz’s character.
 
 Still, _The Magnificent Seven_ entertains. The wide-screen photography captures the majestic landscape and affords enough room for all seven to share the frame during the hangout scenes and the multitude of horses and bandits swarming the village during the climactic shootout.
 
-Brynner leads this cast of leading men with practiced ease, convincing from the outset as an aging gunslinger wary of the his future. McQueen shines as a kindred spirit whose wordless reactions and body language prove a performance unto themselves.
+Brynner leads this cast of leading men with practiced ease, convincing from the outset as an aging gunslinger wary of his future. McQueen shines as a kindred spirit whose wordless reactions and body language prove a performance unto themselves.
 
 As a western adventure, the film teeters on the precipice of greatness, building on Hawks and foreshadowing Peckinpah, but Buchholz’s performance anchors it in 1950s melodrama. Not a fatal flaw, just a frustrating one.

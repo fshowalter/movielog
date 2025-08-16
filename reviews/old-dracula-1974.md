@@ -5,7 +5,7 @@ grade: D
 date: 2004-03-11
 ---
 
-Count Dracula heads to London in order to find the model who's blood can possibly reverse his bride's recent transformation into a black woman.
+Count Dracula heads to London in order to find the model whose blood can possibly reverse his bride's recent transformation into a black woman.
 
 Yes, you read that synopsis right. _Vampira_, also known as _Old Dracula_, is an awful movie. David Niven must have been desperate for the money because this production is so far beneath his stature it's shameful.
 

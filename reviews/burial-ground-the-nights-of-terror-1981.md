@@ -28,7 +28,7 @@ This film followed the worldwide commercial success of director Lucio Fulci's _Z
 
 That borderline comedic bit aside, Bianchi aspires to the same nihilistic dread as Fulci's _Zombie_ and <span data-imdb-id="tt0081318">_City of the Living Dead_</span>, but falls short of mustering the same suffocating sense of futility.
 
-He also makes some technical gaffes. While the aforementioned zombie emergence shot shines, too often the pink flesh around the performers' eyes or wrists betrays illusion. Bianchi doesn't help by staging many zombie attacks in daylight exteriors or well-lit interiors and lingering on the zombies in medium shots.
+He also makes some technical gaffes. While the aforementioned zombie emergence shot shines, too often the pink flesh around the performers' eyes or wrists betrays the illusion. Bianchi doesn't help by staging many zombie attacks in daylight exteriors or well-lit interiors and lingering on the zombies in medium shots.
 
 And the score's jazz synth noises—while original—seem detached from the film, making me appreciate frequent Fulci collaborator Fabio Frizzi all the more.
 

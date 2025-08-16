@@ -10,4 +10,4 @@ Ray Wise plays a scientist working deep in the swamp on a top-secret government 
 
 <!-- end -->
 
-It's a pulpy story played out in a pulpy manner. The location photography and an early burning man stunt appear to exhaust the film's budget. The Swamp Thing suit and makeup and the remaining stunts feel on-par with top tier episodes of _The Incredible Hulk_ and _The Dukes of Hazzard_. Disappointing, but if you can adjust your expectations down from modern superhero fare, it proves a fun ride.
+It's a pulpy story played out in a pulpy manner. The location photography and an early burning man stunt appear to exhaust the film's budget. The Swamp Thing suit and makeup and the remaining stunts feel on-par with top-tier episodes of _The Incredible Hulk_ and _The Dukes of Hazzard_. Disappointing, but if you can adjust your expectations down from modern superhero fare, it proves a fun ride.

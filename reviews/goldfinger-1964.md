@@ -9,7 +9,7 @@ A smuggling investigation leads British secret agent James Bond (Sean Connery) t
 
 _Goldfinger_, the third film in the long running James Bond series, is the best of the Sean Connery efforts. Omitting both the over-the-top comic book elements of <span data-imdb-id="tt0055928">_Dr. No_</span>, and the dated cold-war paranoia of <span data-imdb-id="tt0057076">_From Russia with Love_</span>, this entry strikes a perfect balance between spy-thriller and adventure, topped off with a few winks to the audience here and there.
 
-From the theme song during the opening credits to John Barry's classic music cues just as Connery's about to do something awesome, this is the film where everything came together, a fact best illustrated by the iconic shot during the opening sequence of Bond striping out of his wetsuit to reveal a tuxedo.
+From the theme song during the opening credits to John Barry's classic music cues just as Connery's about to do something awesome, this is the film where everything came together, a fact best illustrated by the iconic shot during the opening sequence of Bond stripping out of his wetsuit to reveal a tuxedo.
 
 Supporting Connery, Gert Fröbe's Auric Goldfinger ranks as one of the classic Bond villains, as does his henchman Oddjob, played by Harold Sakata. Rounding out the cast, there's Honor Blackman as perhaps the most famous of Bond girls, Pussy Galore.
 

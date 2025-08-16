@@ -5,9 +5,9 @@ grade: B
 slug: fort-apache-1948
 ---
 
-A Calvary officer (John Wayne) watches as his ambitious and arrogant commanding officer (Henry Fonda) leads the company into a massacre.
+A Cavalry officer (John Wayne) watches as his ambitious and arrogant commanding officer (Henry Fonda) leads the company into a massacre.
 
-_Fort Apache_ was the first installment in director John Ford's unofficial Calvary Trilogy, followed by <span data-imdb-id="tt0041866">_She Wore a Yellow Ribbon_</span> and <span data-imdb-id="tt0042895">_Rio Grande_</span>. Featuring a very grim ending, this first outing is easily the darkest of the three, and, were it not for its somewhat awkward epilogue, could serve as a strong anti-war film.
+_Fort Apache_ was the first installment in director John Ford's unofficial Cavalry Trilogy, followed by <span data-imdb-id="tt0041866">_She Wore a Yellow Ribbon_</span> and <span data-imdb-id="tt0042895">_Rio Grande_</span>. Featuring a very grim ending, this first outing is easily the darkest of the three, and, were it not for its somewhat awkward epilogue, could serve as a strong anti-war film.
 
 Despite taking second billing to John Wayne, this is Henry Fonda's movie. His character, Own Thursday is a thinly veiled Custer who engineers a war with the Apaches in order to further his own career, only to realize his blinding ambition has doomed not only himself, but all the men under his command as well. It's a knockout performance that's against-type for the normally affable Fonda, but absolutely believable from the opening moments.
 

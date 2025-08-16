@@ -5,7 +5,7 @@ grade: B-
 slug: jersey-girl-2004
 ---
 
-A music publicist (Ben Affleck) struggles reconcile his new life as a father.
+A music publicist (Ben Affleck) struggles to reconcile his new life as a father.
 
 _Jersey Girl_ was a victim of unfortunate timing. The media had been having a field day with the romance between stars Ben Affleck and Jennifer Lopez, which culminated in a critical pile-on for Affleck and Lopez's <span data-imdb-id="tt0299930">_Gigli_</span>. Thus, overexposed, and considered box-office poison, their re-teaming in writer-director Kevin Smith's film the following year was dead in the water.
 

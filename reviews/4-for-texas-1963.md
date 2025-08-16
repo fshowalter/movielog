@@ -5,7 +5,7 @@ grade: C+
 slug: 4-for-texas-1963
 ---
 
-Two men (Frank Sinatra and Dean Martin) fight over a chunk of stolen money and a riverboat casino in 1870's Galveston.
+Two men (Frank Sinatra and Dean Martin) fight over a chunk of stolen money and a riverboat casino in 1870s Galveston.
 
 4 for Texas, despite its numerical title, isn't really a Rat Pack film like <span data-imdb-id="tt0054135">_Ocean's Eleven_</span>, <span data-imdb-id="tt0056470">_Sergeants 3_</span> or <span data-imdb-id="tt0058529">_Robin and the 7 Hoods_</span>, as only Frank Sinatra and Dean Martin are present.
 

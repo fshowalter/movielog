@@ -7,7 +7,7 @@ slug: under-the-volcano-1984
 
 _Under the Volcano_ is an ambitious adaptation of Malcolm Lowry's novel from director John Huston.
 
-The film follows the end of Albert Finney's character, a former vice consul for the British government in Mexico, who's fallen to the depths of alcoholism. From the opening scene onward, Huston builds an ever-increasing sense of doom and despair that mirror's Finney's character's condition. It's the Day of the Dead on the eve of World War II, Finney's character's estranged ex-wife has returned, as has his half-brother, though it feels as if they've arrived for a funeral, and over them all, the volcano looms.
+The film follows the end of Albert Finney's character, a former vice consul for the British government in Mexico, who's fallen to the depths of alcoholism. From the opening scene onward, Huston builds an ever-increasing sense of doom and despair that mirrors Finney's character's condition. It's the Day of the Dead on the eve of World War II, Finney's character's estranged ex-wife has returned, as has his half-brother, though it feels as if they've arrived for a funeral, and over them all, the volcano looms.
 
 Admittedly, it takes a while to get going, and some of the plot threads don't seem to pay off, but once Huston sets Finney in motion toward his inevitable, horrific end the film's sense of dread is almost palpable.
 

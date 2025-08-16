@@ -12,7 +12,7 @@ Christmas Eve night. Sarah, a young pregnant widow, sits alone in an isolated ho
 
 The early atmosphere reminded me of <span data-imdb-id="tt0465203">_Them_</span>. Béatrice Dalle’s memorable turn as the unnamed scissor-wielding woman still resonates today in films like <span data-imdb-id="tt6857112">_Us_</span> and <span data-imdb-id="tt3811906">_Malignant_</span>. But the script writes itself into a corner when Sarah locks herself in the bathroom. From there, things get stupid.
 
-What began as a taunt thriller degenerates into a haughty bit of inanity. Though Sarah demonstrates capable self-preservation instincts early, she’s soon unable to stand up or hold a gun. Fair enough, but later—when the script writes itself into another corner—she proves capable of giving herself a tracheotomy. Her agency only exists to save the writers, not herself.
+What began as a taut thriller degenerates into a haughty bit of inanity. Though Sarah demonstrates capable self-preservation instincts early, she’s soon unable to stand up or hold a gun. Fair enough, but later—when the script writes itself into another corner—she proves capable of giving herself a tracheotomy. Her agency only exists to save the writers, not herself.
 
 We’re also presented with continued reaction shots from Sarah’s unborn child—a computer generated cartoon that only lends the film an air of pretension.
 

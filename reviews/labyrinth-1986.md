@@ -23,13 +23,13 @@ Soon, she's wished the brother away and Bowie appears sporting a teased wig, gen
 
 Connelly demands her brother's return. Bowie agrees, provided she claims him at his castle. To reach the castle, she must navigate a vast maze—the titular Labyrinth.
 
-Along the way Connelly recruits some puppet allies: a gentle giant named Luto who resembles a furry ogre and can talk to rocks, a conniving Gnome named Hoggle with a penchant for plastic jewelry, and Didymus, an terrier knight who's trusty steed is a sheep dog bearing an uncanny resemblance to Connelly's. All save the sheep dog are puppet creations of Henson and, like Henson's Muppets, feel like actual characters with personalities, nuance, and feelings.
+Along the way Connelly recruits some puppet allies: a gentle giant named Luto who resembles a furry ogre and can talk to rocks, a conniving Gnome named Hoggle with a penchant for plastic jewelry, and Didymus, a terrier knight whose trusty steed is a sheep dog bearing an uncanny resemblance to Connelly's. All save the sheep dog are puppet creations of Henson and, like Henson's Muppets, feel like actual characters with personalities, nuance, and feelings.
 
 As she progresses toward the castle, Connelly encounters numerous obstacles infused with screenwriter Terry Jones's absurdist humor, including a talking hat, a pair of bickering anthropomorphic door knockers, and a tribe of creatures with removable heads. Funny enough, but I couldn't shake the sense of watching a toned-down version of a darker story.
 
 Consider the relationship between Bowie and Connelly. Being Bowie, he exudes a kind of non-threatening, amorphous sexuality that would match a young teen's fantasies. But also, being Bowie, there's a darker, more hedonistic undercurrent that feels inappropriate given Connelly's character's age. The film paints their relationship as adversarial, but it flirts with something more complex, as evidenced by a fantasy sequence where Connelly envisions herself the star of a glamorous party where she dances with Bowie.
 
-These tonal shifts between absurdist humor and teen angst melodrama prove frustrating. The film seems to aspire to a gravitas its heavy-handed dialog prevents.
+These tonal shifts between absurdist humor and teen angst melodrama prove frustrating. The film seems to aspire to a gravitas its heavy-handed dialogue prevents.
 
 Thus I'm unsure of the film's intended audience. While the practical effects and puppets charm, they'll seem too childish for teens, and preteens will struggle to identify with Connelly's teenage heroine or idolize popstar Bowie.
 

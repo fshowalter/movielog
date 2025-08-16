@@ -25,11 +25,11 @@ Take their first scene, which sees them insulting the audience. Ignignokt closes
 
 “No, this is nothing but a pathetic cash grab. Theaters rejected it,” says Ignignokt, referring to its direct-to-video nature as the pair waddle offscreen.
 
-Peter Serafinowicz plays the most prominent new character, Neil, the founder of Amazin, whose diminutive stature has left him with an inferiority complex. He feels plucked from a typical eleven minute episode, but lacks the resonance of an MC Pee Pants or Dr. Weird.
+Peter Serafinowicz plays the most prominent new character, Neil, the founder of Amazin, whose diminutive stature has left him with an inferiority complex. He feels plucked from a typical eleven-minute episode, but lacks the resonance of an MC Pee Pants or Dr. Weird.
 
 Frylock intrigues Neil with a plan to splice DNA from a giraffe and ex-NBA basketball player Shawn Kemp (who plays himself) to create a taller clone of Neil. After some comical failures, Frylock succeeds, but no one thinks through the reality that cloning duplicates rather than transfers consciousness. This leads to both the original and the clone (named Big Neil for clarity) coexisting, only for the clone to imprison the original Neil and usurp his empire.
 
-The humor remains on-brand throughout, mixing masturbatory jokes of Carl’s sexual arousal at his rising property values thanks to Amazin buying much of his block, with social satire regarding corporate responsibility as Amazin indentures its alien workforce by pushing their homeworlds into the sun.
+The humor remains on-brand throughout, mixing masturbatory jokes of Carl's sexual arousal at his rising property values thanks to Amazin buying much of his block with social satire regarding corporate responsibility as Amazin indentures its alien workforce by pushing their homeworlds into the sun.
 
 Like the original series, the absurdist humor hits-and-misses. The longer running time means more misses, but they’re offset by the Mooninites.
 

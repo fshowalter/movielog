@@ -20,7 +20,7 @@ Like <span data-imdb-id="tt2379713">_Spectre_</span>, this entry continues the i
 
 _No Time to Die_ carries over the chemistry-less romance between Bond and Madeleine, a Spectre agent's daughter. The film opens with a flashback to pre-teen Madeleine's childhood, where a masked assailant breaks into her family's Norwegian lake house and murders her mother. Madeline flees, only to become trapped under the frozen lake's ice. The assassin saves her.
 
-Fast-forward to post-_Spectre_ present. Said assassin, played by Rami Malek, resurfaces in Madeleine's life and professes his love for her. Somehow, he's the same age as Madeleine, but the script proffers no explanation. Malek's performance follows Christoph Waltz's trend of talented actors proving terrible Bond villains. His intelligible accent and detached performance feel pretentious.
+Fast-forward to post-_Spectre_ present. Said assassin, played by Rami Malek, resurfaces in Madeleine's life and professes his love for her. Somehow, he's the same age as Madeleine, but the script proffers no explanation. Malek's performance follows Christoph Waltz's trend of talented actors proving terrible Bond villains. His unintelligible accent and detached performance feel pretentious.
 
 The script doesn't help. It provides him with no cogent motivation or even plausible means for his actions. He exists as a one-dimensional “angry man,” a plot device to stitch together a Frankenstein script credited to four writers.
 

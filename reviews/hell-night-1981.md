@@ -10,7 +10,7 @@ Four collegiate pledges must spend the night in the local haunted manor. They ar
 
 <!-- end -->
 
-Reviewing this one proves difficult. The film opens well, with a raucous college frat party full of extras. The party has a medieval theme, with everyone dressed in period costumes. Then the film shifts to the haunted manor in an exposition leaden sequence.
+Reviewing this one proves difficult. The film opens well, with a raucous college frat party full of extras. The party has a medieval theme, with everyone dressed in period costumes. Then the film shifts to the haunted manor in an exposition-laden sequence.
 
 The manor proves atmospheric. Candles and fireplaces abound, casting flickering shadows. The medieval costumes mesh well with the gothic atmosphere. We watch the fraternity leads enact clever tricks to scare the pledges. Then an unseen assailant picks off said leads before turning his attention to the pledges.
 

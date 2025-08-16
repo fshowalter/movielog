@@ -11,4 +11,4 @@ _Take Me Out to the Ball Game_ was made during a lull in Frank Sinatra’s caree
 
 Thankfully, aside from that blunder and Betty Garrett (who comes across pretty flat) the rest of the cast is quite good. Esther Williams acquits herself well out of the pool, and Edward Arnold is solid as ever.
 
-The musical numbers are pleasantly brief, and the film’s 93 minute running time keeps it from wearing out its welcome, although it should be noted that, for a baseball movie, there’s very little actual baseball.
+The musical numbers are pleasantly brief, and the film's 93-minute running time keeps it from wearing out its welcome, although it should be noted that, for a baseball movie, there’s very little actual baseball.

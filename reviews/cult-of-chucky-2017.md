@@ -14,7 +14,7 @@ I loved this setup. A final showdown between Andy and Chucky. I was on board.
 
 But then the film shifts. We rejoin Fiona Dourif from _Curse of Chucky_, now in a criminal institution. No problem, I can roll with this. _Curse_ was one of my favorite entries. Her doctor transfers her to a lesser security prison. An isolated concrete fortress full of stark white hallways and snowy exteriors. I loved the snow.
 
-But now the film meanders. We meet the other inmates and the chief doctor. Chucky shows up and stars offing inmates, framing Dourif’s character. Andy arrives for the finale as an afterthought. Not Scatman Crothers bad, but a head-scratcher.
+But now the film meanders. We meet the other inmates and the chief doctor. Chucky shows up and starts offing inmates, framing Dourif's character. Andy arrives for the finale as an afterthought. Not Scatman Crothers bad, but a head-scratcher.
 
 This one proves an odd duck. The tone veers from antiseptic horror to black comedy. To wit, Chucky delivers the funniest line of the series when referring to another antagonist saying, “I’m not sure if I should kill him or just take notes!”
 

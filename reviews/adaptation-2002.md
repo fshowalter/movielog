@@ -5,7 +5,7 @@ grade: C+
 date: 2004-04-10
 ---
 
-A writer (Nicholas Cage) turns to his twin brother (Nicholas Cage) for assistance in adapting the story of a writer (Meryl Streep) and an orchid collector (Chris Cooper).
+A writer (Nicolas Cage) turns to his twin brother (Nicolas Cage) for assistance in adapting the story of a writer (Meryl Streep) and an orchid collector (Chris Cooper).
 
 _Adaptation_ is an ambitious movie with an even more ambitious script. Writer Charlie Kaufman's examination of the process of adapting a literary work for the screen is both insightful and entertaining, and ultimately gets the last laugh.
 

@@ -17,4 +17,4 @@ Sam Rockwell does the impossible in his role as Chuck Barris, taking what’s es
 
 Supporting Rockwell are Drew Barrymore and Julia Roberts, representing the loves of Barris’ separate lives. Each delivers an excellent performance, with Roberts in particular giving one of the best of her career as a wonderfully cold operative.
 
-This is one of those films that gets better with each viewing, though some will no doubt go in expecting a more madcap style only to be put off by the film’s straight-faced approach. Yet it’s that very unique approach that makes Confessions of a Dangerous Mind such a satisfying endeavor.
+This is one of those films that gets better with each viewing, though some will no doubt go in expecting a more madcap style only to be put off by the film's straight-faced approach. Yet it's that very unique approach that makes _Confessions of a Dangerous Mind_ such a satisfying endeavor.

@@ -9,7 +9,7 @@ William Powell plays the titular father, the patriarch of a four-son clan in 188
 
 <!-- end -->
 
-The production values shine. The saturated Technicolor pops the red in the casts' dyed hair and the blue in Powell's eyes, while the multi-room sets allow us to follow the performers across space, and the bustling exterior avenue, thronged with carriages and streetcars, lends a sense of turn-of-the-century New York's urgent atmosphere. Indeed, Warner Bros. spared no expense bringing the popular stage play to the screen.
+The production values shine. The saturated Technicolor pops the red in the cast's dyed hair and the blue in Powell's eyes, while the multi-room sets allow us to follow the performers across space, and the bustling exterior avenue, thronged with carriages and streetcars, lends a sense of turn-of-the-century New York's urgent atmosphere. Indeed, Warner Bros. spared no expense bringing the popular stage play to the screen.
 
 And yet, the film often betrays its stage origins. Aside from a church sequence and a scene teeming with costumed extras set in Manhattan's famous Delmonico's restaurant, the film confines itself to the Day house, a Manhattan brownstone. This proves disappointing given the exterior glimpses we're afforded.
 

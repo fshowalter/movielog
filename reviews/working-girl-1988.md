@@ -11,4 +11,4 @@ _Working Girl_ is an enjoyable, but not spectacular, comedy buoyed largely by Ha
 
 Director Mike Nichols makes good use of the New York settings, and seems to have a flair for spotting talent. Look quick for Alec Baldwin, Oliver Platt, and Kevin Spacey in supporting roles.
 
-The script, while not breaking any new ground, does have some good dialog and does a good job making Melanie Griffith's character three dimensional.
+The script, while not breaking any new ground, does have some good dialogue and does a good job making Melanie Griffith's character three dimensional.

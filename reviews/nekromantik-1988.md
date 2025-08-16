@@ -17,4 +17,4 @@ But the film transcends mere shock. In one scene, a despondent Rob visits a cine
 
 Lest you think the film takes itself too seriously, know it builds to a Grand Guignol finale that seared itself into my mind’s eye involving blood, semen, and a giant artificial penis. It also packs a surprisingly effective soundtrack.
 
-So I’m torn. I didn’t enjoy _Nekromantik_. but it resonated. I’ve no urge to watch it again, save in a crowded theater with folks new to the film. Two stars feels right, but think twice before watching.
+So I’m torn. I didn't enjoy _Nekromantik_, but it resonated. I’ve no urge to watch it again, save in a crowded theater with folks new to the film. Two stars feels right, but think twice before watching.

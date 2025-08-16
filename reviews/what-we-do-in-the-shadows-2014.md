@@ -10,7 +10,7 @@ Funny, clever, and gruesome—albeit overlong.
 
 _What We Do in the Shadows_ is a mockumentary following four vampires sharing a house in Wellington, New Zealand.
 
-The film works best when it satirizes reality TV and focuses on the minutia of household life. The vampires bicker over household chores, dress for a night out, and prepare dinner for their would-be victims. In these moments, the film shines. Watching them struggle to dress up without mirrors had me roaring.
+The film works best when it satirizes reality TV and focuses on the minutiae of household life. The vampires bicker over household chores, dress for a night out, and prepare dinner for their would-be victims. In these moments, the film shines. Watching them struggle to dress up without mirrors had me roaring.
 
 As a genre fan, I liked how the film satirized multiple cinematic vampire incarnations. Everything from 1922's _Nosferatu_ through 2008's <span data-imdb-id="tt0119594">_Twilight_</span>. The interplay between these incarnations offers some of the film's best laughs. There's also a group of werewolves, led by Rhys Darby in a scene-stealing performance.
 

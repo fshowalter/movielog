@@ -11,4 +11,4 @@ _Fear and Loathing in Las Vegas_ is a surprise, but it shouldn't be. On the one 
 
 Johnny Depp carries _Fear and Loathing in Las Vegas_ with a finely tuned character performance. Benicio Del Toro is more than convincing as his sometimes psychotic lawyer, but this is Depp's movie and he carries it well.
 
-The other real star is Gilliam's imagination, which he uses in full force to bring the drug addled visions of writer Hunter S. Thompson to life. His original and imaginative visuals are the heart of the movie, and they're something to see.
+The other real star is Gilliam's imagination, which he uses in full force to bring the drug-addled visions of writer Hunter S. Thompson to life. His original and imaginative visuals are the heart of the movie, and they're something to see.

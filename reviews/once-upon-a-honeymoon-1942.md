@@ -15,6 +15,6 @@ Thankfully, Cary Grant soon makes his entrance, though with a character name lik
 
 Yeah, it’s that bad.
 
-The only real bright spot during the almost two hour running time is Walter Slezak who plays a suitable smarmy, yet not totally one-dimensional, Nazi.
+The only real bright spot during the almost two-hour running time is Walter Slezak who plays a suitable smarmy, yet not totally one-dimensional, Nazi.
 
 In the hands of someone like Billy Wilder, _Once Upon a Honeymoon_ might have worked. His talents as a writer and his uncanny ability to balance drama and comedy might have saved this mess, but we’ll never know.

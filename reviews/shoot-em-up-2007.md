@@ -7,7 +7,7 @@ slug: shoot-em-up-2007
 
 A dangerous British nanny (Clive Owen) protects a baby from a mercenary (Paul Giamatti).
 
-_Shoot ‘Em Up_ is an over-the-top send-up of action pictures that ends up out doing them all. This isn’t meant to be a live action film, but rather a live action cartoon (there’s running Looney Tunes gag throughout the whole movie) whose sole purpose is to take the supposedly “believable” stunts from action pictures and ratchet them up several degrees. Writer-director Michael Davis succeeds in topping himself with each set piece, as he comes up with more and more unbelievably stylish ways for Clive Owen to off the never-ending supply of baddies.
+_Shoot 'Em Up_ is an over-the-top send-up of action pictures that ends up outdoing them all. This isn't meant to be a live action film, but rather a live action cartoon (there's a running Looney Tunes gag throughout the whole movie) whose sole purpose is to take the supposedly “believable” stunts from action pictures and ratchet them up several degrees. Writer-director Michael Davis succeeds in topping himself with each set piece, as he comes up with more and more unbelievably stylish ways for Clive Owen to off the never-ending supply of baddies.
 
 And speaking of Owen, he and Giamatti make perfect foils for one another, as they both deadpan their one-liners and glare menacingly across the screen. Their performances are almost as entertaining as Davis’s set pieces.
 

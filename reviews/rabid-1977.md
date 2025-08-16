@@ -14,7 +14,7 @@ Marilyn Chambers plays Rose, a young woman afflicted with severe burns following
 
 Unlike the single-location, male-lead _Shivers_, we're treated to more locations, bigger stunts--including an impressive car crash--and a female lead with genuine agency.
 
-But Cronenberg exhausts his story two-thirds into the running-time. The pattern of Rose feeding on someone and them later turning into a rabid zombie grows tiresome. Cronenberg tries to focus on the government's response to the outbreak, but that proves a narrative dead end as well.
+But Cronenberg exhausts his story two-thirds into the running time. The pattern of Rose feeding on someone and them later turning into a rabid zombie grows tiresome. Cronenberg tries to focus on the government's response to the outbreak, but that proves a narrative dead end as well.
 
 The casting also disappoints. Chambers is fine as Rose. As is the always-solid Joe Silver in a supporting role, but second-billed Frank Moore modulates between flat and emotive, with no middle ground. Perhaps the Blu-ray special features will shed some light on that performance.
 

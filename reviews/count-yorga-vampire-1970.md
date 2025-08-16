@@ -16,7 +16,7 @@ The film opens in the Port of Los Angeles. Voice-over narration intones the lege
 
 The sequence proves one of the film’s flashes of brilliance. The Gothic narration contrasts with modern, sunny Los Angeles. Writer-director Bob Kelljan would have done well to let this sequence bridge the Gothic to the modern, but he can’t quite let go of the Gothic tropes, to the film’s detriment.
 
-The next sequence places us in a modest home where the titular Yorga, played by Robert Quarry, conducts a seance with a group of twenty-somethings. In an early break from Gothic tradition, the guys are clowning around, thinking the whole affair a joke. But once the seance gets underway, things take a strange turn when one of the young people, Donna, undergoes a kind of possession. The lights cut out and she screams, causing her boyfriend, Mike, to stop the seance.
+The next sequence places us in a modest home where the titular Yorga, played by Robert Quarry, conducts a seance with a group of twentysomethings. In an early break from Gothic tradition, the guys are clowning around, thinking the whole affair a joke. But once the seance gets underway, things take a strange turn when one of the young people, Donna, undergoes a kind of possession. The lights cut out and she screams, causing her boyfriend, Mike, to stop the seance.
 
 In the confusion, Yorga steps in to calm the panicked Donna, secretly planting a hypnotic suggestion in the process. Once complete, the lights come back on. Donna claims no memory of the seance, and is disappointed when Yorga announces he must leave. Another young woman asks if he has a ride.
 
@@ -80,7 +80,7 @@ Twenty-seven years after that, Hammer Film Productions released <span data-imdb-
 
 Enter Bob Kelljan's _Count Yorga, Vampire_, which transplanted Dracula into modern times. He retained the classic look, including the cape and pendant, but the stalwart Van Helsing was now a hesitant academic trained in modern medicine, the setting wasn’t London but Los Angeles, and the gore wasn’t eye-popping red, but nauseating rust.
 
-Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</sapn>, which also transported the Dracula character to modern Los Angeles. That same year, Hammer released <span data-imdb-id="tt0068505">_Dracula A.D. 1972_</span> which saw Dracula resurrected in contemporary London.
+Two years later, AIP produced <span data-imdb-id="tt0068284">_Blacula_</span>, which also transported the Dracula character to modern Los Angeles. That same year, Hammer released <span data-imdb-id="tt0068505">_Dracula A.D. 1972_</span> which saw Dracula resurrected in contemporary London.
 
 Three years after that, Stephen King published _‘Salem’s Lot_, which transplanted Dracula into a small town in Maine, added a child protagonist, and cribbed Hammer’s third act twist.
 

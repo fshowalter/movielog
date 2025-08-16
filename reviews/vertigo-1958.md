@@ -11,7 +11,7 @@ An old acquaintance asks Scottie to shadow his heiress wife Madeline (Kim Novak)
 
 Scottie refuses at first, but changes his mind once he gets a look at the blonde beauty.
 
-After rescuing Madeline from a suicide attempt, he grows closer to her. The pair eventually confess their love, but tragedy strikes, devastating Scottie. Then, he seemingly has another chance, when he finds Judy, woman who looks remarkably like Madeline. But is everything as it seems?
+After rescuing Madeline from a suicide attempt, he grows closer to her. The pair eventually confess their love, but tragedy strikes, devastating Scottie. Then, he seemingly has another chance, when he finds Judy, a woman who looks remarkably like Madeline. But is everything as it seems?
 
 Hitchcock makes the most of the San Francisco locales, using the city's winding, hilly streets as a metaphor for the twisting and turning state of Scottie's obsession with Madeline. His now-classic rendition of the vertigo effect was inspired. The subtle color theme of associating green with Madeline and Judy helps pull the film together.
 

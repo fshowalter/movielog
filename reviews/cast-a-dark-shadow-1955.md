@@ -11,4 +11,4 @@ _Cast a Dark Shadow_ is really a poor-man's Hitchcock and it's a shame. The cast
 
 Director Lewis Gilbert does make good use of shadow when staging his shots, but manages to build very little suspense. This isn't entirely his fault, as his cast isn't exactly full of superstars, but the script is solid enough to deliver at least a few thrills, and there aren't any to be found here.
 
-_Cast a Dark Shadow_ also suffers from some overacting, particularly in the third act, which seems common in films adapted from plays. The screen is a much more intimate medium than the stage and demands more subtlety. This hysterics of the third act seem almost comical here, instead of chilling as they were intended.
+_Cast a Dark Shadow_ also suffers from some overacting, particularly in the third act, which seems common in films adapted from plays. The screen is a much more intimate medium than the stage and demands more subtlety. The hysterics of the third act seem almost comical here, instead of chilling as they were intended.

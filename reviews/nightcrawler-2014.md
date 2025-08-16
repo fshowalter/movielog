@@ -12,4 +12,4 @@ Scathing indictment of the news media. Gyllenhaal plays a ghoulish sociopath who
 
 I love how Gyllenhaal plays his part. No showy ticks or big emotive moments, just a smoldering intensity that held me riveted. Even more impressive considering the film proffers no backstory or any semblance of arc for his character.
 
-Revisiting Nightcrawler six years later, it's lost none of its impact. My lone nit? Too many scenes panning around the racing muscle car to zoom in via Gyllenhaal's window.
+Revisiting _Nightcrawler_ six years later, it's lost none of its impact. My lone nit? Too many scenes panning around the racing muscle car to zoom in via Gyllenhaal's window.

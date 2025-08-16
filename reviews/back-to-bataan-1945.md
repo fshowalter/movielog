@@ -9,7 +9,7 @@ When the US retreat from the Philippines after it falls to the Japanese in World
 
 _Back to Bataan_ is a mediocre wartime melodrama marred by an aimless script and an overabundance of propaganda.
 
-With filming going on while actual the war for the Philippines was still being fought, the filmmakers were constantly scrambling to update the script in order to reflect the latest events. While this approach worked in John Ford's superior <span data-imdb-id="tt0038160">_They Were Expendable_</span>, Edward Dmytryk struggles here as this film is essentially a melodrama that falls apart without solid three act structure.
+With filming going on while the actual war for the Philippines was still being fought, the filmmakers were constantly scrambling to update the script in order to reflect the latest events. While this approach worked in John Ford's superior <span data-imdb-id="tt0038160">_They Were Expendable_</span>, Edward Dmytryk struggles here as this film is essentially a melodrama that falls apart without solid three-act structure.
 
 John Wayne does his best to carry things, but despite his top billing, his character doesn't _do_ all that much. When the script isn't interjecting talky bits of awkward propaganda, (the way they gloss over the US occupation is cringe-worthy) it mostly revolves around Anthony Quinn's character as he anguishes in self-pity over his girl working for the enemy.
 

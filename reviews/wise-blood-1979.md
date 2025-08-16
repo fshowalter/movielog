@@ -5,9 +5,9 @@ grade: C-
 slug: wise-blood-1979
 ---
 
-A young veteran (Brad Dourif), recently returned from war founds The Church of Christ without Christ in the Deep South.
+A young veteran (Brad Dourif), recently returned from war, founds The Church of Christ without Christ in the Deep South.
 
-_Wise Blood_ is director John Huston's very literal adaptation of Flannery O'Connor's novel of the same name. The resulting film is uneven at best, but nonetheless fascinating, if only for lead Brad Dourif's intense performance, and Huston's far reaching ambitions.
+_Wise Blood_ is director John Huston's very literal adaptation of Flannery O'Connor's novel of the same name. The resulting film is uneven at best, but nonetheless fascinating, if only for lead Brad Dourif's intense performance, and Huston's far-reaching ambitions.
 
 Dourif carries the film, his seething anger and ambition propelling the story down a dark spiral, as his character takes out his anger on the world, until he's left with no other target than himself. While a physically larger man may have looked the part more, Dourif makes up for his average stature with a simmering rage that's just behind his eyes ready to boil over at any moment. It's a role that could easily have gone over-the-top, but Dourif pulls it off, a feat made all the more incredible given the story's third act.
 

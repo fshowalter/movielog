@@ -13,6 +13,6 @@ _Stagecoach_’s influence as a genre piece cannot be overstated. Prior to Ford�
 
 Ford changed all that by featuring a colorful cast of characters painted in shades of grey. The outlaw is a hero, the gambler is chivalrous, and the prostitute has a heart of gold. Of course, this wonderful characterization doesn’t preclude Stagecoach from delivering some great action sequences, particularly a rousing Indian attack sequence that stands out as one of the best-edited sequences ever put on film.
 
-Capping all this is a breakout performance from John Wayne. Under John Ford’s eye Wayne’s years of practice in the Lone Star oaters finally pays off and he _owns_ the screen from his now classic entrance to the closing frames.
+Capping all this is a breakout performance from John Wayne. Under John Ford's eye Wayne's years of practice in the Lone Star oaters finally pay off and he _owns_ the screen from his now classic entrance to the closing frames.
 
 Contrary to popular belief, _Stagecoach_ didn’t make Wayne a mega-star. It did give him a sizeable career boost, but Wayne would still be taking second and third billing for years to come.

@@ -9,7 +9,7 @@ On summer vacation in Nantucket, a teenager (John Cusack) and his friends enter 
 
 _One Crazy Summer_ was an unsuccessful attempt by writer-director Savage Steve Holland to recreate the magic of his previous film, <span data-imdb-id="tt0088794">_Better Off Dead_</span>.
 
-Once again we've got John Cusack playing an underdog teenager prone to day dreaming in animation, and once again the finale involves a somewhat exclusive sporting event (this time it's sailing instead of skiing), but unfortunately, Holland imbues this film with none of the teen angst or black comedy that made _Better Off Dead_ such a success.
+Once again we've got John Cusack playing an underdog teenager prone to daydreaming in animation, and once again the finale involves a somewhat exclusive sporting event (this time it's sailing instead of skiing), but unfortunately, Holland imbues this film with none of the teen angst or black comedy that made _Better Off Dead_ such a success.
 
 While Holland does land Demi Moore for the female lead (a significant upgrade) the film feels sloppy, rushed, and recycled without any of the wit and charm of its predecessor. What's left is just a sub-par teen comedy long on potential but short on laughs.
 

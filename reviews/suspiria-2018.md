@@ -10,7 +10,7 @@ slug: suspiria-2018
 
 <!-- end -->
 
-This isn’t a remake of <span data-imdb-id="tt0076786">Dario Argento’s 1977 film</span>. It takes the premise--witches running a Berlin dance academy--and charts its own path. Where Argento’s played like a horrific fairy tale, Guadagnino’s plays like a paranoid thriller interspersed with dance numbers. Where Argento’s careened from one nightmare set-piece to the next, Guadagnino proffers multiple plot threads.
+This isn't a remake of <span data-imdb-id="tt0076786">Dario Argento's 1977 film</span>. It takes the premise—witches running a Berlin dance academy—and charts its own path. Where Argento’s played like a horrific fairy tale, Guadagnino’s plays like a paranoid thriller interspersed with dance numbers. Where Argento’s careened from one nightmare set-piece to the next, Guadagnino proffers multiple plot threads.
 
 The central story follows Dakota Johnson as a promising new dancer. Tilda Swinton plays the academy head who’s struggling with her coven’s internal politics. Swinton also plays a therapist struggling to uncover the academy’s secrets. The female-lead cast hints at a message of female empowerment, but the incessant Red Army Faction references and suspect mythology dilute the message.
 

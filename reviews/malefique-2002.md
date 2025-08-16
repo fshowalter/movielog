@@ -12,7 +12,7 @@ After establishing these characters and their interpersonal dynamics, the plot k
 
 <!-- end -->
 
-I relished this premise. Taking four desperate (but not fierce) men and dangling a supernatural means of escape lies right up my nihilistic alley. The trap-like plot burrowed deeper into my wheel-house.
+I relished this premise. Taking four desperate (but not fierce) men and dangling a supernatural means of escape lies right up my nihilistic alley. The trap-like plot burrowed deeper into my wheelhouse.
 
 The cast performs well. As Carrère, Gérald Laroche's underplayed transformation into a bitter convict serves as a grounded audience surrogate. As Lassalle, Philippe Laudenbach adds gravitas, communicating volumes with his weary looks.
 

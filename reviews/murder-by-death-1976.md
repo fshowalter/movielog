@@ -11,6 +11,6 @@ While it helps to be familiar with the genre icons the film spoofs, it's not req
 
 Neil Simon's script moves well and never stalls too long on one joke. It also manages to avoid the problem of being too broad or too narrow that plagues most satires.
 
-It's also important to note that most of the character's are not really direct spoof's of the literary icon's they're based on, but rather spoof's of their film versions.
+It's also important to note that most of the characters are not really direct spoofs of the literary icons they're based on, but rather spoofs of their film versions.
 
 The result is a great movie for mystery fans and a fun one for everyone else.

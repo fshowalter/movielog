@@ -5,11 +5,11 @@ grade: D+
 slug: street-of-chance-1930
 ---
 
-William Powell plays John Marsden, a bond broker who makes his money as “Natural” Davis, New York City's premier gambler. The story sees him try an exit the gambling life and reconcile with his estranged wife, played by Kay Francis. Conflict arises when Powell's kid brother arrives from San Francisco, eager to take on the legendary “Natural” Davis, unaware Davis and Marsden are the same man.
+William Powell plays John Marsden, a bond broker who makes his money as "Natural" Davis, New York City's premier gambler. The story sees him try to exit the gambling life and reconcile with his estranged wife, played by Kay Francis. Conflict arises when Powell's kid brother arrives from San Francisco, eager to take on the legendary “Natural” Davis, unaware Davis and Marsden are the same man.
 
 <!-- end -->
 
-Powell's shines in the Runyonesque role. There's a great early scene where Powell arrives at a bustling, high-class restaurant. He asks the hostess, who knows him by sight, if he has any messages before making his way to his usual table. Along the way, every diner greets him with, “Hello, Natural.”
+Powell shines in the Runyonesque role. There's a great early scene where Powell arrives at a bustling, high-class restaurant. He asks the hostess, who knows him by sight, if he has any messages before making his way to his usual table. Along the way, every diner greets him with, “Hello, Natural.”
 
 Another scene affords Powell a chance to show the character's edge. Powell has just finished a long session where he's cleaned out several other gamblers. They stand on the street, ready to call it a night. Another punter approaches Powell, apologetic and eager to repay some money he'd scammed Powell out of earlier. Powell accepts the money, saying, "You're a little late."
 
@@ -33,7 +33,7 @@ Powell's seventh talkie proves notable for his character's darker side. While vi
 
 And though Powell rises to the challenge, the film lets him down.
 
-The script affords Powell little room to build chemistry with Francis. Their first scene has them talking on the phone, and when they finally share the screen, she delivers much of her dialog facing away from Powell, in a melodramatic affectation. This sequence proves their longest together, as Francis disappears to make room for Regis Toomey as Powell's brother “Babe”.
+The script affords Powell little room to build chemistry with Francis. Their first scene has them talking on the phone, and when they finally share the screen, she delivers much of her dialogue facing away from Powell, in a melodramatic affectation. This sequence proves their longest together, as Francis disappears to make room for Regis Toomey as Powell's brother “Babe”.
 
 Toomey torpedoes the film. His hayseed performance reminded me of the worst Wayne Morris roles—self-centered and chauvinistic. His introductory scene sees him in the bathtub, while his new bride, played by Jean Arthur, rings up Powell. As she's talking, Toomey keeps yelling at her to toss him things, and Arthur attempts to do the impossible and carry on a conversation while passing undershorts. It's a scene meant to play as comedy, but it only serves to make both characters seem like idiots.
 

@@ -22,7 +22,7 @@ Jason wakes up, dispatches the morgue staff, then heads back to Crystal Lake to 
 
 The best of the series, director Joseph Zito’s film asserts its originality from the opening shot: a dark, cold, rainy night that’s miles away from the prior film’s sunlit finale. Zito flexes his stylistic muscles early, proffering a POV shot from Jason as he’s wheeled through the morgue. It’s a punk rock response to the prior films’ uninspired staging.
 
-This entry also boasts an entertaining cast of teen victims. They spend much of the film unaware of Jason or any suspicious goings-on. They’re in their own movie, complete with their own sub-plots. Granted, those sub-plots amount to little more than a bad teen sex comedy, but they hold our interest when Jason’s off-screen.[^2]
+This entry also boasts an entertaining cast of teen victims. They spend much of the film unaware of Jason or any suspicious goings-on. They’re in their own movie, complete with their own subplots. Granted, those subplots amount to little more than a bad teen sex comedy, but they hold our interest when Jason’s off-screen.[^2]
 
 And when Jason’s on-screen, he’s a juggernaut. An unstoppable, inhuman force of evil. A demon with a machete. Consider how Jason never runs. Running implies chasing. Chasing suggests the possibility of escape. In this film, Jason isn’t an assailant, he’s an inevitability.[^3]
 

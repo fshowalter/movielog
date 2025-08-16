@@ -11,6 +11,6 @@ _Collateral_ is a return to form for director Michael Mann, reuniting the direct
 
 As always seems to be the case in Mann's films, the cast is excellent. Though his role may have been better suited for Russell Crowe, Tom Cruise shows surprising range. Even more impressive is Jamie Foxx, who proves his ability as a dramatic actor in spades.
 
-Like _Heat_, _Collateral_ is meticulously thought out and shot. The nightclub scene is a perfect example of Mann's storytelling genius in both it's dramatic effect and suspension of disbelief. Sure, it's fast paced and exciting, but it's also _believable_, a point lost on many modern movies.
+Like _Heat_, _Collateral_ is meticulously thought out and shot. The nightclub scene is a perfect example of Mann's storytelling genius in both its dramatic effect and suspension of disbelief. Sure, it's fast paced and exciting, but it's also _believable_, a point lost on many modern movies.
 
 If _Collateral_ has one flaw, it's that the story it tells, while solid, is not as large or as meaningful as some of Mann's other works. But that doesn't mean it's not a story worth telling.

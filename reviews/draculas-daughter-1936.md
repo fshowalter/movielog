@@ -9,7 +9,7 @@ A vampire countess (Gloria Holden) believes a physician (Otto Kruger) may be abl
 
 _Dracula's Daughter_ is an ill-conceived sequel to <span data-imdb-id="tt0021814">_Dracula_</span> that's chock full of plot holes.
 
-Supposedly picking up right where Dracula left off Van Helsing (still played by Edward Sloan, although his character is now credited as _Von_ Helsing) finds himself under arrest for Dracula’s murder. The first hole pops up right here, as neither John Harker nor Jack Seward is mentioned, let alone present, as Harker was at the end of the original film.
+Supposedly picking up right where Dracula left off, Van Helsing (still played by Edward Sloan, although his character is now credited as _Von_ Helsing) finds himself under arrest for Dracula’s murder. The first hole pops up right here, as neither John Harker nor Jack Seward is mentioned, let alone present, as Harker was at the end of the original film.
 
 The next large plot hole pops up shortly after. The original Dracula was set in turn-of-the-century England, yet this film features cars, radios and telephones, all indicative of a more modern setting. Apparently, it took Van Helsing 30 years to walk out of Carfax Abbey.
 

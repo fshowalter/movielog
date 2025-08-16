@@ -12,6 +12,6 @@ _Piercing_ concerns a troubled family man driven to seek out a stranger to fulfi
 
 This one surprised me. I expected a grim horror film but discovered an inventive psychological thriller marrying Brian De Palma’s visual style with Quentin Tarantino’s retro sensibilities. The opening titles, set to Stelvio's Cipriani's excellent-but-obscure “Too Risky a Day for a Regatta” from 1977's <span data-imdb-id="tt0076809">_Tentacles_</span>, proved the first clue. The split-screen meeting of the film's leads, set to Goblin's theme from <span data-imdb-id="tt0073582">_Deep Red_</span>, hammered the point home.
 
-Pesce pulls this off with astounding confidence. He walks the tightrope tone with apparent ease. Every frame feels intentional, and the lean 81-minute run time means he wasn't afraid to murder his darlings. I bought everything the leads were selling, especially Wasikowska, whose part seems near-impossible on paper.
+Pesce pulls this off with astounding confidence. He walks the tightrope tone with apparent ease. Every frame feels intentional, and the lean 81-minute running time means he wasn't afraid to murder his darlings. I bought everything the leads were selling, especially Wasikowska, whose part seems near-impossible on paper.
 
 Sure, the ending lacks the punch I'd hoped for, but it'll do.

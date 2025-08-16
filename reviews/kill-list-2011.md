@@ -13,9 +13,9 @@ The angry tone—like asking an employee how long they’ve been stealing—beli
 
 The plot concerns two contract killers, Jay and Gal, who take a job—the titular list—involving three targets. Things go sideways fast, leading to the above line.
 
-But Kill List’s talent lies in how it approaches the material. Writer-director Ben Wheatley’s sophomore effort evokes his debut, <span data-imdb-id="tt1489167">_Down Terrace_</span>, with hand-held cameras, shorthand dialog, and jump-cuts lending a documentary feel.
+But _Kill List_'s talent lies in how it approaches the material. Writer-director Ben Wheatley’s sophomore effort evokes his debut, <span data-imdb-id="tt1489167">_Down Terrace_</span>, with hand-held cameras, shorthand dialogue, and jump-cuts lending a documentary feel.
 
-Consider the opening. An argument between Jay and his wife, Shel. She’s complaining about their lack of money. Jay dismisses her concerns. Shel keeps on him. Shouting escalates to screaming. Their grade school-aged son witnesses their rage with mute horror.
+Consider the opening. An argument between Jay and his wife, Shel. She’s complaining about their lack of money. Jay dismisses her concerns. Shel keeps on him. Shouting escalates to screaming. Their grade-school-aged son witnesses their rage with mute horror.
 
 Into this domestic strife comes Jay’s friend and partner Gal, played by Michael Smiley, who arrives with his new girlfriend, Fiona, for a dinner party. Fiona works in human resources. “If there is a department that is under-performing, then I go in and assess the extraneous manpower and de-force accordingly,” she explains.
 

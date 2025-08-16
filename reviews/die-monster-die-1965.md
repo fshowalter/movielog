@@ -13,7 +13,7 @@ Loosely based on a story by H.P. Lovecraft, the setup has a lot of potential. Ka
 
 Unlike _The Invisible Ray_, which spent half the film getting to this point, _Die, Monster, Die_ opens with Karloff’s character already knee deep in meteorite obsession, only to go absolutely nowhere.
 
-The script by Jerry Sohl is all setup. When Nick Adams’ character gets off the train and begins asking around the town, it’s great, building a real sense of unease. This continues as Adam’s character makes his way to the desolate manor to meet his girlfriend and her strange family, but once he arrives at the house, the atmosphere dissolves into route exposition and the movie starts to drag.
+The script by Jerry Sohl is all setup. When Nick Adams’ character gets off the train and begins asking around the town, it’s great, building a real sense of unease. This continues as Adam’s character makes his way to the desolate manor to meet his girlfriend and her strange family, but once he arrives at the house, the atmosphere dissolves into rote exposition and the movie starts to drag.
 
 Adams doesn’t help much, either. He comes across as perpetually annoyed as he mugs and scowls his way through his scenes, talking in a Joe Friday clip that has zero range and less charisma.
 

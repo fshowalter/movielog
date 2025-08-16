@@ -20,7 +20,7 @@ Capping it off, the demon makeup proves effective, transforming the teens into h
 
 As Tenney said, the kids are obnoxious kids. One-dimensional stereotypes. The hosts are generic bad girls. The guests include Judy, the judgmental good girl, her lecherous rich-kid boyfriend who just wants to “make it” with her, an overweight misogynistic punk who calls every girl bitch and utters the choice line “Eat a bowl of fuck!,"[^2] and a sniveling coward who spends most of his time huddled in a corner.
 
-All prove unlikable, including the lone character with any nuance, Sal, who stalks Judy, looks like a '50s greaser, and spouts dialog out of a '40s noir like, “Come on, ace ... spill the beans. Here’s a nice chunk of change to loosen your lips a little.”
+All prove unlikable, including the lone character with any nuance, Sal, who stalks Judy, looks like a '50s greaser, and spouts dialogue out of a '40s noir like, “Come on, ace ... spill the beans. Here’s a nice chunk of change to loosen your lips a little.”
 
 Who are we expected to root for? Given these protagonists, I found myself opting for the demons.
 

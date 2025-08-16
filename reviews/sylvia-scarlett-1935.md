@@ -13,4 +13,4 @@ Thus, as you can imagine, the film is hard to enjoy. It's a bizarre mix of comed
 
 Grant's the lone bright spot, coming across as the sole likable character (despite the fact that, on paper, he's the most crooked) and stealing all of his scenes from the camera-hungry Hepburn. Indeed, _Sylvia Scarlett_ proved to be a breakout performance for Grant, and rightly so.
 
-The film proved to be a disaster in theaters, and prevented director George Cukor from reuniting with Hepburn in her next film, the even worse <span data-imdb-id="tt0027948">_Mary of Scotland_</span>. Further, it was one of the film's that led to Hepburn being labeled "box office poison" by the end of the 1930s and, again, rightly so.
+The film proved to be a disaster in theaters, and prevented director George Cukor from reuniting with Hepburn in her next film, the even worse <span data-imdb-id="tt0027948">_Mary of Scotland_</span>. Further, it was one of the films that led to Hepburn being labeled "box office poison" by the end of the 1930s and, again, rightly so.

@@ -5,7 +5,7 @@ grade: B
 slug: salvation-1987
 ---
 
-An early but impressive performance from Viggo Mortensen. A black comedy script indicting America's class gap and televangelism. A visual esthetic inspired by contemporary Italian horror. A nightmarish home-invasion sub-plot. A soundtrack driven by New Order and Arthur Baker. **How have I never seen this?**
+An early but impressive performance from Viggo Mortensen. A black comedy script indicting America's class gap and televangelism. A visual aesthetic inspired by contemporary Italian horror. A nightmarish home-invasion sub-plot. A soundtrack driven by New Order and Arthur Baker. **How have I never seen this?**
 
 <!-- end -->
 

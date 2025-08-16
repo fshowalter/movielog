@@ -17,4 +17,4 @@ Or so we think.
 
 Later, Tarantino can't resist turning this stereotype on its ear in the film's conclusion, which works in its own right, just less so.
 
-The biggest problem is that there isn't much here in the way of story. It's an exploitation movie at heart, deferring to heart thumping car chases and grizzly crash sequences in favor of real drama or character development, but it wears its genre proudly and never pretends to be anything more. Indeed, it's a testament to Tarantino's talent that we wish it were.
+The biggest problem is that there isn't much here in the way of story. It's an exploitation movie at heart, deferring to heart thumping car chases and grisly crash sequences in favor of real drama or character development, but it wears its genre proudly and never pretends to be anything more. Indeed, it's a testament to Tarantino's talent that we wish it were.

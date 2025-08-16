@@ -9,7 +9,7 @@ A twice-divorced New York television writer with a teenage girlfriend falls for 
 
 _Manhattan_ is a well written and often insightful movie that does a great job at capturing the dynamics of relationships during the late 70s.
 
-Shot in black and white, _Manhattan_ looks great. Director Woody Allen takes full advantage of the city and frames some marvelous shots. The city's chaotic brilliance is a mirror of the character's themselves.
+Shot in black and white, _Manhattan_ looks great. Director Woody Allen takes full advantage of the city and frames some marvelous shots. The city's chaotic brilliance is a mirror of the characters themselves.
 
 Performance-wise, Allen plays his usual neurotic self--which works fine here--and Diane Keaton is great as the emotionally chaotic intellectual who Allen falls for in-spite of himself. Perhaps even more impressive though is Mariel Hemingway's performance, which has just the right amount of charm, naivete, and emotional honesty to make it both believable and moving.
 

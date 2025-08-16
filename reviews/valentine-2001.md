@@ -16,4 +16,4 @@ Ludicrous? Yes, but the film entertains, provided you don’t think too hard. Th
 
 That said, I enjoyed the film’s desire to play as a straight slasher, devoid of meta-humor and featuring gory, creative deaths. It falls short—I suspect the post-Columbine timing played a part—but it proffers a great bow-and-arrow sequence and a memorable hot tub scene.
 
-The result isn’t a miss, but a foul tip. Granted, the dated, industrial rock soundtrack doesn’t match the action or personalities, and the ending is best not given too much thought, but slasher fans could do worse.
+The result isn't a miss, but a foul tip. Granted, the dated industrial rock soundtrack doesn't match the action or personalities, and the ending is best not given too much thought, but slasher fans could do worse.

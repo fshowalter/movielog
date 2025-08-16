@@ -5,7 +5,7 @@ grade: C+
 slug: escape-from-new-york-1981
 ---
 
-Carpenter re-imagines the spaghetti western a science-fiction adventure set in a dystopian near-future where soaring crime leads to Manhattan being converted into a giant maximum security prison.
+Carpenter re-imagines the spaghetti western as a science-fiction adventure set in a dystopian near-future where soaring crime leads to Manhattan being converted into a giant maximum security prison.
 
 When Air Force One is hijacked and downed behind the prison walls, former soldier and newly convicted bank robber Russell is given 24 hours to rescue the President or die trying.
 
