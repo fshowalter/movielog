@@ -11,7 +11,7 @@ def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review,
     repository_data: RepositoryData,
-) -> str: ...
+) -> int: ...
 
 
 @overload
@@ -19,34 +19,95 @@ def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review | None,
     repository_data: RepositoryData,
-) -> str | None: ...
+) -> int | None: ...
 
 
 def calculate_review_sequence(
     imdb_id: str,
     review: repository_api.Review | None,
     repository_data: RepositoryData,
-) -> str | None:
-    """Calculate review sequence for deterministic sorting by review date.
+) -> int | None:
+    """Get the review sequence number for a title.
 
-    Uses the most recent viewing's sequence to ensure unique ordering
-    when multiple titles are reviewed on the same date.
-
-    Returns None if there's no review, otherwise returns the review date
-    combined with the most recent viewing's sequence.
+    Returns None if there's no review, otherwise returns the integer
+    sequence number from the pre-calculated review sequence map.
     """
     if not review:
         return None
 
-    viewings = sorted(
-        [v for v in repository_data.viewings if v.imdb_id == imdb_id],
-        key=lambda v: f"{v.date.isoformat()}-{v.sequence}",
-        reverse=True,
-    )
+    return repository_data.review_sequence_map.get(imdb_id)
 
-    if not viewings:
-        # This should never happen - a review must have at least one viewing
-        raise ValueError(f"No viewings found for reviewed title {imdb_id}")
 
-    # Use the sequence of the most recent viewing
-    return f"{review.date.isoformat()}-{viewings[0].sequence}"
+def calculate_release_sequence(
+    imdb_id: str,
+    repository_data: RepositoryData,
+) -> int:
+    """Get the release sequence number for a title.
+
+    Returns the integer sequence number from the pre-calculated release sequence map.
+    """
+    sequence = repository_data.release_sequence_map.get(imdb_id)
+    if sequence is None:
+        raise ValueError(f"No release sequence found for title {imdb_id}")
+    return sequence
+
+
+def calculate_title_sequence(
+    imdb_id: str,
+    repository_data: RepositoryData,
+) -> int:
+    """Get the title sequence number for a title.
+
+    Returns the integer sequence number from the pre-calculated title sequence map.
+    """
+    sequence = repository_data.title_sequence_map.get(imdb_id)
+    if sequence is None:
+        raise ValueError(f"No title sequence found for title {imdb_id}")
+    return sequence
+
+
+@overload
+def calculate_grade_sequence(
+    imdb_id: str,
+    review: repository_api.Review,
+    repository_data: RepositoryData,
+) -> int: ...
+
+
+@overload
+def calculate_grade_sequence(
+    imdb_id: str,
+    review: repository_api.Review | None,
+    repository_data: RepositoryData,
+) -> int | None: ...
+
+
+def calculate_grade_sequence(
+    imdb_id: str,
+    review: repository_api.Review | None,
+    repository_data: RepositoryData,
+) -> int | None:
+    """Get the grade sequence number for a reviewed title.
+
+    Returns None if there's no review, otherwise returns the integer
+    sequence number from the pre-calculated grade sequence map.
+    """
+    if not review:
+        return None
+
+    return repository_data.grade_sequence_map.get(imdb_id)
+
+
+def calculate_viewing_sequence(
+    imdb_id: str,
+    viewing_sequence: int,
+    repository_data: RepositoryData,
+) -> int:
+    """Get the viewing sequence number for a specific viewing.
+
+    Returns the integer sequence number from the pre-calculated viewing sequence map.
+    """
+    sequence = repository_data.viewing_sequence_map.get((imdb_id, viewing_sequence))
+    if sequence is None:
+        raise ValueError(f"No viewing sequence found for viewing {imdb_id}-{viewing_sequence}")
+    return sequence
