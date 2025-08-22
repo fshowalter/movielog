@@ -5,6 +5,6 @@ class JsonTitle(TypedDict):
     imdbId: str
     title: str
     releaseYear: str
-    sortTitle: str
-    releaseSequence: str
+    titleSequence: int
+    releaseSequence: int
     genres: list[str]

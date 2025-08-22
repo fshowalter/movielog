@@ -2,6 +2,7 @@ from movielog.exports import exporter
 from movielog.exports.json_title import JsonTitle
 from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
+from movielog.exports.utils import calculate_release_sequence, calculate_title_sequence
 from movielog.utils.logging import logger
 
 
@@ -24,8 +25,8 @@ def export(repository_data: RepositoryData) -> None:
                 imdbId=title.imdb_id,
                 title=title.title,
                 releaseYear=title.release_year,
-                sortTitle=title.sort_title,
-                releaseSequence=title.release_sequence,
+                titleSequence=calculate_title_sequence(title.imdb_id, repository_data),
+                releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
                 genres=title.genres,
                 watchlistDirectorNames=repository_data.watchlist_titles[title.imdb_id]["directors"],
                 watchlistPerformerNames=repository_data.watchlist_titles[title.imdb_id][

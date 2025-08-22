@@ -6,7 +6,12 @@ from movielog.exports.json_collection import JsonCollection
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_review_sequence
+from movielog.exports.utils import (
+    calculate_grade_sequence,
+    calculate_release_sequence,
+    calculate_review_sequence,
+    calculate_title_sequence,
+)
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -101,13 +106,14 @@ def build_json_title(
         imdbId=title.imdb_id,
         title=title.title,
         releaseYear=title.release_year,
-        sortTitle=title.sort_title,
-        releaseSequence=title.release_sequence,
+        titleSequence=calculate_title_sequence(title.imdb_id, repository_data),
+        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
         genres=title.genres,
         # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
+        gradeSequence=calculate_grade_sequence(title_id, review, repository_data),
         reviewDate=review.date.isoformat() if review else None,
         reviewSequence=calculate_review_sequence(title_id, review, repository_data),
         # JsonCastAndCrewTitle specific fields
