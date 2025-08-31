@@ -30,7 +30,6 @@ class RepositoryData:
     def __post_init__(self) -> None:
         self.release_sequence_map = self._build_release_sequence_map()
         self.review_sequence_map = self._build_review_sequence_map()
-        self.title_sequence_map = self._build_title_sequence_map()
         self.grade_sequence_map = self._build_grade_sequence_map()
         self.viewing_sequence_map = self._build_viewing_sequence_map()
 
@@ -74,21 +73,6 @@ class RepositoryData:
 
         for index, (imdb_id, _) in enumerate(reviewed_with_dates, start=1):
             sequence_map[imdb_id] = index
-
-        return sequence_map
-
-    def _build_title_sequence_map(self) -> dict[str, int]:
-        """Build a map of title IMDb IDs to title sequence numbers."""
-        sequence_map: dict[str, int] = {}
-
-        # Sort titles by sort_title and IMDb ID for stable ordering
-        sorted_titles = sorted(
-            self.titles.values(),
-            key=lambda title: f"{title.sort_title}-{title.imdb_id}",
-        )
-
-        for index, title in enumerate(sorted_titles, start=1):
-            sequence_map[title.imdb_id] = index
 
         return sequence_map
 
