@@ -1,8 +1,9 @@
 ---
 date: 2008-11-02
 imdb_id: tt0023194
-grade: D+
+grade: C-
 slug: the-mask-of-fu-manchu-1932
+title: The Mask of Fu Manchu (1932)
 ---
 
 English archeologists race the fiendish Fu Manchu (Boris Karloff) and his evil daughter (Myrna Loy) to find lost crypt of Genghis Kahn and recover its mystical artifacts.
