@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from datetime import date
 from typing import Literal
 
 from movielog.repository import api as repository_api
@@ -25,7 +26,7 @@ class RepositoryData:
     review_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     title_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     grade_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
-    viewing_sequence_map: dict[tuple[str, int], int] = field(default_factory=dict, init=False)
+    viewing_sequence_map: dict[tuple[str, date, int], int] = field(default_factory=dict, init=False)
 
     def __post_init__(self) -> None:
         self.release_sequence_map = self._build_release_sequence_map()
@@ -98,9 +99,9 @@ class RepositoryData:
 
         return sequence_map
 
-    def _build_viewing_sequence_map(self) -> dict[tuple[str, int], int]:
+    def _build_viewing_sequence_map(self) -> dict[tuple[str, date, int], int]:
         """Build a map of (imdb_id, viewing.sequence) tuples to viewing sequence numbers."""
-        sequence_map: dict[tuple[str, int], int] = {}
+        sequence_map: dict[tuple[str, date, int], int] = {}
 
         # Sort viewings by date and sequence for stable ordering
         sorted_viewings = sorted(
@@ -109,6 +110,6 @@ class RepositoryData:
         )
 
         for index, viewing in enumerate(sorted_viewings, start=1):
-            sequence_map[(viewing.imdb_id, viewing.sequence)] = index
+            sequence_map[(viewing.imdb_id, viewing.date, viewing.sequence)] = index
 
         return sequence_map

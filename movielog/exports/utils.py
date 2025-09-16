@@ -1,5 +1,6 @@
 """Shared utility functions for export modules."""
 
+from datetime import date
 from typing import overload
 
 from movielog.exports.repository_data import RepositoryData
@@ -100,6 +101,7 @@ def calculate_grade_sequence(
 
 def calculate_viewing_sequence(
     imdb_id: str,
+    viewing_date: date,
     viewing_sequence: int,
     repository_data: RepositoryData,
 ) -> int:
@@ -107,7 +109,9 @@ def calculate_viewing_sequence(
 
     Returns the integer sequence number from the pre-calculated viewing sequence map.
     """
-    sequence = repository_data.viewing_sequence_map.get((imdb_id, viewing_sequence))
+    sequence = repository_data.viewing_sequence_map.get((imdb_id, viewing_date, viewing_sequence))
     if sequence is None:
-        raise ValueError(f"No viewing sequence found for viewing {imdb_id}-{viewing_sequence}")
+        raise ValueError(
+            f"No viewing sequence found for viewing {imdb_id}-{viewing_date}-{viewing_sequence}"
+        )
     return sequence

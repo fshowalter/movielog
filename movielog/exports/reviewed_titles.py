@@ -335,7 +335,7 @@ def _build_json_reviewed_title(
                 # JsonViewedTitle specific fields
                 viewingDate=viewing.date.isoformat(),
                 viewingSequence=calculate_viewing_sequence(
-                    title.imdb_id, viewing.sequence, repository_data
+                    title.imdb_id, viewing.date, viewing.sequence, repository_data
                 ),
                 medium=viewing.medium,
                 venue=viewing.venue,
