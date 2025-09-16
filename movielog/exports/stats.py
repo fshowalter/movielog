@@ -220,7 +220,7 @@ def _build_json_most_watched_person_viewing(
         # JsonViewedTitle fields
         viewingDate=viewing.date.isoformat(),
         viewingSequence=calculate_viewing_sequence(
-            viewing.imdb_id, viewing.sequence, repository_data
+            viewing.imdb_id, viewing.date, viewing.sequence, repository_data
         ),
         medium=viewing.medium,
         venue=viewing.venue,
