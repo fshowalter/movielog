@@ -173,9 +173,9 @@ def calculate_credit_counts(name: CastAndCrewMember) -> dict[CreditType, int]:
 
 
 def determine_credited_as(
-    name: CastAndCrewMember,
+    member: CastAndCrewMember,
 ) -> list[CreditType]:
-    credited_as_counts = calculate_credit_counts(name)
+    credited_as_counts = calculate_credit_counts(member)
 
     credited_as: list[CreditType] = []
 
