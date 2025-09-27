@@ -25,13 +25,11 @@ class RepositoryData:
     release_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     review_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     title_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
-    grade_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     viewing_sequence_map: dict[tuple[str, date, int], int] = field(default_factory=dict, init=False)
 
     def __post_init__(self) -> None:
         self.release_sequence_map = self._build_release_sequence_map()
         self.review_sequence_map = self._build_review_sequence_map()
-        self.grade_sequence_map = self._build_grade_sequence_map()
         self.viewing_sequence_map = self._build_viewing_sequence_map()
 
     def _build_release_sequence_map(self) -> dict[str, int]:
@@ -73,28 +71,6 @@ class RepositoryData:
         reviewed_with_dates.sort(key=lambda x: x[1])
 
         for index, (imdb_id, _) in enumerate(reviewed_with_dates, start=1):
-            sequence_map[imdb_id] = index
-
-        return sequence_map
-
-    def _build_grade_sequence_map(self) -> dict[str, int]:
-        """Build a map of title IMDb IDs to grade sequence numbers."""
-        sequence_map: dict[str, int] = {}
-
-        # Get all reviewed titles with their grade values and release sequences
-        reviewed_with_grades: list[tuple[str, int, int]] = []
-
-        for imdb_id, review in self.reviews.items():
-            title = self.titles.get(imdb_id)
-            if title:
-                grade_value = review.grade_value
-                release_sequence = self.release_sequence_map[imdb_id]
-                reviewed_with_grades.append((imdb_id, grade_value, release_sequence))
-
-        # Sort by grade value (descending) and release sequence (ascending)
-        reviewed_with_grades.sort(key=lambda x: (-x[1], x[2]))
-
-        for index, (imdb_id, _, _) in enumerate(reviewed_with_grades, start=1):
             sequence_map[imdb_id] = index
 
         return sequence_map

@@ -9,7 +9,6 @@ from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
 from movielog.exports.utils import (
-    calculate_grade_sequence,
     calculate_release_sequence,
     calculate_review_sequence,
     calculate_viewing_sequence,
@@ -214,7 +213,6 @@ def _build_json_most_watched_person_viewing(
         slug=review.slug if review else None,
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
-        gradeSequence=calculate_grade_sequence(title.imdb_id, review, repository_data),
         reviewDate=review.date.isoformat() if review else None,
         reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         # JsonViewedTitle fields
@@ -304,7 +302,6 @@ def _build_most_watched_title(
         slug=review.slug if review else None,
         grade=review.grade if review else None,
         gradeValue=review.grade_value if review else None,
-        gradeSequence=calculate_grade_sequence(title.imdb_id, review, repository_data),
         reviewDate=review.date.isoformat() if review else None,
         reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         # JsonMostWatchedTitle specific field
