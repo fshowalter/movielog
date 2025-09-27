@@ -2,11 +2,7 @@ from movielog.exports import exporter
 from movielog.exports.json_collection import JsonCollection
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import (
-    calculate_grade_sequence,
-    calculate_release_sequence,
-    calculate_review_sequence,
-)
+from movielog.exports.utils import calculate_release_sequence, calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -35,7 +31,6 @@ def build_collection_titles(
                 slug=review.slug if review else None,
                 grade=review.grade if review else None,
                 gradeValue=review.grade_value if review else None,
-                gradeSequence=calculate_grade_sequence(title_id, review, repository_data),
                 reviewDate=review.date.isoformat() if review else None,
                 reviewSequence=calculate_review_sequence(title_id, review, repository_data),
             )
