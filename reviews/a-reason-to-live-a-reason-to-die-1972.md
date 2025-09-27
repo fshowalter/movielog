@@ -3,12 +3,12 @@ imdb_id: tt0069159
 slug: a-reason-to-live-a-reason-to-die-1972
 grade: D+
 date: 2025-07-13
-synopsis: Disgraced Union officer James Coburn assembles a suicide squad of condemned men to retake the fort he surrendered without firing a shot. 
+synopsis: Disgraced Union officer James Coburn assembles a suicide squad of condemned men to retake the fort he surrendered. 
 ---
 
 James Coburn swaggers through this Italian Civil War western like a rock star. He's magnificent. Everything else is a mess.
 
-The setup has promise: disgraced Union officer assembles a suicide squad of condemned men to retake the fort he surrendered without firing a shot. It's a Civil War _Dirty Dozen_, complete with machine-gun carnage that would make Sam Peckinpah proud.
+The setup has promise: disgraced Union officer assembles a suicide squad of condemned men to retake the fort he surrendered. It's a Civil War _Dirty Dozen_, complete with machine-gun carnage that would make Sam Peckinpah proud.
 
 But director Tonino Valerii squanders everything around his leading man. Coburn's men don't register. I couldn't tell you their names or crimes. When one dies, I had to rewind to figure out if he was even part of the crew. 
 
