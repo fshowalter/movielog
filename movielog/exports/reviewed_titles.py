@@ -6,11 +6,7 @@ from movielog.exports import exporter
 from movielog.exports.json_reviewed_title import JsonReviewedTitle
 from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import (
-    calculate_release_sequence,
-    calculate_review_sequence,
-    calculate_viewing_sequence,
-)
+from movielog.exports.utils import calculate_review_sequence, calculate_viewing_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -85,7 +81,7 @@ def _build_json_more_title(
         reviewDate=review.date.isoformat(),
         reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
         genres=title.genres,
-        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+        releaseDate=title.release_date,
     )
 
 
@@ -170,7 +166,7 @@ def _build_json_more_cast_and_crew(
             sliced_titles = _slice_list(
                 source_list=sorted(
                     [repository_data.titles[title_id] for title_id in member_titles],
-                    key=lambda title: title.release_sequence,
+                    key=lambda title: title.imdb_id,
                 ),
                 matcher=_build_imdb_id_matcher(review.imdb_id),
             )
@@ -203,7 +199,7 @@ def _build_json_more_collections(
         sliced_titles = _slice_list(
             source_list=sorted(
                 [repository_data.titles[title_id] for title_id in collection_title_ids],
-                key=lambda title: title.release_sequence,
+                key=lambda title: title.imdb_id,
             ),
             matcher=_build_imdb_id_matcher(review.imdb_id),
         )
@@ -303,7 +299,7 @@ def _build_json_reviewed_title(
         gradeValue=review.grade_value,
         reviewDate=review.date.isoformat(),
         reviewSequence=calculate_review_sequence(title.imdb_id, review, repository_data),
-        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+        releaseDate=title.release_date,
         genres=title.genres,
         countries=title.countries,
         originalTitle=original_title,
@@ -320,7 +316,7 @@ def _build_json_reviewed_title(
                 title=title.title,
                 releaseYear=title.release_year,
                 sortTitle=title.sort_title,
-                releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+                releaseDate=title.release_date,
                 genres=title.genres,
                 # JsonMaybeReviewedTitle fields
                 slug=review.slug,

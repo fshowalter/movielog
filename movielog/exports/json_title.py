@@ -6,5 +6,5 @@ class JsonTitle(TypedDict):
     title: str
     sortTitle: str
     releaseYear: str
-    releaseSequence: int
+    releaseDate: str
     genres: list[str]

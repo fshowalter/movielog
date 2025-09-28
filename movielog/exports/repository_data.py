@@ -22,56 +22,32 @@ class RepositoryData:
     collections: list[repository_api.Collection]
     imdb_ratings: repository_api.ImdbRatings
     cast_and_crew: dict[frozenset[str], repository_api.CastAndCrewMember]
-    release_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     review_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
-    title_sequence_map: dict[str, int] = field(default_factory=dict, init=False)
     viewing_sequence_map: dict[tuple[str, date, int], int] = field(default_factory=dict, init=False)
 
     def __post_init__(self) -> None:
-        self.release_sequence_map = self._build_release_sequence_map()
-        self.review_sequence_map = self._build_review_sequence_map()
         self.viewing_sequence_map = self._build_viewing_sequence_map()
+        self.review_sequence_map = self._build_review_sequence_map(self.viewing_sequence_map)
 
-    def _build_release_sequence_map(self) -> dict[str, int]:
-        """Build a map of title IMDb IDs to release sequence numbers."""
-        sequence_map: dict[str, int] = {}
-
-        # Sort titles by release date and IMDb ID for stable ordering
-        sorted_titles = sorted(
-            self.titles.values(),
-            key=lambda title: title.release_sequence,
-        )
-
-        for index, title in enumerate(sorted_titles, start=1):
-            sequence_map[title.imdb_id] = index
-
-        return sequence_map
-
-    def _build_review_sequence_map(self) -> dict[str, int]:
+    def _build_review_sequence_map(
+        self, viewing_sequence_map: dict[tuple[str, date, int], int]
+    ) -> dict[str, int]:
         """Build a map of title IMDb IDs to review sequence numbers."""
         sequence_map: dict[str, int] = {}
-
-        # Get all reviewed titles with their review dates
-        reviewed_with_dates: list[tuple[str, str]] = []
 
         for imdb_id, review in self.reviews.items():
             # Find the most recent viewing for this title
             viewings = sorted(
-                [v for v in self.viewings if v.imdb_id == imdb_id],
+                [v for v in self.viewings if v.imdb_id == imdb_id and v.date == review.date],
                 key=lambda v: f"{v.date.isoformat()}-{v.sequence}",
                 reverse=True,
             )
 
             if viewings:
-                # Use the sequence of the most recent viewing for stable ordering
-                sequence_key = f"{review.date.isoformat()}-{viewings[0].sequence}"
-                reviewed_with_dates.append((imdb_id, sequence_key))
-
-        # Sort by the sequence key
-        reviewed_with_dates.sort(key=lambda x: x[1])
-
-        for index, (imdb_id, _) in enumerate(reviewed_with_dates, start=1):
-            sequence_map[imdb_id] = index
+                latest_viewing = viewings[0]
+                sequence_map[imdb_id] = viewing_sequence_map[
+                    latest_viewing.imdb_id, latest_viewing.date, latest_viewing.sequence
+                ]
 
         return sequence_map
 

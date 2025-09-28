@@ -6,7 +6,7 @@ from movielog.exports.json_collection import JsonCollection
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_watchlist_fields import JsonWatchlistFields
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import calculate_release_sequence, calculate_review_sequence
+from movielog.exports.utils import calculate_review_sequence
 from movielog.repository import api as repository_api
 from movielog.utils.logging import logger
 
@@ -102,7 +102,7 @@ def build_json_title(
         title=title.title,
         sortTitle=title.sort_title,
         releaseYear=title.release_year,
-        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+        releaseDate=title.release_date,
         genres=title.genres,
         # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,
@@ -134,7 +134,7 @@ def populate_title_data(
         for title_id, credited_as in name_value["credited_titles"].items():
             name_value["titles"].append(build_json_title(title_id, credited_as, repository_data))
 
-        name_value["titles"].sort(key=lambda title: title["releaseSequence"])
+        name_value["titles"].sort(key=lambda title: title["imdbId"])
 
 
 def populate_counts(
