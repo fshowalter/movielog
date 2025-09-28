@@ -20,5 +20,5 @@ The cynicism cuts deep. As Ned nears home, the parties grow gaudier, the recepti
 
 It's Dante in swimming trunks--a journey through the circles of suburban hell.
 
-The film's final gut-punch lingers. Nearly sixty years later, its portrait of empty American success still feels disturbingly fresh. _The Swimmer_ isn't about swimming pools. It's about drowning. And we're still swimming in those same deceptive waters.
+The film's final gut-punch lingers. Nearly sixty years later, its portrait of empty American success still feels disturbingly fresh. Those pools may be long gone, but we’re still swimming in those same deceptive waters.
 
