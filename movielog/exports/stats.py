@@ -8,11 +8,7 @@ from movielog.exports import exporter
 from movielog.exports.json_maybe_reviewed_title import JsonMaybeReviewedTitle
 from movielog.exports.json_viewed_title import JsonViewedTitle
 from movielog.exports.repository_data import RepositoryData
-from movielog.exports.utils import (
-    calculate_release_sequence,
-    calculate_review_sequence,
-    calculate_viewing_sequence,
-)
+from movielog.exports.utils import calculate_review_sequence, calculate_viewing_sequence
 from movielog.repository import api as repository_api
 from movielog.utils import list_tools
 from movielog.utils.logging import logger
@@ -207,7 +203,7 @@ def _build_json_most_watched_person_viewing(
         title=title.title,
         sortTitle=title.sort_title,
         releaseYear=title.release_year,
-        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+        releaseDate=title.release_date,
         genres=title.genres,
         # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,
@@ -296,7 +292,7 @@ def _build_most_watched_title(
         title=title.title,
         releaseYear=title.release_year,
         sortTitle=title.sort_title,
-        releaseSequence=calculate_release_sequence(title.imdb_id, repository_data),
+        releaseDate=title.release_date,
         genres=title.genres,
         # JsonMaybeReviewedTitle fields
         slug=review.slug if review else None,

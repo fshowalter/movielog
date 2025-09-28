@@ -39,20 +39,6 @@ def calculate_review_sequence(
     return repository_data.review_sequence_map.get(imdb_id)
 
 
-def calculate_release_sequence(
-    imdb_id: str,
-    repository_data: RepositoryData,
-) -> int:
-    """Get the release sequence number for a title.
-
-    Returns the integer sequence number from the pre-calculated release sequence map.
-    """
-    sequence = repository_data.release_sequence_map.get(imdb_id)
-    if sequence is None:
-        raise ValueError(f"No release sequence found for title {imdb_id}")
-    return sequence
-
-
 def calculate_viewing_sequence(
     imdb_id: str,
     viewing_date: date,

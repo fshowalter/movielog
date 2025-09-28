@@ -50,7 +50,7 @@ class Title:
     performers: list[CreditName]
     writers: list[CreditName]
     original_title: str
-    release_sequence: str
+    release_date: str
     slug: str
 
 
@@ -205,7 +205,7 @@ def titles() -> Iterable[Title]:
             original_title=json_title["originalTitle"],
             runtime_minutes=json_title["runtimeMinutes"],
             countries=json_title["countries"],
-            release_sequence="{}{}".format(json_title["releaseDate"], json_title["imdbId"]),
+            release_date=json_title["releaseDate"],
             directors=[
                 CreditName(
                     name=director["name"],
