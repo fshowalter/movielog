@@ -10,12 +10,20 @@ from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
-FrozenTitles = set("tt2166834")
+FrozenTitles = {
+    "tt2166834": "Batman: The Dark Knight Returns",
+    "tt0839995": "Superman II: The Richard Donner Cut",
+}
 
 ValidTitles = {
     "tt0064727": "The Bloody Judge",
     "tt0065036": "Stereo (Tile 3B of a CAEE Educational Mosaic)",
     "tt0094762": "Blood Delirium",
+    "tt0040068": "Abbott and Costello Meet Frankenstein",
+    "tt0103874": "Bram Stoker's Dracula",
+    "tt0053719": "The City of the Dead",
+    "tt0021577": "The Golden Age",
+    "tt0103743": "The Untold Story",
 }
 
 
