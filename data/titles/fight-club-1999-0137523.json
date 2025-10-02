@@ -7,11 +7,13 @@
   "year": "1999",
   "releaseDate": "1999-09-10",
   "countries": [
-    "Germany",
-    "United States"
+    "United States",
+    "Germany"
   ],
   "genres": [
-    "Drama"
+    "Crime",
+    "Drama",
+    "Thriller"
   ],
   "directors": [
     {
@@ -45,7 +47,7 @@
       "imdbId": "nm0340260",
       "name": "Zach Grenier",
       "roles": [
-        "Richard Chesler"
+        "Richard Chesler (Regional Manager)"
       ]
     },
     {
@@ -390,26 +392,18 @@
       "roles": [
         "Detective Walker"
       ]
-    },
-    {
-      "imdbId": "nm0649596",
-      "name": "Trey Ore",
-      "roles": [
-        "Fight Club Patron",
-        "Guy #2 in Video Store"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0657333",
       "name": "Chuck Palahniuk",
-      "notes": "(based on the novel by)"
+      "notes": "based on the novel by"
     },
     {
       "imdbId": "nm0880243",
       "name": "Jim Uhls",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     }
   ],
   "runtimeMinutes": 139

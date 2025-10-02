@@ -19,12 +19,12 @@
       "name": "Frank Miller"
     },
     {
-      "imdbId": "nm0000233",
-      "name": "Quentin Tarantino"
-    },
-    {
       "imdbId": "nm0001675",
       "name": "Robert Rodriguez"
+    },
+    {
+      "imdbId": "nm0000233",
+      "name": "Quentin Tarantino"
     }
   ],
   "performers": [
@@ -386,7 +386,7 @@
       "imdbId": "nm0891863",
       "name": "Makenzie Vega",
       "roles": [
-        "Nancy"
+        "Nancy (age 11)"
       ]
     },
     {
@@ -450,17 +450,17 @@
     {
       "imdbId": "nm0588340",
       "name": "Frank Miller",
-      "notes": "(based on the graphic novels by)"
-    },
-    {
-      "imdbId": "nm0001675",
-      "name": "Robert Rodriguez",
-      "notes": "(screenplay)"
+      "notes": "based on the graphic novels by"
     },
     {
       "imdbId": "nm0588340",
       "name": "Frank Miller",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0001675",
+      "name": "Robert Rodriguez",
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 124

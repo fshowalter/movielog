@@ -7,7 +7,11 @@
   "year": "1989",
   "releaseDate": "1989-??-??",
   "countries": [
-    "United States"
+    "United States",
+    "Italy",
+    "Spain",
+    "United Kingdom",
+    "Jordan"
   ],
   "genres": [
     "Action",
@@ -301,13 +305,6 @@
       ]
     },
     {
-      "imdbId": "nm0740694",
-      "name": "Suzanne Roquette",
-      "roles": [
-        "Film Director"
-      ]
-    },
-    {
       "imdbId": "nm0513468",
       "name": "Eugene Lipinski",
       "roles": [
@@ -340,17 +337,27 @@
     {
       "imdbId": "nm0090151",
       "name": "Jeffrey Boam",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm0000184",
       "name": "George Lucas",
-      "notes": "(story)"
+      "notes": "story and"
     },
     {
       "imdbId": "nm0583675",
       "name": "Menno Meyjes",
-      "notes": "(story)"
+      "notes": "story"
+    },
+    {
+      "imdbId": "nm0000184",
+      "name": "George Lucas",
+      "notes": "characters and"
+    },
+    {
+      "imdbId": "nm0442241",
+      "name": "Philip Kaufman",
+      "notes": "characters"
     }
   ],
   "runtimeMinutes": 127

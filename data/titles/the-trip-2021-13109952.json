@@ -7,7 +7,9 @@
   "year": "2021",
   "releaseDate": "2021-07-30",
   "countries": [
-    "Norway"
+    "Norway",
+    "United States",
+    "Finland"
   ],
   "genres": [
     "Action",
@@ -161,23 +163,30 @@
       "roles": [
         "Politi"
       ]
+    },
+    {
+      "imdbId": "nm0310164",
+      "name": "Ailo Gaup",
+      "roles": [
+        "Carnie"
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm2482088",
       "name": "Tommy Wirkola",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm3479369",
       "name": "Nick Ball",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm3480267",
       "name": "John Niven",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ],
   "runtimeMinutes": 113

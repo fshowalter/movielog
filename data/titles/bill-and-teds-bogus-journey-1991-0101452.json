@@ -285,6 +285,13 @@
       ]
     },
     {
+      "imdbId": "nm0000638",
+      "name": "William Shatner",
+      "roles": [
+        "Captain James T. Kirk"
+      ]
+    },
+    {
       "imdbId": "nm0382072",
       "name": "Peter Hewitt",
       "roles": [
@@ -318,27 +325,28 @@
       "roles": [
         "Kate Axelrod"
       ]
-    },
-    {
-      "imdbId": "nm0919798",
-      "name": "Frank Welker",
-      "roles": [
-        "The Devil",
-        "Station",
-        "Evil Easter Bunny"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0558533",
       "name": "Chris Matheson",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0004412",
       "name": "Ed Solomon",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0558533",
+      "name": "Chris Matheson",
+      "notes": "based on characters created by &"
+    },
+    {
+      "imdbId": "nm0004412",
+      "name": "Ed Solomon",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 93

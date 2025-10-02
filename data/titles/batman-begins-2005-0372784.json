@@ -12,7 +12,9 @@
   ],
   "genres": [
     "Action",
-    "Drama"
+    "Crime",
+    "Drama",
+    "Thriller"
   ],
   "directors": [
     {
@@ -740,19 +742,24 @@
   ],
   "writers": [
     {
+      "imdbId": "nm0004170",
+      "name": "Bob Kane",
+      "notes": "characters"
+    },
+    {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "(story)"
+      "notes": "story"
     },
     {
       "imdbId": "nm0634240",
       "name": "Christopher Nolan",
-      "notes": "(screenplay)"
+      "notes": "screenplay and"
     },
     {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 140

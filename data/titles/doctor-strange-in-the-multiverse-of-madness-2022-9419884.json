@@ -13,6 +13,7 @@
     "Action",
     "Adventure",
     "Fantasy",
+    "Horror",
     "Sci-Fi"
   ],
   "directors": [
@@ -358,54 +359,23 @@
       "roles": [
         "Charlie's Best Man"
       ]
-    },
-    {
-      "imdbId": "nm12858403",
-      "name": "Sandra Chaffey",
-      "roles": [
-        "Rag Tag",
-        "Warrior"
-      ]
-    },
-    {
-      "imdbId": "nm1667823",
-      "name": "Alice Chen",
-      "roles": [
-        "FDNY Paramedic",
-        "New York Woman"
-      ]
-    },
-    {
-      "imdbId": "nm5733757",
-      "name": "Andrew Goodman",
-      "roles": [
-        "Paramedic",
-        "Pedestrian"
-      ]
-    },
-    {
-      "imdbId": "nm9555373",
-      "name": "Will Rowlands",
-      "roles": [
-        "Dystopian Citizen",
-        "NYPD Cop"
-      ]
-    },
-    {
-      "imdbId": "nm0760337",
-      "name": "Stephen Samson",
-      "roles": [
-        "Kamar-Taj Defender",
-        "838 Starer",
-        "Cab Driver"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm5642271",
       "name": "Michael Waldron",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0498278",
+      "name": "Stan Lee",
+      "notes": "Doctor Strange created by and"
+    },
+    {
+      "imdbId": "nm0228492",
+      "name": "Steve Ditko",
+      "notes": "Doctor Strange created by"
     }
   ],
   "runtimeMinutes": 126

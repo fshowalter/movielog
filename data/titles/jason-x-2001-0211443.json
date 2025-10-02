@@ -7,8 +7,8 @@
   "year": "2001",
   "releaseDate": "2001-07-24",
   "countries": [
-    "United States",
-    "Canada"
+    "Canada",
+    "United States"
   ],
   "genres": [
     "Action",
@@ -27,7 +27,7 @@
       "imdbId": "nm0387987",
       "name": "Kane Hodder",
       "roles": [
-        "Jason Voorhees",
+        "Jason",
         "Uber Jason"
       ]
     },
@@ -35,7 +35,7 @@
       "imdbId": "nm0311473",
       "name": "Jeff Geddis",
       "roles": [
-        "Johnson"
+        "Johnson (Soldier #1)"
       ]
     },
     {
@@ -232,7 +232,12 @@
     {
       "imdbId": "nm0267805",
       "name": "Todd Farmer",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0566699",
+      "name": "Victor Miller",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 92

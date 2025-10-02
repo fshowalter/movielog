@@ -106,13 +106,6 @@
       "roles": []
     },
     {
-      "imdbId": "nm0465062",
-      "name": "Tao Chiang",
-      "roles": [
-        "General Chen Wen-Yao"
-      ]
-    },
-    {
       "imdbId": "nm2550613",
       "name": "Teng Chiang-Mei",
       "roles": [
@@ -120,9 +113,11 @@
       ]
     },
     {
-      "imdbId": "nm1532033",
-      "name": "Wan-Hsi Chin",
-      "roles": []
+      "imdbId": "nm0465062",
+      "name": "Tao Chiang",
+      "roles": [
+        "General Chen Wen-Yao"
+      ]
     },
     {
       "imdbId": "nm0788406",
@@ -130,6 +125,11 @@
       "roles": [
         "Patriot"
       ]
+    },
+    {
+      "imdbId": "nm1532033",
+      "name": "Wan-Hsi Chin",
+      "roles": []
     },
     {
       "imdbId": "nm4748444",
@@ -333,7 +333,7 @@
     {
       "imdbId": "nm0393250",
       "name": "Kuang Ni",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 109

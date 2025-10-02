@@ -414,61 +414,38 @@
       "roles": [
         "Bartender"
       ]
-    },
-    {
-      "imdbId": "nm12463304",
-      "name": "Kyle Bryde",
-      "roles": [
-        "Protestor",
-        "Pedestrian"
-      ]
-    },
-    {
-      "imdbId": "nm0362766",
-      "name": "Tom Hardy",
-      "roles": [
-        "Eddie Brock",
-        "Venom"
-      ]
-    },
-    {
-      "imdbId": "nm9304001",
-      "name": "Emanuel Perez",
-      "roles": [
-        "Donut Patron",
-        "Homeless at Soup Kitchen",
-        "Pedestrian"
-      ]
-    },
-    {
-      "imdbId": "nm9990032",
-      "name": "Robert Tinsley",
-      "roles": [
-        "Protestor",
-        "Pedestrian"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0571344",
       "name": "Chris McKenna",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm1273099",
       "name": "Erik Sommers",
-      "notes": "(written by)"
+      "notes": "written by"
     },
     {
       "imdbId": "nm0498278",
       "name": "Stan Lee",
-      "notes": "(based on the Marvel comic book by)"
+      "notes": "based on the Marvel comic book by and"
     },
     {
       "imdbId": "nm0228492",
       "name": "Steve Ditko",
-      "notes": "(based on the Marvel comic book by)"
+      "notes": "based on the Marvel comic book by"
+    },
+    {
+      "imdbId": "nm0498278",
+      "name": "Stan Lee",
+      "notes": "Spider-Man created by and"
+    },
+    {
+      "imdbId": "nm0228492",
+      "name": "Steve Ditko",
+      "notes": "Spider-Man created by"
     }
   ],
   "runtimeMinutes": 148

@@ -164,6 +164,13 @@
       ]
     },
     {
+      "imdbId": "nm0137506",
+      "name": "George Carlin",
+      "roles": [
+        "Rufus Hologram"
+      ]
+    },
+    {
       "imdbId": "nm2008943",
       "name": "Shoshana Bean",
       "roles": [
@@ -484,12 +491,22 @@
     {
       "imdbId": "nm0558533",
       "name": "Chris Matheson",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0004412",
       "name": "Ed Solomon",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0558533",
+      "name": "Chris Matheson",
+      "notes": "based on characters created by &"
+    },
+    {
+      "imdbId": "nm0004412",
+      "name": "Ed Solomon",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 91

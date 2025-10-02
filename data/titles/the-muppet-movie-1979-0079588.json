@@ -24,70 +24,6 @@
   ],
   "performers": [
     {
-      "imdbId": "nm0001345",
-      "name": "Jim Henson",
-      "roles": [
-        "Kermit the Frog",
-        "Rowlf",
-        "Dr. Teeth",
-        "Waldorf",
-        "Swedish Chef",
-        "Link Hogthrob",
-        "Doc Hopper's Men"
-      ]
-    },
-    {
-      "imdbId": "nm0000568",
-      "name": "Frank Oz",
-      "roles": [
-        "Miss Piggy",
-        "Fozzie Bear",
-        "Animal",
-        "Sam the Eagle",
-        "Doc Hopper's Men",
-        "Marvin Suggs",
-        "Swedish Chef",
-        "Motorcycle Guy"
-      ]
-    },
-    {
-      "imdbId": "nm0625456",
-      "name": "Jerry Nelson",
-      "roles": [
-        "Floyd Pepper",
-        "Crazy Harry",
-        "Robin the Frog",
-        "Lew Zealand",
-        "Camilla",
-        "Blue Frackle"
-      ]
-    },
-    {
-      "imdbId": "nm0402611",
-      "name": "Richard Hunt",
-      "roles": [
-        "Scooter",
-        "Statler",
-        "Janice",
-        "Sweetums",
-        "Beaker",
-        "Fozzie Bear"
-      ]
-    },
-    {
-      "imdbId": "nm0324397",
-      "name": "Dave Goelz",
-      "roles": [
-        "The Great Gonzo",
-        "Zoot",
-        "Dr. Bunsen Honeydew",
-        "Doglion",
-        "Iraqian in El Sleezo Cafe",
-        "Nigel",
-        "Pig"
-      ]
-    },
-    {
       "imdbId": "nm0001164",
       "name": "Charles Durning",
       "roles": [
@@ -264,18 +200,10 @@
       ]
     },
     {
-      "imdbId": "nm0926209",
-      "name": "Steve Whitmire",
-      "roles": [
-        "Fletcher Bird",
-        "Scooter"
-      ]
-    },
-    {
       "imdbId": "nm0612020",
       "name": "Kathryn Mullen",
       "roles": [
-        "Camilla"
+        "Camilla (assistant)"
       ]
     },
     {
@@ -317,13 +245,13 @@
       "imdbId": "nm0205174",
       "name": "Michael Earl",
       "roles": [
-        "Animal",
-        "Beaker",
-        "Big Bird",
-        "Dr. Teeth",
-        "Fozzie Bear",
-        "Janice",
-        "Scooter"
+        "Animal (assistant)",
+        "Beaker (assistant)",
+        "Big Bird (assistant)",
+        "Dr. Teeth (assistant)",
+        "Fozzie Bear (assistant)",
+        "Janice (assistant)",
+        "Scooter (assistant)"
       ]
     },
     {
@@ -346,75 +274,18 @@
       "roles": [
         "Muppet Performer"
       ]
-    },
-    {
-      "imdbId": "nm13517712",
-      "name": "Tim Barnes",
-      "roles": [
-        "Muppet Performer",
-        "Little Bird",
-        "Tessie Twiddlebug"
-      ]
-    },
-    {
-      "imdbId": "nm15017711",
-      "name": "Jay Bleu",
-      "roles": [
-        "Muppet Performer",
-        "Catgut"
-      ]
-    },
-    {
-      "imdbId": "nm0470928",
-      "name": "Earl Kress",
-      "roles": [
-        "Ernie",
-        "Bert"
-      ]
-    },
-    {
-      "imdbId": "nm0672791",
-      "name": "Michael Peraza Jr.",
-      "roles": [
-        "Muppet Performer",
-        "Emmet Otter"
-      ]
-    },
-    {
-      "imdbId": "nm0672798",
-      "name": "Patricia Peraza",
-      "roles": [
-        "Muppet Performer",
-        "Ma Otter"
-      ]
-    },
-    {
-      "imdbId": "nm1631675",
-      "name": "Curt Vig",
-      "roles": [
-        "Muppet Performer",
-        "Pigs in Space D & E"
-      ]
-    },
-    {
-      "imdbId": "nm1631676",
-      "name": "Rik Vig",
-      "roles": [
-        "Muppet Performer",
-        "J.P. Gross"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0432075",
       "name": "Jerry Juhl",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0122698",
       "name": "Jack Burns",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ],
   "runtimeMinutes": 95

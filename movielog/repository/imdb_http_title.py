@@ -2,7 +2,6 @@ import json
 from dataclasses import dataclass, field
 from typing import Any, Literal, get_args
 
-import pycountry
 import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
 from requests.adapters import HTTPAdapter, Retry
@@ -42,10 +41,19 @@ class TitlePage:
 def _build_name_credits_for_title_page(
     page_data: UntypedJson,
 ) -> dict[CreditKind, list[NameCredit]]:
-    credit_kind_map: dict[CreditKind, str] = {
-        "director": "director",
-        "performer": "cast",
-        "writer": "writer",
+    credit_kind_map: dict[CreditKind, set[str]] = {
+        "director": {
+            "amzn1.imdb.concept.name_credit_category.ace5cb4c-8708-4238-9542-04641e7c8171",
+            "director",
+        },
+        "performer": {
+            "amzn1.imdb.concept.name_credit_group.7caf7d16-5db9-4f4f-8864-d4c6e711c686",
+            "cast",
+        },
+        "writer": {
+            "amzn1.imdb.concept.name_credit_category.c84ecaff-add5-4f2e-81db-102a41881fe3",
+            "writer",
+        },
     }
 
     name_credits: dict[CreditKind, list[NameCredit]] = {}
@@ -57,11 +65,15 @@ def _build_name_credits_for_title_page(
     for credit_kind, category_id in credit_kind_map.items():
         name_credits[credit_kind] = []
 
-        imdb_credits = next(
-            get_nested_value(credit_category, ["section", "items"], [])
-            for credit_category in credit_categories
-            if credit_category["id"] == category_id
-        )
+        try:
+            imdb_credits = next(
+                get_nested_value(credit_category, ["section", "items"], [])
+                for credit_category in credit_categories
+                if credit_category["id"] in category_id
+            )
+        except StopIteration:
+            print(credit_categories)
+            raise
 
         for index, imdb_credit in enumerate(imdb_credits):
             name_credit = NameCredit(
@@ -110,10 +122,10 @@ def _parse_genres(page_data: UntypedJson) -> list[str]:
 
 def _parse_countries(page_data: UntypedJson) -> list[str]:
     countries = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "countriesOfOrigin", "countries"], []
+        page_data, ["props", "pageProps", "mainColumnData", "countriesDetails", "countries"], []
     )
 
-    return [pycountry.countries.get(alpha_2=country["id"]).name for country in countries]
+    return [country["text"] for country in countries]
 
 
 def get_title_page(imdb_id: str) -> TitlePage:

@@ -10,6 +10,7 @@
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "directors": [
@@ -94,12 +95,17 @@
     {
       "imdbId": "nm0933858",
       "name": "Michael Wilson",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm0236718",
       "name": "Harry Sinclair Drago",
-      "notes": "(based upon the story by) (as Bliss Lomax)"
+      "notes": "based upon the story by (as Bliss Lomax)"
+    },
+    {
+      "imdbId": "nm0611794",
+      "name": "Clarence E. Mulford",
+      "notes": "based upon characters created by"
     }
   ],
   "runtimeMinutes": 67

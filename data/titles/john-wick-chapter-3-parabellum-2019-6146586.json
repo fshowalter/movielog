@@ -15,6 +15,7 @@
   "genres": [
     "Action",
     "Crime",
+    "Drama",
     "Thriller"
   ],
   "directors": [
@@ -275,57 +276,38 @@
       "roles": [
         "Ruska Roma Guard"
       ]
-    },
-    {
-      "imdbId": "nm5172724",
-      "name": "Richard Bird",
-      "roles": [
-        "Homeless Assassin",
-        "Guard"
-      ]
-    },
-    {
-      "imdbId": "nm9059817",
-      "name": "Larry Chan",
-      "roles": [
-        "Man Without Umbrella",
-        "Subway Commuter"
-      ]
-    },
-    {
-      "imdbId": "nm5340002",
-      "name": "Khalid Ghajji",
-      "roles": [
-        "Foundry Guard",
-        "Berrada Street Guard"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm4401003",
       "name": "Derek Kolstad",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by and"
     },
     {
       "imdbId": "nm8748334",
       "name": "Shay Hatten",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by and"
     },
     {
       "imdbId": "nm2384772",
       "name": "Chris Collins",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by &"
     },
     {
       "imdbId": "nm0009207",
       "name": "Marc Abrams",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     },
     {
       "imdbId": "nm4401003",
       "name": "Derek Kolstad",
-      "notes": "(story by)"
+      "notes": "story by"
+    },
+    {
+      "imdbId": "nm4401003",
+      "name": "Derek Kolstad",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 130

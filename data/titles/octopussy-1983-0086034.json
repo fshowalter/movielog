@@ -7,7 +7,9 @@
   "year": "1983",
   "releaseDate": "1983-06-06",
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States",
+    "India"
   ],
   "genres": [
     "Action",
@@ -601,31 +603,23 @@
       "roles": [
         "Thug"
       ]
-    },
-    {
-      "imdbId": "nm0933865",
-      "name": "Michael G. Wilson",
-      "roles": [
-        "Soviet Security Council Member",
-        "Man on Tour Boat"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0292129",
       "name": "George MacDonald Fraser",
-      "notes": "(screen story by)"
+      "notes": "screen story by and"
     },
     {
       "imdbId": "nm0537363",
       "name": "Richard Maibaum",
-      "notes": "(screen story by)"
+      "notes": "screen story by &"
     },
     {
       "imdbId": "nm0933865",
       "name": "Michael G. Wilson",
-      "notes": "(screen story by)"
+      "notes": "screen story by"
     }
   ],
   "runtimeMinutes": 131

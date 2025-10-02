@@ -8,8 +8,7 @@
   "releaseDate": "2002-11-11",
   "countries": [
     "United Kingdom",
-    "United States",
-    "Spain"
+    "United States"
   ],
   "genres": [
     "Action",
@@ -281,34 +280,23 @@
       "roles": [
         "Buckingham Palace Reporter"
       ]
-    },
-    {
-      "imdbId": "nm1595786",
-      "name": "David Decio",
-      "roles": [
-        "Mr. Kil's Personal Ice Palace Assistant",
-        "Jinx's Personal Driver"
-      ]
-    },
-    {
-      "imdbId": "nm2368182",
-      "name": "Lynne Hazelden",
-      "roles": [
-        "Ice Palace - TV Crew",
-        "Reporter"
-      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "characters"
+    },
+    {
       "imdbId": "nm0701031",
       "name": "Neal Purvis",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0905498",
       "name": "Robert Wade",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ],
   "runtimeMinutes": 133

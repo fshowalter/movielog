@@ -7,9 +7,9 @@
   "year": "2019",
   "releaseDate": "2019-03-08",
   "countries": [
-    "United States",
     "China",
-    "Japan"
+    "Japan",
+    "United States"
   ],
   "genres": [
     "Horror",
@@ -172,37 +172,13 @@
         "Nancy",
         "Syd"
       ]
-    },
-    {
-      "imdbId": "nm3196821",
-      "name": "Andrew Constantini",
-      "roles": [
-        "Ballet Spectator",
-        "Underground"
-      ]
-    },
-    {
-      "imdbId": "nm4137655",
-      "name": "Linda Joy Henry",
-      "roles": [
-        "Beach Couple",
-        "Amusement Park Attendee"
-      ]
-    },
-    {
-      "imdbId": "nm8769831",
-      "name": "Nicole Huynh",
-      "roles": [
-        "Beachgoer",
-        "Cooler Girl"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1443502",
       "name": "Jordan Peele",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ],
   "runtimeMinutes": 116

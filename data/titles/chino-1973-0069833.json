@@ -8,8 +8,8 @@
   "releaseDate": "1973-09-14",
   "countries": [
     "Italy",
-    "Spain",
-    "France"
+    "France",
+    "Spain"
   ],
   "genres": [
     "Action",
@@ -19,12 +19,12 @@
   ],
   "directors": [
     {
-      "imdbId": "nm0836328",
-      "name": "John Sturges"
-    },
-    {
       "imdbId": "nm0171385",
       "name": "Duilio Coletti"
+    },
+    {
+      "imdbId": "nm0836328",
+      "name": "John Sturges"
     }
   ],
   "performers": [
@@ -92,13 +92,6 @@
       ]
     },
     {
-      "imdbId": "nm0521224",
-      "name": "Diana Lorys",
-      "roles": [
-        "Mexican"
-      ]
-    },
-    {
       "imdbId": "nm0616389",
       "name": "Conchita Muñoz",
       "roles": [
@@ -131,12 +124,12 @@
     {
       "imdbId": "nm0389000",
       "name": "Lee Hoffman",
-      "notes": "(novel \"The Valdez Horses\")"
+      "notes": "novel \"The Valdez Horses\""
     },
     {
       "imdbId": "nm0400236",
       "name": "Clair Huffaker",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 97

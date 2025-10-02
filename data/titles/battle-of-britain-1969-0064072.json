@@ -8,7 +8,10 @@
   "releaseDate": "1969-09-15",
   "runtimeMinutes": 132,
   "countries": [
-    "United Kingdom"
+    "United Kingdom",
+    "United States",
+    "France",
+    "Spain"
   ],
   "genres": [
     "Action",
@@ -307,14 +310,14 @@
       "imdbId": "nm0292385",
       "name": "Dietrich Frauboes",
       "roles": [
-        "Field Marshal Milch"
+        "Field Marshal Milch (Inspector General, Luftwaffe)"
       ]
     },
     {
       "imdbId": "nm0678851",
       "name": "Malte Petzel",
       "roles": [
-        "Col. Beppo Schmidt"
+        "Col. Beppo Schmidt (Luftwaffe Intelligence)"
       ]
     },
     {
@@ -358,36 +361,28 @@
       "roles": [
         "Adolf Hitler"
       ]
-    },
-    {
-      "imdbId": "nm8745734",
-      "name": "Roy Beck",
-      "roles": [
-        "French soldier",
-        "RAF pilot"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0447860",
       "name": "James Kennaway",
-      "notes": "(screenplay)"
+      "notes": "screenplay and"
     },
     {
       "imdbId": "nm0337311",
       "name": "Wilfred Greatorex",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm2471864",
       "name": "Derek Dempster",
-      "notes": "(book \"The Narrow Margin\")"
+      "notes": "book \"The Narrow Margin\""
     },
     {
       "imdbId": "nm2472689",
       "name": "Derek Wood",
-      "notes": "(book \"The Narrow Margin\")"
+      "notes": "book \"The Narrow Margin\""
     }
   ]
 }

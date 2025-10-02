@@ -13,8 +13,11 @@
   ],
   "genres": [
     "Comedy",
+    "Drama",
     "Fantasy",
-    "Horror"
+    "Horror",
+    "Mystery",
+    "Romance"
   ],
   "directors": [
     {
@@ -364,12 +367,12 @@
     {
       "imdbId": "nm0909638",
       "name": "Fran Walsh",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0001392",
       "name": "Peter Jackson",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ]
 }

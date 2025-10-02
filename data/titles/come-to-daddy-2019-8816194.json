@@ -7,10 +7,9 @@
   "year": "2019",
   "releaseDate": "2019-04-25",
   "countries": [
-    "Ireland",
     "Canada",
     "New Zealand",
-    "United States"
+    "Ireland"
   ],
   "genres": [
     "Comedy",
@@ -91,28 +90,28 @@
       "imdbId": "nm2286983",
       "name": "Raresh DiMofte",
       "roles": [
-        "Swinger"
+        "Swinger #1"
       ]
     },
     {
       "imdbId": "nm9418792",
       "name": "Alla Rouba",
       "roles": [
-        "Swinger"
+        "Swinger #2"
       ]
     },
     {
       "imdbId": "nm0959112",
       "name": "Noam Zylberman",
       "roles": [
-        "Swinger"
+        "Swinger #3"
       ]
     },
     {
       "imdbId": "nm10867755",
       "name": "Gord Middleton",
       "roles": [
-        "Swinger"
+        "Swinger #4"
       ]
     },
     {
@@ -121,30 +120,23 @@
       "roles": [
         "Young Norval"
       ]
-    },
-    {
-      "imdbId": "nm0860226",
-      "name": "Ian Thompson",
-      "roles": [
-        "Bus Driver"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1361864",
       "name": "Toby Harvard",
-      "notes": "(story by)"
-    },
-    {
-      "imdbId": "nm1361864",
-      "name": "Toby Harvard",
-      "notes": "(written by)"
+      "notes": "written by"
     },
     {
       "imdbId": "nm0863807",
       "name": "Ant Timpson",
-      "notes": "(based on an idea by)"
+      "notes": "idea"
+    },
+    {
+      "imdbId": "nm1361864",
+      "name": "Toby Harvard",
+      "notes": "story"
     }
   ],
   "runtimeMinutes": 96
