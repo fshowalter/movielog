@@ -20,17 +20,17 @@
   ],
   "performers": [
     {
-      "imdbId": "nm0001665",
-      "name": "Lee Remick",
-      "roles": [
-        "Georgette Thomas"
-      ]
-    },
-    {
       "imdbId": "nm0000537",
       "name": "Steve McQueen",
       "roles": [
         "Henry Thomas"
+      ]
+    },
+    {
+      "imdbId": "nm0001665",
+      "name": "Lee Remick",
+      "roles": [
+        "Georgette Thomas"
       ]
     },
     {
@@ -108,12 +108,12 @@
     {
       "imdbId": "nm0285210",
       "name": "Horton Foote",
-      "notes": "(play \"The Travelling Lady\")"
+      "notes": "play \"The Travelling Lady\""
     },
     {
       "imdbId": "nm0285210",
       "name": "Horton Foote",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 100

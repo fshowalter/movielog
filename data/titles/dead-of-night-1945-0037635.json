@@ -11,7 +11,9 @@
   ],
   "genres": [
     "Drama",
-    "Horror"
+    "Fantasy",
+    "Horror",
+    "Mystery"
   ],
   "runtimeMinutes": 77,
   "directors": [
@@ -200,43 +202,50 @@
       "roles": [
         "Mrs. Craig"
       ]
+    },
+    {
+      "imdbId": "nm17618452",
+      "name": "John McGuire",
+      "roles": [
+        "Hugo Fitch"
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0047786",
       "name": "John Baines",
-      "notes": "(screen play)"
+      "notes": "screen play &"
     },
     {
       "imdbId": "nm0534191",
       "name": "Angus MacPhail",
-      "notes": "(screen play)"
+      "notes": "screen play"
     },
     {
       "imdbId": "nm0165021",
       "name": "T.E.B. Clarke",
-      "notes": "(additional dialogue)"
+      "notes": "additional dialogue"
     },
     {
       "imdbId": "nm0920229",
       "name": "H.G. Wells",
-      "notes": "(original story)"
+      "notes": "original story &"
     },
     {
       "imdbId": "nm0072478",
       "name": "E.F. Benson",
-      "notes": "(original story)"
+      "notes": "original story &"
     },
     {
       "imdbId": "nm0047786",
       "name": "John Baines",
-      "notes": "(original story)"
+      "notes": "original story &"
     },
     {
       "imdbId": "nm0534191",
       "name": "Angus MacPhail",
-      "notes": "(original story)"
+      "notes": "original story"
     }
   ]
 }

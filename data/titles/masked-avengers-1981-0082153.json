@@ -21,21 +21,6 @@
   ],
   "performers": [
     {
-      "imdbId": "nm0477231",
-      "name": "Phillip Chung-Fung Kwok",
-      "roles": [
-        "Kao Yao",
-        "former #2"
-      ]
-    },
-    {
-      "imdbId": "nm0157785",
-      "name": "Siu-Ho Chin",
-      "roles": [
-        "Chang Chung"
-      ]
-    },
-    {
       "imdbId": "nm0156982",
       "name": "Sheng Chiang",
       "roles": [
@@ -51,11 +36,26 @@
       ]
     },
     {
+      "imdbId": "nm0157785",
+      "name": "Siu-Ho Chin",
+      "roles": [
+        "Chang Chung"
+      ]
+    },
+    {
       "imdbId": "nm0523711",
       "name": "Feng Lu",
       "roles": [
         "Lin Yung Chi",
         "#1"
+      ]
+    },
+    {
+      "imdbId": "nm0477231",
+      "name": "Phillip Chung-Fung Kwok",
+      "roles": [
+        "Kao Yao",
+        "former #2"
       ]
     },
     {
@@ -238,12 +238,12 @@
     {
       "imdbId": "nm0151653",
       "name": "Cheh Chang",
-      "notes": "()"
+      "notes": ""
     },
     {
       "imdbId": "nm0393250",
       "name": "Kuang Ni",
-      "notes": "()"
+      "notes": ""
     }
   ],
   "runtimeMinutes": 92

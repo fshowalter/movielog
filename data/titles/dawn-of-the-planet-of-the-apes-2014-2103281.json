@@ -248,31 +248,33 @@
       "roles": [
         "Gun-Clinching Man"
       ]
-    },
-    {
-      "imdbId": "nm4987843",
-      "name": "Jon Arthur",
-      "roles": [
-        "Armed Sentry",
-        "Dreyfus Officer"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0093560",
       "name": "Mark Bomback",
-      "notes": "(written by)"
+      "notes": "written by and"
     },
     {
       "imdbId": "nm0415425",
       "name": "Rick Jaffa",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0798646",
       "name": "Amanda Silver",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0415425",
+      "name": "Rick Jaffa",
+      "notes": "based on characters created by &"
+    },
+    {
+      "imdbId": "nm0798646",
+      "name": "Amanda Silver",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 130

@@ -258,7 +258,7 @@
       ]
     },
     {
-      "imdbId": "nm0992143",
+      "imdbId": "nm0881569",
       "name": "Ren Urano",
       "roles": [
         "Sumo Referee"
@@ -591,7 +591,6 @@
       "imdbId": "nm0000129",
       "name": "Tom Cruise",
       "roles": [
-        "Tom Cruise",
         "Famous Austin"
       ]
     },
@@ -599,7 +598,6 @@
       "imdbId": "nm0000569",
       "name": "Gwyneth Paltrow",
       "roles": [
-        "Gwyneth Paltrow",
         "Dixie Normous"
       ]
     },
@@ -607,7 +605,6 @@
       "imdbId": "nm0000228",
       "name": "Kevin Spacey",
       "roles": [
-        "Kevin Spacey",
         "Famous Dr. Evil"
       ]
     },
@@ -615,7 +612,6 @@
       "imdbId": "nm0000362",
       "name": "Danny DeVito",
       "roles": [
-        "Danny DeVito",
         "Famous Mini Me"
       ]
     },
@@ -623,7 +619,6 @@
       "imdbId": "nm0000229",
       "name": "Steven Spielberg",
       "roles": [
-        "Steven Spielberg",
         "Famous Director"
       ]
     },
@@ -638,7 +633,7 @@
       "imdbId": "nm0005453",
       "name": "Britney Spears",
       "roles": [
-        "Britney Spears - 'Boys' Music Video Performer"
+        "Britney Spears"
       ]
     },
     {
@@ -687,7 +682,6 @@
       "imdbId": "nm0000237",
       "name": "John Travolta",
       "roles": [
-        "John Travolta",
         "Famous Goldmember"
       ]
     },
@@ -704,26 +698,23 @@
       "roles": [
         "Middle Number Two"
       ]
-    },
-    {
-      "imdbId": "nm1477472",
-      "name": "Donna Russo",
-      "roles": [
-        "Dancer",
-        "Gate Keeper"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0000196",
       "name": "Mike Myers",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0567112",
       "name": "Michael McCullers",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0000196",
+      "name": "Mike Myers",
+      "notes": "characters created by"
     }
   ]
 }

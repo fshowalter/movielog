@@ -13,6 +13,8 @@
   ],
   "genres": [
     "Animation",
+    "Adventure",
+    "Family",
     "Sci-Fi"
   ],
   "directors": [
@@ -21,77 +23,17 @@
       "name": "Chris Sanders"
     }
   ],
-  "performers": [
-    {
-      "imdbId": "nm2143282",
-      "name": "Lupita Nyong'o",
-      "roles": [
-        "Roz",
-        "Rummage"
-      ]
-    },
-    {
-      "imdbId": "nm0048389",
-      "name": "Dee Bradley Baker",
-      "roles": [
-        "Raccoons",
-        "Squirrels",
-        "Badgers"
-      ]
-    },
-    {
-      "imdbId": "nm3086712",
-      "name": "Piotr Michael",
-      "roles": [
-        "Broadfoot",
-        "Weasel 3"
-      ]
-    },
-    {
-      "imdbId": "nm12789607",
-      "name": "Kayleigh Rayne",
-      "roles": [
-        "Baby Opossum 4, 7",
-        "Baby Bunny 2",
-        "Baby Skunk"
-      ]
-    },
-    {
-      "imdbId": "nm16372345",
-      "name": "Isabelle Tupin",
-      "roles": [
-        "Baby Opossum 8, 9",
-        "Baby Bunny 1"
-      ]
-    },
-    {
-      "imdbId": "nm15901249",
-      "name": "Beckett Blomberg",
-      "roles": [
-        "Baby Opossum 10",
-        "Chipmunk",
-        "Baby Lynx"
-      ]
-    },
-    {
-      "imdbId": "nm16372346",
-      "name": "Damon Fung",
-      "roles": [
-        "Baby Opossum 11",
-        "Baby Otter"
-      ]
-    }
-  ],
+  "performers": [],
   "writers": [
     {
       "imdbId": "nm0761498",
       "name": "Chris Sanders",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     },
     {
       "imdbId": "nm2464094",
       "name": "Peter Brown",
-      "notes": "(based on the book by)"
+      "notes": "based on the book by"
     }
   ]
 }

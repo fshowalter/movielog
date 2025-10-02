@@ -10,6 +10,7 @@
     "United States"
   ],
   "genres": [
+    "Drama",
     "Western"
   ],
   "runtimeMinutes": 100,
@@ -173,9 +174,14 @@
   ],
   "writers": [
     {
+      "imdbId": "nm0692427",
+      "name": "Charles Portis",
+      "notes": "characters"
+    },
+    {
       "imdbId": "nm0827839",
       "name": "Sandor Stern",
-      "notes": "()"
+      "notes": "writer"
     }
   ]
 }

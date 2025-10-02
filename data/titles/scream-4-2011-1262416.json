@@ -231,6 +231,13 @@
       ]
     },
     {
+      "imdbId": "nm0001287",
+      "name": "Heather Graham",
+      "roles": [
+        "Casey"
+      ]
+    },
+    {
       "imdbId": "nm4391751",
       "name": "Glenda Lewis",
       "roles": [
@@ -257,20 +264,18 @@
       "roles": [
         "Reporter #7"
       ]
-    },
-    {
-      "imdbId": "nm0000127",
-      "name": "Wes Craven",
-      "roles": [
-        "Coroner"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0932078",
       "name": "Kevin Williamson",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0932078",
+      "name": "Kevin Williamson",
+      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 111

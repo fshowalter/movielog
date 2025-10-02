@@ -8,7 +8,8 @@
   "releaseDate": "1995-11-13",
   "countries": [
     "United Kingdom",
-    "United States"
+    "United States",
+    "Russia"
   ],
   "genres": [
     "Action",
@@ -196,31 +197,28 @@
       "roles": [
         "Valentin's Bodyguard"
       ]
-    },
-    {
-      "imdbId": "nm0497541",
-      "name": "Jo Anna Lee",
-      "roles": [
-        "Cowgirl",
-        "Backing Singer"
-      ]
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "characters"
+    },
+    {
       "imdbId": "nm0289833",
       "name": "Michael France",
-      "notes": "(story)"
+      "notes": "story"
     },
     {
       "imdbId": "nm0128997",
       "name": "Jeffrey Caine",
-      "notes": "(screenplay)"
+      "notes": "screenplay and"
     },
     {
       "imdbId": "nm0270761",
       "name": "Bruce Feirstein",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 130

@@ -8,10 +8,7 @@
   "releaseDate": "2009-02-05",
   "runtimeMinutes": 100,
   "countries": [
-    "United States",
-    "Austria",
-    "France",
-    "Hungary"
+    "United States"
   ],
   "genres": [
     "Animation",
@@ -25,67 +22,17 @@
       "name": "Henry Selick"
     }
   ],
-  "performers": [
-    {
-      "imdbId": "nm0000159",
-      "name": "Teri Hatcher",
-      "roles": [
-        "Mel Jones",
-        "Other Mother",
-        "Beldam"
-      ]
-    },
-    {
-      "imdbId": "nm0766837",
-      "name": "Jennifer Saunders",
-      "roles": [
-        "Miss April Spink",
-        "Other Spink"
-      ]
-    },
-    {
-      "imdbId": "nm0294067",
-      "name": "Dawn French",
-      "roles": [
-        "Miss Miriam Forcible",
-        "Other Forcible"
-      ]
-    },
-    {
-      "imdbId": "nm1894655",
-      "name": "John Hodgman",
-      "roles": [
-        "Charlie Jones",
-        "Other Father"
-      ]
-    },
-    {
-      "imdbId": "nm0574534",
-      "name": "Ian McShane",
-      "roles": [
-        "Mr. Sergei Alexander Bobinsky",
-        "Other Bobinsky"
-      ]
-    },
-    {
-      "imdbId": "nm0148496",
-      "name": "Rubén Cerda",
-      "roles": [
-        "Charlie Jones",
-        "Other Dad"
-      ]
-    }
-  ],
+  "performers": [],
   "writers": [
     {
       "imdbId": "nm0783139",
       "name": "Henry Selick",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm0301274",
       "name": "Neil Gaiman",
-      "notes": "(book)"
+      "notes": "book"
     }
   ]
 }

@@ -551,50 +551,28 @@
       "roles": [
         "Woman at Bar"
       ]
-    },
-    {
-      "imdbId": "nm5611020",
-      "name": "Dawn Hamil",
-      "roles": [
-        "Producers Assistant",
-        "Office Girl"
-      ]
-    },
-    {
-      "imdbId": "nm7589367",
-      "name": "Lauren Michele",
-      "roles": [
-        "Pedestrian",
-        "Parkgoer"
-      ]
-    },
-    {
-      "imdbId": "nm1532699",
-      "name": "Arvell Poe",
-      "roles": [
-        "Soul Train Dancer",
-        "GNN Cameraman"
-      ]
-    },
-    {
-      "imdbId": "nm4333090",
-      "name": "Ken Venzke",
-      "roles": [
-        "SeaWorld Reporter",
-        "Heckler"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0002071",
       "name": "Will Ferrell",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0570912",
       "name": "Adam McKay",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm0002071",
+      "name": "Will Ferrell",
+      "notes": "characters &"
+    },
+    {
+      "imdbId": "nm0570912",
+      "name": "Adam McKay",
+      "notes": "characters"
     }
   ],
   "runtimeMinutes": 119

@@ -8,10 +8,15 @@
   "releaseDate": "2025-03-10",
   "runtimeMinutes": 96,
   "countries": [
-    "United States"
+    "United States",
+    "Luxembourg",
+    "United Kingdom",
+    "Canada"
   ],
   "genres": [
-    "Horror"
+    "Horror",
+    "Mystery",
+    "Thriller"
   ],
   "directors": [
     {
@@ -91,7 +96,7 @@
       ]
     },
     {
-      "imdbId": "nm13921611",
+      "imdbId": "nm1671908",
       "name": "Catherine Wreford",
       "roles": [
         "Crystal Hill"
@@ -214,17 +219,17 @@
     {
       "imdbId": "nm1125328",
       "name": "Carter Blanchard",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by and"
     },
     {
       "imdbId": "nm0185848",
       "name": "Eli Craig",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     },
     {
       "imdbId": "nm7706520",
       "name": "Adam Cesare",
-      "notes": "(based upon the novel by)"
+      "notes": "based upon the novel by"
     }
   ]
 }

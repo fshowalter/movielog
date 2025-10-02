@@ -23,17 +23,17 @@
   ],
   "performers": [
     {
+      "imdbId": "nm0241121",
+      "name": "Jean Dujardin",
+      "roles": [
+        "Marie-Georges Picquart"
+      ]
+    },
+    {
       "imdbId": "nm0308039",
       "name": "Louis Garrel",
       "roles": [
         "Alfred Dreyfus"
-      ]
-    },
-    {
-      "imdbId": "nm0544938",
-      "name": "Christophe Maratier",
-      "roles": [
-        "Adjudant dégradation"
       ]
     },
     {
@@ -51,10 +51,10 @@
       ]
     },
     {
-      "imdbId": "nm0241121",
-      "name": "Jean Dujardin",
+      "imdbId": "nm0544938",
+      "name": "Christophe Maratier",
       "roles": [
-        "Marie-Georges Picquart"
+        "Adjudant dégradation"
       ]
     },
     {
@@ -178,7 +178,7 @@
     },
     {
       "imdbId": "nm0258267",
-      "name": "Fred Epaud",
+      "name": "Frédéric Epaud",
       "roles": [
         "Officier artillerie"
       ]
@@ -546,23 +546,30 @@
       "roles": [
         "Canonnier"
       ]
+    },
+    {
+      "imdbId": "nm9455917",
+      "name": "Théo Hellermann",
+      "roles": [
+        "Louis"
+      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0365249",
       "name": "Robert Harris",
-      "notes": "(screenplay)"
+      "notes": "screenplay &"
     },
     {
       "imdbId": "nm0000591",
       "name": "Roman Polanski",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm0365249",
       "name": "Robert Harris",
-      "notes": "(based on the book by)"
+      "notes": "book"
     }
   ],
   "runtimeMinutes": 132

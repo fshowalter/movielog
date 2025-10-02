@@ -13,6 +13,7 @@
     "United States"
   ],
   "genres": [
+    "Adventure",
     "Comedy",
     "Crime",
     "Drama",
@@ -346,47 +347,23 @@
       "roles": [
         "Village Idiot"
       ]
-    },
-    {
-      "imdbId": "nm1766895",
-      "name": "Billy W. Blackwell",
-      "roles": [
-        "Rallygoer",
-        "Banquet Patron"
-      ]
-    },
-    {
-      "imdbId": "nm12516252",
-      "name": "Sheryl Clark",
-      "roles": [
-        "Moviegoer",
-        "Spectator"
-      ]
-    },
-    {
-      "imdbId": "nm2997096",
-      "name": "John Wilkie",
-      "roles": [
-        "Klansman",
-        "Choreographer"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm0392955",
       "name": "Homer",
-      "notes": "(epic poem \"The Odyssey\")"
+      "notes": "epic poem \"The Odyssey\""
     },
     {
       "imdbId": "nm0001053",
       "name": "Ethan Coen",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm0001054",
       "name": "Joel Coen",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ]
 }

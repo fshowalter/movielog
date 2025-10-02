@@ -8,8 +8,8 @@
   "releaseDate": "2021-03-18",
   "countries": [
     "United States",
-    "Japan",
-    "China"
+    "China",
+    "Japan"
   ],
   "genres": [
     "Action",
@@ -165,6 +165,13 @@
       ]
     },
     {
+      "imdbId": "nm1575227",
+      "name": "Daniel Joseph Rizzuto",
+      "roles": [
+        "Gunman"
+      ]
+    },
+    {
       "imdbId": "nm9059650",
       "name": "Ruslan Rusin",
       "roles": [
@@ -294,12 +301,12 @@
       "imdbId": "nm12411270",
       "name": "Richard Thomas",
       "roles": [
-        "Security Guard"
+        "Security Guard (Obshak Basement)"
       ]
     },
     {
-      "imdbId": "nm16295176",
-      "name": "Alan Wong",
+      "imdbId": "nm9715554",
+      "name": "Alan W.H. Wong",
       "roles": [
         "Doctor"
       ]
@@ -333,8 +340,8 @@
       ]
     },
     {
-      "imdbId": "nm0945771",
-      "name": "Vladimir Yamnenko",
+      "imdbId": "nm2353294",
+      "name": "Volodymyr Yatsenko",
       "roles": [
         "Mob Boss"
       ]
@@ -343,7 +350,7 @@
       "imdbId": "nm12411272",
       "name": "Meaghan Ann De Werrenne Waller",
       "roles": [
-        "Waitress"
+        "Waitress (Karaoke Club)"
       ]
     },
     {
@@ -394,20 +401,13 @@
       "roles": [
         "Dancer"
       ]
-    },
-    {
-      "imdbId": "nm1575227",
-      "name": "Daniel Joseph Rizzuto",
-      "roles": [
-        "Gunman"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm4401003",
       "name": "Derek Kolstad",
-      "notes": "(written by)"
+      "notes": "written by"
     }
   ],
   "runtimeMinutes": 92

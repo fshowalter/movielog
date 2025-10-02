@@ -9,7 +9,8 @@
   "runtimeMinutes": 100,
   "countries": [
     "United States",
-    "Japan"
+    "Japan",
+    "Australia"
   ],
   "genres": [
     "Animation",
@@ -27,36 +28,27 @@
       "name": "Lee Unkrich"
     }
   ],
-  "performers": [
-    {
-      "imdbId": "nm0507852",
-      "name": "Vicki Lewis",
-      "roles": [
-        "Deb",
-        "Flo"
-      ]
-    }
-  ],
+  "performers": [],
   "writers": [
     {
       "imdbId": "nm0004056",
       "name": "Andrew Stanton",
-      "notes": "(original story by)"
+      "notes": "original story by"
     },
     {
       "imdbId": "nm0004056",
       "name": "Andrew Stanton",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by &"
     },
     {
       "imdbId": "nm0677037",
       "name": "Bob Peterson",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by &"
     },
     {
       "imdbId": "nm0721675",
       "name": "David Reynolds",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     }
   ]
 }

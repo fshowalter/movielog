@@ -7,13 +7,17 @@
   "year": "2013",
   "releaseDate": "2013-01-26",
   "countries": [
-    "Netherlands",
     "United States",
-    "Czechia"
+    "Netherlands",
+    "Czech Republic"
   ],
   "genres": [
+    "Action",
+    "Adventure",
     "Horror",
-    "Sci-Fi"
+    "Sci-Fi",
+    "Thriller",
+    "War"
   ],
   "directors": [
     {
@@ -357,27 +361,27 @@
     {
       "imdbId": "nm0704675",
       "name": "Richard Raaphorst",
-      "notes": "(original idea)"
+      "notes": "original idea"
     },
     {
       "imdbId": "nm0704675",
       "name": "Richard Raaphorst",
-      "notes": "(story)"
+      "notes": "story &"
     },
     {
       "imdbId": "nm0854185",
       "name": "Miguel Tejada-Flores",
-      "notes": "(story)"
+      "notes": "story"
     },
     {
       "imdbId": "nm0593222",
       "name": "Chris W. Mitchell",
-      "notes": "(screenplay)"
+      "notes": "&"
     },
     {
       "imdbId": "nm0854185",
       "name": "Miguel Tejada-Flores",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     }
   ],
   "runtimeMinutes": 84

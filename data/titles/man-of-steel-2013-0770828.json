@@ -8,7 +8,8 @@
   "releaseDate": "2013-06-01",
   "countries": [
     "United States",
-    "United Kingdom"
+    "United Kingdom",
+    "Canada"
   ],
   "genres": [
     "Action",
@@ -111,14 +112,14 @@
       "imdbId": "nm2876098",
       "name": "Dylan Sprayberry",
       "roles": [
-        "Clark Kent"
+        "Clark Kent (13 Years)"
       ]
     },
     {
       "imdbId": "nm4742128",
       "name": "Cooper Timberline",
       "roles": [
-        "Clark Kent"
+        "Clark Kent (9 Years)"
       ]
     },
     {
@@ -489,28 +490,28 @@
       "imdbId": "nm2444299",
       "name": "Brian King",
       "roles": [
-        "Train Station Family"
+        "Train Station Family (Father)"
       ]
     },
     {
       "imdbId": "nm4961014",
       "name": "Madison Moran",
       "roles": [
-        "Train Station Family"
+        "Train Station Family (Daughter)"
       ]
     },
     {
       "imdbId": "nm5711321",
       "name": "Gabe Darley",
       "roles": [
-        "Train Station Family"
+        "Train Station Family (Son)"
       ]
     },
     {
       "imdbId": "nm0628468",
       "name": "Bridgett Newton",
       "roles": [
-        "Train Station Family"
+        "Train Station Family (Mother)"
       ]
     },
     {
@@ -595,17 +596,27 @@
     {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "(screenplay)"
+      "notes": "screenplay"
     },
     {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "(story)"
+      "notes": "story &"
     },
     {
       "imdbId": "nm0634240",
       "name": "Christopher Nolan",
-      "notes": "(story)"
+      "notes": "story"
+    },
+    {
+      "imdbId": "nm0796950",
+      "name": "Jerry Siegel",
+      "notes": "Superman created by &"
+    },
+    {
+      "imdbId": "nm0795975",
+      "name": "Joe Shuster",
+      "notes": "Superman created by"
     }
   ],
   "runtimeMinutes": 143

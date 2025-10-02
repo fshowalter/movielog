@@ -381,26 +381,28 @@
       "roles": [
         "Random Amsterdam Stoner"
       ]
-    },
-    {
-      "imdbId": "nm2732159",
-      "name": "Michael Byrnes",
-      "roles": [
-        "Lt. Riggs",
-        "Goon"
-      ]
     }
   ],
   "writers": [
     {
       "imdbId": "nm1375358",
       "name": "Jon Hurwitz",
-      "notes": "(written by)"
+      "notes": "written by &"
     },
     {
       "imdbId": "nm1376383",
       "name": "Hayden Schlossberg",
-      "notes": "(written by)"
+      "notes": "written by"
+    },
+    {
+      "imdbId": "nm1375358",
+      "name": "Jon Hurwitz",
+      "notes": "characters &"
+    },
+    {
+      "imdbId": "nm1376383",
+      "name": "Hayden Schlossberg",
+      "notes": "characters"
     }
   ]
 }

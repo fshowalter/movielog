@@ -16,7 +16,8 @@
     "Comedy",
     "Drama",
     "Family",
-    "Fantasy"
+    "Fantasy",
+    "Sport"
   ],
   "directors": [
     {
@@ -24,27 +25,35 @@
       "name": "Kelsey Mann"
     }
   ],
-  "performers": [],
+  "performers": [
+    {
+      "imdbId": "nm9654243",
+      "name": "Rylee Alazraqui",
+      "roles": [
+        "Additional Voices"
+      ]
+    }
+  ],
   "writers": [
     {
       "imdbId": "nm0498834",
       "name": "Meg LeFauve",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by and"
     },
     {
       "imdbId": "nm1439546",
       "name": "Dave Holstein",
-      "notes": "(screenplay by)"
+      "notes": "screenplay by"
     },
     {
       "imdbId": "nm1626375",
       "name": "Kelsey Mann",
-      "notes": "(story by)"
+      "notes": "story by and"
     },
     {
       "imdbId": "nm0498834",
       "name": "Meg LeFauve",
-      "notes": "(story by)"
+      "notes": "story by"
     }
   ]
 }
