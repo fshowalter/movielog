@@ -2,7 +2,7 @@
 date: 2008-07-15
 grade: D+
 imdb_id: tt0052077
-slug: plan-9-from-outer-space-1957
+slug: plan-9-from-outer-space-1958
 ---
 
 Aliens plot to resurrect an army of the dead to prevent mankind's eventual discovery of a weapon capable of destroying the universe.

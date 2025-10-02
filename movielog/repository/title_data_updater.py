@@ -22,7 +22,6 @@ ValidTitles = {
     "tt0040068": "Abbott and Costello Meet Frankenstein",
     "tt0103874": "Bram Stoker's Dracula",
     "tt0053719": "The City of the Dead",
-    "tt0021577": "The Golden Age",
     "tt0103743": "The Untold Story",
 }
 
