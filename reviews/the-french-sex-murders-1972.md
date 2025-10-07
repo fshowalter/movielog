@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0069850
 slug: the-french-sex-murders-1972
-grade: C
+grade: C-
 date: 2025-10-04
 synopsis: A black-gloved killer stalks victims connected to a Paris brothel while Bogart impersonator Robert Sacchi investigates and mad scientist Howard Vernon lurks in the wings.
 ---
@@ -10,7 +10,7 @@ Here's the thing about _The French Sex Murders_: it shouldn't work. But it does.
 
 The plot? A black-gloved killer stalks victims connected to a Paris brothel. Standard giallo fare. But then Howard Vernon--looking like a sleazy Boris Karloff--shows up as a mad scientist. Not enough? How about Robert Sacchi--a professional Bogart impersonator--playing the detective, our ostensible protagonist. 
 
-Sacchi plays the role absolutely straight, never winking at the camera, never acknowledging the elephant in the room. It's like 1940s-era Bogart got dropped into a 1970s Paris-set giallo. Not <span data-imdb-id="tt0033870">_Maltese Falcon_</span> Bogart. More like one of those forgettable Warner programmers he churned out before <span data-imdb-id="tt0034583">_Casablanca_</span> made him a star.
+Sacchi plays the role absolutely straight, never winking at the camera, never acknowledging the elephant in the room. Clad in a trenchcoat whenever possible, and even sporting Bogie's facial tics, it's like 1940s-era Bogart got dropped into a 1970s Paris-set giallo. Not <span data-imdb-id="tt0033870">_Maltese Falcon_</span> Bogart. More like one of those forgettable Warner programmers he churned out before <span data-imdb-id="tt0034583">_Casablanca_</span> made him a star.
 
 The tonal whiplash should sink the picture. It doesn't. Something about the heightened performances suggests the filmmakers might be in on the joke. Maybe.
 
