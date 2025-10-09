@@ -7,7 +7,7 @@ synopsis: In a remote South Korean village, a cop races to uncover the secret be
 
 ---
 
-With _The Wailing_ writer-director Na Hong-jin wants to pull a fast one on you. He tells you he's going to do it. Then he does it anyway.
+With _The Wailing_, writer-director Na Hong-jin wants to pull a fast one on you. He tells you he's going to do it. Then he does it anyway.
 
 The setup is pure dread. A remote South Korean village. Grisly murders. Bodies covered in boils. A mysterious Japanese stranger who may or may not be behind it all. When cop Jong-goo's daughter starts showing symptoms, the race is on.
 
