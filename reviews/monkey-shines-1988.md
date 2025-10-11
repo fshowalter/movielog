@@ -17,7 +17,7 @@ For its first hour, _Monkey Shines_ is something unexpected: a thoughtful charac
 
 Then the monkey starts killing people.
 
-The tonal whiplash is severe. One moment we're watching a man reclaim his humanity. The next, he's delivering Clint Eastwood one-liners to a primate: "I'll tear you open and chew out your heart." The finale goes full _Conan the Barbarian_--and not in a good way. I laughed out loud.
+The tonal whiplash is severe. One moment we're watching a man reclaim his humanity. The next, he's delivering Clint Eastwood one-liners to a primate: "I'll tear you open and chew out your heart." The finale goes full <span data-imdb-id="tt0082198">_Conan the Barbarian_</span>--and not in a good way. I laughed out loud.
 
 The screenplay can't reconcile its two halves. When the trainer gets knocked unconscious by one well-timed monkey trip, it's lazy writing masquerading as menace. When Allan becomes immobilized by a phone cord with the apparent tensile strength of steel cable, credulity snaps.
 
