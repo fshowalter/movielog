@@ -9,7 +9,7 @@ synopsis: After experimental US Army bio-weapon turns much of a Filipino town in
 
 The corpse shambles on. Lucio Fulci's _Zombie 3_ lurches onto screens like one of its own undead--patched together, falling apart, and possessing just enough life to occasionally surprise you.
 
-Here's the story behind the disaster: Lucio Fulci, the Italian horror maestro, started shooting this Philippines-set mess but abandoned ship after six weeks, leaving seventy minutes of footage. The producers panicked. They chopped his cut to fifty minutes and hired Bruno Mattei to shoot forty more--without the original cast.
+Here's the story behind the disaster: Lucio Fulci, the Italian horror maestro, started shooting this Philippines-set mess but abandoned ship after six weeks, leaving seventy minutes of footage. The producers panicked. They chopped his cut to fifty minutes and hired Bruno Mattei to shoot forty more--without the original cast.[^1]
 
 Death One is the McGuffin. It's a bio-weapon that escapes containment and turns a town into a zombie buffet. Tourists flee. Soldiers shoot. Scientists scramble. Standard issue chaos, executed with the production values of a Cannon Films fever dream.
 
@@ -26,3 +26,5 @@ And yet, buried in this mess are genuine Fulci moments. There's a machete-wieldi
 But such moments are too few and far between. _Zombie 3_ shambles between incompetence and inspiration. Mostly the former. But those few Fulci moments hint at what could have been. And I loved that two of the main characters are named Roger and Kenny. Kenny and Roger. If that's intentional, somebody knew exactly what kind of movie they were making.
 
 The rest is ninja zombies and rubber planks.
+
+[^1]: Troy Howarth, _Splintered Visions: Lucio Fulci and His Films_ (Baltimore: Midnight Marquee Press, 2015), 302.
