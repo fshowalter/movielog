@@ -13,7 +13,7 @@ Here's the story behind the disaster: Lucio Fulci, the Italian horror maestro, s
 
 Death One is the McGuffin. It's a bio-weapon that escapes containment and turns a town into a zombie buffet. Tourists flee. Soldiers shoot. Scientists scramble. Standard issue chaos, executed with the production values of a Cannon Films fever dream.
 
-Because that's what this feels like: <span data-imdb-id="tt0088708">_American Ninja_</span> with zombies. Same Filipino locations. Same bloodless machine gun battles where extras just fall down. The opening sequence doesn't even have muzzle flashes--those guns might have been broomsticks. But here's where it gets interesting: these zombies behave like ninjas. They burst through walls. Drop from ceilings. Rise from grass mounds like they're lying in ambush. It's absurd. It keeps things moving.
+Because that's what this feels like: <span data-imdb-id="tt0088708">_American Ninja_</span> with zombies. Same Filipino locations. Same bloodless machine gun battles where extras just fall down. The opening sequence doesn't even have muzzle flashes--those guns might have been broomsticks. But here's where it gets interesting: these zombies behave like ninjas. They burst through walls. Drop from ceilings. Rise from grass mounds like they're lying in ambush. It's absurd, but it keeps things moving.
 
 The script wallows in creative bankruptcy. People snatch at broken glass--how convenient for infection.  A vacationing couple stops to move dead birds off the highway. A woman cracks her shin getting out of a car like she fell from a building. Another loses her legs to a magic spring and comes up chomping. A zombie head rockets from a refrigerator--the one scene Fulci praised. It's all magnificently stupid.
 
