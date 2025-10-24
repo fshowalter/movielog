@@ -7,7 +7,7 @@ synopsis: Al Pacino plays a cop who goes undercover in Manhattan's leather bar s
 
 ---
 
-William Friedkin doesn't flinch. He immerses us in Manhattan's leather bar scene, but he does it without judgment or moralistic hand-wringing. Just observation. Raw, sweaty, dangerous observation.
+William Friedkin doesn't flinch. With _Cruising_, he sets his story in Manhattan's leather bar scene, knowing it would shock and potentially repel audiences. He doesn't soften the imagery. He doesn't cut away from the overt sexuality. He pushes the envelope of what he can show but he does it without judgment or moralistic hand-wringing. Just observation. Raw, sweaty, dangerous observation.
 
 Al Pacino plays a cop who goes undercover in the gay underground to catch a serial killer. Simple premise. But Friedkin, who cut his teeth on documentaries, knows the real story isn't the murders. It's the man hunting them. It's what happens when you wear a mask so long you forget which face is yours.
 
