@@ -23,7 +23,7 @@ Even the production values defy logic. They've got helicopters. They blow up a g
 
 And yet, buried in this mess are genuine Fulci moments. There's a machete-wielding zombie midway through who's genuinely terrifying--fast, ferocious, and foreshadowing the running zombies yet to come. And when our heroes creep through an abandoned hospital, Fulci frames them in a long, dark, hazy corridor that could have been lifted straight from <span data-imdb-id="tt0082307">_The Beyond_</span>. All that's missing is Fabio Frizzi's dissonant synths. Stefano Mainetti's score, while serviceable, can't compare.
 
-But such moments are too few and far between. _Zombie 3_ shambles between incompetence and inspiration. Mostly the former. But those few Fulci moments hint at what could have been. And I loved that two of the main characters are named Roger and Kenny. Kenny and Roger. If that's intentional, somebody knew exactly what kind of movie they were making.
+But such moments are too few and far between. _Zombie 3_ shambles between incompetence and inspiration. Mostly the former. But those few Fulci moments hint at what could have been. And I loved that two of the main characters are named Kenny and Roger. If that's intentional, somebody knew exactly what kind of movie they were making.
 
 The rest is ninja zombies and rubber planks.
 
