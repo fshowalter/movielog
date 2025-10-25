@@ -55,10 +55,10 @@ class JsonStats(TypedDict):
     mostWatchedWriters: list[JsonMostWatchedPerson]
     mostWatchedPerformers: list[JsonMostWatchedPerson]
     venueDistribution: list[JsonDistribution]
+    reviewCount: int
 
 
 class JsonAllTimeStats(JsonStats):
-    reviewCount: int
     watchlistTitlesReviewedCount: int
     gradeDistribution: list[JsonGradeDistribution]
 
@@ -372,6 +372,9 @@ def _build_json_year_stats(
     titles = [repository_data.titles[viewing.imdb_id] for viewing in viewings]
 
     unique_title_ids = {title.imdb_id for title in titles}
+    reviews_for_year = {
+        title.imdb_id for title in repository_data.reviews.values() if str(title.date.year) == year
+    }
 
     return JsonYearStats(
         year=year,
@@ -408,6 +411,7 @@ def _build_json_year_stats(
             viewings=viewings,
             repository_data=repository_data,
         ),
+        reviewCount=len(reviews_for_year),
     )
 
 
