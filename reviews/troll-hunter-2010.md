@@ -7,7 +7,7 @@ synopsis: "Three film students stalk a bear poacher into the Norwegian wildernes
 
 ---
 
-Norway has trolls. Big ones. The government knows about it. This is the premise that drives André Øvredal's "Troll Hunter," a found-footage adventure that plays like "The Blair Witch Project" crossed with a bureaucratic satire.
+Norway has trolls. Big ones. The government knows about it. This is the premise that drives André Øvredal's _Troll Hunter_, a found-footage adventure that plays like <span data-imdb-id="tt0185937">_The Blair Witch Project_</span> crossed with a bureaucratic satire.
 
 Three film students chase a man they think is a bear poacher. They're wrong. He's Hans, a government troll hunter played with magnificent weariness by Otto Jespersen, and he's fed up. No overtime. No hazard pay. Mountains of paperwork every time he takes down a troll. When he finally lets the kids tag along, it's an act of bureaucratic rebellion.
 
@@ -19,6 +19,6 @@ About those trolls: they're CGI, and it shows. The first one has a head too big 
 
 The tone confuses. Is it horror? Comedy? Satire? The film doesn't choose, and that's both its charm and its problem. We descend into an atmospheric mine shaft, tense and dark, only to hide from farting trolls. It's jarring. I suspect Norwegian audiences catch references I'm missing, understand political jabs that sail past me. There's a cultural wavelength here I can't quite tune into.
 
-But the world-building impresses. Different troll species. Government cover-ups that crumble under scrutiny. The TSS—Troll Security Service—bureaucracy that feels universal. These details convince even when the effects don't.
+But the world-building impresses. Different troll species. Government cover-ups that crumble under scrutiny. The TSS (Troll Security Service) bureaucracy that feels universal. These details convince even when the effects don't.
 
 _Troll Hunter_ works better than it should. When the group asks Hans if the new Muslim camera woman will be okay (trolls can smell Christians) and he replies, "We'll see!" the satire sings. When the effects convince, the adventure soars. But I'm on the outside looking in. For Norwegians, this might be great. For the rest of us, it's good--inventive and strange--but not quite ours.
