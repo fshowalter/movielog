@@ -1,14 +1,25 @@
 ---
-date: 2008-12-12
+date: 2025-11-01
 imdb_id: tt0043828
-grade: D-
+grade: C-
 slug: my-forbidden-past-1951
+synopsis: In turn-of-the-century New Orleans, Ava Gardner plays a woman scorned who transforms inherited money into a weapon of romantic revenge against her former lover, played by Robert Mitchum, with tragic results.
 ---
 
-Heir to a scandalous family fortune, a New Orleans woman (Ava Gardner) bribes her cousin (Melvyn Douglas) into helping her win a married doctor (Robert Mitchum).
+I hated this movie seventeen years ago. Now? I half-enjoyed it. Either I'm mellowing with age or my standards are slipping.
 
-_My Forbidden Past_ is a disaster; a waste of a good cast in a costume melodrama that's actually devoid of drama. So much so, that it's amazing the picture went ahead, given its considerable production cost, and no wonder that it went on to lose $700,000 for Howard Hughes' studio, RKO. To top it off, both Ann Sheridan and Polan Banks (author of the source novel) sued the studio for replacing Sheridan with Ava Gardner.
+Set in turn-of-the-century New Orleans, this Southern Gothic melodrama stars Ava Gardner as Barbara Beaurevel, a woman scorned who transforms inherited money into a weapon of romantic revenge. When her beloved Dr. Mark, played by Robert Mitchum, returns from South America with a wife, Barbara bribes her oily cousin Paul, played by Melvyn Douglas, to seduce the new bride. You can guess how well that works out.
 
-For his part, top-billed Robert Mitchum looks stiff and bored, almost as if he were watching the film instead of acting in it. Gardner and Melvyn Douglas are a bit better, but both struggle to wring any real feeling out of the lifeless script. Aside from Lucile Watson acting like a bitch, there's really no emotional content to be found.
+This is a Howard Hughes production, and it shows. Expensive production, messy execution. 
 
-About the only thing going for _My Forbidden Past_ is its length. At 70 minutes, it's mercifully short, although, of course, the film ends just when the real drama is about to begin. But, then again, given the various missteps associated with this film, that's just par for the course.
+Some scenes crackle with terrific dialogue. When Gardner asks her servant to leave her alone with an aging solicitor, the servant says, "I'll be in shouting distance." The solicitor replies without missing a beat: "Thank you, that's a great compliment." Beautiful.
+
+Douglas steals every scene he's in, delivering lines like "Don't do any thinking--it's bad for the complexion" with an eely smile. Mitchum dismisses him as a man with "a little charm, less talent, and no honor." These zingers are worth the price of admission.
+
+But, being a Hughes production, it also feels compromised, with these sharp moments sprinkled like croutons atop a salad of mediocre melodrama. The opening feels spliced from another film--Mitchum in an open-collar shirt with erupting chest hair and uncomfortably high-waisted pants, Gardner in an unflattering peasant blouse with blooming shoulders. The finale arrives like someone remembered they had to end the movie, injecting a surprise twist in the final twelve minutes.
+
+And, despite his top billing, this isn't really a Mitchum picture. It's Gardner's movie, her story. And she's good. Her confrontation with Mitchum's wife drips venom behind icy smiles. She conveys volumes through her eyes. Watch her wardrobe shift from white to black as her character darkens--not subtle, but effective.
+
+Still, nobody escapes the clunkier scenes. Late in the film, Gardner tells Douglas, "You once said we were both nauseating people"--referring to something he said in their last conversation _earlier that evening_. Shoddy editing or multiple script drafts? Either way, you sense a troubled production.
+
+I called this "a waste of a good cast" back then. I'll be kinder now: it's a flawed film with some genuine pleasures. Sometimes that's enough.
