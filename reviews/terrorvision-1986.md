@@ -20,6 +20,6 @@ The single-location setting doesn't help. Despite the wild production design, yo
 
 Small pleasures exist. Randi Brooks does a decent Judy Holliday impression. The monster watching <span data-imdb-id="tt0049169">_Earth vs. the Flying Saucers_</span> and laughing at the destruction—that's inspired. And yes, that theme song is single-worthy.
 
-But _Terrorvision_ commits the cardinal sin of cult movies: it bored me. This might have worked as a <span data-imdb-id="tt0083767">_Creepshow_</span> segment--tight, nasty, and out before wearing out its welcome. At feature length, it's a good creature design in search of a better movie.
+But _Terrorvision_ commits the cardinal sin of cult movies: it bored me. This might have worked as a <span data-imdb-id="tt0083767">_Creepshow_</span> segment--tight, nasty, and out before overstaying its welcome. At feature length, it's a good creature design in search of a better movie.
 
 Some will love it. Comedy is subjective. But give me the unintentional lunacy of a real midnight movie over this self-aware slog any day.
