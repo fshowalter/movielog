@@ -1,9 +1,11 @@
 ---
 imdb_id: tt0098662
 slug: witchtrap-1989
-grade: C+
-date: 2025-10-05
-synopsis: A group of parapsychologists out to cleanse a haunted house fall prey to a murderous warlock's spirit.
+grade: B-
+date: 2025-11-08
+synopsis: A group of parapsychologists out to cleanse a haunted house fall prey to
+  a murderous warlock's spirit.
+title: Witchtrap (1989)
 ---
 
 _Witchtrap_ is a mess that somehow claws its way to respectability. It shouldn't work, and for the first twenty minutes, it doesn't.
@@ -22,4 +24,4 @@ My real complaint: Kathleen Bailey as the medium. Monotonous one moment, hysteri
 
 Here's the thing: if Tenney had leaned into the camp instead of playing it straight, he'd have something special. Quinn's performance begs for a movie that knows it's ridiculous. Instead, we get one that thinks it's <span data-imdb-id="tt0084516">_Poltergeist_</span>. A little self-aware humor--letting us laugh with Quinn's oversized bravado instead of taking it all so seriously--would have elevated this considerably.
 
-But damn if it doesn't entertain anyway. Quinn carries this thing across the finish line through sheer charisma. For direct-to-video 80s horror, this is near the top of the heap. 
+But damn if it doesn't entertain anyway. Quinn carries this thing across the finish line through sheer charisma. For direct-to-video 80s horror, this is near the top of the heap.
