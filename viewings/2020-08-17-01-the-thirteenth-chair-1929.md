@@ -6,6 +6,7 @@ slug: the-thirteenth-chair-1929
 venue: null
 venueNotes: null
 medium: DVD
-mediumNotes: 2018 | Warner Archive
+mediumNotes: Warner Bros., 2018
 ---
 
+ The Warner Archive DVD print is watchable, but far from pristine.
