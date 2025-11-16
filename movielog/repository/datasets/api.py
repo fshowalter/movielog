@@ -18,6 +18,8 @@ AllowList = {
     "tt0148615",  # Play Motel (1979) [X]
     "tt0070696",  # The Sinful Dwarf (1973) [X]
     "tt0839995",  # Superman II: The Richard Donner Cut [no principal cast -- all "archive footage"]
+    "tt0024005",  # Fast Workers (Tod Browning director - uncredited)
+    "tt0027521",  # The Devil Doll (Tod Browning director - uncredited)
 }
 
 DatasetName = _DatasetName
