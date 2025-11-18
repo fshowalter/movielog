@@ -4,11 +4,20 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import credit_notes_validator, imdb_http_title, json_titles
+from movielog.repository import imdb_http_title, json_titles
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
+
+AllowedArchiveFootageTitles = {
+    "tt0839995",  # Superman II: The Richard Donner Cut
+    "tt10045260",  # Exorcist III: Legion
+}
+
+AllowedUncreditedCast = {
+    ("tt0022676", "nm0000007"),  # Big City Blues / Humphrey Bogart
+}
 
 FrozenTitles = {
     "tt2166834": "Batman: The Dark Knight Returns",
@@ -68,11 +77,9 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
     json_title["genres"] = imdb_title_page.genres
     json_title["directors"] = [
         json_titles.JsonDirector(
-            imdbId=director.imdb_id,
-            name=director.name,
+            imdbId=director.imdb_id, name=director.name, notes=director.notes or None
         )
         for director in imdb_title_page.credits["director"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(director.notes, "director")[0]
     ]
 
     json_title["performers"] = [
@@ -80,19 +87,49 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             imdbId=performer.imdb_id,
             name=performer.name,
             roles=performer.roles,
+            notes=performer.notes or None,
         )
         for performer in imdb_title_page.credits["performer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(performer.notes, "performer")[0]
+        if _credit_notes_are_valid_for_performer(
+            imdb_title_id=json_title["imdbId"],
+            imdb_person_id=performer.imdb_id,
+            notes=performer.notes,
+        )
     ]
     json_title["writers"] = [
         json_titles.JsonWriter(
             imdbId=writer.imdb_id,
             name=writer.name,
-            notes=writer.notes,
+            notes=writer.notes or None,
         )
         for writer in imdb_title_page.credits["writer"]
-        if credit_notes_validator.credit_notes_are_valid_for_kind(writer.notes, "writer")[0]
+        if _credit_notes_are_valid_for_writer(writer.notes)
     ]
+
+
+def _credit_notes_are_valid_for_performer(
+    imdb_title_id: str, imdb_person_id: str, notes: str | None
+) -> bool:
+    if not notes:
+        return True
+
+    return (
+        (("archive footage" not in notes) or (imdb_title_id not in AllowedArchiveFootageTitles))
+        & (
+            ("uncredited" not in notes)
+            or ((imdb_title_id, imdb_person_id) in AllowedUncreditedCast)
+        )
+        & ("scenes deleted" not in notes)
+        & ("based on the comics by" not in notes)
+        & ("based on the Marvel comics by" not in notes)
+    )
+
+
+def _credit_notes_are_valid_for_writer(notes: str | None) -> bool:
+    if not notes:
+        return True
+
+    return "character" not in notes.lower()
 
 
 def _get_progress_file_path() -> Path:

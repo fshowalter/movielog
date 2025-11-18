@@ -22,11 +22,13 @@ class JsonPerformer(TypedDict):
     imdbId: str
     name: str
     roles: list[str]
+    notes: str | None
 
 
 class JsonDirector(TypedDict):
     imdbId: str
     name: str
+    notes: str | None
 
 
 class JsonTitle(TypedDict):
