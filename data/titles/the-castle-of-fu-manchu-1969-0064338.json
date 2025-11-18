@@ -21,7 +21,8 @@
   "directors": [
     {
       "imdbId": "nm0001238",
-      "name": "Jesús Franco"
+      "name": "Jesús Franco",
+      "notes": "(as Jess Franco)"
     }
   ],
   "performers": [
@@ -44,14 +45,16 @@
       "name": "Howard Marion-Crawford",
       "roles": [
         "Dr. Petrie"
-      ]
+      ],
+      "notes": "(as Howard Marion Crawford)"
     },
     {
       "imdbId": "nm0831512",
       "name": "Günther Stoll",
       "roles": [
         "Dr. Curt Kessler"
-      ]
+      ],
+      "notes": "(as Gunther Stoll)"
     },
     {
       "imdbId": "nm0626219",
@@ -73,14 +76,16 @@
       "name": "José Manuel Martín",
       "roles": [
         "Omar Pasha"
-      ]
+      ],
+      "notes": "(as Jose Manuel Martin)"
     },
     {
       "imdbId": "nm0009393",
       "name": "Werner Abrolat",
       "roles": [
         "Melnik"
-      ]
+      ],
+      "notes": "(as Werner Aprelat)"
     },
     {
       "imdbId": "nm0157796",
@@ -94,22 +99,19 @@
       "name": "Stanley Baker",
       "roles": [
         "Running Man"
-      ]
+      ],
+      "notes": "(archive footage)"
     },
     {
       "imdbId": "nm0001958",
       "name": "Dirk Bogarde",
       "roles": [
         "Running Man"
-      ]
+      ],
+      "notes": "(archive footage)"
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0737544",
-      "name": "Sax Rohmer",
-      "notes": "characters"
-    },
     {
       "imdbId": "nm0869935",
       "name": "Harry Alan Towers",
@@ -129,6 +131,11 @@
       "imdbId": "nm0058600",
       "name": "Manfred Barthel",
       "notes": "story"
+    },
+    {
+      "imdbId": "nm0356422",
+      "name": "Michael Haller",
+      "notes": "(uncredited in English version)"
     }
   ],
   "runtimeMinutes": 92

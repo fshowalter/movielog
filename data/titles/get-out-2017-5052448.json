@@ -7,8 +7,8 @@
   "year": "2017",
   "releaseDate": "2017-01-23",
   "countries": [
-    "Japan",
-    "United States"
+    "United States",
+    "Japan"
   ],
   "genres": [
     "Horror",
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1443502",
-      "name": "Jordan Peele"
+      "name": "Jordan Peele",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -111,14 +112,16 @@
       "name": "Caren L. Larkey",
       "roles": [
         "Emily Greene"
-      ]
+      ],
+      "notes": "(as Caren Larkey)"
     },
     {
       "imdbId": "nm4152547",
       "name": "Julie Ann Jones",
       "roles": [
         "April Dray"
-      ]
+      ],
+      "notes": "(as Julie Ann Doan)"
     },
     {
       "imdbId": "nm0186657",

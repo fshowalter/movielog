@@ -21,87 +21,108 @@
   "directors": [
     {
       "imdbId": "nm0000801",
-      "name": "Olivier Assayas"
+      "name": "Olivier Assayas",
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm0041474",
-      "name": "Frédéric Auburtin"
+      "name": "Frédéric Auburtin",
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm0149446",
-      "name": "Gurinder Chadha"
+      "name": "Gurinder Chadha",
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm0158984",
-      "name": "Sylvain Chomet"
+      "name": "Sylvain Chomet",
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0001053",
-      "name": "Ethan Coen"
+      "name": "Ethan Coen",
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm0001054",
-      "name": "Joel Coen"
+      "name": "Joel Coen",
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm0170043",
-      "name": "Isabel Coixet"
+      "name": "Isabel Coixet",
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm0000127",
-      "name": "Wes Craven"
+      "name": "Wes Craven",
+      "notes": "(segment \"Pere-Lachaise\")"
     },
     {
       "imdbId": "nm0190859",
-      "name": "Alfonso Cuarón"
+      "name": "Alfonso Cuarón",
+      "notes": "(segment \"Parc Monceau\") (as Alfonso Cuaron)"
     },
     {
       "imdbId": "nm0000367",
-      "name": "Gérard Depardieu"
+      "name": "Gérard Depardieu",
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm0236313",
-      "name": "Christopher Doyle"
+      "name": "Christopher Doyle",
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm0481418",
-      "name": "Richard LaGravenese"
+      "name": "Richard LaGravenese",
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm0622112",
-      "name": "Vincenzo Natali"
+      "name": "Vincenzo Natali",
+      "notes": "(segment \"Quartier de la Madeleine\")"
     },
     {
       "imdbId": "nm0668247",
-      "name": "Alexander Payne"
+      "name": "Alexander Payne",
+      "notes": "(segment \"14e arrondissement\")"
     },
     {
       "imdbId": "nm0687913",
-      "name": "Bruno Podalydès"
+      "name": "Bruno Podalydès",
+      "notes": "(segment \"Montmartre\") (as Bruno Podalydes)"
     },
     {
       "imdbId": "nm0758574",
-      "name": "Walter Salles"
+      "name": "Walter Salles",
+      "notes": "(segment \"Loin du 16e\")"
     },
     {
       "imdbId": "nm0005628",
-      "name": "Oliver Schmitz"
+      "name": "Oliver Schmitz",
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0840485",
-      "name": "Nobuhiro Suwa"
+      "name": "Nobuhiro Suwa",
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm0858680",
-      "name": "Daniela Thomas"
+      "name": "Daniela Thomas",
+      "notes": "(segment \"Loin du 16e\")"
     },
     {
       "imdbId": "nm0878756",
-      "name": "Tom Tykwer"
+      "name": "Tom Tykwer",
+      "notes": "(segment \"Faubourg Saint-Denis\")"
     },
     {
       "imdbId": "nm0001814",
-      "name": "Gus Van Sant"
+      "name": "Gus Van Sant",
+      "notes": "(segment \"Le Marais\")"
     }
   ],
   "performers": [
@@ -109,540 +130,617 @@
       "imdbId": "nm0000272",
       "name": "Fanny Ardant",
       "roles": [
-        "Fanny (segment \"Pigalle\")"
-      ]
+        "Fanny"
+      ],
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm0060657",
       "name": "Julie Bataille",
       "roles": [
-        "Julie (segment \"Tuileries\")"
-      ]
+        "Julie"
+      ],
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm1871951",
       "name": "Leïla Bekhti",
       "roles": [
-        "Zarka (segment \"Quais de Seine\")"
-      ]
+        "Zarka"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm0078696",
       "name": "Melchior Derouet",
       "roles": [
-        "Thomas (segment \"Faubourg Saint-Denis\")"
-      ]
+        "Thomas"
+      ],
+      "notes": "(segment \"Faubourg Saint-Denis\") (as Melchior Beslon)"
     },
     {
       "imdbId": "nm0000300",
       "name": "Juliette Binoche",
       "roles": [
-        "Suzanne (segment \"Place des Victoires\")"
-      ]
+        "Suzanne"
+      ],
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm0097157",
       "name": "Seydou Boro",
       "roles": [
-        "Hassan (segment \"Place des Fetes\")"
-      ]
+        "Hassan"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0000114",
       "name": "Steve Buscemi",
       "roles": [
-        "Le touriste (segment \"Tuileries\")"
-      ]
+        "Le touriste"
+      ],
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm0144812",
       "name": "Sergio Castellitto",
       "roles": [
-        "Le mari (segment \"Bastille\")"
-      ]
+        "Le mari"
+      ],
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm0000353",
       "name": "Willem Dafoe",
       "roles": [
-        "Le cowboy (segment \"Place des Victoires\")"
-      ]
+        "Le cowboy"
+      ],
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm0000367",
       "name": "Gérard Depardieu",
       "roles": [
-        "Le patron (segment \"Quartier Latin\")"
-      ]
+        "Le patron"
+      ],
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm1241168",
       "name": "Cyril Descours",
       "roles": [
-        "François (segment \"Quais de Seine\")"
-      ]
+        "François"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm2063684",
       "name": "Lionel Dray",
       "roles": [
-        "Ken (segment \"Quartier des Enfants Rouges\")"
-      ]
+        "Ken"
+      ],
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm0265717",
       "name": "Marianne Faithfull",
       "roles": [
-        "Marianne (segment \"Le Marais\")"
-      ]
+        "Marianne"
+      ],
+      "notes": "(segment \"Le Marais\")"
     },
     {
       "imdbId": "nm0001262",
       "name": "Ben Gazzara",
       "roles": [
-        "Ben (segment \"Quartier Latin\")"
-      ]
+        "Ben"
+      ],
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm0320762",
       "name": "Hippolyte Girardot",
       "roles": [
-        "Le père (segment \"Place des Victoires\")"
-      ]
+        "Le père"
+      ],
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm0350454",
       "name": "Maggie Gyllenhaal",
       "roles": [
-        "Liz (segment \"Quartier des Enfants Rouges\")"
-      ]
+        "Liz"
+      ],
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm0001364",
       "name": "Bob Hoskins",
       "roles": [
-        "Bob (segment \"Pigalle\")"
-      ]
+        "Bob"
+      ],
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm1259096",
       "name": "Axel Kiener",
       "roles": [
-        "Axel (segment \"Tuileries\")"
-      ]
+        "Axel"
+      ],
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm1385871",
       "name": "Olga Kurylenko",
       "roles": [
-        "La Vampire (segment \"Quartier de la Madeleine\")"
-      ]
+        "La Vampire"
+      ],
+      "notes": "(segment \"Quartier de la Madeleine\")"
     },
     {
       "imdbId": "nm1427112",
       "name": "Li Xin",
       "roles": [
-        "Madame Li (segment \"Porte de Choisy\")"
-      ]
+        "Madame Li"
+      ],
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm1371432",
       "name": "Elias McConnell",
       "roles": [
-        "Elie (segment \"Le Marais\")"
-      ]
+        "Elie"
+      ],
+      "notes": "(segment \"Le Marais\")"
     },
     {
       "imdbId": "nm0563740",
       "name": "Aïssa Maïga",
       "roles": [
-        "Sophie (segment \"Place des Fetes\")"
-      ]
+        "Sophie"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0553269",
       "name": "Margo Martindale",
       "roles": [
-        "Carol (segment \"14e Arrondissement\")"
-      ]
+        "Carol"
+      ],
+      "notes": "(segment \"14e Arrondissement\")"
     },
     {
       "imdbId": "nm0603446",
       "name": "Yolande Moreau",
       "roles": [
-        "La femme mime (segment \"Tour Eiffel\")"
-      ]
+        "La femme mime"
+      ],
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0607865",
       "name": "Emily Mortimer",
       "roles": [
-        "Frances (segment \"Pere-Lachaise\")"
-      ]
+        "Frances"
+      ],
+      "notes": "(segment \"Pere-Lachaise\")"
     },
     {
       "imdbId": "nm0612127",
       "name": "Florence Muller",
       "roles": [
-        "La jeune femme (segment \"Montmartre\")"
-      ]
+        "La jeune femme"
+      ],
+      "notes": "(segment \"Montmartre\")"
     },
     {
       "imdbId": "nm0000560",
       "name": "Nick Nolte",
       "roles": [
-        "Vincent (segment \"Parc Monceau\")"
-      ]
+        "Vincent"
+      ],
+      "notes": "(segment \"Parc Monceau\")"
     },
     {
       "imdbId": "nm0687913",
       "name": "Bruno Podalydès",
       "roles": [
-        "L'automobiliste (segment \"Montmartre\")"
-      ]
+        "L'automobiliste"
+      ],
+      "notes": "(segment \"Montmartre\") (as Bruno Podalydes)"
     },
     {
       "imdbId": "nm0000204",
       "name": "Natalie Portman",
       "roles": [
-        "Francine (segment \"Faubourg Saint-Denis\")"
-      ]
+        "Francine"
+      ],
+      "notes": "(segment \"Faubourg Saint-Denis\")"
     },
     {
       "imdbId": "nm0701248",
       "name": "Paul Putner",
       "roles": [
-        "Le mime (segment \"Tour Eiffel\")"
-      ]
+        "Le mime"
+      ],
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0001669",
       "name": "Miranda Richardson",
       "roles": [
-        "La femme au trench rouge (segment \"Bastille\")"
-      ]
+        "La femme au trench rouge"
+      ],
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm0001687",
       "name": "Gena Rowlands",
       "roles": [
-        "Gena (segment \"Quartier Latin\")"
-      ]
+        "Gena"
+      ],
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm1503432",
       "name": "Catalina Sandino Moreno",
       "roles": [
-        "Ana (segment \"Loin du 16e\")"
-      ]
+        "Ana"
+      ],
+      "notes": "(segment \"Loin du 16e\")"
     },
     {
       "imdbId": "nm0756203",
       "name": "Ludivine Sagnier",
       "roles": [
-        "Claire (segment \"Parc Monceau\")"
-      ]
+        "Claire"
+      ],
+      "notes": "(segment \"Parc Monceau\")"
     },
     {
       "imdbId": "nm0775447",
       "name": "Barbet Schroeder",
       "roles": [
-        "Monsieur Henny (segment \"Porte de Choisy\")"
-      ]
+        "Monsieur Henny"
+      ],
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm0001722",
       "name": "Rufus Sewell",
       "roles": [
-        "William (segment \"Pere-Lachaise\")"
-      ]
+        "William"
+      ],
+      "notes": "(segment \"Pere-Lachaise\")"
     },
     {
       "imdbId": "nm0880484",
       "name": "Gaspard Ulliel",
       "roles": [
-        "Gaspard (segment \"Le Marais\")"
-      ]
+        "Gaspard"
+      ],
+      "notes": "(segment \"Le Marais\")"
     },
     {
       "imdbId": "nm0914455",
       "name": "Leonor Watling",
       "roles": [
-        "La maîtresse (segment \"Bastille\")"
-      ]
+        "La maîtresse"
+      ],
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm0000704",
       "name": "Elijah Wood",
       "roles": [
-        "Le garçon (segment \"Quartier de la Madeleine\")"
-      ]
+        "Le garçon"
+      ],
+      "notes": "(segment \"Quartier de la Madeleine\")"
     },
     {
       "imdbId": "nm0682634",
       "name": "Hervé Pierre",
       "roles": [
-        "Le médecin (segment \"Montmartre\")"
-      ]
+        "Le médecin"
+      ],
+      "notes": "(segment \"Montmartre\")"
     },
     {
       "imdbId": "nm2246504",
       "name": "Julien Béramis",
       "roles": [
-        "Arnaud (segment \"Quais de Seine\")"
-      ]
+        "Arnaud"
+      ],
+      "notes": "(segment \"Quais de Seine\") (as Julien Beramis)"
     },
     {
       "imdbId": "nm1616555",
       "name": "Thomas Dumerchez",
       "roles": [
-        "Manu (segment \"Quais de Seine\")"
-      ]
+        "Manu"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm2218538",
       "name": "Daniely Francisque",
       "roles": [
-        "La fille black #1 (segment \"Quais de Seine\")"
-      ]
+        "La fille black #1"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm2705317",
       "name": "Audrey Fricot",
       "roles": [
-        "La fille black #2 (segment \"Quais de Seine\")"
-      ]
+        "La fille black #2"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm0856283",
       "name": "Salah Teskouk",
       "roles": [
-        "Le grand-père de Zarka (segment \"Quais de Seine\")"
-      ]
+        "Le grand-père de Zarka"
+      ],
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm2705393",
       "name": "Christian Bramsen",
       "roles": [
-        "L' imprimeur (segment \"Le Marais\")"
-      ]
+        "L' imprimeur"
+      ],
+      "notes": "(segment \"Le Marais\")"
     },
     {
       "imdbId": "nm2701226",
       "name": "Gulliver Hecq",
       "roles": [
-        "L'enfant dans le métro (segment \"Tuileries\")"
-      ]
+        "L'enfant dans le métro"
+      ],
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm0656803",
       "name": "Frankie Pain",
       "roles": [
-        "La mère dans le métro (segment \"Tuileries\")"
-      ]
+        "La mère dans le métro"
+      ],
+      "notes": "(segment \"Tuileries\") (as Franckie Pain)"
     },
     {
       "imdbId": "nm0597606",
       "name": "Marina Moncade",
       "roles": [
-        "La mère bourgeoise (segment \"Loin du 16e\")"
-      ]
+        "La mère bourgeoise"
+      ],
+      "notes": "(segment \"Loin du 16e\")"
     },
     {
       "imdbId": "nm1322483",
       "name": "Xing Xing Cheng",
       "roles": [
-        "La femme chinoise âgée (segment \"Porte de Choisy\")"
-      ]
+        "La femme chinoise âgée"
+      ],
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm0665269",
       "name": "Hélène Patarot",
       "roles": [
-        "La femme chinoise masquée (segment \"Porte de Choisy\")"
-      ]
+        "La femme chinoise masquée"
+      ],
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm2703503",
       "name": "Aurélien Blain-King",
       "roles": [
-        "Le moine bouddhiste (segment \"Porte de Choisy\")"
-      ]
+        "Le moine bouddhiste"
+      ],
+      "notes": "(segment \"Porte de Choisy\")"
     },
     {
       "imdbId": "nm0194572",
       "name": "Javier Cámara",
       "roles": [
-        "Le cancérologue (segment \"Bastille\")"
-      ]
+        "Le cancérologue"
+      ],
+      "notes": "(segment \"Bastille\") (as Javier Camara)"
     },
     {
       "imdbId": "nm0644919",
       "name": "Emilie Ohana",
       "roles": [
-        "La jeune fille en rouge (segment \"Bastille\")"
-      ]
+        "La jeune fille en rouge"
+      ],
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm2701616",
       "name": "Roxane Pelicier",
       "roles": [
-        "Isis (segment \"Place des Victoires\")"
-      ]
+        "Isis"
+      ],
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm1705242",
       "name": "Martin Combes",
       "roles": [
-        "Justin (segment \"Place des Victoires\")"
-      ]
+        "Justin"
+      ],
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm4090194",
       "name": "Dylan Gomond",
       "roles": [
-        "Le petit Jean-Claude (segment \"Tour Eiffel\")"
-      ]
+        "Le petit Jean-Claude"
+      ],
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm1996175",
       "name": "Isabelle Patey",
       "roles": [
-        "La contractuelle (segment \"Tour Eiffel\")"
-      ]
+        "La contractuelle"
+      ],
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0493591",
       "name": "Manu Layotte",
       "roles": [
-        "Le garçon de café (segment \"Tour Eiffel\")"
-      ]
+        "Le garçon de café"
+      ],
+      "notes": "(segment \"Tour Eiffel\") (as Emmanuel Layotte)"
     },
     {
       "imdbId": "nm0540722",
       "name": "Mady Malroux",
       "roles": [
-        "La femme café #1 (segment \"Tour Eiffel\")"
-      ]
+        "La femme café #1"
+      ],
+      "notes": "(segment \"Tour Eiffel\") (as Madeleine Malroux)"
     },
     {
       "imdbId": "nm0540723",
       "name": "Monette Malroux",
       "roles": [
-        "La femme café #2 (segment \"Tour Eiffel\")"
-      ]
+        "La femme café #2"
+      ],
+      "notes": "(segment \"Tour Eiffel\") (as Simone Malroux)"
     },
     {
       "imdbId": "nm2968363",
       "name": "Alexandre Bourguignon",
       "roles": [
-        "Le clochard (segment \"Tour Eiffel\")"
-      ]
+        "Le clochard"
+      ],
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0554120",
       "name": "Sara Martins",
       "roles": [
-        "Sara (segment \"Parc Monceau\")"
-      ]
+        "Sara"
+      ],
+      "notes": "(segment \"Parc Monceau\")"
     },
     {
       "imdbId": "nm1301770",
       "name": "Joana Preiss",
       "roles": [
-        "Maryse (segment \"Quartier des Enfants Rouges\")"
-      ]
+        "Maryse"
+      ],
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm1603688",
       "name": "Laetitia Spigarelli",
       "roles": [
-        "La costumière (segment \"Quartier des Enfants Rouges\")"
-      ]
+        "La costumière"
+      ],
+      "notes": "(segment \"Quartier des Enfants Rouges\") (as Laëtitia Spigarelli)"
     },
     {
       "imdbId": "nm2072440",
       "name": "Nicolas Maury",
       "roles": [
-        "Jeff (segment \"Quartier des Enfants Rouges\")"
-      ]
+        "Jeff"
+      ],
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm1382705",
       "name": "Vincent Verdier",
       "roles": [
-        "Le collègue urgentiste (segment \"Place des Fetes\")"
-      ]
+        "Le collègue urgentiste"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm1421993",
       "name": "Georges Thibaut",
       "roles": [
-        "Le gérant du parking (segment \"Place des Fetes\")"
-      ]
+        "Le gérant du parking"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm1513288",
       "name": "Adel Bencherif",
       "roles": [
-        "Le voleur de guitare (segment \"Place des Fetes\")"
-      ]
+        "Le voleur de guitare"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0012715",
       "name": "Walid Afkir",
       "roles": [
-        "Le mauvais garçon (segment \"Place des Fetes\")"
-      ]
+        "Le mauvais garçon"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0053907",
       "name": "Jean-Christophe Barc",
       "roles": [
-        "Le pompier (segment \"Place des Fetes\")"
-      ]
+        "Le pompier"
+      ],
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm2182389",
       "name": "Chani Sabaty",
       "roles": [
-        "La strip-teaseuse (segment \"Pigalle\")"
-      ]
+        "La strip-teaseuse"
+      ],
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm2768264",
       "name": "François Valade",
       "roles": [
-        "Le chanteur Pigalle (segment \"Pigalle\")"
-      ]
+        "Le chanteur Pigalle"
+      ],
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm2769696",
       "name": "Daniel Yvinec",
       "roles": [
-        "Le contrebassiste Pigalle (segment \"Pigalle\")"
-      ]
+        "Le contrebassiste Pigalle"
+      ],
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm0000127",
       "name": "Wes Craven",
       "roles": [
-        "La victime de la vampire (segment \"Quartier de la Madeleine\")"
-      ]
+        "La victime de la vampire"
+      ],
+      "notes": "(segment \"Quartier de la Madeleine\")"
     },
     {
       "imdbId": "nm0668247",
       "name": "Alexander Payne",
       "roles": [
-        "Oscar Wilde (segment \"Pere-Lachaise\")"
-      ]
+        "Oscar Wilde"
+      ],
+      "notes": "(segment \"Pere-Lachaise\")"
     },
     {
       "imdbId": "nm0468071",
       "name": "Nathalie Kousnetzoff",
       "roles": [
-        "La coiffeuse du 14e (segment \"14e Arrondissement\")"
-      ]
+        "La coiffeuse du 14e"
+      ],
+      "notes": "(segment \"14e Arrondissement\")"
     },
     {
       "imdbId": "nm0457038",
@@ -656,14 +754,32 @@
       "name": "Dinara Drukarova",
       "roles": [
         "La jolie fille du bar #2"
-      ]
+      ],
+      "notes": "(as Dinara Droukarova)"
     },
     {
       "imdbId": "nm2055123",
       "name": "Vanessa Mikowsky",
       "roles": [
         "La fille du taxi"
-      ]
+      ],
+      "notes": "(as Vanessa Mikowski)"
+    },
+    {
+      "imdbId": "nm0277933",
+      "name": "Emmanuel Finkiel",
+      "roles": [
+        "Voix-off"
+      ],
+      "notes": "(segment \"Bastille\") (voice)"
+    },
+    {
+      "imdbId": "nm3901775",
+      "name": "Karleen Weber",
+      "roles": [
+        "Voix-off professeur"
+      ],
+      "notes": "(segment \"14e Arrondissement\") (voice)"
     }
   ],
   "writers": [
@@ -675,122 +791,122 @@
     {
       "imdbId": "nm0687913",
       "name": "Bruno Podalydès",
-      "notes": "writer (segment \"Montmartre\")"
+      "notes": "(segment \"Montmartre\")"
     },
     {
       "imdbId": "nm0074488",
       "name": "Paul Mayeda Berges",
-      "notes": "writer (segment \"Quais de Seine\") &"
+      "notes": "(segment \"Quais de Seine\") &"
     },
     {
       "imdbId": "nm0149446",
       "name": "Gurinder Chadha",
-      "notes": "writer (segment \"Quais de Seine\")"
+      "notes": "(segment \"Quais de Seine\")"
     },
     {
       "imdbId": "nm0001814",
       "name": "Gus Van Sant",
-      "notes": "writer (segment \"Le Marais\")"
+      "notes": "(segment \"Le Marais\")"
     },
     {
       "imdbId": "nm0001054",
       "name": "Joel Coen",
-      "notes": "writer (segment \"Tuileries\") &"
+      "notes": "(segment \"Tuileries\") &"
     },
     {
       "imdbId": "nm0001053",
       "name": "Ethan Coen",
-      "notes": "writer (segment \"Tuileries\")"
+      "notes": "(segment \"Tuileries\")"
     },
     {
       "imdbId": "nm0758574",
       "name": "Walter Salles",
-      "notes": "writer (segment \"Loin du 16e\") &"
+      "notes": "(segment \"Loin du 16e\") &"
     },
     {
       "imdbId": "nm0858680",
       "name": "Daniela Thomas",
-      "notes": "writer (segment \"Loin du 16e\")"
+      "notes": "(segment \"Loin du 16e\")"
     },
     {
       "imdbId": "nm0236313",
       "name": "Christopher Doyle",
-      "notes": "writer (segment \"Porte de Choisy\") &"
-    },
-    {
-      "imdbId": "nm1102709",
-      "name": "Rain Li",
-      "notes": "in collaboration with (segment \"Porte de Choisy\") (as Rain Kathy Li) &"
+      "notes": "(segment \"Porte de Choisy\") &"
     },
     {
       "imdbId": "nm2261075",
       "name": "Gabrielle Keng",
-      "notes": "in collaboration with (segment \"Porte de Choisy\") (as Gabrielle Keng Peralta)"
+      "notes": "in collaboration with (segment \"Porte de Choisy\") (as Gabrielle Keng Peralta) &"
+    },
+    {
+      "imdbId": "nm1102709",
+      "name": "Rain Li",
+      "notes": "in collaboration with (segment \"Porte de Choisy\") (as Rain Kathy Li)"
     },
     {
       "imdbId": "nm0170043",
       "name": "Isabel Coixet",
-      "notes": "writer (segment \"Bastille\")"
+      "notes": "(segment \"Bastille\")"
     },
     {
       "imdbId": "nm0840485",
       "name": "Nobuhiro Suwa",
-      "notes": "writer (segment \"Place des Victoires\")"
+      "notes": "(segment \"Place des Victoires\")"
     },
     {
       "imdbId": "nm0158984",
       "name": "Sylvain Chomet",
-      "notes": "writer (segment \"Tour Eiffel\")"
+      "notes": "(segment \"Tour Eiffel\")"
     },
     {
       "imdbId": "nm0190859",
       "name": "Alfonso Cuarón",
-      "notes": "writer (segment \"Parc Monceau\") (as Alfonso Cuaron)"
+      "notes": "(segment \"Parc Monceau\") (as Alfonso Cuaron)"
     },
     {
       "imdbId": "nm0000801",
       "name": "Olivier Assayas",
-      "notes": "writer (segment \"Quartier des Enfants Rouges\")"
+      "notes": "(segment \"Quartier des Enfants Rouges\")"
     },
     {
       "imdbId": "nm0005628",
       "name": "Oliver Schmitz",
-      "notes": "writer (segment \"Place des Fetes\")"
+      "notes": "(segment \"Place des Fetes\")"
     },
     {
       "imdbId": "nm0481418",
       "name": "Richard LaGravenese",
-      "notes": "writer (segment \"Pigalle\")"
+      "notes": "(segment \"Pigalle\")"
     },
     {
       "imdbId": "nm0622112",
       "name": "Vincenzo Natali",
-      "notes": "writer (segment \"Quartier de la Madeleine\")"
+      "notes": "(segment \"Quartier de la Madeleine\")"
     },
     {
       "imdbId": "nm0000127",
       "name": "Wes Craven",
-      "notes": "writer (segment \"Pere-Lachaise\")"
+      "notes": "(segment \"Pere-Lachaise\")"
     },
     {
       "imdbId": "nm0878756",
       "name": "Tom Tykwer",
-      "notes": "writer (segment \"Faubourg Saint-Denis\")"
+      "notes": "(segment \"Faubourg Saint-Denis\")"
     },
     {
       "imdbId": "nm0001687",
       "name": "Gena Rowlands",
-      "notes": "writer (segment \"Quartier Latin\")"
-    },
-    {
-      "imdbId": "nm0668247",
-      "name": "Alexander Payne",
-      "notes": "writer (segment \"14e Arrondissement\") &"
+      "notes": "(segment \"Quartier Latin\")"
     },
     {
       "imdbId": "nm2700377",
       "name": "Nadine Eïd",
-      "notes": "writer (segment \"14e arrondissement\")"
+      "notes": "(segment \"14e arrondissement\") &"
+    },
+    {
+      "imdbId": "nm0668247",
+      "name": "Alexander Payne",
+      "notes": "(segment \"14e Arrondissement\")"
     },
     {
       "imdbId": "nm0041474",

@@ -17,31 +17,38 @@
   "directors": [
     {
       "imdbId": "nm0002188",
-      "name": "Dorothy Arzner"
+      "name": "Dorothy Arzner",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0112897",
-      "name": "Otto Brower"
+      "name": "Otto Brower",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0332539",
-      "name": "Edmund Goulding"
+      "name": "Edmund Goulding",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0373511",
-      "name": "Victor Heerman"
+      "name": "Victor Heerman",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0461348",
-      "name": "Edwin H. Knopf"
+      "name": "Edwin H. Knopf",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0498174",
-      "name": "Rowland V. Lee"
+      "name": "Rowland V. Lee",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0523932",
-      "name": "Ernst Lubitsch"
+      "name": "Ernst Lubitsch",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0578985",
@@ -49,15 +56,18 @@
     },
     {
       "imdbId": "nm0006276",
-      "name": "Victor Schertzinger"
+      "name": "Victor Schertzinger",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0840042",
-      "name": "A. Edward Sutherland"
+      "name": "A. Edward Sutherland",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0878338",
-      "name": "Frank Tuttle"
+      "name": "Frank Tuttle",
+      "notes": "sequence director"
     }
   ],
   "performers": [
@@ -166,7 +176,8 @@
       "name": "Charles 'Buddy' Rogers",
       "roles": [
         "Buddy Rogers - Episode 'Love Time'"
-      ]
+      ],
+      "notes": "(as Buddy Rogers)"
     },
     {
       "imdbId": "nm0645941",
@@ -217,7 +228,8 @@
       "name": "Richard 'Skeets' Gallagher",
       "roles": [
         "Supporting Role - Episode 'The Gallows Song'"
-      ]
+      ],
+      "notes": "(as Skeets Gallagher)"
     },
     {
       "imdbId": "nm0437318",
@@ -307,13 +319,12 @@
   "writers": [
     {
       "imdbId": "nm0000581",
-      "name": "Joseph L. Mankiewicz",
-      "notes": "writer"
+      "name": "Joseph L. Mankiewicz"
     },
     {
       "imdbId": "nm0138705",
       "name": "Josep Carner Ribalta",
-      "notes": "writer (Spanish version)"
+      "notes": "Spanish version"
     }
   ]
 }

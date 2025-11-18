@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0587518",
-      "name": "John Milius"
+      "name": "John Milius",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -40,7 +41,8 @@
       "name": "Max von Sydow",
       "roles": [
         "King Osric"
-      ]
+      ],
+      "notes": "(as Max Von Sydow)"
     },
     {
       "imdbId": "nm0000922",
@@ -61,7 +63,8 @@
       "name": "Cassandra Gava",
       "roles": [
         "The Witch"
-      ]
+      ],
+      "notes": "(as Cassandra Gaviola)"
     },
     {
       "imdbId": "nm0520068",
@@ -83,7 +86,8 @@
       "name": "Valérie Quennessen",
       "roles": [
         "The Princess"
-      ]
+      ],
+      "notes": "(as Valerie Quennessen)"
     },
     {
       "imdbId": "nm0810342",
@@ -125,7 +129,8 @@
       "name": "Erik Holmey",
       "roles": [
         "Turanian War Officer"
-      ]
+      ],
+      "notes": "(as Erick Holmey)"
     },
     {
       "imdbId": "nm0593052",
@@ -160,22 +165,19 @@
       "name": "Sven-Ole Thorsen",
       "roles": [
         "Thorgrim"
-      ]
+      ],
+      "notes": "(as Sven Ole Thorsen)"
     },
     {
       "imdbId": "nm0945586",
       "name": "Kiyoshi Yamazaki",
       "roles": [
         "Sword Master"
-      ]
+      ],
+      "notes": "(as Kiyoshi Yamasaki)"
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0397574",
-      "name": "Robert E. Howard",
-      "notes": "based on the character created by"
-    },
     {
       "imdbId": "nm0587518",
       "name": "John Milius",
@@ -185,6 +187,11 @@
       "imdbId": "nm0000231",
       "name": "Oliver Stone",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0838598",
+      "name": "Edward Summer",
+      "notes": "story (uncredited)"
     }
   ],
   "runtimeMinutes": 129

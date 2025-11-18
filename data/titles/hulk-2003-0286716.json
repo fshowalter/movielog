@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000487",
-      "name": "Ang Lee"
+      "name": "Ang Lee",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -187,7 +188,8 @@
       "name": "Jenn Gotzon",
       "roles": [
         "Waitress"
-      ]
+      ],
+      "notes": "(as Jennifer Gotzon)"
     },
     {
       "imdbId": "nm1382239",
@@ -208,7 +210,8 @@
       "name": "Paul Kim Jr.",
       "roles": [
         "Officer"
-      ]
+      ],
+      "notes": "(as Paul Hansen Kim)"
     },
     {
       "imdbId": "nm0514704",
@@ -285,7 +288,8 @@
       "name": "John Maraffi",
       "roles": [
         "Technician"
-      ]
+      ],
+      "notes": "(as John A. Maraffi)"
     },
     {
       "imdbId": "nm0660244",
@@ -380,16 +384,6 @@
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0498278",
-      "name": "Stan Lee",
-      "notes": "Marvel comic book character and"
-    },
-    {
-      "imdbId": "nm0456158",
-      "name": "Jack Kirby",
-      "notes": "Marvel comic book character"
-    },
     {
       "imdbId": "nm0770005",
       "name": "James Schamus",

@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000631",
-      "name": "Ridley Scott"
+      "name": "Ridley Scott",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,6 +77,14 @@
       "roles": [
         "Alien"
       ]
+    },
+    {
+      "imdbId": "nm0395600",
+      "name": "Helen Horton",
+      "roles": [
+        "Mother"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [

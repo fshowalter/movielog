@@ -17,23 +17,28 @@
   "directors": [
     {
       "imdbId": "nm0116103",
-      "name": "Adrian Brunel"
+      "name": "Adrian Brunel",
+      "notes": "supervising director"
     },
     {
       "imdbId": "nm0153266",
-      "name": "André Charlot"
+      "name": "André Charlot",
+      "notes": "ensemble number"
     },
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock"
+      "name": "Alfred Hitchcock",
+      "notes": "sketch"
     },
     {
       "imdbId": "nm0401323",
-      "name": "Jack Hulbert"
+      "name": "Jack Hulbert",
+      "notes": "ensemble number"
     },
     {
       "imdbId": "nm0615208",
-      "name": "Paul Murray"
+      "name": "Paul Murray",
+      "notes": "ensemble number"
     }
   ],
   "performers": [
@@ -87,7 +92,8 @@
     {
       "imdbId": "nm0173592",
       "name": "Bobbie Comber",
-      "roles": []
+      "roles": [],
+      "notes": "(as Bobby Comber)"
     },
     {
       "imdbId": "nm0338085",
@@ -156,7 +162,8 @@
       "name": "The Balalaika Orchestra",
       "roles": [
         "Self"
-      ]
+      ],
+      "notes": "(as The Balalaika Choral Orchestra)"
     },
     {
       "imdbId": "nm16332002",
@@ -178,6 +185,16 @@
       "imdbId": "nm0884318",
       "name": "Val Valentine",
       "notes": "scenario"
+    },
+    {
+      "imdbId": "nm0116103",
+      "name": "Adrian Brunel",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0616601",
+      "name": "Walter C. Mycroft",
+      "notes": "(uncredited)"
     }
   ]
 }

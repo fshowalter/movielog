@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001149",
-      "name": "Richard Donner"
+      "name": "Richard Donner",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -216,7 +217,8 @@
       "name": "Ya'ackov Banai",
       "roles": [
         "Arab"
-      ]
+      ],
+      "notes": "(as Yakov Banai)"
     }
   ],
   "writers": [
@@ -224,6 +226,11 @@
       "imdbId": "nm0783544",
       "name": "David Seltzer",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0076748",
+      "name": "Harvey Bernhard",
+      "notes": "original idea (uncredited)"
     }
   ]
 }

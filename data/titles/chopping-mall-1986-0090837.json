@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0691061",
-      "name": "Jim Wynorski"
+      "name": "Jim Wynorski",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -158,7 +159,8 @@
       "name": "Angus Scrimm",
       "roles": [
         "Dr. Carrington"
-      ]
+      ],
+      "notes": "(as Lawrence Guy)"
     },
     {
       "imdbId": "nm0235192",
@@ -187,6 +189,14 @@
       "roles": [
         "Girl In Restaurant"
       ]
+    },
+    {
+      "imdbId": "nm0691061",
+      "name": "Jim Wynorski",
+      "roles": [
+        "Killbots"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [

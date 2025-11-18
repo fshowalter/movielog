@@ -15,11 +15,13 @@
   "directors": [
     {
       "imdbId": "nm1375358",
-      "name": "Jon Hurwitz"
+      "name": "Jon Hurwitz",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm1376383",
-      "name": "Hayden Schlossberg"
+      "name": "Hayden Schlossberg",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -140,7 +142,8 @@
       "name": "Charles Hittinger",
       "roles": [
         "AJ"
-      ]
+      ],
+      "notes": "(as Chuck Hittinger)"
     },
     {
       "imdbId": "nm0002436",
@@ -224,7 +227,8 @@
       "name": "Jennifer Sun Bell",
       "roles": [
         "Madison"
-      ]
+      ],
+      "notes": "(as Jennifer Bell)"
     },
     {
       "imdbId": "nm3860085",
@@ -280,7 +284,8 @@
       "name": "Benjamin Arthur",
       "roles": [
         "Chester"
-      ]
+      ],
+      "notes": "(as Benjamin G. Arthur)"
     },
     {
       "imdbId": "nm1798422",
@@ -315,7 +320,8 @@
       "name": "Chad Johnson",
       "roles": [
         "Chad Ochocinco"
-      ]
+      ],
+      "notes": "(as Chad Ochocinco)"
     },
     {
       "imdbId": "nm2875862",
@@ -336,7 +342,8 @@
       "name": "Helenna Santos",
       "roles": [
         "Oz Fan"
-      ]
+      ],
+      "notes": "(as Helenna Santos Levy)"
     },
     {
       "imdbId": "nm2689261",
@@ -399,7 +406,8 @@
       "name": "Elizabeth Hurwitz",
       "roles": [
         "Baby at Party"
-      ]
+      ],
+      "notes": "(as Elizabeth Shea Hurwitz)"
     },
     {
       "imdbId": "nm4960677",
@@ -407,6 +415,14 @@
       "roles": [
         "Bar Mitzvah Dad"
       ]
+    },
+    {
+      "imdbId": "nm2958549",
+      "name": "Jenna Willis",
+      "roles": [
+        "Computer"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -419,11 +435,6 @@
       "imdbId": "nm1376383",
       "name": "Hayden Schlossberg",
       "notes": "screenplay"
-    },
-    {
-      "imdbId": "nm0381221",
-      "name": "Adam Herz",
-      "notes": "characters"
     }
   ],
   "runtimeMinutes": 113

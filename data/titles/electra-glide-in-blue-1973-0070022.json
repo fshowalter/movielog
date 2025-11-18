@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0345899",
-      "name": "James William Guercio"
+      "name": "James William Guercio",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -28,15 +29,16 @@
       "imdbId": "nm0086706",
       "name": "Robert Blake",
       "roles": [
-        "John Wintergreen"
+        "Officer John Wintergreen"
       ]
     },
     {
       "imdbId": "nm0124100",
       "name": "Billy Green Bush",
       "roles": [
-        "Zipper"
-      ]
+        "Officer Zipper Davis"
+      ],
+      "notes": "(as Billy 'Green' Bush)"
     },
     {
       "imdbId": "nm0752751",
@@ -57,7 +59,8 @@
       "name": "Elisha Cook Jr.",
       "roles": [
         "Willie"
-      ]
+      ],
+      "notes": "(as Elisha Cook)"
     },
     {
       "imdbId": "nm0200455",
@@ -71,7 +74,8 @@
       "name": "Hawk Wolinski",
       "roles": [
         "VW Bus Driver"
-      ]
+      ],
+      "notes": "(as David J. Wolinski)"
     },
     {
       "imdbId": "nm0149126",
@@ -141,7 +145,8 @@
       "name": "Melissa Greene",
       "roles": [
         "Zemko's Girlfriend"
-      ]
+      ],
+      "notes": "(as Melissa Green)"
     },
     {
       "imdbId": "nm0319539",

@@ -18,12 +18,13 @@
   ],
   "directors": [
     {
-      "imdbId": "nm0909825",
-      "name": "Raoul Walsh"
+      "imdbId": "nm0000878",
+      "name": "Mario Bava",
+      "notes": "Italian version"
     },
     {
-      "imdbId": "nm0000878",
-      "name": "Mario Bava"
+      "imdbId": "nm0909825",
+      "name": "Raoul Walsh"
     }
   ],
   "performers": [
@@ -60,7 +61,8 @@
       "name": "Rik Battaglia",
       "roles": [
         "Simon"
-      ]
+      ],
+      "notes": "(as Rick Battaglia)"
     },
     {
       "imdbId": "nm0049766",
@@ -88,7 +90,8 @@
       "name": "Walter Williams",
       "roles": [
         "Hegai"
-      ]
+      ],
+      "notes": "(as Robert Buchanan)"
     },
     {
       "imdbId": "nm0733598",
@@ -115,6 +118,11 @@
       "imdbId": "nm0253882",
       "name": "Michael Elkins",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0208086",
+      "name": "Ennio De Concini",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 109

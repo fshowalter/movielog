@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000850",
-      "name": "Clive Barker"
+      "name": "Clive Barker",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Anthony Allen",
       "roles": [
         "1st Victim"
-      ]
+      ],
+      "notes": "(as Antony Allen)"
     },
     {
       "imdbId": "nm3788744",
@@ -181,6 +183,11 @@
       "imdbId": "nm0000850",
       "name": "Clive Barker",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0000850",
+      "name": "Clive Barker",
+      "notes": "novel \"The Hellbound Heart\" (uncredited)"
     }
   ],
   "runtimeMinutes": 94

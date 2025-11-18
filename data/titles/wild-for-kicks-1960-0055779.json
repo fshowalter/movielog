@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0344933",
-      "name": "Edmond T. Gréville"
+      "name": "Edmond T. Gréville",
+      "notes": "(as Edmond T. Greville)"
     }
   ],
   "performers": [
@@ -31,7 +32,8 @@
       "name": "Noëlle Adam",
       "roles": [
         "Nichole Linden"
-      ]
+      ],
+      "notes": "(as Noelle Adam)"
     },
     {
       "imdbId": "nm0000489",
@@ -59,7 +61,8 @@
       "name": "Shirley Anne Field",
       "roles": [
         "Dodo"
-      ]
+      ],
+      "notes": "(as Shirley-Ann Field)"
     },
     {
       "imdbId": "nm0568493",
@@ -149,6 +152,11 @@
       "imdbId": "nm0024318",
       "name": "Dail Ambler",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0344933",
+      "name": "Edmond T. Gréville",
+      "notes": "story (uncredited)"
     }
   ],
   "runtimeMinutes": 83

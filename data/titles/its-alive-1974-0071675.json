@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0169540",
-      "name": "Larry Cohen"
+      "name": "Larry Cohen",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -26,7 +27,8 @@
       "name": "John P. Ryan",
       "roles": [
         "Frank"
-      ]
+      ],
+      "notes": "(as John Ryan)"
     },
     {
       "imdbId": "nm0268331",
@@ -89,14 +91,16 @@
       "name": "Nancy Burnett",
       "roles": [
         "Nurse"
-      ]
+      ],
+      "notes": "(as Mary Nancy Burnett)"
     },
     {
       "imdbId": "nm0563996",
       "name": "Patrick McAllister",
       "roles": [
         "Expectant Father"
-      ]
+      ],
+      "notes": "(as Patrick Macallister)"
     },
     {
       "imdbId": "nm0392835",
@@ -117,7 +121,8 @@
       "name": "Herbert Winters",
       "roles": [
         "Expectant Father"
-      ]
+      ],
+      "notes": "(as Gerald York)"
     },
     {
       "imdbId": "nm0846434",

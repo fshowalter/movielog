@@ -15,19 +15,28 @@
   "directors": [
     {
       "imdbId": "nm0025978",
-      "name": "Allison Anders"
+      "name": "Allison Anders",
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0734319",
-      "name": "Alexandre Rockwell"
+      "name": "Alexandre Rockwell",
+      "notes": "(segment \"The Wrong Man\")"
     },
     {
       "imdbId": "nm0001675",
-      "name": "Robert Rodriguez"
+      "name": "Robert Rodriguez",
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0000233",
-      "name": "Quentin Tarantino"
+      "name": "Quentin Tarantino",
+      "notes": "(segment \"The Man from Hollywood\")"
+    },
+    {
+      "imdbId": "nm0005062",
+      "name": "Chuck Jones",
+      "notes": "animation sequences (uncredited)"
     }
   ],
   "performers": [
@@ -35,120 +44,137 @@
       "imdbId": "nm0205423",
       "name": "Sammi Davis",
       "roles": [
-        "Jezebel (segment \"The Missing Ingredient\")"
-      ]
+        "Jezebel"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0004866",
       "name": "Amanda De Cadenet",
       "roles": [
-        "Diana (segment \"The Missing Ingredient\")"
-      ]
+        "Diana"
+      ],
+      "notes": "(segment \"The Missing Ingredient\") (as Amanda deCadenet)"
     },
     {
       "imdbId": "nm0000420",
       "name": "Valeria Golino",
       "roles": [
-        "Athena (segment \"The Missing Ingredient\")"
-      ]
+        "Athena"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0000187",
       "name": "Madonna",
       "roles": [
-        "Elspeth (segment \"The Missing Ingredient\")"
-      ]
+        "Elspeth"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0001746",
       "name": "Ione Skye",
       "roles": [
-        "Eva (segment \"The Missing Ingredient\")"
-      ]
+        "Eva"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0000666",
       "name": "Lili Taylor",
       "roles": [
-        "Raven (segment \"The Missing Ingredient\")"
-      ]
+        "Raven"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0001860",
       "name": "Alicia Witt",
       "roles": [
-        "Kiva (segment \"The Missing Ingredient\")"
-      ]
+        "Kiva"
+      ],
+      "notes": "(segment \"The Missing Ingredient\")"
     },
     {
       "imdbId": "nm0000884",
       "name": "Jennifer Beals",
       "roles": [
-        "Angela (segments \"The Wrong Man\", \"The Man from Hollywood\")"
-      ]
+        "Angela"
+      ],
+      "notes": "(segments \"The Wrong Man\", \"The Man from Hollywood\")"
     },
     {
       "imdbId": "nm0698998",
       "name": "David Proval",
       "roles": [
-        "Sigfried (segment \"The Wrong Man\")"
-      ]
+        "Sigfried"
+      ],
+      "notes": "(segment \"The Wrong Man\")"
     },
     {
       "imdbId": "nm0000104",
       "name": "Antonio Banderas",
       "roles": [
-        "Man (segment \"The Misbehavers\")"
-      ]
+        "Man"
+      ],
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0572001",
       "name": "Lana McKissack",
       "roles": [
-        "Sarah (segment \"The Misbehavers\")"
-      ]
+        "Sarah"
+      ],
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0735466",
       "name": "Patricia Vonne",
       "roles": [
-        "Corpse (segment \"The Misbehavers\")"
-      ]
+        "Corpse"
+      ],
+      "notes": "(segment \"The Misbehavers\") (as Patricia Vonne Rodriguez)"
     },
     {
       "imdbId": "nm0000674",
       "name": "Tamlyn Tomita",
       "roles": [
-        "Wife (segment \"The Misbehavers\")"
-      ]
+        "Wife"
+      ],
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0893928",
       "name": "Danny Verduzco",
       "roles": [
-        "Juancho (segment \"The Misbehavers\")"
-      ]
+        "Juancho"
+      ],
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0000161",
       "name": "Salma Hayek",
       "roles": [
-        "TV Dancing Girl (segment \"The Misbehavers\")"
-      ]
+        "TV Dancing Girl"
+      ],
+      "notes": "(segment \"The Misbehavers\")"
     },
     {
       "imdbId": "nm0129538",
       "name": "Paul Calderon",
       "roles": [
-        "Norman (segment \"The Man from Hollywood\")"
-      ]
+        "Norman"
+      ],
+      "notes": "(segment \"The Man from Hollywood\")"
     },
     {
       "imdbId": "nm0000233",
       "name": "Quentin Tarantino",
       "roles": [
-        "Chester (segment \"The Man from Hollywood\")"
-      ]
+        "Chester"
+      ],
+      "notes": "(segment \"The Man from Hollywood\")"
     },
     {
       "imdbId": "nm0004744",
@@ -169,7 +195,8 @@
       "name": "Quinn Hellerman",
       "roles": [
         "Baby Bellhop"
-      ]
+      ],
+      "notes": "(as Quinn Thomas Hellerman)"
     },
     {
       "imdbId": "nm0492908",

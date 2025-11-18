@@ -16,11 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0177908",
-      "name": "Buddy Cooper"
+      "name": "Buddy Cooper",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0235320",
-      "name": "John Douglass"
+      "name": "John Douglass",
+      "notes": "co-director"
     }
   ],
   "performers": [
@@ -57,7 +59,8 @@
       "name": "Frances Sherman",
       "roles": [
         "Linda"
-      ]
+      ],
+      "notes": "(as Frances Raines)"
     },
     {
       "imdbId": "nm0483916",

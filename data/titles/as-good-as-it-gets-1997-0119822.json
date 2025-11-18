@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000985",
-      "name": "James L. Brooks"
+      "name": "James L. Brooks",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -83,21 +84,24 @@
       "name": "Jill the Dog",
       "roles": [
         "Verdell"
-      ]
+      ],
+      "notes": "(as Jill)"
     },
     {
       "imdbId": "nm1428429",
       "name": "Timer the Dog",
       "roles": [
         "Supporting Dog"
-      ]
+      ],
+      "notes": "(as Timer)"
     },
     {
       "imdbId": "nm1428428",
       "name": "Billy the Dog",
       "roles": [
         "Supporting Dog"
-      ]
+      ],
+      "notes": "(as Billy)"
     },
     {
       "imdbId": "nm0652410",
@@ -160,7 +164,8 @@
       "name": "Annie Tippe",
       "roles": [
         "Daughter at Table"
-      ]
+      ],
+      "notes": "(as Annie Maginnis Tippe)"
     },
     {
       "imdbId": "nm0157540",

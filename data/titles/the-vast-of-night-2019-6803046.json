@@ -15,7 +15,13 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "directors": [],
+  "directors": [
+    {
+      "imdbId": "nm9451696",
+      "name": "Andrew Patterson",
+      "notes": "(uncredited)"
+    }
+  ],
   "performers": [
     {
       "imdbId": "nm2811823",
@@ -37,6 +43,14 @@
       "roles": [
         "Mabel Blanche"
       ]
+    },
+    {
+      "imdbId": "nm6295217",
+      "name": "Bruce Davis",
+      "roles": [
+        "Billy"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm7048062",
@@ -106,7 +120,8 @@
       "name": "Nika Sage McKenna",
       "roles": [
         "Daisy Oliver"
-      ]
+      ],
+      "notes": "(as Nika McKenna)"
     },
     {
       "imdbId": "nm0110548",
@@ -146,11 +161,27 @@
       ]
     },
     {
+      "imdbId": "nm3022080",
+      "name": "Nicolette Doke",
+      "roles": [
+        "Josephine"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm10655077",
       "name": "Grant James",
       "roles": [
         "Arlo"
       ]
+    },
+    {
+      "imdbId": "nm0898047",
+      "name": "Libby Villari",
+      "roles": [
+        "Grace"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0289017",
@@ -165,6 +196,14 @@
       "roles": [
         "Cavage"
       ]
+    },
+    {
+      "imdbId": "nm4998985",
+      "name": "Brianna Beasley",
+      "roles": [
+        "Ethel"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm2312272",

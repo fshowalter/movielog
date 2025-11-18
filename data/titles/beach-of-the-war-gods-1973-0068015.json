@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0911093",
-      "name": "Jimmy Wang Yu"
+      "name": "Jimmy Wang Yu",
+      "notes": "(as Yu Wang)"
     }
   ],
   "performers": [
@@ -25,21 +26,24 @@
       "name": "Jimmy Wang Yu",
       "roles": [
         "Hsia Feng"
-      ]
+      ],
+      "notes": "(as Yu Wang)"
     },
     {
       "imdbId": "nm0526694",
       "name": "Fei Lung",
       "roles": [
         "Hashimoto"
-      ]
+      ],
+      "notes": "(as Lung Fei)"
     },
     {
       "imdbId": "nm0862886",
       "name": "Tien Yeh",
       "roles": [
         "Leng Ping"
-      ]
+      ],
+      "notes": "(as Yeh Tien)"
     },
     {
       "imdbId": "nm0359161",
@@ -63,13 +67,14 @@
       ]
     },
     {
-      "imdbId": "nm1532033",
-      "name": "Wan-Hsi Chin",
-      "roles": []
-    },
-    {
       "imdbId": "nm0788406",
       "name": "Ma Chin-Ku",
+      "roles": [],
+      "notes": "(as Chin-Ku Ma)"
+    },
+    {
+      "imdbId": "nm1532033",
+      "name": "Wan-Hsi Chin",
       "roles": []
     },
     {
@@ -172,7 +177,7 @@
     {
       "imdbId": "nm0911093",
       "name": "Jimmy Wang Yu",
-      "notes": "writer (as Yu Wang)"
+      "notes": "(as Yu Wang)"
     }
   ],
   "runtimeMinutes": 100

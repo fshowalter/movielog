@@ -16,11 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0157304",
-      "name": "Yuet-Sang Chin"
+      "name": "Yuet-Sang Chin",
+      "notes": "(as Chien Yuen-Sheng)"
     },
     {
       "imdbId": "nm0398824",
-      "name": "Hsu Hsia"
+      "name": "Hsu Hsia",
+      "notes": "(as Hsia Hsu)"
     }
   ],
   "performers": [
@@ -83,7 +85,8 @@
     {
       "imdbId": "nm0156497",
       "name": "Kam Cheung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Kam Chiang)"
     },
     {
       "imdbId": "nm0436324",
@@ -113,7 +116,8 @@
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm2834316",
@@ -128,7 +132,8 @@
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm2774318",
@@ -185,7 +190,8 @@
     {
       "imdbId": "nm0398959",
       "name": "Hui-Huang Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm0514909",
@@ -212,7 +218,8 @@
     {
       "imdbId": "nm1226853",
       "name": "Yun-Sheng Pan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yun Sang Ban)"
     },
     {
       "imdbId": "nm0950896",
@@ -232,6 +239,12 @@
     {
       "imdbId": "nm1399642",
       "name": "Chien Szu-Ying",
+      "roles": [],
+      "notes": "(as Szu-Ying Chien)"
+    },
+    {
+      "imdbId": "nm0156495",
+      "name": "Tai-Bo",
       "roles": []
     },
     {
@@ -240,14 +253,10 @@
       "roles": []
     },
     {
-      "imdbId": "nm0156495",
-      "name": "Tai-Bo",
-      "roles": []
-    },
-    {
       "imdbId": "nm1091281",
       "name": "Siu Tak-Foo",
-      "roles": []
+      "roles": [],
+      "notes": "(as Foo Siu)"
     },
     {
       "imdbId": "nm2728414",
@@ -274,7 +283,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0157900",
@@ -310,13 +320,12 @@
   "writers": [
     {
       "imdbId": "nm0157304",
-      "name": "Yuet-Sang Chin",
-      "notes": "writer"
+      "name": "Yuet-Sang Chin"
     },
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
-      "notes": "writer (as Hsia Hsu)"
+      "notes": "(as Hsia Hsu)"
     }
   ],
   "runtimeMinutes": 104

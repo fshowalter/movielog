@@ -13,7 +13,13 @@
     "Drama"
   ],
   "runtimeMinutes": 90,
-  "directors": [],
+  "directors": [
+    {
+      "imdbId": "nm0142056",
+      "name": "Rudolph Cartier",
+      "notes": "(uncredited)"
+    }
+  ],
   "performers": [
     {
       "imdbId": "nm0043889",
@@ -96,8 +102,7 @@
   "writers": [
     {
       "imdbId": "nm0711905",
-      "name": "Terence Rattigan",
-      "notes": "writer"
+      "name": "Terence Rattigan"
     }
   ]
 }

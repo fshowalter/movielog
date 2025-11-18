@@ -15,7 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000878",
-      "name": "Mario Bava"
+      "name": "Mario Bava",
+      "notes": "(as John Hold)"
+    },
+    {
+      "imdbId": "nm0767890",
+      "name": "Leopoldo Savona",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -33,49 +39,56 @@
       "name": "Fausto Tozzi",
       "roles": [
         "Hagen"
-      ]
+      ],
+      "notes": "(as Frank Ross)"
     },
     {
       "imdbId": "nm0744351",
       "name": "Giacomo Rossi Stuart",
       "roles": [
         "King Arald"
-      ]
+      ],
+      "notes": "(as Jack Rossi Stuart)"
     },
     {
       "imdbId": "nm0689541",
       "name": "Luciano Pollentin",
       "roles": [
         "Moki"
-      ]
+      ],
+      "notes": "(as Louis Polletin)"
     },
     {
       "imdbId": "nm0872820",
       "name": "Amedeo Trilli",
       "roles": [
         "Viking King"
-      ]
+      ],
+      "notes": "(as Michael Moore)"
     },
     {
       "imdbId": "nm0855722",
       "name": "Renato Terra",
       "roles": [
         "Hagen's Henchman"
-      ]
+      ],
+      "notes": "(as Rodney Terra)"
     },
     {
       "imdbId": "nm0181484",
       "name": "Sergio Cortona",
       "roles": [
         "Hagen's Henchman"
-      ]
+      ],
+      "notes": "(as Sidney Cortèz)"
     },
     {
       "imdbId": "nm0681638",
       "name": "Elissa Pichelli",
       "roles": [
         "Karin"
-      ]
+      ],
+      "notes": "(as Lisa Wagner)"
     }
   ],
   "writers": [
@@ -93,6 +106,16 @@
       "imdbId": "nm0000878",
       "name": "Mario Bava",
       "notes": "story and screenplay (as John Hold) (credited on reissue prints)"
+    },
+    {
+      "imdbId": "nm0800547",
+      "name": "Giorgio Simonelli",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0800548",
+      "name": "Giovanni Simonelli",
+      "notes": "screenplay (uncredited)"
     }
   ],
   "runtimeMinutes": 85

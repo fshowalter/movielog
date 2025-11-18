@@ -19,11 +19,13 @@
   "directors": [
     {
       "imdbId": "nm1125131",
-      "name": "Jean-Baptiste Andrea"
+      "name": "Jean-Baptiste Andrea",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm1125458",
-      "name": "Fabrice Canepa"
+      "name": "Fabrice Canepa",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -60,7 +62,8 @@
       "name": "William Rosenfeld",
       "roles": [
         "Brad Miller"
-      ]
+      ],
+      "notes": "(as Billy Asher)"
     },
     {
       "imdbId": "nm0807291",

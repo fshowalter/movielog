@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -89,7 +90,8 @@
       "name": "D.R. Anderson",
       "roles": [
         "Roy"
-      ]
+      ],
+      "notes": "(as Dan Anderson)"
     },
     {
       "imdbId": "nm1731757",
@@ -117,14 +119,16 @@
       "name": "Andrea Petty",
       "roles": [
         "Mrs. Hudson"
-      ]
+      ],
+      "notes": "(as Andrea L. Petty)"
     },
     {
       "imdbId": "nm3006561",
       "name": "Tracy Schornick",
       "roles": [
         "Cop #1"
-      ]
+      ],
+      "notes": "(as Tracey Schornick)"
     },
     {
       "imdbId": "nm4129916",

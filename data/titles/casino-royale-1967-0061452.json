@@ -16,23 +16,33 @@
   "directors": [
     {
       "imdbId": "nm0346436",
-      "name": "Val Guest"
+      "name": "Val Guest",
+      "notes": "scenes with Woody Allen and additional scenes with David Niven"
     },
     {
       "imdbId": "nm0400731",
-      "name": "Ken Hughes"
+      "name": "Ken Hughes",
+      "notes": "Berlin scenes (as Kenneth Hughes)"
     },
     {
       "imdbId": "nm0001379",
-      "name": "John Huston"
+      "name": "John Huston",
+      "notes": "scenes at Sir James Bond's house and castle in Scotland scenes"
     },
     {
       "imdbId": "nm0569825",
-      "name": "Joseph McGrath"
+      "name": "Joseph McGrath",
+      "notes": "scenes with Peter Sellers, Ursula Andress and Orson Welles"
     },
     {
       "imdbId": "nm0663577",
-      "name": "Robert Parrish"
+      "name": "Robert Parrish",
+      "notes": "scenes with Peter Sellers and Orson Welles"
+    },
+    {
+      "imdbId": "nm0848234",
+      "name": "Richard Talmadge",
+      "notes": "Casino Royale finale (uncredited)"
     }
   ],
   "performers": [
@@ -132,7 +142,8 @@
       "name": "Jean-Paul Belmondo",
       "roles": [
         "French Legionnaire"
-      ]
+      ],
+      "notes": "(as Jean Paul Belmondo)"
     },
     {
       "imdbId": "nm0178414",
@@ -181,7 +192,8 @@
       "name": "Jacqueline Bisset",
       "roles": [
         "Miss Goodthighs"
-      ]
+      ],
+      "notes": "(as Jacky Bisset)"
     },
     {
       "imdbId": "nm0060406",
@@ -258,7 +270,8 @@
       "name": "Duncan Macrae",
       "roles": [
         "Inspector Mathis"
-      ]
+      ],
+      "notes": "(as Duncan MaCrae)"
     },
     {
       "imdbId": "nm0823174",
@@ -337,6 +350,41 @@
       "imdbId": "nm0001220",
       "name": "Ian Fleming",
       "notes": "suggested by the novel \"Casino Royale\""
+    },
+    {
+      "imdbId": "nm0000095",
+      "name": "Woody Allen",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0346436",
+      "name": "Val Guest",
+      "notes": "additional dialogue (uncredited)"
+    },
+    {
+      "imdbId": "nm0372942",
+      "name": "Ben Hecht",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0375342",
+      "name": "Joseph Heller",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0000634",
+      "name": "Peter Sellers",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0816143",
+      "name": "Terry Southern",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0000697",
+      "name": "Billy Wilder",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 131

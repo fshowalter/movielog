@@ -18,11 +18,13 @@
   "directors": [
     {
       "imdbId": "nm4053334",
-      "name": "Danny Philippou"
+      "name": "Danny Philippou",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm6100536",
-      "name": "Michael Philippou"
+      "name": "Michael Philippou",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -213,7 +215,8 @@
       "name": "Courtlan Gordon",
       "roles": [
         "Teen at First Possession Party"
-      ]
+      ],
+      "notes": "(as Courtlan Gordan)"
     },
     {
       "imdbId": "nm15083655",
@@ -241,7 +244,8 @@
       "name": "Alex Noel McCarthy",
       "roles": [
         "Teen at First Possession Party"
-      ]
+      ],
+      "notes": "(as Alex Noel)"
     },
     {
       "imdbId": "nm13569998",
@@ -265,11 +269,36 @@
       ]
     },
     {
+      "imdbId": "nm0125007",
+      "name": "Kelly Butler",
+      "roles": [
+        "Olmen Spirit"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0909944",
+      "name": "Leeanna Walsman",
+      "roles": [
+        "Elizabeth Spirit"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm2813786",
       "name": "Alexandria Steffensen",
       "roles": [
         "Rhea"
       ]
+    },
+    {
+      "imdbId": "nm1478036",
+      "name": "Cass Cumerford",
+      "roles": [
+        "Quain Spirit",
+        "Quain"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm15083657",
@@ -290,7 +319,8 @@
       "name": "Kerry Ann Reid",
       "roles": [
         "Hungry Woman"
-      ]
+      ],
+      "notes": "(as Kerry Reid)"
     },
     {
       "imdbId": "nm13569814",
@@ -298,6 +328,14 @@
       "roles": [
         "Little Girl Audrey"
       ]
+    },
+    {
+      "imdbId": "nm0464522",
+      "name": "Jacek Koman",
+      "roles": [
+        "Burke Spirit"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0700912",
@@ -311,7 +349,8 @@
       "name": "Nicole Tiele",
       "roles": [
         "Predator Spirit"
-      ]
+      ],
+      "notes": "(as Nicola Thiele)"
     },
     {
       "imdbId": "nm13569827",
@@ -325,7 +364,8 @@
       "name": "Joseph Baker",
       "roles": [
         "Predator Spirit"
-      ]
+      ],
+      "notes": "(as Joseph House Baker)"
     },
     {
       "imdbId": "nm5573594",

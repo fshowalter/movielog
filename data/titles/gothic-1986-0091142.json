@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell"
+      "name": "Ken Russell",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -111,7 +112,8 @@
       "name": "Chris Chappell",
       "roles": [
         "Man in Armour"
-      ]
+      ],
+      "notes": "(as Chris Chappel)"
     },
     {
       "imdbId": "nm0681751",
@@ -132,14 +134,16 @@
       "name": "Cosey Fanni Tutti",
       "roles": [
         "Shelley Fan"
-      ]
+      ],
+      "notes": "(as Christine Newby)"
     },
     {
       "imdbId": "nm0863321",
       "name": "Kim Tillesly",
       "roles": [
         "Shelley Fan"
-      ]
+      ],
+      "notes": "(as Kim Tillesley)"
     }
   ],
   "writers": [
@@ -147,6 +151,16 @@
       "imdbId": "nm0901446",
       "name": "Stephen Volk",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0126406",
+      "name": "Lord Byron",
+      "notes": "story (uncredited)"
+    },
+    {
+      "imdbId": "nm0791222",
+      "name": "Percy Bysshe Shelley",
+      "notes": "story (uncredited)"
     }
   ],
   "runtimeMinutes": 87

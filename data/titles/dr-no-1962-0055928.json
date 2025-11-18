@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0950109",
-      "name": "Terence Young"
+      "name": "Terence Young",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -77,7 +78,8 @@
       "name": "John Kitzmiller",
       "roles": [
         "Quarrel"
-      ]
+      ],
+      "notes": "(as John Kitzmuller, John Kitzmiller)"
     },
     {
       "imdbId": "nm0311013",
@@ -119,7 +121,8 @@
       "name": "Marguerite LeWars",
       "roles": [
         "Photographer"
-      ]
+      ],
+      "notes": "(as Marguerite LeWars, Margaret Le Wars)"
     },
     {
       "imdbId": "nm0288126",
@@ -140,7 +143,8 @@
       "name": "Reggie Carter",
       "roles": [
         "Jones"
-      ]
+      ],
+      "notes": "(as Reginald Carter)"
     },
     {
       "imdbId": "nm0085108",
@@ -177,6 +181,16 @@
       "imdbId": "nm0001220",
       "name": "Ian Fleming",
       "notes": "based on the novel by"
+    },
+    {
+      "imdbId": "nm0542554",
+      "name": "Wolf Mankowitz",
+      "notes": "treatment (uncredited)"
+    },
+    {
+      "imdbId": "nm0950109",
+      "name": "Terence Young",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 110

@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0384335",
-      "name": "Jack Hill"
+      "name": "Jack Hill",
+      "notes": "US scenes"
     },
     {
       "imdbId": "nm0406625",
-      "name": "Juan Ibáñez"
+      "name": "Juan Ibáñez",
+      "notes": "(as Jhon Ibanez)"
     }
   ],
   "performers": [
@@ -45,14 +47,16 @@
       "name": "Carlos East",
       "roles": [
         "Lt. Andrew Wilhelm"
-      ]
+      ],
+      "notes": "(as Charles East)"
     },
     {
       "imdbId": "nm0078413",
       "name": "Rafael Bertrand",
       "roles": [
         "Capt. Pierre Labiche"
-      ]
+      ],
+      "notes": "(as Ralph Bertrand)"
     },
     {
       "imdbId": "nm0599600",
@@ -66,14 +70,16 @@
       "name": "Quintín Bulnes",
       "roles": [
         "Klinsor"
-      ]
+      ],
+      "notes": "(as Quintin Bulnes)"
     },
     {
       "imdbId": "nm0616308",
       "name": "Santanón",
       "roles": [
         "Dwarf"
-      ]
+      ],
+      "notes": "(as Santanon)"
     },
     {
       "imdbId": "nm0553869",
@@ -85,7 +91,8 @@
       "name": "Julia Marichal",
       "roles": [
         "Mary Ann Vandenberg"
-      ]
+      ],
+      "notes": "(as July Marichael)"
     },
     {
       "imdbId": "nm0241030",
@@ -101,13 +108,11 @@
     },
     {
       "imdbId": "nm0406625",
-      "name": "Juan Ibáñez",
-      "notes": ""
+      "name": "Juan Ibáñez"
     },
     {
       "imdbId": "nm0894028",
-      "name": "Luis Enrique Vergara",
-      "notes": ""
+      "name": "Luis Enrique Vergara"
     }
   ],
   "runtimeMinutes": 90

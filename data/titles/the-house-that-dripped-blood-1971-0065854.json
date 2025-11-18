@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0240439",
-      "name": "Peter Duffell"
+      "name": "Peter Duffell",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -28,112 +29,128 @@
       "name": "Denholm Elliott",
       "roles": [
         "Charles"
-      ]
+      ],
+      "notes": "(segment \"Method for Murder\")"
     },
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
       "roles": [
         "Philip"
-      ]
+      ],
+      "notes": "(segment \"Waxworks\")"
     },
     {
       "imdbId": "nm0242280",
       "name": "Joanna Dunham",
       "roles": [
         "Alice"
-      ]
+      ],
+      "notes": "(segment \"Method for Murder\")"
     },
     {
       "imdbId": "nm0011403",
       "name": "Tom Adams",
       "roles": [
         "Dominick"
-      ]
+      ],
+      "notes": "(segment \"Method for Murder\")"
     },
     {
       "imdbId": "nm0485894",
       "name": "Robert Lang",
       "roles": [
         "Psychiatrist"
-      ]
+      ],
+      "notes": "(segment \"Method for Murder\")"
     },
     {
       "imdbId": "nm0000722",
       "name": "Joss Ackland",
       "roles": [
         "Rogers"
-      ]
+      ],
+      "notes": "(segment \"Waxworks\")"
     },
     {
       "imdbId": "nm0607011",
       "name": "Wolfe Morris",
       "roles": [
         "Waxworks Proprietor"
-      ]
+      ],
+      "notes": "(segment \"Waxworks\")"
     },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
       "roles": [
         "Reid"
-      ]
+      ],
+      "notes": "(segment \"Sweets to the Sweet\")"
     },
     {
       "imdbId": "nm0692239",
       "name": "Nyree Dawn Porter",
       "roles": [
         "Ann"
-      ]
+      ],
+      "notes": "(segment \"Sweets to the Sweet\")"
     },
     {
       "imdbId": "nm0001933",
       "name": "Geoffrey Bayldon",
       "roles": [
         "Theo Von Hartmann"
-      ]
+      ],
+      "notes": "(segment \"The Cloak\")"
     },
     {
       "imdbId": "nm0291640",
       "name": "Chloe Franks",
       "roles": [
         "Jane"
-      ]
+      ],
+      "notes": "(segment \"Sweets to the Sweet\")"
     },
     {
       "imdbId": "nm0071838",
       "name": "John Bennett",
       "roles": [
         "Det. Insp. Holloway"
-      ]
+      ],
+      "notes": "(segment \"Framework Story\")"
     },
     {
       "imdbId": "nm0675727",
       "name": "Jon Pertwee",
       "roles": [
         "Paul"
-      ]
+      ],
+      "notes": "(segment \"The Cloak\")"
     },
     {
       "imdbId": "nm0117028",
       "name": "John Bryans",
       "roles": [
         "A.J. Stoker"
-      ]
+      ],
+      "notes": "(segment \"Framework Story\")"
     },
     {
       "imdbId": "nm0685839",
       "name": "Ingrid Pitt",
       "roles": [
         "Carla"
-      ]
+      ],
+      "notes": "(segment \"The Cloak\")"
     },
     {
       "imdbId": "nm0539112",
       "name": "John Malcolm",
       "roles": [
         "Police Sergeant Martin"
-      ]
+      ],
+      "notes": "(segment \"Framework Story\")"
     }
   ],
   "writers": [
@@ -141,6 +158,11 @@
       "imdbId": "nm0088645",
       "name": "Robert Bloch",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0429191",
+      "name": "Russ Jones",
+      "notes": "(segment \"Waxworks\") (uncredited)"
     }
   ],
   "runtimeMinutes": 102

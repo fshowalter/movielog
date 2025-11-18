@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0043742",
-      "name": "David Ayer"
+      "name": "David Ayer",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -35,7 +36,8 @@
       "name": "Jaime FitzSimons",
       "roles": [
         "Sergeant Ames Bravo 14"
-      ]
+      ],
+      "notes": "(as Jaime Fitzsimons)"
     },
     {
       "imdbId": "nm0054697",
@@ -91,7 +93,8 @@
       "name": "Robin Atkin Downes",
       "roles": [
         "Angelo"
-      ]
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0448302",
@@ -253,7 +256,8 @@
       "name": "Peter Tufford Kennedy",
       "roles": [
         "National Security Council"
-      ]
+      ],
+      "notes": "(as Tufford Kennedy)"
     },
     {
       "imdbId": "nm6326374",
@@ -275,7 +279,8 @@
       "roles": [
         "Businessman",
         "Incubus"
-      ]
+      ],
+      "notes": "(as Alain Chanoine)"
     },
     {
       "imdbId": "nm3389094",
@@ -409,6 +414,11 @@
       "imdbId": "nm0043742",
       "name": "David Ayer",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm1694619",
+      "name": "John Ostrander",
+      "notes": "comic book (uncredited)"
     }
   ],
   "runtimeMinutes": 123

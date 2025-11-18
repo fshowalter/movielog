@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000958",
-      "name": "John Boorman"
+      "name": "John Boorman",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -25,27 +26,14 @@
       "name": "Dave Clark",
       "roles": [
         "Steve"
-      ]
+      ],
+      "notes": "(as The Dave Clark Five)"
     },
     {
       "imdbId": "nm1591599",
       "name": "The Dave Clark Five",
       "roles": [
         "The Dave Clark Five"
-      ]
-    },
-    {
-      "imdbId": "nm0274865",
-      "name": "Barbara Ferris",
-      "roles": [
-        "Dinah"
-      ]
-    },
-    {
-      "imdbId": "nm0517084",
-      "name": "David Lodge",
-      "roles": [
-        "Louis"
       ]
     },
     {
@@ -56,17 +44,10 @@
       ]
     },
     {
-      "imdbId": "nm0479951",
-      "name": "Ronald Lacey",
+      "imdbId": "nm0086820",
+      "name": "Michael Blakemore",
       "roles": [
-        "Yeano"
-      ]
-    },
-    {
-      "imdbId": "nm0431626",
-      "name": "Yootha Joyce",
-      "roles": [
-        "Nan"
+        "Officer"
       ]
     },
     {
@@ -77,10 +58,80 @@
       ]
     },
     {
+      "imdbId": "nm0274865",
+      "name": "Barbara Ferris",
+      "roles": [
+        "Dinah"
+      ]
+    },
+    {
       "imdbId": "nm0350372",
       "name": "Michael Gwynn",
       "roles": [
         "Hardingford"
+      ]
+    },
+    {
+      "imdbId": "nm0365571",
+      "name": "Edgar Harrison",
+      "roles": [
+        "Barman"
+      ]
+    },
+    {
+      "imdbId": "nm0391327",
+      "name": "Julian Holloway",
+      "roles": [
+        "Assistant director"
+      ]
+    },
+    {
+      "imdbId": "nm0428410",
+      "name": "John Jones",
+      "roles": [
+        "Drinker"
+      ]
+    },
+    {
+      "imdbId": "nm0431626",
+      "name": "Yootha Joyce",
+      "roles": [
+        "Nan"
+      ]
+    },
+    {
+      "imdbId": "nm0479951",
+      "name": "Ronald Lacey",
+      "roles": [
+        "Yeano"
+      ]
+    },
+    {
+      "imdbId": "nm0517084",
+      "name": "David Lodge",
+      "roles": [
+        "Louis"
+      ]
+    },
+    {
+      "imdbId": "nm0605878",
+      "name": "Donald Morley",
+      "roles": [
+        "Barker"
+      ]
+    },
+    {
+      "imdbId": "nm0629693",
+      "name": "Peter Nichols",
+      "roles": [
+        "Photographer"
+      ]
+    },
+    {
+      "imdbId": "nm0832031",
+      "name": "Marianne Stone",
+      "roles": [
+        "Mrs. Vera Stone"
       ]
     },
     {
@@ -95,55 +146,6 @@
       "name": "Hugh Walters",
       "roles": [
         "Grey"
-      ]
-    },
-    {
-      "imdbId": "nm0832031",
-      "name": "Marianne Stone",
-      "roles": [
-        "Mrs. Vera Stone"
-      ]
-    },
-    {
-      "imdbId": "nm0605878",
-      "name": "Donald Morley",
-      "roles": [
-        "Barker"
-      ]
-    },
-    {
-      "imdbId": "nm0086820",
-      "name": "Michael Blakemore",
-      "roles": [
-        "Officer"
-      ]
-    },
-    {
-      "imdbId": "nm0391327",
-      "name": "Julian Holloway",
-      "roles": [
-        "Assistant director"
-      ]
-    },
-    {
-      "imdbId": "nm0365571",
-      "name": "Edgar Harrison",
-      "roles": [
-        "Barman"
-      ]
-    },
-    {
-      "imdbId": "nm0428410",
-      "name": "John Jones",
-      "roles": [
-        "Drinker"
-      ]
-    },
-    {
-      "imdbId": "nm0629693",
-      "name": "Peter Nichols",
-      "roles": [
-        "Photographer"
       ]
     }
   ],

@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -33,7 +34,8 @@
       "name": "Wilford Brimley",
       "roles": [
         "Blair"
-      ]
+      ],
+      "notes": "(as A. Wilford Brimley)"
     },
     {
       "imdbId": "nm0141953",
@@ -103,7 +105,8 @@
       "name": "Thomas G. Waites",
       "roles": [
         "Windows"
-      ]
+      ],
+      "notes": "(as Thomas Waites)"
     },
     {
       "imdbId": "nm0919256",

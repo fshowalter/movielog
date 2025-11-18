@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -43,7 +44,8 @@
       "name": "Jürgen Prochnow",
       "roles": [
         "Sutter Cane"
-      ]
+      ],
+      "notes": "(as Jurgen Prochnow)"
     },
     {
       "imdbId": "nm0001831",
@@ -162,7 +164,8 @@
       "name": "Sean Vertigo",
       "roles": [
         "Bicycle Boy"
-      ]
+      ],
+      "notes": "(as Sean Ryan)"
     },
     {
       "imdbId": "nm0665725",

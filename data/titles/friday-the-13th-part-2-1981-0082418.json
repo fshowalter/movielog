@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0591171",
-      "name": "Steve Miner"
+      "name": "Steve Miner",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -54,7 +55,8 @@
       "name": "Stuart Charno",
       "roles": [
         "Ted"
-      ]
+      ],
+      "notes": "(as Stu Charno)"
     },
     {
       "imdbId": "nm0319068",
@@ -131,7 +133,8 @@
       "name": "Steve Dash",
       "roles": [
         "Jason"
-      ]
+      ],
+      "notes": "(as Steve Daskawisz)"
     },
     {
       "imdbId": "nm0908702",
@@ -188,11 +191,6 @@
       "imdbId": "nm0413826",
       "name": "Ron Kurz",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0566699",
-      "name": "Victor Miller",
-      "notes": "based on characters created by"
     }
   ],
   "runtimeMinutes": 87

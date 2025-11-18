@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0266622",
-      "name": "Rick Famuyiwa"
+      "name": "Rick Famuyiwa",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -188,7 +189,8 @@
       "name": "Buddy",
       "roles": [
         "Test Taker"
-      ]
+      ],
+      "notes": "(as Simmie Sims)"
     },
     {
       "imdbId": "nm0809793",
@@ -202,7 +204,8 @@
       "name": "LaKeith Stanfield",
       "roles": [
         "Bug"
-      ]
+      ],
+      "notes": "(as Keith Stanfield)"
     },
     {
       "imdbId": "nm6770906",
@@ -231,6 +234,14 @@
       "roles": [
         "The Rapper"
       ]
+    },
+    {
+      "imdbId": "nm0001845",
+      "name": "Forest Whitaker",
+      "roles": [
+        "The Narrator"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [

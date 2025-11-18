@@ -16,23 +16,28 @@
   "directors": [
     {
       "imdbId": "nm0368871",
-      "name": "Henry Hathaway"
+      "name": "Henry Hathaway",
+      "notes": "(segment \"The Clarion Call\")"
     },
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks"
+      "name": "Howard Hawks",
+      "notes": "(segment \"The Ransom of Red Chief\")"
     },
     {
       "imdbId": "nm0454771",
-      "name": "Henry King"
+      "name": "Henry King",
+      "notes": "(segment \"The Gift of the Magi\")"
     },
     {
       "imdbId": "nm0467396",
-      "name": "Henry Koster"
+      "name": "Henry Koster",
+      "notes": "(segment \"The Cop and the Anthem\")"
     },
     {
       "imdbId": "nm0624535",
-      "name": "Jean Negulesco"
+      "name": "Jean Negulesco",
+      "notes": "(segment \"The Last Leaf\")"
     }
   ],
   "performers": [
@@ -41,98 +46,112 @@
       "name": "Fred Allen",
       "roles": [
         "Samuel Brown"
-      ]
+      ],
+      "notes": "(segment \"The Ransom of Red Chief\")"
     },
     {
       "imdbId": "nm0000879",
       "name": "Anne Baxter",
       "roles": [
         "Joanna Goodwin"
-      ]
+      ],
+      "notes": "(segment \"The Last Leaf\")"
     },
     {
       "imdbId": "nm0002022",
       "name": "Jeanne Crain",
       "roles": [
         "Della Young"
-      ]
+      ],
+      "notes": "(segment \"The Gift of the Magi\")"
     },
     {
       "imdbId": "nm0335048",
       "name": "Farley Granger",
       "roles": [
         "Jim Young"
-      ]
+      ],
+      "notes": "(segment \"The Gift of the Magi\")"
     },
     {
       "imdbId": "nm0001452",
       "name": "Charles Laughton",
       "roles": [
         "Soapy"
-      ]
+      ],
+      "notes": "(segment \"The Cop and the Anthem\")"
     },
     {
       "imdbId": "nm0505157",
       "name": "Oscar Levant",
       "roles": [
         "William Smith"
-      ]
+      ],
+      "notes": "(segment \"The Ransom of Red Chief\")"
     },
     {
       "imdbId": "nm0000054",
       "name": "Marilyn Monroe",
       "roles": [
         "Streetwalker"
-      ]
+      ],
+      "notes": "(segment \"The Cop and the Anthem\")"
     },
     {
       "imdbId": "nm0676492",
       "name": "Jean Peters",
       "roles": [
         "Susan Goodwin"
-      ]
+      ],
+      "notes": "(segment \"The Last Leaf\")"
     },
     {
       "imdbId": "nm0711855",
       "name": "Gregory Ratoff",
       "roles": [
         "Behrman"
-      ]
+      ],
+      "notes": "(segment \"The Last Leaf\")"
     },
     {
       "imdbId": "nm0731783",
       "name": "Dale Robertson",
       "roles": [
         "Barney Woods"
-      ]
+      ],
+      "notes": "(segment \"The Clarion Call\")"
     },
     {
       "imdbId": "nm0915536",
       "name": "David Wayne",
       "roles": [
         "Horace"
-      ]
+      ],
+      "notes": "(segment \"The Cop and the Anthem\")"
     },
     {
       "imdbId": "nm0001847",
       "name": "Richard Widmark",
       "roles": [
         "Johnny Kernan"
-      ]
+      ],
+      "notes": "(segment \"The Clarion Call\")"
     },
     {
       "imdbId": "nm0007342",
       "name": "Lee Aaker",
       "roles": [
         "J.B. Dorset"
-      ]
+      ],
+      "notes": "(segment \"The Ransom of Red Chief\")"
     },
     {
       "imdbId": "nm0730533",
       "name": "Richard Rober",
       "roles": [
         "Chief of Detectives"
-      ]
+      ],
+      "notes": "(segment \"The Clarion Call\")"
     },
     {
       "imdbId": "nm0447043",
@@ -140,14 +159,16 @@
       "roles": [
         "Mr. Schultz",
         "Santa Claus"
-      ]
+      ],
+      "notes": "(segment \"The Gift of the Magi\")"
     },
     {
       "imdbId": "nm0308257",
       "name": "Richard Garrick",
       "roles": [
         "Doctor"
-      ]
+      ],
+      "notes": "(segment \"The Last Leaf\")"
     },
     {
       "imdbId": "nm0825705",
@@ -182,6 +203,31 @@
       "imdbId": "nm0120190",
       "name": "Walter Bullock",
       "notes": "screen play by (segment \"The Gift of the Magi\")"
+    },
+    {
+      "imdbId": "nm0242897",
+      "name": "Philip Dunne",
+      "notes": "screen play by (segment \"The Gift of the Magi\") (uncredited)"
+    },
+    {
+      "imdbId": "nm0372942",
+      "name": "Ben Hecht",
+      "notes": "screen play by (segment \"Ransom of Red Chief\") (uncredited)"
+    },
+    {
+      "imdbId": "nm0377958",
+      "name": "O. Henry",
+      "notes": "story (uncredited)"
+    },
+    {
+      "imdbId": "nm0425913",
+      "name": "Nunnally Johnson",
+      "notes": "screen play by (segment \"Ransom of Red Chief\") (uncredited)"
+    },
+    {
+      "imdbId": "nm0496468",
+      "name": "Charles Lederer",
+      "notes": "screen play by (segment \"Ransom of Red Chief\") (uncredited)"
     }
   ],
   "runtimeMinutes": 117

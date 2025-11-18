@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0387354",
-      "name": "Meng-Hua Ho"
+      "name": "Meng-Hua Ho",
+      "notes": "(as Horace Menga)"
     }
   ],
   "performers": [
@@ -30,19 +31,22 @@
     {
       "imdbId": "nm0624075",
       "name": "Ni Tien",
-      "roles": []
+      "roles": [],
+      "notes": "(as Tanny)"
     },
     {
       "imdbId": "nm0516316",
       "name": "Lo Lieh",
       "roles": [
         "Kang Cong"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0514940",
       "name": "Terry Liu",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hui-Ju Liu)"
     },
     {
       "imdbId": "nm0917686",
@@ -101,7 +105,8 @@
     {
       "imdbId": "nm1399642",
       "name": "Chien Szu-Ying",
-      "roles": []
+      "roles": [],
+      "notes": "(as Szu-Ying Chien)"
     },
     {
       "imdbId": "nm0268808",
@@ -118,12 +123,14 @@
       "name": "Hung Wei",
       "roles": [
         "(Guest star)"
-      ]
+      ],
+      "notes": "(as Frankie Wei)"
     },
     {
       "imdbId": "nm3161175",
       "name": "Ai-Ling Yang",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ai-ling Yang)"
     },
     {
       "imdbId": "nm2500568",
@@ -144,8 +151,7 @@
   "writers": [
     {
       "imdbId": "nm0393250",
-      "name": "Kuang Ni",
-      "notes": "writer"
+      "name": "Kuang Ni"
     }
   ],
   "runtimeMinutes": 92

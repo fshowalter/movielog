@@ -13,13 +13,13 @@
     "Action",
     "Comedy",
     "Drama",
-    "Music",
-    "Sport"
+    "Music"
   ],
   "directors": [
     {
       "imdbId": "nm0776317",
-      "name": "Michael Schultz"
+      "name": "Michael Schultz",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -42,7 +42,8 @@
       "name": "Christopher Murney",
       "roles": [
         "Eddie Arkadian"
-      ]
+      ],
+      "notes": "(as Chris Murney)"
     },
     {
       "imdbId": "nm0141114",
@@ -50,7 +51,8 @@
       "roles": [
         "Sho'nuff",
         "The Shogun of Harlem"
-      ]
+      ],
+      "notes": "(as Julius J. Carry III)"
     },
     {
       "imdbId": "nm0697650",
@@ -113,7 +115,8 @@
       "name": "Keshia Knight Pulliam",
       "roles": [
         "Sophia"
-      ]
+      ],
+      "notes": "(as Keshia Knight)"
     },
     {
       "imdbId": "nm1013153",
@@ -183,7 +186,8 @@
       "name": "André D. Brown",
       "roles": [
         "Beast"
-      ]
+      ],
+      "notes": "(as Andre Brown)"
     },
     {
       "imdbId": "nm0165247",
@@ -218,7 +222,8 @@
       "name": "Lisa Dalton",
       "roles": [
         "Sho's Woman #3"
-      ]
+      ],
+      "notes": "(as Lisa Loving)"
     },
     {
       "imdbId": "nm0950794",
@@ -253,7 +258,8 @@
       "name": "William H. Macy",
       "roles": [
         "J.J."
-      ]
+      ],
+      "notes": "(as W.H. Macy)"
     },
     {
       "imdbId": "nm0533935",
@@ -305,6 +311,13 @@
       ]
     },
     {
+      "imdbId": "nm0697628",
+      "name": "Clayton Prince",
+      "roles": [
+        "Voice in Theatre"
+      ]
+    },
+    {
       "imdbId": "nm0776206",
       "name": "Brandon Schultz",
       "roles": [
@@ -316,7 +329,8 @@
       "name": "Carl Anthony Payne II",
       "roles": [
         "Kid in Pizza Shop"
-      ]
+      ],
+      "notes": "(as Carl Payne)"
     },
     {
       "imdbId": "nm0181467",
@@ -337,7 +351,8 @@
       "name": "Lia Chang",
       "roles": [
         "Girl Student"
-      ]
+      ],
+      "notes": "(as Kim Chang)"
     },
     {
       "imdbId": "nm0776233",
@@ -351,7 +366,8 @@
       "name": "Rhonda Ross Kendrick",
       "roles": [
         "7th Heaven Dancer"
-      ]
+      ],
+      "notes": "(as Rhonda Silberstein)"
     },
     {
       "imdbId": "nm0870692",

@@ -17,23 +17,28 @@
   "directors": [
     {
       "imdbId": "nm0192446",
-      "name": "Sean S. Cunningham"
+      "name": "Sean S. Cunningham",
+      "notes": "(segment \"Jibaku\")"
     },
     {
       "imdbId": "nm0001102",
-      "name": "Joe Dante"
+      "name": "Joe Dante",
+      "notes": "story segments \"Wraparound\""
     },
     {
       "imdbId": "nm0300665",
-      "name": "John Gaeta"
+      "name": "John Gaeta",
+      "notes": "(segment \"My Twin, The Worm\")"
     },
     {
       "imdbId": "nm0375494",
-      "name": "Monte Hellman"
+      "name": "Monte Hellman",
+      "notes": "(segment \"Stanley's Girlfriend\")"
     },
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell"
+      "name": "Ken Russell",
+      "notes": "(segment \"The Girl With Golden Breasts\")"
     }
   ],
   "performers": [
@@ -77,8 +82,9 @@
       "name": "Michèle-Barbara Pelletier",
       "roles": [
         "Nathalie (story segments \"Wraparound\")",
-        "Martine (segment \"My Twin, The Worm\")"
-      ]
+        "Martine"
+      ],
+      "notes": "(segment \"My Twin, The Worm\") (as Michele-Barbara Pelletier)"
     },
     {
       "imdbId": "nm0768334",
@@ -91,190 +97,217 @@
       "imdbId": "nm1671878",
       "name": "Rachel Veltri",
       "roles": [
-        "Phoebe (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Phoebe"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0185214",
       "name": "Richard Ian Cox",
       "roles": [
-        "Doug (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Doug"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0203728",
       "name": "Glynis Davies",
       "roles": [
-        "Nurse (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Nurse"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0374311",
       "name": "Scott Heindl",
       "roles": [
-        "Zack (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Zack"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0216700",
       "name": "Rob deLeeuw",
       "roles": [
-        "Ben (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Ben"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\") (as Rob De Leeuw)"
     },
     {
       "imdbId": "nm0590875",
       "name": "Mina E. Mina",
       "roles": [
-        "Dr. Judith (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Dr. Judith"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0718759",
       "name": "Winston Rekert",
       "roles": [
-        "Dr. Larry (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Dr. Larry"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0001692",
       "name": "Ken Russell",
       "roles": [
-        "Dr. Lucy (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Dr. Lucy"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm0852647",
       "name": "John R. Taylor",
       "roles": [
-        "Dr. Charlotte (segment \"The Girl with Golden Breasts\")"
-      ]
+        "Dr. Charlotte"
+      ],
+      "notes": "(segment \"The Girl with Golden Breasts\")"
     },
     {
       "imdbId": "nm2156669",
       "name": "Yoshinori Hiruma",
       "roles": [
-        "Seishin (segment \"Jibaku\")"
-      ]
+        "Seishin"
+      ],
+      "notes": "(segment \"Jibaku\")"
     },
     {
       "imdbId": "nm0410903",
       "name": "Ryô Ishibashi",
       "roles": [
-        "Head Monk (segment \"Jibaku\")"
-      ]
+        "Head Monk"
+      ],
+      "notes": "(segment \"Jibaku\") (as Ryo Ishibashi)"
     },
     {
       "imdbId": "nm0411889",
       "name": "Yôzaburô Itô",
       "roles": [
-        "Architect (segment \"Jibaku\")"
-      ]
+        "Architect"
+      ],
+      "notes": "(segment \"Jibaku\") (as Yozaburo Ito)"
     },
     {
       "imdbId": "nm2924477",
       "name": "Hisayoshi Kawamatsu",
       "roles": [
-        "Young Monk #1 (segment \"Jibaku\")"
-      ]
+        "Young Monk #1"
+      ],
+      "notes": "(segment \"Jibaku\")"
     },
     {
       "imdbId": "nm2217947",
       "name": "Kyûya Nakagawa",
       "roles": [
-        "Young Monk #2 (segment \"Jibaku\")"
-      ]
+        "Young Monk #2"
+      ],
+      "notes": "(segment \"Jibaku\") (as Kyuya Nakagawa)"
     },
     {
       "imdbId": "nm0837489",
       "name": "Aya Sugimoto",
       "roles": [
-        "Policewoman (segment \"Jibaku\")"
-      ]
+        "Policewoman"
+      ],
+      "notes": "(segment \"Jibaku\")"
     },
     {
       "imdbId": "nm2923846",
       "name": "Ashley Breger",
       "roles": [
-        "Girl in Photo #1 (segment \"Stanley's Girlfriend\")"
-      ]
+        "Girl in Photo #1"
+      ],
+      "notes": "(segment \"Stanley's Girlfriend\")"
     },
     {
       "imdbId": "nm1640327",
       "name": "Amelia Cooke",
       "roles": [
-        "Nina (segment \"Stanley\"s Girlfriend\")"
-      ]
+        "Nina"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm2160122",
       "name": "Amy Markle",
       "roles": [
-        "Girl in Graveyard (segment \"Stanley\"s Girlfriend\")"
-      ]
+        "Girl in Graveyard"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0559193",
       "name": "Andy Maton",
       "roles": [
-        "Old Stanley in Film (segment \"Stanley's Girlfriend\")"
-      ]
+        "Old Stanley in Film"
+      ],
+      "notes": "(segment \"Stanley's Girlfriend\")"
     },
     {
       "imdbId": "nm0671886",
       "name": "Tahmoh Penikett",
       "roles": [
-        "Young Leo (segment \"Stanley\"s Girlfriend\")"
-      ]
+        "Young Leo"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0750353",
       "name": "Tygh Runyan",
       "roles": [
-        "Young Stanley (segment \"Stanley's Girlfriend\")"
-      ]
+        "Young Stanley"
+      ],
+      "notes": "(segment \"Stanley's Girlfriend\")"
     },
     {
       "imdbId": "nm2924116",
       "name": "Katrina Trotzuk",
       "roles": [
-        "Girl in Photo #2 (segment \"Stanley's Girlfriend\")"
-      ]
+        "Girl in Photo #2"
+      ],
+      "notes": "(segment \"Stanley's Girlfriend\")"
     },
     {
       "imdbId": "nm1880647",
       "name": "Matreya Fedor",
       "roles": [
-        "Young Nathalie (segment \"My Twin, The Worm\")"
-      ]
+        "Young Nathalie"
+      ],
+      "notes": "(segment \"My Twin, The Worm\")"
     },
     {
       "imdbId": "nm1682832",
       "name": "Luke Macfarlane",
       "roles": [
-        "Vincent (segment \"My Twin, The Worm\")"
-      ]
+        "Vincent"
+      ],
+      "notes": "(segment \"My Twin, The Worm\")"
     },
     {
       "imdbId": "nm0589669",
       "name": "Deanna Milligan",
       "roles": [
-        "Annie (segment \"My Twin, The Worm\")"
-      ]
+        "Annie"
+      ],
+      "notes": "(segment \"My Twin, The Worm\")"
     },
     {
       "imdbId": "nm0796907",
       "name": "Charles Siegel",
       "roles": [
-        "Martine's Father (segment \"My Twin, The Worm\")"
-      ]
+        "Martine's Father"
+      ],
+      "notes": "(segment \"My Twin, The Worm\")"
     },
     {
       "imdbId": "nm0913682",
       "name": "Jerry Wasserman",
       "roles": [
-        "Dr. Stengel (segment \"My Twin, The Worm\")"
-      ]
+        "Dr. Stengel"
+      ],
+      "notes": "(segment \"My Twin, The Worm\")"
     }
   ],
   "writers": [

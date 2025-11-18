@@ -20,23 +20,28 @@
   "directors": [
     {
       "imdbId": "nm0001031",
-      "name": "Claude Chabrol"
+      "name": "Claude Chabrol",
+      "notes": "(segment \"L'Homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0000419",
-      "name": "Jean-Luc Godard"
+      "name": "Jean-Luc Godard",
+      "notes": "(segment \"Le Grand escroc\") (scenes deleted)"
     },
     {
       "imdbId": "nm0339683",
-      "name": "Ugo Gregoretti"
+      "name": "Ugo Gregoretti",
+      "notes": "(segment \"La Feuille du route\")"
     },
     {
       "imdbId": "nm0394687",
-      "name": "Hiromichi Horikawa"
+      "name": "Hiromichi Horikawa",
+      "notes": "segment Les Cinq Bienfaiteurs de Fumiko"
     },
     {
       "imdbId": "nm0000591",
-      "name": "Roman Polanski"
+      "name": "Roman Polanski",
+      "notes": "(segment \"La Rivière de Diamants\") (scenes deleted)"
     }
   ],
   "performers": [
@@ -45,7 +50,8 @@
       "name": "Mie Hama",
       "roles": [
         "Yoshie"
-      ]
+      ],
+      "notes": "(segment \"Les Cinq Bienfaiteurs de Fumiko\") (as Mié Hama)"
     },
     {
       "imdbId": "nm0594055",
@@ -59,21 +65,24 @@
       "name": "Yatsuko Tan'ami",
       "roles": [
         "Detective"
-      ]
+      ],
+      "notes": "(segment \"Les Cinq Bienfaiteurs de Fumiko\")"
     },
     {
       "imdbId": "nm0439181",
       "name": "Nicole Karen",
       "roles": [
         "Swindler"
-      ]
+      ],
+      "notes": "(segment \"La Rivière de Diamants\")"
     },
     {
       "imdbId": "nm0320377",
       "name": "Gabriella Giorgelli",
       "roles": [
         "Maria Rosa"
-      ]
+      ],
+      "notes": "(segment \"La Feuille de Route\")"
     },
     {
       "imdbId": "nm0856625",
@@ -87,55 +96,64 @@
       "name": "Arnold Gelderman",
       "roles": [
         "Jeweller"
-      ]
+      ],
+      "notes": "(segment \"La Rivière de Diamants\")"
     },
     {
       "imdbId": "nm0321375",
       "name": "Guido Giuseppone",
-      "roles": []
+      "roles": [],
+      "notes": "(segment \"La Feuille de Route\")"
     },
     {
       "imdbId": "nm0543049",
       "name": "Giuseppe Mannajuolo",
-      "roles": []
+      "roles": [],
+      "notes": "(segment \"La Feuille de Route\") (as Beppe Mannaiuolo)"
     },
     {
       "imdbId": "nm0144045",
       "name": "Jean-Pierre Cassel",
       "roles": [
         "Alain des Arcys ...."
-      ]
+      ],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0000366",
       "name": "Catherine Deneuve",
       "roles": [
         "Swindler"
-      ]
+      ],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0087126",
       "name": "Francis Blanche",
       "roles": [
         "Mr. Humlaupt"
-      ]
+      ],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0109762",
       "name": "Sacha Briquet",
-      "roles": []
+      "roles": [],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0561287",
       "name": "Jean-Louis Maury",
       "roles": [
         "Mr. Carmaillon"
-      ]
+      ],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     },
     {
       "imdbId": "nm0869557",
       "name": "Philomène Toulouse",
-      "roles": []
+      "roles": [],
+      "notes": "(segment \"L'homme qui vendit la Tour Eiffel\")"
     }
   ],
   "writers": [

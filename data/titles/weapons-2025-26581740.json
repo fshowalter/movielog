@@ -17,10 +17,19 @@
   "directors": [
     {
       "imdbId": "nm1199107",
-      "name": "Zach Cregger"
+      "name": "Zach Cregger",
+      "notes": "directed by"
     }
   ],
   "performers": [
+    {
+      "imdbId": "nm10929560",
+      "name": "Scarlett Sher",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
+    },
     {
       "imdbId": "nm3400186",
       "name": "Julia Garner",

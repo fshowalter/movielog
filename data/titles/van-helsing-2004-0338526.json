@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0814085",
-      "name": "Stephen Sommers"
+      "name": "Stephen Sommers",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -127,7 +128,8 @@
       "name": "Stephen Fisher",
       "roles": [
         "Dr. Jekyll"
-      ]
+      ],
+      "notes": "(as Stephen H. Fisher)"
     },
     {
       "imdbId": "nm0603184",
@@ -190,13 +192,6 @@
       "name": "Patrice Wojciechowski",
       "roles": [
         "Dracula's Ball Performer"
-      ]
-    },
-    {
-      "imdbId": "nm0876030",
-      "name": "Todd Tucker",
-      "roles": [
-        "Vampire bat puppeteer"
       ]
     }
   ],

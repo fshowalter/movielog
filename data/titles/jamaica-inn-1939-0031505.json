@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock"
+      "name": "Alfred Hitchcock",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -75,21 +76,24 @@
       "name": "Jeanne De Casalis",
       "roles": [
         "Sir Humphrey's Friend"
-      ]
+      ],
+      "notes": "(as Jeanne de Casalis)"
     },
     {
       "imdbId": "nm0856102",
       "name": "Mabel Terry-Lewis",
       "roles": [
         "Lady Beston - Sir Humphrey's Friend"
-      ]
+      ],
+      "notes": "(as Mabel Terry Lewis)"
     },
     {
       "imdbId": "nm0202559",
       "name": "A. Bromley Davenport",
       "roles": [
         "Ringwood - Sir Humphrey's Friend"
-      ]
+      ],
+      "notes": "(as Bromley Davenport)"
     },
     {
       "imdbId": "nm0193633",

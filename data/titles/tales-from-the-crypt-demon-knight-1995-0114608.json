@@ -18,16 +18,32 @@
   "directors": [
     {
       "imdbId": "nm0225416",
-      "name": "Ernest R. Dickerson"
+      "name": "Ernest R. Dickerson",
+      "notes": "(as Ernest Dickerson)"
     }
   ],
   "performers": [
+    {
+      "imdbId": "nm0000708",
+      "name": "Billy Zane",
+      "roles": [
+        "The Collector"
+      ]
+    },
+    {
+      "imdbId": "nm0006669",
+      "name": "William Sadler",
+      "roles": [
+        "Brayker"
+      ]
+    },
     {
       "imdbId": "nm0000586",
       "name": "Jada Pinkett Smith",
       "roles": [
         "Jeryline"
-      ]
+      ],
+      "notes": "(as Jada Pinkett)"
     },
     {
       "imdbId": "nm0000283",
@@ -76,7 +92,8 @@
       "name": "Tim DeZarn",
       "roles": [
         "Homer"
-      ]
+      ],
+      "notes": "(as Tim deZarn)"
     },
     {
       "imdbId": "nm0741672",
@@ -90,7 +107,8 @@
       "name": "Ryan O'Donohue",
       "roles": [
         "Danny"
-      ]
+      ],
+      "notes": "(as Ryan Sean O'Donohue)"
     },
     {
       "imdbId": "nm0758873",
@@ -111,7 +129,8 @@
       "name": "Chasey Lain",
       "roles": [
         "Party Babe"
-      ]
+      ],
+      "notes": "(as Tiffany Anne)"
     },
     {
       "imdbId": "nm0066263",
@@ -153,14 +172,16 @@
       "name": "Tina Lawrence",
       "roles": [
         "Party Babe"
-      ]
+      ],
+      "notes": "(as Tina Hollimon)"
     },
     {
       "imdbId": "nm0215980",
       "name": "Elaine del Valle",
       "roles": [
         "Party Babe"
-      ]
+      ],
+      "notes": "(as Elaine Marks)"
     },
     {
       "imdbId": "nm0662502",
@@ -181,7 +202,8 @@
       "name": "Mark David Kennerly",
       "roles": [
         "Other Collector"
-      ]
+      ],
+      "notes": "(as Mark D. Kennerly)"
     },
     {
       "imdbId": "nm0872193",
@@ -205,6 +227,14 @@
       ]
     },
     {
+      "imdbId": "nm0756579",
+      "name": "Stephanie Sain",
+      "roles": [
+        "Radio Voice",
+        "Mavis"
+      ]
+    },
+    {
       "imdbId": "nm12352121",
       "name": "Tom Vincini",
       "roles": [
@@ -223,20 +253,6 @@
       "name": "John Kassir",
       "roles": [
         "The Crypt Keeper"
-      ]
-    },
-    {
-      "imdbId": "nm0006669",
-      "name": "William Sadler",
-      "roles": [
-        "Brayker"
-      ]
-    },
-    {
-      "imdbId": "nm0000708",
-      "name": "Billy Zane",
-      "roles": [
-        "The Collector"
       ]
     }
   ],

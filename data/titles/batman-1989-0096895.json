@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000318",
-      "name": "Tim Burton"
+      "name": "Tim Burton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -126,7 +127,8 @@
       "name": "Mac McDonald",
       "roles": [
         "Goon"
-      ]
+      ],
+      "notes": "(as Mac Macdonald)"
     },
     {
       "imdbId": "nm0178059",
@@ -231,7 +233,8 @@
       "name": "Lachele Carl",
       "roles": [
         "TV Technician"
-      ]
+      ],
+      "notes": "(as Lachelle Carl)"
     },
     {
       "imdbId": "nm0048390",
@@ -301,14 +304,16 @@
       "name": "Amir M. Korangy",
       "roles": [
         "Wine Steward"
-      ]
+      ],
+      "notes": "(as Amir Korangy)"
     },
     {
       "imdbId": "nm0088372",
       "name": "Hugo Blick",
       "roles": [
         "Young Jack Napier"
-      ]
+      ],
+      "notes": "(as Hugo E. Blick)"
     },
     {
       "imdbId": "nm0743056",
@@ -378,7 +383,8 @@
       "name": "Jon Seresi",
       "roles": [
         "Medic"
-      ]
+      ],
+      "notes": "(as a different name)"
     },
     {
       "imdbId": "nm0002243",
@@ -399,7 +405,8 @@
       "name": "Denis Lill",
       "roles": [
         "Bob the Cartoonist"
-      ]
+      ],
+      "notes": "(as Dennis Lill)"
     },
     {
       "imdbId": "nm0083307",
@@ -413,15 +420,11 @@
       "name": "Paul Rothery",
       "roles": [
         "Cop"
-      ]
+      ],
+      "notes": "(as Paul Michael)"
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0004170",
-      "name": "Bob Kane",
-      "notes": "Batman characters"
-    },
     {
       "imdbId": "nm0358334",
       "name": "Sam Hamm",

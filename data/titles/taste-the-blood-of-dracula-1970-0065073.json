@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0765856",
-      "name": "Peter Sasdy"
+      "name": "Peter Sasdy",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -63,7 +64,8 @@
       "name": "Anthony Higgins",
       "roles": [
         "Paul Paxton"
-      ]
+      ],
+      "notes": "(as Anthony Corlan)"
     },
     {
       "imdbId": "nm0086262",
@@ -147,7 +149,8 @@
       "name": "Madeline Smith",
       "roles": [
         "Dolly"
-      ]
+      ],
+      "notes": "(as Maddy Smith)"
     },
     {
       "imdbId": "nm0512690",
@@ -169,11 +172,6 @@
       "imdbId": "nm0385573",
       "name": "Anthony Hinds",
       "notes": "screenplay (as John Elder)"
-    },
-    {
-      "imdbId": "nm0831290",
-      "name": "Bram Stoker",
-      "notes": "based on the character created by"
     }
   ],
   "runtimeMinutes": 91

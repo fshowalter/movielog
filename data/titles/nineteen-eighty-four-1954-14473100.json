@@ -13,7 +13,13 @@
     "Sci-Fi"
   ],
   "runtimeMinutes": 120,
-  "directors": [],
+  "directors": [
+    {
+      "imdbId": "nm0142056",
+      "name": "Rudolph Cartier",
+      "notes": "(uncredited)"
+    }
+  ],
   "performers": [
     {
       "imdbId": "nm0001088",
@@ -162,6 +168,14 @@
       "roles": [
         "Guard"
       ]
+    },
+    {
+      "imdbId": "nm9166211",
+      "name": "Richard Williams",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [

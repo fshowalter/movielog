@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks"
+      "name": "Howard Hawks",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -60,7 +61,8 @@
       "name": "Charles Lane",
       "roles": [
         "Max Jacobs"
-      ]
+      ],
+      "notes": "(as Charles Levison)"
     },
     {
       "imdbId": "nm0320761",
@@ -106,6 +108,26 @@
       "imdbId": "nm0531269",
       "name": "Charles MacArthur",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0288706",
+      "name": "Gene Fowler",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0372942",
+      "name": "Ben Hecht",
+      "notes": "play (uncredited)"
+    },
+    {
+      "imdbId": "nm0531269",
+      "name": "Charles MacArthur",
+      "notes": "play (uncredited)"
+    },
+    {
+      "imdbId": "nm0002545",
+      "name": "Preston Sturges",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 91

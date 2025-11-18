@@ -8,18 +8,20 @@
   "releaseDate": "2025-02-06",
   "runtimeMinutes": 97,
   "countries": [
-    "United States",
-    "New Zealand"
+    "New Zealand",
+    "United States"
   ],
   "genres": [
     "Comedy",
     "Horror",
-    "Mystery"
+    "Mystery",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm2063694",
-      "name": "Josh Ruben"
+      "name": "Josh Ruben",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -63,7 +65,8 @@
       "name": "Amy L. Workman",
       "roles": [
         "Reporter"
-      ]
+      ],
+      "notes": "(as Amy Workman)"
     },
     {
       "imdbId": "nm6940525",

@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0789033",
-      "name": "Don Sharp"
+      "name": "Don Sharp",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -90,7 +91,8 @@
       "name": "John Glyn-Jones",
       "roles": [
         "Bank Manager"
-      ]
+      ],
+      "notes": "(as John Glyn Jones)"
     },
     {
       "imdbId": "nm0505244",
@@ -132,7 +134,8 @@
       "name": "Lysandre De La Haye",
       "roles": [
         "Child on Hill"
-      ]
+      ],
+      "notes": "(as Lysandra De-La-Haye)"
     },
     {
       "imdbId": "nm0722419",
@@ -152,6 +155,16 @@
       "imdbId": "nm0888305",
       "name": "Joseph Van Winkle",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0360269",
+      "name": "James Hannah Jr.",
+      "notes": "adaptation (uncredited)"
+    },
+    {
+      "imdbId": "nm0789033",
+      "name": "Don Sharp",
+      "notes": "adaptation (uncredited)"
     }
   ],
   "runtimeMinutes": 91

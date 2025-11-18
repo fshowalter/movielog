@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001392",
-      "name": "Peter Jackson"
+      "name": "Peter Jackson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -174,6 +175,15 @@
       "roles": [
         "Old Bilbo"
       ]
+    },
+    {
+      "imdbId": "nm1212722",
+      "name": "Benedict Cumberbatch",
+      "roles": [
+        "Smaug",
+        "Necromancer"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0675409",
@@ -341,6 +351,49 @@
       "name": "Merv Smith",
       "roles": [
         "Tosser Grubb"
+      ]
+    },
+    {
+      "imdbId": "nm1020819",
+      "name": "Martin Kwok",
+      "roles": [
+        "Ragash"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0048389",
+      "name": "Dee Bradley Baker",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm7273808",
+      "name": "Olof Johnsson",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm2177081",
+      "name": "Jon Olson",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm1997581",
+      "name": "Otep Shamaya",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm0933281",
+      "name": "Debra Wilson",
+      "roles": [
+        "Creature Voices"
       ]
     }
   ],

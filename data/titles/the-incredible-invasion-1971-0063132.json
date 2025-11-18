@@ -15,16 +15,19 @@
   ],
   "directors": [
     {
+      "imdbId": "nm0327914",
+      "name": "José Luis González de León",
+      "notes": "co-director"
+    },
+    {
       "imdbId": "nm0384335",
-      "name": "Jack Hill"
+      "name": "Jack Hill",
+      "notes": "US scenes"
     },
     {
       "imdbId": "nm0406625",
-      "name": "Juan Ibáñez"
-    },
-    {
-      "imdbId": "nm0327914",
-      "name": "José Luis González de León"
+      "name": "Juan Ibáñez",
+      "notes": "Mexican scenes"
     }
   ],
   "performers": [
@@ -68,7 +71,8 @@
       "name": "Tere Vales",
       "roles": [
         "Nancy"
-      ]
+      ],
+      "notes": "(as Tere Valez)"
     },
     {
       "imdbId": "nm0577228",
@@ -117,12 +121,14 @@
       "name": "Nathanael León",
       "roles": [
         "Villager"
-      ]
+      ],
+      "notes": "(as Frankestein)"
     },
     {
       "imdbId": "nm0430216",
       "name": "Víctor Jordán",
-      "roles": []
+      "roles": [],
+      "notes": "(as Victor Jordan)"
     },
     {
       "imdbId": "nm0580746",
@@ -147,18 +153,16 @@
   "writers": [
     {
       "imdbId": "nm0406625",
-      "name": "Juan Ibáñez",
-      "notes": "writer"
+      "name": "Juan Ibáñez"
     },
     {
       "imdbId": "nm0770046",
-      "name": "Karl Schanzer",
-      "notes": "writer"
+      "name": "Karl Schanzer"
     },
     {
       "imdbId": "nm0894028",
       "name": "Luis Enrique Vergara",
-      "notes": "writer (as L.E. Vergara C.)"
+      "notes": "(as L.E. Vergara C.)"
     }
   ],
   "runtimeMinutes": 90

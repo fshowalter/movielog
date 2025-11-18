@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0337773",
-      "name": "David Gordon Green"
+      "name": "David Gordon Green",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -167,7 +168,8 @@
       "name": "Brian Mays",
       "roles": [
         "Brian the Bartender"
-      ]
+      ],
+      "notes": "(as Brian Mays Sr.)"
     },
     {
       "imdbId": "nm6468805",
@@ -188,7 +190,8 @@
       "name": "Omar J. Dorsey",
       "roles": [
         "Sheriff Barker"
-      ]
+      ],
+      "notes": "(as Omar Dorsey)"
     },
     {
       "imdbId": "nm13008984",
@@ -224,6 +227,14 @@
       "roles": [
         "Dr. Samuel Loomis"
       ]
+    },
+    {
+      "imdbId": "nm1280272",
+      "name": "Colin Mahan",
+      "roles": [
+        "Dr. Samuel Loomis"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm5069643",
@@ -384,7 +395,8 @@
       "name": "Salem Hadeed",
       "roles": [
         "Hawkin's Doctor"
-      ]
+      ],
+      "notes": "(as Salem Hadeed-Murphy)"
     },
     {
       "imdbId": "nm3771960",
@@ -510,27 +522,19 @@
       "name": "P.J. Soles",
       "roles": [
         "Lynda"
-      ]
+      ],
+      "notes": "(archive footage) (as PJ Soles)"
     },
     {
       "imdbId": "nm0644022",
       "name": "Bob Odenkirk",
       "roles": [
         "Bob"
-      ]
+      ],
+      "notes": "(credit only)"
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0000118",
-      "name": "John Carpenter",
-      "notes": "based on characters created by and"
-    },
-    {
-      "imdbId": "nm0384185",
-      "name": "Debra Hill",
-      "notes": "based on characters created by"
-    },
     {
       "imdbId": "nm1802374",
       "name": "Scott Teems",

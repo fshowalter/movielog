@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001603",
-      "name": "Sam Peckinpah"
+      "name": "Sam Peckinpah",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -139,7 +140,8 @@
       "name": "Darwin Lamb",
       "roles": [
         "The Stranger"
-      ]
+      ],
+      "notes": "(as Darwin W. Lamb)"
     },
     {
       "imdbId": "nm0612706",
@@ -187,6 +189,11 @@
       "imdbId": "nm0672127",
       "name": "Edmund Penney",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0206137",
+      "name": "Gordon T. Dawson",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 121

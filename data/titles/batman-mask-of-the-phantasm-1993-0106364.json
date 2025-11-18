@@ -7,7 +7,9 @@
   "year": "1993",
   "releaseDate": "1993-12-25",
   "countries": [
-    "United States"
+    "United States",
+    "Japan",
+    "South Korea"
   ],
   "genres": [
     "Animation",
@@ -21,30 +23,125 @@
   "directors": [
     {
       "imdbId": "nm0022828",
-      "name": "Kevin Altieri"
+      "name": "Kevin Altieri",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0456631",
-      "name": "Boyd Kirkland"
+      "name": "Boyd Kirkland",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0667469",
-      "name": "Frank Paur"
+      "name": "Frank Paur",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0705779",
-      "name": "Eric Radomski"
+      "name": "Eric Radomski",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0722713",
-      "name": "Dan Riba"
+      "name": "Dan Riba",
+      "notes": "sequence director"
     },
     {
       "imdbId": "nm0863622",
-      "name": "Bruce Timm"
+      "name": "Bruce Timm",
+      "notes": "directed by (as Bruce W. Timm)"
     }
   ],
   "performers": [
+    {
+      "imdbId": "nm0175834",
+      "name": "Kevin Conroy",
+      "roles": [
+        "Batman"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0001127",
+      "name": "Dana Delany",
+      "roles": [
+        "Andrea Beaumont"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000952",
+      "name": "Hart Bochner",
+      "roles": [
+        "Arthur Reeves"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0005078",
+      "name": "Stacy Keach",
+      "roles": [
+        "Phantasm",
+        "Carl Beaumont"
+      ],
+      "notes": "(voice) (as Stacy Keach Jr.)"
+    },
+    {
+      "imdbId": "nm0001820",
+      "name": "Abe Vigoda",
+      "roles": [
+        "Salvatore Valestra"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0588241",
+      "name": "Dick Miller",
+      "roles": [
+        "Chuckie Sol"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0752636",
+      "name": "John P. Ryan",
+      "roles": [
+        "Buzz Bronski"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0956544",
+      "name": "Efrem Zimbalist Jr.",
+      "roles": [
+        "Alfred"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0368561",
+      "name": "Bob Hastings",
+      "roles": [
+        "Commissioner Gordon"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0182456",
+      "name": "Robert Costanzo",
+      "roles": [
+        "Detective Bullock"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000434",
+      "name": "Mark Hamill",
+      "roles": [
+        "The Joker"
+      ],
+      "notes": "(voice)"
+    },
     {
       "imdbId": "nm0236185",
       "name": "Jane Downs",
@@ -64,7 +161,8 @@
       "name": "Vernee Watson",
       "roles": [
         "Additional Voices"
-      ]
+      ],
+      "notes": "(as Vernee Watson-Johnson)"
     },
     {
       "imdbId": "nm0318027",
@@ -146,6 +244,11 @@
       "imdbId": "nm0004170",
       "name": "Bob Kane",
       "notes": "created by: Batman"
+    },
+    {
+      "imdbId": "nm0277730",
+      "name": "Bill Finger",
+      "notes": "created by: Batman (uncredited)"
     }
   ],
   "runtimeMinutes": 76

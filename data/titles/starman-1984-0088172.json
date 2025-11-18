@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -95,14 +96,16 @@
       "name": "Sean Stanek",
       "roles": [
         "Hot Rodder"
-      ]
+      ],
+      "notes": "(as Sean Faro)"
     },
     {
       "imdbId": "nm0002668",
       "name": "George 'Buck' Flower",
       "roles": [
         "Cook"
-      ]
+      ],
+      "notes": "(as Buck Flower)"
     },
     {
       "imdbId": "nm0072161",
@@ -137,7 +140,8 @@
       "name": "James Deeth",
       "roles": [
         "S-61 Pilot"
-      ]
+      ],
+      "notes": "(as Jim Deeth)"
     },
     {
       "imdbId": "nm0199830",

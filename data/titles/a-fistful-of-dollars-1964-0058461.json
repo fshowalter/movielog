@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001466",
-      "name": "Sergio Leone"
+      "name": "Sergio Leone",
+      "notes": "(as Bob Robertson)"
     }
   ],
   "performers": [
@@ -41,28 +42,32 @@
       "name": "Gian Maria Volontè",
       "roles": [
         "Ramón Rojo"
-      ]
+      ],
+      "notes": "(as John Wells, Johnny Wels)"
     },
     {
       "imdbId": "nm0525742",
       "name": "Wolfgang Lukschy",
       "roles": [
         "John Baxter"
-      ]
+      ],
+      "notes": "(as W. Lukschy)"
     },
     {
       "imdbId": "nm0750482",
       "name": "Sieghardt Rupp",
       "roles": [
         "Esteban Rojo"
-      ]
+      ],
+      "notes": "(as S. Rupp)"
     },
     {
       "imdbId": "nm0250905",
       "name": "Joseph Egger",
       "roles": [
         "Piripero"
-      ]
+      ],
+      "notes": "(as Joe Edger)"
     },
     {
       "imdbId": "nm8746554",
@@ -77,49 +82,56 @@
       "name": "José Calvo",
       "roles": [
         "Silvanito"
-      ]
+      ],
+      "notes": "(as Jose Calvo)"
     },
     {
       "imdbId": "nm0523597",
       "name": "Margarita Lozano",
       "roles": [
         "Consuelo Baxter"
-      ]
+      ],
+      "notes": "(as Margherita Lozano)"
     },
     {
       "imdbId": "nm0554607",
       "name": "Daniel Martín",
       "roles": [
         "Julián"
-      ]
+      ],
+      "notes": "(as Daniel Martin)"
     },
     {
       "imdbId": "nm0824934",
       "name": "Benito Stefanelli",
       "roles": [
         "Rubio"
-      ]
+      ],
+      "notes": "(as Benny Reeves)"
     },
     {
       "imdbId": "nm0103828",
       "name": "Mario Brega",
       "roles": [
         "Chico"
-      ]
+      ],
+      "notes": "(as Richard Stuyvesant)"
     },
     {
       "imdbId": "nm0139206",
       "name": "Bruno Carotenuto",
       "roles": [
         "Antonio Baxter"
-      ]
+      ],
+      "notes": "(as Carol Brown)"
     },
     {
       "imdbId": "nm0759757",
       "name": "Aldo Sambrell",
       "roles": [
         "Rojo gang member"
-      ]
+      ],
+      "notes": "(as Aldo Sambreli)"
     }
   ],
   "writers": [
@@ -157,6 +169,31 @@
       "imdbId": "nm0001466",
       "name": "Sergio Leone",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0223964",
+      "name": "Fernando Di Leo",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0452878",
+      "name": "Ryûzô Kikushima",
+      "notes": "screenplay \"Yojimbo\" (uncredited)"
+    },
+    {
+      "imdbId": "nm0000041",
+      "name": "Akira Kurosawa",
+      "notes": "screenplay \"Yojimbo\" (uncredited)"
+    },
+    {
+      "imdbId": "nm0856319",
+      "name": "Duccio Tessari",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0884547",
+      "name": "Tonino Valerii",
+      "notes": "screenplay (uncredited)"
     }
   ],
   "runtimeMinutes": 99

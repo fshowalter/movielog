@@ -17,19 +17,23 @@
   "directors": [
     {
       "imdbId": "nm0706182",
-      "name": "Bob Rafelson"
+      "name": "Bob Rafelson",
+      "notes": "(segment \"Wet (1995)\")"
     },
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell"
+      "name": "Ken Russell",
+      "notes": "(segment \"The Insatiable Mrs. Kirsch\")"
     },
     {
       "imdbId": "nm0782384",
-      "name": "Susan Seidelman"
+      "name": "Susan Seidelman",
+      "notes": "(segment \"The Dutch Master\")"
     },
     {
       "imdbId": "nm0887708",
-      "name": "Melvin Van Peebles"
+      "name": "Melvin Van Peebles",
+      "notes": "(segment \"Vroom Vroom Vroooom (1995)\")"
     }
   ],
   "performers": [
@@ -48,11 +52,24 @@
       ]
     },
     {
+      "imdbId": "nm0013004",
+      "name": "Anu Agarwal",
+      "roles": [],
+      "notes": "(segment \"The cloud door\") (as Anu Arya Aggarwal)"
+    },
+    {
+      "imdbId": "nm0019463",
+      "name": "Murad Ali",
+      "roles": [],
+      "notes": "(segment \"The cloud door\")"
+    },
+    {
       "imdbId": "nm0029512",
       "name": "Sharon Angela",
       "roles": [
-        "Dorothy \")"
-      ]
+        "Dorothy"
+      ],
+      "notes": "(segment \"The Dutch master\")"
     },
     {
       "imdbId": "nm0053863",
@@ -65,8 +82,37 @@
       "imdbId": "nm0063158",
       "name": "Hetty Baynes",
       "roles": [
-        "Mrs. Kirsch \")"
-      ]
+        "Mrs. Kirsch"
+      ],
+      "notes": "(segment \"The Insatiable Mrs. Kirsch\")"
+    },
+    {
+      "imdbId": "nm0080187",
+      "name": "Vasadeva Bhait",
+      "roles": [],
+      "notes": "(segment \"The cloud door\")"
+    },
+    {
+      "imdbId": "nm0196719",
+      "name": "Bahauddin Dagar",
+      "roles": [],
+      "notes": "(segment \"The cloud door\")"
+    },
+    {
+      "imdbId": "nm0229838",
+      "name": "Gosia Dobrowolska",
+      "roles": [
+        "Sarah"
+      ],
+      "notes": "(segment \"Touch me\")"
+    },
+    {
+      "imdbId": "nm0275913",
+      "name": "David Field",
+      "roles": [
+        "Roderick"
+      ],
+      "notes": "(segment \"Touch me\")"
     },
     {
       "imdbId": "nm1275699",
@@ -76,11 +122,66 @@
       ]
     },
     {
+      "imdbId": "nm0371246",
+      "name": "Ted Hayes",
+      "roles": [],
+      "notes": "(segment \"Vrooom, vrooom, vrooom\")"
+    },
+    {
+      "imdbId": "nm0371824",
+      "name": "Chris Haywood",
+      "roles": [
+        "Claude"
+      ],
+      "notes": "(segment \"Touch me\")"
+    },
+    {
       "imdbId": "nm0397124",
       "name": "Arliss Howard",
       "roles": [
-        "Bruce Lomann \")"
-      ]
+        "Bruce Lomann"
+      ],
+      "notes": "(segment \"Wet\")"
+    },
+    {
+      "imdbId": "nm0652229",
+      "name": "Combat Jack",
+      "roles": [],
+      "notes": "(segment \"Vrooom, vrooom, vrooom\") (as Reggie Osse)"
+    },
+    {
+      "imdbId": "nm0420775",
+      "name": "Asha Jenkins",
+      "roles": [],
+      "notes": "(segment \"Vrooom, vrooom, vrooom\")"
+    },
+    {
+      "imdbId": "nm0440286",
+      "name": "Claudia Karvan",
+      "roles": [
+        "Kristine"
+      ],
+      "notes": "(segment \"Touch me\")"
+    },
+    {
+      "imdbId": "nm0443367",
+      "name": "Norman Kaye",
+      "roles": [
+        "Charles"
+      ],
+      "notes": "(segment \"Touch me\")"
+    },
+    {
+      "imdbId": "nm0452024",
+      "name": "Yusuf Khurram",
+      "roles": [],
+      "notes": "(segment \"The cloud door\")"
+    },
+    {
+      "imdbId": "nm0905126",
+      "name": "Laura Lane",
+      "roles": [],
+      "notes": "(segment \"Vrooom, vrooom, vrooom\")"
     },
     {
       "imdbId": "nm0539300",
@@ -94,13 +195,22 @@
       "name": "Rudolf Martin",
       "roles": [
         "\")"
-      ]
+      ],
+      "notes": "(as Rudolph Martin)"
+    },
+    {
+      "imdbId": "nm0653222",
+      "name": "Barry Otto",
+      "roles": [
+        "Stewart"
+      ],
+      "notes": "(segment \"Touch me\")"
     },
     {
       "imdbId": "nm0664710",
       "name": "Rick Pasqualone",
       "roles": [
-        "Joey \")"
+        "Joey ')"
       ]
     },
     {
@@ -118,18 +228,31 @@
       ]
     },
     {
+      "imdbId": "nm0787838",
+      "name": "Shambhavi",
+      "roles": [],
+      "notes": "(segment \"The cloud door\")"
+    },
+    {
       "imdbId": "nm0791871",
       "name": "Simon Shepherd",
       "roles": [
-        "Narrator \")"
+        "Narrator"
       ]
+    },
+    {
+      "imdbId": "nm0808990",
+      "name": "Kim Smith",
+      "roles": [],
+      "notes": "(segment \"Vrooom, vrooom, vrooom\")"
     },
     {
       "imdbId": "nm0000227",
       "name": "Mira Sorvino",
       "roles": [
-        "Teresa \")"
-      ]
+        "Teresa"
+      ],
+      "notes": "(segment \"The Dutch master\")"
     },
     {
       "imdbId": "nm0866019",
@@ -142,8 +265,9 @@
       "imdbId": "nm0878152",
       "name": "Aida Turturro",
       "roles": [
-        "Kim ')"
-      ]
+        "Kim"
+      ],
+      "notes": "(segment \"The Dutch master\")"
     },
     {
       "imdbId": "nm1277811",
@@ -156,15 +280,17 @@
       "imdbId": "nm0001849",
       "name": "Kathleen Wilhoite",
       "roles": [
-        "Jolene Wolff \")"
-      ]
+        "Jolene Wolff"
+      ],
+      "notes": "(segment \"Wet\")"
     },
     {
       "imdbId": "nm0930326",
       "name": "Cynda Williams",
       "roles": [
-        "Davida Urked \")"
-      ]
+        "Davida Urked"
+      ],
+      "notes": "(segment \"Wet\")"
     },
     {
       "imdbId": "nm0944687",

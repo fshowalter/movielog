@@ -18,15 +18,23 @@
   "directors": [
     {
       "imdbId": "nm0000406",
-      "name": "John Ford"
+      "name": "John Ford",
+      "notes": "(segment \"The Civil War\")"
     },
     {
       "imdbId": "nm0368871",
-      "name": "Henry Hathaway"
+      "name": "Henry Hathaway",
+      "notes": "(segments \"The Rivers\", \"The Plains\", \"The Outlaws\")"
     },
     {
       "imdbId": "nm0550892",
-      "name": "George Marshall"
+      "name": "George Marshall",
+      "notes": "(segment \"The Railroad\")"
+    },
+    {
+      "imdbId": "nm0861703",
+      "name": "Richard Thorpe",
+      "notes": "transitional historical sequences (uncredited)"
     }
   ],
   "performers": [
@@ -168,7 +176,8 @@
       "name": "Harry Morgan",
       "roles": [
         "Gen. Ulysses S. Grant"
-      ]
+      ],
+      "notes": "(as Henry {Harry} Morgan)"
     },
     {
       "imdbId": "nm0728812",
@@ -190,6 +199,14 @@
       "roles": [
         "Confederate Deserter"
       ]
+    },
+    {
+      "imdbId": "nm0000075",
+      "name": "Spencer Tracy",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -197,6 +214,11 @@
       "imdbId": "nm0916139",
       "name": "James R. Webb",
       "notes": "written by (suggested by the series \"How the West Was Won\" which appeared in LIFE magazine)"
+    },
+    {
+      "imdbId": "nm0310775",
+      "name": "John Gay",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 164

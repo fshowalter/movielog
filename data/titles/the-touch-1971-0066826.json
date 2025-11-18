@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000005",
-      "name": "Ingmar Bergman"
+      "name": "Ingmar Bergman",
+      "notes": "a film by"
     }
   ],
   "performers": [
@@ -49,6 +50,12 @@
       ]
     }
   ],
-  "writers": [],
+  "writers": [
+    {
+      "imdbId": "nm0000005",
+      "name": "Ingmar Bergman",
+      "notes": "screenplay (uncredited)"
+    }
+  ],
   "runtimeMinutes": 115
 }

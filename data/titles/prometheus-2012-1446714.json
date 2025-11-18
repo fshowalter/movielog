@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000631",
-      "name": "Ridley Scott"
+      "name": "Ridley Scott",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -111,14 +112,16 @@
       "name": "Vladimir 'Furdo' Furdik",
       "roles": [
         "Mercenary 2"
-      ]
+      ],
+      "notes": "(as Vladimir Furdik)"
     },
     {
       "imdbId": "nm0806905",
       "name": "C.C. Smiff",
       "roles": [
         "Mercenary 3"
-      ]
+      ],
+      "notes": "(as CC Smiff)"
     },
     {
       "imdbId": "nm1438829",
@@ -174,7 +177,8 @@
       "name": "Anil Biltoo",
       "roles": [
         "Linguist Teacher"
-      ]
+      ],
+      "notes": "(as Dr. Anil Biltoo)"
     },
     {
       "imdbId": "nm5082541",
@@ -237,6 +241,78 @@
       "name": "Rhona Croker",
       "roles": [
         "Archaeological Assistant"
+      ]
+    },
+    {
+      "imdbId": "nm5082518",
+      "name": "Wambui Wa-Ngatho",
+      "roles": [
+        "Automated Voice (Swahili)"
+      ],
+      "notes": "(as Wambui Wa Ngatho)"
+    },
+    {
+      "imdbId": "nm5082497",
+      "name": "Wannaporn Rienjang",
+      "roles": [
+        "Automated Voice (Thai)"
+      ],
+      "notes": "(as Wannaporn 'Kay' Rienjang)"
+    },
+    {
+      "imdbId": "nm5082572",
+      "name": "Zed Sevcikova",
+      "roles": [
+        "Automated Voice (Czech)"
+      ]
+    },
+    {
+      "imdbId": "nm5082586",
+      "name": "Sonam Dugdak",
+      "roles": [
+        "Automated Voice (Tibetan)"
+      ]
+    },
+    {
+      "imdbId": "nm5082440",
+      "name": "Reynir Thor Eggertsson",
+      "roles": [
+        "Automated Voice (Icelandic)"
+      ]
+    },
+    {
+      "imdbId": "nm5082583",
+      "name": "Shin-Ichiro Okajima",
+      "roles": [
+        "Automated Voice (Japanese)"
+      ]
+    },
+    {
+      "imdbId": "nm5082468",
+      "name": "Charalambos Dendrinos",
+      "roles": [
+        "Automated Voice (Greek)"
+      ]
+    },
+    {
+      "imdbId": "nm5082527",
+      "name": "Berhane Woldegabriel",
+      "roles": [
+        "Automated Voice (Amharic)"
+      ]
+    },
+    {
+      "imdbId": "nm0941858",
+      "name": "Annie Penn",
+      "roles": [
+        "Ship Computer Voice"
+      ]
+    },
+    {
+      "imdbId": "nm0235960",
+      "name": "Robin Atkin Downes",
+      "roles": [
+        "Ship Computer Voice"
       ]
     }
   ],

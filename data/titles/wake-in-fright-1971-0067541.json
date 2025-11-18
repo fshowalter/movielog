@@ -7,7 +7,9 @@
   "year": "1971",
   "releaseDate": "1971-05-12",
   "countries": [
-    "Australia"
+    "Australia",
+    "United States",
+    "United Kingdom"
   ],
   "genres": [
     "Drama",
@@ -88,7 +90,8 @@
       "name": "Slim DeGrey",
       "roles": [
         "Jarvis"
-      ]
+      ],
+      "notes": "(as Slim De Grey)"
     },
     {
       "imdbId": "nm0218925",
@@ -172,14 +175,16 @@
       "name": "Robert McDarra",
       "roles": [
         "Pig Eyes"
-      ]
+      ],
+      "notes": "(as Bob McDarra)"
     },
     {
       "imdbId": "nm0541396",
       "name": "Carlo Manchini",
       "roles": [
         "Poker Player"
-      ]
+      ],
+      "notes": "(as Carlo Marchini)"
     },
     {
       "imdbId": "nm0721833",
@@ -193,7 +198,8 @@
       "name": "Nelson",
       "roles": [
         "Fighting Kangaroo"
-      ]
+      ],
+      "notes": "(as Nelson-The Fighting Kangaroo)"
     }
   ],
   "writers": [
@@ -206,6 +212,11 @@
       "imdbId": "nm0177146",
       "name": "Kenneth Cook",
       "notes": "based on the novel \"Wake in Fright\" by"
+    },
+    {
+      "imdbId": "nm0467646",
+      "name": "Ted Kotcheff",
+      "notes": "screenplay (uncredited)"
     }
   ],
   "runtimeMinutes": 109

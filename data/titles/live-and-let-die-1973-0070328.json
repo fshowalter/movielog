@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0357891",
-      "name": "Guy Hamilton"
+      "name": "Guy Hamilton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -57,7 +58,8 @@
       "name": "Julius Harris",
       "roles": [
         "Tee Hee"
-      ]
+      ],
+      "notes": "(as Julius W. Harris)"
     },
     {
       "imdbId": "nm0390305",
@@ -169,7 +171,8 @@
       "name": "Brenda Arnau",
       "roles": [
         "Singer"
-      ]
+      ],
+      "notes": "(as B.J. Arnau)"
     }
   ],
   "writers": [
@@ -177,6 +180,11 @@
       "imdbId": "nm0542539",
       "name": "Tom Mankiewicz",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "novel (uncredited)"
     }
   ],
   "runtimeMinutes": 121

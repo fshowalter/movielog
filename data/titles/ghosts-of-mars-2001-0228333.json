@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -174,6 +175,14 @@
       "roles": [
         "Young Woman"
       ]
+    },
+    {
+      "imdbId": "nm0180489",
+      "name": "Charlotte Cornwell",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [

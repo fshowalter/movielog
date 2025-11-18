@@ -19,11 +19,13 @@
   "directors": [
     {
       "imdbId": "nm0414672",
-      "name": "Werner Jacobs"
+      "name": "Werner Jacobs",
+      "notes": "german version"
     },
     {
       "imdbId": "nm0610303",
-      "name": "John Llewellyn Moxey"
+      "name": "John Llewellyn Moxey",
+      "notes": "english language version (as John Moxey)"
     }
   ],
   "performers": [
@@ -130,7 +132,8 @@
       "name": "Nosher Powell",
       "roles": [
         "Red"
-      ]
+      ],
+      "notes": "(as Fred Powell)"
     },
     {
       "imdbId": "nm0677960",
@@ -144,7 +147,8 @@
       "name": "Henry B. Longhurst",
       "roles": [
         "Hotel Porter"
-      ]
+      ],
+      "notes": "(as Henry Longhurst)"
     },
     {
       "imdbId": "nm0086782",
@@ -172,14 +176,16 @@
       "name": "Roy Scammell",
       "roles": [
         "Man in Speedboat"
-      ]
+      ],
+      "notes": "(as Roy Scammel)"
     },
     {
       "imdbId": "nm0798018",
       "name": "Jeff Silk",
       "roles": [
         "Security Man"
-      ]
+      ],
+      "notes": "(as Geoff Silk)"
     },
     {
       "imdbId": "nm0668781",
@@ -194,6 +200,11 @@
       "imdbId": "nm0869935",
       "name": "Harry Alan Towers",
       "notes": "screenplay (as Peter Welbeck)"
+    },
+    {
+      "imdbId": "nm0908624",
+      "name": "Edgar Wallace",
+      "notes": "novel \"The Three Just Man\" (uncredited)"
     }
   ],
   "runtimeMinutes": 91

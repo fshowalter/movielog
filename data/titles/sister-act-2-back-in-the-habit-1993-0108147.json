@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0004886",
-      "name": "Bill Duke"
+      "name": "Bill Duke",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -138,7 +139,8 @@
       "name": "Jennifer Love Hewitt",
       "roles": [
         "Margaret"
-      ]
+      ],
+      "notes": "(as Jennifer 'Love' Hewitt)"
     },
     {
       "imdbId": "nm0436629",
@@ -201,7 +203,8 @@
       "name": "Deondray Gossfield",
       "roles": [
         "Classroom Kid"
-      ]
+      ],
+      "notes": "(as Deondray Gossett)"
     },
     {
       "imdbId": "nm0397292",
@@ -222,21 +225,24 @@
       "name": "Riley Weston",
       "roles": [
         "Classroom Kid"
-      ]
+      ],
+      "notes": "(as a different name)"
     },
     {
       "imdbId": "nm0536281",
       "name": "Deedee Magno Hall",
       "roles": [
         "Classroom Kid"
-      ]
+      ],
+      "notes": "(as Deedee Magno)"
     },
     {
       "imdbId": "nm0540491",
       "name": "Patrick Y. Malone",
       "roles": [
         "Classroom Kid"
-      ]
+      ],
+      "notes": "(as Patrick Malone)"
     },
     {
       "imdbId": "nm0551880",
@@ -327,7 +333,8 @@
       "name": "Susan Johnson",
       "roles": [
         "Choir Nun"
-      ]
+      ],
+      "notes": "(as Susan Johnson-Kehn)"
     },
     {
       "imdbId": "nm0461974",
@@ -358,6 +365,14 @@
       ]
     },
     {
+      "imdbId": "nm1349050",
+      "name": "Andrea Robinson",
+      "roles": [
+        "Sister Mary Robert"
+      ],
+      "notes": "(singing voice)"
+    },
+    {
       "imdbId": "nm0507338",
       "name": "Jenifer Lewis",
       "roles": [
@@ -369,7 +384,8 @@
       "name": "Pamala Tyson",
       "roles": [
         "Vegas Backup Singer #2"
-      ]
+      ],
+      "notes": "(as Pamela Tyson)"
     },
     {
       "imdbId": "nm0114659",
@@ -404,7 +420,8 @@
       "name": "Sebastian La Cause",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Sebastian Lacause)"
     },
     {
       "imdbId": "nm0866912",
@@ -418,7 +435,8 @@
       "name": "M.G. Gong",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Michael Gregory Gong)"
     },
     {
       "imdbId": "nm0874387",
@@ -432,7 +450,8 @@
       "name": "Raymond Del Barrio",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Raymond G. del Barrio)"
     },
     {
       "imdbId": "nm0930600",
@@ -453,7 +472,8 @@
       "name": "Paul Michael Thorpe",
       "roles": [
         "Dancer 'Postman'"
-      ]
+      ],
+      "notes": "(as Paul Thorpe)"
     },
     {
       "imdbId": "nm0312853",
@@ -488,14 +508,16 @@
       "name": "Revalyn T. Golde",
       "roles": [
         "Archdiocese Person #3"
-      ]
+      ],
+      "notes": "(as Revalyn Golde)"
     },
     {
       "imdbId": "nm0926469",
       "name": "Yolanda 'Yo-Yo' Whittaker",
       "roles": [
         "Sondra"
-      ]
+      ],
+      "notes": "(as Yolanda Whitaker)"
     },
     {
       "imdbId": "nm0004886",
@@ -516,7 +538,8 @@
       "name": "Michael Taliferro",
       "roles": [
         "Security Guard"
-      ]
+      ],
+      "notes": "(as Michael 'Bear' Taliferro)"
     },
     {
       "imdbId": "nm0100766",
@@ -621,7 +644,8 @@
       "name": "Erica Campbell",
       "roles": [
         "Iris Choir"
-      ]
+      ],
+      "notes": "(as Erica Atkins)"
     },
     {
       "imdbId": "nm0716222",
@@ -653,11 +677,6 @@
       "imdbId": "nm0556789",
       "name": "Judi Ann Mason",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0397411",
-      "name": "Paul Rudnick",
-      "notes": "based on characters by (as Joseph Howard)"
     }
   ],
   "runtimeMinutes": 107

@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000033",
-      "name": "Alfred Hitchcock"
+      "name": "Alfred Hitchcock",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -94,6 +95,16 @@
       "imdbId": "nm0842485",
       "name": "Jo Swerling",
       "notes": "screen play"
+    },
+    {
+      "imdbId": "nm0372942",
+      "name": "Ben Hecht",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0000033",
+      "name": "Alfred Hitchcock",
+      "notes": "story idea (uncredited)"
     }
   ],
   "runtimeMinutes": 97

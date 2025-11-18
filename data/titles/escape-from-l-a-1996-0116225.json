@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -48,7 +49,8 @@
       "name": "Georges Corraface",
       "roles": [
         "Cuervo Jones"
-      ]
+      ],
+      "notes": "(as George Corraface)"
     },
     {
       "imdbId": "nm0005078",
@@ -177,6 +179,14 @@
       ]
     },
     {
+      "imdbId": "nm0087073",
+      "name": "Kathleen Blanchard",
+      "roles": [
+        "Female Narrator"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0524950",
       "name": "William Luduena",
       "roles": [
@@ -206,16 +216,6 @@
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0000118",
-      "name": "John Carpenter",
-      "notes": "characters and"
-    },
-    {
-      "imdbId": "nm0145309",
-      "name": "Nick Castle",
-      "notes": "characters"
-    },
     {
       "imdbId": "nm0000118",
       "name": "John Carpenter",

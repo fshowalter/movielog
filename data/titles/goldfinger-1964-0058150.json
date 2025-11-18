@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0357891",
-      "name": "Guy Hamilton"
+      "name": "Guy Hamilton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -41,7 +42,8 @@
       "name": "Gert Fröbe",
       "roles": [
         "Auric Goldfinger"
-      ]
+      ],
+      "notes": "(as Gert Frobe)"
     },
     {
       "imdbId": "nm0247881",
@@ -62,7 +64,8 @@
       "name": "Harold Sakata",
       "roles": [
         "Oddjob"
-      ]
+      ],
+      "notes": "(as Harold Sakata {Tosh Togo})"
     },
     {
       "imdbId": "nm0496866",
@@ -181,7 +184,8 @@
       "name": "Robert MacLeod",
       "roles": [
         "Atomic Specialist"
-      ]
+      ],
+      "notes": "(as Robert Macleod)"
     },
     {
       "imdbId": "nm0003499",
@@ -215,6 +219,21 @@
       "imdbId": "nm0214989",
       "name": "Paul Dehn",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "novel (uncredited)"
+    },
+    {
+      "imdbId": "nm0367820",
+      "name": "Johanna Harwood",
+      "notes": "adaptation (uncredited)"
+    },
+    {
+      "imdbId": "nm0558435",
+      "name": "Berkely Mather",
+      "notes": "story (uncredited)"
     }
   ],
   "runtimeMinutes": 110

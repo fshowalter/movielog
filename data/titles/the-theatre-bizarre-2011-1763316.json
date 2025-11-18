@@ -22,31 +22,38 @@
   "directors": [
     {
       "imdbId": "nm0118348",
-      "name": "Douglas Buck"
+      "name": "Douglas Buck",
+      "notes": "(segment \"The Accident\")"
     },
     {
       "imdbId": "nm0320546",
-      "name": "Buddy Giovinazzo"
+      "name": "Buddy Giovinazzo",
+      "notes": "(segment \"I Love You\")"
     },
     {
       "imdbId": "nm0974085",
-      "name": "David Gregory"
+      "name": "David Gregory",
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm0403963",
-      "name": "Karim Hussain"
+      "name": "Karim Hussain",
+      "notes": "(segment \"Vision Stains\")"
     },
     {
       "imdbId": "nm0440948",
-      "name": "Jeremy Kasten"
+      "name": "Jeremy Kasten",
+      "notes": "framing segments"
     },
     {
       "imdbId": "nm0767741",
-      "name": "Tom Savini"
+      "name": "Tom Savini",
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm0822582",
-      "name": "Richard Stanley"
+      "name": "Richard Stanley",
+      "notes": "(segment \"The Mother Of Toads\")"
     }
   ],
   "performers": [
@@ -110,316 +117,359 @@
       "imdbId": "nm0531529",
       "name": "Catriona MacColl",
       "roles": [
-        "Mere Antoinette (segment \"The Mother Of Toads\")"
-      ]
+        "Mere Antoinette"
+      ],
+      "notes": "(segment \"The Mother Of Toads\")"
     },
     {
       "imdbId": "nm3822235",
       "name": "Shane Woodward",
       "roles": [
-        "Martin (segment \"The Mother Of Toads\")"
-      ]
+        "Martin"
+      ],
+      "notes": "(segment \"The Mother Of Toads\")"
     },
     {
       "imdbId": "nm1228240",
       "name": "Victoria Maurette",
       "roles": [
-        "Karina (segment \"The Mother Of Toads\")"
-      ]
+        "Karina"
+      ],
+      "notes": "(segment \"The Mother Of Toads\")"
     },
     {
       "imdbId": "nm0068616",
       "name": "Lisa Belle",
       "roles": [
-        "The Naked Witch (segment \"The Mother Of Toads\")"
-      ]
+        "The Naked Witch"
+      ],
+      "notes": "(segment \"The Mother Of Toads\") (as Lisa Crawford)"
     },
     {
       "imdbId": "nm4004737",
       "name": "Amélie Salomon",
       "roles": [
-        "The Monster (segment \"The Mother Of Toads\")"
-      ]
+        "The Monster"
+      ],
+      "notes": "(segment \"The Mother Of Toads\")"
     },
     {
       "imdbId": "nm0377333",
       "name": "André Hennicke",
       "roles": [
-        "Axel (segment \"I Love You\")"
-      ]
+        "Axel"
+      ],
+      "notes": "(segment \"I Love You\")"
     },
     {
       "imdbId": "nm0025774",
       "name": "Suzan Anbeh",
       "roles": [
-        "Mo (segment \"I Love You\")"
-      ]
+        "Mo"
+      ],
+      "notes": "(segment \"I Love You\")"
     },
     {
       "imdbId": "nm0295227",
       "name": "Harvey Friedman",
-      "roles": [
-        "(segment \"I Love You\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"I Love You\")"
     },
     {
       "imdbId": "nm3256427",
       "name": "Cynthia Barcomi",
       "roles": [
-        "Mo's Sister (segment \"I Love You\")"
-      ]
+        "Mo's Sister"
+      ],
+      "notes": "(segment \"I Love You\")"
     },
     {
       "imdbId": "nm0324311",
       "name": "Christian Goebel",
       "roles": [
-        "Moe's Brother-in-law (segment \"I Love You\")"
-      ]
+        "Moe's Brother-in-law"
+      ],
+      "notes": "(segment \"I Love You\") (as Christian Maria Goebel)"
     },
     {
       "imdbId": "nm0004193",
       "name": "Debbie Rochon",
       "roles": [
-        "Carla (segment \"Wet Dreams\")"
-      ]
+        "Carla"
+      ],
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm0767741",
       "name": "Tom Savini",
       "roles": [
-        "Dr. Maurey (segment \"Wet Dreams\")"
-      ]
+        "Dr. Maurey"
+      ],
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm3869729",
       "name": "James Gill",
       "roles": [
-        "Donnie (segment \"Wet Dreams\")"
-      ]
+        "Donnie"
+      ],
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm4564489",
       "name": "Jodii Christianson",
       "roles": [
-        "Maxine (segment \"Wet Dreams\")"
-      ]
+        "Maxine"
+      ],
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm2535570",
       "name": "Halfbreed Billy Gram",
       "roles": [
-        "Dungeon Master (segment \"Wet Dreams\")"
-      ]
+        "Dungeon Master"
+      ],
+      "notes": "(segment \"Wet Dreams\")"
     },
     {
       "imdbId": "nm4168125",
       "name": "Lena Kleine",
       "roles": [
-        "Mother (segment \"The Accident\")"
-      ]
+        "Mother"
+      ],
+      "notes": "(segment \"The Accident\")"
     },
     {
       "imdbId": "nm3024493",
       "name": "Mélodie Simard",
       "roles": [
-        "Daughter (segment \"The Accident\")"
-      ]
+        "Daughter"
+      ],
+      "notes": "(segment \"The Accident\") (as Melodie Simard)"
     },
     {
       "imdbId": "nm4564476",
       "name": "Jean-Paul Rivière",
       "roles": [
-        "Motorcycle Father (segment \"The Accident\")"
-      ]
+        "Motorcycle Father"
+      ],
+      "notes": "(segment \"The Accident\")"
     },
     {
       "imdbId": "nm4564488",
       "name": "Bruno Decary",
       "roles": [
-        "Motorcycle Son (segment \"The Accident\")"
-      ]
+        "Motorcycle Son"
+      ],
+      "notes": "(segment \"The Accident\") (as Bruno Décary)"
     },
     {
       "imdbId": "nm1503416",
       "name": "Kaniehtiio Horn",
       "roles": [
-        "The Writer (segment \"Vision Stains\")"
-      ]
+        "The Writer"
+      ],
+      "notes": "(segment \"Vision Stains\")"
     },
     {
       "imdbId": "nm2814428",
       "name": "Cynthia Wu-Maheux",
       "roles": [
-        "Junkie Girl (segment \"Vision Stains\")"
-      ]
+        "Junkie Girl"
+      ],
+      "notes": "(segment \"Vision Stains\") (as Cynthia Wu Maheux)"
     },
     {
       "imdbId": "nm1760161",
       "name": "Imogen Haworth",
       "roles": [
-        "Pregnant Woman (segment \"Vision Stains\")"
-      ]
+        "Pregnant Woman"
+      ],
+      "notes": "(segment \"Vision Stains\")"
     },
     {
       "imdbId": "nm1561524",
       "name": "Rachelle Glait",
       "roles": [
-        "Older Homeless Woman (segment \"Vision Stains\")"
-      ]
+        "Older Homeless Woman"
+      ],
+      "notes": "(segment \"Vision Stains\")"
     },
     {
       "imdbId": "nm0412146",
       "name": "Alex Ivanovici",
       "roles": [
-        "Junkie Man (segment \"Vision Stains\")"
-      ]
+        "Junkie Man"
+      ],
+      "notes": "(segment \"Vision Stains\")"
     },
     {
       "imdbId": "nm2797496",
       "name": "Lindsay Goranson",
       "roles": [
-        "Estelle (segment \"Sweets\")"
-      ]
+        "Estelle"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm0011002",
       "name": "Guilford Adams",
       "roles": [
-        "Greg (segment \"Sweets\")"
-      ]
+        "Greg"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm0523344",
       "name": "Lynn Lowry",
       "roles": [
-        "Mikela Da Vinci (segment \"Sweets\")"
-      ]
+        "Mikela Da Vinci"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm2135553",
       "name": "Jessica Remmers",
       "roles": [
-        "Antonia (segment \"Sweets\")"
-      ]
+        "Antonia"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm2233462",
       "name": "Elissa Dowling",
       "roles": [
-        "Subs (segment \"Sweets\")"
-      ]
+        "Subs"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm1296783",
       "name": "Erin Marie Hogan",
       "roles": [
-        "Test Tube Baby (segment \"Sweets\")"
-      ]
+        "Test Tube Baby"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm0334106",
       "name": "Jeff Dylan Graham",
       "roles": [
-        "Buzz (segment \"Sweets\")"
-      ]
+        "Buzz"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4631075",
       "name": "Dave Grave",
       "roles": [
-        "Old Punk (segment \"Sweets\")"
-      ]
+        "Old Punk"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm3988701",
       "name": "Gregg Shore",
       "roles": [
-        "Guitarist (segment \"Sweets\")"
-      ]
+        "Guitarist"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm0722423",
       "name": "Erica Rhodes",
       "roles": [
-        "Cellist (segment \"Sweets\")"
-      ]
+        "Cellist"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm1772537",
       "name": "Tree Carr",
       "roles": [
-        "Kissing Couple (segment \"Sweets\")"
-      ]
+        "Kissing Couple"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4358397",
       "name": "Adam Carr",
       "roles": [
-        "Kissing Couple (segment \"Sweets\")"
-      ]
+        "Kissing Couple"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4503549",
       "name": "Jeffrey Phillip Block",
       "roles": [
-        "Chef (segment \"Sweets\")"
-      ]
+        "Chef"
+      ],
+      "notes": "(segment \"Sweets\") (as Jeffrey Block)"
     },
     {
       "imdbId": "nm1310935",
       "name": "Damon Packard",
       "roles": [
-        "Sous-Chef (segment \"Sweets\")"
-      ]
+        "Sous-Chef"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4411377",
       "name": "Bobby Hacker",
       "roles": [
-        "Restaurant Patron (segment \"Sweets\")"
-      ]
+        "Restaurant Patron"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm5019670",
       "name": "Adam Keese",
       "roles": [
-        "Restaurant Patron (segment \"Sweets\")"
-      ]
+        "Restaurant Patron"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm5020280",
       "name": "Andrew Schwartz",
       "roles": [
-        "Restaurant Patron (segment \"Sweets\")"
-      ]
+        "Restaurant Patron"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4639619",
       "name": "Jill Snyder",
       "roles": [
-        "Restaurant Patron (segment \"Sweets\")"
-      ]
+        "Restaurant Patron"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm3179972",
       "name": "Whitney Moore",
       "roles": [
-        "Restaurant Patron (segment \"Sweets\")"
-      ]
+        "Restaurant Patron"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm3147186",
       "name": "Lorry O'Toole",
       "roles": [
-        "Server #1 (segment \"Sweets\")"
-      ]
+        "Server #1"
+      ],
+      "notes": "(segment \"Sweets\")"
     },
     {
       "imdbId": "nm4641463",
       "name": "Julieta Randall",
       "roles": [
-        "Server #2 (segment \"Sweets\")"
-      ]
+        "Server #2"
+      ],
+      "notes": "(segment \"Sweets\") (as Julietta Randall)"
     }
   ],
   "writers": [

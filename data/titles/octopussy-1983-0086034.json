@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0322515",
-      "name": "John Glen"
+      "name": "John Glen",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -77,7 +78,8 @@
       "name": "Tony Meyer",
       "roles": [
         "Twin Two"
-      ]
+      ],
+      "notes": "(as Anthony Meyer)"
     },
     {
       "imdbId": "nm0005155",
@@ -168,7 +170,8 @@
       "name": "Richard LeParmentier",
       "roles": [
         "U.S. Aide"
-      ]
+      ],
+      "notes": "(as Richard Parmentier)"
     },
     {
       "imdbId": "nm0362557",
@@ -210,14 +213,16 @@
       "name": "Eva Reuber-Staier",
       "roles": [
         "Rublevitch"
-      ]
+      ],
+      "notes": "(as Eva Rueber-Staier)"
     },
     {
       "imdbId": "nm0120116",
       "name": "Jeremy Bulloch",
       "roles": [
         "Smithers"
-      ]
+      ],
+      "notes": "(as Jeremy Bullock)"
     },
     {
       "imdbId": "nm0399979",
@@ -620,6 +625,11 @@
       "imdbId": "nm0933865",
       "name": "Michael G. Wilson",
       "notes": "screen story by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "stories \"Octopussy\" and \"The Property of a Lady\" (uncredited)"
     }
   ],
   "runtimeMinutes": 131

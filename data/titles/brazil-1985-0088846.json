@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0000416",
-      "name": "Terry Gilliam"
+      "name": "Terry Gilliam",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -366,7 +367,8 @@
       "name": "Russell Grant",
       "roles": [
         "Young Gallant at Funeral"
-      ]
+      ],
+      "notes": "(as Russell Keith Grant)"
     },
     {
       "imdbId": "nm0391955",
@@ -380,7 +382,8 @@
       "name": "Lynne Brotchie",
       "roles": [
         "Performer: 'Forces Of Darkness'"
-      ]
+      ],
+      "notes": "(as Lyn Brotchie)"
     },
     {
       "imdbId": "nm1870673",
@@ -422,7 +425,8 @@
       "name": "Noel Butler",
       "roles": [
         "Performer: 'Forces Of Darkness'"
-      ]
+      ],
+      "notes": "(as Noël Butler)"
     },
     {
       "imdbId": "nm0056483",
@@ -496,6 +500,11 @@
       "imdbId": "nm0571650",
       "name": "Charles McKeown",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0023395",
+      "name": "Charles Alverson",
+      "notes": "(uncredited)"
     }
   ]
 }

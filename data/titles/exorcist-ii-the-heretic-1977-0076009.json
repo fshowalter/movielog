@@ -15,7 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0000958",
-      "name": "John Boorman"
+      "name": "John Boorman",
+      "notes": "directed by"
+    },
+    {
+      "imdbId": "nm0657853",
+      "name": "Rospo Pallenberg",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -80,7 +86,8 @@
       "name": "Belinda Beatty",
       "roles": [
         "Liz"
-      ]
+      ],
+      "notes": "(as Belinha Beatty)"
     },
     {
       "imdbId": "nm0692419",
@@ -193,6 +200,11 @@
       "imdbId": "nm0328911",
       "name": "William Goodhart",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0657853",
+      "name": "Rospo Pallenberg",
+      "notes": "(uncredited)"
     }
   ],
   "runtimeMinutes": 117

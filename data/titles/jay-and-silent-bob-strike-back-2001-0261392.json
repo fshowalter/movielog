@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0003620",
-      "name": "Kevin Smith"
+      "name": "Kevin Smith",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -47,6 +48,14 @@
       "roles": [
         "Baby Jay"
       ]
+    },
+    {
+      "imdbId": "nm1130874",
+      "name": "Gavin Brooks",
+      "roles": [
+        "Baby Jay"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0932790",
@@ -95,7 +104,8 @@
       "name": "Brian O'Halloran",
       "roles": [
         "Dante"
-      ]
+      ],
+      "notes": "(as Brian Christopher O'Halloran)"
     },
     {
       "imdbId": "nm0673229",
@@ -167,7 +177,8 @@
       "name": "Carmen Llywelyn",
       "roles": [
         "Beauty"
-      ]
+      ],
+      "notes": "(as Carmen Llywellyn)"
     },
     {
       "imdbId": "nm0002436",
@@ -195,7 +206,8 @@
       "name": "Jennifer Schwalbach Smith",
       "roles": [
         "Missy"
-      ]
+      ],
+      "notes": "(as Jennifer Schwalbach)"
     },
     {
       "imdbId": "nm0005405",
@@ -244,7 +256,8 @@
       "name": "Robert Holtzman",
       "roles": [
         "Cop #4"
-      ]
+      ],
+      "notes": "(as Robert H. Holtzman)"
     },
     {
       "imdbId": "nm0233589",
@@ -337,7 +350,8 @@
       "name": "Scott William Winters",
       "roles": [
         "Clark"
-      ]
+      ],
+      "notes": "(as Scott Winters)"
     },
     {
       "imdbId": "nm0001147",
@@ -408,7 +422,8 @@
       "name": "Ralph B. Meyer",
       "roles": [
         "Receptionist"
-      ]
+      ],
+      "notes": "(as Ralph Meyer)"
     },
     {
       "imdbId": "nm0424682",
@@ -422,14 +437,16 @@
       "name": "Walter Flanagan",
       "roles": [
         "Walt"
-      ]
+      ],
+      "notes": "(as Walter Flannigan)"
     },
     {
       "imdbId": "nm0401945",
       "name": "Renée Humphrey",
       "roles": [
         "Trish"
-      ]
+      ],
+      "notes": "(as Renee Humphrey)"
     },
     {
       "imdbId": "nm0000725",
@@ -440,10 +457,11 @@
     },
     {
       "imdbId": "nm0263880",
-      "name": "Dwight Ewell",
+      "name": "King Mustafa Obafemi",
       "roles": [
         "Hooper"
-      ]
+      ],
+      "notes": "(as Dwight Ewell)"
     },
     {
       "imdbId": "nm0001551",
@@ -478,14 +496,16 @@
       "name": "The Time",
       "roles": [
         "Morris Day and The Time"
-      ]
+      ],
+      "notes": "(as Morris Day and The Time)"
     },
     {
       "imdbId": "nm0206528",
       "name": "Morris Day",
       "roles": [
         "Morris Day - Morris Day and The Time"
-      ]
+      ],
+      "notes": "(as Morris E. Day)"
     },
     {
       "imdbId": "nm0072934",
@@ -506,7 +526,8 @@
       "name": "Garry Johnson",
       "roles": [
         "Garry Johnson - Morris Day and The Time"
-      ]
+      ],
+      "notes": "(as Gary Johnson)"
     },
     {
       "imdbId": "nm0596169",

@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0911093",
-      "name": "Jimmy Wang Yu"
+      "name": "Jimmy Wang Yu",
+      "notes": "(as Yu Wang)"
     }
   ],
   "performers": [
@@ -26,14 +27,16 @@
       "name": "Jimmy Wang Yu",
       "roles": [
         "Lei Ming"
-      ]
+      ],
+      "notes": "(as Yu Wang)"
     },
     {
       "imdbId": "nm0516316",
       "name": "Lo Lieh",
       "roles": [
         "Kitashima"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0684149",
@@ -75,7 +78,8 @@
       "name": "Li Tung",
       "roles": [
         "Lumura"
-      ]
+      ],
+      "notes": "(as Kang Hua)"
     },
     {
       "imdbId": "nm1560037",
@@ -110,12 +114,14 @@
       "name": "Lung Yu",
       "roles": [
         "Greeting student"
-      ]
+      ],
+      "notes": "(as Yu Chung Chieh)"
     },
     {
       "imdbId": "nm2740823",
       "name": "Ho Bao-Hsing",
-      "roles": []
+      "roles": [],
+      "notes": "(as Bao-Hsing Ho)"
     },
     {
       "imdbId": "nm0156449",
@@ -157,17 +163,14 @@
       "name": "Chen Chuan",
       "roles": [
         "Chung-Yi student"
-      ]
+      ],
+      "notes": "(as Chuan Chen)"
     },
     {
       "imdbId": "nm1095832",
       "name": "Chin Chun",
-      "roles": []
-    },
-    {
-      "imdbId": "nm0514960",
-      "name": "Lau Chun-Fai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chun Chin)"
     },
     {
       "imdbId": "nm2389486",
@@ -177,17 +180,20 @@
     {
       "imdbId": "nm0398987",
       "name": "Huang Ha",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ha Huang)"
     },
     {
       "imdbId": "nm2397416",
       "name": "Ling Han",
-      "roles": []
+      "roles": [],
+      "notes": "(as Han Ling)"
     },
     {
       "imdbId": "nm4183765",
       "name": "Fung Hap-So",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsieh-Su Fung)"
     },
     {
       "imdbId": "nm0387360",
@@ -229,13 +235,14 @@
       ]
     },
     {
-      "imdbId": "nm2411718",
-      "name": "Lung Lei",
-      "roles": []
+      "imdbId": "nm0514960",
+      "name": "Chun-Fai Lau",
+      "roles": [],
+      "notes": "(as Lau Chun-Fai)"
     },
     {
-      "imdbId": "nm2384735",
-      "name": "Yun-Wu Li",
+      "imdbId": "nm2411718",
+      "name": "Lung Lei",
       "roles": []
     },
     {
@@ -243,12 +250,19 @@
       "name": "Ho Li-Jen",
       "roles": [
         "Gambler"
-      ]
+      ],
+      "notes": "(as Li-Jen Ho)"
+    },
+    {
+      "imdbId": "nm2384735",
+      "name": "Yun-Wu Li",
+      "roles": []
     },
     {
       "imdbId": "nm1269214",
       "name": "Tze Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lin Tsai)"
     },
     {
       "imdbId": "nm0492325",
@@ -258,7 +272,8 @@
     {
       "imdbId": "nm2389603",
       "name": "Wong Mei",
-      "roles": []
+      "roles": [],
+      "notes": "(as Mei Wong)"
     },
     {
       "imdbId": "nm3085023",
@@ -268,14 +283,16 @@
     {
       "imdbId": "nm1794908",
       "name": "Chik Ngai-Hung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yi-Hsiung Chi)"
     },
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
       "roles": [
         "Casino guard"
-      ]
+      ],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0787935",
@@ -285,7 +302,8 @@
     {
       "imdbId": "nm2681519",
       "name": "Chan Siu-Kai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Shao-Chia Chen)"
     },
     {
       "imdbId": "nm2728414",
@@ -315,7 +333,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm3230308",
@@ -327,12 +346,14 @@
       "name": "Ching Wong",
       "roles": [
         "Kume"
-      ]
+      ],
+      "notes": "(as Tsing Wang)"
     },
     {
       "imdbId": "nm0939327",
       "name": "Shu-Tong Wong",
-      "roles": []
+      "roles": [],
+      "notes": "(as Shu-Tang Huang)"
     },
     {
       "imdbId": "nm3114260",
@@ -374,7 +395,7 @@
     {
       "imdbId": "nm0911093",
       "name": "Jimmy Wang Yu",
-      "notes": "writer (as Yu Wang)"
+      "notes": "(as Yu Wang)"
     }
   ],
   "runtimeMinutes": 90

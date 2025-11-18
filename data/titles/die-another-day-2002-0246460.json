@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0848414",
-      "name": "Lee Tamahori"
+      "name": "Lee Tamahori",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -104,7 +105,8 @@
       "name": "Michael Gor",
       "roles": [
         "Vlad"
-      ]
+      ],
+      "notes": "(as Michael Gorevoy)"
     },
     {
       "imdbId": "nm0538692",
@@ -230,7 +232,8 @@
       "name": "Sarllya",
       "roles": [
         "Korean Scorpion Guard"
-      ]
+      ],
+      "notes": "(as Tymarah)"
     },
     {
       "imdbId": "nm0201696",
@@ -283,11 +286,6 @@
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0001220",
-      "name": "Ian Fleming",
-      "notes": "characters"
-    },
     {
       "imdbId": "nm0701031",
       "name": "Neal Purvis",

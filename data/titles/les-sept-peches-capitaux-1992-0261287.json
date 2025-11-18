@@ -16,31 +16,38 @@
   "directors": [
     {
       "imdbId": "nm0282738",
-      "name": "Beatriz Flores Silva"
+      "name": "Beatriz Flores Silva",
+      "notes": "(segment \"L'Honnêteté\")"
     },
     {
       "imdbId": "nm0285090",
-      "name": "Frédéric Fonteyne"
+      "name": "Frédéric Fonteyne",
+      "notes": "(segment \"La Modestie\")"
     },
     {
       "imdbId": "nm0494467",
-      "name": "Yvan Le Moine"
+      "name": "Yvan Le Moine",
+      "notes": "(segment \"La Pureté\")"
     },
     {
       "imdbId": "nm0581482",
-      "name": "Geneviève Mersch"
+      "name": "Geneviève Mersch",
+      "notes": "(segment \"Le Courage\")"
     },
     {
       "imdbId": "nm0719348",
-      "name": "Pierre-Paul Renders"
+      "name": "Pierre-Paul Renders",
+      "notes": "(segment \"La Tendresse\")"
     },
     {
       "imdbId": "nm0810564",
-      "name": "Olivier Smolders"
+      "name": "Olivier Smolders",
+      "notes": "(segment \"L'Espérance\") / additional segments"
     },
     {
       "imdbId": "nm0951484",
-      "name": "Pascal Zabus"
+      "name": "Pascal Zabus",
+      "notes": "(segment \"La Pauvreté\")"
     }
   ],
   "performers": [
@@ -111,99 +118,113 @@
       "imdbId": "nm0678982",
       "name": "Michel Peyrelon",
       "roles": [
-        "Le Riche (segment \"La Pauvreté\")"
-      ]
+        "Le Riche"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm7219572",
       "name": "Ania Guedroitz",
       "roles": [
-        "La Riche (segment \"La Pauvreté\")"
-      ]
+        "La Riche"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm0552912",
       "name": "Philippe Martin",
       "roles": [
-        "Le Pauvre (segment \"La Pauvreté\")"
-      ]
+        "Le Pauvre"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm0062919",
       "name": "Marie-Christine Bayens",
       "roles": [
-        "La Pauvre (segment \"La Pauvreté\")"
-      ]
+        "La Pauvre"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm0496239",
       "name": "Renaud Leclercq",
       "roles": [
-        "Jonathan (segment \"La Pauvreté\")"
-      ]
+        "Jonathan"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm0885555",
       "name": "Kim Van Acoleyen",
       "roles": [
-        "Martine (segment \"La Pauvreté\")"
-      ]
+        "Martine"
+      ],
+      "notes": "(segment \"La Pauvreté\")"
     },
     {
       "imdbId": "nm4555930",
       "name": "Pascaline Crêvecoeur",
       "roles": [
-        "Enfant (segment \"Le Courage\")"
-      ]
+        "Enfant"
+      ],
+      "notes": "(segment \"Le Courage\")"
     },
     {
       "imdbId": "nm0753737",
       "name": "Jérémie Renier",
       "roles": [
-        "Figurant (segment \"L'Honnêteté\")"
-      ]
+        "Figurant"
+      ],
+      "notes": "(segment \"L'Honnêteté\")"
     },
     {
       "imdbId": "nm0244770",
       "name": "Marie-Ange Dutheil",
       "roles": [
-        "Gloria (segment \"L'Honnêteté\")"
-      ]
+        "Gloria"
+      ],
+      "notes": "(segment \"L'Honnêteté\")"
     },
     {
       "imdbId": "nm0083920",
       "name": "Daniela Bisconti",
       "roles": [
-        "Gloria Jeune (segment \"L'Honnêteté\")"
-      ]
+        "Gloria Jeune"
+      ],
+      "notes": "(segment \"L'Honnêteté\")"
     },
     {
       "imdbId": "nm1570349",
       "name": "Guy Dessent",
       "roles": [
-        "Antoine Enfant (segment \"L'Honnêteté\")"
-      ]
+        "Antoine Enfant"
+      ],
+      "notes": "(segment \"L'Honnêteté\")"
     },
     {
       "imdbId": "nm0077781",
       "name": "Muriel Bersy",
       "roles": [
-        "Fêtarde (segment \"La Pureté\")"
-      ]
+        "Fêtarde"
+      ],
+      "notes": "(segment \"La Pureté\")"
     },
     {
       "imdbId": "nm0782040",
       "name": "Mil Seghers",
       "roles": [
-        "Joseph Meldegem (segment \"La Modestie\")"
-      ]
+        "Joseph Meldegem"
+      ],
+      "notes": "(segment \"La Modestie\")"
     },
     {
       "imdbId": "nm0944969",
       "name": "Lotfi Yahya Jedidi",
       "roles": [
-        "L'Homme-Poisson (segment \"La Tendresse\")"
-      ]
+        "L'Homme-Poisson"
+      ],
+      "notes": "(segment \"La Tendresse\")"
     }
   ],
   "writers": [],

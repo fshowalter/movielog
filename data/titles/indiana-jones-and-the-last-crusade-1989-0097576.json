@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0000229",
-      "name": "Steven Spielberg"
+      "name": "Steven Spielberg",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -127,7 +128,8 @@
       "name": "Isla Blair",
       "roles": [
         "Mrs. Donovan"
-      ]
+      ],
+      "notes": "(as Mrs. Glover)"
     },
     {
       "imdbId": "nm0229943",
@@ -162,7 +164,8 @@
       "name": "Vince Deadrick Sr.",
       "roles": [
         "Rough Rider"
-      ]
+      ],
+      "notes": "(as Vince Deadrick)"
     },
     {
       "imdbId": "nm0587185",
@@ -330,7 +333,8 @@
       "name": "Nina Armstrong",
       "roles": [
         "Flower Girl"
-      ]
+      ],
+      "notes": "(as Nina Almond)"
     }
   ],
   "writers": [
@@ -348,16 +352,6 @@
       "imdbId": "nm0583675",
       "name": "Menno Meyjes",
       "notes": "story"
-    },
-    {
-      "imdbId": "nm0000184",
-      "name": "George Lucas",
-      "notes": "characters and"
-    },
-    {
-      "imdbId": "nm0442241",
-      "name": "Philip Kaufman",
-      "notes": "characters"
     }
   ],
   "runtimeMinutes": 127
