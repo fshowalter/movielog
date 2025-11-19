@@ -145,13 +145,12 @@ def _parse_countries(page_data: UntypedJson) -> list[str]:
 
 
 def _parse_aggregate_rating(page_data: UntypedJson) -> float:
-    aggregate_rating = get_nested_value(
-        page_data, ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "aggregateRating"]
+    return float(
+        get_nested_value(
+            page_data,
+            ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "aggregateRating"],
+        )
     )
-
-    assert isinstance(aggregate_rating, float)
-
-    return aggregate_rating
 
 
 def _parse_vote_count(page_data: UntypedJson) -> int:

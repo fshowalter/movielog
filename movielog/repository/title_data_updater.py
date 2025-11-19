@@ -4,7 +4,12 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import imdb_http_title, json_titles, json_watchlist_people
+from movielog.repository import (
+    imdb_http_title,
+    json_imdb_ratings,
+    json_titles,
+    json_watchlist_people,
+)
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
@@ -105,30 +110,30 @@ def _build_json_writer(writer: imdb_http_title.NameCredit) -> json_titles.JsonWr
 
 
 def _update_json_title_with_title_page_data(
-    json_title: json_titles.JsonTitle, watchlist_performer_ids: set[str]
+    json_title: json_titles.JsonTitle,
+    title_page: imdb_http_title.TitlePage,
+    watchlist_performer_ids: set[str],
 ) -> None:
-    imdb_title_page = imdb_http_title.get_title_page(json_title["imdbId"])
-
     if json_title["imdbId"] not in ValidTitles:
-        json_title["title"] = imdb_title_page.title
+        json_title["title"] = title_page.title
 
-    json_title["originalTitle"] = imdb_title_page.original_title
-    json_title["year"] = str(imdb_title_page.year)
+    json_title["originalTitle"] = title_page.original_title
+    json_title["year"] = str(title_page.year)
     json_title["sortTitle"] = json_titles.generate_sort_title(
         json_title["title"], json_title["year"]
     )
-    json_title["runtimeMinutes"] = imdb_title_page.runtime_minutes
+    json_title["runtimeMinutes"] = title_page.runtime_minutes
 
-    json_title["releaseDate"] = imdb_title_page.release_date
-    json_title["countries"] = imdb_title_page.countries
-    json_title["genres"] = imdb_title_page.genres
+    json_title["releaseDate"] = title_page.release_date
+    json_title["countries"] = title_page.countries
+    json_title["genres"] = title_page.genres
     json_title["directors"] = [
-        _build_json_director(director) for director in imdb_title_page.credits["director"]
+        _build_json_director(director) for director in title_page.credits["director"]
     ]
 
     json_title["performers"] = [
         _build_json_performer(performer)
-        for performer in imdb_title_page.credits["performer"]
+        for performer in title_page.credits["performer"]
         if _credit_notes_are_valid_for_performer(
             imdb_title_id=json_title["imdbId"],
             imdb_person_id=performer.imdb_id,
@@ -138,7 +143,7 @@ def _update_json_title_with_title_page_data(
     ]
     json_title["writers"] = [
         _build_json_writer(writer)
-        for writer in imdb_title_page.credits["writer"]
+        for writer in title_page.credits["writer"]
         if _credit_notes_are_valid_for_writer(writer.notes)
     ]
 
@@ -182,9 +187,13 @@ def update_from_imdb_pages() -> None:
         if not isinstance(performer["imdbId"], list)
     }
 
-    with Path.open(
-        progress_file_path, "r+" if progress_file_path.exists() else "w+"
-    ) as progress_file:
+    ratings = json_imdb_ratings.deserialize()
+
+    with (
+        Path.open(
+            progress_file_path, "r+" if progress_file_path.exists() else "w+"
+        ) as progress_file,
+    ):
         progress_file.seek(0)
         processed_slugs = progress_file.read().splitlines()
 
@@ -213,10 +222,19 @@ def update_from_imdb_pages() -> None:
 
             updated_title = deepcopy(json_title)
 
-            _update_json_title_with_title_page_data(updated_title, watchlist_performer_ids)
+            title_page = imdb_http_title.get_title_page(json_title["imdbId"])
+            _update_json_title_with_title_page_data(
+                updated_title, title_page, watchlist_performer_ids
+            )
+
+            ratings["titles"][title_page.imdb_id] = json_imdb_ratings.JsonRating(
+                votes=title_page.vote_count, rating=title_page.aggregate_rating
+            )
 
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
+
+            json_imdb_ratings.serialize(ratings)
             progress_file.write("{}\n".format(json_title["slug"]))
 
     Path.unlink(progress_file_path)
@@ -228,7 +246,8 @@ def update_title(json_title: json_titles.JsonTitle, watchlist_performer_ids: set
 
     updated_json_title = deepcopy(json_title)
     _update_json_title_with_db_data(updated_json_title)
-    _update_json_title_with_title_page_data(updated_json_title, watchlist_performer_ids)
+    title_page = imdb_http_title.get_title_page(json_title["imdbId"])
+    _update_json_title_with_title_page_data(updated_json_title, title_page, watchlist_performer_ids)
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
