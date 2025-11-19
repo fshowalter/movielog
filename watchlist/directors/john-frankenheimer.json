@@ -109,11 +109,13 @@
     },
     {
       "imdbId": "tt0109053",
-      "title": "Against the Wall (1994) (TV)"
+      "title": "Against the Wall (1994)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0109351",
-      "title": "The Burning Season: The Chico Mendes Story (1994) (TV)"
+      "title": "The Burning Season: The Chico Mendes Story (1994)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0116654",
@@ -129,7 +131,15 @@
     },
     {
       "imdbId": "tt0218505",
-      "title": "Path to War (2002) (TV)"
+      "title": "Path to War (2002)",
+      "titleType": "TV Movie"
+    },
+    {
+      "imdbId": "tt12958702",
+      "title": "The Hire (2003)",
+      "attributes": [
+        "segment \"Ambush\""
+      ]
     }
   ],
   "excludedTitles": []

@@ -7,15 +7,15 @@ from typing import Literal, TypedDict, cast, get_args
 from slugify import slugify
 
 from movielog.repository import watchlist_serializer
-from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonTitle
+from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonWatchlistTitle
 
 
 class JsonWatchlistPerson(TypedDict):
     name: str
     slug: str
     imdbId: str | list[str]
-    titles: list[JsonTitle]
-    excludedTitles: list[JsonExcludedTitle]
+    titles: list[JsonWatchlistTitle]
+    excludedTitles: list[JsonWatchlistTitle]
 
 
 Kind = Literal[
@@ -52,7 +52,7 @@ def read_all(kind: Kind) -> Iterable[JsonWatchlistPerson]:
         yield (cast(JsonWatchlistPerson, json.load(json_file)))
 
 
-def title_sort_key(title: JsonTitle | JsonExcludedTitle) -> str:
+def title_sort_key(title: JsonWatchlistTitle | JsonExcludedTitle) -> str:
     year_sort_regex = r"\(\d*\)"
 
     year = re.search(year_sort_regex, title["title"])

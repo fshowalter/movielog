@@ -97,11 +97,13 @@
     },
     {
       "imdbId": "tt0095132",
-      "title": "Il fantasma di Sodoma (1988) (V)"
+      "title": "Il fantasma di Sodoma (1988)",
+      "titleType": "Video"
     },
     {
       "imdbId": "tt0095941",
-      "title": "Touch of Death (1988) (V)"
+      "title": "Touch of Death (1988)",
+      "titleType": "Video"
     },
     {
       "imdbId": "tt0096511",
@@ -109,11 +111,13 @@
     },
     {
       "imdbId": "tt0097021",
-      "title": "The House of Clocks (1989) (TV)"
+      "title": "The House of Clocks (1989)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0097221",
-      "title": "The Sweet House of Horrors (1989) (TV)"
+      "title": "The Sweet House of Horrors (1989)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0094997",
@@ -124,12 +128,24 @@
       "title": "A Cat in the Brain (1990)"
     },
     {
+      "imdbId": "tt0273255",
+      "title": "Hansel e Gretel (1990)",
+      "titleType": "TV Movie",
+      "attributes": [
+        "uncredited"
+      ]
+    },
+    {
       "imdbId": "tt0100881",
       "title": "Voices from Beyond (1991)"
     },
     {
       "imdbId": "tt0101760",
-      "title": "Le porte del silenzio (1991) (V)"
+      "title": "Le porte del silenzio (1991)",
+      "titleType": "Video",
+      "attributes": [
+        "as H. Simon Kittay"
+      ]
     }
   ],
   "excludedTitles": [
@@ -235,11 +251,12 @@
     },
     {
       "imdbId": "tt0072771",
-      "title": "Dracula in the Provinces (1975)"
+      "title": "Dracula in the Provinces (1975)",
+      "reason": "comedy"
     },
     {
       "imdbId": "tt0075101",
-      "title": "La pretora (1976)",
+      "title": "My Sister in Law (1976)",
       "reason": "comedy"
     }
   ]

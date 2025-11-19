@@ -5,7 +5,8 @@
   "titles": [
     {
       "imdbId": "tt0059258",
-      "title": "Having a Wild Weekend (1965)"
+      "title": "Having a Wild Weekend (1965)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0062138",
@@ -29,7 +30,8 @@
     },
     {
       "imdbId": "tt0076009",
-      "title": "Exorcist II: The Heretic (1977)"
+      "title": "Exorcist II: The Heretic (1977)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0082348",
@@ -75,7 +77,8 @@
   "excludedTitles": [
     {
       "imdbId": "tt4372024",
-      "title": "The Concrete Vision (1962) (TV)",
+      "title": "The Concrete Vision (1962)",
+      "titleType": "TV Movie",
       "reason": "documentary"
     }
   ]

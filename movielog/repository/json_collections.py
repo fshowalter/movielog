@@ -4,17 +4,21 @@ from pathlib import Path
 from typing import TypedDict, cast
 
 from movielog.repository import slugifier
-from movielog.repository.json_watchlist_titles import JsonTitle
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
 FOLDER_NAME = "collections"
 
 
+class JsonCollectionTitle(TypedDict):
+    imdbId: str
+    title: str
+
+
 class JsonCollection(TypedDict):
     name: str
     slug: str
-    titles: list[JsonTitle]
+    titles: list[JsonCollectionTitle]
     description: str
 
 
@@ -43,7 +47,7 @@ def add_title(collection_slug: str, imdb_id: str, full_title: str) -> JsonCollec
         if json_collection["slug"] == collection_slug
     )
 
-    json_collection["titles"].append(JsonTitle(imdbId=imdb_id, title=full_title))
+    json_collection["titles"].append(JsonCollectionTitle(imdbId=imdb_id, title=full_title))
 
     serialize(json_collection)
 

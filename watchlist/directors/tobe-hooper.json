@@ -16,8 +16,24 @@
       "title": "Eaten Alive (1976)"
     },
     {
+      "imdbId": "tt0079027",
+      "title": "The Dark (1979)",
+      "attributes": [
+        "uncredited"
+      ],
+      "role": "replaced by John Cardos"
+    },
+    {
       "imdbId": "tt0082427",
       "title": "The Funhouse (1981)"
+    },
+    {
+      "imdbId": "tt0084854",
+      "title": "Venom (1981)",
+      "attributes": [
+        "uncredited"
+      ],
+      "role": "replaced by Piers Haggard"
     },
     {
       "imdbId": "tt0084516",
@@ -25,7 +41,8 @@
     },
     {
       "imdbId": "tt0089489",
-      "title": "Lifeforce (1985)"
+      "title": "Lifeforce (1985)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0091276",
@@ -41,11 +58,17 @@
     },
     {
       "imdbId": "tt0099822",
-      "title": "I'm Dangerous Tonight (1990) (TV)"
+      "title": "I'm Dangerous Tonight (1990)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0106449",
-      "title": "Body Bags (1993) (TV)"
+      "title": "Body Bags (1993)",
+      "titleType": "TV Movie",
+      "attributes": [
+        "segment \"Eye\""
+      ],
+      "role": "directed by"
     },
     {
       "imdbId": "tt0108350",
@@ -57,15 +80,21 @@
     },
     {
       "imdbId": "tt0198309",
-      "title": "The Apartment Complex (1999) (TV)"
+      "title": "The Apartment Complex (1999)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0203425",
-      "title": "Crocodile (2000) (V)"
+      "title": "Crocodile (2000)",
+      "titleType": "Video"
     },
     {
       "imdbId": "tt0328723",
-      "title": "Shadow Realm (2002) (TV)"
+      "title": "Shadow Realm (2002)",
+      "titleType": "TV Movie",
+      "attributes": [
+        "segment \"The Maze\""
+      ]
     },
     {
       "imdbId": "tt0367153",
@@ -88,18 +117,15 @@
     },
     {
       "imdbId": "tt13496738",
-      "title": "The Nightmare Begins Again (1993) (V)",
+      "title": "The Nightmare Begins Again (1993)",
+      "titleType": "Video",
       "reason": "bootleg fan edit?"
     },
     {
       "imdbId": "tt7235162",
-      "title": "Phone Calls from the Dead (1996) (TV)",
+      "title": "Phone Calls from the Dead (1996)",
+      "titleType":"TV Movie",
       "reason": "doesn't exist?"
-    },
-    {
-      "imdbId": "tt3087848",
-      "title": "Destiny Express Redux (2009)",
-      "reason": "only exists in his novel, Midnight Movie"
     }
   ]
 }

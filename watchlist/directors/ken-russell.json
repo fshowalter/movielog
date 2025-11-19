@@ -9,7 +9,8 @@
     },
     {
       "imdbId": "tt0060546",
-      "title": "Isadora (1966) (TV)"
+      "title": "Isadora (1966)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0061405",
@@ -29,7 +30,8 @@
     },
     {
       "imdbId": "tt0066993",
-      "title": "The Devils (1971)"
+      "title": "The Devils (1971)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0069225",
@@ -61,15 +63,20 @@
     },
     {
       "imdbId": "tt2087757",
-      "title": "Faust (1985) (TV)"
+      "title": "Faust (1985)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0091142",
-      "title": "Gothic (1986)"
+      "title": "Gothic (1986)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0092580",
-      "title": "Aria (1987)"
+      "title": "Aria (1987)",
+      "attributes": [
+        "segment \"Nessun dorma\""
+      ]
     },
     {
       "imdbId": "tt0095488",
@@ -80,8 +87,14 @@
       "title": "Salome's Last Dance (1988)"
     },
     {
+      "imdbId": "tt0096982",
+      "title": "A British Picture (1989)",
+      "titleType": "TV Movie"
+    },
+    {
       "imdbId": "tt0097859",
-      "title": "Il Mefistofele (1989) (TV)"
+      "title": "Il Mefistofele (1989)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0098165",
@@ -89,15 +102,21 @@
     },
     {
       "imdbId": "tt0100700",
-      "title": "The Strange Affliction of Anton Bruckner (1990) (TV)"
+      "title": "The Strange Affliction of Anton Bruckner (1990)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0100949",
-      "title": "Women and Men: Stories of Seduction (1990) (TV)"
+      "title": "Women and Men: Stories of Seduction (1990)",
+      "titleType": "TV Movie",
+      "attributes": [
+        "segment \"Dusk Before Fireworks\""
+      ]
     },
     {
       "imdbId": "tt0102715",
-      "title": "Prisoner of Honor (1991) (TV)"
+      "title": "Prisoner of Honor (1991)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0103253",
@@ -105,27 +124,35 @@
     },
     {
       "imdbId": "tt0105339",
-      "title": "The Secret Life of Arnold Bax (1992) (TV)"
+      "title": "The Secret Life of Arnold Bax (1992)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0213101",
-      "title": "The Mystery of Dr Martinu (1993) (TV)"
+      "title": "The Mystery of Dr Martinu (1993)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0756354",
-      "title": "Treasure Island (1995) (TV)"
+      "title": "Treasure Island (1995)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0113826",
-      "title": "Mindbender (1996) (TV)"
+      "title": "Mindbender (1996)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0117827",
-      "title": "Tales of Erotica (1996)"
+      "title": "Tales of Erotica (1996)",
+      "attributes": [
+        "segment \"The Insatiable Mrs. Kirsch\""
+      ]
     },
     {
       "imdbId": "tt0150363",
-      "title": "Dogboys (1998) (TV)"
+      "title": "Dogboys (1998)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0268295",
@@ -133,24 +160,28 @@
     },
     {
       "imdbId": "tt0478303",
-      "title": "Trapped Ashes (2006)"
+      "title": "Trapped Ashes (2006)",
+      "attributes": [
+        "segment \"The Girl With Golden Breasts\""
+      ]
     }
   ],
   "excludedTitles": [
     {
       "imdbId": "tt6358750",
-      "title": "Now That's What I Call Music 6 (1985) (V)",
-      "reason": "music video anthology"
-    },
-    {
-      "imdbId": "tt0096982",
-      "title": "A British Picture (1989) (TV)",
-      "reason": "documentary"
+      "title": "Now That's What I Call Music 6 (1985)",
+      "titleType": "Video",
+      "role": "video \"She's So Beautiful\"",
+      "reason": "music video"
     },
     {
       "imdbId": "tt0808150",
-      "title": "Andrew Lloyd Webber: The Premiere Collection Encore (1992) (V)",
-      "reason": "music video anthology"
+      "title": "Andrew Lloyd Webber: The Premiere Collection Encore (1992)",
+      "titleType": "Video",
+      "attributes": [
+        "segments \"The Phantom of the Opera\", \"All I Ask Of You\", \"Wishing You Were Somehow Here Again\", \"The Music of the Night.\""
+      ],
+      "reason": "music video"
     }
   ]
 }

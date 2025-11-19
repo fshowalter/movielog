@@ -11,7 +11,7 @@ from movielog.repository import (
     watchlist_serializer,
 )
 from movielog.repository.imdb_http_person import CreditKind, TitleCredit
-from movielog.repository.json_watchlist_titles import JsonTitle
+from movielog.repository.json_watchlist_titles import JsonWatchlistTitle
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
@@ -21,9 +21,12 @@ def _add_title_page_to_watchlist_person_titles(
     watchlist_person: json_watchlist_people.JsonWatchlistPerson,
 ) -> None:
     watchlist_person["titles"].append(
-        JsonTitle(
+        JsonWatchlistTitle(
             imdbId=title_credit.imdb_id,
             title=title_credit.full_title,
+            titleType=title_credit.title_type,
+            attributes=title_credit.attributes,
+            role=title_credit.role,
         )
     )
 
@@ -69,7 +72,7 @@ def _remove_watchlist_person_titles_not_in_given_title_credits(
         )
 
         for missing_title in missing_titles:
-            watchlist_person[title_kind].remove(missing_title)  # type:ignore
+            watchlist_person[title_kind].remove(missing_title)
             logger.log("Missing title {} removed from {}.", missing_title["title"], title_kind)
 
 
