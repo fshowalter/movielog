@@ -96,6 +96,12 @@ def get_review_ids() -> set[str]:
 
 
 def add_new_titles(new_title_ids: set[str]) -> None:
+    watchlist_performer_ids = {
+        performer["imdbId"]
+        for performer in json_watchlist_people.read_all("performers")
+        if not isinstance(performer["imdbId"], list)
+    }
+
     for index, title_id_to_add in enumerate(new_title_ids):
         logger.log(
             "{}/{} adding title {}...",
@@ -120,7 +126,7 @@ def add_new_titles(new_title_ids: set[str]) -> None:
             writers=[],
         )
 
-        title_data_updater.update_title(new_title)
+        title_data_updater.update_title(new_title, watchlist_performer_ids)
 
 
 def removed_files_marked_for_removal(files_marked_for_removal: list[Path]) -> None:

@@ -23,7 +23,7 @@ def _edge_is_valid_title_for_director(edge: UntypedJson) -> bool:
 def _build_director(
     imdb_id: str,
     session: requests.Session,
-    credit_groupings: UntypedJson,
+    credit_groupings: list[UntypedJson],
 ) -> ImdbPerson:
     director = ImdbPerson(imdb_id=imdb_id, credits=[])
 
@@ -50,7 +50,7 @@ def _build_director(
             "locale": "en-US",
             "order": "DESC",
             "isProPage": False,
-            "category": "amzn1.imdb.concept.name_credit_category.ace5cb4c-8708-4238-9542-04641e7c8171",
+            "category": DIRECTOR_CREDIT_CATEGORY,
         }
 
         query_extensions = {

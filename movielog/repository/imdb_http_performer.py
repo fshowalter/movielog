@@ -11,13 +11,17 @@ from movielog.repository.imdb_http_person import (
 )
 from movielog.utils.get_nested_value import get_nested_value
 
+PEFORMER_CREDIT_CATEGORY = (
+    "amzn1.imdb.concept.name_credit_category.a9ab2a8b-9153-4edb-a27a-7c2346830d77"
+)
 
-def _edge_title_is_not_uncredtied(edge: UntypedJson) -> bool:
+
+def _edge_title_role_attributes_are_valid(edge: UntypedJson) -> bool:
     attributes: list[UntypedJson] = get_nested_value(edge, ["node", "attributes"]) or []
 
     return (
         len(
-            {"uncredited", "voice", "scenes deleted"}.intersection(
+            {"scenes deleted"}.intersection(
                 {attribute.get("text", "").lower() for attribute in attributes}
             )
         )
@@ -26,43 +30,24 @@ def _edge_title_is_not_uncredtied(edge: UntypedJson) -> bool:
 
 
 def _edge_is_valid_title_for_performer(edge: UntypedJson) -> bool:
-    return edge_is_valid_title(edge) & _edge_title_is_not_uncredtied(edge)
+    return edge_is_valid_title(edge) and _edge_title_role_attributes_are_valid(edge)
 
 
 def _build_performer(
     imdb_id: str,
     session: requests.Session,
-    credits_data: UntypedJson,
+    credit_groupings: list[UntypedJson],
 ) -> ImdbPerson:
     performer = ImdbPerson(imdb_id=imdb_id, credits=[])
 
-    credit_key = "actor_credits"
-
     paginated_credits: UntypedJson = next(
         (
-            get_nested_value(credit_group, ["credits"], {})
-            for credit_group in get_nested_value(
-                credits_data,
-                ["data", "name", "releasedCredits"],
-            )
-            if credit_group["category"]["id"] == "actor"
+            get_nested_value(edge, ["node", "credits"], {})
+            for edge in credit_groupings
+            if edge["node"]["grouping"]["groupingId"] == PEFORMER_CREDIT_CATEGORY
         ),
         {},
     )
-
-    if len(get_nested_value(paginated_credits, ["edges"], [])) == 0:
-        paginated_credits = next(
-            (
-                get_nested_value(credit_group, ["credits"], {})
-                for credit_group in get_nested_value(
-                    credits_data,
-                    ["data", "name", "releasedCredits"],
-                )
-                if credit_group["category"]["id"] == "actress"
-            ),
-            {},
-        )
-        credit_key = "actress_credits"
 
     performer.credits.extend(
         title_credit_for_edge(edge=edge)
@@ -70,24 +55,30 @@ def _build_performer(
         if _edge_is_valid_title_for_performer(edge)
     )
 
-    while get_nested_value(paginated_credits, ["pageInfo", "hasNextPage"], default=False):
+    has_next_page = get_nested_value(paginated_credits, ["pageInfo", "hasNextPage"])
+    after = get_nested_value(paginated_credits, ["pageInfo", "endCursor"])
+
+    while has_next_page:
         query_variables = {
-            "after": get_nested_value(paginated_credits, ["pageInfo", "endCursor"]),
-            "id": imdb_id,
+            "after": after,
+            "nameId": imdb_id,
             "includeUserRating": False,
             "locale": "en-US",
+            "order": "DESC",
+            "isProPage": False,
+            "category": PEFORMER_CREDIT_CATEGORY,
         }
 
         query_extensions = {
             "persistedQuery": {
-                "sha256Hash": "4faf04583fbf1fbc7a025e5dffc7abc3486e9a04571898a27a5a1ef59c2965f3",
+                "sha256Hash": "096f555fe586eed2dde6c19293bd623a102b64cc2abc9f1ab6ef0a12b1cd36ec",
                 "version": 1,
             }
         }
 
-        next_page = call_graphql(
+        next_page_data = call_graphql(
             session=session,
-            operation="NameMainFilmographyPaginatedCredits",
+            operation="FilmographyV2Pagination",
             variables=query_variables,
             extensions=query_extensions,
         )
@@ -95,12 +86,17 @@ def _build_performer(
         performer.credits.extend(
             title_credit_for_edge(edge=next_page_edge)
             for next_page_edge in get_nested_value(
-                next_page, ["data", "name", credit_key, "edges"], []
+                next_page_data, ["data", "name", "creditsV2", "edges"], []
             )
             if _edge_is_valid_title_for_performer(next_page_edge)
         )
 
-        paginated_credits = get_nested_value(next_page, ["data", "name", credit_key])
+        has_next_page = get_nested_value(
+            next_page_data, ["data", "name", "creditsV2", "pageInfo", "hasNextPage"]
+        )
+        after = get_nested_value(
+            next_page_data, ["data", "name", "creditsV2", "pageInfo", "endCursor"]
+        )
 
     return performer
 
@@ -108,6 +104,6 @@ def _build_performer(
 def get_performer(imdb_id: str) -> ImdbPerson:
     session = create_session()
 
-    credits_data = get_credits(session=session, imdb_id=imdb_id)
+    credit_groupings = get_credits(session=session, imdb_id=imdb_id)
 
-    return _build_performer(imdb_id=imdb_id, session=session, credits_data=credits_data)
+    return _build_performer(imdb_id=imdb_id, session=session, credit_groupings=credit_groupings)

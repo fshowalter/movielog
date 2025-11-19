@@ -4,7 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import imdb_http_title, json_titles
+from movielog.repository import imdb_http_title, json_titles, json_watchlist_people
 from movielog.repository.datasets import api as datasets_api
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
@@ -13,10 +13,6 @@ from movielog.utils.logging import logger
 AllowedArchiveFootageTitles = {
     "tt0839995",  # Superman II: The Richard Donner Cut
     "tt10045260",  # Exorcist III: Legion
-}
-
-AllowedUncreditedCast = {
-    ("tt0022676", "nm0000007"),  # Big City Blues / Humphrey Bogart
 }
 
 FrozenTitles = {
@@ -69,7 +65,9 @@ def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
     json_title["runtimeMinutes"] = title_row["runtime_minutes"] or 0
 
 
-def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -> None:
+def _update_json_title_with_title_page_data(
+    json_title: json_titles.JsonTitle, watchlist_performer_ids: set[str]
+) -> None:
     imdb_title_page = imdb_http_title.get_title_page(json_title["imdbId"])
 
     json_title["releaseDate"] = imdb_title_page.release_date
@@ -94,6 +92,7 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
             imdb_title_id=json_title["imdbId"],
             imdb_person_id=performer.imdb_id,
             notes=performer.notes,
+            watchlist_performer_ids=watchlist_performer_ids,
         )
     ]
     json_title["writers"] = [
@@ -108,20 +107,17 @@ def _update_json_title_with_title_page_data(json_title: json_titles.JsonTitle) -
 
 
 def _credit_notes_are_valid_for_performer(
-    imdb_title_id: str, imdb_person_id: str, notes: str | None
+    imdb_title_id: str, imdb_person_id: str, notes: str | None, watchlist_performer_ids: set[str]
 ) -> bool:
     if not notes:
         return True
 
     return (
         (("archive footage" not in notes) or (imdb_title_id not in AllowedArchiveFootageTitles))
-        & (
-            ("uncredited" not in notes)
-            or ((imdb_title_id, imdb_person_id) in AllowedUncreditedCast)
-        )
-        & ("scenes deleted" not in notes)
-        & ("based on the comics by" not in notes)
-        & ("based on the Marvel comics by" not in notes)
+        and (("uncredited" not in notes) or (imdb_person_id in watchlist_performer_ids))
+        and ("scenes deleted" not in notes)
+        and ("based on the comics by" not in notes)
+        and ("based on the Marvel comics by" not in notes)
     )
 
 
@@ -142,6 +138,12 @@ def _get_progress_file_path() -> Path:
 def update_from_imdb_pages() -> None:
     processed_slugs = []
     progress_file_path = _get_progress_file_path()
+
+    watchlist_performer_ids = {
+        performer["imdbId"]
+        for performer in json_watchlist_people.read_all("performers")
+        if not isinstance(performer["imdbId"], list)
+    }
 
     with Path.open(
         progress_file_path, "r+" if progress_file_path.exists() else "w+"
@@ -174,7 +176,7 @@ def update_from_imdb_pages() -> None:
 
             updated_title = deepcopy(json_title)
 
-            _update_json_title_with_title_page_data(updated_title)
+            _update_json_title_with_title_page_data(updated_title, watchlist_performer_ids)
 
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
@@ -183,13 +185,13 @@ def update_from_imdb_pages() -> None:
     Path.unlink(progress_file_path)
 
 
-def update_title(json_title: json_titles.JsonTitle) -> None:
+def update_title(json_title: json_titles.JsonTitle, watchlist_performer_ids: set[str]) -> None:
     if json_title["imdbId"] in FrozenTitles:
         return
 
     updated_json_title = deepcopy(json_title)
     _update_json_title_with_db_data(updated_json_title)
-    _update_json_title_with_title_page_data(updated_json_title)
+    _update_json_title_with_title_page_data(updated_json_title, watchlist_performer_ids)
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
