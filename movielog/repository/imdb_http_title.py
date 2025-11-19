@@ -1,5 +1,6 @@
 import json
 from dataclasses import dataclass, field
+from math import floor
 from typing import Any, Literal, get_args
 
 import requests
@@ -32,10 +33,15 @@ class NameCredit:
 class TitlePage:
     imdb_id: str
     credits: dict[CreditKind, list[NameCredit]]
-    full_title: str
+    title: str
+    year: int
     genres: list[str]
     countries: list[str]
     release_date: str
+    aggregate_rating: float
+    vote_count: int
+    runtime_minutes: int
+    original_title: str
 
 
 def _build_name_credits_for_title_page(
@@ -94,7 +100,17 @@ def _build_name_credits_for_title_page(
 
 def _parse_title(page_data: UntypedJson) -> str:
     title = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "titleText", "text"], None
+        page_data, ["props", "pageProps", "aboveTheFoldData", "titleText", "text"], None
+    )
+
+    assert isinstance(title, str)
+
+    return title
+
+
+def _parse_original_title(page_data: UntypedJson) -> str:
+    title = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "originalTitleText", "text"], None
     )
 
     assert isinstance(title, str)
@@ -104,7 +120,7 @@ def _parse_title(page_data: UntypedJson) -> str:
 
 def _parse_year(page_data: UntypedJson) -> int:
     year = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "releaseYear", "year"], None
+        page_data, ["props", "pageProps", "aboveTheFoldData", "releaseYear", "year"], None
     )
 
     assert isinstance(year, int)
@@ -126,6 +142,36 @@ def _parse_countries(page_data: UntypedJson) -> list[str]:
     )
 
     return [country["text"] for country in countries]
+
+
+def _parse_aggregate_rating(page_data: UntypedJson) -> float:
+    aggregate_rating = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "aggregateRating"]
+    )
+
+    assert isinstance(aggregate_rating, float)
+
+    return aggregate_rating
+
+
+def _parse_vote_count(page_data: UntypedJson) -> int:
+    vote_count = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "voteCount"]
+    )
+
+    assert isinstance(vote_count, int)
+
+    return vote_count
+
+
+def _parse_runtime_minutes(page_data: UntypedJson) -> int:
+    runtime_seconds = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "runtime", "seconds"]
+    )
+
+    assert isinstance(runtime_seconds, int)
+
+    return floor(runtime_seconds / 60)
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
@@ -159,9 +205,14 @@ def get_title_page(imdb_id: str) -> TitlePage:
 
     return TitlePage(
         imdb_id=imdb_id,
-        full_title=_parse_title(page_data),
+        title=_parse_title(page_data),
+        year=_parse_year(page_data),
+        original_title=_parse_original_title(page_data),
         genres=_parse_genres(page_data),
+        runtime_minutes=_parse_runtime_minutes(page_data),
         countries=_parse_countries(page_data),
         credits=_build_name_credits_for_title_page(page_data),
         release_date=get_release_date(imdb_id, _parse_year(page_data)),
+        aggregate_rating=_parse_aggregate_rating(page_data),
+        vote_count=_parse_vote_count(page_data),
     )

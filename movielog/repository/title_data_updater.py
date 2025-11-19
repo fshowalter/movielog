@@ -13,6 +13,8 @@ from movielog.utils.logging import logger
 AllowedArchiveFootageTitles = {
     "tt0839995",  # Superman II: The Richard Donner Cut
     "tt10045260",  # Exorcist III: Legion
+    "tt6019206",  # Kill Bill: The Whole Bloody Affair
+    "tt3420392",  # The House of Exorcism
 }
 
 FrozenTitles = {
@@ -65,28 +67,67 @@ def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
     json_title["runtimeMinutes"] = title_row["runtime_minutes"] or 0
 
 
+def _build_json_performer(performer: imdb_http_title.NameCredit) -> json_titles.JsonPerformer:
+    json_performer = json_titles.JsonPerformer(
+        imdbId=performer.imdb_id,
+        name=performer.name,
+        roles=performer.roles,
+    )
+
+    if performer.notes:
+        json_performer["notes"] = performer.notes
+
+    return json_performer
+
+
+def _build_json_director(director: imdb_http_title.NameCredit) -> json_titles.JsonDirector:
+    json_director = json_titles.JsonDirector(
+        imdbId=director.imdb_id,
+        name=director.name,
+    )
+
+    if director.notes:
+        json_director["notes"] = director.notes
+
+    return json_director
+
+
+def _build_json_writer(writer: imdb_http_title.NameCredit) -> json_titles.JsonWriter:
+    json_writer = json_titles.JsonWriter(
+        imdbId=writer.imdb_id,
+        name=writer.name,
+    )
+
+    if writer.notes:
+        json_writer["notes"] = writer.notes
+
+    return json_writer
+
+
 def _update_json_title_with_title_page_data(
     json_title: json_titles.JsonTitle, watchlist_performer_ids: set[str]
 ) -> None:
     imdb_title_page = imdb_http_title.get_title_page(json_title["imdbId"])
 
+    if json_title["imdbId"] not in ValidTitles:
+        json_title["title"] = imdb_title_page.title
+
+    json_title["originalTitle"] = imdb_title_page.original_title
+    json_title["year"] = str(imdb_title_page.year)
+    json_title["sortTitle"] = json_titles.generate_sort_title(
+        json_title["title"], json_title["year"]
+    )
+    json_title["runtimeMinutes"] = imdb_title_page.runtime_minutes
+
     json_title["releaseDate"] = imdb_title_page.release_date
     json_title["countries"] = imdb_title_page.countries
     json_title["genres"] = imdb_title_page.genres
     json_title["directors"] = [
-        json_titles.JsonDirector(
-            imdbId=director.imdb_id, name=director.name, notes=director.notes or None
-        )
-        for director in imdb_title_page.credits["director"]
+        _build_json_director(director) for director in imdb_title_page.credits["director"]
     ]
 
     json_title["performers"] = [
-        json_titles.JsonPerformer(
-            imdbId=performer.imdb_id,
-            name=performer.name,
-            roles=performer.roles,
-            notes=performer.notes or None,
-        )
+        _build_json_performer(performer)
         for performer in imdb_title_page.credits["performer"]
         if _credit_notes_are_valid_for_performer(
             imdb_title_id=json_title["imdbId"],
@@ -96,11 +137,7 @@ def _update_json_title_with_title_page_data(
         )
     ]
     json_title["writers"] = [
-        json_titles.JsonWriter(
-            imdbId=writer.imdb_id,
-            name=writer.name,
-            notes=writer.notes or None,
-        )
+        _build_json_writer(writer)
         for writer in imdb_title_page.credits["writer"]
         if _credit_notes_are_valid_for_writer(writer.notes)
     ]
@@ -113,7 +150,7 @@ def _credit_notes_are_valid_for_performer(
         return True
 
     return (
-        (("archive footage" not in notes) or (imdb_title_id not in AllowedArchiveFootageTitles))
+        (("archive footage" not in notes) or (imdb_title_id in AllowedArchiveFootageTitles))
         and (("uncredited" not in notes) or (imdb_person_id in watchlist_performer_ids))
         and ("scenes deleted" not in notes)
         and ("based on the comics by" not in notes)

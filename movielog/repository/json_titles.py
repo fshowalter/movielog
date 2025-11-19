@@ -2,9 +2,8 @@ from __future__ import annotations
 
 import json
 from collections.abc import Iterable
-from copy import deepcopy
 from pathlib import Path
-from typing import Any, TypedDict, cast
+from typing import Any, NotRequired, TypedDict, cast
 
 from movielog.repository import slugifier
 from movielog.utils import path_tools
@@ -18,20 +17,20 @@ type UntypedJson = dict[Any, Any]
 class JsonWriter(TypedDict):
     imdbId: str
     name: str
-    notes: str | None
+    notes: NotRequired[str]
 
 
 class JsonPerformer(TypedDict):
     imdbId: str
     name: str
     roles: list[str]
-    notes: str | None
+    notes: NotRequired[str]
 
 
 class JsonDirector(TypedDict):
     imdbId: str
     name: str
-    notes: str | None
+    notes: NotRequired[str]
 
 
 class JsonTitle(TypedDict):
@@ -74,33 +73,12 @@ def generate_file_path(json_title: JsonTitle) -> Path:
     return Path(FOLDER_NAME) / file_name
 
 
-def _remove_null_fields(json_title: JsonTitle) -> UntypedJson:
-    cloned_title: UntypedJson = deepcopy(json_title)  # type: ignore
-
-    cloned_title["directors"] = [
-        {k: v for k, v in director.items() if v is not None} for director in json_title["directors"]
-    ]
-    cloned_title["performers"] = [
-        {k: v for k, v in performer.items() if v is not None}
-        for performer in json_title["performers"]
-    ]
-    cloned_title["writers"] = [
-        {k: v for k, v in writer.items() if v is not None} for writer in json_title["writers"]
-    ]
-
-    return cloned_title
-
-
 def serialize(json_title: JsonTitle) -> None:
     file_path = generate_file_path(json_title)
     path_tools.ensure_file_path(file_path)
 
-    json_title_with_no_null_fields = _remove_null_fields(json_title)
-
     with Path.open(file_path, "w", encoding="utf8") as output_file:
-        output_file.write(
-            json.dumps(json_title_with_no_null_fields, default=str, indent=2, ensure_ascii=False)
-        )
+        output_file.write(json.dumps(json_title, default=str, indent=2, ensure_ascii=False))
 
     logger.log(
         "Wrote {}.",
