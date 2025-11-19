@@ -12,8 +12,8 @@ FILE_NAME = Path("data") / "ratings.json"
 
 
 class JsonRating(TypedDict):
-    votes: int | None
-    rating: float | None
+    votes: int
+    rating: float
 
 
 class JsonRatings(TypedDict):
@@ -24,13 +24,13 @@ class JsonRatings(TypedDict):
 
 def _update_averages(json_ratings: JsonRatings) -> JsonRatings:
     json_ratings["averageImdbVotes"] = mean(
-        title["votes"] for title in json_ratings["titles"].values() if title["votes"]
+        title["votes"] for title in json_ratings["titles"].values()
     )
 
     json_ratings["averageImdbRating"] = mean(
         title["rating"]
         for title in json_ratings["titles"].values()
-        if title["rating"] and title["votes"] and title["votes"] >= json_ratings["averageImdbVotes"]
+        if title["votes"] >= json_ratings["averageImdbVotes"]
     )
 
     return json_ratings

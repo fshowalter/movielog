@@ -244,13 +244,19 @@ def update_title(json_title: json_titles.JsonTitle, watchlist_performer_ids: set
     if json_title["imdbId"] in FrozenTitles:
         return
 
+    ratings = json_imdb_ratings.deserialize()
+
     updated_json_title = deepcopy(json_title)
-    _update_json_title_with_db_data(updated_json_title)
     title_page = imdb_http_title.get_title_page(json_title["imdbId"])
     _update_json_title_with_title_page_data(updated_json_title, title_page, watchlist_performer_ids)
+    ratings["titles"][title_page.imdb_id] = json_imdb_ratings.JsonRating(
+        votes=title_page.vote_count, rating=title_page.aggregate_rating
+    )
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
+
+    json_imdb_ratings.serialize(ratings)
 
 
 def update_for_datasets(

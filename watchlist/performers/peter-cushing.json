@@ -162,12 +162,6 @@
       "role": "Priest"
     },
     {
-      "imdbId": "tt0337368",
-      "title": "Uncle Harry (1958)",
-      "titleType": "TV Movie",
-      "role": "Uncle Harry"
-    },
-    {
       "imdbId": "tt0337483",
       "title": "The Winslow Boy (1958)",
       "titleType": "TV Movie",
@@ -575,5 +569,13 @@
       "role": "Air Commodore Colonel William Raymond"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt0337368",
+      "title": "Uncle Harry (1958)",
+      "titleType": "TV Movie",
+      "role": "Uncle Harry",
+      "reason": "no IMDb votes"
+    }
+  ]
 }
