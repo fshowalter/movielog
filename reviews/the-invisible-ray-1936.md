@@ -2,7 +2,7 @@
 date: 2008-02-19
 imdb_id: tt0027800
 grade: D
-slug: the-invisible-ray-1935
+slug: the-invisible-ray-1936
 ---
 
 The discovery of a radioactive meteor by a pair of scientists (Boris Karloff and Bela Lugosi) leads to deadly consequences.

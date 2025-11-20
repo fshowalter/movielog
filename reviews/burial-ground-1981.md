@@ -1,7 +1,7 @@
 ---
 imdb_id: tt0081248
 title: "Burial Ground: The Nights of Terror (1981)"
-slug: burial-ground-the-nights-of-terror-1981
+slug: burial-ground-1981
 grade: C
 date: 2024-05-23
 ---

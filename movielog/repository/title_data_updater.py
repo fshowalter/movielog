@@ -4,13 +4,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TypedDict, cast
 
-from movielog.repository import (
-    imdb_http_title,
-    json_imdb_ratings,
-    json_titles,
-    json_watchlist_people,
-)
-from movielog.repository.datasets import api as datasets_api
+from movielog.repository import imdb_http_title, json_titles, json_watchlist_people
 from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
@@ -111,9 +105,10 @@ def _build_json_writer(writer: imdb_http_title.NameCredit) -> json_titles.JsonWr
 
 def _update_json_title_with_title_page_data(
     json_title: json_titles.JsonTitle,
-    title_page: imdb_http_title.TitlePage,
     watchlist_performer_ids: set[str],
 ) -> None:
+    title_page = imdb_http_title.get_title_page(json_title["imdbId"])
+
     if json_title["imdbId"] not in ValidTitles:
         json_title["title"] = title_page.title
 
@@ -187,8 +182,6 @@ def update_from_imdb_pages() -> None:
         if not isinstance(performer["imdbId"], list)
     }
 
-    ratings = json_imdb_ratings.deserialize()
-
     with (
         Path.open(
             progress_file_path, "r+" if progress_file_path.exists() else "w+"
@@ -222,19 +215,11 @@ def update_from_imdb_pages() -> None:
 
             updated_title = deepcopy(json_title)
 
-            title_page = imdb_http_title.get_title_page(json_title["imdbId"])
-            _update_json_title_with_title_page_data(
-                updated_title, title_page, watchlist_performer_ids
-            )
-
-            ratings["titles"][title_page.imdb_id] = json_imdb_ratings.JsonRating(
-                votes=title_page.vote_count, rating=title_page.aggregate_rating
-            )
+            _update_json_title_with_title_page_data(updated_title, watchlist_performer_ids)
 
             if updated_title != json_title:
                 json_titles.serialize(updated_title)
 
-            json_imdb_ratings.serialize(ratings)
             progress_file.write("{}\n".format(json_title["slug"]))
 
     Path.unlink(progress_file_path)
@@ -244,48 +229,8 @@ def update_title(json_title: json_titles.JsonTitle, watchlist_performer_ids: set
     if json_title["imdbId"] in FrozenTitles:
         return
 
-    ratings = json_imdb_ratings.deserialize()
-
     updated_json_title = deepcopy(json_title)
-    title_page = imdb_http_title.get_title_page(json_title["imdbId"])
-    _update_json_title_with_title_page_data(updated_json_title, title_page, watchlist_performer_ids)
-    ratings["titles"][title_page.imdb_id] = json_imdb_ratings.JsonRating(
-        votes=title_page.vote_count, rating=title_page.aggregate_rating
-    )
+    _update_json_title_with_title_page_data(updated_json_title, watchlist_performer_ids)
 
     if updated_json_title != json_title:
         json_titles.serialize(updated_json_title)
-
-    json_imdb_ratings.serialize(ratings)
-
-
-def update_for_datasets(
-    dataset_titles: dict[str, datasets_api.DatasetTitle],
-) -> None:
-    for json_title in json_titles.read_all():
-        if json_title["imdbId"] in FrozenTitles:
-            continue
-
-        dataset_title = dataset_titles.get(json_title["imdbId"], None)
-        if not dataset_title:
-            logger.log(
-                "No dataset title found for {} ({}).",
-                json_title["imdbId"],
-                json_title["title"],
-            )
-            continue
-
-        updated_json_title = deepcopy(json_title)
-
-        if json_title["imdbId"] not in ValidTitles:
-            updated_json_title["title"] = dataset_title["title"]
-
-        updated_json_title["originalTitle"] = dataset_title["original_title"]
-        updated_json_title["year"] = dataset_title["year"]
-        updated_json_title["sortTitle"] = json_titles.generate_sort_title(
-            updated_json_title["title"], updated_json_title["year"]
-        )
-        updated_json_title["runtimeMinutes"] = dataset_title["runtime_minutes"] or 0
-
-        if updated_json_title != json_title:
-            json_titles.serialize(updated_json_title)

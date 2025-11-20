@@ -1,6 +1,6 @@
 ---
 imdb_id: tt0339294
-slug: leprechaun-6-back-2-tha-hood-2003
+slug: leprechaun-back-2-tha-hood-2003
 grade: D
 date: 2025-01-10
 synopsis: In Los Angeles, a young woman and her friends--including her drug-dealing ex-boyfriend--incur the leprechaun's wrath when they discover his chest of gold.

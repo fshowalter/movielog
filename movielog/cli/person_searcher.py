@@ -1,8 +1,6 @@
-import json
 from dataclasses import dataclass
 
-from movielog.cli import query_formatter
-from movielog.repository.db import db
+from movielog.repository import imdb_http_person
 
 
 @dataclass
@@ -12,23 +10,13 @@ class SearchResult:
     known_for_titles: list[str]
 
 
-def search_by_name(name: str, limit: int = 10) -> list[SearchResult]:
-    query = query_formatter.add_wildcards(name)
+def search_by_name(imdb_id: str) -> list[SearchResult]:
+    person_page = imdb_http_person.get_person_page(imdb_id)
 
-    full_query = """
-        SELECT distinct imdb_id, full_name, known_for_titles FROM names
-        WHERE full_name LIKE "{0}" ORDER BY full_name LIMIT {1};
-    """
-
-    return execute_search(full_query.format(query, limit))
-
-
-def execute_search(query: str) -> list[SearchResult]:
     return [
         SearchResult(
-            imdb_id=row["imdb_id"],
-            name=row["full_name"],
-            known_for_titles=json.loads(row["known_for_titles"]),
+            imdb_id=imdb_id,
+            name=person_page.name,
+            known_for_titles=person_page.known_for_titles,
         )
-        for row in db.fetch_all(query)
     ]

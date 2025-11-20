@@ -11,9 +11,9 @@ SearchResult = title_searcher.SearchResult
 Option = tuple[SearchResult | None, AnyFormattedText]
 
 
-def prompt(prompt_text: str = "Title: ") -> SearchResult | None:
+def prompt(prompt_text: str = "IMDb ID: ") -> SearchResult | None:
     while True:
-        query = ask.prompt(prompt_text, rprompt="Use ^ and $ to anchor")
+        query = ask.prompt(prompt_text)
 
         if query is None:
             return None

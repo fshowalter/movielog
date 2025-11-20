@@ -33,6 +33,7 @@ class NameCredit:
 class TitlePage:
     imdb_id: str
     credits: dict[CreditKind, list[NameCredit]]
+    principal_cast: list[str]
     title: str
     year: int
     genres: list[str]
@@ -136,6 +137,17 @@ def _parse_genres(page_data: UntypedJson) -> list[str]:
     return [genre["text"] for genre in genres]
 
 
+def _parse_principal_cast(page_data: UntypedJson) -> list[str]:
+    principal_credits = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "principalCreditsV2"], []
+    )[0]
+
+    return [
+        get_nested_value(credit, ["name", "nameText", "text"])
+        for credit in principal_credits["credits"]
+    ]
+
+
 def _parse_countries(page_data: UntypedJson) -> list[str]:
     countries = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "countriesDetails", "countries"], []
@@ -205,6 +217,7 @@ def get_title_page(imdb_id: str) -> TitlePage:
     return TitlePage(
         imdb_id=imdb_id,
         title=_parse_title(page_data),
+        principal_cast=_parse_principal_cast(page_data),
         year=_parse_year(page_data),
         original_title=_parse_original_title(page_data),
         genres=_parse_genres(page_data),

@@ -30,6 +30,13 @@ class ImdbPerson:
     credits: list[TitleCredit]
 
 
+@dataclass
+class PersonPage:
+    imdb_id: str
+    name: str
+    known_for_titles: list[str]
+
+
 type UntypedJson = dict[Any, Any]
 
 
@@ -145,10 +152,9 @@ def create_session() -> requests.Session:
     return session
 
 
-def get_credits(session: requests.Session, imdb_id: str) -> list[UntypedJson]:
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-
-    session.mount("https://", HTTPAdapter(max_retries=retries))
+def _get_person_data(session: requests.Session, imdb_id: str) -> UntypedJson:
+    if not session:
+        session = create_session()
 
     page = session_get(session=session, url=f"https://www.imdb.com/name/{imdb_id}/")
 
@@ -166,35 +172,40 @@ def get_credits(session: requests.Session, imdb_id: str) -> list[UntypedJson]:
 
     assert isinstance(page_data, dict)
 
-    return get_nested_value(
+    return page_data
+
+
+def _parse_known_for_titles(page_data: UntypedJson) -> list[str]:
+    known_for_credits = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFold", "knownForV2", "credits"], []
+    )
+
+    return [
+        get_nested_value(credit, ["title", "titleText", "text"]) for credit in known_for_credits
+    ]
+
+
+def get_person_page(imdb_id: str) -> PersonPage:
+    session = create_session()
+
+    page_data = _get_person_data(session, imdb_id)
+
+    return PersonPage(
+        imdb_id=imdb_id,
+        name=get_nested_value(
+            page_data, ["props", "pageProps", "aboveTheFold", "nameText", "text"]
+        ),
+        known_for_titles=_parse_known_for_titles(page_data),
+    )
+
+
+def get_credits(session: requests.Session, imdb_id: str) -> list[UntypedJson]:
+    page_data = _get_person_data(session, imdb_id)
+
+    edges = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "released", "edges"]
     )
 
-    credit_kind_map: dict[CreditKind, str] = {
-        "director": "amzn1.imdb.concept.name_credit_category.ace5cb4c-8708-4238-9542-04641e7c8171",
-        "performer": "amzn1.imdb.concept.name_credit_group.7caf7d16-5db9-4f4f-8864-d4c6e711c686",
-        "writer": "amzn1.imdb.concept.name_credit_category.c84ecaff-add5-4f2e-81db-102a41881fe3",
-    }
+    assert isinstance(edges, list)
 
-    credits_variables = {
-        "nameId": imdb_id,
-        "includeUserRating": False,
-        "locale": "en-US",
-        "category": credit_kind_map[kind],
-        "order": "DESC",
-        "isProPage": False,
-    }
-
-    credits_extensions = {
-        "persistedQuery": {
-            "sha256Hash": "096f555fe586eed2dde6c19293bd623a102b64cc2abc9f1ab6ef0a12b1cd36ec",
-            "version": 1,
-        }
-    }
-
-    return call_graphql(
-        session=session,
-        operation="FilmographyV2Pagination",
-        variables=credits_variables,
-        extensions=credits_extensions,
-    )
+    return edges
