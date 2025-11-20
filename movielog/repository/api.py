@@ -13,6 +13,7 @@ from movielog.repository import (
     json_imdb_ratings,
     json_titles,
     json_watchlist_people,
+    json_watchlist_person,
     markdown_reviews,
     markdown_viewings,
     title_data_updater,
@@ -153,7 +154,7 @@ def collections() -> Generator[Collection]:
 
 
 def _hydrate_watchlist_person(
-    json_watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    json_watchlist_person: json_watchlist_person.JsonWatchlistPerson,
 ) -> WatchlistPerson:
     if isinstance(json_watchlist_person["imdbId"], list):
         imdb_id = frozenset(json_watchlist_person["imdbId"])
@@ -191,8 +192,8 @@ def cast_and_crew() -> Iterable[CastAndCrewMember]:
 def watchlist_people(
     kind: WatchlistPersonKind,
 ) -> Generator[WatchlistPerson]:
-    for json_watchlist_person in json_watchlist_people.read_all(kind):
-        yield _hydrate_watchlist_person(json_watchlist_person)
+    for watchlist_person in json_watchlist_people.read_all(kind):
+        yield _hydrate_watchlist_person(watchlist_person)
 
 
 def titles() -> Iterable[Title]:

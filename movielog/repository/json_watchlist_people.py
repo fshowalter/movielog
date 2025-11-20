@@ -2,21 +2,13 @@ import json
 import re
 from collections.abc import Iterable
 from pathlib import Path
-from typing import Literal, TypedDict, cast, get_args
+from typing import Literal, cast, get_args
 
 from slugify import slugify
 
 from movielog.repository import watchlist_serializer
+from movielog.repository.json_watchlist_person import JsonWatchlistPerson
 from movielog.repository.json_watchlist_titles import JsonExcludedTitle, JsonWatchlistTitle
-
-
-class JsonWatchlistPerson(TypedDict):
-    name: str
-    slug: str
-    imdbId: str | list[str]
-    titles: list[JsonWatchlistTitle]
-    excludedTitles: list[JsonWatchlistTitle]
-
 
 Kind = Literal[
     "directors",

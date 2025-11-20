@@ -11,6 +11,7 @@ from movielog.repository import (
     watchlist_serializer,
 )
 from movielog.repository.imdb_http_person import CreditKind, TitleCredit
+from movielog.repository.json_watchlist_person import JsonWatchlistPerson
 from movielog.repository.json_watchlist_titles import JsonWatchlistTitle
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
@@ -18,7 +19,7 @@ from movielog.utils.logging import logger
 
 def _add_title_page_to_watchlist_person_titles(
     title_credit: TitleCredit,
-    watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    watchlist_person: JsonWatchlistPerson,
 ) -> None:
     watchlist_person["titles"].append(
         JsonWatchlistTitle(
@@ -38,7 +39,7 @@ def _add_title_page_to_watchlist_person_titles(
 
 
 def _get_title_credits_from_name_pages_for_credit_kind(
-    watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> set[TitleCredit]:
     method_map = {
@@ -60,7 +61,7 @@ def _get_title_credits_from_name_pages_for_credit_kind(
 
 
 def _remove_watchlist_person_titles_not_in_given_title_credits(
-    watchlist_person: json_watchlist_people.JsonWatchlistPerson, title_credits: set[TitleCredit]
+    watchlist_person: JsonWatchlistPerson, title_credits: set[TitleCredit]
 ) -> None:
     for title_kind in ("titles", "excludedTitles"):
         existing_title_ids = {title["imdbId"] for title in watchlist_person[title_kind]}
@@ -77,7 +78,7 @@ def _remove_watchlist_person_titles_not_in_given_title_credits(
 
 
 def _filter_existing_titles_for_watchlist_person(
-    watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    watchlist_person: JsonWatchlistPerson,
     title_credits: set[TitleCredit],
 ) -> set[TitleCredit]:
     existing_excluded_title_ids = {
@@ -95,7 +96,7 @@ def _filter_existing_titles_for_watchlist_person(
 
 
 def _update_watchlist_person_titles_for_credit_kind(
-    watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    watchlist_person: JsonWatchlistPerson,
     kind: CreditKind,
 ) -> None:
     title_credits = _get_title_credits_from_name_pages_for_credit_kind(

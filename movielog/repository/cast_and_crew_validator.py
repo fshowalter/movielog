@@ -6,12 +6,13 @@ from pathlib import Path
 from typing import cast
 
 from movielog.repository import json_cast_and_crew, json_watchlist_people
+from movielog.repository.json_watchlist_person import JsonWatchlistPerson
 from movielog.utils.logging import logger
 
 
-def _get_watchlist_people() -> list[json_watchlist_people.JsonWatchlistPerson]:
+def _get_watchlist_people() -> list[JsonWatchlistPerson]:
     name_slugs: set[str] = set()
-    watchlist_people: list[json_watchlist_people.JsonWatchlistPerson] = []
+    watchlist_people: list[JsonWatchlistPerson] = []
 
     for kind in json_watchlist_people.KINDS:
         for json_watchlist_person in json_watchlist_people.read_all(kind):
@@ -41,7 +42,7 @@ def _validate_slug(json_name: json_cast_and_crew.JsonCastAndCrewMember) -> None:
 
 
 def _add_new_cast_and_crew(
-    watchlist_people: list[json_watchlist_people.JsonWatchlistPerson],
+    watchlist_people: list[JsonWatchlistPerson],
 ) -> None:
     for index, watchlist_person in enumerate(watchlist_people):
         logger.log(
