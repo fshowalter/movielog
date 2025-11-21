@@ -42,6 +42,7 @@ class JsonTitle(TypedDict):
     runtimeMinutes: int
     year: str
     releaseDate: str
+    releaseDateCountry: str
     countries: list[str]
     genres: list[str]
     directors: list[JsonDirector]

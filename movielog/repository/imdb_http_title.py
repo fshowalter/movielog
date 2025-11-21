@@ -7,7 +7,6 @@ import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
 from requests.adapters import HTTPAdapter, Retry
 
-from movielog.repository.imdb_http_release_date import get_release_date
 from movielog.utils.get_nested_value import get_nested_value
 
 type UntypedJson = dict[Any, Any]
@@ -17,6 +16,14 @@ TIMEOUT = 30
 CreditKind = Literal["director", "writer", "performer"]
 
 CREDIT_KINDS = get_args(CreditKind)
+
+UNKNOWN_RELEASE_DATES = {
+    "tt0273255": "1990-??-??",  # Hansel e Gretel
+    "tt0213101": "1992-05-16",  # The Mystery of Dr Martinu
+    "tt0150855": "1991-??-??",  # Hauntedween
+    "tt0063183": "1968-??-??",  # Killer Darts
+    "tt2087757": "1985-??-??",  # Faust
+}
 
 
 @dataclass
@@ -39,6 +46,7 @@ class TitlePage:
     genres: list[str]
     countries: list[str]
     release_date: str
+    release_date_country: str
     aggregate_rating: float
     vote_count: int
     runtime_minutes: int
@@ -117,6 +125,40 @@ def _parse_original_title(page_data: UntypedJson) -> str:
     assert isinstance(title, str)
 
     return title
+
+
+def _parse_release_date_country(page_data: UntypedJson) -> str:
+    country = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "releaseDate", "country", "text"]
+    )
+
+    if not isinstance(country, str):
+        return "Unknown"
+
+    return country
+
+
+def _parse_release_date(imdb_id: str, page_data: UntypedJson) -> str:
+    release_date = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "releaseDate"], None
+    )
+
+    if not release_date and imdb_id in UNKNOWN_RELEASE_DATES:
+        return UNKNOWN_RELEASE_DATES[imdb_id]
+
+    day = get_nested_value(release_date, ["day"], None)
+
+    day = f"{day:02}" if isinstance(day, int) else "??"
+
+    month = get_nested_value(release_date, ["month"], None)
+
+    month = f"{month:02}" if isinstance(month, int) else "??"
+
+    year = get_nested_value(release_date, ["year"], None)
+
+    assert isinstance(year, int)
+
+    return f"{year}-{month}-{day}"
 
 
 def _parse_year(page_data: UntypedJson) -> int:
@@ -224,7 +266,8 @@ def get_title_page(imdb_id: str) -> TitlePage:
         runtime_minutes=_parse_runtime_minutes(page_data),
         countries=_parse_countries(page_data),
         credits=_build_name_credits_for_title_page(page_data),
-        release_date=get_release_date(imdb_id, _parse_year(page_data)),
+        release_date=_parse_release_date(imdb_id, page_data),
+        release_date_country=_parse_release_date_country(page_data),
         aggregate_rating=_parse_aggregate_rating(page_data),
         vote_count=_parse_vote_count(page_data),
     )

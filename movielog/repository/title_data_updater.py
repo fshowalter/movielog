@@ -2,10 +2,9 @@ from __future__ import annotations
 
 from copy import deepcopy
 from pathlib import Path
-from typing import TypedDict, cast
+from typing import TypedDict
 
 from movielog.repository import imdb_http_title, json_titles, json_watchlist_people
-from movielog.repository.db import api as db_api
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
 
@@ -37,33 +36,6 @@ class TitleQueryResult(TypedDict):
     original_title: str
     year: int
     runtime_minutes: int | None
-
-
-def _update_json_title_with_db_data(json_title: json_titles.JsonTitle) -> None:
-    query = """
-        SELECT
-            title
-        , original_title
-        , year
-        , runtime_minutes
-        FROM titles
-        WHERE imdb_id = "{0}";
-    """
-
-    title_row = cast(
-        TitleQueryResult,
-        db_api.db.fetch_one(query.format(json_title["imdbId"])),
-    )
-
-    assert title_row
-
-    json_title["title"] = title_row["title"]
-    json_title["originalTitle"] = title_row["original_title"]
-    json_title["year"] = str(title_row["year"])
-    json_title["sortTitle"] = json_titles.generate_sort_title(
-        json_title["title"], json_title["year"]
-    )
-    json_title["runtimeMinutes"] = title_row["runtime_minutes"] or 0
 
 
 def _build_json_performer(performer: imdb_http_title.NameCredit) -> json_titles.JsonPerformer:
@@ -120,6 +92,7 @@ def _update_json_title_with_title_page_data(
     json_title["runtimeMinutes"] = title_page.runtime_minutes
 
     json_title["releaseDate"] = title_page.release_date
+    json_title["releaseDateCountry"] = title_page.release_date_country
     json_title["countries"] = title_page.countries
     json_title["genres"] = title_page.genres
     json_title["directors"] = [

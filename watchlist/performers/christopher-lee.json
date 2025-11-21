@@ -117,11 +117,6 @@
       "role": "Lieutenant Whitlock"
     },
     {
-      "imdbId": "tt0204999",
-      "title": "Destination Milan (1954)",
-      "role": "Svenson"
-    },
-    {
       "imdbId": "tt0046872",
       "title": "Contraband Spain (1955)",
       "attributes": [
@@ -1176,6 +1171,12 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0204999",
+      "title": "Destination Milan (1954)",
+      "role": "Svenson",
+      "reason": "tv episode compilation"
+    },
     {
       "imdbId": "tt21811594",
       "title": "The Lord of the Rings: The Two Towers - Special Extended Edition Scenes (2003)",
