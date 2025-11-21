@@ -5,7 +5,7 @@
   "originalTitle": "Vampire Circus",
   "sortTitle": "vampire-circus-1972",
   "year": "1972",
-  "releaseDate": "1972-04-30",
+  "releaseDate": "1972-10-11",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0950000",
-      "name": "Robert Young"
+      "name": "Robert Young",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -38,7 +39,8 @@
       "name": "Anthony Higgins",
       "roles": [
         "Emil"
-      ]
+      ],
+      "notes": "(as Anthony Corlan)"
     },
     {
       "imdbId": "nm0609699",
@@ -115,7 +117,8 @@
       "name": "Christine Paul",
       "roles": [
         "Rosa"
-      ]
+      ],
+      "notes": "(as Christina Paul)"
     },
     {
       "imdbId": "nm0755179",
@@ -143,7 +146,8 @@
       "name": "David Prowse",
       "roles": [
         "Strongman"
-      ]
+      ],
+      "notes": "(as Dave Prowse)"
     },
     {
       "imdbId": "nm0789950",
@@ -164,14 +168,16 @@
       "name": "Milovan Vesnitch",
       "roles": [
         "The Webers"
-      ]
+      ],
+      "notes": "(as Milovan and Serena)"
     },
     {
       "imdbId": "nm1025727",
       "name": "Serena",
       "roles": [
         "The Webers"
-      ]
+      ],
+      "notes": "(as Milovan and Serena)"
     },
     {
       "imdbId": "nm7208522",
@@ -225,7 +231,8 @@
     {
       "imdbId": "nm2767704",
       "name": "Bradforts-Amaros",
-      "roles": []
+      "roles": [],
+      "notes": "(as Bradforts - Amaros)"
     }
   ],
   "writers": [
@@ -233,7 +240,18 @@
       "imdbId": "nm0454167",
       "name": "Jud Kinberg",
       "notes": "screenplay by (as Judson Kinberg)"
+    },
+    {
+      "imdbId": "nm0062658",
+      "name": "George Baxt",
+      "notes": "story (uncredited)"
+    },
+    {
+      "imdbId": "nm0823283",
+      "name": "Wilbur Stark",
+      "notes": "story (uncredited)"
     }
   ],
-  "runtimeMinutes": 84
+  "runtimeMinutes": 84,
+  "releaseDateCountry": "United States"
 }

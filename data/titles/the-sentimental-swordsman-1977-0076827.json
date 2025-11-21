@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -39,21 +40,24 @@
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Ah Fei"
-      ]
+      ],
+      "notes": "(as Tung-Shing Yee)"
     },
     {
       "imdbId": "nm0950546",
       "name": "On-On Yu",
       "roles": [
         "Lin Shi-yin"
-      ]
+      ],
+      "notes": "(as Candy Yu)"
     },
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
       "roles": [
         "Lung Hsiao-yun"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0270495",
@@ -86,26 +90,24 @@
       "roles": []
     },
     {
-      "imdbId": "nm0514960",
-      "name": "Lau Chun-Fai",
-      "roles": []
-    },
-    {
       "imdbId": "nm0473314",
       "name": "Ku Feng",
       "roles": [
         "Master Zhao"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm0025546",
       "name": "Fung Hak-On",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hark-On Fung)"
     },
     {
       "imdbId": "nm0473322",
@@ -118,6 +120,12 @@
       "roles": [
         "Yun's Men"
       ]
+    },
+    {
+      "imdbId": "nm0514960",
+      "name": "Chun-Fai Lau",
+      "roles": [],
+      "notes": "(as Lau Chun-Fai)"
     },
     {
       "imdbId": "nm1300547",
@@ -137,29 +145,34 @@
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chien-Ming Lu)"
     },
     {
       "imdbId": "nm0266652",
       "name": "Fan Mei-Sheng",
       "roles": [
         "Chuan Jia"
-      ]
+      ],
+      "notes": "(as Mei Sheng Fan)"
     },
     {
       "imdbId": "nm0620699",
       "name": "Chiang Nan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Nan Chiang)"
     },
     {
       "imdbId": "nm1794908",
       "name": "Chik Ngai-Hung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yi-Hsiung Chi)"
     },
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm1714999",
@@ -184,7 +197,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0151169",
@@ -234,7 +248,8 @@
     {
       "imdbId": "nm0950604",
       "name": "Cheung-Yan Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsiang-Jen Yuan)"
     },
     {
       "imdbId": "nm0950757",
@@ -261,5 +276,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "Hong Kong"
 }

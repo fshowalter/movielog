@@ -5,7 +5,7 @@
   "sortTitle": "twilight-2008",
   "year": "2008",
   "slug": "twilight-2008",
-  "releaseDate": "2008-11-17",
+  "releaseDate": "2008-11-21",
   "runtimeMinutes": 122,
   "countries": [
     "United States",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0362566",
-      "name": "Catherine Hardwicke"
+      "name": "Catherine Hardwicke",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -140,7 +141,8 @@
       "name": "José Zúñiga",
       "roles": [
         "Mr. Molina"
-      ]
+      ],
+      "notes": "(as Jose Zuniga)"
     },
     {
       "imdbId": "nm3004183",
@@ -266,5 +268,6 @@
       "name": "Stephenie Meyer",
       "notes": "based on the novel \"Twilight\" by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

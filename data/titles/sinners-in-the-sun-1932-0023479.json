@@ -5,7 +5,7 @@
   "originalTitle": "Sinners in the Sun",
   "sortTitle": "sinners-in-the-sun-1932",
   "year": "1932",
-  "releaseDate": "1932-05-06",
+  "releaseDate": "1932-05-13",
   "countries": [
     "United States"
   ],
@@ -15,12 +15,18 @@
   ],
   "directors": [
     {
+      "imdbId": "nm0123556",
+      "name": "David Burton",
+      "notes": "replacement director"
+    },
+    {
       "imdbId": "nm0355284",
       "name": "Alexander Hall"
     },
     {
-      "imdbId": "nm0123556",
-      "name": "David Burton"
+      "imdbId": "nm0210352",
+      "name": "William C. de Mille",
+      "notes": "for the first two weeks (uncredited)"
     }
   ],
   "performers": [
@@ -71,7 +77,8 @@
       "name": "Rita La Roy",
       "roles": [
         "Lil"
-      ]
+      ],
+      "notes": "(as Rita LaRoy)"
     }
   ],
   "writers": [
@@ -89,7 +96,13 @@
       "imdbId": "nm0950150",
       "name": "Waldemar Young",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0493071",
+      "name": "Vincent Lawrence",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 70
+  "runtimeMinutes": 70,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Avengers",
   "sortTitle": "avengers-1998",
   "year": "1998",
-  "releaseDate": "1998-08-13",
+  "releaseDate": "1998-08-14",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0154819",
-      "name": "Jeremiah S. Chechik"
+      "name": "Jeremiah S. Chechik",
+      "notes": "(as Jeremiah Chechik)"
     }
   ],
   "performers": [
@@ -42,6 +43,14 @@
       "roles": [
         "Sir August de Wynter"
       ]
+    },
+    {
+      "imdbId": "nm0001495",
+      "name": "Patrick Macnee",
+      "roles": [
+        "Invisible Jones"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0000980",
@@ -161,5 +170,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

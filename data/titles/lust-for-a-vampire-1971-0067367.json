@@ -5,7 +5,7 @@
   "originalTitle": "Lust for a Vampire",
   "sortTitle": "lust-for-a-vampire-1971",
   "year": "1971",
-  "releaseDate": "1971-01-17",
+  "releaseDate": "1971-09-02",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0762727",
-      "name": "Jimmy Sangster"
+      "name": "Jimmy Sangster",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -130,7 +131,8 @@
       "name": "Erik Chitty",
       "roles": [
         "Professor Herz"
-      ]
+      ],
+      "notes": "(as Eric Chitty)"
     },
     {
       "imdbId": "nm0577656",
@@ -193,7 +195,8 @@
       "name": "Mel Churcher",
       "roles": [
         "Schoolgirl"
-      ]
+      ],
+      "notes": "(as Melinda Churcher)"
     },
     {
       "imdbId": "nm0164904",
@@ -229,12 +232,8 @@
       "imdbId": "nm0309633",
       "name": "Tudor Gates",
       "notes": "screenplay by"
-    },
-    {
-      "imdbId": "nm0494257",
-      "name": "Sheridan Le Fanu",
-      "notes": "based on characters created by (as J. Sheridan Le Fanu)"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United States"
 }

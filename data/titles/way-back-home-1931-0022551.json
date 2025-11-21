@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0782682",
-      "name": "William A. Seiter"
+      "name": "William A. Seiter",
+      "notes": "(as William Seiter)"
     }
   ],
   "performers": [
@@ -26,14 +27,16 @@
       "name": "Phillips Lord",
       "roles": [
         "Seth Parker"
-      ]
+      ],
+      "notes": "(as Phillips H. Lord)"
     },
     {
       "imdbId": "nm0658216",
       "name": "Effie Palmer",
       "roles": [
         "Mother Parker"
-      ]
+      ],
+      "notes": "(as Effie L. Palmer)"
     },
     {
       "imdbId": "nm0007214",
@@ -111,5 +114,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 81
+  "runtimeMinutes": 81,
+  "releaseDateCountry": "United States"
 }

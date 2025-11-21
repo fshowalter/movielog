@@ -5,7 +5,7 @@
   "originalTitle": "Young Guns II",
   "sortTitle": "young-guns-ii-1990",
   "year": "1990",
-  "releaseDate": "1990-07-30",
+  "releaseDate": "1990-08-01",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0614276",
-      "name": "Geoff Murphy"
+      "name": "Geoff Murphy",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -131,7 +132,8 @@
       "name": "Bradley Whitford",
       "roles": [
         "Charles Phalen"
-      ]
+      ],
+      "notes": "(as Brad Whitford)"
     },
     {
       "imdbId": "nm0934113",
@@ -159,7 +161,8 @@
       "name": "William J. Fisher",
       "roles": [
         "Second Aide"
-      ]
+      ],
+      "notes": "(as William Fisher)"
     },
     {
       "imdbId": "nm0305140",
@@ -278,7 +281,8 @@
       "name": "Nick Gomez",
       "roles": [
         "Fernando"
-      ]
+      ],
+      "notes": "(as Nicholas Sean Gomez)"
     },
     {
       "imdbId": "nm0124538",
@@ -348,7 +352,8 @@
       "name": "Joey Hamlin",
       "roles": [
         "Chivato's Pal"
-      ]
+      ],
+      "notes": "(as Joey Joe Hamlin)"
     },
     {
       "imdbId": "nm0018240",
@@ -362,7 +367,8 @@
       "name": "Ginger Lynn",
       "roles": [
         "Dove"
-      ]
+      ],
+      "notes": "(as Ginger Lynn Allen)"
     },
     {
       "imdbId": "nm0660600",
@@ -404,7 +410,8 @@
       "name": "Howard Young",
       "roles": [
         "Poe Posse"
-      ]
+      ],
+      "notes": "(as Howie Young)"
     },
     {
       "imdbId": "nm0299301",
@@ -425,14 +432,16 @@
       "name": "Bo Greigh",
       "roles": [
         "Pit Inmate"
-      ]
+      ],
+      "notes": "(as Bo Gray)"
     },
     {
       "imdbId": "nm0126069",
       "name": "Thomas Byrd",
       "roles": [
         "Pit Inmate"
-      ]
+      ],
+      "notes": "(as Tom Byrd)"
     },
     {
       "imdbId": "nm0346726",
@@ -474,13 +483,9 @@
     {
       "imdbId": "nm0299301",
       "name": "John Fusco",
-      "notes": "characters"
-    },
-    {
-      "imdbId": "nm0299301",
-      "name": "John Fusco",
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 104
+  "runtimeMinutes": 104,
+  "releaseDateCountry": "United States"
 }

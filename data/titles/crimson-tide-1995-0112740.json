@@ -5,7 +5,7 @@
   "originalTitle": "Crimson Tide",
   "sortTitle": "crimson-tide-1995",
   "year": "1995",
-  "releaseDate": "1995-04-01",
+  "releaseDate": "1995-05-12",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001716",
-      "name": "Tony Scott"
+      "name": "Tony Scott",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Jaime Gomez",
       "roles": [
         "Ood Mahoney"
-      ]
+      ],
+      "notes": "(as Jaime P. Gomez)"
     },
     {
       "imdbId": "nm0587379",
@@ -104,7 +106,8 @@
       "name": "Lillo Brancato",
       "roles": [
         "Russell Vossler"
-      ]
+      ],
+      "notes": "(as Lillo Brancato Jr.)"
     },
     {
       "imdbId": "nm0116717",
@@ -118,7 +121,8 @@
       "name": "Ricky Schroder",
       "roles": [
         "Lt. Paul Hellerman"
-      ]
+      ],
+      "notes": "(as Rick Schroder)"
     },
     {
       "imdbId": "nm0001872",
@@ -153,7 +157,8 @@
       "name": "Matthew Barry",
       "roles": [
         "Planesman"
-      ]
+      ],
+      "notes": "(as Matt Barry)"
     },
     {
       "imdbId": "nm0083782",
@@ -188,7 +193,8 @@
       "name": "Michael D. Weatherred",
       "roles": [
         "Radioman #1"
-      ]
+      ],
+      "notes": "(as Michael Weatherred)"
     },
     {
       "imdbId": "nm0059743",
@@ -328,7 +334,8 @@
       "name": "Brent Goldberg",
       "roles": [
         "Phone Talker #2"
-      ]
+      ],
+      "notes": "(as Brent Michael Goldberg)"
     },
     {
       "imdbId": "nm0342241",
@@ -411,5 +418,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

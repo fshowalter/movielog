@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -53,7 +54,8 @@
       "name": "Yueh Hua",
       "roles": [
         "Li Yu-Han"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0910869",
@@ -67,14 +69,16 @@
       "name": "On-On Yu",
       "roles": [
         "Chin Lien-Chu"
-      ]
+      ],
+      "notes": "(as An An Yu)"
     },
     {
       "imdbId": "nm0232504",
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Yuan Shui-Yun"
-      ]
+      ],
+      "notes": "(as Tung Sheng Erh)"
     },
     {
       "imdbId": "nm0270495",
@@ -108,7 +112,8 @@
       "name": "Norman Chu",
       "roles": [
         "Hsiang Fei-Tien"
-      ]
+      ],
+      "notes": "(as Shao-Chiang Hsu)"
     },
     {
       "imdbId": "nm1807354",
@@ -118,7 +123,8 @@
     {
       "imdbId": "nm0161177",
       "name": "Alan Chung San Chui",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chung-Hsin Hsu)"
     },
     {
       "imdbId": "nm0161213",
@@ -162,7 +168,8 @@
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0487372",
@@ -187,7 +194,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0910705",
@@ -234,7 +242,8 @@
     {
       "imdbId": "nm0082898",
       "name": "Bun Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pin Yuan)"
     },
     {
       "imdbId": "nm0950751",
@@ -246,7 +255,8 @@
       "name": "Wah Yuen",
       "roles": [
         "Mute Buddy"
-      ]
+      ],
+      "notes": "(as Hua Yuan)"
     },
     {
       "imdbId": "nm0950761",
@@ -266,5 +276,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "Hong Kong"
 }

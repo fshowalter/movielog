@@ -5,7 +5,7 @@
   "originalTitle": "Paris - When It Sizzles",
   "sortTitle": "paris-when-it-sizzles-1964",
   "year": "1964",
-  "releaseDate": "1964-03-01",
+  "releaseDate": "1964-04-08",
   "countries": [
     "United States"
   ],
@@ -48,21 +48,24 @@
       "name": "Raymond Bussières",
       "roles": [
         "François"
-      ]
+      ],
+      "notes": "(as Raymond Bussieres)"
     },
     {
       "imdbId": "nm0245104",
       "name": "Christian Duvaleix",
       "roles": [
         "Maitre d'Hotel"
-      ]
+      ],
+      "notes": "(as Christian Duvallex)"
     },
     {
       "imdbId": "nm0859732",
       "name": "Michel Thomass",
       "roles": [
         "Second Gangster"
-      ]
+      ],
+      "notes": "(as Thomas Michel)"
     },
     {
       "imdbId": "nm0097802",
@@ -83,7 +86,16 @@
       "name": "Noël Coward",
       "roles": [
         "Alexander Meyerheim"
-      ]
+      ],
+      "notes": "(as Noel Coward)"
+    },
+    {
+      "imdbId": "nm0000069",
+      "name": "Frank Sinatra",
+      "roles": [
+        "Frank Sinatra"
+      ],
+      "notes": "(singing voice) (uncredited)"
     }
   ],
   "writers": [
@@ -103,5 +115,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 110
+  "runtimeMinutes": 110,
+  "releaseDateCountry": "United States"
 }

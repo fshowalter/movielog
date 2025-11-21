@@ -5,7 +5,7 @@
   "originalTitle": "Aria",
   "sortTitle": "aria-1987",
   "year": "1987",
-  "releaseDate": "1987-05-19",
+  "releaseDate": "1987-09-15",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,43 +18,53 @@
   "directors": [
     {
       "imdbId": "nm0000265",
-      "name": "Robert Altman"
+      "name": "Robert Altman",
+      "notes": "(segment \"Les Boréades\")"
     },
     {
       "imdbId": "nm0000915",
-      "name": "Bruce Beresford"
+      "name": "Bruce Beresford",
+      "notes": "(segment \"Die tote Stadt\")"
     },
     {
       "imdbId": "nm0117317",
-      "name": "Bill Bryden"
+      "name": "Bill Bryden",
+      "notes": "(segment \"I pagliacci\")"
     },
     {
       "imdbId": "nm0000419",
-      "name": "Jean-Luc Godard"
+      "name": "Jean-Luc Godard",
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0418746",
-      "name": "Derek Jarman"
+      "name": "Derek Jarman",
+      "notes": "(segment \"Depuis le jour\")"
     },
     {
       "imdbId": "nm0734466",
-      "name": "Franc Roddam"
+      "name": "Franc Roddam",
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0001676",
-      "name": "Nicolas Roeg"
+      "name": "Nicolas Roeg",
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell"
+      "name": "Ken Russell",
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0836430",
-      "name": "Charles Sturridge"
+      "name": "Charles Sturridge",
+      "notes": "(segment \"La virgine degli angeli\")"
     },
     {
       "imdbId": "nm0854697",
-      "name": "Julien Temple"
+      "name": "Julien Temple",
+      "notes": "(segment \"Rigoletto\")"
     }
   ],
   "performers": [
@@ -62,232 +72,265 @@
       "imdbId": "nm0000622",
       "name": "Theresa Russell",
       "roles": [
-        "King Zog (segment \"Un ballo in maschera\")"
-      ]
+        "King Zog"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0485567",
       "name": "Stephanie Lane",
       "roles": [
-        "Baroness (segment \"Un ballo in maschera\")"
-      ]
+        "Baroness"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0404934",
       "name": "Roy Hyatt",
       "roles": [
-        "Chauffeur (segment \"Un ballo in maschera\")"
-      ]
+        "Chauffeur"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0217657",
       "name": "Sevilla Delofski",
       "roles": [
-        "Maid (segment \"Un ballo in maschera\")"
-      ]
+        "Maid"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0356583",
       "name": "Ruth Halliday",
       "roles": [
-        "Companion (segment \"Un ballo in maschera\")"
-      ]
+        "Companion"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0184913",
       "name": "Arthur Cox",
       "roles": [
-        "Major (segment \"Un ballo in maschera\")"
-      ]
+        "Major"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm1470185",
       "name": "Dennis Holmes",
       "roles": [
-        "Colonel (segment \"Un ballo in maschera\")"
-      ]
+        "Colonel"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0109229",
       "name": "Paul Brightwell",
       "roles": [
-        "Assassin (segment \"Un ballo in maschera\")"
-      ]
+        "Assassin"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0048450",
       "name": "Frank Baker",
       "roles": [
-        "Assassin (segment \"Un ballo in maschera\")"
-      ]
+        "Assassin"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0402757",
       "name": "Christopher Hunter",
       "roles": [
-        "Assassin (segment \"Un ballo in maschera\")"
-      ]
+        "Assassin"
+      ],
+      "notes": "(segment \"Un ballo in maschera\") (as Chris Hunter)"
     },
     {
       "imdbId": "nm0841506",
       "name": "Nicola Swain",
       "roles": [
-        "Marie (segment \"La virgine degli angeli\")"
-      ]
+        "Marie"
+      ],
+      "notes": "(segment \"La virgine degli angeli\")"
     },
     {
       "imdbId": "nm0477386",
       "name": "Jackson Kyle",
       "roles": [
-        "Travis (segment \"La virgine degli angeli\")"
-      ]
+        "Travis"
+      ],
+      "notes": "(segment \"La virgine degli angeli\")"
     },
     {
       "imdbId": "nm0572939",
       "name": "Marianne McLoughlin",
       "roles": [
-        "Kate (segment \"La virgine degli angeli\")"
-      ]
+        "Kate"
+      ],
+      "notes": "(segment \"La virgine degli angeli\")"
     },
     {
       "imdbId": "nm0677295",
       "name": "Marion Peterson",
       "roles": [
-        "Les Jeunes Filles (segment \"Armide\")"
-      ]
+        "Les Jeunes Filles"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0019859",
       "name": "Valérie Allain",
       "roles": [
-        "Les Jeunes Filles (segment \"Armide\")"
-      ]
+        "Les Jeunes Filles"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0627248",
       "name": "Jacques Neuville",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0180740",
       "name": "Luke Corre",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0146443",
       "name": "Christiam Cauchon",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0670924",
       "name": "Philippe Pellant",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0512817",
       "name": "Patrice Linguet",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0815048",
       "name": "Lionel Sorin",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0168945",
       "name": "Jean Coffinet",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0220751",
       "name": "Alexandre Des Granges",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0900289",
       "name": "Gérard Vivès",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0112520",
       "name": "Frederick Brosse",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0075908",
       "name": "Pascal Bermont",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0180739",
       "name": "Jean Luc Corre",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0309987",
       "name": "Bernard Gaudray",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0543511",
       "name": "Dominique Mano",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0872649",
       "name": "Patrice Tridian",
       "roles": [
-        "Bodybuilder (segment \"Armide\")"
-      ]
+        "Bodybuilder"
+      ],
+      "notes": "(segment \"Armide\")"
     },
     {
       "imdbId": "nm0377750",
       "name": "Buck Henry",
       "roles": [
-        "Preston (segment \"Rigoletto\")"
-      ]
+        "Preston"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0000350",
       "name": "Beverly D'Angelo",
       "roles": [
-        "Gilda (segment \"Rigoletto\")"
-      ]
+        "Gilda"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0440723",
       "name": "Gary Kasper",
       "roles": [
-        "Jake (segment \"Rigoletto\")"
-      ]
+        "Jake"
+      ],
+      "notes": "(segment \"Rigoletto\") (as Garry Kasper)"
     },
     {
       "imdbId": "nm0606360",
@@ -300,327 +343,357 @@
       "imdbId": "nm0396183",
       "name": "John Hostetter",
       "roles": [
-        "Elvis Impersonator (segment \"Rigoletto\")"
-      ]
+        "Elvis Impersonator"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0783675",
       "name": "Albie Selznick",
       "roles": [
-        "Bell Boy (segment \"Rigoletto\")"
-      ]
+        "Bell Boy"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0563306",
       "name": "Stan Mazin",
       "roles": [
-        "Dancer (segment \"Rigoletto\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0758399",
       "name": "Dominic Salinero",
       "roles": [
-        "Dancer (segment \"Rigoletto\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0129919",
       "name": "Jeff Calhoun",
       "roles": [
-        "Dancer (segment \"Rigoletto\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"Rigoletto\")"
     },
     {
       "imdbId": "nm0000167",
       "name": "Elizabeth Hurley",
       "roles": [
-        "Marietta (segment \"Die tote Stadt\")"
-      ]
+        "Marietta"
+      ],
+      "notes": "(segment \"Die tote Stadt\")"
     },
     {
       "imdbId": "nm0083281",
       "name": "Peter Birch",
       "roles": [
-        "Paul (segment \"Die tote Stadt\")"
-      ]
+        "Paul"
+      ],
+      "notes": "(segment \"Die tote Stadt\")"
     },
     {
       "imdbId": "nm0000403",
       "name": "Bridget Fonda",
       "roles": [
-        "Lover (segment \"Liebestod\")"
-      ]
+        "Lover"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0558485",
       "name": "James Mathers",
       "roles": [
-        "Lover (segment \"Liebestod\")"
-      ]
+        "Lover"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0856504",
       "name": "Angie Tetamontie",
       "roles": [
-        "Las Vegas Lady (segment \"Liebestod\")"
-      ]
+        "Las Vegas Lady"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0118006",
       "name": "Esther Buchanan",
       "roles": [
-        "Las Vegas Lady (segment \"Liebestod\")"
-      ]
+        "Las Vegas Lady"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0182787",
       "name": "Lorraine Cote",
       "roles": [
-        "Las Vegas Lady (segment \"Liebestod\")"
-      ]
+        "Las Vegas Lady"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0466388",
       "name": "Renee Korn",
       "roles": [
-        "Las Vegas Lady (segment \"Liebestod\")"
-      ]
+        "Las Vegas Lady"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0918927",
       "name": "Bertha Weiss",
       "roles": [
-        "Lady with Glove (segment \"Liebestod\")"
-      ]
+        "Lady with Glove"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0246814",
       "name": "Dyanne Thorne",
       "roles": [
-        "Bride (segment \"Liebestod\")"
-      ]
+        "Bride"
+      ],
+      "notes": "(segment \"Liebestod\") (as Diane Thorne)"
     },
     {
       "imdbId": "nm0561022",
       "name": "Howard Maurer",
       "roles": [
-        "Groom (segment \"Liebestod\")"
-      ]
+        "Groom"
+      ],
+      "notes": "(segment \"Liebestod\") (as Howie Maurer)"
     },
     {
       "imdbId": "nm0171011",
       "name": "Derick Coleman",
       "roles": [
-        "Indian Boy (segment \"Liebestod\")"
-      ]
+        "Indian Boy"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0114453",
       "name": "Quentin Brown",
       "roles": [
-        "Indian Boy (segment \"Liebestod\")"
-      ]
+        "Indian Boy"
+      ],
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0237684",
       "name": "Linzi Drew",
       "roles": [
-        "Girl (segment \"Nessun dorma\")"
-      ]
+        "Girl"
+      ],
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0936591",
       "name": "Andreas Wisniewski",
-      "roles": [
-        "(segment \"Nessun dorma\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0543894",
       "name": "Q",
-      "roles": [
-        "(segment \"Nessun dorma\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"Nessun dorma\") (as Kwabena Manso)"
     },
     {
       "imdbId": "nm0256704",
       "name": "Bella Enahoro",
-      "roles": [
-        "(segment \"Nessun dorma\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0558752",
       "name": "Bunty Mathias",
-      "roles": [
-        "(segment \"Nessun dorma\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0907525",
       "name": "Angela Savy",
-      "roles": [
-        "(segment \"Nessun dorma\")"
-      ]
+      "roles": [],
+      "notes": "(segment \"Nessun dorma\") (as Angela Walker)"
     },
     {
       "imdbId": "nm0424497",
       "name": "Amy Johnson",
       "roles": [
-        "Old lady (segment \"Depuis le jour\")"
-      ]
+        "Old lady"
+      ],
+      "notes": "(segment \"Depuis le jour\")"
     },
     {
       "imdbId": "nm0842770",
       "name": "Tilda Swinton",
       "roles": [
-        "Young girl (segment \"Depuis le jour\")"
-      ]
+        "Young girl"
+      ],
+      "notes": "(segment \"Depuis le jour\")"
     },
     {
       "imdbId": "nm0500293",
       "name": "Spencer Leigh",
       "roles": [
-        "Young man (segment \"Depuis le jour\")"
-      ]
+        "Young man"
+      ],
+      "notes": "(segment \"Depuis le jour\")"
     },
     {
       "imdbId": "nm0000457",
       "name": "John Hurt",
       "roles": [
-        "The Actor (segment \"I pagliacci\")"
-      ]
+        "The Actor"
+      ],
+      "notes": "(segment \"I pagliacci\")"
     },
     {
       "imdbId": "nm0001830",
       "name": "Sophie Ward",
       "roles": [
-        "The Young Girl (segment \"I pagliacci\")"
-      ]
+        "The Young Girl"
+      ],
+      "notes": "(segment \"I pagliacci\")"
     },
     {
       "imdbId": "nm0171680",
       "name": "Paul Collard",
       "roles": [
-        "Valet (segment \"Un ballo in maschera\")"
-      ]
+        "Valet"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0428131",
       "name": "George Ellis Jones",
       "roles": [
-        "Chauffeur (segment \"Un ballo in maschera\")"
-      ]
+        "Chauffeur"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0280210",
       "name": "Danny Fitzgerald",
       "roles": [
-        "Mercedes Man (segment \"Un ballo in maschera\")"
-      ]
+        "Mercedes Man"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0236398",
       "name": "Johnny Doyle",
       "roles": [
-        "Blind Balloon Man (segment \"Un ballo in maschera\")"
-      ]
+        "Blind Balloon Man"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0743335",
       "name": "David Ross",
       "roles": [
-        "Doorman (segment \"Un ballo in maschera\")"
-      ]
+        "Doorman"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0647163",
       "name": "Lucy Olivier",
       "roles": [
-        "Woman in Background (segment \"Un ballo in maschera\")"
-      ]
+        "Woman in Background"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0935733",
       "name": "Gordon Winter",
       "roles": [
-        "Man in Background (segment \"Un ballo in maschera\")"
-      ]
+        "Man in Background"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0267738",
       "name": "Derek Farmer",
       "roles": [
-        "Motorbike Man (segment \"Un ballo in maschera\")"
-      ]
+        "Motorbike Man"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0713858",
       "name": "Michelle Read",
       "roles": [
-        "Nanny (segment \"Un ballo in maschera\")"
-      ]
+        "Nanny"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0736313",
       "name": "Maximillian Roeg",
       "roles": [
-        "Child (segment \"Un ballo in maschera\")"
-      ]
+        "Child"
+      ],
+      "notes": "(segment \"Un ballo in maschera\")"
     }
   ],
   "writers": [
     {
       "imdbId": "nm0000265",
       "name": "Robert Altman",
-      "notes": "writer (segment \"Les Boréades\")"
+      "notes": "(segment \"Les Boréades\")"
     },
     {
       "imdbId": "nm0000915",
       "name": "Bruce Beresford",
-      "notes": "writer (segment \"Die tote Stadt\")"
+      "notes": "(segment \"Die tote Stadt\")"
     },
     {
       "imdbId": "nm0101750",
       "name": "Don Boyd",
-      "notes": "writer (segment \"I pagliacci\")"
+      "notes": "(segment \"I pagliacci\")"
     },
     {
       "imdbId": "nm0117317",
       "name": "Bill Bryden",
-      "notes": "writer (segment \"I pagliacci\")"
+      "notes": "(segment \"I pagliacci\")"
     },
     {
       "imdbId": "nm0418746",
       "name": "Derek Jarman",
-      "notes": "writer (segment \"Depuis le jour\")"
+      "notes": "(segment \"Depuis le jour\")"
     },
     {
       "imdbId": "nm0734466",
       "name": "Franc Roddam",
-      "notes": "writer (segment \"Liebestod\")"
+      "notes": "(segment \"Liebestod\")"
     },
     {
       "imdbId": "nm0001676",
       "name": "Nicolas Roeg",
-      "notes": "writer (segment \"Un ballo in maschera\")"
+      "notes": "(segment \"Un ballo in maschera\")"
     },
     {
       "imdbId": "nm0001692",
       "name": "Ken Russell",
-      "notes": "writer (segment \"Nessun dorma\")"
+      "notes": "(segment \"Nessun dorma\")"
     },
     {
       "imdbId": "nm0836430",
       "name": "Charles Sturridge",
-      "notes": "writer (segment \"La virgine degli angeli\")"
+      "notes": "(segment \"La virgine degli angeli\")"
     },
     {
       "imdbId": "nm0854697",
       "name": "Julien Temple",
-      "notes": "writer (segment \"Rigoletto\")"
+      "notes": "(segment \"Rigoletto\")"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

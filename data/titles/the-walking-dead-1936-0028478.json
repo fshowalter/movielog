@@ -5,7 +5,7 @@
   "originalTitle": "The Walking Dead",
   "sortTitle": "walking-dead-1936",
   "year": "1936",
-  "releaseDate": "1936-03-01",
+  "releaseDate": "1936-03-14",
   "countries": [
     "United States"
   ],
@@ -76,7 +76,8 @@
       "name": "Joe King",
       "roles": [
         "Judge Roger Shaw"
-      ]
+      ],
+      "notes": "(as Joseph King)"
     },
     {
       "imdbId": "nm0723935",
@@ -104,7 +105,8 @@
       "name": "Joe Sawyer",
       "roles": [
         "Trigger Smith"
-      ]
+      ],
+      "notes": "(as Joseph Sawyer)"
     },
     {
       "imdbId": "nm0010333",
@@ -167,5 +169,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 66
+  "runtimeMinutes": 66,
+  "releaseDateCountry": "United States"
 }

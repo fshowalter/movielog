@@ -5,7 +5,7 @@
   "originalTitle": "His Girl Friday",
   "sortTitle": "his-girl-friday-1940",
   "year": "1940",
-  "releaseDate": "1940-01-11",
+  "releaseDate": "1940-01-18",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks"
+      "name": "Howard Hawks",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -170,7 +171,18 @@
       "imdbId": "nm0531269",
       "name": "Charles MacArthur",
       "notes": "from the play \"The Front Page\""
+    },
+    {
+      "imdbId": "nm0372942",
+      "name": "Ben Hecht",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0753452",
+      "name": "Morrie Ryskind",
+      "notes": "additional dialogue (uncredited)"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

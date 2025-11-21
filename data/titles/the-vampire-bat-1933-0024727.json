@@ -5,7 +5,7 @@
   "sortTitle": "vampire-bat-1933",
   "year": "1933",
   "slug": "the-vampire-bat-1933",
-  "releaseDate": "1933-??-??",
+  "releaseDate": "1933-01-10",
   "runtimeMinutes": 65,
   "countries": [
     "United States"
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0833965",
-      "name": "Frank R. Strayer"
+      "name": "Frank R. Strayer",
+      "notes": "directed by (as Frank Strayer)"
     }
   ],
   "performers": [
@@ -78,7 +79,8 @@
       "name": "Rita Carlyle",
       "roles": [
         "Martha Mueller"
-      ]
+      ],
+      "notes": "(as Rita Carlisle)"
     },
     {
       "imdbId": "nm0069373",
@@ -115,5 +117,6 @@
       "name": "Edward T. Lowe Jr.",
       "notes": "screen story (as Edward T. Lowe)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

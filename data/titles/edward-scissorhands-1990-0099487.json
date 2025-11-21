@@ -5,7 +5,7 @@
   "originalTitle": "Edward Scissorhands",
   "sortTitle": "edward-scissorhands-1990",
   "year": "1990",
-  "releaseDate": "1990-12-06",
+  "releaseDate": "1990-12-14",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000318",
-      "name": "Tim Burton"
+      "name": "Tim Burton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -110,14 +111,16 @@
       "name": "Susan Blommaert",
       "roles": [
         "Tinka"
-      ]
+      ],
+      "notes": "(as Susan J. Blommaert)"
     },
     {
       "imdbId": "nm0674642",
       "name": "Linda Perri",
       "roles": [
         "Cissy"
-      ]
+      ],
+      "notes": "(as Linda Perry)"
     },
     {
       "imdbId": "nm0203384",
@@ -229,7 +232,8 @@
       "name": "Andrew B. Clark",
       "roles": [
         "Beefy Man"
-      ]
+      ],
+      "notes": "(as Andrew Clark)"
     },
     {
       "imdbId": "nm0188513",
@@ -375,7 +379,8 @@
       "name": "Kathy Lockwood",
       "roles": [
         "Neighborhood Extra"
-      ]
+      ],
+      "notes": "(as Kathy Fleming)"
     },
     {
       "imdbId": "nm1021497",
@@ -521,5 +526,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "United States"
 }

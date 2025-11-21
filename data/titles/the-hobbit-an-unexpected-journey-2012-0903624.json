@@ -5,7 +5,7 @@
   "originalTitle": "The Hobbit: An Unexpected Journey",
   "sortTitle": "hobbit-an-unexpected-journey-2012",
   "year": "2012",
-  "releaseDate": "2012-11-28",
+  "releaseDate": "2012-12-14",
   "countries": [
     "New Zealand",
     "United States"
@@ -197,7 +197,8 @@
       "name": "Michael Mizrahi",
       "roles": [
         "Thrain"
-      ]
+      ],
+      "notes": "(as Mike Mizrahi)"
     },
     {
       "imdbId": "nm1195855",
@@ -289,42 +290,32 @@
       "name": "Katherine Jackson",
       "roles": [
         "Cute Young Hobbit"
-      ]
-    },
-    {
-      "imdbId": "nm6651673",
-      "name": "Isaac Miller",
-      "roles": [
-        "Cute Young Hobbit"
-      ]
-    },
-    {
-      "imdbId": "nm6651674",
-      "name": "Ella Olssen",
-      "roles": [
-        "Cute Young Hobbit"
-      ]
+      ],
+      "notes": "(as Katie Jackson)"
     },
     {
       "imdbId": "nm6162831",
       "name": "Louis Ashbourne Serkis",
       "roles": [
         "Cute Young Hobbit"
-      ]
+      ],
+      "notes": "(as Louis Serkis)"
     },
     {
       "imdbId": "nm3966885",
       "name": "Ruby Ashbourne Serkis",
       "roles": [
         "Cute Young Hobbit"
-      ]
+      ],
+      "notes": "(as Ruby Serkis)"
     },
     {
       "imdbId": "nm3966497",
       "name": "Sonny Ashbourne Serkis",
       "roles": [
         "Cute Young Hobbit"
-      ]
+      ],
+      "notes": "(as Sonny Serkis)"
     },
     {
       "imdbId": "nm6651666",
@@ -371,6 +362,20 @@
     {
       "imdbId": "nm6651672",
       "name": "Honor McTavish",
+      "roles": [
+        "Cute Young Hobbit"
+      ]
+    },
+    {
+      "imdbId": "nm6651673",
+      "name": "Isaac Miller",
+      "roles": [
+        "Cute Young Hobbit"
+      ]
+    },
+    {
+      "imdbId": "nm6651674",
+      "name": "Ella Olssen",
       "roles": [
         "Cute Young Hobbit"
       ]
@@ -445,5 +450,6 @@
       "notes": "novel \"The Hobbit\""
     }
   ],
-  "runtimeMinutes": 169
+  "runtimeMinutes": 169,
+  "releaseDateCountry": "United States"
 }

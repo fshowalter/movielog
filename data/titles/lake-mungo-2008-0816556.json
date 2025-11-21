@@ -5,7 +5,7 @@
   "originalTitle": "Lake Mungo",
   "sortTitle": "lake-mungo-2008",
   "year": "2008",
-  "releaseDate": "2008-06-18",
+  "releaseDate": "2010-01-29",
   "countries": [
     "Australia"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1757667",
-      "name": "Joel Anderson"
+      "name": "Joel Anderson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -132,7 +133,8 @@
       "name": "Phillip Boltin",
       "roles": [
         "Dr Kenin Slatter"
-      ]
+      ],
+      "notes": "(as Dr Phillip Boltin)"
     },
     {
       "imdbId": "nm3075395",
@@ -188,7 +190,8 @@
       "name": "Michael Ormond Robinson",
       "roles": [
         "Douglas Withers"
-      ]
+      ],
+      "notes": "(as Michael Robinson)"
     },
     {
       "imdbId": "nm1799548",
@@ -268,6 +271,14 @@
       ]
     },
     {
+      "imdbId": "nm1170974",
+      "name": "Roberto J. Salvatore",
+      "roles": [
+        "Emergency Call Operator"
+      ],
+      "notes": "(voice) (as Roberto Salvatore)"
+    },
+    {
       "imdbId": "nm2556547",
       "name": "Richard Kelly",
       "roles": [
@@ -296,5 +307,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 87
+  "runtimeMinutes": 87,
+  "releaseDateCountry": "United States"
 }

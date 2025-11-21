@@ -5,7 +5,7 @@
   "originalTitle": "Martyrs",
   "sortTitle": "martyrs-2008",
   "year": "2008",
-  "releaseDate": "2008-08-19",
+  "releaseDate": "2008-09-03",
   "countries": [
     "France",
     "Canada"
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm1052791",
-      "name": "Pascal Laugier"
+      "name": "Pascal Laugier",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -67,7 +68,16 @@
       "name": "Xavier Dolan",
       "roles": [
         "Antoine"
-      ]
+      ],
+      "notes": "(as Xavier Dolan-Tadros)"
+    },
+    {
+      "imdbId": "nm0092411",
+      "name": "Louise Boisvert",
+      "roles": [
+        "Mère d'Anna"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0597629",
@@ -144,7 +154,8 @@
       "name": "Jean-François Boudreau",
       "roles": [
         "Homme de main"
-      ]
+      ],
+      "notes": "(as Jean-François Boudreault)"
     },
     {
       "imdbId": "nm1853245",
@@ -186,7 +197,8 @@
       "name": "Philippe Laugler",
       "roles": [
         "Inspecteur"
-      ]
+      ],
+      "notes": "(as Philippe Laugier)"
     },
     {
       "imdbId": "nm1322626",
@@ -217,5 +229,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "France"
 }

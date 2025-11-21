@@ -5,7 +5,7 @@
   "originalTitle": "The Perfect Host",
   "sortTitle": "perfect-host-2010",
   "year": "2010",
-  "releaseDate": "2010-01-01",
+  "releaseDate": "2011-05-07",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm1204442",
-      "name": "Nicholas Tomnay"
+      "name": "Nicholas Tomnay",
+      "notes": "(as Nick Tomnay)"
     }
   ],
   "performers": [
@@ -75,21 +76,24 @@
       "name": "Indira G. Wilson",
       "roles": [
         "Monica"
-      ]
+      ],
+      "notes": "(as Indira Gibson)"
     },
     {
       "imdbId": "nm0156475",
       "name": "George Cheung",
       "roles": [
         "Storekeeper"
-      ]
+      ],
+      "notes": "(as George Kee Cheung)"
     },
     {
       "imdbId": "nm0026460",
       "name": "Brooke Anderson",
       "roles": [
         "Thief"
-      ]
+      ],
+      "notes": "(as Brooke 'Mikey' Anderson)"
     },
     {
       "imdbId": "nm0364246",
@@ -166,7 +170,8 @@
       "name": "Hannah Christina Rodriguez",
       "roles": [
         "Party Guest"
-      ]
+      ],
+      "notes": "(as Hannah Cosgrove)"
     },
     {
       "imdbId": "nm4707887",
@@ -222,7 +227,8 @@
       "name": "Jesse Lewis IV",
       "roles": [
         "Party Guest"
-      ]
+      ],
+      "notes": "(as Jessie Lewis)"
     },
     {
       "imdbId": "nm4708552",
@@ -236,7 +242,8 @@
       "name": "Cal Giardina",
       "roles": [
         "Party Guest"
-      ]
+      ],
+      "notes": "(as Cal Rein)"
     },
     {
       "imdbId": "nm2475305",
@@ -272,19 +279,35 @@
       "roles": [
         "Party Guest"
       ]
+    },
+    {
+      "imdbId": "nm0868122",
+      "name": "Daisy Tormé",
+      "roles": [
+        "Female Radio Broadcaster"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0020594",
+      "name": "Ivan Allen",
+      "roles": [
+        "Male Radio Broadcaster"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
     {
       "imdbId": "nm1204442",
       "name": "Nicholas Tomnay",
-      "notes": "writer (as Nick Tomnay) &"
+      "notes": "(as Nick Tomnay) &"
     },
     {
       "imdbId": "nm2032824",
-      "name": "Krishna Jones",
-      "notes": "writer"
+      "name": "Krishna Jones"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "Japan"
 }

@@ -21,35 +21,43 @@
   "directors": [
     {
       "imdbId": "nm0994468",
-      "name": "David Worthen Brooks"
+      "name": "David Worthen Brooks",
+      "notes": "(segment \"Member\") (as David Brooks)"
     },
     {
       "imdbId": "nm0000343",
-      "name": "David Cronenberg"
+      "name": "David Cronenberg",
+      "notes": "(segment \"Camera\")"
     },
     {
       "imdbId": "nm1000898",
-      "name": "Syd Garon"
+      "name": "Syd Garon",
+      "notes": "(segment \"Wave Twisters \")"
     },
     {
       "imdbId": "nm1037263",
-      "name": "Eric Henry"
+      "name": "Eric Henry",
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm0506703",
-      "name": "Jeff Lew"
+      "name": "Jeff Lew",
+      "notes": "(segment \"Killer Bean 2: The Party \")"
     },
     {
       "imdbId": "nm0778108",
-      "name": "Steffen Schäffler"
+      "name": "Steffen Schäffler",
+      "notes": "(segment \"The Periwig-Maker \")"
     },
     {
       "imdbId": "nm0800800",
-      "name": "Ola Simonsson"
+      "name": "Ola Simonsson",
+      "notes": "(segment \"Music for One Apartment and Six Drummers \")"
     },
     {
       "imdbId": "nm0632312",
-      "name": "Johannes Stjärne Nilsson"
+      "name": "Johannes Stjärne Nilsson",
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     }
   ],
   "performers": [
@@ -57,159 +65,183 @@
       "imdbId": "nm1131943",
       "name": "Johannes Björk",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm1132005",
       "name": "Magnus Börjeson",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
+    },
+    {
+      "imdbId": "nm0000110",
+      "name": "Kenneth Branagh",
+      "roles": [
+        "Periwig-maker"
+      ],
+      "notes": "(segment \"The Periwig-Maker\") (voice)"
     },
     {
       "imdbId": "nm0137967",
       "name": "Leslie Carlson",
       "roles": [
-        "The Actor (segment \"Camera\")"
-      ]
+        "The Actor"
+      ],
+      "notes": "(segment \"Camera\")"
     },
     {
       "imdbId": "nm1028835",
       "name": "D-Styles",
       "roles": [
-        "Wax Fondler (segment \"Wave Twisters\")"
-      ]
+        "Wax Fondler"
+      ],
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1029039",
       "name": "Riche-Van Desuasido",
       "roles": [
-        "Turbo Frog (segment \"Wave Twisters\")"
-      ]
+        "Turbo Frog"
+      ],
+      "notes": "(segment \"Wave Twisters\") (as Yogafrog)"
     },
     {
       "imdbId": "nm1029438",
       "name": "Flare",
       "roles": [
-        "Butchwax (segment \"Wave Twisters\")"
-      ]
+        "Butchwax"
+      ],
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1185048",
       "name": "Barbro Gustafson Löfgren",
       "roles": [
-        "The Woman (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "The Woman"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm1133009",
       "name": "Sanna Persson Halapi",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\") (as Sanna Persson)"
     },
     {
       "imdbId": "nm1132412",
       "name": "Marcus Haraldson",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm0001326",
       "name": "Josh Hartnett",
       "roles": [
-        "Gianni (segment \"Member\")"
-      ]
+        "Gianni"
+      ],
+      "notes": "(segment \"Member\")"
     },
     {
       "imdbId": "nm1162194",
       "name": "Anders Jansson",
       "roles": [
-        "The TV-Man (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "The TV-Man"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm1133743",
       "name": "Fredrik Myhr",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm0702579",
       "name": "DJ Q-Bert",
       "roles": [
-        "Darth Fader (segment \"Wave Twisters\")"
-      ]
+        "Darth Fader"
+      ],
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1186443",
       "name": "Zerby Thor",
       "roles": [
-        "The Man (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "The Man"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     },
     {
       "imdbId": "nm1133431",
       "name": "Anders Vestergard",
       "roles": [
-        "Drummer (segment \"Music for One Apartment and Six Drummers\")"
-      ]
+        "Drummer"
+      ],
+      "notes": "(segment \"Music for One Apartment and Six Drummers\")"
     }
   ],
   "writers": [
     {
       "imdbId": "nm0994468",
       "name": "David Worthen Brooks",
-      "notes": "writer (segment \"Member\") (as David Brooks)"
+      "notes": "(segment \"Member\") (as David Brooks)"
     },
     {
       "imdbId": "nm0000343",
       "name": "David Cronenberg",
-      "notes": "writer (segment \"Camera\")"
+      "notes": "(segment \"Camera\")"
     },
     {
       "imdbId": "nm1037124",
       "name": "Doug Cunningham",
-      "notes": "writer (segment \"Wave Twisters\")"
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1000898",
       "name": "Syd Garon",
-      "notes": "writer (segment \"Wave Twisters\")"
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm1037263",
       "name": "Eric Henry",
-      "notes": "writer (segment \"Wave Twisters\")"
+      "notes": "(segment \"Wave Twisters\")"
     },
     {
       "imdbId": "nm0506703",
       "name": "Jeff Lew",
-      "notes": "writer (segment \"Killer Bean 2: The Party \")"
+      "notes": "(segment \"Killer Bean 2: The Party \")"
     },
     {
       "imdbId": "nm0778105",
       "name": "Annette Schäffler",
-      "notes": "writer (segment \"The Periwig-Maker \")"
+      "notes": "(segment \"The Periwig-Maker \")"
     },
     {
       "imdbId": "nm0778108",
       "name": "Steffen Schäffler",
-      "notes": "writer (segment \"The Periwig-Maker \")"
+      "notes": "(segment \"The Periwig-Maker \")"
     },
     {
       "imdbId": "nm0800800",
       "name": "Ola Simonsson",
-      "notes": "writer (segment \"Music for One Apartment and Six Drummers \")"
+      "notes": "(segment \"Music for One Apartment and Six Drummers \")"
     },
     {
       "imdbId": "nm0632312",
       "name": "Johannes Stjärne Nilsson",
-      "notes": "writer (segment \"Music for One Apartment and Six Drummers \")"
+      "notes": "(segment \"Music for One Apartment and Six Drummers \")"
     }
   ],
-  "runtimeMinutes": 100
+  "runtimeMinutes": 100,
+  "releaseDateCountry": "Japan"
 }

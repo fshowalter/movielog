@@ -5,7 +5,7 @@
   "originalTitle": "Son of Frankenstein",
   "sortTitle": "son-of-frankenstein-1939",
   "year": "1939",
-  "releaseDate": "1939-01-10",
+  "releaseDate": "1939-01-13",
   "countries": [
     "United States"
   ],
@@ -110,7 +110,8 @@
       "name": "Caroline Frances Cooke",
       "roles": [
         "Frau Neumüller"
-      ]
+      ],
+      "notes": "(as Caroline Cooke)"
     },
     {
       "imdbId": "nm0167032",
@@ -124,7 +125,8 @@
       "name": "Lorimer Johnston",
       "roles": [
         "Burgher"
-      ]
+      ],
+      "notes": "(as Lorimer Johnson)"
     },
     {
       "imdbId": "nm0725529",
@@ -138,20 +140,22 @@
       "name": "Dwight Frye",
       "roles": [
         "Villager"
-      ]
+      ],
+      "notes": "(unconfirmed)"
     }
   ],
   "writers": [
     {
+      "imdbId": "nm0178459",
+      "name": "Wyllis Cooper",
+      "notes": "original screenplay (as Willis Cooper)"
+    },
+    {
       "imdbId": "nm0791217",
       "name": "Mary Shelley",
       "notes": "suggested by the story written in 1816 (as Mary Wollstonecraft Shelley)"
-    },
-    {
-      "imdbId": "nm0178459",
-      "name": "Wyllis Cooper",
-      "notes": "screenplay (as Willis Cooper)"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

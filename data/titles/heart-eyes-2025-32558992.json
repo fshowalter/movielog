@@ -5,21 +5,23 @@
   "sortTitle": "heart-eyes-2025",
   "year": "2025",
   "slug": "heart-eyes-2025",
-  "releaseDate": "2025-02-06",
+  "releaseDate": "2025-02-07",
   "runtimeMinutes": 97,
   "countries": [
-    "United States",
-    "New Zealand"
+    "New Zealand",
+    "United States"
   ],
   "genres": [
     "Comedy",
     "Horror",
-    "Mystery"
+    "Mystery",
+    "Romance"
   ],
   "directors": [
     {
       "imdbId": "nm2063694",
-      "name": "Josh Ruben"
+      "name": "Josh Ruben",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -63,7 +65,8 @@
       "name": "Amy L. Workman",
       "roles": [
         "Reporter"
-      ]
+      ],
+      "notes": "(as Amy Workman)"
     },
     {
       "imdbId": "nm6940525",
@@ -376,5 +379,6 @@
       "name": "Michael Kennedy",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

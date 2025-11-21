@@ -5,7 +5,7 @@
   "originalTitle": "Avengers: Endgame",
   "sortTitle": "avengers-endgame-2019",
   "year": "2019",
-  "releaseDate": "2019-04-18",
+  "releaseDate": "2019-04-26",
   "countries": [
     "United States"
   ],
@@ -131,7 +131,8 @@
       "name": "Zoe Saldaña",
       "roles": [
         "Gamora"
-      ]
+      ],
+      "notes": "(as Zoe Saldana)"
     },
     {
       "imdbId": "nm1431940",
@@ -264,6 +265,14 @@
       ]
     },
     {
+      "imdbId": "nm0169806",
+      "name": "Taika Waititi",
+      "roles": [
+        "Korg"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0000291",
       "name": "Angela Bassett",
       "roles": [
@@ -325,7 +334,8 @@
       "name": "Maximiliano Hernández",
       "roles": [
         "Agent Sitwell"
-      ]
+      ],
+      "notes": "(as Maximiliano Hernandez)"
     },
     {
       "imdbId": "nm0342029",
@@ -361,6 +371,22 @@
       "roles": [
         "Ned"
       ]
+    },
+    {
+      "imdbId": "nm0004874",
+      "name": "Vin Diesel",
+      "roles": [
+        "Groot"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0177896",
+      "name": "Bradley Cooper",
+      "roles": [
+        "Rocket"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0000569",
@@ -417,7 +443,8 @@
       "name": "Joe Russo",
       "roles": [
         "Grieving Man"
-      ]
+      ],
+      "notes": "(as Gozie Agbo)"
     },
     {
       "imdbId": "nm3409535",
@@ -431,7 +458,8 @@
       "name": "Michael James Shaw",
       "roles": [
         "Corvus Glaive"
-      ]
+      ],
+      "notes": "(as Michael Shaw)"
     },
     {
       "imdbId": "nm1024953",
@@ -440,6 +468,14 @@
         "On-Set Groot",
         "Cull Obsidian"
       ]
+    },
+    {
+      "imdbId": "nm0174403",
+      "name": "Kerry Condon",
+      "roles": [
+        "Friday"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm7337680",
@@ -509,7 +545,8 @@
       "name": "Augie Rosalina",
       "roles": [
         "Augie"
-      ]
+      ],
+      "notes": "(as Agostino Rosalina)"
     },
     {
       "imdbId": "nm0421822",
@@ -530,7 +567,8 @@
       "name": "Jackson A. Dunn",
       "roles": [
         "Scott Lang (12 Y.O.)"
-      ]
+      ],
+      "notes": "(as Jackson Dunn)"
     },
     {
       "imdbId": "nm0601495",
@@ -579,7 +617,8 @@
       "name": "Michael A. Cook",
       "roles": [
         "Male S.H.I.E.L.D. Agent"
-      ]
+      ],
+      "notes": "(as Michael Cook)"
     },
     {
       "imdbId": "nm4230395",
@@ -600,14 +639,16 @@
       "name": "Jamie Wedel",
       "roles": [
         "Drill Sergeant"
-      ]
+      ],
+      "notes": "(as James Wedel)"
     },
     {
       "imdbId": "nm4193560",
       "name": "Anthony G Breed",
       "roles": [
         "Young Stan Lee Double"
-      ]
+      ],
+      "notes": "(as Anthony Breed)"
     },
     {
       "imdbId": "nm10679941",
@@ -698,7 +739,8 @@
       "name": "Tom Wisdom",
       "roles": [
         "Loki Reader"
-      ]
+      ],
+      "notes": "(as Thomas Wisdom)"
     },
     {
       "imdbId": "nm0692663",
@@ -756,67 +798,8 @@
       "imdbId": "nm0456158",
       "name": "Jack Kirby",
       "notes": "based on the Marvel comics by"
-    },
-    {
-      "imdbId": "nm0800209",
-      "name": "Joe Simon",
-      "notes": "Captain America created by and"
-    },
-    {
-      "imdbId": "nm0456158",
-      "name": "Jack Kirby",
-      "notes": "Captain America created by"
-    },
-    {
-      "imdbId": "nm1921680",
-      "name": "Steve Englehart",
-      "notes": "Star-Lord created by and"
-    },
-    {
-      "imdbId": "nm3053444",
-      "name": "Steve Gan",
-      "notes": "Star-Lord created by"
-    },
-    {
-      "imdbId": "nm2757098",
-      "name": "Bill Mantlo",
-      "notes": "Rocket Raccoon created by and"
-    },
-    {
-      "imdbId": "nm0317493",
-      "name": "Keith Giffen",
-      "notes": "Rocket Raccoon created by"
-    },
-    {
-      "imdbId": "nm4160687",
-      "name": "Jim Starlin",
-      "notes": "Thanos, Gamora, and Drax created by"
-    },
-    {
-      "imdbId": "nm0498278",
-      "name": "Stan Lee",
-      "notes": "Groot created by and"
-    },
-    {
-      "imdbId": "nm1293367",
-      "name": "Larry Lieber",
-      "notes": "Groot created by and"
-    },
-    {
-      "imdbId": "nm0456158",
-      "name": "Jack Kirby",
-      "notes": "Groot created by"
-    },
-    {
-      "imdbId": "nm1921680",
-      "name": "Steve Englehart",
-      "notes": "Mantis created by and"
-    },
-    {
-      "imdbId": "nm1411347",
-      "name": "Don Heck",
-      "notes": "Mantis created by"
     }
   ],
-  "runtimeMinutes": 181
+  "runtimeMinutes": 181,
+  "releaseDateCountry": "United States"
 }

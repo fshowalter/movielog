@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0001008",
-      "name": "Frank Capra"
+      "name": "Frank Capra",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -81,7 +82,8 @@
       "name": "James Komack",
       "roles": [
         "Julius Manetta"
-      ]
+      ],
+      "notes": "(as Jimmy Komack)"
     },
     {
       "imdbId": "nm0852305",
@@ -152,5 +154,6 @@
       "notes": "play"
     }
   ],
-  "runtimeMinutes": 120
+  "runtimeMinutes": 120,
+  "releaseDateCountry": "United States"
 }

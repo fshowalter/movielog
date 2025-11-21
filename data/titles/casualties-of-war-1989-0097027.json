@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000361",
-      "name": "Brian De Palma"
+      "name": "Brian De Palma",
+      "notes": "(as Brian DePalma)"
     }
   ],
   "performers": [
@@ -167,7 +168,8 @@
       "name": "John Marshall Jones",
       "roles": [
         "M.P."
-      ]
+      ],
+      "notes": "(as J.J.)"
     },
     {
       "imdbId": "nm0564697",
@@ -202,7 +204,8 @@
       "name": "Tran Vinh",
       "roles": [
         "V.C. Interpreter"
-      ]
+      ],
+      "notes": "(as Vinh Tran)"
     },
     {
       "imdbId": "nm0814166",
@@ -223,7 +226,8 @@
       "name": "Ba Thuan T. Le",
       "roles": [
         "Oahn's Mother"
-      ]
+      ],
+      "notes": "(as Ba Thuan T Le)"
     },
     {
       "imdbId": "nm0634812",
@@ -308,5 +312,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 113
+  "runtimeMinutes": 113,
+  "releaseDateCountry": "United States"
 }

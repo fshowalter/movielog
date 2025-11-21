@@ -5,7 +5,7 @@
   "originalTitle": "Eraser",
   "sortTitle": "eraser-1996",
   "year": "1996",
-  "releaseDate": "1996-06-11",
+  "releaseDate": "1996-06-21",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0751080",
-      "name": "Chuck Russell"
+      "name": "Chuck Russell",
+      "notes": "directed by (as Charles Russell)"
     }
   ],
   "performers": [
@@ -194,7 +195,8 @@
       "name": "Steven Ford",
       "roles": [
         "Knoland"
-      ]
+      ],
+      "notes": "(as Steve Ford)"
     },
     {
       "imdbId": "nm0137673",
@@ -208,7 +210,8 @@
       "name": "Tommy J. Huff",
       "roles": [
         "Somes"
-      ]
+      ],
+      "notes": "(as Thomas J. Huff)"
     },
     {
       "imdbId": "nm0060687",
@@ -306,21 +309,24 @@
       "name": "Danny Wynands",
       "roles": [
         "2nd Perimeter Guy"
-      ]
+      ],
+      "notes": "(as Dan Wynands)"
     },
     {
       "imdbId": "nm0285046",
       "name": "David Fonteno",
       "roles": [
         "Security Official"
-      ]
+      ],
+      "notes": "(as David Wolos-Fonteno)"
     },
     {
       "imdbId": "nm1928542",
       "name": "Sonny King",
       "roles": [
         "Security Guard #1"
-      ]
+      ],
+      "notes": "(as Sonny H. King)"
     },
     {
       "imdbId": "nm0744733",
@@ -334,7 +340,8 @@
       "name": "Mike Cameron",
       "roles": [
         "Gate Guard"
-      ]
+      ],
+      "notes": "(as Michael Cameron)"
     },
     {
       "imdbId": "nm0170381",
@@ -453,14 +460,16 @@
       "name": "M.G. Gong",
       "roles": [
         "Dancer #2"
-      ]
+      ],
+      "notes": "(as Michael Gregory Gong)"
     },
     {
       "imdbId": "nm0478439",
       "name": "Sebastian La Cause",
       "roles": [
         "Dancer #3"
-      ]
+      ],
+      "notes": "(as Sebastian LaCause)"
     },
     {
       "imdbId": "nm0591396",
@@ -474,7 +483,8 @@
       "name": "Charles Chiquette",
       "roles": [
         "Office Worker #1"
-      ]
+      ],
+      "notes": "(as Charles Chiquete)"
     },
     {
       "imdbId": "nm0154071",
@@ -502,7 +512,8 @@
       "name": "James Frank Clark",
       "roles": [
         "Locomotive Engineer"
-      ]
+      ],
+      "notes": "(as James Clark)"
     },
     {
       "imdbId": "nm0082678",
@@ -553,5 +564,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 115
+  "runtimeMinutes": 115,
+  "releaseDateCountry": "United States"
 }

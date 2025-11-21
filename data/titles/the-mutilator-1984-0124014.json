@@ -5,7 +5,7 @@
   "originalTitle": "The Mutilator",
   "sortTitle": "mutilator-1984",
   "year": "1984",
-  "releaseDate": "1984-01-06",
+  "releaseDate": "1984-10-05",
   "countries": [
     "United States"
   ],
@@ -16,11 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0177908",
-      "name": "Buddy Cooper"
+      "name": "Buddy Cooper",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0235320",
-      "name": "John Douglass"
+      "name": "John Douglass",
+      "notes": "co-director"
     }
   ],
   "performers": [
@@ -57,7 +59,8 @@
       "name": "Frances Sherman",
       "roles": [
         "Linda"
-      ]
+      ],
+      "notes": "(as Frances Raines)"
     },
     {
       "imdbId": "nm0483916",
@@ -284,5 +287,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 86
+  "runtimeMinutes": 86,
+  "releaseDateCountry": "United States"
 }

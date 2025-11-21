@@ -5,7 +5,7 @@
   "originalTitle": "Papillon",
   "sortTitle": "papillon-1973",
   "year": "1973",
-  "releaseDate": "1973-12-16",
+  "releaseDate": "1973-12-19",
   "countries": [
     "France",
     "United States"
@@ -118,7 +118,8 @@
       "name": "Vic Tayback",
       "roles": [
         "Sergeant"
-      ]
+      ],
+      "notes": "(as Victor Tayback)"
     },
     {
       "imdbId": "nm0914806",
@@ -220,7 +221,13 @@
       "imdbId": "nm0153508",
       "name": "Henri Charrière",
       "notes": "book \"Papillon\""
+    },
+    {
+      "imdbId": "nm0001279",
+      "name": "William Goldman",
+      "notes": "contributing writer (uncredited)"
     }
   ],
-  "runtimeMinutes": 151
+  "runtimeMinutes": 151,
+  "releaseDateCountry": "United States"
 }

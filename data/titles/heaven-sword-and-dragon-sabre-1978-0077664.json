@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -25,7 +26,8 @@
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Zhang Wu Ji"
-      ]
+      ],
+      "notes": "(as Tung-Shing Yee)"
     },
     {
       "imdbId": "nm0950546",
@@ -46,14 +48,16 @@
       "name": "Lo Lieh",
       "roles": [
         "Xie Xun, the Golden Hair Lion King"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0939429",
       "name": "Jung Wang",
       "roles": [
         "Yang Xiao, the Bright Left Messager"
-      ]
+      ],
+      "notes": "(as Yung Wang)"
     },
     {
       "imdbId": "nm0583955",
@@ -67,7 +71,8 @@
       "name": "Norman Chu",
       "roles": [
         "Wei Yi Xiao, the Green Wing Bat King"
-      ]
+      ],
+      "notes": "(as Shao-Chiang Hsu)"
     },
     {
       "imdbId": "nm1507401",
@@ -162,7 +167,8 @@
     {
       "imdbId": "nm0803302",
       "name": "Yu-Lung Hsiao",
-      "roles": []
+      "roles": [],
+      "notes": "(as Gary Siu)"
     },
     {
       "imdbId": "nm0444343",
@@ -172,7 +178,8 @@
     {
       "imdbId": "nm0398959",
       "name": "Hui-Huang Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm0490548",
@@ -187,12 +194,14 @@
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chien-Ming Lu)"
     },
     {
       "imdbId": "nm0620699",
       "name": "Chiang Nan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Nan Chiang)"
     },
     {
       "imdbId": "nm0628806",
@@ -204,7 +213,8 @@
     {
       "imdbId": "nm1017754",
       "name": "Helen Poon",
-      "roles": []
+      "roles": [],
+      "notes": "(as Bin Seung Poon)"
     },
     {
       "imdbId": "nm0487372",
@@ -231,7 +241,8 @@
     {
       "imdbId": "nm0851049",
       "name": "Wing-Tat Woo",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yung-Ta Hu)"
     },
     {
       "imdbId": "nm0943096",
@@ -256,5 +267,6 @@
       "notes": "(as Chin Yi)"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "Hong Kong"
 }

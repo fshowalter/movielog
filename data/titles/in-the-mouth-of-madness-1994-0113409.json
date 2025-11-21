@@ -5,7 +5,7 @@
   "originalTitle": "In the Mouth of Madness",
   "sortTitle": "in-the-mouth-of-madness-1994",
   "year": "1994",
-  "releaseDate": "1994-08-10",
+  "releaseDate": "1995-02-03",
   "countries": [
     "United States",
     "Canada"
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -43,7 +44,8 @@
       "name": "Jürgen Prochnow",
       "roles": [
         "Sutter Cane"
-      ]
+      ],
+      "notes": "(as Jurgen Prochnow)"
     },
     {
       "imdbId": "nm0001831",
@@ -162,7 +164,8 @@
       "name": "Sean Vertigo",
       "roles": [
         "Bicycle Boy"
-      ]
+      ],
+      "notes": "(as Sean Ryan)"
     },
     {
       "imdbId": "nm0665725",
@@ -326,5 +329,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

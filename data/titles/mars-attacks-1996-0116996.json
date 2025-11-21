@@ -5,7 +5,7 @@
   "originalTitle": "Mars Attacks!",
   "sortTitle": "mars-attacks-1996",
   "year": "1996",
-  "releaseDate": "1996-12-12",
+  "releaseDate": "1996-12-13",
   "countries": [
     "United States",
     "Japan",
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000318",
-      "name": "Tim Burton"
+      "name": "Tim Burton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -462,14 +463,16 @@
       "name": "Josh Philip Weinstein",
       "roles": [
         "Hippie"
-      ]
+      ],
+      "notes": "(as Josh Weinstein)"
     },
     {
       "imdbId": "nm0055657",
       "name": "Julian Barnes",
       "roles": [
         "White House Waiter"
-      ]
+      ],
+      "notes": "(as Juian Barnes)"
     },
     {
       "imdbId": "nm1027283",
@@ -490,7 +493,8 @@
       "name": "Christi Black",
       "roles": [
         "Tom Jones Backup Singers"
-      ]
+      ],
+      "notes": "(as Cristi Black)"
     },
     {
       "imdbId": "nm0376902",
@@ -498,6 +502,14 @@
       "roles": [
         "Tom Jones Backup Singers"
       ]
+    },
+    {
+      "imdbId": "nm0919798",
+      "name": "Frank Welker",
+      "roles": [
+        "Various Martian V.O."
+      ],
+      "notes": "(voice) (as Frank W. Welker)"
     },
     {
       "imdbId": "nm17270958",
@@ -544,5 +556,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

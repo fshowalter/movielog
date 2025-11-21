@@ -5,7 +5,7 @@
   "originalTitle": "Alice in Wonderland",
   "sortTitle": "alice-in-wonderland-1933",
   "year": "1933",
-  "releaseDate": "1933-12-18",
+  "releaseDate": "1933-12-22",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,18 @@
   "directors": [
     {
       "imdbId": "nm0572851",
-      "name": "Norman Z. McLeod"
+      "name": "Norman Z. McLeod",
+      "notes": "(as Norman Mc Leod)"
+    },
+    {
+      "imdbId": "nm0363414",
+      "name": "Hugh Harman",
+      "notes": "animation sequences (uncredited)"
+    },
+    {
+      "imdbId": "nm0411208",
+      "name": "Rudolf Ising",
+      "notes": "animation sequences (uncredited)"
     }
   ],
   "performers": [
@@ -82,7 +93,8 @@
       "name": "Richard 'Skeets' Gallagher",
       "roles": [
         "Rabbit"
-      ]
+      ],
+      "notes": "(as Skeets Gallagher)"
     },
     {
       "imdbId": "nm0000026",
@@ -138,7 +150,8 @@
       "name": "Baby LeRoy",
       "roles": [
         "Joker"
-      ]
+      ],
+      "notes": "(as Baby Le Roy)"
     },
     {
       "imdbId": "nm0550615",
@@ -180,7 +193,8 @@
       "name": "Charles Ruggles",
       "roles": [
         "March Hare"
-      ]
+      ],
+      "notes": "(as Charlie Ruggles)"
     },
     {
       "imdbId": "nm0780684",
@@ -228,5 +242,6 @@
       "notes": "novel \"Alice in Wonderland\""
     }
   ],
-  "runtimeMinutes": 76
+  "runtimeMinutes": 76,
+  "releaseDateCountry": "United States"
 }

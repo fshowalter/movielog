@@ -5,7 +5,7 @@
   "originalTitle": "Journey to the Lost City",
   "sortTitle": "journey-to-the-lost-city-1960",
   "year": "1960",
-  "releaseDate": "1960-10-01",
+  "releaseDate": "1960-10-??",
   "countries": [
     "West Germany",
     "France",
@@ -33,14 +33,16 @@
       "name": "Paul Hubschmid",
       "roles": [
         "Harald Berger"
-      ]
+      ],
+      "notes": "(as Paul Christian)"
     },
     {
       "imdbId": "nm0721195",
       "name": "Walther Reyer",
       "roles": [
         "Prince Chandra"
-      ]
+      ],
+      "notes": "(as Walter Reyer)"
     },
     {
       "imdbId": "nm0391485",
@@ -89,7 +91,8 @@
       "name": "Luciana Paluzzi",
       "roles": [
         "Bahrani"
-      ]
+      ],
+      "notes": "(as Luciana Paoluzzi)"
     },
     {
       "imdbId": "nm0147940",
@@ -128,13 +131,11 @@
   "writers": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang",
-      "notes": "writer"
+      "name": "Fritz Lang"
     },
     {
       "imdbId": "nm0530690",
-      "name": "Werner Jörg Lüddecke",
-      "notes": "writer"
+      "name": "Werner Jörg Lüddecke"
     },
     {
       "imdbId": "nm0902376",
@@ -147,5 +148,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 94
+  "runtimeMinutes": 94,
+  "releaseDateCountry": "United States"
 }

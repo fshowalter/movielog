@@ -5,7 +5,7 @@
   "originalTitle": "Swamp Thing",
   "sortTitle": "swamp-thing-1982",
   "year": "1982",
-  "releaseDate": "1982-01-01",
+  "releaseDate": "1982-02-19",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000127",
-      "name": "Wes Craven"
+      "name": "Wes Craven",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -102,7 +103,8 @@
       "name": "Mimi Craven",
       "roles": [
         "Arcane's Secretary"
-      ]
+      ],
+      "notes": "(as Mimi Meyer)"
     },
     {
       "imdbId": "nm0020708",
@@ -140,5 +142,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United States"
 }

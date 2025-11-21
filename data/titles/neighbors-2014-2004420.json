@@ -5,7 +5,7 @@
   "originalTitle": "Neighbors",
   "sortTitle": "neighbors-2014",
   "year": "2014",
-  "releaseDate": "2014-03-08",
+  "releaseDate": "2014-05-09",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0831557",
-      "name": "Nicholas Stoller"
+      "name": "Nicholas Stoller",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -171,7 +172,8 @@
       "name": "Adam Devine",
       "roles": [
         "Beer Pong Guy #1"
-      ]
+      ],
+      "notes": "(as Adam DeVine)"
     },
     {
       "imdbId": "nm2981935",
@@ -263,5 +265,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 97
+  "runtimeMinutes": 97,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "sortTitle": "blood-simple-1984",
   "year": "1984",
   "slug": "blood-simple-1984",
-  "releaseDate": "1984-03-26",
+  "releaseDate": "1985-01-18",
   "runtimeMinutes": 99,
   "countries": [
     "United States"
@@ -19,6 +19,11 @@
     {
       "imdbId": "nm0001054",
       "name": "Joel Coen"
+    },
+    {
+      "imdbId": "nm0001053",
+      "name": "Ethan Coen",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -119,6 +124,14 @@
       "roles": [
         "Girl on Overlook"
       ]
+    },
+    {
+      "imdbId": "nm0002485",
+      "name": "William Preston Robertson",
+      "roles": [
+        "Radio Evangelist"
+      ],
+      "notes": "(voice) (as Rev. William Preston Robertson)"
     }
   ],
   "writers": [
@@ -132,5 +145,6 @@
       "name": "Ethan Coen",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

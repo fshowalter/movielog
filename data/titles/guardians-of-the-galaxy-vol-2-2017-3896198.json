@@ -5,7 +5,7 @@
   "originalTitle": "Guardians of the Galaxy Vol. 2",
   "sortTitle": "guardians-of-the-galaxy-vol-2-2017",
   "year": "2017",
-  "releaseDate": "2017-04-10",
+  "releaseDate": "2017-05-05",
   "countries": [
     "United States"
   ],
@@ -35,7 +35,8 @@
       "name": "Zoe Saldaña",
       "roles": [
         "Gamora"
-      ]
+      ],
+      "notes": "(as Zoe Saldana)"
     },
     {
       "imdbId": "nm1176985",
@@ -43,6 +44,22 @@
       "roles": [
         "Drax"
       ]
+    },
+    {
+      "imdbId": "nm0004874",
+      "name": "Vin Diesel",
+      "roles": [
+        "Baby Groot"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0177896",
+      "name": "Bradley Cooper",
+      "roles": [
+        "Rocket"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0740264",
@@ -127,7 +144,8 @@
       "name": "Hannah Harlow",
       "roles": [
         "Sovereign Chambermaid"
-      ]
+      ],
+      "notes": "(as Hannah Gottesman)"
     },
     {
       "imdbId": "nm5167893",
@@ -214,6 +232,14 @@
       ]
     },
     {
+      "imdbId": "nm0957772",
+      "name": "Rob Zombie",
+      "roles": [
+        "Unseen Ravager"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm5060404",
       "name": "Sierra Love",
       "roles": [
@@ -225,7 +251,8 @@
       "name": "Kendra Carelli",
       "roles": [
         "Robot Courtesan"
-      ]
+      ],
+      "notes": "(as Kendra Staub)"
     },
     {
       "imdbId": "nm3791575",
@@ -235,11 +262,20 @@
       ]
     },
     {
+      "imdbId": "nm0001293",
+      "name": "Seth Green",
+      "roles": [
+        "Howard the Duck"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0703939",
       "name": "Molly C. Quinn",
       "roles": [
         "Howard's Date"
-      ]
+      ],
+      "notes": "(as Molly Quinn)"
     },
     {
       "imdbId": "nm0742146",
@@ -274,7 +310,8 @@
       "name": "Michael Lawson",
       "roles": [
         "Officer Fitzgibbon"
-      ]
+      ],
+      "notes": "(as Mac Wells)"
     },
     {
       "imdbId": "nm8932754",
@@ -285,17 +322,19 @@
     },
     {
       "imdbId": "nm8932755",
-      "name": "Leota Gunn",
+      "name": "Lee Gunn",
       "roles": [
         "Weird Old Man's Mistress"
-      ]
+      ],
+      "notes": "(as Leota Gunn)"
     },
     {
       "imdbId": "nm6018082",
       "name": "Elizabeth Faith Ludlow",
       "roles": [
         "Easik Mother"
-      ]
+      ],
+      "notes": "(as Elizabeth Ludlow)"
     },
     {
       "imdbId": "nm5200476",
@@ -348,57 +387,8 @@
       "imdbId": "nm5037683",
       "name": "Andy Lanning",
       "notes": "based on the Marvel comics by"
-    },
-    {
-      "imdbId": "nm1921680",
-      "name": "Steve Englehart",
-      "notes": "Star-Lord created by and"
-    },
-    {
-      "imdbId": "nm3053444",
-      "name": "Steve Gan",
-      "notes": "Star-Lord created by"
-    },
-    {
-      "imdbId": "nm4160687",
-      "name": "Jim Starlin",
-      "notes": "Gamora and Drax created by"
-    },
-    {
-      "imdbId": "nm0498278",
-      "name": "Stan Lee",
-      "notes": "Groot created by &"
-    },
-    {
-      "imdbId": "nm1293367",
-      "name": "Larry Lieber",
-      "notes": "Groot created by and"
-    },
-    {
-      "imdbId": "nm0456158",
-      "name": "Jack Kirby",
-      "notes": "Groot created by"
-    },
-    {
-      "imdbId": "nm2757098",
-      "name": "Bill Mantlo",
-      "notes": "Rocket Raccoon created by and"
-    },
-    {
-      "imdbId": "nm0317493",
-      "name": "Keith Giffen",
-      "notes": "Rocket Raccoon created by"
-    },
-    {
-      "imdbId": "nm0314153",
-      "name": "Steve Gerber",
-      "notes": "Howard the Duck created by and"
-    },
-    {
-      "imdbId": "nm0562554",
-      "name": "Val Mayerik",
-      "notes": "Howard the Duck created by"
     }
   ],
-  "runtimeMinutes": 136
+  "runtimeMinutes": 136,
+  "releaseDateCountry": "United States"
 }

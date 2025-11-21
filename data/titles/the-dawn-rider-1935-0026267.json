@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0102908",
-      "name": "Robert N. Bradbury"
+      "name": "Robert N. Bradbury",
+      "notes": "(as R.N. Bradbury)"
     }
   ],
   "performers": [
@@ -39,7 +40,8 @@
       "name": "Dennis Moore",
       "roles": [
         "Rudd Gordon"
-      ]
+      ],
+      "notes": "(as Denny Meadows)"
     },
     {
       "imdbId": "nm0398139",
@@ -53,7 +55,8 @@
       "name": "Joseph De Grasse",
       "roles": [
         "Dad Mason"
-      ]
+      ],
+      "notes": "(as Joe DeGrasse)"
     },
     {
       "imdbId": "nm0134831",
@@ -82,7 +85,18 @@
       "imdbId": "nm0636475",
       "name": "Lloyd Nosler",
       "notes": "story"
+    },
+    {
+      "imdbId": "nm0102908",
+      "name": "Robert N. Bradbury",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0869389",
+      "name": "Wellyn Totman",
+      "notes": "story (uncredited)"
     }
   ],
-  "runtimeMinutes": 53
+  "runtimeMinutes": 53,
+  "releaseDateCountry": "United States"
 }

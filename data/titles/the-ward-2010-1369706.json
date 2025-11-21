@@ -5,7 +5,7 @@
   "originalTitle": "The Ward",
   "sortTitle": "ward-2010",
   "year": "2010",
-  "releaseDate": "2010-09-13",
+  "releaseDate": "2011-07-08",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -89,7 +90,8 @@
       "name": "D.R. Anderson",
       "roles": [
         "Roy"
-      ]
+      ],
+      "notes": "(as Dan Anderson)"
     },
     {
       "imdbId": "nm1731757",
@@ -117,14 +119,16 @@
       "name": "Andrea Petty",
       "roles": [
         "Mrs. Hudson"
-      ]
+      ],
+      "notes": "(as Andrea L. Petty)"
     },
     {
       "imdbId": "nm3006561",
       "name": "Tracy Schornick",
       "roles": [
         "Cop #1"
-      ]
+      ],
+      "notes": "(as Tracey Schornick)"
     },
     {
       "imdbId": "nm4129916",
@@ -174,5 +178,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

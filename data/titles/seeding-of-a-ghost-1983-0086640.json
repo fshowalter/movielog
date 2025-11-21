@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0160925",
-      "name": "Kuen Yeung"
+      "name": "Kuen Yeung",
+      "notes": "(as Chuan Yang)"
     }
   ],
   "performers": [
@@ -26,7 +27,8 @@
       "name": "Norman Chu",
       "roles": [
         "Anthony Fang"
-      ]
+      ],
+      "notes": "(as Shao-Chiang Hsu)"
     },
     {
       "imdbId": "nm0438071",
@@ -40,14 +42,16 @@
       "name": "Maria Jo",
       "roles": [
         "Irene Chou"
-      ]
+      ],
+      "notes": "(as Chih-Hui Hsuan)"
     },
     {
       "imdbId": "nm0939429",
       "name": "Jung Wang",
       "roles": [
         "Doctor (Guest star)"
-      ]
+      ],
+      "notes": "(as Yung Wang)"
     },
     {
       "imdbId": "nm1295186",
@@ -75,7 +79,8 @@
       "name": "Man-Biu Pak",
       "roles": [
         "Taoist"
-      ]
+      ],
+      "notes": "(as Wen-Piao Pai)"
     },
     {
       "imdbId": "nm4751310",
@@ -99,7 +104,8 @@
     {
       "imdbId": "nm1291626",
       "name": "Jaime Mei-Chun Chik",
-      "roles": []
+      "roles": [],
+      "notes": "(as Mei-Tseng Chi)"
     },
     {
       "imdbId": "nm3082237",
@@ -118,7 +124,8 @@
       "name": "Wai Lam",
       "roles": [
         "Casino Patron"
-      ]
+      ],
+      "notes": "(as Wei Lin)"
     },
     {
       "imdbId": "nm1323426",
@@ -177,7 +184,8 @@
       "name": "Kar-Man Wai",
       "roles": [
         "Mrs. Fang"
-      ]
+      ],
+      "notes": "(as Ju-Wen Wei)"
     },
     {
       "imdbId": "nm1295432",
@@ -211,5 +219,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "Hong Kong"
 }

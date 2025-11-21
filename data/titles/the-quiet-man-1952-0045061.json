@@ -5,9 +5,10 @@
   "originalTitle": "The Quiet Man",
   "sortTitle": "quiet-man-1952",
   "year": "1952",
-  "releaseDate": "1952-06-06",
+  "releaseDate": "1952-09-14",
   "countries": [
-    "United States"
+    "United States",
+    "Ireland"
   ],
   "genres": [
     "Comedy",
@@ -96,28 +97,32 @@
       "name": "Charles B. Fitzsimons",
       "roles": [
         "Hugh Forbes"
-      ]
+      ],
+      "notes": "(as CHARLES fitzSIMONS)"
     },
     {
       "imdbId": "nm0510181",
       "name": "James O'Hara",
       "roles": [
         "Father Paul"
-      ]
+      ],
+      "notes": "(as James Lilburn)"
     },
     {
       "imdbId": "nm0565887",
       "name": "Sean McClory",
       "roles": [
         "Owen Glynn"
-      ]
+      ],
+      "notes": "(as Sean McGlory)"
     },
     {
       "imdbId": "nm0532290",
       "name": "Jack MacGowran",
       "roles": [
         "Ignatius Feeney"
-      ]
+      ],
+      "notes": "(as Jack McGowran)"
     },
     {
       "imdbId": "nm0640620",
@@ -158,7 +163,13 @@
       "imdbId": "nm0909775",
       "name": "Maurice Walsh",
       "notes": "from the story by"
+    },
+    {
+      "imdbId": "nm0000406",
+      "name": "John Ford",
+      "notes": "contributing writer (uncredited)"
     }
   ],
-  "runtimeMinutes": 129
+  "runtimeMinutes": 129,
+  "releaseDateCountry": "United States"
 }

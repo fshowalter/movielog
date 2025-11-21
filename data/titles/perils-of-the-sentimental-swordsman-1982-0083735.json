@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -40,7 +41,8 @@
     {
       "imdbId": "nm0516316",
       "name": "Lo Lieh",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0160855",
@@ -57,7 +59,8 @@
       "name": "Ku Feng",
       "roles": [
         "Old Hawk (last scene)"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0150894",
@@ -179,7 +182,7 @@
     {
       "imdbId": "nm0159201",
       "name": "Yuen Chor",
-      "notes": "writer (as Yu Chin)"
+      "notes": "(as Yu Chin)"
     },
     {
       "imdbId": "nm0473325",
@@ -187,5 +190,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 87
+  "runtimeMinutes": 87,
+  "releaseDateCountry": "Hong Kong"
 }

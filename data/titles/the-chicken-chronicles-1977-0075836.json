@@ -5,7 +5,7 @@
   "sortTitle": "chicken-chronicles-1977",
   "year": "1977",
   "slug": "the-chicken-chronicles-1977",
-  "releaseDate": "1977-10-01",
+  "releaseDate": "1977-10-??",
   "runtimeMinutes": 95,
   "countries": [
     "United States"
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0800140",
-      "name": "Frank Simon"
+      "name": "Frank Simon",
+      "notes": "(as Francis Simon)"
     }
   ],
   "performers": [
@@ -39,7 +40,8 @@
       "name": "Steve Guttenberg",
       "roles": [
         "David Kessler"
-      ]
+      ],
+      "notes": "(as Steven Guttenberg)"
     },
     {
       "imdbId": "nm0716244",
@@ -95,7 +97,8 @@
       "name": "Joseph G. Medalis",
       "roles": [
         "Mr. Phinney"
-      ]
+      ],
+      "notes": "(as Joe Medalis)"
     },
     {
       "imdbId": "nm0931563",
@@ -116,7 +119,8 @@
       "name": "Jon Gries",
       "roles": [
         "Tom"
-      ]
+      ],
+      "notes": "(as Jonathon Gries)"
     },
     {
       "imdbId": "nm0823537",
@@ -144,7 +148,8 @@
       "name": "Vincent Lucchesi",
       "roles": [
         "Coach Zwick"
-      ]
+      ],
+      "notes": "(as Vincent Luchesi)"
     },
     {
       "imdbId": "nm0589981",
@@ -165,7 +170,8 @@
       "name": "Arthur Abelson",
       "roles": [
         "Mr. Marvelli"
-      ]
+      ],
+      "notes": "(as Arthur Adelson)"
     },
     {
       "imdbId": "nm0942362",
@@ -179,7 +185,8 @@
       "name": "John Sarno",
       "roles": [
         "Hospital Orderly"
-      ]
+      ],
+      "notes": "(as John Anthony Sarno)"
     },
     {
       "imdbId": "nm0209189",
@@ -207,7 +214,8 @@
       "name": "Eric Washington",
       "roles": [
         "Centurion Runner"
-      ]
+      ],
+      "notes": "(as Erik Washington)"
     },
     {
       "imdbId": "nm0863555",
@@ -228,7 +236,8 @@
       "name": "Danie-Wade Dalton",
       "roles": [
         "Freshman"
-      ]
+      ],
+      "notes": "(as Danny Wade Dalton)"
     },
     {
       "imdbId": "nm0829558",
@@ -256,5 +265,6 @@
       "name": "Paul Diamond",
       "notes": "novel"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

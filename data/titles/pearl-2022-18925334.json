@@ -5,7 +5,7 @@
   "originalTitle": "Pearl",
   "sortTitle": "pearl-2022",
   "year": "2022",
-  "releaseDate": "2022-09-03",
+  "releaseDate": "2022-09-16",
   "countries": [
     "New Zealand",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1488800",
-      "name": "Ti West"
+      "name": "Ti West",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -69,7 +70,8 @@
       "name": "Amelia Reid",
       "roles": [
         "Margaret"
-      ]
+      ],
+      "notes": "(as Amelia Reid-Meredith)"
     },
     {
       "imdbId": "nm7988981",
@@ -83,7 +85,8 @@
       "name": "Lauren Stewart",
       "roles": [
         "Pianist"
-      ]
+      ],
+      "notes": "(as Lauren May Stewart)"
     },
     {
       "imdbId": "nm0728119",
@@ -112,5 +115,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "United States"
 }

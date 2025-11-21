@@ -5,7 +5,7 @@
   "originalTitle": "National Lampoon's Christmas Vacation",
   "sortTitle": "national-lampoons-christmas-vacation-1989",
   "year": "1989",
-  "releaseDate": "1989-11-30",
+  "releaseDate": "1989-12-01",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0154819",
-      "name": "Jeremiah S. Chechik"
+      "name": "Jeremiah S. Chechik",
+      "notes": "(as Jeremiah Chechik)"
     }
   ],
   "performers": [
@@ -101,7 +102,8 @@
       "name": "Ellen Latzen",
       "roles": [
         "Ruby Sue Johnson"
-      ]
+      ],
+      "notes": "(as Ellen Hamilton Latzen)"
     },
     {
       "imdbId": "nm0382676",
@@ -157,14 +159,16 @@
       "name": "Brian Doyle-Murray",
       "roles": [
         "Frank Shirley"
-      ]
+      ],
+      "notes": "(as Brian Doyle Murray)"
     },
     {
       "imdbId": "nm0634101",
       "name": "Natalija Nogulich",
       "roles": [
         "Mrs. Shirley"
-      ]
+      ],
+      "notes": "(as Natalia Nogulich)"
     },
     {
       "imdbId": "nm15319036",
@@ -178,7 +182,8 @@
       "name": "Billy Hank Hooker",
       "roles": [
         "Bozo #2"
-      ]
+      ],
+      "notes": "(as Hank Hooker)"
     },
     {
       "imdbId": "nm0284273",
@@ -207,6 +212,14 @@
       "roles": [
         "Young Executive"
       ]
+    },
+    {
+      "imdbId": "nm0515770",
+      "name": "Doug Llewelyn",
+      "roles": [
+        "Parade Announcer"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -216,5 +229,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 97
+  "runtimeMinutes": 97,
+  "releaseDateCountry": "United States"
 }

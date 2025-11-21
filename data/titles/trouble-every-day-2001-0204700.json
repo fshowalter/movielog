@@ -5,7 +5,7 @@
   "originalTitle": "Trouble Every Day",
   "sortTitle": "trouble-every-day-2001",
   "year": "2001",
-  "releaseDate": "2001-05-13",
+  "releaseDate": "2001-07-11",
   "countries": [
     "France",
     "Germany",
@@ -57,7 +57,8 @@
       "name": "Florence Loiret Caille",
       "roles": [
         "Christelle"
-      ]
+      ],
+      "notes": "(as Florence Loiret-Caille)"
     },
     {
       "imdbId": "nm0245164",
@@ -92,7 +93,8 @@
       "name": "Marilú Marini",
       "roles": [
         "Friessen"
-      ]
+      ],
+      "notes": "(as Marilu Marini)"
     },
     {
       "imdbId": "nm0167467",
@@ -210,14 +212,13 @@
   "writers": [
     {
       "imdbId": "nm0219136",
-      "name": "Claire Denis",
-      "notes": "writer"
+      "name": "Claire Denis"
     },
     {
       "imdbId": "nm0267288",
-      "name": "Jean-Pol Fargeau",
-      "notes": "writer"
+      "name": "Jean-Pol Fargeau"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "France"
 }

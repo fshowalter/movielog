@@ -5,7 +5,7 @@
   "originalTitle": "Ghosts on the Loose",
   "sortTitle": "ghosts-on-the-loose-1943",
   "year": "1943",
-  "releaseDate": "1943-??-??",
+  "releaseDate": "1943-07-30",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0064415",
-      "name": "William Beaudine"
+      "name": "William Beaudine",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -67,14 +68,16 @@
       "name": "Ernest Morrison",
       "roles": [
         "Scruno"
-      ]
+      ],
+      "notes": "(as Sammy Morrison)"
     },
     {
       "imdbId": "nm0070827",
       "name": "William 'Billy' Benedict",
       "roles": [
         "Benny"
-      ]
+      ],
+      "notes": "(as Billy Benedict)"
     },
     {
       "imdbId": "nm0166265",
@@ -140,5 +143,6 @@
       "notes": "original screenplay by"
     }
   ],
-  "runtimeMinutes": 67
+  "runtimeMinutes": 67,
+  "releaseDateCountry": "United States"
 }

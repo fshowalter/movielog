@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0102908",
-      "name": "Robert N. Bradbury"
+      "name": "Robert N. Bradbury",
+      "notes": "(as Robert Bradbury)"
     }
   ],
   "performers": [
@@ -39,14 +40,16 @@
       "name": "George 'Gabby' Hayes",
       "roles": [
         "Sheriff Jake Withers"
-      ]
+      ],
+      "notes": "(as George Hayes)"
     },
     {
       "imdbId": "nm0081361",
       "name": "Edward Peil Sr.",
       "roles": [
         "Malgrove"
-      ]
+      ],
+      "notes": "(as Edward Peil)"
     },
     {
       "imdbId": "nm0134831",
@@ -89,5 +92,6 @@
       "notes": "screen play (as Robert Bradbury)"
     }
   ],
-  "runtimeMinutes": 52
+  "runtimeMinutes": 52,
+  "releaseDateCountry": "United States"
 }

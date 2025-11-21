@@ -5,7 +5,7 @@
   "originalTitle": "The Perfection",
   "sortTitle": "perfection-2018",
   "year": "2018",
-  "releaseDate": "2018-09-20",
+  "releaseDate": "2019-05-24",
   "countries": [
     "United States",
     "Canada"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0791672",
-      "name": "Richard Shepard"
+      "name": "Richard Shepard",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -216,7 +217,8 @@
       "name": "Stephen Chang",
       "roles": [
         "Older Male Bus Passenger"
-      ]
+      ],
+      "notes": "(as Stephen MD Chang)"
     },
     {
       "imdbId": "nm12477707",
@@ -257,5 +259,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

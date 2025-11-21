@@ -20,6 +20,13 @@ CREDIT_TEAMS = MappingProxyType(
     }
 )
 
+STAN_LEE_RULE = frozenset(
+    (
+        "nm0498278",  # Stan Lee
+        "nm1349117",  # Duke the horse
+    )
+)
+
 EXCLUSIONS = frozenset(("nm0498278", "nm0456158"))
 
 
@@ -148,6 +155,8 @@ def _build_most_watched_performers(
     for viewing in viewings:
         performers = repository_data.titles[viewing.imdb_id].performers
         for performer in performers:
+            if performer.imdb_id in STAN_LEE_RULE:
+                continue
             key = frozenset((performer.imdb_id,))
             viewings_by_name[key].name = performer.name
             viewings_by_name[key].viewings.append(viewing)

@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0001243",
-      "name": "William Friedkin"
+      "name": "William Friedkin",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -95,5 +96,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 120
+  "runtimeMinutes": 120,
+  "releaseDateCountry": "United States"
 }

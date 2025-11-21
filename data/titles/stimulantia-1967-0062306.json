@@ -15,39 +15,48 @@
   "directors": [
     {
       "imdbId": "nm0009255",
-      "name": "Hans Abramson"
+      "name": "Hans Abramson",
+      "notes": "(segment \"Upptäckten\")"
     },
     {
       "imdbId": "nm0019244",
-      "name": "Hans Alfredson"
+      "name": "Hans Alfredson",
+      "notes": "(segment \"Dygdens belöning\")"
     },
     {
       "imdbId": "nm0036115",
-      "name": "Arne Arnbom"
+      "name": "Arne Arnbom",
+      "notes": "(segment \"Birgit Nilsson\")"
     },
     {
       "imdbId": "nm0000005",
-      "name": "Ingmar Bergman"
+      "name": "Ingmar Bergman",
+      "notes": "(segment \"Daniel\")"
     },
     {
       "imdbId": "nm0200192",
-      "name": "Tage Danielsson"
+      "name": "Tage Danielsson",
+      "notes": "(segment \"Dygdens belöning\")"
     },
     {
       "imdbId": "nm0232807",
-      "name": "Jörn Donner"
+      "name": "Jörn Donner",
+      "notes": "(segment \"Det var en gång två älskande...\")"
     },
     {
       "imdbId": "nm0351432",
-      "name": "Lars Görling"
+      "name": "Lars Görling",
+      "notes": "(segment \"Konfrontationer\")"
     },
     {
       "imdbId": "nm0596410",
-      "name": "Gustaf Molander"
+      "name": "Gustaf Molander",
+      "notes": "(segment \"Smycket\")"
     },
     {
       "imdbId": "nm0803672",
-      "name": "Vilgot Sjöman"
+      "name": "Vilgot Sjöman",
+      "notes": "(segment \"Negressen i skåpet\")"
     }
   ],
   "performers": [
@@ -112,7 +121,8 @@
       "name": "Glenna Forster-Jones",
       "roles": [
         "The Naked Girl"
-      ]
+      ],
+      "notes": "(as Glenn Foster Jones)"
     },
     {
       "imdbId": "nm0335098",
@@ -226,5 +236,6 @@
       "notes": "(segment \"Negressen i skåpet\")"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "Sweden"
 }

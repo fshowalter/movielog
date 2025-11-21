@@ -5,7 +5,7 @@
   "originalTitle": "Animals",
   "sortTitle": "animals-2009",
   "year": "2009",
-  "releaseDate": "2009-11-26",
+  "releaseDate": "2010-06-15",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0007439",
-      "name": "Doug Aarniokoski"
+      "name": "Doug Aarniokoski",
+      "notes": "(as Arnold Cassius)"
     }
   ],
   "performers": [
@@ -81,7 +82,8 @@
       "name": "Ron Rogge'",
       "roles": [
         "Tommy"
-      ]
+      ],
+      "notes": "(as Ron Roggé)"
     },
     {
       "imdbId": "nm2762580",
@@ -102,14 +104,16 @@
       "name": "Matthew C. Temple",
       "roles": [
         "Frat Boy #1"
-      ]
+      ],
+      "notes": "(as Matthew Temple)"
     },
     {
       "imdbId": "nm2021427",
       "name": "Christopher Tarantino",
       "roles": [
         "Frat Boy #2"
-      ]
+      ],
+      "notes": "(as Chris Tarantino)"
     },
     {
       "imdbId": "nm0355155",
@@ -179,7 +183,8 @@
       "name": "Seven Castle",
       "roles": [
         "Hot Screamer Chick"
-      ]
+      ],
+      "notes": "(as Shalaina Fotheringham)"
     }
   ],
   "writers": [
@@ -199,5 +204,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

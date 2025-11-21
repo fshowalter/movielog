@@ -5,7 +5,7 @@
   "sortTitle": "black-sheep-2006",
   "year": "2006",
   "slug": "black-sheep-2006",
-  "releaseDate": "2006-??-??",
+  "releaseDate": "2007-03-29",
   "runtimeMinutes": 87,
   "countries": [
     "New Zealand",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm2204480",
-      "name": "Jonathan King"
+      "name": "Jonathan King",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -28,7 +29,8 @@
       "name": "Matthew Chamberlain",
       "roles": [
         "Oliver Oldfield"
-      ]
+      ],
+      "notes": "(as Matt Chamberlain)"
     },
     {
       "imdbId": "nm2050277",
@@ -161,7 +163,8 @@
       "name": "Justin B. Carter",
       "roles": [
         "Investor"
-      ]
+      ],
+      "notes": "(as Justin Carter)"
     },
     {
       "imdbId": "nm2877647",
@@ -182,7 +185,8 @@
       "name": "Jono Manks",
       "roles": [
         "Investor"
-      ]
+      ],
+      "notes": "(as Jono Marks)"
     },
     {
       "imdbId": "nm0746563",
@@ -203,7 +207,8 @@
       "name": "Matthew J. Saville",
       "roles": [
         "Investor"
-      ]
+      ],
+      "notes": "(as Matthew Saville)"
     },
     {
       "imdbId": "nm2610032",
@@ -233,5 +238,6 @@
       "name": "Jonathan King",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "New Zealand"
 }

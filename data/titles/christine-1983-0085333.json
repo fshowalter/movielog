@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -165,7 +166,8 @@
       "name": "Charlie Steak",
       "roles": [
         "Shoppie"
-      ]
+      ],
+      "notes": "(as Charles Steak)"
     }
   ],
   "writers": [
@@ -180,5 +182,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 110
+  "runtimeMinutes": 110,
+  "releaseDateCountry": "United States"
 }

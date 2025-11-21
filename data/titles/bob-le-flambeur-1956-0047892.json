@@ -5,7 +5,7 @@
   "originalTitle": "Bob le flambeur",
   "sortTitle": "bob-le-flambeur-1956",
   "year": "1956",
-  "releaseDate": "1956-08-24",
+  "releaseDate": "1959-??-??",
   "countries": [
     "France"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0578483",
-      "name": "Jean-Pierre Melville"
+      "name": "Jean-Pierre Melville",
+      "notes": "(as Melville)"
     }
   ],
   "performers": [
@@ -26,7 +27,8 @@
       "name": "Isabelle Corey",
       "roles": [
         "Anne"
-      ]
+      ],
+      "notes": "(as Isabel Corey)"
     },
     {
       "imdbId": "nm0146446",
@@ -103,14 +105,16 @@
       "name": "Henry Allaume",
       "roles": [
         "Un gangster"
-      ]
+      ],
+      "notes": "(as Henri Allaume)"
     },
     {
       "imdbId": "nm2656065",
       "name": "Germaine Licht",
       "roles": [
         "Céleste Régnier"
-      ]
+      ],
+      "notes": "(as Germaine Amiel)"
     },
     {
       "imdbId": "nm0024976",
@@ -129,7 +133,8 @@
       "name": "Jannick Arvel",
       "roles": [
         "La deuxième fille du bar"
-      ]
+      ],
+      "notes": "(as Yannick Arvel)"
     },
     {
       "imdbId": "nm0078350",
@@ -206,5 +211,6 @@
       "notes": "dialogue"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Nice Guys",
   "sortTitle": "nice-guys-2016",
   "year": "2016",
-  "releaseDate": "2016-05-10",
+  "releaseDate": "2016-05-20",
   "countries": [
     "United Kingdom",
     "United States"
@@ -155,7 +155,8 @@
       "name": "Rebecca Dalton Rusk",
       "roles": [
         "Fred's Widow"
-      ]
+      ],
+      "notes": "(as Rebecca Rusk)"
     },
     {
       "imdbId": "nm0741893",
@@ -183,7 +184,8 @@
       "name": "Nathaniel 'Nate' Scott",
       "roles": [
         "Medic"
-      ]
+      ],
+      "notes": "(as Nathan Scott)"
     },
     {
       "imdbId": "nm1556424",
@@ -191,6 +193,14 @@
       "roles": [
         "Nun"
       ]
+    },
+    {
+      "imdbId": "nm3816936",
+      "name": "Frank Mottek",
+      "roles": [
+        "Radio Annoucer"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm2789600",
@@ -267,7 +277,8 @@
       "name": "Hana Yuka Sano",
       "roles": [
         "Die-In Protester"
-      ]
+      ],
+      "notes": "(as Yuka Sano)"
     },
     {
       "imdbId": "nm6922607",
@@ -443,5 +454,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0958387",
-      "name": "Jerry Zucker"
+      "name": "Jerry Zucker",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -322,7 +323,8 @@
       "name": "Burton Zucker",
       "roles": [
         "Bread Vendor"
-      ]
+      ],
+      "notes": "(as Burt Zucker)"
     }
   ],
   "writers": [
@@ -347,5 +349,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 134
+  "runtimeMinutes": 134,
+  "releaseDateCountry": "United States"
 }

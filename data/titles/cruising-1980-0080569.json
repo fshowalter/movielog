@@ -5,7 +5,7 @@
   "originalTitle": "Cruising",
   "sortTitle": "cruising-1980",
   "year": "1980",
-  "releaseDate": "1980-02-08",
+  "releaseDate": "1980-02-15",
   "countries": [
     "West Germany",
     "United States"
@@ -126,7 +126,8 @@
       "name": "Ed O'Neill",
       "roles": [
         "Det. Schreiber"
-      ]
+      ],
+      "notes": "(as Edward O'Neil)"
     },
     {
       "imdbId": "nm0036909",
@@ -213,6 +214,14 @@
       ]
     },
     {
+      "imdbId": "nm0840211",
+      "name": "James Sutorius",
+      "roles": [
+        "Jack"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0417135",
       "name": "Richard Jamieson",
       "roles": [
@@ -224,7 +233,8 @@
       "name": "Jimmie Ray Weeks",
       "roles": [
         "Seller"
-      ]
+      ],
+      "notes": "(as James Ray Weeks)"
     },
     {
       "imdbId": "nm0370978",
@@ -238,7 +248,8 @@
       "name": "Carmine Stippo",
       "roles": [
         "Bartender"
-      ]
+      ],
+      "notes": "(as Carmine Stipo)"
     },
     {
       "imdbId": "nm1497763",
@@ -255,7 +266,8 @@
     {
       "imdbId": "nm0309317",
       "name": "Sylvia Gassel",
-      "roles": []
+      "roles": [],
+      "notes": "(as Sylvia Gassell)"
     },
     {
       "imdbId": "nm0790267",
@@ -317,7 +329,8 @@
     {
       "imdbId": "nm0240829",
       "name": "Bob Duggan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Robert Duggan)"
     },
     {
       "imdbId": "nm0836387",
@@ -342,5 +355,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

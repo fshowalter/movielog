@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0853028",
-      "name": "Ray Taylor"
+      "name": "Ray Taylor",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -56,7 +57,8 @@
       "name": "Dean Benton",
       "roles": [
         "Bob Regent"
-      ]
+      ],
+      "notes": "(as Deane Benton)"
     },
     {
       "imdbId": "nm0401768",
@@ -77,7 +79,8 @@
       "name": "Murdock MacQuarrie",
       "roles": [
         "The Voice of Ubasti"
-      ]
+      ],
+      "notes": "(as Murdock McQuarrie)"
     },
     {
       "imdbId": "nm0524306",
@@ -98,7 +101,8 @@
       "name": "J.J. Clark",
       "roles": [
         "Vitras"
-      ]
+      ],
+      "notes": "(as Jack Clark)"
     }
   ],
   "writers": [
@@ -128,5 +132,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 208
+  "runtimeMinutes": 208,
+  "releaseDateCountry": "United States"
 }

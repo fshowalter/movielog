@@ -5,11 +5,11 @@
   "originalTitle": "Us",
   "sortTitle": "us-2019",
   "year": "2019",
-  "releaseDate": "2019-03-08",
+  "releaseDate": "2019-03-22",
   "countries": [
+    "United States",
     "China",
-    "Japan",
-    "United States"
+    "Japan"
   ],
   "genres": [
     "Horror",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm1443502",
-      "name": "Jordan Peele"
+      "name": "Jordan Peele",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -172,6 +173,34 @@
         "Nancy",
         "Syd"
       ]
+    },
+    {
+      "imdbId": "nm17833135",
+      "name": "Dayne Eigner",
+      "roles": [
+        "Background"
+      ]
+    },
+    {
+      "imdbId": "nm17833136",
+      "name": "Michael Mitchell",
+      "roles": [
+        "Background"
+      ]
+    },
+    {
+      "imdbId": "nm9312394",
+      "name": "James Cobb",
+      "roles": [
+        "Background"
+      ]
+    },
+    {
+      "imdbId": "nm9579437",
+      "name": "Marlee Ingle",
+      "roles": [
+        "Background"
+      ]
     }
   ],
   "writers": [
@@ -181,5 +210,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

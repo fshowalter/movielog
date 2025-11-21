@@ -5,7 +5,7 @@
   "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
   "sortTitle": "lord-of-the-rings-the-fellowship-of-the-ring-2001",
   "year": "2001",
-  "releaseDate": "2001-12-10",
+  "releaseDate": "2001-12-19",
   "countries": [
     "New Zealand",
     "United States",
@@ -66,6 +66,14 @@
       "roles": [
         "Pippin"
       ]
+    },
+    {
+      "imdbId": "nm0785227",
+      "name": "Andy Serkis",
+      "roles": [
+        "Gollum"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0190744",
@@ -382,7 +390,8 @@
         "Goblins",
         "Uruks",
         "Ringwraiths"
-      ]
+      ],
+      "notes": "(as Philip Grieve)"
     },
     {
       "imdbId": "nm0413309",
@@ -396,7 +405,8 @@
       "name": "Katherine Jackson",
       "roles": [
         "Cute Hobbit Child"
-      ]
+      ],
+      "notes": "(as Katie Jackson)"
     },
     {
       "imdbId": "nm0992227",
@@ -462,5 +472,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 178
+  "runtimeMinutes": 178,
+  "releaseDateCountry": "United States"
 }

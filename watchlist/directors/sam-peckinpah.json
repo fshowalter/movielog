@@ -21,7 +21,8 @@
     },
     {
       "imdbId": "tt0065446",
-      "title": "The Ballad of Cable Hogue (1970)"
+      "title": "The Ballad of Cable Hogue (1970)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0067800",
@@ -60,5 +61,15 @@
       "title": "The Osterman Weekend (1983)"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt0059037",
+      "title": "The Cincinnati Kid (1965)",
+      "attributes": [
+        "uncredited"
+      ],
+      "role": "fired after one week shooting",
+      "reason": "fired after one week shooting"
+    }
+  ]
 }

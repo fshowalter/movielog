@@ -5,7 +5,7 @@
   "sortTitle": "frighteners-1996",
   "year": "1996",
   "slug": "the-frighteners-1996",
-  "releaseDate": "1996-07-17",
+  "releaseDate": "1996-07-19",
   "runtimeMinutes": 110,
   "countries": [
     "New Zealand",
@@ -22,7 +22,8 @@
   "directors": [
     {
       "imdbId": "nm0001392",
-      "name": "Peter Jackson"
+      "name": "Peter Jackson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -66,7 +67,8 @@
       "name": "Dee Wallace",
       "roles": [
         "Patricia Bradley"
-      ]
+      ],
+      "notes": "(as Dee Wallace Stone)"
     },
     {
       "imdbId": "nm0000998",
@@ -374,5 +376,6 @@
       "name": "Peter Jackson",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

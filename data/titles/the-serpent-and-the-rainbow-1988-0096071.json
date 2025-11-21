@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000127",
-      "name": "Wes Craven"
+      "name": "Wes Craven",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -116,7 +117,8 @@
       "name": "Jaime Pina",
       "roles": [
         "Julio"
-      ]
+      ],
+      "notes": "(as Jaime Piña Gautier)"
     },
     {
       "imdbId": "nm0805145",
@@ -130,7 +132,8 @@
       "name": "Kimberleigh Aarn",
       "roles": [
         "Margrite"
-      ]
+      ],
+      "notes": "(as Kimberleigh Burroughs)"
     },
     {
       "imdbId": "nm0859369",
@@ -250,7 +253,8 @@
       "name": "Johnny Pephanon",
       "roles": [
         "Man With Needles"
-      ]
+      ],
+      "notes": "(as Johnny Pephanor)"
     },
     {
       "imdbId": "nm0153088",
@@ -264,7 +268,8 @@
       "name": "Suzette Cajusle",
       "roles": [
         "Houngan Dancer"
-      ]
+      ],
+      "notes": "(as Suzette Cajuste)"
     },
     {
       "imdbId": "nm0843174",
@@ -278,7 +283,8 @@
       "name": "Iversose Beuville",
       "roles": [
         "Houngan Dancer"
-      ]
+      ],
+      "notes": "(as Iverose Beuville)"
     },
     {
       "imdbId": "nm0272230",
@@ -299,14 +305,16 @@
       "name": "Francesco Chavez",
       "roles": [
         "Houngan Dancer"
-      ]
+      ],
+      "notes": "(as Francisco Chavez)"
     },
     {
       "imdbId": "nm0195879",
       "name": "Saveur D'Orlean",
       "roles": [
         "Houngan Drummer"
-      ]
+      ],
+      "notes": "(as Sauveur D'Orlean)"
     },
     {
       "imdbId": "nm0022730",
@@ -327,7 +335,8 @@
       "name": "Elías Gastavo",
       "roles": [
         "Houngan Drummer"
-      ]
+      ],
+      "notes": "(as Elías Gustavo)"
     },
     {
       "imdbId": "nm0246382",
@@ -348,7 +357,8 @@
       "name": "Providenia Alcántara",
       "roles": [
         "Bizango Dancers Lead Singer"
-      ]
+      ],
+      "notes": "(as Providencia Alcántara)"
     },
     {
       "imdbId": "nm0153017",
@@ -473,5 +483,6 @@
       "notes": "screenplay by (as A.R. Simoun)"
     }
   ],
-  "runtimeMinutes": 98
+  "runtimeMinutes": 98,
+  "releaseDateCountry": "United States"
 }

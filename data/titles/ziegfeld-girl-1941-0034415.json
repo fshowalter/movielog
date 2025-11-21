@@ -5,7 +5,7 @@
   "originalTitle": "Ziegfeld Girl",
   "sortTitle": "ziegfeld-girl-1941",
   "year": "1941",
-  "releaseDate": "1941-04-12",
+  "releaseDate": "1941-04-25",
   "countries": [
     "United States"
   ],
@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0000923",
-      "name": "Busby Berkeley"
+      "name": "Busby Berkeley",
+      "notes": "musical numbers directed by"
     },
     {
       "imdbId": "nm0502752",
-      "name": "Robert Z. Leonard"
+      "name": "Robert Z. Leonard",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -114,7 +116,8 @@
       "name": "Dan Dailey",
       "roles": [
         "Jimmy Walters"
-      ]
+      ],
+      "notes": "(as Dan Dailey Jr.)"
     },
     {
       "imdbId": "nm0790383",
@@ -156,7 +159,8 @@
       "name": "Edward McNamara",
       "roles": [
         "Mr. Regan"
-      ]
+      ],
+      "notes": "(as Ed McNamara)"
     },
     {
       "imdbId": "nm0123994",
@@ -202,7 +206,13 @@
       "imdbId": "nm0570305",
       "name": "William Anthony McGuire",
       "notes": "original story by"
+    },
+    {
+      "imdbId": "nm0926217",
+      "name": "Annalee Whitmore",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 132
+  "runtimeMinutes": 132,
+  "releaseDateCountry": "United States"
 }

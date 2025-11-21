@@ -14,7 +14,13 @@
     "Mystery",
     "Thriller"
   ],
-  "directors": [],
+  "directors": [
+    {
+      "imdbId": "nm0532187",
+      "name": "Hamilton MacFadden",
+      "notes": "(uncredited)"
+    }
+  ],
   "performers": [
     {
       "imdbId": "nm0645941",
@@ -138,7 +144,13 @@
       "imdbId": "nm0458934",
       "name": "Philip Klein",
       "notes": "dialogue"
+    },
+    {
+      "imdbId": "nm0629580",
+      "name": "Dudley Nichols",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 71
+  "runtimeMinutes": 71,
+  "releaseDateCountry": "United States"
 }

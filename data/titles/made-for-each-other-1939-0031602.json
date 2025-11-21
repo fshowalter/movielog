@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0188669",
-      "name": "John Cromwell"
+      "name": "John Cromwell",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -74,7 +75,13 @@
       "imdbId": "nm0291263",
       "name": "Rose Franken",
       "notes": "suggested by a story by"
+    },
+    {
+      "imdbId": "nm0752541",
+      "name": "Frank Ryan",
+      "notes": "contributor: humorous situations (uncredited)"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

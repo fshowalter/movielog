@@ -5,7 +5,7 @@
   "originalTitle": "The Muppet Movie",
   "sortTitle": "muppet-movie-1979",
   "year": "1979",
-  "releaseDate": "1979-05-31",
+  "releaseDate": "1979-06-22",
   "countries": [
     "United Kingdom",
     "United States"
@@ -23,6 +23,75 @@
     }
   ],
   "performers": [
+    {
+      "imdbId": "nm0001345",
+      "name": "Jim Henson",
+      "roles": [
+        "Kermit the Frog",
+        "Rowlf",
+        "Dr. Teeth",
+        "Waldorf",
+        "Swedish Chef",
+        "Link Hogthrob",
+        "Doc Hopper's Men"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000568",
+      "name": "Frank Oz",
+      "roles": [
+        "Miss Piggy",
+        "Fozzie Bear",
+        "Animal",
+        "Sam the Eagle",
+        "Doc Hopper's Men",
+        "Marvin Suggs",
+        "Swedish Chef (assistant)",
+        "Motorcycle Guy"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0625456",
+      "name": "Jerry Nelson",
+      "roles": [
+        "Floyd Pepper",
+        "Crazy Harry",
+        "Robin the Frog",
+        "Lew Zealand",
+        "Camilla",
+        "Blue Frackle"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0402611",
+      "name": "Richard Hunt",
+      "roles": [
+        "Scooter",
+        "Statler",
+        "Janice",
+        "Sweetums",
+        "Beaker",
+        "Fozzie Bear (assistant)"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0324397",
+      "name": "Dave Goelz",
+      "roles": [
+        "The Great Gonzo",
+        "Zoot",
+        "Dr. Bunsen Honeydew",
+        "Doglion",
+        "Iraqian in El Sleezo Cafe",
+        "Nigel",
+        "Pig"
+      ],
+      "notes": "(voice)"
+    },
     {
       "imdbId": "nm0001164",
       "name": "Charles Durning",
@@ -42,7 +111,7 @@
       "name": "Edgar Bergen",
       "roles": [
         "Self",
-        "Charlie McCarthy"
+        "Self - Charlie McCarthy"
       ]
     },
     {
@@ -200,6 +269,15 @@
       ]
     },
     {
+      "imdbId": "nm0926209",
+      "name": "Steve Whitmire",
+      "roles": [
+        "Fletcher Bird",
+        "Scooter (assistant)"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0612020",
       "name": "Kathryn Mullen",
       "roles": [
@@ -252,7 +330,8 @@
         "Fozzie Bear (assistant)",
         "Janice (assistant)",
         "Scooter (assistant)"
-      ]
+      ],
+      "notes": "(as Michael Davis)"
     },
     {
       "imdbId": "nm0839527",
@@ -274,6 +353,14 @@
       "roles": [
         "Muppet Performer"
       ]
+    },
+    {
+      "imdbId": "nm0818973",
+      "name": "Caroll Spinney",
+      "roles": [
+        "Big Bird"
+      ],
+      "notes": "(voice) (as Carroll Spinney)"
     }
   ],
   "writers": [
@@ -288,5 +375,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

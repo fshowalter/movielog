@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0514906",
-      "name": "Chia-Liang Liu"
+      "name": "Chia-Liang Liu",
+      "notes": "(as Liu Chia-Liang)"
     }
   ],
   "performers": [
@@ -26,14 +27,16 @@
       "name": "Yue Wong",
       "roles": [
         "'Dirty' Ho Jen"
-      ]
+      ],
+      "notes": "(as Wang Yu)"
     },
     {
       "imdbId": "nm0514904",
       "name": "Chia-Hui Liu",
       "roles": [
         "Wang Tsun Hsin - 11th prince"
-      ]
+      ],
+      "notes": "(as Liu Chia-Hui)"
     },
     {
       "imdbId": "nm0516316",
@@ -47,21 +50,24 @@
       "name": "Hou Hsiao",
       "roles": [
         "Hsia Liu"
-      ]
+      ],
+      "notes": "(as Hsiao Hou)"
     },
     {
       "imdbId": "nm0401192",
       "name": "Kara Ying Hung Wai",
       "roles": [
         "Tsui Hung"
-      ]
+      ],
+      "notes": "(as Hui Ying-Hung)"
     },
     {
       "imdbId": "nm0867268",
       "name": "Wilson Tong",
       "roles": [
         "Mr. Chu"
-      ]
+      ],
+      "notes": "(as Tang Wei Cheng)"
     },
     {
       "imdbId": "nm0497688",
@@ -69,7 +75,8 @@
       "roles": [
         "General Liang's fighter",
         "Soldier"
-      ]
+      ],
+      "notes": "(as Ching Chu)"
     },
     {
       "imdbId": "nm0910979",
@@ -83,14 +90,16 @@
       "name": "Hui-Huang Lin",
       "roles": [
         "Mongolian fighter"
-      ]
+      ],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm1017754",
       "name": "Helen Poon",
       "roles": [
         "Tsui Bing"
-      ]
+      ],
+      "notes": "(as Pan Ping Chang)"
     },
     {
       "imdbId": "nm1799333",
@@ -167,7 +176,8 @@
       "name": "Jamie Luk",
       "roles": [
         "Art admirer"
-      ]
+      ],
+      "notes": "(as Chien-Ming Lu)"
     },
     {
       "imdbId": "nm2034575",
@@ -187,7 +197,8 @@
     {
       "imdbId": "nm2740823",
       "name": "Ho Bao-Hsing",
-      "roles": []
+      "roles": [],
+      "notes": "(as Bao-Hsing Ho)"
     },
     {
       "imdbId": "nm0151005",
@@ -199,7 +210,8 @@
     {
       "imdbId": "nm4740363",
       "name": "Ming-Wai Chan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ming-Wei Chen)"
     },
     {
       "imdbId": "nm1673403",
@@ -207,7 +219,8 @@
       "roles": [
         "Hunchback handicapped Devil",
         "Soldier"
-      ]
+      ],
+      "notes": "(as Yung-Han Chang)"
     },
     {
       "imdbId": "nm3082237",
@@ -271,7 +284,8 @@
     {
       "imdbId": "nm1269214",
       "name": "Tze Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lin Tsai)"
     },
     {
       "imdbId": "nm3696313",
@@ -345,5 +359,6 @@
       "notes": "screenplay by (as I Kuang)"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "Hong Kong"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Peanut Butter Solution",
   "sortTitle": "peanut-butter-solution-1985",
   "year": "1985",
-  "releaseDate": "1985-12-04",
+  "releaseDate": "1985-12-06",
   "countries": [
     "Canada"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0747808",
-      "name": "Michael Rubbo"
+      "name": "Michael Rubbo",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -35,14 +36,16 @@
       "name": "Siluck Saysanasy",
       "roles": [
         "Connie"
-      ]
+      ],
+      "notes": "(as Siluk Saysanasy)"
     },
     {
       "imdbId": "nm0687922",
       "name": "Alison Darcy",
       "roles": [
         "Suzie"
-      ]
+      ],
+      "notes": "(as Alison Podbrey)"
     },
     {
       "imdbId": "nm0389581",
@@ -119,7 +122,8 @@
       "name": "Patrick St-Pierre",
       "roles": [
         "Little William"
-      ]
+      ],
+      "notes": "(as Patrick Saint-Pierre)"
     },
     {
       "imdbId": "nm0819895",
@@ -186,5 +190,6 @@
       "notes": "with the collaboration of"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

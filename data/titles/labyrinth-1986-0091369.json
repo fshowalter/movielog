@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0001345",
-      "name": "Jim Henson"
+      "name": "Jim Henson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -73,6 +74,25 @@
       ]
     },
     {
+      "imdbId": "nm0005008",
+      "name": "Brian Henson",
+      "roles": [
+        "Hoggle",
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0610967",
+      "name": "Ron Mueck",
+      "roles": [
+        "Ludo",
+        "Firey 2",
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0590166",
       "name": "Rob Mills",
       "roles": [
@@ -81,12 +101,36 @@
       ]
     },
     {
+      "imdbId": "nm0324397",
+      "name": "Dave Goelz",
+      "roles": [
+        "Didymus",
+        "The Hat",
+        "The Four Guards",
+        "Left Door Knocker",
+        "Firey 3"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0054033",
       "name": "David Alan Barclay",
       "roles": [
         "Didymus",
         "Firey 1"
-      ]
+      ],
+      "notes": "(as David Barclay)"
+    },
+    {
+      "imdbId": "nm0789479",
+      "name": "David Shaughnessy",
+      "roles": [
+        "Didymus",
+        "The Hat",
+        "The Four Guards",
+        "Goblin"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0695891",
@@ -98,11 +142,57 @@
       ]
     },
     {
+      "imdbId": "nm0061063",
+      "name": "Timothy Bateson",
+      "roles": [
+        "The Worm",
+        "The Four Guards",
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0000568",
       "name": "Frank Oz",
       "roles": [
         "The Wiseman"
       ]
+    },
+    {
+      "imdbId": "nm0394588",
+      "name": "Michael Hordern",
+      "roles": [
+        "The Wiseman"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0117350",
+      "name": "Denise Bryer",
+      "roles": [
+        "The Junk Lady"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0926209",
+      "name": "Steve Whitmire",
+      "roles": [
+        "The Four Guards",
+        "Firey 4",
+        "Ambrosius"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0165159",
+      "name": "Kevin Clash",
+      "roles": [
+        "The Four Guards",
+        "Firey 1",
+        "Ambrosius"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0038424",
@@ -112,6 +202,40 @@
         "Right Door Knocker",
         "Firey 5"
       ]
+    },
+    {
+      "imdbId": "nm0413273",
+      "name": "Anthony Jackson",
+      "roles": [
+        "The Four Guards",
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0085901",
+      "name": "Douglas Blackwell",
+      "roles": [
+        "The Four Guards",
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0372242",
+      "name": "David Healy",
+      "roles": [
+        "Right Door Knocker"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0064235",
+      "name": "Robert Beatty",
+      "roles": [
+        "Left Door Knocker"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0680975",
@@ -128,11 +252,28 @@
       ]
     },
     {
+      "imdbId": "nm0041832",
+      "name": "Charles Augins",
+      "roles": [
+        "Firey 2"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0025329",
       "name": "Sherry Amott",
       "roles": [
         "Firey 3"
       ]
+    },
+    {
+      "imdbId": "nm0424253",
+      "name": "Danny John-Jules",
+      "roles": [
+        "Firey 3",
+        "Firey 4"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0378193",
@@ -146,7 +287,8 @@
       "name": "Kaefan Shaw",
       "roles": [
         "Firey 4"
-      ]
+      ],
+      "notes": "(as Kevin Bradshaw)"
     },
     {
       "imdbId": "nm0298154",
@@ -161,6 +303,62 @@
       "roles": [
         "Firey 5"
       ]
+    },
+    {
+      "imdbId": "nm0090990",
+      "name": "Richard Bodkin",
+      "roles": [
+        "Firey 5"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0250272",
+      "name": "Percy Edwards",
+      "roles": [
+        "Ambrosius"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0041112",
+      "name": "Michael Attwell",
+      "roles": [
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0057277",
+      "name": "Sean Barrett",
+      "roles": [
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0089944",
+      "name": "John Bluthal",
+      "roles": [
+        "Goblin"
+      ],
+      "notes": "(voice) (as John Bluthel)"
+    },
+    {
+      "imdbId": "nm0547603",
+      "name": "Peter Marinker",
+      "roles": [
+        "Goblin"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0787715",
+      "name": "Kerry Shale",
+      "roles": [
+        "Goblin"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0031235",
@@ -433,7 +631,8 @@
       "name": "Dougie Howes",
       "roles": [
         "Ballroom Dancer"
-      ]
+      ],
+      "notes": "(as Douglas Howes)"
     },
     {
       "imdbId": "nm0696389",
@@ -502,5 +701,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

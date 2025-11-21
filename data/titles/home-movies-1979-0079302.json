@@ -5,7 +5,7 @@
   "originalTitle": "Home Movies",
   "sortTitle": "home-movies-1979",
   "year": "1979",
-  "releaseDate": "1979-08-28",
+  "releaseDate": "1980-04-10",
   "countries": [
     "United States"
   ],
@@ -122,7 +122,8 @@
       "name": "Charlie Loventhal",
       "roles": [
         "Thomas"
-      ]
+      ],
+      "notes": "(as Charles Loventhal)"
     },
     {
       "imdbId": "nm0585350",
@@ -178,7 +179,8 @@
       "name": "Tom Surgal",
       "roles": [
         "Student Holding Sign"
-      ]
+      ],
+      "notes": "(as Tom Surgel)"
     },
     {
       "imdbId": "nm0120537",
@@ -225,5 +227,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "Italy"
 }

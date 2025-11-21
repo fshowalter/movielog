@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0151540",
-      "name": "Jay Chandrasekhar"
+      "name": "Jay Chandrasekhar",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -53,7 +54,8 @@
       "name": "Jürgen Prochnow",
       "roles": [
         "Baron Wolfgang von Wolfhausen"
-      ]
+      ],
+      "notes": "(as Juergen Prochnow)"
     },
     {
       "imdbId": "nm2162637",
@@ -95,7 +97,8 @@
       "name": "Bjorn Johnson",
       "roles": [
         "Mr. Schniedelwichsen"
-      ]
+      ],
+      "notes": "(as Bjørn Johnson)"
     },
     {
       "imdbId": "nm0373571",
@@ -232,21 +235,24 @@
       "name": "Robert Douglas Washington",
       "roles": [
         "Viking Master"
-      ]
+      ],
+      "notes": "(as Robbie Washington)"
     },
     {
       "imdbId": "nm2359544",
       "name": "Leanna Kristen Woodley",
       "roles": [
         "Little Tough Chick"
-      ]
+      ],
+      "notes": "(as Leanna Kristen)"
     },
     {
       "imdbId": "nm1017524",
       "name": "Audrey Marie Anderson",
       "roles": [
         "Giddy Girl #1"
-      ]
+      ],
+      "notes": "(as Audrey Anderson)"
     },
     {
       "imdbId": "nm1557837",
@@ -288,7 +294,8 @@
       "name": "James Roday Rodriguez",
       "roles": [
         "German Messenger"
-      ]
+      ],
+      "notes": "(as James Roday)"
     },
     {
       "imdbId": "nm1697022",
@@ -337,7 +344,8 @@
       "name": "Simona Fusco",
       "roles": [
         "Ulsa"
-      ]
+      ],
+      "notes": "(as Simona Fusco Stratten)"
     },
     {
       "imdbId": "nm1073931",
@@ -372,7 +380,8 @@
       "name": "Sabrina Jàvor",
       "roles": [
         "Rog's Girl"
-      ]
+      ],
+      "notes": "(as Sabrina Javor)"
     },
     {
       "imdbId": "nm2366855",
@@ -414,7 +423,8 @@
       "name": "Artist W. Robinson",
       "roles": [
         "Taxi Driver"
-      ]
+      ],
+      "notes": "(as Artist Robinson)"
     },
     {
       "imdbId": "nm2474652",
@@ -428,7 +438,8 @@
       "name": "Chloe Alexa Ibanez",
       "roles": [
         "Waitress"
-      ]
+      ],
+      "notes": "(as Chloe Russell)"
     }
   ],
   "writers": [
@@ -458,5 +469,6 @@
       "notes": "written by (as Broken Lizard)"
     }
   ],
-  "runtimeMinutes": 110
+  "runtimeMinutes": 110,
+  "releaseDateCountry": "United States"
 }

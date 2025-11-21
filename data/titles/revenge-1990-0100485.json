@@ -7,8 +7,8 @@
   "year": "1990",
   "releaseDate": "1990-02-16",
   "countries": [
-    "Mexico",
-    "United States"
+    "United States",
+    "Mexico"
   ],
   "genres": [
     "Action",
@@ -57,7 +57,8 @@
       "name": "Joaquín Martínez",
       "roles": [
         "Mauro"
-      ]
+      ],
+      "notes": "(as Joaquin Martinez)"
     },
     {
       "imdbId": "nm0304000",
@@ -85,7 +86,8 @@
       "name": "Luis de Icaza",
       "roles": [
         "Ramon"
-      ]
+      ],
+      "notes": "(as Luis De Icaza)"
     },
     {
       "imdbId": "nm0148385",
@@ -148,14 +150,16 @@
       "name": "Mónica Hernández",
       "roles": [
         "Neli"
-      ]
+      ],
+      "notes": "(as Monica Hernandez)"
     },
     {
       "imdbId": "nm0665056",
       "name": "Julián Pastor",
       "roles": [
         "Quinones"
-      ]
+      ],
+      "notes": "(as Julian Pastor)"
     },
     {
       "imdbId": "nm0111610",
@@ -252,5 +256,6 @@
       "notes": "screenplay by (as Jeffrey Fiskin)"
     }
   ],
-  "runtimeMinutes": 124
+  "runtimeMinutes": 124,
+  "releaseDateCountry": "United States"
 }

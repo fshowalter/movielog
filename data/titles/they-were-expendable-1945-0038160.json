@@ -5,7 +5,7 @@
   "originalTitle": "They Were Expendable",
   "sortTitle": "they-were-expendable-1945",
   "year": "1945",
-  "releaseDate": "1945-12-07",
+  "releaseDate": "1945-12-31",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0000406",
-      "name": "John Ford"
+      "name": "John Ford",
+      "notes": "(as John Ford Captain U.S.N.R.)"
+    },
+    {
+      "imdbId": "nm0599910",
+      "name": "Robert Montgomery",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -25,7 +31,8 @@
       "name": "Robert Montgomery",
       "roles": [
         "Lt. John Brickley"
-      ]
+      ],
+      "notes": "(as Robert Montgomery Comdr. U.S.N.R.)"
     },
     {
       "imdbId": "nm0000078",
@@ -193,7 +200,23 @@
       "imdbId": "nm0915693",
       "name": "Frank Wead",
       "notes": "screenplay (as Frank Wead Comdr. U.S.N. {Ret})"
+    },
+    {
+      "imdbId": "nm0181658",
+      "name": "Norman Corwin",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0296207",
+      "name": "George Froeschel",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0527331",
+      "name": "Jan Lustig",
+      "notes": "screenplay (uncredited)"
     }
   ],
-  "runtimeMinutes": 135
+  "runtimeMinutes": 135,
+  "releaseDateCountry": "United States"
 }

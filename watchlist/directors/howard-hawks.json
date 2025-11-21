@@ -24,12 +24,31 @@
       "title": "Tiger Shark (1932)"
     },
     {
+      "imdbId": "tt0132979",
+      "title": "La foule hurle (1932)"
+    },
+    {
+      "imdbId": "tt0024475",
+      "title": "The Prizefighter and the Lady (1933)",
+      "attributes": [
+        "uncredited"
+      ]
+    },
+    {
       "imdbId": "tt0024675",
       "title": "Today We Live (1933)"
     },
     {
       "imdbId": "tt0025919",
-      "title": "Twentieth Century (1934)"
+      "title": "Twentieth Century (1934)",
+      "role": "directed by"
+    },
+    {
+      "imdbId": "tt0025948",
+      "title": "Viva Villa! (1934)",
+      "attributes": [
+        "uncredited"
+      ]
     },
     {
       "imdbId": "tt0026097",
@@ -57,11 +76,13 @@
     },
     {
       "imdbId": "tt0032599",
-      "title": "His Girl Friday (1940)"
+      "title": "His Girl Friday (1940)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0033373",
-      "title": "Ball of Fire (1941)"
+      "title": "Ball of Fire (1941)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0034167",
@@ -70,6 +91,20 @@
     {
       "imdbId": "tt0035616",
       "title": "Air Force (1943)"
+    },
+    {
+      "imdbId": "tt0035757",
+      "title": "Corvette K-225 (1943)",
+      "attributes": [
+        "uncredited"
+      ]
+    },
+    {
+      "imdbId": "tt0036241",
+      "title": "The Outlaw (1943)",
+      "attributes": [
+        "uncredited"
+      ]
     },
     {
       "imdbId": "tt0037382",
@@ -92,6 +127,13 @@
       "title": "I Was a Male War Bride (1949)"
     },
     {
+      "imdbId": "tt0044121",
+      "title": "The Thing from Another World (1951)",
+      "attributes": [
+        "uncredited"
+      ]
+    },
+    {
       "imdbId": "tt0044419",
       "title": "The Big Sky (1952)"
     },
@@ -101,7 +143,10 @@
     },
     {
       "imdbId": "tt0044981",
-      "title": "O. Henry's Full House (1952)"
+      "title": "O. Henry's Full House (1952)",
+      "attributes": [
+        "segment \"The Ransom of Red Chief\""
+      ]
     },
     {
       "imdbId": "tt0045810",
@@ -133,11 +178,12 @@
     },
     {
       "imdbId": "tt0066301",
-      "title": "Rio Lobo (1970)"
+      "title": "Rio Lobo (1970)",
+      "role": "directed by"
     }
   ],
   "excludedTitles": [
-    {
+        {
       "imdbId": "tt0017778",
       "title": "The Cradle Snatchers (1927)",
       "reason": "silent"
@@ -166,11 +212,6 @@
       "imdbId": "tt0020513",
       "title": "Trent's Last Case (1929)",
       "reason": "silent"
-    },
-    {
-      "imdbId": "tt0132979",
-      "title": "La foule hurle (1932)",
-      "reason": "French version of The Crowd Roars (1932)"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Batman",
   "sortTitle": "batman-2022",
   "year": "2022",
-  "releaseDate": "2022-03-01",
+  "releaseDate": "2022-03-04",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0716257",
-      "name": "Matt Reeves"
+      "name": "Matt Reeves",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -589,17 +590,8 @@
       "imdbId": "nm0185976",
       "name": "Peter Craig",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0004170",
-      "name": "Bob Kane",
-      "notes": "Batman created by &"
-    },
-    {
-      "imdbId": "nm0277730",
-      "name": "Bill Finger",
-      "notes": "Batman created by"
     }
   ],
-  "runtimeMinutes": 176
+  "runtimeMinutes": 176,
+  "releaseDateCountry": "United States"
 }

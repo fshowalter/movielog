@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0484645",
-      "name": "Lew Landers"
+      "name": "Lew Landers",
+      "notes": "(as Louis Friedlander)"
     }
   ],
   "performers": [
@@ -25,14 +26,16 @@
       "name": "Boris Karloff",
       "roles": [
         "Edmond Bateman"
-      ]
+      ],
+      "notes": "(as Karloff)"
     },
     {
       "imdbId": "nm0000509",
       "name": "Bela Lugosi",
       "roles": [
         "Dr. Richard Vollin"
-      ]
+      ],
+      "notes": "(as Lugosi, Bela Lugosi)"
     },
     {
       "imdbId": "nm0560091",
@@ -97,7 +100,43 @@
       "imdbId": "nm0091200",
       "name": "David Boehm",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0256880",
+      "name": "Guy Endore",
+      "notes": "contributing writer (uncredited)"
+    },
+    {
+      "imdbId": "nm0258005",
+      "name": "Florence Enright",
+      "notes": "dialogue (uncredited)"
+    },
+    {
+      "imdbId": "nm0528351",
+      "name": "John Lynch",
+      "notes": "contributing writer (uncredited)"
+    },
+    {
+      "imdbId": "nm0548788",
+      "name": "Clarence Marks",
+      "notes": "contributing writer (uncredited)"
+    },
+    {
+      "imdbId": "nm0770196",
+      "name": "Dore Schary",
+      "notes": "contributing writer (uncredited)"
+    },
+    {
+      "imdbId": "nm0799848",
+      "name": "Michael L. Simmons",
+      "notes": "contributing writer (uncredited)"
+    },
+    {
+      "imdbId": "nm0876432",
+      "name": "Jim Tully",
+      "notes": "contributing writer (uncredited)"
     }
   ],
-  "runtimeMinutes": 61
+  "runtimeMinutes": 61,
+  "releaseDateCountry": "United States"
 }

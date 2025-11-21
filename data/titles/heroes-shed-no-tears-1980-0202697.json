@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -39,21 +40,24 @@
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Chou Tung-Lai"
-      ]
+      ],
+      "notes": "(as Tung-Shing Yee)"
     },
     {
       "imdbId": "nm0473314",
       "name": "Ku Feng",
       "roles": [
         "Chu Meng"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
       "roles": [
         "Hsiao Lei-Hsueh"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0473322",
@@ -142,7 +146,8 @@
     {
       "imdbId": "nm2750072",
       "name": "Chi-Hung Ling",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chih Hung Ling)"
     },
     {
       "imdbId": "nm0490548",
@@ -154,12 +159,14 @@
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chien Ming Lu)"
     },
     {
       "imdbId": "nm1091281",
       "name": "Siu Tak-Foo",
-      "roles": []
+      "roles": [],
+      "notes": "(as Te Hu Hsiao)"
     },
     {
       "imdbId": "nm2405439",
@@ -169,7 +176,8 @@
     {
       "imdbId": "nm3063152",
       "name": "Wai-Man Tam",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wei-Min Tan)"
     },
     {
       "imdbId": "nm0906402",
@@ -179,7 +187,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0157900",
@@ -231,5 +240,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "Hong Kong"
 }

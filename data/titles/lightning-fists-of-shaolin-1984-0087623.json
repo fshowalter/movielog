@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0849271",
-      "name": "Tang Chia"
+      "name": "Tang Chia",
+      "notes": "(as Chia Tang)"
     }
   ],
   "performers": [
@@ -32,21 +33,24 @@
       "name": "Te-Lo Mai",
       "roles": [
         "Lu Hu-sze"
-      ]
+      ],
+      "notes": "(as Robert Mak)"
     },
     {
       "imdbId": "nm2051160",
       "name": "Leanne Lau",
       "roles": [
         "Hsiao Tsui"
-      ]
+      ],
+      "notes": "(as Hsueh-Hua Liu)"
     },
     {
       "imdbId": "nm0155291",
       "name": "Chen Kuan-Tai",
       "roles": [
         "Yung Feng"
-      ]
+      ],
+      "notes": "(as Kuan Tai Chen)"
     },
     {
       "imdbId": "nm0438071",
@@ -67,7 +71,8 @@
       "name": "Tang Chia",
       "roles": [
         "Master Hui-Cheng (Guest star)"
-      ]
+      ],
+      "notes": "(as Chia Tang)"
     },
     {
       "imdbId": "nm0150985",
@@ -89,7 +94,8 @@
     {
       "imdbId": "nm3935846",
       "name": "Hui-Ran Ho",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hui-Han Ho)"
     },
     {
       "imdbId": "nm0791461",
@@ -101,7 +107,8 @@
     {
       "imdbId": "nm0151101",
       "name": "Siu-Wah Chan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Shao-Hua Chen)"
     },
     {
       "imdbId": "nm0151183",
@@ -126,12 +133,14 @@
     {
       "imdbId": "nm1367272",
       "name": "Kwok-Keung Choi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Kuo-Chiang Tsai)"
     },
     {
       "imdbId": "nm3907769",
       "name": "Wai-Hon Ho",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hui-Han Ho)"
     },
     {
       "imdbId": "nm3065008",
@@ -158,7 +167,8 @@
     {
       "imdbId": "nm0482708",
       "name": "Wai Lam",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wei Lin)"
     },
     {
       "imdbId": "nm2404650",
@@ -173,7 +183,8 @@
     {
       "imdbId": "nm2750072",
       "name": "Chi-Hung Ling",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chih-Hung Ling)"
     },
     {
       "imdbId": "nm12102984",
@@ -195,7 +206,8 @@
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0487372",
@@ -254,7 +266,8 @@
     {
       "imdbId": "nm0947819",
       "name": "Jackie Yeung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Te-Yi Yang)"
     },
     {
       "imdbId": "nm0082898",
@@ -274,5 +287,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "Hong Kong"
 }

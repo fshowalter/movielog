@@ -5,7 +5,7 @@
   "originalTitle": "Necronomicon",
   "sortTitle": "necronomicon-book-of-dead-1993",
   "year": "1993",
-  "releaseDate": "1993-11-01",
+  "releaseDate": "1994-07-29",
   "countries": [
     "France",
     "Japan",
@@ -17,15 +17,18 @@
   "directors": [
     {
       "imdbId": "nm0304521",
-      "name": "Christophe Gans"
+      "name": "Christophe Gans",
+      "notes": "(segment \"part #1: The Drowned\")"
     },
     {
       "imdbId": "nm0437526",
-      "name": "Shûsuke Kaneko"
+      "name": "Shûsuke Kaneko",
+      "notes": "(segment \"part #2: The Cold\")"
     },
     {
       "imdbId": "nm0951206",
-      "name": "Brian Yuzna"
+      "name": "Brian Yuzna",
+      "notes": "(segments \"wraparound: The Library\", \"part #3: Whispers\")"
     }
   ],
   "performers": [
@@ -230,5 +233,6 @@
       "notes": "story (part 3 and wraparound)"
     }
   ],
-  "runtimeMinutes": 96
+  "runtimeMinutes": 96,
+  "releaseDateCountry": "United Kingdom"
 }

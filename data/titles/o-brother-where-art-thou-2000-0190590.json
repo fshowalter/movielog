@@ -5,7 +5,7 @@
   "sortTitle": "o-brother-where-art-thou-2000",
   "year": "2000",
   "slug": "o-brother-where-art-thou-2000",
-  "releaseDate": "2000-05-13",
+  "releaseDate": "2001-02-02",
   "runtimeMinutes": 107,
   "countries": [
     "United Kingdom",
@@ -23,6 +23,11 @@
     {
       "imdbId": "nm0001054",
       "name": "Joel Coen"
+    },
+    {
+      "imdbId": "nm0001053",
+      "name": "Ethan Coen",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -129,7 +134,8 @@
       "name": "Daniel von Bargen",
       "roles": [
         "Sheriff Cooley"
-      ]
+      ],
+      "notes": "(as Daniel Von Bargen)"
     },
     {
       "imdbId": "nm0032403",
@@ -164,7 +170,8 @@
       "name": "Millford Fortenberry",
       "roles": [
         "Pomade Vendor"
-      ]
+      ],
+      "notes": "(as Milford Fortenberry)"
     },
     {
       "imdbId": "nm0740535",
@@ -365,5 +372,6 @@
       "name": "Joel Coen",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

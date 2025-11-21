@@ -5,7 +5,7 @@
   "originalTitle": "Wonder Woman 1984",
   "sortTitle": "wonder-woman-1984-2020",
   "year": "2020",
-  "releaseDate": "2020-12-16",
+  "releaseDate": "2020-12-25",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0420941",
-      "name": "Patty Jenkins"
+      "name": "Patty Jenkins",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -201,7 +202,8 @@
       "name": "Bronte Lavine",
       "roles": [
         "Competitor"
-      ]
+      ],
+      "notes": "(as Brontë Lavine)"
     },
     {
       "imdbId": "nm9962079",
@@ -236,7 +238,8 @@
       "name": "Gwendolyn Osborne",
       "roles": [
         "Competitor"
-      ]
+      ],
+      "notes": "(as Gwendolyn Smith)"
     },
     {
       "imdbId": "nm9031112",
@@ -250,28 +253,32 @@
       "name": "Saïd Taghmaoui",
       "roles": [
         "Sameer (Photograph)"
-      ]
+      ],
+      "notes": "(credit only)"
     },
     {
       "imdbId": "nm0001971",
       "name": "Ewen Bremner",
       "roles": [
         "Charlie (Photograph)"
-      ]
+      ],
+      "notes": "(credit only)"
     },
     {
       "imdbId": "nm4726999",
       "name": "Eugene Brave Rock",
       "roles": [
         "Chief (Photograph)"
-      ]
+      ],
+      "notes": "(credit only)"
     },
     {
       "imdbId": "nm0205063",
       "name": "Lucy Davis",
       "roles": [
         "Etta (Photograph)"
-      ]
+      ],
+      "notes": "(credit only)"
     },
     {
       "imdbId": "nm4874127",
@@ -292,7 +299,8 @@
       "name": "Jimmy Burke",
       "roles": [
         "Flat Top"
-      ]
+      ],
+      "notes": "(as James C. Burke)"
     },
     {
       "imdbId": "nm1938892",
@@ -734,7 +742,8 @@
       "name": "Jean Hudson Miller",
       "roles": [
         "Dog Walker"
-      ]
+      ],
+      "notes": "(as Jean H. Miller)"
     },
     {
       "imdbId": "nm0784258",
@@ -1000,7 +1009,8 @@
       "name": "Mikayla Jade",
       "roles": [
         "Amazon Athlete"
-      ]
+      ],
+      "notes": "(as Mikayla-Jade Barber)"
     },
     {
       "imdbId": "nm11982668",
@@ -1056,12 +1066,8 @@
       "imdbId": "nm1709264",
       "name": "Dave Callaham",
       "notes": "screenplay by"
-    },
-    {
-      "imdbId": "nm0551376",
-      "name": "William Moulton Marston",
-      "notes": "based on characters from DC Wonder Woman created by"
     }
   ],
-  "runtimeMinutes": 151
+  "runtimeMinutes": 151,
+  "releaseDateCountry": "United States"
 }

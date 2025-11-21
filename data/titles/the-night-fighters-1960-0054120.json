@@ -5,7 +5,7 @@
   "originalTitle": "A Terrible Beauty",
   "sortTitle": "night-fighters-1960",
   "year": "1960",
-  "releaseDate": "1960-05-01",
+  "releaseDate": "1960-05-??",
   "countries": [
     "United Kingdom",
     "United States"
@@ -63,7 +63,8 @@
       "name": "Niall MacGinnis",
       "roles": [
         "Ned O'Neill (Dermot's brother)"
-      ]
+      ],
+      "notes": "(as Niall McGinnis)"
     },
     {
       "imdbId": "nm0070946",
@@ -119,7 +120,8 @@
       "name": "Eddie Golden",
       "roles": [
         "Johnny Corrigan"
-      ]
+      ],
+      "notes": "(as Edward Golden)"
     },
     {
       "imdbId": "nm0236147",
@@ -133,7 +135,8 @@
       "name": "J.G. Devlin",
       "roles": [
         "Const. Lauden"
-      ]
+      ],
+      "notes": "(as James Devlin)"
     },
     {
       "imdbId": "nm0250042",
@@ -155,5 +158,6 @@
       "notes": "novel \"A Terrible Beauty\""
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United Kingdom"
 }

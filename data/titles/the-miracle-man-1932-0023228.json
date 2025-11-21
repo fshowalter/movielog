@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0572851",
-      "name": "Norman Z. McLeod"
+      "name": "Norman Z. McLeod",
+      "notes": "(as Norman McLeod)"
     }
   ],
   "performers": [
@@ -53,7 +54,8 @@
       "name": "Ned Sparks",
       "roles": [
         "Harry Evans"
-      ]
+      ],
+      "notes": "(as Ned A. Sparks)"
     },
     {
       "imdbId": "nm0098376",
@@ -137,5 +139,6 @@
       "notes": "dialogue"
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

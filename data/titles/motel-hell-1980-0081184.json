@@ -5,7 +5,7 @@
   "originalTitle": "Motel Hell",
   "sortTitle": "motel-hell-1980",
   "year": "1980",
-  "releaseDate": "1980-08-14",
+  "releaseDate": "1980-10-24",
   "countries": [
     "United States"
   ],
@@ -139,7 +139,8 @@
       "name": "Toni Gilman",
       "roles": [
         "Mrs. Owens"
-      ]
+      ],
+      "notes": "(as Toni Gillman)"
     },
     {
       "imdbId": "nm0376907",
@@ -161,6 +162,20 @@
       "roles": [
         "Dixie"
       ]
+    },
+    {
+      "imdbId": "nm0329361",
+      "name": "Barbara Goodson",
+      "roles": [
+        "Voice #1"
+      ]
+    },
+    {
+      "imdbId": "nm0288754",
+      "name": "Kim Fowler",
+      "roles": [
+        "Voice #2"
+      ]
     }
   ],
   "writers": [
@@ -175,5 +190,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

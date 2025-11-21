@@ -5,7 +5,7 @@
   "originalTitle": "Mississippi Grind",
   "sortTitle": "mississippi-grind-2015",
   "year": "2015",
-  "releaseDate": "2015-01-24",
+  "releaseDate": "2015-08-13",
   "countries": [
     "United States"
   ],
@@ -16,11 +16,13 @@
   "directors": [
     {
       "imdbId": "nm1349818",
-      "name": "Anna Boden"
+      "name": "Anna Boden",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0281396",
-      "name": "Ryan Fleck"
+      "name": "Ryan Fleck",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -148,14 +150,16 @@
       "name": "Lio Tipton",
       "roles": [
         "Vanessa"
-      ]
+      ],
+      "notes": "(as Analeigh Tipton)"
     },
     {
       "imdbId": "nm7162113",
       "name": "Timothy Louie",
       "roles": [
         "Dealer"
-      ]
+      ],
+      "notes": "(as Tim Louie)"
     },
     {
       "imdbId": "nm0674032",
@@ -169,7 +173,8 @@
       "name": "Don Brady",
       "roles": [
         "Loser"
-      ]
+      ],
+      "notes": "(as Donald Brady)"
     },
     {
       "imdbId": "nm7512411",
@@ -183,7 +188,8 @@
       "name": "Josh Wilcox",
       "roles": [
         "Player One"
-      ]
+      ],
+      "notes": "(as Joshua Wilcox)"
     },
     {
       "imdbId": "nm3986223",
@@ -197,7 +203,8 @@
       "name": "Leo Bud Welch",
       "roles": [
         "Leo Welch"
-      ]
+      ],
+      "notes": "(as Leo Welch)"
     },
     {
       "imdbId": "nm1881080",
@@ -218,7 +225,8 @@
       "name": "Lucky Johnson",
       "roles": [
         "Man in Bar"
-      ]
+      ],
+      "notes": "(as Kevin 'Lucky' Johnson)"
     },
     {
       "imdbId": "nm1979373",
@@ -309,7 +317,8 @@
       "name": "Mary Patricia Seidel",
       "roles": [
         "Steakhouse Waitress"
-      ]
+      ],
+      "notes": "(as Mary Seidel)"
     },
     {
       "imdbId": "nm4754232",
@@ -331,5 +340,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 108
+  "runtimeMinutes": 108,
+  "releaseDateCountry": "United States"
 }

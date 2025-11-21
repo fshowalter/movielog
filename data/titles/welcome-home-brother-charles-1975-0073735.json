@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0266668",
-      "name": "Jamaa Fanaka"
+      "name": "Jamaa Fanaka",
+      "notes": "(as Jamaa-Fanaka)"
     }
   ],
   "performers": [
@@ -145,7 +146,8 @@
       "name": "Charles D. Brooks III",
       "roles": [
         "Peanuts"
-      ]
+      ],
+      "notes": "(as Charles Brooks III)"
     },
     {
       "imdbId": "nm1431668",
@@ -246,5 +248,6 @@
       "notes": "written by (as Jamaa-Fanaka)"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United States"
 }

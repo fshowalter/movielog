@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0507390",
-      "name": "Joseph H. Lewis"
+      "name": "Joseph H. Lewis",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -84,7 +85,8 @@
       "name": "Ottola Nesmith",
       "roles": [
         "Mrs. Mason"
-      ]
+      ],
+      "notes": "(as Ollola Nesmith)"
     },
     {
       "imdbId": "nm0447043",
@@ -123,5 +125,6 @@
       "notes": "screen play by"
     }
   ],
-  "runtimeMinutes": 64
+  "runtimeMinutes": 64,
+  "releaseDateCountry": "United States"
 }

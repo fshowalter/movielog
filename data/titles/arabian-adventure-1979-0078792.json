@@ -5,7 +5,7 @@
   "originalTitle": "Arabian Adventure",
   "sortTitle": "arabian-adventure-1979",
   "year": "1979",
-  "releaseDate": "1979-07-05",
+  "releaseDate": "1979-07-19",
   "countries": [
     "United Kingdom",
     "United States"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0175428",
-      "name": "Kevin Connor"
+      "name": "Kevin Connor",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -89,7 +90,8 @@
       "name": "Elisabeth Welch",
       "roles": [
         "Beggarwoman"
-      ]
+      ],
+      "notes": "(as Elizabeth Welch)"
     },
     {
       "imdbId": "nm0199811",
@@ -103,7 +105,8 @@
       "name": "Art Malik",
       "roles": [
         "Mahmoud"
-      ]
+      ],
+      "notes": "(as Athar Malik)"
     },
     {
       "imdbId": "nm0936797",
@@ -145,7 +148,8 @@
       "name": "Andy Bradford",
       "roles": [
         "Mauve Gang - Ajib"
-      ]
+      ],
+      "notes": "(as Andrew Bradford)"
     },
     {
       "imdbId": "nm0656606",
@@ -250,7 +254,8 @@
       "name": "Robert La Bassiere",
       "roles": [
         "The Nubian"
-      ]
+      ],
+      "notes": "(as Robert Labassiere)"
     },
     {
       "imdbId": "nm0193297",
@@ -302,5 +307,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 98
+  "runtimeMinutes": 98,
+  "releaseDateCountry": "United Kingdom"
 }

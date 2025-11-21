@@ -5,7 +5,7 @@
   "originalTitle": "Gorilla at Large",
   "sortTitle": "gorilla-at-large-1954",
   "year": "1954",
-  "releaseDate": "1954-05-01",
+  "releaseDate": "1954-05-??",
   "countries": [
     "United States"
   ],
@@ -83,7 +83,8 @@
       "name": "John Kellogg",
       "roles": [
         "Morse"
-      ]
+      ],
+      "notes": "(as John G. Kellogg)"
     }
   ],
   "writers": [
@@ -98,5 +99,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "United States"
 }

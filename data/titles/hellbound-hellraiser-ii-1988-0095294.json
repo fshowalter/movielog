@@ -5,7 +5,7 @@
   "originalTitle": "Hellbound: Hellraiser II",
   "sortTitle": "hellbound-hellraiser-ii-1988",
   "year": "1988",
-  "releaseDate": "1988-09-09",
+  "releaseDate": "1988-12-23",
   "countries": [
     "United Kingdom"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0709752",
-      "name": "Tony Randel"
+      "name": "Tony Randel",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -102,7 +103,8 @@
       "name": "Angus MacInnes",
       "roles": [
         "Ronson"
-      ]
+      ],
+      "notes": "(as Angus McInnes)"
     },
     {
       "imdbId": "nm0423573",
@@ -152,41 +154,6 @@
       "roles": [
         "Tiffany's Mother"
       ]
-    },
-    {
-      "imdbId": "nm0732367",
-      "name": "Andrew Robinson",
-      "roles": [
-        "Larry"
-      ]
-    },
-    {
-      "imdbId": "nm0385707",
-      "name": "Robert Hines",
-      "roles": [
-        "Steve"
-      ]
-    },
-    {
-      "imdbId": "nm0144224",
-      "name": "Michael Cassidy",
-      "roles": [
-        "3rd Victim"
-      ]
-    },
-    {
-      "imdbId": "nm0020269",
-      "name": "Anthony Allen",
-      "roles": [
-        "1st Victim"
-      ]
-    },
-    {
-      "imdbId": "nm0456156",
-      "name": "Grace Kirby",
-      "roles": [
-        "Female Cenobite"
-      ]
     }
   ],
   "writers": [
@@ -201,5 +168,6 @@
       "notes": "based on a story by"
     }
   ],
-  "runtimeMinutes": 97
+  "runtimeMinutes": 97,
+  "releaseDateCountry": "United States"
 }

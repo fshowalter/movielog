@@ -5,7 +5,7 @@
   "originalTitle": "The Offspring",
   "sortTitle": "from-a-whisper-to-a-scream-1987",
   "year": "1987",
-  "releaseDate": "1987-05-01",
+  "releaseDate": "1987-09-25",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0123009",
-      "name": "Jeff Burr"
+      "name": "Jeff Burr",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -42,7 +43,8 @@
       "name": "Richard W. Cox",
       "roles": [
         "Doctor"
-      ]
+      ],
+      "notes": "(as Rick Cox)"
     },
     {
       "imdbId": "nm0034482",
@@ -69,253 +71,289 @@
       "imdbId": "nm0347656",
       "name": "Clu Gulager",
       "roles": [
-        "Stanley Burnside (segment \"Stanley\")"
-      ]
+        "Stanley Burnside"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0568770",
       "name": "Megan McFarland",
       "roles": [
-        "Grace Scott (segment \"Stanley\")"
-      ]
+        "Grace Scott"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0461679",
       "name": "Terence Knox",
       "roles": [
-        "Burt (segment \"Stanley\")"
-      ]
+        "Burt"
+      ],
+      "notes": "(segment \"Stanley\") (as Terry Knox)"
     },
     {
       "imdbId": "nm0126084",
       "name": "Miriam Byrd-Nethery",
       "roles": [
-        "Eileen Burnside (segment \"Stanley\")"
-      ]
+        "Eileen Burnside"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0360272",
       "name": "Bob Hannah",
       "roles": [
-        "Harry Essex (segment \"Stanley\")"
-      ]
+        "Harry Essex"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0787533",
       "name": "Frank Shaheen",
       "roles": [
-        "Truck Loader (segment \"Stanley\")"
-      ]
+        "Truck Loader"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0053512",
       "name": "Paul Barberi",
       "roles": [
-        "Truck Loader (segment \"Stanley\")"
-      ]
+        "Truck Loader"
+      ],
+      "notes": "(segment \"Stanley\")"
     },
     {
       "imdbId": "nm0435218",
       "name": "Terry Kiser",
       "roles": [
-        "Jesse Hardwick (segment \"On the Run\")"
-      ]
+        "Jesse Hardwick"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0434309",
       "name": "Katherine Kaden",
       "roles": [
-        "Mary Hardwick (segment \"On the Run\")"
-      ]
+        "Mary Hardwick"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0936690",
       "name": "Gene Witham",
       "roles": [
-        "Jack McCoy (segment \"On the Run\")"
-      ]
+        "Jack McCoy"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0120850",
       "name": "Tommy Burcher",
       "roles": [
-        "Lester McCoy (segment \"On the Run\")"
-      ]
+        "Lester McCoy"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0128370",
       "name": "Harry Caesar",
       "roles": [
-        "Felder Evans (segment \"On the Run\")"
-      ]
+        "Felder Evans"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0204027",
       "name": "Whit Davies",
       "roles": [
-        "Physician (segment \"On the Run\")"
-      ]
+        "Physician"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0787538",
       "name": "Nancy Shaheen",
       "roles": [
-        "Nurse (segment \"On the Run\")"
-      ]
+        "Nurse"
+      ],
+      "notes": "(segment \"On the Run\")"
     },
     {
       "imdbId": "nm0486814",
       "name": "Didi Lanier",
       "roles": [
-        "Amarrillis Caulfield (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "Amarrillis Caulfield"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0744441",
       "name": "Angelo Rossitto",
       "roles": [
-        "Tinker (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "Tinker"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0112232",
       "name": "Ron Brooks",
       "roles": [
-        "Steven Arden (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "Steven Arden"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0655608",
       "name": "Gordon Paddison",
       "roles": [
-        "Leonard (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "Leonard"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0122178",
       "name": "Barney Burman",
       "roles": [
-        "No Face (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "No Face"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0143614",
       "name": "Rosalind Cash",
       "roles": [
-        "Snakewoman (segment \"Lovecraft's Traveling Amusements\")"
-      ]
+        "Snakewoman"
+      ],
+      "notes": "(segment \"Lovecraft's Traveling Amusements\")"
     },
     {
       "imdbId": "nm0593192",
       "name": "Cameron Mitchell",
       "roles": [
-        "Gallen (segment \"Four Soldiers\")"
-      ]
+        "Gallen"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0934987",
       "name": "Tim Wingard",
       "roles": [
-        "Bullock (segment \"Four Soldiers\")"
-      ]
+        "Bullock"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0250166",
       "name": "Leon Edwards",
       "roles": [
-        "McBride (segment \"Four Soldiers\")"
-      ]
+        "McBride"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0184947",
       "name": "C. Jay Cox",
       "roles": [
-        "Pike (segment \"Four Soldiers\")"
-      ]
+        "Pike"
+      ],
+      "notes": "(segment \"Four Soldiers\") (as C.J. Cox)"
     },
     {
       "imdbId": "nm0942890",
       "name": "Tony Wright",
       "roles": [
-        "Confederate (segment \"Four Soldiers\")"
-      ]
+        "Confederate"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0360299",
       "name": "Mark Hannah",
       "roles": [
-        "Confederate (segment \"Four Soldiers\")"
-      ]
+        "Confederate"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0203723",
       "name": "George Davies",
       "roles": [
-        "Confederate (segment \"Four Soldiers\")"
-      ]
+        "Confederate"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0637421",
       "name": "Thomas Nowell",
       "roles": [
-        "Andrew (segment \"Four Soldiers\")"
-      ]
+        "Andrew"
+      ],
+      "notes": "(segment \"Four Soldiers\") (as Tommy Nowell)"
     },
     {
       "imdbId": "nm0054368",
       "name": "Ashli Bare",
       "roles": [
-        "Amanda (segment \"Four Soldiers\")"
-      ]
+        "Amanda"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0013752",
       "name": "Sergio Aguirre",
       "roles": [
-        "Ambrose (segment \"Four Soldiers\")"
-      ]
+        "Ambrose"
+      ],
+      "notes": "(segment \"Four Soldiers\") (as Sergio Aguire)"
     },
     {
       "imdbId": "nm0071808",
       "name": "Jahary Bennett",
       "roles": [
-        "Jake (segment \"Four Soldiers\")"
-      ]
+        "Jake"
+      ],
+      "notes": "(segment \"Four Soldiers\") (as Jajary Bennett)"
     },
     {
       "imdbId": "nm0836592",
       "name": "David Styncromb",
       "roles": [
-        "Our Gang (segment \"Four Soldiers\")"
-      ]
+        "Our Gang"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0637420",
       "name": "Justin Nowell",
       "roles": [
-        "Our Gang (segment \"Four Soldiers\")"
-      ]
+        "Our Gang"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0167750",
       "name": "Christopher Cobb",
       "roles": [
-        "Our Gang (segment \"Four Soldiers\")"
-      ]
+        "Our Gang"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0285598",
       "name": "David Ford",
       "roles": [
-        "Our Gang (segment \"Four Soldiers\")"
-      ]
+        "Our Gang"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     },
     {
       "imdbId": "nm0914050",
       "name": "Chastity Waters",
       "roles": [
-        "Our Gang (segment \"Four Soldiers\")"
-      ]
+        "Our Gang"
+      ],
+      "notes": "(segment \"Four Soldiers\")"
     }
   ],
   "writers": [
@@ -340,5 +378,6 @@
       "notes": "additional story material"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

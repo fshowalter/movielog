@@ -5,7 +5,7 @@
   "originalTitle": "Saint Maud",
   "sortTitle": "saint-maud-2019",
   "year": "2019",
-  "releaseDate": "2019-09-08",
+  "releaseDate": "2021-02-12",
   "countries": [
     "United Kingdom"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm3819217",
-      "name": "Rose Glass"
+      "name": "Rose Glass",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -90,7 +91,8 @@
       "name": "Sona Vyas",
       "roles": [
         "Agency Worker"
-      ]
+      ],
+      "notes": "(as Sona Vyas Dunne)"
     },
     {
       "imdbId": "nm0249990",
@@ -149,5 +151,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 84
+  "runtimeMinutes": 84,
+  "releaseDateCountry": "United States"
 }

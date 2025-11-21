@@ -5,7 +5,7 @@
   "originalTitle": "Pulp Fiction",
   "sortTitle": "pulp-fiction-1994",
   "year": "1994",
-  "releaseDate": "1994-05-21",
+  "releaseDate": "1994-10-14",
   "countries": [
     "United States"
   ],
@@ -165,14 +165,16 @@
       "name": "Joseph Pilato",
       "roles": [
         "Dean Martin"
-      ]
+      ],
+      "notes": "(as Josef Pilato)"
     },
     {
       "imdbId": "nm0662085",
       "name": "Brad Blumenthal",
       "roles": [
         "Jerry Lewis"
-      ]
+      ],
+      "notes": "(as Brad Parker)"
     },
     {
       "imdbId": "nm0000114",
@@ -186,13 +188,6 @@
       "name": "Lorelei Leslie",
       "roles": [
         "Mamie Van Doren"
-      ]
-    },
-    {
-      "imdbId": "nm0803238",
-      "name": "Emil Sitka",
-      "roles": [
-        "'Hold Hands You Love Birds'"
       ]
     },
     {
@@ -230,6 +225,14 @@
         "Sportscaster #1",
         "Coffee Shop"
       ]
+    },
+    {
+      "imdbId": "nm0877822",
+      "name": "Rich Turner",
+      "roles": [
+        "Sportscaster #2"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0427484",
@@ -362,5 +365,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 154
+  "runtimeMinutes": 154,
+  "releaseDateCountry": "United States"
 }

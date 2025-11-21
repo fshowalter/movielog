@@ -5,7 +5,7 @@
   "originalTitle": "Halloween Ends",
   "sortTitle": "halloween-ends-2022",
   "year": "2022",
-  "releaseDate": "2022-10-06",
+  "releaseDate": "2022-10-14",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0337773",
-      "name": "David Gordon Green"
+      "name": "David Gordon Green",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -77,7 +78,8 @@
       "name": "Destiny Moné",
       "roles": [
         "Stacy"
-      ]
+      ],
+      "notes": "(as Destiny Mone)"
     },
     {
       "imdbId": "nm13683704",
@@ -161,7 +163,8 @@
       "name": "Nancy Turcotte",
       "roles": [
         "Gas Station Proprietor"
-      ]
+      ],
+      "notes": "(as Turcotte Nancy)"
     },
     {
       "imdbId": "nm3818686",
@@ -285,16 +288,6 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0000118",
-      "name": "John Carpenter",
-      "notes": "based on characters created by and"
-    },
-    {
-      "imdbId": "nm0384185",
-      "name": "Debra Hill",
-      "notes": "based on characters created by"
-    },
-    {
       "imdbId": "nm5147161",
       "name": "Paul Brad Logan",
       "notes": "written by &"
@@ -315,5 +308,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

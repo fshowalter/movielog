@@ -5,7 +5,7 @@
   "originalTitle": "La révolution française",
   "sortTitle": "french-revolution-1989",
   "year": "1989",
-  "releaseDate": "1989-05-10",
+  "releaseDate": "1989-10-25",
   "countries": [
     "France",
     "West Germany",
@@ -21,11 +21,13 @@
   "directors": [
     {
       "imdbId": "nm0257992",
-      "name": "Robert Enrico"
+      "name": "Robert Enrico",
+      "notes": "(segment \"Les années lumière\")"
     },
     {
       "imdbId": "nm0373612",
-      "name": "Richard T. Heffron"
+      "name": "Richard T. Heffron",
+      "notes": "(segment \"Les années terribles\") (as Richard Heffron)"
     }
   ],
   "performers": [
@@ -202,13 +204,14 @@
       "name": "Sean M. Flynn",
       "roles": [
         "Le Dauphin"
-      ]
+      ],
+      "notes": "(as Sean Flynn)"
     },
     {
       "imdbId": "nm0609576",
       "name": "Michel Motu",
       "roles": [
-        "Le précepteur du premier Dauphin"
+        "Le précepteur du Premier Dauphin"
       ]
     },
     {
@@ -222,7 +225,7 @@
       "imdbId": "nm0490352",
       "name": "Louise Latraverse",
       "roles": [
-        "Louise-Félicité de Croy d'Havré, Madame de Tourzel"
+        "Madame de Tourzel"
       ]
     },
     {
@@ -250,7 +253,7 @@
       "imdbId": "nm0098959",
       "name": "Jean Bouchaud",
       "roles": [
-        "L'abbé Sieyès"
+        "L'Abbé Sieyès"
       ]
     },
     {
@@ -285,7 +288,21 @@
       "imdbId": "nm0785676",
       "name": "Henri Serre",
       "roles": [
-        "Le gouverneur de Launay"
+        "Le Gouverneur de Launay"
+      ]
+    },
+    {
+      "imdbId": "nm0155134",
+      "name": "Philippe Chemin",
+      "roles": [
+        "Le Lieutenant de Flue"
+      ]
+    },
+    {
+      "imdbId": "nm0577844",
+      "name": "Michel Melki",
+      "roles": [
+        "Thuriot"
       ]
     },
     {
@@ -296,20 +313,6 @@
       ]
     },
     {
-      "imdbId": "nm0155134",
-      "name": "Philippe Chemin",
-      "roles": [
-        "Le lieutenant de Flue"
-      ]
-    },
-    {
-      "imdbId": "nm0577844",
-      "name": "Michel Melki",
-      "roles": [
-        "Jacques-Alexis Thuriot, dit Thuriot de la Rosière"
-      ]
-    },
-    {
       "imdbId": "nm0561189",
       "name": "Yves-Marie Maurin",
       "roles": [
@@ -317,17 +320,24 @@
       ]
     },
     {
+      "imdbId": "nm0672269",
+      "name": "Jacques Penot",
+      "roles": [
+        "Mounier"
+      ]
+    },
+    {
+      "imdbId": "nm0162791",
+      "name": "Jacques Ciron",
+      "roles": [
+        "Guillotin"
+      ]
+    },
+    {
       "imdbId": "nm0829492",
       "name": "Jean-Pierre Stewart",
       "roles": [
         "Brissot"
-      ]
-    },
-    {
-      "imdbId": "nm0672269",
-      "name": "Jacques Penot",
-      "roles": [
-        "Jean-Joseph Mounier"
       ]
     },
     {
@@ -345,10 +355,24 @@
       ]
     },
     {
-      "imdbId": "nm0162791",
-      "name": "Jacques Ciron",
+      "imdbId": "nm0684500",
+      "name": "Dominique Pinon",
       "roles": [
-        "Joseph-Ignace Guillotin"
+        "Drouet"
+      ]
+    },
+    {
+      "imdbId": "nm0486497",
+      "name": "Daniel Langlet",
+      "roles": [
+        "Sauce"
+      ]
+    },
+    {
+      "imdbId": "nm0109759",
+      "name": "Daniel Briquet",
+      "roles": [
+        "Pétion"
       ]
     },
     {
@@ -359,24 +383,10 @@
       ]
     },
     {
-      "imdbId": "nm0684500",
-      "name": "Dominique Pinon",
+      "imdbId": "nm0300583",
+      "name": "Steve Gadler",
       "roles": [
-        "Jean-Baptiste Drouet"
-      ]
-    },
-    {
-      "imdbId": "nm0109759",
-      "name": "Daniel Briquet",
-      "roles": [
-        "Jérôme Pétion"
-      ]
-    },
-    {
-      "imdbId": "nm0486497",
-      "name": "Daniel Langlet",
-      "roles": [
-        "Sauce, Procureur de la commune de Varennes"
+        "Vergniaud"
       ]
     },
     {
@@ -394,10 +404,17 @@
       ]
     },
     {
-      "imdbId": "nm0300583",
-      "name": "Steve Gadler",
+      "imdbId": "nm0223863",
+      "name": "Jerry Di Giacomo",
       "roles": [
-        "Vergniaud"
+        "Roederer"
+      ]
+    },
+    {
+      "imdbId": "nm0017104",
+      "name": "Renaud Alcalde",
+      "roles": [
+        "Le marseillais"
       ]
     },
     {
@@ -415,200 +432,108 @@
       ]
     },
     {
-      "imdbId": "nm0223863",
-      "name": "Jerry Di Giacomo",
-      "roles": [
-        "Pierre-Louis Roederer"
-      ]
-    },
-    {
       "imdbId": "nm0901401",
       "name": "Michel Voletti",
       "roles": [
         "Chambon"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0312695",
       "name": "François-Eric Gendron",
       "roles": [
         "Barere"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0518516",
       "name": "Daniel Lombart",
       "roles": [
         "Lindet"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0207675",
       "name": "Richard De Burnchurch",
       "roles": [
         "L'abbé Edgeworth"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0154088",
       "name": "Jean-Philippe Chatrier",
       "roles": [
         "Herault de Seychelles"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0583503",
       "name": "Bruce Myers",
       "roles": [
         "Couthon"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0349749",
       "name": "Ronald Guttman",
       "roles": [
         "Herman"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0070987",
       "name": "Yves Beneyton",
       "roles": [
         "Fouquier-Tinville"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0495765",
       "name": "Véronique Leblanc",
       "roles": [
         "Rosalie Lamorlière"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0107501",
       "name": "Muriel Brenner",
       "roles": [
         "Louise Danton"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0277212",
       "name": "Nathalie Fillion",
       "roles": [
         "Françoise Hebert"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0836977",
       "name": "Michel Subor",
       "roles": [
         "Vadier"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0957193",
       "name": "Hanns Zischler",
       "roles": [
         "Goethe"
-      ]
-    },
-    {
-      "imdbId": "nm0017104",
-      "name": "Renaud Alcalde",
-      "roles": [
-        "Le marseillais"
-      ]
-    },
-    {
-      "imdbId": "nm0053620",
-      "name": "Jean-Gilles Barbier",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0068638",
-      "name": "Brigitte Bellac",
-      "roles": [
-        "Une femme"
-      ]
-    },
-    {
-      "imdbId": "nm0069338",
-      "name": "Olivier Belmont",
-      "roles": [
-        "Un laquais"
-      ]
-    },
-    {
-      "imdbId": "nm0076842",
-      "name": "Jean-Marie Bernicat",
-      "roles": [
-        "Monsieur Desmoulins"
-      ]
-    },
-    {
-      "imdbId": "nm0080532",
-      "name": "Tomasz Bialkowski",
-      "roles": [
-        "Un général autrichien"
-      ]
-    },
-    {
-      "imdbId": "nm0092368",
-      "name": "Jean Boissery",
-      "roles": [
-        "Le Duc de Choiseul"
-      ]
-    },
-    {
-      "imdbId": "nm0094786",
-      "name": "Jean-Paul Bonnaire",
-      "roles": [
-        "Un bourgeois"
-      ]
-    },
-    {
-      "imdbId": "nm0100034",
-      "name": "Jean-Claude Bourlat",
-      "roles": [
-        "Le professeur de Louis le Grand"
-      ]
-    },
-    {
-      "imdbId": "nm0109878",
-      "name": "Jean-Pol Brissart",
-      "roles": [
-        "Un paysan"
-      ]
-    },
-    {
-      "imdbId": "nm0135151",
-      "name": "Franck Capillery",
-      "roles": [
-        "Un cavalier"
-      ]
-    },
-    {
-      "imdbId": "nm0140304",
-      "name": "Steve Carretero",
-      "roles": [
-        "Robespierre jeune"
-      ]
-    },
-    {
-      "imdbId": "nm0194661",
-      "name": "Bruno Cécillon",
-      "roles": [
-        "Le délégué de l'hôtel de Ville"
-      ]
-    },
-    {
-      "imdbId": "nm0167502",
-      "name": "Sylvain Clément",
-      "roles": [
-        "Un paysan"
-      ]
+      ],
+      "notes": "(segment \"Années terribles, Les\")"
     },
     {
       "imdbId": "nm0998871",
@@ -625,11 +550,12 @@
       ]
     },
     {
-      "imdbId": "nm0217703",
-      "name": "Diane Delor",
+      "imdbId": "nm0053620",
+      "name": "Jean-Gilles Barbier",
       "roles": [
-        "L'amie de Mirabeau"
-      ]
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0219199",
@@ -639,11 +565,27 @@
       ]
     },
     {
+      "imdbId": "nm0068638",
+      "name": "Brigitte Bellac",
+      "roles": [
+        "Une femme"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0229978",
       "name": "William Doherty",
       "roles": [
         "Un médecin"
       ]
+    },
+    {
+      "imdbId": "nm0069338",
+      "name": "Olivier Belmont",
+      "roles": [
+        "Un laquais"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0996783",
@@ -653,11 +595,27 @@
       ]
     },
     {
+      "imdbId": "nm0076842",
+      "name": "Jean-Marie Bernicat",
+      "roles": [
+        "Monsieur Desmoulins"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0241450",
       "name": "Jean-Claude Dumas",
       "roles": [
         "Un invalide"
       ]
+    },
+    {
+      "imdbId": "nm0080532",
+      "name": "Tomasz Bialkowski",
+      "roles": [
+        "Un général autrichien"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0251642",
@@ -667,11 +625,27 @@
       ]
     },
     {
+      "imdbId": "nm0092368",
+      "name": "Jean Boissery",
+      "roles": [
+        "Le Duc de Choiseul"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0263385",
       "name": "Yannick Evely",
       "roles": [
         "Le crieur du Palais Royal"
       ]
+    },
+    {
+      "imdbId": "nm0094786",
+      "name": "Jean-Paul Bonnaire",
+      "roles": [
+        "Un bourgeois"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0268609",
@@ -681,11 +655,27 @@
       ]
     },
     {
+      "imdbId": "nm0100034",
+      "name": "Jean-Claude Bourlat",
+      "roles": [
+        "Le professeur de Louis le Grand"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0269011",
       "name": "Luc Faugere",
       "roles": [
         "Bellon"
       ]
+    },
+    {
+      "imdbId": "nm0109878",
+      "name": "Jean-Pol Brissart",
+      "roles": [
+        "Un paysan"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0270082",
@@ -695,11 +685,20 @@
       ]
     },
     {
-      "imdbId": "nm0289985",
-      "name": "Mireille Franchino",
+      "imdbId": "nm0135151",
+      "name": "Franck Capillery",
       "roles": [
-        "Une femme"
-      ]
+        "Un cavalier"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0140304",
+      "name": "Steve Carretero",
+      "roles": [
+        "Robespierre jeune"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0294835",
@@ -709,11 +708,27 @@
       ]
     },
     {
+      "imdbId": "nm0194661",
+      "name": "Bruno Cécillon",
+      "roles": [
+        "Le délégué de l'hôtel de Ville"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0313044",
       "name": "Luc Gentil",
       "roles": [
         "Un promeneur"
       ]
+    },
+    {
+      "imdbId": "nm0167502",
+      "name": "Sylvain Clément",
+      "roles": [
+        "Un paysan"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0998902",
@@ -723,18 +738,12 @@
       ]
     },
     {
-      "imdbId": "nm0332650",
-      "name": "Raphaëline Goupilleau",
+      "imdbId": "nm0217703",
+      "name": "Diane Delor",
       "roles": [
-        "Mme Drouet"
-      ]
-    },
-    {
-      "imdbId": "nm0345729",
-      "name": "Nicole Gueden",
-      "roles": [
-        "Mme Desmoulins"
-      ]
+        "L'amie de Mirabeau"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0373034",
@@ -807,6 +816,14 @@
       ]
     },
     {
+      "imdbId": "nm0289985",
+      "name": "Mireille Franchino",
+      "roles": [
+        "Une femme"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
       "imdbId": "nm0997442",
       "name": "Benji Marcus",
       "roles": [
@@ -828,11 +845,12 @@
       ]
     },
     {
-      "imdbId": "nm0635157",
-      "name": "Jean-Gabriel Nordmann",
+      "imdbId": "nm0332650",
+      "name": "Raphaëline Goupilleau",
       "roles": [
-        "Le Duc d'Aguesseau"
-      ]
+        "Mme Drouet"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0668184",
@@ -842,11 +860,12 @@
       ]
     },
     {
-      "imdbId": "nm0687115",
-      "name": "Jacques Plée",
+      "imdbId": "nm0345729",
+      "name": "Nicole Gueden",
       "roles": [
-        "L'Evêque de Nancy"
-      ]
+        "Mme Desmoulins"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     },
     {
       "imdbId": "nm0711858",
@@ -870,13 +889,6 @@
       ]
     },
     {
-      "imdbId": "nm0746371",
-      "name": "Liliane Rovère",
-      "roles": [
-        "Une femme"
-      ]
-    },
-    {
       "imdbId": "nm0782344",
       "name": "Maximilien Seide",
       "roles": [
@@ -891,256 +903,92 @@
       ]
     },
     {
-      "imdbId": "nm0998228",
-      "name": "Philip-James Valentini",
-      "roles": [
-        "Desmoulins, jeune"
-      ]
-    },
-    {
-      "imdbId": "nm0889510",
-      "name": "Yvan Varco",
-      "roles": [
-        "Le vicomte de Montmorin"
-      ]
-    },
-    {
-      "imdbId": "nm0890463",
-      "name": "Nadia Vasil",
-      "roles": [
-        "Une femme pauvre"
-      ]
-    },
-    {
-      "imdbId": "nm0898814",
-      "name": "Jacques Vincey",
-      "roles": [
-        "Le premier commissaire"
-      ]
-    },
-    {
-      "imdbId": "nm0935435",
-      "name": "Michel Winogradoff",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0936914",
-      "name": "Frédéric Witta",
-      "roles": [
-        "Un officier municipal"
-      ]
-    },
-    {
       "imdbId": "nm0996326",
       "name": "François Aguettant",
       "roles": [
         "Un officier municipal"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0070779",
       "name": "Jay Benedict",
       "roles": [
         "Clerc"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0076190",
       "name": "Dany Bernard",
       "roles": [
         "Un prêtre"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0116199",
       "name": "Marc-André Brunet",
       "roles": [
         "Garage National"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm1028571",
       "name": "Bernard Celeyron",
       "roles": [
         "François-Christophe Kellermann"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0165442",
       "name": "François Clavier",
       "roles": [
         "L'Archevêque de Paris"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0203860",
       "name": "Mike Davies",
       "roles": [
         "Un officier prussien"
-      ]
-    },
-    {
-      "imdbId": "nm0272983",
-      "name": "Jean-Claude Fernandez",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0281886",
-      "name": "Sylvie Flepp",
-      "roles": [
-        "Une femme"
-      ]
-    },
-    {
-      "imdbId": "nm1029709",
-      "name": "Alexandre-André Glickman",
-      "roles": [
-        "Un médecin"
-      ]
-    },
-    {
-      "imdbId": "nm0399940",
-      "name": "Peter Hudson",
-      "roles": [
-        "Boissy d'Anglas"
-      ]
-    },
-    {
-      "imdbId": "nm0480910",
-      "name": "Isabelle Lafon",
-      "roles": [
-        "Catherine Evrard"
-      ]
-    },
-    {
-      "imdbId": "nm0491274",
-      "name": "Rudy Laurent",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0501055",
-      "name": "Jean-Marie Lemaire",
-      "roles": [
-        "Carnot"
-      ]
-    },
-    {
-      "imdbId": "nm0551062",
-      "name": "Mike Marshall",
-      "roles": [
-        "Un lieutenant"
-      ]
-    },
-    {
-      "imdbId": "nm0552149",
-      "name": "David Martin",
-      "roles": [
-        "Jean-Baptiste Coffinhal"
-      ]
-    },
-    {
-      "imdbId": "nm1035767",
-      "name": "Frédéric Merlo",
-      "roles": [
-        "Un vendeur de journaux"
-      ]
-    },
-    {
-      "imdbId": "nm0653550",
-      "name": "Michel Ouimet",
-      "roles": [
-        "Un garde d'Etat Major"
-      ]
-    },
-    {
-      "imdbId": "nm0706218",
-      "name": "Bruno Raffaelli",
-      "roles": [
-        "Le Président du jury"
-      ]
-    },
-    {
-      "imdbId": "nm0707769",
-      "name": "Jean Ralph",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0732214",
-      "name": "Louison Roblin",
-      "roles": [
-        "Une femme"
-      ]
-    },
-    {
-      "imdbId": "nm0745516",
-      "name": "Rémy Roubakha",
-      "roles": [
-        "Un homme"
-      ]
-    },
-    {
-      "imdbId": "nm0785689",
-      "name": "Nicolas Serreau",
-      "roles": [
-        "Un garde national"
-      ]
-    },
-    {
-      "imdbId": "nm0776683",
-      "name": "James Shuman",
-      "roles": [
-        "Un secrétaire"
-      ]
-    },
-    {
-      "imdbId": "nm0857855",
-      "name": "Geoffroy Thiébaut",
-      "roles": [
-        "Barras"
-      ]
-    },
-    {
-      "imdbId": "nm0869613",
-      "name": "Gérard Touratier",
-      "roles": [
-        "L'espion de Saint-Just"
-      ]
-    },
-    {
-      "imdbId": "nm0885239",
-      "name": "Benoît Vallès",
-      "roles": [
-        "Un lieutenant"
-      ]
-    },
-    {
-      "imdbId": "nm0893599",
-      "name": "Guy Verame",
-      "roles": [
-        "Un officier municipal"
-      ]
-    },
-    {
-      "imdbId": "nm0491241",
-      "name": "Jean-Pierre Laurent",
-      "roles": [
-        "Général Hanriot"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\") (as Michael Davies)"
     },
     {
       "imdbId": "nm0220192",
       "name": "Thierry Der'ven",
       "roles": [
         "Un homme"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0272983",
+      "name": "Jean-Claude Fernandez",
+      "roles": [
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0281886",
+      "name": "Sylvie Flepp",
+      "roles": [
+        "Une femme"
+      ],
+      "notes": "(segments \"Années terribles, Les\", \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm1029709",
+      "name": "Alexandre-André Glickman",
+      "roles": [
+        "Un médecin"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm1647869",
@@ -1148,25 +996,252 @@
       "roles": []
     },
     {
+      "imdbId": "nm0399940",
+      "name": "Peter Hudson",
+      "roles": [
+        "Boissy d'Anglas"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0480910",
+      "name": "Isabelle Lafon",
+      "roles": [
+        "Catherine Evrard"
+      ],
+      "notes": "(segments \"Années terribles, Les\", \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0491241",
+      "name": "Jean-Pierre Laurent",
+      "roles": [
+        "Général Hanriot"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0491274",
+      "name": "Rudy Laurent",
+      "roles": [
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
       "roles": [
         "Sanson"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0501055",
+      "name": "Jean-Marie Lemaire",
+      "roles": [
+        "Carnot"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0503800",
       "name": "Philippine Leroy-Beaulieu",
       "roles": [
         "Marie-Anne-Charlotte De Corday"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0551062",
+      "name": "Mike Marshall",
+      "roles": [
+        "Un lieutenant"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0552149",
+      "name": "David Martin",
+      "roles": [
+        "Jean-Baptiste Coffinhal"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm1035767",
+      "name": "Frédéric Merlo",
+      "roles": [
+        "Un vendeur de journaux"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0635157",
+      "name": "Jean-Gabriel Nordmann",
+      "roles": [
+        "Le Duc d'Aguesseau"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0653550",
+      "name": "Michel Ouimet",
+      "roles": [
+        "Un garde d'Etat Major"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0687115",
+      "name": "Jacques Plée",
+      "roles": [
+        "L'Evêque de Nancy"
+      ],
+      "notes": "(segment \"Années Lumière, Les\") (as Jacques Plee)"
+    },
+    {
+      "imdbId": "nm0706218",
+      "name": "Bruno Raffaelli",
+      "roles": [
+        "Le Président du jury"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0707769",
+      "name": "Jean Ralph",
+      "roles": [
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0732214",
+      "name": "Louison Roblin",
+      "roles": [
+        "Une femme"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0745516",
+      "name": "Rémy Roubakha",
+      "roles": [
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0746371",
+      "name": "Liliane Rovère",
+      "roles": [
+        "Une femme"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0785689",
+      "name": "Nicolas Serreau",
+      "roles": [
+        "Un garde national"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0776683",
+      "name": "James Shuman",
+      "roles": [
+        "Un secrétaire"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0857855",
+      "name": "Geoffroy Thiébaut",
+      "roles": [
+        "Barras"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
     },
     {
       "imdbId": "nm0859985",
       "name": "Christopher Thompson",
       "roles": [
         "Louis-Antoine de Saint-Just"
-      ]
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0869613",
+      "name": "Gérard Touratier",
+      "roles": [
+        "L'espion de Saint-Just"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0998228",
+      "name": "Philip-James Valentini",
+      "roles": [
+        "Desmoulins, jeune"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0885239",
+      "name": "Benoît Vallès",
+      "roles": [
+        "Un lieutenant"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0889510",
+      "name": "Yvan Varco",
+      "roles": [
+        "Le vicomte de Montmorin"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0890463",
+      "name": "Nadia Vasil",
+      "roles": [
+        "Une femme pauvre"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0893599",
+      "name": "Guy Verame",
+      "roles": [
+        "Un officier municipal"
+      ],
+      "notes": "(segment \"Années Terribles, Les\")"
+    },
+    {
+      "imdbId": "nm0898814",
+      "name": "Jacques Vincey",
+      "roles": [
+        "Le premier commissaire"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0935435",
+      "name": "Michel Winogradoff",
+      "roles": [
+        "Un homme"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
+    },
+    {
+      "imdbId": "nm0936914",
+      "name": "Frédéric Witta",
+      "roles": [
+        "Un officier municipal"
+      ],
+      "notes": "(segment \"Années Lumière, Les\")"
     }
   ],
   "writers": [
@@ -1191,5 +1266,6 @@
       "notes": "scenario and dialogue"
     }
   ],
-  "runtimeMinutes": 335
+  "runtimeMinutes": 335,
+  "releaseDateCountry": "France"
 }

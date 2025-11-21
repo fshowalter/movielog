@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0758508",
-      "name": "Sidney Salkow"
+      "name": "Sidney Salkow",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -78,7 +79,8 @@
       "name": "Jacqueline deWit",
       "roles": [
         "Hannah Pyncheon, Gerald's Sister"
-      ]
+      ],
+      "notes": "(as Jacqueline de Wit)"
     },
     {
       "imdbId": "nm0852674",
@@ -121,5 +123,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 120
+  "runtimeMinutes": 120,
+  "releaseDateCountry": "United States"
 }

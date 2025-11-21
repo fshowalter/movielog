@@ -5,7 +5,7 @@
   "originalTitle": "Batman Begins",
   "sortTitle": "batman-begins-2005",
   "year": "2005",
-  "releaseDate": "2005-05-31",
+  "releaseDate": "2005-06-15",
   "countries": [
     "United States",
     "United Kingdom"
@@ -155,7 +155,8 @@
       "name": "Rade Serbedzija",
       "roles": [
         "Homeless Man"
-      ]
+      ],
+      "notes": "(as Rade Sherbedgia)"
     },
     {
       "imdbId": "nm1439087",
@@ -345,7 +346,8 @@
       "name": "Timothy Deenihan",
       "roles": [
         "Male Restaurant Guest"
-      ]
+      ],
+      "notes": "(as Tim Deenihan)"
     },
     {
       "imdbId": "nm1525717",
@@ -464,7 +466,8 @@
       "name": "Conn Horgan",
       "roles": [
         "Monorail Driver"
-      ]
+      ],
+      "notes": "(as Con Horgan)"
     },
     {
       "imdbId": "nm0192798",
@@ -660,7 +663,8 @@
       "name": "Mark Rhino Smith",
       "roles": [
         "League of Shadows Warriors"
-      ]
+      ],
+      "notes": "(as Rhino)"
     },
     {
       "imdbId": "nm0094416",
@@ -716,7 +720,8 @@
       "name": "T.J. Ramini",
       "roles": [
         "Crane Thug #1"
-      ]
+      ],
+      "notes": "(as TJ Ramini)"
     },
     {
       "imdbId": "nm0403470",
@@ -742,11 +747,6 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0004170",
-      "name": "Bob Kane",
-      "notes": "characters"
-    },
-    {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
       "notes": "story"
@@ -762,5 +762,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 140
+  "runtimeMinutes": 140,
+  "releaseDateCountry": "United States"
 }

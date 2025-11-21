@@ -5,7 +5,7 @@
   "originalTitle": "The Life and Times of Judge Roy Bean",
   "sortTitle": "life-and-times-of-judge-roy-bean-1972",
   "year": "1972",
-  "releaseDate": "1972-12-01",
+  "releaseDate": "1972-12-17",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001379",
-      "name": "John Huston"
+      "name": "John Huston",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -55,21 +56,24 @@
       "name": "Bennie E. Dobbins",
       "roles": [
         "Outlaw"
-      ]
+      ],
+      "notes": "(as Ben Dobbins)"
     },
     {
       "imdbId": "nm0002070",
       "name": "Richard Farnsworth",
       "roles": [
         "Outlaw"
-      ]
+      ],
+      "notes": "(as Dick Farnsworth)"
     },
     {
       "imdbId": "nm0425636",
       "name": "Leroy Johnson",
       "roles": [
         "Outlaw"
-      ]
+      ],
+      "notes": "(as LeRoy Johnson)"
     },
     {
       "imdbId": "nm0472126",
@@ -237,7 +241,8 @@
       "name": "Bruno the Bear",
       "roles": [
         "Watch Bear"
-      ]
+      ],
+      "notes": "(as Bruno)"
     },
     {
       "imdbId": "nm0607990",
@@ -338,5 +343,6 @@
       "notes": "original screenplay"
     }
   ],
-  "runtimeMinutes": 120
+  "runtimeMinutes": 120,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Licence to Kill",
   "sortTitle": "licence-to-kill-1989",
   "year": "1989",
-  "releaseDate": "1989-06-13",
+  "releaseDate": "1989-07-14",
   "countries": [
     "United Kingdom",
     "United States",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0322515",
-      "name": "John Glen"
+      "name": "John Glen",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -98,7 +99,8 @@
       "name": "Pedro Armendáriz Jr.",
       "roles": [
         "President Hector Lopez"
-      ]
+      ],
+      "notes": "(as Pedro Armendariz)"
     },
     {
       "imdbId": "nm0005155",
@@ -182,7 +184,8 @@
       "name": "Diane Hsu",
       "roles": [
         "Loti"
-      ]
+      ],
+      "notes": "(as Diana Lee-Hsu)"
     },
     {
       "imdbId": "nm0623762",
@@ -266,14 +269,16 @@
       "name": "Stuart Quan",
       "roles": [
         "Ninja"
-      ]
+      ],
+      "notes": "(as Stuart Kwan)"
     },
     {
       "imdbId": "nm0008109",
       "name": "José Abdala",
       "roles": [
         "Tanker Driver"
-      ]
+      ],
+      "notes": "(as Jose Abdala)"
     },
     {
       "imdbId": "nm0086741",
@@ -294,7 +299,8 @@
       "name": "Juan Peláez",
       "roles": [
         "Casino Manager"
-      ]
+      ],
+      "notes": "(as Juan Peleaz)"
     },
     {
       "imdbId": "nm0447135",
@@ -308,14 +314,16 @@
       "name": "Humberto Elizondo",
       "roles": [
         "Hotel Assistant Manager"
-      ]
+      ],
+      "notes": "(as Umberto Elizondo)"
     },
     {
       "imdbId": "nm0140436",
       "name": "Fidel Garriga",
       "roles": [
         "Sanchez's Driver"
-      ]
+      ],
+      "notes": "(as Fidel Carriga)"
     },
     {
       "imdbId": "nm0093029",
@@ -329,7 +337,8 @@
       "name": "Eddie Edenfield",
       "roles": [
         "Clive"
-      ]
+      ],
+      "notes": "(as Eddie Enderfield)"
     },
     {
       "imdbId": "nm0539278",
@@ -356,12 +365,8 @@
       "imdbId": "nm0537363",
       "name": "Richard Maibaum",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0001220",
-      "name": "Ian Fleming",
-      "notes": "characters"
     }
   ],
-  "runtimeMinutes": 133
+  "runtimeMinutes": 133,
+  "releaseDateCountry": "United States"
 }

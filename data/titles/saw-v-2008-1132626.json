@@ -5,7 +5,7 @@
   "originalTitle": "Saw V",
   "sortTitle": "saw-v-2008",
   "year": "2008",
-  "releaseDate": "2008-10-21",
+  "releaseDate": "2008-10-24",
   "countries": [
     "United States",
     "Canada"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0352524",
-      "name": "David Hackl"
+      "name": "David Hackl",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -149,66 +150,10 @@
       ]
     },
     {
-      "imdbId": "nm0072713",
-      "name": "Lyriq Bent",
-      "roles": [
-        "Rigg"
-      ]
-    },
-    {
-      "imdbId": "nm1920701",
-      "name": "Athena Karkanis",
-      "roles": [
-        "Agent Perez"
-      ]
-    },
-    {
-      "imdbId": "nm0274371",
-      "name": "Louis Ferreira",
-      "roles": [
-        "Art"
-      ]
-    },
-    {
-      "imdbId": "nm0005531",
-      "name": "Donnie Wahlberg",
-      "roles": [
-        "Eric Matthews"
-      ]
-    },
-    {
-      "imdbId": "nm0000418",
-      "name": "Danny Glover",
-      "roles": [
-        "David Tapp"
-      ]
-    },
-    {
-      "imdbId": "nm0809938",
-      "name": "Shawnee Smith",
-      "roles": [
-        "Amanda"
-      ]
-    },
-    {
-      "imdbId": "nm1587232",
-      "name": "Bahar Soomekh",
-      "roles": [
-        "Lynn"
-      ]
-    },
-    {
       "imdbId": "nm1509081",
       "name": "Niamh Wilson",
       "roles": [
         "Corbett"
-      ]
-    },
-    {
-      "imdbId": "nm0005171",
-      "name": "Angus Macfadyen",
-      "roles": [
-        "Jeff"
       ]
     },
     {
@@ -244,7 +189,8 @@
       "name": "Timothy Burd",
       "roles": [
         "Obi"
-      ]
+      ],
+      "notes": "(as Tim Burd)"
     },
     {
       "imdbId": "nm0535019",
@@ -273,6 +219,42 @@
       "roles": [
         "Angelina"
       ]
+    },
+    {
+      "imdbId": "nm0301836",
+      "name": "David Gale",
+      "roles": [
+        "Additional Voice Talent"
+      ]
+    },
+    {
+      "imdbId": "nm0729729",
+      "name": "Catherine Rix",
+      "roles": [
+        "Additional Voice Talent"
+      ]
+    },
+    {
+      "imdbId": "nm0647247",
+      "name": "Michael A. Miranda",
+      "roles": [
+        "Additional Voice Talent"
+      ],
+      "notes": "(as Michael Miranda)"
+    },
+    {
+      "imdbId": "nm0817043",
+      "name": "Stephen Sparks",
+      "roles": [
+        "Additional Voice Talent"
+      ]
+    },
+    {
+      "imdbId": "nm2502820",
+      "name": "Jennifer Donison",
+      "roles": [
+        "Additional Voice Talent"
+      ]
     }
   ],
   "writers": [
@@ -287,5 +269,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

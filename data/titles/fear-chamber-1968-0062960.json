@@ -5,7 +5,7 @@
   "originalTitle": "Fear Chamber",
   "sortTitle": "fear-chamber-1968",
   "year": "1968",
-  "releaseDate": "1968-??-??",
+  "releaseDate": "1971-??-??",
   "countries": [
     "Mexico"
   ],
@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0384335",
-      "name": "Jack Hill"
+      "name": "Jack Hill",
+      "notes": "US scenes"
     },
     {
       "imdbId": "nm0406625",
-      "name": "Juan Ibáñez"
+      "name": "Juan Ibáñez",
+      "notes": "Mexican scenes"
     }
   ],
   "performers": [
@@ -89,21 +91,24 @@
       "roles": [
         "Motorista rubia",
         "blonde motorist"
-      ]
+      ],
+      "notes": "(as Pamela)"
     },
     {
       "imdbId": "nm0297344",
       "name": "Fuensanta Zertuche",
       "roles": [
         "Sally Ransome"
-      ]
+      ],
+      "notes": "(as Fuensanta)"
     },
     {
       "imdbId": "nm0741070",
       "name": "Alfredo Rosas",
       "roles": [
         "Syed"
-      ]
+      ],
+      "notes": "(as Rosas)"
     }
   ],
   "writers": [
@@ -118,5 +123,6 @@
       "notes": "writer"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 88,
+  "releaseDateCountry": "United States"
 }

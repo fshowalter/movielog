@@ -5,7 +5,7 @@
   "originalTitle": "The Big Sleep",
   "sortTitle": "big-sleep-1978",
   "year": "1978",
-  "releaseDate": "1978-03-13",
+  "releaseDate": "1978-04-07",
   "countries": [
     "United Kingdom",
     "United States"
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0935382",
-      "name": "Michael Winner"
+      "name": "Michael Winner",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -134,7 +135,8 @@
       "name": "Simon Fisher-Turner",
       "roles": [
         "Karl Lundgren"
-      ]
+      ],
+      "notes": "(as Simon Turner)"
     },
     {
       "imdbId": "nm0693318",
@@ -204,5 +206,6 @@
       "name": "Raymond Chandler",
       "notes": "book"
     }
-  ]
+  ],
+  "releaseDateCountry": "United Kingdom"
 }

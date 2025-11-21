@@ -5,7 +5,7 @@
   "originalTitle": "Pacific Rim",
   "sortTitle": "pacific-rim-2013",
   "year": "2013",
-  "releaseDate": "2013-07-01",
+  "releaseDate": "2013-07-12",
   "countries": [
     "United States",
     "Mexico"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0868219",
-      "name": "Guillermo del Toro"
+      "name": "Guillermo del Toro",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Robert Kazinsky",
       "roles": [
         "Chuck Hansen"
-      ]
+      ],
+      "notes": "(as Rob Kazinsky)"
     },
     {
       "imdbId": "nm0004286",
@@ -142,6 +144,14 @@
       ]
     },
     {
+      "imdbId": "nm1655889",
+      "name": "Ellen McLain",
+      "roles": [
+        "Gipsy Danger AI"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0288944",
       "name": "David Fox",
       "roles": [
@@ -174,7 +184,8 @@
       "name": "David Richmond-Peck",
       "roles": [
         "Canadian UN Representative"
-      ]
+      ],
+      "notes": "(as David Richmond Peck)"
     },
     {
       "imdbId": "nm5743918",
@@ -216,7 +227,8 @@
       "name": "Joshua Peace",
       "roles": [
         "Officer"
-      ]
+      ],
+      "notes": "(as Josh Peace)"
     },
     {
       "imdbId": "nm2477204",
@@ -230,7 +242,8 @@
       "name": "Victoria Sawal",
       "roles": [
         "Chinese Girl in Anti-Kaiju Refuge"
-      ]
+      ],
+      "notes": "(as Victoria Marie)"
     },
     {
       "imdbId": "nm3702298",
@@ -244,7 +257,8 @@
       "name": "J.C. Kenny",
       "roles": [
         "TV Reporter"
-      ]
+      ],
+      "notes": "(as JC Kenny)"
     },
     {
       "imdbId": "nm3024569",
@@ -265,7 +279,8 @@
       "name": "Paul Michael Wyers",
       "roles": [
         "Young Raleigh"
-      ]
+      ],
+      "notes": "(as Paul Wyers)"
     },
     {
       "imdbId": "nm2314917",
@@ -356,7 +371,8 @@
       "name": "Hugh Tran",
       "roles": [
         "Asian Boy"
-      ]
+      ],
+      "notes": "(as Hubert Tran)"
     },
     {
       "imdbId": "nm3553514",
@@ -425,5 +441,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 131
+  "runtimeMinutes": 131,
+  "releaseDateCountry": "United States"
 }

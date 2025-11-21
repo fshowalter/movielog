@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0685034",
-      "name": "Juan Piquer Simón"
+      "name": "Juan Piquer Simón",
+      "notes": "(as J. Piquer Simon)"
     }
   ],
   "performers": [
@@ -42,7 +43,8 @@
       "name": "Ian Serra",
       "roles": [
         "Jeff Morgan"
-      ]
+      ],
+      "notes": "(as Ian Sera)"
     },
     {
       "imdbId": "nm0369033",
@@ -78,7 +80,8 @@
       "name": "Frank Braña",
       "roles": [
         "Birling"
-      ]
+      ],
+      "notes": "(as Frank Brana)"
     },
     {
       "imdbId": "nm0596701",
@@ -112,7 +115,8 @@
     {
       "imdbId": "nm0098178",
       "name": "Jorge Bosso",
-      "roles": []
+      "roles": [],
+      "notes": "(as George Bosso)"
     },
     {
       "imdbId": "nm0613466",
@@ -149,5 +153,6 @@
       "notes": "novel \"L'École des Robinsons\""
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "Spain"
 }

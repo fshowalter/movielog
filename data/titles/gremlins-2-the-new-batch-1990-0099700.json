@@ -22,6 +22,22 @@
   ],
   "performers": [
     {
+      "imdbId": "nm0005177",
+      "name": "Howie Mandel",
+      "roles": [
+        "Gizmo"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0709704",
+      "name": "Tony Randall",
+      "roles": [
+        "Brain Gremlin"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0002090",
       "name": "Zach Galligan",
       "roles": [
@@ -236,7 +252,8 @@
       "name": "Heidi Kempf",
       "roles": [
         "TV Reporter"
-      ]
+      ],
+      "notes": "(as Heidi Kemp)"
     },
     {
       "imdbId": "nm0790072",
@@ -327,7 +344,8 @@
       "name": "Charles S. Haas",
       "roles": [
         "Casper"
-      ]
+      ],
+      "notes": "(as Charlie Haas)"
     },
     {
       "imdbId": "nm0841697",
@@ -348,7 +366,8 @@
       "name": "Stéphanie Menuez",
       "roles": [
         "Clamp's Secretary"
-      ]
+      ],
+      "notes": "(as Stephanie Menuez)"
     },
     {
       "imdbId": "nm0173299",
@@ -369,7 +388,8 @@
       "name": "Tony Winters",
       "roles": [
         "Hallway Employee"
-      ]
+      ],
+      "notes": "(as Anthony Winters)"
     },
     {
       "imdbId": "nm0926086",
@@ -433,6 +453,47 @@
       "roles": [
         "Bubba Smith"
       ]
+    },
+    {
+      "imdbId": "nm0919798",
+      "name": "Frank Welker",
+      "roles": [
+        "Mohawk"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0857130",
+      "name": "Kirk R. Thatcher",
+      "roles": [
+        "Gremlins"
+      ],
+      "notes": "(voice) (as Kirk Thatcher)"
+    },
+    {
+      "imdbId": "nm0230301",
+      "name": "Mark Dodson",
+      "roles": [
+        "Gremlins"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0743719",
+      "name": "Neil Ross",
+      "roles": [
+        "Announcer"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0074797",
+      "name": "Jeff Bergman",
+      "roles": [
+        "Bugs Bunny",
+        "Daffy Duck"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -440,12 +501,8 @@
       "imdbId": "nm0351919",
       "name": "Charles S. Haas",
       "notes": "written by (as Charlie Haas)"
-    },
-    {
-      "imdbId": "nm0001060",
-      "name": "Chris Columbus",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

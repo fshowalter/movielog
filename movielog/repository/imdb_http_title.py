@@ -1,12 +1,12 @@
 import json
 from dataclasses import dataclass, field
+from math import floor
 from typing import Any, Literal, get_args
 
 import requests
 from bs4 import BeautifulSoup, SoupStrainer, Tag
 from requests.adapters import HTTPAdapter, Retry
 
-from movielog.repository.imdb_http_release_date import get_release_date
 from movielog.utils.get_nested_value import get_nested_value
 
 type UntypedJson = dict[Any, Any]
@@ -16,6 +16,15 @@ TIMEOUT = 30
 CreditKind = Literal["director", "writer", "performer"]
 
 CREDIT_KINDS = get_args(CreditKind)
+
+UNKNOWN_RELEASE_DATES = {
+    "tt0273255": "1990-??-??",  # Hansel e Gretel
+    "tt0213101": "1992-05-16",  # The Mystery of Dr Martinu
+    "tt0150855": "1991-??-??",  # Hauntedween
+    "tt0063183": "1968-??-??",  # Killer Darts
+    "tt2087757": "1985-??-??",  # Faust
+    "tt0097859": "1989-??-??",  # Il Mefistofele
+}
 
 
 @dataclass
@@ -32,10 +41,17 @@ class NameCredit:
 class TitlePage:
     imdb_id: str
     credits: dict[CreditKind, list[NameCredit]]
-    full_title: str
+    principal_cast: list[str]
+    title: str
+    year: int
     genres: list[str]
     countries: list[str]
     release_date: str
+    release_date_country: str
+    aggregate_rating: float
+    vote_count: int
+    runtime_minutes: int
+    original_title: str
 
 
 def _build_name_credits_for_title_page(
@@ -94,7 +110,7 @@ def _build_name_credits_for_title_page(
 
 def _parse_title(page_data: UntypedJson) -> str:
     title = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "titleText", "text"], None
+        page_data, ["props", "pageProps", "aboveTheFoldData", "titleText", "text"], None
     )
 
     assert isinstance(title, str)
@@ -102,9 +118,53 @@ def _parse_title(page_data: UntypedJson) -> str:
     return title
 
 
+def _parse_original_title(page_data: UntypedJson) -> str:
+    title = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "originalTitleText", "text"], None
+    )
+
+    assert isinstance(title, str)
+
+    return title
+
+
+def _parse_release_date_country(page_data: UntypedJson) -> str:
+    country = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "releaseDate", "country", "text"]
+    )
+
+    if not isinstance(country, str):
+        return "Unknown"
+
+    return country
+
+
+def _parse_release_date(imdb_id: str, page_data: UntypedJson) -> str:
+    release_date = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "releaseDate"], None
+    )
+
+    if not release_date and imdb_id in UNKNOWN_RELEASE_DATES:
+        return UNKNOWN_RELEASE_DATES[imdb_id]
+
+    day = get_nested_value(release_date, ["day"], None)
+
+    day = f"{day:02}" if isinstance(day, int) else "??"
+
+    month = get_nested_value(release_date, ["month"], None)
+
+    month = f"{month:02}" if isinstance(month, int) else "??"
+
+    year = get_nested_value(release_date, ["year"], None)
+
+    assert isinstance(year, int)
+
+    return f"{year}-{month}-{day}"
+
+
 def _parse_year(page_data: UntypedJson) -> int:
     year = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "releaseYear", "year"], None
+        page_data, ["props", "pageProps", "aboveTheFoldData", "releaseYear", "year"], None
     )
 
     assert isinstance(year, int)
@@ -120,12 +180,52 @@ def _parse_genres(page_data: UntypedJson) -> list[str]:
     return [genre["text"] for genre in genres]
 
 
+def _parse_principal_cast(page_data: UntypedJson) -> list[str]:
+    principal_credits = get_nested_value(
+        page_data, ["props", "pageProps", "mainColumnData", "principalCreditsV2"], []
+    )[0]
+
+    return [
+        get_nested_value(credit, ["name", "nameText", "text"])
+        for credit in principal_credits["credits"]
+    ]
+
+
 def _parse_countries(page_data: UntypedJson) -> list[str]:
     countries = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "countriesDetails", "countries"], []
     )
 
     return [country["text"] for country in countries]
+
+
+def _parse_aggregate_rating(page_data: UntypedJson) -> float:
+    return float(
+        get_nested_value(
+            page_data,
+            ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "aggregateRating"],
+        )
+    )
+
+
+def _parse_vote_count(page_data: UntypedJson) -> int:
+    vote_count = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "voteCount"]
+    )
+
+    assert isinstance(vote_count, int)
+
+    return vote_count
+
+
+def _parse_runtime_minutes(page_data: UntypedJson) -> int:
+    runtime_seconds = get_nested_value(
+        page_data, ["props", "pageProps", "aboveTheFoldData", "runtime", "seconds"]
+    )
+
+    assert isinstance(runtime_seconds, int)
+
+    return floor(runtime_seconds / 60)
 
 
 def get_title_page(imdb_id: str) -> TitlePage:
@@ -159,9 +259,16 @@ def get_title_page(imdb_id: str) -> TitlePage:
 
     return TitlePage(
         imdb_id=imdb_id,
-        full_title=_parse_title(page_data),
+        title=_parse_title(page_data),
+        principal_cast=_parse_principal_cast(page_data),
+        year=_parse_year(page_data),
+        original_title=_parse_original_title(page_data),
         genres=_parse_genres(page_data),
+        runtime_minutes=_parse_runtime_minutes(page_data),
         countries=_parse_countries(page_data),
         credits=_build_name_credits_for_title_page(page_data),
-        release_date=get_release_date(imdb_id, _parse_year(page_data)),
+        release_date=_parse_release_date(imdb_id, page_data),
+        release_date_country=_parse_release_date_country(page_data),
+        aggregate_rating=_parse_aggregate_rating(page_data),
+        vote_count=_parse_vote_count(page_data),
     )

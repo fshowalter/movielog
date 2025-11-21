@@ -5,7 +5,7 @@
   "originalTitle": "Maniac",
   "sortTitle": "maniac-1980",
   "year": "1980",
-  "releaseDate": "1980-05-10",
+  "releaseDate": "1981-03-06",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0527350",
-      "name": "William Lustig"
+      "name": "William Lustig",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -42,7 +43,8 @@
       "name": "Abigail Clayton",
       "roles": [
         "Rita"
-      ]
+      ],
+      "notes": "(as Gail Lawrence)"
     },
     {
       "imdbId": "nm0684908",
@@ -77,7 +79,8 @@
       "name": "James L. Brewster",
       "roles": [
         "Beach Boy"
-      ]
+      ],
+      "notes": "(as James Brewster)"
     },
     {
       "imdbId": "nm0910075",
@@ -134,6 +137,14 @@
       "roles": [
         "Billy"
       ]
+    },
+    {
+      "imdbId": "nm0675887",
+      "name": "Frank Pesce",
+      "roles": [
+        "T.V. Reporter"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0166199",
@@ -215,5 +226,6 @@
       "name": "Joe Spinell",
       "notes": "story"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

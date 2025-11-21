@@ -5,7 +5,7 @@
   "sortTitle": "sex-and-the-city-2008",
   "year": "2008",
   "slug": "sex-and-the-city-2008",
-  "releaseDate": "2008-05-12",
+  "releaseDate": "2008-05-30",
   "runtimeMinutes": 145,
   "countries": [
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0455078",
-      "name": "Michael Patrick King"
+      "name": "Michael Patrick King",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -174,7 +175,8 @@
       "name": "Lena Hall",
       "roles": [
         "Twenty-Something Girl #4"
-      ]
+      ],
+      "notes": "(as Celina Carvajal)"
     },
     {
       "imdbId": "nm2850994",
@@ -300,14 +302,16 @@
       "name": "Rick Aiello",
       "roles": [
         "Angry Driver"
-      ]
+      ],
+      "notes": "(as Ricky Aiello)"
     },
     {
       "imdbId": "nm1860158",
       "name": "Rogelio T. Ramos",
       "roles": [
         "Paulo"
-      ]
+      ],
+      "notes": "(as Rogelio Ramos)"
     },
     {
       "imdbId": "nm0604156",
@@ -405,21 +409,24 @@
       "name": "Michelle M. Kim",
       "roles": [
         "Dante's Girl #2"
-      ]
+      ],
+      "notes": "(as Michelle Minjung Kim)"
     },
     {
       "imdbId": "nm3007790",
       "name": "Erica K. Evans",
       "roles": [
         "Dante's Girl #3"
-      ]
+      ],
+      "notes": "(as Aricka Evans)"
     },
     {
       "imdbId": "nm2204707",
       "name": "Roxy DeVille",
       "roles": [
         "Dante's Girl #4"
-      ]
+      ],
+      "notes": "(as Roxy De Ville)"
     },
     {
       "imdbId": "nm1807206",
@@ -494,5 +501,6 @@
       "name": "Darren Star",
       "notes": "television series creator"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

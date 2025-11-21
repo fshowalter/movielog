@@ -5,7 +5,7 @@
   "originalTitle": "The Taking of Pelham 123",
   "sortTitle": "taking-of-pelham-123-2009",
   "year": "2009",
-  "releaseDate": "2009-06-04",
+  "releaseDate": "2009-06-12",
   "countries": [
     "United States",
     "United Kingdom"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001716",
-      "name": "Tony Scott"
+      "name": "Tony Scott",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -41,7 +42,8 @@
       "name": "Luis Guzmán",
       "roles": [
         "Phil Ramos"
-      ]
+      ],
+      "notes": "(as Luis Guzman)"
     },
     {
       "imdbId": "nm2963873",
@@ -76,7 +78,8 @@
       "name": "Ramón Rodríguez",
       "roles": [
         "Delgado"
-      ]
+      ],
+      "notes": "(as Ramon Rodriguez)"
     },
     {
       "imdbId": "nm0001254",
@@ -146,7 +149,8 @@
       "name": "Aunjanue Ellis-Taylor",
       "roles": [
         "Therese (Garber's Wife)"
-      ]
+      ],
+      "notes": "(as Aunjanue Ellis)"
     },
     {
       "imdbId": "nm3444399",
@@ -280,7 +284,8 @@
       "name": "René Ifrah",
       "roles": [
         "Money Car Shotgun"
-      ]
+      ],
+      "notes": "(as Rene Ifrah)"
     },
     {
       "imdbId": "nm0939703",
@@ -357,7 +362,8 @@
       "name": "Patrick Dalton",
       "roles": [
         "MTA Worker"
-      ]
+      ],
+      "notes": "(as Patrick J. Dalton)"
     },
     {
       "imdbId": "nm3444408",
@@ -456,5 +462,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0171385",
-      "name": "Duilio Coletti"
+      "name": "Duilio Coletti",
+      "notes": "unconfirmed"
     },
     {
       "imdbId": "nm0836328",
@@ -89,14 +90,16 @@
       "name": "José Nieto",
       "roles": [
         "Mexican"
-      ]
+      ],
+      "notes": "(as Jose Nieto)"
     },
     {
       "imdbId": "nm0616389",
       "name": "Conchita Muñoz",
       "roles": [
         "Mexican"
-      ]
+      ],
+      "notes": "(as Conchita Munoz)"
     },
     {
       "imdbId": "nm0097809",
@@ -117,7 +120,8 @@
       "name": "Henri Bidon",
       "roles": [
         "Cowboy"
-      ]
+      ],
+      "notes": "(as Henri Bidon Mikaleffs)"
     }
   ],
   "writers": [
@@ -130,7 +134,28 @@
       "imdbId": "nm0400236",
       "name": "Clair Huffaker",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0211160",
+      "name": "Massimo De Rita",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0312409",
+      "name": "Stephen Geller",
+      "notes": "screenplay (uncredited)"
+    },
+    {
+      "imdbId": "nm0537985",
+      "name": "Dino Maiuri",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0759453",
+      "name": "Rafael J. Salvia",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 97
+  "runtimeMinutes": 97,
+  "releaseDateCountry": "Italy"
 }

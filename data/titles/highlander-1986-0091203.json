@@ -5,7 +5,7 @@
   "originalTitle": "Highlander",
   "sortTitle": "highlander-1986",
   "year": "1986",
-  "releaseDate": "1986-01-01",
+  "releaseDate": "1986-03-07",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0611683",
-      "name": "Russell Mulcahy"
+      "name": "Russell Mulcahy",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -55,7 +56,8 @@
       "name": "Beatie Edney",
       "roles": [
         "Heather"
-      ]
+      ],
+      "notes": "(as Beattie Edney)"
     },
     {
       "imdbId": "nm0635978",
@@ -237,7 +239,8 @@
       "name": "Francis Dux",
       "roles": [
         "Old Man in Car"
-      ]
+      ],
+      "notes": "(as Frank Dux)"
     },
     {
       "imdbId": "nm0398037",
@@ -297,5 +300,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

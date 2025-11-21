@@ -32,7 +32,8 @@
       "name": "Lo Lieh",
       "roles": [
         "Wu Chang-chun"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0793389",
@@ -67,7 +68,8 @@
       "name": "Yuan Chuan",
       "roles": [
         "Chiu Yun"
-      ]
+      ],
+      "notes": "(as Kang Chia)"
     },
     {
       "imdbId": "nm0848909",
@@ -114,7 +116,8 @@
       "name": "Ming Chin",
       "roles": [
         "Thug"
-      ]
+      ],
+      "notes": "(as Tommy Lee)"
     },
     {
       "imdbId": "nm9271382",
@@ -129,12 +132,14 @@
     {
       "imdbId": "nm1095832",
       "name": "Chin Chun",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chun Chin)"
     },
     {
       "imdbId": "nm2397416",
       "name": "Ling Han",
-      "roles": []
+      "roles": [],
+      "notes": "(as Han Ling)"
     },
     {
       "imdbId": "nm2703214",
@@ -181,6 +186,14 @@
       "roles": []
     },
     {
+      "imdbId": "nm0378420",
+      "name": "Ho Li-Jen",
+      "roles": [
+        "Village elder"
+      ],
+      "notes": "(as Li-Jen Ho)"
+    },
+    {
       "imdbId": "nm2531615",
       "name": "Heng Li",
       "roles": []
@@ -189,13 +202,6 @@
       "imdbId": "nm2384735",
       "name": "Yun-Wu Li",
       "roles": []
-    },
-    {
-      "imdbId": "nm0378420",
-      "name": "Ho Li-Jen",
-      "roles": [
-        "Village elder"
-      ]
     },
     {
       "imdbId": "nm2970478",
@@ -207,7 +213,8 @@
       "name": "Cliff Lok",
       "roles": [
         "Black Demon's thug"
-      ]
+      ],
+      "notes": "(as Chin Tung)"
     },
     {
       "imdbId": "nm2444048",
@@ -217,7 +224,8 @@
     {
       "imdbId": "nm1794931",
       "name": "Chow Siu-Loi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Siu-Loi Chow)"
     },
     {
       "imdbId": "nm1269612",
@@ -229,7 +237,8 @@
     {
       "imdbId": "nm1399642",
       "name": "Chien Szu-Ying",
-      "roles": []
+      "roles": [],
+      "notes": "(as Szu-Ying Chien)"
     },
     {
       "imdbId": "nm0874664",
@@ -265,9 +274,9 @@
   "writers": [
     {
       "imdbId": "nm0947304",
-      "name": "I. Fang Yeh",
-      "notes": "writer"
+      "name": "I. Fang Yeh"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "Hong Kong"
 }

@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from collections.abc import Iterable
 from pathlib import Path
-from typing import TypedDict, cast
+from typing import Any, NotRequired, TypedDict, cast
 
 from movielog.repository import slugifier
 from movielog.utils import path_tools
@@ -11,22 +11,26 @@ from movielog.utils.logging import logger
 
 FOLDER_NAME = Path("data") / "titles"
 
+type UntypedJson = dict[Any, Any]
+
 
 class JsonWriter(TypedDict):
     imdbId: str
     name: str
-    notes: str | None
+    notes: NotRequired[str]
 
 
 class JsonPerformer(TypedDict):
     imdbId: str
     name: str
     roles: list[str]
+    notes: NotRequired[str]
 
 
 class JsonDirector(TypedDict):
     imdbId: str
     name: str
+    notes: NotRequired[str]
 
 
 class JsonTitle(TypedDict):
@@ -38,6 +42,7 @@ class JsonTitle(TypedDict):
     runtimeMinutes: int
     year: str
     releaseDate: str
+    releaseDateCountry: str
     countries: list[str]
     genres: list[str]
     directors: list[JsonDirector]

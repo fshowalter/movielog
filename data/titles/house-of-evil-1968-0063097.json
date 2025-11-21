@@ -5,7 +5,7 @@
   "originalTitle": "House of Evil",
   "sortTitle": "house-of-evil-1968",
   "year": "1968",
-  "releaseDate": "1968-??-??",
+  "releaseDate": "1972-??-??",
   "countries": [
     "Mexico"
   ],
@@ -15,12 +15,14 @@
   ],
   "directors": [
     {
-      "imdbId": "nm0406625",
-      "name": "Juan Ibáñez"
+      "imdbId": "nm0384335",
+      "name": "Jack Hill",
+      "notes": "US scenes"
     },
     {
-      "imdbId": "nm0384335",
-      "name": "Jack Hill"
+      "imdbId": "nm0406625",
+      "name": "Juan Ibáñez",
+      "notes": "(as Juan Ibañez)"
     }
   ],
   "performers": [
@@ -43,14 +45,16 @@
       "name": "Andrés García",
       "roles": [
         "Charles Beasler"
-      ]
+      ],
+      "notes": "(as Andres Garcia)"
     },
     {
       "imdbId": "nm0260951",
       "name": "José Ángel Espinosa 'Ferrusquilla'",
       "roles": [
         "Ivor Morteval"
-      ]
+      ],
+      "notes": "(as Ángel Espinoza 'Ferrusquilla')"
     },
     {
       "imdbId": "nm0063254",
@@ -103,12 +107,14 @@
     {
       "imdbId": "nm0209713",
       "name": "José Luis García de León",
-      "roles": []
+      "roles": [],
+      "notes": "(as José Luis G. de León)"
     },
     {
       "imdbId": "nm0430216",
       "name": "Víctor Jordán",
-      "roles": []
+      "roles": [],
+      "notes": "(as Victor Jordan)"
     },
     {
       "imdbId": "nm17135162",
@@ -133,5 +139,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

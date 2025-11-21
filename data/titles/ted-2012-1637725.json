@@ -34,6 +34,14 @@
       ]
     },
     {
+      "imdbId": "nm0532235",
+      "name": "Seth MacFarlane",
+      "roles": [
+        "Ted"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0570364",
       "name": "Joel McHale",
       "roles": [
@@ -83,6 +91,14 @@
       ]
     },
     {
+      "imdbId": "nm0001772",
+      "name": "Patrick Stewart",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm1289528",
       "name": "Norah Jones",
       "roles": [
@@ -94,7 +110,8 @@
       "name": "Sam J. Jones",
       "roles": [
         "Sam Jones"
-      ]
+      ],
+      "notes": "(as Sam Jones)"
     },
     {
       "imdbId": "nm0000643",
@@ -108,7 +125,8 @@
       "name": "Bretton Manley",
       "roles": [
         "Young John"
-      ]
+      ],
+      "notes": "(as Brett Manley)"
     },
     {
       "imdbId": "nm0307621",
@@ -179,14 +197,16 @@
       "roles": [
         "Kid #1",
         "Young Ted's Voice"
-      ]
+      ],
+      "notes": "(as Zane Cowans)"
     },
     {
       "imdbId": "nm5110619",
       "name": "T.J. Hourigan",
       "roles": [
         "Kid #2"
-      ]
+      ],
+      "notes": "(as TJ Hourigan)"
     },
     {
       "imdbId": "nm5110124",
@@ -361,7 +381,8 @@
       "name": "Chris Everett",
       "roles": [
         "Wife"
-      ]
+      ],
+      "notes": "(as Christina Everett)"
     }
   ],
   "writers": [
@@ -386,5 +407,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

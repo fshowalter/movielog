@@ -5,7 +5,7 @@
   "originalTitle": "Master of the World",
   "sortTitle": "master-of-the-world-1961",
   "year": "1961",
-  "releaseDate": "1961-??-??",
+  "releaseDate": "1961-05-??",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0936823",
-      "name": "William Witney"
+      "name": "William Witney",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -67,7 +68,8 @@
       "name": "Vito Scotti",
       "roles": [
         "Topage"
-      ]
+      ],
+      "notes": "(as Vitto Scotti)"
     },
     {
       "imdbId": "nm0133140",
@@ -89,5 +91,6 @@
       "notes": "based on two novels by: \"Master of the World\" and \"Robur, the Conqueror\""
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

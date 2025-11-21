@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001274",
-      "name": "Paul Michael Glaser"
+      "name": "Paul Michael Glaser",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -61,7 +62,8 @@
       "name": "Erland van Lidth",
       "roles": [
         "Dynamo"
-      ]
+      ],
+      "notes": "(as Erland Van Lidth)"
     },
     {
       "imdbId": "nm0570793",
@@ -117,14 +119,16 @@
       "name": "Sven-Ole Thorsen",
       "roles": [
         "Sven"
-      ]
+      ],
+      "notes": "(as Sven Thorsen)"
     },
     {
       "imdbId": "nm0120483",
       "name": "Edward Bunker",
       "roles": [
         "Lenny"
-      ]
+      ],
+      "notes": "(as Eddie Bunker)"
     },
     {
       "imdbId": "nm0450461",
@@ -138,7 +142,8 @@
       "name": "Anthony Pena",
       "roles": [
         "Valdez"
-      ]
+      ],
+      "notes": "(as Anthony Penya)"
     },
     {
       "imdbId": "nm0298281",
@@ -152,7 +157,8 @@
       "name": "Ken Lerner",
       "roles": [
         "Agent"
-      ]
+      ],
+      "notes": "(as Kenneth Lerner)"
     },
     {
       "imdbId": "nm0949477",
@@ -166,7 +172,8 @@
       "name": "Rodger Bumpass",
       "roles": [
         "Phil Hilton"
-      ]
+      ],
+      "notes": "(as Roger Bumpass)"
     },
     {
       "imdbId": "nm0362620",
@@ -180,7 +187,8 @@
       "name": "Lynne Marie Stewart",
       "roles": [
         "Edith Wiggins"
-      ]
+      ],
+      "notes": "(as Lynne Stewart)"
     },
     {
       "imdbId": "nm0546747",
@@ -194,7 +202,8 @@
       "name": "Tony Brubaker",
       "roles": [
         "Soldier #1"
-      ]
+      ],
+      "notes": "(as Anthony Brubaker)"
     },
     {
       "imdbId": "nm0004273",
@@ -208,7 +217,8 @@
       "name": "Billy D. Lucas",
       "roles": [
         "Soldier #3"
-      ]
+      ],
+      "notes": "(as Billy Lucas)"
     },
     {
       "imdbId": "nm0928111",
@@ -222,7 +232,8 @@
       "name": "Thomas Rosales Jr.",
       "roles": [
         "Chico"
-      ]
+      ],
+      "notes": "(as Tom Rosales Jr.)"
     },
     {
       "imdbId": "nm0392523",
@@ -292,7 +303,8 @@
       "name": "Boyd Kestner",
       "roles": [
         "Yuppie Yeller"
-      ]
+      ],
+      "notes": "(as Boyd R. Kestner)"
     },
     {
       "imdbId": "nm0333412",
@@ -334,7 +346,8 @@
       "name": "Kerry Wall",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Kerry Brennan)"
     },
     {
       "imdbId": "nm0114409",
@@ -404,7 +417,8 @@
       "name": "Mary Ann Hermansen",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Mary Ann Oedy)"
     },
     {
       "imdbId": "nm0654400",
@@ -447,5 +461,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

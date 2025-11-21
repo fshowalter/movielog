@@ -5,7 +5,7 @@
   "originalTitle": "California Split",
   "sortTitle": "california-split-1974",
   "year": "1974",
-  "releaseDate": "1974-08-01",
+  "releaseDate": "1974-08-??",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000265",
-      "name": "Robert Altman"
+      "name": "Robert Altman",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -109,7 +110,8 @@
       "name": "Vincent Palmieri",
       "roles": [
         "First Bartender"
-      ]
+      ],
+      "notes": "(as Vince Palmieri)"
     },
     {
       "imdbId": "nm0664905",
@@ -137,7 +139,8 @@
       "name": "Sierra Pecheur",
       "roles": [
         "Woman at Bar"
-      ]
+      ],
+      "notes": "(as Sierra Bandit)"
     },
     {
       "imdbId": "nm0175912",
@@ -179,7 +182,8 @@
       "name": "Michael Greene",
       "roles": [
         "Reno Dealer"
-      ]
+      ],
+      "notes": "(as Mike Greene)"
     },
     {
       "imdbId": "nm0797529",
@@ -280,5 +284,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 108
+  "runtimeMinutes": 108,
+  "releaseDateCountry": "United States"
 }

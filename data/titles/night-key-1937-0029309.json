@@ -5,7 +5,7 @@
   "originalTitle": "Night Key",
   "sortTitle": "night-key-1937",
   "year": "1937",
-  "releaseDate": "1937-04-18",
+  "releaseDate": "1937-05-02",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0180987",
-      "name": "Lloyd Corrigan"
+      "name": "Lloyd Corrigan",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -32,7 +33,8 @@
       "name": "Warren Hull",
       "roles": [
         "Jim Travers"
-      ]
+      ],
+      "notes": "(as J. Warren Hull)"
     },
     {
       "imdbId": "nm0736939",
@@ -60,7 +62,8 @@
       "name": "Samuel S. Hinds",
       "roles": [
         "Stephen Ranger"
-      ]
+      ],
+      "notes": "(as Samuel Hinds)"
     },
     {
       "imdbId": "nm0646813",
@@ -108,5 +111,6 @@
       "notes": "original story by (as William Pierce)"
     }
   ],
-  "runtimeMinutes": 68
+  "runtimeMinutes": 68,
+  "releaseDateCountry": "United States"
 }

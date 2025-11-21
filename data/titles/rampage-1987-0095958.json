@@ -5,7 +5,7 @@
   "originalTitle": "Rampage",
   "sortTitle": "rampage-1987",
   "year": "1987",
-  "releaseDate": "1987-09-01",
+  "releaseDate": "1992-10-30",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001243",
-      "name": "William Friedkin"
+      "name": "William Friedkin",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Billy Green Bush",
       "roles": [
         "Judge McKinsey"
-      ]
+      ],
+      "notes": "(as Billy Greenbush)"
     },
     {
       "imdbId": "nm0032403",
@@ -138,7 +140,8 @@
       "name": "Whit Flint",
       "roles": [
         "Andrew Tippetts"
-      ]
+      ],
+      "notes": "(as Whitby Hertford)"
     },
     {
       "imdbId": "nm0453794",
@@ -334,7 +337,8 @@
       "name": "Robert D. Knudsen",
       "roles": [
         "ID Tech #1"
-      ]
+      ],
+      "notes": "(as Robert Knudsen)"
     },
     {
       "imdbId": "nm0885403",
@@ -411,7 +415,8 @@
       "name": "Richard Baskin",
       "roles": [
         "Attorney"
-      ]
+      ],
+      "notes": "(as Richard J. Baskin)"
     },
     {
       "imdbId": "nm0626993",
@@ -502,5 +507,6 @@
       "name": "William Friedkin",
       "notes": "screenplay by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

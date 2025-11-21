@@ -5,7 +5,7 @@
   "originalTitle": "Freaky",
   "sortTitle": "freaky-2020",
   "year": "2020",
-  "releaseDate": "2020-10-08",
+  "releaseDate": "2020-11-13",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0484907",
-      "name": "Christopher Landon"
+      "name": "Christopher Landon",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -201,21 +202,24 @@
       "name": "Tim Johnson",
       "roles": [
         "Squi"
-      ]
+      ],
+      "notes": "(as Timothy Luke Johnson)"
     },
     {
       "imdbId": "nm9126223",
       "name": "Carter Glade",
       "roles": [
         "Tobin"
-      ]
+      ],
+      "notes": "(as Carter Woodward Glade)"
     },
     {
       "imdbId": "nm9089295",
       "name": "Ezra Sexton",
       "roles": [
         "Brett"
-      ]
+      ],
+      "notes": "(as Ezra Jeb Sexton)"
     },
     {
       "imdbId": "nm1825029",
@@ -237,5 +241,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

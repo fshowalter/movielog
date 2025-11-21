@@ -5,7 +5,7 @@
   "sortTitle": "simpsons-movie-2007",
   "year": "2007",
   "slug": "the-simpsons-movie-2007",
-  "releaseDate": "2007-07-21",
+  "releaseDate": "2007-07-27",
   "runtimeMinutes": 87,
   "countries": [
     "United States"
@@ -21,7 +21,228 @@
       "name": "David Silverman"
     }
   ],
-  "performers": [],
+  "performers": [
+    {
+      "imdbId": "nm0144657",
+      "name": "Dan Castellaneta",
+      "roles": [
+        "Homer Simpson",
+        "Itchy",
+        "Barney",
+        "Grampa",
+        "Stage Manager",
+        "Krusty the Clown",
+        "Mayor Quimby",
+        "Mayor's Aide",
+        "Multi-Eyed Squirrel",
+        "Panicky Man",
+        "Sideshow Mel",
+        "Mr. Teeny",
+        "EPA Official",
+        "Kissing Cop",
+        "Bear",
+        "Boy on Phone",
+        "NSA Worker",
+        "Officer",
+        "Santa's Little Helper",
+        "Squeaky-Voiced Teen",
+        "Groundskeeper Willie"
+      ]
+    },
+    {
+      "imdbId": "nm0001413",
+      "name": "Julie Kavner",
+      "roles": [
+        "Marge Simpson",
+        "Selma Bouvier",
+        "Patty Bouvier"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0004813",
+      "name": "Nancy Cartwright",
+      "roles": [
+        "Bart Simpson",
+        "Maggie Simpson",
+        "Ralph Wiggum",
+        "Nelson Muntz",
+        "Todd Flanders",
+        "TV Daughter",
+        "Woman on Phone"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0810379",
+      "name": "Yeardley Smith",
+      "roles": [
+        "Lisa Simpson"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000279",
+      "name": "Hank Azaria",
+      "roles": [
+        "Professor Frink",
+        "Comic Book Guy",
+        "Moe Szyslak",
+        "Chief Wiggum",
+        "Lou",
+        "Carl",
+        "Cletus",
+        "Bumblebee Man",
+        "Male EPA Worker",
+        "Dome Depot Announcer",
+        "Kissing Cop",
+        "Carnival Barker",
+        "Counter Man",
+        "Apu",
+        "Drederick Tatum",
+        "Sea Captain",
+        "EPA Passenger",
+        "Robot",
+        "Dr. Nick Riviera",
+        "Wise Guy"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0733427",
+      "name": "Harry Shearer",
+      "roles": [
+        "Scratchy",
+        "Mr. Burns",
+        "Rev. Lovejoy",
+        "Ned Flanders",
+        "Lenny",
+        "Skull",
+        "President Arnold Schwarzenegger",
+        "Kent Brockman",
+        "Principal Skinner",
+        "Dr. Hibbert",
+        "Smithers",
+        "Toll Booth Man",
+        "Guard",
+        "Otto",
+        "Kang"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0370788",
+      "name": "Pamela Hayden",
+      "roles": [
+        "Milhouse Van Houten",
+        "Rod Flanders",
+        "Jimbo Jones"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0534134",
+      "name": "Tress MacNeille",
+      "roles": [
+        "Booberella",
+        "Sweet Old Lady",
+        "Colin",
+        "Agnes Skinner",
+        "Nelson's Mother",
+        "Pig",
+        "Crazy Cat Lady",
+        "Female EPA Worker",
+        "G.P.S. Woman",
+        "Cookie Kwan",
+        "Lindsey Naegle",
+        "TV Son",
+        "Medicine Woman",
+        "Girl on Phone"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000983",
+      "name": "Albert Brooks",
+      "roles": [
+        "Russ Cargill"
+      ],
+      "notes": "(voice) (as A. Brooks)"
+    },
+    {
+      "imdbId": "nm0927293",
+      "name": "Karl Wiedergott",
+      "roles": [
+        "Man",
+        "EPA Driver"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0853122",
+      "name": "Russi Taylor",
+      "roles": [
+        "Martin Prince"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0744648",
+      "name": "Maggie Roswell",
+      "roles": [
+        "Helen Lovejoy"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0742814",
+      "name": "Phil Rosenthal",
+      "roles": [
+        "TV Dad"
+      ],
+      "notes": "(voice) (as Philip Rosenthal)"
+    },
+    {
+      "imdbId": "nm0035626",
+      "name": "Billie Joe Armstrong",
+      "roles": [
+        "Green Day"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0177566",
+      "name": "Tré Cool",
+      "roles": [
+        "Green Day"
+      ],
+      "notes": "(voice) (as Frank Edwin Wright III)"
+    },
+    {
+      "imdbId": "nm0228238",
+      "name": "Mike Dirnt",
+      "roles": [
+        "Green Day"
+      ],
+      "notes": "(voice) (as Michael Pritchard)"
+    },
+    {
+      "imdbId": "nm0001505",
+      "name": "Joe Mantegna",
+      "roles": [
+        "Fat Tony"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000158",
+      "name": "Tom Hanks",
+      "roles": [
+        "Tom Hanks"
+      ],
+      "notes": "(voice)"
+    }
+  ],
   "writers": [
     {
       "imdbId": "nm0000985",
@@ -78,5 +299,6 @@
       "name": "Jon Vitti",
       "notes": "screenplay by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

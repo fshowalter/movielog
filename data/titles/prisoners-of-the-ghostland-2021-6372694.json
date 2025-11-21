@@ -5,7 +5,7 @@
   "originalTitle": "Prisoners of the Ghostland",
   "sortTitle": "prisoners-of-the-ghostland-2021",
   "year": "2021",
-  "releaseDate": "2021-01-31",
+  "releaseDate": "2021-09-17",
   "countries": [
     "United States",
     "Japan"
@@ -13,12 +13,14 @@
   "genres": [
     "Fantasy",
     "Horror",
-    "Thriller"
+    "Thriller",
+    "Western"
   ],
   "directors": [
     {
       "imdbId": "nm0814469",
-      "name": "Sion Sono"
+      "name": "Sion Sono",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -132,7 +134,8 @@
       "name": "Lorena Kotô",
       "roles": [
         "Stella"
-      ]
+      ],
+      "notes": "(as Koto Lorena)"
     },
     {
       "imdbId": "nm12109021",
@@ -160,7 +163,8 @@
       "name": "Ilsa Levine",
       "roles": [
         "Bernice's Mother"
-      ]
+      ],
+      "notes": "(as Ilsa)"
     },
     {
       "imdbId": "nm4547843",
@@ -181,7 +185,8 @@
       "name": "Suzuki Ichika",
       "roles": [
         "Bank Clerk"
-      ]
+      ],
+      "notes": "(as Ichika Suzuki)"
     },
     {
       "imdbId": "nm3769249",
@@ -216,7 +221,8 @@
       "name": "Fûsaku Tani",
       "roles": [
         "Bank Security Officer"
-      ]
+      ],
+      "notes": "(as Fusaku Tani)"
     },
     {
       "imdbId": "nm3775259",
@@ -272,7 +278,8 @@
       "name": "Kenji Gotô",
       "roles": [
         "Clock Tower Leader"
-      ]
+      ],
+      "notes": "(as Kenji Goto)"
     },
     {
       "imdbId": "nm4163838",
@@ -321,7 +328,8 @@
       "name": "Marion Katel Contentin",
       "roles": [
         "Geisha Girl"
-      ]
+      ],
+      "notes": "(as Marion Katel)"
     },
     {
       "imdbId": "nm12944282",
@@ -342,7 +350,8 @@
       "name": "Yûko Yoshii",
       "roles": [
         "Ghostland Nursery Teacher"
-      ]
+      ],
+      "notes": "(as Yuko Yoshii)"
     },
     {
       "imdbId": "nm12944283",
@@ -468,7 +477,8 @@
       "name": "Ayana Sôgawa",
       "roles": [
         "Ninja"
-      ]
+      ],
+      "notes": "(as Ayana Sogawa)"
     },
     {
       "imdbId": "nm12944295",
@@ -503,14 +513,16 @@
       "name": "Yûto Endô",
       "roles": [
         "Ratman Ichiro"
-      ]
+      ],
+      "notes": "(as Yuto Endo)"
     },
     {
       "imdbId": "nm11970632",
       "name": "Tatsuhiro Yamaoka",
       "roles": [
         "Ratman Jiro"
-      ]
+      ],
+      "notes": "(as Yamaoka Tatsuhiro)"
     },
     {
       "imdbId": "nm12944298",
@@ -937,7 +949,8 @@
       "name": "Yo Aoi",
       "roles": [
         "Gunman"
-      ]
+      ],
+      "notes": "(as Aoi Yo)"
     },
     {
       "imdbId": "nm12944353",
@@ -1120,5 +1133,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "United States"
 }

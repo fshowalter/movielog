@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0342417",
-      "name": "Nick Grinde"
+      "name": "Nick Grinde",
+      "notes": "(as Nick Grindé)"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Joe De Stefani",
       "roles": [
         "Dr. Stoddard"
-      ]
+      ],
+      "notes": "(as Joseph De Stefani)"
     },
     {
       "imdbId": "nm0873845",
@@ -123,5 +125,6 @@
       "notes": "story (as George W. Sayre)"
     }
   ],
-  "runtimeMinutes": 64
+  "runtimeMinutes": 64,
+  "releaseDateCountry": "United States"
 }

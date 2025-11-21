@@ -5,7 +5,7 @@
   "sortTitle": "get-smart-2008",
   "year": "2008",
   "slug": "get-smart-2008",
-  "releaseDate": "2008-06-19",
+  "releaseDate": "2008-06-20",
   "runtimeMinutes": 110,
   "countries": [
     "United States"
@@ -265,7 +265,8 @@
       "name": "Jasper Pendergrass Jr.",
       "roles": [
         "Budweiser Delivery Guy"
-      ]
+      ],
+      "notes": "(as Jasper Pendergrass)"
     },
     {
       "imdbId": "nm0187674",
@@ -349,7 +350,8 @@
       "name": "Sergei Priselkov",
       "roles": [
         "Russian Farmer"
-      ]
+      ],
+      "notes": "(as Sergey Priselkov)"
     },
     {
       "imdbId": "nm0318354",
@@ -426,7 +428,8 @@
       "name": "Michael P. Catanzarite",
       "roles": [
         "Secret Service Agent"
-      ]
+      ],
+      "notes": "(as Michael Peter Catanzarite)"
     },
     {
       "imdbId": "nm0215229",
@@ -497,6 +500,14 @@
       "roles": [
         "Fang"
       ]
+    },
+    {
+      "imdbId": "nm0780435",
+      "name": "Ryan Seacrest",
+      "roles": [
+        "Ryan Seacrest"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -509,16 +520,7 @@
       "imdbId": "nm0256079",
       "name": "Matt Ember",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0000316",
-      "name": "Mel Brooks",
-      "notes": "characters and"
-    },
-    {
-      "imdbId": "nm0377750",
-      "name": "Buck Henry",
-      "notes": "characters"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

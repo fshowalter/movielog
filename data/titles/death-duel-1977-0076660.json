@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -25,14 +26,16 @@
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Third Master Hsieh Hsiao-feng, Ah Chi"
-      ]
+      ],
+      "notes": "(as Tung-Shing Yee)"
     },
     {
       "imdbId": "nm0950546",
       "name": "On-On Yu",
       "roles": [
         "Hsiao Li"
-      ]
+      ],
+      "notes": "(as Candy Yu)"
     },
     {
       "imdbId": "nm0155346",
@@ -67,7 +70,8 @@
       "name": "Lo Lieh",
       "roles": [
         "Hero Huang Ting"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0270495",
@@ -137,21 +141,18 @@
       "roles": []
     },
     {
-      "imdbId": "nm0514960",
-      "name": "Lau Chun-Fai",
-      "roles": []
-    },
-    {
       "imdbId": "nm0473314",
       "name": "Ku Feng",
       "roles": [
         "Miao Tzu"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm0351719",
@@ -163,14 +164,16 @@
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
       "roles": [
         "Chou Yu-feng"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm3063563",
@@ -190,11 +193,18 @@
       ]
     },
     {
+      "imdbId": "nm0514960",
+      "name": "Chun-Fai Lau",
+      "roles": [],
+      "notes": "(as Lau Chun-Fai)"
+    },
+    {
       "imdbId": "nm0378420",
       "name": "Ho Li-Jen",
       "roles": [
         "Innkeeper Yu"
-      ]
+      ],
+      "notes": "(as Li-Jen Ho)"
     },
     {
       "imdbId": "nm2531615",
@@ -225,7 +235,8 @@
     {
       "imdbId": "nm0518999",
       "name": "Jack Long",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chiang Wang)"
     },
     {
       "imdbId": "nm1788920",
@@ -237,14 +248,16 @@
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chien-Ming Lu)"
     },
     {
       "imdbId": "nm0266652",
       "name": "Fan Mei-Sheng",
       "roles": [
         "Mute Ya-pa"
-      ]
+      ],
+      "notes": "(as Mei Sheng Fan)"
     },
     {
       "imdbId": "nm2521818",
@@ -259,7 +272,8 @@
     {
       "imdbId": "nm1794908",
       "name": "Chik Ngai-Hung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yi-Hsiung Chi)"
     },
     {
       "imdbId": "nm0041251",
@@ -273,7 +287,8 @@
       "name": "Huang Pei-Chi",
       "roles": [
         "Tieh Chuan"
-      ]
+      ],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm1714999",
@@ -295,7 +310,8 @@
     {
       "imdbId": "nm1399642",
       "name": "Chien Szu-Ying",
-      "roles": []
+      "roles": [],
+      "notes": "(as Szu-Ying Chien)"
     },
     {
       "imdbId": "nm2407459",
@@ -329,7 +345,8 @@
       "name": "Lo Wai",
       "roles": [
         "Roadside Bandit"
-      ]
+      ],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0151169",
@@ -348,7 +365,8 @@
     {
       "imdbId": "nm0519729",
       "name": "Tino Wong",
-      "roles": []
+      "roles": [],
+      "notes": "(as Tien-lung Chen)"
     },
     {
       "imdbId": "nm0943096",
@@ -374,7 +392,8 @@
       "name": "Nancy Yen",
       "roles": [
         "Yu Cheng"
-      ]
+      ],
+      "notes": "(as Nan Hsi Yen)"
     },
     {
       "imdbId": "nm0950707",
@@ -405,8 +424,7 @@
   "writers": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor",
-      "notes": ""
+      "name": "Yuen Chor"
     },
     {
       "imdbId": "nm0473325",
@@ -414,5 +432,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "Hong Kong"
 }

@@ -18,11 +18,18 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by (segments \"The Gas Station\", \"Hair\")"
     },
     {
       "imdbId": "nm0001361",
-      "name": "Tobe Hooper"
+      "name": "Tobe Hooper",
+      "notes": "directed by (segment \"Eye\")"
+    },
+    {
+      "imdbId": "nm0837917",
+      "name": "Larry Sulkis",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -31,236 +38,269 @@
       "name": "John Carpenter",
       "roles": [
         "Coroner"
-      ]
+      ],
+      "notes": "(segment \"The Morgue\")"
     },
     {
       "imdbId": "nm0000792",
       "name": "Tom Arnold",
       "roles": [
         "Man #1"
-      ]
+      ],
+      "notes": "(segment \"The Morgue\")"
     },
     {
       "imdbId": "nm0001361",
       "name": "Tobe Hooper",
       "roles": [
         "Man #2"
-      ]
+      ],
+      "notes": "(segment \"The Morgue\")"
     },
     {
       "imdbId": "nm0001019",
       "name": "Robert Carradine",
       "roles": [
         "Bill"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0202131",
       "name": "Alex Datcher",
       "roles": [
         "Anne"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0419273",
       "name": "Peter Jason",
       "roles": [
         "Gent"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0154882",
       "name": "Molly Cheek",
       "roles": [
         "Divorcee"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0000127",
       "name": "Wes Craven",
       "roles": [
         "Pasty Faced Man"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0000600",
       "name": "Sam Raimi",
       "roles": [
         "Bill-Dead Attendant"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0622544",
       "name": "David Naughton",
       "roles": [
         "Pete"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0002668",
       "name": "George 'Buck' Flower",
       "roles": [
         "Stranger"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\") (as Buck Flower)"
     },
     {
       "imdbId": "nm0097633",
       "name": "Lucy Boryer",
       "roles": [
         "Peggy"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\") (as Lucy Boyrer)"
     },
     {
       "imdbId": "nm0740277",
       "name": "Roger Rooks",
       "roles": [
         "TV Anchorman"
-      ]
+      ],
+      "notes": "(segment \"The Gas Station\")"
     },
     {
       "imdbId": "nm0005078",
       "name": "Stacy Keach",
       "roles": [
         "Richard"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0001831",
       "name": "David Warner",
       "roles": [
         "Dr. Lock"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0002054",
       "name": "Sheena Easton",
       "roles": [
         "Megan"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0088885",
       "name": "Dan Blom",
       "roles": [
         "Dennis"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0041061",
       "name": "Attila",
       "roles": [
         "Man"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0004698",
       "name": "Kim Alexis",
       "roles": [
         "Woman"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0630524",
       "name": "Greg Nicotero",
       "roles": [
         "Man with Dog"
-      ]
+      ],
+      "notes": "(segment \"Hair\")"
     },
     {
       "imdbId": "nm0001323",
       "name": "Debbie Harry",
       "roles": [
         "The Nurse"
-      ]
+      ],
+      "notes": "(segment \"Hair\") (as Deborah Harry)"
     },
     {
       "imdbId": "nm0000434",
       "name": "Mark Hamill",
       "roles": [
         "Brent"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0493341",
       "name": "Twiggy",
       "roles": [
         "Cathy"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0000730",
       "name": "John Agar",
       "roles": [
         "Dr. Lang"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0000339",
       "name": "Roger Corman",
       "roles": [
         "Dr. Bregman"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0621008",
       "name": "Charles Napier",
       "roles": [
         "Manager"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0892455",
       "name": "Eddie Velez",
       "roles": [
         "Player"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0613531",
       "name": "Betty Muramoto",
       "roles": [
         "Librarian"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0236858",
       "name": "Bebe Drake",
       "roles": [
         "Nurse"
-      ]
+      ],
+      "notes": "(segment \"Eye\") (as Bebe Drake-Massey)"
     },
     {
       "imdbId": "nm0565887",
       "name": "Sean McClory",
       "roles": [
         "Minister"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     },
     {
       "imdbId": "nm0124198",
       "name": "Robert Lewis Bush",
       "roles": [
         "Man"
-      ]
+      ],
+      "notes": "(segment \"Eye\") (as Robert L. Bush)"
     },
     {
       "imdbId": "nm0022405",
       "name": "Gregory H. Alpert",
       "roles": [
         "Technician"
-      ]
+      ],
+      "notes": "(segment \"Eye\")"
     }
   ],
   "writers": [
     {
       "imdbId": "nm0113126",
       "name": "Billy Brown",
-      "notes": "written by &"
+      "notes": "written by and"
     },
     {
       "imdbId": "nm0029445",
       "name": "Dan Angel",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

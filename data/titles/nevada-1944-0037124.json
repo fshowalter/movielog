@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0453245",
-      "name": "Edward Killy"
+      "name": "Edward Killy",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -25,7 +26,8 @@
       "name": "Robert Mitchum",
       "roles": [
         "Jim Lacy aka Nevada"
-      ]
+      ],
+      "notes": "(as Bob Mitchum)"
     },
     {
       "imdbId": "nm0420331",
@@ -124,5 +126,6 @@
       "notes": "from the novel by"
     }
   ],
-  "runtimeMinutes": 62
+  "runtimeMinutes": 62,
+  "releaseDateCountry": "United States"
 }

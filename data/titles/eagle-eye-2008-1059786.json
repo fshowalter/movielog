@@ -5,7 +5,7 @@
   "sortTitle": "eagle-eye-2008",
   "year": "2008",
   "slug": "eagle-eye-2008",
-  "releaseDate": "2008-09-16",
+  "releaseDate": "2008-09-26",
   "runtimeMinutes": 118,
   "countries": [
     "United Kingdom",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0142286",
-      "name": "D.J. Caruso"
+      "name": "D.J. Caruso",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -204,14 +205,16 @@
       "name": "Craig J. Harris",
       "roles": [
         "Man on Train"
-      ]
+      ],
+      "notes": "(as Craig Harris)"
     },
     {
       "imdbId": "nm2470263",
       "name": "Jimmie Akins",
       "roles": [
         "Transit Cop on Train"
-      ]
+      ],
+      "notes": "(as Jimmie L. Akins)"
     },
     {
       "imdbId": "nm0647638",
@@ -274,7 +277,8 @@
       "name": "James Gohrick",
       "roles": [
         "Agent in Alley"
-      ]
+      ],
+      "notes": "(as James C. Gohrick)"
     },
     {
       "imdbId": "nm0865205",
@@ -519,7 +523,8 @@
       "name": "Susan Jasmin Armon",
       "roles": [
         "Woman in Ballochi Village"
-      ]
+      ],
+      "notes": "(as Susan Armon)"
     },
     {
       "imdbId": "nm2390252",
@@ -568,7 +573,8 @@
       "name": "Lesley Stahl",
       "roles": [
         "Newscaster"
-      ]
+      ],
+      "notes": "(as Leslie Stahl)"
     },
     {
       "imdbId": "nm0629046",
@@ -582,7 +588,8 @@
       "name": "Ralph Garman",
       "roles": [
         "Newscaster"
-      ]
+      ],
+      "notes": "(as Ralph Garmin)"
     },
     {
       "imdbId": "nm1853240",
@@ -666,7 +673,8 @@
       "name": "Sophia Anne Caruso",
       "roles": [
         "Sam's School Band"
-      ]
+      ],
+      "notes": "(as Sophia Caruso)"
     },
     {
       "imdbId": "nm3143395",
@@ -842,5 +850,6 @@
       "name": "Dan McDermott",
       "notes": "story"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

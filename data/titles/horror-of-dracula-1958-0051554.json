@@ -5,7 +5,7 @@
   "originalTitle": "Dracula",
   "sortTitle": "horror-of-dracula-1958",
   "year": "1958",
-  "releaseDate": "1958-05-08",
+  "releaseDate": "1958-06-16",
   "countries": [
     "United Kingdom"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0279807",
-      "name": "Terence Fisher"
+      "name": "Terence Fisher",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -81,7 +82,8 @@
       "name": "Janina Faye",
       "roles": [
         "Tania"
-      ]
+      ],
+      "notes": "(as Janine Faye)"
     },
     {
       "imdbId": "nm0033636",
@@ -152,5 +154,6 @@
       "notes": "based on the novel by"
     }
   ],
-  "runtimeMinutes": 82
+  "runtimeMinutes": 82,
+  "releaseDateCountry": "United Kingdom"
 }

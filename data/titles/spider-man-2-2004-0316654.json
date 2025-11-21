@@ -5,7 +5,7 @@
   "sortTitle": "spider-man-2-2004",
   "year": "2004",
   "slug": "spider-man-2-2004",
-  "releaseDate": "2004-06-25",
+  "releaseDate": "2004-06-30",
   "runtimeMinutes": 127,
   "countries": [
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000600",
-      "name": "Sam Raimi"
+      "name": "Sam Raimi",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -233,7 +234,8 @@
       "name": "Andy Bale",
       "roles": [
         "OsCorp Executive"
-      ]
+      ],
+      "notes": "(as Andrew Bale)"
     },
     {
       "imdbId": "nm0261452",
@@ -282,7 +284,8 @@
       "name": "Timothy Jerome",
       "roles": [
         "Injured Scientist"
-      ]
+      ],
+      "notes": "(as Tim Jerome)"
     },
     {
       "imdbId": "nm0318255",
@@ -310,7 +313,8 @@
       "name": "Zachry Rogers",
       "roles": [
         "Boy Saved by Spider-Man"
-      ]
+      ],
+      "notes": "(as Zachary Rogers)"
     },
     {
       "imdbId": "nm1640142",
@@ -345,7 +349,8 @@
       "name": "Brendan Patrick Connor",
       "roles": [
         "Theater Traffic Cop"
-      ]
+      ],
+      "notes": "(as Brendan Connor)"
     },
     {
       "imdbId": "nm0224703",
@@ -443,7 +448,8 @@
       "name": "Jopaul Van Epp",
       "roles": [
         "Boy with Mask"
-      ]
+      ],
+      "notes": "(as Jopaul Epp)"
     },
     {
       "imdbId": "nm1640084",
@@ -464,14 +470,16 @@
       "name": "Brianna Brown",
       "roles": [
         "Train Passenger"
-      ]
+      ],
+      "notes": "(as Brianna Lynn Brown)"
     },
     {
       "imdbId": "nm0130785",
       "name": "Bill Calvert",
       "roles": [
         "Train Passenger"
-      ]
+      ],
+      "notes": "(as William Calvert)"
     },
     {
       "imdbId": "nm0133084",
@@ -485,7 +493,8 @@
       "name": "Joey Diaz",
       "roles": [
         "Train Passenger"
-      ]
+      ],
+      "notes": "(as Joey Coco Diaz)"
     },
     {
       "imdbId": "nm1640124",
@@ -506,7 +515,8 @@
       "name": "Dan Hicks",
       "roles": [
         "Train Passenger"
-      ]
+      ],
+      "notes": "(as Danny Hicks)"
     },
     {
       "imdbId": "nm1640130",
@@ -575,5 +585,6 @@
       "name": "Alvin Sargent",
       "notes": "screenplay"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

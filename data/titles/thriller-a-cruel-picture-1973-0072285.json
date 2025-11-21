@@ -5,7 +5,7 @@
   "originalTitle": "Thriller - En grym film",
   "sortTitle": "thriller-a-cruel-picture-1973",
   "year": "1973",
-  "releaseDate": "1973-05-01",
+  "releaseDate": "1974-06-05",
   "countries": [
     "Sweden"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0895804",
-      "name": "Bo Arne Vibenius"
+      "name": "Bo Arne Vibenius",
+      "notes": "(as Alex Fridolinski)"
     }
   ],
   "performers": [
@@ -50,7 +51,8 @@
       "name": "Per-Axel Arosenius",
       "roles": [
         "Madeline's Father"
-      ]
+      ],
+      "notes": "(as Per Axel Arosenius)"
     },
     {
       "imdbId": "nm0027823",
@@ -95,7 +97,8 @@
       "name": "Marshall McDough",
       "roles": [
         "Karate Teacher"
-      ]
+      ],
+      "notes": "(as Marshal Mc Donagh)"
     },
     {
       "imdbId": "nm0657956",
@@ -160,5 +163,6 @@
       "notes": "based on an original story by (as Alex Fridolinski)"
     }
   ],
-  "runtimeMinutes": 108
+  "runtimeMinutes": 108,
+  "releaseDateCountry": "United States"
 }

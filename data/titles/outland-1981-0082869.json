@@ -5,7 +5,7 @@
   "originalTitle": "Outland",
   "sortTitle": "outland-1981",
   "year": "1981",
-  "releaseDate": "1981-05-01",
+  "releaseDate": "1981-05-22",
   "countries": [
     "United Kingdom",
     "United States"
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0001382",
-      "name": "Peter Hyams"
+      "name": "Peter Hyams",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -50,7 +51,8 @@
       "name": "James Sikking",
       "roles": [
         "Sergeant Montone"
-      ]
+      ],
+      "notes": "(as James B. Sikking)"
     },
     {
       "imdbId": "nm0548440",
@@ -176,7 +178,8 @@
       "name": "Richard Hammatt",
       "roles": [
         "Yario"
-      ]
+      ],
+      "notes": "(as Richard Hammat)"
     },
     {
       "imdbId": "nm0078533",
@@ -225,7 +228,8 @@
       "name": "Jude Alderson",
       "roles": [
         "Female Prostitute - Leisure Club Sequence"
-      ]
+      ],
+      "notes": "(as Judith Alderson)"
     },
     {
       "imdbId": "nm0100183",
@@ -260,7 +264,8 @@
       "name": "Brendan Hughes",
       "roles": [
         "Dancer - Leisure Club Sequence"
-      ]
+      ],
+      "notes": "(as Brendon Hughes)"
     },
     {
       "imdbId": "nm0426808",
@@ -284,5 +289,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 109
+  "runtimeMinutes": 109,
+  "releaseDateCountry": "United States"
 }

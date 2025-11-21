@@ -17,7 +17,18 @@
   "directors": [
     {
       "imdbId": "nm0540330",
-      "name": "Bruce Malmuth"
+      "name": "Bruce Malmuth",
+      "notes": "directed by"
+    },
+    {
+      "imdbId": "nm0625379",
+      "name": "Gary Nelson",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0000230",
+      "name": "Sylvester Stallone",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -180,7 +191,8 @@
       "name": "Avind Harum",
       "roles": [
         "Swedish Ambassador"
-      ]
+      ],
+      "notes": "(as Eivind Harum)"
     },
     {
       "imdbId": "nm0011762",
@@ -208,7 +220,8 @@
       "name": "Thomas Rosales Jr.",
       "roles": [
         "Ripper"
-      ]
+      ],
+      "notes": "(as Thomas Rosales)"
     },
     {
       "imdbId": "nm0015859",
@@ -222,7 +235,8 @@
       "name": "José Angel Santana",
       "roles": [
         "Ripper"
-      ]
+      ],
+      "notes": "(as José Santana)"
     },
     {
       "imdbId": "nm0289179",
@@ -271,14 +285,16 @@
       "name": "Al Cerullo",
       "roles": [
         "Helicopter Pilot"
-      ]
+      ],
+      "notes": "(as Al Cerullo Jr.)"
     },
     {
       "imdbId": "nm0926957",
       "name": "Karl A. Wickman",
       "roles": [
         "Helicopter Pilot"
-      ]
+      ],
+      "notes": "(as Karl Wickman)"
     },
     {
       "imdbId": "nm0191051",
@@ -299,7 +315,8 @@
       "name": "Steve Dash",
       "roles": [
         "A.T.A.C. Man"
-      ]
+      ],
+      "notes": "(as Steve Daskawisz)"
     },
     {
       "imdbId": "nm0222198",
@@ -334,7 +351,8 @@
       "name": "Roger Caine",
       "roles": [
         "A.T.A.C. Man"
-      ]
+      ],
+      "notes": "(as Al Levitsky)"
     },
     {
       "imdbId": "nm0637519",
@@ -404,7 +422,8 @@
       "name": "Sue Vanner",
       "roles": [
         "Girl at Party"
-      ]
+      ],
+      "notes": "(as Susan Vanner)"
     }
   ],
   "writers": [
@@ -424,5 +443,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

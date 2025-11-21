@@ -5,7 +5,7 @@
   "originalTitle": "Asylum",
   "sortTitle": "asylum-1972",
   "year": "1972",
-  "releaseDate": "1972-07-06",
+  "releaseDate": "1972-11-17",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0001928",
-      "name": "Roy Ward Baker"
+      "name": "Roy Ward Baker",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -23,106 +24,121 @@
       "imdbId": "nm0662808",
       "name": "Barbara Parkins",
       "roles": [
-        "Bonnie (segment \"Frozen Fear\")"
-      ]
+        "Bonnie"
+      ],
+      "notes": "(segment \"Frozen Fear\")"
     },
     {
       "imdbId": "nm0865262",
       "name": "Richard Todd",
       "roles": [
-        "Walter (segment \"Frozen Fear\")"
-      ]
+        "Walter"
+      ],
+      "notes": "(segment \"Frozen Fear\")"
     },
     {
       "imdbId": "nm0843401",
       "name": "Sylvia Syms",
       "roles": [
-        "Ruth (segment \"Frozen Fear\")"
-      ]
+        "Ruth"
+      ],
+      "notes": "(segment \"Frozen Fear\")"
     },
     {
       "imdbId": "nm0001088",
       "name": "Peter Cushing",
       "roles": [
-        "Smith (segment \"The Weird Tailor\")"
-      ]
+        "Smith"
+      ],
+      "notes": "(segment \"The Weird Tailor\")"
     },
     {
       "imdbId": "nm0607579",
       "name": "Barry Morse",
       "roles": [
-        "Bruno (segment \"The Weird Tailor\")"
-      ]
+        "Bruno"
+      ],
+      "notes": "(segment \"The Weird Tailor\")"
     },
     {
       "imdbId": "nm0278615",
       "name": "Ann Firbank",
       "roles": [
-        "Anna (segment \"The Weird Tailor\")"
-      ]
+        "Anna"
+      ],
+      "notes": "(segment \"The Weird Tailor\")"
     },
     {
       "imdbId": "nm0291599",
       "name": "John Franklyn-Robbins",
       "roles": [
-        "Stebbins (segment \"The Weird Tailor\")"
-      ]
+        "Stebbins"
+      ],
+      "notes": "(segment \"The Weird Tailor\")"
     },
     {
       "imdbId": "nm0001180",
       "name": "Britt Ekland",
       "roles": [
-        "Lucy (segment \"Lucy Comes to Stay\")"
-      ]
+        "Lucy"
+      ],
+      "notes": "(segment \"Lucy Comes to Stay\")"
     },
     {
       "imdbId": "nm0001648",
       "name": "Charlotte Rampling",
       "roles": [
-        "Barbara (segment \"Lucy Comes to Stay\")"
-      ]
+        "Barbara"
+      ],
+      "notes": "(segment \"Lucy Comes to Stay\")"
     },
     {
       "imdbId": "nm0898376",
       "name": "James Villiers",
       "roles": [
-        "George (segment \"Lucy Comes to Stay\")"
-      ]
+        "George"
+      ],
+      "notes": "(segment \"Lucy Comes to Stay\")"
     },
     {
       "imdbId": "nm0420923",
       "name": "Megs Jenkins",
       "roles": [
-        "Miss Higgins (segment \"Lucy Comes to Stay\")"
-      ]
+        "Miss Higgins"
+      ],
+      "notes": "(segment \"Lucy Comes to Stay\")"
     },
     {
       "imdbId": "nm0007042",
       "name": "Herbert Lom",
       "roles": [
-        "Byron (segment \"Mannikins of Horror\")"
-      ]
+        "Byron"
+      ],
+      "notes": "(segment \"Mannikins of Horror\")"
     },
     {
       "imdbId": "nm0535861",
       "name": "Patrick Magee",
       "roles": [
-        "Dr. Rutherford (segment \"Mannikins of Horror\")"
-      ]
+        "Dr. Rutherford"
+      ],
+      "notes": "(segment \"Mannikins of Horror\")"
     },
     {
       "imdbId": "nm0694293",
       "name": "Robert Powell",
       "roles": [
-        "Dr. Martin (segment \"Mannikins of Horror\")"
-      ]
+        "Dr. Martin"
+      ],
+      "notes": "(segment \"Mannikins of Horror\")"
     },
     {
       "imdbId": "nm0001933",
       "name": "Geoffrey Bayldon",
       "roles": [
-        "Max (segment \"Mannikins of Horror\")"
-      ]
+        "Max"
+      ],
+      "notes": "(segment \"Mannikins of Horror\")"
     }
   ],
   "writers": [
@@ -132,5 +148,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 88,
+  "releaseDateCountry": "United States"
 }

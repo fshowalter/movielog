@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0928108",
-      "name": "Crane Wilbur"
+      "name": "Crane Wilbur",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -128,5 +129,6 @@
       "notes": "based on the play by"
     }
   ],
-  "runtimeMinutes": 80
+  "runtimeMinutes": 80,
+  "releaseDateCountry": "United States"
 }

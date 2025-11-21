@@ -5,7 +5,7 @@
   "originalTitle": "John Wick: Chapter 3 - Parabellum",
   "sortTitle": "john-wick-chapter-3-parabellum-2019",
   "year": "2019",
-  "releaseDate": "2019-05-15",
+  "releaseDate": "2019-05-17",
   "countries": [
     "United States",
     "Morocco",
@@ -254,14 +254,16 @@
       "name": "Jeff G. Waxman",
       "roles": [
         "NY Taxi Driver"
-      ]
+      ],
+      "notes": "(as Jeff Waxman)"
     },
     {
       "imdbId": "nm1595667",
       "name": "Aïssam Bouali",
       "roles": [
         "Yassin"
-      ]
+      ],
+      "notes": "(as Aissam Bouali)"
     },
     {
       "imdbId": "nm1147554",
@@ -303,12 +305,8 @@
       "imdbId": "nm4401003",
       "name": "Derek Kolstad",
       "notes": "story by"
-    },
-    {
-      "imdbId": "nm4401003",
-      "name": "Derek Kolstad",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 130
+  "runtimeMinutes": 130,
+  "releaseDateCountry": "United States"
 }

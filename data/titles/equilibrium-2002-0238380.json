@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0934483",
-      "name": "Kurt Wimmer"
+      "name": "Kurt Wimmer",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Angus Macfadyen",
       "roles": [
         "Dupont"
-      ]
+      ],
+      "notes": "(as Angus MacFadyen)"
     },
     {
       "imdbId": "nm1284948",
@@ -146,14 +148,16 @@
       "name": "Danny Lee Clark",
       "roles": [
         "Lead Sweeper"
-      ]
+      ],
+      "notes": "(as Daniel Lee)"
     },
     {
       "imdbId": "nm0127768",
       "name": "Francesco Cabras",
       "roles": [
         "Rebel Leader"
-      ]
+      ],
+      "notes": "(as Francesco Calabras)"
     },
     {
       "imdbId": "nm0934483",
@@ -167,14 +171,16 @@
       "name": "Anatole Taubman",
       "roles": [
         "Crematory Technician"
-      ]
+      ],
+      "notes": "(as Anatole Taubmann)"
     },
     {
       "imdbId": "nm0174760",
       "name": "Brian Conley",
       "roles": [
         "Reading Room Proprietor"
-      ]
+      ],
+      "notes": "(as Brian Connelly)"
     },
     {
       "imdbId": "nm1290078",
@@ -188,7 +194,8 @@
       "name": "Brian W. Cook",
       "roles": [
         "Dupont's Secretary"
-      ]
+      ],
+      "notes": "(as Brian Cook)"
     },
     {
       "imdbId": "nm0476011",
@@ -226,5 +233,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 107
+  "runtimeMinutes": 107,
+  "releaseDateCountry": "United States"
 }

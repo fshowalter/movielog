@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0586198",
-      "name": "George Mihalka"
+      "name": "George Mihalka",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -82,7 +83,8 @@
       "name": "Thomas Kovacs",
       "roles": [
         "Mike"
-      ]
+      ],
+      "notes": "(as Tom Kovacs)"
     },
     {
       "imdbId": "nm0913975",
@@ -224,5 +226,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

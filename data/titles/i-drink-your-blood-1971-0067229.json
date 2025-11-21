@@ -5,7 +5,7 @@
   "originalTitle": "I Drink Your Blood",
   "sortTitle": "i-drink-your-blood-1971",
   "year": "1971",
-  "releaseDate": "1971-01-20",
+  "releaseDate": "1971-04-20",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0244407",
-      "name": "David E. Durston"
+      "name": "David E. Durston",
+      "notes": "(as David Durston)"
     }
   ],
   "performers": [
@@ -24,21 +25,24 @@
       "name": "Bhaskar Roy Chowdhury",
       "roles": [
         "Horace Bones"
-      ]
+      ],
+      "notes": "(as Bhaskar)"
     },
     {
       "imdbId": "nm0939123",
       "name": "Jadin Wong",
       "roles": [
         "Sue-Lin"
-      ]
+      ],
+      "notes": "(as Jadine Wong)"
     },
     {
       "imdbId": "nm0298329",
       "name": "Rhonda Fultz",
       "roles": [
         "Molly"
-      ]
+      ],
+      "notes": "(as Ronda Fultz)"
     },
     {
       "imdbId": "nm0666216",
@@ -118,5 +122,6 @@
       "notes": "written by (as David Durston)"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "Canada"
 }

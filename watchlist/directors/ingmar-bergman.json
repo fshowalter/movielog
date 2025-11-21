@@ -68,10 +68,6 @@
       "title": "Smiles of a Summer Night (1955)"
     },
     {
-      "imdbId": "tt0050502",
-      "title": "Mr. Sleeman Is Coming (1957) (TV)"
-    },
-    {
       "imdbId": "tt0050976",
       "title": "The Seventh Seal (1957)"
     },
@@ -89,11 +85,13 @@
     },
     {
       "imdbId": "tt0130204",
-      "title": "Rabies (1958) (TV)"
+      "title": "Rabies (1958)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0130344",
-      "title": "Venetianskan (1958) (TV)"
+      "title": "Venetianskan (1958)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0053772",
@@ -105,7 +103,8 @@
     },
     {
       "imdbId": "tt0130171",
-      "title": "Oväder (1960) (TV)"
+      "title": "Oväder (1960)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0055499",
@@ -121,7 +120,8 @@
     },
     {
       "imdbId": "tt0129891",
-      "title": "Ett drömspel (1963) (TV)"
+      "title": "Ett drömspel (1963)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0058124",
@@ -133,7 +133,10 @@
     },
     {
       "imdbId": "tt0062306",
-      "title": "Stimulantia (1967)"
+      "title": "Stimulantia (1967)",
+      "attributes": [
+        "segment \"Daniel\""
+      ]
     },
     {
       "imdbId": "tt0063611",
@@ -149,11 +152,13 @@
     },
     {
       "imdbId": "tt0064897",
-      "title": "The Rite (1969) (TV)"
+      "title": "The Rite (1969)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0066826",
-      "title": "The Touch (1971)"
+      "title": "The Touch (1971)",
+      "role": "a film by"
     },
     {
       "imdbId": "tt0069467",
@@ -161,11 +166,20 @@
     },
     {
       "imdbId": "tt0184741",
-      "title": "Misantropen (1974) (TV)"
+      "title": "Misantropen (1974)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt6725014",
       "title": "Scenes from a Marriage (1974)"
+    },
+    {
+      "imdbId": "tt0073822",
+      "title": "The Magic Flute (1975)",
+      "titleType": "TV Movie",
+      "attributes": [
+        "uncredited"
+      ]
     },
     {
       "imdbId": "tt0074147",
@@ -173,7 +187,8 @@
     },
     {
       "imdbId": "tt0076686",
-      "title": "The Serpent's Egg (1977)"
+      "title": "The Serpent's Egg (1977)",
+      "role": "a film by"
     },
     {
       "imdbId": "tt0077711",
@@ -189,43 +204,53 @@
     },
     {
       "imdbId": "tt0130010",
-      "title": "Hustruskolan (1983) (TV)"
+      "title": "Hustruskolan (1983)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0087193",
-      "title": "After the Rehearsal (1984) (TV)"
+      "title": "After the Rehearsal (1984)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt1194576",
-      "title": "Dom Juan (1985) (TV)"
+      "title": "Dom Juan (1985)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0090222",
-      "title": "The Blessed Ones (1986) (TV)"
+      "title": "The Blessed Ones (1986)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0104819",
-      "title": "Madame de Sade (1992) (TV)"
+      "title": "Madame de Sade (1992)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0313247",
-      "title": "Backanterna (1993) (TV)"
+      "title": "Backanterna (1993)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0111204",
-      "title": "The Last Gasp (1995) (TV)"
+      "title": "The Last Gasp (1995)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0119496",
-      "title": "In the Presence of a Clown (1997) (TV)"
+      "title": "In the Presence of a Clown (1997)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0303764",
-      "title": "Bildmakarna (2000) (TV)"
+      "title": "Bildmakarna (2000)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0299478",
-      "title": "Saraband (2003) (TV)"
+      "title": "Saraband (2003)",
+      "titleType": "TV Movie"
     }
   ],
   "excludedTitles": []

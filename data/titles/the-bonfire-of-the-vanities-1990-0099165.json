@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000361",
-      "name": "Brian De Palma"
+      "name": "Brian De Palma",
+      "notes": "(as Brian DePalma)"
     }
   ],
   "performers": [
@@ -194,14 +195,16 @@
       "name": "Troy Winbush",
       "roles": [
         "Roland Auburn"
-      ]
+      ],
+      "notes": "(as Troy Windbush)"
     },
     {
       "imdbId": "nm0540491",
       "name": "Patrick Y. Malone",
       "roles": [
         "Henry Lamb"
-      ]
+      ],
+      "notes": "(as Patrick Malone)"
     },
     {
       "imdbId": "nm0944687",
@@ -264,7 +267,8 @@
       "name": "Brennan McKay",
       "roles": [
         "Bondsman"
-      ]
+      ],
+      "notes": "(as T.J. Coan)"
     },
     {
       "imdbId": "nm0573134",
@@ -285,7 +289,16 @@
       "name": "Marcia Mitzman Gaven",
       "roles": [
         "Bondsman"
-      ]
+      ],
+      "notes": "(as Marcia Mitzman)"
+    },
+    {
+      "imdbId": "nm0940880",
+      "name": "William Woodson",
+      "roles": [
+        "Gene Lopwitz"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0890709",
@@ -341,7 +354,8 @@
       "name": "Sam Sorbo",
       "roles": [
         "Fox's Assistant"
-      ]
+      ],
+      "notes": "(as Sam Jenkins)"
     },
     {
       "imdbId": "nm0195101",
@@ -404,7 +418,8 @@
       "name": "O. LaRon Clark",
       "roles": [
         "Cecil Hayden"
-      ]
+      ],
+      "notes": "(as O. Laron Clark)"
     },
     {
       "imdbId": "nm0495642",
@@ -426,7 +441,8 @@
       "name": "Anatoli Davydov",
       "roles": [
         "Boris Karlevskov"
-      ]
+      ],
+      "notes": "(as Anatoly Davydov)"
     },
     {
       "imdbId": "nm0567925",
@@ -728,5 +744,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 125
+  "runtimeMinutes": 125,
+  "releaseDateCountry": "United States"
 }

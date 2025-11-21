@@ -5,7 +5,7 @@
   "originalTitle": "Shock",
   "sortTitle": "shock-1946",
   "year": "1946",
-  "releaseDate": "1946-01-10",
+  "releaseDate": "1946-02-01",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0921288",
-      "name": "Alfred L. Werker"
+      "name": "Alfred L. Werker",
+      "notes": "(as Alfred Werker)"
     }
   ],
   "performers": [
@@ -54,7 +55,8 @@
       "name": "Stephen Dunne",
       "roles": [
         "Dr. Stevens"
-      ]
+      ],
+      "notes": "(as Michael Dunne)"
     },
     {
       "imdbId": "nm0352914",
@@ -95,5 +97,6 @@
       "notes": "additional dialogue"
     }
   ],
-  "runtimeMinutes": 70
+  "runtimeMinutes": 70,
+  "releaseDateCountry": "United States"
 }

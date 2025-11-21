@@ -5,7 +5,7 @@
   "originalTitle": "Star Wars: Episode III - Revenge of the Sith",
   "sortTitle": "star-wars-episode-iii-revenge-of-the-sith-2005",
   "year": "2005",
-  "releaseDate": "2005-05-12",
+  "releaseDate": "2005-05-19",
   "countries": [
     "United States",
     "Italy",
@@ -67,6 +67,14 @@
       "roles": [
         "Senator Bail Organa"
       ]
+    },
+    {
+      "imdbId": "nm0000568",
+      "name": "Frank Oz",
+      "roles": [
+        "Yoda"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0000355",
@@ -207,7 +215,8 @@
       "name": "Bonnie Piesse",
       "roles": [
         "Beru Lars"
-      ]
+      ],
+      "notes": "(as Bonnie Maree Piesse)"
     },
     {
       "imdbId": "nm1183068",
@@ -249,7 +258,8 @@
       "name": "Bodie Taylor",
       "roles": [
         "Clone Trooper"
-      ]
+      ],
+      "notes": "(as Bodie 'Tihoi' Taylor)"
     },
     {
       "imdbId": "nm0089882",
@@ -336,6 +346,14 @@
       ]
     },
     {
+      "imdbId": "nm0003214",
+      "name": "Matthew Wood",
+      "roles": [
+        "General Grievous"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0942578",
       "name": "Kristy Wright",
       "roles": [
@@ -354,7 +372,8 @@
       "name": "Olivia McCallum",
       "roles": [
         "Bene"
-      ]
+      ],
+      "notes": "(as Mousy McCallum)"
     },
     {
       "imdbId": "nm1432899",
@@ -413,5 +432,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 140
+  "runtimeMinutes": 140,
+  "releaseDateCountry": "United States"
 }

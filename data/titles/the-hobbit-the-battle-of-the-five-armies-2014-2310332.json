@@ -5,7 +5,7 @@
   "originalTitle": "The Hobbit: The Battle of the Five Armies",
   "sortTitle": "hobbit-the-battle-of-the-five-armies-2014",
   "year": "2014",
-  "releaseDate": "2014-12-01",
+  "releaseDate": "2014-12-17",
   "countries": [
     "New Zealand",
     "United States"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001392",
-      "name": "Peter Jackson"
+      "name": "Peter Jackson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -174,6 +175,15 @@
       "roles": [
         "Old Bilbo"
       ]
+    },
+    {
+      "imdbId": "nm1212722",
+      "name": "Benedict Cumberbatch",
+      "roles": [
+        "Smaug",
+        "Necromancer"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0675409",
@@ -342,6 +352,49 @@
       "roles": [
         "Tosser Grubb"
       ]
+    },
+    {
+      "imdbId": "nm1020819",
+      "name": "Martin Kwok",
+      "roles": [
+        "Ragash"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0048389",
+      "name": "Dee Bradley Baker",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm7273808",
+      "name": "Olof Johnsson",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm2177081",
+      "name": "Jon Olson",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm1997581",
+      "name": "Otep Shamaya",
+      "roles": [
+        "Creature Voices"
+      ]
+    },
+    {
+      "imdbId": "nm0933281",
+      "name": "Debra Wilson",
+      "roles": [
+        "Creature Voices"
+      ]
     }
   ],
   "writers": [
@@ -371,5 +424,6 @@
       "notes": "novel \"The Hobbit\""
     }
   ],
-  "runtimeMinutes": 144
+  "runtimeMinutes": 144,
+  "releaseDateCountry": "United States"
 }

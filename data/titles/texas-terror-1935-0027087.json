@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0102908",
-      "name": "Robert N. Bradbury"
+      "name": "Robert N. Bradbury",
+      "notes": "(as R.N. Bradbury)"
     }
   ],
   "performers": [
@@ -32,14 +33,16 @@
       "name": "Lucile Browne",
       "roles": [
         "Bess Mathews"
-      ]
+      ],
+      "notes": "(as Lucille Browne)"
     },
     {
       "imdbId": "nm0556813",
       "name": "LeRoy Mason",
       "roles": [
         "Joe Dickson"
-      ]
+      ],
+      "notes": "(as Leroy Mason)"
     },
     {
       "imdbId": "nm0256534",
@@ -53,14 +56,16 @@
       "name": "George 'Gabby' Hayes",
       "roles": [
         "Sheriff Ed Williams"
-      ]
+      ],
+      "notes": "(as George Hayes)"
     },
     {
       "imdbId": "nm0932912",
       "name": "Jay Wilsey",
       "roles": [
         "Blackie Martin"
-      ]
+      ],
+      "notes": "(as Buffalo Bill Jr.)"
     },
     {
       "imdbId": "nm0408429",
@@ -74,7 +79,8 @@
       "name": "Henry Roquemore",
       "roles": [
         "Square Dance Caller"
-      ]
+      ],
+      "notes": "(as Henry Roguemore)"
     },
     {
       "imdbId": "nm0240538",
@@ -96,5 +102,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 51
+  "runtimeMinutes": 51,
+  "releaseDateCountry": "United States"
 }

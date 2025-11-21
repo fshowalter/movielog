@@ -5,7 +5,7 @@
   "originalTitle": "The Legend of the 7 Golden Vampires",
   "sortTitle": "legend-of-the-7-golden-vampires-1974",
   "year": "1974",
-  "releaseDate": "1974-07-11",
+  "releaseDate": "1979-06-??",
   "countries": [
     "United Kingdom",
     "Hong Kong"
@@ -18,6 +18,11 @@
     {
       "imdbId": "nm0001928",
       "name": "Roy Ward Baker"
+    },
+    {
+      "imdbId": "nm0151653",
+      "name": "Cheh Chang",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -47,7 +52,8 @@
       "name": "Han-Chen Wang",
       "roles": [
         "Leung Hon"
-      ]
+      ],
+      "notes": "(as Wong Han Chan)"
     },
     {
       "imdbId": "nm0829781",
@@ -61,7 +67,8 @@
       "name": "Szu Shih",
       "roles": [
         "Mei Kwei"
-      ]
+      ],
+      "notes": "(as Shih Szu)"
     },
     {
       "imdbId": "nm0285424",
@@ -82,35 +89,40 @@
       "name": "Shen Chan",
       "roles": [
         "Kah"
-      ]
+      ],
+      "notes": "(as Chan Shen)"
     },
     {
       "imdbId": "nm3035786",
       "name": "Tsan-Hsi Ma",
       "roles": [
         "Hsi Ta"
-      ]
+      ],
+      "notes": "(as James Ma)"
     },
     {
       "imdbId": "nm0514905",
       "name": "Liu Chia-Yung",
       "roles": [
         "Hsi Kwei"
-      ]
+      ],
+      "notes": "(as Liu Chia Yung)"
     },
     {
       "imdbId": "nm0025546",
       "name": "Fung Hak-On",
       "roles": [
         "Hsi Sung"
-      ]
+      ],
+      "notes": "(as Fong Kah Ann)"
     },
     {
       "imdbId": "nm0519729",
       "name": "Tino Wong",
       "roles": [
         "Hsi San"
-      ]
+      ],
+      "notes": "(as Chen Tien-loong)"
     }
   ],
   "writers": [
@@ -120,5 +132,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

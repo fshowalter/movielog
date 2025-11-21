@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0347086",
-      "name": "John Guillermin"
+      "name": "John Guillermin",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -110,14 +111,16 @@
       "name": "Sheila Allen",
       "roles": [
         "Paula Ramsay"
-      ]
+      ],
+      "notes": "(as Sheila Mathews)"
     },
     {
       "imdbId": "nm0123680",
       "name": "Norman Burton",
       "roles": [
         "Giddings"
-      ]
+      ],
+      "notes": "(as Normann Burton)"
     },
     {
       "imdbId": "nm0172355",
@@ -152,7 +155,8 @@
       "name": "Ernie F. Orsatti",
       "roles": [
         "Mark Powers"
-      ]
+      ],
+      "notes": "(as Ernie Orsatti)"
     },
     {
       "imdbId": "nm0001056",
@@ -194,7 +198,8 @@
       "name": "Olan Soule",
       "roles": [
         "Johnson"
-      ]
+      ],
+      "notes": "(as Olan Soulé)"
     },
     {
       "imdbId": "nm0332971",
@@ -236,7 +241,8 @@
       "name": "George D. Wallace",
       "roles": [
         "Chief Officer"
-      ]
+      ],
+      "notes": "(as George Wallace)"
     },
     {
       "imdbId": "nm0191611",
@@ -250,7 +256,8 @@
       "name": "William Bassett",
       "roles": [
         "Leasing Agent"
-      ]
+      ],
+      "notes": "(as William H. Bassett)"
     },
     {
       "imdbId": "nm0186833",
@@ -264,7 +271,8 @@
       "name": "Erik L. Nelson",
       "roles": [
         "Wes"
-      ]
+      ],
+      "notes": "(as Erik Nelson)"
     },
     {
       "imdbId": "nm0050255",
@@ -278,14 +286,16 @@
       "name": "Norman Hicks",
       "roles": [
         "Pilot"
-      ]
+      ],
+      "notes": "(as LCDR. Norman Hicks)"
     },
     {
       "imdbId": "nm0439786",
       "name": "Thomas Karnahan",
       "roles": [
         "Co-Pilot"
-      ]
+      ],
+      "notes": "(as LTJG. Thomas Karnahan)"
     }
   ],
   "writers": [
@@ -310,5 +320,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 165
+  "runtimeMinutes": 165,
+  "releaseDateCountry": "Canada"
 }

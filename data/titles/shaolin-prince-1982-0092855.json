@@ -5,7 +5,7 @@
   "originalTitle": "Shao Lin chuan ren",
   "sortTitle": "shaolin-prince-1982",
   "year": "1982",
-  "releaseDate": "1982-01-01",
+  "releaseDate": "1982-01-??",
   "countries": [
     "Hong Kong"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0849271",
-      "name": "Tang Chia"
+      "name": "Tang Chia",
+      "notes": "(as Chia Tang)"
     }
   ],
   "performers": [
@@ -32,7 +33,8 @@
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Wu Tzu-tai"
-      ]
+      ],
+      "notes": "(as Derek Yee)"
     },
     {
       "imdbId": "nm0656647",
@@ -46,7 +48,8 @@
       "name": "Ku Feng",
       "roles": [
         "Premier"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0270495",
@@ -74,7 +77,8 @@
       "name": "Tang Chia",
       "roles": [
         "(Guest star)"
-      ]
+      ],
+      "notes": "(as Chia Tang)"
     },
     {
       "imdbId": "nm0497399",
@@ -98,7 +102,8 @@
       "name": "Hui-Huang Lin",
       "roles": [
         "Holy Fool Wu Ming"
-      ]
+      ],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm1303282",
@@ -129,12 +134,14 @@
       "name": "Wah Yuen",
       "roles": [
         "Li Cheng"
-      ]
+      ],
+      "notes": "(as Hua Yuan)"
     },
     {
       "imdbId": "nm0082898",
       "name": "Bun Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pin Yuan)"
     },
     {
       "imdbId": "nm0487372",
@@ -144,7 +151,8 @@
     {
       "imdbId": "nm0875275",
       "name": "Elvis Tsui",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chin-Chiang Hsu)"
     },
     {
       "imdbId": "nm1089344",
@@ -154,7 +162,8 @@
     {
       "imdbId": "nm0151101",
       "name": "Siu-Wah Chan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Shao-Hua Chen)"
     },
     {
       "imdbId": "nm0151183",
@@ -189,7 +198,8 @@
     {
       "imdbId": "nm2750072",
       "name": "Chi-Hung Ling",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chih Hung Ling)"
     },
     {
       "imdbId": "nm3696313",
@@ -204,7 +214,8 @@
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0787935",
@@ -214,7 +225,8 @@
     {
       "imdbId": "nm3063152",
       "name": "Wai-Man Tam",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wei-Min Tan)"
     },
     {
       "imdbId": "nm2728414",
@@ -224,7 +236,8 @@
     {
       "imdbId": "nm0849273",
       "name": "Chiu-Yau Tang",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chao-You Teng)"
     },
     {
       "imdbId": "nm0632410",
@@ -279,9 +292,9 @@
   "writers": [
     {
       "imdbId": "nm0939147",
-      "name": "Jing Wong",
-      "notes": ""
+      "name": "Jing Wong"
     }
   ],
-  "runtimeMinutes": 100
+  "runtimeMinutes": 100,
+  "releaseDateCountry": "United States"
 }

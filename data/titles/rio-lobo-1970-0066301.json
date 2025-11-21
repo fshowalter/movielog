@@ -5,7 +5,7 @@
   "originalTitle": "Rio Lobo",
   "sortTitle": "rio-lobo-1970",
   "year": "1970",
-  "releaseDate": "1970-12-16",
+  "releaseDate": "1970-12-18",
   "countries": [
     "United States",
     "Mexico"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks"
+      "name": "Howard Hawks",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -173,5 +174,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 114
+  "runtimeMinutes": 114,
+  "releaseDateCountry": "United States"
 }

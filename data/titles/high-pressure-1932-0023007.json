@@ -5,7 +5,7 @@
   "originalTitle": "High Pressure",
   "sortTitle": "high-pressure-1932",
   "year": "1932",
-  "releaseDate": "1932-01-10",
+  "releaseDate": "1932-01-30",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0503777",
-      "name": "Mervyn LeRoy"
+      "name": "Mervyn LeRoy",
+      "notes": "(as Mervyn Le Roy)"
     }
   ],
   "performers": [
@@ -87,7 +88,8 @@
       "name": "Harold Waldridge",
       "roles": [
         "Gus Vanderbilt"
-      ]
+      ],
+      "notes": "(as Harold Waldrige)"
     },
     {
       "imdbId": "nm0585481",
@@ -114,7 +116,13 @@
       "imdbId": "nm0413711",
       "name": "Joseph Jackson",
       "notes": "screen version"
+    },
+    {
+      "imdbId": "nm0676661",
+      "name": "S.J. Peters",
+      "notes": "screenplay (uncredited)"
     }
   ],
-  "runtimeMinutes": 73
+  "runtimeMinutes": 73,
+  "releaseDateCountry": "United States"
 }

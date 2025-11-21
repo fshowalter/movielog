@@ -5,7 +5,7 @@
   "originalTitle": "Dark Star",
   "sortTitle": "dark-star-1974",
   "year": "1974",
-  "releaseDate": "1974-03-30",
+  "releaseDate": "1975-01-17",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -71,5 +72,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "United States"
 }

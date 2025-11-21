@@ -5,7 +5,7 @@
   "originalTitle": "Those Were the Days!",
   "sortTitle": "those-were-the-days-1940",
   "year": "1940",
-  "releaseDate": "1940-05-21",
+  "releaseDate": "1940-07-14",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0715716",
-      "name": "Theodore Reed"
+      "name": "Theodore Reed",
+      "notes": "(as Jay Theodore Reed)"
     }
   ],
   "performers": [
@@ -109,7 +110,8 @@
       "name": "John Laing",
       "roles": [
         "Saunders"
-      ]
+      ],
+      "notes": "(as John Laird)"
     },
     {
       "imdbId": "nm0366849",
@@ -123,14 +125,16 @@
       "name": "Mark Roberts",
       "roles": [
         "Allison"
-      ]
+      ],
+      "notes": "(as Robert Scott)"
     },
     {
       "imdbId": "nm0671747",
       "name": "Steve Pendleton",
       "roles": [
         "Connie Mathews"
-      ]
+      ],
+      "notes": "(as Gaylord Pendleton)"
     },
     {
       "imdbId": "nm0000042",
@@ -144,7 +148,8 @@
       "name": "Jimmie Dodd",
       "roles": [
         "Evans"
-      ]
+      ],
+      "notes": "(as James Dodd)"
     },
     {
       "imdbId": "nm0072118",
@@ -166,5 +171,6 @@
       "notes": "novel \"Siwash Stories\""
     }
   ],
-  "runtimeMinutes": 74
+  "runtimeMinutes": 74,
+  "releaseDateCountry": "United States"
 }

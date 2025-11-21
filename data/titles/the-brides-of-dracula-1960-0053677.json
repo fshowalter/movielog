@@ -5,7 +5,7 @@
   "originalTitle": "The Brides of Dracula",
   "sortTitle": "brides-of-dracula-1960",
   "year": "1960",
-  "releaseDate": "1960-06-03",
+  "releaseDate": "1960-09-05",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0279807",
-      "name": "Terence Fisher"
+      "name": "Terence Fisher",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -122,7 +123,8 @@
       "name": "Marie Devereux",
       "roles": [
         "Village Girl"
-      ]
+      ],
+      "notes": "(as Marie Deveruex)"
     }
   ],
   "writers": [
@@ -140,7 +142,13 @@
       "imdbId": "nm0672906",
       "name": "Edward Percy",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0385573",
+      "name": "Anthony Hinds",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

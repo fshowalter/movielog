@@ -5,7 +5,7 @@
   "originalTitle": "Son of Hitler",
   "sortTitle": "son-of-hitler-1979",
   "year": "1979",
-  "releaseDate": "1979-01-01",
+  "releaseDate": "1979-01-??",
   "countries": [
     "United Kingdom",
     "West Germany"
@@ -74,7 +74,8 @@
       "name": "Burkhard Driest",
       "roles": [
         "Gerd Müller"
-      ]
+      ],
+      "notes": "(as Burkhardt Driest)"
     },
     {
       "imdbId": "nm0142187",
@@ -144,14 +145,16 @@
       "name": "Eduard Linkers",
       "roles": [
         "Postmaster"
-      ]
+      ],
+      "notes": "(as Edward Linkers)"
     },
     {
       "imdbId": "nm0440454",
       "name": "Renate Kasché",
       "roles": [
         "Reporter"
-      ]
+      ],
+      "notes": "(as Renate Kasche)"
     },
     {
       "imdbId": "nm0343031",
@@ -179,27 +182,14 @@
       "name": "Wolf Harnisch",
       "roles": [
         "Head Waiter"
-      ]
+      ],
+      "notes": "(as Wolf Harnish)"
     },
     {
       "imdbId": "nm0944091",
       "name": "Hans Wyprächtiger",
       "roles": [
         "Beerhall Manager"
-      ]
-    },
-    {
-      "imdbId": "nm0105751",
-      "name": "Eva Braun",
-      "roles": [
-        "Self"
-      ]
-    },
-    {
-      "imdbId": "nm0386944",
-      "name": "Adolf Hitler",
-      "roles": [
-        "Self"
       ]
     }
   ],
@@ -213,7 +203,13 @@
       "imdbId": "nm0375355",
       "name": "Lukas Heller",
       "notes": "original screenplay"
+    },
+    {
+      "imdbId": "nm0511665",
+      "name": "Udo Lindenberg",
+      "notes": "story (uncredited)"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United Kingdom"
 }

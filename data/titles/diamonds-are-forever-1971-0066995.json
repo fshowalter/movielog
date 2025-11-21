@@ -5,7 +5,7 @@
   "originalTitle": "Diamonds Are Forever",
   "sortTitle": "diamonds-are-forever-1971",
   "year": "1971",
-  "releaseDate": "1971-12-14",
+  "releaseDate": "1971-12-17",
   "countries": [
     "United Kingdom",
     "France",
@@ -92,7 +92,8 @@
       "name": "Joseph Fürst",
       "roles": [
         "Dr Metz"
-      ]
+      ],
+      "notes": "(as Joseph Furst)"
     },
     {
       "imdbId": "nm0496866",
@@ -141,7 +142,8 @@
       "name": "David de Keyser",
       "roles": [
         "Doctor"
-      ]
+      ],
+      "notes": "(as David De Keyser)"
     },
     {
       "imdbId": "nm0619802",
@@ -168,7 +170,13 @@
       "imdbId": "nm0542539",
       "name": "Tom Mankiewicz",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "novel \"Diamonds Are Forever\" (uncredited)"
     }
   ],
-  "runtimeMinutes": 120
+  "runtimeMinutes": 120,
+  "releaseDateCountry": "United States"
 }

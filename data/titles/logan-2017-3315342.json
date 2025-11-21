@@ -5,7 +5,7 @@
   "originalTitle": "Logan",
   "sortTitle": "logan-2017",
   "year": "2017",
-  "releaseDate": "2017-02-17",
+  "releaseDate": "2017-03-03",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0003506",
-      "name": "James Mangold"
+      "name": "James Mangold",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -119,7 +120,8 @@
       "name": "Reynaldo Gallegos",
       "roles": [
         "Rey"
-      ]
+      ],
+      "notes": "(as Rey Gallegos)"
     },
     {
       "imdbId": "nm3170830",
@@ -168,7 +170,8 @@
       "name": "Paul Andrew O'Connor",
       "roles": [
         "Reaver"
-      ]
+      ],
+      "notes": "(as Paul O'Connor)"
     },
     {
       "imdbId": "nm1061880",
@@ -203,7 +206,8 @@
       "name": "Chris Palermo",
       "roles": [
         "Reaver"
-      ]
+      ],
+      "notes": "(as Christopher Palermo)"
     },
     {
       "imdbId": "nm7417070",
@@ -224,7 +228,8 @@
       "name": "Andrew Arrabito",
       "roles": [
         "Reaver"
-      ]
+      ],
+      "notes": "(as Andy Arrabito)"
     },
     {
       "imdbId": "nm4476832",
@@ -252,7 +257,8 @@
       "name": "Matthew McClain",
       "roles": [
         "Reaver"
-      ]
+      ],
+      "notes": "(as Matt McClain)"
     },
     {
       "imdbId": "nm2163847",
@@ -420,34 +426,35 @@
       "name": "Ned Yousef",
       "roles": [
         "Banger"
-      ]
+      ],
+      "notes": "(as Nedal Yousef)"
     },
     {
       "imdbId": "nm2498546",
       "name": "Baxter Humby",
       "roles": [
-        "Bangers"
+        "Banger"
       ]
     },
     {
       "imdbId": "nm2023496",
       "name": "Daniel Hernandez",
       "roles": [
-        "Bangers"
+        "Banger"
       ]
     },
     {
       "imdbId": "nm2044306",
       "name": "Michael Lehr",
       "roles": [
-        "Bangers"
+        "Banger"
       ]
     },
     {
       "imdbId": "nm5092501",
       "name": "Bryan Sloyer",
       "roles": [
-        "Bangers"
+        "Banger"
       ]
     },
     {
@@ -497,14 +504,16 @@
       "name": "Toby Holguin",
       "roles": [
         "Federale"
-      ]
+      ],
+      "notes": "(as Toby Holguin Jr.)"
     },
     {
       "imdbId": "nm1874027",
       "name": "Panuvat Anthony Nanakornpanom",
       "roles": [
         "Federale"
-      ]
+      ],
+      "notes": "(as Anthony Nanakornpanom)"
     },
     {
       "imdbId": "nm1914447",
@@ -525,7 +534,8 @@
       "name": "Rissa Kilar",
       "roles": [
         "Pine Cone Girl"
-      ]
+      ],
+      "notes": "(as Rissa Rose Kilar)"
     },
     {
       "imdbId": "nm8306081",
@@ -676,5 +686,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 137
+  "runtimeMinutes": 137,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "John Wick",
   "sortTitle": "john-wick-2014",
   "year": "2014",
-  "releaseDate": "2014-09-19",
+  "releaseDate": "2014-10-24",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0821432",
-      "name": "Chad Stahelski"
+      "name": "Chad Stahelski",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -139,7 +140,8 @@
       "name": "Kazy Tauginas",
       "roles": [
         "Ivan"
-      ]
+      ],
+      "notes": "(as Kazimieras Tauginas)"
     },
     {
       "imdbId": "nm6223216",
@@ -209,7 +211,8 @@
       "name": "Patricia Squire",
       "roles": [
         "Elderly Woman"
-      ]
+      ],
+      "notes": "(as Pat Squire)"
     },
     {
       "imdbId": "nm3964463",
@@ -226,5 +229,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

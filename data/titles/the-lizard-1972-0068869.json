@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -39,12 +40,14 @@
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm0025546",
       "name": "Fung Hak-On",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hark-On Fung)"
     },
     {
       "imdbId": "nm0387360",
@@ -59,12 +62,14 @@
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0401204",
       "name": "Ricky Hui",
-      "roles": []
+      "roles": [],
+      "notes": "(as Kuan-Ying Hsu)"
     },
     {
       "imdbId": "nm0345157",
@@ -79,12 +84,14 @@
     {
       "imdbId": "nm0516316",
       "name": "Lo Lieh",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0518999",
       "name": "Jack Long",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chiang Wang)"
     },
     {
       "imdbId": "nm13079882",
@@ -135,17 +142,20 @@
     {
       "imdbId": "nm0519729",
       "name": "Tino Wong",
-      "roles": []
-    },
-    {
-      "imdbId": "nm2721702",
-      "name": "Ping Woo",
-      "roles": []
+      "roles": [],
+      "notes": "(as Tien-lung Chen)"
     },
     {
       "imdbId": "nm0950759",
       "name": "Yuen Woo-Ping",
-      "roles": []
+      "roles": [],
+      "notes": "(as Woo-Ping Yuen)"
+    },
+    {
+      "imdbId": "nm2721702",
+      "name": "Ping Woo",
+      "roles": [],
+      "notes": "(as Ping Hu)"
     },
     {
       "imdbId": "nm0943138",
@@ -177,7 +187,8 @@
     {
       "imdbId": "nm0950604",
       "name": "Cheung-Yan Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsiang-Jen Yuan)"
     },
     {
       "imdbId": "nm0950751",
@@ -193,9 +204,9 @@
   "writers": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor",
-      "notes": "writer"
+      "name": "Yuen Chor"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "Hong Kong"
 }

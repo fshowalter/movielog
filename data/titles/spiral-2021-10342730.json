@@ -5,7 +5,7 @@
   "originalTitle": "Spiral: From the Book of Saw",
   "sortTitle": "spiral-2021",
   "year": "2021",
-  "releaseDate": "2021-05-12",
+  "releaseDate": "2021-05-14",
   "countries": [
     "United States",
     "Canada"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1135423",
-      "name": "Darren Lynn Bousman"
+      "name": "Darren Lynn Bousman",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -55,7 +56,8 @@
       "name": "Dan Petronijevic",
       "roles": [
         "Detective Marv 'Boz' Boswick"
-      ]
+      ],
+      "notes": "(as Daniel Petronijevic)"
     },
     {
       "imdbId": "nm0954999",
@@ -69,7 +71,8 @@
       "name": "Patrick McManus",
       "roles": [
         "Peter Dunleavy"
-      ]
+      ],
+      "notes": "(as Patrick Mcmanus)"
     },
     {
       "imdbId": "nm7241877",
@@ -132,7 +135,8 @@
       "name": "Leila Leigh",
       "roles": [
         "Officer Mark"
-      ]
+      ],
+      "notes": "(as Leila Charles Leigh)"
     },
     {
       "imdbId": "nm0131803",
@@ -167,7 +171,8 @@
       "name": "Chris Ramsay",
       "roles": [
         "Crack Punk"
-      ]
+      ],
+      "notes": "(as Christopher Ramsay)"
     },
     {
       "imdbId": "nm2290151",
@@ -181,7 +186,8 @@
       "name": "Nadine Whiteman",
       "roles": [
         "Officer Grant"
-      ]
+      ],
+      "notes": "(as Nadine Roden)"
     },
     {
       "imdbId": "nm12569427",
@@ -328,7 +334,8 @@
       "name": "Alexos Andros",
       "roles": [
         "Thug #3"
-      ]
+      ],
+      "notes": "(as Alexander Troy)"
     },
     {
       "imdbId": "nm1829831",
@@ -384,14 +391,16 @@
       "name": "Joseph Racki",
       "roles": [
         "Dark Figure"
-      ]
+      ],
+      "notes": "(as Joseph R. Racki)"
     },
     {
       "imdbId": "nm12569436",
       "name": "Rick Gacia",
       "roles": [
         "Homeless Guy"
-      ]
+      ],
+      "notes": "(as Ric Gacia)"
     },
     {
       "imdbId": "nm0337910",
@@ -412,7 +421,8 @@
       "name": "Matthew Lee",
       "roles": [
         "Gangbanger #3"
-      ]
+      ],
+      "notes": "(as Mathew Lee)"
     }
   ],
   "writers": [
@@ -427,5 +437,6 @@
       "notes": "written by (as Peter Goldfinger)"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

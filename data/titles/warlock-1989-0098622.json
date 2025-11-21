@@ -5,7 +5,7 @@
   "originalTitle": "Warlock",
   "sortTitle": "warlock-1989",
   "year": "1989",
-  "releaseDate": "1989-05-01",
+  "releaseDate": "1991-01-11",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0591171",
-      "name": "Steve Miner"
+      "name": "Steve Miner",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Anna Thomson",
       "roles": [
         "Pastor's Wife"
-      ]
+      ],
+      "notes": "(as Anna Levine)"
     },
     {
       "imdbId": "nm0139312",
@@ -205,5 +207,6 @@
       "notes": "written by (as D.T. Twohy)"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "United States"
 }

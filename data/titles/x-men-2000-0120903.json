@@ -5,7 +5,7 @@
   "originalTitle": "X-Men",
   "sortTitle": "x-men-2000",
   "year": "2000",
-  "releaseDate": "2000-07-12",
+  "releaseDate": "2000-07-14",
   "countries": [
     "United States",
     "Canada"
@@ -91,7 +91,8 @@
       "name": "Rebecca Romijn",
       "roles": [
         "Mystique"
-      ]
+      ],
+      "notes": "(as Rebecca Romijn-Stamos)"
     },
     {
       "imdbId": "nm0001117",
@@ -147,7 +148,8 @@
       "name": "John Nelles",
       "roles": [
         "Rogue's Father"
-      ]
+      ],
+      "notes": "(as John E. Nelles)"
     },
     {
       "imdbId": "nm0125579",
@@ -238,7 +240,8 @@
       "name": "Alex Burton",
       "roles": [
         "John"
-      ]
+      ],
+      "notes": "(as Alexander Burton)"
     },
     {
       "imdbId": "nm0942717",
@@ -252,7 +255,8 @@
       "name": "Danny Mags",
       "roles": [
         "Boy on Raft"
-      ]
+      ],
+      "notes": "(as Daniel Magder)"
     },
     {
       "imdbId": "nm0918135",
@@ -283,6 +287,14 @@
       ]
     },
     {
+      "imdbId": "nm0969561",
+      "name": "Amy Leland",
+      "roles": [
+        "Cerebro"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0733263",
       "name": "Adam Robitel",
       "roles": [
@@ -294,14 +306,16 @@
       "name": "David Lawrence Brown",
       "roles": [
         "Lead Cop"
-      ]
+      ],
+      "notes": "(as Dave Brown)"
     },
     {
       "imdbId": "nm0006548",
       "name": "Ben Jensen",
       "roles": [
         "Sabretooth Cop"
-      ]
+      ],
+      "notes": "(as Ben P. Jensen)"
     },
     {
       "imdbId": "nm0220892",
@@ -399,14 +413,16 @@
       "name": "Grigori Miakouchkine",
       "roles": [
         "Translator"
-      ]
+      ],
+      "notes": "(as Gregori Miakouchkine)"
     },
     {
       "imdbId": "nm0173779",
       "name": "Eleonore Comes",
       "roles": [
         "Translator"
-      ]
+      ],
+      "notes": "(as Eleanor Comes)"
     },
     {
       "imdbId": "nm0302310",
@@ -448,7 +464,8 @@
       "name": "Wolfgang Müller",
       "roles": [
         "German Soldier"
-      ]
+      ],
+      "notes": "(as Wolfgang Muller)"
     },
     {
       "imdbId": "nm0958589",
@@ -482,5 +499,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 104
+  "runtimeMinutes": 104,
+  "releaseDateCountry": "United States"
 }

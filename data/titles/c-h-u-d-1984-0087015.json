@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0154877",
-      "name": "Douglas Cheek"
+      "name": "Douglas Cheek",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -137,7 +138,8 @@
       "name": "Ray Baker",
       "roles": [
         "Ad Man"
-      ]
+      ],
+      "notes": "(as Raymond Baker)"
     },
     {
       "imdbId": "nm0072785",
@@ -172,7 +174,8 @@
       "name": "Bill Raymond",
       "roles": [
         "Victor"
-      ]
+      ],
+      "notes": "(as William Joseph Raymond)"
     },
     {
       "imdbId": "nm0324533",
@@ -207,7 +210,8 @@
       "name": "John Bedford Lloyd",
       "roles": [
         "Shadow Man"
-      ]
+      ],
+      "notes": "(as John Bedford-Lloyd)"
     },
     {
       "imdbId": "nm0950794",
@@ -228,7 +232,8 @@
       "name": "Frankie Faison",
       "roles": [
         "Sgt. Parker"
-      ]
+      ],
+      "notes": "(as Frankie R. Faison)"
     },
     {
       "imdbId": "nm0111179",
@@ -318,7 +323,18 @@
       "imdbId": "nm0008055",
       "name": "Shepard Abbott",
       "notes": "story by"
+    },
+    {
+      "imdbId": "nm0193061",
+      "name": "Christopher Curry",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0827663",
+      "name": "Daniel Stern",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 88,
+  "releaseDateCountry": "United States"
 }

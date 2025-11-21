@@ -5,7 +5,7 @@
   "originalTitle": "The Resident",
   "sortTitle": "resident-2011",
   "year": "2011",
-  "releaseDate": "2011-02-10",
+  "releaseDate": "2011-03-11",
   "countries": [
     "United Kingdom",
     "United States"
@@ -57,14 +57,16 @@
       "name": "Aunjanue Ellis-Taylor",
       "roles": [
         "Sydney"
-      ]
+      ],
+      "notes": "(as Aunjanue Ellis)"
     },
     {
       "imdbId": "nm1266915",
       "name": "Sean A. Rosales",
       "roles": [
         "Carlos"
-      ]
+      ],
+      "notes": "(as Sean Rosales)"
     },
     {
       "imdbId": "nm1499863",
@@ -78,7 +80,8 @@
       "name": "Sheila Ivy Traister",
       "roles": [
         "ER Nurse"
-      ]
+      ],
+      "notes": "(as Sheila Traister)"
     },
     {
       "imdbId": "nm0795297",
@@ -127,14 +130,16 @@
       "name": "Mark Morocco",
       "roles": [
         "ER Surgeon"
-      ]
+      ],
+      "notes": "(as Mark Vincent Morocco)"
     },
     {
       "imdbId": "nm3279059",
       "name": "Veronica Szymanski",
       "roles": [
         "Nurse Girl"
-      ]
+      ],
+      "notes": "(as Veronica Hool)"
     }
   ],
   "writers": [
@@ -149,5 +154,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United Kingdom"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Dark Command",
   "sortTitle": "dark-command-1940",
   "year": "1940",
-  "releaseDate": "1940-04-04",
+  "releaseDate": "1940-04-15",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0909825",
-      "name": "Raoul Walsh"
+      "name": "Raoul Walsh",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -55,7 +56,8 @@
       "name": "George 'Gabby' Hayes",
       "roles": [
         "Doc Grunch"
-      ]
+      ],
+      "notes": "(as George Hayes)"
     },
     {
       "imdbId": "nm0356004",
@@ -84,7 +86,8 @@
       "name": "Joe Sawyer",
       "roles": [
         "Bushropp"
-      ]
+      ],
+      "notes": "(as Joseph Sawyer)"
     },
     {
       "imdbId": "nm0533235",
@@ -135,5 +138,6 @@
       "notes": "adaptation"
     }
   ],
-  "runtimeMinutes": 94
+  "runtimeMinutes": 94,
+  "releaseDateCountry": "United States"
 }

@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -39,7 +40,8 @@
       "name": "Lo Lieh",
       "roles": [
         "'Lone Shadow' Teng Chi Yan"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm1787663",
@@ -97,7 +99,8 @@
       "name": "Simon Hsu",
       "roles": [
         "Kuang Fu"
-      ]
+      ],
+      "notes": "(as Erh-Nu Hsu)"
     },
     {
       "imdbId": "nm7445188",
@@ -153,7 +156,8 @@
     {
       "imdbId": "nm2364295",
       "name": "Chiu-Jun Lee",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chiao-Chun Li)"
     },
     {
       "imdbId": "nm2394795",
@@ -192,7 +196,8 @@
     {
       "imdbId": "nm1269214",
       "name": "Tze Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lin Tsai)"
     },
     {
       "imdbId": "nm0514909",
@@ -218,7 +223,8 @@
       "name": "Fan Mei-Sheng",
       "roles": [
         "'Steward' Chiu"
-      ]
+      ],
+      "notes": "(as Mei Sheng Fan)"
     },
     {
       "imdbId": "nm2444048",
@@ -240,12 +246,14 @@
       "name": "Chow Siu-Loi",
       "roles": [
         "Chiu's cohort"
-      ]
+      ],
+      "notes": "(as Siu-Loi Chow)"
     },
     {
       "imdbId": "nm1399642",
       "name": "Chien Szu-Ying",
-      "roles": []
+      "roles": [],
+      "notes": "(as Szu-Ying Chien)"
     },
     {
       "imdbId": "nm0848909",
@@ -294,7 +302,8 @@
     {
       "imdbId": "nm2721702",
       "name": "Ping Woo",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ping Hu)"
     },
     {
       "imdbId": "nm1296572",
@@ -319,9 +328,9 @@
   "writers": [
     {
       "imdbId": "nm0393250",
-      "name": "Kuang Ni",
-      "notes": "writer"
+      "name": "Kuang Ni"
     }
   ],
-  "runtimeMinutes": 100
+  "runtimeMinutes": 100,
+  "releaseDateCountry": "Hong Kong"
 }

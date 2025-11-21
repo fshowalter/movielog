@@ -5,7 +5,7 @@
   "originalTitle": "The Killers",
   "sortTitle": "killers-1964",
   "year": "1964",
-  "releaseDate": "1964-07-07",
+  "releaseDate": "1964-09-10",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0796923",
-      "name": "Don Siegel"
+      "name": "Don Siegel",
+      "notes": "(as Donald Siegel)"
     }
   ],
   "performers": [
@@ -111,7 +112,8 @@
       "name": "Irvin Mosley Jr.",
       "roles": [
         "Mail Truck Guard"
-      ]
+      ],
+      "notes": "(as Irvin Mosley)"
     },
     {
       "imdbId": "nm0431548",
@@ -189,5 +191,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "Norway"
 }

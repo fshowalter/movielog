@@ -5,7 +5,7 @@
   "originalTitle": "Tinker Tailor Soldier Spy",
   "sortTitle": "tinker-tailor-soldier-spy-2011",
   "year": "2011",
-  "releaseDate": "2011-09-05",
+  "releaseDate": "2012-01-06",
   "countries": [
     "United Kingdom",
     "France",
@@ -22,7 +22,8 @@
   "directors": [
     {
       "imdbId": "nm0019247",
-      "name": "Tomas Alfredson"
+      "name": "Tomas Alfredson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -150,7 +151,8 @@
       "name": "Amanda Fairbank-Hynes",
       "roles": [
         "Belinda"
-      ]
+      ],
+      "notes": "(as Amanda Fairbank Hynes)"
     },
     {
       "imdbId": "nm1044562",
@@ -178,7 +180,8 @@
       "name": "Philip Hill-Pearson",
       "roles": [
         "Norman"
-      ]
+      ],
+      "notes": "(as Phillip Hill-Pearson)"
     },
     {
       "imdbId": "nm1471089",
@@ -196,17 +199,19 @@
     },
     {
       "imdbId": "nm0450975",
-      "name": "Konstantin Khabensky",
+      "name": "Konstantin Khabenskiy",
       "roles": [
         "Polyakov"
-      ]
+      ],
+      "notes": "(as Konstantin Khabensky)"
     },
     {
       "imdbId": "nm0942793",
       "name": "Sarah Jane Wright",
       "roles": [
         "Mary Alleline"
-      ]
+      ],
+      "notes": "(as Sarah-Jane Robinson)"
     },
     {
       "imdbId": "nm1910545",
@@ -269,7 +274,8 @@
       "name": "Dennis Good",
       "roles": [
         "Ivan"
-      ]
+      ],
+      "notes": "(as a different name)"
     },
     {
       "imdbId": "nm4263431",
@@ -314,6 +320,14 @@
       ]
     },
     {
+      "imdbId": "nm0765398",
+      "name": "Michael Sarne",
+      "roles": [
+        "Karla"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm1605114",
       "name": "Christian McKay",
       "roles": [
@@ -325,7 +339,8 @@
       "name": "Jean-Claude Jay",
       "roles": [
         "French Man at Residency"
-      ]
+      ],
+      "notes": "(as Jean Claude Jay)"
     },
     {
       "imdbId": "nm1814341",
@@ -352,5 +367,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 127
+  "runtimeMinutes": 127,
+  "releaseDateCountry": "United States"
 }

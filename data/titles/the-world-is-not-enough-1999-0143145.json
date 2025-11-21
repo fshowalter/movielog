@@ -5,7 +5,7 @@
   "originalTitle": "The World Is Not Enough",
   "sortTitle": "world-is-not-enough-1999",
   "year": "1999",
-  "releaseDate": "1999-11-08",
+  "releaseDate": "1999-11-19",
   "countries": [
     "United Kingdom",
     "United States",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0000776",
-      "name": "Michael Apted"
+      "name": "Michael Apted",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -203,7 +204,8 @@
       "name": "Justus von Dohnányi",
       "roles": [
         "Captain Nikoli"
-      ]
+      ],
+      "notes": "(as Justus Von Dohnanyi)"
     },
     {
       "imdbId": "nm0788434",
@@ -231,7 +233,8 @@
       "name": "Kourosh Asad",
       "roles": [
         "Russian Radio Operator"
-      ]
+      ],
+      "notes": "(as Kouroush Asad)"
     },
     {
       "imdbId": "nm0064584",
@@ -289,5 +292,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 128
+  "runtimeMinutes": 128,
+  "releaseDateCountry": "United States"
 }

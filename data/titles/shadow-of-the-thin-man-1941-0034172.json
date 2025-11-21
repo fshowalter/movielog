@@ -5,7 +5,7 @@
   "originalTitle": "Shadow of the Thin Man",
   "sortTitle": "shadow-of-the-thin-man-1941",
   "year": "1941",
-  "releaseDate": "1941-11-01",
+  "releaseDate": "1941-11-??",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0886754",
-      "name": "W.S. Van Dyke"
+      "name": "W.S. Van Dyke",
+      "notes": "(as Maj. W.S. Van Dyke II)"
     }
   ],
   "performers": [
@@ -74,7 +75,8 @@
       "name": "Richard Hall",
       "roles": [
         "Nick Charles Jr."
-      ]
+      ],
+      "notes": "(as Dickie Hall)"
     },
     {
       "imdbId": "nm0012245",
@@ -134,12 +136,8 @@
       "imdbId": "nm0475823",
       "name": "Harry Kurnitz",
       "notes": "from a story by"
-    },
-    {
-      "imdbId": "nm0358591",
-      "name": "Dashiell Hammett",
-      "notes": "based upon characters created by"
     }
   ],
-  "runtimeMinutes": 97
+  "runtimeMinutes": 97,
+  "releaseDateCountry": "United States"
 }

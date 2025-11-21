@@ -5,7 +5,7 @@
   "originalTitle": "Fedora",
   "sortTitle": "fedora-1978",
   "year": "1978",
-  "releaseDate": "1978-??-??",
+  "releaseDate": "1978-09-13",
   "countries": [
     "France",
     "West Germany"
@@ -81,7 +81,7 @@
       "imdbId": "nm0001868",
       "name": "Michael York",
       "roles": [
-        "Self"
+        "Self - Michael York"
       ]
     },
     {
@@ -145,14 +145,16 @@
       "name": "Robert Cunningham",
       "roles": [
         "Assistant Director"
-      ]
+      ],
+      "notes": "(as Bob Cunningham)"
     },
     {
       "imdbId": "nm0478200",
       "name": "Christoph Künzler",
       "roles": [
         "Clerk"
-      ]
+      ],
+      "notes": "(as Christoph Kuenzler)"
     },
     {
       "imdbId": "nm0446648",
@@ -173,7 +175,8 @@
       "name": "Panos Papadopulos",
       "roles": [
         "Bartender"
-      ]
+      ],
+      "notes": "(as Panos Papadopoulos)"
     },
     {
       "imdbId": "nm0569120",
@@ -200,5 +203,6 @@
       "notes": "based on a story by (as Thomas Tryon)"
     }
   ],
-  "runtimeMinutes": 114
+  "runtimeMinutes": 114,
+  "releaseDateCountry": "France"
 }

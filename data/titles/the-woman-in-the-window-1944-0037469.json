@@ -5,7 +5,7 @@
   "originalTitle": "The Woman in the Window",
   "sortTitle": "woman-in-the-window-1944",
   "year": "1944",
-  "releaseDate": "1944-10-25",
+  "releaseDate": "1944-11-03",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang"
+      "name": "Fritz Lang",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -49,7 +50,8 @@
       "name": "Edmund Breon",
       "roles": [
         "Dr. Michael Barkstane"
-      ]
+      ],
+      "notes": "(as Edmond Breon)"
     },
     {
       "imdbId": "nm0002053",
@@ -101,5 +103,6 @@
       "notes": "novel (as J. H. Wallis)"
     }
   ],
-  "runtimeMinutes": 107
+  "runtimeMinutes": 107,
+  "releaseDateCountry": "United States"
 }

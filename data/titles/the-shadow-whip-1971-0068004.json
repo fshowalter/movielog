@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0516344",
-      "name": "Wei Lo"
+      "name": "Wei Lo",
+      "notes": "directed by (as Lo Wei)"
     }
   ],
   "performers": [
@@ -32,14 +33,16 @@
       "name": "Yueh Hua",
       "roles": [
         "Wang Jian-xin"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0473314",
       "name": "Ku Feng",
       "roles": [
         "Chief Hong Dapeng"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0005033",
@@ -67,7 +70,8 @@
       "name": "Chiu-Jun Lee",
       "roles": [
         "Martial artist after Fang"
-      ]
+      ],
+      "notes": "(as Chiao-Chun Li)"
     },
     {
       "imdbId": "nm1050124",
@@ -95,7 +99,8 @@
       "name": "Ho Li-Jen",
       "roles": [
         "Inn keeper"
-      ]
+      ],
+      "notes": "(as Li-Jen Ho)"
     },
     {
       "imdbId": "nm2110891",
@@ -155,5 +160,6 @@
       "notes": "screenplay (as Lo Wei)"
     }
   ],
-  "runtimeMinutes": 78
+  "runtimeMinutes": 78,
+  "releaseDateCountry": "Hong Kong"
 }

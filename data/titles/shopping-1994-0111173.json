@@ -5,7 +5,7 @@
   "sortTitle": "shopping-1994",
   "year": "1994",
   "slug": "shopping-1994",
-  "releaseDate": "1994-01-25",
+  "releaseDate": "1996-02-09",
   "runtimeMinutes": 87,
   "countries": [
     "United Kingdom",
@@ -22,7 +22,8 @@
   "directors": [
     {
       "imdbId": "nm0027271",
-      "name": "Paul W.S. Anderson"
+      "name": "Paul W.S. Anderson",
+      "notes": "(as Paul Anderson)"
     }
   ],
   "performers": [
@@ -80,7 +81,8 @@
       "name": "Daniel Newman",
       "roles": [
         "Monkey"
-      ]
+      ],
+      "notes": "(as Danny Newman)"
     },
     {
       "imdbId": "nm0926101",
@@ -101,7 +103,8 @@
       "name": "Eamonn Walker",
       "roles": [
         "Peters"
-      ]
+      ],
+      "notes": "(as Eammon Walker)"
     },
     {
       "imdbId": "nm0005042",
@@ -313,5 +316,6 @@
       "name": "Paul W.S. Anderson",
       "notes": "written by (as Paul Anderson)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

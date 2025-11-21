@@ -5,7 +5,7 @@
   "originalTitle": "Nightmare Beach",
   "sortTitle": "nightmare-beach-1989",
   "year": "1989",
-  "releaseDate": "1989-07-14",
+  "releaseDate": "1990-08-18",
   "countries": [
     "Italy"
   ],
@@ -15,11 +15,13 @@
   "directors": [
     {
       "imdbId": "nm2218266",
-      "name": "James Justice"
+      "name": "James Justice",
+      "notes": "(as Harry Kirkpatrick)"
     },
     {
       "imdbId": "nm0502391",
-      "name": "Umberto Lenzi"
+      "name": "Umberto Lenzi",
+      "notes": "(as Harry Kirkpatrick)"
     }
   ],
   "performers": [
@@ -105,14 +107,16 @@
       "name": "Luis Valderrama",
       "roles": [
         "Dawg"
-      ]
+      ],
+      "notes": "(as Luis Valderama)"
     },
     {
       "imdbId": "nm0117930",
       "name": "Fred Buch",
       "roles": [
         "Mayor Loomis"
-      ]
+      ],
+      "notes": "(as Fred Buck)"
     },
     {
       "imdbId": "nm0302361",
@@ -310,5 +314,6 @@
       "notes": "story (as Harry Kirkpatrick)"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "South Korea"
 }

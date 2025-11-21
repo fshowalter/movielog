@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001681",
-      "name": "George A. Romero"
+      "name": "George A. Romero",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -167,7 +168,8 @@
       "name": "Zachary Mott",
       "roles": [
         "Norris Ridgewick"
-      ]
+      ],
+      "notes": "(as Zachery 'Bill' Mott)"
     },
     {
       "imdbId": "nm0131752",
@@ -181,7 +183,8 @@
       "name": "David W. Butler",
       "roles": [
         "Trooper #1"
-      ]
+      ],
+      "notes": "(as David Butler)"
     },
     {
       "imdbId": "nm0213494",
@@ -336,5 +339,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 122
+  "runtimeMinutes": 122,
+  "releaseDateCountry": "United States"
 }

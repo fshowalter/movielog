@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0151653",
-      "name": "Cheh Chang"
+      "name": "Cheh Chang",
+      "notes": "(as Chang Cheh)"
     },
     {
       "imdbId": "nm0398771",
@@ -31,7 +32,8 @@
       "name": "Chen Kuan-Tai",
       "roles": [
         "Ma Yong Zhen"
-      ]
+      ],
+      "notes": "(as Kuan Tai Chen)"
     },
     {
       "imdbId": "nm0508380",
@@ -52,7 +54,8 @@
       "name": "Mario Milano",
       "roles": [
         "Russian Boxer"
-      ]
+      ],
+      "notes": "(as Ma Lan Nu)"
     },
     {
       "imdbId": "nm0862872",
@@ -66,14 +69,16 @@
       "name": "Ku Feng",
       "roles": [
         "Chang Chin Fa - Champion 2"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0620699",
       "name": "Chiang Nan",
       "roles": [
         "Boss Yang Shuang"
-      ]
+      ],
+      "notes": "(as Nan Chiang)"
     },
     {
       "imdbId": "nm0947927",
@@ -101,7 +106,8 @@
       "name": "Chen Hao",
       "roles": [
         "Mr. Chin"
-      ]
+      ],
+      "notes": "(as Hao Chen)"
     },
     {
       "imdbId": "nm1796567",
@@ -174,7 +180,8 @@
     {
       "imdbId": "nm0150839",
       "name": "Chen Chuan",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chuan Chen)"
     },
     {
       "imdbId": "nm0271791",
@@ -186,7 +193,8 @@
       "name": "Huang Ha",
       "roles": [
         "Yang's Thug"
-      ]
+      ],
+      "notes": "(as Ha Huang)"
     },
     {
       "imdbId": "nm0025546",
@@ -194,7 +202,8 @@
       "roles": [
         "Tan's Assistant",
         "Chang's Man with Kettle"
-      ]
+      ],
+      "notes": "(as Hark-On Fung)"
     },
     {
       "imdbId": "nm0387360",
@@ -208,7 +217,8 @@
       "name": "Hsu Hsia",
       "roles": [
         "Ma's man"
-      ]
+      ],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm0512714",
@@ -230,14 +240,16 @@
     {
       "imdbId": "nm0518999",
       "name": "Jack Long",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chiang Wang)"
     },
     {
       "imdbId": "nm2389603",
       "name": "Wong Mei",
       "roles": [
         "Ma's man"
-      ]
+      ],
+      "notes": "(as Mei Wong)"
     },
     {
       "imdbId": "nm3085023",
@@ -247,7 +259,8 @@
     {
       "imdbId": "nm1794908",
       "name": "Chik Ngai-Hung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yi-Hsiung Chi)"
     },
     {
       "imdbId": "nm2444048",
@@ -261,7 +274,8 @@
       "name": "Huang Pei-Chi",
       "roles": [
         "Tournament challenger"
-      ]
+      ],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm1832825",
@@ -287,7 +301,8 @@
       "name": "Lo Wai",
       "roles": [
         "Li's cohort"
-      ]
+      ],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm0910705",
@@ -299,14 +314,16 @@
     {
       "imdbId": "nm0939327",
       "name": "Shu-Tong Wong",
-      "roles": []
+      "roles": [],
+      "notes": "(as Shu-Tang Huang)"
     },
     {
       "imdbId": "nm0519729",
       "name": "Tino Wong",
       "roles": [
         "Yang's Thug"
-      ]
+      ],
+      "notes": "(as Tien-lung Chen)"
     },
     {
       "imdbId": "nm3114260",
@@ -343,14 +360,13 @@
   "writers": [
     {
       "imdbId": "nm0151653",
-      "name": "Cheh Chang",
-      "notes": "writer"
+      "name": "Cheh Chang"
     },
     {
       "imdbId": "nm0393250",
-      "name": "Kuang Ni",
-      "notes": "writer"
+      "name": "Kuang Ni"
     }
   ],
-  "runtimeMinutes": 134
+  "runtimeMinutes": 134,
+  "releaseDateCountry": "Hong Kong"
 }

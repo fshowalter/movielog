@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0278735",
-      "name": "Sam Firstenberg"
+      "name": "Sam Firstenberg",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -69,7 +70,8 @@
       "name": "John LaMotta",
       "roles": [
         "Rinaldo"
-      ]
+      ],
+      "notes": "(as John La Motta)"
     },
     {
       "imdbId": "nm0945632",
@@ -83,7 +85,8 @@
       "name": "Phillip Brock",
       "roles": [
         "Charley"
-      ]
+      ],
+      "notes": "(as Phil Brock)"
     },
     {
       "imdbId": "nm0129550",
@@ -111,7 +114,8 @@
       "name": "Greg Rocero",
       "roles": [
         "Bodyguard"
-      ]
+      ],
+      "notes": "(as Gregg Rocero)"
     },
     {
       "imdbId": "nm0819416",
@@ -146,7 +150,8 @@
       "name": "Jim Gaines",
       "roles": [
         "Truck Driver"
-      ]
+      ],
+      "notes": "(as James Gaines)"
     },
     {
       "imdbId": "nm0177295",
@@ -222,5 +227,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

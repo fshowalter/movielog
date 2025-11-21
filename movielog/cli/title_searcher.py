@@ -1,9 +1,7 @@
 from __future__ import annotations
 
-import json
 from dataclasses import dataclass
 
-from movielog.cli import query_formatter
 from movielog.repository import api as repository_api
 
 
@@ -14,19 +12,13 @@ class SearchResult:
     principal_cast_names: list[str]
 
 
-def search(title: str) -> list[SearchResult]:
-    title_with_wildcards = query_formatter.add_wildcards(title)
-
-    query = """
-        SELECT imdb_id, full_title, principal_cast
-        FROM titles WHERE title LIKE "{0}" ORDER BY title;
-        """
+def search(title_id: str) -> list[SearchResult]:
+    title_page = repository_api.get_title_page(title_id)
 
     return [
         SearchResult(
-            imdb_id=row["imdb_id"],
-            full_title=row["full_title"],
-            principal_cast_names=json.loads(row["principal_cast"]),
+            imdb_id=title_id,
+            full_title=f"{title_page.title} ({title_page.year})",
+            principal_cast_names=title_page.principal_cast,
         )
-        for row in repository_api.db.fetch_all(query.format(title_with_wildcards))
     ]

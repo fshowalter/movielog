@@ -5,7 +5,7 @@
   "originalTitle": "Son of Dracula",
   "sortTitle": "son-of-dracula-1943",
   "year": "1943",
-  "releaseDate": "1943-10-20",
+  "releaseDate": "1943-11-05",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0802563",
-      "name": "Robert Siodmak"
+      "name": "Robert Siodmak",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -69,14 +70,16 @@
       "name": "Adeline De Walt Reynolds",
       "roles": [
         "Madame Zimba"
-      ]
+      ],
+      "notes": "(as Adeline DeWalt Reynolds)"
     },
     {
       "imdbId": "nm0605330",
       "name": "Pat Moriarity",
       "roles": [
         "Sheriff Dawes"
-      ]
+      ],
+      "notes": "(as Patrick Moriarity)"
     },
     {
       "imdbId": "nm0567400",
@@ -97,7 +100,8 @@
       "name": "Lon Chaney Jr.",
       "roles": [
         "Count Dracula"
-      ]
+      ],
+      "notes": "(as Lon Chaney)"
     }
   ],
   "writers": [
@@ -112,5 +116,6 @@
       "notes": "original story (as Curtis Siodmak)"
     }
   ],
-  "runtimeMinutes": 80
+  "runtimeMinutes": 80,
+  "releaseDateCountry": "United States"
 }

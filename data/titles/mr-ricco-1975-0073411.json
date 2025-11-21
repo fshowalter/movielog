@@ -5,7 +5,7 @@
   "originalTitle": "Mr. Ricco",
   "sortTitle": "mr-ricco-1975",
   "year": "1975",
-  "releaseDate": "1975-01-28",
+  "releaseDate": "1975-02-??",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0091575",
-      "name": "Paul Bogart"
+      "name": "Paul Bogart",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Philip Michael Thomas",
       "roles": [
         "Purvis Mapes"
-      ]
+      ],
+      "notes": "(as Philip Thomas)"
     },
     {
       "imdbId": "nm0879000",
@@ -110,7 +112,8 @@
       "name": "Ellaraino",
       "roles": [
         "Sally"
-      ]
+      ],
+      "notes": "(as Ella Edwards)"
     },
     {
       "imdbId": "nm0339717",
@@ -235,5 +238,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 98
+  "runtimeMinutes": 98,
+  "releaseDateCountry": "United States"
 }

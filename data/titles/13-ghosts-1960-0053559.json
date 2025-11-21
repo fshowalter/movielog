@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0145336",
-      "name": "William Castle"
+      "name": "William Castle",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -46,7 +47,8 @@
       "name": "Rosemary DeCamp",
       "roles": [
         "Hilda Zorba"
-      ]
+      ],
+      "notes": "(as Rosemary De Camp)"
     },
     {
       "imdbId": "nm0940579",
@@ -77,5 +79,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

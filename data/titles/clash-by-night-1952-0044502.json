@@ -5,7 +5,7 @@
   "originalTitle": "Clash by Night",
   "sortTitle": "clash-by-night-1952",
   "year": "1952",
-  "releaseDate": "1952-05-28",
+  "releaseDate": "1952-06-06",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang"
+      "name": "Fritz Lang",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -83,5 +84,6 @@
       "notes": "based on the stage play written by"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "United States"
 }

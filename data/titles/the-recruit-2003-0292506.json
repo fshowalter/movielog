@@ -5,7 +5,7 @@
   "originalTitle": "The Recruit",
   "sortTitle": "recruit-2003",
   "year": "2003",
-  "releaseDate": "2003-01-25",
+  "releaseDate": "2003-01-31",
   "countries": [
     "United States",
     "Switzerland"
@@ -54,7 +54,8 @@
       "name": "Kenneth Mitchell",
       "roles": [
         "Alan"
-      ]
+      ],
+      "notes": "(as Ken Mitchell)"
     },
     {
       "imdbId": "nm1146822",
@@ -89,7 +90,8 @@
       "name": "Jenny Cooper",
       "roles": [
         "Blonde with Cell Phone"
-      ]
+      ],
+      "notes": "(as Jennifer Levine)"
     },
     {
       "imdbId": "nm0874751",
@@ -103,7 +105,8 @@
       "name": "Veronica Hurnick",
       "roles": [
         "Polygraph Interrogator"
-      ]
+      ],
+      "notes": "(as Veronika Hurnik)"
     },
     {
       "imdbId": "nm0513468",
@@ -250,7 +253,8 @@
       "name": "Domenico Fiore",
       "roles": [
         "Instructor #1"
-      ]
+      ],
+      "notes": "(as Dom Fiore)"
     },
     {
       "imdbId": "nm0524491",
@@ -320,14 +324,16 @@
       "name": "John Wayne Shafer",
       "roles": [
         "Langley Gate Guard"
-      ]
+      ],
+      "notes": "(as John Shafer)"
     },
     {
       "imdbId": "nm0942819",
       "name": "Stephen Lee Wright",
       "roles": [
         "Running Instructor"
-      ]
+      ],
+      "notes": "(as Steven Lee Wright)"
     }
   ],
   "writers": [
@@ -347,5 +353,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 115
+  "runtimeMinutes": 115,
+  "releaseDateCountry": "United States"
 }

@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0663577",
-      "name": "Robert Parrish"
+      "name": "Robert Parrish",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -89,7 +90,8 @@
       "name": "André Maranne",
       "roles": [
         "Inspector Garain"
-      ]
+      ],
+      "notes": "(as Andre Maranne)"
     },
     {
       "imdbId": "nm0579063",
@@ -133,5 +135,6 @@
       "notes": "from a story by"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United Kingdom"
 }

@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0891959",
-      "name": "Giuseppe Veggezzi"
+      "name": "Giuseppe Veggezzi",
+      "notes": "(as Joseph Vegh)"
     }
   ],
   "performers": [
@@ -25,7 +26,8 @@
       "name": "Christopher Lee",
       "roles": [
         "Mephistoles"
-      ]
+      ],
+      "notes": "(as Cristopher Lee)"
     },
     {
       "imdbId": "nm0034068",
@@ -39,35 +41,40 @@
       "name": "Bella Cortez",
       "roles": [
         "Frie"
-      ]
+      ],
+      "notes": "(as Alice Paneque)"
     },
     {
       "imdbId": "nm0778413",
       "name": "Ulderico Sciaretta",
       "roles": [
         "Padre Guardiano"
-      ]
+      ],
+      "notes": "(as Ulderico Sciarretta)"
     },
     {
       "imdbId": "nm0662449",
       "name": "Lilli Parker",
       "roles": [
         "Jenny"
-      ]
+      ],
+      "notes": "(as Vittori Centroni)"
     },
     {
       "imdbId": "nm0127974",
       "name": "Anita Cacciolati",
       "roles": [
         "Maga"
-      ]
+      ],
+      "notes": "(as Anita Dreyver)"
     },
     {
       "imdbId": "nm0952244",
       "name": "Mario Zakarti",
       "roles": [
         "Gianni"
-      ]
+      ],
+      "notes": "(as Mario Zacarti)"
     },
     {
       "imdbId": "nm0024297",
@@ -86,17 +93,20 @@
       "name": "Piero Vida",
       "roles": [
         "Padre Peo Remigio"
-      ]
+      ],
+      "notes": "(as Pietro Vidali)"
     },
     {
       "imdbId": "nm0723027",
       "name": "Ettore Ribotta",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ettore Ribotti)"
     },
     {
       "imdbId": "nm0316760",
       "name": "Sergio Gibello",
-      "roles": []
+      "roles": [],
+      "notes": "(as Sergio Gebello)"
     },
     {
       "imdbId": "nm0059840",
@@ -108,7 +118,8 @@
       "name": "Sonia Scotti",
       "roles": [
         "Sonia - Singer"
-      ]
+      ],
+      "notes": "(as Sonia)"
     },
     {
       "imdbId": "nm0211366",
@@ -121,9 +132,9 @@
   "writers": [
     {
       "imdbId": "nm0891959",
-      "name": "Giuseppe Veggezzi",
-      "notes": "writer"
+      "name": "Giuseppe Veggezzi"
     }
   ],
-  "runtimeMinutes": 79
+  "runtimeMinutes": 79,
+  "releaseDateCountry": "Italy"
 }

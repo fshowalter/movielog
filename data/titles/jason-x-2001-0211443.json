@@ -5,7 +5,7 @@
   "originalTitle": "Jason X",
   "sortTitle": "jason-x-2001",
   "year": "2001",
-  "releaseDate": "2001-07-24",
+  "releaseDate": "2002-04-26",
   "countries": [
     "Canada",
     "United States"
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0410494",
-      "name": "James Isaac"
+      "name": "James Isaac",
+      "notes": "(as Jim Isaac)"
     }
   ],
   "performers": [
@@ -57,7 +58,8 @@
       "name": "Markus Parilo",
       "roles": [
         "Sgt. Marcus"
-      ]
+      ],
+      "notes": "(as Marcus Parilo)"
     },
     {
       "imdbId": "nm0693436",
@@ -134,7 +136,8 @@
       "name": "Philip Williams",
       "roles": [
         "Crutch"
-      ]
+      ],
+      "notes": "(as Phillip Williams)"
     },
     {
       "imdbId": "nm0425802",
@@ -233,12 +236,8 @@
       "imdbId": "nm0267805",
       "name": "Todd Farmer",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0566699",
-      "name": "Victor Miller",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

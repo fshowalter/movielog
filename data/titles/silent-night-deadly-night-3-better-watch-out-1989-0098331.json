@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0375494",
-      "name": "Monte Hellman"
+      "name": "Monte Hellman",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -67,7 +68,8 @@
       "name": "Eric DaRe",
       "roles": [
         "Chris"
-      ]
+      ],
+      "notes": "(as Eric Da Re)"
     },
     {
       "imdbId": "nm0542853",
@@ -81,7 +83,8 @@
       "name": "Laura Harring",
       "roles": [
         "Jerri"
-      ]
+      ],
+      "notes": "(as Laura Herring)"
     },
     {
       "imdbId": "nm0658735",
@@ -144,14 +147,16 @@
       "name": "Dave Mount Jr.",
       "roles": [
         "Policeman"
-      ]
+      ],
+      "notes": "(as David Mount)"
     },
     {
       "imdbId": "nm0380188",
       "name": "Thomas Herod Jr.",
       "roles": [
         "Policeman"
-      ]
+      ],
+      "notes": "(as Tom Herod Jr.)"
     },
     {
       "imdbId": "nm0880910",
@@ -308,5 +313,6 @@
       "name": "Arthur Gorson",
       "notes": "from a story by (as A.H. Gorson)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

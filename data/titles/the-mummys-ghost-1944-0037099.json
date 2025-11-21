@@ -5,7 +5,7 @@
   "originalTitle": "The Mummy's Ghost",
   "sortTitle": "mummys-ghost-1944",
   "year": "1944",
-  "releaseDate": "1944-07-01",
+  "releaseDate": "1944-07-07",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0494110",
-      "name": "Reginald Le Borg"
+      "name": "Reginald Le Borg",
+      "notes": "(as Reginald LeBorg)"
     }
   ],
   "performers": [
@@ -25,7 +26,8 @@
       "name": "Lon Chaney Jr.",
       "roles": [
         "Kharis"
-      ]
+      ],
+      "notes": "(as Lon Chaney)"
     },
     {
       "imdbId": "nm0001017",
@@ -132,5 +134,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 61
+  "runtimeMinutes": 61,
+  "releaseDateCountry": "United States"
 }

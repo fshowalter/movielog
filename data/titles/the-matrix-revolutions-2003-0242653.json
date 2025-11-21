@@ -5,7 +5,7 @@
   "sortTitle": "matrix-revolutions-2003",
   "year": "2003",
   "slug": "the-matrix-revolutions-2003",
-  "releaseDate": "2003-10-16",
+  "releaseDate": "2003-11-05",
   "runtimeMinutes": 129,
   "countries": [
     "United States",
@@ -18,11 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0905154",
-      "name": "Lana Wachowski"
+      "name": "Lana Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     },
     {
       "imdbId": "nm0905152",
-      "name": "Lilly Wachowski"
+      "name": "Lilly Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     }
   ],
   "performers": [
@@ -150,7 +152,8 @@
       "name": "Christopher Kirby",
       "roles": [
         "Mauser"
-      ]
+      ],
+      "notes": "(as Chris Kirby)"
     },
     {
       "imdbId": "nm0483001",
@@ -265,6 +268,14 @@
       ]
     },
     {
+      "imdbId": "nm0724656",
+      "name": "Kevin Michael Richardson",
+      "roles": [
+        "Deus Ex Machina"
+      ],
+      "notes": "(voice) (as Kevin M. Richardson)"
+    },
+    {
       "imdbId": "nm0730993",
       "name": "David Roberts",
       "roles": [
@@ -339,7 +350,8 @@
       "name": "Anthony Brandon Wong",
       "roles": [
         "Ghost"
-      ]
+      ],
+      "notes": "(as Anthony Wong)"
     },
     {
       "imdbId": "nm0001875",
@@ -359,16 +371,7 @@
       "imdbId": "nm0905154",
       "name": "Lana Wachowski",
       "notes": "written by (as The Wachowski Brothers)"
-    },
-    {
-      "imdbId": "nm0905152",
-      "name": "Lilly Wachowski",
-      "notes": "characters (as The Wachowski Brothers) &"
-    },
-    {
-      "imdbId": "nm0905154",
-      "name": "Lana Wachowski",
-      "notes": "characters (as The Wachowski Brothers)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

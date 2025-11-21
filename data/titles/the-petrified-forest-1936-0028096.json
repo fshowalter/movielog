@@ -5,7 +5,7 @@
   "originalTitle": "The Petrified Forest",
   "sortTitle": "petrified-forest-1936",
   "year": "1936",
-  "releaseDate": "1936-01-30",
+  "releaseDate": "1936-02-08",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0562845",
-      "name": "Archie Mayo"
+      "name": "Archie Mayo",
+      "notes": "(as Archie L. Mayo)"
     }
   ],
   "performers": [
@@ -60,7 +61,8 @@
       "name": "Joe Sawyer",
       "roles": [
         "Jackie"
-      ]
+      ],
+      "notes": "(as Joseph Sawyer)"
     },
     {
       "imdbId": "nm0356004",
@@ -136,5 +138,6 @@
       "notes": "play (as Robert Emmet Sherwood)"
     }
   ],
-  "runtimeMinutes": 82
+  "runtimeMinutes": 82,
+  "releaseDateCountry": "United States"
 }

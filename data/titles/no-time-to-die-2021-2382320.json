@@ -5,7 +5,7 @@
   "originalTitle": "No Time to Die",
   "sortTitle": "no-time-to-die-2021",
   "year": "2021",
-  "releaseDate": "2021-09-28",
+  "releaseDate": "2021-10-08",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1560977",
-      "name": "Cary Joji Fukunaga"
+      "name": "Cary Joji Fukunaga",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -293,7 +294,8 @@
       "name": "Dennis Good",
       "roles": [
         "Spectre Agent"
-      ]
+      ],
+      "notes": "(as a different name)"
     },
     {
       "imdbId": "nm0264525",
@@ -403,5 +405,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 163
+  "runtimeMinutes": 163,
+  "releaseDateCountry": "United States"
 }

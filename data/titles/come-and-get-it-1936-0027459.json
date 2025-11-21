@@ -5,7 +5,7 @@
   "originalTitle": "Come and Get It",
   "sortTitle": "come-and-get-it-1936",
   "year": "1936",
-  "releaseDate": "1936-11-06",
+  "releaseDate": "1936-12-23",
   "countries": [
     "United States"
   ],
@@ -19,12 +19,13 @@
       "name": "Howard Hawks"
     },
     {
-      "imdbId": "nm0943758",
-      "name": "William Wyler"
+      "imdbId": "nm0744514",
+      "name": "Richard Rosson",
+      "notes": "logging sequences"
     },
     {
-      "imdbId": "nm0744514",
-      "name": "Richard Rosson"
+      "imdbId": "nm0943758",
+      "name": "William Wyler"
     }
   ],
   "performers": [
@@ -83,7 +84,8 @@
       "name": "Frank Shields Sr.",
       "roles": [
         "Tony Schwerke"
-      ]
+      ],
+      "notes": "(as Frank Shields)"
     },
     {
       "imdbId": "nm0561693",
@@ -124,5 +126,6 @@
       "notes": "screen play"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "France"
 }

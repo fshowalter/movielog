@@ -20,11 +20,13 @@
   "directors": [
     {
       "imdbId": "nm0000454",
-      "name": "Dennis Hopper"
+      "name": "Dennis Hopper",
+      "notes": "directed by (as Alan Smithee)"
     },
     {
       "imdbId": "nm0000647",
-      "name": "Alan Smithee"
+      "name": "Alan Smithee",
+      "notes": "really Dennis Hopper"
     }
   ],
   "performers": [
@@ -82,7 +84,8 @@
       "name": "Tony Sirico",
       "roles": [
         "Greek"
-      ]
+      ],
+      "notes": "(as G. Anthony Sirico)"
     },
     {
       "imdbId": "nm0724784",
@@ -103,7 +106,8 @@
       "name": "Helena Kallianiotes",
       "roles": [
         "Grace Carelli"
-      ]
+      ],
+      "notes": "(as Helena Kalianiotes)"
     },
     {
       "imdbId": "nm0032033",
@@ -131,14 +135,16 @@
       "name": "Debbie David",
       "roles": [
         "Ad Agency Man"
-      ]
+      ],
+      "notes": "(as Carl David Burks)"
     },
     {
       "imdbId": "nm0005598",
       "name": "Grand L. Bush",
       "roles": [
         "Bank Teller"
-      ]
+      ],
+      "notes": "(as Grand Bush)"
     },
     {
       "imdbId": "nm0126312",
@@ -180,7 +186,8 @@
       "name": "Sarina C. Grant",
       "roles": [
         "Hooker"
-      ]
+      ],
+      "notes": "(as Sarina Grant)"
     },
     {
       "imdbId": "nm0001416",
@@ -194,7 +201,8 @@
       "name": "Katherine LaNasa",
       "roles": [
         "Waitress"
-      ]
+      ],
+      "notes": "(as Katherine La Nasa)"
     },
     {
       "imdbId": "nm0516056",
@@ -270,5 +278,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

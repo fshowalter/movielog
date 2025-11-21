@@ -5,7 +5,7 @@
   "originalTitle": "Mission to Mars",
   "sortTitle": "mission-to-mars-2000",
   "year": "2000",
-  "releaseDate": "2000-03-06",
+  "releaseDate": "2000-03-10",
   "countries": [
     "France",
     "Canada",
@@ -141,7 +141,8 @@
       "name": "Jeffrey Ballard",
       "roles": [
         "Child at Party"
-      ]
+      ],
+      "notes": "(as Jeff Ballard)"
     },
     {
       "imdbId": "nm0940495",
@@ -155,14 +156,16 @@
       "name": "Britt McKillip",
       "roles": [
         "Child at Party"
-      ]
+      ],
+      "notes": "(as Britt McKillop)"
     },
     {
       "imdbId": "nm0399466",
       "name": "Jillian Marie",
       "roles": [
         "Child at Party"
-      ]
+      ],
+      "notes": "(as Jillian Hubert)"
     },
     {
       "imdbId": "nm0860309",
@@ -232,7 +235,8 @@
       "name": "McCanna Anthony Sinise",
       "roles": [
         "Young Jim McConnell"
-      ]
+      ],
+      "notes": "(as Mccanna Anthony Sinise)"
     },
     {
       "imdbId": "nm0174810",
@@ -247,6 +251,14 @@
       "roles": [
         "Priest"
       ]
+    },
+    {
+      "imdbId": "nm0716387",
+      "name": "Bill Timoney",
+      "roles": [
+        "Computer"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -281,5 +293,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 114
+  "runtimeMinutes": 114,
+  "releaseDateCountry": "United States"
 }

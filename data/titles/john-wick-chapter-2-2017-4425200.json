@@ -5,7 +5,7 @@
   "originalTitle": "John Wick: Chapter 2",
   "sortTitle": "john-wick-chapter-2-2017",
   "year": "2017",
-  "releaseDate": "2017-01-30",
+  "releaseDate": "2017-02-10",
   "countries": [
     "United States",
     "Italy",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0821432",
-      "name": "Chad Stahelski"
+      "name": "Chad Stahelski",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -113,7 +114,8 @@
       "name": "Eric Frandsen",
       "roles": [
         "Numismatic"
-      ]
+      ],
+      "notes": "(as Erik Frandsen)"
     },
     {
       "imdbId": "nm0446314",
@@ -183,7 +185,8 @@
       "name": "Elli",
       "roles": [
         "Pawnbroker"
-      ]
+      ],
+      "notes": "(as Elli Meyer)"
     },
     {
       "imdbId": "nm2008303",
@@ -239,7 +242,8 @@
       "name": "Simone Spinazze",
       "roles": [
         "Cartographer"
-      ]
+      ],
+      "notes": "(as Simone Spinazzé)"
     },
     {
       "imdbId": "nm2018501",
@@ -310,12 +314,8 @@
       "imdbId": "nm4401003",
       "name": "Derek Kolstad",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm4401003",
-      "name": "Derek Kolstad",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 122
+  "runtimeMinutes": 122,
+  "releaseDateCountry": "United States"
 }

@@ -17,12 +17,13 @@
   ],
   "directors": [
     {
-      "imdbId": "nm0375494",
-      "name": "Monte Hellman"
+      "imdbId": "nm0105010",
+      "name": "Tony Brandt",
+      "notes": "credited on some European prints"
     },
     {
-      "imdbId": "nm0105010",
-      "name": "Tony Brandt"
+      "imdbId": "nm0375494",
+      "name": "Monte Hellman"
     }
   ],
   "performers": [
@@ -80,7 +81,8 @@
       "name": "Charly Bravo",
       "roles": [
         "Duke"
-      ]
+      ],
+      "notes": "(as Carlos Bravo)"
     },
     {
       "imdbId": "nm0071437",
@@ -115,7 +117,8 @@
       "name": "Ivonne Sentis",
       "roles": [
         "Whore"
-      ]
+      ],
+      "notes": "(as Yvonne Sentis)"
     },
     {
       "imdbId": "nm0057269",
@@ -136,7 +139,8 @@
       "name": "Helga Liné",
       "roles": [
         "Cottrell's Wife"
-      ]
+      ],
+      "notes": "(as Helga Line)"
     },
     {
       "imdbId": "nm0262222",
@@ -150,7 +154,8 @@
       "name": "David Thomson",
       "roles": [
         "Jack"
-      ]
+      ],
+      "notes": "(as David Thompson)"
     },
     {
       "imdbId": "nm0105010",
@@ -192,14 +197,16 @@
       "name": "José Murillo",
       "roles": [
         "Jimmy"
-      ]
+      ],
+      "notes": "(as Jose Murillo)"
     },
     {
       "imdbId": "nm0016220",
       "name": "Rafael Albaicín",
       "roles": [
         "Guard"
-      ]
+      ],
+      "notes": "(as Raphael Albaicin)"
     },
     {
       "imdbId": "nm0053719",
@@ -241,5 +248,6 @@
       "notes": "with the collaboration of (as Don Vicente Escriva')"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "Italy"
 }

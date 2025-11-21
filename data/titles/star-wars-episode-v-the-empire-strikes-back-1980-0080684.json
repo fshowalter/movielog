@@ -5,7 +5,7 @@
   "originalTitle": "Star Wars: Episode V - The Empire Strikes Back",
   "sortTitle": "star-wars-episode-v-the-empire-strikes-back-1980",
   "year": "1980",
-  "releaseDate": "1980-05-17",
+  "releaseDate": "1980-06-18",
   "countries": [
     "United States"
   ],
@@ -79,6 +79,14 @@
       ]
     },
     {
+      "imdbId": "nm0000568",
+      "name": "Frank Oz",
+      "roles": [
+        "Yoda"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0000027",
       "name": "Alec Guinness",
       "roles": [
@@ -112,6 +120,14 @@
       "roles": [
         "Snow Creature"
       ]
+    },
+    {
+      "imdbId": "nm0720890",
+      "name": "Clive Revill",
+      "roles": [
+        "Emperor"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0171829",
@@ -188,14 +204,16 @@
       "name": "Christopher Malcolm",
       "roles": [
         "Rebel Force Zev (Rogue 2)"
-      ]
+      ],
+      "notes": "(as Christopher Malcom)"
     },
     {
       "imdbId": "nm0493200",
       "name": "Denis Lawson",
       "roles": [
         "Rebel Force Wedge (Rogue 3)"
-      ]
+      ],
+      "notes": "(as Dennis Lawson)"
     },
     {
       "imdbId": "nm0646134",
@@ -292,5 +310,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 124
+  "runtimeMinutes": 124,
+  "releaseDateCountry": "United States"
 }

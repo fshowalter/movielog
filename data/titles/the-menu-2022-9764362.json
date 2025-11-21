@@ -5,7 +5,7 @@
   "originalTitle": "The Menu",
   "sortTitle": "menu-2022",
   "year": "2022",
-  "releaseDate": "2022-09-10",
+  "releaseDate": "2022-11-18",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0617042",
-      "name": "Mark Mylod"
+      "name": "Mark Mylod",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -189,5 +190,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 107
+  "runtimeMinutes": 107,
+  "releaseDateCountry": "United States"
 }

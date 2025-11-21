@@ -5,7 +5,7 @@
   "originalTitle": "Brain Damage",
   "sortTitle": "brain-damage-1988",
   "year": "1988",
-  "releaseDate": "1988-01-01",
+  "releaseDate": "1988-04-22",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0376963",
-      "name": "Frank Henenlotter"
+      "name": "Frank Henenlotter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -26,7 +27,8 @@
       "name": "Rick Hearst",
       "roles": [
         "Brian"
-      ]
+      ],
+      "notes": "(as Rick Herbst)"
     },
     {
       "imdbId": "nm0531737",
@@ -68,7 +70,8 @@
       "name": "Joseph Gonzalez",
       "roles": [
         "Guy in Shower"
-      ]
+      ],
+      "notes": "(as Joe Gonzales)"
     },
     {
       "imdbId": "nm0722389",
@@ -96,7 +99,8 @@
       "name": "Ari M. Roussimoff",
       "roles": [
         "Biker"
-      ]
+      ],
+      "notes": "(as Ari Roussimoff)"
     },
     {
       "imdbId": "nm0747929",
@@ -152,7 +156,8 @@
       "name": "Kevin VanHentenryck",
       "roles": [
         "Man with Basket"
-      ]
+      ],
+      "notes": "(as Kevin Van Hentenryck)"
     }
   ],
   "writers": [
@@ -162,5 +167,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 84
+  "runtimeMinutes": 84,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Mary of Scotland",
   "sortTitle": "mary-of-scotland-1936",
   "year": "1936",
-  "releaseDate": "1936-07-28",
+  "releaseDate": "1936-08-28",
   "countries": [
     "United States"
   ],
@@ -19,6 +19,11 @@
     {
       "imdbId": "nm0000406",
       "name": "John Ford"
+    },
+    {
+      "imdbId": "nm0329574",
+      "name": "Leslie Goodwins",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -251,14 +256,16 @@
       "name": "Ivan F. Simpson",
       "roles": [
         "Judge"
-      ]
+      ],
+      "notes": "(as Ivan Simpson)"
     },
     {
       "imdbId": "nm0207637",
       "name": "Nigel De Brulier",
       "roles": [
         "Judge"
-      ]
+      ],
+      "notes": "(as Nigel de Brulier)"
     },
     {
       "imdbId": "nm0096966",
@@ -327,7 +334,13 @@
       "imdbId": "nm0027173",
       "name": "Maxwell Anderson",
       "notes": "from the play by"
+    },
+    {
+      "imdbId": "nm0644420",
+      "name": "Mortimer Offner",
+      "notes": "contributing writer (uncredited)"
     }
   ],
-  "runtimeMinutes": 123
+  "runtimeMinutes": 123,
+  "releaseDateCountry": "United States"
 }

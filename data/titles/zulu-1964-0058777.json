@@ -5,7 +5,7 @@
   "sortTitle": "zulu-1964",
   "year": "1964",
   "slug": "zulu-1964",
-  "releaseDate": "1964-01-22",
+  "releaseDate": "1964-06-17",
   "runtimeMinutes": 138,
   "countries": [
     "United Kingdom"
@@ -188,7 +188,8 @@
       "name": "Gert van den Bergh",
       "roles": [
         "Adendorff"
-      ]
+      ],
+      "notes": "(as Gert Van Den Bergh)"
     },
     {
       "imdbId": "nm0284053",
@@ -216,7 +217,8 @@
       "name": "Chief Mangosuthu Buthelezi",
       "roles": [
         "Cetewayo"
-      ]
+      ],
+      "notes": "(as Chief Buthelezi)"
     },
     {
       "imdbId": "nm0874964",
@@ -238,6 +240,14 @@
       "roles": [
         "Dance Leader"
       ]
+    },
+    {
+      "imdbId": "nm0000009",
+      "name": "Richard Burton",
+      "roles": [
+        "Narration spoken by"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -256,5 +266,6 @@
       "name": "John Prebble",
       "notes": "article 'Slaughter in the Sun'"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

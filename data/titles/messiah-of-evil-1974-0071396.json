@@ -15,7 +15,13 @@
   "directors": [
     {
       "imdbId": "nm0404754",
-      "name": "Willard Huyck"
+      "name": "Willard Huyck",
+      "notes": "directed by"
+    },
+    {
+      "imdbId": "nm0441718",
+      "name": "Gloria Katz",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -31,7 +37,8 @@
       "name": "Marianna Hill",
       "roles": [
         "Arletty"
-      ]
+      ],
+      "notes": "(as Mariana Hill)"
     },
     {
       "imdbId": "nm0051916",
@@ -94,7 +101,8 @@
       "name": "Dyanne Asimow",
       "roles": [
         "Unknown"
-      ]
+      ],
+      "notes": "(as Dyanne Simon)"
     },
     {
       "imdbId": "nm0546786",
@@ -127,7 +135,8 @@
     {
       "imdbId": "nm0636165",
       "name": "Bill Norton",
-      "roles": []
+      "roles": [],
+      "notes": "(as B.W.L. Norton)"
     }
   ],
   "writers": [
@@ -142,5 +151,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

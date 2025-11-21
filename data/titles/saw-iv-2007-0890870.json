@@ -5,7 +5,7 @@
   "originalTitle": "Saw IV",
   "sortTitle": "saw-iv-2007",
   "year": "2007",
-  "releaseDate": "2007-10-25",
+  "releaseDate": "2007-10-26",
   "countries": [
     "Canada",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1135423",
-      "name": "Darren Lynn Bousman"
+      "name": "Darren Lynn Bousman",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -70,7 +71,8 @@
       "name": "Louis Ferreira",
       "roles": [
         "Art"
-      ]
+      ],
+      "notes": "(as Justin Louis)"
     },
     {
       "imdbId": "nm0721951",
@@ -91,13 +93,6 @@
       "name": "Angus Macfadyen",
       "roles": [
         "Jeff"
-      ]
-    },
-    {
-      "imdbId": "nm0809938",
-      "name": "Shawnee Smith",
-      "roles": [
-        "Amanda"
       ]
     },
     {
@@ -343,7 +338,8 @@
       "name": "Christopher Marren",
       "roles": [
         "Additional Voice Talent"
-      ]
+      ],
+      "notes": "(as Chris Marren)"
     },
     {
       "imdbId": "nm2820659",
@@ -387,5 +383,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

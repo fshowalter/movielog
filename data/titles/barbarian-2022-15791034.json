@@ -5,7 +5,7 @@
   "originalTitle": "Barbarian",
   "sortTitle": "barbarian-2022",
   "year": "2022",
-  "releaseDate": "2022-08-29",
+  "releaseDate": "2022-09-09",
   "countries": [
     "Bulgaria",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1199107",
-      "name": "Zach Cregger"
+      "name": "Zach Cregger",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Sophie Sörensen",
       "roles": [
         "Bonnie"
-      ]
+      ],
+      "notes": "(as Sophie Sorensen)"
     },
     {
       "imdbId": "nm0288786",
@@ -90,7 +92,8 @@
       "name": "JR Esposito",
       "roles": [
         "Jeff"
-      ]
+      ],
+      "notes": "(as J.R. Esposito)"
     },
     {
       "imdbId": "nm4447460",
@@ -179,5 +182,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

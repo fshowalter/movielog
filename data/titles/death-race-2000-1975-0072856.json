@@ -5,7 +5,7 @@
   "originalTitle": "Death Race 2000",
   "sortTitle": "death-race-2000-1975",
   "year": "1975",
-  "releaseDate": "1975-04-30",
+  "releaseDate": "1975-11-28",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000860",
-      "name": "Paul Bartel"
+      "name": "Paul Bartel",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -76,7 +77,8 @@
       "name": "Don Steele",
       "roles": [
         "Junior Bruce"
-      ]
+      ],
+      "notes": "(as The Real Don Steele)"
     },
     {
       "imdbId": "nm0417055",
@@ -104,7 +106,8 @@
       "name": "Paul L. Ehrmann",
       "roles": [
         "Special Agent"
-      ]
+      ],
+      "notes": "(as Paul Laurence)"
     },
     {
       "imdbId": "nm0575616",
@@ -160,7 +163,8 @@
       "name": "John Favorite",
       "roles": [
         "Henry"
-      ]
+      ],
+      "notes": "(as Jack Favorite)"
     },
     {
       "imdbId": "nm0407248",
@@ -181,7 +185,8 @@
       "name": "Darla McDonnell",
       "roles": [
         "Rhonda Bainbridge"
-      ]
+      ],
+      "notes": "(as Darla McDonell)"
     },
     {
       "imdbId": "nm0740241",
@@ -208,5 +213,6 @@
       "notes": "from a story by"
     }
   ],
-  "runtimeMinutes": 80
+  "runtimeMinutes": 80,
+  "releaseDateCountry": "West Germany"
 }

@@ -7,8 +7,7 @@
   "year": "1971",
   "releaseDate": "1971-07-16",
   "countries": [
-    "United Kingdom",
-    "United States"
+    "United Kingdom"
   ],
   "genres": [
     "Biography",
@@ -18,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001692",
-      "name": "Ken Russell"
+      "name": "Ken Russell",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -139,7 +139,8 @@
       "name": "Izabella Telezynska",
       "roles": [
         "Sister Iza"
-      ]
+      ],
+      "notes": "(as Iza Teller)"
     }
   ],
   "writers": [
@@ -159,5 +160,6 @@
       "notes": "novel \"The Devils of Loudun\""
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

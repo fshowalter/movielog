@@ -5,7 +5,7 @@
   "originalTitle": "Cloak and Dagger",
   "sortTitle": "cloak-and-dagger-1946",
   "year": "1946",
-  "releaseDate": "1946-09-05",
+  "releaseDate": "1946-09-28",
   "countries": [
     "United States"
   ],
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0000485",
-      "name": "Fritz Lang"
+      "name": "Fritz Lang",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -71,7 +72,8 @@
       "name": "Ludwig Stössel",
       "roles": [
         "The German"
-      ]
+      ],
+      "notes": "(as Ludwig Stossel)"
     },
     {
       "imdbId": "nm0858162",
@@ -106,7 +108,8 @@
       "name": "Patrick O'Moore",
       "roles": [
         "The Englishman"
-      ]
+      ],
+      "notes": "(as Pat O'Moore)"
     },
     {
       "imdbId": "nm0550518",
@@ -148,5 +151,6 @@
       "notes": "suggested by the book"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

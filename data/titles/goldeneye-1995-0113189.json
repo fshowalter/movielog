@@ -5,7 +5,7 @@
   "originalTitle": "GoldenEye",
   "sortTitle": "goldeneye-1995",
   "year": "1995",
-  "releaseDate": "1995-11-13",
+  "releaseDate": "1995-11-17",
   "countries": [
     "United Kingdom",
     "United States",
@@ -77,7 +77,8 @@
       "name": "Tchéky Karyo",
       "roles": [
         "Dimitri Mishkin"
-      ]
+      ],
+      "notes": "(as Tcheky Karyo)"
     },
     {
       "imdbId": "nm0424167",
@@ -140,7 +141,8 @@
       "name": "Olivier Lajous",
       "roles": [
         "French Warship Officer"
-      ]
+      ],
+      "notes": "(as Cmdt. Olivier Lajous)"
     },
     {
       "imdbId": "nm0593165",
@@ -201,11 +203,6 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0001220",
-      "name": "Ian Fleming",
-      "notes": "characters"
-    },
-    {
       "imdbId": "nm0289833",
       "name": "Michael France",
       "notes": "story"
@@ -221,5 +218,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 130
+  "runtimeMinutes": 130,
+  "releaseDateCountry": "United States"
 }

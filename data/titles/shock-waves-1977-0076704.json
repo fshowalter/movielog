@@ -5,7 +5,7 @@
   "originalTitle": "Shock Waves",
   "sortTitle": "shock-waves-1977",
   "year": "1977",
-  "releaseDate": "1977-06-22",
+  "releaseDate": "1977-07-15",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0927296",
-      "name": "Ken Wiederhorn"
+      "name": "Ken Wiederhorn",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -132,14 +133,16 @@
       "name": "Talmadge Scott",
       "roles": [
         "Zombie"
-      ]
+      ],
+      "notes": "(as Talmedge Scott)"
     },
     {
       "imdbId": "nm0506038",
       "name": "Gary J. Levinson",
       "roles": [
         "Zombie"
-      ]
+      ],
+      "notes": "(as Gary Levinson)"
     },
     {
       "imdbId": "nm0589211",
@@ -159,7 +162,13 @@
       "imdbId": "nm0927296",
       "name": "Ken Wiederhorn",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm1297786",
+      "name": "Ken Pare",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

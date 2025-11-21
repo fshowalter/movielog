@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0631438",
-      "name": "William Nigh"
+      "name": "William Nigh",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -62,7 +63,8 @@
       "name": "Edward Peil Sr.",
       "roles": [
         "Ryder"
-      ]
+      ],
+      "notes": "(as Edward Piel Sr.)"
     },
     {
       "imdbId": "nm0279963",
@@ -111,7 +113,8 @@
       "name": "I. Stanford Jolley",
       "roles": [
         "The Dragon"
-      ]
+      ],
+      "notes": "(as Stanford Jolley)"
     }
   ],
   "writers": [
@@ -124,7 +127,13 @@
       "imdbId": "nm0309567",
       "name": "Harvey Gates",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm1255711",
+      "name": "Robert Kehoe",
+      "notes": "story \"Black Dragon\" (uncredited)"
     }
   ],
-  "runtimeMinutes": 64
+  "runtimeMinutes": 64,
+  "releaseDateCountry": "United States"
 }

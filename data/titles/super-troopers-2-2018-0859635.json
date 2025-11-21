@@ -5,7 +5,7 @@
   "originalTitle": "Super Troopers 2",
   "sortTitle": "super-troopers-2-2018",
   "year": "2018",
-  "releaseDate": "2018-04-19",
+  "releaseDate": "2018-04-20",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0151540",
-      "name": "Jay Chandrasekhar"
+      "name": "Jay Chandrasekhar",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -152,7 +153,8 @@
       "name": "Liliane Klein",
       "roles": [
         "Crowd Member 1"
-      ]
+      ],
+      "notes": "(as Lillian Klein)"
     },
     {
       "imdbId": "nm1186861",
@@ -229,7 +231,8 @@
       "name": "Ethan Twomey Perello",
       "roles": [
         "Canadian Teen 2"
-      ]
+      ],
+      "notes": "(as Ethan Perello)"
     },
     {
       "imdbId": "nm9781347",
@@ -257,7 +260,8 @@
       "name": "Jimmy Tatro",
       "roles": [
         "Lance Stonebreaker"
-      ]
+      ],
+      "notes": "(as James R. Tatro)"
     },
     {
       "imdbId": "nm6101020",
@@ -371,5 +375,6 @@
       "notes": "(as Broken Lizard)"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

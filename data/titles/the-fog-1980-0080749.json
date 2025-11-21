@@ -5,7 +5,7 @@
   "originalTitle": "The Fog",
   "sortTitle": "fog-1980",
   "year": "1980",
-  "releaseDate": "1980-01-01",
+  "releaseDate": "1980-02-08",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -74,7 +75,8 @@
       "name": "Nancy Kyes",
       "roles": [
         "Sandy Fadel"
-      ]
+      ],
+      "notes": "(as Nancy Loomis)"
     },
     {
       "imdbId": "nm0593792",
@@ -95,7 +97,8 @@
       "name": "John F. Goff",
       "roles": [
         "Al Williams"
-      ]
+      ],
+      "notes": "(as John Goff)"
     },
     {
       "imdbId": "nm0002668",
@@ -130,14 +133,16 @@
       "name": "John Vick",
       "roles": [
         "Sheriff David Simms"
-      ]
+      ],
+      "notes": "(as John Vic)"
     },
     {
       "imdbId": "nm0414969",
       "name": "Jim Jacobus",
       "roles": [
         "Mayor"
-      ]
+      ],
+      "notes": "(as Jay Jacobs)"
     },
     {
       "imdbId": "nm0291582",
@@ -158,14 +163,16 @@
       "name": "Lee Socks",
       "roles": [
         "Ghost"
-      ]
+      ],
+      "notes": "(as Lee Sacks)"
     },
     {
       "imdbId": "nm0908890",
       "name": "Tommy Lee Wallace",
       "roles": [
         "Ghost"
-      ]
+      ],
+      "notes": "(as Tommy Wallace)"
     },
     {
       "imdbId": "nm0852041",
@@ -180,6 +187,14 @@
       "roles": [
         "Blake"
       ]
+    },
+    {
+      "imdbId": "nm0630060",
+      "name": "Charles Nicklin",
+      "roles": [
+        "Blake"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0430944",
@@ -236,5 +251,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Higher and Higher",
   "sortTitle": "higher-and-higher-1943",
   "year": "1943",
-  "releaseDate": "1943-12-01",
+  "releaseDate": "1943-12-??",
   "countries": [
     "United States"
   ],
@@ -26,7 +26,8 @@
       "name": "Michèle Morgan",
       "roles": [
         "Millie Pico"
-      ]
+      ],
+      "notes": "(as Michele Morgan)"
     },
     {
       "imdbId": "nm0355095",
@@ -89,7 +90,8 @@
       "name": "Mel Tormé",
       "roles": [
         "Marty"
-      ]
+      ],
+      "notes": "(as Mel Torme)"
     },
     {
       "imdbId": "nm0367001",
@@ -152,5 +154,6 @@
       "notes": "based on the musical play \"Higher And Higher\": book by"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

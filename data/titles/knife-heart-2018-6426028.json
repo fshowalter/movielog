@@ -5,7 +5,7 @@
   "originalTitle": "Un couteau dans le coeur",
   "sortTitle": "knife-heart-2018",
   "year": "2018",
-  "releaseDate": "2018-05-17",
+  "releaseDate": "2019-03-15",
   "countries": [
     "France",
     "Mexico",
@@ -178,7 +178,8 @@
       "name": "Simone Thiébaut",
       "roles": [
         "Dominique"
-      ]
+      ],
+      "notes": "(as Simon Thiébaut)"
     },
     {
       "imdbId": "nm8091742",
@@ -441,11 +442,28 @@
       ]
     },
     {
+      "imdbId": "nm3852062",
+      "name": "Pierre Edouard Dumora",
+      "roles": [
+        "Voix bande-annonce 'De sperme et d'eau fraîche'"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm10058781",
       "name": "Alexandre David Lejuez",
       "roles": [
         "A spectator"
-      ]
+      ],
+      "notes": "(as Extra)"
+    },
+    {
+      "imdbId": "nm0723865",
+      "name": "Nathalie Richard",
+      "roles": [
+        "Chanteuse Cabaret"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -460,5 +478,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "United States"
 }

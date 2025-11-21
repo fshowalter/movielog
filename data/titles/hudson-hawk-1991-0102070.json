@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0499724",
-      "name": "Michael Lehmann"
+      "name": "Michael Lehmann",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -117,14 +118,16 @@
       "name": "Carmine Zozzora",
       "roles": [
         "Antony Mario"
-      ]
+      ],
+      "notes": "(as Carmine Zozorra)"
     },
     {
       "imdbId": "nm0596841",
       "name": "Stefano Molinari",
       "roles": [
         "Leonardo da Vinci"
-      ]
+      ],
+      "notes": "(as Stephano Molinari)"
     },
     {
       "imdbId": "nm0516272",
@@ -173,7 +176,8 @@
       "name": "Robert Vazquez",
       "roles": [
         "Big Stan"
-      ]
+      ],
+      "notes": "(as Bob Vazquez)"
     },
     {
       "imdbId": "nm0002803",
@@ -201,7 +205,8 @@
       "name": "Lisa Matthews",
       "roles": [
         "Girl in Car"
-      ]
+      ],
+      "notes": "(as Lisa Reich)"
     },
     {
       "imdbId": "nm0524039",
@@ -215,7 +220,8 @@
       "name": "Antonino Iuorio",
       "roles": [
         "Vatican Guard"
-      ]
+      ],
+      "notes": "(as Antonio Iurio)"
     },
     {
       "imdbId": "nm0783750",
@@ -236,14 +242,16 @@
       "name": "Douglas Brian Martin",
       "roles": [
         "Igg"
-      ]
+      ],
+      "notes": "(as Doug Martin)"
     },
     {
       "imdbId": "nm0553094",
       "name": "Steven M. Martin",
       "roles": [
         "Ook"
-      ]
+      ],
+      "notes": "(as Steve Martin)"
     },
     {
       "imdbId": "nm0162361",
@@ -258,6 +266,22 @@
       "roles": [
         "Waiter"
       ]
+    },
+    {
+      "imdbId": "nm0919798",
+      "name": "Frank Welker",
+      "roles": [
+        "Bunny the Dog"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0002016",
+      "name": "William Conrad",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -282,5 +306,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 100
+  "runtimeMinutes": 100,
+  "releaseDateCountry": "United States"
 }

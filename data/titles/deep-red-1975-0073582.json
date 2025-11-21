@@ -5,7 +5,7 @@
   "originalTitle": "Profondo rosso",
   "sortTitle": "deep-red-1975",
   "year": "1975",
-  "releaseDate": "1975-03-07",
+  "releaseDate": "1976-06-11",
   "countries": [
     "Italy"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000783",
-      "name": "Dario Argento"
+      "name": "Dario Argento",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -124,7 +125,8 @@
       "name": "Jacopo Mariani",
       "roles": [
         "Young Carlo"
-      ]
+      ],
+      "notes": "(as Iacopo Mariani)"
     },
     {
       "imdbId": "nm0579632",
@@ -181,5 +183,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 127
+  "runtimeMinutes": 127,
+  "releaseDateCountry": "United States"
 }

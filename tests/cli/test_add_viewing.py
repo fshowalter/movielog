@@ -7,8 +7,7 @@ from pytest_mock import MockerFixture
 
 from movielog.cli import add_viewing
 from movielog.cli.ask_medium_or_venue import ReturnResult as MediumOrVenueReturnResult
-from movielog.repository.datasets.dataset_title import DatasetTitle
-from movielog.repository.db import titles_table
+from movielog.repository.imdb_http_title import TitlePage
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Backspace, End, Enter, Escape
 from tests.cli.prompt_utils import ConfirmType, enter_text, select_option
@@ -25,46 +24,24 @@ def mock_create_or_update_review(mocker: MockerFixture) -> MagicMock:
 
 
 @pytest.fixture(autouse=True)
-def seed_db() -> None:
-    titles_table.reload(
-        [
-            DatasetTitle(
-                imdb_id="tt0051554",
-                title="Horror of Dracula",
-                full_title="Horror of Dracula (1958)",
-                aka_titles=[],
-                original_title="Dracula",
-                year="1958",
-                runtime_minutes=97,
-                principal_cast=["Peter Cushing", "Christopher Lee"],
-                imdb_votes=23,
-                imdb_rating=4.5,
-            ),
-            DatasetTitle(
-                imdb_id="tt0053221",
-                title="Rio Bravo",
-                full_title="Rio Bravo (1959)",
-                original_title="Rio Bravo",
-                aka_titles=["Howard Hawks' Rio Bravo"],
-                year="1959",
-                runtime_minutes=121,
-                principal_cast=["John Wayne", "Dean Martin", "Ricky Nelson"],
-                imdb_votes=32,
-                imdb_rating=7.8,
-            ),
-            DatasetTitle(
-                imdb_id="tt0050280",
-                title="Curse of Frankenstein",
-                full_title="Curse of Frankenstein (1957)",
-                aka_titles=[],
-                original_title="Curse of Frankenstein",
-                year="1957",
-                runtime_minutes=98,
-                principal_cast=["Peter Cushing", "Christopher Lee"],
-                imdb_votes=16,
-                imdb_rating=5.8,
-            ),
-        ]
+def mock_search_title(mocker: MockerFixture) -> MockerFixture:
+    return mocker.patch(
+        "movielog.cli.title_searcher.repository_api.get_title_page",
+        return_value=TitlePage(
+            imdb_id="tt0053221",
+            title="Rio Bravo",
+            year=1959,
+            principal_cast=["John Wayne", "Dean Martin", "Ricky Nelson"],
+            genres=["Western"],
+            release_date="1959-03-08",
+            release_date_country="USA",
+            aggregate_rating=7.6,
+            vote_count=5600,
+            original_title="Rio Bravo",
+            countries=["USA"],
+            runtime_minutes=141,
+            credits={},
+        ),
     )
 
 
@@ -132,7 +109,7 @@ def test_calls_add_viewing_and_create_or_update_review(
 ) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
@@ -170,9 +147,9 @@ def test_can_confirm_title(
 ) -> None:
     mock_input(
         [
-            *enter_title("Horror of Dracula"),
+            *enter_title("tt0051554"),
             *select_title_search_result("n"),
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
@@ -221,7 +198,7 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_date(
 ) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             Escape,
             Escape,
@@ -241,7 +218,7 @@ def test_guards_against_bad_dates(
 ) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-32"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -279,7 +256,7 @@ def test_can_confirm_date(
 ) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-13", confirm="n"),
             *enter_viewing_date("2012-03-12", confirm="y"),
@@ -313,7 +290,7 @@ def test_can_confirm_date(
 def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("m"),
@@ -341,7 +318,7 @@ def test_can_add_new_medium(mock_input: MockInput, mock_add_viewing: MagicMock) 
 def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("v"),
@@ -366,7 +343,7 @@ def test_can_create_with_venue(mock_input: MockInput, mock_add_viewing: MagicMoc
 def test_can_add_new_venue(mock_input: MockInput, mock_add_viewing: MagicMock) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             *select_if_medium_or_venue("v"),
@@ -397,7 +374,7 @@ def test_does_not_call_add_viewing_or_create_or_update_review_if_no_medium(
 ) -> None:
     mock_input(
         [
-            *enter_title("Rio Bravo"),
+            *enter_title("tt0053221"),
             *select_title_search_result("y"),
             *enter_viewing_date("2012-03-12", confirm="y"),
             Escape,

@@ -5,7 +5,7 @@
   "originalTitle": "Black Legion",
   "sortTitle": "black-legion-1937",
   "year": "1937",
-  "releaseDate": "1937-01-16",
+  "releaseDate": "1937-01-30",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0562845",
-      "name": "Archie Mayo"
+      "name": "Archie Mayo",
+      "notes": "(as Archie L. Mayo)"
+    },
+    {
+      "imdbId": "nm0002031",
+      "name": "Michael Curtiz",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -61,7 +67,8 @@
       "name": "Joe Sawyer",
       "roles": [
         "Cliff Moore"
-      ]
+      ],
+      "notes": "(as Joseph Sawyer)"
     },
     {
       "imdbId": "nm0815682",
@@ -96,7 +103,8 @@
       "name": "Samuel S. Hinds",
       "roles": [
         "Judge"
-      ]
+      ],
+      "notes": "(as Samuel Hinds)"
     },
     {
       "imdbId": "nm0723935",
@@ -193,5 +201,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "United States"
 }

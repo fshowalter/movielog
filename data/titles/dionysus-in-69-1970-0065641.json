@@ -23,11 +23,13 @@
     },
     {
       "imdbId": "nm0748022",
-      "name": "Bruce Joel Rubin"
+      "name": "Bruce Joel Rubin",
+      "notes": "(as Bruce Rubin)"
     },
     {
       "imdbId": "nm0770351",
-      "name": "Richard Schechner"
+      "name": "Richard Schechner",
+      "notes": "directed for the stage by"
     }
   ],
   "performers": [
@@ -136,7 +138,8 @@
       "name": "William Shephard",
       "roles": [
         "Pentheus"
-      ]
+      ],
+      "notes": "(as William Shepherd)"
     }
   ],
   "writers": [
@@ -151,5 +154,6 @@
       "notes": "play \"The Bacchae\""
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

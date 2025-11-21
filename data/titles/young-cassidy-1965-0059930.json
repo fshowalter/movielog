@@ -5,7 +5,7 @@
   "originalTitle": "Young Cassidy",
   "sortTitle": "young-cassidy-1965",
   "year": "1965",
-  "releaseDate": "1965-02-25",
+  "releaseDate": "1965-04-22",
   "countries": [
     "United Kingdom"
   ],
@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0002153",
       "name": "Jack Cardiff"
+    },
+    {
+      "imdbId": "nm0000406",
+      "name": "John Ford",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -74,7 +79,8 @@
       "name": "Philip O'Flynn",
       "roles": [
         "Mick Mullen"
-      ]
+      ],
+      "notes": "(as Phillip O'Flynn)"
     },
     {
       "imdbId": "nm0001749",
@@ -95,7 +101,8 @@
       "name": "Pauline Delaney",
       "roles": [
         "Bessie Ballynoy"
-      ]
+      ],
+      "notes": "(as Pauline Delany)"
     },
     {
       "imdbId": "nm0262725",
@@ -151,7 +158,8 @@
       "name": "Bill Foley",
       "roles": [
         "Publisher's Clerk"
-      ]
+      ],
+      "notes": "(as William Foley)"
     },
     {
       "imdbId": "nm0291592",
@@ -200,14 +208,16 @@
       "name": "Eddie Golden",
       "roles": [
         "Captain White"
-      ]
+      ],
+      "notes": "(as Edward Golden)"
     },
     {
       "imdbId": "nm0192811",
       "name": "Chris Curran",
       "roles": [
         "Man in Phoenix Park"
-      ]
+      ],
+      "notes": "(as Christopher Curran)"
     },
     {
       "imdbId": "nm1537223",
@@ -271,5 +281,6 @@
       "notes": "autobiography \"Mirror in My House\""
     }
   ],
-  "runtimeMinutes": 110
+  "runtimeMinutes": 110,
+  "releaseDateCountry": "Argentina"
 }

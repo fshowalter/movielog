@@ -5,7 +5,7 @@
   "originalTitle": "His House",
   "sortTitle": "his-house-2020",
   "year": "2020",
-  "releaseDate": "2020-01-27",
+  "releaseDate": "2020-10-30",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm3676311",
-      "name": "Remi Weekes"
+      "name": "Remi Weekes",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -27,7 +28,8 @@
       "name": "Sope Dirisu",
       "roles": [
         "Bol Majur"
-      ]
+      ],
+      "notes": "(as Sopé Dìrísù)"
     },
     {
       "imdbId": "nm2148911",
@@ -266,6 +268,22 @@
       "roles": [
         "Ghost"
       ]
+    },
+    {
+      "imdbId": "nm0180259",
+      "name": "Cornell John",
+      "roles": [
+        "The Witch"
+      ],
+      "notes": "(voice) (as Cornell S. John)"
+    },
+    {
+      "imdbId": "nm11055215",
+      "name": "Aliyah Sesay",
+      "roles": [
+        "Nyagak"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -285,5 +303,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Last Boy Scout",
   "sortTitle": "last-boy-scout-1991",
   "year": "1991",
-  "releaseDate": "1991-12-12",
+  "releaseDate": "1991-12-13",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001716",
-      "name": "Tony Scott"
+      "name": "Tony Scott",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -181,7 +182,8 @@
       "name": "Michael J. Fisher",
       "roles": [
         "Wounded Player"
-      ]
+      ],
+      "notes": "(as Mike Fisher)"
     },
     {
       "imdbId": "nm0800978",
@@ -202,7 +204,8 @@
       "name": "David McMillan",
       "roles": [
         "Kid"
-      ]
+      ],
+      "notes": "(as David L. McMillan)"
     },
     {
       "imdbId": "nm0012934",
@@ -216,7 +219,8 @@
       "name": "Donna W. Scott",
       "roles": [
         "Sleeping Party Girl"
-      ]
+      ],
+      "notes": "(as Donna Wilson)"
     },
     {
       "imdbId": "nm0024691",
@@ -272,7 +276,8 @@
       "name": "Michael Papajohn",
       "roles": [
         "Hitman"
-      ]
+      ],
+      "notes": "(as Mike Papajohn)"
     },
     {
       "imdbId": "nm0426774",
@@ -286,7 +291,8 @@
       "name": "Edmund Villa",
       "roles": [
         "Property Cop"
-      ]
+      ],
+      "notes": "(as Ed Villa)"
     },
     {
       "imdbId": "nm0443856",
@@ -349,7 +355,8 @@
       "name": "Robert Apisa",
       "roles": [
         "Baynard's Bodyguard"
-      ]
+      ],
+      "notes": "(as Bob Apisa)"
     },
     {
       "imdbId": "nm0228982",
@@ -433,14 +440,16 @@
       "name": "Steve Picerni",
       "roles": [
         "Helicopter Cop"
-      ]
+      ],
+      "notes": "(as Steven Picerni)"
     },
     {
       "imdbId": "nm0683892",
       "name": "Craig A. Pinckes",
       "roles": [
         "Presidential Assassin"
-      ]
+      ],
+      "notes": "(as Craig Pinckes)"
     },
     {
       "imdbId": "nm0958105",
@@ -488,5 +497,6 @@
       "notes": "story by"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "United States"
 }

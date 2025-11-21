@@ -5,7 +5,7 @@
   "originalTitle": "The Long Goodbye",
   "sortTitle": "long-goodbye-1973",
   "year": "1973",
-  "releaseDate": "1973-03-07",
+  "releaseDate": "1973-03-08",
   "countries": [
     "United States"
   ],
@@ -91,7 +91,8 @@
       "name": "Stephen Coit",
       "roles": [
         "Detective Farmer"
-      ]
+      ],
+      "notes": "(as Steve Coit)"
     },
     {
       "imdbId": "nm0460936",
@@ -112,14 +113,16 @@
       "name": "Vincent Palmieri",
       "roles": [
         "Vince"
-      ]
+      ],
+      "notes": "(as Vince Palmieri)"
     },
     {
       "imdbId": "nm0194745",
       "name": "Pancho Córdova",
       "roles": [
         "Doctor"
-      ]
+      ],
+      "notes": "(as Pancho Cordoba)"
     },
     {
       "imdbId": "nm0524468",
@@ -204,5 +207,6 @@
       "notes": "novel \"The Long Goodbye\""
     }
   ],
-  "runtimeMinutes": 112
+  "runtimeMinutes": 112,
+  "releaseDateCountry": "United States"
 }

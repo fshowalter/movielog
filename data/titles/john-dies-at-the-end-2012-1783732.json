@@ -5,7 +5,7 @@
   "originalTitle": "John Dies at the End",
   "sortTitle": "john-dies-at-the-end-2012",
   "year": "2012",
-  "releaseDate": "2012-01-23",
+  "releaseDate": "2012-12-27",
   "countries": [
     "United States"
   ],
@@ -112,6 +112,14 @@
       "roles": [
         "Sergeant McElroy"
       ]
+    },
+    {
+      "imdbId": "nm0724656",
+      "name": "Kevin Michael Richardson",
+      "roles": [
+        "Korrok"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm2587995",
@@ -265,7 +273,8 @@
       "name": "Kim Robert Koscki",
       "roles": [
         "Largeman Follower"
-      ]
+      ],
+      "notes": "(as Kim Koscki)"
     },
     {
       "imdbId": "nm0930284",
@@ -364,5 +373,6 @@
       "notes": "based on the story by (as David Wong)"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

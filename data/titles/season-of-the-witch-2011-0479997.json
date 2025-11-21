@@ -5,7 +5,7 @@
   "originalTitle": "Season of the Witch",
   "sortTitle": "season-of-the-witch-2011",
   "year": "2011",
-  "releaseDate": "2011-01-04",
+  "releaseDate": "2011-01-07",
   "countries": [
     "United States"
   ],
@@ -127,6 +127,14 @@
       ]
     },
     {
+      "imdbId": "nm1257554",
+      "name": "Kevin Killebrew",
+      "roles": [
+        "Demon"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm2034064",
       "name": "Simone Kirby",
       "roles": [
@@ -145,14 +153,16 @@
       "name": "Nicholas Sidi",
       "roles": [
         "Priest"
-      ]
+      ],
+      "notes": "(as Nick Sidi)"
     },
     {
       "imdbId": "nm0564920",
       "name": "Rory McCann",
       "roles": [
         "Soldier Commander"
-      ]
+      ],
+      "notes": "(as Rory MacCann)"
     },
     {
       "imdbId": "nm2348787",
@@ -180,7 +190,8 @@
       "name": "Gergö Horpácsi",
       "roles": [
         "Soldier"
-      ]
+      ],
+      "notes": "(as Gergely Horpácsi)"
     },
     {
       "imdbId": "nm0408305",
@@ -201,7 +212,8 @@
       "name": "Zsolt Viktor Magyari",
       "roles": [
         "Soldier"
-      ]
+      ],
+      "notes": "(as Zsolt Magyari)"
     }
   ],
   "writers": [
@@ -211,5 +223,6 @@
       "notes": "written by (as Bragi Schut)"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

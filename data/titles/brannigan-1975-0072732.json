@@ -5,7 +5,7 @@
   "originalTitle": "Brannigan",
   "sortTitle": "brannigan-1975",
   "year": "1975",
-  "releaseDate": "1975-03-21",
+  "releaseDate": "1975-03-26",
   "countries": [
     "United Kingdom",
     "United States"
@@ -105,14 +105,16 @@
       "name": "Lesley-Anne Down",
       "roles": [
         "Luana"
-      ]
+      ],
+      "notes": "(as Lesley Anne Down)"
     },
     {
       "imdbId": "nm0216333",
       "name": "Pauline Delaney",
       "roles": [
         "Mrs Cooper"
-      ]
+      ],
+      "notes": "(as Pauline Delany)"
     },
     {
       "imdbId": "nm0377328",
@@ -174,6 +176,14 @@
       "imdbId": "nm0419767",
       "name": "Enid Jaynes",
       "roles": []
+    },
+    {
+      "imdbId": "nm0209095",
+      "name": "David de Keyser",
+      "roles": [
+        "of Drexel and Jennifier's Boyfriend"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -208,5 +218,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

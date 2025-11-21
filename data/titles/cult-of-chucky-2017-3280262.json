@@ -5,7 +5,7 @@
   "originalTitle": "Cult of Chucky",
   "sortTitle": "cult-of-chucky-2017",
   "year": "2017",
-  "releaseDate": "2017-08-24",
+  "releaseDate": "2017-10-03",
   "countries": [
     "Canada",
     "United States"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0238841",
-      "name": "Don Mancini"
+      "name": "Don Mancini",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -26,7 +27,8 @@
       "name": "Allison Dawn Doiron",
       "roles": [
         "Rachel"
-      ]
+      ],
+      "notes": "(as Allison-Dawn Doiron)"
     },
     {
       "imdbId": "nm0898571",
@@ -34,6 +36,14 @@
       "roles": [
         "Andy"
       ]
+    },
+    {
+      "imdbId": "nm0000374",
+      "name": "Brad Dourif",
+      "roles": [
+        "Chucky"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm1875040",
@@ -117,7 +127,8 @@
       "name": "Summer H. Howell",
       "roles": [
         "Alice"
-      ]
+      ],
+      "notes": "(as Summer Howell)"
     },
     {
       "imdbId": "nm0030394",
@@ -145,13 +156,9 @@
     {
       "imdbId": "nm0238841",
       "name": "Don Mancini",
-      "notes": "based on the characters created by"
-    },
-    {
-      "imdbId": "nm0238841",
-      "name": "Don Mancini",
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United States"
 }

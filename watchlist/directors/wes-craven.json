@@ -9,11 +9,13 @@
     },
     {
       "imdbId": "tt0077681",
-      "title": "The Hills Have Eyes (1977)"
+      "title": "The Hills Have Eyes (1977)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0078330",
-      "title": "Summer of Fear (1978) (TV)"
+      "title": "Summer of Fear (1978)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0082245",
@@ -21,11 +23,13 @@
     },
     {
       "imdbId": "tt0084745",
-      "title": "Swamp Thing (1982)"
+      "title": "Swamp Thing (1982)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0087480",
-      "title": "Invitation to Hell (1984) (TV)"
+      "title": "Invitation to Hell (1984)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0087800",
@@ -33,11 +37,14 @@
     },
     {
       "imdbId": "tt0089274",
-      "title": "The Hills Have Eyes Part II (1984)"
+      "title": "The Hills Have Eyes Part II (1984)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0088912",
-      "title": "Chiller (1985) (TV)"
+      "title": "Chiller (1985)",
+      "titleType": "TV Movie",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0090917",
@@ -45,7 +52,8 @@
     },
     {
       "imdbId": "tt0096071",
-      "title": "The Serpent and the Rainbow (1988)"
+      "title": "The Serpent and the Rainbow (1988)",
+      "role": "directed by"
     },
     {
       "imdbId": "tt0098320",
@@ -53,7 +61,8 @@
     },
     {
       "imdbId": "tt0100253",
-      "title": "Night Visions (1990) (TV)"
+      "title": "Night Visions (1990)",
+      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0105121",
@@ -93,7 +102,10 @@
     },
     {
       "imdbId": "tt0401711",
-      "title": "Paris, Je T'aime (2006)"
+      "title": "Paris, Je T'aime (2006)",
+      "attributes": [
+        "segment \"Pere-Lachaise\""
+      ]
     },
     {
       "imdbId": "tt0872230",
@@ -104,11 +116,5 @@
       "title": "Scream 4 (2011)"
     }
   ],
-  "excludedTitles": [
-    {
-      "imdbId": "tt32408216",
-      "title": "Scream 3: Alternate Ending (2000) (V)",
-      "reason": "bonus feature"
-    }
-  ]
+  "excludedTitles": []
 }

@@ -22,19 +22,23 @@
   "directors": [
     {
       "imdbId": "nm0330360",
-      "name": "Keith Gordon"
+      "name": "Keith Gordon",
+      "notes": "(segment \"Patterns\")"
     },
     {
       "imdbId": "nm0001361",
-      "name": "Tobe Hooper"
+      "name": "Tobe Hooper",
+      "notes": "(segment \"The Maze\")"
     },
     {
       "imdbId": "nm0788610",
-      "name": "Paul Shapiro"
+      "name": "Paul Shapiro",
+      "notes": "(segment \"Harmony\")"
     },
     {
       "imdbId": "nm0870306",
-      "name": "Ian Toynton"
+      "name": "Ian Toynton",
+      "notes": "(segment \"Voices\")"
     }
   ],
   "performers": [
@@ -239,7 +243,8 @@
       "name": "Cameron Bright",
       "roles": [
         "Tim"
-      ]
+      ],
+      "notes": "(as Cameron Crigger)"
     },
     {
       "imdbId": "nm0396651",
@@ -260,27 +265,28 @@
     {
       "imdbId": "nm0229004",
       "name": "Will Dixon",
-      "notes": "writer (segment \"Voices\") &"
+      "notes": "(segment \"Voices\") &"
     },
     {
       "imdbId": "nm0454307",
       "name": "Damian Kindler",
-      "notes": "writer (segment \"Voices\")"
+      "notes": "(segment \"Voices\")"
     },
     {
       "imdbId": "nm0039684",
       "name": "Steve Aspis",
-      "notes": "writer (segment \"The Maze\")"
+      "notes": "(segment \"The Maze\")"
     },
     {
       "imdbId": "nm0505255",
       "name": "Philip Levens",
-      "notes": "writer (segment \"Patterns\")"
+      "notes": "(segment \"Patterns\")"
     },
     {
       "imdbId": "nm1433580",
       "name": "Jose Rivera",
-      "notes": "writer (segment \"Harmony\")"
+      "notes": "(segment \"Harmony\")"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

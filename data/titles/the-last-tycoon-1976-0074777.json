@@ -5,7 +5,7 @@
   "originalTitle": "The Last Tycoon",
   "sortTitle": "last-tycoon-1976",
   "year": "1976",
-  "releaseDate": "1976-11-17",
+  "releaseDate": "1976-11-19",
   "countries": [
     "United States"
   ],
@@ -137,14 +137,16 @@
       "name": "Seymour Cassel",
       "roles": [
         "Seal Trainer"
-      ]
+      ],
+      "notes": "(as Seymour Cassell)"
     },
     {
       "imdbId": "nm0001378",
       "name": "Anjelica Huston",
       "roles": [
         "Edna"
-      ]
+      ],
+      "notes": "(as Angelica Huston)"
     },
     {
       "imdbId": "nm0058783",
@@ -229,5 +231,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 123
+  "runtimeMinutes": 123,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Voodoo Island",
   "sortTitle": "voodoo-island-1957",
   "year": "1957",
-  "releaseDate": "1957-02-01",
+  "releaseDate": "1957-02-??",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0494110",
-      "name": "Reginald Le Borg"
+      "name": "Reginald Le Borg",
+      "notes": "(as Reginald LeBorg)"
     }
   ],
   "performers": [
@@ -47,7 +48,8 @@
       "name": "Elisha Cook Jr.",
       "roles": [
         "Martin Schuyler"
-      ]
+      ],
+      "notes": "(as Elisha Cook)"
     },
     {
       "imdbId": "nm0714156",
@@ -68,7 +70,8 @@
       "name": "Friedrich von Ledebur",
       "roles": [
         "Native Chief"
-      ]
+      ],
+      "notes": "(as Frederich Ledebur)"
     },
     {
       "imdbId": "nm0228836",
@@ -106,5 +109,6 @@
       "notes": "written by (as Richard Landau)"
     }
   ],
-  "runtimeMinutes": 76
+  "runtimeMinutes": 76,
+  "releaseDateCountry": "United States"
 }

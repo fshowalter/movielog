@@ -5,7 +5,7 @@
   "originalTitle": "Assault on Precinct 13",
   "sortTitle": "assault-on-precinct-13-1976",
   "year": "1976",
-  "releaseDate": "1976-10-08",
+  "releaseDate": "1976-11-05",
   "countries": [
     "United States"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Nancy Kyes",
       "roles": [
         "Julie"
-      ]
+      ],
+      "notes": "(as Nancy Loomis)"
     },
     {
       "imdbId": "nm0116274",
@@ -124,7 +126,8 @@
       "name": "Gilbert De la Pena",
       "roles": [
         "Chicano Warlord"
-      ]
+      ],
+      "notes": "(as Gilbert De La Pena)"
     },
     {
       "imdbId": "nm0291328",
@@ -229,7 +232,24 @@
       "name": "Bill Taylor",
       "roles": [
         "Gang Member"
-      ]
+      ],
+      "notes": "(as William Taylor)"
+    },
+    {
+      "imdbId": "nm0292833",
+      "name": "Brent Keast",
+      "roles": [
+        "Radio Announcer"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0809313",
+      "name": "Maynard Smith",
+      "roles": [
+        "Police Commissioner"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -239,5 +259,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "X the Unknown",
   "sortTitle": "x-the-unknown-1956",
   "year": "1956",
-  "releaseDate": "1956-09-21",
+  "releaseDate": "1957-05-??",
   "countries": [
     "United Kingdom"
   ],
@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0635554",
       "name": "Leslie Norman"
+    },
+    {
+      "imdbId": "nm0521334",
+      "name": "Joseph Losey",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -81,7 +86,8 @@
       "name": "Ian MacNaughton",
       "roles": [
         "Haggis"
-      ]
+      ],
+      "notes": "(as Ian McNaughton)"
     },
     {
       "imdbId": "nm0728085",
@@ -116,14 +122,16 @@
       "name": "Norman MacOwan",
       "roles": [
         "Old Tom"
-      ]
+      ],
+      "notes": "(as Norman Macowan)"
     },
     {
       "imdbId": "nm0356488",
       "name": "Neil Hallett",
       "roles": [
         "Unwin"
-      ]
+      ],
+      "notes": "(as Neil Hallet)"
     },
     {
       "imdbId": "nm0178560",
@@ -137,14 +145,16 @@
       "name": "Michael Brooke",
       "roles": [
         "Willie Harding"
-      ]
+      ],
+      "notes": "(as Michael Brook)"
     },
     {
       "imdbId": "nm0385668",
       "name": "Frazer Hines",
       "roles": [
         "Ian Osborn"
-      ]
+      ],
+      "notes": "(as Fraser Hines)"
     }
   ],
   "writers": [
@@ -159,5 +169,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 81
+  "runtimeMinutes": 81,
+  "releaseDateCountry": "United States"
 }

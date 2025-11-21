@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0276169",
-      "name": "Tom Holland"
+      "name": "Tom Holland",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -73,7 +74,8 @@
       "name": "Art Evans",
       "roles": [
         "Detective Lennox"
-      ]
+      ],
+      "notes": "(as Art J. Evans)"
     },
     {
       "imdbId": "nm0827856",
@@ -115,7 +117,8 @@
       "name": "Bob Corff",
       "roles": [
         "Jonathan"
-      ]
+      ],
+      "notes": "(as Robert Corff)"
     },
     {
       "imdbId": "nm0114387",
@@ -136,14 +139,8 @@
       "name": "Prince Hughes",
       "roles": [
         "Bouncer #3"
-      ]
-    },
-    {
-      "imdbId": "nm0000489",
-      "name": "Christopher Lee",
-      "roles": [
-        "Dracula"
-      ]
+      ],
+      "notes": "(as Prince A. Hughes)"
     }
   ],
   "writers": [
@@ -153,5 +150,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Halloween",
   "sortTitle": "halloween-2018",
   "year": "2018",
-  "releaseDate": "2018-09-08",
+  "releaseDate": "2018-10-19",
   "countries": [
     "United States"
   ],
@@ -132,7 +132,8 @@
       "name": "Michael 'Mick' Harrity",
       "roles": [
         "Warden Kuneman"
-      ]
+      ],
+      "notes": "(as Michael Harrity)"
     },
     {
       "imdbId": "nm9711535",
@@ -160,14 +161,16 @@
       "name": "Vincent Mattis",
       "roles": [
         "Lumpy"
-      ]
+      ],
+      "notes": "(as Vince Mattis)"
     },
     {
       "imdbId": "nm0234174",
       "name": "Omar J. Dorsey",
       "roles": [
         "Sheriff Barker"
-      ]
+      ],
+      "notes": "(as Omar Dorsey)"
     },
     {
       "imdbId": "nm2641841",
@@ -188,14 +191,16 @@
       "name": "Christopher Allen Nelson",
       "roles": [
         "Officer Francis"
-      ]
+      ],
+      "notes": "(as Christopher Nelson)"
     },
     {
       "imdbId": "nm3478091",
       "name": "Teresa Johnson",
       "roles": [
         "Onlooker"
-      ]
+      ],
+      "notes": "(as Teresa Ann Johnson)"
     },
     {
       "imdbId": "nm8674999",
@@ -258,7 +263,8 @@
       "name": "Chris Holloway",
       "roles": [
         "Officer #1"
-      ]
+      ],
+      "notes": "(as Christopher Holloway)"
     },
     {
       "imdbId": "nm10132936",
@@ -293,48 +299,11 @@
       "name": "P.J. Soles",
       "roles": [
         "Teacher"
-      ]
-    },
-    {
-      "imdbId": "nm0426184",
-      "name": "Sandy Johnson",
-      "roles": [
-        "Judith Myers from Halloween (1978)"
-      ]
-    },
-    {
-      "imdbId": "nm0382149",
-      "name": "Jon-Erik Hexum",
-      "roles": [
-        "Phineas Bogg from Voyagers"
-      ]
-    },
-    {
-      "imdbId": "nm0671375",
-      "name": "Meeno Peluce",
-      "roles": [
-        "Jeffrey Jones from Voyagers"
-      ]
-    },
-    {
-      "imdbId": "nm0393172",
-      "name": "Varnum Honey",
-      "roles": [
-        "Motorcycle Cop from Repo Man"
-      ]
+      ],
+      "notes": "(as PJ Soles)"
     }
   ],
   "writers": [
-    {
-      "imdbId": "nm0000118",
-      "name": "John Carpenter",
-      "notes": "based on characters created by and"
-    },
-    {
-      "imdbId": "nm0384185",
-      "name": "Debra Hill",
-      "notes": "based on characters created by"
-    },
     {
       "imdbId": "nm2171769",
       "name": "Jeff Fradley",
@@ -351,5 +320,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 106
+  "runtimeMinutes": 106,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "sortTitle": "pineapple-express-2008",
   "year": "2008",
   "slug": "pineapple-express-2008",
-  "releaseDate": "2008-07-31",
+  "releaseDate": "2008-08-06",
   "runtimeMinutes": 111,
   "countries": [
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0337773",
-      "name": "David Gordon Green"
+      "name": "David Gordon Green",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -133,7 +134,8 @@
       "name": "Jonathan Spencer",
       "roles": [
         "Scientist"
-      ]
+      ],
+      "notes": "(as Jonathan Walker Spencer)"
     },
     {
       "imdbId": "nm0497086",
@@ -168,7 +170,8 @@
       "name": "Howard S. Lefstein",
       "roles": [
         "Mark"
-      ]
+      ],
+      "notes": "(as Howard Lefstein)"
     },
     {
       "imdbId": "nm0768145",
@@ -210,7 +213,8 @@
       "name": "John Robert Tramutola",
       "roles": [
         "Walt"
-      ]
+      ],
+      "notes": "(as John Tramutola)"
     },
     {
       "imdbId": "nm0188966",
@@ -273,7 +277,8 @@
       "name": "Peter Gray Lewis",
       "roles": [
         "Peter - Thug #1"
-      ]
+      ],
+      "notes": "(as Peter Lewis)"
     },
     {
       "imdbId": "nm0052446",
@@ -330,5 +335,6 @@
       "name": "Evan Goldberg",
       "notes": "story"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

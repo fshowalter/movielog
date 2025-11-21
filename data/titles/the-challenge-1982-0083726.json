@@ -5,7 +5,7 @@
   "originalTitle": "The Challenge",
   "sortTitle": "challenge-1982",
   "year": "1982",
-  "releaseDate": "1982-01-25",
+  "releaseDate": "1982-07-23",
   "countries": [
     "United States",
     "Japan"
@@ -250,14 +250,16 @@
       "name": "Sôkyû Fujita",
       "roles": [
         "Man in Bar"
-      ]
+      ],
+      "notes": "(as Munehisa Fujita)"
     },
     {
       "imdbId": "nm0619997",
       "name": "Sanae Nakahara",
       "roles": [
         "Cashier"
-      ]
+      ],
+      "notes": "(as Sanaye Nakahara)"
     },
     {
       "imdbId": "nm1073787",
@@ -277,7 +279,13 @@
       "imdbId": "nm0000626",
       "name": "John Sayles",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0595573",
+      "name": "Ivan Moffat",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 108
+  "runtimeMinutes": 108,
+  "releaseDateCountry": "United States"
 }

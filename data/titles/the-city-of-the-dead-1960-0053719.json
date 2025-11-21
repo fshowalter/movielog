@@ -5,7 +5,7 @@
   "originalTitle": "The City of the Dead",
   "sortTitle": "city-of-the-dead-1960",
   "year": "1960",
-  "releaseDate": "1960-09-09",
+  "releaseDate": "1962-09-12",
   "countries": [
     "United Kingdom"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0610303",
-      "name": "John Llewellyn Moxey"
+      "name": "John Llewellyn Moxey",
+      "notes": "(as John Moxey)"
     }
   ],
   "performers": [
@@ -97,7 +98,8 @@
       "name": "James Dyrenforth",
       "roles": [
         "Garage Attendant"
-      ]
+      ],
+      "notes": "(as Jimmy Dyrenforth)"
     },
     {
       "imdbId": "nm0390240",
@@ -126,5 +128,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 76
+  "runtimeMinutes": 76,
+  "releaseDateCountry": "United States"
 }

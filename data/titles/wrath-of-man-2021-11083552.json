@@ -5,7 +5,7 @@
   "originalTitle": "Wrath of Man",
   "sortTitle": "wrath-of-man-2021",
   "year": "2021",
-  "releaseDate": "2021-04-22",
+  "releaseDate": "2021-05-07",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0005363",
-      "name": "Guy Ritchie"
+      "name": "Guy Ritchie",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -41,7 +42,8 @@
       "name": "Rocci Boy Williams",
       "roles": [
         "Hollow Bob"
-      ]
+      ],
+      "notes": "(as Rocci Williams)"
     },
     {
       "imdbId": "nm0001326",
@@ -265,7 +267,8 @@
       "name": "Post Malone",
       "roles": [
         "Robber #6"
-      ]
+      ],
+      "notes": "(as Austin Post)"
     },
     {
       "imdbId": "nm5630547",
@@ -300,7 +303,8 @@
       "name": "Kojo Attah",
       "roles": [
         "SWAT"
-      ]
+      ],
+      "notes": "(as a different name)"
     }
   ],
   "writers": [
@@ -330,5 +334,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 119
+  "runtimeMinutes": 119,
+  "releaseDateCountry": "United States"
 }

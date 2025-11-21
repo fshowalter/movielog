@@ -5,7 +5,7 @@
   "originalTitle": "Scarface",
   "sortTitle": "scarface-1932",
   "year": "1932",
-  "releaseDate": "1932-03-31",
+  "releaseDate": "1932-04-09",
   "countries": [
     "United States"
   ],
@@ -23,7 +23,8 @@
     },
     {
       "imdbId": "nm0744514",
-      "name": "Richard Rosson"
+      "name": "Richard Rosson",
+      "notes": "co-director"
     }
   ],
   "performers": [
@@ -137,7 +138,18 @@
       "imdbId": "nm0122446",
       "name": "W.R. Burnett",
       "notes": "dialogue"
+    },
+    {
+      "imdbId": "nm0001328",
+      "name": "Howard Hawks",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0664646",
+      "name": "Fred Pasley",
+      "notes": "screenplay (uncredited)"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "sortTitle": "american-wedding-2003",
   "year": "2003",
   "slug": "american-wedding-2003",
-  "releaseDate": "2003-07-24",
+  "releaseDate": "2003-08-01",
   "runtimeMinutes": 96,
   "countries": [
     "United States",
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0245888",
-      "name": "Jesse Dylan"
+      "name": "Jesse Dylan",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -103,7 +104,8 @@
       "name": "Eric Allan Kramer",
       "roles": [
         "Bear"
-      ]
+      ],
+      "notes": "(as Eric Allen Kramer)"
     },
     {
       "imdbId": "nm1343600",
@@ -117,7 +119,8 @@
       "name": "Nikki Ziering",
       "roles": [
         "Officer Krystal"
-      ]
+      ],
+      "notes": "(as Nikki Schieler Ziering)"
     },
     {
       "imdbId": "nm0696303",
@@ -131,7 +134,8 @@
       "name": "Antoinette Spolar",
       "roles": [
         "Cultured Saleswoman"
-      ]
+      ],
+      "notes": "(as Antoinette Levine)"
     },
     {
       "imdbId": "nm0005490",
@@ -145,7 +149,8 @@
       "name": "Reynaldo Gallegos",
       "roles": [
         "Leslie Summers"
-      ]
+      ],
+      "notes": "(as Reynaldo A. Gallegos)"
     },
     {
       "imdbId": "nm0376789",
@@ -166,7 +171,8 @@
       "name": "Corinne Reilly",
       "roles": [
         "Caterer"
-      ]
+      ],
+      "notes": "(as Corinne Reilly-Elfont)"
     },
     {
       "imdbId": "nm0504489",
@@ -201,7 +207,8 @@
       "name": "Michael Coleman",
       "roles": [
         "Maitre'd"
-      ]
+      ],
+      "notes": "(as Michael Garrity Coleman)"
     },
     {
       "imdbId": "nm0303078",
@@ -306,14 +313,16 @@
       "name": "Frank Howard",
       "roles": [
         "Gay Bar Back"
-      ]
+      ],
+      "notes": "(as Frank Roessler)"
     },
     {
       "imdbId": "nm0690088",
       "name": "Marguerite Pomerhn Derricks",
       "roles": [
         "Dance Instructor"
-      ]
+      ],
+      "notes": "(as Marguerite Derricks)"
     },
     {
       "imdbId": "nm1399163",
@@ -348,12 +357,8 @@
     {
       "imdbId": "nm0381221",
       "name": "Adam Herz",
-      "notes": "characters"
-    },
-    {
-      "imdbId": "nm0381221",
-      "name": "Adam Herz",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Interference",
   "sortTitle": "interference-1928",
   "year": "1928",
-  "releaseDate": "1928-11-05",
+  "releaseDate": "1929-02-??",
   "countries": [
     "United States"
   ],
@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0578985",
-      "name": "Lothar Mendes"
+      "name": "Lothar Mendes",
+      "notes": "silent version"
     },
     {
       "imdbId": "nm0690120",
-      "name": "Roy Pomeroy"
+      "name": "Roy Pomeroy",
+      "notes": "sound version (as Roy J. Pomeroy)"
     }
   ],
   "performers": [
@@ -135,5 +137,6 @@
       "notes": "play"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "Japan"
 }

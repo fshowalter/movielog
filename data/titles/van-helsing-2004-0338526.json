@@ -5,7 +5,7 @@
   "sortTitle": "van-helsing-2004",
   "year": "2004",
   "slug": "van-helsing-2004",
-  "releaseDate": "2004-05-03",
+  "releaseDate": "2004-05-07",
   "runtimeMinutes": 131,
   "countries": [
     "Czech Republic",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0814085",
-      "name": "Stephen Sommers"
+      "name": "Stephen Sommers",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -127,7 +128,8 @@
       "name": "Stephen Fisher",
       "roles": [
         "Dr. Jekyll"
-      ]
+      ],
+      "notes": "(as Stephen H. Fisher)"
     },
     {
       "imdbId": "nm0603184",
@@ -191,13 +193,6 @@
       "roles": [
         "Dracula's Ball Performer"
       ]
-    },
-    {
-      "imdbId": "nm0876030",
-      "name": "Todd Tucker",
-      "roles": [
-        "Vampire bat puppeteer"
-      ]
     }
   ],
   "writers": [
@@ -206,5 +201,6 @@
       "name": "Stephen Sommers",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

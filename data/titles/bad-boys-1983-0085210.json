@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0742819",
-      "name": "Rick Rosenthal"
+      "name": "Rick Rosenthal",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -97,7 +98,8 @@
       "name": "Tony Mockus Jr.",
       "roles": [
         "Warden Bendix"
-      ]
+      ],
+      "notes": "(as Tony Mockus)"
     },
     {
       "imdbId": "nm0054385",
@@ -160,7 +162,8 @@
       "name": "Michael Andrew Gorman",
       "roles": [
         "Detective Moran"
-      ]
+      ],
+      "notes": "(as Andrew Gorman)"
     },
     {
       "imdbId": "nm0202991",
@@ -174,7 +177,8 @@
       "name": "Don James",
       "roles": [
         "Black Gang Leader"
-      ]
+      ],
+      "notes": "(as Donald James)"
     },
     {
       "imdbId": "nm0017549",
@@ -188,7 +192,8 @@
       "name": "Rick Rosenthal",
       "roles": [
         "Judge"
-      ]
+      ],
+      "notes": "(as Richard L. Rosenthal)"
     },
     {
       "imdbId": "nm0831870",
@@ -244,7 +249,8 @@
       "name": "Marvin Towns Jr.",
       "roles": [
         "Bad Dude #1"
-      ]
+      ],
+      "notes": "(as Marvin Townes)"
     },
     {
       "imdbId": "nm0390153",
@@ -309,5 +315,6 @@
       "name": "Richard Di Lello",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

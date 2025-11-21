@@ -5,7 +5,7 @@
   "originalTitle": "Dredd",
   "sortTitle": "dredd-2012",
   "year": "2012",
-  "releaseDate": "2012-07-11",
+  "releaseDate": "2012-09-21",
   "countries": [
     "United Kingdom",
     "South Africa",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0871428",
-      "name": "Pete Travis"
+      "name": "Pete Travis",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -258,20 +259,11 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0905957",
-      "name": "John Wagner",
-      "notes": "'Judge Dredd' created by and"
-    },
-    {
-      "imdbId": "nm0264338",
-      "name": "Carlos Ezquerra",
-      "notes": "'Judge Dredd' created by"
-    },
-    {
       "imdbId": "nm0307497",
       "name": "Alex Garland",
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

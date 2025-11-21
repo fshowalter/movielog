@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0712639",
-      "name": "John Rawlins"
+      "name": "John Rawlins",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -48,7 +49,7 @@
       "imdbId": "nm0039049",
       "name": "Edward Ashley",
       "roles": [
-        "Dr. L. E. Thal"
+        "Dr. L.E. Thal"
       ]
     },
     {
@@ -84,13 +85,14 @@
       "name": "James Nolan",
       "roles": [
         "Dan Sterne"
-      ]
+      ],
+      "notes": "(as Jim Nolan)"
     },
     {
       "imdbId": "nm0003277",
       "name": "Joseph Crehan",
       "roles": [
-        "Chief Brandon"
+        "Police Chief Brandon"
       ]
     },
     {
@@ -121,12 +123,8 @@
       "imdbId": "nm0448839",
       "name": "Robert E. Kent",
       "notes": "from a story by"
-    },
-    {
-      "imdbId": "nm0332333",
-      "name": "Chester Gould",
-      "notes": "based on the cartoon strip \"Dick Tracy\" created by"
     }
   ],
-  "runtimeMinutes": 65
+  "runtimeMinutes": 65,
+  "releaseDateCountry": "United States"
 }

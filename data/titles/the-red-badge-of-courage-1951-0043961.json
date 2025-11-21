@@ -5,7 +5,7 @@
   "originalTitle": "The Red Badge of Courage",
   "sortTitle": "red-badge-of-courage-1951",
   "year": "1951",
-  "releaseDate": "1951-09-26",
+  "releaseDate": "1951-10-11",
   "countries": [
     "United States"
   ],
@@ -21,24 +21,39 @@
   ],
   "performers": [
     {
-      "imdbId": "nm0001559",
-      "name": "Audie Murphy",
+      "imdbId": "nm0222596",
+      "name": "Andy Devine",
       "roles": [
-        "Henry Fleming - the Youth"
+        "The Cheery Soldier"
       ]
     },
     {
-      "imdbId": "nm0560887",
-      "name": "Bill Mauldin",
+      "imdbId": "nm0247691",
+      "name": "Robert Easton",
       "roles": [
-        "Tom Wilson - the Loud Soldier"
-      ]
+        "Thompson"
+      ],
+      "notes": "(as Robert Easton Burke)"
     },
     {
       "imdbId": "nm0225255",
       "name": "Douglas Dick",
       "roles": [
         "The Lieutenant"
+      ]
+    },
+    {
+      "imdbId": "nm0243885",
+      "name": "Tim Durant",
+      "roles": [
+        "The General"
+      ]
+    },
+    {
+      "imdbId": "nm0402277",
+      "name": "Arthur Hunnicutt",
+      "roles": [
+        "Bill Porter"
       ]
     },
     {
@@ -52,35 +67,21 @@
       "imdbId": "nm0226109",
       "name": "John Dierkes",
       "roles": [
-        "Jim Conklin - the Tall Soldier"
+        "The Tall Soldier - Jim Conklin"
       ]
     },
     {
-      "imdbId": "nm0402277",
-      "name": "Arthur Hunnicutt",
+      "imdbId": "nm0560887",
+      "name": "Bill Mauldin",
       "roles": [
-        "Bill Porter"
+        "The Loud Soldier - Tom Wilson"
       ]
     },
     {
-      "imdbId": "nm0243885",
-      "name": "Tim Durant",
+      "imdbId": "nm0001559",
+      "name": "Audie Murphy",
       "roles": [
-        "The General"
-      ]
-    },
-    {
-      "imdbId": "nm0222596",
-      "name": "Andy Devine",
-      "roles": [
-        "The Cheery Soldier"
-      ]
-    },
-    {
-      "imdbId": "nm0247691",
-      "name": "Robert Easton",
-      "roles": [
-        "Thompson"
+        "The Youth - Henry Fleming"
       ]
     }
   ],
@@ -101,5 +102,6 @@
       "notes": "adaptation"
     }
   ],
-  "runtimeMinutes": 69
+  "runtimeMinutes": 69,
+  "releaseDateCountry": "United States"
 }

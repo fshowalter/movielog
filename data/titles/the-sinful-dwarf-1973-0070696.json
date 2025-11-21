@@ -5,7 +5,7 @@
   "originalTitle": "Dværgen",
   "sortTitle": "sinful-dwarf-1973",
   "year": "1973",
-  "releaseDate": "1973-12-01",
+  "releaseDate": "1973-12-??",
   "countries": [
     "Denmark"
   ],
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0062677",
-      "name": "Eduardo Fuller"
+      "name": "Eduardo Fuller",
+      "notes": "(as Vidal Raski)"
     }
   ],
   "performers": [
@@ -47,7 +48,8 @@
       "name": "Werner Hedman",
       "roles": [
         "Santa Claus"
-      ]
+      ],
+      "notes": "(as Werner Hedmann)"
     },
     {
       "imdbId": "nm0535203",
@@ -68,7 +70,8 @@
       "name": "Jeanette Marsden",
       "roles": [
         "Sex Slave"
-      ]
+      ],
+      "notes": "(as Jeannette Marsden)"
     },
     {
       "imdbId": "nm0360847",
@@ -82,7 +85,8 @@
       "name": "Jette Koplev",
       "roles": [
         "Sex Slave"
-      ]
+      ],
+      "notes": "(as Jane Cutter)"
     },
     {
       "imdbId": "nm0928621",
@@ -129,7 +133,8 @@
       "name": "Torben Bille",
       "roles": [
         "The Dwarf"
-      ]
+      ],
+      "notes": "(as Torben)"
     }
   ],
   "writers": [
@@ -144,5 +149,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

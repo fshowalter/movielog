@@ -5,7 +5,7 @@
   "originalTitle": "The Offence",
   "sortTitle": "offence-1973",
   "year": "1973",
-  "releaseDate": "1973-??-??",
+  "releaseDate": "1973-01-26",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0001486",
-      "name": "Sidney Lumet"
+      "name": "Sidney Lumet",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -140,5 +141,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 112
+  "runtimeMinutes": 112,
+  "releaseDateCountry": "West Germany"
 }

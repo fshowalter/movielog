@@ -5,7 +5,7 @@
   "sortTitle": "smokey-and-the-bandit-1977",
   "year": "1977",
   "slug": "smokey-and-the-bandit-1977",
-  "releaseDate": "1977-05-19",
+  "releaseDate": "1977-05-27",
   "runtimeMinutes": 96,
   "countries": [
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0624102",
-      "name": "Hal Needham"
+      "name": "Hal Needham",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -97,14 +98,16 @@
       "name": "Susie Ewing",
       "roles": [
         "Hot Pants"
-      ]
+      ],
+      "notes": "(as Susan McIver)"
     },
     {
       "imdbId": "nm0814074",
       "name": "Laura Lizer Sommers",
       "roles": [
         "Little Beaver"
-      ]
+      ],
+      "notes": "(as Laura Lizer)"
     },
     {
       "imdbId": "nm0542885",
@@ -168,5 +171,6 @@
       "name": "Alan Mandel",
       "notes": "screenplay by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

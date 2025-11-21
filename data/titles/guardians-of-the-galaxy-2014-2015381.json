@@ -5,7 +5,7 @@
   "originalTitle": "Guardians of the Galaxy",
   "sortTitle": "guardians-of-the-galaxy-2014",
   "year": "2014",
-  "releaseDate": "2014-07-21",
+  "releaseDate": "2014-08-01",
   "countries": [
     "United States",
     "United Kingdom"
@@ -35,7 +35,8 @@
       "name": "Zoe Saldaña",
       "roles": [
         "Gamora"
-      ]
+      ],
+      "notes": "(as Zoe Saldana)"
     },
     {
       "imdbId": "nm1176985",
@@ -43,6 +44,22 @@
       "roles": [
         "Drax"
       ]
+    },
+    {
+      "imdbId": "nm0004874",
+      "name": "Vin Diesel",
+      "roles": [
+        "Groot"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0177896",
+      "name": "Bradley Cooper",
+      "roles": [
+        "Rocket"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm1195855",
@@ -246,7 +263,8 @@
       "name": "Emmett J Scanlan",
       "roles": [
         "Head Riot Guard"
-      ]
+      ],
+      "notes": "(as Emmett J. Scanlan)"
     },
     {
       "imdbId": "nm5513987",
@@ -275,6 +293,14 @@
       "roles": [
         "Moloka Dar"
       ]
+    },
+    {
+      "imdbId": "nm0277213",
+      "name": "Nathan Fillion",
+      "roles": [
+        "Monstrous Inmate"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0287055",
@@ -316,7 +342,8 @@
       "name": "Ene Frost",
       "roles": [
         "Rifle Guard"
-      ]
+      ],
+      "notes": "(as Enoch Frost)"
     },
     {
       "imdbId": "nm2788751",
@@ -358,7 +385,8 @@
       "name": "Abi Olasoji",
       "roles": [
         "Lady Of The Boot Of Jemiah"
-      ]
+      ],
+      "notes": "(as Abidemi Sobande)"
     },
     {
       "imdbId": "nm6651911",
@@ -415,6 +443,14 @@
       "roles": [
         "Ravager Pilot"
       ]
+    },
+    {
+      "imdbId": "nm0957772",
+      "name": "Rob Zombie",
+      "roles": [
+        "Ravager Navigator"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0751357",
@@ -507,42 +543,8 @@
       "imdbId": "nm5037683",
       "name": "Andy Lanning",
       "notes": "based on the Marvel comic book by"
-    },
-    {
-      "imdbId": "nm2757098",
-      "name": "Bill Mantlo",
-      "notes": "Rocket Raccoon created by and"
-    },
-    {
-      "imdbId": "nm0317493",
-      "name": "Keith Giffen",
-      "notes": "Rocket Raccoon created by"
-    },
-    {
-      "imdbId": "nm4160687",
-      "name": "Jim Starlin",
-      "notes": "Drax the Destroyer, Gamora and Thanos created by"
-    },
-    {
-      "imdbId": "nm1921680",
-      "name": "Steve Englehart",
-      "notes": "Star-Lord created by and"
-    },
-    {
-      "imdbId": "nm3053444",
-      "name": "Steve Gan",
-      "notes": "Star-Lord created by"
-    },
-    {
-      "imdbId": "nm0314153",
-      "name": "Steve Gerber",
-      "notes": "Howard the Duck created by and"
-    },
-    {
-      "imdbId": "nm0562554",
-      "name": "Val Mayerik",
-      "notes": "Howard the Duck created by"
     }
   ],
-  "runtimeMinutes": 121
+  "runtimeMinutes": 121,
+  "releaseDateCountry": "United States"
 }

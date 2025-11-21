@@ -5,7 +5,7 @@
   "sortTitle": "matrix-reloaded-2003",
   "year": "2003",
   "slug": "the-matrix-reloaded-2003",
-  "releaseDate": "2003-05-07",
+  "releaseDate": "2003-05-15",
   "runtimeMinutes": 138,
   "countries": [
     "United States"
@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0905154",
-      "name": "Lana Wachowski"
+      "name": "Lana Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     },
     {
       "imdbId": "nm0905152",
-      "name": "Lilly Wachowski"
+      "name": "Lilly Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     }
   ],
   "performers": [
@@ -72,7 +74,8 @@
       "name": "Don Battee",
       "roles": [
         "Vector"
-      ]
+      ],
+      "notes": "(as Don Batte)"
     },
     {
       "imdbId": "nm0000899",
@@ -247,14 +250,16 @@
       "name": "Malcolm Kennard",
       "roles": [
         "Abel"
-      ]
+      ],
+      "notes": "(as Malcom Kennard)"
     },
     {
       "imdbId": "nm0452979",
       "name": "David Kilde",
       "roles": [
         "Agent Jackson"
-      ]
+      ],
+      "notes": "(as David A. Kilde)"
     },
     {
       "imdbId": "nm0453641",
@@ -373,7 +378,8 @@
       "name": "David Will No",
       "roles": [
         "Cain"
-      ]
+      ],
+      "notes": "(as David No)"
     },
     {
       "imdbId": "nm0642444",
@@ -464,7 +470,8 @@
       "name": "Kevin Scott",
       "roles": [
         "18 Wheel Trucker"
-      ]
+      ],
+      "notes": "(as Kevin C. Scott)"
     },
     {
       "imdbId": "nm0801226",
@@ -541,7 +548,8 @@
       "name": "Leigh Whannell",
       "roles": [
         "Axel"
-      ]
+      ],
+      "notes": "(as Leigh Whannel)"
     },
     {
       "imdbId": "nm0924502",
@@ -562,7 +570,8 @@
       "name": "Anthony Brandon Wong",
       "roles": [
         "Ghost"
-      ]
+      ],
+      "notes": "(as Anthony Wong)"
     },
     {
       "imdbId": "nm0001875",
@@ -582,16 +591,7 @@
       "imdbId": "nm0905154",
       "name": "Lana Wachowski",
       "notes": "written by (as The Wachowski Brothers)"
-    },
-    {
-      "imdbId": "nm0905152",
-      "name": "Lilly Wachowski",
-      "notes": "characters (as The Wachowski Brothers) &"
-    },
-    {
-      "imdbId": "nm0905154",
-      "name": "Lana Wachowski",
-      "notes": "characters (as The Wachowski Brothers)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

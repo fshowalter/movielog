@@ -5,7 +5,7 @@
   "originalTitle": "The Hitman's Bodyguard",
   "sortTitle": "hitmans-bodyguard-2017",
   "year": "2017",
-  "releaseDate": "2017-08-10",
+  "releaseDate": "2017-08-18",
   "countries": [
     "United States",
     "Hong Kong",
@@ -24,7 +24,8 @@
   "directors": [
     {
       "imdbId": "nm0400850",
-      "name": "Patrick Hughes"
+      "name": "Patrick Hughes",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -286,7 +287,8 @@
       "name": "Alexander Terentyev",
       "roles": [
         "Hacker Merc"
-      ]
+      ],
+      "notes": "(as Alexander Mercury)"
     },
     {
       "imdbId": "nm6251153",
@@ -447,7 +449,8 @@
       "name": "Stiliyan Mavrov",
       "roles": [
         "Semi-Truck Driver"
-      ]
+      ],
+      "notes": "(as Stilian Mavrov)"
     },
     {
       "imdbId": "nm6143554",
@@ -482,7 +485,8 @@
       "name": "Ilian Emanviov",
       "roles": [
         "Burly Guard"
-      ]
+      ],
+      "notes": "(as Ilian Emanuilov)"
     }
   ],
   "writers": [
@@ -492,5 +496,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 118
+  "runtimeMinutes": 118,
+  "releaseDateCountry": "United States"
 }

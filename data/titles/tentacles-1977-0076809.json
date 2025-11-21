@@ -5,7 +5,7 @@
   "sortTitle": "tentacles-1977",
   "year": "1977",
   "slug": "tentacles-1977",
-  "releaseDate": "1977-02-25",
+  "releaseDate": "1977-06-15",
   "runtimeMinutes": 102,
   "countries": [
     "Italy"
@@ -21,7 +21,8 @@
   "directors": [
     {
       "imdbId": "nm0039890",
-      "name": "Ovidio G. Assonitis"
+      "name": "Ovidio G. Assonitis",
+      "notes": "(as Oliver Hellman)"
     }
   ],
   "performers": [
@@ -100,7 +101,8 @@
       "name": "Helena Mäkelä",
       "roles": [
         "Chris Docherty"
-      ]
+      ],
+      "notes": "(as Helena Makela)"
     },
     {
       "imdbId": "nm0015391",
@@ -139,7 +141,8 @@
       "name": "Leonard Lightfoot",
       "roles": [
         "Deputy Wilson"
-      ]
+      ],
+      "notes": "(as Leonard C. Lightfoot)"
     },
     {
       "imdbId": "nm0924984",
@@ -199,7 +202,8 @@
     {
       "imdbId": "nm0788620",
       "name": "Ron Shapiro",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ronald Shapiro)"
     },
     {
       "imdbId": "nm0425439",
@@ -223,5 +227,6 @@
       "name": "Steven W. Carabatsos",
       "notes": "written by (as Steve Carabatsos)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

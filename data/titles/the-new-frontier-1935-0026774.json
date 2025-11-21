@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0682744",
-      "name": "Carl Pierson"
+      "name": "Carl Pierson",
+      "notes": "(as Carl L. Pierson)"
     }
   ],
   "performers": [
@@ -49,7 +50,8 @@
       "name": "Al Bridge",
       "roles": [
         "Kit"
-      ]
+      ],
+      "notes": "(as Alan Bridge)"
     },
     {
       "imdbId": "nm0282418",
@@ -77,28 +79,32 @@
       "name": "Mary MacLaren",
       "roles": [
         "Mrs. Shaw"
-      ]
+      ],
+      "notes": "(as Mary MaClaren)"
     },
     {
       "imdbId": "nm0520380",
       "name": "Theodore Lorch",
       "roles": [
         "Joe"
-      ]
+      ],
+      "notes": "(as Theodore Loren)"
     },
     {
       "imdbId": "nm0833363",
       "name": "Glenn Strange",
       "roles": [
         "Norton"
-      ]
+      ],
+      "notes": "(as Glen Strange)"
     },
     {
       "imdbId": "nm0452404",
       "name": "Philip Kieffer",
       "roles": [
         "Army Officer"
-      ]
+      ],
+      "notes": "(as Phil Keefer)"
     },
     {
       "imdbId": "nm0050370",
@@ -122,5 +128,6 @@
       "notes": "story and screen play (as Robert Emmett)"
     }
   ],
-  "runtimeMinutes": 60
+  "runtimeMinutes": 60,
+  "releaseDateCountry": "United States"
 }

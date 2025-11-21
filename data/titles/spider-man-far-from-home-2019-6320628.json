@@ -5,7 +5,7 @@
   "originalTitle": "Spider-Man: Far from Home",
   "sortTitle": "spider-man-far-from-home-2019",
   "year": "2019",
-  "releaseDate": "2019-06-26",
+  "releaseDate": "2019-07-02",
   "countries": [
     "United States",
     "Czech Republic",
@@ -111,7 +111,8 @@
       "name": "J.B. Smoove",
       "roles": [
         "Mr. Dell"
-      ]
+      ],
+      "notes": "(as JB Smoove)"
     },
     {
       "imdbId": "nm7449863",
@@ -160,7 +161,8 @@
       "name": "Joshua Sinclair-Evans",
       "roles": [
         "Josh"
-      ]
+      ],
+      "notes": "(as Joshua Sinclair Evans)"
     },
     {
       "imdbId": "nm8271142",
@@ -174,7 +176,8 @@
       "name": "Sebastián Capitán Viveros",
       "roles": [
         "Sebastian"
-      ]
+      ],
+      "notes": "(as Sebastian Viveros)"
     },
     {
       "imdbId": "nm3297349",
@@ -216,7 +219,16 @@
       "name": "J.K. Simmons",
       "roles": [
         "J. Jonah Jameson"
-      ]
+      ],
+      "notes": "(as J. K. Simmons)"
+    },
+    {
+      "imdbId": "nm0314747",
+      "name": "Dawn Michelle King",
+      "roles": [
+        "E.D.I.T.H."
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm1151879",
@@ -286,7 +298,8 @@
       "name": "Lukás Bech",
       "roles": [
         "Helpful Dutch Man"
-      ]
+      ],
+      "notes": "(as Lukáš Bech)"
     },
     {
       "imdbId": "nm2271318",
@@ -337,17 +350,8 @@
       "imdbId": "nm0228492",
       "name": "Steve Ditko",
       "notes": "based on the Marvel comic book by"
-    },
-    {
-      "imdbId": "nm0800209",
-      "name": "Joe Simon",
-      "notes": "Captain America created by and"
-    },
-    {
-      "imdbId": "nm0456158",
-      "name": "Jack Kirby",
-      "notes": "Captain America created by"
     }
   ],
-  "runtimeMinutes": 129
+  "runtimeMinutes": 129,
+  "releaseDateCountry": "United States"
 }

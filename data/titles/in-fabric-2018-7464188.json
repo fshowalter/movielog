@@ -5,7 +5,7 @@
   "originalTitle": "In Fabric",
   "sortTitle": "in-fabric-2018",
   "year": "2018",
-  "releaseDate": "2018-09-13",
+  "releaseDate": "2019-12-06",
   "countries": [
     "United Kingdom"
   ],
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm3270827",
-      "name": "Peter Strickland"
+      "name": "Peter Strickland",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -304,7 +305,8 @@
       "name": "Donna Williams",
       "roles": [
         "Asphodel Blouse Customer"
-      ]
+      ],
+      "notes": "(as Donna C. Williams)"
     },
     {
       "imdbId": "nm3973152",
@@ -339,7 +341,8 @@
       "name": "Gina Keeney",
       "roles": [
         "Catalogue Model"
-      ]
+      ],
+      "notes": "(as Gina Keaney)"
     },
     {
       "imdbId": "nm3279526",
@@ -386,6 +389,14 @@
       ]
     },
     {
+      "imdbId": "nm0823288",
+      "name": "Andrew Starke",
+      "roles": [
+        "Football Scores"
+      ],
+      "notes": "(voice) (as Andy Starke)"
+    },
+    {
       "imdbId": "nm9272038",
       "name": "Rachel Sophia-Anthony",
       "roles": [
@@ -400,5 +411,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 118
+  "runtimeMinutes": 118,
+  "releaseDateCountry": "United States"
 }

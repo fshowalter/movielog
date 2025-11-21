@@ -5,7 +5,7 @@
   "originalTitle": "Montana",
   "sortTitle": "montana-1950",
   "year": "1950",
-  "releaseDate": "1950-01-10",
+  "releaseDate": "1950-01-28",
   "countries": [
     "United States"
   ],
@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0258015",
       "name": "Ray Enright"
+    },
+    {
+      "imdbId": "nm0909825",
+      "name": "Raoul Walsh",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -39,7 +44,8 @@
       "name": "S.Z. Sakall",
       "roles": [
         "Papa Otto Schultz"
-      ]
+      ],
+      "notes": "(as S.Z. 'Cuddles' Sakall)"
     },
     {
       "imdbId": "nm0448004",
@@ -113,5 +119,6 @@
       "notes": "based on a story by"
     }
   ],
-  "runtimeMinutes": 76
+  "runtimeMinutes": 76,
+  "releaseDateCountry": "United States"
 }

@@ -19,23 +19,28 @@
   "directors": [
     {
       "imdbId": "nm0139753",
-      "name": "John Carr"
+      "name": "John Carr",
+      "notes": "(segments \"The Case of Harry Billings\", \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0550696",
-      "name": "Phillip Marshak"
+      "name": "Phillip Marshak",
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0569710",
-      "name": "Tom McGowan"
+      "name": "Tom McGowan",
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0772436",
-      "name": "Jay Schlossberg-Cohen"
+      "name": "Jay Schlossberg-Cohen",
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0848121",
-      "name": "Gregg G. Tallas"
+      "name": "Gregg G. Tallas",
+      "notes": "(segment \"The Case of Claire Hansen\") (as Greg Tallas)"
     }
   ],
   "performers": [
@@ -43,334 +48,381 @@
       "imdbId": "nm0943726",
       "name": "Barbara Wyler",
       "roles": [
-        "Woman at Window (segment \"The Night Train\")"
-      ]
+        "Woman at Window"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0778615",
       "name": "Jamie Scoggin",
       "roles": [
-        "Man at Window (segment \"The Night Train\")"
-      ]
+        "Man at Window"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0529166",
       "name": "Stacey Lyons",
       "roles": [
-        "Dancer (segment \"The Night Train\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0534823",
       "name": "Linda Maderas",
       "roles": [
-        "Dancer (segment \"The Night Train\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0600087",
       "name": "Melanie Montilla",
       "roles": [
-        "Dancer (segment \"The Night Train\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0606039",
       "name": "Chantel Morogeus",
       "roles": [
-        "Dancer (segment \"The Night Train\")"
-      ]
+        "Dancer"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0948630",
       "name": "Byron Yordan",
       "roles": [
         "Rock Singer",
-        "Breakdancer (segment \"The Night Train\")"
-      ]
+        "Breakdancer"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0762598",
       "name": "Richard Sanford",
       "roles": [
-        "Bass (segment \"The Night Train\")"
-      ]
+        "Bass"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm6736049",
       "name": "Lori Bell",
       "roles": [
-        "Drums (segment \"The Night Train\")"
-      ]
+        "Drums"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0164263",
       "name": "Marlie Clark",
       "roles": [
-        "Guitar (segment \"The Night Train\")"
-      ]
+        "Guitar"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0033448",
       "name": "Rick Arbuckle",
       "roles": [
-        "Sax (segment \"The Night Train\")"
-      ]
+        "Sax"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0630390",
       "name": "Angela Nicoletti",
       "roles": [
-        "Singing Girl (segment \"The Night Train\")"
-      ]
+        "Singing Girl"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0751613",
       "name": "Dina Lee Russo",
       "roles": [
-        "Singing Girl (segment \"The Night Train\")"
-      ]
+        "Singing Girl"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0913426",
       "name": "Earl Washington",
       "roles": [
-        "Night Porter (segment \"The Night Train\")"
-      ]
+        "Night Porter"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0925762",
       "name": "Gabriel Whitehouse",
       "roles": [
-        "Conductor (segment \"The Night Train\")"
-      ]
+        "Conductor"
+      ],
+      "notes": "(segment \"The Night Train\")"
     },
     {
       "imdbId": "nm0320413",
       "name": "Tony Giorgio",
       "roles": [
-        "Satan (segment \"The Night Train\")"
-      ]
+        "Satan"
+      ],
+      "notes": "(segment \"The Night Train\") (as Lu Sifer)"
     },
     {
       "imdbId": "nm0562807",
       "name": "Ferdy Mayne",
       "roles": [
-        "God (segment \"The Night Train\")"
-      ]
+        "God"
+      ],
+      "notes": "(segment \"The Night Train\") (as God)"
     },
     {
       "imdbId": "nm0492342",
       "name": "John Phillip Law",
       "roles": [
-        "Harry Billings (segment \"The Case of Harry Billings\")"
-      ]
+        "Harry Billings"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0596959",
       "name": "Richard Moll",
       "roles": [
-        "Otto (segment \"The Case of Harry Billings\")",
-        "James Hansen (segment \"The Case of Claire Hansen\")"
-      ]
+        "Otto",
+        "James Hansen"
+      ],
+      "notes": "(segments \"The Case of Harry Billings\", \"The Case of Claire Hansen\") (as Charles Moll)"
     },
     {
       "imdbId": "nm0381559",
       "name": "Eva Hesse",
       "roles": [
-        "Harry's Wife (segment \"The Case of Harry Billings\")"
-      ]
+        "Harry's Wife"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0711606",
       "name": "Sharon Ratcliff",
       "roles": [
-        "Dr. Fargo (segment \"The Case of Harry Billings\")"
-      ]
+        "Dr. Fargo"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0103951",
       "name": "Arthur M. Braham",
       "roles": [
-        "Dr. Brewer (segment \"The Case of Harry Billings\")"
-      ]
+        "Dr. Brewer"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm1312382",
       "name": "Jini Flynn",
       "roles": [
-        "Newlywed Woman (segment \"The Case of Harry Billings\")"
-      ]
+        "Newlywed Woman"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0055745",
       "name": "Rick Barnes",
       "roles": [
-        "Newlywed Man (segment \"The Case of Harry Billings\")",
-        "Glenn Marshall (segment \"The Case of Gretta Connors\")"
-      ]
+        "Newlywed Man",
+        "Glenn Marshall"
+      ],
+      "notes": "(segments \"The Case of Harry Billings\", \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0914350",
       "name": "Lisa Watkins",
       "roles": [
-        "Verna, Bar Owner (segment \"The Case of Harry Billings\")"
-      ]
+        "Verna, Bar Owner"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0662123",
       "name": "Charles Parker",
       "roles": [
-        "Man in Bar (segment \"The Case of Harry Billings\")"
-      ]
+        "Man in Bar"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0179240",
       "name": "Micki Anne Corbin",
       "roles": [
-        "Blond at Church (segment \"The Case of Harry Billings\")"
-      ]
+        "Blond at Church"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0549067",
       "name": "Carla Marlanee",
       "roles": [
-        "Restaurant Girl (segment \"The Case of Harry Billings\")"
-      ]
+        "Restaurant Girl"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\") (as Carla Marlenee)"
     },
     {
       "imdbId": "nm0342028",
       "name": "Donna Grillo",
       "roles": [
-        "Dead Girl on Rope (segment \"The Case of Harry Billings\")"
-      ]
+        "Dead Girl on Rope"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0839919",
       "name": "Amy Sussman",
       "roles": [
-        "Bikini Girl (segment \"The Case of Harry Billings\")"
-      ]
+        "Bikini Girl"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0448222",
       "name": "Merideth Kennedy",
       "roles": [
-        "Dead Redhead (segment \"The Case of Harry Billings\")"
-      ]
+        "Dead Redhead"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\") (as Meredith Kennedy)"
     },
     {
       "imdbId": "nm0187088",
       "name": "Peter Creadick",
       "roles": [
-        "Lobotomized Patient (segment \"The Case of Harry Billings\")"
-      ]
+        "Lobotomized Patient"
+      ],
+      "notes": "(segment \"The Case of Harry Billings\")"
     },
     {
       "imdbId": "nm0783348",
       "name": "J. Martin Sellers",
       "roles": [
-        "George Youngmeyer (segment \"The Case of Gretta Connors\")"
-      ]
+        "George Youngmeyer"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0371921",
       "name": "Merideth Haze",
       "roles": [
-        "Gretta Connors (segment \"The Case of Gretta Connors\")"
-      ]
+        "Gretta Connors"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\") (as Meridith Haze)"
     },
     {
       "imdbId": "nm0184503",
       "name": "Toni Covington",
       "roles": [
-        "Contessa Pacelli (segment \"The Case of Gretta Connors\")"
-      ]
+        "Contessa Pacelli"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\") (as Anne Fairchild)"
     },
     {
       "imdbId": "nm0725993",
       "name": "Mark E. Ridley",
       "roles": [
-        "Prince Flubutu (segment \"The Case of Gretta Connors\")"
-      ]
+        "Prince Flubutu"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\") (as Mark Ridley)"
     },
     {
       "imdbId": "nm0153175",
       "name": "William Charles",
       "roles": [
-        "Federico Schmidt (segment \"The Case of Gretta Connors\")"
-      ]
+        "Federico Schmidt"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0212033",
       "name": "Barbara De Vandre",
       "roles": [
-        "Girl in Park (segment \"The Case of Gretta Connors\")"
-      ]
+        "Girl in Park"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0831482",
       "name": "Evan A. Stoliar",
       "roles": [
-        "Boy in Park (segment \"The Case of Gretta Connors\")"
-      ]
+        "Boy in Park"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0792625",
       "name": "Joe Sheron",
       "roles": [
-        "Head Kidnapper (segment \"The Case of Gretta Connors\")"
-      ]
+        "Head Kidnapper"
+      ],
+      "notes": "(segment \"The Case of Gretta Connors\")"
     },
     {
       "imdbId": "nm0593192",
       "name": "Cameron Mitchell",
       "roles": [
-        "The Lieutenant (segment \"The Case of Claire Hansen\")"
-      ]
+        "The Lieutenant"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0492908",
       "name": "Marc Lawrence",
       "roles": [
         "Mr. Weiss",
-        "Dieter (segment \"The Case of Claire Hansen\")"
-      ]
+        "Dieter"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0166702",
       "name": "Faith Clift",
       "roles": [
-        "Claire Hansen (segment \"The Case of Claire Hansen\")"
-      ]
+        "Claire Hansen"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0109930",
       "name": "Robert Bristol",
       "roles": [
-        "Olivier (segment \"The Case of Claire Hansen\")"
-      ]
+        "Olivier"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0334909",
       "name": "Maurice Grandmaison",
       "roles": [
-        "Papini (segment \"The Case of Claire Hansen\")"
-      ]
+        "Papini"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     },
     {
       "imdbId": "nm0823377",
       "name": "Christie Starley",
       "roles": [
-        "Dance Club Hostess (segment \"The Case of Claire Hansen\")"
-      ]
+        "Dance Club Hostess"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\") (as Christie Wagner)"
     },
     {
       "imdbId": "nm0192707",
       "name": "Juan Luis Curiel",
       "roles": [
-        "The Priest (segment \"The Case of Claire Hansen\")"
-      ]
+        "The Priest"
+      ],
+      "notes": "(segment \"The Case of Claire Hansen\")"
     }
   ],
   "writers": [
@@ -380,5 +432,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 98
+  "runtimeMinutes": 98,
+  "releaseDateCountry": "United States"
 }

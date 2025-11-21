@@ -5,7 +5,7 @@
   "sortTitle": "weapons-2025",
   "year": "2025",
   "slug": "weapons-2025",
-  "releaseDate": "2025-08-06",
+  "releaseDate": "2025-08-08",
   "runtimeMinutes": 128,
   "countries": [
     "United States"
@@ -17,10 +17,19 @@
   "directors": [
     {
       "imdbId": "nm1199107",
-      "name": "Zach Cregger"
+      "name": "Zach Cregger",
+      "notes": "directed by"
     }
   ],
   "performers": [
+    {
+      "imdbId": "nm10929560",
+      "name": "Scarlett Sher",
+      "roles": [
+        "Narrator"
+      ],
+      "notes": "(voice)"
+    },
     {
       "imdbId": "nm3400186",
       "name": "Julia Garner",
@@ -245,5 +254,6 @@
       "name": "Zach Cregger",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

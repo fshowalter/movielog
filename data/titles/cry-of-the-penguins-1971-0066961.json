@@ -5,7 +5,7 @@
   "originalTitle": "Mr. Forbush and the Penguins",
   "sortTitle": "cry-of-the-penguins-1971",
   "year": "1971",
-  "releaseDate": "1971-12-30",
+  "releaseDate": "1973-??-??",
   "countries": [
     "United Kingdom"
   ],
@@ -16,7 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0899167",
-      "name": "Alfred Viola"
+      "name": "Alfred Viola",
+      "notes": "(as Al Viola)"
+    },
+    {
+      "imdbId": "nm0099592",
+      "name": "Roy Boulting",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -109,7 +115,8 @@
       "name": "Salmaan Peerzada",
       "roles": [
         "Ahaz Khan"
-      ]
+      ],
+      "notes": "(as Salmaan Peer)"
     },
     {
       "imdbId": "nm0610302",
@@ -165,7 +172,8 @@
       "name": "Rudy Bond",
       "roles": [
         "3rd Pilot"
-      ]
+      ],
+      "notes": "(as Richard Bond)"
     },
     {
       "imdbId": "nm0479941",
@@ -208,5 +216,6 @@
       "notes": "novel \"Forbush and the Penguins\""
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

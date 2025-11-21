@@ -5,7 +5,7 @@
   "originalTitle": "The Treasure of the Sierra Madre",
   "sortTitle": "treasure-of-the-sierra-madre-1948",
   "year": "1948",
-  "releaseDate": "1948-01-07",
+  "releaseDate": "1948-01-24",
   "countries": [
     "United States"
   ],
@@ -25,7 +25,7 @@
       "imdbId": "nm0000007",
       "name": "Humphrey Bogart",
       "roles": [
-        "Fred C. Dobbs"
+        "Dobbs"
       ]
     },
     {
@@ -54,7 +54,8 @@
       "name": "Barton MacLane",
       "roles": [
         "Pat McCormick"
-      ]
+      ],
+      "notes": "(as Barton Mac Lane)"
     },
     {
       "imdbId": "nm0066166",
@@ -68,21 +69,24 @@
       "name": "Arturo Soto Rangel",
       "roles": [
         "Presidente"
-      ]
+      ],
+      "notes": "(as A. Soto Rangel)"
     },
     {
       "imdbId": "nm0232375",
       "name": "Manuel Dondé",
       "roles": [
         "El Jefe"
-      ]
+      ],
+      "notes": "(as Manuel Donde)"
     },
     {
       "imdbId": "nm0869064",
       "name": "José Torvay",
       "roles": [
         "Pablo"
-      ]
+      ],
+      "notes": "(as Jose Torvay)"
     },
     {
       "imdbId": "nm0526058",
@@ -104,5 +108,6 @@
       "notes": "based on the novel by"
     }
   ],
-  "runtimeMinutes": 126
+  "runtimeMinutes": 126,
+  "releaseDateCountry": "United States"
 }

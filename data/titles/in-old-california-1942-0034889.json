@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0568915",
-      "name": "William C. McGann"
+      "name": "William C. McGann",
+      "notes": "(as William McGann)"
     }
   ],
   "performers": [
@@ -94,14 +95,16 @@
       "name": "Robert McKenzie",
       "roles": [
         "Mr. Bates"
-      ]
+      ],
+      "notes": "(as Bob McKenzie)"
     },
     {
       "imdbId": "nm0452133",
       "name": "Milton Kibbee",
       "roles": [
         "Ezra Tompkins"
-      ]
+      ],
+      "notes": "(as Milt Kibbee)"
     },
     {
       "imdbId": "nm0840373",
@@ -140,5 +143,6 @@
       "notes": "original story"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 88,
+  "releaseDateCountry": "United States"
 }

@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0821472",
       "name": "John M. Stahl"
+    },
+    {
+      "imdbId": "nm0681635",
+      "name": "Irving Pichel",
+      "notes": "fill-in director (uncredited)"
     }
   ],
   "performers": [
@@ -74,7 +79,8 @@
       "name": "Harry Morgan",
       "roles": [
         "Pvt. Shevlin"
-      ]
+      ],
+      "notes": "(as Henry Morgan)"
     },
     {
       "imdbId": "nm0047459",
@@ -138,5 +144,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 96
+  "runtimeMinutes": 96,
+  "releaseDateCountry": "United States"
 }

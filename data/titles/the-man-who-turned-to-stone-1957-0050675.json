@@ -5,7 +5,7 @@
   "sortTitle": "man-who-turned-to-stone-1957",
   "year": "1957",
   "slug": "the-man-who-turned-to-stone-1957",
-  "releaseDate": "1957-03-01",
+  "releaseDate": "1957-03-??",
   "runtimeMinutes": 71,
   "countries": [
     "United States"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0439107",
-      "name": "László Kardos"
+      "name": "László Kardos",
+      "notes": "(as Leslie Kardos)"
     }
   ],
   "performers": [
@@ -82,7 +83,8 @@
       "name": "Friedrich von Ledebur",
       "roles": [
         "Eric"
-      ]
+      ],
+      "notes": "(as Frederick Ledebur)"
     },
     {
       "imdbId": "nm0142588",
@@ -105,5 +107,6 @@
       "name": "Bernard Gordon",
       "notes": "written by (originally as Raymond T. Marcus)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

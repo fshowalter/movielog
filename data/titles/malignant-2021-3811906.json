@@ -5,7 +5,7 @@
   "originalTitle": "Malignant",
   "sortTitle": "malignant-2021",
   "year": "2021",
-  "releaseDate": "2021-09-01",
+  "releaseDate": "2021-09-10",
   "countries": [
     "United States",
     "China"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm1490123",
-      "name": "James Wan"
+      "name": "James Wan",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -56,7 +57,8 @@
       "roles": [
         "Jane Doe",
         "Serena"
-      ]
+      ],
+      "notes": "(as Jean Louise Kelly)"
     },
     {
       "imdbId": "nm0860749",
@@ -133,7 +135,8 @@
       "name": "Zoë Bell",
       "roles": [
         "Scorpion"
-      ]
+      ],
+      "notes": "(as Zoe Bell)"
     },
     {
       "imdbId": "nm2872551",
@@ -147,7 +150,8 @@
       "name": "Shaunte Lynette Johnson",
       "roles": [
         "Beta"
-      ]
+      ],
+      "notes": "(as Shaunte Johnson)"
     },
     {
       "imdbId": "nm0418853",
@@ -197,6 +201,14 @@
       "roles": [
         "News Anchor"
       ]
+    },
+    {
+      "imdbId": "nm2616557",
+      "name": "Ray Chase",
+      "roles": [
+        "Gabriel"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm10894712",
@@ -256,5 +268,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

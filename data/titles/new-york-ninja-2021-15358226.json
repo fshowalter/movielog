@@ -17,20 +17,237 @@
   "directors": [
     {
       "imdbId": "nm0514956",
-      "name": "John Liu"
+      "name": "John Liu",
+      "notes": "originally directed by"
     },
     {
       "imdbId": "nm3074729",
-      "name": "Kurtis Spieler"
+      "name": "Kurtis Spieler",
+      "notes": "re-directed by (as Kurtis M. Spieler)"
     }
   ],
-  "performers": [],
-  "writers": [
+  "performers": [
     {
-      "imdbId": "nm1744774",
-      "name": "Arthur Schweitzer",
-      "notes": "original version created by"
+      "imdbId": "nm0933310",
+      "name": "Don Wilson",
+      "roles": [
+        "John Liu",
+        "The Ninja"
+      ],
+      "notes": "(voice) (as Don \"The Dragon\" Wilson)"
     },
+    {
+      "imdbId": "nm0077720",
+      "name": "Michael Berryman",
+      "roles": [
+        "The Plutonium Killer"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0001643",
+      "name": "Linnea Quigley",
+      "roles": [
+        "Randi Rydell"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0411531",
+      "name": "Leon Isaac Kennedy",
+      "roles": [
+        "Det. Jimmy Williams"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0001686",
+      "name": "Cynthia Rothrock",
+      "roles": [
+        "Det. Janet Flores"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0613741",
+      "name": "Vince Murdocco",
+      "roles": [
+        "Jack 'The Cameraman'"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0593919",
+      "name": "Matt Mitler",
+      "roles": [
+        "Freddy Cufflinks"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0000259",
+      "name": "Ginger Lynn",
+      "roles": [
+        "Nita Liu"
+      ],
+      "notes": "(voice) (as Ginger Lynn Allen)"
+    },
+    {
+      "imdbId": "nm11150117",
+      "name": "Zihan Zhao",
+      "roles": [
+        "The Kid"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0716387",
+      "name": "Bill Timoney",
+      "roles": [
+        "The Pale Man",
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm8362754",
+      "name": "Darius Churchman",
+      "roles": [
+        "Ricco",
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm11454647",
+      "name": "Robb Moreira",
+      "roles": [
+        "The Mayor",
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm0915487",
+      "name": "Tom Wayland",
+      "roles": [
+        "Switchblade",
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm4988639",
+      "name": "Lee Baptiste",
+      "roles": [
+        "Street Lion",
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm0969901",
+      "name": "Wayne Grayson",
+      "roles": [
+        "Rattail"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm4060244",
+      "name": "Ryan Andes",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm11576730",
+      "name": "Dan Becker",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm7112123",
+      "name": "James Brown Jr.",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm8927279",
+      "name": "Nicholas Corda",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm4345072",
+      "name": "Hollis Fox",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm1529042",
+      "name": "Lori Gardner",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm7507557",
+      "name": "Barrett Leddy",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm13205816",
+      "name": "Joe Locastro",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm13205817",
+      "name": "Cait Page",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm0689685",
+      "name": "Mike Pollock",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm6258770",
+      "name": "Sarah Smithton",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm13205818",
+      "name": "Georgette Timoney",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm4870506",
+      "name": "Ben Wayland",
+      "roles": [
+        "Additional Voices"
+      ]
+    },
+    {
+      "imdbId": "nm5635413",
+      "name": "Finn Wayland",
+      "roles": [
+        "Additional Voices"
+      ]
+    }
+  ],
+  "writers": [
     {
       "imdbId": "nm1744774",
       "name": "Arthur Schweitzer",
@@ -47,5 +264,6 @@
       "notes": "originally written by"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

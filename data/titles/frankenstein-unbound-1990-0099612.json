@@ -5,7 +5,7 @@
   "originalTitle": "Frankenstein Unbound",
   "sortTitle": "frankenstein-unbound-1990",
   "year": "1990",
-  "releaseDate": "1990-11-01",
+  "releaseDate": "1990-11-02",
   "countries": [
     "United States",
     "Italy"
@@ -100,6 +100,13 @@
       ]
     },
     {
+      "imdbId": "nm0871596",
+      "name": "Terri Treas",
+      "roles": [
+        "Computer Voice"
+      ]
+    },
+    {
       "imdbId": "nm0021421",
       "name": "Cynthia Allison",
       "roles": [
@@ -153,7 +160,8 @@
       "name": "Donald Hodson",
       "roles": [
         "Old Man"
-      ]
+      ],
+      "notes": "(as Donal Hodson)"
     },
     {
       "imdbId": "nm0570167",
@@ -237,5 +245,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 85
+  "runtimeMinutes": 85,
+  "releaseDateCountry": "United States"
 }

@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0514905",
-      "name": "Liu Chia-Yung"
+      "name": "Liu Chia-Yung",
+      "notes": "(as Chia-Yung Liu)"
     }
   ],
   "performers": [
@@ -34,14 +35,16 @@
       "roles": [
         "Housekeeper",
         "Tibetan Monk"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0514905",
       "name": "Liu Chia-Yung",
       "roles": [
         "Ah-Yung"
-      ]
+      ],
+      "notes": "(as Chia-Yung Liu)"
     },
     {
       "imdbId": "nm0497399",
@@ -130,5 +133,6 @@
       "notes": "writer"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "Hong Kong"
 }

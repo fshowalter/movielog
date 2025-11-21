@@ -5,7 +5,7 @@
   "originalTitle": "Dune: Part One",
   "sortTitle": "dune-part-one-2021",
   "year": "2021",
-  "releaseDate": "2021-09-03",
+  "releaseDate": "2021-10-22",
   "countries": [
     "United States",
     "Canada"
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0898288",
-      "name": "Denis Villeneuve"
+      "name": "Denis Villeneuve",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -133,7 +134,8 @@
       "name": "Benjamin Clémentine",
       "roles": [
         "Herald of the Change"
-      ]
+      ],
+      "notes": "(as Benjamin Clementine)"
     },
     {
       "imdbId": "nm0267256",
@@ -238,14 +240,16 @@
       "name": "Dora Kápolnai-Schvab",
       "roles": [
         "Baron Servant"
-      ]
+      ],
+      "notes": "(as Dóra Kápolnai-Schvab)"
     },
     {
       "imdbId": "nm8834802",
       "name": "Joelle",
       "roles": [
         "Baron Servant"
-      ]
+      ],
+      "notes": "(as a different name)"
     },
     {
       "imdbId": "nm7148976",
@@ -274,6 +278,30 @@
       "roles": [
         "Harkonnen Guard"
       ]
+    },
+    {
+      "imdbId": "nm0319638",
+      "name": "Jean Gilpin",
+      "roles": [
+        "Bene Gesserit Ancestors"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0265717",
+      "name": "Marianne Faithfull",
+      "roles": [
+        "Bene Gesserit Ancestors"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm0239294",
+      "name": "Ellen Dubin",
+      "roles": [
+        "Bene Gesserit Ancestors"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -298,5 +326,6 @@
       "notes": "based on the novel Dune written by"
     }
   ],
-  "runtimeMinutes": 155
+  "runtimeMinutes": 155,
+  "releaseDateCountry": "United States"
 }

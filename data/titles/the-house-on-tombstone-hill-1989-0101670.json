@@ -5,7 +5,7 @@
   "originalTitle": "The Dead Come Home",
   "sortTitle": "house-on-tombstone-hill-1989",
   "year": "1989",
-  "releaseDate": "1989-10-01",
+  "releaseDate": "1989-10-??",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0556826",
-      "name": "James Riffel"
+      "name": "James Riffel",
+      "notes": "(as J. Riffel)"
     }
   ],
   "performers": [
@@ -46,14 +47,16 @@
       "roles": [
         "Mark",
         "Old Lady"
-      ]
+      ],
+      "notes": "(as Douglas F. Gibson)"
     },
     {
       "imdbId": "nm0148639",
       "name": "J.D. Cerna",
       "roles": [
         "Steve"
-      ]
+      ],
+      "notes": "(as John Dayton Cerna)"
     },
     {
       "imdbId": "nm0465535",
@@ -95,7 +98,8 @@
       "name": "Albert Jaccoma",
       "roles": [
         "1940s Dead Man"
-      ]
+      ],
+      "notes": "(as Albert J. Wingate)"
     },
     {
       "imdbId": "nm0316922",
@@ -110,14 +114,23 @@
       "roles": [
         "Bob's Legs on Ground"
       ]
+    },
+    {
+      "imdbId": "nm0507596",
+      "name": "Pam Lewis",
+      "roles": [
+        "Old Lady"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
     {
       "imdbId": "nm0556826",
       "name": "James Riffel",
-      "notes": "writer (as J. Riffel)"
+      "notes": "(as J. Riffel)"
     }
   ],
-  "runtimeMinutes": 95
+  "runtimeMinutes": 95,
+  "releaseDateCountry": "United States"
 }

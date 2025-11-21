@@ -5,7 +5,7 @@
   "originalTitle": "Les diaboliques",
   "sortTitle": "diabolique-1955",
   "year": "1955",
-  "releaseDate": "1955-01-29",
+  "releaseDate": "1955-11-21",
   "countries": [
     "France"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0167241",
-      "name": "Henri-Georges Clouzot"
+      "name": "Henri-Georges Clouzot",
+      "notes": "(as H.G. Clouzot)"
     }
   ],
   "performers": [
@@ -35,7 +36,8 @@
       "name": "Véra Clouzot",
       "roles": [
         "Christina Delassalle"
-      ]
+      ],
+      "notes": "(as Vera Clouzot)"
     },
     {
       "imdbId": "nm0582890",
@@ -91,7 +93,8 @@
       "name": "Camille Guérini",
       "roles": [
         "Le photographe"
-      ]
+      ],
+      "notes": "(as Camille Guerini)"
     },
     {
       "imdbId": "nm0385019",
@@ -119,7 +122,8 @@
       "name": "Jean Témerson",
       "roles": [
         "Le garçon d'hôtel"
-      ]
+      ],
+      "notes": "(as Jean Temerson)"
     },
     {
       "imdbId": "nm0889668",
@@ -189,5 +193,6 @@
       "notes": "collaboration"
     }
   ],
-  "runtimeMinutes": 117
+  "runtimeMinutes": 117,
+  "releaseDateCountry": "United States"
 }

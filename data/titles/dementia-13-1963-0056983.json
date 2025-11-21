@@ -5,7 +5,7 @@
   "sortTitle": "dementia-13-1963",
   "year": "1963",
   "slug": "dementia-13-1963",
-  "releaseDate": "1963-08-07",
+  "releaseDate": "1963-08-31",
   "runtimeMinutes": 75,
   "countries": [
     "Ireland",
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000338",
-      "name": "Francis Ford Coppola"
+      "name": "Francis Ford Coppola",
+      "notes": "directed by (as Francis Coppola)"
     }
   ],
   "performers": [
@@ -62,7 +63,8 @@
       "name": "Eithne Dunne",
       "roles": [
         "Lady Haloran"
-      ]
+      ],
+      "notes": "(as Ethne Dunn)"
     },
     {
       "imdbId": "nm0713870",
@@ -110,6 +112,12 @@
       "imdbId": "nm0384335",
       "name": "Jack Hill",
       "notes": "second unit written by"
+    },
+    {
+      "imdbId": "nm0516607",
+      "name": "Al Locatelli",
+      "notes": "written by (uncredited)"
     }
-  ]
+  ],
+  "releaseDateCountry": "Canada"
 }

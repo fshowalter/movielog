@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0627087",
-      "name": "Kurt Neumann"
+      "name": "Kurt Neumann",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -27,7 +28,8 @@
       "name": "David Hedison",
       "roles": [
         "Andre Delambre"
-      ]
+      ],
+      "notes": "(as Al Hedison)"
     },
     {
       "imdbId": "nm0654433",
@@ -83,5 +85,6 @@
       "name": "George Langelaan",
       "notes": "based on a story by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "sortTitle": "raising-arizona-1987",
   "year": "1987",
   "slug": "raising-arizona-1987",
-  "releaseDate": "1987-03-06",
+  "releaseDate": "1987-04-10",
   "runtimeMinutes": 94,
   "countries": [
     "United States"
@@ -18,6 +18,11 @@
     {
       "imdbId": "nm0001054",
       "name": "Joel Coen"
+    },
+    {
+      "imdbId": "nm0001053",
+      "name": "Ethan Coen",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -82,14 +87,16 @@
       "name": "T.J. Kuhn",
       "roles": [
         "Nathan Junior"
-      ]
+      ],
+      "notes": "(as T.J. Kuhn Jr.)"
     },
     {
       "imdbId": "nm0457703",
       "name": "Lynne Kitei",
       "roles": [
         "Florence Arizona"
-      ]
+      ],
+      "notes": "(as Lynne Dumin Kitei)"
     },
     {
       "imdbId": "nm0070674",
@@ -187,7 +194,8 @@
       "name": "Richard Alexander",
       "roles": [
         "Policeman in Arizona House"
-      ]
+      ],
+      "notes": "(as Dick Alexander)"
     },
     {
       "imdbId": "nm0498180",
@@ -278,7 +286,8 @@
       "name": "Todd Michael Bogers",
       "roles": [
         "Varsity Nathan, Jr."
-      ]
+      ],
+      "notes": "(as Todd Michael Rodgers)"
     },
     {
       "imdbId": "nm0001826",
@@ -432,5 +441,6 @@
       "name": "Joel Coen",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

@@ -14,7 +14,18 @@
     "Romance",
     "Sport"
   ],
-  "directors": [],
+  "directors": [
+    {
+      "imdbId": "nm0124877",
+      "name": "David Butler",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0000406",
+      "name": "John Ford",
+      "notes": "(uncredited)"
+    }
+  ],
   "performers": [
     {
       "imdbId": "nm0639563",
@@ -85,6 +96,14 @@
       "roles": [
         "Midshipman Harold"
       ]
+    },
+    {
+      "imdbId": "nm0000078",
+      "name": "John Wayne",
+      "roles": [
+        "Midshipman Bill"
+      ],
+      "notes": "(uncredited)"
     }
   ],
   "writers": [
@@ -102,7 +121,13 @@
       "imdbId": "nm0570130",
       "name": "James Kevin McGuinness",
       "notes": "screenplay and dialogue"
+    },
+    {
+      "imdbId": "nm0607576",
+      "name": "Wilbur Morse Jr.",
+      "notes": "titles (uncredited)"
     }
   ],
-  "runtimeMinutes": 84
+  "runtimeMinutes": 84,
+  "releaseDateCountry": "United States"
 }

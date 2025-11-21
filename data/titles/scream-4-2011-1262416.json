@@ -5,7 +5,7 @@
   "originalTitle": "Scream 4",
   "sortTitle": "scream-4-2011",
   "year": "2011",
-  "releaseDate": "2011-04-11",
+  "releaseDate": "2011-04-15",
   "countries": [
     "United States"
   ],
@@ -28,11 +28,19 @@
       ]
     },
     {
+      "imdbId": "nm0413996",
+      "name": "Roger Jackson",
+      "roles": [
+        "The Voice"
+      ]
+    },
+    {
       "imdbId": "nm1501624",
       "name": "Shenae Grimes-Beech",
       "roles": [
         "Trudie"
-      ]
+      ],
+      "notes": "(as Shenae Grimes)"
     },
     {
       "imdbId": "nm0267258",
@@ -67,7 +75,8 @@
       "name": "Britt Robertson",
       "roles": [
         "Marnie Cooper"
-      ]
+      ],
+      "notes": "(as Brittany Robertson)"
     },
     {
       "imdbId": "nm0000117",
@@ -144,7 +153,8 @@
       "name": "Justin Michael Brandt",
       "roles": [
         "Film Geek"
-      ]
+      ],
+      "notes": "(as Justin Brandt)"
     },
     {
       "imdbId": "nm0191412",
@@ -228,14 +238,8 @@
       "name": "Alexander Punch",
       "roles": [
         "Cocky Student"
-      ]
-    },
-    {
-      "imdbId": "nm0001287",
-      "name": "Heather Graham",
-      "roles": [
-        "Casey"
-      ]
+      ],
+      "notes": "(as Alex Punch)"
     },
     {
       "imdbId": "nm4391751",
@@ -271,12 +275,8 @@
       "imdbId": "nm0932078",
       "name": "Kevin Williamson",
       "notes": "written by"
-    },
-    {
-      "imdbId": "nm0932078",
-      "name": "Kevin Williamson",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

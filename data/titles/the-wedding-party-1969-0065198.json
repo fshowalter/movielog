@@ -15,15 +15,18 @@
   "directors": [
     {
       "imdbId": "nm0000361",
-      "name": "Brian De Palma"
+      "name": "Brian De Palma",
+      "notes": "(as Brian DePalma)"
     },
     {
       "imdbId": "nm0494879",
-      "name": "Wilford Leach"
+      "name": "Wilford Leach",
+      "notes": "a film by"
     },
     {
       "imdbId": "nm0613187",
-      "name": "Cynthia Munroe"
+      "name": "Cynthia Munroe",
+      "notes": "a film by"
     }
   ],
   "performers": [
@@ -74,7 +77,8 @@
       "name": "Robert De Niro",
       "roles": [
         "Cecil"
-      ]
+      ],
+      "notes": "(as Robert Denero)"
     },
     {
       "imdbId": "nm0859079",
@@ -95,7 +99,8 @@
       "name": "Sue Ann Gilfillan",
       "roles": [
         "Ninny"
-      ]
+      ],
+      "notes": "(as Sue Ann Converse)"
     },
     {
       "imdbId": "nm0703888",
@@ -244,7 +249,8 @@
       "name": "Lottie Heiser",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Lottie Heiser)"
     },
     {
       "imdbId": "nm9656687",
@@ -279,28 +285,32 @@
       "name": "Bessie Birdfield",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Bessie Birdfield)"
     },
     {
       "imdbId": "nm9656692",
       "name": "Helen F. McFadden",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Helen F. McFadden)"
     },
     {
       "imdbId": "nm9656693",
       "name": "Jewel Fincher",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Jewel Fincher)"
     },
     {
       "imdbId": "nm9656694",
       "name": "R. Tibble",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss R. Tibble)"
     },
     {
       "imdbId": "nm9656695",
@@ -321,7 +331,8 @@
       "name": "Rachel McQuire",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Rachel McQuire)"
     },
     {
       "imdbId": "nm9656698",
@@ -342,14 +353,16 @@
       "name": "Dorothy Noble",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Dorothy Noble)"
     },
     {
       "imdbId": "nm9656701",
       "name": "Dorothy 'Dot' Olsen",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Dorothy 'Dot' Olsen)"
     },
     {
       "imdbId": "nm9656702",
@@ -370,7 +383,8 @@
       "name": "R. Althea Townsend",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss R. Althea Townsend)"
     },
     {
       "imdbId": "nm9656705",
@@ -391,7 +405,8 @@
       "name": "Estelle Carter-Heese",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Estelle Carter-Heese)"
     },
     {
       "imdbId": "nm9656708",
@@ -419,7 +434,8 @@
       "name": "Shirley Shattuck",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Shirley Shattuck)"
     },
     {
       "imdbId": "nm9656712",
@@ -433,7 +449,8 @@
       "name": "Genivieve Berswell",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Genivieve Berswell)"
     },
     {
       "imdbId": "nm9656714",
@@ -461,7 +478,8 @@
       "name": "Rose Arbuckle",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Rose Arbuckle)"
     },
     {
       "imdbId": "nm9656718",
@@ -510,7 +528,8 @@
       "name": "Felice Conkermouth",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Felice Conkermouth)"
     },
     {
       "imdbId": "nm9656725",
@@ -538,14 +557,16 @@
       "name": "Sadie Lamb",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Sadie Lamb)"
     },
     {
       "imdbId": "nm9656729",
       "name": "Pearl Lamb",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Miss Pearl Lamb)"
     },
     {
       "imdbId": "nm9656730",
@@ -573,21 +594,24 @@
       "name": "Roger Blackwell III",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as R. 'Rog' Blackwell III)"
     },
     {
       "imdbId": "nm9656734",
       "name": "Mary Tree",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Mary Tree)"
     },
     {
       "imdbId": "nm9656735",
       "name": "Gretel Schmidt",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Mrs. Gretel Schmidt)"
     },
     {
       "imdbId": "nm9656736",
@@ -601,7 +625,8 @@
       "name": "Ted Packford",
       "roles": [
         "Bride's Relative"
-      ]
+      ],
+      "notes": "(as Master Ted Packford)"
     }
   ],
   "writers": [
@@ -621,5 +646,6 @@
       "notes": "a film by"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

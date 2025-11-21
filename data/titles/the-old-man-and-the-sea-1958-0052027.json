@@ -5,7 +5,7 @@
   "originalTitle": "The Old Man and the Sea",
   "sortTitle": "old-man-and-the-sea-1958",
   "year": "1958",
-  "releaseDate": "1958-10-07",
+  "releaseDate": "1958-10-11",
   "countries": [
     "United States"
   ],
@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0836328",
       "name": "John Sturges"
+    },
+    {
+      "imdbId": "nm0003593",
+      "name": "Fred Zinnemann",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -33,7 +38,8 @@
       "name": "Felipe Pazos",
       "roles": [
         "The Boy"
-      ]
+      ],
+      "notes": "(as Felipe Pazos Jr.)"
     },
     {
       "imdbId": "nm0068772",
@@ -55,5 +61,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 86
+  "runtimeMinutes": 86,
+  "releaseDateCountry": "United States"
 }

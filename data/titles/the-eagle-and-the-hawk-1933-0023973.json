@@ -18,6 +18,11 @@
     {
       "imdbId": "nm0908234",
       "name": "Stuart Walker"
+    },
+    {
+      "imdbId": "nm0500552",
+      "name": "Mitchell Leisen",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -54,7 +59,8 @@
       "name": "Guy Standing",
       "roles": [
         "Major Dunham"
-      ]
+      ],
+      "notes": "(as Sir Guy Standing)"
     },
     {
       "imdbId": "nm0367516",
@@ -96,7 +102,8 @@
       "name": "Robert Seiter",
       "roles": [
         "Arnold Voss"
-      ]
+      ],
+      "notes": "(as Robert Manning)"
     },
     {
       "imdbId": "nm0195077",
@@ -123,5 +130,6 @@
       "notes": "based on a story by"
     }
   ],
-  "runtimeMinutes": 73
+  "runtimeMinutes": 73,
+  "releaseDateCountry": "United States"
 }

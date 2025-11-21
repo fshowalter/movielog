@@ -5,7 +5,7 @@
   "originalTitle": "Red River",
   "sortTitle": "red-river-1948",
   "year": "1948",
-  "releaseDate": "1948-08-25",
+  "releaseDate": "1948-09-17",
   "countries": [
     "United States"
   ],
@@ -20,7 +20,8 @@
     },
     {
       "imdbId": "nm0744504",
-      "name": "Arthur Rosson"
+      "name": "Arthur Rosson",
+      "notes": "co-director"
     }
   ],
   "performers": [
@@ -57,14 +58,16 @@
       "name": "Coleen Gray",
       "roles": [
         "Fen"
-      ]
+      ],
+      "notes": "(as Colleen Gray)"
     },
     {
       "imdbId": "nm0002503",
       "name": "Harry Carey",
       "roles": [
         "Mr. Melville"
-      ]
+      ],
+      "notes": "(as Harry Carey Sr.)"
     },
     {
       "imdbId": "nm0409869",
@@ -92,7 +95,8 @@
       "name": "Chief Yowlachie",
       "roles": [
         "Quo"
-      ]
+      ],
+      "notes": "(as Chief Yowlatchie)"
     },
     {
       "imdbId": "nm0280707",
@@ -127,7 +131,8 @@
       "name": "Hal Taliaferro",
       "roles": [
         "Old Leather"
-      ]
+      ],
+      "notes": "(as Hal Talliaferro)"
     }
   ],
   "writers": [
@@ -147,5 +152,6 @@
       "notes": "from \"The Saturday Evening Post\" story"
     }
   ],
-  "runtimeMinutes": 133
+  "runtimeMinutes": 133,
+  "releaseDateCountry": "United States"
 }

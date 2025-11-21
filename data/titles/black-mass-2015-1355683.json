@@ -5,7 +5,7 @@
   "originalTitle": "Black Mass",
   "sortTitle": "black-mass-2015",
   "year": "2015",
-  "releaseDate": "2015-09-04",
+  "releaseDate": "2015-09-18",
   "countries": [
     "United States",
     "United Kingdom"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0178376",
-      "name": "Scott Cooper"
+      "name": "Scott Cooper",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -111,7 +112,8 @@
       "name": "W. Earl Brown",
       "roles": [
         "John Martorano"
-      ]
+      ],
+      "notes": "(as W Earl Brown)"
     },
     {
       "imdbId": "nm0131966",
@@ -191,6 +193,14 @@
       ]
     },
     {
+      "imdbId": "nm0909837",
+      "name": "Robert Walsh",
+      "roles": [
+        "Sr. FBI Official"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm6273994",
       "name": "Billy Meleady",
       "roles": [
@@ -209,7 +219,8 @@
       "name": "David De Beck",
       "roles": [
         "Roger Wheeler"
-      ]
+      ],
+      "notes": "(as David DeBeck)"
     },
     {
       "imdbId": "nm1503640",
@@ -307,7 +318,8 @@
       "name": "Peter Morse",
       "roles": [
         "FBI Agent"
-      ]
+      ],
+      "notes": "(as Peter J. Morse)"
     },
     {
       "imdbId": "nm0447376",
@@ -321,7 +333,8 @@
       "name": "Patrick M. Walsh",
       "roles": [
         "Michael Donahue"
-      ]
+      ],
+      "notes": "(as Patrick M. Walsh Jr.)"
     },
     {
       "imdbId": "nm3608877",
@@ -349,14 +362,16 @@
       "name": "Darin X.L. MacEachern",
       "roles": [
         "Drug Dealer"
-      ]
+      ],
+      "notes": "(as Darin XL MacEachern)"
     },
     {
       "imdbId": "nm5741077",
       "name": "Cary 'Big Shug' Guy",
       "roles": [
         "Drug Dealer"
-      ]
+      ],
+      "notes": "(as Cary Big Shug Guy)"
     },
     {
       "imdbId": "nm2796754",
@@ -444,5 +459,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 123
+  "runtimeMinutes": 123,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Airport",
   "sortTitle": "airport-1970",
   "year": "1970",
-  "releaseDate": "1970-03-05",
+  "releaseDate": "1970-03-19",
   "countries": [
     "United States"
   ],
@@ -18,6 +18,11 @@
     {
       "imdbId": "nm0780833",
       "name": "George Seaton"
+    },
+    {
+      "imdbId": "nm0368871",
+      "name": "Henry Hathaway",
+      "notes": "winter outdoor scenes (uncredited)"
     }
   ],
   "performers": [
@@ -201,14 +206,16 @@
       "name": "Lisa Gerritsen",
       "roles": [
         "Libby Bakersfeld"
-      ]
+      ],
+      "notes": "(as Lisa Gerritson)"
     },
     {
       "imdbId": "nm0634278",
       "name": "James Nolan",
       "roles": [
         "Father Steven Lonigan"
-      ]
+      ],
+      "notes": "(as Jim Nolan)"
     },
     {
       "imdbId": "nm0693712",
@@ -250,7 +257,8 @@
       "name": "Jodean Lawrence",
       "roles": [
         "Marie Patroni"
-      ]
+      ],
+      "notes": "(as Jodean Russo)"
     },
     {
       "imdbId": "nm0625634",
@@ -321,5 +329,6 @@
       "notes": "written for the screen by"
     }
   ],
-  "runtimeMinutes": 137
+  "runtimeMinutes": 137,
+  "releaseDateCountry": "United States"
 }

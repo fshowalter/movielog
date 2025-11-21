@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0417054",
-      "name": "Jerry Jameson"
+      "name": "Jerry Jameson",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -271,7 +272,8 @@
       "name": "M. James Arnett",
       "roles": [
         "Passenger"
-      ]
+      ],
+      "notes": "(as Jim Arnett)"
     },
     {
       "imdbId": "nm0121850",
@@ -292,7 +294,8 @@
       "name": "Jo de Winter",
       "roles": [
         "Passenger"
-      ]
+      ],
+      "notes": "(as Johana De Winter)"
     },
     {
       "imdbId": "nm0925833",
@@ -355,7 +358,8 @@
       "name": "Nancy Burnett",
       "roles": [
         "Radar Room Controller"
-      ]
+      ],
+      "notes": "(as Mary Nancy Burnett)"
     },
     {
       "imdbId": "nm0420593",
@@ -427,5 +431,6 @@
       "notes": "story"
     }
   ],
-  "runtimeMinutes": 114
+  "runtimeMinutes": 114,
+  "releaseDateCountry": "United States"
 }

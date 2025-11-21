@@ -5,7 +5,7 @@
   "originalTitle": "Unconquered",
   "sortTitle": "unconquered-1947",
   "year": "1947",
-  "releaseDate": "1947-09-24",
+  "releaseDate": "1947-10-10",
   "countries": [
     "United States"
   ],
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0001124",
-      "name": "Cecil B. DeMille"
+      "name": "Cecil B. DeMille",
+      "notes": "(as Cecil B. De Mille)"
     }
   ],
   "performers": [
@@ -42,7 +43,8 @@
       "name": "Howard Da Silva",
       "roles": [
         "Garth"
-      ]
+      ],
+      "notes": "(as Howard da Silva)"
     },
     {
       "imdbId": "nm0000472",
@@ -77,7 +79,8 @@
       "name": "Katherine DeMille",
       "roles": [
         "Hannah"
-      ]
+      ],
+      "notes": "(as Katherine De Mille)"
     },
     {
       "imdbId": "nm0928295",
@@ -91,7 +94,8 @@
       "name": "C. Aubrey Smith",
       "roles": [
         "Lord Chief Justice"
-      ]
+      ],
+      "notes": "(as Sir C. Aubrey Smith)"
     },
     {
       "imdbId": "nm0889511",
@@ -189,7 +193,8 @@
       "name": "Frank Wilcox",
       "roles": [
         "Richard Henry Lee"
-      ]
+      ],
+      "notes": "(as Frank R. Wilcox)"
     },
     {
       "imdbId": "nm0163846",
@@ -224,7 +229,8 @@
       "name": "Ninetta Sunderland",
       "roles": [
         "Mrs. Pruitt"
-      ]
+      ],
+      "notes": "(as Nan Sunderland)"
     },
     {
       "imdbId": "nm0174714",
@@ -274,20 +280,6 @@
       "roles": [
         "Jason"
       ]
-    },
-    {
-      "imdbId": "nm0912876",
-      "name": "Jerry Warren",
-      "roles": [
-        "Villager"
-      ]
-    },
-    {
-      "imdbId": "nm0913094",
-      "name": "Robert Warwick",
-      "roles": [
-        "Pontiac - Chief of the Ottawas"
-      ]
     }
   ],
   "writers": [
@@ -315,7 +307,13 @@
       "imdbId": "nm0489679",
       "name": "Jesse Lasky Jr.",
       "notes": "film"
+    },
+    {
+      "imdbId": "nm0534221",
+      "name": "Jeanie Macpherson",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 146
+  "runtimeMinutes": 146,
+  "releaseDateCountry": "United States"
 }

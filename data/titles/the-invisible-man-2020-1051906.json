@@ -5,7 +5,7 @@
   "originalTitle": "The Invisible Man",
   "sortTitle": "invisible-man-2020",
   "year": "2020",
-  "releaseDate": "2020-02-24",
+  "releaseDate": "2020-02-28",
   "countries": [
     "Australia",
     "United States"
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm1191481",
-      "name": "Leigh Whannell"
+      "name": "Leigh Whannell",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -141,7 +142,8 @@
       "name": "Serag Mohamed",
       "roles": [
         "Strike-Stun Guard"
-      ]
+      ],
+      "notes": "(as Serag Mohammed)"
     },
     {
       "imdbId": "nm0003482",
@@ -175,7 +177,13 @@
       "imdbId": "nm1191481",
       "name": "Leigh Whannell",
       "notes": "screen story by"
+    },
+    {
+      "imdbId": "nm0920229",
+      "name": "H.G. Wells",
+      "notes": "novel (uncredited)"
     }
   ],
-  "runtimeMinutes": 124
+  "runtimeMinutes": 124,
+  "releaseDateCountry": "United States"
 }

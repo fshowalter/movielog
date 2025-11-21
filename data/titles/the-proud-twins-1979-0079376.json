@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -26,28 +27,32 @@
       "name": "Sheng Fu",
       "roles": [
         "Chiang Hsiao Yu"
-      ]
+      ],
+      "notes": "(as Alexander Fu Sheng)"
     },
     {
       "imdbId": "nm0628853",
       "name": "Wai-Kwok Ng",
       "roles": [
         "Hua Wu Chueh"
-      ]
+      ],
+      "notes": "(as Wei-Kuo Wu)"
     },
     {
       "imdbId": "nm1507401",
       "name": "Hsueh-Erh Wen",
       "roles": [
         "Tieh Shin Lan"
-      ]
+      ],
+      "notes": "(as Hsueh Erh Wen)"
     },
     {
       "imdbId": "nm0787931",
       "name": "Auyeung Pui-San",
       "roles": [
         "Mu Yung Ching"
-      ]
+      ],
+      "notes": "(as Pei-Shan Ouyang)"
     },
     {
       "imdbId": "nm0270495",
@@ -81,7 +86,8 @@
     {
       "imdbId": "nm0158858",
       "name": "Meng Chiu",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chun-Hsia Meng)"
     },
     {
       "imdbId": "nm2490213",
@@ -123,7 +129,8 @@
     {
       "imdbId": "nm1269214",
       "name": "Tze Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lin Tsai)"
     },
     {
       "imdbId": "nm0490548",
@@ -135,7 +142,8 @@
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chien-Ming Lu)"
     },
     {
       "imdbId": "nm2404191",
@@ -145,7 +153,8 @@
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm1714999",
@@ -189,7 +198,8 @@
       "name": "Jung Wang",
       "roles": [
         "Yen Nan Tien"
-      ]
+      ],
+      "notes": "(as Yung Wang)"
     },
     {
       "imdbId": "nm0591253",
@@ -204,14 +214,15 @@
     {
       "imdbId": "nm0082898",
       "name": "Bun Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pin Yuan)"
     }
   ],
   "writers": [
     {
       "imdbId": "nm0159201",
       "name": "Yuen Chor",
-      "notes": "writer (as Chin Yu)"
+      "notes": "(as Chin Yu)"
     },
     {
       "imdbId": "nm0473325",
@@ -219,5 +230,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 112
+  "runtimeMinutes": 112,
+  "releaseDateCountry": "Hong Kong"
 }

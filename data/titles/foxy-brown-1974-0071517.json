@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0384335",
-      "name": "Jack Hill"
+      "name": "Jack Hill",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -111,7 +112,8 @@
       "name": "Judith Cassmore",
       "roles": [
         "Vicki"
-      ]
+      ],
+      "notes": "(as Judy Cassmore)"
     },
     {
       "imdbId": "nm0353637",
@@ -125,7 +127,8 @@
       "name": "Boyd 'Red' Morgan",
       "roles": [
         "Slauson"
-      ]
+      ],
+      "notes": "(as Boyd Red Morgan)"
     },
     {
       "imdbId": "nm0076022",
@@ -167,7 +170,8 @@
       "name": "Edward Knight",
       "roles": [
         "Adams"
-      ]
+      ],
+      "notes": "(as Ed Knight)"
     },
     {
       "imdbId": "nm0840089",
@@ -237,7 +241,8 @@
       "name": "Roydon Clark",
       "roles": [
         "Sly"
-      ]
+      ],
+      "notes": "(as Roydon E. Clark)"
     },
     {
       "imdbId": "nm0311141",
@@ -287,6 +292,12 @@
       "imdbId": "nm0384335",
       "name": "Jack Hill",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0791007",
+      "name": "David Sheldon",
+      "notes": "final rewrite by (uncredited)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

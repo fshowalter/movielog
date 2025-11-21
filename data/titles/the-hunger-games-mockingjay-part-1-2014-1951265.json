@@ -5,7 +5,7 @@
   "originalTitle": "The Hunger Games: Mockingjay - Part 1",
   "sortTitle": "hunger-games-mockingjay-part-1-2014",
   "year": "2014",
-  "releaseDate": "2014-11-10",
+  "releaseDate": "2014-11-21",
   "countries": [
     "United States",
     "Canada",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm1349376",
-      "name": "Francis Lawrence"
+      "name": "Francis Lawrence",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -197,7 +198,8 @@
       "name": "Jada Alexandria Taylor",
       "roles": [
         "D8 Female Patient"
-      ]
+      ],
+      "notes": "(as Jada Taylor)"
     },
     {
       "imdbId": "nm0699425",
@@ -267,7 +269,8 @@
       "name": "Katie Del Rocco",
       "roles": [
         "Orderly"
-      ]
+      ],
+      "notes": "(as Katie Sawhill)"
     },
     {
       "imdbId": "nm6918291",
@@ -306,5 +309,6 @@
       "notes": "based upon the novel \"Mockingjay\" by"
     }
   ],
-  "runtimeMinutes": 123
+  "runtimeMinutes": 123,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "For Your Eyes Only",
   "sortTitle": "for-your-eyes-only-1981",
   "year": "1981",
-  "releaseDate": "1981-06-24",
+  "releaseDate": "1981-06-26",
   "countries": [
     "United Kingdom",
     "United States"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0322515",
-      "name": "John Glen"
+      "name": "John Glen",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -216,7 +217,8 @@
       "name": "Eva Reuber-Staier",
       "roles": [
         "Rublevich"
-      ]
+      ],
+      "notes": "(as Eva Rueber-Staier)"
     },
     {
       "imdbId": "nm0117105",
@@ -264,7 +266,13 @@
       "imdbId": "nm0933865",
       "name": "Michael G. Wilson",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "stories \"For Your Eyes Only\" and \"Risico\" (uncredited)"
     }
   ],
-  "runtimeMinutes": 127
+  "runtimeMinutes": 127,
+  "releaseDateCountry": "United States"
 }

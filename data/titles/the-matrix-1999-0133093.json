@@ -5,7 +5,7 @@
   "originalTitle": "The Matrix",
   "sortTitle": "matrix-1999",
   "year": "1999",
-  "releaseDate": "1999-03-24",
+  "releaseDate": "1999-03-31",
   "countries": [
     "United States",
     "Australia"
@@ -17,11 +17,13 @@
   "directors": [
     {
       "imdbId": "nm0905154",
-      "name": "Lana Wachowski"
+      "name": "Lana Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     },
     {
       "imdbId": "nm0905152",
-      "name": "Lilly Wachowski"
+      "name": "Lilly Wachowski",
+      "notes": "(as The Wachowski Brothers)"
     }
   ],
   "performers": [
@@ -128,7 +130,8 @@
       "name": "Marc Aden Gray",
       "roles": [
         "Choi"
-      ]
+      ],
+      "notes": "(as Marc Gray)"
     },
     {
       "imdbId": "nm0630124",
@@ -156,7 +159,8 @@
       "name": "Eleanor Witt",
       "roles": [
         "Potential"
-      ]
+      ],
+      "notes": "(as Elenor Witt)"
     },
     {
       "imdbId": "nm0114756",
@@ -254,7 +258,8 @@
       "name": "Bernard Ledger",
       "roles": [
         "Big Cop"
-      ]
+      ],
+      "notes": "(as Bernie Ledger)"
     },
     {
       "imdbId": "nm0800854",
@@ -268,7 +273,8 @@
       "name": "Christopher Scott",
       "roles": [
         "Cop"
-      ]
+      ],
+      "notes": "(as Chris Scott)"
     },
     {
       "imdbId": "nm0361876",
@@ -290,5 +296,6 @@
       "notes": "written by (as The Wachowski Brothers)"
     }
   ],
-  "runtimeMinutes": 136
+  "runtimeMinutes": 136,
+  "releaseDateCountry": "United States"
 }

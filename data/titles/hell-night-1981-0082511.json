@@ -5,7 +5,7 @@
   "originalTitle": "Hell Night",
   "sortTitle": "hell-night-1981",
   "year": "1981",
-  "releaseDate": "1981-05-20",
+  "releaseDate": "1981-08-28",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0221265",
-      "name": "Tom DeSimone"
+      "name": "Tom DeSimone",
+      "notes": "(as Tom De Simone)"
     }
   ],
   "performers": [
@@ -81,14 +82,16 @@
       "name": "Carey Fox",
       "roles": [
         "Younger Cop"
-      ]
+      ],
+      "notes": "(as Cary Fox)"
     },
     {
       "imdbId": "nm0304532",
       "name": "Ron Gans",
       "roles": [
         "Driver"
-      ]
+      ],
+      "notes": "(as Ronald Gans)"
     },
     {
       "imdbId": "nm0374163",
@@ -105,5 +108,6 @@
       "notes": "written by (as Randolph Feldman)"
     }
   ],
-  "runtimeMinutes": 101
+  "runtimeMinutes": 101,
+  "releaseDateCountry": "United States"
 }

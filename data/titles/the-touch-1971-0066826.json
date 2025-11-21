@@ -5,7 +5,7 @@
   "originalTitle": "The Touch",
   "sortTitle": "touch-1971",
   "year": "1971",
-  "releaseDate": "1971-06-26",
+  "releaseDate": "1971-07-14",
   "countries": [
     "Sweden",
     "United States"
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000005",
-      "name": "Ingmar Bergman"
+      "name": "Ingmar Bergman",
+      "notes": "a film by"
     }
   ],
   "performers": [
@@ -49,6 +50,13 @@
       ]
     }
   ],
-  "writers": [],
-  "runtimeMinutes": 115
+  "writers": [
+    {
+      "imdbId": "nm0000005",
+      "name": "Ingmar Bergman",
+      "notes": "screenplay (uncredited)"
+    }
+  ],
+  "runtimeMinutes": 115,
+  "releaseDateCountry": "United States"
 }

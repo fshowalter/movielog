@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -139,7 +140,8 @@
       "name": "Norman D. Wilson",
       "roles": [
         "Vendor"
-      ]
+      ],
+      "notes": "(as Norm Wilson)"
     },
     {
       "imdbId": "nm0498361",
@@ -216,7 +218,8 @@
       "name": "Dennis Cosmo Michael",
       "roles": [
         "Male News Anchor"
-      ]
+      ],
+      "notes": "(as Dennis Michael)"
     },
     {
       "imdbId": "nm0311554",
@@ -237,7 +240,8 @@
       "name": "Christine Anne Baur",
       "roles": [
         "Woman on Phone"
-      ]
+      ],
+      "notes": "(as Christine Baur)"
     },
     {
       "imdbId": "nm0921880",
@@ -251,14 +255,16 @@
       "name": "Gregory J. Barnett",
       "roles": [
         "Security Guard #1"
-      ]
+      ],
+      "notes": "(as Gregory Barnett)"
     },
     {
       "imdbId": "nm0630022",
       "name": "Jimmy Nickerson",
       "roles": [
         "Security Guard #2"
-      ]
+      ],
+      "notes": "(as Jim Nickerson)"
     },
     {
       "imdbId": "nm0743953",
@@ -301,5 +307,6 @@
       "notes": "screenplay by (as Frank Armitage)"
     }
   ],
-  "runtimeMinutes": 94
+  "runtimeMinutes": 94,
+  "releaseDateCountry": "United States"
 }

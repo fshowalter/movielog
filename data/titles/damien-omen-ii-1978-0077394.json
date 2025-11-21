@@ -5,7 +5,7 @@
   "originalTitle": "Damien: Omen II",
   "sortTitle": "damien-omen-ii-1978",
   "year": "1978",
-  "releaseDate": "1978-06-05",
+  "releaseDate": "1978-06-09",
   "countries": [
     "United Kingdom",
     "United States"
@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0852279",
       "name": "Don Taylor"
+    },
+    {
+      "imdbId": "nm0388198",
+      "name": "Mike Hodges",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -95,7 +100,8 @@
       "name": "Allan Arbus",
       "roles": [
         "Pasarian"
-      ]
+      ],
+      "notes": "(as Alan Arbus)"
     },
     {
       "imdbId": "nm0032058",
@@ -186,7 +192,8 @@
       "name": "Sorin Serene Pricopie",
       "roles": [
         "Pasarian's Assistant"
-      ]
+      ],
+      "notes": "(as Sorin Pricopie)"
     },
     {
       "imdbId": "nm0427405",
@@ -252,11 +259,6 @@
       "notes": "story by"
     },
     {
-      "imdbId": "nm0783544",
-      "name": "David Seltzer",
-      "notes": "based on characters created by"
-    },
-    {
       "imdbId": "nm0542970",
       "name": "Stanley Mann",
       "notes": "screenplay by and"
@@ -267,5 +269,6 @@
       "notes": "screenplay by (as Michael Hodges)"
     }
   ],
-  "runtimeMinutes": 107
+  "runtimeMinutes": 107,
+  "releaseDateCountry": "United States"
 }

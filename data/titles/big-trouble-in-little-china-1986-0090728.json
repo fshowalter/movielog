@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0000118",
-      "name": "John Carpenter"
+      "name": "John Carpenter",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -132,7 +133,8 @@
       "name": "June Kyoto Lu",
       "roles": [
         "White Tiger"
-      ]
+      ],
+      "notes": "(as June Kim)"
     },
     {
       "imdbId": "nm0870277",
@@ -174,7 +176,8 @@
       "name": "Kenny Endoso",
       "roles": [
         "Chang Sing #3"
-      ]
+      ],
+      "notes": "(as Ken Endoso)"
     },
     {
       "imdbId": "nm0702850",
@@ -230,7 +233,8 @@
       "name": "Paul J.Q. Lee",
       "roles": [
         "Chinese Gambler"
-      ]
+      ],
+      "notes": "(as Paul Lee)"
     },
     {
       "imdbId": "nm0502959",
@@ -251,7 +255,8 @@
       "name": "William S. Wong",
       "roles": [
         "Wing Kong Hatchet Man"
-      ]
+      ],
+      "notes": "(as Willie Wong)"
     },
     {
       "imdbId": "nm0497224",
@@ -293,7 +298,8 @@
       "name": "Dan Inosanto",
       "roles": [
         "Wing Kong Hatchet Man"
-      ]
+      ],
+      "notes": "(as Daniel Inosanto)"
     },
     {
       "imdbId": "nm0726388",
@@ -314,7 +320,8 @@
       "name": "Daniel Lee",
       "roles": [
         "Wing Kong Security Guard"
-      ]
+      ],
+      "notes": "(as Daniel Eric Lee)"
     },
     {
       "imdbId": "nm0151762",
@@ -328,7 +335,8 @@
       "name": "Diana Tanaka",
       "roles": [
         "Female Wing Kong Guard"
-      ]
+      ],
+      "notes": "(as Dian Tanaka)"
     },
     {
       "imdbId": "nm0634102",
@@ -362,5 +370,6 @@
       "notes": "adaptation"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

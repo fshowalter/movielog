@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -32,7 +33,8 @@
       "name": "Lo Lieh",
       "roles": [
         "Yen Nan-fei"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0508380",
@@ -60,7 +62,8 @@
       "name": "Ku Feng",
       "roles": [
         "'Sword' Hsiao Chien"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0849272",
@@ -88,14 +91,16 @@
       "name": "Fan Mei-Sheng",
       "roles": [
         "'Book' Wu Shi"
-      ]
+      ],
+      "notes": "(as Mei Sheng Fan)"
     },
     {
       "imdbId": "nm0351719",
       "name": "Ping Ha",
       "roles": [
         "Devil's Granny"
-      ]
+      ],
+      "notes": "(as Teresa Hsia Ping)"
     },
     {
       "imdbId": "nm0791461",
@@ -109,7 +114,8 @@
       "name": "Norman Chu",
       "roles": [
         "'Chess' Ku Chi"
-      ]
+      ],
+      "notes": "(as Shao-Chiang Hsu)"
     },
     {
       "imdbId": "nm0473322",
@@ -200,7 +206,8 @@
       "name": "Chin Hsiao",
       "roles": [
         "Heavenly cat' aka Swords proxy"
-      ]
+      ],
+      "notes": "(as Kam Siu)"
     },
     {
       "imdbId": "nm2716388",
@@ -226,14 +233,16 @@
       "name": "Fung Hak-On",
       "roles": [
         "Extra"
-      ]
+      ],
+      "notes": "(as Hark-On Fung)"
     },
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
       "roles": [
         "Extra"
-      ]
+      ],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm0512714",
@@ -252,14 +261,16 @@
       "name": "Chik Ngai-Hung",
       "roles": [
         "Extra"
-      ]
+      ],
+      "notes": "(as Yi-Hsiung Chi)"
     },
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
       "roles": [
         "Extra"
-      ]
+      ],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0268808",
@@ -287,7 +298,8 @@
       "name": "Cheung-Yan Yuen",
       "roles": [
         "Extra"
-      ]
+      ],
+      "notes": "(as Hsiang-Jen Yuan)"
     },
     {
       "imdbId": "nm0477035",
@@ -319,14 +331,13 @@
     },
     {
       "imdbId": "nm0393250",
-      "name": "Kuang Ni",
-      "notes": "writer"
+      "name": "Kuang Ni"
     },
     {
       "imdbId": "nm0648505",
-      "name": "On Szeto",
-      "notes": "writer"
+      "name": "On Szeto"
     }
   ],
-  "runtimeMinutes": 86
+  "runtimeMinutes": 86,
+  "releaseDateCountry": "Hong Kong"
 }

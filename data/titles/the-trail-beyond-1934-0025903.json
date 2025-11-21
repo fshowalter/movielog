@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0102908",
-      "name": "Robert N. Bradbury"
+      "name": "Robert N. Bradbury",
+      "notes": "(as Robert Bradbury)"
     }
   ],
   "performers": [
@@ -39,7 +40,8 @@
       "name": "Noah Beery",
       "roles": [
         "George Newsome"
-      ]
+      ],
+      "notes": "(as Noah Beery Sr.)"
     },
     {
       "imdbId": "nm0000890",
@@ -67,7 +69,8 @@
       "name": "James A. Marcus",
       "roles": [
         "Brother of John Ball"
-      ]
+      ],
+      "notes": "(as James Marcus)"
     },
     {
       "imdbId": "nm0662219",
@@ -96,5 +99,6 @@
       "notes": "screen play"
     }
   ],
-  "runtimeMinutes": 54
+  "runtimeMinutes": 54,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Man of Steel",
   "sortTitle": "man-of-steel-2013",
   "year": "2013",
-  "releaseDate": "2013-06-01",
+  "releaseDate": "2013-06-14",
   "countries": [
     "United States",
     "United Kingdom",
@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0811583",
-      "name": "Zack Snyder"
+      "name": "Zack Snyder",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -155,7 +156,8 @@
       "name": "Samantha Win",
       "roles": [
         "Car-Vex"
-      ]
+      ],
+      "notes": "(as Samantha Jo)"
     },
     {
       "imdbId": "nm0446672",
@@ -183,7 +185,8 @@
       "name": "David James Lewis",
       "roles": [
         "Major Laramore"
-      ]
+      ],
+      "notes": "(as David Lewis)"
     },
     {
       "imdbId": "nm0671886",
@@ -295,7 +298,8 @@
       "name": "Stephanie Kraft Song",
       "roles": [
         "Bus Girl"
-      ]
+      ],
+      "notes": "(as Stephanie Song)"
     },
     {
       "imdbId": "nm0331560",
@@ -438,6 +442,14 @@
       ]
     },
     {
+      "imdbId": "nm0001303",
+      "name": "Carla Gugino",
+      "roles": [
+        "Kelor"
+      ],
+      "notes": "(voice)"
+    },
+    {
       "imdbId": "nm0092118",
       "name": "Bruce Bohne",
       "roles": [
@@ -547,7 +559,8 @@
       "name": "Chris Palermo",
       "roles": [
         "Sergeant Vance"
-      ]
+      ],
+      "notes": "(as Christopher Palermo)"
     },
     {
       "imdbId": "nm5709733",
@@ -596,28 +609,19 @@
     {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "screenplay"
+      "notes": "screenplay by"
     },
     {
       "imdbId": "nm0275286",
       "name": "David S. Goyer",
-      "notes": "story &"
+      "notes": "story by &"
     },
     {
       "imdbId": "nm0634240",
       "name": "Christopher Nolan",
-      "notes": "story"
-    },
-    {
-      "imdbId": "nm0796950",
-      "name": "Jerry Siegel",
-      "notes": "Superman created by &"
-    },
-    {
-      "imdbId": "nm0795975",
-      "name": "Joe Shuster",
-      "notes": "Superman created by"
+      "notes": "story by"
     }
   ],
-  "runtimeMinutes": 143
+  "runtimeMinutes": 143,
+  "releaseDateCountry": "United States"
 }

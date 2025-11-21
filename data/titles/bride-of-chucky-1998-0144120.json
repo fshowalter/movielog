@@ -5,7 +5,7 @@
   "originalTitle": "Bride of Chucky",
   "sortTitle": "bride-of-chucky-1998",
   "year": "1998",
-  "releaseDate": "1998-10-15",
+  "releaseDate": "1998-10-16",
   "countries": [
     "United States",
     "Canada"
@@ -28,6 +28,14 @@
       "roles": [
         "Tiffany"
       ]
+    },
+    {
+      "imdbId": "nm0000374",
+      "name": "Brad Dourif",
+      "roles": [
+        "Chucky"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0001337",
@@ -97,7 +105,8 @@
       "name": "Vince Corazza",
       "roles": [
         "Bailey"
-      ]
+      ],
+      "notes": "(as Vincent Corazza)"
     },
     {
       "imdbId": "nm0001562",
@@ -146,13 +155,9 @@
     {
       "imdbId": "nm0238841",
       "name": "Don Mancini",
-      "notes": "based on characters created by"
-    },
-    {
-      "imdbId": "nm0238841",
-      "name": "Don Mancini",
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

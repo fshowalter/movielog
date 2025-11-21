@@ -5,7 +5,7 @@
   "originalTitle": "Nekromantik",
   "sortTitle": "nekromantik-1988",
   "year": "1988",
-  "releaseDate": "1988-01-29",
+  "releaseDate": "2014-11-25",
   "countries": [
     "West Germany"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0125367",
-      "name": "Jörg Buttgereit"
+      "name": "Jörg Buttgereit",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -24,14 +25,16 @@
       "name": "Bernd Daktari Lorenz",
       "roles": [
         "Rob"
-      ]
+      ],
+      "notes": "(as Daktari Lorenz)"
     },
     {
       "imdbId": "nm0543659",
       "name": "Beatrice Manowski",
       "roles": [
         "Betty"
-      ]
+      ],
+      "notes": "(as Beatrice M.)"
     },
     {
       "imdbId": "nm0526632",
@@ -59,7 +62,8 @@
       "name": "Clemens Schwender",
       "roles": [
         "J.S.A."
-      ]
+      ],
+      "notes": "(as Clemens Schwenter)"
     },
     {
       "imdbId": "nm0125367",
@@ -94,7 +98,8 @@
       "name": "Heike Surban",
       "roles": [
         "Prostitute"
-      ]
+      ],
+      "notes": "(as Heike S.)"
     },
     {
       "imdbId": "nm0500507",
@@ -122,7 +127,8 @@
       "name": "Suza Kohlstedt",
       "roles": [
         "Vera"
-      ]
+      ],
+      "notes": "(as Susa Kohlstedt)"
     },
     {
       "imdbId": "nm0734585",
@@ -185,7 +191,8 @@
       "name": "Manfred O. Jelinski",
       "roles": [
         "Cinema Crew"
-      ]
+      ],
+      "notes": "(as Manfred Jelinski)"
     },
     {
       "imdbId": "nm1719581",
@@ -291,5 +298,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 71
+  "runtimeMinutes": 71,
+  "releaseDateCountry": "United States"
 }

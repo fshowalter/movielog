@@ -5,7 +5,7 @@
   "originalTitle": "The Brides of Fu Manchu",
   "sortTitle": "brides-of-fu-manchu-1966",
   "year": "1966",
-  "releaseDate": "1966-09-02",
+  "releaseDate": "1966-12-16",
   "countries": [
     "United Kingdom",
     "West Germany"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0789033",
-      "name": "Don Sharp"
+      "name": "Don Sharp",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -54,7 +55,8 @@
       "name": "Howard Marion-Crawford",
       "roles": [
         "Doctor Petrie"
-      ]
+      ],
+      "notes": "(as Howard Marion Crawford)"
     },
     {
       "imdbId": "nm0157796",
@@ -82,7 +84,8 @@
       "name": "Joseph Fürst",
       "roles": [
         "Otto Lentz"
-      ]
+      ],
+      "notes": "(as Joseph Furst)"
     },
     {
       "imdbId": "nm0359894",
@@ -117,14 +120,16 @@
       "name": "Salmaan Peerzada",
       "roles": [
         "Abdul"
-      ]
+      ],
+      "notes": "(as Salmaan Peer)"
     },
     {
       "imdbId": "nm0949521",
       "name": "Ric Young",
       "roles": [
         "Control Assistant"
-      ]
+      ],
+      "notes": "(as Eric Young)"
     },
     {
       "imdbId": "nm0317553",
@@ -138,14 +143,16 @@
       "name": "Francesca Tu",
       "roles": [
         "Lotus"
-      ]
+      ],
+      "notes": "(as Poulet Tu)"
     },
     {
       "imdbId": "nm0011334",
       "name": "Sally Sheridan",
       "roles": [
         "Shiva"
-      ]
+      ],
+      "notes": "(as Danni Sheridan)"
     },
     {
       "imdbId": "nm0391799",
@@ -173,7 +180,8 @@
       "name": "Kristopher Kum",
       "roles": [
         "Wireless Operator"
-      ]
+      ],
+      "notes": "(as Christopher Kum)"
     },
     {
       "imdbId": "nm0946335",
@@ -185,15 +193,16 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0737544",
-      "name": "Sax Rohmer",
-      "notes": "characters"
-    },
-    {
       "imdbId": "nm0869935",
       "name": "Harry Alan Towers",
       "notes": "screenplay by (as Peter Welbeck)"
+    },
+    {
+      "imdbId": "nm0789033",
+      "name": "Don Sharp",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 94
+  "runtimeMinutes": 94,
+  "releaseDateCountry": "United States"
 }

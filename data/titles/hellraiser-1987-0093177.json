@@ -5,10 +5,9 @@
   "originalTitle": "Hellraiser",
   "sortTitle": "hellraiser-1987",
   "year": "1987",
-  "releaseDate": "1987-09-11",
+  "releaseDate": "1987-09-18",
   "countries": [
-    "United Kingdom",
-    "United States"
+    "United Kingdom"
   ],
   "genres": [
     "Horror",
@@ -17,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0000850",
-      "name": "Clive Barker"
+      "name": "Clive Barker",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +68,8 @@
       "name": "Anthony Allen",
       "roles": [
         "1st Victim"
-      ]
+      ],
+      "notes": "(as Antony Allen)"
     },
     {
       "imdbId": "nm3788744",
@@ -181,7 +182,13 @@
       "imdbId": "nm0000850",
       "name": "Clive Barker",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0000850",
+      "name": "Clive Barker",
+      "notes": "novel \"The Hellbound Heart\" (uncredited)"
     }
   ],
-  "runtimeMinutes": 94
+  "runtimeMinutes": 94,
+  "releaseDateCountry": "United States"
 }

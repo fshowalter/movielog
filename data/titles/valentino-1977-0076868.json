@@ -5,7 +5,7 @@
   "originalTitle": "Valentino",
   "sortTitle": "valentino-1977",
   "year": "1977",
-  "releaseDate": "1977-09-07",
+  "releaseDate": "1977-10-04",
   "countries": [
     "United Kingdom",
     "United States"
@@ -145,14 +145,16 @@
       "name": "Emily Bolton",
       "roles": [
         "Bianca de Saulles"
-      ]
+      ],
+      "notes": "(as June Bolton)"
     },
     {
       "imdbId": "nm0587340",
       "name": "Penelope Milford",
       "roles": [
         "Lorna Sinclair"
-      ]
+      ],
+      "notes": "(as Penny Milford)"
     },
     {
       "imdbId": "nm0840303",
@@ -166,7 +168,8 @@
       "name": "Robin Clarke",
       "roles": [
         "Jack de Saulles"
-      ]
+      ],
+      "notes": "(as Robin Brent Clarke)"
     },
     {
       "imdbId": "nm0235741",
@@ -296,5 +299,6 @@
       "notes": "book \"Valentino, an Intimate Exposé of The Sheik\""
     }
   ],
-  "runtimeMinutes": 128
+  "runtimeMinutes": 128,
+  "releaseDateCountry": "United Kingdom"
 }

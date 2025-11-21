@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0926636",
-      "name": "Richard Whorf"
+      "name": "Richard Whorf",
+      "notes": "(as Richard B. Whorf)"
     }
   ],
   "performers": [
@@ -81,14 +82,16 @@
       "name": "Ellye Marshall",
       "roles": [
         "Frosty"
-      ]
+      ],
+      "notes": "(as Ellie Marshall)"
     },
     {
       "imdbId": "nm0704660",
       "name": "Vici Raaf",
       "roles": [
         "Waters' Secretary"
-      ]
+      ],
+      "notes": "(as Vicki Raaf)"
     },
     {
       "imdbId": "nm0253141",
@@ -117,6 +120,14 @@
       "roles": [
         "Executive No. 4"
       ]
+    },
+    {
+      "imdbId": "nm0000305",
+      "name": "Mel Blanc",
+      "roles": [
+        "Caesar"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0110480",
@@ -190,5 +201,6 @@
       "notes": "screenplay (as Fred Brady)"
     }
   ],
-  "runtimeMinutes": 99
+  "runtimeMinutes": 99,
+  "releaseDateCountry": "United States"
 }

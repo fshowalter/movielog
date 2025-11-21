@@ -5,7 +5,7 @@
   "originalTitle": "House of 1000 Corpses",
   "sortTitle": "house-of-1000-corpses-2003",
   "year": "2003",
-  "releaseDate": "2003-03-13",
+  "releaseDate": "2003-04-11",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0957772",
-      "name": "Rob Zombie"
+      "name": "Rob Zombie",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -31,7 +32,8 @@
       "name": "William Bassett",
       "roles": [
         "Sheriff Frank Huston"
-      ]
+      ],
+      "notes": "(as William H. Bassett)"
     },
     {
       "imdbId": "nm0000947",
@@ -136,7 +138,8 @@
       "name": "Sheri Moon Zombie",
       "roles": [
         "Baby Firefly"
-      ]
+      ],
+      "notes": "(as Sheri Moon)"
     },
     {
       "imdbId": "nm0608405",
@@ -157,7 +160,8 @@
       "name": "Robert Allen Mukes",
       "roles": [
         "Rufus"
-      ]
+      ],
+      "notes": "(as Robert Mukes)"
     },
     {
       "imdbId": "nm0679765",
@@ -209,5 +213,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 89
+  "runtimeMinutes": 89,
+  "releaseDateCountry": "United States"
 }

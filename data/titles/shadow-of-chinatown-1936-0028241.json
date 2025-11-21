@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0384616",
-      "name": "Robert F. Hill"
+      "name": "Robert F. Hill",
+      "notes": "(as Bob Hill)"
     }
   ],
   "performers": [
@@ -36,7 +37,8 @@
       "name": "Bruce Bennett",
       "roles": [
         "Martin Andrews"
-      ]
+      ],
+      "notes": "(as Herman Brix)"
     },
     {
       "imdbId": "nm0054060",
@@ -85,7 +87,8 @@
       "name": "John Cowell",
       "roles": [
         "White Chinaman [Ch. 1]"
-      ]
+      ],
+      "notes": "(as Jack Cowell)"
     },
     {
       "imdbId": "nm0502979",
@@ -135,5 +138,6 @@
       "notes": "special dialogue"
     }
   ],
-  "runtimeMinutes": 281
+  "runtimeMinutes": 281,
+  "releaseDateCountry": "United States"
 }

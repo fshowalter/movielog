@@ -5,7 +5,7 @@
   "originalTitle": "2001: A Space Odyssey",
   "sortTitle": "2001-a-space-odyssey-1968",
   "year": "1968",
-  "releaseDate": "1968-04-02",
+  "releaseDate": "1968-05-12",
   "countries": [
     "United Kingdom",
     "United States"
@@ -78,6 +78,21 @@
       ]
     },
     {
+      "imdbId": "nm0706937",
+      "name": "Douglas Rain",
+      "roles": [
+        "HAL 9000"
+      ],
+      "notes": "(voice)"
+    },
+    {
+      "imdbId": "nm15447157",
+      "name": "Frank W. Miller",
+      "roles": [
+        "Mission Controller"
+      ]
+    },
+    {
       "imdbId": "nm0922916",
       "name": "Bill Weston",
       "roles": [
@@ -89,13 +104,14 @@
       "name": "Ed Bishop",
       "roles": [
         "Aries-1B Lunar Shuttle Captain"
-      ]
+      ],
+      "notes": "(as Edward Bishop)"
     },
     {
       "imdbId": "nm0065140",
       "name": "Glenn Beck",
       "roles": [
-        "Astronaut"
+        "Aries-1B Co-Pilot"
       ]
     },
     {
@@ -137,7 +153,7 @@
       "imdbId": "nm0522569",
       "name": "Mike Lovell",
       "roles": [
-        "Astronaut"
+        "Martin Amer"
       ]
     },
     {
@@ -180,7 +196,8 @@
       "name": "Péter Delmár",
       "roles": [
         "Ape"
-      ]
+      ],
+      "notes": "(as Peter Delmar)"
     },
     {
       "imdbId": "nm0240956",
@@ -222,7 +239,8 @@
       "name": "Anthony Jackson",
       "roles": [
         "Ape"
-      ]
+      ],
+      "notes": "(as Tony Jackson)"
     },
     {
       "imdbId": "nm1262811",
@@ -278,7 +296,8 @@
       "name": "Richard Woods",
       "roles": [
         "Ape Killed by Moon-Watcher"
-      ]
+      ],
+      "notes": "(as Richard Wood)"
     }
   ],
   "writers": [
@@ -291,7 +310,13 @@
       "imdbId": "nm0002009",
       "name": "Arthur C. Clarke",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0002009",
+      "name": "Arthur C. Clarke",
+      "notes": "short story \"The Sentinel\" (uncredited)"
     }
   ],
-  "runtimeMinutes": 149
+  "runtimeMinutes": 149,
+  "releaseDateCountry": "United Kingdom"
 }

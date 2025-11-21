@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from statistics import mean
 from typing import TypedDict, cast
 
 from movielog.utils import path_tools
@@ -11,8 +12,8 @@ FILE_NAME = Path("data") / "ratings.json"
 
 
 class JsonRating(TypedDict):
-    votes: int | None
-    rating: float | None
+    votes: int
+    rating: float
 
 
 class JsonRatings(TypedDict):
@@ -21,7 +22,23 @@ class JsonRatings(TypedDict):
     titles: dict[str, JsonRating]
 
 
+def _update_averages(json_ratings: JsonRatings) -> JsonRatings:
+    json_ratings["averageImdbVotes"] = mean(
+        title["votes"] for title in json_ratings["titles"].values()
+    )
+
+    json_ratings["averageImdbRating"] = mean(
+        title["rating"]
+        for title in json_ratings["titles"].values()
+        if title["votes"] >= json_ratings["averageImdbVotes"]
+    )
+
+    return json_ratings
+
+
 def serialize(json_ratings: JsonRatings) -> None:
+    json_ratings = _update_averages(json_ratings)
+
     path_tools.ensure_file_path(FILE_NAME)
 
     with Path.open(FILE_NAME, "w") as output_file:

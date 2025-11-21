@@ -5,7 +5,7 @@
   "originalTitle": "Dracula, Prince of Darkness",
   "sortTitle": "dracula-prince-of-darkness-1966",
   "year": "1966",
-  "releaseDate": "1966-01-02",
+  "releaseDate": "1966-01-12",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0279807",
-      "name": "Terence Fisher"
+      "name": "Terence Fisher",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -59,7 +60,8 @@
       "name": "Charles 'Bud' Tingwell",
       "roles": [
         "Alan"
-      ]
+      ],
+      "notes": "(as Charles Tingwell)"
     },
     {
       "imdbId": "nm0910381",
@@ -128,12 +130,8 @@
       "imdbId": "nm0385573",
       "name": "Anthony Hinds",
       "notes": "from an idea by (as John Elder)"
-    },
-    {
-      "imdbId": "nm0831290",
-      "name": "Bram Stoker",
-      "notes": "based on characters created by"
     }
   ],
-  "runtimeMinutes": 90
+  "runtimeMinutes": 90,
+  "releaseDateCountry": "United States"
 }

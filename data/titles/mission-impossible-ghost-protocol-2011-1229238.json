@@ -5,7 +5,7 @@
   "originalTitle": "Mission: Impossible - Ghost Protocol",
   "sortTitle": "mission-impossible-ghost-protocol-2011",
   "year": "2011",
-  "releaseDate": "2011-12-04",
+  "releaseDate": "2011-12-21",
   "countries": [
     "United States",
     "United Arab Emirates",
@@ -22,7 +22,8 @@
   "directors": [
     {
       "imdbId": "nm0083348",
-      "name": "Brad Bird"
+      "name": "Brad Bird",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -150,14 +151,16 @@
       "name": "Jan Filipenský",
       "roles": [
         "Control Room Guard"
-      ]
+      ],
+      "notes": "(as Jan Filipensky)"
     },
     {
       "imdbId": "nm0470133",
       "name": "Jiri Kraus",
       "roles": [
         "Control Room Guard"
-      ]
+      ],
+      "notes": "(as Jirí Kraus)"
     },
     {
       "imdbId": "nm1592234",
@@ -171,7 +174,8 @@
       "name": "Tomás Valík",
       "roles": [
         "Control Room Guard"
-      ]
+      ],
+      "notes": "(as Tomas Valik)"
     },
     {
       "imdbId": "nm0129099",
@@ -192,21 +196,24 @@
       "name": "Vitaly Kravchenko",
       "roles": [
         "Scraggy Tooth"
-      ]
+      ],
+      "notes": "(as Vitaliy Kravchenko)"
     },
     {
       "imdbId": "nm3344579",
       "name": "Andrej Bestcastnyj",
       "roles": [
         "Kremlin Senate Building Desk Guard"
-      ]
+      ],
+      "notes": "(as Andrey Bestchastney)"
     },
     {
       "imdbId": "nm0233304",
       "name": "Mike Dopud",
       "roles": [
         "Kremlin Subcellar Hallway Guard"
-      ]
+      ],
+      "notes": "(as Michael Dopud)"
     },
     {
       "imdbId": "nm0399103",
@@ -220,7 +227,8 @@
       "name": "Ivo Novák",
       "roles": [
         "Russian Agent"
-      ]
+      ],
+      "notes": "(as Ivo Novak)"
     },
     {
       "imdbId": "nm6668040",
@@ -241,7 +249,8 @@
       "name": "Claudia Vaseková",
       "roles": [
         "Russian News Anchor"
-      ]
+      ],
+      "notes": "(as Claudia Vasekova)"
     },
     {
       "imdbId": "nm1340370",
@@ -255,7 +264,8 @@
       "name": "Petra Lustigová",
       "roles": [
         "Anna Lisenker"
-      ]
+      ],
+      "notes": "(as Petra Lustigova)"
     },
     {
       "imdbId": "nm4982910",
@@ -263,6 +273,14 @@
       "roles": [
         "Alex Lisenker"
       ]
+    },
+    {
+      "imdbId": "nm0829181",
+      "name": "April Stewart",
+      "roles": [
+        "Swedish Translator"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm2611457",
@@ -276,7 +294,8 @@
       "name": "Ghaleb El Saadi",
       "roles": [
         "Dock Worker"
-      ]
+      ],
+      "notes": "(as Ghalib Al Saady)"
     },
     {
       "imdbId": "nm0936591",
@@ -290,7 +309,8 @@
       "name": "Mustafa Alyassri",
       "roles": [
         "Doctor Setting Sidorov's Nose"
-      ]
+      ],
+      "notes": "(as Mustafa Al Yassri)"
     },
     {
       "imdbId": "nm4757221",
@@ -325,7 +345,8 @@
       "name": "Keith Dallas",
       "roles": [
         "Julia's Friend"
-      ]
+      ],
+      "notes": "(as Keith Blackman Dallas)"
     },
     {
       "imdbId": "nm1605039",
@@ -366,5 +387,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 132
+  "runtimeMinutes": 132,
+  "releaseDateCountry": "United States"
 }

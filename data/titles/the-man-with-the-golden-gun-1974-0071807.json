@@ -5,7 +5,7 @@
   "originalTitle": "The Man with the Golden Gun",
   "sortTitle": "man-with-the-golden-gun-1974",
   "year": "1974",
-  "releaseDate": "1974-12-14",
+  "releaseDate": "1974-12-20",
   "countries": [
     "United Kingdom",
     "United States",
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0357891",
-      "name": "Guy Hamilton"
+      "name": "Guy Hamilton",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -57,7 +58,8 @@
       "name": "Hervé Villechaize",
       "roles": [
         "Nick Nack"
-      ]
+      ],
+      "notes": "(as Herve Villechaize)"
     },
     {
       "imdbId": "nm0416378",
@@ -78,7 +80,8 @@
       "name": "Soon-Tek Oh",
       "roles": [
         "Hip"
-      ]
+      ],
+      "notes": "(as Soon-Taik Oh)"
     },
     {
       "imdbId": "nm0492908",
@@ -127,14 +130,16 @@
       "name": "Yao Lin Chen",
       "roles": [
         "Chula"
-      ]
+      ],
+      "notes": "(as Chan Yiu Lam)"
     },
     {
       "imdbId": "nm0238968",
       "name": "Carmen Du Sautoy",
       "roles": [
         "Saida"
-      ]
+      ],
+      "notes": "(as Carmen Sautoy)"
     },
     {
       "imdbId": "nm0416523",
@@ -168,7 +173,13 @@
       "imdbId": "nm0542539",
       "name": "Tom Mankiewicz",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0001220",
+      "name": "Ian Fleming",
+      "notes": "novel (uncredited)"
     }
   ],
-  "runtimeMinutes": 125
+  "runtimeMinutes": 125,
+  "releaseDateCountry": "United States"
 }

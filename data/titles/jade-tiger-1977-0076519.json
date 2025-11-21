@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -33,7 +34,8 @@
       "name": "Ku Feng",
       "roles": [
         "Shang-kuan Yin"
-      ]
+      ],
+      "notes": "(as Feng Ku)"
     },
     {
       "imdbId": "nm0497763",
@@ -54,28 +56,32 @@
       "name": "Fan Mei-Sheng",
       "roles": [
         "Chao Chung"
-      ]
+      ],
+      "notes": "(as Mei Sheng Fan)"
     },
     {
       "imdbId": "nm0516316",
       "name": "Lo Lieh",
       "roles": [
         "Tang Chueh"
-      ]
+      ],
+      "notes": "(as Lieh Lo)"
     },
     {
       "imdbId": "nm0232504",
       "name": "Derek Tung-Sing Yee",
       "roles": [
         "Tang Yu"
-      ]
+      ],
+      "notes": "(as Erh Tung Sheng)"
     },
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
       "roles": [
         "Tang Ao"
-      ]
+      ],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm0793389",
@@ -144,14 +150,16 @@
       "name": "Norman Chu",
       "roles": [
         "Tu Ku-sheng"
-      ]
+      ],
+      "notes": "(as Shao-Chiang Hsu)"
     },
     {
       "imdbId": "nm1095832",
       "name": "Chin Chun",
       "roles": [
         "God of Wealth"
-      ]
+      ],
+      "notes": "(as Chun Chin)"
     },
     {
       "imdbId": "nm2490213",
@@ -163,24 +171,28 @@
       "name": "Biu Gam",
       "roles": [
         "Tang Steward"
-      ]
+      ],
+      "notes": "(as Piao Chin)"
     },
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
       "roles": [
         "Waiter"
-      ]
+      ],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm0025546",
       "name": "Fung Hak-On",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hark-On Fung)"
     },
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm0498389",
@@ -219,24 +231,28 @@
     {
       "imdbId": "nm1550325",
       "name": "Fanny Leung",
-      "roles": []
+      "roles": [],
+      "notes": "(as Man-yi Liang)"
     },
     {
       "imdbId": "nm0378420",
       "name": "Ho Li-Jen",
       "roles": [
         "Zombie"
-      ]
+      ],
+      "notes": "(as Li-Jen Ho)"
     },
     {
       "imdbId": "nm0398959",
       "name": "Hui-Huang Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm1269214",
       "name": "Tze Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lin Tsai)"
     },
     {
       "imdbId": "nm3696313",
@@ -246,12 +262,14 @@
     {
       "imdbId": "nm0518999",
       "name": "Jack Long",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chiang Wang)"
     },
     {
       "imdbId": "nm0525475",
       "name": "Jamie Luk",
-      "roles": []
+      "roles": [],
+      "notes": "(as Lu Chien-ming)"
     },
     {
       "imdbId": "nm2521818",
@@ -263,12 +281,14 @@
       "name": "Chiang Nan",
       "roles": [
         "Tang She"
-      ]
+      ],
+      "notes": "(as Nan Chiang)"
     },
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm0787935",
@@ -292,7 +312,8 @@
       "name": "Chien Szu-Ying",
       "roles": [
         "Tang wedding guest"
-      ]
+      ],
+      "notes": "(as Szu-Ying Chien)"
     },
     {
       "imdbId": "nm2407459",
@@ -317,7 +338,8 @@
     {
       "imdbId": "nm1796608",
       "name": "Lo Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Wai Lo)"
     },
     {
       "imdbId": "nm4611565",
@@ -388,7 +410,8 @@
     {
       "imdbId": "nm0948149",
       "name": "Stephan Yip",
-      "roles": []
+      "roles": [],
+      "notes": "(as Yeh Tien-hsing)"
     },
     {
       "imdbId": "nm0950707",
@@ -403,7 +426,8 @@
     {
       "imdbId": "nm0950604",
       "name": "Cheung-Yan Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsiang-Jen Yuan)"
     },
     {
       "imdbId": "nm0950761",
@@ -414,14 +438,13 @@
   "writers": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor",
-      "notes": ""
+      "name": "Yuen Chor"
     },
     {
       "imdbId": "nm0473325",
-      "name": "Lung Ku",
-      "notes": ""
+      "name": "Lung Ku"
     }
   ],
-  "runtimeMinutes": 105
+  "runtimeMinutes": 105,
+  "releaseDateCountry": "Hong Kong"
 }

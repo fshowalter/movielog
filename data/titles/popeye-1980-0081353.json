@@ -5,7 +5,7 @@
   "originalTitle": "Popeye",
   "sortTitle": "popeye-1980",
   "year": "1980",
-  "releaseDate": "1980-12-06",
+  "releaseDate": "1980-12-12",
   "countries": [
     "United States"
   ],
@@ -99,7 +99,8 @@
       "name": "Allan F. Nicholls",
       "roles": [
         "Rough House"
-      ]
+      ],
+      "notes": "(as Allan Nicholls)"
     },
     {
       "imdbId": "nm0403707",
@@ -218,7 +219,8 @@
       "name": "John E. Bristol",
       "roles": [
         "Bear - The Hermit"
-      ]
+      ],
+      "notes": "(as John Bristol)"
     },
     {
       "imdbId": "nm0417823",
@@ -260,7 +262,8 @@
       "name": "Alan Autry",
       "roles": [
         "Slug - A Tough"
-      ]
+      ],
+      "notes": "(as Carlos Brown)"
     },
     {
       "imdbId": "nm0235684",
@@ -387,7 +390,8 @@
       "name": "Roberto Dell'Acqua",
       "roles": [
         "The Chimneysweep"
-      ]
+      ],
+      "notes": "(as Roberto Dell'Aqua)"
     },
     {
       "imdbId": "nm0892239",
@@ -395,6 +399,14 @@
       "roles": [
         "Cindy - The Drudge"
       ]
+    },
+    {
+      "imdbId": "nm0580271",
+      "name": "Jack Mercer",
+      "roles": [
+        "Popeye - Animated Prologue"
+      ],
+      "notes": "(voice)"
     }
   ],
   "writers": [
@@ -402,12 +414,8 @@
       "imdbId": "nm0270547",
       "name": "Jules Feiffer",
       "notes": "screenplay"
-    },
-    {
-      "imdbId": "nm0781918",
-      "name": "E.C. Segar",
-      "notes": "based on characters by"
     }
   ],
-  "runtimeMinutes": 114
+  "runtimeMinutes": 114,
+  "releaseDateCountry": "United States"
 }

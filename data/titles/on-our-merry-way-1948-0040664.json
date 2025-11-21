@@ -5,7 +5,7 @@
   "originalTitle": "On Our Merry Way",
   "sortTitle": "on-our-merry-way-1948",
   "year": "1948",
-  "releaseDate": "1948-02-03",
+  "releaseDate": "1948-06-??",
   "countries": [
     "United States"
   ],
@@ -22,6 +22,16 @@
     {
       "imdbId": "nm0896542",
       "name": "King Vidor"
+    },
+    {
+      "imdbId": "nm0001379",
+      "name": "John Huston",
+      "notes": "(uncredited)"
+    },
+    {
+      "imdbId": "nm0828419",
+      "name": "George Stevens",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -128,7 +138,8 @@
       "name": "Carl 'Alfalfa' Switzer",
       "roles": [
         "Leopold 'Zoot' Wirtz"
-      ]
+      ],
+      "notes": "(as Carl Switzer)"
     },
     {
       "imdbId": "nm0418152",
@@ -174,5 +185,6 @@
       "notes": "James Stewart-Henry Fonda material by"
     }
   ],
-  "runtimeMinutes": 107
+  "runtimeMinutes": 107,
+  "releaseDateCountry": "United States"
 }

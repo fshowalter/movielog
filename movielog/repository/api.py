@@ -5,6 +5,8 @@ from typing import get_args
 
 from movielog.repository import (
     cast_and_crew_validator,
+    imdb_http_person,
+    imdb_http_title,
     imdb_ratings_data_updater,
     imdb_ratings_data_validator,
     json_cast_and_crew,
@@ -12,6 +14,7 @@ from movielog.repository import (
     json_imdb_ratings,
     json_titles,
     json_watchlist_people,
+    json_watchlist_person,
     markdown_reviews,
     markdown_viewings,
     title_data_updater,
@@ -29,6 +32,8 @@ db = db_api.db
 
 update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
+get_title_page = imdb_http_title.get_title_page
+get_person_page = imdb_http_person.get_person_page
 
 
 @dataclass
@@ -151,7 +156,7 @@ def collections() -> Generator[Collection]:
 
 
 def _hydrate_watchlist_person(
-    json_watchlist_person: json_watchlist_people.JsonWatchlistPerson,
+    json_watchlist_person: json_watchlist_person.JsonWatchlistPerson,
 ) -> WatchlistPerson:
     if isinstance(json_watchlist_person["imdbId"], list):
         imdb_id = frozenset(json_watchlist_person["imdbId"])
@@ -189,8 +194,8 @@ def cast_and_crew() -> Iterable[CastAndCrewMember]:
 def watchlist_people(
     kind: WatchlistPersonKind,
 ) -> Generator[WatchlistPerson]:
-    for json_watchlist_person in json_watchlist_people.read_all(kind):
-        yield _hydrate_watchlist_person(json_watchlist_person)
+    for watchlist_person in json_watchlist_people.read_all(kind):
+        yield _hydrate_watchlist_person(watchlist_person)
 
 
 def titles() -> Iterable[Title]:
@@ -266,14 +271,11 @@ def reviews() -> Iterable[Review]:
 
 
 def update_datasets() -> None:
-    (dataset_titles, dataset_names) = datasets_api.download_and_extract()
+    dataset_titles = datasets_api.download_and_extract()
 
-    db_api.update_titles_and_names(
-        titles=list(dataset_titles.values()), names=list(dataset_names.values())
-    )
+    db_api.update_titles(titles=dataset_titles)
 
-    title_data_updater.update_for_datasets(dataset_titles=dataset_titles)
-    imdb_ratings_data_updater.update_for_datasets(dataset_titles=list(dataset_titles.values()))
+    imdb_ratings_data_updater.update_for_datasets(dataset_titles=dataset_titles)
 
 
 @dataclass

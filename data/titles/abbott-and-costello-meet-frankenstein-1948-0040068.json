@@ -2,7 +2,7 @@
   "imdbId": "tt0040068",
   "slug": "abbott-and-costello-meet-frankenstein-1948",
   "title": "Abbott and Costello Meet Frankenstein",
-  "originalTitle": "Bud Abbott and Lou Costello Meet Frankenstein",
+  "originalTitle": "Bud Abbott Lou Costello Meet Frankenstein",
   "sortTitle": "abbott-and-costello-meet-frankenstein-1948",
   "year": "1948",
   "releaseDate": "1948-06-15",
@@ -18,7 +18,13 @@
   "directors": [
     {
       "imdbId": "nm0059106",
-      "name": "Charles Barton"
+      "name": "Charles Barton",
+      "notes": "(as Charles T. Barton)"
+    },
+    {
+      "imdbId": "nm0487237",
+      "name": "Walter Lantz",
+      "notes": "animation sequences (uncredited)"
     }
   ],
   "performers": [
@@ -42,7 +48,8 @@
       "roles": [
         "Lawrence Talbot",
         "The Wolfman"
-      ]
+      ],
+      "notes": "(as Lon Chaney)"
     },
     {
       "imdbId": "nm0000509",
@@ -85,6 +92,14 @@
       "roles": [
         "Dr. Stevens"
       ]
+    },
+    {
+      "imdbId": "nm0001637",
+      "name": "Vincent Price",
+      "roles": [
+        "The Invisible Man"
+      ],
+      "notes": "(voice) (uncredited)"
     }
   ],
   "writers": [
@@ -104,5 +119,6 @@
       "notes": "original screenplay"
     }
   ],
-  "runtimeMinutes": 83
+  "runtimeMinutes": 83,
+  "releaseDateCountry": "United States"
 }

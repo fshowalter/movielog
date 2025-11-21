@@ -5,7 +5,7 @@
   "originalTitle": "Play Motel",
   "sortTitle": "play-motel-1979",
   "year": "1979",
-  "releaseDate": "1979-??-??",
+  "releaseDate": "2015-08-25",
   "countries": [
     "Italy"
   ],
@@ -20,7 +20,8 @@
   "directors": [
     {
       "imdbId": "nm0307391",
-      "name": "Mario Gariazzo"
+      "name": "Mario Gariazzo",
+      "notes": "(as Roy Garrett)"
     }
   ],
   "performers": [
@@ -57,7 +58,8 @@
       "name": "Patrizia Behn",
       "roles": [
         "Luisa Cortesi"
-      ]
+      ],
+      "notes": "(as Patricia Behn)"
     },
     {
       "imdbId": "nm0279914",
@@ -71,14 +73,16 @@
       "name": "Marina Hedman",
       "roles": [
         "Loredana Salvi"
-      ]
+      ],
+      "notes": "(as Marina Frajese)"
     },
     {
       "imdbId": "nm0293614",
       "name": "Mario Novelli",
       "roles": [
         "Receptionist"
-      ]
+      ],
+      "notes": "(as Antony Freeman)"
     },
     {
       "imdbId": "nm0166706",
@@ -147,5 +151,6 @@
       "notes": "(as Roy Garrett)"
     }
   ],
-  "runtimeMinutes": 93
+  "runtimeMinutes": 93,
+  "releaseDateCountry": "United States"
 }

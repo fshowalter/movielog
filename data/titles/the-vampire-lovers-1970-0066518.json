@@ -5,7 +5,7 @@
   "originalTitle": "The Vampire Lovers",
   "sortTitle": "vampire-lovers-1970",
   "year": "1970",
-  "releaseDate": "1970-09-03",
+  "releaseDate": "1970-11-23",
   "countries": [
     "United Kingdom"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0001928",
-      "name": "Roy Ward Baker"
+      "name": "Roy Ward Baker",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -33,7 +34,8 @@
       "name": "Pippa Steel",
       "roles": [
         "Laura"
-      ]
+      ],
+      "notes": "(as Pippa Steele)"
     },
     {
       "imdbId": "nm0809184",
@@ -96,7 +98,8 @@
       "name": "Kirsten Lindholm",
       "roles": [
         "First Vampire"
-      ]
+      ],
+      "notes": "(as Kirsten Betts)"
     },
     {
       "imdbId": "nm0285424",
@@ -159,7 +162,8 @@
       "name": "Olga Anthony",
       "roles": [
         "Village Girl"
-      ]
+      ],
+      "notes": "(as Olga James)"
     }
   ],
   "writers": [
@@ -189,5 +193,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "Sweden"
 }

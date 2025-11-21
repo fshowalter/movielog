@@ -5,7 +5,7 @@
   "originalTitle": "Popstar: Never Stop Never Stopping",
   "sortTitle": "popstar-never-stop-never-stopping-2016",
   "year": "2016",
-  "releaseDate": "2016-05-24",
+  "releaseDate": "2016-06-03",
   "countries": [
     "United States",
     "China"
@@ -19,11 +19,13 @@
   "directors": [
     {
       "imdbId": "nm1676223",
-      "name": "Akiva Schaffer"
+      "name": "Akiva Schaffer",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm1672246",
-      "name": "Jorma Taccone"
+      "name": "Jorma Taccone",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -131,7 +133,8 @@
       "roles": [
         "Ahmir 'Questlove' Thompson",
         "The Roots"
-      ]
+      ],
+      "notes": "(as Ahmir 'Questlove' Thompson)"
     },
     {
       "imdbId": "nm1863227",
@@ -222,7 +225,8 @@
       "name": "P!nk",
       "roles": [
         "Alecia Moore"
-      ]
+      ],
+      "notes": "(as Alecia Moore)"
     },
     {
       "imdbId": "nm0101559",
@@ -236,7 +240,8 @@
       "name": "DJ Khaled",
       "roles": [
         "Khaled 'DJ Khaled' Khaled"
-      ]
+      ],
+      "notes": "(as Khaled 'DJ Khaled' Khaled)"
     },
     {
       "imdbId": "nm5473880",
@@ -271,14 +276,16 @@
       "name": "Jim Hegarty",
       "roles": [
         "Angry Appliance Fan"
-      ]
+      ],
+      "notes": "(as James Hegarty)"
     },
     {
       "imdbId": "nm8190176",
       "name": "Walker Borba",
       "roles": [
         "Angry Vlogger"
-      ]
+      ],
+      "notes": "(as Walker William Borba)"
     },
     {
       "imdbId": "nm0004715",
@@ -306,7 +313,8 @@
       "name": "Eric André",
       "roles": [
         "Dreadlocked CMZ Reporter"
-      ]
+      ],
+      "notes": "(as Eric Andre)"
     },
     {
       "imdbId": "nm0352778",
@@ -370,7 +378,8 @@
       "name": "Tip 'T.I.' Harris",
       "roles": [
         "T.I."
-      ]
+      ],
+      "notes": "(as T.I.)"
     },
     {
       "imdbId": "nm1214289",
@@ -419,7 +428,8 @@
       "name": "Joy Lanceta Coronel",
       "roles": [
         "Angry Fan"
-      ]
+      ],
+      "notes": "(as Joy Lanceta)"
     },
     {
       "imdbId": "nm0429432",
@@ -433,7 +443,8 @@
       "name": "Love Keith",
       "roles": [
         "Angry Fan"
-      ]
+      ],
+      "notes": "(as Keith Love)"
     },
     {
       "imdbId": "nm8190177",
@@ -482,14 +493,16 @@
       "name": "Derek Mears",
       "roles": [
         "Limo Driver"
-      ]
+      ],
+      "notes": "(as Derek Maers)"
     },
     {
       "imdbId": "nm4876328",
       "name": "Alison Rich",
       "roles": [
         "Crazy Fan"
-      ]
+      ],
+      "notes": "(as Alison Hermine Rich)"
     },
     {
       "imdbId": "nm0000640",
@@ -538,7 +551,8 @@
       "name": "'Weird Al' Yankovic",
       "roles": [
         "Hammerleg Lead Singer"
-      ]
+      ],
+      "notes": "(as Weird Al Yankovic)"
     },
     {
       "imdbId": "nm0093428",
@@ -566,7 +580,8 @@
       "name": "James 'Kamal' Gray",
       "roles": [
         "The Roots"
-      ]
+      ],
+      "notes": "(as James Gray)"
     },
     {
       "imdbId": "nm4762807",
@@ -601,7 +616,8 @@
       "name": "Tariq Trotter",
       "roles": [
         "The Roots"
-      ]
+      ],
+      "notes": "(as Tariq 'Black Thought' Trotter)"
     },
     {
       "imdbId": "nm3355090",
@@ -615,7 +631,8 @@
       "name": "Manwe Saul Addison",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Manwé Sauls-Addison)"
     },
     {
       "imdbId": "nm5206360",
@@ -671,7 +688,8 @@
       "name": "Calvit Dolvin Hodge Jr.",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Calvit Hodge)"
     },
     {
       "imdbId": "nm3545865",
@@ -699,7 +717,8 @@
       "name": "Kyle R. Robinson",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as Kyle Robinson)"
     },
     {
       "imdbId": "nm3940507",
@@ -748,7 +767,8 @@
       "name": "C.J. Tyson",
       "roles": [
         "Dancer"
-      ]
+      ],
+      "notes": "(as CJ Tyson)"
     }
   ],
   "writers": [
@@ -768,5 +788,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 87
+  "runtimeMinutes": 87,
+  "releaseDateCountry": "United States"
 }

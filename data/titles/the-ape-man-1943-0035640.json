@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0064415",
-      "name": "William Beaudine"
+      "name": "William Beaudine",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "J. Farrell MacDonald",
       "roles": [
         "Police Capt. O'Brien"
-      ]
+      ],
+      "notes": "(as J. Farrel MacDonald)"
     },
     {
       "imdbId": "nm0643048",
@@ -103,7 +105,8 @@
       "name": "Ernest Morrison",
       "roles": [
         "Copyboy"
-      ]
+      ],
+      "notes": "(as Sunshine Sammy Morrison)"
     }
   ],
   "writers": [
@@ -118,5 +121,6 @@
       "notes": "screenplay by (as Barney Sarecky)"
     }
   ],
-  "runtimeMinutes": 64
+  "runtimeMinutes": 64,
+  "releaseDateCountry": "United States"
 }

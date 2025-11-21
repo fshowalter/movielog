@@ -5,14 +5,13 @@
   "originalTitle": "Summertime",
   "sortTitle": "summertime-1955",
   "year": "1955",
-  "releaseDate": "1955-05-29",
+  "releaseDate": "1955-11-07",
   "countries": [
     "United Kingdom",
     "United States",
     "Italy"
   ],
   "genres": [
-    "Comedy",
     "Drama",
     "Romance"
   ],
@@ -109,7 +108,13 @@
       "imdbId": "nm0000180",
       "name": "David Lean",
       "notes": "screenplay"
+    },
+    {
+      "imdbId": "nm0829330",
+      "name": "Donald Ogden Stewart",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 100
+  "runtimeMinutes": 100,
+  "releaseDateCountry": "United Kingdom"
 }

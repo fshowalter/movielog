@@ -5,51 +5,71 @@
   "titles": [
     {
       "imdbId": "tt0066961",
-      "title": "Cry of the Penguins (1971)"
+      "title": "Cry of the Penguins (1971)",
+      "role": "screenplay"
     },
     {
       "imdbId": "tt0068611",
-      "title": "Frenzy (1972)"
+      "title": "Frenzy (1972)",
+      "role": "screenplay by"
     },
     {
       "imdbId": "tt0069281",
-      "title": "Sleuth (1972)"
+      "title": "Sleuth (1972)",
+      "role": "play"
     },
     {
       "imdbId": "tt0070917",
-      "title": "The Wicker Man (1973)"
+      "title": "The Wicker Man (1973)",
+      "role": "screenplay"
+    },
+    {
+      "imdbId": "tt0071877",
+      "title": "Murder on the Orient Express (1974)",
+      "attributes": [
+        "uncredited"
+      ]
     },
     {
       "imdbId": "tt0077413",
-      "title": "Death on the Nile (1978)"
+      "title": "Death on the Nile (1978)",
+      "role": "screenplay"
     },
     {
       "imdbId": "tt0081975",
-      "title": "Absolution (1978)"
+      "title": "Absolution (1978)",
+      "role": "screenplay"
     },
     {
       "imdbId": "tt0083908",
-      "title": "Evil Under the Sun (1982)"
+      "title": "Evil Under the Sun (1982)",
+      "role": "screenplay by"
     },
     {
       "imdbId": "tt0094669",
-      "title": "Appointment with Death (1988)"
-    }
+      "title": "Appointment with Death (1988)",
+      "role": "screenplay"
+    }    
   ],
   "excludedTitles": [
     {
       "imdbId": "tt0108185",
       "title": "Sommersby (1993)",
+      "role": "story",
       "reason": "not screenwriter"
     },
     {
       "imdbId": "tt0450345",
       "title": "The Wicker Man (2006)",
+      "attributes": [
+        "1973 screenplay"
+      ],
       "reason": "not screenwriter"
     },
     {
       "imdbId": "tt0857265",
       "title": "Sleuth (2007)",
+      "role": "adapted from the play by",
       "reason": "not screenwriter"
     }
   ]

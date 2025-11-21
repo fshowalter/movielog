@@ -5,7 +5,7 @@
   "sortTitle": "road-trip-2000",
   "year": "2000",
   "slug": "road-trip-2000",
-  "releaseDate": "2000-05-11",
+  "releaseDate": "2000-05-19",
   "runtimeMinutes": 93,
   "countries": [
     "United States"
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0680846",
-      "name": "Todd Phillips"
+      "name": "Todd Phillips",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -256,7 +257,8 @@
       "name": "Preston Wigasi Brant",
       "roles": [
         "Chris"
-      ]
+      ],
+      "notes": "(as Preston Brant)"
     },
     {
       "imdbId": "nm0205155",
@@ -264,6 +266,14 @@
       "roles": [
         "Rhonda"
       ]
+    },
+    {
+      "imdbId": "nm0453994",
+      "name": "Jimmy Kimmel",
+      "roles": [
+        "Corky the Dog"
+      ],
+      "notes": "(voice)"
     },
     {
       "imdbId": "nm0755290",
@@ -305,7 +315,8 @@
       "name": "Guenevere Rodriguez",
       "roles": [
         "Tour Group"
-      ]
+      ],
+      "notes": "(as Guinevere Rodriguez)"
     },
     {
       "imdbId": "nm0927760",
@@ -326,7 +337,8 @@
       "name": "Daniel Emery Taylor",
       "roles": [
         "Tour Group"
-      ]
+      ],
+      "notes": "(as Daniel Taylor)"
     },
     {
       "imdbId": "nm0547531",
@@ -340,7 +352,8 @@
       "name": "Bob Place",
       "roles": [
         "Tour Group"
-      ]
+      ],
+      "notes": "(as Bobby Place)"
     },
     {
       "imdbId": "nm0320735",
@@ -354,14 +367,16 @@
       "name": "Marla Malcolm",
       "roles": [
         "Tour Group"
-      ]
+      ],
+      "notes": "(as Marla Leigh Malcom)"
     },
     {
       "imdbId": "nm0909768",
       "name": "Matt Walsh",
       "roles": [
         "Crime Scene Photographer"
-      ]
+      ],
+      "notes": "(as Matthew Paul Walsh)"
     },
     {
       "imdbId": "nm0101152",
@@ -389,7 +404,8 @@
       "name": "Lori Beth Sikes",
       "roles": [
         "Party Guest"
-      ]
+      ],
+      "notes": "(as Lori Beth Edgeman)"
     },
     {
       "imdbId": "nm0308343",
@@ -438,7 +454,8 @@
       "name": "Krew Keth",
       "roles": [
         "Party Guest"
-      ]
+      ],
+      "notes": "(as Rada Phlong)"
     },
     {
       "imdbId": "nm0330419",
@@ -564,5 +581,6 @@
       "name": "Scot Armstrong",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

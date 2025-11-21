@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0001486",
-      "name": "Sidney Lumet"
+      "name": "Sidney Lumet",
+      "notes": "television prints (as Alan Smithee)"
     }
   ],
   "performers": [
@@ -61,14 +62,16 @@
       "name": "Luis Guzmán",
       "roles": [
         "Luis Valentin"
-      ]
+      ],
+      "notes": "(as Luis Guzman)"
     },
     {
       "imdbId": "nm0001165",
       "name": "Charles S. Dutton",
       "roles": [
         "Sam Chapman"
-      ]
+      ],
+      "notes": "(as Charles Dutton)"
     },
     {
       "imdbId": "nm0525886",
@@ -96,7 +99,8 @@
       "name": "Dominic Chianese",
       "roles": [
         "Larry Pesch"
-      ]
+      ],
+      "notes": "(as Dominick Chianese)"
     },
     {
       "imdbId": "nm0162361",
@@ -138,7 +142,8 @@
       "name": "Thomas Mikal Ford",
       "roles": [
         "Lubin"
-      ]
+      ],
+      "notes": "(as Tommy A. Ford)"
     },
     {
       "imdbId": "nm0135306",
@@ -251,7 +256,8 @@
       "name": "Anibal O. Lleras",
       "roles": [
         "'After Hours' Patron"
-      ]
+      ],
+      "notes": "(as Anibal Lleras)"
     },
     {
       "imdbId": "nm0033039",
@@ -376,5 +382,6 @@
       "notes": "screenplay (on television prints)"
     }
   ],
-  "runtimeMinutes": 132
+  "runtimeMinutes": 132,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "La morte viene dallo spazio",
   "sortTitle": "day-the-sky-exploded-1958",
   "year": "1958",
-  "releaseDate": "1958-09-04",
+  "releaseDate": "1961-09-27",
   "countries": [
     "Italy",
     "France"
@@ -16,7 +16,13 @@
   "directors": [
     {
       "imdbId": "nm0381870",
-      "name": "Paolo Heusch"
+      "name": "Paolo Heusch",
+      "notes": "(credit only)"
+    },
+    {
+      "imdbId": "nm0000878",
+      "name": "Mario Bava",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -32,7 +38,8 @@
       "name": "Madeleine Fischer",
       "roles": [
         "Katy Dandridge"
-      ]
+      ],
+      "notes": "(as Madeline Fischer)"
     },
     {
       "imdbId": "nm0546918",
@@ -53,21 +60,24 @@
       "name": "Dario Michaelis",
       "roles": [
         "Peter Leduq"
-      ]
+      ],
+      "notes": "(as Darrio Michaelis)"
     },
     {
       "imdbId": "nm0303351",
       "name": "Gérard Landry",
       "roles": [
         "Randowsky"
-      ]
+      ],
+      "notes": "(as Sam Galter)"
     },
     {
       "imdbId": "nm0216628",
       "name": "Jean-Jacques Delbo",
       "roles": [
         "Sergei Boetnikov"
-      ]
+      ],
+      "notes": "(as Jean Jacques Delbo)"
     }
   ],
   "writers": [
@@ -87,5 +97,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 82
+  "runtimeMinutes": 82,
+  "releaseDateCountry": "United States"
 }

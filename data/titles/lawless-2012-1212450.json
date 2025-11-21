@@ -5,7 +5,7 @@
   "originalTitle": "Lawless",
   "sortTitle": "lawless-2012",
   "year": "2012",
-  "releaseDate": "2012-05-19",
+  "releaseDate": "2012-08-29",
   "countries": [
     "United States"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0384825",
-      "name": "John Hillcoat"
+      "name": "John Hillcoat",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -153,7 +154,8 @@
       "name": "Eric Mendenhall",
       "roles": [
         "Spoons Rivard"
-      ]
+      ],
+      "notes": "(as Erin Mendenhall)"
     },
     {
       "imdbId": "nm4504890",
@@ -181,7 +183,8 @@
       "name": "William J. Harrison",
       "roles": [
         "Young Howard"
-      ]
+      ],
+      "notes": "(as William Harrison)"
     },
     {
       "imdbId": "nm5225026",
@@ -273,5 +276,6 @@
       "notes": "based on the book by: \"The Wettest County in the World\""
     }
   ],
-  "runtimeMinutes": 116
+  "runtimeMinutes": 116,
+  "releaseDateCountry": "United States"
 }

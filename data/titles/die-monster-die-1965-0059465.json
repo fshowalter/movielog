@@ -19,7 +19,8 @@
   "directors": [
     {
       "imdbId": "nm0356396",
-      "name": "Daniel Haller"
+      "name": "Daniel Haller",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -120,5 +121,6 @@
       "notes": "from \"The Colour Out of Space\""
     }
   ],
-  "runtimeMinutes": 80
+  "runtimeMinutes": 80,
+  "releaseDateCountry": "United States"
 }

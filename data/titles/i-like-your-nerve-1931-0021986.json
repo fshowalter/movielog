@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0568915",
-      "name": "William C. McGann"
+      "name": "William C. McGann",
+      "notes": "(as William McGann)"
     }
   ],
   "performers": [
@@ -46,7 +47,8 @@
       "name": "Claud Allister",
       "roles": [
         "Archie Lester"
-      ]
+      ],
+      "notes": "(as Claude Allister)"
     },
     {
       "imdbId": "nm0107631",
@@ -80,5 +82,6 @@
       "notes": "dialogue"
     }
   ],
-  "runtimeMinutes": 70
+  "runtimeMinutes": 70,
+  "releaseDateCountry": "United States"
 }

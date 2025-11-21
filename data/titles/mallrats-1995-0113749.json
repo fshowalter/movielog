@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0003620",
-      "name": "Kevin Smith"
+      "name": "Kevin Smith",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -68,7 +69,8 @@
       "name": "Renée Humphrey",
       "roles": [
         "Tricia"
-      ]
+      ],
+      "notes": "(as Renee Humphrey)"
     },
     {
       "imdbId": "nm0582939",
@@ -166,7 +168,8 @@
       "name": "Ed Hapstak",
       "roles": [
         "Guy Contestant #2"
-      ]
+      ],
+      "notes": "(as Ed Hapstack)"
     },
     {
       "imdbId": "nm0376173",
@@ -257,7 +260,8 @@
       "name": "Sven-Ole Thorsen",
       "roles": [
         "La Fours"
-      ]
+      ],
+      "notes": "(as Sven Thorsen)"
     },
     {
       "imdbId": "nm0941109",
@@ -292,7 +296,8 @@
       "name": "Brad Gidding",
       "roles": [
         "Team La Fours"
-      ]
+      ],
+      "notes": "(as Brad Giddings)"
     },
     {
       "imdbId": "nm0532950",
@@ -315,5 +320,6 @@
       "name": "Kevin Smith",
       "notes": "written by"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

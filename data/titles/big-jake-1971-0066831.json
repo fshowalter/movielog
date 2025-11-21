@@ -17,6 +17,11 @@
     {
       "imdbId": "nm0792450",
       "name": "George Sherman"
+    },
+    {
+      "imdbId": "nm0000078",
+      "name": "John Wayne",
+      "notes": "(uncredited)"
     }
   ],
   "performers": [
@@ -53,7 +58,8 @@
       "name": "Christopher Mitchum",
       "roles": [
         "Michael McCandles"
-      ]
+      ],
+      "notes": "(as Chris Mitchum)"
     },
     {
       "imdbId": "nm0899130",
@@ -137,7 +143,8 @@
       "name": "Ethan Wayne",
       "roles": [
         "Little Jake McCandles"
-      ]
+      ],
+      "notes": "(as John Ethan Wayne)"
     },
     {
       "imdbId": "nm0135102",
@@ -151,7 +158,8 @@
       "name": "Bill Walker",
       "roles": [
         "Moses Brown"
-      ]
+      ],
+      "notes": "(as William Walker)"
     },
     {
       "imdbId": "nm0309702",
@@ -201,5 +209,6 @@
       "notes": "story and screenplay (as R.M. Fink)"
     }
   ],
-  "runtimeMinutes": 110
+  "runtimeMinutes": 110,
+  "releaseDateCountry": "United States"
 }

@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0280463",
-      "name": "George Fitzmaurice"
+      "name": "George Fitzmaurice",
+      "notes": "(as Geo Fitzmaurice)"
     }
   ],
   "performers": [
@@ -25,7 +26,8 @@
       "name": "Dolores Del Río",
       "roles": [
         "Lita"
-      ]
+      ],
+      "notes": "(as Dolores del Rio)"
     },
     {
       "imdbId": "nm0522926",
@@ -46,7 +48,8 @@
       "name": "Blanche Friderici",
       "roles": [
         "Madame Durand"
-      ]
+      ],
+      "notes": "(as Blanche Frederici)"
     },
     {
       "imdbId": "nm0195077",
@@ -80,7 +83,7 @@
       "imdbId": "nm0573786",
       "name": "Charles McNaughton",
       "roles": [
-        "Petey"
+        "Peter Aloysius 'Petey' Hopkins"
       ]
     },
     {
@@ -130,14 +133,16 @@
       "name": "Tom Dugan",
       "roles": [
         "Sailor"
-      ]
+      ],
+      "notes": "(as Tommy Dugan)"
     },
     {
       "imdbId": "nm0000472",
       "name": "Boris Karloff",
       "roles": [
         "Monsieur Gaston"
-      ]
+      ],
+      "notes": "(uncredited)"
     }
   ],
   "writers": [
@@ -157,5 +162,6 @@
       "notes": "adaptation & dialogue"
     }
   ],
-  "runtimeMinutes": 70
+  "runtimeMinutes": 70,
+  "releaseDateCountry": "United States"
 }

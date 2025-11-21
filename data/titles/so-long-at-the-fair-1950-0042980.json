@@ -5,7 +5,7 @@
   "sortTitle": "so-long-at-the-fair-1950",
   "year": "1950",
   "slug": "so-long-at-the-fair-1950",
-  "releaseDate": "1950-05-31",
+  "releaseDate": "1951-03-29",
   "runtimeMinutes": 86,
   "countries": [
     "United Kingdom"
@@ -54,17 +54,17 @@
       ]
     },
     {
-      "imdbId": "nm0043875",
-      "name": "Felix Aylmer",
-      "roles": [
-        "British Consul"
-      ]
-    },
-    {
       "imdbId": "nm0626350",
       "name": "Cathleen Nesbitt",
       "roles": [
         "Madame Hervé"
+      ]
+    },
+    {
+      "imdbId": "nm0043875",
+      "name": "Felix Aylmer",
+      "roles": [
+        "British Consul"
       ]
     },
     {
@@ -93,7 +93,8 @@
       "name": "André Morell",
       "roles": [
         "Doctor Hart"
-      ]
+      ],
+      "notes": "(as Andre Morell)"
     },
     {
       "imdbId": "nm0551243",
@@ -131,5 +132,6 @@
       "name": "Hugh Mills",
       "notes": "dialogue"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }

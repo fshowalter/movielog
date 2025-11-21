@@ -5,7 +5,7 @@
   "originalTitle": "The Hills Have Eyes Part II",
   "sortTitle": "hills-have-eyes-part-ii-1984",
   "year": "1984",
-  "releaseDate": "1984-06-01",
+  "releaseDate": "1985-08-02",
   "countries": [
     "United Kingdom",
     "United States"
@@ -17,7 +17,8 @@
   "directors": [
     {
       "imdbId": "nm0000127",
-      "name": "Wes Craven"
+      "name": "Wes Craven",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -36,27 +37,6 @@
       ]
     },
     {
-      "imdbId": "nm0898782",
-      "name": "Virginia Vincent",
-      "roles": [
-        "Ethel Carter"
-      ]
-    },
-    {
-      "imdbId": "nm0926612",
-      "name": "James Whitworth",
-      "roles": [
-        "Jupiter"
-      ]
-    },
-    {
-      "imdbId": "nm0486839",
-      "name": "Susan Lanier",
-      "roles": [
-        "Brenda"
-      ]
-    },
-    {
       "imdbId": "nm0821347",
       "name": "Tamara Stafford",
       "roles": [
@@ -68,7 +48,8 @@
       "name": "Kevin Spirtas",
       "roles": [
         "Roy"
-      ]
+      ],
+      "notes": "(as Kevin Blair)"
     },
     {
       "imdbId": "nm0490855",
@@ -82,7 +63,8 @@
       "name": "Willard E. Pugh",
       "roles": [
         "Foster"
-      ]
+      ],
+      "notes": "(as Willard Pugh)"
     },
     {
       "imdbId": "nm0292691",
@@ -103,7 +85,8 @@
       "name": "Penny Johnson Jerald",
       "roles": [
         "Sue"
-      ]
+      ],
+      "notes": "(as Penny Johnson)"
     },
     {
       "imdbId": "nm0090041",
@@ -111,27 +94,6 @@
       "roles": [
         "Rachel",
         "Ruby"
-      ]
-    },
-    {
-      "imdbId": "nm0330378",
-      "name": "Lance Gordon",
-      "roles": [
-        "Mars"
-      ]
-    },
-    {
-      "imdbId": "nm0547861",
-      "name": "Brenda Marinoff",
-      "roles": [
-        "Katy"
-      ]
-    },
-    {
-      "imdbId": "nm0817571",
-      "name": "Martin Speer",
-      "roles": [
-        "Doug"
       ]
     },
     {
@@ -170,5 +132,6 @@
       "notes": "written by"
     }
   ],
-  "runtimeMinutes": 86
+  "runtimeMinutes": 86,
+  "releaseDateCountry": "United States"
 }

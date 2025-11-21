@@ -5,7 +5,7 @@
   "originalTitle": "Snowpiercer",
   "sortTitle": "snowpiercer-2013",
   "year": "2013",
-  "releaseDate": "2013-07-29",
+  "releaseDate": "2014-07-11",
   "countries": [
     "South Korea",
     "Czech Republic"
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0094435",
-      "name": "Bong Joon Ho"
+      "name": "Bong Joon Ho",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -97,7 +98,8 @@
       "name": "Luca Pasqualino",
       "roles": [
         "Grey"
-      ]
+      ],
+      "notes": "(as Luke Pasqualino)"
     },
     {
       "imdbId": "nm0412096",
@@ -125,7 +127,8 @@
       "name": "Steve Park",
       "roles": [
         "Fuyu"
-      ]
+      ],
+      "notes": "(as Stephen Park)"
     },
     {
       "imdbId": "nm0585485",
@@ -139,7 +142,8 @@
       "name": "Marcanthonee Reis",
       "roles": [
         "Tim"
-      ]
+      ],
+      "notes": "(as Marcanthonee Jon Reis)"
     },
     {
       "imdbId": "nm0493684",
@@ -174,7 +178,8 @@
       "name": "Magda Weigertová",
       "roles": [
         "Doris"
-      ]
+      ],
+      "notes": "(as Magdaléna Weigertová)"
     },
     {
       "imdbId": "nm3426177",
@@ -195,7 +200,8 @@
       "name": "Haruna Honcoop",
       "roles": [
         "Female Officer"
-      ]
+      ],
+      "notes": "(as Haruna Honcoopova)"
     },
     {
       "imdbId": "nm4975300",
@@ -216,7 +222,8 @@
       "name": "Tyler John Williams",
       "roles": [
         "Young Wilford"
-      ]
+      ],
+      "notes": "(as Tyler Williams)"
     },
     {
       "imdbId": "nm5439716",
@@ -230,28 +237,32 @@
       "name": "Sean Connor Renwick",
       "roles": [
         "Sergio"
-      ]
+      ],
+      "notes": "(as Sean Renwick)"
     },
     {
       "imdbId": "nm6581267",
       "name": "Karel Veselý",
       "roles": [
         "Andy"
-      ]
+      ],
+      "notes": "(as Karel Vesely)"
     },
     {
       "imdbId": "nm12261332",
       "name": "Sung-Taek Park",
       "roles": [
         "Chan"
-      ]
+      ],
+      "notes": "(as Park Sungtaek)"
     },
     {
       "imdbId": "nm5075677",
       "name": "Brian Colin Foley",
       "roles": [
         "Soldier A"
-      ]
+      ],
+      "notes": "(as Brian Foley)"
     },
     {
       "imdbId": "nm3110742",
@@ -268,18 +279,27 @@
       ]
     },
     {
+      "imdbId": "nm3382853",
+      "name": "Tomás Dianiska",
+      "roles": [
+        "Dark Voice"
+      ]
+    },
+    {
       "imdbId": "nm0623143",
       "name": "Mirek Navratil",
       "roles": [
         "Giant"
-      ]
+      ],
+      "notes": "(as Miroslav Navrátil)"
     },
     {
       "imdbId": "nm3845723",
       "name": "Hun Chang",
       "roles": [
         "Plant Tender 1"
-      ]
+      ],
+      "notes": "(as Huh Chan)"
     },
     {
       "imdbId": "nm2675831",
@@ -289,11 +309,41 @@
       ]
     },
     {
+      "imdbId": "nm1116155",
+      "name": "Dana Green",
+      "roles": [
+        "Voice Actor"
+      ]
+    },
+    {
+      "imdbId": "nm3637167",
+      "name": "Jonny Loquasto",
+      "roles": [
+        "Voice Actor"
+      ]
+    },
+    {
+      "imdbId": "nm0791487",
+      "name": "Parry Shen",
+      "roles": [
+        "Voice Actor"
+      ]
+    },
+    {
+      "imdbId": "nm1156870",
+      "name": "Joseph Peréz Bertót",
+      "roles": [
+        "Voice Actor"
+      ],
+      "notes": "(as Joseph Bertot)"
+    },
+    {
       "imdbId": "nm6581270",
       "name": "Eun-kyung Song",
       "roles": [
         "Korean Translator"
-      ]
+      ],
+      "notes": "(as Eunkyung Song)"
     }
   ],
   "writers": [
@@ -328,5 +378,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 126
+  "runtimeMinutes": 126,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "The Slumber Party Massacre",
   "sortTitle": "slumber-party-massacre-1982",
   "year": "1982",
-  "releaseDate": "1982-01-01",
+  "releaseDate": "1982-11-12",
   "countries": [
     "United States"
   ],
@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0427468",
-      "name": "Amy Holden Jones"
+      "name": "Amy Holden Jones",
+      "notes": "(as Amy Jones)"
     }
   ],
   "performers": [
@@ -38,14 +39,16 @@
       "name": "Michael Villella",
       "roles": [
         "Russ Thorn"
-      ]
+      ],
+      "notes": "(as Michael Villela)"
     },
     {
       "imdbId": "nm0217231",
       "name": "Debra De Liso",
       "roles": [
         "Kim"
-      ]
+      ],
+      "notes": "(as Debra Deliso)"
     },
     {
       "imdbId": "nm0393390",
@@ -59,7 +62,8 @@
       "name": "Gina Smika Hunter",
       "roles": [
         "Diane"
-      ]
+      ],
+      "notes": "(as Gina Mari)"
     },
     {
       "imdbId": "nm0583560",
@@ -73,7 +77,8 @@
       "name": "Joseph Alan Johnson",
       "roles": [
         "Neil"
-      ]
+      ],
+      "notes": "(as Joe Johnson)"
     },
     {
       "imdbId": "nm0587778",
@@ -108,7 +113,8 @@
       "name": "Rigg Kennedy",
       "roles": [
         "David Contant"
-      ]
+      ],
+      "notes": "(as Ryan Kennedy)"
     },
     {
       "imdbId": "nm0889852",
@@ -136,7 +142,8 @@
       "name": "Pamela Canzano",
       "roles": [
         "Carpenter"
-      ]
+      ],
+      "notes": "(as Pam Canzano)"
     },
     {
       "imdbId": "nm0003497",
@@ -157,7 +164,8 @@
       "name": "Robert Axelrod",
       "roles": [
         "Larry"
-      ]
+      ],
+      "notes": "(as Axel Roberts)"
     }
   ],
   "writers": [
@@ -165,7 +173,13 @@
       "imdbId": "nm0114522",
       "name": "Rita Mae Brown",
       "notes": "written by"
+    },
+    {
+      "imdbId": "nm0427468",
+      "name": "Amy Holden Jones",
+      "notes": "(uncredited)"
     }
   ],
-  "runtimeMinutes": 77
+  "runtimeMinutes": 77,
+  "releaseDateCountry": "United States"
 }

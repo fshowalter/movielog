@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0159201",
-      "name": "Yuen Chor"
+      "name": "Yuen Chor",
+      "notes": "(as Chu Yuan)"
     }
   ],
   "performers": [
@@ -25,12 +26,14 @@
       "name": "Tony Liu",
       "roles": [
         "Lu Hsiao Feng"
-      ]
+      ],
+      "notes": "(as Yung Liu)"
     },
     {
       "imdbId": "nm0398944",
       "name": "Yueh Hua",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hua Yueh)"
     },
     {
       "imdbId": "nm1493417",
@@ -62,7 +65,8 @@
       "name": "Deborah Dik",
       "roles": [
         "(Guest star)"
-      ]
+      ],
+      "notes": "(as Deborah)"
     },
     {
       "imdbId": "nm0270495",
@@ -79,7 +83,8 @@
     {
       "imdbId": "nm0156449",
       "name": "Chi-Ping Chang",
-      "roles": []
+      "roles": [],
+      "notes": "(as Chi Ping Cheung)"
     },
     {
       "imdbId": "nm2964010",
@@ -122,11 +127,6 @@
       "roles": []
     },
     {
-      "imdbId": "nm0514960",
-      "name": "Lau Chun-Fai",
-      "roles": []
-    },
-    {
       "imdbId": "nm2490213",
       "name": "Ming Fung",
       "roles": []
@@ -134,7 +134,8 @@
     {
       "imdbId": "nm1318902",
       "name": "Fung Ging-Man",
-      "roles": []
+      "roles": [],
+      "notes": "(as Ging-Man Fung)"
     },
     {
       "imdbId": "nm0351719",
@@ -144,7 +145,8 @@
     {
       "imdbId": "nm0398824",
       "name": "Hsu Hsia",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsia Hsu)"
     },
     {
       "imdbId": "nm0473322",
@@ -157,6 +159,12 @@
       "roles": [
         "Red Shoe Society's Man"
       ]
+    },
+    {
+      "imdbId": "nm0514960",
+      "name": "Chun-Fai Lau",
+      "roles": [],
+      "notes": "(as Lau Chun-Fai)"
     },
     {
       "imdbId": "nm0851047",
@@ -176,7 +184,8 @@
     {
       "imdbId": "nm0398959",
       "name": "Hui-Huang Lin",
-      "roles": []
+      "roles": [],
+      "notes": "(as Fai Wong Lam)"
     },
     {
       "imdbId": "nm0490548",
@@ -201,7 +210,8 @@
     {
       "imdbId": "nm0399031",
       "name": "Huang Pei-Chi",
-      "roles": []
+      "roles": [],
+      "notes": "(as Pei-Chi Huang)"
     },
     {
       "imdbId": "nm1714999",
@@ -236,7 +246,8 @@
     {
       "imdbId": "nm0401192",
       "name": "Kara Ying Hung Wai",
-      "roles": []
+      "roles": [],
+      "notes": "(as Kara Hui)"
     },
     {
       "imdbId": "nm0157900",
@@ -271,7 +282,8 @@
     {
       "imdbId": "nm0950604",
       "name": "Cheung-Yan Yuen",
-      "roles": []
+      "roles": [],
+      "notes": "(as Hsiang-Jen Yuan)"
     },
     {
       "imdbId": "nm0950757",
@@ -293,5 +305,6 @@
       "notes": "novel"
     }
   ],
-  "runtimeMinutes": 88
+  "runtimeMinutes": 88,
+  "releaseDateCountry": "Hong Kong"
 }

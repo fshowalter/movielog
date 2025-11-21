@@ -5,7 +5,7 @@
   "originalTitle": "Sexy Evil Genius",
   "sortTitle": "sexy-evil-genius-2013",
   "year": "2013",
-  "releaseDate": "2013-04-09",
+  "releaseDate": "2014-10-22",
   "countries": [
     "United States"
   ],
@@ -23,6 +23,13 @@
   ],
   "performers": [
     {
+      "imdbId": "nm0755267",
+      "name": "Katee Sackhoff",
+      "roles": [
+        "Nikki Franklyn"
+      ]
+    },
+    {
       "imdbId": "nm0005502",
       "name": "Michelle Trachtenberg",
       "roles": [
@@ -37,10 +44,10 @@
       ]
     },
     {
-      "imdbId": "nm0755267",
-      "name": "Katee Sackhoff",
+      "imdbId": "nm0001293",
+      "name": "Seth Green",
       "roles": [
-        "Nikki Franklyn"
+        "Zachary Newman"
       ]
     },
     {
@@ -51,17 +58,24 @@
       ]
     },
     {
-      "imdbId": "nm0001293",
-      "name": "Seth Green",
-      "roles": [
-        "Zachary Newman"
-      ]
-    },
-    {
       "imdbId": "nm0000287",
       "name": "William Baldwin",
       "roles": [
         "Bert Mayfaire"
+      ]
+    },
+    {
+      "imdbId": "nm2326268",
+      "name": "Chad Guerrero",
+      "roles": [
+        "Totally Untrustworthy Looking Gangster #1"
+      ]
+    },
+    {
+      "imdbId": "nm4895968",
+      "name": "Theo Iyer",
+      "roles": [
+        "Cellmate"
       ]
     },
     {
@@ -79,20 +93,6 @@
       ]
     },
     {
-      "imdbId": "nm2326268",
-      "name": "Chad Guerrero",
-      "roles": [
-        "Totally Untrustworthy Looking Gangster #1"
-      ]
-    },
-    {
-      "imdbId": "nm0303293",
-      "name": "Robert 'Rock' Galotti",
-      "roles": [
-        "Arresting Officer"
-      ]
-    },
-    {
       "imdbId": "nm1218732",
       "name": "Derek Mio",
       "roles": [
@@ -107,10 +107,10 @@
       ]
     },
     {
-      "imdbId": "nm4895968",
-      "name": "Theo Iyer",
+      "imdbId": "nm0303293",
+      "name": "Robert 'Rock' Galotti",
       "roles": [
-        "Cellmate"
+        "Arresting Officer"
       ]
     },
     {
@@ -142,10 +142,10 @@
       ]
     },
     {
-      "imdbId": "nm2773545",
-      "name": "Katie Costick",
+      "imdbId": "nm2987166",
+      "name": "Angela Rachelle",
       "roles": [
-        "Bartender"
+        "Bert's sister"
       ]
     },
     {
@@ -153,7 +153,8 @@
       "name": "Lauren Arevian",
       "roles": [
         "Waitress"
-      ]
+      ],
+      "notes": "(as Lauren Fray)"
     },
     {
       "imdbId": "nm4434337",
@@ -163,17 +164,10 @@
       ]
     },
     {
-      "imdbId": "nm4788490",
-      "name": "Kristy Dowe",
+      "imdbId": "nm2773545",
+      "name": "Katie Costick",
       "roles": [
-        "Young Nikki Franklin"
-      ]
-    },
-    {
-      "imdbId": "nm2987166",
-      "name": "Angela Rachelle",
-      "roles": [
-        "Bert's sister"
+        "Bartender"
       ]
     },
     {
@@ -184,13 +178,6 @@
       ]
     },
     {
-      "imdbId": "nm3757433",
-      "name": "Karen Jean Wu",
-      "roles": [
-        "Waitress #2"
-      ]
-    },
-    {
       "imdbId": "nm4766662",
       "name": "Brian Tanaka",
       "roles": [
@@ -198,10 +185,10 @@
       ]
     },
     {
-      "imdbId": "nm2361899",
-      "name": "Nick Longo",
+      "imdbId": "nm4788490",
+      "name": "Kristy Dowe",
       "roles": [
-        "Preppy Student"
+        "Young Nikki Franklin"
       ]
     },
     {
@@ -209,6 +196,29 @@
       "name": "Tricia Williamson",
       "roles": [
         "Nurse"
+      ],
+      "notes": "(as Tricia Dell)"
+    },
+    {
+      "imdbId": "nm3757433",
+      "name": "Karen Jean Wu",
+      "roles": [
+        "Waitress #2"
+      ]
+    },
+    {
+      "imdbId": "nm2361899",
+      "name": "Nick Longo",
+      "roles": [
+        "Preppy Student"
+      ],
+      "notes": "(as Nicholas Longo)"
+    },
+    {
+      "imdbId": "nm4760859",
+      "name": "Ford Smith",
+      "roles": [
+        "Club Guy #1"
       ]
     },
     {
@@ -216,13 +226,6 @@
       "name": "Suzanne Eversmeyer",
       "roles": [
         "Undercover Cop"
-      ]
-    },
-    {
-      "imdbId": "nm4760859",
-      "name": "Ford Smith",
-      "roles": [
-        "Club Guy #1"
       ]
     }
   ],
@@ -233,5 +236,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 91
+  "runtimeMinutes": 91,
+  "releaseDateCountry": "Australia"
 }

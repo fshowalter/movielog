@@ -5,7 +5,7 @@
   "originalTitle": "The Cincinnati Kid",
   "sortTitle": "cincinnati-kid-1965",
   "year": "1965",
-  "releaseDate": "1965-10-15",
+  "releaseDate": "1965-10-30",
   "countries": [
     "United States"
   ],
@@ -16,6 +16,11 @@
     {
       "imdbId": "nm0422484",
       "name": "Norman Jewison"
+    },
+    {
+      "imdbId": "nm0001603",
+      "name": "Sam Peckinpah",
+      "notes": "fired after one week shooting (uncredited)"
     }
   ],
   "performers": [
@@ -94,7 +99,8 @@
       "name": "Theodore Marcuse",
       "roles": [
         "Felix"
-      ]
+      ],
+      "notes": "(as Theo Marcuse)"
     },
     {
       "imdbId": "nm0783670",
@@ -115,7 +121,8 @@
       "name": "Émile Genest",
       "roles": [
         "Cajun"
-      ]
+      ],
+      "notes": "(as Emile Genest)"
     },
     {
       "imdbId": "nm0811824",
@@ -163,5 +170,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 102
+  "runtimeMinutes": 102,
+  "releaseDateCountry": "Japan"
 }

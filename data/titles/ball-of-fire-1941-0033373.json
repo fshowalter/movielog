@@ -5,7 +5,7 @@
   "originalTitle": "Ball of Fire",
   "sortTitle": "ball-of-fire-1941",
   "year": "1941",
-  "releaseDate": "1941-12-30",
+  "releaseDate": "1942-01-09",
   "countries": [
     "United States"
   ],
@@ -16,7 +16,8 @@
   "directors": [
     {
       "imdbId": "nm0001328",
-      "name": "Howard Hawks"
+      "name": "Howard Hawks",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -144,7 +145,8 @@
       "name": "Elisha Cook Jr.",
       "roles": [
         "Waiter"
-      ]
+      ],
+      "notes": "(as Elisha Cook)"
     },
     {
       "imdbId": "nm0722235",
@@ -239,5 +241,6 @@
       "notes": "from an original story by"
     }
   ],
-  "runtimeMinutes": 111
+  "runtimeMinutes": 111,
+  "releaseDateCountry": "United States"
 }

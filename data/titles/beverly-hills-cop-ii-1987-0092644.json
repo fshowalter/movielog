@@ -5,7 +5,7 @@
   "originalTitle": "Beverly Hills Cop II",
   "sortTitle": "beverly-hills-cop-ii-1987",
   "year": "1987",
-  "releaseDate": "1987-05-19",
+  "releaseDate": "1987-05-20",
   "countries": [
     "United States"
   ],
@@ -90,7 +90,8 @@
       "name": "Gilbert R. Hill",
       "roles": [
         "Inspector Todd"
-      ]
+      ],
+      "notes": "(as Gil Hill)"
     },
     {
       "imdbId": "nm0002117",
@@ -104,14 +105,16 @@
       "name": "Robert Ridgely",
       "roles": [
         "Mayor Egan"
-      ]
+      ],
+      "notes": "(as Robert Ridgley)"
     },
     {
       "imdbId": "nm0640256",
       "name": "Brian Edward O'Connor",
       "roles": [
         "Biddle"
-      ]
+      ],
+      "notes": "(as Brian O'Connor)"
     },
     {
       "imdbId": "nm0010417",
@@ -167,7 +170,8 @@
       "name": "Hugh Hefner",
       "roles": [
         "Hugh Hefner"
-      ]
+      ],
+      "notes": "(as Hugh M. Hefner)"
     },
     {
       "imdbId": "nm0500191",
@@ -181,7 +185,8 @@
       "name": "Frank Pesce",
       "roles": [
         "Carlotta"
-      ]
+      ],
+      "notes": "(as Frank J. Pesce)"
     },
     {
       "imdbId": "nm0543195",
@@ -202,7 +207,8 @@
       "name": "Uncle Ray Murphy",
       "roles": [
         "Uncle Ray"
-      ]
+      ],
+      "notes": "(as Ray Murphy Sr.)"
     },
     {
       "imdbId": "nm0839881",
@@ -265,7 +271,8 @@
       "name": "Peggy McIntaggart",
       "roles": [
         "Stripper"
-      ]
+      ],
+      "notes": "(as Peggy Sands)"
     },
     {
       "imdbId": "nm0140890",
@@ -279,7 +286,8 @@
       "name": "Gary Carlos Cervantes",
       "roles": [
         "Mendoza"
-      ]
+      ],
+      "notes": "(as Carlos Cervantes)"
     },
     {
       "imdbId": "nm0218154",
@@ -321,7 +329,8 @@
       "name": "Tom Lister Jr.",
       "roles": [
         "Orvis"
-      ]
+      ],
+      "notes": "(as Tom 'Tiny' Lister Jr.)"
     },
     {
       "imdbId": "nm0659756",
@@ -384,7 +393,8 @@
       "name": "Michael Francis Kelly",
       "roles": [
         "Guard at Gate"
-      ]
+      ],
+      "notes": "(as Michael F. Kelly)"
     },
     {
       "imdbId": "nm0482810",
@@ -550,16 +560,6 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0045301",
-      "name": "Danilo Bach",
-      "notes": "based on characters created by and"
-    },
-    {
-      "imdbId": "nm0677943",
-      "name": "Daniel Petrie Jr.",
-      "notes": "based on characters created by"
-    },
-    {
       "imdbId": "nm0000552",
       "name": "Eddie Murphy",
       "notes": "story by &"
@@ -580,5 +580,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "United States"
 }

@@ -15,7 +15,8 @@
   "directors": [
     {
       "imdbId": "nm0546672",
-      "name": "Antonio Margheriti"
+      "name": "Antonio Margheriti",
+      "notes": "(as Anthony Dawson)"
     }
   ],
   "performers": [
@@ -31,14 +32,16 @@
       "name": "Georges Rivière",
       "roles": [
         "Max Hunter"
-      ]
+      ],
+      "notes": "(as George Riviere)"
     },
     {
       "imdbId": "nm0000489",
       "name": "Christopher Lee",
       "roles": [
         "Erich"
-      ]
+      ],
+      "notes": "(as Cristopher Lee)"
     },
     {
       "imdbId": "nm0637713",
@@ -87,12 +90,14 @@
       "name": "Lucile Saint-Simon",
       "roles": [
         "Hilde"
-      ]
+      ],
+      "notes": "(as Lucille St. Simon)"
     },
     {
       "imdbId": "nm0910569",
       "name": "Patrick Walton",
-      "roles": []
+      "roles": [],
+      "notes": "(as Patrik Walton)"
     },
     {
       "imdbId": "nm0934778",
@@ -147,5 +152,6 @@
       "notes": "screenplay and adaptation (as Anthony Dawson)"
     }
   ],
-  "runtimeMinutes": 84
+  "runtimeMinutes": 84,
+  "releaseDateCountry": "Italy"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Jigsaw",
   "sortTitle": "jigsaw-2017",
   "year": "2017",
-  "releaseDate": "2017-10-25",
+  "releaseDate": "2017-10-27",
   "countries": [
     "United States",
     "Canada"
@@ -18,11 +18,13 @@
   "directors": [
     {
       "imdbId": "nm1294961",
-      "name": "Michael Spierig"
+      "name": "Michael Spierig",
+      "notes": "directed by (as The Spierig Brothers)"
     },
     {
       "imdbId": "nm1294962",
-      "name": "Peter Spierig"
+      "name": "Peter Spierig",
+      "notes": "directed by (as The Spierig Brothers)"
     }
   ],
   "performers": [
@@ -151,7 +153,8 @@
       "name": "Nadine Whiteman",
       "roles": [
         "News Reporter #1"
-      ]
+      ],
+      "notes": "(as Nadine Roden)"
     },
     {
       "imdbId": "nm3460510",
@@ -243,5 +246,6 @@
       "notes": "written by (as Peter Goldfinger)"
     }
   ],
-  "runtimeMinutes": 92
+  "runtimeMinutes": 92,
+  "releaseDateCountry": "United States"
 }

@@ -5,7 +5,7 @@
   "originalTitle": "Il cartaio",
   "sortTitle": "card-player-2003",
   "year": "2003",
-  "releaseDate": "2003-12-06",
+  "releaseDate": "2004-01-02",
   "countries": [
     "Italy"
   ],
@@ -138,7 +138,8 @@
       "name": "Pier Maria Cecchini",
       "roles": [
         "Flying Squad Chief"
-      ]
+      ],
+      "notes": "(as Piermaria Cecchini)"
     },
     {
       "imdbId": "nm1534308",
@@ -251,6 +252,14 @@
       "roles": [
         "Doctor"
       ]
+    },
+    {
+      "imdbId": "nm0661050",
+      "name": "Francis Pardeilhan",
+      "roles": [
+        "Carlo Sturni"
+      ],
+      "notes": "(voice: English version)"
     }
   ],
   "writers": [
@@ -275,5 +284,6 @@
       "notes": "screenplay"
     }
   ],
-  "runtimeMinutes": 103
+  "runtimeMinutes": 103,
+  "releaseDateCountry": "Italy"
 }

@@ -10,7 +10,7 @@ from movielog.repository.db import api as db_api
 
 class TitleQueryResult(TypedDict):
     imdb_id: str
-    imdb_rating: float | None
+    imdb_rating: float
     imdb_votes: int
 
 
@@ -49,16 +49,12 @@ def update_with_db_data(imdb_ids: list[str]) -> None:
 def update_for_datasets(
     dataset_titles: list[datasets_api.DatasetTitle],
 ) -> None:
-    average_imdb_votes = mean(
-        title["imdb_votes"] for title in dataset_titles if title["imdb_votes"]
-    )
+    average_imdb_votes = mean(title["imdb_votes"] for title in dataset_titles)
 
     average_imdb_rating = mean(
         title["imdb_rating"]
         for title in dataset_titles
-        if title["imdb_rating"]
-        and title["imdb_votes"]
-        and title["imdb_votes"] >= average_imdb_votes
+        if title["imdb_votes"] >= average_imdb_votes
     )
 
     reviewed_title_ids = {review.yaml["imdb_id"] for review in markdown_reviews.read_all()}

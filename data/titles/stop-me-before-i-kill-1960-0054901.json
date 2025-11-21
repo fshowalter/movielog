@@ -5,7 +5,7 @@
   "originalTitle": "The Full Treatment",
   "sortTitle": "stop-me-before-i-kill-1960",
   "year": "1960",
-  "releaseDate": "1960-10-01",
+  "releaseDate": "1960-10-??",
   "countries": [
     "United Kingdom"
   ],
@@ -18,7 +18,8 @@
   "directors": [
     {
       "imdbId": "nm0346436",
-      "name": "Val Guest"
+      "name": "Val Guest",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -48,7 +49,8 @@
       "name": "Françoise Rosay",
       "roles": [
         "Madame Prade"
-      ]
+      ],
+      "notes": "(as Francoise Rosay)"
     },
     {
       "imdbId": "nm0102946",
@@ -110,5 +112,6 @@
       "notes": "screenplay by"
     }
   ],
-  "runtimeMinutes": 108
+  "runtimeMinutes": 108,
+  "releaseDateCountry": "United Kingdom"
 }

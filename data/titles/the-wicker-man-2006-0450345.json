@@ -5,7 +5,7 @@
   "sortTitle": "wicker-man-2006",
   "year": "2006",
   "slug": "the-wicker-man-2006",
-  "releaseDate": "2006-08-31",
+  "releaseDate": "2006-09-01",
   "runtimeMinutes": 102,
   "countries": [
     "United States",
@@ -22,7 +22,8 @@
   "directors": [
     {
       "imdbId": "nm0001438",
-      "name": "Neil LaBute"
+      "name": "Neil LaBute",
+      "notes": "(as Neil Labute)"
     }
   ],
   "performers": [
@@ -88,7 +89,8 @@
       "name": "Erika-Shaye Gair",
       "roles": [
         "Rowan"
-      ]
+      ],
+      "notes": "(as Erika Shaye Gair)"
     },
     {
       "imdbId": "nm0132300",
@@ -256,5 +258,6 @@
       "name": "Anthony Shaffer",
       "notes": "(1973 screenplay)"
     }
-  ]
+  ],
+  "releaseDateCountry": "United States"
 }
