@@ -5,7 +5,7 @@
   "originalTitle": "In the Wake of the Bounty",
   "sortTitle": "in-the-wake-of-the-bounty-1933",
   "year": "1933",
-  "releaseDate": "1933-03-15",
+  "releaseDate": "1933-06-03",
   "countries": [
     "Australia"
   ],
@@ -20,13 +20,6 @@
     }
   ],
   "performers": [
-    {
-      "imdbId": "nm0338429",
-      "name": "Arthur Greenaway",
-      "roles": [
-        "Narrator"
-      ]
-    },
     {
       "imdbId": "nm0528890",
       "name": "Mayne Lynton",
@@ -54,6 +47,13 @@
       "roles": [
         "Midshipman Young"
       ]
+    },
+    {
+      "imdbId": "nm0338429",
+      "name": "Arthur Greenaway",
+      "roles": [
+        "Narrator"
+      ]
     }
   ],
   "writers": [
@@ -63,5 +63,6 @@
       "notes": "scenario"
     }
   ],
-  "runtimeMinutes": 66
+  "runtimeMinutes": 66,
+  "releaseDateCountry": "Australia"
 }

@@ -87,11 +87,6 @@
       "title": "Salome's Last Dance (1988)"
     },
     {
-      "imdbId": "tt0096982",
-      "title": "A British Picture (1989)",
-      "titleType": "TV Movie"
-    },
-    {
       "imdbId": "tt0097859",
       "title": "Il Mefistofele (1989)",
       "titleType": "TV Movie"
@@ -99,11 +94,6 @@
     {
       "imdbId": "tt0098165",
       "title": "The Rainbow (1989)"
-    },
-    {
-      "imdbId": "tt0100700",
-      "title": "The Strange Affliction of Anton Bruckner (1990)",
-      "titleType": "TV Movie"
     },
     {
       "imdbId": "tt0100949",
@@ -167,6 +157,18 @@
       "role": "video \"She's So Beautiful\"",
       "reason": "music video"
     },
+        {
+      "imdbId": "tt0096982",
+      "title": "A British Picture (1989)",
+      "titleType": "TV Movie",
+      "reason": "tv special"
+    },
+    {
+      "imdbId": "tt0100700",
+      "title": "The Strange Affliction of Anton Bruckner (1990)",
+      "titleType": "TV Movie",
+      "reason": "tv special"
+    },
     {
       "imdbId": "tt0808150",
       "title": "Andrew Lloyd Webber: The Premiere Collection Encore (1992)",
@@ -184,5 +186,6 @@
       ],
       "reason": "tv episode compilation"
     }
+    
   ]
 }

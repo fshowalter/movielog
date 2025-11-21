@@ -294,12 +294,6 @@
       "role": "Nicholas"
     },
     {
-      "imdbId": "tt2009474",
-      "title": "Famous Ghost Stories (1961)",
-      "titleType": "TV Movie",
-      "role": "Host / Narrator"
-    },
-    {
       "imdbId": "tt0055864",
       "title": "Confessions of an Opium Eater (1962)",
       "role": "Gilbert De Quincey"
@@ -642,5 +636,13 @@
       "role": "ZigZag"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt2009474",
+      "title": "Famous Ghost Stories (1961)",
+      "titleType": "TV Movie",
+      "role": "Host / Narrator",
+      "reason": "TV pilot comprised of archive footage"
+    }
+  ]
 }

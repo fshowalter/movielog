@@ -158,12 +158,6 @@
       "role": "Lieutenant-Commander Greaves"
     },
     {
-      "imdbId": "tt0349829",
-      "title": "Moby Dick Rehearsed (1955)",
-      "titleType": "TV Movie",
-      "role": "A Stage Manager / Flask"
-    },
-    {
       "imdbId": "tt0048937",
       "title": "Alexander the Great (1956)",
       "attributes": [
@@ -1171,6 +1165,13 @@
     }
   ],
   "excludedTitles": [
+    {
+      "imdbId": "tt0349829",
+      "title": "Moby Dick Rehearsed (1955)",
+      "titleType": "TV Movie",
+      "role": "A Stage Manager / Flask",
+      "reason": "lost film?"
+    },
     {
       "imdbId": "tt0204999",
       "title": "Destination Milan (1954)",

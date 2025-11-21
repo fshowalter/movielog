@@ -23,6 +23,7 @@ UNKNOWN_RELEASE_DATES = {
     "tt0150855": "1991-??-??",  # Hauntedween
     "tt0063183": "1968-??-??",  # Killer Darts
     "tt2087757": "1985-??-??",  # Faust
+    "tt0097859": "1989-??-??",  # Il Mefistofele
 }
 
 
