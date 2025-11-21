@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from movielog.repository import imdb_http_person
+from movielog.repository import api as repository_api
 
 
 @dataclass
@@ -11,7 +11,7 @@ class SearchResult:
 
 
 def search_by_name(imdb_id: str) -> list[SearchResult]:
-    person_page = imdb_http_person.get_person_page(imdb_id)
+    person_page = repository_api.get_person_page(imdb_id)
 
     return [
         SearchResult(

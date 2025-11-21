@@ -299,11 +299,6 @@
       "role": "Major Manley Battle"
     },
     {
-      "imdbId": "tt0403345",
-      "title": "True Facts (1992)",
-      "titleType": "TV Movie"
-    },
-    {
       "imdbId": "tt0106684",
       "title": "Deadfall (1993)",
       "role": "Mike / Lou"
@@ -478,5 +473,12 @@
       "role": "Thunder Jack"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+        {
+      "imdbId": "tt0403345",
+      "title": "True Facts (1992)",
+      "titleType": "TV Movie",
+      "reason": "no IMDb votes"
+    }
+  ]
 }

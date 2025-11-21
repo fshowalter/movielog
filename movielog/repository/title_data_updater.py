@@ -153,8 +153,6 @@ def _credit_notes_are_valid_for_performer(
         (("archive footage" not in notes) or (imdb_title_id in AllowedArchiveFootageTitles))
         and (("uncredited" not in notes) or (imdb_person_id in watchlist_performer_ids))
         and ("scenes deleted" not in notes)
-        and ("based on the comics by" not in notes)
-        and ("based on the Marvel comics by" not in notes)
     )
 
 
@@ -162,7 +160,14 @@ def _credit_notes_are_valid_for_writer(notes: str | None) -> bool:
     if not notes:
         return True
 
-    return "character" not in notes.lower()
+    notes_lower = notes.lower()
+
+    return (
+        "character" not in notes_lower
+        and ("based on the comics by" not in notes_lower)
+        and ("based on the Marvel comics by" not in notes_lower)
+        and ("created by" not in notes_lower)
+    )
 
 
 def _get_progress_file_path() -> Path:

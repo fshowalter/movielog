@@ -4,8 +4,7 @@ import pytest
 from pytest_mock import MockerFixture
 
 from movielog.cli import add_writer
-from movielog.repository.datasets.dataset_name import DatasetName
-from movielog.repository.db import names_table
+from movielog.repository.imdb_http_person import PersonPage
 from tests.cli.conftest import MockInput
 from tests.cli.keys import Down, Enter, Escape
 
@@ -16,34 +15,19 @@ def mock_add_person_to_watchlist(mocker: MockerFixture) -> MockerFixture:
 
 
 @pytest.fixture(autouse=True)
-def seed_db() -> None:
-    names_table.reload(
-        [
-            DatasetName(
-                imdb_id="nm0762727",
-                full_name="Jimmy Sangster",
-                known_for_titles=["Horror of Dracula", "The Curse of Frankenstein"],
-            ),
-            DatasetName(
-                imdb_id="nm0102824",
-                full_name="Leigh Brackett",
-                known_for_titles=[
-                    "The Big Sleep",
-                    "Rio Bravo",
-                    "The Empire Strikes Back",
-                ],
-            ),
-            DatasetName(
-                imdb_id="nm0276169",
-                full_name="Tom Holland",
-                known_for_titles=["Fright Night", "Childs Play"],
-            ),
-        ]
+def mock_search_person(mocker: MockerFixture) -> MockerFixture:
+    return mocker.patch(
+        "movielog.cli.person_searcher.repository_api.get_person_page",
+        return_value=PersonPage(
+            imdb_id="nm0102824",
+            name="Leigh Brackett",
+            known_for_titles=["Rio Bravo", "The Big Sleep", "The Empire Strikes Back"],
+        ),
     )
 
 
 def test_calls_add_writer(mock_input: MockInput, mock_add_person_to_watchlist: MagicMock) -> None:
-    mock_input(["Leigh Brackett", Enter, Down, Enter, "y", Enter])
+    mock_input(["nm0102824", Enter, Down, Enter, "y", Enter])
     add_writer.prompt()
 
     mock_add_person_to_watchlist.assert_called_once_with(

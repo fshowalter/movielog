@@ -18,7 +18,7 @@ def search(title_id: str) -> list[SearchResult]:
     return [
         SearchResult(
             imdb_id=title_id,
-            full_title=f"${title_page.title} (${title_page.year})",
+            full_title=f"{title_page.title} ({title_page.year})",
             principal_cast_names=title_page.principal_cast,
         )
     ]

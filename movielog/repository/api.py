@@ -5,6 +5,7 @@ from typing import get_args
 
 from movielog.repository import (
     cast_and_crew_validator,
+    imdb_http_person,
     imdb_http_title,
     imdb_ratings_data_updater,
     imdb_ratings_data_validator,
@@ -32,6 +33,7 @@ db = db_api.db
 update_watchlist_credits = watchlist_credits_updater.update_watchlist_credits
 update_title_data = title_data_updater.update_from_imdb_pages
 get_title_page = imdb_http_title.get_title_page
+get_person_page = imdb_http_person.get_person_page
 
 
 @dataclass

@@ -12,11 +12,6 @@
       "role": "Extra in crowd scene"
     },
     {
-      "imdbId": "tt5061960",
-      "title": "The Condemned (1956)",
-      "titleType": "TV Movie"
-    },
-    {
       "imdbId": "tt0050099",
       "title": "Action of the Tiger (1957)",
       "role": "Mike"
@@ -410,5 +405,12 @@
       "role": "Sir Billi"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt5061960",
+      "title": "The Condemned (1956)",
+      "titleType": "TV Movie",
+      "reason": "no IMDb votes"
+    }
+  ]
 }

@@ -19,7 +19,7 @@ def mock_add_person_to_watchlist(mocker: MockerFixture) -> MockerFixture:
 @pytest.fixture(autouse=True)
 def mock_search_person(mocker: MockerFixture) -> MockerFixture:
     return mocker.patch(
-        "movielog.cli.person_searcher.imdb_http_person.get_person_page",
+        "movielog.cli.person_searcher.repository_api.get_person_page",
         return_value=PersonPage(
             imdb_id="nm0000078",
             name="John Wayne",
