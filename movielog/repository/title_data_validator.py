@@ -118,6 +118,7 @@ def add_new_titles(new_title_ids: set[str]) -> None:
             year="",
             slug="",
             releaseDate="????",
+            releaseDateCountry="",
             runtimeMinutes=0,
             countries=[],
             genres=[],
