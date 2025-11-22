@@ -18,10 +18,14 @@
     {
       "imdbId": "tt0079027",
       "title": "The Dark (1979)",
-      "attributes": [
-        "uncredited"
-      ],
-      "role": "replaced by John Cardos"
+      "credits": [
+        {
+          "text": "replaced by John Cardos",
+          "attributes": [
+            "uncredited"
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0082427",
@@ -30,10 +34,14 @@
     {
       "imdbId": "tt0084854",
       "title": "Venom (1981)",
-      "attributes": [
-        "uncredited"
-      ],
-      "role": "replaced by Piers Haggard"
+      "credits": [
+        {
+          "text": "replaced by Piers Haggard",
+          "attributes": [
+            "uncredited"
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0084516",
@@ -42,7 +50,11 @@
     {
       "imdbId": "tt0089489",
       "title": "Lifeforce (1985)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0091276",
@@ -65,10 +77,14 @@
       "imdbId": "tt0106449",
       "title": "Body Bags (1993)",
       "titleType": "TV Movie",
-      "attributes": [
-        "segment \"Eye\""
-      ],
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by",
+          "attributes": [
+            "segment \"Eye\""
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0108350",
@@ -92,8 +108,12 @@
       "imdbId": "tt0328723",
       "title": "Shadow Realm (2002)",
       "titleType": "TV Movie",
-      "attributes": [
-        "segment \"The Maze\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"The Maze\""
+          ]
+        }
       ]
     },
     {
@@ -124,7 +144,7 @@
     {
       "imdbId": "tt7235162",
       "title": "Phone Calls from the Dead (1996)",
-      "titleType":"TV Movie",
+      "titleType": "TV Movie",
       "reason": "doesn't exist?"
     }
   ]

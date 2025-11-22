@@ -14,8 +14,12 @@
     {
       "imdbId": "tt0065198",
       "title": "The Wedding Party (1969)",
-      "attributes": [
-        "as Brian DePalma"
+      "credits": [
+        {
+          "attributes": [
+            "as Brian DePalma"
+          ]
+        }
       ]
     },
     {
@@ -25,8 +29,12 @@
     {
       "imdbId": "tt0065836",
       "title": "Hi, Mom! (1970)",
-      "attributes": [
-        "as Brian DePalma"
+      "credits": [
+        {
+          "attributes": [
+            "as Brian DePalma"
+          ]
+        }
       ]
     },
     {
@@ -48,13 +56,21 @@
     {
       "imdbId": "tt0074991",
       "title": "Obsession (1976)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0077588",
       "title": "The Fury (1978)",
-      "attributes": [
-        "as Brian DePalma"
+      "credits": [
+        {
+          "attributes": [
+            "as Brian DePalma"
+          ]
+        }
       ]
     },
     {
@@ -88,15 +104,23 @@
     {
       "imdbId": "tt0097027",
       "title": "Casualties of War (1989)",
-      "attributes": [
-        "as Brian DePalma"
+      "credits": [
+        {
+          "attributes": [
+            "as Brian DePalma"
+          ]
+        }
       ]
     },
     {
       "imdbId": "tt0099165",
       "title": "The Bonfire of the Vanities (1990)",
-      "attributes": [
-        "as Brian DePalma"
+      "credits": [
+        {
+          "attributes": [
+            "as Brian DePalma"
+          ]
+        }
       ]
     },
     {
@@ -110,7 +134,11 @@
     {
       "imdbId": "tt0117060",
       "title": "Mission: Impossible (1996)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0120832",
@@ -139,7 +167,11 @@
     {
       "imdbId": "tt3282076",
       "title": "Domino (2019)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     }
   ],
   "excludedTitles": []

@@ -66,8 +66,12 @@
     {
       "imdbId": "tt1612776",
       "title": "Short6 (2001)",
-      "attributes": [
-        "segment \"Camera\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Camera\""
+          ]
+        }
       ]
     },
     {
@@ -77,7 +81,11 @@
     {
       "imdbId": "tt0399146",
       "title": "A History of Violence (2005)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0765443",
@@ -86,8 +94,12 @@
     {
       "imdbId": "tt0973844",
       "title": "To Each His Own Cinema (2007)",
-      "attributes": [
-        "segment \"At the Suicide of the Last Jew in the World in the Last Cinema in the World\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"At the Suicide of the Last Jew in the World in the Last Cinema in the World\""
+          ]
+        }
       ]
     },
     {
@@ -109,7 +121,11 @@
     {
       "imdbId": "tt20212786",
       "title": "The Shrouds (2024)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     }
   ],
   "excludedTitles": []

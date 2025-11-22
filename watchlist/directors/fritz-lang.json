@@ -34,8 +34,12 @@
     {
       "imdbId": "tt0033486",
       "title": "Confirm or Deny (1941)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -57,7 +61,11 @@
     {
       "imdbId": "tt0037469",
       "title": "The Woman in the Window (1944)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0038057",
@@ -66,7 +74,11 @@
     {
       "imdbId": "tt0038417",
       "title": "Cloak and Dagger (1946)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0040766",

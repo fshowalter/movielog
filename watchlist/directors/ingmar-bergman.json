@@ -134,8 +134,12 @@
     {
       "imdbId": "tt0062306",
       "title": "Stimulantia (1967)",
-      "attributes": [
-        "segment \"Daniel\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Daniel\""
+          ]
+        }
       ]
     },
     {
@@ -158,7 +162,11 @@
     {
       "imdbId": "tt0066826",
       "title": "The Touch (1971)",
-      "role": "a film by"
+      "credits": [
+        {
+          "text": "a film by"
+        }
+      ]
     },
     {
       "imdbId": "tt0069467",
@@ -177,8 +185,12 @@
       "imdbId": "tt0073822",
       "title": "The Magic Flute (1975)",
       "titleType": "TV Movie",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -188,7 +200,11 @@
     {
       "imdbId": "tt0076686",
       "title": "The Serpent's Egg (1977)",
-      "role": "a film by"
+      "credits": [
+        {
+          "text": "a film by"
+        }
+      ]
     },
     {
       "imdbId": "tt0077711",

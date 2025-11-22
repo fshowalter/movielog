@@ -22,7 +22,11 @@
     {
       "imdbId": "tt0065446",
       "title": "The Ballad of Cable Hogue (1970)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0067800",
@@ -65,10 +69,14 @@
     {
       "imdbId": "tt0059037",
       "title": "The Cincinnati Kid (1965)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "text": "fired after one week shooting",
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ],
-      "role": "fired after one week shooting",
       "reason": "fired after one week shooting"
     }
   ]

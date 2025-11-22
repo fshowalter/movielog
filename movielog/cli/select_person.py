@@ -1,7 +1,7 @@
 import html
 from collections.abc import Iterable
 
-from prompt_toolkit.formatted_text import AnyFormattedText
+from prompt_toolkit.formatted_text import HTML, AnyFormattedText
 from prompt_toolkit.shortcuts import confirm
 
 from movielog.cli import ask, person_searcher, radio_list
@@ -28,7 +28,7 @@ def prompt(prompt_text: str = "IMDb ID: ") -> SearchResult | None:
         if selected_person is None:
             continue
 
-        if confirm(f"{result_to_html_string(selected_person)}?"):
+        if confirm(HTML(f"{result_to_html_string(selected_person)}?")):
             return selected_person
 
 

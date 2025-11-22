@@ -31,7 +31,11 @@
     {
       "imdbId": "tt0066993",
       "title": "The Devils (1971)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0069225",
@@ -69,13 +73,21 @@
     {
       "imdbId": "tt0091142",
       "title": "Gothic (1986)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0092580",
       "title": "Aria (1987)",
-      "attributes": [
-        "segment \"Nessun dorma\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Nessun dorma\""
+          ]
+        }
       ]
     },
     {
@@ -96,14 +108,6 @@
       "title": "The Rainbow (1989)"
     },
     {
-      "imdbId": "tt0100949",
-      "title": "Women and Men: Stories of Seduction (1990)",
-      "titleType": "TV Movie",
-      "attributes": [
-        "segment \"Dusk Before Fireworks\""
-      ]
-    },
-    {
       "imdbId": "tt0102715",
       "title": "Prisoner of Honor (1991)",
       "titleType": "TV Movie"
@@ -119,7 +123,7 @@
     },
     {
       "imdbId": "tt0213101",
-      "title": "The Mystery of Dr Martinu (1993)",
+      "title": "The Mystery of Dr Martinu (1992)",
       "titleType": "TV Movie"
     },
     {
@@ -144,8 +148,12 @@
     {
       "imdbId": "tt0478303",
       "title": "Trapped Ashes (2006)",
-      "attributes": [
-        "segment \"The Girl With Golden Breasts\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"The Girl With Golden Breasts\""
+          ]
+        }
       ]
     }
   ],
@@ -154,10 +162,14 @@
       "imdbId": "tt6358750",
       "title": "Now That's What I Call Music 6 (1985)",
       "titleType": "Video",
-      "role": "video \"She's So Beautiful\"",
+      "credits": [
+        {
+          "text": "video \"She's So Beautiful\""
+        }
+      ],
       "reason": "music video"
     },
-        {
+    {
       "imdbId": "tt0096982",
       "title": "A British Picture (1989)",
       "titleType": "TV Movie",
@@ -170,22 +182,42 @@
       "reason": "tv special"
     },
     {
+      "imdbId": "tt0100949",
+      "title": "Women and Men: Stories of Seduction (1990)",
+      "titleType": "TV Movie",
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Dusk Before Fireworks\""
+          ]
+        }
+      ],
+      "reason": "short film compilation"
+    },
+    {
       "imdbId": "tt0808150",
       "title": "Andrew Lloyd Webber: The Premiere Collection Encore (1992)",
       "titleType": "Video",
-      "attributes": [
-        "segments \"The Phantom of the Opera\", \"All I Ask Of You\", \"Wishing You Were Somehow Here Again\", \"The Music of the Night.\""
+      "credits": [
+        {
+          "attributes": [
+            "segments \"The Phantom of the Opera\", \"All I Ask Of You\", \"Wishing You Were Somehow Here Again\", \"The Music of the Night.\""
+          ]
+        }
       ],
       "reason": "music video"
     },
     {
       "imdbId": "tt0117827",
       "title": "Tales of Erotica (1996)",
-      "attributes": [
-        "segment \"The Insatiable Mrs. Kirsch\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"The Insatiable Mrs. Kirsch\""
+          ]
+        }
       ],
-      "reason": "tv episode compilation"
+      "reason": "tv compilation"
     }
-    
   ]
 }

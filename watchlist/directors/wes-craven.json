@@ -10,7 +10,11 @@
     {
       "imdbId": "tt0077681",
       "title": "The Hills Have Eyes (1977)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0078330",
@@ -24,7 +28,11 @@
     {
       "imdbId": "tt0084745",
       "title": "Swamp Thing (1982)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0087480",
@@ -38,13 +46,21 @@
     {
       "imdbId": "tt0089274",
       "title": "The Hills Have Eyes Part II (1984)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0088912",
       "title": "Chiller (1985)",
       "titleType": "TV Movie",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0090917",
@@ -53,7 +69,11 @@
     {
       "imdbId": "tt0096071",
       "title": "The Serpent and the Rainbow (1988)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0098320",
@@ -103,8 +123,12 @@
     {
       "imdbId": "tt0401711",
       "title": "Paris, Je T'aime (2006)",
-      "attributes": [
-        "segment \"Pere-Lachaise\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Pere-Lachaise\""
+          ]
+        }
       ]
     },
     {

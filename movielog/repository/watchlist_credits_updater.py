@@ -12,9 +12,29 @@ from movielog.repository import (
 )
 from movielog.repository.imdb_http_person import CreditKind, TitleCredit
 from movielog.repository.json_watchlist_person import JsonWatchlistPerson
-from movielog.repository.json_watchlist_titles import JsonWatchlistTitle
+from movielog.repository.json_watchlist_titles import JsonWatchlistTitle, JsonWatchlistTitleCredit
 from movielog.utils import path_tools
 from movielog.utils.logging import logger
+
+
+def _build_credits_for_title(
+    title_credit: TitleCredit,
+) -> tuple[JsonWatchlistTitleCredit, ...] | None:
+    if not title_credit.credits:
+        return None
+
+    credits_for_title = []
+
+    for credit in title_credit.credits:
+        credit_for_title = JsonWatchlistTitleCredit()
+        if credit.text:
+            credit_for_title["text"] = credit.text
+        if credit.attributes:
+            credit_for_title["attributes"] = credit.attributes
+
+        credits_for_title.append(credit_for_title)
+
+    return tuple(credits_for_title)
 
 
 def _add_title_page_to_watchlist_person_titles(
@@ -26,8 +46,7 @@ def _add_title_page_to_watchlist_person_titles(
             imdbId=title_credit.imdb_id,
             title=title_credit.full_title,
             titleType=title_credit.title_type,
-            attributes=title_credit.attributes,
-            role=title_credit.role,
+            credits=_build_credits_for_title(title_credit),
         )
     )
 

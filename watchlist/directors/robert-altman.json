@@ -43,7 +43,11 @@
     {
       "imdbId": "tt0071269",
       "title": "California Split (1974)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0072274",
@@ -119,8 +123,12 @@
     {
       "imdbId": "tt0092580",
       "title": "Aria (1987)",
-      "attributes": [
-        "segment \"Les Boréades\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Les Boréades\""
+          ]
+        }
       ]
     },
     {

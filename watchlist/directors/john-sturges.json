@@ -102,8 +102,12 @@
     {
       "imdbId": "tt0050923",
       "title": "Saddle the Wind (1958)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -165,15 +169,23 @@
     {
       "imdbId": "tt0067334",
       "title": "Le Mans (1971)",
-      "attributes": [
-        "uncredited"
-      ],
-      "role": "quit after seven weeks shooting"
+      "credits": [
+        {
+          "text": "quit after seven weeks shooting",
+          "attributes": [
+            "uncredited"
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0068768",
       "title": "Joe Kidd (1972)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0069833",

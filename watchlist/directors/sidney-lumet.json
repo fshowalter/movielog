@@ -99,7 +99,11 @@
     {
       "imdbId": "tt0070468",
       "title": "The Offence (1973)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0070666",
@@ -172,10 +176,14 @@
     {
       "imdbId": "tt0100442",
       "title": "Q&A (1990)",
-      "attributes": [
-        "as Alan Smithee"
-      ],
-      "role": "television prints"
+      "credits": [
+        {
+          "text": "television prints",
+          "attributes": [
+            "as Alan Smithee"
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0105483",

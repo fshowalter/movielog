@@ -84,10 +84,11 @@ class Review:
         value_modifier = 1
 
         grade_map = {
-            "A": 12,
-            "B": 9,
-            "C": 6,
-            "D": 3,
+            "A": 15,
+            "B": 12,
+            "C": 9,
+            "D": 6,
+            "F": 3,
         }
 
         grade_value = grade_map.get(self.grade[0], 1)
