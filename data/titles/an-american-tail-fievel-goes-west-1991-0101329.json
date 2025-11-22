@@ -22,11 +22,13 @@
   "directors": [
     {
       "imdbId": "nm0629216",
-      "name": "Phil Nibbelink"
+      "name": "Phil Nibbelink",
+      "notes": "directed by"
     },
     {
       "imdbId": "nm0920425",
-      "name": "Simon Wells"
+      "name": "Simon Wells",
+      "notes": "directed by"
     }
   ],
   "performers": [
@@ -219,14 +221,14 @@
   ],
   "writers": [
     {
-      "imdbId": "nm0842415",
-      "name": "Charles Swenson",
-      "notes": "story by"
-    },
-    {
       "imdbId": "nm0226863",
       "name": "Flint Dille",
       "notes": "screenplay by"
+    },
+    {
+      "imdbId": "nm0842415",
+      "name": "Charles Swenson",
+      "notes": "story by"
     }
   ],
   "releaseDateCountry": "United States"

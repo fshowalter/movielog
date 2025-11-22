@@ -14,7 +14,11 @@
     {
       "imdbId": "tt0069239",
       "title": "Season of the Witch (1972)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0069895",
@@ -23,7 +27,11 @@
     {
       "imdbId": "tt9270362",
       "title": "The Amusement Park (1975)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0077914",
@@ -40,12 +48,20 @@
     {
       "imdbId": "tt0083767",
       "title": "Creepshow (1982)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0088993",
       "title": "Day of the Dead (1985)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0095652",
@@ -54,16 +70,24 @@
     {
       "imdbId": "tt0100827",
       "title": "Two Evil Eyes (1990)",
-      "attributes": [
-        "segment \"The Facts in the Case of Mr. Valdemar\"",
-        "as George Romero"
-      ],
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by",
+          "attributes": [
+            "segment \"The Facts in the Case of Mr. Valdemar\"",
+            "as George Romero"
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0106664",
       "title": "The Dark Half (1993)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0212830",

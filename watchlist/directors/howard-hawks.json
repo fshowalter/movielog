@@ -30,8 +30,12 @@
     {
       "imdbId": "tt0024475",
       "title": "The Prizefighter and the Lady (1933)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -41,13 +45,21 @@
     {
       "imdbId": "tt0025919",
       "title": "Twentieth Century (1934)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0025948",
       "title": "Viva Villa! (1934)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -77,12 +89,20 @@
     {
       "imdbId": "tt0032599",
       "title": "His Girl Friday (1940)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0033373",
       "title": "Ball of Fire (1941)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0034167",
@@ -95,15 +115,23 @@
     {
       "imdbId": "tt0035757",
       "title": "Corvette K-225 (1943)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
       "imdbId": "tt0036241",
       "title": "The Outlaw (1943)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -129,8 +157,12 @@
     {
       "imdbId": "tt0044121",
       "title": "The Thing from Another World (1951)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -144,8 +176,12 @@
     {
       "imdbId": "tt0044981",
       "title": "O. Henry's Full House (1952)",
-      "attributes": [
-        "segment \"The Ransom of Red Chief\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"The Ransom of Red Chief\""
+          ]
+        }
       ]
     },
     {
@@ -179,11 +215,15 @@
     {
       "imdbId": "tt0066301",
       "title": "Rio Lobo (1970)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     }
   ],
   "excludedTitles": [
-        {
+    {
       "imdbId": "tt0017778",
       "title": "The Cradle Snatchers (1927)",
       "reason": "silent"

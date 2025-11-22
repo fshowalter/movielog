@@ -6,74 +6,133 @@
     {
       "imdbId": "tt0038214",
       "title": "The Vampire's Ghost (1945)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        },
+        {
+          "text": "original story"
+        }
+      ]
     },
     {
       "imdbId": "tt0038355",
       "title": "The Big Sleep (1946)",
-      "role": "screen play"
+      "credits": [
+        {
+          "text": "screen play"
+        }
+      ]
     },
     {
       "imdbId": "tt0038430",
       "title": "Crime Doctor's Man Hunt (1946)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ]
     },
+    
     {
       "imdbId": "tt0053221",
       "title": "Rio Bravo (1959)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ]
     },
     {
       "imdbId": "tt0054934",
       "title": "Gold of the Seven Saints (1961)",
-      "role": "screenplay by"
-    },   
+      "credits": [
+        {
+          "text": "screenplay by"
+        }
+      ]
+    },
+    
     {
       "imdbId": "tt0056059",
       "title": "Hatari! (1962)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ]
     },
     {
       "imdbId": "tt0061619",
       "title": "El Dorado (1966)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ]
     },
     {
       "imdbId": "tt0066301",
       "title": "Rio Lobo (1970)",
-      "role": "screenplay by"
+      "credits": [
+        {
+          "text": "screenplay by"
+        }
+      ]
     },
     {
       "imdbId": "tt0070334",
       "title": "The Long Goodbye (1973)",
-      "role": "screenplay"
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ]
     },
     {
       "imdbId": "tt0080684",
       "title": "Star Wars: Episode V - The Empire Strikes Back (1980)",
-      "role": "screenplay by"
+      "credits": [
+        {
+          "text": "screenplay by"
+        }
+      ]
     }
+    
   ],
   "excludedTitles": [
     {
       "imdbId": "tt0047634",
       "title": "The Unholy Four (1954)",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "text": "novel",
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ],
-      "role": "novel"
+      "reason": "not screenwriter"
     },
     {
       "imdbId": "tt0055718",
       "title": "13 West Street (1962)",
-      "role": "novel \"The Tiger Among Us\"",
+      "credits": [
+        {
+          "text": "novel \"The Tiger Among Us\""
+        }
+      ],
       "reason": "not screenwriter"
     },
     {
       "imdbId": "tt4160192",
       "title": "The Empire Strikes Back Uncut: Director's Cut (2014)",
       "titleType": "Video",
-      "role": "screenplay",
+      "credits": [
+        {
+          "text": "screenplay"
+        }
+      ],
       "reason": "fan edit"
     }
   ]

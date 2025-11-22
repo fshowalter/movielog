@@ -131,8 +131,12 @@
       "imdbId": "tt0273255",
       "title": "Hansel e Gretel (1990)",
       "titleType": "TV Movie",
-      "attributes": [
-        "uncredited"
+      "credits": [
+        {
+          "attributes": [
+            "uncredited"
+          ]
+        }
       ]
     },
     {
@@ -143,8 +147,12 @@
       "imdbId": "tt0101760",
       "title": "Le porte del silenzio (1991)",
       "titleType": "Video",
-      "attributes": [
-        "as H. Simon Kittay"
+      "credits": [
+        {
+          "attributes": [
+            "as H. Simon Kittay"
+          ]
+        }
       ]
     }
   ],
@@ -229,7 +237,7 @@
       "title": "How to Rob the Bank of Italy (1966)",
       "reason": "comedy"
     },
-        {
+    {
       "imdbId": "tt0061324",
       "title": "Operazione San Pietro (1967)",
       "reason": "comedy"

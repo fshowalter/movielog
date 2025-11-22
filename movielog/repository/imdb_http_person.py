@@ -16,12 +16,17 @@ CREDIT_KINDS = get_args(CreditKind)
 
 
 @dataclass(frozen=True)
+class Role:
+    text: str | None
+    attributes: tuple[str] | None
+
+
+@dataclass(frozen=True)
 class TitleCredit:
     imdb_id: str
     full_title: str
     title_type: str | None
-    role: str | None
-    attributes: tuple[str] | None
+    credits: tuple[Role, ...] | None
 
 
 @dataclass
@@ -40,13 +45,38 @@ class PersonPage:
 type UntypedJson = dict[Any, Any]
 
 
+def _parse_credits(edge: UntypedJson) -> tuple[Role, ...] | None:
+    roles: list[Role] = []
+    role_edges = get_nested_value(edge, ["node", "creditedRoles", "edges"], None)
+
+    if not role_edges:
+        return None
+
+    for role_edge in role_edges:
+        role_text = get_nested_value(role_edge, ["node", "text"], None)
+        role_attributes = get_nested_value(role_edge, ["node", "attributes"], None)
+
+        if not role_text and not role_attributes:
+            continue
+
+        roles.append(
+            Role(
+                text=role_text,
+                attributes=tuple([attribute["text"] for attribute in role_attributes])
+                if role_attributes
+                else None,
+            )
+        )
+
+    if len(roles) == 0:
+        return None
+
+    return tuple(roles)
+
+
 def title_credit_for_edge(edge: UntypedJson) -> TitleCredit:
     title = get_nested_value(edge, ["node", "title", "titleText", "text"])
     year = get_nested_value(edge, ["node", "title", "releaseYear", "year"])
-
-    roles = get_nested_value(edge, ["node", "creditedRoles", "edges"], [{}])
-
-    role = get_nested_value(roles[0], ["node", "text"], None)
 
     return TitleCredit(
         imdb_id=get_nested_value(edge, ["node", "title", "id"]),
@@ -54,12 +84,7 @@ def title_credit_for_edge(edge: UntypedJson) -> TitleCredit:
         title_type=get_nested_value(edge, ["node", "title", "titleType", "text"])
         if get_nested_value(edge, ["node", "title", "titleType", "text"]) != "Movie"
         else None,
-        role=role,
-        attributes=tuple(
-            attribute["text"] for attribute in get_nested_value(roles[0], ["node", "attributes"])
-        )
-        if get_nested_value(roles[0], ["node", "attributes"])
-        else None,
+        credits=_parse_credits(edge),
     )
 
 

@@ -22,7 +22,11 @@
     {
       "imdbId": "tt0073582",
       "title": "Deep Red (1975)",
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by"
+        }
+      ]
     },
     {
       "imdbId": "tt0076786",
@@ -47,10 +51,14 @@
     {
       "imdbId": "tt0100827",
       "title": "Two Evil Eyes (1990)",
-      "attributes": [
-        "segment \"The Black Cat\""
-      ],
-      "role": "directed by"
+      "credits": [
+        {
+          "text": "directed by",
+          "attributes": [
+            "segment \"The Black Cat\""
+          ]
+        }
+      ]
     },
     {
       "imdbId": "tt0104053",

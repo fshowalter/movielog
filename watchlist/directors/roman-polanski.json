@@ -7,6 +7,7 @@
       "imdbId": "tt0056291",
       "title": "Knife in the Water (1962)"
     },
+    
     {
       "imdbId": "tt0059646",
       "title": "Repulsion (1965)"
@@ -74,8 +75,12 @@
     {
       "imdbId": "tt0973844",
       "title": "To Each His Own Cinema (2007)",
-      "attributes": [
-        "segment \"Cinéma Erotique\""
+      "credits": [
+        {
+          "attributes": [
+            "segment \"Cinéma Erotique\""
+          ]
+        }
       ]
     },
     {
@@ -107,9 +112,13 @@
     {
       "imdbId": "tt0058480",
       "title": "The World's Most Beautiful Swindlers (1964)",
-      "attributes": [
-        "segment \"La Rivière de Diamants\"",
-        "scenes deleted"
+      "credits": [
+        {
+          "attributes": [
+            "segment \"La Rivière de Diamants\"",
+            "scenes deleted"
+          ]
+        }
       ],
       "reason": "scenes deleted"
     }

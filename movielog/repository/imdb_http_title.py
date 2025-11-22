@@ -19,7 +19,6 @@ CREDIT_KINDS = get_args(CreditKind)
 
 UNKNOWN_RELEASE_DATES = {
     "tt0273255": "1990-??-??",  # Hansel e Gretel
-    "tt0213101": "1992-05-16",  # The Mystery of Dr Martinu
     "tt0150855": "1991-??-??",  # Hauntedween
     "tt0063183": "1968-??-??",  # Killer Darts
     "tt2087757": "1985-??-??",  # Faust
@@ -182,12 +181,12 @@ def _parse_genres(page_data: UntypedJson) -> list[str]:
 
 def _parse_principal_cast(page_data: UntypedJson) -> list[str]:
     principal_credits = get_nested_value(
-        page_data, ["props", "pageProps", "mainColumnData", "principalCreditsV2"], []
-    )[0]
+        page_data, ["props", "pageProps", "aboveTheFoldData", "castPageTitle", "edges"], []
+    )
 
     return [
-        get_nested_value(credit, ["name", "nameText", "text"])
-        for credit in principal_credits["credits"]
+        get_nested_value(credit, ["node", "name", "nameText", "text"])
+        for credit in principal_credits
     ]
 
 
