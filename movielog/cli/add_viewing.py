@@ -202,7 +202,11 @@ def ask_for_venue(state: State) -> State:
 
 
 def sorted_viewings() -> list[repository_api.Viewing]:
-    return sorted(repository_api.viewings(), key=lambda viewing: viewing.sequence, reverse=True)
+    return sorted(
+        repository_api.viewings(),
+        key=lambda viewing: f"{viewing.date.isoformat()}-{viewing.sequence}",
+        reverse=True,
+    )
 
 
 def build_medium_options() -> list[Option]:
