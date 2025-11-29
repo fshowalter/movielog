@@ -20,7 +20,7 @@ def export(repository_data: RepositoryData) -> None:
     for imdb_id in imdb_low_rated_reviewed_title_ids:
         title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
-        if not review.grade_value or review.grade_value < 8:
+        if not review.grade_value or review.grade_value < 12:
             continue
 
         underrated_surprises.append(

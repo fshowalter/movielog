@@ -20,7 +20,7 @@ def export(repository_data: RepositoryData) -> None:
     for imdb_id in imdb_high_rated_reviewed_title_ids:
         title = repository_data.titles[imdb_id]
         review = repository_data.reviews[title.imdb_id]
-        if not review.grade_value or review.grade_value > 4:
+        if not review.grade_value or review.grade_value > 7:
             continue
 
         overrated_disappointments.append(
