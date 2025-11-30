@@ -1,7 +1,7 @@
 ---
 date: 2025-11-27
 imdb_id: tt0085253
-grade: B
+grade: B-
 slug: blood-rage-1987
 synopsis: When his institutionalized twin brother escapes on Thanksgiving night, a young man embarks on a homicidal rampage through a Jacksonville garden apartment complex.
 ---
