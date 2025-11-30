@@ -3,7 +3,7 @@ imdb_id: tt0054416
 slug: the-two-faces-of-dr-jekyll-1960
 grade: C
 date: 2025-11-25
-synopsis: Homely Dr. Jekyll's serum transforms him into the dashing, sociopathic Edward Hyde—who promptly torments Jekyll's unfaithful wife and her lover, Jekyll's backstabbing best friend, Christopher Lee.
+synopsis: Homely Dr. Jekyll's serum transforms him into the dashing, sociopathic Edward Hyde—who promptly torments Jekyll's unfaithful wife and her lover, Jekyll's backstabbing best friend, played by Christopher Lee.
 ---
 
 Hammer Films gambled on prestige and lost. They doubled their usual script fee for Wolf Mankowitz. They chased BAFTA-winner Laurence Harvey for the lead.[^1] What they got was an intriguing mess--too talky for horror fans, too lurid for the art-house crowd.
