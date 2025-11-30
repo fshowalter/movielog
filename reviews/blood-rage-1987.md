@@ -1,23 +1,29 @@
 ---
-date: 2024-11-25
+date: 2025-11-27
 imdb_id: tt0085253
-title: Blood Rage (1987)
-grade: C+
+grade: B
 slug: blood-rage-1987
+synopsis: When his institutionalized twin brother escapes on Thanksgiving night, a young man embarks on a homicidal rampage through a Jacksonville garden apartment complex.
 ---
 
 Get a group of horror fans together around Thanksgiving and one of them will eventually say, “It’s not cranberry sauce.” This will elicit a chorus of similar replies and knowing smiles all around.
 
-For those not in the know, the phrase originates with this film, a low-budget affair shot in 1983 but shelved until 1987 when it was released theatrically--minus much of its explicit gore--as _Nightmare at Shadow Woods_.
+For those not in the know, the quote originates with this film, a low-budget slasher shot in 1983 but shelved until 1987 when it was released theatrically--minus much of its explicit gore--as _Nightmare at Shadow Woods_. Ironically, it was producer Marianne Kanter--who plays a sanitarium doctor--who mandated the excessive nudity and violence in the first place.[^1]
 
-The story, set primarily in a Jacksonville, Florida apartment complex, sees Mark Soper play Terry, whose twin brother Todd—institutionalized since childhood for a brutal hatchet murder—escapes and returns to the family’s garden apartment home on Thanksgiving night. This causes Terry—who _actually_ committed the murder—to embark on a killing rampage.
+The plot concerns twin brothers played by Mark Soper--one locked up for a childhood hatchet murder he didn't commit, the other free to enjoy the good life until brother dearest escapes on turkey day. Naturally, the guilty twin responds by turning his apartment complex into an abattoir.
 
-The line comes from a scene where Soper, as Terry, stands before a mirror after murdering several folks with a hatchet. Covered in gore, he touches the blood on his clothes then tastes it, remarking, “It’s not cranberry sauce.”
+The film's calling card arrives when Soper, drenched in gore, touches the blood on his shirt, tastes it, and deadpans: “It’s not cranberry sauce.” Soper commits to the absurdity with such glee that the line transcends camp and becomes perversely iconic.
 
-It’s indeed a memorable scene, in a surprisingly memorable film chock full of dichotomies. The execution careens between impressive and embarrassing. It reuses the same locations, but they feel authentic. The camera work feels tepid in its static setups but never amateurish as the exterior night photography maximizes shadows while the interior shots retain a claustrophobic sense of confinement. The violence shocks but the interstitial scenes vacillate between underwritten and awkward. The production design is non-existent, but the practical effects impress with vivid amputations, stabbings, and ample blood.
+And here's the thing about Soper: he's good. As Terry, the psycho, he's charming, even as he exudes a nonchalant menace. As Todd, the wrongly accused innocent, the charisma vanishes and he's genuinely scared and vulnerable. 
 
-Soper’s dual-role performance transcends the material. He convinces as both the charming Terry and the awkward, terrified Todd, and he shines when Terry goes full-crazy, mixing equal parts charm and menace in moments like the aforementioned cranberry sauce line. He's all but winking at the camera in these scenes, and seems to be having a great time with the part.
+Meanwhile, Louise Lasser, playing the boys' mother, appears to have wandered in from a different movie entirely. She delivers her lines like she's reading a shopping list. Director John Grissmer wisely plays her performance for deadpan laughs. One inexplicable cutaway shows her sitting on the kitchen floor, refrigerator door open, mechanically eating leftovers. It shouldn't work. Somehow it does.
 
-Meanwhile Louise Lasser, as Soper’s mother, seems to phone it in over a bad connection. She recites her lines as if reading them from cue cards, and emotes as if playing to the back rows of a cavernous theater. That said, director John Grissmer turns lemons into lemonade, leveraging her performance as deadpan humor, including a memorable moment where he inexplicably cuts to her sitting on the floor in front of her open refrigerator eating leftovers.
+The movie unfolds in a Jacksonville garden apartment complex over Thanksgiving night. The location repeats endlessly but feels authentic in that lonely, fluorescent-lit way cheap apartments do. The cinematography wavers between competent and static, yet the nighttime exteriors maximize shadows effectively, and the interiors maintain genuine claustrophobia.
 
-I can’t argue _Blood Rage_ is a good movie, but I enjoyed it. If you’re a fan of low-budget, independent 1980s slashers, you’re in for a treat.
+Then there are the kills. When this movie delivers violence, it commits. The practical effects impress with vivid detail that rivals the big-studio slashers of the era.
+
+And that's the problem with the _Nightmare at Shadow Woods_ cut: those impressive gore effects are gone. What remains is setup without payoff, tension without release. The producers tried to compensate by padding the runtime with extra footage, including an opening pool scene drowning in redundant exposition. Other scenes now begin with tedious introductions instead of jumping into conversations mid-sentence, robbing the film of some of its manic energy.
+
+That said, is _Blood Rage_ a great movie? No. But for devotees of low-budget '80s slashers, it's a bloody good time. Just make sure you watch the unrated cut and remember: it's not cranberry sauce.
+
+[^1]: John Grissmer, Audio Commentary, _Blood Rage_, Arrow, 2015.
