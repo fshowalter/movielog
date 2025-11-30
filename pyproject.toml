@@ -5,7 +5,7 @@ description = "Console application for managing my movielog, including reviews, 
 readme = "README.md"
 requires-python = "==3.14.0"
 dependencies = [
-  "beautifulsoup4==4.14.2",
+  "beautifulsoup4==4.14.3",
   "loguru==0.7.3",
   "prompt-toolkit==3.0.52",
   "pycountry==24.6.1",
