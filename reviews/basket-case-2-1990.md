@@ -2,7 +2,7 @@
 imdb_id: tt0099108
 slug: basket-case-2-1990
 grade: C
-date: 2025-12-01
+date: 2025-11-30
 synopsis: Duane and his deformed, surgically-separated conjoined twin Belial find refuge in a home for "unique individuals" until a nosy reporter threatens to ruin everything.
 ---
 
