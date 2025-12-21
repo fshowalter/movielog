@@ -37,8 +37,6 @@ def mock_search_title(mocker: MockerFixture) -> MockerFixture:
             genres=["Horror", "Thriller"],
             release_date="1984-04-13",
             release_date_country="USA",
-            aggregate_rating=5.6,
-            vote_count=5600,
             original_title="Friday the 13th: The Final Chapter",
             countries=["USA"],
             runtime_minutes=91,

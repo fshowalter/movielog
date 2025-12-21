@@ -35,8 +35,6 @@ def mock_search_title(mocker: MockerFixture) -> MockerFixture:
             genres=["Western"],
             release_date="1959-03-08",
             release_date_country="USA",
-            aggregate_rating=7.6,
-            vote_count=5600,
             original_title="Rio Bravo",
             countries=["USA"],
             runtime_minutes=141,
