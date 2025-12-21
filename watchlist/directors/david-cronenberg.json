@@ -114,6 +114,7 @@
       "imdbId": "tt2172584",
       "title": "Maps to the Stars (2014)"
     },
+    
     {
       "imdbId": "tt14549466",
       "title": "Crimes of the Future (2022)"
@@ -128,5 +129,11 @@
       ]
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+    {
+      "imdbId": "tt15128518",
+      "title": "David Cronenberg's Early Works (2016)",
+      "reason": "Arrow blu-ray compilation of early films"
+    }
+  ]
 }
