@@ -47,8 +47,6 @@ class TitlePage:
     countries: list[str]
     release_date: str
     release_date_country: str
-    aggregate_rating: float
-    vote_count: int
     runtime_minutes: int
     original_title: str
 
@@ -139,6 +137,27 @@ def _parse_release_date_country(page_data: UntypedJson) -> str:
 
 
 def _parse_release_date(imdb_id: str, page_data: UntypedJson) -> str:
+    production_status_history = get_nested_value(
+        page_data,
+        ["props", "pageProps", "mainColumnData", "productionStatus", "productionStatusHistory"],
+        [],
+    )
+
+    if not production_status_history:
+        production_status_history = []
+
+    production_status_history_release_date: str | None = next(
+        (
+            get_nested_value(history_item, ["date"], None)
+            for history_item in production_status_history
+            if get_nested_value(history_item, ["status", "id"], None) == "released"
+        ),
+        None,
+    )
+
+    if production_status_history_release_date:
+        return production_status_history_release_date
+
     release_date = get_nested_value(
         page_data, ["props", "pageProps", "mainColumnData", "releaseDate"], None
     )
@@ -198,25 +217,6 @@ def _parse_countries(page_data: UntypedJson) -> list[str]:
     return [country["text"] for country in countries]
 
 
-def _parse_aggregate_rating(page_data: UntypedJson) -> float:
-    return float(
-        get_nested_value(
-            page_data,
-            ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "aggregateRating"],
-        )
-    )
-
-
-def _parse_vote_count(page_data: UntypedJson) -> int:
-    vote_count = get_nested_value(
-        page_data, ["props", "pageProps", "aboveTheFoldData", "ratingsSummary", "voteCount"]
-    )
-
-    assert isinstance(vote_count, int)
-
-    return vote_count
-
-
 def _parse_runtime_minutes(page_data: UntypedJson) -> int:
     runtime_seconds = get_nested_value(
         page_data, ["props", "pageProps", "aboveTheFoldData", "runtime", "seconds"]
@@ -268,6 +268,4 @@ def get_title_page(imdb_id: str) -> TitlePage:
         credits=_build_name_credits_for_title_page(page_data),
         release_date=_parse_release_date(imdb_id, page_data),
         release_date_country=_parse_release_date_country(page_data),
-        aggregate_rating=_parse_aggregate_rating(page_data),
-        vote_count=_parse_vote_count(page_data),
     )

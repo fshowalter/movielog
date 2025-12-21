@@ -3,25 +3,12 @@
   "slug": "bela-lugosi",
   "imdbId": "nm0000509",
   "titles": [
-    
     {
       "imdbId": "tt0020492",
       "title": "The Thirteenth Chair (1929)",
       "credits": [
         {
           "text": "Inspector Delzante"
-        }
-      ]
-    },
-    {
-      "imdbId": "tt0021025",
-      "title": "King of Jazz (1930)",
-      "credits": [
-        {
-          "text": "Emcee - Hungarian Version",
-          "attributes": [
-            "uncredited"
-          ]
         }
       ]
     },
@@ -43,7 +30,6 @@
         }
       ]
     },
-    
     {
       "imdbId": "tt0021522",
       "title": "Viennese Nights (1930)",
@@ -239,7 +225,6 @@
         }
       ]
     },
-    
     {
       "imdbId": "tt0026108",
       "title": "The Best Man Wins (1935)",
@@ -697,6 +682,19 @@
       "reason": "silent"
     },
     {
+      "imdbId": "tt0021025",
+      "title": "King of Jazz (1930)",
+      "credits": [
+        {
+          "text": "Emcee - Hungarian Version",
+          "attributes": [
+            "uncredited"
+          ]
+        }
+      ],
+      "reason": "self as host in Hungarian version only"
+    },
+    {
       "imdbId": "tt0021432",
       "title": "Such Men Are Dangerous (1930)",
       "credits": [
@@ -714,7 +712,7 @@
           "text": "Mr. Fu Wong"
         }
       ],
-       "reason": "spanish language version of The Mysterious Mr. Wong (1934)"
+      "reason": "spanish language version of The Mysterious Mr. Wong (1934)"
     }
   ]
 }
