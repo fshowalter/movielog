@@ -7,7 +7,6 @@
       "imdbId": "tt0056291",
       "title": "Knife in the Water (1962)"
     },
-    
     {
       "imdbId": "tt0059646",
       "title": "Repulsion (1965)"
@@ -110,6 +109,11 @@
   ],
   "excludedTitles": [
     {
+      "imdbId": "tt13492622",
+      "title": "Roman Polanski (1962)",
+      "reason": "short film collection"
+    },
+    {
       "imdbId": "tt0058480",
       "title": "The World's Most Beautiful Swindlers (1964)",
       "credits": [
@@ -121,11 +125,6 @@
         }
       ],
       "reason": "scenes deleted"
-    },
-    {
-      "imdbId": "tt13492622",
-      "title": "Roman Polanski (1962)",
-      "reason": "short film collection"
     }
   ]
 }

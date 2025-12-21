@@ -3,10 +3,7 @@
   "slug": "quentin-tarantino",
   "imdbId": "nm0000233",
   "titles": [
-    {
-      "imdbId": "tt0359715",
-      "title": "My Best Friend's Birthday (1987)"
-    },
+
     {
       "imdbId": "tt0105236",
       "title": "Reservoir Dogs (1992)"
@@ -83,5 +80,11 @@
       "title": "Once Upon a Time... in Hollywood (2019)"
     }
   ],
-  "excludedTitles": []
+  "excludedTitles": [
+        {
+      "imdbId": "tt0359715",
+      "title": "My Best Friend's Birthday (1987)",
+      "reason": "abandoned"
+    }
+  ]
 }
