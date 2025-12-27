@@ -34,7 +34,7 @@ And later, when Kirsten's little brother, alarmed, asks, “What’s wrong? Are 
 
 Bad as they are, these exchanges achieve a kind of surreal absurdism.
 
-But the same can't be said of the performances. Borah Silver, as Kirsten's grandfather, tries to channel Olivier from <span data-imdb-id="tt0077269">_The Boys from Brazil_</span> but his German accent keeps taking detours through Brooklyn. Even Haggerty seems lost. Perhaps if his co-stars were bears, he'd have connected better with the material.
+The same can't be said of the performances. Borah Silver, as Kirsten's grandfather, tries to channel Olivier from <span data-imdb-id="tt0077269">_The Boys from Brazil_</span> but his German accent keeps taking detours through Brooklyn. Even Haggerty seems lost. Perhaps if his co-stars were bears, he'd have connected better with the material.
 
 And yet, I was never bored. The film careens from one outrageous beat to the next with admirable commitment. The elf itself barely appears, despite the plural title suggesting an army of the things. The real villains are Neo-Nazis. The elf mostly lurks offscreen, occasionally stabbing someone to remind you it exists.
 
