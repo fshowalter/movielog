@@ -3,7 +3,7 @@ date: 2025-11-30
 imdb_id: tt0039800
 grade: F-
 slug: scared-to-death-1946
-synopsis: From the morgue slab, a corpse narrates how a tangled affair involving hypnotist Bela Lugosi, a midget sidekick, her suspicious doctor, and a mysterious green mask led to her demise.
+synopsis: From the morgue slab, a corpse narrates how a tangled affair involving hypnotist Bela Lugosi, his midget sidekick, her suspicious doctor, and a mysterious green mask led to her demise.
 ---
 
 This 1947 turkey--Bela Lugosi's only color film[^1]--opens with a corpse narrating her own demise. It's the most interesting thing about her. What follows is 68 minutes that feel like 168, a talky slog through exposition delivered with all the finesse of an amateur production.
