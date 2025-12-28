@@ -24,8 +24,8 @@ There's one spectacular sequence: a restaurant massacre that spills into the str
 
 Even the title proves false advertising. "An Eye for an Eye" promises revenge. What we get is Fung hitting Cheong once with a baseball bat so hard he flies through a window into a pool. He's dead. Roll credits. 
 
-After ninety minutes of stylized excess, this moment needed raw brutality--think the baseball bat scene in _Casino_. A visceral beating capable of jolting the audience out of their desensitization, not one-hit cartoon physics. When you can't even deliver on your titular promise, you've failed as a movie.
+After ninety minutes of stylized excess, this moment needed raw brutality--think the baseball bat scene in <span data-imdb-id="tt0112641">_Casino_</span>. A visceral beating capable of jolting the audience out of their desensitization, not one-hit cartoon physics. When you can't even deliver on your titular promise, you've failed as a movie.
 
-Max Mok, playing Chung, emerges as the film's sole asset. He brings genuine charisma. You wish the movie belonged to him. Or to Cheong--a straight _Scarface_-style rise and fall might have worked. But the filmmakers wanted something original. They forgot that formulas exist for a reason.
+Max Mok, playing Chung, emerges as the film's sole asset. He brings genuine charisma. You wish the movie belonged to him. Or to Cheong--a straight <span data-imdb-id="tt0023427">_Scarface_</span>-style rise and fall might have worked. But the filmmakers wanted something original. They forgot that formulas exist for a reason.
 
 _An Eye for an Eye_ proves that originality without execution is just another way to bore an audience.
