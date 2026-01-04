@@ -29,7 +29,7 @@ The characters have everything they need to escape their private hells. They jus
 
 The film ends where it began: another communion, another nearly empty church. We've come full circle. Nothing has changed. Hell, Bergman suggests, isn't fire and brimstone. It's being trapped in your own head.
 
-In our age of echo chambers masquerading as communities, "Winter Light" feels more urgent than ever. Bergman shows us people who could save each other if they'd only look beyond themselves. They never do.
+In our age of echo chambers masquerading as communities, _Winter Light_ feels more urgent than ever. Bergman shows us people who could save each other if they'd only look beyond themselves. They never do.
 
 The film is quietly brutal. It refuses comfort. It offers no easy answers. But it insists we ask the questions.
 
